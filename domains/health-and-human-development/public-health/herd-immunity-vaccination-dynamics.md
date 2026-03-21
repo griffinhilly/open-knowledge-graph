@@ -31,6 +31,45 @@ Use mathematical models to calculate vaccination coverage needed for herd immuni
 ## Common Misconceptions
 Herd immunity means zero transmission rather than prevention of sustained transmission. Herd immunity threshold is universal across populations rather than depending on R₀. Confusing herd immunity with individual protection from vaccination.
 
+## Questions
+
+```yaml
+- question: "A new respiratory pathogen has a basic reproduction number (R₀) of 4. What proportion of the population must be immune to interrupt sustained transmission?"
+  type: multiple-choice
+  options:
+    - "25% — because 1/R₀ = 0.25"
+    - "50% — because half the population immune reduces R₀ to 2"
+    - "75% — because the threshold is 1 − (1/R₀) = 1 − 0.25 = 0.75"
+    - "90% — because a safety margin above 1/R₀ is always required"
+  answer: 2
+  explanation: "The herd immunity threshold is p_c = 1 − (1/R₀). For R₀ = 4, p_c = 1 − 0.25 = 0.75, or 75%. Once 75% of the population is immune, the effective reproduction number Rₑ = R₀ × (1 − p) = 4 × 0.25 = 1, meaning each case generates exactly one new case on average. To interrupt transmission (Rₑ < 1), coverage must exceed this threshold. Option A (25%) confuses the threshold with its complement."
+
+- question: "A country reports 93% national measles vaccination coverage, above the estimated threshold of 92% for interrupting transmission. Nevertheless, a measles outbreak occurs in one city. What best explains this?"
+  type: multiple-choice
+  options:
+    - "National average above the threshold guarantees that outbreaks cannot occur anywhere in the country"
+    - "Measles R₀ must have increased beyond historical estimates, raising the threshold above 93%"
+    - "Unvaccinated individuals are geographically or socially clustered, creating local pockets where susceptible density exceeds the threshold even as the national average does not"
+    - "Vaccine efficacy has declined, so vaccinated individuals are not fully protected"
+  answer: 2
+  explanation: "Herd immunity models assume random mixing, but real populations cluster by household, school, neighborhood, and social network. When unvaccinated individuals cluster together — due to shared vaccine hesitancy, cultural concentration, or access barriers — local susceptible density can exceed the critical threshold even when the national average meets it. A national coverage of 93% may mask local pockets of 60–70% coverage large enough to sustain measles transmission chains. This is why uniform distribution of immunity matters as much as the aggregate number."
+
+- question: "A pathogen with a higher R₀ requires lower vaccination coverage to achieve herd immunity, because fewer susceptible individuals are needed to sustain transmission."
+  type: true-false
+  answer: false
+  explanation: "This reverses the logic. Higher R₀ means each infectious person infects MORE susceptible people, so a greater proportion of the population must be immune to bring Rₑ below 1. The threshold formula p_c = 1 − (1/R₀) shows that as R₀ increases, the threshold approaches 1 (requiring near-universal immunity). Measles (R₀ ≈ 12–18) requires 92–95% coverage; a pathogen with R₀ = 2 only needs 50%. Higher transmissibility demands higher coverage."
+
+- question: "The primary public health value of herd immunity is that it protects individuals who cannot be vaccinated — such as newborns, immunocompromised individuals, and those with contraindications."
+  type: true-false
+  answer: true
+  explanation: "This indirect protection is the core ethical and epidemiological argument for vaccination as a social responsibility. Individuals who are too young, immunocompromised, or contraindicated depend entirely on community immunity for their protection — they cannot generate their own vaccine-induced immunity. When coverage falls below the herd immunity threshold, these high-risk groups are disproportionately exposed. This explains why vaccine hesitancy in one segment of the community can harm people who had no choice about vaccination."
+
+- question: "Why is meeting the average national vaccination coverage threshold insufficient to prevent all outbreaks in a highly vaccinated country?"
+  type: short-answer
+  answer: "The herd immunity threshold assumes uniform random mixing across the population, which rarely holds. People mix preferentially within households, schools, neighborhoods, and cultural communities. When unvaccinated individuals are spatially or socially clustered, local susceptible density can exceed the critical threshold even when national average coverage meets it. These clusters can sustain local transmission chains independently of the national statistic. Preventing outbreaks requires both meeting the threshold on average AND ensuring that immunity is equitably distributed, without high-susceptibility pockets."
+  explanation: "This is why equity in vaccination coverage is an epidemiological necessity, not merely a social aspiration. Aggregate national statistics can conceal local vulnerabilities. Public health monitoring must track sub-population coverage levels — by geography, school, or community — to identify pockets at risk before outbreaks begin."
+```
+
 ## Explainer
 
 From your study of the basic reproduction number and transmission models, you know that R₀ describes how many people one infectious individual infects in a fully susceptible population. R₀ is the theoretical ceiling — what happens when everyone is susceptible. In reality, some fraction of the population is already immune (from prior infection or vaccination), and those immune individuals cannot transmit the pathogen onward. The **effective reproduction number** (Rₑ) at any moment equals R₀ multiplied by the fraction of the population that is still susceptible: Rₑ = R₀ × (1 − p), where p is the proportion immune. For a disease to spread, Rₑ must exceed 1. For transmission chains to die out on their own, Rₑ must fall below 1.

@@ -33,6 +33,45 @@ Analyze short-run vs. long-run adjustment using a two-panel diagram: the firm's 
 - Zero long-run economic profit does not mean firms are indifferent to operating; all factors including capital are earning their opportunity cost.
 - Perfect competition is a model, not a description of any real market — but it serves as an efficiency benchmark.
 
+## Questions
+
+```yaml
+- question: "A perfectly competitive bakery earns zero economic profit this year. Its accountant reports that all bills are paid and the owners took a salary. Which interpretation is correct?"
+  type: multiple-choice
+  options:
+    - "The owners' capital and labor are earning exactly what they could earn in their next-best alternatives — resources are not misallocated"
+    - "The bakery is on the verge of shutting down because zero economic profit means no financial return"
+    - "The bakery's accounting profit is also zero, meaning it made no money at all"
+    - "The bakery should exit the market since it cannot cover its opportunity costs"
+  answer: 0
+  explanation: "Zero economic profit is the long-run equilibrium outcome in perfect competition, not a crisis. Economic profit is surplus above opportunity cost — so zero economic profit means every factor (the owners' time, capital, workers' labor) is earning exactly what it could earn in its next-best use. Accounting profit is typically positive even when economic profit is zero, because accounting profit doesn't subtract the opportunity cost of owner-supplied resources. Options B, C, and D all reflect the common misconception that 'zero profit' means financial distress."
+
+- question: "A perfectly competitive industry is currently earning positive economic profits. Which sequence correctly describes the long-run adjustment?"
+  type: multiple-choice
+  options:
+    - "New firms enter the market → market supply shifts rightward → price falls → economic profits are competed away toward zero"
+    - "Existing firms raise prices to protect margins → consumers reduce quantity demanded → a new equilibrium forms at higher prices"
+    - "Existing firms expand output individually → the market price rises to absorb extra supply"
+    - "The government intervenes to distribute profits fairly among all firms in the industry"
+  answer: 0
+  explanation: "Positive economic profits signal that resources in this industry earn more than their next-best use, attracting entry from outside firms. Each entrant adds to market supply, shifting the supply curve rightward and pushing the equilibrium price down. This continues until price equals minimum LRAC and economic profits reach zero. Individual firms cannot raise prices in perfect competition — they are price-takers facing a horizontal demand curve. Any firm that prices above market loses all customers to identical competitors."
+
+- question: "In long-run perfectly competitive equilibrium, the market price equals the minimum point of each firm's long-run average cost curve."
+  type: true-false
+  answer: true
+  explanation: "This is the precise condition for long-run perfectly competitive equilibrium: P = minimum LRAC. Entry eliminates profits (which requires P ≤ LRAC) and exit eliminates losses (which requires P ≥ LRAC), so the only stable long-run price is P = LRAC. And because a firm producing at minimum LRAC minimizes its cost per unit, this is the point of productive efficiency. The long-run supply curve is therefore horizontal at this minimum LRAC value."
+
+- question: "A perfectly competitive firm earning zero economic profit should exit the market because it is not generating any returns for its owners."
+  type: true-false
+  answer: false
+  explanation: "Zero economic profit means the firm is generating exactly the returns its owners would earn elsewhere — neither more nor less. Owners are receiving fair compensation for their capital, time, and entrepreneurial effort at market rates. There is no reason to exit: the firm is doing as well as any alternative use of those resources. Exit would only make sense if economic profit were negative (the firm earning less than its opportunity cost). This is perhaps the most important conceptual point about perfect competition: 'normal profit' is baked into zero economic profit."
+
+- question: "Why does long-run entry and exit in a perfectly competitive market drive economic profits to exactly zero, and what does this imply about resource allocation?"
+  type: short-answer
+  answer: "Positive economic profits attract new entrants because resources in this industry earn more than their opportunity cost. Entry increases market supply, lowering the equilibrium price until profits disappear. Negative economic profits trigger exit: resources leave for better alternatives, reducing supply and raising prices until losses disappear. The stable attractor is zero economic profit, where P = minimum LRAC. This implies efficient resource allocation: no resources are trapped in industries where they underperform, and no resources are blocked from entering industries where they add more value. Both productive efficiency (minimum cost per unit) and allocative efficiency (P = MC) are achieved simultaneously."
+  explanation: "The entry-exit mechanism is the engine of competitive markets. It ensures that any above-normal return is competed away and any below-normal return triggers resource reallocation. Understanding this dynamic is also the key to understanding welfare losses in other market structures — monopolies and oligopolies can sustain positive economic profits precisely because barriers to entry prevent this corrective mechanism from operating."
+```
+
 ## Explainer
 
 The defining feature of a perfectly competitive firm is that it is a **price-taker**: it faces a horizontal demand curve at the market price. This follows from the assumptions you know — many small sellers, homogeneous product, perfect information — which ensure that no single firm can influence price. If a firm raises its price even slightly, all customers switch to identical competitors; there is no reason to charge less than the market price. As a result, marginal revenue equals price (MR = P), and the profit-maximization rule MR = MC simplifies to P = MC. The firm just produces until the price it receives exactly covers the cost of the last unit.

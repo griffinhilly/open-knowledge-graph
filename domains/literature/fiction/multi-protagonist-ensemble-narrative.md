@@ -27,6 +27,45 @@ Read an ensemble novel and map how narrative shifts between characters. Analyze 
 ## Common Misconceptions
 That ensemble narratives are confusing; that they diffuse emotional impact; that they're only for literary fiction; that all characters need equal page-time; that ensemble characters must be connected by family or romance.
 
+## Questions
+
+```yaml
+- question: "A critic argues that ensemble narratives inevitably dilute emotional investment because readers cannot form deep attachments to multiple protagonists simultaneously. Which response best challenges this from an ensemble craft perspective?"
+  type: multiple-choice
+  options:
+    - "Ensemble narratives compensate for shallower individual characterization by using faster pacing and more plot incident"
+    - "Emotional investment in ensemble narratives is cumulative — multiple arcs illuminate each other by contrast and comparison, creating richer complexity than a single arc can achieve"
+    - "Readers instinctively consolidate their investment into one protagonist and treat the others as supporting characters"
+    - "The criticism applies only to poorly written ensembles; skilled authors simply give each character equal page-time throughout the novel"
+  answer: 1
+  explanation: "The misconception that ensembles diffuse emotional impact has it backwards: a well-managed ensemble creates richer emotional complexity by letting readers inhabit multiple interior lives simultaneously. In Middlemarch or Anna Karenina, the ensemble form allows readers to experience the same social pressures and moral choices through contrasting consciousnesses — each illuminating the others. The parallel arcs don't compete for the reader's feeling; they deepen it. The craft challenge is earning each attachment separately, not choosing between them."
+
+- question: "When an ensemble novel shifts perspective immediately after a major revelation — moving to a character who doesn't yet know what happened — the primary narrative effect is:"
+  type: multiple-choice
+  options:
+    - "Pace reduction, giving the reader space to process the revelation before encountering its consequences"
+    - "Deliberate withholding and dramatic irony — the revelation is reframed through another character's ignorance, changing its meaning"
+    - "A signal that the new character's arc is thematically unrelated to the one just interrupted"
+    - "A marker that the character left behind is now a secondary protagonist whose story has concluded"
+  answer: 1
+  explanation: "The timing of perspective shifts in ensemble narrative is itself a craft decision, not merely structural convenience. A shift just after a revelation forces the reader to hold the knowledge while inhabiting a character who doesn't have it — creating dramatic irony and reframing the revelation through contrast. The reader experiences what the unaware character cannot, which generates tension, sympathy, and often the novel's deepest effects. This is the technique Austen, Tolstoy, and George Eliot all exploit."
+
+- question: "In ensemble narratives, parallel arcs — different characters navigating analogous situations — serve a structural purpose: the comparison between arcs generates meaning that neither arc could produce alone."
+  type: true-false
+  answer: true
+  explanation: "Parallel arcs are not mere redundancy or structural filler; they are an ensemble narrative's primary tool for producing meaning through comparison. When two characters face analogous choices and diverge, the reader understands both characters' situations more richly than if either were followed alone. The contrast makes visible the contingency of each character's path, the role of social position or temperament, and the range of possible responses to the same conditions. The ensemble form makes this structural comparison available in a way that single-protagonist narrative cannot."
+
+- question: "To maintain equal emotional investment across an ensemble cast, all protagonists must receive roughly equal page-time throughout the novel."
+  type: true-false
+  answer: false
+  explanation: "Equal page-time is neither necessary nor sufficient for equal emotional investment. What matters is the depth and quality of access to each character's interiority, the significance of the moments assigned to each, and how the arcs are positioned relative to each other. Some ensemble novels give certain protagonists longer runs before switching; others shift rapidly. The timing of shifts is a craft decision about effect, not a formula for fairness. A character who appears in fewer chapters can carry equal or greater narrative weight if those chapters are placed at crucial structural moments."
+
+- question: "What does 'the timing of perspective shifts carries meaning' mean in ensemble narrative craft? Give an example of how shifting at a different moment would change the story's effect."
+  type: short-answer
+  answer: "In ensemble narrative, when the author moves between characters is itself an interpretive act. Shifting at a moment of suspense withholds resolution and forces readers to inhabit another world while wondering what happened. Shifting just after a revelation creates dramatic irony — readers carry knowledge that the new character lacks. For example: if a novel about two siblings shifts to the younger one immediately after the older discovers a terrible family secret, the reader experiences the younger sibling's ordinary day against the weight of what the reader knows. The contrast between their innocence and the reader's knowledge is the effect. Shifting to the younger sibling before the discovery would instead build anticipation through the younger's perspective — a fundamentally different experience."
+  explanation: "This is the craft-level insight that distinguishes fluent ensemble analysis from surface-level reading. Students often describe ensemble novels as 'switching between characters,' missing that the switch itself — when it happens, what it interrupts, what it reframes — is one of the novelist's primary tools for generating meaning."
+```
+
 ## Explainer
 
 From your study of point-of-view and narrative perspective, you know that a narrator's position determines what readers can access: their knowledge, their emotional experience, their interpretive frame. A **multi-protagonist ensemble narrative** multiplies this effect deliberately. Instead of anchoring the reader inside one consciousness, the novel distributes that intimacy across two or more characters who share roughly equal narrative weight. Each protagonist becomes a lens, and the ensemble form asks: what can only be seen by moving between lenses?

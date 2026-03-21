@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Human capital—skills, knowledge, and health—are as important as physical capital for development. Individuals with more education earn higher wages; countries with educated workforces attract investment and innovate faster. However, quality is critical: enrollment has risen globally, but learning outcomes remain weak in many countries, limiting economic returns.
 
+## Questions
+
+```yaml
+- question: "Country X increased primary school enrollment from 40% to 90% over 20 years. Yet per-capita GDP growth has not improved proportionally, and wage premiums for completing primary school remain low. Which explanation is most consistent with the human capital framework in development economics?"
+  type: multiple-choice
+  options:
+    - "The country should have focused on secondary rather than primary education, since only post-primary schooling raises wages"
+    - "Enrollment growth without learning quality gains produces little actual human capital; if children complete school without acquiring functional skills, the economic returns are minimal"
+    - "The Mincerian returns to education have declined globally, making education a poor investment in any country"
+    - "Physical capital — factories and infrastructure — must be built before human capital can generate economic growth"
+  answer: 1
+  explanation: "The core insight is that enrollment is a measure of access, not learning. If the classrooms in which enrollment increased have undertrained teachers, no textbooks, and 80 students per room, children accumulate years of schooling on paper while acquiring few marketable skills. Wages respond to skills, not to time spent in buildings. This quality gap explains the 'schooling paradox' visible across much of Sub-Saharan Africa and South Asia: dramatic enrollment gains accompanied by stagnant learning outcomes and disappointing economic returns to education."
+
+- question: "A development economist estimates that each additional year of schooling raises individual wages by 10% in Country Z (Mincerian return = 10%). A policymaker concludes that ensuring all workers complete 8 additional years of schooling will raise average wages by 80%. What important caveat does the human capital framework suggest this conclusion misses?"
+  type: multiple-choice
+  options:
+    - "The Mincerian return applies only to secondary education, not primary"
+    - "The 10% figure is a maximum; average returns are always lower"
+    - "The Mincerian return measures returns to actual skills and learning; if the additional years involve low-quality schooling that produces little human capital, the wage increase will be far smaller than 80%"
+    - "Wage returns compound multiplicatively, so 8 years yields 10%^8, not 80%"
+  answer: 2
+  explanation: "Mincerian returns are estimated from variation in actual educational quality and labor market outcomes — they capture the wage gain associated with real skill acquisition, not merely with seat-time. If policymakers add eight years of low-quality schooling, the credential accumulates but the skill does not, and wages reflect skill. This is precisely the mechanism behind the disappointing returns observed in countries with high enrollment but low learning: the implicit assumption that 'more years = more human capital' is violated when school quality is insufficient."
+
+- question: "Because education and health are both components of human capital, a country that invests heavily in one while deferring the other can still achieve strong human capital returns — the two investments are substitutes."
+  type: true-false
+  answer: false
+  explanation: "Education and health are complements, not substitutes. A highly educated worker who is chronically ill, frequently absent, or cognitively impaired by childhood malnutrition cannot realize her productive potential. Conversely, a healthy population without skills cannot adapt technology or participate in knowledge-intensive industries. The returns to each investment are conditioned on the other: childhood health interventions raise school attendance and learning capacity; quality schooling requires healthy children who can concentrate. Countries that have invested in both simultaneously (e.g., South Korea, Singapore) have seen substantially greater development returns than those that treated them as alternatives."
+
+- question: "A country where 85% of children complete primary school, but where learning assessments show that fewer than half can read a basic paragraph upon graduation, would correctly be described as having high human capital stock in the education dimension."
+  type: true-false
+  answer: false
+  explanation: "Human capital in the education dimension is measured by skills and knowledge, not enrollment or credentials. A graduation rate of 85% tells you about access to schooling; it says nothing about whether learning occurred. If fewer than half of graduates can read, the human capital stock is low despite high enrollment — the schooling produced a credential without producing the cognitive capability that makes workers productive. This is the quality gap at the center of development education economics, and conflating enrollment with human capital is precisely the error the field has worked to correct."
+
+- question: "Why does the distinction between years of schooling (quantity) and actual skills acquired (quality) matter for predicting whether a country's investment in expanding school enrollment will produce economic growth?"
+  type: short-answer
+  answer: "Economic growth through human capital requires workers who can actually perform more productive tasks — read instructions, adapt to new technologies, solve problems, communicate effectively. These capabilities come from learning, not from time in classrooms. If expanded enrollment occurs in low-quality schools, children accumulate years of schooling but not skills, and employers, seeing this, may not pay wage premiums for credentials that don't signal genuine capability. The mechanism through which education drives growth — higher-skilled workers → higher productivity → higher wages → more output — is broken if schooling doesn't produce skills. The quantity of schooling is a policy input; human capital is the outcome; and they are only linked when quality is sufficient."
+  explanation: "This distinction also has policy implications: it redirects development investment from simply building schools (quantity) to ensuring teacher quality, adequate materials, class sizes, and learning assessment (quality). South Korea's development success was not just that they built schools — it was that those schools produced workers who could actually staff an electronics and semiconductor industry. Enrollment statistics alone could never have predicted or produced that outcome."
+```
+
 ## Explainer
 
 From economic growth theory, you know that output depends on more than just physical capital — machines and factories face diminishing returns, so something else must explain why some countries keep growing while others stagnate. **Human capital** is a large part of the answer. It refers to the productive knowledge, skills, and health embodied in people, and it enters the growth equation much like physical capital does: more human capital means more output per worker, and investing in human capital yields returns just as investing in machines does.

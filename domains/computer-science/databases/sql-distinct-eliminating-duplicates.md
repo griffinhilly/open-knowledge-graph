@@ -27,6 +27,45 @@ Start with simple single-column DISTINCT queries, then apply it to multi-column 
 ## Common Misconceptions
 DISTINCT does not affect the underlying data—it only filters the result set. Using DISTINCT with ORDER BY requires the ordering columns to be in the SELECT list (in some databases).
 
+## Questions
+
+```yaml
+- question: "A table has columns: first_name, last_name, department. Compared to SELECT DISTINCT first_name FROM employees, how will SELECT DISTINCT first_name, department FROM employees affect the row count?"
+  type: multiple-choice
+  options:
+    - "It will decrease, since more filtering criteria are applied"
+    - "It will stay the same, since first_name already determines uniqueness"
+    - "It will increase or stay the same, since more column combinations can be unique"
+    - "It will always exactly double, since department doubles the grouping dimensions"
+  answer: 2
+  explanation: "DISTINCT applies to the entire combination of selected columns, not a single column. Adding 'department' means two rows with the same first_name but different departments are now distinct — so the query can only return more rows, never fewer. The intuition that 'more conditions = fewer results' is backwards here: DISTINCT is about uniqueness of the whole row, not filtering down a column."
+
+- question: "A JOIN between orders and customers is returning unexpected duplicate rows. A developer adds DISTINCT to the SELECT to fix it. What is the most likely underlying problem?"
+  type: multiple-choice
+  options:
+    - "The orders table has corrupted data entries that need to be cleaned"
+    - "A missing or incorrect join condition is causing unintended many-to-many matches"
+    - "DISTINCT is being applied before the WHERE clause, producing wrong results"
+    - "The database engine is not correctly processing the specified join type"
+  answer: 1
+  explanation: "When a JOIN produces unexpected duplicates, the root cause is almost always a query logic error: a missing join condition, joining on a non-unique column, or an unintended many-to-many relationship. Adding DISTINCT hides the symptom without fixing the cause. The correct response is to diagnose why duplicates appear and fix the join logic — otherwise the band-aid may mask a deeper data integrity issue."
+
+- question: "SELECT DISTINCT city, state FROM customers can return more rows than SELECT DISTINCT city FROM the same table."
+  type: true-false
+  answer: true
+  explanation: "DISTINCT deduplicates based on the entire selected row. Two rows with the same city but different states (Portland, OR and Portland, ME) are distinct when both columns are selected, but collapse to one row when only city is selected. Adding columns to a DISTINCT query generally increases the number of distinct combinations, because there are more ways for rows to differ."
+
+- question: "The DISTINCT keyword modifies the underlying table data by permanently removing duplicate rows."
+  type: true-false
+  answer: false
+  explanation: "DISTINCT only affects the query result set — it has zero effect on stored data. The underlying table is completely unchanged. DISTINCT is a presentation filter applied when producing output. To permanently remove duplicates from a table, you would need DELETE statements with deduplication logic, not a SELECT DISTINCT."
+
+- question: "When should you be suspicious that DISTINCT is hiding a bug rather than solving a legitimate problem?"
+  type: short-answer
+  answer: "When duplicates appear after a JOIN and you're adding DISTINCT to make them go away. Legitimate DISTINCT uses are exploratory (what unique values exist in this column?) or when the query design inherently produces one value per combination. But JOIN-produced duplicates should trigger the question: why are these duplicates appearing? A missing join condition or unintended many-to-many relationship is the usual culprit, and fixing the JOIN logic is the correct solution."
+  explanation: "DISTINCT is a tool for asking 'what unique values exist?', not a general-purpose deduplication patch. Using it to suppress JOIN duplicates is an antipattern: it hides a query logic error, masks potential data integrity problems, and adds unnecessary performance cost (the database must hash or sort the entire result set to identify duplicates)."
+```
+
 ## Explainer
 
 When you run a SELECT query, the result set can contain duplicate rows — especially after joins or when selecting a subset of columns. If you select just the `city` column from a million-row customer table, you might get the same city name thousands of times. **DISTINCT** tells the database to collapse these duplicates, returning only one row for each unique combination of values in your selected columns.

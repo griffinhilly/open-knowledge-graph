@@ -22,6 +22,45 @@ A calling convention specifies how functions are called: how arguments are passe
 ## How It's Best Learned
 Study the ABI for your target platform (x86-64 System V ABI, ARM EABI, etc.). Implement function calls that interoperate with system libraries.
 
+## Questions
+
+```yaml
+- question: "A function compiled for x86-64 Linux uses register r12 as a scratch register without saving or restoring it. The function is called from another function that stored a live value in r12 before the call. What happens?"
+  type: multiple-choice
+  options:
+    - "Nothing — the calling function is responsible for saving r12 before any call it makes"
+    - "A compiler warning is generated, but execution is correct"
+    - "The caller's r12 value is silently overwritten, causing data corruption in the calling function"
+    - "The processor raises an exception because r12 is read-only during function calls"
+  answer: 2
+  explanation: "In the x86-64 System V ABI, r12 is a callee-saved register. This means the called function (callee) is responsible for preserving it — if the callee wants to use r12, it must push it onto the stack on entry and pop it before returning. If the callee fails to do this and uses r12 as scratch space, the caller's live value is destroyed. No processor exception occurs; the hardware doesn't enforce ABI contracts — that's a software convention. The result is silent data corruption, which is one of the most insidious bugs in low-level code."
+
+- question: "On Windows x64, the calling convention requires the caller to allocate 32 bytes of 'shadow space' on the stack even when all arguments fit in the four parameter registers. What is the purpose of this shadow space?"
+  type: multiple-choice
+  options:
+    - "It holds the return address, since Windows doesn't use a link register like ARM does"
+    - "It provides space the callee may use to spill its register arguments for debugging or variadic function handling"
+    - "It aligns the stack to a 64-byte cache line boundary for performance"
+    - "It stores the caller-saved registers automatically, so the compiler doesn't need to generate save/restore instructions"
+  answer: 1
+  explanation: "The shadow space (also called 'home space') is a 32-byte area the caller must reserve above the return address. It is *owned by the callee* — the callee can use it to write out the register arguments (rcx, rdx, r8, r9) if needed, for example to support variadic functions (which need all arguments contiguous in memory) or for debugger inspection. The caller allocates it but doesn't use it. This differs from Linux's System V ABI, which doesn't require shadow space, making Windows and Linux incompatible in their calling conventions even on the same hardware."
+
+- question: "On x86-64 Linux, if a caller needs the value in register rax after making a function call, it must save rax before the call."
+  type: true-false
+  answer: true
+  explanation: "rax is a caller-saved (call-clobbered) register in the System V ABI. The called function may freely overwrite rax — it uses rax as the return value register. If the calling function has a live value in rax that it needs after the call, it is the caller's responsibility to save it (typically by pushing it to the stack) before the call and restoring it afterward. The callee gives no guarantee about the state of caller-saved registers on return, except for what it explicitly puts there (like the return value in rax)."
+
+- question: "The distinction between caller-saved and callee-saved registers is purely a performance optimization — if every register were callee-saved, programs would still be correct."
+  type: true-false
+  answer: true
+  explanation: "Correctness-wise, this is true: if every register were callee-saved, functions would always restore every register before returning, preserving all caller state. Programs would work correctly. The distinction exists for performance: callee-saved registers require save/restore instructions in the callee's prologue/epilogue even when the callee uses them as scratch space. Caller-saved registers can be used freely as scratch without any overhead in the callee. By mixing both, the ABI minimizes total save/restore work — short scratch values (unlikely to span calls) can use caller-saved registers, and long-lived values (likely to span calls) should use callee-saved registers that the caller need not protect."
+
+- question: "Why does the distinction between caller-saved and callee-saved registers exist in a calling convention, and what problem would arise if this distinction were eliminated by treating all registers as freely destroyable?"
+  type: short-answer
+  answer: "The distinction divides responsibility for register preservation between the two parties in a function call, minimizing total overhead. If all registers were freely destroyable (all caller-saved), every function that wanted to keep any live value across a call would have to save and restore every register it uses — even unused ones would need precautionary saves. If all registers were callee-saved, every function would pay save/restore costs in its prologue/epilogue for every register it touches. The hybrid approach lets the compiler choose: use caller-saved registers for temporaries that don't span calls (no cost to callee), and callee-saved for values that must survive calls (cost paid once in the callee, not at every call site)."
+  explanation: "Without this division, the compiler would face a binary choice: either callers pay heavy spill costs at every call site, or callees pay heavy save/restore costs for every register they touch. The caller/callee split allows an optimizer to match register usage to register class — a significant factor in the performance of compiled code, especially in tight inner loops with many function calls."
+```
+
 ## Explainer
 
 When your compiler emits a function call, it must answer a series of concrete questions: Where do the arguments go? Where does the return value appear? Which registers can the called function freely overwrite, and which must it preserve? How is the stack aligned? If your compiler and the C standard library disagree on any of these answers, the program crashes or silently corrupts data. A **calling convention** is the complete specification that answers all of these questions, and an **Application Binary Interface** (ABI) formalizes calling conventions along with data layout, object file format, and other low-level details into a platform-wide contract.

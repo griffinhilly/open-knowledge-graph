@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Case formulation translates assessment data into a coherent narrative explaining a client's difficulties, integrating biological, psychological, and social factors. It serves as the foundation for individualized, theoretically-grounded treatment planning.
 
+## Questions
+
+```yaml
+- question: "Two clients both receive an MDD diagnosis. What does a case formulation add that the shared diagnosis does not?"
+  type: multiple-choice
+  options:
+    - "A more specific DSM-5 subtype for each client based on symptom severity"
+    - "A standardized list of evidence-based treatments recommended for MDD"
+    - "An explanation of why each person developed MDD, what maintains it, and what should change for recovery"
+    - "A prognosis and estimated treatment duration based on symptom count"
+  answer: 2
+  explanation: "A diagnosis answers 'what' — which symptom category a client meets. A formulation answers 'why this person, why now, and what maintains it.' Two clients with identical MDD diagnoses can have completely different formulations (different predisposing factors, precipitants, perpetuating mechanisms) and therefore need different treatments. The other options describe diagnostic refinement or protocol selection, not individualized formulation."
+
+- question: "Three months into therapy, a client discloses a childhood trauma history not mentioned at intake. The original formulation emphasized cognitive schemas from academic failure. What should the clinician do?"
+  type: multiple-choice
+  options:
+    - "Maintain the original formulation — it was based on systematic intake assessment and should not change without re-assessment"
+    - "Add a trauma diagnosis and begin a separate trauma-focused treatment track"
+    - "Revise the formulation to incorporate the new information, since a formulation is a working hypothesis that evolves"
+    - "Refer the client to a trauma specialist, since the original formulation is no longer valid"
+  answer: 2
+  explanation: "A formulation is explicitly a working hypothesis, not a fixed conclusion. When new information emerges — especially clinically significant information like undisclosed trauma — the formulation must be updated. A good clinician revisits the formulation whenever treatment stalls or new information doesn't fit the existing picture. Maintaining a formulation despite contradicting evidence is a clinical error."
+
+- question: "A CBT clinician and a psychodynamic clinician who assess the same client will likely produce different case formulations."
+  type: true-false
+  answer: true
+  explanation: "Formulations are theory-dependent. A CBT clinician will emphasize the maladaptive thought-behavior-emotion cycle as the primary perpetuating mechanism. A psychodynamic clinician will look for unconscious conflict and developmental patterns. These are different explanatory lenses on the same case, not competing diagnoses. Both formulations can be valid and clinically useful, highlighting different intervention targets."
+
+- question: "A case formulation and a DSM-5 diagnosis answer the same clinical question — they are different ways of describing the same information."
+  type: true-false
+  answer: false
+  explanation: "Diagnosis and formulation answer fundamentally different questions. A diagnosis answers 'what does this person have?' by matching symptoms to a category. A formulation answers 'why did this particular person develop this problem at this particular time, and what keeps it going?' Two clients can share a diagnosis but require entirely different treatments because their formulations differ. They complement each other rather than being interchangeable."
+
+- question: "Why is a case formulation described as a 'working hypothesis' rather than a definitive clinical conclusion?"
+  type: short-answer
+  answer: "A formulation is a working hypothesis because it is constructed from incomplete information and must be updated as treatment progresses and new information emerges. Unlike diagnoses, which are relatively stable categorical judgments, formulations change when clients disclose new history, when treatment stalls, or when symptoms emerge that don't fit the original picture. The formulation is a map that guides intervention — but the map needs revision whenever the terrain proves different than expected."
+  explanation: "This distinction matters practically: a clinician who treats their formulation as final stops revising when evidence contradicts it, which can lead to ineffective or harmful treatment. The 'working hypothesis' framing keeps clinicians epistemically humble and observational throughout the treatment process."
+```
+
 ## Explainer
 
 From your study of the DSM-5, you know how to assign a diagnosis — you match a client's symptoms against standardized criteria and identify which category they meet. A diagnosis tells you *what* a person has. A **case formulation** does something different: it tells you *why* this particular person developed this particular problem at this particular time, and it points toward what needs to change for them to recover. Two clients can share the same MDD diagnosis and require completely different treatment approaches because their formulations differ.

@@ -32,6 +32,45 @@ Start with 2–3 note motives in a comfortable vocal range. Increase to 4–6 no
 - Echo singing is not karaoke — the student sings after the phrase ends, relying on memory, not simultaneously with the source.
 - Slight pitch drift in the echo is normal at first; the goal is gradual improvement in accuracy, not immediate perfection.
 
+## Questions
+
+```yaml
+- question: "A student practicing call-and-response consistently matches the teacher's pitches accurately — but only while the teacher is still singing, and struggles when the teacher stops before the student responds. This suggests the student is:"
+  type: multiple-choice
+  options:
+    - "Demonstrating strong tonal memory through accurate pitch-matching"
+    - "Using real-time tracking rather than tonal memory, which does not build the intended skill"
+    - "Ready to advance to longer phrases since pitch accuracy is already established"
+    - "Audiating correctly; the difficulty after the teacher stops is a normal phase of development"
+  answer: 1
+  explanation: "Singing accurately while the source is still sounding relies on real-time pitch-tracking — a different cognitive process than tonal memory. The defining feature of echo singing is that the student must reproduce from memory after the call ends. If the student can only match in real time, the exercise hasn't yet built the inner hearing capacity it is designed to train. Reducing the phrase length and enforcing the gap between call and response is the appropriate correction."
+
+- question: "Why must the student's response come after the call ends, rather than overlapping with it?"
+  type: multiple-choice
+  options:
+    - "To prevent harmonic interference between the teacher's and student's voices"
+    - "Because simultaneous singing trains only rhythm, not pitch accuracy"
+    - "Because singing after the source forces the student to rely on the internally held memory image rather than tracking the live sound"
+    - "To allow the teacher time to listen and evaluate the response accurately"
+  answer: 2
+  explanation: "The gap is pedagogically essential: it removes the external pitch reference and forces the student to reproduce from their internal representation of the phrase. If the student sings simultaneously, they are tracking — using perception of the live signal — which does not require the same tonal memory capacity. The silence between call and response is the mechanism that makes echo singing build audiation, not just matching skill."
+
+- question: "A student who sings along with the teacher while the teacher is still performing is practicing echo singing correctly and building strong tonal memory."
+  type: true-false
+  answer: false
+  explanation: "Singing along while the source continues is tracking, not recalling. Tracking uses real-time auditory feedback to guide pitch production and does not exercise the tonal memory capacity that echo singing is designed to develop. The moment of genuine learning in call-and-response is when the student must hold the phrase internally after the call ends and reproduce it without an external guide."
+
+- question: "Short, stepwise 2–3 note motives in a comfortable vocal range are the appropriate starting point for call-and-response echo singing practice."
+  type: true-false
+  answer: true
+  explanation: "Starting with short, stepwise phrases in a comfortable range minimizes the demands on tonal memory and vocal production simultaneously, allowing the student to succeed and build the calibration loop at a manageable level. Introducing leaps or long phrases too early overloads both pitch memory and interval recognition before the basic skill is established. Complexity should increase gradually as accuracy improves."
+
+- question: "Why is the silence between the teacher's call and the student's response described as 'when the learning happens,' rather than as dead time?"
+  type: short-answer
+  answer: "During that silence, the student must hold the phrase in tonal memory — their internal auditory image — without any external support. The act of retrieving, sustaining, and then reproducing this image is what trains inner hearing. Each response provides feedback: the student compares what they sang to what they remember hearing, calibrating their tonal memory over many repetitions. If there were no silence, the student could track the live sound and skip the memory stage entirely."
+  explanation: "The comparison loop — hear, hold, reproduce, evaluate — is the mechanism of skill development. Tonal memory is initially approximate (contour more reliable than exact intervals), and each echo cycle forces a confrontation between the stored image and vocal output. Removing the gap collapses this into a simpler perceptual task that does not develop the same capacity. This is why independence from the source — not accuracy per se — is the core constraint of the exercise."
+```
+
 ## Explainer
 
 You already understand **audiation** — the ability to hear music in your mind without an external sound source. Call-and-response echo singing is one of the most direct ways to exercise and strengthen that capacity. When your teacher sings a 3-note figure and then goes silent, the figure doesn't stop existing: it continues playing inside your mind, held in what researchers call **tonal memory**. Your task in the response is to retrieve that internal representation and convert it into accurate vocal production. The silence between call and response is not dead time — it is exactly when the learning happens.

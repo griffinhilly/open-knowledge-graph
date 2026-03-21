@@ -34,6 +34,45 @@ Read Meditations I–II closely, tracking which beliefs Descartes suspends and w
 - Descartes is not claiming the evil demon exists; he uses it as a worst-case hypothetical to isolate beliefs that survive even that scenario.
 - The cogito is not a syllogism from which 'I exist' is derived; Descartes says the certainty is immediate and non-inferential.
 
+## Questions
+
+```yaml
+- question: "What is the primary philosophical purpose of Descartes' evil demon hypothesis?"
+  type: multiple-choice
+  options:
+    - "To argue that an evil demon probably exists and is responsible for perceptual errors"
+    - "To pressure-test beliefs by identifying which ones remain certain even under the worst possible epistemic scenario"
+    - "To prove that God cannot exist if a supremely deceptive being is possible"
+    - "To establish that sensory experience is unreliable in ordinary circumstances"
+  answer: 1
+  explanation: "The evil demon is a methodological tool, not a factual claim. Descartes does not believe the demon exists — he constructs the scenario to identify which beliefs are 'demon-proof': beliefs that would remain certain even if everything else could be false. The method of doubt is a procedure for finding epistemic bedrock, not an expression of genuine paranoia about demons."
+
+- question: "Descartes claims that 'I think, therefore I am' survives the evil demon scenario. A skeptic objects: 'But what if the demon is deceiving you into thinking you are thinking?' The best response is:"
+  type: multiple-choice
+  options:
+    - "The demon cannot affect purely rational truths, only sensory experiences"
+    - "The very act of being deceived into thinking is itself a form of thinking — the cogito is self-verifying, since doubting requires a doubter"
+    - "Descartes has a clear and distinct idea of himself, which the demon cannot corrupt"
+    - "God would not allow a being to be systematically deceived about its own existence"
+  answer: 1
+  explanation: "The cogito's certainty is reflexive: if you try to doubt that you are thinking, the doubting is itself a form of thinking, which confirms that something is doing the doubting. The demon can deceive you about the external world, mathematics, your past — but it cannot make you think you are thinking when nothing is. This self-verifying structure is what makes the cogito immune to the scenario. Note that option C and D both appear later in the Meditations but are not the reason the cogito survives the demon."
+
+- question: "Descartes uses the method of doubt because he genuinely believes a powerful evil demon may be deceiving him."
+  type: true-false
+  answer: false
+  explanation: "The method of doubt is a philosophical procedure — a thought experiment — not a psychological state of genuine doubt. Descartes is not afraid that a demon exists; he is using the demon as a worst-case scenario to identify beliefs that remain certain under even that extreme hypothesis. The distinction matters: Descartes is doing methodology, not expressing paranoia. He never endorses the demon scenario as true; he uses it as a pressure-test and then argues his way past it."
+
+- question: "The cogito's certainty is self-verifying: the very attempt to doubt that one is thinking confirms that thinking is occurring."
+  type: true-false
+  answer: true
+  explanation: "This is the key structural feature of the cogito. Unlike beliefs about the external world, which could be false while no thinking occurred, the belief 'I am thinking' is confirmed by the very act of forming or doubting it. This reflexive structure means no skeptical scenario — including the evil demon — can undermine it. The demon can feed you false experiences, but it cannot cause you to seem to think without something actually thinking."
+
+- question: "Explain why the evil demon hypothesis is a more powerful skeptical challenge than simply pointing out that the senses sometimes err."
+  type: short-answer
+  answer: "Noticing that senses occasionally err only motivates distrust of unreliable particular perceptions. The evil demon is a worst-case scenario that extends systematic deception to everything — including seemingly necessary truths like mathematics. It is not a probabilistic observation about fallibility; it is a hypothetical that could make any belief false. This forces Descartes to search for beliefs that would be true even under total deception, not just beliefs that happen to be well-supported."
+  explanation: "The escalation matters methodologically. If Descartes only noticed that perception sometimes fails, he could preserve beliefs supported by multiple reliable senses or by reason. The evil demon demolishes that escape: even clear mathematical truths (2+2=4) could be demon-induced delusions. This radical scope is what forces the search for truly foundational certainties — beliefs whose truth is guaranteed by their own structure rather than by the reliability of any cognitive faculty."
+```
+
 ## Explainer
 
 You already know from your study of knowledge that justified true belief — whatever its precise formulation — requires that the believer have some adequate grounds for the belief. Descartes's project in the Meditations begins from a different question: not "what is knowledge?" but "what can survive the most extreme possible assault on justification?" He is not claiming to doubt everything because he actually doubts it. The **method of doubt** is a tool, not a psychological state — a thought experiment designed to test beliefs by imagining the most hostile possible epistemic circumstances.

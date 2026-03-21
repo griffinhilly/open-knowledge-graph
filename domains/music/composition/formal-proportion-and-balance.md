@@ -42,6 +42,45 @@ Graph the formal sections and their measure counts for three pieces you admire, 
 - Equal section lengths do not guarantee balance — a highly active development section may feel much longer than a static introduction of the same length.
 - There is no universal 'correct' formal proportion; different genres and expressive goals call for different structural shapes.
 
+## Questions
+
+```yaml
+- question: "A student's 80-measure composition has a dense climactic arrival at measure 12, followed by 68 measures of resolution and conclusion. What is the most likely proportional problem?"
+  type: multiple-choice
+  options:
+    - "The development section is too long relative to the introduction"
+    - "The climax arrives too early — the piece has not built sufficient tension to make the arrival feel earned, and the resolution dwarfs the buildup"
+    - "The conclusion is too short relative to the climax's intensity"
+    - "There is no problem — early climaxes create effective tension through surprise"
+  answer: 1
+  explanation: "The golden ratio heuristic places a climax around 62% of total duration — roughly measure 50 in an 80-measure piece. A climax at measure 12 (15% through) means the piece spends 88% of its duration winding down, which typically feels imbalanced and anti-climactic. Option D is the common misconception: surprise and premature arrival are different things. A premature climax denies the buildup that makes the arrival feel earned, leaving most of the piece as extended denouement."
+
+- question: "Two sections of a composition have identical measure counts (20 measures each). A listener perceives one as much longer. What is the most likely explanation?"
+  type: multiple-choice
+  options:
+    - "The listener made a mistake — equal measure counts always produce equal perceived duration"
+    - "The section with a faster tempo feels longer despite equal measures"
+    - "One section has higher informational density (motivic activity, harmonic movement, texture changes), making it feel longer even at the same clock duration"
+    - "Equal sections always feel balanced — perceived duration matches measure count in any musical style"
+  answer: 2
+  explanation: "Perceived duration depends on informational density, not just clock time. A section full of motivic fragmentation, rapid harmonic changes, and layered textures demands more listener attention per unit time and feels longer. A sustained, static passage of equal length recedes in attention and feels shorter. This is the core insight: composers cannot calibrate proportion by counting measures alone. Options A and D reflect the misconception that equal measure counts produce balanced perception."
+
+- question: "A formal structure where all sections have equal measure counts is guaranteed to feel balanced to a listener."
+  type: true-false
+  answer: false
+  explanation: "Formal balance depends on perceived weight, which is shaped by informational density, harmonic activity, texture, and dynamic level — not just duration. An equally-divided piece where the first section is dense and active while the second is sparse and static will feel front-heavy despite equal measures. True proportional balance requires matching the density and weight of material to the duration allocated for each section."
+
+- question: "The golden ratio suggests that structural climaxes in tonal music often fall roughly 62% of the way through the total duration."
+  type: true-false
+  answer: true
+  explanation: "Analysis of many successful tonal works finds that structural climaxes cluster around the golden ratio point (~0.618 of total duration). This is a heuristic, not a prescriptive rule — but it reflects something about how listeners experience buildup, tension, and resolution. A climax at 62% leaves roughly 38% for resolution, which tends to feel conclusive without overshooting. The recurrence of this ratio in Beethoven, Brahms, and others suggests it tracks genuine psychological patterns of expectation."
+
+- question: "Why can't a composer simply count measures to verify that a composition is proportionally balanced?"
+  type: short-answer
+  answer: "Because perceived duration is not the same as clock duration. A highly active section — dense textures, rapid harmonic change, motivic fragmentation — demands more listener attention per unit time and feels longer than an equally long but sparse section. Formal balance depends on whether the informational weight of each section matches its duration, not whether the measure counts are numerically equal. A composer must think in terms of density and listener attention, not arithmetic."
+  explanation: "Two pieces with identical formal blueprints (A: 20 measures, B: 20 measures, A: 20 measures) can feel radically different depending on what fills those measures. The development section — where the most work happens — must earn a longer allocation, while a brief climax can justify its short length precisely because it arrives at peak density. Proportional balance is a perceptual and compositional judgment, not a counting exercise."
+```
+
 ## Explainer
 
 You've studied binary, ternary, rondo, and variation forms — you know their structural blueprints. Formal proportion asks a deeper question: not what shape a piece takes, but how much space each section occupies, and whether that allocation creates the right emotional arc. A binary form where both halves are exactly equal in length will feel very different from one where the second half is twice as long, even if they use the same harmonic language. Proportion is the difference between a form that feels complete and one that feels arbitrarily truncated or overextended.

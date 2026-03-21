@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Decision-making involves computing value estimates, monitoring for decision-relevant information, comparing options, and committing to action. Dorsolateral prefrontal cortex maintains task context and decision rules, ventromedial prefrontal cortex integrates value information, anterior cingulate monitors outcome value and adjusts future choices. These regions implement error-correction and learning processes that improve decisions over time. Neural models of decision-making explain systematic violations of rational choice theory.
 
+## Questions
+
+```yaml
+- question: "A patient has damage to their ventromedial prefrontal cortex (vmPFC). They score normally on tests of logical reasoning and can articulate decision rules perfectly. What would you predict about their real-world behavior?"
+  type: multiple-choice
+  options:
+    - "They would struggle to follow instructions because working memory for rules is impaired"
+    - "They would make poor real-world decisions despite intact reasoning ability"
+    - "They would be unable to detect when they have made a mistake"
+    - "They would respond impulsively because they can no longer inhibit habitual responses"
+  answer: 1
+  explanation: "The Somatic Marker Hypothesis captures this dissociation: vmPFC damage removes the bodily value signals that normally guide real-world choice, leaving intact reasoning but devastated practical judgment. This is the key insight — value representation and logical reasoning are neurally separable. Option A describes a dlPFC working-memory deficit; option C describes an ACC dysfunction; option D describes a failure of dlPFC-mediated inhibition."
+
+- question: "A skilled driver completes a familiar commute while mentally planning their workday, barely attending to the mechanics of driving. What does this illustrate about neural decision-making systems?"
+  type: multiple-choice
+  options:
+    - "The vmPFC has replaced the dlPFC as the dominant value-computing region for driving"
+    - "The ACC has suppressed conflict detection to allow automatic processing"
+    - "Driving has shifted from model-based (deliberate, goal-directed) to model-free (habitual, cached) processing"
+    - "Repeated practice has eliminated the need for prediction error signaling"
+  answer: 2
+  explanation: "Well-practiced behaviors transition from model-based (using a cognitive map to simulate action sequences) to model-free (retrieving cached stimulus-response associations from the striatum). This is efficient — model-free systems produce fast, accurate responses in familiar contexts without burdening working memory. The shift is not permanent: introduce an unexpected obstacle and model-based deliberation re-engages."
+
+- question: "Loss aversion — weighting losses more heavily than equivalent gains — reflects a fundamental flaw in the brain's decision-making architecture."
+  type: true-false
+  answer: false
+  explanation: "Loss aversion correlates with amygdala reactivity and reflects a bias that was adaptive in ancestral environments where survival-relevant losses (injury, starvation, social exclusion) had catastrophic consequences that outweighed equivalent gains. It is a mismatch to some modern contexts (e.g., long-term investing) but not a 'flaw' — it is a heuristic tuned to a different environment. Neural decision-making research shows that systematic deviations from rational choice theory are largely explainable as evolved heuristics, not arbitrary errors."
+
+- question: "The anterior cingulate cortex (ACC) is involved in monitoring both unexpected outcomes and conflicts between competing options of similar value."
+  type: true-false
+  answer: true
+  explanation: "ACC plays a dual role: it signals prediction errors when outcomes are worse than expected (driving value updating for future choices) and it detects decisional conflict when two options have similar expected values (recruiting additional cognitive resources). This dual function links the brain's outcome-monitoring and conflict-resolution systems in a single region — it is a neural implementation of the feedback mechanisms that normative choice theory predicts should exist."
+
+- question: "Why does addiction persist even when the person knows cognitively that the addictive behavior is destructive?"
+  type: short-answer
+  answer: "Addiction reflects a pathological dominance of model-free habit systems (striatum) over model-based goal-directed control (prefrontal cortex and hippocampus). Model-free systems store cached action values from repeated reward, producing automatic responses that bypass deliberative evaluation. The person's cognitive knowledge — a model-based representation — exists but loses the competition with the deeply reinforced habit system. This is why knowing the behavior is harmful does not automatically produce behavior change: the two systems can hold conflicting 'beliefs' simultaneously."
+  explanation: "This illustrates the broader point that rationality is an achievement requiring model-based systems to override model-free ones — which demands cognitive resources and is vulnerable to stress, time pressure, and depletion. Treatment approaches that recognize this architecture (habit substitution, environmental restructuring, reducing cue exposure) are more effective than those relying purely on insight."
+```
+
 ## Explainer
 
 From neuroeconomics and value computation, you understand that the brain does not evaluate options in isolation — it computes **subjective value** by integrating reward magnitude, probability, delay, and effort into a single currency that allows different types of options to be compared. The neural mechanism of decision-making builds on that foundation by asking: how does the brain actually choose between options that have been assigned values, and how does it update those valuations based on outcomes?

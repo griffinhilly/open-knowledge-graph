@@ -33,6 +33,45 @@ Choose a subplot in a novel and ask: how does it develop or complicate the theme
 - Subtext requires authorial intention and textual support; 'reading into' a text without evidence is not finding subtext.
 - Not all fiction has heavy subtext; minimalist and realist fiction may use more direct expression — the choice of subtext density is itself a style decision.
 
+## Questions
+
+```yaml
+- question: "In a novel, the subplot follows a secondary character who faces the same moral dilemma as the protagonist but makes the opposite choice. What is the subplot primarily doing?"
+  type: multiple-choice
+  options:
+    - "Adding variety to prevent the main narrative from feeling repetitive"
+    - "Developing theme through contrast — the subplot illuminates what the protagonist's choice means by showing the alternative"
+    - "Introducing complications that delay the main plot's resolution"
+    - "Fulfilling genre conventions that require multiple narrative threads"
+  answer: 1
+  explanation: "The primary function of a subplot is thematic — it develops, mirrors, or contrasts with the main plot's concerns. A subplot that merely adds story events without this function is a structural weakness. The contrast between two characters facing the same dilemma and choosing differently is a classic thematic doubling: it asks what separates the protagonist's choice from the alternative, making the theme visible through juxtaposition rather than statement."
+
+- question: "A reader says, 'I found the subtext in this scene — it feels like the character is hiding something.' Is this sufficient to identify subtext?"
+  type: multiple-choice
+  options:
+    - "No — subtext requires textual evidence: specific details, silences, or actions in the scene that create a gap between surface content and implied meaning"
+    - "Yes — subtext is identified through emotional response; if the reader senses hidden meaning, subtext is present"
+    - "No — subtext must be confirmed by the author's stated intentions in interviews or notes"
+    - "Yes — any scene in which a character feels uncomfortable contains subtext"
+  answer: 0
+  explanation: "Subtext requires textual support, not just a reader's feeling. A common misconception conflates subjective impression with analytical identification of subtext. Genuine subtext is anchored in the text itself: a character repeatedly straightening a picture frame while saying 'everything is fine,' or a conversation about the weather between two people with unresolved grief. The gap between surface content and emotional content must be traceable to specific craft choices, not assumed from vague unease."
+
+- question: "A subplot that adds engaging story events and compelling secondary characters but has no thematic connection to the main plot is structurally sound."
+  type: true-false
+  answer: false
+  explanation: "A subplot that does not illuminate or complicate the main plot's themes is a structural problem — it reads as a digression that pads the narrative. The standard for evaluating a subplot is: what would be lost if it were removed? If the answer is 'only story events but no thematic depth,' the subplot is not doing its structural work. This distinguishes subplot from mere episodic material."
+
+- question: "Subtext can be created through physical action — what a character does with their body — rather than through dialogue alone."
+  type: true-false
+  answer: true
+  explanation: "Subtext operates through any element of the narrative that communicates meaning beneath the surface: dialogue gaps, action, repetition of images, conspicuous absence. A character who cannot stop tidying the room during a difficult conversation, who never looks at the person they love, or who laughs at the wrong moment is expressing subtext through behavior. Physical action is one of the most powerful subtext vehicles precisely because it bypasses what the character consciously intends to communicate."
+
+- question: "What is the difference between 'reading into' a text and genuinely identifying subtext, and why does the distinction matter?"
+  type: short-answer
+  answer: "Subtext is meaning the text creates through specific craft choices — silences, contradictory actions, accumulated images — and is supported by textual evidence. 'Reading into' a text projects meaning without this support: inferring significance not anchored in any particular detail. The distinction matters because literary analysis requires claims demonstrable from the text itself. Subtext is there by design or consistent implication; projected meaning is in the reader's head."
+  explanation: "This distinction protects against two errors: treating any text as infinitely meaningful (everything becomes subtext) and dismissing careful interpretation as mere opinion. Subtext analysis asks: what specific element creates the gap between surface and implication? A character who says 'I'm fine' while crying has textual evidence of subtext. The same phrase in a neutral scene does not — unless other textual details create the gap."
+```
+
 ## Explainer
 
 You know from your work on plot structure that a story has a main spine of causally linked events, and from thematic development that themes must be built through accumulation rather than stated outright. Subplots and subtext are the two primary tools that allow a novel to do this work at scale — the subplot adds structural space, and subtext adds depth to what that space holds.

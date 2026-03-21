@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Subgroup analysis investigates whether exposure effects differ across population subsets (age, sex, disease severity). True effect modification reflects genuine differences in causal effects; spurious findings arise from multiple testing and small samples. Pre-specification and testing for interaction distinguish informative analyses from data-dredging.
 
+## Questions
+
+```yaml
+- question: "A clinical trial reports that among men, the treatment significantly reduced mortality (p = 0.03), while among women the effect was not statistically significant (p = 0.12). The investigators conclude that the treatment benefits men but not women. What is the most serious flaw in this reasoning?"
+  type: multiple-choice
+  options:
+    - "The trial should have enrolled more women to increase power"
+    - "Comparing p-values within subgroups does not test whether the effects actually differ — a formal interaction test is required"
+    - "The treatment effect in men is too small to be clinically meaningful at p = 0.03"
+    - "Subgroup analyses are never valid and should not be reported"
+  answer: 1
+  explanation: "The core error is comparing within-subgroup p-values and inferring heterogeneity from the contrast. Non-significance in women could simply reflect that the female subgroup was smaller, with wider confidence intervals that still overlap the overall effect estimate. A formal test for interaction — which directly asks whether the effect estimate in men is significantly different from the estimate in women — has its own p-value and power requirements. Without a significant interaction test, 'significant in men, non-significant in women' is not evidence that effects differ; it is evidence that the two subgroups had different sample sizes or variability."
+
+- question: "Which of the following subgroup findings would be most credible and worth investigating further?"
+  type: multiple-choice
+  options:
+    - "A subgroup finding discovered after unblinding that was not pre-specified, with no biological rationale and a borderline interaction p-value of 0.04"
+    - "A pre-specified subgroup based on a known mechanistic pathway, with a significant formal interaction test, replicated in an independent dataset"
+    - "A statistically significant effect in one subgroup of 20 patients, with a non-significant effect in all other subgroups"
+    - "A subgroup analysis with 15 comparisons where 2 show significant interaction, consistent with chance at α = 0.05"
+  answer: 1
+  explanation: "Credible subgroup findings require pre-specification (reflecting prior reasoning, not data-dredging), biological plausibility (a mechanism explaining why heterogeneity is expected), a significant formal test for interaction (not just within-subgroup significance), and ideally replication. Option A is a classic false positive scenario — post-hoc discovery with weak evidence. Options C and D illustrate the multiple comparisons problem: small samples and chance alone produce significant findings in some subgroups even when no true heterogeneity exists."
+
+- question: "Pre-specifying which subgroups will be analyzed before data collection or unblinding is primarily a bureaucratic requirement rather than a substantive methodological safeguard."
+  type: true-false
+  answer: false
+  explanation: "Pre-specification is fundamentally methodological, not bureaucratic. It forces researchers to articulate why they expect heterogeneity in a given subgroup — what biological mechanism or prior evidence supports it — before seeing the data. This prior reasoning is what distinguishes a hypothesis from a post-hoc fishing expedition. With many variables, researchers can always find a subgroup where an effect looks different after the fact; pre-specification prevents this. It also makes the multiple comparisons problem tractable: if you pre-specify 3 subgroups, you can adjust for 3 comparisons rather than the many more you might have explored if unrestricted."
+
+- question: "A drug with a null average treatment effect might still be beneficial for a well-defined subpopulation."
+  type: true-false
+  answer: true
+  explanation: "This is the central motivation for studying treatment effect heterogeneity. An average effect of zero can arise from a distribution where substantial benefits in some patients are precisely offset by harms in others, or benefits in some and no effect in most. If the subpopulation that benefits can be identified (e.g., by genotype, baseline severity, or biomarker), the drug may still be worth using in that group while being withheld from others. This is the logic underlying precision medicine: matching interventions to individuals based on predicted differential benefit, which requires valid subgroup analyses rather than relying solely on average effects."
+
+- question: "Why is a formal test for interaction necessary when analyzing subgroup effects, rather than simply comparing p-values from separate within-subgroup analyses?"
+  type: short-answer
+  answer: "Within-subgroup p-values test whether an effect is detectable within each subgroup independently — but significance depends heavily on sample size. The same true effect may reach significance in a subgroup of 500 patients (p = 0.04) and fail to reach significance in a subgroup of 80 patients (p = 0.18) due to lower power, even though the effects are numerically similar with overlapping confidence intervals. A formal interaction test directly compares effect estimates across subgroups, asking whether the difference between subgroup estimates is larger than chance would predict. This test has its own p-value and its own power requirements — typically much lower than the main trial — which is why most post-hoc subgroup findings are false positives even when the main trial was adequately powered."
+  explanation: "The confusion between 'significant in A, non-significant in B' and 'effect in A differs statistically from effect in B' is one of the most common errors in reporting clinical trials. The interaction test is the correct method because it asks the right question: not 'is each effect different from zero?' but 'are the two effects different from each other?' These are distinct hypotheses requiring distinct statistical tests."
+```
+
 ## Explainer
 
 From your study of effect modification, you know that a treatment or exposure can have different effects in different subgroups — and that this heterogeneity is not nuisance noise but potentially the most important finding in an analysis. **Subgroup analysis** is the formal practice of estimating separate effects within subgroups defined by a third variable (age, sex, genotype, disease severity, baseline risk). When done well, it reveals who benefits, who is harmed, and who is unaffected by an intervention. When done badly, it produces a proliferation of spurious findings that mislead clinicians and policymakers. The difference lies almost entirely in how you structure and interpret the analysis.

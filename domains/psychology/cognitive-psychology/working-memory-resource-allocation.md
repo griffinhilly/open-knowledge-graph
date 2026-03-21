@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Working memory allocates limited resources across maintenance (holding information) and manipulation (processing) demands. When demands exceed capacity, performance suffers and errors increase. Individual differences in capacity predict cognitive abilities and learning success.
 
+## Questions
+
+```yaml
+- question: "A student handles single-step algebra problems correctly but makes frequent errors on multi-step problems using the same operations. What does working memory resource allocation theory identify as the most likely bottleneck?"
+  type: multiple-choice
+  options:
+    - "The student has not yet acquired the procedural knowledge for the algebraic operations involved"
+    - "The central executive becomes overloaded managing maintenance of intermediate values while simultaneously monitoring procedure steps, causing representations to decay before they can be used"
+    - "The phonological loop is too small to hold the numbers involved in multi-step computations"
+    - "Multi-step problems require visuospatial processing that single-step problems do not"
+  answer: 1
+  explanation: "The student clearly knows the operations — they work on single steps. The difference is load: multi-step problems require simultaneously holding intermediate results (maintenance) while executing the next operation (manipulation) and monitoring which step comes next (executive control). All three compete for central executive resources. The bottleneck is not knowledge but attentional control capacity under combined demands."
+
+- question: "Which of the following scenarios places the greatest demand on working memory resources, according to the maintenance-manipulation trade-off?"
+  type: multiple-choice
+  options:
+    - "Silently repeating a 7-digit phone number for 30 seconds while standing still"
+    - "Mentally reordering a list of 5 words alphabetically while simultaneously monitoring a spoken conversation for a target word"
+    - "Reading a simple declarative sentence aloud at a comfortable pace"
+    - "Viewing a complex image and then describing it from memory 10 seconds later"
+  answer: 1
+  explanation: "Pure maintenance — rehearsing a phone number — is relatively cheap and can run on the phonological loop with minimal central executive involvement. Option B requires active manipulation (alphabetical reordering) plus concurrent monitoring, both drawing on the central executive. This creates a double drain: manipulation degrades maintenance, and divided attention prevents recovery. Options C and D involve primarily maintenance or simple encoding, not the costly maintenance-manipulation conflict."
+
+- question: "High working memory capacity individuals outperform low-capacity individuals on complex tasks primarily because they are more efficient at controlling attention and refreshing representations, not simply because they have more storage slots."
+  type: true-false
+  answer: true
+  explanation: "The WMC literature consistently shows that capacity differences predict performance on attention-demanding tasks but not on pure storage tasks (e.g., simple digit span). The advantage lies in attentional control: high-WMC individuals are better at suppressing irrelevant information, resisting interference, and refreshing decaying representations before they are lost. This is why WMC predicts fluid intelligence and reading comprehension — both require sustained, controlled attention — rather than just rote memory."
+
+- question: "When working memory is overloaded during a complex task, errors typically occur because the required information was never successfully encoded into working memory in the first place."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception. Information is usually encoded — the problem is that attentional control fails to keep it active long enough to be used. Working memory representations decay rapidly and require active refreshing. Under high load, the central executive cannot refresh all maintained items while simultaneously performing manipulation. Items 'slip into the dark' not because they never arrived, but because attention could not stay on them. The failure is in maintenance under load, not in initial encoding."
+
+- question: "A teacher notices students make more errors on word problems that require tracking procedure steps mentally. Using the maintenance-manipulation trade-off, explain the cognitive source of these errors and one instructional change that would reduce them."
+  type: short-answer
+  answer: "Tracking procedure steps is an active manipulation task that competes with maintaining intermediate values — both demand central executive resources simultaneously. When manipulation demands rise, maintenance suffers and intermediate results decay before they can be used, producing errors. An effective intervention is to provide an external procedure checklist (e.g., a numbered step list students can check off), which offloads procedure monitoring to an external store. This frees central executive capacity for the actual calculations, reducing the maintenance-manipulation competition."
+  explanation: "This application of the trade-off is why worked examples and explicit procedural supports reduce cognitive load — they convert internal manipulation demands into external maintenance, leaving WM resources available for the core learning task."
+```
+
 ## Explainer
 
 From your study of the working memory model, you know that the system consists of the **phonological loop**, the **visuospatial sketchpad**, the **central executive**, and the episodic buffer — each serving a distinct function. The resource allocation question asks: what happens when these components are pushed beyond their limits, and why does performance degrade in predictable ways? The key insight is that working memory is not simply a storage shelf with fixed compartments; it is a dynamic system where different tasks compete for the same limited pool of cognitive resources.

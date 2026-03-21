@@ -36,6 +36,45 @@ Practice common progressions (I-IV-V-I, I-vi-IV-V, ii-V-I). Analyze how differen
 ## Common Misconceptions
 Confusing harmonic function with chord position or chord inversion alone. Not hearing voice-leading smoothness as part of harmonic function, isolating harmony from voice-leading. Assuming all progressions must follow one 'correct' pattern.
 
+## Questions
+
+```yaml
+- question: "A listener hears a single major triad in isolation and immediately labels it as 'tonic.' A second listener waits to hear the surrounding chords before deciding on function. Who is more likely to identify harmonic function correctly?"
+  type: multiple-choice
+  options:
+    - "The first listener — major chord quality directly maps to tonic function in any key"
+    - "The second listener — harmonic function is determined by context and relationship to surrounding chords"
+    - "Neither — harmonic function cannot be reliably identified by ear without the score"
+    - "The first listener — waiting for context introduces ambiguity rather than reducing it"
+  answer: 1
+  explanation: "The same chord can function as tonic in one context and as a deceptive resolution, a secondary dominant tonicization target, or a borrowed chord in another. A major triad is not inherently 'tonic' — it acquires its function from what came before it, what comes after, and what key the music is in. The second listener who waits for context is applying the correct cognitive strategy: hear progressions, not individual chords."
+
+- question: "While ear training, you hear the bass move by a descending fifth. Before the next chord fully sounds, what should you predict about the harmonic motion?"
+  type: multiple-choice
+  options:
+    - "An ascending second will follow, since bass lines tend to alternate direction"
+    - "Strong, directed harmonic motion is occurring — descending fifths are the most common root movement in tonal music and feel decisive and goal-directed"
+    - "All upper voices will move by step, since descending-fifth root motion requires smooth contrary motion above"
+    - "A deceptive resolution is likely, since descending fifths most often end on vi rather than I"
+  answer: 1
+  explanation: "Descending-fifth root movement (or equivalently, ascending fourth) is the strongest and most common root motion in tonal music. I–IV–V–I, ii–V–I, and the circle-of-fifths progression are built entirely on descending fifths. Hearing this motion should immediately signal directed, goal-oriented harmonic activity. Options A and C are fabricated regularities with no basis in voice-leading theory. Option D conflates a specific type of cadence (deceptive) with the general character of fifth-root motion."
+
+- question: "Training yourself to sing bass lines on scale degrees while a recording plays builds contextual harmonic hearing because it forces you to track root movement continuously rather than reacting to individual chords as they arrive."
+  type: true-false
+  answer: true
+  explanation: "This is one of the most effective ear-training strategies precisely because it shifts your attention from chord-by-chord labeling to continuous tracking of harmonic motion. Singing scale degrees requires you to maintain a sense of tonal center, follow bass movement between chords, and perceive the arc of tension-and-release. The result is that you internalize root movement intervals and functional relationships rather than identifying isolated snapshots."
+
+- question: "Because dominant function is created by the leading tone's tension toward the tonic, any chord containing scale degree 7 automatically functions as dominant in any musical context."
+  type: true-false
+  answer: false
+  explanation: "Harmonic function is contextual, not inherent in individual pitches. Scale degree 7 appears in many chords (vii°, V7, and others), and even when it does, context can override expected function — a chord containing the leading tone may be tonicized itself, or appear in a passage where tonal center is ambiguous. Additionally, in modal music or chromatic harmony, the same scale degree may have no leading-tone tension at all. The key misconception here is treating function as a property of individual notes or chords rather than of progressions and context."
+
+- question: "Why is it insufficient to learn harmonic function by identifying chords one at a time in isolation? What does the ear need to track beyond the sound of individual chords?"
+  type: short-answer
+  answer: "Chords acquire their harmonic function from context — from what they follow, what they precede, and the overall arc of tension and resolution they participate in. The ear needs to track: (1) root movement intervals between successive chords, which signal the strength and direction of harmonic motion; (2) how the current chord relates to the established tonal center; and (3) the overall trajectory — whether we are moving away from stability (pre-dominant), building tension (dominant), or arriving home (tonic). Without this contextual tracking, the same chord in a different progression can feel completely different."
+  explanation: "The practical implication is that ear training should prioritize drilling progressions (I–IV–V–I, ii–V–I, I–vi–IV–V) rather than isolated chord qualities. Once you can hear the arc of a full progression — the departure, tension, and resolution — identifying individual chords within it becomes much easier because each chord's function confirms and is confirmed by the others."
+```
+
 ## Explainer
 
 You already know the theory: chords fall into three functional categories — **tonic** (stability, home), **subdominant** or pre-dominant (preparation, motion away from home), and **dominant** (tension, pull toward resolution). You can label these on paper. The task now is to hear them in real time, without the score in front of you. This is a different cognitive skill — not labeling but recognizing, the difference between being able to define "red" and being able to spot it across a crowded room.

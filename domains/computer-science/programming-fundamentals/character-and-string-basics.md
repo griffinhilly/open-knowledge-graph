@@ -28,6 +28,45 @@ Print individual characters from a string by index; practice concatenation and s
 ## Common Misconceptions
 That strings can be modified in-place; that character codes are universal (they're standardized as ASCII/Unicode but implementations vary); that empty string '' is the same as whitespace ' '.
 
+## Questions
+
+```yaml
+- question: "A programmer builds a string by concatenating one character at a time inside a loop that runs 10,000 times, using the + operator in a language with immutable strings. What is actually happening on each iteration?"
+  type: multiple-choice
+  options:
+    - "The original string is being modified in-place with each new character appended"
+    - "A new string object is created on every iteration, containing the previous content plus the new character"
+    - "The characters are collected in a mutable buffer and assembled into one string at the end of the loop"
+    - "The operation triggers a runtime error because strings are immutable"
+  answer: 1
+  explanation: "In languages with immutable strings (Python, Java, etc.), the + operator does not modify the existing string — it creates an entirely new string object containing the combined content. Doing this 10,000 times creates 10,000 intermediate string objects, most of which are immediately discarded. This makes naive concatenation in a loop O(n²) in memory and time. For building strings incrementally, languages provide alternatives: StringBuilder in Java, or str.join(list) in Python, which allocate memory once rather than repeatedly."
+
+- question: "Your code evaluates the expression 'A' < 'a' and gets True. What is the correct explanation for this result?"
+  type: multiple-choice
+  options:
+    - "Uppercase letters are considered more important, so they sort before lowercase"
+    - "'A' has a lower ASCII numeric value (65) than 'a' (97), so the character comparison reduces to 65 < 97"
+    - "The comparison uses alphabetical dictionary order, and 'A' comes before 'a' alphabetically"
+    - "Uppercase letters are shorter to represent internally, giving them a smaller value"
+  answer: 1
+  explanation: "Characters are stored as numbers — specifically their code point values. In ASCII, 'A' is 65 and 'a' is 97. When you compare characters with <, >, or ==, you are comparing these numeric values. This explains many otherwise surprising behaviors: all uppercase letters (65–90) have lower values than all lowercase letters (97–122), so 'Z' < 'a' is True. It also explains why sorting a list of mixed-case strings produces uppercase-first results. The underlying numbers are the source of truth."
+
+- question: "In a language with immutable strings, writing greeting = greeting + '!' does not change the original string object — it creates a new string and points the variable to it."
+  type: true-false
+  answer: true
+  explanation: "Immutability means string objects cannot be modified after creation. The expression greeting + '!' constructs a new string containing 'Hello!', and the assignment greeting = ... points the variable to this new object. The original 'Hello' string still exists in memory until garbage collected. This is not just a technicality — it has real consequences for performance (see: concatenation in loops) and for understanding why string methods like .upper() or .replace() return new strings rather than modifying strings in place."
+
+- question: "An empty string ('') and a string containing only a space (' ') are equivalent because neither contains meaningful content."
+  type: true-false
+  answer: false
+  explanation: "These are completely distinct string values. An empty string has length 0 and contains no characters whatsoever. A space string has length 1 and contains a space character, which in ASCII has the code point 32 — a real, defined character. Code that checks if s == '' will behave differently from code that checks if s == ' '. Common bugs arise from treating these as equivalent: a form field containing only spaces may not be 'empty' by the empty-string test, and string parsing that splits on whitespace will produce empty strings between adjacent delimiters. Always be explicit about which condition you're checking."
+
+- question: "Why does string immutability matter for performance, and what alternative approaches do languages provide for building strings incrementally?"
+  type: short-answer
+  answer: "Because immutable strings cannot be modified in-place, every concatenation operation (e.g., s = s + new_chunk) creates a new string object. In a loop that concatenates n times, each iteration creates a new string of increasing length — the total work is proportional to n², making this O(n²). For building strings piece by piece, languages provide mutable alternatives: Java's StringBuilder collects pieces and produces the final string in one allocation with .toString(); Python's ''.join(list_of_pieces) concatenates a list of strings in a single efficient pass. Both approaches avoid repeated object creation."
+  explanation: "The key insight is that the immutability constraint — which exists for good reasons (thread safety, hashability, predictable behavior) — forces a different programming pattern for incremental string construction. Understanding this prevents a common performance bug that looks innocent (a simple loop with +=) but scales very poorly on large inputs."
+```
+
 ## Explainer
 
 You already know from working with primitive types that strings are one of the basic data types alongside integers and floats. But strings are different in an important way: while an integer is a single value, a **string is a sequence of characters** — an ordered collection of individual letters, digits, symbols, or spaces. The string `"Hello"` is not one indivisible thing; it is five characters: `'H'`, `'e'`, `'l'`, `'l'`, `'o'`, each stored at a specific position (index) starting from 0.

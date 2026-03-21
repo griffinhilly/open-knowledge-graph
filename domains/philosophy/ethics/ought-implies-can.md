@@ -29,6 +29,45 @@ Test the principle: Can someone be obligated to run a four-minute mile? To achie
 ## Common Misconceptions
 Assuming 'can' means metaphysical possibility when it might mean practical or psychological possibility. Thinking the principle applies equally to all obligations. Overlooking that constraints on ability might themselves be subject to moral evaluation.
 
+## Questions
+
+```yaml
+- question: "A driver becomes intoxicated and is then physically unable to safely drive a friend to the hospital in an emergency. Does 'ought implies can' fully excuse the driver from moral responsibility for not driving?"
+  type: multiple-choice
+  options:
+    - "Yes — if the driver cannot safely drive at that moment, no obligation to drive exists"
+    - "No — the driver had a prior obligation not to become incapacitated; current inability does not fully erase the moral responsibility traced back to that earlier choice"
+    - "Yes — moral obligations apply only at the exact moment of action, not to earlier decisions that led to incapacity"
+    - "No — 'ought implies can' does not apply to medical emergencies"
+  answer: 1
+  explanation: "This is the 'tracing' problem in moral responsibility theory. Ought implies can may apply to the moment of action (the driver cannot now safely drive), but a prior obligation — not to become incapacitated in the first place — remains intact. The incapacity was produced by the driver's own earlier choices, which were avoidable. Moral responsibility traces back to those earlier choices, preventing the current inability from providing a full excuse. Inability genuinely excuses only when it was not itself brought about by negligence."
+
+- question: "A moral teacher says 'You ought to love your enemies.' A critic invokes 'ought implies can' to challenge this. What is the critic's strongest philosophical objection?"
+  type: multiple-choice
+  options:
+    - "The claim is too vague to qualify as a moral principle"
+    - "Genuine love may not be psychologically possible on command — emotions are not fully under voluntary control — making the obligation potentially incoherent under ought-implies-can"
+    - "The claim has no empirical support from psychology or behavioral science"
+    - "Love is a private matter and therefore outside the scope of moral obligation entirely"
+  answer: 1
+  explanation: "The critic's move is to identify the relevant sense of 'can.' Physical possibility is clearly satisfied — one can perform loving behaviors. But psychological possibility is tighter: one cannot simply command oneself to feel a particular emotion. If love is a genuine feeling rather than a set of behaviors, and if genuine feelings cannot be voluntarily produced, then 'ought to love' may demand something psychologically impossible. The principle's scope depends critically on which sense of 'can' is operative."
+
+- question: "The principle 'ought implies can' rules out moral obligations to perform literally impossible actions, because one cannot be blameworthy for failing to do what is impossible."
+  type: true-false
+  answer: true
+  explanation: "This is the core content of the principle. Moral blame requires that the agent could have done otherwise — the action must have been within their power. No one is morally obligated to stop an asteroid with their bare hands; the impossibility removes it from the domain of obligation entirely. The principle constrains legitimate moral demands to what agents are actually capable of performing. This is why it is particularly important for theories of moral responsibility."
+
+- question: "All major ethical frameworks — including Kantian ethics and consequentialism — agree that 'ought implies can' must constrain every moral obligation."
+  type: true-false
+  answer: false
+  explanation: "Consequentialists sometimes resist the principle. The claim 'we ought to minimize suffering' can function as a moral ideal even when perfect compliance is unachievable — the ought here expresses a direction of striving, not a binding duty that requires full capacity. Kant invoked the principle to limit the categorical imperative; consequentialists may use 'ought' more loosely. Whether ought-implies-can must constrain every moral obligation, or only some types, is itself a contested question in normative ethics."
+
+- question: "Why does the concept of 'can' in 'ought implies can' require philosophical analysis? Give an example where the relevant sense of 'can' is ambiguous and matters for the conclusion."
+  type: short-answer
+  answer: "The word 'can' admits several interpretations: metaphysical possibility (could occur in some possible world), practical possibility (the agent has real-world means and opportunity), and psychological possibility (the agent is capable given their actual mental states). Which sense is meant changes the scope of the principle dramatically. Example: 'You ought to achieve perfect impartiality.' Metaphysically possible? Perhaps. Practically possible for a normal human being? Probably not. If psychological possibility is the standard, a morality demanding perfect impartiality may impose obligations beyond human capacity, and ought-implies-can would then challenge the validity of that demand."
+  explanation: "The philosophical work is in specifying the threshold. Too weak a threshold (metaphysical possibility) makes the principle nearly toothless — almost anything is metaphysically possible. Too strong a threshold (e.g., requiring that the agent find it easy or comfortable) would let agents avoid obligations by cultivating inability. The most philosophically interesting and contested cases live between these extremes: psychological limitations like addiction, emotional compulsion, or deeply ingrained bias."
+```
+
 ## Explainer
 
 From your study of normative ethics, you know that moral claims come in different strengths: some are obligations, others are ideals or supererogatory acts. **Ought implies can** is a constraint on what can count as a genuine obligation in the first place. The principle states: if you morally ought to do X, then you must be capable of doing X. Obligations without capacity are incoherent — you cannot be blamed for failing to do the impossible.

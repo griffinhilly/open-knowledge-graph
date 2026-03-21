@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Curvature κ = |dT/ds| measures how sharply a curve bends; torsion τ measures how much it twists out of its oscillating plane. For a curve r(t), κ = |r'(t) × r''(t)| / |r'(t)|³. Torsion reveals how much the curve deviates from being planar.
 
+## Questions
+
+```yaml
+- question: "A space curve r(t) has torsion τ = 0 at every point. What does this tell you about the curve?"
+  type: multiple-choice
+  options:
+    - "The curve is a straight line — zero torsion implies zero curvature as well"
+    - "The curve lies entirely within a fixed plane"
+    - "The curve has constant speed in its parameterization"
+    - "The curvature κ must be constant but not necessarily zero"
+  answer: 1
+  explanation: "Torsion measures how much the curve twists out of its osculating plane. When τ = 0 everywhere, the binormal vector B is constant (dB/ds = −τN = 0), so the curve never rotates out of a fixed plane — it is a planar curve. This does not force κ = 0; a circle has τ = 0 and nonzero curvature. A zero-torsion curve bends freely within one plane but does not spiral."
+
+- question: "You take a helix r(t) and reparameterize it to travel along the curve twice as fast. What changes?"
+  type: multiple-choice
+  options:
+    - "The curvature κ increases because the velocity vector is larger"
+    - "The torsion τ changes sign because the direction of traversal affects twisting"
+    - "The speed |r'(t)| increases, but κ and τ are unchanged"
+    - "Both κ and τ double since all rates of change scale with speed"
+  answer: 2
+  explanation: "Curvature and torsion are intrinsic geometric properties of how the curve sits in space — they are independent of how fast you traverse it. The formula κ = |r' × r''| / |r'|³ divides out the speed dependence: if you double speed, both the numerator and denominator scale appropriately, leaving κ unchanged. Speed is a property of the parameterization, not the curve."
+
+- question: "A circle of radius R has curvature 1/R, so a tighter circle (smaller R) has greater curvature than a wider circle."
+  type: true-false
+  answer: true
+  explanation: "κ = 1/R captures the intuition that bending is more extreme on tighter circles. A circle of radius 0.1 has curvature 10; one of radius 10 has curvature 0.1. A straight line (infinite radius) has curvature 0. The formula measures the rate at which the unit tangent vector T rotates per unit arc length — which is faster on tighter circles."
+
+- question: "A curve can have zero curvature everywhere but nonzero torsion at some points."
+  type: true-false
+  answer: false
+  explanation: "If κ = 0 everywhere, the curve is a straight line — the unit tangent T never changes direction, so the principal normal N is undefined, and the Frenet-Serret frame degenerates. Torsion requires a well-defined binormal B = T × N, which does not exist when the curve fails to bend. A straight line has no twisting behavior to measure."
+
+- question: "Why does the curvature formula κ = |r'(t) × r''(t)| / |r'(t)|³ divide by the cube of speed rather than speed itself?"
+  type: short-answer
+  answer: "The cross product |r' × r''| captures the bending signal but also scales with the square of speed (both r' and r'' grow when you traverse the curve faster). Dividing by |r'|² would cancel that speed scaling. But there is an additional factor of |r'| in the denominator because arc length parameterization requires one further normalization — essentially, κ is defined as the rate of change of T per unit arc length, and converting from time parameter to arc length introduces the extra |r'| in the denominator, giving the cube total."
+  explanation: "The key insight is that κ must be intrinsic — a geometric property of the curve's shape, not of how fast you draw it. The cube in the denominator is exactly the correction factor that removes all parameterization dependence, leaving only the geometry."
+```
+
 ## Explainer
 
 From your work with arc length, you know how to measure how far you've traveled along a curve in 3D space, parameterizing by arc length s to get a "unit-speed" description. Curvature and torsion take this idea further: they measure *how* the curve turns and twists as you travel along it. Together they completely characterize the shape of a space curve up to rigid motion — knowing κ(s) and τ(s) at every point tells you the curve's full geometry.

@@ -29,6 +29,45 @@ Conduct a simple cost-effectiveness analysis comparing two interventions in your
 ## Common Misconceptions
 Cost-effectiveness analysis is the only input to policy decisions rather than one evidence source. Cost-effectiveness analysis avoids value judgments when discount rates and perspective reflect values. Cheaper interventions are always more cost-effective than expensive interventions.
 
+## Questions
+
+```yaml
+- question: "Drug A costs $500 more than standard care and produces 0.01 additional QALYs per patient (ICER = $50,000/QALY). Drug B costs $50,000 more than standard care and produces 1 additional QALY per patient (ICER = $50,000/QALY). With a willingness-to-pay threshold of $100,000/QALY, which drug is more cost-effective?"
+  type: multiple-choice
+  options:
+    - "Drug A — it is much cheaper, making it more affordable and therefore more cost-effective"
+    - "Both are equally cost-effective — they have identical ICERs relative to the threshold"
+    - "Drug B — it produces far greater absolute health benefit at the same ICER"
+    - "Neither can be assessed without knowing the budget impact for each drug"
+  answer: 1
+  explanation: "Both drugs have identical ICERs of $50,000/QALY — both are equally cost-effective relative to the threshold. Cost-effectiveness is defined by the ratio of incremental cost to incremental health gain, not by absolute cost. This directly targets the common misconception that cheaper interventions are automatically more cost-effective. Drug A costs less in absolute terms, but Drug B produces 100 times more health at the same cost per QALY. The ICER is the relevant metric, not the price tag."
+
+- question: "Which type of economic evaluation converts health outcomes into monetary units to allow comparison with non-health public investments such as road safety or education spending?"
+  type: multiple-choice
+  options:
+    - "Cost-effectiveness analysis, using QALYs or DALYs as the health outcome"
+    - "Budget impact analysis, projecting fiscal consequences over a time horizon"
+    - "Cost-benefit analysis, assigning dollar values to health outcomes"
+    - "Sensitivity analysis, testing assumptions about cost and effectiveness"
+  answer: 2
+  explanation: "Cost-benefit analysis (CBA) places monetary values on health outcomes (e.g., a statistical life or a healthy year), enabling comparisons between health spending and other social investments. This is philosophically distinct from CEA, which uses natural health units and compares within health. The Explainer notes that CBA is less common in health policy partly due to the ethical discomfort of monetizing life — but it is the only method that enables direct cross-sector resource comparison."
+
+- question: "A cost-effectiveness analysis finding that a new intervention has an ICER below the willingness-to-pay threshold proves that governments should adopt the intervention immediately."
+  type: true-false
+  answer: false
+  explanation: "Cost-effectiveness analysis is one input into policy decisions, not the sole determinant. Other relevant factors include budget impact (a cost-effective intervention affecting millions may cause a short-term fiscal crisis), equity considerations, uncertainty in model assumptions, and the political values embedded in the willingness-to-pay threshold itself. The Common Misconceptions explicitly warn against treating CEA as the only input to policy decisions."
+
+- question: "The discount rate used in a cost-effectiveness model reflects a value judgment, not just a technical economic parameter."
+  type: true-false
+  answer: true
+  explanation: "Discounting future health benefits at a positive rate implies that a QALY gained today is worth more than a QALY gained in the future — a value judgment about how society weighs present versus future welfare. The Explainer notes that discount rates and the choice of perspective (payer, patient, societal) embed values into the analysis. Two analysts using different discount rates for the same intervention can reach different conclusions about cost-effectiveness, which is why transparency about assumptions is essential."
+
+- question: "Why must the ICER always be calculated relative to a specific comparator rather than expressed as an absolute number on its own?"
+  type: short-answer
+  answer: "The ICER is an incremental measure: it quantifies the additional cost per additional QALY gained by choosing one intervention over another. Without specifying the comparator, 'additional' is undefined — you cannot determine how much extra health the intervention produces or how much more it costs. An intervention that looks expensive compared to no treatment might look cost-effective compared to current standard of care, or vice versa. The ICER only makes sense as a relational measure between two alternatives."
+  explanation: "Policy decisions are always choices between alternatives, so the cost-effectiveness of any intervention is inherently context-dependent on what it is being compared to. Reporting an ICER without naming the comparator — or comparing ICERs from different studies that used different comparators — is a common source of confusion in the health policy literature."
+```
+
 ## Explainer
 
 You've already studied burden-of-disease metrics like DALYs and QALYs, which quantify how much health is lost or preserved by disease and intervention. Economic evaluation is the next step: it connects those health measures to costs, answering the question that burden metrics alone cannot — given limited resources, which intervention produces the most health per dollar? This question is uncomfortable but unavoidable in health policy, and the analytical methods are designed to make the tradeoffs explicit rather than hidden.

@@ -30,6 +30,45 @@ Compare acidity: water (pKa 16) > terminal alkyne (25) > alkene vinyl H (44) > a
 - Partial reduction selectivity (cis vs trans) is determined entirely by the choice of reducing agent, not by any property of the alkyne.
 - Alkyne addition of two equivalents does not give the same stereochemistry as two sequential alkene additions.
 
+## Questions
+
+```yaml
+- question: "A chemist wants to deprotonate a terminal alkyne to generate a nucleophilic alkynide anion for a carbon-carbon bond forming reaction. Which reagent is appropriate?"
+  type: multiple-choice
+  options:
+    - "NaOH in aqueous solution (conjugate acid pKa ≈ 16)"
+    - "NaHCO₃ in aqueous solution (conjugate acid pKa ≈ 10)"
+    - "NaNH₂ in THF (conjugate acid pKa ≈ 38)"
+    - "Acetic acid (pKa ≈ 5)"
+  answer: 2
+  explanation: "To deprotonate a terminal alkyne (pKa ≈ 25), the base must have a conjugate acid with a pKa *higher* than 25 — the base's conjugate acid must be weaker than the terminal alkyne's conjugate acid. NaNH₂ has a conjugate acid (NH₃) with pKa ≈ 38, making it sufficiently basic. NaOH (conjugate acid pKa ≈ 16) and NaHCO₃ (pKa ≈ 10) are far too weak. Acetic acid is an acid, not a base. This is a classic misconception: terminal alkynes feel 'relatively acidic' compared to alkanes, but pKa 25 still requires strong bases like NaNH₂ or n-BuLi — not aqueous hydroxide."
+
+- question: "Why is the C–H bond on a terminal alkyne (pKa ≈ 25) more acidic than a vinyl C–H bond on an alkene (pKa ≈ 44)?"
+  type: multiple-choice
+  options:
+    - "The triple bond withdraws electron density through resonance, weakening the C–H bond inductively"
+    - "The sp carbon of the alkyne has 50% s-character, stabilizing the negative charge on the alkynide anion better than the 33% s-character of an sp² carbon"
+    - "The linear geometry of the alkyne reduces steric hindrance around the acidic proton"
+    - "The two pi bonds in the triple bond donate electron density to the sigma framework, polarizing the C–H bond"
+  answer: 1
+  explanation: "The key is hybridization and s-character. An sp orbital has 50% s-character; sp² has 33%; sp³ has 25%. S orbitals hold electrons closer to the nucleus at lower energy. The greater the s-character of the orbital holding the lone pair on the carbanion (alkynide anion), the better it stabilizes the negative charge. Therefore, sp (50%) > sp² (33%) > sp³ (25%) in carbanion stability, giving the acidity order: terminal alkyne > vinyl C–H > alkane C–H. This is a hybridization effect, not resonance."
+
+- question: "Treating an internal alkyne with sodium metal dissolved in liquid ammonia (dissolving metal reduction) gives the trans-alkene as the major product."
+  type: true-false
+  answer: true
+  explanation: "True. Dissolving metal reduction proceeds via a radical anion mechanism: an electron from Na is added to the alkyne to give a vinyl radical anion, which is protonated by NH₃ to give a vinyl radical; then a second electron gives a vinyl carbanion, which is protonated again. The most stable vinyl radical and carbanion intermediates have the two substituents *trans* (anti) to minimize steric strain. This mechanism delivers hydrogens to *opposite* faces, producing the *trans* (E) alkene exclusively. In contrast, Lindlar's catalyst delivers both hydrogens from the same catalyst surface, giving the *cis* (Z) alkene."
+
+- question: "Terminal alkynes are strongly acidic and can be readily deprotonated by common bases like aqueous sodium hydroxide solution."
+  type: true-false
+  answer: false
+  explanation: "False. Terminal alkynes have pKa ≈ 25 — more acidic than alkenes (~44) or alkanes (~50), but very weakly acidic by ordinary standards. Water has pKa 16, meaning NaOH (conjugate acid pKa ≈ 16) is not strong enough to deprotonate a terminal alkyne. Strong bases like NaNH₂ (conjugate acid pKa ~38) or n-BuLi (~50) are required. The relative acidity of terminal alkynes is important for synthetic utility but should not be overstated — an alkyne proton is roughly 10 billion times less acidic than an acetic acid proton."
+
+- question: "Explain, using hybridization and s-character, why terminal alkynes are more acidic than vinyl C–H bonds, which are in turn more acidic than alkane C–H bonds."
+  type: short-answer
+  answer: "Acidity reflects the stability of the conjugate base (carbanion). In each case, the negative charge resides in a hybrid orbital on carbon: sp for alkynide (50% s-character), sp² for vinyl carbanion (33%), sp³ for alkyl carbanion (25%). S-orbital electrons experience greater nuclear attraction and are held at lower energy. The greater the s-character, the more the negative charge is stabilized, and the more acidic the corresponding C–H bond. This gives the order: terminal alkyne (pKa ~25) > vinyl C–H (pKa ~44) > alkane C–H (pKa ~50), mirroring s-character: 50% > 33% > 25%."
+  explanation: "This is purely a hybridization argument — not resonance or inductive effects. The same reasoning explains why sp-hybridized carbanions are *more* stable (higher s-character stabilizes negative charge) while sp-hybridized carbocations would be *less* stable (pulling positive charge toward the nucleus destabilizes it). This is one of the cleaner structure-reactivity relationships in organic chemistry: the s-character numbers map directly and predictably to the observed acidity trend."
+```
+
 ## Explainer
 
 You already know that alkenes feature a C=C double bond with sp² hybridization and trigonal planar geometry. Alkynes take this one step further: a **C≡C triple bond** consists of one sigma bond and two pi bonds, with the two pi bonds oriented perpendicular to each other. The carbon atoms are **sp-hybridized**, meaning each uses two hybrid orbitals (one for the sigma bond to the other triple-bond carbon, one for the bond to the substituent) and two unhybridized p orbitals for the pi bonds. This gives alkynes a distinctive **linear geometry** with 180° bond angles — the region around the triple bond is a rod, not a plane.

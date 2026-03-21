@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Sixteenth-century Mannerism rejected High Renaissance harmony in favor of elongated proportions, ambiguous spatial relationships, acidic color, and theatrical emotionalism. Reflecting post-Reformation spiritual anxiety and intellectual skepticism toward naturalism, Mannerist artists pursued virtuosity and artifice as philosophical ideals surpassing mere imitation of nature.
 
+## Questions
+
+```yaml
+- question: "Parmigianino's Madonna with the Long Neck depicts the Virgin with an impossibly elongated torso and fingers. The best explanation for this distortion is:"
+  type: multiple-choice
+  options:
+    - "Parmigianino lacked the technical skill to depict correct human proportions"
+    - "Elongation expresses a spiritual ideal — refined elegance was valued over anatomical accuracy"
+    - "The distortion was an accidental stylistic habit Parmigianino never noticed"
+    - "Medieval religious conventions required elongated figures for sacred subjects"
+  answer: 1
+  explanation: "Parmigianino had fully mastered High Renaissance techniques — the elongation was deliberate. Mannerist artists believed artifice and stylistic refinement were higher values than faithful imitation of nature. They were not trying to replicate the visible world; they were demonstrating the artist's creative power (disegno interno) to surpass it. Mistaking this for incompetence is the central misreading of Mannerism. Medieval elongation (option D) arose from different conventions and entirely different cultural circumstances."
+
+- question: "Which combination of historical events most directly contributed to Mannerism's atmosphere of spiritual anxiety and skepticism toward naturalism?"
+  type: multiple-choice
+  options:
+    - "The invention of the printing press and the rise of empirical science"
+    - "The Sack of Rome in 1527 and the Protestant Reformation"
+    - "The Black Death and the fall of Constantinople"
+    - "The French Revolution and the emergence of nationalist movements"
+  answer: 1
+  explanation: "The Sack of Rome (1527) shattered confidence in civilizational stability, and the Protestant Reformation fractured religious certainty that had underwritten Renaissance humanism. In this environment, the idealized naturalism of the High Renaissance — premised on a stable, harmonious world — felt inadequate. Mannerist artists responded by embracing instability, ambiguity, and artifice as more honest aesthetic responses to a destabilized world."
+
+- question: "Mannerist elongations and distortions reveal that these artists had not fully absorbed the technical lessons of the High Renaissance."
+  type: true-false
+  answer: false
+  explanation: "Mannerist artists were highly trained — many had worked directly under or deeply studied Raphael, Michelangelo, and Leonardo. Their departures from naturalism were deliberate, not deficiencies. The whole point of Mannerist artifice was to demonstrate the artist's ability to transcend the conventions they had mastered. You can only break rules purposefully — and be recognized for doing so — if you have first shown you know them."
+
+- question: "Mannerist architecture deliberately violated classical rules in ways that rewarded educated viewers who recognized what was being subverted."
+  type: true-false
+  answer: true
+  explanation: "Michelangelo's Laurentian Library vestibule (columns that support nothing, stairs that pour like lava) and Giulio Romano's Palazzo del Tè (keystones that appear to slip, triglyphs that seem to slide) only make sense as wit if you know the classical rules being broken. Mannerism is fundamentally intellectual — it assumes an audience fluent in the conventions it is subverting, and rewards that fluency with something stranger and more pleasurable than straightforward classical correctness."
+
+- question: "Why did Mannerist artists treat 'artifice' as a philosophical ideal rather than a deficiency, and how does this relate to the cultural context of the sixteenth century?"
+  type: short-answer
+  answer: "After the High Renaissance had achieved an ideal of naturalistic harmony, simply imitating nature no longer seemed like the highest artistic goal — that summit had been reached. Mannerist artists argued that true achievement lay in the display of the artist's own inventive power (disegno interno), which could surpass mere copying of God's creation. This elevation of artifice also fit the cultural moment: the Sack of Rome and the Reformation had shattered confidence in stable, harmonious order, making idealized naturalism feel naive. In a destabilized world, stylization and virtuosity became more honest responses."
+  explanation: "This is the key to understanding Mannerism as a coherent philosophical position, not a transitional or decadent phase. It was a considered answer to the question 'what do you do after perfection?' — and the answer was to abandon the goal of perfection-as-imitation in favor of perfection-as-invention. Vasari's term maniera (style, manner) praises exactly this quality of elegant, self-conscious artfulness."
+```
+
 ## Explainer
 
 If you have studied the High Renaissance, you know that artists like Leonardo, Raphael, and Michelangelo achieved an ideal of balanced naturalism — figures in convincing space, harmonious composition, colors that model form with quiet logic. By the 1520s, a generation of artists who had absorbed these achievements faced a problem: the ideal had been reached. What do you do after perfection? **Mannerism** was one answer — not a retreat from skill, but a deliberate decision to push past naturalism into something stranger, more intellectual, and more self-consciously artful.

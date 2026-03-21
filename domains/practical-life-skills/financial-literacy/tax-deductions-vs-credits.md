@@ -30,6 +30,45 @@ Calculate the tax savings from a $5,000 deduction versus a $5,000 credit at diff
 - Everyone should itemize to get the biggest refund; since the 2017 tax reform roughly doubled the standard deduction, roughly 90% of filers benefit more from the standard deduction — itemizing only helps when qualifying expenses exceed that threshold.
 - Nonrefundable credits are wasted if you have low income; partially true, but many programs designed for lower-income taxpayers (like the Earned Income Tax Credit) are refundable specifically to address this — the distinction between refundable and nonrefundable is what matters.
 
+## Questions
+
+```yaml
+- question: "Sarah is in the 22% tax bracket and can claim either a $3,000 tax deduction or an $800 tax credit — but not both. Which saves her more in actual taxes paid?"
+  type: multiple-choice
+  options:
+    - "The $3,000 deduction — it is a larger dollar amount and always saves more"
+    - "The $800 credit — it saves $800 directly, while the deduction saves only $660"
+    - "They save the same — deductions and credits of different amounts balance out"
+    - "The deduction — it reduces taxable income, which lowers her effective rate for the whole year"
+  answer: 1
+  explanation: "A credit reduces your tax bill dollar-for-dollar: $800 credit = $800 saved. A deduction reduces taxable income first, then the tax rate applies: $3,000 × 22% = $660 saved. The credit wins even though its face value is smaller. The key misconception is comparing deductions and credits by their raw dollar amounts — you must convert the deduction to actual tax savings (deduction × marginal rate) before comparing. A deduction only beats a same-dollar credit when the taxpayer is in a bracket above 100%, which is impossible."
+
+- question: "Maria has $6,000 in mortgage interest and $4,500 in charitable donations this year — a total of $10,500 in potentially itemizable expenses. The standard deduction for her filing status is $14,600. Should she itemize?"
+  type: multiple-choice
+  options:
+    - "Yes — itemizing always gives a larger deduction when you have qualifying expenses"
+    - "No — her itemized total of $10,500 is below the $14,600 standard deduction, so itemizing would increase her taxable income"
+    - "Yes — mortgage interest and charitable donations are always worth claiming separately"
+    - "No — but only because her income is too low to benefit from deductions"
+  answer: 1
+  explanation: "You itemize only when your qualifying expenses exceed the standard deduction. At $10,500 total, Maria's itemized deductions fall short of the $14,600 standard deduction — claiming them instead of the standard deduction would leave her with a smaller deduction and a higher taxable income. The standard deduction is a floor: it costs nothing and requires no documentation. Itemizing only helps when your qualifying expenses clear that threshold."
+
+- question: "A refundable tax credit can reduce your tax liability below zero, generating a refund even if you owe no tax at all."
+  type: true-false
+  answer: true
+  explanation: "This is the defining feature of refundable credits like the Earned Income Tax Credit (EITC). A nonrefundable credit can only reduce your tax to zero — any unused portion is lost. A refundable credit continues past zero, triggering a direct payment from the government. Many credits designed for lower-income taxpayers are refundable specifically because nonrefundable credits are less useful when you have little or no tax liability to offset."
+
+- question: "A $1,000 tax deduction and a $1,000 tax credit provide the same benefit to every taxpayer."
+  type: true-false
+  answer: false
+  explanation: "A $1,000 credit saves exactly $1,000 in taxes for every taxpayer at every income level. A $1,000 deduction saves only $1,000 × your marginal rate: $120 at 12%, $220 at 22%, $370 at 37%. The higher your bracket, the more your deduction is worth — deductions are asymmetric tools that benefit higher earners more. Credits are symmetric: the same face value yields the same tax savings regardless of income."
+
+- question: "Explain why a $500 tax credit is more valuable than a $500 tax deduction for a taxpayer in the 22% bracket."
+  type: short-answer
+  answer: "A credit reduces the actual tax bill dollar-for-dollar, so a $500 credit saves exactly $500. A deduction reduces taxable income first, and only then does the tax rate apply: $500 × 22% = $110 saved. The credit saves $500; the deduction saves $110. They intervene at different points in the tax calculation — the credit acts after the tax rate is applied, the deduction acts before."
+  explanation: "This explains why tax professionals say 'credits are better than deductions, dollar for dollar.' The deduction's value is always a fraction of its face amount (your marginal rate), while the credit's value equals its face amount. To compare them on equal footing, always ask: 'what is this deduction actually worth in reduced taxes?' The answer is always less than the deduction's face value, and usually far less."
+```
+
 ## Explainer
 
 From your work on tax filing, you know the basic flow: income comes in, certain amounts are subtracted to arrive at taxable income, and then a tax rate is applied to produce your tax liability. Deductions and credits both reduce what you owe, but they intervene at completely different points in that sequence — and that difference determines their value.

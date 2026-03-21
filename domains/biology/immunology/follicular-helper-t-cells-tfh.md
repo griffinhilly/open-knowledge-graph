@@ -34,6 +34,45 @@ Compare Tfh differentiation to other Th subsets, focusing on the role of IL-6, I
 ## Common Misconceptions
 Tfh are not simply CD4+ T cells in the germinal center—they have specific transcriptional and surface marker profiles. Not all B cell help comes from Tfh; extrafollicular response involves other T cell types.
 
+## Questions
+
+```yaml
+- question: "A researcher depletes all Tfh cells from immunized mice just before germinal centers would normally form. Which outcome would you most expect?"
+  type: multiple-choice
+  options:
+    - "Normal high-affinity antibody responses, because B cells can complete germinal center reactions independently"
+    - "Failure to form germinal centers, severely impaired affinity maturation, and absence of high-affinity class-switched antibodies"
+    - "Increased autoantibody production, because regulatory checkpoints that Tfh normally suppress are released"
+    - "Stronger innate immune responses that compensate for the lost adaptive B cell help"
+  answer: 1
+  explanation: "Tfh cells are not merely helpful to germinal center B cells — they are essential. Without CD40L and IL-21 signals from Tfh, germinal center B cells rapidly undergo apoptosis. Germinal centers cannot form or remain abortive. The immune response is limited to the short-lived extrafollicular response, which produces low-affinity IgM rather than high-affinity class-switched antibodies. Affinity maturation — the progressive selection of higher-affinity clones through competitive Tfh help — cannot proceed without T cell help driving B cell survival and proliferation."
+
+- question: "CXCR5 expression is essential to Tfh function primarily because:"
+  type: multiple-choice
+  options:
+    - "It directly delivers the IL-21 cytokine signal to germinal center B cells upon receptor engagement"
+    - "It physically directs Tfh cells from the T cell zone into the B cell follicle, placing them where germinal center help is needed"
+    - "It activates Bcl-6, the master transcription factor that defines the Tfh lineage"
+    - "It provides the CD40L costimulatory signal that protects germinal center B cells from apoptosis"
+  answer: 1
+  explanation: "CXCR5 is a chemokine receptor that follows a gradient of CXCL13 produced by follicular stromal cells. Upregulation of CXCR5, combined with downregulation of CCR7 (which normally retains T cells in the T zone), physically relocates the differentiating Tfh cell into the B cell follicle. This migration is a prerequisite for function — the Tfh cell cannot deliver CD40L or IL-21 to B cells if it is not in the right compartment. CXCR5 is the navigational mechanism; CD40L and IL-21 are the effector signals."
+
+- question: "Tfh cells distribute survival and differentiation signals equally to all germinal center B cells, ensuring broad support for the immune response."
+  type: true-false
+  answer: false
+  explanation: "Tfh help is competitive and affinity-dependent, not uniform. In the germinal center light zone, B cells compete to capture antigen from follicular dendritic cells. B cells with higher-affinity antigen receptors capture more antigen and display more peptide-MHC II on their surface. Tfh cells form more stable conjugates with these high-antigen-display B cells, delivering proportionally stronger CD40L and IL-21 signals. Low-affinity B cells receive less help and are more likely to undergo apoptosis. This selective delivery is the mechanism of affinity-based selection — not a flaw but the essential feature generating increasingly potent antibodies."
+
+- question: "Dysregulation of Tfh cells in either direction can cause disease: Tfh deficiency impairs humoral immunity, while excessive Tfh activity can drive pathogenic autoantibody production."
+  type: true-false
+  answer: true
+  explanation: "This bidirectional pathology reflects Tfh cells' central role in controlling which B cells receive survival and differentiation signals. When Tfh cells are deficient, germinal centers fail and high-affinity antibody responses cannot develop, leaving the host vulnerable to infections requiring quality humoral immunity. When Tfh cells are overactive or provide help to self-reactive B cells that escaped tolerance, they can fuel pathogenic autoantibody production — as seen in systemic lupus erythematosus, where Tfh expansion and germinal center hyperactivity drive anti-nuclear antibody production."
+
+- question: "How do Tfh cells serve as gatekeepers of affinity maturation? Describe the mechanism by which higher-affinity B cells receive preferential Tfh help."
+  type: short-answer
+  answer: "In the germinal center light zone, B cells compete to capture antigen from follicular dendritic cells. B cells with higher-affinity antigen receptors capture more antigen and display more peptide-MHC II on their surface. Tfh cells form more stable and prolonged conjugates with these high-antigen-display B cells, delivering proportionally stronger CD40L (survival and proliferation) and IL-21 (differentiation and class-switch) signals. Low-affinity B cells display less antigen, receive less help, and undergo apoptosis. This affinity-dependent competition for Tfh help progressively enriches the germinal center for higher-affinity clones."
+  explanation: "This mechanism elegantly links antigen receptor affinity to cellular survival through T cell-mediated competition: the B cell's performance in the antigen capture competition is translated into a survival advantage via Tfh help. The germinal center functions as a continuous selection tournament, with Tfh cells as both the judges and the prize dispensers. Understanding this mechanism explains why disrupting Tfh-B cell interactions — by blocking CD40L, depleting Tfh, or inhibiting IL-21 — collapses affinity maturation even when B cells themselves are intact."
+```
+
 ## Explainer
 
 From your study of T helper cell differentiation, you know that naive CD4+ T cells can differentiate into distinct subsets — Th1, Th2, Th17, and others — each defined by signature transcription factors and cytokine profiles tailored to different types of pathogens. **Follicular helper T cells (Tfh)** represent another major CD4+ lineage, but their role is unique: rather than directing effector responses against pathogens in tissues, Tfh cells specialize in providing help to B cells within germinal centers of secondary lymphoid organs. Without Tfh cells, germinal centers cannot form, affinity maturation stalls, and the immune system fails to produce high-affinity, class-switched antibodies.

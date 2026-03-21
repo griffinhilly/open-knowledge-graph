@@ -35,6 +35,45 @@ Compare Frege's puzzles about identity with how direct reference resolves them: 
 - Assuming direct reference requires no descriptive content at all; reference-fixing may be descriptive even if reference itself is direct.
 - Confusing cognitive significance with semantic content; names can differ cognitively despite identical semantics.
 
+## Questions
+
+```yaml
+- question: "Suppose the name 'Neptune' was introduced using the description 'the planet causing perturbations in Uranus's orbit.' According to direct reference theory, if it later turned out that a different body was causing the perturbations, what would happen to the reference of 'Neptune'?"
+  type: multiple-choice
+  options:
+    - "The name 'Neptune' would automatically transfer to refer to whichever body actually caused the perturbations"
+    - "'Neptune' would still refer to the planet we originally named Neptune — the description fixed reference initially but does not continue to determine it"
+    - "The name 'Neptune' would become semantically empty since its introducing description turned out to be false"
+    - "We would need to redefine 'Neptune' through a new description to maintain reference"
+  answer: 1
+  explanation: "This is the reference-fixing vs. reference-determination distinction central to direct reference theory. The description 'the planet causing perturbations' may have been used to introduce or fix the reference of 'Neptune' — pointing us to the right object at the moment of baptism. But once the name is in use, its reference is determined by the causal-historical chain of use, not by the description. Even if the description turns out to be false of Neptune, 'Neptune' continues to refer to that planet. Reference-fixing is a one-time act; the description does not become the meaning of the name."
+
+- question: "According to direct reference theory, why does 'Cicero is Tully' seem informative even though both names refer to the same person?"
+  type: multiple-choice
+  options:
+    - "The two names have different Fregean senses — 'Cicero' expresses one mode of presentation and 'Tully' expresses another"
+    - "The informative character lives in cognitive significance rather than semantic content: speakers may associate different ways of thinking about the object with each name, even though both names have the same semantic content"
+    - "Direct reference theory cannot explain this phenomenon and must accept it as a counterexample to the view"
+    - "The sentence is not actually informative — it only seems so because speakers haven't fully understood what proper names mean"
+  answer: 1
+  explanation: "Direct reference theory handles Frege's puzzle through a semantic/cognitive distinction. The semantic content of 'Cicero is Tully' is a proposition containing Cicero twice — the same as 'Cicero is Cicero.' But the cognitive significance — what a speaker learns or comes to believe — can differ because they may associate different ways of thinking about (or 'guises' of) the object with different names. The informativeness is psychological, not semantic. This is the move by Salmon and Soames: preserve direct reference while explaining the pragmatic phenomenon without introducing Fregean senses into the semantic content."
+
+- question: "According to direct reference theory, the meaning of a proper name is a descriptive content that picks out its referent by specifying properties the object must have."
+  type: true-false
+  answer: false
+  explanation: "This describes Frege's sense-based account, which direct reference theory rejects. Under direct reference theory, the meaning of a name is exhausted by its referent — the object itself is directly contributed to the proposition, with no descriptive intermediary. This is precisely what makes names rigid designators: they pick out the same object in every possible world rather than picking out whichever object satisfies a description in each world. The rejection of descriptive meaning is the defining commitment of direct reference theory."
+
+- question: "Names are rigid designators, referring to the same object in all possible worlds, because direct reference theory holds that names have no descriptive content that could vary across worlds."
+  type: true-false
+  answer: true
+  explanation: "This is the explanatory connection between direct reference and rigid designation. A definite description like 'the tutor of Alexander' picks out whoever satisfies that description in each possible world — in a world where someone else tutored Alexander, it refers to that other person. A name like 'Aristotle' directly refers to Aristotle in every possible world (including worlds where he never tutored anyone), because there is no descriptive content to be satisfied differently in different worlds. The rigidity of names is explained by, not independent of, their lack of descriptive semantic content."
+
+- question: "What is the distinction between reference-fixing and reference-determination in direct reference theory, and why does this distinction matter for understanding how proper names work?"
+  type: short-answer
+  answer: "Reference-fixing is the one-time act by which a name is attached to its referent — often using a description, an ostensive gesture, or a baptism in the presence of the object. Reference-determination is the ongoing question of what the name refers to in subsequent uses. Direct reference theory holds that once a name's reference is fixed, it is transmitted through a causal-historical chain of use; the description used in fixing reference does not become the name's meaning or continue to determine reference. So if 'Aristotle' was fixed using 'the greatest student of Plato,' but it turned out Aristotle never studied under Plato, the name still refers to Aristotle — because reference is determined by the causal chain back to the original baptism, not by the fixing description. The distinction matters because it explains how names can remain meaningful even when their introducing descriptions turn out to be false."
+  explanation: "This distinction is one of Kripke's central contributions. Without it, direct reference theory would be committed to names becoming empty whenever their introducing descriptions fail — which is intuitively wrong. With the distinction, reference-fixing descriptions play only an introductory role; the causal chain does the ongoing referential work. This also explains why different communities can use the same name successfully even if they associate different (possibly false) descriptions with it."
+```
+
 ## Explainer
 
 From Frege, you know that two names can refer to the same object while differing in **sense** — the mode of presentation that picks out the referent. "Hesperus" and "Phosphorus" both refer to Venus, but their senses differ (evening star vs. morning star), which is why "Hesperus is Phosphorus" is informative rather than trivial. Frege's framework elegantly handles the informativeness of identity statements, but it comes with a strong commitment: names have descriptive content that mediates their reference. **Direct reference theory** challenges this commitment directly, drawing on Kripke's arguments that you've studied.

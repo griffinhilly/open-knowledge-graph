@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Banker's algorithm grants resource requests only if the resulting state is safe (all processes can eventually finish). It uses maximum claims and simulates allocation; though expensive, it prevents deadlock without breaking any condition or blocking any progress.
 
+## Questions
+
+```yaml
+- question: "A process requests additional resources, and the Banker's algorithm simulates the allocation and finds no safe sequence exists in the resulting state. What does the algorithm do?"
+  type: multiple-choice
+  options:
+    - "Grants the request anyway if no deadlock has yet occurred in the current state"
+    - "Denies the request and places the process in a waiting queue until a safe sequence becomes possible"
+    - "Terminates the requesting process to prevent the unsafe state"
+    - "Preempts resources from another process to create a safe sequence"
+  answer: 1
+  explanation: "The Banker's algorithm is a *deadlock avoidance* strategy: it refuses any request that would move the system into an unsafe state. The requesting process is blocked (waits) until resource releases by other processes make the request grantable without entering an unsafe state. The algorithm does not terminate processes (that would be deadlock recovery, not avoidance) and does not preempt resources (that would violate the no-preemption condition). Granting a request that creates an unsafe state is exactly what the algorithm exists to prevent."
+
+- question: "What is the key distinction between an 'unsafe state' and 'deadlock' in the Banker's algorithm framework?"
+  type: multiple-choice
+  options:
+    - "An unsafe state means deadlock has already occurred; deadlock means it is merely imminent"
+    - "An unsafe state means deadlock is certain to occur; deadlock means processes are currently stuck"
+    - "An unsafe state means no safe sequence exists — deadlock is possible if processes request their maximum — but deadlock means processes are already stuck waiting in circular dependency"
+    - "Unsafe state and deadlock are equivalent; the Banker's algorithm prevents both with the same mechanism"
+  answer: 2
+  explanation: "An unsafe state means: there exists no ordering of processes that guarantees all can finish given the current allocation and maximum claims. This means deadlock is *possible* if processes happen to request their maximum needs. But processes might not actually request their maximum, so an unsafe state does not guarantee deadlock will occur. Deadlock, by contrast, means processes are *already* stuck in a circular wait with no way to proceed. The Banker's algorithm avoids unsafe states as a conservative strategy to prevent the possibility of deadlock."
+
+- question: "An unsafe state in the Banker's algorithm framework guarantees that deadlock will eventually occur."
+  type: true-false
+  answer: false
+  explanation: "An unsafe state means the system cannot guarantee that all processes will complete if they each request their maximum needs simultaneously. However, processes may not actually request their maximum, and an unsafe state does not mean deadlock is inevitable — only that the system has lost its guarantee of avoiding it. A process might complete and release resources before others need them, escaping deadlock even from an unsafe state. The Banker's algorithm is conservative: it avoids unsafe states to be safe, not because unsafe always means deadlocked."
+
+- question: "The Banker's algorithm requires each process to declare its maximum resource needs before execution begins."
+  type: true-false
+  answer: true
+  explanation: "This is a fundamental requirement of the algorithm. To determine whether a state is safe, the algorithm must know each process's maximum claim — the most of each resource type it will ever need simultaneously. From this, it computes the remaining need (max claim minus current allocation) and simulates whether processes can finish in some order. Without maximum claims, the safety check is impossible. This requirement is also one of the primary practical limitations of the algorithm, since real programs often cannot declare their maximum resource needs in advance."
+
+- question: "Why does the Banker's algorithm require processes to declare their maximum resource needs upfront, and why does this requirement make the algorithm impractical for general-purpose operating systems?"
+  type: short-answer
+  answer: "The algorithm needs maximum claims to simulate whether all processes can eventually finish: safety is defined as the existence of an ordering where each process can obtain its maximum remaining needs from currently available resources plus what earlier-finishing processes release. Without knowing maximum needs, the safety simulation is impossible. The algorithm is impractical because real programs often cannot predict their maximum resource needs in advance, the overhead of running the safety check on every request is O(n² × m) — expensive for systems with thousands of processes — and the conservative refusals can cause unnecessary waiting even when deadlock would never have occurred."
+  explanation: "These limitations explain why modern general-purpose OS kernels typically use deadlock detection-and-recovery rather than avoidance. The Banker's algorithm is more valuable as a conceptual model that precisely defines 'safe state' and shows that avoidance without restriction is theoretically possible, than as a practical implementation strategy."
+```
+
 ## Explainer
 
 From your study of deadlock conditions and prevention, you know the four necessary conditions for deadlock (mutual exclusion, hold-and-wait, no preemption, circular wait) and that prevention works by structurally eliminating one of them — for example, requiring processes to request all resources upfront eliminates hold-and-wait. Prevention is conservative: it restricts what processes can do even when no deadlock threat exists. **Deadlock avoidance** takes a different approach — it allows processes to request resources freely but refuses any request that would put the system into an unsafe state.

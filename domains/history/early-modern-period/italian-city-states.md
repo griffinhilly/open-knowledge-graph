@@ -35,6 +35,45 @@ Map the major Italian city-states and their economic specialties. Compare their 
 - Italy was not a unified nation — it was a fragmented patchwork of competing city-states and foreign-controlled territories.
 - The Black Death, while devastating, indirectly contributed to Renaissance conditions by concentrating wealth among survivors and disrupting old social hierarchies.
 
+## Questions
+
+```yaml
+- question: "The Medici family invested enormous wealth in artistic patronage, universities, and humanist scholars. What was the primary motivation for this investment?"
+  type: multiple-choice
+  options:
+    - "They were required by law to spend a fixed percentage of banking profits on civic improvements"
+    - "They needed a form of legitimacy that hereditary aristocratic rank — which they lacked — would have provided in a feudal system"
+    - "Art was more profitable than banking in 15th-century Florence"
+    - "The Church required merchant families to fund religious art as penance for usury"
+  answer: 1
+  explanation: "In feudal kingdoms, legitimacy came from inherited noble rank. Merchant oligarchs like the Medici had wealth but not ancient lineage. Cultural patronage — funding cathedrals, commissioning Botticelli, endowing the Platonic Academy — was how they purchased the prestige and civic legitimacy that birth had not given them. The patronage was strategic as much as aesthetic: it substituted for the aristocratic legitimacy they couldn't acquire by inheritance."
+
+- question: "Which combination of factors most directly explains why Italian city-states — rather than feudal kingdoms like France or England — became the seedbed of the Renaissance?"
+  type: multiple-choice
+  options:
+    - "Italian cities had warmer climates and more leisure time, enabling cultural production"
+    - "The Pope's presence in Rome gave Italian cities direct access to classical texts"
+    - "Merchant oligarchies competing for prestige funded art and scholarship as a substitute for aristocratic legitimacy, amplified by inter-city competition"
+    - "Italian cities were simply wealthier overall because Mediterranean trade routes were more profitable"
+  answer: 2
+  explanation: "Wealth alone doesn't explain patronage patterns — northern European cities also had trade wealth. The mechanism was the specific political structure: merchant oligarchies needed legitimacy that wealth alone couldn't buy, found it in cultural patronage, and competed with each other city-state by city-state. This created a concentrated market for talent and ideas that no feudal court system could replicate. Proximity to classical ruins was a contributing factor but not the primary driver."
+
+- question: "Competition between Italian city-states like Florence, Venice, and Milan directly intensified spending on artistic and intellectual patronage."
+  type: true-false
+  answer: true
+  explanation: "Inter-city competition amplified the patronage dynamic that merchant legitimacy already incentivized. Florence could not concede cultural superiority to Venice without a fight. Each city competed not only commercially but aesthetically and intellectually, creating a multiplier effect on the market for artistic and scholarly talent. This concentration and intensity is why the Renaissance was geographically specific to northern Italy rather than dispersed across Europe."
+
+- question: "The Black Death was unambiguously harmful to Renaissance conditions, depleting the wealth and population needed for cultural flourishing."
+  type: true-false
+  answer: false
+  explanation: "The Black Death had counterintuitive positive effects on Renaissance conditions. Survivors often inherited the accumulated wealth of multiple deceased family members, concentrating capital dramatically. Labor shortages disrupted feudal obligations, giving artisans and peasants more bargaining power and social mobility. These disruptions cracked the old medieval hierarchies and created the social fluidity, new questions about human worth, and appetite for classical ideas that would define Renaissance humanism."
+
+- question: "Why did the specific political structure of Italian city-states — merchant oligarchies rather than feudal nobility — make them more likely to fund the arts and learning?"
+  type: short-answer
+  answer: "Merchant oligarchs derived power from capital rather than hereditary rank. In a feudal system, legitimacy came from ancient lineage and land — forms of status the merchants didn't possess. Cultural patronage (funding cathedrals, commissioning art, endowing universities, supporting humanist scholars) was how they purchased the prestige and civic legitimacy that birth hadn't given them. This created a structural incentive for merchant elites to fund culture that feudal nobles, whose legitimacy was already secure through heredity, felt less urgently."
+  explanation: "The deeper point is that patronage was not purely altruistic or aesthetic — it was a form of political investment. Lorenzo de' Medici's hosting of the Platonic Academy was simultaneously cultural diplomacy, political signaling, and genuine intellectual curiosity. Understanding this structural incentive explains why the Renaissance happened in merchant cities, not in aristocratic courts."
+```
+
 ## Explainer
 
 The Renaissance did not emerge from nowhere — it emerged from a very specific kind of place. You've already seen how the revival of medieval trade created wealthy commercial centers. The Italian city-states are what happens when that commercial wealth concentrates in cities that are politically independent, intensely competitive with each other, and sitting atop the ruins of ancient Rome. The combination produced conditions for cultural explosion that did not exist anywhere else in Europe in the 14th and 15th centuries.

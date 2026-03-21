@@ -29,6 +29,45 @@ Derive the circuit equation from Kirchhoff's laws: V_R + V_L + V_C = V_applied. 
 ## Common Misconceptions
 - Confusing voltage across the capacitor (∫i dt / C) with current; the signs matter. - Forgetting the R·i term or misinterpreting its role as energy dissipation. - Not recognizing the mechanical-electrical duality, missing intuition from one domain to the other.
 
+## Questions
+
+```yaml
+- question: "In a series RLC circuit, resistance R is very large relative to 4L/C. What behavior does the current exhibit after the circuit is energized?"
+  type: multiple-choice
+  options:
+    - "The current oscillates with exponentially decaying amplitude (ringing)"
+    - "The current decays exponentially to zero without oscillating"
+    - "The current oscillates indefinitely at the natural frequency"
+    - "The current immediately reaches a steady-state constant value"
+  answer: 1
+  explanation: "When R² > 4L/C, the characteristic equation has two distinct real roots, corresponding to the overdamped case in the spring-mass analogy. The current decays monotonically — like a mass in thick oil that returns slowly to rest without bouncing. The oscillating (ringing) behavior occurs in the underdamped case (R² < 4L/C), where complex roots produce decaying oscillations. The duality to the mechanical system makes this intuitive once the analogy is internalized."
+
+- question: "In the mechanical-electrical duality, which electrical component corresponds to mass in the spring-mass equation?"
+  type: multiple-choice
+  options:
+    - "Resistance R, because both R and mass resist motion"
+    - "Capacitance C, because both store energy"
+    - "Inductance L, because both resist changes in their respective flow (current / velocity)"
+    - "The voltage source, because it drives both systems"
+  answer: 2
+  explanation: "The duality maps: L (inductance) ↔ m (mass) — both resist changes in flow; R (resistance) ↔ c (damping coefficient) — both dissipate energy; 1/C ↔ k (spring constant) — both provide a restoring force proportional to accumulated displacement or charge. The equation L·i'' + R·i' + (1/C)·i = 0 is structurally identical to m·x'' + c·x' + k·x = 0. Option A is tempting because damping 'resists motion,' but mass specifically resists *changes* in velocity (inertia), and inductance specifically resists changes in current — that's the correct match."
+
+- question: "Resonance in an RLC circuit occurs at ω₀ = 1/√(LC) because at that frequency, the inductive and capacitive impedances cancel, leaving only resistance to limit current."
+  type: true-false
+  answer: true
+  explanation: "This is correct and is the direct electrical analog of mechanical resonance. At the natural frequency, the impedance contribution from the inductor (+jωL) and capacitor (1/jωC) have equal magnitude and opposite sign, canceling each other. Only R remains, so current amplitude is maximized. This is why radio tuning works: adjusting C changes ω₀ until it matches the broadcast frequency, maximizing the current response to that station's signal."
+
+- question: "Increasing resistance R in a series RLC circuit will increase the maximum current amplitude at resonance."
+  type: true-false
+  answer: false
+  explanation: "At resonance, the only impedance limiting current is the resistance R — the inductive and capacitive terms cancel. So current at resonance is V₀/R: it is inversely proportional to R. Larger R means *lower* maximum current at resonance, not higher. This is the opposite of the tempting intuition that 'more R somehow helps.' Larger R increases damping, suppresses oscillatory behavior, and reduces the sharpness (Q-factor) of the resonance peak."
+
+- question: "Explain why the condition R² < 4L/C produces 'ringing' (oscillating current) in an RLC circuit, using the analogy to the mechanical spring-mass system."
+  type: short-answer
+  answer: "When R² < 4L/C, the characteristic equation Lλ² + Rλ + 1/C = 0 has complex conjugate roots, producing a solution of the form e^(–αt)cos(ωt). This is decaying oscillation: the current swings back and forth with decreasing amplitude. In the mechanical analogy, this corresponds to an underdamped spring-mass system where damping is too weak to prevent the mass from overshooting equilibrium — like a spring with light friction that bounces several times before settling. The inductance (like mass) stores energy and drives overshoot; resistance (like damping) gradually dissipates it."
+  explanation: "The key is connecting the sign of the discriminant to the nature of the characteristic roots: real roots → exponential decay (overdamped); complex roots → oscillation with decay (underdamped). The mechanical analogy makes this physically intuitive — once you know what underdamped means for a spring, you immediately know what it means for a circuit."
+```
+
 ## Explainer
 
 From **second-order linear homogeneous ODEs**, you know how to solve equations of the form ay'' + by' + cy = 0 and how the nature of the characteristic roots — real and distinct, repeated, or complex conjugate — determines whether solutions decay monotonically, decay with critical damping, or oscillate. The RLC circuit is a direct physical realization of exactly this equation, letting you see those three cases play out in measurable voltages and currents.

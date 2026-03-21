@@ -31,6 +31,45 @@ Compare outcomes in aid-dependent economies with varying governance. Study RCTs 
 - Believing aid addresses all barriers to development (institutions, not money, are often binding).
 - Treating all aid equally (project aid, technical assistance, and budget support have vastly different effects).
 
+## Questions
+
+```yaml
+- question: "A donor funds a $50 million school construction program in a recipient country. Studies find that total government education spending increased by only $12 million after the aid arrived. What concept best explains this gap?"
+  type: multiple-choice
+  options:
+    - "Conditionality — the recipient failed to meet reform requirements tied to the education funds"
+    - "Fungibility — the government redirected its own education budget elsewhere once donors covered that spending"
+    - "Crowding out — private investment in education fell in response to the public program"
+    - "Selectivity — the donor chose a recipient with poor governance that could not absorb the funds"
+  answer: 1
+  explanation: "Fungibility means money is interchangeable: if the government was already planning to spend $50M on schools and donors provide that funding, it frees up $50M for other priorities — patronage, military, or consumption. Total education spending rises by much less than the aid amount. The donor built schools, but did not necessarily increase education investment. Option C (crowding out) refers to private investment declining, not government substitution of its own funds."
+
+- question: "Why is conditionality — attaching policy reform requirements to aid disbursement — often ineffective at producing lasting reform in recipient countries?"
+  type: multiple-choice
+  options:
+    - "Donor agencies lack the technical expertise to design meaningful reform conditions"
+    - "Recipients are too poor to implement structural reforms even when they genuinely want to"
+    - "Donors face a time-inconsistency problem: once aid is pledged, withdrawing it punishes the poor rather than the government, making threats to withhold non-credible"
+    - "Conditionality is effective only for health and education programs, not institutional or governance reforms"
+  answer: 2
+  explanation: "The core problem is credibility. Governments know that if they implement reforms superficially or reverse them after disbursement, donors are unlikely to cut off aid because doing so harms vulnerable populations, not the government officials who made the promises. This makes donor threats non-credible, and governments respond rationally by front-loading token compliance. The time-inconsistency problem — the donor's optimal policy shifts after aid is committed — is the structural reason conditionality underperforms relative to expectations."
+
+- question: "Giving aid preferentially to well-governed countries (selectivity) raises average aid effectiveness, but raises no ethical concerns because well-governed countries also tend to have the highest poverty rates."
+  type: true-false
+  answer: false
+  explanation: "False. The ethical tension in selectivity is precisely the opposite: the countries with the worst governance often have the deepest poverty and the greatest humanitarian need. Selectivity means the most vulnerable populations in poorly governed states receive the least international assistance, because their governments cannot be trusted to use aid effectively. This creates a direct conflict between effectiveness (aid where it works) and equity (aid where it is needed most). Resolving this tension is one of the central normative debates in development economics."
+
+- question: "More foreign aid always increases public spending in a recipient country by at least the amount of the aid received, because aid adds resources to the government budget."
+  type: true-false
+  answer: false
+  explanation: "False. Fungibility breaks this one-to-one relationship. Aid dollars can substitute for domestic revenue rather than supplement it. Empirical evidence shows that in many recipient countries, each dollar of aid increases total public spending by only 30–50 cents — the remainder displaces domestic revenue or flows into consumption and leakage. Aid does not stay in the budget category targeted by donors unless there is strong budget transparency and accountability. The institutions that enforce fiscal discipline within a country are precisely what many aid recipients lack."
+
+- question: "Explain the fungibility problem in foreign aid. Why does building a hospital with donor money not necessarily increase a country's total health spending?"
+  type: short-answer
+  answer: "Fungibility means that money is interchangeable — if a donor funds a specific expenditure, the government can reallocate its own previously committed funds elsewhere. If a government planned to spend $100M on health and a donor provides $30M for a hospital, the government may shift its own $30M to other priorities, leaving total health spending at $100M rather than $130M. The aid built the hospital but did not increase the health budget. This substitution happens whenever recipient governments have discretion over their own resources, which is always the case absent line-item budget oversight. Fungibility is worse in weak-governance environments with opaque budgets."
+  explanation: "The implication is that aid effectiveness cannot be measured just by whether the physical project was completed. You must also ask whether domestic spending on the same sector actually increased. The counterfactual — what would the government have spent without the aid? — is the correct benchmark, not whether the donor's project was implemented. This is why budget support (general funds to government) has different properties than project aid (specific deliverables), and why both are subject to fungibility in different degrees."
+```
+
 ## Explainer
 
 From your study of fiscal policy, you understand how government spending and taxation affect aggregate demand and economic growth. Foreign aid enters a recipient country's economy through similar channels — it adds resources that can finance public investment, social services, or consumption. But unlike domestically raised revenue, aid comes with a unique set of problems rooted in the fact that the people providing the money (donor taxpayers) are entirely different from the people spending it (recipient governments), creating accountability gaps that fiscal policy within a single country does not face.

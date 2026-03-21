@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Russian Formalists argued that literature works by making the familiar strange—by using technique (sound, rhythm, syntax) to disable automatic perception. Defamiliarization forces readers to attend to form itself rather than consuming content automatically. This method reveals how literary devices create meaning through deviation from ordinary language and perception.
 
+## Questions
+
+```yaml
+- question: "A student reads Tolstoy's scene describing a horse-flogging from the horse's literal perspective and concludes that Tolstoy chose this device because it is the most persuasive way to argue against animal cruelty. What would a Russian Formalist say is missing from this interpretation?"
+  type: multiple-choice
+  options:
+    - "It ignores that Tolstoy had no political views on animal cruelty"
+    - "It focuses on the message (content) rather than on how the technique forces readers to perceive the cruelty as if for the first time, breaking habitual recognition of it"
+    - "Defamiliarization requires that the subject become completely unrecognizable to the reader"
+    - "Only first-person perspective can produce defamiliarization in narrative prose"
+  answer: 1
+  explanation: "The Formalist framework redirects attention from *what* a text means to *how* it produces its effect. The horse's perspective is not primarily a rhetorical strategy for persuasion — it is a device that estranges a familiar scene of cruelty, forcing genuine perception instead of automatic recognition and moral bypass. Identifying the 'argument' mistakes the vehicle for the destination."
+
+- question: "According to Russian Formalism, why does a poem's unusual word order or inverted syntax matter?"
+  type: multiple-choice
+  options:
+    - "It signals the poet's departure from classical conventions and originality"
+    - "It communicates emotional content more efficiently than ordinary prose word order could"
+    - "It creates perceptual friction that slows automatic processing, forcing readers to actually experience the language rather than skim it"
+    - "It makes the poem accessible only to educated readers, preserving its cultural prestige"
+  answer: 2
+  explanation: "Unusual syntax is a defamiliarization device. The friction it creates breaks habitual, automatic processing and forces the reader into genuine perception of the words themselves. The strangeness is not a side effect — it is the mechanism through which meaning emerges. Options A, B, and D all locate the function outside the experience of reading itself."
+
+- question: "Defamiliarization works by making objects or experiences so strange that readers cannot identify what is being described."
+  type: true-false
+  answer: false
+  explanation: "Defamiliarization does not eliminate recognition — it restores genuine perception alongside recognition. Tolstoy's horse scene is still recognizable as a scene of cruelty; the unusual perspective makes readers actually *see* it rather than automatically classifying and moving on. The goal is to break automatization (habitual processing), not to obscure meaning."
+
+- question: "For a Russian Formalist critic, the fact that a passage does something stylistically odd — an unexpected metaphor, a disrupted sound pattern — is meaningful evidence that technique is at work, not a sign of error or affectation."
+  type: true-false
+  answer: true
+  explanation: "This is the core Formalist analytical move: deviations from ordinary language are not accidents — they are devices that produce estrangement. When something seems odd, Formalist analysis asks what kind of perceptual friction it creates and how that friction restores genuine perception. The strangeness is the mechanism, not the decoration."
+
+- question: "Why, according to Shklovsky, does habitual perception become a problem, and what does literature do to address it?"
+  type: short-answer
+  answer: "Habitual perception collapses into automatization: we stop genuinely experiencing familiar things and instead merely recognize and label them. We 'see through' what we encounter every day without actually perceiving it. Literature uses technique — unusual syntax, unexpected metaphor, disruptive rhythm — to break this automatization, forcing readers to slow down and experience objects and ideas as if for the first time. Meaning emerges in the gap the device creates between recognition and genuine perception."
+  explanation: "This is the central claim of Shklovsky's 'Art as Technique': art's function is not to convey information efficiently, but to restore the sensation of experience by blocking the shortcuts of habitual perception. Without defamiliarization, lived experience becomes hollow routine."
+```
+
 ## Explainer
 
 Your training in close reading gives you the tools to attend carefully to a text's language — word choice, syntax, imagery, sound. The Russian Formalist movement, particularly Viktor Shklovsky's 1917 essay "Art as Technique," provides the theoretical explanation for *why* that attention matters. Shklovsky's central claim is that ordinary perception is governed by **automatization**: we stop actually seeing the things we encounter habitually. You no longer perceive your commute; you arrive without experiencing it. You no longer see the chair you sit in every day — you merely "recognize" it. Habituation collapses perception into label-and-move-on.

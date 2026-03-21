@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 Polar amplification—Arctic and Antarctic regions warming faster than the global average—is primarily driven by the ice-albedo feedback: as ice melts, darker ocean or land is exposed, absorbing more solar radiation and causing further melting. Additional feedback mechanisms (lapse-rate, water-vapor, cloud feedbacks) also contribute. Paleoclimate records confirm that ice-albedo feedback is strong; future Arctic warming is predicted to exceed global-mean warming by a factor of 2–3, with profound effects on Arctic ecosystems and global climate patterns.
 
+## Questions
+
+```yaml
+- question: "Arctic sea ice melts significantly over one summer, exposing a large area of open ocean. Through the ice-albedo feedback, what happens next?"
+  type: multiple-choice
+  options:
+    - "The exposed dark ocean radiates more heat to space, cooling the Arctic and partially restoring the ice"
+    - "The exposed dark ocean reflects more solar radiation than ice, cooling the surrounding area"
+    - "The exposed dark ocean absorbs more solar radiation, warming the water and melting additional surrounding ice"
+    - "The loss of sea ice reduces evaporation, decreasing cloud cover and indirectly amplifying warming"
+  answer: 2
+  explanation: "Open ocean has an albedo of about 0.06–0.10, absorbing ~90–94% of incoming solar radiation. Ice and snow have albedo 0.6–0.9, reflecting most radiation. When ice melts and exposes ocean, the surface switches from highly reflective to highly absorptive — capturing far more solar energy. This additional warming causes further melting, which exposes more ocean, which absorbs even more energy: a classic self-amplifying positive feedback loop. Option A describes a negative (restoring) feedback — the opposite of what ice-albedo does."
+
+- question: "The lapse-rate feedback amplifies polar warming (rather than stabilizing it as in the tropics) because of which property of the polar atmosphere?"
+  type: multiple-choice
+  options:
+    - "The poles receive more solar radiation per unit area, amplifying the initial warming signal"
+    - "The polar atmosphere is stably stratified, so surface warming cannot be lofted aloft by convection and instead remains trapped near the surface"
+    - "Water vapor is more abundant at the poles, enhancing the greenhouse effect more strongly there"
+    - "Polar clouds reflect more outgoing longwave radiation back to the surface, trapping heat"
+  answer: 1
+  explanation: "In the tropics, convection efficiently mixes surface warmth upward — warming distributes through the full tropospheric column, and the warmer upper troposphere radiates more energy to space, providing a stabilizing (negative) feedback. At the poles, the atmosphere is stably stratified (cold, dense air suppresses convection), so warming stays near the surface rather than spreading upward. The surface warms more per unit of forcing while less heat escapes to space — a positive feedback at poles that is negative in the tropics. Water vapor feedback (option C) is real but is a separate mechanism."
+
+- question: "The ice-albedo feedback is a positive feedback: melting ice causes further warming, which causes further melting."
+  type: true-false
+  answer: true
+  explanation: "A positive feedback amplifies the original perturbation — it is self-reinforcing. Ice-albedo feedback works exactly this way: initial warming → ice melts → darker surface absorbs more solar radiation → further warming → more ice melts. 'Positive' here does not mean 'beneficial'; it means the feedback acts in the same direction as the initial forcing. This is the primary reason the Arctic warms 2–4 times faster than the global average."
+
+- question: "Polar amplification occurs because polar regions receive more solar radiation than tropical regions, driving stronger warming."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true: polar regions receive less solar radiation on average due to low sun angles and long polar nights. Polar amplification is caused not by more incoming energy but by feedback mechanisms — primarily ice-albedo — that amplify a given warming signal more strongly at high latitudes. The tropics, despite receiving the most solar radiation, warm the least in relative terms because they lack the ice-albedo feedback and because the tropical lapse-rate feedback is stabilizing."
+
+- question: "Explain why the ice-albedo feedback produces greater warming amplification at the poles than it would in tropical regions, even if tropical glaciers were to melt."
+  type: short-answer
+  answer: "The ice-albedo feedback's strength depends on both the albedo contrast between ice and exposed surface AND the area of ice available to melt. The Arctic has millions of square kilometers of sea ice and snow; when replaced by low-albedo ocean, the dramatic increase in solar absorption over this vast area drives strong warming. Tropical glaciers cover a small area, so even total melting would produce a tiny feedback effect. Additionally, the stable polar stratification traps the absorbed energy near the surface rather than distributing it upward, concentrating the temperature signal where it can melt more ice."
+  explanation: "The geographic extent of ice-covered area is critical — the feedback is proportional to the area transitioning from high to low albedo. The polar lapse-rate feedback compounds this by preventing absorbed energy from escaping efficiently to space, amplifying the surface temperature response still further."
+```
+
 ## Explainer
 
 From your study of climate sensitivity and radiative feedbacks, you know that the climate system's response to a forcing (like increased CO₂) is amplified or dampened by feedback loops. From the surface energy balance, you understand how incoming and outgoing radiation determine surface temperature. **Polar amplification** is the observed phenomenon that the Arctic and, to a lesser extent, Antarctica warm (or cool) significantly more than the global average in response to a change in global radiative forcing. The Arctic has already warmed roughly 2–4 times faster than the global mean over recent decades, and understanding why requires tracing several interlocking feedbacks.

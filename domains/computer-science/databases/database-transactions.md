@@ -36,6 +36,45 @@ Simulate a bank transfer in two SQL statements inside a transaction, then delibe
 - ROLLBACK does not undo DDL statements (CREATE TABLE, DROP TABLE) in most databases — DDL is auto-committed.
 - Long-running transactions hold locks and consume resources; transactions should be kept as short as possible.
 
+## Questions
+
+```yaml
+- question: "A banking application runs two UPDATE statements to transfer money: first debiting Alice's account, then crediting Bob's. There is no explicit transaction — the database is in auto-commit mode. A server crash occurs between the two statements. What is the outcome?"
+  type: multiple-choice
+  options:
+    - "Both statements are rolled back automatically because the operation was incomplete"
+    - "Alice's account is debited but Bob's is never credited — the $100 is lost"
+    - "The database retries both statements when the server restarts"
+    - "The credit to Bob is applied when the server restarts, completing the transfer"
+  answer: 1
+  explanation: "In auto-commit mode, each statement is its own independent transaction. The first UPDATE (debit) committed immediately and is permanent. The second UPDATE (credit) never ran due to the crash and there is no transaction to roll back. The result is a partial state: money leaves Alice's account but never arrives in Bob's. This is precisely the problem transactions solve. Without an explicit BEGIN wrapping both statements, atomicity across multiple operations does not exist."
+
+- question: "A developer wraps two UPDATE statements in a transaction with BEGIN, but the application crashes before the COMMIT is issued. What does the database do?"
+  type: multiple-choice
+  options:
+    - "Commits the changes that completed successfully before the crash"
+    - "Leaves the database in a partial state until the developer manually cleans it up"
+    - "Automatically rolls back all changes made since BEGIN, restoring the original state"
+    - "Commits the changes on the next successful connection to the database"
+  answer: 2
+  explanation: "Transaction atomicity guarantees that if anything goes wrong before COMMIT — a crash, a constraint violation, an application error — the database rolls back all changes made since BEGIN. This is the core promise: there is no partial state. The changes either fully complete and commit, or they are entirely undone. The 'all or nothing' guarantee is what makes multi-step database operations reliable in the presence of failures."
+
+- question: "Issuing ROLLBACK inside a transaction undoes all changes made since the corresponding BEGIN."
+  type: true-false
+  answer: true
+  explanation: "ROLLBACK discards all modifications made to the database since the transaction began with BEGIN, restoring the database to its state at that point. This is the complement of COMMIT, which makes changes permanent. The undo capability is what gives transactions their recovery power — if any step of a multi-statement operation fails, ROLLBACK returns the database to a known-good state, leaving no partial effects."
+
+- question: "In most relational databases, a ROLLBACK issued inside a transaction will undo a CREATE TABLE or DROP TABLE statement that was executed within that transaction."
+  type: true-false
+  answer: false
+  explanation: "Most databases (including PostgreSQL exceptions aside, and notably MySQL/Oracle) auto-commit DDL statements — CREATE TABLE, DROP TABLE, ALTER TABLE — immediately regardless of transaction boundaries. This means DDL cannot be rolled back by a subsequent ROLLBACK in most systems. PostgreSQL is an exception and does support transactional DDL. This is an important practical trap: if you run DROP TABLE inside what you think is a safe transaction, you may discover the DDL committed immediately and cannot be undone."
+
+- question: "What specific problem does transaction atomicity solve, and what is the concrete consequence of running multi-step database operations without it?"
+  type: short-answer
+  answer: "Atomicity ensures that a sequence of database operations either all succeed and commit, or all fail and are rolled back — no partial state can exist. Without it, a failure midway through a multi-step operation (like a bank transfer) leaves the database in an inconsistent state: one change persists while the corresponding change does not, violating the real-world invariant the operations were meant to maintain."
+  explanation: "The bank transfer example makes this concrete: subtract from Alice, add to Bob must be atomic — both happen or neither does. Without a transaction wrapping both, a crash between the two statements permanently corrupts the data. The database has no way to know the two operations were related. Transactions provide that relationship: the BEGIN announces 'these operations belong together,' and the atomicity guarantee enforces it."
+```
+
 ## Explainer
 
 You already know SQL statements like SELECT, INSERT, UPDATE, and DELETE for manipulating data. A **transaction** wraps one or more of these statements into a single all-or-nothing unit. The core promise is **atomicity**: either every statement in the transaction succeeds and the changes become permanent, or none of them take effect. There is no state where half the work is done and half is not. This guarantee is what makes databases reliable for operations that involve multiple coordinated changes.

@@ -32,6 +32,45 @@ Paint the same still life or study in both media. Notice how different drying ti
 - Oil is always more 'serious' or superior; acrylics are equally capable for professional work.
 - Thick paint (impasto) always looks better; thin layers can be equally expressive and luminous.
 
+## Questions
+
+```yaml
+- question: "A painter wants to spend an entire session gradually building up smooth, seamlessly blended transitions between light and shadow on a portrait. Which medium is better suited to this goal, and why?"
+  type: multiple-choice
+  options:
+    - "Acrylic — its fast drying time forces discipline and precision"
+    - "Oil — its slow oxidation-based drying allows wet paint to be pushed around and reworked for hours or days"
+    - "Either medium — both allow unlimited reworking as long as you use the right solvents"
+    - "Neither — seamless blending requires digital tools or pastel"
+  answer: 1
+  explanation: "Oil paint dries through oxidation, taking days to weeks to cure. This glacial pace is its primary advantage for this use case: you can blend passages seamlessly hours after laying them down, scrape off mistakes, and build subtle gradations by pushing wet paint. Acrylic dries through evaporation in minutes — blending must happen quickly before the paint skins over, making the kind of sustained, contemplative blending described impossible without special retarders."
+
+- question: "What is the 'fat over lean' rule in oil painting, and why does it matter?"
+  type: multiple-choice
+  options:
+    - "Thicker paint should be applied first to create a stable foundation for thinner layers"
+    - "Each successive layer should contain more oil than the one beneath it, so slower-drying layers are on top of faster-drying ones, preventing cracking"
+    - "The darkest values should be painted first, with lighter values added later"
+    - "Fat brushes should be used for underpainting, lean brushes for final details"
+  answer: 1
+  explanation: "Fat refers to oil content (more oil = more 'fat'); lean refers to paint diluted with solvent and low in oil. Because oil-rich layers dry more slowly than lean ones, layering a lean (fast-drying) layer on top of a fat (slow-drying) one causes the top to dry and crack before the bottom finishes moving. Fat over lean — thin, low-oil layers first, richer layers on top — ensures each layer dries at a compatible rate. Violating this rule risks cracking as layers cure."
+
+- question: "Acrylic paint can support rich, multi-layered surfaces built up within a single painting session because each layer dries within minutes."
+  type: true-false
+  answer: true
+  explanation: "This is one of acrylic's key structural advantages over oil. Because water evaporates quickly, an acrylic layer can be dry enough to paint over in minutes — allowing glazes, scumbling, and opaque overpainting all within a single session. This is impossible with oil, which requires days between layers to avoid wet-into-wet mixing and the cracking problems the fat-over-lean rule addresses."
+
+- question: "Oil paint is generally considered superior to acrylic for professional or serious artistic work."
+  type: true-false
+  answer: false
+  explanation: "This is explicitly identified as a misconception in the topic. Acrylics are equally capable for professional work — many major contemporary painters work exclusively in acrylic. The choice between them is practical and situational: oil for long contemplative sessions requiring maximum blending control; acrylic for fast layering, plein air work, or projects where rapid coverage and multiple sessions in a day are needed. Neither medium is inherently more legitimate."
+
+- question: "Why does acrylics' fast drying time fundamentally change how a painter approaches mark-making, compared to working in oil?"
+  type: short-answer
+  answer: "Because acrylic skins over in minutes, blending must happen immediately — you cannot push paint around indefinitely as you can in oil. Mistakes cannot be endlessly reworked; instead, you cover them with opaque layers once dry. This forces a more decisive, committed mark-making style. Rather than chasing seamless blends, many acrylic painters embrace bold, direct strokes. The medium rewards confidence and penalizes hesitation in a way that the forgiving, slow-drying oil medium does not."
+  explanation: "The deeper point is that drying time isn't just a logistical fact — it shapes the painter's psychological relationship with the canvas. Oil allows constant second-guessing and refinement; acrylic demands commitment. This is why the same subject painted in both media often looks and feels different: not just in surface quality, but in the energy of the marks themselves."
+```
+
 ## Explainer
 
 You have already worked with oils and acrylics separately and understand their individual properties. This topic is about understanding them as a **comparative pair** — two opaque painting media that share fundamental techniques but demand different workflows because of one critical difference: drying time. Mastering both means you can choose the right medium for the right situation and transfer skills fluidly between them.

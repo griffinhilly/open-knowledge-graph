@@ -29,6 +29,45 @@ State the theorem and practice listing all possible rational roots for given pol
 - Thinking every candidate in the list is actually a root (most are not; they must be tested).
 - Assuming all polynomials have rational roots (many do not).
 
+## Questions
+
+```yaml
+- question: "A polynomial f(x) = 3x³ + 5x² − 4x + 6 is being analyzed using the Rational Root Theorem. Which of the following is a valid list of ALL possible rational root candidates?"
+  type: multiple-choice
+  options:
+    - "±1, ±2, ±3, ±6"
+    - "±1, ±2, ±3, ±6, ±1/3, ±2/3"
+    - "±1, ±3, ±1/2, ±1/6, ±3/2, ±3/6"
+    - "±1, ±2, ±6, ±1/3, ±2/3, ±6/3"
+  answer: 1
+  explanation: "The constant term is 6 with divisors ±1, ±2, ±3, ±6 (p values). The leading coefficient is 3 with divisors ±1, ±3 (q values). Possible rational roots are p/q: ±1, ±2, ±3, ±6, ±1/3, ±2/3. A common error is swapping p and q — dividing the constant's divisors by the leading coefficient's divisors, not the other way."
+
+- question: "After listing all rational root candidates for a degree-4 polynomial, none of them produce a remainder of zero when tested by synthetic division. What can you conclude?"
+  type: multiple-choice
+  options:
+    - "You made an arithmetic error — every polynomial with integer coefficients must have at least one rational root"
+    - "The polynomial has no rational roots; its roots are irrational or complex"
+    - "You need to test more candidates from a different formula"
+    - "The polynomial can still be factored over the rationals"
+  answer: 1
+  explanation: "When all rational root candidates fail the test, the conclusion is definitive: the polynomial has no rational roots. This is not a failure — it is a proof. The theorem guarantees the complete list of candidates; exhausting them without a hit proves no rational roots exist. Option D is wrong because rational factorization would require rational roots."
+
+- question: "If synthetic division of f(x) by (x − 3) gives a remainder of zero, then 3 is confirmed as a root of f(x)."
+  type: true-false
+  answer: true
+  explanation: "True. A remainder of zero from synthetic division when dividing by (x − r) is equivalent to f(r) = 0, by the Factor Theorem. If synthetic division by (x − 3) gives remainder 0, then 3 is confirmed as a root and (x − 3) is a factor."
+
+- question: "The Rational Root Theorem guarantees that every polynomial with integer coefficients has at least one rational root."
+  type: true-false
+  answer: false
+  explanation: "False. The theorem only guarantees a finite list of candidates to check. Many polynomials have no rational roots at all — for example, x² − 2 has candidates ±1, neither of which is a root (the actual roots are ±√2, which are irrational). The theorem is a filtering tool, not an existence guarantee."
+
+- question: "In the Rational Root Theorem, what do p and q represent in the candidate p/q, and why must the fraction be in lowest terms?"
+  type: short-answer
+  answer: "p is a divisor of the constant term (a₀), and q is a divisor of the leading coefficient (aₙ). The fraction must be in lowest terms so that each distinct rational number appears exactly once in the candidate list — allowing non-reduced fractions would produce duplicates (e.g., 2/4 and 1/2 are the same candidate). The proof requires that p and q share no common factors so the divisibility conditions are tight."
+  explanation: "The lowest-terms requirement is a technical condition in the theorem's proof, not just a convention. Without it, the same rational number could appear under different forms, obscuring which coefficient plays which role. In practice, listing all p/q in lowest terms — and including negatives — ensures you have exactly the right set of candidates, no more and no fewer."
+```
+
 ## Explainer
 
 Factoring polynomials of degree 3 and higher requires a place to start. You know from the **Factor Theorem** that if r is a root of a polynomial f, then (x − r) is a factor. The challenge is finding r when you can't guess it. For polynomials with integer coefficients, the **Rational Root Theorem** provides a finite candidate list — transforming a search over all of ℝ into a manageable checklist.

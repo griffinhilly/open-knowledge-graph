@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 The axiom of choice states: for any collection {S_i : i ∈ I} of non-empty sets, there exists a choice function f such that f(i) ∈ S_i for each i. This axiom is equivalent to Zorn's lemma (every partially ordered set with upper bounds has maximal elements) and the well-ordering theorem (every set can be well-ordered). It is independent of ZF.
 
+## Questions
+
+```yaml
+- question: "You have countably infinitely many pairs of socks, where both socks in every pair look completely identical. You want to select exactly one sock from each pair. Why does this require the axiom of choice, when selecting one shoe from each pair of shoes would not?"
+  type: multiple-choice
+  options:
+    - "Because infinitely many selections cannot be completed in finite time"
+    - "Because socks are smaller and harder to distinguish physically"
+    - "With shoes, a rule exists ('pick the left shoe'); with identical socks, no definable rule distinguishes the two — AC supplies the existence of a choice function without a rule"
+    - "The axiom of choice is not needed for either scenario because both involve countable collections"
+  answer: 2
+  explanation: "This is Bertrand Russell's original sock analogy. For shoes, you have a definable rule — 'always pick the left shoe' — so you can construct the choice function explicitly without AC. For identical socks, no property distinguishes the two socks in each pair, so no rule can select one without AC. AC is needed precisely when sets have no distinguishing structure that would ground an explicit selection rule. The issue is not infinity alone (you could handle countably many labeled socks without AC) but the absence of any distinguishing property to define the choice."
+
+- question: "What does it mean to say that the axiom of choice is 'independent of ZF'?"
+  type: multiple-choice
+  options:
+    - "AC has been proven false from the other ZF axioms, which is why it must be added separately"
+    - "AC is a consequence of ZF but is stated separately for clarity"
+    - "Neither AC nor its negation can be derived from the ZF axioms alone — both ZF+AC and ZF+¬AC are consistent"
+    - "AC is true in some mathematical universes and false in others, so mathematicians disagree about whether to use it"
+  answer: 2
+  explanation: "Independence means AC is neither provable from ZF nor refutable from ZF. Gödel (1938) proved ZF+AC is consistent by constructing the constructible universe L where AC holds. Cohen (1963) proved ZF+¬AC is consistent via forcing. Together, these results show you cannot resolve AC's truth from ZF alone — it is a genuine choice about foundational commitments. Option D mischaracterizes the situation: mathematicians largely do accept AC (working in ZFC), but its independence means this is a foundational choice, not a mathematical error."
+
+- question: "Zorn's lemma and the well-ordering theorem are each logically equivalent to the axiom of choice over the ZF axioms."
+  type: true-false
+  answer: true
+  explanation: "This is one of the central results in set theory: AC, Zorn's lemma, and the well-ordering theorem are three faces of the same principle. Assuming any one of them (over ZF), you can prove the other two. In practice, mathematicians often use Zorn's lemma directly (to prove existence of bases, maximal ideals, ultrafilters) without mentioning AC explicitly — but each such proof is implicitly invoking AC's content. The equivalence means learning AC's consequences through Zorn's lens connects directly to applications in algebra and topology."
+
+- question: "The axiom of choice is controversial because it has been proven to be false in standard mathematics."
+  type: true-false
+  answer: false
+  explanation: "AC has not been proven false — quite the opposite. AC is consistent with ZF (Gödel's result) and is adopted as an axiom in ZFC, which is the standard foundation for most of mathematics. Its controversy comes from its non-constructive character: it asserts existence of objects without providing any rule to construct them. Some mathematicians (constructivists, intuitionists) reject non-constructive existence proofs on philosophical grounds, but this is a minority position. The mainstream mathematical community accepts AC because virtually all of classical analysis, algebra, and topology requires it."
+
+- question: "Why does the axiom of choice become logically necessary for infinite collections of sets in a way that it does not for finite ones?"
+  type: short-answer
+  answer: "For a finite collection of non-empty sets, you can construct a choice function by making finitely many explicit selections — each step is justified by the non-emptiness of the relevant set. This construction terminates after a finite number of steps, and no additional axiom is needed. For infinite (especially uncountably infinite) collections of sets with no distinguishing structure, you cannot complete infinitely many arbitrary selections one by one, and there may be no rule or property that defines which element to choose from each set. The axiom of choice supplies the existence of the choice function as an axiom — asserting it exists without providing a construction. The boundary is not merely size but the absence of a definable selection rule."
+  explanation: "This distinction between 'finitely constructible' and 'requires axiomatic assertion' is the heart of what makes AC genuinely powerful and non-trivial. If you could always define a choice function from first principles, AC would be a theorem, not an axiom. Its necessity for uncountably infinite, structureless collections is why it generates the well-ordering theorem (every set, including ℝ, can be well-ordered) — a result that is consistent but provably non-constructive."
+```
+
 ## Explainer
 
 From indexed families of sets, you know that an indexed family {S_i : i ∈ I} assigns a set S_i to each index i. The **axiom of choice** (AC) asserts that no matter how large I is and no matter how the sets S_i are defined, as long as each S_i is non-empty, there is a function f with f(i) ∈ S_i for every i ∈ I. For finite families, you can construct f explicitly — just pick one element from each S_i in finitely many steps. For infinite families (and especially for uncountably infinite families of sets with no definable structure), the axiom asserts the existence of f without providing any rule for constructing it. This is the non-constructive character of AC.

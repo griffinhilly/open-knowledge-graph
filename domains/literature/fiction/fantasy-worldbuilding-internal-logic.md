@@ -30,6 +30,45 @@ Map the rules of magic in a fantasy novel: what it can do, what its costs are, w
 ## Common Misconceptions
 In fantasy, anything can happen—actually, successful fantasy establishes logical limits and respects them. Consistency is what makes the impossible believable.
 
+## Questions
+
+```yaml
+- question: "A magic system that can resurrect the dead is introduced in chapter 2. The protagonist uses it to save an ally in chapter 5, but in chapter 12, facing an even larger crisis, the author never mentions resurrection at all. What is the primary craft problem?"
+  type: multiple-choice
+  options:
+    - "Resurrection magic was introduced too early and should have been saved for the climax"
+    - "The magic lacks internal consistency — it disappears when inconvenient, breaking the reader's trust in the world's logic"
+    - "Resurrection magic is too powerful a concept for the fantasy genre"
+    - "The protagonist should have attempted resurrection in chapter 12 regardless of whether it would work"
+  answer: 1
+  explanation: "The craft problem is consistency, not timing. The reader has built a model of the world: resurrection is possible. When the author ignores that option in chapter 12, the reader notices the inconsistency and trust erodes. Internal logic doesn't require magic to succeed — it requires the world to behave according to its established rules. If resurrection were impossible in chapter 12, the author must earn that with in-world explanation (cost, limits, etc.), not silence."
+
+- question: "Which statement best explains why Brandon Sanderson distinguishes 'hard magic' from 'soft magic'?"
+  type: multiple-choice
+  options:
+    - "Hard magic is more realistic; soft magic requires greater suspension of disbelief"
+    - "Hard magic has explicit rules readers can learn, enabling puzzle-solving plots; soft magic uses impressionistic limits, enabling wonder but not plot solutions"
+    - "Hard magic always has clearly stated costs; soft magic has none, so it is less disciplined"
+    - "Soft magic is always better for literary fantasy; hard magic is only appropriate for genre fiction"
+  answer: 1
+  explanation: "The distinction is functional: it determines what kind of story is possible. When readers fully understand the rules, the author can present a problem and let the reader puzzle out a solution — the magic becomes a tool for plot. Soft magic works differently: its mystery generates awe and atmosphere, but the author cannot solve plot problems with it without it feeling like a cheat, because the reader can't verify whether the solution obeys the rules. Neither is superior; the choice commits the story to a particular kind of drama."
+
+- question: "In successful fantasy, the author must explicitly explain all the rules of the magic system for the world to feel internally consistent."
+  type: true-false
+  answer: false
+  explanation: "Internal consistency does not require explicit exposition — it requires that the magic *behaves* consistently. Tolkien's magic is never systematically explained, yet it feels coherent because it operates predictably within the story's events. Readers build a mental model of how the world works from evidence in the text. Violating that model breaks immersion; spelling out the rules is just one way to establish it."
+
+- question: "A magic system without costs or limits tends to weaken dramatic tension rather than strengthen it."
+  type: true-false
+  answer: true
+  explanation: "This is the core paradox of fantasy craft: unlimited magic removes the very thing that makes narrative tension possible. If a character can always conjure a solution, no situation is truly dangerous. Costs — whether in health, time, knowledge, sacrifice, or moral compromise — create the tradeoffs that generate genuine stakes. The nature of the cost also reveals the world's values: what your magic requires tells us what the story cares about."
+
+- question: "Why must even the most imaginative fantasy world operate by consistent internal rules, and what happens to the reader experience when those rules are violated?"
+  type: short-answer
+  answer: "Readers continuously build a mental model of the world from the evidence the text provides. When the narrative breaks that model without justification, the reader's sense of immersion collapses — they become aware they are reading a story where the author controls outcomes arbitrarily. Consistency is what makes the impossible believable: it transforms magic from a cheat into a system the reader can engage with seriously. Violations feel like cheating precisely because they exploit the reader's trust."
+  explanation: "The key insight is that believability in fantasy is not about realism but about coherence. A reader will accept any premise — dragons, teleportation, resurrection — as long as it operates predictably. The moment the author bends the rules for narrative convenience, the implicit contract with the reader is broken."
+```
+
 ## Explainer
 
 The paradox at the heart of fantasy is that the more impossible your world, the more rigorous your rules must be. You already understand the fantasy genre's premise — that it invites readers into a secondary world operating by different laws than our own. But invitation is not the same as immersion. Readers accept the impossible readily enough; what breaks immersion is inconsistency. A magic that can do anything is dramatically useless, because there is no tension in a problem that might be solved by a wave of the hand.

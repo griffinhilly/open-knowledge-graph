@@ -30,3 +30,42 @@ Practice with a belief you hold with moderate confidence. Write three strong arg
 
 - Considering the opposite is not the same as playing devil's advocate casually — it requires genuinely engaging with the strongest counterarguments.
 - This technique does not mean all positions are equally valid — it means you should check whether your position survives serious scrutiny before committing.
+
+## Questions
+
+```yaml
+- question: "A physician forms an early diagnosis of pneumonia and then reviews the patient's history. She unconsciously attends to symptoms consistent with pneumonia and passes quickly over those that might suggest a different cause. Which intervention would most directly address this bias according to the experimental literature?"
+  type: multiple-choice
+  options:
+    - "Review the patient's chart a second time without any hypothesis in mind"
+    - "Deliberately generate specific reasons why the diagnosis might be wrong before committing to it"
+    - "Ask a colleague to confirm the diagnosis to get a second opinion"
+    - "Slow down and consciously try to be more objective when reading the chart"
+  answer: 1
+  explanation: "Considering the opposite works because confirmation bias is a search problem — we naturally stop searching once we find confirming evidence. Deliberately generating reasons why the diagnosis might be *wrong* forces a targeted search for disconfirming evidence that the biased search would skip. Option A (reviewing without a hypothesis) doesn't solve the search problem. Option C (a colleague) helps but is external. Option D ('trying to be objective') is ineffective precisely because the bias operates outside awareness — the technique must be deliberate and structured."
+
+- question: "According to Lord, Lepper, and Preston (1984), why does considering the opposite reduce confirmation bias rather than just making people feel they've been balanced?"
+  type: multiple-choice
+  options:
+    - "It activates the prefrontal cortex, which suppresses emotional reasoning"
+    - "It forces a structured search for disconfirming evidence that the biased search would otherwise not generate"
+    - "It slows down thinking, giving more time for careful evaluation of all evidence"
+    - "It reverses the order of evidence presentation, which reduces anchoring effects"
+  answer: 1
+  explanation: "Confirmation bias is partly a search termination problem: we stop collecting evidence once we have enough to confirm our hypothesis. Considering the opposite forces us to search the same evidence space looking for disconfirmation — a qualitatively different search that reveals evidence we would otherwise stop short of finding. Slowing down (option C) by itself doesn't change what you look for, only how long you look. The technique's power comes from redirecting the search, not from adding processing time."
+
+- question: "Considering the opposite is most powerful when applied after you have already committed to a position, because commitment forces you to take the counterarguments seriously."
+  type: true-false
+  answer: false
+  explanation: "The technique is most powerful when applied *before* commitment. Once you have committed — publicly, emotionally, or socially — motivated reasoning intensifies and you are more likely to treat counterarguments as obstacles to neutralize rather than information to genuinely evaluate. Lord, Lepper, and Preston found that considering the opposite significantly reduced belief perseverance specifically when applied before positions hardened. Applying it after commitment can still help, but the resistance is higher and the effect is smaller."
+
+- question: "A person who carefully considers the opposite and then returns to their original belief with the same confidence has failed to apply the technique correctly."
+  type: true-false
+  answer: false
+  explanation: "The goal of considering the opposite is not to change your mind — it is to check whether your position survives serious scrutiny. If the counterarguments you generate are genuinely weak relative to the arguments for your position, returning to it with unchanged confidence is the correct outcome. The technique has succeeded if you engaged seriously with the strongest opposing case. Failure would be dismissing the counterarguments without genuine engagement, or treating the exercise as a formality to be completed before reasserting your original view."
+
+- question: "Why is confirmation bias described as partly a 'search problem,' and how does considering the opposite address it at the level of cognitive mechanism?"
+  type: short-answer
+  answer: "Confirmation bias leads people to search for evidence that confirms their existing hypothesis and stop once sufficient confirmation is found — they never search the space of disconfirming evidence. The bias is not only about how we *evaluate* evidence we encounter; it's about which evidence we go looking for. Considering the opposite addresses this by forcing a second, deliberate search targeting the opposite conclusion — generating arguments and evidence for why the current belief might be wrong. This populates the mental evidence set with disconfirming information that the original biased search would never have retrieved."
+  explanation: "This is the key mechanistic insight: if you only fix how you *weigh* evidence, you still miss evidence you never looked for. Considering the opposite changes the search itself, not just the evaluation. This is why vague instructions to 'be more objective' are ineffective — they address evaluation but not search. The technique's success in Lord et al.'s experiments came precisely from redirecting the search process."
+```

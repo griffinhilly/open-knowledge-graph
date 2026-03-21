@@ -31,6 +31,45 @@ Read the whole poem, then ask: where does the speaker change their mind, reframe
 - The volta is not always marked by 'but' or 'yet' — it can be a single image or a tonal shift rather than a logical connective.
 - Not all sonnets have a single clear volta; some delay it, double it, or resist it for effect.
 
+## Questions
+
+```yaml
+- question: "A poem spends twelve lines describing devastating grief after loss. The final two lines read: 'And yet the birds still sing outside my door / As if the world could bear one sorrow more.' Where is the volta and what does it accomplish?"
+  type: multiple-choice
+  options:
+    - "There is no volta — the poem stays focused on grief throughout"
+    - "The volta is at the final couplet, where the indifferent world intrudes and reframes the grief as something absorbed rather than resolved"
+    - "The volta occurs at line 1, since grief is introduced as the central argument immediately"
+    - "The volta marks a shift to happiness, resolving the grief by the end"
+  answer: 1
+  explanation: "The final two lines introduce a new element — the indifferent world, birds still singing — that reframes the loss without resolving it. That reframing is the volta: the reader's understanding of the grief changes retroactively. Option A mistakes 'staying on theme' for 'no volta'; option D misreads contrast as resolution. The volta doesn't require the poem to become happier — it requires the poem to turn against or exceed its own opening premise."
+
+- question: "Which of the following is the most reliable way to locate the volta in an unfamiliar lyric poem?"
+  type: multiple-choice
+  options:
+    - "Find the transition word ('but,' 'yet,' 'however') that signals a logical pivot"
+    - "Look for where the formal structure divides, such as the break between octave and sestet"
+    - "Ask where the speaker's understanding, emotion, or argument shifts — whether or not it is explicitly marked"
+    - "Identify the climax of the poem's central image or metaphor"
+  answer: 2
+  explanation: "The volta can coincide with a structural break or a transition word, but neither is necessary — it can be a tonal shift, a new image, or a single word that reframes everything. Option A is the most tempting wrong answer: many powerful voltas have no explicit connective. Option B often coincides with the volta but doesn't define it — form and meaning don't always align. The question to ask is always: where does the poem change direction or surprise itself?"
+
+- question: "In a Shakespearean sonnet, the volta always occurs at the beginning of the closing couplet."
+  type: true-false
+  answer: false
+  explanation: "The closing couplet is the conventional location in Shakespearean sonnets, but 'always' makes this false. Shakespeare often begins or complicates the volta slightly before the couplet — or delays the full turn to the final line. The volta is a conceptual and argumentative pivot, not a fixed structural rule. Treating it as a fixed location mistakes formal convention for definition."
+
+- question: "A poem can have a volta even if it contains no explicit transition words like 'but' or 'yet.'"
+  type: true-false
+  answer: true
+  explanation: "The volta is a conceptual pivot — a moment where the poem turns against or exceeds its opening premise. It can be realized through a new image, a change in tone, a sudden zoom out, or a shift in tense or address. Many of the most powerful voltas are unmarked by logical connectives. The misconception that voltas require 'but' or 'yet' leads readers to miss subtle, imagistic, or tonal turns that carry more interpretive weight than an explicit pivot word."
+
+- question: "Why is locating the volta described as 'the act of interpretation itself' rather than merely a formal exercise?"
+  type: short-answer
+  answer: "Because the volta marks the gap between what the reader understood before the turn and after it — and that gap is where the poem's meaning lives. To find the volta is to identify what the poem is really claiming, why it needed to move from its opening position to somewhere new, and what has been transformed or revealed by that movement."
+  explanation: "If you find the structural 'turn' without asking what it transforms, you've done a labeling exercise, not an interpretation. The volta's power is retroactive: in Sonnet 130, the couplet doesn't just end the poem — it reveals that the preceding catalogue of anti-compliments was the most sincere declaration of love possible. That retroactive transformation is the poem's argument. Finding the volta means finding the question the poem needed to ask and the answer it found by turning."
+```
+
 ## Explainer
 
 You already know the sonnet: fourteen lines in iambic pentameter, organized either as an octave and sestet (Petrarchan) or as three quatrains and a closing couplet (Shakespearean). You know the structural divisions — the turn from eight lines to six, or from twelve to two. The **volta** is the name for what happens at that structural hinge: the poem does not merely continue; it turns against itself, reconsidering, complicating, or overturning what came before. Understanding the volta means understanding that a great sonnet is not a statement but an argument — one that tests and complicates its own opening claim.

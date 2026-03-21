@@ -29,6 +29,45 @@ Symptomal reading interprets a text not just for its manifest content but for wh
 ## How It's Best Learned
 Identify what a text refuses to say, its silences and gaps. What ideological work do these repressions accomplish? What would the text need to exclude for its apparent meanings to hold?
 
+## Questions
+
+```yaml
+- question: "A Bildungsroman celebrates its protagonist's rise as a triumph of individual talent and hard work. A symptomal reading notices that at every crucial turning point, the protagonist happens to receive patronage from a wealthy superior, inherit unexpected money, or benefit from social connection. The symptomal reader interprets this pattern as:"
+  type: multiple-choice
+  options:
+    - "Evidence that the author secretly believed individual merit was insufficient for social mobility"
+    - "A symptom of ideological strain — the text cannot sustain its ideology of individual merit without covertly depending on the inherited social structures it claims to transcend"
+    - "Proof that the novel is a realistic depiction of how social mobility actually works"
+    - "A deliberate irony that the author embedded to critique bourgeois ideology"
+  answer: 1
+  explanation: "Symptomal reading does not attribute the contradiction to the author's secret cynicism or deliberate irony — that would be intentionalist reading. Instead, it reads the contradiction as symptomatic of an ideological limit: the text wants to narrate individual merit as the engine of social mobility, but the ideology of meritocracy was produced under conditions where class, wealth, and social connection were the real determinants of advancement. The ideology cannot represent merit without material conditions bleeding through, and the gap between the manifest celebration of talent and the latent reliance on privilege is where ideology's limits become legible."
+
+- question: "A symptomal reading of a Jane Austen novel focuses on what the novel cannot say about property and economic calculation, treating those silences as analytically significant. The theoretical basis for this move is:"
+  type: multiple-choice
+  options:
+    - "The assumption that Austen deliberately concealed her economic critique to avoid censorship"
+    - "The view that what a text excludes or cannot represent reveals the ideological conditions under which certain things were sayable and others were not"
+    - "The principle that narrative gaps always indicate authorial negligence or incomplete revision"
+    - "The structuralist claim that literary texts are organized by binary oppositions, and silences mark the repressed term"
+  answer: 1
+  explanation: "Symptomal reading treats silences as structurally significant rather than accidental. The 'cannot say' is not the author's choice but a constraint imposed by ideology — under 19th-century English conditions, romantic love and property relations were so entangled that the text could not represent one without the other appearing. What is excluded reveals what the ideological conditions made representable: the exclusion is evidence of the limits within which the text was produced. This differs from intentionalism (option A) and from structuralist binary analysis (option D)."
+
+- question: "Symptomal reading aims to expose the author's hidden political intentions — to show what the author secretly believed but could not express directly."
+  type: true-false
+  answer: false
+  explanation: "Symptomal reading is explicitly non-intentionalist. It does not ask what the author secretly thought or intended; it asks about the ideological conditions that made certain things sayable and others not. Althusser and Jameson locate symptoms in the text itself — its contradictions, gaps, and structural impossibilities — as effects of ideological production, not of an individual consciousness. The author of a novel that celebrates virtue while depending on economic privilege need not have been cynical; the ideology produced the entanglement without anyone necessarily being aware of it."
+
+- question: "A text's silences and exclusions can be as analytically significant as what the text explicitly asserts, because what cannot be said reveals the ideological limits shaping the text's production."
+  type: true-false
+  answer: true
+  explanation: "This is the foundational claim of symptomal reading. The 'structuring absence' — what the text must exclude for its apparent meaning to hold — is not mere absence but evidence of ideological constraint. If a Victorian novel cannot represent its romantic resolution without a property transaction bleeding through, that inability is diagnostic: it tells us something about the conditions in which romantic love and economic interest had to be represented as naturally aligned, making their disentanglement literally unthinkable within the text's horizon."
+
+- question: "What does it mean to say that a text has 'ideological limits,' and how do symptomal readers locate those limits within the text?"
+  type: short-answer
+  answer: "A text's ideological limits are the boundaries of what it can coherently think, say, or represent — the points beyond which the ideology structuring the text cannot go without undermining itself. Symptomal readers locate these limits by attending to contradictions (where the text's logic breaks down or its argument strains), conspicuous silences (topics the text approaches but cannot address directly), and moments where manifest content diverges sharply from what the text's structure actually depends on. The symptom is the place where ideology is under strain — where the text cannot quite make its own claims cohere."
+  explanation: "The practical method is to ask: what would this text need to exclude for its apparent meaning to hold? The answer identifies what is suppressed — and the suppression is itself the symptom. Reading 'against the grain' is not arbitrary; it follows the text's own fissures, using the text's contradictions as evidence about the conditions of its production rather than as authorial failures."
+```
+
 ## Explainer
 
 From Marxist literary criticism, you know that texts are shaped by material and ideological conditions. From psychoanalytic criticism, you have a framework for reading below the surface of texts — for finding meaning in gaps, displacements, and the structure of desire rather than in manifest content. Symptomal reading, developed by Louis Althusser and extended by Fredric Jameson, brings these frameworks into a single method: it reads not what a text says but what it *cannot* say, treating the text's silences and contradictions as symptoms of an ideological limit.

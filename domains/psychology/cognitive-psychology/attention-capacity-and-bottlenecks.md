@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Attention has limited capacity: we cannot process multiple streams of information equally well simultaneously. The bottleneck occurs at different processing stages depending on task demands and practice level. Understanding capacity limitations explains why multitasking degrades performance and why automaticity develops for well-practiced tasks.
 
+## Questions
+
+```yaml
+- question: "Two students try to read text for comprehension while listening to music with lyrics; a third listens to instrumental music. Based on attentional resource theory, which prediction is most accurate?"
+  type: multiple-choice
+  options:
+    - "All three perform equally — music does not affect visual reading"
+    - "The lyric-music students show more reading impairment because lyrics and reading compete for the same verbal/linguistic resource pool"
+    - "Lyric music helps reading by maintaining arousal"
+    - "All students perform identically after sufficient practice"
+  answer: 1
+  explanation: "Kahneman's resource model and Wickens' multiple resource theory both predict that tasks sharing a resource pool interfere more than tasks drawing from different pools. Lyrics engage verbal/linguistic processing — the same resource reading demands. Instrumental music uses primarily spatial/auditory resources and competes less. Option D is partially true long-term (automaticity) but does not describe the initial dual-task situation."
+
+- question: "A novice driver cannot maintain a conversation while navigating an unfamiliar route. An experienced driver chats easily on the same route. The best explanation is:"
+  type: multiple-choice
+  options:
+    - "The experienced driver has greater total brain capacity"
+    - "Practice has shifted driving toward automatic processing, reducing its demands on the central capacity-limited bottleneck"
+    - "The novice driver is less intelligent"
+    - "Experience physically enlarges the attentional bottleneck"
+  answer: 1
+  explanation: "Automaticity — not expanded capacity — is the mechanism. Well-practiced tasks migrate away from controlled, resource-demanding processing toward automatic processing that runs in parallel and requires little central bottleneck involvement. The capacity of the bottleneck itself does not grow; the demand placed on it by familiar tasks shrinks. This is why the dual-task ceiling is partly a function of skill level, not just fixed cognitive architecture."
+
+- question: "The attentional bottleneck is a fixed, early-stage filter that prevents all but one stream of sensory information from receiving any further processing."
+  type: true-false
+  answer: false
+  explanation: "Broadbent's early-filter model proposed this, but evidence undermined it — the cocktail party effect (hearing your name across a noisy room) shows unattended information can receive at least partial semantic processing. Modern consensus places the bottleneck primarily at central response selection and decision stages, not at early sensory filtering. The bottleneck location is also not fixed: it varies with task demands, consistent with late-selection and capacity models."
+
+- question: "Automaticity trades processing efficiency for reduced flexibility — well-practiced tasks become harder to modify deliberately, even when you know they need to change."
+  type: true-false
+  answer: true
+  explanation: "This tradeoff is genuine and well-documented. The Stroop effect illustrates it: skilled readers cannot suppress the automatic process of reading a word even when instructed to name the ink color instead. The same applies to any deeply practiced skill — the efficiency gain that made the task easy to dual-task comes at the cost of reconfigurability. This is why correcting deeply ingrained habits requires substantial effort even with full awareness of the problem."
+
+- question: "Explain why extensive practice on a single task can improve performance on a simultaneously performed second task, even without any practice on the two-task combination itself."
+  type: short-answer
+  answer: "Practice shifts the practiced task toward automatic processing, reducing its demands on the central capacity-limited bottleneck. With less competition for the bottleneck, the second task experiences less interference and performs better — even though neither task was practiced together."
+  explanation: "This result distinguishes capacity-based explanations from pure coordination-based explanations of dual-task improvement. If dual-task practice were the only mechanism, you would not expect single-task practice to help. The fact that it does supports the idea that the bottleneck load is the key variable — and that automaticity genuinely reduces that load, freeing resources for concurrent tasks."
+```
+
 ## Explainer
 
 From your study of divided attention, you know that performance degrades when people try to do two things at once — but the interesting question is why, and why it degrades more for some task combinations than others. The concept of an **attentional bottleneck** provides the answer: at some stage of information processing, the system has limited capacity, and two tasks that compete for that stage interfere with each other in proportion to their shared demands.

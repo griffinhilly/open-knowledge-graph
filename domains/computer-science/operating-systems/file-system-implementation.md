@@ -32,6 +32,45 @@ Draw an inode for a 50KB file on a system with 4KB blocks: how many direct, sing
 - The inode does not contain the filename; filenames live in directory entries.
 - File system fragmentation on disk (blocks non-contiguous) does not mean the file system is full.
 
+## Questions
+
+```yaml
+- question: "You create two hard links — 'report.pdf' and 'final.pdf' — pointing to the same file. You then delete 'report.pdf.' What happens to the file data?"
+  type: multiple-choice
+  options:
+    - "The file data is immediately deleted when the first link is removed"
+    - "The file data is preserved because 'final.pdf' has its own independent copy of the data"
+    - "The file data is preserved because 'final.pdf' still references the same inode, and the inode's link count is now 1"
+    - "The file data becomes inaccessible but remains on disk until the next garbage collection cycle"
+  answer: 2
+  explanation: "Hard links work because filenames and file data are separate. Both 'report.pdf' and 'final.pdf' are directory entries pointing to the same inode. The inode maintains a link count. Deleting 'report.pdf' decrements the link count to 1 — the inode and data blocks are only freed when the link count reaches 0. 'final.pdf' still points to the same inode, so the data is fully intact and accessible. This is only possible because the inode stores everything EXCEPT the filename."
+
+- question: "Which file allocation method best supports efficient random access to an arbitrary byte within a large file?"
+  type: multiple-choice
+  options:
+    - "Linked allocation — each block can be placed anywhere, reducing seek time"
+    - "Contiguous allocation — the block containing any byte can be computed directly from the byte offset"
+    - "FAT (File Allocation Table) — the allocation table is cached in memory, making traversal fast"
+    - "Linked allocation with doubly-linked pointers — backward traversal halves average seek time"
+  answer: 1
+  explanation: "Contiguous allocation allows direct computation: byte N is at disk block (start_block + N/block_size). No traversal is needed — it's O(1). Linked allocation and FAT require traversing a chain from the beginning to reach block k, taking O(k) time. Indexed allocation (inodes) is also efficient for random access (follow one or two levels of indirect pointers), but contiguous allocation is the simplest and fastest. Linked allocation's advantage is dynamic growth and no external fragmentation, not random access speed."
+
+- question: "In a Unix file system, the inode stores the file's permissions, owner, timestamps, size, and pointers to data blocks — but NOT the filename."
+  type: true-false
+  answer: true
+  explanation: "The separation of filenames from inodes is a fundamental Unix design decision. Filenames live in directory entries, which are themselves files mapping names to inode numbers. This separation is what makes hard links possible: multiple directory entries in different locations can all point to the same inode, sharing a single file's data. If the filename were stored in the inode, a file could only have one name."
+
+- question: "A disk showing file system fragmentation — where file blocks are scattered non-contiguously — means the storage device is nearly full."
+  type: true-false
+  answer: false
+  explanation: "Fragmentation and fullness are independent. A disk with 90% free space can be heavily fragmented if files have been created and deleted repeatedly, leaving scattered free blocks too small for new files. Conversely, a nearly full disk might have its remaining files stored contiguously. Fragmentation is a problem of free-space distribution and allocation method, not of total available space."
+
+- question: "Explain why hard links are possible in Unix file systems. What does their existence reveal about the relationship between filenames and file data?"
+  type: short-answer
+  answer: "Hard links are possible because filenames and file data are stored separately. File data is managed by an inode (index node), which contains metadata and pointers to data blocks. Filenames exist only in directory entries, which map a name string to an inode number. Multiple directory entries can reference the same inode number — these are hard links. This reveals that a 'file name' is not an intrinsic property of the data; it's just a label in a directory that happens to point to an inode."
+  explanation: "The inode-directory separation is one of the most elegant design decisions in Unix. It means 'a file' is really the inode, not the name. Any number of names can refer to the same inode. The inode is only reclaimed when its link count drops to zero (all names removed) AND no process has it open. This design also explains why moving a file within the same file system is fast — it just updates directory entries, not data blocks."
+```
+
 ## Explainer
 
 From file system concepts, you know that files are named collections of data and that directories organize them into hierarchies. But the file system must solve a concrete engineering problem: a file is a logical sequence of bytes, while a disk is a flat array of fixed-size blocks (typically 4KB). **File system implementation** is the layer that maps between these two views — deciding which disk blocks belong to which file and how to find them efficiently.

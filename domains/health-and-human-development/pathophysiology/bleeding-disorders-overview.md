@@ -27,6 +27,45 @@ Correlate laboratory findings (bleeding time, PT, aPTT, platelet count) with cli
 ## Common Misconceptions
 Low platelet count does not always cause bleeding—function matters more than quantity. Vitamin K deficiency affects multiple factors (II, VII, IX, X), not just one.
 
+## Questions
+
+```yaml
+- question: "A patient presents with recurrent nosebleeds, gum bleeding after dental work, and pinpoint skin hemorrhages (petechiae). Labs show a normal PT and aPTT but prolonged bleeding time. Which defect best explains this pattern?"
+  type: multiple-choice
+  options:
+    - "Factor VIII deficiency (Hemophilia A)"
+    - "Factor IX deficiency (Hemophilia B)"
+    - "Platelet dysfunction or deficiency disrupting primary hemostasis"
+    - "Vitamin K deficiency affecting factors II, VII, IX, and X"
+  answer: 2
+  explanation: "Mucocutaneous bleeding — nosebleeds, gingival oozing, petechiae — is the signature of a primary hemostasis defect, meaning platelets are failing to form or maintain the initial platelet plug at small vessels. The prolonged bleeding time with normal PT and aPTT confirms platelet dysfunction while ruling out coagulation factor deficiencies. Hemophilia A and B affect the intrinsic pathway (elevated aPTT) and cause deep tissue bleeding, not petechiae. Vitamin K deficiency elevates PT."
+
+- question: "Why does hemophilia (factor VIII or IX deficiency) cause hemarthrosis (joint bleeding) rather than petechiae or mucosal bleeding?"
+  type: multiple-choice
+  options:
+    - "Platelets cannot adhere to joint cartilage, so the platelet plug never forms in joints"
+    - "Primary hemostasis is intact — the platelet plug forms normally — but without a reinforcing fibrin mesh, the clot is fragile and fails under the higher pressures in large vessels and joint spaces"
+    - "Joint spaces lack endothelium, so coagulation factors are the only available hemostatic mechanism"
+    - "Factor VIII is uniquely concentrated in joint synovial fluid and is depleted there first"
+  answer: 1
+  explanation: "In hemophilia, the platelet plug (primary hemostasis) forms normally — that's why petechiae and mucosal bleeding are absent. The defect is in secondary hemostasis: the coagulation cascade cannot generate enough thrombin to build a fibrin mesh that reinforces the clot. This soft plug holds at capillary pressures but fails at the higher pressures in large vessels, muscles, and joints. The clinical pattern (deep tissue and joint bleeding, not petechiae) maps directly to which phase of hemostasis is broken."
+
+- question: "A patient with a platelet count of 80,000/µL but severely impaired platelet function may bleed more than a patient with a count of 150,000/µL and normal platelet function."
+  type: true-false
+  answer: true
+  explanation: "Platelet function matters more than platelet quantity for effective primary hemostasis. A moderately reduced count with normal function often produces adequate platelet plugs; a count above the threshold of concern with severely impaired function (as in von Willebrand disease or aspirin effect) may produce defective plugs that fail. Clinical bleeding risk depends on both quantity and function — the common misconception is that count alone determines hemorrhagic risk."
+
+- question: "An elevated aPTT with a normal PT indicates a defect in the extrinsic coagulation pathway."
+  type: true-false
+  answer: false
+  explanation: "The aPTT tests the intrinsic (contact activation) pathway — factors XII, XI, IX, VIII, as well as the common pathway (X, V, II, I). An isolated elevated aPTT with normal PT points to a defect in the intrinsic pathway, most classically Hemophilia A (factor VIII) or Hemophilia B (factor IX). The PT tests the extrinsic pathway (factor VII) plus the common pathway — it is elevated in vitamin K deficiency or warfarin use, not in hemophilia."
+
+- question: "A patient has recurrent knee hemarthroses. Labs show: normal platelet count, normal bleeding time, normal PT, elevated aPTT. Where is the defect in the hemostatic system, and what diagnoses does this pattern suggest?"
+  type: short-answer
+  answer: "The defect is in the intrinsic (contact activation) pathway of secondary hemostasis. Normal platelet count and bleeding time rule out primary hemostasis and platelet disorders. Normal PT rules out the extrinsic pathway and vitamin K-dependent factors (II, VII, IX, X from the extrinsic/common pathway perspective). Isolated elevated aPTT with joint bleeding strongly suggests Hemophilia A (factor VIII deficiency) or Hemophilia B (factor IX deficiency), both X-linked recessive disorders affecting the intrinsic pathway."
+  explanation: "The lab pattern is a direct readout of where the hemostatic cascade is broken. Each test interrogates a specific set of factors. Clinicians use this pattern recognition — type of bleeding + specific lab abnormalities — to localize the defect before confirming with factor-specific assays. The joint bleeding (deep tissue) combined with the isolated aPTT elevation is essentially diagnostic for hemophilia pending confirmatory testing."
+```
+
 ## Explainer
 
 From your study of hemostasis, you know that stopping a bleed requires two sequential processes: **primary hemostasis**, in which platelets adhere to damaged endothelium and form a soft platelet plug, and **secondary hemostasis**, in which the coagulation cascade generates thrombin and solidifies the clot with a fibrin mesh. Bleeding disorders map almost perfectly onto which of these processes is broken. Understanding the clinical pattern of bleeding — where it occurs and how severe it is — immediately localizes the defect.

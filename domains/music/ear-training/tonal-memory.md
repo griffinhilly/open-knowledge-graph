@@ -32,6 +32,45 @@ Practice singing back short melodic fragments (2–4 notes) immediately after he
 - Tonal memory is trainable and not fixed at birth — it correlates with musical experience more than innate talent.
 - Absolute pitch (identifying C from D without a reference) is different from strong tonal memory, which is relational.
 
+## Questions
+
+```yaml
+- question: "A beginning student and an advanced musician both hear the same 8-note melodic phrase once. The advanced musician recalls it correctly; the beginner recalls only the first 3 notes. What most likely explains this difference?"
+  type: multiple-choice
+  options:
+    - "The advanced musician has superior general short-term memory capacity"
+    - "The advanced musician encodes the phrase as a small number of familiar gestural chunks, while the beginner encodes 8 separate pitches competing for the same limited memory slots"
+    - "The advanced musician has absolute pitch, allowing exact frequency recall without context"
+    - "The beginner was distracted and failed to audiate the phrase during listening"
+  answer: 1
+  explanation: "The key is chunking. An advanced musician who recognizes a four-note fragment as 'a tonic arpeggiation' stores one memory unit, not four. Familiar melodic gestures (scale runs, arpeggios, common ornaments) collapse into single cognitive chunks. The beginner, lacking this gestural vocabulary, must store each pitch independently, quickly saturating working memory. General short-term memory capacity (option A) differs little between trained and untrained adults; the difference is in encoding strategy, not raw capacity."
+
+- question: "A student practices tonal memory by trying to memorize each note's exact frequency in hertz as they hear a melody. Why is this strategy less effective than singing back with solfège syllables?"
+  type: multiple-choice
+  options:
+    - "Frequencies are harder to verbalize than syllables, so they take longer to rehearse internally"
+    - "Memorizing frequencies requires absolute pitch, which most people do not have"
+    - "Solfège syllables encode relational pitch information — scale degree, harmonic function, and melodic tendency — rather than isolated absolute values, enabling far more efficient storage and retrieval"
+    - "Syllable rehearsal occupies the phonological loop, which has more capacity than the visuospatial sketchpad used for frequency storage"
+  answer: 2
+  explanation: "Tonal memory is relational, not a frequency recorder. Knowing a pitch is 'sol' (scale degree 5) tells you not just its frequency but its relationship to the tonic, its stability, and its typical melodic tendencies — all packed into a single label. Encoding 'do-re-mi-sol' gives you a relational pattern rich enough to reconstruct the melody. Raw Hz values give you isolated numbers with no musical context, requiring more memory slots and providing no organizational structure for retrieval."
+
+- question: "Tonal memory is primarily a trainable skill that improves with musical experience, not a fixed innate capacity."
+  type: true-false
+  answer: true
+  explanation: "True. Research shows tonal memory correlates strongly with musical training and experience rather than innate talent. Deliberate practice — singing back short melodic fragments immediately after hearing them, using solfège to label scale degrees, building a vocabulary of familiar melodic gestures — measurably increases how much music a person can hold in working memory. Expert musicians retain substantially longer sequences than untrained listeners, and this gap reflects accumulated learning, not a genetic gift."
+
+- question: "A musician with strong tonal memory must have absolute pitch — the ability to identify a note by name without a reference tone."
+  type: true-false
+  answer: false
+  explanation: "False — tonal memory is relational, not absolute. A musician with strong tonal memory encodes pitches as scale degrees or intervals relative to a tonal center (do-re-mi, or 'rising minor third'). Absolute pitch is the separate and rarer ability to identify a pitch's name with no reference. The two skills are dissociable: many musicians with excellent tonal memory and ear training ability do not have absolute pitch, and some people with absolute pitch have poor melodic retention. The Common Misconceptions section explicitly flags this distinction."
+
+- question: "Why does expanding your vocabulary of familiar melodic gestures improve tonal memory, even though it doesn't make your ears more sensitive to individual pitch differences?"
+  type: short-answer
+  answer: "Familiar gestures function as single memory chunks. A musician who recognizes 'do-mi-sol-mi-do' as a tonic arpeggiation stores one gestural unit in working memory instead of five separate pitches. Chunking compresses sequences into fewer, larger units. The more melodic gestures you have internalized, the larger your effective memory capacity — not because individual pitch perception improves, but because categorization becomes more efficient. A four-note phrase that takes four memory slots for a beginner takes one slot for an expert who has heard that gesture thousands of times."
+  explanation: "This is the key insight: building tonal memory is about expanding your gestural vocabulary, not sharpening your pitch-detection acuity. The mechanism is the same as reading words instead of letters — an expert reader stores 'the' as one unit, not three. Musical gestures work the same way."
+```
+
 ## Explainer
 
 From your prerequisite study of audiation, you know what it means to hear music in the mind's ear — to sustain a mental representation of pitch without needing an external sound to be playing at that moment. Tonal memory builds directly on audiation: it is the capacity to hold a sequence of pitches in that inner ear long enough to work with them — to reproduce, analyze, or notate what you heard. Without tonal memory, audiation is like a camera without storage. You can perceive the image, but cannot retain it.

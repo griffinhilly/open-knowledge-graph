@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Gravitational potential energy between two masses is U(r) = −G m₁ m₂ / r (with U = 0 at r = ∞). Unlike the near-Earth approximation U = mgh (linear in height), the true gravitational PE is inversely proportional to distance and negative, indicating an attractive interaction. Total mechanical energy E = KE + U is conserved in gravitational systems, determining whether orbits are bound (E < 0) or unbound (E ≥ 0).
 
+## Questions
+
+```yaml
+- question: "A satellite orbits Earth with total mechanical energy E = KE + PE = −5 × 10⁹ J. Which statement correctly describes this orbit?"
+  type: multiple-choice
+  options:
+    - "The satellite has negative kinetic energy and will slow to a stop"
+    - "The satellite is in a bound orbit and cannot escape to infinity without an energy input"
+    - "The satellite will escape Earth's gravity because its KE exceeds its PE"
+    - "Total energy cannot be negative — the calculation contains an error"
+  answer: 1
+  explanation: "E < 0 means the satellite is bound. KE is always positive (½mv² ≥ 0), so the negative total energy comes entirely from U = −GMm/r being large and negative. For the satellite to reach r = ∞ (where U = 0), it would need KE = E − U = E < 0 at infinity, which is impossible. The orbit is therefore elliptical or circular, and the satellite cannot escape without an external energy input."
+
+- question: "As a spacecraft moves from distance r to distance 2r from Earth's center, what happens to its gravitational potential energy?"
+  type: multiple-choice
+  options:
+    - "U becomes more negative — moving farther out increases the gravitational well depth"
+    - "U stays the same — gravitational PE is constant at orbital distances"
+    - "U becomes less negative, moving from −GMm/r toward zero — the spacecraft climbs out of the gravity well"
+    - "U changes sign from negative to positive once the spacecraft passes a threshold distance"
+  answer: 2
+  explanation: "U(r) = −GMm/r. At 2r, U = −GMm/(2r), which is half as negative — closer to zero. Moving away from Earth means climbing out of the gravitational potential well; U increases (becomes less negative), approaching 0 as r → ∞. U is always negative for gravity and never becomes positive — U = 0 is the reference at infinity, not a sign-change threshold."
+
+- question: "Gravitational potential energy U(r) = −GMm/r is always negative because gravity is attractive, meaning two masses always release energy when brought from infinite separation to any finite distance."
+  type: true-false
+  answer: true
+  explanation: "Setting U = 0 at r = ∞ (the natural zero for an inverse-square force), any finite separation requires that energy was released as the masses fell together under attraction. Equivalently, you must add energy to pull them back apart to infinity. Being 'in' a gravitational well means U < 0, and the magnitude of U tells you how much energy must be supplied to escape. This is why gravitationally bound systems (planets, stars, galaxies) all have negative total energy."
+
+- question: "The near-Earth approximation U = mgh fails at high altitudes because gravity reverses direction above a certain distance from Earth's surface."
+  type: true-false
+  answer: false
+  explanation: "Gravity does not reverse direction — it always points toward Earth's center at all distances. The approximation U = mgh fails at large h because it assumes g is constant (the linear approximation), but the true formula g(r) = GM/r² decreases significantly as r increases. The crossover occurs at heights comparable to Earth's radius (~6400 km). The direction of gravity is irrelevant to this failure — only the magnitude variation matters."
+
+- question: "Explain why the sign of total mechanical energy E = KE + U determines whether a gravitational orbit is bound or unbound."
+  type: short-answer
+  answer: "In a gravitational system, KE ≥ 0 always, and U = −GMm/r → 0 as r → ∞. If E < 0, reaching r = ∞ would require KE = E − 0 = E < 0, which is impossible — so the object can never reach infinity and is trapped in a bound (elliptical or circular) orbit. If E ≥ 0, the object can reach infinity with KE = E ≥ 0 remaining and escapes. E = 0 is the boundary: the object barely reaches infinity with zero remaining velocity, defining escape velocity v_esc = √(2GM/r)."
+  explanation: "This energy classification is the single most important tool in orbital mechanics. The bound/unbound distinction determines whether a comet returns, whether a spacecraft can reach another planet, and whether a galaxy is gravitationally stable. The key insight is that U approaches zero from below as r increases, so the sign of E tells you whether the object has 'enough' energy to climb out of the potential well entirely."
+```
+
 ## Explainer
 
 You already know **potential energy** as stored energy associated with position in a force field: the closer you are to Earth's surface, the lower your gravitational PE (taking the surface as reference). And from **Newton's law of gravitation** you know the force law: F = −G m₁ m₂ / r², always attractive, falling off as 1/r². The extended potential energy formula is just what you get when you integrate that force law over all possible separations, using infinity as the natural zero point.

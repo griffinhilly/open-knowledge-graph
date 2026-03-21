@@ -35,6 +35,45 @@ Convert small positive integers to their two's complement negatives by hand. Ver
 - There is only one representation of zero in two's complement, unlike sign-magnitude representation.
 - The 'flip-and-add-1' method is a shortcut derived from the algebraic definition, not the definition itself.
 
+## Questions
+
+```yaml
+- question: "In an 8-bit two's complement system, what is the result of adding 01111111 (+127) and 00000001 (+1)?"
+  type: multiple-choice
+  options:
+    - "10000000, which represents +128 — the largest positive value in the range"
+    - "10000000, which represents −128 — this is a signed overflow"
+    - "11111111, which represents −1"
+    - "00000000, which represents 0 due to wraparound"
+  answer: 1
+  explanation: "In 8-bit two's complement, the MSB has place value −128. The bit pattern 10000000 = −128, not +128. Adding +127 and +1 should give +128, but that value is outside the representable range (−128 to +127). The result 10000000 is interpreted as −128 — a signed overflow. This is detected by hardware when two positive inputs produce a negative result. The correct answer reveals why two's complement range is asymmetric: the MSB's negative place value means one extra negative value fits."
+
+- question: "Why does 8-bit two's complement represent numbers from −128 to +127 rather than the symmetric range −127 to +127?"
+  type: multiple-choice
+  options:
+    - "One bit pattern (10000000) is reserved as an error or undefined value"
+    - "There is exactly one representation of zero, so the 256 bit patterns split into 127 positive values, zero, and 128 negative values"
+    - "Hardware designers chose this range to match ASCII character encoding"
+    - "The range is actually symmetric — there is a +128 that is rarely used"
+  answer: 1
+  explanation: "With 8 bits, there are exactly 256 bit patterns. Two's complement uses exactly one pattern for zero (00000000). The remaining 255 patterns divide into 127 positive values (00000001 through 01111111) and 128 negative values (10000000 through 11111111). The asymmetry is a direct consequence of single-zero representation. Sign-magnitude has two zeros (+0 and −0), which is why it achieves a symmetric ±127 range with 8 bits — but at the cost of requiring special handling of two zeros."
+
+- question: "In two's complement, the 'flip all bits and add 1' method for negating a number is a convenient shortcut derived from the algebraic definition, not the definition itself."
+  type: true-false
+  answer: true
+  explanation: "The definition of two's complement is that the MSB has a negative place value. The flip-and-add-1 shortcut follows algebraically: if N + flip(N) = all-ones = −1, then flip(N) = −N − 1, so flip(N) + 1 = −N. The shortcut works because of the underlying place-value definition — it is not a defining axiom. Understanding this matters because the shortcut breaks down at one edge case: the most negative number (10000000) flipped is 01111111 (+127), and adding 1 gives back 10000000 (−128). That's not a bug in the definition — it's an unavoidable consequence of the asymmetric range."
+
+- question: "Two's complement uses two distinct bit patterns to represent zero, which is why it can represent one more negative number than positive numbers."
+  type: true-false
+  answer: false
+  explanation: "This describes sign-magnitude representation, not two's complement. In sign-magnitude, the patterns 00000000 (+0) and 10000000 (−0) both represent zero, giving two zero representations and a symmetric ±127 range. Two's complement has exactly one zero (00000000), and the pattern 10000000 represents −128 — a genuine negative value. The single zero is one of two's complement's key advantages over sign-magnitude, eliminating the need to special-case equality comparisons involving zero."
+
+- question: "Why does two's complement allow a single adder circuit to handle both signed and unsigned addition without any special cases?"
+  type: short-answer
+  answer: "In two's complement, the place values of bits 0 through n−2 are identical for signed and unsigned interpretation — only the MSB differs (−2^(n-1) for signed, +2^(n-1) for unsigned). When you add two numbers, the adder produces the same bit pattern regardless of whether the operands are treated as signed or unsigned. Whether that pattern represents a valid signed or unsigned result is an interpretation question, not a hardware question. For example, adding +3 (00000011) and −1 (11111111) uses the same binary addition as unsigned 3 + 255, producing 100000010, and discarding the carry gives 00000010 = 2 in both interpretations. The hardware does one thing; the programmer decides what it means."
+  explanation: "This is the fundamental elegance of two's complement: the carry-propagating adder is agnostic to signedness. Sign-magnitude and ones' complement require the ALU to check sign bits and handle special cases, requiring more transistors and slower operation. Two's complement eliminates all of this — which is why it became universal in computer hardware."
+```
+
 ## Explainer
 
 You already know how to represent positive integers in binary using place values: in an 8-bit number, the bits represent 128, 64, 32, 16, 8, 4, 2, 1 from left to right. Two's complement extends this system to handle negative numbers by making one simple change: the **most significant bit** (MSB) gets a *negative* place value. In an 8-bit two's complement number, the leftmost bit represents −128 instead of +128. So the bit pattern 10000000 equals −128 + 0 = −128, and 11111111 equals −128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = −1. If the MSB is 0, the number is non-negative and reads exactly like unsigned binary. If the MSB is 1, the number is negative.

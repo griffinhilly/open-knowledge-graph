@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Longue durée analysis examines history at scales ranging from centuries to millennia, revealing deep structures—geography, climate, trade routes, mentalities—that persist and shape human possibility across generations. This approach, developed by Braudel and the Annales school, challenges event-focused narrative history and reveals how structural constraints and possibilities channel what actors can do. Understanding multiple time scales simultaneously produces richer historical understanding.
 
+## Questions
+
+```yaml
+- question: "A historian asks why Mediterranean cities — under Roman, Byzantine, and later Ottoman rule — consistently developed as small-scale maritime trading centers rather than large continental agricultural empires. A longue-durée analyst would foreground which explanation?"
+  type: multiple-choice
+  options:
+    - "The economic policies favored by Roman and Byzantine emperors"
+    - "Shared cultural values around commerce transmitted across generations"
+    - "Geographic and ecological features — thin soils, natural harbors, the sea as connector — that made maritime trade structurally advantageous across all political regimes"
+    - "Military superiority of maritime city-states over land-based empires during this period"
+  answer: 2
+  explanation: "The longue-durée explanation points to geographic and ecological structures operating over centuries or millennia — features present under Carthage, Rome, Byzantium, and Venice alike. Thin Mediterranean soils made local food self-sufficiency difficult. Natural harbors created predictable trade routes. The sea connected otherwise isolated communities. These geographic facts constrained and enabled what was possible across radically different political systems. Individual policies or cultural values operate at faster time scales and cannot explain persistence across so many regimes."
+
+- question: "A critic argues the Annales school 'explains persistence but not change.' Which example best illustrates this limitation?"
+  type: multiple-choice
+  options:
+    - "The longue durée shows why Mediterranean trade routes were stable for centuries but struggles to explain why the Roman Empire fell when it did rather than a century earlier or later"
+    - "Structural analysis explains agricultural cycles but not individual crop failures"
+    - "Braudel's approach works for the Mediterranean but cannot be applied to landlocked regions"
+    - "The longue durée is too abstract to generate testable historical hypotheses"
+  answer: 0
+  explanation: "The longue durée excels at explaining what remained constant and why — geographic constraints, demographic rhythms, trade dependencies — but is less equipped to explain the specific timing and triggering of ruptures. Why did the Roman Empire fall *then*? Why did Mediterranean trade shift northward at a particular moment? These questions require event-level and conjunctural analysis alongside the structural framework. The most sophisticated historical analysis uses both levels: structures to set the stage, events to explain where on that stage the action occurred."
+
+- question: "According to Braudel, the fastest-moving level of history — political events, battles, diplomatic decisions — is typically the most causally significant in shaping long-term historical outcomes."
+  type: true-false
+  answer: false
+  explanation: "This is precisely what the longue-durée approach reverses. Braudel argued that event-history (l'histoire événementielle) is often the least causally significant level, even though it dominates the historical record because it generates documents. Events occur within conjunctural and structural contexts that largely determine what is possible. A battle's outcome matters, but it matters within constraints set by geography, demography, and economic cycles — which Braudel considered more causally fundamental."
+
+- question: "Longue-durée analysis does not replace event-history but contextualizes it: events become intelligible when placed within nested structural and conjunctural contexts."
+  type: true-false
+  answer: true
+  explanation: "This is the methodological payoff Braudel claimed. A peasant rebellion in 14th-century France isn't explained just by immediate causes (a bad harvest, a tax increase) but by the conjunctural context (economic downturn, demographic pressure post-Black Death) and the structural context (the lord-serf relationship embedded in agricultural geography). The three levels interact; the deepest levels determine the range of possibilities the surface events can realize. Events that seem contingent at the event level often look structurally overdetermined from the longue-durée level."
+
+- question: "Why does Braudel argue that the fastest-moving level of history is often the least causally significant? What does the longue durée reveal that event-history obscures?"
+  type: short-answer
+  answer: "Braudel argues that events are surface-level occurrences happening within structural constraints — geographic, climatic, demographic — that largely determine what is possible. The longue durée reveals these deep structures: the geographic facts that made certain economies sustainable, the demographic cycles that shaped social tension, the mentalities that made certain ideas thinkable. Without structural context, events seem contingent; within it, they often appear structurally overdetermined. The limitation is that the longue durée explains persistence better than rupture."
+  explanation: "The key insight is hierarchical: the longue durée sets the stage (what is structurally possible), the conjuncture determines which possibilities are currently available, and the event actualizes one particular path. A king's decision matters — but only within the narrow range of options his structural and conjunctural context permits. This is why the same geographic region repeatedly produces structurally similar civilizations despite very different political histories: the structural constraints are more powerful than any individual decision."
+```
+
 ## Explainer
 
 From your study of Braudel's longue durée concept and temporal frameworks, you have the conceptual vocabulary for this analysis. Now let's put it to work. The core insight of the Annales school — and of Braudel's *The Mediterranean and the Mediterranean World* (1949) in particular — is that historical causation operates at multiple speeds simultaneously, and that the fastest-moving events (what Braudel called *l'histoire événementielle* — event-history) are often the least causally significant. A king's decision, a battle's outcome, a diplomatic crisis: these events dominate the historical record because they generate documents, but they occur within structures that largely determine what is possible.

@@ -31,6 +31,45 @@ Pick foraminifera from sediment samples at regular intervals down a core, measur
 ## Common Misconceptions
 - Assuming a single species records condition at one specific depth; different species live at different water depths, and mixing can blur signals. - Confusing Mg/Ca-derived temperature with δ18O-derived temperature; they measure slightly different aspects of the water column.
 
+## Questions
+
+```yaml
+- question: "A sediment core shows that benthic foraminifera from 2.5 million years ago have unusually high δ¹⁸O values. What can be concluded from this measurement alone?"
+  type: multiple-choice
+  options:
+    - "Sea-surface temperatures were unusually cold 2.5 million years ago, since high δ¹⁸O always indicates cold water"
+    - "Either bottom-water temperatures were unusually cold, or global ice volume was unusually large, or both — δ¹⁸O alone cannot distinguish between these causes"
+    - "Global ice volume was large, since benthic forams record ice-volume signals but are insensitive to temperature changes"
+    - "The oceans were enriched in ¹⁶O, indicating reduced continental ice coverage at that time"
+  answer: 1
+  explanation: "The δ¹⁸O signal in foram shells responds to two independent factors: (1) the temperature of the water in which the shell grew (colder water → higher δ¹⁸O), and (2) the isotopic composition of the ocean itself (larger ice sheets lock up light ¹⁶O on land, enriching the ocean in ¹⁸O → higher δ¹⁸O). A single high δ¹⁸O value is therefore ambiguous — it could reflect cold water, expanded ice, or both. This dual sensitivity is the central interpretive challenge of foram paleoclimate work, and it is why Mg/Ca must be measured alongside δ¹⁸O."
+
+- question: "Why do paleoclimatologists measure Mg/Ca ratios on the same foram shells where they measure δ¹⁸O, rather than relying on δ¹⁸O alone?"
+  type: multiple-choice
+  options:
+    - "Because Mg/Ca is more analytically precise than δ¹⁸O mass spectrometry and serves as a quality-control check"
+    - "Because δ¹⁸O is sensitive to both temperature and global ice volume, while Mg/Ca responds mainly to temperature — together they allow these two signals to be mathematically separated"
+    - "Because Mg/Ca directly measures ocean salinity, which must be subtracted from δ¹⁸O to isolate the temperature component"
+    - "Because δ¹⁸O is only valid for planktonic forams, while Mg/Ca extends the method to benthic species"
+  answer: 1
+  explanation: "This is the key methodological advance that makes foram-based paleoclimate reconstruction powerful. Mg/Ca in foram shells increases with calcification temperature but is largely insensitive to changes in seawater isotopic composition (ice volume). So by measuring Mg/Ca on the same shells, you get an independent temperature estimate. Subtracting the Mg/Ca-derived temperature signal from the δ¹⁸O signal leaves a residual that reflects the ice-volume (seawater ¹⁸O enrichment) component. The two measurements together give you information that neither alone can provide."
+
+- question: "Benthic foraminifera are useful for reconstructing deep-water conditions, including bottom-water temperature and thermohaline circulation strength, while planktonic foraminifera record surface and near-surface ocean conditions."
+  type: true-false
+  answer: true
+  explanation: "This ecological distinction is fundamental to foram-based paleoceanography. Planktonic forams live in the upper water column where they are exposed to surface temperatures, seasonal upwelling, and sea-surface salinity — their shells record these surface conditions. Benthic forams live on the seafloor and build shells in equilibrium with bottom-water chemistry. Their δ¹⁸O records deep-water temperatures and the global ice-volume signal, and their δ¹³C tracks deep-water ventilation and the efficiency of the biological pump — both indicators of thermohaline circulation strength."
+
+- question: "A high δ¹⁸O value measured in a planktonic foram shell unambiguously indicates that sea-surface temperatures were cold at the time the shell grew."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception to avoid. High δ¹⁸O in a planktonic foram could mean cold sea-surface temperatures, but it could equally mean that global ice volume was large (trapping ¹⁶O on land and enriching the ocean in ¹⁸O) — or both. The signal is ambiguous. Unambiguous temperature reconstruction requires a second, ice-volume-insensitive proxy like Mg/Ca. Interpreting δ¹⁸O as a pure temperature signal without accounting for ice volume has been a significant source of error in older paleoclimate literature."
+
+- question: "Explain why δ¹⁸O alone is an ambiguous paleoclimate signal and how measuring Mg/Ca on the same foram shells resolves this ambiguity."
+  type: short-answer
+  answer: "δ¹⁸O in foram shells responds to both calcification temperature (colder water → higher δ¹⁸O) and the isotopic composition of seawater (larger ice sheets → lighter ¹⁶O locked on land → seawater enriched in ¹⁸O → higher δ¹⁸O). A high δ¹⁸O could mean cold water, large ice sheets, or both. Mg/Ca provides an independent temperature estimate because Mg incorporation into calcite increases with temperature but is not influenced by ice volume. Combining both measurements allows scientists to isolate the temperature component and back-calculate the ice-volume component separately."
+  explanation: "The two-proxy approach is a classic example of using redundant, partially independent measurements to extract more information than either alone provides. In matrix form, you have two equations (δ¹⁸O and Mg/Ca) and two unknowns (temperature and ice volume), so the system can be solved. The elegance is that both proxies come from the same tiny shells, meaning they record exactly the same water at exactly the same time — eliminating the confounding from comparing records from different locations or organisms."
+```
+
 ## Explainer
 
 From your study of paleoclimate proxies, you know that past climates must be reconstructed indirectly — no thermometers existed millions of years ago, so scientists rely on natural archives that record environmental conditions in their chemistry or biology. You are also familiar with oxygen isotope paleothermometry: the ratio of heavy (¹⁸O) to light (¹⁶O) oxygen in calcium carbonate shells varies with the temperature at which the shell formed and with the isotopic composition of the seawater. **Foraminifera** — tiny single-celled marine organisms that build calcium carbonate (CaCO₃) shells — are the single most important carriers of these isotopic signals in the ocean sediment record.

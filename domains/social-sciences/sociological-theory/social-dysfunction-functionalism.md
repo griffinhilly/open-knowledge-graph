@@ -26,6 +26,45 @@ Select a social problem (crime, drug use, poverty) and map both its dysfunctions
 ## Common Misconceptions
 - Dysfunctions mean systems are breaking down entirely. - All dysfunctions should be eliminated without considering unintended consequences. - Functionalism cannot acknowledge social problems.
 
+## Questions
+
+```yaml
+- question: "A city government implements aggressive zero-tolerance policing to eliminate crime, which it identifies as purely dysfunctional. A functionalist analysis might warn that this policy could also:"
+  type: multiple-choice
+  options:
+    - "Make crime worse by driving it underground, confirming that crime has no functions"
+    - "Eliminate latent functions that crime was serving — such as norm reaffirmation, community solidarity, and employment in enforcement — disrupting other social needs"
+    - "Strengthen social integration by sending a clear message about community values"
+    - "Have no side effects, since dysfunctions by definition undermine the system and should simply be removed"
+  answer: 1
+  explanation: "The core functionalist insight is that practices can simultaneously function and dysfunction. Crime is dysfunctional for social order, but also serves latent functions: shared condemnation of crime reaffirms moral boundaries, the crime control industry provides employment, and community responses to crime can generate social solidarity. Eliminating crime could also dissolve these latent functions. Zero-tolerance policing may additionally eliminate informal community mediation processes that crime-suppression inadvertently sustained. Option D is the naive view that functionalism critiques: you cannot simply remove a dysfunction without examining what else it was contributing."
+
+- question: "Merton observed that crime reaffirms community norms, generates law enforcement employment, and can unite communities against a shared threat. This is an example of what functionalist concept?"
+  type: multiple-choice
+  options:
+    - "Manifest dysfunction — the intended but harmful effects of crime on social order"
+    - "Functional alternatives — showing that crime can be replaced with other norm-reaffirming mechanisms"
+    - "Latent functions of a socially problematic practice — unintended positive consequences that coexist with dysfunction"
+    - "Structural strain — the gap between cultural goals and institutionalized means"
+  answer: 2
+  explanation: "Latent functions are unintended, unrecognized consequences that contribute positively to some aspect of the social system, even when the practice itself has clear dysfunctional dimensions. Crime's latent functions do not make crime desirable — the point is analytical, not normative. Understanding them matters because any intervention targeting crime's dysfunctions may inadvertently disrupt these latent contributions. This is distinct from structural strain (option D), which is Merton's separate concept about the gap between culturally prescribed goals and legitimate means."
+
+- question: "A social practice can simultaneously have dysfunctional consequences (undermining system stability) and latent functions (meeting other systemic needs), requiring analysts to consider both before proposing changes."
+  type: true-false
+  answer: true
+  explanation: "This dual view is the central contribution of Merton's approach to dysfunction. Earlier functionalism often treated social arrangements as uniformly functional; Merton introduced dysfunction as a concept that allows functionalism to acknowledge harm. But the insight goes further: the same practice can harm the system in one dimension while serving it in another. Welfare bureaucracies designed to reduce poverty may generate dependency effects (dysfunctional) while also providing employment and legitimizing state authority (latent functions). Ignoring either side produces incomplete analysis."
+
+- question: "Identifying a social practice as dysfunctional means it should be eliminated, since by definition it is harming the social system."
+  type: true-false
+  answer: false
+  explanation: "Functionalist analysis explicitly warns against this conclusion. Dysfunctions coexist with latent functions, and eliminating a dysfunction may destroy the latent functions that coexist with it. Additionally, even if a practice is net-dysfunctional, there may be no available functional alternative to replace the needs it serves. The question 'should we eliminate this?' requires examining what the practice contributes as well as what it harms, and identifying whether alternatives exist that could serve those functions without the dysfunctions."
+
+- question: "Why might eliminating a social dysfunction also destroy a latent function, and what does this imply for social policy analysis?"
+  type: short-answer
+  answer: "A practice often produces multiple effects simultaneously — some dysfunctional, some latently functional. When a policy removes the dysfunctional practice, the latent functions it served disappear along with the harm. For example, eliminating informal community-based crime management may also remove the social bonds and dispute-resolution mechanisms that community crime-monitoring sustained. This means policy analysis cannot treat dysfunction as an isolated negative to be removed; it must map the full range of consequences — intended and unintended, harmful and beneficial — and identify what needs would require alternative means of fulfillment."
+  explanation: "This implication is not an argument against social intervention — it is an argument for more rigorous analysis before and after intervention. Functionalist analysis at its best traces consequences through complex social systems, identifying second-order effects that more linear causal thinking would miss."
+```
+
 ## Explainer
 
 Your understanding of manifest and latent functions gives you the key tools for analyzing dysfunction. Recall the core distinction: manifest functions are the intended, recognized effects of social practices; latent functions are the unintended, unrecognized effects that may nonetheless contribute to system stability. Dysfunction extends this framework in the negative direction: just as a practice can have unintended positive consequences, it can also have unintended negative ones. Dysfunction is the concept that allows functionalism to acknowledge that social arrangements can harm the systems they are part of — a recognition that earlier, more optimistic functionalism often avoided.

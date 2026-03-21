@@ -29,6 +29,45 @@ Compute confidence intervals for various sample sizes and confidence levels. Int
 ## Common Misconceptions
 Thinking a 95% CI means 95% probability the true mean is in the interval (it's fixed; the interval is random). Confusing confidence level with p-value. Misunderstanding how sample size affects margin of error.
 
+## Questions
+
+```yaml
+- question: "A researcher computes a 95% CI for mean sleep hours and gets [6.8, 7.4]. Which interpretation is correct?"
+  type: multiple-choice
+  options:
+    - "There is a 95% probability that the true mean lies between 6.8 and 7.4 hours"
+    - "If this procedure were repeated many times, 95% of such intervals would contain the true mean"
+    - "95% of people in the sample sleep between 6.8 and 7.4 hours"
+    - "The true mean is 95% likely to be close to 7.1 hours"
+  answer: 1
+  explanation: "The true mean μ is a fixed constant — it either lies in [6.8, 7.4] or it doesn't. Probability doesn't apply to a specific computed interval. What 95% describes is the long-run procedure: if you repeated this sampling and interval-construction process many times, 95% of the resulting intervals would contain μ. Option A is the most common misconception and is incorrect for exactly this reason."
+
+- question: "A 95% CI is computed from a sample of n = 50. If the sample size is increased to n = 200 with the same confidence level, what happens to the interval width?"
+  type: multiple-choice
+  options:
+    - "It stays the same — confidence level determines width, not sample size"
+    - "It decreases by a factor of 2 — the margin of error is proportional to 1/√n"
+    - "It increases — more data introduces more sources of variability"
+    - "It doubles — larger samples cover more of the population"
+  answer: 1
+  explanation: "The margin of error is z*(s/√n), so it shrinks like 1/√n. Quadrupling n (from 50 to 200) halves √n's denominator effect, cutting the margin of error in half. The common misconception is that more data means more uncertainty; in fact, more data means better precision and a narrower interval."
+
+- question: "A 99% confidence interval computed from the same data is wider than a 95% confidence interval."
+  type: true-false
+  answer: true
+  explanation: "Higher confidence requires a larger multiplier (z* = 2.576 for 99% vs. 1.96 for 95%), which widens the margin of error. The intuition: to be more confident of capturing μ, you must cast a wider net. More confidence always means a wider interval, all else equal."
+
+- question: "A 95% CI guarantees that 95% of future sample means drawn from the same population will fall inside it."
+  type: true-false
+  answer: false
+  explanation: "A CI makes a claim about the population parameter μ, not about future sample means. The 95% refers to the proportion of confidence intervals (computed by this procedure) that would contain μ — a statement about the interval-generating process, not about the distribution of x̄ values. Future sample means are covered by the sampling distribution, which is a separate concept."
+
+- question: "Why is it incorrect to say 'there is a 95% probability that the true mean is in this interval'?"
+  type: short-answer
+  answer: "The true mean μ is a fixed (though unknown) constant — it either is or isn't in the computed interval. Since μ is not random, probability doesn't apply to it. The randomness is in the interval itself, which varies from sample to sample. '95%' describes what fraction of intervals would contain μ across many repetitions of the procedure, not a probability about where μ sits relative to one particular interval."
+  explanation: "This is the central interpretive challenge of confidence intervals. Frequentist probability only applies to random events. Once an interval is computed, μ's location relative to it is a fixed fact — we just don't know which. The correct statement shifts the randomness to the procedure: 'this method produces intervals that capture μ 95% of the time,' not 'this interval has a 95% chance of being right.'"
+```
+
 ## Explainer
 
 The Central Limit Theorem guarantees that for a large enough sample, the sample mean X̄ is approximately normally distributed with mean μ and standard deviation σ/√n, regardless of the population's shape. This is the fact that makes confidence intervals for means work. From your study of z-scores, you can standardize: the quantity (X̄ - μ)/(σ/√n) is approximately standard normal. Choosing z* = 1.96, we know P(-1.96 ≤ (X̄ - μ)/(σ/√n) ≤ 1.96) ≈ 0.95. Rearranging to isolate μ in the middle gives X̄ - 1.96(σ/√n) ≤ μ ≤ X̄ + 1.96(σ/√n) — the 95% confidence interval.

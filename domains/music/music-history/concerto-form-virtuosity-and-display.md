@@ -30,6 +30,45 @@ Analyze the first movement of Mozart or Beethoven concertos to understand double
 - The concerto is primarily about showing off technique — while virtuosity is important, the form serves larger musical and structural purposes.
 - The cadenza is purely improvisational — while performers may add improvisation, composers typically wrote specific cadenzas that fit the work's musical argument.
 
+## Questions
+
+```yaml
+- question: "In a Classical concerto's first movement, what distinguishes the orchestral exposition from the solo exposition in the double exposition structure?"
+  type: multiple-choice
+  options:
+    - "The orchestra presents the themes and modulates to the dominant; the soloist re-presents them in the tonic"
+    - "The orchestra presents only secondary themes; the soloist introduces the main theme for the first time"
+    - "The orchestra presents the themes in the tonic without modulating; the soloist then re-presents them and completes the harmonic journey to the dominant"
+    - "Both expositions present the same material in the same keys, differing only in instrumentation"
+  answer: 2
+  explanation: "The orchestral exposition establishes the themes in a stable, authoritative way in the tonic — but deliberately withholds the modulation to the dominant. When the soloist enters, they traverse the same material while completing the harmonic journey. This creates a structural drama: the orchestra plants the seeds, the soloist brings them to fruition. The double exposition also serves a psychological purpose — by the time the soloist arrives, the themes are familiar, so listeners can focus on how the soloist ornaments and transforms them."
+
+- question: "A student argues that the cadenza is structurally irrelevant — a pure display of virtuosity inserted before the ending. What is the strongest correction?"
+  type: multiple-choice
+  options:
+    - "The student is correct: cadenzas are improvisational and unconnected to the movement's formal argument"
+    - "The cadenza is structurally embedded: it prolongs the dominant over a tonic six-four chord, and its closing trill signals the orchestra's return to resolve the harmony to the tonic"
+    - "The cadenza replaces the development section in concerto form, serving as the movement's main area of thematic instability"
+    - "The cadenza modulates back from the dominant to the tonic, so it is structurally essential as a transition"
+  answer: 1
+  explanation: "The cadenza begins over a tonic six-four chord (I⁶₄), which is harmonically a prolonged dominant preparation — not a point of rest. The entire cadenza ornaments this suspended dominant; the closing trill is the signal that the dominant is ready to resolve. When the orchestra re-enters, they complete the cadential resolution to the tonic. Far from being inserted 'before the ending,' the cadenza IS the final approach to the ending. The display and the structure are inseparable."
+
+- question: "In a Classical concerto, the cadenza typically begins over a tonic six-four chord and ends with a trill that cues the orchestra's re-entry."
+  type: true-false
+  answer: true
+  explanation: "The tonic six-four chord (I⁶₄) is harmonically unstable — it functions as a dominant preparation, not a point of arrival. The orchestra pauses here and the soloist takes over, using the cadenza to ornament this suspended dominant tension. The closing trill is a conventional signal that the dominant has been prolonged enough and is ready to resolve. The orchestra re-enters and closes the movement with a brief coda that resolves to the tonic. This is not convention for its own sake: it is the formal mechanism that makes the cadenza structurally intelligible."
+
+- question: "In a Classical concerto's double exposition, the solo exposition presents entirely different thematic material from what the orchestra played, creating a contrast between two independent musical arguments."
+  type: true-false
+  answer: false
+  explanation: "The solo exposition presents the same thematic material as the orchestral exposition — that is the point of 'double' exposition. What changes is the treatment: the soloist elaborates, ornaments, and adds idiomatic figuration to the shared themes, while completing the harmonic journey to the dominant that the orchestra withheld. The shared material allows the audience to perceive the soloist's relationship to the themes as a transformation, not a replacement. Typically the soloist also introduces transitional material idiomatic to the instrument, but the core themes are the same."
+
+- question: "Why does the Classical concerto use a double exposition rather than a single exposition as in a symphony, and what structural purpose does this serve?"
+  type: short-answer
+  answer: "The double exposition manages the dramatic problem of introducing a soloist. The orchestral exposition establishes the themes familiarly in the tonic without creating harmonic tension. When the soloist enters, the audience already knows the material, so they hear the soloist's version as a response — a transformation of known material rather than a first presentation. The soloist can then complete the harmonic journey (to the dominant) that the orchestra deliberately withheld, making the solo arrival feel like a structural event, not just a change of timbre. The double exposition creates the sense that the concerto has been waiting for the soloist."
+  explanation: "This structure has no equivalent in the symphony because symphonies don't have the dramaturgical problem of presenting an individual against a collective. The concerto needs to establish the orchestra's material before the soloist can 'confront' it. The double exposition is the formal solution to a theatrical problem: how do you set up a dramatic entrance? You establish the setting first, then bring in the protagonist."
+```
+
 ## Explainer
 
 The Classical concerto is essentially a dramatic form built around a single structural tension: a solo instrument trying to assert itself against an orchestra. From your study of sonata form, you know how the Classical period organized large movements through exposition, development, and recapitulation. The concerto keeps this framework but complicates it by dividing the musical material between two competing forces — the **tutti** (full orchestra) and the **solo**. Understanding the concerto means understanding how composers managed this dialogue, when each force takes the stage, and how the structure funnels toward the most dramatic moment in Classical instrumental music: the **cadenza**.

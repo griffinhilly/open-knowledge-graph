@@ -30,6 +30,45 @@ Analyze cases where checks and balances work (presidential vetoes, congressional
 ## Common Misconceptions
 Checks and balances do not require perfect equality of power among branches. Parliamentary systems can have effective checks without strict separation (executive confidence in legislature). Checks work through political incentives as much as legal procedures.
 
+## Questions
+
+```yaml
+- question: "A president prefers an ideologically extreme judicial nominee but instead appoints a moderate — specifically because they anticipate the Senate will reject the extreme candidate. No formal veto or override occurs. Which statement best describes what has happened?"
+  type: multiple-choice
+  options:
+    - "Checks and balances failed because no institutional action was taken"
+    - "This is an example of informal norms, not checks and balances"
+    - "Checks and balances operated through anticipatory incentives — the possibility of being blocked shaped behavior before any formal action"
+    - "The president's moderation demonstrates that checks and balances are unnecessary in this case"
+  answer: 2
+  explanation: "This is the key insight about how checks and balances actually function: their most powerful effect is preventive, not corrective. The Senate confirmation requirement didn't block anything here — it shaped the president's choice before a nomination was even made. Checks work primarily through the political calculations of actors who know they can be overruled. A system of checks that only operates when formally invoked is weaker than one whose shadow falls over every decision."
+
+- question: "A parliamentary democracy has no strict separation between the executive and legislature — the cabinet is drawn from parliament and accountable to it. But it has an independent judiciary with constitutional review, a powerful audit institution, and robust free-press protections. Which statement best characterizes this system?"
+  type: multiple-choice
+  options:
+    - "Without strict separation of powers, this system lacks genuine checks and balances"
+    - "Only systems with formal veto mechanisms between branches have genuine checks"
+    - "Parliamentary accountability is a form of checks and balances, but judicial review and audit institutions are not"
+    - "Checks can exist without strict separation if multiple actors can independently constrain power accumulation"
+  answer: 3
+  explanation: "The misconception is that checks and balances require the Madisonian model of three separated branches. What matters is whether any single actor can accumulate power without restraint — not the particular institutional design used to prevent that. Westminster parliamentary systems can have robust accountability through independent courts, civil service, audit institutions, and free media. The executive is constrained by parliamentary confidence, judicial review, and public accountability simultaneously, even though the executive and legislature are fused."
+
+- question: "Checks and balances require approximately equal power among the branches of government to function effectively."
+  type: true-false
+  answer: false
+  explanation: "Checks do not require equality — they require veto points. Each branch needs to be able to block or constrain the others in some domain, but this does not imply symmetry or equality of overall power. In practice, the relative power of branches shifts substantially across different political eras, party configurations, and constitutional regimes. What matters is that no branch can act alone on major decisions without the acquiescence or constraint of others — not that they all wield equivalent authority."
+
+- question: "A legislature that can vote to override a presidential veto is exercising a check on executive power even during long stretches when no override vote is actually called."
+  type: true-false
+  answer: true
+  explanation: "The override power shapes presidential behavior continuously, not only when invoked. A president who knows Congress could override a veto will calibrate which legislation to sign or veto based on that possibility. The same logic applies to all checks: the threat of judicial review influences legislative drafting; the threat of Senate rejection of nominees influences presidential appointments. The continuous shadow of potential constraint is the primary mechanism — formal exercises of the check are the visible tip of a much larger behavioral effect."
+
+- question: "Why are checks and balances said to work through political incentives as much as through legal procedures? Give a concrete example of this distinction."
+  type: short-answer
+  answer: "Legal procedures are the formal mechanisms — veto power, confirmation requirements, judicial review. Political incentives are the behavioral calculations that those mechanisms create. A president who moderates a judicial nomination to secure Senate confirmation is responding to the incentive created by the confirmation requirement, not to any formal legal action. The check operates before any procedure is triggered. Similarly, a legislature drafting a bill anticipates potential judicial review and avoids provisions likely to be struck down. This distinction matters because systems where formal procedures are available but political costs of using them are too high may have checks on paper but not in practice."
+  explanation: "The most important insight from comparative politics is that formal checks can exist without functioning as real constraints if the political system makes it costly or difficult to invoke them. Courts that theoretically can strike down laws but face retaliation if they do, or legislatures that can override vetoes but fear electoral backlash for defying a popular executive, may not function as real checks. The study of democratic backsliding often focuses precisely on how formal checks are preserved while the political incentives that make them operate are gradually eroded."
+```
+
 ## Explainer
 
 From your prerequisite study of government branches, you know that modern states typically divide authority across legislative, executive, and judicial institutions. Checks and balances are the specific mechanisms by which each branch can *constrain* the others — the institutional design features that prevent any single actor from accumulating power without limit. The core logic is recursive: without checks, any branch that gains temporary advantage has incentive to entrench that advantage permanently. A legislature that can override the executive without constraint will eventually subordinate it entirely; an executive with control over courts will use courts to neutralize political opposition. Checks and balances interrupt this dynamic not by making branches equal in power, but by giving each branch **veto points** — moments where it must consent or can block the others.

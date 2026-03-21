@@ -33,6 +33,45 @@ Observe endospore formation in culture time-courses. Study the structure-functio
 - Assuming all bacteria form spores; only select gram-positive genera produce them.
 - Believing spores are permanently dormant; they remain viable for decades but can germinate rapidly under appropriate signals.
 
+## Questions
+
+```yaml
+- question: "Why does autoclaving at 121°C kill endospores when boiling water at 100°C does not?"
+  type: multiple-choice
+  options:
+    - "Autoclaves use steam with a different chemical composition than boiling water"
+    - "The higher temperature under pressure overcomes the structural protections — dehydration, cortex, spore coat, DPA stabilization — that 100°C cannot defeat"
+    - "Autoclaves apply pressure that physically crushes the spore coat before heat is applied"
+    - "Boiling water kills vegetative cells but cannot physically penetrate the spore; steam can"
+  answer: 1
+  explanation: "Endospore resistance at 100°C comes from layered structural adaptations: extreme dehydration (which prevents thermal damage that requires water), DPA-calcium complexes stabilizing DNA, a thick modified peptidoglycan cortex, and multilayered protein spore coats. These protections are sufficient at 100°C. The higher temperature of 121°C achieved by pressurized steam in an autoclave provides enough thermal energy to denature proteins in the spore coat and cortex, disrupt the DPA-calcium complex, and ultimately kill the spore. The pressure enables superheated steam — it is the vehicle to higher temperature, not the killing agent itself."
+
+- question: "A student argues: 'Endospores are metabolically inert, so they must be dead.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Endospores do perform metabolism — just at a greatly reduced rate"
+    - "Metabolic inertness does not mean dead: endospores retain viability and can germinate to restore full vegetative activity when conditions improve"
+    - "Endospores are not truly metabolically inert — they actively repair DNA during dormancy"
+    - "The student is correct by biological criteria: any structure with no metabolism is classified as dead"
+  answer: 1
+  explanation: "Dormancy is not death. A living entity can be in a suspended state with essentially no detectable metabolism and still retain full capacity to resume life when conditions improve. Endospores remain viable for decades or centuries, then germinate within minutes when appropriate signals (amino acids, sugars) appear, restoring full vegetative activity. 'Dead' means permanently unable to resume life; endospores have exactly this capacity. Confusing metabolic inertness with death is a fundamental conceptual error."
+
+- question: "All species of bacteria can form endospores as a survival strategy when nutrients become scarce."
+  type: true-false
+  answer: false
+  explanation: "Endospore formation is restricted to certain gram-positive genera, most notably Bacillus and Clostridium (and a few others like Sporosarcina). The vast majority of bacteria — all gram-negative species and most gram-positive ones — cannot form endospores. This restriction matters enormously in practice: C. difficile, C. botulinum, and B. anthracis are medically significant precisely because of this capability, and sterilization procedures must be calibrated specifically for endospore-forming species."
+
+- question: "Germination of an endospore takes approximately 8 hours — roughly mirroring the 8-hour sporulation process that formed it."
+  type: true-false
+  answer: false
+  explanation: "Germination is strikingly rapid — it occurs within minutes, not hours. Once appropriate germination signals (L-alanine, sugars, nucleosides) are detected, the spore coat cracks, the cortex is enzymatically degraded, the core rehydrates, DPA is released, and normal metabolism resumes in minutes. The asymmetry is biologically meaningful: sporulation is a careful, precise packaging process requiring 8 hours to build every protective layer correctly, while germination is a rapid response to favorable conditions where speed determines competitive advantage."
+
+- question: "Describe the structural features of an endospore that account for its extreme resistance to heat and chemicals, and explain why vegetative cells of the same bacterium lack this resistance."
+  type: short-answer
+  answer: "Endospore resistance comes from several layered protections absent in vegetative cells: (1) extreme dehydration of the spore core, preventing thermal damage that requires water; (2) calcium-dipicolinic acid (DPA) complexes that stabilize DNA against heat and radiation; (3) small acid-soluble proteins (SASPs) coating and protecting DNA; (4) a thick modified peptidoglycan cortex; and (5) a multilayered cross-linked protein spore coat. Vegetative cells have none of these — they maintain normal hydration, standard cytoplasm, and only a regular cell wall."
+  explanation: "The spore's resistance is a product of its structural complexity, which takes 8 hours to assemble during sporulation. Each layer contributes: dehydration raises the heat-denaturation threshold; DPA-calcium protects DNA chemistry; SASPs provide additional nucleic acid protection; the cortex and coat provide physical barriers against chemicals. Vegetative cells are simply not built for extreme resistance — they are optimized for rapid growth, not survival."
+```
+
 ## Explainer
 
 From your study of bacterial cell structure and growth, you know that most bacteria reproduce rapidly when nutrients are available and die when conditions become hostile. Endospore-forming bacteria have evolved a radically different survival strategy: rather than dying, they package their essential genetic material into an extraordinarily resistant dormant structure that can persist for decades — even centuries — until conditions improve. Think of it as a biological escape pod, ejected when the ship is going down.

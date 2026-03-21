@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Neural correlates of consciousness (NCCs) are the minimal neural mechanisms sufficient for a specific conscious experience. These differ from pre-NCC mechanisms necessary for sensory input and post-NCC mechanisms for behavioral report, requiring comparison of conscious and unconscious processing of identical stimuli. NCCs likely involve large-scale cortical networks rather than single regions.
 
+## Questions
+
+```yaml
+- question: "A researcher uses binocular rivalry to study consciousness. They find that prefrontal cortex activity increases whenever a subject reports perceiving the face image (vs. the house image). What can they confidently conclude?"
+  type: multiple-choice
+  options:
+    - "Prefrontal cortex is the neural correlate of consciousness for face perception"
+    - "Prefrontal cortex activity is correlated with perceiving the face, but may reflect behavioral reporting rather than the experience itself"
+    - "Prefrontal cortex is a pre-NCC mechanism enabling all conscious experience"
+    - "The result is uninformative because the stimulus is not held constant"
+  answer: 1
+  explanation: "Prefrontal activity correlating with conscious perception is genuine, but may constitute post-NCC activity — involved in maintaining and reporting the experience rather than constituting the experience itself. This is the key distinction: finding correlation with perception does not establish that a region is the NCC proper. The ongoing debate between 'local' (posterior) and 'global' (frontal-parietal) theories turns precisely on whether prefrontal activity reflects access and report versus the experience. Option D is wrong — binocular rivalry specifically holds the stimulus constant while perception alternates, which is exactly the right paradigm."
+
+- question: "Which of the following best explains why binocular rivalry is a powerful method for identifying NCCs?"
+  type: multiple-choice
+  options:
+    - "It presents novel stimuli to each eye, ensuring the brain processes information it has not seen before"
+    - "It holds retinal input constant while conscious perception alternates, isolating neural correlates of perception itself"
+    - "It eliminates all pre-NCC activity by preventing any sensory processing from reaching consciousness"
+    - "It directly measures the global workspace ignition by recording frontal-parietal synchrony"
+  answer: 1
+  explanation: "The power of binocular rivalry is the contrastive logic: because the stimuli don't change but perception does, any neural activity that tracks the perceptual alternation — rather than the stimulus — is a candidate NCC. This separates NCC from pre-NCC (sensory processing present regardless of perception) and from stimulus-driven responses. Option C is wrong because pre-NCC sensory processing does occur; it just doesn't predict which percept reaches awareness."
+
+- question: "Because the prefrontal cortex consistently activates during conscious perception across many paradigms, it is now established that prefrontal activity constitutes the neural correlate of consciousness."
+  type: true-false
+  answer: false
+  explanation: "Prefrontal activity during conscious perception is robustly observed, but it may represent post-NCC mechanisms — the cognitive processes needed to report, maintain, and act on the conscious experience — rather than the experience itself. Conflating post-NCC activity with NCC proper is a recognized historical error that inflated estimates of prefrontal involvement. Posterior cortical areas (V4, MT, fusiform) show activity that tracks perceptual content more directly in many contrastive paradigms. Whether consciousness requires frontal-parietal network involvement is genuinely debated."
+
+- question: "The neural correlate of consciousness for a specific experience is likely a dynamic pattern of large-scale network connectivity rather than activity in a single localized brain region."
+  type: true-false
+  answer: true
+  explanation: "Converging evidence from contrastive paradigms consistently shows that conscious perception involves late, sustained, broadly distributed neural activity — not an isolated module. Global workspace theory predicts this: consciousness involves posterior sensory representations gaining access to a frontal-parietal broadcasting network. The 'late cortical potential' or P3 is a temporal and spatial signature consistent with network ignition. The NCC appears to be a state of the brain — a connectivity pattern — rather than a site."
+
+- question: "Why is it methodologically necessary to compare neural activity during conscious versus unconscious processing of identical stimuli when searching for NCCs, rather than simply scanning subjects while they are conscious?"
+  type: short-answer
+  answer: "Scanning during consciousness captures everything active during conscious experience — sensory input processing, attention, working memory, motor preparation — most of which is not specific to the conscious experience. The contrastive approach isolates the NCC by holding stimuli constant and finding what changes when perception does. Without this contrast, you cannot separate the NCC from the pre-NCC enabling conditions or the post-NCC reporting machinery. The 'minimal and sufficient' definition of NCC requires identifying what is uniquely associated with the experience, not merely present during it."
+  explanation: "This is the core methodological principle. Activity that appears in both conscious and unconscious processing is, by definition, not the NCC — it's pre-NCC background. Activity that appears only when consciousness occurs, for identical stimuli, is the NCC candidate. This logic underlies masking, attentional blink, change blindness, and binocular rivalry paradigms alike."
+```
+
 ## Explainer
 
 From your study of neural correlates of consciousness and global workspace theory, you have the conceptual foundations for the NCC research program. You know that consciousness involves a global broadcasting mechanism — the global workspace — that makes locally processed information widely available across the brain. The NCC question sharpens this: *what exactly* in the brain needs to be active for a specific, particular conscious experience to occur? Finding NCCs would mean identifying the minimal neural machinery sufficient for the experience, not merely necessary background conditions.

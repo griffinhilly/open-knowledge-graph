@@ -29,6 +29,45 @@ Compare a randomized and quasi-experimental study on similar questions. Identify
 ## Common Misconceptions
 - Quasi-experiments are weak science; - Matching groups before treatment equals randomization; - Quasi-experiments cannot contribute to causal inference; - All threats to internal validity are equally severe in quasi-experiments.
 
+## Questions
+
+```yaml
+- question: "A researcher matches 200 people who voluntarily enrolled in a job training program to 200 unemployed individuals on age, education level, and prior work history. After matching, she compares employment outcomes. What threat to causal inference persists despite the matching?"
+  type: multiple-choice
+  options:
+    - "Unmeasured variables correlated with both program self-selection and employment outcomes may differ between groups"
+    - "The matched sample is too small to draw meaningful conclusions about employment effects"
+    - "Matching on too many variables inflates the probability of a Type I error"
+    - "No threats remain — matching eliminates all pre-existing group differences, just like randomization"
+  answer: 0
+  explanation: "Matching controls only what you can measure and choose to match on. People who voluntarily enroll in job training may also be more motivated, have stronger social networks, or differ in dozens of other ways that predict employment but were never measured. These unmeasured confounds remain as selection bias even after matching. This is the core difference from random assignment, which equates groups on all confounds — known and unknown — simultaneously. Option D is the classic misconception this topic is designed to correct."
+
+- question: "A university awards merit scholarships to applicants who score 1200 or above on an entrance exam and denies them to those who score below 1200. A researcher compares the graduation rates of students who scored 1199 versus 1201. Why does this comparison yield a credible causal estimate?"
+  type: multiple-choice
+  options:
+    - "Students just above and just below the cutoff are essentially equivalent in ability, approximating local random assignment"
+    - "The test score is randomly distributed across all applicants, making the cutoff effectively random"
+    - "The scholarship was randomly assigned within each score group, creating true experimental conditions"
+    - "All university applicants are similar enough that any cutoff comparison is internally valid"
+  answer: 0
+  explanation: "This is the regression discontinuity design's key insight: applicants who score 1199 vs. 1201 differ by essentially nothing in ability or preparation — the 2-point difference is within measurement noise. Yet one group received the scholarship and the other did not. Because the assignment rule is known, sharp, and based on a continuous variable, the near-threshold comparison mimics random assignment locally. This design is highly credible precisely because the arbitrary discontinuity creates a natural experiment, not because scores are randomly distributed or because all applicants are similar."
+
+- question: "In an interrupted time-series design, a group's own pre-intervention trend serves as the control condition."
+  type: true-false
+  answer: true
+  explanation: "This is the defining feature of the interrupted time-series design and the source of its strength. Rather than comparing a treated group to a separate (potentially non-equivalent) control group, the design tracks the same group's trajectory over many time points before the intervention and asks: did something change at the intervention point beyond what the pre-existing trend would predict? The group's own history is the counterfactual. This is why the design is more informative than a simple pre-post comparison with no control."
+
+- question: "Quasi-experimental designs cannot contribute meaningfully to causal inference — only true randomized experiments can establish causation."
+  type: true-false
+  answer: false
+  explanation: "This is the most damaging misconception about quasi-experimental methods. Well-designed quasi-experiments — particularly regression discontinuity and interrupted time-series designs — can provide highly credible causal evidence. Many of the most important causal questions (effects of policies, early childhood poverty, educational interventions) cannot be studied with randomized experiments for ethical or practical reasons. Quasi-experiments are not a concession to weak science; they are a principled toolkit for extracting causal signal when randomization is impossible. The quality of inference depends on the plausibility of the design argument, not on whether randomization occurred."
+
+- question: "Why is matching participants on observable characteristics not equivalent to random assignment, even when matching is done carefully on many variables?"
+  type: short-answer
+  answer: "Matching controls only variables that were measured and selected for matching. Random assignment equates groups on all confounds simultaneously — including variables the researcher never thought to measure or cannot measure. Matched groups can still differ systematically on unmeasured characteristics correlated with both group membership and the outcome, which is the definition of selection bias. Since researchers can only match on what they observe, unobserved confounds remain as threats to causal inference. Random assignment solves this problem by making group membership probabilistically independent of all background characteristics, observed or not."
+  explanation: "This distinction is the central reason quasi-experiments have lower internal validity than true experiments. The residual threat from unobserved confounds is why quasi-experimental studies typically require stronger design logic, empirical checks (e.g., parallel pre-trends), and theoretical arguments to be convincing about causal claims. The insight that 'matching controls only what you measure' is the key to understanding the limits of quasi-experimental inference."
+```
+
 ## Explainer
 
 From your study of true experimental designs, you know that random assignment is the gold standard for causal inference — it equates groups on all confounds, known and unknown, before the treatment begins. But many of the most important causal questions in psychology cannot be answered with randomized experiments. You cannot randomly assign people to poverty, to childhood trauma, to being a member of a stigmatized group, or to receiving a mandatory policy intervention. **Quasi-experimental designs** are the toolkit researchers use when randomization is impossible, impractical, or unethical — not as a concession to poor science, but as a deliberate strategy for extracting causal signal from non-random data.

@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Forgetting results from two main mechanisms: interference (competing memories disrupt retrieval) and decay (memories fade with time). Proactive interference occurs when prior learning interferes with new learning, while retroactive interference occurs when new learning interferes with retrieving old memories. Ebbinghaus's forgetting curve demonstrates systematic forgetting patterns.
 
+## Questions
+
+```yaml
+- question: "After years of using the same phone number, a person gets a new one and soon struggles to recall the old number. Which explanation best fits interference theory?"
+  type: multiple-choice
+  options:
+    - "The old memory decayed from disuse after the number was abandoned"
+    - "The new phone number competes with the old one as a retrieval cue, making the old number less accessible"
+    - "The old number was never deeply encoded to begin with"
+    - "Recognition of the old number would also fail because the memory is gone"
+  answer: 1
+  explanation: "Interference theory attributes forgetting to cue competition, not storage erasure. The cue 'my phone number' once uniquely retrieved the old number; now it competes with the new number, degrading retrieval. Crucially, the old memory is likely still stored — a recognition test (seeing both numbers) would probably succeed, confirming it's an access failure. Decay theory (option A) would predict fading over time, but that can't explain why the old number is harder to recall precisely after learning the new one."
+
+- question: "Participants who sleep immediately after learning a word list remember significantly more than those who stay awake for the same number of hours. What does this finding most directly challenge?"
+  type: multiple-choice
+  options:
+    - "The encoding specificity principle"
+    - "Pure decay theory as an account of forgetting"
+    - "The spacing effect in memory consolidation"
+    - "Proactive interference from prior learning"
+  answer: 1
+  explanation: "Pure decay theory predicts that memory fades with time regardless of what fills that time. But both groups experienced the same elapsed time — only the content differed (sleep vs. wakeful experience). The superior retention of the sleep group implicates accumulated interference from waking experiences as the culprit, not time itself. This is the key evidence that what looks like decay may often be interference in disguise."
+
+- question: "Most forgetting represents a failure to access memories that are still stored, rather than permanent erasure of those memories."
+  type: true-false
+  answer: true
+  explanation: "This is the central claim of interference theory. The cue overload principle explains why: retrieval cues that once uniquely identified a memory become degraded when many competing memories share the same cue. The memory persists in storage but becomes inaccessible. The best evidence is that recognition typically recovers memories that free recall fails to retrieve — the original item acts as a specific cue that bypasses competition and restores access."
+
+- question: "Proactive interference occurs when newly learned material disrupts memory for information learned earlier."
+  type: true-false
+  answer: false
+  explanation: "This describes retroactive interference (RI) — new learning interfering backward with old memories. Proactive interference (PI) runs in the opposite direction: old learning interferes forward with the retention of new material. A classic example: learning a new language is harder because vocabulary from a previously learned language proactively interferes with the new one. The directionality is the key distinction — PI = old disrupts new; RI = new disrupts old."
+
+- question: "Why does recognition memory typically outperform free recall for the same information, and what does this tell us about the nature of forgetting?"
+  type: short-answer
+  answer: "Recognition provides the original item as a retrieval cue, bypassing the cue overload problem that plagues free recall. In free recall, an overloaded cue must discriminate among many competing memories; in recognition, seeing the item itself is a maximally specific cue that can recover access even when free recall fails entirely."
+  explanation: "This asymmetry is diagnostic: if forgetting were storage loss, recognition would fail too. The fact that recognition succeeds when recall fails reveals that the information is still encoded — the problem is retrieval, not storage. This is why interference theory (which locates forgetting in cue competition) is more supported than decay theory (which implies actual erasure). It also explains the spacing effect: distributed practice forces repeated effortful retrieval, each successful recovery strengthening resistance to future cue competition."
+```
+
 ## Explainer
 
 From your study of memory consolidation, you understand that newly formed memories pass through a vulnerable period—synaptic consolidation over minutes to hours stabilizes the molecular changes at individual synapses, while systems consolidation over days to years gradually transfers memories to distributed cortical networks. From your study of retrieval cues and encoding specificity, you know that memories are context-sensitive: retrieval is most successful when conditions at recall match the conditions at encoding. Forgetting, viewed through this lens, is often not memories disappearing but memories failing to be retrieved because the right conditions aren't met.

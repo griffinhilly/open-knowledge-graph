@@ -39,6 +39,45 @@ After searing any protein, leave the fond in the pan and deglaze with a splash o
 - A roux should be made quickly — rushing a roux can burn the flour, producing a bitter taste; low-to-medium heat with constant stirring is essential.
 - Lumpy sauces are ruined — most lumps can be whisked out vigorously or strained through a sieve to recover a smooth texture.
 
+## Questions
+
+```yaml
+- question: "After searing a chicken breast and building a pan sauce, you taste it and it's perfect. You continue reducing it for another two minutes and now it's too salty. What caused this?"
+  type: multiple-choice
+  options:
+    - "The butter added at the end introduced excess salt from the dairy"
+    - "Reduction concentrates all dissolved compounds including salt, so a well-seasoned sauce will become over-seasoned if reduced further"
+    - "The fond released more salt as it continued to dissolve over time"
+    - "Reducing a sauce neutralizes its acid, which makes salt more perceptible"
+  answer: 1
+  explanation: "Reduction works by evaporating water — flavor compounds, sugars, proteins, and salt all remain in solution but become more concentrated as volume decreases. A sauce that is perfectly seasoned before further reduction will taste over-salted after, because the same amount of salt is now distributed in less liquid. This is why you taste continuously and anticipate where the sauce is heading, adjusting before it arrives."
+
+- question: "A chef wants to make a thick béchamel. She uses the same amount of roux but doubles the liquid compared to a thinner sauce recipe. What will result?"
+  type: multiple-choice
+  options:
+    - "Thicker — more liquid requires more starch to thicken it, increasing viscosity"
+    - "Thinner — the same amount of roux now has to thicken twice as much liquid"
+    - "The same — the roux-to-liquid ratio does not affect final thickness in a cooked sauce"
+    - "Lumpy — more liquid makes it impossible for the starch to hydrate evenly"
+  answer: 1
+  explanation: "The roux-to-liquid ratio determines final thickness because starch can only absorb so much liquid. A fixed amount of roux thickening twice the liquid will produce a thinner sauce — the starch is spread too thin to create the same viscosity. To achieve the original thick consistency with doubled liquid, you would need doubled roux."
+
+- question: "An emulsion achieves its thick, silky texture by driving off water through prolonged simmering, similar to a reduction."
+  type: true-false
+  answer: false
+  explanation: "An emulsion achieves its texture through a completely different mechanism: mechanical energy that suspends tiny fat droplets in a liquid base, held apart by emulsifiers (like egg yolk lecithin). No evaporation or heat reduction is required — in fact, emulsions like hollandaise are fragile and break under excess heat. Confusing emulsification with reduction is a fundamental conceptual error: they are separate techniques with opposite relationships to heat."
+
+- question: "A pan sauce requires special ingredients beyond what is left in the pan after cooking a protein."
+  type: true-false
+  answer: false
+  explanation: "The fond (browned bits stuck to the pan) plus a deglazing liquid (wine, stock, or even water) and a finishing fat are the only requirements. The fond concentrates all the flavor from searing; the liquid dissolves and lifts it; a quick reduction and butter finish create a sauce with restaurant-quality depth. No rare ingredients are needed — everything is already in the pan, and the whole process takes under five minutes."
+
+- question: "Why does whisking cold butter into a pan sauce off the heat — rather than adding it while the sauce is still boiling — produce a better result?"
+  type: short-answer
+  answer: "Adding cold butter off the heat creates a temporary emulsion: the butter melts slowly and its milk solids act as emulsifiers, suspending the butterfat in the liquid to create a glossy, rich, slightly thickened sauce. If you add butter to a boiling sauce, the emulsion breaks — the heat is too high for the fat droplets to remain suspended, and the butter separates into greasy puddles on the surface. The technique of finishing 'off the heat' exploits the temperature sensitivity of emulsions."
+  explanation: "This illustrates why emulsions are temperature-sensitive: the mechanical suspension of fat in liquid depends on keeping temperature within a range where emulsifiers can function. Excess heat disrupts the structure and causes the sauce to 'break' — a common error with hollandaise and butter-finished pan sauces."
+```
+
 ## Explainer
 
 You already know how to sear and sauté — applying dry heat to build a browned crust on proteins and vegetables. **Sauces** are the extension of that technique: they capture and concentrate the flavors that would otherwise stay behind in the pan, then deliver them as a coating or companion to the food on the plate. A great sauce does not just add flavor on top; it integrates the dish. The three fundamental techniques divide by how they achieve thickness and texture.

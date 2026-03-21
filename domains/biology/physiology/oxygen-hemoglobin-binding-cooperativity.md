@@ -30,6 +30,45 @@ status: draft
 ## Core Idea
 Hemoglobin's oxygen binding exhibits positive cooperativity: binding of one oxygen molecule to a subunit increases the affinity of remaining subunits for oxygen, producing the characteristic sigmoid (S-shaped) oxygen dissociation curve rather than a hyperbolic relationship. This cooperativity ensures efficient oxygen loading in the pulmonary capillaries (where PO2 is high, steep portion of curve) and efficient unloading in tissue capillaries (where PO2 is lower, steep portion of curve). The dissociation curve is rightward-shifted (decreased affinity, enhanced unloading) by decreases in pH, increases in PCO2, increases in temperature, and increases in 2,3-diphosphoglycerate—all conditions present in metabolically active tissue.
 
+## Questions
+
+```yaml
+- question: "Myoglobin binds oxygen with a hyperbolic dissociation curve (P50 ≈ 5 mmHg). Hemoglobin has a sigmoid curve (P50 ≈ 26 mmHg). At typical resting tissue PO₂ of 40 mmHg, which molecule releases more oxygen, and why?"
+  type: multiple-choice
+  options:
+    - "Myoglobin, because its lower P50 means it has already released most of its oxygen by 40 mmHg"
+    - "Hemoglobin, because the steep portion of its sigmoid curve falls right in the tissue PO₂ range, so a small PO₂ drop releases a large amount of oxygen"
+    - "Both release the same total oxygen; the curve shape only affects the rate, not the total"
+    - "Myoglobin, because its lack of cooperative subunits makes it a more efficient oxygen carrier"
+  answer: 1
+  explanation: "At 40 mmHg, myoglobin (P50 ≈ 5 mmHg) is still approximately 90% saturated — it clings to oxygen and releases it only at very low PO₂ (≈ 1–5 mmHg), which is why myoglobin serves as an intracellular oxygen reservoir, not a systemic transport molecule. Hemoglobin's sigmoid curve has its steep descent centered around 26 mmHg (P50), so at 40 mmHg it is already in the steep region and will release substantial oxygen as PO₂ falls further. This is the physiological advantage of cooperativity: creating a loading plateau at high PO₂ (lungs) and a steep unloading region at intermediate PO₂ (tissues)."
+
+- question: "A patient develops lactic acidosis during intense exercise — blood pH drops from 7.4 to 7.2. How does this change oxygen delivery to working muscles?"
+  type: multiple-choice
+  options:
+    - "The pH drop shifts the oxygen dissociation curve leftward, increasing hemoglobin's affinity and loading more oxygen"
+    - "pH changes are buffered by bicarbonate and have no net effect on hemoglobin-oxygen binding"
+    - "The pH drop shifts the curve rightward (Bohr effect), reducing hemoglobin affinity and releasing more oxygen to the metabolically active tissue"
+    - "Acidosis causes hemoglobin to carry more CO₂, displacing oxygen and reducing transport capacity"
+  answer: 2
+  explanation: "This is the Bohr effect: decreased pH stabilizes the T (tense, low-affinity) state of hemoglobin, shifting the oxygen dissociation curve rightward — lower saturation at any given PO₂, meaning more oxygen is released. The key insight is that the tissues producing the strongest oxygen demand (high CO₂, low pH, elevated temperature) also generate the strongest unloading signals. Option A describes a leftward shift (higher affinity), which would be the wrong direction. Option D confuses the Haldane effect (deoxygenated hemoglobin carries more CO₂) with the Bohr effect."
+
+- question: "The sigmoid shape of hemoglobin's oxygen dissociation curve is more physiologically useful than a hyperbolic curve would be, because it creates a large saturation difference between pulmonary and tissue PO₂ values."
+  type: true-false
+  answer: true
+  explanation: "The cooperative sigmoid positions the upper plateau (~98% saturation) over the pulmonary PO₂ range (~100 mmHg), ensuring efficient oxygen loading. The steep descent falls through the tissue PO₂ range (20–50 mmHg), ensuring efficient unloading. A hyperbolic curve (like myoglobin's) either saturates quickly and won't release oxygen at physiological tissue PO₂, or has such a high P50 that it is poorly loaded in the lungs. The sigmoid shape is uniquely suited to perform well at both ends simultaneously — the physiological miracle of hemoglobin cooperativity."
+
+- question: "The T (tense) state of hemoglobin has higher oxygen affinity than the R (relaxed) state, which is why deoxyhemoglobin releases oxygen more readily than oxyhemoglobin."
+  type: true-false
+  answer: false
+  explanation: "This has the conformational states backward. The T (tense) state has *lower* oxygen affinity — it is held in a constrained conformation by salt bridges and hydrogen bonds that resist oxygen binding. The R (relaxed) state has *higher* oxygen affinity. Deoxyhemoglobin occupies the T state; when the first O₂ binds and destabilizes the T state, the molecule shifts toward R, making subsequent binding progressively easier. Cooperativity is the progressive T→R transition, not R→T."
+
+- question: "Explain why the Bohr effect — rightward shift of the oxygen dissociation curve in low-pH environments — is physiologically self-regulating without any central controller."
+  type: short-answer
+  answer: "Metabolically active tissues produce CO₂ and lactic acid, lowering local pH and raising local PCO₂ and temperature. All of these simultaneously shift the oxygen dissociation curve rightward, reducing hemoglobin affinity and promoting oxygen unloading exactly where oxygen consumption is highest. When blood returns to the lungs, CO₂ is exhaled, pH rises, and the curve shifts back leftward toward the R state, facilitating oxygen reloading. The system is self-adjusting: tissues that consume the most oxygen generate the strongest unloading signal, and the lungs generate the strongest loading signal. No hormonal or neural coordination is required for this matching of oxygen delivery to metabolic demand."
+  explanation: "The elegance is thermodynamic: the chemical byproducts of aerobic metabolism are themselves the allosteric effectors that tune hemoglobin affinity. This closed-loop coupling is why 2,3-DPG (which accumulates in red blood cells during chronic hypoxia) and temperature also produce rightward shifts — all are proxies for metabolic demand."
+```
+
 ## Explainer
 
 From your study of protein quaternary structure, you know that hemoglobin is a tetramer — four subunits (two α, two β), each carrying one heme group with an iron atom that can bind one oxygen molecule. A simple prediction might be that each subunit binds oxygen independently, like four separate myoglobin molecules. If that were true, the oxygen dissociation curve would be a simple hyperbola: saturation would rise steeply at low PO₂ and then flatten, with half-saturation occurring at a single fixed PO₂. Instead, hemoglobin produces a **sigmoid (S-shaped) curve**, and the reason is **positive cooperativity** — a conformational communication between subunits that makes each successive oxygen molecule easier to bind than the last.

@@ -31,6 +31,45 @@ Observe spectral line profiles in stellar spectra showing P Cygni absorption/emi
 ## Common Misconceptions
 Stellar winds are NOT the same as stellar atmospheres; winds imply a continuous outflow at supersonic speeds, not hydrostatic equilibrium. The Sun has a wind despite low mass loss rate, while red giants can lose their entire envelopes in ~10,000 years.
 
+## Questions
+
+```yaml
+- question: "A stellar spectrum shows a spectral line with a blueshifted absorption trough and a redshifted emission peak at the same wavelength. What does this P Cygni profile indicate?"
+  type: multiple-choice
+  options:
+    - "The star is in a binary system, and the companion is moving toward and away from us"
+    - "The star has a hot chromosphere absorbing certain wavelengths and re-emitting them"
+    - "The star has an expanding wind: wind material moving toward us absorbs (blue), while material moving away or sideways emits (red)"
+    - "The star is rotating rapidly, Doppler-shifting different hemispheres"
+  answer: 2
+  explanation: "A P Cygni profile is the direct spectroscopic signature of an expanding stellar wind. Gas moving toward the observer along the line of sight absorbs photons from the stellar continuum, producing a blueshifted absorption trough. Gas in the wind expanding sideways and away from the observer emits photons that reach us at the rest or redshifted wavelength, producing an emission peak. The asymmetric combination — absorption on the blue side, emission on the red side — uniquely identifies an outflowing wind and allows measurement of the wind speed from the blueshift extent."
+
+- question: "Which statement correctly describes the primary mass-loss mechanism for AGB (asymptotic giant branch) stars compared to hot OB stars?"
+  type: multiple-choice
+  options:
+    - "AGB stars lose mass through radiation pressure on spectral line transitions, just like OB stars but at lower rates"
+    - "AGB stars lose mass through dust-driven winds: pulsations lift material to distances where dust condenses, and radiation pressure on dust then drags gas outward"
+    - "AGB stars lose mass exclusively through magnetic reconnection events similar to solar flares"
+    - "AGB stars lose mass because their cores contract so rapidly that the envelope is mechanically ejected"
+  answer: 1
+  explanation: "Hot OB and Wolf-Rayet stars drive winds through photon momentum transfer to ions in spectral line absorption — a radiation-pressure-on-lines mechanism requiring high luminosity and high surface temperature. AGB stars are cool enough that this mechanism is inefficient. Instead, pulsations and convection lift material to large distances where temperatures drop sufficiently for dust grains to condense. Radiation pressure on the larger cross-section of dust grains accelerates them outward, dragging gas along. These dust-driven winds are slower (10–30 km/s vs. 1,000–3,000 km/s for OB winds) but can be extraordinarily dense, capable of removing an AGB star's entire hydrogen envelope."
+
+- question: "Stellar winds in red giants move faster than winds in Wolf-Rayet stars because red giants have much larger surface areas."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true. Wolf-Rayet stars drive radiatively accelerated winds to 1,000–3,000 km/s. Red giant and AGB winds are dust-driven and are comparatively sluggish at 10–30 km/s. However, AGB winds are far denser — they carry vastly more mass per unit time than hot-star winds. Wolf-Rayet winds are fast but relatively low-density; AGB winds are slow but massive. The mass-loss rate (solar masses per year) is what drives evolutionary consequences, not wind speed alone."
+
+- question: "A star that begins its life with 8 solar masses could theoretically end its life as a white dwarf rather than a core-collapse supernova, depending on how much mass it loses during its evolution."
+  type: true-false
+  answer: true
+  explanation: "Whether a star ends as a white dwarf or a supernova depends on the mass of its remnant core, not its initial mass. The Chandrasekhar limit (~1.4 solar masses) is the maximum mass for a white dwarf. A star born at 8 solar masses can lose several solar masses of its envelope through AGB winds and interactions. If the total mass loss brings the remnant core below ~1.4 solar masses before the core collapses, the star can die as a white dwarf rather than exploding. This is why mass loss is not a minor detail — it is decisive in determining a star's fate."
+
+- question: "Why does stellar mass loss matter for stellar evolution beyond simply reducing a star's total mass — what are the broader consequences?"
+  type: short-answer
+  answer: "Mass loss alters a star's evolutionary trajectory, final fate, and its impact on the surrounding interstellar medium. By shedding mass, a star can change category: an initially massive star that sheds enough to fall below the Chandrasekhar limit dies as a white dwarf rather than a supernova. In binary systems, mass transferred to a companion can spin up neutron stars into millisecond pulsars or trigger thermonuclear detonations on white dwarfs (Type Ia supernovae). AGB mass loss creates planetary nebulae — beautiful shells of expelled gas — and enriches the interstellar medium with carbon, oxygen, and other elements synthesized in the stellar interior. Even the Sun's modest wind shapes the heliosphere, deflects cosmic rays, and gradually erodes planetary atmospheres. Mass loss thus connects individual stellar life cycles to galactic chemical evolution and the conditions for life on planets."
+  explanation: "The key insight is that stars are not closed systems — they continuously exchange material with their environment. Mass loss is the mechanism by which stars contribute to the chemical enrichment of galaxies, making it central not just to stellar physics but to cosmological evolution."
+```
+
 ## Explainer
 
 From your study of stellar properties and evolution, you know that a star's mass is the single most important factor determining its luminosity, temperature, lifetime, and ultimate fate. What may be less intuitive is that stars do not keep all that mass — they shed it continuously throughout their lives, and the rate at which they lose mass can fundamentally alter their evolutionary trajectory. **Stellar winds** are the mechanism: continuous outflows of gas from a star's surface into space, driven by different physical processes depending on the star's type and evolutionary stage.

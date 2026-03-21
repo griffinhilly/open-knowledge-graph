@@ -34,6 +34,45 @@ Emphasize the path-dependence issue with a concrete example, such as f(x,y) = xy
 - Showing the limit along y=mx is 0 for all slopes m does not prove the limit is 0 — it might still fail along y=x².
 - A function can be discontinuous at a point even if it is defined there.
 
+## Questions
+
+```yaml
+- question: "You check that lim_{(x,y)→(0,0)} f(x,y) = 0 along every straight-line path y = mx. What can you conclude?"
+  type: multiple-choice
+  options:
+    - "The limit is 0 — checking all linear paths is sufficient to prove a multivariable limit"
+    - "Nothing definitive about the limit — you still need to check curved paths or use a general argument"
+    - "The limit does not exist — you must also check the path x = 0 separately"
+    - "The function is continuous at (0,0) — straight-line limits matching implies continuity"
+  answer: 1
+  explanation: "This is the central trap in multivariable limits. Verifying the limit along all lines y = mx (including the special cases x = 0 and y = 0) is NOT sufficient to prove the limit exists. A classic counterexample is f(x,y) = x²y/(x⁴+y²): the limit along every line y = mx is 0, but along y = x², f(x,x²) = x²·x²/(x⁴+x⁴) = 1/2. So the limit is 0 on all lines but 1/2 on a parabola — the limit does not exist. Only a general argument (squeeze theorem or epsilon-delta) can prove existence."
+
+- question: "For f(x,y) = xy/(x²+y²), you evaluate the limit along y=0 (getting 0) and along y=x (getting 1/2). What is the correct conclusion?"
+  type: multiple-choice
+  options:
+    - "The limit is 1/4, the average of the two path limits"
+    - "The limit does not exist, because two paths give different values"
+    - "More paths must be checked before concluding anything"
+    - "The limit is 0 because most paths give 0"
+  answer: 1
+  explanation: "If two different paths of approach to a point give different limiting values, the limit does not exist — period. The limit requires every path to give the same value L. Finding even one pair of paths with different limits is a complete proof of non-existence. No averaging, no majority vote — the two-path test is definitive for showing non-existence. This is the go-to strategy: find a path giving one value, find another giving a different value, done."
+
+- question: "To prove that a multivariable limit exists and equals L, it is sufficient to verify that f(x,y) → L along every straight line through (a,b)."
+  type: true-false
+  answer: false
+  explanation: "Straight-line paths are only a small subset of the infinitely many paths approaching (a,b). As the counterexample f(x,y) = x²y/(x⁴+y²) shows, a function can equal 0 on every line through the origin yet equal 1/2 along the parabola y=x². Existence requires the function to converge to L along every path simultaneously — curves, spirals, and all. Only general arguments like the squeeze theorem or epsilon-delta proofs can establish this."
+
+- question: "Finding two paths of approach to a point that give different limit values is sufficient to prove the limit does not exist."
+  type: true-false
+  answer: true
+  explanation: "By definition, a limit exists only if the function approaches the same value along every path. If even one pair of paths gives different values, the function is approaching different numbers depending on direction — so a single limiting value cannot exist. The two-path test is a complete proof of non-existence, not just evidence. It is the most practical non-existence strategy because it only requires computing two specific limits."
+
+- question: "Why can't you prove a multivariable limit exists by checking finitely many paths, even if you check infinitely many straight lines?"
+  type: short-answer
+  answer: "A limit at (a,b) requires convergence to the same value along every possible path — including curves like y=x², y=x³, spirals, and paths that approach (a,b) in any manner. Straight lines form only a one-parameter family; there are infinitely many curved paths not covered by them. A function can be engineered to equal 0 on all lines yet equal 1/2 on a specific parabola. Proving existence requires a general bound on |f(x,y) - L| that holds simultaneously for all approach directions, typically achieved with the squeeze theorem or an epsilon-delta argument using r = √(x²+y²)."
+  explanation: "The intuition from single-variable calculus — where left and right limits suffice — breaks down in higher dimensions because the 'directions' are no longer just two. The space of paths to a point in ℝ² is genuinely infinite-dimensional, and any finite or parametric family of special paths leaves infinitely many others unchecked."
+```
+
 ## Explainer
 
 In single-variable calculus, you defined lim_{x→a} f(x) = L by demanding that f(x) get arbitrarily close to L as x approaches a. The catch was simple: x can only approach a from the left or the right, so checking two directions was enough to confirm or refute a limit. In two variables, a point (a, b) in the plane is surrounded by infinitely many paths of approach — straight lines at every angle, parabolas, spirals, and more. A **multivariable limit** requires the function to converge to the same value L along every single one of these paths simultaneously.

@@ -28,6 +28,45 @@ status: draft
 ## Core Idea
 Helmholtz (F) and Gibbs (G) free energies are natural thermodynamic potentials for the canonical and constant-pressure ensembles. They connect statistical mechanics to measurable thermodynamic quantities through Maxwell relations and are minimized at equilibrium, making them central to understanding phase transitions and stability.
 
+## Questions
+
+```yaml
+- question: "A chemical reaction releases heat (ΔE < 0) but decreases the entropy of the system (ΔS < 0). At very high temperatures, what happens to the spontaneity of this reaction?"
+  type: multiple-choice
+  options:
+    - "It becomes more spontaneous — releasing heat always drives a process forward"
+    - "Temperature is irrelevant — only ΔE determines spontaneity"
+    - "It becomes disfavored — the −TΔS term grows with temperature and, since ΔS < 0, it adds a large positive contribution to ΔF that overwhelms the negative ΔE"
+    - "It remains spontaneous at all temperatures since both ΔE and ΔS have the same sign"
+  answer: 2
+  explanation: "The Helmholtz free energy change is ΔF = ΔE − TΔS. When ΔS < 0, the term −TΔS is positive. At low T this contribution is small, so ΔE < 0 dominates and the reaction is favored. At high T, −TΔS grows large and can overwhelm ΔE, making ΔF > 0 — the reaction becomes disfavored. This is why temperature determines which tendency wins: at low T, energy wins; at high T, entropy wins. Free energy is the correct quantity for spontaneity, not energy alone."
+
+- question: "Once the Helmholtz free energy F is known as a function of T and V, what range of thermodynamic properties can be derived from it?"
+  type: multiple-choice
+  options:
+    - "Only average energy — no other equilibrium quantities follow from F alone"
+    - "Only entropy and pressure — energy requires a separate calculation"
+    - "Virtually all equilibrium thermodynamic properties: entropy, pressure, average energy, heat capacity, and Maxwell relations connecting otherwise inaccessible derivatives"
+    - "F gives information about kinetic rates but not equilibrium properties"
+  answer: 2
+  explanation: "F = −kBT ln Z is the bridge between the microscopic partition function and macroscopic thermodynamics. From F(T, V) you can derive: entropy S = −(∂F/∂T)_V, pressure P = −(∂F/∂V)_T, average energy ⟨E⟩ = F + TS, heat capacity C_V = −T(∂²F/∂T²)_V, and Maxwell relations such as (∂S/∂V)_T = (∂P/∂T)_V. One equation — F = −kBT ln Z — unlocks essentially the entire equilibrium thermodynamic description of the system."
+
+- question: "A system at constant temperature and volume spontaneously evolves toward minimizing its internal energy, not its free energy."
+  type: true-false
+  answer: false
+  explanation: "At constant T and V, a system minimizes the Helmholtz free energy F = E − TS, not internal energy E alone. An entropy-increasing process (ΔS > 0) can be spontaneous even if it costs energy, because the −TΔS contribution to ΔF can be negative enough to make ΔF < 0 overall. Energy minimization governs only an isolated system at absolute zero, where entropy plays no role. At any finite temperature, entropy competes with energy, and free energy is the correct criterion for equilibrium."
+
+- question: "At the melting point of ice (0°C and 1 atm), the Gibbs free energies of the solid and liquid phases are equal."
+  type: true-false
+  answer: true
+  explanation: "Phase coexistence occurs when both phases have equal Gibbs free energy per particle (equal chemical potential μ). At 0°C and 1 atm, ice and liquid water coexist in thermodynamic equilibrium — meaning G_solid = G_liquid exactly. Below 0°C, G_solid < G_liquid and ice is stable; above 0°C, G_liquid < G_solid and liquid is stable. The melting point is precisely the temperature where these free energies cross, reflecting the competition between the energy cost of melting and the entropy gain of the liquid phase."
+
+- question: "Why does ice melt above 0°C even though melting requires absorbing energy from the surroundings? Explain using free energy."
+  type: short-answer
+  answer: "Melting costs energy (latent heat is positive, ΔH > 0), but liquid water has much higher entropy than ice — molecules are disordered and mobile rather than locked in a crystal lattice. The Gibbs free energy change is ΔG = ΔH − TΔS. At temperatures above 0°C, TΔS is large enough to outweigh ΔH, making ΔG < 0 and melting spontaneous. Below 0°C, TΔS is insufficient, ΔG > 0, and the ordered crystal phase is stable."
+  explanation: "Free energy is the competition between energy and entropy, with temperature as the weighting factor. At low T, energy wins and the crystal is stable. At high T, entropy wins and the disordered liquid is stable. The crossover — the melting point — is exactly where ΔG = 0: the energetic cost of disrupting the crystal is precisely offset by the entropic gain of disordering the molecules. This is why ice and water coexist in equilibrium only at 0°C and not above or below it."
+```
+
 ## Explainer
 
 From the canonical partition function Z = Σ exp(−βEᵢ), you can compute the average energy ⟨E⟩ = −∂ ln Z/∂β and entropy S = kB ln Z + ⟨E⟩/T. The **Helmholtz free energy** F = ⟨E⟩ − TS is simply the combination that emerges from this: F = −kBT ln Z. This single equation is the bridge between statistical mechanics and thermodynamics — once you have Z, you have F, and from F you can derive essentially every equilibrium thermodynamic property.

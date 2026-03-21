@@ -28,6 +28,45 @@ Construct angle bisectors with compass and straightedge. Verify equidistance fro
 - Measuring distance from a point to a side incorrectly (distance must be perpendicular).
 - Thinking the incenter can be outside the triangle (it is always inside for any triangle).
 
+## Questions
+
+```yaml
+- question: "Point P lies on the angle bisector of ∠ABC. Which statement about P must be true?"
+  type: multiple-choice
+  options:
+    - "P is equidistant from vertices A and C"
+    - "P is equidistant from rays BA and BC, measured perpendicularly"
+    - "P lies on the perpendicular bisector of segment AC"
+    - "P is the midpoint of the arc connecting A and C"
+  answer: 1
+  explanation: "The Angle Bisector Theorem states that a point on the bisector is equidistant from the two *sides* (rays) of the angle, where distance is measured perpendicularly. Options A and C describe properties of the perpendicular bisector, not the angle bisector — a very common confusion. The critical distinction is that 'distance to a side' means the perpendicular distance from the point to the line containing that ray."
+
+- question: "In which of the following situations does the incenter of a triangle fall outside the triangle?"
+  type: multiple-choice
+  options:
+    - "When the triangle is obtuse"
+    - "When the triangle is a right triangle"
+    - "When the triangle is very scalene (all sides different lengths)"
+    - "The incenter always lies inside the triangle — none of the above"
+  answer: 3
+  explanation: "The incenter always lies inside the triangle, regardless of triangle type. This distinguishes it from the circumcenter, which falls outside obtuse triangles. Because the incenter is equidistant from all three sides and is the center of the inscribed circle — which must fit inside the triangle — it is necessarily interior. Students who confuse incenter with circumcenter often incorrectly apply the 'can fall outside' rule to the wrong center."
+
+- question: "Every point equidistant from the two sides of an angle lies on the angle bisector of that angle."
+  type: true-false
+  answer: true
+  explanation: "This is the converse of the Angle Bisector Theorem, and it holds. The theorem says points on the bisector are equidistant from the sides; the converse says equidistant points must lie on the bisector. Together, they mean the angle bisector is precisely the locus of all points equidistant from the two sides — a clean, bidirectional characterization."
+
+- question: "The incenter of an obtuse triangle lies outside the triangle, near the obtuse vertex."
+  type: true-false
+  answer: false
+  explanation: "The incenter always lies inside the triangle for any triangle type. The confusion arises from the circumcenter, which does fall outside obtuse triangles. Since the incenter is defined by the inscribed circle (which fits inside the triangle by definition), it cannot be exterior. Every angle bisector of a triangle points inward, so their intersection must be interior."
+
+- question: "Why must the distance from a point to a side of an angle be measured perpendicularly, rather than as the distance to the vertex?"
+  type: short-answer
+  answer: "Distance from a point to a line is defined as the length of the perpendicular segment from the point to the line — this is the shortest possible distance to any point on that line, and it is unique. Measuring to the vertex instead would vary depending on where along the bisector you stand, destroying the equidistance property. The perpendicular definition is what allows the proof to work: dropping perpendiculars from a point on the bisector to each side creates two congruent right triangles (by AAS), establishing equal perpendicular distances."
+  explanation: "The perpendicular definition is standard because it gives each line a unique 'nearest point.' The proof of the Angle Bisector Theorem relies on this: the perpendicular drops create right angles needed for triangle congruence. Using any other distance measure would break the theorem entirely."
+```
+
 ## Explainer
 
 You already know how to classify and measure angles, and how to measure the distance between two points. An **angle bisector** adds a new construction: a ray that slices an angle exactly in half, creating two congruent angles. If angle ABC measures 80°, the bisector of angle ABC is a ray from B that makes two 40° angles with BA and BC. Constructing one with a compass and straightedge — the classical method — involves drawing arcs that locate the points equidistant from both sides, then connecting them to the vertex.

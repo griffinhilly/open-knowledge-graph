@@ -29,6 +29,45 @@ Analyze tragic drama and Wagnerian opera through this lens. Compare Apollonian v
 ## Common Misconceptions
 Dionysian does not mean 'chaotic and bad'; it is a necessary creative force. Nietzsche does not advocate pure Dionysian excess but rather the productive tension between both principles.
 
+## Questions
+
+```yaml
+- question: "A student reads *The Birth of Tragedy* and concludes that Nietzsche advocates replacing rational, Apollonian culture with pure Dionysian ecstasy. Why is this reading mistaken?"
+  type: multiple-choice
+  options:
+    - "Nietzsche actually concludes that Apollonian order is superior and should prevail over the chaos of Dionysian energy"
+    - "Nietzsche argues that great art requires the productive tension between both principles — pure Dionysian excess produces formless chaos, not redemptive art"
+    - "The Dionysian principle applies only to ancient Greece and has no prescriptive implications for modern culture"
+    - "Nietzsche believes that suffering and instinct should be eliminated through scientific reason, not aesthetically celebrated"
+  answer: 1
+  explanation: "The most common misreading of Nietzsche is treating Dionysian as simply 'good' and Apollonian as simply 'bad,' or vice versa. Nietzsche's actual claim is that both are necessary creative forces, and that great art (Attic tragedy) is great precisely because it achieves their synthesis. Pure Dionysian energy without Apollonian form collapses into formless chaos; pure Apollonian form without Dionysian vitality becomes lifeless decoration. Nietzsche's diagnosis of modernity's failure is its excess of Apollo — but the cure he envisions is synthesis, not reversal."
+
+- question: "A music critic argues that a precisely notated orchestral symphony is purely Apollonian because it is rehearsed, controlled, and follows a written score. Using Nietzsche's framework, what is the most important objection to this view?"
+  type: multiple-choice
+  options:
+    - "Orchestral music involves individual virtuosity, which is inherently Dionysian regardless of the score"
+    - "Music for Nietzsche is paradigmatically the Dionysian art form — it expresses the primal will directly and can dissolve individual boundaries even when technically controlled"
+    - "Any written notation makes a work Apollonian, so the critic is correct"
+    - "Nietzsche agreed that all Western music after ancient tragedy became overly Apollonian"
+  answer: 1
+  explanation: "For Nietzsche, music occupies a special place as the paradigmatically Dionysian art because it does not represent individual objects or scenes — it expresses primal will itself. A symphony can embody Dionysian power even when performed under controlled conditions, because the experience of music dissolves the listener's sense of individual boundaries. The technical apparatus (score, rehearsal) may be Apollonian in origin, but this does not change the fundamental nature of the musical experience."
+
+- question: "In Nietzsche's analysis, Greek tragedy was great precisely because it stripped away Dionysian elements and presented heroic suffering through pure Apollonian dramatic form."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true. Nietzsche argues that Greek tragedy was great because it SYNTHESIZED both principles. The tragic chorus — singing and dancing in collective frenzy — expressed Dionysian dissolution, while the structured narrative and individual hero gave this energy Apollonian form. Attic tragedy after Euripides, Nietzsche argues, declined because it became too rational and Apollonian, losing the Dionysian energy that gave the form its power."
+
+- question: "The Dionysian principle, as Nietzsche describes it, involves both the terror of losing individual selfhood and a sense of liberation from isolated existence — making it simultaneously frightening and exhilarating."
+  type: true-false
+  answer: true
+  explanation: "Yes — in Dionysian experience (intoxication, collective dance, overwhelming music), the comfortable boundaries of selfhood dissolve, which is simultaneously threatening (loss of control, confrontation with suffering and chaos) and liberating (escape from the prison of isolated individuality, merger with something larger). Nietzsche does not present the Dionysian as simply pleasurable or simply dangerous — its power comes precisely from this double edge."
+
+- question: "Why did Nietzsche argue that ancient Greek tragedy was culturally superior to the drama of his own era, and what does this reveal about his view of the relationship between suffering and artistic value?"
+  type: short-answer
+  answer: "Nietzsche argued that Greek tragedy was superior because it achieved a synthesis of Apollonian form and Dionysian energy that allowed audiences to confront and even affirm life's suffering. Modern drama, shaped by Socratic rationalism, had become over-Apollonian — too rational, optimistic, and explanatory to engage with the underlying chaos. For Nietzsche, the highest art does not deny or explain away suffering; it transforms it through aesthetic form into something affirmable. Art that avoids Dionysian truth produces mere entertainment, not genuine encounter with existence."
+  explanation: "This connects to Nietzsche's broader philosophical project in works beyond *Birth of Tragedy*: the affirmation of life including its suffering, rather than its negation. The Apollonian-Dionysian synthesis is, for him, the model of what it means to say 'yes' to existence in full awareness of its costs."
+```
+
 ## Explainer
 
 From your introduction to aesthetics and the philosophy of art, you understand that different thinkers have proposed different accounts of what makes art valuable and how artistic creation works. Nietzsche's contribution, developed primarily in *The Birth of Tragedy* (1872), is among the most influential and dramatic. Rather than analyzing art through categories like beauty, taste, or judgment, Nietzsche grounds aesthetic experience in two opposing psychological and cosmic forces that he names after Greek gods: **Apollo** and **Dionysus**.

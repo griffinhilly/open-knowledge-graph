@@ -32,6 +32,45 @@ Compare legal systems with and without rule of law. Examine how separation of po
 - Rule of law does not require democratic government; authoritarian regimes can have rule of law (though often they don't).
 - Rule of law concerns governance form, not law content; unjust laws can exist under rule of law.
 
+## Questions
+
+```yaml
+- question: "A government passes a law granting the president personal authority to detain anyone deemed a 'security threat,' with no defined criteria, no required evidence, and no judicial review. Is this consistent with rule of law?"
+  type: multiple-choice
+  options:
+    - "Yes, because a formal law authorizes the detention"
+    - "No, because rule of law requires that power be constrained by general, pre-established rules — not delegated as personal discretion"
+    - "Yes, if the law was passed by a democratically elected legislature"
+    - "It depends on whether the detentions are actually carried out fairly"
+  answer: 1
+  explanation: "The existence of a law is not sufficient for rule of law. Raz's formal properties require that laws be general (applying equally to all), prospective, and stable — not grants of arbitrary personal discretion. A law authorizing unchecked executive power is a case of 'rule by law': law as an instrument of power rather than a constraint on it. Democratic enactment doesn't change this — a democracy can pass laws that violate rule-of-law principles."
+
+- question: "Which scenario best illustrates the distinction between 'rule of law' and 'rule by law'?"
+  type: multiple-choice
+  options:
+    - "A country with an unwritten constitution that relies on judicial precedent"
+    - "A country with extensive legislation that is applied selectively — regime critics are prosecuted while allies committing identical acts are left alone"
+    - "A country where judges may interpret laws broadly in response to social change"
+    - "A country whose laws were written under colonial rule and never revised"
+  answer: 1
+  explanation: "Rule by law uses legal forms while retaining arbitrary power. The selective application scenario captures this precisely: there are laws, but they do not constrain those in power — they are tools wielded against opponents. Rule of law requires impartial application independent of political status. The other options describe variations in legal tradition or content, not the fundamental distinction between law-as-constraint and law-as-instrument."
+
+- question: "Rule of law requires democratic government, because only democratically elected officials can be legitimately bound by pre-established rules."
+  type: true-false
+  answer: false
+  explanation: "Rule of law concerns how power is exercised, not how rulers are selected. It specifies that whoever holds power must act within pre-established, public, general rules applied impartially. In principle, a monarchy or authoritarian regime could satisfy these formal requirements (though they rarely do). Conversely, a democracy can violate rule-of-law principles — elected majorities can pass retroactive laws, target minorities selectively, or undermine judicial independence."
+
+- question: "A legal system can satisfy rule of law requirements even if some of its laws are substantively unjust, because rule of law is a formal property about how law is exercised, not what laws say."
+  type: true-false
+  answer: true
+  explanation: "This is Raz's 'thin' conception of rule of law. The formal requirements — prospectivity, publicity, generality, impartial application — are structural properties independent of content. A society can have stable, clear, generally applied laws that are nonetheless deeply unjust in what they command. This is the source of real philosophical tension: rule of law is a genuine virtue of governance even when it coexists with injustice."
+
+- question: "What is the difference between 'rule of law' and 'rule by law,' and why does the distinction matter for evaluating whether a political system is genuinely constrained?"
+  type: short-answer
+  answer: "Rule of law means that law binds everyone equally, including those who make and enforce it — power is constrained by pre-established, general, impartially applied rules. Rule by law means that rulers use legal forms as instruments of power without being genuinely bound by them — laws are selectively enforced, retroactively applied, or designed to concentrate rather than constrain power. The distinction matters because legal formalism alone is not sufficient: a regime can produce extensive legislation and still exercise arbitrary power if those laws serve power rather than limit it."
+  explanation: "The Nazi regime is often cited as a historical example: it had elaborate legal machinery and technically 'lawful' processes for much of what it did, yet it exemplified the opposite of rule of law. Recognizing this distinction prevents confusing the presence of laws with the presence of constitutional constraint."
+```
+
 ## Explainer
 
 From your study of the rule-of-law concept and justice, you know the components of each separately. The rule of law requires that government acts through pre-established, publicly known, general rules applied equally and impartially — no one is above the law. Justice, as you've studied, concerns the fairness of distributions, procedures, and outcomes. The question here is how these two concepts relate, and what rule of law actually contributes to a just society.

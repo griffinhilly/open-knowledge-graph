@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Revolutions are rapid, fundamental transformations in state power and social order, typically driven by delegitimation of existing authority, mobilization of subordinate groups around an alternative vision, and sustained conflict or credible threat. Revolutions differ from coups (elite power exchange) and reform (gradual change within system) in scope and popular participation.
 
+## Questions
+
+```yaml
+- question: "A country has suffered a decade of economic misery and widespread public contempt for a corrupt government. Yet no revolution has occurred. Which factor most likely explains why delegitimation alone has not produced revolution?"
+  type: multiple-choice
+  options:
+    - "Revolutions can only occur when governments commit open violence against their own citizens"
+    - "The population lacks the organized leadership, networks, and credible alternative vision needed to mobilize discontent into coordinated action"
+    - "Economic grievances are insufficient — revolution requires primarily ideological conflict between classes"
+    - "The country is too wealthy; revolutionary conditions only emerge in extreme poverty"
+  answer: 1
+  explanation: "Delegitimation — the collapse of belief that the existing order deserves to survive — is necessary but not sufficient for revolution. Discontent can persist for decades without producing revolution if there is no organizational capacity to channel it. Movements require leadership, networks, shared symbols, and a credible alternative. Without these, grievance produces riots or protests, not revolutions. The French ancien régime was loathed for generations before 1789; what changed was organized revolutionary capacity alongside state breakdown."
+
+- question: "Which of the following most accurately distinguishes a revolution from a coup d'état?"
+  type: multiple-choice
+  options:
+    - "Revolutions take longer than coups, but both can produce fundamental social transformation"
+    - "Coups are violent while revolutions tend to be peaceful popular movements"
+    - "A coup involves elite power exchange without transforming the underlying social order; revolution combines popular participation with fundamental restructuring of state and society"
+    - "Coups are always led by the military; revolutions are always led by the working class"
+  answer: 2
+  explanation: "The defining distinction is scope and popular participation. A coup replaces one ruling faction with another — generals replace a president, one elite group displaces another — without changing the fundamental social order or involving mass mobilization. Revolutions transform both state structure and social relations and require popular participation. Revolutions are far rarer than coups precisely because they demand simultaneous state breakdown, organized opposition, and a broad coalition, while coups require only elite coordination."
+
+- question: "Popular grievances are sufficient to produce a political revolution when they are widespread enough and the government is sufficiently delegitimated."
+  type: true-false
+  answer: false
+  explanation: "Grievances are necessary but not sufficient. Even intense, widespread delegitimation does not generate revolution without organizational capacity to exploit state weakness. Theoretical accounts consistently identify three simultaneous conditions: state breakdown (military defeat, fiscal crisis, administrative dysfunction), elite defection (ruling-class members withdrawing support), and an organized opposition with mobilized capacity. Without organizational infrastructure, resentment produces riots, not revolutions."
+
+- question: "Revolutionary coalitions are often ideologically heterogeneous — united by opposition to the old order more than by a shared positive program."
+  type: true-false
+  answer: true
+  explanation: "Revolutions typically unite diverse groups who agree on what they want to destroy but disagree about what should replace it. Slogans like 'liberty, equality, fraternity' paper over real ideological divisions to build a coalition large enough to overthrow the existing order. These disagreements regularly resurface after the revolution succeeds — explaining why post-revolutionary periods are often characterized by internal conflict, purges, and further transformation as factions struggle to define the new order."
+
+- question: "Why do theorists of revolution identify elite defection — not just popular grievance — as a critical structural condition for successful revolutions?"
+  type: short-answer
+  answer: "Ruling elites are the regime's internal defenders — military officers, bureaucrats, and power-holders provide the personnel and resources the state needs to suppress dissent. When they withdraw support, whether from opportunism, ideological conversion, or calculation that the regime cannot survive, they remove the capacity for organized state resistance. Popular grievances alone face a functioning repressive apparatus; when elites defect, that apparatus weakens or fractures, creating a revolutionary opening. The Russian, French, and Iranian revolutions all involved significant elite defection that organized opposition could exploit."
+  explanation: "This explains why two countries with equal popular discontent can have very different outcomes: in one, loyal elites suppress dissent; in the other, elite defection strips the regime of enforcement capacity. Grievances supply the fuel; state breakdown and elite defection create the conditions in which that fuel can ignite."
+```
+
 ## Explainer
 
 To understand revolution, start with what you know about political authority and legitimacy. Legitimacy — the belief that power is rightfully held — is the glue of political order. Routine governance depends on it. When that belief collapses, the state's ability to command compliance weakens. **Delegitimation** is the process by which the ruling order loses this consent: a government that fails catastrophically, brutalizes its citizens, or is exposed as corrupt can shatter the moral basis of its authority faster than any military threat. Revolution becomes imaginable only once people stop believing that the existing order deserves to survive.

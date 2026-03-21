@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Instrumentalism denies that scientific theories aim at truth; they are instruments for predicting observations and organizing experiments. Unobservable theoretical entities are merely convenient calculational fictions. This view sidesteps worries about whether theories match reality but sacrifices the idea of science as truth-seeking.
 
+## Questions
+
+```yaml
+- question: "Phlogiston theory was predictively successful in its era. Caloric theory correctly predicted heat-flow phenomena. The luminiferous ether supported successful wave-optics predictions. All three were later abandoned with ontological overhaul. An instrumentalist uses these examples to argue:"
+  type: multiple-choice
+  options:
+    - "Scientists should invest more effort in getting the underlying ontology right before committing to a theory"
+    - "The history of science shows that science is not making progress — it is just changing fashions"
+    - "Since past successful theories had radically mistaken ontologies, claiming our current theories accurately describe unobservable reality is unwarranted — what theories should be judged on is empirical adequacy, not truth"
+    - "These failures prove that scientific realism is self-contradictory"
+  answer: 2
+  explanation: "This is the pessimistic meta-induction, the instrumentalist's sharpest argument against realism. The logic: (1) past successful theories were ontologically wrong; (2) current theories are no different in kind from past theories; (3) therefore we have inductive reason to expect current theories are also ontologically wrong. Instrumentalism sidesteps this problem entirely by never having claimed theories describe hidden reality in the first place — if theories are just instruments for saving the phenomena, ontological revision is costless. Option A is a realist response (try harder at ontology); option D is a non-sequitur."
+
+- question: "A realist and an instrumentalist both accept that quantum electrodynamics (QED) makes extraordinarily accurate predictions. What do they fundamentally disagree about?"
+  type: multiple-choice
+  options:
+    - "Whether QED's predictions can be experimentally verified"
+    - "Whether QED is mathematically self-consistent"
+    - "Whether we are justified in believing that the theoretical entities in QED — electrons, photons, virtual particles — actually exist as the theory describes, or whether we should treat them purely as calculational devices"
+    - "Whether QED is more accurate than competing theories"
+  answer: 2
+  explanation: "The realist-instrumentalist debate is not about predictive accuracy or experimental confirmation — both sides agree QED works astonishingly well. The disagreement is about what that success *means*. The realist says: QED works because it is approximately true; electrons really exist. The instrumentalist says: we should not believe the parts about unobservables (electrons, virtual particles) just because the observable predictions work — those parts are useful fictions. Van Fraassen's constructive empiricism articulates this precisely: accept that theories *may* be true, but only commit to their observable consequences."
+
+- question: "Instrumentalism successfully avoids the embarrassment of the pessimistic meta-induction by never having claimed that successful theories truly describe unobservable reality."
+  type: true-false
+  answer: true
+  explanation: "This is exactly the instrumentalist's strategic advantage. The pessimistic meta-induction is damaging to the realist who invests in the truth of theoretical claims about unobservables: if the theory turns out to be false, the realist's epistemic commitment was misplaced. The instrumentalist never makes that commitment in the first place — the theory is an instrument for predicting observations, not a description of hidden reality. So when phlogiston is replaced by oxygen chemistry, the instrumentalist simply notes that a better instrument has been found, without any embarrassment about past ontological beliefs."
+
+- question: "Instrumentalism has no difficulty explaining why theories that make no claims about reality nonetheless predict observations so reliably across wildly different experimental contexts."
+  type: true-false
+  answer: false
+  explanation: "This is instrumentalism's most serious vulnerability. The realist's explanation of theoretical success is simple and natural: theories work because they are approximately true about the unobservable structures that generate the phenomena. The instrumentalist must explain why a tool that doesn't describe reality happens to work so well — not just in one experimental context, but across enormously diverse situations. The 'no miracles' argument (Putnam) presses this: it would be miraculous if theories consistently succeeded without being approximately true. Instrumentalists either deny the question (pragmatic success is all that matters) or retreat to van Fraassen's more nuanced position, but neither response is fully satisfying."
+
+- question: "Explain the pessimistic meta-induction and why it motivates instrumentalism. What does the instrumentalist give up in exchange for avoiding this problem?"
+  type: short-answer
+  answer: "The pessimistic meta-induction is an inductive argument from the history of science: every major scientific theory that has been abandoned was once predictively successful, yet had a fundamentally mistaken ontology (phlogiston, caloric, luminiferous ether, Ptolemaic epicycles). Since our current theories are no different in kind, we have inductive reason to expect they too have mistaken ontologies. Instrumentalism avoids this by rejecting the claim that theories describe unobservable reality at all — theories are instruments for prediction, so ontological revision is never an epistemic failure. What is given up: the idea that science explains the world by revealing its underlying structure. Instrumentalism also struggles to explain why theories work so well if they don't describe reality."
+  explanation: "The meta-induction is called 'pessimistic' because it counsels pessimism about scientific ontology specifically — not about scientific progress in prediction or technology. Instrumentalism escapes the argument cheaply but pays a real cost in explanatory power: the realist can say 'theories work because they're true,' while the instrumentalist must either dodge the 'why does it work?' question or give a weaker answer about empirical adequacy."
+```
+
 ## Explainer
 
 From scientific realism, you know the realist's claim: successful scientific theories are approximately true, and the unobservable entities they posit — electrons, spacetime curvature, quarks — really exist. Realism is a natural interpretation of science's success story. **Instrumentalism** challenges that story at its root by rejecting the question of truth altogether for theoretical claims about unobservables.

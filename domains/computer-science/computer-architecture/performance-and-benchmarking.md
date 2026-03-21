@@ -30,6 +30,45 @@ Compute execution time using the CPU time equation under different clock speeds 
 - A higher clock frequency does not always mean better performance; if CPI increases proportionally, execution time does not improve.
 - Amdahl's Law applies to any optimization, not just parallelism — the unoptimized fraction always limits the maximum achievable speedup.
 
+## Questions
+
+```yaml
+- question: "Processor A runs at 4 GHz with an average CPI of 4. Processor B runs at 2 GHz with an average CPI of 1. Both execute the same program with the same instruction count. Which processor is faster?"
+  type: multiple-choice
+  options:
+    - "Processor A, because it has a higher clock frequency"
+    - "Processor B, because it has a lower CPI"
+    - "Processor B, which is twice as fast as Processor A"
+    - "They are equally fast because higher frequency cancels lower CPI"
+  answer: 2
+  explanation: "CPU time = Instruction count × CPI × Clock cycle time. Processor A's time per instruction is 4 × (1/4 GHz) = 1 ns. Processor B's is 1 × (1/2 GHz) = 0.5 ns — so B is twice as fast. This is the key lesson: a higher clock frequency does not mean better performance if CPI is proportionally higher. The CPU time equation requires considering all three factors together."
+
+- question: "A program spends 90% of its execution time in a routine that you parallelize, achieving a 10× speedup for that portion. What is the maximum overall speedup of the entire program?"
+  type: multiple-choice
+  options:
+    - "10×, since you sped up the dominant portion by 10×"
+    - "9×, since 90% of the work is 10× faster"
+    - "Approximately 5.3×, because the remaining 10% now dominates execution time"
+    - "Approximately 1.1×, because parallelism introduces overhead"
+  answer: 2
+  explanation: "Amdahl's Law: Speedup = 1 / ((1 − f) + f/S) = 1 / (0.10 + 0.90/10) = 1 / 0.19 ≈ 5.3×. The unoptimized 10% forms a hard ceiling. The tempting wrong answer (10×) assumes the serial fraction disappears — but it doesn't. The remaining 10% now constitutes almost all of execution time, limiting the overall gain to roughly half the naive expectation."
+
+- question: "A processor with a higher clock frequency always executes a given program faster than a processor with a lower clock frequency."
+  type: true-false
+  answer: false
+  explanation: "False. CPU time = Instruction count × CPI × Clock cycle time. A higher clock frequency reduces cycle time but says nothing about CPI. If more pipeline stages are added to reach a higher frequency, CPI may increase (more hazards, longer stall penalties), leaving execution time unchanged or worse. Performance depends on all three factors together, which is why raw clock speed comparisons across architectures are misleading."
+
+- question: "According to Amdahl's Law, if you could speed up exactly 50% of a program to take zero time, the maximum possible speedup for the whole program is 2×."
+  type: true-false
+  answer: true
+  explanation: "True. Amdahl's Law: as S → ∞, Speedup → 1 / (1 − f) = 1 / 0.5 = 2. No matter how fast you make half the program, the other half still takes the same time — and that unoptimized half now constitutes all remaining execution time. This illustrates the fundamental insight: the serial fraction is the hard ceiling on total speedup."
+
+- question: "Why do benchmark suites like SPEC provide more meaningful performance comparisons than raw MIPS (millions of instructions per second) ratings?"
+  type: short-answer
+  answer: "MIPS varies by program and ignores instruction complexity — a processor can achieve higher MIPS by executing more but simpler instructions, even if it takes longer to complete the same task. SPEC runs standardized real-world workloads and reports performance ratios relative to a reference machine, measuring actual time to complete meaningful tasks rather than a synthetic throughput metric."
+  explanation: "MIPS is flawed in several ways: it varies across programs run on the same processor, it ignores that different instructions do different amounts of work, and it can be gamed by compilers that emit many simple instructions. SPEC addresses this by running representative real applications and reporting the geometric mean of speedup ratios — capturing how the processor actually performs on workloads that matter."
+```
+
 ## Explainer
 
 From your work with pipelining and algorithm complexity, you already have intuitions about what makes computation fast or slow. Performance and benchmarking formalizes these intuitions into a precise framework. The central equation is deceptively simple: **CPU time = Instruction count × CPI × Clock cycle time**. Every architectural decision maps onto one or more of these three factors. A better compiler reduces instruction count. A wider pipeline or out-of-order execution reduces CPI (cycles per instruction). A smaller transistor process enables a faster clock, reducing cycle time. The equation makes explicit that improving one factor while worsening another can result in no net gain — or even a regression.

@@ -32,6 +32,45 @@ Design a simple system using only one shape, repeating it at different scales an
 - Unity requires sameness; unity comes from organized relationships, not from everything looking identical.
 - Repetition weakens impact; repetition reinforces recognition and creates identity.
 
+## Questions
+
+```yaml
+- question: "A designer creates a poster where every section shares the same font, accent color, and margin width, but the result feels static and lifeless despite being visually coherent. What principle has been neglected?"
+  type: multiple-choice
+  options:
+    - "Unity — the sections don't feel related enough"
+    - "Repetition with variation — the design achieves unity but lacks the visual rhythm that variation provides"
+    - "Contrast — the designer should have used more different fonts and colors"
+    - "Alignment — the margins are too consistent"
+  answer: 1
+  explanation: "The design has unity (repetition is working — the sections feel related and coherent) but lacks visual interest because there is no variation. Pure repetition without variation becomes monotonous — the eye has no surprises to engage with. The fix is not to abandon the unifying elements, but to introduce variation within them: the same typeface at different weights, the same color at different opacities, the same shape at different scales. The unity comes from the repeated element; the life comes from its variation."
+
+- question: "What does repetition in design primarily communicate to a viewer?"
+  type: multiple-choice
+  options:
+    - "That the designer has limited creativity or resources"
+    - "That the repeated elements are related and belong to the same intentional system"
+    - "That the design is intended for a large audience"
+    - "That the design was created quickly using templates"
+  answer: 1
+  explanation: "Repetition is a visual signal of intentional relationship. When a viewer sees the same typeface, color, or shape recurring across a design, they read it as a marker of belonging — these elements are part of the same system. This is the foundational mechanism of brand identity: a logo color repeated on packaging, signage, and a website communicates coherence and recognition across contexts. The viewer doesn't need to consciously notice the repetition; they simply feel the unity it creates."
+
+- question: "Repeating a visual element (such as a circular shape) at different sizes and opacities throughout a design can create both unity and visual interest at the same time."
+  type: true-false
+  answer: true
+  explanation: "This is precisely what 'repetition with variation' achieves. The circle at different sizes and opacities maintains the unifying thread (same shape = same system) while the variation (size, opacity) provides rhythm, hierarchy, and visual interest. The eye is drawn through the design by the pattern while being kept engaged by its variation. This is the same principle as a musical motif — recurring but not static."
+
+- question: "Visual unity in design requires all elements to look the same or match exactly."
+  type: true-false
+  answer: false
+  explanation: "Unity is the perception that elements are part of an organized, intentional whole — it does not require sameness. A design achieves unity when nothing feels arbitrary: different elements can vary in size, weight, or position, but if they share underlying relationships (same family of shapes, same color palette, consistent spacing intervals), the viewer perceives coherence. Sameness produces monotony, not unity. Unity comes from organized relationships, which can include both repetition and thoughtful contrast."
+
+- question: "Why is 'repetition with variation' a more effective design strategy than pure repetition? What does each component contribute?"
+  type: short-answer
+  answer: "Repetition creates unity by signaling that elements belong together — the repeated element is the visual thread tying the design into a coherent whole. Variation prevents monotony and creates visual rhythm, giving the eye surprises within a predictable framework. Pure repetition without variation is static and boring; pure variation without repetition is chaotic and incoherent. Together, they produce a design that is both organized and engaging."
+  explanation: "The analogy to music is useful: a melody that recurs throughout a composition creates structural coherence, but each time it returns with different harmonics, instrumentation, or rhythm, it stays interesting. In design, the repeated element is the melody; the variation is the arrangement. Strip away the repetition and the design fragments; strip away the variation and the design deadens."
+```
+
 ## Explainer
 
 When you look at a well-designed magazine spread, a brand's website, or even a deck of playing cards, something tells you all the pieces belong together — even before you read a word. That sense of belonging is **visual unity**, and the primary tool for achieving it is **repetition**: the deliberate reuse of visual elements across a design. Repeating a color, a shape, a typeface, a spacing interval, or an alignment creates a visual thread that ties disparate parts into a coherent whole.

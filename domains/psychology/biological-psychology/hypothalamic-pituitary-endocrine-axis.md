@@ -34,6 +34,45 @@ Study classic feedback loops (HPA axis, HPT axis, HPG axis) by creating block di
 ## Common Misconceptions
 Pituitary is the 'master gland' / endocrine system works independently of nervous system / feedback loops are one-way / all hormones have the same time course.
 
+## Questions
+
+```yaml
+- question: "A patient has an adrenal cortex tumor that secretes cortisol autonomously. What happens to CRH and ACTH levels?"
+  type: multiple-choice
+  options:
+    - "Both rise as the body tries to compensate for adrenal dysfunction"
+    - "CRH rises but ACTH falls due to pituitary resistance"
+    - "Both fall, because elevated cortisol exerts negative feedback on the hypothalamus and pituitary"
+    - "ACTH rises but CRH falls due to cascade amplification"
+  answer: 2
+  explanation: "High cortisol feeds back to suppress both CRH (at the hypothalamus) and ACTH (at the pituitary). This is the physiological function of negative feedback — the output of the cascade suppresses the signals that drive it. Clinically, measuring low ACTH alongside high cortisol helps distinguish an autonomous adrenal source from a pituitary-driven one (Cushing's disease), where ACTH would be elevated."
+
+- question: "Releasing hormones travel from the hypothalamus to the anterior pituitary through portal blood vessels rather than the systemic circulation. What is the primary advantage of this arrangement?"
+  type: multiple-choice
+  options:
+    - "It allows rapid hormone clearance to prevent overactivation of the pituitary"
+    - "It delivers high hormone concentrations to the pituitary while minimizing systemic effects"
+    - "It bypasses the blood-brain barrier entirely"
+    - "It ensures hormones reach peripheral glands before reaching the pituitary"
+  answer: 1
+  explanation: "Portal vessels are a short-circuit — tiny amounts of hypothalamic releasing hormones reach the pituitary at high local concentrations without being diluted in the general circulation. This allows the hypothalamus to command pituitary secretion with very small quantities of hormone. If releasing hormones had to travel through systemic blood, the concentrations reaching the pituitary would be far too low to have the required effect."
+
+- question: "The pituitary gland is correctly called the 'master gland' of the endocrine system because it directly controls all peripheral hormone secretion."
+  type: true-false
+  answer: false
+  explanation: "The pituitary is not the master gland — the hypothalamus is. While the pituitary controls peripheral glands (thyroid, adrenals, gonads) via tropic hormones, the pituitary itself executes commands from the hypothalamus. The hypothalamus integrates neural input from across the brain (amygdala, hippocampus, brainstem) and converts it into hormonal instructions. Calling the pituitary the master gland misses one critical level in the hierarchy."
+
+- question: "Negative feedback in the HPA axis means that elevated cortisol suppresses both CRH release from the hypothalamus and ACTH release from the pituitary."
+  type: true-false
+  answer: true
+  explanation: "Multi-level negative feedback is how the HPA axis maintains cortisol within its normal range. Cortisol acts on glucocorticoid receptors in both the hypothalamus (suppressing CRH) and the pituitary (suppressing ACTH), simultaneously dampening both stages of the upstream cascade. When this feedback fails — as in an autonomous cortisol-secreting adrenal tumor — cortisol rises unchecked because the feedback signal no longer reaches a gland that is responding normally."
+
+- question: "Why can a frightening thought produce measurable hormonal changes in your blood hours after the thought itself has passed?"
+  type: short-answer
+  answer: "The hypothalamus acts as a neural-to-endocrine transducer. The amygdala processes the perceived threat and sends neural input to the hypothalamus, which releases CRH into portal blood. CRH triggers pituitary ACTH secretion, which stimulates adrenal cortisol release. The hormonal cascade persists long after the initial neural signal — cortisol's half-life in blood is ~60–90 minutes — because the endocrine system is designed for sustained responses, unlike the fast, brief signals of the autonomic nervous system."
+  explanation: "This is the key architectural insight of the HPA system: it converts transient neural events (a thought, a perceived threat) into prolonged hormonal responses. The path from a frightening thought to elevated cortisol runs from cortex → amygdala → hypothalamus → pituitary → adrenal cortex, integrating the psychological and physiological in a single anatomical chain."
+```
+
 ## Explainer
 
 The hypothalamus acts as the brain's transducer—converting neural signals into hormonal commands. You already know that the autonomic nervous system triggers rapid, short-duration responses (fight-or-flight, within seconds), and that hormones communicate through receptors via the signaling mechanisms you studied. The HPA system bridges these two: a neural signal (stress, cold, hunger) enters the hypothalamus, which converts it into a hormone cascade that unfolds over minutes to hours, long after the triggering neural signal has subsided.

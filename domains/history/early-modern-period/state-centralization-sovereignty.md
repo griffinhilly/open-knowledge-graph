@@ -28,6 +28,45 @@ European political development during the early modern period involved the progr
 ## How It's Best Learned
 Compare the institutional structure of medieval kingdoms with early modern states to see how bureaucratic centralization occurred. Examine specific examples like France under Richelieu or Spain under the Habsburgs.
 
+## Questions
+
+```yaml
+- question: "Cardinal Richelieu's program in France involved suppressing noble privileges and placing royal intendants in provinces to supervise them directly. What does this illustrate about early modern state-building?"
+  type: multiple-choice
+  options:
+    - "That ideological claims of divine right were sufficient to centralize political power"
+    - "That sovereignty required institutional infrastructure — bureaucracies that bypassed feudal hierarchies"
+    - "That France became a constitutional monarchy through the intendant system"
+    - "That the Church supported centralization in exchange for monopoly over education"
+  answer: 1
+  explanation: "Royal intendants were crown agents who administered provinces directly, bypassing the traditional authority of nobles and local institutions. This is paradigmatically institutional: claims of royal supremacy meant nothing without administrative mechanisms to enforce them. Richelieu's program demonstrates that state centralization required building actual governing structures, not just asserting authority."
+
+- question: "What did the Peace of Westphalia (1648) primarily establish in the context of state sovereignty?"
+  type: multiple-choice
+  options:
+    - "A military alliance that recognized French territorial dominance in Europe"
+    - "The international codification of territorial sovereignty and the norm of non-interference between states"
+    - "The formal separation of church and state authority throughout European kingdoms"
+    - "A treaty that unified fragmented German principalities under Habsburg central rule"
+  answer: 1
+  explanation: "Westphalia established that states recognized each other's sovereignty — no external power (not the Pope, not the Holy Roman Emperor) had the right to intervene in another state's domestic affairs. This 'Westphalian system' of territorial states with non-interference norms became foundational to international relations. It formalized theoretically what institutional state-building had been constructing domestically."
+
+- question: "Medieval kingdoms in Europe functioned as centralized territorial states in the same sense as early modern states."
+  type: true-false
+  answer: false
+  explanation: "Medieval kingdoms were networks of personal lordship, not centralized states. The king exercised authority over direct vassals, who managed their own domains with their own courts, armies, and legal systems. Jurisdiction was fragmented among nobles, the Church, and chartered cities. The modern state's monopoly on lawmaking and legitimate force within a defined territory had to be constructed — it did not exist in medieval political arrangements."
+
+- question: "The construction of standing armies was a key driver of administrative bureaucratization in early modern European states."
+  type: true-false
+  answer: true
+  explanation: "Professional standing armies required continuous royal payment, which demanded permanent taxation. Permanent taxation required fiscal bureaucracies to assess, collect, and audit it. The logic was self-reinforcing: armies needed revenue, revenue needed bureaucracy, bureaucracy enabled more armies. Military need created the administrative infrastructure that is the institutional core of the modern state."
+
+- question: "Why did constructing standing armies require the simultaneous construction of new fiscal and bureaucratic institutions?"
+  type: short-answer
+  answer: "Feudal levies required no royal administration — lords owed military service from their own resources for fixed periods. Professional armies required the crown to pay soldiers directly and continuously, demanding a reliable revenue stream. Permanent taxation required bureaucracies to assess taxpayers, collect revenues, prevent corruption, and manage expenditure. Each institution made the others necessary: armies demanded revenue, revenue demanded bureaucracy, bureaucracy made armies sustainable. State-building was an interlocking institutional package, not simply a claim of authority."
+  explanation: "This institutional logic explains why states that successfully built standing armies (France, Spain, England) also developed the most sophisticated fiscal and administrative systems of the era. Military competition between states drove administrative development — states that couldn't tax efficiently couldn't sustain armies, and states that couldn't sustain armies were conquered or marginalized."
+```
+
 ## Explainer
 
 Your study of absolute monarchy and divine right gives you the ideological dimension of early modern state-building — the claims that kings made about their authority. But ideology alone does not explain how fragmented medieval polities, where a king's actual power barely extended beyond his personal estates, became the centralized territorial states that dominated European politics by 1700. That transformation required institutional construction: courts, bureaucracies, armies, tax systems, and the slow subordination of rival powers.

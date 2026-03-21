@@ -30,6 +30,45 @@ Read Hume's Treatise 1.3.14 on the idea of necessary connexion, then Mackie's 'C
 - Regularity theory doesn't say causation is merely subjective; the regularities are objective features of the world.
 - The INUS account is a significant upgrade over naive constant conjunction — don't equate the two.
 
+## Questions
+
+```yaml
+- question: "All gold spheres in existence have been less than one mile in diameter — a universal regularity. Why does the simple regularity theory struggle to treat this as a causal law?"
+  type: multiple-choice
+  options:
+    - "It should count as a causal law — the regularity theory accepts all universal regularities as causal"
+    - "There are not enough gold spheres observed to establish a reliable regularity"
+    - "The regularity theory cannot distinguish this accidental correlation from genuine causal laws — it lacks the resources to require more than bare constant conjunction"
+    - "Gold is not a natural kind, so regularities involving gold are excluded by the theory"
+  answer: 2
+  explanation: "This is the classic counterexample to naive constant conjunction. Being a gold sphere doesn't cause smallness — the correlation is accidental, not underwritten by any physical necessity. The bare regularity theory, which requires only that C-type events invariably precede E-type events, cannot on its own distinguish genuine causal laws (which support counterfactuals and reflect physical structure) from accidental regularities (which don't). This is the central problem the theory must solve."
+
+- question: "A house fire starts after a short circuit. According to Mackie's INUS account, the short circuit is best described as:"
+  type: multiple-choice
+  options:
+    - "A sufficient cause — by itself it caused the fire"
+    - "A necessary cause — without it, no fire could have occurred"
+    - "An Insufficient but Necessary part of an Unnecessary but Sufficient condition — required within the actual bundle of conditions, though other bundles could also cause fire"
+    - "An accidental antecedent — its presence was correlated with but not causally relevant to the fire"
+  answer: 2
+  explanation: "INUS: the short circuit alone is insufficient (it needs dry conditions, flammable materials, no sprinklers, etc.). But within the actual bundle of conditions present, removing the short circuit would have prevented that particular sufficient condition from obtaining — so it was necessary within the bundle. However, other bundles (e.g., arson) could have caused fire, so the short circuit is not necessary overall. This multi-part analysis captures why we single out the short circuit as the cause without claiming it was either sufficient alone or necessary in all possible scenarios."
+
+- question: "According to Hume's regularity theory, there is no observable necessary connection between cause and effect — only the constant conjunction of event-types is observed."
+  type: true-false
+  answer: true
+  explanation: "This is Hume's central empiricist insight and the foundation of the regularity theory. We never directly observe causation or necessity — we observe fire reliably followed by heat, repeatedly. The feeling that we 'see' necessity is, Hume argued, a projection of our habituated expectations onto the external world. The regularity theory takes this austerity seriously by grounding causation entirely in objective regularities rather than unobservable metaphysical connections."
+
+- question: "According to the regularity theory, a genuine cause must be a necessary condition for its effect — without the cause, the effect could not have occurred."
+  type: true-false
+  answer: false
+  explanation: "The regularity theory requires that C-type events be invariably followed by E-type events, but does not require that E cannot occur without C. Overdetermination — where two simultaneous, each-sufficient causes both produce the effect — is precisely a case where neither cause is strictly necessary (the other would have produced the effect anyway). This is one of the hard cases that exposes the theory's limits. Confusing causation with necessity is exactly the metaphysical excess Hume wanted to eliminate."
+
+- question: "What is the 'accidental regularity' problem for the regularity theory, and how does Mackie's INUS account attempt to address it?"
+  type: short-answer
+  answer: "The problem: some universal regularities are not causal (all gold spheres are small, but smallness isn't caused by being a gold sphere). Bare constant conjunction cannot distinguish these from genuine laws. Mackie's INUS account addresses this by requiring that a cause be a necessary part of a sufficient bundle of conditions — singling out factors that play a structural role in producing the effect, not just any correlation."
+  explanation: "The INUS account moves beyond mere correlation by requiring that the cause play a specific role within a sufficient set of conditions (necessary within the bundle). This excludes pure accidental regularities, where there is no bundle of conditions of which the 'cause' is a necessary component. However, the account still relies on regularities at some level — the sufficiency of the bundle is itself a regularity claim — which is why the theory remains in the 'regularity' family rather than moving to counterfactual or causal-powers approaches."
+```
+
 ## Explainer
 
 From your study of causation and causal relations, you know the core philosophical puzzle: causation seems to be more than mere correlation — when one event causes another, there appears to be a necessary connection between them, not just a temporal sequence. Striking a match in oxygen causes ignition; it doesn't merely precede it. The question is what this "necessary connection" actually is. Hume's revolutionary answer was: nothing. You never observe necessity; you observe only that striking is reliably followed by ignition. The regularity theory builds an account of causation on that austerity.

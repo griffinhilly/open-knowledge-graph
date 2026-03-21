@@ -33,6 +33,45 @@ Apply each algorithm to the same reference string (e.g., 1,2,3,4,1,2,5,1,2,3,4,5
 - LRU cannot be implemented exactly in hardware because tracking the exact access order for all pages is too expensive; approximations are used.
 - More physical frames always reduce page faults for LRU and OPT, but not necessarily for FIFO (Belady's Anomaly).
 
+## Questions
+
+```yaml
+- question: "A system using FIFO page replacement with 3 frames produces 10 page faults on a particular reference string. When frames are increased to 4, the same string produces 12 page faults. What does this demonstrate?"
+  type: multiple-choice
+  options:
+    - "The reference string was adversarially constructed — this would not happen with real workloads"
+    - "Belady's Anomaly: FIFO can produce more page faults with more physical frames for certain reference strings"
+    - "The system has a bug — more frames should always reduce or maintain page faults"
+    - "LRU would show the same behavior since it is also affected by the number of frames"
+  answer: 1
+  explanation: "This is a demonstration of Belady's Anomaly, which affects FIFO and certain other replacement algorithms. Intuitively, more frames should mean fewer evictions, but FIFO's eviction criterion — 'evict the page loaded longest ago' — is not aligned with which pages are actually useful. Adding a frame can change the eviction sequence in a way that, for some reference strings, triggers more total faults. LRU does not exhibit Belady's Anomaly because it is a 'stack algorithm' — with n+1 frames, the set of pages in memory always contains the set that would be in memory with n frames, so adding a frame can only help."
+
+- question: "Why is exact LRU not directly implemented in most real operating systems, despite being a strong approximation of the optimal algorithm?"
+  type: multiple-choice
+  options:
+    - "LRU requires future knowledge of access patterns, just like OPT"
+    - "Tracking the exact recency order of all pages requires updating a timestamp or sorted structure on every memory access, which is prohibitively expensive in hardware"
+    - "LRU performs worse than FIFO on most real workloads"
+    - "LRU requires pages to be sorted by access frequency, not recency"
+  answer: 1
+  explanation: "LRU's logic is sound — evict the page unused longest — but implementing it exactly requires knowing the precise access order of all pages at all times. This means either recording a timestamp on every memory access and finding the minimum when eviction is needed, or maintaining a stack where the accessed page moves to the top on every reference. Both approaches require hardware support on every memory access, which happens billions of times per second — the overhead is enormous. Instead, hardware provides a single reference bit per page, which the Clock (Second-Chance) algorithm exploits to approximate LRU with minimal cost."
+
+- question: "The Optimal (OPT) page replacement algorithm cannot be implemented in a real operating system."
+  type: true-false
+  answer: true
+  explanation: "OPT evicts the page that will not be used for the longest time in the future, which requires knowing future memory access patterns — impossible during normal execution. The OS only knows which pages have been accessed in the past, not which will be needed next. OPT is therefore used only as a theoretical benchmark: you can apply it retrospectively to a recorded trace to measure how close a practical algorithm comes to the theoretical minimum number of page faults. It is not an implementable policy."
+
+- question: "LRU page replacement can also exhibit Belady's Anomaly — adding more frames can increase page faults — just like FIFO."
+  type: true-false
+  answer: false
+  explanation: "Belady's Anomaly does not affect LRU. LRU is a 'stack algorithm': with n frames, the set of pages in memory is always a subset of the set in memory with n+1 frames for any reference string. This means adding a frame can only keep the same pages or more — it can never cause a useful page to be evicted. FIFO lacks this property because its eviction criterion (age of loading) is not consistently aligned with usefulness; adding a frame can alter the eviction sequence in a way that introduces new faults on some strings. OPT is also a stack algorithm and similarly immune to Belady's Anomaly."
+
+- question: "Explain why the Clock (Second-Chance) algorithm uses a reference bit per page rather than tracking exact access times, and how it approximates LRU."
+  type: short-answer
+  answer: "Hardware sets the reference bit for a page automatically on every access with zero computational overhead. The Clock algorithm sweeps through pages in a circle: if a page's reference bit is 1, it clears the bit and moves on (giving a 'second chance'); if the bit is 0, the page has not been accessed since the last sweep and is evicted. This approximates LRU because a page with reference bit = 0 has gone at least one full clock cycle without being used — a proxy for 'least recently used.' Exact LRU would require a complete sorted ordering of all pages by last-access time, too expensive to maintain per-access."
+  explanation: "The Clock algorithm trades precision for efficiency. Exact LRU knows the full ordering of recency; Clock only distinguishes recent vs. not-recent within each sweep cycle. In practice this approximation works well because actively used pages will have their reference bits set repeatedly, while cold pages will consistently show bit = 0 and be evicted promptly. The Clock algorithm is implemented in most Unix-derived operating systems — its simplicity (one bit per page and a circularly advancing pointer) makes it suitable for the OS kernel where per-access overhead must be minimal."
+```
+
 ## Explainer
 
 From virtual memory management, you know that a process's address space can be larger than physical memory. The OS maps virtual pages to physical frames, and when a process accesses a page that is not currently in memory, a **page fault** occurs and the OS must load that page from disk. If all physical frames are already occupied, the OS must **evict** one page to make room. The page replacement algorithm decides which page gets evicted — and this choice has a dramatic effect on performance, because a bad choice means the evicted page will be needed again soon, causing another expensive page fault.

@@ -30,6 +30,45 @@ Distinguish acute hepatocellular injury (elevated transaminases, normal or mildl
 ## Common Misconceptions
 Elevated transaminases do not always indicate hepatocellular necrosis; some elevation occurs with cholestasis or cirrhosis from hepatocyte inflammation. The INR and albumin are better markers of synthetic function than transaminase levels. Some ALT/AST elevation in viral hepatitis is normal—the degree correlates poorly with disease severity.
 
+## Questions
+
+```yaml
+- question: "A patient presents with ALT 45× the upper limit of normal and AST 40× normal. Their INR is 1.1 and albumin is 4.2 g/dL. What is the most accurate assessment?"
+  type: multiple-choice
+  options:
+    - "The patient has acute liver failure — transaminases this high indicate loss of hepatocyte mass"
+    - "The patient has severe hepatocellular injury with preserved synthetic function — the liver is damaged but not failing"
+    - "The INR and albumin are unreliable at this level of transaminase elevation"
+    - "These transaminase levels predict imminent progression to acute liver failure"
+  answer: 1
+  explanation: "This is the central distinction in liver disease assessment: transaminases measure cell death (injury), not liver function (synthesis). A patient can have dramatically elevated transaminases — reflecting widespread hepatocyte necrosis from acute viral hepatitis or drug toxicity — while the remaining functioning hepatocytes fully maintain coagulation and protein synthesis. Normal INR and albumin confirm intact synthetic function. This patient has a serious hepatitis but not liver failure; prognosis is very different from a patient with high transaminases AND coagulopathy."
+
+- question: "A patient with known heavy alcohol use presents with AST 280 U/L and ALT 110 U/L. Which pattern is this, and what mechanism explains it?"
+  type: multiple-choice
+  options:
+    - "AST:ALT ratio > 2:1 suggesting alcoholic hepatitis — alcohol preferentially injures mitochondria (where AST is concentrated) and depletes pyridoxal phosphate needed for ALT synthesis"
+    - "AST:ALT ratio < 2:1 suggesting viral hepatitis superimposed on chronic alcohol use"
+    - "The pattern is non-specific; the ratio is only meaningful when transaminases exceed 10× the upper limit of normal"
+    - "AST dominance in this context indicates alcohol-related myopathy rather than liver injury"
+  answer: 0
+  explanation: "An AST:ALT ratio > 2:1 is a diagnostic clue for alcoholic hepatitis. Alcohol preferentially damages hepatocyte mitochondria, which contain high concentrations of AST. Alcohol also depletes pyridoxal phosphate (vitamin B6), a cofactor required for ALT synthesis — so even when hepatocytes are injured, ALT fails to rise proportionally. This pattern is rarely seen in viral hepatitis or drug-induced injury, where ALT typically dominates."
+
+- question: "In liver disease, higher transaminase levels indicate a worse prognosis."
+  type: true-false
+  answer: false
+  explanation: "Transaminase levels correlate poorly with prognosis — they measure the rate of ongoing hepatocyte death, not the residual functional capacity of the liver. A patient with ALT 50× normal but normal INR and albumin (e.g., acute hepatitis A) will almost certainly recover fully. A patient with ALT only 3× normal but INR 3.0 and albumin 2.1 g/dL may have cirrhosis with severely compromised function. The synthetic markers — INR and albumin — are far better prognostic indicators because they reflect whether the liver can still do its job."
+
+- question: "The PT/INR can rise within hours of massive hepatocellular necrosis because clotting factors have very short half-lives."
+  type: true-false
+  answer: true
+  explanation: "The liver synthesizes all clotting factors except factor VIII. Factor VII has the shortest half-life (~4–6 hours), so when hepatocyte mass collapses acutely, clotting factor production stops and factor VII falls first, rapidly prolonging the PT/INR. This is why a rising INR is one of the earliest and most ominous signs of acute liver failure — it reflects the liver losing synthetic capacity in real time. By contrast, albumin (half-life ~20 days) only falls after weeks of sustained synthetic failure."
+
+- question: "Explain the distinction between hepatocellular injury and hepatic synthetic dysfunction. Why does this distinction matter clinically?"
+  type: short-answer
+  answer: "Hepatocellular injury refers to hepatocyte death or membrane disruption, measured by transaminases (ALT, AST) leaking into blood. Synthetic dysfunction refers to failure of the liver's essential production functions — clotting factors (PT/INR) and albumin. These are separate: a liver can sustain massive injury while surviving hepatocytes still synthesize adequately, or a liver can have modest injury but be so scarred that remaining cells cannot keep up with demand. Clinically, injury markers (transaminases) tell you what is happening to hepatocytes; synthetic markers (INR, albumin) tell you whether the liver is failing. The latter determines prognosis and the need for transplant evaluation."
+  explanation: "This distinction is the foundation of all liver disease management. Acute liver failure is defined by coagulopathy plus encephalopathy — not by transaminase levels. Missing this means either over-treating a patient with high transaminases but preserved function, or under-treating a patient with 'only mildly elevated' transaminases who is actually in liver failure."
+```
+
 ## Explainer
 
 The liver is uniquely vulnerable to injury because of its dual blood supply and metabolic centrality — it processes everything absorbed from the gut, detoxifies drugs and metabolic waste, and synthesizes most of the proteins the body depends on. When hepatocytes are damaged, they release intracellular enzymes into the bloodstream, providing measurable biomarkers of ongoing injury. Understanding which enzymes rise, in what ratio, and what that predicts about the nature and severity of injury is the foundation of liver disease assessment.

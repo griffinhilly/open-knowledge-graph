@@ -32,6 +32,45 @@ Graph the combined payoff and profit of each strategy at expiration and identify
 - Put-call parity holds exactly only for European options; American options (exercisable any time) satisfy an inequality rather than an equality due to the early exercise premium.
 - Strategies with attractive payoff diagrams can still lose money if the premium paid makes the break-even stock move too large to achieve.
 
+## Questions
+
+```yaml
+- question: "A European call costs $8 and the corresponding European put costs $3. The stock price is $100, the strike is $98, and PV(K) = $95. Does put-call parity hold?"
+  type: multiple-choice
+  options:
+    - "No — C − P = $5 but S − PV(K) = $3, so there is an arbitrage opportunity"
+    - "No — C − P = $5 but S − PV(K) = $7, so the call is overpriced"
+    - "Yes — C − P = $5 and S − PV(K) = $5, so parity holds exactly"
+    - "Yes — parity always holds by definition for European options regardless of prices"
+  answer: 2
+  explanation: "C − P = $8 − $3 = $5, and S − PV(K) = $100 − $95 = $5. Both sides equal $5, so put-call parity holds exactly and no arbitrage opportunity exists. If they differed — say, C − P = $6 but S − PV(K) = $5 — then a riskless profit would be available by selling the overpriced side (call+short put) and buying the underpriced side (long forward)."
+
+- question: "An investor buys a straddle (buys a call and a put at the same strike K) for a total premium of $8. For what range of stock prices at expiration does the investor profit?"
+  type: multiple-choice
+  options:
+    - "Only if the stock rises above the strike by more than $8"
+    - "If the stock finishes exactly at the strike — both options are at-the-money and earn the premium back"
+    - "If the stock finishes more than $8 above or more than $8 below the strike"
+    - "Only if the stock falls below the strike by more than $8"
+  answer: 2
+  explanation: "A straddle has a V-shaped payoff: the combined payoff is |S_T − K| — the absolute distance from the strike. After paying $8 in total premium, the investor profits if |S_T − K| > $8, i.e., the stock finishes more than $8 away from the strike in either direction. This is why straddles are used before earnings: the direction of the move is unknown, but if the move is large enough to exceed the total premium paid, the straddle profits regardless of direction."
+
+- question: "Put-call parity holds for both European and American options traded on the same underlying stock."
+  type: true-false
+  answer: false
+  explanation: "Put-call parity holds exactly only for European options (exercisable only at expiration). American options carry an early exercise premium — the holder may exercise before expiration when advantageous — which breaks the exact replication argument. For American options, the relationship satisfies an inequality: S − K ≤ C − P ≤ S − PV(K), rather than an equality."
+
+- question: "A bull spread with strikes K₁ = $50 and K₂ = $60 and a net premium of $3 will always profit if the stock finishes above $60 at expiration."
+  type: true-false
+  answer: true
+  explanation: "A bull spread buys a call at K₁ = $50 and sells a call at K₂ = $60. Above K₂, both options are in-the-money: the long call pays S_T − 50 and the short call costs S_T − 60, for a net payoff of $10 regardless of how far above $60 the stock finishes. After paying the $3 net premium, the profit is a fixed $7. The payoff is capped and flat above K₂, and the break-even is at K₁ + premium = $53."
+
+- question: "Explain why put-call parity must hold for European options in liquid markets, using the concept of no-arbitrage."
+  type: short-answer
+  answer: "If C − P ≠ S − PV(K), you can construct a riskless profit with no capital at risk. A portfolio of long call plus short put has the same payoff at expiration as a long forward (obligation to buy at K): both pay S_T − K regardless of whether S_T is above or below K. A long forward today costs S − PV(K). If C − P > S − PV(K), sell the call+short-put portfolio and buy the forward, locking in an immediate profit with zero net risk. Competition among arbitrageurs eliminates any such gap, enforcing parity."
+  explanation: "The replication argument is the backbone of no-arbitrage pricing: two portfolios with identical payoffs in every future state must have identical prices today. The long call plus short put replicates a forward, whose current value is S − PV(K). Any wedge between C − P and S − PV(K) is immediately exploitable by buying cheap and selling expensive. In liquid markets, arbitrageurs eliminate these gaps almost instantly — which is why put-call parity is an empirical near-equality rather than just a theoretical result, and why it holds without any model assumptions about return distributions."
+```
+
 ## Explainer
 
 From your study of options basics, you know the building blocks: a call gives the right to buy at strike K, a long call pays max(S_T − K, 0) at expiration, and a put pays max(K − S_T, 0). Options become strategically powerful when you combine them. The key insight is that any payoff profile you want — bounded upside, protection against downside, profit from large moves in either direction — can be engineered by mixing calls, puts, and the underlying stock. Learning to read and construct **payoff diagrams** (the shape of profit/loss at expiration as a function of the terminal stock price S_T) is the entry point to options strategy.

@@ -30,6 +30,45 @@ Apply Starling forces (hydrostatic - oncotic pressure gradients) to predict flui
 ## Common Misconceptions
 Pulmonary edema is not always from high pressure; capillary permeability increase (from inflammation or endothelial injury) causes edema despite normal hydrostatic pressure. The alveolar fluid clearance is an active process dependent on sodium-potassium ATPase; it can be impaired in sepsis.
 
+## Questions
+
+```yaml
+- question: "A patient in septic shock develops bilateral pulmonary infiltrates and progressive hypoxemia. Laboratory analysis of fluid obtained by bronchoalveolar lavage shows protein concentration nearly equal to plasma protein. Why will aggressive diuresis likely fail to clear this patient's pulmonary edema?"
+  type: multiple-choice
+  options:
+    - "Diuretics work only when pulmonary capillary wedge pressure is below 18 mmHg"
+    - "The edema fluid is protein-rich, so its oncotic pressure nearly equals plasma — diuretics cannot create the gradient needed to draw fluid back"
+    - "Sepsis causes lymphatic obstruction, preventing fluid drainage regardless of hydrostatic pressure changes"
+    - "The sodium-potassium ATPase pumps are upregulated in sepsis, preventing diuretic access to alveolar fluid"
+  answer: 1
+  explanation: "This patient has non-cardiogenic (ARDS-type) pulmonary edema driven by increased capillary permeability. Inflammatory mediators from sepsis damage the endothelial barrier, allowing both water and plasma proteins to leak freely into the alveoli. Because the edema fluid has nearly the same protein content as plasma, it generates its own oncotic pressure — removing water from the circulation with diuretics cannot create the oncotic gradient needed to draw this protein-rich fluid back into the capillaries. Diuretics work in cardiogenic edema by reducing hydrostatic pressure; they do not resolve a permeability-driven leak."
+
+- question: "Why does severe pulmonary edema typically require positive-pressure ventilation rather than high-flow supplemental oxygen alone to correct hypoxemia?"
+  type: multiple-choice
+  options:
+    - "High-flow oxygen worsens pulmonary vasoconstriction, increasing capillary pressure"
+    - "Fluid-filled alveoli create an intrapulmonary shunt — perfused but unventilated units — that high FiO₂ cannot correct"
+    - "Positive pressure mechanically expels fluid from alveoli into the interstitium, where lymphatics can clear it"
+    - "Supplemental oxygen reduces hypoxic vasoconstriction, worsening ventilation-perfusion mismatch"
+  answer: 1
+  explanation: "When alveoli fill with fluid, they receive blood flow (perfusion is intact) but no ventilation. This creates a true intrapulmonary shunt: deoxygenated blood passes through the pulmonary circulation without picking up oxygen. Because shunted blood bypasses gas exchange entirely, increasing the inspired oxygen fraction cannot oxygenate it — only blood reaching ventilated alveoli benefits from higher FiO₂. Positive-pressure ventilation (CPAP/PEEP) addresses this by forcing fluid out of alveoli and recruiting collapsed units back into ventilation, physically restoring the ventilation-perfusion relationship."
+
+- question: "In cardiogenic pulmonary edema caused by left heart failure, administering diuretics reduces alveolar fluid accumulation by decreasing pulmonary capillary hydrostatic pressure."
+  type: true-false
+  answer: true
+  explanation: "Cardiogenic pulmonary edema results from left ventricular failure: the left ventricle cannot empty normally, blood backs up through the pulmonary veins, and pulmonary capillary hydrostatic pressure rises above the oncotic pressure that normally retains fluid in the capillaries. Diuretics reduce intravascular volume, directly lowering capillary hydrostatic pressure. With reduced pressure, the oncotic gradient can once again draw interstitial and alveolar fluid back into the capillaries, and the lymphatics can clear the remainder — producing clinical improvement."
+
+- question: "Alveolar fluid clearance is a passive process: fluid drains from alveoli simply because interstitial oncotic pressure exceeds alveolar oncotic pressure."
+  type: true-false
+  answer: false
+  explanation: "Alveolar fluid clearance is an active process driven by Na⁺/K⁺-ATPase pumps in the alveolar epithelium. These pumps move sodium ions from the alveolar space into the interstitium; water follows osmotically, clearing the alveolus. This active mechanism is energy-dependent and can be impaired by hypoxia or endothelial dysfunction in sepsis — which is why patients with septic shock develop particularly refractory pulmonary edema. Passive osmotic forces alone are insufficient to maintain the dry alveolar environment required for gas exchange."
+
+- question: "Compare how Starling forces lead to pulmonary edema in left heart failure versus ARDS, and explain why the treatment that works for one is ineffective for the other."
+  type: short-answer
+  answer: "In left heart failure, the left ventricle cannot empty adequately, so blood backs up into the pulmonary veins and capillaries, elevating capillary hydrostatic pressure above the oncotic pressure that retains fluid — causing fluid to leak. Diuretics reduce circulating volume, drop hydrostatic pressure, and restore the oncotic gradient. In ARDS, capillary permeability increases due to inflammatory endothelial injury, allowing both water and plasma proteins to leak freely. The resulting edema fluid is protein-rich and generates its own oncotic pressure, so diuretics cannot create a favorable gradient to reclaim it. Treating one mechanism with the other's therapy fails because the underlying Starling force disturbance is different."
+  explanation: "The distinction between pressure-driven and permeability-driven edema is clinically critical. Clinicians use the protein content of edema fluid (or pulmonary artery wedge pressure) to distinguish the two. Cardiogenic edema fluid is protein-poor (low oncotic pressure — easily reclaimed); ARDS fluid is protein-rich (nearly isotonic with plasma — resistant to reclamation). This also explains the different chest X-ray patterns: cardiogenic edema produces symmetric perihilar infiltrates and Kerley B lines reflecting the hydrostatic gradient from pulmonary veins; ARDS produces diffuse bilateral infiltrates without the perihilar predominance."
+```
+
 ## Explainer
 
 The lungs perform their gas exchange function across an extraordinarily thin barrier — in places just two cell layers separating alveolar air from capillary blood. This architecture is ideal for oxygen diffusion but demands that the alveolar space remain dry. **Pulmonary edema** is fundamentally a failure of fluid balance across that barrier, and understanding which mechanism fails determines both the clinical presentation and the treatment.

@@ -39,6 +39,45 @@ Study works by composers like Elliott Carter and Milton Babbitt who explicitly u
 ## Common Misconceptions
 Transformation is not the same as modulation or reharmonization. A single transposition is trivial; the interest lies in chains of transformations and their recursive patterns. Transformations are abstract—what matters is the relationship, not whether instruments literally move by those intervals.
 
+## Questions
+
+```yaml
+- question: "An analyst finds that the opening theme of a piece is the set {0, 1, 4} and the second theme is {6, 7, 10}. A set-theoretic approach notes they share the same prime form (0,1,4). What does transformational analysis add beyond this observation?"
+  type: multiple-choice
+  options:
+    - "It identifies whether the sets are consonant or dissonant in their harmonic context"
+    - "It determines which instruments should perform each set for maximum clarity"
+    - "It specifies which transposition or inversion (T₆ in this case) maps one set to the other, turning a static equivalence into a directed relationship"
+    - "It calculates the interval-class vector to determine which intervals the two themes share"
+  answer: 2
+  explanation: "Set-class analysis says: 'these two sets are of the same type.' Transformational analysis asks: 'which operation maps one to the other?' Here, adding 6 to each element of {0,1,4} gives {6,7,10} — so T₆ is the transformation. This is not just a label; it is a directed relationship. If the same T₆ appears repeatedly throughout the composition (between other important sets, at structural boundaries, in the climax), it reveals compositional architecture that set labeling alone cannot detect. The transformation — not the set type — becomes the analytical object."
+
+- question: "In transformational theory, applying transposition Tₙ to a pitch-class set is equivalent to:"
+  type: multiple-choice
+  options:
+    - "Modulating the music to a new key a semitone distance of n away, as in tonal music"
+    - "An abstract operation adding n to every pitch class modulo 12, which may or may not relate to any surface tonal change"
+    - "A description of how a performer transposes their part for a transposing instrument"
+    - "Moving from one chord quality to another (e.g., major to minor) by adjusting individual notes"
+  answer: 1
+  explanation: "Tₙ is a purely abstract algebraic operation: add n to every pitch class modulo 12. It is defined for any pitch-class set regardless of whether the music is tonal. T₃({0,4,7}) = {3,7,10} — neither chord is in a 'key' in the tonal sense. In atonal music, Tₙ relates sets structurally without implying any tonal center or modulation. Even when analyzing tonal music, the transformation captures a structural relationship that exists independently of harmonic function. The term 'transposition' overlaps with the tonal concept only when applied to diatonic pitch collections — in the general case, it is a group-theoretic operation."
+
+- question: "Two pitch-class sets are in the same set-class if and only if they are related by some element of the T/I group — meaning set-class equivalence is exactly the orbit equivalence relation under the group action of transpositions and inversions."
+  type: true-false
+  answer: true
+  explanation: "The T/I group consists of the 24 operations Tₙ and Iₙ for n = 0…11. Two sets are in the same set-class precisely when one can be mapped to the other by some T or I — they are in the same orbit of the group action. This is the connection between set-class theory and transformational theory: the former classifies by orbits, the latter studies the specific group elements connecting sets within and across those orbits. Transformational analysis adds precision: instead of 'these are the same type,' it says 'this specific operation connects them.'"
+
+- question: "If two pitch-class sets share the same prime form, there is exactly one transformation in the T/I group that maps one to the other."
+  type: true-false
+  answer: false
+  explanation: "Multiple transformations may map one set to another, especially for sets with internal symmetry. For instance, a set with inversional symmetry (like {0,2,6,8}, which equals its own inversion) can be mapped to itself by more than one operation. For an asymmetric set like {0,1,4}, both some Tₙ and some Iₙ will map it to any other member of its set-class — that is, there are always at least two transformations (one transposition and one inversion) mapping between two transpositionally equivalent sets. The non-uniqueness of transformations is actually analytically interesting: when multiple operations connect the same pair of sets, the composer may be exploiting that ambiguity."
+
+- question: "What is the central conceptual shift that distinguishes transformational analysis from traditional set-class analysis, and why does tracking the same transformation across a composition reveal something that set labeling alone cannot?"
+  type: short-answer
+  answer: "Set-class analysis is static: it classifies pitch-class sets into equivalence classes (set-types) based on their internal interval structure. Transformational analysis is dynamic: it treats operations — transpositions and inversions — as the primary analytical objects, asking how musical objects relate to and become each other through directed processes. Tracking whether the same transformation (say, T₆) recurs between structurally important sets throughout a piece reveals compositional logic: if the opening and closing themes are related by T₆, the development section highlights T₆ relationships, and the climax applies T₆ at a large formal scale, then T₆ is not a coincidence but a structural principle of the work. Set labeling cannot detect this because it only identifies what a set is, not how it moves."
+  explanation: "The shift parallels a change in scientific perspective: from classifying objects by their properties to studying the symmetries that relate them. Just as group theory reveals the structure of a physical system by studying its symmetries rather than individual states, transformational theory reveals musical structure by studying the operations that govern the music's development — making the invisible logic of a composition audible."
+```
+
 ## Explainer
 
 From your study of pitch-class sets, you already know how to identify, label, and compare sets using normal form, prime form, and the interval-class vector. From set-class equivalence, you know how to recognize when two sets are the same "type" up to transposition or inversion. **Transformational analysis** shifts the focus from static classification to dynamic relationship: rather than asking "what is this set?", it asks "how do we get from this set to that one?" The transformation — not the set itself — becomes the primary analytical object.

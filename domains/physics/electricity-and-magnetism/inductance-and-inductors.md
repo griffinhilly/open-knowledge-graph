@@ -36,6 +36,45 @@ Derive the solenoid self-inductance from the Biot-Savart/Ampère result for B in
 - The energy in an inductor is stored in the magnetic field, just as a capacitor stores energy in the electric field.
 - A large inductance does not mean large current or large flux — it means large EMF per unit rate of current change.
 
+## Questions
+
+```yaml
+- question: "An ideal inductor is connected in a simple DC circuit with a resistor and a battery. After the circuit has been running for a very long time (steady state), what is the voltage across the inductor?"
+  type: multiple-choice
+  options:
+    - "Equal to the battery voltage, since the inductor is in the circuit"
+    - "Zero, because dI/dt = 0 at steady state, so ε_L = −L dI/dt = 0"
+    - "Equal to L times the current flowing through it"
+    - "Undefined, because inductors cannot operate in DC circuits"
+  answer: 1
+  explanation: "This tests the most important behavioral fact about inductors: they oppose changes in current, not current itself. The induced EMF is ε_L = −L dI/dt. At DC steady state, current is constant — dI/dt = 0 — so the back-EMF is zero. The inductor behaves like a short circuit: all voltage drops across the resistor, and the inductor passes current freely. This is opposite to a capacitor, which at DC steady state is fully charged and acts as an open circuit. Confusing 'opposes current' with 'opposes changes in current' is the most common error with inductors."
+
+- question: "A solenoid has inductance L = μ₀N²A/ℓ. Which single modification would double L?"
+  type: multiple-choice
+  options:
+    - "Doubling the current flowing through it"
+    - "Doubling the number of turns N (while keeping length and area the same)"
+    - "Halving the length ℓ (while keeping N and area the same)"
+    - "Doubling both the length and area simultaneously"
+  answer: 2
+  explanation: "From L = μ₀N²A/ℓ, halving the length doubles L (since L ∝ 1/ℓ). Doubling N would quadruple L — the N² dependence means each extra turn both contributes to B and experiences more flux. Doubling the current doesn't affect L at all: inductance is a geometric property, entirely independent of current. Doubling both length and area simultaneously leaves L unchanged (2A/2ℓ = A/ℓ). The N² relationship is the subtlest — students often expect a linear relationship between turns and inductance."
+
+- question: "The energy stored in an inductor carrying current I equals ½LI², and this energy resides in the magnetic field surrounding the conductor."
+  type: true-false
+  answer: true
+  explanation: "Both parts are correct. The energy formula U = ½LI² comes from integrating the work done against the back-EMF while ramping current from 0 to I. That energy resides in the magnetic field — for a solenoid, the energy density is B²/2μ₀ throughout the field volume, and integrating over the solenoid volume gives exactly ½LI². This is the magnetic analog of a capacitor's ½CV², whose energy resides in the electric field. When current is interrupted, that stored magnetic energy drives a large voltage spike as the field collapses."
+
+- question: "An inductor with a larger inductance will carry more current than one with a smaller inductance when both are connected to the same DC voltage source."
+  type: true-false
+  answer: false
+  explanation: "Inductance determines how strongly a coil opposes changes in current, not how much current flows in steady state. In a DC circuit at steady state, an ideal inductor is a short circuit regardless of its inductance value — the steady-state current is determined by circuit resistance (V = IR), not by L. Larger L means the current takes longer to reach steady state (time constant τ = L/R is larger), but the final current is identical. Confusing 'larger L resists current changes more strongly' with 'larger L carries less current' is a common misconception — L controls rate of change, not magnitude."
+
+- question: "What does the equation ε_L = −L dI/dt reveal about how an inductor behaves differently when current is changing rapidly versus when current is constant?"
+  type: short-answer
+  answer: "When current is changing rapidly (large dI/dt), the equation produces a large back-EMF — the inductor strongly resists the change, acting like a high-impedance element. When current is constant (dI/dt = 0 at DC steady state), the back-EMF is zero regardless of L — the inductor offers no opposition and acts as a short circuit. This duality explains why inductors block high-frequency AC signals (rapidly changing current generates large back-EMF) while passing DC freely (no change, no opposition). The negative sign reflects Lenz's law: the induced EMF always opposes the change causing it."
+  explanation: "Inductors are current-inertia devices — like mechanical inertia, they resist changes to the state (current) rather than the state itself. A massive object is hard to accelerate or decelerate but doesn't resist moving at constant velocity. An inductor is hard to ramp up or down but offers no resistance to steady current flow. This analogy makes the steady-state short-circuit behavior intuitive rather than surprising."
+```
+
 ## Explainer
 
 Faraday's law tells you that a changing magnetic flux through a circuit induces an EMF. Self-inductance turns this around and asks: what if the circuit's own current creates the flux? When current I flows through a coil, it generates a magnetic field, which threads through the coil's own turns as flux Φ. If I changes, Φ changes, and by Faraday's law an EMF is induced — in the same coil, opposing the change. **Self-inductance** L is defined as the proportionality constant between flux linkage and current: NΦ = LI. Differentiating, you get ε_L = −L dI/dt, where the negative sign (from Lenz's law, your prerequisite) ensures the induced EMF opposes the current change.

@@ -29,6 +29,45 @@ Calculate tidal dissipation rates using Love numbers and orbital elements. Integ
 - All satellites move outward; some moons in resonances or irregular orbits can migrate inward.
 - Tidal dissipation is negligible in modern satellites; it remains significant and drives ongoing evolution.
 
+## Questions
+
+```yaml
+- question: "Phobos orbits Mars with a period of about 7.6 hours, while Mars rotates once every 24.6 hours. What does tidal theory predict for Phobos's future?"
+  type: multiple-choice
+  options:
+    - "Phobos spirals inward — it orbits faster than Mars rotates, so the tidal bulge lags behind it, exerting a backward gravitational torque that drains orbital energy"
+    - "Phobos spirals outward — faster orbital speed generates more tidal heating, adding energy to its orbit"
+    - "Phobos maintains a stable orbit because its fast speed prevents a persistent tidal bulge from forming"
+    - "Phobos spirals inward only if Mars's interior has a very low tidal dissipation factor Q"
+  answer: 0
+  explanation: "The direction of tidal migration depends on whether the satellite is inside or outside the planet's synchronous orbit. Phobos orbits faster than Mars rotates, meaning it is inside the synchronous orbit. The planet's tidal bulge cannot 'keep up' with Phobos and lags behind it. This lagging bulge pulls Phobos backward, removing angular momentum from its orbit and causing it to spiral inward. Phobos is predicted to either crash into Mars or be torn apart within ~50 million years."
+
+- question: "Moon A and Moon B orbit at the same distance outside their planet's synchronous orbit. Moon A has a tidal dissipation factor Q of 100; Moon B has Q of 10,000. Which migrates outward faster?"
+  type: multiple-choice
+  options:
+    - "Moon A — lower Q means higher tidal dissipation, producing a larger tidal bulge lag angle and a stronger outward gravitational torque"
+    - "Moon B — higher Q means more energy builds up in the planet before being transferred to the orbit"
+    - "They migrate at identical rates — Q affects only internal heating, not orbital dynamics"
+    - "Moon B — a larger Q means the tidal bulge leads the moon by a greater angle, increasing the forward torque"
+  answer: 0
+  explanation: "Q is the tidal quality factor: a low Q means high dissipation — the planet (or moon) absorbs tidal energy readily, producing large tidal bulge offsets with significant lag angles. A large lag angle creates a stronger gravitational torque on the orbiting satellite. Higher Q means near-elastic response, small offsets, and slow orbital evolution. The migration rate scales with k₂/Q (Love number divided by Q), so Moon A with Q = 100 migrates roughly 100× faster than Moon B with Q = 10,000."
+
+- question: "The Moon's recession from Earth and the gradual lengthening of Earth's day are both consequences of the same underlying physical mechanism."
+  type: true-false
+  answer: true
+  explanation: "Both effects arise from the same angular momentum transfer. Earth's faster rotation carries the tidal bulge slightly ahead of the Moon. The Moon's gravity pulls back on this leading bulge, slowing Earth's rotation (lengthening the day). Simultaneously, the leading bulge exerts a forward gravitational pull on the Moon, adding angular momentum to its orbit and pushing it outward. Angular momentum is conserved: what Earth's rotation loses, the Moon's orbit gains. The two phenomena are inseparable — you cannot have one without the other."
+
+- question: "A satellite always migrates outward due to tidal interactions with its parent planet, because tidal dissipation always adds energy to the orbit."
+  type: true-false
+  answer: false
+  explanation: "Migration direction depends entirely on whether the satellite orbits inside or outside the planet's synchronous orbit. For a satellite outside synchronous orbit (orbital period longer than the planet's rotation period), the tidal bulge leads the satellite, pulling it forward — the satellite migrates outward. For a satellite inside synchronous orbit (orbital period shorter than the planet's rotation period), the bulge lags behind the satellite, pulling it backward — the satellite migrates inward. Phobos and some inner moons of giant planets spiral inward; outward migration is not universal."
+
+- question: "Why do the Galilean moons of Jupiter (Io, Europa, Ganymede) maintain their 1:2:4 orbital resonance, and what does this resonance imply for their interiors?"
+  type: short-answer
+  answer: "As the moons migrated outward at different rates due to tidal evolution, their orbital periods converged on an integer ratio. Once captured in this resonance, gravitational kicks at regular intervals prevent further divergence — the resonance is self-reinforcing and stable. The resonance also forces the moons to maintain non-zero orbital eccentricities, which continuously deforms their interiors as they orbit. This periodic flexing generates tidal heating: Io experiences such intense heating that it is the most volcanically active body in the solar system, while Europa's heating maintains a subsurface liquid water ocean beneath its ice shell."
+  explanation: "The resonance is a fossil record of tidal migration, and its maintenance through eccentricity pumping is what makes Europa astrobiologically interesting. The present-day orbital architecture would not exist without billions of years of tidal evolution, illustrating how the current configuration of a satellite system encodes its dynamical history."
+```
+
 ## Explainer
 
 You already know that tidal forces heat satellite interiors — Io's volcanism is the dramatic example. But tidal interactions do more than generate heat: they systematically reshape orbits over billions of years. The core mechanism is a **transfer of angular momentum** between a planet's rotation and a satellite's orbit, mediated by the tidal bulge. When a moon orbits slower than its planet rotates (as our Moon does relative to Earth), the planet's tidal bulge is carried slightly ahead of the moon by the planet's faster rotation. This offset bulge exerts a gravitational tug that pulls the moon forward in its orbit, adding energy and causing it to **spiral outward**. Simultaneously, the moon's gravity pulls back on the bulge, slowing the planet's rotation. Earth's day is getting longer by about 2.3 milliseconds per century, and the Moon recedes at roughly 3.8 cm per year — both consequences of the same angular momentum transfer.

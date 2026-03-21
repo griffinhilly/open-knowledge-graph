@@ -36,6 +36,45 @@ Calculate interval vectors for pitch-class sets and identify Z-related pairs. Co
 ## Common Misconceptions
 - Assuming Z-related sets sound identical; they have the same interval vector but different pitch classes and transposition properties. - Confusing Z-relation with set-class equivalence; Z-relation is a relationship between different set classes. - Overlooking compositional significance of Z-relations, which often indicate harmonic ambiguity or equivalence.
 
+## Questions
+
+```yaml
+- question: "You calculate the interval vectors of two pitch-class sets and find they are identical. What can you conclude?"
+  type: multiple-choice
+  options:
+    - "The sets must belong to the same set class — identical interval vectors guarantee they are transpositionally or inversionally related"
+    - "The sets share the same distribution of interval classes, but they may be in the same set class or may be Z-related — you cannot conclude equivalence from interval vectors alone"
+    - "The sets are enharmonically equivalent and will always sound interchangeable in a musical context"
+    - "The sets are inversionally related, since inversion preserves interval content"
+  answer: 1
+  explanation: "This is the key misconception that Z-related sets expose. For most cardinalities, identical interval vectors do imply the same set class, so the intuition is understandable. But Z-related set classes are genuine counterexamples: two different set classes (not related by any Tn or TnI) that happen to share identical interval vectors. Knowing the interval vector is not sufficient to determine set-class membership. You must check whether the sets can actually be mapped onto each other by transposition or inversion."
+
+- question: "A composer is writing a serial work and wants to create a row where both hexachords (the first six and last six pitch classes) contribute identical interval-class profiles to the aggregate while having no pitch classes in common. Which set-theoretic relationship would serve this purpose?"
+  type: multiple-choice
+  options:
+    - "The two hexachords should be members of the same set class, so they have identical interval vectors and prime forms"
+    - "The two hexachords should be Z-related — different set classes with identical interval vectors — ensuring the same interval distribution with non-overlapping pitch content"
+    - "The two hexachords should be complementary but in the same Forte name, creating symmetrical pitch-class coverage"
+    - "The two hexachords should be related by inversion (TnI), preserving interval content while changing pitch classes"
+  answer: 1
+  explanation: "Z-related hexachords are exactly the tool for this compositional need. Because they belong to different set classes, they cannot share any transposition or inversion relationship — meaning if carefully chosen, they can have disjoint pitch-class content (complementary hexachords partitioning all 12 pitch classes). Yet their interval vectors are identical, so both halves of the row contribute the same distribution of interval classes to the aggregate. Babbitt and others exploited this: the row's two halves have identical 'sonic texture' in terms of interval content while maintaining complete pitch-class independence."
+
+- question: "Two pitch-class sets that are Z-related belong to different set classes — they cannot be mapped onto each other by any transposition or inversion."
+  type: true-false
+  answer: true
+  explanation: "True — this is the defining property of Z-relation. Set-class equivalence is defined by the Tn/TnI operations; two sets are in the same set class if and only if one can be transformed into the other by some transposition Tn or inversion TnI. Z-related sets, by definition, fail this test: no transposition or inversion maps one onto the other. They are genuinely distinct set classes that share identical interval vectors. This is what makes Z-relation surprising — it breaks the expected connection between interval content and set-class equivalence."
+
+- question: "A composer using Z-related pairs in a piece will produce passages that sound harmonically identical to the ear, since the sets share the same interval vector."
+  type: true-false
+  answer: false
+  explanation: "False. Z-related sets have the same interval-class distribution (the same count of each interval class among their elements), but they contain different pitch classes and have different transpositional symmetry properties. While they share an abstract 'harmonic color' in terms of interval content, their actual sound depends on which specific pitches are present, register, orchestration, and context. The interval vector is an abstraction that captures one dimension of similarity; listeners perceive the actual pitches, not the vector. Z-related sets create harmonic continuity at an abstract level, not perceptual identity."
+
+- question: "Explain why Z-related sets cannot be considered equivalent under the standard set-class operations, and what makes them harmonically significant despite being in different set classes."
+  type: short-answer
+  answer: "Z-related sets cannot be equivalent under Tn/TnI because set-class equivalence is defined by those operations: same set class means one can transform into the other by transposition or inversion. Z-related sets fail this — no Tn or TnI maps one onto the other, so they have different prime forms and Forte names. Their harmonic significance comes from their identical interval vectors: both sets contain the same distribution of interval classes (same count of minor 2nds, major 2nds, minor 3rds, etc.), meaning they share the same abstract pattern of consonance and dissonance. This allows composers to move between them while maintaining a consistent harmonic 'color.'"
+  explanation: "The Z-relation reveals that set-class equivalence and interval-class equivalence are not the same thing. Normally they coincide, but Z-related pairs are exceptions where the combinatorial structure of mod-12 arithmetic produces two genuinely different set classes with the same interval fingerprint. This distinction matters for analysis: identifying Z-pairs in a score tells you the composer is exploiting interval-content equivalence without pitch-class equivalence — a specific kind of harmonic relationship that is invisible if you only compare set classes."
+```
+
 ## Explainer
 
 From set-class equivalence, you know that two pitch-class sets belong to the same **set class** if one can be transformed into the other by transposition (Tn) or inversion (TnI). The set class is the equivalence class under these operations, and its canonical representative is the **prime form**. From pitch-class set operations, you know how to compute the **interval vector** — a six-element array counting how many times each interval class (1 through 6) appears among all pairs of elements in the set. The interval vector is a sonic fingerprint: two sets with identical interval vectors contain the same interval content, meaning they have the same distribution of half-steps, whole-steps, minor thirds, and so on.

@@ -34,6 +34,45 @@ Apply multiple models to the same health behavior (e.g., physical activity, smok
 - The stages-of-change model describes how people naturally move, not a prescription for pushing everyone to action—supporting maintenance and preventing relapse is equally important.
 - 'Empowerment' in health promotion requires genuine redistribution of decision-making power, not just giving people information.
 
+## Questions
+
+```yaml
+- question: "A public health agency distributes leaflets explaining the health risks of processed food in a low-income neighborhood with no grocery stores within walking distance. Six months later, diet quality is unchanged. Which model best explains why this intervention was insufficient?"
+  type: multiple-choice
+  options:
+    - "Health Belief Model — residents did not perceive themselves as susceptible to diet-related disease"
+    - "Transtheoretical Model — residents were in precontemplation and not ready to change"
+    - "Social-Ecological Model — individual information cannot overcome structural barriers such as lack of access to healthy food"
+    - "Social Cognitive Theory — residents lacked self-efficacy to read health materials"
+  answer: 2
+  explanation: "The Social-Ecological Model situates individual behavior within interpersonal, organizational, community, and policy levels. In a food desert, the structural barrier (no accessible healthy food) operates at the community and policy level. No amount of individual-level knowledge can fix a missing sidewalk or grocery store. The intervention targeted only the intrapersonal level (information) while leaving the structural determinants untouched. This is the classic failure mode that the SEM was designed to diagnose."
+
+- question: "According to the Transtheoretical Model, someone who acknowledges they need to quit smoking but is not planning to act for at least six months is in which stage? What type of intervention is most appropriate?"
+  type: multiple-choice
+  options:
+    - "Action stage; provide nicotine replacement therapy and behavioral strategies"
+    - "Contemplation stage; use motivational interviewing to raise ambivalence and explore pros and cons of change"
+    - "Preparation stage; teach specific quitting techniques and set a quit date"
+    - "Precontemplation stage; increase awareness by providing information about health risks"
+  answer: 1
+  explanation: "Contemplation is defined as awareness of the problem and ambivalence about change, without active planning within the next 30 days. This person knows they should quit (not precontemplation) but isn't planning imminently (not preparation). Motivational interviewing is the matched intervention: it works with ambivalence rather than pushing toward action prematurely. Providing nicotine patches (action-stage support) to a contemplator is premature and often counterproductive."
+
+- question: "Health promotion is most effective when it targets multiple levels of the Social-Ecological Model simultaneously, because individual behavior is shaped by interpersonal, organizational, community, and policy forces beyond individual cognition."
+  type: true-false
+  answer: true
+  explanation: "This is the SEM's core claim and its main contribution over single-level models. Physical activity, for instance, is shaped by individual motivation, social norms, workplace culture, neighborhood walkability, and physical education policy — all at once. Intervening at only one level (e.g., awareness campaigns) while leaving others unchanged produces limited and fragile behavior change. Multilevel interventions are consistently more effective in the evidence base."
+
+- question: "The Transtheoretical Model's primary practical implication is that interventions should push people through the stages as quickly as possible, ideally moving everyone to the action stage within a single program."
+  type: true-false
+  answer: false
+  explanation: "This reverses the model's core insight. The TTM argues that interventions should be *matched to stage* — what works for someone in preparation (skill-building, setting a quit date) is irrelevant or counterproductive for someone in precontemplation (who first needs their ambivalence raised). Additionally, supporting maintenance and preventing relapse is equally important; relapse to earlier stages is treated as normal, not failure. Rushing people to action without building readiness typically produces short-lived change."
+
+- question: "Why does the Social-Ecological Model argue that information-only health campaigns routinely fail, even when they successfully increase knowledge? What does the model reveal that knowledge-based approaches miss?"
+  type: short-answer
+  answer: "The SEM argues that individual behavior is determined by forces operating at multiple nested levels — interpersonal relationships, organizational norms, community resources, and public policy — not just individual knowledge or attitudes. Information campaigns address only the intrapersonal level. Even when a person gains full awareness of health risks, structural barriers (no safe place to exercise, no healthy food nearby, no time off work) or social norms (peers who smoke, families with unhealthy food traditions) can make the desired behavior practically impossible. The model reveals that the 'cause' of unhealthy behavior is often not ignorance but an environment that makes the healthy choice the harder choice."
+  explanation: "A classic illustration: people in underserved communities know that smoking causes cancer at roughly the same rate as everyone else — the knowledge gap is small. But tobacco marketing is heavier in those communities, social networks normalize smoking, stress levels are higher, and cessation programs are less accessible. None of these are knowledge problems. The SEM framework redirects intervention designers to ask: at which level is the determinant operating, and what would an intervention at that level look like?"
+```
+
 ## Explainer
 
 Your prerequisite on disease prevention levels established the spectrum from primary to tertiary prevention — stopping disease before it starts, detecting it early, and managing existing disease. Health promotion sits squarely in primary prevention, but it raises an immediate puzzle: if people know that smoking, physical inactivity, and poor diet harm their health, why don't they simply stop? The behavior change models you are learning here are attempts to answer that question rigorously, and each gives a different answer that implies different intervention strategies.

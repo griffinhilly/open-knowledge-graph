@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 For a rigid body rotating about a fixed axis, angular kinematics parallels linear kinematics: ω = dθ/dt, α = dω/dt. The kinetic equation is ΣM = I α, where M is the net torque and I is the moment of inertia about the axis. Kinetic energy is KE = ½I ω². These equations fully describe the rotational motion of wheels, rotors, and other rotating machinery.
 
+## Questions
+
+```yaml
+- question: "A solid disk (moment of inertia I) and a thin ring (moment of inertia 2I, same outer radius) are each subjected to the same constant net torque M about their central axis. What is the ratio of their angular accelerations (disk : ring)?"
+  type: multiple-choice
+  options:
+    - "1:1 — same torque means same angular acceleration by Newton's second law"
+    - "2:1 — the disk has half the moment of inertia, so ΣM = Iα gives twice the acceleration"
+    - "1:2 — the ring has more mass near the rim, giving it a mechanical advantage"
+    - "Cannot be determined without knowing the mass"
+  answer: 1
+  explanation: "From ΣM = Iα, angular acceleration is α = ΣM / I. Same torque M applied to I gives α_disk = M/I; applied to 2I gives α_ring = M/(2I). Ratio = 2:1. The analogy is exact: doubling mass halves linear acceleration for the same force; doubling moment of inertia halves angular acceleration for the same torque. Option A is the common misconception — students forget that I, not mass alone, determines rotational response."
+
+- question: "A wheel (moment of inertia I) starts from rest and reaches angular velocity ω after rotating through angle θ under a constant net torque M. Using the work-energy method, which expression gives I?"
+  type: multiple-choice
+  options:
+    - "I = Mθ / ω"
+    - "I = 2Mθ / ω²"
+    - "I = Mω / (2θ)"
+    - "I = Mθω²"
+  answer: 1
+  explanation: "Work done by a constant torque through angle θ is W = Mθ. By the work-energy theorem, W = ΔKE = ½Iω² − 0. Setting Mθ = ½Iω² and solving: I = 2Mθ/ω². This mirrors the linear case: ½mv² = Fd → m = 2Fd/v². The work-energy approach avoids integrating the equation of motion and is often faster when the question asks for speed at a given angle rather than acceleration at an instant."
+
+- question: "For a rigid body rotating about a fixed axis, the kinetic energy is ½mv², where v is the speed of the body's center of mass."
+  type: true-false
+  answer: false
+  explanation: "For pure rotation about a fixed axis, the kinetic energy is ½Iω², where I is the mass moment of inertia about that axis. The formula ½mv² applies to translational motion of a point mass. A rotating body's kinetic energy depends on how its mass is distributed (captured by I) and its angular velocity ω, not on the linear speed of a single point. Using ½mv_cm² instead of ½Iω² would give the wrong answer for any mass distribution other than a particle."
+
+- question: "The equation ΣM = Iα for fixed-axis rotation is valid only when the axis of rotation does not translate."
+  type: true-false
+  answer: true
+  explanation: "ΣM = Iα applies when the axis is truly fixed in space — like a wheel on an axle. When the axis itself accelerates (a rolling wheel on a moving surface, a swinging pendulum with a moving pivot), you are in general plane motion, which requires both a translational equation (ΣF = ma_cm) and a rotational equation (ΣM_cm = I_cm·α). Using ΣM = Iα for a non-fixed axis is a common error that gives incorrect results."
+
+- question: "Describe the rotational analogue of Newton's second law for fixed-axis rotation: what quantity plays the role of force, mass, and acceleration, and why does a larger moment of inertia mean a slower rotational response to the same torque?"
+  type: short-answer
+  answer: "Net torque ΣM plays the role of force, moment of inertia I plays the role of mass, and angular acceleration α plays the role of linear acceleration. The governing equation is ΣM = Iα (compare to ΣF = ma). A larger I means mass is distributed farther from the axis; that mass resists rotational acceleration more because accelerating it requires more force at a greater radius. Same torque on larger I yields smaller α, just as same force on larger mass yields smaller linear acceleration."
+  explanation: "Moment of inertia is not just mass — it is a measure of how far from the axis that mass sits. A hollow cylinder and a solid cylinder of equal mass have different moments of inertia because the hollow one has all its mass at the maximum radius, giving it the maximum possible rotational inertia. This is why figure skaters pull in their arms to spin faster — redistributing mass closer to the rotation axis reduces I, and since angular momentum Iω is conserved, ω must increase."
+```
+
 ## Explainer
 
 From rigid-body kinematics you know how to describe the geometry of rotation: angular position θ, velocity ω = dθ/dt, and acceleration α = dω/dt are related by the same calculus as linear position, velocity, and acceleration. From moment of inertia, you know how mass distributed around an axis resists rotational acceleration. Fixed-axis dynamics brings these threads together: it answers the question of *what causes* the angular acceleration you've been describing kinematically.

@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 We justifiably rely on testimony from credible sources, but must assess expertise, bias, and independence. Evaluating authority involves checking credentials, track record, and conflicts of interest rather than accepting claims simply because an authority states them. Not all testimonial disagreement undermines justification; sometimes authorities disagree yet we have reasons to trust one over another.
 
+## Questions
+
+```yaml
+- question: "A drug company reports their medication is 80% effective. An independent review by researchers with no financial ties to the manufacturer finds 45% effectiveness. A cardiologist who consults for the company recommends the drug. How should these sources be weighted?"
+  type: multiple-choice
+  options:
+    - "The company's data most heavily — they have the most resources and a direct incentive to be accurate"
+    - "The independent review most heavily — it has greater independence from parties with financial stakes in the outcome"
+    - "The cardiologist's recommendation most heavily — medical domain expertise is the key variable"
+    - "All three equally — when sources disagree, we should remain agnostic"
+  answer: 1
+  explanation: "Independence from conflicting interests is a critical factor in testimonial credibility. The company has a strong financial incentive to show high effectiveness, undermining its independence. The cardiologist also has a consulting relationship with the company (conflict of interest). The independent review with no financial ties ticks the most credibility boxes: domain expertise, independence, and absence of financial conflict. Testimonial disagreement does not require agnosticism when asymmetries in credibility are visible."
+
+- question: "A Nobel Prize-winning physicist gives a widely-viewed interview arguing for a specific immigration policy. How should this testimony be weighted?"
+  type: multiple-choice
+  options:
+    - "Very highly — Nobel laureates have demonstrated extraordinary intelligence applicable across domains"
+    - "As you would weight any thoughtful non-expert opinion — their track record in physics does not transfer to immigration policy"
+    - "Moderately — expertise in a quantitative field provides some evidence of competence in related policy analysis"
+    - "Not at all — credentialed experts should only ever speak publicly within their exact specialty"
+  answer: 1
+  explanation: "Expertise scope is domain-specific. A Nobel laureate's track record of accurate, peer-validated claims is specifically in their field of physics, not in economics, political science, or policy. Deference to an expert's authority is justified only within their area of demonstrated competence. Outside that domain, they are offering an opinion that warrants the same scrutiny as any thoughtful layperson's. This does not mean ignoring them — it means calibrating the weight of their testimony to the domain."
+
+- question: "When two apparent authorities disagree, examining asymmetries in their independence, track record, and domain expertise can provide rational grounds for favoring one position."
+  type: true-false
+  answer: true
+  explanation: "Testimonial disagreement does not automatically require agnosticism. The question is not 'do experts disagree?' but 'what explains the disagreement, and which side has the stronger epistemic position?' Asymmetries in conflict of interest, depth of domain experience, scope of peer support, and predictive track record can all favor one side. Treating all expert disagreement as equally canceling out is itself an epistemic error — it ignores the structure of the disagreement."
+
+- question: "Citing a credentialed expert as evidence for a claim is sufficient justification, because credentials establish domain authority."
+  type: true-false
+  answer: false
+  explanation: "Credentials are one factor in assessing testimonial credibility, not a sufficient condition on their own. The appeal-to-authority fallacy specifically targets the mistake of treating authority as a conversation-stopper. A credentialed expert may have conflicts of interest, be outside their domain of expertise, lack a strong track record on the specific type of claim, or represent a minority position within their field. Credentials warrant attention to the testimony; they don't end the evaluation."
+
+- question: "What distinguishes an inappropriate appeal to authority from legitimate reliance on testimony? What factors make testimonial evidence genuinely strong?"
+  type: short-answer
+  answer: "An inappropriate appeal to authority cites someone whose credentials are irrelevant to the claim (wrong domain), ignores conflicts of interest, or treats authority as proof rather than evidence. Legitimate testimonial evidence is strong when the source has: (1) domain expertise directly relevant to the claim, (2) a track record of accurate claims in that domain, (3) independence from parties with financial or ideological stakes in the conclusion, and (4) no strong personal incentive to mislead. The more of these conditions are met, the more the testimony functions as genuine evidence — not because the expert cannot be wrong, but because the conditions that systematically produce error are absent."
+  explanation: "The positive account of good testimony is what makes this topic more than just 'watch out for fallacies.' We rely on testimony for the vast majority of our beliefs, so developing a principled positive account of what makes testimony credible is one of the most practically important epistemological skills."
+```
+
 ## Explainer
 
 From your work on arguments, you know that a good argument requires premises that are true (or well-justified) and reasoning that connects them to the conclusion. But where do premises come from? In practice, most of what we believe is not the result of our own direct observation or reasoning — it comes through **testimony**: reports, claims, and assertions made by other people. You believe the Earth is roughly 4.5 billion years old not because you've run the radiometric dating yourself, but because scientists you've never met have said so through a long chain of publication, teaching, and reporting. This makes evaluating testimony one of the most practically consequential reasoning skills there is.

@@ -30,6 +30,45 @@ Derive it intuitively: the midpoint is the "average location" of the two endpoin
 - Confusing the midpoint formula with the distance formula.
 - When asked to find an endpoint given the midpoint and other endpoint, students often just apply the midpoint formula directly rather than solving for the unknown.
 
+## Questions
+
+```yaml
+- question: "One endpoint of a segment is (-3, 7) and the midpoint is (2, 1). What are the coordinates of the other endpoint?"
+  type: multiple-choice
+  options:
+    - "(-0.5, 4) — the midpoint of the given endpoint and midpoint"
+    - "(7, -5) — solving the midpoint equation for the unknown endpoint"
+    - "(5, -6) — subtracting the known endpoint from the midpoint"
+    - "(-1, 4) — averaging the given endpoint and midpoint coordinates"
+  answer: 1
+  explanation: "Set up the midpoint equation: 2 = (-3 + x₂)/2, so -3 + x₂ = 4, giving x₂ = 7. Then 1 = (7 + y₂)/2, so 7 + y₂ = 2, giving y₂ = -5. Answer: (7, -5). The most common error is applying the midpoint formula again to the known endpoint and the midpoint — that gives the midpoint of a different segment entirely. The reverse problem requires setting up and solving an equation, not directly applying the formula."
+
+- question: "What is the midpoint of the segment with endpoints (4, -6) and (-2, 8)?"
+  type: multiple-choice
+  options:
+    - "(6, 2) — subtracting the coordinates instead of averaging"
+    - "(2, 2) — averaging only the x-coordinates"
+    - "(1, 1) — averaging both coordinate pairs correctly"
+    - "(1, 7) — correct x, but adding instead of averaging the y-coordinates"
+  answer: 2
+  explanation: "Midpoint = ((4 + (-2))/2, (-6 + 8)/2) = (2/2, 2/2) = (1, 1). Each coordinate is computed independently by averaging: the x-midpoint is the average of the x-coordinates, and the y-midpoint is the average of the y-coordinates. Option A (subtracting) is the classic error — midpoint uses addition followed by division by 2, not subtraction."
+
+- question: "The midpoint formula works by averaging the x-coordinates and averaging the y-coordinates independently — there is no interaction between the two dimensions."
+  type: true-false
+  answer: true
+  explanation: "This is exactly right. The midpoint of (x₁, y₁) and (x₂, y₂) is ((x₁+x₂)/2, (y₁+y₂)/2). The x-calculation involves only x-coordinates, and the y-calculation involves only y-coordinates — just like finding the midpoint on a number line, applied twice. This independence is what makes the formula easy to remember and apply: it is just averaging, done separately for each coordinate."
+
+- question: "To find a missing endpoint when given one endpoint and the midpoint, you apply the midpoint formula to the known endpoint and the midpoint."
+  type: true-false
+  answer: false
+  explanation: "This is the most common error in 'reverse midpoint' problems. If you apply the midpoint formula to the known endpoint and the midpoint, you get the midpoint of a different (shorter) segment — not the missing endpoint. Instead, set up the midpoint equation with the unknown: M_x = (x₁ + x₂)/2, substitute the known values, and solve algebraically for the unknown coordinate. For example, if midpoint is (5, 3) and one endpoint is (2, 1): 5 = (2 + x₂)/2 → x₂ = 8, not 3.5."
+
+- question: "A student finds the midpoint of (2, 8) and (6, 4) by computing (2+8)/2 = 5 and (6+4)/2 = 5, getting (5, 5). What error did they make, and what is the correct midpoint?"
+  type: short-answer
+  answer: "The student mixed up the coordinates — they averaged the x-coordinate of one point with the y-coordinate of the other, and vice versa. The correct calculation pairs coordinates by dimension: average the x-coordinates (2 and 6) to get (2+6)/2 = 4, and average the y-coordinates (8 and 4) to get (8+4)/2 = 6. The correct midpoint is (4, 6)."
+  explanation: "The midpoint formula requires keeping x-coordinates together and y-coordinates together. The student computed (x₁+y₁)/2 and (x₂+y₂)/2 instead of (x₁+x₂)/2 and (y₁+y₂)/2 — a coordinate-mixing error. Staying organized by writing the formula first and substituting carefully prevents this. The answer (5,5) happens to look plausible since both coordinates are equal, which is why catching this error requires checking the setup, not just the arithmetic."
+```
+
 ## Explainer
 
 You already know how to locate points on a coordinate plane and measure the distance between them. The midpoint formula asks a simpler question: not how far apart are two points, but where is the exact center between them?

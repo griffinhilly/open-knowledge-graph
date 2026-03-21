@@ -33,6 +33,45 @@ Analyze a text (advertisement, film scene, poem) by identifying its codes: what 
 ## Common Misconceptions
 That structure determines meaning completely, leaving no room for interpretation or context. That decoding a system exhausts meaning—semiotics reveals how meaning is produced, not what 'correct' meaning is.
 
+## Questions
+
+```yaml
+- question: "An advertisement places a luxury car next to images of open roads and natural wilderness. A structuralist semiotician would explain this meaning-transfer as:"
+  type: multiple-choice
+  options:
+    - "The car is inherently exciting, so viewers naturally associate it with freedom"
+    - "Juxtaposing two signifiers causes cultural meanings of one to transfer to the other through a shared advertising code"
+    - "Viewers are consciously aware of the persuasive technique and choose to accept the association"
+    - "The meaning is fixed by the car manufacturer's intended message"
+  answer: 1
+  explanation: "Structuralist semiotics explains this as a semiotic operation: two signifiers are placed in proximity so that the cultural meanings encoded in one (freedom, nature, authenticity) transfer to the other through a conventionalized advertising code. Viewers apply this code automatically, without conscious awareness. The meanings are not intrinsic to the car — option A makes the classic error of treating meaning as inherent rather than relational and coded."
+
+- question: "A viewer raised in one cultural context decodes a film's climactic scene as triumphant; a viewer from a different context decodes the same scene as deeply tragic. A structuralist explanation for this divergence is:"
+  type: multiple-choice
+  options:
+    - "One viewer is misreading the scene — only one interpretation is correct"
+    - "The filmmaker failed to communicate their intended meaning"
+    - "The two viewers are applying different cultural codes that produce divergent readings from the same signs"
+    - "Film is inherently ambiguous, so any interpretation is equally valid"
+  answer: 2
+  explanation: "Structuralist semiotics explains this by pointing to different codes: the same signifiers produce different meanings when decoded through different cultural, generic, or symbolic codes. This is why structuralism explains both why communication works (shared codes produce shared readings) and why it sometimes fails (different codes produce divergent ones). It is not a failure of the text or a mistake by a viewer — it is a demonstration that meaning is produced by codes, not fixed in signs."
+
+- question: "In structuralist semiotics, the meaning of a sign is determined by the sign itself, independently of its relations to other signs in the system."
+  type: true-false
+  answer: false
+  explanation: "This is the core misconception structuralism rejects. Following Saussure, structuralist semiotics holds that meaning is differential and relational — a sign means what it means because of how it differs from other signs in the system, not because of any intrinsic content. 'Dog' means what it does in part because it is not 'cat,' 'log,' 'bog,' and so on. Isolate the sign from the system and its meaning dissolves."
+
+- question: "Identifying the codes operating in a text reveals how its meanings are produced, even though different codes might generate divergent readings of the same text."
+  type: true-false
+  answer: true
+  explanation: "This is precisely the analytical claim of structuralist semiotics. Codes explain the mechanism of meaning-production — they show why certain interpretations arise in certain cultural contexts. But identifying codes does not deliver the 'correct' meaning; it shows how multiple meanings become possible when different codes are applied. Structure enables meaning without fixing it."
+
+- question: "Why does structuralist semiotics claim that 'structure enables meaning without fixing it'? What does this mean for interpreting a text?"
+  type: short-answer
+  answer: "Codes provide a system of possibilities from which meanings are drawn, but they do not mandate a single correct reading. Readers who have internalized different codes — generational, cultural, subcultural — will decode the same text differently. The structure makes meaning possible (without shared codes, communication would fail entirely), but it does not determine a unique output. Analyzing codes reveals how meanings are produced, not what the one true meaning is."
+  explanation: "This is the key insight that distinguishes structuralist from naively hermeneutic approaches. The structure is a constraint and enabler simultaneously. It explains why people within a cultural community tend to read texts similarly (shared codes), why outsiders read them differently (different codes), and why the same text can sustain multiple readings across time (codes shift). It prepares students for Barthes's mythology work, where ideological meanings are naturalized through coding, and for cultural studies' attention to how power shapes which codes are treated as universal."
+```
+
 ## Explainer
 
 You already know from your study of the Saussurean sign that linguistic meaning is not natural or inherent—it is **differential**, relational, and arbitrary. The sign is composed of a signifier (sound-image) and a signified (concept), and their connection is determined by convention within a language system, not by resemblance to the world. Structuralist semiotics extends this insight from linguistics to all sign systems: literature, film, fashion, advertising, architecture, ritual. The claim is that any cultural practice that produces meaning is organized like a language—it has structural rules, oppositions, and conventions that competent participants have internalized without necessarily being able to articulate them.

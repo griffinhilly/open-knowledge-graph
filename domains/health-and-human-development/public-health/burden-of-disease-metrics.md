@@ -31,6 +31,45 @@ Calculate DALYs and QALYs for different diseases to compare burden across condit
 ## Common Misconceptions
 DALY and QALY are identical measures. Ignoring distributional effects and who bears the burden across populations. Treating burden metrics as purely objective measures rather than value-laden choices with ethical implications.
 
+## Questions
+
+```yaml
+- question: "Disease A kills 1,000 people at age 70 (contributing roughly 12 YLL each). Disease B causes 50,000 people to live 20 years with a disability weight of 0.5. Which disease contributes more DALYs, and what does this reveal about burden of disease analysis?"
+  type: multiple-choice
+  options:
+    - "Disease A, because mortality is always weighted more heavily than disability in the DALY formula"
+    - "Disease B, because its YLD (50,000 × 20 × 0.5 = 500,000) vastly outweighs Disease A's YLL (1,000 × 12 = 12,000)"
+    - "They contribute equally, since DALY converts both death and disability to a common scale"
+    - "Cannot be determined without knowing the discount rate applied to future years"
+  answer: 1
+  explanation: "Disease B contributes 500,000 YLD versus Disease A's 12,000 YLL — more than 40 times as much. This reveals a crucial insight: widespread chronic non-fatal conditions often dominate DALY calculations even when their mortality is low. This is why the global epidemiological transition (falling infectious mortality, rising chronic non-communicable disease) has shifted DALY rankings dramatically — depression, back pain, and diabetes generate enormous YLD despite causing fewer deaths than historic infectious diseases."
+
+- question: "A health economist uses QALYs rather than DALYs to evaluate whether a new cancer drug should be funded by a national health system. What is the most important reason for choosing QALYs in this context?"
+  type: multiple-choice
+  options:
+    - "QALYs measure functional impairment more accurately than DALYs"
+    - "DALYs cannot be applied to chronic diseases, only to acute infectious conditions"
+    - "QALYs enable calculation of the incremental cost-effectiveness ratio (ICER), directly answering whether the drug provides sufficient health gain per dollar spent"
+    - "QALYs are free from value judgments, unlike DALYs, which embed disability weights set by expert panels"
+  answer: 2
+  explanation: "QALYs are designed for cost-effectiveness analysis: dividing intervention cost by QALYs gained yields the ICER, which is then compared to a threshold (e.g., £30,000 per QALY in UK NICE assessments) to decide funding. DALYs are designed for population-level burden comparison and priority-setting, not cost-effectiveness evaluation. Option D is false — both metrics embed value judgments, just in different ways."
+
+- question: "A country's DALY burden estimates remain the same regardless of whether analysts use a 3% annual discount rate or a 0% discount rate."
+  type: true-false
+  answer: false
+  explanation: "Discount rates reduce the value of future health years — at 3%, a DALY averted 20 years from now is worth less than one averted today. This disproportionately affects diseases whose harms materialize decades later and interventions (like childhood vaccination) whose benefits accrue over a lifetime. A 0% discount rate treats future and present health equally, which substantially changes relative burden rankings and intervention priorities."
+
+- question: "Within the DALY framework, assigning a disability weight to a health condition inherently reflects value judgments about how much worse it is to live with that condition than to live in perfect health."
+  type: true-false
+  answer: true
+  explanation: "Disability weights (between 0 = perfect health and 1 = equivalent to death) embed normative assumptions about the value of different health states. Disability rights advocates note that people living with conditions like limb amputation or deafness often report high quality of life, yet are assigned substantial disability weights by external expert panels. This reveals that DALYs are not purely objective measures — they encode societal values about which ways of living count as 'reduced' health."
+
+- question: "Why do disability rights advocates critique the use of disability weights in DALY calculations, and what does this critique reveal about the nature of burden of disease metrics?"
+  type: short-answer
+  answer: "Disability weights assume that living with a given condition constitutes a fixed fractional loss of a healthy year — but this judgment is made by expert panels or general-population surveys, not necessarily by people living with those conditions. People with disabilities often adapt to and value their lives highly, yet are assigned substantial weights by external raters. The critique reveals that DALYs are not purely descriptive measurements: they embed normative claims about which ways of living are 'healthy,' and those claims determine which diseases are counted as burdensome and which interventions get prioritized."
+  explanation: "This isn't a fatal flaw in the DALY framework — all metrics embed values — but it means burden of disease analysis is a political as well as technical exercise. The design choices (discount rates, age weights, how disability weights are elicited) determine whose suffering gets counted and how much, shaping global health funding priorities accordingly."
+```
+
 ## Explainer
 
 From your study of epidemiology, you can count cases, calculate rates, and measure how common diseases are across populations. But raw frequency doesn't tell you everything: a condition that kills people young versus one that causes decades of disability are very different burdens, even if they affect the same number of people. Burden of disease metrics were developed precisely to answer the follow-up question: across all the conditions affecting a population, which ones matter most in aggregate, and how do we weigh premature death against years lived with impairment?

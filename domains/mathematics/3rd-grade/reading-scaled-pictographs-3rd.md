@@ -30,6 +30,45 @@ Create pictographs with concrete objects or drawings. Explicitly discuss what ea
 - Counting symbols instead of using the scale.
 - Not understanding that a partial symbol represents a partial amount.
 
+## Questions
+
+```yaml
+- question: "In a pictograph about favorite sports, the key shows: each symbol = 5 students. The 'soccer' row has 4 symbols. How many students chose soccer?"
+  type: multiple-choice
+  options:
+    - "4 students"
+    - "5 students"
+    - "9 students"
+    - "20 students"
+  answer: 3
+  explanation: "To read a scaled pictograph, you multiply the number of symbols by the scale value from the key: 4 symbols × 5 students per symbol = 20 students. Option A is the most common error — counting 4 symbols as 4 students ignores the scale entirely. Always check the key before you count, then multiply."
+
+- question: "A pictograph uses a key showing each symbol = 4 books. A student's row shows 3 full symbols and 1 half symbol. How many books did the student read?"
+  type: multiple-choice
+  options:
+    - "3 books"
+    - "4 books"
+    - "12 books"
+    - "14 books"
+  answer: 3
+  explanation: "Full symbols: 3 × 4 = 12 books. Half symbol: 1/2 × 4 = 2 books. Total: 12 + 2 = 14 books. Option C (12) ignores the half symbol. Option A counts symbols as items, ignoring the scale. A half symbol always represents half the scale value — in this case, half of 4 is 2."
+
+- question: "To read a scaled pictograph correctly, you must multiply the number of symbols by the scale value shown in the key."
+  type: true-false
+  answer: true
+  explanation: "This is the fundamental operation for reading any scaled pictograph. The key tells you what each symbol is worth, and you multiply that value by the count of symbols to find the total. Skipping the key and counting symbols as individual units is the most common reading error — it gives correct answers only if the scale happens to be 1, which defeats the purpose of using a scale."
+
+- question: "In a scaled pictograph, a half symbol always represents exactly 1 item, regardless of the scale."
+  type: true-false
+  answer: false
+  explanation: "A half symbol represents HALF THE SCALE VALUE, not 1. If the key says each symbol = 6 students, then a half symbol represents 3 students. If the key says each symbol = 10, a half symbol represents 5. The value of a partial symbol always depends on the key. Only if the scale is 2 would a half symbol equal 1."
+
+- question: "Why is looking at the key the first step in reading any scaled pictograph?"
+  type: short-answer
+  answer: "The key tells you what each symbol is worth. Without knowing the scale, you cannot interpret the graph — you only know how many symbols appear, not what those symbols represent. The same row of 3 symbols could mean 3 items (scale of 1), 15 items (scale of 5), or 30 items (scale of 10). You must check the key before every calculation, because the scale determines the meaning of every symbol on the graph."
+  explanation: "The key is the bridge between the visual display and the actual data. A scaled pictograph is designed to show large numbers efficiently by letting each symbol stand for a group. Without applying the scale, you're reading a different graph than the one that was drawn — one where every symbol counts as 1. Making the key the non-negotiable first step prevents the most common reading error in pictograph interpretation."
+```
+
 ## Explainer
 
 You've worked with picture graphs before and practiced collecting and organizing data. A **scaled pictograph** takes that experience one step further: instead of each symbol representing exactly one item, the key tells you each symbol stands for a group — 2, 5, 10, or another quantity. This change makes it possible to display much larger data counts without drawing dozens of tiny symbols.

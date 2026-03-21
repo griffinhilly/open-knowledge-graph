@@ -29,6 +29,45 @@ Use reconstituted liposome fusion assays with purified SNARE proteins; measure s
 ## Common Misconceptions
 - SNARE binding drives fusion; SNAREs bring membranes close but don't directly merge lipid bilayers. - All exocytosis is Ca²⁺-triggered; some constitutive secretion is Ca²⁺-independent.
 
+## Questions
+
+```yaml
+- question: "A student claims: 'SNARE-mediated membrane fusion requires ATP hydrolysis — the protein machine needs energy to force two membranes together.' What is the correct account of energy use in SNARE-mediated fusion?"
+  type: multiple-choice
+  options:
+    - "The student is correct; SNAREs are ATPases that hydrolyze ATP throughout the fusion event"
+    - "The fusion event itself is driven by the spontaneous, thermodynamically favorable formation of the stable four-helix SNARE bundle — no ATP is consumed during fusion. ATP is used only afterward by NSF/α-SNAP to disassemble the cis-SNARE complex for recycling"
+    - "Partially correct: ATP is required to initiate SNARE zipping but not to complete bilayer merger"
+    - "The energy for fusion comes from GTP hydrolysis by a Rab GTPase, not from SNARE assembly"
+  answer: 1
+  explanation: "This is the key misconception addressed in the Common Misconceptions section. SNARE complex formation is thermodynamically spontaneous and releases energy — the four-helix bundle is extraordinarily stable. This released energy (not ATP hydrolysis) drives the mechanical work of pulling two membranes into close apposition. ATP enters the picture only after fusion is complete: NSF is an AAA+ ATPase that uses ATP to unwind and disassemble the cis-SNARE complex so the components can be recycled for future fusion events."
+
+- question: "Which protein serves as the calcium sensor that converts a Ca²⁺ signal into the final trigger for regulated exocytosis?"
+  type: multiple-choice
+  options:
+    - "NSF — the ATPase that disassembles SNARE complexes after fusion"
+    - "Complexin — the clamp protein that holds primed SNARE complexes in check"
+    - "Synaptotagmin — the vesicle-resident C2 domain protein that binds Ca²⁺ and displaces complexin to drive final SNARE zipping"
+    - "α-SNAP — the adaptor that recruits NSF to cis-SNARE complexes"
+  answer: 2
+  explanation: "Synaptotagmin is the Ca²⁺ sensor on the vesicle membrane. In the primed state, vesicles have partially assembled SNARE complexes held in check by complexin. When voltage-gated Ca²⁺ channels open and local Ca²⁺ concentration spikes, synaptotagmin's C2 domains bind Ca²⁺, undergo a conformational change, displace complexin, and allow the SNARE complex to finish zipping. The other proteins listed all have roles in the exocytic cycle — NSF and α-SNAP disassemble post-fusion SNARE complexes — but none serve as the Ca²⁺ trigger."
+
+- question: "SNARE proteins directly merge the lipid bilayers during membrane fusion by actively remodeling the lipid composition of both membranes."
+  type: true-false
+  answer: false
+  explanation: "SNAREs pull the two membranes into extremely close apposition — within approximately 2–3 nm — through the mechanical force of trans-SNARE complex zipping. At this distance, the lipid bilayers become thermodynamically unstable and merge on their own, progressing through a hemifusion stalk (only outer leaflets merge) to a full fusion pore. SNAREs do the positioning work; the physics of lipid bilayer instability at close range drives the actual bilayer merger. SNAREs are mechanical clamps that overcome the energy barrier of membrane apposition, not lipid-remodeling enzymes."
+
+- question: "Botulinum toxin causes flaccid muscle paralysis by cleaving specific SNARE proteins at the neuromuscular junction, preventing acetylcholine-containing vesicles from fusing with the plasma membrane."
+  type: true-false
+  answer: true
+  explanation: "Different botulinum toxin serotypes cleave different SNARE components: serotypes B, D, F, and G cleave synaptobrevin/VAMP (the v-SNARE); serotypes A, C, and E cleave SNAP-25 or syntaxin (the t-SNAREs). Without functional SNARE complexes, neurotransmitter-containing vesicles cannot fuse with the presynaptic membrane, acetylcholine is not released, and the motor neuron cannot signal the muscle to contract — resulting in flaccid paralysis. Tetanus toxin uses the same cleavage mechanism but acts on inhibitory interneurons, causing spastic paralysis."
+
+- question: "Explain why the trans-SNARE complex becomes a cis-SNARE complex after vesicle fusion, and why NSF must act before SNAREs can participate in another fusion event."
+  type: short-answer
+  answer: "Before fusion, the SNARE complex is 'trans' because its components span two distinct membranes: v-SNAREs (synaptobrevin) on the vesicle membrane and t-SNAREs (syntaxin, SNAP-25) on the plasma membrane. When the vesicle fuses with the plasma membrane, both membranes become one continuous membrane. The SNARE complex — now with all its components in the same membrane — is said to be 'cis.' The four-helix bundle is in an extremely stable, low-energy state in this cis configuration. The v-SNARE cannot spontaneously dissociate and return to a recycled vesicle. NSF uses ATP hydrolysis to mechanically unwind the coiled-coil bundle, freeing the individual SNARE proteins so that v-SNAREs can be recycled via endocytosis into new vesicles."
+  explanation: "The energetics explain why NSF is needed: the cis-SNARE bundle is so thermodynamically stable that spontaneous disassembly is essentially impossible on a biologically relevant timescale. NSF is essentially an 'anti-entropy machine' — it uses the chemical energy of ATP to pull apart a structure that would otherwise remain locked together indefinitely. This recycling step is essential for sustained synaptic transmission; without NSF, a neuron would exhaust its complement of functional v-SNAREs after a single round of release."
+```
+
 ## Explainer
 
 From your study of synaptic vesicle release and protein trafficking, you know that cells package molecules into membrane-bound vesicles and deliver them to specific destinations. **Exocytosis** is the final step in this delivery — the fusion of a vesicle's membrane with the plasma membrane, releasing its contents outside the cell. The molecular machinery that makes this happen with extraordinary speed and precision is the **SNARE complex**, and understanding how it works explains everything from insulin secretion to neurotransmitter release.

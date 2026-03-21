@@ -32,6 +32,45 @@ Generate enolates and predict regioselectivity. Draw the complete malonic ester 
 - Confusing enolate alkylation with aldol condensation; both involve enolates but aldol couples two carbonyls while alkylation uses an alkyl halide.
 - Forgetting that malonic ester requires strong base (ethoxide) to fully deprotonate the methylene group (pKa ~ 13).
 
+## Questions
+
+```yaml
+- question: "Sodium ethoxide (pKₐ ~16 for ethanol) easily deprotonates diethyl malonate but fails to deprotonate a simple monoester (pKₐ ~25). What structural feature of diethyl malonate makes the difference?"
+  type: multiple-choice
+  options:
+    - "Diethyl malonate has two alkoxy groups that donate electrons, making its hydrogens more basic and easier to remove."
+    - "The methylene group in diethyl malonate is flanked by two ester carbonyls whose combined electron-withdrawal lowers the pKₐ to ~13 through resonance stabilization of the resulting carbanion."
+    - "Ethoxide deprotonates at oxygen in simple esters but deprotonates at carbon in malonate due to different orbital geometry."
+    - "Diethyl malonate reacts faster because two ester groups accelerate proton transfer kinetics, not thermodynamics."
+  answer: 1
+  explanation: "Each ester carbonyl stabilizes the adjacent negative charge by resonance, delocalizing it into both C=O groups simultaneously. With two such groups flanking the same methylene, the stabilization is additive, dropping the pKₐ from ~25 (simple ester) to ~13. Sodium ethoxide (conjugate acid pKₐ ~16) is strong enough to deprotonate a substrate with pKₐ ~13 but not one with pKₐ ~25. This is the design principle of the malonic ester synthesis: the doubly activated position allows complete deprotonation with a mild, practical base."
+
+- question: "A student attempts the malonic ester synthesis using tert-butyl bromide as the alkylating agent. The reaction produces only 2-methylpropene and no alkylated malonate. What went wrong?"
+  type: multiple-choice
+  options:
+    - "tert-Butyl bromide is too large to fit into the active site of the malonate enolate."
+    - "tert-Butyl bromide is not electrophilic because the tertiary carbon has too much electron density from the three alkyl groups."
+    - "The malonate enolate is a strong nucleophile and a moderately strong base; tertiary alkyl halides prefer E2 elimination over SN2 substitution, so the enolate abstracts a proton rather than attacking carbon."
+    - "tert-Butyl bromide undergoes hydrolysis before it can react with the enolate in ethanol solvent."
+  answer: 2
+  explanation: "Malonate enolate alkylation requires an SN2 mechanism — backside attack at the electrophilic carbon. SN2 is blocked at tertiary carbons because three alkyl groups create steric hindrance around the reaction center. Instead, the enolate (a base as well as a nucleophile) abstracts a β-hydrogen via E2 elimination, producing an alkene. The malonic ester synthesis therefore requires primary (or methyl) alkyl halides; secondary halides give mixed results. Recognizing this SN2 requirement is essential when planning the synthesis."
+
+- question: "After malonate alkylation and hydrolysis to the diacid, only one of the two carboxylic acid groups is lost as CO₂ during decarboxylation."
+  type: true-false
+  answer: true
+  explanation: "Decarboxylation of a malonic acid derivative proceeds through a six-membered cyclic transition state: one carboxyl donates its proton to the other while CO₂ departs, generating the enol of the remaining carboxylic acid. After one CO₂ is lost, the product is a simple monocarboxylic acid with no adjacent activating carbonyl, so it cannot form the cyclic transition state and does not decarboxylate further. This selectivity is what makes the synthesis reliable — you get exactly one CO₂ lost per malonate unit."
+
+- question: "Tertiary alkyl halides are good electrophiles for malonate enolate alkylation because greater substitution at carbon increases its electrophilicity."
+  type: true-false
+  answer: false
+  explanation: "Electrophilicity at a carbon center in SN2 reactions is dominated by steric accessibility, not electron density alone. Tertiary carbons are surrounded by three alkyl groups, blocking backside approach by the nucleophile and making SN2 essentially impossible. The competing E2 pathway (elimination) is strongly favored instead. Good SN2 electrophiles for malonate alkylation are methyl and primary alkyl halides, where the backside face is open."
+
+- question: "Explain why both a hydrolysis step and a decarboxylation step are required in the malonic ester synthesis, and what drives the loss of exactly one CO₂ rather than two."
+  type: short-answer
+  answer: "Hydrolysis converts the two ester groups to carboxylic acids, forming the malonic acid derivative needed for decarboxylation; the esters themselves do not decarboxylate directly. Decarboxylation is driven by the β-diacid geometry: one carboxyl acts as an internal proton donor to the departing CO₂ through a six-membered cyclic transition state, releasing CO₂ and producing the enol of the product acid simultaneously. After one carboxyl leaves, the remaining product is a simple monocarboxylic acid with no adjacent activating group — it cannot form the cyclic transition state, so no further decarboxylation occurs. The net synthesis converts R–X into R–CH₂–COOH, adding one carbon and one carboxyl group."
+  explanation: "The mechanism of malonic ester decarboxylation illustrates a broader principle: β-keto acids and malonic acid derivatives decarboxylate readily because the β-carbonyl provides an intramolecular proton sink and stabilizes the transition state. Once that activating group is removed (after the first decarboxylation), the remaining acid is thermally stable under normal conditions. This is why the sequence is reliable and the product is clean."
+```
+
 ## Explainer
 
 From your study of enols and enolates, you know that the hydrogens on the carbon adjacent to a carbonyl group (the **α-carbon**) are acidic because the resulting negative charge is stabilized by resonance with the C=O. Deprotonation with a strong base yields an **enolate** — a resonance-stabilized carbanion that is an excellent nucleophile at the α-carbon. From nucleophile-electrophile concepts, you know that nucleophiles attack electrophilic centers. Enolate alkylation combines these ideas: the enolate's nucleophilic α-carbon attacks an alkyl halide in an SN2 reaction, forming a new C–C bond.

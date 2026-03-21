@@ -30,6 +30,45 @@ Expand the van der Waals equation and recover the ideal gas law as a → 0, b �
 - Confusing the parameters a and b with measurable quantities (they are fitted constants).
 - Assuming the van der Waals equation applies equally well at all pressures.
 
+## Questions
+
+```yaml
+- question: "In the van der Waals equation (P + a(n/V)²)(V − nb) = nRT, why is the measured pressure P lower than what the ideal gas law predicts at the same temperature and volume?"
+  type: multiple-choice
+  options:
+    - "The b term reduces the effective volume, which in turn reduces the pressure"
+    - "The a term accounts for intermolecular attractions that pull molecules away from the container wall before they can strike it, reducing impact force"
+    - "Both terms reduce pressure equally at high densities"
+    - "Pressure is not lower in real gases — van der Waals only corrects for volume effects"
+  answer: 1
+  explanation: "The a correction addresses intermolecular attraction. Molecules in the bulk of the gas are pulled equally in all directions, so attractions cancel. But molecules near the wall have fewer neighbors on the outward side and are pulled back toward the bulk. This reduces their impact force on the wall — the measured pressure is lower than ideal. The equation compensates by adding a(n/V)² to P, restoring the pressure the gas would have without attractions. The b term corrects for excluded volume (reducing free volume), not for reduced wall pressure."
+
+- question: "Gas A has a large van der Waals a constant; Gas B has a large van der Waals b constant. What does each constant tell you about the respective gas?"
+  type: multiple-choice
+  options:
+    - "Gas A has large molecules; Gas B has strong intermolecular attractions"
+    - "Gas A has strong intermolecular attractive forces; Gas B has large molecules that exclude significant volume"
+    - "Gas A is easier to compress; Gas B has a lower boiling point"
+    - "Both a and b measure deviation from ideality — just at different temperatures"
+  answer: 1
+  explanation: "The a constant reflects the strength of intermolecular attractive forces — large a means molecules attract each other strongly, pulling them back from the walls and causing the gas to deviate significantly from ideal behavior (especially at lower temperatures). The b constant reflects molecular size — large b means molecules themselves occupy a significant fraction of the container volume, so free volume is much less than total volume. These are physically distinct corrections: a is about forces between molecules, b is about the space they take up."
+
+- question: "Setting a = 0 and b = 0 in the van der Waals equation exactly recovers the ideal gas law PV = nRT."
+  type: true-false
+  answer: true
+  explanation: "Substituting a = 0 and b = 0 into (P + a(n/V)²)(V − nb) = nRT gives (P + 0)(V − 0) = nRT, which is exactly PV = nRT. This is a crucial consistency check: the van der Waals equation is not a replacement for the ideal gas law but a correction that reduces to it when molecular attractions and molecular volume are negligible — physically, at very low pressure or very high temperature where molecules are far apart."
+
+- question: "The van der Waals equation gives quantitatively accurate predictions of gas behavior across all pressures and temperatures, including near phase transitions."
+  type: true-false
+  answer: false
+  explanation: "The van der Waals equation is qualitatively excellent — it correctly predicts deviations from ideality, the existence of a critical point, and qualitatively explains phase transitions. But it is quantitatively rough, especially near phase transitions. It predicts an unphysical 'van der Waals loop' (a region where ∂P/∂V > 0) in the two-phase region, and predicted liquid volumes are systematically too large. For precision engineering calculations, more elaborate equations of state are required. Van der Waals is a teaching model that gives correct physical intuition, not an engineering tool."
+
+- question: "Describe the physical meaning of the van der Waals b correction. Why does its effect become significant at high pressure but negligible at low pressure?"
+  type: short-answer
+  answer: "The b correction accounts for the finite volume of the gas molecules themselves. In the ideal gas law, V is the total container volume, as if molecules were point particles. Real molecules occupy space, so the volume available for molecular motion is V − nb, where b is the excluded volume per mole. At low pressure, molecules are widely separated and nb is a tiny fraction of total V — the correction is negligible. At high pressure, molecules are crowded together and nb becomes an appreciable fraction of V, meaning the ideal gas law significantly overestimates the free space available."
+  explanation: "The analogy: in a nearly empty stadium, the space taken up by each seat is irrelevant — there's effectively infinite room. Pack the stadium to capacity and the seat volume becomes crucial. Similarly, excluded volume matters only when the gas is compressed to high density. This is why real gases at low pressure (widely separated molecules) behave nearly ideally, and deviation grows with pressure."
+```
+
 ## Explainer
 
 You already know from your study of real gas deviations that the ideal gas law breaks down under high pressure and low temperature. The ideal gas model treats molecules as point particles with no volume and no attraction to each other. Both assumptions fail in reality — molecules occupy space and pull on each other. The van der Waals equation fixes both flaws with just two extra constants, giving a much more realistic picture of gas behavior.

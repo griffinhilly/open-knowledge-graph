@@ -29,6 +29,45 @@ Take the matched-guise test approach — listen to the same speaker using differ
 - Negative attitudes toward a variety are really attitudes toward its speakers; the linguistic forms themselves carry no inherent social meaning.
 - Prescriptive grammar rules (like "don't split infinitives") are social conventions, not linguistic laws — violating them reveals social positioning, not cognitive deficiency.
 
+## Questions
+
+```yaml
+- question: "A hiring manager rates a job applicant's responses as 'less intelligent and professional' after hearing the applicant's strong regional accent, even though the content was identical to a standard-accented applicant. What best explains this outcome?"
+  type: multiple-choice
+  options:
+    - "Regional accents are linguistically simpler and harder to understand, which impairs comprehension and assessment"
+    - "The hiring manager has internalized standard language ideology, which attributes negative social qualities to non-prestige varieties"
+    - "The applicant's cognitive ability is genuinely lower, as regional dialects develop in communities with less access to education"
+    - "Regional accents signal cultural mismatch, which is a legitimate proxy for workplace fit"
+  answer: 1
+  explanation: "No dialect or accent is linguistically inferior — all are equally complex, rule-governed systems. The hiring manager's negative judgment reflects standard language ideology: the belief that standard varieties signal intelligence and competence while non-prestige varieties signal deficiency. This is linguicism — discrimination based on language. The ideology obscures the fact that the standard's prestige comes from institutional backing, not linguistic superiority."
+
+- question: "A working-class speaker uses standard English in a job interview but switches to her local vernacular with friends and family. Which of the following best explains this behavior?"
+  type: multiple-choice
+  options:
+    - "She is code-switching due to a psychological disorder that prevents consistent language use"
+    - "She has only partially acquired the standard variety and cannot maintain it in casual settings"
+    - "She is navigating overt prestige (standard variety signals competence) in professional settings and covert prestige (vernacular signals solidarity) in personal settings"
+    - "She is performing the standard dialect professionally to conceal her true identity"
+  answer: 2
+  explanation: "Both overt prestige and covert prestige are real and function simultaneously. Overt prestige (the standard variety) signals education, mobility, and professional competence — valuable in the interview. Covert prestige (the vernacular) signals in-group membership, authenticity, and solidarity — valuable with family and community. Switching between them is not inconsistency or incomplete acquisition; it is skilled navigation of competing social demands. Neither register is more 'authentic' than the other."
+
+- question: "Standard English is linguistically superior to non-standard varieties like African American English because it has more regular grammar rules and greater expressive capacity."
+  type: true-false
+  answer: false
+  explanation: "All natural languages and dialects are equally complex and rule-governed from a descriptive linguistic standpoint. African American English, for instance, has highly systematic grammatical features (like habitual 'be' marking ongoing states) that Standard English lacks. Standard varieties gained their prestige through political and institutional processes — they were spoken by groups controlling courts, schools, and print media — not because of any intrinsic linguistic advantage. Calling a variety 'superior' is a social judgment, not a linguistic one."
+
+- question: "Even when speakers have full access to a prestige standard variety, they may choose to use stigmatized vernacular varieties in certain contexts because those varieties carry covert prestige within their community."
+  type: true-false
+  answer: true
+  explanation: "Covert prestige is the social value attached to vernacular varieties within specific communities — value associated with solidarity, authenticity, and group identity. Speakers who could use the standard choose not to in in-group settings because doing so would signal distance from their community. This explains why stigmatized varieties persist even when speakers have access to prestige alternatives: the vernacular does social work the standard cannot."
+
+- question: "Explain what 'standard language ideology' is and why linguists consider it an ideology rather than a straightforward description of linguistic reality."
+  type: short-answer
+  answer: "Standard language ideology is the belief that one variety of a language is inherently correct, logical, and superior while all others are deficient deviations. Linguists call it an ideology because it presents as natural and inevitable something that is actually the product of historical power relations — the 'standard' gained prestige because it was spoken by politically and institutionally dominant groups (courts, schools, print media), not because it is structurally better. All dialects are equally complex and rule-governed. The ideology obscures this political origin, making the standard's authority appear to be a linguistic fact rather than a social construction."
+  explanation: "This is the core critical insight of sociolinguistics: evaluations of language varieties are evaluations of their speakers, and those evaluations reflect social hierarchies rather than linguistic properties. Calling a dialect 'bad grammar' is a social act, not a linguistic analysis."
+```
+
 ## Explainer
 
 From your introduction to sociolinguistics, you know that language varies systematically across regions and social groups — no variety is linguistically superior to another from a descriptive standpoint. **Language attitudes** are the evaluative judgments speakers attach to those varieties despite that linguistic equality. They are not neutral observations; they are social acts. When someone says an accent "sounds uneducated" or a dialect "sounds aggressive," they are not describing the phonology — they are expressing a set of beliefs about the speakers of that variety, beliefs absorbed from broader social structures.

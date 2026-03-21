@@ -36,6 +36,45 @@ Contrast the microeconomic supply curve (one market, one price) with SRAS (all m
 - A change in the price level moves along SRAS; only changes in input costs, technology, or expectations shift the curve.
 - 'Short run' here means the period in which input prices (especially wages) have not fully adjusted.
 
+## Questions
+
+```yaml
+- question: "An oil price shock sharply raises energy costs for producers across the economy. What happens to the SRAS curve, and what is the combined effect on the price level and real output?"
+  type: multiple-choice
+  options:
+    - "SRAS shifts rightward — higher energy prices signal higher demand, so producers supply more"
+    - "We move along the existing SRAS curve — oil is an input cost, not a change in the price level"
+    - "SRAS shifts leftward — higher input costs reduce the quantity firms supply at every price level, pushing prices up and output down simultaneously"
+    - "SRAS shifts rightward — firms respond by finding more fuel-efficient production methods"
+  answer: 2
+  explanation: "Input cost increases are the primary leftward shifter of SRAS. When oil prices rise, production costs increase for virtually every firm, reducing the profit margin at each output price. Firms cut production, shifting SRAS left. The result is stagflation — the simultaneous rise in the price level and fall in real output. This is why oil shocks of the 1970s produced both high inflation and recession, which the demand-side framework of the time couldn't explain. Moving 'along' SRAS would only occur if the overall price level changed while input costs stayed fixed."
+
+- question: "The overall price level rises by 5%, but workers' nominal wages are fixed by annual contracts for another year. What happens to firms' profit margins, and what does the SRAS mechanism predict about their output decisions?"
+  type: multiple-choice
+  options:
+    - "Profit margins fall because higher prices make all inputs more expensive, reducing firms' incentive to produce"
+    - "Profit margins are unchanged because firms raise prices and wages by the same 5%"
+    - "Profit margins temporarily rise because output prices increased while wage costs remain fixed, inducing firms to expand production"
+    - "Profit margins rise permanently, shifting the economy to a higher long-run output level"
+  answer: 2
+  explanation: "This is the sticky-wage mechanism that gives SRAS its upward slope. When the price level rises but wages haven't adjusted yet, firms receive higher revenue per unit of output while paying the same labor costs. The gap between output price and input cost widens, making production more profitable at the margin. Firms respond by expanding output. This is temporary: once contracts expire and workers renegotiate wages upward, the profit margin illusion disappears and output returns to potential. The 'short run' in SRAS is exactly this window of sticky wages."
+
+- question: "The SRAS curve slopes upward for the same reason as an individual firm's supply curve: higher output prices attract new firms into the market."
+  type: true-false
+  answer: false
+  explanation: "This is a common confusion between micro and macro supply. An individual firm's supply curve slopes up partly because of entry by new producers when prices rise. SRAS slopes up for a different reason: sticky wages. When the overall price level rises, firms' output prices rise while wage contracts keep labor costs temporarily fixed, expanding profit margins and inducing higher output. No new firms need to enter — existing firms simply expand production. 'New entry' in response to individual market prices is a micro phenomenon that operates on a much longer timescale than the short-run stickiness that drives SRAS dynamics."
+
+- question: "In the SRAS framework, 'short run' refers to the period during which nominal wages and other input prices have not yet fully adjusted to changes in the overall price level."
+  type: true-false
+  answer: true
+  explanation: "This is the defining characteristic of the SRAS short run — it is not a fixed calendar duration but a conceptual period defined by the degree of wage flexibility. During this period, many wages are fixed by contracts, meaning firms' labor costs don't immediately track movements in the price level. Once contracts expire and wages are renegotiated to reflect the new price level, the profit-margin illusion dissolves, output returns to potential, and we are in the long run (vertical LRAS). Whether this takes months or years depends on contract lengths and the wage-setting institutions of the economy."
+
+- question: "Explain the wage stickiness mechanism that causes SRAS to slope upward. Why does this slope disappear in the long run?"
+  type: short-answer
+  answer: "SRAS slopes upward because many wages are set by contracts that fix nominal pay for a period. When the overall price level rises, firms receive higher revenue per unit of output while their wage costs remain temporarily unchanged. This expands profit margins at the margin, inducing firms to increase production — output rises with the price level, creating the upward slope. The key is the lag between price-level changes and wage adjustments. In the long run, contracts expire and workers bargain for higher nominal wages to restore real purchasing power. Once wages have fully adjusted upward to match the price increase, the profit-margin effect disappears. Firms are no better off than before — higher output prices are matched by higher input costs — so they return to producing the same potential output regardless of the price level. SRAS becomes vertical (LRAS), and the short-run output expansion is undone."
+  explanation: "The SRAS slope is fundamentally a disequilibrium phenomenon — it exists because the labor market hasn't cleared yet. When it does clear (wages adjust), the slope vanishes. This is why macroeconomic policy targeting short-run output gaps has different effects than long-run growth policy."
+```
+
 ## Explainer
 
 You already know from supply-and-demand basics that the supply curve for an individual market slopes upward because higher prices make production more profitable, drawing out more output from existing producers and attracting new ones. The **short-run aggregate supply (SRAS)** curve looks superficially similar — it also slopes upward — but the mechanism is different and understanding that difference is essential. The SRAS curve shows the relationship between the overall **price level** in the economy and the **total quantity of output** that all producers together are willing to supply. The slope has nothing to do with substitution between goods or entry by new firms. It comes from the fact that input prices, especially wages, are **sticky** — they do not adjust instantaneously to changes in the overall price level.

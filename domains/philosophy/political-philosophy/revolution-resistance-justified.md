@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Beyond civil disobedience lies revolutionary resistance: fundamental challenge to authority. Classical theorists argue a right to revolution exists when government systematically violates rights or becomes tyrannical. Modern theorists debate: what threshold justifies revolution? Who decides when crossed? Is violent resistance ever justified? Answering these questions illuminates the ultimate limits of political authority.
 
+## Questions
+
+```yaml
+- question: "According to Locke's theory of the right to revolution, when citizens overthrow a tyrannical government they are:"
+  type: multiple-choice
+  options:
+    - "Breaking the law and must accept legal consequences even if their cause is morally just"
+    - "Restoring legitimate order, since the government has already broken the social contract and dissolved its own authority"
+    - "Acting in a pre-political state of nature where no norms apply"
+    - "Exercising a legal right explicitly recognized by the positive law of every legitimate state"
+  answer: 1
+  explanation: "This is Locke's crucial conceptual reversal: the tyrant dissolves the social contract by systematically violating the rights it was constituted to protect. The revolution doesn't break the law — the law has already been broken by the government's own actions. Citizens are not criminals defying authority; they are restoring the legitimate order. Jefferson's Declaration draws directly on this structure: the long train of abuses justifies revolt because the government has already forfeited its claim to obedience."
+
+- question: "The 'threshold problem' for justified revolution asks:"
+  type: multiple-choice
+  options:
+    - "Whether revolutionary violence can ever be proportionate to the civilian casualties it causes"
+    - "How high a level of injustice is required to trigger the right to rebel, given that too-low a threshold enables manipulation and instability, while too-high a threshold legitimizes prolonged oppression"
+    - "Which members of an oppressed population have standing to initiate resistance"
+    - "Whether international law has ever recognized a legal right to revolution in any binding treaty"
+  answer: 1
+  explanation: "The threshold problem is about calibration: if any injustice licenses rebellion, political stability collapses and vulnerable populations bear the cost of constant instability. If the threshold is set too high, prolonged and severe oppression becomes practically legitimized because the standard is never quite met. There is no neutral algorithm for setting the threshold — it requires political judgment about when systematic rights violation has crossed into tyranny. This is why the problem is philosophically hard, not just empirically difficult."
+
+- question: "A key difficulty for any theory of justified revolution is the epistemic problem: authoritarian regimes and revolutionary movements both typically claim to be protecting the people, and there is no neutral arbiter to adjudicate which claim is correct in the midst of conflict."
+  type: true-false
+  answer: true
+  explanation: "The epistemic problem runs deep: history is full of regimes that claimed to suppress 'terrorists' or 'counter-revolutionaries' while actually suppressing legitimate resistance, and revolutionary movements that claimed to liberate 'the people' while pursuing power or ideology. Without a neutral external arbiter — which doesn't exist during active revolutionary situations — the question of whether the threshold has been crossed is contested by interested parties, making any general theory hard to apply without being manipulable."
+
+- question: "On Locke's account, the right to revolution is fundamentally an exception to legitimate authority — a case where citizens can break with the law even though the government retains its legitimacy."
+  type: true-false
+  answer: false
+  explanation: "This gets Locke backwards. The right to revolution is triggered precisely because the government has LOST its legitimacy by systematically violating the rights it was constituted to protect. There is no tension between legitimacy and revolution on Locke's account: a government that destroys the basis of its authority has dissolved itself, and the revolution is restoring legitimate order, not creating a lawless exception. The rebels are not breaking with legitimate authority — they are responding to its absence."
+
+- question: "Why does Locke argue that a successful revolution does not undermine the rule of law, even though it involves violently overthrowing a government?"
+  type: short-answer
+  answer: "Locke's argument rests on the contractual basis of authority: government derives its legitimacy from a social contract — a delegation of natural rights in exchange for protection. When a government systematically violates those rights, it breaks the contract itself and dissolves its own authority. The tyrant has already broken the law — not the rebels. Revolution restores the terms of the original contract rather than rejecting rule of law. On this view, political authority is not identical to whoever currently holds power; it is grounded in the purposes (rights protection) for which political authority was originally granted."
+  explanation: "This is why Locke's framework is still influential: it grounds the right to revolution not in mere popular discontent or might-makes-right, but in the logical consequence of the social contract theory of authority. Authority justified by consent-and-rights-protection cannot survive systematic consent violation and rights destruction — it has severed the conditions of its own existence."
+```
+
 ## Explainer
 
 You've thought about **authority and its sources of legitimacy** and about **civil disobedience** — the use of illegal but nonviolent public action to resist unjust laws or policies. Civil disobedience accepts the basic legitimacy of the political order while challenging specific injustices within it. The right to revolution is a more radical claim: under some circumstances, the very order itself forfeits its claim to obedience and may be legitimately overthrown.

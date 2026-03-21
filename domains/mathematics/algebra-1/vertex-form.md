@@ -32,6 +32,45 @@ Start with the parent function y = x² and apply transformations one at a time: 
 - Confusing the effect of a on width (larger |a| = narrower, not wider).
 - Thinking vertex form and standard form are different functions (they are the same function written differently).
 
+## Questions
+
+```yaml
+- question: "What is the vertex of the parabola y = 3(x − 4)² + 7?"
+  type: multiple-choice
+  options:
+    - "(−4, 7) — reading the number inside the parentheses as −4"
+    - "(4, 7) — because x must equal 4 to make (x − 4)² equal zero"
+    - "(4, −7) — negating k to find the vertex y-coordinate"
+    - "(−4, −7) — negating both h and k"
+  answer: 1
+  explanation: "In y = a(x − h)² + k, the vertex is (h, k). Here h = 4 and k = 7, so the vertex is (4, 7). The most common error is reading h as −4 because of the minus sign in (x − 4)². The minus sign is built into the form's structure: you need x = 4 (not x = −4) to make (x − 4)² equal zero, so the vertex is at x = +4."
+
+- question: "Compared to the parent function y = x², how does the parabola y = (1/3)(x − 2)² + 1 differ in width?"
+  type: multiple-choice
+  options:
+    - "Narrower — because the coefficient 1/3 is smaller, making it more compressed"
+    - "Wider — because |a| = 1/3 < 1 causes vertical compression that spreads the parabola outward"
+    - "Same width — only shifted right 2 and up 1"
+    - "Narrower and opens downward because of the fraction"
+  answer: 1
+  explanation: "When |a| < 1, the parabola is wider (flatter) than y = x². When |a| > 1, it is narrower. The coefficient 1/3 compresses the vertical scale, which visually spreads the parabola outward. The most common misconception is reversing this relationship: thinking a smaller coefficient makes a narrower graph because 'smaller = less.' Think of it instead as: a larger a value pulls the sides of the parabola inward (steeper), while a smaller a lets them spread out (flatter)."
+
+- question: "In the equation y = (x + 3)² + 1, the vertex is at (3, 1) because the number inside the parentheses is 3."
+  type: true-false
+  answer: false
+  explanation: "The vertex is at (−3, 1). Rewriting in standard vertex form: y = (x + 3)² + 1 = (x − (−3))² + 1, so h = −3 and k = 1. The vertex is where the squared expression equals zero: x + 3 = 0 gives x = −3. The sign trap works in both directions — when you see (x + 3)², the vertex is at x = −3, not x = +3."
+
+- question: "The vertex form y = a(x − h)² + k and the standard form y = ax² + bx + c represent the same quadratic function — they are algebraically equivalent, just written differently."
+  type: true-false
+  answer: true
+  explanation: "They are identical functions. Vertex form can be expanded to standard form by multiplying out (x − h)², distributing a, and collecting constants. Standard form can be converted to vertex form by completing the square. The same parabola, the same a value, the same vertex — just different algebraic presentations that make different information immediately visible."
+
+- question: "In y = a(x − h)² + k, why does the graph shift RIGHT by h units rather than LEFT when h is positive? Many students expect the direction to match the sign shown."
+  type: short-answer
+  answer: "The vertex is located where the squared expression equals zero — the minimum (or maximum) of the function. For (x − h)², this happens when x = h: substituting x = h gives (h − h)² = 0. So the vertex is at x = h, which means a positive h shifts the parabola to the right. The minus sign in the form (x − h)² is structural: to place the vertex at x = 3, you write (x − 3)², not (x + 3)². The direction of the shift is opposite to what the sign suggests because the vertex must satisfy the equation, not be read directly from the sign."
+  explanation: "This sign convention is the most persistent source of error in vertex form. One reliable check: ask 'what value of x makes the expression inside the parentheses equal zero?' That value is always the x-coordinate of the vertex, regardless of what signs appear in the written form."
+```
+
 ## Explainer
 
 From graphing quadratics, you know that every parabola has a vertex — the turning point where the function changes from decreasing to increasing (or vice versa). **Vertex form**, y = a(x − h)² + k, is designed to make that vertex visible at a glance. The vertex is (h, k), readable directly from the equation. This is the payoff: instead of finding the vertex by computing −b/2a from standard form, you simply read it off.

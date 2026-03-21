@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Incentive compatibility requires that each agent's optimal action is truth-telling (or the action chosen). Individual rationality requires agents accept the contract (participate). In contract design, these constraints limit efficiency: the planner must offer rents to induce truthful reporting or effort, creating information rents that reduce total surplus. The tradeoff between incentives and efficiency is fundamental to contract theory.
 
+## Questions
+
+```yaml
+- question: "An insurance company offers two health plans. Low-risk customers are intended to pick the low-coverage plan; high-risk customers are intended to pick the high-coverage plan. High-risk customers prefer their intended plan. For incentive compatibility to also hold for low-risk customers, which condition must be satisfied?"
+  type: multiple-choice
+  options:
+    - "Low-risk customers must weakly prefer the low-coverage plan over the high-coverage plan"
+    - "High-risk customers must be indifferent between the two plans"
+    - "The insurer must be able to verify each customer's true risk type"
+    - "Both types must prefer participating to their outside option"
+  answer: 0
+  explanation: "Incentive compatibility requires that EACH type weakly prefers its intended contract over the contract designed for other types. If low-risk customers preferred the high-coverage plan, they would misrepresent themselves as high-risk, breaking the mechanism. Option C is wrong — the entire purpose of IC constraints is to design contracts that work WITHOUT the ability to verify types. Option D describes the individual rationality (IR) constraint, which is a separate requirement from IC."
+
+- question: "A mechanism designer achieves first-best efficiency AND satisfies incentive compatibility by extracting all surplus from every agent type. Is this generally possible under private information?"
+  type: multiple-choice
+  options:
+    - "Yes — the designer can always achieve both by choosing the right allocation rule"
+    - "No — achieving incentive compatibility typically requires leaving information rents to well-informed agents"
+    - "Yes — if the designer has commitment power, information rents become unnecessary"
+    - "No — incentive compatibility makes first-best impossible even if agents have no private information"
+  answer: 1
+  explanation: "Under private information, achieving incentive compatibility typically requires leaving information rents — surplus given to well-informed agents precisely because they could profitably misrepresent themselves. A high-type agent must receive at least as much utility from their intended contract as they would get by pretending to be a low type. The designer cannot simultaneously satisfy IC and extract all surplus. With quasi-linear preferences, the analysis simplifies but information rents persist."
+
+- question: "The individual rationality (IR) constraint and the incentive compatibility (IC) constraint are the same requirement expressed differently."
+  type: true-false
+  answer: false
+  explanation: "They are distinct requirements. The IC constraint says each agent prefers the outcome designed for their true type over outcomes designed for other types — it governs truth-telling between agent types. The IR constraint says each agent prefers participating in the mechanism to their outside option — it governs whether agents join at all. A mechanism can satisfy IR (everyone participates) but violate IC (some agents lie), or satisfy IC (truth-telling is optimal) but violate IR (some types prefer not to participate)."
+
+- question: "In a world of complete information, a contract designer can achieve the first-best allocation without leaving any information rents."
+  type: true-false
+  answer: true
+  explanation: "With complete information, the designer knows every agent's type and can directly assign the efficient outcome to each type without any incentive to misrepresent. Because the designer can tailor contracts precisely, there is no need to make truth-telling incentive-compatible. Information rents arise only under INCOMPLETE information, where agents can profitably misrepresent their private type. This comparison reveals that information rents are the pure cost of private information."
+
+- question: "Why must a contract designer leave 'information rents' to some agent types when designing an incentive-compatible mechanism, and what determines how large these rents must be?"
+  type: short-answer
+  answer: "Information rents are extra utility given to agents who have private information that they could use to misrepresent themselves. A high-type agent (e.g., a high-value buyer) must receive at least as much utility from their intended contract as they would get by pretending to be a low type. Because the low-type contract offers positive utility to the high type, the high-type contract must be even more attractive — guaranteeing a rent above the minimum participation level. The rent size is determined by how tempting the low-type option is for the high type — the 'mimicry payoff' that must be exceeded."
+  explanation: "The fundamental tradeoff is: reducing information rents (to extract more surplus) requires distorting the allocation for low types (to make mimicry less attractive), reducing overall efficiency. Optimal mechanism design finds the allocation that maximizes the designer's objective subject to both IC and IR, accepting the unavoidable efficiency loss from information rents."
+```
+
 ## Explainer
 
 Imagine you are an insurance company designing a health plan, and your customers know more about their own health risks than you do. You would like each customer to choose the plan suited to their actual risk level — healthy people pick the low-coverage plan, sick people pick the high-coverage plan. But sick people might prefer the cheaper low-coverage plan if it saves them money upfront, and healthy people might claim to be sick to get extra coverage at a subsidized rate. The challenge is designing a menu of contracts where every type of customer voluntarily selects the option intended for them. This is the problem that **incentive compatibility** constraints address.

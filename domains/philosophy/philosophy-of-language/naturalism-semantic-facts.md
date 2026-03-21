@@ -34,6 +34,45 @@ Study attempts to naturalize reference: causal theories, informational theories,
 - Assuming normativity is incompatible with naturalism; norms can be natural properties of systems.
 - Confusing semantic naturalism with reductionism; one can be a naturalist without reducing meaning to non-semantic terms.
 
+## Questions
+
+```yaml
+- question: "The causal theory of reference anchors 'water' to H₂O via causal-historical chains. What problem does this theory leave unsolved on its own?"
+  type: multiple-choice
+  options:
+    - "It cannot explain why 'water' applies to things we have never directly encountered"
+    - "It cannot explain semantic normativity — why calling a cat 'dog' is a misuse rather than just another causal connection"
+    - "It cannot identify the natural kind that 'water' picks out without reference to chemistry"
+    - "It conflates a word's meaning with the speaker's intentions when using it"
+  answer: 1
+  explanation: "The causal theory anchors reference in causal-historical chains, but causal chains also run from my word 'dog' to cats I mistakenly call 'dog.' Both correct uses (to dogs) and incorrect uses (to cats) are causally connected to my utterance. The causal theory alone cannot explain why one connection is semantically correct and the other is an error — that is the normativity problem. The causal theory naturalizes the extension of terms but not the normative dimension: that there is a right and wrong way to apply them."
+
+- question: "The teleological theory (Millikan) attempts to naturalize semantic normativity by grounding correct application in:"
+  type: multiple-choice
+  options:
+    - "The social conventions of linguistic communities that establish which uses are standard"
+    - "The evolutionary history of a cognitive system — what a representation was selected to track"
+    - "The causal chain with the highest frequency of occurrences in a speaker's history"
+    - "The set of paradigm cases speakers use when teaching the word to new learners"
+  answer: 1
+  explanation: "Millikan's teleological theory grounds correctness in biological function: just as the heart's proper function is pumping blood (because heart-like organs that pumped blood were selected for), a mental or linguistic representation's proper function is tracking whatever it was evolved to track. A 'dog' representation functions correctly when caused by a dog — because that is what the cognitive system using it was selected to respond to. This naturalizes normativity by reducing 'correct application' to 'performing the function for which it was selected.'"
+
+- question: "The teleological theory of meaning attempts to reduce semantic normativity to a natural fact — evolutionary function — without invoking irreducibly normative properties."
+  type: true-false
+  answer: true
+  explanation: "This is precisely what makes the teleological theory attractive to semantic naturalists. Biological function is a natural property defined in terms of selective history and reproductive success — facts in principle investigable by natural science. By identifying semantic correctness with proper biological function, Millikan aims to show that the normativity of meaning is not a ghostly, non-natural addition to the physical world but a species of the broader natural phenomenon of biological function."
+
+- question: "The causal theory of reference fully explains semantic normativity because causal chains connect words to the natural kinds they correctly refer to, and nothing else."
+  type: true-false
+  answer: false
+  explanation: "Causal chains connect words not only to correct applications but also to incorrect ones. When I call a cat 'dog,' there is still a genuine causal chain running from the cat to my utterance. The causal theory does not explain which causal connections are semantically privileged — that is the normativity gap. A purely causal story says what is causally linked; meaning requires saying what the word is supposed to apply to, a normative fact that resists purely causal reduction."
+
+- question: "Why is the normativity of meaning considered a harder challenge for semantic naturalism than simply reducing reference to causal facts?"
+  type: short-answer
+  answer: "Reducing reference to causal facts is tractable: one can identify the natural kind a word refers to by tracing causal-historical chains to its actual instances. But normativity introduces a further dimension: not just 'what is causally linked to this word' but 'what should this word be applied to — and why is any other application an error?' Any natural fact proposed to ground normativity is compatible with infinitely many different norms, because the same natural facts can conform to many different rules. The challenge, made vivid by Kripke's rule-following argument, is that no natural fact seems to single out one rule as the correct one."
+  explanation: "Reference naturalism says 'dog' refers to dogs because of these causal facts. Normative naturalism must say it is correct to apply 'dog' to dogs and incorrect to apply it to cats — and this normative fact is nothing over and above some natural property. The additional step from 'is causally linked to' to 'ought to be applied to' is what resists purely naturalistic treatment."
+```
+
 ## Explainer
 
 You come to this topic with an understanding of physicalism about mind — the view that mental facts are ultimately physical facts — and some familiarity with the philosophy of language. Semantic naturalism asks: can the facts that make expressions mean what they mean be explained in terms that a natural science could in principle investigate? The stakes are high because meaning seems stubbornly unlike ordinary physical properties. A rock doesn't refer to anything; a thermostat doesn't *misrepresent* temperature — it just mechanically responds. Yet words refer, and uses of words can be correct or incorrect. Where does this semantic dimension come from?

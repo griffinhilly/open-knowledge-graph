@@ -38,6 +38,45 @@ Active listening is essential: the ear must adjust to different tuning systems, 
 - 'World music' is not a musical category — it is a commercial label that groups enormously diverse traditions by what they are not (Western).
 - Non-Western musical traditions are not simpler or more 'primitive' than Western art music — Indian classical music has a theoretical tradition of comparable complexity and antiquity to Western counterpoint.
 
+## Questions
+
+```yaml
+- question: "A student hears gamelan music for the first time and cannot find the melody on a piano. The most accurate explanation is:"
+  type: multiple-choice
+  options:
+    - "Gamelan music has no melody — it is purely rhythmic"
+    - "Gamelan is tuned to pélog and sléndro scales that place pitches between piano keys, since the piano uses Western equal temperament"
+    - "The piano has too few keys to play any non-Western music"
+    - "Gamelan instruments are too loud for piano transcription"
+  answer: 1
+  explanation: "Gamelan instruments are tuned to pélog and sléndro scales, which do not align with the 12-tone equal temperament that the piano's keys represent. The pitches fall between piano keys — not because the piano lacks keys, but because Western equal temperament is a specific, historically-chosen division of pitch space that doesn't match gamelan's tuning. This is a concrete example of why Western pitch organization is a convention, not a universal."
+
+- question: "Which of the following best captures the difference between a raga and a Western major scale?"
+  type: multiple-choice
+  options:
+    - "A raga uses fewer pitches than a major scale, making it simpler"
+    - "A raga and a major scale are equivalent concepts — both organize the pitches available for improvisation"
+    - "A raga is a melodic personality with characteristic phrases, ornaments, emotional associations, and ascending/descending rules — far richer than a list of available pitches"
+    - "A raga is a rhythmic structure; the melody is determined separately by the performer"
+  answer: 2
+  explanation: "A raga is not just a set of available pitches — it is a complex melodic framework with its own ascending and descending forms (which may differ), characteristic ornaments, associated emotional character (rasa), and even time-of-day associations. A performer improvising in a raga is navigating a rich inherited convention, not freely ranging within a scale. Treating a raga as 'just a scale' misses the depth of the system entirely."
+
+- question: "Non-Western musical traditions represent earlier, less developed stages of music that Western art music has superseded."
+  type: true-false
+  answer: false
+  explanation: "This is the core misconception the topic directly addresses. Indian classical music has a theoretical tradition of comparable complexity and antiquity to Western counterpoint. African polyrhythm, Indonesian stratified polyphony, and Middle Eastern maqam represent fully sophisticated musical systems organized according to different principles, not simpler ones. 'World music' traditions are not earlier stages of music history; they are parallel, equally developed traditions within a much larger musical possibility space."
+
+- question: "The insight that Western musical conventions are 'choices within a larger possibility space' only becomes apparent when you encounter music organized by fundamentally different principles."
+  type: true-false
+  answer: true
+  explanation: "Within a tradition, conventions appear as natural or given — the way music simply is. It takes contact with another tradition that makes different choices (microtonal inflections instead of equal temperament, cyclic tala instead of duple/triple meter, stratified polyphony instead of harmonic progression) to reveal that Western conventions are historical decisions rather than universal laws. Encountering gamelan, a full raga performance, or African polyrhythm makes Western conventions visible as conventions for the first time."
+
+- question: "What is the structural principle of stratified polyphony in Indonesian gamelan, and how does it differ from Western harmonic structure as a way of organizing musical texture?"
+  type: short-answer
+  answer: "Stratified polyphony organizes the gamelan ensemble into layers moving at different rhythmic rates: low gongs mark long structural cycles, mid-range instruments move at intermediate rates, and higher-pitched instruments elaborate rapid melodic patterns. Structure emerges from the superposition of rhythmic layers, with the coincidence of slow-moving instruments marking formal boundaries. Western harmonic structure organizes texture through chord progressions and tonal tension/resolution — vertical pitch combinations moving through a hierarchy of stability. Gamelan has no equivalent of tonal harmony; its coherence is rhythmic and stratificational rather than harmonic."
+  explanation: "The contrast illustrates how fundamentally different organizing logics can be. Gamelan listeners hear structure at a longer timescale (the return of the lowest gong) rather than tracking harmonic tension. Understanding this requires abandoning the assumption that harmony is the universal glue of musical organization — it is one solution among many to the problem of how to make a sequence of sounds cohere."
+```
+
 ## Explainer
 
 You already have the building blocks — pitch, rhythm, meter — but those concepts as you have learned them describe specifically Western conventions. Western music divides the octave into 12 equal semitones; Western meter groups beats into duple or triple hierarchies; Western harmony builds vertical chords from simultaneous pitches. These are not universal laws of sound but historical choices. Encountering world music traditions means learning to hear pitch, rhythm, and structure organized according to fundamentally different principles.

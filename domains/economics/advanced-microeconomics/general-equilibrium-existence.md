@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 General equilibrium existence is non-trivial and requires proof. Under convexity of preferences, continuous utility functions, and no free disposal, Brouwer and Kakutani fixed-point theorems establish that at least one Walrasian equilibrium exists. The proof models excess demand as a mapping from the price simplex to itself and applies fixed-point theory to find equilibrium prices.
 
+## Questions
+
+```yaml
+- question: "The existence proof for general equilibrium applies Brouwer's fixed-point theorem by constructing a mapping from the price simplex to itself. At a fixed point of this mapping, what economic condition holds?"
+  type: multiple-choice
+  options:
+    - "Every consumer is spending exactly their endowment income — budget constraints are binding"
+    - "Prices are not adjusting under the price-update rule, which means excess demands are zero and all markets clear simultaneously"
+    - "The excess demand vector sums to zero, confirming Walras' law"
+    - "Utility is maximized for all consumers simultaneously at the given price vector"
+  answer: 1
+  explanation: "The proof constructs a price-adjustment mapping T(p) that raises prices of goods in excess demand and lowers prices of goods in excess supply. A fixed point p* satisfies T(p*) = p* — prices do not change under the adjustment rule. Prices stop adjusting only when there is no pressure to adjust, which means no good has excess demand or supply: all markets clear. This is precisely a Walrasian equilibrium. Note: Walras' law (option C) is always true by definition at any price vector, not just at equilibrium — it is a necessary condition for the proof to work, not the conclusion."
+
+- question: "A software company has zero marginal cost after the initial development: the first copy costs $10 million to produce, and each additional copy costs essentially nothing. Why does the standard Arrow-Debreu existence proof fail to guarantee a competitive equilibrium for this market?"
+  type: multiple-choice
+  options:
+    - "The price simplex changes dimensions when marginal cost is zero, violating the compactness assumption needed for Brouwer's theorem"
+    - "Walras' law breaks down when marginal cost is zero, so the value of excess demands may not sum to zero"
+    - "Non-convex production possibilities create supply correspondences that are not upper hemicontinuous, violating the continuity requirements for fixed-point theorems"
+    - "Brouwer's theorem only applies to economies with a finite number of goods, and software products are infinitely divisible"
+  answer: 2
+  explanation: "The existence proof requires that excess demand varies continuously (or upper hemicontinuously) with prices, which depends on convex preferences and convex production sets. Strong increasing returns (like near-zero marginal cost) produce non-convex production sets: a firm facing zero marginal cost may want to produce zero or essentially unlimited quantities depending on whether price exceeds the average fixed cost, creating a discontinuous supply function. Fixed-point theorems require continuity to guarantee that the mapping from prices to excess demands doesn't 'jump' — without continuity, there may be no price where excess demand is zero."
+
+- question: "Walras' law implies that if all but one market is in equilibrium at a given price vector, the final market must also be in equilibrium."
+  type: true-false
+  answer: true
+  explanation: "Walras' law states that at any price vector p, the total value of excess demands sums to zero: p · z(p) = 0. If all n-1 markets clear (excess demand = 0 in each), then the remaining term in the dot product must also be zero. Since the price of the last good is positive (we're on the interior of the price simplex), its excess demand must be zero. This is why the proof only needs to show n-1 markets clear; the last one follows automatically. It is the budget constraint aggregated across all consumers that produces this result."
+
+- question: "The Arrow-Debreu existence theorem guarantees that a competitive equilibrium, when it exists, is unique and Pareto efficient."
+  type: true-false
+  answer: false
+  explanation: "The existence theorem proves only that at least one equilibrium exists — it says nothing about uniqueness or efficiency. Uniqueness requires additional assumptions (like gross substitutability of goods) that are not part of the standard existence conditions. Multiple equilibria are common in general equilibrium models. Pareto efficiency of equilibria is guaranteed by the First Welfare Theorem, which is a separate result requiring its own assumptions (complete markets, no externalities, price-taking behavior). Existence, uniqueness, and efficiency are three distinct properties requiring three distinct proofs."
+
+- question: "What role does the convexity of consumer preferences play in the existence proof for general equilibrium, and what goes wrong mathematically if preferences are non-convex?"
+  type: short-answer
+  answer: "Convexity of preferences guarantees that the consumer's demand function (or correspondence) is continuous — small changes in prices produce small changes in demanded quantities. Without convexity, demand can jump discontinuously: a consumer might switch abruptly from consuming only good A to consuming only good B as relative prices change slightly, because with non-convex preferences, mixtures of goods are less preferred than extremes. This discontinuity breaks the continuity condition required by fixed-point theorems. If excess demand z(p) is discontinuous, the price-adjustment mapping T(p) may also be discontinuous, and Brouwer's theorem (which requires continuity) no longer guarantees a fixed point exists. Economically, non-convex preferences correspond to goods that are 'lumpy' or exhibit satiation — and markets for such goods often do fail to have competitive equilibria."
+  explanation: "The requirement for convexity explains why general equilibrium theory works well for divisible goods traded in smooth markets but struggles with indivisibilities, increasing returns, and network goods. The mathematical failure is not just a technical inconvenience — it reflects a genuine economic phenomenon: markets for goods with strong non-convexities (software, pharmaceuticals, infrastructure) tend toward monopoly or oligopoly rather than competitive equilibrium, and market prices may not accurately reflect social value. The existence proof thus provides both a positive result (markets can work) and a diagnostic tool (here is precisely when and why they may not)."
+```
+
 ## Explainer
 
 From Walrasian equilibrium, you know the concept: a price vector at which every consumer maximizes utility subject to their budget constraint and all markets clear simultaneously. But knowing what equilibrium means is very different from knowing whether one actually exists. The economy is a system of potentially millions of interacting agents with diverse preferences and endowments. Why should there be any price vector that simultaneously satisfies everyone's optimization and clears every market? The existence proof answers this question and, in doing so, reveals what assumptions about the economy are truly essential for markets to function.

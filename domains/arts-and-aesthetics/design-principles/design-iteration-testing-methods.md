@@ -31,6 +31,45 @@ Design something, test it with users, document problems found, iterate. Repeat t
 ## Common Misconceptions
 That testing delays shipping. Actually, early testing and iteration accelerates final delivery and reduces costly post-launch problems.
 
+## Questions
+
+```yaml
+- question: "A designer has finished a rough wireframe showing the navigation structure of a new mobile app — no visual design, no interactivity. Which testing method is most appropriate at this stage?"
+  type: multiple-choice
+  options:
+    - "A/B testing with live users to compare click-through rates between two navigation patterns"
+    - "A design critique or informal usability test with 3-5 users to evaluate the conceptual structure"
+    - "Launch a beta version and analyze drop-off analytics to find problems"
+    - "Commission a professional heuristic evaluation covering all 10 Nielsen heuristics"
+  answer: 1
+  explanation: "Low-fidelity artifacts need low-fidelity testing. A rough wireframe is ideal for a critique (are we solving the right problem structurally?) or a quick informal test (can users understand the intended navigation model?). A/B testing requires live traffic and a finished product. Analytics require a launched product. A formal 10-heuristic evaluation is overkill for a wireframe — the point here is catching conceptual problems early, not polishing details."
+
+- question: "During usability testing, all five users tell you verbally that the checkout flow 'seems fine' and 'easy to use.' However, while completing the purchase task, every user paused at the payment step, re-read the instructions twice, and two failed to complete successfully. What conclusion should you draw?"
+  type: multiple-choice
+  options:
+    - "The design is probably acceptable — a majority (3/5) completed the task"
+    - "The behavioral evidence (pausing, re-reading, failures) reveals a real usability problem that verbal self-report missed"
+    - "You need a larger sample size before drawing any conclusions from this test"
+    - "The problem is likely with users' technical skills, not the design"
+  answer: 1
+  explanation: "In usability testing, behavior is the signal and verbal opinions are noise. Users routinely describe a confusing design as 'fine' while their actions reveal hesitation, confusion, and workarounds — this is called the 'say-do gap.' The behavioral data here (universal pausing, re-reading, 40% failure rate on a critical task) is strong evidence of a problem. Five users is sufficient for identifying major usability issues; Nielsen's research shows five users find ~85% of problems."
+
+- question: "Testing a design with users at an early, low-fidelity stage typically accelerates overall delivery compared to waiting until the design is fully developed."
+  type: true-false
+  answer: true
+  explanation: "Early testing catches conceptual flaws before significant investment is made in building them out. Discovering that the core navigation model is broken at the wireframe stage costs a day to fix; discovering the same problem after months of high-fidelity development can cost weeks of rework. The misconception is that testing 'delays' delivery — in practice, it prevents far more costly delays caused by late-stage problem discovery."
+
+- question: "Effective usability testing requires at least 20-30 participants to produce reliable results about design problems."
+  type: true-false
+  answer: false
+  explanation: "Jakob Nielsen's research demonstrated that 5 users typically uncover approximately 85% of usability problems. Additional participants reveal diminishing returns — most problems are found quickly once a handful of users encounter them. Large sample sizes are appropriate for A/B testing (where statistical significance matters) or quantitative benchmarking — not for qualitative usability testing where the goal is to observe behavior and identify friction."
+
+- question: "What does it mean to 'match testing fidelity to the stage of design,' and why does this principle make iteration more efficient rather than more burdensome?"
+  type: short-answer
+  answer: "Fidelity matching means using the simplest testing artifact that can answer your current question. Early in design, when you're validating concepts and structure, a sketch or wireframe is sufficient — you don't need a polished prototype to ask 'does this navigation model make sense?' As the design matures, higher fidelity tests are warranted for interaction patterns and visual refinement. Testing a napkin sketch for visual polish misses the point; building a polished prototype to test a flawed concept wastes the effort. Matching fidelity ensures each test cycle answers the right question with the minimum investment needed."
+  explanation: "Mismatched fidelity is the most common failure mode in design testing. High fidelity too early means investing weeks in something that should be validated in hours. Low fidelity too late means missing the nuances (color, animation, microinteraction) that matter at that stage. The staged approach keeps iteration efficient by right-sizing each test to its question."
+```
+
 ## Explainer
 
 From your study of design process and iteration, you know that design is not a linear path from idea to finished product — it is a cycle of making, evaluating, and revising. Design iteration and testing methods formalize the "evaluating" step, replacing gut feeling with structured feedback. The core principle is simple: **test early, test often, and test with the right method for the stage you are in**. A sketch on a napkin does not need a 50-person usability study; a product about to launch does not benefit from asking a colleague "does this look okay?"

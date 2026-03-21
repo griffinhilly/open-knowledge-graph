@@ -30,6 +30,45 @@ Rewrite passages from active to passive and back, then evaluate which version be
 - Following the blanket rule "always use active voice" without recognizing that passive voice is the better choice in many contexts, including scientific writing, legal language, and diplomatic communication.
 - Believing that eliminating passive voice automatically makes writing clearer; unclear active sentences are just as problematic as unclear passive ones.
 
+## Questions
+
+```yaml
+- question: "A news headline reads 'Three protesters were shot during the demonstration.' A copy editor argues this should always be rewritten in active voice. The best response is:"
+  type: multiple-choice
+  options:
+    - "The editor is right; active voice is always clearer and more direct in journalism"
+    - "Active voice might be worse here — if the agent is unknown or disputed, passive voice correctly foregrounds the victims and the event rather than forcing an unverified attribution"
+    - "Passive voice is never acceptable in professional journalism"
+    - "The passive voice is incorrect here because protests are events, not agents"
+  answer: 1
+  explanation: "The blanket rule 'always use active voice' ignores legitimate rhetorical purposes of passive voice. If the shooter is unknown, naming an agent would be inaccurate. If the story is about the victims, 'The protesters were shot' correctly keeps them as the grammatical subject. Active voice ('Police shot three protesters') makes an attribution claim. The choice between them is rhetorical — what is the sentence about, and who should be named? Voice is a tool for emphasis, not a correctness rule."
+
+- question: "A politician states 'Mistakes were made in how this policy was handled.' What does the voice choice reveal?"
+  type: multiple-choice
+  options:
+    - "The passive voice emphasizes the severity of the mistakes by foregrounding them as the subject"
+    - "The passive voice conceals who made the mistakes, diffusing accountability in a way active voice would not permit"
+    - "This is incorrect usage; passive voice cannot describe actions by people"
+    - "The passive voice is appropriate because the policy, not the politician, is the true subject"
+  answer: 1
+  explanation: "'Mistakes were made' is grammatically correct passive voice with the agent omitted entirely. Compare to 'I made mistakes' or 'The administration made mistakes' — both active versions name a responsible agent. The passive allows the speaker to acknowledge that mistakes occurred without taking ownership or assigning blame. This is why political language analysis pays close attention to voice: passive constructions that omit agents are frequently used to diffuse accountability."
+
+- question: "Passive voice is the appropriate choice in scientific writing because scientific conventions prioritize methods and results over the identity of the researcher."
+  type: true-false
+  answer: true
+  explanation: "Scientific writing conventions deliberately depersonalize the researcher to emphasize the method's reproducibility and the result's independence from any particular person. 'The samples were centrifuged at 3,000 rpm' is better than 'I centrifuged the samples at 3,000 rpm' because who did it is irrelevant — what matters is the procedure. This is a genuine rhetorical purpose of passive voice, not a mistake. It's one of the clearest cases where the blanket 'always use active voice' rule fails."
+
+- question: "The sentence 'The budget was approved' is grammatically incorrect because properly formed English sentences require a named agent."
+  type: true-false
+  answer: false
+  explanation: "Passive voice without a named agent is perfectly grammatical in English. 'The budget was approved' is a complete, correct sentence — the agent (whoever approved it) has simply been omitted. The full passive form would be 'The budget was approved by the council,' but the 'by' phrase is optional. Omitting the agent is one of passive voice's deliberate rhetorical features: it allows writers to put the result first and, when relevant, to obscure or background who performed the action."
+
+- question: "Explain the rhetorical difference between 'The police shot the protesters' and 'The protesters were shot.' Why might a writer deliberately choose one over the other?"
+  type: short-answer
+  answer: "'The police shot the protesters' uses active voice: the agent (police) is the grammatical subject, making their responsibility explicit and direct. 'The protesters were shot' uses passive voice: the victims are foregrounded as the subject, and the agent is absent. A writer would choose active voice when responsibility matters — reporting, argument, or assigning credit or blame. A writer would choose passive when the agent is unknown, when the focus is on the recipient, or when naming the agent would be premature or disputed. Neither is more correct; they emphasize different things."
+  explanation: "This contrast is the core of the topic. Voice is not a style preference about clarity — it is a rhetorical choice about emphasis. Every sentence has a grammatical subject, and whatever occupies that position gets the most attention. Choosing active vs. passive means choosing who or what to put there."
+```
+
 ## Explainer
 
 From your study of passive voice, you know that English allows two ways of framing the same event: "The council approved the budget" (active) or "The budget was approved by the council" (passive). You also know the grammatical mechanics — the agent moves out of subject position, the patient moves to subject position, and the agent may be omitted entirely. What this topic adds is a rhetorical question: when does each choice serve the writer better, and what effects does each produce in readers?

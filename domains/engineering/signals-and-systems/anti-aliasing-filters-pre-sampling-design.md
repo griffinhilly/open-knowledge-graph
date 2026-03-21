@@ -31,6 +31,45 @@ Demonstrate aliasing on a signal without anti-aliasing filter, then add a lowpas
 - Assuming filter edge must be exactly at fs/2 (should be below to account for filter transition).
 - Not accounting for filter delay when designing data acquisition pipelines.
 
+## Questions
+
+```yaml
+- question: "A signal contains a 6 kHz component and is sampled at 10 kHz without an anti-aliasing filter. At what frequency does the 6 kHz component appear in the sampled signal?"
+  type: multiple-choice
+  options:
+    - "6 kHz — it is preserved correctly because sampling captures all frequencies present"
+    - "4 kHz — the component folds back by aliasing (fs − 6 kHz = 10 − 6 = 4 kHz)"
+    - "3 kHz — the Nyquist frequency halves all components above fs/2"
+    - "0 Hz — components above Nyquist are set to zero by the sampling process"
+  answer: 1
+  explanation: "Aliasing folds frequencies above fs/2 back into the baseband. The Nyquist frequency is fs/2 = 5 kHz. A 6 kHz component is 1 kHz above the Nyquist frequency, so it aliases to 5 kHz − 1 kHz = 4 kHz (equivalently: 10 kHz − 6 kHz = 4 kHz). This aliased component is indistinguishable from a genuine 4 kHz signal in the digital domain — the information cannot be recovered. This is why filtering must happen before sampling, not after."
+
+- question: "An engineer designs an anti-aliasing filter and sets the cutoff frequency exactly at fs/2. Why is this problematic?"
+  type: multiple-choice
+  options:
+    - "A filter cutoff at fs/2 would eliminate all useful signal content along with aliases"
+    - "Real filters have a gradual transition band — setting the cutoff at fs/2 means attenuating signal near fs/2 while failing to fully suppress content just above fs/2 that would alias"
+    - "Filters can only be specified at integer multiples of 10 kHz, so fs/2 is often not achievable"
+    - "Setting the cutoff at fs/2 violates the Nyquist theorem, which requires the filter to be set at fs"
+  answer: 1
+  explanation: "Real filters have finite roll-off — they don't transition instantaneously from full pass to full stop. Setting the cutoff at exactly fs/2 creates a dilemma: frequencies just below fs/2 will be attenuated (hurting signal quality), while frequencies just above fs/2 will only be partially attenuated (still causing aliasing). A correct design places the passband edge below fs/2 and uses the gap between the passband edge and fs/2 as the transition band, ensuring full attenuation is achieved by the Nyquist frequency."
+
+- question: "The Nyquist sampling theorem guarantees that no aliasing occurs when a signal is sampled at twice its highest frequency, even if no anti-aliasing filter is used."
+  type: true-false
+  answer: false
+  explanation: "The Nyquist theorem states that perfect reconstruction is possible IF the signal contains no frequency components above fs/2 before sampling — it specifies a precondition, not a guarantee. In practice, every real signal contains some energy above fs/2 (thermal noise, harmonics, broadband interference), and the ADC cannot distinguish desired from undesired content. The anti-aliasing filter is what enforces the Nyquist precondition. A common misconception is that 'sampling at 2× the highest frequency' makes the filter unnecessary — it merely defines the required sampling rate once the filter has ensured the precondition holds."
+
+- question: "Aliasing cannot be corrected in digital post-processing after sampling — it must be prevented by filtering the analog signal before the ADC."
+  type: true-false
+  answer: true
+  explanation: "Aliasing is irreversible. When a 6 kHz signal aliases to 4 kHz in a 10 kHz system, the 4 kHz component in the digital data is the sum of any genuine 4 kHz content and the aliased 6 kHz content. There is no way to separate these contributions after the fact — the original frequency information is permanently lost. Digital filtering after sampling can remove the 4 kHz component entirely, but cannot recover the original 6 kHz signal or cleanly separate the two contributions. This irreversibility is the fundamental reason why anti-aliasing must be performed in the analog domain before any sampling occurs."
+
+- question: "Why must the passband edge of an anti-aliasing filter be set below fs/2 rather than at exactly fs/2? What happens to both signal quality and aliasing suppression if you place it exactly at fs/2?"
+  type: short-answer
+  answer: "Real filters have a finite transition band — the region where attenuation gradually increases from the passband level to the stopband level. If the passband edge is set at exactly fs/2, the filter will be in its transition band right at the Nyquist frequency. This has two consequences: frequencies just below fs/2 are attenuated (degrading the signal), and frequencies just above fs/2 are only partially attenuated (allowing aliasing). A correct design places the passband edge at some fraction below fs/2 (e.g., 0.4·fs), so that the transition band fits between the passband edge and fs/2, and the required stopband attenuation is achieved by the time frequencies that would alias are reached."
+  explanation: "The transition band is the designer's budget for rolling off. The correct strategy is to decide how much of the spectrum you actually need (the passband), set the filter edge there, and verify that the transition completes with sufficient attenuation before reaching the Nyquist frequency. A margin below fs/2 is essential because filter transitions are not vertical cliffs — they occupy a finite frequency range that must be accounted for in the design."
+```
+
 ## Explainer
 
 From the Nyquist-Shannon sampling theorem, you know that to perfectly reconstruct a signal from its samples, the sampling rate fs must be at least twice the highest frequency in the signal — the **Nyquist rate**. But the theorem comes with a hidden assumption: the signal must contain no frequencies above fs/2 *before* sampling. In reality, every physical signal contains some energy at all frequencies (noise, harmonics, broadband interference), and the ADC has no way to know which frequencies are "real" and which are undesirable. When you sample, all frequencies above fs/2 fold back into the 0 to fs/2 range, permanently contaminating your data — this is **aliasing**, and it cannot be corrected after the fact.

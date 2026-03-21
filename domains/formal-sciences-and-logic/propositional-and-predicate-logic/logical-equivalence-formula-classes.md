@@ -32,6 +32,45 @@ Verify equivalences using truth tables or semantic reasoning. Build intuition fo
 - Assuming logical equivalence is symmetric (it is) or transitive (it is); these properties are intuitive once clarified.
 - Thinking two formulas are equivalent because one implies the other (equivalence requires implication in both directions).
 
+## Questions
+
+```yaml
+- question: "Which of the following correctly describes the relationship between logical equivalence (φ ≡ ψ) and the biconditional (φ ↔ ψ)?"
+  type: multiple-choice
+  options:
+    - "They are the same thing — ≡ is just notation for the biconditional connective"
+    - "φ ≡ ψ holds if and only if φ ↔ ψ is a tautology (true in every interpretation)"
+    - "φ ≡ ψ is a stronger claim than φ ↔ ψ being true in some interpretation"
+    - "φ ↔ ψ is a metatheoretic relation, while φ ≡ ψ is an object-level formula"
+  answer: 1
+  explanation: "This is the bridge theorem connecting two levels of analysis. Logical equivalence (≡) is a metatheoretic relation — a statement ABOUT two formulas, made from outside the logical system. The biconditional (↔) is an object-level connective that produces a new formula from φ and ψ. The connection: φ ≡ ψ holds precisely when φ ↔ ψ is a tautology (always true). If their biconditional is merely true in some interpretations but not all, the formulas are not equivalent — they might just happen to agree in those cases."
+
+- question: "You know that formula P logically implies formula Q (P ⊨ Q), meaning Q is true in every interpretation where P is true. You also know Q logically implies P (Q ⊨ P). What can you conclude?"
+  type: multiple-choice
+  options:
+    - "Nothing further — implication in both directions doesn't establish equivalence"
+    - "P and Q are logically equivalent (P ≡ Q)"
+    - "P and Q are both tautologies"
+    - "P ↔ Q is satisfiable but not a tautology"
+  answer: 1
+  explanation: "Logical equivalence requires that φ and ψ have the same truth value in every interpretation — which is exactly what mutual implication establishes. If P ⊨ Q, then wherever P is true, Q is true. If Q ⊨ P, then wherever Q is true, P is true. Together: P and Q are true in exactly the same interpretations, so they have identical truth tables. This is the definition of logical equivalence. Note that this is strictly stronger than one-directional implication — if only P ⊨ Q held, P could be a tautology while Q is contingent, or Q could be true in some interpretations where P is false."
+
+- question: "If formula φ logically implies formula ψ (φ ⊨ ψ), then φ and ψ are logically equivalent."
+  type: true-false
+  answer: false
+  explanation: "Implication is one-directional: in every interpretation where φ is true, ψ is also true. But ψ might be true in additional interpretations where φ is false — so the truth tables can differ. For example, 'P ∧ Q' implies 'P', but they are not equivalent: P can be true when P ∧ Q is false. Equivalence requires implication in BOTH directions simultaneously (φ ⊨ ψ AND ψ ⊨ φ), which means the formulas are true in exactly the same interpretations. A common mistake is treating strong implication as near-equivalence; the definitions are formally distinct."
+
+- question: "Two formulas are logically equivalent if and only if their corresponding biconditional is a tautology."
+  type: true-false
+  answer: true
+  explanation: "This is the bridge theorem between metatheory and object language. φ ≡ ψ (a statement about formulas) holds iff φ ↔ ψ (a formula built using the biconditional connective) is true in every interpretation — i.e., is a tautology. This provides two methods for checking equivalence: you can compare truth tables directly (both columns identical) or construct the biconditional and verify it's always true. The two methods are equivalent, and the theorem is what licenses using equivalence transformations in proofs."
+
+- question: "Explain the difference between logical equivalence (φ ≡ ψ) and the biconditional connective (φ ↔ ψ), and explain why confusing them produces errors."
+  type: short-answer
+  answer: "Logical equivalence (φ ≡ ψ) is a metatheoretic relation — a claim made about two formulas from outside the logic, asserting they have the same truth value in every interpretation. The biconditional (φ ↔ ψ) is an object-level connective that produces a new formula which can be true or false in different interpretations. Confusing them produces errors because you cannot substitute ≡ inside a formula (it's not a connective) and you cannot use ↔ as a relation between formula classes (it's not a metatheoretic statement). The connection is the bridge theorem: φ ≡ ψ holds iff φ ↔ ψ is a tautology."
+  explanation: "A typical error from confusing these levels: writing '(P ∧ Q) ≡ ¬(¬P ∨ ¬Q)' inside a formula as if ≡ were a connective, which is syntactically malformed in the object language. Or, conversely, treating a true biconditional in a specific model as if it established logical equivalence (it doesn't — equivalence requires the biconditional to be a tautology). The two-level distinction (object language vs metatheory) is fundamental to rigorous logic and reappears throughout model theory and proof theory."
+```
+
 ## Explainer
 
 You know that two formulas φ and ψ are **logically equivalent** (φ ≡ ψ) when they have identical truth values under every interpretation — their truth tables are identical column-for-column. Logical equivalence is an *equivalence relation*: reflexive (φ ≡ φ), symmetric (if φ ≡ ψ then ψ ≡ φ), and transitive (if φ ≡ ψ and ψ ≡ χ then φ ≡ χ). An equivalence relation partitions its domain into **equivalence classes** — here, classes of formulas that express exactly the same semantic content, differing only in syntax.

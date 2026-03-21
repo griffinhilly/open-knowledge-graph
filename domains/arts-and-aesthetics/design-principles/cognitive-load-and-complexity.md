@@ -31,6 +31,45 @@ Compare simple vs complex versions of the same interface. Observe where users he
 ## Common Misconceptions
 That reducing cognitive load means removing features. Often, better organization reduces load without cutting functionality.
 
+## Questions
+
+```yaml
+- question: "A UI designer hides rarely-used advanced settings behind an 'Advanced ▸' link, keeping the main interface uncluttered. Which cognitive load management technique does this illustrate?"
+  type: multiple-choice
+  options:
+    - "Chunking — grouping related controls into a named section"
+    - "Progressive disclosure — revealing complexity only when the user chooses to engage with it"
+    - "Visual hierarchy — using contrast and size to de-emphasize secondary elements"
+    - "Intrinsic load reduction — simplifying the underlying task itself"
+  answer: 1
+  explanation: "Progressive disclosure delays the presentation of information until it is relevant to the user's current action. Hiding advanced settings reduces the number of options a casual user must evaluate, without removing functionality for power users. Chunking (option A) refers to grouping items that are already visible. Visual hierarchy (option C) uses visual weight to rank elements — it doesn't hide them. Intrinsic load (option D) refers to the inherent difficulty of the task, which a UI cannot change."
+
+- question: "Which interface design would likely impose HIGHER cognitive load, despite appearing simpler at first glance?"
+  type: multiple-choice
+  options:
+    - "A settings page with 12 clearly labeled toggles organized into named sections"
+    - "A minimalist toolbar with 4 unlabeled icon buttons whose functions must be inferred or memorized"
+    - "A form with 10 fields that each have descriptive labels and placeholder text"
+    - "A dashboard with 20 data widgets arranged in a consistent grid with clear headings"
+  answer: 1
+  explanation: "Unlabeled icons force users to either memorize what each button does or experiment to find out — both are forms of extraneous cognitive load. A sparse interface that requires guessing, hunting, or memorization can impose higher cognitive load than a denser interface where everything is clearly organized and labeled. Cognitive load is about mental effort, not visual density. Options A, C, and D all have more elements but impose less load because the organization and labeling do the interpretive work for the user."
+
+- question: "Reducing cognitive load in a design always requires reducing the number of features or visible elements."
+  type: true-false
+  answer: false
+  explanation: "This is the misconception stated in the topic's Common Misconceptions section. Cognitive load is about mental effort, not element count. Better labeling, consistent layout, chunking, visual hierarchy, and familiar conventions can dramatically reduce load while keeping all features present. An interface with 30 well-organized, clearly labeled options can impose less load than one with 5 cryptically designed ones."
+
+- question: "Extraneous cognitive load is the mental effort imposed by poor design choices, as distinct from the inherent difficulty of the task being performed."
+  type: true-false
+  answer: true
+  explanation: "Cognitive load theory distinguishes three types: intrinsic (difficulty inherent to the task), extraneous (mental effort caused by how the interface presents the task), and germane (productive effort spent actually accomplishing the goal). Extraneous load is the designer's target for reduction because it consumes mental resources without advancing the user's goal. Intrinsic load cannot be designed away — filing taxes is complex regardless of the UI — but extraneous load from poor labels or inconsistent navigation can always be minimized."
+
+- question: "Explain the difference between intrinsic, extraneous, and germane cognitive load. Why is reducing extraneous load the designer's primary target rather than intrinsic load?"
+  type: short-answer
+  answer: "Intrinsic load is the inherent difficulty of the task itself — it cannot be changed by design. Extraneous load is the mental effort caused by poor design: confusing labels, inconsistent navigation, unnecessary choices, visual clutter. Germane load is the productive mental effort actually spent learning or accomplishing the goal. Designers target extraneous load because it is the only type they control: they cannot make the task itself simpler, but they can eliminate friction in how it is presented. Reducing extraneous load frees up mental capacity for germane load — the actual work."
+  explanation: "This three-way distinction clarifies the designer's role. A tax form designer cannot make taxes less complex (intrinsic load is fixed by law and math), but they can eliminate confusing jargon, provide helpful examples, and organize steps logically — all of which reduce extraneous load. The goal is not a 'dumb' interface but an *appropriately transparent* one: the interface should feel invisible, leaving all cognitive resources available for the real task."
+```
+
 ## Explainer
 
 From your work on visual perception, you know that human attention is selective — we cannot process everything in our visual field simultaneously. **Cognitive load** applies this insight to design: every element a user must perceive, interpret, or decide about consumes a finite mental resource. When that resource is exhausted, users make mistakes, feel frustrated, or simply abandon the task. The designer's job is not to eliminate complexity (most useful systems are inherently complex) but to manage how and when that complexity reaches the user's conscious attention.

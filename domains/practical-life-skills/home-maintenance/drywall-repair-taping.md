@@ -31,6 +31,45 @@ Practice on a scrap piece of drywall propped against a wall before tackling a re
 - You can sand joint compound before it is fully dry — sanding damp mud tears rather than smooths, creates grooves, and forces you to apply additional coats to fix the damage.
 - A single thick coat of mud saves time over three thin coats — thick applications shrink, crack, and are nearly impossible to sand flat, adding far more work than they save.
 
+## Questions
+
+```yaml
+- question: "A homeowner applies one thick coat of joint compound over a seam instead of three thin coats to save time. What is the most likely outcome?"
+  type: multiple-choice
+  options:
+    - "The seam will be invisible because more material fills the gap completely"
+    - "The compound will shrink and crack as it dries, requiring more repair work than three thin coats would have"
+    - "The surface will be stronger because it has more material reinforcing the seam"
+    - "Sanding will be faster since there is only one layer to smooth"
+  answer: 1
+  explanation: "Joint compound shrinks significantly as the water in it evaporates. A thick application shrinks unevenly, causing cracking and an uneven surface that is nearly impossible to sand flat. Three thin coats, each allowed to dry fully before the next, shrink less per coat, build gradually, and produce a smoother, more stable result. The 'save time' logic backfires because fixing a cracked thick coat takes far more work."
+
+- question: "After the final coat of mud has dried, what is the professional quality-check step before priming?"
+  type: multiple-choice
+  options:
+    - "Run your fingers across the surface to feel for ridges or bumps"
+    - "View the wall under normal overhead room lighting from a distance"
+    - "Hold a work light at a sharp angle nearly parallel to the wall surface"
+    - "Apply primer and check for imperfections once it dries"
+  answer: 2
+  explanation: "Raking light — positioning a light source nearly parallel to the wall surface — causes even minor ridges and hollows to cast visible shadows, revealing every imperfection that looks fine under normal lighting. Normal overhead lighting is forgiving and will hide the same defects that will become visible and permanent once paint is applied. Checking after priming is the most expensive mistake because paint amplifies surface flaws. Raking light before priming is the step that prevents this."
+
+- question: "Paper tape, when properly bedded in a thin layer of mud, produces stronger and flatter seams than mesh tape for most joint repairs."
+  type: true-false
+  answer: true
+  explanation: "While mesh tape is easier to apply (it is self-adhesive), paper tape bedded in compound is more flexible, lies flatter, and resists cracking along joints better. Mesh tape also lacks the fold needed for inside corners. Professional finishers use paper tape for most applications because it results in stronger, smoother joints. Mesh tape's reputation as 'easier and better' is the common misconception this topic is designed to address."
+
+- question: "You can begin sanding joint compound as soon as the surface no longer feels wet to the touch."
+  type: true-false
+  answer: false
+  explanation: "Surface-dry compound may still be damp beneath. Sanding damp compound tears and gouges the material rather than smoothing it, creating grooves and damage that require additional coats to fix. The reliable indicator of full dryness is color: joint compound turns from grey-white (wet) to pure white (dry) throughout. Sanding too early is one of the most common mistakes and one of the most counterproductive."
+
+- question: "Why does each coat of joint compound need to be applied wider than the previous one? What principle makes this necessary?"
+  type: short-answer
+  answer: "The seam is slightly raised above the surrounding drywall. Applying mud only over the seam itself creates a visible hump. By feathering each coat progressively wider (typically 6, 10, then 12 inches), you create a ramp so long and gradual that no single point of transition is noticeable. The wider the feathering, the shallower the slope, and the more invisible the repair."
+  explanation: "This feathering principle is the core skill of drywall finishing. It is not about hiding the seam under more material — it is about making the transition from seam to flat wall happen so gradually that the eye cannot detect it. The progression from narrower to wider knives (6-inch, 10-inch, 12-inch) naturally enforces this because wider tools force you to spread the compound over a larger area."
+```
+
 ## Explainer
 
 From your wall patching work, you know how to fill small holes with spackling compound. Drywall taping and mudding is that same idea scaled up — applied to the seams between sheets of drywall, corners, or large-patch repairs. The central problem is that drywall is installed in panels, and every edge where two panels meet is a potential crack site. The solution is to bridge that seam with tape embedded in joint compound, then build up the surface around it until the joint becomes invisible. This is less about filling a hole and more about creating a gradual, feathered transition that the eye and hand cannot detect.

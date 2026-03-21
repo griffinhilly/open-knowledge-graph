@@ -32,6 +32,45 @@ Verify that ℵ₁, ℵ₂, and ℵ_{ω₁} are regular (their cofinality equals
 - Singular cardinals are not rare or exotic — ℵ_ω, ℵ_{ω₁}, and ℵ_{ω+ω} are all singular. Any limit cardinal whose index is a limit ordinal of smaller cofinality is singular.
 - The behavior of cardinal exponentiation at singular cardinals is not fully determined by ZFC, but it is far more constrained than at regular cardinals, thanks to PCF theory.
 
+## Questions
+
+```yaml
+- question: "Which of the following cardinals is singular?"
+  type: multiple-choice
+  options:
+    - "ℵ₁ — the first uncountable cardinal"
+    - "ℵ₂ — the second uncountable cardinal"
+    - "ℵ_ω — the cardinal indexed by the first limit ordinal ω"
+    - "ℵ_{ω₁} — singular only if the continuum hypothesis holds"
+  answer: 2
+  explanation: "ℵ_ω is singular because the sequence ℵ₀, ℵ₁, ℵ₂, ... is cofinal in ℵ_ω and has length ω = ℵ₀ < ℵ_ω, so cf(ℵ_ω) = ω < ℵ_ω. By contrast, ℵ₁ and ℵ₂ are successor cardinals: no countable sequence of cardinals below ℵ₁ can have supremum ℵ₁ (the union would be at most countable), so cf(ℵ₁) = ℵ₁ — regular. Option D is a misconception: cf(ℵ_{ω₁}) = ω₁ < ℵ_{ω₁}, making ℵ_{ω₁} singular in ZFC, independent of CH."
+
+- question: "Using König's theorem (cf(2^κ) > κ for all κ), which of the following is provably false in ZFC?"
+  type: multiple-choice
+  options:
+    - "2^{ℵ₀} = ℵ₁"
+    - "2^{ℵ₀} = ℵ₂"
+    - "2^{ℵ₀} = ℵ_ω"
+    - "2^{ℵ₀} = ℵ_{ω₁}"
+  answer: 2
+  explanation: "König's theorem gives cf(2^{ℵ₀}) > ℵ₀. So 2^{ℵ₀} cannot have cofinality ≤ ℵ₀. Since cf(ℵ_ω) = ω = ℵ₀, setting 2^{ℵ₀} = ℵ_ω would give cf(2^{ℵ₀}) = ω ≤ ℵ₀ — a direct contradiction. The other options are consistent: cf(ℵ₁) = ℵ₁ > ℵ₀, cf(ℵ₂) = ℵ₂ > ℵ₀, and cf(ℵ_{ω₁}) = ω₁ > ℵ₀. Only ℵ_ω is ruled out because it is singular with cofinality ω."
+
+- question: "ℵ₁ is a regular cardinal because no countable sequence of cardinals smaller than ℵ₁ can have supremum equal to ℵ₁."
+  type: true-false
+  answer: true
+  explanation: "A cardinal κ is regular when cf(κ) = κ. For ℵ₁: any collection of countably many cardinals each less than ℵ₁ (i.e., countable cardinals) has union at most countable. So no sequence of length ≤ ℵ₀ can be cofinal in ℵ₁, which means cf(ℵ₁) = ℵ₁ — it is regular. Every uncountable successor cardinal is regular in ZFC. Limit cardinals whose index has smaller cofinality, like ℵ_ω, are singular."
+
+- question: "Singular cardinals are rare and exotic: regular cardinals predominate in the hierarchy, and singular ones appear only at isolated points."
+  type: true-false
+  answer: false
+  explanation: "Singular cardinals vastly outnumber regular ones by density. Every successor cardinal (ℵ₁, ℵ₂, ℵ₃, ...) is regular, but every limit cardinal whose index has smaller cofinality is singular: ℵ_ω, ℵ_{ω+ω}, ℵ_{ω²}, ℵ_{ω_ω}, and many others are all singular. The singular cardinals are densely packed throughout the hierarchy; the regular cardinals are the exceptions, not the rule."
+
+- question: "Use the definition of singular cardinals and König's theorem to explain why 2^{ℵ₀} cannot equal ℵ_ω."
+  type: short-answer
+  answer: "ℵ_ω is singular with cf(ℵ_ω) = ω = ℵ₀. König's theorem states cf(2^κ) > κ for any cardinal κ. Setting κ = ℵ₀ gives cf(2^{ℵ₀}) > ℵ₀. But if 2^{ℵ₀} = ℵ_ω, then cf(2^{ℵ₀}) = cf(ℵ_ω) = ω = ℵ₀ ≤ ℵ₀, directly contradicting König's inequality. Therefore 2^{ℵ₀} ≠ ℵ_ω is provable in ZFC without additional axioms."
+  explanation: "This is a clean example of how cofinality constraints propagate through cardinal arithmetic. König's theorem acts as a filter on what values cardinal exponentiation can take: the result must have cofinality greater than the base cardinal. Any singular cardinal with cofinality ≤ ℵ₀ is immediately ruled out as the value of 2^{ℵ₀}. This shows that ZFC, despite leaving the exact value of the continuum undetermined, still imposes non-trivial structural constraints on what that value can be."
+```
+
 ## Explainer
 
 The cardinal hierarchy you know — ℵ₀, ℵ₁, ℵ₂, ... — does not end at the finite indexing. After all the ℵ_n comes ℵ_ω, the first cardinal with a limit ordinal as its subscript. This is the canonical **singular cardinal**, and understanding why requires your prerequisite concept of **cofinality**. Recall that cf(κ) is the least cardinality of a cofinal subset of κ — the smallest number of "steps" needed to reach κ from below. A cardinal is **regular** when cf(κ) = κ (you genuinely need κ-many steps), and **singular** when cf(κ) < κ (you can approach κ with fewer). ℵ_ω is singular because the sequence ℵ₀, ℵ₁, ℵ₂, ... is cofinal in ℵ_ω and has length ω = ℵ₀ < ℵ_ω. By contrast, ℵ₁ is regular: you cannot reach it from below with countably many countable cardinals, because the union of countably many countable sets is still countable.

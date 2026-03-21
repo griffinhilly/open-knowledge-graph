@@ -42,6 +42,45 @@ Trace electron flow from water through PSII → plastoquinone → cytochrome b6f
 - The oxygen released during photosynthesis comes from the splitting of water, not from CO₂.
 - Cyclic photophosphorylation (using only PSI) produces ATP but not NADPH — it's an alternative pathway used to supplement ATP under certain conditions.
 
+## Questions
+
+```yaml
+- question: "If a plant is supplied with water molecules labeled with oxygen-18 (H₂¹⁸O) but normal CO₂ (¹²C¹⁶O₂), where will the heavy oxygen atoms appear in the products?"
+  type: multiple-choice
+  options:
+    - "In glucose, because CO₂ provides the oxygen that is incorporated into sugar"
+    - "In O₂ gas released during photosynthesis, because oxygen comes from water splitting"
+    - "In both O₂ and glucose equally, because oxygen atoms from water are distributed throughout the reaction"
+    - "In NADPH, because water donates electrons that reduce NADP⁺"
+  answer: 1
+  explanation: "The oxygen released as O₂ during photosynthesis comes entirely from the splitting of water (photolysis: 2H₂O → 4H⁺ + 4e⁻ + O₂), not from CO₂. The oxygen in CO₂ ends up in the carbohydrate products of the Calvin cycle. Labeling experiments with H₂¹⁸O confirm that ¹⁸O appears in the released O₂. This directly refutes the common misconception that photosynthetic O₂ comes from breaking down CO₂."
+
+- question: "Under conditions where the Calvin cycle requires extra ATP but the current ATP:NADPH ratio is insufficient, which photosynthetic pathway adjusts to compensate?"
+  type: multiple-choice
+  options:
+    - "Noncyclic electron flow through both PSII and PSI, which always produces the correct ratio"
+    - "Cyclic electron flow around PSI alone, which generates additional ATP without producing NADPH"
+    - "A reversal of the electron transport chain to recover ATP from NADPH"
+    - "Increased water splitting at PSII to boost the proton gradient and ATP synthesis"
+  answer: 1
+  explanation: "Cyclic electron flow involves only PSI: excited electrons from PSI are passed to ferredoxin but cycle back through the cytochrome b6f complex rather than reducing NADP⁺. This pumps additional protons into the thylakoid lumen, driving more ATP synthesis without producing any NADPH. Because the Calvin cycle requires slightly more ATP than NADPH (3 ATP per 2 NADPH per CO₂ fixed), cyclic flow supplements the ATP supply. Noncyclic flow produces both ATP and NADPH together and cannot independently adjust the ratio."
+
+- question: "In the light-dependent reactions, Photosystem II acts before Photosystem I: it oxidizes water and energizes electrons that eventually reach PSI for a second boost before reducing NADP⁺."
+  type: true-false
+  answer: true
+  explanation: "This is correct. The naming (PSII before PSI) reflects the order of discovery, not the order of function — PSII actually acts first. At PSII, light energy splits water and excites electrons to a high-energy state. These electrons travel through the plastoquinone → cytochrome b6f → plastocyanin chain to PSI, where a second absorption of light boosts them again, ultimately reducing NADP⁺ to NADPH. The electron path is one-directional: water → PSII → transport chain → PSI → NADPH."
+
+- question: "The primary direct product of the light-dependent reactions is glucose, which is then exported from the chloroplast to power cellular respiration."
+  type: true-false
+  answer: false
+  explanation: "The light reactions produce ATP and NADPH — chemical energy currencies — not glucose. Glucose is synthesized in the Calvin cycle, which occurs in the stroma (not the thylakoid) and uses the ATP and NADPH from the light reactions to fix CO₂. The light reactions' role is to convert light energy into these portable chemical forms. This distinction is critical: without understanding that ATP and NADPH are the outputs, students cannot understand why the Calvin cycle depends on the light reactions or why it stops in the dark."
+
+- question: "Explain why the light reactions cannot directly build glucose, and describe what they produce instead that makes sugar synthesis possible."
+  type: short-answer
+  answer: "The light reactions capture light energy and convert it into ATP (chemical energy for driving reactions) and NADPH (reducing power for electron donation). These are the energy currencies the Calvin cycle needs to fix CO₂ into sugar. The light reactions cannot directly build glucose because they occur in the thylakoid membrane and lack the enzymatic machinery for carbon fixation; they also do not handle CO₂ at all. The Calvin cycle in the stroma uses ATP and NADPH as inputs to power the energy-demanding reduction of CO₂ into organic molecules."
+  explanation: "This two-stage division of photosynthesis — light reactions producing ATP/NADPH, Calvin cycle using them to fix CO₂ — is the architectural key to understanding the whole process. The light reactions solve the energy problem (converting light to chemical), and the Calvin cycle solves the carbon problem (building organic molecules). The two stages are coupled: in the dark, ATP and NADPH are not produced, so the Calvin cycle halts even though CO₂ is still available."
+```
+
 ## Explainer
 
 You already know from the photosynthesis overview that plants capture light energy and convert it into chemical energy. The light-dependent reactions are where that conversion actually happens, and they take place in the **thylakoid membranes** inside chloroplasts. Think of the thylakoid as a solar panel embedded with two specialized light-harvesting machines — **Photosystem II (PSII)** and **Photosystem I (PSI)** — connected by an electron transport chain you will recognize from its conceptual similarity to the mitochondrial electron transport chain.

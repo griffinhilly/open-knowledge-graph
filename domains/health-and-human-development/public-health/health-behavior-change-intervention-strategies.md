@@ -30,6 +30,45 @@ Design a multi-level intervention for a specific health behavior and specify tar
 ## Common Misconceptions
 Assuming individual education is the primary driver of behavior change—environmental and structural factors typically have larger population effects.
 
+## Questions
+
+```yaml
+- question: "A public health team wants to increase fruit and vegetable consumption in a hospital cafeteria. Which intervention is most likely to produce the largest population-level effect?"
+  type: multiple-choice
+  options:
+    - "Distributing educational pamphlets about the health benefits of produce at the cafeteria entrance"
+    - "Placing fruits and vegetables first in the serving line, at eye level, with a slight price reduction"
+    - "Hosting a weekly cooking class that teaches healthy meal preparation"
+    - "Sending staff weekly email reminders to make healthy choices at lunch"
+  answer: 1
+  explanation: "Structural interventions that modify the default — reducing the effort cost of the healthy choice — consistently outperform education-based approaches for habitual dietary behaviors. Research shows 20–30% increases in healthy meal selection when healthy options are prominently positioned and priced favorably, without any educational component. Options A and D target the knowledge/reminder pathway, which is relatively weak for habitual, cue-driven behaviors like daily food choices. Option C is valuable but reaches only the motivated minority who attend voluntarily."
+
+- question: "A community health program sees limited success in increasing mammography screening rates with educational mailings. Which additional strategy would most likely improve uptake?"
+  type: multiple-choice
+  options:
+    - "Extend the educational mailings to include more detailed statistics about breast cancer risk"
+    - "Add peer support groups for women who fear screening"
+    - "Send personalized reminder texts to women whose screening is overdue"
+    - "Restructure the built environment by building a new clinic in the neighborhood"
+  answer: 2
+  explanation: "Mammography screening is an episodic, one-time behavior — not a habitual, cue-driven behavior. Episodic behaviors respond much better to individual-level prompts at the moment of decision than to environmental redesign. A text message saying 'your mammogram is overdue' directly targets the specific decision point. More detailed educational content (option A) is unlikely to help if the barrier is inertia rather than knowledge — most women who haven't screened already know they should. Option D would help access but not decision-making."
+
+- question: "For habitual behaviors like smoking or dietary patterns, the most effective population-level interventions typically target environmental cues and structural defaults rather than individual knowledge."
+  type: true-false
+  answer: true
+  explanation: "Habitual behaviors are governed largely by automatic cues and routines rather than deliberate decision-making. Environmental interventions — food placement and pricing, removal of cigarette displays, no-smoking signage — modify the cue landscape that drives automatic behavior, operating at the moment of choice without requiring individual motivation or willpower. This is why structural interventions consistently outperform educational campaigns for habits: they change what happens before conscious choice engages."
+
+- question: "The main reason population-level health education campaigns fail is that most people lack access to accurate information about healthy behaviors."
+  type: true-false
+  answer: false
+  explanation: "Most people already know the basics of healthy behavior (eat more vegetables, exercise, don't smoke). The barrier is not knowledge but structure: food environments, time constraints, economic pressures, social norms, and habit cues all push toward unhealthy choices. The knowledge → intention → behavior chain breaks at multiple points even when knowledge is present. Effective interventions change the structural context of the choice, not just the information environment. This is the central insight of multi-level intervention design."
+
+- question: "Why do structural interventions (like changing cafeteria defaults) often outperform educational campaigns for changing dietary behavior, even when people genuinely want to eat healthily?"
+  type: short-answer
+  answer: "Habitual dietary behaviors are governed largely by automatic routines and environmental cues, not deliberate decision-making. Educational campaigns give people information but leave them facing an environment designed to produce opposite choices — unhealthy options prominently placed, healthy alternatives requiring more effort or cost. Structural interventions change what happens at the moment of choice without requiring motivation or willpower: they make the healthy option the path of least resistance. Because most choices are made automatically, changing the choice context changes behavior more reliably than changing knowledge or intentions."
+  explanation: "This is 'choice architecture' in practice. Willpower is a limited, unevenly distributed resource, and it is inefficient to rely on it for every food decision across millions of people. Redesigning the choice environment so the healthy option is easy, visible, and affordable is far more scalable. This does not mean education is useless — it matters for one-time and episodic behaviors — but matching intervention type to behavior type is what separates evidence-based program design from intuition-based health communication."
+```
+
 ## Explainer
 
 From your study of health promotion models, you have tools for understanding individual behavior — the Health Belief Model explains perceived susceptibility and barriers, the Transtheoretical Model stages readiness to change, and Social Cognitive Theory highlights self-efficacy. But one of the most important insights in public health is that these individual-level explanations, while valid, are insufficient to change population-level health behavior. The gap between what people know and what they do is not primarily a knowledge deficit — it is a structural and contextual one.

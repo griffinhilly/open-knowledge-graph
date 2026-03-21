@@ -35,6 +35,45 @@ Draw state diagrams for small DFAs that accept concrete languages — strings en
 - A DFA does not have memory beyond its current state — it cannot count unboundedly, which is why it cannot recognize languages like {a^n b^n}.
 - The transition function must be total: every state must have a transition for every symbol, even if that transition leads to a "dead" (non-accepting sink) state.
 
+## Questions
+
+```yaml
+- question: "What is the minimum number of states needed for a DFA that recognizes binary strings where the number of 1s is divisible by 3?"
+  type: multiple-choice
+  options:
+    - "3 states — one for each remainder (0, 1, 2) when the count of 1s is divided by 3"
+    - "4 states — three for remainders plus a dedicated start state"
+    - "Infinitely many — the DFA must count arbitrary numbers of 1s, requiring unbounded memory"
+    - "2 states — one accepting state (divisible by 3) and one rejecting state (not divisible)"
+  answer: 0
+  explanation: "The DFA doesn't count 1s — it tracks remainder modulo 3, which takes only three values: 0, 1, and 2. One state per remainder suffices. The DFA starts in state 0 (remainder 0, which is also the accept state since 0 is divisible by 3), transitions on each 1 to the next remainder state, and stays put on 0s. This illustrates the key insight: the minimum states equal the distinct 'memories' about input history that matter — here, only the current remainder."
+
+- question: "Which of the following languages can a DFA recognize?"
+  type: multiple-choice
+  options:
+    - "All binary strings containing an even number of 1s"
+    - "All strings of the form aⁿbⁿ for n ≥ 1 (equal numbers of a's followed by equal numbers of b's)"
+    - "All palindromes over the alphabet {a, b}"
+    - "All strings where the total number of a's equals the total number of b's"
+  answer: 0
+  explanation: "Even number of 1s requires tracking only a parity bit — two states suffice (even-so-far, odd-so-far). The other three languages all require remembering an unbounded count: aⁿbⁿ needs to know exactly how many a's were seen before reading b's; palindromes require remembering the entire first half; equal counts require tracking the running difference. None of these can be captured by any finite state space, which is why they are not regular languages."
+
+- question: "In a DFA, the transition function need not be defined for every (state, symbol) pair — when no transition is defined for a given symbol, the DFA implicitly rejects the input."
+  type: true-false
+  answer: false
+  explanation: "By formal definition, the transition function δ: Q × Σ → Q must be TOTAL — defined for every state-symbol pair. To handle rejection, a 'dead state' (or 'sink state') is added: all undefined transitions lead to this state, which has self-loops on every symbol and is not an accept state. Keeping δ total is not just a technicality — it ensures the DFA's behavior is fully specified and composable with other formal operations (product construction, complementation, etc.)."
+
+- question: "The minimum number of states in a DFA for a given language is related to the number of distinguishable histories of input prefixes — strings that will cause the DFA to behave differently going forward."
+  type: true-false
+  answer: true
+  explanation: "This is the Myhill-Nerode theorem: the minimum number of states in any DFA for a language L equals the number of equivalence classes of input strings under the relation 'x ≡ y if for all future strings z, xz ∈ L iff yz ∈ L.' Strings in the same class can be collapsed into a single state; strings in different classes must be distinguished. This gives both a lower bound on states and a canonical minimization algorithm."
+
+- question: "Why can a DFA recognize 'binary strings with an even number of 1s' but cannot recognize 'strings of the form aⁿbⁿ'? What property of DFAs explains the boundary?"
+  type: short-answer
+  answer: "For even-1s, the only information needed about any prefix is parity — even or odd count of 1s so far. Two states capture all possible 'situations' a prefix can leave you in. For aⁿbⁿ, after reading n a's you must remember the exact value of n before comparing to the b's, and n can be arbitrarily large. No finite number of states can represent all possible values of n. DFAs recognize exactly the languages where what must be remembered about input history is expressible in finitely many distinct states — the regular languages. Any language requiring unbounded counting or unbounded memory exceeds DFA capacity."
+  explanation: "The intuition is that a DFA's states are its entire memory — there is no stack, no tape, no counter. The finite state space is the fundamental constraint. This is why we need pushdown automata (with a stack) to recognize context-free languages like aⁿbⁿ, and Turing machines (with unbounded tape) for more complex languages. Each model in the Chomsky hierarchy adds one kind of memory."
+```
+
 ## Explainer
 
 A DFA is the simplest formal model of computation — and its simplicity is the point. You can think of a DFA as a machine with a fixed, finite number of "moods" (**states**), and its only memory is which mood it currently occupies. Each time it reads a symbol, it transitions — deterministically, with no choice — to a new state dictated by the **transition function** δ: Q × Σ → Q. When the input string is exhausted, the machine reports whether it's in an accepting state. That's the entire mechanism.

@@ -32,6 +32,45 @@ Begin with monophonic bass lines played on a single instrument (cello, tuba, bas
 ## Common Misconceptions
 Assuming the lowest pitch you hear is always the structural bass—in orchestral music, the lowest instrument may double middle voices, and the true bass note (harmonic root) may be sounding higher in the texture.
 
+## Questions
+
+```yaml
+- question: "In a full orchestral passage, the contrabasses sustain an E while the cellos play C. The harmonic context strongly implies a C major chord in root position. Which pitch is the structural bass?"
+  type: multiple-choice
+  options:
+    - "E, because it is the physically lowest-sounding pitch in the texture"
+    - "C, because it is the pitch that determines the chord's root-position identity and harmonic function"
+    - "Both equally — the structural bass is always determined by the loudest bass note"
+    - "Neither — in orchestral music, the structural bass is always found in the brass section"
+  answer: 1
+  explanation: "The structural bass is the note that determines chord inversion and harmonic function — not necessarily the lowest-sounding pitch. A contrabass doubling an inner voice may sound lower than the cello carrying the harmonic root. Accurately identifying the structural bass requires integrating theoretical knowledge (what note the harmony is 'rooted in') with perceptual attention, not simply tracking the lowest register. This is the core misconception in bass line dictation."
+
+- question: "You correctly transcribe a bass line moving C–E–F in a C major context. A classmate hears the same passage and writes G–G–G because 'it sounds like C major the whole time.' What critical information did your classmate miss?"
+  type: multiple-choice
+  options:
+    - "The rhythmic profile of the bass line"
+    - "The fact that the bass note determines chord inversion — C, E, and F in the bass create root position, first inversion, and second inversion chords with different harmonic characters"
+    - "The dynamic level of the bass instrument relative to upper voices"
+    - "The tempo, which changes how bass notes connect to each other"
+  answer: 1
+  explanation: "The bass note determines chord inversion and harmonic meaning. C in the bass = root-position C major (stable tonic). E in the bass = first-inversion C major (lighter, less stable). F in the bass may imply a different chord entirely, such as IV. Your classmate heard the overall key as C major but failed to track the bass movement that differentiates these harmonic moments. This is exactly why accurate bass line dictation is simultaneous melodic and harmonic work."
+
+- question: "Accurately transcribing a bass line provides information about chord inversions and root movement, making it simultaneously a melodic and harmonic task."
+  type: true-false
+  answer: true
+  explanation: "The bass note is not just the lowest pitch in a melody — it is the harmonic foundation that determines chord inversion (root position, first inversion, second inversion) and implies root movement (C–G–C signals tonic–dominant–tonic). Bass line dictation integrates pitch perception, rhythmic dictation, and harmonic analysis into a single task. Getting the bass right means understanding the harmonic skeleton of the passage."
+
+- question: "In any harmonic texture, the physically lowest-sounding pitch is always the structural bass that determines chord inversion."
+  type: true-false
+  answer: false
+  explanation: "This is the core misconception highlighted in the topic. In orchestral and ensemble music, instruments playing inner voices may double at lower octaves, placing physically lower pitches below the actual harmonic root. A contrabassoon, contrabass, or bass trombone may double a tenor or alto voice that sits above the cello's structural bass line. Developing ear-training skill means listening for the pitch the harmony 'wants to be rooted in,' not just tracking the lowest frequency."
+
+- question: "Why does recognizing bass notes as scale degrees — rather than just as pitches — help with both dictation accuracy and harmonic analysis?"
+  type: short-answer
+  answer: "Scale degrees carry functional meaning within a key. Hearing the bass as scale degree 5 immediately implies dominant function; scale degree 4 implies subdominant or second-inversion possibilities; scale degree 1 implies tonic root position. This framework gives you expectations that help with dictation accuracy: if the harmony sounds like it's moving toward a cadence, scale degree 5 in the bass is expected and recognizable. It also transforms transcription from a purely perceptual exercise into an integrated hearing-and-understanding task — you are not just writing down pitches but capturing the harmonic grammar of the passage."
+  explanation: "The scale-degree framework provides a perceptual anchor. Instead of trying to hear absolute pitch names, you hear functional relationships to the tonic. This reduces perceptual load and makes unexpected notes more salient (because they violate expectations). The same principle applies to melodic dictation — hearing 'mi–re–do' is easier than hearing 'E–D–C' in isolation."
+```
+
 ## Explainer
 
 From your earlier dictation work, you know how to capture a single melodic line — you listen, orient to the tonic, identify scale degrees, and transcribe rhythm and pitch together. Bass line dictation applies exactly those same skills to the lowest voice of a harmonic texture. What makes it distinctive is not the ear-training method but the perceptual challenge: the bass must be extracted from a rich harmonic environment, and what you hear at the bottom of the texture carries not just melodic information but the entire harmonic implication of the passage.

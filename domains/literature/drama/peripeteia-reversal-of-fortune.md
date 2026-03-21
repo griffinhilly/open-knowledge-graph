@@ -31,6 +31,45 @@ Trace the turning point in Greek tragedies (Sophocles' Oedipus Rex is exemplary)
 ## Common Misconceptions
 Peripeteia is not merely a plot twist or coincidence. It must emerge from the dramatic action and represent a genuine shift in the character's understanding of their world.
 
+## Questions
+
+```yaml
+- question: "Oedipus sends for the shepherd specifically to prove he could not have killed his father. The shepherd's testimony instead reveals that Oedipus is exactly who the prophecy named. Why is this the clearest example of peripeteia?"
+  type: multiple-choice
+  options:
+    - "It is a surprising coincidence that fate chose this particular moment to expose the truth"
+    - "Oedipus's own action — the investigation intended to produce exoneration — produces the precise opposite outcome, an inversion driven by his own choices"
+    - "External divine forces intervene to punish Oedipus for his hubris regardless of what he does"
+    - "Oedipus makes an obvious tactical error that any careful person would have avoided"
+  answer: 1
+  explanation: "Peripeteia is not coincidence or divine punishment descending from outside — it is a reversal that emerges from the internal logic of the protagonist's own actions. Oedipus pursues the truth relentlessly; that pursuit is what destroys him. The harder he works to disprove the prophecy, the more completely he confirms it. The reversal is both surprising and, in retrospect, structurally inevitable given who Oedipus is."
+
+- question: "What is the key distinction between peripeteia and a mere plot twist?"
+  type: multiple-choice
+  options:
+    - "Peripeteia occurs only in Greek tragedy, while a plot twist can appear in any genre"
+    - "Peripeteia must occur in the fourth act; a plot twist can happen at any point"
+    - "Peripeteia emerges from the protagonist's own actions and feels retrospectively inevitable, while a plot twist need not be motivated by character or prior logic"
+    - "Peripeteia always involves death; a plot twist may be comic or neutral"
+  answer: 2
+  explanation: "The distinguishing feature is necessity grounded in character. A plot twist surprises; peripeteia surprises and then, once it has happened, feels like it could not have been otherwise. The tragic reversal grows from who the protagonist is and what they chose to do. Without that organic connection to character and action, you have an arbitrary surprise, not tragedy in Aristotle's sense."
+
+- question: "Peripeteia can occur even when the protagonist makes no significant choices — a stroke of external bad luck counts as a tragic reversal."
+  type: true-false
+  answer: false
+  explanation: "Aristotle is explicit that peripeteia must emerge from the dramatic action, not from arbitrary external chance. If Oedipus were struck by lightning, that would be suffering but not tragedy in Aristotle's sense. The reversal must feel earned by what came before — motivated by the protagonist's character, choices, or the internal logic of the plot. External disaster without that internal connection is misfortune, not peripeteia."
+
+- question: "The most effective peripeteia is both surprising when it occurs and, in retrospect, structurally inevitable given what preceded it."
+  type: true-false
+  answer: true
+  explanation: "This dual quality — surprise plus retrospective necessity — is precisely what Aristotle values. We did not predict the reversal as it happened, but once it occurs we see that it followed naturally from the causes already in place. This combination produces the emotional power of great tragedy: the shock of the unexpected fused with the recognition that it could not have been otherwise."
+
+- question: "Why does Aristotle regard peripeteia that coincides with anagnorisis (recognition) as the highest form of tragic construction?"
+  type: short-answer
+  answer: "When reversal of fortune and reversal of understanding occur simultaneously, the protagonist's world is transformed both externally and epistemically at the same moment — they not only suffer a change in circumstances but come to know something they cannot unknow. The tragedy is complete on both levels: the situation collapses and the illusion collapses together."
+  explanation: "The coincidence of peripeteia and anagnorisis intensifies both elements. The reversal is not just a change of circumstances but an epistemological event: after it, the protagonist understands their situation — and themselves — in a fundamentally different way. In Oedipus Rex, Oedipus's fall from respected king to outcast and the revelation of his true identity are inseparable. The plot event and the knowledge event are the same event, which is why Aristotle regards their conjunction as the pinnacle of tragic craft."
+```
+
 ## Explainer
 
 From your study of Aristotelian tragedy, you know that Aristotle's *Poetics* analyzes tragedy as a carefully structured form with specific components: plot (*mythos*), character (*ethos*), thought (*dianoia*), diction, music, and spectacle. Of these, plot is primary — it is "the soul of tragedy." And within plot, the most important structural mechanisms are **peripeteia** (reversal) and **anagnorisis** (recognition). When they occur together — when the reversal and the recognition happen at the same moment — Aristotle regards this as the highest form of tragic construction.

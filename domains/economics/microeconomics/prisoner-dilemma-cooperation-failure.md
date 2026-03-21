@@ -28,6 +28,45 @@ Work through the classic prisoner's dilemma payoff matrix. Examine real-world ap
 - Assuming the Nash equilibrium is the 'best' outcome—it's only the equilibrium given the incentives, not necessarily optimal.
 - Thinking cooperation is impossible—repeated interaction (repeated games) can support cooperation through trigger strategies.
 
+## Questions
+
+```yaml
+- question: "Two firms can each price high (earning $10M each) or price low. If one defects while the other cooperates, the defector earns $15M and the cooperator $2M. If both defect, each earns $5M. What is the Nash equilibrium outcome?"
+  type: multiple-choice
+  options:
+    - "Both price high ($10M each) — since mutual cooperation is better than mutual defection"
+    - "Both price low ($5M each) — because defecting earns more regardless of what the other firm does"
+    - "One firm prices high and one prices low, splitting the market efficiently"
+    - "The outcome depends on which firm moves first — the first mover captures the $15M payoff"
+  answer: 1
+  explanation: "This is a prisoner's dilemma payoff structure. Defecting (price low) is a *dominant strategy*: if the rival cooperates, you earn $15M by defecting vs $10M by cooperating; if the rival defects, you earn $5M vs $2M by cooperating. In both cases, defecting earns more. Rational firms defect regardless of the other's action, landing at the ($5M, $5M) Nash equilibrium — even though ($10M, $10M) is available. Option A describes what's socially optimal, not what individually rational firms do."
+
+- question: "Before playing a one-shot prisoner's dilemma, both players sincerely promise each other to cooperate. What does game theory predict will happen?"
+  type: multiple-choice
+  options:
+    - "Both will cooperate — sincere promises build mutual trust, which changes the incentive structure"
+    - "Both will still defect — in a one-shot game, promises are unenforceable, and defecting remains the dominant strategy"
+    - "One will cooperate and one will defect — the less trustworthy player takes advantage"
+    - "Both will cooperate — communication allows players to form a binding agreement"
+  answer: 1
+  explanation: "In a single-shot prisoner's dilemma, communication without enforceable commitment cannot resolve the dilemma. Each player still faces a dominant strategy to defect — and each player knows that the other faces the same dominant strategy, which means the promise is not credible. If you plan to defect anyway, promising to cooperate costs nothing. If you had planned to cooperate, defecting still earns more. Unenforceable cheap talk does not change the payoff structure. Cooperation requires external enforcement, binding commitments, or the credible threat of future punishment in repeated interaction."
+
+- question: "The Nash equilibrium of a prisoner's dilemma is the outcome where both players maximize their joint payoff."
+  type: true-false
+  answer: false
+  explanation: "The Nash equilibrium of the prisoner's dilemma (mutual defection) is Pareto *inferior* — it is NOT the joint-payoff-maximizing outcome. Mutual cooperation gives both players higher payoffs than mutual defection. The Nash equilibrium is merely the outcome where no *individual* player can improve by unilaterally changing their own strategy. It is individually stable but collectively suboptimal. The tension between individual rationality (Nash equilibrium) and collective welfare (Pareto optimum) is the entire point of the prisoner's dilemma."
+
+- question: "If defecting always yields a higher personal payoff than cooperating, regardless of what the other player does, then defecting is a dominant strategy."
+  type: true-false
+  answer: true
+  explanation: "This is the precise definition of a dominant strategy: an action that produces a weakly higher payoff than any other action, no matter what the opponent chooses. In the prisoner's dilemma, defecting dominates cooperating in *every* scenario — whether the opponent cooperates or defects. When a dominant strategy exists, rational players always choose it, because no belief about the opponent's behavior can make another strategy preferable. This is what makes the dilemma so analytically powerful: you need no assumptions about the opponent's reasoning."
+
+- question: "Why can't two rational players escape a prisoner's dilemma through mutual agreement when the game is played only once?"
+  type: short-answer
+  answer: "In a one-shot game, any agreement to cooperate is not self-enforcing. After agreeing, each player still earns more by defecting — and since both players know this about each other, neither trusts the other's promise. Without the threat of future punishment for defection, the dominant strategy drives both players to defect regardless of what they said beforehand."
+  explanation: "The escape from the prisoner's dilemma in repeated games works through credible punishment: 'I will defect in all future rounds if you defect today.' This threat makes cooperation rational when future payoffs are sufficiently valuable. In a one-shot game, there are no future rounds to threaten, so the threat is unavailable. This explains why real-world cooperation (cartels, treaties, social norms) requires mechanisms that create ongoing interdependence — removing the one-shot structure by creating a repeated game."
+```
+
 ## Explainer
 
 You know from Nash equilibrium that a game's solution is a set of strategies where no player can improve their outcome by unilaterally changing their choice. The prisoner's dilemma takes this logic and reveals a disturbing implication: individual rationality can systematically produce collective outcomes that nobody prefers. The puzzle is not that players make mistakes — it is that intelligent, self-interested players, reasoning correctly, land in a bad equilibrium. Understanding why requires tracking the payoff structure carefully.

@@ -30,6 +30,45 @@ Open your browser's history and cache settings. Clear the cache for a site you v
 - Clearing your cache will log you out of most websites because it removes the cookies that maintain your sessions.
 - A large browser cache does not slow down your computer in most cases — browsers manage cache size automatically, and the speed benefit of cached content usually outweighs the storage cost.
 
+## Questions
+
+```yaml
+- question: "You clear your browser's cache but not your cookies. What is the most likely result?"
+  type: multiple-choice
+  options:
+    - "You are logged out of all your websites because the cache stores login data"
+    - "Your browsing history is erased along with the cached files"
+    - "You remain logged into websites but some pages may reload slightly slower on first visit"
+    - "Websites can no longer track your activity across sessions"
+  answer: 2
+  explanation: "The cache stores copies of page resources (images, scripts, CSS) for performance — not login credentials. Clearing it removes those performance copies, so pages that were cached will need to re-download their resources on the next visit, causing a brief slowdown. You stay logged in because login state is stored in cookies, which you did not clear. Option A is the most common misconception: people conflate cache and cookies, but they serve entirely different purposes."
+
+- question: "You use incognito/private browsing mode for an entire work session on your employer's network. Which parties can still see which websites you visited?"
+  type: multiple-choice
+  options:
+    - "Nobody — incognito mode encrypts all traffic and makes browsing invisible to external parties"
+    - "Only the websites themselves, since incognito blocks network-level logging"
+    - "Your employer's network administrator and your ISP, but not the websites you visited"
+    - "Your employer's network administrator, your ISP, and the websites you visited"
+  answer: 3
+  explanation: "Incognito mode only prevents your local browser from saving history, cookies, and cache to your device. It has no effect on what is visible to parties outside your machine. Your employer's network can log all DNS requests and traffic passing through it; your ISP sees your traffic at the network level; and the websites themselves receive and log your requests just as in normal mode. Incognito protects you from someone who later picks up your physical device — not from network observers."
+
+- question: "Clearing your browser cookies will log you out of most websites."
+  type: true-false
+  answer: true
+  explanation: "Session cookies are what keep you logged in after you enter your password — they hold a token the server uses to verify your identity without requiring you to re-enter credentials on every page. When you delete cookies, those tokens are gone, and the server treats you as a new, unidentified visitor. This is why tech support's advice to 'clear your cache' usually clarifies 'but you'll have to log back in everywhere' — though strictly speaking, it's the cookies, not the cache, that cause the logout."
+
+- question: "A large browser cache slows down your computer because it consumes disk space and requires extra memory to manage."
+  type: true-false
+  answer: false
+  explanation: "Browsers manage cache size automatically, evicting least-recently-used files when the cache reaches its limit, so it doesn't grow without bound. The cache's purpose is to speed up repeat visits by loading stored resources from local disk instead of making network requests — so the speed benefit of a populated cache typically outweighs its storage cost. A large cache is generally a sign of active, efficient use, not a performance problem. The misconception likely stems from confusing disk usage with RAM usage or assuming that 'more files = slower.'"
+
+- question: "What is the difference between browser cache and cookies, and why does clearing one but not the other have such different effects on your browsing experience?"
+  type: short-answer
+  answer: "The cache stores copies of page resources (images, scripts, CSS files) as a performance optimization — the browser saves these files locally so repeat visits load faster without re-downloading unchanged content. Cookies are small data files that websites deliberately write to your browser to store state: session tokens (keeping you logged in), preferences, and tracking data. Clearing the cache removes performance copies but leaves authentication intact, so you stay logged in but pages may reload slower. Clearing cookies removes session tokens, so servers can no longer verify your identity, logging you out everywhere — even though no page resources were touched."
+  explanation: "The distinction matters because people often conflate cache and cookies as 'browser junk to clear.' They are architecturally different: the cache is a read-through layer the browser manages transparently; cookies are explicitly written by websites to persist state. Knowing which does what helps you diagnose specific problems — stale page content (clear cache), persistent login issues (clear cookies), privacy concerns about identity tracking (clear cookies) — rather than blindly clearing everything."
+```
+
 ## Explainer
 
 From your understanding of file systems, you know that computers store information in files organized within folders on persistent storage like a hard drive. Your browser does exactly the same thing for its data — it maintains several kinds of files on your local drive — but manages them automatically in the background, outside the normal folder structure you browse in. Understanding what gets stored, where, and why helps you make informed decisions about both performance and privacy.

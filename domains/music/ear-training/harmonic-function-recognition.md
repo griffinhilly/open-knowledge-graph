@@ -32,6 +32,45 @@ Listen to isolated I, IV, and V chords in a major key until you internalize thei
 - Thinking each chord has only one function; context determines function, and secondary harmony complicates this picture.
 - Confusing IV with ii or vi by ear alone; harmonic context and voice leading help clarify.
 
+## Questions
+
+```yaml
+- question: "You hear a chord that creates a strong forward lean — the listener's ear feels pulled toward the next chord, as if in mid-sentence. Which harmonic function is this most likely?"
+  type: multiple-choice
+  options:
+    - "Tonic (I) — the most structurally important chord, which always creates the strongest impression"
+    - "Subdominant (IV) — its broader, outward quality creates motion away from tonic"
+    - "Dominant (V) — the leading tone creates an irresistible pull toward tonic resolution"
+    - "Any chord can create this tension depending on how loudly it is played"
+  answer: 2
+  explanation: "The dominant (V) creates the strongest sense of harmonic tension and demand for resolution because it contains the leading tone (scale degree 7), which has a strong melodic pull upward to scale degree 1. The tonic (I) is the chord of rest and arrival, not tension. The subdominant (IV) creates motion and departure but not the same directed pull — it doesn't 'lean' toward a specific resolution the way V→I does."
+
+- question: "A student hears a chord built on scale degree 4 and immediately identifies it as 'subdominant function.' A teacher says this identification is premature. Why?"
+  type: multiple-choice
+  options:
+    - "Because only chords in root position can be assigned harmonic function"
+    - "Because harmonic function is relational — the same chord sounds different depending on what precedes and follows it in context"
+    - "Because scale degree 4 always implies dominant function in minor keys"
+    - "Because chords on scale degree 4 never have a stable harmonic function"
+  answer: 1
+  explanation: "Harmonic function is contextual, not absolute. The same chord — a chord built on scale degree 4 — functions differently depending on the progression: approaching V it acts as preparation, approached from I it sounds like departure, and in certain modal or blues contexts it may even function cadentially. Identifying function requires hearing the chord in context, not just reading its root. This is the central lesson of ear training for harmony."
+
+- question: "The dominant (V) chord creates a sense of tension and expectation because it contains the leading tone, which has a strong melodic pull upward toward the tonic."
+  type: true-false
+  answer: true
+  explanation: "The V chord in major contains scale degrees 5, 7, and 2. Scale degree 7 (the leading tone) is only a half-step below scale degree 1 and pulls strongly upward. Scale degree 2 also has downward pull toward 1. These melodic tendencies embedded in the V chord are what create its characteristic harmonic tension and drive the V→I motion that defines tonal music."
+
+- question: "You can reliably identify the harmonic function of a chord by listening to it in isolation, without hearing the surrounding harmonic progression."
+  type: true-false
+  answer: false
+  explanation: "Harmonic function is relational. A chord's function is determined by its role in the progression — where it comes from and where it goes. The same chord can be tonic in one context and borrowed subdominant in another. Ear training for harmonic function must involve complete progressions, not isolated chords, because the 'grammar' of harmony only operates in context. This is why experienced listeners identify function by tracking motion and resolution, not by memorizing isolated chord sounds."
+
+- question: "What is the perceptual difference between how a dominant (V) chord and a subdominant (IV) chord feel to the ear, and what specific feature of the V chord creates its characteristic pull?"
+  type: short-answer
+  answer: "The dominant (V) feels tense and directed — it leans forward, demanding resolution to the tonic. This tension comes from the leading tone (scale degree 7) embedded in the V chord, which sits a half-step below tonic and pulls irresistibly upward. The subdominant (IV) feels like motion and departure from tonic — broader and outward — but lacks the same directed tension; it prepares movement without specifying where that movement must go. V has a specific harmonic destination; IV has momentum without a forced destination."
+  explanation: "This distinction — directed tension (V) versus undirected motion (IV) — is the functional core of tonal harmony. The V→I cadence is the defining harmonic gesture of Western tonal music precisely because the leading tone creates a melodic obligation. IV's function is more flexible: it can lead to V, return to I (plagal cadence), or support other motion. Hearing this difference in psychological quality is the goal of ear training in harmonic function."
+```
+
 ## Explainer
 
 From your study of harmonic function basics and basic chord progressions, you know the theory: the **tonic** (I) is home, the **dominant** (V) creates tension that demands return, and the **subdominant** (IV) is the chord that prepares motion away from tonic. Recognizing these functions by ear means internalizing not just their sound but their *feeling* — the particular psychological quality each one creates in the listener. That feeling is what you are training when you practice harmonic function recognition.

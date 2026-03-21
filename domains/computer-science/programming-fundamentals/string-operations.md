@@ -37,6 +37,45 @@ Build a simple text-processing program: read a sentence, split it into words, co
 - Confusing split() (string → list) with join() (list → string).
 - Off-by-one errors in slices: s[0:3] returns characters at indices 0, 1, 2, not 0, 1, 2, 3.
 
+## Questions
+
+```yaml
+- question: "What does the following code print?\n\ns = \"hello\"\ns.upper()\nprint(s)"
+  type: multiple-choice
+  options:
+    - "\"HELLO\""
+    - "\"hello\""
+    - "An error, because upper() is not a valid string method"
+    - "Nothing — print() requires an argument"
+  answer: 1
+  explanation: "Strings are immutable in Python. The method s.upper() returns a new string \"HELLO\" but does not modify s in place. Because the return value is discarded (not assigned to any variable), s still holds \"hello\" when print(s) runs. To actually change s, you would need to write s = s.upper(). This is the most common beginner mistake with string methods: calling them without capturing their return value and then wondering why nothing changed."
+
+- question: "What does s[1:4] return when s = \"python\"?"
+  type: multiple-choice
+  options:
+    - "\"yth\""
+    - "\"pyt\""
+    - "\"ytho\""
+    - "\"ython\""
+  answer: 0
+  explanation: "Python string slicing uses a half-open interval: s[start:stop] returns characters at indices start, start+1, ..., stop-1 — not including stop. For s = \"python\", the indices are p=0, y=1, t=2, h=3, o=4, n=5. So s[1:4] returns characters at indices 1, 2, and 3: 'y', 't', 'h' → \"yth\". A common error is to think s[1:4] includes index 4 (giving \"ytho\"), but the stop index is always excluded."
+
+- question: "The expression s[::-1] reverses the string s."
+  type: true-false
+  answer: true
+  explanation: "The slice s[start:stop:step] with step=-1 traverses the string backwards. Omitting start and stop means 'from the end to the beginning,' and step=-1 means 'move one character backward at each step.' Together, s[::-1] produces a new string with all characters in reverse order. This is a common Python idiom for reversing strings and works because slicing never modifies the original string — it always returns a new one."
+
+- question: "Calling s.strip() on a string removes its leading and trailing whitespace by modifying the original string in place."
+  type: true-false
+  answer: false
+  explanation: "Strings are immutable in Python — no string method modifies the original string in place. s.strip() returns a new string with leading and trailing whitespace removed, but s itself is unchanged. To use the stripped version, you must capture the result: s = s.strip() or cleaned = s.strip(). This applies to all string methods: upper(), lower(), replace(), split(), and so on all return new strings without touching the original."
+
+- question: "Why must you write s = s.upper() rather than just s.upper() if you want s to hold the uppercased version of the string?"
+  type: short-answer
+  answer: "Strings are immutable — they cannot be changed in place. Every string method returns a new string object with the transformation applied. Calling s.upper() produces that new string but immediately discards it if you don't assign it to a variable. The original string s remains unchanged. By writing s = s.upper(), you reassign the variable s to point to the newly created uppercase string. The same rule applies to every string method: strip(), replace(), split(), and others all return new strings rather than modifying the original."
+  explanation: "This is one of the most frequent bugs beginners write: they call s.strip() or s.replace() at the top of a function, see no error, and then wonder why the string is still dirty or unmodified later. The fix is always the same — capture the return value. Understanding immutability explains the behavior: strings are fixed objects, and methods create new ones."
+```
+
 ## Explainer
 
 Now that you understand strings as sequences of characters, it's time to learn the toolkit for manipulating them. String operations fall into three broad categories: **combining** strings, **extracting** parts of strings, and **transforming** strings. Mastering these gives you the ability to process text data — which turns out to be one of the most common tasks in programming, from parsing user input to generating reports.

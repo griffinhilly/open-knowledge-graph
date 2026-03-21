@@ -26,6 +26,45 @@ Ambiguous language has multiple meanings; vague language has unclear boundaries.
 ## How It's Best Learned
 Take sentences like 'The bank is near the courthouse.' What does 'near' mean? In arguments, press for clarity: 'When you say X, do you mean A or B?' Notice how apparent agreements hide disagreements about meaning.
 
+## Questions
+
+```yaml
+- question: "Two people debate whether a corporation is a 'person' in a legal sense. After an hour, they discover they agree on every factual claim about corporations — their only difference is that one uses 'person' to mean 'any entity with legal standing' while the other means 'a human being with moral status.' What type of problem does this illustrate?"
+  type: multiple-choice
+  options:
+    - "Vagueness — 'person' has unclear boundaries that make it hard to apply"
+    - "Ambiguity — 'person' carries two distinct meanings, and their dispute is verbal rather than factual"
+    - "Equivocation — one participant switched meanings of 'person' during the argument"
+    - "A genuine factual disagreement about the nature of legal personhood"
+  answer: 1
+  explanation: "When two people agree on all the facts but disagree because they are using a key term differently, their dispute is verbal — it arises from ambiguity, not from differing views of reality. 'Person' has at least two distinct meanings in use here (legal entity vs. moral being), making it ambiguous. This is not vagueness (vague terms have one meaning with blurry edges, not two discrete meanings) and not equivocation (neither person switched meanings mid-argument). The fix is disambiguation: identify which meaning each party intends and clarify whether the dispute survives that clarification."
+
+- question: "Consider the argument: 'Nothing is better than a good meal. A sandwich is better than nothing. Therefore, a sandwich is better than a good meal.' What flaw does this illustrate?"
+  type: multiple-choice
+  options:
+    - "Vagueness — 'better' lacks a precise standard that would resolve the comparison"
+    - "Equivocation — 'nothing' shifts meaning from 'no existing thing' (in premise 1) to 'the absence of anything' (in premise 2)"
+    - "A valid argument with a counterintuitive but true conclusion"
+    - "Ambiguity in 'good meal' — the standard for 'good' is left undefined"
+  answer: 1
+  explanation: "This is a classic example of equivocation — the fallacy that exploits ambiguity by letting a term shift meaning across premises. In premise 1, 'nothing' means 'no existing thing' (there is no thing superior to a good meal). In premise 2, 'nothing' means the literal absence of anything (having a sandwich beats having nothing at all). The argument looks structurally valid but isn't, because 'nothing' is being used with two different meanings. The fix is disambiguation: once you notice the shift, the argument collapses."
+
+- question: "If two people appear to disagree about whether a city is 'nearby,' they necessarily hold different beliefs about the geographic facts."
+  type: true-false
+  answer: false
+  explanation: "They may agree on all the geographic facts — the actual distance, travel time, and terrain — but draw the vague boundary of 'nearby' at different thresholds. One person might call 30 miles 'nearby'; another considers only 5 miles nearby. This is a verbal dispute arising from vagueness, not a factual disagreement. Recognizing verbal disputes is one of the practical payoffs of understanding vagueness: enormous amounts of apparent disagreement dissolve once you recognize that the parties are using the same vague term with different implicit thresholds."
+
+- question: "Ambiguous terms have multiple distinct meanings, while vague terms have a single meaning with unclear or fuzzy boundaries — these are two different types of linguistic unclarity requiring different fixes."
+  type: true-false
+  answer: true
+  explanation: "The distinction is fundamental and often collapsed. 'Bank' is ambiguous: it has two discrete meanings (financial institution and riverbank) with no gradations between them. 'Tall' is vague: it has one meaning (of above-average height) but no precise threshold — there is a continuum from clearly not-tall to clearly tall with a vast fuzzy middle. Ambiguity requires disambiguation (identifying which meaning is intended); vagueness requires precisification (stipulating a workable threshold). Using the wrong fix misdiagnoses the problem: you cannot precisify an ambiguous term, and you cannot simply pick one of two meanings to resolve vagueness."
+
+- question: "What is the difference between disambiguating and precisifying a term, and when is each move appropriate?"
+  type: short-answer
+  answer: "Disambiguating applies to ambiguous terms — those with two or more discrete meanings. The fix is to identify which meaning is intended: 'by bank I mean a financial institution, not a riverbank.' Precisifying applies to vague terms — those with a single meaning but an unclear threshold. The fix is to stipulate a workable boundary: 'by wealthy I mean household income over $400,000 per year, for the purposes of this argument.' Disambiguation resolves which of multiple meanings is in play; precisification sets an artificial but tractable boundary where the language provides none."
+  explanation: "Using the wrong fix misdiagnoses the problem. You cannot 'precisify' an ambiguous term — drawing a line between uses of 'bank' makes no sense because the two meanings aren't on a spectrum. And you cannot 'disambiguate' a vague term like 'tall' — there's only one meaning; the problem is that it applies differently to different people. The practical test: if a term seems to have completely separate, unrelated uses in context, it's ambiguous; if it has one use but you're unsure where it applies along a continuum, it's vague. The diagnostic matters because misidentifying the problem leads to ineffective repairs."
+```
+
 ## Explainer
 
 You already know how to identify arguments by spotting premises and conclusions. But even a perfectly structured argument can mislead if the words in it are unclear. Two closely related sources of unclarity are **ambiguity** and **vagueness**, and understanding the difference between them is essential for evaluating arguments fairly.

@@ -30,6 +30,45 @@ Work with specific examples: elastic collisions, particle decay, and pair produc
 ## Common Misconceptions
 Four-momentum is not simply (E, pc⃗) with factors of c inconsistently applied. The fourth component must be E/c or γmc depending on your metric convention.
 
+## Questions
+
+```yaml
+- question: "A particle physicist wants to find the threshold energy for a proton to produce a proton-antiproton pair colliding with a stationary proton. What is the strategic advantage of computing the four-momentum invariant?"
+  type: multiple-choice
+  options:
+    - "It allows working in the lab frame where the calculations are simplest"
+    - "The invariant p_μp^μ is the same in all frames, so it can be computed in the convenient lab frame and set equal to the minimum rest-mass energy in the center-of-momentum frame"
+    - "It replaces the need for energy conservation, leaving only momentum to track"
+    - "It converts the relativistic problem into a Newtonian approximation valid near threshold"
+  answer: 1
+  explanation: "The power of the four-momentum invariant is frame independence. In the lab frame, you know the projectile energy, so you can compute (Σp_μ)·(Σp_μ) easily. In the CM frame, threshold corresponds to all final particles at rest, giving M²c⁴ = (sum of rest masses × c²)². Setting these equal across frames — possible because the invariant is the same in all frames — yields the threshold energy in just two lines. The common misconception (option A) reverses the logic: the lab frame is where you know the givens, not where calculations are simplest; you equate invariants across frames."
+
+- question: "A student calculates the threshold for p + p → p + p + p + p̄ by setting total kinetic energy equal to 2mc² (the rest mass of the new pair) and gets T = 2mc². What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "She should use four-momentum, not kinetic energy, as the conserved quantity"
+    - "In the lab frame, the threshold requires T = 6mc² — not 2mc² — because in the lab frame significant kinetic energy must remain in the final-state particles; only in the CM frame can all energy go into rest mass"
+    - "She forgot that the antiproton has negative energy in the lab frame, requiring an additional mc² correction"
+    - "Kinetic energy and rest mass energy cannot be equated because they have different units in relativity"
+  answer: 1
+  explanation: "The student is conflating the lab-frame threshold with the CM-frame argument. In the CM frame, at threshold all four final particles are at rest, so M²c⁴ = (4mc²)². Computing this invariant in the lab frame (one proton stationary, one with energy E) gives M²c⁴ = 2mc²(E + mc²). Setting these equal gives E = 7mc², meaning the projectile kinetic energy T = E − mc² = 6mc². The error of setting T = 2mc² assumes you can dump all kinetic energy into new rest mass from the lab frame, ignoring that the final system must still have center-of-mass motion."
+
+- question: "The invariant p_μp^μ = (mc)² has the same value in all inertial reference frames, so its value computed in the lab frame equals its value in the center-of-momentum frame."
+  type: true-false
+  answer: true
+  explanation: "Frame invariance is the defining property of a Lorentz scalar, and p_μp^μ = (E/c)² − |p⃗|² is precisely such a scalar. In the rest frame, p⃗ = 0 and E = mc², giving (mc)². In any boosted frame, E and |p⃗| each change but change in exactly the right way to keep the combination constant. This invariance is what makes the 'compute in one frame, equate in another' strategy for threshold calculations valid."
+
+- question: "When four-momentum is conserved in a particle collision, energy conservation and three-momentum conservation are separate, independent conditions that must each be checked."
+  type: true-false
+  answer: false
+  explanation: "Conservation of four-momentum is a single four-vector equation p_A^μ + p_B^μ = p_C^μ + p_D^μ, which simultaneously enforces both energy conservation (the time component) and three-momentum conservation (the three spatial components). They are not independent conditions to verify separately — they are components of the same unified law. This unity is one of the main reasons four-vector notation is used: what would otherwise be four separate equations is expressed as one."
+
+- question: "Explain why the invariant mass of the four-momentum is useful for solving relativistic collision problems. What does it allow you to do that treating energy and momentum separately does not?"
+  type: short-answer
+  answer: "The invariant mass is the same in every reference frame, so you can compute it in whichever frame is most convenient and then apply the result in any other frame. For threshold problems, you compute the invariant in the lab frame (where you know the energies and momenta) and set it equal to the minimum rest-mass energy in the CM frame (where the threshold condition is simplest to state). Treating energy and momentum separately locks you into one frame and forces you to track all components simultaneously."
+  explanation: "The strategy is: (1) compute the Lorentz-invariant (Σp_μ)² in the lab frame using known quantities, (2) set it equal to its value in the CM frame where the threshold condition is easy to state, (3) solve. This cross-frame equating is impossible when working with energy and momentum as separate non-invariant quantities. The invariant mass is the 'currency' that converts cleanly between frames, which is why particle physicists call it one of the most useful tools in relativistic kinematics."
+```
+
 ## Explainer
 
 From your study of relativistic dynamics, you know that the energy of a particle is E = γmc² and its relativistic momentum is p⃗ = γmv⃗. These two quantities are no longer independent in special relativity — they are linked by the relation E² = (pc)² + (mc²)². This is not a coincidence but reflects a deep structure: energy and momentum are the time and space components of a single geometric object called the **four-momentum** p_μ = (E/c, p_x, p_y, p_z).

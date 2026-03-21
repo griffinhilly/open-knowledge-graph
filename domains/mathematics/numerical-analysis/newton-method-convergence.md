@@ -31,6 +31,45 @@ Implement Newton's method for familiar functions like finding √2, observing ho
 - Thinking Newton's method always converges from any starting point; convergence is local, requiring closeness to the root.
 - Assuming Newton's method is cheaper than bisection; it requires derivative evaluation, which may be expensive or unavailable.
 
+## Questions
+
+```yaml
+- question: "Newton's method is converging to a root with current error e_n. In the next iteration, the error will be approximately proportional to which of the following?"
+  type: multiple-choice
+  options:
+    - "e_n (the same factor reduction each step)"
+    - "e_n² (the error is squared)"
+    - "e_n/2 (the error is halved each step)"
+    - "√e_n (the square root of the current error)"
+  answer: 1
+  explanation: "Newton's method exhibits quadratic convergence: e_{n+1} ≈ C·e_n², where C = f''(r)/(2f'(r)). The error is squared each step, not just multiplied by a fixed factor. If the current error is 0.01, the next error is on the order of 0.0001; the one after that around 10⁻⁸. This is what it means for the number of correct digits to roughly double with each iteration. Linear convergence (option A) is what bisection achieves — a constant factor reduction per step."
+
+- question: "You begin applying Newton's method to a function f starting far from the root. A classmate says: 'Newton's method is guaranteed to converge quadratically no matter where we start.' What is wrong with this claim?"
+  type: multiple-choice
+  options:
+    - "Nothing — quadratic convergence is guaranteed for any differentiable function"
+    - "Quadratic convergence only holds near a simple root; far from the root the method may diverge, cycle, or converge to a different root"
+    - "The method will always converge but only linearly when started far away"
+    - "Quadratic convergence requires that f'' = 0 at the root"
+  answer: 1
+  explanation: "Quadratic convergence is a *local* result: the Taylor series analysis assumes x_n is already close to the root r. Far from the root, f'(x_n) may be near zero (causing the iterate to shoot far away), the quadratic approximation breaks down, and the method can cycle or diverge entirely. The standard practice is to use a globally reliable method like bisection to get within the convergence neighborhood, then switch to Newton's method for rapid final convergence — combining reliability with speed."
+
+- question: "If f'(r) = 0 at the true root r, Newton's method applied near r cannot exhibit quadratic convergence."
+  type: true-false
+  answer: true
+  explanation: "The quadratic convergence constant is C = f''(r)/(2f'(r)). When f'(r) = 0, this blows up — the analysis breaks down entirely. Geometrically, a zero derivative at the root means the tangent line is horizontal, and its x-intercept (the next Newton iterate) flies off to infinity. Such roots are called 'multiple' or 'repeated' roots, and Newton's method degrades to linear convergence at them rather than quadratic. Modified methods (such as iterating on f/f') restore faster convergence for repeated roots."
+
+- question: "Newton's method always converges faster than bisection because each Newton step reduces the error by a fixed factor, whereas bisection only halves the interval."
+  type: true-false
+  answer: false
+  explanation: "This confuses quadratic convergence with linear convergence. Bisection IS the method that reduces error by a fixed factor (1/2 per step) — that is linear convergence. Newton's method is faster when it works because it squares the error each step (quadratic), not because it uses a fixed factor. Moreover, Newton's method requires a good initial guess to converge at all; bisection is globally reliable. A Newton iteration starting far from the root may not converge, making bisection the only method that reaches the answer."
+
+- question: "Why does Newton's method converge quadratically? Use the Taylor series argument to explain why the error is squared each step rather than reduced by a constant factor."
+  type: short-answer
+  answer: "Expanding f around the current iterate x_n near root r gives: f(r) = f(x_n) + f'(x_n)(r−x_n) + (f''(ξ)/2)(r−x_n)². Since f(r) = 0, the Newton update x_{n+1} = x_n − f(x_n)/f'(x_n) leaves error e_{n+1} ≈ [f''(r)/(2f'(r))]·e_n². The error is squared because the Newton step exactly cancels the linear term in the Taylor expansion, leaving only the quadratic remainder."
+  explanation: "The deeper insight is that Newton's method is fixed-point iteration g(x) = x − f(x)/f'(x), and g'(r) = 0 at any simple root. For generic fixed-point iteration, the convergence rate is |g'(r)| — which gives linear convergence when nonzero. Newton's method is the exceptional case where g'(r) = 0, making the linear term vanish and leaving only the quadratic term to govern convergence. This zero derivative is why the number of correct digits roughly doubles with each step."
+```
+
 ## Explainer
 
 From fixed-point iteration, you know that iterating g(x) gives linear convergence when |g'(r)| < 1 at the fixed point r — the error shrinks by a constant factor |g'(r)| each step. Newton's method is a special case of fixed-point iteration: applying it to f(x) = 0 means iterating g(x) = x - f(x)/f'(x). What makes Newton's method special is that g'(r) = 0 when f(r) = 0, meaning the linear-convergence factor vanishes entirely. This is why the method is so fast.

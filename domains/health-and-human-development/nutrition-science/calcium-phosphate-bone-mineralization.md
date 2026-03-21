@@ -32,6 +32,45 @@ Understand the ion product calculations that determine when calcium phosphate pr
 - All dietary calcium is equally absorbed; bioavailability varies widely based on form, other dietary components, and individual factors.
 - High protein intake increases bone loss by increasing calcium excretion; adequate protein is actually essential for bone formation.
 
+## Questions
+
+```yaml
+- question: "A patient's blood calcium level returns within the normal range (9.0 mg/dL). Her doctor concludes her bones must be healthy. Why might this conclusion be incorrect?"
+  type: multiple-choice
+  options:
+    - "Blood calcium rises before bones begin losing mineral density, so the normal reading is actually an early warning"
+    - "PTH suppresses blood calcium when bones are actively dissolving, masking the real level"
+    - "The body prioritizes maintaining blood calcium by resorbing bone, so blood calcium can be normal even as bone mineral density silently declines"
+    - "Vitamin D independently lowers blood calcium, counteracting the bone resorption signal"
+  answer: 2
+  explanation: "PTH and vitamin D defend serum calcium within a narrow range by drawing calcium from bone when dietary intake is insufficient. Blood calcium stays normal — while bone silently thins. Serum calcium measures the success of the regulatory system, not the state of skeletal reserves. This is why DEXA scan, not a blood test, is required to assess bone mineral density."
+
+- question: "What is the primary structural role of the collagen scaffold in bone tissue?"
+  type: multiple-choice
+  options:
+    - "It provides the calcium reservoir that PTH mobilizes during hypocalcemia"
+    - "It directly provides compressive strength, while hydroxyapatite provides flexibility under bending"
+    - "It serves as a template for hydroxyapatite crystal nucleation and gives bone resistance to fracture under bending"
+    - "It activates vitamin D to increase intestinal calcium absorption"
+  answer: 2
+  explanation: "Type I collagen is the protein scaffold on which hydroxyapatite crystals nucleate and grow. The composite gives bone compressive strength (from the mineral) and fracture resistance under bending (from the flexible collagen — analogous to the steel rebar in reinforced concrete). Swapping the functional roles of collagen and mineral is a common error."
+
+- question: "A person with chronically low dietary calcium may have normal blood calcium levels while experiencing progressive bone mineral density loss."
+  type: true-false
+  answer: true
+  explanation: "This follows directly from the hormonal regulation system. When dietary calcium is insufficient, PTH rises, stimulates osteoclast-mediated bone resorption, and directs the released calcium to the bloodstream — keeping serum calcium normal at the cost of skeletal mineral content. The blood test shows regulatory success, not skeletal health."
+
+- question: "Peak bone mass can continue to increase throughout adulthood if calcium and vitamin D intake are maintained at optimal levels."
+  type: true-false
+  answer: false
+  explanation: "Peak bone mass is achieved by the late 20s and represents a ceiling that cannot be significantly raised after that point. This is why calcium adequacy during adolescence and young adulthood is disproportionately important — it determines the starting density from which age-related remodeling will erode. After peak, adequate intake slows loss but cannot reverse or increase the ceiling."
+
+- question: "Why is serum calcium a poor indicator of skeletal health, and what would be a more reliable measure?"
+  type: short-answer
+  answer: "Serum calcium is maintained within a narrow range by hormonal mechanisms (PTH, vitamin D) that draw on bone as a reservoir when dietary intake is insufficient. Blood calcium remains normal even as bone mineral density declines — the regulatory success masks the skeletal deficit. A more reliable measure is bone mineral density assessed by DEXA scan, which directly quantifies the mineral content of bone tissue."
+  explanation: "The key distinction is between what serum calcium measures (how well the regulatory system is working) and what it doesn't measure (how much mineral reserve remains in the skeleton). Understanding this prevents both clinical misjudgment and dietary complacency — you cannot infer skeletal health from a normal blood calcium result."
+```
+
 ## Explainer
 
 From your mineral homeostasis and bone remodeling prerequisites, you know that bone is living tissue constantly being resorbed by osteoclasts and rebuilt by osteoblasts, and that calcium is tightly regulated in blood. This topic connects those two systems: the mineral chemistry of how calcium and phosphate physically form bone matrix, and why the body's commitment to maintaining blood calcium creates a tension with long-term skeletal health.

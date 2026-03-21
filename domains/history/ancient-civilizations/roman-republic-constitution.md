@@ -38,6 +38,45 @@ Trace the Gracchi brothers' reform attempts and the subsequent civil wars as a c
 - The Roman Republic was not a modern democracy; it was designed to prevent popular excess, and the Senate held structural advantages over assemblies.
 - Roman 'liberty' (libertas) meant freedom from arbitrary domination by a king, not individual rights in the modern sense.
 
+## Questions
+
+```yaml
+- question: "Tiberius Gracchus proposed land redistribution in 133 BCE to address Rome's growing social crisis. What was the core problem he was trying to solve?"
+  type: multiple-choice
+  options:
+    - "Rome's armies had grown too large and expensive, draining the treasury and creating fiscal instability"
+    - "Slave labor on large estates was displacing free Roman farmers, creating a landless proletariat that could no longer serve in the citizen-soldier army"
+    - "Patrician families were still using the Senate to block plebeian access to the consulship, violating the reforms of the Conflict of the Orders"
+    - "Rome's conquered territories were poorly administered, creating civil unrest in the provinces that threatened the center"
+  answer: 1
+  explanation: "The fundamental problem was economic: conquest brought slaves who worked the large landed estates of wealthy senators, undercutting free farmers who couldn't compete with slave labor. Dispossessed farmers migrated to Rome as a landless proletariat. This mattered constitutionally because Rome's armies were drawn from property-owning citizens — the landless couldn't serve. Gracchus recognized that the republic's military power was hollowing out its own economic base. His murder by senators reveals how the ruling class responded to any redistribution of the gains from conquest."
+
+- question: "Augustus, after winning the civil wars, preserved the consulship, the Senate, and the popular assemblies. Why do historians say the Republic ended under Augustus rather than continued?"
+  type: multiple-choice
+  options:
+    - "Augustus renamed the institutions and replaced Roman law with a new legal code issued in his name"
+    - "Augustus governed through republican forms while accumulating permanent authority that made those forms nominal — the institutions survived but lost their function of checking power"
+    - "The Senate formally voted to abolish the Republic and grant Augustus official monarchical powers"
+    - "Augustus disbanded the popular assemblies, which were the essential democratic element of republican government"
+  answer: 1
+  explanation: "This is the key insight about institutional failure: the republic's constitution depended not just on the existence of its offices but on those offices actually constraining power. Augustus kept the titles but accumulated permanent command of the armies, control over the provinces, and tribunician powers that made meaningful opposition impossible. The Senate and assemblies continued meeting and voting, but real authority had shifted. The republican form survived; the republican function — preventing the concentration of unchecked power in one person — did not."
+
+- question: "Roman 'libertas' (liberty) in the Republican period primarily meant freedom from domination by a single king, not a set of individual rights for all citizens in the modern sense."
+  type: true-false
+  answer: true
+  explanation: "Roman libertas was specifically the absence of monarchy — the condition of not being subject to another's arbitrary will, particularly not a king's. The institutions of the Republic (annual consulship, mutual veto between consuls, legal accountability after office) were designed to prevent the return of monarchy, not to protect individual freedoms in any modern liberal sense. A Roman senator's libertas was threatened when one person accumulated unchecked power; the concept said nothing about the rights of slaves, women, or the rural poor."
+
+- question: "The Conflict of the Orders, in which plebeians gradually won political concessions from patricians, ultimately produced genuine equality of power between Rome's social classes."
+  type: true-false
+  answer: false
+  explanation: "While the Conflict of the Orders produced important formal gains — the Twelve Tables, the Tribune of the Plebs, the right to hold the consulship — real power continued to concentrate among wealthy families, both patrician and plebeian. The Senate retained structural advantages over the assemblies, and access to high office depended heavily on wealth and family connections. Legal equalization did not translate into economic or practical equality. By the late Republic, a mixed elite of wealthy families (the nobilitas) effectively controlled politics, regardless of whether their origins were patrician or plebeian."
+
+- question: "How did Rome's military success — its conquest of the Mediterranean world — paradoxically contribute to the collapse of the Republican system it was supposed to defend?"
+  type: short-answer
+  answer: "Conquest flooded Rome with slaves who worked the large agricultural estates of wealthy senators, undercutting free farmers who couldn't compete with slave labor and were forced off their land. Dispossessed farmers migrated to cities as a landless proletariat, hollowing out the citizen-soldier base the republic's armies depended on. Meanwhile, armies became professionalized: soldiers who once returned to their farms after campaigns now served indefinitely and grew loyal to their commanding generals — Marius, Sulla, Caesar — rather than to the Senate. When generals controlled personally loyal armies, the constitutional mechanisms designed to prevent tyranny no longer worked: the forms of the republic were intact, but the force that could back them had passed into private hands."
+  explanation: "This is the core tragedy of the Roman Republic: its constitution was designed to prevent monarchy by checking institutional power, but it couldn't check the economic and military transformations that came with imperial success. The same conquest that enriched Rome created the slave-labor economy and professional armies that destroyed the smallholder-citizen-soldier base the republic depended on."
+```
+
 ## Explainer
 
 The Roman Republic was a carefully engineered solution to a problem the Romans knew well from history: tyranny. Having expelled their last king in 509 BCE, the Romans designed a constitution specifically to prevent any single person from accumulating unchecked power. The result was a **mixed constitution** — a government that combined elements of monarchy (two annually elected **consuls** who served jointly for one year only), aristocracy (the **Senate**, a permanent advisory body of leading families), and popular participation (the **assemblies**, where male citizens voted on laws and elected magistrates). The Greek historian Polybius argued this mixed design explained Rome's extraordinary durability: each element checked the others, and no faction could dominate permanently.

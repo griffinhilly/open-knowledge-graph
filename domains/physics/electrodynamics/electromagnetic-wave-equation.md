@@ -28,6 +28,45 @@ status: draft
 ## Core Idea
 In source-free regions, Maxwell's equations combine to yield wave equations: ∇²E = μ₀ε₀∂²E/∂t² and ∇²B = μ₀ε₀∂²B/∂t². These show electromagnetic disturbances propagate at c = 1/√(μ₀ε₀), revealing light as an electromagnetic phenomenon and unifying optics with electromagnetism.
 
+## Questions
+
+```yaml
+- question: "In the derivation of the electromagnetic wave equation in source-free space, what role does the Ampère-Maxwell term (μ₀ε₀ ∂E⃗/∂t) play?"
+  type: multiple-choice
+  options:
+    - "It introduces a damping term that limits the wave speed to values below c"
+    - "It provides the coupling between changing E and changing B that closes the feedback loop allowing self-propagating waves to exist"
+    - "It ensures the equations apply only to static charge distributions"
+    - "It is mathematically required for dimensional consistency but has no physical content"
+  answer: 1
+  explanation: "The displacement current term is the crucial addition Maxwell made to Ampère's law. Without it, Faraday's law says a changing B produces E, but there is no reciprocal law saying a changing E produces B. Taking the curl of Faraday's law and substituting Ampère-Maxwell creates a second-order equation in E alone, with the μ₀ε₀ term providing the 'restoring' temporal derivative that gives it wave character. Removing this term breaks the symmetry and eliminates self-propagating solutions."
+
+- question: "If Maxwell's displacement current term did not exist — so Ampère's law read ∇ × B⃗ = 0 in source-free space — what would happen to electromagnetic wave propagation?"
+  type: multiple-choice
+  options:
+    - "Waves would propagate but at a different speed"
+    - "Waves would still propagate because Faraday's law alone couples E and B sufficiently"
+    - "No self-sustaining electromagnetic waves could exist — a changing E field would not generate B, breaking the feedback loop required for propagation"
+    - "Waves would propagate but only longitudinally, not transversely"
+  answer: 2
+  explanation: "Self-propagating waves require mutual induction: changing E creates B, and changing B creates E, with each sustaining the other in a traveling disturbance. Faraday's law covers only one direction of this coupling (changing B → E). Without the displacement current, the reverse coupling (changing E → B) is absent. Taking the curl of Faraday's law would give ∇²E⃗ = 0, a Laplace equation with no wave solutions. The displacement current term is what transforms a static-field theory into a wave theory."
+
+- question: "The propagation speed predicted by Maxwell's wave equation, c = 1/√(μ₀ε₀), matched the known speed of light before Maxwell derived it — this match was already measured from astronomical observations."
+  type: true-false
+  answer: true
+  explanation: "By the time Maxwell assembled his equations in the 1860s, Rømer and others had measured the speed of light from observations of Jupiter's moons to good accuracy. Maxwell computed 1/√(μ₀ε₀) from electrically measured constants and recognized immediately that the agreement was not coincidental — it meant light was electromagnetic in nature. The theoretical prediction and the experimental measurement converged, making this one of the most compelling unifications in physics history."
+
+- question: "The electromagnetic wave equation is derived by assuming that light is a wave and then verifying that Maxwell's equations are consistent with this assumption."
+  type: true-false
+  answer: false
+  explanation: "The derivation runs in the opposite direction: starting only from Maxwell's equations for E and B fields (with no assumption about light), applying vector calculus identities, and discovering that the resulting equations have wave-equation form. Light's wave nature is an output of the derivation, not an input. This is what makes the result so significant — a theory built from Coulomb's law and Ampère's observations of steady currents, extended by one additional term, predicts transverse wave propagation at the speed of light without any wave assumption."
+
+- question: "Why does the identity c = 1/√(μ₀ε₀) matter for physics beyond simply predicting the speed of electromagnetic waves?"
+  type: short-answer
+  answer: "It reveals that light is an electromagnetic phenomenon — the same equations governing static charges and steady currents also govern optics. This unifies electromagnetism and optics under a single theoretical framework, meaning every optical phenomenon (reflection, refraction, polarization, interference) is ultimately governed by Maxwell's equations."
+  explanation: "Before Maxwell, optics and electromagnetism were separate disciplines. The identity c = 1/√(μ₀ε₀) collapsed that separation: light is just a high-frequency electromagnetic wave. This unification had enormous consequences — it predicted radio waves (verified by Hertz), motivated the search for an ether (which failed, leading to special relativity), and established the template for the great unifications of 20th-century physics. The numerical coincidence is a signal of deep structural identity, not a curiosity."
+```
+
 ## Explainer
 
 You know Maxwell's equations in differential form, and you know the one-dimensional and partial-differential-equation forms of the wave equation. The electromagnetic wave equation is where these two threads converge — the derivation is a direct algebraic manipulation, and the result is one of the most consequential predictions in the history of physics.

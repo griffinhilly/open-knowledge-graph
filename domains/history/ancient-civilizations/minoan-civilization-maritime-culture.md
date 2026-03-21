@@ -33,6 +33,45 @@ Examine Minoan frescoes and pottery to understand their aesthetic values and soc
 - Minoan decline was not due to conquest by Mycenaeans; volcanic eruption and environmental change played major roles.
 - Minoan palaces were administrative and religious centers, not merely royal residences for pleasure.
 
+## Questions
+
+```yaml
+- question: "Minoan palatial art is dominated by marine imagery, athletics, and nature scenes rather than military victories and conquest iconography. This most likely reflects:"
+  type: multiple-choice
+  options:
+    - "Minoan religious prohibitions against depicting violence in sacred spaces"
+    - "A civilization whose wealth derived from maritime commerce rather than territorial conquest, creating different cultural priorities"
+    - "The absence of warfare in Bronze Age Crete due to geographic isolation"
+    - "Matriarchal social values that rejected militarism in favor of aesthetic expression"
+  answer: 1
+  explanation: "The content of art reflects social priorities. Controlling sea lanes generates wealth through trade — and rewards investment in ships, ports, and commercial relationships rather than armies and fortification walls. A trading civilization has less incentive to celebrate military domination and more incentive to project commercial competence and abundance. Options A and C are unsupported by evidence; Minoans were not isolated and did have conflict. Option D conflates elevated female status with matriarchy, which the archaeological record does not support."
+
+- question: "The palace complex at Knossos primarily functioned as:"
+  type: multiple-choice
+  options:
+    - "A royal residence for the Minoan ruling family, designed for pleasure and display"
+    - "A military fortress controlling access to the island's interior"
+    - "An integrated administrative, religious, storage, and trade coordination center"
+    - "A temple complex dedicated to the bull deity, with administrative functions secondary"
+  answer: 2
+  explanation: "Knossos combined functions that in other civilizations were spread across separate institutions. The palace stored agricultural surplus in massive pithoi, administered redistribution of resources, housed administrative scribes using Linear A, coordinated long-distance trade, and served as a religious center — all under one complex. This multi-functional palatial economy is characteristic of Bronze Age palace societies. The 'pleasure palace' interpretation is a myth partly perpetuated by the 19th-century archaeologist Arthur Evans."
+
+- question: "Minoan civilization declined primarily because Mycenaean Greeks invaded Crete and conquered the palace centers around 1450 BCE."
+  type: true-false
+  answer: false
+  explanation: "The Minoan decline is multi-causal and contested. The catastrophic eruption of Thera (Santorini) around 1600 BCE caused massive environmental disruption. Evidence of Mycenaean presence at Knossos after ~1450 BCE suggests political change, but the relationship between Mycenaeans and Minoans was complex — involving cultural adoption and possible peaceful succession rather than straightforward conquest. The broader Bronze Age collapse around 1200 BCE affected the entire eastern Mediterranean. Framing the collapse as simple Mycenaean conquest oversimplifies the evidence."
+
+- question: "Linear B, the script used by Mycenaean Greeks, was deciphered in 1952 and proved to be an early form of Greek, while Linear A (used by the Minoans) remains undeciphered."
+  type: true-false
+  answer: true
+  explanation: "Linear B was deciphered by Michael Ventris in 1952 and shown to record an archaic form of Greek — confirming that Mycenaean Greeks had adapted the Minoan Linear A script for their own language. Linear A, used in Minoan administrative documents, remains undeciphered because we have no bilingual text and no confirmed knowledge of what language it records. When Linear A is eventually deciphered, it will likely reveal the institutional and economic organization of Minoan palace society directly."
+
+- question: "How did Crete's geographic position in the Mediterranean shape the Minoan strategy for building wealth and power, compared to land-based civilizations like Egypt or Mesopotamia?"
+  type: short-answer
+  answer: "Crete sits at the intersection of sea routes connecting the Greek mainland, Anatolia, and Egypt — virtually all Bronze Age eastern Mediterranean trade had to pass near it. Without fertile river valleys like the Nile or Tigris-Euphrates, Crete could not build a land-based agricultural empire. Instead, the Minoans positioned themselves as the dominant maritime intermediary: controlling trade in copper (Cyprus), tin, grain, and timber that were essential to Bronze Age civilization. This geography rewarded investment in ships and ports over armies and walls. Wealth came from controlling sea lanes, not territory — producing a civilization oriented toward commerce, which shaped everything from palatial functions to artistic subject matter."
+  explanation: "This question targets the core explanatory insight: geography shapes incentive structures, which shape cultural and institutional forms. The contrast with Egypt (Nile agriculture → monumental state → military expansionism) or Mesopotamia (river valley → city-states → conquest cycles) clarifies why the Minoans looked so different. 'Thalassocracy' — sea power — was their strategic logic."
+```
+
 ## Explainer
 
 The Minoans are best understood through the two concepts you've already studied: **ancient urbanization** and **Mediterranean trade**. Crete's geography explains much of their trajectory. The island sits at the center of a triangle connecting the Greek mainland, Anatolia, and Egypt — it was almost impossible to sail between these regions without passing near Crete. Before the age of large territorial empires that could project land-based military power across the entire region, whoever controlled the sea lanes controlled the flow of bronze-age commodities: copper from Cyprus, tin from Afghanistan and Anatolia (necessary together to make bronze), grain from Egypt, timber from Lebanon. The Minoans built their civilization not by conquering territory but by positioning themselves at the nexus of these flows.

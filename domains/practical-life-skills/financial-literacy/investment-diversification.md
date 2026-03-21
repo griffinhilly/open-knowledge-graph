@@ -35,6 +35,45 @@ Compare the historical performance of a 100% stock portfolio against a 70/30 sto
 - Owning many stocks means you are diversified; if all your stocks are in one sector or one country, you have concentration risk despite owning many individual names — true diversification requires low correlation between holdings.
 - Diversification always means lower returns; over long periods, diversified portfolios often match or approach concentrated portfolios in total return while experiencing significantly less volatility, which reduces the chance of panic-selling at the worst time.
 
+## Questions
+
+```yaml
+- question: "An investor holds 50 different technology stocks across companies ranging from large-cap to small-cap. A financial advisor says their portfolio is 'well diversified because it contains 50 holdings.' Is this correct?"
+  type: multiple-choice
+  options:
+    - "Yes — 50 holdings is well above the threshold needed for diversification benefits"
+    - "No — all 50 stocks are in the same sector and likely highly correlated, providing little diversification"
+    - "Yes — holding both large-cap and small-cap stocks within a sector counts as diversification"
+    - "No — you need at least 100 holdings before diversification benefits become meaningful"
+  answer: 1
+  explanation: "Diversification is not about the number of holdings — it is about correlation. If all 50 stocks are technology companies, they tend to rise and fall together: when the tech sector is hit by regulation, rising rates, or a downturn, all 50 decline simultaneously. True diversification requires assets with low correlations, spreading risk across sectors, geographies, and asset classes. Owning 30 tech stocks instead of 3 reduces company-specific risk slightly, but concentration risk in the sector remains high."
+
+- question: "In 2008, investors who held broad index funds containing thousands of stocks across many sectors still saw their portfolios drop 40–50%. What does this illustrate about diversification?"
+  type: multiple-choice
+  options:
+    - "Index funds failed because they were not truly diversified across enough asset classes"
+    - "Diversification reduces unsystematic (company- and sector-specific) risk but cannot eliminate systematic (market-wide) risk"
+    - "Diversification only works as a risk-reduction strategy in rising markets"
+    - "The 2008 crisis was exceptional; diversification normally prevents losses of this magnitude"
+  answer: 1
+  explanation: "Even a perfectly diversified portfolio across all equities cannot protect against systematic risk — events that affect the entire market, like a financial crisis, recession, or pandemic. Diversification eliminates unsystematic risk: the risk that one company or sector collapses while others remain healthy. To reduce systematic risk, you need to diversify across asset classes (adding bonds, real estate, commodities), which behave differently from equities during crises. The 2008 experience is not a failure of diversification — it is a reminder of what diversification can and cannot do."
+
+- question: "When you rebalance a portfolio that has drifted from its target allocation, you mechanically sell assets that have risen and buy assets that have become relatively cheaper."
+  type: true-false
+  answer: true
+  explanation: "True. If stocks have had a great year and your portfolio drifts from 70/30 stocks/bonds to 80/20, rebalancing means selling some stocks (which are now more expensive) and buying bonds (which are now relatively cheap). This is the buy-low-sell-high principle implemented automatically through a mechanical rule. While it feels counterintuitive to sell winners, it enforces discipline and prevents concentration from growing beyond your intended risk level."
+
+- question: "A perfectly diversified portfolio eliminates all investment risk."
+  type: true-false
+  answer: false
+  explanation: "False. Perfect diversification eliminates unsystematic risk — the risk tied to specific companies, sectors, or countries — but leaves systematic risk (market-wide risk) intact. Even an index fund holding every publicly traded stock in the world will decline in a global recession or financial crisis. To reduce systematic risk, you need to diversify across asset classes that respond differently to the same economic conditions (e.g., stocks and bonds, or adding real estate and commodities)."
+
+- question: "Why does combining two imperfectly correlated assets reduce overall portfolio volatility without proportionally reducing expected return?"
+  type: short-answer
+  answer: "When two assets are imperfectly correlated, their price movements do not perfectly align — when one falls, the other does not fall by the same amount (or may even rise). The losses in one asset are partially offset by the other, smoothing the combined returns. The portfolio's volatility (standard deviation of returns) falls because the offsetting movements cancel out some of the swings. But the expected return of the combined portfolio is still a weighted average of the two individual expected returns — there is no averaging-down of the return. This asymmetry — variance is reduced by more than the proportional blend would suggest, but expected return is not — is the core mathematical payoff of diversification."
+  explanation: "The deeper reason is that portfolio variance depends on the covariance (correlation times the product of standard deviations) between assets, not just their individual variances. When correlation is below 1, the combined variance is less than the variance you would predict by simply blending them proportionally. At correlation = -1, variance can drop to zero while maintaining the average return — the theoretical maximum benefit of diversification."
+```
+
 ## Explainer
 
 Your prerequisite work on investment risk and return established that higher expected returns come with higher volatility — and that the goal is not to eliminate risk but to be compensated for the risk you take. Diversification is the mechanism that makes this trade-off more favorable. The core insight is deceptively simple: when you combine assets that do not move together, the portfolio's overall volatility is lower than the average volatility of its individual components. You do not give up the average return — you reduce the swings around it.

@@ -35,6 +35,45 @@ Use comparative case studies: contrast totalitarian Nazi Germany with the softer
 - Authoritarianism is not always unstable or economically unsuccessful in the short run — Singapore and China are counterexamples.
 - Not all non-democracies are the same: the distinction between totalitarianism, traditional authoritarianism, and hybrid regimes matters analytically.
 
+## Questions
+
+```yaml
+- question: "Country X holds regular elections, opposition parties can register and campaign, and independent media exist. However, opposition leaders face repeated tax audits, critical media outlets lose broadcasting licenses, and the incumbent has won every election by large margins. What regime type best describes Country X?"
+  type: multiple-choice
+  options:
+    - "Democracy with flaws — competitive elections are present, so it qualifies as democratic"
+    - "Totalitarianism — the state controls media and uses legal mechanisms to suppress dissent"
+    - "Competitive authoritarianism — elections are real but the playing field is systematically tilted to ensure the incumbent's survival"
+    - "Military junta — the regime uses state coercive power to remain in control"
+  answer: 2
+  explanation: "Country X fits the Levitsky and Way model of competitive authoritarianism precisely. Elections occur and opposition can compete, distinguishing it from outright dictatorship and totalitarianism. But the systematic use of state machinery (tax authorities, licensing boards) to disadvantage opposition — not eliminate it — tilts the playing field so severely that opposition victories are structurally unlikely. This is not a 'flawed democracy'; the tilt is intentional and fundamental. It also differs from totalitarianism, which demands ideological conformity and penetrates private life — Country X leaves civil society largely intact while manipulating the political arena."
+
+- question: "Why do scholars identify oil wealth as a cause of authoritarianism — the 'resource curse' — rather than simply a correlation?"
+  type: multiple-choice
+  options:
+    - "Oil-producing countries tend to be in regions with weak democratic traditions, so geography explains both"
+    - "Oil wealth enables regimes to buy elite loyalty and provide public goods without taxing citizens, removing the political pressures that taxation typically generates"
+    - "Oil production requires authoritarian management to coordinate large labor forces efficiently"
+    - "International oil companies prefer authoritarian partners because they are more stable negotiating partners"
+  answer: 1
+  explanation: "The proposed mechanism is causal: taxation historically creates pressure for political accountability ('no taxation without representation'), but resource rents allow the state to fund itself and buy loyalty without taxing the population. Citizens who are not taxed have less organized incentive to demand accountability; elites who receive patronage support the regime because they benefit from it. This mechanism — not geographic coincidence or management efficiency — is the core causal claim of the resource curse thesis."
+
+- question: "Authoritarian regimes are generally economically unsuccessful, making democracy clearly superior as a governance model for economic development."
+  type: true-false
+  answer: false
+  explanation: "Empirically, this is too strong. Singapore maintained authoritarian governance for decades while achieving exceptional economic development. China has sustained rapid growth under single-party rule. South Korea and Taiwan were authoritarian during much of their initial industrialization. Authoritarianism is not reliably economically destructive in the short to medium run — outcomes depend on the specific form of authoritarianism, elite incentives, and institutional structure. Claiming it always fails economically misrepresents the evidence and weakens analytical clarity about what distinguishes regime types."
+
+- question: "The key distinction between totalitarianism and ordinary authoritarianism is that totalitarianism actively demands ideological affirmation and penetrates private life, rather than merely restricting political competition."
+  type: true-false
+  answer: true
+  explanation: "This is the analytical core of the distinction. Ordinary authoritarianism restricts political competition — banning opposition parties, censoring media, repressing dissent — but may leave private associations, family life, and civil society relatively intact, asking only for passive obedience. Totalitarianism goes further: it demands active participation in the regime's ideology, penetrates cultural and private life, and uses deliberately unpredictable terror to maximize compliance through anxiety. Nazi Germany and Stalinist Soviet Union are canonical cases; contemporary authoritarian regimes like Russia's are authoritarian but not totalitarian by this criterion."
+
+- question: "What makes elite coalitions central to authoritarian durability, and why does a dictator who distributes rents to key elites become more secure, not less?"
+  type: short-answer
+  answer: "A dictator who governs alone is vulnerable to any coalition of opponents — military officers, business leaders, or regional power brokers can remove them. By distributing rents (patronage, contracts, positions) to key elites, the dictator creates a group whose material interests align with the regime's survival. If the regime falls, these elites lose their privileged access to rents. This gives them a stake in defending the regime, transforming potential rivals into supporters. The dictator becomes more secure because the coalition depends on the regime's continuation — even though the dictator 'shares' power, the distribution stabilizes the regime by making elite defection costly."
+  explanation: "This logic — sometimes called 'selectorate theory' — explains why patronage and corruption are not merely side effects of authoritarianism but structural features serving regime durability. It also explains why economic crises are so dangerous for authoritarian regimes: when the regime can no longer fund patronage, elite loyalties become negotiable and the coalition can crack. Elite defection, not popular uprising alone, often triggers democratization."
+```
+
 ## Explainer
 
 You already understand from your study of the state that sovereignty involves a claim to monopolize legitimate coercion within a territory. What distinguishes different regime types is not whether the state uses coercion — all states do — but how that coercion is authorized, distributed, and constrained. Democracy constrains the executive through elections, rule of law, and civil liberties. Authoritarian regimes remove or neuter these constraints, concentrating power in ways that make accountability to citizens structurally impossible.

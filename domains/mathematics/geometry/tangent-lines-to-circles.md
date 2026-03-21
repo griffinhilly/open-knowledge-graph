@@ -28,6 +28,45 @@ Draw tangent lines and radii, and verify perpendicularity. Prove the tangent-rad
 - Forgetting the perpendicularity condition and drawing tangent lines at arbitrary angles.
 - Not recognizing when to apply the Pythagorean theorem using the tangent-radius right angle.
 
+## Questions
+
+```yaml
+- question: "A point P is 13 units from the center of a circle with radius 5. A tangent segment is drawn from P to the point of tangency A. What is the length of PA?"
+  type: multiple-choice
+  options:
+    - "8 (distance from P to the circle: 13 − 5)"
+    - "12 (using the Pythagorean theorem: √(13² − 5²))"
+    - "18 (sum of external distance and radius)"
+    - "√194 (using PA² = OP² + OA²)"
+  answer: 1
+  explanation: "The tangent-radius perpendicularity creates a right angle at A: triangle OAP has a right angle at A, with hypotenuse OP = 13 and leg OA = 5. By the Pythagorean theorem, PA² = OP² − OA² = 169 − 25 = 144, so PA = 12. Option A represents the most common misconception — subtracting the radius from OP as if the tangent length were simply the 'gap' between P and the circle's surface. That calculation ignores the right-triangle geometry entirely."
+
+- question: "Which condition is both necessary and sufficient to guarantee that a line is tangent to a circle?"
+  type: multiple-choice
+  options:
+    - "The line passes through the center of the circle"
+    - "The line intersects the circle at exactly one point"
+    - "The line is perpendicular to the radius at the point where it meets the circle"
+    - "The line is parallel to a diameter"
+  answer: 2
+  explanation: "Perpendicularity to the radius at the endpoint is the precise condition: a line is tangent if and only if it is perpendicular to the radius at that point. Option B is true of tangent lines, but it describes the result rather than the condition — a line could theoretically intersect at exactly one point without being perpendicular (think of a line tangent to a non-circular curve). The perpendicularity condition is what drives all tangent-line theorems and constructions. Option A describes a secant through the center, not a tangent."
+
+- question: "Two tangent segments drawn from the same external point to a circle are always equal in length."
+  type: true-false
+  answer: true
+  explanation: "This is the two-tangent theorem. If PA and PB are tangent from external point P to a circle with center O, triangles OAP and OBP are right triangles that share hypotenuse OP and have equal legs OA = OB (both radii). By the hypotenuse-leg theorem, the triangles are congruent, so PA = PB. This result holds for any external point and any circle, and it is why all circumscribed polygons (where every side is tangent to an inscribed circle) have a special property relating their side lengths."
+
+- question: "A tangent line to a circle passes through the center of the circle."
+  type: true-false
+  answer: false
+  explanation: "A tangent line only touches the circle at one external point — the point of tangency — and does not pass through the center. A line through the center is a secant (it intersects the circle at two diametrically opposite points). This is a common misconception: students sometimes picture the tangent as 'coming from' the center, confusing the radius drawn to the point of tangency with the tangent line itself. The radius and the tangent line are perpendicular at the tangency point; they are different lines."
+
+- question: "Why does a tangent line form a right angle with the radius at the point of tangency? Explain the geometric reasoning, not just the theorem."
+  type: short-answer
+  answer: "The radius is the minimum distance from the center to any point on the circle. The tangent line, touching the circle at exactly one point, is the line for which that point is the closest point on the line to the center. The minimum distance from any point to a line is always the perpendicular distance. Therefore, the radius to the tangency point must be perpendicular to the tangent line."
+  explanation: "This reasoning — minimum distance implies perpendicularity — connects the tangent-radius theorem to a general principle rather than leaving it as an isolated fact to memorize. It also explains the converse: if a line is perpendicular to a radius at the endpoint on the circle, it must be tangent, because no other point on that line can be closer to the center than the tangency point (the perpendicular is the unique minimum distance)."
+```
+
 ## Explainer
 
 A **tangent line** to a circle is a line that intersects the circle at exactly one point — the **point of tangency**. This is different from a **secant**, which crosses the circle at two points, and from a line that misses the circle entirely. The defining geometric fact about tangent lines is that they are always perpendicular to the radius at the point of tangency. This isn't just a fact to memorize — it has a clean logical explanation rooted in your circle basics: the radius is the shortest path from the center to any point on the circle. The tangent line, touching the circle at exactly one point, must be the line for which the radius to that point is the minimum distance from the center to the line. The minimum distance from a point to a line is always the perpendicular distance. So the radius to the tangency point must be perpendicular to the tangent.

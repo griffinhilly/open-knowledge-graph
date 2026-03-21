@@ -30,6 +30,45 @@ Write grammars for small languages and test them with parser generators. Experim
 ## Common Misconceptions
 Any grammar accepting the language is fine (some are much harder to parse than others). Removing left-recursion is the only transformation needed (you may also eliminate ambiguities or handle precedence).
 
+## Questions
+
+```yaml
+- question: "A grammar includes the production: Expr → Expr + Term | Term. A student implements a recursive descent parser for this grammar. When parsing '3 + 4', the parser:"
+  type: multiple-choice
+  options:
+    - "Successfully parses the input and produces the correct left-associative parse tree"
+    - "Enters infinite recursion immediately, because expanding Expr calls Expr again without consuming any input"
+    - "Generates a shift-reduce conflict and cannot decide whether to reduce or shift"
+    - "Fails because recursive descent parsers cannot handle binary operators"
+  answer: 1
+  explanation: "This is the classic left-recursion problem for top-down parsers. A recursive descent parser implementing Expr → Expr + Term begins by calling the Expr procedure. That procedure immediately calls Expr again — before consuming any input — which calls Expr again, infinitely. The fix is left-recursion elimination: transform to Expr → Term Expr' and Expr' → + Term Expr' | ε. Option C describes a concern for LR/bottom-up parsers, which handle left-recursion naturally. Option D is wrong — recursive descent handles binary operators fine once left-recursion is eliminated."
+
+- question: "A grammar needs to parse arithmetic expressions with the standard precedence (multiplication before addition, both left-associative). The canonical technique to encode this in the grammar is:"
+  type: multiple-choice
+  options:
+    - "Add explicit parenthesization to the language, requiring programmers to always write (3) + (4 * 5)"
+    - "Use a single nonterminal Expr with all operators at the same level, and add a post-processing step to reorder the parse tree by precedence"
+    - "Introduce a hierarchy of nonterminals — one tier per precedence level — so that higher-precedence operators appear in productions that are deeper in the grammar"
+    - "Resolve precedence through a separate disambiguation table provided as metadata to the parser generator, without changing the grammar rules"
+  answer: 2
+  explanation: "The nonterminal hierarchy is the canonical structural technique: lower-precedence operators appear at the top level (Expr → Expr + Term), higher-precedence operators at deeper levels (Term → Term * Factor). A multiplication can only reduce to Term, which is then used as a component of Expr; this structural nesting means multiplication always binds before addition in the parse tree. Option A is not a grammar design technique. Option B produces an ambiguous grammar and complicates later phases. Option D (disambiguation tables) is available in some generators but is a workaround — the standard approach encodes precedence structurally."
+
+- question: "The same context-free language can be described by grammars that differ significantly in their suitability for a given parsing algorithm, meaning theoretical correctness and practical usability are distinct properties of a grammar."
+  type: true-false
+  answer: true
+  explanation: "This is the central insight of grammar design for compilation. A language's context-free grammar is not unique — many different grammars accept the same language. Some are ambiguous, some have left-recursion unusable by top-down parsers, and some produce parse trees whose structure is awkward for later compiler phases. Writing a grammar that is correct (accepts exactly the target language) is necessary but not sufficient — it must also be unambiguous, compatible with the parsing algorithm, and produce semantically useful parse trees reflecting operator precedence and program structure."
+
+- question: "Eliminating left-recursion from a grammar guarantees that the resulting grammar will have no conflicts and be suitable for any parsing algorithm."
+  type: true-false
+  answer: false
+  explanation: "Left-recursion elimination solves one specific problem — infinite recursion in top-down parsers — but does not eliminate all sources of parsing difficulty. The transformed grammar may still be ambiguous (multiple parse trees for the same input), may still have first/follow conflicts preventing LL(1) parsing, and may produce parse trees whose structure complicates later compiler phases. Different parsing algorithms impose different requirements: resolving left-recursion helps LL parsers but LR parsers handle left-recursion naturally while being sensitive to shift-reduce conflicts that require different refactoring strategies."
+
+- question: "Why is writing a theoretically correct grammar — one that accepts exactly the right language — not sufficient for compiler design? What additional properties must the grammar satisfy?"
+  type: short-answer
+  answer: "A compiler's parser must be deterministic, fast, and produce output useful for subsequent phases. Beyond correctness, the grammar must be: (1) unambiguous — only one parse tree per input; (2) compatible with the target parsing algorithm — no left-recursion for recursive descent, no shift-reduce conflicts for LR; and (3) structurally reflective of program semantics — the parse tree must encode correct operator precedence and associativity so that type checking and code generation can walk it correctly."
+  explanation: "The key insight is that a grammar defines both a language (which strings are valid) and a structure (what parse trees those strings get). Two grammars can accept the same language but impose different structures. For a compiler, structure is semantics — the parse tree is the primary data structure all later phases use. Grammar design is therefore an engineering problem about both correctness and structure, not just a mathematical problem about language membership. A grammar producing well-formed but structurally wrong trees will generate incorrect code silently."
+```
+
 ## Explainer
 
 You already know that a context-free grammar defines which strings belong to a language, and you understand how compilers are organized into phases. But writing a grammar that is *theoretically correct* and writing one that *actually works with a parser* are different skills. **Grammar design for compilation** is the engineering discipline of crafting grammars that are not only unambiguous but also compatible with the specific parsing algorithm you intend to use — and that produce parse trees reflecting the semantic structure you need for later compiler phases.

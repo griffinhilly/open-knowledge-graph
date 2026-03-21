@@ -38,6 +38,45 @@ Start by understanding each mode as a 'rotation' of the C major scale (D Dorian,
 - Modes are not just 'scales that start on different notes' — each mode has its own distinct tonal color even when played starting on the same root.
 - Locrian is theoretically complete but rarely used melodically because its tonic chord is diminished.
 
+## Questions
+
+```yaml
+- question: "A musician plays D–E–F–G–A–B–C–D. A second musician plays D–E–F–G–A–B♭–C–D. Both start and end on D. What is the difference between these two scales?"
+  type: multiple-choice
+  options:
+    - "They are the same scale — both are D minor because they share most of the same notes"
+    - "The first is D Dorian (natural minor with a raised 6th: B natural); the second is D Aeolian (natural minor with B♭) — they share the same root but have different interval patterns and different tonal colors"
+    - "The first is D major; the second is D minor"
+    - "Both are modes of C major, so they sound identical when played starting on D"
+  answer: 1
+  explanation: "D Dorian uses the same pitches as C major (B natural), while D Aeolian (natural minor) lowers the 6th to B♭. Both are 'minor-flavored' modes (minor third), but the raised 6th is Dorian's characteristic interval — it gives Dorian its distinctive sound compared to natural minor. This directly attacks the misconception that modes are 'just scales starting on different notes': D Dorian and D Aeolian start on the same note but are genuinely different scales with different sounds."
+
+- question: "A jazz musician wants to play G Mixolydian. Which description correctly identifies it?"
+  type: multiple-choice
+  options:
+    - "G major scale starting on the 5th degree — same pitches as C major, played from G"
+    - "G natural minor — the same as G Aeolian"
+    - "G major scale with the 7th degree lowered by a half step: G–A–B–C–D–E–F–G"
+    - "G major scale with the 4th degree raised by a half step: G–A–B–C#–D–E–F#–G"
+  answer: 2
+  explanation: "Mixolydian is the major scale with a lowered 7th. G major has F#; G Mixolydian lowers it to F natural, giving G–A–B–C–D–E–F–G. Option A is correct about the parent key relationship (G Mixolydian shares all pitches with C major) but describes it by relationship to C rather than by characteristic interval — less useful for playing from any root. The lowered 7th gives Mixolydian its characteristic 'unresolved' quality heard in blues, rock, and folk. Option D describes G Lydian (raised 4th)."
+
+- question: "D Dorian and D Aeolian use exactly the same pitches — the only difference is which note they start on."
+  type: true-false
+  answer: false
+  explanation: "D Dorian uses the pitches of C major (D–E–F–G–A–B–C–D, with B natural). D Aeolian (natural minor) uses the pitches of F major (D–E–F–G–A–B♭–C–D, with B♭). They share the same root (D) and most pitches, but differ on the 6th scale degree: B natural in Dorian vs. B♭ in Aeolian. This is not a trivial difference — the raised 6th is Dorian's defining characteristic and accounts for its distinctly different tonal color despite both being 'minor-flavored.' They are different scales, not the same scale starting on different notes."
+
+- question: "D Dorian uses the same pitches as C major but treats D as its tonal center, so it can be thought of as a 'rotation' of the C major scale."
+  type: true-false
+  answer: true
+  explanation: "This is the parent-key approach to understanding modes. D Dorian is built by starting C major on its 2nd degree (D) and playing the same pitches (all white keys) to the octave. Every mode of C major uses the same 7 pitches but places a different degree as the tonal center, creating a different pattern of whole and half steps relative to that center — and therefore a different sound. The rotation metaphor is accurate: the same 'circle' of pitches viewed from a different starting point."
+
+- question: "Why is it insufficient to define modes simply as 'scales that start on different degrees of the major scale'? What additional understanding makes modes genuinely useful?"
+  type: short-answer
+  answer: "The 'rotation' definition explains how to derive each mode from its parent key but doesn't capture what makes each mode musically distinctive or how to use any mode starting from any root. The complete understanding requires knowing each mode's characteristic interval pattern relative to its own root — for instance, Dorian = minor scale with raised 6th; Mixolydian = major scale with lowered 7th. Without this, a musician who 'knows modes' can only play D Dorian (same as C major) but not G Dorian or B♭ Dorian. The characteristic-interval approach makes modes portable to any key and explains why each mode has a distinctive tonal color even when played starting from the same root."
+  explanation: "This is why two approaches are needed simultaneously: the parent-key relationship helps with finding modal material by ear and navigating quickly on an instrument; the characteristic-interval understanding explains the sound and enables transposition. The misconception that modes are 'just scales starting on different notes' stops at the first approach and misses the deeper musical meaning."
+```
+
 ## Explainer
 
 You already know the major scale: a sequence of whole and half steps (W–W–H–W–W–W–H) that gives Western tonal music its characteristic bright, settled sound. You also know the natural minor scale, with its darker, more melancholic quality. Modes reveal that these two scales are not opposites — they are two members of a family of seven, all derived from the same parent: the major scale.

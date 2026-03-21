@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Metamorphic rocks form under elevated pressure and temperature; specific mineral assemblages (facies) such as greenschist, amphibolite, and granulite define the P-T conditions during metamorphism. These assemblages preserve a record of deep crustal or mantle processes and plate convergence.
 
+## Questions
+
+```yaml
+- question: "A geologist discovers blueschist rocks containing the blue amphibole glaucophane in an ancient mountain belt. What tectonic setting does this most directly indicate?"
+  type: multiple-choice
+  options:
+    - "High-pressure, low-temperature metamorphism consistent with cold oceanic crust subducted to great depths"
+    - "High-temperature, low-pressure contact metamorphism from a nearby igneous intrusion"
+    - "Regional metamorphism from deep burial during continental collision, similar to amphibolite facies"
+    - "Hydrothermal alteration along a mid-ocean ridge spreading center"
+  answer: 0
+  explanation: "Blueschist facies forms at high pressure but relatively low temperature — exactly the conditions of subduction zones, where cold oceanic crust is driven rapidly to depth before it has time to heat up. Glaucophane is diagnostic because it is only stable under these unusual HP-LT conditions. Option 2 (contact metamorphism) produces low-pressure, high-temperature assemblages — the opposite. Option 3 (amphibolite) forms at moderate-high T and moderate P, not blueschist conditions."
+
+- question: "Two basalt samples — one from India, one from Norway — were metamorphosed under identical pressure-temperature conditions. What mineral assemblage would you expect in each?"
+  type: multiple-choice
+  options:
+    - "The same assemblage in both, because bulk chemical composition and P-T conditions together determine which minerals form, regardless of geographic origin"
+    - "Different assemblages, because the geographic origin and tectonic setting of the original rock affect which minerals crystallize"
+    - "Different assemblages, because metamorphic reactions proceed faster in warmer climates, producing different minerals"
+    - "The same assemblage only if both basalts were formed at mid-ocean ridges with identical magma chemistry"
+  answer: 0
+  explanation: "This is the key predictive power of metamorphic petrology: mineral assemblage is controlled by bulk chemical composition and P-T conditions — not by geography, climate, or local history. Two rocks with the same starting chemistry under the same P-T conditions will develop the same assemblage worldwide. Option 1 (geographic origin matters) is the misconception being tested — origin is irrelevant once you specify composition and conditions."
+
+- question: "When interpreting metamorphic rocks, the presence of certain minerals is diagnostic of specific P-T conditions, but the absence of particular minerals provides no useful information."
+  type: true-false
+  answer: false
+  explanation: "Mineral absences are often as diagnostic as presences. For example, the absence of hydrous minerals (chlorite, hornblende) in granulite facies rocks — replaced by anhydrous pyroxene and garnet — is a key indicator of high-temperature metamorphism. Similarly, the absence of high-pressure indicator minerals like kyanite or glaucophane constrains what conditions were NOT reached. Petrologists actively use 'forbidden assemblages' as constraints in P-T path reconstruction."
+
+- question: "A clockwise P-T path (increasing pressure and temperature during burial, then decreasing during exhumation) is characteristic of collision-zone metamorphism."
+  type: true-false
+  answer: true
+  explanation: "In continental collision zones, rocks are buried by crustal thickening (increasing P), then heat slowly diffuses in from surrounding rock (T rises). As the orogen erodes and rocks exhume, they cool while decompressing. This burial-heating then uplift-cooling trajectory traces a clockwise loop in P-T space. Counterclockwise paths are characteristic of different settings such as contact metamorphism or oceanic arc environments."
+
+- question: "Why do high-pressure minerals like glaucophane sometimes survive at the Earth's surface rather than reverting to lower-pressure mineral assemblages during exhumation?"
+  type: short-answer
+  answer: "Mineral reactions require both thermodynamic drive AND sufficient reaction kinetics. When rocks are exhumed rapidly, temperature drops quickly, slowing reaction rates below the threshold needed for mineral transformation. The high-pressure minerals become metastable — thermodynamically unstable at surface conditions but kinetically 'frozen' because there is insufficient thermal energy to break and reform bonds. Fast exhumation preserves the deep P-T record; slow exhumation allows back-reactions that erase it."
+  explanation: "This kinetic preservation is why blueschists and eclogites exist at the surface at all — they are thermodynamically unstable under crustal conditions but have not had time to re-equilibrate. The rate of exhumation relative to the rate of retrograde metamorphism determines preservation. This is why rapid tectonic uplift in subduction settings is associated with the best-preserved high-pressure assemblages."
+```
+
 ## Explainer
 
 From your study of mineral crystal systems and metamorphic rocks, you know that metamorphism transforms existing rocks under elevated temperature and pressure, producing new minerals stable under those conditions. The key insight of **metamorphic petrology** is that the specific combination of minerals in a rock — its **mineral assemblage** — is not random. It is controlled by the pressure-temperature (P-T) conditions during metamorphism and the bulk chemical composition of the original rock. Two rocks with the same starting chemistry subjected to the same P-T conditions will develop the same mineral assemblage, regardless of where on Earth they are found. This predictability is what makes mineral assemblages powerful diagnostic tools.

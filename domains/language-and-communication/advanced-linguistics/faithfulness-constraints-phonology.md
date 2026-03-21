@@ -30,6 +30,45 @@ Build constraint tableaux comparing candidates with different degrees of deviati
 - Faithfulness constraints do not mean phonological processes never occur; they define when processes are blocked or permitted.
 - FAITHFULNESS is not monolithic; distinct constraints govern different phonological dimensions (features, segments, prosody).
 
+## Questions
+
+```yaml
+- question: "German surfaces /hʊnd/ (Hund, 'dog') as [hʊnt] with a voiceless final consonant. In OT terms, which ranking produces this outcome?"
+  type: multiple-choice
+  options:
+    - "IDENT[voice] >> *VOICED-CODA — faithfulness dominates markedness, so voicing is preserved"
+    - "*VOICED-CODA >> IDENT[voice] — markedness dominates faithfulness, so voicing is neutralized"
+    - "MAX >> *VOICED-CODA — the segment is preserved but its features are changed"
+    - "DEP >> IDENT[voice] — epenthesis is blocked, forcing a feature change instead"
+  answer: 1
+  explanation: "Coda devoicing (underlying /d/ → surface [t]) means the markedness constraint *VOICED-CODA (no voiced obstruents in coda position) wins against the faithfulness constraint IDENT[voice] (preserve voicing). When markedness dominates faithfulness, phonological processes occur. English lacks coda devoicing because IDENT[voice] outranks *VOICED-CODA in English — the same constraints, different ranking, different output. Options C and D misapply MAX (which governs deletion) and DEP (which governs epenthesis) — neither is violated here."
+
+- question: "A language freely deletes vowels in unstressed syllables but never inserts vowels to break up consonant clusters. Which constraint ranking is consistent with this pattern?"
+  type: multiple-choice
+  options:
+    - "DEP >> MAX — epenthesis is blocked by high DEP, while MAX (preventing deletion) is lower-ranked"
+    - "MAX >> DEP — deletion is blocked by high MAX, while epenthesis is freely permitted"
+    - "IDENT >> MAX >> DEP — feature changes are blocked but both deletion and insertion occur"
+    - "MAX >> IDENT >> DEP — deletion and feature change are blocked, only epenthesis occurs"
+  answer: 0
+  explanation: "The pattern — deletion occurs, epenthesis doesn't — means MAX (which prohibits deletion) is ranked below whatever markedness constraints drive deletion, while DEP (which prohibits epenthesis) is ranked above the markedness constraints that would trigger insertion. High DEP blocks all vowel insertion; low MAX allows deletion when markedness demands it. This illustrates a core OT principle: each faithfulness constraint has an independent ranking, and each governs a different type of input-output correspondence."
+
+- question: "In Optimality Theory, a language with high-ranked faithfulness constraints will never exhibit any phonological processes."
+  type: true-false
+  answer: false
+  explanation: "Faithfulness constraints are ranked relative to markedness constraints — there is no such thing as globally 'high-ranked' faithfulness. A language can have IDENT[voice] ranked very high (blocking voicing alternations) while MAX is ranked lower (allowing deletions). Only the specific faithfulness constraints that outrank the competing markedness constraints block those specific processes. A language can simultaneously have many active phonological processes in dimensions where faithfulness loses and blocked processes in dimensions where faithfulness wins."
+
+- question: "The constraints MAX, DEP, and IDENT each penalize the same kind of input-output discrepancy — any deviation from the underlying form."
+  type: true-false
+  answer: false
+  explanation: "MAX, DEP, and IDENT penalize three distinct types of deviation. MAX penalizes deletion: an input segment has no correspondent in the output. DEP penalizes epenthesis: an output segment has no correspondent in the input. IDENT penalizes featural change: corresponding segments differ in some feature value (e.g., voiced in input, voiceless in output). This decomposition matters because each constraint can be ranked independently — a language can allow deletion (low MAX) while blocking epenthesis (high DEP) and allowing feature changes (low IDENT)."
+
+- question: "Explain why the same two competing constraints — say, *VOICED-CODA and IDENT[voice] — can produce different phonological patterns in different languages, according to Optimality Theory."
+  type: short-answer
+  answer: "OT proposes that all constraints are universal and present in every grammar, but languages differ in how they rank those constraints. When *VOICED-CODA outranks IDENT[voice], coda devoicing occurs (German, Russian). When IDENT[voice] outranks *VOICED-CODA, voicing is preserved in coda position (English). The input-output mapping selected as optimal is always the one that best satisfies the constraints in their language-specific ranking order. Languages share constraints but differ in rankings, and ranking differences generate different surface patterns."
+  explanation: "This is the core claim of OT: phonological typology — the space of possible patterns across languages — is generated by permuting constraint rankings, not by listing language-specific rules. The insight is that cross-linguistic variation is not arbitrary but constrained by the set of universal constraints and the mathematics of ranking. The same two constraints, ranked in opposite orders, produce mirror-image grammars."
+```
+
 ## Explainer
 
 In Optimality Theory, as you know from your introduction to the framework, phonological outputs are selected by ranking competing universal constraints against each other. Markedness constraints define what surface forms are structurally preferred — no complex onsets, no nasalized vowels, no final obstruents, and so on. But if markedness constraints alone determined outputs, every language would converge on the same highly unmarked forms, which is obviously wrong. **Faithfulness constraints** are the counterweight: they require that outputs preserve the properties of underlying inputs. The tension between markedness and faithfulness is where phonological variation lives.

@@ -31,6 +31,45 @@ Take a freelancer earning $60,000 in gross revenue with $10,000 in business expe
 - You only need to pay taxes once a year as a freelancer; the IRS requires quarterly estimated payments, and failing to pay quarterly can result in penalties even if you pay the full amount by April 15.
 - All self-employment income is subject to the full 15.3% SE tax; the Social Security portion (12.4%) only applies up to the annual wage base (around $168,600 in 2024), though the 2.9% Medicare portion has no cap and adds a 0.9% surcharge above $200,000.
 
+## Questions
+
+```yaml
+- question: "A freelance consultant earns $40,000 in net self-employment income and has no other income for the year. She pays her entire federal tax bill in one payment on April 15. Which best describes her situation?"
+  type: multiple-choice
+  options:
+    - "She has handled her taxes correctly by paying in full by the filing deadline"
+    - "She may owe an underpayment penalty despite paying everything by April 15, because the IRS requires quarterly estimated payments throughout the year"
+    - "She only owes income tax, since she has no employer to remit SE tax on her behalf"
+    - "She qualifies for a full deduction of all SE taxes paid, eliminating most of her liability"
+  answer: 1
+  explanation: "The IRS expects taxes to be paid throughout the year as income is earned, not in a single lump sum in April. Self-employed workers must make quarterly estimated payments (Form 1040-ES) at four deadlines across the year. Failing to do so can trigger an underpayment penalty calculated on each quarter's shortfall — even if the full annual amount is paid by April 15. Paying in April is not the same as paying on time."
+
+- question: "Why do self-employed workers pay a 15.3% SE tax rate rather than the 7.65% that employees see deducted from their paychecks?"
+  type: multiple-choice
+  options:
+    - "Self-employment income is taxed at a higher rate because it is treated as business profit rather than wages"
+    - "The IRS adds a surcharge for workers who choose not to have an employer withhold taxes"
+    - "Self-employed workers pay both the employee's share and the employer's matching share of Social Security and Medicare taxes"
+    - "The 15.3% rate bundles federal and state payroll taxes together"
+  answer: 2
+  explanation: "Every employee's FICA contribution is actually two equal payments: the 7.65% deducted from the paycheck and an additional 7.65% the employer pays invisibly on the employee's behalf. Together these total 15.3%. As a self-employed worker, you are simultaneously the employee and the employer — so you owe both halves. The 15.3% is not a penalty or surcharge; it is simply the full FICA obligation that corporations split between the paycheck and payroll taxes."
+
+- question: "Self-employment tax is owed on net self-employment income even if that income is low enough that the worker owes zero federal income tax."
+  type: true-false
+  answer: true
+  explanation: "SE tax and income tax are two separate obligations calculated independently. SE tax funds Social Security and Medicare; income tax funds general government. A freelancer can have income low enough to owe no income tax (after standard deduction) while still owing SE tax on that same income. Many new freelancers are surprised by this because employees never see SE tax as a distinct line item — it is hidden in employer payroll costs."
+
+- question: "The IRS deduction for half of self-employment tax reduces the amount of SE tax you owe."
+  type: true-false
+  answer: false
+  explanation: "This is a common and consequential misunderstanding. The deduction for half of SE tax reduces your adjusted gross income, which in turn reduces the income tax you owe. But the SE tax calculation itself — on Schedule SE — is not affected. You still owe the full 15.3% on 92.35% of your net self-employment income. The deduction provides relief on the income tax side, not the SE tax side."
+
+- question: "Explain why a self-employed person earning $60,000 net might pay several thousand dollars more in federal taxes than a W-2 employee earning $60,000 in wages — even though both report the same gross income."
+  type: short-answer
+  answer: "The W-2 employee pays only the employee half of FICA (7.65%) — the employer pays the other half invisibly. The self-employed person pays both halves (15.3%) plus income tax on the same earnings. Even after the above-the-line deduction for half of SE tax (which reduces adjusted gross income slightly), the self-employed person's total federal tax burden is significantly higher. Additionally, the W-2 worker has taxes withheld automatically throughout the year, while the freelancer must also manage quarterly estimated payments or face underpayment penalties."
+  explanation: "The key insight is that the employer's share of payroll taxes is a real cost of labor that employees simply never see — it never appears on a pay stub. Self-employed workers are forced to see and pay this cost directly, which is why the SE tax rate appears so high compared to what employees observe on their paychecks."
+```
+
 ## Explainer
 
 When you work as an employee, your pay stub shows two separate FICA deductions — one for Social Security (6.2%) and one for Medicare (1.45%). What the pay stub doesn't show is that your employer pays an equal amount on your behalf, invisibly. The employer's matching 6.2% + 1.45% never appears in your check; it's a separate payroll tax the company remits. As a self-employed worker, you are simultaneously the employee and the employer — so you owe both halves. That's where the **15.3% self-employment tax** comes from: 12.4% Social Security + 2.9% Medicare, both sides combined.

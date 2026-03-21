@@ -28,6 +28,45 @@ status: draft
 ## Core Idea
 Ocean temperature decreases with depth, with the thermocline marking the steepest temperature gradient, typically at 300–1000 meters depth. Temperature profiles vary seasonally and by latitude, with strong thermoclines in tropical oceans affecting circulation, mixing, and biological productivity patterns.
 
+## Questions
+
+```yaml
+- question: "A tropical oceanographer observes that phytoplankton productivity in the subtropical gyre is far lower than near the equator, despite similar sunlight levels. What is the most direct thermodynamic reason?"
+  type: multiple-choice
+  options:
+    - "The subtropical surface water is too warm for phytoplankton to survive"
+    - "A strong permanent thermocline suppresses vertical mixing, preventing deep nutrients from reaching the sunlit surface"
+    - "The mixed layer is too shallow to support phytoplankton growth"
+    - "Upwelling currents carry nutrients away from the photic zone"
+  answer: 1
+  explanation: "The key insight is that the thermocline acts as a density barrier resisting vertical mixing. Because warm, low-density surface water sits atop cold, dense deep water, the sharp thermocline prevents nutrient-rich deep water from upwelling. Phytoplankton have light but no nutrients — the thermocline starves them. Options A and C are backwards (tropical surface water is warm and the mixed layer is relatively deep); option D describes upwelling regions, which actually have HIGH productivity precisely because the thermocline is weak or absent there."
+
+- question: "A seasonal thermocline forms in summer at mid-latitudes. What happens to the permanent thermocline during this time?"
+  type: multiple-choice
+  options:
+    - "It disappears because the seasonal thermocline replaces it"
+    - "It deepens as the seasonal warming pushes it down"
+    - "It remains, with the seasonal thermocline forming above it in the upper mixed layer"
+    - "It weakens because surface heating reduces the deep-to-surface temperature gradient"
+  answer: 2
+  explanation: "The seasonal thermocline is a separate, shallower feature that develops on top of the existing permanent thermocline in summer when surface heating creates a thin warm layer. The permanent thermocline at 300–1000 m depth persists year-round. In winter, storm-driven mixing erodes the seasonal thermocline, restoring a single, deeper mixed layer — but the permanent thermocline remains. Thinking the two thermoclines occupy the same position is the key misconception."
+
+- question: "Polar oceans have no permanent thermocline."
+  type: true-false
+  answer: true
+  explanation: "In polar regions, surface water can be cooled to near-freezing temperatures that match the cold deep ocean. When the surface temperature is as low as the deep water temperature, there is no thermal gradient to form a thermocline. The water column is nearly isothermal, allowing deep convective mixing — which is actually why polar seas are crucial sites for deep water formation and global thermohaline circulation."
+
+- question: "A stronger thermocline is associated with higher biological productivity in the overlying water."
+  type: true-false
+  answer: false
+  explanation: "This is the opposite of the correct relationship. A stronger thermocline creates a more effective density barrier against vertical mixing, which prevents nutrient-rich deep water from reaching the photic zone. Productivity is therefore LOW in strongly stratified waters (like the subtropical gyres). High productivity regions — upwelling zones, polar seas — are characterized by weak or absent thermoclines that allow nutrient supply from depth."
+
+- question: "Why does the thermocline act as a barrier to vertical mixing, and what physical property is responsible for this resistance?"
+  type: short-answer
+  answer: "The thermocline is a barrier because the temperature gradient it represents is also a density gradient: warm surface water is less dense than cold deep water. Mixing requires work to move dense water upward and less dense water downward against gravity. The steeper the temperature (and therefore density) gradient, the more energy is required for mixing, so a strong thermocline effectively insulates the warm surface layer from the cold deep ocean."
+  explanation: "The key is recognizing that temperature and density are coupled in seawater. The thermocline is not just a thermal feature — it is simultaneously a pycnocline (density gradient). Mixing across a strong density gradient requires overcoming buoyancy forces, which wind-driven turbulence and diffusion typically cannot do efficiently. This physical barrier is what controls nutrient supply, oxygen exchange, and heat storage between ocean layers."
+```
+
 ## Explainer
 
 You already understand that the ocean has a thermal structure — a warm surface layer sitting atop cold deep water — and you know from thermodynamics that heat naturally flows from warm to cold regions. The ocean temperature profile describes exactly how temperature changes as you descend from the sunlit surface to the dark abyss, and the **thermocline** is the depth zone where that change is steepest. Think of it as a thermal barrier: above it, the water is warm and well-mixed by wind and waves; below it, the water is uniformly cold (typically 1–4°C), largely disconnected from surface heating. The thermocline itself is the transition zone where temperature drops rapidly over a relatively thin vertical interval.

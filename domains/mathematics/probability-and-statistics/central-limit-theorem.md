@@ -30,6 +30,45 @@ Simulate sampling from non-normal populations (uniform, exponential, bimodal). O
 ## Common Misconceptions
 Thinking CLT applies to individual observations (it applies to sample means/sums). Assuming small samples have normal sampling distributions. Forgetting that the population doesn't need to be normal—only sample means do.
 
+## Questions
+
+```yaml
+- question: "A population has a heavily right-skewed distribution (e.g., household incomes). A researcher takes random samples of size n = 50. According to the Central Limit Theorem, which statement is correct?"
+  type: multiple-choice
+  options:
+    - "The individual income observations will be approximately normally distributed within each sample"
+    - "The population distribution will become more symmetric as more samples are drawn"
+    - "The sample mean x̄ will be approximately normally distributed across repeated samples"
+    - "The CLT does not apply here because the population is not normal"
+  answer: 2
+  explanation: "The CLT applies to the distribution of the *sample mean* x̄, not to individual observations. Individual incomes stay skewed — the CLT says nothing about them. What becomes approximately normal is x̄ computed across many repeated samples of size 50. Option D is wrong because the CLT explicitly applies *regardless* of the population's shape, provided n is large enough."
+
+- question: "A quality engineer reduces sampling cost by cutting sample size from n = 100 to n = 25. What happens to the standard error of the sample mean?"
+  type: multiple-choice
+  options:
+    - "It doubles, because sample size was cut in half twice"
+    - "It doubles, because standard error is σ/√n and √25 is half of √100"
+    - "It stays the same, because σ (the population standard deviation) didn't change"
+    - "It quadruples, because precision degrades proportionally to sample size reduction"
+  answer: 1
+  explanation: "Standard error = σ/√n. With n = 100, SE = σ/10. With n = 25, SE = σ/5 — exactly double. The square-root relationship means you must quadruple the sample size to halve the standard error, not double it. Option A confusingly describes the factor correctly but misstates why: n went from 100 to 25 (a factor of 4 reduction), and √4 = 2, so SE doubles."
+
+- question: "The Central Limit Theorem guarantees that for large n, the sampling distribution of the sample mean is approximately normal, regardless of the population's shape."
+  type: true-false
+  answer: true
+  explanation: "This is the core claim of the CLT. The population itself can be exponential, uniform, bimodal, or highly skewed — the distribution of x̄ across repeated samples of size n converges to a normal distribution (with mean μ and standard deviation σ/√n) as n grows. This is why normal-based inference methods work for non-normal populations."
+
+- question: "If the Central Limit Theorem applies to a dataset, the individual data points in that dataset are approximately normally distributed."
+  type: true-false
+  answer: false
+  explanation: "This is the most common CLT misconception. The CLT makes a claim about the *sample mean* x̄ — a statistic computed from a sample — not about the individual observations themselves. If you draw n = 50 values from an exponential distribution, each individual value is still exponential. Only the distribution of x̄ (computed across many such samples) becomes approximately normal."
+
+- question: "Why does the Central Limit Theorem apply to sample means but not to individual observations from a non-normal population?"
+  type: short-answer
+  answer: "The sample mean is an average of n independent random variables. Averaging causes the idiosyncratic extremes and asymmetries of individual draws to cancel each other out — large values in one draw are offset by small values in others. This averaging-out process (mathematically, the convergence of the sum's characteristic function to that of a normal distribution) is what produces the bell shape. Individual observations have no such averaging — each one reflects the full shape of the population distribution directly."
+  explanation: "The key is that averaging introduces a mathematical smoothing effect absent for individual values. This is why the CLT is about sums and means, not raw data. The standard deviation of that bell-shaped distribution (σ/√n) also shrinks with n, capturing how averaging reduces variability. Understanding this distinction separates students who can correctly apply CLT from those who misapply it to raw data."
+```
+
 ## Explainer
 
 The Central Limit Theorem (CLT) is the reason statisticians can apply the same normal-distribution machinery to data from wildly different sources — exponential waiting times, binary survey responses, skewed income data — as long as they're working with sample means rather than individual observations. From your study of sampling distributions, you know that the sample mean x̄ is itself a random variable that varies from sample to sample. The CLT tells you the shape of that distribution: for large enough n, it's approximately normal, regardless of what the population looks like.

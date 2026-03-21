@@ -30,6 +30,45 @@ Drop objects and time them, then compare predictions from x = ½gt² to measurem
 - Believing heavier objects fall faster — this is only true when air resistance matters.
 - Forgetting that g acts downward continuously, even as the object moves upward after being thrown.
 
+## Questions
+
+```yaml
+- question: "A bowling ball and a ping-pong ball are dropped simultaneously from the same height in a vacuum chamber. Which hits the ground first?"
+  type: multiple-choice
+  options:
+    - "The bowling ball — gravity pulls it more strongly because it is heavier"
+    - "The ping-pong ball — it is lighter and therefore easier to accelerate"
+    - "They hit simultaneously — all objects fall with the same acceleration g regardless of mass"
+    - "The bowling ball — heavier objects always fall faster when dropped from rest"
+  answer: 2
+  explanation: "All objects fall with the same acceleration g ≈ 9.8 m/s² regardless of mass. The gravitational force on an object is F = mg, which is larger for a heavier object — but Newton's second law gives acceleration as a = F/m = mg/m = g. The mass cancels exactly. The heavier object is pulled harder by gravity, but it is proportionally harder to accelerate, and these two effects cancel precisely. The intuition that heavy objects fall faster comes from real-world experience with air resistance, which affects lighter objects more — but in a vacuum, the universality is exact."
+
+- question: "A ball is thrown straight upward. At the exact instant it reaches its maximum height and momentarily has zero velocity, what is its acceleration?"
+  type: multiple-choice
+  options:
+    - "Zero — the ball has stopped moving, so it is not accelerating"
+    - "9.8 m/s² upward, since it is about to begin moving downward"
+    - "9.8 m/s² downward — gravity acts continuously regardless of the direction or magnitude of velocity"
+    - "Less than 9.8 m/s² — the ball is decelerating as it approaches the peak"
+  answer: 2
+  explanation: "Gravity acts continuously at g = 9.8 m/s² downward throughout the entire flight — while the ball moves up, at the peak, and while it falls down. At the peak, velocity is zero but acceleration is not. Acceleration measures how velocity is changing, not whether the object is moving. The ball's velocity changes from positive (upward) to zero to negative (downward) at a constant rate of 9.8 m/s² per second. Option A is the classic misconception: students conflate zero velocity with zero acceleration. If acceleration were truly zero at the peak, the ball would remain suspended there indefinitely."
+
+- question: "In the absence of air resistance, a feather and a hammer dropped from the same height will reach the ground at the same time."
+  type: true-false
+  answer: true
+  explanation: "This is Galileo's key insight, famously demonstrated on the Moon during Apollo 15. Without air resistance, all objects near Earth's surface fall with the same acceleration g. The feather falls slowly in air not because gravity pulls it less, but because air resistance (proportional to surface area and velocity) disproportionately impedes light objects. In vacuum, the feather's low mass means gravity's pull on it is small, but that small force also has little inertia to overcome — the ratio F/m = g is identical for both objects."
+
+- question: "When a ball is thrown upward, its acceleration decreases as it rises (because it is slowing down) and increases as it falls back down (because it is speeding up)."
+  type: true-false
+  answer: false
+  explanation: "Acceleration is constant at g = 9.8 m/s² downward throughout the entire trajectory. 'Slowing down' means velocity is decreasing in magnitude, but it does not mean acceleration is decreasing — a constant downward acceleration of 9.8 m/s² is precisely what causes the upward-moving ball to slow at a steady rate of 9.8 m/s per second. This confusion conflates the sign and magnitude of velocity with the sign and magnitude of acceleration. The acceleration doesn't know or care about the direction of velocity; it simply acts downward at g the entire time."
+
+- question: "Why do all objects fall at the same rate in the absence of air resistance, regardless of their mass? Use Newton's second law to explain the cancellation."
+  type: short-answer
+  answer: "The gravitational force on an object is F = mg, which is proportional to its mass — heavier objects are pulled harder. But Newton's second law says a = F/m, so a = mg/m = g. The mass cancels completely: the increased gravitational pull on a heavier object is exactly offset by the increased inertia (resistance to acceleration) of that same mass. The result is that all objects near Earth's surface accelerate at g ≈ 9.8 m/s² regardless of mass. This cancellation is not a coincidence — it reflects the deep equivalence between gravitational mass (how strongly gravity pulls) and inertial mass (how hard it is to accelerate)."
+  explanation: "This equivalence between gravitational and inertial mass — which Newton treated as a coincidence requiring experimental confirmation — became a foundational principle of Einstein's general relativity (the equivalence principle). In everyday terms: yes, a truck weighs more than a pebble, but the truck also needs proportionally more force to change its motion. In free fall, gravity provides exactly that proportional force, leaving the acceleration identical for both."
+```
+
 ## Explainer
 
 From your study of kinematic equations, you know how to describe motion with constant acceleration: position changes as ½at², velocity changes as at, and the two are linked through v² = v₀² + 2aΔx. Free fall is simply the specific case where that constant acceleration is provided by gravity near Earth's surface — **g ≈ 9.8 m/s²** directed downward. Everything you learned about kinematics applies immediately; free fall is kinematics with the acceleration already filled in for you. The conceptual work is understanding *why* g is universal and what it means physically.

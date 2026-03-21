@@ -31,6 +31,45 @@ Start with plane curves where torsion is zero and verify that a circle of radius
 - A straight line has curvature zero everywhere, not undefined.
 - Torsion can be negative; its sign encodes the direction of twist.
 
+## Questions
+
+```yaml
+- question: "One student parametrizes a circle of radius 3 as r(t) = (3cos(t/2), 3sin(t/2), 0) and another as r(t) = (3cos(2t), 3sin(2t), 0). Which statement is true about the curvature κ computed from each?"
+  type: multiple-choice
+  options:
+    - "The fast parametrization gives larger curvature because the tangent vector changes direction more quickly in time"
+    - "Both parametrizations give κ = 1/3, because curvature is a property of the curve's shape, not the speed of traversal"
+    - "The slow parametrization gives smaller curvature because direction changes per unit of time are less frequent"
+    - "Curvature is undefined unless the curve is parametrized by arc length"
+  answer: 1
+  explanation: "Curvature is intrinsic to the curve's geometry, not its parametrization. The formula κ = |r′ × r″|/|r′|³ corrects for speed through the |r′|³ denominator, ensuring both parametrizations yield κ = 1/3. Options A and C confuse dT/dt — which does depend on traversal speed — with dT/ds, which is purely geometric. The whole point of defining curvature via arc length is to make it parametrization-independent."
+
+- question: "The unit normal vector N in the Frenet-Serret frame points:"
+  type: multiple-choice
+  options:
+    - "In the direction of the velocity vector, along the tangent to the curve"
+    - "Toward the center of curvature — the direction the curve is turning"
+    - "Perpendicular to the plane of the curve, out of the osculating plane"
+    - "In the direction of maximum torsion"
+  answer: 1
+  explanation: "N = (dT/ds)/|dT/ds|: it is the direction in which the unit tangent is changing, which points toward the center of curvature — the curve is, so to speak, turning toward N. It is the binormal B = T × N that points out of the T-N plane (the osculating plane). Confusing N and B is a common error."
+
+- question: "A straight line has curvature zero everywhere, because the unit tangent vector does not change direction as you move along it."
+  type: true-false
+  answer: true
+  explanation: "κ = |dT/ds|. For a straight line, T is constant — the direction of travel never changes — so dT/ds = 0 and κ = 0 everywhere. This matches the intuition that a line has no bending. A common misconception is that curvature is 'undefined' for a straight line; it is defined and equals zero."
+
+- question: "Torsion τ can only be zero or positive; a negative value indicates a computational error in the Frenet-Serret calculations."
+  type: true-false
+  answer: false
+  explanation: "Torsion can be negative. Its sign encodes the handedness of the twist: a right-handed helix has positive torsion and a left-handed helix has negative torsion. Negative torsion is geometrically meaningful, not an error. This is analogous to how the sign of a cross product encodes orientation."
+
+- question: "Why is curvature defined with respect to arc length s rather than the parameter t, and what goes wrong if you compute dT/dt instead of dT/ds?"
+  type: short-answer
+  answer: "Using dT/dt makes the rate of change of the tangent depend on how fast you traverse the curve, not on its shape. A car driving fast around a circle generates a large dT/dt; the same car crawling around the same circle generates a small dT/dt — yet the circle's geometry is unchanged. Arc length s represents actual distance traveled, so dT/ds measures direction-change per unit of distance, which is purely geometric. The practical formula κ = |r′ × r″|/|r′|³ uses the |r′|³ denominator precisely to convert from parameter-time to arc-length, making curvature intrinsic to the curve's shape regardless of how fast it is traversed."
+  explanation: "The intrinsic vs. parameter-dependent distinction is the conceptual core of curvature. Students who miss this compute 'curvature' that changes when they reparametrize the same curve — a sign that they are measuring something about their description of the curve rather than the curve itself."
+```
+
 ## Explainer
 
 You already know how to describe a space curve as a vector-valued function r(t) and compute its unit tangent vector T = r′/|r′|. The tangent vector tells you the direction of travel, but it says nothing about how quickly that direction is changing. **Curvature** κ is precisely this rate of change of direction, measured with respect to arc length rather than the parameter t. The arc-length parametrization is essential here: if you drive faster along a curve, the curve's shape doesn't change, but dT/dt would. Using arc length s instead makes curvature an intrinsic property of the curve's geometry, not of how fast you happen to traverse it.

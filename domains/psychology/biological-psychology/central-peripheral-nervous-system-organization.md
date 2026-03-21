@@ -27,6 +27,45 @@ Trace a simple reflex arc showing sensory neuron, synapse in spinal cord, and mo
 ## Common Misconceptions
 Peripheral nerves are just passive wires / all information must reach the brain / spinal cord reflexes are less important than brain control / sensory and motor organization are completely separate.
 
+## Questions
+
+```yaml
+- question: "You touch a hot stove and immediately pull your hand away before you consciously feel pain. What best explains this sequence?"
+  type: multiple-choice
+  options:
+    - "Pain signals travel faster than withdrawal signals, so the withdrawal occurs first"
+    - "The brain overrides the sensation of pain to prioritize the protective movement"
+    - "The withdrawal reflex is executed at the spinal cord level without waiting for brain involvement — the brain learns about the event after the action has already occurred"
+    - "Peripheral nerves bypass the entire nervous system and act directly on muscles in emergencies"
+  answer: 2
+  explanation: "The withdrawal reflex arc operates within the spinal cord: sensory neurons synapse onto interneurons in the spinal cord, which activate motor neurons to the arm muscles — all without routing the signal to the brain. The brain receives the signal after the reflex is complete, which is why conscious pain is registered slightly after the withdrawal. This spinal-level processing is faster precisely because it avoids the long path to and from the brain, a critical survival advantage."
+
+- question: "A patient suffers damage to the dorsal (back) portion of their spinal cord. Based on the CNS/PNS organization, what pattern of deficits would you predict?"
+  type: multiple-choice
+  options:
+    - "Loss of voluntary movement while sensation remains intact, because motor pathways run dorsally"
+    - "Loss of sensation while movement remains mostly intact, because sensory (afferent) pathways ascend through the dorsal spinal cord"
+    - "Total loss of both sensation and movement, because any spinal cord damage disrupts all function below the lesion"
+    - "No significant deficit, because the brain can compensate for isolated spinal cord damage"
+  answer: 1
+  explanation: "The spinal cord has distinct sensory and motor pathways. Sensory (afferent) signals ascend through the dorsal columns; motor (efferent) commands descend through the ventral portion. Dorsal damage disrupts sensation below the lesion while leaving motor function relatively intact — a predictable consequence of the organized structure. This spatial organization is why the CNS/PNS framework is not just anatomical classification but a predictive tool for understanding injury effects."
+
+- question: "All sensory information must reach the brain before the body can generate a protective motor response."
+  type: true-false
+  answer: false
+  explanation: "The spinal cord can execute reflexes entirely locally, without brain involvement. The withdrawal reflex, the patellar tendon reflex (knee jerk), and other spinal reflexes are processed in the spinal cord itself. The brain eventually receives the information, but the response has already been initiated. The architecture exists precisely to bypass the delay of long-range signaling when speed is critical."
+
+- question: "Peripheral nerve injuries tend to recover better than CNS injuries because peripheral neurons can regenerate, whereas mature central neurons typically cannot."
+  type: true-false
+  answer: true
+  explanation: "This is one of the most clinically significant consequences of the CNS/PNS architectural distinction. Peripheral nerves have Schwann cells that support axon regrowth after injury — regeneration is slow (roughly 1mm/day) but possible. CNS neurons (in the brain and spinal cord) are surrounded by a different environment that is largely inhibitory to regrowth, and mature central neurons do not regenerate in the same way. This is why spinal cord injuries tend to result in permanent deficits while peripheral nerve injuries often allow partial or full recovery."
+
+- question: "Why is the spinal cord's ability to execute reflexes independently of the brain adaptive — what survival advantage does it provide?"
+  type: short-answer
+  answer: "Speed. Routing signals all the way to the brain and back adds significant travel time along neural pathways. For threats requiring immediate response (touching something hot, maintaining balance when stumbling), the delay of brain involvement could mean the difference between injury and protection. Local spinal processing allows stereotyped protective responses in milliseconds, faster than conscious deliberation is possible. The brain's role is flexible, context-sensitive control — exactly what spinal reflexes cannot provide."
+  explanation: "This division of labor reflects an evolutionary optimization: fast, reliable responses to common threats are hardwired in local circuits; novel, complex, or socially-modulated responses are routed through the brain. The brain also has the capacity to *inhibit* spinal reflexes when context demands — for example, suppressing a gag reflex or voluntarily touching something painful — which illustrates that the brain can override but not eliminate the local architecture."
+```
+
 ## Explainer
 
 The nervous system is the body's information infrastructure, and understanding its organization starts with a single architectural distinction: the **central nervous system (CNS)** — the brain and spinal cord — is the processing center, while the **peripheral nervous system (PNS)** — the network of nerves branching out through the body — is the input/output system that connects the CNS to everything else. Everything you sense, every movement you make, and every internal regulation your body performs runs through this two-part system.

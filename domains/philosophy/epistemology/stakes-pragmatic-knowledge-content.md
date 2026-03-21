@@ -30,6 +30,45 @@ Consider cases where practical stakes affect what would count as 'knowing': high
 - Assuming high stakes always require more justification.
 - Confusing knowledge standards with justified action standards.
 
+## Questions
+
+```yaml
+- question: "Hannah has identical evidence about the bank's hours in two scenarios: low-stakes (casual deposit) and high-stakes (missing the mortgage payment). According to pragmatic encroachment — not contextualism — which best describes her epistemic situation?"
+  type: multiple-choice
+  options:
+    - "Hannah knows the bank is open in both cases, because knowledge depends only on the evidence, which is unchanged"
+    - "Hannah genuinely knows in the low-stakes case but genuinely does not know in the high-stakes case, because the stakes are constitutive of whether the epistemic relation obtains"
+    - "Hannah does not know in either case, because her evidence is equally uncertain regardless of stakes"
+    - "The word 'knows' picks out weaker standards in the low-stakes case and stronger standards in the high-stakes case, but the underlying epistemic facts are the same"
+  answer: 1
+  explanation: "Pragmatic encroachment is a metaphysical claim about knowledge itself: practical stakes are constitutive of whether S knows. With the same evidence, Hannah genuinely knows in the low-stakes case (her evidence is adequate to her practical situation) but genuinely does not know in the high-stakes case (the same evidence is insufficient given the costs of error). Option D describes contextualism — a competing semantic view about the word 'know' — which pragmatic encroachment theorists explicitly reject. They hold that the variation is in the epistemic facts, not in linguistic standards."
+
+- question: "Pragmatic encroachment differs from contextualism primarily because:"
+  type: multiple-choice
+  options:
+    - "Pragmatic encroachment denies that knowledge is ever possible in high-stakes situations"
+    - "Pragmatic encroachment locates the standards variation in the attributor's conversational context, while contextualism locates it in the subject's practical situation"
+    - "Pragmatic encroachment claims the subject's practical situation affects whether the epistemic relation itself obtains, while contextualism claims it affects the standards encoded in the word 'know'"
+    - "Pragmatic encroachment applies only to first-person knowledge claims, while contextualism applies to third-person attributions"
+  answer: 2
+  explanation: "The key distinction is the locus of variation. Contextualism is a semantic theory: the word 'know' picks out different standards depending on the attributor's conversational context. Pragmatic encroachment is a metaphysical theory: the subject's own practical stakes are constitutive of whether knowledge obtains, regardless of who is making the attribution or in what context. Note that option B reverses the two views — it's contextualism that focuses on the attributor's context, and pragmatic encroachment that focuses on the subject's stakes."
+
+- question: "According to pragmatic encroachment, a person can lose knowledge without any change in their evidence or beliefs, simply by entering a higher-stakes situation."
+  type: true-false
+  answer: true
+  explanation: "This is the defining and most counterintuitive consequence of pragmatic encroachment. The evidential state is held constant; what changes is the practical situation — specifically, the costs of acting on a false belief. When those costs rise sufficiently, the same belief that constituted knowledge in the low-stakes case no longer meets the (now higher) epistemic standard required for the subject to know. This is not a change in evidence; it is a change in what the evidence must support."
+
+- question: "Pragmatic encroachment is a form of contextualism because both theories hold that knowledge standards vary with context."
+  type: true-false
+  answer: false
+  explanation: "Although both theories explain why knowledge attributions seem context-sensitive, they locate the variation differently and make different kinds of claims. Contextualism is a semantic thesis: 'know' is an indexical whose extension varies with the attributor's conversational context, like 'here' or 'I.' Pragmatic encroachment is a metaphysical thesis about what knowledge is: practical factors are partly constitutive of the epistemic relation, not just of how we describe it. On pragmatic encroachment, Hannah genuinely has different epistemic status in the two bank cases; on contextualism, she has the same epistemic status but our words describe it differently."
+
+- question: "A critic argues that pragmatic encroachment 'collapses knowledge into rational action' since both scale with stakes. What does this objection mean, and how might a pragmatic encroachment theorist respond?"
+  type: short-answer
+  answer: "The objection: if knowledge requires higher justification when stakes are higher, and rational action also requires higher justification when stakes are higher, then 'S knows that P' reduces to 'S is justified enough to act on P' — making knowledge redundant. The pragmatic encroachment theorist responds that knowledge is still a distinct mental state with determinate conditions even when stakes are low; the point is not that knowledge means 'sufficient for action' but that the conditions for the epistemic relation include practical factors. Knowledge and rational action scale together but remain conceptually distinct."
+  explanation: "The deeper issue is whether pragmatic encroachment preserves a meaningful distinction between believing reasonably and knowing. The theorist must argue that knowledge is a thicker epistemic state than mere rational belief — one that practical stakes can undermine even when evidence and reasoning are held constant. Critics press that this makes knowledge hostage to bank balances and mortgage deadlines; defenders say this is a feature, not a bug: it explains why evidence-seeking is rational in high-stakes situations rather than epistemically supererogatory."
+```
+
 ## Explainer
 
 From your study of contextualism, you know that one influential response to skeptical puzzles is to say that the standards for "knowledge" vary with context — specifically, with the conversational or attributional context of whoever is making the knowledge claim. A casual conversation about whether the bank is open invokes lower standards than a philosophy seminar, so "S knows the bank is open" can be true in the first context and false in the second. **Pragmatic encroachment** makes a different and more radical claim: it is not the attributor's context that matters, but the subject's own practical situation. The stakes S faces — the costs of error for S acting on the belief — directly affect whether S knows, not merely whether the knowledge claim sounds true.

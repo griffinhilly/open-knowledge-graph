@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 The First Welfare Theorem states that every Walrasian equilibrium allocation is Pareto efficient (under assumptions of price-taking behavior, no externalities, and no public goods). This foundational result shows that competition automatically eliminates wasteful misallocations. The theorem does not imply fairness or equity—only that there are no unexploited gains from trade.
 
+## Questions
+
+```yaml
+- question: "A competitive market economy reaches Walrasian equilibrium. According to the First Welfare Theorem, which conclusion is guaranteed?"
+  type: multiple-choice
+  options:
+    - "The equilibrium allocation is fair and equitable — everyone receives according to their contribution"
+    - "The equilibrium allocation is Pareto efficient — no reallocation can make someone better off without making someone else worse off"
+    - "The equilibrium is unique — there is only one possible competitive equilibrium"
+    - "Total social welfare is maximized — the sum of all individuals' utilities is as large as possible"
+  answer: 1
+  explanation: "The First Welfare Theorem guarantees only Pareto efficiency — the absence of unexploited gains from trade. It says nothing about fairness (option A), uniqueness (option C), or welfare-sum maximization (option D). Pareto efficiency is a weak condition: many allocations are Pareto efficient, including some that are highly unequal. The theorem rules out *waste*, not inequity. Welfare-sum maximization would require additional assumptions about interpersonal utility comparisons."
+
+- question: "An economy has externalities (factories polluting a river used by downstream fishers). The First Welfare Theorem implies the competitive equilibrium is still Pareto efficient, since prices adjust to reflect all costs."
+  type: multiple-choice
+  options:
+    - "True — prices in competitive markets always adjust until all costs, including external ones, are reflected"
+    - "False — externalities violate the no-externalities assumption of the theorem, so the equilibrium is generally not Pareto efficient"
+    - "True — the theorem holds as long as property rights are well-defined, regardless of who bears the pollution costs"
+    - "False — externalities only matter for public goods, not private pollution problems"
+  answer: 1
+  explanation: "Externalities are precisely one of the assumptions whose violation breaks the First Welfare Theorem. When my production imposes costs on others (pollution) that are not reflected in market prices, the competitive equilibrium generally fails to be Pareto efficient — the factory produces too much, the fishers receive no compensation, and a reallocation (reduce production, compensate fishers) could make everyone better off. This is the formal justification for environmental regulation: the invisible hand fails when prices omit external costs."
+
+- question: "An allocation where one person owns all resources and everyone else has nothing can be Pareto efficient."
+  type: true-false
+  answer: true
+  explanation: "This is the most important and surprising implication of Pareto efficiency: it has nothing to do with fairness. If giving resources to others would require taking from the person who owns everything, that's a Pareto improvement — wait, no: taking from them makes *them* worse off, so it's not a Pareto improvement. The allocation where one person owns everything can satisfy 'you cannot make someone better off without making someone else worse off' trivially. Pareto efficiency is a necessary condition for a good outcome, but far from sufficient — it says nothing about equity or justice."
+
+- question: "The First Welfare Theorem implies that any government intervention in a competitive market makes the outcome worse, since it disrupts Pareto efficiency."
+  type: true-false
+  answer: false
+  explanation: "The theorem says that competitive equilibrium *is* Pareto efficient when its assumptions hold. It does not say intervention always destroys efficiency, nor does it say anything about what happens when assumptions fail. When externalities, public goods, market power, or missing markets are present, the unregulated competitive outcome is *not* Pareto efficient, and well-designed intervention can restore efficiency. The theorem's value is diagnostic: it identifies the precise conditions under which markets achieve efficiency — and by implication, when they don't."
+
+- question: "The proof of the First Welfare Theorem works by contradiction. Explain the key step: why must an alternative allocation that Pareto-improves on the equilibrium be 'too expensive' at equilibrium prices?"
+  type: short-answer
+  answer: "If the alternative allocation gives consumer A a bundle they prefer to their equilibrium bundle, then A must not have been able to afford it at equilibrium prices — otherwise they would have chosen it (since they were maximizing utility subject to their budget constraint). So the preferred bundle costs more than A's equilibrium income. Since no one is made worse off, no one's spending decreases. But the alternative allocation must cost strictly more in total than the equilibrium, while using the same total resources — an accounting impossibility that contradicts the resource balance. Hence the equilibrium must already be Pareto efficient."
+  explanation: "The proof's elegance lies in combining two conditions: consumer optimization (if you preferred something and could afford it, you'd have bought it) and budget balance (the economy's total income equals the value of its total resources at any price vector). Together, these make a Pareto-improving reallocation literally unaffordable for the economy as a whole, even though each consumer individually stays within budget."
+```
+
 ## Explainer
 
 You have already studied Walrasian equilibrium — the price vector at which all markets clear simultaneously, with every consumer maximizing utility on their budget constraint and every firm maximizing profit. And you know Pareto efficiency — an allocation where no one can be made better off without making someone else worse off. The **First Welfare Theorem** connects these two concepts with a striking claim: competitive markets, left to themselves, automatically produce efficient outcomes.

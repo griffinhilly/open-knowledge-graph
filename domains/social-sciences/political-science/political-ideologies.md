@@ -35,6 +35,45 @@ Read primary texts alongside secondary analysis: Locke for liberalism, Burke for
 - The left-right spectrum is a simplification; many ideologies (libertarianism, green politics, populism) resist easy placement.
 - 'Liberal' means something different in American political discourse (center-left) versus classical political theory (favoring individual liberty over state power).
 
+## Questions
+
+```yaml
+- question: "Two policy analysts examine identical data showing rising income inequality. One concludes that redistribution is morally required; the other concludes it would be unjust. Why does the same evidence lead to opposite conclusions?"
+  type: multiple-choice
+  options:
+    - "One analyst is misreading the data; better statistics would resolve the disagreement"
+    - "They start from different foundational premises — individual sovereignty versus collective solidarity — from which different policy conclusions follow logically, even from the same facts"
+    - "Political disagreements always reflect differences in material self-interest, not values"
+    - "The disagreement shows that political science is not a real discipline"
+  answer: 1
+  explanation: "This is the key insight of ideological analysis: ideological conflicts are primarily about foundational values, not facts. A liberal who starts from the premise of individual sovereignty reasons that redistribution violates property rights regardless of the inequality data. A socialist who starts from the premise that structural inequality makes formal freedom meaningless reasons that redistribution is required by the same data. Better statistics cannot resolve the disagreement because the dispute is upstream of evidence — it is about which values should govern policy, not about what the data shows."
+
+- question: "Classical liberalism (in the tradition of Locke) and socialism (in the tradition of Marx) most fundamentally differ over which question?"
+  type: multiple-choice
+  options:
+    - "Whether any form of government is legitimate"
+    - "Whether formal legal equality under markets produces substantive freedom for those without resources, or merely the appearance of it"
+    - "Whether individual rights should exist at all"
+    - "Whether tradition and custom should guide social policy"
+  answer: 1
+  explanation: "Liberalism begins from the moral primacy of the individual: rights exist prior to the state, and formal equality before the law is real freedom. Socialism's core critique is that this formal freedom is hollow for those without economic resources — you are 'free' to buy food but not if you cannot afford it. The debate is not over whether freedom matters (both traditions value it) but whether markets deliver it in substance. This is why the socialist tradition calls for redistribution and collective ownership: not to oppose freedom, but to make it real for everyone. Burke's conservatism, by contrast, centers on tradition and the limits of reason — a different foundational debate."
+
+- question: "The term 'liberal' in classical political theory (e.g., Locke's tradition) refers to support for individual rights and limited government, while in contemporary American political usage it typically refers to center-left positions that may include expanded government programs."
+  type: true-false
+  answer: true
+  explanation: "This terminological divergence is a genuine source of confusion. Classical liberalism emphasizes limiting state power to protect individual freedom — it is the philosophical tradition behind free markets, civil liberties, and constitutional constraints. In 20th century American usage, 'liberal' shifted to describe support for progressive social policy and government intervention in the economy — closer to what European political vocabulary calls 'social democracy.' When reading political theory, context determines meaning: a text calling someone a 'liberal' in the 19th century describes a defender of individual liberty against state power, not a modern progressive."
+
+- question: "Political ideologies are essentially just lists of policy preferences — collections of positions on specific issues that happen to be held by the same group of people."
+  type: true-false
+  answer: false
+  explanation: "This misses the defining feature of ideologies as systems. An ideology begins from foundational premises (about human nature, the purpose of the state, the nature of rights, or the structure of society) and derives policy recommendations from those premises through a kind of logic. Someone who understands the premises can predict what the ideology recommends on new issues — it is generative, not just a catalogue. This is why Locke's premises lead coherently to limited government, free markets, and civil liberties, and why Burke's premises lead coherently to incrementalism and respect for tradition. Policy positions follow from deeper commitments."
+
+- question: "Why do the authors argue that ideological conflicts are rarely resolved by presenting more evidence or better data? What does this imply about how to engage productively with ideological disagreements?"
+  type: short-answer
+  answer: "Because ideological conflicts are primarily about foundational values — premises about human nature, rights, equality, and the purpose of the state — from which policy conclusions follow logically. Evidence bears on facts, but the foundational premises are not empirical claims susceptible to data. A liberal and a socialist can agree on every fact about income inequality and still disagree on policy because they start from different value premises. Productive engagement therefore requires identifying and engaging those foundational premises directly, not just arguing about data. It also requires recognizing that opponents are often reasoning coherently from different starting points, not simply misreading facts."
+  explanation: "This question targets the common assumption that political disagreements are disputes about facts that more information can resolve. While some political disagreements are indeed factual, core ideological conflicts are not — they reflect different answers to questions like 'What is the proper relationship between individual and state?' or 'Is formal legal equality sufficient or is substantive economic equality required?' These are normative questions, and treating them as if they were factual disputes leads to frustration and miscommunication. Understanding this enables more productive dialogue: you can ask 'What would have to be true for you to update your position?' and whether the answer is empirical or value-based."
+```
+
 ## Explainer
 
 From your study of political science and social norms, you've learned that political behavior is shaped not just by material interests but by beliefs about how society should be organized and what the state's role should be. **Political ideologies** are the systematized, internally coherent versions of those beliefs—they connect philosophical premises to policy prescriptions and give citizens and leaders a framework for evaluating what government should do. Understanding them as *systems* rather than lists of positions is the key move: each ideology begins from foundational premises, and the policies it recommends follow from those premises by a kind of logic.

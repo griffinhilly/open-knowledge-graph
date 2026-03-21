@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Exoplanet atmospheres exhibit distinct circulation patterns driven by stellar heating, Coriolis forces, and rotation rates. Tidally locked planets show extreme day-night temperature contrasts driving supersonic winds from dayside to nightside. Super-Earths and mini-Neptunes may host high-altitude winds and thick cloud decks. Atmospheric dynamics are inferred from spectroscopy and validated by climate models.
 
+## Questions
+
+```yaml
+- question: "A tidally locked hot Jupiter orbits very close to its star. Astronomers measure the planet's infrared brightness as it orbits — a 'phase curve.' They find the hottest region of the atmosphere is shifted slightly to the east of the substellar point (the point directly facing the star). What best explains this offset?"
+  type: multiple-choice
+  options:
+    - "Stellar tidal forces pull heat eastward along the orbit"
+    - "An equatorial superrotating jet advects heat downwind of the substellar point"
+    - "The nightside hemisphere absorbs more starlight due to the planet's reflectivity"
+    - "The substellar point cools faster because it faces the star directly, radiating more efficiently"
+  answer: 1
+  explanation: "The equatorial superrotating jet — an eastward wind band driven by Coriolis deflection of day-to-night pressure-gradient winds — advects the thermal maximum downwind. The substellar point is still the hottest in terms of incoming stellar flux, but the atmospheric dynamics redistribute heat eastward. This hot-spot offset is a direct observational signature of atmospheric dynamics and has been measured in multiple hot Jupiter phase curves."
+
+- question: "A tidally locked rocky exoplanet has a very thin atmosphere. Compared to a similar planet with a thick atmosphere, what does the thin atmosphere predict about day-night temperature contrast?"
+  type: multiple-choice
+  options:
+    - "Smaller contrast — thin atmospheres radiate heat more efficiently to space"
+    - "Smaller contrast — less mass means faster Coriolis redistribution"
+    - "Larger contrast — the thin atmosphere cannot efficiently transport heat from day to night"
+    - "The same contrast — day-night temperature difference depends only on stellar flux"
+  answer: 2
+  explanation: "Atmospheric heat redistribution depends on the mass and thermal capacity of the atmosphere. A thin atmosphere carries very little energy per unit volume, so even fast winds cannot move much heat from the hot dayside to the cold nightside. In the extreme limit, a very thin atmosphere may partly condense on the nightside. A thick atmosphere circulates far more energy, moderating the temperature contrast. This threshold between 'too thin to redistribute' and 'thick enough' is critical for habitability assessments."
+
+- question: "On a tidally locked hot Jupiter, the hottest atmospheric region is centered directly on the substellar point."
+  type: true-false
+  answer: false
+  explanation: "This is the key observational finding from hot Jupiter phase curves: the thermal maximum is shifted eastward of the substellar point, not centered on it. Coriolis forces deflect the massive day-to-night wind circulation into a superrotating equatorial jet that advects the hot region downwind. Direct measurements of the phase curve flux asymmetry confirm this eastward offset for multiple hot Jupiters."
+
+- question: "Phase curve measurements of exoplanets can provide evidence for or against the existence of equatorial superrotating jets."
+  type: true-false
+  answer: true
+  explanation: "Phase curves map how the integrated thermal emission from the planet changes as different hemispheres come into view during the orbit. If the thermal hotspot is shifted east of the substellar point, the planet's brightness peaks before secondary eclipse (when the dayside faces us), providing direct evidence for atmospheric heat redistribution by a superrotating jet. This makes phase curves one of the primary observational windows into exoplanet atmospheric dynamics."
+
+- question: "Why is atmospheric thickness a critical parameter for determining whether a tidally locked rocky planet could maintain habitable surface conditions?"
+  type: short-answer
+  answer: "A thin atmosphere transports very little heat from the hot dayside to the cold nightside, leading to extreme temperature contrasts — the dayside may be scorching while the nightside freezes out. A thick atmosphere can efficiently circulate heat via winds and convection, moderating the temperature contrast across the planet. The threshold between these regimes determines whether liquid water could exist on the surface and where."
+  explanation: "The key insight is that habitability for a tidally locked planet is not simply about receiving the right amount of stellar flux — it is about whether the atmosphere can redistribute that heat. A planet in the 'habitable zone' with a thin atmosphere might still be uninhabitable because of extreme day-night contrasts. General circulation models explore this threshold by varying atmospheric mass and composition, making thickness one of the most important parameters in tidally locked planet habitability studies."
+```
+
 ## Explainer
 
 From your study of atmospheric circulation on solar system planets, you know that the basic ingredients of atmospheric dynamics are differential heating, planetary rotation, and atmospheric composition. On exoplanets, these same ingredients combine in configurations far more extreme than anything found in our solar system, producing circulation regimes that challenge and extend our understanding of atmospheric physics. Your background in exoplanet atmospheric spectroscopy gives you the observational toolkit; now consider what those observations reveal about how air moves on alien worlds.

@@ -34,6 +34,45 @@ Calculate your current debt-to-income ratio. Model scenarios where income drops 
 ## Common Misconceptions
 Just because a lender approves you for debt doesn't mean you can comfortably service it—lenders focus on default risk, not your financial well-being.
 
+## Questions
+
+```yaml
+- question: "Two people both earn $5,000/month and carry $1,500/month in debt payments — a 30% DTI. Person A has a stable salaried job; Person B is a freelancer with highly variable monthly income. Which person has more debt service capacity?"
+  type: multiple-choice
+  options:
+    - "They have equal capacity — DTI is determined by income and debt, not job type"
+    - "Person A has more capacity — income stability means they need a smaller buffer, so 30% DTI is safer for them"
+    - "Person B has more capacity — freelancers are accustomed to managing variable income"
+    - "Neither has sufficient capacity — 30% DTI is already above the recommended 28% front-end ratio"
+  answer: 1
+  explanation: "DTI ratios must be interpreted in light of income stability. A salaried employee with guaranteed monthly income can safely sustain a higher DTI because their cash flows are predictable. A freelancer with variable income faces months where earnings may drop 40–50%, making the same DTI ratio dangerous. The appropriate DTI ceiling is lower when income is uncertain, because you need a wider buffer to absorb bad months without defaulting."
+
+- question: "A lender approves you for a mortgage that brings your total debt-to-income ratio to 43%. What should you conclude?"
+  type: multiple-choice
+  options:
+    - "43% DTI is the lender's recommended comfort zone for homeowners"
+    - "You have reached the upper boundary of lender approval, but this is a ceiling, not a target — your actual comfort zone may be much lower"
+    - "The lender has determined you can afford this mortgage without financial stress"
+    - "You are well within safe limits because most financial planners recommend staying below 50%"
+  answer: 1
+  explanation: "Lenders approve based on default risk — the probability that you stop paying. A 43% DTI approval means the bank judged you unlikely to default, not that you will thrive financially. Nearly half your pre-tax income being committed to debt leaves little room for savings, retirement contributions, or emergencies. Financial planners recommend keeping total debt below 35–40% of gross income; 28% for housing alone. The lender's ceiling is not a target."
+
+- question: "Being approved for a loan by a lender means you can comfortably service that debt."
+  type: true-false
+  answer: false
+  explanation: "Lenders optimize for their own default risk, not your financial well-being. Approval tells you the bank is willing to extend credit — it says nothing about whether you can save, invest, or weather an unexpected expense while servicing the loan. A borrower at 43% DTI has been approved but may be unable to build an emergency fund or contribute to retirement. The right question before taking on debt is not 'will they approve me?' but 'can I still save and absorb emergencies?'"
+
+- question: "A person with variable freelance income should target a lower debt-to-income ratio than someone with equivalent but stable salaried income."
+  type: true-false
+  answer: true
+  explanation: "True. Debt service capacity is not just about income level — it depends critically on income stability. A lower DTI creates a larger monthly buffer, which is essential when income may drop in any given month. Stress-testing your situation (modeling a 20% income drop or a 2% interest rate rise on variable-rate debt) reveals how much headroom you actually have. Stable income earners can tolerate higher DTI because their cash flows are predictable; variable earners cannot."
+
+- question: "Why does a lender's maximum approval DTI differ from your personal debt service capacity?"
+  type: short-answer
+  answer: "A lender approves based on the probability that you will keep making minimum payments — default risk. Your personal debt service capacity is broader: it includes whether you can meet obligations while also saving for emergencies, investing for retirement, and absorbing unexpected expenses. A lender doesn't care if you can never save; you should. The approval ceiling is the maximum the bank will allow; your true capacity is the amount you can service while maintaining financial resilience."
+  explanation: "This distinction is the central insight of the topic. Conflating lender approval with affordability leads to over-leverage — borrowers take on more debt than they can healthily sustain because the bank said yes. The bank's incentive is to collect interest payments; your incentive is long-term financial stability. These can point in very different directions at the margin."
+```
+
 ## Explainer
 
 You already know from debt classification that different debts carry different interest rates and repayment structures, and from interest mechanics that those rates compound into a total cost of borrowing over time. Debt service capacity analysis asks a different question: not what does this debt cost in total, but how much of my monthly income does it consume right now — and how much headroom do I have if things go wrong?

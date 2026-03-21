@@ -29,6 +29,45 @@ Develop an argument for a claim you want to support. Gather 4-5 examples that su
 ## Common Misconceptions
 One striking example is not sufficient evidence; multiple examples increase persuasiveness. Another misconception is that examples from personal experience are automatically credible; the example's representativeness matters more than its vividness.
 
+## Questions
+
+```yaml
+- question: "A journalist writes: 'Charter schools improve student outcomes — I visited an exceptional charter school in Boston where students scored 20 points above the state average.' What is the primary logical weakness?"
+  type: multiple-choice
+  options:
+    - "The argument is deductive rather than inductive, making the conclusion too strong for the evidence"
+    - "The example may not be representative — one high-performing school likely doesn't reflect the full range of charter school outcomes, many of which are average or below"
+    - "Personal visits are never acceptable as evidence in public policy arguments"
+    - "The example is too concrete — abstract statistical data would be more persuasive than a single case"
+  answer: 1
+  explanation: "This is the representativeness problem. Visiting one high-performing school is likely selecting an exceptional case, not a typical one — a form of cherry-picking that the Explainer calls the 'rhetorical form of hasty generalization.' One exceptional example cannot support a claim about charter schools generally. A strong argument from example would need multiple representative instances, acknowledge that many charter schools perform at or below average, and explain why the examples reflect the broader population."
+
+- question: "A writer has four personal anecdotes supporting a general claim. Which addition would most strengthen the argument?"
+  type: multiple-choice
+  options:
+    - "Adding emotional detail to each anecdote to make them more vivid and memorable"
+    - "Noting that the writer experienced these events firsthand, establishing personal authority"
+    - "Explicitly acknowledging counterexamples and explaining why they don't undermine the general pattern"
+    - "Adding a dictionary definition to anchor the claim in authoritative language"
+  answer: 2
+  explanation: "Acknowledging counterexamples separates a strong argument from example from cherry-picking. When a writer engages with cases that don't fit the pattern and explains why they don't defeat the general claim, it demonstrates intellectual honesty and shows the reader the full picture was considered. This actually strengthens credibility. Vividness (option A) improves impact but not logical strength. Personal authority (option B) doesn't substitute for representativeness — the topic explicitly identifies this as a common misconception."
+
+- question: "A single, highly vivid personal example can be sufficient evidence for a general claim, especially if the experience was firsthand and emotionally compelling."
+  type: true-false
+  answer: false
+  explanation: "Vividness and firsthand experience do not increase the logical sufficiency of a single example. One case — no matter how compelling — only establishes that this case exists, not that the pattern generalizes. The topic explicitly identifies this as a misconception: representativeness matters more than vividness. Sufficiency requires multiple examples, and representativeness requires that examples reflect the typical range of cases, not just memorable or convenient ones."
+
+- question: "A strong argument from example should avoid mentioning counterexamples, because acknowledging exceptions weakens the argument's persuasive force."
+  type: true-false
+  answer: false
+  explanation: "Acknowledging counterexamples strengthens an argument from example. Pretending exceptions don't exist makes an argument look cherry-picked and erodes audience trust. A writer who addresses contrary cases — explaining why they don't undermine the general pattern — demonstrates that the argument is honest and robust. The topic is explicit: 'a strong argument from example does not pretend counterexamples do not exist — it explains why they do not undermine the general pattern.'"
+
+- question: "What is the difference between an example being 'sufficient' and being 'representative,' and why do both properties matter independently?"
+  type: short-answer
+  answer: "Sufficiency is about quantity — enough examples that the pattern looks systematic rather than coincidental. One example raises the possibility of a pattern; three or four examples make it more credible; a larger consistent set begins to feel like genuine evidence. Representativeness is about quality — the examples genuinely reflect the broader population of cases the claim is about, not just exceptional or selectively chosen instances. An argument can fail on either dimension independently: many examples that are all cherry-picked (sufficient but not representative), or a single genuinely typical case (representative but not sufficient). Both are required for a strong inductive argument."
+  explanation: "These two properties correspond to two distinct failure modes: hasty generalization (too few examples) and cherry-picking (biased selection). Understanding them separately gives a clear diagnostic framework: when evaluating any argument from example, ask both 'How many?' and 'Of what kind?'"
+```
+
 ## Explainer
 
 From inductive and deductive reasoning, you know that **inductive** arguments move from specific instances to general conclusions — they accumulate evidence rather than deriving conclusions from premises with logical necessity. From evidence and support, you know that claims require backing that is relevant, sufficient, and representative. From logical fallacies, you are familiar with **hasty generalization** — drawing a broad conclusion from too few or unrepresentative cases. Argument from example is inductive reasoning applied rhetorically: you present specific instances and invite the audience to generalize from them to a broader claim. Done well, it is one of the most persuasive forms of evidence; done poorly, it is a textbook hasty generalization.

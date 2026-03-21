@@ -26,6 +26,45 @@ A triad can be voiced (arranged) in different ways: in root position with the ro
 ## How It's Best Learned
 Arrange a single triad in all possible voicings on a keyboard or staff. Play different spacings to hear the tonal differences. Practice connecting voiced chords smoothly by minimizing voice movement.
 
+## Questions
+
+```yaml
+- question: "A pianist plays the notes E–C–G from bottom to top, with E as the lowest note. What is the chord position?"
+  type: multiple-choice
+  options:
+    - "Root position, because C (the root of C major) is present in the chord."
+    - "First inversion, because the third (E) is in the bass."
+    - "Second inversion, because G is the highest note."
+    - "Open voicing, because the notes span more than an octave."
+  answer: 1
+  explanation: "Chord position is determined entirely by which chord member is in the *bass* — not by what's on top. The bass note here is E, which is the third of C major, so this is first inversion (I⁶). Option A confuses the presence of the root with root position. Option C confuses the top note with the determining factor. Option D confuses spacing (close vs. open) with position — those are independent dimensions."
+
+- question: "A student wants to harmonize a bass line that moves C–B–C (stepwise down and back) using only C major triads. Which inversions enable this bass movement?"
+  type: multiple-choice
+  options:
+    - "Root position (C in bass) for all three chords — it produces the most stable sound."
+    - "Root position for the first chord, first inversion (B in bass) for the middle chord — but B is not in C major, so this is impossible."
+    - "Root position for the first and third chords, and first inversion for the middle chord — B is the third of G major, not C major, so a different chord is needed."
+    - "Root position for the outer chords and second inversion (G in bass) for the middle — but second inversion puts G in the bass, not B."
+  answer: 2
+  explanation: "B is not in a C major triad (C–E–G), so a C major chord cannot produce a B in the bass through any inversion. This question exposes a common misunderstanding: inversions only rearrange the notes *within* the chord. To get B in the bass, you would need a chord that contains B (such as G major or B diminished). The point is that choosing bass notes constrains which chords are available — inversion expands options but only among the notes already in the chord."
+
+- question: "Second inversion triads (fifth in the bass) are considered the most unstable chord position and typically appear in specific contexts, such as before a dominant chord."
+  type: true-false
+  answer: true
+  explanation: "Second inversion (I⁶₄) places the fifth in the bass, which creates a dissonant sound relative to the expected root. This instability is not a flaw — it is a feature. The cadential 6/4 (tonic chord in second inversion before the dominant) is one of the most common and powerful chord progressions in tonal music, precisely because the instability creates strong expectation of resolution. Second inversion chords in other contexts are used sparingly and carefully."
+
+- question: "Close voicing and open voicing refer to whether a triad is in root position or an inversion."
+  type: true-false
+  answer: false
+  explanation: "Voicing and position are two independent dimensions. *Position* (root, first inversion, second inversion) is determined by which chord member is in the bass. *Spacing* (close vs. open) describes how the upper voices are distributed: in close voicing all notes fit within an octave; in open voicing the upper notes are spread more than an octave apart. A chord can be in root position with either close or open spacing, and the same is true for either inversion. These properties vary independently."
+
+- question: "Why does chord inversion change the harmonic stability and function of a chord, even though all inversions contain the same three pitch classes?"
+  type: short-answer
+  answer: "The bass note has special perceptual weight — it defines what the chord 'sounds like from the bottom.' When the root is in the bass, the harmony feels grounded and stable because the lowest pitch matches the fundamental of the chord. When a third or fifth is in the bass instead, it creates a different tonal quality: first inversion feels lighter and less conclusive; second inversion sounds unstable because the bass note is not the root and creates a feeling of incompleteness that pushes toward resolution."
+  explanation: "This is why composers choose inversions deliberately for expressive and functional purposes. A first-inversion chord enables stepwise bass motion, which creates smoother, more flowing bass lines. A second-inversion chord creates tension that demands resolution to the dominant. The pitch-class content of the chord (C, E, G) is the same in all positions, but the *bass* carries the harmonic weight, and changing it changes the chord's functional weight in the progression."
+```
+
 ## Explainer
 
 You know how to build a triad from scale degrees — stack a third, then another third on top, and you get root, third, fifth. But that construction gives you only the raw pitch content of the chord. **Voicing** is everything about how those pitches are actually arranged in time and register: which pitch is on the bottom, how far apart the notes are, and whether any pitch appears more than once. The same three pitches can be voiced in dozens of different ways, each with a distinct sound and function. Learning to control voicing is the bridge from abstract chord construction to actual music-making.

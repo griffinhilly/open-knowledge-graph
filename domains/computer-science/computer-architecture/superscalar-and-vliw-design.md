@@ -29,6 +29,45 @@ Compare superscalar (dynamic, hardware scheduling) with VLIW (static, compile-ti
 ## Common Misconceptions
 Superscalar and VLIW are not the same—superscalar schedules dynamically; VLIW schedules statically. Both require careful hazard management.
 
+## Questions
+
+```yaml
+- question: "A 4-wide VLIW processor issues instructions with 4 operation slots per cycle. During one instruction, two operations must wait because they depend on results from the previous instruction. What happens?"
+  type: multiple-choice
+  options:
+    - "The hardware detects the dependencies and stalls only those two slots, executing the other two"
+    - "The hardware reorders the waiting operations to use the empty slots in the next instruction"
+    - "Both dependent slots execute as NOPs (no-operations), wasting 2 of 4 possible operation slots"
+    - "The VLIW instruction is automatically split into two narrower instructions"
+  answer: 2
+  explanation: "VLIW processors trust the compiler completely — the hardware has no dynamic scheduling logic. If the compiler packed dependent operations into the same instruction word, those slots execute as NOPs. The processor does not detect hazards or reorder at runtime; it blindly executes whatever the instruction word says. This is why VLIW demands a very sophisticated compiler: any ILP the compiler fails to find results directly in wasted throughput."
+
+- question: "Why did Intel's Itanium (IA-64) fail to achieve the performance gains Intel projected despite its advanced VLIW-inspired (EPIC) design?"
+  type: multiple-choice
+  options:
+    - "Its execution units ran at lower clock speeds than competing x86 designs"
+    - "It used dynamic scheduling, which created too much hardware overhead"
+    - "General-purpose workloads have irregular, unpredictable ILP that static compilers cannot reliably exploit"
+    - "It was incompatible with existing operating systems and required a full software rewrite"
+  answer: 2
+  explanation: "Itanium's fundamental problem was that general-purpose workloads — server applications, databases, operating system code — have highly variable and often limited instruction-level parallelism. Static compilers, which must schedule at compile time without knowing runtime behavior, cannot reliably fill the wide instruction word. When slots go unused as NOPs, Itanium's hardware advantages evaporated. Superscalar designs handle this by discovering parallelism dynamically, adapting to actual runtime conditions."
+
+- question: "A superscalar processor can execute instructions out of program order if its hardware determines that they have no data dependencies between them."
+  type: true-false
+  answer: true
+  explanation: "Dynamic scheduling in superscalar processors — implemented via reservation stations, reorder buffers, and register renaming — allows the hardware to identify independent instructions in a window of upcoming work and dispatch them to available execution units out of order. Results are committed in order to preserve program correctness, but execution itself can proceed as soon as operands are ready. This is a key advantage over in-order designs and VLIW."
+
+- question: "VLIW processors outperform superscalar designs for general-purpose computing because their simpler hardware allows higher clock frequencies."
+  type: true-false
+  answer: false
+  explanation: "While VLIW hardware is indeed simpler (no reservation stations, no out-of-order logic), this advantage does not translate to better general-purpose performance. The bottleneck is ILP availability: general-purpose workloads contain irregular, branch-heavy code where static compilers cannot find enough independent operations to fill VLIW instruction slots. Superscalar processors dominate general-purpose computing precisely because dynamic hardware scheduling handles unpredictable workloads better. VLIW succeeds in DSP and specialized domains where workloads are predictable and ILP is abundant."
+
+- question: "Explain the fundamental tradeoff between superscalar and VLIW processors. What does each approach require, and why does that make each better suited to different domains?"
+  type: short-answer
+  answer: "Superscalar processors use complex hardware to find and exploit instruction-level parallelism at runtime — they work for any code but require expensive circuitry (reorder buffers, reservation stations, register renaming). VLIW processors use a simple, cheap pipeline and push all scheduling responsibility to the compiler, which must find parallelism at compile time and pack it into wide instruction words. VLIW excels in DSP and embedded domains where workloads are regular and predictable, allowing compilers to schedule effectively. Superscalar dominates general-purpose computing where workloads are irregular and compilers can't predict runtime behavior."
+  explanation: "The core tension is: who does the scheduling work, hardware or compiler? Hardware scheduling (superscalar) is expensive but adaptive. Compiler scheduling (VLIW) is cheap but brittle — it falls apart when workloads are irregular. This explains Itanium's failure and why modern high-performance chips (x86, ARM) are superscalar while specialized signal processors (TI DSPs, GPU shader cores) often use VLIW-style ideas."
+```
+
 ## Explainer
 
 From your understanding of instruction pipelining, you know that a basic pipeline overlaps the execution of multiple instructions — while one is being decoded, another is being fetched, and a third is executing. But even a perfect pipeline issues at most one instruction per clock cycle. **Superscalar** and **VLIW** architectures break this barrier by issuing multiple instructions per cycle, exploiting **instruction-level parallelism** (ILP) — the observation that many instructions in a program are independent and could execute simultaneously.

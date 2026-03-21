@@ -35,6 +35,45 @@ Memorize the centroidal mass moments of inertia for standard shapes (slender rod
 - Applying the parallel-axis theorem in reverse (subtracting md^2) without verifying that the starting axis passes through the centroid — the theorem only transfers FROM the centroid.
 - Forgetting that hollow or composite bodies require careful accounting of subtracted volumes with their own parallel-axis transfers.
 
+## Questions
+
+```yaml
+- question: "An engineer calculates the area moment of inertia I_A of a steel beam's cross-section for a bending stress analysis. A colleague then uses the same numerical value to compute angular acceleration via ΣM = Iα. What is wrong?"
+  type: multiple-choice
+  options:
+    - "Nothing — both analyses use the same geometric property of the beam"
+    - "Area moment of inertia (units: m⁴, governs bending stiffness) and mass moment of inertia (units: kg·m², governs rotational dynamics) are different physical quantities; plugging one into the other's formula gives incorrect results"
+    - "The parallel-axis theorem must be applied to convert the area moment to a mass moment before use"
+    - "ΣM = Iα only applies to circular rotating bodies, not to beams"
+  answer: 1
+  explanation: "This is the most dangerous confusion in dynamics, explicitly identified as the primary misconception for this topic. Area moment of inertia (second moment of area) has units of m⁴ and appears in beam bending formulas (σ = Mc/I, δ = FL³/3EI). Mass moment of inertia has units of kg·m² and appears in rotational dynamics (ΣM = Iα). Despite sharing a name and similar definitions (both involve r² integrated over something), they are fundamentally different quantities. The numerical values are not interchangeable even if an engineer wanted to apply them."
+
+- question: "A hollow cylinder and a solid cylinder have identical total mass and identical outer radius. Which has a larger mass moment of inertia about its central axis?"
+  type: multiple-choice
+  options:
+    - "The solid cylinder — it has more material everywhere, including at large radii"
+    - "The hollow cylinder — its mass is concentrated at a larger average radius, and the r² weighting means farther mass contributes much more"
+    - "They are equal — same mass and same outer radius means the same I"
+    - "The solid cylinder — removing material from the center (to make it hollow) reduces resistance to rotation"
+  answer: 1
+  explanation: "The definition I = ∫r² dm weights mass by the square of its distance from the axis. A solid cylinder has mass near the center (small r, small contribution) and at the edges. A hollow cylinder concentrates all its mass at large r, where the r² multiplier is greatest. For a solid disk, I = mR²/2; for a thin hollow cylinder (all mass at radius R), I = mR². Same mass, same outer radius, but I differs by a factor of 2. This quadratic weighting is why hollow shafts and spoked wheels can achieve high rotational inertia with less material."
+
+- question: "The parallel-axis theorem I = I_G + md² allows you to transfer a moment of inertia from a centroidal axis to any parallel axis at distance d, but you must start with the centroidal value — the theorem only works in this direction."
+  type: true-false
+  answer: true
+  explanation: "The parallel-axis theorem adds md² to shift away from the centroid. To find I_G from a known I at some other axis, you reverse it: I_G = I − md². But this reversal requires that you know I at a non-centroidal axis. The misconception is applying the theorem without verifying the starting axis passes through the centroid — if you mistakenly add md² to a non-centroidal I, you get a value that corresponds to no physically meaningful axis."
+
+- question: "A steel I-beam and an aluminum I-beam with identical cross-sectional geometry have the same mass moment of inertia because their shapes are identical."
+  type: true-false
+  answer: false
+  explanation: "Mass moment of inertia (I = ∫r² dm) depends on both geometry and mass distribution. Two beams with identical geometry but different materials have different densities, so their mass elements dm differ at every point. Steel is approximately 2.9 times denser than aluminum, so the steel beam has a much larger mass moment of inertia for the same shape. Area moment of inertia (∫r² dA) would be identical for both beams with the same geometry — it depends only on shape, not material."
+
+- question: "Why does the location of mass relative to the rotation axis matter quadratically — not linearly — in determining mass moment of inertia?"
+  type: short-answer
+  answer: "The definition I = ∫r² dm weights each mass element by the square of its distance r from the axis. This quadratic dependence comes from the physics of rotation: the kinetic energy of a rotating body is (1/2)Iω², and each mass element contributes (1/2)(dm)v² = (1/2)(dm)(rω)² = (1/2)r²(dm)ω². The r² factor appears because velocity in circular motion is v = rω — farther mass moves faster for the same angular velocity. Doubling the radius of a mass element quadruples its kinetic energy contribution and therefore quadruples its contribution to I. This is why geometry dominates: redistributing mass farther from the axis dramatically increases I even without changing total mass."
+  explanation: "The practical consequence is enormous in engineering design. A flywheel stores rotational kinetic energy proportional to I — concentrating mass at the rim (large r) maximizes energy storage per unit mass. Conversely, reducing r² contributions by moving mass toward the axis reduces I and makes a body easier to accelerate rotationally. This principle governs design of everything from figure skater spin poses to automotive crankshafts."
+```
+
 ## Explainer
 
 You already know the **area moment of inertia** I = ∫r² dA from statics — it measures how a cross-section's area is distributed around an axis and governs beam bending stiffness. The **mass moment of inertia** follows exactly the same mathematical logic, but replaces area elements dA with mass elements dm: I = ∫r² dm. The conceptual role also parallels: just as area moment resists bending, mass moment resists angular acceleration. In the rotational analog of Newton's second law, ΣM = Iα, the mass moment of inertia I plays precisely the role that mass m plays in ΣF = ma.

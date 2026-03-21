@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 For a curve C parametrized by r(t), the line integral of scalar f is ∫_C f ds = ∫_a^b f(r(t)) |r'(t)| dt. For vector field F, ∫_C F · dr = ∫_a^b F(r(t)) · r'(t) dt represents work done by F along C.
 
+## Questions
+
+```yaml
+- question: "A particle traverses curve C from point A to point B. If the direction of traversal is reversed (B to A), which of the following is true?"
+  type: multiple-choice
+  options:
+    - "Both ∫_C f ds and ∫_C F·dr change sign"
+    - "Only ∫_C F·dr changes sign; ∫_C f ds is unaffected"
+    - "Only ∫_C f ds changes sign; ∫_C F·dr is unaffected"
+    - "Neither integral changes sign, because the same curve C is used"
+  answer: 1
+  explanation: "The scalar line integral ∫_C f ds uses the arc-length element ds = |r'(t)| dt, which is always positive — it measures distance regardless of direction. So reversing the path does not change the value. The vector line integral ∫_C F·dr uses dr = r'(t) dt, which carries direction: reversing the path negates r'(t), flipping the sign of the entire integral. This sign flip is physically meaningful — it says that work done against a force (going the wrong way) is negative work."
+
+- question: "If f(x, y, z) = 1 everywhere, what does the scalar line integral ∫_C f ds compute?"
+  type: multiple-choice
+  options:
+    - "The area of the surface bounded by C"
+    - "The arc length of the curve C"
+    - "The volume swept out as C moves through space"
+    - "Zero, because a constant function contributes no information"
+  answer: 1
+  explanation: "When f = 1, the integrand ∫_C 1 ds reduces to ∫_a^b |r'(t)| dt — the standard formula for arc length. This is a useful sanity check on the definition: the scalar line integral with f = 1 must recover arc length, and the |r'(t)| factor is precisely what ensures this. If you omit |r'(t)| you would get ∫_a^b dt = b − a, which is the length of the parameter interval, not the actual curve length."
+
+- question: "The scalar line integral ∫_C f ds gives the same value regardless of which parametrization is used to traverse curve C."
+  type: true-false
+  answer: true
+  explanation: "The |r'(t)| factor in ∫_a^b f(r(t)) |r'(t)| dt acts as a speed-correction term. If you parametrize the same curve twice as fast, r'(t) is twice as large and the parameter interval is half as long — the two effects cancel exactly. This is the whole point of weighting by |r'(t)|: it converts the parameter integral into a true geometric integral over arc length, independent of how fast you move along the curve."
+
+- question: "Because the vector line integral ∫_C F·dr contains a dot product, it measures the total magnitude of F accumulated along C."
+  type: true-false
+  answer: false
+  explanation: "The dot product F·dr picks out only the component of F *parallel to the curve's direction* at each point — the component perpendicular to the curve contributes nothing. The integral measures how much F 'helps or hinders' motion along C, i.e., work. A force perpendicular to motion does zero work even if it is very large. This is why ∫_C F·dr depends on the direction of traversal (direction of dr), not just the geometric curve."
+
+- question: "Why does the scalar line integral use |r'(t)| while the vector line integral uses r'(t) without the absolute value? What different things are each formula measuring?"
+  type: short-answer
+  answer: "The scalar line integral weights f by arc length: the |r'(t)| factor converts the parameter derivative into actual distance traveled, so the integral accumulates f as if you were walking along the curve measuring physical length. The vector line integral measures work: dr = r'(t) dt is the infinitesimal displacement vector, which has both magnitude (how far) and direction (which way). Taking F·dr extracts the component of F along the direction of motion. The absolute value is dropped because direction matters — moving against the field does negative work. The two integrals answer different questions: the scalar case asks 'how much of f is there along C?'; the vector case asks 'how much does F assist or resist motion along C?'"
+  explanation: "The key distinction is geometric vs. directional accumulation. Arc length is always positive and direction-independent; work depends on whether force and motion point the same way. The |r'(t)| vs r'(t) difference encodes this: |r'(t)| strips direction, r'(t) preserves it."
+```
+
 ## Explainer
 
 From your work with vector-valued functions and curves, you know that r(t) = (x(t), y(t), z(t)) parametrizes a path through space and that r'(t) is the tangent vector with magnitude |r'(t)| equal to the speed along the curve. A **line integral** generalizes ordinary integration to functions defined along a curve — instead of integrating f(x) over an interval on the x-axis, you integrate f over an arbitrary path in 2D or 3D space.

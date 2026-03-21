@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 The default-mode network (dmN)—comprising medial prefrontal cortex, posterior cingulate, and temporoparietal regions—activates during self-referential thinking and mentalizing about others. It deactivates during demanding external cognitive tasks. Functional connectivity within the dmN at rest predicts social ability and individual differences in self-knowledge and perspective-taking capacity.
 
+## Questions
+
+```yaml
+- question: "A neuroscientist observes that a set of brain regions consistently deactivates during a demanding math task and reactivates when the task ends. What is the most accurate interpretation?"
+  type: multiple-choice
+  options:
+    - "The regions support high-level reasoning and are inhibited by less demanding cognitive load"
+    - "The regions are part of the default-mode network and support internally directed cognition such as self-reflection and mentalizing"
+    - "The regions have no functional role during rest and should be treated as baseline measurement noise"
+    - "The regions support working memory and deactivate when memory load is reduced by task completion"
+  answer: 1
+  explanation: "The pattern of deactivation during demanding tasks and reactivation at rest is the defining signature of the DMN. The critical insight is that this is not noise — researchers initially dismissed it as baseline, then discovered participants were actively thinking about themselves, others, and future events during these periods. The DMN supports internally directed cognition, not idleness. Option C is the original misconception that the field had to overturn."
+
+- question: "Which of the following best explains why the default-mode network deactivates during cognitively demanding external tasks?"
+  type: multiple-choice
+  options:
+    - "Demanding tasks suppress social cognition as a protective mechanism to prevent distracting thoughts"
+    - "The DMN is anatomically disconnected from task-positive networks and cannot be active simultaneously"
+    - "Internally and externally directed processing modes compete for shared neural resources, so one suppresses the other"
+    - "The DMN regulates arousal, and cognitive effort reduces the arousal signal it monitors"
+  answer: 2
+  explanation: "The DMN and task-positive networks show an anti-correlated relationship — when one is active, the other tends to suppress. This reflects competition for shared neural resources, not an architectural disconnection or a suppression of social cognition per se. The implication is that the 'resting' brain is not idle but actively engaged in a different mode of processing, one that demanding external tasks interrupt."
+
+- question: "Resting-state DMN activity is merely background noise reflecting the brain's idling metabolic processes, with no meaningful relationship to cognitive abilities."
+  type: true-false
+  answer: false
+  explanation: "This was the initial interpretation and it turned out to be wrong. Resting-state functional connectivity within the DMN — how synchronously its regions fluctuate together at rest — predicts individual differences in social cognition: higher within-network connectivity is associated with better theory-of-mind performance and greater social-emotional sensitivity. Far from noise, resting DMN activity reflects the state of the social brain's default operating mode."
+
+- question: "Disrupted DMN connectivity is associated with multiple psychiatric conditions, including abnormal mPFC-PCC connectivity in depression and TPJ hypoconnectivity in autism spectrum disorder."
+  type: true-false
+  answer: true
+  explanation: "The DMN's roles in self-modeling and mentalizing make disruptions in its connectivity clinically meaningful. In depression, hyperconnectivity within the mPFC-PCC axis corresponds to excessive self-focused rumination. In ASD, reduced TPJ connectivity corresponds to mentalizing difficulties. In schizophrenia, disrupted DMN dynamics are linked to impaired self-monitoring. These patterns make the DMN one of the most informative neural markers of social-cognitive psychiatric differences."
+
+- question: "Why was the early interpretation of DMN activity as 'baseline noise' incorrect, and what does the DMN actually represent?"
+  type: short-answer
+  answer: "The 'baseline noise' interpretation was incorrect because the DMN is not idle during rest — it is actively engaged in internally directed cognition. When researchers examined what participants were actually thinking during DMN activation, they consistently reported thinking about themselves, other people, past events, and imagined futures. The DMN is the neural substrate for self-referential processing, mentalizing, autobiographical memory retrieval, and mental time travel — the distinctively human capacity to simulate social and personal scenarios. The deactivation during demanding tasks reflects resource competition, not suppression of noise."
+  explanation: "The key conceptual shift is from 'resting = nothing happening' to 'resting = a different kind of cognition is happening.' The DMN does the work of being a social, temporally extended self — continuously modeling others' minds, revisiting the past, and simulating futures. This is among the most computationally intensive and distinctively human cognitive work the brain does; it simply happens to require conditions of low external task demand."
+```
+
 ## Explainer
 
 You already know that mentalizing — attributing mental states to self and others — recruits a specific brain network. The **default-mode network (DMN)** is the broader cortical system in which much of that mentalizing activity is embedded, and understanding it requires first grasping a counterintuitive discovery: this network is maximally active not during demanding tasks but during rest. Early neuroimaging researchers noticed that a consistent set of regions — **medial prefrontal cortex (mPFC)**, **posterior cingulate cortex (PCC)**, **temporoparietal junction (TPJ)**, angular gyrus, and lateral temporal cortex — reliably *deactivated* whenever participants performed demanding cognitive tasks and *reactivated* when the task ended. The initial interpretation was that this was merely "baseline" activity with no content. That interpretation turned out to be wrong.

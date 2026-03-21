@@ -30,6 +30,45 @@ Start with a simple observational dataset and manually calculate propensity scor
 ## Common Misconceptions
 - Propensity scores eliminate all confounding (they only control measured confounders). - Using propensity scores requires 1:1 matching (matching is one option; weighting and stratification are alternatives). - Overlap/common support is not required (perfect overlap is ideal but not always necessary).
 
+## Questions
+
+```yaml
+- question: "A study uses propensity score matching to estimate the effect of a new medication on outcomes. After careful analysis, investigators achieve excellent covariate balance between matched treated and untreated patients. Which conclusion is warranted?"
+  type: multiple-choice
+  options:
+    - "The analysis has effectively controlled for all confounding, and the estimate can be interpreted causally"
+    - "Confounding due to the matched covariates has been reduced, but unmeasured confounders remain a threat to causal inference"
+    - "The analysis is equivalent to a randomized trial and requires no further sensitivity analysis"
+    - "Propensity score matching is superior to regression adjustment here because it requires no model for the outcome"
+  answer: 1
+  explanation: "Propensity scores balance measured covariates — 'excellent balance' confirms this worked. But unmeasured confounders are untouched; the identifying assumption (no unmeasured confounding / exchangeability) cannot be verified from balance checks alone. Option A is the most common over-claim. Option C is false: even a well-executed propensity score analysis is not equivalent to randomization, which also balances unmeasured confounders."
+
+- question: "Which statement correctly distinguishes propensity score matching from inverse probability weighting (IPW)?"
+  type: multiple-choice
+  options:
+    - "Matching and IPW make different causal assumptions; matching requires no unmeasured confounders while IPW does not"
+    - "Matching discards unmatched subjects and estimates the effect in the matched sample; IPW retains all subjects by up-weighting surprising treatment assignments"
+    - "Stratification is always preferred because it uses all subjects without altering their weights"
+    - "IPW is the only method that achieves true covariate balance; matching and stratification only approximate it"
+  answer: 1
+  explanation: "All three methods rest on the same identifying assumption — no unmeasured confounding. The difference is implementation: matching pairs subjects by propensity score and discards unmatched ones; IPW keeps all subjects but assigns higher weights to those whose treatment assignment was 'surprising' given their covariates, creating a pseudo-population where treatment is independent of measured confounders. None is universally preferred — the choice depends on data structure and the causal estimand of interest."
+
+- question: "Propensity score analysis eliminates the need for the 'no unmeasured confounding' assumption that is required in standard regression adjustment."
+  type: true-false
+  answer: false
+  explanation: "This is the most important misconception about propensity scores. Both propensity score methods and regression adjustment require the same identifying assumption: all confounders are measured and included in the model. Propensity score analysis offers advantages in transparency, covariate balance checking, and handling high-dimensional covariates — but it does not address unmeasured confounding. It is a different tool, not a stronger one in terms of causal identification."
+
+- question: "After propensity score matching, achieving near-zero standardized mean differences for all covariates is evidence that the propensity score model was correctly specified."
+  type: true-false
+  answer: false
+  explanation: "Balance is a property of the matched sample, not proof of correct model specification. A misspecified propensity score model can still produce good balance on observed covariates in practice. Balance should always be checked, but good balance cannot rule out model misspecification — and more importantly, it says nothing about whether unmeasured confounders are balanced between groups."
+
+- question: "Why can't propensity score analysis substitute for randomization, even when the analysis is perfectly executed?"
+  type: short-answer
+  answer: "Randomization ensures that both measured and unmeasured confounders are balanced between treatment groups, by design. Propensity score analysis can only balance measured confounders — variables that were recorded and included in the propensity score model. Any confounder absent from the data is untouched. Perfect execution means the measured confounders are well-balanced, but the identifying assumption (no unmeasured confounding) remains a substantive claim about the data-generating process that cannot be verified from the data."
+  explanation: "This asymmetry is fundamental to observational research. Randomization buys unconditional independence between treatment and potential outcomes. Propensity scores buy conditional independence given measured covariates — but only if those covariates capture all confounding. The method's value is in transparency and sometimes better finite-sample performance relative to outcome regression, not in loosening the causal assumptions."
+```
+
 ## Explainer
 
 From your study of confounding and multivariable regression, you know the core problem in observational research: people who receive an exposure are systematically different from those who do not, and those differences — not the exposure itself — may explain the outcome. In a randomized trial, random assignment ensures that exposed and unexposed groups are on average identical on every measured and unmeasured characteristic. Propensity score analysis is an attempt to approximate that balance in observational data — but only for measured confounders.

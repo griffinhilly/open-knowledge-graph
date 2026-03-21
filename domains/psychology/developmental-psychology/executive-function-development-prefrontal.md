@@ -29,6 +29,45 @@ Conduct or review executive function tasks such as the Stroop test, Wisconsin Ca
 ## Common Misconceptions
 Executive function fully develops by age 6-7 when inhibition emerges; individual differences in executive function are purely genetic. In reality, executive functions continue developing throughout childhood and adolescence, and both genetic and environmental factors shape their development trajectories.
 
+## Questions
+
+```yaml
+- question: "A 14-year-old consistently makes risky decisions when with friends but shows better judgment when alone. The developmental neuroscience perspective most directly explains this as:"
+  type: multiple-choice
+  options:
+    - "A character flaw reflecting poor parenting and lack of values"
+    - "Evidence that the teenager has a conduct disorder requiring clinical intervention"
+    - "A predictable consequence of still-maturing prefrontal inhibitory control, especially under the influence of social arousal"
+    - "Normal adult behavior — adults also make worse decisions in social settings"
+  answer: 2
+  explanation: "Inhibitory control and cognitive flexibility continue developing into early adulthood because the prefrontal cortex matures slowly. Peer presence heightens emotional and reward-related activation while prefrontal regulation is still developing, making impulsive behavior in social contexts a developmentally predictable pattern, not a character flaw. Labeling this as a disorder or a values problem misattributes a neurodevelopmental lag to a moral or clinical failure."
+
+- question: "Among the three core executive functions — inhibitory control, cognitive flexibility, and working memory — which has the most protracted developmental timeline?"
+  type: multiple-choice
+  options:
+    - "Inhibitory control, because it requires the most prefrontal connections"
+    - "Cognitive flexibility, because rule-switching depends on full cortical maturation"
+    - "Working memory, with capacity gains continuing into early adulthood"
+    - "All three fully mature simultaneously in early adolescence"
+  answer: 2
+  explanation: "Working memory shows the most protracted development, with measurable gains continuing into early adulthood. Inhibitory control typically emerges earliest (clear improvements in early childhood). Cognitive flexibility improves across middle childhood. The staggered timeline matters because it means different executive demands become realistic at different developmental stages."
+
+- question: "Inhibitory control — the ability to suppress a prepotent response — essentially fully matures by age 6-7 once children can demonstrate sustained attention in school settings."
+  type: true-false
+  answer: false
+  explanation: "While inhibitory control does show measurable improvements in early childhood (earlier than cognitive flexibility or working memory), it continues to develop substantially through adolescence and into early adulthood. The Common Misconception identified in this topic is exactly this: believing executive functions are complete by early childhood. A 10-year-old's better self-control compared to a toddler does not mean development is finished — significant PFC maturation still lies ahead."
+
+- question: "Chronic stress and poverty are associated with slower executive function development, suggesting that environmental factors shape the developmental trajectory alongside genetic ones."
+  type: true-false
+  answer: true
+  explanation: "Executive function development is shaped by both genetic and environmental factors. Chronic stress, adverse childhood experiences, and poverty are reliably associated with slower EF development — likely through effects on prefrontal maturation itself. Conversely, responsive caregiving and structured environments can accelerate development modestly. The key insight is that executive function is not a fixed biological endowment; it is a capacity that develops through the interaction of a maturing brain with a structuring environment."
+
+- question: "Why is demanding adult-level impulse control from a developing teenager neurodevelopmentally unrealistic, and what practical approach follows from this understanding?"
+  type: short-answer
+  answer: "The prefrontal cortex — which underlies inhibitory control, planning, and impulse suppression — is the last brain region to mature, with development continuing into the mid-20s. A teenager's impulsivity reflects a genuine biological lag, not a character deficiency. The practical implication is environmental scaffolding: providing structured routines, external reminders, clear and immediate consequences, and reduced exposure to high-stakes temptation situations. External structure can compensate for immature executive function while the underlying capacity catches up."
+  explanation: "The key insight is that behavior is constrained by the biological hardware available at each developmental stage. Treating adolescent impulsivity as willful misbehavior invites punitive responses that ignore causation. Scaffolding approaches — structure, reminders, immediate feedback — work precisely because they externalize the regulatory functions the prefrontal cortex cannot yet fully provide internally."
+```
+
 ## Explainer
 
 You already know from your study of adolescent prefrontal development that the prefrontal cortex is the brain's last region to mature structurally. Executive function development is the behavioral story of that protracted maturation — the observable changes in thinking, self-control, and flexibility that track with what is happening physically in the brain. Think of the prefrontal cortex as the brain's project manager: it sets goals, allocates attention, suppresses distracting impulses, and updates plans when conditions change. As this region builds out its connections, the project manager gets progressively better at the job.

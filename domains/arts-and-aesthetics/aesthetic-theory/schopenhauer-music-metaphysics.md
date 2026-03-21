@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Schopenhauer elevates music uniquely as not merely expressing the Will but as its direct, unmediated manifestation. While other arts represent Ideas (universal patterns), music expresses the Will itself—the inner essence of reality. Music bypasses representation entirely; it works directly on the will of the listener, which is why it can move us so profoundly. This theory makes music the highest art form and explains its power to touch the deepest human experience.
 
+## Questions
+
+```yaml
+- question: "According to Schopenhauer, how does music differ fundamentally from painting and poetry?"
+  type: multiple-choice
+  options:
+    - "Music is less abstract and more immediately sensuous than the visual arts"
+    - "While painting and poetry give access to Platonic Ideas through particular images and narratives, music bypasses Ideas entirely and directly expresses the Will itself"
+    - "Music is superior because it engages more senses simultaneously than other arts"
+    - "Music differs only in that it unfolds in time, while visual arts are static"
+  answer: 1
+  explanation: "The key asymmetry in Schopenhauer's aesthetics is ontological: other arts work through Platonic Ideas — they represent universal patterns by means of particular images, characters, and narratives. Music does not represent anything in the visible world; it is a 'copy of the Will itself,' presenting the inner dynamic of striving, tension, and resolution without any representational intermediary. Options C and D describe incidental features that miss the philosophical point entirely."
+
+- question: "A music critic writes that Beethoven's Fifth Symphony 'represents the struggle against fate and ultimate triumph.' Schopenhauer would most likely respond that this interpretation:"
+  type: multiple-choice
+  options:
+    - "Perfectly captures what Beethoven intended and demonstrates music's narrative power"
+    - "Misunderstands music's unique power — by translating it into a narrative of emotions and events, it converts Will-expression back into representation, losing precisely what makes music irreducibly different from poetry or drama"
+    - "Is correct because great music always tells a story that can be paraphrased in words"
+    - "Is impossible to evaluate since Schopenhauer believed music has no meaning at all"
+  answer: 1
+  explanation: "Schopenhauer's theory implies that program-note descriptions translate music into the very representational mode it transcends. Music does not depict struggle or triumph — it presents the inner form of those dynamics, the pattern of tension-release that underlies all willing. Converting that into narrative re-imposes representation and loses the immediate Will-expression that makes music uniquely powerful. Option D is wrong: music has the deepest meaning for Schopenhauer, but that meaning is non-representational."
+
+- question: "Schopenhauer considers music the highest art form because it represents Platonic Ideas more perfectly and directly than painting or sculpture can."
+  type: true-false
+  answer: false
+  explanation: "This inverts Schopenhauer's hierarchy. Other arts (painting, sculpture, poetry) work precisely through Platonic Ideas — they represent universal patterns by means of particular images and narratives. Music's superiority lies in the fact that it bypasses Ideas entirely and accesses the Will itself — the deeper level of reality that underlies even the Ideas. Music stands above the arts of Ideas, not as the best among them, but as a categorically different kind of access to the nature of reality."
+
+- question: "Schopenhauer's claim that music directly expresses the Will explains why the same piece of music can feel deeply personal to listeners with entirely different life experiences."
+  type: true-false
+  answer: true
+  explanation: "Because music presents the universal dynamic structure of willing — yearning, tension, release, striving — without attaching it to any particular object, narrative, or image, every listener's own will responds directly. There is no specific story to identify with or reject; the music speaks to the formal structure of experience that all conscious willing beings share. Different listeners feel it as equally personal because it addresses the Will they have in common, not their particular circumstances."
+
+- question: "Why does Schopenhauer's theory imply that translating music into words is always inadequate, no matter how eloquent the description?"
+  type: short-answer
+  answer: "For Schopenhauer, music expresses the Will directly — the inner dynamic of existence — without passing through representation. Words are representational: they describe particular objects, emotions, and narratives. Any verbal description inevitably converts Will-expression into representation, losing the immediate, unmediated quality that makes music unique. The inadequacy is not a failure of eloquence but a categorical difference in mode — language and music operate at different ontological levels."
+  explanation: "This is why music criticism has always grappled with its own limits, and why great composers often resisted explaining their work in words. For Schopenhauer, the attempt to 'explain' music verbally is not merely incomplete but structurally misconceived — it translates a non-representational medium into a representational one, changing what kind of thing is being expressed. Wagner and Nietzsche both absorbed this insight and built their own aesthetics partly in response to it."
+```
+
 ## Explainer
 
 You already understand Schopenhauer's fundamental metaphysics: reality as we experience it is **representation** (the phenomenal world of objects in space and time), but underlying it is the **Will** — a blind, striving, purposeless force that is the inner essence of everything. You also know that Schopenhauer sees art as offering temporary liberation from the Will's relentless drive, allowing us to contemplate **Platonic Ideas** — universal patterns that the Will objectifies at various levels. But music, Schopenhauer argues, does something entirely different from every other art form, and understanding why requires grasping a crucial asymmetry in his system.

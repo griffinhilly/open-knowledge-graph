@@ -30,6 +30,45 @@ Record a speech delivered without signposting and one with explicit signposting,
 - "First... second... third..." is the simplest form but not the only form — rhetorical questions, framing statements, and narrative transitions all serve as signposts.
 - Over-signposting is possible but rare; most speakers err heavily toward too little structural guidance rather than too much.
 
+## Questions
+
+```yaml
+- question: "A speaker is preparing a 10-minute speech on climate policy. Her coach tells her to add internal previews and summaries. She worries this will make her speech sound repetitive and patronizing, so she removes them. What is the most likely outcome?"
+  type: multiple-choice
+  options:
+    - "The speech will sound more natural and professional without mechanical announcements"
+    - "Listeners will lose track of the structure because they cannot re-read or skim back"
+    - "The speech will be more efficient, covering more content in the same time"
+    - "Listeners will appreciate the trust placed in them to follow the argument"
+  answer: 1
+  explanation: "The whole premise of signposting is that listeners cannot glance back at headings or re-read paragraphs. When signposting is removed, listeners process the speech linearly with no map of where they are. The 'patronizing' worry is the most common misconception — in fact, when done well, signposting feels helpful rather than condescending. Option A conflates polished delivery with structural navigation."
+
+- question: "After a speech, audience members describe it as 'really clear and easy to follow' without mentioning the signposting at all. What does this most likely tell us?"
+  type: multiple-choice
+  options:
+    - "The speaker probably under-signposted — the audience didn't notice because there wasn't enough to notice"
+    - "The signposting was effective — good signposting becomes invisible when it works"
+    - "The content was so strong that structural cues weren't needed"
+    - "Audience feedback is unreliable for evaluating signposting technique"
+  answer: 1
+  explanation: "This is the invisibility paradox of signposting: it becomes unnoticeable when done well. Listeners experience orientation as the natural quality of the speech, not as technique. The absence of comment on signposting is evidence of success, not absence. This is counterintuitive — if you want direct feedback on your signposting, you have to ask specifically, because well-executed signposting doesn't announce itself."
+
+- question: "Most speakers use too much signposting rather than too little."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true — most speakers err heavily toward too little structural guidance. Over-signposting is theoretically possible but rare in practice. The more common failure is leaving listeners without enough structural cues to orient themselves, especially in longer speeches where working memory is taxed."
+
+- question: "A well-constructed internal preview both prepares the audience to receive information and commits the speaker to cover all named items."
+  type: true-false
+  answer: true
+  explanation: "Internal previews do double duty: they give the audience a schema (a mental structure to hang incoming information on), and they function as a public commitment from the speaker — having announced 'I'll cover three factors,' the speaker is accountable to address all three. This combination makes previews more valuable than a mere announcement of topic would be."
+
+- question: "Why does oral communication require more explicit structural signposting than written communication?"
+  type: short-answer
+  answer: "In writing, readers can re-read sentences, glance back at headings, skim forward, and pause to reflect. Oral communication is processed once, linearly, and in real time — if a listener loses track of the structure, they cannot recover without help from the speaker. Signposting compensates for the absence of these reading affordances by providing explicit in-speech structural markers that substitute for the visual and navigational tools a written document provides."
+  explanation: "The deeper point is that signposting is 'redundant by design' — it deliberately repeats structural information because listeners only get one pass through the material. What feels like unnecessary repetition to a speaker who knows the structure is essential navigation for a listener experiencing it for the first time."
+```
+
 ## Explainer
 
 You know how to organize a speech into a clear structure with an introduction, main points, and conclusion. You also know how to use verbal transitions to signal movement between points. Verbal signposting extends that toolkit into a complete navigational system — one that gives listeners a real-time map of where they are in the speech at every moment, not just at major transitions. The reason this matters more in speech than in writing is fundamental: listeners cannot skim, scroll back, or re-read. They process the speech linearly and in real time, and if they lose track of the structure, they cannot recover without help from the speaker.

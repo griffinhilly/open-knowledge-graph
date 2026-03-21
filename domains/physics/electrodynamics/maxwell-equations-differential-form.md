@@ -38,6 +38,45 @@ Derive the differential forms from the integral versions using the divergence an
 - Applying these equations outside their domain of validity (classical limit, non-relativistic speeds).
 - Neglecting boundary conditions, which are essential for solving the resulting differential equations.
 
+## Questions
+
+```yaml
+- question: "Maxwell added the displacement current term (μ₀ε₀∂E/∂t) to Ampere's law. What would go wrong without this term?"
+  type: multiple-choice
+  options:
+    - "Gauss's law would fail — ∇·E would no longer equal ρ/ε₀ in static situations"
+    - "Faraday's law would predict that changing B fields create no electric field in vacuum"
+    - "The equations would be internally inconsistent — charge conservation would be violated, and self-sustaining electromagnetic waves in vacuum could not exist"
+    - "The magnetic Gauss's law would require ∇·B ≠ 0, implying magnetic monopoles"
+  answer: 2
+  explanation: "Without the displacement current, Ampere's law (∇×B = μ₀J) is inconsistent with charge conservation: taking the divergence of both sides gives 0 = μ₀∇·J, which requires ∇·J = 0 always — but this contradicts the continuity equation ∂ρ/∂t + ∇·J = 0 whenever charge density changes. Maxwell's fix (adding μ₀ε₀∂E/∂t) restores consistency. Additionally, without this term, taking ∇×(∇×E) and substituting does not yield a wave equation — electromagnetic waves in vacuum are impossible without the displacement current."
+
+- question: "The electromagnetic wave equation (∇²E = μ₀ε₀∂²E/∂t²) is derived by manipulating Maxwell's equations. Why is this derivation impossible using only the integral forms?"
+  type: multiple-choice
+  options:
+    - "The integral forms apply only to static fields and break down in the wave regime"
+    - "The derivation requires taking the curl of a field equation, which is a point-wise operation that cannot be applied to integrals over finite surfaces or loops"
+    - "The integral forms do not include the displacement current term that Maxwell added"
+    - "Stokes's theorem only converts curl integrals in one direction — from differential to integral, not the reverse"
+  answer: 1
+  explanation: "The wave equation derivation requires applying ∇× to Faraday's law (itself already a curl equation), yielding a second-order differential equation. The curl operator acts point-wise on vector fields — you cannot take the curl of a circulation integral over a finite loop, because the loop integral is a single number, not a vector field. The differential forms express each law as a local equation valid at every point in space, which is exactly what is needed to apply vector differential operators and derive PDEs."
+
+- question: "∇·B = 0 everywhere in space, reflecting the fact that magnetic field lines always form closed loops and no magnetic monopoles exist."
+  type: true-false
+  answer: true
+  explanation: "This is the magnetic analogue of Gauss's law. Unlike ∇·E = ρ/ε₀ (which can be nonzero where charges exist), ∇·B = 0 holds everywhere without exception. Physically, this means B field lines have no sources or sinks — they never begin or end, only form closed loops. The existence of a magnetic monopole would require ∇·B ≠ 0 at its location, which has never been observed. This equation is one of the four pillars of classical electromagnetism."
+
+- question: "The differential form ∇·E = ρ/ε₀ means that the electric field E has nonzero divergence everywhere in space, not just near charges."
+  type: true-false
+  answer: false
+  explanation: "∇·E = ρ/ε₀ means divergence equals charge density divided by ε₀. In regions of space where no charge is present (ρ = 0), ∇·E = 0 — the field has no local sources or sinks and passes through uniformly. Only where charge exists does E diverge: positive charges are sources (field lines radiate outward) and negative charges are sinks (field lines converge inward). This is a point-wise, local equation — it describes the field behavior at each individual point, not over any region."
+
+- question: "What is the physical significance of Maxwell's displacement current term (μ₀ε₀∂E/∂t) in Ampere's law, and why did Maxwell add it?"
+  type: short-answer
+  answer: "The displacement current term accounts for the fact that a changing electric field generates a magnetic field, even in the absence of actual current flow. Maxwell added it because without it, Ampere's law (∇×B = μ₀J) is inconsistent with charge conservation: taking the divergence gives ∇·J = 0 always, contradicting the continuity equation when charges accumulate or disperse. By adding μ₀ε₀∂E/∂t, Maxwell restored mathematical consistency. The deeper consequence was that this term — together with Faraday's law — allows E and B to sustain each other in vacuum: a changing B produces E (Faraday), and a changing E produces B (Maxwell's addition), enabling self-propagating electromagnetic waves at speed c = 1/√(μ₀ε₀). This unified optics and electromagnetism."
+  explanation: "The displacement current is arguably the most consequential single addition in the history of classical physics. It was added on theoretical grounds (consistency) and immediately predicted electromagnetic waves, which were later confirmed experimentally by Hertz. Without it, Maxwell's equations would describe only quasi-static fields and could not account for light."
+```
+
 ## Explainer
 
 You know the integral forms of Maxwell's equations: Gauss's law relates total electric flux through a closed surface to enclosed charge; Ampere-Maxwell relates B's circulation around a loop to enclosed current plus displacement current; Faraday's law relates E's circulation to the rate of change of magnetic flux; and the magnetic Gauss's law says no net magnetic flux ever exits a closed surface. The differential forms say the same things, but at every individual point in space rather than averaged over finite regions — a far more powerful perspective for deriving new results and solving problems computationally.

@@ -36,6 +36,45 @@ Study the structure of a convection parameterization (e.g., mass-flux formulatio
 ## Common Misconceptions
 - Assuming parameterizations are fixed; they are tuned to match observations and vary between models. - Overlooking that parameterized processes are inherently uncertain; structural uncertainty in parameterizations is often larger than structural uncertainty in resolved processes.
 
+## Questions
+
+```yaml
+- question: "A climate model is carefully tuned to match observed global mean temperature, precipitation patterns, and radiation budget for the late 20th century. Why is this tuning insufficient to guarantee accurate regional rainfall projections under doubled CO₂?"
+  type: multiple-choice
+  options:
+    - "Tuning uses noisy data, so the tuned parameters contain observational errors"
+    - "Parameterizations are adjusted to reproduce present-day statistics, but the relationships between grid-scale variables and subgrid processes may shift differently under changed forcing"
+    - "Regional rainfall is governed by unresolved processes that cannot influence the global-scale tuning targets"
+    - "Doubled CO₂ alters the grid spacing of the model, invalidating the tuned parameters"
+  answer: 1
+  explanation: "Tuning adjusts parameterization parameters to minimize errors against present-day observations. But parameterizations are empirical approximations of subgrid physics, not fundamental laws. Under a warmer, moister atmosphere, the relationships between large-scale variables and subgrid convective behavior may shift in ways the parameterization was not designed to capture. A convection scheme can produce the right global-mean rainfall today through the wrong physical mechanism, which only matters when the climate departs from the conditions it was calibrated against."
+
+- question: "Cloud parameterization is the dominant source of spread in equilibrium climate sensitivity estimates across CMIP models. What is the physical reason this uncertainty is so large?"
+  type: multiple-choice
+  options:
+    - "Clouds are too small to observe accurately, so models depend on unreliable satellite measurements"
+    - "Clouds both cool (by reflecting sunlight) and warm (by trapping infrared), and small changes in parameterized cloud properties shift the net feedback from weakly positive to strongly positive"
+    - "All CMIP models share the same cloud parameterization code, so a single error amplifies identically across models"
+    - "Cloud formation depends on aerosols, which have no physical parameterization and must be prescribed"
+  answer: 1
+  explanation: "The net cloud feedback is the difference between two large opposing effects: shortwave cooling (clouds reflect incoming solar radiation) and longwave warming (low clouds trap outgoing infrared). The sign and magnitude of the net effect depend on cloud type, altitude, coverage fraction, and optical depth — all quantities that must be parameterized. Small errors in parameterized cloud fraction or altitude can shift the global cloud feedback by several W/m²/K, translating into equilibrium climate sensitivity estimates ranging from below 2°C to above 5°C for doubled CO₂. No other parameterized process has this leverage on the global energy budget."
+
+- question: "A climate parameterization is a physically rigorous representation of a process that simply operates at the grid scale rather than the process scale."
+  type: true-false
+  answer: false
+  explanation: "Parameterizations are informed approximations with tunable parameters, not rigorous physical derivations. A convection scheme might trigger when large-scale instability exceeds a threshold, but the trigger threshold, entrainment rate assumption, and precipitation efficiency are empirically calibrated choices — not derived from first principles. This is why different models using different parameterization approaches can produce significantly different climate responses to the same forcing, and why improving parameterizations is a major research priority distinct from simply increasing resolution."
+
+- question: "The spread across CMIP models in their projections of future global temperature primarily reflects uncertainty in future greenhouse gas emissions scenarios rather than differences in model physics."
+  type: true-false
+  answer: false
+  explanation: "Both sources of uncertainty are large, but climate sensitivity uncertainty — largely driven by cloud and convection parameterization differences — determines how much warming any given emissions pathway produces. At mid-century timescales, inter-model spread from structural parameterization differences is comparable to or larger than scenario uncertainty. The multi-model CMIP ensemble exists specifically to sample this structural uncertainty: each model represents a plausible but different set of assumptions about subgrid physics."
+
+- question: "Why do climate scientists run dozens of different models in coordinated intercomparison projects (CMIP) rather than identifying the single best model and using only that?"
+  type: short-answer
+  answer: "No single model is demonstrably best across all metrics and all regions — different models perform better on different aspects of climate. More fundamentally, the spread across models sampling different parameterization choices estimates the structural uncertainty that no single model can quantify internally. A single model appears precise but hides the uncertainty from its particular parameterization assumptions. The multi-model ensemble makes this uncertainty explicit and assessable, and it enables identifying robust projections (features appearing across all models) versus uncertain ones (where models disagree)."
+  explanation: "This is the same logic as using ensemble weather forecasts rather than trusting one deterministic run. A model can be internally consistent and well-tuned while still being wrong about future climate because its parameterizations assume the wrong physical mechanisms. The multi-model approach acknowledges this limitation and provides a more honest characterization of projection confidence than any single-model run can."
+```
+
 ## Explainer
 
 From your study of general circulation models, you know that climate models solve the fundamental equations of fluid dynamics and thermodynamics on a three-dimensional grid covering the globe. But here is the problem: many of the most important processes in the climate system happen at scales far smaller than any computationally feasible grid cell. A typical climate model grid cell might be 100 km on a side, yet a thunderstorm is only 10 km across, individual clouds are hundreds of meters, and turbulent eddies in the boundary layer are meters. These **subgrid processes** cannot be ignored — they transport enormous amounts of energy, moisture, and momentum — but they cannot be explicitly simulated at global scales. **Parameterization** is the solution: representing the collective statistical effect of unresolved processes in terms of the large-scale variables that the model does resolve.

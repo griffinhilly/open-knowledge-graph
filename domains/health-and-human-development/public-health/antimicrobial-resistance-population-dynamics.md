@@ -30,6 +30,45 @@ Compare antibiotic resistance prevalence trends to antibiotic consumption by cou
 ## Common Misconceptions
 Thinking resistant pathogens are less fit—many resistant strains replicate as effectively as susceptible ones, enabling rapid spread.
 
+## Questions
+
+```yaml
+- question: "A patient takes a course of amoxicillin for a sinus infection. Two weeks later they develop a resistant E. coli urinary tract infection. A clinician explains: 'The antibiotic caused the bacteria to develop resistance through mutation.' What is wrong with this explanation?"
+  type: multiple-choice
+  options:
+    - "Amoxicillin cannot cause resistance because it targets the cell wall, not DNA"
+    - "The antibiotic selected for pre-existing resistant variants that were already present in the patient's flora; it did not create the resistance through mutation"
+    - "Antibiotic resistance only develops after multiple courses, not a single exposure"
+    - "E. coli is intrinsically resistant to amoxicillin and therefore no selection occurred"
+  answer: 1
+  explanation: "This is the core conceptual error in understanding AMR. Antibiotics do not induce resistance — they select for resistance that already exists in the population as spontaneous variants. The antibiotic eliminates susceptible bacteria, leaving resistant variants to reproduce and dominate. Selection amplifies pre-existing variation; it does not create new variation on demand. This distinction matters enormously for prevention: reducing antibiotic use reduces selection pressure on resistance that is already in circulation."
+
+- question: "Horizontal gene transfer (HGT) makes antimicrobial resistance uniquely dangerous compared to resistance acquired solely through vertical descent (inheritance from parent to offspring). Why?"
+  type: multiple-choice
+  options:
+    - "HGT makes resistant bacteria replicate faster than susceptible ones"
+    - "HGT allows resistance genes to spread across species boundaries without waiting for de novo mutation in each lineage"
+    - "HGT enables bacteria to become resistant to multiple antibiotics simultaneously for the first time"
+    - "HGT bypasses the immune system's ability to clear resistant infections"
+  answer: 1
+  explanation: "HGT — via plasmid conjugation, transformation, or transduction — allows a resistance gene that evolved in one organism (say, a soil bacterium) to jump directly into a clinical pathogen within years. This bypasses the normal evolutionary requirement that each lineage independently evolve resistance through mutation. Carbapenemase genes, for example, have spread from environmental bacteria to Enterobacteriaceae precisely through plasmid transfer. Vertical inheritance would limit the spread of resistance to the descendants of a single resistant ancestor."
+
+- question: "Incomplete antibiotic courses can contribute to population-level resistance enrichment even when no individual patient experiences clinical treatment failure."
+  type: true-false
+  answer: true
+  explanation: "Subtherapeutic dosing — including incomplete courses — maintains selection pressure on the bacterial population without reliably killing resistant variants. Even if the patient recovers clinically (perhaps because their immune system clears the residual infection), the antibiotic has shifted the microbial community toward a higher proportion of resistant organisms. Those organisms can then spread to other people. Individual clinical outcomes and population-level resistance dynamics are distinct: what looks like a successful treatment at the individual level can still contribute to resistance at the community level."
+
+- question: "Resistant bacterial strains are less fit than susceptible strains and therefore cannot spread as effectively once antibiotic pressure is removed."
+  type: true-false
+  answer: false
+  explanation: "This is a common and dangerous misconception. Many resistant strains replicate as effectively as susceptible ones — fitness costs of resistance are variable and often small or offset by compensatory mutations. Some resistance mechanisms, like certain plasmid-encoded carbapenemases, impose minimal fitness costs. In hospital environments with ongoing antibiotic use, resistant strains face no competitive disadvantage. This is why reducing antibiotic use alone is often insufficient — resistant strains that are already fit will persist even after selection pressure diminishes."
+
+- question: "Why is antimicrobial resistance described as a 'community problem' requiring population-level interventions, rather than a problem solvable through better individual prescribing decisions?"
+  type: short-answer
+  answer: "Because resistance dynamics operate at the population level. Each antibiotic prescription contributes to the community-wide pool of selection pressure that enriches resistant organisms across all patients, not just the one being treated. Resistance genes spread via HGT across bacterial species and via transmission routes between patients, animals, and environments. An individual physician prescribing correctly cannot prevent resistant organisms circulating in the community from infecting their patients — those organisms exist because of aggregate antibiotic use across all prescribers, agricultural settings, and countries. Reducing the effective reproduction number of resistant strains requires institutional stewardship, surveillance, and policy, not just individual prescribing habits."
+  explanation: "The analogy to infectious disease epidemiology is exact: just as controlling measles requires herd immunity (a community-level property), controlling AMR requires community-level reductions in selection pressure and transmission. Individual rational decisions aggregate into population-level outcomes in both cases — and in both cases, the solution operates at the population level through coordinated action rather than individual optimization alone."
+```
+
 ## Explainer
 
 At its core, antimicrobial resistance is Darwinian natural selection running in real time at the population level. A bacterial population is not genetically uniform — through spontaneous mutation and horizontal gene transfer, it contains individuals with varying sensitivity to antibiotics. When you introduce an antibiotic, you are imposing a severe environmental filter: susceptible bacteria die, resistant bacteria survive and reproduce. The next generation is disproportionately resistant. This selection pressure doesn't create resistance — the resistant variants were already present in the population — it amplifies whatever resistance exists until it dominates. Every antibiotic exposure, in every patient or animal, contributes to this selection.

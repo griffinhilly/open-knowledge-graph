@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Crater morphology transitions from simple (raised rim, bowl-shaped) to complex (central peak, terraced walls) above a size threshold that depends on surface gravity. Craters degrade through slumping, isostatic adjustment, erosion, and volcanic infilling, with degradation rates varying by planetary environment.
 
+## Questions
+
+```yaml
+- question: "A 5 km diameter crater on Earth has terraced walls and a central peak. An identical 5 km crater on the Moon is simple and bowl-shaped. What best explains this difference?"
+  type: multiple-choice
+  options:
+    - "The Moon's crust is weaker than Earth's, so lunar impacts produce simpler craters"
+    - "Earth's higher surface gravity causes crater walls to collapse at smaller diameters, producing complex morphology sooner"
+    - "Lunar impacts are more energetic, excavating deeper simple craters"
+    - "Earth's erosion gradually adds terracing and central peaks to older craters over time"
+  answer: 1
+  explanation: "The simple-to-complex transition diameter depends on surface gravity. On Earth (strong gravity), walls collapse inward and floors rebound at diameters as small as 2–4 km. On the Moon (weak gravity), the same collapse only occurs above ~15 km. So a 5 km crater can be complex on Earth but simple on the Moon — the same size, but different morphology because gravity differs. Option D is a classic misconception: erosion degrades craters, it does not create central peaks or terraces."
+
+- question: "A planetary scientist observes a crater on Mars with fluvial channels carved into its walls and layered sediments on the floor. What does this primarily indicate?"
+  type: multiple-choice
+  options:
+    - "The impact that formed it was unusually energetic, melting rock and depositing layered ejecta"
+    - "The crater is geologically young and has not yet been modified by Martian processes"
+    - "Past liquid water activity modified the crater after its formation"
+    - "Volcanic intrusion beneath the crater deposited the layered sediments from below"
+  answer: 2
+  explanation: "Degradation style reveals environmental history. Fluvial channels on crater walls and layered interior sediments are diagnostic of past liquid water — water that carved channels and transported sediment into the basin after the impact event. This is exactly the reasoning behind selecting craters like Gale and Jezero as landing sites: their degradation style indicates ancient aqueous environments. Energetic impacts produce melt sheets, not fluvial channels."
+
+- question: "On the Moon, a crater with sharp rims and bright ejecta rays is relatively young, because lunar degradation is extraordinarily slow compared to Earth."
+  type: true-false
+  answer: true
+  explanation: "The Moon lacks atmosphere, running water, and plate tectonics, so craters degrade only through micrometeorite bombardment and occasional larger impacts. A fresh lunar crater can retain sharp rims and bright rays for hundreds of millions of years. This makes rim sharpness and ray preservation powerful relative age indicators on the lunar surface."
+
+- question: "A larger crater is always more degraded than a smaller crater on the same planetary surface."
+  type: true-false
+  answer: false
+  explanation: "Crater size and degradation state are independent variables. Size depends on impactor energy; degradation depends on time elapsed since formation and the intensity of surface processes. A large fresh crater can be sharper and less degraded than a tiny ancient crater that has been filled with regolith and battered by later impacts. Geologists assess degradation by rim sharpness, ejecta preservation, and superimposed crater density — not by diameter."
+
+- question: "Why does the simple-to-complex transition occur at a smaller diameter on Earth than on the Moon, and what does this imply about using crater morphology to infer surface gravity on other planets?"
+  type: short-answer
+  answer: "The transition occurs when gravitational forces overwhelm the strength of crater walls, causing them to collapse inward (forming terraces) and allowing the compressed floor to rebound upward (forming a central peak). Higher surface gravity exerts stronger forces, so collapse happens at smaller diameters. On the Moon, where gravity is about one-sixth of Earth's, walls can support themselves up to ~15 km. This means that if you observe the transition diameter on an unknown planetary body, you can estimate surface gravity: a planet where complex craters begin at 5 km has higher gravity than one where the transition occurs at 20 km."
+  explanation: "The key is that morphology encodes a balance between gravity and rock strength. Because rock strength is roughly similar across rocky bodies, gravity becomes the dominant variable. Planetary scientists use the transition diameter, measured from crater counts and morphological surveys, as one line of evidence for constraining a body's gravitational environment — which is especially useful for bodies where direct gravity measurements are sparse."
+```
+
 ## Explainer
 
 From your study of impact cratering mechanics, you know that a hypervelocity impact releases enormous energy, excavating a transient cavity that is much larger than the impactor itself. The **morphology** of the final crater — the shape that persists after the impact event — depends on how the target material responds to that excavation, and this response is governed by crater size, surface gravity, and the mechanical properties of the target rock.

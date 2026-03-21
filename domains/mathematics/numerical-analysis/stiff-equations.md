@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 A system dy/dt = f(t,y) is stiff if it contains vastly different time scales—some components decay rapidly while others change slowly. The stiffness ratio is proportional to the ratio of largest to smallest eigenvalue magnitudes of the Jacobian. Explicit methods must use tiny steps for stability, making implicit methods (which are A-stable) necessary for practical stiff ODE solving.
 
+## Questions
+
+```yaml
+- question: "You are solving a stiff ODE system with an explicit Adams-Bashforth method. The solution you care about changes smoothly over hours, yet the solver requires microsecond time steps. What is the primary cause?"
+  type: multiple-choice
+  options:
+    - "The solution is not smooth enough for an Adams-Bashforth method to handle accurately"
+    - "Rapidly-decaying components impose a stability constraint that forces tiny steps, even though those components carry no useful information at this stage"
+    - "Adams-Bashforth is not accurate enough; switching to a higher-order explicit method will fix the step-size problem"
+    - "The step size is too small — you should increase it to improve speed without consequence"
+  answer: 1
+  explanation: "This is the defining symptom of stiffness: the accuracy requirement (steps of minutes or hours) is completely decoupled from the stability requirement (steps of microseconds). The fast-decaying transients have eigenvalues with large magnitude, and explicit methods must satisfy h|λ_max| ≤ C (a constant determined by the stability region) to avoid blow-up — even after those transients have essentially vanished. A higher-order explicit method does not solve this, because the stability region problem persists regardless of order."
+
+- question: "What property of implicit methods makes them the preferred choice for stiff ODEs?"
+  type: multiple-choice
+  options:
+    - "They are more accurate than explicit methods for smooth solutions"
+    - "They evaluate f at previous time steps, which smooths out rapid oscillations"
+    - "They are A-stable — stable for all h when Re(λ) < 0 — so step size can be chosen based on accuracy alone, not stability"
+    - "They automatically detect stiffness and switch to an explicit scheme when the solution becomes smooth"
+  answer: 2
+  explanation: "A-stability means the method's stability region contains the entire left half of the complex plane. For any eigenvalue with Re(λ) < 0 (a decaying mode), the method is stable regardless of step size. This decouples stability from accuracy: you can take large steps to follow the slow dynamics you care about, without worrying that the fast-decaying modes will cause numerical blow-up. The implicit cost is that each step requires solving a (possibly nonlinear) system, but this is worthwhile compared to taking millions of tiny explicit steps."
+
+- question: "In a stiff ODE system, the step size required for stability is typically much smaller than the step size required for accuracy."
+  type: true-false
+  answer: true
+  explanation: "This is the precise definition of stiffness: stability and accuracy constraints are badly mismatched. The fast eigenvalues (large |λ|) force explicit methods to take steps proportional to 1/|λ_max| for stability, even when the smooth dynamics you want to capture would allow steps orders of magnitude larger. This mismatch is what makes stiff problems computationally expensive for explicit methods."
+
+- question: "A stiff ODE system is one where the solution itself changes very rapidly everywhere, requiring small time steps for accuracy."
+  type: true-false
+  answer: false
+  explanation: "Stiffness is not about the solution being rapidly varying — it is about the *stability constraint* being far more stringent than the *accuracy constraint*. A stiff system often has a slowly-varying solution you care about (which needs large steps for efficiency) alongside rapidly-decaying transients that force tiny steps for stability in explicit methods. After the transients have died out, accuracy alone would allow large steps, but stability still does not — that is the hallmark of stiffness."
+
+- question: "Explain why explicit methods struggle with stiff ODEs and what property of implicit methods resolves this problem."
+  type: short-answer
+  answer: "Explicit methods have finite stability regions: to remain stable, the step h must satisfy h|λ| ≤ C for every eigenvalue λ. Large eigenvalues (fast modes) force h to be tiny, even when those modes no longer meaningfully affect the solution. Implicit methods evaluate f at the new time level, and the resulting algebra makes the stability region cover the entire left half-plane (A-stability). This means any decaying mode is stable for any h, so step size can be chosen purely for accuracy."
+  explanation: "The resolution is not magic — implicit methods require solving a nonlinear system per step, which is expensive. But for stiff problems, this cost is far less than the cost of taking millions of tiny explicit steps. The solver can now stride across the slow dynamics efficiently, with step sizes dictated by accuracy alone."
+```
+
 ## Explainer
 
 From Adams methods and other multistep schemes, you learned that step size h is constrained both by accuracy (you want h small enough to capture the solution's features) and by **stability** (taking h too large causes the numerical solution to blow up spuriously). For most ODEs, these two constraints are compatible: the step size required for accuracy is similar to the step size required for stability. Stiff equations break this compatibility in a dramatic way.

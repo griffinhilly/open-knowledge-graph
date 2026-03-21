@@ -32,6 +32,45 @@ Examine how a literary text achieves consent—does it make certain social arran
 ## Common Misconceptions
 Viewing hegemony as simple propaganda or false consciousness imposed from above. Hegemony requires the active participation of those subordinated by it; it works through culture, common sense, and seeming naturality.
 
+## Questions
+
+```yaml
+- question: "A factory worker sincerely believes that hard work always leads to success, blames their own failures on insufficient effort, and aspires to own their own business someday. From a Gramscian perspective, what best describes this situation?"
+  type: multiple-choice
+  options:
+    - "The worker has been deceived by false propaganda and has adopted beliefs contrary to their true interests"
+    - "The worker is actively participating in a hegemonic formation by genuinely internalizing values that serve the dominant group's interests"
+    - "The worker's beliefs are simply accurate reflections of how meritocracy functions, not ideological"
+    - "The worker exemplifies false consciousness: they would reject these beliefs if given accurate information"
+  answer: 1
+  explanation: "Gramsci's key insight is that hegemony works through active participation, not deception. The worker is not deceived or brainwashed — they genuinely believe the values they have internalized. That genuine belief is exactly what makes hegemony function: when subordinated groups actively reproduce the values of the dominant order through everyday life, no coercion is needed. Options A and D describe propaganda and false consciousness — simpler models that Gramsci explicitly moves beyond. Hegemony requires that people believe, not merely comply."
+
+- question: "According to Gramsci, what role do 'organic intellectuals' play in relation to hegemony?"
+  type: multiple-choice
+  options:
+    - "They expose false consciousness to the working class from an outside critical position"
+    - "They serve the dominant class by producing cultural content that naturalizes its values"
+    - "They work within subordinated communities to develop counter-hegemonic common senses and alternative social imaginaries"
+    - "They are the primary agents of coercive state power, supplementing economic domination"
+  answer: 2
+  explanation: "Organic intellectuals, in Gramsci's analysis, work within communities rather than enlightening them from outside. Their role is not to deliver truths the masses have been denied but to articulate and develop the counter-hegemonic sensibilities already present within subordinated groups — to give coherent form to alternative ways of understanding the social world. Option A describes the role of the 'traditional intellectual' standing outside, which Gramsci contrasts unfavorably with the organic intellectual. Option B describes intellectuals who reproduce, rather than contest, hegemony."
+
+- question: "Hegemony, as Gramsci theorizes it, is maintained primarily through the active consent and participation of subordinated groups, not through force alone."
+  type: true-false
+  answer: true
+  explanation: "This is Gramsci's central claim and what distinguishes his concept from simpler models of power. Force (the coercive apparatus of the state) and consent (cultural and ideological reproduction) both operate, but stable hegemony relies primarily on consent. When the dominant group's values become 'common sense' — taken-for-granted assumptions about how the world works — people reproduce those values through everyday life without needing to be coerced. This is why hegemony is more durable than domination by force alone."
+
+- question: "Hegemony operates like propaganda: it involves the deliberate implanting of false beliefs into passive subjects by a dominant group that controls the media and cultural institutions."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception about hegemony that Gramsci's concept explicitly corrects. Propaganda implies a one-directional imposition onto passive subjects who, if they knew the truth, would resist. Hegemony requires the active participation of those it subordinates — they genuinely believe the values they have internalized, not because they have been tricked but because those values have been embedded in the 'common sense' of their culture. The dominated are not passive victims but active participants. This is what makes hegemony harder to challenge than propaganda: you cannot simply 'correct' it by providing true information."
+
+- question: "How does reading a Victorian novel 'for hegemony' differ from a standard literary analysis focused on plot and character? What specifically does the hegemonic reading look for?"
+  type: short-answer
+  answer: "A hegemonic reading attends to what the text treats as natural, inevitable, or too obvious to need stating — the assumptions embedded in the background rather than foregrounded in the narrative. Where standard analysis asks what the novel says, a hegemonic reading asks what the novel takes for granted: what social arrangements appear as the natural order of things, whose suffering appears as inevitable background scenery, what desires and aspirations the text trains readers to find normal or desirable. The key question is: whose interests do these invisible assumptions serve, and how does the text make them seem universal rather than historically specific?"
+  explanation: "This reading practice connects to Gramsci's claim that ideology works most powerfully not through explicit argument but through naturalization — making contingent arrangements appear necessary. A novel that rewards ambition and individual advancement while treating collective organization as futile or dangerous does not argue for capitalism; it makes capitalism appear as the natural condition of human social life. A hegemonic reading surfaces these assumptions by asking what the novel could not imagine, what alternatives it forecloses, and what values it rewards without acknowledging that reward as a value judgment."
+```
+
 ## Explainer
 
 Marxist literary criticism taught you that culture is not separate from the economic base but is bound up with it — that literature reflects, reproduces, and sometimes challenges the relations of production. But classical Marxism struggled with a persistent empirical puzzle: why do subordinated classes so often accept, support, or actively reproduce the conditions of their own domination? If capitalism exploits workers, why don't workers simply overthrow it? The answer Gramsci developed — from prison, in his notebooks of the 1930s — is **hegemony**: power maintained not primarily through force but through the manufacture of consent.

@@ -28,6 +28,45 @@ Solve ax ≡ b (mod n) by finding a multiplicative inverse (if it exists) via ex
 ## Common Misconceptions
 Linear congruences don't always have solutions; check gcd(a, n) | b first. CRT requires pairwise coprimality, not just mutual primality. Solutions are unique mod the product, not individually.
 
+## Questions
+
+```yaml
+- question: "Consider the congruence 6x ≡ 9 (mod 15). How many distinct solutions exist modulo 15?"
+  type: multiple-choice
+  options:
+    - "No solutions, because 6 and 15 are not coprime"
+    - "Exactly one solution, since the equation simplifies to 2x ≡ 3 (mod 5)"
+    - "Exactly 3 solutions, since gcd(6, 15) = 3 and 3 divides 9"
+    - "Exactly 6 solutions, one for each multiple of the coefficient"
+  answer: 2
+  explanation: "The existence condition: ax ≡ b (mod n) has solutions iff gcd(a,n) | b, and when solutions exist there are exactly gcd(a,n) of them modulo n. Here gcd(6,15) = 3, and 3 divides 9, so solutions exist. The number of solutions is exactly gcd(6,15) = 3. Option A is the most tempting mistake: students often conclude that non-coprimality means no solution, but you must actually check whether gcd(a,n) divides b. When it does, there are gcd(a,n) solutions, not one."
+
+- question: "You need to solve the system: x ≡ 2 (mod 4) and x ≡ 3 (mod 6). A student applies CRT and claims a unique solution modulo 24. What is wrong?"
+  type: multiple-choice
+  options:
+    - "Nothing is wrong — CRT applies whenever you have exactly two congruences"
+    - "CRT requires pairwise coprime moduli; since gcd(4, 6) = 2 ≠ 1, the standard CRT does not guarantee a unique solution modulo 24"
+    - "CRT only applies when there are at least 3 congruences in the system"
+    - "The moduli must be prime for CRT to apply"
+  answer: 1
+  explanation: "CRT requires pairwise coprimality of all moduli — every pair must share no common factor. Since gcd(4,6) = 2, the standard CRT does not apply. The system may have no solution or may have solutions with a period smaller than 24. Naively multiplying the moduli gives 24, but the actual period could be lcm(4,6) = 12 at most. The pairwise coprimality condition is exactly what ensures the product equals the lcm, giving a unique solution modulo that product."
+
+- question: "If gcd(a, n) does not divide b, the congruence ax ≡ b (mod n) has no solutions."
+  type: true-false
+  answer: true
+  explanation: "This is the exact existence condition for linear congruences. The values ax mod n, as x ranges over all integers, cycle through exactly the multiples of gcd(a,n). If b is not a multiple of gcd(a,n), it never appears in that cycle, and there is no solution. For example, 6x ≡ 4 (mod 9): gcd(6,9) = 3, and 3 does not divide 4, so this congruence has no solutions at all — not one, not many, none."
+
+- question: "The Chinese Remainder Theorem guarantees a unique solution modulo n₁n₂···nₖ whenever the moduli are all distinct prime numbers."
+  type: true-false
+  answer: false
+  explanation: "CRT requires pairwise coprimality, not that each modulus be prime. Distinct primes are automatically pairwise coprime (since two distinct primes share no common factor), so using distinct primes does work — but it is a sufficient condition, not a necessary one. Composite numbers like 4 and 9 are pairwise coprime (gcd(4,9) = 1), so CRT applies to them too. What CRT strictly requires is gcd(nᵢ,nⱼ) = 1 for every pair i ≠ j, not that each nᵢ be prime."
+
+- question: "Why must pairwise coprimality — not just the absence of a single common factor shared by all moduli — be required for the Chinese Remainder Theorem?"
+  type: short-answer
+  answer: "Pairwise coprimality is what allows the uniqueness argument to go through. If two solutions x and y both satisfy all congruences, then each nᵢ divides (x − y). Pairwise coprimality means the product N = n₁n₂···nₖ also divides (x − y), so x ≡ y (mod N) — uniqueness modulo N. If two moduli share a factor d > 1, that factor is 'counted twice' in the product, so N overestimates the true period, and the system may have solutions with a period smaller than N, or no solution at all when incompatible residues are required modulo d."
+  explanation: "A concrete failure case: moduli 6, 10, 15 — each pair shares a factor (gcd(6,10)=2, gcd(6,15)=3, gcd(10,15)=5), even though no single factor divides all three. CRT fails because the pairwise non-coprimality means a candidate x must satisfy conflicting divisibility conditions. The product 6·10·15 = 900, but no unique solution modulo 900 is guaranteed. The uniqueness proof requires every pair to be coprime, not just the collection as a whole."
+```
+
 ## Explainer
 
 A **linear congruence** ax ≡ b (mod n) is a modular equation asking: which values of x satisfy it? Think of it as asking "which numbers, when multiplied by a and reduced mod n, give b?" This is the modular analogue of solving ax = b in ordinary arithmetic — but modular arithmetic is cyclical, so the answer is not a single number but a residue class (all numbers of the form x₀ + k·(n/d) for integer k, where d = gcd(a, n)).

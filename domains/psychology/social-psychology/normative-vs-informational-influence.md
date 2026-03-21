@@ -32,6 +32,45 @@ Compare Asch's line-judgment experiments (unambiguous stimuli) with Sherif's aut
 ## Common Misconceptions
 Students often think all conformity stems from wanting to be liked; they underestimate how much uncertainty about reality drives people to conform, assuming they would rely on others' information only about novel or unfamiliar matters.
 
+## Questions
+
+```yaml
+- question: "Participants in an experiment give wrong answers on an obvious line-judgment task when confederates unanimously answer incorrectly. When later allowed to respond privately (anonymously), conformity drops to near zero. This pattern is most consistent with:"
+  type: multiple-choice
+  options:
+    - "Informational influence — participants were uncertain about the correct answer"
+    - "Normative influence — conformity depended on social visibility rather than genuine uncertainty"
+    - "Both mechanisms equally, since conformity occurred in the public condition"
+    - "Neither mechanism, since the task was objectively unambiguous"
+  answer: 1
+  explanation: "The diagnostic signature of normative influence is that it depends on public compliance: people go along to avoid social disapproval but privately maintain their own views. When the social audience is removed (private responses), conformity disappears — no genuine belief change occurred. This matches Asch's line experiments exactly. Informational influence would show the opposite: private beliefs would also change and persist after group exposure, as in Sherif's autokinetic studies. Option A is wrong because the task was unambiguous — there was no genuine uncertainty to drive informational influence."
+
+- question: "In Sherif's autokinetic effect studies, individuals in groups converged on shared estimates of light movement, and later maintained the group norm when tested alone. This demonstrates:"
+  type: multiple-choice
+  options:
+    - "Normative influence — participants remembered the group answer and repeated it to seem consistent"
+    - "Informational influence — participants genuinely used others' judgments as evidence about an ambiguous reality"
+    - "Normative influence — participants feared social rejection even when alone"
+    - "Neither type — convergence on an illusion task does not constitute social influence"
+  answer: 1
+  explanation: "The autokinetic effect produces no objectively correct answer — the light appears to move, but the amount is genuinely ambiguous. Under uncertainty, people rationally treat others' judgments as evidence about reality. When estimates persist in private testing, it shows participants actually updated their beliefs, not just their public reports — this is internalization driven by informational influence. Option A misidentifies the mechanism: normative influence produces compliance that disappears in private (as Asch's conditions showed), not private belief persistence."
+
+- question: "Informational influence is more likely to produce lasting private belief change than normative influence."
+  type: true-false
+  answer: true
+  explanation: "Normative influence works through social cost: you comply publicly to avoid rejection, but your private belief is unchanged. Remove the social audience and compliance disappears. Informational influence works through epistemic updating: you treat others as evidence when uncertain, and once you've updated your belief, it persists whether or not anyone is watching. This difference has direct applied consequences — behavior change sustained only by normative pressure will evaporate when the social context changes, while internalized change driven by informational influence is durable."
+
+- question: "In Asch's line-judgment experiments, participants conformed because they were genuinely uncertain about which line matched the standard."
+  type: true-false
+  answer: false
+  explanation: "Asch's stimuli were deliberately unambiguous — the correct answer was obvious to anyone looking. Participants conformed not because of uncertainty but to avoid standing out from a unanimous group (normative influence). Evidence: conformity dropped dramatically when participants answered privately, or when a single confederate gave the correct answer, breaking unanimity. Sherif's autokinetic studies — not Asch's — used genuinely ambiguous stimuli where informational influence drives convergence."
+
+- question: "What distinguishes normative from informational influence, and how can you tell which mechanism is driving conformity in a given situation?"
+  type: short-answer
+  answer: "Normative influence is driven by the desire to be accepted and avoid social rejection — people conform publicly while privately disagreeing. Informational influence is driven by genuine uncertainty — people use others' judgments as evidence about reality and actually update their private beliefs. The key diagnostic is the public/private distinction: if conformity disappears when responses are anonymous, normative influence is operating (compliance without conversion). If private beliefs also change and persist after the group is gone, informational influence has produced internalization. Stimulus ambiguity and stakes for social acceptance predict which mechanism dominates in a given situation."
+  explanation: "A secondary diagnostic: normative influence tends to operate when the right answer is knowable but costly to assert; informational influence operates when the right answer is genuinely unclear. In practice both can co-occur, but the public-vs-private test is the cleanest empirical separator."
+```
+
 ## Explainer
 
 From your study of social influence and social norms, you know that people often adjust their behavior to match others'. The key question that Deutsch and Gerard's 1955 framework answers is: *why*? What is the psychological mechanism driving the adjustment? Their answer is that conformity operates through two fundamentally different routes that have different cognitive inputs, different social functions, and different effects on private belief.

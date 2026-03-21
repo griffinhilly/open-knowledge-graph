@@ -41,6 +41,45 @@ Compare GaWC rankings with national GDP rankings to see that global economic imp
 - The global city hierarchy is not fixed; cities can rise (Shanghai, Dubai) or decline (Detroit) in their global roles based on economic and political changes.
 - World cities are deeply embedded in their national contexts; state policies, regulatory regimes, and national cultures heavily shape their development trajectories.
 
+## Questions
+
+```yaml
+- question: "City A has a population of 3 million but hosts regional offices of the world's leading law firms, accounting firms, and investment banks. City B has a population of 15 million, is the national capital, and has a large manufacturing base. According to the GaWC framework, which city is more likely to rank higher as a world city?"
+  type: multiple-choice
+  options:
+    - "City A, because world city status is determined by connectivity in advanced producer service networks, not by population or political power"
+    - "City B, because population size and political importance are the primary criteria used by GaWC"
+    - "City B, because national capitals control the regulatory environment that enables global finance"
+    - "They would rank equally, since GaWC combines political, demographic, and economic factors"
+  answer: 0
+  explanation: "GaWC ranks cities by the density of co-presence of global advanced producer service (APS) firms — law, finance, accounting, consulting, advertising. City A's concentration of APS offices directly measures its integration into global capital coordination networks. Population size (City B's advantage) and political importance are explicitly not the defining criteria. This is the core insight: many large, politically powerful cities have limited global APS connectivity and therefore rank below smaller but more globally integrated cities."
+
+- question: "Saskia Sassen argues that the extreme socioeconomic polarization found in world cities — the coexistence of the highest-paid professionals and a large low-wage service workforce — is:"
+  type: multiple-choice
+  options:
+    - "An unfortunate side effect that better redistributive taxation could largely eliminate without affecting the city's global function"
+    - "A structural consequence of global command functions, since the professional class directly generates demand for non-offshorable personal services"
+    - "Primarily explained by immigration patterns rather than the economic structure of advanced producer services"
+    - "A temporary feature of early globalization that will equalize as cities mature"
+  answer: 1
+  explanation: "Sassen's key argument is that polarization is not incidental to world city status — it is produced by the same economic logic. High-end APS professionals generate enormous demand for restaurants, cleaning, childcare, delivery, and security services that cannot be automated or offshored. This creates a structural demand for low-wage workers that grows alongside the professional class. The dual economy is not a policy failure; it is the social geography of global command. This distinguishes Sassen's analysis from explanations that attribute inequality primarily to immigration or inadequate redistribution."
+
+- question: "A city can lose world city status if the global economy restructures and its command functions shift elsewhere."
+  type: true-false
+  answer: true
+  explanation: "World city status is produced and maintained by specific historical circumstances, regulatory decisions, and economic specializations — not by permanent geographic or cultural advantages. Detroit once organized global industrial capitalism and has since declined dramatically in global significance as manufacturing dispersed. The rise of Dubai and Shanghai as world cities reflects deliberate state investment, regulatory change, and shifts in global trade patterns. The GaWC hierarchy is a snapshot of current power arrangements that can and does change."
+
+- question: "GaWC city rankings closely track national GDP rankings, since the wealthiest countries naturally produce the most globally connected cities."
+  type: true-false
+  answer: false
+  explanation: "GaWC rankings systematically diverge from national GDP rankings. A country can have very high GDP but relatively few globally connected APS hubs (due to manufacturing-based or resource-extraction economies), while a smaller country can host a disproportionately well-connected city. Switzerland, Singapore, and the Netherlands each have cities that rank far above their national GDP share would suggest. The divergence reveals that global APS connectivity is a distinct dimension of urban function, not simply a proxy for national wealth."
+
+- question: "Explain why advanced producer services — law, finance, accounting, and consulting — tend to cluster in a small number of world cities rather than dispersing as manufacturing has dispersed."
+  type: short-answer
+  answer: "Advanced producer services require face-to-face interaction, access to dense information networks, and proximity to other service providers, creating strong agglomeration economies. A complex cross-border deal requires lawyers who know multiple jurisdictions, bankers who can arrange capital from multiple sources, and accountants who work across regulatory regimes — these professionals need to be near each other to collaborate effectively. Unlike manufacturing, which can be fragmented and coordinated remotely, APS work produces intangible outputs through knowledge-intensive processes that benefit from co-location. The paradox is that as production has dispersed globally, its coordination has concentrated geographically."
+  explanation: "This clustering dynamic is central to Sassen's theory. The dispersal of global production creates more complexity, not less, in terms of legal, financial, and accounting coordination. More geographies involved means more jurisdictions to navigate, more currency risks to hedge, more regulatory environments to audit. The demand for coordination services therefore grows as production disperses, and those services cluster where the coordination networks are densest — creating a virtuous (or vicious) cycle of world city dominance."
+```
+
 ## Explainer
 
 From your study of urban geography and globalization, you know that cities are not just large collections of people — they are nodes in spatial networks, performing functions that extend far beyond their physical boundaries. The world city concept sharpens this: some cities are not merely large but are *commanding*, meaning that the decisions made within them shape economic activity across the globe. The question is what makes a city "command" rather than simply "contain."

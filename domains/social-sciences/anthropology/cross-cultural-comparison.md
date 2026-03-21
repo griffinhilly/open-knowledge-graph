@@ -43,6 +43,45 @@ Use a simplified version of the HRAF or a textbook cross-cultural dataset to tes
 - Statistical correlations in cross-cultural data do not establish causation.
 - Cultural universals (found everywhere) are distinct from cultural imperatives (must be this way).
 
+## Questions
+
+```yaml
+- question: "A researcher surveys 50 neighboring societies in Southeast Asia and finds they all practice wet-rice agriculture and elaborate ancestor worship. She concludes this is strong cross-cultural evidence that wet-rice farming causes ancestor worship. What is the most serious methodological threat to her conclusion?"
+  type: multiple-choice
+  options:
+    - "Her sample is too small — at least 200 societies are needed for valid cross-cultural tests"
+    - "The 50 societies may represent one diffusion event counted 50 times rather than 50 independent inventions of the same association"
+    - "Ancestor worship is a cultural universal and therefore cannot be caused by subsistence strategies"
+    - "The HRAF database does not include Southeast Asian societies, so the data cannot be verified"
+  answer: 1
+  explanation: "This is Galton's Problem. Contiguous societies that share both practices may have borrowed them from a common source — meaning the researcher has one natural experiment masquerading as 50. Cross-cultural statistical power depends on having genuinely independent data points. If the traits co-occur because of cultural diffusion across a contact zone, the apparent correlation cannot tell us about any causal or functional relationship. Researchers address this by controlling for geographic proximity and cultural genealogy, or by restricting samples to culturally independent societies."
+
+- question: "The incest taboo is found in all known human societies, while specific marriage residence rules (e.g., patrilocal vs. matrilocal) vary widely. What theoretical implication follows from this cross-cultural pattern?"
+  type: multiple-choice
+  options:
+    - "The incest taboo is more recently evolved than residence rules, since it is more widely shared"
+    - "Universals like the incest taboo demand evolutionary, cognitive, or functional explanations; variables like residence rules demand historical, ecological, or institutional explanations"
+    - "Because the incest taboo is universal, it must be genetically encoded, while residence rules are purely cultural"
+    - "The cross-cultural method cannot generate theoretical implications — it only describes patterns"
+  answer: 1
+  explanation: "The logic of comparative research is to sort traits into universals and variables and then seek different explanation types for each. A universal must be explained by something common to all humans — shared biology, universal cognitive constraints, or universal social pressures. A variable that differs across societies requires an explanation that identifies why some societies do it one way and others another — typically ecological, historical, or institutional factors. This is a genuine theoretical payoff: the distribution of a trait across societies constrains what kind of theory can explain it."
+
+- question: "Finding a statistical correlation between patrilineal descent and patrilocal residence across a cross-cultural sample proves that one practice causes the other."
+  type: true-false
+  answer: false
+  explanation: "Correlation in cross-cultural data does not establish causation. Several alternative explanations exist: both practices might share a common historical cause; the correlation might be inflated by Galton's Problem (diffusion); or an unmeasured third variable (such as pastoralism or warfare patterns) might drive both independently. Controlled experiments are impossible in cross-cultural research — you cannot randomly assign kinship systems to societies. The finding still matters theoretically, but causal inference requires additional argument, comparative case analysis, or natural experiments, not statistical correlation alone."
+
+- question: "Cross-cultural comparison requires abandoning cultural relativism, because comparison necessarily imposes a single universal scale of evaluation on all societies."
+  type: true-false
+  answer: false
+  explanation: "This conflates comparing with ranking. Cultural relativism requires that practices be understood in context and not ranked on an ethnocentric scale of progress. Comparison does not require ranking — you can ask 'do these practices co-vary across societies?' without asking 'which society is more advanced?' A researcher can compare kinship structures, code them as variables, and run correlations while remaining agnostic about which forms are better. The distinction between descriptive comparison (this practice occurs in X% of societies) and evaluative judgment (this practice is superior) is what allows comparative research and cultural relativism to coexist."
+
+- question: "What is Galton's Problem, and why does it threaten the validity of cross-cultural statistical comparisons?"
+  type: short-answer
+  answer: "Galton's Problem is the possibility that shared cultural traits across multiple societies reflect historical diffusion from a single source rather than independent invention. This threatens validity because cross-cultural statistics treat each society as an independent data point — but if 30 geographically contiguous societies all share a trait because they borrowed it from one original, that is effectively one case inflated to 30. The apparent statistical pattern overstates the strength and generality of any association. Researchers address this by sampling geographically dispersed societies, controlling for cultural phylogenies, or restricting analysis to societies with no known historical contact."
+  explanation: "The problem was named after Sir Francis Galton, who raised it as an objection to E.B. Tylor's early cross-cultural work. It remains the most technically challenging issue in comparative anthropology because cultural traits spread in complex ways — through trade, conquest, intermarriage, and imitation — that are difficult to fully reconstruct. Modern solutions use autocorrelation controls and phylogenetic comparative methods borrowed from evolutionary biology, but no approach fully eliminates the problem. Awareness of Galton's Problem is essential to reading cross-cultural literature critically."
+```
+
 ## Explainer
 
 Cultural relativism — your foundational prerequisite — insists that practices must be understood in their own context, not ranked on a universal scale of progress. Cross-cultural comparison might seem to violate this principle, since comparison implies a common scale. But the critical move is distinguishing *ranking* from *comparing*. You can ask "do patrilineal societies tend to have patrilocal residence?" without asking "which kinship system is better?" Comparison tests hypotheses about patterns; ranking imposes a hierarchy of value. Competent cross-cultural researchers hold both commitments simultaneously.

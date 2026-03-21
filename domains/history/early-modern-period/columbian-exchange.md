@@ -36,6 +36,45 @@ Trace specific crops and diseases in both directions and assess their impacts. C
 - The Columbian Exchange was not symmetrical — the devastation of Indigenous peoples by Old World disease vastly exceeded any harm flowing in the other direction.
 - The exchange was not a single event but an ongoing, centuries-long process of ecological and demographic transformation.
 
+## Questions
+
+```yaml
+- question: "The Columbian Exchange is described as 'asymmetric.' What was the most significant dimension of this asymmetry?"
+  type: multiple-choice
+  options:
+    - "European nations received far more economic profit than the Americas did from the exchange of goods"
+    - "Old World diseases decimated Indigenous American populations with no comparable epidemic moving in the reverse direction"
+    - "The Americas exported more food crops to Europe than Europe exported to the Americas"
+    - "Spanish colonizers died in greater numbers than Indigenous populations due to unfamiliar tropical diseases"
+  answer: 1
+  explanation: "The defining asymmetry was biological and demographic. Indigenous American populations had no acquired immunity to Old World crowd diseases like smallpox, measles, and influenza, which had circulated in Eurasian populations for millennia. An estimated 50-90% of Indigenous Americans died within a century of contact. While syphilis may have traveled eastward, its demographic impact in Europe was modest compared to the catastrophic scale of death in the Americas. This biological asymmetry is why historians describe the exchange as enabling 'ecological imperialism.'"
+
+- question: "European population growth in the 18th and 19th centuries was partly a consequence of the Columbian Exchange because:"
+  type: multiple-choice
+  options:
+    - "European military conquest of the Americas reduced competition for global food resources"
+    - "The Atlantic slave trade brought more agricultural labor to European farms"
+    - "New World crops like the potato produced more calories per acre in European climates, expanding food production capacity beyond what pre-contact crops allowed"
+    - "American gold and silver funded European agricultural modernization"
+  answer: 2
+  explanation: "The demographic impact of American crops worked at the most fundamental level — caloric production per acre. The potato thrived in Northern European soils and produced more calories per unit of land than most existing European crops, enabling populations that had been calorie-limited to grow significantly. This was not an inevitable achievement of European ingenuity; it was a consequence of 1492. Pre-contact Europe did not have these crops, and the population growth that followed their adoption was agricultural, not military or financial."
+
+- question: "Epidemic diseases that devastated Indigenous American populations after 1492 spread primarily through direct military combat between European soldiers and Indigenous people."
+  type: true-false
+  answer: false
+  explanation: "Disease moved far ahead of European armies — sometimes devastating entire communities before any direct contact with Europeans occurred. Pathogens like smallpox spread through existing Indigenous trade networks and person-to-person contact from communities that had encountered only a few Europeans. The scale of demographic collapse (50-90% mortality) cannot be explained by military casualties; it was biological transmission across populations with no prior immunity, operating independently of and often in advance of visible colonization."
+
+- question: "Alfred Crosby's concept of 'ecological imperialism' argues that European expansion succeeded partly because European settlers carried biological co-travelers — domesticated animals, crowd diseases, and weedy plants — that had no counterparts in the Americas."
+  type: true-false
+  answer: true
+  explanation: "This is the key conceptual contribution of the Columbian Exchange framework. European colonialism succeeded not only through weapons and ships but through the biological toolkit that accompanied European settlers: diseases against which Indigenous people had no immunity, domesticated animals that transformed transportation and warfare, and introduced plants that could outcompete native vegetation. This ecological dimension fundamentally changes how we analyze early modern colonialism — it was not only a political and military story but a biological one."
+
+- question: "Why do historians describe the Columbian Exchange as 'asymmetric,' and what were the most important consequences of this asymmetry?"
+  type: short-answer
+  answer: "The exchange was asymmetric because its most catastrophic effects moved predominantly in one direction: Old World diseases killed an estimated 50-90% of Indigenous American populations within a century, while no comparable epidemic devastated European populations. The consequences cascaded: massive depopulation made vast regions easier to colonize, shattered Indigenous political and social structures before full European military contact, and created labor shortages that drove the expansion of the transatlantic slave trade. The crop exchange also favored Europe — New World staples like the potato transformed European nutrition and contributed to population growth — but this benefit was diffuse and gradual, while the disease asymmetry was immediate and catastrophic."
+  explanation: "Understanding the asymmetry is critical for accurately interpreting early modern colonialism. The standard narrative focuses on military and political power; the Columbian Exchange framework reveals that biological factors — not just weapons — determined outcomes. The scale of Indigenous population collapse was not the result of warfare alone but of an epidemic catastrophe without historical precedent, with consequences that shaped the entire subsequent history of the Americas."
+```
+
 ## Explainer
 
 From your study of the Age of Exploration, you understand how European maritime expansion after 1492 connected previously isolated hemispheres. But the ships that crossed the Atlantic carried far more than explorers and trade goods — they carried living organisms, pathogens, and seeds that had evolved in total isolation from one another for at least twelve thousand years. When those biological worlds collided, the consequences were more transformative than any political or military event of the era. This process is what historian Alfred Crosby named the **Columbian Exchange**.

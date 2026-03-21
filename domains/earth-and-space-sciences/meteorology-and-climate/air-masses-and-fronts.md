@@ -37,6 +37,45 @@ Trace the life cycle of a mid-latitude cyclone from formation to occlusion. For 
 - Fronts are not always accompanied by precipitation; dry fronts exist when air masses have similar moisture content but different temperatures.
 - The front is the boundary, not the air mass itself.
 
+## Questions
+
+```yaml
+- question: "A warm front is approaching a city. Which sequence of weather events should a forecaster predict over the next 12–24 hours?"
+  type: multiple-choice
+  options:
+    - "Sudden heavy thunderstorms followed by a sharp temperature drop as the front arrives"
+    - "High cirrus clouds appearing first, transitioning to lower stratus and steady rain that begins hours before the surface front arrives"
+    - "Clear skies throughout — warm fronts produce clouds but rarely precipitation"
+    - "Dense fog followed by thunderstorms as the warm air mass pushes through"
+  answer: 1
+  explanation: "A warm front slopes very gently (1:200 or shallower), so warm air rides up over retreating cold air gradually. High cirrus clouds form far ahead of the surface front, descending to cirrostratus, altostratus, and finally nimbostratus as the front approaches — producing steady rain that can begin 12–24 hours before the surface front passes. The gradual slope is the key: it produces extended, steady precipitation rather than the brief intense storms of a steep cold front."
+
+- question: "A cold front passes through a city and the temperature behind the front is 10°C. A resident says 'the cold front brought cold air.' Which part of this is subtly misleading?"
+  type: multiple-choice
+  options:
+    - "Cold fronts never change temperature — temperature changes are caused by the air mass, not the front itself"
+    - "The term 'cold' implies an absolute temperature, but a cold front is defined by being colder than the air it replaces — 10°C qualifies as 'cold' only if the air ahead was warmer, not in any absolute sense"
+    - "Cold fronts only lower temperatures during summer; in winter they can raise temperatures"
+    - "The temperature change from a cold front occurs before the front arrives, not after it passes"
+  answer: 1
+  explanation: "Front types are defined by relative temperature contrasts, not absolute temperatures. A 'cold' front means the advancing air mass is colder than the air it is displacing — but the incoming air could be 15°C replacing 25°C, or 0°C replacing 10°C. Saying the front 'brought cold air' implies the air behind must be cold in some absolute sense, which is not what the term means. The classification is always relative to the air it's replacing."
+
+- question: "A warm front typically produces steady, prolonged precipitation that begins hours before the surface front arrives at the ground."
+  type: true-false
+  answer: true
+  explanation: "Because the warm front slopes very gently (1:200 or shallower), the zone where warm air overrides cold air extends far ahead of the surface front — hundreds of kilometers in some cases. Clouds and precipitation therefore develop long before the front reaches the surface. An observer sees the cloud deck thicken and lower progressively over many hours: high cirrus → cirrostratus → altostratus → nimbostratus, with rain beginning well before the surface front arrives."
+
+- question: "Every front passage is accompanied by precipitation, because the lifting of air at the frontal boundary always produces clouds dense enough to generate rain or snow."
+  type: true-false
+  answer: false
+  explanation: "Dry fronts exist when the contrasting air masses have very different temperatures but similar, low moisture content. Lifting can produce clouds — even thick ones — without generating precipitation if the air is too dry for cloud droplets to coalesce into raindrops. Fronts mark temperature and humidity boundaries, and while precipitation is common, it is not inevitable. The moisture content of both air masses determines whether lifting produces precipitation."
+
+- question: "Explain why a cold front typically produces shorter but more intense precipitation than a warm front, in terms of the geometry of the air mass boundary."
+  type: short-answer
+  answer: "A cold front has a steep slope (roughly 1:50 to 1:100) — the cold air acts like a bulldozer, forcing warm air upward rapidly over a short horizontal distance. This vigorous lifting produces strong updrafts, tall cumulonimbus clouds, and intense precipitation, but the narrow zone of lifting means it passes quickly. A warm front has a very gentle slope (1:200 or shallower), so the lifting is gradual and spread over a wide area — this produces weaker updrafts, stratiform clouds, and lighter but prolonged precipitation that extends far ahead of the surface front."
+  explanation: "The slope geometry is the physical cause; the precipitation character is the observable effect. This relationship lets forecasters predict not just what kind of precipitation is coming but how long it will last based on which front type is approaching."
+```
+
 ## Explainer
 
 An **air mass** forms when a large body of air sits over a uniform surface — an ocean, a continent, an ice sheet — long enough to take on that surface's temperature and moisture characteristics. From your study of global atmospheric circulation, you know that semi-permanent high-pressure systems create the stagnant conditions needed for this process. A mass parked over the Gulf of Mexico for days becomes warm and humid (maritime tropical, or mT), while one sitting over central Canada in winter becomes cold and dry (continental polar, or cP). The classification system combines source moisture (maritime vs. continental) with source temperature (tropical, polar, or arctic), giving you a compact label that predicts an air mass's weather signature before it ever moves.

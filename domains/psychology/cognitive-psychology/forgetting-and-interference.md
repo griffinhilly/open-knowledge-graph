@@ -29,6 +29,45 @@ Study the AB-AC interference paradigm: learn list A, then a conflicting list C, 
 - Decay alone is insufficient to explain most forgetting — interference and retrieval failure are stronger and better-supported factors.
 - Forgetting is not always maladaptive; suppressing irrelevant or conflicting memories helps prioritize relevant information and reduces interference in ongoing cognition.
 
+## Questions
+
+```yaml
+- question: "A student studies French vocabulary in the morning, then attends a Spanish class in the afternoon (no self-testing), and that evening quizzes herself on French — scoring much worse than expected. Which mechanism best explains her poor French recall?"
+  type: multiple-choice
+  options:
+    - "Decay — French memories faded naturally over the course of the day without rehearsal"
+    - "Retroactive interference — the Spanish learning competed with French memory traces for the same retrieval cues"
+    - "Proactive interference — the French learning was too strongly encoded and blocked the Spanish class"
+    - "Retrieval-induced forgetting — practicing Spanish vocabulary suppressed unpracticed French items"
+  answer: 1
+  explanation: "This is the AB-AC interference paradigm: learn List A (French), then learn a conflicting List C (Spanish), then test List A. Retroactive interference occurs when *newer* learning disrupts recall of *older* material by competing for the same retrieval cues. Decay alone cannot explain the size of typical forgetting effects, and proactive interference runs in the opposite direction (old disrupting new). Retrieval-induced forgetting requires actual retrieval practice of the competing material — which the scenario explicitly excludes."
+
+- question: "You memorized a new phone number last week. Now you keep accidentally dialing your old number instead. Which type of interference does this demonstrate?"
+  type: multiple-choice
+  options:
+    - "Proactive interference — old memories are interfering with recall of the new number"
+    - "Retroactive interference — the new number is suppressing retrieval of the old one"
+    - "Retrieval-induced forgetting — practicing the old number caused active suppression of the new one"
+    - "Decay — the new number has not been rehearsed enough to consolidate into long-term memory"
+  answer: 0
+  explanation: "Proactive interference (PI) occurs when *older* memories disrupt recall of *newer* material. Here, the old phone number (learned first) is intruding on attempts to recall the new one. Retroactive interference would be the reverse: if learning the new number was somehow causing you to forget the old one. The key diagnostic question is temporal direction: which memory is older, and which is being disrupted?"
+
+- question: "Interference is strongest when two sets of memories are associated with highly similar retrieval cues."
+  type: true-false
+  answer: true
+  explanation: "Interference occurs because memories compete for the same retrieval cues at the moment of recall. When two memories share cues (the same context, the same stimulus words, the same setting), competition is greatest — each cue activates both memories simultaneously, increasing interference. This is why the AB-AC paradigm produces strong RI: the same first words (List A cues) now retrieve competing second words from List C."
+
+- question: "Decay — the natural fading of memory traces over time without rehearsal — is the primary explanation for most everyday forgetting."
+  type: true-false
+  answer: false
+  explanation: "Although decay is a real phenomenon, interference theory and retrieval failure are better-supported explanations for most forgetting. Evidence against pure decay includes the finding that forgetting rates depend on what happens *during* the interval, not just how long it is — interpolated learning increases forgetting, while a 'quiet' interval (such as sleep) reduces it. If decay were primary, the interval's content shouldn't matter. Most forgetting appears to result from retrieval competition and the unavailability of effective retrieval cues."
+
+- question: "Why does practicing retrieval of some items from a category sometimes make it harder to recall related items from the same category that you didn't practice?"
+  type: short-answer
+  answer: "When you retrieve a practiced item, the memory system must inhibit competing memories that are associated with the same retrieval cues — including related, unpracticed items from the same category. This active suppression (retrieval-induced forgetting) reduces the accessibility of those unpracticed items in subsequent tests. The inhibition is a feature, not a bug: it allows the currently-relevant memory to win the retrieval competition without interference from associated competitors."
+  explanation: "This is retrieval-induced forgetting (RIF), which reveals that memory retrieval is an active, competitive process rather than a passive readout. The same inhibitory mechanism that makes RIF possible is what allows fluid cognition: without the ability to suppress currently-irrelevant associated memories, every attempt at retrieval would activate a flood of competitors. The practical implication is that interleaved practice — mixing categories — reduces contextual overlap and therefore reduces how much retrieval practice of one item suppresses others."
+```
+
 ## Explainer
 
 You already know from your memory prerequisites that encoding requires elaboration and that retrieval depends critically on cues — that memories are not stored and replayed like recordings, but reconstructed at retrieval using whatever cues are available. **Interference theory** builds directly on this understanding: if retrieval is cue-dependent, then having multiple memories associated with the same cue creates competition, and competition causes forgetting.

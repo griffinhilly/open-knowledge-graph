@@ -30,6 +30,45 @@ Present lists of varying lengths and plot recall accuracy (or latency) as a func
 - Assuming recency always indicates working memory availability; recency can reflect long-term memory in some conditions.
 - Overlooking that the relative sizes of primacy and recency effects depend on list length and delay—they're not fixed.
 
+## Questions
+
+```yaml
+- question: "A researcher inserts a 30-second backward-counting task between the final item of a memorized list and the recall test. What should happen to the serial position curve?"
+  type: multiple-choice
+  options:
+    - "Both primacy and recency effects disappear, leaving a flat recall curve"
+    - "The primacy effect disappears but the recency effect is preserved"
+    - "The recency effect disappears but the primacy effect is preserved"
+    - "The recency effect is enhanced because counting occupies attention otherwise used for interference"
+  answer: 2
+  explanation: "The distractor task flushes the phonological loop (working memory), eliminating the advantage late-list items had from still being 'in mind' at recall — hence recency disappears. But items from the beginning of the list were rehearsed extensively early on (before the buffer filled) and transferred into long-term memory via consolidation. Long-term representations are unaffected by flushing working memory, so primacy survives intact. This double dissociation is among the strongest evidence that primacy and recency have fundamentally different mechanisms."
+
+- question: "A student studies for an exam by reading through a 30-item vocabulary list in one continuous pass without pausing. Which explanation most directly predicts poor retention for middle-list items?"
+  type: multiple-choice
+  options:
+    - "Middle items will be remembered well because they were presented during peak attentional focus"
+    - "Middle items suffer because they arrived too late for extensive early rehearsal before the buffer filled, and too early to remain available in working memory at recall"
+    - "Middle items are forgotten because the student read them too quickly relative to the endpoints"
+    - "This depends entirely on individual working memory capacity, not list position"
+  answer: 1
+  explanation: "Middle items fall into the gap between both serial position advantages. Early items received extensive rehearsal before competing items arrived (primacy advantage via consolidation). Late items remain available in working memory at recall (recency advantage). Middle items got neither: the working memory buffer was already filling when they arrived (limiting rehearsal and consolidation), and they were presented too long before recall to still be active in the phonological loop. Spaced rehearsal, which gives every item rehearsal depth, directly counteracts this."
+
+- question: "The recency effect in immediate free recall is explained by deeper encoding and stronger long-term memory consolidation of the final list items."
+  type: true-false
+  answer: false
+  explanation: "This reverses the correct account. Recency reflects the availability of final items in working memory (specifically the phonological loop), not superior consolidation into long-term memory. The evidence is decisive: a distractor task that flushes working memory selectively eliminates recency while leaving primacy — the consolidation-based effect — intact. If recency were due to superior consolidation, the distractor task would not selectively eliminate it."
+
+- question: "Presenting a list at a slower rate should enhance the primacy effect more than the recency effect."
+  type: true-false
+  answer: true
+  explanation: "Slower presentation gives each incoming item more rehearsal time before the next item arrives and competes for the rehearsal buffer. Early items benefit most: they already received rehearsal cycles at fast rates, and slower rates give them even more, deepening long-term memory consolidation. Late items hold their recency advantage regardless of rate because it depends on working memory availability at recall, not rehearsal depth. So slowing rate selectively enhances primacy."
+
+- question: "Why does a distractor task inserted between list end and recall selectively eliminate recency but not primacy? What does this dissociation reveal about the two effects?"
+  type: short-answer
+  answer: "The recency effect depends on late-list items still being held in the phonological loop at recall. A distractor task occupies the loop, flushing those representations before recall begins — so the recency advantage disappears. Primacy depends on long-term memory consolidation: early items received extensive rehearsal before the buffer filled, encoding them into durable LTM representations that the distractor task cannot touch. The dissociation reveals that primacy and recency reflect two fundamentally different memory systems — long-term consolidation and working memory — operating simultaneously during list learning."
+  explanation: "This dissociation is theoretically important because it shows the serial position curve is not a unitary phenomenon but the visible trace of two memory systems with different properties. Any manipulation that selectively affects one system — distractor tasks for working memory, slower presentation rates for consolidation — produces predictable, specific changes to just one part of the curve. This is exactly how cognitive psychologists use behavioral dissociations to make inferences about underlying mechanisms."
+```
+
 ## Explainer
 
 From your prerequisites on the **working memory model** and **memory consolidation**, you have the two systems whose differential contributions explain the serial position curve. When you study a list of items and recall them immediately, recall probability is not uniform across positions — it forms a characteristic **U-shaped** bowed curve: items at the beginning (primacy effect) and end (recency effect) are recalled well, while items in the middle are recalled poorly. This pattern is highly reliable and reveals the signatures of two distinct memory systems operating simultaneously during list learning.

@@ -37,6 +37,45 @@ Track daily fiber intake across a week and compare it to the recommended 25–38
 - All fiber is the same; soluble and insoluble fiber have distinct mechanisms of action.
 - High fiber intake is always beneficial without caveat; rapid increases in fiber intake cause gas, bloating, and discomfort — gradual increases with adequate hydration are necessary.
 
+## Questions
+
+```yaml
+- question: "A patient on a very low-fiber 'Western' diet asks why high fiber intake might protect against colorectal cancer. Which mechanism is most directly supported by the evidence?"
+  type: multiple-choice
+  options:
+    - "Insoluble fiber physically scrubs the colon wall, removing pre-cancerous cells"
+    - "Soluble fiber binds to potential carcinogens in the colon and carries them out in stool"
+    - "Prebiotic fibers are fermented by colonic bacteria into butyrate, which fuels colonocytes, induces apoptosis in damaged cells, and suppresses inflammation"
+    - "High fiber intake reduces total caloric intake, lowering obesity-related cancer risk"
+  answer: 2
+  explanation: "The most mechanistically established pathway is the fiber → bacterial fermentation → butyrate → colonocyte effects chain. Butyrate is the preferred fuel for colonocytes (60–70% of their energy), suppresses NF-κB-mediated inflammation, and induces apoptosis in genetically damaged cells — a key cancer-prevention mechanism. The 'physical scrubbing' idea is a myth. Bile acid binding (soluble fiber) may also play a role but is less directly cancer-specific. Caloric effects are real but indirect."
+
+- question: "How does soluble fiber lower LDL cholesterol levels in the blood?"
+  type: multiple-choice
+  options:
+    - "Soluble fiber is fermented into SCFAs, which directly inhibit hepatic cholesterol synthesis (HMG-CoA reductase)"
+    - "Soluble fiber forms a viscous gel that slows intestinal transit, giving cholesterol more time to be absorbed from the gut"
+    - "Soluble fiber forms a gel that binds bile acids in the intestinal lumen; when bile acids are excreted rather than recycled, the liver must draw cholesterol from blood to synthesize new ones"
+    - "Soluble fiber reduces fat absorption by coating dietary fat particles and preventing lipase access"
+  answer: 2
+  explanation: "The bile acid binding mechanism is well-established: the gel formed by soluble fiber (oats, pectin, psyllium) traps bile acids that would normally be reabsorbed in the ileum and recycled to the liver. When bile acids are excreted in stool instead, the liver must synthesize new ones from cholesterol — which it draws from the blood, lowering circulating LDL. Statins work differently (inhibiting HMG-CoA reductase directly); fiber works by increasing the demand for cholesterol in bile acid synthesis."
+
+- question: "Butyrate, produced by bacterial fermentation of prebiotic fibers in the colon, serves as the primary energy source for colonocytes."
+  type: true-false
+  answer: true
+  explanation: "This is a key mechanistic fact: colonocytes (the cells lining the colon) derive 60–70% of their energy from butyrate, not from glucose circulating in the blood. This makes the colon's mucosal lining uniquely dependent on microbial fermentation activity. When fiber intake is low, butyrate production falls, colonocytes become relatively energy-starved, the mucosal barrier weakens, and intestinal permeability increases — setting up the cascade toward inflammation and metabolic disease."
+
+- question: "Insoluble fiber lowers LDL cholesterol by forming a gel that binds bile acids in the intestinal lumen."
+  type: true-false
+  answer: false
+  explanation: "This describes the mechanism of *soluble* fiber, not insoluble fiber. Insoluble fiber (wheat bran, cellulose) does not dissolve in water and does not form gels. Its primary effects are mechanical: adding bulk to stool and accelerating colonic transit time, which reduces contact between potential carcinogens and the mucosal wall. The LDL-lowering effect belongs specifically to soluble fiber. Confusing soluble and insoluble fiber mechanisms is one of the most common errors in nutrition."
+
+- question: "Explain why the fiber–gut health relationship is better described as a 'cascade' than as a single mechanism."
+  type: short-answer
+  answer: "Fiber's health effects are not direct — they unfold through a chain of dependent steps: (1) fiber structure determines whether it resists digestion and reaches the colon intact; (2) prebiotic fibers selectively feed beneficial bacteria (Bifidobacteria, Lactobacilli); (3) those bacteria ferment fiber into SCFAs — primarily butyrate, acetate, and propionate; (4) butyrate fuels colonocytes, modulates immune signaling (NF-κB), and induces apoptosis in damaged cells; (5) this maintains barrier integrity; (6) which reduces systemic inflammation; (7) which lowers risk of metabolic disease and colorectal cancer. Each step depends on the prior, so disrupting any link (e.g., low fiber intake, dysbiosis, antibiotic use) can break the whole chain."
+  explanation: "The cascade framing is important because it explains why the relationship is not simply 'eat more fiber, get healthier.' The effect depends on having the right microbial community to do the fermentation, which in turn depends on sustained fiber intake over time. A person who has been on a low-fiber diet for years may have a depleted microbiome with fewer SCFA-producing species, so the benefit of adding fiber is initially blunted — the microbiome needs to recover first. This is why gradual increases are recommended: it takes time to rebuild the microbial ecosystem."
+```
+
 ## Explainer
 
 Start from what you already know about carbohydrate structure. Most dietary carbohydrates — starch, sucrose, lactose — are digested in the small intestine by enzymes like amylase and sucrase that cleave specific glycosidic bonds. Dietary **fiber** is defined by what it is *not*: it consists of carbohydrate polymers (and lignin, which is not a carbohydrate at all) that resist these digestive enzymes and reach the colon intact. The structural reason is simple: starch is built on α-glycosidic bonds that human amylase can cleave. Cellulose, the most abundant plant fiber, is built on β-1,4 bonds that mammals lack the enzyme to hydrolyze. Pectins, gums, and resistant starches vary structurally but share the same functional outcome — they are not absorbed in the small intestine and arrive in the colon with their molecular structure largely intact.

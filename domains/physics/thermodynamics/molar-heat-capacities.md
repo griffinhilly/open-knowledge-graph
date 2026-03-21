@@ -28,6 +28,45 @@ Measure C_p and C_v for common gases and liquids. Verify the relation C_p - C_v 
 - Confusing molar heat capacity C_m with specific heat capacity c = C_m/M.
 - Thinking C_p > C_v always (true, but the difference size varies greatly).
 
+## Questions
+
+```yaml
+- question: "You add 1000 J of heat to 1 mol of an ideal monatomic gas at constant volume, then repeat the experiment at constant pressure. Which process produces a larger temperature increase?"
+  type: multiple-choice
+  options:
+    - "Constant pressure — the gas is free to expand, so it absorbs heat more efficiently"
+    - "Constant volume — all the heat goes into raising internal energy with none lost to work"
+    - "Both processes produce the same temperature increase because the same heat is added"
+    - "Constant pressure — higher pressure means higher temperature at any given energy input"
+  answer: 1
+  explanation: "At constant volume no expansion work is done, so all 1000 J raises internal energy and temperature: ΔT = Q/(nC_V). At constant pressure, the gas expands and does PdV work on its surroundings; only the fraction that goes into internal energy raises temperature. Since C_P = C_V + R > C_V, the same 1000 J produces a smaller ΔT = Q/(nC_P). The common misconception is that 'free to expand' sounds like an advantage — in fact, the expansion leaks energy away from temperature increase."
+
+- question: "The relation C_P − C_V = R for an ideal gas arises because at constant pressure, the gas must:"
+  type: multiple-choice
+  options:
+    - "Overcome stronger intermolecular attractions that resist heating"
+    - "Do additional work against the surroundings as it expands, requiring extra heat beyond what raises internal energy"
+    - "Absorb more photons due to the increased collision frequency at constant pressure"
+    - "Partially convert heat into potential energy stored in the pressure field"
+  answer: 1
+  explanation: "For an ideal gas at constant pressure, the first law gives dQ = dU + PdV. Since PV = RT for one mole, PdV = R dT at constant pressure. Therefore dQ = C_V dT + R dT, giving C_P = C_V + R. The extra R worth of heat per mole per kelvin compensates for the PdV work done against the surroundings. For real substances (solids, liquids) α is very small so C_P ≈ C_V, but for gases the R correction is essential."
+
+- question: "For an ideal gas, heating at constant pressure and heating at constant volume by the same amount of energy produce the same temperature rise."
+  type: true-false
+  answer: false
+  explanation: "False. At constant pressure, some of the energy goes into PdV work as the gas expands, so less is available to raise the temperature. The temperature rise at constant pressure is ΔT = Q/(nC_P), while at constant volume it is ΔT = Q/(nC_V). Since C_P > C_V (by exactly R for ideal gases), constant-pressure heating produces a smaller temperature rise for the same heat input."
+
+- question: "The ratio γ = C_P/C_V is greater than 1 for all ideal gases."
+  type: true-false
+  answer: true
+  explanation: "True. Since C_P = C_V + R and R > 0, we always have C_P > C_V, so γ > 1 for any ideal gas. For monatomic ideal gases (3 translational degrees of freedom), C_V = (3/2)R and γ = 5/3 ≈ 1.67. For diatomic gases at moderate temperatures (5 degrees of freedom), C_V = (5/2)R and γ = 7/5 = 1.4. The value of γ matters for adiabatic processes and determines the speed of sound in a gas."
+
+- question: "Explain physically why heating one mole of an ideal gas at constant pressure requires more energy than heating the same gas by the same temperature increment at constant volume."
+  type: short-answer
+  answer: "At constant volume, no expansion work is done — all added heat goes directly into raising the internal energy and temperature of the gas. At constant pressure, the gas expands as it heats, and that expanding gas does work (PdV) on the surroundings. This work output must be supplied in addition to the energy that goes into raising the temperature, so the total heat required is larger. The extra energy cost per mole per kelvin is exactly R — the gas constant — giving C_P = C_V + R."
+  explanation: "The first law ΔU = Q − W makes this concrete: at constant volume W = 0, so Q = ΔU = nC_V ΔT. At constant pressure W = PΔV = nRΔT, so Q = ΔU + W = nC_V ΔT + nR ΔT = n(C_V + R)ΔT = nC_P ΔT. The R term is the work done on the surroundings. This is why an open beaker (constant pressure) requires more heat to reach the same temperature than a sealed rigid vessel (constant volume)."
+```
+
 ## Explainer
 
 From heat capacity of gases, you know that C_V is the heat required to raise one mole's temperature by one degree at constant volume, and C_P is the same at constant pressure. You probably computed C_V = (3/2)R for a monatomic ideal gas and C_P = (5/2)R. The gap of R between them has a clean physical origin, and understanding it reveals something important about what heat actually does.

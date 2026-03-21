@@ -32,6 +32,45 @@ Calculate μ_JT for gases using the van der Waals equation. Identify the inversi
 - Confusing it with adiabatic expansion (which changes enthalpy).
 - Assuming ideal gases have zero Joule-Thomson coefficient (they do exactly, real gases don't).
 
+## Questions
+
+```yaml
+- question: "A gas flows through a thermally insulated throttling valve from high pressure to low pressure. A student reasons: 'This is an adiabatic process, so the temperature must fall as pressure drops.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — all adiabatic processes cause temperature to fall when pressure drops"
+    - "Throttling is isenthalpic, not isentropic; temperature change depends on the Joule-Thomson coefficient and can be zero (ideal gas) or even positive (above inversion temperature)"
+    - "Adiabatic processes conserve enthalpy, so the student is correctly applying the definition"
+    - "Temperature always rises during throttling because the valve does work on the gas"
+  answer: 1
+  explanation: "Throttling is adiabatic (Q = 0) but NOT isentropic. A first-law analysis of steady flow through a valve shows that enthalpy is conserved (H₁ = H₂), not entropy. Isentropic expansion (like in a frictionless piston-cylinder) does produce cooling and can do useful work; throttling is irreversible and does no shaft work. For an ideal gas, isenthalpic expansion conserves temperature exactly. For real gases, the temperature change depends on the Joule-Thomson coefficient μ_JT — which can be positive (cooling), negative (warming), or zero at the inversion temperature."
+
+- question: "Why does an ideal gas show absolutely no temperature change during a throttling (isenthalpic) expansion?"
+  type: multiple-choice
+  options:
+    - "Because ideal gases have no intermolecular forces, so no energy is needed to separate molecules; since internal energy U depends only on temperature, and H = U + PV = U(T) + nRT = H(T), isenthalpic expansion preserves temperature"
+    - "Because ideal gases expand too quickly for heat to transfer, keeping temperature constant"
+    - "Because ideal gases are perfect thermal insulators, preventing any temperature change during throttling"
+    - "Because the Joule-Thomson coefficient for an ideal gas is very large, exactly canceling the pressure drop"
+  answer: 0
+  explanation: "For an ideal gas, internal energy U depends only on temperature (no intermolecular potential energy), and PV = nRT, so H = U + PV = U(T) + nRT = H(T) — enthalpy is purely a function of temperature. Isenthalpic means H is conserved; for an ideal gas, this means T is conserved. For a real gas, U also depends on volume (molecular separation changes potential energy), and PV ≠ nRT, so H depends on both T and P. Isenthalpic expansion of a real gas therefore changes T when P changes."
+
+- question: "For a real gas below its inversion temperature, a throttling (isenthalpic) expansion causes the gas to cool."
+  type: true-false
+  answer: true
+  explanation: "Below the inversion temperature, attractive intermolecular forces dominate. When pressure drops across the throttle, molecules move farther apart on average, and energy must be supplied to overcome the attractive forces. In an isenthalpic process with no external heat input, this energy comes from the kinetic energy of the molecules — so temperature falls. The Joule-Thomson coefficient μ_JT = (∂T/∂P)_H is positive in this regime (pressure and temperature change in the same direction), meaning a pressure decrease produces a temperature decrease."
+
+- question: "Throttling (isenthalpic expansion) and reversible adiabatic expansion (isentropic expansion) both conserve the same thermodynamic quantity."
+  type: true-false
+  answer: false
+  explanation: "These are fundamentally different processes. Throttling conserves enthalpy H — derived from the first law for steady flow with no shaft work and no heat transfer. Reversible adiabatic (isentropic) expansion conserves entropy S. In an isentropic expansion, the gas does work on a piston, extracting useful energy and cooling significantly; the process is reversible. Throttling is inherently irreversible — entropy increases — and does no useful work. The two processes produce very different temperature changes even at the same pressure ratio."
+
+- question: "Explain why hydrogen gas must be pre-cooled below 202 K before throttling can be used to liquefy it, while nitrogen at room temperature can be cooled directly by throttling."
+  type: short-answer
+  answer: "The Joule-Thomson effect only cools a gas when the gas is below its inversion temperature — the temperature at which μ_JT = 0 and above which expansion causes warming. Nitrogen's inversion temperature (~621 K) is far above room temperature (~293 K), so at ambient conditions nitrogen is well below its inversion temperature and throttling always cools it. Hydrogen's inversion temperature is only ~202 K — well below room temperature. At 293 K, hydrogen is above its inversion temperature: repulsive intermolecular forces dominate, and throttling actually warms the gas rather than cooling it. Pre-cooling hydrogen below 202 K first puts it into the regime where attractive forces dominate, after which throttling produces the cooling necessary for liquefaction."
+  explanation: "This is why the Linde liquefaction process uses a cascade of refrigeration stages before the final throttling step. Each gas must enter the throttle below its inversion temperature, which is a property of the specific intermolecular forces of that gas. Hydrogen's low inversion temperature made early liquefaction attempts fail until James Dewar pre-cooled it with liquid nitrogen."
+```
+
 ## Explainer
 
 From your study of real gas deviations, you know that real molecules attract each other at intermediate distances and repel at short range. These intermolecular forces mean that it costs energy to pull molecules apart — the potential energy of a real gas depends on the average spacing between molecules, which changes with pressure and volume. The Joule-Thomson expansion exploits this dependence to cool gases, and understanding it requires careful accounting of where energy goes during flow through a constriction.

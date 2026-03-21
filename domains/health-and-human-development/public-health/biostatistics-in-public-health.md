@@ -34,6 +34,45 @@ Work through the analysis of a cohort study dataset: compute crude and adjusted 
 - Statistical significance is not the same as practical importance; large studies can detect trivially small effects.
 - Confounding adjustment via regression requires correct model specification; including a collider instead of a confounder introduces bias rather than removing it.
 
+## Questions
+
+```yaml
+- question: "A study finds p = 0.03. Which interpretation is correct?"
+  type: multiple-choice
+  options:
+    - "There is a 3% chance that the null hypothesis is true"
+    - "There is a 97% chance that the finding reflects a real effect"
+    - "If the null hypothesis were true, there is a 3% probability of observing data at least this extreme"
+    - "The effect is large enough to be clinically meaningful"
+  answer: 2
+  explanation: "The p-value is a conditional probability: P(data this extreme | H₀ is true). It is not the probability that H₀ is true, and it says nothing about whether an effect is practically important. Options A and B commit the 'inverse probability fallacy' — they flip the conditioning. A p-value of 0.03 tells you that the observed data would be surprising if the null were true, but it does not tell you the probability that the null is or isn't true. Clinical significance is a separate judgment requiring knowledge of effect size and context."
+
+- question: "A cohort study of 600,000 people finds that a dietary exposure is associated with a 2% higher risk of hypertension (RR = 1.02, 95% CI: 1.01–1.03, p < 0.0001). What is the most accurate interpretation?"
+  type: multiple-choice
+  options:
+    - "The finding is highly significant and the exposure is an important public health target"
+    - "The finding is statistically significant but the effect size is small enough that its public health importance depends on exposure prevalence and other factors"
+    - "The narrow confidence interval confirms a large effect"
+    - "The low p-value means the result is almost certainly not due to chance, so the exposure must be important"
+  answer: 1
+  explanation: "This scenario illustrates the critical distinction between statistical and practical significance. With 600,000 participants, the study has enormous power to detect tiny effects — even effects too small to matter for public health. A 2% increased risk (RR = 1.02) with a narrow CI means the study is precise about a small effect. Whether that effect matters depends on how prevalent the exposure is, what interventions exist, and what competing health priorities exist. Large studies routinely detect trivially small effects with p < 0.0001."
+
+- question: "A p-value of 0.03 means there is a 3% chance that the null hypothesis is true."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misinterpretation of p-values. The p-value gives you P(data this extreme | H₀ true) — a probability of the data given the hypothesis, not the probability of the hypothesis given the data. Computing P(H₀ true | data) requires prior probabilities, which frequentist hypothesis testing does not incorporate. The correct statement is: 'If the null hypothesis were true, there would be a 3% probability of observing results as extreme as these by chance.'"
+
+- question: "Including a collider variable in a regression model can introduce bias rather than remove it."
+  type: true-false
+  answer: true
+  explanation: "A collider is a variable caused by both the exposure and the outcome (rather than causing them). Conditioning on a collider — including it as a covariate in a model — opens a spurious association between the exposure and outcome that does not reflect a real causal pathway. This is opposite to what happens with a true confounder (which causes both exposure and outcome, and should be controlled). The distinction between confounders and colliders requires causal reasoning — typically using directed acyclic graphs (DAGs) — not statistical criteria alone."
+
+- question: "Why do researchers report 95% confidence intervals in addition to (or instead of) p-values when presenting study results?"
+  type: short-answer
+  answer: "Confidence intervals convey two pieces of information p-values alone cannot: the estimated effect size and the precision of that estimate. A 95% CI gives the range of population parameter values consistent with the observed data. A wide CI signals an imprecise estimate; a narrow CI around a small effect distinguishes 'precisely estimated small effect' from 'imprecisely estimated large effect.' P-values only indicate whether the null can be rejected at a threshold — they do not communicate effect magnitude."
+  explanation: "Consider two studies: one finds RR = 3.0 with 95% CI (0.5–18) and another finds RR = 1.1 with 95% CI (1.09–1.11). The first is statistically non-significant (CI crosses 1.0) but suggests a possibly large effect measured imprecisely. The second is highly significant but shows a trivially small effect measured with great precision. Neither story is told by p-values alone. The CI also allows readers to judge clinical significance directly: if the entire CI lies in the 'clinically unimportant' zone, the finding is practically irrelevant regardless of p-value."
+```
+
 ## Explainer
 
 You already know how to compute rates, risks, and measures of association from your prerequisite work. Biostatistics in public health asks a harder question: how do you know whether the association you computed reflects something real in the population, or whether it could have arisen by chance, bias, or confounding? The statistical framework you are now learning is designed to answer the first of these concerns—chance—while the epidemiologic concepts of bias and confounding address the rest.

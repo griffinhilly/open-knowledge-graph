@@ -30,6 +30,45 @@ Build chords on each scale degree of a major scale, then minor scales, and liste
 ## Common Misconceptions
 Not all chords in a piece are diatonic to a single key—pieces often borrow chords from parallel keys or modulate to new keys, introducing chromatic harmony.
 
+## Questions
+
+```yaml
+- question: "In the key of G major, a musician builds a triad on the 2nd scale degree (A) using only notes from the G major scale. What is the quality of this chord?"
+  type: multiple-choice
+  options:
+    - "Major, because A is a natural note present in the scale"
+    - "Minor, because stacking thirds above A using only G major scale tones produces a minor triad (A–C–E)"
+    - "Diminished, because the second scale degree is always diminished in major keys"
+    - "Augmented, because A to C is a minor third and C to E is a major third"
+  answer: 1
+  explanation: "Stacking thirds from A using only G major scale notes gives A–C–E. A to C is a minor third (1.5 steps), C to E is a major third (2 steps): minor + major = minor triad. The pattern I–ii–iii–IV–V–vi–vii° is fixed in every major key, so the chord on the 2nd degree is always minor. Option C is wrong — the diminished chord sits on the 7th degree, not the 2nd. Option D reverses the interval order."
+
+- question: "Why do composers almost always use the raised seventh degree (from harmonic minor) rather than the natural seventh when writing the V chord in a minor key?"
+  type: multiple-choice
+  options:
+    - "Because harmonic minor is always more correct than natural minor"
+    - "To create a major V chord with a leading tone that produces strong resolution to the tonic"
+    - "Because natural minor has no fifth scale degree"
+    - "To avoid parallel octaves in four-part writing"
+  answer: 1
+  explanation: "In natural minor, the V chord is minor (e.g., in A minor: E–G–B). The G is a whole step below A, which produces only weak pull toward the tonic. Raising the seventh (G to G#) creates E–G#–B, a major V chord with G# as a leading tone — a half step below A — generating powerful upward resolution. This is the harmonic engine of nearly all tonal cadences in minor keys. The other options describe rules that are either incorrect or secondary considerations."
+
+- question: "In every major key, the chord built on the seventh scale degree is a diminished triad."
+  type: true-false
+  answer: true
+  explanation: "Stacking thirds from the seventh degree using only scale tones always produces two minor thirds in a row (m3 + m3), which is the definition of a diminished triad. In C major: B–D–F. B to D is a minor third; D to F is also a minor third. This pattern holds in every major key because the interval structure of the major scale is fixed. The seventh degree is the only one that produces diminished quality; all others produce major or minor triads."
+
+- question: "Playing only diatonic chords in a key guarantees that the resulting progression will be fully consonant and contain no dissonance."
+  type: true-false
+  answer: false
+  explanation: "Diatonic does not mean consonant. The vii° chord (diminished triad) is inherently dissonant — the interval between its outer notes is a diminished fifth (tritone), which creates significant tension. Even 'consonant' diatonic chords create functional tension: the V chord strongly wants to resolve to I regardless of its own internal consonance. Diatonic simply means 'using only notes from the scale'; the harmonic function and dissonance level of each chord is a separate question."
+
+- question: "Why is the chord quality pattern I–ii–iii–IV–V–vi–vii° identical in every major key, regardless of which key you're in?"
+  type: short-answer
+  answer: "Because every major key has the same interval structure — whole, whole, half, whole, whole, whole, half steps — so stacking thirds above each scale degree using only scale tones always produces the same sequence of major and minor thirds. The relative spacing between notes is identical in every major key; only the pitch names change. The chord quality is determined by interval relationships, not by the specific pitches, so the pattern is invariant."
+  explanation: "This is the key insight: the major scale formula is universal, so the diatonic chord pattern it generates is universal. A student who memorizes I–ii–iii–IV–V–vi–vii° has memorized a fact about every major key simultaneously, not just C major. The same logic applies to minor keys, but three variants of the minor scale mean three slightly different chord patterns are possible."
+```
+
 ## Explainer
 
 You already know how to build major and minor triads from intervals: a major triad is a major third plus a minor third (root–M3–m3), and a minor triad reverses the order (root–m3–M3). You also know how to build major scales. **Diatonic chord construction** is the result of applying triad-building systematically to every degree of a scale, using only the notes already in the scale. The result is a family of chords that all "belong" to the key together — and each has a distinct quality and function.

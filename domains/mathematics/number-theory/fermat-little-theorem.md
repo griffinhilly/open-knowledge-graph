@@ -31,6 +31,45 @@ Derive it from group theory using the multiplicative group mod p. Verify with nu
 ## Common Misconceptions
 The converse is false: a^(n−1) ≡ 1 (mod n) does not imply n is prime (Carmichael numbers counterexample: 561 = 3·11·17). The condition gcd(a, p) = 1 is essential; the theorem fails when a is divisible by p.
 
+## Questions
+
+```yaml
+- question: "You need to compute 3^100 (mod 7). Using Fermat's Little Theorem, the most efficient approach is..."
+  type: multiple-choice
+  options:
+    - "Compute 3^100 directly by repeated squaring, then reduce mod 7 at the end"
+    - "Use 3^6 ≡ 1 (mod 7), write 100 = 16×6 + 4, so 3^100 ≡ 3^4 = 81 ≡ 4 (mod 7)"
+    - "Apply the corollary 3^7 ≡ 3 (mod 7) and write 100 as a multiple of 7 to reduce"
+    - "Reduce the base: since 3 < 7, conclude 3^100 ≡ 1 (mod 7) by the theorem"
+  answer: 1
+  explanation: "Since 7 is prime and gcd(3, 7) = 1, Fermat's Little Theorem gives 3^6 ≡ 1 (mod 7). Dividing the exponent: 100 = 16×6 + 4, so 3^100 = (3^6)^16 × 3^4 ≡ 1^16 × 81 ≡ 81 (mod 7). Since 81 = 11×7 + 4, the answer is 4. Option D is a common mistake: the theorem says a^(p−1) ≡ 1, not a^n ≡ 1 for arbitrary n — the exponent must be p−1 = 6, not 100. Option C uses the corollary a^p ≡ a, but 100 is not easily expressed as a power of 7."
+
+- question: "A primality test checks whether n = 561 satisfies a^560 ≡ 1 (mod 561) for several randomly chosen values of a coprime to 561. Every test passes. Can we conclude 561 is prime?"
+  type: multiple-choice
+  options:
+    - "Yes — if a^(n−1) ≡ 1 (mod n) holds for multiple bases, n must be prime by Fermat's theorem"
+    - "No — 561 = 3×11×17 is a Carmichael number, and Carmichael numbers satisfy a^(n−1) ≡ 1 (mod n) for all a coprime to n, even though they are composite"
+    - "Yes, but only if we test at least p−1 different bases"
+    - "No — but only because we should test a = 2 specifically; any other base gives false positives"
+  answer: 1
+  explanation: "The converse of Fermat's Little Theorem is false. Carmichael numbers are composite integers that satisfy a^(n−1) ≡ 1 (mod n) for every a coprime to n — they are 'absolute pseudoprimes' that defeat the Fermat test completely. 561 = 3×11×17 is the smallest Carmichael number. No matter how many bases you test, 561 will pass the Fermat test for all of them. This is why Fermat's test establishes only 'probable primality' — it definitively identifies composites (if it fails, n is composite), but cannot confirm primality. Stronger tests like Miller-Rabin close this gap."
+
+- question: "If p is prime and a is divisible by p, then a^(p−1) ≡ 1 (mod p)."
+  type: true-false
+  answer: false
+  explanation: "Fermat's Little Theorem requires gcd(a, p) = 1 — a must not be divisible by p. If p divides a, then a ≡ 0 (mod p), and 0^(p−1) = 0 ≢ 1 (mod p). The multiplicative group (ℤ/pℤ)* consists only of the nonzero residues {1, 2, …, p−1}; zero is not a member of this group. The theorem is a statement about elements of the multiplicative group, so it only applies when a is not a multiple of p."
+
+- question: "For any prime p and any integer a (whether or not a is divisible by p), it is true that a^p ≡ a (mod p)."
+  type: true-false
+  answer: true
+  explanation: "This corollary covers all integers a. Case 1: if gcd(a, p) = 1, Fermat's Little Theorem gives a^(p−1) ≡ 1 (mod p), and multiplying both sides by a gives a^p ≡ a (mod p). Case 2: if p divides a, then a ≡ 0 (mod p), so a^p ≡ 0^p = 0 ≡ a (mod p). Both cases satisfy a^p ≡ a (mod p). This unified form is often more convenient in proofs — it applies unconditionally with no coprimality requirement."
+
+- question: "Why does passing the Fermat primality test — even for many different base values — not guarantee that n is prime?"
+  type: short-answer
+  answer: "Carmichael numbers are composite integers that satisfy a^(n−1) ≡ 1 (mod n) for every integer a coprime to n. They are counterexamples to the converse of Fermat's Little Theorem. For such numbers, the Fermat test will pass for every valid base, giving no indication that n is composite. Because Carmichael numbers exist (infinitely many, in fact), the Fermat test can only identify non-primes (a failure guarantees compositeness) but cannot confirm primality. Deterministic primality requires tests like Miller-Rabin that use additional structural properties of primes beyond the basic group order argument."
+  explanation: "The Fermat test works by verifying a consequence of primality (the multiplicative group has order p−1). Carmichael numbers mimic this consequence for all bases without being prime — they are composite but structured so that their multiplicative group order divides n−1 for all coprime bases. Miller-Rabin adds a check for 'non-trivial square roots of 1 mod n,' which genuine primes cannot have, filtering out Carmichael numbers. For RSA key generation, Miller-Rabin's stronger guarantees are essential."
+```
+
 ## Explainer
 
 From your work with modular arithmetic, you know that integers mod p form a system where addition and multiplication wrap around. When p is prime, something special happens: every nonzero element has a multiplicative inverse mod p. This means the nonzero residues {1, 2, ..., p−1} form a **multiplicative group** under multiplication mod p, denoted (ℤ/pℤ)*. Its size — the **order** of the group — is p−1.

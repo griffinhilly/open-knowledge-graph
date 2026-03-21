@@ -28,6 +28,45 @@ Run a hand along door and window edges on a cold, windy day to feel air infiltra
 - Caulk lasts forever once applied — it cracks and separates after 5–10 years and should be inspected annually.
 - More caulk in a joint is better — excess caulk that is not tooled smooth traps water and looks unprofessional.
 
+## Questions
+
+```yaml
+- question: "You notice a draft coming through the edge of your front door where it meets the door frame when the door is closed. Should you apply caulk to seal this gap?"
+  type: multiple-choice
+  options:
+    - "Yes — caulk fills gaps and stops air infiltration in any location"
+    - "No — the door edge is a moving joint; caulk will crack within weeks and weatherstripping is the correct material"
+    - "Yes — but only silicone caulk, because it is more flexible than latex"
+    - "No — door drafts can only be fixed by replacing the door entirely"
+  answer: 1
+  explanation: "Caulk is for stationary joints — gaps that never move. A door edge opens and closes repeatedly, making it a moving joint. Applying caulk here will crack and peel within weeks from repeated flexing. The correct solution is weatherstripping (foam tape, V-strip, or door sweep), which is designed to compress and release with each door cycle without adhesive failure."
+
+- question: "You need to seal the joint where a bathtub meets the tile wall. Which type of caulk should you use?"
+  type: multiple-choice
+  options:
+    - "Paintable latex caulk — it cleans up with water and is easier to work with"
+    - "Silicone caulk — it is waterproof and remains flexible, designed for wet areas"
+    - "Either type works equally well in wet, high-humidity areas"
+    - "No caulk — bathtub edges should be left open to allow water to drain"
+  answer: 1
+  explanation: "Silicone caulk is waterproof and stays flexible as surfaces expand and contract with temperature — both critical in a constantly wet environment. Latex caulk is not waterproof and will fail, crack, and develop mold in this application. Save latex caulk for dry interior trim work where it can be painted and easily touched up."
+
+- question: "You can effectively repair a cracked caulk joint by applying a fresh bead of caulk directly over the old cracked caulk."
+  type: true-false
+  answer: false
+  explanation: "New caulk over failed old caulk creates only a cosmetic patch. The old caulk has already separated from the surfaces along the adhesion line — new caulk bonds to the old caulk, not to the underlying surfaces. The joint will crack along the original failure line within a season. The correct approach is to remove all old caulk with a utility knife first, then apply fresh caulk to clean, bare surfaces."
+
+- question: "Silicone caulk is the better choice for exterior joints and wet areas, while paintable latex caulk is better for interior trim work."
+  type: true-false
+  answer: true
+  explanation: "Silicone is waterproof, flexible, and lasts 20+ years but cannot be painted and requires mineral spirits for cleanup — ideal for wet and exterior applications. Latex caulk cleans up with water, accepts paint, and blends seamlessly with molding and trim — but it is not waterproof and will fail outdoors. Matching caulk type to application is as important as applying it correctly."
+
+- question: "Why is it wrong to use caulk to seal the moving edge of a door or an operable window?"
+  type: short-answer
+  answer: "Doors and operable windows are moving joints — they open and close repeatedly. Caulk cures rigid; repeated flexing quickly cracks it and causes it to separate from the surface. Weatherstripping is the correct material because it is designed to compress and release with each cycle without losing its seal."
+  explanation: "The core principle is matching the material to the movement. Caulk works by bonding rigidly to two stationary surfaces. Any joint that moves breaks that bond. Weatherstripping works by compression and contact rather than adhesion, so repeated cycling doesn't damage it. Using the wrong material for a moving joint wastes time and money and leaves the gap unsealed."
+```
+
 ## Explainer
 
 Air infiltration is one of the largest and most overlooked sources of energy loss in a home. The Department of Energy estimates that air leaks account for 25–40% of heating and cooling costs in a typical house. Unlike insulation failures (which slow heat transfer), air leaks create direct pathways for conditioned air to escape and unconditioned outdoor air to enter. Sealing these leaks is one of the highest-return maintenance tasks you can do — materials cost a few dollars and the energy savings accumulate every month. From your prerequisite work with basic hand tools, you already have the skills to handle a caulk gun, which is the primary tool for this job.

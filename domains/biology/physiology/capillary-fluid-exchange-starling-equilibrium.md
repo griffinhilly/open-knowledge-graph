@@ -32,6 +32,45 @@ Study intracapillary and interstitial pressures using micropipette manometry in 
 ## Common Misconceptions
 Net fluid movement is not determined by a single pressure; changes in one Starling force are partially compensated by changes in interstitial protein concentration and lymphatic drainage, maintaining relative balance.
 
+## Questions
+
+```yaml
+- question: "Why does net fluid filtration occur at the arteriolar end of a capillary but net reabsorption at the venular end?"
+  type: multiple-choice
+  options:
+    - "Plasma protein concentration is higher at the arteriolar end, increasing oncotic pressure and drawing fluid in"
+    - "Capillary hydrostatic pressure falls along the capillary length, so it exceeds plasma oncotic pressure at the arteriolar end but falls below it at the venular end"
+    - "The capillary wall is more permeable to water at the arteriolar end than at the venular end"
+    - "Interstitial oncotic pressure is higher at the arteriolar end, pulling fluid into the tissue"
+  answer: 1
+  explanation: "The key is that plasma oncotic pressure (~25 mmHg) stays roughly constant along the capillary, while capillary hydrostatic pressure drops from ~35 mmHg at the arteriolar end to ~15 mmHg at the venular end. At the arteriolar end, hydrostatic > oncotic: net outward force drives filtration. At the venular end, oncotic > hydrostatic: net inward force drives reabsorption. This pressure gradient along the capillary is what creates the directional cycle of filtration and reabsorption."
+
+- question: "A patient with advanced liver cirrhosis develops severe ascites (abdominal fluid accumulation) and peripheral edema. Which primary Starling force disruption explains this?"
+  type: multiple-choice
+  options:
+    - "Increased capillary hydrostatic pressure from elevated cardiac output"
+    - "Reduced plasma oncotic pressure from impaired albumin synthesis, decreasing the inward force that returns fluid to capillaries"
+    - "Elevated interstitial hydrostatic pressure forcing fluid back into capillaries"
+    - "Lymphatic obstruction from fibrotic damage to lymph node architecture"
+  answer: 1
+  explanation: "The liver synthesizes albumin, which is the primary protein generating plasma oncotic pressure. In cirrhosis, reduced albumin production lowers plasma oncotic pressure, weakening the inward force that normally draws fluid back into the venular end of capillaries. Net filtration increases while net reabsorption decreases, and the lymphatic system cannot compensate for the excess — edema results. This is the Starling framework applied directly to pathology: identify the disrupted force, predict the consequence."
+
+- question: "Under normal conditions, the lymphatic system is essential for preventing edema because slightly more fluid is filtered from capillaries than is directly reabsorbed."
+  type: true-false
+  answer: true
+  explanation: "At baseline, filtration slightly exceeds reabsorption — roughly 3 liters per day of fluid leave capillaries but are not directly reabsorbed at the venular end. This excess enters the lymphatic system, which collects it from the interstitium and returns it to the venous circulation near the heart. When lymphatics are blocked (lymphedema) or overwhelmed, this surplus accumulates as edema. The lymphatic system is therefore not optional infrastructure — it is an integral component of the Starling equilibrium."
+
+- question: "Net fluid reabsorption at the venular end of the capillary is driven primarily by capillary hydrostatic pressure."
+  type: true-false
+  answer: false
+  explanation: "This gets the direction wrong. Capillary hydrostatic pressure is an *outward* force — it pushes fluid out of the capillary. At the venular end, hydrostatic pressure is *low* (~15 mmHg), which is why it no longer overcomes plasma oncotic pressure. The dominant force at the venular end is plasma oncotic pressure (~25 mmHg), which pulls fluid *inward* into the capillary. The common confusion is assuming hydrostatic pressure drives reabsorption because 'pressure pushes things together,' but direction matters: hydrostatic pressure here is the pressure inside the capillary, pushing outward."
+
+- question: "Explain how the four Starling forces work together to create directional fluid exchange from the arteriolar to the venular end of a capillary."
+  type: short-answer
+  answer: "Two forces push fluid out of the capillary: capillary hydrostatic pressure (blood pressure from the heart) and interstitial oncotic pressure (protein pull from tissue fluid). Two forces pull fluid in: plasma oncotic pressure (albumin's osmotic pull inside the capillary) and interstitial hydrostatic pressure (tissue back-pressure). At the arteriolar end, high capillary hydrostatic pressure (~35 mmHg) exceeds plasma oncotic pressure (~25 mmHg), producing net filtration outward. As blood flows toward the venular end, hydrostatic pressure falls (~15 mmHg) below plasma oncotic pressure, reversing the balance to net reabsorption inward."
+  explanation: "The elegance of the Starling model is that a single equation captures why fluid moves in opposite directions at each end of the capillary — without any change in capillary permeability or protein concentrations, simply because hydrostatic pressure drops along the capillary length. Any disease that alters one of the four forces shifts this balance predictably, and the Starling framework allows you to diagnose which force was disrupted from the pattern of edema."
+```
+
 ## Explainer
 
 Every cell in your body lives in a bath of interstitial fluid, and that fluid must be continuously renewed. The capillary wall is where this exchange happens — nutrients, wastes, and water move between the bloodstream and the tissue space. You already understand osmosis and passive transport: water moves down its concentration gradient, and solutes cross membranes according to their permeability and driving forces. The **Starling equation** applies these principles specifically to the capillary wall, identifying four pressures that determine whether fluid filters out of the capillary or is reabsorbed back in.

@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Three Punic Wars (264–146 BCE) pitted Rome against Carthage for dominance of the western Mediterranean. Rome's ultimate victory made it the dominant Mediterranean power and transformed the republic into a territorial empire. The wars introduced unprecedented scale of military organization, with Rome building massive fleets and maintaining legions across distant theaters. The third war's destruction of Carthage exemplified Rome's ruthlessness in eliminating rivals and its willingness to project power far from home.
 
+## Questions
+
+```yaml
+- question: "What was Rome's most significant military adaptation during the First Punic War, and why was it decisive?"
+  type: multiple-choice
+  options:
+    - "Rome adopted Carthaginian mercenary tactics, replacing its citizen-legions with professional soldiers"
+    - "Rome built a fleet from scratch and added the corvus boarding device, converting naval battles into close-quarters fighting"
+    - "Rome forged a naval alliance with Greek city-states that neutralized Carthaginian sea power"
+    - "Rome avoided direct naval confrontation entirely, focusing exclusively on land campaigns in Sicily"
+  answer: 1
+  explanation: "Rome entered the First Punic War without a navy and responded by constructing one essentially from scratch using a captured Carthaginian vessel as a template. The corvus — a boarding bridge that locked onto enemy ships — transformed naval engagements into something closer to land battles where Roman discipline could dominate. More significant than the tactic itself was what it demonstrated: Rome's capacity to mobilize enormous resources, master an unfamiliar domain, and rebuild after catastrophic losses — the institutional adaptability that would define Roman imperialism."
+
+- question: "Why did Rome's victory in the Second Punic War not come from defeating Hannibal in pitched battle in Italy?"
+  type: multiple-choice
+  options:
+    - "Hannibal was defeated at Cannae before he could campaign extensively"
+    - "Rome adopted the Fabian strategy of attrition in Italy while striking at Carthage's base in Spain and then Africa"
+    - "Rome's superior cavalry eventually neutralized Hannibal's war elephants in the Italian theater"
+    - "Hannibal's army dissolved when his Italian allies defected back to Rome after Cannae"
+  answer: 1
+  explanation: "After the catastrophic defeat at Cannae (216 BCE), Rome refused to meet Hannibal again in pitched battle. The Fabian strategy — harassing his supply lines, avoiding direct engagement — contained Hannibal while Rome sent Scipio Africanus to attack Carthage's resource base in Spain and then Africa. Carthage had to recall Hannibal, and Scipio defeated him at Zama (202 BCE). Rome won by attacking the source rather than the symptom, and by outlasting Hannibal through strategic patience."
+
+- question: "The Third Punic War was triggered by Carthaginian military aggression against Roman allies."
+  type: true-false
+  answer: false
+  explanation: "The Third Punic War was provoked by Roman political sentiment, not Carthaginian aggression. Carthage had complied with every treaty obligation from the Second Punic War and posed no credible military threat. Rome declared war on a pretext, driven in part by Cato the Elder's repeated 'Carthago delenda est.' The decision to destroy Carthage was purely geopolitical — eliminating a wealthy rival — not a response to actual aggression. This reflects a defining feature of Roman imperial behavior: willingness to use overwhelming force preemptively to eliminate potential rivals."
+
+- question: "Rome's acquisition of Sicily after the First Punic War was primarily significant as a grain source for feeding the Roman population."
+  type: true-false
+  answer: false
+  explanation: "While Sicilian grain was economically important, the primary significance was institutional: Sicily became Rome's first overseas province, establishing the template for governing conquered territories through proconsular governors rather than the republic's annual magistrates. This precedent had profound constitutional consequences — permanent overseas commands began concentrating power in individual generals in ways the republican system was not designed to contain, and this dynamic eventually contributed to the republic's collapse."
+
+- question: "How did the Punic Wars change Roman society in ways that contributed to the eventual collapse of the Roman Republic?"
+  type: short-answer
+  answer: "The wars flooded Rome with enslaved captives, displacing free farmers who had served in the legions and returned to find their land economically unviable against slave-worked estates. War spoils enriched the senatorial class, widening inequality. Overseas provinces required extended military commands — proconsuls serving multi-year terms — concentrating power in individual generals in ways the annual-magistracy system couldn't contain. These social and institutional pressures eventually produced the crises of the late republic and the civil wars that ended it."
+  explanation: "The key insight is that the Punic Wars were not just a military story but a social transformation. The combination of mass slavery, widening wealth inequality, urban displacement of farmers, and provincial commands that created independent military figures — Scipio Africanus, later Marius, Sulla, and Caesar — created the structural conditions for the republic's breakdown. The wars made Rome a Mediterranean empire while making the republic constitutionally unstable."
+```
+
 ## Explainer
 
 From your study of the Roman Republic's constitution, you know that Rome in the mid-third century BCE was a regional Italian power with a well-functioning civic-military system: citizen-soldiers, annually elected magistrates, a Senate managing foreign policy, and a culture that linked military service to political standing. What the Roman Republic was not, at the start of the First Punic War, was a naval power or an empire in any meaningful sense. The Punic Wars changed both of those facts — and in doing so, set in motion the internal pressures that would eventually destroy the republic itself.

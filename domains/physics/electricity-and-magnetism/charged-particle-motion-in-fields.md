@@ -32,6 +32,45 @@ Derive the velocity selector condition v = E/B by balancing electric and magneti
 - The magnetic force does no work on charged particles — it changes direction but not speed, so the kinetic energy of a particle in a purely magnetic field is constant.
 - The Hall effect is not limited to metals; it is used in semiconductors to determine carrier type (electrons vs. holes) and is the basis of modern Hall-effect sensors.
 
+## Questions
+
+```yaml
+- question: "A proton enters a uniform magnetic field with its velocity perpendicular to the field. What happens to the proton's speed and path?"
+  type: multiple-choice
+  options:
+    - "Speed increases and the path curves — the magnetic force accelerates the proton along its direction of motion"
+    - "Speed stays constant and the path is circular — the magnetic force acts perpendicular to velocity, changing direction without doing work"
+    - "Speed decreases as kinetic energy is transferred to the magnetic field"
+    - "The path is helical, with the radius increasing over time as the proton gains energy"
+  answer: 1
+  explanation: "The magnetic force F = qv × B is always perpendicular to the velocity vector. A force perpendicular to motion cannot do work (W = F·d = 0 when F ⊥ displacement), so kinetic energy — and therefore speed — stays constant. The direction changes continuously, and since the force magnitude is also constant (|F| = qvB, with v constant), the particle follows uniform circular motion. Options A and C both imply the magnetic force does work on the particle, which is fundamentally wrong. Option D describes helical motion, which occurs when velocity has a component parallel to B — not the case here."
+
+- question: "In a velocity selector with perpendicular electric field E and magnetic field B, a positive particle moving faster than v = E/B will:"
+  type: multiple-choice
+  options:
+    - "Travel straight through undeflected, since it satisfies the balance condition"
+    - "Be deflected in the direction of the electric force, since faster particles experience greater electric force"
+    - "Be deflected in the direction of the magnetic force, since the magnetic force qvB exceeds the electric force qE"
+    - "Slow down until it reaches v = E/B, then travel straight"
+  answer: 2
+  explanation: "At v = E/B, the electric force qE and magnetic force qvB balance exactly — zero net force, straight trajectory. For v > E/B, the magnetic force qvB > qE, so the magnetic force dominates and deflects the particle in the direction of −(v × B). The electric force does not change with speed (it depends only on q and E), but the magnetic force grows with speed. Faster particles experience net magnetic deflection; slower particles experience net electric deflection. Option D incorrectly suggests the device decelerates particles — the fields exert forces but cannot remove kinetic energy in this configuration (the magnetic force does no work)."
+
+- question: "A magnetic field can accelerate a charged particle — that is, increase its kinetic energy — if the particle moves through a strong enough field."
+  type: true-false
+  answer: false
+  explanation: "This is a fundamental misconception. The magnetic force F = qv × B is always perpendicular to the velocity. Since work equals force times displacement in the direction of force (W = F · d), and the magnetic force has zero component along the displacement, it does no work. A particle in a purely magnetic field maintains constant speed (and thus constant kinetic energy) forever, regardless of field strength. Only an electric field — which can have a component along the particle's motion — can change kinetic energy. This is why cyclotrons need an alternating electric field to accelerate particles, not just the magnetic field."
+
+- question: "Two ions with identical mass-to-charge ratios (m/q) but different speeds will still strike the same location in a mass spectrometer."
+  type: true-false
+  answer: true
+  explanation: "A mass spectrometer uses a velocity selector to ensure all ions entering the magnetic deflection region have the same speed v = E/B. Since cyclotron radius r = mv/(|q|B), and all ions have the same v and B, the radius depends only on m/q. Two ions with the same m/q will curve with the same radius regardless of any speed differences they had before the selector — the selector eliminates that variable. They land at the same location. This is why the velocity selector is an essential first stage: it collapses the variable of speed, leaving m/q as the only determinant of deflection."
+
+- question: "Why does the magnetic force cause circular motion rather than acceleration? What fundamental property of the force is responsible?"
+  type: short-answer
+  answer: "The magnetic force is always perpendicular to the particle's velocity (F = qv × B is a cross product). A force perpendicular to motion can never do work — it has no component along the displacement, so it transfers no energy. Instead of speeding the particle up or slowing it down, the force continuously redirects it. Because the speed stays constant, so does the magnitude of the force (|F| = q|v||B|sin θ = qvB for perpendicular entry). A constant-magnitude force always pointing toward a fixed axis is exactly the centripetal force condition for uniform circular motion. The geometry is self-sustaining: the force stays perpendicular because the velocity keeps rotating."
+  explanation: "This question tests whether students understand the cross-product geometry of the Lorentz force rather than just memorizing 'magnetic forces cause circular motion.' The key chain of reasoning is: perpendicular force → no work → constant speed → constant force magnitude → centripetal condition → circular path. Breaking any link in this chain reveals a misconception. The perpendicularity of the cross product is the root cause; everything else follows."
+```
+
 ## Explainer
 
 The magnetic force on a moving charge is F = qv × B — always perpendicular to the velocity. Because this force never has a component along the motion, it cannot do work: the particle's speed stays constant while its direction changes continuously. The result is uniform circular motion, with the magnetic force providing centripetal acceleration. Setting qvB = mv²/r gives the **cyclotron radius** r = mv/(|q|B). Heavier particles curve more gently; faster ones curve more widely; stronger fields produce tighter circles. This is why a charged particle spirals in a magnetic field rather than accelerating or decelerating — the field acts purely as a steering force.

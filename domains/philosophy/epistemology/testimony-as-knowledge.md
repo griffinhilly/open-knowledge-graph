@@ -35,6 +35,45 @@ Consider the practical implications: you know that Napoleon existed, that antibi
 - Accepting testimony is not epistemically passive or irrational; testimony is a genuine source of knowledge, not merely a proxy for other sources.
 - Anti-reductionism does not say all testimony should be believed uncritically — it posits a defeasible default entitlement, not an indefeasible right.
 
+## Questions
+
+```yaml
+- question: "You believe that antibiotics work against bacterial infections, but you have never designed a clinical trial or reviewed the original research literature. Under the reductionist (Humean) view, your belief in antibiotic efficacy is:"
+  type: multiple-choice
+  options:
+    - "Unjustified, because you have not personally verified the findings through your own observation"
+    - "Justified by your own inductive track-record evidence — you have observed that medical consensus, scientists, and science communicators tend to be reliable, and your belief rests on that accumulated evidence"
+    - "Justified by a default entitlement to accept testimony absent specific reasons for doubt"
+    - "Justified, but only if you can cite specific studies — otherwise it is mere hearsay"
+  answer: 1
+  explanation: "The reductionist view (Hume) holds that testimonial justification must be grounded in the believer's own inductive evidence about the reliability of testimony in that domain. So your belief in antibiotic efficacy is justified not because you verified the research yourself, but because you have evidence (accumulated over time) that medical scientists are reliable sources on such matters. Option C describes the anti-reductionist (Reidian) position, not Hume's."
+
+- question: "A propagandist deliberately spreads false claims through channels that appear credible — well-designed websites, authoritative-seeming spokespeople, realistic-looking documents. Many people believe the false claims. This case poses the greatest challenge for which position?"
+  type: multiple-choice
+  options:
+    - "Reductionism — because it shows that people cannot practically evaluate the reliability of every testimony source"
+    - "Anti-reductionism — because a default entitlement to believe credible-seeming testimony is precisely what deliberate disinformation exploits"
+    - "Both positions equally — neither has adequate resources to explain manipulation through testimony"
+    - "Neither position — propaganda is a political problem, not an epistemological one"
+  answer: 1
+  explanation: "Anti-reductionism posits a default entitlement to accept testimony absent specific defeaters. Propaganda is specifically engineered to suppress those defeaters — it mimics credibility, suppresses counter-evidence, and exploits the very default trust that anti-reductionism endorses. This is the most powerful objection to pure anti-reductionism: it leaves epistemic agents vulnerable to systematic manipulation. Reductionism faces its own challenges (how much track-record evidence do you actually have?), but it is anti-reductionism that this case directly stresses."
+
+- question: "Anti-reductionism holds that all testimony should be believed unconditionally, because it posits testimony as a basic source of knowledge equivalent to perception."
+  type: true-false
+  answer: false
+  explanation: "This is one of the most important misconceptions about anti-reductionism. Anti-reductionism posits a defeasible default entitlement — a presumption in favor of accepting testimony that can be overridden by specific evidence of unreliability (defeaters). It does not claim testimony is infallible or should always be believed. The analogy to perception is instructive: we have a default entitlement to believe our perceptions, but that entitlement can be defeated by evidence of illusion. Similarly, testimonial entitlement is defeasible, not absolute."
+
+- question: "Accepting a belief on the basis of testimony is epistemically inferior to forming beliefs through direct perception, because testimony is merely a relay of someone else's knowledge rather than genuine knowledge of one's own."
+  type: true-false
+  answer: false
+  explanation: "Most contemporary epistemologists, including anti-reductionists and many hybrid view advocates, hold that testimony is a basic source of knowledge alongside perception, memory, and inference — not a lesser or derivative one. Rejecting this would render most human knowledge illegitimate: virtually everything known about history, science, medicine, and geography rests ultimately on testimony. Accepting testimony is not epistemically passive; under the right conditions, it is a fully rational, epistemically legitimate way of acquiring knowledge."
+
+- question: "Why does the reductionist position (Hume's view) struggle to account for ordinary human knowledge, despite being initially plausible?"
+  type: short-answer
+  answer: "Reductionism requires testimonial justification to be grounded in the believer's own inductive track-record evidence — you believe testimony because you've personally observed that people in that domain tend to be reliable. The problem is empirical implausibility: most people cannot actually articulate enough personal track-record evidence to justify the vast majority of what they believe. Most of what people know about science, history, and geography was absorbed in childhood before they had the critical apparatus to evaluate reliability. A view that cannot account for the justification of ordinary, widely-held knowledge faces a serious challenge."
+  explanation: "The reductionist faces a bootstrapping problem: to accumulate track-record evidence about the reliability of testimony, you must first accept some testimony to get started. And the scale problem is equally severe — the amount of personal observation needed to ground knowledge of antibiotics, plate tectonics, or the French Revolution would require more direct experience than any individual can accumulate. Anti-reductionism starts from this implausibility and proposes that the entitlement must be more basic. But as the propaganda case shows, neither view resolves all the challenges — which is why hybrid views (Lackey) are increasingly influential."
+```
+
 ## Explainer
 
 From your study of justified true belief, you know that knowledge requires not just a true belief but a justified one — adequate epistemic grounds for holding it. The puzzle of **testimonial knowledge** is that most of what you believe comes from testimony (other people's assertions), yet the justification for those beliefs is not obviously your own. You know that the Earth is approximately 4.5 billion years old. You have not done the radiometric dating yourself. You believe it because scientists have, and because science teachers, textbooks, and science journalists have reliably conveyed that conclusion. Is this real knowledge, or merely deference? And if it is knowledge, what justifies it?

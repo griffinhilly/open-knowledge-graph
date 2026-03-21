@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Decorative arts, crafts, and functional design have historically been undervalued compared to 'fine art,' yet they represent crucial aspects of human creativity and cultural expression. Traditions like ceramics, textiles, metalwork, and furniture reveal technological innovation, aesthetic sophistication, and cultural values. The hierarchy between fine art and craft has particularly disadvantaged women artists (concentrated in textile and decorative traditions) and non-Western cultures. Examining decorative arts across cultures reveals the artificial nature of art-versus-craft distinctions.
 
+## Questions
+
+```yaml
+- question: "In Japanese aesthetic culture, raku tea bowls made for the tea ceremony are among the most revered objects. How does this challenge the Western fine art/craft hierarchy?"
+  type: multiple-choice
+  options:
+    - "It shows that Japan had no fine art tradition and relied entirely on functional objects for cultural expression"
+    - "It demonstrates that the fine art/craft distinction is historically constructed, not universal — in Japanese culture, functional objects can occupy the highest position in the aesthetic hierarchy"
+    - "It proves that ceramics should be reclassified as fine art in the Western tradition as well"
+    - "It shows that the hierarchy existed in Japan too, since tea bowls were only made by elite artists"
+  answer: 1
+  explanation: "The Japanese tea ceremony aesthetic, rooted in wabi-sabi (the beauty of imperfection and transience), elevates raku tea bowls to objects of deep cultural and spiritual significance. There is no subordinate 'craft' category for them — they are simply revered objects. This directly contradicts the Western assumption that functional objects occupy a lower aesthetic category than 'pure' art made only for contemplation. The contrast reveals the Western hierarchy as a cultural construction, not a natural law."
+
+- question: "The founding of European academies like the Académie Royale de Peinture et de Sculpture (1648) reinforced the fine art/craft hierarchy primarily by:"
+  type: multiple-choice
+  options:
+    - "Teaching craft techniques to a broader range of students, including women and artisans"
+    - "Institutionally excluding decorative arts from the definition of fine art, reserving prestige and training for painting and sculpture"
+    - "Abolishing the guild system and replacing it with open competition between artists and craftspeople"
+    - "Encouraging the integration of art and function by promoting applied design projects"
+  answer: 1
+  explanation: "The academies formalized a hierarchy that placed history painting at the top and excluded functional/decorative arts entirely. By controlling training, exhibition, and patronage, they institutionalized the view that 'real' art was for disinterested contemplation, not use. Ceramics, textiles, and metalwork — however skilled — were outside the system. This was not a natural development; it was a deliberate political strategy by painters and sculptors to raise their social status above that of artisans."
+
+- question: "The fine art/craft hierarchy has historically disadvantaged women artists because women's creative work was often channeled into textile and decorative arts, which the hierarchy then classified as inferior to fine art."
+  type: true-false
+  answer: true
+  explanation: "Women were barred from life drawing classes, academy membership, and large-scale public commissions throughout most of European history. Their creative expression was directed into embroidery, ceramics, textiles, and domestic design. The hierarchy then dismissed these as mere craft rather than art — a double exclusion. The feminist art movement, particularly Judy Chicago's The Dinner Party (1974–79), explicitly challenged this by using ceramic and textile techniques in a major museum artwork."
+
+- question: "The distinction between fine art and decorative art has existed in essentially the same form across all cultures and throughout history."
+  type: true-false
+  answer: false
+  explanation: "The fine art/craft hierarchy as we know it solidified in Renaissance Europe through specific institutional developments — the founding of academies and the campaign by painters and sculptors to distinguish themselves from guild artisans. Before this period, and in non-Western traditions, the distinction either did not exist or was drawn very differently. Islamic geometric tilework, Navajo weaving, and Chinese porcelain integrate aesthetic sophistication with functional purpose without any sense of hierarchical inferiority to 'fine' art."
+
+- question: "Explain how the 'disinterested contemplation' criterion — the idea that true art should be looked at, not used — encodes cultural assumptions that disadvantaged both women and non-Western artistic traditions."
+  type: short-answer
+  answer: "By defining 'art' as objects made purely for visual and aesthetic contemplation (no practical function), the standard automatically excluded the creative forms available to women (textiles, embroidery, ceramics, domestic design) and the aesthetic traditions of cultures that integrate beauty with function (Islamic geometric ornament, Navajo weaving, Japanese ceramics). These were not deficient in skill or aesthetic sophistication — they were excluded by a definition constructed to protect the privileges of a specific group (male European academic painters and sculptors). The criterion looks neutral but encodes the values of a particular historical moment and social class."
+  explanation: "This connects the art/craft debate to broader questions of who defines quality, whose creative work counts as 'serious,' and how institutional power shapes cultural value. The feminist and postcolonial art history of the late 20th century made this critique central to the discipline."
+```
+
 ## Explainer
 
 The distinction between "fine art" and "decorative art" — or between "art" and "craft" — feels natural to most people educated in the Western tradition. Painting and sculpture are art; pottery and weaving are craft. But this hierarchy is historically constructed, not inevitable, and understanding how it came about reveals as much about power and social organization as it does about aesthetics.

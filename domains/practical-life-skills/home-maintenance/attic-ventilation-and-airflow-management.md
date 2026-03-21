@@ -32,6 +32,45 @@ Examine soffit and ridge vents in an attic. Check for blocked vents, proper spac
 ## Common Misconceptions
 More insulation reduces ventilation needs (proper ventilation is still required for moisture control); blocking vents saves energy (creates moisture and mold problems); inadequate ventilation won't cause problems if insulation is thick.
 
+## Questions
+
+```yaml
+- question: "A homeowner notices moisture staining and mold on the roof sheathing in winter. They have ridge vents installed but no soffit vents. What is the most likely cause of the moisture problem?"
+  type: multiple-choice
+  options:
+    - "The ridge vents are too large and are allowing cold outdoor air to drive condensation"
+    - "Without soffit vents, there is no intake path; the ventilation system has no paired flow and warm moist air accumulates rather than being swept out"
+    - "The insulation R-value is too high, trapping moisture in the attic"
+    - "Ridge vents are ineffective in winter because warm air does not rise in cold climates"
+  answer: 1
+  explanation: "Attic ventilation requires a paired system: intake at the bottom (soffit vents) and exhaust at the top (ridge vents). Without soffit vents, ridge vents alone cannot create continuous airflow — there is no pressure differential to draw air through. Warm, moist air rising from the living space enters the attic and has nowhere to go, eventually condensing on cold roof sheathing. Adding ridge vents without intake can actually worsen the problem by creating pathways for conditioned air to be pulled out of the living space."
+
+- question: "A homeowner improves their attic's thermal performance by hiring a crew to blow in additional insulation. Two years later, they discover mold on roof framing. The most likely cause is:"
+  type: multiple-choice
+  options:
+    - "The extra insulation raised the attic temperature in summer, accelerating mold growth"
+    - "Blown-in insulation commonly introduces mold spores during installation"
+    - "The blown-in insulation filled the soffit vent airway, eliminating the intake side of the ventilation system"
+    - "Higher insulation R-value traps moisture inside the insulation itself"
+  answer: 2
+  explanation: "This is a documented and common installation error. Blown-in insulation fills the entire attic floor area, and without baffles installed to maintain a channel from the soffit vents to the attic space, the insulation blocks the intake airway. The result is a well-insulated attic with no airflow — precisely the conditions for condensation-driven mold. Proper installation uses rafter baffles (channels stapled to the rafters before blowing insulation) to preserve the soffit-to-ridge air pathway."
+
+- question: "Adding more insulation to the attic floor reduces the need for ventilation, because less heat escapes from the living space and the attic stays closer to outdoor temperatures."
+  type: true-false
+  answer: false
+  explanation: "Insulation reduces heat transfer, but ventilation serves a separate purpose: moisture control. Warm moist air from the living space constantly migrates upward through ceiling penetrations (light fixtures, recessed cans, access hatches). Without ventilation, this moisture condenses on cold roof sheathing regardless of insulation thickness. In fact, a well-insulated attic with no ventilation can be worse, because the insulation keeps the living-space heat from warming the attic, making the roof sheathing colder and more prone to condensation."
+
+- question: "Attic ventilation requires both intake vents (soffit) and exhaust vents (ridge or gable) to function — adding only one type without the other will not create continuous airflow."
+  type: true-false
+  answer: true
+  explanation: "This is the central principle of attic ventilation system design. Airflow requires a pressure differential: cool air enters at the soffit (low point), warms in the attic, and exits at the ridge or gable (high point) via the stack effect and wind pressure. If only exhaust vents are present, negative pressure may pull conditioned air from the living space. If only intake vents are present, there is no exit path and air stagnates. Both sides of the paired system must be present and unobstructed."
+
+- question: "Why is attic ventilation described as a 'paired system,' and what structural or physical principle makes both intake and exhaust vents necessary?"
+  type: short-answer
+  answer: "Continuous airflow through the attic requires a pressure differential — air must be able to enter at one point and exit at another. Soffit vents (intake at the eaves) and ridge or gable vents (exhaust at the peak) create this differential by exploiting the stack effect: warm air rises and exits from the top, drawing cool air in from the bottom. Without intake vents, no replacement air can enter and airflow stalls. Without exhaust vents, warm moist air has no escape path and accumulates. The system fails if either half is missing or blocked."
+  explanation: "The physics is analogous to a chimney: you cannot have a draft if the bottom is sealed. The same principle applies to attic airflow. A common way to visualize it: imagine the soffit as the 'inlet' and the ridge as the 'outlet' of a ventilation duct that runs through the entire attic space. Blocking either end stops flow. The 1:150 ventilation ratio (1 sq ft of vent area per 150 sq ft of attic floor) further specifies how much total vent area is needed, ideally split evenly between intake and exhaust."
+```
+
 ## Explainer
 
 From your study of attic ventilation and insulation fundamentals, you understand the basic principle: insulation slows heat transfer through the building envelope, while ventilation moves air to control temperature and moisture. Airflow management in the attic applies these principles to a space that is simultaneously adjacent to the heated living area below and directly exposed to outdoor conditions above — and the failure to manage this boundary correctly leads to some of the most expensive repairs homeowners encounter.

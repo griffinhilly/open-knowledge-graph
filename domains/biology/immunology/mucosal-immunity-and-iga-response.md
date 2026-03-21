@@ -29,6 +29,45 @@ Diagram the mucosal immune system from antigen capture via M cells to IgA plasma
 ## Common Misconceptions
 - Mucosal immunity is identical to systemic immunity (mucosal sites induce distinct Th2-biased responses, IgA switching, and tissue-resident memory cells). - IgA functions through complement activation (IgA is poor at complement activation; it functions mainly through exclusion and immune exclusion).
 
+## Questions
+
+```yaml
+- question: "A bacterial pathogen enters the gut lumen and approaches the epithelial surface. How does secretory IgA ideally counter this threat?"
+  type: multiple-choice
+  options:
+    - "By activating the complement cascade to lyse the bacterium in the gut lumen"
+    - "By coating the bacterium to prevent it from binding to and crossing the epithelial barrier"
+    - "By recruiting neutrophils from submucosal capillaries to phagocytose the bacterium"
+    - "By triggering mast cell degranulation to expel the pathogen through intestinal contractions"
+  answer: 1
+  explanation: "IgA works through immune exclusion — a non-inflammatory mechanism. It coats pathogens and toxins, preventing them from adhering to and translocating across the epithelium. This 'quiet' defense is essential: complement activation, neutrophil recruitment, and mast cell degranulation would cause tissue inflammation that damages the very barrier being defended. IgA's inability to activate complement (unlike IgG) is not a weakness but a feature perfectly suited to the mucosal environment."
+
+- question: "Why is IgA the dominant protective antibody at mucosal surfaces rather than IgG, which is more abundant in serum and more effective at killing pathogens through complement and phagocytosis?"
+  type: multiple-choice
+  options:
+    - "IgA is simply more abundant than IgG and diffuses readily through the mucosal epithelium by passive transport"
+    - "IgA activates complement more effectively than IgG in the low-pH environment of the gut"
+    - "IgA protects through immune exclusion without triggering inflammation that would damage the delicate mucosal barrier"
+    - "IgG cannot be produced locally in the lamina propria because B cells there cannot undergo class switching"
+  answer: 2
+  explanation: "The mucosal environment demands a different defensive logic than systemic immunity. IgG's effector mechanisms — complement, opsonization, ADCC — are powerful but inflammatory. At mucosal surfaces with a vast, thin epithelium that must remain intact, inflammation would be self-destructive. IgA's immune exclusion mechanism neutralizes threats without triggering tissue damage. Additionally, IgA is actively transported across the epithelium via pIgR and is protected from luminal proteases by its secretory component — a transport system that IgG lacks."
+
+- question: "Secretory IgA is produced locally by plasma cells in the mucosal lamina propria and is transported across the epithelium by the polymeric immunoglobulin receptor before being released into the gut lumen."
+  type: true-false
+  answer: true
+  explanation: "This transcytosis pathway is what makes secretory IgA work. B cells primed in Peyer's patches migrate to the lamina propria and differentiate into IgA-secreting plasma cells (driven by TGF-β and the mucosal cytokine environment). Dimeric IgA secreted into the lamina propria binds the pIgR on the basolateral epithelial surface, is carried through the cell, and is cleaved at the apical surface. The retained secretory component protects sIgA from the harsh luminal environment, enabling the 3–5 grams produced daily to function in the gut."
+
+- question: "IgA is an effective activator of the complement cascade, which is why it is the dominant protective antibody at mucosal surfaces."
+  type: true-false
+  answer: false
+  explanation: "This reverses the logic of mucosal immunity. IgA is a poor activator of complement — and this is by design. Complement activation at mucosal surfaces would recruit neutrophils and cause tissue inflammation, damaging the epithelial barrier. IgA's protective mechanism is immune exclusion: it neutralizes pathogens and toxins by blocking attachment, not by killing them with effector molecules. IgM and IgG activate complement; IgA's comparative inability to do so is what makes it appropriate for protecting surfaces that cannot afford the collateral damage of inflammatory defense."
+
+- question: "Why does mucosal immunity rely on exclusion rather than inflammation as its primary defense strategy, and what would go wrong if IgA triggered complement activation at mucosal surfaces?"
+  type: short-answer
+  answer: "Mucosal surfaces are large, thin, and must remain intact to function as barriers and absorptive surfaces. Inflammatory responses recruit neutrophils and activate complement, both of which cause local tissue damage. In the bloodstream, this collateral damage is acceptable because tissue integrity there is not the primary barrier. At a mucosal surface, however, inflammation would compromise the very barrier being defended — creating gaps that pathogens could exploit. If IgA activated complement, routine encounters with food antigens, commensal bacteria, and low-grade pathogens would generate constant epithelial damage, rendering the gut unable to absorb nutrients or maintain colonization resistance."
+  explanation: "The gut faces the additional challenge of tolerating commensal bacteria that are immunologically foreign but biologically essential. Inflammatory immune exclusion would indiscriminately damage commensals along with pathogens. The mucosal immune system's combination of sIgA (exclusion without inflammation) and regulatory T cells (active tolerance induction) allows discrimination between threats worth mounting responses against and residents worth protecting — a nuance that complement-based killing cannot achieve."
+```
+
 ## Explainer
 
 From antibody isotypes and effector functions, you know that the immune system produces different classes of antibody — IgG, IgM, IgA, IgE, IgD — each with distinct roles. From your understanding of the digestive system, you know that mucosal surfaces are vast, thin barriers constantly exposed to the outside world. The gut alone has a surface area of roughly 32 square meters, and the respiratory tract adds more. These surfaces face a unique immunological challenge: they must defend against pathogens while tolerating food antigens and the trillions of commensal bacteria that are essential for health. **Mucosal immunity** is a specialized branch of the immune system evolved to meet this challenge, and its signature weapon is **secretory IgA**.

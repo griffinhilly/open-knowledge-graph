@@ -30,6 +30,45 @@ Calculate conduction velocity using cable equation parameters with and without m
 ## Common Misconceptions
 Myelin completely isolates axons—it only insulates at nodes. Myelination is fixed after development—it's dynamic and regulates circuit speed.
 
+## Questions
+
+```yaml
+- question: "A patient with multiple sclerosis has lost myelin from optic nerve axons. Which aspect of action potential propagation is most directly disrupted?"
+  type: multiple-choice
+  options:
+    - "The generation of action potentials at the axon hillock is blocked"
+    - "Saltatory conduction fails — current leaks through the demyelinated internode rather than jumping to the next node"
+    - "Neurotransmitter release at the synapse is impaired because signals arrive with the wrong frequency"
+    - "The resting membrane potential of the axon collapses, preventing repolarization"
+  answer: 1
+  explanation: "Myelin functions by insulating the axon between nodes of Ranvier, forcing current to flow longitudinally through the axon interior to the next node rather than leaking across the membrane. When myelin is destroyed, current leaks out along the demyelinated segment, reducing or blocking the signal at the next node. This disrupts saltatory conduction — the jumping pattern that makes myelinated conduction fast and efficient. The action potential slows, becomes unreliable, or fails entirely, depending on the severity of demyelination."
+
+- question: "How does myelination by oligodendrocytes in the CNS differ from Schwann cell myelination in the PNS?"
+  type: multiple-choice
+  options:
+    - "Oligodendrocytes myelinate a single axon completely, while Schwann cells only myelinate one segment"
+    - "Schwann cells myelinate multiple axons simultaneously; oligodendrocytes myelinate only one axon at a time"
+    - "A single oligodendrocyte can myelinate segments of multiple different axons; each Schwann cell myelinates one internode on one axon"
+    - "There is no functional difference — the distinction is purely anatomical"
+  answer: 2
+  explanation: "In the PNS, each Schwann cell wraps around a single internode (segment) of a single axon. In the CNS, a single oligodendrocyte extends multiple processes and can myelinate internodes on 30–60 different axons simultaneously. This architectural difference has clinical implications: oligodendrocyte loss in CNS diseases like multiple sclerosis can simultaneously disrupt conduction in many axons, while PNS demyelinating conditions (like Guillain-Barré syndrome) affect individual Schwann cells but cannot have the same multi-axon impact from a single cell's loss."
+
+- question: "Saltatory conduction is more energy-efficient than continuous conduction along an unmyelinated axon because ions only cross the membrane at nodes of Ranvier rather than along the entire axon length."
+  type: true-false
+  answer: true
+  explanation: "Each patch of membrane that undergoes an action potential requires Na⁺/K⁺-ATPase activity afterward to restore ion gradients — this is metabolically expensive. In unmyelinated axons, every patch of membrane along the entire axon length depolarizes sequentially. In myelinated axons, the membrane is only breached at widely spaced nodes, so only those small regions require ion pumping. This dramatically reduces metabolic cost while increasing speed. The CNS contains enormous numbers of axons, making energy efficiency a critical design constraint."
+
+- question: "Myelination is a fixed developmental process — once axons are myelinated in early life, the myelin sheath thickness and internode length remain unchanged in adult nervous systems."
+  type: true-false
+  answer: false
+  explanation: "This is a major misconception corrected by recent research. Myelination is activity-dependent and continues throughout life. Neurons that fire more frequently can signal to oligodendrocyte precursor cells to promote new myelin formation or modify existing myelin properties (thickness, internode length). This adaptive myelination fine-tunes conduction velocity to synchronize signals across circuits requiring precise timing. It also means that learning and experience physically reshape white matter — skills acquired in adulthood involve measurable changes in myelin structure."
+
+- question: "Why does myelination increase conduction velocity without requiring a larger axon diameter, and what physical mechanism achieves this?"
+  type: short-answer
+  answer: "Unmyelinated axons conduct by sequentially depolarizing every adjacent patch of membrane — like dominoes falling one at a time. Increasing conduction speed in unmyelinated axons requires a larger axon diameter (which reduces internal resistance), but this has physical limits. Myelination bypasses this constraint through saltatory conduction: the myelin sheath insulates the axon membrane between nodes of Ranvier, preventing current from leaking out. When an action potential fires at one node, the current flows rapidly down the low-resistance axon interior to the next node (skipping the insulated internode), where it triggers a new action potential. This jumping pattern is faster because the signal travels as a passive electrical current through cytoplasm rather than slowly regenerating through each membrane patch, and it works even in thin axons because the insulation eliminates the leakage that would otherwise require larger diameter."
+  explanation: "This is why vertebrates can have fast-conducting nerve fibers just a few micrometers across, while the squid must use a 1mm-diameter giant axon to achieve comparable speeds without myelin."
+```
+
 ## Explainer
 
 You already know that glial cells are non-neuronal partners in the nervous system and that neurons transmit signals along axons as electrical impulses. Myelin is where these two concepts converge: glial cells wrap axons in insulation that transforms how electrical signals travel, solving a fundamental engineering problem of the nervous system.

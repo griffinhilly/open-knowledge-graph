@@ -32,6 +32,45 @@ Read Goethe's scattered remarks on Weltliteratur, then trace how the concept evo
 ## Common Misconceptions
 That Goethe meant 'all literature is equally good' or that national traditions don't matter. Goethe was describing a historical process of literary circulation, not erasing difference or national identity.
 
+## Questions
+
+```yaml
+- question: "When Goethe coined 'Weltliteratur' in the 1820s, what was he primarily describing?"
+  type: multiple-choice
+  options:
+    - "A proposed canon of the world's greatest literary works, ranked by universal aesthetic value"
+    - "An emerging process of transnational literary circulation and exchange among educated multilingual readers"
+    - "The claim that all national literary traditions are equally valid and should be read without hierarchy"
+    - "A German Romantic movement opposing French literary dominance in Europe"
+  answer: 1
+  explanation: "Goethe was observing a process already underway: works crossing national and linguistic boundaries, multilingual intellectuals reading across traditions, literary culture becoming genuinely transnational for the educated elite. His concept was descriptive and prospective, not prescriptive. He was not proposing a ranked canon, nor claiming national traditions were irrelevant. The common misconception — that Weltliteratur means 'all literature is equally good' — mistakes what Goethe was doing. He was naming a phenomenon of circulation, not issuing a value judgment."
+
+- question: "Pascale Casanova's framework of the 'world republic of letters' argues that world literary circulation is best understood as:"
+  type: multiple-choice
+  options:
+    - "A neutral global exchange where literary merit determines which works spread"
+    - "A market in which translation makes any literature equally accessible to global readers"
+    - "A system with centers and peripheries, where literary capitals set the terms and writers from peripheral traditions must navigate between local authenticity and metropolitan legibility"
+    - "Determined entirely by the number of speakers of a language, with English naturally dominant"
+  answer: 2
+  explanation: "Casanova's key contribution is showing that 'world literature' is not a neutral exchange. Literary capitals — historically Paris, London, New York — accumulate cultural capital and set consecration criteria. Writers from peripheral literary cultures must choose: write for local audiences and accept marginality in global circuits, or translate themselves for metropolitan consumption and risk a kind of assimilation. This is a system of literary power, not just a library. Damrosch offers a complementary angle: works that 'gain in translation' — acquiring new meanings in new contexts — circulate more successfully, shifting focus from intrinsic merit to reception history."
+
+- question: "Whether a literary work enters world circulation is determined by its literary quality alone — the best works always find their way to global readers regardless of political and historical conditions."
+  type: true-false
+  answer: false
+  explanation: "This is false and is precisely what Weltliteratur scholarship challenges. Translation flows follow colonial relationships (many more works were translated from French and English during European imperial expansion), linguistic economics (languages with few professional translators produce fewer circulating texts), and contingent events (a single great translator — like Constance Garnett for Russian literature in English — can open an entire national tradition). A masterpiece in a language spoken by few people with little translation infrastructure may remain entirely local, while a mediocre work backed by publishing industry machinery can circulate globally. Literary power is not distributed by merit."
+
+- question: "Goethe's Weltliteratur concept implies that national literary traditions lose their importance once literature becomes global — authentic literary value transcends national context entirely."
+  type: true-false
+  answer: false
+  explanation: "This is a common misreading that Goethe's actual remarks contradict. Goethe was describing a process of exchange between national traditions, not the erasure of them. National literary identity remained important to him; what he observed was that works could travel across those identities and create a transnational conversation. Later critics like Casanova and Damrosch further complicate any simple 'transcendence' narrative: the power differentials between literary centers and peripheries mean that 'going global' often requires a peripheral writer to translate themselves for metropolitan audiences, not transcend their national context."
+
+- question: "Why do some literary works circulate globally while others remain local, and why does the answer to this question matter for understanding world literature?"
+  type: short-answer
+  answer: "Circulation is determined by a combination of linguistic factors (languages with large translation industries produce more circulating works), political and historical factors (colonial relationships shaped translation flows for centuries), aesthetic factors (some formal properties travel better across cultural contexts than others), and contingent factors (the presence of an exceptional translator can open a tradition). This matters because understanding circulation means understanding world literature as a system of cultural power, not just an anthology of excellent individual works."
+  explanation: "The deeper implication is that the canon of 'world literature' reflects the conditions of literary production, translation, and consecration as much as intrinsic aesthetic value. Works that happen to originate in politically dominant cultures, or that were written in widely-translated languages, or that were championed by influential translators and critics, have structural advantages in global circulation entirely independent of their quality. Recognizing this is not cynical — it is the precondition for asking better questions about which works we haven't encountered and why."
+```
+
 ## Explainer
 
 From comparative literature introduction, you know that the field examines works across national and linguistic boundaries and asks how meaning transforms in transit. Weltliteratur takes a step back from the individual text to ask about the shape of the literary world as a whole: what circulates, what gets translated, what becomes "universal," and what remains local? This is not just a bibliographic question — it is a question about literary power.

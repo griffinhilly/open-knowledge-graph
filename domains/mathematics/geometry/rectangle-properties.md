@@ -26,6 +26,45 @@ Start from the parallelogram properties and add the right-angle condition. Prove
 - Assuming the diagonals of a rectangle are perpendicular (they are not, unless it is also a square).
 - Forgetting to prove the parallelogram condition first before using the diagonal criterion.
 
+## Questions
+
+```yaml
+- question: "A parallelogram is known to have both pairs of opposite sides equal and diagonals that bisect each other. You then learn its diagonals are congruent. What can you conclude?"
+  type: multiple-choice
+  options:
+    - "It must be a square"
+    - "It must be a rectangle"
+    - "It must be a rhombus"
+    - "Nothing additional — congruent diagonals don't help classify a parallelogram"
+  answer: 1
+  explanation: "Congruent diagonals are the defining additional property that distinguishes a rectangle from a general parallelogram. The theorem works both ways: if a parallelogram has congruent diagonals, it is a rectangle. A square is a special case (also a rectangle with equal sides), but the correct classification given only this information is rectangle — not square."
+
+- question: "In rectangle ABCD, you draw both diagonals. Which of the following is true?"
+  type: multiple-choice
+  options:
+    - "The diagonals are perpendicular bisectors of each other"
+    - "The diagonals are congruent and bisect each other but are not necessarily perpendicular"
+    - "The diagonals are congruent and perpendicular but do not bisect each other"
+    - "The diagonals bisect each other at right angles only if the rectangle is a square"
+  answer: 1
+  explanation: "Rectangle diagonals are congruent (the property unique to rectangles among parallelograms) and bisect each other (inherited from the parallelogram). They are NOT necessarily perpendicular — perpendicular diagonals belong to rhombuses. Only when a rectangle is also a square (all sides equal) are the diagonals perpendicular. Confusing congruent diagonals with perpendicular diagonals is one of the most common errors on rectangle problems."
+
+- question: "Every square is a rectangle."
+  type: true-false
+  answer: true
+  explanation: "A rectangle is defined as a parallelogram with four right angles. A square satisfies this — it has four right angles and all four sides equal. The square is a special case of rectangle (a rectangle with equal sides), just as a rectangle is a special case of parallelogram. The hierarchy runs: square ⊂ rectangle ⊂ parallelogram ⊂ quadrilateral. Saying 'a square is not a rectangle' confuses the special case with a separate category."
+
+- question: "The diagonals of a rectangle are perpendicular to each other."
+  type: true-false
+  answer: false
+  explanation: "This is a very common misconception. Rectangle diagonals are congruent and bisect each other, but they are NOT generally perpendicular. Perpendicular diagonals are a property of rhombuses (including squares). Only when a rectangle is also a square do the diagonals happen to be perpendicular. A non-square rectangle's diagonals cross at an oblique angle — you can verify this by drawing any non-square rectangle and measuring the crossing angle."
+
+- question: "Why is it sufficient to prove that just one angle of a parallelogram is 90° to conclude that all four angles are 90°?"
+  type: short-answer
+  answer: "In a parallelogram, opposite angles are equal and consecutive angles are supplementary (sum to 180°). If one angle is 90°, its opposite angle must also be 90°, and each consecutive angle must be 180° − 90° = 90°. So proving one right angle forces all four to be right angles."
+  explanation: "This is why the definition of a rectangle only requires 'a parallelogram with right angles' — you don't need to verify all four corners. The parallelogram constraints propagate the right-angle condition around the entire figure. It also underlies the coordinate-geometry test: prove the shape is a parallelogram, then show one pair of adjacent sides is perpendicular (slopes are negative reciprocals), and you're done."
+```
+
 ## Explainer
 
 Because you have already studied parallelograms, you can think of a rectangle as a parallelogram with one extra constraint: all four angles are right angles. Since opposite angles in a parallelogram are equal and consecutive angles are supplementary, forcing one angle to be 90° forces all four to be 90°. You don't need to verify all four corners — just one. This inheritance structure is important: a rectangle automatically has all parallelogram properties (opposite sides parallel and equal, diagonals bisect each other, opposite angles equal), plus the right-angle condition.

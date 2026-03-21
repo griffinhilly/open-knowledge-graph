@@ -29,6 +29,45 @@ Model transmission spectra for biosignature gases. Evaluate false-positive mecha
 - A single gas unambiguously indicates life; biosignature candidates have abiotic sources and require multi-gas context.
 - Biosignatures are detectable with current telescopes; next-generation facilities (ELTs, future space telescopes) are necessary for detection.
 
+## Questions
+
+```yaml
+- question: "An exoplanet is found with high atmospheric oxygen levels. A researcher immediately announces it as strong evidence of life. Which response best identifies the flaw in this conclusion?"
+  type: multiple-choice
+  options:
+    - "The conclusion is valid — oxygen is produced almost exclusively by photosynthesis"
+    - "Oxygen is a false-positive candidate because abiotic processes like UV photolysis of water vapor can also produce it"
+    - "The conclusion would only be flawed if the planet were outside the habitable zone"
+    - "Oxygen detection requires direct imaging, not transmission spectroscopy, so the data is invalid"
+  answer: 1
+  explanation: "Oxygen is a leading biosignature candidate precisely because Earth's biology produces so much of it — but abiotic mechanisms (UV photolysis of atmospheric water, hydrogen escape, photodissociation of CO₂) can also generate O₂ in significant quantities, especially on planets orbiting UV-active red dwarf stars. A single gas is never a smoking gun; the false-positive problem means biosignature detection requires multi-gas context and host star characterization."
+
+- question: "Two exoplanets are studied. Planet A shows oxygen and methane coexisting in its atmosphere. Planet B shows only oxygen at similar abundance. Which provides stronger biosignature evidence, and why?"
+  type: multiple-choice
+  options:
+    - "Planet B — a single gas with no complicating species is easier to interpret"
+    - "Both equally — each has one confirmed biosignature gas"
+    - "Planet A — O₂ and CH₄ react with each other and cannot coexist at significant levels without continuous biological replenishment"
+    - "Planet B — methane is a contamination indicator and its absence is favorable"
+  answer: 2
+  explanation: "The thermodynamic disequilibrium strategy is the key insight: O₂ and CH₄ are reactive and should not coexist in significant quantities without a continuous biological source replenishing both. Their simultaneous presence is extremely hard to sustain abiotically, making the combination far more compelling than either gas alone. Planet B's oxygen, by contrast, could plausibly have an abiotic explanation."
+
+- question: "A biosignature gas detected on an exoplanet is always sufficient to confirm biological activity if it is present at concentrations higher than those found on lifeless planets in our solar system."
+  type: true-false
+  answer: false
+  explanation: "No single gas provides unambiguous confirmation of life. Every biosignature candidate has known abiotic production pathways. The strategy is to look for chemical disequilibrium across multiple gases, in the context of the stellar environment, planetary mass, temperature, and water vapor. Concentration levels alone are not diagnostic without ruling out abiotic sources."
+
+- question: "The simultaneous presence of oxygen and methane in an exoplanet atmosphere would be scientifically significant because both gases react with each other and would be depleted without continuous replenishment."
+  type: true-false
+  answer: true
+  explanation: "This is exactly the thermodynamic disequilibrium argument. O₂ and CH₄ react on timescales of thousands to millions of years; finding both at high concentrations simultaneously implies active, ongoing production. On Earth, both are maintained by biology. Detecting this combination on another world would be among the strongest biosignature evidence achievable through remote spectroscopy."
+
+- question: "Why does biosignature detection strategy emphasize combinations of gases and planetary context rather than searching for a single definitive indicator of life?"
+  type: short-answer
+  answer: "Every candidate biosignature gas has known abiotic sources that could produce false positives. The strength of the evidence comes from thermodynamic disequilibrium — multiple reactive gases coexisting at concentrations that cannot be sustained without continuous biological production — combined with planetary context (habitable zone location, stellar UV environment, presence of water vapor) that rules out alternative explanations."
+  explanation: "The false-positive problem is fundamental: oxygen from water photolysis, methane from serpentinization, and other abiotic pathways mean no single gas is a smoking gun. The disequilibrium approach leverages the fact that life continuously pumps reactive gases into the atmosphere, maintaining concentrations that thermodynamics would otherwise eliminate. Context (host star, planetary properties, co-occurring gases) distinguishes biological from abiotic scenarios."
+```
+
 ## Explainer
 
 From your study of planetary habitability, you know what conditions might support life and which atmospheric gases biology produces. From exoplanet transmission spectroscopy, you know that starlight passing through a planet's atmosphere picks up absorption features that reveal atmospheric composition. Biosignature detection brings these together into one of the most profound questions in science: can we identify life on another world by reading its atmosphere from light-years away?

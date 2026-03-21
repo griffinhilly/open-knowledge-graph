@@ -38,6 +38,45 @@ Simulate or analyze a diatomic microwave spectrum, extract B from line spacings,
 - Assuming all molecules show microwave spectra — homonuclear diatomics like N₂ have no dipole and are microwave-inactive.
 - Forgetting that line spacings give 2B, not B.
 
+## Questions
+
+```yaml
+- question: "A microwave spectrum of a diatomic molecule shows equally spaced absorption lines separated by 20.0 GHz. A student reports the rotational constant B as 20.0 GHz. What is wrong?"
+  type: multiple-choice
+  options:
+    - "Nothing — the line spacing directly equals B"
+    - "The spacing equals 2B, so B = 10.0 GHz; the student failed to divide by two"
+    - "The spacing equals B/2, so B = 40.0 GHz; the student should have multiplied by two"
+    - "B cannot be determined from line spacing alone — you also need the transition frequencies"
+  answer: 1
+  explanation: "For a rigid diatomic rotor, the transition frequency from J to J+1 is ν = 2B(J+1). The first line (J=0→1) is at 2B, the second at 4B, so adjacent lines are separated by 2B — not B. Dividing the observed spacing by 2 gives B. This is the most common numerical error in rotational spectroscopy problems."
+
+- question: "Why does N₂ show no microwave absorption spectrum despite being a rotating diatomic molecule with well-defined rotational energy levels?"
+  type: multiple-choice
+  options:
+    - "N₂ rotational energy levels are too closely spaced for microwave radiation to resolve"
+    - "N₂'s rotational constant B is zero because both atoms have equal mass"
+    - "N₂ is homonuclear and has no permanent dipole moment, so microwave radiation has no oscillating electric field component to couple to rotational transitions"
+    - "N₂ absorbs in the infrared rather than the microwave region"
+  answer: 2
+  explanation: "The selection rule requires a permanent dipole moment: microwave radiation interacts with a molecule's rotating electric dipole. Homonuclear diatomics have identical atoms, so there is no charge separation and no dipole. The oscillating electric field of the microwave has nothing to 'grip.' N₂ has well-defined rotational levels but is microwave-inactive. HCl, CO, and other heteronuclear diatomics are microwave-active."
+
+- question: "For a rigid diatomic rotor, the rotational constant B can be extracted directly from the spacing between adjacent lines in the microwave absorption spectrum."
+  type: true-false
+  answer: true
+  explanation: "Adjacent lines are separated by 2B (since ν = 2B(J+1) and consecutive J values differ by 1). Measuring any adjacent pair and dividing by 2 gives B immediately. From B = h/(8π²Ic), you can extract the moment of inertia I, and from I = μr² you get the bond length r. This chain makes microwave spectroscopy the most precise structural technique for simple diatomics."
+
+- question: "At high rotational quantum numbers J, centrifugal distortion causes the spacing between adjacent microwave absorption lines to increase."
+  type: true-false
+  answer: false
+  explanation: "Centrifugal distortion causes the spacing to decrease at high J. As the molecule spins faster at higher J, centrifugal force stretches the bond, increasing the moment of inertia and decreasing the effective rotational constant. The corrected energy expression adds −D_J[J(J+1)]², which progressively reduces the transition frequencies at high J, compressing the line spacing."
+
+- question: "Explain how a microwave spectrum of a diatomic molecule yields the bond length. What measurements and calculations are required?"
+  type: short-answer
+  answer: "Measure the spacing between any two adjacent absorption lines in the spectrum; this spacing equals 2B. Divide by 2 to get the rotational constant B. Use B = h/(8π²Ic) to calculate the moment of inertia I. For a diatomic, I = μr², where μ = m₁m₂/(m₁+m₂) is the reduced mass (known from atomic masses). Solving for r gives the bond length."
+  explanation: "The directness of this chain — spectrum → B → I → r — is what makes rotational spectroscopy uniquely powerful for structural determination. Unlike vibrational or electronic spectroscopy, the bond length drops out with minimal modeling assumptions, giving precision to five or six significant figures."
+```
+
 ## Explainer
 
 You already know from the rigid rotor model that a diatomic molecule rotating in space has quantized energy levels E_J = BJ(J+1), where B = h/(8π²Ic) is the **rotational constant** and J is the rotational quantum number. Rotational spectroscopy is the experimental technique that measures transitions between these levels, using microwave radiation to drive the molecule from one rotational state to the next. The selection rules you studied tell you that allowed transitions require ΔJ = ±1 and — critically — the molecule must have a **permanent dipole moment**. This is why homonuclear diatomics like H₂ and N₂ are invisible to microwave spectroscopy: with no dipole, the oscillating electric field of the microwave radiation has nothing to grab onto.

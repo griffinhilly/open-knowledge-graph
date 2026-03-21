@@ -34,6 +34,45 @@ Begin with the analogy: forcing is like adding a new 'ideal' element to a struct
 - Forcing does not produce 'fake' or 'nonstandard' models — M[G] is a legitimate model of ZFC. The independence results it yields are genuine: ZFC truly cannot decide CH.
 - The generic filter G does not exist inside the ground model M — this is essential, not a defect. If G were in M, it would not add anything new.
 
+## Questions
+
+```yaml
+- question: "A student objects: 'Cohen forcing cannot genuinely add a new real number to the ground model M, because any finite partial function from ω to {0,1} already exists in M.' What is the correct response to this objection?"
+  type: multiple-choice
+  options:
+    - "The objection is correct — Cohen forcing does not add new reals; it only changes which reals M believes are countable."
+    - "The objection confuses finite conditions with the generic filter itself. Individual finite conditions exist in M, but the generic filter G — an infinite consistent combination meeting every dense set — does not exist in M."
+    - "The objection fails because forcing uses infinite partial functions, not finite ones, and infinite functions do not exist in M."
+    - "The objection is valid for Cohen forcing but not for other kinds of forcing."
+  answer: 1
+  explanation: "Individual forcing conditions (finite partial functions) are indeed in M — they are the approximations. But the generic filter G is an infinite consistent assembly of conditions that simultaneously meets every dense subset of the poset that belongs to M. The set of dense subsets of P in M is too rich for any single element of M to meet them all. G 'escapes' M precisely by meeting requirements that no element of M can simultaneously satisfy. This is exactly analogous to how an irrational number is not any single rational approximation but the limit of approximations that no single rational equals."
+
+- question: "Why is it essential that the generic filter G does NOT exist inside the ground model M?"
+  type: multiple-choice
+  options:
+    - "If G were in M, it would violate the axiom of foundation, since G would then be a member of itself."
+    - "If G were in M, it would meet all dense sets trivially and add no new information — the extension M[G] would equal M, proving nothing."
+    - "ZFC prohibits any filter from existing within a model of set theory."
+    - "If G were in M, the forcing relation p ⊩ φ would be undefined."
+  answer: 1
+  explanation: "Dense subsets of P in M represent requirements: for each n, the set of conditions specifying the value at n is dense. A filter that met all these requirements from inside M would define a complete total function — a new real — but M already contains all the sets it 'knows about.' If G were in M, it would mean M already knew the generic object, contradicting the purpose of the extension. The whole point of G is to be a new object that M was 'unaware of,' obtained by meeting infinitely many dense-set requirements simultaneously in a way no element of M can do."
+
+- question: "Forcing produces models of ZFC where statements like CH can be made true or false, but these are 'nonstandard' or 'fake' models — not genuine models of set theory."
+  type: true-false
+  answer: false
+  explanation: "This is a fundamental misconception. M[G] is a fully legitimate model of ZFC — all axioms hold in M[G], verified via the forcing relation. The models produced by forcing are as 'real' as the ground model or any other model of ZFC. What forcing shows is that ZFC is genuinely underdetermined: there exist models satisfying CH and models satisfying ¬CH, both of which are perfectly valid set-theoretic universes. The independence of CH is not a quirk of nonstandard models; it is a genuine feature of ZFC's incompleteness."
+
+- question: "The forcing relation p ⊩ φ is definable within the ground model M, meaning one can determine which statements will be true in M[G] before G is actually constructed."
+  type: true-false
+  answer: true
+  explanation: "This is one of the most remarkable features of forcing. The forcing relation p ⊩ φ ('condition p forces formula φ') is a syntactic relation definable in M: you can compute, entirely within M, which conditions force which statements to be true in any generic extension. This is what makes forcing a proof technique rather than a mere existence claim. You prove, within M, that certain dense sets must be met and what their forcing of key statements implies, then conclude that the generic extension M[G] has the desired properties — without leaving M."
+
+- question: "Proving the independence of CH from ZFC required two separate results. What does each contribute, and why is neither alone sufficient?"
+  type: short-answer
+  answer: "Gödel's result (1938) showed that the constructible universe L is a model of ZFC in which CH holds, establishing that ZFC cannot DISPROVE CH (¬CH is not a theorem of ZFC). Cohen's forcing (1963) constructed a model M[G] of ZFC in which CH fails — 2^{ℵ₀} ≥ ℵ₂ — establishing that ZFC cannot PROVE CH. Together, these show that CH is independent: neither provable nor disprovable from ZFC. Gödel alone would only show CH is consistent; Cohen alone would only show ¬CH is consistent. Independence requires both directions."
+  explanation: "The key technical feature of Cohen forcing that makes it work is the countable chain condition (ccc): every antichain in the forcing poset is countable. This ensures no cardinals are collapsed in M[G], so ℵ₁ and ℵ₂ in M remain ℵ₁ and ℵ₂ in M[G], and adding ℵ₂ new reals genuinely makes 2^{ℵ₀} ≥ ℵ₂ without inadvertently making ℵ₂ countable."
+```
+
 ## Explainer
 
 You already know that the continuum hypothesis (CH) is independent of ZFC: Gödel proved that the constructible universe L satisfies CH, establishing its consistency, and Cohen proved the consistency of ¬CH. **Forcing** is Cohen's technique — the method for constructing M[G] from a ground model M in which new sets (like enough reals to violate CH) are added while preserving all the ZFC axioms. It is the most powerful and widely used tool in set theory for proving independence results.

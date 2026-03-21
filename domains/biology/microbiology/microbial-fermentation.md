@@ -34,6 +34,45 @@ Start with the energetic problem fermentation solves: without oxygen, the electr
 - Assuming only bacteria ferment — yeasts (fungi) are the primary ethanol fermenters, and human muscle cells perform lactic acid fermentation during intense exercise.
 - Believing fermentation is only relevant to food production — it's central to industrial biotechnology and biofuel production.
 
+## Questions
+
+```yaml
+- question: "During intense exercise, your muscle cells run out of oxygen and begin producing lactate. What is the primary metabolic reason for this shift to lactic acid fermentation?"
+  type: multiple-choice
+  options:
+    - "Lactate production generates extra ATP beyond what glycolysis provides"
+    - "Fermentation allows cells to bypass glycolysis and use a faster ATP-generating pathway"
+    - "Lactate production regenerates NAD+, allowing glycolysis to continue producing ATP"
+    - "Without oxygen, the cell switches to using lactate as the primary fuel source"
+  answer: 2
+  explanation: "Fermentation's primary function is NAD+ regeneration, not ATP production. Glycolysis converts NAD+ to NADH while generating ATP; without recycling NADH back to NAD+, the NAD+ pool is depleted and glycolysis halts. In oxygen-rich conditions, the electron transport chain oxidizes NADH. When oxygen is absent, fermentation takes over: lactate dehydrogenase transfers electrons from NADH to pyruvate, producing lactate and regenerating NAD+. This recycled NAD+ allows glycolysis to keep running. The 2 ATP come from glycolysis; fermentation just enables glycolysis to continue."
+
+- question: "Which of the following correctly distinguishes fermentation from anaerobic respiration?"
+  type: multiple-choice
+  options:
+    - "Fermentation produces ATP; anaerobic respiration does not"
+    - "Fermentation uses an organic molecule as the terminal electron acceptor and no ETC; anaerobic respiration uses an ETC with a non-oxygen inorganic acceptor"
+    - "Anaerobic respiration occurs only in bacteria; fermentation occurs only in eukaryotes"
+    - "Fermentation requires a membrane-bound ETC to regenerate NAD+; anaerobic respiration does not"
+  answer: 1
+  explanation: "The defining distinction is whether an electron transport chain (ETC) is used. Fermentation uses no ETC — it transfers electrons from NADH directly to an organic molecule (pyruvate becomes lactate, or acetaldehyde becomes ethanol). Anaerobic respiration uses a full ETC but substitutes a non-oxygen molecule (nitrate, sulfate, fumarate) as the terminal electron acceptor. Anaerobic respiration typically yields more ATP than fermentation because the ETC generates a proton gradient for oxidative phosphorylation. Both processes occur in bacteria; fermentation also occurs in yeasts and human muscle cells."
+
+- question: "Fermentation is primarily an ATP-generating pathway that supplements oxidative phosphorylation when oxygen is unavailable."
+  type: true-false
+  answer: false
+  explanation: "This is the core misconception about fermentation. Fermentation itself generates no ATP directly — it is a NAD+ regeneration mechanism. The ATP in anaerobic metabolism comes entirely from glycolysis (2 ATP per glucose via substrate-level phosphorylation). Fermentation is the downstream step that disposes of NADH and regenerates NAD+, enabling glycolysis to continue. Without fermentation, NADH would accumulate, NAD+ would be depleted, and glycolysis — the ATP-generating pathway — would halt entirely."
+
+- question: "Both lactic acid fermentation and ethanol fermentation regenerate NAD+ by using NADH to reduce an organic molecule, allowing glycolysis to continue in the absence of oxygen."
+  type: true-false
+  answer: true
+  explanation: "This is the unifying principle across fermentation types. In lactic acid fermentation, NADH reduces pyruvate to lactate (via lactate dehydrogenase), regenerating NAD+. In ethanol fermentation, pyruvate is first decarboxylated to acetaldehyde, which NADH then reduces to ethanol. In both cases, the electron acceptor is an organic molecule derived from the glycolytic pathway, and the result is the same: NAD+ is regenerated and glycolysis can continue. The different products reflect different enzymatic routes to the same metabolic goal."
+
+- question: "Explain why NAD+ regeneration is the critical function of fermentation, and what would happen to ATP production if fermentation were blocked in an anaerobic environment."
+  type: short-answer
+  answer: "Glycolysis oxidizes glucose to pyruvate and reduces NAD+ to NADH. For glycolysis to continue, NADH must be reoxidized back to NAD+ — otherwise the cell's entire supply of NAD+ is consumed and glycolysis halts. In aerobic conditions, the electron transport chain accomplishes this. When oxygen is absent, fermentation takes over: it transfers electrons from NADH to an organic acceptor, regenerating NAD+. If fermentation were blocked in an anaerobic environment, NADH would accumulate, NAD+ would be depleted, glycolysis would stop, and ATP production would cease entirely."
+  explanation: "Fermentation is in the service of glycolysis. Its role in the metabolic economy is not to generate ATP itself but to keep the NAD+/NADH ratio favorable so that glycolysis — the only remaining ATP-generating pathway under anaerobic conditions — can continue to operate."
+```
+
 ## Explainer
 
 From your study of bacterial metabolism, you know that cells generate ATP by oxidizing substrates and passing electrons through a series of carriers to a terminal electron acceptor. In aerobic respiration, that acceptor is oxygen, and the electron transport chain generates the bulk of ATP. But what happens when oxygen is unavailable? The electron transport chain stalls, NADH cannot donate its electrons, NAD⁺ is not regenerated, and glycolysis — the only pathway that does not require oxygen — grinds to a halt because it needs NAD⁺ to proceed. **Fermentation** solves this problem by using an organic molecule as the terminal electron acceptor, regenerating NAD⁺ without an electron transport chain.

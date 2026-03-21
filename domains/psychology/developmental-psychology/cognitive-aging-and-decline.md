@@ -33,6 +33,45 @@ Plot fluid vs. crystallized intelligence across the lifespan and explain why the
 - Normal aging does not cause dementia — dementia is a pathological process, not an inevitable endpoint.
 - Slower processing speed in older adults does not imply lower wisdom or decision quality on familiar, meaningful problems.
 
+## Questions
+
+```yaml
+- question: "A 74-year-old retired professor takes noticeably longer to solve novel logic puzzles than she did at 35, but her vocabulary, general knowledge, and domain expertise continue to impress colleagues. This pattern is best explained by:"
+  type: multiple-choice
+  options:
+    - "Progressive cognitive decline affecting all domains equally in late adulthood"
+    - "Fluid intelligence declining while crystallized intelligence is preserved or grows"
+    - "Early-stage dementia selectively affecting frontal processing speed"
+    - "Reduced mental engagement in retirement accelerating universal cognitive loss"
+  answer: 1
+  explanation: "Fluid intelligence — processing speed, working memory, novel problem-solving — depends on the physical integrity of neural circuits and declines gradually from the 20s onward. Crystallized intelligence — accumulated knowledge, vocabulary, expertise — is stored in stable long-term memory networks and shows little decline, often continuing to grow. The professor's profile is textbook normal aging, not pathology. The key mistake in option C is assuming any age-related cognitive change signals disease."
+
+- question: "An autopsy of an 87-year-old who showed no clinical signs of dementia before death reveals extensive Alzheimer's-related plaques and tangles. Which concept best explains how this is possible?"
+  type: multiple-choice
+  options:
+    - "Crystallized intelligence provided sufficient processing capacity to compensate for the neurodegeneration"
+    - "Cognitive reserve — redundant neural networks built through education and engagement — maintained function despite accumulated pathology"
+    - "Normal aging prevents plaque accumulation from reaching pathological levels during life"
+    - "Working memory fully compensated for the episodic memory destruction the plaques caused"
+  answer: 1
+  explanation: "Cognitive reserve explains how some individuals harbor substantial Alzheimer's pathology without manifesting clinical dementia. Reserve is built through education, bilingualism, complex occupations, and sustained mental engagement — these create denser, more redundant neural networks. When one network is damaged, alternative pathways sustain function. Critically, reserve does NOT prevent the neurodegeneration from accumulating — it delays its clinical expression. Option A confuses crystallized intelligence (a type of knowledge store) with the structural property of having redundant networks."
+
+- question: "Cognitive reserve prevents the accumulation of Alzheimer's disease pathology in the brain."
+  type: true-false
+  answer: false
+  explanation: "Cognitive reserve does not stop plaques, tangles, or neuronal loss from accumulating. Its protective effect operates at a different level: by building redundant neural networks, it raises the threshold of pathological burden needed before function is impaired. Think of it as a larger-capacity system tolerating more damage before failing — not a system that prevents the damage. This distinction is important clinically: a highly educated individual's late cognitive decline may actually indicate more severe underlying pathology than the same decline would in someone with less reserve."
+
+- question: "Processing speed is a common factor underlying most fluid intelligence decline in aging because slowing reduces the brain's capacity to simultaneously hold and manipulate multiple pieces of information."
+  type: true-false
+  answer: true
+  explanation: "Processing speed is considered the 'common cause' of many fluid intelligence changes in aging. Working memory capacity depends on rapid encoding and manipulation of information; novel problem-solving requires holding multiple constraints active simultaneously. When the brain's throughput slows, these operations become harder — items decay before they can be used, and fewer chunks can be maintained at once. This cascading effect explains why a single physiological change (slowed processing) produces broad effects across multiple cognitive domains."
+
+- question: "What is the key distinction between normal cognitive aging and dementia, and why does conflating the two matter?"
+  type: short-answer
+  answer: "Normal aging involves selective, gradual changes — slower processing speed and mild working memory reduction — while daily function and self-care remain intact. Dementia is a progressive neurodegenerative disease that eventually destroys even crystallized knowledge stores and the ability to manage daily life. Conflating them leads to therapeutic nihilism toward normal older adults (assuming decline is inevitable and severe) and underestimation of dementia severity (treating it as merely accelerated aging rather than a distinct pathological process)."
+  explanation: "The distinction matters practically: someone showing normal age-related slowing does not need a dementia workup, but someone with progressive episodic memory failure, disorientation, and language breakdown does. Clinically, mild cognitive impairment (MCI) sits at the boundary — objective deficits exceeding normal aging norms but not yet impairing daily function — and represents a period where intervention or monitoring is most valuable."
+```
+
 ## Explainer
 
 The key to understanding cognitive aging is the **fluid vs. crystallized intelligence** distinction. Fluid intelligence is the brain's raw computational power — the ability to hold multiple items in working memory simultaneously, detect novel patterns, and rapidly switch between tasks. It depends on the physical integrity of neural circuits, which is why it peaks in young adulthood and begins a gradual decline from the 20s onward. Crystallized intelligence, by contrast, is the accumulated product of everything the brain has processed over a lifetime — vocabulary, domain expertise, procedural skills, semantic knowledge. Because it is stored in stable, distributed long-term memory networks rather than requiring high-bandwidth real-time processing, it shows little decline and can actually grow through the 60s and beyond.

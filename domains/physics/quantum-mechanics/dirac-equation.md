@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 The Dirac equation (iγᵘ∂ᵤψ − mψ = 0) is the relativistic wave equation for spin-½ fermions. It predicts the electron's g-factor and positrons. Solutions are 4-component spinors; spin emerges as a relativistic effect.
 
+## Questions
+
+```yaml
+- question: "Why does the Dirac equation require 4-component spinors, while the non-relativistic Pauli theory uses only 2-component spinors?"
+  type: multiple-choice
+  options:
+    - "Four components are needed to represent spin states in a four-dimensional spacetime"
+    - "The algebraic requirement for Lorentz-covariant anticommutation relations cannot be satisfied by 2×2 matrices; the minimum is 4×4, which forces the wave function to have 4 components"
+    - "Four components are required by the Pauli exclusion principle for pairs of fermions"
+    - "The extra two components represent spin projections along two additional orthogonal spatial axes"
+  answer: 1
+  explanation: "Dirac needed matrices α_i and β satisfying anticommutation relations to write the energy-momentum relation as a first-order linear operator. These relations cannot be satisfied by 2×2 matrices — the minimum matrix size is 4×4. Introducing 4×4 matrices is not a choice; it is forced by the algebra of Lorentz symmetry. The 4-component spinor is therefore not an assumption about the electron but a mathematical consequence of the equation's requirements."
+
+- question: "A student says: 'The Dirac equation assumes electrons have spin-½ in order to reproduce the experimental value.' What does this miss about Dirac's achievement?"
+  type: multiple-choice
+  options:
+    - "Nothing — the Dirac equation is indeed constructed with spin-½ as an input assumption"
+    - "Spin-½ is not an input but an output: the equation forces 4-component spinors and anticommutation relations from Lorentz invariance alone, and spin-½ structure emerges automatically"
+    - "The student is only wrong about chronology — spin-½ was observed after Dirac, not before"
+    - "The Dirac equation actually predicts spin-1 particles, not spin-½"
+  answer: 1
+  explanation: "This is Dirac's deepest result: half-integer spin is an inevitable consequence of combining quantum mechanics with special relativity — it emerges from the algebra, not from any assumption about electrons. The Pauli theory adds spin by hand as a two-component structure; the Dirac equation derives it. The four components split into spin-up/spin-down particle and antiparticle states as a consequence of Lorentz symmetry, not as an input."
+
+- question: "The Dirac equation predicted the existence of the positron before it was experimentally discovered, as a direct consequence of the equation's negative-energy solutions."
+  type: true-false
+  answer: true
+  explanation: "Dirac published the equation in 1928; Carl Anderson discovered the positron in 1932. The negative-energy solutions, initially troubling, were reinterpreted as antiparticles. This made the positron one of the first particles predicted theoretically before experimental confirmation. The prediction that every charged fermion has an antiparticle with opposite charge follows directly from the structure of the Dirac equation and has since been confirmed for every known fermion."
+
+- question: "The Klein-Gordon equation solved all the problems of relativistic quantum mechanics before Dirac, making the Dirac equation redundant."
+  type: true-false
+  answer: false
+  explanation: "The Klein-Gordon equation is Lorentz-invariant (unlike the Schrödinger equation), but it has two critical failures: it admits negative-energy solutions, and its probability density is not positive-definite — it can be negative, which is physically meaningless for a probability. Dirac's first-order approach was specifically designed to cure these problems. The Klein-Gordon equation correctly describes spin-0 particles but was not an adequate equation for the electron."
+
+- question: "What was Dirac's key mathematical insight in constructing his equation, and why did it force spin to emerge as a consequence rather than an assumption?"
+  type: short-answer
+  answer: "Dirac required an equation first-order in both time and space, so that the continuity equation would automatically yield a positive-definite probability density. To factorize the relativistic energy-momentum relation E² = p²c² + m²c⁴ as a linear operator, he needed matrices satisfying specific anticommutation relations. These cannot be satisfied by 2×2 matrices — the minimum is 4×4. Introducing 4×4 gamma matrices forces the wave function to be a 4-component spinor, whose components naturally split into spin-up/spin-down particle and antiparticle states. Spin-½ was not assumed; it was the unavoidable algebraic consequence of Lorentz-covariant first-order structure."
+  explanation: "The contrast with the Pauli theory is instructive. Pauli added spin by augmenting the Schrödinger equation with 2×2 matrices — an ad hoc addition. Dirac showed that once you impose Lorentz invariance and demand a first-order equation, spin structure is forced on you. This is why the result is considered one of the deepest in theoretical physics: a fundamental property of matter follows from mathematical consistency requirements rather than from experimental input."
+```
+
 ## Explainer
 
 You know the Schrödinger equation and how Pauli matrices represent spin-½ as two-component spinors. The problem Dirac faced was that the Schrödinger equation is not Lorentz-invariant: it is first-order in time but second-order in space, treating time and space asymmetrically. The **Klein-Gordon equation** (∂²ψ/∂t² = ∇²ψ − m²ψ) fixes this by being second-order in both time and space, but it admits negative-energy solutions and a probability density that is not positive-definite — problems that cannot be patched without a fundamentally different approach.

@@ -35,6 +35,45 @@ Design a voltage-divider bias circuit by choosing the bias resistors to make the
 - Choosing bias resistors without checking the stiff divider condition — if the divider current is comparable to the base current, the Q-point becomes beta-dependent, defeating the purpose of voltage-divider bias.
 - Thinking thermal runaway only occurs at high power — it can occur in any BJT circuit without proper bias stabilization, though it is most dangerous in power amplifier stages where significant heat is generated.
 
+## Questions
+
+```yaml
+- question: "A technician replaces a BJT in a fixed-base biased amplifier (single resistor from VCC to base) with a transistor of the same type but double the beta. What happens to the collector current?"
+  type: multiple-choice
+  options:
+    - "Nothing changes — the base resistor sets the collector current independent of beta"
+    - "The collector current approximately doubles, potentially pushing the transistor into saturation"
+    - "The base current doubles while collector current remains constant"
+    - "The voltage divider compensates to maintain the original Q-point"
+  answer: 1
+  explanation: "In fixed-base bias, IB ≈ (VCC − VBE) / RB, set by the resistor. Then IC = β × IB. Because β appears as a direct multiplier, doubling β doubles IC. There is no feedback mechanism to compensate — the base voltage and base current are fixed by the resistor, and the collector current scales linearly with whatever β the transistor happens to have. This is why fixed-base bias is unsuitable for production circuits where transistors from the same batch can have 2:1 or greater beta spread. Option D incorrectly describes voltage-divider bias, not fixed-base bias."
+
+- question: "In a voltage-divider biased amplifier with emitter resistor RE, the junction temperature rises, causing IC to increase. Trace through the negative feedback mechanism that limits this increase."
+  type: multiple-choice
+  options:
+    - "Rising IC → rising VE (= IC × RE) → falling VBE (= VB − VE, with VB held fixed by stiff divider) → IC decreases back toward original value"
+    - "Rising IC → rising VC → reduced RB equivalent → feedback reduces base current"
+    - "Rising IC → rising temperature → thermal runaway unless heat sinking is adequate"
+    - "Rising IC → rising VCC drop → Thevenin equivalent adjusts base voltage downward"
+  answer: 0
+  explanation: "This is the core stabilization mechanism: RE acts as a negative feedback element in the DC bias path. VB is held approximately constant by the stiff voltage divider (if the stiff divider condition is met). As IC rises, VE = IC × RE rises with it, reducing VBE = VB − VE. A lower VBE means the transistor is driven less hard, so IC decreases back toward its original value. The feedback gain is negative, so it is self-correcting. Without RE (or if RE is bypassed at DC), this stabilizing path is absent and thermal runaway becomes possible."
+
+- question: "Voltage-divider bias eliminates the need for the stiff divider condition because the emitter resistor RE alone provides all the stabilization needed, regardless of how large the base current is relative to the divider current."
+  type: true-false
+  answer: false
+  explanation: "The emitter resistor provides negative feedback only if VB stays approximately constant when IC changes. VB stays constant only if the divider current is much larger than the base current (the stiff divider condition, typically ID ≥ 10 × IB). If the divider current is comparable to the base current, changes in IC cause changes in IB which change the current through R2, which changes VB — the base voltage is no longer fixed, and the feedback mechanism is undermined. The stiff divider condition and the emitter resistor work together; neither alone is sufficient."
+
+- question: "The emitter bypass capacitor CE is placed in parallel with RE so that RE provides DC bias stabilization while CE short-circuits RE at AC signal frequencies, restoring full voltage gain for the amplified signal."
+  type: true-false
+  answer: true
+  explanation: "This is the elegant design separation: at DC (and very low frequencies), CE is essentially open-circuit (its impedance 1/(2πfC) is large), so the full RE is present in the DC bias loop providing Q-point stability. At AC signal frequencies, CE is essentially short-circuit, bypassing RE entirely. Without RE in the AC signal path, the full transconductance drives the output and voltage gain is maximized. This allows the engineer to design the bias network for stability and the signal path for gain independently, without compromise."
+
+- question: "Explain why fixed-base bias is unsuitable for production BJT amplifiers, and describe how voltage-divider bias with an emitter resistor solves this problem at the circuit level."
+  type: short-answer
+  answer: "Fixed-base bias sets IC = β × IB where IB is determined by a single resistor. Since β varies 2:1 or more across transistors of the same type and also drifts with temperature, IC shifts proportionally — the Q-point is unreliable. Voltage-divider bias solves this in two ways. First, the voltage divider (R1, R2) with a stiff divider current sets VB approximately independent of the transistor's β, so the base voltage is a stable reference regardless of which transistor is installed. Second, the emitter resistor RE creates a negative feedback loop: any increase in IC raises VE = IC × RE, which reduces VBE = VB − VE, which in turn reduces IC. This self-correcting loop stabilizes the Q-point against beta variation and temperature drift. The result is a circuit whose operating point is determined primarily by resistor values and supply voltage — components that are stable and well-controlled — rather than by the transistor's unpredictable β."
+  explanation: "The key insight is substituting a reliable feedback mechanism for direct dependence on an unreliable parameter. The same principle applies broadly in circuit design: feedback is more robust than open-loop precision."
+```
+
 ## Explainer
 
 You've already studied the BJT transistor and the common-emitter amplifier, which showed how a small base current controls a much larger collector current through the current gain β (beta). The common-emitter stage is useful precisely because of this amplification, but it hides a practical problem: β is not a reliable, stable parameter. It varies 2:1 or more between transistors of the same type from the same production batch, and it drifts significantly with temperature. The **Q-point** (DC operating point) — the combination of V_CE and I_C that positions the signal swing in the linear region — depends directly on β in simple bias circuits. If β doubles, I_C doubles, potentially saturating the transistor or pushing it into cutoff and destroying linear amplification.

@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Exothermic reactions release heat (ΔH < 0); endothermic reactions absorb heat (ΔH > 0). The sign and magnitude of ΔH determine heat flow between system and surroundings.
 
+## Questions
+
+```yaml
+- question: "A reaction has ΔH = –890 kJ/mol. A student says 'This must be endothermic because the surroundings gained 890 kJ of heat.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — a positive heat gain by surroundings means the reaction is endothermic"
+    - "ΔH is defined from the system's perspective; ΔH = –890 kJ/mol means the system lost 890 kJ, making this exothermic"
+    - "ΔH cannot be negative if heat is being released"
+    - "The student is correct; exothermic reactions always have ΔH > 0"
+  answer: 1
+  explanation: "ΔH is defined from the system's perspective. A negative ΔH means the system's enthalpy decreased — it lost energy to the surroundings. The surroundings gaining heat is exactly what defines an exothermic reaction. The student reversed the logic: because the surroundings gained heat, the system's ΔH is negative, not positive. Combustion of methane (ΔH ≈ –890 kJ/mol) is the classic exothermic example."
+
+- question: "You place an ammonium nitrate cold pack on an injury. The pack gets cold. What can you correctly conclude about the dissolution reaction occurring inside?"
+  type: multiple-choice
+  options:
+    - "ΔH < 0; the reaction is exothermic because energy is being released to cool the pack"
+    - "ΔH > 0; the reaction is endothermic because the system is absorbing heat from the surroundings"
+    - "ΔH = 0; the temperature change is due to physical mixing, not a chemical process"
+    - "ΔH < 0; the cold pack absorbs heat into the surroundings"
+  answer: 1
+  explanation: "When the pack feels cold, the reaction inside is pulling heat from your hand (the surroundings) into the system. The system's enthalpy is increasing — ΔH > 0, an endothermic process. Dissolving ammonium nitrate requires more energy to break its crystal lattice than is released by hydrating the ions, so the net process absorbs thermal energy from the environment."
+
+- question: "For an exothermic reaction, the energy stored in the chemical bonds of the products is greater than in the reactants."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true. In an exothermic reaction, the products sit at lower enthalpy than the reactants. The bonds in the products are collectively stronger (more stable, lower energy) than in the reactants, so forming them releases energy. The 'extra' energy flows to the surroundings as heat. An energy diagram shows products below reactants for exothermic reactions — the vertical gap equals |ΔH|."
+
+- question: "An endothermic reaction always feels cold to the touch."
+  type: true-false
+  answer: false
+  explanation: "Not necessarily. Whether a reaction feels cold depends on the rate of heat exchange relative to ambient conditions. Photosynthesis is endothermic but occurs at ambient temperatures without any noticeable cooling sensation. A ΔH > 0 means the system absorbs heat from the surroundings, but this absorption may be too slow, too small, or too well-insulated to produce a perceptible cold sensation."
+
+- question: "Why is ΔH negative for exothermic reactions even though heat is flowing into the surroundings?"
+  type: short-answer
+  answer: "ΔH is defined from the system's perspective. A negative ΔH means the system lost enthalpy — its products are at a lower energy state than its reactants. The energy that left the system entered the surroundings as heat. Because energy departed the system, the system's change in energy is recorded as negative."
+  explanation: "The sign convention is a persistent stumbling block. Many students expect that a 'hot' or 'energetic' reaction should have a positive ΔH, but the convention tracks the system's energy balance. Just as a bank withdrawal is negative on your account statement even though someone else is receiving that money, a reaction that releases heat records that energy loss as a negative ΔH."
+```
+
 ## Explainer
 
 From your study of thermochemistry and enthalpy, you know that enthalpy (H) is a state function measuring the heat content of a system at constant pressure, and from calorimetry you know how to measure the heat exchanged during a reaction. The classification of reactions as **exothermic** or **endothermic** applies these ideas to a simple but powerful question: does energy flow out of the reacting system into the surroundings, or into the system from the surroundings?

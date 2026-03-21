@@ -30,6 +30,45 @@ Record a DC polarogram of Cd²⁺ or Zn²⁺ in a supporting electrolyte, measur
 - The dropping mercury electrode is not obsolete simply because mercury is toxic; it remains the reference technique for certain applications because no other electrode material provides the same cathodic range and surface reproducibility.
 - The half-wave potential is characteristic of the analyte-supporting electrolyte system, not of the analyte alone — changing the supporting electrolyte or pH shifts E₁/₂.
 
+## Questions
+
+```yaml
+- question: "A polarographic experiment measures Cd²⁺ in 1 M KCl, finding E₁/₂ = −0.40 V. The supporting electrolyte is then changed to 0.1 M HNO₃. What should the experimenter expect?"
+  type: multiple-choice
+  options:
+    - "E₁/₂ remains at −0.40 V because it is a fixed property of cadmium"
+    - "E₁/₂ shifts because the half-wave potential depends on the analyte–electrolyte system, not the analyte alone"
+    - "E₁/₂ disappears entirely because cadmium cannot be reduced in nitric acid"
+    - "The diffusion current changes but E₁/₂ stays constant"
+  answer: 1
+  explanation: "E₁/₂ is characteristic of the analyte in a specific supporting electrolyte, not of the analyte alone. Complexation equilibria, activity coefficients, and pH all affect the formal reduction potential in solution, shifting E₁/₂. This is why reference tables specify both the analyte and the supporting electrolyte. Option A is the classic misconception — treating E₁/₂ as an intrinsic property of the element rather than a system-dependent parameter."
+
+- question: "In a DC polarogram, why does the current plateau at the limiting diffusion current (id) rather than continuing to rise as potential becomes more negative?"
+  type: multiple-choice
+  options:
+    - "The electrode becomes fully coated with reduced metal, blocking further reaction"
+    - "Every analyte molecule arriving at the electrode surface is immediately reduced, so the rate is set by diffusion, not electrode kinetics"
+    - "The mercury drop falls off before higher currents can develop"
+    - "Capacitive charging current cancels the faradaic current at very negative potentials"
+  answer: 1
+  explanation: "At potentials on the limiting-current plateau, the reduction is so thermodynamically favorable that every analyte ion reaching the electrode surface reacts instantly. The current is no longer limited by electrode kinetics but by the rate at which analyte can diffuse from the bulk solution to the surface — a mass-transport limit. Because diffusion rate is fixed by concentration gradient and the diffusion coefficient, the current stops rising even as potential becomes more negative. The Ilkovic equation quantifies this diffusion-limited rate, which is why id is proportional to concentration."
+
+- question: "The primary analytical advantage of the dropping mercury electrode is that each new drop provides a fresh, uncontaminated surface, eliminating memory effects from previous measurements."
+  type: true-false
+  answer: true
+  explanation: "Surface renewal is the DME's defining advantage. Solid electrodes accumulate adsorbed products, oxide films, and surface contamination that alter their behavior over time, requiring frequent reconditioning. The DME circumvents this by discarding the old drop every few seconds and growing a pristine mercury surface. This gives exceptional reproducibility from drop to drop and explains why polarography remains the reference method for certain trace metal analyses despite mercury's toxicity."
+
+- question: "The half-wave potential measured for cadmium in 1 M KCl is an intrinsic property of cadmium ions and remains the same regardless of the supporting electrolyte used."
+  type: true-false
+  answer: false
+  explanation: "E₁/₂ depends on the complete analyte–electrolyte system. The supporting electrolyte affects the formal reduction potential through complexation (Cd²⁺ forms chloro-complexes in KCl), ionic strength, activity coefficients, and pH. Changing from 1 M KCl to 1 M NH₄OH, for example, would shift E₁/₂ substantially because cadmium forms amine complexes in ammonia. This system dependence is why half-wave potential tables always specify the electrolyte conditions."
+
+- question: "Why does mercury provide a wider cathodic potential window than solid platinum or carbon electrodes?"
+  type: short-answer
+  answer: "Mercury has an exceptionally high overpotential for hydrogen evolution — it requires a much more negative potential to reduce H⁺ to H₂ than platinum or carbon do. This means you can scan to approximately −2.0 V versus SCE in many supporting electrolytes without the background current from hydrogen evolution interfering. Platinum and carbon catalyze hydrogen evolution more readily, so they produce interfering background currents at much less negative potentials, limiting how far into the cathodic range you can probe."
+  explanation: "The cathodic window is determined by the competing reduction of the solvent or supporting electrolyte. For aqueous solutions, this is usually hydrogen evolution (2H⁺ + 2e⁻ → H₂). Mercury's high hydrogen evolution overpotential is a kinetic barrier — the reaction is thermodynamically favorable but kinetically sluggish on mercury surfaces, suppressing the background current and allowing measurement of analyte reductions at very negative potentials. This unique property makes polarography ideal for reducing metal ions like Zn²⁺, Cd²⁺, and Pb²⁺ that require strongly negative potentials."
+```
+
 ## Explainer
 
 From your study of voltammetry, you understand the general principle: sweep the potential of a working electrode and measure the current that flows as electroactive species are reduced or oxidized at the surface. Polarography is a specific implementation of this principle that uses a **dropping mercury electrode (DME)** — a fine glass capillary from which mercury flows in a continuous stream of small drops, each falling away after a few seconds and being replaced by a fresh one. This seemingly quirky arrangement solves several fundamental problems that plague solid electrodes.

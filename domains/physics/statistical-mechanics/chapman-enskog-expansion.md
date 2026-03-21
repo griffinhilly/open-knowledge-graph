@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Chapman-Enskog theory provides a systematic perturbative solution to the Boltzmann equation by expanding the distribution function around local equilibrium. This derivation yields transport coefficients and their temperature dependence from first principles, recovering the results of kinetic theory without phenomenological assumptions.
 
+## Questions
+
+```yaml
+- question: "A student expects that hotter gas should be less viscous — molecules move faster, so flow should be easier, just as heating a liquid reduces its viscosity. What does Chapman-Enskog theory actually predict?"
+  type: multiple-choice
+  options:
+    - "Hotter gas has lower viscosity — faster molecules encounter less resistance from neighboring layers"
+    - "Gas viscosity is temperature-independent in the dilute limit"
+    - "Hotter gas has higher viscosity (η ∝ √T) — faster molecules carry more momentum across streamlines, increasing viscous stress"
+    - "Viscosity depends on pressure, not temperature, in kinetic theory"
+  answer: 2
+  explanation: "This counterintuitive result is one of Chapman-Enskog theory's key predictions, confirmed experimentally. Unlike liquids (where viscosity is dominated by intermolecular attraction that weakens with heat), gas viscosity arises from momentum transport by molecules crossing streamlines. Hotter molecules move faster, so they carry more momentum per crossing — viscous stress increases. Liquids and gases have opposite temperature dependences of viscosity, and kinetic theory explains why."
+
+- question: "Why does the zeroth-order (ε = 0) term in the Chapman-Enskog expansion give the Euler equations rather than the Navier-Stokes equations?"
+  type: multiple-choice
+  options:
+    - "The Euler equations are an approximation of Navier-Stokes valid at low Reynolds numbers"
+    - "At zeroth order the distribution is exactly the local Maxwell-Boltzmann — perfect local equilibrium with no gradients — so there are no irreversible transport processes; viscosity and conductivity only emerge from the first-order correction"
+    - "The Boltzmann equation is only valid for ideal fluids, which the Euler equations describe"
+    - "Transport coefficients were not included in Euler's original formulation and must be added separately"
+  answer: 1
+  explanation: "At zeroth order (ε = 0), the system is assumed to be in perfect local thermodynamic equilibrium everywhere — the distribution function is a local Maxwellian with no deviation. No gradients means no momentum flux from velocity shear (no viscosity) and no energy flux from temperature gradient (no heat conduction). These irreversible transport processes only appear when ε > 0 introduces first-order corrections that encode the response of the distribution to spatial gradients."
+
+- question: "Chapman-Enskog theory derives transport coefficients (viscosity, thermal conductivity) from the Boltzmann equation without requiring empirically fitted parameters for dilute monatomic gases."
+  type: true-false
+  answer: true
+  explanation: "This is the central achievement of the theory. For hard-sphere or specified interaction-potential gases, the transport coefficients are expressed as explicit integrals over the collision operator — no free parameters. The theory predicts, for instance, η ∝ √T for hard spheres, and this prediction is confirmed by experiment. The derivation realizes the kinetic theory program of connecting atomic-level interactions to macroscopic fluid behavior."
+
+- question: "The Chapman-Enskog expansion is valid when the Knudsen number ε = λ/L is much greater than 1, meaning the mean free path is large compared to the macroscopic scale."
+  type: true-false
+  answer: false
+  explanation: "The expansion requires ε ≪ 1 — the mean free path must be small compared to macroscopic length scales. This condition ensures that collisions are frequent enough to keep the distribution function close to local equilibrium, so that a perturbative expansion around f^(0) is valid. When ε ≫ 1 (rarefied gas or shock waves), the gas is far from local equilibrium and the Chapman-Enskog hierarchy breaks down — higher-order terms become large rather than small corrections."
+
+- question: "What is the physical meaning of the Knudsen number, and why must it be small for the Chapman-Enskog expansion to be valid?"
+  type: short-answer
+  answer: "The Knudsen number ε = λ/L is the ratio of the mean free path (average distance between molecular collisions) to the macroscopic length scale over which temperature or velocity vary. When ε ≪ 1, collisions occur frequently relative to macroscopic gradients, keeping the distribution function close to local equilibrium. The Chapman-Enskog expansion treats deviations from equilibrium as small perturbations proportional to ε; if ε is not small, the perturbative assumption fails and the expansion diverges."
+  explanation: "Physically, small ε means the gas 'forgets' its non-equilibrium initial conditions over a distance much shorter than the macroscopic gradient scale — it relaxes to local equilibrium between macroscopic events. This justifies writing f as a small perturbation around f^(0). High Knudsen number situations (spacecraft re-entry, microfluidics, rarefied gas dynamics) require the full Boltzmann equation or other approaches that do not assume near-equilibrium."
+```
+
 ## Explainer
 
 The **Boltzmann equation** governs how the phase-space distribution function f(r, v, t) evolves through free streaming and binary collisions: ∂f/∂t + v·∇f = (∂f/∂t)_coll. You already know that at equilibrium, f relaxes to a local Maxwell-Boltzmann distribution f^{(0)}, and the collision term drives this relaxation. Chapman-Enskog theory asks: when the system is *near* but not at equilibrium — when there are gentle spatial gradients in temperature, density, or velocity — how does f deviate from f^{(0)}, and what macroscopic transport laws emerge?

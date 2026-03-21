@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 The hydraulic diameter D_h = 4A/P converts non-circular flow passages (rectangular ducts, annuli, channels) into equivalent diameters for use with circular-pipe friction-factor and Reynolds-number correlations. This empirical equivalence allows the same engineering correlations developed for pipes to apply to complex geometries. Accuracy depends on the aspect ratio and degree of eccentricity.
 
+## Questions
+
+```yaml
+- question: "A rectangular HVAC duct is 0.5 m wide and 0.5 m tall (a square cross-section). What is its hydraulic diameter?"
+  type: multiple-choice
+  options:
+    - "0.354 m — the diagonal divided by √2"
+    - "0.5 m — equal to the side length"
+    - "0.25 m — half the side length"
+    - "0.707 m — the diagonal of the square"
+  answer: 1
+  explanation: "D_h = 4A/P = 4(0.5 × 0.5)/(4 × 0.5) = 4(0.25)/2.0 = 0.5 m. For a square duct with side a, D_h = 4a²/4a = a. This is a useful sanity check: a square's hydraulic diameter equals its side length, not its diagonal or any other geometric mean. The hydraulic diameter formula always reduces to the actual diameter for a circle, and to the side length for a square."
+
+- question: "An engineer applies the hydraulic diameter formula to a very flat rectangular duct (1.0 m wide, 0.02 m tall) and uses the result in the Moody chart to estimate friction losses. Compared to a compact (nearly square) duct with the same D_h, the flat duct's actual friction factor will likely:"
+  type: multiple-choice
+  options:
+    - "Be the same — the hydraulic diameter fully captures all geometry effects"
+    - "Be lower — the flat duct has less surface area per unit volume"
+    - "Be higher — corner effects and non-uniform velocity profiles in elongated ducts cause greater friction than circular-pipe correlations predict"
+    - "Be unpredictable — the Moody chart cannot be applied to any non-circular duct"
+  answer: 2
+  explanation: "The hydraulic diameter is an empirical approximation that works best for compact, nearly equilateral cross-sections. For highly elongated ducts (aspect ratio much greater than 4:1), the velocity profile near the corners differs fundamentally from the parabolic profile assumed in circular-pipe correlations, and secondary flow structures cause additional friction. The H_h correlation systematically under-predicts friction for flat ducts approaching the parallel-plate geometry. Engineers working with high-aspect-ratio ducts should use analytical solutions (which exist for parallel plates) or correction factors rather than trusting the Moody chart directly."
+
+- question: "For a circular pipe of diameter D, the hydraulic diameter formula D_h = 4A/P gives a result equal to D."
+  type: true-false
+  answer: true
+  explanation: "This is the required sanity check. A circle has area A = πD²/4 and perimeter P = πD. Therefore D_h = 4(πD²/4)/(πD) = πD²/(πD) = D. The factor of 4 in the formula was specifically chosen to ensure this — without the factor of 4, D_h would equal D/4 for a circle, which would make the formula useless for the intended purpose of extending circular-pipe correlations to non-circular geometries."
+
+- question: "The hydraulic diameter of a non-circular duct should be computed as the geometric average (square root of width × height) of its cross-sectional dimensions."
+  type: true-false
+  answer: false
+  explanation: "The hydraulic diameter is D_h = 4A/P (four times the cross-sectional area divided by the wetted perimeter), not a geometric average of dimensions. The physical reasoning is that friction scales with the ratio of area to wetted perimeter, not with any average of dimensions. For a rectangle of width W and height H: D_h = 4(WH)/(2(W+H)) = 2WH/(W+H). For a square (W=H=a): D_h = a. The geometric mean √(WH) would give √(a²) = a for a square but would give different (wrong) values for other geometries."
+
+- question: "Explain the physical reasoning behind the formula D_h = 4A/P — specifically, why friction in a duct scales with the ratio of cross-sectional area to wetted perimeter, and why the factor of 4 is included."
+  type: short-answer
+  answer: "Friction loss in internal flow comes from the shear stress exerted by the walls on the fluid. Every unit of wetted perimeter (wall contact) generates friction, while cross-sectional area carries the flow. A passage with high P/A has lots of wall per unit of flow area — it's 'friction-heavy.' A passage with low P/A has less wall per unit area — less friction per unit flow. The ratio A/P (or its reciprocal) captures this balance. The factor of 4 is a normalization convention chosen so that D_h equals the actual diameter D for a circular pipe (since a circle's A/P = D/4, multiplying by 4 gives D). This ensures all existing circular-pipe correlations apply without a correction constant."
+  explanation: "The hydraulic diameter is fundamentally an empirical similarity parameter: it matches the friction characteristics of non-circular passages to the best-studied case (circular pipes) by equating their A/P ratios. It works well when the velocity profile shape is similar — compact geometries where no dimension is much larger than another. It fails for highly elongated geometries where the profile differs fundamentally from the circular-pipe parabola."
+```
+
 ## Explainer
 
 You know from the continuity equation that flow rate, velocity, and cross-sectional area are linked — but engineering systems rarely use round pipes exclusively. HVAC ducts are rectangular, heat exchanger cores use triangular passages, annular gaps appear between concentric tubes. All the friction-factor correlations (Moody chart, Colebrook equation) were derived for circular pipes. The **hydraulic diameter** is the bridge that lets you use them anyway.

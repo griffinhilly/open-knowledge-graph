@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Antimicrobial susceptibility testing (AST) determines the minimum inhibitory concentration (MIC) of drugs against bacterial isolates using agar diffusion (Kirby-Bauer), broth microdilution, or automated systems. Results guide clinical treatment and surveillance. Resistance patterns inform epidemiology and public health responses.
 
+## Questions
+
+```yaml
+- question: "In a Kirby-Bauer disk diffusion assay, antibiotic A produces a zone of inhibition of 28mm and antibiotic B produces a zone of 12mm against the same bacterial isolate. What does the size of these zones indicate about bacterial susceptibility?"
+  type: multiple-choice
+  options:
+    - "The bacterium is more resistant to antibiotic A because it needed a larger zone to be inhibited"
+    - "The bacterium is more susceptible to antibiotic A, since a larger zone corresponds to a lower MIC against that drug"
+    - "Antibiotic B is more clinically useful because its inhibition was concentrated closer to the disk"
+    - "Zone size indicates drug concentration in the disk, not bacterial susceptibility"
+  answer: 1
+  explanation: "Zone diameter is inversely correlated with MIC. A larger zone means the bacterium was inhibited at a greater distance from the disk, meaning even the low drug concentrations far from the disk exceeded the MIC — indicating susceptibility. A small zone (antibiotic B here) means bacteria grew right up to the disk even at high local concentrations, indicating resistance. Option A is the classic reversal misconception."
+
+- question: "Why is the MIC compared against published breakpoints rather than used as a direct, absolute measure of susceptibility?"
+  type: multiple-choice
+  options:
+    - "Because MIC values drift over time as bacteria adapt to antibiotics during storage in culture"
+    - "Because the clinically relevant question is whether the MIC is achievable at the infection site with safe dosing — which breakpoints encode by incorporating pharmacokinetic data"
+    - "Because MIC measurement has too much technical variability to be interpreted without a correction factor"
+    - "Because breakpoints standardize for differences in bacterial inoculum size across different laboratories"
+  answer: 1
+  explanation: "An MIC of 0.25 μg/mL means nothing clinically without knowing: can we safely achieve that concentration at a urinary tract infection versus a brain abscess at standard dosing? Breakpoints encode this pharmacokinetic context — they are set based on what drug concentrations are achievable in relevant body compartments at safe doses. A breakpoint defines the threshold above which standard therapy is unlikely to succeed, translating a lab number into a treatment decision."
+
+- question: "A bacterial isolate with a large zone of inhibition on a Kirby-Bauer plate is resistant to that antibiotic."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true. A large zone means the bacterium was inhibited at a great distance from the disk, corresponding to a low MIC — the organism is susceptible. Resistance is indicated by a small or absent zone, meaning bacteria grew right up to the disk even at high local concentrations. This is the single most common Kirby-Bauer interpretation error."
+
+- question: "Broth microdilution is considered the gold standard for MIC determination because it produces a precise numerical concentration value that can be directly compared to breakpoints."
+  type: true-false
+  answer: true
+  explanation: "Broth microdilution uses serial two-fold dilutions of antibiotic in a 96-well plate, each inoculated with standardized bacteria. The first clear well after incubation defines the MIC as a specific value in μg/mL (e.g., 0.25 μg/mL), which can be directly compared to published breakpoints. Kirby-Bauer gives zone diameters that must be converted to S/I/R categories via interpretive charts — an extra translation step with additional imprecision."
+
+- question: "What is a hospital antibiogram, and why is it clinically valuable before an individual patient's susceptibility results are available?"
+  type: short-answer
+  answer: "An antibiogram is a cumulative resistance profile for common pathogens at a specific institution, compiled from many AST results over time. It reports what percentage of each pathogen species is susceptible to each antibiotic locally. Before a patient's culture results return (typically 16–48 hours), clinicians must choose empiric therapy based on the most likely pathogen and its local resistance patterns. The antibiogram provides this local resistance landscape, enabling evidence-based empiric choices rather than relying on national statistics that may not reflect what is circulating at that hospital."
+  explanation: "Local resistance patterns can differ dramatically from regional or national data. A hospital with heavy carbapenem use may have much higher carbapenem resistance rates than the national average. The antibiogram captures this local ecology and makes it actionable for empiric treatment decisions."
+```
+
 ## Explainer
 
 From your study of antibiotic resistance mechanisms, you know that bacteria can acquire resistance through mutations, plasmid transfer, and mobile genetic elements — and that different resistance genes neutralize antibiotics through different biochemical strategies (efflux pumps, enzymatic degradation, target modification). **Antimicrobial susceptibility testing (AST)** is how clinicians determine which of those resistance mechanisms are actually present in a patient's infection, translating molecular biology into treatment decisions. Without AST, prescribing antibiotics is essentially guesswork, and incorrect guesses both harm the patient and accelerate resistance evolution.

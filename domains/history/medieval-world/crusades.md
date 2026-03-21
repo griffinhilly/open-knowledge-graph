@@ -40,6 +40,45 @@ Examining the Crusades from multiple perspectives — a French knight, a Byzanti
 - The Crusades were not simply 'West versus Islam' — Crusaders sacked Constantinople (a Christian city) in 1204, and many Muslim rulers allied with Crusader states when it suited them.
 - The Crusades did not cause the Islamic-Christian divide; that predates them and has many other sources.
 
+## Questions
+
+```yaml
+- question: "The Fourth Crusade (1204) ended with Crusaders sacking Constantinople — a Christian city. What does this reveal about the Crusades as a historical phenomenon?"
+  type: multiple-choice
+  options:
+    - "The Fourth Crusade was an aberration with no connection to the religious motivations of earlier Crusades"
+    - "It reveals that crusading logic could be redirected by political and commercial interests, demonstrating the Crusades were not a simple religious war against Islam"
+    - "It shows that Western Christians and Eastern Christians were natural enemies due to the Great Schism"
+    - "It proves the Crusades were primarily economic in motivation from the beginning"
+  answer: 1
+  explanation: "The sack of Constantinople shows that 'crusading' was a flexible framework that could be bent toward non-religious ends. Commercial interests (Venice), political opportunism, and redirected military energy transformed a campaign aimed at the Holy Land into an attack on a Christian ally. This is precisely why historians insist the Crusades cannot be reduced to a simple 'Christianity vs. Islam' narrative — the alliances, motives, and outcomes were far more complex than that binary allows."
+
+- question: "Which combination of factors BEST explains why ordinary French knights participated in the First Crusade (1096–1099)?"
+  type: multiple-choice
+  options:
+    - "Economic desperation — most knights were impoverished and sought plunder in the Holy Land"
+    - "Papal coercion — Pope Urban II threatened excommunication of anyone who refused to participate"
+    - "The convergence of feudal military culture (prestige, opportunity), Church authority (papal call), and genuine religious belief (Jerusalem as spiritual center)"
+    - "Military conscription — feudal lords compelled their vassals to go under pain of forfeiting their land"
+  answer: 2
+  explanation: "Participation was multi-causal. Feudalism provided the social framework: knights gained prestige, and younger sons without inheritances saw opportunity. The Church provided ideology: Pope Urban II framed participation simultaneously as penance, pilgrimage, and holy war. And genuine religious devotion mattered — Jerusalem was not merely politically significant but the axis of Christian salvation history. No single factor explains participation; the Crusades worked because multiple incentive structures aligned simultaneously."
+
+- question: "The Crusades created a sharp cultural divide between Islamic and Christian civilizations, making meaningful cultural exchange between them impossible."
+  type: true-false
+  answer: false
+  explanation: "The historical record shows the opposite: the Crusader States were contact zones where Latin, Byzantine, Islamic, and Jewish cultures lived in daily proximity. Crusader nobles sometimes borrowed architectural techniques, cuisine, and administrative practices from Muslim neighbors. Medical and philosophical texts flowed westward into Europe. The Islamic Golden Age's intellectual achievements — which you've studied — were partly transmitted through these contact zones. Violence and cultural exchange coexisted, which is why historians describe the Crusades as complex contact zones rather than pure barriers."
+
+- question: "The Crusades meant different things to different participants — including pilgrimage, military conquest, penance, and political opportunity — even within a single campaign."
+  type: true-false
+  answer: true
+  explanation: "Pope Urban II's call framed the First Crusade simultaneously as pilgrimage, penance for sins, and holy war — multiple motivations packed into one framework. Different participants brought different priorities: a French noble might seek prestige and land; a poor knight might seek social advancement; a devout pilgrim might genuinely seek spiritual merit; a merchant might see trade opportunities. Understanding this multiplicity is essential to explaining both why the Crusades mobilized such diverse participants and why later campaigns could be redirected toward targets like Constantinople."
+
+- question: "Why do historians insist the Crusades cannot be reduced to a simple 'clash of civilizations' between Christianity and Islam?"
+  type: short-answer
+  answer: "The historical evidence contradicts the simple binary at multiple levels. Internally: Crusaders sacked Constantinople (1204), a Christian city; and Muslim rulers frequently allied with Crusader states when it suited political interests — religious identity did not determine alliance. Causally: the Islamic-Christian divide predated the Crusades and had many other sources; the Crusades did not create it. Experientially: the Crusader States were contact zones of simultaneous violence and cultural exchange — violence and commerce, massacre and intellectual transmission coexisted. A 'clash of civilizations' narrative flattens this complexity into a retrospective myth."
+  explanation: "Historians emphasize multiple perspectives — a French knight, a Byzantine emperor, an Egyptian sultan, a Jewish community in the Rhineland — because each perspective reveals a different aspect of the same events. What was liberation for some was invasion for others, betrayal for others, and catastrophe for still others. Reducing this to a two-sided religious war is a retrospective simplification that distorts both medieval reality and the Crusades' actual long-term legacy."
+```
+
 ## Explainer
 
 The Crusades emerged from a specific collision of the power structures and institutions you've already studied. **Feudalism** gave European nobles both the military capacity and the social incentive to participate — lords gained prestige, younger sons without inheritances gained opportunity, and vassals followed their lords. The medieval Church, which you know wielded enormous authority over both spiritual and temporal affairs, provided the ideological engine: Pope Urban II's 1095 call at Clermont framed the expedition as penance, pilgrimage, and holy war simultaneously. Understanding why ordinary knights responded requires grasping that Jerusalem was not merely politically significant — it was the axis of the Christian cosmos, the site of salvation history. To recapture it was to act within that story.

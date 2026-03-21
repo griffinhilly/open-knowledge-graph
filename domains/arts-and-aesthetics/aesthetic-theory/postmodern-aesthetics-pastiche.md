@@ -32,6 +32,45 @@ Analyze postmodern artworks (appropriation art, simulation, ironic quotation) an
 ## Common Misconceptions
 - Postmodernism is purely relativistic; it deconstructs absolute standards while still making meaning and value claims. - Pastiche is mere stylistic play; it can function as serious critique of historical authority and aesthetic originality.
 
+## Questions
+
+```yaml
+- question: "An artist photographs Walker Evans's Depression-era photographs without alteration and exhibits them as her own work. From a postmodern aesthetic perspective, what is the primary claim this gesture makes?"
+  type: multiple-choice
+  options:
+    - "That photography is not a legitimate art form because anyone can reproduce it"
+    - "That authorship and originality are historically contingent social constructs rather than natural properties of artworks"
+    - "That Depression-era photography was technically plagiarism and Evans was not a genuine originator"
+    - "That appropriation is morally impermissible but aesthetically acceptable within the art world's institutional framework"
+  answer: 1
+  explanation: "This is Sherrie Levine's 'After Walker Evans.' The work raises the question of what 'originality' means in a world already saturated with existing images. By re-presenting Evans's photograph as art, it exposes authorship and originality as socially produced categories — not natural properties of objects. The goal is not to demean Evans (option C) but to interrogate the very categories by which we distinguish 'original' from 'copy.' This is postmodernism's critique of aesthetic essentialism."
+
+- question: "According to Fredric Jameson's framework, what distinguishes pastiche from parody?"
+  type: multiple-choice
+  options:
+    - "Parody copies a style badly; pastiche copies it skillfully and faithfully"
+    - "Parody imitates a style to mock it against an implied normal style; pastiche imitates without mockery in a world where no style is authoritative"
+    - "Parody combines multiple historical styles simultaneously; pastiche commits to a single consistent style"
+    - "Parody belongs to modernism; pastiche is an entirely new invention unique to postmodern culture"
+  answer: 1
+  explanation: "For Jameson, parody requires a 'normal' linguistic or aesthetic baseline against which the imitation registers as deviant and funny. Postmodernism has no such authoritative baseline — all historical styles are equally available in what he calls the 'archive.' Pastiche is therefore 'blank parody': it borrows and combines styles but cannot mock, because there is nothing to mock against. This is why Jameson sees pastiche as symptomatic of the postmodern condition, not merely a technique."
+
+- question: "Postmodern aesthetics is nihilistic because it rejects all standards of aesthetic value and treats all artworks as equally meaningless."
+  type: true-false
+  answer: false
+  explanation: "This is the most persistent misconception about postmodernism. Postmodern works make claims, generate meaning, and invite critical judgment — they just do so while foregrounding the fact that aesthetic categories (originality, authenticity, the high-low distinction) are historically constructed rather than eternal or natural. Collapsing the boundary between high and low culture is not a declaration that everything is worthless; it is a critique of the social and institutional machinery that produced those distinctions in the first place."
+
+- question: "The postmodern collapse of the high-low cultural distinction represents a failure of aesthetic standards, according to the framework described in this topic."
+  type: true-false
+  answer: false
+  explanation: "From a postmodern perspective, the collapse is a deliberate critical act. Warhol's soup cans, architects mixing classical columns with shopping-mall elements — these don't abandon standards but expose the ideological labor that goes into defining 'serious' versus 'trivial' art. The boundary was never neutral; it was maintained by institutions, critics, and economic forces with specific interests. Making those mechanisms visible is the critical intervention, not a lapse in judgment."
+
+- question: "How does postmodern aesthetics respond to modernism's conviction that art history has a proper direction of progress toward formal purity?"
+  type: short-answer
+  answer: "Postmodernism rejects the premise entirely. Greenberg's modernism held that each medium should shed whatever was extraneous to its essence — painting toward flatness and color, sculpture toward pure volume — and that this purification defined art history's direction. Postmodernism treats history not as a progression toward purity but as an archive: a simultaneous, non-hierarchical storehouse of styles with no inherent direction or authoritative endpoint. Artists quote, combine, and recombine from this archive freely. The concept of progress in art is itself exposed as a historical construct, not a fact about aesthetic development."
+  explanation: "The shift is from history as a directed narrative (Hegel's Spirit, Greenberg's formal refinement) to history as an archive of equally available possibilities. This is why postmodern architects can mix classical columns with neon signs: no single style has special authority, and the mixture is a statement about that fact."
+```
+
 ## Explainer
 
 You come to this topic with three crucial pieces of background: Hegel's insight that art is historically situated and that aesthetic forms evolve with cultural consciousness; Greenberg's modernist conviction that each art form should pursue its own medium-specific purity; and Adorno's critique of how the culture industry commodifies aesthetic experience. Postmodern aesthetics is, in many ways, a sustained reaction against all three — or more precisely, it takes the internal tensions within each of these positions and pushes them to a breaking point.

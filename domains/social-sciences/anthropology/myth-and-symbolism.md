@@ -33,6 +33,45 @@ Perform a structural analysis of two origin myths from different cultures, ident
 - Myths are not merely entertainment; they encode social norms, power relations, and cosmological frameworks.
 - Structuralist analysis and interpretive analysis are complementary, not contradictory.
 
+## Questions
+
+```yaml
+- question: "An anthropologist observes the same symbolic gesture — a raised fist — used in a political protest in one society and in a religious ritual in another. A Geertzian analyst studying both contexts would conclude:"
+  type: multiple-choice
+  options:
+    - "The gesture means the same thing in both contexts because the structural opposition it encodes is universal"
+    - "The gesture cannot be analyzed because symbols are untranslatable across cultural boundaries"
+    - "The gesture's meaning must be understood from within each specific cultural context — its associations, history, and the social functions it serves there"
+    - "The gesture is only meaningful in the political context, since religious symbols require special interpretive authority"
+  answer: 2
+  explanation: "Geertz's interpretive approach insists that symbols are not self-evident — their meaning is constituted by the entire web of cultural practices, histories, and social relations within which they are embedded. The same physical gesture carries completely different meanings in different contexts, and understanding either requires immersion in that context through thick description. Option A reflects a structuralist approach, which seeks universal patterns — but even that requires contextual analysis rather than simple universalization."
+
+- question: "Lévi-Strauss analyzed myths as encoding binary oppositions that organize human thought. A key implication of this structural approach is that:"
+  type: multiple-choice
+  options:
+    - "Myths from different cultures that share binary oppositions must have historical contact with one another"
+    - "Myths that cannot be reduced to binary oppositions are culturally primitive"
+    - "Surface-level differences between myths may mask shared underlying structures, revealing universal features of human cognition"
+    - "Once the binary opposition is identified, the full social meaning of the myth has been decoded"
+  answer: 2
+  explanation: "Lévi-Strauss's structural method is powerful for cross-cultural comparison because it looks below surface narrative to find recurring patterns in underlying logic. Different cultures may independently develop myths encoding the same binary tensions (nature/culture, life/death) without any historical contact, suggesting these oppositions reflect universal cognitive structure. Option A confuses structural similarity with historical diffusion. Option D represents a limitation Geertz explicitly criticizes: identifying the structure does not exhaust meaning, because it strips away the contextual richness that makes the myth significant to actual participants."
+
+- question: "In anthropology, describing a story as a 'myth' means the story is factually false and should not be taken seriously."
+  type: true-false
+  answer: false
+  explanation: "This is the most important terminological distinction in anthropological approaches to myth. In anthropology, 'myth' designates a sacred narrative that a society treats as culturally authoritative — a story that explains origins, justifies social arrangements, or encodes cosmological beliefs. The term says nothing about literal truth or falsity. Anthropologists use 'myth' to describe Genesis, Aboriginal Dreamtime narratives, and Greek creation stories alike, without implying any judgment about their truth value. Conflating 'myth' with 'false story' prevents understanding the social functions myths actually serve."
+
+- question: "Because symbols are culturally specific, members of a culture automatically and completely understand all the symbols of their own culture without explicit socialization or learning."
+  type: true-false
+  answer: false
+  explanation: "Symbols are not automatically comprehensible even to insiders. Cultural membership requires socialization into shared interpretive frameworks — children must be taught what symbols mean through education, ritual participation, and cultural transmission. Adults regularly encounter symbols they don't understand, and symbolic meanings shift over time, across social strata, and between contexts within the same culture. Geertz's central insight is that culture is 'a web of significance' that must be learned, not a set of instincts. The fact that socialization often occurs early and unconsciously doesn't mean meaning is automatic."
+
+- question: "What does Clifford Geertz mean by 'thick description,' and why does he argue it is necessary for understanding cultural symbols rather than relying on structural analysis alone?"
+  type: short-answer
+  answer: "Thick description means recording not just observable behavior but all the layers of meaning, context, and social implication that participants bring to it. Geertz's famous example: a thin description of a wink and an eye twitch records the same physical event. A thick description captures that the wink is a conspiratorial signal embedded in a specific social relationship with shared expectations. Applied to symbols, thick description asks: what does this symbol mean to the people who use it, what does it connect to in their cosmology and social structure, and what emotional charge does it carry? Structural analysis identifies abstract patterns (binary oppositions) that may recur across cultures but strips away the specific texture of meaning — why this symbol matters here, to these people, in this context."
+  explanation: "The contrast between Lévi-Strauss and Geertz is not just methodological but philosophical: Lévi-Strauss believed culture encodes universal cognitive structures that exist independently of individual experience; Geertz believed meaning is constituted in practice and can only be understood from inside the practices that generate it. The practical upshot is that you need both tools: structural analysis for cross-cultural patterns and thick description for the irreducible particularity of any given symbol in any given context."
+```
+
 ## Explainer
 
 You've already studied ritual and the culture concept, which gives you two essential foundations for understanding myth. From ritual, you know that symbolic action communicates things that ordinary speech cannot — it enacts transitions, reinforces social bonds, and mediates between the ordinary and the sacred. Myth operates as ritual's narrative complement: if ritual is symbolic action in time, myth is symbolic narrative about origins and cosmic order. Together they form the infrastructure of meaning within which cultural life is organized. The culture concept adds the critical point that this infrastructure is not self-evident — symbols mean what they mean because members of a community have been socialized into a shared interpretive framework.

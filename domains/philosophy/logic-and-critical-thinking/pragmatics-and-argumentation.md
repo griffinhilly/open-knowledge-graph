@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Arguments operate in conversational contexts where implicit meaning, speaker intent, and shared background matter. Pragmatic understanding reveals how contextual factors affect what speakers mean, what counts as responsive to an objection, and when paraphrasing versus direct quotation changes an argument's force.
 
+## Questions
+
+```yaml
+- question: "Someone argues: 'Either we raise taxes or we cut services — and we can't cut services — so we must raise taxes.' This is logically a valid disjunctive syllogism. What would a pragmatically sophisticated respondent do?"
+  type: multiple-choice
+  options:
+    - "Accept the argument as sound, since its validity guarantees the conclusion follows"
+    - "Challenge whether the disjunction is exhaustive in context — other funding sources or structural efficiencies may exist that the premise silently excludes"
+    - "Attack the emotional framing of the argument rather than engaging with its logical structure"
+    - "Demand citations for the empirical claim that services cannot be cut"
+  answer: 1
+  explanation: "Validity only guarantees that the conclusion follows *if the premises are true*. The pragmatically interesting challenge targets the shared background assumption that the disjunction is exhaustive — that raising taxes and cutting services are the only two options. This assumption is not stated as a premise but is doing crucial argumentative work. A sophisticated respondent targets the implicit premise, not just the explicit logical structure."
+
+- question: "Instead of engaging with the strongest version of her opponent's argument, a debater addresses a deliberately weakened version that is easy to refute. Why is this a pragmatic failure, not merely a logical error?"
+  type: multiple-choice
+  options:
+    - "Because it violates the formal rules of parliamentary debate procedure"
+    - "Because it exploits the gap between what was literally said and what was meant — replacing the real argument with an easier proxy rather than engaging with the actual disagreement"
+    - "Because audiences always detect strawmanning and it undermines the debater's credibility"
+    - "Because informal fallacies are definitionally pragmatic rather than logical in nature"
+  answer: 1
+  explanation: "Strawmanning is a pragmatic failure because arguments are speech acts in context: what matters is what the speaker was actually arguing, not a distorted paraphrase of the literal words. Attacking a proxy avoids the actual disagreement and exploits the gap between what was said and what was meant. This makes it an ethical failure — a misrepresentation — as much as a logical one."
+
+- question: "The principle of charity requires interpreting an argument in its strongest plausible version before evaluating it — this is both a logical and an ethical requirement."
+  type: true-false
+  answer: true
+  explanation: "Logically, charity ensures you are evaluating the argument at its best rather than attacking a weakened version — only by engaging with the strongest form can you determine whether the argument actually succeeds. Ethically, it means representing others' positions accurately, which is a form of intellectual honesty. Uncharitable interpretation may win exchanges but moves further from truth and undermines the purpose of genuine inquiry."
+
+- question: "Paraphrasing someone's argument is a neutral operation that preserves all the meaning of the original statement."
+  type: true-false
+  answer: false
+  explanation: "Paraphrase inevitably alters emphasis, omits nuance, and introduces the paraphraser's framing. It can subtly beg the question against the original speaker or make the argument look stronger or weaker than it is. This is why careful philosophical practice involves quoting directly and then analyzing the specific words — the original formulation carries pragmatic meaning that summary can lose or distort."
+
+- question: "Why can two people who agree on the literal words of an argument still disagree about what it is actually claiming?"
+  type: short-answer
+  answer: "Arguments are speech acts in context: what is being claimed depends on shared background assumptions, speaker intent, and audience expectations. The literal words underdetermine the argument — a premise may be intended as exhaustive only given unstated assumptions the audience is expected to share, or a qualifier the speaker considers obvious may not register for a different listener. Two people with different background beliefs will recover different arguments from the same words. Pragmatic interpretation requires reconstructing what the speaker meant and what the audience was expected to infer, not just decoding surface syntax."
+  explanation: "This is the core insight connecting pragmatics and argumentation: logic evaluates the structure of explicit propositions, but argumentation happens in the space between what is said and what is meant — and that space is shaped by context, audience, and shared knowledge."
+```
+
 ## Explainer
 
 You already understand argument structure — premises leading to conclusions — and if you've encountered Grice's maxims, you know that conversation operates under cooperative norms that generate meaning beyond what is literally said. Pragmatics and argumentation brings these two threads together: it asks how the full conversational context shapes what an argument is actually claiming, what would count as a response to it, and what goes wrong when that context is ignored or manipulated.

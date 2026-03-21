@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Below the thermocline, water masses move slowly along density surfaces and topographic features, driven by pressure gradients and deflected by Coriolis forces. These deep currents transport heat, nutrients, and dissolved chemicals around the globe over centuries and centuries, with flow speeds of centimeters per second.
 
+## Questions
+
+```yaml
+- question: "A chemical tracer injected into North Atlantic Deep Water is detected in the deep Pacific Ocean 500 years later. What does this best illustrate about deep ocean currents?"
+  type: multiple-choice
+  options:
+    - "Deep currents are fast enough to circulate globally within decades, but the tracer was diluted along the way"
+    - "Deep currents are extremely slow (cm/s) but can transport water masses and dissolved substances globally over centuries"
+    - "The tracer migrated by molecular diffusion along the ocean floor rather than by active current transport"
+    - "The Pacific and Atlantic deep basins are directly connected by a shallow surface channel"
+  answer: 1
+  explanation: "Deep ocean currents flow at 1–10 cm/s, roughly the pace of a slow walk. Despite this, they transport enormous volumes of water because they occupy vast cross-sections of ocean basins. The ~500-year timescale for deep Pacific water renewal by NADW and AABW is consistent with measured radiocarbon ages of deep Pacific water. The slow speed and centuries-long timescale are not failures of the system — they are its defining feature, with major implications for heat and carbon sequestration."
+
+- question: "Why can Antarctic Bottom Water only enter adjacent deep basins through specific gaps in submarine ridges rather than flowing freely over them?"
+  type: multiple-choice
+  options:
+    - "AABW is too warm to sink below the ridge crests"
+    - "AABW is the densest water mass and flows along the ocean floor; it cannot rise over submarine ridges without topographic passages"
+    - "Submarine ridges generate magnetic fields that deflect deep water flow into narrow channels"
+    - "AABW moves too slowly to have sufficient momentum to surmount mid-ocean ridges"
+  answer: 1
+  explanation: "AABW is the densest water in the ocean and therefore sinks to and flows along the very bottom. Like any dense fluid, it cannot flow upslope over topographic barriers without an energy source to lift it — and no such source exists. It must flow through gaps, fracture zones, and abyssal passages at or below ridge depth. The Mid-Atlantic Ridge, for instance, almost completely separates the deep western and eastern Atlantic basins; AABW can only cross through specific fracture zones. This topographic steering is why deep water mass distributions often mirror submarine ridge geometry."
+
+- question: "The slow speed of deep ocean currents (1–10 cm/s) means they transport negligible amounts of heat and nutrients compared to faster surface currents."
+  type: true-false
+  answer: false
+  explanation: "Volume flux (and therefore heat and nutrient transport) depends on both velocity and cross-sectional area. Deep currents flow through enormous cross-sections spanning entire ocean basins — thousands of meters deep and hundreds of kilometers wide. Even at 5 cm/s, these dimensions produce volume fluxes comparable to major surface currents. The deep overturning circulation is responsible for transporting a substantial fraction of the ocean's total heat poleward and distributes nutrients globally through upwelling."
+
+- question: "The centuries-long residence time of deep ocean water means that CO₂ absorbed at the surface and transported into the deep ocean will influence deep water chemistry for centuries."
+  type: true-false
+  answer: true
+  explanation: "Once CO₂ is dissolved in sinking surface water and carried into the deep ocean, it is effectively isolated from the atmosphere for the duration of the deep water's residence time — approximately 500–1,000 years for the deep Pacific. This 'biological pump' and 'solubility pump' sequester atmospheric carbon on millennial timescales. Conversely, it also means that anthropogenic CO₂ absorbed now will continue to acidify deep water centuries from now, affecting deep-sea organisms long after surface emissions are reduced."
+
+- question: "Why does the slow overturning timescale of deep ocean circulation (500–1,000 years) make it relevant to understanding climate change on decadal to millennial timescales?"
+  type: short-answer
+  answer: "The deep ocean acts as a thermal and chemical reservoir that exchanges material with the atmosphere on timescales of centuries. Heat absorbed at the surface today is mixed into the deep ocean over decades to centuries, delaying and moderating surface warming — but also guaranteeing continued warming after atmospheric CO₂ stabilizes, as the deep ocean slowly equilibrates. Similarly, CO₂ dissolved in sinking water is sequestered for centuries, but changes in deep circulation (such as a slowdown of NADW formation) can release that stored carbon back to the atmosphere on millennial timescales. Understanding deep circulation is therefore essential for predicting both short-term committed warming and long-term carbon cycle feedbacks."
+  explanation: "The 'committed warming' from existing CO₂ concentrations is partly determined by how much heat is still being absorbed by the deep ocean. Paleoclimate records show that past abrupt climate changes (e.g., the Younger Dryas) were linked to disruptions in deep ocean circulation, confirming that relatively small changes in deep circulation can have large surface climate effects. This is why monitoring deep ocean temperature, salinity, and overturning strength is a priority for climate observation systems."
+```
+
 ## Explainer
 
 You already know from thermohaline circulation that surface water becomes dense enough to sink when it gets very cold, very salty, or both — and that this sinking drives a global overturning circulation. **Deep ocean and abyssal currents** are what happens to that water after it sinks. Once a water mass plunges from the surface into the deep ocean, it enters a world governed by entirely different dynamics than the wind-driven surface currents above. Down here, flow is slow, persistent, and shaped by subtle density differences, bottom topography, and the Coriolis effect.

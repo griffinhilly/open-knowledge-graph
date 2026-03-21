@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 In the center-of-mass frame, the two colliding bodies approach each other along a line, the collision analysis is symmetric, and the total momentum is zero by definition. This frame provides the clearest picture of the collision dynamics.
 
+## Questions
+
+```yaml
+- question: "Two particles collide elastically in the center-of-mass frame. Before the collision, particle 1 has speed 4 m/s in the CM frame. Which statement correctly describes the outcome?"
+  type: multiple-choice
+  options:
+    - "Particle 1's speed after the collision is less than 4 m/s, because kinetic energy is transferred to particle 2"
+    - "Particle 1's speed after the collision is exactly 4 m/s, but its direction may have changed"
+    - "Particle 1's speed after the collision is greater than 4 m/s if it is the lighter particle"
+    - "Both particles come to rest in the CM frame because total momentum must be zero"
+  answer: 1
+  explanation: "In an elastic collision in the CM frame, both kinetic energy and momentum are conserved. Since the total momentum is zero by definition (p₁ = −p₂), and kinetic energy is conserved, each particle's speed in the CM frame is unchanged — only the direction of the momenta can rotate. Option A is wrong because kinetic energy conservation in the CM frame prevents any change in speed. Option D confuses 'total momentum is zero' with 'all particles are at rest' — zero total momentum means the momenta are equal and opposite, not zero."
+
+- question: "In a fixed-target particle physics experiment, a high-energy proton beam strikes a stationary proton target. A student argues that switching to a collider (equal-energy beams heading toward each other) would double the available collision energy. Is the student correct?"
+  type: multiple-choice
+  options:
+    - "Yes — doubling the beam energy by adding a second beam doubles the available energy"
+    - "No — the available energy in a collider is actually less, because the beams partially cancel"
+    - "No — in the fixed-target experiment, much of the beam's kinetic energy is 'wasted' on moving the center of mass; a collider makes all kinetic energy available, which is far more than double"
+    - "Yes — both experiments produce the same center-of-mass energy, so the choice is purely logistical"
+  answer: 2
+  explanation: "In a fixed-target experiment, the center of mass of the beam-plus-target system is itself moving forward in the lab frame. Conservation of momentum requires the collision products to also carry that forward momentum — this CM motion energy is unavailable for creating new particles. In a collider with equal and opposite beams, the CM frame coincides with the lab frame (zero total momentum), so all kinetic energy is available for the collision. For relativistic particles, the collider energy advantage is enormous — far more than a simple doubling."
+
+- question: "In the center-of-mass frame, the total momentum of a two-particle system is zero both before and after a collision, regardless of whether the collision is elastic or inelastic."
+  type: true-false
+  answer: true
+  explanation: "The center-of-mass frame is defined as the frame in which the center of mass is at rest, which by definition means the total momentum is zero. This holds at all times — before, during, and after the collision — and applies regardless of the collision type. In an inelastic collision, kinetic energy is not conserved, but momentum conservation still holds, so the total momentum remains zero in the CM frame."
+
+- question: "In an elastic collision in the center-of-mass frame, each particle's speed increases after the collision, because the collision transfers energy between them."
+  type: true-false
+  answer: false
+  explanation: "In the CM frame, each particle's speed is unchanged after an elastic collision — only the directions of the velocity vectors can change. This follows directly from conservation of both momentum and kinetic energy. Since total momentum is zero (p₁ = −p₂), conservation of kinetic energy pins down the magnitudes of the momenta. The speeds cannot increase or decrease; the collision only rotates the momenta. What may appear in the lab frame as a speed change is an artifact of transforming back from the CM frame."
+
+- question: "Why do particle physicists prefer collider experiments over fixed-target experiments when trying to produce new massive particles? What does the center-of-mass frame reveal about this preference?"
+  type: short-answer
+  answer: "In a fixed-target experiment, the CM frame is moving forward relative to the lab. Conservation of momentum requires the collision products to carry that forward momentum, so a significant portion of the beam's kinetic energy is 'locked up' in the bulk forward motion of the CM and is unavailable for particle creation. In a collider with equal-energy, opposite-direction beams, the CM frame is at rest in the lab (total momentum is zero), so all kinetic energy is available for producing new particles. The CM frame reveals this directly: in the fixed-target case, the CM frame is highly boosted relative to the lab, meaning much of the energy is in the form of CM kinetic energy, not collision energy."
+  explanation: "This is the practical payoff of CM-frame analysis. Converting to the CM frame makes transparent exactly how much energy is available for new physics — it is the total CM-frame kinetic energy. For fixed-target experiments at high beam energies, the available energy grows only as the square root of the beam energy (relativistically); for colliders, it grows linearly. This is why modern high-energy physics relies almost entirely on colliders."
+```
+
 ## Explainer
 
 You already know that the center of mass of a system of particles moves at constant velocity when no external forces act — the total momentum of the system equals M_total × v_cm, and that quantity is conserved. The **center-of-mass frame** (also called the **CM frame** or **zero-momentum frame**) is simply the inertial reference frame in which the center of mass is at rest. In this frame, by definition, the total momentum is zero: **p₁ + p₂ = 0**, which means the two particles always carry equal and opposite momenta, **p₁ = −p₂**.

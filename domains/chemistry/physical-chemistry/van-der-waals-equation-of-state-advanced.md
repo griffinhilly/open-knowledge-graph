@@ -30,6 +30,45 @@ Calculate compressibility factors for CO₂ near critical point using van der Wa
 ## Common Misconceptions
 - Assuming the van der Waals equation is quantitatively accurate across all conditions; it fails near the critical point and for hydrogen-bonded fluids. - Treating a and b as truly universal constants; they depend on the model and are temperature-dependent for accurate predictions.
 
+## Questions
+
+```yaml
+- question: "A real gas at moderate pressure shows a compressibility factor Z = 0.87. What does this tell you about which intermolecular effect dominates at these conditions?"
+  type: multiple-choice
+  options:
+    - "Excluded volume dominates — gas molecules are crowding each other, increasing pressure beyond ideal"
+    - "Attractive forces between molecules dominate — they pull molecules together, reducing pressure below ideal, so PV < nRT"
+    - "The gas behaves ideally; Z values near 1 indicate ideal behavior"
+    - "The temperature is above the critical temperature, so neither correction applies"
+  answer: 1
+  explanation: "Z = PV/nRT. When Z < 1, the actual PV product is smaller than nRT predicts, meaning the gas exerts less pressure than an ideal gas would. This happens because attractive intermolecular forces pull molecules toward each other, reducing the frequency and force of wall collisions. The van der Waals correction term a/V² captures this: it reduces the measured pressure (P_measured = P_ideal − a/V²). At very high pressures, excluded volume dominates and Z > 1. The crossover behavior is a diagnostic of which physical effect wins in each regime."
+
+- question: "The van der Waals equation predicts a universal critical compressibility Z_c = 3/8 = 0.375 for all gases. Measured values range from 0.23 to 0.29. What is the correct interpretation?"
+  type: multiple-choice
+  options:
+    - "The van der Waals equation is fundamentally incorrect about the existence of critical points"
+    - "The law of corresponding states is qualitatively correct — all gases behave similarly at reduced conditions — but the van der Waals equation overestimates Z_c because it treats molecular interactions too simply"
+    - "Only the a parameter needs to be adjusted; the b parameter is universal"
+    - "Real gases cannot be described by any two-parameter equation of state"
+  answer: 1
+  explanation: "The van der Waals equation captures the essential physics of the critical point and correctly predicts that all gases share a universal behavior when expressed in reduced variables (the law of corresponding states). However, it overestimates Z_c by about 30–60% because its pairwise, spherically symmetric treatment of molecular interactions misses the complexity of real molecules (non-spherical shapes, hydrogen bonding, three-body interactions). The qualitative insight — universal critical behavior — survives into more sophisticated equations of state; the quantitative prediction does not."
+
+- question: "At very high pressures, the compressibility factor Z of a real gas always exceeds 1.0."
+  type: true-false
+  answer: true
+  explanation: "At very high pressures, molecules are forced close together and the excluded volume correction (the b term) dominates. Because molecules physically occupy space, the effective volume available for molecular motion (V − b) is smaller than the container volume V. This means the gas resists compression more than an ideal gas would, pushing Z above 1. The attractive-force correction (a/V²) is significant only at moderate pressures; at high enough pressures, excluded volume always wins."
+
+- question: "The van der Waals parameters a and b are universal constants that apply equally well to all gas molecules, analogous to how universal gas constant R applies universally."
+  type: true-false
+  answer: false
+  explanation: "R is truly universal — it appears in all ideal gas behavior by definition. The van der Waals a and b parameters are substance-specific: a reflects the strength of intermolecular attractions (large for polar or easily polarizable molecules, small for noble gases) and b reflects molecular size. They must be experimentally determined for each gas. Moreover, they are not strictly constant — b is essentially a molecular-volume parameter that is approximately constant, but a is somewhat temperature-dependent for quantitative accuracy. Different equations of state (Redlich-Kwong, Peng-Robinson) use different functional forms to capture this temperature dependence."
+
+- question: "Explain why the compressibility factor Z of a real gas can be both less than 1 at moderate pressures and greater than 1 at very high pressures. What physical effect governs each regime?"
+  type: short-answer
+  answer: "At moderate pressures, molecules are far enough apart that attractive forces between them are significant. These attractions pull molecules toward each other, reducing the force of wall collisions and making the pressure lower than ideal-gas predictions — so PV < nRT and Z < 1. At very high pressures, molecules are forced so close together that their finite volumes become important: the space available for molecular motion is V − b (the excluded volume), not V. Molecules collide with walls more forcefully than in an ideal gas because they have less room to move, so PV > nRT and Z > 1. The crossover point where Z = 1 despite non-ideal behavior is called the Boyle temperature."
+  explanation: "The van der Waals equation builds in both corrections: the a/V² term reduces pressure (attractive forces) and the 1/(V−b) term increases it (excluded volume). Plotting Z vs. pressure for a real gas shows it dipping below 1 at intermediate pressures before rising above 1 at high pressures. The temperature determines which effect dominates: near the boiling point, attractions dominate; well above the critical temperature, excluded volume tends to dominate even at moderate pressures."
+```
+
 ## Explainer
 
 You already know from your introduction to real gases that the ideal gas law, PV = nRT, breaks down when molecules are close together — at high pressures and low temperatures. The **van der Waals equation** was your first correction: (P + a/V²)(V − b) = RT (per mole). Now we dig deeper into what these corrections actually mean physically and where the equation succeeds and fails. The parameter **b** represents the **excluded volume** — the space physically occupied by the molecules themselves. Think of it this way: if you have a box of tennis balls, the gas molecules can only move in the space between the balls, not through them. This makes the effective volume smaller than the container volume, so V becomes V − b. The parameter **a** captures the average attractive force between molecules: in a real gas, molecules pulling on each other slightly reduce the pressure compared to what you'd expect from ideal behavior, so the measured pressure is P_ideal − a/V².

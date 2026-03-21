@@ -35,6 +35,45 @@ After a heavy rain, walk the perimeter of your home and observe where water pool
 - French drains solve all yard drainage problems — French drains handle subsurface water effectively but do not address surface runoff; a yard with poor surface grading needs regrading or surface channels (swales) in addition to any subsurface drainage.
 - Grading is a one-time fix — soil settles naturally over years, especially after construction, heavy rain seasons, or when organic matter decomposes; grading should be checked annually and corrected as needed to maintain protective slope.
 
+## Questions
+
+```yaml
+- question: "A homeowner notices water pooling near the foundation after every rainstorm. To fix this, they pile 6 inches of fresh mulch around the perimeter of the house and pack it against the siding. What will most likely happen?"
+  type: multiple-choice
+  options:
+    - "The mulch will absorb the water and prevent it from reaching the foundation"
+    - "The mulch will retain moisture against the foundation and siding, worsening the water problem and creating conditions for wood rot and insect damage"
+    - "The mulch will shed water just like compacted soil and solve the grading problem"
+    - "The mulch is fine as long as it's kept below the moisture barrier on the foundation"
+  answer: 1
+  explanation: "This is the most common landscaping mistake for foundation drainage. Mulch is porous and retains moisture — exactly the opposite of what you want against a foundation. It keeps the area near the siding perpetually damp, accelerates rot, and provides a pathway for wood-destroying insects. The correct fix is compacted topsoil, which sheds water. Additionally, mulch against siding should always be kept at least 6 inches below the siding line. The root problem — soil grade sloping toward the foundation — requires topsoil, not mulch."
+
+- question: "A homeowner installs a French drain along the back wall of their house to solve a persistent basement moisture problem. After the first wet season, the basement still takes in water after heavy rain. What is the most likely explanation?"
+  type: multiple-choice
+  options:
+    - "The French drain was installed with the perforations facing upward instead of downward"
+    - "The French drain addresses subsurface water only; the problem is likely surface runoff from poor grading or inadequate downspout extensions, which a French drain alone cannot fix"
+    - "French drains cannot work in clay-heavy soils under any circumstances"
+    - "A single French drain is always insufficient; at least three are required for any basement"
+  answer: 1
+  explanation: "French drains intercept water moving laterally through the soil (subsurface), but they do not redirect surface runoff. If the soil slopes toward the foundation, water running across the surface during rain goes straight to the foundation wall before it can infiltrate and be captured by the drain. Solving that requires regrading (adding compacted topsoil to restore proper slope) and downspout extensions to carry roof drainage away. A complete drainage strategy layers both surface and subsurface solutions."
+
+- question: "The recommended minimum foundation grade — approximately 6 inches of fall over the first 10 feet from the house — is primarily intended to keep water from pooling against the foundation wall."
+  type: true-false
+  answer: true
+  explanation: "This is the core principle of landscape grading. The slope doesn't need to be dramatic — about 5–6% grade — but it must be consistent and directed away from the house for the first 6–10 feet. This gives gravity a clear path outward and prevents the soil immediately adjacent to the foundation from becoming a collection point for rainfall and roof runoff. When the grade flattens or reverses due to soil settlement, that water has nowhere to go but against and eventually through the foundation."
+
+- question: "Foundation grading is a one-time improvement: once properly established, the slope away from the house remains stable indefinitely."
+  type: true-false
+  answer: false
+  explanation: "Grading requires periodic maintenance because soil settles naturally over time — especially after construction, heavy rain seasons, and as organic material in mulch beds decomposes (shrinking bed height and flattening the slope). A grade that was correct when the house was built may have reversed over a decade. The recommended practice is to check the slope annually with a 4-foot level against the foundation and add compacted topsoil as needed. Treating grading as a permanent fix is one of the most common reasons basement water problems recur."
+
+- question: "Why is compacted topsoil recommended for restoring foundation grade rather than mulch, and why does proper grading need to be checked periodically rather than treated as a one-time fix?"
+  type: short-answer
+  answer: "Compacted topsoil sheds water because it forms a dense, relatively impermeable surface that directs runoff away from the foundation. Mulch is porous and retains moisture — it functions like a sponge rather than a slope, keeping the area near the foundation wet. Grading needs periodic checking because soil naturally settles and compacts over time, and organic material in mulch beds decomposes, lowering the bed height and flattening or reversing the slope. What began as a 6-inch drop over 10 feet may shrink to 1–2 inches after several years of normal soil movement."
+  explanation: "This question targets both common misconceptions simultaneously. Many homeowners believe mulch 'drains better' because it seems lighter and more porous — they confuse permeability with drainage. The goal of grading isn't permeability (water entering the soil quickly) but direction (water moving away from the house). Dense, compacted topsoil achieves this. The periodicity issue matters because homeowners who fix grading once and never check it again are often the ones who eventually need expensive interior waterproofing."
+```
+
 ## Explainer
 
 Your prerequisite on basement moisture management established *that* water getting in is bad; this topic is about controlling *where water goes* before it reaches the foundation. The root cause of most basement moisture problems and foundation damage isn't plumbing — it's landscape drainage: water that falls as rain, either directly against the foundation or via the roof, and gets directed toward the house instead of away from it. Understanding the chain from rainfall to foundation gives you a framework for diagnosing and fixing problems systematically rather than just treating symptoms.

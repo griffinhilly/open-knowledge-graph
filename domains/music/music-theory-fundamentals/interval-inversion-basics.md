@@ -26,6 +26,45 @@ Play intervals and their inversions on an instrument, identify them on a staff, 
 ## Common Misconceptions
 Interval inversion is not the same as playing the notes in reverse order—the actual pitches (which note is higher) must swap.
 
+## Questions
+
+```yaml
+- question: "What interval is produced by inverting a major sixth?"
+  type: multiple-choice
+  options:
+    - "A major third"
+    - "A minor third"
+    - "A perfect fourth"
+    - "A minor sixth"
+  answer: 1
+  explanation: "Apply both inversion rules. Size: 9 − 6 = 3, so the inverted interval is a third. Quality: major inverts to minor. Result: a minor third. A common error is to apply only one rule — getting the size right but keeping 'major' (producing the wrong answer 'major third'), or forgetting the size rule entirely. Both rules must be applied simultaneously."
+
+- question: "A student claims that C–E (a major third) and E–C are the same interval because they use the same two notes. Another student says E–C is a minor sixth. Which student is correct, and what principle does this illustrate?"
+  type: multiple-choice
+  options:
+    - "The first student — C–E and E–C are both major thirds since the notes are the same"
+    - "The second student — E–C is a minor sixth, because inverting a major third yields a minor sixth (9−3=6, major→minor)"
+    - "Both are correct — major and minor are interchangeable descriptions of the same pitch relationship"
+    - "Neither — E–C is a diminished sixth because the lower note changed"
+  answer: 1
+  explanation: "Interval inversion changes both the size and quality of the interval. C up to E is a major third (4 semitones). E up to C spans 9 semitones — a minor sixth. The inversion rules confirm this: 9 − 3 = 6 (sixth), major → minor. The two students are not describing the same thing: 'using the same notes' does not mean 'same interval,' because interval identity depends on which note is lower."
+
+- question: "A perfect fifth inverts to a perfect fourth, and together their sizes sum to nine."
+  type: true-false
+  answer: true
+  explanation: "5 + 4 = 9 ✓. The quality rule confirms it: perfect inverts to perfect, so perfect fifth → perfect fourth. This can be verified directly: C up to G is a perfect fifth (7 semitones); G up to C is a perfect fourth (5 semitones); 7 + 5 = 12 = one octave, consistent with the two notes together spanning exactly an octave after one is flipped."
+
+- question: "Inverting an interval means playing the notes in the opposite order — for instance, naming C–G as G–C while keeping C in the lower register."
+  type: true-false
+  answer: false
+  explanation: "Inversion requires one note to change octave so that the originally lower note becomes the higher note (or vice versa). Simply reversing the naming order of C–G to G–C, while still having C below G, does not change the interval at all — it is still a perfect fifth. Inversion means the lower note moves up an octave (or the upper note moves down an octave), so the two notes switch their vertical relationship. This is the misconception noted in the topic: reversal of order is not the same as inversion."
+
+- question: "Explain why inverted interval sizes always sum to nine. What property of the octave makes this relationship inevitable?"
+  type: short-answer
+  answer: "When you invert an interval, one note moves by an octave (8 letter-name steps). Since the original interval spans some number of steps s, and the inverted interval spans the remaining steps within that octave, the two intervals together cover exactly one octave's worth of scale steps. In terms of letter names, one octave spans 8 steps (C to C = 1, D = 2, ..., C = 8), and the original and inverted intervals partition those 8 steps with a shared endpoint — giving sizes that sum to 9 (because each endpoint is counted once in each interval). For example, C to E is a third (C=1, D=2, E=3); E to C is a sixth (E=1, F=2, G=3, A=4, B=5, C=6); 3 + 6 = 9."
+  explanation: "The 'sum to nine' rule is not arbitrary — it reflects the structure of the diatonic octave. Understanding why it works makes it memorable and lets you apply it confidently in any context, rather than memorizing it as an isolated fact."
+```
+
 ## Explainer
 
 From your study of intervals, you know how to measure the distance between two notes: count the letter names from bottom to top, and adjust the quality (perfect, major, minor, augmented, diminished) based on the exact semitone count. **Interval inversion** asks a specific question: what happens to an interval when you flip it — when the lower note becomes the higher note, or the higher note becomes the lower? The answer follows two clean rules that reward understanding rather than memorization.

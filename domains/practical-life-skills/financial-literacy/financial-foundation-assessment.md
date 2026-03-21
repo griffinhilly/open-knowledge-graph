@@ -33,6 +33,45 @@ Create a complete personal balance sheet listing all assets and liabilities. Cal
 ## Common Misconceptions
 Net worth is not the same as income or savings rate. Having positive net worth doesn't mean you're financially secure if assets are illiquid or income is unstable.
 
+## Questions
+
+```yaml
+- question: "A person earns $180,000 per year but spends $200,000 per year. A second person earns $45,000 per year and saves $8,000 of it. Which statement best describes their financial positions?"
+  type: multiple-choice
+  options:
+    - "Person A is wealthier because their income is much higher"
+    - "Person B's net worth is growing while Person A's is shrinking"
+    - "Both are equally healthy financially — income determines wealth"
+    - "Person A is better off because high earners can always course-correct"
+  answer: 1
+  explanation: "Net worth moves in the direction of cash flow: income minus spending. Person A has negative cash flow (spending $20,000 more per year than they earn), so their net worth is declining regardless of their high salary. Person B has positive cash flow of $8,000 per year, so their net worth is steadily growing. Income is not the same as net worth — the direction of net worth is determined entirely by cash flow."
+
+- question: "Two people each have a net worth of $60,000. Person A's $60,000 is locked in a retirement account with a 10% early-withdrawal penalty, and Person B's $60,000 is in a liquid savings account. How should this difference affect a financial assessment?"
+  type: multiple-choice
+  options:
+    - "It doesn't matter — net worth is net worth regardless of composition"
+    - "Person A is better off because retirement savings grow tax-deferred"
+    - "Person B has greater financial security because their assets are accessible in an emergency"
+    - "The only meaningful metric is the total dollar amount"
+  answer: 2
+  explanation: "A complete financial assessment looks at asset quality, not just totals. Liquidity — how quickly an asset can be converted to cash — matters enormously for financial security. Person B can access their $60,000 immediately for emergencies; Person A would lose 10% plus owe income taxes to access theirs. The same net worth number can represent very different levels of actual financial resilience depending on composition."
+
+- question: "A high income guarantees that a person's net worth is growing."
+  type: true-false
+  answer: false
+  explanation: "Income and net worth are distinct concepts. Net worth grows only when cash flow is positive — when income exceeds spending. Someone with a high income who spends more than they earn will have a declining net worth no matter how large their salary. A financial foundation assessment specifically separates income from net worth to reveal this distinction."
+
+- question: "Repeating a financial foundation assessment at regular intervals reveals whether financial decisions are actually improving your position over time."
+  type: true-false
+  answer: true
+  explanation: "Tracking net worth over time (quarterly or annually) converts abstract budget projections into concrete evidence of outcomes. A single snapshot tells you where you are; repeated snapshots show the direction and rate of change. This is more reliable than any budget projection because it reflects actual behavior rather than planned behavior."
+
+- question: "What is the difference between net worth and cash flow, and why does understanding both matter for assessing financial health?"
+  type: short-answer
+  answer: "Net worth is the cumulative balance of assets minus liabilities — a snapshot of financial position at a point in time. Cash flow is income minus spending in a given period — the rate at which net worth is changing. Net worth tells you where you are; cash flow tells you which direction you're heading. You need both: a high net worth with negative cash flow is unsustainable; positive cash flow with low net worth shows progress. A complete assessment requires both numbers."
+  explanation: "The key distinction is stock vs. flow. Net worth is a stock — accumulated over years. Cash flow is a flow — the rate of change month to month. Positive cash flow is the engine that builds net worth over time, while negative cash flow erodes it. Many people know their income but have never calculated their net worth; others know their net worth but don't track monthly cash flow. A true financial foundation assessment requires both."
+```
+
 ## Explainer
 
 Before you can plan where you want to go financially, you need an honest picture of where you are. A **financial foundation assessment** is that picture — a structured snapshot of everything you own, everything you owe, and how money flows through your life each month. You've already learned to build a budget (income versus expenses) and to understand money as a medium of exchange. This assessment applies both concepts together to answer one question: what is my true financial position right now?

@@ -32,6 +32,45 @@ Study IL-2 pleiotropic actions in different T cell subsets. Compare redundant cy
 ## Common Misconceptions
 Cytokines are not simply 'pro-inflammatory' or 'anti-inflammatory'—the same cytokine can promote or suppress inflammation depending on context. Blocking a single cytokine does not predictably improve autoimmunity; side effects (e.g., infection) may outweigh benefits.
 
+## Questions
+
+```yaml
+- question: "A patient with autoimmune disease receives a drug that blocks IL-2 signaling, intended to suppress the overactive immune response. The disease unexpectedly worsens. What best explains this outcome?"
+  type: multiple-choice
+  options:
+    - "The drug was administered at an insufficient dose"
+    - "IL-2 is not involved in autoimmune pathology"
+    - "IL-2 also sustains regulatory T cells; blocking it may preferentially deplete Tregs, releasing immune suppression and worsening autoimmunity"
+    - "Blocking IL-2 upregulates TNF-α, which compensates by driving stronger inflammation"
+  answer: 2
+  explanation: "This is a classic consequence of cytokine pleiotropy. IL-2 promotes both effector T cell proliferation AND Treg survival. Tregs constitutively express the high-affinity IL-2 receptor (CD25), making them exquisitely sensitive to low IL-2 levels. Blocking IL-2 may preferentially harm Tregs (which depend most on basal IL-2 signals), releasing the brakes on immune activation — the opposite of the intended immunosuppressive effect. Cytokine pleiotropy means you cannot predict outcomes by tracking one effect alone."
+
+- question: "Why do multiple cytokines perform overlapping functions (redundancy), rather than evolution consolidating these functions into fewer, more powerful molecules?"
+  type: multiple-choice
+  options:
+    - "Redundancy is an evolutionary accident with no adaptive significance"
+    - "Redundant cytokines provide robustness while allowing tissue-specific fine-tuning through differences in receptor distribution and signaling kinetics"
+    - "Multiple cytokines are required because no single molecule can bind more than one receptor type"
+    - "Redundancy ensures that blocking one cytokine in therapy completely eliminates the corresponding immune response"
+  answer: 1
+  explanation: "Redundant cytokines like IL-4 and IL-13 overlap in function but are not identical: IL-4 acts primarily on lymphoid cells in secondary lymphoid organs, while IL-13 acts more on epithelial and smooth muscle cells at tissue sites. This provides both robustness (losing one doesn't ablate the entire response) and spatial precision (different tissues can be modulated independently). Redundancy is a design feature, not a flaw."
+
+- question: "IL-6 is a straightforwardly pro-inflammatory cytokine that always promotes inflammation regardless of cellular or tissue context."
+  type: true-false
+  answer: false
+  explanation: "No cytokine has a fixed 'pro-inflammatory' or 'anti-inflammatory' identity. IL-6 promotes Th17 differentiation (inflammatory) but also suppresses Treg development in certain contexts, drives acute-phase responses, and has distinct effects in different tissues. The same molecule's functional outcome depends on which cells receive it, what co-signals are present, and what tissue the interaction occurs in. This context dependence is fundamental to cytokine biology."
+
+- question: "The same cytokine can have opposite functional effects on different cell types because cells differ in receptor expression and activation state."
+  type: true-false
+  answer: true
+  explanation: "IL-2 is the clearest example: it drives effector T cell proliferation at high concentrations but preferentially sustains Tregs at low concentrations, because Tregs constitutively express the high-affinity CD25 subunit of the IL-2 receptor. Same molecule, different receptor configurations, opposite functional outcomes. This mechanism of pleiotropy — context determined by receptor expression and activation state — recurs throughout cytokine biology."
+
+- question: "Why does blocking a single cytokine (e.g., IL-6 in rheumatoid arthritis) sometimes produce unexpected side effects like increased susceptibility to fungal infection?"
+  type: short-answer
+  answer: "Because cytokines are pleiotropic — the same molecule drives multiple biological processes simultaneously. Blocking IL-6 reduces Th17-mediated inflammation in joints, but Th17 responses are also required for mucosal defense against fungi and extracellular bacteria. Removing IL-6 therefore impairs both the pathological inflammation AND a necessary antimicrobial defense. The interconnected, pleiotropic nature of cytokine networks means pulling one thread affects the entire web — there is no such thing as blocking a purely pathological cytokine function in isolation."
+  explanation: "This principle explains why cytokine-targeted therapies consistently produce infection-related adverse effects. TNF-α blockade (effective for inflammatory arthritis) reactivates latent tuberculosis. IL-17 blockade (effective for psoriasis) increases candidal infections. Therapeutic benefit and immunological cost come from the same molecule performing multiple roles — a consequence of the pleiotropy that makes the cytokine system flexible."
+```
+
 ## Explainer
 
 From your prerequisite work on cytokines and chemokines, you know that these small signaling proteins coordinate immune responses by carrying messages between cells. But as you move deeper into immunology, a striking pattern emerges: the same cytokine can trigger completely different outcomes depending on which cell receives it, what other signals are present, and what tissue the interaction occurs in. This context dependence — captured by the concepts of **pleiotropy** and **redundancy** — is not a quirk of the system but a fundamental design principle of immune signaling.

@@ -34,6 +34,45 @@ Start with propositional WFFs using simple examples and counterexamples (e.g., '
 - Forgetting that quantifiers must bind variables correctly (∀x P(y) is WFF but leaves y free).
 - Assuming parentheses don't matter (they do — they determine scope and precedence).
 
+## Questions
+
+```yaml
+- question: "Which of the following strings is NOT a well-formed formula in propositional logic?"
+  type: multiple-choice
+  options:
+    - "(P → Q)"
+    - "¬(P ∧ Q)"
+    - "(P ∨ ¬Q)"
+    - "∧ P Q"
+  answer: 3
+  explanation: "WFFs in propositional logic are defined inductively: atomic propositions are WFFs; ¬φ is a WFF if φ is; (φ ∧ ψ), (φ ∨ ψ), (φ → ψ), (φ ↔ ψ) are WFFs if φ and ψ are. The string '∧ P Q' puts the connective first in prefix position — but the grammar requires binary connectives to appear *between* their operands (infix), surrounded by parentheses. It has no parse tree under the standard grammar. Options A, B, and C all follow the inductive rules and have valid parse trees."
+
+- question: "In the first-order formula ∀x (P(x) → Q(y)), what is the status of the variables x and y?"
+  type: multiple-choice
+  options:
+    - "Both x and y are bound by the universal quantifier"
+    - "x is bound by ∀x; y is free — it is not within the scope of any quantifier"
+    - "y is bound because it appears inside the parentheses of the quantifier's scope"
+    - "x is free because it is the quantified variable, while y is bound by the predicate Q"
+  answer: 1
+  explanation: "The universal quantifier ∀x binds every occurrence of x *within its scope* — here, the entire formula (P(x) → Q(y)). x is therefore bound. y, however, has no quantifier anywhere in this formula, so it is a *free variable* — an unspecified parameter. The formula is an *open formula*, not a sentence: its truth value depends on what domain element y is assigned to. Only when all variables are bound (a *closed formula* or sentence) does the formula express a proposition that is simply true or false in a given structure."
+
+- question: "Every syntactically valid propositional WFF corresponds to exactly one parse tree — the grammar is unambiguous when parentheses are used as required."
+  type: true-false
+  answer: true
+  explanation: "The inductive definition of WFFs, with required parentheses around each binary connective application, ensures every WFF has a unique decomposition into its constituent parts. This is why formal logic uses parentheses that might seem excessive: '(P ∧ (Q ∨ R))' and '((P ∧ Q) ∨ R)' are different formulas with different parse trees and different truth conditions. Without parentheses, 'P ∧ Q ∨ R' is ambiguous. The unique parse tree property is what makes truth evaluation by structural induction possible."
+
+- question: "In the first-order formula ∀x P(x) ∧ Q(y), the variable y is implicitly bound by the universal quantifier because it appears in the same formula."
+  type: true-false
+  answer: false
+  explanation: "A quantifier only binds variables within its syntactic scope. In ∀x P(x) ∧ Q(y) (parsed as (∀x P(x)) ∧ Q(y) under standard precedence), the scope of ∀x is just P(x). The variable y in Q(y) is entirely outside that scope and is therefore free. Only ∀y or ∃y would bind y, and only if Q(y) were inside that quantifier's scope. Confusing scope with 'same formula' is a common error; the parse tree of a formula explicitly shows which quantifier governs which variables."
+
+- question: "Why must well-formed formulas be defined by a formal inductive grammar rather than informally as 'any string of logical symbols'? What would go wrong without this definition?"
+  type: short-answer
+  answer: "Without a formal grammar, there is no principled way to assign a meaning (truth value) to a formula. Logical semantics, proof systems, and the definition of logical consequence all work by structural induction on the parse tree of a WFF — recursively applying rules to sub-formulas. An ill-formed string like '∧ P Q' has no parse tree, so there is no base case or recursive rule to evaluate it. The grammar provides the precise structure that makes every aspect of logic — truth tables, proofs, model theory — well-defined."
+  explanation: "This is why WFFs are called 'well-formed': the contrast is with strings that are ill-formed. The formal definition is not pedantry — it is the foundation that makes logic a rigorous mathematical discipline rather than an informal reasoning practice. Every theorem about logic is ultimately a theorem about the structure of WFFs."
+```
+
 ## Explainer
 
 You already know the propositional connectives — ¬, ∧, ∨, →, ↔ — and the basic syntax of propositional logic. A **well-formed formula (WFF)** is the precise definition of what counts as a grammatically legal string in a logical language. The point is that not every sequence of symbols is meaningful: "∧ P Q ¬" is not a formula any more than "the cat sat the" is a sentence. WFFs are defined by an inductive grammar that tells you exactly which strings are legal.

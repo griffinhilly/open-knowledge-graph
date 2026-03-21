@@ -31,6 +31,45 @@ Design a state feedback controller for a third-order system assuming full state 
 - Making the observer arbitrarily fast (placing observer poles very far to the left) is not free — faster observers have larger gains L, amplifying measurement noise and potentially exciting unmodeled high-frequency plant dynamics.
 - Observer-based control requires the system to be both controllable (for K design) and observable (for L design) — if either property is missing, the combined design fails, and checking both is a prerequisite before beginning the design.
 
+## Questions
+
+```yaml
+- question: "An engineer designs state feedback gain K to place controller poles at {−2, −3} and observer gain L to place observer poles at {−10, −12}. What are the closed-loop poles of the combined observer-controller system?"
+  type: multiple-choice
+  options:
+    - "{−2, −3} only — the observer poles cancel once the estimation error decays"
+    - "{−10, −12} only — the observer dominates because it is faster"
+    - "{−2, −3, −10, −12} — the union of both sets, by the separation principle"
+    - "The combined poles must be recomputed from the full 4×4 system matrix — they are not simply the union"
+  answer: 2
+  explanation: "The separation principle guarantees that the combined closed-loop eigenvalues are exactly the union of the controller poles (eigenvalues of A−BK) and the observer poles (eigenvalues of A−LC). They do not interact. The combined system's A-matrix written in [x; e] coordinates is block-triangular, and block-triangular matrices have eigenvalues equal to the union of diagonal block eigenvalues. Option D is the tempting wrong answer — it suggests the combined system must be analyzed as a whole — but the block-triangular structure ensures the union property holds exactly."
+
+- question: "Observer poles are placed much faster than controller poles (e.g., 20 times faster). What practical problem arises from this choice?"
+  type: multiple-choice
+  options:
+    - "The separation principle breaks down — controller poles shift when observer poles are too fast"
+    - "The observer gain L becomes very large, amplifying measurement noise into the state estimate"
+    - "The system becomes unstable because fast observer dynamics destabilize the controller"
+    - "Estimation error never decays to zero because the observer cannot track rapid changes"
+  answer: 1
+  explanation: "Observer pole placement determines the gain matrix L. Very fast observer poles require very large L values. Since the observer correction term is L(y − Cx̂), large L multiplies the measurement signal directly into the state estimate — and measurements always contain sensor noise. Faster observers reduce estimation error due to initial mismatch, but at the cost of amplifying noise continuously. The typical engineering compromise is observer poles 2–5 times faster than controller poles: fast enough that estimation error is negligible, slow enough that noise amplification is tolerable."
+
+- question: "The separation principle guarantees that the controller gain K can be designed exactly as if full state measurement were available, even though only estimated states x̂ are used in the actual control law u = −Kx̂."
+  type: true-false
+  answer: true
+  explanation: "This is the central result of the separation principle. Despite feeding x̂ (which contains estimation error) into the control law, the eigenvalues of A−BK remain unchanged — they are not affected by the estimation error dynamics. The mathematical reason is that when the combined system is written in [x; e] coordinates, the A-matrix is block-triangular with A−BK and A−LC on the diagonal. The eigenvalues of a block-triangular matrix are the union of diagonal block eigenvalues, so K and L designs are completely decoupled."
+
+- question: "According to the separation principle, the Luenberger observer has no effect on the closed-loop performance of an observer-based controller — only the controller poles determine the transient response."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception. The separation principle says the *pole locations* are independent — not that the observer has no effect on *performance*. When the initial state estimate x̂(0) is poor, the estimation error e = x − x̂ is large, and the control input u = −Kx̂ = −K(x − e) contains an error term −K·e. This produces transient deviations from the ideal full-state-feedback response. The observer poles determine how quickly this error-driven transient decays. Placing observer poles too slowly degrades transient performance even though pole locations remain mathematically unchanged."
+
+- question: "Why does the separation principle hold for linear time-invariant systems? What mathematical structure in the combined system makes the independent design of K and L valid?"
+  type: short-answer
+  answer: "Writing the combined system state as [x; e] (where e = x − x̂ is the estimation error), the closed-loop dynamics are: dx/dt = (A−BK)x + BKe, de/dt = (A−LC)e. The combined A-matrix is block-triangular: upper-left block is A−BK, upper-right is BK, lower-left is zero, lower-right is A−LC. The crucial feature is the zero lower-left block: the error dynamics de/dt = (A−LC)e are completely decoupled from x. The eigenvalues of a block-triangular matrix equal the union of diagonal block eigenvalues, so the combined system's poles are exactly {eig(A−BK)} ∪ {eig(A−LC)}, which can be designed independently."
+  explanation: "This block-triangular structure only holds for LTI systems. For nonlinear systems, the error dynamics depend on x, breaking the lower-left zero block and invalidating the separation principle. This is why observer-based control design must be revisited carefully when applying it to nonlinear plants."
+```
+
 ## Explainer
 
 State feedback control — the law u = −Kx — delivers the clean pole placement results you know: choose K to place the closed-loop eigenvalues of A − BK wherever you want. But it assumes you can measure every component of the state vector x. In practice, sensors are expensive, some states are physically inaccessible, and you may have n state variables but only p < n outputs y = Cx. The **Luenberger observer** solves this by running a model of the plant in parallel with the actual system, continuously correcting the model's estimate x̂ using the discrepancy between the actual output y and the predicted output Cx̂. The observer dynamics are: dx̂/dt = Ax̂ + Bu + L(y − Cx̂). The gain matrix L is chosen to place the eigenvalues of A − LC, controlling how fast the estimation error e = x − x̂ decays to zero.

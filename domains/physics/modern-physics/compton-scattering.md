@@ -36,6 +36,45 @@ Derive the Compton formula using 2D conservation of energy and momentum, treatin
 - The wavelength shift depends on the initial wavelength — it depends only on the scattering angle and fundamental constants, not on the incident wavelength.
 - Classical scattering (Thomson) predicts the same shift — classical theory predicts no wavelength change at all, which is why the observed shift was so striking.
 
+## Questions
+
+```yaml
+- question: "A physicist repeats Compton's experiment using ultraviolet light (λ ≈ 100 nm) instead of X-rays, measuring the scattered wavelength at θ = 90°. How large is the wavelength shift?"
+  type: multiple-choice
+  options:
+    - "Much larger than for X-rays, because UV photons have higher energy"
+    - "Much smaller than for X-rays, because UV photons have lower momentum"
+    - "Approximately 2.4 pm — the same as for X-rays at the same angle, because the Compton shift depends only on scattering angle and fundamental constants"
+    - "Zero, because UV light is not energetic enough to transfer momentum to an electron"
+  answer: 2
+  explanation: "The Compton formula Δλ = (h/m_e c)(1 − cos θ) contains no term for the incident wavelength — only the scattering angle θ and fundamental constants (h, m_e, c). At θ = 90°, Δλ = h/m_e c ≈ 2.4 pm regardless of whether you use soft X-rays, hard X-rays, or UV. The fractional shift Δλ/λ is much smaller for UV (λ ≈ 100 nm) than for hard X-rays (λ ≈ 0.1 nm), which is why the effect wasn't first detected with visible or UV light, but the absolute shift is the same."
+
+- question: "How did classical electromagnetic theory (Thomson scattering) predict the outcome of X-ray scattering off electrons, before Compton's experiment?"
+  type: multiple-choice
+  options:
+    - "The scattered X-rays should have a shorter wavelength, as energy is transferred from photon to electron"
+    - "The scattered X-rays should have the same wavelength as the incident X-rays — the driven electron re-radiates at the same frequency it was driven at"
+    - "The scattered X-rays should show the same wavelength shift as Compton observed"
+    - "No scattering should occur because classical electrons are too light to deflect X-rays"
+  answer: 1
+  explanation: "In Thomson scattering, the oscillating electric field of an X-ray forces the electron to oscillate at the same frequency. The accelerating electron then re-radiates electromagnetic waves at that same frequency — no wavelength change is predicted. This is why Compton's observation of a real, angle-dependent wavelength shift was so striking: it was completely inexplicable by classical wave theory and required treating the photon as a particle with momentum."
+
+- question: "The Compton wavelength shift at a given scattering angle is the same whether the incident photon is a soft X-ray or a hard X-ray."
+  type: true-false
+  answer: true
+  explanation: "The Compton formula Δλ = (h/m_e c)(1 − cos θ) is independent of the incident wavelength. The absolute shift depends only on the scattering angle and fundamental constants. This is one of the formula's most striking features, and it was confirmed by Compton's data across multiple X-ray energies. The fractional shift Δλ/λ does depend on the incident wavelength — which is why the effect is only observable with X-rays (λ ~ 0.1 nm) and not with visible light (λ ~ 500 nm)."
+
+- question: "Compton scattering was primarily significant for confirming that light travels at the speed c in all inertial frames."
+  type: true-false
+  answer: false
+  explanation: "Compton scattering proved that photons carry momentum (p = h/λ) and interact as particles in elastic collisions — not anything about the speed of light. The speed of light was already firmly established. The revolutionary insight from Compton's experiment was photon momentum: Einstein had proposed p = h/λ, but the photoelectric effect couldn't test it (photons were absorbed, not scattered). Compton's experiment — where photons bounced off electrons at measurable angles with predictable momentum transfer — was the decisive test."
+
+- question: "Why couldn't the photoelectric effect alone prove that photons carry momentum, and what made Compton scattering the decisive evidence?"
+  type: short-answer
+  answer: "In the photoelectric effect, photons are absorbed by electrons — the photon disappears. An absorbed particle transfers its energy, but there is no way to measure the momentum transfer independently of the energy, so the momentum hypothesis p = h/λ couldn't be directly tested. In Compton scattering, the photon bounces off the electron and continues in a new direction — it survives the collision. By measuring both the scattered photon's new wavelength and the electron's recoil angle, Compton could check that both energy and momentum were conserved according to relativistic mechanics, with p_photon = h/λ. The agreement between the formula and data at every angle confirmed photon momentum directly."
+  explanation: "The key distinction is absorption vs. scattering. Scattering is a two-body collision with two measurable final states (scattered photon + recoiling electron), allowing independent tests of momentum conservation. This is what made Compton's experiment so compelling — the particle-collision model made specific, quantitative predictions about how the wavelength shift would vary with angle, and those predictions matched data precisely."
+```
+
 ## Explainer
 
 By 1923, photoelectric effect experiments had established that light delivers energy in discrete quanta E = hf. But a more radical claim was still contested: does light also carry **momentum**? Classical waves carry energy spread continuously through the wave, but no well-defined particle momentum. Einstein had proposed that a photon's momentum should be p = E/c = hf/c = h/λ — a hypothesis that could not be tested by the photoelectric effect alone, which involved photons being absorbed rather than scattered. Compton's experiment was the decisive test.

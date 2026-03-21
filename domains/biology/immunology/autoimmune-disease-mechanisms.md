@@ -27,6 +27,45 @@ Classify autoimmune diseases by whether they involve antibodies (Type II hyperse
 ## Common Misconceptions
 - Autoimmune disease means immune system is hyperactive (the problem is specifically loss of self-tolerance, not general overactivity). - All autoimmune diseases are T cell-mediated (both T cell and B cell mechanisms occur; antibodies cause Type II hypersensitivity).
 
+## Questions
+
+```yaml
+- question: "A physician describes a patient's autoimmune disease as resulting from a 'hyperactive immune system.' What is most misleading about this description?"
+  type: multiple-choice
+  options:
+    - "It is accurate — autoimmune diseases are caused by the immune system being excessively responsive to all antigens, self and foreign alike"
+    - "It mischaracterizes the problem — autoimmunity reflects loss of self-tolerance specifically, meaning the immune system attacks self-antigens while remaining normal (or even deficient) toward foreign pathogens"
+    - "It is accurate for antibody-mediated diseases but not for T cell-mediated ones"
+    - "It is too weak a description — autoimmune diseases actually represent a complete collapse of immune function"
+  answer: 1
+  explanation: "Autoimmune disease is not general immune hyperactivity — many patients can still fight infections normally. The specific problem is a failure of self-tolerance: self-reactive lymphocytes that should be eliminated or suppressed escape control and attack the body's own tissues. A patient with autoimmune disease may simultaneously be immunocompromised against certain pathogens and over-reactive against self-antigens."
+
+- question: "Mutations in AIRE cause autoimmune polyendocrinopathy syndrome, in which the immune system attacks multiple endocrine glands. Why does AIRE deficiency cause autoimmunity?"
+  type: multiple-choice
+  options:
+    - "AIRE normally suppresses Treg development, so without AIRE, Tregs overactivate and paradoxically destroy peripheral tissues"
+    - "AIRE enables thymic medullary epithelial cells to ectopically express tissue-specific proteins, so T cells reactive to those proteins are eliminated before leaving the thymus; without AIRE, these self-reactive T cells survive"
+    - "AIRE mutations cause MHC molecules to be overexpressed, leading to excessive T cell activation in the periphery"
+    - "AIRE normally promotes anergy in peripheral self-reactive T cells, and its absence allows these cells to become activated"
+  answer: 1
+  explanation: "Central tolerance depends on the thymus presenting a representative sample of the body's own proteins so that self-reactive T cells can be deleted. AIRE enables medullary epithelial cells to express proteins normally restricted to distant organs — insulin, thyroglobulin, myelin. Without AIRE, T cells that would recognize and attack those organs are never eliminated, and they exit the thymus ready to cause damage."
+
+- question: "Some autoimmune diseases are caused by pathogenic antibodies rather than cytotoxic T cells."
+  type: true-false
+  answer: true
+  explanation: "Both arms of adaptive immunity can drive autoimmune pathology. Antibody-mediated (Type II hypersensitivity) examples include Graves' disease, where antibodies stimulate the TSH receptor and cause hyperthyroidism, and myasthenia gravis, where antibodies block acetylcholine receptors. T cell-mediated (Type IV) examples include type 1 diabetes, where CD8+ T cells destroy pancreatic beta cells. Recognizing which mechanism dominates each disease is essential for selecting the appropriate immunosuppressive therapy."
+
+- question: "Once self-reactive T cells escape thymic negative selection and enter the periphery, autoimmune disease is inevitable."
+  type: true-false
+  answer: false
+  explanation: "Peripheral tolerance mechanisms exist precisely because central tolerance is imperfect. Regulatory T cells (Tregs) actively suppress self-reactive lymphocytes. Anergy renders self-reactive T cells functionally unresponsive in the absence of costimulatory signals. The Fas-FasL pathway triggers apoptosis in chronically stimulated self-reactive cells. Autoimmune disease requires these peripheral checkpoints to fail as well — which is why genetic defects in Fas (causing ALPS) or Treg function each independently cause autoimmunity."
+
+- question: "Why do most autoimmune diseases require both genetic susceptibility and an environmental trigger, rather than either factor alone being sufficient?"
+  type: short-answer
+  answer: "Genetic susceptibility — particularly HLA alleles that determine which self-peptides are presented to T cells — creates a predisposition but not inevitability. The environmental trigger (infection causing molecular mimicry, tissue damage releasing sequestered antigens, inflammation breaking anergy) provides the activating signal that pushes tolerized self-reactive cells into active disease. Neither alone is sufficient: most people with susceptible HLA types never develop autoimmunity, and most people who encounter triggers do not, because both conditions must be met simultaneously."
+  explanation: "This two-hit model explains the incomplete penetrance of autoimmune diseases within families and why identical twins show less than 50% concordance for most autoimmune conditions despite sharing all genetic risk factors. The environmental trigger is often stochastic — which infections you encounter, when, and in what order."
+```
+
 ## Explainer
 
 From your study of thymic selection, you know that developing T cells undergo negative selection — those that bind self-peptide–MHC complexes too strongly are eliminated by apoptosis. From regulatory T cells, you know that Tregs actively suppress immune responses against self-antigens in the periphery. Together, these mechanisms constitute **self-tolerance**, the immune system's ability to distinguish self from non-self and refrain from attacking the body's own tissues. Autoimmune disease occurs when this tolerance breaks down and the immune system mounts a sustained attack against self-antigens.

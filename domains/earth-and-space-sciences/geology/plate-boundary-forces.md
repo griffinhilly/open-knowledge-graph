@@ -27,6 +27,45 @@ Plate boundaries experience distinct stress regimes: divergent boundaries have e
 ## How It's Best Learned
 Use focal mechanisms to infer stress orientations. Compare stress tensors to plate motion vectors and boundary geometry.
 
+## Questions
+
+```yaml
+- question: "Seismologists analyze earthquakes along an unidentified plate boundary. All focal mechanisms show horizontal T-axes (tension axes), indicating the crust is being pulled apart horizontally. What type of boundary is this, and what fault style is expected?"
+  type: multiple-choice
+  options:
+    - "A convergent boundary with thrust faulting — horizontal tension is typical of compressional settings"
+    - "A transform boundary with strike-slip faulting — horizontal tension drives lateral shear motion"
+    - "A divergent boundary with normal faulting — extension makes σ₃ horizontal and σ₁ (the weight of overlying rock) vertical"
+    - "A subduction zone with reverse faulting — the descending slab creates horizontal tension in the overriding plate"
+  answer: 2
+  explanation: "Horizontal T-axes (tension axes) indicate that σ₃ (minimum compressive stress) is horizontal — the crust is being pulled apart. This is the stress regime at divergent boundaries, where σ₁ is vertical (the weight of overlying rock) and σ₃ is the horizontal extensional direction. With σ₁ vertical, crustal blocks drop downward along normal faults. Convergent boundaries show horizontal P-axes (σ₁ horizontal, thrust faulting). Transform boundaries show both P and T axes horizontal with σ₂ vertical, producing strike-slip motion. The focal mechanism is the definitive remote tool for reading the stress regime."
+
+- question: "At a subduction zone, which orientation of the maximum compressive stress (σ₁) produces the characteristic reverse and thrust faulting observed?"
+  type: multiple-choice
+  options:
+    - "Vertical — the weight of the subducted slab pushes downward, producing compressive stress that drives reverse faulting"
+    - "Horizontal, directed perpendicular to the trench in the convergence direction — plates pushing together makes σ₁ horizontal"
+    - "Horizontal and parallel to the trench axis — lateral mantle flow creates trench-parallel compression"
+    - "Oblique at 45° to the surface, where the subducting and overriding plates meet"
+  answer: 1
+  explanation: "At convergent boundaries, plates push toward each other, making σ₁ (maximum compressive stress) horizontal in the convergence direction. With σ₁ horizontal and σ₃ vertical, rocks fail by reverse or thrust faulting — material is pushed up along low-angle fault planes because lateral compression exceeds the vertical load. This horizontal compression builds mountain ranges and generates the great megathrust earthquakes at subduction zones. Option A confuses σ₁ orientation: a vertical σ₁ produces normal faulting (divergent setting), not reverse faulting."
+
+- question: "At transform boundaries, the maximum compressive stress (σ₁) is vertical — the weight of the overlying rock — which drives the horizontal strike-slip motion characteristic of these faults."
+  type: true-false
+  answer: false
+  explanation: "At transform boundaries, the intermediate stress (σ₂) is vertical, while both σ₁ and σ₃ are horizontal, oriented at approximately 45° to the fault trace. This is the stress regime that drives pure horizontal (strike-slip) motion. A vertical σ₁ would produce normal faulting (the divergent boundary case). The three boundary types map to three different orientations of the vertical principal stress: divergent → σ₁ vertical (blocks drop); transform → σ₂ vertical (blocks slide); convergent → σ₃ vertical (rocks thrust upward). Each setting has a characteristic Anderson's faulting regime."
+
+- question: "Focal mechanism solutions derived from earthquake first-motion data can reveal the orientation of the regional stress field at the earthquake's location."
+  type: true-false
+  answer: true
+  explanation: "A focal mechanism solution shows the fault plane orientation and slip direction, from which the principal stress axes can be inferred: the compressional quadrants indicate the maximum stress direction (P-axis) and the tensional quadrants indicate the minimum stress direction (T-axis). By inverting populations of focal mechanisms in a region, geologists map the full regional stress tensor — determining not just fault type but the absolute orientation of σ₁, σ₂, and σ₃ throughout the crust. This is why focal mechanisms are among the most powerful remote-sensing tools in structural geology and seismic hazard assessment."
+
+- question: "Explain why convergent boundaries produce thrust and reverse faults while divergent boundaries produce normal faults, in terms of which principal stress axis is vertical at each boundary type."
+  type: short-answer
+  answer: "At divergent boundaries, plates pull apart horizontally, making σ₃ (minimum stress) horizontal. The vertical stress (weight of overlying rock) becomes σ₁ — the dominant stress. Rocks fail by sinking along normal faults because vertical stress dominates and blocks drop along the easiest failure direction. At convergent boundaries, plates push together, making σ₁ (maximum stress) horizontal in the convergence direction and σ₃ vertical. With horizontal compression dominating, rocks are thrust upward along low-angle reverse faults because it is easier to push rock up than to overcome lateral compression."
+  explanation: "This is Anderson's theory of faulting: σ₁ vertical → normal faults; σ₂ vertical → strike-slip faults; σ₃ vertical → thrust/reverse faults. The key is that the vertical principal stress is always a principal axis (the free surface imposes this), and its rank (1st, 2nd, or 3rd) determines the fault style. Plate boundary type sets which stress axis becomes vertical, which determines the fault geometry, which determines the focal mechanism — connecting plate tectonics, stress analysis, and seismology in a single coherent framework."
+```
+
 ## Explainer
 
 From your study of stress and strain in rock deformation, you know that stress has three principal axes — the maximum, intermediate, and minimum compressive stresses (σ₁, σ₂, σ₃) — and that the orientation of these axes determines what kind of faulting occurs. At plate boundaries, the type of relative motion between plates dictates the stress regime, and earthquakes along these boundaries broadcast that information through their **focal mechanisms**.

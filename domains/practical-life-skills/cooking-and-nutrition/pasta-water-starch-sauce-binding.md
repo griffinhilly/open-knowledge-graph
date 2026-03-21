@@ -34,6 +34,45 @@ Toss hot pasta with oil and sauce, using pasta water in one batch and skipping i
 - Cold pasta water works the same as hot (temperature affects how starch interacts with oil and sauce)
 - You need lots of pasta water to make sauce (even 1/4 cup of starchy water significantly improves sauce adhesion)
 
+## Questions
+
+```yaml
+- question: "Why does adding pasta water to a pan sauce create a creamier, more cohesive coating on pasta — rather than just thinning the sauce like plain water would?"
+  type: multiple-choice
+  options:
+    - "The salt in pasta water seasons the sauce more evenly than adding salt directly"
+    - "The starch molecules in pasta water act as emulsifiers, binding the oil and water components of the sauce into a cohesive emulsion"
+    - "The hot temperature of pasta water activates flavor compounds in the sauce that cold water cannot"
+    - "Pasta water is slightly acidic, which helps the sauce adhere to the noodle surface"
+  answer: 1
+  explanation: "The key function is emulsification. Oil and water naturally separate, causing sauces to look greasy and pool at the bottom of the dish. Starch molecules released from the pasta surface (amylose and amylopectin) are amphiphilic — they can bind both oil and water. When starchy pasta water is added to a sauce containing fat, these molecules coat oil droplets and suspend them in the liquid, creating a unified, creamy sauce that clings to every noodle. Plain water has no starch and cannot do this."
+
+- question: "A cook finishes their pasta but realizes they forgot to reserve pasta water. They use cooled pasta water from yesterday's batch stored in the fridge. Which outcome is most likely?"
+  type: multiple-choice
+  options:
+    - "The cold pasta water will work just as well since the starch content is the same"
+    - "The cold pasta water will be less effective because starch retrogrades when cooled, making it less reactive as an emulsifier"
+    - "The cold pasta water will work better because cooled starch is more concentrated"
+    - "It makes no difference — the sauce's temperature will quickly activate the starch"
+  answer: 1
+  explanation: "Temperature matters because starch undergoes retrogradation when cooled — the molecules re-crystallize and become less dispersed, reducing their emulsifying power. Hot pasta water fresh from the pot has fully dispersed, reactive starch molecules that can immediately interact with fat molecules in the sauce. The technique specifically calls for adding water while everything is hot and finishing with vigorous tossing to form the emulsion before the starch loses its dispersed state."
+
+- question: "Pasta water is a useful sauce ingredient primarily because of the salt dissolved in it, which seasons the sauce more precisely than adding salt separately."
+  type: true-false
+  answer: false
+  explanation: "False. While pasta water is salted, salt is not why professional cooks reserve it. The valuable component is the dissolved starch released from the pasta surface during cooking. This starch acts as an emulsifier, binding the sauce's oil and water into a cohesive coating. The technique works specifically because of starch chemistry. Salt is a secondary benefit, not the reason the technique exists."
+
+- question: "You need to add at least a full cup of pasta water to most dishes for the starch to have a meaningful emulsifying effect on the sauce."
+  type: true-false
+  answer: false
+  explanation: "False. Even a small amount of pasta water — as little as 1/4 cup — can significantly improve sauce adhesion and creaminess. The starch concentration in well-cooked pasta water is high enough that small quantities provide meaningful emulsification. Adding too much can actually thin the sauce excessively. The technique calls for small incremental additions while tossing the pasta, adjusting consistency as needed."
+
+- question: "What chemical role do starch molecules play when pasta water is added to a sauce containing fat, and why does vigorous tossing help the process?"
+  type: short-answer
+  answer: "Starch molecules (amylose and amylopectin) are amphiphilic — they have structural regions that can bond to both oil and water. When added to a sauce containing fat, they coat oil droplets and suspend them uniformly throughout the water-based liquid, forming an emulsion. Vigorous tossing provides mechanical agitation that forces starch molecules into contact with fat droplets and breaks those droplets into smaller sizes, creating a stable, fine-grained emulsion — the characteristic creamy sauce that clings to every noodle."
+  explanation: "This is the same principle behind mayonnaise (egg yolk lecithin as emulsifier). Classic Roman pasta dishes — carbonara, cacio e pepe — use no cream, relying entirely on pasta water starch plus egg or cheese proteins to create creaminess through emulsification. Understanding the mechanism demystifies these recipes: they work because of deliberate emulsion formation, not culinary magic. Temperature and agitation are both essential to forming and maintaining the emulsion."
+```
+
 ## Explainer
 
 When pasta cooks in boiling water, starch granules on the noodle surface absorb water and rupture, releasing **amylose** and **amylopectin** — the two molecular components of starch — into the cooking water. By the time your pasta is al dente, the water is a cloudy, slightly viscous liquid loaded with these dissolved starch molecules. This is the ingredient professional pasta cooks treat as liquid gold.

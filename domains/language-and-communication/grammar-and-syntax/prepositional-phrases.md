@@ -32,6 +32,45 @@ Bracket prepositional phrases in complex sentences, then determine whether each 
 - Mistaking the object of a preposition for the sentence subject.
 - Confusing infinitive phrases (to run) with prepositional phrases beginning with to.
 
+## Questions
+
+```yaml
+- question: "In the sentence 'The box of chocolates are on the table,' why is the verb incorrect?"
+  type: multiple-choice
+  options:
+    - "Because 'chocolates' is plural, so 'are' is correct — it agrees with 'chocolates'"
+    - "Because 'box' is the true subject, and 'of chocolates' is a prepositional phrase modifying it — the verb should be 'is' to match the singular subject 'box'"
+    - "Because the entire prepositional phrase 'of chocolates' should be removed"
+    - "Because 'on the table' already makes the verb unnecessary"
+  answer: 1
+  explanation: "'Of chocolates' is a prepositional phrase — 'of' is the preposition and 'chocolates' is its object. The object of a preposition is never the sentence's subject. The actual subject is 'box' (singular), so the verb must be 'is.' This is the most common subject-verb agreement trap: the noun closest to the verb is the object of a preposition, not the subject. Mentally bracketing [of chocolates] reveals 'The box ... is on the table.'"
+
+- question: "In the sentence 'She arrived after the long meeting,' what role does the prepositional phrase 'after the long meeting' play?"
+  type: multiple-choice
+  options:
+    - "Adjective — it modifies the noun 'meeting'"
+    - "Adverb — it modifies the verb 'arrived' by telling when"
+    - "Subject — 'meeting' is what the sentence is about"
+    - "Adjective — it modifies the noun 'She'"
+  answer: 1
+  explanation: "To identify a prepositional phrase's function, ask what word it modifies. 'After the long meeting' does not describe a noun — it tells us when she arrived, which modifies the verb 'arrived.' When a prepositional phrase answers how, when, where, or why about a verb, it is functioning as an adverb. If it answered 'which one?' or 'what kind?' about a noun, it would be functioning as an adjective."
+
+- question: "In 'The students near the window worked quietly,' the subject of the sentence is 'window.'"
+  type: true-false
+  answer: false
+  explanation: "'Window' is the object of the preposition 'near' — it is part of the prepositional phrase 'near the window,' which modifies the noun 'students.' The object of a preposition can never be the subject of the sentence. The actual subject is 'students,' which is why the verb is 'worked' (plural)."
+
+- question: "A prepositional phrase can function as an adjective when it modifies a noun, and as an adverb when it modifies a verb or adjective."
+  type: true-false
+  answer: true
+  explanation: "This is the core rule of prepositional phrase function. 'The book on the shelf' — 'on the shelf' modifies the noun 'book' (adjective function, answers 'which book?'). 'She sang with great feeling' — 'with great feeling' modifies the verb 'sang' (adverb function, answers 'how?'). The same structural form serves both roles depending on what it attaches to."
+
+- question: "Why is it useful to identify and mentally remove prepositional phrases when checking subject-verb agreement?"
+  type: short-answer
+  answer: "Prepositional phrases often appear between a sentence's subject and its verb and contain nouns that can be mistaken for the subject. Removing them isolates the true subject, making it clear which noun the verb must agree with. For example, 'The pile of old newspapers [was/were] left on the porch' — removing 'of old newspapers' reveals the subject is 'pile' (singular), so the correct verb is 'was.'"
+  explanation: "The object of a preposition is never the grammatical subject, but its proximity to the verb creates a strong pull toward incorrect agreement. The bracket-and-remove technique breaks that pull by making the subject-verb relationship visible without interference from the prepositional phrase."
+```
+
 ## Explainer
 
 You already know what prepositions are and what noun phrases are — a **prepositional phrase** (PP) combines them: a preposition followed by a noun phrase that serves as its object. The preposition expresses a relationship (location, direction, time, manner, purpose), and the noun phrase names the thing involved in that relationship. "On the shelf," "after dinner," "with remarkable speed" — each is a preposition plus its object, forming a unit.

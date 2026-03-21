@@ -27,6 +27,45 @@ Start with measurement: draw several inscribed angles intercepting the same arc 
 - Not recognizing the semicircle corollary: any angle inscribed in a semicircle is exactly 90 degrees.
 - Applying the theorem to angles whose vertex is not on the circle.
 
+## Questions
+
+```yaml
+- question: "An inscribed angle intercepts an arc of 80°. What is the measure of the inscribed angle?"
+  type: multiple-choice
+  options:
+    - "80° — the inscribed angle equals the arc it intercepts"
+    - "160° — the arc is twice the inscribed angle, so the angle doubles the arc"
+    - "40° — the inscribed angle is half the intercepted arc"
+    - "90° — any inscribed angle equals 90°"
+  answer: 2
+  explanation: "The Inscribed Angle Theorem states that an inscribed angle is exactly half the measure of its intercepted arc. Half of 80° is 40°. The most common error is option A — confusing an inscribed angle with a central angle. A central angle equals the arc it intercepts; an inscribed angle (vertex on the circle) is always half that value."
+
+- question: "A triangle is inscribed in a circle so that one side is a diameter. Regardless of where the third vertex is placed on the circle, the angle opposite the diameter always measures:"
+  type: multiple-choice
+  options:
+    - "60°, because a triangle inscribed in a circle is always equilateral"
+    - "Equal to the central angle that subtends the same arc as the diameter"
+    - "90°, because any inscribed angle intercepting a semicircle (180° arc) is half of 180°"
+    - "It varies depending on where the third vertex is placed"
+  answer: 2
+  explanation: "The semicircle corollary: the intercepted arc is the semicircle = 180°, so the inscribed angle = 180° / 2 = 90°. This is true regardless of where on the remaining arc the third vertex sits — the intercepted arc is always the same 180°. Option D is the common misconception: students think moving the vertex changes the angle, but the Inscribed Angle Theorem guarantees it stays 90° so long as the vertex is on the circle and the sides pass through the diameter's endpoints."
+
+- question: "Two inscribed angles in the same circle both intercept the same arc. They must be equal in measure."
+  type: true-false
+  answer: true
+  explanation: "Both inscribed angles equal half of the same arc, so they are equal to each other. This 'equal-arcs corollary' holds for any two inscribed angles intercepting the same arc, regardless of where their vertices are placed on the remaining arc. The result feels counterintuitive — moving a vertex along the arc seems like it should change the angle — but the theorem guarantees equality."
+
+- question: "In a cyclic quadrilateral (a quadrilateral inscribed in a circle), opposite angles are equal."
+  type: true-false
+  answer: false
+  explanation: "Opposite angles in a cyclic quadrilateral are supplementary — they sum to 180° — not equal. Each pair of opposite angles intercepts arcs that together make up the full 360°. Since each inscribed angle equals half its arc, the two opposite angles together equal half of 360° = 180°. They are equal only in the special case where each arc is 180° (a rectangle inscribed in a circle)."
+
+- question: "Why is an angle inscribed in a semicircle always exactly 90°, regardless of where on the arc the vertex is placed?"
+  type: short-answer
+  answer: "The intercepted arc is the semicircle, which always measures 180°. By the Inscribed Angle Theorem, an inscribed angle equals half its intercepted arc — and half of 180° is always 90°. Moving the vertex along the arc does not change which arc is intercepted (it is always the semicircle defined by the diameter), so the inscribed angle stays 90° no matter where the vertex sits."
+  explanation: "The key insight is that the intercepted arc is fixed by the diameter — it does not change as the vertex moves. The Inscribed Angle Theorem then guarantees a constant result: half of a fixed arc is always the same angle. This makes the semicircle corollary one of the most useful results in circle geometry, providing a reliable construction for right angles."
+```
+
 ## Explainer
 
 From your study of **central angles and arcs**, you know that a central angle equals the arc it intercepts — a 60° central angle cuts off a 60° arc, and the arc measure is defined by the central angle. An **inscribed angle** is different: its vertex lies *on* the circle, and its two sides are chords. The surprising result — the **Inscribed Angle Theorem** — is that an inscribed angle is always exactly half the central angle intercepting the same arc. A 60° arc produces a 30° inscribed angle; a 180° arc (a semicircle) produces a 90° inscribed angle.

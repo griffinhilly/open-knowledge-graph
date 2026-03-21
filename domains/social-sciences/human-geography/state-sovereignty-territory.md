@@ -30,6 +30,45 @@ Examine territorial disputes—over islands, rivers, maritime zones, or disputed
 ## Common Misconceptions
 Sovereignty is not absolute, unchanging, or complete; it is continuously negotiated and fragmented. Territorial boundaries are not natural features but political constructs with histories of violence. States do not uniformly control everything within their borders—illegal economies, diaspora communities, environmental refugees, and corporate power challenge state sovereignty.
 
+## Questions
+
+```yaml
+- question: "Somalia has been a legally recognized state since 1960 but for decades its government has exercised minimal control over large portions of its territory. This situation BEST illustrates:"
+  type: multiple-choice
+  options:
+    - "That Somalia never achieved de jure sovereignty because it lacks effective borders"
+    - "The divergence between de jure sovereignty (legal recognition) and de facto sovereignty (actual territorial control)"
+    - "That the Westphalian system has collapsed in sub-Saharan Africa"
+    - "That sovereignty only applies to states with functioning bureaucracies"
+  answer: 1
+  explanation: "Somalia has de jure sovereignty — it is recognized by other states and the UN as a legitimate state — but de facto sovereignty (effective governmental control over territory and population) is severely incomplete. This divergence is the key insight: sovereignty is not a binary condition that states either have or lack. It is graduated. A state can be legally recognized while exercising little practical authority, and this gap is one of the central concerns of contemporary political geography."
+
+- question: "A tech company routes its data through a country with permissive privacy laws, avoiding the regulatory requirements of the countries where its users actually live. This BEST exemplifies:"
+  type: multiple-choice
+  options:
+    - "An example of de facto sovereignty being exercised by non-state actors"
+    - "How mobile capital exploits the gap between territorial sovereignty and placeless digital networks"
+    - "A violation of the Peace of Westphalia's non-interference principle"
+    - "The EU's successful model of pooled sovereignty applied to digital governance"
+  answer: 1
+  explanation: "Sovereignty assumes that governing authority can be matched to territory — that the state where activity occurs can regulate it. Digital networks and mobile capital exploit the fact that activities can be legally situated in one jurisdiction while occurring everywhere. The company takes advantage of the misfit between territorially bounded sovereignty and the deterritorialized nature of digital information, one of the forces the explainer identifies as systematically challenging and fragmenting sovereignty."
+
+- question: "The Peace of Westphalia established that states have absolute sovereignty, meaning no international treaty or organization can ever legitimately constrain a state's internal authority."
+  type: true-false
+  answer: false
+  explanation: "Westphalia established the norm of mutual recognition and non-interference — the idea that rulers should respect each other's exclusive authority within their own domains. But sovereignty has never been absolute in practice: states have always constrained their own authority voluntarily through treaties and international law. The EU is the most dramatic example, with member states deliberately pooling sovereignty in trade, currency, and movement. Sovereignty is continuously negotiated, not a permanent absolute."
+
+- question: "A country can hold de jure (legal) sovereignty over territory it does not effectively control."
+  type: true-false
+  answer: true
+  explanation: "De jure and de facto sovereignty are distinct and frequently diverge. Many states hold international legal recognition (de jure sovereignty) over territories where they cannot enforce laws, collect taxes, or maintain order — as in conflict zones, border regions controlled by non-state actors, or failed states. This divergence is not an exception but a common feature of the modern state system."
+
+- question: "Why does climate change pose a uniquely difficult challenge to state sovereignty, compared to challenges posed by multinational corporations or migration?"
+  type: short-answer
+  answer: "Climate change violates sovereignty without any agent to hold responsible and without any territorial mechanism by which the harmed state can defend itself. A perfectly functioning sovereign state can be flooded by sea-level rise or devastated by droughts caused entirely by emissions from other countries. Unlike MNCs (which can be regulated) or migration (which can be physically managed at borders), climate change crosses borders as physics — it respects no territorial boundaries, cannot be stopped at customs, and has no central actor against whom sovereignty can be asserted."
+  explanation: "This makes climate change the starkest challenge to the Westphalian assumption that territorial control is meaningful protection. It exposes the fundamental mismatch between the sovereignty system (which is territorial and interstate) and global environmental processes (which are borderless and physical). International cooperation — not territorial sovereignty — is the only viable response, which is why climate diplomacy has pushed toward frameworks that voluntarily constrain state emissions."
+```
+
 ## Explainer
 
 From your study of political geography and states and borders, you know that the world is divided into territorial units — states — and that these units are demarcated by borders. **Sovereignty** is the principle that explains why those borders matter: it is the claim that within a defined territory, one authority holds supreme power and no outside authority can legitimately override it. The Peace of Westphalia (1648), which ended the Thirty Years' War in Europe, is conventionally identified as the origin of the modern sovereign state system — the agreement that rulers would recognize each other's exclusive authority within their own domains and refrain from intervening in each other's internal affairs.

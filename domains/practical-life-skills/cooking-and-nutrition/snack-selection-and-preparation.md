@@ -28,6 +28,45 @@ Preparing and eating different snacks, observing how they affect energy, focus, 
 ## Common Misconceptions
 All snacks are treats like candy; many fruits, vegetables, and nuts make equally satisfying and more nutritious snacks.
 
+## Questions
+
+```yaml
+- question: "After eating chips and soda at 3pm, you are hungry again at 4pm. What best explains this?"
+  type: multiple-choice
+  options:
+    - "Chips and soda contain very few calories, so they cannot satisfy hunger"
+    - "Processed snacks are high in refined sugar and starch, which digest quickly and cause a blood-sugar spike then crash, leaving you hungry again soon"
+    - "You should have eaten more chips to feel full longer"
+    - "Hunger always returns within an hour regardless of what you eat"
+  answer: 1
+  explanation: "Refined sugar and refined starch digest rapidly, causing a quick rise in blood sugar followed by an equally quick drop. That blood-sugar crash triggers hunger signals again within an hour. Snacks with fiber, protein, or healthy fat digest more slowly, keeping blood sugar stable and extending the time before you feel hungry again."
+
+- question: "You want to eat more vegetables as snacks. Which approach is MOST likely to actually change your behavior?"
+  type: multiple-choice
+  options:
+    - "Decide to try harder and rely on discipline to choose vegetables"
+    - "Write a note to yourself reminding you that vegetables are healthy"
+    - "Wash and cut vegetables into pieces and store them at eye level in the refrigerator so they are easy to grab"
+    - "Buy vegetables every week but leave them whole in the crisper drawer"
+  answer: 2
+  explanation: "Environment design is more powerful than willpower. Cut, ready-to-eat vegetables at eye level require almost no effort to choose. Whole vegetables hidden in the crisper require washing, cutting, and prep at snack time — barriers that most people skip when hungry. The research-backed insight is that healthier choices happen most reliably when they are made effortless, not when extra willpower is summoned."
+
+- question: "A snack of apple slices with peanut butter provides longer-lasting satiety than an apple alone, because peanut butter adds protein and healthy fat that slow digestion."
+  type: true-false
+  answer: true
+  explanation: "Correct. An apple provides fiber and natural sugar but digests relatively quickly on its own. Adding peanut butter introduces protein and healthy fat, both of which slow digestion and trigger satiety hormones. Combining at least two nutrient types (fiber, protein, or healthy fat) significantly extends the time before hunger returns compared to a single-nutrient snack."
+
+- question: "All snacking between meals is harmful to health because it adds extra calories."
+  type: true-false
+  answer: false
+  explanation: "The healthfulness of snacking depends on what you eat and why. A small, nutrient-dense snack (apple and peanut butter, carrots and hummus) eaten because you are genuinely hungry 2–3 hours after a meal can stabilize blood sugar and prevent overeating at the next meal. The problem is not snacking itself — it is choosing calorie-dense, nutrient-poor processed foods, or eating from habit or boredom rather than genuine hunger."
+
+- question: "Why do fiber, protein, and healthy fat each contribute to feeling full longer after a snack? How does this differ from what happens with a sugary processed snack?"
+  type: short-answer
+  answer: "Fiber physically slows digestion; protein triggers satiety hormones and takes longer to break down; healthy fat slows how quickly food leaves the stomach. Together they prevent sharp blood-sugar swings and extend fullness. A sugary processed snack is absorbed rapidly, causes a quick blood-sugar spike and then a crash, which signals hunger again soon after."
+  explanation: "The three nutrients work through different mechanisms but all converge on the same result: slower, more stable energy release. This is why pairing even one of them with a carbohydrate source (apple + peanut butter, carrots + hummus) dramatically outperforms a refined-carbohydrate snack for sustained energy."
+```
+
 ## Explainer
 
 From your study of fresh produce, you know how to identify ripe, high-quality fruits and vegetables. That skill connects directly to snack selection because the most satisfying and nutritious snacks are, by and large, minimally processed whole foods — and the quality of those foods depends on how you select them. Understanding why certain snacks work better than others means thinking about how food affects energy and hunger over time, not just in the moment of eating.

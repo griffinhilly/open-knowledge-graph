@@ -33,6 +33,45 @@ Practice identifying which voice carries the main melodic interest, then focus o
 ## Common Misconceptions
 Attempting to hear both voices simultaneously at first rather than separating them. Confusing the rhythmic alignment of parts when they don't move together.
 
+## Questions
+
+```yaml
+- question: "When beginning a two-part melodic dictation exercise, what is the most effective initial strategy?"
+  type: multiple-choice
+  options:
+    - "Try to write down both voices simultaneously during the first hearing to capture everything at once"
+    - "Focus on one voice per hearing, starting with the more melodically active line"
+    - "Transcribe only the rhythm of both voices first, then add pitches on later hearings"
+    - "Wait until the final hearing to begin writing anything down"
+  answer: 1
+  explanation: "Selective auditory attention — focusing on one voice at a time — is the foundational skill of two-part dictation. Trying to capture both voices simultaneously overloads working memory and produces errors in both. The common misconception (option A) treats the ears as a stereo recorder; in reality, musical attention is focal and must be directed. Identify the primary melodic voice first, transcribe it, then shift attention deliberately to the secondary voice."
+
+- question: "A student notices frequent errors in the section where one voice sustains a long note while the other moves through several faster notes. What is the correct response?"
+  type: multiple-choice
+  options:
+    - "Ignore that section — sustained notes are a sign that nothing important is happening"
+    - "On a dedicated hearing, tap the beat and trace only the moving voice through that passage"
+    - "Focus harder on the sustained voice, since it is easier to hear"
+    - "Assume the voices move in parallel motion and fill in missing notes by inference"
+  answer: 1
+  explanation: "Rhythmic misalignment in contrasting-rhythm passages is the most common error location in two-part dictation. When one voice holds while the other moves, it is easy to lose track of which beats the moving voice's notes begin on, and whether the held voice has a rest somewhere. A targeted hearing — tapping beats explicitly and tracing only the moving voice — isolates this problem. Option D might occasionally work using counterpoint knowledge, but it substitutes inference for actual listening and is unreliable."
+
+- question: "The best strategy for two-part melodic dictation is to attempt to hear and transcribe both voices simultaneously from the first hearing."
+  type: true-false
+  answer: false
+  explanation: "This is the primary misconception in two-part dictation. Auditory attention is selective — it works like figure-ground perception, not like two independent recording channels. Attempting simultaneous transcription almost always results in degraded accuracy for both voices. The recommended approach is to focus on one voice per hearing, starting with the primary melodic line, and shift attention deliberately to the secondary voice in subsequent hearings."
+
+- question: "After transcribing both voices in a two-part dictation, examining where they form consonances versus dissonances can reveal the underlying harmonic structure."
+  type: true-false
+  answer: true
+  explanation: "Harmonic perception is embedded in contrapuntal texture. When two voices simultaneously produce a third or sixth, they express harmonic consonance; when they produce a second or seventh, one voice is likely a non-chord tone (passing note, neighbor note, etc.) relative to the other. Recognizing this allows the transcriber both to check their work (consonances should align with strong beats in tonal music) and to build toward harmonic dictation skills. The two written-out lines are a compressed harmonic progression."
+
+- question: "How does prior knowledge of counterpoint voice-leading assist in transcribing the second voice during two-part melodic dictation?"
+  type: short-answer
+  answer: "Counterpoint knowledge lets you infer likely motion in the second voice based on what the first voice is doing. If the first voice moves stepwise upward and you know the texture maintains parallel sixths, you can predict a similar stepwise shape in the second voice before fully isolating it auditorily."
+  explanation: "Counterpoint rules constrain the possibilities: parallel motion in thirds or sixths is common; parallel octaves and fifths are avoided; contrary motion frequently occurs at phrase endings. This structural knowledge acts as a prior — it narrows the set of plausible second-voice shapes, reduces transcription uncertainty, and lets you catch errors (e.g., if your transcription produces consecutive octaves, that's a warning sign). Using theoretical knowledge to inform perception is a more sophisticated skill than pure transcription."
+```
+
 ## Explainer
 
 Your single-voice melodic dictation skills — including dictation with leaps — gave you the ability to track one line through a listening passage and convert it into notation. Two-part dictation multiplies the challenge: now there are two independent lines happening simultaneously, and you need to capture both. The key insight from the Common Misconceptions above is the most important one: **do not try to hear both voices at once initially**. Your auditory attention is selective, and the first skill to develop is the ability to choose which voice to follow and hold that focus while the other recedes to the background.

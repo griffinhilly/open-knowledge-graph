@@ -27,6 +27,45 @@ Practice long division first with clear, step-by-step layout. Introduce syntheti
 - Applying synthetic division when the divisor is not linear.
 - Sign errors in synthetic division when dividing by (x + c) instead of (x - c).
 
+## Questions
+
+```yaml
+- question: "You want to use synthetic division to divide x³ - 2x² + 5 by x² - 1. What is the problem?"
+  type: multiple-choice
+  options:
+    - "You cannot use synthetic division here because the divisor is not of the form x - c"
+    - "The dividend has degree greater than 2, so synthetic division does not apply"
+    - "There is no problem — synthetic division works for any divisor"
+    - "You must first divide by x - 1, then divide again by x + 1"
+  answer: 0
+  explanation: "Synthetic division only works when the divisor is a linear polynomial of the exact form x - c (degree 1, leading coefficient 1). A quadratic divisor like x² - 1 requires polynomial long division. While x² - 1 = (x-1)(x+1) means you could divide by each factor separately, that is a multi-step process — not a direct application of synthetic division."
+
+- question: "If f(x) = x⁴ - 3x² + x - 7 and you divide f(x) by (x + 2), the Remainder Theorem says the remainder equals:"
+  type: multiple-choice
+  options:
+    - "f(2) = 16 - 12 + 2 - 7 = -1"
+    - "f(-2) = 16 - 12 - 2 - 7 = -5"
+    - "0, because -2 must be a root"
+    - "f(0) = -7, the constant term"
+  answer: 1
+  explanation: "The Remainder Theorem states that dividing f(x) by (x - c) gives remainder f(c). Since the divisor is (x + 2) = (x - (-2)), we use c = -2. f(-2) = (-2)⁴ - 3(-2)² + (-2) - 7 = 16 - 12 - 2 - 7 = -5. Option A uses c = +2 — the classic sign error that occurs when students forget that dividing by (x + 2) means c = -2, not +2."
+
+- question: "If f(3) = 0, then (x - 3) is guaranteed to be a factor of f(x)."
+  type: true-false
+  answer: true
+  explanation: "By the Remainder Theorem, the remainder when f(x) is divided by (x - 3) equals f(3). If f(3) = 0, the remainder is 0, which means (x - 3) divides f(x) evenly — it is a factor. This is the Factor Theorem, a direct consequence of the Remainder Theorem. It provides a powerful method for factoring: evaluate at candidate roots, and zeros produce linear factors."
+
+- question: "Synthetic division can be used to divide 2x³ - x + 4 by 2x - 3."
+  type: true-false
+  answer: false
+  explanation: "Standard synthetic division requires the divisor to have the form x - c: degree 1 and leading coefficient exactly 1. The divisor 2x - 3 has leading coefficient 2, not 1. Applying synthetic division without adjusting for the leading coefficient produces an incorrect quotient. You would need to use polynomial long division or factor out the 2 first."
+
+- question: "Explain why synthetic division is equivalent to evaluating the polynomial at x = c when the divisor is (x - c)."
+  type: short-answer
+  answer: "By the Remainder Theorem, the remainder when f(x) is divided by (x - c) equals f(c). Synthetic division computes this remainder as its final entry. So running synthetic division with value c is a numerically efficient way to evaluate f(c) — essentially Horner's method for polynomial evaluation, which organizes the arithmetic to minimize operations."
+  explanation: "This connection transforms synthetic division from a mere algebraic shortcut into a polynomial evaluation algorithm. For a degree-n polynomial, synthetic division evaluates f(c) in n multiplications and n additions, the same count as direct substitution but with better numerical organization. The Remainder Theorem is the bridge: dividing by (x - c) and evaluating at x = c are mathematically identical operations."
+```
+
 ## Explainer
 
 You already know how to manipulate variable expressions and combine like terms. **Polynomial long division** extends this to dividing polynomials, using the exact same logic as integer long division — the algorithm you learned for dividing numbers like 748 ÷ 23. The key insight is that both work by repeatedly asking: "how many times does the divisor fit into the leading term of what remains?"

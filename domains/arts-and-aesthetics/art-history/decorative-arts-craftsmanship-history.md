@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Decorative arts—ceramics, textiles, metalwork, furniture, glass—often exceed 'fine art' in cultural reach and durability, yet are historically undervalued by art historians biased toward painting and sculpture. These objects represent technical mastery, cultural taste, and material knowledge accumulated across generations. The boundary between 'craft' and 'art' is ideologically constructed; understanding decorative traditions reveals how function and aesthetic excellence coexist.
 
+## Questions
+
+```yaml
+- question: "A historian argues that a master Japanese lacquerware artisan of the Edo period demonstrates less aesthetic sophistication than a mediocre European academic painter of the same era. What does the decorative arts framework suggest is wrong with this argument?"
+  type: multiple-choice
+  options:
+    - "The argument is correct — painting requires more intellectual labor than lacquerwork"
+    - "The argument confuses technical difficulty with aesthetic value; lacquerwork is harder to execute"
+    - "The hierarchy the argument relies on reflects social and institutional power, not intrinsic quality differences between the objects"
+    - "The argument is wrong because decorative arts are always more valuable than painting"
+  answer: 2
+  explanation: "The fine art / craft hierarchy was not established by comparing aesthetic qualities of objects but by associating painting with aristocratic patronage and intellectual labor (disegno) while relegating craft to guild trades. A master lacquerware artisan may command extraordinary material knowledge, technical precision, and aesthetic refinement. The hierarchy reflects who controlled cultural institutions, not which objects embody more sophistication. Option B is partially true (lacquerwork is often technically demanding) but misses the deeper point that the comparison itself is built on a socially constructed framework."
+
+- question: "Why did European academies of the seventeenth and eighteenth centuries elevate painting and sculpture over ceramics, textiles, and metalwork?"
+  type: multiple-choice
+  options:
+    - "Painting and sculpture demonstrably required more technical skill than decorative crafts"
+    - "Ceramics and textiles were too cheap to collect and preserve, so they had less cultural impact"
+    - "Academies associated painting and sculpture with intellectual invention (disegno) while classifying craft as manual trade — a class-based distinction, not a quality-based one"
+    - "Decorative arts could not achieve the same formal complexity as painting because their materials were too constrained"
+  answer: 2
+  explanation: "The academies' elevation of fine arts was ideological, not empirical. The concept of disegno — design and intellectual invention — was used to separate painting and sculpture from 'mere' craft, associating fine art with liberal education and aristocratic culture. The reality is that ceramic glazing, textile pattern-making, and metalwork smithing often demand equal or greater technical mastery. The hierarchy was about class and institutional power, not about measurable differences in skill or aesthetic achievement."
+
+- question: "The Arts and Crafts movement, associated with William Morris, challenged the hierarchy between fine art and decorative craft."
+  type: true-false
+  answer: true
+  explanation: "The Arts and Crafts movement (late 19th century) explicitly argued that well-designed objects for everyday use were as important as autonomous fine art, and that the industrial degradation of craft represented a cultural and social loss. This was a direct challenge to the academic hierarchy. The Bauhaus later made the same argument from a modernist direction: design and art should be unified, and the distinction between them was artificial and harmful."
+
+- question: "The distinction between fine art and craft reflects a timeless, universal recognition that painting and sculpture require more skill and embody more aesthetic value than ceramics or weaving."
+  type: true-false
+  answer: false
+  explanation: "The distinction is historically specific and ideologically constructed. Before the European academies formalized it in the 17th–18th centuries, no such clear hierarchy existed — the Latin ars and Greek techne covered all skilled making without privileging painting over pottery. The hierarchy was created by institutions with particular class interests, not discovered by comparing the intrinsic qualities of objects. A Sèvres porcelain vase or a Persian carpet may embody as much or more skill and aesthetic refinement as many canonical paintings."
+
+- question: "Explain why the fine art / craft distinction is described as 'ideologically constructed' rather than a neutral description of quality differences."
+  type: short-answer
+  answer: "The distinction was created by specific institutions (European art academies) at a specific historical moment to serve specific social interests: elevating painting and sculpture by associating them with intellectual labor and aristocratic patronage while relegating ceramics, textiles, and metalwork to the category of manual trade. The hierarchy doesn't track intrinsic quality — decorative objects can demand equal or greater technical mastery and aesthetic sophistication. Calling it 'ideologically constructed' means it reflects power relations and institutional choices, not an objective feature of the objects themselves."
+  explanation: "The word 'ideological' is key: an ideology is a set of ideas that serves particular interests while presenting itself as natural or neutral. The fine art / craft hierarchy presented itself as simply recognizing quality, but it actually encoded class distinctions (aristocratic vs. guild labor) and institutional power (academy vs. workshop). Recognizing this doesn't mean all art is equally good — it means the category system used to sort art was built to serve particular interests, not to neutrally describe aesthetic achievement."
+```
+
 ## Explainer
 
 From your understanding of art-historical periodization, you know that the history of art is organized into stylistic periods, each with characteristic forms and values. But this periodization overwhelmingly privileges painting, sculpture, and architecture — the so-called **fine arts** — while treating ceramics, textiles, metalwork, furniture, glasswork, and jewelry as secondary or supplementary. The decorative arts challenge this hierarchy and reveal it to be not a neutral description of quality but an ideological construction with a specific history and specific consequences for what gets studied, preserved, and valued.

@@ -30,6 +30,45 @@ Analyze how different historical governments justified their authority. Map lead
 ## Common Misconceptions
 - Traditional authority is inherently unstable or weak. - Charisma is the same as popularity. - Rational-legal authority is purely impersonal and always efficient.
 
+## Questions
+
+```yaml
+- question: "A company's founder — a visionary entrepreneur whose personal magnetism attracted the original team — retires. The board follows formal procedures to hire a new CEO, who is obeyed because of her title and the organizational hierarchy. Which shift in authority type does this describe?"
+  type: multiple-choice
+  options:
+    - "Traditional to rational-legal authority"
+    - "Charismatic to rational-legal authority, through the routinization of charisma"
+    - "Rational-legal to charismatic authority, since the new CEO lacks the founder's personal qualities"
+    - "Charismatic to traditional authority, since the company's history is now its legitimating force"
+  answer: 1
+  explanation: "The founder exercised charismatic authority — people followed because of her extraordinary personal qualities. When she left and a successor was installed through formal procedures, authority shifted to a rational-legal basis: obedience is now owed to the *office* of CEO, filled through a recognized process, not to any personal attribute of the individual holder. This transition — converting personal charismatic authority into a stable institutional form — is what Weber called the 'routinization of charisma.' It is the central challenge for any movement or organization that begins around a charismatic figure."
+
+- question: "According to Weber, why is traditional authority inherently self-limiting for the ruler who holds it?"
+  type: multiple-choice
+  options:
+    - "Traditional authority depends on inherited office, so the ruler's power erodes as modern education spreads"
+    - "The ruler cannot arbitrarily break with established customs without undermining the very basis of their legitimacy"
+    - "Traditional authority requires consensus among subjects, so any single dissenter can revoke it"
+    - "The absence of formal rules means traditional rulers have no mechanism for collecting taxes or organizing armies"
+  answer: 1
+  explanation: "Traditional authority derives its legitimacy from the sanctity of longstanding custom — the ruler rules *because this is how it has always been*. But this means the ruler is also *constrained* by those customs. To arbitrarily violate established practices is to attack the very ground on which their own authority rests: if customs can be discarded, why should subjects obey the next one? This is structurally different from both charismatic authority (which claims to supersede tradition) and rational-legal authority (which can revise rules through recognized procedures). Traditional rulers have wide latitude within customary bounds but limited ability to innovate beyond them."
+
+- question: "Rational-legal authority, in Weber's framework, is attached to formal offices and their rules rather than to the personal qualities of the individuals who hold those offices."
+  type: true-false
+  answer: true
+  explanation: "This is one of Weber's most important observations about modern bureaucratic systems. You obey the manager not because of who she is as a person, nor because her family has always held power, but because she occupies a position in a legitimately constituted hierarchy that was created and filled through recognized procedures. This separation of office from officeholder is what makes bureaucratic succession possible without legitimacy crises — you can fire a minister without challenging the government, or replace a CEO without dissolving the company. Power attaches to the role; the person is interchangeable. Weber saw this as the organizational breakthrough that made large-scale modern institutions possible."
+
+- question: "Weber's concept of charismatic authority is essentially equivalent to popularity: the more people who approve of a leader, the more charismatic their authority."
+  type: true-false
+  answer: false
+  explanation: "For Weber, charisma is specifically the attribution of *extraordinary* or even supernatural qualities that justify breaking with established order. A popular politician who works within normal democratic procedures and appeals to established norms is exercising rational-legal authority, not charismatic authority. Charismatic figures claim to transcend the existing order by virtue of what they uniquely are — the prophet, the warlord, the revolutionary. The defining feature is not mass approval but the followers' belief that the leader embodies exceptional gifts that exempt them from ordinary institutional constraints. A charismatic leader with few followers is still exercising charismatic authority; a widely popular leader who governs through normal rules is not."
+
+- question: "What does Weber mean by 'legitimate' authority, and why does the basis of legitimacy matter for explaining political stability or collapse?"
+  type: short-answer
+  answer: "For Weber, 'legitimate' authority is power that subjects comply with because they believe they *ought to* — not merely because they must. The basis of legitimacy (tradition, charisma, or legal rules) determines what kinds of challenges or transitions destabilize it. A system whose legitimacy rests on a single charismatic individual collapses when that individual dies unless their authority is routinized; a system resting on rational-legal grounds survives leadership changes because authority attaches to rules and offices, not persons."
+  explanation: "This distinction between power (the ability to compel) and legitimate authority (the belief-based right to be obeyed) is Weber's central analytical contribution. Coercion alone is costly and fragile — stable governance requires that subjects internalize the obligation to comply. The basis matters because it determines the system's fault lines. Traditional legitimacy is threatened by deviation from custom; charismatic legitimacy dies with the leader or erodes if extraordinary claims fail; rational-legal legitimacy is threatened by corruption or perceived procedural violation. Diagnosing which form of legitimacy a system rests on tells you where and how it can collapse — a core insight for comparative political sociology."
+```
+
 ## Explainer
 
 From ideal-types methodology, you know that Weber built analytical tools that are never found in pure form in empirical reality — they are conceptual measuring sticks against which real cases can be assessed. His three types of **legitimate authority** (or **domination** — *Herrschaft*) are the most influential ideal types in political sociology. The key word is *legitimate*: Weber is not asking how power is exercised but why it is obeyed. What makes people comply not merely because they must but because they believe they should?

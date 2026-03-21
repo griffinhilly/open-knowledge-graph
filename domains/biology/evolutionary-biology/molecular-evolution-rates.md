@@ -28,6 +28,45 @@ status: draft
 ## Core Idea
 Rates of molecular evolution vary among sites (constrained sites evolve slowly), genes (different functions have different constraints), and lineages (generation time, population size affect rates). Understanding rate variation is essential for accurate molecular dating and phylogenetic inference.
 
+## Questions
+
+```yaml
+- question: "Histone H4 differs by only 2 amino acids between peas and cows despite ~1 billion years of divergence, while fibrinopeptides differ extensively over the same period. What does this contrast BEST demonstrate?"
+  type: multiple-choice
+  options:
+    - "Histones are simply older genes that have had fewer opportunities for mutation to accumulate"
+    - "Among-gene rate variation reflects differences in functional constraint: histone H4 interacts with every gene in the genome, so nearly every amino acid change is deleterious and eliminated by selection"
+    - "Fibrinopeptides are exposed to blood-borne mutagens that accelerate their substitution rate"
+    - "The molecular clock runs at the same universal rate, but calibration errors make histone rates appear lower"
+  answer: 1
+  explanation: "According to the neutral theory, the substitution rate equals the neutral mutation rate — the fraction of mutations that are selectively neutral and can drift to fixation. For histone H4, which must make precise contacts with DNA and the same conserved protein machinery across all eukaryotes, nearly every change is deleterious and eliminated by purifying selection. Very few mutations are neutral, so the substitution rate is near zero. Fibrinopeptides, by contrast, are clipped off during blood clotting and have minimal functional constraints — most mutations are neutral and can accumulate. This is among-gene rate variation driven by functional constraint."
+
+- question: "Rodents evolve faster than primates at most genomic loci, even for genes with equivalent functions. What is the PRIMARY explanation?"
+  type: multiple-choice
+  options:
+    - "Rodents are exposed to higher levels of environmental mutagens in their ecological niches"
+    - "Rodents have larger effective population sizes, making genetic drift more powerful and accelerating fixation of neutral mutations"
+    - "Rodents have shorter generation times, so more DNA replications — and thus more replication errors — accumulate per year"
+    - "Primates have more efficient DNA repair mechanisms that suppress mutation rates below the rodent baseline"
+  answer: 2
+  explanation: "Generation time is the primary driver of this lineage-specific rate difference. The per-generation mutation rate is roughly similar across mammals, but rodents complete many more generations per year than primates. More generations per year means more rounds of DNA replication, and each replication introduces errors at a roughly constant per-replication rate. The result is more mutations per year in rodents, producing a faster substitution rate per unit time. This is among-lineage rate variation — a critical reason why a single universal molecular clock fails."
+
+- question: "The molecular clock hypothesis predicts that all genes in all lineages evolve at the same substitution rate, because the per-generation mutation rate is approximately constant across species."
+  type: true-false
+  answer: false
+  explanation: "This describes a naive version of the molecular clock that the evidence clearly refutes. Rates vary at three distinct levels: among sites within a gene (constrained sites evolve slowly, unconstrained sites evolve fast), among genes (functional constraint differs by gene), and among lineages (generation time and population size differences produce lineage-specific rates). The molecular clock is better understood as an approximate, calibration-dependent tool that requires gene-by-gene rate estimates and relaxed-clock models that allow branch-specific rates."
+
+- question: "A mutation at a buried, structurally critical amino acid position is more likely to be eliminated by purifying selection than a mutation at a surface-exposed position, resulting in lower observed substitution rates at constrained sites."
+  type: true-false
+  answer: true
+  explanation: "This is the core application of the neutral theory to among-site rate variation. Constrained sites are those where nearly every mutation disrupts protein function — a mutation that unfolds the protein or blocks a critical interaction will be eliminated by purifying selection regardless of how often it arises. Surface-exposed residues that tolerate substitution have a higher neutral mutation rate (more mutations are neutral there), so they accumulate substitutions rapidly. This is why gamma distributions are used to model among-site rate variation: most sites are constrained (slow), and a few are nearly unconstrained (fast)."
+
+- question: "Why must molecular dating studies calibrate substitution rates gene-by-gene rather than applying a single universal rate, and what are the consequences of ignoring this?"
+  type: short-answer
+  answer: "Substitution rates vary systematically among genes based on functional constraint (among-gene variation), among sites within genes based on structural role (among-site variation), and among lineages based on generation time and population size (among-lineage variation). A single universal rate would average across all these sources of variation, producing large systematic errors for genes that evolve much faster or slower than the average. For slowly evolving genes like histones, a universal rate would dramatically overestimate divergence times; for rapidly evolving genes like fibrinopeptides, it would underestimate them. Ignored lineage effects would similarly skew dates when comparing fast-evolving rodents to slow-evolving primates. Estimated divergence times can be off by tens of millions of years when rate variation is not modeled."
+  explanation: "The molecular clock is a useful approximation, not a precise metronome. Its accuracy depends critically on choosing appropriate genes, modeling rate heterogeneity with tools like gamma distributions, calibrating with fossil or biogeographic evidence, and using relaxed-clock phylogenetic models that allow branch-specific rates."
+```
+
 ## Explainer
 
 From your study of the molecular clock hypothesis and substitution rates, you know the basic idea: neutral mutations accumulate at a roughly steady rate, so the number of differences between two sequences can estimate how long ago they diverged. But "roughly steady" hides important complexity. In practice, the rate of molecular evolution is not a single universal constant — it varies at three distinct levels, and understanding each is essential for using molecular data to date evolutionary events accurately.

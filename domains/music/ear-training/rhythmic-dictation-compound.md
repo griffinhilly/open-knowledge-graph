@@ -36,6 +36,45 @@ Establish the beat by conducting in a pattern appropriate for the meter (2 beats
 - In 6/8 there are 2 beats per measure, not 6 — the eighth note gets one-third of a beat, not the beat itself.
 - Compound meter does not always sound like a 'waltz' or 'jig' — tempo dramatically changes the perceived metric character.
 
+## Questions
+
+```yaml
+- question: "In 6/8 time at a moderate tempo, a musician taps her foot once per beat. How many taps does she make per measure, and what note value receives one tap?"
+  type: multiple-choice
+  options:
+    - "6 taps, each on an eighth note — there are 6 eighth notes per measure"
+    - "3 taps, each on a dotted quarter note — 6/8 is compound triple meter"
+    - "2 taps, each on a dotted quarter note — 6/8 is compound duple meter"
+    - "2 taps, each on a quarter note — the bottom number 8 is just a convention"
+  answer: 2
+  explanation: "6/8 is compound duple meter: 2 beats per measure, each beat a dotted quarter note (= 3 eighth notes). The '6' tells you there are 6 eighth notes per measure; the '8' tells you the eighth note is the notated subdivision unit. But the felt beat — what you conduct and tap to — occurs twice per measure. Option A is the most common error: mistaking the subdivision count (6) for the beat count. Option D confuses the beat value; a quarter note would not fill a dotted-quarter beat."
+
+- question: "A student transcribing a melody in 6/8 hears one note per beat and notates two quarter notes per measure. Why is this notation incorrect?"
+  type: multiple-choice
+  options:
+    - "It is correct — one note per beat in 6/8 means one quarter note per beat"
+    - "It is incorrect — in 6/8 the beat unit is a dotted quarter, so one note per beat should be two dotted quarter notes"
+    - "It is incorrect — in 6/8 there are 3 beats per measure, so three notes are needed"
+    - "It is incorrect — notes lasting a full beat in 6/8 must always be tied pairs of eighth notes"
+  answer: 1
+  explanation: "The beat in 6/8 is a dotted quarter note, worth 3 eighth notes. A plain quarter note equals only 2 eighth notes — it fills two-thirds of a beat, not a full beat. Two quarter notes add up to 4 eighth notes, but a 6/8 measure contains 6 eighth notes. The student's notation doesn't add up to a full measure. One note per beat should be notated as a dotted quarter note, and two of them fill the measure: 3 + 3 = 6 eighth notes."
+
+- question: "In 6/8 time, the number '6' in the time signature tells you that there are 6 beats per measure."
+  type: true-false
+  answer: false
+  explanation: "The '6' tells you there are 6 eighth notes (the notated subdivision unit) per measure — not 6 beats. At a moderate or fast tempo, 6/8 has 2 felt beats per measure, each a dotted quarter note. Only at very slow tempos might a performer feel 6/8 as 6 separate pulses. The beat count is determined by the meter type (duple, triple, quadruple) and the compound/simple distinction, not directly by the top number of the time signature."
+
+- question: "A dotted quarter note lasts exactly one beat in 6/8 time because it equals three eighth notes, matching the triple subdivision of each beat."
+  type: true-false
+  answer: true
+  explanation: "In compound meter, the beat unit is always a dotted note value — the dot adds half the original value, making the total three times the undotted subdivision. In 6/8: dotted quarter = quarter + eighth = 2 eighths + 1 eighth = 3 eighths = one beat. This is the notational key to compound meter: the beat lives at the dotted-note level, and the three undotted notes filling each beat are the subdivision (what 'ta-ki-da' syllables land on)."
+
+- question: "Describe the most common transcription error students make in compound meter dictation, and explain how the multi-pass strategy helps prevent it."
+  type: short-answer
+  answer: "The most common error is notating plain quarter notes where dotted quarter notes belong — the student hears 'one note per beat' but writes a quarter instead of a dotted quarter, so the measure doesn't add up. A related error is notating syncopations that cross beat boundaries incorrectly because the student is still counting in binary subdivision. The multi-pass strategy prevents this by establishing the dotted-quarter beat first (first pass: count measures and beat positions), then capturing the subdivision level (subsequent passes), so you're always working from the felt beat downward rather than trying to count each eighth note independently."
+  explanation: "The multi-pass approach forces internalization of the beat before tackling subdivisions — exactly the reorientation compound meter requires. If a student tries to count 6 individual eighth notes rather than 2 dotted-quarter beats, compound meter feels impossibly fast and syncopations become incomprehensible. Conducting in 2 while hearing the triple subdivision inside each beat is the kinesthetic and cognitive anchor that makes accurate notation possible."
+```
+
 ## Explainer
 
 In simple meter dictation, you learned to parse rhythm by dividing each beat into halves — a quarter note splits into two eighths, an eighth into two sixteenths. This binary subdivision is the rhythmic grammar of 2/4, 3/4, and 4/4. Compound meter requires you to rewire that grammar. The beat now divides into **three** equal parts rather than two, and the notation system changes accordingly. Understanding this difference at the conceptual level first will make the perceptual work much easier.

@@ -29,6 +29,45 @@ Derive the formula from proportional reasoning: the arc is the same fraction of 
 - Forgetting to use the radius in the formula (using diameter instead, or omitting it).
 - Not including pi in exact answers.
 
+## Questions
+
+```yaml
+- question: "Circle A has radius 2 cm and Circle B has radius 6 cm. A 90° arc is drawn on each circle. Which arc is longer, and by how much?"
+  type: multiple-choice
+  options:
+    - "Both arcs are equal — they share the same 90° central angle"
+    - "Circle B's arc is twice as long as Circle A's"
+    - "Circle B's arc is 3 times as long as Circle A's"
+    - "Circle B's arc is 9 times as long because the radius difference is squared"
+  answer: 2
+  explanation: "Arc length = (θ/360) × 2πr. For 90°: Circle A gives (1/4) × 2π(2) = π cm; Circle B gives (1/4) × 2π(6) = 3π cm. Circle B's arc is exactly 3 times longer — arc length scales linearly with radius. The angle sets the fraction of the circle; the radius sets how large that circle is. Option A is the core misconception: equal angles do not imply equal arc lengths when radii differ."
+
+- question: "A circle has radius 10 cm. What is the length of the arc intercepted by a central angle of 45°?"
+  type: multiple-choice
+  options:
+    - "2.5π cm"
+    - "5π cm"
+    - "10π cm"
+    - "45π cm"
+  answer: 0
+  explanation: "Arc length = (45/360) × 2π(10) = (1/8) × 20π = 2.5π cm. A common error is using the diameter (20) instead of the radius (10), giving 5π — option B. Another error is multiplying the angle directly by π without applying the fraction, yielding 45π — option D."
+
+- question: "Two arcs with the same central angle measurement always have the same arc length."
+  type: true-false
+  answer: false
+  explanation: "Arc length depends on both the central angle AND the radius. Two 60° arcs with radii of 3 cm and 9 cm have arc lengths of π cm and 3π cm respectively. The angle determines the fraction of the circumference traveled; the radius determines how large that circumference is. Arc measure (degrees) and arc length (linear distance) are fundamentally different quantities."
+
+- question: "Arc length is a linear measurement expressed in the same units as the radius of the circle."
+  type: true-false
+  answer: true
+  explanation: "Arc length is a distance — measured in centimeters, meters, inches, or whatever unit the radius uses. This contrasts with arc measure, which is expressed in degrees (a pure number with no length units). Keeping these two quantities separate prevents the very common error of treating degree measurements as if they described a distance."
+
+- question: "Explain in your own words why arc length depends on the radius of the circle and not just the central angle."
+  type: short-answer
+  answer: "The central angle determines what fraction of the full circle the arc covers, but the full circumference itself depends on the radius (C = 2πr). A larger circle has a larger circumference, so the same fraction of it is a longer distance. The formula (θ/360) × 2πr combines both: the angle provides the fraction and the radius scales the total circumference that fraction applies to."
+  explanation: "A 90° arc is always one-quarter of the full circumference, but one-quarter of a small circle is a short distance and one-quarter of a large circle is a long distance. The angle and radius are independent variables — you need both to determine a unique arc length. This is why giving only the angle of an arc tells you its shape but not how far you would travel along it."
+```
+
 ## Explainer
 
 The circumference of a circle is the total distance around it: C = 2πr. An **arc** is simply a piece of that circumference — a curved segment cut off by a central angle. Arc length answers the question: if you walked along the curve instead of through the center, how far would you travel?

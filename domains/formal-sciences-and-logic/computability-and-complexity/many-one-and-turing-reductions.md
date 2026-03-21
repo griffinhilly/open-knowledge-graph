@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Many-one reducibility (A ≤_m B) transforms instances of A to instances of B via a single function and preserves hardness notions while defining degree structures. Turing reducibility (A ≤_T B) allows using a B-oracle adaptively during computation, classifying problems by computational power more finely. While many-one reducibility is standard for NP-completeness, Turing reducibility is more fundamental in computability theory and degree theory.
 
+## Questions
+
+```yaml
+- question: "The complement of the halting problem (co-HP) is known to NOT be many-one reducible to the halting problem (HP). Yet co-HP IS Turing reducible to HP. What feature of Turing reduction makes this possible?"
+  type: multiple-choice
+  options:
+    - "Turing reductions can use non-computable functions, while many-one reductions cannot"
+    - "A Turing reduction can query the oracle and flip the output — using HP to answer the halting question and then negating — which many-one reduction cannot do since it commits to a single non-adaptive instance"
+    - "Turing reductions can reduce to the complement of B, while many-one reductions can only reduce to B itself"
+    - "Turing reductions run in polynomial time, allowing them to handle complement problems that exponential-time many-one reductions cannot"
+  answer: 1
+  explanation: "The key is adaptivity. To decide co-HP (does machine M NOT halt on input w?), a Turing reduction queries HP ('does M halt on w?') and outputs the opposite. The many-one reduction cannot do this: it must map the co-HP instance (M, w) to some HP instance (M', w') such that M doesn't halt iff M' does halt — which would require encoding the complement into the transformation itself, and no such computable mapping exists. A Turing reduction, by contrast, can see the oracle's answer and then compute a final output based on it. This is why complements of many-one-complete sets are generally not many-one equivalent to those sets, yet always Turing equivalent."
+
+- question: "What is the defining structural difference between a many-one reduction and a Turing reduction from A to B?"
+  type: multiple-choice
+  options:
+    - "Many-one reductions run in linear time; Turing reductions run in polynomial time"
+    - "Many-one reductions make a single, non-adaptive query — transforming the A-instance to one B-instance without seeing any answer; Turing reductions can make multiple adaptive queries, updating strategy based on oracle responses"
+    - "Many-one reductions can only be used for decidable problems; Turing reductions apply to undecidable problems as well"
+    - "Many-one reductions require the problems to have the same type of input; Turing reductions allow arbitrary input transformations"
+  answer: 1
+  explanation: "The distinction is about query count and adaptivity, not time complexity. A many-one reduction (A ≤_m B) computes a function f such that x ∈ A iff f(x) ∈ B — one instance in, one instance out, with no oracle interaction. A Turing reduction (A ≤_T B) is a computation with oracle access to B: it can ask 'is y ∈ B?' multiple times, and each subsequent query can depend on previous answers. This makes Turing reduction strictly more powerful — every many-one reduction is a special case of a Turing reduction (one query, non-adaptive), but not vice versa."
+
+- question: "If A ≤_m B (A is many-one reducible to B), then A ≤_T B (A is Turing reducible to B) must also hold."
+  type: true-false
+  answer: true
+  explanation: "Many-one reducibility is a special case of Turing reducibility. Any many-one reduction — compute f(x) and query B once — is a valid oracle computation that makes exactly one non-adaptive query. Turing reducibility allows all such computations and more (multiple queries, adaptive strategy). So A ≤_m B directly gives a valid Turing reduction: compute f(x), query oracle on f(x), and output what the oracle says. The implication is one-directional: ≤_m implies ≤_T, but ≤_T does not imply ≤_m (co-HP ≤_T HP but co-HP ≢_m HP)."
+
+- question: "The complement of a many-one complete language is automatically many-one complete for its complexity class."
+  type: true-false
+  answer: false
+  explanation: "This is a key distinction. If A is ≤_m-complete for a class C, then A's complement is ≤_m-complete for co-C (the class of complements), but not for C itself (unless C = co-C). For example, SAT is NP-complete under many-one reductions; co-SAT (unsatisfiability) is co-NP-complete. These are the same Turing degree (co-SAT ≤_T SAT and SAT ≤_T co-SAT), but they are different many-one degrees. This is precisely why NP ≠ co-NP is a separate open question from P ≠ NP — many-one degree structure captures information about complements that Turing degree structure does not."
+
+- question: "Why does NP-completeness theory use many-one reductions rather than the stronger Turing reductions, even though Turing reductions are more natural computationally?"
+  type: short-answer
+  answer: "Using many-one reductions is a deliberate choice to keep the reduction mechanism weak, so that NP-hardness is more informative. If a problem is NP-hard under many-one reductions, it is also hard under Turing reductions — but not vice versa. A many-one reduction places no computational power 'inside' the reduction: it maps one instance to one instance with a polynomial-time function, and the reduction itself cannot solve subproblems. This ensures that the difficulty of the target problem genuinely comes from the source problem, not from clever oracle queries inside the reduction. Turing-reducibility-based NP-hardness would be weaker and less informative about where the computational difficulty lies."
+  explanation: "There are also structural reasons: the class of languages ≤_m-reducible to a set forms a 'downward closed' ideal that behaves well under complement. Many-one completeness interacts cleanly with the polynomial hierarchy and nondeterminism in ways that Turing completeness does not. For practical purposes, showing A ≤_m SAT (with a polynomial-time mapping) gives a direct algorithm for A given any SAT solver — you transform instances directly. A Turing reduction to SAT would require a more complex oracle-based algorithm that may not correspond directly to practical reduction pipelines."
+```
+
 ## Explainer
 
 You already understand reductions as the tool for comparing problem difficulty: if A reduces to B, then B is at least as hard as A. The distinction between **many-one** and **Turing** reducibility is about *how much power* the reduction itself is allowed to use — specifically, how many oracle queries it makes and whether it can adapt based on the answers.

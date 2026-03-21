@@ -32,6 +32,45 @@ Read your thermostat manual and program a simple schedule with setbacks for when
 ## Common Misconceptions
 Lowering temperature dramatically uses proportionally less energy (7-10 degree setbacks are optimal); older thermostats can't be programmed (many simple models can); frequent temperature changes save more energy than steady schedules.
 
+## Questions
+
+```yaml
+- question: "A homeowner sets their thermostat back from 70°F to 52°F (an 18°F setback) while away at work, reasoning that a bigger setback means more savings. What is the most likely problem with this strategy?"
+  type: multiple-choice
+  options:
+    - "The thermostat hardware cannot maintain temperatures below 55°F accurately"
+    - "The system will switch into emergency heat mode, which costs more to run"
+    - "The recovery run time from 52°F back to 70°F may be long enough to negate much of the energy saved during the setback"
+    - "Large setbacks cause the refrigerant to overheat on the return cycle"
+  answer: 2
+  explanation: "The key insight is that setback savings are bounded by recovery cost. Energy.gov recommends 7-10°F setbacks because at that range, the energy saved during the setback period clearly exceeds the energy needed to recover comfortable temperature. Extreme setbacks (15-20°F) require long, continuous system runs to recover, especially in poorly insulated homes — the system may run longer than it would have if temperature had been maintained. 'Bigger setback = more savings' ignores recovery time."
+
+- question: "Why does lowering the thermostat setpoint while you're away actually save energy?"
+  type: multiple-choice
+  options:
+    - "The thermostat runs fewer on/off cycles per hour at lower temperatures, reducing wear-based energy losses"
+    - "A smaller temperature difference between indoors and outdoors means the house loses heat more slowly, so the system runs less"
+    - "The HVAC compressor operates at a lower capacity setting when maintaining a lower setpoint"
+    - "Lower indoor temperatures reduce the workload on the air handler's circulation fan"
+  answer: 1
+  explanation: "Heat loss is driven by the temperature differential between indoors and outdoors (Newton's Law of Cooling). A house at 70°F on a 25°F winter day loses heat faster than the same house at 62°F — the larger the gap, the faster energy escapes. At the lower setpoint, the system needs to run less to offset that reduced heat loss. This is the physical mechanism behind setback savings, not a change in equipment efficiency or operating mode."
+
+- question: "For maximum energy savings, you should set the thermostat back as far as possible when leaving the house — the bigger the setback, the greater the savings."
+  type: true-false
+  answer: false
+  explanation: "This intuition ignores recovery time. Setback savings come from the period when the house is at a lower temperature differential with the outdoors. But when you return, the system must run continuously to recover — and the larger the setback, the longer this recovery run. Energy.gov's recommendation of 7-10°F setbacks reflects the range where savings during the setback period consistently outweigh recovery costs. Beyond that range, particularly in poorly insulated homes, recovery time can equal or exceed the savings."
+
+- question: "A programmable thermostat captures most of its energy savings by making the HVAC equipment run more efficiently at scheduled times."
+  type: true-false
+  answer: false
+  explanation: "Programmable thermostats do not change equipment efficiency — the furnace or heat pump operates at the same efficiency whether running on a schedule or not. The savings come from reduced runtime: during setback periods, the indoor-outdoor temperature differential is smaller, so less heat escapes and the system runs less. The equipment itself is unchanged; the savings are from doing less work, not doing the same work more efficiently."
+
+- question: "Why does the recommended setback magnitude cap at approximately 7-10°F rather than allowing the largest possible setback?"
+  type: short-answer
+  answer: "At 7-10°F, the energy saved during the setback period clearly exceeds the energy spent recovering to the comfortable temperature. Larger setbacks increase the recovery run time: the system must run longer and harder to bring the house back up, especially in poorly insulated homes. At some setback magnitude, the recovery cost approaches or exceeds the savings, making larger setbacks counterproductive. The 7-10°F range is where the tradeoff consistently favors setback savings."
+  explanation: "This is a practical optimization, not a hard physical law — the exact optimal setback depends on insulation quality, outdoor temperature, and system efficiency. But the principle is universal: setback savings scale with differential reduction, while recovery costs scale with the gap that must be recovered. The 7-10°F range is where most homes find the net savings maximized."
+```
+
 ## Explainer
 
 You know from your HVAC prerequisites how the system responds to thermostat signals — the thermostat calls for heating or cooling, the system runs until the setpoint is reached, and then shuts off. Thermostat programming is simply extending that basic control logic across time: instead of a fixed setpoint all day, you define a schedule of setpoints that match your actual occupancy and activity patterns, and the thermostat executes them automatically.

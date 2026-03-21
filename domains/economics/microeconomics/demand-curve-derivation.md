@@ -29,6 +29,45 @@ Derive the demand curve step-by-step using a specific utility function (e.g., Co
 - Market demand aggregation is horizontal (summing quantities at each price), not vertical.
 - Students sometimes mix up shifts of the demand curve (income or other-price changes) with movements along it (own-price changes) when applying this derivation.
 
+## Questions
+
+```yaml
+- question: "A consumer's price-consumption curve for good X shows the optimal bundles as the price of X falls from $10 to $5 to $2. How is the individual demand curve for X constructed from this information?"
+  type: multiple-choice
+  options:
+    - "By averaging the quantities consumed across all three price levels to find a representative demand"
+    - "By plotting each (price, optimal quantity of X) pair from the price-consumption curve on a separate price-quantity graph"
+    - "By connecting the endpoints of the budget lines at each price level"
+    - "By computing the slope of the indifference curves at each optimal bundle"
+  answer: 1
+  explanation: "The demand curve is constructed by projecting the price-consumption curve into price-quantity space: for each price level, you read off the optimal quantity of X from the tangency point and plot (price, quantity) on a new graph. This is the formal derivation — the demand curve is not assumed or estimated; it is generated directly from the consumer's preferences (indifference map) and income. Each point on the demand curve corresponds to one tangency on the indifference map."
+
+- question: "At a price of $8, Consumer A demands 3 units and Consumer B demands 5 units. What is market demand at $8?"
+  type: multiple-choice
+  options:
+    - "4 units — market demand is the average of individual demands"
+    - "8 units — market demand is the sum of all individual demands at that price"
+    - "3 units — market demand equals the minimum individual demand to reflect scarcity constraints"
+    - "5 units — market demand equals the median consumer's demand"
+  answer: 1
+  explanation: "Market demand is the horizontal summation of individual demand curves: at each price, you add up the quantities demanded by all consumers. Here, 3 + 5 = 8 units. This is horizontal (summing quantities at a given price), not vertical (averaging prices for a given quantity). The averaging misconception is very common but wrong — it would undercount total market demand and misrepresent the aggregate willingness to purchase."
+
+- question: "Market demand at any given price is found by averaging individual consumers' demanded quantities at that price."
+  type: true-false
+  answer: false
+  explanation: "Market demand is the horizontal *sum* of individual demands, not the average. At any price p, market demand equals the total quantity all consumers want to buy: Q_market = Q_1 + Q_2 + ... + Q_n. Averaging would give the 'typical consumer's' demand, not the market total. This distinction matters enormously in practice — a market with 1,000 consumers each demanding 2 units has a market demand of 2,000, not 2."
+
+- question: "A rise in consumer income shifts the demand curve for a normal good rightward because it changes the optimal budget-line tangency at every price, not just one."
+  type: true-false
+  answer: true
+  explanation: "This is exactly right, and it connects the graphical rule (income shifts the curve) to the underlying mechanics. An income increase expands the budget line outward at every price level. For each price, the new budget line generates a new tangency point, yielding a higher optimal quantity of X. When you project all these new optima into price-quantity space, every point on the demand curve shifts to the right. This is why income is a curve-shifter rather than a movement along the existing curve — it changes the price-consumption path itself."
+
+- question: "Why is the market demand curve typically flatter (more price-elastic) than an individual consumer's demand curve?"
+  type: short-answer
+  answer: "Because market demand aggregates consumers with widely differing reservation prices. As price falls slightly, some consumers who were just barely priced out now enter the market — each small price reduction brings in many marginal buyers who were near their reservation price. Individual demand curves reflect one person's preferences; the market curve pools all those heterogeneous preferences. The more diverse the consumer population, the more buyers are waiting just below any price threshold, making the aggregate response to price changes larger."
+  explanation: "This is why horizontal summation matters conceptually, not just mechanically. The market demand curve is flatter partly because it includes more consumers at lower prices (extensive margin) and partly because existing consumers buy more (intensive margin). In empirical work, market-level price elasticities are often larger in absolute value than individual-level elasticities, which has direct implications for pricing policy and welfare calculations."
+```
+
 ## Explainer
 
 You already know from the consumer optimum that a rational consumer picks the bundle where a **budget line** is tangent to an **indifference curve** — the point where the marginal rate of substitution equals the price ratio. Deriving the demand curve is simply asking: what happens to that optimal choice as the price of one good changes, holding income and the other price fixed?

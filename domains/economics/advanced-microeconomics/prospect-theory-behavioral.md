@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Prospect theory models how decision-makers systematically deviate from expected utility maximization. Key features: overweighting of low probabilities, reference dependence (utility depends on changes relative to status quo), and loss aversion (losses psychologically loom larger than equivalent gains). These deviations explain choice reversals, endowment effects, and other empirical anomalies.
 
+## Questions
+
+```yaml
+- question: "A person refuses a coin-flip gamble of winning $110 or losing $100 (positive expected value), but readily buys a lottery ticket with a 1-in-a-million chance of winning $500,000 (negative expected value). Which prospect theory feature best explains holding BOTH positions simultaneously?"
+  type: multiple-choice
+  options:
+    - "Risk aversion — the person is uniformly risk-averse across all gambles"
+    - "Loss aversion combined with probability overweighting of small chances"
+    - "Diminishing marginal utility of wealth in expected utility theory"
+    - "Overconfidence in one's own luck"
+  answer: 1
+  explanation: "Loss aversion explains rejecting the coin flip: losing $100 hurts roughly twice as much as gaining $110 feels good, so the asymmetric value function makes the gamble feel like a net loss. Probability overweighting explains buying the lottery: the tiny chance of winning is overweighted relative to its objective probability, inflating its perceived value. Expected utility theory with a single concave utility function cannot accommodate both behaviors in the same person."
+
+- question: "You receive a mug as a gift and immediately value it at $7 when asked how much you'd sell it for. A classmate who didn't receive a mug is willing to pay at most $3.50 for the same mug. Prospect theory attributes this gap primarily to:"
+  type: multiple-choice
+  options:
+    - "Asymmetric information — the owner knows more about the mug's quality"
+    - "Loss aversion — for the owner, selling the mug is coded as a loss from the reference point of ownership"
+    - "Risk aversion — owning the mug creates a risky asset the owner over-values"
+    - "Probability weighting — owners overweight the small chance the mug was uniquely valuable"
+  answer: 1
+  explanation: "This is the endowment effect, a direct prediction of loss aversion. Once you own the mug, your reference point shifts to 'having the mug.' Selling it is coded as a loss (losing the mug), which the value function weights more heavily than an equivalent gain. The buyer has no such loss to absorb — acquiring the mug is coded as a gain. The asymmetry in willingness-to-accept versus willingness-to-pay follows directly from the steeper loss side of the value function."
+
+- question: "According to prospect theory, people facing a high-probability loss (e.g., a 90% chance of losing $1,000) tend to be risk-seeking — they prefer the gamble over a certain loss of $900."
+  type: true-false
+  answer: true
+  explanation: "This is one of the four cells of the fourfold pattern. When facing a probable loss, the value function's convexity for losses (diminishing sensitivity — the difference between losing $900 and $1,000 feels smaller than the difference between $0 and $100) makes the gamble attractive. People are 'hoping to escape the loss entirely.' This is why firms facing near-certain failure often make desperate, high-variance bets — and why people on the losing side of a gamble keep playing."
+
+- question: "Prospect theory predicts that people are uniformly risk-averse — they always prefer a certain outcome over a gamble with equal expected value."
+  type: true-false
+  answer: false
+  explanation: "This is the expected utility assumption, not prospect theory. Prospect theory predicts a fourfold pattern: risk-aversion for high-probability gains and low-probability losses, but risk-seeking for low-probability gains and high-probability losses. People simultaneously buying insurance (risk-averse for catastrophic tail losses) and lottery tickets (risk-seeking for tiny-probability wins) demonstrates both halves of the fourfold pattern in everyday life."
+
+- question: "What is loss aversion, and why does it predict the 'disposition effect' — the tendency of investors to sell winning stocks too quickly and hold losing stocks too long?"
+  type: short-answer
+  answer: "Loss aversion means losses are weighted approximately twice as heavily as equivalent gains in the value function. For an investor, selling a winner locks in a gain (good but not great); holding a winner risks it becoming a smaller gain (a loss relative to the peak). Selling a loser locks in a loss (very painful due to loss aversion); holding a loser preserves the hope of recovery. The asymmetry in how gains and losses feel pushes investors toward selling winners and riding losers — exactly the opposite of tax-optimal or return-maximizing behavior."
+  explanation: "The disposition effect is one of the most robust findings in behavioral finance, documented across retail and professional investors. It follows directly from loss aversion plus reference dependence: the reference point is the purchase price, gains are in the concave region (diminishing sensitivity), and losses are in the steep, convex region. The reluctance to 'realize' a loss by selling is a direct expression of loss aversion outweighing the rational consideration that paper losses are economically identical to realized losses."
+```
+
 ## Explainer
 
 Standard consumer theory and expected utility theory assume that people evaluate outcomes in terms of final wealth levels and weight probabilities linearly. Prospect theory, developed by Kahneman and Tversky in 1979, replaces both assumptions based on extensive experimental evidence. The result is a descriptive model of decision-making under risk that explains a wide range of behaviors that expected utility theory cannot.

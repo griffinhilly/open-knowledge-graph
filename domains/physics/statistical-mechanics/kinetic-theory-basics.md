@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Kinetic theory derives macroscopic gas properties from the microscopic Maxwell-Boltzmann distribution. By modeling particles as hard spheres undergoing random thermal motion and binary collisions, it yields transport coefficients for viscosity, thermal conductivity, and diffusion, demonstrating why these properties depend on temperature but not pressure.
 
+## Questions
+
+```yaml
+- question: "A laboratory doubles the pressure of a gas at constant temperature. According to kinetic theory, what happens to the gas's viscosity?"
+  type: multiple-choice
+  options:
+    - "Viscosity doubles — more molecules per unit volume means more momentum transfer per collision"
+    - "Viscosity halves — higher pressure compresses the mean free path so molecules deposit momentum more locally"
+    - "Viscosity is unchanged — the density increase is exactly offset by the decrease in mean free path, so the net momentum transport is the same"
+    - "Viscosity increases with pressure, but not proportionally — the relationship is logarithmic"
+  answer: 2
+  explanation: "Viscosity scales as ρ⟨v⟩ℓ. Doubling pressure at constant temperature doubles the number density n (and hence ρ ~ nm), but it also halves the mean free path ℓ ~ 1/(√2πd²n). These factors cancel exactly: more molecules, each traveling half as far. The net momentum transport is unchanged. This pressure-independence was a famous and initially counterintuitive prediction of kinetic theory, later confirmed experimentally."
+
+- question: "Why does gas viscosity increase with temperature while liquid viscosity decreases with temperature?"
+  type: multiple-choice
+  options:
+    - "Gases expand at higher temperature, reducing the density and therefore the number of momentum-transferring collisions"
+    - "In gases, higher temperature means faster molecules (⟨v⟩ ~ √T) that transport momentum more effectively — more viscous; in liquids, viscosity is dominated by intermolecular attractions that weaken with temperature — less viscous"
+    - "The question is based on a false premise — both gas and liquid viscosities decrease with temperature, just at different rates"
+    - "Gas molecules are lighter than liquid molecules, so temperature affects them differently"
+  answer: 1
+  explanation: "The mechanisms are opposite. In a gas, molecules transport momentum by traveling between collision points; higher temperature means faster molecules (⟨v⟩ ~ √T) carrying momentum more effectively — so viscosity increases as √T. In a liquid, molecules are densely packed and resistance to flow is governed by intermolecular attractions; as temperature rises, these attractions weaken and the liquid flows more easily. Kinetic theory thus makes a qualitative prediction that reveals the fundamental difference between dilute-gas and dense-liquid behavior."
+
+- question: "Doubling the pressure of a gas at constant temperature will double its viscosity, because there are twice as many molecules available to transport momentum between fluid layers."
+  type: true-false
+  answer: false
+  explanation: "This intuition misses the cancellation. More molecules (higher density) means more carriers of momentum, but higher pressure also shortens the mean free path — each molecule deposits its momentum closer to where it picked it up. Viscosity ~ ρ⟨v⟩ℓ, and since ρ ~ n while ℓ ~ 1/n, these factors cancel and viscosity is independent of pressure. This is one of the most elegant and counterintuitive results in kinetic theory."
+
+- question: "The mean free path is the key intermediate concept in kinetic theory because it sets the length scale over which molecules transport momentum, energy, and mass before a collision interrupts the transfer."
+  type: true-false
+  answer: true
+  explanation: "All transport coefficients — viscosity, thermal conductivity, diffusion — share the same dimensional structure: a density factor times a mean speed times the mean free path. The mean free path is what bridges the microscopic Maxwell-Boltzmann distribution to macroscopic, measurable properties. It quantifies how far a molecule 'carries' a property before depositing it in a collision, which is precisely why pressure-independence emerges when ℓ ~ 1/n cancels the density factor."
+
+- question: "Explain why kinetic theory predicts that gas viscosity is independent of pressure, even though higher pressure means more molecules per unit volume."
+  type: short-answer
+  answer: "Viscosity scales as ρ⟨v⟩ℓ. Higher pressure increases number density n, which raises ρ ~ nm. But the mean free path ℓ ~ 1/(√2πd²n) decreases inversely with n. When pressure doubles, ρ doubles and ℓ halves — the product ρℓ remains constant. There are twice as many molecules, but each one travels half as far before depositing its momentum. The net momentum transport per unit area is unchanged, so viscosity is unchanged."
+  explanation: "This cancellation is not a coincidence — it reflects the fact that in a dilute gas, viscosity is fundamentally a property of individual molecule transport, not of the number of molecules. The same cancellation applies to thermal conductivity. The result breaks down at very high pressures where the hard-sphere model fails, but it holds remarkably well across a wide range of conditions."
+```
+
 ## Explainer
 
 You've worked with the Maxwell-Boltzmann distribution, which tells you how molecular speeds are distributed in a gas at equilibrium. Kinetic theory takes that distribution as its starting point and derives the macroscopic, measurable properties of gases — viscosity, thermal conductivity, diffusion — from the microscopic behavior of individual molecules. The connection between scales is made possible by one key intermediate concept: the **mean free path**.

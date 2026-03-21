@@ -34,6 +34,45 @@ Work through a manual TLB lookup: given a logical address, extract page number a
 - Paging eliminates external fragmentation but introduces internal fragmentation within the last page.
 - Page size is not configurable by the programmer; it is set by the hardware and OS (typically 4KB).
 
+## Questions
+
+```yaml
+- question: "A paging system uses 4 KB pages (12-bit offset). A process issues logical address 0x000050B3. The page table shows page 5 → frame 200. What is the physical address?"
+  type: multiple-choice
+  options:
+    - "0x000050B3 — the MMU passes the logical address through unchanged on a TLB hit"
+    - "Frame 200 concatenated with offset 0x0B3, giving physical address 0x000C80B3"
+    - "200 × 4096 + 0x50B3, which adds the full logical address to the frame base"
+    - "The offset 0x0B3 is added to frame 200, giving physical address 200 + 0x0B3"
+  answer: 1
+  explanation: "With 4 KB pages (2¹² bytes), the lowest 12 bits of the logical address are the offset: 0x0B3. The upper bits are the page number: 0x000050B3 >> 12 = 5. The MMU looks up page 5 in the page table, finds frame 200 (0xC8), and constructs the physical address as (200 << 12) | 0x0B3 = 0x000C80B3. The offset is preserved exactly — it identifies the same byte position within the physical frame as it did within the logical page. Only the page number is replaced by the frame number."
+
+- question: "Why is the Translation Lookaside Buffer (TLB) essential for making paging practical rather than merely a performance optimization?"
+  type: multiple-choice
+  options:
+    - "Without the TLB, the page table cannot store entries for more than 1024 pages, limiting address space"
+    - "Without the TLB, every memory access requires two memory accesses — one to read the page table, one to read the actual data — effectively doubling the cost of every instruction and data reference"
+    - "Without the TLB, the MMU cannot distinguish page faults from valid translations"
+    - "Without the TLB, processes could read each other's page tables, violating memory isolation"
+  answer: 1
+  explanation: "The page table lives in main memory. Without the TLB, translating any logical address requires first reading the page table entry from memory (one access), then reading the actual data or instruction (second access). This doubles the effective memory access time for every single operation — every instruction fetch, every data read, every data write. The TLB is a small fast hardware cache (typically 64–1024 entries) of recent page-to-frame mappings; on a TLB hit, translation adds essentially zero overhead. Because programs exhibit locality, TLB hit rates above 99% are typical, making paging's performance overhead negligible in practice."
+
+- question: "Paging completely eliminates memory fragmentation."
+  type: true-false
+  answer: false
+  explanation: "False. Paging eliminates *external* fragmentation — scattered free blocks that individually cannot accommodate a process even when their total size is sufficient. Because any free frame can hold any page, there are no unusable gaps between allocations. However, paging introduces *internal* fragmentation: the last page allocated to a process is rarely completely full. If a process needs 4097 bytes with 4 KB pages, it occupies two pages but uses only 1 byte of the second, wasting 4095 bytes. On average, half a page is wasted per process — a small, predictable cost compared to the unpredictable waste of external fragmentation."
+
+- question: "In a paging system, the offset portion of a logical address is passed through unchanged to become the low-order bits of the physical address."
+  type: true-false
+  answer: true
+  explanation: "True. Address translation replaces only the page number (the high-order bits) with the frame number from the page table. The offset — the low-order bits identifying the exact byte within the page — is preserved unchanged. This works because a page and its corresponding frame are the same size by definition: once you know which physical frame holds the page, you access the same relative byte position within that frame. The offset is neither translated nor modified."
+
+- question: "Explain what problem paging solves that contiguous memory allocation cannot, and describe the new (minor) problem paging introduces."
+  type: short-answer
+  answer: "Paging solves external fragmentation: in contiguous allocation, as processes load and terminate, physical memory becomes fragmented into small scattered free regions that may collectively be large enough for a new process but are individually too small to hold it. Paging eliminates this by allowing any free frame to hold any page — a process's pages can be scattered anywhere in physical memory with no adjacency requirement. The new problem paging introduces is internal fragmentation: since processes are allocated whole pages, the last page is often only partially used, wasting on average half a page per process. This is a much smaller and more predictable cost."
+  explanation: "The core trade-off is abandoning the contiguity requirement. Contiguous allocation strands memory in unusable gaps between live allocations — gaps that grow and fragment over time. Paging eliminates gaps entirely because frames are interchangeable. The only downside is that fixed-size pages don't perfectly fit variable-size processes, but wasting on average 2 KB (half a 4 KB page) per process is trivially small compared to the potentially large and unpredictable holes created by external fragmentation."
+```
+
 ## Explainer
 
 From memory management basics, you know that the OS must allocate physical memory to multiple processes while providing each one with the illusion of a private, contiguous address space. You also know the problem with contiguous allocation: as processes are loaded and terminated, physical memory becomes fragmented into small, scattered free blocks (**external fragmentation**), eventually preventing even small processes from fitting despite sufficient total free memory. **Paging** solves this by abandoning the requirement that a process occupy contiguous physical memory.

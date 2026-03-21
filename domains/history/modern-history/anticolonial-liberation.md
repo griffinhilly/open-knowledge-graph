@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Colonized peoples across Asia, Africa, and the Americas organized liberation movements that combined nationalism, socialism, and direct action to achieve independence. Leaders like Gandhi, Ho Chi Minh, and Mandela mobilized mass movements, deployed guerrilla warfare, and negotiated independence from imperial powers. Decolonization fundamentally reshaped the global political map in the mid-20th century.
 
+## Questions
+
+```yaml
+- question: "Gandhi used nonviolent non-cooperation in India while the FLN chose armed insurgency in Algeria. What best explains this strategic difference?"
+  type: multiple-choice
+  options:
+    - "Gandhi was morally superior to the FLN; the British responded to moral authority while France did not"
+    - "The strategies reflected different colonial contexts: British India was vulnerable to international opinion and mass organizing; French Algeria had a large settler population and no viable path to peaceful negotiation"
+    - "Nonviolence always succeeds eventually — the FLN simply lacked the patience and discipline to sustain it"
+    - "India's much larger population made mass nonviolent action feasible in ways impossible in smaller Algeria"
+  answer: 1
+  explanation: "Liberation strategies were not simply moral preferences but strategic calculations about what leverage was actually available. Gandhi's approach worked because Britain was internationally exposed, post-WWII costs of coercive control were rising, and mass organizing could build a broad coalition. In Algeria, a large settler-colonial population (the pieds-noirs) had deep stakes in maintaining colonial rule, making peaceful withdrawal politically impossible for France; armed pressure was the only leverage that could change French calculations. The same strategy applied to a different colonial structure would have produced different outcomes."
+
+- question: "Fanon and Cabral argued that many newly independent nations remained in a condition they called 'neocolonialism.' What did this mean?"
+  type: multiple-choice
+  options:
+    - "Neocolonialism described a transitional period — expected temporary dependence before full development"
+    - "Neocolonialism meant that indirect economic control (through debt, export structures, foreign-owned infrastructure) replaced direct political rule, leaving fundamental dependence intact"
+    - "Neocolonialism referred to voluntary economic cooperation between formerly colonized nations and their former rulers"
+    - "Neocolonialism described a cultural lag — the persistence of colonial languages and customs long after political independence"
+  answer: 1
+  explanation: "Fanon and Cabral argued that political independence — the transfer of formal sovereignty — left intact the economic structures built to serve the colonial metropole: export-oriented commodity production, debt to international financial institutions, infrastructure owned by foreign corporations. A nation could have its own flag, president, and army while still having its economic life shaped by decisions made abroad. They argued this 'indirect rule through economics' was a continuation of colonialism by other means, and that genuine liberation required economic transformation alongside political independence."
+
+- question: "The ideological foundations of anticolonial liberation movements were primarily drawn from non-Western traditions, rejecting European political thought as tainted by colonial ideology."
+  type: true-false
+  answer: false
+  explanation: "Most anticolonial leaders drew extensively from European political traditions — nationalism, socialism, Enlightenment principles of self-determination and human rights — and turned them against European empires. Ho Chi Minh, Kwame Nkrumah, and others studied in European universities. The distinctive intellectual move was applying principles that European powers had championed (the right of peoples to self-governance, the wrongness of exploitation) to colonized peoples who had been explicitly excluded from those principles. Anticolonial thought weaponized European ideas rather than rejecting them."
+
+- question: "Decolonization in the mid-20th century was one of the most rapid large-scale political transformations in recorded history — reshaping the global map within a few decades."
+  type: true-false
+  answer: true
+  explanation: "Between roughly 1945 and 1975, the European colonial empires that had controlled much of the globe for centuries largely dissolved. Dozens of new independent states emerged across Asia, Africa, and the Caribbean. The global political map of 1939 was nearly unrecognizable by 1975. This compression of centuries of colonial domination into decades of dissolution was historically unprecedented in its speed and scope — driven by the combination of weakened European powers after WWII, rising nationalist movements, Cold War dynamics, and the new UN framework of self-determination."
+
+- question: "Why do historians and theorists like Fanon argue that political independence alone was insufficient to achieve genuine decolonization?"
+  type: short-answer
+  answer: "Political independence changed who held formal sovereignty but left intact the economic structures, borders, and international financial relationships that continued to extract value from formerly colonized peoples. Without control over their own economic production, trade terms, and development priorities, newly independent nations remained dependent on former colonial powers and international institutions in practice, even while free in principle."
+  explanation: "The distinction Fanon draws is between formal and substantive freedom. A nation can have its own president and flag while its most valuable exports are controlled by foreign corporations, its development loans come with conditions set by foreign institutions, and its borders — drawn by colonial powers to serve administrative convenience — cut across ethnic and linguistic communities. Genuine decolonization, in this view, required transforming economic and social structures, not just replacing colonial governors with national ones. This critique shaped dependency theory, the Non-Aligned Movement, and ongoing debates about the global economic order."
+```
+
 ## Explainer
 
 Anticolonial liberation movements did not emerge from a single cause or follow a single strategy. What united them was a shared structural situation — colonized peoples governed by foreign powers that extracted resources, suppressed political organization, and justified domination through racial and civilizational hierarchies — and a shared historical moment when that structure became newly vulnerable. You have already studied decolonization as a large-scale process and national self-determination as an ideological claim; the liberation movements are where those abstractions met specific political conditions, strategic choices, and individual leaders who had to decide *how* to fight.

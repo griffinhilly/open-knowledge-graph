@@ -39,6 +39,45 @@ Work through the geometry: draw Earth's orbit, a nearby star, and distant backgr
 - A larger parallax angle means a closer star (inverse relationship), not a farther one.
 - Parallax is useless beyond a few thousand parsecs; the shift becomes smaller than measurement uncertainty even for space-based instruments.
 
+## Questions
+
+```yaml
+- question: "Star A has a measured parallax of 0.5 arcseconds and Star B has a parallax of 0.1 arcseconds. Which star is closer, and what are their distances?"
+  type: multiple-choice
+  options:
+    - "Star B is closer; A is 2 parsecs away and B is 10 parsecs away"
+    - "Star A is closer; A is 2 parsecs away and B is 10 parsecs away"
+    - "Star A is closer; A is 0.5 parsecs away and B is 0.1 parsecs away"
+    - "Both stars are equidistant; parallax angle doesn't determine absolute distance without knowing brightness"
+  answer: 1
+  explanation: "Distance (in parsecs) = 1 / parallax (in arcseconds). Star A: d = 1/0.5 = 2 parsecs. Star B: d = 1/0.1 = 10 parsecs. Star A is closer. The inverse relationship is the key: larger parallax angle means the star is nearer. Option C is the classic error of confusing d = p with d = 1/p. The nearby Alpha Centauri system, with parallax ~0.75 arcseconds, is 1.33 parsecs away — confirming that the largest observed parallaxes correspond to our nearest neighbors."
+
+- question: "A student proposes using stellar parallax to measure the distance to a galaxy 10 million parsecs away. Why won't this work?"
+  type: multiple-choice
+  options:
+    - "Parallax only works for objects smaller than one parsec in physical size"
+    - "The parallax angle becomes smaller than any instrument can measure at such distances, falling below measurement precision even for space-based telescopes"
+    - "Galaxies don't exhibit parallax because they orbit the Milky Way rather than the Sun"
+    - "Parsecs are only defined for distances within the solar system"
+  answer: 1
+  explanation: "At 10 million parsecs, the parallax angle would be 0.0000001 arcseconds — far below the microarcsecond precision of even Gaia, the most advanced astrometry satellite. Ground-based limits are around 100 parsecs; Hipparcos reached ~1,000 parsecs; Gaia can push to tens of thousands of parsecs for bright stars. Beyond those limits, other methods (Cepheids, Type Ia supernovae) take over. The angular signal simply disappears into noise."
+
+- question: "A star with a parallax of 0.25 arcseconds is at a distance of 0.25 parsecs."
+  type: true-false
+  answer: false
+  explanation: "Distance = 1/parallax, not parallax itself. A star with p = 0.25 arcseconds is at d = 1/0.25 = 4 parsecs. Confusing d = p with d = 1/p is the most common arithmetic error with parallax. A star at 0.25 parsecs would have a parallax of 1/0.25 = 4 arcseconds — which would be the largest parallax ever measured (no star is that close; the nearest, Proxima Centauri, has p ≈ 0.77 arcseconds)."
+
+- question: "Stellar parallax relies on observing a star from opposite sides of Earth's orbit, using the diameter of Earth's orbit (2 AU) as the measurement baseline."
+  type: true-false
+  answer: true
+  explanation: "The method takes two observations six months apart, when Earth is on opposite sides of the Sun — a separation of 2 AU. However, the parallax angle p is defined as half the total observed angular shift, corresponding to a right triangle with a 1 AU baseline (Earth-to-Sun distance). The formula d = 1/p uses this 1 AU leg, defining the parsec as the distance at which p = 1 arcsecond for a 1 AU baseline."
+
+- question: "Why is accurate stellar parallax measurement important beyond just knowing the distances to nearby stars?"
+  type: short-answer
+  answer: "Parallax is the first rung of the cosmic distance ladder — every other distance measurement method (Cepheid variables, Type Ia supernovae, redshift calibrations) is ultimately calibrated using parallax distances. If the parallax measurements are wrong, the error propagates through all subsequent rungs, affecting our understanding of the size, age, and expansion rate of the entire universe."
+  explanation: "This is what makes missions like Hipparcos and Gaia scientifically transformative. They don't just tell us how far away individual nearby stars are — they tighten the calibration of Cepheid luminosities, which calibrate Type Ia supernovae distances, which measure the Hubble constant. A systematic error in parallax measurements would shift every cosmological distance estimate. Accurate parallax is foundational to modern cosmology."
+```
+
 ## Explainer
 
 You already understand right-triangle trigonometry and how to calculate distances using angles and known baselines. Stellar parallax applies exactly this logic to measure cosmic distances, using the largest baseline available to us without leaving the solar system: the diameter of Earth's orbit around the Sun.

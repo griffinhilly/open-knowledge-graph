@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Eating Disorders (Anorexia Nervosa, Bulimia Nervosa, Binge Eating Disorder) involve disturbances in eating patterns and body weight/shape concerns. Each disorder shares body image disturbance and carries significant medical morbidity. Treatment requires comprehensive biopsychosocial intervention addressing eating, cognitions, emotions, and medical complications.
 
+## Questions
+
+```yaml
+- question: "A clinician notes that a patient with anorexia nervosa consistently says 'I'm not sick — being thin is my goal and I'm achieving it.' A patient with major depression says 'I know my thoughts are distorted and I want to feel better.' Which psychiatric concept explains the key difference in these patients' relationships to their symptoms?"
+  type: multiple-choice
+  options:
+    - "The AN patient lacks insight, while the depression patient has full insight — a difference in intelligence"
+    - "The AN patient's symptoms are ego-syntonic (consistent with their self-image and values), while the depression patient's symptoms are ego-dystonic (experienced as alien and unwanted)"
+    - "The AN patient has a personality disorder comorbidity, which reduces treatment engagement"
+    - "The depression patient's illness is less severe, which is why they are more willing to seek help"
+  answer: 1
+  explanation: "Ego-syntonic symptoms feel consistent with the patient's identity, values, and goals — they are not experienced as foreign or unwanted. In AN, restriction and thinness feel like achievements rather than illness. Ego-dystonic symptoms, by contrast, feel alien and undesirable — the patient recognizes them as pathological and is motivated to change. This distinction has major treatment implications: ego-dystonic conditions (like depression, OCD, most anxiety disorders) tend to support intrinsic motivation for treatment, while ego-syntonic conditions like AN require different engagement strategies (often family-based treatment in adolescents)."
+
+- question: "Which eating disorder has the highest mortality rate of any psychiatric disorder, and what is the most common cause of death?"
+  type: multiple-choice
+  options:
+    - "Binge Eating Disorder — due to obesity-related cardiovascular disease"
+    - "Bulimia Nervosa — due to esophageal rupture from repeated purging"
+    - "Anorexia Nervosa — primarily through cardiac arrest from electrolyte imbalance and malnutrition, and through suicide"
+    - "Anorexia Nervosa — primarily through organ failure from prolonged starvation"
+  answer: 2
+  explanation: "Anorexia nervosa has the highest mortality rate of any psychiatric disorder. The primary medical causes of death are cardiac-related: severe malnutrition causes cardiac muscle atrophy and electrolyte abnormalities (especially hypokalemia — low potassium), which produce fatal arrhythmias. Suicide is also a major contributor to mortality. Organ failure (option D) is a consequence of chronic starvation but is less commonly the direct cause of death than cardiac events. BED (option A) is associated with obesity but has a much lower mortality rate than AN."
+
+- question: "A person with bulimia nervosa is typically significantly underweight, which is what distinguishes it from anorexia nervosa."
+  type: true-false
+  answer: false
+  explanation: "False. Unlike anorexia nervosa, people with bulimia nervosa are typically at normal or above-normal weight. BN involves binge-purge cycles, but the purging is compensatory — it prevents dramatic weight gain rather than producing underweight. This is clinically important: BN is often a 'hidden' disorder because there is no obvious physical indicator visible to others. Weight alone cannot distinguish BN from the absence of an eating disorder, unlike AN where significantly low body weight is a diagnostic criterion."
+
+- question: "Body image disturbance is a feature unique to anorexia nervosa; patients with bulimia nervosa and binge eating disorder typically have accurate perceptions of their bodies."
+  type: true-false
+  answer: false
+  explanation: "False. Body image disturbance is a shared feature of all three major eating disorders. However, the mechanism differs: in AN, the disturbance often includes perceptual distortion (patients literally perceive themselves as larger than they are). In BN and BED, the disturbance is more evaluative — the body is experienced as unacceptable, shameful, or inadequate, even when size perception is roughly accurate. All three disorders share the cognitive feature of weight and shape overvaluation, in which self-worth is evaluated primarily through control of eating, weight, or body shape."
+
+- question: "What does it mean for anorexia nervosa to be 'ego-syntonic,' and why does this property make treatment uniquely challenging compared to most other psychiatric disorders?"
+  type: short-answer
+  answer: "Ego-syntonic means the symptoms are consistent with the patient's identity, values, and goals — they feel like achievements rather than illnesses. AN patients often experience restriction and thinness as forms of control, discipline, or accomplishment, and do not experience their eating behavior as a problem to be solved. This is unlike most psychiatric disorders (depression, OCD, panic disorder, psychosis), where patients recognize their symptoms as alien and distressing and are motivated to eliminate them. Because AN patients often don't want to recover — recovery means gaining weight, which feels like failure to them — standard therapy models that depend on patient motivation are less effective. Treatment often requires external structure (family-based treatment in adolescents, medical monitoring) rather than relying solely on the patient's intrinsic desire to change."
+  explanation: "The ego-syntonic nature also explains why weight restoration must often precede psychological work in severe AN: severe malnutrition impairs cognition and makes genuine psychological engagement impossible. Once some nutritional recovery occurs, CBT and other approaches become more viable. This sequencing is itself a consequence of the ego-syntonic presentation."
+```
+
 ## Explainer
 
 From your DSM-5 training, you know that psychiatric diagnosis requires both symptom criteria and functional impairment. Eating disorders are among the most medically dangerous psychiatric conditions — anorexia nervosa has the highest mortality rate of any psychiatric disorder, primarily through cardiac arrest, electrolyte imbalance, and suicide. Understanding each disorder requires distinguishing the specific behavioral pattern, the cognitive features, and the physiological consequences.

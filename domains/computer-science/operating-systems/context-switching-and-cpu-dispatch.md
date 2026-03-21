@@ -24,6 +24,45 @@ Context switching is the OS mechanism to pause one process and resume another. T
 ## How It's Best Learned
 Instrument a kernel or OS simulator to trace context switches and measure overhead such as cache misses and TLB flushes.
 
+## Questions
+
+```yaml
+- question: "After a context switch from process A to process B, process B's first several memory accesses are unusually slow. The most likely cause is:"
+  type: multiple-choice
+  options:
+    - "The dispatcher incorrectly saved process A's registers into process B's PCB"
+    - "Switching address spaces flushed the TLB, forcing full page table lookups for each of process B's memory accesses"
+    - "Process B's program counter was set to a wrong instruction during the dispatch"
+    - "Process B's data had to be reloaded from disk rather than from RAM"
+  answer: 1
+  explanation: "When the OS switches between processes, it loads the new process's page table base register, which changes the virtual-to-physical address mappings the CPU uses. This invalidates the TLB (translation lookaside buffer) — the cache of recent address translations. Every subsequent memory access by process B must now walk the full page table to translate virtual addresses, which is much slower than a TLB hit. Additionally, B's working data is unlikely to be in the CPU cache, causing cache misses. These indirect costs — TLB cold start and cache cold start — often dominate the actual cost of context switching."
+
+- question: "An OS designer is choosing between very short time slices (frequent context switching) and longer time slices (infrequent context switching). Which best captures the core tradeoff?"
+  type: multiple-choice
+  options:
+    - "Short time slices give better responsiveness to interactive processes but waste CPU time on context switch overhead; longer time slices reduce overhead but hurt responsiveness"
+    - "Short time slices reduce TLB misses by keeping each process's address translations warm; longer time slices cause more TLB invalidation"
+    - "Longer time slices always produce better total throughput regardless of workload type"
+    - "The tradeoff is irrelevant because modern CPUs perform context switches in nanoseconds with no measurable overhead"
+  answer: 0
+  explanation: "Each context switch imposes overhead: saving/restoring registers, flushing the TLB, and losing cache warmth. Very short time slices mean the CPU spends a significant fraction of its time on these overhead operations rather than useful computation. Very long time slices minimize overhead but mean processes wait a long time before getting CPU time, hurting responsiveness for interactive workloads. The scheduler's time quantum directly manages this tradeoff — there is no universally correct value."
+
+- question: "Switching between two threads within the same process is cheaper than switching between two separate processes, because threads share the same address space and no TLB flush is required."
+  type: true-false
+  answer: true
+  explanation: "The most expensive part of a context switch between processes is switching address spaces — loading a new page table base register, which invalidates the TLB. Threads within the same process share the same virtual address space, so thread switches don't require a page table switch and don't flush the TLB. Much of the CPU cache also remains valid because the threads share the same data. Only registers and the stack pointer need to be saved and restored. This is why threading is a more efficient concurrency mechanism than multi-processing for tasks that share data."
+
+- question: "The primary cost of a context switch is the time taken to save and restore CPU registers, which typically takes several milliseconds on modern hardware."
+  type: true-false
+  answer: false
+  explanation: "Register save and restore is fast — on the order of microseconds, not milliseconds. The dominant costs of context switching are indirect: the TLB flush (which forces expensive page table walks on subsequent memory accesses) and the cache cold start (the new process's working data is likely not in the CPU cache, causing cache misses that stall the pipeline). These indirect costs can be orders of magnitude larger than the direct register save/restore time. This is why minimizing context switch frequency matters even though the mechanical switch operation itself is quick."
+
+- question: "Why is a context switch between two threads in the same process cheaper than a context switch between two separate processes, even though both require saving and restoring CPU registers?"
+  type: short-answer
+  answer: "Both types of switches require saving and restoring registers — that cost is the same. The difference is in address space management. Switching between processes requires loading a new page table base register, which changes the virtual-to-physical address mapping the CPU uses. This invalidates the entire TLB (translation lookaside buffer), so every subsequent memory access incurs a slow page table walk instead of a fast TLB hit. It also cold-starts the CPU cache for the new process's data. Thread switches within the same process skip this: threads share the same address space and page table, so no TLB flush occurs and cache remains largely valid. The shared address space is what makes threads a fundamentally cheaper unit of CPU switching."
+  explanation: "This distinction explains the architectural motivation for threads: if you want concurrent execution with frequent task switching, threads within a shared address space pay only the register overhead, while processes pay the full cost including TLB invalidation. For data-sharing workloads, threads also avoid the interprocess communication overhead that separate processes would require."
+```
+
 ## Explainer
 
 From your study of process states and transitions, you know that a process can be in states like running, ready, or blocked, and that the OS moves processes between these states. Context switching is the mechanism that makes those transitions physically happen on the CPU. When the OS decides that process A should stop running and process B should start, it must perform a **context switch** — saving everything about A's execution state and loading everything about B's.

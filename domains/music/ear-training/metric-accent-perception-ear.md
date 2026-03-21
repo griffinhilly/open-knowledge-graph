@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Metric accent refers to the hierarchical emphasis of beats within a measure, creating patterns of strong and weak pulses. In 4/4, beat 1 is strongest, beat 3 is secondary, beats 2 and 4 are weak; in 3/4, beat 1 dominates while beats 2 and 3 are weak. Hearing metric hierarchy precisely enables accurate rhythmic dictation and form perception.
 
+## Questions
+
+```yaml
+- question: "A jazz pianist heavily accents beats 2 and 4 throughout a 4/4 piece. A listener who understands metric accent would conclude:"
+  type: multiple-choice
+  options:
+    - "The time signature has effectively shifted to 2/4, since those are now the strongest perceived beats"
+    - "The metric grid has been suspended — strong surface accents override the notated meter"
+    - "Beats 2 and 4 carry surface accent, but beat 1 remains the metric downbeat; the grid persists beneath the syncopation"
+    - "The piece is ambiguous and cannot be analyzed as either 4/4 or 2/4 without more context"
+  answer: 2
+  explanation: "Metric accent and surface accent are two different layers. The metric grid — beat 1 as downbeat, beat 3 secondary, beats 2 and 4 weak — is established by the overall metric context and persists whether or not the musical surface reinforces it. Accenting beats 2 and 4 creates syncopation: deliberate tension between the surface rhythm and the underlying grid, which is a defining feature of jazz and funk. Perceiving both layers simultaneously — grid in the background, surface accent in the foreground — is the trained ear's task."
+
+- question: "In a piece in 3/4 time, which beat hierarchy is correct?"
+  type: multiple-choice
+  options:
+    - "All three beats are equal in metric weight — equal division is what distinguishes 3/4 from 4/4"
+    - "Beats 1 and 2 are strong; beat 3 is weak — a symmetrical front-heavy pattern"
+    - "Beat 1 is strongest; beats 2 and 3 are both relatively weak"
+    - "Beat 2 is strongest in 3/4 because it falls between the other two beats"
+  answer: 2
+  explanation: "In 3/4, beat 1 is the downbeat and carries the greatest metric weight; beats 2 and 3 are both weak. This creates the characteristic waltz feel — a single strong impulse followed by two cushioning beats. It is not three equal pulses, and beats 2 and 3 do not have equal weight to each other or to beat 1. The inequality of beats is fundamental to metric hierarchy in every meter."
+
+- question: "When a piece uses heavy syncopation, a well-trained listener should adjust their sense of where beat 1 falls to align with the most strongly accented notes."
+  type: true-false
+  answer: false
+  explanation: "This is the central mistake to avoid. Syncopation deliberately places accents on weak beats or offbeats to create rhythmic tension — but the metric grid does not move. A trained ear maintains the underlying beat structure even when the surface rhythm contradicts it. If you shift your sense of beat 1 every time a strong accent occurs, you lose the framework that makes syncopation intelligible as syncopation. Conductors and experienced musicians physically maintain the beat while tracking the surface rhythm independently."
+
+- question: "A cadence that lands on beat 1 of a measure provides stronger harmonic closure than the same cadence landing on beat 3."
+  type: true-false
+  answer: true
+  explanation: "Metric weight and harmonic weight reinforce each other. Beat 1 is the metrically strongest position — the downbeat to which all other beats relate. A harmonic resolution on beat 1 aligns closure with the greatest metric emphasis, creating a decisive, complete-sounding ending. A cadence landing on beat 3 (or beat 2 or 4 — a 'feminine ending') has an intentionally less decisive character because the harmonic resolution arrives at a metrically weaker moment. The alignment or misalignment of harmonic and metric accent is a primary tool for controlling phrase conclusiveness."
+
+- question: "Why do skilled musicians tap a steady beat or conduct while listening to rhythmically complex music, rather than simply following the most strongly accented notes?"
+  type: short-answer
+  answer: "Tapping or conducting physically maintains the metric grid as a stable, separate layer of attention. In syncopated or complex music, surface accents frequently do not coincide with the metric beats. By keeping the body on the underlying grid, the musician can simultaneously track the metric structure (which beat and what weight) and the rhythmic surface (where actual accents fall). This two-layer attention is necessary for accurate rhythmic dictation, ensemble coordination, and understanding how syncopation works — the effect of syncopation depends entirely on hearing the tension between the surface rhythm and the metric framework it disrupts."
+  explanation: "The body acting as a metronome frees the ear to attend to surface detail without losing the metric frame of reference. If you give in to strong surface accents by letting the perceived beat drift, you can no longer recognize syncopation as syncopation — or know which beat position you're on for dictation purposes. Physical beat-keeping externalizes the metric grid so the ear can focus on what the music does relative to it."
+```
+
 ## Explainer
 
 You already know from your study of meter and beat hierarchy that music is organized into regular groupings of pulses. But knowing this intellectually and perceiving it in real time are different skills. **Metric accent** is not always marked by a louder note or a distinct instrument — often it is implied, something the listener supplies from the context of what has come before. A measure of 4/4 is not four identical pulses; it is a hierarchically weighted pattern of strong-weak-medium-weak that the listener actively constructs. Learning to hear this structure clearly, even when the musical surface obscures it, is the core challenge.

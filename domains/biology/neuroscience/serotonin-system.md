@@ -31,6 +31,45 @@ Map raphe projections to cortex, limbic system, and brainstem. Compare 5-HT rece
 ## Common Misconceptions
 Low serotonin causes depression—the relationship is more complex. SSRIs directly make people happy—they shift long-term network properties.
 
+## Questions
+
+```yaml
+- question: "A patient begins an SSRI for depression. Synaptic serotonin levels rise within 24 hours, yet the antidepressant effect does not emerge for 2–4 weeks. What best explains this delay?"
+  type: multiple-choice
+  options:
+    - "SSRIs require several weeks to fully block SERT and elevate serotonin levels"
+    - "The delay reflects the time needed for downstream network adaptations, including autoreceptor desensitization and synaptic remodeling, not the initial serotonin increase"
+    - "Antidepressant effects are purely placebo until 2–4 weeks of consistent dosing convinces the patient the drug is working"
+    - "The liver requires weeks to convert the SSRI prodrug into its active form"
+  answer: 1
+  explanation: "Serotonin rises within hours of the first SSRI dose, yet therapeutic benefit takes weeks. This temporal mismatch reveals that the mechanism is not simply 'more serotonin = less depression.' The sustained elevation gradually triggers network-level changes: 5-HT₁A autoreceptors on raphe neurons desensitize (removing the brake on serotonin release), postsynaptic receptor expression remodels, and BDNF increases, promoting synaptic plasticity and hippocampal neurogenesis. The antidepressant effect is the outcome of this slow reorganization, not the immediate pharmacological action."
+
+- question: "Where are the serotonergic neurons that project throughout the brain primarily located?"
+  type: multiple-choice
+  options:
+    - "The substantia nigra and ventral tegmental area"
+    - "The locus coeruleus"
+    - "The dorsal and median raphe nuclei of the brainstem"
+    - "The nucleus accumbens and striatum"
+  answer: 2
+  explanation: "Serotonergic neurons are clustered in the raphe nuclei of the brainstem — principally the dorsal raphe (projecting to cortex, basal ganglia, limbic system) and the median raphe (projecting heavily to hippocampus and septum). Despite numbering only ~300,000 in the human brain, these neurons project to virtually every region of the CNS. The substantia nigra and VTA are dopaminergic; the locus coeruleus is noradrenergic — a common point of confusion in neurotransmitter system identification."
+
+- question: "SSRIs work by increasing serotonin synthesis in the raphe nuclei, producing more serotonin for release."
+  type: true-false
+  answer: false
+  explanation: "SSRIs (selective serotonin reuptake inhibitors) block the serotonin transporter (SERT), which normally clears serotonin from the synapse back into the presynaptic terminal. By blocking reuptake, SSRIs increase the concentration and duration of serotonin signaling — but they do not affect synthesis. Serotonin is synthesized from tryptophan via tryptophan hydroxylase (the rate-limiting step); SSRIs have no direct effect on this pathway. Confusing reuptake blockade with increased synthesis is a common misconception."
+
+- question: "The claim that 'low serotonin causes depression' is a significant oversimplification — depression's relationship to the serotonin system is more complex than a simple deficiency model."
+  type: true-false
+  answer: true
+  explanation: "The 'chemical imbalance' narrative — that depression = low serotonin — does not capture the actual neurobiology. The evidence shows that: (1) SSRIs elevate serotonin immediately but take weeks to help; (2) drugs that transiently deplete serotonin do not reliably induce depression in healthy people; (3) the therapeutic mechanism involves slow network-level reorganization, not serotonin levels per se. Serotonin system dysfunction is implicated in depression, but as one node in a complex circuit involving the HPA axis, BDNF signaling, neuroplasticity, and other systems — not as a simple quantity to be topped up."
+
+- question: "If SSRIs elevate synaptic serotonin within hours of the first dose, why do antidepressant effects take 2–4 weeks to emerge, and what does this delay reveal about how these drugs actually work?"
+  type: short-answer
+  answer: "The delay reveals that SSRIs do not work by simply raising serotonin levels. The sustained serotonin elevation triggers a cascade of slower adaptations: 5-HT₁A autoreceptors on raphe neurons gradually desensitize, removing the negative feedback that would otherwise blunt serotonin release; postsynaptic receptor expression remodels; and neurotrophic signaling (BDNF) increases, driving synaptic plasticity and hippocampal neurogenesis. These network-level changes — not the immediate pharmacology — produce the therapeutic effect."
+  explanation: "This is the key argument against the simplistic 'chemical imbalance' model. If antidepression were just about serotonin levels, the effect would appear within hours, not weeks. The delay is strong evidence that the mechanism is a slow reorganization of neural circuits. This also explains why different antidepressants with different immediate mechanisms (SSRIs, SNRIs, tricyclics) converge on similar time-to-effect windows."
+```
+
 ## Explainer
 
 From your understanding of serotonin's role in emotion regulation and the basics of synaptic transmission, you know that neurotransmitters modulate emotional states and that synaptic signaling involves release, receptor binding, and reuptake. The **serotonin system** (also called the **5-HT system**, from 5-hydroxytryptamine) is one of the brain's most widespread neuromodulatory networks. Despite originating from a remarkably small number of neurons — roughly 300,000 in the human brain, clustered in the **raphe nuclei** of the brainstem — serotonergic axons project to virtually every region of the central nervous system, giving this tiny population an outsized influence on brain function.

@@ -30,6 +30,45 @@ Think carefully about what 'net force' means — objects in constant velocity ha
 - Believing a moving object requires a continuous force to keep moving (Aristotelian intuition that force causes motion, not acceleration).
 - Thinking that 'no motion' implies 'no force' — a stationary object can have many forces that cancel out.
 
+## Questions
+
+```yaml
+- question: "A hockey puck slides across nearly frictionless ice at constant velocity. What is the net force on it?"
+  type: multiple-choice
+  options:
+    - "A net force in the direction of motion, maintaining its velocity"
+    - "Zero net force — nothing is changing its velocity"
+    - "A small net force opposing motion, which will eventually stop it"
+    - "A net force equal to its weight"
+  answer: 1
+  explanation: "Newton's First Law: constant velocity means zero net force. The puck continues moving because no net force acts on it — not because some force is 'keeping it going.' Option A is the Aristotelian misconception: that motion requires a continuous cause. The near-frictionless ice eliminates the decelerating force that would otherwise change the velocity."
+
+- question: "A book rests motionless on a table. Which statement correctly describes the forces on it?"
+  type: multiple-choice
+  options:
+    - "No forces act on the book because it is not moving"
+    - "Only gravity acts, since the table is rigid and cannot exert force"
+    - "Gravity pulls down and the normal force pushes up; these cancel to give zero net force"
+    - "The table pushes up harder than gravity pulls down, keeping the book stationary"
+  answer: 2
+  explanation: "A stationary object does NOT mean zero force — it means zero NET force. Gravity and the normal force are both real and present; they are equal and opposite, summing to zero. Option A is the most common misconception. Option D is wrong because unequal forces would produce acceleration, not rest."
+
+- question: "An object moving at constant velocity must have a net force acting on it to maintain that motion."
+  type: true-false
+  answer: false
+  explanation: "This is Aristotle's view, not Newton's. Newton's First Law states that zero net force means constant velocity — including nonzero constant velocity. Force is required only to CHANGE velocity (accelerate or decelerate), not to sustain it. The illusion that motion requires force comes from everyday experience where friction is always present, decelerating moving objects."
+
+- question: "An inertial reference frame is one in which Newton's laws hold as stated — specifically, a frame that is not itself accelerating."
+  type: true-false
+  answer: true
+  explanation: "Newton's First Law implicitly defines inertial frames as its domain of validity. In a non-inertial frame (like a braking car), objects appear to accelerate without any applied force — a violation of the First Law. Newton's laws apply cleanly only from frames that are not themselves accelerating. This is a foundational constraint for all subsequent mechanics."
+
+- question: "Why does everyday experience mislead people into thinking that objects require a continuous force to keep moving? What is the Newtonian correction?"
+  type: short-answer
+  answer: "Everyday objects slow down because friction is always present — it is a real decelerating force. Aristotle observed that moving objects come to rest and concluded that rest is natural and motion requires a continuous cause. Newton recognized that friction is the cause of deceleration, not the absence of a 'driving force.' On a frictionless surface in space, an object would continue at constant velocity indefinitely. The Newtonian correction: force causes change in velocity (acceleration), not velocity itself."
+  explanation: "The key reframe is: instead of asking 'what keeps things moving?' ask 'what changes their motion?' Inertia is the tendency to resist changes in motion — which means constant motion (including rest) is the natural state, and force is what departs from it."
+```
+
 ## Explainer
 
 Before Newton, the dominant view of motion — tracing back to Aristotle — was that objects naturally come to rest, and that motion requires a continuous cause. Push a cart and it eventually stops; that seems to confirm that rest is the natural state and motion needs explaining. Newton's First Law overturns this picture completely. The question is not "what keeps things moving?" but "what changes their motion?" **Inertia** is the property of matter that resists changes in velocity — not changes in position, but changes in *how fast and in what direction* something is moving.

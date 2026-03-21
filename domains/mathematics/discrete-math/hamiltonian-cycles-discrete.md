@@ -30,6 +30,45 @@ Recognize sufficient conditions: if every vertex has degree ≥ n/2, a Hamiltoni
 ## Common Misconceptions
 Hamiltonicity is hard—no polynomial-time algorithm is known. Dirac/Ore conditions are sufficient but not necessary. A graph can have many, one, or no Hamiltonian cycles.
 
+## Questions
+
+```yaml
+- question: "A student argues: 'Since Euler circuits can be detected by checking vertex degrees, Hamiltonian cycles should have a similarly simple characterization.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Hamiltonian cycles do have a simple characterization — just check whether the graph is connected"
+    - "Euler circuits actually cannot be detected efficiently either"
+    - "The structural symmetry doesn't hold computationally — Hamiltonian cycles are NP-complete with no known efficient algorithm"
+    - "Dirac's theorem provides an exact degree-based characterization for Hamiltonian cycles just as parity does for Euler"
+  answer: 2
+  explanation: "This is the core asymmetry of the topic. Euler circuits have a clean LOCAL certificate (checking degree parity at each vertex) that works in polynomial time. Hamiltonian cycles have no such local certificate — you must 'see' the entire path structure at once. This is precisely why Hamiltonian detection is NP-complete. Superficially symmetric problems can belong to entirely different complexity classes."
+
+- question: "A connected graph G has 10 vertices, and every vertex has degree 5. What can you conclude?"
+  type: multiple-choice
+  options:
+    - "G may or may not have a Hamiltonian cycle — degree 5 falls short of the threshold"
+    - "G definitely has a Hamiltonian cycle, by Dirac's theorem"
+    - "G definitely has a Hamiltonian cycle because all vertices have equal degree"
+    - "G cannot have a Hamiltonian cycle because the degree is less than n−1"
+  answer: 1
+  explanation: "n = 10, so n/2 = 5. Every vertex has degree exactly 5 ≥ n/2. Dirac's theorem states that for a graph with n ≥ 3 vertices where every vertex has degree ≥ n/2, a Hamiltonian cycle is guaranteed to exist. The condition is met, so existence is guaranteed — though the graph may have many such cycles, not just one."
+
+- question: "If a graph satisfies Dirac's theorem conditions (every vertex has degree ≥ n/2), we know the graph has exactly one Hamiltonian cycle."
+  type: true-false
+  answer: false
+  explanation: "Dirac's theorem guarantees EXISTENCE, not uniqueness. A graph meeting the degree condition may have many Hamiltonian cycles. Furthermore, Dirac's condition is sufficient but not necessary — many graphs that do not satisfy it still have Hamiltonian cycles. The theorem is a one-way green light, not an exact characterization."
+
+- question: "The Traveling Salesman Problem is a special case of the Hamiltonian cycle problem."
+  type: true-false
+  answer: true
+  explanation: "TSP asks for the shortest Hamiltonian cycle in a weighted complete graph — finding one of minimum total edge weight. Finding any Hamiltonian cycle (without weights) is the unweighted version. TSP's NP-hardness follows from the NP-completeness of Hamiltonian cycle detection, since even deciding whether a Hamiltonian cycle exists is hard, let alone finding the shortest one."
+
+- question: "Why is the asymmetry between Euler circuits and Hamiltonian cycles considered one of the most instructive results in discrete mathematics?"
+  type: short-answer
+  answer: "Euler circuits and Hamiltonian cycles look like symmetric problems — traverse every edge exactly once vs. visit every vertex exactly once — yet they belong to entirely different complexity classes. Euler circuits have a simple local criterion (all even degrees) solvable in polynomial time. Hamiltonian cycles have no known efficient algorithm and are NP-complete. This asymmetry teaches that superficial structural similarity between problems does not imply computational similarity — the nature of the certificate (local vs. global) determines tractability."
+  explanation: "The deeper lesson is about local vs. global certificates. Degree parity can be checked vertex by vertex without seeing the whole graph. Verifying a Hamiltonian path requires examining the entire structure. This distinction between problems admitting local certificates and those requiring global ones is fundamental to complexity theory and to developing intuition about what makes problems hard."
+```
+
 ## Explainer
 
 You've already seen **Euler circuits** — tours that traverse every *edge* exactly once. The trick to their existence was elegant: just check that every vertex has even degree. **Hamiltonian paths and cycles** ask the dual question: can you visit every *vertex* exactly once? This sounds like it should be equally tractable, but the contrast here is one of the most instructive asymmetries in all of mathematics. Euler circuits are easy to detect and construct in polynomial time; Hamiltonian cycles are computationally hard — no efficient algorithm is known.

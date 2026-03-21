@@ -32,6 +32,45 @@ Analyze a historical moral panic (e.g., Satanic panic, crack cocaine hysteria) u
 - Crowd behavior is not simply irrational — participants often act on perceived norms appropriate to the situation.
 - Collective behavior is not the same as social movements; movements are more organized and sustained.
 
+## Questions
+
+```yaml
+- question: "During a theater fire, most crowd members push toward a single exit even though other exits are available. Emergent norm theory would explain this behavior as:"
+  type: multiple-choice
+  options:
+    - "Irrational contagion in which panic spreads from person to person and suppresses individual judgment"
+    - "A collectively defined norm — that the visible exit is the correct one — adopted through observing the actions of keynoting individuals"
+    - "Evidence that people revert to biological fight-or-flight instincts when social structure breaks down"
+    - "A moral panic triggered by the theater owner's failure to mark exits clearly"
+  answer: 1
+  explanation: "Emergent norm theory (Turner and Killian) holds that crowds develop shared definitions of the situation through interaction and keynoting, not through irrational psychological contagion. People observe what others are doing, infer a norm ('this is the right exit'), and conform to it. The behavior is socially structured, not a loss of rationality."
+
+- question: "Which feature of moral panics most clearly illustrates how collective behavior interacts with institutions to amplify social responses?"
+  type: multiple-choice
+  options:
+    - "The identification of a specific folk devil whose threat is portrayed as vastly disproportionate to actual harm"
+    - "The irrational mob mentality that overwhelms institutional constraints during collective episodes"
+    - "The spontaneous, unorganized character that distinguishes moral panics from social movements"
+    - "The fact that moral panics always target minority groups with less institutional power"
+  answer: 0
+  explanation: "Stanley Cohen's framework centers on the 'folk devil' — a scapegoated group or phenomenon whose danger is exaggerated by moral entrepreneurs, amplified by media, and institutionalized through disproportionate social control responses. The interaction between collective anxiety, media framing, and institutional reaction is what makes moral panics analytically interesting."
+
+- question: "Emergent norm theory claims that crowd behavior is fundamentally irrational because social norms break down under collective pressure."
+  type: true-false
+  answer: false
+  explanation: "Emergent norm theory argues the opposite: that crowds are not normless. When existing norms fail to cover a novel situation, participants develop new, situationally appropriate norms through interaction. Crowd behavior remains norm-governed — just by emergent rather than conventional norms. The 'irrational mob' picture belongs to Le Bon's contagion theory, which the evidence does not well support."
+
+- question: "Rumors are best understood as social processes through which people negotiate the meaning of ambiguous situations when official information channels are absent or distrusted."
+  type: true-false
+  answer: true
+  explanation: "Sociological analysis treats rumors not simply as false information but as informal collective sense-making. When authoritative sources are silent, slow, or untrustworthy, people share, modify, and evaluate circulating claims as a way of collectively interpreting an uncertain situation. The social function of the rumor — meaning negotiation — is more important analytically than its truth value."
+
+- question: "Why does emergent norm theory offer a more empirically adequate account of crowd behavior than Le Bon's contagion theory? What evidence from disaster and riot research supports this?"
+  type: short-answer
+  answer: "Emergent norm theory predicts that crowds remain structured by norms (even temporary, improvised ones), which is consistent with repeated empirical findings: in disasters, most crowd members cooperate, help strangers, and maintain group identities; riots follow implicit rules about targets and limits; behavior differs systematically across crowd segments rather than being uniform. Le Bon's contagion model predicts irrational uniformity that does not appear in careful observation. The persistence of social bonds inside crowds and the prevalence of cooperative over chaotic behavior consistently supports the emergent norm account."
+  explanation: "Research on fires, floods, and civil unrest consistently finds that the 'irrational mob' is a myth. People make calculated decisions within collectively defined situations, which emergent norm theory predicts and contagion theory cannot explain."
+```
+
 ## Explainer
 
 You already know that social norms shape individual behavior — that people act in ways they expect their social group to endorse, and that violations produce sanctions ranging from mild disapproval to formal punishment. Collective behavior is what happens when existing norms break down or become ambiguous and a group of people must improvise shared responses to a novel situation. Understanding collective behavior requires understanding both why norms fail and how new norms emerge to replace them.

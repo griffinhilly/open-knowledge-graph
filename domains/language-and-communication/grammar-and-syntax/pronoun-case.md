@@ -32,6 +32,45 @@ Simplify compound structures to test case: in "My brother and (I/me) went to the
 - "Between you and I" is hypercorrection — prepositions take the objective case, so "between you and me" is correct.
 - "Who" vs. "whom" follows the same subjective/objective distinction (who = he, whom = him), though "whom" is increasingly rare in casual speech.
 
+## Questions
+
+```yaml
+- question: "Which sentence uses pronoun case correctly?"
+  type: multiple-choice
+  options:
+    - "Between you and I, the project was poorly managed."
+    - "Her and me finished the assignment together."
+    - "The coach gave the trophy to she and I."
+    - "The coach gave the trophy to her and me."
+  answer: 3
+  explanation: "Prepositions always take the objective case. 'To her and me' is correct — both 'her' and 'me' are objective. Option A uses 'I' after the preposition 'between' — a common hypercorrection; it should be 'between you and me.' Option B uses subject pronouns (her, me) where only 'me' is right, and 'her' makes it a subject construction that doesn't fit. Option C uses 'she' and 'I' after the preposition 'to,' both of which should be objective."
+
+- question: "Fill in the blank: 'She invited my brother and ___ to the concert.'"
+  type: multiple-choice
+  options:
+    - "I — because 'my brother and I' sounds more formal and correct"
+    - "me — because the pronoun is the object of the verb 'invited'"
+    - "myself — a reflexive pronoun fits compound constructions"
+    - "we — to match the plural meaning of 'my brother and'"
+  answer: 1
+  explanation: "Apply the reduction test: strip away 'my brother and.' 'She invited I to the concert' vs. 'She invited me to the concert' — only 'me' works. The pronoun is the object of 'invited,' so it takes the objective case. 'I' is the common error because people associate it with politeness, but grammatical function — not formality — determines case."
+
+- question: "In 'My friend and I went to the store,' using 'I' is correct because the pronoun is the subject performing the action."
+  type: true-false
+  answer: true
+  explanation: "True. Apply the reduction test: 'I went to the store' (correct) vs. 'Me went to the store' (incorrect). The pronoun is the grammatical subject, so the subjective case 'I' is right. The presence of 'My friend and' before it does not change the pronoun's role as subject."
+
+- question: "Prepositions can take either subjective or objective pronouns depending on the context."
+  type: true-false
+  answer: false
+  explanation: "False. Prepositions in English always govern the objective case — no exceptions. 'To me,' 'from him,' 'with her,' 'between us,' 'for them' — every preposition takes an object pronoun. 'Between you and I' is always hypercorrection, not a context-dependent choice."
+
+- question: "Describe the 'reduction test' and show how to apply it to choose between 'I' and 'me' in: 'Please give it to Sarah and ___.'"
+  type: short-answer
+  answer: "The reduction test: mentally remove the other person ('Sarah and'), leaving just the pronoun. 'Please give it to I' vs. 'Please give it to me' — 'me' is clearly correct. The test works because stripping the compound exposes the pronoun's grammatical function. Here it is the object of the preposition 'to,' requiring objective case 'me.'"
+  explanation: "Compound constructions like 'Sarah and ___' mask the pronoun's role. Isolating the pronoun makes the correct form obvious, because native speakers intuitively reject 'Give it to I' even when they accept the incorrect 'Give it to Sarah and I' in compound form."
+```
+
 ## Explainer
 
 You already know that pronouns substitute for nouns. What this topic adds is that English pronouns change their *form* based on what job they're doing — subject, object, or possessor. That's **case**. Most English nouns lost case endings centuries ago (we don't say "I gave the bookem to himster"), but pronouns held onto the system. This is why you can say "she hit him" but not "her hit he" — the form of the pronoun signals who is doing the action and who is receiving it.

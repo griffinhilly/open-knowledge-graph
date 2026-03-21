@@ -32,6 +32,45 @@ Compare passages that contain one or two secondary dominants (tonicization) agai
 - Calling every secondary dominant a 'modulation': modulation requires the new key to be confirmed by a cadence and to persist meaningfully.
 - Assuming tonicization only uses secondary dominants: secondary leading-tone chords (vii°/x) also create tonicization effects.
 
+## Questions
+
+```yaml
+- question: "A piece is firmly in C major. A D7 chord appears and resolves to G major, after which the music immediately continues in C major and closes with an authentic cadence in C. What has occurred harmonically?"
+  type: multiple-choice
+  options:
+    - "Modulation to G major — any secondary dominant confirms a new key"
+    - "Tonicization of the dominant — G is briefly treated as a local tonic, but no new key is established"
+    - "A borrowed chord from the parallel minor — D7 is diatonic in C minor"
+    - "A passing chromatic tone with no harmonic function"
+  answer: 1
+  explanation: "A single V/V (D7) resolving to V (G), after which the music immediately returns to C major, is a classic tonicization. G is momentarily treated as a local tonic — the door is opened and closed — but no new key is established. Modulation would require the music to stay in G, confirm it with a cadence, and develop thematic content there. The misconception that any secondary dominant signals modulation is directly addressed here: the brevity and immediate return to C mark this as tonicization."
+
+- question: "Which of the following best distinguishes tonicization from modulation?"
+  type: multiple-choice
+  options:
+    - "Tonicization uses secondary leading-tone chords (vii°/x); modulation uses only secondary dominants (V/x)"
+    - "Tonicization briefly emphasizes a non-tonic chord through a secondary dominant without establishing a new key; modulation establishes a new key through cadences and an extended presence"
+    - "Tonicization can only occur on the dominant (V); modulation can target any scale degree"
+    - "Tonicization requires exactly one secondary dominant; modulation requires at least two"
+  answer: 1
+  explanation: "The defining criterion is commitment: tonicization visits a chord as a temporary local tonic and immediately returns, while modulation establishes a new tonal center through cadential confirmation and extended presence. The other options introduce false rules — tonicization can use either secondary dominants or secondary leading-tone chords (vii°/x), and it can target any chord, not just V. The distinction exists on a continuum, not a sharp line, but the core principle is duration and cadential confirmation."
+
+- question: "Any time a secondary dominant chord (such as V/IV or V/vi) appears in a piece, the music has modulated to a new key."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception in harmonic analysis. A secondary dominant that resolves to its target chord and then returns to the original tonic is tonicization — a brief, shallow emphasis without key-establishing commitment. Modulation requires the new key to be confirmed by a cadence and to persist meaningfully. A piece in C major that uses A7 → dm (V/ii → ii) and then returns to a C major cadence has tonicized ii; it has not modulated to D minor."
+
+- question: "The distinction between tonicization and modulation is a matter of degree and context rather than a sharp rule — analysts may legitimately disagree about borderline passages."
+  type: true-false
+  answer: true
+  explanation: "The explainer explicitly notes this: one secondary dominant resolving is unambiguously tonicization; an extended passage with a confirming cadence, thematic content in the new area, and a clear sense of arrival is unambiguously modulation. The middle ground — four bars in the mediant with a cadence but no real thematic establishment — is where reasonable analysts disagree, depending on how strong the original tonic was, whether there's a return, and what the larger context implies. Recognizing this continuum is part of sophisticated harmonic analysis."
+
+- question: "What is the key signal that a chromatic pitch in a tonal passage indicates tonicization rather than just a passing color tone?"
+  type: short-answer
+  answer: "The signal is the presence of a dominant seventh quality or a leading-tone chord (vii°) that points specifically toward a target chord. The chromatic pitch functions as part of a chord with a built-in resolution tendency — the tritone in a dominant seventh resolves with the leading tone going up and the seventh going down, both aimed at the target. Without this pointing function (i.e., the chromatic note is just passing between diatonic pitches), there is no tonicization — only chromaticism."
+  explanation: "This is why analysis starts by asking: does this chromatic note form a secondary dominant or secondary leading-tone chord? The tritone resolution is the identifying signature. A C# in C major that is part of an A7 chord (A-C#-E-G) points specifically to D minor (V/ii → ii); a C# that simply passes between C and D has no such function. The directed harmonic motion is what makes tonicization distinct from mere chromatic color."
+```
+
 ## Explainer
 
 You already understand **secondary dominants** — chords borrowed from the context of another scale degree that briefly intensify that degree as a local goal. V/V (D7 in C major) points strongly toward the dominant G; V/IV (C7) points toward the subdominant F. The dominant seventh chord is the most effective pointing device because it contains a tritone whose two notes want to resolve in contrary motion — the leading tone up, the seventh down — both aimed at the target chord. **Tonicization** is what happens when that pointing is used: for a moment, a non-tonic chord is treated as a local tonic, briefly surrounded by its own dominant function, then the music moves on without establishing the new key.

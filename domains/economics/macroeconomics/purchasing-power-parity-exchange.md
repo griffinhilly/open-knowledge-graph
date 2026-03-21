@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Purchasing power parity (PPP) states that the exchange rate between two currencies equals the ratio of their price levels—a basket of goods should cost the same in both countries after currency conversion. Absolute PPP rarely holds due to trade costs, tariffs, and non-traded goods; relative PPP holds better, predicting exchange rate changes equal inflation differentials. PPP provides a long-run benchmark, though deviations can persist for years.
 
+## Questions
+
+```yaml
+- question: "Country A has 8% annual inflation; Country B has 2% annual inflation. What does relative PPP predict about their exchange rate over time?"
+  type: multiple-choice
+  options:
+    - "Country A's currency will appreciate by 6% annually because higher prices signal a stronger economy"
+    - "Country A's currency will depreciate by approximately 6% annually — equal to the inflation differential"
+    - "The exchange rate will remain stable because relative PPP holds in equilibrium"
+    - "Country A's currency will depreciate by 8% annually — equal to its own inflation rate"
+  answer: 1
+  explanation: "Relative PPP states that exchange rate change ≈ inflation differential between the two countries. Country A's higher inflation erodes its purchasing power faster, so its currency must weaken to keep real prices equivalent. The predicted depreciation is 8% − 2% = 6%, not 8% (option D), because Country B's own 2% inflation partially offsets the differential. Option A reverses the direction — higher inflation weakens, not strengthens, a currency."
+
+- question: "The Big Mac Index shows a Big Mac costs $5 in the US and the equivalent of $3 (after conversion) in Brazil. Why does absolute PPP predict this gap should close, yet it persists in practice?"
+  type: multiple-choice
+  options:
+    - "The Brazilian currency must appreciate significantly before traders can act on the price difference"
+    - "Absolute PPP only applies to manufactured goods, not food products"
+    - "Restaurant meals cannot be traded across borders, so the arbitrage mechanism that drives price convergence cannot operate"
+    - "The gap will close rapidly once financial markets recognize the opportunity"
+  answer: 2
+  explanation: "Absolute PPP's arbitrage mechanism — buy cheap, sell expensive until prices equalize — only works for tradeable goods. You cannot buy cheap hamburgers in Brazil and ship them to the US for profit. Restaurant meals are a non-traded service. Non-traded goods (haircuts, real estate, restaurant meals) are the main reason absolute PPP fails empirically: the prices that drive exchange rate arbitrage are precisely the prices that can't be arbitraged. This is why the Big Mac Index systematically shows persistent deviations."
+
+- question: "PPP-adjusted GDP figures give a more accurate picture of comparative living standards than market-exchange-rate GDP because they account for differences in price levels across countries."
+  type: true-false
+  answer: true
+  explanation: "A dollar of income buys far more goods in a low-income country than in the US, where prices are higher. Market-rate GDP conversion underestimates the real purchasing power of lower-income country residents. PPP adjustment corrects for this by asking: how much could this income buy at domestic prices? International institutions like the IMF use PPP-adjusted GDP for welfare comparisons precisely because market rates can be highly misleading about actual living standards."
+
+- question: "Under relative PPP, a country with lower inflation than its trading partner should expect its currency to depreciate."
+  type: true-false
+  answer: false
+  explanation: "Relative PPP predicts depreciation for the high-inflation country, not the low-inflation one. Higher inflation means a currency's purchasing power erodes faster — so the currency must weaken to maintain equivalent real prices across borders. Lower inflation means relatively slower erosion of purchasing power, so the currency should appreciate (or depreciate less) relative to the high-inflation partner. Confusing the direction here is the most common error in applying relative PPP."
+
+- question: "Why does relative PPP hold better over long time horizons (5–10 years) than short ones (months), and what forces cause short-run exchange rates to deviate substantially from PPP?"
+  type: short-answer
+  answer: "Over long horizons, the cumulative effect of inflation differentials dominates, gradually driving exchange rates toward PPP values. In the short run, exchange rates are moved primarily by capital flows, interest rate differentials, risk sentiment, and monetary policy shocks — forces unrelated to price level differences. These short-run drivers can push exchange rates far from PPP and keep them there for years before the underlying inflation differential reasserts itself."
+  explanation: "PPP is a long-run anchor, not a short-run predictor. The mechanisms that push exchange rates toward PPP (trade flows, relative purchasing power) work slowly compared to the speed of capital markets. A sudden risk-off episode can move an exchange rate by 10% in a day, overwhelming any PPP signal. This is why currency investors who trade on PPP misvaluation typically work with multi-year time horizons."
+```
+
 ## Explainer
 
 From your study of inflation and price levels, you know that a rising price level means each unit of currency buys less goods and services — purchasing power erodes. From your study of exchange rates, you know that the exchange rate converts prices between currencies. **Purchasing power parity** connects these two ideas with a simple arbitrage argument: if the same good costs different amounts in two countries after currency conversion, traders should buy it where it's cheap and sell it where it's expensive, driving prices toward equality. PPP is essentially the law of one price applied to entire economies.

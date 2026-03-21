@@ -32,6 +32,45 @@ Prove the Clausius inequality from the Carnot cycle and second law. Apply it to 
 - Assuming equality always holds (only for reversible processes).
 - Confusing Clausius inequality with entropy change definition.
 
+## Questions
+
+```yaml
+- question: "A proposed industrial process reports ΔS = 50 J/K for the system while the integral ∫(đQ/T) evaluated along the process path equals 60 J/K. Is this process thermodynamically possible?"
+  type: multiple-choice
+  options:
+    - "No — the Clausius inequality requires ΔS ≥ ∫(đQ/T), so ΔS < ∫(đQ/T) is forbidden"
+    - "Yes — any process that increases entropy of the universe is allowed"
+    - "No — ΔS and ∫(đQ/T) must always be exactly equal"
+    - "Yes — the inequality only applies to complete cycles, not individual processes"
+  answer: 0
+  explanation: "The Clausius inequality in differential form is dS ≥ đQ/T, so integrated over any process: ΔS ≥ ∫(đQ/T). Here ΔS = 50 < 60 = ∫(đQ/T), which violates this requirement. The quantity σ = ΔS − ∫(đQ/T) must be ≥ 0; a negative σ would mean entropy was destroyed internally, violating the second law."
+
+- question: "For a real (irreversible) engine running one complete cycle and returning to its initial state, what is the value of ∮(đQ/T)?"
+  type: multiple-choice
+  options:
+    - "Zero — because entropy is a state function and returns to its initial value after a cycle"
+    - "Positive — irreversible processes generate entropy, so the integral must be positive"
+    - "Negative — the Clausius inequality states ∮(đQ/T) ≤ 0, with strict inequality for irreversible cycles"
+    - "It depends on whether net heat is absorbed or rejected by the engine"
+  answer: 2
+  explanation: "The most tempting wrong answer is (a): entropy S does return to its initial value for any cycle (it is a state function), so ΔS_cycle = 0. But ∮(đQ/T) is NOT the same as ΔS — the equality dS = đQ/T holds only on reversible paths. For an irreversible cycle, ∮(đQ/T) < 0. The Clausius inequality says ∮(đQ/T) ≤ 0, with the zero applying only to fully reversible cycles."
+
+- question: "For any cyclic process, ∮(đQ/T) = 0, because entropy is a state function and must return to its initial value after a complete cycle."
+  type: true-false
+  answer: false
+  explanation: "Entropy S is a state function, so ΔS = 0 for any cycle — that part is correct. But ∮(đQ/T) equals ΔS only along reversible paths. For irreversible cycles, ∮(đQ/T) < 0 (strictly negative), which is precisely the content of the Clausius inequality. Confusing ΔS_cycle = 0 with ∮(đQ/T) = 0 is the classic error here."
+
+- question: "A process in which ΔS > ∫(đQ/T) is consistent with the second law of thermodynamics."
+  type: true-false
+  answer: true
+  explanation: "The Clausius inequality requires ΔS ≥ ∫(đQ/T). When ΔS > ∫(đQ/T), the difference σ = ΔS − ∫(đQ/T) > 0 represents entropy generated internally by irreversibility — friction, heat transfer across finite temperature differences, turbulence, etc. This is perfectly allowed; in fact, all real processes satisfy σ > 0. Only reversible (idealized) processes have σ = 0."
+
+- question: "What is the physical meaning of σ = ΔS − ∫(đQ/T), and what does the sign of σ tell you about a process?"
+  type: short-answer
+  answer: "σ is the entropy generated internally by irreversibility within the system. The Clausius inequality requires σ ≥ 0 for any process. σ = 0 means the process is reversible — no work is wasted and no entropy is created internally. σ > 0 means the process is irreversible; the magnitude of σ quantifies how much work was irreversibly destroyed by friction, finite-ΔT heat transfer, mixing, or other dissipative mechanisms. A negative σ would violate the second law and is thermodynamically impossible."
+  explanation: "σ is the 'entropy production' or 'entropy generation' term. In engineering thermodynamics, minimizing σ is the route to maximum efficiency. Real sources of σ — heat exchangers operating across large ΔT, throttle valves, turbulent mixing — each produce quantifiable entropy and represent lost work. The Clausius inequality is the formal statement that σ can never be negative: you can never destroy entropy internally, only create it."
+```
+
 ## Explainer
 
 You know the second law — heat flows spontaneously from hot to cold, and no engine converts all heat to work — and you know entropy as a state function measuring disorder or the number of accessible microstates. The **Clausius inequality** is the quantitative bridge between them: for any process, it tells you whether entropy has increased or decreased and by how much relative to the heat exchanged, giving the second law a precise mathematical form.

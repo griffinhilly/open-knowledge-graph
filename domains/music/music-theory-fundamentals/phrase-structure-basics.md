@@ -27,6 +27,45 @@ Sing simple melodies and identify phrase boundaries by listening for cadence poi
 ## Common Misconceptions
 Not all phrases are the same length—common lengths include 4 and 8 bars, but phrases can be 2, 3, 6, 16, or any length determined by the music's harmonic and melodic structure.
 
+## Questions
+
+```yaml
+- question: "You are analyzing an eight-bar melody. The first four bars end on a V chord (half cadence), and the second four bars begin similarly but end on a I chord (authentic cadence). What structure does this represent?"
+  type: multiple-choice
+  options:
+    - "Two independent phrases with no structural relationship"
+    - "A single phrase extended over eight bars"
+    - "An antecedent–consequent pair (period) — the half cadence creates a question, the authentic cadence provides the answer"
+    - "A consequent phrase followed by an antecedent phrase"
+  answer: 2
+  explanation: "This is the classic antecedent–consequent structure. The antecedent phrase ends with a half cadence (V), creating an open, inconclusive resting point — the musical 'question.' The consequent phrase begins similarly but resolves definitively to the tonic with an authentic cadence — the 'answer.' Together the two phrases form a period. Note that the antecedent comes first and the consequent second, not the reverse."
+
+- question: "What determines where a musical phrase ends?"
+  type: multiple-choice
+  options:
+    - "A fixed rule that phrases must be exactly four measures long"
+    - "The key signature and time signature of the piece"
+    - "The harmonic and melodic structure — specifically the arrival of a cadence"
+    - "The number of beats since the last phrase ended"
+  answer: 2
+  explanation: "Phrase length is determined by the music's harmonic and melodic logic, not by a fixed measure count. A phrase ends when a cadence arrives — the harmonic motion comes to a resting point. Four-bar phrases are common because four measures often provides the right space for a melodic idea to depart and arrive at a cadence, but Haydn, Mozart, and Beethoven regularly write phrases of 3, 5, 6, or more bars when the harmonic motion demands it. The meter itself does not determine phrase length."
+
+- question: "An antecedent phrase creates a sense of incompleteness because it ends with a cadence that does not fully resolve to the tonic."
+  type: true-false
+  answer: true
+  explanation: "This is the defining characteristic of the antecedent phrase. It most commonly ends with a half cadence (arriving on V), which is harmonically unstable — V wants to resolve to I but has not yet done so. This open ending creates an expectation of continuation, the musical equivalent of a question asked but not yet answered. The consequent phrase provides that resolution by ending with a full authentic cadence to the tonic."
+
+- question: "All phrases in tonal music must be exactly four measures long — composers who write longer or shorter phrases are breaking the rules of phrase structure."
+  type: true-false
+  answer: false
+  explanation: "Phrase length is flexible and determined by harmonic and melodic structure, not by a rule requiring four measures. Common lengths include 2, 4, 8, and 16 bars, but composers frequently extend phrases by delaying the expected cadence — what is called a phrase extension. Haydn in particular is famous for these extensions. A 5-bar phrase that began as a 4-bar phrase stretched by one measure is not rule-breaking; it is a deliberate compositional choice that makes the arrival more interesting."
+
+- question: "What distinguishes an antecedent phrase from a consequent phrase, and how does this difference create the sense of musical question and answer?"
+  type: short-answer
+  answer: "The antecedent phrase ends with an inconclusive cadence — typically a half cadence on V — that leaves the harmony unstable and creates an expectation of continuation. The consequent phrase begins similarly (often with the same or related opening material) but pushes to a full authentic cadence on I, providing harmonic resolution. The antecedent is the 'question' because it ends on an unstable harmony that needs resolution; the consequent is the 'answer' because it delivers that resolution. The sense of question and answer comes from the contrast between an open harmonic ending and a closed one."
+  explanation: "The cadence type is the key functional marker. Half cadence = open, unstable, questioning. Authentic cadence = closed, stable, resolved. This is why cadence study is a prerequisite — without understanding cadence types and their functional differences, antecedent–consequent structure cannot be perceived or analyzed."
+```
+
 ## Explainer
 
 Your prerequisite work on cadence types gave you the punctuation marks of tonal music — the ways harmonic motion comes to rest at phrase endings. A **phrase** is the unit of musical thought that those cadences close. The analogy to language is precise: just as a sentence is a complete grammatical unit ending with terminal punctuation, a phrase is a complete musical unit ending with a cadence. And just as sentences can be short or long, simple or complex, the phrase is a flexible container determined by harmonic and melodic logic rather than a fixed number of beats.

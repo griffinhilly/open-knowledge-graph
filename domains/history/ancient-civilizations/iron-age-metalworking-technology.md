@@ -26,6 +26,45 @@ Examine archaeological evidence of iron tools and weapons from Iron Age sites. S
 ## Common Misconceptions
 Iron was not immediately superior to bronze—early iron weapons were often inferior. The shift occurred gradually as smelting technology improved, driven by resource availability and economic factors.
 
+## Questions
+
+```yaml
+- question: "Why did civilizations transition from bronze to iron around 1200 BCE, even though early iron weapons were often inferior to bronze?"
+  type: multiple-choice
+  options:
+    - "Iron was easier to melt and cast into complex shapes than bronze"
+    - "Iron weapons were lighter, giving armies a significant tactical advantage"
+    - "The collapse of long-distance tin trade networks made bronze prohibitively expensive or unavailable"
+    - "Iron ore was concentrated near major civilizational centers, reducing transport costs"
+  answer: 2
+  explanation: "Bronze requires tin, which is geographically rare and had to be traded over thousands of miles. When trade networks collapsed around 1200 BCE (the Late Bronze Age Collapse), tin supplies broke down and bronze production fell sharply. Iron ore is geographically abundant — available on every inhabited continent — providing a locally-accessible alternative even before iron quality matched bronze. The transition was driven by supply constraints, not quality superiority."
+
+- question: "What technical process most improved iron quality to eventually surpass bronze in hardness and edge retention?"
+  type: multiple-choice
+  options:
+    - "Alloying iron with small amounts of copper to increase its hardness"
+    - "Carburization — allowing carbon from charcoal to diffuse into iron, producing steel"
+    - "Casting iron in clay molds at higher temperatures than the bloomery process used"
+    - "Quenching iron in water immediately after smelting without reheating"
+  answer: 1
+  explanation: "Carburization introduces carbon into the surface layer of iron, creating a harder iron-carbon alloy (steel). Smiths discovered empirically that repeatedly heating, folding, and quenching iron dramatically improved hardness — they were performing selective carburization by intuition long before the chemistry was understood. This process, once mastered by around 900–700 BCE, gave iron tools and weapons an edge over bronze that drove widespread adoption."
+
+- question: "Iron ore was more geographically abundant than the materials needed to produce bronze."
+  type: true-false
+  answer: true
+  explanation: "Bronze requires copper AND tin. While copper is relatively common, tin deposits are rare and concentrated in Cornwall, Afghanistan, and central Asia — necessitating long-distance trade stretching thousands of miles. Iron ore occurs in economically useful deposits on every inhabited continent. This geographic ubiquity is what made iron accessible to communities that could not sustain the Bronze Age tin trade networks."
+
+- question: "Iron tools and weapons were superior to bronze from the moment the transition began around 1200 BCE."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception. Early iron weapons were often INFERIOR to bronze equivalents because smelting technology had not yet mastered carburization. The bloomery process produced wrought iron that was softer than bronze unless carbon treatment was applied. The quality advantage developed gradually; iron only clearly surpassed bronze in hardness and edge retention after carburization techniques matured around 900–700 BCE. The transition began because of tin scarcity, not because of immediate iron superiority."
+
+- question: "How did the transition from bronze to iron change the social distribution of metal tools and weapons?"
+  type: short-answer
+  answer: "Bronze was a luxury dependent on rare tin accessed through elite-controlled long-distance trade networks, so bronze artifacts clustered at high-status sites. Iron ore's wide geographic distribution meant any community with local deposits and charcoal could produce metal independently. Iron was far cheaper per unit than bronze, and archaeologists find iron objects distributed widely across social hierarchies — in ordinary households, not just elite sites. Iron plowshares reached ordinary farmers, iron axes accelerated forest clearance, and iron weapons equipped armies more cheaply. Metal moved from an elite luxury to a broadly accessible material."
+  explanation: "The social democratization of metal is one of the Iron Age's most significant consequences. Bronze Age metal was a strategic resource concentrated in the hands of rulers who controlled trade networks. Iron's abundance made it impossible for any single polity to monopolize its supply, shifting the nature of military and agricultural advantage from access to a scarce resource to skill in working an abundant one."
+```
+
 ## Explainer
 
 The Bronze Age world was built on a critical dependency: **bronze requires tin**. Copper is relatively common around the Mediterranean and Near East, but tin deposits are rare and geographically concentrated — primarily in Cornwall, Afghanistan, and central Asia. This meant that Bronze Age civilizations depended on long-distance trade networks stretching thousands of miles for access to a metal essential for tools, weapons, and agricultural implements. When those trade networks collapsed around 1200 BCE (in what scholars call the Late Bronze Age Collapse), tin supply chains broke down, and bronze production fell sharply across the Eastern Mediterranean. The disruption created demand for an alternative metal.

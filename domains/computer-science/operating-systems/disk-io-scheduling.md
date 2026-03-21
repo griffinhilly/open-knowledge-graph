@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Disk I/O is slow (milliseconds vs. nanoseconds for CPU operations). I/O scheduling orders requests to minimize seek time and rotational latency. Algorithms like FCFS, SSTF (shortest seek time first), and SCAN (elevator) optimize throughput and reduce average seek time. Request batching and write caching further improve I/O performance.
 
+## Questions
+
+```yaml
+- question: "A disk head is at track 53. Pending requests are queued for tracks: 10, 45, 65, 180, and 20. Which track does SSTF service next?"
+  type: multiple-choice
+  options:
+    - "Track 10 — FCFS order, the first request in the queue"
+    - "Track 65 — the next track in the outward direction"
+    - "Track 45 — closest to the current head position"
+    - "Track 180 — highest-priority because it has waited longest"
+  answer: 2
+  explanation: "SSTF (Shortest Seek Time First) always services the request that requires the least head movement from the current position. From track 53: |53−45| = 8, |53−65| = 12, |53−10| = 43, |53−20| = 33, |53−180| = 127. Track 45 is closest at distance 8. Option A describes FCFS (no reordering). Options B and D are not SSTF — SSTF is purely greedy on distance, not direction or arrival time."
+
+- question: "SSTF dramatically reduces average seek time compared to FCFS. What is its primary drawback?"
+  type: multiple-choice
+  options:
+    - "It requires storing the entire disk geometry in memory, making it impractical on most systems"
+    - "Requests at tracks far from the current head may never be serviced if closer requests keep arriving — starvation"
+    - "SSTF produces worse average seek time than SCAN for uniformly distributed requests"
+    - "It cannot handle write requests, only reads"
+  answer: 1
+  explanation: "SSTF is greedy: it always jumps to the nearest pending request. If requests continuously arrive near the current head position, outer-track or inner-track requests can wait indefinitely — this is starvation. SCAN (the elevator algorithm) solves this by sweeping the full disk in one direction, guaranteeing every pending request is eventually reached. SSTF trades fairness for throughput, and the tradeoff can be severe in practice for certain workloads."
+
+- question: "The SCAN (elevator) algorithm guarantees that every pending disk request will eventually be serviced, unlike SSTF."
+  type: true-false
+  answer: true
+  explanation: "SCAN sweeps the head from one end of the disk to the other, servicing all requests along the way, then reverses. Because it always completes a full sweep before reversing, every request is reached within at most two full sweeps. SSTF provides no such guarantee — a request at a distant track can be indefinitely delayed if closer requests keep arriving. This is the defining fairness advantage of SCAN over SSTF."
+
+- question: "Disk I/O scheduling algorithms like SCAN and SSTF are equally important for solid-state drives (SSDs) as for spinning hard disk drives (HDDs)."
+  type: true-false
+  answer: false
+  explanation: "SSDs have no moving parts — there is no read/write head to move, no spinning platter to wait for. Seek time and rotational latency are effectively zero. The entire rationale for reordering disk requests (minimizing mechanical movement) disappears. I/O scheduling still exists for SSDs but focuses on different concerns (write amplification, flash cell wear, queue depth management) rather than seek time. This is a significant architectural difference that obsoletes the classical scheduling algorithms for modern storage."
+
+- question: "Why does the order in which disk I/O requests are serviced matter so much for spinning hard drives, and why does this concern largely disappear with SSDs?"
+  type: short-answer
+  answer: "Spinning hard drives have a physical read/write head that must mechanically move to the correct track (seek) and then wait for the disk to rotate the target sector into position (rotational latency). Seek time alone can be 10–15 ms for a full-disk traverse — an eternity relative to CPU speeds. Servicing requests in a poor order (e.g., alternating between inner and outer tracks) wastes this mechanical time repeatedly. Intelligent reordering minimizes total head travel. SSDs use flash memory with no moving parts, so data can be accessed in any order in roughly the same time (~0.1ms) — eliminating the seek/rotation penalty entirely and making request ordering largely irrelevant."
+  explanation: "This is why storage architecture is not a single static field: algorithms designed for HDDs in the 1970s–1990s do not transfer to modern SSDs. Understanding the physical substrate is essential for understanding why any I/O scheduling policy exists."
+```
+
 ## Explainer
 
 You have seen how CPU scheduling decides which process gets the processor next. Disk I/O scheduling solves an analogous problem — deciding which pending disk request to service next — but the optimization target is different. CPU scheduling optimizes for fairness and responsiveness. Disk scheduling optimizes for **minimizing mechanical movement**, because the physical geometry of a spinning disk makes the order of requests matter enormously.

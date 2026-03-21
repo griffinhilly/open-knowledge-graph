@@ -30,6 +30,45 @@ Demonstrate with compass and straightedge: draw two sides of fixed length with a
 - Marking the wrong angle as included when it is actually adjacent to only one of the two sides.
 - Confusing SAS congruence with SAS similarity.
 
+## Questions
+
+```yaml
+- question: "In triangle ABC, AB = 5, BC = 8, and angle A = 40°. Can you conclude that any triangle with AB = 5, BC = 8, and angle A = 40° is congruent to triangle ABC?"
+  type: multiple-choice
+  options:
+    - "Yes — two sides and an angle are enough to determine a unique triangle"
+    - "No — angle A is not the included angle between sides AB and BC, so this is SSA, which does not guarantee congruence"
+    - "Yes — SAS applies because we have two sides and one angle"
+    - "No — you would need all three sides to prove congruence"
+  answer: 1
+  explanation: "This is the classic SSA trap. Angle A is adjacent to side AB, but it is not between AB and BC — the included angle between those two sides would be angle B (at the vertex where AB and BC meet). With the angle at the far end of one of the sides rather than between them, two different triangles can satisfy these conditions (the ambiguous case). SAS requires the angle to be sandwiched between the two known sides. The arrangement here is SSA — not a valid congruence criterion."
+
+- question: "In triangle XYZ, sides XY and YZ are congruent to the corresponding sides in triangle PQR, and angle Y = angle Q. Which congruence criterion justifies concluding the triangles are congruent?"
+  type: multiple-choice
+  options:
+    - "SSS — because we know two sides and can infer the third"
+    - "SSA — because we have two sides and the angle at Q"
+    - "SAS — because angle Y is the included angle between sides XY and YZ, and angle Q is the included angle between the corresponding sides"
+    - "No valid criterion applies — we need more information"
+  answer: 2
+  explanation: "Angle Y sits at the vertex where sides XY and YZ meet, making it the included angle between those two sides. The same is true of angle Q in triangle PQR. Two sides and the included (sandwiched) angle satisfy the SAS postulate, which guarantees triangle congruence. If the known angle were at a different vertex — not between the two known sides — we would have SSA, which is not a valid congruence criterion. Identifying the included angle correctly is the critical step."
+
+- question: "If two sides and the included angle of one triangle are congruent to two sides and the included angle of another triangle, the triangles are congruent."
+  type: true-false
+  answer: true
+  explanation: "This is the SAS (Side-Angle-Side) Congruence Postulate, and it is valid. The key is that the angle must be included — sandwiched between the two known sides. When you fix two sides of specified lengths and the angle between them, the triangle's shape is completely determined: the third vertex has no freedom to move, forcing the third side to a unique length. This geometric rigidity is why SAS works."
+
+- question: "SSA (Side-Side-Angle) is a valid congruence criterion when the given angle is acute."
+  type: true-false
+  answer: false
+  explanation: "SSA is not a valid congruence criterion regardless of whether the angle is acute, right, or obtuse (with one exception: a right angle with the right angle as the given angle, which is covered by HL). The 'ambiguous case' occurs precisely with acute angles — given two sides and a non-included acute angle, two different triangles may satisfy the conditions. The angle must be included (between the two known sides) to eliminate this ambiguity. No qualification about angle type makes SSA valid in general."
+
+- question: "Why does the 'included' requirement matter in SAS? What goes wrong geometrically when you use SSA instead?"
+  type: short-answer
+  answer: "The included angle controls how the two known sides meet each other, leaving no freedom for the third vertex to vary. When the angle is between the two sides, fixing both sides and the angle between them uniquely determines the triangle. In SSA, the angle is at the far end of one side rather than between the two sides — so the opposite end of the shorter side can swing to two different positions that both satisfy the given measurements. This 'ambiguous case' means SSA does not guarantee a unique triangle, making it invalid as a congruence criterion."
+  explanation: "Visualize it physically: pin two sticks together at a specific angle (SAS). The third vertex is locked in place. Now instead, hold two sticks of fixed length with a fixed angle at the far end of one stick — the other end of the shorter stick can arc to two positions that satisfy the constraint. That freedom is exactly what makes SSA fail. The SAS postulate works because the included angle eliminates all geometric ambiguity."
+```
+
 ## Explainer
 
 You already know **SSS** — if all three sides of one triangle match all three sides of another, the triangles are congruent. **SAS** (Side-Angle-Side) gets you congruence from less information: two sides and the **included angle** between them. Think of it physically: fix two sticks of given lengths and pin them together at a specific angle. The position of the far endpoints is now determined — you have no freedom in where the third vertex lands, and the third side is forced to a unique length. Two sides and their included angle completely determine the shape of the triangle.

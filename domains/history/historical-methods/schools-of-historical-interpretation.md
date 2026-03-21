@@ -31,6 +31,45 @@ Select a major historical event and read one short account from each of three di
 - These schools are not mutually exclusive — most contemporary historians draw on multiple frameworks rather than committing to one.
 - The dominance of a particular school at a given moment reflects contemporary intellectual and political climates, not merely advances in evidence.
 
+## Questions
+
+```yaml
+- question: "One historian writes about the French Revolution focusing on Louis XVI's decisions and diplomatic negotiations; another focuses on grain prices, peasant living standards, and labor unrest. How should we evaluate the relationship between these two accounts?"
+  type: multiple-choice
+  options:
+    - "The political account is more rigorous because it uses archival primary sources"
+    - "The social account is more accurate because it captures the experience of more people"
+    - "They are asking different questions from different schools, producing genuinely different but each legitimate accounts"
+    - "One of them must be wrong, since historical events have a single correct explanation"
+  answer: 2
+  explanation: "Different schools are lenses, not competitors. The political historian and social historian are not arguing about the same facts — they are asking different questions of the same period. Identifying which school shapes an account is a critical skill precisely because it reveals what questions that account is not equipped to answer, not which account is correct."
+
+- question: "A student argues that social history 'corrected the errors' of political history by revealing the true causes of historical change. Which misconception does this reflect?"
+  type: multiple-choice
+  options:
+    - "That social history is newer than political history"
+    - "That schools are lenses producing different valid accounts, not competitors vying for a single correct method"
+    - "That political history relies on state archives"
+    - "That ordinary people are more historically significant than elites"
+  answer: 1
+  explanation: "The student is treating schools as if they are competing to find the one correct historical method, when they are actually different frameworks that bring different features into focus. Political history asks about state decisions; social history asks about structures and ordinary people. Neither 'corrects' the other — they answer different questions. The misconception also obscures what each school misses."
+
+- question: "The dominance of a particular historical school at a given time primarily reflects advances in evidence and methodology available to historians of that era."
+  type: true-false
+  answer: false
+  explanation: "The dominance of schools reflects contemporary intellectual and political climates, not merely evidence quality. Political history dominated partly because state archives were most accessible and partly because 19th-century nationalism made state-centered history politically resonant. Social history rose with 20th-century democratization and Marxist intellectual movements. Postcolonial history emerged alongside decolonization. The availability of evidence matters, but it does not determine which questions historians choose to ask."
+
+- question: "Most contemporary historians draw on multiple schools of interpretation rather than committing exclusively to one."
+  type: true-false
+  answer: true
+  explanation: "This is explicitly stated in the misconceptions section and reflects actual practice. A historian studying colonial trade might use economic history's tools to analyze trade flows, cultural history's tools to analyze colonial representations, and postcolonial theory to examine whose voices are absent from the archive. Exclusive commitment to a single school is more characteristic of earlier periods and theoretical polemics than of working historical practice."
+
+- question: "Why is identifying the school of interpretation behind a historical argument a foundational critical skill, and what specific question does it allow you to ask?"
+  type: short-answer
+  answer: "Identifying the school reveals what questions the account is equipped to answer — and therefore what questions it is not. A political historian using state archives can answer what decisions leaders made but not what ordinary people experienced. A cultural historian focused on meaning and representation may miss material economic causation. Asking 'what questions is this approach not equipped to answer?' is the core critical move that the school framework enables."
+  explanation: "The skill matters because every historical account has a perspective — a set of questions it is structured to answer and evidence it is structured to use. Without recognizing this, readers may mistake a partial account for a complete one. The schools framework makes the partiality explicit and productive rather than hidden."
+```
+
 ## Explainer
 
 The most important thing to understand about schools of historical interpretation is that they are not competitors competing to find the single correct method — they are lenses, each of which brings certain features of the historical landscape into focus while others blur at the edges. Two historians working from different schools, confronting the same period and the same evidence, will write genuinely different books. Neither is simply wrong; they are answering different questions. Learning to identify the school shaping a historical argument is a foundational critical skill, because it allows you to ask: *what questions is this approach not equipped to answer?*

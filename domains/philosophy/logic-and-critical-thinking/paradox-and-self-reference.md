@@ -19,6 +19,45 @@ status: draft
 ## Core Idea
 Paradoxes like the liar's paradox ('this statement is false') expose limits and tensions in reasoning. Understanding self-referential problems helps us recognize when our ordinary reasoning tools break down and when apparent contradictions reveal conceptual confusion rather than truth failure. Some paradoxes dissolve once we refine our concepts.
 
+## Questions
+
+```yaml
+- question: "The Liar Paradox ('This statement is false') is most accurately described as:"
+  type: multiple-choice
+  options:
+    - "A grammatically malformed sentence that doesn't mean anything"
+    - "A sentence that, given ordinary rules for truth and self-reference, generates a genuine logical contradiction — exposing underdefinition in our concept of truth"
+    - "A logical fallacy that can be resolved by careful reading"
+    - "An example of circular reasoning that is simply invalid"
+  answer: 1
+  explanation: "The Liar Paradox is not merely confusing or fallacious — given standard logical rules (a statement is either true or false; a statement can refer to itself), the paradox generates a genuine contradiction: true iff false. This reveals that our ordinary, pre-theoretic concept of truth is insufficiently precise when applied self-referentially. Option A is Tarski's proposed dissolution (the sentence is malformed), but calling it 'simply malformed' understates that this is a substantive philosophical move, not an obvious observation."
+
+- question: "Russell's Paradox (the set of all sets that do not contain themselves) demonstrated that:"
+  type: multiple-choice
+  options:
+    - "Not every description of a collection defines a legitimate mathematical set"
+    - "Self-reference is impossible in formal mathematics"
+    - "The axiom of choice leads to contradictions"
+    - "Infinite sets cannot contain themselves"
+  answer: 0
+  explanation: "Russell's Paradox forced mathematicians to recognize that naive set comprehension — 'for any property P, there is a set of all things satisfying P' — is inconsistent. The collection {x : x ∉ x} cannot be a well-formed set without contradiction. This drove the reconstruction of set theory's foundations (Zermelo-Fraenkel axioms restrict which collections are legitimate sets). Option B overstates the lesson: self-reference is not always paradoxical — 'this sentence is in English' is fine. The problem is self-reference in contexts involving truth, membership, or definability."
+
+- question: "Self-reference always produces a paradox."
+  type: true-false
+  answer: false
+  explanation: "'This sentence is in English' is self-referential and perfectly unproblematic. Self-reference only generates paradox when combined with concepts like truth, falsity, set membership, or provability. The sentence 'This sentence has five words' is self-referential and simply true (count them). The trouble arises from a specific combination: self-reference + truth predicates (Liar), or self-reference + membership conditions (Russell). Understanding this helps locate precisely where the conceptual underdefinition lies."
+
+- question: "Paradoxes in logic and mathematics have driven some of the deepest technical advances in foundations, forcing more precise definitions of truth, sets, and provability."
+  type: true-false
+  answer: true
+  explanation: "Russell's Paradox prompted the axiomatization of set theory. The Liar Paradox prompted Tarski's semantic hierarchy and formal theories of truth. Gödel's incompleteness theorems grew from self-referential constructions analogous to the Liar. Far from being mere curiosities, paradoxes exposed that 'obvious' concepts like truth, set, and proof were underspecified, and resolving them required major technical machinery. This is the 'gift in disguise' framing from the explainer."
+
+- question: "What does it mean to say that paradoxes 'reveal conceptual confusion rather than truth failure,' and why is this more productive than treating them as mere logical mistakes?"
+  type: short-answer
+  answer: "A 'truth failure' would mean simply that something false was mistakenly believed true — a correctable error. 'Conceptual confusion' means the concept itself (truth, set, reference) was not well-defined enough to handle the problematic case. The paradox doesn't expose a wrong answer — it exposes that the question was malformed given our current conceptual framework. This framing is productive because it directs attention toward conceptual refinement (redefining truth hierarchically, restricting set comprehension) rather than toward finding the 'correct' answer within the broken framework."
+  explanation: "The distinction matters practically. If a paradox is a logical mistake, the response is 'find the error and move on.' If it is a conceptual confusion, the response is 'reconstruct the concept more carefully.' The second response has historically been the more fruitful one: it produced axiomatic set theory, formal semantics, and mathematical logic as disciplines. Treating paradoxes as gifts rather than embarrassments is a hallmark of productive foundational thinking."
+```
+
 ## Explainer
 
 You have already studied logical consistency and contradiction. A **contradiction** is a statement of the form "P and not-P" — something that cannot be true in any possible world. When we discover that our reasoning has led to a contradiction, the standard response is to revise one of the premises. A **paradox** is more troubling: it is a situation where seemingly valid reasoning from seemingly reasonable premises leads to a contradiction or to a conclusion that is absurd. Paradoxes do not just expose faulty premises — they reveal that something deeper is wrong with how we are thinking.

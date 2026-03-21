@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Chronic tubulointerstitial inflammation and fibrosis are hallmarks of CKD progression, driven by proteinuria, ischemia, and glomerular-tubular feedback. Tubular epithelial cells undergoing epithelial-mesenchymal transition contribute to myofibroblast populations; progressive interstitial scarring replaces functional nephrons.
 
+## Questions
+
+```yaml
+- question: "A patient with diabetic nephropathy has worsening proteinuria. A kidney biopsy shows extensive interstitial fibrosis and tubular atrophy despite relatively preserved glomerular architecture. What does this biopsy finding predict about GFR trajectory?"
+  type: multiple-choice
+  options:
+    - "Stable GFR — the glomeruli are preserved, so filtration capacity is maintained"
+    - "Rapid GFR decline — interstitial fibrosis and tubular atrophy are the strongest predictors of progressive CKD, independent of glomerular pathology"
+    - "Slow GFR decline — tubular damage is reversible with anti-inflammatory treatment"
+    - "Improved GFR — the inflammatory response is clearing the original glomerular injury"
+  answer: 1
+  explanation: "Biopsy studies consistently show that interstitial fibrosis and tubular atrophy (IFTA) correlates more tightly with GFR trajectory than glomerular pathology does. This is the central counterintuitive insight of this topic: the kidney compartment most responsible for GFR decline is the tubulointerstitium, not the glomerulus. Option A reflects the common misconception that preserved glomeruli mean preserved function; fibrosis compresses peritubular capillaries and permanently destroys functional nephrons, determining functional capacity. Tubular injury in CKD is largely irreversible."
+
+- question: "Through which mechanism does proteinuria directly drive tubulointerstitial inflammation in CKD?"
+  type: multiple-choice
+  options:
+    - "Albumin deposits in the glomerular basement membrane, attracting macrophages into the interstitium"
+    - "Filtered proteins are endocytosed by proximal tubular cells, causing lysosomal overload, ROS generation, and NF-κB-driven cytokine release that recruits inflammatory cells"
+    - "Proteinuria raises tubular osmolarity, inducing apoptosis of tubular epithelial cells"
+    - "Albumin in the tubular lumen directly activates TGF-β, bypassing the tubular epithelium"
+  answer: 1
+  explanation: "The proximal tubule endocytoses filtered proteins via megalin and cubilin receptors and attempts to degrade them lysosomally. When proteinuria is sustained, this lysosomal load is exceeded, generating reactive oxygen species and activating NF-κB. This upregulates pro-inflammatory cytokines (MCP-1, IL-8, RANTES) that recruit monocytes and lymphocytes into the peritubular interstitium — converting a glomerular leak into a tubulointerstitial inflammatory cascade. Proteinuria thus injures the tubules through the luminal filtrate itself, not through deposits or osmotic mechanisms."
+
+- question: "The degree of interstitial fibrosis and tubular atrophy on kidney biopsy is a stronger predictor of GFR decline than the extent of glomerular pathology alone."
+  type: true-false
+  answer: true
+  explanation: "This is one of the most clinically important findings in nephropathology and the central insight of this topic. Despite GFR being defined as a glomerular function, biopsy studies show that tubulointerstitial damage — measured by interstitial fibrosis and tubular atrophy — correlates most tightly with how quickly kidney function will deteriorate. This explains why interventions targeting proteinuria (which drives tubulointerstitial injury) slow CKD progression by more than their hemodynamic effects alone predict."
+
+- question: "Once the original glomerular injury in CKD is controlled, tubulointerstitial fibrosis will halt spontaneously because the driving signal has been removed."
+  type: true-false
+  answer: false
+  explanation: "Tubulointerstitial fibrosis creates a self-sustaining cycle that can persist independently of the original glomerular injury. Collagen deposited by myofibroblasts compresses peritubular capillaries, causing ischemia in the metabolically demanding proximal tubule. Ischemia activates NF-κB and generates more TGF-β, driving further fibroblast activation and collagen deposition — even without continued proteinuria. Additionally, surviving nephrons undergo compensatory hyperfiltration, raising glomerular pressure and promoting further proteinuria, feeding the cycle again. This self-amplifying loop is why CKD often progresses to ESRD even after the inciting cause is addressed."
+
+- question: "Explain why ACE inhibitors and ARBs slow CKD progression by more than their blood-pressure-lowering effect alone would predict."
+  type: short-answer
+  answer: "ACE inhibitors and ARBs reduce intraglomerular capillary pressure by blocking angiotensin II-mediated efferent arteriolar constriction. This reduces filtration of albumin and other proteins into the tubular lumen — directly decreasing proteinuria. Since proteinuria is the upstream trigger for tubulointerstitial inflammation (via lysosomal overload, NF-κB activation, and macrophage recruitment), reducing it interrupts the injury cascade at its most proximate step. Less proteinuria means less tubular inflammation, less TGF-β, fewer myofibroblasts, less collagen deposition, and less peritubular capillary compression — slowing the self-sustaining fibrogenic cycle. This antiproteinuric effect is additive to the hemodynamic effect, explaining the observed nephroprotective benefit beyond blood pressure control."
+  explanation: "The antiproteinuric mechanism is the key: blocking efferent vasoconstriction reduces glomerular filtration pressure, which reduces protein leakage. Because proteinuria is the bridge between glomerular injury and tubulointerstitial destruction, treatments that reduce it protect the tubules and interrupt the fibrogenic cycle."
+```
+
 ## Explainer
 
 From your CKD prerequisite, you know that chronic kidney disease is defined by progressive, irreversible loss of functional nephrons — and that the glomerulus receives most of the pathological attention, since glomerular filtration rate is the primary measure of kidney function. But an underappreciated fact is that it is the **tubulointerstitial compartment**, not the glomerulus, that best predicts how quickly GFR will deteriorate. Biopsy studies consistently show that the degree of interstitial fibrosis and tubular atrophy correlates more tightly with GFR trajectory than glomerular pathology does. Understanding why requires reconceiving the tubule not as a passive conduit but as an active metabolic structure that is surprisingly vulnerable.

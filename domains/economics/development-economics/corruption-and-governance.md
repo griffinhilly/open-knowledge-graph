@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Corruption diverts public resources, distorts investment incentives, and erodes trust in government. High corruption discourages foreign investment and crowds out productive sectors toward rents. Anti-corruption efforts (transparency, audits, whistle-blower protection) yield returns but are politically difficult in weak-governance settings.
 
+## Questions
+
+```yaml
+- question: "An entrepreneur in a corrupt country considers building a factory. Beyond the official tax rate, what additional economic effect does pervasive corruption have on her investment decision?"
+  type: multiple-choice
+  options:
+    - "It reduces the cost of permits by allowing her to pay informally instead of waiting in bureaucratic queues"
+    - "It functions as an unpredictable risk premium that raises the effective cost of investment and suppresses productive activity"
+    - "It increases her profit margin by allowing her to avoid official regulations that raise production costs"
+    - "It has no effect if she has access to foreign financing outside the domestic banking system"
+  answer: 1
+  explanation: "Corruption does not just transfer money from entrepreneurs to officials — it adds uncertainty. Unlike a formal tax with a known rate, bribes are unpredictable in amount and timing, and refusing to pay risks harassment or permit denial. This uncertainty functions as a risk premium on investment, raising the threshold return required to justify committing capital. The result is that productive investment is suppressed even before any money changes hands."
+
+- question: "In a corrupt country, public budgets are often biased toward large infrastructure projects and away from teacher salaries and rural health clinics. What is the primary economic explanation for this pattern?"
+  type: multiple-choice
+  options:
+    - "Infrastructure has higher social returns than education and health, so officials maximize national welfare"
+    - "International donors pressure governments to prioritize infrastructure over social services"
+    - "Officials can extract larger rents from opaque capital procurement contracts than from salary disbursements that are harder to steal"
+    - "Infrastructure projects employ more voters, making them politically rational"
+  answer: 2
+  explanation: "Corrupt officials steer budgets toward whichever expenditures are easiest to divert. Large, opaque capital contracts (highways, defense equipment, prestige buildings) offer opportunities to inflate invoices and take kickbacks. Teacher salaries paid to named individuals and small rural health purchases are much harder to siphon. The result is systematic underprovision of services whose social returns are high but whose divertibility is low — as documented in Uganda, where only 13% of education funds reached schools."
+
+- question: "Corruption is self-reinforcing partly because it creates a coordination problem: individual actors cannot escape a high-corruption equilibrium even if everyone would prefer low corruption."
+  type: true-false
+  answer: true
+  explanation: "When everyone expects officials to be corrupt, rational behavior adapts: firms pay bribes to compete, officials create obstacles to extract more, and honest actors are penalized (passed over for contracts, denied permits). No individual firm or official can unilaterally defect to honest behavior without losing out. This coordination failure is why corruption persists even in countries where the population broadly wants reform — successful anti-corruption campaigns typically need simultaneous action on multiple fronts to shift the equilibrium."
+
+- question: "The primary economic damage from corruption is the direct loss of resources that are transferred from the private sector to corrupt officials."
+  type: true-false
+  answer: false
+  explanation: "Direct transfers are just one channel. The larger damage comes from distorted incentives: talented individuals choose rent-seeking over productive work because the returns to navigating corruption exceed those of engineering or entrepreneurship. Investment is suppressed by risk premia. Public spending is misdirected toward divertible but low-social-return projects. These incentive distortions reduce the productive capacity of the whole economy, not just the sum of bribe payments. A corrupt economy can lose far more through what is not built or invented than through what is stolen."
+
+- question: "Why does corruption persist even in countries where most citizens, firms, and even many officials would prefer to live and work in a low-corruption environment?"
+  type: short-answer
+  answer: "Corruption is a self-reinforcing equilibrium sustained by coordinated expectations. When everyone expects others to be corrupt, the individually rational response is to participate: firms that refuse to pay bribes lose contracts, officials who refuse to take them are bypassed. No single actor can shift the equilibrium alone because their defection is punished by everyone else's continued corrupt behavior. This coordination failure means that even universal preferences for low corruption are insufficient — escaping requires simultaneous changes in behavior across many actors, which is why successful reforms combine transparency, institutional redesign, and bottom-up accountability rather than relying on any single measure."
+  explanation: "The coordination problem means that the solution is not simply moral: it requires changing the incentive structure so that honest behavior becomes individually rational. This is why top-down mandates often fail alone — if enforcement is absent or corruptible, individual actors still face the same payoffs. Combining public expenditure tracking, independent audits, adequate official wages (reducing the relative return to corruption), and citizen monitoring mechanisms attacks the equilibrium from multiple angles simultaneously."
+```
+
 ## Explainer
 
 From your study of institutions and development, you know that institutional quality — rule of law, contract enforcement, property rights — shapes whether economies grow or stagnate. **Corruption** is one of the primary mechanisms through which weak institutions damage development. It operates as a tax that is unpredictable, unlegislated, and often regressive: a bribe demanded by a local official hits a small entrepreneur far harder than a multinational corporation with lawyers and connections.

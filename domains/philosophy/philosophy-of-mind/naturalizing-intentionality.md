@@ -31,6 +31,45 @@ Start with the basic puzzle: a thermometer 'represents' temperature, but we do n
 - Naturalizing intentionality is not the same as denying that intentionality exists; it is the attempt to show that aboutness is a natural phenomenon explicable in physical and biological terms.
 - Teleosemantics does not claim that all meaning is biological; it uses evolutionary function as a model for the kind of normativity that distinguishes correct from incorrect representation.
 
+## Questions
+
+```yaml
+- question: "A frog's fly-detector fires in response to a small dark moving pellet (a BB). A student using informational semantics concludes: 'Since the BB caused the firing, the detector's content in this instance is BB.' What problem with informational semantics does this expose?"
+  type: multiple-choice
+  options:
+    - "Informational semantics requires conscious awareness, which frogs lack"
+    - "The disjunction problem: since the detector fires for flies, BBs, and shadows alike, informational semantics cannot determine whether the content is 'fly,' 'BB,' or 'fly-or-BB-or-shadow' — the causal story alone cannot select one content over the others"
+    - "The BB caused the firing by mistake, so this case should be excluded from the analysis"
+    - "Informational semantics only applies to human perceptual systems, not animal neural states"
+  answer: 1
+  explanation: "The disjunction problem arises because any physical detector fires in response to a range of stimuli, not just the 'intended' one. Informational semantics defines content in terms of reliable causal connection — but the frog's detector is reliably caused by flies AND by small dark blobs AND by BBs. There is no purely causal basis to choose 'fly' as the content rather than 'small dark moving blob.' This is the central vulnerability of informational semantics: it cannot solve misrepresentation without invoking additional non-causal resources."
+
+- question: "How does teleosemantics resolve the disjunction problem that challenges informational semantics?"
+  type: multiple-choice
+  options:
+    - "By requiring that the detector only fire for the single stimulus it was trained on"
+    - "By using statistical frequency of different causes to determine the 'real' content"
+    - "By appealing to evolutionary function — the content is fixed by what the mechanism was selected over evolutionary history to detect, not by what currently triggers it"
+    - "By defining content as the organism's behavioral output rather than the cause of the internal state"
+  answer: 2
+  explanation: "Teleosemantics shifts from causal history to biological function. The frog's detector was shaped by natural selection because it reliably triggered fly-catching behavior that caught actual flies — not BBs or shadows. Evolution is the normative source: the content is 'fly' because that is what the mechanism was designed (by selection) to detect. Crucially, this allows misrepresentation: a BB-induced firing is a misfiring — the detector represents a fly incorrectly, not a BB correctly. Function, not current causation, determines content."
+
+- question: "On teleosemantics, a frog's fly-detector can represent 'fly' even when it is triggered by a BB, because content is determined by biological function rather than current causal trigger."
+  type: true-false
+  answer: true
+  explanation: "This is the key distinction teleosemantics introduces between being triggered by something and representing something. The detector was shaped by evolution to respond to flies; a BB-induced firing is a misfiring — the detector is mistakenly treating the BB as a fly. This allows teleosemantics to make sense of misrepresentation, which purely causal theories struggle with: if content is just 'whatever causes the state,' there can be no error. Teleosemantics introduces a normative standard (what the mechanism is supposed to detect) that makes error possible."
+
+- question: "Naturalizing intentionality means arguing that intentionality — the 'aboutness' of mental states — does not really exist."
+  type: true-false
+  answer: false
+  explanation: "Naturalizing intentionality is not eliminativist — it does not deny that intentionality exists. It accepts intentionality as a real phenomenon and attempts to explain it entirely within the resources of natural science (physics, biology, causal laws), without invoking irreducibly mental notions. The project is reductive, not eliminativist: it aims to show that aboutness is a natural property that physical systems can have."
+
+- question: "What is the disjunction problem, and why does it challenge informational semantics specifically rather than teleosemantics?"
+  type: short-answer
+  answer: "The disjunction problem: any physical detector is triggered by multiple stimuli (fly, BB, shadow), so purely causal accounts cannot determine whether the state's content is 'fly,' 'BB,' or the disjunction 'fly-or-BB-or-shadow' — all are reliably causally connected to the firing. Informational semantics is vulnerable because it grounds content entirely in reliable causal connection and has no further resource to privilege one description over another. Teleosemantics escapes the problem by asking not 'what causes this state?' but 'what was this mechanism selected by evolution to detect?' — evolution selected the frog's detector for fly-catching, so the content is 'fly' regardless of what happens to trigger it on any given occasion."
+  explanation: "The disjunction problem reveals that causal co-variation alone is insufficient to fix mental content — there are always too many possible descriptions of the cause. Any successful naturalization of intentionality needs a way to privilege one content description over others. Teleosemantics does this via evolutionary history; Fodor's asymmetric dependence theory does it via the logical structure of counterfactual dependencies. Both are attempts to find a natural fact that does the normative work of selecting content."
+```
+
 ## Explainer
 
 You know from your study of intentionality that mental states have the remarkable property of being **about** things — a belief is about the election, a desire is about coffee, a perception is about the red apple in front of you. You also know from physicalism that the brain is a physical system describable in terms of neurons, electrochemical signals, and causal mechanisms. The project of naturalizing intentionality is the attempt to bridge these two: to explain, in purely physical and biological terms, how it is possible for a physical state to be about anything at all.

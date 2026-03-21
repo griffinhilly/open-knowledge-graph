@@ -30,6 +30,45 @@ Examine phase edges (the highest element in a phase) and how they remain accessi
 - Phases are not the same as major syntactic constituents; the choice of phase heads is theory-specific.
 - Phase opacity does not mean phases cannot interact; it means only phase edges can be accessed by higher operations.
 
+## Questions
+
+```yaml
+- question: "The sentence *'What does she believe the claim that John ate?' is ungrammatical. According to phase theory, why can 'what' not be extracted from this structure?"
+  type: multiple-choice
+  options:
+    - "'What' is too semantically distant from the verb 'ate' to establish a grammatical dependency across clause boundaries"
+    - "The interior of the CP phase headed by the complementizer 'that' was transferred to the interfaces before 'what' could escape through the phase edge, making it inaccessible to further movement"
+    - "Complex noun phrases like 'the claim' are syntactically too heavy to permit extraction of elements they contain"
+    - "The complementizer 'that' occupies the phase edge, blocking any other element from moving through it"
+  answer: 1
+  explanation: "Phase theory explains island violations via the Phase Impenetrability Condition: once the interior of a phase is transferred to the phonological and semantic interfaces, it is opaque to further syntactic operations. 'What' is contained in the interior of the embedded CP phase. If it fails to reach the phase edge before the phase interior is transferred, it becomes permanently inaccessible — no operation from outside the phase can retrieve it. Options A and C are descriptive labels without explanatory force; option D misidentifies the role of the phase edge."
+
+- question: "After a phase head completes its derivation, what happens to the phase interior?"
+  type: multiple-choice
+  options:
+    - "It is deleted from the derivation and plays no further syntactic role"
+    - "It is transferred to the phonological and semantic interfaces and becomes opaque to further syntactic operations — only the phase edge remains accessible"
+    - "It becomes part of the phase edge, making its elements available candidates for further movement"
+    - "It merges with the next phase head to form a larger cyclic domain"
+  answer: 1
+  explanation: "This is the core mechanism of the Phase Impenetrability Condition. Transfer to the interfaces ('spell-out') is what makes the interior opaque: the computational system dispatches the phase interior to PF and LF and moves on. The phase edge — specifier and head positions — is intentionally preserved as an 'escape hatch': elements must land there before the interior is transferred to remain accessible to higher operations. Only by reaching the edge before transfer can an element continue moving upward."
+
+- question: "Phase theory provides a principled, derivation-based account of locality constraints by linking movement restrictions to the cyclical transfer of phase interiors to the phonological and semantic interfaces."
+  type: true-false
+  answer: true
+  explanation: "This is phase theory's core contribution over earlier constraint-based accounts like subjacency. Instead of stipulating that certain structural boundaries block movement, phase theory derives the opacity from the computational efficiency of transferring completed phase interiors to the interfaces. Movement is blocked not by fiat but because the relevant element is no longer in the active derivational workspace once its phase has been dispatched."
+
+- question: "Once a phase is complete, neither the phase interior nor the phase edge can be accessed by higher syntactic operations."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misreading of the Phase Impenetrability Condition. Only the phase *interior* becomes inaccessible after transfer. The phase *edge* — the specifier position(s) and the phase head — is specifically preserved as the escape route for elements that need to move higher. This is why long-distance movement is possible at all: elements must reach the phase edge at each phase boundary before the interior is transferred, then continue from there in the next phase."
+
+- question: "Why must movement from inside a phase proceed in successive steps through phase edges rather than jumping directly from the phase interior to the final landing site?"
+  type: short-answer
+  answer: "Once a phase head completes its derivation, the phase interior is transferred to the phonological and semantic interfaces and becomes opaque — inaccessible to operations from outside the phase. The only portion remaining in the active workspace is the phase edge. For an element deep inside a phase to reach a high position, it must escape to the phase edge *before* the interior is transferred. It remains accessible at the edge as the next phase is built, then moves again through that phase's edge, and so on — successive steps, each through a phase edge."
+  explanation: "This stepwise movement (successive-cyclic movement) is not stipulated but derived from the PIC and the timing of interface transfer. An element that misses a phase edge is lost; one that reaches the edge in time can continue upward. This explains both why long-distance movement is possible (stepping through edges) and why certain dependencies are impossible (missing an edge creates an island violation)."
+```
+
 ## Explainer
 
 You've worked through the Merge operation — the basic structure-building mechanism in the Minimalist Program — and the core minimalist commitments: that syntax is an optimal computation mapping sound to meaning, using only what is necessary. Phase theory is the Minimalist Program's answer to one of syntax's oldest puzzles: why can't elements move freely to any position in a sentence? Why are some movement dependencies impossible across certain structural boundaries, no matter how far away the relevant positions are?

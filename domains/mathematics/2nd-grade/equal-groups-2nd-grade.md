@@ -36,6 +36,45 @@ Use physical objects to build equal groups before moving to pictures. Ask 'how m
 - Not recognizing that equal-groups situations are different from plain addition.
 - Thinking there is only one way to find the total (students should see both repeated addition and skip counting).
 
+## Questions
+
+```yaml
+- question: "A store shelf has 3 rows of cans. Row 1 has 4 cans, Row 2 has 4 cans, Row 3 has 3 cans. Is this an equal-groups situation?"
+  type: multiple-choice
+  options:
+    - "Yes — the cans are arranged in rows, which makes them equal groups"
+    - "Yes — most of the rows have the same number, so it counts as equal groups"
+    - "No — not every group has the same number of objects, so the groups are not equal"
+    - "No — you need at least 4 groups before it can be called an equal-groups situation"
+  answer: 2
+  explanation: "Equal groups requires that EVERY group has exactly the same number. If even one group has a different amount, it is not an equal-groups situation — it is just addition. Two rows of 4 and one row of 3 cannot be represented as multiplication because the group size is not consistent. Options A and B reflect the misconception that 'mostly equal' or 'arranged in rows' is sufficient."
+
+- question: "In the situation '5 bags with 3 apples each,' which two pieces of information define the equal-groups structure?"
+  type: multiple-choice
+  options:
+    - "The total number of apples (15) and the number of bags (5)"
+    - "The number of bags (5) and the number of apples per bag (3)"
+    - "The number of apples per bag (3) and the total number of apples (15)"
+    - "The total number of apples (15) and the number left over (0)"
+  answer: 1
+  explanation: "An equal-groups situation is defined by two things: how many groups there are, and how many objects are in each group. '5 bags' is the number of groups; '3 apples each' is the group size. The total (15) is what you find using these two pieces — it is the answer, not part of the structure. You must always ask both questions: 'How many groups?' and 'How many in each group?'"
+
+- question: "In an equal-groups situation, the total can be found by either repeated addition or skip counting — both methods give the same answer."
+  type: true-false
+  answer: true
+  explanation: "Yes — for 3 groups of 5, repeated addition gives 5 + 5 + 5 = 15, and skip counting by 5 three times also gives 5, 10, 15. These are two different procedures for the same underlying structure, and they always agree. Seeing both methods makes equal groups more flexible and connects prior skip-counting knowledge to the new concept."
+
+- question: "Any collection of objects arranged into groups is an equal-groups situation."
+  type: true-false
+  answer: false
+  explanation: "The word 'equal' is essential — all groups must have the same number. If you have 4 objects in one group and 7 in another, that is just addition; there is no repeated structure to exploit. Equal groups require the group size to be consistent across all groups. This uniformity is exactly what makes multiplication possible: you can describe the situation with just two numbers (groups × size) instead of listing each group separately."
+
+- question: "What makes a situation an 'equal groups' situation rather than an ordinary addition problem? Explain using an example."
+  type: short-answer
+  answer: "In an equal-groups situation, every group contains the same number of objects. For example, 4 bags each holding 6 marbles is an equal-groups situation — the group size (6) is the same in every bag. By contrast, if one bag has 6 marbles, another has 4, and another has 9, you still add them, but it is not equal groups because the group sizes differ. The equal structure lets you use repeated addition (6 + 6 + 6 + 6) or skip counting instead of adding different numbers."
+  explanation: "The sameness of the group size is what makes equal groups special. It creates a pattern — the same number repeated — which is exactly what multiplication captures. Without that sameness, you just have a collection of different-sized groups, and you must add each one individually. Equal groups is the key conceptual step between addition (adding different quantities) and multiplication (scaling a single quantity)."
+```
+
 ## Explainer
 
 You already know how to add numbers within 20, and you've practiced skip counting by 2s and 5s. Equal groups bring those skills together and reveal something new: sometimes addition has a pattern, and that pattern has a name. When every group contains the same number of objects, the situation is called an **equal-groups** situation — and it is the idea that multiplication is built on.

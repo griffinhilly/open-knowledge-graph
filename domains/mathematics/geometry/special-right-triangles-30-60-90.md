@@ -31,6 +31,45 @@ Derive the ratios by cutting an equilateral triangle in half and applying the Py
 - Confusing 30-60-90 ratios with 45-45-90 ratios.
 - Thinking the ratio 1:sqrt(3):2 means the sides are literally 1, sqrt(3), and 2 rather than being scalable by any factor.
 
+## Questions
+
+```yaml
+- question: "A 30-60-90 triangle has a hypotenuse of 14. What is the length of the longer leg?"
+  type: multiple-choice
+  options:
+    - "7"
+    - "7√3"
+    - "14√3"
+    - "7√2"
+  answer: 1
+  explanation: "The scale factor is 7 (hypotenuse = 2 × scale factor, so 14 ÷ 2 = 7). The longer leg is opposite the 60° angle and equals √3 × scale factor = 7√3. Option D (7√2) is the error of applying 45-45-90 ratios; option C forgets to apply the scale factor correctly."
+
+- question: "A student claims: 'In a 30-60-90 triangle with short leg 5, the side opposite 60° has length 5√2.' What is wrong?"
+  type: multiple-choice
+  options:
+    - "Nothing — √2 applies when you double the short leg"
+    - "The side opposite 60° is 5√3, not 5√2 — √2 belongs to the 45-45-90 triangle"
+    - "The short leg should be 10 for this computation to work"
+    - "The hypotenuse is 5√2, not the longer leg"
+  answer: 1
+  explanation: "The 30-60-90 ratios are 1 : √3 : 2. The longer leg (opposite 60°) is always √3 times the shorter leg — here, 5√3. The student confused this with the 45-45-90 triangle, whose ratio is 1 : 1 : √2. This is the single most common error on problems involving special right triangles."
+
+- question: "In a 30-60-90 triangle, the hypotenuse is exactly twice the length of the shortest side."
+  type: true-false
+  answer: true
+  explanation: "This follows directly from the 1 : √3 : 2 ratio. The shortest side (opposite 30°) corresponds to ratio 1, and the hypotenuse corresponds to ratio 2 — always double, regardless of the scale factor. Deriving this from the equilateral triangle construction makes it unforgettable: the short leg is half the original equilateral triangle's side, and the hypotenuse is the full side."
+
+- question: "The ratio 1 : √3 : 2 in a 30-60-90 triangle means the sides must measure exactly 1, √3, and 2 units."
+  type: true-false
+  answer: false
+  explanation: "The ratio is scalable by any positive factor. A 30-60-90 triangle with hypotenuse 10 has sides 5, 5√3, and 10. The ratio describes the proportional relationship, not the literal measurements. Thinking the ratios are fixed values (not a scalable template) is one of the most common misconceptions with special right triangles."
+
+- question: "How can you derive the 30-60-90 side ratios from scratch without memorizing them?"
+  type: short-answer
+  answer: "Start with an equilateral triangle with all sides of length 2. Cut it in half with an altitude from one vertex to the midpoint of the opposite side. Each half is a right triangle with hypotenuse 2 (one original side), short leg 1 (half the base), and a 30-60-90 degree angle arrangement. Apply the Pythagorean theorem to find the altitude: 1² + h² = 2², so h = √3. The ratio is therefore 1 : √3 : 2."
+  explanation: "This derivation matters because it ties the ratios to geometry you already know, making them impossible to forget. It also reveals why √3 goes with the 60° angle — it is the altitude of the equilateral triangle — which prevents the common error of putting √3 on the wrong side."
+```
+
 ## Explainer
 
 You know the Pythagorean theorem: in a right triangle, a² + b² = c². The 30-60-90 triangle gives you a specific set of side ratios you can derive once and then use forever — no calculator required. Start with an equilateral triangle where every side has length 2 and every angle is 60°. Cut it straight down the middle from one vertex to the opposite side's midpoint. This produces two congruent right triangles. Each right triangle has a hypotenuse of 2 (one full side of the equilateral triangle), a short leg of 1 (half the base), and angles of 30°, 60°, and 90°. The long leg — the altitude you just cut along — can be found with the Pythagorean theorem: 1² + h² = 2², so h² = 3, and h = √3. The sides are in ratio 1 : √3 : 2.

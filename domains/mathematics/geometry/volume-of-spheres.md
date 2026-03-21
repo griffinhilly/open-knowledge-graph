@@ -29,6 +29,45 @@ Present the formulas and practice computing volumes and surface areas. Compare s
 - Cubing the diameter instead of the radius.
 - Forgetting the 4/3 coefficient.
 
+## Questions
+
+```yaml
+- question: "A sphere has radius 3 cm. You double the radius to 6 cm. By what factor does the volume increase?"
+  type: multiple-choice
+  options:
+    - "2 — the volume doubles because the radius doubled"
+    - "4 — the volume quadruples because area scales as r²"
+    - "6 — the factor matches the new radius value"
+    - "8 — the volume increases 8-fold because volume scales as r³"
+  answer: 3
+  explanation: "Volume scales as r³. When radius doubles, volume increases by 2³ = 8. This is the most counterintuitive property of sphere volume: a seemingly modest linear change produces a dramatic volumetric change. Answer A would be correct if volume scaled linearly; answer B would be correct if volume scaled as r² (like area does). Recognizing that volume involves r³ while area involves r² is the key dimensional check for all 3D formulas."
+
+- question: "A sphere is inscribed in a cylinder such that the sphere's diameter equals both the cylinder's diameter and height. What fraction of the cylinder's volume does the sphere occupy?"
+  type: multiple-choice
+  options:
+    - "1/3"
+    - "1/2"
+    - "2/3"
+    - "3/4"
+  answer: 2
+  explanation: "This is Archimedes' proportion. The cylinder has volume πr² × 2r = 2πr³. The sphere has volume (4/3)πr³. Dividing: (4/3)πr³ ÷ 2πr³ = (4/3) ÷ 2 = 2/3. The sphere occupies exactly 2/3 of its circumscribed cylinder. The remaining 1/3 is the gap between sphere and cylinder. This 2/3 relationship is part of the elegant 1:2:3 ratio between cone, sphere, and cylinder sharing the same radius and height equal to the diameter."
+
+- question: "The volume formula V = (4/3)πr³ and the surface area formula SA = 4πr² involve the same variables, so either could be used to find volume depending on which is easier to remember."
+  type: true-false
+  answer: false
+  explanation: "These formulas measure fundamentally different things and cannot be substituted for each other. Volume involves r³ and is measured in cubic units (cm³, m³); surface area involves r² and is measured in square units (cm², m²). This dimensional difference is a built-in error check: if you compute 'volume' and get an answer involving r², you've used the wrong formula. The structural distinction between r² (area) and r³ (volume) is more important than the specific coefficients."
+
+- question: "When solving for the radius of a sphere given its volume, you must take the cube root of a rearranged expression — not the square root."
+  type: true-false
+  answer: true
+  explanation: "From V = (4/3)πr³, solving for r gives r³ = 3V/(4π), so r = ∛(3V/4π). Students who reach automatically for a square root are applying the logic of 2D area formulas, where r = √(A/π) for a circle. That logic does not transfer to volume. The cube root step is the one most commonly skipped under exam pressure — and it produces an answer in the wrong units, which dimensional analysis would catch."
+
+- question: "Explain the '1:2:3 ratio' that Archimedes discovered, and explain why it is useful as a practical computational shortcut."
+  type: short-answer
+  answer: "For a cone, sphere, and cylinder that all share radius r and height 2r (the sphere's diameter), their volumes are in a 1:2:3 ratio. The cone has volume (2/3)πr³, the sphere (4/3)πr³, and the cylinder 2πr³ — ratios of 1:2:3. Once you know any one of these volumes, you can find the others by multiplying or dividing by 2, without recomputing from the formulas. The sphere is always 2/3 of the circumscribed cylinder; the cone is always 1/3."
+  explanation: "Archimedes valued this result so highly that he asked for a diagram of the sphere inscribed in a cylinder to be carved on his tomb. The practical value is as a cross-check: the 1:2:3 ratio is clean enough that a deviation from it signals a calculation error. It also provides intuition about scale — a sphere is surprisingly large relative to its enclosing cylinder, occupying 2/3 of it — which is useful for estimation problems and for building 3D spatial intuition."
+```
+
 ## Explainer
 
 You already know how to find the volume of cylinders, cones, and pyramids. The sphere formula V = (4/3)πr³ fits into this family through an elegant relationship that Archimedes discovered over two thousand years ago. A **sphere** of radius r fits inside a cylinder of the same radius and height equal to the diameter (2r). That cylinder has volume πr² × 2r = 2πr³. The sphere's volume is (4/3)πr³, which is exactly 2/3 of the cylinder's volume.

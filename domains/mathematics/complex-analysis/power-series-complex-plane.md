@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 A power series Σ aₙ(z - z₀)^n converges on a disk |z - z₀| < R (the radius of convergence) to a holomorphic function, and diverges outside. On any compact subset of the disk, convergence is uniform. The function can be differentiated and integrated term-by-term inside the radius of convergence.
 
+## Questions
+
+```yaml
+- question: "The function f(x) = 1/(1 + x²) is smooth and well-defined for all real x. Yet its Taylor series centered at 0 converges only for |x| < 1. What is the correct explanation?"
+  type: multiple-choice
+  options:
+    - "The Taylor series is computed incorrectly; 1/(1+x²) should have an infinite radius of convergence since it has no real singularities"
+    - "The series converges only where the function is analytic, and 1/(1+x²) has a singularity at x = 1"
+    - "The complex extension 1/(1+z²) has poles at z = ±i, which are distance 1 from the origin, limiting the radius of convergence"
+    - "Convergence is limited to |x| < 1 because the function oscillates rapidly near x = ±1"
+  answer: 2
+  explanation: "The radius of convergence equals the distance from the center of expansion to the nearest singularity in the *complex* plane. The complex extension f(z) = 1/(1+z²) has poles at z = i and z = −i, both distance 1 from the origin. Even though these poles are purely imaginary and the real function is smooth everywhere on ℝ, the power series 'sees' them. The key insight is that power series convergence is determined by singularities that may be invisible when you look only at the real line."
+
+- question: "Inside the radius of convergence, a complex power series converges to a function that is..."
+  type: multiple-choice
+  options:
+    - "Continuous but not necessarily differentiable"
+    - "Infinitely differentiable in the real sense, but not complex-differentiable"
+    - "Holomorphic — complex-differentiable at every point inside the disk — and therefore infinitely differentiable"
+    - "Holomorphic only at the center z₀, with decreasing differentiability toward the boundary"
+  answer: 2
+  explanation: "A fundamental theorem of complex analysis states that the sum of a convergent power series is holomorphic throughout its disk of convergence. Holomorphic means complex-differentiable — and complex differentiability is much stronger than real differentiability. Holomorphic functions are automatically infinitely differentiable (differentiating the power series term-by-term any number of times yields a series with the same radius of convergence). There is no real analogue: real-smooth functions need not be real-analytic."
+
+- question: "The power series for 1/(1+x²) centered at x = 0 converges for all real x because the function is smooth on all of ℝ."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception this topic corrects. Smoothness on ℝ does not guarantee convergence everywhere on ℝ. The radius of convergence is determined by singularities in the *complex* plane, which may lie off the real axis entirely. For 1/(1+z²), the complex poles at z = ±i are distance 1 from the origin, so the power series converges only for |z| < 1. The series diverges for |x| > 1 even though the real function is perfectly smooth there."
+
+- question: "On any compact subset of the disk of convergence, a complex power series converges uniformly, which justifies term-by-term differentiation and integration."
+  type: true-false
+  answer: true
+  explanation: "Uniform convergence on compact subsets (closed disks |z − z₀| ≤ r for r < R) is what permits swapping the limit with differentiation and integration. On such subsets the partial sums converge uniformly, and uniform convergence interchanges with integrals and derivatives. This is why the derivative of a power series is computed by differentiating term-by-term, and the resulting series converges on the same open disk with the same radius of convergence R."
+
+- question: "Explain why the radius of convergence of a complex power series is determined by the nearest singularity in the complex plane, and use this to explain why the power series for 1/(1+x²) centered at 0 does not converge for all real x despite the function being smooth on ℝ."
+  type: short-answer
+  answer: "A power series represents a holomorphic function inside its disk of convergence. Holomorphic functions cannot be continued through singularities — at a singularity the function ceases to be defined or differentiable. The disk of convergence is the largest disk centered at z₀ in which the represented function is holomorphic, which means it extends up to (but not past) the nearest singularity. For 1/(1+z²), the singularities are poles at z = ±i, distance 1 from the origin. Even though these poles lie off the real axis, the power series along the real line still 'feels' their presence, and convergence stops at radius 1."
+  explanation: "This example shows why complex analysis and real analysis cannot be fully separated: to understand real power series, you must look in the complex plane. The function 1/(1+x²) looks innocent on ℝ but harbors invisible obstacles just off-axis that limit where its Taylor series converges."
+```
+
 ## Explainer
 
 You've already worked with complex Taylor series, so you know how to represent holomorphic functions as power series. Now the goal is to understand the geometry of convergence in the complex plane and why it differs sharply from the real case.

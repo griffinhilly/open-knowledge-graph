@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Entropy is calculated from property tables for common substances or from equations of state; for ideal gases, entropy change depends on temperature and pressure ratios. Relative entropy values in tables are referenced to an arbitrary baseline, but entropy changes between states are absolute and path-independent. Accurate entropy calculations require careful interpolation in tables and proper handling of saturation conditions.
 
+## Questions
+
+```yaml
+- question: "Steam at a known temperature and pressure is in a two-phase (liquid-vapor) state with quality x = 0.8. The steam table gives s_f = 1.0 kJ/(kg·K) and s_fg = 6.0 kJ/(kg·K). What is the specific entropy of this mixture?"
+  type: multiple-choice
+  options:
+    - "1.0 kJ/(kg·K) — use s_f for the liquid phase"
+    - "4.8 kJ/(kg·K) — use only the vapor fraction: x·s_fg"
+    - "5.8 kJ/(kg·K) — use s = s_f + x·s_fg"
+    - "7.0 kJ/(kg·K) — use s_g = s_f + s_fg"
+  answer: 2
+  explanation: "For a two-phase mixture, entropy is interpolated using quality: s = s_f + x·s_fg = 1.0 + 0.8×6.0 = 1.0 + 4.8 = 5.8 kJ/(kg·K). This mirrors the enthalpy calculation. Option B incorrectly ignores the liquid contribution (s_f); option D gives the entropy of saturated vapor (x = 1); option A gives only saturated liquid (x = 0). Quality x represents the mass fraction of vapor, so the mixture entropy is a weighted sum."
+
+- question: "A real steam turbine has inlet entropy s₁ = 6.9 kJ/(kg·K). An isentropic turbine operating between the same pressures would have exit entropy s₂,ideal = 6.9 kJ/(kg·K). What must be true of the actual exit entropy s₂,actual?"
+  type: multiple-choice
+  options:
+    - "s₂,actual = s₂,ideal = 6.9 kJ/(kg·K) — entropy is conserved through any turbine"
+    - "s₂,actual < s₂,ideal — a real turbine converts more energy to work"
+    - "s₂,actual > s₂,ideal — irreversibilities in the real turbine generate entropy"
+    - "s₂,actual could be less than s₁ if the turbine operates efficiently enough"
+  answer: 2
+  explanation: "The second law requires that entropy generation is non-negative for any real process. A real turbine has irreversibilities (friction, heat transfer through finite temperature differences, flow separation) that generate entropy, so the actual exit entropy must exceed the isentropic exit entropy. This means the actual exit enthalpy is *lower* than the isentropic enthalpy (less work extracted), giving an isentropic efficiency less than 1. Entropy can never decrease in an adiabatic real process — the isentropic case represents the best possible performance."
+
+- question: "The entropy change between two thermodynamic states can be calculated even when the actual process connecting them was irreversible, because entropy is a state property."
+  type: true-false
+  answer: true
+  explanation: "True. This is the practical power of entropy being a state property: Δs = s₂ − s₁ depends only on the initial and final states, not on the path or whether the process was reversible or irreversible. To calculate Δs, you use property tables or the Gibbs equations for a convenient reversible path — without knowing anything about the actual (possibly irreversible) process. The definition ds = δQ_rev/T applies to the reversible calculation path, not necessarily the real process."
+
+- question: "The specific entropy value s = 7.3 kJ/(kg·K) read from a superheated steam table is an absolute physical quantity with the same meaning regardless of reference state."
+  type: true-false
+  answer: false
+  explanation: "False. Entropy values in steam tables are referenced to an *arbitrary* datum (conventionally, saturated liquid water at 0°C). The absolute number has no physical significance by itself — only the *difference* between two states (Δs = s₂ − s₁) is physically meaningful. Because the same reference datum is used throughout the table, it cancels when you subtract: Δs = s₂,table − s₁,table. Engineering entropy calculations always involve entropy *changes*, never isolated entropy values."
+
+- question: "In entropy calculations using steam tables, the reference datum (e.g., setting s_f = 0 at 0°C) is arbitrary. Why does this not cause problems in engineering calculations?"
+  type: short-answer
+  answer: "Because engineering calculations always use entropy *differences* (Δs = s₂ − s₁) between two states, never isolated entropy values. When you subtract two table entries referenced to the same datum, the reference value cancels algebraically. The datum shifts both values by the same constant, so the difference is unaffected regardless of what reference was chosen."
+  explanation: "This parallels elevation in gravitational potential energy: you can set sea level as zero or use any other reference, and the difference in potential energy between two heights is unchanged. The same principle applies to internal energy and enthalpy tables, which also use arbitrary reference datums. The only context requiring absolute entropy values is chemical equilibrium (using third-law entropy referenced to 0 K), which is a different domain from standard engineering thermodynamics."
+```
+
 ## Explainer
 
 You already know that entropy is a state property — defined as ds = δQ_rev / T — and that the second law links it to irreversibility. Now the practical question is: given two thermodynamic states, what is the numerical entropy difference? The answer depends on whether you are working with a real substance (use tables) or an ideal gas (use equations).

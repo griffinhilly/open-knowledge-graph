@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Deductive argument validity depends on form, not content. The same valid form remains valid with any subject matter. For example, 'All X are Y. Z is X. Therefore, Z is Y' is valid regardless of whether X, Y, and Z refer to dogs, numbers, or abstract concepts.
 
+## Questions
+
+```yaml
+- question: "Which argument has the same logical form as: 'All mammals are warm-blooded. Dolphins are mammals. Therefore, dolphins are warm-blooded.'?"
+  type: multiple-choice
+  options:
+    - "Some philosophers are wise. Socrates is a philosopher. Therefore, Socrates is wise."
+    - "All prime numbers greater than 2 are odd. 7 is a prime greater than 2. Therefore, 7 is odd."
+    - "If it rains, the ground gets wet. The ground is wet. Therefore, it rained."
+    - "No fish are mammals. Sharks are fish. Therefore, sharks are not mammals."
+  answer: 1
+  explanation: "Option B shares the form 'All X are Y. Z is X. Therefore, Z is Y.' — a universal affirmative syllogism valid for any subject matter. Option A uses 'Some' instead of 'All', which is a different (and invalid) form — the conclusion does not follow. Option C commits the fallacy of affirming the consequent. Option D uses a 'No' universal premise — a different valid form but not the same one. Logical form is preserved when the structural skeleton (quantifiers and variable arrangement) matches exactly."
+
+- question: "An argument is found to have a valid logical form, but one of its premises is false. What can be concluded?"
+  type: multiple-choice
+  options:
+    - "The conclusion must also be false, since the false premise undermines the argument"
+    - "The argument is sound, because the valid form guarantees the conclusion"
+    - "The argument is valid but not sound; the conclusion may or may not be true"
+    - "The form must be invalid, since valid arguments cannot have false premises"
+  answer: 2
+  explanation: "Validity requires only that IF the premises were true, the conclusion could not be false — it says nothing about whether premises actually are true. A valid argument with a false premise is still valid; it is simply not sound. Soundness requires both validity AND all true premises. With a false premise, we cannot trust the conclusion from this argument alone, but the conclusion might still be true for other reasons. Options A and D confuse validity with soundness."
+
+- question: "A valid argument can have false premises and still be valid."
+  type: true-false
+  answer: true
+  explanation: "True. 'All fish are mammals. Sharks are fish. Therefore, sharks are mammals.' has the valid universal syllogism form — the conclusion follows necessarily from the premises — even though the first premise is false. Validity is entirely about form: does the conclusion follow from the premises? It is not about whether the premises are actually true. That stricter standard is soundness (valid + true premises)."
+
+- question: "If an argument has a true conclusion, then the argument must be valid."
+  type: true-false
+  answer: false
+  explanation: "False. An argument can reach a true conclusion through entirely invalid reasoning. 'Some birds can fly. Penguins are birds. Therefore, the Earth is round.' has a true conclusion, but the premises provide zero support for it — the argument is completely invalid. The conclusion's truth here is accidental, not established by the argument. A valid argument guarantees that true premises produce a true conclusion; it cannot guarantee anything in reverse about a conclusion that happens to be true."
+
+- question: "What is the counterexample method for testing logical validity, and why does a single counterexample suffice to prove a form is invalid?"
+  type: short-answer
+  answer: "Construct another argument with the exact same logical form as the one being tested, but with obviously true premises and an obviously false conclusion. If such an argument can be built, the form is invalid. One counterexample suffices because validity is a universal claim: 'it is impossible for any argument of this form to have true premises and a false conclusion.' A single instance where true premises yield a false conclusion refutes that universal claim."
+  explanation: "The power of this method is that it sidesteps disputes about the original argument's content. You don't need to argue about whether the premises are actually true or the conclusion meaningful — you just need to find any instance where the form breaks down. This is why logical form analysis is so useful: once you identify the form, you can test it on any subject matter, choosing examples as transparent as possible to expose the structure."
+```
+
 ## Explainer
 
 Building on your understanding of deductive validity, the key insight here is why validity is a matter of **form** rather than content. A valid argument is one where it's impossible for the premises to be true and the conclusion false. But validity doesn't depend on what the premises are actually about — it depends on their structural arrangement. Two arguments with entirely different subject matter can share the same logical form, and if one is valid, the other must be too.

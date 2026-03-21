@@ -29,6 +29,45 @@ Derive it from the slope formula so students see it is not an arbitrary form but
 - Thinking you must always use the "first" point listed — either point works.
 - Not converting to slope-intercept form when asked (stopping at point-slope form).
 
+## Questions
+
+```yaml
+- question: "A line passes through the point (−3, 4) with slope 2. Which equation correctly represents this line in point-slope form?"
+  type: multiple-choice
+  options:
+    - "y − 4 = 2(x − 3)"
+    - "y − 4 = 2(x + 3)"
+    - "y + 4 = 2(x + 3)"
+    - "y − 4 = 2x − 3"
+  answer: 1
+  explanation: "The form is y − y₁ = m(x − x₁). With y₁ = 4, m = 2, and x₁ = −3, substituting literally gives y − 4 = 2(x − (−3)), which simplifies to y − 4 = 2(x + 3). Option A makes the classic sign error: it writes x − 3 instead of x + 3, dropping the double negative. The formula demands 'x minus x₁' — subtracting a negative x₁ produces addition."
+
+- question: "A line has slope 3 and passes through the point (2, 7). After converting to slope-intercept form, what is the y-intercept?"
+  type: multiple-choice
+  options:
+    - "1"
+    - "13"
+    - "−1"
+    - "7"
+  answer: 0
+  explanation: "Starting from point-slope form: y − 7 = 3(x − 2). Distribute: y − 7 = 3x − 6. Add 7: y = 3x + 1. The y-intercept is 1. Option D (7) is a common error — students forget to distribute the slope and incorrectly treat the y₁ value as the y-intercept. Option B (13) comes from treating the point as (−2, 7) and adding rather than subtracting."
+
+- question: "When writing a line's equation in point-slope form using two given points, it doesn't matter which point you use as (x₁, y₁) — both produce the same line."
+  type: true-false
+  answer: true
+  explanation: "Both points lie on the same line, so plugging either one into y − y₁ = m(x − x₁) produces a different-looking equation that describes the same geometric object. Distributing and simplifying both equations to slope-intercept form yields identical results. Students sometimes believe they must use the 'first' point listed, but the choice is free."
+
+- question: "The equation y − 3 = 4(x + 2) means the line passes through the point (2, 3)."
+  type: true-false
+  answer: false
+  explanation: "The form is y − y₁ = m(x − x₁), so x₁ is the value being subtracted from x. Since the equation shows (x + 2), that equals (x − (−2)), meaning x₁ = −2, not 2. The line passes through (−2, 3). This is the sign trap: when the x-coordinate is negative, subtracting it produces addition, which students misread as a positive coordinate."
+
+- question: "Where does point-slope form come from, and what two pieces of information do you need to write a linear equation using it?"
+  type: short-answer
+  answer: "Point-slope form comes directly from the slope definition: m = (y − y₁)/(x − x₁). Multiplying both sides by (x − x₁) gives y − y₁ = m(x − x₁). You need the slope m and any one specific point (x₁, y₁) on the line. If two points are given instead, compute the slope first, then use either point."
+  explanation: "Recognizing point-slope form as a rearrangement of the slope definition — not an arbitrary formula — makes it easier to reconstruct and apply correctly. It also reveals why the signs matter: each variable in the formula is subtracted from its corresponding point coordinate, which is why negative coordinates produce addition in the equation."
+```
+
 ## Explainer
 
 You already know that **slope** measures the steepness of a line — the ratio of vertical change to horizontal change, rise over run. Point-slope form isn't a new idea layered on top of that; it's just the slope definition written in a slightly rearranged way. Starting from slope = (y − y₁)/(x − x₁), multiply both sides by (x − x₁) and you get **y − y₁ = m(x − x₁)**. That's the whole derivation. The form is worth naming because it's often the fastest route from information to equation.

@@ -35,6 +35,45 @@ Reading short Platonic dialogues (Euthyphro, Meno) as primary texts, then asking
 - Greek philosophy was not purely theoretical; it was politically engaged and often dangerous—Socrates was executed, Aristotle fled Athens.
 - 'The Greeks invented philosophy' overstates; Egyptian and Mesopotamian intellectual traditions predate Greek philosophy and influenced it.
 
+## Questions
+
+```yaml
+- question: "Thales proposed that all things are ultimately water — a claim almost certainly wrong. What makes this historically significant as a philosophical act?"
+  type: multiple-choice
+  options:
+    - "It was the first cosmological claim made by a Greek thinker, predating all other natural inquiry"
+    - "It accurately anticipated the modern understanding of water as essential to life"
+    - "It offered a natural, reasoned explanation open to counter-argument rather than an appeal to divine authority"
+    - "It demonstrated superior observational methodology compared to Egyptian and Mesopotamian traditions"
+  answer: 2
+  explanation: "Thales's claim matters not because it is correct but because of its form: it gives a reason, invites counter-argument, and implies that the cosmos is explicable by natural principles rather than divine will. This is the intellectual move that defines philosophy as a genre — substituting reasoned accounts for mythological ones. Anaximenes, Heraclitus, and others immediately argued against Thales's specific answer while accepting the framework of reasoned cosmological inquiry."
+
+- question: "Plato concluded that genuine knowledge must be of eternal, unchanging Forms rather than of the sensory world. Which line of reasoning best captures why Plato reached this conclusion?"
+  type: multiple-choice
+  options:
+    - "Sensory experience deceives us constantly, so only mathematical reasoning can count as knowledge"
+    - "Socrates demonstrated through elenchus that no particular thing is fully just or beautiful, implying that Justice and Beauty themselves must exist as stable objects of knowledge"
+    - "Egyptian and Mesopotamian priestly traditions had already established that eternal objects are the only reliable referents"
+    - "Political governance required eternal moral standards, so Forms were invented to justify Plato's aristocratic politics"
+  answer: 1
+  explanation: "Plato's Form theory is a direct response to the epistemological problem Socrates's questioning created: if knowledge is possible (and it must be, or philosophy is pointless), it cannot be knowledge of changing, imperfect particulars. Socrates's elenchus showed that no particular act fully captures what Justice IS. The only stable object of knowledge must therefore be the Form — eternal, not subject to change or perception. The theory is a philosophical necessity given Plato's starting commitments, not an arbitrary invention."
+
+- question: "Philosophy emerged in the Greek polis partly because the political culture of public debate, demand for reasons, and questioning of authority created intellectual habits that translated naturally into philosophical inquiry."
+  type: true-false
+  answer: true
+  explanation: "The connection between the polis and philosophy is causal, not coincidental. Public deliberation in assemblies and law courts trained Greeks to argue, demand justification, and treat disagreement as resolvable through reasoning rather than deference to status or tradition. Socrates operated directly in this culture — conducting philosophy through civic conversation, not monastic study. Philosophy inherited the polis's basic norm: claims must be accountable to reasons."
+
+- question: "Aristotle carried Plato's philosophical project forward by providing empirical evidence for the existence of transcendent Forms in the natural world."
+  type: true-false
+  answer: false
+  explanation: "Aristotle explicitly rejected Plato's transcendent Forms. He argued that universals exist in particular things — the form of a horse is in actual horses, not in a separate realm — and turned philosophy toward systematic empirical investigation of nature. Where Plato sought a single transcendent principle, Aristotle classified, categorized, and described the diversity of actual things. His turn to empiricism was a departure from, not a completion of, Platonic metaphysics."
+
+- question: "How did Socrates's method of philosophical inquiry reflect the culture of the Athenian polis, and why did it make him politically dangerous despite operating in a democracy?"
+  type: short-answer
+  answer: "Socrates conducted philosophy through public elenchus in civic spaces — the agora, gymnasia, symposia — applying the polis's habit of demanding justification to claims about virtue, piety, and justice made by prominent citizens. By showing that respected figures did not actually know what they claimed to know, he embarrassed the powerful and implied that accepted authority and democratic consensus were not reliable guides to truth. A democracy that had recently survived war and internal conflict was sensitive to challenges to civic norms. His execution for 'impiety and corrupting the youth' shows that even democratic political culture has limits on how far public questioning of authority is tolerated."
+  explanation: "The key irony is that Socrates used the tools of democratic culture — argument, public discourse, accountability to reasons — against the complacencies that democracy tends to generate. His danger was not anti-democratic ideology but something more unsettling: the application of democratic norms of accountability to the beliefs and self-knowledge of democratic citizens themselves."
+```
+
 ## Explainer
 
 You already know the Greek *polis* as a political unit defined by citizen self-governance, public debate, and competitive civic culture. Philosophy did not emerge despite this environment — it emerged from it. The habit of submitting claims to public argument, of demanding reasons rather than accepting authority, of treating disagreement as resolvable by reasoning rather than by status or tradition — these were *polis* practices before they were philosophical ones. When Thales of Miletus (~624–548 BCE) proposed that all things are ultimately water, he was doing something unusual not because he was wrong but because he was giving a *reason* — a natural rather than divine explanation — and implicitly inviting counter-argument.

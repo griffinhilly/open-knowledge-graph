@@ -31,6 +31,45 @@ Calculate your monthly expenses and compare them to what 60% of your gross salar
 - Young, healthy people do not need disability insurance; roughly one in four workers will experience a disability lasting 90+ days before retirement age, and the risk is highest during peak earning years.
 - Employer-provided disability insurance is always sufficient; group policies often have lower benefit caps, may not cover bonuses or commissions, and the benefit is taxable if the employer pays the premium — potentially leaving you with far less than expected.
 
+## Questions
+
+```yaml
+- question: "A surgeon develops a neurological condition that prevents fine motor control. She could still work as a hospital administrator. Under which policy definition would she receive disability benefits?"
+  type: multiple-choice
+  options:
+    - "Any-occupation — because she cannot perform any work at all"
+    - "Own-occupation — because she cannot perform the specific duties of her current profession"
+    - "Both definitions — any inability to work triggers either policy"
+    - "Neither — administrative work is a comparable occupation so no policy applies"
+  answer: 1
+  explanation: "An own-occupation policy pays if you cannot perform the specific duties of *your* current occupation, regardless of whether you could do other work. The surgeon qualifies because she cannot do surgery, even though she could work as an administrator. An any-occupation policy would not pay here — that stricter standard requires she be unable to perform *any* gainful work, which she clearly can. The distinction between these definitions is the most consequential language in a disability policy."
+
+- question: "Your employer pays 100% of your long-term disability insurance premium. Your policy replaces 60% of your salary. After taxes, how much of your salary will you actually receive if you go on claim?"
+  type: multiple-choice
+  options:
+    - "60% — the stated replacement rate is the net benefit"
+    - "More than 60% — disability benefits are always tax-exempt"
+    - "Less than 60% — employer-paid premium means the benefit is taxable income"
+    - "It depends on the policy type, not on who pays the premium"
+  answer: 2
+  explanation: "When an employer pays the disability insurance premium, the IRS treats the benefit as taxable income. So a 60% gross replacement rate may net to 40–45% after federal and state taxes — a significant gap when you're trying to cover living expenses. If you pay the premium yourself with after-tax dollars (as with an individual policy), the benefit is tax-free. This tax treatment difference is a major reason financial planners often recommend supplementing employer group coverage with an individual policy."
+
+- question: "Approximately one in four workers will experience a disability lasting 90 or more days before reaching retirement age."
+  type: true-false
+  answer: true
+  explanation: "This statistic surprises most people who associate disability insurance with rare catastrophic accidents. In reality, most long-term disabilities result from common conditions — back problems, cancer, mental health disorders, cardiovascular disease — that accumulate gradually. The one-in-four figure means disability risk is not a tail risk to be dismissed; it is a mainstream probability that most people underestimate, particularly because they conflate 'disability' with permanent paralysis rather than any condition that prevents working for months."
+
+- question: "Workers' compensation insurance provides income replacement if you become disabled due to a chronic back problem that developed from years of desk work."
+  type: true-false
+  answer: false
+  explanation: "Workers' compensation covers only injuries and illnesses that are directly caused by your job — a construction worker falling from scaffolding, or a factory worker developing repetitive strain injury from a specific work task. It does not cover conditions that originate outside the workplace, even if work aggravated them. The vast majority of long-term disabilities — including back problems, cancer, heart disease, and mental health conditions — are not work-caused and therefore not covered by workers' comp. Disability insurance fills this gap."
+
+- question: "Why does the definition of 'disability' in a policy matter more than the benefit amount or elimination period?"
+  type: short-answer
+  answer: "The definition determines whether a claim is paid at all — a high benefit amount is worthless if you never qualify to receive it. An own-occupation definition is far more protective: it pays when you cannot perform your specific job, even if you could do other work. An any-occupation definition requires that you be unable to perform any gainful employment whatsoever, a threshold most disabled professionals never reach. A 70% income replacement rate under an any-occupation policy may pay nothing, while a 50% rate under an own-occupation policy provides real protection."
+  explanation: "This is the most important due-diligence question when evaluating disability coverage. Many employer group plans use an own-occupation definition for the first two years, then switch to any-occupation — a policy design that terminates benefits precisely as the disabled person has exhausted their savings. Reading the actual policy language, not just the marketing summary, is essential to understanding what protection you actually have."
+```
+
 ## Explainer
 
 You already understand from insurance principles that insurance is a mechanism for transferring risk — you pay a predictable premium to avoid an unpredictable catastrophic loss. With disability insurance, the risk being transferred is the loss of your earned income. Most people insure their car and their home without hesitation, but your ability to earn a paycheck is almost certainly your most valuable financial asset. A 35-year-old earning $70,000 per year who works until 65 has $2.1 million in future earnings at stake. Disability insurance protects that asset.

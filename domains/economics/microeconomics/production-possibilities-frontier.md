@@ -30,6 +30,45 @@ Draw PPFs by hand for simple two-good economies and practice identifying efficie
 - Students confuse movement *along* the PPF (reallocation of resources) with a *shift* of the PPF (change in capacity).
 - A straight-line PPF implies constant opportunity costs, not zero — the distinction matters.
 
+## Questions
+
+```yaml
+- question: "An economy is producing at a point inside its PPF. The government introduces policies that eliminate unemployment and reallocate idle workers into productive roles. Where does the economy end up, and what kind of change is this?"
+  type: multiple-choice
+  options:
+    - "Outside the PPF — eliminating unemployment expands productive capacity beyond the frontier"
+    - "On the PPF — the economy moves from an inefficient interior point to a productively efficient point on the frontier"
+    - "On a new, outward-shifted PPF — better resource use shifts the frontier"
+    - "Still inside the PPF — moving workers takes time and the economy cannot reach the frontier quickly"
+  answer: 1
+  explanation: "A point inside the PPF represents productive inefficiency — unused or misallocated resources. Eliminating unemployment uses those idle resources, moving the economy to the frontier. This is a movement TO the frontier, not an outward shift OF the frontier. An outward shift would require new technology, capital accumulation, or a larger workforce — a genuine increase in productive capacity, not just better use of what already exists. Confusing these two is one of the core misconceptions."
+
+- question: "A straight-line PPF (rather than a bowed-out curve) would imply which of the following?"
+  type: multiple-choice
+  options:
+    - "Zero opportunity cost — you can produce both goods without giving up either"
+    - "Constant opportunity costs — each additional unit of one good costs a fixed amount of the other, regardless of how much is already being produced"
+    - "Resources are highly specialized and cannot easily move between industries"
+    - "The economy cannot achieve productive efficiency at any point on the line"
+  answer: 1
+  explanation: "A straight-line PPF has a constant slope throughout, meaning the opportunity cost of producing one more unit of good X in terms of good Y is the same no matter how much X you are already producing. This would require that all resources are equally productive in both industries — farmers are just as efficient as mechanics, and vice versa. In reality, resources are specialized, so shifting more and more of them into one industry means using increasingly unsuitable resources, raising the opportunity cost. This is what produces the bowed-out shape. A straight-line PPF is not impossible — it is a simplifying assumption — but it does not imply zero opportunity cost."
+
+- question: "A point outside the PPF represents the maximum output the economy could achieve if it eliminated all inefficiency and put every resource to work."
+  type: true-false
+  answer: false
+  explanation: "A point outside the PPF is currently unattainable — it is beyond the economy's productive capacity given existing resources and technology. Eliminating inefficiency moves the economy from inside the frontier TO the frontier, not outside it. Points outside the frontier only become reachable through genuine growth: new technology, capital accumulation, population growth, or improved education that shifts the entire frontier outward."
+
+- question: "Technological improvement in one industry can shift the PPF outward without necessarily shifting it equally in both directions."
+  type: true-false
+  answer: true
+  explanation: "The PPF shifts outward when productive capacity increases, but the shape of the shift depends on where the improvement occurs. Technology that boosts only car manufacturing will expand the frontier more along the car axis than the wheat axis — the economy can now produce much more cars at the same wheat output, but the maximum wheat output is unchanged. This asymmetric shift reflects that the capacity gain is sector-specific."
+
+- question: "Why is the PPF typically bowed outward (concave to the origin) rather than a straight line, and what does this shape reveal about resources?"
+  type: short-answer
+  answer: "The bowed-out shape reflects increasing opportunity costs as resources are reallocated between industries. Resources are specialized — some workers and machines are better suited to one industry than another. When you first pull resources from wheat to car production, you reassign the workers least productive at farming. But as you keep shifting more, you must pull increasingly productive farmers, losing more and more wheat per additional car. Each successive unit of cars costs more wheat than the last. On the PPF, this shows up as a steepening slope (rising opportunity cost) as you move along the curve toward more cars. A straight-line PPF would require all resources to be equally productive in both uses, which is unrealistic."
+  explanation: "The law of increasing opportunity costs follows directly from resource specialization. This is why the slope of the PPF represents opportunity cost — and why that slope changes. At the wheat-heavy end, cars are cheap to produce in terms of wheat forgone. At the car-heavy end, each additional car is very expensive because you're pulling highly specialized farmers away from wheat."
+```
+
 ## Explainer
 
 The **production possibilities frontier** (PPF) is a direct visual consequence of the concept you already know: scarcity and opportunity cost. An economy has a fixed stock of resources — labor, capital, land, technology — at any given moment. If you commit all of them to producing one good, you get the maximum possible quantity of that good. If you want any of the other good, you must pull resources away from the first. The PPF traces every efficient combination — every point where you can't get more of one good without giving up some of the other.

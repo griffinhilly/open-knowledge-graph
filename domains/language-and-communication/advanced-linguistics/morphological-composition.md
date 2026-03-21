@@ -30,6 +30,45 @@ Analyze morphologically complex words, decomposing them into morphemes and predi
 - Morphological structure is not always transparent; suprasensitive analysis (re-analysis of morpheme boundaries) changes structure.
 - Compositionality is not absolute; literal composition sometimes yields non-compositional meanings.
 
+## Questions
+
+```yaml
+- question: "A student analyses the word 'blackbird' and concludes it means 'any bird that is black' based on the compositionality principle. Why is this analysis incomplete?"
+  type: multiple-choice
+  options:
+    - "It is correct — compositionality always holds for compound words in English"
+    - "Compound words in English always have meanings that are the opposite of their component parts"
+    - "'Blackbird' is a lexically stored idiom: its meaning (a specific species) is not compositionally derivable from 'black' + 'bird' and must be stored as a whole unit in the mental lexicon"
+    - "The analysis fails because 'black' and 'bird' are not morphemes but independent words, so compositionality does not apply"
+  answer: 2
+  explanation: "Compositionality is the default expectation — meaning should be predictable from parts — but natural languages routinely violate it. 'Blackbird' has morphological structure (black + bird) but non-compositional meaning (a specific species, not 'any black bird'). This idiomaticity means the word must be stored as a whole unit in the mental lexicon. The morphological structure is visible, but meaning cannot be recovered by compositional rules alone."
+
+- question: "A linguist wants to test whether the suffix -ness is productive in English. Which method would best reveal this?"
+  type: multiple-choice
+  options:
+    - "Survey how many existing -ness words appear in a large dictionary"
+    - "Apply -ness to nonce words (made-up bases) and test whether native speakers accept the resulting forms as well-formed"
+    - "Count how frequently -ness words appear in a large corpus of English text"
+    - "Compare -ness productivity in English to its equivalent suffixes in other Germanic languages"
+  answer: 1
+  explanation: "Productivity is about generative capacity, not frequency. Testing a morpheme on nonce words reveals whether speakers extend the rule to new bases they've never encountered — the true test of an active productive rule. If speakers readily accept 'wugness' or 'Fridayness,' -ness is productive. Dictionary counts and corpus frequency reflect existing words (which might include historically frozen forms), not the speaker's active generative rule. Nonce-word testing isolates morphological competence from learned vocabulary."
+
+- question: "Inflectional morphology always applies to a word before derivational morphology in English."
+  type: true-false
+  answer: false
+  explanation: "It is the reverse: in English, derivational morphology applies first (closer to the stem), and inflectional morphology applies last (outermost). The derivational layers build the word's category and core meaning — un-happy-ness derives from happy, adding un- and -ness. Then inflectional suffixes attach to the already-derived word: unhappinesses (plural). You cannot attach inflection and then derive: *happies-un or *happinesses-un are ungrammatical. The generalization is: inflection is always 'outside' derivation."
+
+- question: "A complex word can have compositional morphological structure and still require lexical storage of its meaning."
+  type: true-false
+  answer: true
+  explanation: "This is exactly what idiomaticity means. Words like 'understand,' 'blackbird,' or 'deadline' have analyzable morphological structure — the component morphemes are present and recognizable — but their meanings are not compositionally derivable from those parts. The structure is retained in the mental lexicon, but the meaning is stored holistically alongside it. This shows that compositionality and lexical storage are not mutually exclusive; they describe different aspects of how a word is represented."
+
+- question: "A student encounters the word 'understand' and attempts to derive its meaning from 'under' + 'stand.' What does the failure of this approach reveal about compositionality, and what does it tell us about how 'understand' is stored in the mental lexicon?"
+  type: short-answer
+  answer: "The failure demonstrates that compositionality is not absolute. Although 'understand' contains the morphemes 'under' and 'stand,' its modern meaning (to comprehend) cannot be recovered by applying each morpheme's meaning under the combining rules. This indicates that 'understand' is a lexical idiom: its meaning must be stored as a whole unit in the mental lexicon, with its idiomatic meaning stipulated directly rather than computed compositionally. The morphological structure is visible but semantically inert for meaning derivation in modern English."
+  explanation: "Idiomaticity is composition failure at the semantic level. The morphological analysis may still be correct historically, but synchronically — from the perspective of a present-day speaker — the meaning is opaque to compositional recovery. This is why etymology and synchronic morphological analysis give different results: etymology traces historical composition; synchronic analysis asks whether today's speakers can recover meaning compositionally."
+```
+
 ## Explainer
 
 You already have a solid grasp of the basic building blocks from inflectional and derivational morphology: inflectional morphology adds grammatical information (tense, number, case) without changing a word's category or core meaning, while derivational morphology creates new words by changing category or meaning. **Morphological composition** is the broader study of how all these processes — and more — interact to build complex words, and why the results are sometimes predictable and sometimes not.

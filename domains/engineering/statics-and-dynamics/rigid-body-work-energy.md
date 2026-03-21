@@ -34,6 +34,45 @@ Identify every force and determine whether it does work (force moves through a d
 - Assuming friction always does work — for rolling without slip, the contact point has zero velocity, so friction does no work despite being nonzero.
 - Double-counting internal constraint forces at pins connecting two rigid bodies — Newton's third law ensures these internal forces cancel when the system work-energy equation is written.
 
+## Questions
+
+```yaml
+- question: "A uniform disk rolls without slipping down an inclined plane. When applying the work-energy theorem to find its speed at the bottom, what is the work done by the friction force at the contact point?"
+  type: multiple-choice
+  options:
+    - "W_friction = μ_k × N × d, opposing motion and reducing the final speed"
+    - "W_friction > 0 because friction provides the torque that generates rotational kinetic energy"
+    - "W_friction = 0 because the contact point has zero instantaneous velocity in rolling without slip"
+    - "W_friction equals the rotational kinetic energy gained, since friction is its source"
+  answer: 2
+  explanation: "Work equals force times the displacement of the point of application. For rolling without slip, the contact point is instantaneously at rest (zero velocity), so its displacement is zero and friction does zero work. This is why energy conservation applies directly to rolling problems: only gravity (and springs, if present) appear as work terms. The common misconception (options B and D) is that because friction causes rotation, it must do work — but work requires displacement, and the contact point has none."
+
+- question: "A system of two rigid bodies is connected by a smooth pin joint. When you write the work-energy equation for the entire system, what happens to the forces at the pin?"
+  type: multiple-choice
+  options:
+    - "They must be included as separate external work terms for each body"
+    - "They cancel completely — Newton's third law pairs act at the same point, so their net work is zero"
+    - "They partially cancel, leaving a residual term proportional to the pin's angular displacement"
+    - "They must be computed as constraint forces using the Lagrange multiplier method"
+  answer: 1
+  explanation: "By Newton's third law, the pin exerts equal and opposite forces on the two connected bodies. Crucially, both forces act at the same point (the pin), so both act through the same displacement. Net work = F·ds + (−F)·ds = 0. This is why the work-energy method is so efficient for multi-body systems: all internal constraint forces at pins vanish from the equation automatically, leaving only external forces (gravity, applied loads, springs)."
+
+- question: "For a rigid body undergoing general planar motion (both translating and rotating), the total kinetic energy includes both a translational term (½mv_G²) and a rotational term (½I_Gω²) — omitting either term gives the wrong answer."
+  type: true-false
+  answer: true
+  explanation: "In general planar motion, the center of mass G moves through space (translational KE = ½mv_G²) while the body simultaneously spins about G (rotational KE = ½I_Gω²). These are independent contributions — a bowling ball rolling down a lane has both, and both must be included. The common error of using KE = ½mv² alone (as for a particle) underestimates the total kinetic energy and gives incorrect velocities."
+
+- question: "When a disk rolls without slipping on a surface, the friction force does positive work on the disk because it is the torque source responsible for the disk's rotational kinetic energy."
+  type: true-false
+  answer: false
+  explanation: "Even though friction provides the torque that maintains rolling, it does zero work because its point of application (the contact point) is instantaneously at rest in rolling without slip. The rotational kinetic energy does not come from friction doing work — it comes from the conversion of gravitational potential energy (for a body rolling down a slope). This distinction is critical: a torque can cause rotation without doing work, provided the point of application has no velocity."
+
+- question: "Explain why forces at fixed pin joints and rolling contacts do no work, and why this makes the work-energy method especially powerful for multi-body systems."
+  type: short-answer
+  answer: "Work requires a force acting through a nonzero displacement. A fixed pin joint has a stationary attachment point — the pin itself does not move — so any reaction force there has zero displacement and does zero work. For rolling without slip, the contact point is instantaneously at rest (zero velocity, zero displacement), so the friction force there also does zero work. In multi-body systems connected by pins and rolling contacts, there are many internal constraint forces, but all of them drop out of the work-energy equation automatically. The result is a single scalar equation relating kinetic energies at two states to the work done only by external forces — far simpler than Newton-Euler methods, which require free-body diagrams and vector equations for every body."
+  explanation: "This is why the work-energy method is especially preferred for systems with multiple connected rigid bodies: the constraint forces that complicate Newton-Euler analysis simply vanish. You sum the kinetic energies of all bodies (translational + rotational for each), sum the external work terms (gravity, springs, applied forces), and equate them. Internal constraint forces never appear."
+```
+
 ## Explainer
 
 From your study of work-energy methods for particles, you know the core idea: the net work done on a particle equals its change in kinetic energy, W_net = ΔKE = ½mv₂² − ½mv₁². This is powerful because it bypasses forces and accelerations — you only need to account for work at two instants. Rigid bodies keep this same elegance but add a new complication: they can rotate as well as translate, and rotation carries kinetic energy too.

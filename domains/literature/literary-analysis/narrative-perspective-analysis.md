@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Point of view—first-person, second-person, third-person limited or omniscient—fundamentally shapes what the reader knows and believes. POV is not merely a technical choice; it controls access to information, creates reliability or distance, and determines emotional engagement. Each POV enables and constrains interpretation.
 
+## Questions
+
+```yaml
+- question: "A first-person narrator describes her ex-partner as dishonest and manipulative. As a reader analyzing this passage, which question is MOST analytically productive?"
+  type: multiple-choice
+  options:
+    - "Does the narrator's vocabulary reveal her educational background?"
+    - "What is the narrator's stake in presenting this characterization, and what might she be motivated to omit or distort?"
+    - "Does an external historical record corroborate her account of events?"
+    - "Why did the author choose first-person narration rather than omniscient?"
+  answer: 1
+  explanation: "First-person narrators are characters with stakes in their version of events — they remember selectively, interpret based on their own feelings, and may consciously or unconsciously defend themselves. The most productive analytic move is to read the narrator's selections as evidence about the narrator as much as about the events narrated. Asking 'what is her stake in this characterization?' opens questions about reliability, motivation, and what the narration reveals between the lines. Historical corroboration (option C) misunderstands fiction; vocabulary analysis (option A) is a secondary concern; and the author's choice question (option D) is too broad and not analytical."
+
+- question: "A scholar argues that third-person omniscient narration is the most 'neutral' or 'objective' perspective available to a novelist. Which response best challenges this claim?"
+  type: multiple-choice
+  options:
+    - "Omniscient narration is too emotionally distant to engage readers effectively"
+    - "Omniscient narrators select which characters' minds to enter, which details to share, and when to comment — these choices are as constructed and positioned as any other POV"
+    - "Omniscient narration has been abandoned by modern novelists in favor of more personal styles"
+    - "All narration is technically first-person at some level, since someone must be speaking"
+  answer: 1
+  explanation: "The illusion of omniscient neutrality is itself a rhetorical construction. An omniscient narrator decides whose thoughts to reveal, which scenes to observe, what to withhold, and when to editorialize — none of these are neutral moves. Tolstoy's omniscient narrator in *Anna Karenina* shapes our sympathy through which minds he enters and when. 'Objectivity' is not the default of any POV; it is always a claim that needs to be interrogated. The other options are either empirically wrong or philosophically beside the point."
+
+- question: "Third-person limited narration can produce dramatic irony by creating a gap between what the focal character understands and what the reader perceives."
+  type: true-false
+  answer: true
+  explanation: "Third-person limited gives the reader access to one character's consciousness while maintaining grammatical distance ('she thought,' 'he believed'). This distance signals to the reader that they are observing a character's interpretation rather than receiving authoritative fact. When the character's interpretation is wrong or partial — as with Emma Woodhouse in Austen — the reader can perceive more than the character does, generating dramatic irony. This irony is the engine of a great deal of realist fiction and requires precisely the epistemic structure of limited third-person."
+
+- question: "Shifting a novel's point of view from the perpetrator of a crime to the victim would primarily change the emotional tone, leaving the fundamental knowledge available to the reader essentially the same."
+  type: true-false
+  answer: false
+  explanation: "POV is fundamentally about epistemic access — what information is available to the reader — not merely tone. A perpetrator's POV provides access to motive, planning, and self-justification; a victim's POV provides access to experience, fear, and a different understanding of the events. These are structurally different knowledge positions, not just different emotional colorings. *Lolita* is not the same story told from Dolores Haze's perspective — it is an entirely different epistemic construction. POV determines what the reader can know and therefore what interpretive work they are asked to perform."
+
+- question: "A crime novel is narrated from the detective's perspective. Explain why telling the same story from the criminal's perspective would require a fundamentally different interpretation from readers — not just a different emotional tone."
+  type: short-answer
+  answer: "The detective's perspective provides access to clues, deductions, and the process of piecing together what happened — the reader learns the crime retrospectively alongside the detective. The criminal's perspective provides access to motivation, planning, and the subjective experience of committing the act — the reader knows what happened before the detective does. These are different epistemic positions: different information is available, different gaps exist, and the reader is positioned differently with respect to sympathy and judgment. The interpretive task changes completely."
+  explanation: "This question targets the key insight that POV is not just about voice or style but about the fundamental structure of what the reader can and cannot know. When you change who narrates, you change the information architecture of the story — the sequence in which facts emerge, the reliability of the account, and where the reader's sympathies are directed. A detective-narrator positions the reader as solver; a criminal-narrator positions the reader as confessor or accomplice. Both position the reader; neither is neutral."
+```
+
 ## Explainer
 
 From your study of point of view and narrator reliability, you know what the basic categories are and how reliable versus unreliable narrators work. Narrative perspective analysis asks the harder question: what does a given POV choice *do* to the story's meaning — what does it make possible, and what does it rule out?

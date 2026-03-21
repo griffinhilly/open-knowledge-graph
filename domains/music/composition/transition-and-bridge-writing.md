@@ -28,6 +28,45 @@ status: validated
 ## Core Idea
 Transitions connect formal sections by managing harmonic motion, dissolving one texture and preparing another, and shaping listener expectation. A bridge provides harmonic contrast and distance that makes the return of the main theme feel satisfying and inevitable. Effective transitions use techniques such as sequences that drive toward a new key, pedal tones that create anticipation, rhythmic dissolution that releases energy before a new section, or a retransition that builds suspense on the dominant before a recapitulation. A poorly written transition makes a piece feel patched together; a well-written one makes the form feel inevitable.
 
+## Questions
+
+```yaml
+- question: "A composer writes a transition from a first theme in C major to a second theme in G major. After establishing the new key area, the composer prolongs the dominant (D major chord) for 8 measures before the second theme enters. What is the primary function of this extended dominant prolongation?"
+  type: multiple-choice
+  options:
+    - "It fills time while the performer prepares for the technical demands of the second theme"
+    - "It establishes harmonic ambiguity between G major and D major"
+    - "It builds anticipation for the tonic of G major, so the second theme's arrival feels earned"
+    - "It provides rhythmic stasis that gives the listener a moment of rest"
+  answer: 2
+  explanation: "Extended dominant preparation is the key harmonic mechanism of transitions. By dwelling on the dominant of the target key, the composer creates an expectation that the ear cannot help but resolve — the longer the prolongation, the more satisfying the eventual tonic arrival. This is 'managing listener expectation' in its most direct form. The transition is not filling time; it is doing purposeful harmonic work that makes the second theme's entrance feel prepared and inevitable."
+
+- question: "Which statement best describes the difference between a 'transition' and a 'bridge' as formal functions?"
+  type: multiple-choice
+  options:
+    - "They are synonymous; both terms describe connective passages between two formal sections"
+    - "A transition moves forward between two themes, often changing key; a bridge provides contrast and distance, then requires a retransition to rebuild expectation for the return"
+    - "A transition connects themes in the same key; a bridge always changes key"
+    - "Transitions appear only in sonata form; bridges appear only in song forms like AABA"
+  answer: 1
+  explanation: "The functional distinction is crucial: a transition is one-directional infrastructure — it gets you from A to B. A bridge is a departure-and-return structure: it takes the music away from main material, explores contrasting territory, and then must return through a retransition that rebuilds anticipation for the opening theme. A poorly understood bridge sounds like the music got lost; a well-written one sounds like a deliberate journey that makes coming home satisfying."
+
+- question: "A retransition that spends many measures dwelling on the dominant of the home key before the recapitulation is doing active harmonic work, not simply padding the score."
+  type: true-false
+  answer: true
+  explanation: "Extended dominant prolongation before a recapitulation is one of the most purposeful gestures in Classical form. By sustaining or elaborating the dominant, the composer maximizes harmonic tension — the ear demands resolution to the tonic. The longer and more insistent the dominant pedal, the greater the sense of release when the main theme returns. This is the retransition's entire job: make the listener want the opening theme back so badly that its return feels like a relief."
+
+- question: "The primary purpose of rhythmic dissolution near the end of a transition is to give performers a moment of rest before the next section."
+  type: true-false
+  answer: false
+  explanation: "Rhythmic dissolution serves a structural, not practical, purpose: it releases accumulated momentum and creates a moment of suspension — a held breath — just before the new section begins. This contrast between the dissolving activity and the fresh start of the next theme heightens the sense of arrival. It is a compositional technique for shaping energy, not a courtesy to performers. (The opposite strategy — ramping up rhythmic density — also exists and serves the complementary goal of arriving at the new theme at a peak.)"
+
+- question: "Why does a bridge that ventures far harmonically require a longer, more deliberate retransition than a bridge that stays close to the home key?"
+  type: short-answer
+  answer: "The retransition must cover the same harmonic distance the bridge traveled, in reverse. A bridge that moves to a remote key area has established that key strongly in the listener's ear; a brief dominant of the home key will not be enough to erase that impression and rebuild expectation for the opening theme. The listener needs time to be 'led back' — to feel the new key gradually weakened and the home key gradually reasserted. The proportionality is functional: the length of the retransition matches the depth of the departure."
+  explanation: "This mirrors the principle of 'proportional form' in music: the weight of a formal gesture should match the weight of what it is responding to. A bridge that only touched the relative minor needs a short dominant preparation to return; a bridge that spent extended time in a distant key (say, the flat submediant) needs a more elaborate retransition to re-establish tonal orientation. Composers who ignore this proportionality produce bridges that feel either clumsy in their return or anticlimactic."
+```
+
 ## Explainer
 
 Think of a transition as a piece of infrastructure: its purpose is to get you somewhere efficiently and without jarring the traveler. In Classical sonata form, the exposition contains a **transition** (sometimes called a bridge) that carries the music from the first theme in the tonic key to the second theme in the dominant (or relative major). The listener needs to be led harmonically and texturally into new territory — and the arrival of the second theme should feel both surprising and prepared. From your study of modulation techniques, you know the harmonic mechanisms for establishing a new key: a pivot chord that recontextualizes a diatonic chord as belonging to the target key, or a direct tonicization through a secondary dominant. The transition is where those mechanisms are deployed purposefully, over time, with textural and rhythmic shaping that makes the arrival feel earned.

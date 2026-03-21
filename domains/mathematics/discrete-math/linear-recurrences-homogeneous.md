@@ -29,6 +29,45 @@ Solve Fibonacci step-by-step: characteristic equation r² = r + 1 gives roots (1
 ## Common Misconceptions
 The characteristic equation is rᵏ = c₁rᵏ⁻¹ + ... + cₖ, not rᵏ⁻¹ etc. Repeated roots require adjusted forms (terms multiplied by n).
 
+## Questions
+
+```yaml
+- question: "For the recurrence aₙ = 5aₙ₋₁ − 6aₙ₋₂, what is the characteristic equation?"
+  type: multiple-choice
+  options:
+    - "r² − 5r + 6 = 0"
+    - "r² + 5r − 6 = 0"
+    - "r³ − 5r² + 6r = 0"
+    - "r = 5r − 6"
+  answer: 0
+  explanation: "Substituting aₙ = rⁿ gives rⁿ = 5rⁿ⁻¹ − 6rⁿ⁻². Dividing both sides by rⁿ⁻²: r² = 5r − 6, which rearranges to r² − 5r + 6 = 0. The coefficients in the characteristic polynomial match the recurrence coefficients with alternating signs. Option B has wrong signs; option C has wrong degree; option D is just the recurrence restated, not a polynomial in r."
+
+- question: "The characteristic equation of a recurrence has two distinct roots r₁ = 2 and r₂ = 3. What is the general solution?"
+  type: multiple-choice
+  options:
+    - "aₙ = A · 2ⁿ + B · 3ⁿ"
+    - "aₙ = A · 2 + B · 3"
+    - "aₙ = (A + B) · 5ⁿ"
+    - "aₙ = A · 2ⁿ · B · 3ⁿ"
+  answer: 0
+  explanation: "When the characteristic equation has k distinct roots r₁, r₂, …, rₖ, the general solution is a linear combination aₙ = A₁r₁ⁿ + A₂r₂ⁿ + … + Aₖrₖⁿ. The constants A and B are determined by initial conditions. Option B forgets the exponent n entirely; option C incorrectly adds the bases (you cannot combine exponentials that way); option D multiplies instead of adding — exponential solutions superpose, they don't multiply."
+
+- question: "If the characteristic equation of a recurrence has a repeated root r = 2 (multiplicity 2), the general solution is aₙ = (A + Bn) · 2ⁿ."
+  type: true-false
+  answer: true
+  explanation: "Repeated roots require a modified solution. When r is a root of multiplicity m, the general solution includes terms rⁿ, n·rⁿ, n²·rⁿ, …, nᵐ⁻¹·rⁿ. For a double root r = 2, this gives aₙ = A·2ⁿ + Bn·2ⁿ = (A + Bn)·2ⁿ. This modification is necessary because simply writing aₙ = A·2ⁿ + B·2ⁿ = (A+B)·2ⁿ only gives one free constant, which is insufficient to satisfy two initial conditions."
+
+- question: "The Fibonacci sequence cannot be expressed as a closed-form formula because its characteristic equation has irrational roots."
+  type: true-false
+  answer: false
+  explanation: "Binet's formula Fₙ = (φⁿ − ψⁿ)/√5, where φ = (1+√5)/2 and ψ = (1−√5)/2, IS a valid closed-form despite the irrational numbers. The irrationals cancel perfectly at every integer n, always producing an integer result. The existence of irrational roots does not prevent a closed-form — it just means the formula contains irrational constants that happen to combine to integers."
+
+- question: "Why is the substitution aₙ = rⁿ the key trick for solving linear homogeneous recurrences? What does this assumption accomplish?"
+  type: short-answer
+  answer: "Substituting aₙ = rⁿ into the recurrence converts a functional equation (a rule connecting sequence terms) into a polynomial equation in r. Every rⁿ factor can be divided out, leaving a polynomial whose roots tell you exactly which exponential bases appear in the solution. The trick works because exponential sequences are the natural eigenfunctions of the shift operator — just as e^(rx) solves linear ODEs with constant coefficients, rⁿ solves linear recurrences with constant coefficients."
+  explanation: "This is the discrete analogue of solving differential equations by guessing e^(rx). The reason it works is that linear recurrences are linear maps on sequences, and exponential sequences are eigenvectors of the shift operation. Once you have the roots, the general solution is a linear combination — satisfying superposition — and initial conditions pin down the constants. Without this substitution, converting a recursive definition to a direct formula would require much more complex techniques."
+```
+
 ## Explainer
 
 You already know from recurrence relations that a sequence can be defined by a rule connecting each term to earlier ones. The challenge is converting that recursive rule into a direct formula — one that gives you the 100th term without computing the first 99. For **linear homogeneous recurrences**, there is a systematic method that works every time, and it reduces the problem to polynomial algebra you already know.

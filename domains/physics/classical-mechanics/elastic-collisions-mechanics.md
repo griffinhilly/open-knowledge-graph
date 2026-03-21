@@ -31,6 +31,45 @@ Solve 1D collisions using both momentum and energy conservation simultaneously. 
 ## Common Misconceptions
 Objects do not have to stick together after a collision for it to be inelastic. Elastic collisions are an idealization; real collisions always lose some energy. Equal mass elastic collisions result in complete velocity exchange only in 1D.
 
+## Questions
+
+```yaml
+- question: "In a 1D elastic collision, a 2 kg object moving at 6 m/s collides with a stationary 2 kg object. What happens after the collision?"
+  type: multiple-choice
+  options:
+    - "Both objects move at 3 m/s — they share the initial momentum equally"
+    - "The first object continues at 6 m/s; the second stays still"
+    - "The first object stops; the second moves at 6 m/s"
+    - "The first object bounces back at 6 m/s; the second stays still"
+  answer: 2
+  explanation: "Equal-mass elastic collisions result in complete velocity exchange: the incoming object stops and the stationary one moves off at the original speed. This conserves both momentum (m×6 = m×0 + m×6) and kinetic energy (½m×36 = ½m×0 + ½m×36). Option A conserves momentum but not kinetic energy (½m×9 + ½m×9 ≠ ½m×36). Options B and D both violate momentum conservation."
+
+- question: "A bowling ball (very large mass) rolls elastically into a stationary ping-pong ball (very small mass). Which outcome best describes what happens?"
+  type: multiple-choice
+  options:
+    - "The bowling ball stops; the ping-pong ball moves forward at the bowling ball's original speed"
+    - "The bowling ball barely slows; the ping-pong ball moves forward at roughly twice the bowling ball's speed"
+    - "Both balls rebound in opposite directions with equal speeds"
+    - "The bowling ball slows to half its speed; the ping-pong ball moves at three times the original speed"
+  answer: 1
+  explanation: "When m₁ >> m₂, the heavy object barely slows (its momentum is so large the light ball's reaction barely affects it) and the light ball launches forward at approximately twice the heavy ball's original speed. Option A describes the equal-mass case; option C would require zero net momentum initially, which is not the case here; option D overstates both the slowdown and the launch speed. These mass-ratio limiting cases are the key physical intuition anchors for collision analysis."
+
+- question: "The relative velocity of approach equals the relative velocity of separation in any elastic collision."
+  type: true-false
+  answer: true
+  explanation: "This elegant result follows from combining the momentum conservation equation (linear) with the kinetic energy conservation equation (quadratic). Rearranging and factoring both together yields (v₁ − v₂) = −(v₁' − v₂'): the relative velocity reverses sign but not magnitude. This is a powerful shortcut — it replaces the quadratic energy equation with a linear one, making 1D elastic collision problems much faster to solve than working with the full system of equations directly."
+
+- question: "In a 1D elastic collision, the heavier incoming object always stops after impact, transferring all its kinetic energy to the lighter stationary object."
+  type: true-false
+  answer: false
+  explanation: "Complete velocity transfer (the incoming object stopping) only occurs when the two objects have equal mass. When the incoming object is heavier, it continues forward — barely slowing — while pushing the lighter object ahead at roughly twice its own speed. When the incoming object is lighter, it bounces back. Only the equal-mass case produces a full stop of the first object. The mass ratio determines what fraction of momentum and energy transfers, and only equal masses transfer everything."
+
+- question: "Why must both momentum conservation and kinetic energy conservation be applied simultaneously to solve an elastic collision? What goes wrong if only one law is used?"
+  type: short-answer
+  answer: "Each conservation law alone gives one equation with two unknowns (the two final velocities), leaving the system underdetermined — infinitely many final velocity combinations satisfy either law alone. Momentum conservation is satisfied by any outcome that preserves total momentum, including objects passing through each other or sticking together. Kinetic energy conservation alone also allows multiple solutions. Only by applying both simultaneously do we get two independent equations for two unknowns, fully determining the final velocities from initial conditions."
+  explanation: "This is the algebraic heart of elastic collision analysis. The uniqueness of the solution (given specific initial conditions) is what makes the elastic case so powerful: two constraints, two unknowns, fully determined. In inelastic collisions, kinetic energy is not conserved — some is lost to heat or deformation — so we need additional information (like 'objects stick together') to replace the energy constraint."
+```
+
 ## Explainer
 
 You know two conservation laws from your prerequisites: **conservation of momentum** (the total momentum of an isolated system is constant) and **conservation of kinetic energy** (in an elastic collision, the total kinetic energy before and after is identical). By themselves, each law constrains what can happen in a collision. The power of elastic collision analysis comes from applying both simultaneously: two equations, two unknowns (the final velocities of the two objects), fully determined by initial conditions.

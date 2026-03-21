@@ -28,6 +28,45 @@ status: draft
 ## Core Idea
 Figurative language—metaphor, simile, personification, hyperbole, and others—creates compressed, abstract, or surprising ways of expressing ideas. Rather than simply naming the device, analysis explains how the figurative language works: what comparison does it create, what perspective does it offer, what does it reveal about the subject being described? Figurative language makes the abstract concrete and the familiar strange.
 
+## Questions
+
+```yaml
+- question: "A student analyzes the line 'The fog comes on little cat feet' (Sandburg) and writes: 'This is personification — the fog is given animal characteristics.' What is missing from this analysis?"
+  type: multiple-choice
+  options:
+    - "The correct identification of the device — 'little cat feet' is a metaphor, not personification"
+    - "An explanation of which cat-like properties (silence, smallness, self-possessed indifference) are being transferred to the fog and what that reveals about how the speaker experiences it"
+    - "A comparison to other animal metaphors in American poetry for context"
+    - "A discussion of whether the image is meant literally or symbolically"
+  answer: 1
+  explanation: "Naming the device is not analysis — it is the starting point. The analytical move is identifying which specific properties of 'cat' are being projected onto the fog (not sharpness or warmth, but silence, smallness, and self-possessed calm) and what this reveals: fog as a quiet, unannounced presence that arrives on its own terms. The student has described the what but not the how or why."
+
+- question: "The phrase 'Time is money' transfers specific properties from money to time. Which set of properties actually crosses over in this metaphor?"
+  type: multiple-choice
+  options:
+    - "Physical properties — time, like money, is rectangular and numerically printed"
+    - "Scarcity, exchangeability, and the possibility of wasting or investing it wisely"
+    - "All properties of money apply equally to time — if money can be counterfeited, so can time"
+    - "Only the property of having a measurable numerical value"
+  answer: 1
+  explanation: "Metaphors do not transfer all properties of the vehicle — only a selected subset. 'Time is money' transfers economic scarcity logic: time is limited, it can be spent or saved, wasted or invested. It does not transfer physical properties (money is tangible; time is not) or legal properties (money can be counterfeit). The analyst's job is to identify exactly which properties cross the gap."
+
+- question: "Analyzing figurative language means identifying which specific properties of the vehicle (the thing being compared to) are being projected onto the tenor (the subject being described)."
+  type: true-false
+  answer: true
+  explanation: "This is precisely the central analytical move. Naming the device tells you the structure; identifying which properties transfer tells you the meaning. A metaphor of illness as 'battle' transfers agency, strategy, and binary victory/defeat — not, say, the property of being conducted on foreign soil. The precision of the selection is where the meaning lives."
+
+- question: "A thorough analysis of a metaphor should account for every property the vehicle could possibly carry, since any property might be relevant to the text's meaning."
+  type: true-false
+  answer: false
+  explanation: "The craft of analysis is selective, not exhaustive. Identifying which properties DO transfer — and just as importantly, which do NOT — reveals the writer's specific intent. Fog does not carry 'sharpness' or 'warmth' from the cat metaphor; acknowledging this clarifies why Sandburg chose cats rather than, say, dogs or shadows. Cataloguing all possible properties leads to unfocused reading, not precise analysis."
+
+- question: "What is the difference between identifying a figure of speech and analyzing it? Why does the distinction matter for literary interpretation?"
+  type: short-answer
+  answer: "Identifying names the device (metaphor, simile, personification). Analyzing explains what specific work that device performs: which properties of the vehicle are projected onto the tenor, why that particular comparison was chosen, and what it reveals about the subject or the worldview of the text. Identification is a beginning; analysis is the actual interpretive move."
+  explanation: "The distinction matters because meaning lives in the specific comparison chosen, not in the category of comparison. Calling hope 'the thing with feathers' is a metaphor — but so is calling hope 'a stone around my neck.' Both are metaphors; they produce opposite meanings. Only analysis of which properties transfer reveals which meaning is being constructed."
+```
+
 ## Explainer
 
 You already know how to identify figures of speech — the simile, the metaphor, the personification. The move from identification to analysis is the move from *what is this?* to *what does this do?* A metaphor names something as something else; the interesting question is why that particular equation was chosen and what it reveals. When Sylvia Plath writes "Dying / Is an art, like everything else. / I do it exceptionally well," she is not just comparing dying to artistry — she is claiming skill and agency over something usually described as passive suffering, and doing it with dark wit. The device (metaphor) matters less than the specific conceptual work the metaphor performs.

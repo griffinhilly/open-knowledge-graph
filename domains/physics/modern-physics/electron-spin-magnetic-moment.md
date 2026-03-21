@@ -28,6 +28,45 @@ Study spin-1/2 systems using Pauli matrices. Calculate expectation values of spi
 ## Common Misconceptions
 Spin does not mean the electron is literally spinning (quantum spin is intrinsic, not due to rotation). The g-factor ≈ 2 is not exactly 2 due to quantum electrodynamic corrections. Spin-orbit coupling is not due to the spinning electron's magnetic moment interacting with the orbital motion magnetic field (it's a relativistic effect).
 
+## Questions
+
+```yaml
+- question: "Suppose the electron's spin g-factor were g_s = 1 instead of g_s ≈ 2. How would the energy splitting of a spin-1/2 electron in a magnetic field B compare to the actual case?"
+  type: multiple-choice
+  options:
+    - "The splitting would be twice as large"
+    - "The splitting would be half as large"
+    - "The splitting would be unchanged because it depends only on the spin quantum number"
+    - "The splitting would vanish because g_s = 1 means no anomalous magnetic moment"
+  answer: 1
+  explanation: "The energy splitting between spin-up and spin-down states is ΔE = g_s μ_B B. With g_s = 1, this would be μ_B B. With the actual g_s ≈ 2, it is ≈ 2μ_B B — twice as large. The g-factor directly scales the strength of the spin-field interaction relative to the orbital case. This factor of ~2 is why the Stern-Gerlach experiment's observed splitting confirmed that electron spin has an anomalous magnetic moment, not the classical value orbital angular momentum would predict."
+
+- question: "Why do physicists say electron spin has 'no classical analog,' and what breaks the classical spinning-sphere model?"
+  type: multiple-choice
+  options:
+    - "Spin is classical but too small to observe directly with current instruments"
+    - "For any reasonable electron radius, the equatorial velocity required to reproduce the observed angular momentum would exceed the speed of light"
+    - "Classical physics forbids quantized angular momentum, making any classical model inconsistent"
+    - "Spin only exists in quantum field theory and was artificially added to match experiment"
+  answer: 1
+  explanation: "If the electron were a tiny charged sphere spinning fast enough to produce spin angular momentum ℏ/2, the surface speed at its equator (using the experimentally constrained upper bound on the electron's radius, ~10⁻¹⁸ m) would vastly exceed c. Special relativity makes this physically impossible. This isn't just a limitation of our models — it proves that spin cannot arise from literal rotation. Spin is a genuinely intrinsic property of the relativistic quantum electron, emerging naturally from Dirac's equation, not from any spatial motion."
+
+- question: "Electron spin is called 'intrinsic angular momentum' because the electron physically rotates about its own internal axis, generating angular momentum just as a spinning top does."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about spin. 'Intrinsic' means the angular momentum is a fundamental property of the particle itself, independent of any spatial motion — not that the particle is literally spinning. The spinning-sphere picture fails for the relativistic reasons described above. Spin emerges from Dirac's relativistic quantum mechanics as a consequence of combining special relativity with quantum mechanics; it has no counterpart in classical mechanics. The electron carries angular momentum ℏ/2 just as it carries charge e — as an intrinsic, non-mechanical attribute."
+
+- question: "The anomalous g-factor g_s ≈ 2.002 of the electron cannot be explained by classical electromagnetism and is correctly predicted only by relativistic quantum mechanics, with the small departure from exactly 2 arising from quantum electrodynamic corrections."
+  type: true-false
+  answer: true
+  explanation: "Classical electromagnetism predicts g = 1 for a current loop (orbital angular momentum). Dirac's relativistic quantum mechanics automatically predicts g_s = 2 for spin — a remarkable postdiction that was one of the theory's greatest triumphs. The tiny additional correction (g_s ≈ 2.00231930...) comes from quantum electrodynamic (QED) loop corrections: the electron interacting with virtual photons in the vacuum. This anomalous magnetic moment has been measured to 12 significant figures and matches QED predictions to the same precision, making it the most precisely tested prediction in all of physics."
+
+- question: "Why is the g-factor for electron spin approximately 2 rather than 1 (the value for orbital angular momentum), and what is the physical significance of this difference?"
+  type: short-answer
+  answer: "The g-factor of 1 for orbital angular momentum follows from classical electrodynamics: a current loop's magnetic moment equals its angular momentum times e/2m. Spin has no classical analog, and its g ≈ 2 emerges from Dirac's relativistic wave equation as an automatic consequence of special relativity combined with quantum mechanics — it was not put in by hand. The factor of ~2 means that for the same magnitude of angular momentum, spin couples to a magnetic field roughly twice as strongly as orbital motion. This difference has measurable consequences in atomic spectra (the anomalous Zeeman effect) and in the fine structure of hydrogen, where spin-orbit coupling strength depends on g_s."
+  explanation: "The physical significance extends beyond the factor of 2: the fact that g_s is not exactly 2 but ≈ 2.002 is a signature of quantum electrodynamics — the electron continuously emitting and reabsorbing virtual photons. The 'anomalous magnetic moment' (a_e = (g_s−2)/2 ≈ 0.00116) is one of the most precisely measured and theoretically computed quantities in physics, serving as a fundamental test of QED."
+```
+
 ## Explainer
 
 You've studied spin angular momentum as an abstract two-state quantum system. Now the physical stakes become clearer: spin isn't just a mathematical curiosity — it generates a real **magnetic dipole moment** that interacts measurably with external magnetic fields and with the electron's own orbital motion. The connection between spin and magnetism is what makes the electron a tiny magnet, and it drives much of the structure of atomic spectra.

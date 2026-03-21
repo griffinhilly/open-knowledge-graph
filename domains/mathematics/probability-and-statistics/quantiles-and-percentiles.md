@@ -28,6 +28,45 @@ Sort data and manually calculate percentiles for small datasets. Use software to
 ## Common Misconceptions
 Assuming the median is always at 50% (it is, by definition). Confusing percentile rank with actual values. Not recognizing multiple acceptable definitions of sample quantiles. Thinking all quantiles split data equally.
 
+## Questions
+
+```yaml
+- question: "A student scores 720 on a standardized test and is told they are at the 85th percentile. Which interpretation is correct?"
+  type: multiple-choice
+  options:
+    - "The student scored 85% of the total possible points on the test"
+    - "Approximately 85% of test-takers scored at or below 720"
+    - "The student answered 85 out of 100 questions correctly"
+    - "The student scored 85 points above the median"
+  answer: 1
+  explanation: "The pth percentile identifies a position in the sorted distribution, not an absolute score. Being at the 85th percentile means roughly 85% of test-takers scored at or below 720 — this is the student's percentile rank. The actual score (720) is the percentile value; the 85% describes relative position. These can be entirely disconnected: 720 might represent only 60% of possible points yet still place a student in the 85th percentile if most others scored lower."
+
+- question: "Why is the IQR considered more robust than the standard deviation as a measure of spread?"
+  type: multiple-choice
+  options:
+    - "The IQR is always a smaller number than the standard deviation, so it is more precise"
+    - "The IQR spans only the middle 50% of sorted data, so extreme values at the tails cannot affect it"
+    - "The IQR can be computed without sorting the data, making it less sensitive to ordering errors"
+    - "The standard deviation is only defined for normally distributed data, while the IQR works for any distribution"
+  answer: 1
+  explanation: "Robustness means resistance to outliers. The IQR = Q3 − Q1 uses only the boundaries of the middle 50% of the data. No matter how extreme the minimum or maximum are, they cannot change Q1 or Q3 — the IQR is unaffected. The standard deviation squares deviations from the mean, which amplifies the influence of extreme values. Option D is a partial truth: the standard deviation is defined for all distributions, but it is less meaningful (not undefined) for skewed data — the real issue is sensitivity to outliers."
+
+- question: "The mean and the median are both measures of center, so they both fall at the 50th percentile of any dataset."
+  type: true-false
+  answer: false
+  explanation: "The median is always the 50th percentile by definition — it is the value that splits the sorted data in half. The mean is an arithmetic average and can be anywhere in the distribution. In right-skewed data (like incomes), a small number of very high values pull the mean far above the median. For example, a dataset where most values are around 30 but a few are in the thousands could have a median of 32 and a mean of 150. Only in perfectly symmetric distributions do the mean and median coincide."
+
+- question: "The five-number summary makes no assumptions about the shape of the underlying distribution."
+  type: true-false
+  answer: true
+  explanation: "This is what 'distribution-free' means. The five-number summary — minimum, Q1, median, Q3, maximum — is computed directly from sorted data positions, requiring no assumption about normality, symmetry, or any parametric form. This contrasts with inference based on the mean and standard deviation, which typically assumes approximate normality for interval estimates. The five-number summary is valid and meaningful for any data distribution, including heavily skewed or multimodal ones."
+
+- question: "Why might a five-number summary give a better description of income data than the mean and standard deviation alone?"
+  type: short-answer
+  answer: "Income distributions are right-skewed: a small number of very high earners pull the mean far above what most people earn. The mean and standard deviation are sensitive to these outliers, making the mean unrepresentative of the typical income. The five-number summary — based on percentiles — shows where most incomes actually fall (Q1 to Q3) and reveals the skewness through asymmetric gaps (e.g., Q3−median much larger than median−Q1), without being distorted by extreme values."
+  explanation: "When the median income is $52,000 and the mean is $80,000, the gap signals right-skew: a few high earners inflate the average. The five-number summary makes the structure visible without being misled. This is why policy discussions about 'typical' household income should reference median, not mean — and why the IQR better captures the spread most families experience."
+```
+
 ## Explainer
 
 You already know from descriptive statistics that the **mean** and **standard deviation** summarize a dataset's center and spread. But these two numbers are sensitive to extreme values — a single outlier can pull the mean far from where most of the data actually lives. Quantiles offer an alternative: they summarize the distribution by recording *where specific fractions of the data fall*, entirely without reference to arithmetic averages. The result is a description of shape that stays meaningful even when data is heavily skewed.

@@ -33,6 +33,45 @@ Take ambiguous English sentences and write out all possible FOL translations wit
 - Prenex conversion is not always meaning-preserving in the presence of other connectives; moving quantifiers past negations flips ∀ to ∃ and vice versa.
 - Natural language is genuinely ambiguous about scope — the goal of formalization is to disambiguate, not to find the "one true reading."
 
+## Questions
+
+```yaml
+- question: "A software specification says: 'Every request is handled by some worker.' A developer writes this as ∃w∀r Handles(w,r). Why is this problematic?"
+  type: multiple-choice
+  options:
+    - "It is correct — ∃w∀r and ∀r∃w express the same constraint"
+    - "The developer reversed the quantifier order: ∃w∀r says a single worker handles all requests, while ∀r∃w says each request has some worker (possibly different)"
+    - "The formula is not well-formed FOL syntax"
+    - "∀r∃w would be equally wrong — both formulas fail to capture the intent"
+  answer: 1
+  explanation: "Quantifier order is never mere notation. ∀r∃w Handles(w,r) says: for every request r, there exists some worker w that handles it — each request can have a different worker, which is the intended meaning. ∃w∀r Handles(w,r) says: there is a single worker w who handles every request — a far stronger and almost certainly false claim in any realistic system. The developer wrote ∃∀ when they meant ∀∃. This is a concrete example of why scope errors in formal specifications are dangerous."
+
+- question: "Consider the formula ¬∀x P(x). What is the correct prenex normal form, and which quantifier replaces ∀ after moving past the negation?"
+  type: multiple-choice
+  options:
+    - "∀x ¬P(x) — the negation distributes inside without changing the quantifier"
+    - "∃x ¬P(x) — the negation flips ∀ to ∃ when moved past the quantifier"
+    - "¬∃x P(x) — you cannot move quantifiers past negation"
+    - "∀x P(x) — negation cancels when moved into prenex form"
+  answer: 1
+  explanation: "¬∀xP(x) is logically equivalent to ∃x¬P(x): 'not every x satisfies P' is the same as 'some x does not satisfy P.' When converting to prenex normal form, moving a quantifier past a negation requires flipping ∀ to ∃ (and ∃ to ∀). This is one of the most important rules to remember in prenex conversion: negation and quantifier interaction changes the type of quantifier."
+
+- question: "The formula ∀x∃y Loves(x,y) and the formula ∃y∀x Loves(x,y) can have different truth values in the same model."
+  type: true-false
+  answer: true
+  explanation: "These formulas are not equivalent. ∀x∃y Loves(x,y) says 'everyone loves someone' — each person's beloved can be different. ∃y∀x Loves(x,y) says 'there is someone whom everyone loves' — a single universally loved individual. In a model with three people where each person loves only themselves, the first formula is true but the second is false. Quantifier order determines whether the existential witness is independent of or fixed before the universal."
+
+- question: "Swapping the order of two quantifiers of the same type (both ∀ or both ∃) never changes the meaning of a formula."
+  type: true-false
+  answer: true
+  explanation: "∀x∀y P(x,y) is logically equivalent to ∀y∀x P(x,y), and ∃x∃y P(x,y) is equivalent to ∃y∃x P(x,y). Swapping same-type quantifiers preserves meaning. The scope issue arises only with mixed quantifiers: ∀∃ and ∃∀ are genuinely different. This is why the critical skill is tracking which type of quantifier has wider scope when they are different."
+
+- question: "Give an example showing that ∀x∃y P(x,y) and ∃y∀x P(x,y) express different claims, and explain what each one says."
+  type: short-answer
+  answer: "Let P(x,y) mean 'x is less than y' on the natural numbers. ∀x∃y P(x,y) says 'for every number, there is some number greater than it' — true, since every natural number has a successor. ∃y∀x P(x,y) says 'there is a single number that is greater than every natural number' — false, since there is no largest natural number. The first formula allows y to depend on x (each x gets its own witness); the second fixes y before x is chosen, requiring one witness to work for all x simultaneously. This dependency relationship is the essence of quantifier scope."
+  explanation: "The key insight is that the outer quantifier 'goes first': in ∀x∃y, for each x we pick a (possibly different) y; in ∃y∀x, we pick one y and it must work for every x. The natural number example makes this vivid because the ∀∃ reading is true while the ∃∀ reading is false — they are genuinely different claims about the same domain."
+```
+
 ## Explainer
 
 From your study of first-order logic syntax, you know that ∀x and ∃x are **binders** that introduce variables with a defined **scope**—the syntactic region of the formula the quantifier governs. When a single quantifier appears, scope is unambiguous. When multiple quantifiers appear in a formula, their relative order determines which has **wider scope**, and this order is never mere notation—it changes the meaning of the formula in every non-trivial model.

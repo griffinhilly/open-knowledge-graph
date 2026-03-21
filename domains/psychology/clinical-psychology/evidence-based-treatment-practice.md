@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Evidence-Based Practice integrates the best available research evidence with clinical expertise and client values to guide treatment decisions. Empirically-supported treatments have demonstrated efficacy in rigorous studies. Clinical practice guidelines synthesize research to provide recommendations for specific disorders. Understanding research methodology is essential for critically evaluating evidence.
 
+## Questions
+
+```yaml
+- question: "A large RCT with 12,000 participants finds that a new antidepressant produces a statistically significant reduction in depression scores (p < .0001), with a mean improvement of 1.8 points on a 52-point scale compared to placebo. A clinician concludes the drug is effective and should be adopted widely. What is the critical flaw in this reasoning?"
+  type: multiple-choice
+  options:
+    - "The study should have used a within-subjects design to control for individual differences"
+    - "Statistical significance at large sample sizes does not guarantee clinical meaningfulness; a 1.8-point change on a 52-point scale may fall below any threshold of noticeable benefit to patients"
+    - "Depression cannot be measured on numerical scales, so quantitative comparisons are invalid"
+    - "A single RCT is insufficient — empirically supported treatments require two independent RCTs"
+  answer: 1
+  explanation: "This is the efficacy-significance gap: with very large samples, even trivially small effects become statistically significant. Statistical significance tests whether an effect is distinguishable from zero — not whether it is large enough to matter. A 1.8-point improvement on a 52-point scale, even if perfectly real, may be imperceptible to patients and clinically irrelevant. Effect size measures (Cohen's d, number needed to treat, minimal clinically important difference) are the right tools for assessing clinical meaningfulness. Evidence-based practice requires evaluating both statistical rigor and practical significance, not just p-values."
+
+- question: "A treatment achieves strong efficacy evidence from tightly controlled RCTs conducted in academic research settings with carefully selected patients. What concern does the efficacy/effectiveness distinction raise for a clinician considering adopting this treatment?"
+  type: multiple-choice
+  options:
+    - "Efficacy RCTs are conducted under artificial conditions; the treatment's real-world performance with diverse patients and typical clinicians may be substantially lower"
+    - "RCT evidence can never generalize beyond the specific population studied, so the treatment is inapplicable in clinical settings"
+    - "Efficacy evidence proves the treatment works, making effectiveness research redundant"
+    - "The treatment should only be used by researchers, since that is the context in which it was validated"
+  answer: 0
+  explanation: "Efficacy and effectiveness are not the same thing. Efficacy RCTs use tightly controlled conditions: carefully selected patients (often excluding comorbidities), manualized treatment, trained therapists under close supervision, close adherence monitoring. These conditions maximize internal validity but may not match real-world clinical practice. Effectiveness research asks: does this treatment work when delivered by typical clinicians to typical patients in typical settings? Treatments that excel under controlled conditions sometimes show attenuated effects in practice, sometimes for important reasons (complex comorbidities, limited session counts, therapist variability). A clinician should ask: how well do my patients and my practice match the RCT sample and conditions?"
+
+- question: "A treatment that has demonstrated efficacy for panic disorder in rigorous RCTs can be assumed effective for generalized anxiety disorder, since both are anxiety disorders sharing common features."
+  type: true-false
+  answer: false
+  explanation: "Empirically supported treatment status is specific to a diagnosis and population. Panic disorder and generalized anxiety disorder share anxiety as a feature but differ in symptom presentation, maintenance mechanisms, and treatment response. Cognitive-behavioral treatments for panic (with interoceptive exposure targeting panic-specific processes) are not identical to treatments for GAD (which focus more on worry and uncertainty tolerance). Assuming cross-disorder efficacy based on surface similarity risks applying the wrong protocol. This is a practical implication of taking the evidence hierarchy seriously: evidence establishes what works for whom — generalization requires its own evidence."
+
+- question: "Evidence-based practice positions the clinician as a critical consumer of research who integrates the best available evidence with clinical expertise and client values — it does not mandate the mechanical application of RCT findings to every patient."
+  type: true-false
+  answer: true
+  explanation: "EBP has three equal pillars: best available research evidence, clinical expertise, and client values and preferences. The research evidence informs decisions; it does not make them. A treatment with the strongest evidence base may still be inappropriate if the client refuses it, has contraindicated conditions, or holds cultural beliefs that make the treatment unacceptable. Clinical expertise involves recognizing when a patient fits or deviates from the studied population and adapting accordingly. A clinician who mechanically applies RCT-top treatments without attending to the individual is described in the EBP literature as practicing 'robotically' — technically evidence-informed but not truly evidence-based."
+
+- question: "What is the difference between efficacy and effectiveness in clinical research, and why does the distinction matter for practicing clinicians?"
+  type: short-answer
+  answer: "Efficacy refers to whether a treatment works under optimal, controlled conditions — typically established through RCTs with carefully selected patients, manualized protocols, trained therapists, and close monitoring. Effectiveness refers to whether it works in real-world clinical settings with diverse, often comorbid patients, typical practitioners, and the constraints of routine care (limited sessions, variability in therapist adherence, etc.). The two often diverge: treatments can show strong efficacy but reduced effectiveness when transported from research settings to practice. The distinction matters for clinicians because they operate in the effectiveness domain — their patients are not RCT samples. Clinicians must therefore ask not just 'was this treatment shown to work?' but 'does my patient and setting resemble the conditions under which it was shown to work?'"
+  explanation: "The efficacy/effectiveness gap has been documented across many treatments and disorders, particularly in psychotherapy. Understanding the gap is essential for implementing EBP without either dismissing RCT evidence (ignoring efficacy) or applying it uncritically (ignoring effectiveness). Practice guidelines increasingly include both efficacy and effectiveness evidence, with explicit ratings for the strength of each."
+```
+
 ## Explainer
 
 Evidence-based practice (EBP) is a framework for making clinical decisions under uncertainty. From your research methods training, you know that not all evidence is equal — a well-conducted randomized controlled trial (RCT) answers questions that a case study cannot, and a meta-analysis synthesizing many RCTs answers questions that any single study cannot. EBP formalizes this into a **hierarchy of evidence**: at the top sit systematic reviews and meta-analyses of RCTs; below them, individual RCTs; then cohort studies and case-control designs; then case series; at the bottom, expert opinion alone. The hierarchy reflects resistance to confounding and bias — the further down you go, the more alternative explanations can account for observed effects.

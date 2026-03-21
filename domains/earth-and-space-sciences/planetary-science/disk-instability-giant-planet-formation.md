@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Sufficiently massive and cool protoplanetary disks become gravitationally unstable, leading to rapid fragmentation and direct collapse into planetary-mass objects. This disk instability mechanism forms giant planets on timescales of ~1000 years, much faster than core accretion, and may explain some ultra-massive exoplanets and wide-separation companions.
 
+## Questions
+
+```yaml
+- question: "A protoplanetary disk has Toomre Q < 1 throughout its outer regions. Which additional condition must be satisfied for giant planets to actually form by disk instability?"
+  type: multiple-choice
+  options:
+    - "The disk must have metal-poor composition to reduce dust opacity and allow radiation to escape"
+    - "The disk must cool faster than a few orbital periods — releasing compressive heat before pressure halts collapse"
+    - "The host star must be at least twice solar mass to supply sufficient gravitational energy"
+    - "The disk's rotation rate must exceed the local orbital frequency to prevent shear disruption"
+  answer: 1
+  explanation: "Q < 1 triggers gravitational instability, but without efficient cooling, compressive heating re-stabilizes the disk: gas compresses, heats up, pressure rises, and collapse halts. The disk then sustains self-regulating spiral waves that transport angular momentum but never fragment. Only when the cooling time is shorter than a few orbital periods can collapse run away into bound, planet-forming clumps. Q < 1 is necessary but not sufficient."
+
+- question: "Scientists directly image a giant companion at 75 AU from a young star and find its atmosphere has near-solar composition with low heavy-element enrichment. Which formation pathway does this evidence most strongly favor?"
+  type: multiple-choice
+  options:
+    - "Core accretion, because core accretion operates fastest at large orbital separations"
+    - "Core accretion, because the heavy-element core must be buried deep and undetectable from spectroscopy"
+    - "Disk instability, because direct collapse from disk gas produces a body with near-stellar composition"
+    - "Disk instability, because only wide-separation orbits allow the solid core to grow large enough"
+  answer: 2
+  explanation: "Disk instability forms planets by direct gravitational collapse of disk gas, which has roughly stellar (near-solar) composition. Core accretion first builds a solid heavy-element core, then accretes gas on top — producing a planet with a metal-enriched interior detectable as above-solar bulk metallicity. The near-solar composition and wide separation both favor disk instability. This compositional signature is one of the key observational tests for distinguishing formation mechanisms."
+
+- question: "Any region of a protoplanetary disk where the Toomre Q parameter falls below 1 will inevitably fragment into planetary-mass objects."
+  type: true-false
+  answer: false
+  explanation: "Q < 1 is necessary but not sufficient for fragmentation. An unstable disk develops spiral density waves that compress gas and generate heat. If this heat cannot radiate away quickly — if the cooling time exceeds a few orbital periods — the disk self-regulates: spiral arms heat toward Q ≈ 1, transport angular momentum outward, but never actually fragment. Genuine fragmentation into planet-forming clumps requires Q < 1 *and* efficient cooling. Many disks oscillate near marginal stability without ever fragmenting."
+
+- question: "Disk instability is generally considered viable primarily at wide orbital separations (tens of AU or more) from the host star."
+  type: true-false
+  answer: true
+  explanation: "Three factors make wide separations favorable. First, disk temperatures are lower at large radii, so radiative cooling is more efficient. Second, orbital periods are longer, giving gas more time to cool per orbit relative to the compression timescale. Third, the outer disk is farther from the star's heating radiation. All three factors together enable the rapid cooling required for fragmentation. Close to the star, high temperatures and strong stellar irradiation prevent disks from cooling fast enough, making disk instability non-viable at small separations."
+
+- question: "Why does the cooling rate of the disk — rather than just the Toomre Q value — determine whether gravitational instability leads to planet formation?"
+  type: short-answer
+  answer: "Gravitational collapse compresses gas, generating heat. If this heat radiates away faster than compression deposits it (cooling time shorter than a few orbital periods), the gas continues collapsing and eventually forms a bound clump. If cooling is slow, the compressive heating raises pressure and temperature fast enough to halt collapse, driving Q back toward marginal stability. The disk then sustains spiral structure — transporting angular momentum outward — but never fragments. Cooling rate is the decisive factor because it determines whether the thermodynamic door stays open long enough for collapse to complete."
+  explanation: "This is the core bottleneck of disk instability: gravitational instability (Q < 1) opens the door to fragmentation, but only efficient cooling keeps that door open. Without rapid cooling, the disk is a self-regulating system that perpetually hovers near marginal stability without breaking into planets."
+```
+
 ## Explainer
 
 From your study of protoplanetary disk structure, you know that young stars are surrounded by rotating disks of gas and dust from which planets form. The standard model for giant planet formation — **core accretion** — builds a solid core over millions of years until it is massive enough to gravitationally capture a gaseous envelope. But core accretion faces a timing problem: at large orbital distances (beyond ~20 AU), the disk material is so sparse and orbital periods so long that building a core takes longer than the disk's observed lifetime of a few million years. **Disk instability** offers an alternative pathway that bypasses the slow core-building phase entirely.

@@ -32,6 +32,45 @@ Observe how gender is "done" in everyday interactions — how people respond dif
 - Gender inequality is primarily the result of individual sexist attitudes rather than structural and institutional arrangements.
 - Judith Butler's "performance" thesis means gender is a free choice or theatrical act rather than a socially compelled and constrained repetition.
 
+## Questions
+
+```yaml
+- question: "A workplace study finds that when a man and a woman use identical assertive language in a meeting, the woman is rated as 'aggressive' and the man as 'confident.' Which concept best explains this outcome?"
+  type: multiple-choice
+  options:
+    - "Individual sexist attitudes — the evaluators are consciously biased against women"
+    - "Institutional gender bias — organizational norms define legitimate leadership in gendered terms, penalizing women who violate them"
+    - "Gender socialization — the woman learned to be more assertive than her gender role prescribes"
+    - "Comparable worth discrimination — the woman's contributions are systematically undervalued relative to the man's"
+  answer: 1
+  explanation: "The scenario illustrates institutional gender bias: the same behavior is evaluated differently depending on who performs it because organizational norms encode gendered expectations about what authority looks like. This is not necessarily about individual evaluators holding conscious prejudices — they may believe they are evaluating fairly. The structure of the evaluation itself encodes the norm that assertiveness is legitimate for men and transgressive for women. Option A misses the structural dimension; this outcome persists even when no individual intends discrimination."
+
+- question: "A person raised as a girl reports that she 'naturally' prefers nurturing others and finds it deeply fulfilling. From a sociological perspective on gender socialization, this preference is best understood as:"
+  type: multiple-choice
+  options:
+    - "Biological determinism — hormonal differences produce innate nurturing drives in women"
+    - "A free, authentic choice that reflects her individual personality, independent of social influence"
+    - "A socially produced disposition: years of gendered socialization have made caring feel natural, even though it was learned through rewards and sanctions"
+    - "False consciousness — she has been deceived into believing she values something she actually resists"
+  answer: 2
+  explanation: "The sociological claim is not that the preference is fake or that she is deceived, but that it is produced through socialization — the repeated reinforcement of nurturing behavior as appropriate for girls, through family, peers, media, and institutions. This socialization works precisely because it produces genuine, felt preferences rather than external compulsion. Option A assumes what's at issue (the biological claim). Option B treats the preference as arising from nowhere socially. Option D misrepresents the sociological view as dismissive of genuine experience."
+
+- question: "According to Judith Butler's theory of gender performativity, gender is a free, conscious performance that individuals can choose to adopt or abandon at will."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misreading of Butler. 'Performativity' is not the same as 'performance' in the theatrical sense. Butler argues that gender is constituted by compelled, repeated acts — not chosen performances. The social sanctions for violating gender norms (ridicule, ostracism, professional penalties) enforce conformity. Gender has no 'original' behind the performance — it IS the repeated acts — but those acts are socially constrained, not freely chosen. The concept challenges biological determinism without replacing it with a claim of radical individual freedom."
+
+- question: "Gender socialization is an ongoing process throughout adult life, not a one-time childhood acquisition."
+  type: true-false
+  answer: true
+  explanation: "The misconception is that gender is 'installed' in childhood and then simply expressed. The 'doing gender' framework (West and Zimmerman) emphasizes that gender is continuously accomplished in every interaction throughout life — at work, in romantic relationships, among friends, in public space. Adults continue to receive rewards for gender-conforming behavior and sanctions for gender-nonconforming behavior, which is why gendered norms remain stable across generations. Gender socialization is a lifelong maintenance process, not a completed installation."
+
+- question: "Why does the concept of 'doing gender' (West and Zimmerman) suggest that gender inequality cannot be solved by simply changing individuals' sexist attitudes?"
+  type: short-answer
+  answer: "Doing gender shows that gender inequality is reproduced through ordinary, everyday behavior — not only through deliberate discrimination. Even without consciously sexist attitudes, people enact gendered expectations (evaluating identical behavior differently, assigning domestic labor differently, interrupting differently) because gender norms are built into the fabric of social interaction and institutional structure. Changing attitudes without changing the institutional rules and interactional norms that enforce gendered behavior leaves the structural reproduction of inequality intact."
+  explanation: "The structural dimension is critical. The gender pay gap persists partly because jobs coded as feminine are paid less than comparably skilled masculine-coded jobs — a pattern that exists independently of whether any hiring manager is consciously sexist. Career penalties for caregiving interruptions affect women disproportionately because socialization patterns domestic labor toward women, not because employers intend to discriminate. Attitudinal change matters but is insufficient without institutional reform."
+```
+
 ## Explainer
 
 From your study of socialization, you know that individuals learn the values, norms, and behaviors expected of them through family, peers, schools, and media — and that this process shapes who we become without feeling like external imposition. **Gender socialization** is a specific dimension of this process: from birth, individuals are sorted into gender categories and taught to inhabit them through continuous, cumulative exposure to differentiated expectations, rewards, and sanctions. Parents respond differently to the same infant behavior depending on whether they believe the child is a boy or girl; teachers call on boys more frequently in math class; peer groups police gender conformity through ridicule. No single interaction produces gender — but their accumulation across years produces people who experience gendered behavior as natural expression of who they are.

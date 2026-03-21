@@ -34,6 +34,45 @@ Examine material culture from Hellenistic sites—coins mixing Greek and Persian
 - 'Hellenization' was not simply Greek culture replacing local cultures; local cultures actively adopted, adapted, and transformed Greek elements.
 - The Library of Alexandria was not destroyed in a single dramatic burning; it declined gradually over centuries through neglect, funding cuts, and multiple incidents.
 
+## Questions
+
+```yaml
+- question: "The Ptolemaic rulers of Egypt presented themselves as pharaohs in Egyptian religious contexts while maintaining a Greek-speaking court in Alexandria. What does this practice best illustrate?"
+  type: multiple-choice
+  options:
+    - "Greek culture was too weak to displace Egyptian traditions and had to compromise"
+    - "Cultural hybridity was a deliberate governance strategy — ruling in local religious terms while using Greek as the administrative and intellectual medium"
+    - "The Ptolemies secretly preferred Egyptian religion and were abandoning their Greek identity"
+    - "Egyptian priests held more political power than the Ptolemaic rulers and forced this arrangement"
+  answer: 1
+  explanation: "Ptolemaic rulers acting as pharaohs in Egyptian religious contexts was not an accident or a concession — it was a calculated strategy for legitimizing rule over a population that was not Greek. Simultaneously, the Greek-speaking court and the Library of Alexandria served as markers of Hellenistic prestige. This two-register identity is the defining feature of Hellenistic cultural hybridity as a governance tool, not a byproduct of failed cultural replacement."
+
+- question: "Why did Alexandria become the greatest intellectual center of the ancient world during the Hellenistic period?"
+  type: multiple-choice
+  options:
+    - "Alexandria's geographic isolation from ongoing wars made it a natural refuge for displaced scholars"
+    - "Greek culture inherently valued intellectual inquiry more than Egyptian or Persian cultures, and Greeks dominated the city"
+    - "The Ptolemaic rulers deliberately funded scholarship — the Library and Musaeum — as a political project of prestige and knowledge accumulation"
+    - "Alexandria was the last major Greek-controlled city, so scholars had nowhere else to go"
+  answer: 2
+  explanation: "The Library of Alexandria and the Musaeum were institutional creations of Ptolemaic royal patronage. The Ptolemies funded scholars from across the Greek-speaking world as a prestige project — similar to how modern states fund national laboratories. Euclid, Eratosthenes, and Herophilus worked there because it was a well-funded research institution, not because of geographic luck or cultural inevitability. This shows that intellectual production is often an outcome of political and economic arrangements."
+
+- question: "Alexander the Great's conquests resulted in Greek culture being uniformly imposed on conquered peoples, replacing local traditions throughout the former Persian Empire."
+  type: true-false
+  answer: false
+  explanation: "The Hellenistic world was characterized by genuine cultural synthesis rather than replacement. Alexander himself adopted Persian dress and court customs, scandalized his Macedonian companions, and married a Bactrian princess. Local cultures across the successor kingdoms actively adopted, adapted, and transformed Greek elements on their own terms. The Ptolemies, for example, presented themselves as pharaohs in Egyptian religious vocabulary while maintaining a Greek court — a hybrid arrangement, not an erasure of Egyptian culture."
+
+- question: "The Hellenistic period represents a historically significant rupture because it created political and institutional conditions — like the Library of Alexandria — that made concentrated, systematic scholarship possible on a scale the classical polis system could not have produced."
+  type: true-false
+  answer: true
+  explanation: "The polis system was city-scale, politically competitive, and philosophically oriented around civic identity. The Hellenistic successor kingdoms were large imperial states with resources to fund institutions like the Library and Musaeum as prestige projects. Euclid's systematic geometry, Eratosthenes' measurement of the Earth, and Herophilus's anatomical dissection were products of this institutional environment. The point is that knowledge production is shaped by the political and economic structures that fund it."
+
+- question: "How does 'cultural hybridity' differ from 'cultural replacement,' and why is this distinction important for understanding the Hellenistic period?"
+  type: short-answer
+  answer: "Cultural replacement implies one culture displacing another — the conquered people abandon their traditions and adopt the conqueror's. Cultural hybridity means elements from multiple traditions are actively blended, producing something new that neither source culture alone would have generated. In the Hellenistic world, Greek language and philosophy merged with Egyptian religion, Mesopotamian astronomy, and Persian administration to produce genuinely hybrid cultures. The Ptolemies ruling as pharaohs, Alexandria as a Greek institution on Egyptian soil, coins mixing Greek and Persian imagery — these are not replacements but syntheses."
+  explanation: "The distinction matters because 'Hellenization' is sometimes misread as a one-directional process of Greek dominance. Understanding it as hybridity explains why the Hellenistic world produced scholarship (Alexandrian science) and cultural forms (Greco-Buddhist art, Hellenistic Judaism) that were impossible within purely Greek or purely local traditions. The mixing was the productive force, not the dominance."
+```
+
 ## Explainer
 
 Your study of the Greek polis gave you the political and cultural DNA of Hellenic civilization: the polis system, democratic and oligarchic governance, philosophical schools, and a civic identity rooted in the distinction between Greeks and "barbarians." Your study of the Persian Empire gave you its counterpart: a vast multi-ethnic administrative empire that absorbed and managed cultural diversity through satrapies rather than demanding cultural uniformity. The Hellenistic period is what happens when these two systems collide and neither fully wins.

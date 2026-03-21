@@ -33,6 +33,45 @@ Study classic experiments demonstrating social proof in ambiguous situations; tr
 ## Common Misconceptions
 Students think social proof only affects uncertain decisions; actually, it influences behavior even about objective facts when multiple others have already committed to a position.
 
+## Questions
+
+```yaml
+- question: "A town council votes on a new zoning proposal. The first four speakers enthusiastically support it. By the tenth speaker, almost everyone endorses it — though several privately had doubts. Post-meeting interviews confirm no one feared public disapproval. Which mechanism best explains this pattern?"
+  type: multiple-choice
+  options:
+    - "Normative influence — people conformed to avoid social rejection"
+    - "An informational cascade — each person rationally weighted prior visible commitments, overwhelming their private signal"
+    - "Groupthink — the council chair suppressed dissent"
+    - "Social desirability bias — people lied in interviews about their private doubts"
+  answer: 1
+  explanation: "Because no one feared disapproval (ruling out normative influence), the cascade must be operating through epistemics. Each speaker observed prior speakers' apparent certainty and rationally inferred the majority probably knew something they didn't. Once enough people have visibly committed, the accumulated public signal outweighs any individual's private doubt — even if the original supporters were uncertain or arbitrary. This is the hallmark of an informational cascade: individual rationality produces collective lock-in."
+
+- question: "What makes informational cascades especially prone to producing systematic collective errors?"
+  type: multiple-choice
+  options:
+    - "People in cascades are acting irrationally, ignoring available evidence"
+    - "Cascades only occur when accurate information is unavailable"
+    - "Early commitments, even if arbitrary, disproportionately shape the cascade regardless of whether they were correct"
+    - "Cascades require active deception by influential early adopters"
+  answer: 2
+  explanation: "The dangerous property of cascades is that they are self-reinforcing regardless of the accuracy of early information. Each subsequent person acts rationally — the accumulated public signal genuinely does outweigh their private signal — but the accumulated signal itself may have been built on arbitrary or mistaken early choices. The cascade doesn't discriminate between well-founded and poorly-founded early commitments; it amplifies whatever happens to come first. This is why the first few voices in any uncertain situation carry enormous and unearned influence."
+
+- question: "Social proof operates through informational influence — people genuinely update their beliefs based on what others appear to believe, not merely comply to avoid disapproval."
+  type: true-false
+  answer: true
+  explanation: "This is the defining feature of social proof as distinct from normative conformity. When you join the line at the busier restaurant, you're not afraid of disapproval — you're inferring the busier restaurant is probably better. The belief update is genuine, not strategic compliance. This makes social proof more epistemically interesting than peer pressure: it's rational inference that can nevertheless lead entire groups systematically astray when early information was noisy or arbitrary."
+
+- question: "Because each person in an informational cascade is acting on rational inference, the group's eventual consensus is likely to be more accurate than any individual's private judgment."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception to avoid. Individual rationality does not aggregate into collective accuracy when those individual inferences are all drawing on the same public signal — which itself may have been seeded by arbitrary early choices. The rational updating that drives the cascade is what makes it self-reinforcing, not self-correcting. In fact, cascades are resistant to new evidence because each new participant continues to weight the accumulated public signal heavily. Individual rationality can and does produce collective error."
+
+- question: "Why is early information disproportionately powerful in an informational cascade, and what does this imply about the reliability of group consensus in uncertain situations?"
+  type: short-answer
+  answer: "Early information sets the public signal that all subsequent observers weight in their inference. Once a few people have committed visibly, later participants face an asymmetry: their private signal is one data point, but the public signal is the accumulated visible choices of many others. Rational updating means later participants defer to the majority, regardless of its epistemic foundation. Group consensus therefore inherits and amplifies whatever accidents shaped the earliest choices — it is not independently reliable."
+  explanation: "This is the structural insight behind cascade dynamics. The first voices in an uncertain situation are not just expressing opinions — they are creating the informational environment that determines whether a cascade forms and in which direction. Social systems that encourage early dissent and independent private signals before public commitment are more robust to cascade errors than systems that make early commitments visible and irreversible. Pluralistic ignorance is a related failure mode: when everyone privately doubts but publicly agrees, reading others' public compliance as private conviction."
+```
+
 ## Explainer
 
 Social proof is a specific mechanism of **informational influence** — and understanding it requires the distinction you already know between normative and informational influence. Social proof operates through epistemics, not social pressure. When you're uncertain about what's correct, other people's behavior becomes evidence. You don't comply to fit in; you update your beliefs because you genuinely think others know something you don't. This makes social proof feel different from conformity under normative pressure — it's rational inference, not self-censorship.

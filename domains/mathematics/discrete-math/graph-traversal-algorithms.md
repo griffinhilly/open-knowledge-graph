@@ -31,6 +31,45 @@ Trace DFS and BFS by hand on small graphs, noting discovery and finish times for
 ## Common Misconceptions
 DFS can visit vertices in many different orders depending on starting vertex and edge order; BFS finds the shortest path in unweighted graphs, not weighted ones.
 
+## Questions
+
+```yaml
+- question: "You need to find whether a directed graph contains a cycle. Which traversal algorithm is most naturally suited, and what does it detect?"
+  type: multiple-choice
+  options:
+    - "BFS, because it explores level by level and can detect cross-edges that indicate cycles"
+    - "DFS, because it detects back-edges — edges pointing to a vertex still on the current recursion stack"
+    - "Either algorithm works equally well, since both visit all vertices"
+    - "BFS, because its queue ensures vertices are visited in the order they were discovered, revealing repetitions"
+  answer: 1
+  explanation: "DFS is the natural choice for cycle detection. When DFS encounters a vertex already on the current recursion stack (marked 'in progress'), it has found a back-edge — a backward link that closes a loop. BFS can detect cross-edges to already-visited vertices, but this does not as cleanly expose cycle structure. The back-edge criterion from DFS is the basis for topological sort and DAG detection."
+
+- question: "In an unweighted graph, you want the shortest path from vertex S to every other reachable vertex. Which algorithm gives correct results, and why does the other one fail?"
+  type: multiple-choice
+  options:
+    - "DFS gives correct results; BFS may miss some vertices by terminating early"
+    - "BFS gives correct results; DFS may find a path but not the shortest one"
+    - "Both give correct shortest paths because both visit all reachable vertices"
+    - "DFS gives correct results because its stack structure naturally prioritizes direct paths"
+  answer: 1
+  explanation: "BFS discovers each vertex for the first time via the shortest path from the source, because it explores all vertices at distance k before any at distance k+1. DFS follows chains as deep as possible before backtracking, so it may reach a vertex via a long path when a shorter one exists. BFS's queue is the mechanism that enforces level-by-level exploration and thus shortest-path correctness — but only in unweighted graphs. In weighted graphs, Dijkstra's algorithm is required."
+
+- question: "In an unweighted graph, BFS guarantees that each vertex is first discovered via the shortest path (fewest edges) from the source."
+  type: true-false
+  answer: true
+  explanation: "This is BFS's defining property. Because BFS uses a queue and processes vertices in FIFO order, it finishes all vertices at distance d before reaching any at distance d+1. The first time a vertex is discovered, it is reached via the shortest possible route. DFS makes no such guarantee — it may find a vertex after following a long chain when a two-hop path existed."
+
+- question: "DFS is faster than BFS in the worst case because it finds the target vertex sooner without exploring all levels."
+  type: true-false
+  answer: false
+  explanation: "Both DFS and BFS run in O(V + E) time — they visit every vertex and edge exactly once. DFS may happen to find a target quickly in a specific case, but in the worst case (e.g., the target is at the opposite end of the graph), it explores just as much as BFS. The difference between the algorithms is not efficiency but the *structure* they expose: DFS reveals back-edges and cycle structure; BFS reveals shortest paths."
+
+- question: "Why does using a queue (rather than a stack) cause BFS to find shortest paths in unweighted graphs?"
+  type: short-answer
+  answer: "A queue is FIFO: vertices discovered first are explored first. This means BFS processes all vertices at distance 1 before any at distance 2, all at distance 2 before any at distance 3, and so on. The first time a vertex is dequeued and explored, it was reached via the smallest number of hops possible. A stack (used by DFS) is LIFO, which causes deep-first exploration and gives no such level-ordering guarantee."
+  explanation: "The data structure is the entire explanation. Queue → FIFO → level-by-level → shortest paths. Stack → LIFO → depth-first → no shortest-path guarantee. Understanding this makes both algorithms' properties follow directly from one underlying principle rather than two separate rules to memorize."
+```
+
 ## Explainer
 
 You already know the mechanics of **depth-first search** and **breadth-first search** individually. This topic is about understanding them together — their structural differences, what each one reveals about a graph, and when to reach for one versus the other.

@@ -32,6 +32,45 @@ status: draft
 ## Core Idea
 Ocean waves transfer wind energy across vast distances via periodic motion of water molecules, with waves characterized by wavelength, period, and height. Wave properties depend on wind speed, duration, and fetch distance, and as waves travel from generation regions they separate by period in a process called dispersion.
 
+## Questions
+
+```yaml
+- question: "A storm generates waves in the North Pacific. Several days later, a surfer on a California beach notices the arriving swell is clean, evenly spaced, and long-period, with no short choppy waves. What process explains this?"
+  type: multiple-choice
+  options:
+    - "The storm only generated long-period waves, so only those are available to travel"
+    - "Short-period waves are absorbed by the ocean and never reach distant beaches"
+    - "Dispersion separates waves by wavelength during travel — longer waves move faster and arrive first as organized swell"
+    - "Wind calms quickly after a storm, filtering out short-period waves at the source"
+  answer: 2
+  explanation: "Dispersion is the key process: different wavelengths travel at different speeds (wave speed is proportional to the square root of wavelength in deep water). Long-period, long-wavelength waves race ahead and arrive first as smooth, organized swell. Short-period waves lag behind or dissipate. The ocean acts as a natural filter, sorting what was a chaotic wind sea into groups ordered by period."
+
+- question: "A submarine descends to a depth equal to exactly half the wavelength of large surface waves overhead. What orbital motion does it experience?"
+  type: multiple-choice
+  options:
+    - "Full circular orbital motion, identical to the surface"
+    - "Negligible orbital motion — wave influence is essentially zero at this depth"
+    - "Elliptical orbits, about half the surface amplitude"
+    - "Strong upward force from wave pressure but no horizontal motion"
+  answer: 1
+  explanation: "Water particle orbital motion in surface waves decreases exponentially with depth. By approximately half a wavelength below the surface, the orbital diameter has fallen to about 1/535th of the surface value — essentially negligible. This is why submarines can dive below wave-influenced water to find calm conditions even during severe surface storms."
+
+- question: "Doubling the wavelength of a deep-water wave doubles its travel speed."
+  type: true-false
+  answer: false
+  explanation: "The dispersion relation for deep-water waves shows that wave speed is proportional to the *square root* of wavelength (c = √(gλ/2π)). Doubling the wavelength therefore increases speed by a factor of √2 ≈ 1.41, not 2. This nonlinear relationship is what causes efficient separation of long- and short-period waves over ocean-basin distances."
+
+- question: "As ocean waves enter shallow water near a coast, they slow down and their wavelength decreases while their wave height increases."
+  type: true-false
+  answer: true
+  explanation: "This is the shoaling process. When water depth becomes less than about half the wavelength, the seafloor begins to interfere with the circular orbital motion, flattening orbits into ellipses. Waves slow down, wavelengths shorten, and energy conservation requires wave height to increase — steepening the wave until it becomes unstable and breaks. This transforms open-ocean swell into the breaking waves that shape coastlines."
+
+- question: "Why does a chaotic wind sea in a storm's fetch area transform into organized, evenly spaced swell as waves travel thousands of kilometers from the storm?"
+  type: short-answer
+  answer: "Because different wavelengths travel at different speeds (dispersion): longer waves travel faster than shorter waves. Over long distances, the faster long-period waves pull ahead while shorter waves fall behind or dissipate, sorting the mixed-frequency wind sea into separate wave groups ordered by wavelength. At a distant coast, the longest-period waves arrive first, followed progressively by shorter-period waves."
+  explanation: "This is the physical meaning of dispersion in ocean waves. The dispersion relation (c ∝ √λ) guarantees that wavelength and speed are coupled, so travel time over an ocean basin acts as a natural frequency sorter. Without dispersion — if all wavelengths traveled at the same speed — distant swell would be just as chaotic as the original wind sea."
+```
+
 ## Explainer
 
 From your study of wave properties, you know that waves are characterized by wavelength, period, amplitude, and speed, and that they transfer energy without permanently displacing the medium. From gravity waves and wind interactions, you know that wind blowing over the ocean surface generates waves through friction and pressure differences. Ocean surface wave dynamics builds on these foundations to explain how waves grow, travel, and transform across entire ocean basins.

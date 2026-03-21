@@ -29,6 +29,45 @@ Generate residual plots from regression output in software and practice recogniz
 - Treating a high R² as definitive proof the model is appropriate — always check residual plots.
 - Confusing R² for simple regression (= r²) with adjusted R² from multiple regression.
 
+## Questions
+
+```yaml
+- question: "A student calculates R² = 0.81 for a regression of exam score on study hours and concludes that '81% of the data points lie on or near the regression line.' What is wrong with this interpretation?"
+  type: multiple-choice
+  options:
+    - "Nothing — R² = 0.81 does mean that 81% of the data points cluster near the line"
+    - "She should say 81% of points lie exactly on the line, not near it"
+    - "R² = 0.81 means the linear model explains 81% of the variation in exam scores, not that 81% of points are close to the line"
+    - "R² measures the slope of the regression line, not the closeness of points to it"
+  answer: 2
+  explanation: "R² is the proportion of variance in y explained by the model: R² = 1 − SSR/SST. R² = 0.81 means 81% of the total variability in y is accounted for by the linear relationship with x. It says nothing about how many points happen to lie near the line — even with R² = 0.81, individual points can be far from the line. This is the single most common misreading of R²."
+
+- question: "After fitting a linear regression, you plot residuals vs. fitted values and see a clear U-shaped (curved) pattern. What is the correct conclusion?"
+  type: multiple-choice
+  options:
+    - "The regression is overfitted and should be simplified by removing predictors"
+    - "There are too many outliers pulling the line off course"
+    - "The variance of the residuals is non-constant (heteroscedasticity)"
+    - "The linear model is misspecified — the true relationship between x and y is nonlinear"
+  answer: 3
+  explanation: "A curved pattern in a residual plot (smile or frown shape) is the signature of a nonlinear underlying relationship. You fit a line to something curved, so the residuals are systematically positive in the middle and negative at the ends (or vice versa). This violates the linearity assumption. A funnel shape (spreading residuals) indicates heteroscedasticity — a separate problem. Options A and B are not supported by a curved residual pattern."
+
+- question: "A high R² value is sufficient evidence that a linear regression model is appropriate for the data."
+  type: true-false
+  answer: false
+  explanation: "False — this is the most dangerous misconception about R². R² only measures the fraction of variance explained; it says nothing about whether the linear form is correct. A strongly curved relationship can produce a high R² while being fundamentally misspecified. A polynomial relationship, for example, can yield R² > 0.90 while having a dramatically curved residual plot revealing that a linear model is wrong. Always pair R² with a residual plot inspection."
+
+- question: "In ordinary least squares regression, the residuals always sum to exactly zero."
+  type: true-false
+  answer: true
+  explanation: "True. OLS chooses the regression line by minimizing the sum of squared residuals. A consequence of this optimization — specifically, that one of the normal equations forces the line to pass through the mean point (x̄, ȳ) — is that the residuals sum to exactly zero. This is not an approximation; it is an algebraic identity that holds for any OLS fit."
+
+- question: "Explain why a pattern in a residual plot indicates a problem with the model even when R² is high."
+  type: short-answer
+  answer: "R² measures the fraction of total variance that the model explains, but it does not test whether the linear form is appropriate. A pattern in residuals (curved, funnel-shaped) reveals that systematic structure in the data is not being captured — the errors are not random noise but rather predictable deviations the model cannot see. A curved residual pattern means the model is systematically over- or under-predicting in different regions, violating the linearity assumption. R² can be high while the model is still wrong about the functional form."
+  explanation: "The residual plot is the primary diagnostic for model appropriateness. R² is a summary statistic that collapses the fit into one number; the residual plot preserves the spatial structure of the errors. Both are needed: R² answers 'how much variance is explained?' while the residual plot answers 'is the model form valid?'"
+```
+
 ## Explainer
 
 Once you have fit a linear regression line to data, the natural question is: how well does it fit? The **residual** for each observation is the answer to that question at a single point — it is the gap between what the model predicted and what actually happened: eᵢ = yᵢ − ŷᵢ. A positive residual means the true value was above the line; negative means it was below. Crucially, residuals are signed — they don't cancel each other out by accident, but they do cancel on average: in ordinary least squares regression, the residuals always sum to zero. This is not a coincidence; the regression line was chosen precisely to minimize the sum of squared residuals, and that optimization forces the sum to be zero.

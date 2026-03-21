@@ -32,6 +32,45 @@ Use sequence of surface maps to visualize cold and warm front evolution leading 
 ## Common Misconceptions
 - Thinking an occluded front is a collision of cold and warm fronts at the surface; the cold front undercuts the warm front, lifting warm air aloft.
 
+## Questions
+
+```yaml
+- question: "A meteorologist observing a surface analysis chart sees an extensive occluded front wrapped tightly around a deep low-pressure center. What does this pattern most reliably indicate about the cyclone's state?"
+  type: multiple-choice
+  options:
+    - "The cyclone is in early development and will intensify rapidly over the next 24 hours"
+    - "The cyclone has reached or is near its peak intensity and is transitioning toward gradual dissipation"
+    - "The occluded front indicates the warm sector is expanding and bringing more energy into the system"
+    - "The cyclone will immediately weaken to a tropical depression as warm air aloft drives convection"
+  answer: 1
+  explanation: "An extensive occluded front wrapped around the low center is the signature of a mature-to-dissipating cyclone. Occlusion occurs when the cold front has caught up to the warm front, squeezing the warm sector air aloft and cutting the cyclone off from its energy source — the surface temperature contrast between warm and cold air masses. While the cyclone may still be at or near its lowest central pressure when occlusion begins, it is no longer being energized and will gradually fill and weaken. Significant precipitation and strong winds may persist for a day or more after occlusion, but the storm's trajectory is toward dissipation."
+
+- question: "What is the fundamental reason a cold front catches up to the warm front, eventually forming an occluded front?"
+  type: multiple-choice
+  options:
+    - "Cold fronts are associated with higher pressure, which accelerates them relative to the slower warm front ahead"
+    - "Cold fronts move faster than warm fronts — typically 25–35 km/h versus 15–25 km/h — so the gap between them closes over time"
+    - "Warm fronts slow down as they move over cold ocean water, while cold fronts maintain speed over land"
+    - "The jet stream steers cold fronts poleward faster than warm fronts, causing them to converge at high latitudes"
+  answer: 1
+  explanation: "The speed asymmetry is the key mechanism. Cold fronts are steeper and denser, driven by heavier cold air actively undercutting the warm sector. They typically advance at 25–35 km/h. Warm fronts are shallower gradients where lighter warm air is gently lifted over retreating cold air; they move at only 15–25 km/h. In the Norwegian cyclone model, both fronts radiate outward from the same low-pressure center. The faster cold front progressively closes the angular gap with the warm front, starting near the low center and extending outward over time until the warm sector is completely pinched off."
+
+- question: "Once an occluded front forms, the cyclone immediately weakens and precipitation ceases as the warm air is removed from the system."
+  type: true-false
+  answer: false
+  explanation: "Occlusion marks the beginning of the dissipation phase, not instant collapse. The cyclone often reaches its lowest central pressure — its most intense state — around the time of occlusion. Significant precipitation and strong winds can persist for 24 hours or more after the occluded front forms, because the lifted warm air aloft continues to produce clouds and precipitation even after losing contact with the surface. What occlusion cuts off is the ongoing *intensification* mechanism, not all weather associated with the system. The storm is weakening, but it may still be fierce."
+
+- question: "Occluded fronts typically produce moderate, persistent precipitation rather than the sharp temperature contrasts and dramatic weather shifts characteristic of active cold fronts."
+  type: true-false
+  answer: true
+  explanation: "An active cold front brings sharp, dramatic changes: rapid temperature drops, gusty winds, intense but often brief precipitation as the steep frontal boundary passes. An occluded front has a more diffuse character because the warm sector air has been lifted entirely off the surface — there is no longer a sharp warm/cold boundary at ground level. The result is typically prolonged moderate precipitation from the elevated warm air mass, without the strong wind shifts and abrupt temperature changes that accompany a vigorous surface cold front."
+
+- question: "Why does the formation of an occluded front signal the beginning of cyclone dissipation rather than continued intensification?"
+  type: short-answer
+  answer: "The cyclone's energy comes from the temperature contrast between the warm sector and the surrounding cold air masses — this baroclinic energy drives the conversion of potential energy to kinetic energy that deepens the low. When the cold front catches up to the warm front, the warm sector air is squeezed aloft and the surface low becomes surrounded by cold air on all sides. With no warm surface air feeding the temperature contrast, the baroclinic energy source is cut off. The cyclone can no longer draw on the warm sector to maintain or deepen the pressure gradient, so it gradually fills and weakens."
+  explanation: "This is why the warm sector is sometimes called the 'fuel' of an extratropical cyclone — it is the pool of warm, moist air that maintains the temperature gradient driving the storm. Occlusion is the process by which that fuel is consumed: the warm air is not destroyed, but it is lifted off the surface where it can no longer contribute to the surface pressure gradient. The cyclone has, in a sense, 'eaten' its own energy source. On weather maps, a tightly wound occluded front is therefore both a sign of a powerful storm and a sign that its power is ebbing."
+```
+
 ## Explainer
 
 From your study of cold and warm front structure, you know that a cold front is a boundary where advancing cold air undercuts and lifts warmer air, while a warm front is where advancing warm air rides up and over a retreating cold air mass. In the classic Norwegian cyclone model, these two fronts extend outward from a central low-pressure system, with a wedge of warm air — the **warm sector** — between them. The occluded front forms when this warm sector is squeezed shut.

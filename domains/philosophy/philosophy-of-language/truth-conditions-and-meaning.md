@@ -32,6 +32,45 @@ Study Tarski's T-biconditionals: 'Snow is white' is true iff snow is white. Work
 ## Common Misconceptions
 Truth-conditional semantics does not reduce all meaning to truth conditions; imperatives, questions, and pragmatic content fall outside this framework. Not all meaningful discourse is truth-valued.
 
+## Questions
+
+```yaml
+- question: "A student argues: 'Since we clearly understand the command "Close the door!", it must have truth conditions — it is true when the door is closed.' How should a truth-conditional semanticist respond?"
+  type: multiple-choice
+  options:
+    - "The student is right — imperatives are true when their commanded action is performed"
+    - "The student is right — all meaningful sentences have truth conditions, since meaning just is truth conditions"
+    - "The student is wrong — imperatives are not truth-apt; truth-conditional semantics does not cover all dimensions of meaning"
+    - "The student is wrong — imperatives have truth conditions, but those conditions are never satisfied"
+  answer: 2
+  explanation: "Truth-conditional semantics succeeds for declarative sentences but does not cover imperatives, questions, or exclamations, which are meaningful but not truth-apt in the standard sense. This is not a refutation of the theory — it defines the domain within which the theory succeeds. Pragmatic content (what speakers implicate, not what sentences literally say) and non-declarative speech acts require supplementary frameworks like speech act theory."
+
+- question: "Compositionality is central to truth-conditional semantics primarily because it explains:"
+  type: multiple-choice
+  options:
+    - "Why some sentences are true and others are false in the actual world"
+    - "How speakers can understand infinitely many novel sentences from a finite vocabulary and grammar"
+    - "Why speakers sometimes mean more than their words literally say"
+    - "How context determines the reference of indexicals like 'I' and 'here'"
+  answer: 1
+  explanation: "The productivity of language — that we understand sentences we have never heard before — is explained by compositionality: meaning is a function of the meanings of parts and the rules for combining them. We learn base cases (reference of names, extensions of predicates) and combination rules (conjunction, negation, quantification), and from these finite resources we compute truth conditions for infinitely many sentences. Without compositionality, a truth theory would require infinite stipulations."
+
+- question: "To know what a sentence means, on the truth-conditional view, is to know whether the sentence is currently true."
+  type: true-false
+  answer: false
+  explanation: "This is a critical distinction. Knowing the meaning = knowing the truth CONDITIONS — the circumstances that would make the sentence true or false. You can know what 'There is life on Mars' means without knowing whether it is actually true. The truth conditions pick out a set of possible situations, and the sentence is true in those situations and false otherwise. Knowing actual truth value requires empirical knowledge of the world; knowing meaning requires only knowledge of which situations would verify or falsify the sentence."
+
+- question: "Tarski's T-biconditional schema — e.g., ''Snow is white' is true if and only if snow is white' — serves as the model for how a systematic truth theory can function as a meaning theory."
+  type: true-false
+  answer: true
+  explanation: "Tarski's schema looks trivial, but its significance is that it can be generalized systematically: if you specify, for every sentence of a language, the conditions under which it is true, you have fully characterized the semantic content of each sentence. Davidson's insight was that this truth theory, applied recursively to a natural language, constitutes a meaning theory — knowing the right-hand side of each T-biconditional is knowing what the sentence means."
+
+- question: "Why does truth-conditional semantics hold that knowing a sentence's truth conditions is the same as knowing its meaning, rather than merely a useful correlate of it?"
+  type: short-answer
+  answer: "Because truth conditions specify exactly what state of affairs the sentence represents — they pick out the very situations the sentence is about. To know those conditions is to know what the sentence says about the world, which is what it means to understand it. On this view, meaning just is the function from possible situations to truth values; there is no further layer of 'meaning' left over once truth conditions are fully specified."
+  explanation: "The identification is conceptual, not merely empirical. If two sentences always have the same truth value in every possible situation, they express the same proposition (have the same meaning). The truth-conditional framework makes this precise via model-theoretic semantics, where meaning is formally represented as an intension — a function from possible worlds to truth values. The framework's limits (imperatives, pragmatics) show where this identification breaks down, but within declarative semantics it is extremely powerful."
+```
+
 ## Explainer
 
 You already know from Davidson's truth-conditional semantics that meaning and truth are deeply connected: to understand a sentence is, at minimum, to know what circumstances would make it true or false. You also know from first-order semantics how to assign truth values to complex sentences—quantified formulas, negations, conjunctions—by recursively evaluating them in models. This topic brings those two strands together and asks: can we build a full theory of meaning for a natural language by specifying truth conditions systematically?

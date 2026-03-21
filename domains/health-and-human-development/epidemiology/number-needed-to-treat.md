@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Number needed to treat (NNT) is the reciprocal of attributable risk in a trial: NNT = 1 / AR. It expresses how many people must receive an intervention to prevent one adverse outcome. Number needed to harm (NNH) applies the same logic to adverse effects. These metrics translate relative measures into absolute, clinically interpretable terms for individual patients.
 
+## Questions
+
+```yaml
+- question: "A statin trial shows the same 50% relative risk reduction in two populations. In Population A, the 5-year MI rate in the control group is 20%; in Population B it is 4%. What are the approximate NNTs for each population?"
+  type: multiple-choice
+  options:
+    - "Both are NNT = 2, because the relative risk reduction is the same"
+    - "Population A: NNT ≈ 10; Population B: NNT ≈ 50"
+    - "Population A: NNT ≈ 50; Population B: NNT ≈ 10"
+    - "NNT cannot be calculated without knowing absolute event counts"
+  answer: 1
+  explanation: "NNT = 1/ARR. For Population A: ARR = 0.20 − 0.10 = 0.10, NNT = 10. For Population B: ARR = 0.04 − 0.02 = 0.02, NNT = 50. The same relative risk reduction produces wildly different NNTs depending on baseline risk. This is the central insight: relative measures look identical across populations, but absolute measures reveal that treating Population A is five times more efficient than treating Population B. Pharmaceutical marketing emphasizes relative risk reduction partly because it sounds more impressive than the NNT."
+
+- question: "A clinician reads a published NNT of 25 for a blood pressure drug, derived from a trial of high-risk patients over 10 years. She applies it to a low-risk patient population with roughly half the baseline event rate. What is the most appropriate expectation for the NNT in her patients?"
+  type: multiple-choice
+  options:
+    - "The NNT remains 25, because NNT is a fixed property of the drug"
+    - "The NNT drops to around 12, because lower risk means the drug works harder"
+    - "The NNT approximately doubles to around 50, because absolute risk reduction scales with baseline risk"
+    - "The NNT is irrelevant in lower-risk patients because relative risk reduction doesn't apply"
+  answer: 2
+  explanation: "NNT scales inversely with baseline risk. If the trial population had twice the event rate of her patients, the ARR will be roughly half as large, and NNT will roughly double. The drug's relative risk reduction may be identical, but the absolute benefit — how many patients you must treat to prevent one event — is far less efficient at lower baseline risk. Applying a published NNT uncritically to a different population is a systematic error in clinical reasoning."
+
+- question: "An NNT of 5 is always more clinically significant than an NNT of 50."
+  type: true-false
+  answer: false
+  explanation: "NNT must be interpreted in context: it depends on the severity of the outcome prevented, the duration of treatment, and the NNH for adverse effects. An NNT of 5 for preventing mild indigestion is far less significant than an NNT of 50 for preventing fatal stroke. Additionally, comparing NNT to NNH — the likelihood of being helped vs. harmed (LHH = NNH/NNT) — is the relevant clinical calculation, not the NNT alone."
+
+- question: "If a drug reduces relative risk by 50%, halving the baseline event rate in the treated population, then halving the baseline risk of the target population will approximately double the NNT."
+  type: true-false
+  answer: true
+  explanation: "NNT = 1/ARR, and ARR = baseline risk × relative risk reduction. If baseline risk halves (and relative risk reduction stays constant), ARR halves, and NNT doubles. This mathematical relationship is why NNT is not a drug property but a population-and-drug property — it depends on who is being treated."
+
+- question: "Why can't you directly apply an NNT derived from a clinical trial to a patient population with different baseline risk, and what calculation would you need to adjust?"
+  type: short-answer
+  answer: "Because NNT = 1/ARR, and ARR depends on the baseline event rate in the control group. A published NNT embeds a specific baseline risk. For a patient with different baseline risk, you must recalculate: estimate the expected ARR for your patient (baseline risk × relative risk reduction from the trial), then compute NNT = 1/new ARR. Without this adjustment, you will systematically underestimate NNT (overestimate benefit) for lower-risk patients and overestimate NNT for higher-risk patients."
+  explanation: "This is the most clinically important limitation of published NNTs. The relative risk reduction from a trial may generalize to different populations, but the absolute risk reduction — and therefore the NNT — is population-specific. Clinicians must either apply the relative risk reduction to their patient's estimated baseline risk, or use a population-specific NNT from a subgroup analysis matching their patient's risk profile."
+```
+
 ## Explainer
 
 From your study of attributable risk, you know that absolute risk measures — unlike relative ones — answer the question of how much a risk actually changes. A relative risk reduction of 50% sounds identical whether the risk drops from 20% to 10% or from 0.002% to 0.001%, but the public health and clinical significance of those two scenarios are vastly different. The **number needed to treat (NNT)** is the tool that makes this concreteness automatic, by converting the absolute risk difference into the language of individual patients: how many people must receive this treatment to prevent one adverse outcome?

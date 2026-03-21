@@ -27,6 +27,45 @@ Video analysis of parent-infant interactions; frame-by-frame examination of gaze
 ## Common Misconceptions
 Synchrony is not the same as constant physical contact; quiet coordination and responsive pauses are equally important. Perfect synchrony is not the goal; ruptures and repairs in synchrony are normal and developmentally important.
 
+## Questions
+
+```yaml
+- question: "Research shows that even in high-quality caregiver-infant dyads, signal mismatches occur roughly 30% of the time. What does this finding most directly imply?"
+  type: multiple-choice
+  options:
+    - "These dyads require intervention to improve synchrony"
+    - "High caregiver sensitivity means mismatches are rare, so 30% indicates average quality"
+    - "Mismatches are a normal feature of interaction; what distinguishes sensitive caregiving is consistent and quick repair"
+    - "Infants in these dyads will show disrupted attachment due to frequent miscoordination"
+  answer: 2
+  explanation: "Research by Tronick and colleagues found that even highly sensitive dyads mismatch roughly 30% of the time. The defining feature of quality caregiving is not perfect accuracy but rapid and consistent repair of mismatches. These rupture-repair cycles build the infant's tolerance for manageable stress and early emotion regulation — making them developmentally valuable, not harmful."
+
+- question: "In the Still Face Paradigm, an engaged caregiver suddenly becomes expressionless and unresponsive. Infants quickly become distressed. What does this response reveal about infant development?"
+  type: multiple-choice
+  options:
+    - "Infants are sensitive to physical separation from caregivers above all else"
+    - "Infants are reflexively upset by any novel facial expression from their caregiver"
+    - "By the time of this experiment, infants have built a model of contingent responsiveness and detect its violation"
+    - "The distress shows that infants prefer constant stimulation over pauses"
+  answer: 2
+  explanation: "The infant's rapid distress at a still face is not a generic reaction to novelty — it specifically reveals that the infant has built an expectation of reciprocal responsiveness. They have learned 'my actions produce reactions,' and the sudden absence of that response signals a violation. This is evidence that synchrony builds an early model of social agency, not just a preference for stimulation."
+
+- question: "Perfect synchrony — where a caregiver correctly reads and immediately responds to every infant cue — is the ideal outcome of sensitive caregiving."
+  type: true-false
+  answer: false
+  explanation: "Perfect synchrony would deprive the infant of the rupture-and-repair cycles that are developmentally important. Micro-cycles of mismatch followed by re-engagement build the infant's capacity to tolerate manageable stress and regulate emotions. A caregiver who never misreads a cue would paradoxically skip a key developmental scaffold. Sensitivity is defined by repair speed and consistency, not by error avoidance."
+
+- question: "The turn-taking rhythm of early caregiver-infant proto-conversations — where caregivers expand pauses to give infants room to 'reply' — mirrors the back-and-forth structure of later speech."
+  type: true-false
+  answer: true
+  explanation: "Early proto-conversations scaffold the conversational timing children will need years later. Caregivers naturally create call-and-response patterns: infant vocalizes, caregiver responds with slight delay and mirrored expressions, infant vocalizes again. This timing teaches the child both the pragmatics of turn-taking and the fundamental expectation that social exchanges are reciprocal."
+
+- question: "Why might a caregiver who achieves 'perfect' synchrony — never misreading a signal — actually be missing an important developmental opportunity for the infant?"
+  type: short-answer
+  answer: "Rupture-and-repair cycles teach the infant that disruptions in connection are temporary and manageable. When mismatches occur and are repaired, the infant builds tolerance for manageable stress and develops early emotion-regulation capacities. A perfectly synchronized caregiver who never misreads a cue removes these micro-challenges, depriving the infant of opportunities to practice recovering from social disconnection."
+  explanation: "This is a counterintuitive but robust finding in developmental psychology. The 'good enough' caregiver — not perfect, but reliably repairing — produces better outcomes than a hypothetical perfectly attuned one would. The key developmental lesson is not just 'my actions produce reactions' but also 'disruptions get repaired,' which is the foundation of trust and resilience in social relationships."
+```
+
 ## Explainer
 
 Imagine watching two jazz musicians improvise together. Neither is following a script; each listens to the other, responds in real time, and shapes what comes next. There are moments of tight coordination — both leaning into the same phrase — and moments of deliberate contrast where one holds back to let the other carry. Parent–infant interaction works on a remarkably similar logic. **Synchrony** is not the caregiver doing things to the infant; it is a mutual, contingent exchange where each participant's behavior is timed in response to the other's cues. The caregiver watches for a gaze, a vocalization, a subtle facial change, and responds within a narrow time window. The infant, in turn, begins to anticipate that response — and that anticipation is the first lesson in social expectations.

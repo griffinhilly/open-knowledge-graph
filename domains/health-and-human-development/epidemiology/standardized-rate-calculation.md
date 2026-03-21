@@ -29,6 +29,45 @@ Compare crude and standardized rates for a disease across populations with diffe
 ## Common Misconceptions
 - Standardized rates are observed rates (they are hypothetical rates that would exist if all populations had the same demographic structure). - Standardization always changes rate comparisons (relative rankings may change depending on the standard population chosen).
 
+## Questions
+
+```yaml
+- question: "Florida has a crude heart disease mortality rate of 35 per 1,000; Alaska has 18 per 1,000. After age-standardization using the U.S. national population, the rates are nearly equal. What is the correct interpretation?"
+  type: multiple-choice
+  options:
+    - "The age-standardized rates reveal the true mortality rates in each state"
+    - "Florida's health system is performing equally to Alaska's since standardized rates are equal"
+    - "The crude rate difference was largely explained by Florida's older age structure, not higher age-specific disease rates"
+    - "Age-standardization removed confounders other than age, explaining the gap"
+  answer: 2
+  explanation: "Age-standardization creates a hypothetical rate — what would each state's mortality be if both had the same age structure? When rates equalize after standardization, it means the crude difference was driven by demographic composition (Florida has many retirees), not by genuinely higher age-specific rates. The standardized rate is NOT the 'true' rate; it is a comparison tool only. And it only adjusts for age — other confounders remain."
+
+- question: "A researcher studying mortality in a small occupational cohort of 200 workers finds too few deaths in each age group to calculate stable age-specific rates. Which standardization approach is appropriate?"
+  type: multiple-choice
+  options:
+    - "Direct standardization — apply the cohort's age-specific rates to a national standard population"
+    - "Indirect standardization — apply national age-specific rates to the cohort's age structure, then compare observed to expected deaths"
+    - "Crude rate comparison, since standardization requires stable age-specific rates"
+    - "Direct standardization using the cohort's own age distribution as the standard"
+  answer: 1
+  explanation: "Indirect standardization is designed for exactly this situation: when the study population is too small to yield stable age-specific rates. Instead of applying the cohort's rates to a standard population (direct method), you apply the standard population's known rates to the cohort's age structure to get expected deaths. The Standardized Mortality Ratio (SMR = observed/expected) then tells you whether the cohort experienced more or fewer deaths than expected given its age composition."
+
+- question: "An age-standardized mortality rate of 22 per 1,000 means that 22 out of every 1,000 people in that population actually died from the cause during the study period."
+  type: true-false
+  answer: false
+  explanation: "Standardized rates are hypothetical constructs, not observed rates. The rate of 22/1,000 is what the population's mortality would be *if* it had the same age structure as the standard population — calculated by applying real age-specific rates to a fictional demographic. You cannot multiply it by the actual population size to get real death counts. That requires the crude rate or direct counts, not the standardized rate."
+
+- question: "The choice of standard population can affect the magnitude of age-standardized rates and occasionally their relative ordering across populations being compared."
+  type: true-false
+  answer: true
+  explanation: "This is a critical limitation of standardization that is often overlooked. Different standard populations weight age groups differently. If two populations have age-specific rates that cross (Population A higher at younger ages, Population B higher at older ages), the relative ordering of their standardized rates can reverse depending on which standard is used. This is why publications must always specify the standard population — the comparison is only valid between rates standardized to the same reference."
+
+- question: "Why can't you use an age-standardized mortality rate to estimate the actual number of deaths that will occur in a population next year?"
+  type: short-answer
+  answer: "Because standardized rates are hypothetical — they represent what the death rate would be if the population had the same age structure as the standard population, not the structure it actually has. To estimate real deaths, you need either the crude rate (applied to actual population size) or age-specific rates (applied to each age group's actual count). Standardized rates are designed solely for comparison, not for projecting observed counts."
+  explanation: "The standardized rate is computed by applying each age group's real rate to a fictional standard population's age distribution. The result is meaningful only relative to another standardized rate using the same standard — it has no independent relationship to the actual population's composition. Using it to project deaths would introduce systematic error proportional to the difference between the actual population's age structure and the standard's."
+```
+
 ## Explainer
 
 You have already learned to calculate crude rates — deaths or disease cases per person-time — and incidence density rates that account for variable follow-up. These measures accurately describe what is happening in a specific population. The problem arises when you try to **compare** rates across different populations, because populations differ not only in how sick they are but in who they contain. Age is the most important confounder in most disease comparisons: older people have higher rates of nearly every chronic disease, so a population with an older age structure will have higher crude rates even if age-specific disease rates are identical.

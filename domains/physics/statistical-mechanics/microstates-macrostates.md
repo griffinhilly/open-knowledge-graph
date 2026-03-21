@@ -32,6 +32,45 @@ Start with simple systems like a gas with a few distinguishable particles, count
 - Confusing multiplicity (number of microstates) with probability without proper statistical weighting.
 - Assuming all microstates have equal probability in non-equilibrium systems.
 
+## Questions
+
+```yaml
+- question: "A box contains gas molecules initially all in the left half. When the partition is removed, the molecules spread to fill the whole box and never spontaneously return to the left half. Statistical mechanics explains this because:"
+  type: multiple-choice
+  options:
+    - "A repulsive force between molecules pushes them toward the right half"
+    - "The molecules gain kinetic energy when the partition is removed, causing them to spread"
+    - "The macrostate with molecules spread throughout the box corresponds to vastly more microstates than the left-only macrostate, making the spread-out state overwhelmingly more probable"
+    - "The second law of thermodynamics is a fundamental law of physics that forbids molecules from returning to the left half"
+  answer: 2
+  explanation: "Statistical mechanics explains the second law rather than just asserting it. With N molecules, the number of microstates compatible with 'all left' is roughly 2^N times smaller than the number compatible with 'spread throughout.' For N ~ 10^23, this ratio is incomprehensibly large — the probability of spontaneous return is not forbidden but is so astronomically small it never occurs. Option D is circular: statistical mechanics derives the second law from counting microstates; it doesn't treat the second law as a brute fact."
+
+- question: "A system can be in macrostate A (multiplicity Ω_A = 10^100) or macrostate B (multiplicity Ω_B = 10^(10^23)). At equilibrium, what does the fundamental postulate predict?"
+  type: multiple-choice
+  options:
+    - "Macrostate A is more likely because it has fewer microstates, making each one more probable"
+    - "Both macrostates are equally likely because every individual microstate is equally probable"
+    - "Macrostate B is overwhelmingly more likely because it is compatible with vastly more microstates"
+    - "Cannot determine without knowing the temperature and energy of the system"
+  answer: 2
+  explanation: "The fundamental postulate says each microstate is equally likely. With Ω_B = 10^(10^23) microstates, the probability of being in macrostate B is Ω_B/(Ω_A + Ω_B), which is effectively 1 — macrostate A's 10^100 microstates are utterly negligible in comparison. The 'equal probability per microstate' does not mean 'equal probability per macrostate' — macrostates with more microstates are more likely precisely because there are more equally-probable microscopic configurations consistent with them."
+
+- question: "Boltzmann's entropy formula S = k_B ln Ω means that entropy is directly proportional to the number of microstates Ω corresponding to a macrostate."
+  type: true-false
+  answer: false
+  explanation: "S = k_B ln Ω makes entropy proportional to the *logarithm* of Ω, not to Ω itself. This matters for two reasons. First, multiplicities Ω are astronomically large (on the order of e^N for N ~ 10^23 particles), so the logarithm makes entropy a manageable, finite number. Second, the logarithm makes entropy *additive* for independent systems: if system 1 has Ω_1 microstates and system 2 has Ω_2, the combined system has Ω_1 · Ω_2 microstates, and S = k_B ln(Ω_1 · Ω_2) = S_1 + S_2. Additivity is a key property of thermodynamic entropy."
+
+- question: "The second law of thermodynamics — that entropy increases in isolated systems — can be derived from the fundamental postulate that all accessible microstates are equally probable, together with the fact that high-entropy macrostates have far more corresponding microstates than low-entropy ones."
+  type: true-false
+  answer: true
+  explanation: "This is the core achievement of statistical mechanics. The second law is not a brute postulate about nature's arrow of time; it is a consequence of counting combined with the equal-probability postulate. Because high-entropy macrostates correspond to vastly more microstates, a system is overwhelmingly likely to evolve toward them. This doesn't make the second law absolutely necessary — low-entropy fluctuations are possible in principle — but it makes them so improbable for macroscopic systems that they are never observed."
+
+- question: "Why does the fundamental postulate — that all accessible microstates are equally probable at equilibrium — lead to the prediction that macroscopic systems almost never return to low-entropy states spontaneously, even though such microstates are not forbidden?"
+  type: short-answer
+  answer: "The fundamental postulate makes each microstate equally likely. A low-entropy macrostate corresponds to a tiny fraction of all accessible microstates — perhaps one in 10^(10^23). Even though those low-entropy microstates are not forbidden, the system spends essentially all its time in the high-multiplicity macrostates simply because there are incomparably more of them. The probability of returning to a low-entropy state is not zero, but for a macroscopic system with ~10^23 particles, it is so small that the expected waiting time exceeds the age of the universe by an incomprehensible factor. Entropy increase is statistical inevitability, not physical prohibition."
+  explanation: "This is sometimes called the 'Boltzmann explanation' of the second law and represents one of the great unifications in physics: a macroscopic law with a definite arrow of time emerges from microscopic dynamics that are time-symmetric. The asymmetry comes entirely from the vastly different multiplicities of ordered versus disordered macrostates, not from any asymmetry in the underlying equations of motion."
+```
+
 ## Explainer
 
 You already know from thermodynamics that entropy increases in isolated systems and that thermodynamic processes are described by state variables like T, P, V, and U. But thermodynamics doesn't explain *why* entropy increases — it simply asserts it. Statistical mechanics provides the microscopic foundation, and it starts with the distinction between microstates and macrostates.

@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Impressionist painting prioritized direct observation and visible brushstrokes to capture fleeting effects of light and atmosphere. Rejecting academic finish and traditional composition, impressionists used broken color, high-keyed palettes, and rapid execution to render sensations of light rather than detailed descriptions, eventually winning critical acceptance through independent exhibitions.
 
+## Questions
+
+```yaml
+- question: "An Impressionist painter places short strokes of blue and yellow paint side by side on the canvas without blending them. What is the purpose of this technique?"
+  type: multiple-choice
+  options:
+    - "They lacked proper palette-mixing tools in outdoor conditions"
+    - "Optical mixing at a viewing distance produces more luminous, vibrant color than blending those same pigments on a palette, which would dull them"
+    - "The Salon required artists to show visible brushwork as proof of originality"
+    - "Broken color was only used to speed up the drying process outdoors"
+  answer: 1
+  explanation: "This is the key insight behind broken (or divided) color. Subtractive mixing — combining pigments on the palette — absorbs light and dulls the resulting color. By placing separate pure-hue strokes side by side, Impressionists let the viewer's eye perform the mixing optically, preserving each pigment's luminosity. The resulting surface shimmers with light in a way no blended patch of paint could achieve."
+
+- question: "Monet painted the same haystack at dawn, noon, and dusk across a series of canvases. What does this series most directly reveal about Impressionist goals?"
+  type: multiple-choice
+  options:
+    - "That Monet had difficulty finishing a painting in a single outdoor session"
+    - "That Impressionists preferred agricultural subjects over urban ones"
+    - "That the haystack was merely a surface on which to record changing light — Monet was painting light itself, not the object"
+    - "That Impressionists rejected the idea of returning to the same subject more than once"
+  answer: 2
+  explanation: "Monet's serial paintings make the Impressionist argument explicit: the subject is not the object (a haystack) but the sensation of light at a particular moment. Each canvas captures a different quality of light — not a different object. This is the logical endpoint of plein air painting and rapid execution: the goal was to arrest fleeting optical experience, not to describe things in timeless detail."
+
+- question: "The visible brushstrokes in Impressionist paintings were considered sloppy or unfinished technique even by the Impressionists themselves."
+  type: true-false
+  answer: false
+  explanation: "Visible brushwork was a deliberate aesthetic and technical choice, not evidence of carelessness. Each loose, rapid stroke was a record of the painter's encounter with a specific moment of light — it showed speed of observation and the immediacy of working outdoors. The Impressionists understood exactly what they were doing; it was their academic critics who called it unfinished because they were trained to value smooth, blended surfaces."
+
+- question: "Impressionist painters often rendered shadows using complementary colors rather than black or dark brown."
+  type: true-false
+  answer: true
+  explanation: "Instead of darkening the local color or using black, Impressionists observed that shadows contain reflected light — often from a blue sky — and appear in complementary or cool hues. A shadow on sunlit grass might be painted violet rather than dark green. This high-keyed palette approach to shadows was one of their most radical departures from academic tonal modeling."
+
+- question: "Why did the technical innovations of Impressionism — broken color, visible brushwork, high-keyed palette — initially cause audiences and critics to reject these paintings as unfinished or crude?"
+  type: short-answer
+  answer: "Because audiences were trained to evaluate paintings against the standard of academic Salon work, which valued smooth blending, careful detail, and tonal modeling from dark to light. Impressionist technique looked unfinished by those criteria. But the technique was inseparable from the argument: capturing the sensation of seeing required speed, visible stroke, and optical mixing — all of which left marks that academic polish would have erased."
+  explanation: "Understanding the rejection requires seeing it as an aesthetic collision, not a quality judgment. Impressionists weren't failing to achieve the Salon ideal — they were rejecting it. Their technique was a system designed to do something different: record the sensation of a moment rather than provide a careful description of an object. Critics who insisted on finished surfaces were measuring the wrong thing."
+```
+
 ## Explainer
 
 If you understand the broader arc of Impressionism as a movement — its rebellion against academic conventions and its emphasis on modern life — then you are ready to examine the specific technical innovations that made Impressionist paintings look so radically different from anything that came before. The revolution was not just in subject matter; it was in how paint was physically applied to canvas, how color was mixed (or deliberately not mixed), and how the painter's relationship to time and place fundamentally changed.

@@ -30,6 +30,45 @@ Understand the cut rule and why it seems necessary (it allows inlining proofs of
 - Assuming cut-free proofs are shorter (they can be exponentially longer, but have better structural properties).
 - Confusing cut-elimination with weak cut-elimination (different notions with different consequences).
 
+## Questions
+
+```yaml
+- question: "What is the 'subformula property' of cut-free proofs, and what does it immediately enable?"
+  type: multiple-choice
+  options:
+    - "Every formula in the proof must be logically equivalent to the conclusion — enabling automated simplification"
+    - "Every formula appearing in any premise of a cut-free proof must be a subformula of the end sequent — bounding the search space and enabling a decision procedure for propositional logic"
+    - "The proof can only use formulas shorter than the conclusion — limiting the length of cut-free derivations"
+    - "The proof must start from atomic formulas only — making all proofs ground-level"
+  answer: 1
+  explanation: "The subformula property says that in a cut-free proof, every formula that appears in any intermediate sequent is already a subformula of the final conclusion. The cut rule violates this by introducing an arbitrary 'cut formula' φ that may be far more complex than anything in the conclusion. Removing cuts forces all formulas back into the conclusion's vocabulary. Because a sequent with n atomic subformulas has only finitely many subformulas and finitely many possible rule applications, the search space for cut-free proofs is finite — yielding a decision procedure for propositional provability."
+
+- question: "A logician claims: 'We should use cut-free proofs in all automated theorem provers because cut-free proofs are shorter and easier to find.' Which part of this claim is incorrect?"
+  type: multiple-choice
+  options:
+    - "Both parts are incorrect — cut-free proofs are longer and harder to find"
+    - "The first part — cut-free proofs can be exponentially or even non-elementarily longer than proofs with cut"
+    - "The second part — cut-free proofs are harder to find because the subformula property restricts the available rules"
+    - "Neither part — the claim is entirely correct"
+  answer: 1
+  explanation: "Cut-free proofs have better structural properties (the subformula property, finite search space) but they are not shorter. Eliminating a cut can produce a proof exponentially or even tower-exponentially longer than the original. Lemmas compress proofs by hiding complexity; removing them unwinds that compression. This is why automated theorem provers (like resolution-based systems) allow a form of cut in practice — cuts can keep proofs tractably short even though they sacrifice the subformula property. The tradeoff is: structural purity vs. proof length."
+
+- question: "Cut-free proofs are always shorter than proofs that use the cut rule, because they avoid the overhead of computing intermediate lemmas."
+  type: true-false
+  answer: false
+  explanation: "This reverses the actual relationship. The cut rule allows proofs to use intermediate lemmas (the cut formula φ), which can dramatically compress proof length. Eliminating cuts removes this compression, and the result can be exponentially or non-elementarily longer. This blowup is not a defect in the proof system — it reflects a real information-theoretic asymmetry: lemmas hide complexity that must be fully spelled out in a direct proof. Cut elimination is valuable for its structural and metalogical consequences, not for producing shorter proofs."
+
+- question: "The subformula property of cut-free proofs means the search space for propositional provability is finite, yielding a decision procedure."
+  type: true-false
+  answer: true
+  explanation: "Given a sequent Γ ⊢ Δ, the set of subformulas of all formulas in Γ and Δ is finite. The cut-free rules of sequent calculus only introduce subformulas of formulas already present. Therefore, any cut-free proof can only contain formulas from this finite set, and the number of distinct sequents that can appear is bounded. A complete proof search over this finite space either finds a proof or determines none exists — making propositional logic decidable. This is one of the most important practical consequences of Gentzen's theorem."
+
+- question: "Explain why cut elimination yields a decision procedure for propositional logic but does not directly yield the same for first-order predicate logic."
+  type: short-answer
+  answer: "For propositional logic, the subformula property bounds the proof search space finitely: given the conclusion's subformulas, there are only finitely many sequents and rule applications possible, so exhaustive search terminates. In first-order predicate logic, the subformula property still holds for cut-free proofs, but the domain of quantification is potentially infinite. Universal and existential quantifiers can be instantiated with infinitely many terms, so the search space is no longer finite even with cut eliminated. Propositional decidability rests on finiteness of the subformula set; predicate logic loses this because term instantiation is unbounded."
+  explanation: "Gentzen's cut elimination applies to both propositional and predicate sequent calculi, but the decidability consequence only follows in the propositional case. Predicate logic is semi-decidable (provability is enumerable but refutation is not), and undecidability follows from Gödel's incompleteness results. Cut elimination is a proof-theoretic result, not an algorithmic one — it tells you about proof structure, but converting that structure into a decision procedure requires additional arguments that only work in the finite case."
+```
+
 ## Explainer
 
 You already know sequent calculus, where proofs manipulate sequents Γ ⊢ Δ (a list of assumptions on the left entails a disjunction of conclusions on the right), and you know that propositional logic is sound and complete. The **cut rule** formalizes reasoning through a lemma: if you have proved Γ ⊢ Δ, φ and also φ, Γ' ⊢ Δ', you may conclude Γ, Γ' ⊢ Δ, Δ', discarding the "cut formula" φ. This mirrors everyday mathematical practice — prove a lemma, use it, move on — but the formula φ can be arbitrarily complex, far more complex than anything appearing in the conclusion. This makes cut-containing proofs potentially much shorter and more natural.

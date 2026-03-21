@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 A binary tree node contains a value and left/right child pointers. Trees can be represented as arrays (heap-like, for complete trees) or pointer structures. Understanding representation choices affects cache locality and memory usage.
 
+## Questions
+
+```yaml
+- question: "A binary heap stores 7 nodes. The root is at index 0. What are the array indices of the root's two children?"
+  type: multiple-choice
+  options:
+    - "Indices 1 and 2"
+    - "Indices 2 and 3"
+    - "Indices 0 and 1"
+    - "It depends on the tree's height"
+  answer: 0
+  explanation: "In 0-based array representation, a node at index i has its left child at 2i+1 and right child at 2i+2. For the root (i=0): left child = 2(0)+1 = 1, right child = 2(0)+2 = 2. This formula encodes the tree structure purely through arithmetic — no pointers needed. This is why binary heaps use array representation: the formula is constant-time and the memory layout is contiguous."
+
+- question: "You are building a binary search tree that handles frequent insertions and deletions of records in a database index. Which representation should you choose, and why?"
+  type: multiple-choice
+  options:
+    - "Array-based, because it has better cache locality for all tree operations"
+    - "Pointer-based, because the tree shape is unpredictable and restructuring only requires reassigning a few pointers"
+    - "Array-based, because BSTs are always complete trees and the formula 2i+1, 2i+2 applies"
+    - "Pointer-based, because it always uses less memory than an array"
+  answer: 1
+  explanation: "Array representation requires a complete tree to work efficiently — if the tree becomes sparse or deeply unbalanced (which BSTs can after many insertions and deletions), the array wastes exponential space. Pointer-based representation handles any shape: restructuring means reassigning a constant number of pointers regardless of tree size. BSTs are not guaranteed to be complete, making array representation inappropriate. Cache locality is a real advantage of arrays, but only when the tree shape justifies it."
+
+- question: "In array-based binary tree representation, the parent of a node at index 5 (0-based) is at index 2."
+  type: true-false
+  answer: true
+  explanation: "The parent formula (0-based) is ⌊(i-1)/2⌋. For i=5: ⌊(5-1)/2⌋ = ⌊4/2⌋ = ⌊2⌋ = 2. So yes, the parent of node at index 5 is at index 2. You can verify: node 2's children are at 2(2)+1=5 and 2(2)+2=6. This bidirectional formula is what makes array-based trees work without any pointers."
+
+- question: "Pointer-based binary trees use more memory per node than array-based trees but always provide better performance for tree traversal due to flexibility."
+  type: true-false
+  answer: false
+  explanation: "The first half is true — pointer-based nodes store left/right pointers in addition to the value, using more memory. But 'always better performance for traversal' is false. Array-based trees have *better* cache locality for complete trees: parent, left child, and right child are stored at adjacent indices, so the CPU cache loads them together. Pointer-based nodes can be scattered across memory, causing cache misses during traversal. The right choice depends on tree shape and access patterns."
+
+- question: "Why does array-based tree representation become impractical for a sparse or highly unbalanced tree, even if the number of actual nodes is small?"
+  type: short-answer
+  answer: "The array must be large enough to hold every possible position at every depth level. A degenerate tree (a chain of n nodes) has depth n, requiring an array of size 2^n to accommodate the formula-encoded positions — even though only n slots are occupied. Almost all entries are empty, wasting exponential space."
+  explanation: "Array representation encodes position implicitly: a node at depth d can be at any of 2^d positions, and all must be addressable. Complete trees use nearly all positions, so no space is wasted. But a right-skewed BST of 30 nodes would need an array of size ~2^30 (about 1 billion entries) to correctly index the deepest node. This makes array representation viable only when the tree is guaranteed to be complete or nearly complete."
+```
+
 ## Explainer
 
 A **binary tree** is built from nodes, and each node has a simple structure: it holds a value (or key) and has at most two children, conventionally called **left** and **right**. If you have worked with binary trees conceptually, this topic is about the concrete details of how those nodes are actually stored in memory — decisions that affect how fast your tree operations run in practice, not just in theory.

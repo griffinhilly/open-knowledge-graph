@@ -35,6 +35,45 @@ Analyze the treaty clause by clause, asking who benefited and who lost in each p
 - The 'stab-in-the-back' myth — that Germany was undefeated militarily — was a fabrication; the German army was collapsing by autumn 1918.
 - Versailles created the League of Nations, but the US Senate rejected membership, fatally weakening the institution.
 
+## Questions
+
+```yaml
+- question: "German nationalists in the 1920s promoted the Dolchstoßlegende, claiming Germany was undefeated in the field in 1918 but was 'stabbed in the back' by civilian traitors. What do historians conclude about this claim?"
+  type: multiple-choice
+  options:
+    - "It was essentially accurate — the German army was still advancing when the armistice was signed"
+    - "It was a political fabrication — the German army was collapsing militarily in autumn 1918 and high command sought an armistice before total defeat"
+    - "It was partially true — Germany was militarily strong but economically unable to continue"
+    - "Historians remain divided, with no clear consensus on the military situation in 1918"
+  answer: 1
+  explanation: "The stab-in-the-back myth was a fabrication. By autumn 1918, the German army was collapsing under Allied offensives following the failure of the Spring Offensive; the German high command, including Ludendorff, recognized defeat and sought an armistice before total collapse. The myth was politically constructed to explain defeat without acknowledging military failure — and proved lethal, giving the Nazi movement a founding narrative of betrayal rather than defeat. Understanding it as fabrication is essential to understanding interwar German politics."
+
+- question: "What was the most structurally significant flaw in the Versailles settlement, according to the historical consensus that emerged after Keynes's initial critique?"
+  type: multiple-choice
+  options:
+    - "The reparations were too large — Germany's economy was crushed, making recovery impossible"
+    - "Germany was not punished harshly enough — it should have been partitioned to prevent rearmament"
+    - "The settlement combined humiliation severe enough to generate nationalist resentment with insufficient enforcement to prevent eventual German rearmament"
+    - "Wilson's Fourteen Points were fully implemented, creating unstable new nation-states"
+  answer: 2
+  explanation: "The revisionist historical consensus holds that Versailles's core flaw was 'humiliation without enforcement.' Germany was humiliated enough to generate fierce resentment (fueling the stab-in-the-back myth and eventually Nazism) but not weakened enough to prevent eventual rearmament — and the reparations were largely not paid. Keynes's claim that reparations were ruinously punitive was influential but exaggerated; Germany paid only a small fraction before defaulting. The problem was the gap between the treaty's psychological impact and its actual long-term enforceability."
+
+- question: "The United States Senate approved American membership in the League of Nations, allowing the institution to function as Wilson intended with full great-power backing."
+  type: true-false
+  answer: false
+  explanation: "In one of history's great ironies, the US Senate rejected American membership in the League of Nations — the institution Wilson considered his signature achievement at Paris. Without US membership, the League lacked the great-power sponsorship its enforcement mechanisms required. A League without the United States could not credibly deter aggression, which fatally compromised collective security arrangements throughout the interwar period. This made Versailles's enforcement mechanisms even weaker than the treaty's already limited provisions suggested."
+
+- question: "Recent historians have revised Keynes's famous critique of Versailles, finding that Germany actually paid only a fraction of the mandated reparations before defaulting — suggesting the economic burden, while real, was less ruinous than Keynes argued."
+  type: true-false
+  answer: true
+  explanation: "Keynes's The Economic Consequences of the Peace (1919) argued reparations were so severe as to make European economic recovery impossible — a critique enormously influential in shaping interwar attitudes toward Versailles. More recent historical scholarship has shown that Germany paid far less than the nominal reparations figure before defaulting, and that the German economy recovered significantly in the mid-1920s. The deeper problem was political and psychological — the humiliation and resentment — rather than the literal economic weight of payments actually made."
+
+- question: "Why do historians describe Versailles's core problem as 'humiliation without enforcement' rather than simply arguing it was too harsh — and how does this framing change our understanding of the treaty's role in World War II's origins?"
+  type: short-answer
+  answer: "The 'humiliation without enforcement' framing captures a structural contradiction: the treaty was punitive enough to generate powerful nationalist resentment in Germany (feeding the stab-in-the-back myth and providing raw material for Nazi revanchism) but not effective enough to permanently prevent German rearmament or to deter violations. 'Too harsh' implies a single variable to be adjusted; 'humiliation without enforcement' identifies the dangerous gap between the treaty's psychological impact and its actual enforceability — especially after the US rejected League membership. The result was the worst of both worlds: enough humiliation to radicalize German politics, too little enforcement to contain the resulting militarism."
+  explanation: "This framing also explains why WWII's origins cannot be reduced to Versailles alone. The Great Depression, the rise of fascism, the failure of collective security, and contingent political decisions all contributed. But Versailles created the conditions — a humiliated major power with legitimate grievances and a nationalist movement to exploit them — within which those other factors became catastrophic."
+```
+
 ## Explainer
 
 When the Paris Peace Conference opened in January 1919, the three dominant figures — Woodrow Wilson (United States), Georges Clemenceau (France), and David Lloyd George (Britain) — each arrived with a different theory of how to prevent another war. Wilson believed in collective security, national self-determination, and a new international order embodied in a League of Nations. Clemenceau believed France's security required Germany's permanent weakening — he had lived through two German invasions of France in his lifetime. Lloyd George wanted a settlement firm enough to satisfy British public opinion but not so punitive as to destabilize Europe permanently. These three visions were incompatible, and the resulting treaty was a compromise that fully satisfied none of them.

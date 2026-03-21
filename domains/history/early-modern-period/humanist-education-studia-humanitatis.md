@@ -25,6 +25,45 @@ The humanist educational program (studia humanitatis) organized learning around 
 ## How It's Best Learned
 Examine actual humanist educational curricula and compare them with medieval scholastic curricula to understand the practical differences. Read humanist pedagogical treatises like Vergerio's De ingenuis moribus.
 
+## Questions
+
+```yaml
+- question: "A 15th-century Italian city-state hires a humanist teacher who focuses on grammar, rhetoric, poetry, history, and moral philosophy. A medieval scholastic would say this curriculum is deficient — why?"
+  type: multiple-choice
+  options:
+    - "It lacks training in mathematics and natural philosophy"
+    - "It omits systematic theology, Aristotelian logic, and the formal disputation skills needed for clerical and legal careers"
+    - "It teaches too many ancient languages and neglects the vernacular"
+    - "It focuses on ancient rather than contemporary authors, making it practically useless"
+  answer: 1
+  explanation: "The scholastic curriculum centered on Aristotelian logic, theology, and formal disputation — skills that prepared students for clerical careers and university-level argumentation. The studia humanitatis deliberately displaced these in favor of rhetoric, poetry, and history. A scholastic would correctly note that it produces skilled writers and speakers but lacks the doctrinal precision the medieval university valued. The humanists accepted this critique and inverted it: those scholastic skills were sterile compared to the civic virtues produced by rhetorical training."
+
+- question: "What was the most significant political consequence of the spread of humanist education across Europe in the 16th century?"
+  type: multiple-choice
+  options:
+    - "It democratized education by making classical learning accessible to commoners and artisans"
+    - "It created a transnational elite of humanist-educated men who staffed early modern states and shared a common cultural language based on classical mastery"
+    - "It undermined monarchical authority by training independent-minded citizens to question rulers"
+    - "It led directly to the Protestant Reformation by producing scholars who could read scripture in the original languages"
+  answer: 1
+  explanation: "Humanist education produced secretaries, ambassadors, and counselors whose authority rested partly on demonstrated mastery of classical style and thought. This created a new kind of governing class with cultural credentials alongside hereditary or clerical ones. Erasmus in Rotterdam, More in London, and Montaigne in Bordeaux all shared this formation across national boundaries — creating a transnational republic of letters. Democratization was not the intent; elite formation was."
+
+- question: "Humanist educators valued rhetoric and persuasion over scholastic logic because they believed education should produce citizens capable of effective action in civic and political life, not just clerical argumentation."
+  type: true-false
+  answer: true
+  explanation: "True. This is the core political claim of humanism. The studia humanitatis was explicitly modeled on the Roman ideal of the orator-statesman — especially Cicero. Humanists argued that the ability to speak persuasively, write elegant Latin, and draw on historical precedent was more valuable for civic life than the ability to construct valid syllogisms in formal disputations. This was not just a pedagogical preference but a claim about what education is for."
+
+- question: "The studia humanitatis was a radical break with all medieval learning, rejecting both the Church and classical antiquity in favor of secular rationalism."
+  type: true-false
+  answer: false
+  explanation: "False. The studia humanitatis drew heavily on classical antiquity — it was a revival of ancient models, not a rejection of tradition. It was anti-scholastic in method and purpose, but not anti-religious: many leading humanists (Erasmus, More) were devout Christians who saw classical learning as complementary to Christian faith. The 'secular rationalism' framing overstates the break. Humanism redirected the classical inheritance toward civic and literary ends, not away from religion."
+
+- question: "Why did the humanists argue that scholastic education was inadequate for the Italian city-states, and what did they propose instead?"
+  type: short-answer
+  answer: "The humanists argued that scholastic training produced graduates who could argue logical positions in formal disputations but could not write a compelling letter, address a city council persuasively, or model themselves on the virtuous statesmen of antiquity. This made scholasticism inadequate for civic life — diplomacy, administration, and political leadership required eloquence and moral judgment, not syllogistic precision. Instead, humanists proposed the studia humanitatis: grammar, rhetoric, poetry, history, and moral philosophy, all drawn from classical models, aimed at producing the cultivated, persuasive, morally serious citizen-statesman exemplified by Cicero."
+  explanation: "The key is recognizing that the dispute was not just about curriculum content but about the purpose of education. Scholasticism prepared clergymen for doctrinal argument; humanism prepared citizens for active civic life. The curriculum was a consequence of this prior disagreement about what education is for."
+```
+
 ## Explainer
 
 From your study of classical revival and Renaissance scholarship, you know that fifteenth-century Italian intellectuals turned to ancient Greek and Roman texts as models for thought and expression. The **studia humanitatis** was the institutional form that turn took: a curriculum that put classical literature, language, and rhetoric at the center of education, displacing the medieval university's emphasis on Aristotelian logic, theology, and the technical preparation of priests and lawyers. Understanding it requires grasping both what it taught and what it was for.

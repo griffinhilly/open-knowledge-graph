@@ -32,6 +32,45 @@ Visit your attic with a flashlight and a ruler. Measure the depth of existing in
 - Attic ventilation fans are a good substitute for passive ridge and soffit vents — powered fans can create negative pressure that pulls conditioned air from the living space into the attic, increasing energy costs rather than reducing them.
 - A warm attic in winter means the heating system is working well — it means insulation is insufficient and heat is escaping, which wastes energy and creates conditions for ice dams.
 
+## Questions
+
+```yaml
+- question: "A homeowner wants to maximize their attic's R-value and piles extra blown insulation over the soffit vents. What is the most likely consequence?"
+  type: multiple-choice
+  options:
+    - "The attic will be better insulated, reducing both heating and cooling costs significantly"
+    - "The blocked soffit vents will trap humid air in the attic, promoting moisture damage and mold despite the higher R-value"
+    - "The insulation will eventually settle away from the vents, so the effect is temporary"
+    - "The additional R-value will prevent enough heat loss to offset any ventilation reduction"
+  answer: 1
+  explanation: "Blocking soffit vents defeats the passive ventilation circuit that carries humid air out of the attic before it condenses on cold roof sheathing. Without airflow, moisture accumulates, saturating wood and creating conditions for mold and structural rot. The additional R-value from the extra insulation provides far less benefit than the moisture damage it enables causes harm. Insulation must not block soffit vents — baffles should be installed to hold the airflow channel open while allowing insulation to extend to the eaves."
+
+- question: "A homeowner discovers that their attic is significantly warmer than the outside temperature in winter. What does this indicate?"
+  type: multiple-choice
+  options:
+    - "The heating system is working well and heat is being distributed evenly throughout the home"
+    - "Attic ventilation is too aggressive, drawing warm air up from the living space"
+    - "Insulation on the attic floor is insufficient and heat is escaping from the living space"
+    - "The roof is absorbing solar radiation and storing it as thermal mass"
+  answer: 2
+  explanation: "A warm attic in winter is a diagnostic sign that insulation on the attic floor (the ceiling of the rooms below) is inadequate. Heat from the living space is escaping upward, raising the attic temperature — the opposite of what a well-insulated home produces. This wastes energy and creates dangerous conditions: in snowy climates, a warm roof surface melts snow unevenly; meltwater runs to the cold eaves, refreezes, and forms ice dams that force water under shingles. The desired state is a cold attic in winter, close to outdoor temperature."
+
+- question: "Adding more insulation to an attic always improves energy efficiency because a higher R-value always reduces heat loss more than it creates other problems."
+  type: true-false
+  answer: false
+  explanation: "More insulation creates problems when it blocks soffit vents, disrupting the passive ventilation system. Insulation piled over soffit vents traps humid air that rises from the living space. Without ventilation to carry it away, this moisture condenses on cold roof sheathing, promoting mold, rot, and structural damage. The cost of repairing moisture damage far exceeds the savings from the marginal R-value gained. The correct approach is to use baffles that protect the ventilation channel while allowing insulation to extend to the eaves."
+
+- question: "Baffles installed between rafters at the eaves allow attic insulation to extend fully to the soffit while keeping the ventilation airflow channel open."
+  type: true-false
+  answer: true
+  explanation: "Baffles (also called rafter baffles or vent chutes) are rigid channels installed between rafters that create a protected pathway for air to flow from the soffit vent up through the attic to the ridge vent, even when blown or batt insulation fills the space around them. They resolve the fundamental tension between fully insulating the attic floor and maintaining the ventilation circuit. Without baffles, blown insulation naturally migrates to cover soffit vents, gradually breaking the airflow that prevents moisture buildup."
+
+- question: "Explain why attic insulation and attic ventilation are sometimes described as 'competing' systems, and what happens when one is sacrificed for the other."
+  type: short-answer
+  answer: "Insulation on the attic floor retains heat in the living space below, while ventilation moves air through the attic airspace itself to remove moisture. They physically conflict at the soffit: deep insulation tends to block the soffit vents that ventilation depends on. Sacrificing ventilation for insulation traps moisture and causes mold and rot. Sacrificing insulation for ventilation allows heat to escape, raising energy bills and risking ice dams in cold climates."
+  explanation: "The resolution is baffles, which allow both systems to function simultaneously by physically separating the insulation layer from the ventilation channel. The key insight is that the two systems serve different purposes at different locations: insulation controls heat flow at the attic floor (the interface with the living space), while ventilation controls temperature and humidity within the attic airspace. Neither can substitute for the other, and maximizing one at the expense of the other causes damage."
+```
+
 ## Explainer
 
 From your seasonal maintenance knowledge, you know that a house constantly exchanges heat with the outside environment — and managing that exchange efficiently is what keeps energy bills reasonable. The attic sits directly between the conditioned living space and the roof, making it a major pathway for that energy exchange in both directions. Managing the attic well requires understanding two systems that must work together: **insulation** on the attic floor that controls heat flow into and out of the living space, and **ventilation** through the attic airspace itself that controls temperature and moisture within the attic.

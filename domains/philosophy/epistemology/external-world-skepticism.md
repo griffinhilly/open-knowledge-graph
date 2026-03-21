@@ -33,6 +33,45 @@ Work through the skeptical argument in explicit premise form, then examine which
 - The skeptic does not claim that we are brains in a vat, only that we cannot know we are not.
 - Pointing out that the hypothesis is unfalsifiable or practically irrelevant does not by itself defeat the skeptical argument.
 
+## Questions
+
+```yaml
+- question: "Why doesn't gathering more sensory evidence resolve the problem of the external world?"
+  type: multiple-choice
+  options:
+    - "Because human sensory organs are too limited to detect whether the world is real"
+    - "Because every piece of additional evidence is itself a perceptual experience, which the skeptical scenario already explains equally well"
+    - "Because science requires controlled experiments, and we cannot run experiments on the external world itself"
+    - "Because Descartes already proved the external world is unknowable in his Meditations"
+  answer: 1
+  explanation: "This is the force of underdetermination: every would-be corroborating piece of evidence falls on the same side of the gap. You use perception to certify perception. A brain in a vat receiving a perfectly simulated world would gather the same 'additional evidence' and reach the same conclusions. Adding more experiences does not close the logical gap between experience and external reality — it just adds more data that the skeptical scenario explains just as well."
+
+- question: "A philosopher argues: 'The brain-in-a-vat hypothesis is scientifically unfalsifiable, so it is meaningless and we can safely ignore it.' What is the strongest response to this objection?"
+  type: multiple-choice
+  options:
+    - "Scientific unfalsifiability makes any hypothesis false by definition, so the skeptic's argument fails"
+    - "The skeptic does not need the hypothesis to be likely or scientifically testable — only to show that our evidence does not logically rule it out, which is sufficient to challenge knowledge claims"
+    - "Science is the only valid method for assessing claims about physical reality, so the philosopher is correct"
+    - "The hypothesis is actually falsifiable; we just lack the technology to test it currently"
+  answer: 1
+  explanation: "The skeptic is not making a scientific prediction — they are making an epistemological point about the limits of justification. The question is not 'Is the brain-in-a-vat hypothesis likely or testable?' but 'Does our evidence logically entail that we are not brains in vats?' The unfalsifiability objection misidentifies the nature of the challenge: scientific dismissal only works if the skeptical challenge is a scientific hypothesis, which it is not. Pointing out that a hypothesis is unfalsifiable does not by itself defeat the skeptical argument."
+
+- question: "The external world skeptic claims that we are probably living in a simulated reality or are brains in vats."
+  type: true-false
+  answer: false
+  explanation: "The skeptic makes no positive claim about whether we actually are brains in vats. The skeptical argument is much more modest: it claims only that we cannot know we are not. The ordinary hypothesis (a real physical world exists) and the skeptical hypothesis (systematic deception) are experientially identical by design — so our evidence cannot discriminate between them. The skeptic's target is our entitlement to claim knowledge, not the probability of the skeptical scenario."
+
+- question: "The force of external world skepticism depends on the assumption that sensory experience is our only evidence for the existence of the physical world."
+  type: true-false
+  answer: true
+  explanation: "This is precisely where direct realism and phenomenology mount their challenges: if in veridical perception we are directly in contact with physical objects — not with inner representations or 'ideas' of them — then the skeptical gap never opens in the first place. The brain-in-a-vat scenario only gets leverage if we grant that experience is an intermediary veil between us and reality. Challenge that assumption about the structure of perception, and the skeptic's starting point collapses."
+
+- question: "What is underdetermination, and why does it make the skeptical problem about the external world structurally different from ordinary cases of uncertainty?"
+  type: short-answer
+  answer: "Underdetermination occurs when multiple incompatible hypotheses are equally supported by all available evidence. In ordinary uncertainty, we resolve doubt by gathering more evidence — one hypothesis eventually becomes better supported. But with the external world, every additional piece of evidence is a perceptual experience, which both the ordinary hypothesis and the skeptical hypothesis (evil demon, brain in a vat) predict equally well. No amount of evidence breaks the tie, because all evidence falls on the same side of the logical gap between experience and external reality."
+  explanation: "This is why the problem is structurally hard rather than just practically hard. Ordinary skepticism about, say, whether a particular witness is lying can in principle be resolved by gathering testimony from others. But external world skepticism cannot be resolved this way: the 'other witnesses' are also perceptual experiences. You are trying to certify perception using perception — an epistemic circularity that more evidence cannot escape."
+```
+
 ## Explainer
 
 You're already familiar with Descartes' skeptical method: the **evil demon** hypothesis, the project of doubting everything that can be doubted, and the *cogito* as the one secure foundation that survives radical doubt. Cartesian skepticism deploys a general weapon — if a belief could conceivably be false under some logically possible scenario, it does not count as certain knowledge. The problem of the external world focuses this weapon on a specific target: our perceptual access to the physical world as an independent, mind-external reality. Even granting that we have minds and can reason, can we know that the world of tables, mountains, and other people exists independently of our experience of it?

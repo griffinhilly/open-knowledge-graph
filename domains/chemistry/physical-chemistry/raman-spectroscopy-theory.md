@@ -30,6 +30,45 @@ Compare IR and Raman spectra of the same molecule side-by-side, noting which pea
 - Thinking Raman and IR always probe different modes; for molecules without an inversion center, a mode can be both IR and Raman active.
 - Confusing Raman with fluorescence — both use visible light, but Raman is near-instantaneous scattering, not absorption-emission.
 
+## Questions
+
+```yaml
+- question: "A chemist wants to measure vibrational modes of N₂ dissolved in an aqueous buffer. Which spectroscopic technique should they use, and why?"
+  type: multiple-choice
+  options:
+    - "IR absorption, because N₂ has a strong dipole moment that produces a clear IR signal"
+    - "Raman spectroscopy, because N₂ has no dipole moment change during vibration but its polarizability changes — and water is a weak Raman scatterer"
+    - "Either technique equally, because all vibrational modes are both IR and Raman active"
+    - "IR absorption, because water is transparent in the infrared region"
+  answer: 1
+  explanation: "N₂ is homonuclear and symmetric — there is no dipole moment change during vibration, making it completely IR-inactive. However, its electron cloud stretches during vibration, changing polarizability, so it is Raman-active. The aqueous medium further favors Raman: water is a strong IR absorber that would overwhelm the sample signal, but a very weak Raman scatterer that produces minimal background. This is the classic dual reason to prefer Raman for aqueous biological systems."
+
+- question: "Stokes lines in a Raman spectrum are more intense than anti-Stokes lines at room temperature. What is the correct explanation?"
+  type: multiple-choice
+  options:
+    - "Stokes scattering uses higher-energy incident photons that carry more intensity"
+    - "At room temperature, nearly all molecules are in the ground vibrational state; Stokes scattering initiates from there, while anti-Stokes requires a pre-populated excited state"
+    - "Anti-Stokes scattering requires a more powerful laser to overcome the energy barrier"
+    - "Polarizability change is larger when a molecule starts from the ground state than from an excited state"
+  answer: 1
+  explanation: "Anti-Stokes scattering requires the molecule to already be in a vibrationally excited state to donate energy to the scattered photon. At room temperature, the Boltzmann distribution places the vast majority of molecules in the ground vibrational state (ν=0), so anti-Stokes scatterers are rare. The intensity ratio of anti-Stokes to Stokes lines is temperature-dependent and follows the Boltzmann factor exp(−hν/kT), which is why anti-Stokes lines are always weaker at room temperature and can be used as a molecular thermometer."
+
+- question: "For a centrosymmetric molecule like CO₂, the mutual exclusion rule holds: any vibrational mode that is IR-active is Raman-inactive, and vice versa."
+  type: true-false
+  answer: true
+  explanation: "The mutual exclusion rule applies to molecules with a center of inversion. A vibration that is IR-active requires a change in dipole moment — these are the antisymmetric modes, which destroy the inversion symmetry. A Raman-active mode requires a change in polarizability — these are the symmetric modes, which preserve the inversion center. The two conditions are mutually exclusive for centrosymmetric molecules, making IR and Raman genuinely complementary: together they provide the complete vibrational picture."
+
+- question: "Raman spectroscopy and fluorescence both use visible light and produce emitted photons, making them the same physical phenomenon observed under different conditions."
+  type: true-false
+  answer: false
+  explanation: "They are fundamentally different processes. Raman scattering is near-instantaneous (~10⁻¹⁴ s) and occurs through a virtual electronic state — the molecule is never actually in an excited electronic state. Fluorescence involves true absorption to a real excited electronic state followed by relaxation and emission, occurring on nanosecond timescales. The key practical consequence: fluorescence can be much stronger than Raman scattering and can overwhelm the Raman signal, which is why sample fluorescence is a major experimental challenge in Raman spectroscopy."
+
+- question: "Why is Raman spectroscopy preferred over IR for studying biological molecules in aqueous solution?"
+  type: short-answer
+  answer: "Water has O–H stretching and bending modes that produce intense, broad absorptions throughout the mid-IR region, masking the vibrational signals of dissolved biomolecules. Water is a very weak Raman scatterer, contributing only minimal background in a Raman spectrum. This means the vibrational signatures of proteins, nucleic acids, or drug molecules in aqueous buffer can be detected cleanly by Raman, while the same measurement by IR would require elaborate difference methods or non-aqueous solvents."
+  explanation: "The practical advantage for biological applications cannot be overstated: most biologically relevant measurements must occur in aqueous conditions, and Raman's insensitivity to water makes it the technique of choice for in-situ and in-vivo measurements, including live-cell micro-Raman imaging."
+```
+
 ## Explainer
 
 From vibrational spectroscopy, you already know that molecules vibrate at characteristic frequencies and that infrared absorption occurs when a photon's energy matches a vibrational transition. **Raman spectroscopy** probes the same vibrational modes but through a completely different physical mechanism: instead of absorbing a photon, the molecule scatters it, and during that scattering event, energy is exchanged between the photon and the molecule's vibrations. The scattered photon emerges with a slightly different frequency, and the difference tells you the vibrational frequency of the mode involved.

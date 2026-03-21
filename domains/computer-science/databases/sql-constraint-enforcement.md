@@ -26,6 +26,45 @@ Constraints enforce data integrity rules at the database level. PRIMARY KEY uniq
 ## How It's Best Learned
 Design schemas with appropriate constraints, understand how constraints prevent invalid operations, and practice handling constraint violations in INSERT/UPDATE statements.
 
+## Questions
+
+```yaml
+- question: "A web application validates that a user's age is ≥ 18 in its Python code before inserting into the database, but no CHECK constraint exists on the column. A data analyst runs a direct SQL INSERT through a terminal session. What happens?"
+  type: multiple-choice
+  options:
+    - "The Python validation runs automatically for all database connections, including direct SQL sessions"
+    - "The INTEGER column type rejects negative or out-of-range ages automatically"
+    - "The analyst can insert any age value, including negative numbers, because no database constraint prevents it"
+    - "The FOREIGN KEY constraint on a related table prevents the invalid age from being inserted"
+  answer: 2
+  explanation: "Application-level validation only runs when code passes through the application layer. A direct SQL session, a migration script, a bug in a different application, or any other client bypasses the Python code entirely. The database will happily accept whatever value is sent. Only a CHECK constraint enforced by the database itself is unconditional — it applies to every INSERT, UPDATE, and DELETE from every client. This is the core reason to move business rules into the schema: constraints cannot be bypassed."
+
+- question: "Which statement best describes the difference between UNIQUE and PRIMARY KEY constraints?"
+  type: multiple-choice
+  options:
+    - "PRIMARY KEY allows NULLs to accommodate missing identifiers; UNIQUE does not"
+    - "UNIQUE ensures no two rows share the same value but permits NULLs; PRIMARY KEY requires NOT NULL and uniquely identifies every row"
+    - "They are functionally identical — PRIMARY KEY is simply a conventional label for the main UNIQUE constraint"
+    - "PRIMARY KEY only applies to single-column constraints; UNIQUE is used for multi-column uniqueness"
+  answer: 1
+  explanation: "PRIMARY KEY combines two requirements: uniqueness and NOT NULL. Every row must have a non-null, unique identifier. UNIQUE enforces uniqueness without requiring NOT NULL — a column like email can be UNIQUE while still allowing rows where the email is not yet known (NULL). Most databases also allow multiple NULLs under a UNIQUE constraint because NULL represents 'unknown' and two unknowns are not considered equal. Options A and C are both incorrect about the NULL behavior of PRIMARY KEY."
+
+- question: "A FOREIGN KEY constraint prevents inserting a row whose foreign key value has no matching primary key in the referenced table."
+  type: true-false
+  answer: true
+  explanation: "This is the definition of referential integrity as enforced by FOREIGN KEY. If a table orders has a FOREIGN KEY (customer_id) REFERENCES customers(id), the database rejects any INSERT or UPDATE that would create an orders row with a customer_id that doesn't exist in the customers table. This prevents 'orphaned' records — data that references something that doesn't exist. The constraint is checked at the time of every modification, by every client, unconditionally."
+
+- question: "A CHECK constraint defined in the database schema is redundant if the application layer already validates the same rule, because the data will be validated before it reaches the database."
+  type: true-false
+  answer: false
+  explanation: "Application-layer validation can be bypassed — by a different application accessing the same database, by a direct SQL session from an analyst or DBA, by a migration script, or by a bug that lets invalid data slip through. Database constraints are enforced unconditionally on every statement from every client. The schema is a contract that the database upholds regardless of how data arrives. The correct conclusion is the opposite: if a rule is important enough to enforce in the application, it is important enough to enforce in the schema as well."
+
+- question: "Why is it better to enforce business rules like 'age must be positive' and 'email must be unique' as database constraints rather than relying solely on application code?"
+  type: short-answer
+  answer: "Database constraints are enforced unconditionally on every INSERT, UPDATE, and DELETE from every client — including direct SQL sessions, multiple applications, migration scripts, and future code that doesn't know the rule exists. Application code can be bypassed, updated incorrectly, or forgotten. By encoding business rules as constraints, the schema becomes a self-enforcing contract: invalid data cannot enter the database regardless of how it is submitted. This makes the data trustworthy by construction rather than by hope."
+  explanation: "The deeper point is that data outlives applications. A business might replace its web app, hire a new analyst, or run automated jobs — all of which interact with the same database. If the rules live only in one application, every new access point must independently re-implement them correctly. Constraints in the schema need to be written once and are then permanent. This is why the topic describes the schema as 'a contract the database enforces.'"
+```
+
 ## Explainer
 
 When you created tables with CREATE TABLE, you defined column names and data types — but data types alone cannot express the rules your data must follow. A column declared as INTEGER will reject the string "hello," but it will happily accept -5 for an age or NULL for a required field. **Constraints** are the mechanism for encoding business rules directly into the schema so the database itself rejects invalid data, regardless of which application or user attempts the insertion.

@@ -30,6 +30,45 @@ Physically interpret each degree of freedom: three independent directions of tra
 - Vibrational modes are not always active — at room temperature, quantum effects 'freeze out' vibrational degrees in diatomic gases; classical equipartition overestimates Cv in that regime.
 - The theorem is statistical and holds only on average over many molecules.
 
+## Questions
+
+```yaml
+- question: "A diatomic gas is heated to a high enough temperature that vibrational modes are fully active. What is the molar heat capacity at constant volume C_v?"
+  type: multiple-choice
+  options:
+    - "(5/2)R — 3 translational + 2 rotational degrees"
+    - "(3/2)R — only translational motion contributes"
+    - "(7/2)R — 3 translational + 2 rotational + 2 vibrational quadratic terms"
+    - "(6/2)R — 3 translational + 2 rotational + 1 vibrational degree"
+  answer: 2
+  explanation: "At high temperature, a diatomic molecule has 3 translational degrees (x, y, z motion), 2 rotational degrees (two perpendicular axes), and 2 vibrational quadratic terms (1 kinetic + 1 potential, since both ½mv² and ½kx² are quadratic). That's 7 total quadratic terms, each contributing (1/2)kT, giving U = (7/2)kT per molecule and C_v = (7/2)R. The common mistake is counting 6 — vibrational modes always contribute two quadratic terms (kinetic and potential), not one."
+
+- question: "Nitrogen gas (N₂) at room temperature has a measured C_v of approximately (5/2)R, not (7/2)R. What explains this?"
+  type: multiple-choice
+  options:
+    - "N₂ molecules lack vibrational modes entirely due to their bond structure"
+    - "Rotational modes are also frozen out at room temperature for N₂"
+    - "Vibrational modes are 'frozen out' because the quantum energy level spacing ħω >> kT at room temperature, so those modes cannot absorb thermal energy"
+    - "The equipartition theorem does not apply to diatomic molecules"
+  answer: 2
+  explanation: "Quantum mechanics discretizes the energy levels of each mode. Vibrational modes in N₂ have large energy spacing ħω. At room temperature, kT is much smaller than this spacing, so molecules cannot climb to the first vibrational excited state — the mode stays frozen in its ground state and contributes nothing to heat capacity. Rotational modes in N₂ have much smaller energy spacing and are fully active at room temperature, giving the observed (5/2)R."
+
+- question: "A harmonic oscillator has both kinetic energy ½mv² and potential energy ½kx². By the equipartition theorem, the total average thermal energy of this oscillator is (1/2)kT."
+  type: true-false
+  answer: false
+  explanation: "Each quadratic term independently contributes (1/2)kT. The kinetic energy ½mv² is one quadratic term contributing (1/2)kT, and the potential energy ½kx² is a second quadratic term also contributing (1/2)kT. The total average energy is therefore kT, not (1/2)kT. This is why vibrational modes contribute twice as much to heat capacity as translational or rotational modes — they have two quadratic terms, not one."
+
+- question: "The equipartition theorem gives reliable predictions for heat capacities of all real gases at any temperature."
+  type: true-false
+  answer: false
+  explanation: "The equipartition theorem is a classical result assuming all modes can absorb energy continuously. Quantum mechanics restricts modes to discrete energy levels — if kT is much smaller than the level spacing ħω, the mode is frozen and contributes nothing. This quantum freezing makes classical equipartition an overestimate at low temperatures or for modes with large energy spacing (like vibrations in light diatomic molecules). The theorem gives good predictions only when kT >> ħω for the relevant mode."
+
+- question: "Why does a vibrational degree of freedom contribute kT (not (1/2)kT) to average molecular energy, while a translational degree of freedom contributes only (1/2)kT?"
+  type: short-answer
+  answer: "The equipartition theorem assigns (1/2)kT to each quadratic term in the energy expression. Translational motion in one direction has a single quadratic term — ½mv² — so it contributes (1/2)kT. A vibrational mode has two quadratic terms: kinetic energy ½mv² and potential energy ½kx². Each independently gets (1/2)kT, summing to kT for the complete vibrational mode."
+  explanation: "This is why counting 'degrees of freedom' requires care — a vibrational mode counts as two contributions to energy, not one. Mistakenly treating vibration as one degree of freedom predicts C_v = (6/2)R for a fully activated diatomic, when the correct answer is (7/2)R."
+```
+
 ## Explainer
 
 From your study of the kinetic theory of gases — specifically rms speed and kinetic energy — you know that the average translational kinetic energy of a molecule in thermal equilibrium is (3/2)kT. This result came from computing ⟨½mv²⟩ = ½m⟨v_x² + v_y² + v_z²⟩ and using the Maxwell-Boltzmann distribution. The equipartition theorem generalizes this: the factor of (3/2) comes from having three independent translational directions, and each one contributes exactly (1/2)kT. The theorem says this is not a coincidence — it is a universal rule that applies to any quadratic term in the energy, regardless of whether it is kinetic or potential.

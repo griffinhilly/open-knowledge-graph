@@ -26,6 +26,45 @@ Fluid continuously moves between the capillary lumen and tissue interstitium, dr
 ## How It's Best Learned
 Calculate net filtration pressure using typical values for hydrostatic and oncotic pressures in arteriolar and venular ends of capillaries. Apply Starling's equation to clinical scenarios like liver disease, malnutrition, and inflammation.
 
+## Questions
+
+```yaml
+- question: "A patient with severe liver cirrhosis develops significant abdominal edema (ascites). Which Starling mechanism best explains this finding?"
+  type: multiple-choice
+  options:
+    - "Elevated capillary hydrostatic pressure, because liver scarring blocks venous return and raises venous pressure throughout the body."
+    - "Reduced plasma oncotic pressure, because the damaged liver produces less albumin, weakening the inward pull that returns fluid to capillaries."
+    - "Increased capillary permeability, because liver inflammation releases histamine into the systemic circulation."
+    - "Reduced interstitial hydrostatic pressure, because liver scarring compresses the lymphatic vessels."
+  answer: 1
+  explanation: "The liver synthesizes albumin, the primary plasma protein responsible for oncotic pressure. When the liver is severely damaged, albumin synthesis falls and plasma protein concentration drops. With reduced oncotic pressure (the inward pull), the balance shifts toward net filtration — more fluid leaves the capillaries than is reabsorbed. This case illustrates why identifying which term in the Starling equation is disrupted is essential to understanding the mechanism of edema; different etiologies require different treatments."
+
+- question: "Moving from the arteriolar end to the venular end of a capillary, why does the dominant process shift from filtration to reabsorption?"
+  type: multiple-choice
+  options:
+    - "Blood velocity slows at the venular end, giving oncotic pressure more time to act."
+    - "Capillary hydrostatic pressure falls as fluid is lost and resistance dissipates, while oncotic pressure stays roughly constant. This reverses the net balance."
+    - "The capillary wall at the venular end is more permeable to proteins, allowing albumin to enter the interstitium and pull fluid back."
+    - "Lymphatic vessels at the venular end actively pump fluid back into the capillary."
+  answer: 1
+  explanation: "At the arteriolar end, hydrostatic pressure (~35 mmHg) exceeds oncotic pressure (~25 mmHg), so net pressure pushes fluid out. As blood flows through the capillary, it loses fluid — lowering hydrostatic pressure to ~15 mmHg at the venular end — while the remaining plasma proteins become slightly more concentrated, keeping oncotic pressure roughly constant. Now oncotic pressure exceeds hydrostatic pressure, and the net force pulls fluid back in. This mechanism returns most filtered fluid to the circulation, with only a small residual collected by lymphatics."
+
+- question: "In a person with severe malnutrition and low plasma protein levels, edema develops because the body cannot generate enough oncotic pressure to pull filtered fluid back into capillaries."
+  type: true-false
+  answer: true
+  explanation: "Plasma oncotic pressure depends primarily on albumin concentration. Severe malnutrition reduces dietary protein intake, impairing albumin synthesis. With low oncotic pressure, the inward force at the venular end is insufficient to match even normal hydrostatic pressure. Net filtration exceeds reabsorption throughout the capillary bed, and excess fluid accumulates in the interstitium. This is the physiological basis of the characteristic edema seen in protein-deficiency malnutrition (kwashiorkor)."
+
+- question: "Under normal physiological conditions, capillary hydrostatic pressure is approximately the same at both the arteriolar and venular ends of the capillary."
+  type: true-false
+  answer: false
+  explanation: "Hydrostatic pressure drops significantly along the capillary length — from roughly 35 mmHg at the arteriolar end to about 15 mmHg at the venular end. This pressure drop occurs because fluid is continuously being pushed out through filtration, and because resistance along the capillary dissipates the driving pressure. This decline is precisely what reverses the net Starling force from filtration to reabsorption as blood travels toward the venular end."
+
+- question: "Why does the Starling equation require two opposing pressure types (hydrostatic and oncotic) rather than just one driving force for capillary fluid exchange?"
+  type: short-answer
+  answer: "Hydrostatic pressure alone would push all fluid out of the capillaries into the tissues, causing massive edema and depleting the vascular volume. Oncotic pressure — the osmotic pull of plasma proteins too large to leave the capillary — provides the counterforce that pulls fluid back in. The interplay between the two, varying along the capillary's length, creates a controlled exchange: filtration at the arteriolar end delivers nutrients to tissues, and reabsorption at the venular end recovers the fluid."
+  explanation: "The two-force system is what makes capillary exchange precise rather than all-or-nothing. A single driving force would saturate in one direction; the balance between hydrostatic push and oncotic pull creates a tunable equilibrium that varies in space and shifts in response to physiological conditions. This also explains why each type of edema requires different treatment: heart failure edema (high hydrostatic) is treated by reducing fluid overload, while hypoalbuminemia edema requires protein replacement."
+```
+
 ## Explainer
 
 You already understand that blood is a complex fluid containing plasma proteins, cells, and dissolved solutes, and that water moves by osmosis from regions of low solute concentration to regions of high solute concentration. At the capillary level, these principles govern a continuous exchange of fluid between the blood and the surrounding tissues — a process that delivers nutrients, removes waste, and maintains tissue fluid balance every second of your life.

@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 The t-statistic tⱼ = (β̂ⱼ - βⱼ₀) / se(β̂ⱼ) tests individual coefficients under normality, following a t-distribution with n - k degrees of freedom under H₀: βⱼ = βⱼ₀. It is used to construct confidence intervals and conduct significance tests on individual parameters.
 
+## Questions
+
+```yaml
+- question: "A regression estimates a coefficient β̂ = 4.2 with standard error se = 1.4. The null hypothesis is β = 0. What is the t-statistic, and what is the correct interpretation?"
+  type: multiple-choice
+  options:
+    - "t = 4.2; the coefficient is large enough to be automatically significant"
+    - "t = 3.0; the estimate is 3 standard errors from zero, which we compare to a critical value to assess significance"
+    - "t = 4.2 / 1.4 = 0.33; the effect is small relative to its variance"
+    - "t = 1.4 / 4.2 = 0.33; we need additional information about sample size to interpret this"
+  answer: 1
+  explanation: "The t-statistic is (β̂ − β₀) / se = (4.2 − 0) / 1.4 = 3.0. This means the estimate is 3 standard errors above zero, which we compare to the critical value from the t-distribution with n − k degrees of freedom (approximately 1.96 for large n at 5% significance). The raw coefficient (4.2) cannot be judged as 'significant' without knowing the standard error—a coefficient of 4.2 with se = 5 is insignificant, while one with se = 0.5 is highly significant."
+
+- question: "All five individual t-statistics in a regression are statistically insignificant at the 5% level. What can you conclude?"
+  type: multiple-choice
+  options:
+    - "None of the independent variables have any effect on the dependent variable"
+    - "The model has no explanatory power and should be discarded"
+    - "The variables are jointly insignificant, as confirmed by the individual t-tests"
+    - "The individual coefficients may still be jointly significant—a separate F-test is needed to assess joint significance"
+  answer: 3
+  explanation: "Individual t-tests assess each coefficient in isolation. Multicollinearity or other factors can make individual coefficients appear insignificant even when the group jointly explains meaningful variation. The F-test for joint significance is the correct tool for asking whether a set of restrictions (like all slopes equal zero) holds simultaneously. Concluding from individual t-tests alone that variables have no joint effect is a common error in applied regression."
+
+- question: "A p-value of 0.04 for a coefficient means there is a 96% probability that the true coefficient is nonzero."
+  type: true-false
+  answer: false
+  explanation: "This is one of the most common misinterpretations in statistics. The p-value is a frequency probability under the null hypothesis: it is the probability of observing a t-statistic at least as extreme as the one computed *if the null hypothesis were true*. It does not measure the probability that the null is true or false. Interpreting p = 0.04 as '96% chance the coefficient is real' conflates a frequentist p-value with a Bayesian posterior—a fundamentally different quantity."
+
+- question: "Dividing the OLS estimate by its standard error is essential because a large coefficient is not necessarily evidence against the null hypothesis."
+  type: true-false
+  answer: true
+  explanation: "A coefficient of 100 is meaningless without context. If the standard error is 200, the estimate is only 0.5 standard errors from zero—easily explained by sampling variation. The standard error quantifies how much the estimate would vary across repeated samples; only when the estimate is large relative to this variability do we have evidence against the null. This is why the t-statistic (the signal-to-noise ratio) is the right measure, not the raw coefficient."
+
+- question: "Explain why running separate t-tests on many coefficients inflates the risk of false positives, and what problem this creates in practice."
+  type: short-answer
+  answer: "Each t-test at the 5% level has a 5% chance of falsely rejecting the null when it is true. With k independent tests, the probability of at least one false positive is approximately 1 − 0.95^k, which grows rapidly with k—testing 14 coefficients gives roughly a 50% chance of at least one false positive by chance alone. In practice, researchers who scan many candidates and report only 'significant' results are likely cherry-picking noise. Corrections (Bonferroni, false discovery rate) or joint F-tests address this problem."
+  explanation: "Multiple testing inflation is why data-mining—running many regressions and highlighting significant results—requires correction. The t-statistic is designed for testing a pre-specified hypothesis, not for searching over many possible effects."
+```
+
 ## Explainer
 
 You already know from the normal linear regression model that OLS estimates β̂ are random variables — different samples would give different estimates. The question inference asks is: given the estimate we got, what can we conclude about the true population parameter β? The **t-statistic** is the tool that answers this question for individual coefficients, one at a time.

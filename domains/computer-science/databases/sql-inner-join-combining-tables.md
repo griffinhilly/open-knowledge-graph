@@ -27,6 +27,45 @@ INNER JOIN combines rows from two tables where the join condition is true. The j
 ## How It's Best Learned
 Start with simple INNER JOINs on primary key–foreign key relationships, then practice joins on non-key columns and multiple join conditions. Visualize which rows are included and excluded.
 
+## Questions
+
+```yaml
+- question: "A database has a 'customers' table with 200 customers and an 'orders' table with 350 orders. After running SELECT * FROM customers INNER JOIN orders ON customers.id = orders.customer_id, the result contains 310 rows. What is the most likely explanation?"
+  type: multiple-choice
+  options:
+    - "INNER JOIN randomly excludes rows to improve query performance"
+    - "Some customers placed multiple orders, and 40 customers have no orders at all — both effects reduce or multiply row counts"
+    - "The orders table is corrupted and missing 40 rows"
+    - "INNER JOIN combines the row counts of both tables and then removes duplicates"
+  answer: 1
+  explanation: "INNER JOIN returns one row for each matching pair. A customer with 3 orders contributes 3 rows; a customer with 0 orders contributes 0 rows. The result row count is determined entirely by how many rows in each table match the join condition — it can be more than either table (due to one-to-many relationships) or fewer (due to unmatched rows)."
+
+- question: "You write: SELECT e.name, d.dept_name FROM employees e JOIN departments d ON e.dept_id = d.id. Which employees will appear in the results?"
+  type: multiple-choice
+  options:
+    - "All employees, with NULL in dept_name for those without a matching department"
+    - "Only employees whose dept_id matches an existing id in the departments table"
+    - "Only departments that have at least one employee assigned"
+    - "Every combination of every employee with every department"
+  answer: 1
+  explanation: "INNER JOIN is strict: only rows where the join condition is satisfied appear in the results. An employee with a dept_id that doesn't match any department id is silently excluded — no NULL, no row at all. If you need to keep all employees regardless of whether they have a department, you would use a LEFT JOIN instead."
+
+- question: "If a 'products' table has 50 products and an 'order_items' table records which products appear in which orders, an INNER JOIN between them could return more than 50 rows."
+  type: true-false
+  answer: true
+  explanation: "One product can appear in many orders, so it generates multiple rows in order_items. When joined, each order_items row for that product produces a separate result row. A popular product appearing in 20 orders contributes 20 rows to the join result, not 1."
+
+- question: "An INNER JOIN between tables A and B always returns the same number of rows as the smaller of the two tables."
+  type: true-false
+  answer: false
+  explanation: "The result size depends entirely on how many rows match the join condition, not on the size of either table. If many rows on one side match a single row on the other, the result can be larger than both individual tables. If many rows have no match, the result can be smaller than either. Size of either table is not a reliable predictor."
+
+- question: "Explain why an INNER JOIN is described as 'strict' and what this means for rows that appear in one table but not the other."
+  type: short-answer
+  answer: "INNER JOIN only returns rows where the join condition is satisfied on both sides. If a row in table A has no matching row in table B (or vice versa), it is completely excluded from the result — it does not appear with NULLs, it simply does not appear. This 'strictness' is what distinguishes INNER JOIN from outer joins, which can preserve unmatched rows."
+  explanation: "This is the defining behavior of INNER JOIN and the most common source of unexpected missing data in query results. When a query returns fewer rows than expected, the first thing to check is whether an INNER JOIN is silently excluding unmatched rows — a LEFT or RIGHT JOIN may be more appropriate for the use case."
+```
+
 ## Explainer
 
 From your work with SELECT statements, you can retrieve and filter data from a single table. But real databases spread related data across multiple tables — customers in one, orders in another, products in a third. This **normalization** eliminates redundancy, but it means answering questions like "what did each customer order?" requires combining data from several tables. That is exactly what **INNER JOIN** does.

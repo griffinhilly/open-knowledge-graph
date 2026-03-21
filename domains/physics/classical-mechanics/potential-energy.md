@@ -33,6 +33,45 @@ Define the reference level (h = 0) explicitly for each problem, then compute cha
 - Thinking the spring PE formula requires a signed x: U_s = ½kx² is always positive regardless of the direction of stretch or compression.
 - Confusing spring constant k (N/m) with kinetic energy K — these share notation in different textbooks.
 
+## Questions
+
+```yaml
+- question: "Student A sets the floor as h = 0 and calculates that a book on a 1-meter-high table has gravitational PE = 10 J. Student B sets the tabletop as h = 0. What is the book's PE according to Student B?"
+  type: multiple-choice
+  options:
+    - "10 J — PE is an absolute property of the object and doesn't change with reference choice"
+    - "0 J — because the book is at the reference height, its PE is zero in Student B's framework"
+    - "−10 J — Student B's reference is higher, so the floor now has negative PE relative to it"
+    - "It is impossible to determine without knowing the book's mass"
+  answer: 1
+  explanation: "PE is defined relative to a chosen reference level, so its absolute value changes with the choice. Student B chose the table as h = 0, so the book sitting on the table has h = 0 and thus PE = mgh = mg(0) = 0 J. This isn't a contradiction — both students agree on what matters: if the book falls from the table to the floor, ΔPE = −10 J in Student A's framework and also ΔPE = 0 − (−10) = −10 J if Student B extends his coordinates below the table. Only changes in PE are physically meaningful."
+
+- question: "A spring with constant k = 200 N/m is first compressed by 3 cm, then released and stretched by 3 cm. How does the elastic PE stored compare in the two cases?"
+  type: multiple-choice
+  options:
+    - "The compressed spring stores more PE because compression requires more force than stretching"
+    - "The stretched spring stores more PE because extension involves greater displacement"
+    - "Both store the same PE — the formula U = ½kx² depends only on the magnitude of displacement"
+    - "PE is not defined for a compressed spring since it cannot convert to kinetic energy in that direction"
+  answer: 2
+  explanation: "U_s = ½kx² depends on x², which is always positive regardless of whether x represents compression or extension. When |x| = 3 cm in both cases, U_s = ½(200)(0.03)² = 0.09 J in both cases. The direction of deformation is irrelevant to the stored energy — the spring stores the same energy whether you push it in or pull it out by the same distance. This is why the formula uses x² rather than a signed quantity."
+
+- question: "The work done by gravity as an object falls from height h to the ground equals the decrease in the object's gravitational potential energy."
+  type: true-false
+  answer: true
+  explanation: "This is the fundamental relationship between conservative forces and potential energy. Gravity does positive work W = mgh on a falling object, and simultaneously the object's gravitational PE decreases by exactly mgh (from mgh to 0 if ground is the reference). Work done by a conservative force equals the negative of the change in PE: W = −ΔU. So if PE decreases by 10 J, gravity did 10 J of work — that energy transferred into kinetic energy, consistent with energy conservation."
+
+- question: "An object's gravitational potential energy is uniquely determined by its height above the ground."
+  type: true-false
+  answer: false
+  explanation: "PE has no unique absolute value — only changes in PE are physically meaningful. The value of U_g = mgh depends entirely on where you choose h = 0. The same object at the same height has PE = 10 J if you choose the floor as reference, PE = 0 J if you choose the table as reference, and PE = −5 J if you choose a shelf above the table as reference. This is not a problem because every physical prediction depends on ΔPE, not PE itself. The choice of reference is a matter of convenience, not physics."
+
+- question: "Why is only the change in potential energy — not its absolute value — physically meaningful? What would go wrong if we tried to assign a unique 'true' PE to an object?"
+  type: short-answer
+  answer: "PE is defined as the work done against a conservative force to move an object to its current position from some reference point. The reference point is arbitrary — there is no physical reason to prefer any particular choice of h = 0. Every measurable prediction (how fast the object moves after falling, how much work can be extracted) depends only on differences in PE between two positions, not on the absolute value at either one. Assigning a unique 'true' PE would require a universal reference point that physics does not provide."
+  explanation: "This connects to a deep feature of conservative mechanics: forces are derived from the gradient (spatial derivative) of PE, and gradients are unchanged by adding a constant offset. So shifting the reference level by any amount changes every PE value by the same constant, leaving all force calculations — and therefore all physics — identical. The absolute value is gauge freedom; the differences are physical."
+```
+
 ## Explainer
 
 From your study of work and energy, you know that work is the transfer of energy through force acting over displacement. A conservative force — one for which the work done depends only on start and end points, not the path taken — can "store" that work and return it later. **Potential energy** is precisely this stored work: it is the energy a system possesses because of its configuration, waiting to be released as kinetic energy when the constraint is removed.

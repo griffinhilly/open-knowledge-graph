@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Gradual typing blends static and dynamic typing, allowing programmers to omit type annotations where inference fails or dynamic behavior is needed. The compiler inserts runtime type checks where static types transition to 'any' or 'dynamic', enabling flexible development without abandoning static safety entirely.
 
+## Questions
+
+```yaml
+- question: "A variable typed as `any` holds a string value. It is then passed to a function with the signature f(x: int) -> string. When does the type error surface?"
+  type: multiple-choice
+  options:
+    - "At compile time — the type checker detects the incompatibility when the function is called"
+    - "Never — the `any` type is compatible with everything, so no error can occur"
+    - "At runtime — the compiler inserts a cast that checks whether the value is actually an int when it enters the statically typed context"
+    - "At compile time only if the function was written in the same module as the caller"
+  answer: 2
+  explanation: "This is the central mechanism of gradual typing. The `any` type is consistent with every static type, so the compiler permits the call without complaint. But 'consistent at compile time' does not mean 'correct at runtime.' When a value flows from `any` into a statically typed context (the int parameter), the compiler inserts a runtime cast that checks whether the value actually has the required type. Passing a string fails this check and raises a type error at runtime. Option B is the key misconception: gradual typing does not eliminate type errors, it defers some of them from compile time to runtime."
+
+- question: "How does the 'consistency' relation in gradual typing differ from conventional subtyping?"
+  type: multiple-choice
+  options:
+    - "Consistency requires exact type equality; subtyping allows structural compatibility"
+    - "Consistency allows `any` to match any type as a wildcard, while subtyping requires a declared hierarchical relationship between concrete types"
+    - "Subtyping is checked at runtime while consistency is checked at compile time"
+    - "Consistency is strictly weaker — it allows all the same type assignments as subtyping plus more"
+  answer: 1
+  explanation: "In conventional subtyping, `int` is compatible with `Number` because of a declared or structural relationship. Two unrelated types like `int` and `string` are incompatible. Gradual typing adds the `any` type with a wildcard property: `any` is consistent with every type, and every type is consistent with `any`. Crucially, two concrete types that are not subtypes of each other remain inconsistent — `int` is not consistent with `string`. The `any` type acts as a bridge between the static and dynamic worlds without weakening the guarantees between fully-typed components."
+
+- question: "In a gradual type system, passing an `any` value into a statically typed function parameter requires a runtime type check inserted by the compiler at the boundary between typed and untyped code."
+  type: true-false
+  answer: true
+  explanation: "This is the mechanism that preserves type safety in gradual typing. When a value crosses from the untyped world (type `any`) into the typed world (a specific static type), the compiler inserts a runtime cast or contract check. If the value does not match the expected type, the check fails and raises an error. Without these inserted checks, a string stored in an `any` variable could silently be used as an integer, causing undefined behavior. The checks are the price of allowing dynamic and static code to interoperate safely."
+
+- question: "Gradual typing eliminates type errors in partially-typed code because the `any` type is compatible with everything — code that uses `any` cannot fail due to type mismatches."
+  type: true-false
+  answer: false
+  explanation: "Gradual typing does not eliminate type errors — it changes when and where they are reported. Fully dynamic code (everything typed as `any`) can still fail with type-related errors at runtime (e.g., calling `.length` on a number). Code at the boundary between typed and untyped regions will raise runtime errors when the actual type doesn't match the expected static type. The benefit of gradual typing is not eliminating errors but enabling static checking where annotations exist while deferring errors to runtime where they don't — not suppressing them entirely."
+
+- question: "What is the 'blame problem' in gradual typing, and why does it matter in large codebases that mix typed and untyped code?"
+  type: short-answer
+  answer: "When a runtime type check fails at a static/dynamic boundary, the blame problem asks: which piece of code is at fault — the typed function that declared an expectation, or the untyped caller that supplied a wrong value? Gradual typing systems track blame through casts and contracts so that the error message points to the code that introduced the problematic value, not the code where the mismatch was finally detected. In large codebases, a type error might be detected far from its source; without blame tracking, the error message would point to the wrong location, making bugs very difficult to trace."
+  explanation: "Consider a typed function f(x: int) called with an `any` value that turns out to be a float. The error should blame the caller who supplied the float, not the function definition. Proper blame assignment requires the runtime to remember which side of each typed/untyped boundary introduced each value. This is implemented through labeled casts or 'wrappers' that carry provenance information. The practical payoff is that error messages remain actionable — they identify the actual bug rather than a symptom downstream from it."
+```
+
 ## Explainer
 
 From your study of type systems, you know the fundamental tradeoff: static typing catches errors at compile time and enables optimizations, while dynamic typing offers flexibility and faster prototyping. Historically, languages chose one side — Java and Haskell are statically typed, Python and Ruby are dynamically typed. **Gradual typing** rejects this binary choice by allowing both styles to coexist in the same program. A programmer can write fully annotated, statically checked code in critical modules and leave types unspecified in exploratory or rapidly changing code. TypeScript adding types to JavaScript, Python's type hints with mypy, and Typed Racket are all manifestations of this idea.

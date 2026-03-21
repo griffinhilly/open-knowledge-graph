@@ -40,6 +40,45 @@ Build a table of common Laplace pairs (step, ramp, exponential, sinusoid) and pr
 - The final value theorem only applies when the final value exists (poles strictly in the left half-plane); applying it to unstable systems gives wrong answers.
 - Initial conditions are automatically encoded in the Laplace transform of derivatives — the s·x(0) terms must not be dropped.
 
+## Questions
+
+```yaml
+- question: "A control engineer wants to find the steady-state output of a closed-loop system with transfer function T(s) = 10 / ((s+1)(s-2)) responding to a unit step input. She applies the final value theorem: lim(s→0) s · T(s) · (1/s) = T(0) = 5. Is her answer correct?"
+  type: multiple-choice
+  options:
+    - "Yes — the final value theorem always applies to closed-loop transfer functions with step inputs."
+    - "No — the final value theorem cannot be applied here because T(s) has a right-half-plane pole at s=2, meaning the system is unstable and has no finite steady-state."
+    - "No — she should evaluate T(s) at s=jω, not s=0, to find the steady-state."
+    - "Yes, but only if the initial conditions of the system are zero."
+  answer: 1
+  explanation: "The final value theorem lim(t→∞) y(t) = lim(s→0) s·Y(s) only applies when the final value actually exists — i.e., when all closed-loop poles are strictly in the left half-plane (stable system). T(s) has a pole at s=+2 (right half-plane), so the output grows unboundedly and there is no steady state. Applying the theorem mechanically gives the number 5, which is a meaningless answer. The misconception is treating the theorem as algebraically valid regardless of stability."
+
+- question: "What does the real part σ of the Laplace variable s = σ + jω represent, and how is it distinct from the imaginary part jω?"
+  type: multiple-choice
+  options:
+    - "σ represents the phase angle of the signal; jω represents its amplitude."
+    - "σ represents the growth or decay rate of the signal's envelope; jω represents the oscillation frequency."
+    - "σ and jω both represent frequency — σ is the low-frequency component and jω is the high-frequency component."
+    - "σ is irrelevant for control design; only jω matters because sinusoids define the frequency response."
+  answer: 1
+  explanation: "The complex variable s = σ + jω encodes two independent pieces of information. The imaginary part jω gives the oscillation frequency, and the real part σ gives the exponential growth rate (σ > 0) or decay rate (σ < 0). A pole at s = -2 + j5 represents a damped oscillation decaying at rate e^{-2t}cos(5t). Setting σ = 0 (imaginary axis only) recovers the Fourier transform frequency analysis, which is why evaluating a transfer function at s = jω gives the sinusoidal frequency response."
+
+- question: "The Laplace variable s is equivalent to the frequency variable jω used in Fourier analysis — it simply extends the frequency axis to two dimensions."
+  type: true-false
+  answer: false
+  explanation: "This is a common oversimplification. The Fourier transform uses s = jω (purely imaginary), which only describes steady-state sinusoidal behavior. The Laplace transform uses s = σ + jω, where the real part σ encodes exponential growth or decay. This extension is what allows Laplace methods to handle transient behavior, initial conditions, and unstable systems — things the Fourier transform cannot directly address. The Fourier transform is a special case of the Laplace transform evaluated on the imaginary axis."
+
+- question: "When computing the Laplace transform of a derivative dx/dt, the initial condition term x(0) appears explicitly in the result: L{dx/dt} = sX(s) − x(0). If initial conditions are nonzero and these terms are dropped, the solution will be incorrect."
+  type: true-false
+  answer: true
+  explanation: "The differentiation theorem L{dx/dt} = sX(s) − x(0) is how the Laplace transform encodes initial conditions: the term −x(0) (and −ẋ(0) for second derivatives, etc.) automatically injects the initial state into the algebraic equation. Dropping these terms is equivalent to assuming zero initial conditions — a valid simplification only when the system starts at rest. If initial conditions are nonzero, omitting them gives the wrong particular solution."
+
+- question: "Explain what the final value theorem computes and state the condition that must hold for it to give a valid answer. Why does violating this condition produce a misleading (but numerically finite) result?"
+  type: short-answer
+  answer: "The final value theorem states that lim(t→∞) y(t) = lim(s→0) s·Y(s), allowing steady-state output to be computed directly in the s-domain without inverting the transform. The condition is that Y(s) must have all its poles strictly in the open left half-plane (the system must be stable). If a pole lies in the right half-plane or on the imaginary axis, the time-domain output diverges or oscillates indefinitely — there is no final value. The theorem still produces a finite number when applied mechanically, because lim(s→0) is just algebra, but that number is meaningless: it does not correspond to any real steady-state behavior."
+  explanation: "This is a critical failure mode in control engineering. The theorem is an algebraic operation that will 'work' numerically even when the underlying physics produces divergence. Engineers must check pole locations (stability) before applying the theorem. The correct check: factor the denominator of s·Y(s) and verify all roots have negative real parts."
+```
+
 ## Explainer
 
 From your prerequisite on differential equations, you know that the governing equations of physical systems — masses on springs, electrical circuits, motor armatures — are ordinary differential equations (ODEs). Solving these ODEs directly requires finding the homogeneous solution, particular solution, and applying initial conditions, a process that is algebraically tedious and becomes unwieldy for systems of multiple coupled equations. The Laplace transform provides a shortcut: it converts the entire ODE into an algebraic equation in the complex variable **s**, which can be manipulated with ordinary algebra, then converted back to the time domain when needed. It is the control engineer's standard language for the same reason that logarithms simplify multiplication — it transforms hard operations (differentiation, integration) into easy ones (multiplication by s, division by s).

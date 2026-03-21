@@ -31,6 +31,45 @@ Write simple UDP echo client and server using socket APIs; observe that UDP prov
 - UDP is always faster than TCP; UDP has lower overhead but TCP can achieve higher throughput via congestion control.
 - UDP is unreliable; applications can add reliability on top (e.g., QUIC wraps UDP with reliability).
 
+## Questions
+
+```yaml
+- question: "A live video conferencing application uses UDP. A packet containing several video frames is lost in transit. What happens next?"
+  type: multiple-choice
+  options:
+    - "The application skips those frames — a brief visual glitch is far less disruptive than pausing the stream to wait for retransmission"
+    - "UDP automatically retransmits the lost packet after detecting the loss via its checksum"
+    - "The video call halts until the lost packet arrives, ensuring smooth chronological playback"
+    - "The connection resets and a new UDP session is negotiated from the beginning"
+  answer: 0
+  explanation: "UDP provides no retransmission, acknowledgment, or error recovery — lost packets are simply gone. This is intentional for live video: a retransmitted frame arriving 200–500 ms late is useless or actively disruptive (out-of-order playback). The application skips missing frames, producing a brief glitch, which is far preferable to the latency of TCP retransmission. Options B and D describe TCP-like behaviors that UDP deliberately omits by design."
+
+- question: "A developer argues that UDP should only be used for applications that can tolerate unreliable delivery. Which statement best challenges this claim?"
+  type: multiple-choice
+  options:
+    - "Applications like QUIC build full reliability on top of UDP, demonstrating that UDP is a minimal foundation on which any transport behavior — including reliable delivery — can be constructed"
+    - "UDP is inherently unreliable and cannot be made reliable regardless of the application layer"
+    - "TCP is always faster than UDP for applications that need reliable delivery"
+    - "Modern networks rarely drop packets, so UDP's unreliability is not a meaningful concern in practice"
+  answer: 0
+  explanation: "QUIC (used in HTTP/3) directly refutes the claim. QUIC implements reliable, ordered, multiplexed streams on top of UDP, achieving TCP-level reliability while avoiding head-of-line blocking and ossified middlebox behavior. The insight is that UDP is not 'unreliable transport' — it is minimal transport. Reliability, ordering, congestion control — any transport behavior — can be implemented in application space on top of UDP. Choosing UDP means choosing to control those mechanisms yourself, not accepting their absence."
+
+- question: "A UDP datagram header includes sequence numbers so that receivers can detect out-of-order delivery and reassemble packets in the correct order."
+  type: true-false
+  answer: false
+  explanation: "UDP's header is intentionally minimal: source port, destination port, length, and checksum — just 8 bytes total. There are no sequence numbers, acknowledgment numbers, flags, or flow control fields. This is not an oversight; it is the point. Sequence numbers and ordering are TCP features that add overhead and latency. If a UDP application needs ordering, it must implement that logic at the application layer. The stripped-down header is why UDP adds almost no latency beyond network transit time itself."
+
+- question: "UDP is always faster than TCP for any given application because it has lower protocol overhead."
+  type: true-false
+  answer: false
+  explanation: "UDP has lower per-packet overhead and no connection setup latency, but 'always faster' is incorrect. TCP's congestion control can achieve higher sustained throughput than uncontrolled UDP on congested networks, because UDP floods the network without backing off while TCP adapts to available capacity. UDP's advantages are lower latency for small exchanges and no head-of-line blocking — not universally higher throughput. The right choice depends entirely on the application's requirements."
+
+- question: "Why is UDP particularly well-suited for DNS queries, and what does the DNS application layer do to compensate for UDP's lack of reliability guarantees?"
+  type: short-answer
+  answer: "DNS queries are single request-response exchanges. Using TCP would require a three-way handshake before any query, adding a full round-trip of latency to every DNS lookup — unacceptable for infrastructure that precedes nearly every network connection. UDP allows the client to send a query directly and receive a response in one round-trip. To compensate for potential packet loss, the DNS resolver implements a simple application-layer retry: if no response arrives within a timeout window, it retransmits the query. This is sufficient because DNS queries are idempotent (safe to repeat) and typically succeed on the first attempt."
+  explanation: "DNS illustrates the general pattern for query-response protocols over UDP: the application implements lightweight timeout-and-retry logic, which is cheaper than TCP's full reliability machinery for short, stateless exchanges. The same pattern applies to NTP (network time synchronization), SNMP, and other protocols where queries are small, responses are expected quickly, and retrying is harmless. UDP's 8-byte header means almost no overhead per query — for a service handling billions of queries daily, this matters significantly."
+```
+
 ## Explainer
 
 From the TCP/IP model, you know that the transport layer sits between the application and the network layer, providing process-to-process communication using port numbers. TCP is the transport protocol most people learn first — it provides reliable, ordered delivery through connection setup, acknowledgments, retransmissions, and flow control. UDP is the other major transport protocol, and understanding it starts with understanding what happens when you strip all of that machinery away.

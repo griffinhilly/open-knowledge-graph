@@ -32,6 +32,45 @@ Draw the ylide formation and the cycloaddition/retrocycloaddition mechanism. Com
 - Confusing the Wittig with other alkene syntheses; it is unique for its predictable regioselectivity and stereospecificity.
 - Assuming all ylides react with equal facility; stabilized ylides are less reactive but more selective than non-stabilized ylides.
 
+## Questions
+
+```yaml
+- question: "A synthetic chemist needs to prepare the Z-isomer (cis) of a trisubstituted alkene from a ketone. Which type of Wittig ylide should they use?"
+  type: multiple-choice
+  options:
+    - "A stabilized ylide with an adjacent ester group, because electron withdrawal increases reactivity"
+    - "A non-stabilized ylide (no electron-withdrawing groups), because these favor the Z-alkene through kinetic control"
+    - "Either type will give a Z:E mixture that must be separated by chromatography"
+    - "A stabilized ylide, because thermodynamic control always produces the more stable Z-product"
+  answer: 1
+  explanation: "Non-stabilized ylides react under kinetic control and favor the Z (cis) alkene product. Stabilized ylides — those bearing electron-withdrawing groups like esters or nitriles — favor the E (trans) alkene through thermodynamic control. Option A has it backwards: stabilized ylides are actually *less reactive* (the carbanion is stabilized and therefore less nucleophilic), but more selective for E. Option D is wrong twice: stabilized ylides give E, not Z, and thermodynamic control favors the E product (the more stable trans alkene), not Z."
+
+- question: "What is the primary thermodynamic driving force that makes the Wittig reaction essentially irreversible?"
+  type: multiple-choice
+  options:
+    - "The stability of the alkene product, which is more thermodynamically stable than the starting carbonyl"
+    - "The formation of triphenylphosphine oxide (Ph₃P=O), driven by the exceptional strength of the P=O bond (~540 kJ/mol)"
+    - "The release of CO₂ as a byproduct, which drives the equilibrium forward by removing a gaseous product"
+    - "The entropy gain from producing two product molecules (alkene + Ph₃P=O) from the oxaphosphetane"
+  answer: 1
+  explanation: "The Wittig reaction is driven by the extraordinary thermodynamic stability of triphenylphosphine oxide. The P=O bond is exceptionally strong (~540 kJ/mol), making its formation highly exothermic. This is the key difference from many other nucleophilic addition-elimination sequences: the phosphorus byproduct is a stable, thermodynamic sink that makes the reaction essentially irreversible. The alkene's stability (option A) contributes, but carbon-carbon double bonds are not uniquely stable. CO₂ release (option C) does not occur in the Wittig mechanism."
+
+- question: "One major advantage of the Wittig reaction over elimination reactions for alkene synthesis is that it places the new C=C bond exactly where the C=O was, with complete regiochemical control."
+  type: true-false
+  answer: true
+  explanation: "Regiochemical predictability is a defining strength of the Wittig reaction. The mechanism requires the ylide carbon to attack the carbonyl carbon, forming a four-membered oxaphosphetane ring that then fragments to give a double bond between exactly those two carbons. Elimination reactions (E1, E2) can give mixtures of regioisomers when multiple β-hydrogens are available. This predictability makes the Wittig reaction the preferred choice in retrosynthetic planning when you need a specific alkene in a specific position."
+
+- question: "Stabilized ylides (those with electron-withdrawing groups adjacent to the ylide carbon) are more reactive toward carbonyl compounds than non-stabilized ylides."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception. Stabilized ylides are *less reactive* because the electron-withdrawing group delocalizes the negative charge on the ylide carbon, reducing its nucleophilicity. Non-stabilized ylides are highly reactive and will attack even ketones, while stabilized ylides are often selective for aldehydes only and require more forcing conditions with ketones. However, stabilized ylides are more selective and give better E-stereoselectivity. The tradeoff is reactivity vs. selectivity, and 'stabilized' refers to the carbanion stability, not the reaction rate."
+
+- question: "Explain the role of the oxaphosphetane intermediate in the Wittig reaction and why its formation is the key step that determines the stereochemical outcome."
+  type: short-answer
+  answer: "The oxaphosphetane is a four-membered ring containing C-C, C-O, O-P, and P-C bonds that forms when the betaine zwitterion (from ylide attack on the carbonyl) cyclizes. It then undergoes a retro-[2+2] cycloaddition, simultaneously breaking C-O and P-C bonds to release the alkene and triphenylphosphine oxide. The geometry of the oxaphosphetane ring — specifically which substituents are cis or trans — directly determines whether the product alkene is Z or E, because the ring fragments with retention of the C-C bond geometry."
+  explanation: "The oxaphosphetane is the pivot of the Wittig mechanism's stereochemical control. Non-stabilized ylides react quickly through a syn-periplanar transition state where large substituents are cis in the ring, leading to the syn oxaphosphetane and ultimately the Z-alkene. Stabilized ylides react slowly and can equilibrate through the anti oxaphosphetane, giving the thermodynamically favored E-alkene. Understanding the oxaphosphetane geometry is essential for predicting and rationalizing Wittig stereoselectivity."
+```
+
 ## Explainer
 
 From your work with Grignard reagents and carbonyl chemistry, you know that carbon nucleophiles can attack the electrophilic carbonyl carbon. The Wittig reaction uses the same logic — a carbon nucleophile attacks a C=O — but the outcome is fundamentally different: instead of producing an alcohol, it replaces the C=O entirely with a C=C double bond. This makes the Wittig reaction one of the most powerful and predictable methods for alkene synthesis in organic chemistry.

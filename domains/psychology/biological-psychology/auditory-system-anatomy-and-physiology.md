@@ -34,6 +34,45 @@ Study cochlear mechanics and frequency selectivity using traveling wave models. 
 ## Common Misconceptions
 Cochlea works like a microphone / all frequencies are equally resolved / timing and intensity cues are processed independently / auditory cortex simply decodes peripheral information.
 
+## Questions
+
+```yaml
+- question: "A patient suffers noise-induced hearing loss after prolonged exposure to very loud high-frequency sounds. Which part of the cochlea is most likely damaged, and why?"
+  type: multiple-choice
+  options:
+    - "The apex, because high frequencies cause peak displacement there"
+    - "The base near the oval window, because high frequencies cause peak displacement there"
+    - "The entire basilar membrane equally, because loud sounds affect all regions"
+    - "The middle of the cochlea, because that region is most mechanically vulnerable"
+  answer: 1
+  explanation: "Tonotopy maps high frequencies to the base of the cochlea (near the oval window) and low frequencies to the apex. Because loud sounds damage the region of peak displacement, high-frequency noise destroys outer hair cells near the base first. This is why noise-induced hearing loss characteristically affects high-frequency perception before low-frequency perception — and why the apex (option A) is wrong despite being what many students incorrectly assume from 'base' meaning 'fundamental.'"
+
+- question: "When a sound arrives slightly earlier at the right ear than the left, which brain structure primarily processes this cue, and for what purpose?"
+  type: multiple-choice
+  options:
+    - "The lateral superior olive, to compute interaural level differences for high-frequency localization"
+    - "The medial geniculate nucleus, to relay frequency information to cortex"
+    - "The medial superior olive, to detect microsecond interaural timing differences for low-frequency localization"
+    - "The auditory cortex, which reconstructs spatial position from spectral patterns"
+  answer: 2
+  explanation: "Interaural time differences (ITDs) — microsecond differences in sound arrival time between ears — are processed by the medial superior olive (MSO), which contains coincidence-detection neurons tuned to specific delays. ITDs dominate localization for low-frequency sounds. High-frequency localization relies instead on interaural level differences (ILDs) processed by the lateral superior olive (LSO). Confusing ITD/ILD and MSO/LSO is extremely common; the key link is: timing → MSO → low frequencies; level → LSO → high frequencies."
+
+- question: "Outer hair cells in the cochlea can actively contract in response to basilar membrane motion, amplifying vibration at their characteristic frequency."
+  type: true-false
+  answer: true
+  explanation: "Outer hair cells are active mechanical amplifiers — they contain the motor protein prestin and can rapidly change their length in response to membrane depolarization, boosting basilar membrane motion at their characteristic frequency by up to ~40 dB. This active mechanism sharpens frequency tuning and extends the dynamic range of hearing. It is also the reason ototoxic drugs and loud noise cause such severe hearing loss: destroying outer hair cells removes this amplification, dramatically reducing sensitivity and frequency resolution."
+
+- question: "The auditory cortex functions primarily as a passive relay station that simply decodes the frequency-sorted signals arriving from the medial geniculate nucleus."
+  type: true-false
+  answer: false
+  explanation: "The auditory cortex is an active, hierarchical processor analogous to visual cortex, not a passive decoder. It performs complex pattern analysis — extracting spectral and temporal features that distinguish vowels from consonants, familiar voices from unfamiliar ones, and music from noise. Cortical responses are not merely a readout of tonotopic input; they are shaped by attention, context, and learning. Single-axis tonotopic organization visible in primary auditory cortex gives way to increasingly complex feature selectivity in higher auditory areas."
+
+- question: "Why does the basilar membrane act as a mechanical Fourier transform, and why does this matter for how frequency information is encoded in the auditory nerve?"
+  type: short-answer
+  answer: "The basilar membrane is narrow and stiff near the base (oval window) and wide and flexible near the apex, creating a continuous gradient of mechanical resonance. Different sound frequencies cause peak displacement at different positions — high frequencies at the base, low frequencies at the apex. Because hair cells sit at fixed positions along this membrane, each hair cell responds maximally to one frequency (its characteristic frequency). The auditory nerve therefore encodes frequency spatially (place coding): different nerve fibers carry information about different frequencies, and this tonotopic map is preserved through all auditory brainstem nuclei up to cortex."
+  explanation: "The key insight is that the brain doesn't need to compute frequency — the mechanics of the cochlea perform this decomposition before any neural processing begins. This is why cochlear damage causes frequency-specific hearing loss (damage at the base → high-frequency loss; damage at the apex → low-frequency loss), and why cochlear implants with electrode arrays positioned along the cochlea can partially restore frequency discrimination by stimulating tonotopically appropriate positions."
+```
+
 ## Explainer
 
 From your work on sensory transduction and auditory transduction, you understand the general principle: a physical stimulus is converted into neural signals by specialized receptor cells. In the auditory system, the physical stimulus is a pressure wave — alternating compressions and rarefactions of air molecules — and the receptor cells are **hair cells** in the cochlea. What makes the auditory system particularly elegant is the mechanical preprocessing that happens *before* transduction, which encodes frequency information purely through physics rather than computation.

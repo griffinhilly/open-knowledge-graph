@@ -31,6 +31,45 @@ Always identify the line of impact first (direction of common normal at contact)
 - Confusing e = 1 (elastic, no energy loss) with a special case requiring equal masses.
 - In oblique impacts, incorrectly changing the tangential velocity components of smooth particles during contact.
 
+## Questions
+
+```yaml
+- question: "Two smooth spheres collide obliquely (not head-on). Sphere A's velocity has components v_An = 4 m/s (normal to contact) and v_At = 3 m/s (tangential). After impact, what happens to v_At?"
+  type: multiple-choice
+  options:
+    - "v_At changes according to the restitution equation applied in the tangential direction"
+    - "v_At = 0 after impact, since all tangential momentum is lost during contact"
+    - "v_At remains 3 m/s unchanged, because smooth spheres exert no friction force tangentially"
+    - "v_At changes based on conservation of momentum in the tangential direction"
+  answer: 2
+  explanation: "For smooth (frictionless) spheres, the contact force acts only along the line of impact — the normal direction at the contact point. There is no tangential force to change the tangential velocity component. Therefore v_At is completely unchanged by the impact. This is a direct consequence of Newton's second law: no tangential force means no tangential impulse, so no change in tangential momentum. Applying restitution in the tangential direction (option A) is the most common error in oblique impact problems."
+
+- question: "Two spheres collide with coefficient of restitution e = 1. Which statement is correct?"
+  type: multiple-choice
+  options:
+    - "The spheres must have equal mass for e = 1 to hold"
+    - "The collision is perfectly plastic and the spheres stick together"
+    - "The relative separation speed equals the relative approach speed — no kinetic energy is lost"
+    - "Each sphere bounces back at the same speed it had before, regardless of mass ratio"
+  answer: 2
+  explanation: "e = 1 means (v'_B − v'_A)/(v_A − v_B) = 1, i.e., the separation speed equals the approach speed. This is the perfectly elastic case: kinetic energy is conserved. Equal mass is not required — in a perfectly elastic collision between unequal masses, the spheres exchange some fraction of velocity depending on the mass ratio. Option D is only true for equal-mass elastic collisions. Option B describes e = 0 (perfectly plastic)."
+
+- question: "The coefficient of restitution equation, combined with linear momentum conservation, provides exactly the two equations needed to determine both post-impact velocities along the line of impact."
+  type: true-false
+  answer: true
+  explanation: "Momentum conservation alone yields one equation with two unknowns (v'_A and v'_B along the line of impact). The restitution equation provides a second independent relationship between those same two unknowns. Together, the two equations form a solvable 2×2 system. This is the entire analytical framework for central impact — one momentum equation plus one restitution equation."
+
+- question: "A coefficient of restitution of e = 1 indicates that the two colliding objects have equal mass."
+  type: true-false
+  answer: false
+  explanation: "The coefficient of restitution characterizes the material properties and deformation behavior of the collision, not the mass ratio. e = 1 means no kinetic energy is lost — a property of how the objects deform and rebound, related to material elasticity. It applies to any mass ratio. You can have e = 1 for a ping-pong ball hitting a bowling ball (approximately), and e < 1 for two equal-mass clay balls that stick together."
+
+- question: "Why is it necessary to identify the 'line of impact' before applying the restitution equation, and what defines this line geometrically?"
+  type: short-answer
+  answer: "The coefficient of restitution is defined specifically as the ratio of separation speed to approach speed *along the line of impact* — the direction in which the contact force acts. For two spheres, this is the line connecting their centers at the moment of contact (the common normal). Applying the restitution equation in any other direction gives physically incorrect results because the contact force has no component in the tangential direction. Identifying the line of impact also separates the problem: restitution + momentum apply in the normal direction, while tangential velocity components (for smooth bodies) are simply unchanged."
+  explanation: "This is the procedural core of impact analysis. The line of impact is the direction of the impulsive force, which is the only force large enough to change velocities during the brief collision. The geometry of contact (sphere centers, flat surface normal) determines this direction. Once identified, the problem decomposes cleanly: normal direction (two equations, two unknowns), tangential direction (unchanged — zero equations needed). Without this decomposition, oblique impact problems become unsolvable."
+```
+
 ## Explainer
 
 From your work with impulse-momentum and collisions, you know that a collision is a brief, high-force interaction and that linear momentum is conserved across it. The problem with stopping there is that momentum conservation alone gives you one equation and two unknowns (the two post-impact velocities along the line of contact). You need a second equation — and that is where the **coefficient of restitution** e comes in.

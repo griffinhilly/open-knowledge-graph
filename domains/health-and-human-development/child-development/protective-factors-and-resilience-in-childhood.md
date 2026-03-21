@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Many children exposed to significant adversity—poverty, family instability, community violence, parental mental illness—develop well due to protective factors including secure attachment relationships, cognitive abilities, emotional self-regulation skills, and access to community resources and mentors. Understanding resilience mechanisms informs prevention and early intervention strategies that capitalize on children's adaptive capacities.
 
+## Questions
+
+```yaml
+- question: "A child raised in deep poverty with an incarcerated parent consistently earns good grades, maintains close friendships, and shows no clinical signs of emotional disturbance. According to resilience research, this outcome is best explained by:"
+  type: multiple-choice
+  options:
+    - "The child's poverty and family disruption were not severe enough to constitute true developmental risk"
+    - "The child has a genetically encoded toughness that lets some individuals handle adversity without harm"
+    - "Protective factors — such as a secure caregiver relationship and strong self-regulation — buffered the developmental impact of adversity"
+    - "The child has simply not yet displayed the problems that adversity will eventually produce"
+  answer: 2
+  explanation: "Resilience is positive adaptation in the context of *significant* adversity — the adversity must be real and documented, not minimized. Option A is wrong because the scenario specifies genuine risk factors. Option B is the 'invulnerability' misconception that resilience research explicitly rejects — resilience is not an inborn trait. Option D implies resilience is illusory, also wrong. The correct answer reflects that specific protective factors (especially secure attachment and self-regulation) buffer risk, producing positive developmental trajectories even under adverse conditions."
+
+- question: "Which protective factor at the family level has consistently shown the strongest buffering effect on developmental outcomes for children facing adversity?"
+  type: multiple-choice
+  options:
+    - "High household income that offsets the material costs of other adversities"
+    - "Secure attachment to at least one stable, warm, and responsive caregiver"
+    - "Enrollment in academically rigorous school programs from an early age"
+    - "Authoritarian parenting — high control and clear rules — that provides structure amid chaos"
+  answer: 1
+  explanation: "Longitudinal research (Kauai study, Project Competence, and others) consistently identifies a secure attachment relationship with at least one stable caregiver as the single most powerful protective factor at the family level. This makes sense mechanistically: secure attachment builds the internal working models, emotion regulation skills, and social trust that enable positive adaptation throughout life. Option D confuses authoritarian (high control, low warmth) with authoritative parenting (high warmth, clear structure) — it is authoritative parenting that is protective."
+
+- question: "Resilient children do not experience stress responses or show biological signs of distress when exposed to adversity — their stress systems function differently from those of non-resilient children."
+  type: true-false
+  answer: false
+  explanation: "This is the 'invulnerability' misconception. Resilience does NOT mean the absence of stress responses — resilient children experience real biological and psychological reactions to adversity. Resilience means positive *adaptation* despite those responses. Research shows that children classified as resilient often show elevated cortisol and stress reactivity; what distinguishes them is effective regulation and the return to baseline, not the absence of activation. Equating resilience with imperviousness misses the entire point of the concept."
+
+- question: "A child facing three simultaneous risk factors — poverty, parental mental illness, and community violence — is at substantially greater developmental risk than a child facing only one of those factors."
+  type: true-false
+  answer: true
+  explanation: "This is the cumulative risk model's core finding: risk factors combine multiplicatively, not additively. Each risk factor can disrupt a protective system that might otherwise buffer the others. Poverty stresses caregivers and reduces the quality of responsiveness; parental mental illness compromises caregiving directly; community violence disrupts school engagement and neighborhood cohesion. With all three present, the child has fewer functional protective systems available to buffer any single adversity. The empirical finding is that crossing from two to three (or more) risk factors predicts dramatically worse outcomes, not just incrementally worse ones."
+
+- question: "Why did Ann Masten call resilience 'ordinary magic,' and what policy implication does this framing carry?"
+  type: short-answer
+  answer: "Masten's phrase captures the finding that resilient outcomes emerge from ordinary human adaptive systems — attachment, self-regulation, mastery motivation, executive function, social support — rather than from heroic or exotic resources. Resilience is what happens when these systems are intact and accessible; it is 'magical' only in the sense that it looks impressive while relying on the basic developmental machinery. The policy implication is significant: interventions do not need to find special solutions. Programs that support sensitive caregiving (home visiting, parenting support) and build children's executive function and self-regulation (high-quality preschool) strengthen the foundational systems at the base of resilience. If resilience rests on ordinary mechanisms, it can be promoted at scale by protecting and repairing those mechanisms."
+  explanation: "The 'ordinary magic' framing matters because it reframes resilience from an individual trait to a systemic capacity. Adversity harms development primarily by disrupting ordinary protective systems — poverty stresses caregivers, violence disrupts school attachment. Intervention logic follows: reduce risk accumulation OR strengthen the ordinary adaptive systems. This shifts policy focus from identifying resilient children to building the social infrastructure that makes resilience possible for more children."
+```
+
 ## Explainer
 
 Resilience is one of the most misunderstood concepts in developmental psychology. It does not mean invulnerability, the absence of stress responses, or an inborn toughness that some children have and others lack. **Resilience** refers to positive adaptation in the context of significant adversity — developing well despite conditions that substantially elevate risk for poor outcomes. Understanding it requires holding two facts in tension: adversity has real, documented developmental costs, and many children exposed to significant adversity nonetheless thrive. The task is to explain how.

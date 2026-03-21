@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Ostensive definition—pointing at an object and saying its name—seems the most primitive way to teach and learn language. Yet Wittgenstein showed that pointing alone cannot fix meaning: the same gesture could mean different things depending on context (the shape? the color? the material?). Ostensive definition works only within a language-game where participants already share understanding of what is being defined. Pointing is not a foundation for language but depends on language.
 
+## Questions
+
+```yaml
+- question: "A parent points to a red apple and says 'apple' to teach their toddler the word. The toddler then says 'apple' while pointing at an orange. What does Wittgenstein's analysis suggest this reveals?"
+  type: multiple-choice
+  options:
+    - "The toddler has failed to learn the word and the ostensive definition should be repeated more often"
+    - "The pointing gesture underdetermines what is being named — the toddler may have learned 'fruit,' 'round,' 'red,' or simply 'pointing at food,' rather than the category 'apple'"
+    - "The toddler has successfully learned the word but is applying it incorrectly due to perceptual error"
+    - "Ostensive definition works only when the object pointed at has a single salient property"
+  answer: 1
+  explanation: "This is Wittgenstein's core problem with ostensive definition. Any pointed-at object has indefinitely many properties — color, shape, material, category, size, spatial location. The physical gesture of pointing selects none of them. To correctly interpret 'apple' as naming the object-type rather than its color or shape, the learner must already know that words in this context name object categories. But that prior understanding is itself linguistic competence — so ostensive definition presupposes the very knowledge it is supposed to produce."
+
+- question: "Wittgenstein argues that ostensive definition cannot be the foundation of language learning. What is his core reason?"
+  type: multiple-choice
+  options:
+    - "Pointing is physically imprecise and often ambiguous in direction, especially at a distance"
+    - "To interpret a pointing gesture, the learner must already understand what kind of thing is being named — object, color, shape — which requires prior linguistic competence that the definition was supposed to create"
+    - "Adults rely on ostension too rarely for it to be a significant mechanism of vocabulary acquisition"
+    - "Ostensive definitions work for concrete nouns but break down for verbs, adjectives, and abstract concepts"
+  answer: 1
+  explanation: "The pointing gesture itself is interpretively underdetermined. What resolves the ambiguity — is 'red' naming the color or the object? — is the learner's prior grasp of the relevant category. They must already know that words can name objects-as-opposed-to-colors, or colors-as-opposed-to-shapes. That prior understanding is a piece of linguistic competence. So the ostensive definition presupposes the competence it was supposed to produce — making it circular as a foundational account of meaning."
+
+- question: "A private ostensive definition — pointing inwardly at your own sensation and saying 'S' to fix the meaning of that sensation — can ground a language intelligible only to yourself."
+  type: true-false
+  answer: false
+  explanation: "This is Wittgenstein's private language argument. For a word to mean anything, there must be a standard of correctness — a way to distinguish correct from incorrect applications. In a private language, the only standard is the individual's memory of the original sensation. But memory cannot provide a genuine standard: 'whatever is going to seem right to me is right' eliminates the distinction between seeming right and being right. Correctness requires a community and shared practices, not a private act of inner pointing."
+
+- question: "Ostensive definition is completely useless as a teaching tool and has no role in language learning."
+  type: true-false
+  answer: false
+  explanation: "Wittgenstein's point is not that ostensive definition never works but that it cannot be the ultimate foundation for language. Ostensive definition works within a language-game where participants already share understanding of what kind of definition is being given. A parent pointing at a cup and saying 'blue' successfully teaches the color concept to a child who already understands that words can name colors — who is already participating in the relevant language-game. The pointing gesture works because it is embedded in a prior framework of shared practices, not because it creates meaning from scratch."
+
+- question: "Explain why Wittgenstein says that ostensive definition 'presupposes' language rather than creating it."
+  type: short-answer
+  answer: "Any ostensive definition — pointing at something and saying a word — leaves open what exactly is being named: the object, its color, its shape, the category it belongs to, its spatial location, or countless other properties. To resolve this ambiguity, the learner must already understand the kind of definition being given. That prior understanding — 'words in this context name object categories' — is itself a piece of linguistic competence. So ostensive definition cannot create language from nothing: it works only when participants already share the background understanding (language games, forms of life) that tells them how to interpret the pointing gesture. Language is presupposed, not produced."
+  explanation: "The empiricist picture — building language from scratch by labeling bare sensory experience — fails because the labeling act is already interpretation, and interpretation requires a prior framework. Wittgenstein's alternative is that language is 'caught' through participation in shared social practices: joint attention, turn-taking, structured activities that establish what words are about before any explicit definition is given."
+```
+
 ## Explainer
 
 From your study of Wittgenstein's language games, you already know that meaning is not a fixed property words have in isolation — it emerges from the practices, rules, and shared forms of life within which language is embedded. Ostensive definition is the most ancient and intuitive theory of how meaning gets established: you point at an object and say a word, and the learner comes to associate the word with the thing. It seems like the bedrock of language acquisition. Wittgenstein's devastating insight is that this apparent foundation is itself already dependent on language.

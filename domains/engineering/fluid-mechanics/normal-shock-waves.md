@@ -28,6 +28,45 @@ Use the normal shock tables (or derive them from the Rankine-Hugoniot relations)
 - The flow downstream of a normal shock is always subsonic (Ma₂ < 1), regardless of how strong the upstream supersonic flow is. This is a mathematical consequence of the conservation equations, not an assumption.
 - Normal shocks cannot exist in subsonic flow. If Ma₁ < 1, the Rankine-Hugoniot relations would require entropy to decrease, violating the second law of thermodynamics. Compression in subsonic flow occurs smoothly through pressure waves, not shocks.
 
+## Questions
+
+```yaml
+- question: "Two supersonic inlet designs are proposed for a jet engine operating at Mach 2. Design A uses a single normal shock to decelerate flow to subsonic before the compressor. Design B uses two oblique shocks that progressively slow the flow, followed by a weak normal shock. Which design recovers more total pressure, and why?"
+  type: multiple-choice
+  options:
+    - "Design A, because one strong shock is more efficient than multiple weak ones"
+    - "Design B, because a sequence of weaker shocks each generates less entropy than one strong shock, preserving more total pressure"
+    - "Both designs recover equal total pressure, since both obey the Rankine-Hugoniot relations"
+    - "Design A, because total pressure is conserved in normal shocks since no heat is added"
+  answer: 1
+  explanation: "Total pressure loss across a shock is a measure of irreversibility — entropy generated. The total pressure ratio P₀₂/P₀₁ decreases steeply with increasing upstream Mach number. One strong normal shock at Mach 2 yields P₀₂/P₀₁ ≈ 0.72 (28% loss). Two weaker oblique shocks and a final weak normal shock at, say, Mach 1.3 can achieve P₀₂/P₀₁ ≈ 0.97 (only 3% loss). This is the fundamental principle behind variable-geometry supersonic inlets: replacing one strong normal shock with multiple weaker oblique shocks dramatically reduces entropy generation and total pressure loss. Option D is a critical misconception — normal shocks are adiabatic but NOT isentropic; entropy always increases across a shock."
+
+- question: "A normal shock occurs in a flow with upstream Mach number Ma₁ = 3. Which statement correctly describes the flow immediately downstream of the shock?"
+  type: multiple-choice
+  options:
+    - "The flow is supersonic with Ma₂ ≈ 2, since stronger shocks slow the flow more gradually"
+    - "The flow is subsonic (Ma₂ < 1), with higher static pressure and temperature than upstream"
+    - "The flow has the same total temperature and total pressure as upstream, since energy is conserved"
+    - "The flow is subsonic only if the upstream pressure is above a critical threshold"
+  answer: 1
+  explanation: "The Rankine-Hugoniot relations guarantee that the flow downstream of any normal shock is subsonic — Ma₂ < 1 always, for any Ma₁ > 1. At Ma₁ = 3, Ma₂ ≈ 0.475. Static pressure and temperature both increase sharply across the shock (pressure ratio ≈ 10.3, temperature ratio ≈ 2.7 for air). Option C is incorrect: while total temperature T₀ IS conserved (adiabatic process), total pressure P₀ is NOT — it decreases irreversibly as entropy increases. Option A is wrong categorically: normal shocks always produce subsonic downstream flow, regardless of shock strength."
+
+- question: "The total temperature T₀ is conserved across a normal shock because the shock process is adiabatic — no heat is transferred across the shock wave."
+  type: true-false
+  answer: true
+  explanation: "Total (stagnation) temperature T₀ = T(1 + (γ−1)/2 · M²) is conserved because the shock is adiabatic: the shock itself generates no heat exchange with the surroundings. Energy is conserved in the form of enthalpy, which gives constant total enthalpy and therefore constant total temperature. This is sometimes confused with the shock being isentropic — it is not. The shock IS adiabatic (constant T₀) but is NOT isentropic: entropy increases, and therefore total pressure P₀ decreases. The distinction between adiabatic and isentropic is critical in compressible flow analysis."
+
+- question: "A normal shock wave can form in a subsonic flow if the pressure difference across the shock is large enough to drive the transition."
+  type: true-false
+  answer: false
+  explanation: "Normal shocks cannot exist in subsonic flow. The Rankine-Hugoniot relations, derived from conservation of mass, momentum, and energy, require that Ma₁ > 1 for a physically realizable normal shock. If you attempt to apply the shock relations with Ma₁ < 1, the equations yield a downstream state with lower entropy than upstream — a violation of the second law of thermodynamics, which is physically impossible. In subsonic flow, pressure disturbances propagate upstream as sound waves and the flow adjusts smoothly, without discontinuities. Shocks are a uniquely supersonic phenomenon arising from the inability of supersonic flow to 'sense' and respond to downstream conditions."
+
+- question: "Why does total pressure decrease across a normal shock even though no work is done on or by the flow and no heat is transferred? Where does the 'missing' mechanical energy go?"
+  type: short-answer
+  answer: "Total pressure represents the maximum recoverable work from a flowing fluid. Across the shock, the extremely rapid, irreversible compression within the thin shock layer (~micrometers) generates entropy — molecular-scale disorder increases as kinetic energy of directed flow is converted to random thermal motion (increased static temperature). This entropy increase irreversibly degrades the flow's ability to do useful work, reflected in the drop in total pressure. The total enthalpy (and therefore total temperature) is conserved — the energy hasn't been lost, but it has been thermodynamically degraded from organized mechanical energy into disordered thermal energy that cannot be fully converted back into work."
+  explanation: "This is the distinction between energy conservation (first law) and entropy generation (second law). The first law is satisfied: total enthalpy is unchanged. But the second law governs the quality of energy: the entropy increase across the shock means some fraction of the mechanical energy has been irreversibly converted to heat. In engineering terms, the loss in total pressure represents a permanent reduction in the work-extracting capacity of the flow — which is why minimizing shock strength is critical in turbomachinery and propulsion system design."
+```
+
 ## Explainer
 
 From your prerequisite study of compressible flow basics, you know that the character of a flow changes fundamentally at Mach 1. In subsonic flow, pressure disturbances propagate as sound waves in all directions — including upstream — so the flow can sense and adjust to obstacles ahead. In supersonic flow, disturbances propagate only downstream; the flow has no advance warning of what is coming. When a supersonic flow must decelerate to match a downstream boundary condition — the stagnation pressure at a blunt body's nose, a subsonic nozzle exit, or the back pressure in a duct — it cannot do so gradually by sending information upstream. Instead it adjusts instantaneously, in an extraordinarily thin region called a **normal shock wave**.

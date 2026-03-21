@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 A set of formulas Γ semantically entails φ (written Γ ⊨ φ) if every truth assignment making all formulas in Γ true also makes φ true. This formalizes the intuition that φ logically follows from Γ. Valid formulas are entailed by the empty set.
 
+## Questions
+
+```yaml
+- question: "What does {P → Q, ¬Q} ⊨ ¬P mean?"
+  type: multiple-choice
+  options:
+    - "The formula (P → Q) ∧ ¬Q → ¬P is true under at least one truth assignment"
+    - "Every truth assignment making both P → Q and ¬Q true also makes ¬P true"
+    - "The formulas P → Q and ¬Q are logically equivalent to ¬P"
+    - "There exists some truth assignment where P → Q, ¬Q, and ¬P are all simultaneously true"
+  answer: 1
+  explanation: "Γ ⊨ φ means that every truth assignment satisfying all formulas in Γ also satisfies φ. So {P → Q, ¬Q} ⊨ ¬P says: in every assignment where both P → Q is true and ¬Q is true, ¬P must also be true. Verify: Q = F (from ¬Q). For P → Q to hold with Q = F, we need P = F, so ¬P = T. The conclusion holds in every such assignment — this is modus tollens as a semantic fact. Option A only requires one assignment (not all); options C and D misstate what entailment means."
+
+- question: "A student claims that {P} ⊨ Q holds because 'P entails something.' Why is this wrong?"
+  type: multiple-choice
+  options:
+    - "Because entailment always requires at least two premises"
+    - "Because the assignment P = T, Q = F satisfies the premise but falsifies the conclusion, serving as a counterexample"
+    - "Because P and Q are independent variables and can never stand in an entailment relation"
+    - "Because {P} ⊨ Q would require Q to be a tautology on its own"
+  answer: 1
+  explanation: "To refute Γ ⊨ φ, you need exactly one counterexample: a truth assignment that makes all formulas in Γ true while making φ false. For {P} ⊨ Q, the assignment P = T, Q = F does this: the premise P is satisfied, but Q is false. Therefore {P} ⊭ Q. Option D is almost right: ∅ ⊨ Q (entailment from the empty set) would require Q to be a tautology, but {P} ⊨ Q only requires Q to be true whenever P is — which is a strictly weaker condition. The counterexample P = T, Q = F shows even that weaker condition fails."
+
+- question: "The semantic entailment {P → Q, ¬Q} ⊨ ¬P is true — there is no assignment making both premises true while the conclusion is false."
+  type: true-false
+  answer: true
+  explanation: "This is modus tollens. Any assignment with ¬Q true has Q = F. For P → Q to be true with Q = F, we need P = F (since T → F = F). With P = F, ¬P = T. So in every assignment satisfying both premises, ¬P holds. There is no counterexample. This is a semantic validation — we are checking truth tables, not applying proof rules. The fact that it corresponds to a familiar inference pattern (modus tollens) is a consequence of soundness: valid proof rules correspond to genuine entailments."
+
+- question: "The statement 'Γ semantically entails φ' makes a claim about a specific truth assignment in which all of Γ and φ happen to be true."
+  type: true-false
+  answer: false
+  explanation: "Semantic entailment is a universal claim, not an existential one. Γ ⊨ φ says that in *every* truth assignment where all formulas in Γ are true, φ is also true. A single assignment where Γ and φ all hold is not enough — it could be a coincidence. To establish entailment you must show no counterexample exists; to refute it you need only one counterexample (an assignment making Γ true and φ false). This universal-vs-existential distinction is what separates entailment from mere satisfiability."
+
+- question: "Explain the difference between the material conditional P → Q and the semantic entailment claim {P} ⊨ Q, and give an example showing they can come apart."
+  type: short-answer
+  answer: "P → Q is an object-language formula: it is assigned a truth value by each truth assignment — true when P is false or Q is true, false only when P = T and Q = F. Semantic entailment {P} ⊨ Q is a meta-level claim: it says that every assignment making P true also makes Q true. These come apart: P → Q can be true in a specific assignment even when {P} ⊭ Q. Example: the assignment P = F, Q = F makes P → Q true (F → F = T), yet {P} ⊭ Q in general because the assignment P = T, Q = F satisfies the premise but not the conclusion. In short, {P} ⊨ Q is equivalent to ⊨ (P → Q) — P → Q being a tautology — not merely P → Q being true somewhere."
+  explanation: "The distinction is foundational for proof theory. Soundness says: if Γ ⊢ φ (syntactically derivable), then Γ ⊨ φ (semantically entailed). Completeness says the converse. These are meta-theorems about the relationship between syntax and semantics. Confusing P → Q (a formula in the object language) with Γ ⊨ φ (a statement in the metalanguage) makes it impossible to even state these theorems cleanly."
+```
+
 ## Explainer
 
 You already know how to evaluate a formula under a truth assignment — you know which rows of a truth table make a formula true and which make it false. **Semantic entailment** (written Γ ⊨ φ, read "Γ entails φ" or "Γ semantically implies φ") extends this: instead of asking whether φ is true under one assignment, you ask whether φ is true under *every* assignment that makes all of Γ true. The set Γ acts as a filter, narrowing the space of assignments you care about, and φ must hold in all of them.

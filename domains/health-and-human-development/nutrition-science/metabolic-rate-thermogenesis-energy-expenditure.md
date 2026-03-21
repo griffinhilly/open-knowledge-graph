@@ -35,6 +35,45 @@ Compare predictive equations for BMR (Harris-Benedict, Mifflin-St Jeor) and unde
 - Only exercise burns calories; basal metabolism accounts for 60-75% of daily energy expenditure in sedentary individuals.
 - Increasing muscle mass dramatically increases metabolic rate; lean tissue is expensive but modest (about 6 kcal/kg/day).
 
+## Questions
+
+```yaml
+- question: "A person loses 15 kg through sustained caloric restriction and reaches their goal weight. They then eat at the caloric intake predicted by standard BMR equations for their new, lower weight. According to metabolic adaptation, what is most likely to happen?"
+  type: multiple-choice
+  options:
+    - "They will maintain their weight, since they are eating at their predicted caloric needs"
+    - "They will continue losing weight, since the body's metabolism remains suppressed"
+    - "They will regain fat, because adaptive thermogenesis has reduced their actual TDEE below the equation's prediction"
+    - "They will maintain weight only if their diet is high in protein due to its high thermic effect"
+  answer: 2
+  explanation: "Standard BMR equations predict expenditure based on weight alone. But adaptive thermogenesis — the body's downregulation of metabolism during caloric restriction — reduces actual TDEE by 10–15% beyond what weight loss alone would predict. A person eating at the 'new weight' predicted intake is therefore in a slight caloric surplus relative to their adapted metabolism, leading to fat regain. This is one of the most clinically important and underappreciated features of energy metabolism."
+
+- question: "In a sedentary individual, which component of total daily energy expenditure is typically the largest?"
+  type: multiple-choice
+  options:
+    - "Activity thermogenesis (formal exercise)"
+    - "Thermic effect of food"
+    - "Basal metabolic rate"
+    - "Non-exercise activity thermogenesis (NEAT)"
+  answer: 2
+  explanation: "BMR accounts for 60–75% of TDEE in sedentary individuals — the energy cost of maintaining ion gradients, synthesizing proteins, and driving basal organ function. This is why claims that 'you can exercise your way out of a bad diet' are metabolically overoptimistic: even vigorous exercise accounts for a smaller fraction of TDEE than simply existing. TEF accounts for roughly 10%, and all activity thermogenesis (including NEAT) makes up the remainder."
+
+- question: "Adding 5 kg of lean muscle mass will dramatically increase resting metabolic rate, burning an additional ~250 kcal/day at rest."
+  type: true-false
+  answer: false
+  explanation: "Lean tissue is metabolically active but the absolute increase is modest: approximately 6 kcal/kg/day. Gaining 5 kg of muscle would add only about 30 kcal/day to resting expenditure — far from 250. The misconception that muscle 'dramatically' raises metabolism overstates the metabolic payoff of resistance training for weight management. Muscle mass has many benefits, but expecting a dramatic shift in daily caloric burn is unrealistic."
+
+- question: "Metabolic rate adapts dynamically — downregulating during caloric restriction and upregulating during overfeeding — rather than remaining fixed."
+  type: true-false
+  answer: true
+  explanation: "Adaptive thermogenesis is bidirectional. During caloric restriction, the body reduces thyroid hormone output, lowers sympathetic tone, and decreases the energy cost of movement, dropping TDEE below what weight alone predicts. During sustained overfeeding, thermogenesis increases modestly. This adaptive response is evolutionarily conserved and reflects a defense against perceived famine. It is the primary reason long-term caloric restriction becomes progressively less effective."
+
+- question: "Explain why brown adipose tissue produces heat without generating ATP, and what cellular mechanism makes this possible."
+  type: short-answer
+  answer: "Brown adipose tissue expresses uncoupling protein-1 (UCP-1), which creates a proton leak across the inner mitochondrial membrane. Normally, the proton gradient built by the electron transport chain drives ATP synthase, capturing energy as chemical bonds. UCP-1 allows protons to flow back across the membrane without passing through ATP synthase, so the energy of the gradient is released directly as heat. Brown fat mitochondria run the electron transport chain but short-circuit the ATP synthesis step, converting respiration to thermogenesis."
+  explanation: "This is the molecular basis of non-shivering thermogenesis. Cold exposure or caloric restriction activates sympathetic release of norepinephrine, which triggers UCP-1 activity. Fatty acids are oxidized at high rates to sustain the proton gradient, but because the gradient dissipates as heat rather than ATP, there is no net energy storage. This distinguishes BAT functionally from white adipose tissue (which stores triglycerides) and from shivering thermogenesis (which uses muscle ATP hydrolysis)."
+```
+
 ## Explainer
 
 **Total daily energy expenditure (TDEE)** is not a single number but a sum of four distinct components, each with different drivers. The largest is **basal metabolic rate (BMR)**: the energy required to keep you alive at rest — maintaining ion gradients across membranes, synthesizing proteins, driving the heart and lungs. You already know from glucose metabolism and fatty acid oxidation that these processes continuously consume ATP; BMR is the aggregate cost of all of them at baseline. In practice, BMR accounts for 60–75% of TDEE in sedentary people, which is why "just exercise more" is a less powerful weight-management lever than it seems.

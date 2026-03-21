@@ -39,6 +39,45 @@ Thin-section microscopy or hand-sample comparison of granite (coarse, felsic) ve
 - Grain size reflects cooling rate, not composition: a granite and a rhyolite can have identical chemistry but vastly different textures.
 - All magmas are not the same; basaltic and granitic magmas have very different viscosities, temperatures, and eruption styles.
 
+## Questions
+
+```yaml
+- question: "A geologist finds two rocks: one is coarse-grained with visible quartz and feldspar crystals; the other is dark and very fine-grained with no visible crystals. What is the MOST reliable conclusion she can draw from texture alone?"
+  type: multiple-choice
+  options:
+    - "They have different chemical compositions because they look different"
+    - "The coarse-grained rock must have cooled faster, since larger grains require more rapid crystallization"
+    - "They have different cooling histories — the coarse-grained rock cooled slowly (intrusive), the fine-grained one cooled rapidly (extrusive)"
+    - "The dark rock is necessarily mafic because dark-colored rocks are always mafic"
+  answer: 2
+  explanation: "Grain size is controlled by cooling rate, not composition. A coarse-grained (phaneritic) texture indicates slow cooling underground; a fine-grained (aphanitic) texture indicates rapid surface cooling. Texture alone cannot tell you composition — a rhyolite and a granite can have identical chemistry but completely different textures. Option D is also wrong: color correlates with composition but is not diagnostic — rhyolite is felsic and can be light-colored, yet fine-grained."
+
+- question: "A rock sample shows large, well-formed crystals (phenocrysts) embedded in a fine-grained groundmass. What cooling history does this porphyritic texture record?"
+  type: multiple-choice
+  options:
+    - "Single-stage rapid cooling at the surface, with some crystals growing faster than others"
+    - "Two-stage cooling: slow crystallization at depth (producing phenocrysts), followed by rapid cooling upon eruption (producing the fine groundmass)"
+    - "Metamorphic recrystallization under high pressure that enlarged some original crystals"
+    - "Chemical weathering that preferentially dissolved smaller crystals, leaving only large ones"
+  answer: 1
+  explanation: "Porphyritic texture is a textbook two-stage cooling story. Large crystals (phenocrysts) require time to grow — they formed during slow cooling at depth. When the magma was erupted, the remaining liquid cooled rapidly, forming the fine-grained groundmass. The single rock contains a record of both environments. This is why porphyritic rocks are particularly informative about magma history."
+
+- question: "Obsidian is a fine-grained igneous rock because its crystals are present but too small to see without a microscope."
+  type: true-false
+  answer: false
+  explanation: "Obsidian has no crystals at all — it is volcanic glass. Cooling was so rapid that atoms could not organize into crystalline lattices; the result is an amorphous solid. Fine-grained (aphanitic) rocks like basalt do have crystals, just too small to see without magnification. Obsidian represents the extreme end of fast cooling where crystallization is essentially bypassed entirely."
+
+- question: "A granite and a rhyolite can have nearly identical chemical compositions despite looking completely different."
+  type: true-false
+  answer: true
+  explanation: "This is the core insight of igneous petrology: texture and composition are independent variables. Granite (intrusive, coarse-grained) and rhyolite (extrusive, fine-grained) are the compositional equivalents in the felsic family — both silica-rich with similar mineral assemblages. Their dramatic textural difference reflects only cooling rate. Recognizing compositional equivalents (granite/rhyolite, gabbro/basalt) is fundamental to reading igneous rock classification."
+
+- question: "Explain how Bowen's Reaction Series predicts that a single magma body can produce igneous rocks of different compositions."
+  type: short-answer
+  answer: "Bowen's Reaction Series describes the order in which minerals crystallize as a melt cools: high-temperature minerals like olivine and pyroxene crystallize first, removing iron and magnesium from the remaining liquid. If these early-forming crystals are physically separated from the melt (by sinking, for example) — a process called fractional crystallization — the remaining melt becomes progressively enriched in silica and depleted in iron and magnesium. Continued fractional crystallization can thus evolve a mafic starting magma toward increasingly felsic compositions."
+  explanation: "This question tests whether students understand Bowen's Series as a dynamic process, not just a static list. The key is the separation step: if early crystals remain in equilibrium with the melt, the bulk composition doesn't change. Fractional crystallization is what allows compositional evolution, and it explains why a mantle-derived mafic magma can ultimately produce felsic rocks characteristic of continental crust."
+```
+
 ## Explainer
 
 From your study of rock-forming minerals and phase diagrams, you know that minerals have specific chemical compositions and that melts crystallize different minerals at different temperatures. Igneous rocks are the direct products of this crystallization process — they form when molten rock cools and solidifies. The two fundamental variables that control what an igneous rock looks like are **where it cools** (which determines texture) and **what it's made of** (which determines composition and mineralogy).

@@ -35,6 +35,45 @@ Review empirical findings on inattentional blindness and attention. Consider the
 - Thinking all consciousness is attended.
 - Confusing attentional effects on discrimination with conscious integration.
 
+## Questions
+
+```yaml
+- question: "In the famous gorilla experiment, participants counting basketball passes failed to notice a person in a gorilla suit walking through the scene. What does this most directly demonstrate about the attention-consciousness relationship?"
+  type: multiple-choice
+  options:
+    - "That consciousness is unnecessary for perception — we can process stimuli without being aware of them"
+    - "That attention is necessary for conscious awareness — attending to the counting task prevented the gorilla from entering phenomenal consciousness"
+    - "That attention and consciousness are identical — since participants weren't attending to the gorilla, they weren't conscious of anything"
+    - "That the visual system is fundamentally unreliable and processes only what attention selects"
+  answer: 1
+  explanation: "Inattentional blindness shows that physically present, retinally stimulated objects can fail to enter phenomenal awareness when attention is deployed elsewhere. This demonstrates that attention is *necessary* for consciousness: without it, even salient stimuli don't become consciously perceived. Note the distinction from option C: the participants were conscious of many things (the ball, the players) — just not the gorilla. Attention and consciousness are not identical; attention is a condition for consciousness of a specific stimulus."
+
+- question: "A researcher wants to test whether people are phenomenally conscious of peripheral stimuli they are not explicitly attending to. She asks participants to verbally report any peripheral experiences after a trial. What methodological problem undermines this design?"
+  type: multiple-choice
+  options:
+    - "None — verbal report is the gold standard for measuring phenomenal consciousness"
+    - "The act of reporting requires attention, so participants may redirect attention to peripheral stimuli at the moment of report, contaminating the measure of 'unattended' consciousness"
+    - "Peripheral stimuli are by definition not phenomenally conscious, so the experiment cannot produce valid data"
+    - "The problem is that participants may confabulate peripheral experiences they did not actually have"
+  answer: 1
+  explanation: "This is the core methodological trap in consciousness research. To report on a peripheral stimulus, the participant must attend to it at least momentarily during the recall process. But we're trying to measure consciousness *while not attending*. Any positive report could reflect attention deployed at the moment of report rather than genuine phenomenal consciousness during the original presentation. This means evidence for consciousness of unattended stimuli is systematically ambiguous — we cannot easily separate the two."
+
+- question: "Inattentional blindness demonstrates that physically present objects can fail to reach conscious awareness, even when they stimulate the retina, if attention is directed elsewhere."
+  type: true-false
+  answer: true
+  explanation: "This is exactly what the gorilla experiment and related studies show. The gorilla is not invisible — it physically stimulates the retina and is processed at lower visual levels. But without attention, it fails to enter phenomenal awareness. This establishes that attention is doing real work in determining what becomes conscious, and that physical presence or retinal stimulation alone is not sufficient for conscious perception."
+
+- question: "Attention and phenomenal consciousness are identical: whatever we attend to, we are phenomenally conscious of, and whatever we are phenomenally conscious of, we are attending to."
+  type: true-false
+  answer: false
+  explanation: "While attention appears necessary for consciousness (inattentional blindness shows that unattended stimuli don't become conscious), its sufficiency is contested. Some theorists argue the two can come apart: you might attend to something without being phenomenally conscious of it, or have some phenomenal consciousness of peripheral stimuli you're not explicitly attending to. The debate is not settled, but the philosophical consensus is that attention and consciousness are deeply related but not simply identical — this is precisely what makes the relationship philosophically and empirically interesting."
+
+- question: "Explain the methodological trap that makes it difficult to prove whether people are phenomenally conscious of stimuli they are not attending to."
+  type: short-answer
+  answer: "To establish phenomenal consciousness of an unattended stimulus, we need a report from the subject. But reporting requires attention — directing attention to a peripheral stimulus to describe it. So any positive report might reflect attention deployed at the moment of report, not genuine phenomenal consciousness while the stimulus was unattended. We cannot separate 'was phenomenally conscious of X while not attending' from 'attended briefly to X while reporting.' First-person reports are unreliable for unattended stimuli precisely because reporting reintroduces attention."
+  explanation: "This is sometimes called the 'attentional contamination' problem. It means that empirical evidence on this question is systematically ambiguous: positive reports could always be explained as post-hoc attentional access rather than genuine unattended phenomenal experience. This creates a methodological wall that has not been fully resolved, and it is one reason the attention-consciousness relationship remains an active research problem rather than a settled empirical question."
+```
+
 ## Explainer
 
 From your study of phenomenal and access consciousness, you know the distinction between the "what it's like" quality of an experience (phenomenal consciousness) and the availability of information for reasoning and report (access consciousness). From your work on global workspace theory, you know one influential account of how information becomes consciously accessible: it gets "broadcast" to a global workspace, making it available to multiple cognitive systems. The question now is how **attention** fits into this picture. Attention is the mind's mechanism for selectively processing some information over other information — but is it the same as consciousness, a precondition for it, or something independent?

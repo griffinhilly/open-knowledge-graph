@@ -32,6 +32,45 @@ Start with concrete examples: if g(x) = integral from 0 to x of t^2 dt, compute 
 - Forgetting the chain rule when the upper limit is not simply x.
 - Not recognizing that the variable of integration (t) is a dummy variable, distinct from x.
 
+## Questions
+
+```yaml
+- question: "If g(x) = ∫₀ˣ t² dt, what is g'(x)?"
+  type: multiple-choice
+  options:
+    - "x³/3 — the antiderivative of t² evaluated at x"
+    - "x² — the integrand evaluated at the upper limit x"
+    - "2x — the derivative of x² applied to the upper limit"
+    - "0 — differentiating a definite integral always gives zero"
+  answer: 1
+  explanation: "By FTC Part 1, differentiating an accumulation function g(x) = ∫ₐˣ f(t) dt returns the integrand: g'(x) = f(x). Here f(t) = t², so g'(x) = x². Option A (x³/3) is g(x) itself — the antiderivative, not its derivative. Option C confuses applying the power rule to x² with applying FTC. Option D reflects the false belief that definite integrals are constants, ignoring that the upper limit varies with x."
+
+- question: "What is d/dx[∫₁^(x²) sin(t) dt]?"
+  type: multiple-choice
+  options:
+    - "sin(x²) · 2x"
+    - "sin(x²)"
+    - "cos(x²) · 2x"
+    - "sin(x) · 2x"
+  answer: 0
+  explanation: "When the upper limit is a function h(x) = x², apply the chain rule: d/dx[∫ₐ^(h(x)) f(t) dt] = f(h(x)) · h'(x). Here f(t) = sin(t) and h(x) = x², so the result is sin(x²) · 2x. Option B forgets the chain rule factor 2x. Option C mistakenly differentiates sin to get cos. Option D wrongly substitutes x into the integrand instead of h(x) = x²."
+
+- question: "The function g(x) = ∫₀ˣ e^(t²) dt has no closed-form antiderivative formula, yet it is still a valid function with a well-defined derivative."
+  type: true-false
+  answer: true
+  explanation: "FTC Part 1 guarantees that g'(x) = e^(x²) — this holds regardless of whether g(x) can be expressed using elementary functions. The theorem proves that every continuous function has an antiderivative (namely its own accumulation function), even when no formula exists. The existence of an antiderivative and the existence of a closed-form expression for it are separate questions."
+
+- question: "In the expression ∫₀ˣ f(t) dt, the variable t affects the final output g(x), so substituting a different dummy variable would change the function."
+  type: true-false
+  answer: false
+  explanation: "The variable t is a dummy variable — it labels positions inside the integral but disappears in the output. The expression ∫₀ˣ f(t) dt is identical to ∫₀ˣ f(u) du or ∫₀ˣ f(s) ds. The output depends only on x (the upper limit), not on whatever letter is used inside. Changing the dummy variable is purely notational and has no effect on g(x)."
+
+- question: "Why does FTC Part 1 imply that every continuous function has an antiderivative, and why is this significant?"
+  type: short-answer
+  answer: "FTC Part 1 states that if f is continuous on [a, b], then g(x) = ∫ₐˣ f(t) dt is differentiable and g'(x) = f(x) — meaning g is an antiderivative of f, constructed explicitly as an accumulation function. Since this construction works for any continuous f, every continuous function has an antiderivative. The significance is that antiderivatives exist even when no elementary formula can express them (e.g., e^(x²) or sin(x)/x), and that integration and differentiation are inverse operations."
+  explanation: "Before FTC, there was no guarantee that every continuous function could be anti-differentiated. The theorem resolves this by constructing the antiderivative directly as an accumulation function. This also reveals the deep structural unity of calculus: differentiation and integration undo each other, just as multiplication and division do in arithmetic."
+```
+
 ## Explainer
 
 You know the definite integral as a limit of Riemann sums — a way of measuring accumulated area under a curve. Now define a new function by letting the upper limit of that integral vary: g(x) = ∫ from a to x of f(t) dt. This **accumulation function** g(x) records how much total area has piled up between a and x as x increases. FTC Part 1 says: if f is continuous, then g'(x) = f(x). Differentiating an accumulation function gives back the original integrand.

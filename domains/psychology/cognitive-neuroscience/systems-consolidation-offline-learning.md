@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Systems consolidation gradually transfers episodic memories from hippocampus to cortex, making them independent of the hippocampus and resistant to interference. During sleep and quiet rest, hippocampal replay of recent experiences reactivates cortical patterns, strengthening relevant cortical synapses through repeated reactivation. This process transforms recent, detailed memories into stable, schema-based knowledge over hours to weeks.
 
+## Questions
+
+```yaml
+- question: "A researcher disrupts hippocampal sharp-wave ripples during slow-wave sleep in rats that just learned a maze. What outcome does the two-stage model of systems consolidation predict?"
+  type: multiple-choice
+  options:
+    - "No effect — the memory was already transferred to the cortex during waking learning"
+    - "Impaired next-day maze performance — replay during sleep is the transfer mechanism"
+    - "Improved performance — disrupting replay forces the cortex to consolidate independently"
+    - "Impaired performance only for remote memories formed months ago"
+  answer: 1
+  explanation: "The two-stage model holds that the hippocampus rapidly encodes experiences and then, during slow-wave sleep, replays those experiences to train cortical circuits. Sharp-wave ripples are the neural vehicle of this replay. Disrupting them interrupts the hippocampus-to-cortex transfer, impairing performance on the next day's task. The memory is still labile in the hippocampus at this point — cortical consolidation has not yet happened, so option A is wrong. Options C and D misunderstand the directionality and timing of the process."
+
+- question: "A person vividly recalls the details of their first day at a new job — where they sat, who spoke to them, even the smell of the coffee. Twenty years later, they 'know' they started that job but can barely recall any specific details. What does systems consolidation theory predict about why this happened?"
+  type: multiple-choice
+  options:
+    - "The episodic details were never stored; only semantic content enters long-term memory"
+    - "The hippocampus gradually erased the details as it needed storage space for new memories"
+    - "Repeated cortical reactivation extracted the semantic gist while stripping episodic context, transforming the memory from episodic to semantic"
+    - "Normal forgetting — recent experiences are always better remembered than remote ones"
+  answer: 2
+  explanation: "Systems consolidation is a transformative process, not simple archiving. As the hippocampus repeatedly reactivates cortical patterns during offline periods, the cortex strengthens the statistical regularities (semantic content) while the unique episodic details — the contextual scaffolding — fade. The result is that remote memories feel 'known' rather than 're-experienced.' Option A is wrong because episodic details are encoded initially. Option D misses the key theoretical point: the change from vivid episodic to semantic 'knowing' is predicted specifically by systems consolidation theory, not just by generic forgetting."
+
+- question: "Systems consolidation is best understood as the cortex archiving a copy of the hippocampal memory, preserving its original detail."
+  type: true-false
+  answer: false
+  explanation: "Consolidation is transformative, not archival. The hippocampus teaches the cortex through repeated replay, but what the cortex learns is the statistical regularity — the gist, the schema — not a faithful copy. Episodic details (the 'when' and 'where') fade as the semantic content strengthens. The oldest memories are the most reconstructed, filtered through everything learned since. Treating consolidation as mere copying misses the key insight: the transformation of detailed episodic traces into stable, schema-based knowledge is adaptive and fundamental to the process."
+
+- question: "The gradual transfer of memories from hippocampus to cortex explains why patients with hippocampal damage lose recent memories while retaining remote ones."
+  type: true-false
+  answer: true
+  explanation: "This 'temporal gradient' in amnesia is one of the central pieces of evidence for systems consolidation. Recent memories still depend on the hippocampus because cortical consolidation is incomplete; remote memories have already been transferred to distributed cortical networks and no longer require hippocampal input. When the hippocampus is damaged, recently formed memories (which haven't finished consolidating) are lost, while older memories (which are cortically resident) are spared. This pattern is exactly what the hippocampal-cortical dialogue model predicts."
+
+- question: "Why do the oldest autobiographical memories often feel less like re-experiencing an episode and more like simply 'knowing' a fact about your past?"
+  type: short-answer
+  answer: "Because systems consolidation is a transformative process that strips episodic context (specific 'when,' 'where,' and 'how' details) while strengthening the semantic gist in cortical networks. Through repeated hippocampal replay during offline periods, the cortex learns the stable, generalizable content of an experience, but the unique situational scaffolding fades. Additionally, each reactivation of an old memory re-encodes it through the lens of everything learned since, so remote memories are the most reconstructed versions."
+  explanation: "The key insight is that consolidation doesn't preserve a recording — it extracts a pattern. Remote memories feel 'known' rather than 'relived' because the episodic richness that depended on hippocampal binding has gradually been replaced by cortically stored semantic knowledge. This is adaptive for general learning (you need the pattern, not every instance) but means old memories are reconstructive approximations, not faithful archives of past experience."
+```
+
 ## Explainer
 
 From your study of hippocampus and memory consolidation, you know that the hippocampus is required for forming new episodic memories but that long-established memories eventually become hippocampus-independent — patients with hippocampal damage can lose recent memories while retaining remote ones. Systems consolidation is the mechanism that explains this gradient: a slow process by which memories are gradually transferred from the hippocampus, where they are first encoded, to distributed cortical networks, where they eventually reside permanently.

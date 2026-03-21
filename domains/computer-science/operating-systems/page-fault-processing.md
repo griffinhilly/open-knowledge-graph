@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 A page fault occurs when a process accesses a non-resident page. The handler finds or allocates the page, evicts a victim if needed, performs disk I/O, updates page tables, and resumes. Replacement policy (LRU, FIFO) significantly affects performance.
 
+## Questions
+
+```yaml
+- question: "A process reads a virtual address whose page table entry has the valid bit clear, but the page was legitimately allocated and simply swapped to disk. After the OS handles this, what happens next?"
+  type: multiple-choice
+  options:
+    - "The process receives a SIGSEGV signal and terminates"
+    - "The OS loads the page into memory, updates the page table, and the faulting instruction is retried transparently"
+    - "The OS loads the page but restarts the entire process from scratch"
+    - "The process must explicitly re-issue the memory access after the OS notifies it"
+  answer: 1
+  explanation: "A valid page fault (the page exists but is not resident) is handled entirely by the OS without the process's knowledge. The handler loads the page, updates the page table entry (setting the valid bit and physical frame address), marks the process as runnable, and when the process is next scheduled, the CPU retries the exact instruction that caused the fault — which now succeeds. SIGSEGV only results from an illegal access (a virtual address the process never allocated)."
+
+- question: "A system is thrashing. Which best explains why thrashing is so catastrophic for performance?"
+  type: multiple-choice
+  options:
+    - "Thrashing causes the CPU to overheat because it is running too many processes simultaneously"
+    - "Pages are written to disk faster than the disk can handle, causing data corruption"
+    - "The CPU spends most of its time waiting for disk I/O to service page faults, doing almost no useful computation"
+    - "Thrashing forces the OS to restart processes, losing their in-memory state"
+  answer: 2
+  explanation: "A page fault costs roughly 10 milliseconds of disk I/O, while a memory access takes ~100 nanoseconds — a 100,000× difference. When thrashing, a process's working set does not fit in physical memory, so nearly every memory access faults. The CPU blocks waiting for disk, spends almost no time executing user instructions, and throughput collapses. No data corruption or process restart occurs — thrashing is a pure performance disaster."
+
+- question: "After the OS handles a valid page fault, the instruction that triggered the fault must be re-executed by the processor."
+  type: true-false
+  answer: true
+  explanation: "The page fault handler brings the missing page into memory and updates the page table, but the original instruction was aborted when the fault occurred and cannot be simply resumed. The hardware retries the faulting instruction from the beginning once the handler returns. This 'restartable instruction' property is essential to virtual memory: the process is unaware a fault occurred, and the instruction proceeds as if the page had been in memory all along."
+
+- question: "Every page fault, regardless of type, results in a disk read to load the missing page."
+  type: true-false
+  answer: false
+  explanation: "Not all page faults involve a disk read. Demand-zero pages — freshly allocated anonymous memory pages never previously written — have no content on disk; the OS simply allocates a free frame and zeroes it. Additionally, if a victim page chosen for eviction has a clean dirty bit (never modified since being loaded), no write-back is needed. The common valid page fault does require a disk read, but 'every page fault' always does is false."
+
+- question: "Why does the OS block the faulting process and switch to a different process while waiting for the disk I/O that services a page fault?"
+  type: short-answer
+  answer: "Disk I/O takes roughly 10 milliseconds — about 100,000 times longer than a memory access. Keeping the CPU idle while waiting would waste enormous processing time. By blocking the faulting process and scheduling another ready process, the OS keeps the CPU productive throughout the I/O wait. When the disk transfer completes (via interrupt), the handler marks the faulting process as ready, and it resumes the next time it is scheduled."
+  explanation: "This is the OS's fundamental strategy for tolerating I/O latency: overlap computation and I/O. The page fault handler initiates the disk read and immediately yields the CPU to the scheduler rather than busy-waiting. Under moderate load, this means other processes make progress during every page fault. Under heavy load where many processes are faulting simultaneously (thrashing), every process is blocked waiting for disk and throughput collapses — illustrating how the strategy fails under pathological conditions."
+```
+
 ## Explainer
 
 From your study of virtual address translation, you know that each virtual address is mapped to a physical frame through a page table, and that the page table entry contains a **valid bit** indicating whether the page is currently in physical memory. From your understanding of exception handling in the OS, you know that hardware can trap into the kernel when something goes wrong during instruction execution. A **page fault** connects these two concepts: when the CPU tries to translate a virtual address and finds the valid bit is clear, it raises a page fault exception, transferring control to the kernel's page fault handler.

@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Harmonic rhythm—the rate at which chords change—is a fundamental compositional choice that shapes musical pacing and impact. Slower harmonic rhythm (whole-measure or longer) creates stability and breadth; faster changes create momentum and urgency. Strategic decisions about harmonic rhythm work alongside melody and surface rhythm to create narrative arc and formal emphasis.
 
+## Questions
+
+```yaml
+- question: "A composer writes an 8-measure passage intended to feel expansive and grand. The melody is flowing with many fast notes, but the harmony changes every two beats. A mentor says the passage feels 'nervous and cramped.' What is the most likely cause?"
+  type: multiple-choice
+  options:
+    - "The melody has too many notes per beat for the intended mood"
+    - "Rapid harmonic changes undercut the sense of breadth — longer formal units require slower harmonic rhythm to feel proportionate"
+    - "The melody and harmony are in different modes, creating unintended tension"
+    - "The passage needs more dynamic variation to convey grandeur"
+  answer: 1
+  explanation: "Harmonic rhythm and surface melodic rhythm are independent layers. A fast melody over slowly changing chords creates energized stability; but if the chords also change rapidly, the passage loses its sense of expansive time. Grand, large-scale passages require harmonic rhythm slow enough to match their intended formal scope. Cycling through chords every two beats makes even a flowing melody feel anxious and small."
+
+- question: "What is the characteristic effect when fast melodic figuration is combined with slowly changing harmony?"
+  type: multiple-choice
+  options:
+    - "The two layers create confusion and should be avoided in tonal composition"
+    - "A sense of energy contained within stability — the melody activates the surface while the harmony provides a broad, anchoring foundation"
+    - "The slow harmony automatically slows the perceived tempo of the melody"
+    - "The passage sounds rhythmically empty because the melody lacks harmonic support at each note"
+  answer: 1
+  explanation: "Fast surface activity over stable harmony is one of the defining textures of Baroque preludes and Romantic nocturnes. The melody generates forward energy and momentum while the slowly shifting chords give the listener a sense of being held and oriented. The two rhythmic layers operate independently and the contrast between them creates the expressive effect."
+
+- question: "A typical phrase accelerates its harmonic rhythm as it approaches a cadence, creating a signal of closure comparable to quickening breath at the end of a sentence."
+  type: true-false
+  answer: true
+  explanation: "This is a standard compositional convention. The stable opening of a phrase often features slow harmonic rhythm as the tonic establishes itself; as the phrase moves toward its cadence, chord changes come faster, building energy for the arrival. A cadential I–V–I condensed into a single measure has naturally faster harmonic rhythm than the preceding measures. The acceleration is a structural signal."
+
+- question: "Harmonic rhythm is determined by the speed of the melody — faster notes in the melody mean faster harmonic rhythm."
+  type: true-false
+  answer: false
+  explanation: "This confuses surface rhythm (the speed of notes in the melody or accompaniment) with harmonic rhythm (the rate at which chords change). These are independent parameters. A melody can have many fast notes while the underlying chord changes very slowly (as in an arpeggiated accompaniment), or a slow melody can sit over rapidly cycling harmonies. Their independence is precisely what makes their interaction expressively powerful."
+
+- question: "Explain why a passage that accelerates its harmonic rhythm as it approaches a cadence sounds more tonally complete than one that decelerates into the same cadence, even if both end with the correct V–I motion."
+  type: short-answer
+  answer: "Harmonic acceleration gathers energy toward the arrival, making the cadential resolution feel earned and inevitable. Deceleration releases tension before the cadence arrives, so the V–I sounds like an afterthought rather than a destination — the structural signal of closure is absent even though the correct chord succession is present."
+  explanation: "Harmonic rhythm shapes the listener's anticipation. Acceleration creates the equivalent of increasing momentum — each chord change comes sooner than expected, building a sense of urgency that makes the final resolution feel like release. Deceleration does the opposite: it drains energy before the cadence, so even correct V–I motion sounds weightless or arbitrary. The direction of harmonic rhythm change matters as much as the chords themselves."
+```
+
 ## Explainer
 
 You already know that chords have function — tonic, subdominant, dominant — and that progressions create tension-and-release cycles. **Harmonic rhythm** is not about which chord comes next but about when it arrives. Imagine listening to a piece where the harmony changes every half-measure: the music feels active, driven, maybe anxious. Now imagine the same passage rewritten with one chord per measure: suddenly it breathes, expands, settles. The notes may be identical; the experience of time is completely different. This is the lever of harmonic rhythm.

@@ -35,6 +35,45 @@ Use developmental milestone charts with age ranges (not point estimates) to appr
 - Skipping crawling does not predict developmental problems in most cases.
 - Motor development is not merely physical — it is tightly coupled to cognitive and social development.
 
+## Questions
+
+```yaml
+- question: "A 10-month-old infant has strong trunk stability and can pull to a standing position but has not yet achieved a pincer grasp. According to principles of motor development, this pattern is:"
+  type: multiple-choice
+  options:
+    - "Abnormal — gross motor and fine motor milestones should emerge at roughly the same time"
+    - "Expected — the proximodistal gradient means trunk and limb control precedes precise finger coordination"
+    - "Abnormal — fine motor control typically develops before gross motor control in the first year"
+    - "Expected — all motor milestones follow a fixed age at which they appear, not a range"
+  answer: 1
+  explanation: "Proximodistal progression means motor control develops outward from the body's midline: core trunk stability comes before shoulder control, which precedes elbow control, which precedes fine finger movements. The pincer grasp requires myelination of the most distal motor pathways — the last to develop — so it naturally lags behind the more proximal gross motor achievements of sitting, pulling to stand, and cruising. This pattern is precisely what the developmental principles predict."
+
+- question: "What is the primary physiological mechanism driving the cephalocaudal and proximodistal gradients of motor development in infancy?"
+  type: multiple-choice
+  options:
+    - "Gradual increase in the number of muscle fibers, proceeding from head to toe and from trunk outward"
+    - "Myelination advancing through the nervous system, with distal and caudal motor pathways myelinating last"
+    - "Bone density reaching a critical threshold for weight-bearing in a head-to-toe sequence"
+    - "Hormonal surges that activate different muscle groups in a developmentally programmed order"
+  answer: 1
+  explanation: "Myelin sheaths dramatically speed neural conduction, and the order in which motor pathways myelinate determines the order in which voluntary control becomes possible. The pathways controlling head and trunk myelinate before those controlling legs; pathways controlling proximal limb segments myelinate before those controlling fingers. This is why the developmental sequence — head control → trunk stability → walking → pincer grasp — mirrors the order of myelination, not some arbitrary biological clock."
+
+- question: "An infant who has not walked independently by 12 months is developmentally delayed and should be evaluated for motor problems."
+  type: true-false
+  answer: false
+  explanation: "The normal range for independent walking is 9–15 months. A child walking at 13, 14, or 15 months is within the typical range and does not warrant evaluation on that basis alone. Milestone ages are ranges, not deadlines — they reflect the natural variation in the timing of myelination, muscle development, and environmental opportunity. Concern is warranted when a child falls outside the expected range (e.g., not walking by 18 months), not simply because they are later within a normal distribution."
+
+- question: "Cultural practices and environmental factors such as how much time an infant spends on their stomach can influence the timing of motor milestone achievement."
+  type: true-false
+  answer: true
+  explanation: "Motor milestones are the product of biology interacting with opportunity. Infants who receive more 'tummy time' during waking hours develop head and trunk control earlier because they practice the relevant movements. Conversely, infants in carrying cultures where floor time is limited may walk later on average, yet show typical long-term outcomes. This demonstrates that the developmental schedule is not a fixed biological clock — it reflects the minimum maturational prerequisites (myelination, muscle development) interacting with the environmental conditions that allow practice."
+
+- question: "Explain why the pincer grasp emerges significantly later than milestones like sitting independently or crawling, in terms of the underlying developmental principle."
+  type: short-answer
+  answer: "The pincer grasp requires independent, precise movement of the index finger — controlled by the most distal motor pathways in the nervous system. According to the proximodistal principle, control develops outward from the body's midline: trunk stability (sitting) and proximal limb control (crawling) are governed by pathways that myelinate earlier. The motor pathways controlling fine finger movements myelinate last, which is why fine pincer coordination (9–12 months) comes months after the gross motor milestones requiring only core and limb control."
+  explanation: "The proximodistal principle is not arbitrary — it directly reflects the sequence of myelination in the motor nervous system. Myelination is the biological substrate; the developmental gradient is its behavioral signature. This is why correlating milestone timing with neural maturation gives a mechanistic explanation, rather than just describing the sequence."
+```
+
 ## Explainer
 
 At birth, infants arrive with a set of reflexes — rooting, sucking, palmar grasp, Moro — that represent evolutionarily conserved survival programs. From your study of neonatal reflexes, you know these are subcortically driven and do not require learned coordination. What changes over the first year is not that reflexes disappear and are replaced by voluntary movement; rather, the growing cortex gradually inhibits primitive reflex circuits and builds new voluntary pathways over the same underlying architecture. The disappearance of the palmar grasp reflex around 5–6 months, for example, is not the loss of grasping — it is the cortex taking over, enabling the voluntary, purposeful grasping that replaces the reflexive version.

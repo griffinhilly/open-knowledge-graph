@@ -29,6 +29,45 @@ Analyze the rising US challenging Britain's naval dominance (peaceful transition
 ## Common Misconceptions
 Power transition theory predicts war as likely but not inevitable—peaceful accommodation of rising powers is possible if hegemon and challenger negotiate new rules.
 
+## Questions
+
+```yaml
+- question: "State A has been the dominant hegemon for decades. State B has grown rapidly and now nears A's capability level. B's leaders believe the current international order unjustly excludes them from trade routes and institutions they need. According to power transition theory, what is the risk level?"
+  type: multiple-choice
+  options:
+    - "Low — A is still dominant, so the system remains stable according to the same logic as balance-of-power theory"
+    - "High — capability convergence combined with B's dissatisfaction with the order creates the danger zone power transition theory identifies"
+    - "Moderate — B's dissatisfaction increases tension, but war probability is determined by capability parity alone"
+    - "Low — B would only attack after clearly surpassing A, when it is certain of winning"
+  answer: 1
+  explanation: "Power transition theory predicts peak danger when (1) a challenger approaches parity with the hegemon AND (2) the challenger is dissatisfied with the existing order. Both conditions are met here. The dissatisfied challenger at near-parity has incentive to act before its window closes; the hegemon fears losing its privileged position. This is the 'danger zone' — not when B is clearly weaker (challenge too costly) or clearly stronger (hegemon already lost), but during the transition itself."
+
+- question: "The United States surpassed Great Britain in industrial power in the 1870s–1880s without war. Power transition theory explains this peaceful outcome primarily because:"
+  type: multiple-choice
+  options:
+    - "The US had inferior naval capability, so Britain remained militarily dominant despite economic decline"
+    - "Britain successfully balanced against the US by forming alliances with continental European powers"
+    - "The US was broadly satisfied with the British-led international order, removing the grievance that makes dissatisfied challengers dangerous at parity"
+    - "No genuine power transition occurred — Britain maintained dominance through its colonial empire into the 20th century"
+  answer: 2
+  explanation: "This is the canonical 'peaceful transition' case that illustrates the theory's satisfaction variable. The US rose to surpass Britain in industrial output but was fundamentally compatible with the liberal international order Britain had built — free trade, maritime law, financial norms. Without deep dissatisfaction with the existing order, there was no demand to overturn it. Britain also made strategic concessions (Monroe Doctrine acceptance, naval withdrawal from Western Hemisphere) that acknowledged US primacy, further reducing grievance."
+
+- question: "Power transition theory predicts that a period of clear hegemonic preponderance — when one state is far stronger than all others — is a source of international stability, not danger."
+  type: true-false
+  answer: true
+  explanation: "This is one of the theory's most counterintuitive claims relative to balance-of-power theory. When the hegemon is overwhelmingly dominant, the cost of challenging the order is prohibitive — even dissatisfied states wait, because they cannot win. Peace prevails not because power is balanced but because the imbalance is so extreme that resistance is futile. Danger emerges as the gap closes: when a challenger reaches rough parity, the cost-benefit calculation shifts for both the challenger and the declining hegemon."
+
+- question: "According to power transition theory, the most dangerous moment in a power transition is after the rising challenger has clearly surpassed the declining hegemon in overall capability."
+  type: true-false
+  answer: false
+  explanation: "The danger zone is the transition period — when capabilities are roughly equal and still converging. Once the challenger has clearly surpassed the hegemon, the transition is effectively complete: the former challenger is now the dominant power, and the system restabilizes around the new hierarchy. The peak danger is parity, not post-transition dominance. This is also when the 'preventive war' incentive is strongest for both sides — each has reasons to prefer war now over a worse future trajectory."
+
+- question: "What does power transition theory add to balance-of-power theory that changes its predictions, and which historical cases best illustrate that additional factor?"
+  type: short-answer
+  answer: "Power transition theory adds the dimension of satisfaction or dissatisfaction with the existing international order. Balance-of-power focuses only on the distribution of capabilities, predicting that preponderance is dangerous. Power transition inverts this — preponderance is stable, parity is dangerous — but also adds that a rising power's relationship to the current order determines whether the transition is peaceful or violent. The US-UK transition illustrates a satisfied challenger: capability parity arrived without war because the US accepted the liberal order Britain had built. The Germany-Britain transition illustrates a dissatisfied challenger: Germany's grievance against a status quo that excluded it from colonial prestige made the transition violent. Two similar capability trajectories, very different outcomes — satisfaction is the variable that explains the difference."
+  explanation: "This is the theory's most important contribution: separating the capability dimension from the legitimacy dimension of hegemonic order. A purely material theory cannot explain why some transitions are peaceful and others produce great-power wars; satisfaction/dissatisfaction is the missing variable."
+```
+
 ## Explainer
 
 From your study of balance-of-power theory and power capabilities distribution, you know the basic intuition of realist IR: states monitor the distribution of power carefully and form alliances to prevent any single state from achieving dominance. Balance-of-power theory predicts that states balance against the most powerful actor — and that the system is most stable when no one is dominant. **Power transition theory**, developed by A.F.K. Organski in the 1950s and later extended by Jacek Kugler, reaches a strikingly different conclusion: war is most likely not when power is unequal, but when it is becoming equal.

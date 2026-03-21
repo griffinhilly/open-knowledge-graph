@@ -30,6 +30,45 @@ Open your phone's privacy settings and review the permission list for your five 
 - An app's privacy policy does not mean your data is private; it discloses what data is collected, and most policies explicitly state that data is shared with third parties.
 - Denying a permission does not necessarily break an app — most apps degrade gracefully, and the ones that refuse to work without unnecessary permissions are the ones you should be most suspicious of.
 
+## Questions
+
+```yaml
+- question: "A free flashlight app requests permission to access your contacts list and 'always-on' location tracking — permissions with no plausible connection to the app's function. What is the most likely explanation?"
+  type: multiple-choice
+  options:
+    - "The app requires these permissions to function properly on some Android versions"
+    - "The developers made a mistake in their permission request code"
+    - "The permissions are requested so the app can collect and sell that data — the data is the app's real product"
+    - "These permissions are required by the app store for safety verification"
+  answer: 2
+  explanation: "When there is no plausible functional need for a permission, the explanation is usually economic: the app's business model is data collection, not the feature it provides. Location data and contact graphs are valuable to data brokers who aggregate them into behavioral profiles and sell them to advertisers, insurers, and others. The app is offered free to users because users are not the customer — their data is the product."
+
+- question: "You set a social media app's location permission to 'While Using the App.' The developers update it to 'Always.' What is the practical consequence for your privacy?"
+  type: multiple-choice
+  options:
+    - "The app can only track your location when you post with location tagging"
+    - "Nothing changes in terms of data collection since you already shared your location once"
+    - "The app can now query your GPS at any moment — while it's in the background and even when your screen is off"
+    - "The app's features will be enhanced but your privacy won't be meaningfully impacted"
+  answer: 2
+  explanation: "'Always' location access means the app can query your GPS continuously — during active use, while running in the background, and while the screen is off. 'While Using' limits access to the foreground window, dramatically reducing the data collection window. Background tracking allows apps to build detailed profiles of daily routines, home address, workplace, movements, and social connections — information far more valuable than in-app check-ins."
+
+- question: "A free app's privacy policy guarantees that your personal data remains private and will not be shared with outside parties."
+  type: true-false
+  answer: false
+  explanation: "Privacy policies disclose what data is collected and how it is used — they do not guarantee privacy. Most policies explicitly state that data is shared with 'third-party partners,' 'service providers,' or 'advertisers.' A privacy policy is a disclosure document, not a protection document. Reading carefully often reveals that data is actively sold or shared. The existence of a policy tells you what the company is doing; it does not restrict what that company can do."
+
+- question: "Revoking an unnecessary permission from an app will usually prevent that app from functioning at all."
+  type: true-false
+  answer: false
+  explanation: "Well-designed apps degrade gracefully when permissions are denied — they lose the specific features those permissions enable while core functionality continues. An app that refuses to function entirely without a permission unrelated to its core purpose (e.g., a calculator demanding location access) is behaving suspiciously, because the permission is almost certainly for data collection rather than functionality. Apps that break completely when any permission is denied are the ones you should be most skeptical of."
+
+- question: "Why does it matter whether you grant 'Always' versus 'While Using the App' location permission, specifically in terms of what data can be collected and what it can reveal?"
+  type: short-answer
+  answer: "'Always' location access allows the app to query your GPS at any time — day or night, foreground or background, screen on or off — building a continuous record of your movements. 'While Using' limits access to active sessions, dramatically reducing collection. The difference is the depth of the profile that can be constructed: background tracking reveals your home address, workplace, daily routes, routines, social venues, and movement patterns, which are far more valuable to data brokers than individual check-ins."
+  explanation: "The scope of a permission determines the scope of the data that can be collected, and location data is uniquely sensitive because it aggregates into a behavioral portrait of your life. A single location data point is minimal; a continuous feed over weeks becomes a detailed record of where you live, work, worship, receive medical care, and with whom — data that can be sold for advertising, insurance underwriting, law enforcement requests, or employment screening. 'While Using' creates a narrow window; 'Always' creates a perpetual surveillance channel."
+```
+
 ## Explainer
 
 From your study of digital privacy fundamentals, you know that apps and services collect data through multiple channels — cookies, device fingerprinting, usage logs — often without your active awareness. App permissions are the most direct and controllable layer of that data collection: they are explicit gates your operating system requires an app to pass through before it can access specific device hardware or personal data. When you grant an app permission to access your location, camera, microphone, or contacts, you're allowing that app to query that resource directly — and to do so as often as it wants within the scope you granted.

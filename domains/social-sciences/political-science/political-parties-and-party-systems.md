@@ -36,6 +36,45 @@ Trace the historical origins of major parties in several countries to see how cl
 - Parties are not simply vehicles for candidates; they provide ideological cues, coordinate legislative behavior, and structure the choices available to voters.
 - Party decline does not mean parties are becoming irrelevant — they remain central to governance even as voter identification weakens.
 
+## Questions
+
+```yaml
+- question: "Country A uses single-member plurality ('first-past-the-post') elections. Country B uses proportional representation. A third party emerges in each country with 15% national support evenly distributed across districts. In which country is it more likely to win legislative seats?"
+  type: multiple-choice
+  options:
+    - "Country A — plurality systems reward parties with consistent national support across many districts"
+    - "Country B — proportional representation translates vote share directly into seat share"
+    - "Both equally — 15% national support should translate to 15% of seats in any democratic system"
+    - "Country A — established parties in PR systems use coalition negotiations to block new entrants"
+  answer: 1
+  explanation: "This is Duverger's Law in action. In FPTP (Country A), a party with 15% support evenly distributed almost never wins pluralities in individual districts — its votes are 'wasted' everywhere and it wins seats nowhere. In a PR system (Country B), 15% vote share translates to approximately 15% of seats. This mechanical effect is compounded by the psychological effect: voters in Country A who prefer the third party will often vote strategically for their second choice to avoid 'wasting' a vote, further starving the third party of support."
+
+- question: "Why do European party systems still reflect social cleavages (class, religion, urban-rural) from the 19th century, even though those underlying conflicts have weakened considerably?"
+  type: multiple-choice
+  options:
+    - "European voters have strong collective memories and consciously vote to honor historical allegiances"
+    - "The original cleavages have not actually weakened — class and religious identity remain as strong as they were at democratization"
+    - "Party organizations, electoral bases, and ideological identities became institutionalized at the moment of democratization and persist through path dependence"
+    - "Electoral laws in European countries prevent new parties from forming, locking in the original party configurations"
+  answer: 2
+  explanation: "Lipset and Rokkan's cleavage theory describes 'freezing': the parties founded during the period of democratization built organizational structures, loyal electoral bases, and stable ideological identities that outlasted the original conflicts. British Labour was founded on the class cleavage; German Christian Democrats on the religious cleavage. Even as class voting declined and secularization advanced, these parties persist because institutional path dependence is powerful. New parties (Greens, populist parties) can emerge to represent new cleavages, but they typically add to the system rather than replace it."
+
+- question: "Voter dealignment means political parties are losing their central role in governance, as weakening partisan identification has led to more independent policy-making by individual legislators."
+  type: true-false
+  answer: false
+  explanation: "Dealignment refers to weakening voter *identification* with parties — voters affiliate with parties later, switch more readily, and increasingly describe themselves as independent. But parties remain constitutive of democratic governance: they still recruit candidates, coordinate legislative behavior, form governing majorities, and implement policy programs. What has changed is the organizational form and voter relationship, not the essential governance function. Individual legislators still need party coordination to pass legislation."
+
+- question: "According to Duverger's Law, single-member plurality systems produce two-party systems through both a mechanical effect (vote-to-seat translation) and a psychological effect (voter behavior)."
+  type: true-false
+  answer: true
+  explanation: "Both effects operate simultaneously. The mechanical effect: in FPTP, only the plurality winner gains representation, so third-party votes translate to zero seats even with substantial national support. The psychological effect: voters who prefer a third party anticipate this and strategically vote for their preferred major-party candidate to avoid wasting their vote. These effects reinforce each other — the third party gets fewer seats (mechanical), so it gets fewer votes (psychological), so it gets fewer donations and candidates, accelerating its decline."
+
+- question: "What collective action problem do political parties solve in representative democracy, and why does this make them 'constitutive' rather than merely 'useful'?"
+  type: short-answer
+  answer: "Without parties, elections would produce a legislature of uncoordinated individuals with no mechanism to form stable governing majorities or implement coherent policy programs. Any majority coalition would have to be assembled ad hoc for each vote, making governance unstable and incoherent. Parties solve this problem by: (1) coordinating on platforms before elections, giving voters meaningful choices; (2) organizing legislative blocs that can act collectively; (3) providing accountability linkage — voters can reward or punish the party for government performance. These functions are not optional add-ons but the core infrastructure of representative government at scale. Parties don't just help democracy work — they are the mechanism by which representative democracy works at all."
+  explanation: "This is why the 'parties are just candidate vehicles' misconception matters: it mistakes a symptom (candidate promotion) for the fundamental function (collective action coordination). Even as voter identification weakens, parties remain indispensable because the governance coordination problem remains."
+```
+
 ## Explainer
 
 You already understand democracy as a system of competitive elections and representative government, and you know something about electoral systems — the rules that translate votes into seats. **Political parties** are the organizational infrastructure that makes competitive democracy actually function at scale: they recruit and train candidates, develop coherent policy platforms, mobilize voters through campaign networks, and coordinate legislative behavior once in government. Without parties, elections would produce an incoherent collection of individual politicians with no capacity to form stable governing majorities or implement coherent policy programs. Parties solve the collective action problem of democratic governance — they are not incidental to representative democracy but constitutive of it.

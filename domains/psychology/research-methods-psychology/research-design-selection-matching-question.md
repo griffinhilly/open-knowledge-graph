@@ -33,6 +33,45 @@ Select several different research questions and determine which design(s) would 
 ## Common Misconceptions
 Experimental designs are always superior to other designs (actually, experiments cannot answer all types of research questions). A poorly designed experiment is better than a well-designed correlational study (actually, design appropriateness depends on the research question).
 
+## Questions
+
+```yaml
+- question: "A researcher wants to know whether a new mindfulness intervention reduces anxiety. Which research design is most appropriate, and why?"
+  type: multiple-choice
+  options:
+    - "A correlational study measuring how often people meditate and their self-reported anxiety scores"
+    - "A randomized controlled experiment assigning participants to mindfulness vs. control conditions"
+    - "A nationally representative survey asking whether people who meditate feel less anxious"
+    - "A qualitative interview study exploring participants' subjective experiences with mindfulness"
+  answer: 1
+  explanation: "The question asks whether the intervention *causes* reduced anxiety — a causal claim. Only a randomized experiment can establish causation, because random assignment equates the groups on everything except the treatment. A correlational study (option A) cannot rule out the possibility that less-anxious people are more likely to meditate. A survey (option C) has the same problem. Qualitative methods (option D) explore the structure of an experience but cannot test a causal hypothesis."
+
+- question: "A researcher wants to understand the prevalence of depression among U.S. adults during economic recessions. Which design is most appropriate?"
+  type: multiple-choice
+  options:
+    - "A randomized experiment exposing participants to simulated economic stress and measuring depression"
+    - "A correlational study relating unemployment rates to depression scores in a convenience sample"
+    - "A nationally representative survey measuring depression rates at multiple time points during a recession"
+    - "A qualitative study interviewing a dozen unemployed workers about their mental health experiences"
+  answer: 2
+  explanation: "The question asks about *prevalence* — the distribution of depression in a population at a specific time. This is a descriptive question best answered by a representative survey with careful sampling. An experiment (option A) tests whether economic stress *causes* depression, which is a different question. A correlational study in a convenience sample (option B) cannot generalize to the U.S. population. A qualitative study (option D) generates depth of understanding in a small sample but cannot estimate prevalence."
+
+- question: "Experimental designs are always superior to correlational designs because they provide stronger causal evidence."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception in research methods. Design quality depends entirely on fit between design and research question. For causal questions, experiments are superior. But for questions about naturalistic relationships (e.g., how personality traits relate to job outcomes), relational prevalence (how common is depression?), or phenomena that cannot be experimentally manipulated (effects of childhood trauma, personality, neurological conditions), correlational or descriptive designs are not just adequate — they are the *only* appropriate choice. A well-designed correlational study beats a poorly designed experiment at answering a relational question."
+
+- question: "A well-designed correlational study can provide stronger evidence for a naturalistic research question than a poorly designed experiment."
+  type: true-false
+  answer: true
+  explanation: "Design quality and design type are independent. A correlational study with large representative samples, rigorous measurement, and appropriate statistical controls can provide robust, generalizable evidence about real-world relationships. A laboratory experiment with a non-representative sample, demand characteristics, and an artificial task may have strong internal validity but weak applicability to the phenomenon of interest. Appropriateness to the question, not the design label, determines evidential quality."
+
+- question: "A researcher cannot ethically or practically randomly assign participants to experience childhood trauma in order to study its effects on adult mental health. What research design alternatives exist, and what validity trade-offs do they involve?"
+  type: short-answer
+  answer: "Alternatives include: (1) prospective longitudinal studies following children over time, measuring trauma exposure as it naturally occurs and tracking adult outcomes — this gains ecological validity but cannot control for confounders; (2) retrospective surveys asking adults to report past trauma — efficient but subject to recall bias; (3) quasi-experimental designs using natural experiments (e.g., comparing individuals who experienced a disaster to matched controls who did not) — these approximate experimental logic but cannot rule out all selection differences. All sacrifice some internal validity compared to a true experiment, trading causal certainty for ethical feasibility and naturalistic validity."
+  explanation: "This question illustrates a fundamental constraint in psychological research: some of the most important questions (effects of trauma, poverty, early adversity) cannot be studied experimentally for ethical reasons. Recognizing the appropriate design given these constraints — and being transparent about the inferential limits — is the core skill in research design selection."
+```
+
 ## Explainer
 
 Your prerequisites on experimental, correlational, and survey designs each introduced a specific tool. This topic steps back to address the prior question: given a research question, how do you choose the right tool? The answer turns on two fundamental properties that every design trades off: **internal validity** — the degree to which you can attribute your findings to the variable you manipulated rather than to confounds — and **external validity** — the degree to which your findings generalize beyond the specific sample, setting, and conditions of your study.

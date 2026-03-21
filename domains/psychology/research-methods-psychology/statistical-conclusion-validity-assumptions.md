@@ -35,6 +35,45 @@ Conduct analyses assuming violated assumptions to observe how conclusions change
 ## Common Misconceptions
 If p < .05, the conclusion is definitely correct (violating assumptions can bias p-values). Statistical tests are robust to all assumption violations (actual robustness depends on specific assumptions, effect sizes, and sample sizes).
 
+## Questions
+
+```yaml
+- question: "A researcher measures math anxiety in 200 students, with 20 students nested within each of 10 classrooms. They run a standard independent-samples t-test comparing anxious vs. non-anxious students. What is the primary threat to statistical conclusion validity?"
+  type: multiple-choice
+  options:
+    - "Non-normality — student anxiety scores are unlikely to be normally distributed"
+    - "Violation of independence — students within the same classroom share experiences, inflating Type I error"
+    - "Insufficient power — 200 students is too small a sample for a t-test"
+    - "Heterogeneity of variance — anxious and non-anxious students likely have different score variances"
+  answer: 1
+  explanation: "The independence assumption is violated because students within the same classroom share the same teacher, physical environment, and classroom climate — making their scores positively correlated within clusters. Standard errors computed assuming independence are too small, p-values are artificially low, and Type I error is inflated above the nominal α. The fix is multilevel modeling or cluster-robust standard errors. Independence violations are especially dangerous because they are invisible in the data — you must know the data collection procedure to detect them."
+
+- question: "A study uses a standard ANOVA with α = .05 but the group variances are quite heterogeneous and group sizes are unequal (the larger group has larger variance). What is the likely consequence for the actual Type I error rate?"
+  type: multiple-choice
+  options:
+    - "Type I error rate stays at .05 — ANOVA is robust to all assumption violations"
+    - "Type I error rate is deflated below .05 — the test becomes more conservative"
+    - "Type I error rate is inflated above .05 — false positives occur more than intended"
+    - "Type II error rate is inflated — the test loses power but maintains α = .05"
+  answer: 2
+  explanation: "When the larger group has larger variance, standard ANOVA inflates the Type I error rate — you reject the null hypothesis more often than the nominal α implies. This specific pattern (larger group, larger variance) makes the test anti-conservative. The fix is Welch's ANOVA, which adjusts degrees of freedom to account for unequal variances and should be the default. The belief that ANOVA is 'robust to everything' is the misconception this question targets; robustness is conditional on the specific violation and design."
+
+- question: "A p-value below .05 guarantees that statistical conclusion validity is intact — the conclusion about covariation between variables is trustworthy."
+  type: true-false
+  answer: false
+  explanation: "Statistical conclusion validity is threatened whenever test assumptions are violated, because assumption violations silently change the actual Type I error rate from the nominal α. A test that appears to operate at α = .05 might actually produce false positives at α = .15 under severe violations. Getting p < .05 from a test with violated assumptions does not mean the result is real — it may mean the test's null distribution was wrong, making the critical value incorrect. Checking p against a threshold only works if the threshold was computed correctly, which requires valid assumptions."
+
+- question: "The central limit theorem protects against non-normality in small samples, making parametric tests robust to distributional violations even when n < 20."
+  type: true-false
+  answer: false
+  explanation: "The central limit theorem provides protection in large samples — as n increases, sampling distributions of means become approximately normal even if the raw data are not. In small samples (roughly n < 30–40 per group), the CLT has not had enough sample size to 'kick in,' and non-normality of the underlying distribution can substantially distort p-values. For small samples with non-normal data, nonparametric alternatives (Wilcoxon, Mann-Whitney) or bootstrap methods are more appropriate."
+
+- question: "Why is violation of the independence assumption especially dangerous for statistical conclusion validity, compared to violations of normality or homogeneity of variance?"
+  type: short-answer
+  answer: "Independence violations are invisible in the raw data — you cannot detect them by examining the numbers. You can only identify them by knowing how the data were collected (e.g., students nested within classrooms, repeated measures from the same person). By contrast, non-normality and heterogeneity of variance can be detected through diagnostic plots (Q-Q plots, Levene's test). Additionally, independence violations typically inflate Type I error, often dramatically, because standard errors under clustering are too small — the test sees apparent precision that doesn't exist."
+  explanation: "The severity also depends on the intraclass correlation (ICC): how similar are observations within the same cluster? High ICC (e.g., patients at the same clinic responding similarly to treatment) produces severe inflation; low ICC produces minor inflation. Without accounting for clustering, you may 'find' effects that are purely artifacts of shared environmental influence within clusters — a common source of non-replicable findings in psychology and education research."
+```
+
 ## Explainer
 
 From your study of hypothesis testing and statistical power, you know that a statistical test can produce two kinds of error: a **Type I error** (a false positive — you conclude there is an effect when there isn't) and a **Type II error** (a false negative — you miss a real effect). You also know that power is the probability of detecting a true effect. **Statistical conclusion validity** is the umbrella question: *can you trust the conclusion your statistical test produced?* It is threatened whenever the test's assumptions are violated, because those violations silently change the actual Type I and Type II error rates away from what you thought you had set.

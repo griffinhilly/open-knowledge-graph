@@ -33,6 +33,45 @@ Read Michael Smith's The Moral Problem (chapters 1-5) for a clear statement of t
 - Motivational internalism does not claim that moral judgments always produce action; it claims they necessarily produce some motivation, which can be overridden by stronger competing motivations like weakness of will.
 - The Humean theory of motivation is not the view that we should follow our desires; it is a thesis in moral psychology about the necessary role of desire-like states in producing action.
 
+## Questions
+
+```yaml
+- question: "A person sincerely says: 'I know I ought to donate to famine relief — it's morally required — but I have absolutely no motivation whatsoever to do it.' What would a motivational internalist conclude about this person?"
+  type: multiple-choice
+  options:
+    - "This is a clear case of weakness of will: the person has the motivation but competing desires override it"
+    - "This person cannot be making a genuine moral judgment — motivational indifference is evidence the judgment is not sincere"
+    - "This person demonstrates that moral beliefs and desires are entirely independent, confirming the externalist view"
+    - "This person's situation is only possible if they hold a non-cognitivist theory of moral language"
+  answer: 1
+  explanation: "The motivational internalist holds that genuine moral judgment necessarily entails at least some motivational pull. Complete motivational indifference is therefore diagnostic: it shows the person is not really making the moral judgment they claim. They may be saying the words, but something other than a genuine evaluative commitment is operating. Note that internalism does NOT require the motivation to win out (option A would require that), only that some motivation exists. The externalist (option C) would allow this person's situation as coherent — but that's the externalist position, which the question asks us to contrast."
+
+- question: "According to the Humean theory of motivation, which of the following correctly describes the relationship between moral beliefs and action?"
+  type: multiple-choice
+  options:
+    - "Moral beliefs directly motivate action by representing facts about what one has reason to do"
+    - "Moral beliefs can motivate action only when paired with a separate desire-like state, since belief alone never produces motivation"
+    - "Moral beliefs are identical to desires and therefore automatically produce motivation"
+    - "Moral beliefs produce motivation only in agents who have been trained to act on moral reasons"
+  answer: 1
+  explanation: "The Humean theory holds that belief alone is motivationally inert — it merely represents how things are. Only desire-like states (pro-attitudes) can generate motivation. A belief that 'helping would be right' tells you something about the world but does not itself push you to act. A separate desire — to help, to be moral, to care about others — is required to translate the belief into motivation. Anti-Humeans (option A) reject this: Thomas Nagel and Jonathan Dancy argue that recognizing a reason can itself be motivating without any prior desire."
+
+- question: "Motivational internalism claims that if you genuinely judge an action to be morally required, you will always perform it."
+  type: true-false
+  answer: false
+  explanation: "False. Motivational internalism claims only that a genuine moral judgment *necessarily entails some motivation* — not that this motivation will always prevail. The motivation can be outweighed by competing desires, weakness of will, or other psychological factors. What internalism rules out is complete motivational indifference: if you feel not the slightest pull toward the action, internalists conclude that your 'judgment' is not a genuine moral judgment. The claim is about the presence of some motivation, not its irresistibility."
+
+- question: "Non-cognitivist theories of ethics (such as expressivism) face a particularly difficult challenge in explaining why moral judgments motivate action."
+  type: true-false
+  answer: false
+  explanation: "False — it's the *cognitivists* who face this difficulty, not non-cognitivists. Non-cognitivists hold that moral judgments are not beliefs but expressions of approval, condemnation, or commitment. Since these states are already motivational in nature (expressing condemnation just *is* being disposed to avoid the thing), the connection between judging and being motivated is automatic. Expressivism makes the internalism problem disappear. The hard problem falls on cognitivists who treat moral judgments as beliefs and must then explain why those beliefs carry motivational weight."
+
+- question: "Explain why Michael Smith's three claims — (1) moral judgments are beliefs, (2) moral judgments necessarily motivate, and (3) only desires motivate — cannot all be true simultaneously."
+  type: short-answer
+  answer: "Claims (1) and (3) together entail that moral judgments, being beliefs, are not themselves motivating — they need a separate desire to generate action. But claim (2) says moral judgments necessarily motivate on their own. This is a contradiction: if only desires motivate (3) and moral judgments are beliefs not desires (1), then moral judgments cannot be necessarily motivating (2). The trilemma forces a choice: deny cognitivism (hold moral judgments are not beliefs — the non-cognitivist/expressivist move), deny internalism (allow that moral beliefs may not motivate — the externalist move), or deny Humeanism (hold that beliefs about reasons can themselves motivate — the anti-Humean move)."
+  explanation: "Smith's formulation clarifies what is genuinely at stake in metaethics. The three claims seem individually plausible — moral judgments look like beliefs (they can be true or false), they seem to motivate (why make them if not?), and belief-desire psychology seems empirically well-supported. But they cannot all be true. Picking which one to reject defines one's position in moral psychology and metaethics."
+```
+
 ## Explainer
 
 From your study of moral psychology, you know that moral agents come equipped with both beliefs and desires, and that these interact to produce action. The problem of moral motivation presses on exactly that interaction: when a person forms a moral judgment — "I ought to donate to famine relief" — does that judgment automatically carry some motivational pull, or is it simply a belief that sits inert until paired with the right desire? This question is the pivot between **motivational internalism** and **motivational externalism**.

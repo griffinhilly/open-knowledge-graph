@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 Businesses produce three core financial statements — an income statement, a balance sheet, and a cash flow statement — that together describe how money moves through the organization. You have personal equivalents of all three, and understanding them gives you the same analytical power over your personal finances that a CFO has over a company. The underlying concepts connect directly to your prerequisites: money fundamentals define what these statements measure, and budget work is essentially operating an informal income statement.
 
+## Questions
+
+```yaml
+- question: "A person has $80,000 in savings, a $350,000 mortgage balance, and a $25,000 car loan. These figures appear on which personal financial statement?"
+  type: multiple-choice
+  options:
+    - "The income statement, because they affect monthly cash flow through payments"
+    - "The balance sheet, because they are assets and liabilities that determine net worth"
+    - "Both statements equally — assets and liabilities appear on both"
+    - "Neither — personal financial statements only track income and expenses"
+  answer: 1
+  explanation: "The balance sheet records what you own (assets: savings, home value, car value) and what you owe (liabilities: mortgage balance, car loan) at a point in time. Net worth = assets − liabilities. The income statement captures flows over time — it records the monthly mortgage *payment* as an expense, but not the outstanding loan balance. Knowing which statement to consult for which question is the core skill of financial literacy."
+
+- question: "A friend says, 'I'm doing great financially — my salary doubled this year.' Which question would most directly reveal whether their overall financial position actually improved?"
+  type: multiple-choice
+  options:
+    - "Did your monthly expenses increase by the same amount?"
+    - "Are your total assets growing faster than your total liabilities?"
+    - "How much of your income comes from salary versus investments?"
+    - "What is your credit score now compared to last year?"
+  answer: 1
+  explanation: "Salary growth shows on the income statement (more inflow), but says nothing about net worth. Someone whose salary doubled while taking on proportionally more debt, or spending every additional dollar, may have flat or declining net worth. The balance sheet question — are assets growing faster than liabilities? — is the real test. The income statement measures flow (what happened this period); the balance sheet measures stock (where you actually stand)."
+
+- question: "A person who consistently earns more than they spend is guaranteed to have a growing net worth."
+  type: true-false
+  answer: false
+  explanation: "Net income (income minus expenses) contributes to net worth only if the surplus is saved or invested and not offset by growing liabilities. Someone making minimum payments on debt that is accumulating faster in principal than they're paying down will have positive net income but declining net worth. Income-statement health and balance-sheet health are related but distinct. A rising income can coexist with a flat or negative net worth if spending and debt rise in parallel."
+
+- question: "The personal balance sheet is best used to track how spending patterns change from month to month."
+  type: true-false
+  answer: false
+  explanation: "The income statement is the tool for tracking spending patterns over time — it records all income sources and expenses in a given period. The balance sheet is a snapshot: it captures total assets minus total liabilities (net worth) at a single moment. Tracking balance sheets over multiple months shows whether net worth is growing, but it doesn't break down spending categories. Each statement answers a different question: the income statement asks 'how did this period go?'; the balance sheet asks 'where do I stand right now?'"
+
+- question: "Why might a high-income person have a weak financial position, and which financial statement reveals this most directly?"
+  type: short-answer
+  answer: "High income appears on the income statement but says nothing about the balance sheet. If someone earns a large salary but carries substantial debt (student loans, mortgage, car loans) and saves little, their net worth — total assets minus total liabilities — can be low or even negative. The balance sheet reveals this because it captures the accumulated financial position: not what flows in each month, but what you actually own versus owe at a point in time."
+  explanation: "This is why tracking both statements matters. A high earner who spends everything and borrows to fund a lifestyle may feel financially successful while building no actual wealth. Net worth is the number that can't be gamed by income alone — it requires assets to accumulate faster than liabilities. Many financially anxious people have strong income statements but weak balance sheets, and don't realize it because they only track the former."
+```
+
 ## Explainer
 
 Businesses produce three core financial statements — an income statement, a balance sheet, and a cash flow statement — that together describe how money moves through the organization. You have personal equivalents of all three, and understanding them gives you the same analytical power over your personal finances that a CFO has over a company. The underlying concepts connect directly to your prerequisites: money fundamentals define what these statements measure, and budget work is essentially operating an informal income statement.

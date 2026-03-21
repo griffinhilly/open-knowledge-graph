@@ -36,6 +36,45 @@ Study the dynamic array append operation as the canonical example. Work through 
 - Amortized cost is not the same as average-case cost; it applies to sequences of operations on a single data structure, not random inputs.
 - An operation with O(1) amortized cost can still be O(n) in the worst case for a single call — real-time systems must account for this.
 
+## Questions
+
+```yaml
+- question: "A safety-critical real-time system must guarantee that every operation completes within 1 millisecond. An engineer proposes using a dynamic array (which has O(1) amortized append). Should they use it?"
+  type: multiple-choice
+  options:
+    - "Yes — O(1) amortized means every operation takes constant time in the worst case"
+    - "No — 'amortized O(1)' still allows individual append operations to take O(n) time during a resize"
+    - "Yes — amortized analysis provides probabilistic guarantees that O(n) resizes rarely occur"
+    - "No — dynamic arrays have O(n) amortized append because of resizing overhead"
+  answer: 1
+  explanation: "This is the critical practical distinction. 'O(1) amortized' means the average cost per operation over a long sequence is O(1) — but individual operations can still cost O(n) when a resize happens. A real-time system that must meet per-operation latency deadlines cannot use amortized guarantees because a single slow operation violates the deadline, even if most operations are fast. For hard real-time requirements, you need data structures with O(1) worst-case per operation. Amortized analysis is about sequences, not individual calls."
+
+- question: "Using the aggregate method, what is the amortized cost of appending n elements to a dynamic array that starts with capacity 1 and doubles on resize?"
+  type: multiple-choice
+  options:
+    - "O(log n) per append — because resizes happen at logarithmic intervals"
+    - "O(n) per append — because the final resize copies n elements"
+    - "O(1) per append — because total work is ≈ 3n across n appends"
+    - "O(√n) per append — because resizes happen √n times"
+  answer: 2
+  explanation: "Resizes happen at sizes 1, 2, 4, 8, ..., copying 1+2+4+...+n/2 ≈ n elements total from resize operations, plus n constant-time writes for the appends themselves — roughly 3n total work. Dividing by n operations gives O(1) amortized cost per append. Option B (O(n)) is the worst-case for a single operation, not the amortized cost — it's the confusion between per-operation worst-case and amortized-per-operation that this analysis is designed to correct."
+
+- question: "Amortized analysis and average-case analysis both describe how an algorithm performs 'on average,' so they are equivalent in what they guarantee."
+  type: true-false
+  answer: false
+  explanation: "This is the most important misconception to dispel. Average-case analysis assumes a probability distribution over inputs and reports the expected cost for a random input. Amortized analysis makes no probabilistic assumptions — it guarantees that any sequence of n operations (no matter what inputs or access patterns) costs at most n times the amortized bound. Amortized analysis is a deterministic worst-case guarantee over sequences. A data structure with O(1) amortized cost cannot be 'unlucky' — the bound holds for every possible sequence, adversarially chosen or not."
+
+- question: "In the accounting method of amortized analysis, operations are assigned a 'charge' (amortized cost) that may exceed their actual cost, with excess credited for future expensive operations."
+  type: true-false
+  answer: true
+  explanation: "The accounting method charges each operation a fixed amortized cost. For cheap operations (like a simple append), the charge exceeds the actual cost, and the excess is stored as 'credit' on the data structure. When an expensive operation occurs (like a resize), it draws on this accumulated credit to cover its actual cost. As long as the total credit never goes negative, the sum of charges bounds the sum of actual costs. The key invariant is that credit is always non-negative — you can never 'borrow' from future operations."
+
+- question: "Explain why amortized analysis is NOT the same as average-case analysis, and describe a situation where the distinction matters."
+  type: short-answer
+  answer: "Average-case analysis requires a probability model: it computes the expected cost when inputs are drawn from some distribution. Amortized analysis requires no probability — it bounds the total cost of any sequence of n operations by n times the amortized cost, guaranteeing this holds for all possible sequences, including adversarially constructed ones. The distinction matters when inputs may be adversarial or when the distribution is unknown. For example, a hash table with O(1) average-case lookup might be degraded to O(n) by an adversary who exploits the hash function; an amortized guarantee would hold regardless of what keys are inserted."
+  explanation: "A practical example: an algorithm that is O(1) average-case might have O(n) worst-case per operation — and an adversary who controls the inputs could trigger that worst-case on every operation, making the total O(n²). An amortized guarantee of O(1) cannot be exploited this way: the total cost is O(n) regardless of the sequence, because the cost is smoothed across the sequence by design."
+```
+
 ## Explainer
 
 You already know how to analyze the worst-case time complexity of individual operations using Big-O notation. But sometimes worst-case analysis per operation is misleadingly pessimistic. Consider appending to a dynamic array that doubles its capacity when full. The occasional resize copies all n elements — O(n) work — but most appends just write to the next slot in O(1). If you report the append operation as O(n) worst-case, you dramatically overstate its typical cost. **Amortized analysis** resolves this by asking: what is the total cost of n operations, divided by n?

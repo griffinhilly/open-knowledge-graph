@@ -36,6 +36,45 @@ Make a simple vegetable or chicken stock from kitchen scraps first, then use tha
 - You need expensive ingredients to make good stock — stock is traditionally a thrift technique, built from vegetable trimmings, leftover bones, and herb stems that would otherwise be discarded.
 - Soup must be complicated to taste good — some of the best soups use five or fewer ingredients and rely on quality stock and proper seasoning.
 
+## Questions
+
+```yaml
+- question: "You are making chicken stock and accidentally let it come to a full rolling boil for 20 minutes before reducing the heat. What is the most likely result compared to a stock kept at a gentle simmer throughout?"
+  type: multiple-choice
+  options:
+    - "The stock will be richer because the higher heat extracts more gelatin from the bones"
+    - "The stock will be cloudier and greasier because boiling emulsifies fat and proteins into the liquid"
+    - "There will be no significant difference — gelatin extraction depends on time, not temperature"
+    - "The stock will be clearer because the higher temperature sterilizes impurities"
+  answer: 1
+  explanation: "Boiling causes violent turbulence that emulsifies fat and proteins into the water, producing a cloudy, greasy stock that cannot be fixed. Gentle simmering (180–190°F) keeps fat and proteins separate so they rise to the surface and can be skimmed off. A properly made stock clarifies itself through patient low-temperature extraction. More heat does not mean more gelatin — it means a permanently murky result."
+
+- question: "A home cook wants to make a stock with more body — a richer, silkier mouthfeel that coats a spoon. Which ingredient choice and technique best achieves this?"
+  type: multiple-choice
+  options:
+    - "Add more vegetables and increase the ratio of aromatics to water"
+    - "Use chicken breasts and turkey legs instead of carcasses, and simmer for 30 minutes"
+    - "Use bones and connective tissue (carcasses, feet, knuckles) and simmer gently for 2–4 hours"
+    - "Add a small amount of cornstarch at the end to thicken the liquid before straining"
+  answer: 2
+  explanation: "Body in stock comes from gelatin, produced when collagen in bones and connective tissue slowly breaks down during extended gentle heat. Carcasses, knuckles, and feet are collagen-rich; boneless meat is not. A well-made chicken stock solidifies in the refrigerator overnight — pure extracted gelatin — which is the sign of quality. Cornstarch thickens but creates a starchy mouthfeel, not the silky coating that gelatin provides. Aromatics add flavor but not body."
+
+- question: "Stock is made primarily from meat, while broth is made primarily from bones."
+  type: true-false
+  answer: false
+  explanation: "It is the opposite: stock is made primarily from bones and connective tissue, which yield gelatin and body. Broth is made primarily from meat and is thinner and lighter. Stock's bone-derived gelatin is what gives it the silky mouthfeel and body that makes it valuable as a cooking foundation. This is a widely confused distinction — the terms are often used interchangeably in everyday speech, but technically they describe different products with different textures."
+
+- question: "A soup that tastes perfectly seasoned halfway through its cooking time will likely taste too salty by the time it is finished."
+  type: true-false
+  answer: true
+  explanation: "As soup simmers, water evaporates and the liquid reduces, concentrating all dissolved salts. A correct salt level at the beginning becomes over-salted after reduction. The correct approach is to season lightly during cooking and make the final adjustment just before serving, after the soup has reduced to its intended volume. Reduction is irreversible; you can always add more salt, but you cannot remove it once it is concentrated."
+
+- question: "Why does the distinction between simmering and boiling matter so much in stock-making, and what physically goes wrong when stock is boiled instead of simmered?"
+  type: short-answer
+  answer: "Simmering (around 180–190°F) keeps fat and proteins separate — fat rises to the surface where it can be skimmed, and proteins coagulate into scum that can be removed, leaving the liquid clear. Boiling creates violent turbulence that physically beats fat and proteins into the water through emulsification, permanently clouding the liquid and making it greasy. Once emulsified, the fat cannot be removed by ordinary skimming. The extraction of flavor and gelatin happens at both temperatures, but only simmering keeps the liquid clear."
+  explanation: "Emulsification is the key physical mechanism. Once fat has been broken into tiny droplets dispersed through the water, those droplets are stable — they will not re-separate on their own. This is why the damage from boiling is irreversible under normal conditions. A professional correction (clarification with egg whites to make consommé) is labor-intensive and confirms that the simpler approach — never letting it boil in the first place — is far better."
+```
+
 ## Explainer
 
 From your study of boiling and simmering, you know the critical distinction: a boil is violent, turbulent, and at 212°F (100°C), while a simmer is gentle, producing small bubbles at roughly 180–190°F (82–88°C). This distinction is more consequential in stock-making than almost anywhere else in cooking. When you boil bones and aromatics vigorously, the turbulence emulsifies fat and proteins into the water, producing a cloudy, greasy, murky liquid. When you simmer gently, the fat rises to the surface where it can be skimmed, proteins coagulate and can be removed, and the liquid stays clear. A properly made stock clarifies itself through patient low-temperature extraction rather than violent boiling — your boiling-and-simmering knowledge directly predicts this outcome.

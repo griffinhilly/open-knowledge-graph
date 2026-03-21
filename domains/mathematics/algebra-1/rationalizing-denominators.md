@@ -29,6 +29,45 @@ Start with simple cases (single radical in the denominator) before introducing c
 - Multiplying only the denominator by the radical (changing the value of the expression instead of multiplying both numerator and denominator).
 - Not recognizing when a conjugate is needed — if the denominator is a + sqrt(b), the conjugate is a - sqrt(b), not just sqrt(b).
 
+## Questions
+
+```yaml
+- question: "A student simplifies 1/√5 by multiplying only the denominator by √5, getting 1/5. What error did the student make?"
+  type: multiple-choice
+  options:
+    - "The student should have multiplied the denominator by 5, not √5"
+    - "The student multiplied only the denominator by √5 without doing the same to the numerator, which changed the value of the expression"
+    - "The student should have left the radical in the denominator since it is already in simplest form"
+    - "The student used the wrong radical — the denominator should be multiplied by −√5"
+  answer: 1
+  explanation: "Rationalization works by multiplying both numerator and denominator by the same nonzero value — which is multiplying by 1, leaving the expression's value unchanged. Multiplying only the denominator divides by √5 without compensating the numerator, changing the value entirely. The correct rationalization: (1 · √5)/(√5 · √5) = √5/5. Verifying with a calculator that 1/√5 ≈ 0.447 and √5/5 ≈ 0.447 confirms the equivalence."
+
+- question: "To rationalize the denominator of 3/(2 + √7), what should you multiply numerator and denominator by?"
+  type: multiple-choice
+  options:
+    - "√7/√7, to eliminate the radical directly"
+    - "(2 − √7)/(2 − √7), the conjugate, to use the difference of squares pattern"
+    - "(2 + √7)/(2 + √7), the same expression, to square the denominator"
+    - "1/(2 − √7), to cancel the sum"
+  answer: 1
+  explanation: "When the denominator is a binomial containing a radical (a + √b), you multiply by the conjugate (a − √b)/(a − √b). The product (2 + √7)(2 − √7) = 4 − 7 = −3, which is rational — no radical remains. Multiplying by √7/√7 alone won't clear the 2 term. Squaring the original denominator creates a more complex irrational expression. The conjugate works precisely because it applies the difference of squares identity."
+
+- question: "Rationalizing the denominator changes the numerical value of the expression."
+  type: true-false
+  answer: false
+  explanation: "False. Rationalization multiplies the numerator and denominator by the same nonzero quantity — equivalent to multiplying the entire expression by 1. The numerical value is preserved exactly. You can verify: 1/√3 ≈ 0.577 and √3/3 ≈ 0.577. Same number, different written form. This is why the technique is valid: it transforms the expression's appearance without altering what it equals."
+
+- question: "To rationalize 1/(3 − √2), the correct approach is to multiply by √2/√2, since √2 is the only irrational part of the denominator."
+  type: true-false
+  answer: false
+  explanation: "False. When the denominator is a two-term expression (a − √b), the conjugate is (a + √b)/(a + √b) — the full two-term expression with the sign flipped. Multiplying (3 − √2)(3 + √2) = 9 − 2 = 7, eliminating the radical. Multiplying by √2/√2 alone gives (3√2 − 2)/2√2, which still has a radical in the denominator. The difference of squares identity requires the full conjugate, not just the radical part."
+
+- question: "Why is the conjugate technique guaranteed to produce a rational denominator when the denominator is of the form (a + √b)? What algebraic identity does it exploit?"
+  type: short-answer
+  answer: "The conjugate technique exploits the difference of squares identity: (a + √b)(a − √b) = a² − (√b)² = a² − b. Since a and b are rational, a² − b is rational. The radical cancels because squaring √b eliminates the square root. The conjugate is specifically chosen to pair with the original expression and produce this square-difference, which has no remaining radical."
+  explanation: "This is not a trick — it's a direct application of an identity students already know. The same pattern underlies many algebraic techniques: whenever you see (√a + √b), the conjugate (√a − √b) produces (√a)² − (√b)² = a − b, rational if a and b are rational. Recognizing this structure is what separates students who understand rationalization from those who only memorize the steps."
+```
+
 ## Explainer
 
 Rationalizing the denominator is an exercise in recognizing that a fraction's value doesn't change when you multiply numerator and denominator by the same nonzero number. From your work with radicals, you know that √a · √a = a — the radical cancels itself. The key insight is that multiplying by √3/√3 is multiplying by 1, so you haven't changed the number, only its written form. When the denominator is 1/√3, multiplying by √3/√3 gives √3/3, which has no radical in the denominator and is in a standard, easily comparable form.

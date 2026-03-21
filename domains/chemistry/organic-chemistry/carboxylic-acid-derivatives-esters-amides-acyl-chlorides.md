@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 Carboxylic acid derivatives share the acyl group (RCO-) and undergo nucleophilic acyl substitution. Acyl chlorides are highly reactive; anhydrides and esters are moderately reactive; amides are least reactive. IUPAC nomenclature specifies the type (e.g., ethanoate for an ester, ethanamide for an amide). Understanding the reactivity trends and functional group structures is essential for synthesis planning.
 
+## Questions
+
+```yaml
+- question: "A chemist wants to synthesize an amide from a carboxylic acid and an amine. She tries mixing them directly but gets mostly unreacted starting materials. She should instead first convert the carboxylic acid to which intermediate?"
+  type: multiple-choice
+  options:
+    - "An ester, then react with the amine"
+    - "An acyl chloride, then react with the amine"
+    - "An anhydride, then react with the amine — both are equally valid"
+    - "No conversion is needed; heating the mixture suffices"
+  answer: 1
+  explanation: "Direct combination of a carboxylic acid and amine leads to an acid-base neutralization (forming a salt) rather than amide bond formation. The solution is to activate the acid by converting it to a more reactive derivative — the acyl chloride — which reacts readily with the amine to form the amide. Option A (via ester) is technically possible but slower and less clean. The key principle is that synthesis flows downhill: acyl chloride → ester/anhydride → amide, never uphill."
+
+- question: "Why are amides the least reactive of the carboxylic acid derivatives toward nucleophilic acyl substitution?"
+  type: multiple-choice
+  options:
+    - "Amides have the largest molecular weight, making diffusion to the reaction site slower"
+    - "The nitrogen lone pair donates strongly into the carbonyl via resonance, reducing electrophilicity at the carbonyl carbon"
+    - "The C–N bond is weaker than the C–O bond in esters, making amides unstable"
+    - "Amides are less soluble in common solvents, so reagents cannot access the carbonyl"
+  answer: 1
+  explanation: "Reactivity in nucleophilic acyl substitution is determined by how electrophilic the carbonyl carbon is. Nitrogen is a stronger resonance donor than oxygen — its lone pair delocalizes more extensively into the carbonyl π system, reducing the partial positive charge on carbon and making it less attractive to nucleophiles. This is not a physical/solubility effect but an electronic one rooted in nitrogen's better lone-pair overlap with the carbonyl. Acyl chlorides are most reactive because chlorine's 3p orbitals overlap poorly with the 2p carbonyl, leaving the carbon highly electrophilic."
+
+- question: "An acyl chloride is more reactive than an ester because chlorine donates more electron density into the carbonyl through resonance than oxygen does."
+  type: true-false
+  answer: false
+  explanation: "This reverses the explanation. Acyl chlorides are MORE reactive than esters precisely because chlorine donates LESS electron density into the carbonyl than oxygen does. Chlorine's 3p orbital overlaps poorly with the 2p orbital on carbon, so the carbonyl carbon remains highly electrophilic. In esters, the alkoxy oxygen's lone pair delocalizes readily into the carbonyl, reducing electrophilicity and decreasing reactivity. Greater resonance donation = less reactive, not more."
+
+- question: "You can convert an ester into an acyl chloride simply by treating it with a suitable chlorinating reagent under mild conditions."
+  type: true-false
+  answer: false
+  explanation: "Interconversion among carboxylic acid derivatives flows only downhill — from more reactive to less reactive (acyl chloride → anhydride → ester → amide). You cannot convert a less reactive derivative into a more reactive one without first reverting to the free carboxylic acid and then re-activating it. To go from an ester to an acyl chloride, you must first hydrolyze the ester back to the carboxylic acid, then treat the acid with a reagent like SOCl₂ or PCl₃. This 'downhill-only' principle is a core organizing concept in acyl substitution chemistry."
+
+- question: "Explain the reactivity trend among acyl chlorides, esters, and amides in nucleophilic acyl substitution. What structural feature drives the differences?"
+  type: short-answer
+  answer: "Reactivity follows acyl chloride > ester > amide. The key driver is how much the leaving group donates electron density back into the carbonyl carbon through resonance. Chlorine donates the least (poor 3p–2p orbital overlap), leaving the carbonyl carbon highly electrophilic and reactive. Oxygen in esters donates more, reducing electrophilicity. Nitrogen in amides donates the most, making the carbonyl carbon least electrophilic and amides the most resistant to nucleophilic attack."
+  explanation: "Understanding this trend is essential for synthesis: you always activate toward a more reactive form before converting to a less reactive one. The driving force is not bond strength or leaving group size — it is resonance donation from the atom directly bonded to the carbonyl. Better donation → less electrophilic carbonyl → lower reactivity. This is why amides are the thermodynamic 'sink' in acyl substitution chemistry."
+```
+
 ## Explainer
 
 All carboxylic acid derivatives share a common structural core: the **acyl group** (R–C=O) bonded to a leaving group. What changes from one derivative to another is only the identity of that leaving group — chloride in acyl chlorides, a carboxylate in anhydrides, an alkoxy group (–OR') in esters, and an amine (–NR₂) in amides. This single substitution creates a family of compounds with the same fundamental reaction — nucleophilic acyl substitution — but with dramatically different reactivities.

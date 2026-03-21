@@ -32,6 +32,45 @@ Study longitudinal data tracking emotion expression and coping strategies across
 ## Common Misconceptions
 A common error is assuming emotional regulation means suppression or elimination of emotions; in fact, healthy regulation allows emotional experience while managing behavioral and physiological responses. Another is expecting uniformity across situations; children regulate differently depending on familiarity, support available, and emotional intensity.
 
+## Questions
+
+```yaml
+- question: "A 4-year-old is frustrated during a difficult puzzle and starts crying. A parent sits with her, models slow breathing, and says 'let's try to feel calmer together.' This interaction best illustrates:"
+  type: multiple-choice
+  options:
+    - "Emotional suppression — the parent is teaching the child to hide distress"
+    - "Co-regulation — the parent is providing external regulatory support the child cannot yet supply independently"
+    - "Prefrontal cortex maturation — the parent is accelerating neurological development"
+    - "Behavioral inhibition — the child is learning to freeze rather than act on impulse"
+  answer: 1
+  explanation: "Co-regulation is the process by which a caregiver provides the external scaffolding that allows a child to manage an emotional state they cannot yet regulate alone. This is the developmental foundation from which internal self-regulation later emerges. Suppression would involve stopping the child from expressing distress; what's described is managing and modulating it together."
+
+- question: "A therapist reports that a 7-year-old 'has excellent emotional regulation' because she never cries at school, even during clearly upsetting events. What is the most accurate critique of this assessment?"
+  type: multiple-choice
+  options:
+    - "This is correct — consistent absence of distress expression indicates successful regulation"
+    - "This likely reflects emotional suppression rather than healthy regulation; healthy regulation allows emotional experience while managing behavioral responses, not eliminating them"
+    - "School-age children are developmentally too young for emotional regulation to be assessed"
+    - "Crying is always a sign of dysregulation, so its absence confirms good regulation"
+  answer: 1
+  explanation: "A core misconception is equating emotional regulation with suppression or absence of emotion. Healthy regulation means the child can experience the emotion while modulating its intensity and behavioral expression — not that the emotion disappears. A child who shows no distress across genuinely upsetting events may be suppressing, which carries its own risks. The assessment confuses the visible output (no crying) with the underlying regulatory process."
+
+- question: "Because the prefrontal cortex is immature in early childhood, very young children cannot benefit from caregiver emotional coaching and must simply wait for neurological maturation."
+  type: true-false
+  answer: false
+  explanation: "This reverses the developmental picture. Co-regulation with caregivers is the starting point for emotional development, not something that awaits neurological readiness. Children benefit from caregiver scaffolding from infancy; these co-regulatory experiences are what build the internal representations and neural circuitry that eventually support independent regulation. The prefrontal cortex matures partly through use, shaped by repeated co-regulatory interactions."
+
+- question: "A child with high negative emotionality (a reactive temperament) will inevitably develop poorer emotional regulation than a low-reactive child, regardless of parenting quality."
+  type: true-false
+  answer: false
+  explanation: "Temperament sets baseline difficulty — reactive children face a harder regulatory challenge — but temperament interacts with environment rather than determining outcomes alone. Responsive caregiving, secure attachment, and explicit emotional coaching substantially improve regulatory outcomes even for high-reactive children. The interaction between biology and environment is the key insight: neither temperament nor caregiving alone predicts outcomes."
+
+- question: "Why is co-regulation considered the developmental foundation of emotional self-regulation, rather than simply a substitute for it?"
+  type: short-answer
+  answer: "Children first practice regulatory strategies in partnership with caregivers — distraction, reframing, breathing — and gradually internalize these strategies as their own. Self-regulation doesn't develop independently of co-regulation; it emerges from it. The caregiver's external scaffolding provides the template for the child's internal process, making co-regulation the necessary precursor rather than a workaround for immaturity."
+  explanation: "This distinction matters clinically and developmentally. It means that supporting caregivers in effective co-regulation is not just a stopgap — it is directly building the child's future self-regulatory capacity. Environments that deprive children of co-regulatory opportunities (e.g., dismissive or harsh parenting) don't just fail to help; they undermine the developmental process that produces self-regulation."
+```
+
 ## Explainer
 
 From your study of toddler social-emotional development and attachment theory, you already know that early emotional life is fundamentally relational — infants experience and manage emotions through their caregivers, not independently. A securely attached infant who is distressed can turn to a responsive caregiver and be soothed; the distress subsides not through any capacity the infant has developed, but through the external regulatory support the caregiver provides. This is **co-regulation**, and it is the developmental starting point from which all later emotional self-regulation emerges. Every strategy a child eventually uses independently — distraction, reappraisal, problem-solving — was first practiced in partnership with an adult before it was internalized.

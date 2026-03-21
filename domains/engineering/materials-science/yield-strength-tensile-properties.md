@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Yield strength is the stress at which significant plastic deformation begins, marking the transition from elastic to plastic behavior. Ultimate tensile strength is the maximum stress the material sustains before necking and fracture. The stress-strain curve shape—including yield point, strain hardening rate, and fracture point—reveals a material's mechanical response and suitability for applications. Yield strength can be raised through alloying, cold work, and heat treatment.
 
+## Questions
+
+```yaml
+- question: "An engineer is designing a structural bracket for a bridge that must not undergo any permanent deformation under service loads. Which material property should be the primary design criterion?"
+  type: multiple-choice
+  options:
+    - "Ultimate tensile strength (UTS) — this defines the absolute strength limit of the material"
+    - "Young's modulus — this determines how much the bracket will deflect elastically under load"
+    - "Yield strength (σ_y) — this is the stress at which permanent plastic deformation begins"
+    - "Ductility (percent elongation) — ductile materials can absorb loads without sudden failure"
+  answer: 2
+  explanation: "Yield strength is the design-limiting property for structures that cannot tolerate permanent deformation. At stresses above σ_y, dislocations move and the material deforms plastically — permanently. The UTS is higher than σ_y but by the time UTS is reached, the material has already undergone substantial plastic deformation and necking has begun. Using UTS as a design criterion would allow the bracket to permanently deform well before 'failure' by the UTS metric. Young's modulus governs elastic deflection, which is recoverable and not permanent deformation."
+
+- question: "A metallurgist applies a precipitation hardening heat treatment to an aluminum alloy, significantly increasing its yield strength. A student predicts that Young's modulus will also increase, since the alloy is now 'stronger.' Is this correct?"
+  type: multiple-choice
+  options:
+    - "Yes — heat treatment increases atomic bond strength, raising both yield strength and Young's modulus"
+    - "No — Young's modulus is determined by the intrinsic atomic bonding and crystal structure of the material, which heat treatment does not alter; σ_y increases but E remains unchanged"
+    - "Yes — stronger materials always have higher elastic moduli, since both properties measure resistance to deformation"
+    - "No — heat treatment only affects ductility and toughness, not yield strength or Young's modulus"
+  answer: 1
+  explanation: "Young's modulus E reflects the stiffness of atomic bonds and the crystal structure — properties determined at the atomic level that are not changed by alloying additions, heat treatment, or cold work. All strengthening mechanisms (precipitation hardening, solid-solution strengthening, cold work, grain refinement) raise yield strength by impeding dislocation motion, but they do not alter the interatomic bond stiffness that governs E. This is why the elastic portion of the stress-strain curve has the same slope for annealed and precipitation-hardened aluminum — same E, different σ_y."
+
+- question: "Cold working a metal increases its yield strength but typically reduces its ductility."
+  type: true-false
+  answer: true
+  explanation: "Cold work introduces plastic deformation, which multiplies dislocation density dramatically. The dislocation tangles create obstacles for further dislocation motion, raising the stress required to continue deforming (increasing σ_y). However, the material has already consumed part of its capacity for plastic deformation during the cold working process — the remaining ductility (percent elongation to fracture) is reduced. There is a fundamental tradeoff: you are borrowing from future ductility to achieve higher present strength. This is why severely cold-worked metals may become brittle, and why annealing (a heat treatment that reduces dislocation density) is used to restore ductility at the cost of strength."
+
+- question: "The ultimate tensile strength (UTS) is the most relevant material property for designing load-bearing structures that must not permanently deform, because it marks the absolute upper limit of the material's load-bearing capacity."
+  type: true-false
+  answer: false
+  explanation: "UTS is the maximum nominal stress on the engineering stress-strain curve, but by the time a material reaches UTS, it has already undergone extensive plastic deformation throughout the strain-hardening region. A structure designed to the UTS as the allowable stress would permanently deform long before approaching that limit. The design-limiting property for structures that cannot tolerate permanent deformation is the yield strength σ_y — typically much lower than UTS. Safety factors in structural design are applied to σ_y, ensuring stresses remain in the elastic regime under service loads."
+
+- question: "All strengthening mechanisms — solid-solution strengthening, cold work, grain refinement, and precipitation hardening — increase yield strength through the same fundamental physical principle. What is it?"
+  type: short-answer
+  answer: "All strengthening mechanisms work by impeding dislocation motion. Plastic deformation requires dislocations to move through the crystal lattice; anything that creates obstacles to that movement raises the stress needed to continue deforming. Solute atoms create local elastic stress fields that pin dislocations (solid-solution strengthening). Prior plastic deformation generates high dislocation density, so dislocations tangle and block each other (work hardening). Grain boundaries interrupt slip planes and force dislocations to change direction (Hall-Petch: σ_y ∝ d^{−1/2}). Precipitate particles force dislocations to either cut through them or bow around them (Orowan bypass). Different mechanisms, same principle: restrict dislocation motion, raise yield strength."
+  explanation: "Understanding this unifying principle — dislocation obstruction — allows materials engineers to predict how different processing routes interact and combine. For example, combining grain refinement (Hall-Petch) with precipitation hardening is additive: both mechanisms operate independently (one at grain boundaries, one at precipitates) and both impede dislocations, so combined strengthening exceeds either alone. Knowing the mechanism also predicts limitations: cold work strengthening is undone by annealing because heating reduces dislocation density; precipitate strengthening is lost if the alloy is overaged and precipitates coarsen."
+```
+
 ## Explainer
 
 The tensile test is the single most informative experiment in materials engineering: a standardized specimen is pulled in tension at a controlled rate while force and elongation are recorded. From your understanding of plastic deformation and slip, you can now interpret every feature of the resulting **stress-strain curve** as a physical story about what the dislocations are doing.

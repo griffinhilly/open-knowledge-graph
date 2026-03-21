@@ -30,6 +30,45 @@ Trace multiple exposure pathways for a single environmental contaminant to human
 ## Common Misconceptions
 Assuming single-medium control strategies address all pathways—lead, for example, contaminated dust, paint, water, and soil requiring comprehensive multi-media strategies.
 
+## Questions
+
+```yaml
+- question: "A city installs advanced chlorination and filtration for its drinking water, eliminating a Cryptosporidium outbreak. Three months later, blood lead levels in children in older housing remain elevated. What is the best explanation?"
+  type: multiple-choice
+  options:
+    - "Chlorination also removes dissolved lead; the elevated levels must stem from a different pathogen causing the test results"
+    - "Water treatment addresses the waterborne pathogen pathway, but lead exposure in older housing involves separate pathways — paint dust, soil, and lead service lines — that require their own targeted interventions"
+    - "The water filtration was insufficiently fine-grained; upgrading to nanofiltration would remove lead as well as pathogens"
+    - "Lead exposure is primarily via air inhalation from industrial sources, which water treatment cannot address"
+  answer: 1
+  explanation: "This scenario illustrates pathway-specificity. Chlorination and filtration break the waterborne pathogen transmission pathway effectively — but lead is a chemically distinct contaminant with multiple exposure routes. In older housing, lead paint dust (inhalation and ingestion), lead-contaminated soil (ingestion), and lead service lines (water ingestion) are separate pathways that each require their own control: paint stabilization or removal, soil remediation, and pipe replacement respectively. A single-medium control strategy does not address a multi-pathway contaminant."
+
+- question: "Mercury released from coal power plants eventually reaches dangerous concentrations in large predatory fish like tuna. Which pathway correctly traces its route?"
+  type: multiple-choice
+  options:
+    - "Air emissions → lung absorption by fish during aerial respiration → bioaccumulation in tissue"
+    - "Air emissions → water deposition → bacterial methylation in sediment → bioaccumulation in small fish → biomagnification in large predatory fish → human ingestion"
+    - "Water discharge → direct plant uptake → transfer to fish through aquatic food webs → human ingestion"
+    - "Soil contamination → groundwater → fish skin absorption → biomagnification up the food chain"
+  answer: 1
+  explanation: "The pathway is: air → water → sediment bacteria (methylation to neurotoxic methylmercury) → small aquatic organisms → large predatory fish (biomagnification at each trophic level). The methylation step is critical — elemental mercury from air emissions is converted to methylmercury by anaerobic bacteria in sediment, which is the form that bioaccumulates and biomagnifies. Concentrations in top predators can be millions of times greater than ambient water levels. Intervening only at the power plant source or only with fish consumption advisories leaves much of the chain intact."
+
+- question: "Water treatment that eliminates waterborne pathogens from a municipal supply also significantly reduces lead exposure from old lead service lines in the same distribution system."
+  type: true-false
+  answer: false
+  explanation: "Chlorination and filtration target biological contaminants (bacteria, parasites, viruses) through disinfection and physical removal. Dissolved lead ions leached from old service pipes are not removed by standard water treatment — they enter the water after treatment, between the plant and the tap. Lead pipes must be physically replaced to eliminate this exposure pathway. This is why Flint, Michigan residents continued to face lead exposure even after water treatment changes were made: the pipes remained."
+
+- question: "A child and an adult in the same household drinking the same tap water at the same lead concentration may have substantially different blood lead levels, because lead absorption efficiency from the GI tract varies with age and nutritional status."
+  type: true-false
+  answer: true
+  explanation: "Children absorb lead far more efficiently from the GI tract than adults — estimates suggest children absorb 40–50% of ingested lead compared to ~10% in adults. Iron deficiency and low calcium intake increase absorption further. This means the same water lead concentration represents a higher effective dose for children, which is why blood lead reference values are set specifically for children and why pediatric risk assessment uses different absorption factors."
+
+- question: "Why must public health interventions for environmental contaminants be pathway-specific? What happens when a single-medium control strategy is applied to a multi-pathway contaminant like lead?"
+  type: short-answer
+  answer: "Because different pathways are chemically and physically distinct — the same contaminant travels through different media (air, water, soil, food), enters through different routes (inhalation, ingestion, dermal contact), and requires different interventions at each step. Controlling one pathway eliminates only that exposure fraction. For lead in older urban environments, sealing or removing lead paint stops paint chip ingestion and dust inhalation; replacing lead service lines stops water-route exposure; remediating contaminated soil stops soil ingestion and dust; these are four separate interventions. Addressing only one — say, water filtration — leaves the other pathways intact and may give false assurance that the problem is solved when children remain exposed."
+  explanation: "The framework of source → pathway → receptor makes clear that intervention can target any link. But complete exposure reduction requires identifying all active pathways for a given contaminant in a given community. Exposure assessment (the second prerequisite for this topic) is how you determine which pathways dominate and which populations bear the greatest burden — necessary steps before designing an intervention."
+```
+
 ## Explainer
 
 From your study of environmental health determinants, you know that the physical environment shapes population health through exposures — to chemicals, pathogens, radiation, and other hazards. This topic gives you the analytical framework for tracing exactly *how* a contaminant gets from its source into a human body. That framework has three components: **source** (where the contaminant originates), **pathway** (the environmental medium through which it travels), and **receptor** (the exposed human population). Public health intervention can break the chain at any of these three points.

@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 A bronze lump exactly constitutes a statue at a time with all the same parts and location, yet they differ in identity conditions—the statue ceases to exist if melted down but the lump continues. This pressures theories of identity and composition, forcing choice between denying that constitution and identity differ, or explaining why they come apart.
 
+## Questions
+
+```yaml
+- question: "A sculptor melts down a statue of Hermes. The bronze lump continues to exist; the statue ceases to exist. What does this show about the lump and the statue before the melting?"
+  type: multiple-choice
+  options:
+    - "Nothing special — all objects cease to exist when sufficiently transformed"
+    - "The lump and the statue were never made of the same matter"
+    - "They were not strictly identical objects, since they have different persistence conditions — objects with different properties cannot be the same object (by Leibniz's law)"
+    - "The statue was a part of the lump, not a distinct object coincident with it"
+  answer: 2
+  explanation: "If the lump and the statue were strictly identical, they would share all properties — including their persistence conditions. But they don't: the statue has the property 'would cease to exist if melted down' while the lump lacks it. By the indiscernibility of identicals (Leibniz's law in reverse), if they differ in any property, they are not identical. The melting scenario makes this vivid: their fates come apart, proving they were two distinct objects even when they shared all their matter and spatial location."
+
+- question: "Leibniz's Law is relevant to the material constitution problem because:"
+  type: multiple-choice
+  options:
+    - "It proves that two objects in the same location must be identical"
+    - "It states that if two objects share all properties, they are identical — so if the lump and statue differ in any property (like persistence conditions), they cannot be the same object"
+    - "It establishes that statues and lumps belong to different ontological categories and cannot be compared"
+    - "It shows that modal properties like 'would survive melting' are not genuine properties and don't affect identity"
+  answer: 1
+  explanation: "Leibniz's Law (the indiscernibility of identicals) states: if A = B, then A and B share all properties. Contraposing: if A and B differ in any property, then A ≠ B. The statue has the modal property 'would cease to exist if melted down'; the lump lacks this property (it would survive). This property difference, if genuine, entails they are not identical. Defenders of strict identity must argue that modal and sortal properties like these are not genuine first-class properties — which requires a substantive metaphysical commitment."
+
+- question: "The material constitution problem applies only to artifacts like statues; organisms and persons do not face analogous puzzles about the relationship between an entity and the matter constituting it."
+  type: true-false
+  answer: false
+  explanation: "The puzzle generalizes far beyond artifacts. Organisms and the masses of cells composing them, rivers and the water molecules constituting them, persons and the bodies constituting them — all face analogous questions. A person might survive the loss of a limb (their body changes but they persist), while the original mass of matter no longer exists as a unified whole. The statue case is philosophically vivid because persistence conditions can be stipulated clearly, but the underlying issue — the relationship between material composition and object identity — appears throughout philosophy of mind, personal identity, and natural kinds."
+
+- question: "If a bronze lump and a bronze statue occupy exactly the same spatial region at the same time and share all their physical parts, they must be numerically identical objects."
+  type: true-false
+  answer: false
+  explanation: "This is precisely what the material constitution problem challenges. The intuition that two material objects cannot fully occupy the same location (the 'impenetrability' intuition) supports the conclusion that coincident objects must be identical. But the lump and statue can have different persistence conditions even while sharing all physical parts and spatial location — which means they cannot be strictly identical. The problem forces a choice: deny that persistence conditions are genuine distinguishing properties, accept coincident distinct objects, or adopt an alternative metaphysical framework (temporal parts, sortal-relative identity, or eliminativism)."
+
+- question: "What is the 'problem of coincident objects,' and why does it arise from the lump-statue case?"
+  type: short-answer
+  answer: "The problem of coincident objects is that the lump and the statue appear to be two numerically distinct objects (because they have different persistence conditions) that nonetheless fully occupy the same spatial region at the same time and share all their matter. This violates the widespread intuition that space does not allow two material objects to coincide completely — that location is sufficient to individuate material objects. The lump-statue case generates this problem because it shows two objects that are materially indistinguishable at a moment yet differ in their modal properties (what they can survive)."
+  explanation: "The problem has bite because both horns are uncomfortable. Accepting coincident objects means revising our intuition about spatial individuation. Denying them means either claiming the lump and statue are identical (hard to square with their different fates) or eliminating one of them from the ontology (either denying statues exist as genuine objects, or treating the lump-talk as fiction). Each major response — temporal parts, sortal-relative identity, eliminativism — involves a substantive philosophical cost. This is what makes material constitution one of the most actively debated problems in contemporary metaphysics."
+```
+
 ## Explainer
 
 Your prerequisites have given you two key tools. From the study of constitution versus identity, you know that two things can be constitutionally related — made of exactly the same matter, occupying the same space — without being identical. From mereology and composition principles, you know the questions around what makes parts compose a whole, and under what conditions two collections of parts constitute one object versus two. The **material constitution problem** is where these threads collide most dramatically.

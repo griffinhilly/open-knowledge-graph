@@ -30,6 +30,45 @@ Perform gravimetric analyses on real samples (ore, mineral, pharmaceutical) with
 ## Common Misconceptions
 Assuming faster precipitation gives better results (actually leads to impure or co-precipitated material). Thinking gravimetric analysis is obsolete when it remains gold-standard for high-accuracy work.
 
+## Questions
+
+```yaml
+- question: "A student is determining iron in a soil sample that also contains aluminum. Without any masking step, she precipitates iron as Fe(OH)₃ by raising the pH. What error is most likely introduced?"
+  type: multiple-choice
+  options:
+    - "Iron will fail to precipitate because aluminum competes for hydroxide ions"
+    - "Aluminum hydroxide will co-precipitate with iron hydroxide, giving a falsely high precipitate mass"
+    - "The filtrate will become too viscous to filter properly"
+    - "Iron will be reduced to Fe²⁺ under alkaline conditions, preventing precipitation"
+  answer: 1
+  explanation: "Aluminum also forms an insoluble hydroxide at similar pH ranges, so without masking it will co-precipitate alongside iron. The collected precipitate contains both Fe(OH)₃ and Al(OH)₃, making the measured mass higher than the iron content alone. A masking agent such as tartrate complexes aluminum and keeps it in solution, so only iron precipitates."
+
+- question: "Iron is determined gravimetrically by igniting the precipitate to Fe₂O₃ (molar mass 159.69 g/mol; M(Fe) = 55.85 g/mol). The gravimetric factor for this determination is:"
+  type: multiple-choice
+  options:
+    - "GF = 0.6994, so 0.4000 g of Fe₂O₃ corresponds to 0.2798 g Fe"
+    - "GF = 1.430, so 0.4000 g of Fe₂O₃ corresponds to 0.5720 g Fe"
+    - "GF = 0.3497, so 0.4000 g of Fe₂O₃ corresponds to 0.1399 g Fe"
+    - "GF = 2.860, so 0.4000 g of Fe₂O₃ corresponds to 1.144 g Fe"
+  answer: 0
+  explanation: "The gravimetric factor is (2 × M(Fe)) / M(Fe₂O₃) = 111.70 / 159.69 = 0.6994, reflecting the stoichiometry that every mole of Fe₂O₃ contains 2 moles of Fe. Mass of Fe = 0.4000 × 0.6994 = 0.2798 g. The GF is purely a stoichiometric ratio — no calibration curve is needed, which is what makes gravimetry a primary method."
+
+- question: "Digesting a gravimetric precipitate (holding it in the hot mother liquor for an extended time) improves purity through Ostwald ripening, where small impure crystals dissolve and reprecipitate on larger, purer crystals."
+  type: true-false
+  answer: true
+  explanation: "Digestion exploits Ostwald ripening: small crystals have higher surface energy and dissolve preferentially, with the dissolved material redepositing on larger crystals. This produces fewer, larger crystals with less surface area to adsorb impurities, improving both purity and filterability. It is the standard technique for correcting the impurity problem caused by any initial rapid nucleation."
+
+- question: "Gravimetric analysis requires a calibration curve to convert the measured precipitate mass into analyte concentration, just as spectroscopic techniques require a standard curve."
+  type: true-false
+  answer: false
+  explanation: "This is a key misconception. Gravimetry converts precipitate mass to analyte mass using only the gravimetric factor — a stoichiometric ratio of molar masses. No calibration curve is needed because the measurement (mass on a balance) is directly traceable to SI units. This is precisely why gravimetry serves as a reference method for validating other techniques: it has no response factors, no matrix effects, and no instrument drift."
+
+- question: "Why does rapid precipitation from a highly supersaturated solution produce less accurate gravimetric results than slow precipitation from a slightly supersaturated, dilute solution?"
+  type: short-answer
+  answer: "Rapid precipitation creates many small crystals simultaneously. Small crystals have high surface-to-volume ratios, and impurities from the solution are adsorbed onto these surfaces or occluded within the crystal lattice as it grows quickly — this is co-precipitation. Slow precipitation from dilute solution creates fewer nucleation sites, producing larger crystals with less surface area for impurity adsorption. Digestion can further anneal the crystals via Ostwald ripening, dissolving impure small crystallites and reforming them as larger, purer ones."
+  explanation: "The rate of precipitation controls crystal size, and crystal size controls the surface area available for impurity adsorption. Co-precipitation is not a minor error — in trace analysis, it can dramatically inflate the measured mass. Choosing dilute solutions, adding precipitant slowly with stirring, precipitating from hot solution, and digesting the precipitate are all strategies targeting the same root cause: minimizing the surface area of newly formed crystals during the critical nucleation stage."
+```
+
 ## Explainer
 
 You already know the basics of gravimetric analysis: precipitate the analyte as an insoluble compound, filter, dry or ignite, and weigh. Advanced gravimetric work builds on this foundation by addressing the complications that arise in real samples — interfering ions, co-precipitation, and the need for quantitative recovery from complex matrices. The central challenge is ensuring that the precipitate contains only the analyte in a known stoichiometric form and that nothing is lost or added during the procedure.

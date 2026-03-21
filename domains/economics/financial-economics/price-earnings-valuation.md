@@ -34,6 +34,45 @@ Compare P/E ratios across sectors — technology vs. utilities — to understand
 - A low P/E is not automatically a signal of undervaluation — it may reflect low growth expectations, elevated risk, or structural decline in the industry.
 - Comparing P/E ratios across firms with different accounting standards, capital structures, or earnings quality requires careful normalization.
 
+## Questions
+
+```yaml
+- question: "A technology company trades at a P/E ratio of 45, while a utility company trades at a P/E of 14. An analyst concludes the tech company is severely overvalued. What critical information is missing from this comparison?"
+  type: multiple-choice
+  options:
+    - "The names of the companies and the year the ratio was calculated"
+    - "The expected earnings growth rate and required return for each company — a high P/E may be fully justified by high growth expectations or lower risk"
+    - "Whether the utility company pays dividends"
+    - "The total number of shares outstanding for each company"
+  answer: 1
+  explanation: "From the justified P/E formula (P/E = payout ratio / (r − g)), a high P/E can reflect high expected growth (large g), low required return (small r), or generous payout policy — none of which imply overvaluation. Technology companies often have high growth expectations that mathematically justify high multiples. Comparing raw P/E across sectors without examining the underlying growth and risk assumptions confuses the symptom (high multiple) with the diagnosis (overvaluation)."
+
+- question: "According to the Gordon Growth Model derivation of the justified P/E, which of the following changes would cause a stock's P/E ratio to increase, all else equal?"
+  type: multiple-choice
+  options:
+    - "An increase in the required rate of return r"
+    - "A decrease in the expected earnings growth rate g"
+    - "A decrease in the payout ratio"
+    - "An increase in the expected earnings growth rate g"
+  answer: 3
+  explanation: "The justified P/E = payout ratio / (r − g). Increasing g reduces the denominator (r − g), which increases the ratio. This is why high-growth firms command high P/E multiples — the market is pricing in rapid future earnings growth. Conversely, increasing r (higher required return, implying more risk) raises the denominator and reduces the P/E. Understanding this formula explains most sector-level P/E differences without invoking irrationality."
+
+- question: "A stock with a low P/E ratio is always a better investment than one with a high P/E ratio, because you are paying less for each dollar of earnings."
+  type: true-false
+  answer: false
+  explanation: "False. A low P/E may reflect low growth expectations, elevated risk, or structural industry decline — not undervaluation. From the justified P/E formula, a low P/E arises when r is high (risky company) or g is low (slow-growing or declining company). These are reasons to demand a lower price, not signals of a bargain. 'Value traps' — cheap stocks that stay cheap because fundamentals are genuinely poor — are the graveyard of investors who use P/E in isolation without examining what drives the multiple."
+
+- question: "The P/E ratio alone cannot determine whether a stock is overvalued or undervalued — that judgment requires understanding what growth and risk assumptions would justify the current multiple."
+  type: true-false
+  answer: true
+  explanation: "True. The justified P/E formula (P/E = payout ratio / (r − g)) shows that the correct P/E depends on growth expectations and required return, which differ across firms, sectors, and time periods. A P/E of 30 may be undervalued for a company with 20% annual earnings growth, and a P/E of 10 may be overvalued for a company in structural decline. Valuation requires comparing the actual P/E to what the fundamentals justify — the multiple alone conveys nothing without context."
+
+- question: "Why can a high P/E ratio be fully rational and not indicate overvaluation? Use the Gordon Growth Model derivation to explain."
+  type: short-answer
+  answer: "The justified P/E derived from the Gordon Growth Model is P/E = payout ratio / (r − g). A high P/E is rational when the expected growth rate g is high (a large g shrinks the denominator, producing a high P/E) or when the required return r is low (less risk demands less return, also shrinking the denominator). A technology company with high expected annual earnings growth will have a high justified P/E; paying 40× earnings for it may be fair value, not speculation. Overvaluation occurs when the actual P/E exceeds what growth and risk can justify — not simply when the P/E is numerically high."
+  explanation: "The formula reveals the P/E as a compressed summary of growth and risk assumptions. The error of treating high P/E as overvaluation ignores that different companies have different growth trajectories and risk profiles. The right question is always: what growth rate and risk level would justify this P/E, and are those inputs reasonable given what I know about the company?"
+```
+
 ## Explainer
 
 From stock valuation fundamentals, you know a stock's price should equal the present value of its future dividends. The **dividend discount model** (DDM) gives a clean formula for a steadily growing firm: P = D₁ / (r − g), where D₁ is next year's dividend, r is the required return, and g is the constant growth rate. This DDM is the theoretical foundation for understanding why the P/E ratio contains so much information.

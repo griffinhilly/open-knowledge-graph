@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Some molecules cannot be represented by a single Lewis structure. Resonance structures are multiple valid Lewis structures that together describe the actual bonding, where electrons are delocalized across multiple bonds. The actual structure is a hybrid of all resonance forms, with bond order and length between single and double bond values.
 
+## Questions
+
+```yaml
+- question: "If you could experimentally measure the three C–O bond lengths in carbonate (CO₃²⁻), what would you find?"
+  type: multiple-choice
+  options:
+    - "Two long single bonds and one short double bond, depending on which oxygen is protonated"
+    - "All three bonds equal in length, with a value intermediate between a typical C–O single and C=O double bond"
+    - "All three bonds equal in length, identical to a normal C=O double bond"
+    - "Alternating long and short bonds that fluctuate as the molecule vibrates"
+  answer: 1
+  explanation: "Experiment shows all three C–O bonds in carbonate are identical, with a bond length (~1.29 Å) that falls between a pure C–O single bond (~1.43 Å) and a pure C=O double bond (~1.20 Å). This is the direct experimental signature of a resonance hybrid: the electrons are delocalized equally across all three bonds, giving each a bond order of 1⅓. If any single Lewis structure were 'the real structure,' one C=O bond would be measurably shorter than the others — which is not what experiment shows."
+
+- question: "Which statement best describes the relationship between resonance structures of a molecule?"
+  type: multiple-choice
+  options:
+    - "The molecule flickers rapidly between resonance forms, spending equal time in each"
+    - "The true electronic structure is a weighted average — a resonance hybrid — of all contributing forms simultaneously"
+    - "Resonance structures are constitutional isomers of the same molecular formula"
+    - "Only the lowest-energy resonance form represents the real structure at equilibrium"
+  answer: 1
+  explanation: "Resonance structures are not different molecules or snapshots in time — they are inadequate descriptions of a single real structure. The molecule exists only as the hybrid, with electrons genuinely delocalized over all the contributing bonds simultaneously. The 'flickering' interpretation (option A) is the classic misconception — it confuses resonance with a chemical equilibrium. A useful analogy: a mule is a hybrid of horse and donkey, not something that switches back and forth between being a horse and a donkey."
+
+- question: "A molecule with multiple resonance structures is less stable than an equivalent molecule represented by a single Lewis structure, because spreading electrons across more bonds weakens each individual bond."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true: resonance (electron delocalization) is a stabilizing force. Spreading electrons across more bonds lowers the overall energy of the system — this is the resonance stabilization energy (also called delocalization energy). Benzene, for example, is about 150 kJ/mol more stable than a hypothetical cyclohexatriene with three fully localized double bonds. The single-Lewis-structure molecule would actually be the higher-energy species if one could exist."
+
+- question: "In a resonance hybrid, bonds that participate in electron delocalization have lengths intermediate between those of isolated single and double bonds."
+  type: true-false
+  answer: true
+  explanation: "This is a measurable, experimentally confirmed consequence of delocalization. In carbonate (CO₃²⁻), the C–O bond length is ~1.29 Å, between a pure single (~1.43 Å) and pure double (~1.20 Å). In benzene, the C–C bonds are all ~1.40 Å, between ethane (~1.54 Å) and ethylene (~1.34 Å). Intermediate bond length is one of the key physical signatures that confirms a resonance hybrid rather than a rapidly equilibrating mixture."
+
+- question: "Why can't a single Lewis structure accurately describe the bonding in carbonate (CO₃²⁻), and what does the resonance hybrid tell us about the actual bond lengths and bond strengths?"
+  type: short-answer
+  answer: "Any single Lewis structure places a double bond to one oxygen and single bonds to the other two, but there is no chemical reason to choose which oxygen gets the double bond. More importantly, experiment shows all three C–O bonds are identical — same length and same strength — which a single structure cannot explain. The resonance hybrid tells us that the pi electrons are delocalized equally across all three C–O bonds, giving each a bond order of 1⅓, an intermediate bond length (~1.29 Å), and intermediate bond strength. The actual molecule is not alternating between structures — it exists only as this hybrid."
+  explanation: "The need for resonance arises whenever the symmetry or electron distribution of the real molecule is higher than any individual Lewis structure can represent. The practical consequences are real: partial bond character throughout means the molecule is more stable than any single structure predicts, and the charge is distributed rather than localized — both of which affect reactivity."
+```
+
 ## Explainer
 
 When you learned to draw Lewis structures, you placed electrons into bonds and lone pairs to satisfy the octet rule. That works perfectly for molecules like water or methane, where one arrangement accounts for all the bonding. But consider the carbonate ion, CO₃²⁻. You can draw a valid Lewis structure with a double bond to one oxygen and single bonds to the other two — but which oxygen gets the double bond? There is no experimental reason to pick one over another, and in fact measurements show all three C–O bonds are identical. A single Lewis structure cannot capture this reality, so we draw all three possibilities and call them **resonance structures**.

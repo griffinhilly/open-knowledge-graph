@@ -31,6 +31,45 @@ Sketch the Stirling cycle on P-V and T-S diagrams. Demonstrate that regeneration
 - Confusing the regenerator with a heat pump (it is passive heat storage/recovery).
 - Assuming the regenerator can achieve perfect heat exchange (real regenerators have losses).
 
+## Questions
+
+```yaml
+- question: "A Stirling engine is built without a regenerator. Compared to the ideal Stirling cycle, what is the consequence for efficiency?"
+  type: multiple-choice
+  options:
+    - "Efficiency is unchanged because the isothermal steps still operate between T_H and T_C"
+    - "Efficiency increases because the simpler design reduces mechanical friction losses"
+    - "Efficiency falls below Carnot because heat must now be supplied or rejected from the reservoirs during the isochoric steps, introducing irreversibility"
+    - "Efficiency falls to zero because the cycle cannot complete without the regenerator"
+  answer: 2
+  explanation: "The regenerator's purpose is to internalize the isochoric heat exchanges — storing heat from the gas as it cools from T_H to T_C, then returning it as the gas heats back up. Without it, those steps must draw heat from the hot reservoir or reject heat to the cold reservoir across a finite temperature difference, which is irreversible. The net result is more heat input required for the same work output, reducing efficiency below the Carnot limit."
+
+- question: "What is the physical role of the regenerator in a Stirling engine?"
+  type: multiple-choice
+  options:
+    - "It acts as a heat pump, actively moving heat from the cold side to the hot side"
+    - "It stores heat from the working gas during the isochoric cooling step and returns it during the isochoric heating step, so those exchanges never touch the external reservoirs"
+    - "It maintains constant gas temperature during the isothermal expansion by absorbing heat from the hot reservoir gradually"
+    - "It compresses the working gas to increase efficiency at the cold end of the cycle"
+  answer: 1
+  explanation: "The regenerator is a passive thermal mass — typically a wire mesh or ceramic matrix — that the working gas passes through. During isochoric cooling (step 2), the gas deposits heat into the regenerator as it drops from T_H to T_C. During isochoric heating (step 4), the gas retrieves that same heat. A perfect regenerator means these two constant-volume steps exchange heat entirely internally, so the external reservoirs only interact with the gas during the isothermal steps — exactly the condition needed for Carnot efficiency."
+
+- question: "The Stirling cycle achieves Carnot efficiency because it uses more heat from the hot reservoir than a Carnot engine, compensating with superior mechanical design."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true. The Stirling cycle achieves Carnot efficiency by using the same (minimal) heat from the external reservoirs as the Carnot analysis requires — not more. The regenerator internalizes the isochoric heat exchanges so that heat from the hot reservoir is only absorbed during the isothermal expansion at T_H, and heat is only rejected to the cold reservoir during the isothermal compression at T_C. The ratio Q_H/T_H = Q_C/T_C holds for reversible isothermal processes, giving η = 1 − T_C/T_H exactly."
+
+- question: "In a Stirling cycle with a perfect regenerator, heat from the hot reservoir is absorbed only during the isothermal expansion step."
+  type: true-false
+  answer: true
+  explanation: "With a perfect regenerator, the isochoric cooling (step 2) and isochoric heating (step 4) exchange heat entirely with the regenerator — not with the external reservoirs. This means the only interaction with the hot reservoir occurs during step 1 (isothermal expansion at T_H), where Q_H is absorbed. Step 3 (isothermal compression at T_C) is the only interaction with the cold reservoir. This mirrors the Carnot cycle's heat exchange structure and is why both cycles share the same theoretical efficiency."
+
+- question: "Why does the Stirling cycle achieve the same theoretical efficiency as the Carnot cycle, even though the two cycles look completely different on a P-V diagram?"
+  type: short-answer
+  answer: "Both cycles consist entirely of reversible processes, and all heat exchange with the external reservoirs occurs at the two fixed temperatures T_H and T_C. The regenerator is the key: it internalizes the heat transfers during the isochoric steps so that the only reservoir interactions are the isothermal steps. For reversible isothermal processes in an ideal gas, Q_H/T_H = Q_C/T_C, giving η = 1 − T_C/T_H. The Carnot theorem states that any reversible engine operating between two fixed temperatures achieves this efficiency — cycle shape is irrelevant."
+  explanation: "The Carnot efficiency depends only on the temperatures of the two reservoirs and on whether all processes are reversible. The regenerator is what makes the Stirling cycle satisfy this condition: by recycling the isochoric heat internally, it prevents any heat exchange across a finite temperature difference (which would be irreversible) and ensures that reservoir interactions happen only at the cycle's temperature extremes."
+```
+
 ## Explainer
 
 You already know from **thermodynamic processes** and **isothermal processes** how a gas behaves during expansion and compression at constant temperature or constant volume. The Stirling cycle assembles four such processes into an engine that achieves, in principle, the same efficiency as the Carnot cycle — a remarkable result given that the two cycles look completely different on a PV diagram.

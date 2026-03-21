@@ -35,6 +35,45 @@ Work explicitly with two bases in R²: write a vector in both coordinate systems
 - P_{C←B} and P_{B←C} are inverses, not transposes (in general).
 - Similar matrices A and B = P⁻¹AP represent the same transformation but are NOT equal as matrices unless P = I.
 
+## Questions
+
+```yaml
+- question: "The transition matrix P_{C←B} that converts B-coordinates to C-coordinates is constructed by:"
+  type: multiple-choice
+  options:
+    - "Writing the C-basis vectors in B-coordinates as the columns"
+    - "Writing the B-basis vectors in C-coordinates as the columns"
+    - "Writing the C-basis vectors in standard coordinates as the columns"
+    - "Writing the B-basis vectors in standard coordinates as the rows"
+  answer: 1
+  explanation: "P_{C←B} converts B-coordinates to C-coordinates. Its columns are the B-basis vectors expressed in C-coordinates — you ask 'what is this B-basis vector, described in C's language?' and that answer becomes a column. This ensures [P_{C←B}][v]_B = [v]_C."
+
+- question: "A linear transformation T has matrix A in standard coordinates. In basis B (with B-matrix P whose columns are the B-basis vectors), the same transformation is represented as:"
+  type: multiple-choice
+  options:
+    - "PAP⁻¹"
+    - "P⁻¹A"
+    - "P⁻¹AP"
+    - "PᵀAP"
+  answer: 2
+  explanation: "The sandwich P⁻¹AP encodes: P converts from B-coordinates to standard, A applies the transformation in standard coordinates, P⁻¹ converts back from standard to B-coordinates. Matrices related this way are called similar and represent the same transformation from different coordinate perspectives."
+
+- question: "Two similar matrices A and P⁻¹AP always represent the same linear transformation, just described in different coordinate systems."
+  type: true-false
+  answer: true
+  explanation: "Similarity transformation is the mathematical expression of 'same transformation, different coordinate description.' P⁻¹AP encodes the same geometric mapping as A — the same action on vectors — using the coordinate language of basis B rather than the standard basis."
+
+- question: "The change-of-basis matrix P_{C←B} and its inverse P_{B←C} are transposes of each other."
+  type: true-false
+  answer: false
+  explanation: "They are inverses: P_{B←C} = (P_{C←B})⁻¹. Transposes and inverses coincide only for orthogonal matrices (where basis vectors are orthonormal). In general, converting B→C and then C→B composes to the identity, which is an inverse relationship, not a transpose relationship."
+
+- question: "Why does choosing the eigenvector basis for a linear transformation make it so much easier to analyze the transformation?"
+  type: short-answer
+  answer: "In the eigenvector basis, P⁻¹AP yields a diagonal matrix — each eigenvector is simply scaled by its eigenvalue, with no mixing between components. A diagonal matrix is trivial to raise to powers, invert, or compose: just apply the operation to each diagonal entry independently. What looked like a complicated interaction in standard coordinates becomes independent scaling along each eigendirection."
+  explanation: "This is the core payoff of change of basis. The transformation hasn't changed — but the right coordinate description reveals its structure. Choosing the basis that matches the transformation's natural directions converts a hard problem into a transparent one."
+```
+
 ## Explainer
 
 From your prerequisite on basis and dimension, you know a basis is a set of linearly independent vectors that spans a space — and every vector in the space has a unique representation as a linear combination of the basis vectors. Those coefficients are the **coordinate vector** of a point relative to that basis. The standard basis in Rⁿ gives you the familiar coordinates; a different basis gives you a different coordinate system for the same space. **Change of basis** is the machinery for converting coordinates from one description to another.

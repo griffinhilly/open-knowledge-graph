@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Self-concept—the composite of beliefs, attitudes, and values about oneself—develops from undifferentiated bodily awareness in infancy to a multidimensional, integrated sense of identity in childhood. Toddlers develop categorical self-awareness (age, gender, size); preschoolers add competencies and preferences; school-age children incorporate social comparison and psychological traits, becoming increasingly able to view themselves from others' perspectives. Self-esteem (the evaluative component) becomes increasingly important as children internalize feedback, achieve competence, and compare themselves to peers, significantly influencing motivation, risk-taking, and mental health.
 
+## Questions
+
+```yaml
+- question: "A 5-year-old describes herself as 'good at drawing' and 'fast at running.' A 9-year-old describes himself as 'shy' and 'the second-best reader in class.' What does this contrast most directly illustrate?"
+  type: multiple-choice
+  options:
+    - "The younger child has lower self-esteem than the older child"
+    - "The shift from concrete, competency-based self-descriptions to trait-based, socially-compared self-concept in middle childhood"
+    - "The older child's self-concept is more accurate because he uses comparison"
+    - "Preschoolers form no self-concept at all until middle childhood"
+  answer: 1
+  explanation: "The preschooler's descriptions are typical of early self-concept: concrete, competency- and preference-based. The 9-year-old's descriptions are typical of middle childhood: trait-based ('shy') and anchored in social comparison ('second-best reader in class'). This shift — not a difference in accuracy or esteem — marks the core developmental progression. Social comparison becomes the primary self-assessment yardstick only after school entry, when peers form a stable reference group."
+
+- question: "A 4-year-old consistently tells everyone she is the best jumper in her preschool class. Her teacher reports she is actually average. This is best interpreted as:"
+  type: multiple-choice
+  options:
+    - "Evidence of an unhealthy, inflated self-esteem that requires intervention"
+    - "A sign the child has poor social awareness and needs remediation"
+    - "A developmentally normal and functionally useful overestimation of ability typical in early childhood"
+    - "Proof that self-concept has not yet begun developing in the preschool years"
+  answer: 2
+  explanation: "Young children's characteristic overestimation of their own abilities is developmentally normative and serves a useful function — it sustains effort and risk-taking before feedback-calibrated self-assessment develops. Social comparison as a yardstick emerges in middle childhood; preschoolers lack both the cognitive tools and the peer comparison framework to calibrate accurately. The common misconception is to pathologize this confidence when it is actually adaptive."
+
+- question: "Self-concept and self-esteem are different aspects of how a child understands themselves — self-concept is descriptive, self-esteem is evaluative."
+  type: true-false
+  answer: true
+  explanation: "Self-concept refers to the composite of beliefs and descriptions a child holds about themselves (I am fast, I like dinosaurs, I am shy). Self-esteem is the evaluative judgment about overall worth. The distinction matters clinically and educationally: a child can have an accurate self-concept but low self-esteem, or an overconfident self-concept alongside high self-esteem. Confusing the two leads to misdiagnosis — a child who seems 'fine' (high self-esteem) may still have a distorted self-concept."
+
+- question: "As children enter school, their self-esteem typically increases because they gain new competencies and receive more social feedback."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about this developmental period. School entry typically produces a *downward* recalibration of self-esteem, not an increase. Before school, children rely on direct self-appraisal with few comparison peers; after school entry, social comparison becomes the primary yardstick, teachers and grades introduce formal external feedback, and the characteristically overconfident preschool baseline is revised downward. This recalibration is developmentally normal but can feel like a loss of competence."
+
+- question: "Why do young children tend to overestimate their abilities, and what changes in middle childhood that makes self-assessments more accurate?"
+  type: short-answer
+  answer: "Young children use their own past performance or absolute standards as their reference point, lack experience with systematic feedback, and don't yet use social comparison — so they anchor on optimism. In middle childhood, peers become the primary comparison group, formal academic feedback begins, and children develop the cognitive capacity to integrate multiple pieces of information about themselves over time. Self-assessment shifts from internal and optimistic to externally-anchored and more accurate."
+  explanation: "The developmental function of early overconfidence is motivational: persisting at difficult tasks requires believing you can succeed before mastery is demonstrated. The risk is that accurate calibration, when it finally arrives at school entry, can be experienced as a loss of competence. Understanding this trajectory helps educators create feedback environments that improve calibration without destroying the confidence that sustains effort."
+```
+
 ## Explainer
 
 Self-concept is not built all at once—it is assembled progressively as children gain cognitive tools and accumulate social experience. From your study of Erikson's psychosocial stages, you already have the developmental scaffolding: each stage presents a crisis whose resolution (or non-resolution) shapes the child's sense of self and competence. The toddler navigating **autonomy vs. shame and doubt** is not just learning to walk independently—she is building the earliest experiential foundation for "I can do things myself," the core of agency-based self-concept. The school-age child facing **industry vs. inferiority** is directly constructing beliefs about her abilities through comparison with classmates, teacher feedback, and her own experience of mastery and failure.

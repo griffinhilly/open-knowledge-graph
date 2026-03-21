@@ -20,6 +20,45 @@ status: draft
 ## Core Idea
 Research integrity requires transparency about methods, data, and decisions. Open science practices—preregistration, data sharing, code availability—reduce researcher degrees of freedom and enable replication. Social science faces a reproducibility challenge; transparency improves reliability.
 
+## Questions
+
+```yaml
+- question: "A researcher collects data and finds p = .06. They remove two participants flagged as potential outliers, find p = .049, and publish with no mention of the original analysis. This practice is best described as:"
+  type: multiple-choice
+  options:
+    - "Appropriate data cleaning — outliers distort results and must be removed"
+    - "P-hacking — using post-hoc, result-contingent decisions to push p below the significance threshold, exploiting researcher degrees of freedom"
+    - "Acceptable because p = .049 technically falls below .05"
+    - "Standard practice in social science because all outliers must be removed"
+  answer: 1
+  explanation: "This is a textbook example of exploiting researcher degrees of freedom. Decisions about outlier exclusion made after seeing results — and contingent on whether they produce significance — are not legitimate data cleaning. They inflate the false-positive rate because the researcher is effectively running multiple analyses and reporting only the one that worked. Preregistration would have required the exclusion criteria to be specified before data collection, preventing this."
+
+- question: "A researcher preregisters the hypothesis that 'nature exposure reduces anxiety,' with a specific anxiety scale as the outcome. After running the study, they notice a second anxiety measure also shows a trend and report it prominently. How should this second finding be classified?"
+  type: multiple-choice
+  options:
+    - "As strong confirmation of the preregistered hypothesis, since both measures reflect the same construct"
+    - "As exploratory — a pattern not pre-specified that requires independent replication before being treated as confirmed"
+    - "As more important than the preregistered result, since it was an unexpected discovery"
+    - "As disconfirmatory, since it was not the primary outcome"
+  answer: 1
+  explanation: "Preregistration creates a clean distinction between confirmatory analysis (testing a pre-specified hypothesis with full inferential weight) and exploratory analysis (discovering post-hoc patterns that require replication). Both types of analysis are legitimate and valuable, but they differ in inferential status. Calling an exploratory finding 'confirmation' conflates hypothesis-testing with hypothesis-generation and is one of the mechanisms driving false positives in the literature."
+
+- question: "The replication crisis in social science was primarily caused by deliberate fraud by individual researchers who fabricated or falsified their data."
+  type: true-false
+  answer: false
+  explanation: "While fraud exists, it is not the primary cause of the replication crisis. The crisis arises from structural features: researcher degrees of freedom (many legitimate-seeming analytical choices that can be steered toward significance, even unconsciously) combined with publication bias (journals preferentially publish significant results, making null results invisible). These mechanisms produce inflated false-positive rates even when every researcher is acting in complete good faith. The crisis would persist even with zero fraud."
+
+- question: "Preregistration prevents researchers from conducting any analyses beyond those specified in advance, eliminating all researcher flexibility in data analysis."
+  type: true-false
+  answer: false
+  explanation: "Preregistration does not prohibit additional analysis — it creates transparency by distinguishing pre-specified (confirmatory) analyses from post-hoc (exploratory) ones. Researchers remain free to explore their data fully; they must simply label exploratory findings as such. The value of preregistration is accountability and clarity about inferential status, not restriction of scientific creativity. A preregistered study can have a rich exploratory section, as long as it is clearly labeled."
+
+- question: "Explain why a publication bias problem could mislead the scientific literature even if every individual researcher is acting in complete good faith and reporting their results accurately."
+  type: short-answer
+  answer: "Even honest researchers preferentially write up and submit significant results. Journals preferentially publish significant results. Non-significant results — even from well-designed studies — go unreported or are rejected. Over time, the published literature becomes a biased sample that overrepresents positive findings, many of which are false positives or inflated effect sizes, because the filtering mechanism systematically excludes the null results that would correct the picture."
+  explanation: "This is why the replication crisis is a structural problem, not primarily an ethics problem. Individual virtue cannot fix a selection process that filters the literature. Remedies must be structural too: preregistered reports (where journals commit to publish before seeing results), registered replication reports, data sharing requirements, and meta-analytic correction techniques like trim-and-fill. The problem is architectural — and so must be the solution."
+```
+
 ## Explainer
 
 Your prerequisite introduced research ethics in the context of human subjects — the rules that protect participants from harm. This topic addresses a different dimension of integrity: not participant harm but the reliability of scientific knowledge itself. The social sciences experienced what is now called the **replication crisis**: a series of high-profile failures when influential findings could not be reproduced by independent researchers. A 2015 project attempted to replicate 100 psychology studies and found that only about 36–39% produced significant results in the same direction. This is not primarily a story about fraud — it is a story about structural features of the research process that systematically inflate false-positive findings.

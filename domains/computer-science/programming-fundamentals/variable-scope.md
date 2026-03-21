@@ -34,6 +34,45 @@ Write functions that use the same variable name as a global and observe which ta
 - Using global variables when a parameter would be cleaner and safer.
 - Confusing the value of a variable at definition time with its value at call time.
 
+## Questions
+
+```yaml
+- question: "A function contains the line count = 0. There is also a global variable named count with a value of 10. After calling the function, what is the value of the global count?"
+  type: multiple-choice
+  options:
+    - "0, because the function's assignment overwrites the global"
+    - "10, because the function creates its own local count that is completely independent of the global"
+    - "An error is raised because count is already defined globally"
+    - "Undefined, because the function destroys the global when it creates a local with the same name"
+  answer: 1
+  explanation: "When a function assigns to a name, Python creates a new local variable — it does not modify any global with the same name. The global count remains 10, completely untouched. The function's local count (set to 0) exists only during that function call and is discarded when the function returns. This is why relying on globals for shared state creates bugs: you might call a function expecting it to change a global, and nothing happens to it."
+
+- question: "The same function is called twice in a row: process(5) then process(10). What is true about the local variables inside process()?"
+  type: multiple-choice
+  options:
+    - "Both calls share the same local variables, so the second call can see values left by the first"
+    - "Each call gets its own fresh, independent set of local variables"
+    - "The second call inherits the local variable values from the first call"
+    - "Local variables are only created on the first call; subsequent calls reuse them"
+  answer: 1
+  explanation: "Each function call creates its own scope — a fresh, independent set of variable bindings. The second call to process() has no awareness of what the first call did to its locals. This isolation is fundamental: it's what makes functions reusable and predictable. If calls shared state, calling a function from two different places could produce different results depending on the order of calls, making the program extremely difficult to reason about."
+
+- question: "A local variable x defined inside function_a and a local variable x defined inside function_b refer to the same memory location."
+  type: true-false
+  answer: false
+  explanation: "They are completely separate variables that happen to share a name. Each function has its own scope, and x in function_a is entirely independent of x in function_b. This is the entire point of scope: functions can use whatever variable names make sense internally without worrying about name collisions with other functions. If they did share memory, calling any function that used the name x would corrupt the x in every other function currently executing."
+
+- question: "A function that reads and modifies a global variable is harder to debug than a function that only uses parameters and return values."
+  type: true-false
+  answer: true
+  explanation: "A function's behavior depends on its inputs. If those inputs are only the parameters, you can understand the function by reading it in isolation. If the function also reads or modifies globals, its behavior depends on the entire history of what every other function has done to those globals before this one was called. To debug a bug in that function, you'd have to trace all possible execution paths that could have changed the global. Local-only functions are self-contained: same inputs always produce same outputs, making both testing and debugging straightforward."
+
+- question: "Why does limiting variable scope — keeping variables as local as possible — make programs easier to debug and reason about?"
+  type: short-answer
+  answer: "When a variable is local to a function, its entire existence is confined to that function's body. You can understand its full lifecycle — where it's created, what changes it, where it's used — by reading only that function. By contrast, a global variable can be read or written by any code in the entire program at any time, so debugging a problem with it requires searching everywhere. Local scope reduces the search space for bugs to a bounded region. It also makes functions predictable: given the same arguments, a function with only local variables always returns the same result, regardless of what other functions have run."
+  explanation: "This principle — minimize scope — is one reason object-oriented programming and functional programming both emphasize encapsulation and pure functions respectively. The goal is the same: limit the number of things that can affect a variable's value, so that the programmer can hold the relevant context in their head when reading any given piece of code."
+```
+
 ## Explainer
 
 When you started writing functions, you learned that parameters become local variables inside the function body. **Variable scope** generalizes this idea: it defines the boundaries of where each variable exists and can be accessed. Think of scope as walls around your variables — code inside the walls can see and use the variable, but code outside cannot. This boundary system is what keeps large programs manageable, because it prevents one function from accidentally interfering with another's data.

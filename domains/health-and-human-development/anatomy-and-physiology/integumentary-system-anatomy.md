@@ -32,6 +32,45 @@ Examine histology cross-sections of thick skin (fingertip) vs. thin skin (forear
 - Melanin does not protect against all UV damage; it reduces but does not eliminate DNA damage from UV-B radiation.
 - The hypodermis (subcutaneous layer) is not technically part of the skin — it is below the dermis and is primarily adipose tissue that insulates and anchors the skin.
 
+## Questions
+
+```yaml
+- question: "A superficial abrasion scrapes off the outer epidermis but does not reach the dermis. Why does it not bleed?"
+  type: multiple-choice
+  options:
+    - "The epidermis produces a rapid clotting factor that prevents bleeding before it can start"
+    - "The epidermis is avascular — it contains no blood vessels, which are only found in the dermis"
+    - "The stratum corneum is too thick for blood to pass through"
+    - "Abrasions trigger vasoconstriction that temporarily stops blood flow to the area"
+  answer: 1
+  explanation: "The epidermis is avascular — it has no blood vessels. All blood vessels are located in the dermis and below. The epidermis receives oxygen and nutrients by diffusion from the dermal capillaries. So a wound that only penetrates the epidermis cannot bleed. Only when the injury reaches the dermis does bleeding occur. This is a direct consequence of the epidermis's structure as pure epithelial tissue."
+
+- question: "Melanin protects skin cells from UV radiation. Which statement most accurately describes how this protection works?"
+  type: multiple-choice
+  options:
+    - "Melanin forms a reflective layer on the skin surface that bounces UV radiation away"
+    - "Melanin is produced by keratinocytes and distributed to melanocytes throughout the stratum corneum"
+    - "Melanin granules are deposited above the nuclei of keratinocytes, absorbing UV-B radiation before it can damage DNA"
+    - "Melanin completely blocks all UV radiation, making sunscreen unnecessary in people with high melanin levels"
+  answer: 2
+  explanation: "Melanocytes in the stratum basale produce melanin and donate it to surrounding keratinocytes. As keratinocytes migrate upward, they carry these granules positioned as a 'cap' above the nucleus — shielding the DNA from UV-B radiation. This is partial protection, not complete: melanin absorbs much of the UV-B but cannot block all of it, which is why skin cancer risk remains even in darker skin tones, and sunscreen remains important."
+
+- question: "The hypodermis is the deepest layer of the skin."
+  type: true-false
+  answer: false
+  explanation: "False. The hypodermis (also called the subcutaneous layer) is located below the dermis but is NOT technically considered part of the skin. It is primarily adipose tissue that insulates the body and anchors the skin to underlying muscle and bone. The skin itself consists of only two main layers: the epidermis (above) and the dermis (below). This is a common error — many students assume 'deeper = still skin.'"
+
+- question: "A keratinocyte is alive and dividing in the stratum basale, but by the time it reaches the stratum corneum, it is dead and filled with keratin."
+  type: true-false
+  answer: true
+  explanation: "True. This describes keratinocyte differentiation — the defining process of the epidermis. Cells are born in the stratum basale, pushed upward by new cell divisions, and progressively fill with the tough fibrous protein keratin. By the stratum corneum, they are dead, flattened, and packed with keratin, functioning as microscopic armor plates. The entire trip takes about 28 days. This continuous renewal is what keeps the epidermis functional despite constant surface shedding."
+
+- question: "Why does the epidermis rely on diffusion for oxygen and nutrients rather than having its own blood supply, and what consequence does this have for wound healing?"
+  type: short-answer
+  answer: "The epidermis is pure epithelial tissue — by definition avascular. It receives oxygen and nutrients by diffusion from blood vessels in the dermis below. Because it lacks blood vessels, superficial epidermal wounds do not bleed, but healing is slower since the repair cells must migrate in from the dermis rather than arriving via blood flow."
+  explanation: "This connects tissue type knowledge to function: epithelial tissue never contains blood vessels (they are found in connective tissue). The epidermis's avascularity means it is entirely dependent on the dermis for sustenance, explaining the 28-day renewal cycle — cells can only be replaced as fast as diffusion and migration allow. For wound healing, damage reaching the dermis heals differently (with scar tissue, immune cell recruitment) than purely epidermal damage."
+```
+
 ## Explainer
 
 From your study of tissue types, you know that **epithelial tissue** forms coverings and linings, and that stratified squamous epithelium is built for abrasion resistance. The epidermis is stratified squamous epithelium taken to its functional extreme — a continuously renewing armor that keeps the outside world out and the body's fluids in. Understanding the integumentary system means understanding how this tissue is organized, what it delegates to deeper layers, and how its appendages extend its functional reach.

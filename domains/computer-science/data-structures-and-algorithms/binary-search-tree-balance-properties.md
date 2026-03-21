@@ -30,6 +30,45 @@ Insert sorted sequences into a naive BST and observe degeneration to a linked li
 - Thinking balance is 'free'; maintaining it requires rebalancing overhead.
 - Not recognizing the tradeoff between rebalancing cost and guaranteed bounds.
 
+## Questions
+
+```yaml
+- question: "Keys 10, 20, 30, 40, 50 are inserted in that order into an initially empty binary search tree. What is the height of the resulting tree, and what is the worst-case time to find a key?"
+  type: multiple-choice
+  options:
+    - "Height 3, O(log n) search"
+    - "Height 5, O(n) search"
+    - "Height 3, O(n) search"
+    - "Height 5, O(log n) search"
+  answer: 1
+  explanation: "Each key in this sorted sequence is larger than all previously inserted keys, so it always goes to the right child of the current rightmost node. The result is a right-leaning chain: 10 → 20 → 30 → 40 → 50, with height 5 (or n in general). Searching for key 50 requires visiting all 5 nodes. The BST property is intact, but the tree is structurally identical to a linked list. This is the degenerate case. O(log n) search only holds when the tree is balanced; a plain BST provides no such guarantee."
+
+- question: "A developer building a contact list application chooses a plain (unbalanced) BST because 'BST search is O(log n).' Contacts will be inserted in alphabetical order (Aaron, Beth, Carol, ...). The developer's reasoning is:"
+  type: multiple-choice
+  options:
+    - "Correct — BST search is O(log n) regardless of the insertion order"
+    - "Correct — alphabetical insertion produces a naturally balanced tree"
+    - "Flawed — alphabetical (sorted) insertion produces a degenerate chain with O(n) search"
+    - "Flawed — BSTs do not support alphabetical key ordering"
+  answer: 2
+  explanation: "Sorted insertion is exactly the worst case for a plain BST. Each new contact name is alphabetically greater than all previous ones, so it always becomes the rightmost leaf. After inserting n contacts, the tree is a right-leaning chain of height n, and searching for any contact requires up to n comparisons. The O(log n) claim is only valid for a balanced tree. This is why self-balancing BSTs (AVL, red-black) exist: real-world data is often ordered or nearly ordered, making degeneration a practical concern, not just a theoretical one."
+
+- question: "The O(log n) time complexity guarantee for binary search tree search, insert, and delete operations is valid regardless of the order in which keys were inserted."
+  type: true-false
+  answer: false
+  explanation: "O(log n) is only guaranteed when the tree is balanced — i.e., when its height is O(log n). A plain BST has no mechanism to ensure balance, and the height depends entirely on insertion order. Sorted or nearly-sorted insertion produces height O(n), making all operations O(n). O(log n) performance requires either a self-balancing variant (AVL, red-black) that enforces height bounds after every insertion, or the assumption that insertion order is random (which yields expected O(log n) height, but not a worst-case guarantee)."
+
+- question: "Adding self-balancing to a BST (via AVL or red-black rotations) makes all individual operations strictly faster than they would be in an equivalent plain BST."
+  type: true-false
+  answer: false
+  explanation: "Self-balancing adds overhead: after every insertion or deletion, the tree checks balance conditions and may perform rotations. On a tree that would have remained balanced anyway (e.g., random insertion), the plain BST and the balanced variant perform the same search, but the balanced variant spends extra time checking and rebalancing. The value of self-balancing is worst-case guarantee, not per-operation speed. For a well-chosen random insertion order, a plain BST can be marginally faster than a balanced one. The tradeoff is paying a small constant overhead on every operation to guarantee O(log n) even in adversarial cases."
+
+- question: "Explain why inserting keys in sorted order into a plain BST produces the worst possible performance, and how self-balancing trees solve this problem."
+  type: short-answer
+  answer: "In a plain BST, each key is inserted by following the BST property: go left if smaller, right if larger. If keys arrive in sorted order, every new key is larger than all existing ones, so it always becomes the right child of the rightmost node. The tree grows as a right-leaning chain with height n. Search, insert, and delete all degrade to O(n) because you must traverse the entire chain. Self-balancing trees solve this by detecting when insertions create imbalance and applying rotations — local restructuring operations that preserve the BST property while reducing height. This guarantees O(log n) height after every operation, regardless of insertion order."
+  explanation: "The rotation insight is key: a rotation changes the shape of the tree without violating the BST ordering property. After inserting a node that creates imbalance, AVL trees check height differences and rotate to restore balance; red-black trees use color rules to bound height. The cost is O(log n) per rebalancing step, which is absorbed into the operation's cost. The net result is a worst-case guarantee that a plain BST simply cannot make."
+```
+
 ## Explainer
 
 You know from studying binary search trees that the BST property — every node's left descendants are smaller, right descendants are larger — enables efficient search by halving the search space at each step. But that "halving" only happens when the tree is roughly balanced. The performance of a BST depends entirely on its **shape**, and its shape depends entirely on the order in which keys are inserted.

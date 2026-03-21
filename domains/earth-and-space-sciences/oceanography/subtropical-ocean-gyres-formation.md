@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Subtropical ocean gyres are large, slow-rotating circulation cells formed by wind-driven Ekman transport and Coriolis deflection. Wind-driven convergence of surface water raises sea level at gyre centers, creating pressure gradients that drive strong western boundary currents (e.g., Gulf Stream, Kuroshio). These currents transport enormous amounts of heat and fresh water poleward, influencing regional and global climate.
 
+## Questions
+
+```yaml
+- question: "Trade winds blow westward near the equator in the Northern Hemisphere. Which direction does Ekman transport carry the surface water in this region?"
+  type: multiple-choice
+  options:
+    - "Westward — water moves in the same direction as the wind"
+    - "Northward — water is deflected 90° to the right of the wind"
+    - "Eastward — the Coriolis effect fully reverses the wind-driven flow"
+    - "Southward — water is deflected 90° to the left of the wind"
+  answer: 1
+  explanation: "Ekman transport moves water 90° to the right of the wind in the Northern Hemisphere (left in the Southern). Trade winds blowing westward produce northward Ekman transport. The most tempting wrong answer is westward — the intuitive but incorrect idea that water simply flows with the wind. The actual deflection is a consequence of Earth's rotation acting on the wind-driven surface layer."
+
+- question: "Why are western boundary currents (like the Gulf Stream) narrower, faster, and deeper than the eastern return flows of the same gyre?"
+  type: multiple-choice
+  options:
+    - "Trade winds blow more strongly along western continental margins, directly accelerating these currents"
+    - "The Coriolis parameter increases with latitude, compressing the gyre's return flow against the western boundary"
+    - "The ocean floor is shallower on the western side of each basin, constricting the flow"
+    - "Freshwater input from rivers along western coastlines increases density, driving stronger sinking"
+  answer: 1
+  explanation: "Western intensification arises because the Coriolis parameter (f = 2Ω sin φ) increases with latitude. This variation compresses the poleward-flowing western side of the gyre into a narrow, fast jet while spreading the equatorward-flowing eastern side into a broad, slow drift. Wind strength and seafloor topography are secondary factors and do not explain the fundamental east-west asymmetry present in every ocean basin."
+
+- question: "The center of a subtropical gyre is one of the most biologically productive regions of the open ocean, because surface waters converge there bringing nutrients to the photic zone."
+  type: true-false
+  answer: false
+  explanation: "This is backwards. The gyre center is a biological desert — one of the least productive regions on Earth. Convergence at the gyre center pushes water downward (downwelling), carrying nutrients away from the sunlit surface layer. Without upwelling to replenish nutrients, phytoplankton growth is severely limited, producing the clear blue, oligotrophic water characteristic of subtropical gyre centers."
+
+- question: "Ekman transport moves surface water in the direction the wind blows, just at a reduced speed due to friction."
+  type: true-false
+  answer: false
+  explanation: "Ekman transport is perpendicular to the wind direction, not parallel. In the Northern Hemisphere, the net transport of the Ekman layer is 90° to the right of the wind; in the Southern Hemisphere, 90° to the left. This counterintuitive result follows from Earth's rotation and is the foundational mechanism by which winds drive large-scale ocean circulation patterns like gyres."
+
+- question: "Explain why subtropical gyres form — specifically, what role does Ekman transport play in generating the circulation, and what creates the sea-level mound at the gyre center?"
+  type: short-answer
+  answer: "Trade winds and westerlies push surface water toward the gyre center through Ekman transport (90° to the right of wind in the Northern Hemisphere). Trade winds drive water northward; westerlies drive water southward. This convergence piles water up at the gyre center, raising sea level by 1–2 meters. The resulting pressure gradient pushes water outward and downward, and combined with the Coriolis effect, this drives the clockwise rotation (Northern Hemisphere) that defines the gyre."
+  explanation: "The key chain is: opposing winds → Ekman convergence → sea-level mound → pressure gradient → gyre rotation. Students often skip the convergence step and think winds directly cause the circular current. The mound of elevated sea level is real and measurable by satellite altimetry; it is the proximate driver of the gyre's geostrophic circulation."
+```
+
 ## Explainer
 
 You already understand that wind drives surface ocean currents and that the Coriolis effect deflects moving water to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. Subtropical gyres are the large-scale consequence of these two forces acting together across entire ocean basins. To see how they form, start with the wind pattern: in the subtropics, **trade winds** blow from east to west near the equator, while **westerlies** blow from west to east at mid-latitudes. These opposing wind belts push surface water in opposite directions on the northern and southern edges of the subtropical ocean.

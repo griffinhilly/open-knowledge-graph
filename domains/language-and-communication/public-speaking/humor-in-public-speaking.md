@@ -31,6 +31,45 @@ Identify three moments in a speech where a humorous observation naturally fits, 
 - Opening with a joke is not universally good advice; if the joke falls flat, the speaker starts from a deficit of confidence and credibility.
 - Self-deprecating humor works only when the speaker is in a position of evident competence — otherwise it reads as genuine insecurity rather than confident humility.
 
+## Questions
+
+```yaml
+- question: "A speaker opens a presentation with a carefully prepared joke. It falls completely flat — no one laughs. What is the primary consequence, according to effective humor principles?"
+  type: multiple-choice
+  options:
+    - "None — the audience quickly forgets a single failed moment and moves on"
+    - "The speaker starts from a credibility deficit that takes several minutes of strong speaking to recover from"
+    - "The speaker should immediately acknowledge the failure with another joke to relieve tension"
+    - "Flat jokes only fail because of poor delivery, so more rehearsal would have prevented this"
+  answer: 1
+  explanation: "A failed humor attempt creates a credibility deficit — the audience's trust and goodwill drop, and recovering that ground takes sustained strong performance afterward. This is why opening with a joke is not universally good advice: if it fails, you begin your speech already in the hole. The audience didn't forget; they adjusted their expectations of the speaker downward."
+
+- question: "A speaker wants to use humor but describes herself as 'not funny.' Which of the following approaches is most likely to succeed for her?"
+  type: multiple-choice
+  options:
+    - "Prepare and memorize several classic jokes, since rehearsed delivery compensates for not being naturally funny"
+    - "Avoid humor entirely, since attempting humor without comedic talent always backfires"
+    - "Use observational humor — noting an absurdity or incongruity the audience already recognizes — rather than telling jokes"
+    - "Use self-deprecating humor exclusively, since it requires no timing skill"
+  answer: 2
+  explanation: "Observational humor travels the most reliably because it requires no shared cultural reference, no joke-telling skill, and no comedic persona. It simply names something true and slightly absurd that the audience already knows — and recognition itself produces the smile. Telling jokes requires comedic skill most speakers lack. Self-deprecating humor is safe but requires confident delivery, and it only works when the speaker is already perceived as competent."
+
+- question: "The most important element of delivering a humorous moment in a speech is not the content of the punchline but the pause before it."
+  type: true-false
+  answer: true
+  explanation: "The pause before the punchline is where the audience builds expectation — the gap between what they anticipate and what arrives is the engine of humor. If a speaker rushes through the setup, the expectation never fully forms and the incongruity lands flat. Skilled comic speakers allow substantial white space before the payoff. The content of the punchline matters, but timing — especially that anticipatory pause — determines whether the humor actually lands."
+
+- question: "Self-deprecating humor is universally safe for speakers because it only targets the speaker and never risks offending anyone in the audience."
+  type: true-false
+  answer: false
+  explanation: "Self-deprecating humor is relatively safe, but it only works when the speaker is in a position of evident competence. If a speaker who is already perceived as uncertain or underqualified makes self-deprecating remarks, those remarks read as genuine insecurity rather than confident humility — they confirm rather than contrast with the audience's doubts. The humor depends on the contrast between the speaker's demonstrated competence and their willingness to poke fun at themselves. Without that foundation, self-deprecation backfires."
+
+- question: "Why does effective speaker humor depend more on relevance to the topic than on comedic skill?"
+  type: short-answer
+  answer: "Humor that illuminates the topic serves a dual purpose: it entertains and reinforces the message simultaneously. The audience laughs and understands the point better. Humor inserted purely for entertainment doesn't strengthen the speech — it competes with it. Relevant humor also feels natural rather than performed, which lowers the risk of it seeming forced."
+  explanation: "The deeper point is that humor in speaking is a rhetorical tool, not a performance goal. The best humor arises from the content itself — an incongruity the topic reveals, an absurdity in the situation being described. When humor serves the argument, its failure does less damage because at least the content point still lands. When humor is decorative and fails, nothing was gained and credibility was lost."
+```
+
 ## Explainer
 
 You already understand how stories work in a speech — they establish setting, build tension, and move toward a resolution that serves your point. Humor in public speaking shares the structural DNA of storytelling: both require setup (information the audience needs to get the payoff), timing (delivering the payoff at the right moment), and relevance (the humorous moment connects to what actually matters in the speech). The key difference is that humor often inverts expectations rather than fulfilling them — the payoff surprises rather than confirms.

@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 The Nyquist criterion uses the frequency response H(jω) plotted in the complex plane to determine closed-loop stability without explicitly computing poles. Encirclements of the (-1, 0) point indicate instability; gain and phase margins measure robustness to perturbations.
 
+## Questions
+
+```yaml
+- question: "A feedback system has a stable open-loop transfer function (P = 0). The Nyquist plot makes one clockwise encirclement of (-1, 0). What does the Nyquist criterion conclude about the closed-loop system?"
+  type: multiple-choice
+  options:
+    - "The closed-loop system is stable — one encirclement is within tolerance for a stable open-loop system"
+    - "The closed-loop system is unstable: N = Z - P gives Z = 1 + 0 = 1, meaning one unstable closed-loop pole exists"
+    - "Stability cannot be determined from the Nyquist plot alone without also examining the Bode plot"
+    - "The system is marginally stable — encirclements only indicate instability if the plot passes through (-1, 0)"
+  answer: 1
+  explanation: "For a stable open-loop system (P = 0), closed-loop stability requires N = 0: no net encirclements of (-1, 0). Any clockwise encirclement means N > 0, so Z = N + P = 1 + 0 = 1: one unstable closed-loop pole. The Nyquist criterion determines both stability and the count of unstable closed-loop poles from the encirclement number alone, with no need to compute the closed-loop transfer function or find its poles explicitly."
+
+- question: "A Bode analysis shows a gain margin of 12 dB and phase margin of 50° — apparently robust. Under which scenario would this Bode analysis give a misleading stability conclusion?"
+  type: multiple-choice
+  options:
+    - "When the loop gain is very high, making the system sensitive to small parameter variations"
+    - "When the open-loop transfer function has right-half-plane poles, because Bode margin analysis implicitly assumes a stable minimum-phase open-loop system and cannot account for the counterclockwise encirclements needed to stabilize an open-loop unstable plant"
+    - "When the system has more than two poles, since Bode plots become unreliable for higher-order systems"
+    - "When both margins exceed standard thresholds, Bode analysis always correctly certifies stability"
+  answer: 1
+  explanation: "Bode gain and phase margins are derived under the assumption that the open-loop system is minimum-phase and stable (P = 0). For such systems, the standard Nyquist condition is N = 0 and Bode margins measure distance from the critical point. But if the open-loop system has P unstable poles, closed-loop stability requires N = -P (counterclockwise encirclements). Bode margins interpret the absence of encirclements as stability — which is wrong when encirclements are required. A conditionally stable system can fool Bode analysis entirely."
+
+- question: "The Nyquist criterion not only determines whether a closed-loop system is stable but also specifies exactly how many unstable closed-loop poles it has."
+  type: true-false
+  answer: true
+  explanation: "From N = Z - P, where N is the net clockwise encirclement count and P is the known number of open-loop RHP poles, Z = N + P gives the exact count of closed-loop RHP poles. This is more information than most stability tests: the Routh-Hurwitz criterion only tells you whether all poles are in the left half plane; Nyquist tells you exactly how many are not."
+
+- question: "A feedback system with a gain margin greater than 6 dB is guaranteed to be robustly stable against all reasonable plant variations."
+  type: true-false
+  answer: false
+  explanation: "Gain margin measures robustness along only one dimension — how much gain can increase before instability. A system can have a large gain margin but a small or negative phase margin (stable but fragile against phase delay), or vice versa. Real plant variations typically affect both gain and phase simultaneously, so neither margin alone guarantees robustness. Standard design guidelines require both: gain margin > 6 dB AND phase margin > 45°. Additionally, these margins each apply at one crossover frequency; non-minimum-phase systems can have multiple crossings requiring examination of the full Nyquist plot."
+
+- question: "Explain why the Nyquist criterion is strictly more general than Bode analysis for determining closed-loop stability, and describe one class of systems where relying on Bode margins alone could lead to an incorrect stability conclusion."
+  type: short-answer
+  answer: "Bode analysis is a special case of Nyquist analysis valid only when the open-loop system is stable and minimum-phase (P = 0). In that case, N = 0 is necessary and sufficient for closed-loop stability, and Bode margins measure the geometric distance from the critical point. Nyquist handles the general case via N = Z - P. One class where Bode fails: plants with open-loop RHP poles (unstable plants being stabilized by feedback, such as an inverted pendulum or an aircraft with unstable aerodynamics). For these systems, closed-loop stability requires counterclockwise encirclements (N < 0). A Bode analysis would flag the absence of clockwise encirclements as stable, but a negative-N condition (counterclockwise encirclements present) would be wrongly interpreted as unstable. Another failure case: conditionally stable systems where the closed loop is stable only within a range of gains — Bode margins at one crossover frequency miss the second instability at higher gain."
+  explanation: "The Nyquist criterion's generality comes from the argument principle, which makes no assumptions about the location of open-loop poles."
+```
+
 ## Explainer
 
 From Bode plot analysis, you know how to read gain and phase margins from frequency response graphs — those margins tell you how far the open-loop response is from the instability boundary at −1. From pole-zero analysis, you know that a closed-loop system is stable if and only if all its poles lie in the left half of the s-plane. The **Nyquist criterion** unifies these ideas, giving a rigorous test for closed-loop stability based only on the open-loop frequency response, without ever computing the closed-loop poles explicitly.

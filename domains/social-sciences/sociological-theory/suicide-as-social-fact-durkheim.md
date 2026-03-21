@@ -30,6 +30,45 @@ Review Durkheim's actual data on suicide rates across Protestant vs. Catholic re
 ## Common Misconceptions
 - Durkheim denied that individual psychology or depression causes suicide. - All suicides are explained by the same social factors. - Durkheim's data and methods are definitively proven or definitively invalid.
 
+## Questions
+
+```yaml
+- question: "Durkheim found that Protestants had higher suicide rates than Catholics across multiple European societies. What is the sociological explanation for this pattern?"
+  type: multiple-choice
+  options:
+    - "Protestants are more psychologically prone to depression than Catholics due to theological emphasis on individual sin"
+    - "Catholicism prohibits suicide and the threat of eternal damnation deters it; Protestantism has no such prohibition"
+    - "Protestantism emphasizes individual conscience and private faith, producing lower social integration and weaker collective bonds that protect against suicide"
+    - "Catholic regions had higher rates of economic development at the time, and prosperity reduces suicide"
+  answer: 2
+  explanation: "Durkheim's explanation is structural, not psychological or theological. Catholicism emphasizes collective ritual, hierarchy, and community — producing higher social integration. Protestantism emphasizes individual conscience, private scripture, and direct relationship with God — producing lower integration. It is the degree of social integration (the individual's embeddedness in a social group), not theology per se, that drives the suicide rate differential. Option B mistakes a correlate (Catholic prohibition) for a cause — Durkheim's whole argument is that rule-following itself is a product of social integration, not an independent deterrent."
+
+- question: "If suicide were primarily a product of individual depression or psychological distress, which feature of Durkheim's data would be hardest to explain?"
+  type: multiple-choice
+  options:
+    - "The fact that some individuals within every group commit suicide"
+    - "The stability of suicide rates from year to year within the same society despite complete turnover of individuals"
+    - "The existence of different suicide motives across individuals"
+    - "The higher rates of suicide among men compared to women"
+  answer: 1
+  explanation: "The stability of suicide rates is the key empirical puzzle that demands a social-level explanation. Every year, the individuals making up a population change — people are born, die, and the pool of individuals at risk shifts continuously. Yet the suicide rate in a given society remains remarkably stable from year to year. If suicide were purely individual and psychological, we would expect rates to fluctuate with the random distribution of individual psychopathology. Stable rates imply stable social forces. This is precisely why Durkheim studied rates rather than cases — the aggregate pattern reveals causal structure that individual-level analysis cannot."
+
+- question: "Durkheim's study of suicide proved that individual psychology and personal distress play no causal role in any individual's decision to take their own life."
+  type: true-false
+  answer: false
+  explanation: "This is the most common over-reading of Durkheim. His argument operates at the aggregate level: suicide *rates* are explained by social factors (integration and regulation), not individual psychology. This does not mean that individual psychology is irrelevant to any particular suicide — of course depression, trauma, and mental illness are proximate causes in individual cases. Durkheim's point is that the *distribution* of these individual events across groups follows social patterns that require social-level explanation. Social integration shapes who is exposed to risk; psychology shapes how that risk is experienced and expressed. The two levels of analysis are complementary, not competing."
+
+- question: "The fact that suicide rates remain stable from year to year within the same society is itself evidence that social forces — not just individual psychology — are causally involved."
+  type: true-false
+  answer: true
+  explanation: "Stable aggregate rates despite complete individual turnover imply that the social conditions producing that rate are themselves stable. If suicide were purely individual and random, rates would fluctuate with the stochastic distribution of individual psychopathology across years. The stability Durkheim documented suggests something external to any particular individual is holding the rate approximately constant — namely, the stable social structures of integration and regulation. This logic of using aggregate statistics to infer social causation is foundational to quantitative sociology and social epidemiology."
+
+- question: "Why did Durkheim study suicide *rates* rather than individual suicides? What does this methodological choice reveal about his theoretical commitments?"
+  type: short-answer
+  answer: "Studying rates rather than cases operationalizes the core theoretical claim: social facts are properties of collectivities, not individuals. A suicide rate is not the sum of individual decisions — it is a property of a group at a particular time and place that can be compared across groups and across time. By showing that rates vary systematically with social conditions (religious affiliation, marital status, economic regulation) and remain stable over time within groups, Durkheim demonstrated that these aggregate patterns require social-level explanation. Studying individual suicides would only yield data about individual psychology — which was exactly what Durkheim wanted to transcend."
+  explanation: "This methodological choice is inseparable from the epistemological argument: if you only study individual cases, you can only offer psychological explanations. To show that social facts are real and causally powerful, you need data that exists at the social level — and aggregate rates are such data. The comparative method (holding some variables constant while varying others) then allows causal inference by elimination of rival hypotheses. This is the methodological template that Durkheim established for quantitative social science."
+```
+
 ## Explainer
 
 From your study of Durkheim's social facts, you know his central claim: social facts are things external to individuals — patterns of behavior, norms, institutions — that exercise constraint on individuals and must be explained by other social facts, not by individual psychology. But Durkheim needed to *prove* this claim against skeptics who would insist that all social phenomena are ultimately reducible to individual minds. His 1897 study of **suicide** (*Le Suicide*) was designed as that proof, chosen precisely because suicide seems like the most private, individual, psychologically-driven act imaginable. If social facts are real and causally powerful, their signature should be detectable even here.

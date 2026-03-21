@@ -33,6 +33,45 @@ Begin with physical partitioning: folding paper strips, sharing food equally, sh
 - Believing fractions are always less than 1.
 - Treating the numerator and denominator as two separate whole numbers rather than a single quantity.
 
+## Questions
+
+```yaml
+- question: "Maria says 'I ate 1/2 of my pizza and you ate 1/2 of yours, so we ate the same amount.' When is she wrong?"
+  type: multiple-choice
+  options:
+    - "She is never wrong — 1/2 always means the same amount regardless of context"
+    - "She is wrong when the two pizzas are different sizes, because 1/2 of a large pizza is more than 1/2 of a small pizza"
+    - "She is wrong because fractions cannot be used to describe pizza"
+    - "She is wrong only if the pizzas were cut into a different number of slices"
+  answer: 1
+  explanation: "A fraction always describes a part of a specific whole. 1/2 of a 16-inch pizza is 8 inches' worth; 1/2 of an 8-inch pizza is 4 inches' worth. Same fraction, very different amounts. This is the 'whole matters' principle: a fraction without a specified whole is incomplete. The number of slices each pizza was cut into is irrelevant — what matters is the size of the whole."
+
+- question: "In the fraction 3/5, what does the denominator 5 tell you?"
+  type: multiple-choice
+  options:
+    - "There are 5 shaded parts"
+    - "There are 5 unshaded parts"
+    - "The whole has been divided into 5 equal parts, defining one-fifth as the unit being counted"
+    - "The numerator 3 must be subtracted from 5 to get the remaining parts"
+  answer: 2
+  explanation: "The denominator names the unit: it tells you how many equal parts the whole has been divided into, and therefore what size each part is. Once you divide a whole into 5 equal parts, you have defined the unit 'one-fifth.' The numerator then counts how many of that unit you have — in this case, 3. Thinking of the denominator as 'total pieces' (rather than 'unit-definer') leads directly to the misconception that 3/5 means '3 shaded, 5 total' — which only works for area models and breaks down everywhere else."
+
+- question: "A fraction with a numerator larger than its denominator — like 7/4 — is not a valid number because fractions must always be less than 1."
+  type: true-false
+  answer: false
+  explanation: "False. A fraction represents division: 7/4 means 7 ÷ 4 = 1.75. There is no rule requiring fractions to be less than 1 — that belief comes from over-relying on the 'shaded pieces of a shape' model, where you typically shade fewer pieces than the total. On a number line, 7/4 sits between 1 and 2. 'Improper fractions' (numerator ≥ denominator) are perfectly valid numbers greater than or equal to 1."
+
+- question: "To place the fraction 3/4 correctly on a number line from 0 to 1, you divide the segment into 4 equal parts and count 3 of them from 0."
+  type: true-false
+  answer: true
+  explanation: "True. The number line model directly reflects what the fraction means: the denominator tells you how many equal parts to divide the segment into (creating the unit 'one-fourth'), and the numerator tells you how many of those parts to count from 0. This model also shows that 4/4 = 1 (all four parts equals the whole), and that fractions greater than 1 extend beyond the 0-to-1 segment — for example, 5/4 is one full unit plus one more fourth."
+
+- question: "Your friend says '1/2 of my brownie is the same amount as 1/2 of your brownie.' What question must you ask before you can know if that's true, and why?"
+  type: short-answer
+  answer: "You must ask: are the two brownies the same size? A fraction specifies a relationship between a part and a whole, but the actual amount depends entirely on what the whole is. If your brownie is twice as large as your friend's, then 1/2 of yours is twice the amount of 1/2 of theirs, even though both fractions are written identically. The fraction 1/2 is incomplete until you define the whole it refers to."
+  explanation: "This question targets the single most important insight in this topic: fractions describe relationships, not fixed amounts. Two identical fractions can represent very different quantities if their wholes differ. This principle is critical for interpreting fractions in real contexts — recipes, measurements, comparisons — and it becomes even more important when comparing fractions with different wholes in later work."
+```
+
 ## Explainer
 
 You've already seen halves, thirds, and fourths — fractions as shaded pieces of shapes. Fourth grade asks you to take the next step: to see fractions not just as parts of pictures, but as **numbers** with their own place on the number line. This is one of the biggest conceptual shifts in elementary mathematics. A fraction like ¾ is a single quantity — one number — not "3 and 4 as separate things."

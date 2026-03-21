@@ -34,6 +34,45 @@ Work through the Tower of Hanoi and introspect on means-ends analysis in action.
 - Insight is not magical — it involves unconscious spreading activation and constraint relaxation, not a qualitatively alien process.
 - Heuristics are not simply inferior algorithms; they are adaptive strategies that produce good results quickly when computational resources are limited.
 
+## Questions
+
+```yaml
+- question: "A solver working on the nine-dot problem (connect 9 dots arranged in a 3×3 grid with 4 straight lines without lifting the pen) tries many line sequences and keeps failing. The most likely explanation is:"
+  type: multiple-choice
+  options:
+    - "They haven't searched enough of the problem space — more attempts will eventually succeed"
+    - "They are using hill-climbing when means-ends analysis would be more effective"
+    - "They have unconsciously imposed a constraint the problem doesn't state — that lines must stay within the boundary of the dots"
+    - "Their working memory is too limited to track all four line segments simultaneously"
+  answer: 2
+  explanation: "The nine-dot problem is a classic insight problem. The solution requires extending lines beyond the square implied by the dots — but solvers spontaneously add a constraint the problem never specifies. This is not a search failure; it is a representation failure. No amount of additional search within the false constraint will yield a solution. Insight occurs only when that constraint is relaxed and the problem is rerepresented. This distinguishes insight from ordinary search problems."
+
+- question: "Expert chess players solve chess problems faster than novices, despite having the same working memory capacity. The best explanation is:"
+  type: multiple-choice
+  options:
+    - "Experts apply exhaustive search algorithms more efficiently"
+    - "Experts have large, well-organized chunks in long-term memory — they perceive meaningful configurations, not 32 individual pieces — so their initial problem representation is already structured toward solutions"
+    - "Experts use pure means-ends analysis while novices hill-climb"
+    - "Expert intuition bypasses the problem space entirely, accessing solutions directly"
+  answer: 1
+  explanation: "Chase and Simon's research showed that expert chess players don't search more moves ahead than novices — they search *fewer*, but smarter. Their advantage is in perception: experts chunk the board into meaningful configurations (attacks, defenses, tactical motifs) stored in long-term memory. Their initial representation of the position is already organized around relevant strategic patterns. This is why domain knowledge accelerates problem solving: it improves the quality of the initial representation, not the speed of search."
+
+- question: "Heuristics are simply inferior versions of algorithms — they sacrifice accuracy for speed, making them useful only when time is short."
+  type: true-false
+  answer: false
+  explanation: "This mischaracterizes heuristics. For most real-world problems (chess, planning, design), algorithms are computationally impossible — the problem space is astronomically large. Heuristics are not fallback shortcuts; they are the only viable strategy. Moreover, heuristics like means-ends analysis are not random guessing — they use structural knowledge about the problem to prune the search space intelligently. The question is not 'algorithm or heuristic?' but 'which heuristic best fits this problem structure?'"
+
+- question: "The 'aha' feeling experienced during insight problem solving reflects a genuine shift in how the problem is mentally represented, not merely a lucky guess or the final step of a long search."
+  type: true-false
+  answer: true
+  explanation: "Neuroimaging studies show a burst of right anterior temporal activity at the moment of insight, consistent with remote associative connections suddenly becoming active. The phenomenology of insight — sudden, effortless, accompanied by high confidence — is distinctively different from incremental search progress. It reflects constraint relaxation: a false assumption is dropped, spreading activation finds a previously blocked path, and the whole problem reframes. The 'aha' is a real cognitive event, not just a subjective label."
+
+- question: "What is means-ends analysis, and under what condition does hill-climbing fail where means-ends analysis would not?"
+  type: short-answer
+  answer: "Means-ends analysis identifies the most important difference between the current state and the goal, then selects an operator that reduces that difference — even if it temporarily moves away from the goal to enable a better approach later. Hill-climbing always selects the move that looks most similar to the goal state. Hill-climbing fails at local maxima: situations where every immediate move appears to regress, but a detour would actually lead toward the global solution. Means-ends analysis handles this by decomposing the goal into subgoals and tolerating temporary regressions."
+  explanation: "The Tower of Hanoi illustrates means-ends analysis: to move the large disk, you must first move all smaller disks to a different peg — which looks like going backward. Hill-climbing would reject this move. Means-ends analysis recognizes it as a necessary subgoal. This is why means-ends analysis is more powerful for problems with complex interdependencies, while hill-climbing works well for smooth problem landscapes."
+```
+
 ## Explainer
 
 Your prerequisite knowledge of working memory and cognitive psychology gives you the foundation to understand problem solving as a process of navigating a **problem space**: a mental representation of all possible states, operators (moves), and paths from the current state to the goal. The question is not whether you can solve a problem — it is how you search through that space efficiently given the severe limits of working memory and processing time.

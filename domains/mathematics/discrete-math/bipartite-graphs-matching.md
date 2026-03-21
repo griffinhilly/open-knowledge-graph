@@ -30,6 +30,45 @@ Recognize bipartite graphs: they have no odd cycles. Use BFS/DFS to 2-color them
 ## Common Misconceptions
 A bipartite graph need not be complete bipartite. Hall's condition is necessary and sufficient: every subset S of one part must have at least |S| neighbors on the other side.
 
+## Questions
+
+```yaml
+- question: "Five job applicants each have exactly two job openings they qualify for, drawn from a pool of 10 openings. Does this guarantee a perfect matching exists?"
+  type: multiple-choice
+  options:
+    - "Yes — each applicant has 2 choices, and 2 ≥ 1 so Hall's condition is satisfied"
+    - "No — Hall's condition depends on which specific jobs each applicant qualifies for, not just how many"
+    - "Yes — there are more openings (10) than applicants (5), so matches are always available"
+    - "No — bipartite matching only applies when all left vertices have degree at least 3"
+  answer: 1
+  explanation: "Hall's condition must be checked for every subset S of left vertices, not just for individual vertices. Even though each applicant has 2 options, it is possible that all 5 applicants are only interested in the same 2 jobs — in which case the subset S = {all 5 applicants} has |N(S)| = 2 < 5, violating Hall's condition and making a perfect matching impossible. The number of openings and individual degrees don't capture this 'too many applicants share the same options' failure."
+
+- question: "Hall's condition fails for some subset S of left vertices — specifically, S has 4 left vertices but only 3 distinct neighbors on the right. What can you conclude?"
+  type: multiple-choice
+  options:
+    - "No matching of any kind exists in the graph"
+    - "A perfect matching from the left side is impossible, but a maximum matching may still include some left vertices"
+    - "The graph cannot be bipartite if Hall's condition fails"
+    - "The condition only shows that a perfect matching from the right side doesn't exist"
+  answer: 1
+  explanation: "Hall's theorem is specifically about perfect matchings from the left side (matching every left vertex). If the condition fails for S, those 4 left vertices cannot all be matched simultaneously since there are only 3 right vertices available for them. However, a maximum matching still exists — it may match 3 of those 4 vertices and all others where the condition holds. Hall's failure rules out 'everyone matched,' not 'anyone matched.'"
+
+- question: "Hall's condition must be verified for every subset of left vertices — even a single subset violating the condition is sufficient to prove no perfect matching exists."
+  type: true-false
+  answer: true
+  explanation: "Hall's theorem is an 'if and only if' result: a perfect matching from the left side exists precisely when Hall's condition holds for ALL subsets. This means necessity runs both ways — if any single subset S has |N(S)| < |S|, you immediately know no perfect matching is possible, because those |S| left vertices cannot all find distinct mates. You don't need to check the rest of the graph once a violating subset is found."
+
+- question: "If every left vertex in a bipartite graph has at least one neighbor on the right side, Hall's condition is automatically satisfied and a perfect matching must exist."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about Hall's theorem. Having at least one neighbor for each individual vertex only checks subsets of size 1. The condition can still fail for larger subsets. A simple counterexample: three left vertices all connected to the same single right vertex — each has a neighbor, but the subset {all three} has |N(S)| = 1 < 3, and no perfect matching exists. Hall's condition is collective, not individual."
+
+- question: "Why is Hall's condition 'collective' rather than 'individual'? Give a concrete example that shows why checking each left vertex individually is insufficient to guarantee a perfect matching."
+  type: short-answer
+  answer: "Hall's condition is collective because a perfect matching requires each left vertex to be assigned a *distinct* right vertex — sharing is not allowed. Checking individually only verifies that each vertex has some neighbor, not that the neighborhood structure allows all of them to be matched simultaneously. Example: 3 applicants (A, B, C) each qualified for exactly 1 job, and all three qualify for the same job J. Each has a neighbor, but the subset S = {A, B, C} has N(S) = {J}, so |N(S)| = 1 < 3 = |S|. No perfect matching exists — only one applicant can get job J."
+  explanation: "The insight is that a perfect matching is a global combinatorial constraint. Local availability (each vertex has a neighbor) does not imply global feasibility (all can be matched simultaneously without conflict). Hall's theorem captures exactly what must hold globally — that no subset is 'too picky' — and proves that this necessary condition is also sufficient."
+```
+
 ## Explainer
 
 A bipartite graph divides its vertices into two distinct groups — call them "left" and "right" — where edges only connect a left vertex to a right vertex, never two vertices within the same group. From your prior work on bipartite graphs, you know this two-colorability is equivalent to having no odd cycles. The classic real-world picture: left vertices are job applicants, right vertices are open positions, and edges connect each applicant to the jobs they qualify for. The question "can we assign everyone to a job?" is exactly a **matching** problem.

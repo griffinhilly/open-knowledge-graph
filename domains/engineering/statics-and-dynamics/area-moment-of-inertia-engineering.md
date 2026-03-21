@@ -32,6 +32,45 @@ Derive the centroidal moment of inertia for a rectangle and triangle by integrat
 - Forgetting that tabulated formulas give the centroidal moment — the parallel axis theorem is needed to transfer to any other axis.
 - Misidentifying which axis (horizontal or vertical) a formula applies to.
 
+## Questions
+
+```yaml
+- question: "A rectangular beam has width b = 50 mm and height h = 100 mm. The height is doubled to h = 200 mm while the width remains 50 mm. By what factor does the centroidal moment of inertia Ix_c = bh³/12 change?"
+  type: multiple-choice
+  options:
+    - "It doubles (factor of 2)"
+    - "It quadruples (factor of 4)"
+    - "It increases by a factor of 8"
+    - "It increases by a factor of 6"
+  answer: 2
+  explanation: "The formula Ix_c = bh³/12 shows that I is proportional to h³ (the cube of the height). Doubling h multiplies h³ by 2³ = 8. This is the key geometric insight: making a beam taller is dramatically more effective than making it wider (which would only scale I linearly). This is why structural beams are oriented with their larger dimension vertical — a beam oriented with h horizontal and b vertical would have far less bending resistance for the same material."
+
+- question: "Why are I-beams and hollow tubes more structurally efficient than solid rectangular cross-sections of equal cross-sectional area?"
+  type: multiple-choice
+  options:
+    - "They are made from higher-strength alloys that have better material properties at the atomic level"
+    - "They distribute material far from the neutral axis, where the squared-distance weighting in I = ∫y² dA makes each unit of area contribute maximally to bending resistance"
+    - "They reduce the bending moment by redirecting load paths through the web and flanges"
+    - "Their hollow cores reduce the weight-to-area ratio, allowing the flexure formula to be applied with a larger safety factor"
+  answer: 1
+  explanation: "The area moment of inertia weights each area element by the square of its distance from the neutral axis: I = ∫y² dA. Material far from the axis contributes y² times more per unit area than material at the axis, which contributes nothing (y = 0). I-beams concentrate material in the flanges (far from neutral axis) while using minimal material in the web (near the axis). Hollow tubes do the same. This maximizes I relative to the amount of material used, making them structurally efficient by design."
+
+- question: "The area moment of inertia is a purely geometric property with units of length⁴ — it does not depend on the material's density or mass."
+  type: true-false
+  answer: true
+  explanation: "The area moment of inertia I = ∫y² dA involves only the geometric distribution of area (y² dA — squared distance times area element). No mass, density, or material property appears in the integral. This is why I is measured in units of m⁴ or in⁴ (length to the fourth power), not kg·m² (which would be the mass moment of inertia, a completely different quantity). The material's stiffness enters only when I is used in the flexure formula σ = My/I or in beam deflection equations."
+
+- question: "The tabulated formula Ix_c = bh³/12 for a rectangle gives the moment of inertia about the base of the rectangle."
+  type: true-false
+  answer: false
+  explanation: "The subscript 'c' in Ix_c means centroidal — the formula gives the moment of inertia about the horizontal axis passing through the centroid (geometric center) of the rectangle. The moment of inertia about the base is given by the parallel axis theorem: I_base = Ix_c + A·d², where d is the distance from the centroid to the base (d = h/2), giving I_base = bh³/12 + bh·(h/2)² = bh³/3. Confusing these two — using the centroidal formula when the base formula is needed, or vice versa — is one of the most common errors in composite section problems."
+
+- question: "Explain why doubling a beam's height (h) increases its bending resistance much more than doubling its width (b), using the definition of the area moment of inertia."
+  type: short-answer
+  answer: "The centroidal moment of inertia for a rectangle is Ix_c = bh³/12. Width b appears to the first power — doubling b doubles I. Height h appears to the third power — doubling h multiplies I by 2³ = 8. This difference comes directly from the definition I = ∫y² dA: distance from the neutral axis is squared. Increasing h moves more area farther from the neutral axis, and those areas contribute y² more to I. Increasing b adds more area, but at the same distances — a linear addition. The cubic dependence on h is why beams are oriented with their larger dimension vertical."
+  explanation: "This insight is why structural engineers orient beams with their tall dimension vertical, and why doubling a floor joist's depth (say from 2×6 to 2×12) increases its bending stiffness far more than doubling its width (from 2×6 to 4×6). The h³ relationship is not incidental — it is a direct consequence of the squared-distance weighting in the definition of I, which makes the geometry of material placement the dominant factor in bending resistance."
+```
+
 ## Explainer
 
 You already know how to find a centroid — the area-weighted average position of a shape. The **area moment of inertia** (also called the **second moment of area**) takes that same idea one step further: instead of weighting each tiny area element dA by its distance from the axis, you weight it by the *square* of that distance. The definition is Ix = ∫y² dA, where y is the perpendicular distance from the x-axis. Because you square the distance, area that is farther from the axis contributes disproportionately more — a strip of material twice as far away contributes *four times* as much to I.

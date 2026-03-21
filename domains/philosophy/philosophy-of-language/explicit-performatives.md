@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Some utterances perform acts in their very utterance: "I promise to pay" constitutes a promise; "I declare you married" constitutes a marriage. Austin's notion of explicit performatives shows that language doesn't merely describe—it acts. Explicit performatives highlight the conventional conditions that must be satisfied for successful performance and illustrate the normative force of language.
 
+## Questions
+
+```yaml
+- question: "A student says 'I sentence you to ten years' to a classmate as a joke. Why does this NOT constitute a genuine sentencing under Austin's theory?"
+  type: multiple-choice
+  options:
+    - "Because it was spoken in a joking tone, which cancels illocutionary force"
+    - "Because the student lacks the institutional authority to sentence anyone — the felicity conditions fail"
+    - "Because the sentence was not spoken in a courtroom"
+    - "Because the classmate did not consent to being sentenced"
+  answer: 1
+  explanation: "Austin's framework focuses on whether the conventional procedure was properly executed by a qualified person in appropriate circumstances — not on tone or intention alone. A licensed judge in the wrong context might also fail to execute a sentencing correctly. The key felicity condition here is institutional authority: only a person empowered by the legal system to sentence can perform this act. Without that authority, the performative misfires regardless of tone, setting, or consent."
+
+- question: "When a judge says 'I hereby find the defendant guilty,' this utterance is best described as:"
+  type: multiple-choice
+  options:
+    - "A constative statement that accurately describes a verdict already reached by the jury"
+    - "A false statement if the judge privately believes the defendant is innocent"
+    - "An explicit performative that constitutes the verdict by being uttered in the correct institutional circumstances"
+    - "A locutionary act with no illocutionary dimension"
+  answer: 2
+  explanation: "This is a paradigm case of an explicit performative: the utterance does not report a verdict happening elsewhere — it enacts the verdict. The key feature is that saying IS doing. It cannot sensibly be evaluated as true or false (unlike a constative), but can succeed or fail based on whether the appropriate conditions are met: the right person, the right procedure, the right context. Option A confuses performatives with constatives by treating the utterance as a description rather than an action."
+
+- question: "Explicit performative utterances like 'I promise' or 'I declare you married' can be evaluated as true or false, just like ordinary descriptive statements."
+  type: true-false
+  answer: false
+  explanation: "This is the central distinction Austin draws. Constative utterances — 'He promised to pay' or 'They are married' — describe states of affairs and are subject to truth or falsity. But explicit performatives are not in the business of describing: they are doing. 'I promise to pay' doesn't describe a promise; it constitutes one. The appropriate evaluation dimension is felicity (did the act succeed or misfire?) rather than truth-value. You can ask whether a promise was felicitous; you cannot ask whether it was true."
+
+- question: "For an explicit performative to succeed, the speaker must have the relevant institutional authority and the conventional procedure must be executed correctly and completely."
+  type: true-false
+  answer: true
+  explanation: "This captures Austin's conditions for felicity. He identified several ways performatives can misfire: the procedure may not exist, the participants may not be qualified, the procedure may be executed incorrectly or incompletely, or the required intentions may be absent. A marriage performed by an unlicensed officiant, a contract signed by someone without authority, or a promise extracted under duress — each fails for a different felicity condition. The utterance happens, but the social-institutional reality it was supposed to create does not come into being."
+
+- question: "What is the difference between a constative and a performative utterance, and why can't you ask whether 'I promise to pay you back' is true?"
+  type: short-answer
+  answer: "A constative describes a state of affairs and can be true or false (e.g., 'He promised to pay' can be evaluated against what actually happened). A performative enacts an action in the very saying of it — it doesn't describe, it does. 'I promise to pay' isn't reporting a promise; uttering it under the right conditions IS the promise. You can't ask if it's true because it's not making a claim about the world — it's creating a new normative reality."
+  explanation: "The distinction reveals that language is not only a mirror of the world but one of the primary tools through which social reality is constructed. Marriages, verdicts, appointments, and promises exist because people use the right words in the right circumstances. Asking whether 'I promise' is true is a category error — it's like asking whether a handshake is accurate. The relevant question is whether the promise was genuinely made (felicitous) or somehow defective (infelicitous)."
+```
+
 ## Explainer
 
 From your study of Austin's speech act theory, you know that utterances can be analyzed along three dimensions: the locutionary act (what is literally said), the illocutionary act (what the speaker is doing in saying it — asserting, promising, warning, ordering), and the perlocutionary act (the effect produced on the hearer). **Explicit performatives** are a special and illuminating subset of illocutionary acts: utterances in which the verb itself *names* the act being performed at the moment of utterance.

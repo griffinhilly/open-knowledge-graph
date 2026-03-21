@@ -31,6 +31,45 @@ Use tracing paper or dynamic geometry software to rotate figures. Start with 90,
 - Thinking rotations change the size of the figure.
 - Forgetting that rotation about a point other than the origin requires a different process.
 
+## Questions
+
+```yaml
+- question: "Point (3, -4) is rotated 90° counterclockwise about the origin. What are the coordinates of its image?"
+  type: multiple-choice
+  options:
+    - "(-3, 4) — negating both coordinates"
+    - "(4, 3) — applying the rule (x, y) → (-y, x)"
+    - "(-4, -3) — applying the 270° rule instead"
+    - "(3, 4) — only changing the sign of y"
+  answer: 1
+  explanation: "The 90° counterclockwise rotation rule is (x, y) → (-y, x). For (3, -4): the new x is -(-4) = 4, and the new y is 3. Image: (4, 3). You can verify: the original point is in the fourth quadrant (positive x, negative y), and after a 90° counterclockwise turn it should move to the first quadrant — (4, 3) is correct. The most common error is applying the rule as (x, y) → (-x, y), which is a reflection, not a rotation."
+
+- question: "A student wants to rotate point (5, 2) by 90° counterclockwise about center (3, 1). What is the correct first step?"
+  type: multiple-choice
+  options:
+    - "Apply the rotation formula directly: (5, 2) → (-2, 5)"
+    - "Subtract the center from the point to get (2, 1), then rotate about the origin"
+    - "Add the center to the point to get (8, 3), then rotate"
+    - "Reflect the point over the line y = x, then translate"
+  answer: 1
+  explanation: "Rotating about a non-origin center requires three steps: (1) translate by subtracting the center, (2) apply the origin rotation rule, (3) translate back by adding the center. Step 1: (5-3, 2-1) = (2, 1). Step 2: 90° CCW: (2, 1) → (-1, 2). Step 3: add center back: (-1+3, 2+1) = (2, 3). The direct application in answer A uses the rotation rule correctly but skips the translation steps, producing the wrong point in the wrong location."
+
+- question: "A rotation is a rigid motion, so rotating a triangle produces a congruent triangle with the same side lengths and angle measures."
+  type: true-false
+  answer: true
+  explanation: "Rigid motions (also called isometries) preserve all distances and angle measures — the shape is neither stretched nor compressed. A rotation moves every point the same angular amount around the center, maintaining every pairwise distance. The pre-image and image are congruent: corresponding sides are equal in length and corresponding angles are equal in measure. Unlike dilations (which change size), rotations never alter the scale of a figure."
+
+- question: "A 270° counterclockwise rotation about the origin maps point (x, y) to (-y, x)."
+  type: true-false
+  answer: false
+  explanation: "The rule (-y, x) is the 90° counterclockwise rotation, not 270°. The 270° counterclockwise (equivalently, 90° clockwise) rule is (x, y) → (y, -x). You can verify: applying the 90° rule three times should give 270°. One application: (x,y)→(-y,x). Two: (-y,x)→(-x,-y). Three: (-x,-y)→(y,-x). So 270° maps (x,y) to (y,-x). A common memory aid: for 90° CCW, the x becomes negative-y; for 270° CCW, the y becomes negative-x."
+
+- question: "Without memorizing the formulas, explain how you could derive the coordinate rule for a 90° counterclockwise rotation about the origin using geometric reasoning."
+  type: short-answer
+  answer: "Start with a point on a known location, like (1, 0) on the positive x-axis. Rotating it 90° counterclockwise brings it to (0, 1) on the positive y-axis. This tells us: old x becomes new y, and old y becomes negative-new-x — or in rule form, (x, y) → (-y, x). Verify with (0, 1): it should rotate to (-1, 0) on the negative x-axis. Applying the rule: (-1, 0). Correct. The rule can be derived from any known point's rotation rather than memorized abstractly."
+  explanation: "Geometric derivation builds more durable understanding than memorization. The key insight is that (1, 0) rotates to (0, 1) — the positive x-axis rotates onto the positive y-axis — which pins down the transformation completely. Once you know where the axes go under rotation, you can determine where any point goes by decomposing it into x and y components. This also makes it easy to catch errors: if your rule maps (1, 0) anywhere other than (0, 1) for a 90° CCW rotation, the rule is wrong."
+```
+
 ## Explainer
 
 A **rotation** is a rigid motion — it slides a figure around a fixed point without stretching, flipping, or distorting it. That fixed point is called the **center of rotation**. Like the reflections you've already studied, rotations preserve distances and angle measures, which is why they're called rigid motions or isometries. The difference is that reflections flip orientation (left and right swap), while rotations preserve orientation: a clockwise-labeled triangle stays clockwise after rotation.

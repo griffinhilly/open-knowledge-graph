@@ -29,6 +29,45 @@ Read a classic psychology case study (e.g., H.M. or Genie) and identify what que
 - Case studies are not 'anecdotes' — they are systematic, multi-source investigations subject to their own methodological standards.
 - A single case that contradicts a theory is scientifically meaningful — it can falsify universal claims.
 
+## Questions
+
+```yaml
+- question: "H.M. (Henry Molaison) lost the ability to form new long-term declarative memories after hippocampal removal, while retaining old memories and procedural learning. How does this single case constitute meaningful scientific evidence?"
+  type: multiple-choice
+  options:
+    - "It doesn't — a sample of one is never scientifically valid; we need at least 30 participants for meaningful results"
+    - "It provides statistical generalization: if one person shows this pattern, most people with hippocampal damage will too"
+    - "It provides theoretical falsification: theories claiming the hippocampus is uninvolved in memory formation are contradicted by this case, and the dissociation between memory types reveals distinct neural systems"
+    - "It is valid only as a pilot study — a suggestive finding that must be confirmed by an experiment before it counts as evidence"
+  answer: 2
+  explanation: "The case study supports theoretical generalization through logic, not statistics. If a theory claims 'the hippocampus is not necessary for declarative memory,' one well-documented patient who cannot form declarative memories after hippocampal removal contradicts that universal claim. Additionally, H.M.'s intact procedural learning despite impaired declarative memory provides evidence for the theoretical claim that these are dissociable memory systems. Neither finding requires statistical sampling — the mechanism and dissociation are revealed through the single case's specificity."
+
+- question: "What distinguishes a scientific case study from an anecdote?"
+  type: multiple-choice
+  options:
+    - "Case studies use larger samples — typically 3–5 subjects rather than just one"
+    - "Case studies systematically collect multiple independent data sources and use triangulation to build converging evidence"
+    - "Case studies are published in peer-reviewed journals; anecdotes are informal accounts"
+    - "Case studies focus on typical individuals; anecdotes involve exceptional or unusual cases"
+  answer: 1
+  explanation: "The defining methodological feature of a scientific case study is triangulation: gathering multiple independent data sources (cognitive testing, behavioral observation, medical records, interviews, neuroimaging) and looking for convergence. When diverse sources point to the same conclusions, confidence increases. When sources conflict, the conflict becomes data worth explaining. An anecdote rests on a single observer's unverified account. The multi-method approach is not a matter of publication venue or sample size — it is the methodological discipline that separates systematic investigation from storytelling."
+
+- question: "A single well-documented case study can falsify a universal theoretical claim, even though it cannot support statistical generalization to a population."
+  type: true-false
+  answer: true
+  explanation: "Logic, not statistics, licenses falsification. If a theory predicts 'all X have property Y,' then one X without property Y disproves the theory. Phineas Gage demonstrated that frontal lobe damage can dramatically alter personality — falsifying theories that personality is entirely independent of specific brain regions. H.M. showed that the hippocampus is necessary for forming new declarative memories — falsifying theories that memory is a unitary, diffuse capacity. These findings required no statistical sample because they were testing universal claims, not estimating population parameters."
+
+- question: "Because case studies investigate only one individual, they generate the same kind of generalizable knowledge as survey research — just with a smaller and less representative sample."
+  type: true-false
+  answer: false
+  explanation: "Case studies and surveys support fundamentally different kinds of generalization. Surveys support statistical generalization: from a representative sample, you can infer population parameters. Case studies support theoretical generalization: from a single well-studied case, you can evaluate whether a theoretical mechanism holds, whether a universal claim is violated, or what causal processes produce an outcome. These are distinct epistemic activities — one estimates prevalence, the other tests mechanism. Treating a case study as simply a 'very small survey' misunderstands what the method is for."
+
+- question: "Explain the difference between statistical generalization and theoretical generalization, and describe which type the case study method supports."
+  type: short-answer
+  answer: "Statistical generalization uses a representative sample to infer parameters about a broader population — for example, from 1,000 surveyed people to all adults in a country. Theoretical generalization uses a case to evaluate a theoretical claim — for example, using one patient to test whether a particular brain structure is necessary for a function. Case studies support theoretical generalization: because they study mechanisms in depth, they can confirm or falsify theoretical predictions, reveal causal processes, and generate hypotheses. They cannot support statistical generalization because a single case (or even a few cases) cannot represent a population's distribution."
+  explanation: "The practical implication is that case studies are most powerful when they interact with other methods. A case study can reveal a mechanism that experiments then test at scale, or find the exception that breaks an overconfident theoretical generalization. The weakness (cannot generalize statistically) and the strength (can test theoretical claims with maximum depth) are two sides of the same coin — trading breadth for mechanism is the explicit methodological bargain of the case study design."
+```
+
 ## Explainer
 
 You already know the family of descriptive research methods — surveys, naturalistic observation, archival research — all designed to characterize phenomena across samples. The **case study** is a sharp departure from this logic. Instead of measuring many people shallowly, it investigates one person, one group, or one event exhaustively. The trade-off is explicit: you gain depth and mechanism at the cost of breadth and generalizability. Understanding when that trade is worth making is the central practical skill.

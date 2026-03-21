@@ -32,6 +32,45 @@ Classify seizures by EEG pattern (generalized vs focal) and phenomenology (tonic
 ## Common Misconceptions
 Febrile seizures in childhood do not cause epilepsy in most cases—the risk is low. Photosensitivity is present in only ~3% of patients with epilepsy; it is not a universal trigger.
 
+## Questions
+
+```yaml
+- question: "A patient experiences déjà vu, then performs repetitive hand movements without awareness, then suddenly loses consciousness and convulses with full-body rhythmic jerking. This best represents:"
+  type: multiple-choice
+  options:
+    - "A primary generalized tonic-clonic seizure from onset"
+    - "An absence seizure with secondary motor features"
+    - "A focal seizure originating in the temporal lobe with secondary generalization"
+    - "A provoked seizure caused by metabolic derangement"
+  answer: 2
+  explanation: "The sequence — déjà vu (temporal lobe aura), automatisms (complex partial phase), then loss of consciousness with convulsions — is the classic pattern of a focal seizure with secondary generalization. Déjà vu and automatisms are hallmark temporal lobe manifestations; the subsequent bilateral convulsion means the discharge spread to involve both hemispheres. A primary generalized seizure (option A) involves both hemispheres from onset with no focal aura. Absence seizures (option B) are brief lapses without aura or post-ictal state."
+
+- question: "Benzodiazepine withdrawal lowers the seizure threshold primarily because:"
+  type: multiple-choice
+  options:
+    - "Withdrawal causes a surge in glutamate synthesis that overwhelms inhibitory circuits"
+    - "Removing benzodiazepine potentiation suddenly reduces GABAergic inhibitory tone, tipping the excitation-inhibition balance"
+    - "Benzodiazepines normally prevent voltage-gated sodium channel activation, and withdrawal unmasks these channels"
+    - "Withdrawal causes hypoglycemia, depriving neurons of energy needed to maintain resting potential"
+  answer: 1
+  explanation: "Benzodiazepines work by potentiating GABA-A receptor function, enhancing Cl⁻ influx and inhibitory tone. Abrupt withdrawal removes this potentiation, suddenly reducing the brain's inhibitory brake. The excitation-inhibition balance tips toward excitation, lowering seizure threshold. Option A is plausible but wrong — it is not a glutamate surge but a loss of inhibition. Options C and D describe different mechanisms not central to benzodiazepine pharmacology."
+
+- question: "Epilepsy is defined as any seizure, whether provoked or unprovoked, because seizure threshold is intrinsically lowered in all cases."
+  type: true-false
+  answer: false
+  explanation: "Epilepsy is specifically a predisposition to *unprovoked* recurrent seizures — diagnosed after two unprovoked seizures or one with high recurrence risk. A provoked seizure (during meningitis, severe hypoglycemia, alcohol withdrawal) indicates the brain is reacting to an acute insult, not that it has an intrinsic predisposition. This distinction matters clinically: a provoked seizure may resolve when the underlying cause is treated, whereas epilepsy requires long-term antiepileptic management."
+
+- question: "Status epilepticus is a medical emergency partly because prolonged seizure activity causes excitotoxic neuronal death via calcium overload through NMDA receptors."
+  type: true-false
+  answer: true
+  explanation: "During status epilepticus (seizure >5 minutes or recurrent without recovery), sustained glutamatergic excitation keeps NMDA receptors open. NMDA receptors are highly permeable to Ca²⁺, and calcium overload in neurons triggers apoptotic and necrotic cell death pathways — excitotoxicity. This is not merely a theoretical risk; prolonged status causes measurable hippocampal and cortical injury. This is why terminating status epilepticus rapidly with benzodiazepines is an emergency priority."
+
+- question: "Explain why the same underlying mechanism — excessive synchronized neuronal firing — can produce such clinically different seizure types (e.g., a 10-second lapse of awareness vs. full-body convulsions)."
+  type: short-answer
+  answer: "The clinical manifestation depends on WHERE in the brain abnormal discharge begins and how far it spreads. A discharge confined to thalamocortical circuits produces absence seizures — brief lapses with 3-Hz spike-wave patterns — because the thalamus gates consciousness. A discharge starting in the motor cortex produces focal jerking of the contralateral body part. If the discharge spreads to involve both hemispheres (secondary generalization), it produces the full tonic-clonic convulsion. Primary generalized seizures engage both hemispheres from onset. The underlying biology — excitation overwhelming inhibition — is the same; the geography determines what you see."
+  explanation: "This is the core clinical principle of seizure semiology: location and spread, not just mechanism, determines presentation. Understanding this is what allows clinicians to localize seizure onset from clinical observation, which is essential for surgical planning in drug-resistant epilepsy."
+```
+
 ## Explainer
 
 You already understand that neurons fire action potentials when sufficient excitatory input depolarizes them past threshold, and that **GABAergic inhibition** (via Cl⁻ influx through GABA-A receptors) counters **glutamatergic excitation** (via cation influx through AMPA and NMDA receptors). Normal brain function depends on keeping excitation and inhibition in dynamic balance. A seizure is what happens when that balance fails at scale — a population of neurons becomes abnormally synchronized and fires collectively in an uncontrolled burst, spreading electrical activity through connected circuits.

@@ -42,6 +42,45 @@ Always embed estimation in context: "About how much will these four items cost?"
 - Always rounding to the same place regardless of context.
 - Not checking whether the estimate is in the right ballpark (order of magnitude errors).
 
+## Questions
+
+```yaml
+- question: "You compute 487 + 312 and get 7,990. You quickly estimate 500 + 300 = 800. What should you conclude?"
+  type: multiple-choice
+  options:
+    - "The exact answer is correct because 7,990 is within range"
+    - "Your estimate must be wrong because the exact calculation is more reliable"
+    - "Your exact calculation likely contains an error — 7,990 is far outside the estimated range of ~800"
+    - "You need a calculator to determine which answer is right"
+  answer: 2
+  explanation: "The estimate (800) and the exact answer (7,990) differ by nearly a factor of 10 — an order-of-magnitude error. This is a strong signal that something went wrong in the exact calculation, likely a decimal place error or a miscopied digit. The estimate didn't give the exact answer; it gave a reasonableness bound that reveals 7,990 is implausible. This error-detection role is the deepest purpose of estimation."
+
+- question: "To estimate 153 ÷ 7, a student rounds 153 to 200 and finds 200 ÷ 7 ≈ 28.6 — still hard to compute mentally. Which compatible-numbers approach works better?"
+  type: multiple-choice
+  options:
+    - "Round 153 to 160, since 160 ÷ 7 is still approximate"
+    - "Replace 153 with 140, since 140 ÷ 7 = 20 is instantly computable"
+    - "Replace 7 with 10 and calculate 153 ÷ 10 = 15.3"
+    - "Round both numbers to the nearest hundred"
+  answer: 1
+  explanation: "Compatible numbers means choosing replacements that make mental arithmetic clean — not following standard rounding rules. Because 7 × 20 = 140, the calculation 140 ÷ 7 = 20 requires no arithmetic at all. Rounding to 160 still doesn't produce a whole-number quotient (160 ÷ 7 ≈ 22.9). The key is selecting numbers based on computational convenience, not proximity to the original."
+
+- question: "Estimation is most useful as a way to check whether an exact computed answer is in the right ballpark."
+  type: true-false
+  answer: true
+  explanation: "This is the deepest purpose of estimation: reasonableness checking. After you compute an exact answer, a quick estimate tells you whether the answer is plausible. If your exact calculation gives 7,990 but your estimate says ~800, you know immediately that something went wrong. Estimation catches order-of-magnitude errors before they matter."
+
+- question: "A good estimator always rounds numbers to the same place value regardless of the problem."
+  type: true-false
+  answer: false
+  explanation: "Good estimation requires matching the strategy to the context. Rounding to hundreds is fast but imprecise; rounding to tens is slower but more accurate. For some calculations, compatible numbers are better than rounding at all. A rigid 'always round to hundreds' rule produces estimates that are too rough to catch common errors. Choosing the rounding place (or strategy) based on how much precision you need is part of what makes estimation a thinking skill."
+
+- question: "Why is estimation described as a 'deliberate choice to trade precision for speed' rather than just 'getting close to the right answer'?"
+  type: short-answer
+  answer: "Estimation involves intentionally selecting a strategy (rounding, front-end, compatible numbers, clustering) based on how much precision you need and how quickly you need a result. The goal is not to compute exactly but to get an answer close enough for the purpose at hand — a real-world decision or a reasonableness check after exact computation. This makes it a strategic thinking tool, not a failure to compute correctly."
+  explanation: "The misconception that estimation is 'the wrong answer on purpose' misses why it exists. Estimation is a deliberate tool: you choose it when speed outweighs precision, and you use it as an error detector when precision is needed. A student who estimates before computing and checks after computing is doing more mathematical thinking than one who only computes."
+```
+
 ## Explainer
 
 Estimation is not a sloppy version of arithmetic — it is a deliberate choice to trade precision for speed, and it is one of the most useful mathematical skills in daily life. You already know how to round whole numbers to the nearest ten, hundred, or beyond. Rounding is the engine that powers most estimation strategies, but it is only one of several tools you now have access to.

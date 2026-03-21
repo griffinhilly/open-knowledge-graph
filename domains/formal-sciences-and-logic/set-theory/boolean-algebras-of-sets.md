@@ -33,6 +33,45 @@ Start with P({1,2,3}): draw its Hasse diagram under ⊆, identify unions as join
 - Not every Boolean algebra is a power set — there are countable atomless Boolean algebras (like the clopen sets of the Cantor space) that are not isomorphic to any P(X).
 - The existence of non-principal ultrafilters on P(ℕ) requires the axiom of choice (specifically, the Boolean prime ideal theorem or ultrafilter lemma), which is strictly weaker than full AC.
 
+## Questions
+
+```yaml
+- question: "Stone's representation theorem states that every Boolean algebra is isomorphic to a field of sets. What does this mean for the relationship between abstract Boolean algebras and power sets?"
+  type: multiple-choice
+  options:
+    - "Every Boolean algebra is literally a power set P(X) for some set X"
+    - "Every Boolean algebra can be embedded isomorphically into some power set, meaning it behaves identically to a collection of sets under union, intersection, and complement"
+    - "Every Boolean algebra is a subalgebra of some P(X), and all Boolean algebras have the same cardinality"
+    - "Power sets are the only examples of Boolean algebras; all others reduce to power sets upon closer inspection"
+  answer: 1
+  explanation: "Stone's theorem says every Boolean algebra is isomorphic to a *field of sets* — the clopen subsets of its Stone space — not necessarily to a full power set. An abstract Boolean algebra's elements need not be sets at all; but the theorem guarantees there exists some collection of sets with the same algebraic structure. This is the sense in which abstract Boolean algebras are 'not really more general than set algebras.' However, not every Boolean algebra is isomorphic to a power set directly — countable atomless Boolean algebras (like clopen sets of the Cantor space) are not isomorphic to any P(X)."
+
+- question: "An ultrafilter U on the power set algebra P(ℕ) must satisfy which decisive property?"
+  type: multiple-choice
+  options:
+    - "For every A ⊆ ℕ, both A ∈ U and ℕ∖A ∈ U"
+    - "For every A ⊆ ℕ, either A ∈ U or ℕ∖A ∈ U, but not both"
+    - "U contains every finite subset of ℕ"
+    - "U contains every cofinite subset of ℕ, plus infinitely many finite sets"
+  answer: 1
+  explanation: "An ultrafilter is a maximal filter, and its characterizing property is decisiveness: for every element a of the Boolean algebra, either a or its complement belongs to the ultrafilter, but not both (since both together have meet equal to 0, which no proper filter contains). This is what makes ultrafilters useful in forcing: a generic ultrafilter decides every condition in the Boolean algebra, assigning it or its complement to the generic extension. The Fréchet filter (option D) is not an ultrafilter — it contains all cofinite sets but doesn't decide finite sets individually."
+
+- question: "Every Boolean algebra is isomorphic to a power set P(X) for some set X."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception the topic explicitly addresses. Not every Boolean algebra is isomorphic to a power set. For example, the countable atomless Boolean algebra — the clopen sets of the Cantor space — is a legitimate Boolean algebra that is not isomorphic to any P(X). Stone's representation theorem guarantees isomorphism to a *field of sets* (the clopen subsets of the Stone space), which is a collection of subsets closed under union, intersection, and complement, but this field of sets need not be a full power set. Power sets are just the 'nicest' examples."
+
+- question: "The existence of a non-principal ultrafilter on P(ℕ) can be proven using only ZF set theory, without any additional axioms."
+  type: true-false
+  answer: false
+  explanation: "Non-principal ultrafilters on P(ℕ) cannot be proved to exist in ZF alone — their existence requires the Boolean prime ideal theorem (or ultrafilter lemma), which is equivalent to: every Boolean algebra has a prime ideal. This axiom is strictly weaker than the full Axiom of Choice but strictly stronger than ZF. Non-principal ultrafilters cannot be described explicitly or constructed — they are guaranteed to exist by a compactness argument, but no one can point to one. This is in sharp contrast to principal ultrafilters (all sets containing a fixed point x), which are immediately constructible."
+
+- question: "Explain the connection between ultrafilters on a Boolean algebra and the Stone space of that algebra."
+  type: short-answer
+  answer: "The Stone space of a Boolean algebra B is a compact, totally disconnected topological space whose *points are exactly the ultrafilters of B*. Each ultrafilter U corresponds to a point in the Stone space, and the Boolean operations on B translate into set-theoretic operations on clopen subsets of this space. Stone's representation theorem then says B is isomorphic to the algebra of clopen sets of its own Stone space — so abstract Boolean algebra becomes concrete topology. In forcing, this connection is essential: the generic ultrafilter (a point in the Stone space of the forcing algebra) corresponds to a generic extension of the ground model."
+  explanation: "The Stone space construction turns the abstract notion of an ultrafilter into a geometric point, making the connection between algebra and topology explicit. Every Boolean algebra generates its Stone space by taking ultrafilters as points and basic open sets as {U : a ∈ U} for each element a. This is one of the deepest results in universal algebra, unifying algebraic and topological perspectives on the same structure."
+```
+
 ## Explainer
 
 You already know about the power set P(X) from the axiom of power set, and you know the basic set operations — union, intersection, and complement — from naive set theory. A **Boolean algebra** is the algebraic abstraction of exactly this structure. The power set P(X) with ∪ (join), ∩ (meet), complement (negation), ∅ (bottom, or 0), and X (top, or 1) satisfies a list of equational laws — commutativity, associativity, distributivity of ∩ over ∪ and vice versa, identity laws, and complement laws. These are the **Boolean algebra axioms**. Any algebraic structure satisfying these laws is a Boolean algebra, whether or not its elements are sets.

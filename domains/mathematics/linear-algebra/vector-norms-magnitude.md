@@ -30,6 +30,45 @@ Start with concrete 2D and 3D examples, computing norms and verifying the Pythag
 ## Common Misconceptions
 Confusing the dot product with the norm—the norm is a single number (length), while the dot product requires two vectors. Forgetting the square root when computing norm from the dot product.
 
+## Questions
+
+```yaml
+- question: "A vector v = (3, 4) has dot product v · v = 25. What is ‖v‖?"
+  type: multiple-choice
+  options:
+    - "25"
+    - "12.5"
+    - "5"
+    - "7 (adding the components)"
+  answer: 2
+  explanation: "‖v‖ = √(v · v) = √25 = 5. The dot product v · v gives the *squared* length, not the length itself. The square root is essential — forgetting it is the most common computational error with norms. In 2D this is just the Pythagorean theorem: the vector (3, 4) is the hypotenuse of a 3-4-5 right triangle."
+
+- question: "What does ‖u − v‖ measure geometrically?"
+  type: multiple-choice
+  options:
+    - "The angle between vectors u and v"
+    - "The scalar projection of u onto v"
+    - "The Euclidean distance between the points corresponding to u and v"
+    - "The area of the parallelogram spanned by u and v"
+  answer: 2
+  explanation: "The difference vector u − v points from the tip of v to the tip of u (both measured from the origin), and its norm is the length of that segment — the Euclidean distance between the two points. This is the foundation for measuring convergence (‖vₙ − L‖ → 0) and error in computation."
+
+- question: "For any nonzero vector v, dividing by its norm ‖v‖ produces a vector pointing in the same direction with length 1."
+  type: true-false
+  answer: true
+  explanation: "The normalized vector u = v/‖v‖ has norm ‖u‖ = ‖v/‖v‖‖ = ‖v‖/‖v‖ = 1. Direction is preserved because we scale by a positive scalar. This normalization operation — isolating direction from magnitude — is fundamental in projections, coordinate systems, and defining unit vectors."
+
+- question: "The norm of a vector equals its dot product with itself."
+  type: true-false
+  answer: false
+  explanation: "The norm equals the *square root* of the dot product with itself: ‖v‖ = √(v · v). The dot product v · v gives ‖v‖², the squared length. Writing ‖v‖ = v · v is a frequent error that produces squared distances instead of distances — off by a square root in every calculation."
+
+- question: "Why does the Euclidean norm formula ‖v‖ = √(v · v) include a square root, and what goes wrong if you forget it?"
+  type: short-answer
+  answer: "The dot product v · v sums the squares of all components, giving the square of the length by the Pythagorean theorem. The square root extracts the actual length. Without it, for v = (3, 4), you get 25 (the area of the square with side 5) rather than 5 (the actual length). Every distance calculation is then wrong by a square-root factor — for instance, ‖u − v‖² is not a distance, it is a squared distance."
+  explanation: "The Pythagorean theorem says the squared hypotenuse equals the sum of squared legs. In n dimensions, ‖v‖² = v₁² + ... + vₙ² is the n-dimensional analogue of this squared length. To get length from squared length, you always take the square root. Treating v · v as the norm is analogous to confusing a speedometer that reads distance-squared with one that reads distance — systematically wrong in a way that compounds in any subsequent calculation."
+```
+
 ## Explainer
 
 You already know the dot product: given v = (v₁, v₂, ..., vₙ), the dot product v · v = v₁² + v₂² + ... + vₙ². Now ask: what does this number measure? In two dimensions, v · v = v₁² + v₂², and by the Pythagorean theorem this is exactly the square of the distance from the origin to the point (v₁, v₂). The **Euclidean norm** ‖v‖ = √(v · v) is simply that distance — the length of the arrow from the origin to the tip of v. The square root extracts the actual length from the squared-length that the dot product gives you.

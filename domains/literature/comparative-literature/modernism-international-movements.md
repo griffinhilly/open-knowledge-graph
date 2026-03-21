@@ -30,6 +30,45 @@ Trace a single motif or experiment across modernist movements: How is fragmentat
 ## Common Misconceptions
 That modernism is a coherent movement. It's a network of competing, sometimes antagonistic movements united more by historical contemporaneity and shared rejection of tradition than by shared aims.
 
+## Questions
+
+```yaml
+- question: "Both Eliot's *The Waste Land* and Russian Constructivist poetry use fragmentation and non-linear structure. A student concludes they are expressions of the same modernist aesthetic program. What is wrong with this analysis?"
+  type: multiple-choice
+  options:
+    - "Nothing — formal similarity is the defining feature of modernism, so identical techniques indicate shared membership in a unified movement"
+    - "The student is wrong only about Russian Constructivism, which was not part of the modernist movement"
+    - "Formal similarity can coexist with deep political difference — the same technique served opposed ends: Eliot's cultural conservatism versus Constructivism's revolutionary collectivism"
+    - "The student should first determine which text influenced the other before making any comparative claim"
+  answer: 2
+  explanation: "The central insight of comparative modernist study is that formal similarity does not imply shared ideological or aesthetic purpose. Eliot's fragmentation mourned the loss of cultural unity and expressed social conservatism; Constructivist fragmentation aimed to build a new collective consciousness aligned with revolutionary communism. The same formal device, opposite purposes. This is why 'modernism' names a historical period and network of responses rather than a unified program — analyzing a text as simply 'modernist' without specifying which movement and what cultural work it does is analytically empty."
+
+- question: "What is the significance of the 'little magazines' — *Poetry*, *The Criterion*, *Transition* — for understanding what modernism actually was?"
+  type: multiple-choice
+  options:
+    - "They were primarily marketing vehicles that helped individual modernist writers find commercial audiences"
+    - "They served as the social infrastructure through which modernism was transnational — circulating texts across national contexts and constituting a readership defined by aesthetic rather than national identity"
+    - "They documented the emergence of a unified modernist program by tracking which techniques gained acceptance across Europe and America"
+    - "They show that modernism was primarily an Anglo-American phenomenon, since most major magazines were published in English"
+  answer: 1
+  explanation: "The little magazines were constitutive of modernism's transnational character — they were the mechanism by which texts circulated across national boundaries, creating a community of readers and writers defined by shared aesthetic commitments rather than shared nationality. Transnationalism was not incidental but part of what modernism was: a global conversation among writers responding to similar disruptions from different national contexts. Option D contradicts this — *Transition* was Paris-based and multilingual; the magazines explicitly crossed national lines."
+
+- question: "The same formal device — fragmentation, non-linear time, unreliable narration — could appear in modernist texts that were politically incompatible."
+  type: true-false
+  answer: true
+  explanation: "This is one of the key analytical insights of comparative modernism. Fragmentation in Eliot expressed conservative mourning for lost cultural unity; in Brecht it was an alienation device serving socialist political theater; in Dadaism it attacked meaning itself to undermine bourgeois rationalism. The form does not determine the politics — each movement appropriated similar formal devices for radically different ideological ends. This is why reading a text as simply 'modernist' explains nothing about its cultural work."
+
+- question: "Modernism was a coherent international movement unified by a shared aesthetic program: the rejection of realism, formal innovation, and self-reflexivity."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception the topic addresses. While modernist movements shared a historical moment and a rejection of certain conventions, they were often antagonistic to one another and pursued incompatible aesthetic and political goals. Futurism celebrated machines and violence; Dadaism attacked all programmatic art including Futurism; Imagism demanded compression and precision while Surrealism celebrated unconscious excess. These movements are better described as a network of competing experiments than a coherent program."
+
+- question: "What does it mean to say that modernism's transnationalism was 'constitutive' rather than merely incidental, and why does this matter for comparative analysis?"
+  type: short-answer
+  answer: "To say transnationalism was constitutive means that the cross-national circulation of texts, manifestos, and artists was not a background condition but part of what made modernism what it was. Modernist works were written in relation to, in response to, and in dialogue with works from other national traditions — through the deliberate creation of transnational networks (little magazines, expatriate communities, international manifestos). For comparative analysis, this means treating national literatures as the primary unit of analysis misses what is specifically modernist. The proper unit is the transnational conversation: a Cubist painting and a Vorticist poem need to be read as responses to the same disruption in representation, not as independent national developments that happened to resemble each other."
+  explanation: "The word 'constitutive' does real philosophical work: it means the cross-national exchange wasn't something added to modernism but something that made modernism possible in the first place. Modernism is what it is because of its network structure."
+```
+
 ## Explainer
 
 From your study of European Romanticism, you know that literary movements are defined as much by what they react against as by what they produce. Romanticism rejected Enlightenment rationalism and neoclassical formal constraints. Modernism, arriving roughly a century later, rejected Romanticism — but it did so in multiple directions simultaneously, producing a set of movements so internally contradictory that the word "modernism" names a historical period more than a unified aesthetic program. The key methodological step is to treat modernism as a conversation: a network of texts, manifestos, little magazines, and polemics that responded to and contested each other, often violently, across national borders.

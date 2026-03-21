@@ -27,6 +27,45 @@ Use four-momentum conservation to derive threshold energy for pair production by
 ## Common Misconceptions
 A single photon cannot create a pair and conserve both energy and momentum simultaneously (a nucleus is needed to absorb recoil). The threshold energy is not simply 2mc² in the lab frame if the incident photon has momentum.
 
+## Questions
+
+```yaml
+- question: "A photon with energy 5 MeV (well above the 1.022 MeV threshold) travels through empty space with no nearby matter. Can it spontaneously create an electron-positron pair?"
+  type: multiple-choice
+  options:
+    - "Yes — it has more than enough energy to supply the rest masses of both particles"
+    - "No — a single photon has zero invariant mass squared, but the minimum invariant mass of an electron-positron pair is nonzero; four-momentum conservation cannot be satisfied regardless of photon energy"
+    - "No — only photons above 10 MeV can create pairs in vacuum"
+    - "Yes, but only if the photon's spin angular momentum equals the pair's combined spin"
+  answer: 1
+  explanation: "The constraint is not just energy but four-momentum conservation. A photon's invariant mass squared is pᵘpᵤ = (E/c)² − |p|² = 0 (since E = pc for photons). An electron-positron pair has minimum invariant mass squared (2mₑc)² ≠ 0. These cannot be equal, regardless of how large the photon energy is. Energy alone is insufficient; the invariant mass is a Lorentz scalar that must match in initial and final states. This is why a nucleus is required — it changes the total invariant mass of the initial system."
+
+- question: "When an electron-positron pair annihilates at rest, what is the minimum number of photons produced and why?"
+  type: multiple-choice
+  options:
+    - "One — a single photon with energy 1.022 MeV carries away all the rest-mass energy"
+    - "Two — one photon would have zero invariant mass squared, but the initial pair has nonzero invariant mass; two back-to-back photons can satisfy four-momentum conservation"
+    - "Three — conservation of spin requires three photons in the final state"
+    - "Four — two photons from each particle separately"
+  answer: 1
+  explanation: "A single final-state photon would have invariant mass squared = 0, but the initial e⁺e⁻ pair at rest has invariant mass = 2mₑ ≠ 0 — same invariant mass argument as pair production, run in reverse. Two back-to-back photons (in the CM frame) can have zero total invariant mass when they carry equal and opposite momenta, while their energies sum to 2mₑc² = 1.022 MeV. The 511 keV gamma pairs are the signature used in PET imaging."
+
+- question: "A photon with energy greater than 1.022 MeV can create an electron-positron pair without any nearby nucleus, provided its energy exceeds the threshold."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception. The energy threshold 1.022 MeV is necessary but not sufficient for pair production by a single photon. A photon in vacuum always has zero invariant mass squared, while any electron-positron pair has positive invariant mass squared. Four-momentum conservation is violated for single-photon pair production regardless of photon energy. A nucleus (or other particle to absorb recoil) is always required to provide the additional four-momentum that reconciles the invariant masses."
+
+- question: "In positron emission tomography (PET), the two annihilation gamma rays always have exactly equal energies in the lab frame when detected by the scanner."
+  type: true-false
+  answer: false
+  explanation: "When the positron has kinetic energy before annihilation (as it does in PET — it is emitted with some energy from beta decay), the center-of-mass frame is not at rest in the lab. The two 511 keV photons are back-to-back in the CM frame but are Doppler-shifted in the lab, so they arrive with slightly different energies and a small time-of-flight difference. It is precisely this asymmetry that allows PET scanners to localize the annihilation site along the line of response."
+
+- question: "Why must a nucleus be present for pair production by a photon, given that the nucleus contributes negligible energy to the reaction?"
+  type: short-answer
+  answer: "The nucleus is needed to absorb vector recoil momentum, not energy. A photon has invariant mass squared p² = (E/c)² − |p|² = 0. An electron-positron pair has minimum invariant mass squared (2mₑc)². Since invariant mass is a Lorentz scalar conserved in reactions, a single photon cannot produce a pair — the invariant masses can never match. The nucleus adds its own four-momentum to the initial state, raising the total invariant mass to accommodate the pair. Because the nucleus is so heavy, it absorbs the momentum kick with negligible kinetic energy, so the photon's energy is almost entirely available for rest-mass creation."
+  explanation: "This is a fundamental application of four-momentum invariants to threshold problems. The key insight is that energy conservation alone is insufficient — invariant mass conservation (a frame-independent constraint) rules out single-photon pair production absolutely, not just at low energies."
+```
+
 ## Explainer
 
 From your study of four-momentum you know that every particle carries a four-momentum pᵘ = (E/c, **p**), and the invariant mass is defined by pᵘpᵤ = (E/c)² − |**p**|² = (mc)². This invariant mass-squared is the same in every inertial frame, which makes it the most powerful tool for threshold calculations. For a photon, m = 0, so E = pc exactly.

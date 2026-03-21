@@ -31,6 +31,45 @@ Examine a soap bubble or oil slick in sunlight and observe the swirling colors. 
 - Students often forget the phase shift upon reflection, leading to wrong conditions for constructive/destructive interference.
 - Both reflections must be accounted for — only one may receive a phase shift depending on relative indices.
 
+## Questions
+
+```yaml
+- question: "A soap bubble film (air outside, film with n > 1, air inside) has thickness t = λ/(4n). Considering that only the top reflection (air-to-film) acquires a π phase shift, what does this film produce for reflected light?"
+  type: multiple-choice
+  options:
+    - "Destructive interference — a quarter-wave film always cancels reflected light"
+    - "Constructive interference — the phase flip combines with the path difference to bring the beams into phase"
+    - "No interference — the film is too thin to produce a measurable effect"
+    - "Partial interference only — the beams must have equal amplitude to interfere"
+  answer: 1
+  explanation: "For a soap bubble with one phase flip: total phase = (4πnt/λ) + π. At t = λ/(4n): 4πnt/λ = 4πn·(λ/4n)/λ = π. Total phase = π + π = 2π — constructive interference. This is the soap bubble's first constructive maximum. Intuition says a quarter-wave film should cancel, which IS true when both reflections flip (the anti-reflection coating case). With only one flip, the condition inverts: a quarter-wave film gives constructive for a soap bubble but destructive for a coated lens on glass — the same thickness produces opposite results depending on the number of phase shifts."
+
+- question: "When light reflects from the two surfaces of a thin film, which reflections acquire a π phase shift?"
+  type: multiple-choice
+  options:
+    - "Both reflections always acquire a π phase shift at any interface"
+    - "Only the top reflection (entering the film from less dense medium) acquires a π phase shift; the bottom reflection (exiting to less dense medium) does not"
+    - "Only the bottom reflection acquires a π phase shift, because the light has already slowed down inside the film"
+    - "Neither reflection acquires a phase shift unless the film is thicker than λ/2"
+  answer: 1
+  explanation: "A π phase shift occurs whenever light reflects off a medium with a HIGHER refractive index — analogous to a wave on a rope reflecting off a fixed end. For a soap bubble (air n=1, film n≈1.33, air n=1): the top reflection is air→film (going to higher n) → π shift acquired; the bottom reflection is film→air (going to lower n) → no shift. This asymmetry is critical: it changes the conditions for constructive and destructive interference. If both reflections flip or neither does, the conditions are different again (as in anti-reflection coatings on glass)."
+
+- question: "When light reflects off a medium with a higher refractive index, it undergoes a phase shift of π, analogous to a transverse wave on a string reflecting off a fixed wall."
+  type: true-false
+  answer: true
+  explanation: "This phase shift is a general wave phenomenon at boundaries where the wave is entering a 'harder' medium. For electromagnetic waves, the boundary conditions of Maxwell's equations require a sign reversal of the electric field upon reflection from a denser medium — equivalent to a half-wavelength phase shift. The string analogy is exact: a pulse traveling along a rope and hitting a fixed (immovable) wall reflects inverted; a pulse hitting a free end reflects non-inverted. Dense medium = fixed wall (inverted/π shift); less-dense medium = free end (no shift)."
+
+- question: "For a very thin soap bubble film (thickness approaching zero), the two reflected beams interfere constructively because the path difference between them approaches zero."
+  type: true-false
+  answer: false
+  explanation: "As t → 0, the optical path difference 2nt → 0, so the phase contribution from the path difference → 0. However, the top reflection still acquires a π phase shift regardless of thickness. Total phase → 0 + π = π, which gives DESTRUCTIVE interference. This is why very thin soap bubble films appear black (near the top where gravity has thinned them most): they reflect essentially no light. The black film is not an absence of film but a demonstration that the π phase flip from reflection dominates when path-length effects are negligible."
+
+- question: "Why does an anti-reflection coating of thickness t = λ/(4n) suppress reflected light? Why does careful phase-shift accounting matter here?"
+  type: short-answer
+  answer: "An AR coating (e.g., MgF₂ on glass) has n_coating between n_air and n_glass, so BOTH reflections occur at a denser medium — both acquire a π phase shift. These two shifts sum to 2π (a full cycle), effectively canceling each other. The path difference at t = λ/(4n) contributes phase = 4πnt/λ = π. Total phase = 0 (from two canceling flips) + π (from path) = π → destructive interference. Without tracking both phase shifts, one would naively set 2nt = λ/2 (half-wave path difference) for destructive, but that actually produces constructive interference in this two-flip geometry."
+  explanation: "The phase accounting table clarifies all cases: (0 flips) constructive when 2nt = mλ; (1 flip, soap bubble) constructive when 2nt = (m+½)λ; (2 flips, AR coating) constructive when 2nt = mλ again (flips cancel). The same film thickness means completely different interference results depending on the stack geometry. Anti-reflection coatings work precisely because the two flips cancel, leaving the path difference alone to produce destructive interference at the designed wavelength."
+```
+
 ## Explainer
 
 From wave interference and Snell's law you know two things: waves that are in phase add up while waves a half-wavelength out of phase cancel, and light slows down and bends when it enters a denser medium. Thin-film interference combines both ideas. When a beam of light hits a thin transparent layer — a soap bubble, an oil slick, an anti-reflection coating — it splits at the first surface. One portion reflects immediately from the top; the rest transmits into the film, bounces off the bottom surface, and exits upward. These two reflected beams then travel together and interfere. The question is always: what is the phase difference between them?

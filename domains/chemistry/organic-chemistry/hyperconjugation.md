@@ -31,6 +31,45 @@ Draw the orbital picture explicitly: show the filled sigma bond aligned parallel
 - Hyperconjugation does not break the C-H bond; the sigma electrons are only partially shared with the adjacent empty orbital.
 - The effect operates in neutral molecules too (explaining alkene stability), not only in carbocations.
 
+## Questions
+
+```yaml
+- question: "Methyl cation (CH₃⁺) is far less stable than tert-butyl cation ((CH₃)₃C⁺). What is the primary orbital reason for this difference?"
+  type: multiple-choice
+  options:
+    - "The inductive effect of three methyl groups polarizes sigma bonds toward the central carbon"
+    - "Nine adjacent C–H sigma bonds in tert-butyl cation overlap with the empty p-orbital, delocalizing the positive charge, while methyl cation has no such donors"
+    - "The tert-butyl cation has more total electrons, providing greater electrostatic shielding"
+    - "Steric crowding in tert-butyl cation forces electron density toward the electron-deficient center"
+  answer: 1
+  explanation: "Hyperconjugation requires C–H (or C–C) sigma bonds adjacent to the empty p-orbital. Methyl cation has no carbon neighbors at all — zero hyperconjugative donors. Tert-butyl cation has three methyl groups, each contributing three C–H sigma bonds, giving nine donors whose filled sigma orbitals overlap with the empty p-orbital and spread the positive charge. The inductive effect (option A) is real but is a separate, weaker through-bond polarization — hyperconjugation through orbital overlap is the dominant stabilizing mechanism."
+
+- question: "Hyperconjugation explains why more-substituted alkenes are more thermodynamically stable. Which orbital interaction is responsible?"
+  type: multiple-choice
+  options:
+    - "Lone pairs on adjacent carbon atoms donate into the π bonding orbital"
+    - "Adjacent C–H sigma bonds donate into the π* antibonding orbital of the double bond"
+    - "The π bond interacts with adjacent C–H antibonding sigma orbitals, lowering overall energy"
+    - "Inductive electron donation through the sigma framework increases electron density in the π bond"
+  answer: 1
+  explanation: "In an alkene, the π* (antibonding) orbital is empty and available to accept electron density. Adjacent C–H sigma bonds can overlap with this π* orbital, partially filling it and lowering the energy of the molecule. The more alkyl substituents on the double bond, the more C–H sigma donors are available, and the greater the stabilization. This is the same donor-into-empty-orbital logic as carbocation stabilization, applied to a neutral molecule."
+
+- question: "Hyperconjugation and the inductive effect are two names for the same phenomenon — both describe through-bond electron donation from alkyl groups to electron-deficient centers."
+  type: true-false
+  answer: false
+  explanation: "These are distinct mechanisms. The inductive effect is a through-bond polarization of sigma electrons — electron density shifts along the chain of sigma bonds without orbital mixing. Hyperconjugation involves actual orbital overlap: the filled sigma bonding orbital physically overlaps with the adjacent empty p-orbital (or π*), allowing partial electron delocalization. The C–H bond weakens and lengthens slightly under hyperconjugation, which does not occur with simple induction."
+
+- question: "Hyperconjugation can stabilize neutral molecules such as alkenes, not only carbocations."
+  type: true-false
+  answer: true
+  explanation: "Hyperconjugation operates wherever a filled sigma bond is adjacent to an empty or low-energy orbital — not just at carbocations. In alkenes, adjacent C–H sigma bonds donate into the π* orbital, stabilizing the molecule and explaining the thermodynamic stability order (more substituted > less substituted). The same effect appears in radical stability and conformational preferences (staggered conformations are partly stabilized by hyperconjugative interactions)."
+
+- question: "Why does a tertiary carbocation have more hyperconjugative stabilization than a primary carbocation? Explain in terms of orbitals."
+  type: short-answer
+  answer: "A carbocation has an empty p-orbital on the central carbon. Hyperconjugation occurs when an adjacent C–H sigma bond is aligned parallel to that empty orbital, allowing its two electrons to partially overlap with and donate into the empty orbital, spreading the positive charge. A primary carbocation has only one adjacent carbon with C–H bonds (three donors). A tertiary carbocation has three adjacent carbons, each providing three C–H sigma bonds — nine donors total. Each additional donor provides another channel for electron delocalization, distributing the charge over more atoms and progressively lowering the energy."
+  explanation: "The key is counting adjacent C–H donors: methyl = 0, primary = 3, secondary = 6, tertiary = 9. Each additional hyperconjugative interaction contributes roughly 15–20 kJ/mol of stabilization. This quantitative relationship is confirmed by measurements like hydride affinities and solvolysis rate constants, which show a consistent stepwise increase in stability with each additional alkyl substituent."
+```
+
 ## Explainer
 
 You already understand that tertiary carbocations are more stable than secondary, which are more stable than primary. The explanation you may have first encountered — "alkyl groups are electron-donating" — is correct but incomplete. **Hyperconjugation** is the specific orbital interaction that explains *how* alkyl groups donate electron density to stabilize adjacent electron-deficient centers, and it operates through a mechanism fundamentally different from inductive effects.

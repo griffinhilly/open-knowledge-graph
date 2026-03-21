@@ -31,6 +31,45 @@ Use numerical examples: if firms maintain capital-to-output ratio of 2:1 and out
 - Forgetting accelerator works in reverse.
 - Treating accelerator as deterministic.
 
+## Questions
+
+```yaml
+- question: "In Year 1, an economy's output grows from $100 to $110. In Year 2, output grows from $110 to $118. Firms maintain a capital-to-output ratio of 2. According to the accelerator principle, what happens to investment in Year 2 compared to Year 1?"
+  type: multiple-choice
+  options:
+    - "Investment rises, because output is higher in Year 2 than Year 1"
+    - "Investment stays the same, because the capital-to-output ratio has not changed"
+    - "Investment falls, because the rate of output growth slowed from $10 to $8"
+    - "Investment rises, because the economy is still expanding and needs more capital"
+  answer: 2
+  explanation: "Year 1 output grew by $10, requiring $20 in new capital (2×$10). Year 2 output grew by only $8, requiring only $16 in new capital (2×$8). Investment fell by $4 even though output is still rising. This is the core of the accelerator: investment responds to the rate of change of output, not the level. A deceleration in growth — not a recession — is sufficient to cause investment to fall."
+
+- question: "Why does a mere slowdown in GDP growth — not an actual decline in output — cause investment spending to fall sharply?"
+  type: multiple-choice
+  options:
+    - "When growth slows, interest rates rise automatically, making borrowing for capital more expensive"
+    - "Investment expands the capital stock to meet growing demand; if output grows more slowly, the required addition to capital stock shrinks, so firms invest less"
+    - "Firms interpret slower growth as evidence of lower future profits and preemptively cut all capital spending"
+    - "Slower growth reduces consumer confidence, which directly causes firms to reduce their investment plans"
+  answer: 1
+  explanation: "The mechanism is purely about the desired capital stock. Firms target a fixed ratio of capital to output. When output grows by $10, they need $20 more capital (at a 2:1 ratio). When output grows by only $5, they need only $10 more capital. Investment spending is the rate at which the capital stock is being added to — so if the desired addition shrinks, investment shrinks, even though output is still positive and growing. No interest rate change or confidence shock is required."
+
+- question: "According to the accelerator principle, investment can fall even while output is still rising, if the rate of output growth decelerates."
+  type: true-false
+  answer: true
+  explanation: "This is the key non-intuitive result of the accelerator. Because investment tracks the change in output (not the level), any slowdown in the pace of growth reduces the gap between current and desired capital stock, reducing the need for new investment. A mere deceleration — from 10% growth to 5% growth, for instance — cuts investment in half under a simple accelerator model, even though the economy is still expanding."
+
+- question: "An economy experiencing positive GDP growth will necessarily see rising business investment, since firms need more capital to meet growing demand."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about the accelerator. Investment depends on the rate of change of output, not the level. If output is growing at 8% this year versus 12% last year, firms need less additional capital than last year — so investment falls despite positive growth. The economy is still expanding, but at a slower rate, and that slowdown is enough to push investment down."
+
+- question: "In your own words, explain why the accelerator principle makes investment the most volatile component of GDP and helps drive business cycles."
+  type: short-answer
+  answer: "Investment depends on the rate of change of output — so small fluctuations in the growth rate produce large swings in investment. If growth merely slows (but remains positive), investment can collapse, reducing aggregate demand, which slows growth further, which reduces investment further. This self-reinforcing dynamic amplifies small economic fluctuations into larger cycles. A slowdown becomes a potential recession not because of any single shock, but because the accelerator turns a deceleration in growth into a sharp drop in investment."
+  explanation: "The amplification effect is the macroeconomic punchline. Investment is volatile because it responds to the second derivative of output, not the first. Even small changes in the growth rate ripple into large changes in investment, which then feed back into aggregate demand and output, deepening the cycle in both directions."
+```
+
 ## Explainer
 
 From your study of GDP components you know that investment is one of the most volatile components of aggregate expenditure. The **accelerator principle** explains why: investment is not driven by the level of output but by the *change* in output. This distinction is counterintuitive at first but becomes clear once you think about what investment is actually for — it is the act of expanding the capital stock to meet demand. If demand is not growing, there is no need to add capital.

@@ -26,6 +26,45 @@ Build a library of known benchmarks (p-integrals, exponential decay). Practice b
 - Forgetting that comparison tests require non-negative integrands.
 - Confusing the comparison test for integrals with the comparison test for series (same logic, different context).
 
+## Questions
+
+```yaml
+- question: "For x ≥ 1, suppose 0 ≤ f(x) ≤ g(x) and ∫₁^∞ g(x) dx diverges. What does the Direct Comparison Test allow you to conclude about ∫₁^∞ f(x) dx?"
+  type: multiple-choice
+  options:
+    - "It diverges, because f is bounded above by a divergent function"
+    - "It converges, because f ≤ g and g blows up, so f must stay finite"
+    - "Nothing can be concluded — a divergent upper bound gives no information about the smaller function"
+    - "It diverges if and only if lim_{x→∞} f(x)/g(x) > 0"
+  answer: 2
+  explanation: "This is the most common error in applying comparison tests. Being bounded *above* by a divergent function tells you nothing — the smaller function could converge or diverge. For example, 1/x² ≤ 1/x on [1,∞), and ∫1/x diverges, yet ∫1/x² converges (p = 2 > 1). Divergence propagates *upward*: if the smaller f diverges, the larger g must also diverge. Convergence propagates *downward*: if the larger g converges, the smaller f must converge. The two invalid directions are: divergent upper bound and convergent lower bound."
+
+- question: "You apply the Limit Comparison Test to ∫₁^∞ 1/(x⁴ + x + 1) dx using benchmark 1/x⁴. You compute lim_{x→∞} [1/(x⁴+x+1)] / [1/x⁴] = lim x⁴/(x⁴+x+1) = 1. What do you conclude?"
+  type: multiple-choice
+  options:
+    - "Nothing; the limit equals 1 which is not strictly greater than zero so the test fails"
+    - "The integral converges, since the limit is a finite positive number and ∫₁^∞ 1/x⁴ dx converges (p = 4 > 1)"
+    - "The integral diverges, because 1/(x⁴+x+1) < 1/x⁴ for all x ≥ 1"
+    - "The test is inconclusive; you must use direct comparison with a larger function instead"
+  answer: 1
+  explanation: "The Limit Comparison Test says: if lim f/g = L where 0 < L < ∞, then ∫f and ∫g share the same convergence behavior. Here L = 1, which is finite and positive, so the two integrals behave identically at infinity. Since ∫1/x⁴ converges (p-integral with p = 4 > 1), the original integral converges. The technique is to identify the dominant term in the denominator — here x⁴ — and use 1/x⁴ as the benchmark; the lower-order x + 1 terms become negligible as x → ∞."
+
+- question: "If 0 ≤ f(x) ≤ g(x) on [1,∞) and ∫₁^∞ g(x) dx diverges, then ∫₁^∞ f(x) dx must also diverge."
+  type: true-false
+  answer: false
+  explanation: "This reverses the valid direction of the test. The Direct Comparison Test transmits convergence downward (if the larger g converges, the smaller f must converge) and divergence upward (if the smaller f diverges, the larger g must diverge). A divergent upper bound proves nothing about the smaller function. Counterexample: 1/x² ≤ 1/x on [1,∞); ∫1/x diverges, yet ∫1/x² converges (p = 2 > 1)."
+
+- question: "The Direct Comparison Test requires both functions to be non-negative on the interval of integration."
+  type: true-false
+  answer: true
+  explanation: "The test's reasoning rests on area inequalities: if 0 ≤ f(x) ≤ g(x), the 'area' under f cannot exceed the 'area' under g. If either function takes negative values, this area ordering breaks down — a function with negative parts can have a smaller integral than a positive function without any meaningful size relationship. Non-negativity is not a technicality; it is what makes the bounding argument valid."
+
+- question: "Why is choosing the right benchmark the key practical skill when applying comparison tests to improper integrals?"
+  type: short-answer
+  answer: "The benchmark must be a function with known convergence behavior whose magnitude is comparable to the integrand at infinity. For rational-like expressions, keep only the dominant terms and discard lower-order ones. A benchmark too different in magnitude will not yield a valid comparison; one with the same asymptotic order allows both direct and limit comparison. The most useful benchmarks are p-integrals (∫ 1/xᵖ, converges iff p > 1) and exponential decay functions."
+  explanation: "The comparison test itself is mechanical once a benchmark is chosen, but the choice requires recognizing how the integrand behaves as x → ∞. For 1/(x³ + x²), the dominant term is 1/x³. For e^{-x²}, no power function works; use e^{-x} instead. Building a library of known-convergence benchmarks and recognizing which class a given integrand belongs to is the entire art of the technique."
+```
+
 ## Explainer
 
 From your work on convergence, you know how to evaluate improper integrals directly: replace the infinite limit with a parameter, integrate, then take the limit. But many integrands — e^(−x²), 1/(x⁴ + x + 1), sin(x)/x as x → ∞ — have no elementary antiderivative. You cannot evaluate them directly. Comparison tests let you answer "does this converge or diverge?" without ever finding an antiderivative.

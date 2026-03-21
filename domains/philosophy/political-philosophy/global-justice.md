@@ -33,6 +33,45 @@ Start with Peter Singer's drowning-child analogy (if you can prevent something b
 - Cosmopolitanism does not require a world government; most cosmopolitan theorists propose reforms to existing international institutions.
 - The statist position does not deny all obligations to foreigners; it denies that the full machinery of distributive justice (Rawlsian or otherwise) applies at the global level.
 
+## Questions
+
+```yaml
+- question: "A statist philosopher is often accused of claiming that wealthy nations have no obligations whatsoever to citizens of poorer nations. Is this a fair characterization?"
+  type: multiple-choice
+  options:
+    - "Yes — statists hold that justice stops at national borders, so no cross-border obligations exist"
+    - "No — statists distinguish between weak humanitarian duties (which they accept) and full distributive justice (which they deny applies globally)"
+    - "No — statists actually accept full distributive justice globally; they just oppose a world government to enforce it"
+    - "Yes — Nagel explicitly denies that affluent nations owe anything to poorer nations"
+  answer: 1
+  explanation: "The statist position is frequently misread as denying all moral obligations across borders. Nagel and other statists accept humanitarian duties — helping those in severe need — but deny that the strong machinery of distributive justice (like Rawls's difference principle) applies globally. That robust egalitarian obligation, they argue, requires the special coercive institutional relationship that exists within states, which is absent in international relations. Cosmopolitans and statists agree something is owed; they disagree about how much and why."
+
+- question: "A cosmopolitan theorist argues that global poverty is a justice issue requiring rectification, not merely a humanitarian tragedy calling for charity. Which argument best supports this claim?"
+  type: multiple-choice
+  options:
+    - "Affluent nations share historical ancestry with poor nations, generating familial obligations"
+    - "Wealthy nations actively shape global institutions — trade regimes, debt structures, intellectual property rules — in ways that harm poorer countries, making them causally complicit"
+    - "All humans share a world government that creates mutual obligations of fairness"
+    - "Physical proximity always generates stronger moral duties than distance"
+  answer: 1
+  explanation: "Thomas Pogge's institutional cosmopolitan argument holds that affluent nations are not merely failing to help the global poor — they actively design international trade regimes, debt structures, and intellectual property rules in ways that extract value from poorer countries. This transforms the obligation from charity (voluntary assistance) to rectification (undoing harm caused). Option A doesn't reflect standard cosmopolitan arguments; option C is false (cosmopolitans don't require a world government); option D contradicts the cosmopolitan claim that geography is morally irrelevant."
+
+- question: "Most cosmopolitan theorists of global justice require the creation of a world government to implement their proposals."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception. Cosmopolitan theorists like Pogge and Beitz typically argue for reforming existing international institutions — trade agreements, the IMF, the WTO, intellectual property regimes — rather than creating a world government. Cosmopolitanism is a moral claim about who counts (everyone equally, regardless of nationality), not an institutional blueprint requiring global sovereignty. Demanding a world government would be one cosmopolitan proposal, but most theorists specifically reject it as unnecessary and undesirable."
+
+- question: "Nagel's statist argument holds that the Rawlsian difference principle applies within states but not globally, because the global order lacks a shared coercive institutional structure that generates obligations of distributive justice."
+  type: true-false
+  answer: true
+  explanation: "This precisely captures Nagel's core argument in 'The Problem of Global Justice.' He holds that distributive justice is a political relationship — it arises between people jointly subject to a coercive authority that binds them and claims their compliance. That relationship exists within nation-states (citizens are bound by law, pay taxes, submit to state authority) but not at the global level, where international institutions are not coercive in the same way. This is why Nagel accepts humanitarian duties across borders — a weaker moral claim — but rejects extending Rawlsian egalitarianism globally."
+
+- question: "Why do cosmopolitans like Singer argue that national borders are morally arbitrary, and what does this imply for obligations to address global poverty?"
+  type: short-answer
+  answer: "Cosmopolitans argue that birthplace is one of the least morally relevant facts about a person — it is entirely unearned and unchosen — yet among the most consequential determinants of life prospects. If the accident of birth in Norway versus Chad can justify radically different life outcomes, then morality is tracking something other than what matters: the capacity to suffer, to have interests, to flourish. Singer's drowning-child analogy makes this vivid: if proximity doesn't change our obligation to prevent suffering, national membership shouldn't either. The implication is that affluent individuals and nations have strong obligations to address global poverty — not as optional charity but as basic moral duty."
+  explanation: "The key cosmopolitan move is challenging the moral weight of national membership. If justice is grounded in human dignity or interests, these are universal — they don't stop at borders. National borders are historical accidents shaped by wars, treaties, and colonialism, not by morally principled criteria. Accepting that birthplace is morally arbitrary doesn't require world government, but it does require treating global poverty as a matter of justice, not merely benevolence."
+```
+
 ## Explainer
 
 You have already worked through distributive justice — the question of how benefits and burdens should be distributed within a society. That framework assumed a bounded community, typically a nation-state, within which principles of fairness apply. Global justice asks the obvious next question: why should the borders of justice coincide with the borders of states? The accident of birthplace is among the least earned features of a person's life, yet it is among the most consequential. A child born in Norway and a child born in Chad face radically different life prospects through no choice of their own. Does justice have anything to say about that?

@@ -28,6 +28,45 @@ Compare the behavioral consequences of selectively depriving REM versus slow-wav
 - Catching up on lost sleep on weekends does not fully restore cognitive deficits from chronic sleep restriction.
 - Dreams do not require REM — they can occur in NREM, but REM dreams tend to be more vivid and narrative.
 
+## Questions
+
+```yaml
+- question: "A student studies intensively until 3 AM the night before an exam rather than stopping earlier and sleeping. Based on sleep research, what is the core problem with this strategy?"
+  type: multiple-choice
+  options:
+    - "The brain cannot form new long-term memories after midnight due to circadian constraints"
+    - "Studying while sleep-deprived is ineffective because working memory capacity drops to near zero"
+    - "Sleep provides a memory consolidation window — hippocampal replay during NREM and procedural consolidation during REM — that is bypassed by staying awake, making late cramming less effective than studying before sleep"
+    - "Elevated cortisol from staying up late chemically degrades short-term memory traces"
+  answer: 2
+  explanation: "The key mechanism is the consolidation window. During NREM slow-wave sleep, the hippocampus replays daytime learning sequences, strengthening and transferring declarative memories to cortical storage. During REM, procedural and emotional memories undergo consolidation. Staying awake bypasses this consolidation, so cramming at 3 AM leaves memories less durable than the same study session followed by sleep. Option B is also true but misses the specific sleep-consolidation mechanism — it's not just that attention drops, it's that the offline processing stage is skipped."
+
+- question: "A patient reports sleeping 8 hours nightly but shows cognitive deficits comparable to total sleep deprivation. They are diagnosed with obstructive sleep apnea (OSA). What best explains this pattern?"
+  type: multiple-choice
+  options:
+    - "Sleep apnea causes cumulative brain damage from repeated hypoxia that impairs cognition permanently"
+    - "OSA patients actually wake fully dozens of times per night and simply don't remember it"
+    - "Repeated micro-arousals from airway collapse fragment sleep architecture, eliminating slow-wave sleep without conscious awareness of waking, causing the same functional deficits as total sleep deprivation"
+    - "OSA selectively destroys REM sleep, which is responsible for maintaining general cognitive function"
+  answer: 2
+  explanation: "The paradox of OSA is that patients can sleep 8 hours by clock time while functionally receiving far less restorative sleep. Each airway collapse triggers an arousal brief enough that the patient doesn't consciously register waking, but sufficient to prevent entry into deep slow-wave sleep. The result is chronic elimination of the slow-wave sleep stages responsible for memory consolidation and glymphatic clearance, producing cognitive deficits that mirror total sleep deprivation despite seemingly adequate sleep duration."
+
+- question: "The glymphatic system, which flushes metabolic waste products including amyloid-beta from the brain, is primarily active during deep NREM sleep rather than during wakefulness."
+  type: true-false
+  answer: true
+  explanation: "Discovered around 2013, the glymphatic system uses channels alongside blood vessels to pulse cerebrospinal fluid through the brain, clearing metabolic waste. This process is dramatically more active during deep NREM sleep than during wakefulness — possibly because the brain's interstitial space expands during sleep, allowing more efficient fluid flow. The relevance to amyloid-beta clearance established a mechanistic link between chronic sleep deprivation and Alzheimer's disease risk, reshaping how clinicians think about sleep hygiene as a long-term health behavior."
+
+- question: "Sleeping extra hours on weekends can fully restore the cognitive deficits accumulated from a week of chronic sleep restriction, since the brain eventually catches up on lost slow-wave sleep."
+  type: true-false
+  answer: false
+  explanation: "This is one of the most practically important sleep misconceptions. Research shows that recovery sleep on weekends does not fully restore cognitive deficits — particularly in sustained attention, reaction time, and working memory — accumulated from chronic sleep restriction during the week. While some recovery occurs, the deficits partially persist and accumulate over time. Additionally, the irregular sleep schedule itself disrupts circadian rhythms, adding its own costs. Consistent sufficient nightly sleep is not replaceable by binge-sleep on weekends."
+
+- question: "Explain why selective deprivation of REM sleep and selective deprivation of slow-wave NREM sleep produce different patterns of cognitive impairment."
+  type: short-answer
+  answer: "REM and NREM slow-wave sleep serve distinct consolidation functions. During NREM slow-wave sleep, hippocampal replay consolidates declarative (factual) memories and transfers them to cortical storage; the glymphatic system also clears amyloid-beta and other waste during this stage. During REM, procedural and emotional memories are consolidated and new associations form between distantly related concepts. Selectively depriving REM impairs emotional memory processing, procedural learning, and creative association; selectively depriving slow-wave sleep impairs declarative memory consolidation and glymphatic clearance. The distinct deficits reflect the distinct biological roles of each stage."
+  explanation: "This stage-specific logic also explains why different sleep disorders have different cognitive profiles: OSA primarily eliminates slow-wave sleep (declarative memory deficits, amyloid accumulation), while narcolepsy dysregulates REM boundaries (cataplexy, intrusive REM phenomena). The disorders are mechanistically different, and so are the functional consequences."
+```
+
 ## Explainer
 
 You already know that a night's sleep cycles through NREM and REM in roughly 90-minute cycles, with early cycles dominated by slow-wave sleep and later ones by REM. This architecture isn't arbitrary — the different stages appear to serve distinct restorative functions, and understanding those functions explains why you cannot simply replace quantity with quality, or recover from chronic deprivation with a single long sleep.

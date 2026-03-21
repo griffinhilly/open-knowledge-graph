@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 SDN decouples the control plane (routing decisions) from the data plane (packet forwarding) by centralizing control in a logically centralized controller. Switches become simple forwarding devices following controller-installed rules, enabling dynamic network reconfiguration and simplified management. OpenFlow is the most widely deployed protocol for controller-switch communication.
 
+## Questions
+
+```yaml
+- question: "A network administrator needs to implement a quality-of-service policy that prioritizes video conferencing traffic over bulk file transfers, applying consistently across all 500 switches in a data center. How does this differ between traditional networking and SDN?"
+  type: multiple-choice
+  options:
+    - "In traditional networking, the administrator updates one central router; in SDN, each switch must be configured individually."
+    - "In traditional networking, each switch must be configured individually; in SDN, the controller installs updated forwarding rules to all switches centrally."
+    - "In both approaches, the change propagates automatically — traditional routing protocols handle this via distributed consensus."
+    - "In SDN, the change is impossible because switches only make binary forward/drop decisions, not priority-based ones."
+  answer: 1
+  explanation: "This is the core practical advantage of SDN. In traditional networking, each switch runs its own routing logic — implementing a consistent network-wide policy requires logging into each device and modifying its configuration individually, an error-prone and slow process across hundreds of devices. In SDN, the controller has a global view and installs rules in all switch flow tables simultaneously through the southbound interface (e.g., OpenFlow). What would take hours of manual configuration in a traditional network takes seconds via the SDN controller."
+
+- question: "A production SDN deployment uses three geographically distributed controller instances. What architectural concern motivates this design choice?"
+  type: multiple-choice
+  options:
+    - "Three controllers allow parallel processing, tripling the throughput of flow rule installations."
+    - "Distributed controllers provide geographic locality, reducing latency between controller and switches."
+    - "The centralized controller is a single point of failure — if it fails, new flows cannot be handled. Clustering provides fault tolerance."
+    - "Three controllers are required by the OpenFlow protocol, which mandates a minimum of three instances for quorum-based decision making."
+  answer: 2
+  explanation: "SDN's centralization is also its main architectural risk. If the single controller fails, switches continue forwarding existing cached flows but cannot handle new flows or policy updates. Production deployments use controller clustering with failover so that if one controller instance goes down, others take over. This is the fundamental tradeoff of SDN: centralization enables powerful global optimization but creates a critical point of failure that distributed architectures — where failure of one router doesn't affect others — inherently avoid."
+
+- question: "In an SDN architecture, the OpenFlow protocol allows the controller to remotely install and update forwarding rules in switch flow tables."
+  type: true-false
+  answer: true
+  explanation: "OpenFlow is the southbound API — the protocol through which the controller communicates with switches. Using OpenFlow, the controller installs match-action rules in the switch's flow table: 'if packet destination is 10.0.0.5, forward out port 3.' Switches report events (new flows, link failures, statistics) back to the controller. This protocol is what makes switches programmable forwarding devices rather than autonomous decision-makers — the entire SDN architecture rests on this well-defined control-data plane interface."
+
+- question: "In an SDN network, each switch continues to run distributed routing algorithms locally and makes its own forwarding decisions, but reports its decisions to the controller for monitoring."
+  type: true-false
+  answer: false
+  explanation: "This inverts the SDN architecture. In SDN, switches are simple forwarding devices — they execute rules installed by the controller, they do not run routing algorithms. The intelligence (control plane) has been entirely removed from the switches and placed in the controller. Switches match incoming packets against their flow tables and forward accordingly; if no rule matches, they ask the controller. Traditional distributed routing (where each switch runs OSPF or BGP locally) is precisely what SDN replaces."
+
+- question: "What is the fundamental advantage of the SDN controller's global network view over the distributed routing protocols used in traditional networking?"
+  type: short-answer
+  answer: "Distributed routing protocols make locally optimal decisions based on what each node can observe — they cannot optimize across the entire network simultaneously. The controller sees all links, all traffic loads, and all device states at once, enabling globally optimal decisions: routing around congestion, balancing load across multiple paths, enforcing consistent policies, and responding to failures in a coordinated way that no individual router with only a local view can achieve."
+  explanation: "The traffic management analogy illustrates this: a central operations center seeing all intersections simultaneously can optimize across the whole city, while individual officers can only see their own corner. Distributed routing protocols converge on a consistent topology view eventually, but the view is aggregated topology, not real-time traffic. The controller's global, real-time view is what enables sophisticated traffic engineering — like Google and Microsoft's data center management — that would be impractical in traditional distributed architectures."
+```
+
 ## Explainer
 
 In a conventional network, every router and switch is an independent decision-maker. Each device runs routing algorithms locally, builds its own forwarding tables, and acts autonomously. If you want to change how traffic flows — say, to reroute around a congested link — you must log into each affected device and update its configuration individually. For a network with hundreds or thousands of devices, this is slow, error-prone, and makes coordinated network-wide policies extremely difficult to implement. **Software-Defined Networking (SDN)** addresses this by separating the network's brain from its body.

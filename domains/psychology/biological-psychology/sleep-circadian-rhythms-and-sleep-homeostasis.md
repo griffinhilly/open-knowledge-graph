@@ -31,6 +31,45 @@ Record sleep stages using polysomnography (EEG, EOG, EMG). Track circadian phase
 ## Common Misconceptions
 Sleep is passive / all sleep stages are equally important / circadian rhythm and homeostatic pressure are independent / dreams are meaningless / sleep duration doesn't matter as long as total is adequate.
 
+## Questions
+
+```yaml
+- question: "A student drinks coffee at 9 PM to stay up late studying. The next morning they feel groggy even after a full night's sleep. What best explains why caffeine disrupted sleep quality?"
+  type: multiple-choice
+  options:
+    - "Caffeine provides extra energy that prevents adenosine from clearing during sleep"
+    - "Caffeine blocks adenosine receptors, masking homeostatic pressure without eliminating it — when caffeine clears, the accumulated adenosine disrupts the sleep architecture"
+    - "Caffeine shifts the circadian rhythm forward, desynchronizing it from the sleep schedule"
+    - "Caffeine suppresses REM sleep directly by inhibiting cholinergic neurons"
+  answer: 1
+  explanation: "Caffeine is an adenosine receptor antagonist — it mutes Process S (homeostatic pressure) without actually clearing adenosine. Adenosine continues accumulating while the signal is suppressed. When caffeine is metabolized, the backlog of adenosine floods the receptors, creating rebound sleepiness. Sleep architecture suffers because the homeostatic pressure gauge was never properly reset. Options A and D misidentify caffeine's mechanism; option C confuses caffeine's effect with that of bright light."
+
+- question: "A shift worker's employer rotates their schedule between day and night shifts every two weeks. Which of the following best explains why shift workers often experience poor sleep quality even when they sleep a full 8 hours?"
+  type: multiple-choice
+  options:
+    - "Shift work depletes adenosine stores, reducing homeostatic sleep pressure"
+    - "The SCN cannot be entrained quickly enough, so circadian timing remains misaligned with the sleep opportunity"
+    - "Night-shift workers sleep in cold environments which inhibit NREM slow-wave generation"
+    - "REM sleep requires darkness to occur, so daytime sleep eliminates it entirely"
+  answer: 1
+  explanation: "The suprachiasmatic nucleus (SCN) adjusts slowly — roughly 1–2 hours per day — and relies on light cues. When a schedule shifts by 12 hours over two weeks, the SCN lags behind. Even if the worker sleeps 8 hours, those hours fall at the wrong circadian phase, reducing sleep depth and continuity. Process S (homeostatic pressure) can drive sleep onset, but Process C's opposing waking signal shortens and fragments sleep. Options C and D are false; option A gets the mechanism backward."
+
+- question: "Cutting sleep from 8 to 5 hours disproportionately reduces REM sleep compared to NREM sleep."
+  type: true-false
+  answer: true
+  explanation: "REM sleep is concentrated in the later cycles of the night — cycles 4 and 5 contain the longest REM episodes. NREM slow-wave sleep is most abundant in the first two cycles. Cutting the last 3 hours of sleep primarily removes these REM-rich cycles. This is why chronic short sleep particularly impairs emotional regulation and procedural memory consolidation, both functions associated with REM."
+
+- question: "Homeostatic sleep pressure (Process S) and the circadian rhythm (Process C) are redundant systems — either one alone is sufficient to produce normal sleep."
+  type: true-false
+  answer: false
+  explanation: "The two processes are independent and serve complementary roles. Process S (adenosine accumulation) drives sleep depth and duration, while Process C (the SCN-generated rhythm) determines the timing window when sleep is favored. People with disrupted circadian rhythms (e.g., jet lag) experience fragmented sleep even when homeostatic pressure is high. Conversely, shift workers can be exhausted (high Process S) yet struggle to sleep because their circadian phase promotes wakefulness. Normal sleep requires both processes to be aligned."
+
+- question: "Explain why slow-wave (NREM stage 3) sleep is thought to be especially important for clearing metabolic waste from the brain, and what system is responsible."
+  type: short-answer
+  answer: "The glymphatic system — a network of perivascular channels in the brain — is most active during slow-wave sleep. During NREM slow-wave sleep, brain cells shrink slightly, expanding interstitial spaces and allowing cerebrospinal fluid to flush through and clear metabolic byproducts including amyloid-beta. The synchronized, low-frequency neural oscillations of slow-wave sleep appear to drive the pulsatile flow needed for this clearance. REM and waking states are associated with compressed glymphatic flow."
+  explanation: "This connects sleep homeostasis to brain health: the very sleep stage that performs synaptic downscaling also removes accumulated metabolic waste. Chronic loss of slow-wave sleep has been linked to amyloid accumulation, a hallmark of Alzheimer's pathology. The glymphatic hypothesis provides a mechanistic link between sleep deprivation and neurodegeneration that goes beyond cognitive impairment."
+```
+
 ## Explainer
 
 The easiest way to understand sleep regulation is through the **two-process model**. Imagine two independent forces shaping when and how deeply you sleep. **Process C** (for circadian) is a clock — a ~24-hour oscillation generated by a tiny brain region called the **suprachiasmatic nucleus** (SCN) in the hypothalamus. The SCN receives direct input from retinal ganglion cells sensitive to blue light, which resets the clock daily. It drives rhythmic release of **melatonin** from the pineal gland at night, signaling "time to sleep" to the rest of the body. **Process S** (for sleep homeostasis) is a pressure gauge — a chemical signal, primarily **adenosine**, that accumulates in the brain with every waking hour and dissipates during sleep. The longer you stay awake, the more adenosine builds, and the stronger the drive to sleep. Caffeine works by blocking adenosine receptors, not by giving you energy directly — it simply mutes the pressure signal.

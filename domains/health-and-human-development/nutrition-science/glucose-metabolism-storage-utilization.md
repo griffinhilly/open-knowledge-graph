@@ -43,6 +43,45 @@ Trace glucose flux through glycolysis and glycogenesis in the fed state, then tr
 - Glycogen depletion causes hypoglycemia; gluconeogenesis can maintain blood glucose for extended periods.
 - All tissues use glucose equally; the brain and red blood cells are glucose-dependent, while muscles and liver can use other fuels.
 
+## Questions
+
+```yaml
+- question: "A patient fasts for 36 hours, depleting liver glycogen. Blood glucose is still maintained in the normal range. What is the primary source of this glucose?"
+  type: multiple-choice
+  options:
+    - "Muscle glycogenolysis releasing glucose into the bloodstream"
+    - "Gluconeogenesis in the liver synthesizing glucose from lactate, amino acids, and glycerol"
+    - "Adipose tissue converting fatty acids directly into glucose"
+    - "The brain reducing its glucose consumption to zero by switching entirely to ketones"
+  answer: 1
+  explanation: "After glycogen is depleted (typically within 12–24 hours of fasting), the liver maintains blood glucose through gluconeogenesis — synthesizing new glucose from non-carbohydrate precursors including lactate, glucogenic amino acids, and glycerol from fat breakdown. Muscle glycogen cannot supply blood glucose because muscle lacks glucose-6-phosphatase. Fatty acids cannot be converted to glucose in mammals. The brain reduces but does not eliminate glucose use as it adapts to ketones over days."
+
+- question: "Why can't skeletal muscle contribute to blood glucose homeostasis during fasting, even though it stores large amounts of glycogen?"
+  type: multiple-choice
+  options:
+    - "Muscle lacks glycogen phosphorylase, so it cannot break down glycogen"
+    - "Muscle glycogen is tightly bound to contractile proteins and cannot be mobilized"
+    - "Muscle lacks glucose-6-phosphatase, so glucose-6-phosphate cannot be converted to free glucose for export"
+    - "Glucagon receptors are absent from skeletal muscle, so fasting signals have no effect there"
+  answer: 2
+  explanation: "Muscle can break down its glycogen (it has glycogen phosphorylase), but the resulting glucose-6-phosphate cannot be exported because muscle lacks glucose-6-phosphatase — the enzyme that cleaves the phosphate group to release free glucose. Without free glucose, the product stays trapped in the muscle cell and enters glycolysis for the muscle's own energy. Only the liver and kidney possess glucose-6-phosphatase, making them the only organs that can export glucose from glycogen breakdown into the bloodstream."
+
+- question: "During fasting, skeletal muscle glycogen is broken down and exported as glucose to maintain blood glucose levels."
+  type: true-false
+  answer: false
+  explanation: "Skeletal muscle stores a large amount of glycogen, but it cannot export glucose to the blood because muscle cells lack glucose-6-phosphatase. Glycogenolysis in muscle produces glucose-6-phosphate, which is trapped and enters glycolysis to fuel muscle activity only. Blood glucose during fasting is maintained exclusively by the liver (and to a lesser extent the kidneys), which possess glucose-6-phosphatase and perform gluconeogenesis."
+
+- question: "During prolonged fasting of several days, the brain can shift much of its fuel consumption from glucose to ketone bodies, reducing the demand on hepatic gluconeogenesis."
+  type: true-false
+  answer: true
+  explanation: "Under normal conditions, the brain is almost entirely glucose-dependent. However, during prolonged fasting, the liver produces ketone bodies (acetoacetate and β-hydroxybutyrate) from fatty acid oxidation. Over days, the brain progressively adapts to oxidizing these ketones, replacing up to 70% of its glucose requirement. This metabolic flexibility is protective — it spares amino acid catabolism that would otherwise be needed to fuel gluconeogenesis, preserving muscle mass during extended starvation."
+
+- question: "Why is the liver described as the 'guardian of blood glucose,' and what biochemical feature makes it uniquely suited to this role compared to muscle?"
+  type: short-answer
+  answer: "The liver is the primary organ responsible for maintaining blood glucose between meals and during fasting. It is uniquely suited because it possesses glucose-6-phosphatase, the enzyme that converts glucose-6-phosphate into free glucose for export into the blood. This allows the liver to release glucose from either glycogenolysis or gluconeogenesis. Muscle, despite storing more total glycogen, lacks this enzyme and cannot export glucose. The liver is also the primary site of gluconeogenesis and is regulated by glucagon (fasting) and insulin (fed state) to switch between storing and producing glucose."
+  explanation: "The liver's metabolic reversibility — glucose sink after meals, glucose source during fasting — is enabled by glucose-6-phosphatase. Without it, liver glycogen would be metabolically equivalent to muscle glycogen: available only for the cell's own use, not for systemic glucose homeostasis."
+```
+
 ## Explainer
 
 You know the individual pathways from your prerequisites — glycolysis breaks glucose to pyruvate, gluconeogenesis reverses this to synthesize glucose, and glycogen metabolism stores and releases glucose polymers. What this topic adds is the **systems-level integration**: how these pathways are coordinated by hormonal signals in response to the fed-fasted transition, and how different tissues play different roles in maintaining glucose homeostasis. Think of the body not as a single metabolic unit but as a federation of organs with specialized roles, communicating through hormones and metabolite concentrations.

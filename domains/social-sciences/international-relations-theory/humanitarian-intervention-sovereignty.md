@@ -29,6 +29,45 @@ Compare interventions: Kosovo (NATO intervention prevented atrocities, but witho
 ## Common Misconceptions
 R2P is not a free pass for intervention—it requires criteria, UN involvement where possible, and proportionate force.
 
+## Questions
+
+```yaml
+- question: "In 1999, NATO intervened militarily in Kosovo to halt ethnic cleansing, without UN Security Council authorization. How does this case best illustrate the central tension in R2P?"
+  type: multiple-choice
+  options:
+    - "It shows that humanitarian intervention is always illegitimate because it violates state sovereignty"
+    - "It demonstrates that effective humanitarian intervention is possible only when the UN Security Council acts unanimously"
+    - "It shows that even when intervention achieves its humanitarian goal, bypassing the Security Council sets a precedent that powerful states can intervene unilaterally when they deem it necessary — eroding the institutional safeguards that prevent abuse"
+    - "It proves that R2P requires no authorization criteria because humanitarian emergencies override all procedural requirements"
+  answer: 2
+  explanation: "Kosovo illustrates the legitimacy dilemma at the heart of R2P. NATO stopped atrocities (a genuine humanitarian success), but it did so without Security Council authorization because Russia would have vetoed. The precedent established is dangerous: if powerful states can bypass the UN whenever they claim humanitarian necessity, the criterion of 'authorization by legitimate international body' becomes optional. States with self-interest can then dress up regime change or strategic intervention in humanitarian language and invoke the Kosovo precedent. The institutional safeguards exist precisely because humanitarian justifications can mask self-interested motives."
+
+- question: "After the Libya intervention in 2011 — authorized to protect civilians — NATO pursued regime change beyond its mandate. What did this reveal about R2P's central structural problem?"
+  type: multiple-choice
+  options:
+    - "That R2P is conceptually flawed and should be abandoned entirely"
+    - "That UN Security Council authorization is insufficient to prevent intervention abuse"
+    - "That Russia and China were correct to veto all subsequent humanitarian interventions"
+    - "That universal human rights norms require enforcement, but the only enforcement mechanism is great-power politics, which is not universal — creating a gap between the doctrine's ambition and its political reality"
+  answer: 3
+  explanation: "Libya demonstrated the legitimacy crisis of R2P. When NATO exceeded its mandate to pursue regime change, Russia and China concluded that R2P is a Western tool for intervention, not protection. This produced a Security Council deadlock over Syria, where mass atrocities continued for over a decade. The structural problem is not solvable by better rules: universal human rights norms logically require an enforcement mechanism, but the only available mechanism is the Security Council, which is controlled by great powers with divergent interests. The doctrine's ambition (universal protection) and its enforcement reality (selective great-power action) cannot be fully reconciled."
+
+- question: "Under R2P, any state that witnesses mass atrocities in another country has the legal right to intervene militarily to stop them, provided the intervention is proportionate."
+  type: true-false
+  answer: false
+  explanation: "False. R2P does not create a unilateral legal right of intervention for any state. The doctrine establishes conditions — serious harm, failure of national authorities, no less harmful alternatives, proportionate means — and favors UN Security Council authorization. Without those criteria and authorization processes, intervention remains a violation of the Westphalian norm of state sovereignty regardless of proportionality. Treating R2P as a blank authorization for any proportionate intervention would eliminate the procedural safeguards that distinguish genuine humanitarian action from self-interested aggression dressed in humanitarian language."
+
+- question: "The failure to intervene in the 1994 Rwandan genocide and the abuse of the mandate in the 2011 Libya intervention both point to the same underlying structural problem in humanitarian intervention."
+  type: true-false
+  answer: true
+  explanation: "True. Rwanda demonstrates that non-intervention can be as morally catastrophic as wrongful intervention — states calculated that intervention was not in their national interest and stood aside while nearly a million people were killed. Libya demonstrates that authorized intervention can be abused to pursue regime change beyond the humanitarian mandate. Both failures share the same root cause: the enforcement of universal humanitarian norms depends on the strategic calculations of great powers, which are neither universal nor reliably aligned with humanitarian goals. The doctrine's ambition assumes a neutral enforcement mechanism that does not exist."
+
+- question: "How does R2P redefine state sovereignty, and why does this redefinition remain deeply contested in international relations?"
+  type: short-answer
+  answer: "R2P redefines sovereignty from a right of non-interference (states are protected from outside intervention regardless of how they treat their populations) to a conditional duty of protection (states must protect their citizens from mass atrocity; if they fail or commit such acts themselves, they forfeit their claim to non-interference and the responsibility shifts to the international community). It remains contested because powerful states use humanitarian justifications for self-interested interventions, the Security Council veto means enforcement is selective rather than universal, and states like Russia and China view R2P as a Western legitimation tool for regime change rather than genuine humanitarian protection."
+  explanation: "The redefinition is conceptually significant: sovereignty was originally an absolute legal status, and R2P makes it conditional on state behavior toward citizens. This is a genuine innovation in international law. But the legitimacy of any legal norm depends on consistent, principled application — and R2P has been applied selectively based on great-power interests. Selective enforcement corrodes the doctrine's authority, which is why the gap between its normative ambition and its political reality remains the central unresolved problem."
+```
+
 ## Explainer
 
 From your study of state sovereignty, you know that the Westphalian order rests on a foundational norm: states are the primary actors in international relations, and their domestic affairs are protected from outside interference. Sovereignty means that what happens inside a state's borders is, in principle, that state's business alone. This norm was designed to prevent the constant religious wars of early modern Europe from recurring. But it creates a brutal implication: if a government decides to massacre its own population, other states have no legal right to stop it. The humanitarian intervention dilemma is the collision between this norm and the emerging norm of universal human rights.

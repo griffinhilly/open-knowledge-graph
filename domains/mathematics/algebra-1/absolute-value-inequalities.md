@@ -31,6 +31,45 @@ Teach the "less than = and, greater than = or" pattern with the distance interpr
 - Not isolating the absolute value before applying the pattern.
 - Forgetting that |x| < −3 has no solution and |x| > −3 is true for all real numbers.
 
+## Questions
+
+```yaml
+- question: "Which compound inequality correctly represents the solutions to |x − 7| > 3?"
+  type: multiple-choice
+  options:
+    - "4 < x < 10"
+    - "x < 4 OR x > 10"
+    - "x < −10 OR x > −4"
+    - "−10 < x < 4"
+  answer: 1
+  explanation: "|x − 7| > 3 uses the 'greater-than = or' pattern: values more than 3 units from 7. 7 − 3 = 4 and 7 + 3 = 10, so the solution is x < 4 OR x > 10. Option A (4 < x < 10) is the most tempting wrong answer — it's exactly what you'd get by applying the 'less-than = and' pattern, the precise reversal of the correct rule."
+
+- question: "What is the solution set of |2x + 1| < −5?"
+  type: multiple-choice
+  options:
+    - "x < −3 OR x > 2"
+    - "−3 < x < 2"
+    - "All real numbers"
+    - "No solution"
+  answer: 3
+  explanation: "Absolute value is always greater than or equal to zero, so it can never be less than a negative number. The inequality |expression| < (negative number) has no solution — the solution set is empty. Before applying the 'less-than = and' pattern, always check whether the right side is negative. If it is, stop: the answer is immediately 'no solution.'"
+
+- question: "The inequality |x − 4| < 6 is asking for all values of x that are more than 6 units from 4."
+  type: true-false
+  answer: false
+  explanation: "This reverses the direction. |x − 4| < 6 asks for values that are *less than* 6 units from 4 — values close to 4, forming a bounded interval: −2 < x < 8. Values more than 6 units from 4 would be the solution to |x − 4| > 6, which gives x < −2 OR x > 10 — the 'greater-than = or' case. Confusing the two is the most common error in absolute value inequalities."
+
+- question: "For the inequality |x| > −3, the solution is no real numbers, since no number can be a negative distance from zero."
+  type: true-false
+  answer: false
+  explanation: "This is the opposite edge case. Absolute value is always ≥ 0, and 0 > −3, so |x| > −3 is satisfied by every real number — the solution is all real numbers. This flips the usual intuition: when the right side is negative, a 'less than' absolute value inequality has no solution, but a 'greater than' absolute value inequality is always true. Both cases follow directly from the fact that absolute values are never negative."
+
+- question: "Why does |x − a| < k produce an AND compound inequality while |x − a| > k produces an OR compound inequality?"
+  type: short-answer
+  answer: "Because they ask opposite geometric questions on the number line. |x − a| < k asks which values of x are within k units of a — a connected region centered at a. Every such value satisfies BOTH x > a − k AND x < a + k simultaneously, giving a bounded interval. |x − a| > k asks which values lie more than k units from a — outside the interval on either side. No number can be far to the left AND far to the right at the same time, so the solution splits into two disconnected rays joined by OR."
+  explanation: "The distance interpretation makes the logic airtight. 'Less than k units away' means 'between a − k and a + k' — a single region requiring both boundaries (AND). 'More than k units away' means 'left of a − k or right of a + k' — two disconnected regions where either boundary suffices (OR). Memorizing 'less than = and, greater than = or' is useful shorthand, but understanding why prevents reversal errors and handles edge cases correctly."
+```
+
 ## Explainer
 
 You already know from absolute value equations that |x| is the distance from x to zero on the number line. When you solved |x − 3| = 5, you found the two points exactly 5 units from 3: namely x = 8 and x = −2. Absolute value inequalities extend this distance idea from exact locations to regions — instead of asking "which points are exactly 5 units away?", you ask "which points are *less than* 5 units away?" or "which points are *more than* 5 units away?"

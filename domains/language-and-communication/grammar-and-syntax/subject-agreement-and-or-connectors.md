@@ -30,6 +30,45 @@ Use clear examples with and, or, and nor to show the pattern. Then present examp
 ## Common Misconceptions
 Students often think that 'or' and 'nor' always require plural verbs, forgetting the proximity rule. Some assume that any coordinated subject always triggers a plural verb. Others struggle with the concept that 'or'/'nor' make the verb agree with only the nearest subject, not both.
 
+## Questions
+
+```yaml
+- question: "Which sentence uses the correct verb form?"
+  type: multiple-choice
+  options:
+    - "Either the reports or the manager are to blame for the error."
+    - "Either the reports or the manager is to blame for the error."
+    - "Either the reports or the manager were to blame for the error."
+    - "Either the reports or the manager have been to blame for the error."
+  answer: 1
+  explanation: "With 'or,' the verb agrees with the nearest subject. In this sentence, 'manager' (singular) is closest to the verb — so the correct form is 'is.' Option A uses the plural 'are,' which would be correct if the plural noun 'reports' were nearest instead. Reversing the order — 'Either the manager or the reports are to blame' — would make 'are' correct, because 'reports' would then be nearest to the verb."
+
+- question: "Which pair of sentences both follow correct subject-verb agreement rules?"
+  type: multiple-choice
+  options:
+    - "Tom and Jerry is coming to the party. / Either Tom or Jerry are coming."
+    - "Tom and Jerry are coming to the party. / Either Tom or Jerry is coming."
+    - "Tom and Jerry are coming to the party. / Either Tom or Jerry are coming."
+    - "Tom and Jerry is coming to the party. / Either Tom or Jerry is coming."
+  answer: 1
+  explanation: "'And' joins two subjects into a compound plural unit, so 'are' is correct. 'Or' presents alternatives — the verb agrees with the nearest subject. Since 'Jerry' (singular) is nearest in 'Either Tom or Jerry is coming,' the singular 'is' is correct. Option C makes 'or' follow the plural rule, which is the most common error — students assume any sentence mentioning multiple people requires a plural verb."
+
+- question: "In the sentence 'Either the students or the teacher is responsible,' the singular verb 'is' is correct because 'teacher' is the subject closest to the verb."
+  type: true-false
+  answer: true
+  explanation: "This is exactly the proximity rule in action. 'Teacher' (singular) is the subject immediately preceding the verb, so the verb agrees with it. If the order were reversed — 'Either the teacher or the students are responsible' — the plural 'are' would be required, because 'students' (plural) would then be nearest. The proximity rule means word order genuinely changes the grammatically required verb form."
+
+- question: "When two subjects are joined by 'or,' the verb should always be plural, since multiple subjects are being mentioned."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about 'or' constructions. Unlike 'and,' which creates a plural compound subject, 'or' presents alternatives — only one alternative is actually the case. English resolves this with the proximity rule: the verb agrees with whichever subject is nearest to it. That nearest subject might be singular or plural depending on word order, so the verb form varies accordingly."
+
+- question: "Explain why changing the word order of subjects joined by 'or' can change the required verb form, and what grammatical principle this illustrates."
+  type: short-answer
+  answer: "With 'or,' the verb must agree with the nearest subject. So 'Either the manager or the employees are responsible' uses 'are' because 'employees' (plural) is nearest. Reversing the order — 'Either the employees or the manager is responsible' — requires 'is' because 'manager' (singular) is now nearest. The principle is the proximity rule: when 'or' presents alternatives of different grammatical number, the verb form is determined by whichever alternative sits closest to the verb, not by the combination of both."
+  explanation: "This illustrates that English agreement is processed serially — by the time the reader reaches the verb, the closest subject is freshest in working memory, so agreement is resolved against that nearest noun. The practical writing takeaway: when one subject is plural, placing it last produces a more natural-sounding sentence."
+```
+
 ## Explainer
 
 You already know the core rule of subject-verb agreement: a singular subject takes a singular verb, and a plural subject takes a plural verb. The complication arises when two subjects are joined by a **connector** — *and*, *or*, or *nor* — because each connector has different agreement logic. Mastering this requires understanding why the rules are what they are, not just memorizing them.

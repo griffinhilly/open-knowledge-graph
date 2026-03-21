@@ -30,6 +30,45 @@ Isolate and characterize centrosomes biochemically; track centrosome duplication
 ## Common Misconceptions
 - Centrosomes are essential for all cell division; plant cells divide without centrosomes using alternative pole assembly mechanisms. - Centrioles directly nucleate microtubules; the surrounding PCM and γ-tubulin are required for nucleation.
 
+## Questions
+
+```yaml
+- question: "A research team uses laser ablation to destroy both centrosomes in a dividing animal cell just before mitosis. Based on your understanding, what would you predict?"
+  type: multiple-choice
+  options:
+    - "The cell will immediately die because centrosomes are required for all aspects of cell division"
+    - "The cell will form a bipolar spindle through alternative mechanisms (chromosome-driven Ran-GTP pathway and motor proteins), but division will be slower and spindle orientation may be unreliable"
+    - "The cell will attempt division but will always produce multipolar spindles, leading to chromosome missegregation"
+    - "The chromosomes will replicate normally but be unable to attach to any spindle fibers"
+  answer: 1
+  explanation: "Centrosomes are important but not absolutely required for spindle formation in animal cells. When centrosomes are ablated, microtubules can still nucleate near chromosomes via the Ran-GTP gradient, and motor proteins can organize these microtubules into a bipolar spindle. However, centrosomes normally provide speed (rapid bipolarity) and reliable spindle orientation — without them, division occurs but is slower and spatially less precise. This is why plant cells (which naturally lack centrosomes) can still divide normally using these alternative pathways. Option C describes what happens with extra centrosomes (not absent ones), which is a distinct problem."
+
+- question: "What structure within the centrosome directly templates the minus end of new microtubules during nucleation?"
+  type: multiple-choice
+  options:
+    - "The centriole barrel itself, whose triplet microtubules serve as seeds for new polymer growth"
+    - "The γ-tubulin ring complex (γ-TuRC) within the pericentriolar material"
+    - "The α/β-tubulin dimers anchored to the centriole wall"
+    - "The coiled-coil PCM scaffold proteins that define the centrosome's outer boundary"
+  answer: 1
+  explanation: "This is the most common misconception about centrosome function. Centrioles provide structural scaffolding, but they do not nucleate microtubules directly. Nucleation occurs in the pericentriolar material (PCM) surrounding the centrioles, specifically through the γ-tubulin ring complex (γ-TuRC). The ring geometry of γ-TuRC matches the 13-protofilament arrangement of a microtubule, providing a template on which α/β-tubulin dimers assemble. The centrioles' role is to recruit and anchor PCM components — remove the centrioles but preserve PCM and you can still nucleate microtubules; have centrioles without PCM and nucleation fails."
+
+- question: "Centrioles are the primary sites of microtubule nucleation within the centrosome."
+  type: true-false
+  answer: false
+  explanation: "Centrioles are structural organelles that recruit and scaffold the pericentriolar material (PCM), but microtubule nucleation itself is performed by the γ-tubulin ring complexes (γ-TuRCs) embedded in the PCM. The centrioles provide the positional organization and stability of the centrosome, but their triplet microtubule walls are not templates for new cytoplasmic microtubules. This is why increasing PCM recruitment (centrosome maturation at mitotic entry) dramatically increases microtubule nucleation without changing the centrioles themselves."
+
+- question: "Centrosome duplication begins during S phase, coinciding temporally with DNA replication."
+  type: true-false
+  answer: true
+  explanation: "Just as DNA must be replicated once and only once per cell cycle, each centrosome must duplicate once and only once. Both processes begin during S phase, which is why cells entering mitosis have two centrosomes (one for each daughter cell) just as they have two copies of each chromosome. This coupling is not coincidental — many of the same CDK/cyclin complexes that regulate DNA replication also regulate centrosome duplication, ensuring that the two processes are coordinated. Disruptions to this coupling — allowing re-duplication without cell division — produce supernumerary centrosomes associated with cancer."
+
+- question: "Why does having extra centrosomes (supernumerary centrosomes) in a cell contribute to genomic instability?"
+  type: short-answer
+  answer: "Normally, two centrosomes establish two spindle poles, creating a bipolar spindle that pulls one copy of each chromosome to each daughter cell. Extra centrosomes create additional spindle poles, forming a multipolar spindle. During anaphase, chromosomes can be pulled to three or more poles simultaneously, distributing them unequally among daughter cells. This produces aneuploid daughters — cells with incorrect chromosome numbers — which is a hallmark of many cancers. Supernumerary centrosomes thus convert a normally precise binary segregation event into a chaotic multi-way chromosome distribution."
+  explanation: "This question tests whether students understand the functional consequence of centrosome number control, connecting the structural biology of centrosomes to the clinical significance of chromosome instability in cancer. The key insight is that bipolarity depends on having exactly two poles — the centrosome duplication cycle is a quality control mechanism for this geometry, and its failure has downstream consequences for genome integrity."
+```
+
 ## Explainer
 
 From your study of microtubule organization, you know that microtubules are dynamic polar polymers with a fast-growing plus end and a minus end that is typically anchored. The **centrosome** is the primary structure that anchors minus ends in animal cells, serving as the cell's main **microtubule-organizing center (MTOC)**. During interphase, a single centrosome near the nucleus organizes the radial array of microtubules that positions organelles and supports intracellular transport. During mitosis, two centrosomes move to opposite sides of the cell and become the **spindle poles**, establishing the bipolar architecture that pulls chromosomes apart.

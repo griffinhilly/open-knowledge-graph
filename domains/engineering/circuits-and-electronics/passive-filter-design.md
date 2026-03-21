@@ -39,6 +39,45 @@ Design filters by specifying the cutoff frequency first, then choosing component
 - Ignoring loading effects: attaching a load resistance modifies the frequency response unless the load impedance is much larger than the filter's output impedance.
 - Assuming passive filters can provide signal gain — passive components can only attenuate; active filters using op-amps are required for gain.
 
+## Questions
+
+```yaml
+- question: "In a first-order RC circuit, the output is taken across the capacitor. You want to convert this to a high-pass filter. What is the simplest change?"
+  type: multiple-choice
+  options:
+    - "Replace the capacitor with a larger capacitor to shift the cutoff frequency higher"
+    - "Move the output to be taken across the resistor instead of the capacitor"
+    - "Add a second resistor in series to increase the filter order"
+    - "Replace the resistor with an inductor to invert the frequency response"
+  answer: 1
+  explanation: "The low-pass RC filter takes output across the capacitor: H(jω) = Z_C/(R + Z_C) = 1/(1 + jωRC). At low ω, Z_C is large and dominates the divider — output ≈ input. At high ω, Z_C is small — output ≈ 0. Swapping the output to the resistor gives H(jω) = R/(R + Z_C) = jωRC/(1 + jωRC). Now at low ω, R is small relative to Z_C — output ≈ 0. At high ω, Z_C shrinks and the resistor dominates — output ≈ input. The cutoff frequency ωc = 1/RC is identical; only the shape changes (from low-pass to high-pass). This swap is the cleanest transformation because it uses the same two-element voltage divider with components interchanged."
+
+- question: "You are designing a filter to eliminate 60 Hz power-line noise from an audio signal while passing all other frequencies. Which filter topology is most appropriate?"
+  type: multiple-choice
+  options:
+    - "First-order RC low-pass filter with cutoff at 60 Hz"
+    - "First-order RC high-pass filter with cutoff at 60 Hz"
+    - "Band-pass RLC filter centered at 60 Hz"
+    - "Band-stop (notch) RLC filter centered at 60 Hz"
+  answer: 3
+  explanation: "The requirement is to attenuate a *specific* narrow frequency (60 Hz) while passing all others — both below and above. A low-pass filter would block all frequencies above 60 Hz (eliminating most of the audio signal). A high-pass filter would block all frequencies below 60 Hz. A band-pass filter passes only the noise you want to remove. The correct choice is a band-stop (notch) filter, which attenuates a narrow band around the resonant frequency (here, 60 Hz) and passes everything else. The notch is implemented in a series RLC circuit by taking the output across the LC combination: the LC impedance is zero at resonance, short-circuiting the output at exactly the unwanted frequency."
+
+- question: "A passive RC filter attenuates signals at and above the cutoff frequency — signals below the cutoff pass through completely unattenuated."
+  type: true-false
+  answer: false
+  explanation: "This describes the common misconception of a 'brick-wall' filter. Real passive filters have a gradual transition, not an abrupt cutoff. At the cutoff frequency ωc = 1/RC, the gain is 1/√2 ≈ 0.707 (-3 dB) — not zero. Below the cutoff, the signal is progressively less attenuated as frequency decreases; above the cutoff, it is progressively more attenuated. The roll-off rate for a first-order RC filter is -20 dB/decade — for every factor-of-10 increase in frequency beyond the cutoff, the gain drops by a factor of 10. Only an ideal (mathematical) filter has an instantaneous transition; real filters have a gradual passband-to-stopband transition whose steepness depends on filter order."
+
+- question: "A passive filter using only resistors, capacitors, and inductors can provide signal gain greater than unity at the resonant frequency of an RLC circuit."
+  type: true-false
+  answer: false
+  explanation: "Passive components can only attenuate — they cannot amplify. The maximum gain a passive filter can achieve is unity (0 dB), which occurs in the passband when the signal passes through essentially unchanged. Although a series RLC circuit can exhibit a resonant peak in the frequency response that *approaches* unity for a lightly damped circuit, it cannot exceed it. The apparent 'peaking' in high-Q RLC filters means the response near resonance is less attenuated than at other frequencies — but still ≤ 1. To achieve gain > 1, active elements (op-amps, transistors) are required. This is a fundamental distinction between passive and active filters."
+
+- question: "Why does a capacitor block low-frequency (DC) signals but pass high-frequency signals, and how does this property produce a low-pass filter when the output is taken across the capacitor?"
+  type: short-answer
+  answer: "A capacitor's impedance is Z_C = 1/(jωC). At low frequencies (ω → 0), Z_C → ∞ (the capacitor acts as an open circuit, blocking DC). At high frequencies (ω → ∞), Z_C → 0 (the capacitor acts as a short circuit, passing high-frequency signals to ground). In an RC voltage divider with output across the capacitor, at low frequencies the capacitor's large impedance dominates the divider, so most of the input voltage appears across the output — low frequencies pass. At high frequencies the capacitor's small impedance means the resistor dominates, and most voltage drops across the resistor rather than the output — high frequencies are attenuated. This produces the low-pass response."
+  explanation: "The voltage divider intuition is the foundation of all passive filter design. For any filter topology, the key question is always: at what frequencies does each impedance dominate the divider? Whichever element the output is taken across determines what passes. Swapping which element is the output node transforms low-pass to high-pass (or vice versa) without changing the cutoff frequency."
+```
+
 ## Explainer
 
 From your work on frequency response and Bode plots, you know that circuits can have different gains at different frequencies. From impedance analysis, you know that capacitors and inductors have frequency-dependent impedance: Z_C = 1/(jωC) rises as frequency falls (capacitors block DC), and Z_L = jωL rises as frequency rises (inductors block high frequencies). Passive filter design is the craft of exploiting these frequency-dependent impedances — through voltage dividers and resonant networks — to sculpt a desired gain profile across frequency.

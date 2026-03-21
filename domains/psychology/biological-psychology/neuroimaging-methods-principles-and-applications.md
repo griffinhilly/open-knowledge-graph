@@ -31,6 +31,45 @@ status: draft
 ## Core Idea
 Neuroimaging comprises diverse techniques capturing brain structure (MRI), blood flow and metabolism (fMRI, PET), electrical activity (EEG, MEG), or chemistry. Each has distinct temporal and spatial resolution trade-offs: fMRI offers high spatial resolution but seconds of temporal lag; EEG provides millisecond resolution but poor localization. Interpreting neuroimaging requires understanding that correlation with cognition does not prove functional necessity—lesion studies and causal manipulations (transcranial magnetic stimulation) provide stronger evidence.
 
+## Questions
+
+```yaml
+- question: "A researcher wants to determine exactly *when* during a visual search task the brain distinguishes a target from a distractor — an event lasting roughly 50 milliseconds. Which method is most appropriate?"
+  type: multiple-choice
+  options:
+    - "fMRI, because it provides millimeter-level spatial resolution identifying the exact region"
+    - "PET, because it can track metabolic changes associated with selective attention"
+    - "EEG or MEG, because they provide millisecond temporal resolution sufficient to capture the rapid neural event"
+    - "Structural MRI, to identify which regions are anatomically connected to visual cortex"
+  answer: 2
+  explanation: "The BOLD signal in fMRI peaks 5–6 seconds after neural activity — far too slow to resolve a 50-millisecond event. PET is even slower (minutes per scan). EEG and MEG record electrical and magnetic signals from neurons in real time, with millisecond resolution, making them the only viable choices for capturing fast cognitive events. The tradeoff is poor spatial localization for EEG (signals smear through the skull). MEG improves somewhat on localization. Choosing a method always requires matching the method's resolution profile to the research question."
+
+- question: "An fMRI study shows the amygdala is consistently more active during fear conditioning trials than during neutral trials. A student concludes the amygdala is necessary for fear conditioning. What is the strongest objection?"
+  type: multiple-choice
+  options:
+    - "fMRI measures blood flow, which is not related to neural activity and cannot support conclusions about cognition"
+    - "The amygdala is too deep in the brain for reliable fMRI signal detection"
+    - "fMRI establishes correlation between amygdala activity and the task — only lesion studies or TMS can establish that the amygdala is necessary for the function"
+    - "Fear conditioning doesn't produce BOLD signals because it does not require conscious attention"
+  answer: 2
+  explanation: "fMRI measures the BOLD signal — a real proxy for neural activity via hemodynamics — so option A is wrong. The amygdala is detectable with fMRI. The correct objection is that correlation is not causation: the amygdala may be active because it is genuinely necessary, or it may be a downstream effect, or it may co-occur while an adjacent region does the causal work. Establishing necessity requires either observing that patients with amygdala damage lose fear conditioning (lesion study) or disrupting the amygdala with TMS in healthy subjects and observing impairment."
+
+- question: "The BOLD signal in fMRI measures neural electrical activity directly, with a temporal resolution matching the millisecond timescale of neural firing."
+  type: true-false
+  answer: false
+  explanation: "fMRI measures the hemodynamic response — changes in the ratio of oxygenated to deoxygenated hemoglobin in nearby blood vessels. Neurons that fire increase local blood flow over the following seconds, and this vascular response is what fMRI detects. The BOLD signal peaks roughly 5–6 seconds after neural activity, creating a fundamental temporal lag. It does not measure electrical activity at all — EEG and MEG measure electrical and magnetic signals respectively, which do track neural firing on the millisecond timescale."
+
+- question: "To establish that a brain region is causally necessary for a cognitive function (not just correlated with it), researchers can use TMS to temporarily disrupt the region in healthy subjects and observe whether performance is impaired."
+  type: true-false
+  answer: true
+  explanation: "TMS (Transcranial Magnetic Stimulation) delivers a focused magnetic pulse that temporarily disrupts neural activity in a targeted cortical region. If disrupting the region impairs task performance in healthy subjects, this establishes causal necessity — the region must be doing something essential to the task. This is fundamentally stronger than fMRI correlation, which only shows the region is active during the task. TMS complements lesion studies (which also establish necessity but involve patients with brain damage and lack experimental control)."
+
+- question: "Why can't neuroimaging alone establish that a brain region is causally necessary for a cognitive function, even when activation is highly consistent across participants and studies?"
+  type: short-answer
+  answer: "Neuroimaging measures co-occurrence: a region active during a task might be genuinely causal, might be a downstream effect of causal regions, or might co-activate due to network connectivity without contributing causally. Consistent activation across studies still only shows the region is reliably involved, not that it is necessary. Necessity requires showing that removing or disrupting the region impairs function. Lesion patients with damage to the region who lack the function provide natural experiments; TMS, which temporarily disrupts a region in healthy participants, provides controlled causal tests. Without some form of manipulation or damage, correlation between activation and task performance cannot distinguish cause from accompaniment."
+  explanation: "This is the foundational interpretive caution for all neuroimaging research. The field spent decades building activation maps, only to realize that activation is easy to find but necessity is hard to prove. The most rigorous conclusions combine converging evidence: fMRI for localization, TMS for causal disruption, lesion studies for double-dissociation, and ideally single-unit recording for mechanism. Any single method leaves interpretive gaps."
+```
+
 ## Explainer
 
 Neuroimaging is essentially a set of different "windows" into the brain, each with different glass. From your prerequisite knowledge of brain structure and functional localization, you know that different regions handle different tasks — but how do researchers actually know which region is active during which task? That's what neuroimaging answers. The core insight is that no single method is perfect; each trades off **spatial resolution** (how precisely you can locate activity) against **temporal resolution** (how quickly you can detect changes).

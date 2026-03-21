@@ -37,6 +37,45 @@ Research the market rate for your role and experience level using three independ
 - You should name your salary expectation first; letting the employer make the first offer often anchors higher than what you would have asked — if pressed for a number, provide a researched range anchored at the top of market data.
 - Annual raises keep pace with your market value; standard 2-4% annual raises often lag market rate growth, especially in fast-moving fields — external offers and internal promotion cases are often the only way to correct a growing gap.
 
+## Questions
+
+```yaml
+- question: "A software engineer accepts a job at $80,000 without negotiating, even though the market range was $80,000–$95,000. A colleague negotiates to $93,000. Assuming 3% annual raises, which best describes the financial gap after 10 years?"
+  type: multiple-choice
+  options:
+    - "About $13,000 — the initial gap, which stays fixed"
+    - "About $130,000 — roughly $13,000 × 10 years"
+    - "More than $150,000 — the gap compounds since raises are percentages of a higher base"
+    - "About $5,000 — raises eventually close the gap"
+  answer: 2
+  explanation: "The gap compounds because each raise is a percentage of the current salary. At 3% annually, the $13,000 initial difference grows: the colleague's raises are always calculated on a larger base. Over 10 years, the accumulated difference exceeds the initial gap significantly. Options A and B fail to account for compounding; option D has it backwards — percentage-based raises widen the gap, not close it."
+
+- question: "An employee asks for a raise, framing their case around having recently had a child and needing to cover increased childcare costs. Which outcome is most likely?"
+  type: multiple-choice
+  options:
+    - "Persuasive — employers respond to genuine personal need"
+    - "Ineffective — personal financial needs provide no business reason to pay more, and the request should be framed around documented professional impact"
+    - "Risky — mentioning family circumstances could trigger discriminatory treatment"
+    - "Acceptable as a secondary argument, as long as market data is mentioned first"
+  answer: 1
+  explanation: "Personal financial need gives the employer no business reason to pay more. The employee's rent or childcare costs don't change their market value or what they produce for the organization. Framing around documented impact — revenue generated, costs reduced, projects shipped, expanded scope — makes the case on the employer's terms. Option C has a kernel of truth legally, but that's not why the framing is ineffective. Option D understates the problem: personal need framing weakens the entire ask by signaling dependence."
+
+- question: "Employers commonly rescind job offers when candidates attempt to negotiate salary."
+  type: true-false
+  answer: false
+  explanation: "This fear is one of the most damaging myths in salary negotiation. Rescinding an offer over professional, reasonable negotiation is extremely rare — employers expect negotiation and frequently build room into initial offers precisely because they anticipate it. A candidate who declines to negotiate is often leaving money on the table that was already allocated. The far more common outcome is either a higher offer or a polite 'this is our best number,' not a rescinded offer."
+
+- question: "Standard annual raises of 2–4% reliably keep an employee's compensation aligned with their market value over time."
+  type: true-false
+  answer: false
+  explanation: "Annual raise budgets are set by internal compensation bands, not by tracking what competing employers are paying for the same skills. In fast-growing fields, market rates for talent can rise 5–10% annually. The result is salary compression — loyal long-term employees fall progressively behind new external hires in the same roles. The only reliable mechanisms to correct this are external offers or internal promotion cases, which is why periodic market research matters even when you're not unhappy."
+
+- question: "What is a BATNA, and why is it described as the most important number in a salary negotiation?"
+  type: short-answer
+  answer: "BATNA stands for Best Alternative to a Negotiated Agreement — what you will do if this negotiation fails. It is the most important number because it determines your real leverage: a strong BATNA (a competing offer, or genuine willingness to leave) allows you to negotiate assertively without fear. Without a clear BATNA, you have no credible exit, and the employer knows it. A weak or absent BATNA eliminates leverage and often produces anxiety that undermines the conversation."
+  explanation: "Knowing your BATNA transforms negotiation from a one-sided ask into a genuine exchange with consequences on both sides. It also reduces the psychological anxiety of the conversation — if you know your floor, you can engage without desperation. Practically, maintaining market awareness even when you're not unhappy builds a stronger BATNA over time: you always know what you could get elsewhere, and occasionally produce an offer you can use as leverage or actually accept."
+```
+
 ## Explainer
 
 You already know from your budgeting work that income is the numerator of every financial calculation you'll ever do — it determines how much you can save, how fast you can pay down debt, and how quickly you can build an emergency fund. Salary negotiation is the most direct lever on that numerator. A $5,000 increase at the start of a career doesn't just mean $5,000 more this year: future raises are typically calculated as a percentage of your current salary, bonuses are often a percentage of base, and retirement contributions (both yours and employer matching) scale with base pay. The compounding effect over a 30-year career turns what feels like a modest initial ask into a six-figure lifetime difference.

@@ -30,6 +30,45 @@ Study a published single-case design and trace how repeated measurements reveal 
 ## Common Misconceptions
 - Single-case designs are anecdotal; - Causality requires large group studies; - Single-case findings cannot be generalized; - Multiple-baseline designs require reversal.
 
+## Questions
+
+```yaml
+- question: "A therapist uses an ABAB design to test a new anxiety-reduction technique with a single client. After the second A (withdrawal) phase, the client's anxiety levels drop unexpectedly without treatment. What is the most likely problem with concluding the technique caused the improvement?"
+  type: multiple-choice
+  options:
+    - "The sample size is too small to draw any conclusions"
+    - "The causal logic of the design requires behavior to revert during withdrawal; if it doesn't, the effect cannot be attributed to treatment"
+    - "ABAB designs only work when treatment is applied continuously, not in phases"
+    - "A single replication is insufficient; at least three full ABAB cycles are needed"
+  answer: 1
+  explanation: "The causal logic of ABAB depends on reversal: if behavior improves during B, reverts during the return to A, and improves again in the second B, each transition moves in the predicted direction and strongly implicates treatment. If anxiety drops during the second A phase without treatment, some other factor — natural remission, a life event — is a more plausible explanation. The design's causal power comes specifically from behavior tracking condition changes."
+
+- question: "A researcher wants to test an intervention for self-injurious behavior but cannot ethically withdraw treatment once it works. Which design is most appropriate?"
+  type: multiple-choice
+  options:
+    - "ABAB reversal design — it provides the strongest causal evidence even if ethically uncomfortable"
+    - "Multiple-baseline design — it staggers intervention across behaviors or settings so no reversal is needed"
+    - "Group randomized controlled trial — it avoids the need to study individuals at all"
+    - "Changing-criterion design — it removes the need for any baseline phase"
+  answer: 1
+  explanation: "Multiple-baseline designs achieve causal inference without reversal by introducing treatment at staggered time points across different behaviors, settings, or individuals. If each target only changes when treatment is applied to it (not before), the staggered pattern rules out history and maturation as explanations. No individual ever has successful treatment withdrawn — the causal argument comes from timing, not reversal."
+
+- question: "Single-case designs establish causality by comparing one individual to a matched control participant who receives no treatment."
+  type: true-false
+  answer: false
+  explanation: "Single-case designs use the individual as their own control. In an ABAB design, the person's own stable baseline serves as the counterfactual — what the behavior would look like without intervention. There is no separate control group. The control condition is temporal (before vs. during treatment) rather than cross-sectional (treated vs. untreated group)."
+
+- question: "A finding from a single ABAB study replicated across 20 individuals in five different settings by different clinicians provides meaningful evidence of generalizability."
+  type: true-false
+  answer: true
+  explanation: "Systematic replication — applying the same protocol across multiple individuals, clinicians, and settings — can build external validity that rivals group RCTs. While a single case study cannot generalize, when the same effect appears across varied replications, the accumulation of evidence substantially increases confidence. This is why applied behavior analysis relies on single-case methods rather than viewing them as inherently non-generalizable."
+
+- question: "Why does single-case research place such heavy emphasis on measurement quality and inter-rater reliability, compared to group designs?"
+  type: short-answer
+  answer: "In group designs, measurement error averages out across many participants. In single-case work, each data point represents the individual's behavior on a specific occasion — there is no averaging. A noisy or inconsistent measure creates artifactual trends that mimic or mask real treatment effects. The design's entire causal argument rests on detecting reliable changes across phases, so each observation must be trustworthy."
+  explanation: "This is the core trade-off of single-case methodology: deep individual-level insight at the cost of losing the statistical averaging that absorbs measurement error in group designs. The solution is investing more in measurement precision — behavioral coding systems, operational definitions, inter-rater reliability checks. This is not a weakness of the method but a different quality-control strategy appropriate to its goals."
+```
+
 ## Explainer
 
 From your study of research design selection, you know that choosing a design depends on matching the research question to the appropriate unit of analysis, the available sample, and the causal claims you want to make. Most experimental designs achieve causal inference by averaging across many participants — random assignment distributes individual differences across conditions, so any systematic outcome difference is attributable to the manipulation. **Single-case designs** take a different route to the same destination: instead of averaging across people, they accumulate many observations *within* one person over time, using the person's own stable baseline as the counterfactual.

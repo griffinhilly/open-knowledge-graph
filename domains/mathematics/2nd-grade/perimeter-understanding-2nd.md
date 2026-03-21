@@ -31,6 +31,45 @@ Trace the outline of shapes with your finger while counting. Place a string arou
 - Forgetting to include all sides when calculating perimeter.
 - Thinking larger area always means larger perimeter (not necessarily true).
 
+## Questions
+
+```yaml
+- question: "A rectangle has sides of 4 centimeters and 6 centimeters. What is its perimeter?"
+  type: multiple-choice
+  options:
+    - "24 cm"
+    - "10 cm"
+    - "20 cm"
+    - "48 cm"
+  answer: 2
+  explanation: "Perimeter is the total distance around all sides: 4 + 6 + 4 + 6 = 20 cm. A rectangle has two pairs of equal sides, so you add each length twice. Option A (24 cm) is the area (4 × 6), not the perimeter — this is the most common confusion. Option B (10 cm) only adds two sides and forgets the other pair. Always trace around the entire shape to make sure you've counted every side."
+
+- question: "Shape A is a rectangle that is 1 cm wide and 12 cm long. Shape B is a rectangle that is 3 cm wide and 4 cm long. Both have an area of 12 square centimeters. Which has the greater perimeter?"
+  type: multiple-choice
+  options:
+    - "Shape B, because it has sides of more equal length"
+    - "They have the same perimeter, because they have the same area"
+    - "Shape A, because its long sides add more distance around the outside"
+    - "Shape B, because it is more compact and uses its area more efficiently"
+  answer: 2
+  explanation: "Shape A perimeter: 1 + 12 + 1 + 12 = 26 cm. Shape B perimeter: 3 + 4 + 3 + 4 = 14 cm. Shape A has the greater perimeter even though both shapes have the same area (12 sq cm). This is the key insight: area and perimeter are completely independent — knowing one does not tell you the other. Option B (same perimeter = same area) is the most common misconception and is false."
+
+- question: "A triangle with sides of 3 cm, 4 cm, and 5 cm has a perimeter of 12 cm."
+  type: true-false
+  answer: true
+  explanation: "Perimeter = sum of all sides = 3 + 4 + 5 = 12 cm. The rule for finding perimeter works for any polygon, not just rectangles: add every side. There are no special shortcuts required for triangles — just careful addition of all sides."
+
+- question: "If one shape has a larger area than another shape, it must also have a larger perimeter."
+  type: true-false
+  answer: false
+  explanation: "Area and perimeter measure completely different things and are independent of each other. A rectangle that is 1 cm × 20 cm has an area of 20 square cm and a perimeter of 42 cm. A rectangle that is 4 cm × 5 cm also has an area of 20 square cm but a perimeter of only 18 cm. These two shapes have the same area but very different perimeters. You cannot determine one from the other without knowing the specific shape."
+
+- question: "In your own words, explain the difference between perimeter and area, and how you find the perimeter of any shape."
+  type: short-answer
+  answer: "Perimeter is the total distance around the outside edge of a shape — like measuring how far you walk if you trace all the way around it. Area is how much space is inside the shape. To find the perimeter, add up the lengths of all the sides."
+  explanation: "The key is understanding that perimeter measures the boundary (the outside edge) while area measures the inside surface. A very long, thin shape can have a small area but a large perimeter. A compact shape can have a large area but a smaller perimeter. They are different measurements that don't predict each other — you need to know all the side lengths to find the perimeter regardless of the area."
+```
+
 ## Explainer
 
 You already know how to measure the length of a single straight line using a ruler. **Perimeter** simply applies that skill to the boundary of a shape — instead of measuring one line, you measure every edge and add them all up.

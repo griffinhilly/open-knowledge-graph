@@ -36,6 +36,45 @@ Examine the two-step structure: (1) conceivability argument and (2) the move fro
 - Philosophical zombies are not brain-dead or unresponsive; they are functionally perfect duplicates who simply lack inner experience.
 - The conceivability of zombies does not by itself show physicalism is false — the hard philosophical work is in the move from conceivability to possibility.
 
+## Questions
+
+```yaml
+- question: "Chalmers' zombie argument proceeds in two steps. A philosopher responds: 'Even if zombie worlds are coherently conceivable, that doesn't show they are metaphysically possible — just as we can coherently describe water that isn't H₂O, but such water is impossible.' Which step of Chalmers' argument is this response targeting?"
+  type: multiple-choice
+  options:
+    - "Step 1 — the conceivability of philosophical zombies"
+    - "Step 2 — the inference from conceivability to metaphysical possibility"
+    - "Both steps simultaneously — it denies both that zombies are conceivable and that conceivability implies possibility"
+    - "Neither step — this response addresses the knowledge argument, not the zombie argument"
+  answer: 1
+  explanation: "The zombie argument has two steps: (1) zombie worlds are coherently conceivable, and (2) conceivable scenarios are metaphysically possible, so zombie worlds are possible. This response attacks step 2 — the conceivability-to-possibility inference — by pointing out that conceivability does not reliably entail possibility: water-without-H₂O is conceivable but not possible, since water is necessarily H₂O in all possible worlds. If conceivability is an unreliable guide to possibility, the argument fails at step 2 even if zombie conceivability is granted."
+
+- question: "If philosophical zombies are metaphysically possible, what follows about physicalism?"
+  type: multiple-choice
+  options:
+    - "Physicalism is confirmed — zombie possibility shows that physical arrangements are sufficient for any configuration of matter"
+    - "Physicalism is unaffected — the zombie argument only bears on functionalism, not on physicalism"
+    - "Physicalism is false — if a world physically identical to ours can lack phenomenal consciousness, then consciousness is not entailed by physical facts and does not supervene on them"
+    - "Physicalism may still be true if consciousness turns out to be reducible to behavior rather than to physical structure"
+  answer: 2
+  explanation: "Physicalism holds that everything — including phenomenal consciousness — metaphysically supervenes on physical facts: two worlds identical in all physical respects cannot differ in mental respects. If zombie worlds are possible, then two worlds can be physically identical while differing in phenomenal facts (one has consciousness, the zombie world has none). This directly violates the supervenience claim that defines physicalism, entailing that physicalism is false. Chalmers uses this conclusion to argue for some form of dualism about phenomenal properties."
+
+- question: "A philosophical zombie would behave differently from a normal human in at least some observable situations, making empirical detection possible."
+  type: true-false
+  answer: false
+  explanation: "By definition, a philosophical zombie is a perfect functional and physical duplicate — same neurons, same behavioral dispositions, same verbal reports. It says 'ouch' when burned, reports seeing red when shown red objects, and acts in every way indistinguishable from a conscious person. There is no behavioral or physical test that could detect a zombie. This is precisely what makes the thought experiment philosophically significant: it attempts to pry apart functional behavior from subjective experience, which physicalists claim cannot come apart."
+
+- question: "The conceivability of philosophical zombies alone is sufficient to establish that physicalism is false."
+  type: true-false
+  answer: false
+  explanation: "Conceivability alone is not sufficient — the contested work lies in step 2: the inference from conceivability to metaphysical possibility. Physicalists like Levine argue that we can coherently describe scenarios that are in fact impossible (water without H₂O). If consciousness is necessarily identical to some physical property, then zombie worlds may be epistemically conceivable (describable without apparent contradiction) but metaphysically impossible (they cannot actually exist). Conceivability establishes a potential argument against physicalism, not the conclusion itself."
+
+- question: "Why is the inference from 'zombie worlds are conceivable' to 'zombie worlds are metaphysically possible' the philosophically contested step in Chalmers' argument?"
+  type: short-answer
+  answer: "Conceivability is an epistemic notion — it describes what can be coherently imagined or described. Metaphysical possibility concerns what could actually exist, independently of what we can imagine. These can come apart: we can conceive of water that isn't H₂O, but in all possible worlds, water just is H₂O. Physicalists argue that consciousness may be similarly necessary — necessarily identical to some physical process — so that our ability to conceive of its absence merely reflects our ignorance of that identity, not a genuine metaphysical gap."
+  explanation: "Chalmers' reply is that the water-H₂O case involves a posteriori necessity discovered through empirical science, whereas phenomenal consciousness is not like functional or chemical properties: no empirical identity statement can explain why any physical process feels like anything from the inside. The debate turns on whether phenomenal concepts are special enough to block the a posteriori necessity move that physicalists need. This is the deepest point of contention in the contemporary philosophy of mind debate about consciousness."
+```
+
 ## Explainer
 
 The zombie argument is best understood as a precision tool for probing the relationship between physical facts and phenomenal consciousness. From your study of the hard problem, you know that no amount of functional or physical description seems to logically entail the existence of subjective experience. From qualia, you know what's supposedly left out: the felt redness of red, the throbbing of pain, the smell of coffee. The zombie argument takes these intuitions and turns them into a formal challenge to physicalism.

@@ -20,6 +20,45 @@ status: draft
 ## Core Idea
 Analyzing serial works requires identifying the twelve-tone row, determining the matrix, tracing which forms appear in the score, understanding row structure (symmetries, partitioning, hexachordal relationships), and recognizing how serial structure interacts with rhythm, timbre, form, and traditional harmonic language. This multilayered approach reveals both structural rigor and expressive possibility in twentieth-century serial music.
 
+## Questions
+
+```yaml
+- question: "An analyst identifies all 48 row forms used in a Webern string quartet by matching every pitch sequence against the matrix. They declare the analysis complete. What has the analysis most significantly left out?"
+  type: multiple-choice
+  options:
+    - "The retrograde-inversion forms, which require a separate matrix to identify"
+    - "The prime form, which must be confirmed against the composer's sketches"
+    - "The interaction of serial structure with rhythm, register, timbre, and form — dimensions the row does not determine"
+    - "Whether the row satisfies the combinatoriality condition for all hexachord pairs"
+  answer: 2
+  explanation: "Identifying row forms is the *beginning* of serial analysis, not its completion. The 12×12 matrix shows all available pitch-class orderings, but rhythm, register, dynamics, timbre, articulation, and large-scale form are all compositionally independent of the row. In Webern, a single row may be distributed across multiple instruments in isolated gestures — the serial logic is structural, not melodic. Analysis must ask: what is serialized, what is free, and how do these layers interact to produce the work's expressive character?"
+
+- question: "What information does the 12×12 matrix NOT directly provide when analyzing a serial composition?"
+  type: multiple-choice
+  options:
+    - "The pitch classes in each transposition of the prime form"
+    - "The intervals between consecutive pitch classes in the inversion forms"
+    - "Which specific row forms the composer chose to deploy, and their formal ordering in the score"
+    - "The retrograde of each prime transposition"
+  answer: 2
+  explanation: "The matrix is a comprehensive inventory of all 48 available row forms (P0–P11, I0–I11, R0–R11, RI0–RI11) and their pitch-class content. It does not tell you which forms were actually used, how many times, or in what order — that information comes only from analyzing the score itself. Tracing the sequence of row choices is where analytical work begins: early sections often use a 'home' set of row forms, development sections introduce remote transpositions, and recapitulations return to opening material, mirroring classical formal logic."
+
+- question: "A twelve-tone row with palindromic interval structure offers no compositional advantages over a non-palindromic row."
+  type: true-false
+  answer: false
+  explanation: "Palindromic rows (where the interval sequence reads the same forwards and backwards) allow the retrograde to produce the same succession of intervals as the prime — enabling composers like Webern to generate movements of extreme economy from minimal material. The structural properties of the row — symmetries, partitioning into trichords or tetrachords, hexachordal relationships — directly determine what compositional strategies are available. Row choice is a compositional decision with structural consequences, not an arbitrary starting point."
+
+- question: "In 'total serialism' (as practiced by Milton Babbitt), pitch, rhythm, dynamics, and articulation are all organized by serial ordering principles derived from the twelve-tone row."
+  type: true-false
+  answer: true
+  explanation: "Babbitt extended serialism beyond pitch to include duration, register, dynamics, and timbre — hence 'total serialism.' The row's ordering governs not just what notes are played but when and how loudly. This distinguishes total serialism from Schoenberg's original twelve-tone method, where only pitch is serialized and rhythm, dynamics, and other dimensions remain freely composed. Recognizing what is and is not serialized is an essential step in analyzing any serial work."
+
+- question: "Why is identifying the twelve-tone row and constructing the matrix only the beginning of serial analysis, rather than its completion?"
+  type: short-answer
+  answer: "The matrix provides a complete inventory of available row forms but reveals nothing about the composer's actual choices: which forms were used, how many times, in what order, or how the serial structure is coordinated with non-serial dimensions. Analytical depth comes from tracing the formal arc of row choices (mirroring classical formal logic), identifying how the row's structural properties (symmetries, partitioning) were exploited, and understanding how rhythm, timbre, register, and large-scale form interact with — or work against — the serial ordering. The row constrains pitch organization; all other compositional dimensions remain independent decisions."
+  explanation: "The richest serial analyses address the question of how serial constraint and artistic imagination coexist. Webern's pointillism distributes rows across isolated gestures in multiple instruments — the serial continuity is heard as structure, not melody. Babbitt's total serialism makes rhythm a function of row position. Schoenberg sometimes embeds tonal references within serial frameworks. In each case, what is most analytically interesting is not the matrix itself but how the composer works with and against the serial system."
+```
+
 ## Explainer
 
 You have mastered combinatoriality — the technique by which simultaneous row forms complete chromatic aggregates without repeating pitch classes within each hexachord. Analysis of serial works integrates that knowledge with your understanding of row operations and the twelve-tone matrix to follow the serial architecture of an entire composition, from its generating row through every transformation in the score.

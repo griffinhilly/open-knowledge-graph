@@ -30,6 +30,45 @@ Use network simulation tools (e.g., ns-3, mininet) to observe how latency and ba
 - Throughput equals bandwidth; in reality throughput is always less due to overhead and contention.
 - Latency is only transmission delay; it includes propagation, processing, and queuing delays.
 
+## Questions
+
+```yaml
+- question: "A satellite internet link has 1 Gbps bandwidth and a 600 ms round-trip latency. A TCP connection uses a 64 KB receive window. Approximately what is the maximum achievable throughput?"
+  type: multiple-choice
+  options:
+    - "1 Gbps — the full bandwidth of the link"
+    - "About 853 Kbps — because the window size divided by RTT caps how much data can be in flight"
+    - "500 Mbps — latency cuts effective bandwidth in half"
+    - "Determined by propagation delay alone, not bandwidth"
+  answer: 1
+  explanation: "TCP can only have window-size bytes in flight at once before waiting for acknowledgments. Max throughput = window / RTT = (64 × 1024 × 8 bits) / 0.6 s ≈ 873,000 bps ≈ 853 Kbps — less than 0.1% of the 1 Gbps bandwidth. This is the bandwidth-delay product problem: high bandwidth × high latency means a huge pipe that a small TCP window cannot fill. Upgrading bandwidth without fixing the window size yields no improvement."
+
+- question: "A network engineer observes that ping times between two servers increase dramatically during business hours but the link's speed rating (bandwidth) is unchanged. Which component of latency is most likely responsible?"
+  type: multiple-choice
+  options:
+    - "Propagation delay — more users means signals travel more slowly through the wire"
+    - "Transmission delay — higher traffic increases the time to push bits onto the link"
+    - "Queuing delay — packets wait longer in router buffers when traffic competes for the link"
+    - "Processing delay — routers examine more packet headers when traffic increases"
+  answer: 2
+  explanation: "Propagation delay is fixed by physical distance and the speed of light — it doesn't change with traffic. Transmission delay is fixed by bandwidth and packet size. Queuing delay is the most variable component: when many flows compete, buffers fill and packets wait. This is why latency spikes under congestion while bandwidth (link capacity) remains unchanged."
+
+- question: "Throughput and bandwidth refer to the same network property — the rate at which data moves across a link."
+  type: true-false
+  answer: false
+  explanation: "Bandwidth is the theoretical maximum rate of the link (e.g., 1 Gbps). Throughput is the actual rate of useful data delivered in practice, which is always less than bandwidth due to protocol overhead (headers, ACKs), retransmissions, congestion, and the window-size/RTT interaction. A 1 Gbps link might deliver only 50 Mbps of throughput if RTT is high and the TCP window is small."
+
+- question: "Latency is composed of more than just propagation delay — it also includes transmission delay, processing delay, and queuing delay."
+  type: true-false
+  answer: true
+  explanation: "This is a common misconception: students identify latency with propagation delay (the speed-of-light limit). But transmission delay (time to push all bits onto the wire, = packet size / bandwidth) becomes significant for large packets on slow links. Processing delay (router decisions) is small but real. Queuing delay is the most variable and can dominate on congested networks. Optimizing only propagation delay misses the other three."
+
+- question: "Explain what the bandwidth-delay product represents and why it matters for protocol design."
+  type: short-answer
+  answer: "The bandwidth-delay product (BDP = bandwidth × round-trip time) is the amount of data that can be 'in flight' on a link at any instant — the number of bits the pipe can hold simultaneously. A protocol like TCP that waits for acknowledgments before sending more can only keep BDP bits in transit if its window size equals BDP. If the window is smaller, the sender stalls waiting for ACKs and the link is underutilized. On high-bandwidth, high-latency links (satellite, transcontinental fiber), BDP can be tens of megabytes, requiring large windows to achieve full throughput."
+  explanation: "The BDP insight explains why a gigabit link with 100 ms RTT needs a ~12 MB TCP window to be fully utilized (1 Gbps × 0.1 s = 100 Mb = 12.5 MB). Historic TCP defaults of 64 KB were designed for local networks — they leave high-BDP links severely underutilized."
+```
+
 ## Explainer
 
 Three metrics define how well a network performs, and confusing them is one of the most common mistakes in networking. Think of a highway as an analogy. **Bandwidth** is the number of lanes — it determines how many cars can pass a point per hour at maximum capacity. **Latency** is how long it takes a single car to drive from one city to another. **Throughput** is how many cars actually arrive per hour in practice, accounting for traffic jams, accidents, and speed limits. A 10-lane highway (high bandwidth) between distant cities (high latency) is very different from a 2-lane highway (low bandwidth) between nearby towns (low latency), and both can have throughput problems for completely different reasons.

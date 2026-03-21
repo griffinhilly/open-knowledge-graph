@@ -32,6 +32,45 @@ Track personal social comparison instances over a week, noting direction (upward
 - Social comparison is not pathological; it is a fundamental self-evaluation mechanism. Only certain patterns (chronic upward comparison on appearance) are linked to poor outcomes.
 - People do not always choose the most accurate comparisons; comparison target selection is often strategic and motivated.
 
+## Questions
+
+```yaml
+- question: "A student who has always gotten B grades in math learns that her classmate scored 98% on an exam. According to social comparison theory, which outcome is most likely?"
+  type: multiple-choice
+  options:
+    - "Downward comparison, boosting her self-esteem because she is at least above failing"
+    - "Upward comparison that may produce negative affect but could also motivate greater effort"
+    - "Lateral comparison because classmates are always considered similar others"
+    - "No comparison, because objective test scores provide an external standard"
+  answer: 1
+  explanation: "Comparing to a higher-scoring peer is upward comparison — the comparison target outperforms on the relevant dimension. Upward comparison often produces negative affect (envy, inadequacy) but also carries information about what is achievable, which can fuel self-improvement motivation. This dual quality — affective cost, motivational potential — distinguishes upward from downward comparison. Option D misapplies the theory: Festinger's insight is that people compare even when objective standards exist, especially for ability and opinion."
+
+- question: "When do people most prefer to compare themselves to similar others, according to Festinger's original theory?"
+  type: multiple-choice
+  options:
+    - "When they want to maximize self-esteem by feeling superior"
+    - "When they want accurate self-evaluation and no objective standard is available"
+    - "When they want to feel inspired to achieve at a higher level"
+    - "When they want to avoid feeling envious of more successful people"
+  answer: 1
+  explanation: "Festinger's core claim is that similar others provide the most informative self-evaluation benchmark because a comparison to someone at roughly the same level reveals where you stand. But people also compare strategically: selecting downward targets serves self-enhancement, and selecting upward targets serves self-improvement. The similarity preference is strongest when the goal is accuracy, not when emotional motives dominate target selection."
+
+- question: "According to social comparison theory, people always choose comparison targets who are as similar to themselves as possible."
+  type: true-false
+  answer: false
+  explanation: "Festinger's original formulation did emphasize similar others for accurate self-evaluation, but decades of research show that comparison target selection is strategic and motivated. People select downward targets when they want to feel better (self-enhancement) and upward targets when they want inspiration or improvement goals. If people always preferred similar others, downward comparison as a self-esteem boost would not occur — but it reliably does."
+
+- question: "Downward social comparison tends to boost self-esteem in the short term but may undermine motivation for self-improvement."
+  type: true-false
+  answer: true
+  explanation: "Comparing to someone worse off confirms you are doing relatively well, which reliably produces a short-term self-esteem boost. However, that same comparison provides little information about what is achievable and can license complacency — if you're already better than the comparison target, there is less felt pressure to improve. This trade-off explains why athletes and high achievers often deliberately seek upward comparisons despite the emotional cost."
+
+- question: "Why does social media tend to produce more negative affect from social comparison than face-to-face interactions in everyday life, according to the principles of social comparison theory?"
+  type: short-answer
+  answer: "Social media dramatically expands both the frequency and upward skew of available comparison targets. In everyday life, people compare to a relatively limited, roughly similar pool — family members, neighbors, coworkers. Digital platforms expose users to curated highlights of others' achievements (fitness, career milestones, relationships), which are disproportionately positive and idealized. This selects for nearly constant upward comparison with few of the motivational benefits (because targets are distant and idealized) but most of the affective costs (envy, inadequacy)."
+  explanation: "The problem is not comparison per se — Festinger viewed social comparison as a fundamental and adaptive self-evaluation mechanism. The problem is the environmental affordance: social media creates a comparison landscape that Festinger could not have anticipated, saturated with idealized upward targets across high-salience domains like appearance and status, in a context that strips away the contextual cues that might otherwise limit comparison."
+```
+
 ## Explainer
 
 Festinger's core insight starts from a simple observation: most of what we want to know about ourselves has no ruler to measure it with. You can weigh yourself on a scale, but you cannot step on a scale and learn whether you are a good writer, a courageous person, or a competent manager. For these judgments — which are often the ones that matter most to us — we turn to the nearest available standard: other people. **Social comparison** is the process by which we use others' standing to infer our own.

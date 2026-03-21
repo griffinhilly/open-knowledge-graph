@@ -32,6 +32,45 @@ status: draft
 ## Core Idea
 When a periodic external force F(t) = F₀ cos(ωt) drives a damped oscillator, the system reaches a steady-state oscillation at the driving frequency ω. The amplitude and phase depend strongly on ω and damping: near the natural frequency (resonance), the amplitude is large. Far from resonance, the oscillator is either in phase (below resonance) or 180° out of phase (above resonance) with the drive.
 
+## Questions
+
+```yaml
+- question: "A lightly damped oscillator with natural frequency ω₀ = 10 rad/s is driven at ω = 7 rad/s for a very long time. At what frequency does the resulting steady-state oscillation occur?"
+  type: multiple-choice
+  options:
+    - "10 rad/s — systems always oscillate at their natural frequency in the long run"
+    - "7 rad/s — the steady state follows the driving frequency, not the natural frequency"
+    - "8.5 rad/s — the steady state settles at the average of the driving and natural frequencies"
+    - "The system doesn't oscillate — far from resonance, amplitude approaches zero"
+  answer: 1
+  explanation: "After transients decay, the system forgets its natural frequency and oscillates purely at the driving frequency. The complementary solution (which contains the natural frequency ω₀) decays exponentially due to damping and eventually vanishes. The remaining steady-state response — the particular solution — oscillates at ω = 7 rad/s. The amplitude may be small (since 7 rad/s is below resonance), but the frequency is unambiguously the driving frequency. Option A is the most common misconception: students expect systems to 'want' to oscillate at their natural frequency."
+
+- question: "A driven harmonic oscillator is excited at a frequency well above its natural frequency. How does the displacement relate to the driving force in the steady state?"
+  type: multiple-choice
+  options:
+    - "The displacement is in phase with the force — when the force is maximum, the displacement is maximum"
+    - "The displacement lags the force by exactly 90° — the phase shift is the same as at resonance"
+    - "The displacement is approximately 180° out of phase — the mass moves opposite to the applied force"
+    - "The phase relationship is random above the natural frequency and cannot be predicted"
+  answer: 2
+  explanation: "Phase behavior is one of the most important and underemphasized aspects of forced oscillations. Below resonance: displacement ≈ in phase with force. At resonance: displacement lags force by exactly 90°. Above resonance: displacement is approximately 180° out of phase — push right, it goes left. At high frequency, inertia dominates and the mass barely has time to respond before the force reverses. The 180° phase flip above resonance has real engineering consequences: if you try to drive a stiff structure above its natural frequency, your actuator pushes in the wrong direction relative to motion."
+
+- question: "At resonance (ω = ω₀), the steady-state amplitude of a driven harmonic oscillator diverges to infinity."
+  type: true-false
+  answer: false
+  explanation: "Amplitude diverges only in the idealized case of zero damping. With any real damping, the resonance amplitude is finite — large, but bounded by b/(mω₀) in the denominator of the amplitude formula. The lighter the damping, the taller and narrower the resonance peak, but real physical systems always have some damping. The idealized zero-damping result is a useful limit for understanding the trend, but it is not physically achievable."
+
+- question: "The complementary (homogeneous) solution to the driven oscillator equation represents a transient that decays with time, leaving only the particular solution as the long-term behavior."
+  type: true-false
+  answer: true
+  explanation: "This is the mathematical reason why steady-state behavior is well-defined. The complementary solution (the damped free oscillation at the natural frequency) decays exponentially as e^(-bt/2m). Eventually it becomes negligible, leaving only the particular solution — the steady-state oscillation at the driving frequency ω. This is why 'transient' is the right word: the natural-frequency component is only visible early on, before damping has had time to suppress it."
+
+- question: "Why does a driven harmonic oscillator exhibit especially large amplitude oscillations near resonance? Explain in terms of what the drive and the system are doing relative to each other."
+  type: short-answer
+  answer: "Near resonance, the driving frequency closely matches the system's natural frequency, so the drive pushes the system in approximately the same direction it is already moving for most of each cycle. At resonance exactly, the displacement lags the force by 90°, which means the force is maximally aligned with the velocity — every push does positive work on the system. Energy is being added at nearly the maximum possible rate per cycle, while damping dissipates energy at a rate proportional to velocity. The large amplitude arises because energy input nearly overwhelms energy dissipation, and the system builds up a large oscillation before a steady state is reached where the two rates balance."
+  explanation: "The phase relationship at resonance is the key: force and velocity are in phase (not force and displacement), so the work done per cycle W = ∫F·v dt is maximized. With lighter damping, the system needs a larger amplitude before the dissipation rate equals the input rate — hence a taller resonance peak for smaller damping coefficients."
+```
+
 ## Explainer
 
 You've already studied the damped harmonic oscillator — a mass on a spring with a friction-like damping term that bleeds energy away until the system comes to rest. You've also worked through second-order linear ODEs and the characteristic equation method. The driven harmonic oscillator puts a new forcing term on the right-hand side: mx'' + bx' + kx = F₀ cos(ωt). From your ODE work, you know that the general solution to this non-homogeneous equation is the sum of a **complementary solution** (solving the homogeneous part) and a **particular solution** (any function satisfying the full equation). The damping from the previous topic is exactly why this decomposition matters physically, not just mathematically.

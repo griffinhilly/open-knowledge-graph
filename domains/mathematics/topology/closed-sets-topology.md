@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 A set F in a topological space is closed if its complement X \ F is open. Closed sets satisfy the dual property to open sets: they are closed under arbitrary intersections and finite unions.
 
+## Questions
+
+```yaml
+- question: "In ℝ with the standard topology, what kind of set is [0, 1)?"
+  type: multiple-choice
+  options:
+    - "Open but not closed"
+    - "Closed but not open"
+    - "Both open and closed (clopen)"
+    - "Neither open nor closed"
+  answer: 3
+  explanation: "[0, 1) is not open because the point 0 has no open interval entirely within [0, 1) — any neighborhood of 0 includes negative numbers. It is not closed because its complement (−∞, 0) ∪ [1, ∞) is not open — the point 1 has no open neighborhood contained in that complement. So [0, 1) is neither open nor closed. This shows that 'not open' does not mean 'closed'; the two properties are independent."
+
+- question: "Which statement correctly captures the dual closure properties of open and closed sets in a topology?"
+  type: multiple-choice
+  options:
+    - "Open sets are closed under arbitrary intersections; closed sets are closed under arbitrary unions"
+    - "Open sets are closed under arbitrary unions; closed sets are closed under arbitrary intersections"
+    - "Both are closed under arbitrary unions and arbitrary intersections"
+    - "Both are closed under only finite operations"
+  answer: 1
+  explanation: "Open sets: arbitrary unions are open, but only *finite* intersections are guaranteed open (an infinite intersection of open sets can fail to be open — e.g., ⋂ₙ (−1/n, 1/n) = {0}, which is closed). Closed sets are exactly dual: arbitrary intersections of closed sets are closed, but only *finite* unions are guaranteed closed. This asymmetry between 'arbitrary' and 'finite' is fundamental in topology and is proved via De Morgan's laws applied to the open-set axioms."
+
+- question: "In a topological space, a set cannot be both open and closed simultaneously."
+  type: true-false
+  answer: false
+  explanation: "This is false. Sets that are both open and closed are called 'clopen.' In any topological space, the empty set ∅ and the whole space X are always clopen — they satisfy the open-set axioms directly. In some spaces (like a two-component disconnected space), other clopen sets exist. 'Closed' is not the negation of 'open'; a set can be open, closed, both, or neither."
+
+- question: "Every closed set in a topological space is, by definition, the complement of some open set."
+  type: true-false
+  answer: true
+  explanation: "Yes — this is exactly the definition of a closed set. A set F is closed if and only if X \\ F is open. Closed sets are not defined by any intrinsic property of their own; they are defined relationally, through their complements and the topology's open sets. This makes the topology's open-set structure the primary object, with closed sets derived from it by complementation."
+
+- question: "Why is it possible for a set to be both open and closed in a topological space? Explain what 'clopen' means and give an example."
+  type: short-answer
+  answer: "A set is open if its complement is closed, and closed if its complement is open. A clopen set satisfies both: it is open, and its complement is also open (hence it is also closed). In any topological space, ∅ and X are always clopen: ∅ is open by axiom, and its complement X is also open by axiom — so ∅ is closed. The same reasoning applies to X."
+  explanation: "The confusion arises from assuming 'open' and 'closed' are opposite properties, like a door being open or closed. In topology they are not opposites but independent conditions, each defined by its own criterion. The empty set and whole space always satisfy both because the topology axioms require them to be open, and since each is the complement of the other, each is also closed. In disconnected spaces, larger clopen sets exist and their presence is intimately tied to the notion of connectedness."
+```
+
 ## Explainer
 
 From your study of topological spaces, you know that a topology on a set X is a collection of **open sets** satisfying three axioms: ∅ and X are open, arbitrary unions of open sets are open, and finite intersections of open sets are open. **Closed sets** are defined purely in terms of open sets — a set F is closed when its complement X \ F is open. This is not a separate structure layered on top of the topology; it is the same topology viewed through complementation.

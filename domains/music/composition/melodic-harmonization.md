@@ -38,6 +38,45 @@ Take a simple eight-measure melody and write out three distinct harmonizations u
 - Every melody note does not require a chord change — holding a chord through non-chord tones is often more effective than changing harmony on every beat.
 - The 'obvious' harmonization is not always the best; unexpected chord choices can transform a plain melody into something distinctive.
 
+## Questions
+
+```yaml
+- question: "A melody has a chord tone on beat 1 followed by a stepwise passing eighth note on the 'and' of beat 1 that doesn't belong to any obvious chord. What should a skilled harmonizer typically do?"
+  type: multiple-choice
+  options:
+    - "Find a new chord that contains the passing note so every melody note is harmonized"
+    - "Hold the chord from beat 1 through the passing note, treating it as a non-chord tone"
+    - "Remove the passing note from the melody to simplify harmonization"
+    - "Use a chromatic chord under the passing note to add color"
+  answer: 1
+  explanation: "Non-chord tones — passing tones, neighbor tones, suspensions — are a compositional tool, not a problem to solve with chord changes. Holding the chord and treating the weak-beat note as a passing tone is nearly always more graceful than scrambling to find a new chord for every note. Changing harmony on every beat to accommodate passing tones destroys harmonic rhythm and misuses the concept of non-chord tones entirely."
+
+- question: "A harmonizer wants a phrase to end with a strong sense of closure. Which approach best reflects deliberate, expert practice?"
+  type: multiple-choice
+  options:
+    - "Harmonize the melody note by note from the beginning and see what cadence results naturally"
+    - "Use IV–V–I at every phrase ending to guarantee closure"
+    - "Decide on the cadence type first, then choose interior chords that lead convincingly toward it"
+    - "Increase harmonic rhythm near the end to create more motion approaching the final note"
+  answer: 2
+  explanation: "Expert harmonization is end-directed: you choose the cadence type first (authentic for closure, half cadence for expectancy, deceptive for surprise), then build backward to find chords that create a convincing path toward that arrival. Harmonizing left-to-right without a target cadence tends to produce aimless progressions that land at the end by accident rather than design."
+
+- question: "A melody note falling on a strong beat most naturally functions as a chord tone (root, third, or fifth) of the chord sounding beneath it."
+  type: true-false
+  answer: true
+  explanation: "Strong-beat melody notes are structural tones that the ear hears as defining the harmony. Placing a non-chord tone on a strong beat creates dissonance that sounds like an error rather than an ornament. Skilled harmonization anchors chord tones to strong beats and reserves weak beats for non-chord tones — identifying structural tones is the first step in any harmonization."
+
+- question: "The most effective melodic harmonizations change the chord on every beat so that every melody note belongs to the chord currently sounding."
+  type: true-false
+  answer: false
+  explanation: "This is one of the most persistent beginner mistakes. Holding a chord across a non-chord tone is nearly always more graceful than assigning a new chord to every note. Over-harmonization produces choppy progressions and destroys harmonic rhythm — one of the most expressive levers in harmonization. Slower harmonic rhythm creates spaciousness and inevitability; dense chord changes belong only where the music genuinely requires that density."
+
+- question: "Explain why a harmonizer typically decides on the cadence type before choosing the interior chords of a phrase, rather than harmonizing the melody from beginning to end in order."
+  type: short-answer
+  answer: "The cadence determines the phrase's emotional outcome — whether it closes, pauses, or surprises. Interior chords only make sense as a path leading toward that destination. Deciding the ending first ensures every harmonic choice contributes to a coherent direction; working forward without a target cadence produces progressions that arrive accidentally rather than inevitably."
+  explanation: "End-directed thinking is what separates deliberate harmonization from note-by-note chord guessing. The cadence is the phrase's goal; the interior harmony is the argument that builds toward it. Just as effective writing begins with a conclusion, effective harmonization begins with a harmonic destination."
+```
+
 ## Explainer
 
 You already know from Roman numeral analysis how to identify what chord is sounding and how to label non-chord tones — passing tones, neighbor tones, suspensions. Melodic harmonization reverses that analytical process: instead of being given the chords and asked what they are, you are given the melody and asked to choose the chords. The core insight is that most melody notes are **ambiguous** — the pitch C in C major could belong to I, iii, vi, IV, or even V/IV. The harmonizer's job is to resolve that ambiguity in a way that serves the phrase's direction and emotional character.

@@ -28,6 +28,45 @@ Collect words with multiple affixes and determine the position class of each. Id
 - Affix order is not purely sequential; it may be hierarchically determined by the syntax-morphology interface.
 - Deviations from canonical affix order are not arbitrary; they follow systematic principles.
 
+## Questions
+
+```yaml
+- question: "Why do inflectional affixes appear at the outer edge of words, further from the root, compared to derivational affixes?"
+  type: multiple-choice
+  options:
+    - "Inflectional affixes are historically older and so attach first in word history, ending up outermost"
+    - "Derivational affixes are phonologically heavier and must be adjacent to the root for stress assignment"
+    - "Inflectional affixes adjust a fully-formed word for its syntactic context, so they must be added after the word's lexical identity is established by derivational morphology"
+    - "Inflectional affixes attach outside derivational ones by an arbitrary convention fixed in Proto-Indo-European"
+  answer: 2
+  explanation: "The ordering reflects the sequence of grammatical operations, not arbitrary convention or phonology. Derivational morphology builds the word's lexical identity — changing its category or meaning (un- + kind = unkind; unkind + -ness = unkindness). Inflectional morphology then adjusts that fully-formed word for its role in a sentence (tense, number, agreement). Since syntax operates on complete lexical items, inflectional affixes must be added last — outermost. This is not a coincidence; it reflects the architecture of grammar, from lexical construction outward to syntactic deployment."
+
+- question: "A student analyzes the word 'unkindnesses' and argues that 'un-' should appear outside '-ness-' because prefixes precede the root while suffixes follow it. What is wrong with this analysis?"
+  type: multiple-choice
+  options:
+    - "The prefix 'un-' is actually a suffix in this word, not a prefix"
+    - "Both 'un-' and '-ness' are derivational affixes that sit inside the inflectional plural '-es' — the relevant distinction is derivational vs. inflectional, not prefix vs. suffix"
+    - "Prefixes and suffixes are not distinguished in English morphology"
+    - "The word 'unkindnesses' is not grammatical in standard English"
+  answer: 1
+  explanation: "The student's error is applying the wrong organizational principle. The relevant axis is not prefix/suffix (a positional description) but derivational/inflectional (a functional distinction). In 'unkindnesses,' both 'un-' and '-ness' are derivational — they build the word 'unkindness' from the root 'kind.' The plural '-es' is inflectional, adjusting the fully-formed noun for syntactic use. The correct structure is [[un-[kind]-ness]-es]: derivational operations are nested inside the inflectional one, regardless of whether the derivational morpheme is a prefix or suffix. Position relative to the root is a different question from position in the hierarchy of operations."
+
+- question: "Affix ordering in human languages is an arbitrary convention that varies freely across languages without principled explanation."
+  type: true-false
+  answer: false
+  explanation: "Affix ordering reflects universal properties of grammar — specifically, the sequence of operations that build words (derivational morphology) before placing them in syntactic structures (inflectional morphology). Across typologically diverse languages with very different surface structures, this inside-out ordering tendency is systematic and cross-linguistically robust. It is not arbitrary, and it does not vary freely. Apparent exceptions (infixes, circumfixes) follow their own systematic principles (prosodic constraints, bracketing morphology) — they are not random violations but alternative morphological processes with their own logic."
+
+- question: "The English expletive infix ('fan-f***ing-tastic') appears to violate positional ordering rules but actually follows systematic prosodic constraints — it appears before the main-stressed syllable of the host word."
+  type: true-false
+  answer: true
+  explanation: "This is an important test case for the broader principle: apparent violations of affix ordering are not random exceptions but reveal alternative systematic processes. Infixes in English follow a prosodic rule: they insert before the primary stressed syllable of the host. This is why 'a-b-s-o-f***ing-lutely' inserts before '-lute-' (the stressed syllable), not at the beginning or end of the word. The systematic nature of the exception confirms the rule: whenever affix order seems irregular, there is an alternative process operating, not unexplained chaos."
+
+- question: "Explain why derivational affixes appear closer to the root than inflectional affixes, in terms of the sequence of grammatical operations they represent."
+  type: short-answer
+  answer: "Derivational morphology performs the 'inner' operation of building a word's lexical identity — changing its syntactic category (verb → noun), altering its meaning (kind → unkind), or creating a new lexical item. This operation must happen first because inflectional morphology takes a fully-formed word as its input and adjusts it for its syntactic context (marking tense, number, agreement). Syntax then operates on words that have already been fully inflected. The ordering reflects this causal sequence: derivation builds the word, inflection fits it to its grammatical slot, syntax deploys it. Since derivational affixes are added in the earlier operation, they are structurally interior — closer to the root — and inflectional affixes, added in the later operation, appear at the outer edge."
+  explanation: "The key is to see affix ordering not as a surface fact about word shape but as a window into the sequential architecture of grammar. Understanding this explains why the pattern is cross-linguistically robust: it reflects something deep about how word formation and syntax are sequenced, not an arbitrary rule of any particular language."
+```
+
 ## Explainer
 
 From your study of morphological structure, you know that words are built from meaningful units — roots, prefixes, and suffixes — assembled according to systematic rules. But one question morphological structure leaves open is: when a word takes multiple affixes, why do they appear in the order they do? You cannot say *un-kind-ness* and then freely rearrange it as *kind-un-ness* or *ness-un-kind*. The order is fixed, and the study of affix ordering constraints explains why.

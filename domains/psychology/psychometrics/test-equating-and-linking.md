@@ -34,6 +34,45 @@ Start with conceptual understanding of why equating is necessary (form differenc
 - Equating samples that are not equivalent in ability, which violates the equating assumption.
 - Confusing equating (comparable scores) with scaling (transforming to a standard metric).
 
+## Questions
+
+```yaml
+- question: "A testing program uses equipercentile equating, but the group that took Form B happened to consist of significantly higher-ability students than the group that took Form A. What is the most likely consequence?"
+  type: multiple-choice
+  options:
+    - "The equating will be unaffected, because equipercentile equating is robust to group ability differences by design"
+    - "The equating will be biased — scores will be adjusted as if form differences account for all the score differences, when in fact ability differences are also contributing"
+    - "The equating will compensate correctly because it matches percentile ranks, which are not affected by the ability level of the group"
+    - "The equating will fail entirely and produce no equated scores, since the groups are not equivalent"
+  answer: 1
+  explanation: "Equipercentile equating — and linear equating — assume that the groups taking the two forms are equivalent in ability, so that any score distribution differences reflect form differences, not ability differences. If Group B is higher-ability, their higher average score on Form B looks like Form B is easier, when actually the group was just better. The equating will overcorrect, penalizing Form B scores by more than is justified. The fundamental assumption violation leads to systematic bias, not equating failure or robustness."
+
+- question: "What is the key advantage of IRT-based equating with anchor items over linear or equipercentile equating?"
+  type: multiple-choice
+  options:
+    - "It requires smaller sample sizes and works better when only a few items overlap between forms"
+    - "It explicitly separates person ability from item difficulty on a common scale, so form differences can be detected and corrected even when groups are not equivalent in ability"
+    - "It always produces the same equated scores as linear equating, but with less computation"
+    - "It eliminates the need for anchor items by using the full item response patterns from both forms simultaneously"
+  answer: 1
+  explanation: "IRT's scale-invariance property is precisely what makes IRT equating powerful: in a well-fitting model, item parameters and person abilities are on the same underlying metric regardless of who took which items. Anchor items provide reference points that let us put two separate parameter estimates onto one common scale. This means IRT equating can handle non-equivalent groups, because the model separates what the person brought (ability) from what the form presented (difficulty). Linear and equipercentile methods cannot make this separation — they require equivalent groups."
+
+- question: "Equipercentile equating can detect non-linear relationships between test forms that linear equating would miss."
+  type: true-false
+  answer: true
+  explanation: "Linear equating applies a single mean-and-SD transformation, which can only adjust for forms that differ uniformly across the score range. If Form B is harder at the low end but easier at the high end (a non-linear relationship), linear equating applies one average correction that is too small in some regions and too large in others. Equipercentile equating matches each score point separately by its percentile rank, so it can track whatever shape the relationship takes. The tradeoff is that it requires larger samples to estimate the full score distribution reliably."
+
+- question: "If two independent teams apply different equating methods to the same pair of test forms using the same data, they should arrive at essentially identical equated scores — equating has a unique correct answer."
+  type: true-false
+  answer: false
+  explanation: "Different equating methods rest on different assumptions and can yield meaningfully different equated scores, especially when those assumptions are not fully met. Linear equating assumes a linear relationship between forms; equipercentile allows non-linearity; IRT-based equating assumes the IRT model fits well. When the assumptions of one method are violated, its equated scores diverge from methods with different assumptions. There is no method-independent 'correct' equated score to converge on — the choice of method is consequential, not merely computational."
+
+- question: "Why is it insufficient to equate two test forms using samples from groups with very different average ability levels, even if those samples are large?"
+  type: short-answer
+  answer: "Equating methods assume that score differences between forms reflect form differences (difficulty, item characteristics), not differences between the groups of test-takers. If the groups are not equivalent in ability, score differences on the two forms confound form difficulty with group ability. There is no way to statistically separate how much of the score gap is due to one form being harder versus one group being more skilled. Large samples reduce sampling error but cannot solve this identification problem — you need equivalent groups (or IRT's explicit ability-difficulty separation) to make valid equating inferences."
+  explanation: "This is the fundamental equating assumption, and violating it is a design flaw that no amount of data can fix. Equating is an inference: 'this score difference is due to form differences.' That inference requires that the groups taking the forms are similar in ability, so ability is not a confound. When they aren't, the equating assigns form-based corrections for what is actually a group-based difference, producing scores that are systematically non-comparable — the opposite of what equating is supposed to achieve."
+```
+
 ## Explainer
 
 From **classical test theory** you know that observed scores reflect true score plus error, and that a test's mean and standard deviation depend on both the ability of the test-takers and the difficulty of the items. From **item response theory** you know that item parameters and person ability can be placed on a common scale that is, in principle, independent of the particular sample tested. Test equating is where these ideas meet a practical problem that arises in every large-scale testing program: different test forms cannot be identical (that would allow answer-sharing), but they must produce comparable scores. An examinee who happened to take an easier form should not be advantaged over one who took a harder form — unless the scores are adjusted to account for form differences.

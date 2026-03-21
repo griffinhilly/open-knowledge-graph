@@ -27,6 +27,45 @@ Start with everyday examples of fluids in motion: water flowing from a tap, air 
 - Pressure acts only downward or in one direction (it acts equally in all directions in static fluids).
 - All fluids behave the same way (non-Newtonian fluids have viscosity that depends on shear rate).
 
+## Questions
+
+```yaml
+- question: "An engineer analyzes airflow around a car traveling at 60 mph. She treats the air as incompressible. A colleague objects: 'Air is a gas — it must be compressible.' Who is right?"
+  type: multiple-choice
+  options:
+    - "The colleague — gases are always compressible, and treating air as incompressible introduces significant error at any speed"
+    - "The engineer — at low speeds the density change in air is negligible, making the incompressible assumption valid and greatly simplifying the analysis"
+    - "Both are partially right — incompressible air is valid only for horizontal flows"
+    - "The colleague — only liquids like water can be treated as incompressible"
+  answer: 1
+  explanation: "At low speeds (well below the speed of sound, roughly 343 m/s), the pressure changes in air are small enough that density variation is negligible — the incompressible assumption introduces less than 1% error below about Mach 0.3 (~100 m/s). This simplification is extremely valuable: incompressible flow equations are much easier to solve. The misconception that gases must always be treated as compressible conflates the material property (gases can compress) with the practical engineering question (does compression matter for this problem?). At highway speeds, it does not."
+
+- question: "Two flows of the same fluid in identical pipes have Reynolds numbers Re₁ = 500 and Re₂ = 50,000. What do these values tell you?"
+  type: multiple-choice
+  options:
+    - "Re₁ = 500 indicates turbulent flow; Re₂ = 50,000 indicates laminar flow"
+    - "Re₁ = 500 indicates laminar flow; Re₂ = 50,000 indicates turbulent flow"
+    - "Both flows are laminar since they use the same fluid in the same pipe geometry"
+    - "Reynolds number only predicts flow regime in liquids, not gases"
+  answer: 1
+  explanation: "The Reynolds number Re = ρVD/μ captures the ratio of inertial to viscous forces. Low Re (typically Re < ~2300 in pipes) means viscous forces dominate, suppressing the growth of disturbances — flow is laminar and orderly. High Re (above ~4000) means inertial forces dominate, allowing disturbances to amplify — flow is turbulent and chaotic. At Re = 500, viscous damping keeps the flow smooth; at Re = 50,000, inertia drives turbulence. The same fluid and geometry can produce either regime depending on velocity."
+
+- question: "In a static fluid, pressure acts downward due to gravity but does not act sideways or upward."
+  type: true-false
+  answer: false
+  explanation: "False. In a static fluid, pressure at any point acts equally in all directions — this is Pascal's principle. Pressure is a scalar: it has magnitude but not a preferred direction. At a given depth, a fluid element pushes outward on every surface it contacts: sideways, upward, downward, and at any angle. The misconception likely comes from thinking of pressure as weight pressing down; while gravitational weight determines how pressure varies with depth (P = ρgh), the pressure at any given depth acts omnidirectionally."
+
+- question: "Both liquids and gases are classified as fluids because both deform continuously under an applied shear stress."
+  type: true-false
+  answer: true
+  explanation: "True — this is the definition of a fluid. A solid responds to shear stress by deforming to a fixed extent and stopping. A fluid (liquid or gas) continues to deform as long as any shear stress is applied, no matter how small. The difference between liquids and gases is compressibility: liquids are nearly incompressible under typical engineering pressures, while gases compress significantly. Both, however, satisfy the fundamental criterion of continuous flow under shear."
+
+- question: "What is the Reynolds number, what does it physically represent, and why does it appear in almost every fluid mechanics problem?"
+  type: short-answer
+  answer: "The Reynolds number Re = ρVD/μ is the ratio of inertial forces to viscous forces in a flow (ρ = density, V = velocity, D = characteristic length, μ = dynamic viscosity). Physically, inertial forces tend to amplify disturbances and cause mixing (driving turbulence), while viscous forces dampen disturbances and maintain orderly flow. When Re is low, viscosity wins and flow is laminar; when Re is high, inertia wins and flow becomes turbulent. It appears in nearly every problem because flow regime — laminar vs. turbulent — determines which equations, correlations, and design factors apply. The same pipe, fluid, and geometry can behave entirely differently at different velocities, and Re is the number that tells you which regime you're in."
+  explanation: "The Reynolds number is an example of a dimensionless similarity parameter: two flows with the same Re (even with different fluids, pipe sizes, or velocities) behave identically in terms of flow pattern. This is why wind tunnel models work: you test a small aircraft model at high velocity to match the Re of the full-scale aircraft at cruise speed. This concept of dynamic similarity — matching dimensionless numbers rather than physical dimensions — is one of the most powerful ideas in fluid mechanics and experimental engineering."
+```
+
 ## Explainer
 
 A **fluid** is any substance that deforms continuously when a shear stress is applied — it flows rather than holding its shape. This is what distinguishes fluids from solids: a solid block resists shear (a tangential force) by deforming a fixed amount and stopping, while a fluid keeps moving as long as the force is applied. Both liquids and gases meet this definition. The practical difference between them is compressibility: liquids are nearly incompressible (their density barely changes under pressure), while gases compress significantly. For many engineering problems — water in pipes, slow airflows — the incompressible assumption applies even to gases, which simplifies the mathematics enormously.

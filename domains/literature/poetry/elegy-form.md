@@ -33,6 +33,45 @@ Read Milton's 'Lycidas,' Tennyson's 'In Memoriam,' and a contemporary elegy like
 - Not every sad poem is an elegy; the form requires a specific movement through grief toward some kind of reckoning or resolution.
 - The consolation need not be happy or certain — many modern elegies leave the consolation deliberately incomplete.
 
+## Questions
+
+```yaml
+- question: "A contemporary poet writes a poem about the death of a close friend. It expresses sustained grief and ends with the speaker acknowledging that the friend is simply gone — no afterlife, no nature-renewal, no transcendence. Is this an elegy?"
+  type: multiple-choice
+  options:
+    - "No — an elegy requires an affirmative consolation, such as immortality or divine reunion"
+    - "No — without a resolved consolation, the poem is a dirge, not an elegy"
+    - "Yes — modern elegies can complete the arc with a reckoning that falls short of traditional comfort; honest acceptance can constitute consolation"
+    - "Yes, but only if the poem follows the classical meter of alternating hexameter and pentameter"
+  answer: 2
+  explanation: "The elegy's consolation is defined by its function — providing some reckoning with loss — not by its emotional content or theological commitment. Modern elegies frequently refuse transcendent or religious consolation while still completing the elegiac arc. What distinguishes an elegy from a dirge is the *attempt* at resolution, not its happiness or certainty. Many modern elegies leave consolation deliberately incomplete, as Tennyson's *In Memoriam* repeatedly does."
+
+- question: "What does the consolation stage of an elegy primarily reveal about the poem?"
+  type: multiple-choice
+  options:
+    - "The technical skill of the poet in managing tone shifts across a long piece"
+    - "The poet's deepest commitments about what persists after death and what makes a life meaningful"
+    - "Whether the poem meets the formal definition of an elegy rather than a dirge or lament"
+    - "The biographical relationship between the speaker and the person being mourned"
+  answer: 1
+  explanation: "The consolation is the philosophically pressured moment of the elegy. What answer does the poem give to 'what remains after the loss?' — artistic immortality, divine transcendence, nature's renewal, the value of having loved? Each choice reveals the poet's deepest beliefs. When a reader asks 'do I believe this consolation?', they are evaluating the philosophical claims embedded in the poem's formal resolution. The form pressures the poet into commitment."
+
+- question: "An elegy's consolation need not be happy or certain — many modern elegies leave the resolution deliberately incomplete, and this is considered a legitimate fulfillment of the form."
+  type: true-false
+  answer: true
+  explanation: "The consolation stage is defined by its function, not its emotional valence. Tennyson's *In Memoriam* finds and loses consolation repeatedly across 133 sections without ever fully resolving the grief. Modern elegies often refuse transcendence while still working through the arc of mourning. The distinction between an elegy and a dirge is the attempt at reckoning — which can take the form of honest acceptance, not only triumph over grief."
+
+- question: "The elegy is defined primarily by its meter — alternating hexameter and pentameter — which is what distinguishes it from other forms of grief poetry."
+  type: true-false
+  answer: false
+  explanation: "While the elegy originated as a classical meter (elegiac couplets in Greek and Latin poetry), in modern usage it is defined by subject matter and emotional arc — mourning, lament, and movement toward some reckoning — not by formal meter. You can write an elegy in free verse, the sonnet form, or even a list, as long as the elegiac arc is present. Frank O'Hara's *The Day Lady Died* looks like a mundane errand list until grief suddenly interrupts it."
+
+- question: "What is the function of the consolation stage in an elegy, and why does the poet's choice of consolation matter philosophically?"
+  type: short-answer
+  answer: "The consolation stage resolves or reckons with the grief established in the lament — it answers the implicit question 'what remains after the loss?' This might be artistic immortality, nature's renewal, divine transcendence, the value of having loved, or simple honest acceptance. The choice reveals the poet's deepest commitments about mortality and meaning. When a reader asks 'do I believe this?' they are evaluating the philosophical claims embedded in the poem's formal resolution — which is why the elegy is both a poetic form and an act of philosophical commitment."
+  explanation: "The consolation is what separates the elegy from pure lament. It enacts the psychological and philosophical work of mourning — not eliminating grief but finding a way to continue in its presence. Tracing what form the consolation takes, and whether it is convincing, is one of the most sophisticated skills in poetry reading."
+```
+
 ## Explainer
 
 You know from your study of poetic form that forms are not just containers — they carry inherited expectations, cultural memory, and formal pressures that shape what a poem can say and do. The **elegy** is one of the oldest and most culturally charged of poetic forms, and understanding it means grasping both its structural arc and the enormous variation with which poets have inhabited, subverted, and complicated that arc.

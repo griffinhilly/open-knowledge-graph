@@ -30,6 +30,45 @@ Trace radix sort on small numbers, processing one digit at a time. Implement usi
 ## Common Misconceptions
 - Radix sort is always faster than quicksort (depends on digit count and constant factors; quicksort is more general). - It only works on integers (strings are sequences of character digits and can be radix-sorted too).
 
+## Questions
+
+```yaml
+- question: "You implement LSD radix sort but accidentally use an unstable sub-sort (equal-key elements may reorder arbitrarily). What is the consequence?"
+  type: multiple-choice
+  options:
+    - "The algorithm runs faster because stability checking overhead is removed"
+    - "The algorithm still sorts correctly for integers, but fails for strings"
+    - "Later digit passes destroy the relative ordering established by earlier passes, corrupting the final result"
+    - "The algorithm crashes because it requires stable memory pointers"
+  answer: 2
+  explanation: "Stability is not a performance optimization — it is the correctness mechanism. When you sort by the tens digit, you must preserve the ordering by ones digit that the previous pass established. An unstable sub-sort scrambles equal-key elements arbitrarily, undoing that work. LSD radix sort is correct precisely because stability ensures each pass refines the ordering without disturbing previous passes. Replace the stable sub-sort with an unstable one and the algorithm produces incorrect results."
+
+- question: "You implement radix sort on 32-bit integers using base 256 (b = 256, so each digit represents one byte). How many passes over the data are required?"
+  type: multiple-choice
+  options:
+    - "32 passes — one per bit"
+    - "8 passes — one per pair of bits (nibble)"
+    - "4 passes — one per byte"
+    - "2 passes — one for the low 16 bits, one for the high 16 bits"
+  answer: 2
+  explanation: "In base 256, each 'digit' represents 8 bits (one byte). A 32-bit integer has 4 bytes, so 4 passes suffice, each scanning all n elements using a 256-entry counting array. Choosing base 256 is a deliberate optimization: it minimizes passes to 4 (versus 32 for base-2) while keeping the auxiliary array small. The general formula is d = (key width in bits) / log2(b)."
+
+- question: "Radix sort achieves its linear-time performance by comparing elements directly, just more cleverly than comparison-based sorts like quicksort."
+  type: true-false
+  answer: false
+  explanation: "Radix sort is a non-comparison sort — it never compares two elements against each other. Instead, it inspects individual digits and places elements into buckets using counting sort. This is exactly why it can break the O(n log n) comparison-sort lower bound: that lower bound applies only to algorithms that determine order by comparing pairs of elements. Radix sort exploits the structure of the keys (they're sequences of digits) to sort without comparisons."
+
+- question: "Stability of the sub-sort is essential to the correctness of LSD radix sort — without it, the algorithm cannot guarantee a sorted result."
+  type: true-false
+  answer: true
+  explanation: "Stability is the mechanism that makes LSD ordering work. After the first pass (ones digit), elements with equal ones digits are in their input order. The second pass (tens digit) sorts by tens digit while preserving ones-digit order for ties, because a stable sort maintains relative order for equal keys. This means each pass adds information rather than discarding the previous pass's work. Without stability, passes would interfere with each other and correctness would be lost."
+
+- question: "Why does LSD radix sort process digits from least significant to most significant, rather than most to least significant? What would go wrong if you reversed the order?"
+  type: short-answer
+  answer: "Processing least-significant digits first works because the sub-sort is stable: each subsequent pass sorts by a more significant digit while preserving the relative order established by less significant digits. If you reversed the order (MSD first), a later pass sorting by a less significant digit would destroy the ordering of more significant digits, since there's no mechanism to say 'only reorder elements that are tied on the more significant digit.'"
+  explanation: "The key is that stability lets each pass 'refine' rather than 'restart.' MSD-first radix sort does exist but requires a different structure — typically a recursive approach that partitions into buckets by the most significant digit, then recursively sorts within each bucket. LSD is simpler because a single linear pass of a stable sub-sort is sufficient at each level."
+```
+
 ## Explainer
 
 You already know from counting sort that comparison-based sorting has a lower bound of O(n log n), but counting sort beats this by exploiting the structure of the keys — it counts occurrences rather than comparing elements. The limitation of counting sort is that it needs an array as large as the range of values, so sorting 32-bit integers directly would require an array of 4 billion entries. **Radix sort** solves this by applying counting sort one digit at a time, keeping the auxiliary array small while still achieving linear-time performance.

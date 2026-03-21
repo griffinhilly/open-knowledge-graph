@@ -30,6 +30,45 @@ Identify the climax in several plays, then trace backward to see how earlier sce
 ## Common Misconceptions
 The climax is not necessarily the most violent or sensational moment—it's the moment when the central question of the play can no longer be avoided.
 
+## Questions
+
+```yaml
+- question: "In a play, a character discovers a secret letter that reveals a betrayal, leading to a dramatic sword fight in which two characters die. A student identifies the sword fight as the climax because it is the most violent and emotionally intense moment. What is the problem with this analysis?"
+  type: multiple-choice
+  options:
+    - "The student is correct — the most violent or emotionally intense moment is by definition the climax"
+    - "The climax should be identified as the earliest scene of conflict, not a late scene of resolution"
+    - "The climax is the moment of maximum dramatic pressure where the central conflict must be confronted — which may be the letter discovery, if that is when the decisive confrontation becomes unavoidable"
+    - "Sword fights cannot be climaxes because they are external events rather than internal character decisions"
+  answer: 2
+  explanation: "The climax is defined by dramatic function, not spectacle. It is the moment when the central conflict reaches maximum pressure and can no longer be avoided — typically a point of decision or recognition. The sword fight is violent, but violence follows necessarily from whatever decision or discovery made the confrontation unavoidable. If discovering the letter is the moment when escape becomes impossible and the protagonist must act, that is the true climax. The deaths are consequences, not the turning point. Misidentifying spectacle as climax leads to shallow structural analysis."
+
+- question: "Rising action is best described as:"
+  type: multiple-choice
+  options:
+    - "Any series of events occurring after the exposition and before the resolution"
+    - "A progressive escalation that narrows the protagonist's options and increases pressure toward an inevitable confrontation"
+    - "Any scene that introduces a new character, complication, or reversal"
+    - "The gradual slowing of pace to build anticipation immediately before the climax"
+  answer: 1
+  explanation: "Rising action is not merely 'scenes that happen in the middle.' The key quality is escalation — each scene should increase the pressure on the protagonist and close off options, creating momentum toward an inevitable confrontation. New complications, lost time, fractured relationships, and returned consequences all serve rising action when they make the protagonist's situation more urgent. Option A is too broad — not all middle events escalate. Option C mistakes variety for escalation. Option D confuses pace slowing with tension building, which are not the same thing."
+
+- question: "A climax that feels unearned typically indicates that the rising action failed to progressively increase the stakes — reaching the turning point without having built the full weight of what is at stake."
+  type: true-false
+  answer: true
+  explanation: "True. The climax derives its emotional power from everything that preceded it. When a climax surprises or feels arbitrary rather than inevitable, it is usually because the rising action either failed to escalate (obstacles varied but didn't accumulate), developed pressure around one set of stakes while the climax resolved a different one, or moved too quickly through complications without letting the audience feel each tightening of the trap. The climax should feel, in retrospect, like the only place the play could have gone."
+
+- question: "The climax of a dramatic work is always the most violent, emotionally intense, or sensationally spectacular scene in the play."
+  type: true-false
+  answer: false
+  explanation: "False — this is the central misconception the topic addresses. The climax is the moment of maximum dramatic pressure where the central question of the play can no longer be avoided, not the moment of greatest spectacle. In Oedipus Rex, the climax is the recognition scene — the moment of full understanding — not the subsequent blinding. In Hamlet, the decisive turn is arguably the commitment to action, not the sword fight. Physical violence or emotional pyrotechnics may accompany the climax, but they do not define it. A quiet, interior moment of decision can be a more powerful climax than any battle scene."
+
+- question: "A playwright's advisor says: 'Your third act feels slow and shapeless — the climax surprised me but didn't feel necessary.' Using the concepts of rising action and climax, explain what structural problem this feedback identifies and how the playwright might address it."
+  type: short-answer
+  answer: "The feedback identifies two related structural failures. 'Slow and shapeless' suggests the rising action plateaued — obstacles appeared but did not escalate, so there was no sense of narrowing options or building pressure toward an inevitable confrontation. 'Surprised but didn't feel necessary' suggests a mismatch: the rising action developed one set of pressures while the climax resolved a different question, so the turning point felt arbitrary rather than inevitable. To fix this, the playwright should audit the third act scene by scene: does each scene increase the urgency of the central conflict? Do the complications close off more escape routes than they open? The climax should feel like the only possible destination of the pressure built before it."
+  explanation: "Dramatic construction requires that rising action and climax be aimed at the same target — the same central conflict. If rising action raises questions about A while the climax resolves B, the audience feels cheated. The test of good rising action is retroactive: after the climax, look back and ask whether each earlier scene contributed to this outcome. Every scene that could be cut without reducing the inevitability of the climax is rising action that isn't doing its job."
+```
+
 ## Explainer
 
 Your prerequisite in dramatic structure introduced you to the overall shape of drama — setup, conflict, resolution. Rising action and the climax are the names for what happens in the middle: the engine that makes audiences lean forward and stay invested. Understanding them is not just a matter of labeling story beats on a diagram; it's understanding why narrative tension accumulates and what it feels like when a play is building toward something.

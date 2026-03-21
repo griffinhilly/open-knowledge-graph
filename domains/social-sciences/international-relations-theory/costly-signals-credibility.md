@@ -28,6 +28,45 @@ Compare cheap talk (verbal threats) with costly signals (troop deployments). Why
 ## Common Misconceptions
 Costliness alone does not guarantee credibility—if a state can afford the cost, it might still be bluffing. Credibility requires that the cost of bluffing is higher than the benefit.
 
+## Questions
+
+```yaml
+- question: "Country A publicly announces that it will impose severe sanctions if Country B seizes a disputed island, then follows through. Country A made the announcement publicly rather than through private diplomatic channels. The primary reason public commitment increases credibility is:"
+  type: multiple-choice
+  options:
+    - "International organizations can enforce public commitments in ways they cannot enforce private ones"
+    - "The public commitment imports domestic audience costs — backing down after a public ultimatum exposes the leader to domestic political punishment, raising the cost of retreat"
+    - "Adversaries are more attentive to public communications and therefore more likely to update their beliefs"
+    - "Public commitments are legally binding under customary international law"
+  answer: 1
+  explanation: "The mechanism is domestic audience costs: a public ultimatum stakes the leader's political credibility at home. If Country A backs down, domestic audiences — voters, opposition parties, media — will hold the leader accountable for the retreat. This internal cost is what separates a public commitment from a private assurance. The adversary knows that backing down is now domestically costly for A, which means A has less incentive to bluff and more incentive to follow through — making the threat more credible."
+
+- question: "A powerful great power deploys troops to signal resolve in a dispute. An analyst argues this deployment may be less credible than the same action by a smaller state. What is the most compelling version of this argument?"
+  type: multiple-choice
+  options:
+    - "Great powers are historically more prone to strategic deception, so adversaries discount their signals"
+    - "Smaller states have more at stake in territorial disputes, so their resolve is intrinsically higher"
+    - "The great power can absorb the deployment cost even if bluffing, reducing the asymmetry between resolved and unresolved senders that makes signals informative"
+    - "Great powers lack treaty obligations that would force them to follow through on military deployments"
+  answer: 2
+  explanation: "This is the key insight about costly signals: it is not the absolute cost that matters, but the *asymmetry* between the cost to a bluffing sender versus a genuine one. A rich, powerful state can afford a military deployment without serious strain even if it has no intention of fighting. If a bluffing great power and a resolved great power both find the deployment equally cheap, the deployment conveys little information about resolve. The signal separates resolved from irresolute actors only when the cost is meaningfully asymmetric — more painful for the bluffer than for the genuine actor."
+
+- question: "A state can sometimes increase the credibility of its commitments by deliberately removing its own option to retreat — making retreat physically impossible or prohibitively costly — because an adversary who observes this knows the state cannot be bluffing."
+  type: true-false
+  answer: true
+  explanation: "This is the 'burning bridges' mechanism. Historically, commanders who burned their own ships forced their armies to fight or die — no retreat option exists, so no bluffing about willingness to fight is possible. Modern equivalents include stationing forces so forward that withdrawal would itself be a political crisis, entering automatic sanction triggers in treaties, or making public ultimatums that damage the leader's domestic credibility if reversed. By removing the ability to back down, a state makes its commitment observable as genuine — precisely because it can no longer afford not to follow through."
+
+- question: "Any sufficiently expensive signal is a credible signal — a rational actor would not spend significant resources unless it genuinely intended to follow through on its threat."
+  type: true-false
+  answer: false
+  explanation: "This is the common misconception that the costly signals framework explicitly corrects. Costliness alone does not guarantee credibility — the cost must be *asymmetric* between resolved and unresolved senders. A state with sufficient resources can absorb a costly deployment, a public statement, or even sanctions on itself without these costs exceeding the benefits of successful bluffing. The signal is credible only when the cost structure makes bluffing a worse expected outcome than signaling truthfully — which depends on the relationship between the signal cost, the reservation value, and what the state actually gains from being believed."
+
+- question: "What is the precise condition that makes a costly signal credible, and why does costliness alone fail to guarantee credibility?"
+  type: short-answer
+  answer: "A costly signal is credible when the cost is asymmetric: higher for a bluffing (unresolved) sender than for a genuinely committed (resolved) one. This asymmetry is what makes the signal informative — only a resolved actor would rationally send it. Costliness alone fails because if a wealthy or powerful state can absorb the signal cost regardless of its true intentions, then both resolved and unresolved states would send the same signal, making it uninformative. The signal separates types only when the bluffer faces a worse expected outcome by sending it than by not sending it."
+  explanation: "The practical implication is that what counts as a credible signal depends on the sender's resources and reservation value. A small state's troop deployment may be far more credible than a great power's, because the small state's cost is proportionally higher and its resources for absorbing consequences are more limited. Credibility is relational, not absolute — it depends on who is signaling, not just what is signaled."
+```
+
 ## Explainer
 
 From your study of signaling and resolve, you know that international politics is full of communication problems: states cannot directly observe each other's intentions, and states that are bluffing have every incentive to look like states that are not. The result is a classic credibility puzzle — words alone cannot reliably signal resolve, because words are cheap. The theory of costly signals is the central framework for understanding how states can make their threats and commitments believable despite this problem.

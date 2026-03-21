@@ -33,6 +33,45 @@ Practice subnetting exercises: given a network and required number of subnets, d
 - Subnet masks must align to class boundaries; CIDR allows arbitrary prefix lengths.
 - Subnetting is only for IPv4; IPv6 also uses prefix notation and subnetting principles.
 
+## Questions
+
+```yaml
+- question: "A network engineer is assigned the block 10.0.0.0/8 and needs to create subnets with approximately 60 hosts each. Which prefix length should be used for each subnet?"
+  type: multiple-choice
+  options:
+    - "/24, because each /24 provides 254 usable hosts — more than enough for 60"
+    - "/26, because 2⁶ = 64 addresses gives 62 usable hosts — the closest fit above 60"
+    - "/27, because 2⁵ = 32 addresses gives 30 usable hosts — close enough to 60"
+    - "/25, because 2⁷ = 128 addresses provides plenty of capacity for 60 hosts"
+  answer: 1
+  explanation: "A /26 mask leaves 6 bits for the host portion: 2⁶ = 64 total addresses, minus 2 reserved (network address and broadcast), gives 62 usable host addresses — the smallest subnet that fits 60 hosts. A /25 gives 126 usable hosts but wastes more than half the address space per subnet. A /27 gives only 30 usable hosts — not enough. A /24 gives 254 hosts, which is excessive. CIDR's value is precisely this ability to right-size subnets to actual requirements rather than being forced into classful blocks."
+
+- question: "An ISP assigns 200 customers /24 subnets from the block 10.5.0.0/16. Without route aggregation, upstream routers need 200 routing table entries for these customers. How does CIDR route aggregation improve this?"
+  type: multiple-choice
+  options:
+    - "Aggregation reduces the 200 entries to 200 /16 entries, one per ISP customer"
+    - "Aggregation allows the ISP to advertise a single 10.5.0.0/16 route that covers all 200 subnets in one entry"
+    - "CIDR automatically aggregates all subnets from the same block at the source router with no configuration needed"
+    - "Aggregation has no effect because each /24 is a distinct customer network that must be advertised separately"
+  answer: 1
+  explanation: "With CIDR route aggregation (sometimes called supernetting), the ISP can advertise a single 10.5.0.0/16 route that summarizes all /24 subnets within that block. Upstream routers see one entry instead of 200. This is one of the primary motivations for CIDR: it allowed the global routing table to remain manageable as the internet grew, rather than exploding with individual subnet routes. The same mechanism scales to ISPs advertising a single /8 or /12 that covers thousands of customer subnets."
+
+- question: "A /25 network contains exactly half the total address space of a /24 network, giving it 128 total addresses (126 usable hosts)."
+  type: true-false
+  answer: true
+  explanation: "Each additional bit in the prefix length halves the address space. A /24 has 2⁸ = 256 total addresses (254 usable). A /25 has 2⁷ = 128 total addresses (126 usable). Conversely, each bit removed from the prefix doubles the address space: a /23 has 2⁹ = 512 total addresses. This binary relationship between prefix length and address count is fundamental to all subnetting calculations — and is why CIDR arithmetic requires solid binary number intuition."
+
+- question: "Under CIDR, subnet masks must correspond to Class A (/8), Class B (/16), or Class C (/24) boundaries to ensure compatibility with modern routers."
+  type: true-false
+  answer: false
+  explanation: "CIDR (Classless Inter-Domain Routing) was specifically designed to eliminate classful constraints. The 'classless' in CIDR means prefix lengths can be any value from /0 to /32, not just the three classful values. An organization needing 300 hosts can receive a /23 (510 usable hosts) rather than being forced into a Class B /16 (65,534 hosts). Classful addressing was the pre-CIDR system that CIDR replaced precisely because rigid class boundaries caused enormous address waste — a Class B wasted 99% of its address space for an organization needing only a few hundred addresses."
+
+- question: "Explain how CIDR notation solves both the address waste problem and the routing table growth problem that plagued classful (Class A/B/C) addressing."
+  type: short-answer
+  answer: "Classful addressing forced organizations into blocks of /8 (16M hosts), /16 (65K hosts), or /24 (254 hosts). An organization needing 300 hosts had to receive a /16, wasting over 99% of the addresses. CIDR allows any prefix length, so that organization can receive a /23 (510 hosts) — a near-exact fit. For routing table growth: without aggregation, each subnet requires a separate routing table entry. CIDR enables route aggregation — a single /16 advertisement covers 256 individual /24 subnets, keeping routing tables from growing proportionally with the number of networks."
+  explanation: "These two benefits — address conservation and routing scalability — are why CIDR allowed IPv4 to survive decades longer than originally projected. Both flow from the same mechanism: flexible, arbitrary prefix lengths that allow both right-sizing of address allocations and hierarchical summarization of routes. IPv6 uses exclusively prefix-based notation for the same reasons."
+```
+
 ## Explainer
 
 From your understanding of IPv4 addressing, you know that every device on a network has a 32-bit IP address written in dotted-decimal form (like 192.168.1.50). But an IP address alone does not tell you which part identifies the network and which part identifies the specific host on that network. That is the job of the **subnet mask** — a 32-bit value where the leading 1-bits mark the network portion and the trailing 0-bits mark the host portion. For example, the mask 255.255.255.0 in binary is 24 ones followed by 8 zeros, meaning the first 24 bits are the network address and the last 8 bits identify hosts within that network.

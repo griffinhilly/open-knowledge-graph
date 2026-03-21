@@ -27,6 +27,45 @@ Always reference the number line when comparing negatives. Use temperature analo
 - Confusing the direction of inequality symbols (the "alligator mouth" opens toward the larger number).
 - Forgetting that zero is greater than all negative numbers.
 
+## Questions
+
+```yaml
+- question: "A student claims that −8 > −2 because 8 is greater than 2. What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "The student is using the wrong inequality symbol"
+    - "The student is applying whole-number magnitude thinking to negative numbers, which reverses the actual comparison"
+    - "The student forgot that negative numbers cannot be compared with inequality symbols"
+    - "Nothing — the student is actually correct"
+  answer: 1
+  explanation: "This is the most common misconception when comparing negative integers. On the number line, −2 is to the RIGHT of −8, which means −2 is greater. 'Greater' means 'further right on the number line,' not 'larger absolute value.' With negative numbers, the one closer to zero (smaller absolute value) is the greater number. Temperature is a good check: −2°F is warmer than −8°F, so −2 > −8."
+
+- question: "Which of the following correctly orders the set {−3, 4, −7, 0, −1} from least to greatest?"
+  type: multiple-choice
+  options:
+    - "4, 0, −1, −3, −7"
+    - "−7, −3, −1, 0, 4"
+    - "−1, −3, −7, 0, 4"
+    - "−7, −1, −3, 0, 4"
+  answer: 1
+  explanation: "Least to greatest means moving from left to right on the number line. Among negatives, the most negative (furthest left) comes first: −7 is furthest left, then −3, then −1. Zero is in the middle. Then positive numbers: 4. The key is that among negatives, the one with the largest absolute value is the LEAST. Option B (−7, −3, −1, 0, 4) is correct."
+
+- question: "On the number line, −5 is to the right of −9, so −5 > −9."
+  type: true-false
+  answer: true
+  explanation: "This is correct. The number line rule is simple and absolute: whichever number is further to the right is greater. −5 is closer to zero than −9, placing it to the right of −9. So −5 > −9, even though 5 < 9 in terms of absolute value. Using the number line as a visual anchor eliminates the confusion that comes from thinking about magnitude alone."
+
+- question: "Among negative integers, the one with the larger absolute value is the greater number."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception for negative number comparisons. Among negatives, larger absolute value means further from zero, which means further LEFT on the number line — which means LESS, not greater. −8 has a larger absolute value than −2, but −8 < −2. The correct rule: among negatives, the one with the SMALLER absolute value (closer to zero) is the greater number."
+
+- question: "Explain why −2 > −8, even though 2 < 8. Use the number line in your explanation."
+  type: short-answer
+  answer: "On the number line, −2 is closer to zero and sits to the RIGHT of −8. 'Greater' means 'further right,' not 'larger absolute value.' With negative numbers, being closer to zero means being less negative — which is higher on the scale. A useful analogy: −2°F is warmer (closer to freezing) than −8°F. The absolute values follow the opposite order of the numbers themselves when both are negative."
+  explanation: "This question targets the core insight: the number line gives meaning to 'greater than' that the absolute-value intuition reverses for negative numbers. Students who can explain this in their own words genuinely understand the concept rather than having memorized a rule."
+```
+
 ## Explainer
 
 You already know how to place integers on the number line — positives to the right of zero, negatives to the left. Comparing integers is simply reading that number line: whichever number sits further to the right is **greater**. The symbols < (less than) and > (greater than) record which direction you would travel to get from one number to the other. If you're at −3 and need to move right to reach 5, then −3 < 5.

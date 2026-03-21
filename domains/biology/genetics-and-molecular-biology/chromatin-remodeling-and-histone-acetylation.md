@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Chromatin-remodeling complexes (SWI/SNF, ISWI, CHD, INO80 families) use ATP hydrolysis to alter nucleosome positioning, eject nucleosomes, or alter histone-DNA contacts, making promoters and enhancers accessible to transcription factors and RNA polymerase. Histone acetyltransferases (HATs) add acetyl groups to lysine residues on histone tails, neutralizing positive charge and loosening DNA-histone interactions, creating 'open' chromatin favorable for transcription. Histone deacetylases (HDACs) remove acetyl groups, promoting repressive chromatin and gene silencing. Acetylation states are dynamically regulated by enzyme recruitment through transcription factors and are inherited through cell division, making acetylation a reversible yet persistent epigenetic mechanism.
 
+## Questions
+
+```yaml
+- question: "Treating cancer cells with a drug that inhibits histone deacetylases (HDACs) would most likely result in:"
+  type: multiple-choice
+  options:
+    - "More condensed chromatin and increased gene silencing throughout the genome"
+    - "Sustained histone acetylation, open chromatin, and re-activation of genes that were silenced by deacetylation"
+    - "No transcriptional effect, because chromatin-remodeling complexes compensate for reduced HDAC activity"
+    - "Destruction of nucleosome structure, since HDAC activity is required for nucleosome assembly"
+  answer: 1
+  explanation: "HDACs remove acetyl groups from histone tails, restoring positive charge and tightening nucleosome-DNA contacts — promoting condensed, transcriptionally silent chromatin. Blocking HDACs means acetylation accumulates, neutralizing the positive charges on histone tails, loosening DNA-histone interactions, and shifting chromatin toward an open, transcriptionally permissive state. This is the basis for HDAC inhibitors as cancer drugs: tumor-suppressor genes silenced by excessive deacetylation can be reactivated when HDAC activity is blocked."
+
+- question: "How does the mechanism by which SWI/SNF chromatin-remodeling complexes open chromatin differ from the mechanism by which histone acetyltransferases (HATs) open chromatin?"
+  type: multiple-choice
+  options:
+    - "SWI/SNF adds acetyl groups to histone tails to neutralize charge; HATs use ATP to slide nucleosomes along DNA"
+    - "Both mechanisms work through electrostatic neutralization of histone tails, but target different lysine residues"
+    - "SWI/SNF uses ATP hydrolysis to physically move or eject nucleosomes; HATs chemically neutralize histone tail charge by acetylating lysine residues"
+    - "SWI/SNF acts only on promoters; HATs act only on enhancers"
+  answer: 2
+  explanation: "These are mechanistically distinct: SWI/SNF is a molecular machine that uses the energy from ATP hydrolysis to physically reposition, slide, or eject nucleosomes — clearing physical obstacles from DNA. HATs work biochemically by adding acetyl groups to lysine residues on histone tails, neutralizing their positive charge and weakening the electrostatic attraction between the tails and the negatively charged DNA backbone. Option A reverses the mechanisms. The two approaches are complementary: remodeling complexes can expose DNA that is physically blocked, while acetylation can loosen the nucleosome's grip chemically."
+
+- question: "Histone acetylation increases chromatin accessibility primarily by neutralizing the positive charge on lysine residues in histone tails, weakening their electrostatic attraction to the negatively charged DNA backbone."
+  type: true-false
+  answer: true
+  explanation: "Histone tails are rich in lysine residues, which carry a positive charge at physiological pH. This positive charge is attracted to the negatively charged phosphate backbone of DNA, holding the nucleosome tightly together. Acetylation adds a bulky, uncharged acetyl group to lysine, eliminating the positive charge and weakening the electrostatic interaction. With multiple acetylations across multiple histones, the cumulative effect loosens the nucleosome substantially, exposing DNA to transcription factors and RNA polymerase."
+
+- question: "Chromatin-remodeling complexes such as SWI/SNF act globally across the entire genome, opening all nucleosomes to ensure transcription factors can always find their binding sites."
+  type: true-false
+  answer: false
+  explanation: "Chromatin-remodeling complexes are recruited to specific genomic locations — they do not act randomly or globally. Transcription factors, sequence-specific DNA-binding proteins, and modified histone tails recruit these complexes to particular promoters and enhancers that need to be opened. This targeting is essential: constitutively open chromatin across the whole genome would be catastrophically disruptive to gene regulation. The cell needs to open only the right regions at the right times in the right cell types."
+
+- question: "Explain why histone acetylation is considered a mechanism of epigenetic memory, and why this property makes HDAC inhibitors relevant to cancer therapy."
+  type: short-answer
+  answer: "Epigenetic memory means that a cell's gene expression state can be inherited by daughter cells through division, even after the original activating signal is gone. Histone acetylation achieves this because acetylated histones are inherited by daughter chromatin after DNA replication, and the HAT enzymes responsible for maintaining acetylation at specific loci are also propagated, sustaining the open chromatin state through generations. In cancer, tumor-suppressor genes are often silenced by HDAC-driven deacetylation — the genes are intact but locked in a closed, inactive chromatin state. HDAC inhibitor drugs block this deacetylation, allowing acetylation to accumulate at silenced loci and reactivate tumor-suppressor gene expression. Because the silencing is epigenetic (not a genetic mutation), it is pharmacologically reversible in a way that mutated genes are not."
+  explanation: "This reversibility is the therapeutic rationale: if a cancer cell's tumor-suppressor gene was silenced epigenetically, it can potentially be reawakened by chromatin-targeting drugs, restoring the cell's own anti-cancer machinery. Several HDAC inhibitors are FDA-approved for hematologic cancers precisely for this reason."
+```
+
 ## Explainer
 
 From your study of chromatin accessibility and histone modifications, you know that DNA in eukaryotic cells is not naked — it is wrapped around histone octamers to form nucleosomes, and the tightness of this packaging determines whether genes can be read. The problem is straightforward: a transcription factor cannot bind a promoter if a nucleosome is sitting on top of it. The cell solves this problem through two complementary mechanisms — **chromatin-remodeling complexes** that physically move nucleosomes, and **histone acetylation** that chemically loosens them.

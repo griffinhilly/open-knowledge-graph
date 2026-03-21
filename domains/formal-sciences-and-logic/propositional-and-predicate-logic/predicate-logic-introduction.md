@@ -35,6 +35,45 @@ Compare propositional and predicate formulations of the same statements. Practic
 ## Common Misconceptions
 Thinking predicate logic is just different notation. Confusing when to use universal vs. existential quantifiers. Assuming quantifiers don't change fundamental decidability properties.
 
+## Questions
+
+```yaml
+- question: "In propositional logic, you represent 'Socrates is mortal' as atom P and 'Plato is mortal' as atom Q. Why can you NOT use propositional logic to prove 'Socrates is mortal' from 'All humans are mortal' and 'Socrates is human'?"
+  type: multiple-choice
+  options:
+    - "You can — just define P = 'Socrates is mortal' and derive it from other atoms using modus ponens"
+    - "Propositional logic can't represent the universal claim 'All humans are mortal' — it would need a separate atom for every individual human, with no formal connection between them"
+    - "Propositional logic is too slow to evaluate syllogisms with more than two premises"
+    - "The argument is invalid, so neither logic system can prove it"
+  answer: 1
+  explanation: "This is the core limitation predicate logic was designed to fix. In propositional logic, 'All humans are mortal' would require an infinite set of independent atoms (P₁ = 'Alice is mortal', P₂ = 'Bob is mortal', ...) with no formal link between them and 'x is human'. There is no way to express quantification over a domain. Predicate logic introduces ∀x Human(x) → Mortal(x), which formally connects the universal claim to any specific individual via instantiation."
+
+- question: "A student argues: 'Predicate logic is just propositional logic with better notation — they're equally powerful, predicate logic is just more convenient.' What is the strongest objection to this claim?"
+  type: multiple-choice
+  options:
+    - "Predicate logic uses more symbols, which makes it harder to read"
+    - "Predicate logic is fundamentally more expressive: it can quantify over infinite domains and express relations, neither of which propositional logic can do"
+    - "Predicate logic can only be used in mathematics, while propositional logic is general-purpose"
+    - "Propositional logic handles temporal reasoning better than predicate logic does"
+  answer: 1
+  explanation: "The difference is not aesthetic — it's a difference in expressive power that has concrete computational consequences. Propositional logic is decidable (truth tables determine validity for any formula). Predicate logic is undecidable: Church and Turing proved in 1936 that no algorithm can determine whether an arbitrary first-order formula is valid. This is not a limitation of current technology; it's a fundamental theorem. The extra expressiveness (universal and existential quantification over infinite domains) comes with this unavoidable computational cost."
+
+- question: "The statement ∀x Human(x) → Mortal(x) is a valid formula in predicate logic that could not be expressed as a single formula in propositional logic."
+  type: true-false
+  answer: true
+  explanation: "This formula uses a universal quantifier ranging over a domain of objects — a feature predicate logic adds that propositional logic lacks entirely. In propositional logic, you can only have atomic propositions and truth-functional connectives. There is no mechanism to say 'for all objects x in the domain.' Predicate logic's ability to express universal and existential claims about entire domains is precisely what makes it strictly more expressive."
+
+- question: "Because predicate logic is undecidable, it is impossible to prove any theorem in first-order logic — all proofs must be carried out informally."
+  type: true-false
+  answer: false
+  explanation: "Undecidability means there is no algorithm that correctly decides validity for *all* first-order formulas. It does not mean proofs are impossible. For specific formulas, proofs can often be constructed (and verified mechanically). Proof assistants like Coq and Lean verify first-order proofs formally. Undecidability only means you can't write a program that halts on all inputs with a correct yes/no answer — you can still enumerate and check valid proofs, you just can't guarantee finding them for every formula."
+
+- question: "What is the key structural difference between propositional and predicate logic, and why does that difference make predicate logic undecidable when propositional logic is decidable?"
+  type: short-answer
+  answer: "Propositional logic has finitely many atomic propositions, so a formula with n distinct atoms has exactly 2^n truth assignments to check — truth tables always terminate. Predicate logic introduces quantifiers over potentially infinite domains, meaning there is no finite procedure to check all possible interpretations. A formula like ∃x P(x) could be true in one domain and false in another, and verifying it requires reasoning about all possible domain structures."
+  explanation: "The undecidability of predicate logic (the Entscheidungsproblem) is one of the foundational results in mathematical logic and theoretical computer science. Church proved it using lambda calculus; Turing proved it using Turing machines — and these proofs were among the first results that defined the limits of what algorithms can compute. Propositional logic avoids this because the domain of truth values is just {T, F} — finite and fixed."
+```
+
 ## Explainer
 
 Propositional logic treats statements like "Socrates is mortal" as indivisible atoms — the letter P either stands for the whole claim or it doesn't. This works for reasoning about fixed named facts, but breaks down the moment you want to say something about *all* members of a class or about the *existence* of something. "All humans are mortal" and "There exists a prime number greater than 1000" cannot be expressed in propositional logic, because they involve quantification over a domain of objects. **Predicate logic** — also called first-order logic — extends propositional logic by introducing exactly the machinery needed to express these patterns.

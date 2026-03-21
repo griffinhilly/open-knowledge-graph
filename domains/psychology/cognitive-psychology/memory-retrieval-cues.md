@@ -31,6 +31,45 @@ Compare free recall, cued recall, and recognition paradigms on the same material
 - Forgetting is usually not storage loss but retrieval failure — the memory may still exist but be inaccessible without the right cue.
 - Confidence during recall does not predict accuracy — high-confidence errors are common, as demonstrated extensively in eyewitness testimony research.
 
+## Questions
+
+```yaml
+- question: "A student studies for an exam in a quiet library but sits the exam in a noisy lecture hall. She performs noticeably worse than when she retook a similar test back in the library. Which concept best explains this difference?"
+  type: multiple-choice
+  options:
+    - "The noise in the lecture hall damaged her long-term memory storage for the studied material"
+    - "Context-dependent memory: the quiet library context was encoded with the material, and failing to reinstate it at retrieval reduces access"
+    - "Retroactive interference: the lecture hall sounds overwrote the memories formed in the library"
+    - "Recognition tasks are harder than recall tasks, so the formal exam format disadvantaged her"
+  answer: 1
+  explanation: "This is a textbook context-dependent memory effect, predicted by Tulving's encoding specificity principle. The library environment — its sounds, smells, spatial layout — was encoded as part of the memory trace. Reinstating that context at retrieval provides matching cues that improve access. The memories are almost certainly stored; the issue is retrieval. This effect has been demonstrated with physical environments, moods, and even pharmacological states."
+
+- question: "An eyewitness correctly recalls many vivid details immediately after a crime. Two weeks later, she confidently identifies the wrong person in a lineup. What does this illustrate?"
+  type: multiple-choice
+  options:
+    - "High retrieval confidence is a reliable indicator of memory accuracy for traumatic events"
+    - "Recall confidence and accuracy are poorly correlated — high-confidence errors are common, as demonstrated extensively in eyewitness memory research"
+    - "The initial free-recall memories were accurate; the recognition test introduced false memories through the lineup procedure"
+    - "Long-term memory storage degrades over two weeks, replacing accurate traces with inaccurate ones"
+  answer: 1
+  explanation: "One of the most robust and practically important findings in cognitive psychology is that confidence during recall does not predict accuracy. Witnesses can be completely certain while completely wrong. Lineups introduce factors — familiarity-based responding, social pressure, misinformation effects — that can generate highly confident errors. The early vivid recall and the confident false identification are both genuine memory phenomena, but they demonstrate different processes operating at retrieval."
+
+- question: "When you experience a tip-of-the-tongue state — knowing you know a word but being unable to retrieve it — the word has typically been lost from long-term storage."
+  type: true-false
+  answer: false
+  explanation: "Tip-of-the-tongue states are strong evidence that the memory is STORED but inaccessible. People in TOT states can usually report partial information — approximate length, the first letter, rhyming words, syllable count — demonstrating the trace clearly exists in storage. The problem is retrieval failure, not storage loss. A well-matched cue (a related word, the first letter, a category) often immediately resolves the TOT state. This is one of the clearest illustrations of the storage/retrieval distinction."
+
+- question: "A recognition test is generally easier than a free recall test of the same material because the test stimulus itself functions as a powerful retrieval cue."
+  type: true-false
+  answer: true
+  explanation: "The cue-availability gradient — recognition > cued recall > free recall — reflects how many external retrieval cues are available at test. In recognition, the target item is literally presented, making it the strongest possible cue for its own memory trace. In free recall, you must navigate to the memory using only internal associative cues. The same memory that fails in free recall may be instantly accessible given the stimulus itself. This hierarchy describes cue availability, not how strongly the memory was stored."
+
+- question: "According to the encoding specificity principle, why does studying in varied contexts and self-testing across different settings produce more durable retention than studying repeatedly in one location?"
+  type: short-answer
+  answer: "Encoding specificity predicts that retrieval succeeds when cues at recall match cues present at encoding. If you always study in one context using one method, you encode the material with a narrow, specific set of contextual cues — the memory is highly accessible in that one context but fragile in others. Studying in varied contexts encodes the material alongside many different contextual cues; self-testing under varied conditions forces retrieval practice, strengthening retrieval pathways themselves. Any of the diverse encoded cues can then serve as a retrieval route in the actual exam setting."
+  explanation: "This principle directly explains why interleaved practice and spaced retrieval outperform massed, single-context studying. It also reframes what 'learning' means: not just depositing information in storage, but building a rich, varied network of retrieval pathways that make the memory accessible across many different future contexts."
+```
+
 ## Explainer
 
 From your study of long-term memory types, you know that declarative memories (episodic and semantic) are stored in a distributed fashion across cortical networks, with the hippocampus playing a central role in consolidation. From memory encoding strategies, you know that deeper processing at encoding — elaboration, organization, self-referencing — produces more durable traces. Retrieval is the third and often underappreciated stage of memory: the process by which stored traces are accessed, reactivated, and brought into conscious awareness. The key insight here is that retrieval is not passive readout — it is an active, cue-driven reconstruction.

@@ -37,6 +37,45 @@ Follow the diagonalization argument carefully, constructing the contradiction st
 - Confusing undecidability with unrecognizability — HALT_TM is recognizable (run M; if it halts, accept) but not decidable.
 - Misunderstanding the diagonalization: the contradiction arises from a self-referential TM, not from a counting argument.
 
+## Questions
+
+```yaml
+- question: "A software company wants to build a static analyzer that, before deploying any program, checks whether the program contains an infinite loop. According to the halting problem, this tool:"
+  type: multiple-choice
+  options:
+    - "Could be built with sufficiently advanced AI, but current computers are too slow"
+    - "Can be built but will occasionally give wrong answers — no perfect tool is possible"
+    - "Cannot be built as a general solution for all programs — not because it's hard, but because it's theoretically impossible"
+    - "Can be built for most practical programs, just not for Turing-complete ones"
+  answer: 2
+  explanation: "The halting problem proves that no algorithm — not even a hypothetical one running on a perfect computer with infinite time — can decide for all programs and all inputs whether the program halts. This is not a limitation of current hardware or AI; it is a mathematical impossibility. A practical static analyzer can flag many specific cases (e.g., loops with no exit condition), but it will necessarily either fail to catch some infinite loops or produce false positives on non-looping programs. Option B comes close, but the correct framing is 'impossible in general,' not merely 'occasionally wrong.'"
+
+- question: "The proof that the halting problem is undecidable works by constructing a machine D that does the opposite of what the assumed halting decider H predicts. Why does D being given its own description as input create a contradiction?"
+  type: multiple-choice
+  options:
+    - "Because D's description is too long for any Turing machine to read"
+    - "Because D(⟨D⟩) either halts (contradicting H's prediction it loops) or loops (contradicting H's prediction it halts) — no consistent answer exists"
+    - "Because a Turing machine cannot accept its own description as input"
+    - "Because D's behavior is random, making H's prediction meaningless"
+  answer: 1
+  explanation: "The self-referential construction is the heart of the diagonalization. If H predicts D(⟨D⟩) halts, then D (by construction) loops — contradicting H. If H predicts D(⟨D⟩) loops, then D halts — again contradicting H. Every possible output of H leads to a contradiction. The contradiction is not about size or randomness; it arises from a logically airtight self-referential loop. This is directly analogous to Cantor's diagonalization, which constructed a real number differing from every number on a proposed list."
+
+- question: "The halting problem is undecidable because modern computers lack the processing power to analyze all possible programs. Future quantum computers may eventually solve it."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about undecidability. Undecidability is not a statement about computational resources — it is a statement about the logical limits of any algorithm, on any computer, with any amount of time and memory. The proof does not assume any hardware limitations; it works for any Turing machine, which is the theoretical model capturing 'everything computable.' Quantum computers cannot solve undecidable problems; they extend what is efficiently solvable, not what is algorithmically solvable in principle."
+
+- question: "The halting problem (HALT_TM) is recognizable: you can run the machine M on input w and accept if it halts. This makes HALT_TM recognizable but not decidable."
+  type: true-false
+  answer: true
+  explanation: "Recognizability only requires that you accept if the answer is 'yes' — you never need to reject or detect 'no.' Running M on w and accepting when it halts works perfectly: if M halts, you eventually accept. The problem is the 'no' case: if M loops forever, your simulation also loops forever — you cannot distinguish looping from a very long computation. Decidability requires always halting with the correct answer (accept or reject). HALT_TM is recognizable but not decidable because there is no algorithm that detects the infinite-loop case."
+
+- question: "Explain why the diagonalization argument for the halting problem leads to a contradiction. What is the role of the self-referential machine D?"
+  type: short-answer
+  answer: "Assume a decider H exists for the halting problem. Construct D: on input ⟨M⟩, D runs H(⟨M, ⟨M⟩⟩) and does the opposite — halts if H says M loops, loops if H says M halts. Now feed D its own description: D(⟨D⟩). If H correctly predicts D halts, then D loops (contradiction). If H correctly predicts D loops, then D halts (contradiction). H cannot give a correct answer, so no such H can exist."
+  explanation: "The power of D is that it weaponizes H's correctness against itself. Any answer H gives for the pair (D, ⟨D⟩) is immediately falsified by D's behavior. The construction is deterministic — D's behavior is fully defined relative to H's output — so this isn't a paradox of self-reference but a rigorous proof by contradiction. The analogy to Cantor's diagonalization is precise: just as Cantor constructed a real number differing from every row of a proposed list, Turing constructed a computation differing from every row of H's output table."
+```
+
 ## Explainer
 
 You've established that decidable languages are those with Turing machines that always halt with a correct answer. The natural next question is: are *all* languages decidable? The **halting problem** provides the definitive answer — no — and it does so through one of the most elegant arguments in all of mathematics. The question is deceptively simple: given a description of a Turing machine M and an input w, does M eventually halt when run on w, or does it loop forever?

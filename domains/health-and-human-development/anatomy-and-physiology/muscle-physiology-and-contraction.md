@@ -42,6 +42,45 @@ Visualize the mechanism with animations while reading primary literature descrip
 - Assuming muscles lengthen during relaxation; gravity and antagonist muscles cause lengthening, not active relaxation.
 - Thinking maximum force occurs at maximum muscle length; force is optimal at resting length due to optimal overlap.
 
+## Questions
+
+```yaml
+- question: "After death, muscles enter rigor mortis — a state of stiff, locked contraction. What does this reveal about ATP's role in the cross-bridge cycle?"
+  type: multiple-choice
+  options:
+    - "ATP is required for myosin to bind to actin, so without ATP no cross-bridges form and muscles lock in a stretched, relaxed state"
+    - "ATP depletion prevents calcium from re-entering the sarcoplasmic reticulum, locking tropomyosin in the unblocked position indefinitely"
+    - "ATP is required for myosin heads to detach from actin after the power stroke, so without ATP cross-bridges remain permanently attached"
+    - "Without ATP, myosin undergoes a conformational change that forces it to bind irreversibly to the Z-discs"
+  answer: 2
+  explanation: "In the cross-bridge cycle, ATP is required for the detachment step: after the power stroke, a new ATP molecule binds to myosin, causing it to release actin. Without ATP, myosin heads remain locked to actin after completing their power stroke — the muscle is stuck in a contracted state. This is rigor mortis. The counterintuitive insight is that ATP keeps muscles relaxed between contractions (by enabling detachment), not that it solely powers the initial contraction. Most people expect muscles to go limp without ATP; the reality is they lock rigid."
+
+- question: "At which muscle length does the sliding filament model predict the greatest force production, and why?"
+  type: multiple-choice
+  options:
+    - "At maximum stretch, because elastic energy stored in stretched filaments contributes to force production"
+    - "At resting length, because thick and thin filaments overlap optimally, maximizing the number of simultaneous cross-bridge attachments"
+    - "At maximum shortening, because the filaments are most compressed and mechanical resistance is greatest"
+    - "Force is constant across all lengths because each myosin head generates the same power stroke regardless of filament overlap"
+  answer: 1
+  explanation: "Force depends on the number of cross-bridges that can simultaneously attach and pull. At resting length, myosin heads are optimally positioned opposite actin binding sites — overlap is maximal and the most cross-bridges can form at once. Stretch the muscle too far and the filaments pull apart; fewer myosin heads can reach actin, reducing force. Shorten it too far and thin filaments from both ends of the sarcomere collide in the center, physically blocking further cross-bridge formation and again reducing force. This force-length relationship explains why joint position affects strength and why muscles are anatomically positioned to operate near resting length."
+
+- question: "During muscle contraction, the thick (myosin) and thin (actin) filaments physically shorten and coil, which reduces the sarcomere length and generates pulling force."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception about the sliding filament theory. The filaments themselves do not change length during contraction. Instead, thin filaments slide over thick filaments toward the center of the sarcomere, pulling the Z-discs closer together — shortening the sarcomere without any change in filament length. This was the key insight of Huxley and Hanson (1954): X-ray diffraction and electron microscopy showed that filament lengths remained constant while band patterns changed, exactly as predicted if filaments slide rather than shorten."
+
+- question: "ATP is required for the myosin power stroke — that is, ATP hydrolysis directly drives the conformational change that pulls the thin filament during each cross-bridge cycle."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about the cross-bridge cycle. ATP hydrolysis actually cocks the myosin head into its high-energy conformation before it binds actin — it is energy storage, not the power stroke itself. The power stroke (the pivoting that pulls the thin filament) occurs when ADP and phosphate are released from the already-bound myosin head. A separate ATP molecule is then required for detachment — when ATP binds the myosin head after the power stroke, myosin releases actin and can be re-cocked for the next cycle. Without this detachment ATP, the cross-bridge remains attached permanently (rigor)."
+
+- question: "What does rigor mortis reveal about ATP's role in the cross-bridge cycle, and why is this the opposite of what most people assume?"
+  type: short-answer
+  answer: "Rigor mortis reveals that ATP is required for myosin to detach from actin, not for it to attach. After death, ATP production ceases. Myosin heads that completed their power stroke cannot detach because detachment requires ATP binding to the myosin head. The cross-bridges lock permanently in place, and muscles become rigid. Most people assume ATP powers contraction (attachment and pulling), so they expect muscles to go limp without ATP — no energy, no contraction. The reality is the opposite: without ATP, muscles lock rigid because the release step fails. A living, relaxed muscle continuously uses ATP to cycle cross-bridges through attachment, power stroke, and detachment; without ATP, the cycle stalls at the attached state."
+  explanation: "The same principle explains why muscle relaxation is an active, ATP-requiring process: calcium must be pumped back into the sarcoplasmic reticulum (ATP-dependent), tropomyosin re-blocks actin binding sites, and cross-bridge cycling ceases. A common parallel: rigor mortis in cold temperatures takes longer to develop because decreased metabolic rate slows ATP depletion, and it resolves after roughly 48-72 hours as muscle proteins begin to degrade."
+```
+
 ## Explainer
 
 You already understand that skeletal muscle is organized into sarcomeres — repeating units of thick myosin filaments and thin actin filaments. The core claim of the **sliding filament theory** is deceptively simple: the filaments themselves do not shorten; instead, the thin filaments slide over the thick filaments, pulling the Z-discs at each end of the sarcomere closer together. The sarcomere shortens, the muscle shortens, and force is transmitted to bone through tendons.

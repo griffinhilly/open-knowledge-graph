@@ -33,6 +33,45 @@ Read Aquinas's Summa Theologica II-II, Q. 64, Art. 7, then Philippa Foot's "The 
 - The DDE does not permit any harm as long as it is merely foreseen; the proportionality condition requires that the good achieved be serious enough to justify the foreseen harm.
 - The DDE is not exclusively a Catholic doctrine; it is widely discussed in secular ethics and has defenders across religious and non-religious traditions.
 
+## Questions
+
+```yaml
+- question: "A military commander orders an airstrike on a weapons factory, knowing civilians in adjacent buildings will be killed. He claims this is permitted by the Doctrine of Double Effect. Which condition, if violated, would most directly invalidate the DDE's application here?"
+  type: multiple-choice
+  options:
+    - "The commander cannot intend a good effect (destroying weapons) while also causing harm"
+    - "The civilian deaths are the means by which the weapons are destroyed — their presence is being exploited to enable the strike"
+    - "Any action that foreseeably causes civilian deaths is intrinsically wrong, so the first condition fails"
+    - "The proportionality condition is automatically violated whenever civilians are killed"
+  answer: 1
+  explanation: "Condition 3 is the most critical: the harmful effect must not be the means to the good effect. If the civilians are instrumentally necessary for achieving the military goal — their deaths are the mechanism — the DDE does not apply. In the standard collateral-damage case, the civilian deaths are a foreseen side effect of a strike directed at the factory, not the means. The DDE can then proceed to the proportionality weighing. Option C is false: bombing a military target is not intrinsically wrong, so condition 1 holds. Option D is false: proportionality is a weighing judgment, not an automatic disqualifier."
+
+- question: "Which of the following cases most clearly violates the Doctrine of Double Effect's third condition (the bad effect must not be the means to the good effect)?"
+  type: multiple-choice
+  options:
+    - "A surgeon administers morphine knowing it may hasten death, intending to relieve pain"
+    - "A soldier diverts an artillery shell toward one enemy combatant to prevent it from hitting a group of five"
+    - "A doctor performs surgery knowing there is a 10% chance the patient will not survive the procedure"
+    - "A general orders execution of civilian hostages to compel the enemy to surrender"
+  answer: 3
+  explanation: "Option D is the clear violation: the civilian deaths are the intended means — the mechanism of coercion — so the general needs the hostages to die in order to produce the surrender. This is categorically different from a side effect. Options A, B, and C all involve harmful outcomes that are foreseen side effects of actions directed at other goals (pain relief, redirecting a shell, necessary surgical risk). The test: 'Would the good outcome still occur if the bad effect somehow did not happen?' If yes, the bad effect is a side effect; if no, it is the means."
+
+- question: "According to the Doctrine of Double Effect, an action is permissible whenever the agent intends the good effect and merely foresees (but does not intend) the harmful effect."
+  type: true-false
+  answer: false
+  explanation: "Intending the good and merely foreseeing the bad is necessary but not sufficient for DDE permissibility. There are four conditions, all of which must be met: (1) the act must not be intrinsically wrong; (2) the agent must intend the good and not the bad; (3) the bad effect must not be the means to the good effect; (4) there must be proportionate reason. An agent could sincerely intend only the good while the bad effect is the very mechanism of the good (violating condition 3), or while the harm is wildly disproportionate to the good achieved (violating condition 4)."
+
+- question: "The Doctrine of Double Effect applies differently to diverting a trolley versus pushing a bystander onto the tracks, even though both actions result in one person dying to save five."
+  type: true-false
+  answer: true
+  explanation: "This asymmetry is exactly what the DDE is designed to explain. When you divert the trolley, the one person's death is a foreseen side effect of redirecting the trolley — the death is not the means by which the five are saved. When you push the bystander, his body is the means: you need his mass to stop the trolley, so his death (or at least his body's position) is the mechanism of rescue. Condition 3 of the DDE prohibits using someone's death as the means, which is why pushing is DDE-impermissible while diverting can be DDE-permissible."
+
+- question: "What is the third condition of the Doctrine of Double Effect, and why do philosophers consider it the most contested? Illustrate with an example."
+  type: short-answer
+  answer: "The third condition states that the harmful effect must not be the means to the good effect — the harm may be a foreseen side effect, but it cannot be the instrument by which the good is achieved. It is the most contested because drawing this line in practice is difficult and potentially manipulable: an agent can re-describe their action to make a harm that is functionally instrumental appear to be 'merely foreseen.' For example, one might argue that in the trolley footbridge case, the bystander's death is a side effect of 'placing weight on the tracks' rather than the means — showing how the intended/means distinction can blur under redescription."
+  explanation: "Critics argue that agents who knowingly use harm as a tool can simply reframe their intentions to satisfy condition 3 verbally. DDE proponents respond that the structure of the action itself — not the agent's verbal description — determines whether harm is means or side effect. The counter-factual test: if removing the harmful consequence would defeat the good effect, it was a means; if not, it was a side effect. This test is the most commonly used criterion for applying condition 3 in applied ethics contexts."
+```
+
 ## Explainer
 
 From your study of deontological ethics, you know that deontology holds that certain acts are intrinsically right or wrong regardless of consequences, and that **agent-relative constraints** — duties not to kill, lie, or violate rights — cannot be overridden simply by producing better outcomes. This creates a practical problem: what do you do when pursuing a genuinely good end unavoidably causes harm? A surgeon administering high-dose painkillers to a terminally ill patient knows the drugs may hasten death. A military commander targeting a weapons depot knows civilians nearby may be killed. A person using lethal force in self-defense knows they may kill the attacker. Deontology says some acts are impermissible, but these cases seem like they might be permissible — and the Doctrine of Double Effect is the framework developed to explain why.

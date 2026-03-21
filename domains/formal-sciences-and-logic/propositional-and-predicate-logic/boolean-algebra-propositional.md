@@ -33,6 +33,45 @@ Prove standard propositional equivalences (distribution, absorption, De Morgan) 
 - De Morgan's laws are not ad hoc rules but consequences of the complementation and distributivity axioms.
 - Duality is a metatheorem (about theorems), not an object-level equivalence between formulas.
 
+## Questions
+
+```yaml
+- question: "Consider the Boolean theorem: a ∧ (b ∨ c) = (a ∧ b) ∨ (a ∧ c). What does the duality principle tell us about this theorem?"
+  type: multiple-choice
+  options:
+    - "The formula a ∧ (b ∨ c) is logically equivalent to its dual, a ∨ (b ∧ c)"
+    - "The theorem's dual — a ∨ (b ∧ c) = (a ∨ b) ∧ (a ∨ c) — is also a theorem of Boolean algebra"
+    - "The two sides of the equation have the same truth table in every Boolean algebra"
+    - "The theorem proves that ∧ and ∨ are interchangeable operations"
+  answer: 1
+  explanation: "The duality principle is a metatheorem: if you can prove a theorem from the Boolean algebra axioms, then swapping ∧ with ∨ and 0 with 1 throughout gives another theorem. So the distributivity of ∧ over ∨ (the original) and the distributivity of ∨ over ∧ (the dual) are both theorems — you get two for the price of one. Option A is the critical misconception: duality says the *dual theorem is provable*, not that a formula and its dual are logically equivalent. The formula a ∧ (b ∨ c) is generally NOT equivalent to a ∨ (b ∧ c)."
+
+- question: "A student proves De Morgan's law ¬(a ∧ b) = ¬a ∨ ¬b from the Boolean algebra axioms alone, without a truth table. Why is this significant?"
+  type: multiple-choice
+  options:
+    - "It shows De Morgan's law only holds in the two-element Boolean algebra {0, 1}, not in larger models"
+    - "It proves the law holds in every Boolean algebra — power-set algebras, interval algebras, and all other models — because the proof used only axioms that all Boolean algebras share"
+    - "It demonstrates that De Morgan's law is itself one of the axioms of Boolean algebra"
+    - "It shows De Morgan's law is unique to propositional logic and does not extend to algebraic structures"
+  answer: 1
+  explanation: "A proof from axioms is universal: it holds in every structure satisfying those axioms. De Morgan's law, proved from Boolean algebra axioms, is therefore true in all Boolean algebras — not just {0, 1}, but also the power-set algebra of any set, interval algebras, and others. A truth-table proof, by contrast, only verifies the law for the two-element case. Option C is wrong — De Morgan's laws are theorems, not axioms; they are derived from the complementation and distributivity axioms."
+
+- question: "The two-element Boolean algebra {0, 1} is just one model of Boolean algebra; the same equational laws proved from the axioms hold in power-set algebras and other Boolean algebra models as well."
+  type: true-false
+  answer: true
+  explanation: "Boolean algebra is an equational theory with many models. Any structure satisfying the axioms — commutativity, associativity, distributivity, identity, and complementation — is a Boolean algebra, and every theorem proved from those axioms holds in all such models. The power-set of any set S, with ∩ for ∧, ∪ for ∨, and complement for ¬, is a classic example. Stone's representation theorem shows that every Boolean algebra is isomorphic to a field of sets, making the power-set case canonical."
+
+- question: "The duality principle states that every propositional formula is logically equivalent to its dual — the formula obtained by swapping ∧ with ∨ and 0 with 1."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception about duality. Duality is a metatheorem about theorems (provable equations), not a claim about individual formulas. It says: if an equation is a theorem of Boolean algebra, then its dual equation is also a theorem. It does NOT say a formula equals its dual. For example, a ∧ b and its dual a ∨ b have completely different truth tables — they are equivalent only in degenerate cases. Confusing the metatheorem with object-level equivalence is a common and consequential error."
+
+- question: "Explain the difference between duality as a metatheorem and logical equivalence between a formula and its dual. Give an example showing they are not the same."
+  type: short-answer
+  answer: "Duality is a fact about the *theory*: if an equation E is provable from the Boolean algebra axioms, then swapping ∧↔∨ and 0↔1 throughout E gives another provable equation. It says nothing about whether a formula equals its dual. Logical equivalence is a claim about specific formulas: P ≡ Q means they have the same truth value under every assignment. These are different levels. Example: distributivity a ∧ (b ∨ c) = (a ∧ b) ∨ (a ∧ c) is a theorem; by duality, so is a ∨ (b ∧ c) = (a ∨ b) ∧ (a ∨ c). But the formula a ∧ (b ∨ c) is NOT logically equivalent to its dual a ∨ (b ∧ c) — set a = 1, b = 0, c = 0: the first gives 0, the second gives 1."
+  explanation: "The distinction matters because students often try to use duality to swap connectives inside a formula and claim equivalence, which is invalid. Duality lets you generate new *theorems* from old ones; it does not let you replace a formula with its dual inside a proof. Keeping the levels separate — theorems of the theory vs. equivalences between formulas — is essential for correct algebraic reasoning."
+```
+
 ## Explainer
 
 You already know from propositional semantics that propositional logic assigns truth values — true or false — to formulas built from connectives. Boolean algebra takes the same idea and lifts it to an algebraic setting: instead of truth tables, you work with **equational laws** that hold in any Boolean algebra, not just the two-element one. A **Boolean algebra** is a set B with two binary operations (∧ and ∨), a unary operation (¬), and two constants (0 and 1) satisfying a specific list of axioms: commutativity and associativity of both operations, two distributivity laws (each operation distributes over the other), identity laws (a ∧ 1 = a and a ∨ 0 = a), and complementation laws (a ∧ ¬a = 0 and a ∨ ¬a = 1). The two-element set {0, 1} with the usual AND, OR, and NOT is a Boolean algebra — the one propositional logic lives in — but it is not the only one.

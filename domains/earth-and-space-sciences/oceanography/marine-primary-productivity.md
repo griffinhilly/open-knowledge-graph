@@ -36,6 +36,45 @@ Map global ocean productivity using satellite-derived chlorophyll data and expla
 - Most marine photosynthesis is done by microscopic phytoplankton, not seaweeds or corals.
 - Tropical clear blue water is an ocean desert — the lack of nutrients keeps productivity very low despite abundant sunlight.
 
+## Questions
+
+```yaml
+- question: "An oceanographer surveys an area of crystal-clear, intensely blue water in the subtropical Pacific. What level of biological productivity should they expect, and why?"
+  type: multiple-choice
+  options:
+    - "Very high productivity — clear water allows sunlight to penetrate deeply, fueling abundant phytoplankton growth"
+    - "Moderate productivity — warm temperatures accelerate phytoplankton metabolism throughout the year"
+    - "Very low productivity — strong thermal stratification prevents nutrient-rich deep water from reaching the sunlit surface"
+    - "Seasonally high productivity — the region blooms vigorously in summer when sunlight is strongest"
+  answer: 2
+  explanation: "Clear blue water in subtropical gyres is the 'ocean desert' paradox. Despite abundant sunlight, strong stratification creates a permanent thermocline barrier that prevents nutrient-rich deep water from mixing into the euphotic zone. Phytoplankton deplete the surface nutrients quickly and have no mechanism to replenish them. The clarity itself is a symptom of low productivity — few phytoplankton means less chlorophyll and less light-scattering particles, making the water appear brilliantly blue but biologically impoverished."
+
+- question: "Upwelling zones along western continental margins (such as off Peru and West Africa) are among Earth's most productive marine regions. The primary mechanism is:"
+  type: multiple-choice
+  options:
+    - "Cold temperatures in these zones directly stimulate faster phytoplankton metabolism"
+    - "These regions receive more intense sunlight because they lie near the equator"
+    - "Prevailing winds drive surface water away from shore, pulling cold, nutrient-rich deep water up into the sunlit zone"
+    - "River runoff from adjacent continents delivers dissolved organic matter that phytoplankton consume directly"
+  answer: 2
+  explanation: "Coastal upwelling is driven by Ekman transport: winds blowing parallel to the coast (combined with the Coriolis effect) push surface water offshore, and cold, nutrient-laden deep water rises to replace it. This physically breaks the stratification barrier that starves most surface waters of nutrients. The upwelled water is cold (lowering sea surface temperatures), nutrient-rich (with nitrate, phosphate, iron), and quickly colonized by phytoplankton that have both light and nutrients available — producing the dense chlorophyll blooms that feed enormous fish populations."
+
+- question: "The biological pump reduces atmospheric CO₂ by transferring photosynthetically fixed carbon from surface waters to the deep ocean, where it can remain sequestered for centuries to millennia."
+  type: true-false
+  answer: true
+  explanation: "When phytoplankton die or are consumed by zooplankton, organic carbon sinks as particles — fecal pellets, dead cells, and aggregates called 'marine snow.' This removes carbon from the surface mixed layer, where it could exchange with the atmosphere, and transports it to the deep ocean on timescales of centuries to millennia. High-productivity zones are therefore significant far beyond local food webs — they are active carbon export engines that directly influence the global carbon budget and Earth's long-term climate."
+
+- question: "Tropical ocean regions produce the highest marine primary productivity because they receive the most intense sunlight year-round."
+  type: true-false
+  answer: false
+  explanation: "This is the paradox of the tropical ocean. Despite year-round intense sunlight, subtropical gyres are biological deserts because strong thermal stratification prevents nutrients from reaching the sunlit surface. Productivity is highest in upwelling zones (off Peru, West Africa, California) and in polar regions during spring blooms, where winter mixing replenishes surface nutrients. Sunlight alone is insufficient — nutrients are the limiting factor in most of the open tropical and subtropical ocean. The clearest, bluest tropical water is often the least productive."
+
+- question: "Why does the combination of high sunlight and strong thermal stratification produce an 'ocean desert' in subtropical regions rather than a highly productive ecosystem?"
+  type: short-answer
+  answer: "Photosynthesis requires both light and nutrients (nitrogen, phosphorus, iron). In subtropical gyres, sunlight is abundant in the surface waters, but the warm, less-dense upper layer is separated from the cold, nutrient-rich deep water by a strong thermocline. This density barrier prevents vertical mixing that would replenish surface nutrients. Phytoplankton rapidly deplete the sparse nutrients in the euphotic zone with no mechanism to replace them. The two essential inputs for primary production are vertically separated — light near the surface, nutrients in the dark depths — and productivity collapses."
+  explanation: "This is why upwelling is so ecologically powerful: it physically breaks the stratification barrier, delivering deep nutrients to the sunlit zone where both requirements are met simultaneously. Regions where light and nutrients co-occur — upwelling zones, polar spring blooms — host the ocean's most productive ecosystems, not the sun-drenched tropical zones."
+```
+
 ## Explainer
 
 You already know that upwelling brings cold, nutrient-rich water from the deep ocean to the surface, and that ocean chemistry determines which nutrients — nitrate, phosphate, silicate, iron — are available for biological use. Marine primary productivity is what happens when those nutrients reach sunlight. **Phytoplankton**, microscopic photosynthetic organisms drifting in the upper ocean, use sunlight to fix dissolved CO₂ into organic carbon, just as land plants do. But unlike a forest, where trees are obvious, the ocean's photosynthetic engine is invisible to the naked eye — individual phytoplankton are typically 1–100 micrometers across. Despite their tiny size, they collectively produce roughly half of all oxygen generated on Earth each year.

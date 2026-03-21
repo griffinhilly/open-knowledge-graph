@@ -34,6 +34,45 @@ Take an IAT (available online) to experience implicit bias measurement, then rea
 - Having implicit biases does not make someone a 'bad person'; the critical variable is whether those biases are acted upon or controlled.
 - IAT scores do not directly predict discriminatory behavior; the predictive validity of the IAT for individual behavior is debated.
 
+## Questions
+
+```yaml
+- question: "An egalitarian hiring manager with no consciously held biases must make rapid candidate evaluations under significant time pressure. According to Devine's model, what is most likely to happen?"
+  type: multiple-choice
+  options:
+    - "Because they hold no explicit bias, their implicit associations will not influence their evaluations"
+    - "Time pressure increases stereotype suppression because people become more deliberate when stakes are high"
+    - "Time pressure depletes the cognitive resources needed for controlled inhibition, making implicit associations more likely to shape their evaluations"
+    - "Implicit biases only affect people who are unaware of the issue; awareness fully prevents influence"
+  answer: 2
+  explanation: "Devine's model distinguishes automatic stereotype activation (universal, fast, culturally conditioned) from controlled inhibition (effortful, requiring motivation and cognitive resources). Time pressure is one of the key conditions that depletes controlled inhibition — the fast, associative System 1 responds before the deliberate System 2 can override it. This explains why implicit bias effects are stronger under cognitive load, time pressure, or divided attention, even in people who sincerely endorse egalitarian values."
+
+- question: "A person takes the Race IAT and discovers strong automatic associations between Black names and negative evaluations. What does this finding most likely indicate?"
+  type: multiple-choice
+  options:
+    - "The person holds explicit racial prejudice that they have been concealing from themselves"
+    - "Cultural exposure to racial stereotypes has shaped automatic associations that may or may not align with the person's explicit values"
+    - "The IAT score directly predicts that this person will act in discriminatory ways in hiring and housing decisions"
+    - "The person is definitively prejudiced and their behavior in intergroup contexts will reflect this"
+  answer: 1
+  explanation: "The IAT measures the strength of automatic associations, not explicit attitudes. Because stereotypes are culturally pervasive, Devine's model holds that exposure to the culture produces these associations in virtually everyone — regardless of their explicit values. The IAT score tells you something about automatic processing, not about character or behavioral predictions. The predictive validity of the IAT for individual discriminatory behavior is actively debated and generally modest — high IAT scores do not reliably predict discriminatory actions in specific situations."
+
+- question: "According to Devine's model, the automatic activation of cultural stereotypes upon encountering a group member is essentially universal among people raised in a culture where those stereotypes exist."
+  type: true-false
+  answer: true
+  explanation: "This is the core empirical claim of Devine's (1989) model. She argued that stereotype knowledge is acquired through extensive cultural exposure — pervasive media, language, and social patterns — and that this knowledge becomes automatically activated below the threshold of intention. The activation occurs regardless of the person's explicit prejudice level. What varies across individuals is not whether the stereotype activates, but whether they have the motivation and cognitive resources to catch and override the automatic response in their subsequent behavior."
+
+- question: "People who score high on the IAT for racial bias will reliably act in more discriminatory ways than those who score low in real-world hiring, lending, and policing contexts."
+  type: true-false
+  answer: false
+  explanation: "The predictive validity of the IAT for individual behavior is a major area of debate in social psychology. Meta-analyses have found modest correlations between IAT scores and discriminatory behavior — much weaker than early proponents claimed. High IAT scores reflect automatic associations but do not determine behavior: controlled inhibition, situational structure, and explicit values all moderate whether those associations translate into action. The IAT is informative about group-level patterns and system-level effects, but it is not a reliable predictor of individual behavioral discrimination in specific contexts."
+
+- question: "According to Devine's model, what distinguishes someone with implicit biases who acts in non-discriminatory ways from someone whose implicit biases do shape their behavior? Under what conditions does controlled inhibition fail even in highly motivated people?"
+  type: short-answer
+  answer: "The critical variable is not whether someone has implicit biases — Devine's model holds that activation is universal. What differs is the controlled inhibition step: whether the person catches the automatic response and overrides it. High-prejudice individuals lack the motivation to inhibit; low-prejudice individuals are motivated but can still fail under conditions that deplete cognitive resources: time pressure, cognitive load (simultaneously doing another task), stress, emotional arousal, or fatigue. When these conditions are present, the effortful System 2 process cannot execute, and automatic associations are more likely to shape behavior even in egalitarian people."
+  explanation: "This has practical implications for bias reduction: changing explicit attitudes alone is insufficient if the goal is to change behavior. What helps are concrete implementation intentions — specific if-then plans ('If I notice I'm making a group-based assumption, I will stop and check the evidence') — which shift the intervention from deliberate override to automated interception, requiring fewer cognitive resources."
+```
+
 ## Explainer
 
 You already know from social cognition that the mind uses **schemas** — cognitive shortcuts that organize information about the world. Stereotypes are a specific kind of schema applied to social groups: mental templates that associate categories ("elderly people," "engineers," "athletes") with clusters of traits. These schemas form because the mind constantly searches for patterns, and group membership is one of the most salient features humans track. The problem is not that we have schemas — it would be cognitively impossible to function without them — but that group schemas are overgeneralized, applied to individuals where they do not fit, and often absorbed from a biased cultural environment rather than personal experience.

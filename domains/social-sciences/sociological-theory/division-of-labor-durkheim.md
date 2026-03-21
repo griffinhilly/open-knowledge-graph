@@ -29,6 +29,45 @@ Examine cases where the division of labor creates connection and cooperation ver
 ## Common Misconceptions
 - The division of labor automatically produces solidarity. - Specialization only leads to fragmentation and isolation. - Durkheim believed all division of labor is natural and efficient.
 
+## Questions
+
+```yaml
+- question: "A rapidly industrializing society develops extensive occupational specialization. Workers have no contractual protections, firms face no accountability norms, and economic exchange is purely instrumental — profit without shared rules. According to Durkheim, this situation is best described as:"
+  type: multiple-choice
+  options:
+    - "Organic solidarity functioning as intended — interdependence automatically produces cohesion"
+    - "The anomic division of labor — specialization is present but the normative regulation required to convert interdependence into solidarity is absent"
+    - "The forced division of labor — inherited inequalities are preventing workers from reaching natural occupational positions"
+    - "Mechanical solidarity — shared economic interest in production provides the basis for collective cohesion"
+  answer: 1
+  explanation: "The anomic division of labor is Durkheim's diagnosis for specialization without regulation. Functional interdependence exists — people depend on each other — but without the shared norms, contracts, and mutual obligations that make that interdependence feel legitimate and binding, society erodes into competing interests rather than solidarity. This is Durkheim's critique of raw capitalism: not that specialization is inherently bad, but that it produces solidarity only when embedded in normative frameworks. Option A reflects the key misconception: that interdependence automatically creates solidarity."
+
+- question: "Durkheim described the 'forced division of labor' as a pathological form of specialization. What specifically makes it forced, in his analysis?"
+  type: multiple-choice
+  options:
+    - "Workers are forced to perform multiple specialized tasks simultaneously, exceeding cognitive capacity"
+    - "Inherited inequalities — class, race, caste — allocate people to occupational positions that don't match their actual capacities or affinities"
+    - "Industrial discipline forces workers to follow rigid routines rather than exercising craft judgment"
+    - "Occupational specialization becomes so extreme that workers lose connection to the final product"
+  answer: 1
+  explanation: "For Durkheim, the forced division of labor is a specific pathology: when your position in the division of labor is determined by inherited privilege rather than your natural talents and affinities, the resulting interdependence is coerced rather than freely chosen. The factory worker who was destined by birth for that position — not by capacity — experiences the relationship as constraint rather than organic solidarity. This makes Durkheim more politically radical than is often recognized: a properly functioning organic society, on his account, requires genuine equality of opportunity."
+
+- question: "In Durkheim's framework, organic solidarity in modern societies works similarly to mechanical solidarity in traditional societies — both ultimately rest on a foundation of shared values and collective beliefs."
+  type: true-false
+  answer: false
+  explanation: "This reverses Durkheim's central distinction. Mechanical solidarity is based on similarity and shared beliefs — the collective conscience. Organic solidarity is based on *difference* and *functional interdependence* — people are bound together precisely because they are unlike each other and depend on each other's distinct contributions. As the division of labor deepens, the collective conscience weakens, and the basis for cohesion shifts from 'we believe the same things' to 'we need each other to function.' These are fundamentally different social glues."
+
+- question: "For Durkheim, the division of labor produces social cohesion only under specific conditions; under the wrong conditions, it can produce pathology instead."
+  type: true-false
+  answer: true
+  explanation: "This is Durkheim's core corrective to those who read him as simply endorsing specialization. The division of labor is not inherently integrative — it produces solidarity when regulated (normative framework present) and when non-forced (positions reflect capacities rather than inherited privilege). Without regulation, you get anomie. With inherited inequality, you get the forced division. Durkheim's analysis is therefore both descriptive and normative: it identifies what modern societies need to do — develop regulatory institutions and equalize opportunity — to make organic solidarity actually function."
+
+- question: "Explain why Durkheim considered genuine equality of opportunity a structural requirement for organic solidarity, not merely a moral aspiration."
+  type: short-answer
+  answer: "Organic solidarity rests on functional interdependence that is freely entered — people occupying roles that suit their capacities and affinities, producing mutual dependency that feels legitimate. When inherited privilege (class, race, gender) allocates occupational positions regardless of capacity, the interdependence is coerced: workers occupy roles assigned by birth, not by affinity. The resulting relationships generate resentment and conflict rather than solidarity because participants experience the arrangement as unjust. Equality of opportunity is therefore a functional requirement: it ensures that the division of labor reflects real complementary differences rather than arbitrary hierarchy, which is what makes the organic bond coherent."
+  explanation: "This is why Durkheim's political implications are often underestimated. He is not a conservative defender of bourgeois society — he is arguing that a properly functioning modern society logically requires removing inherited privilege, because privilege corrupts the very mechanism (free matching of persons to roles) that makes organic solidarity possible. His sociology generates a critique of class inequality from within a functionalist framework."
+```
+
 ## Explainer
 
 You already know Durkheim's key distinction: **mechanical solidarity** (the cohesion of simple, homogeneous societies based on shared beliefs and similarity) versus **organic solidarity** (the cohesion of modern, complex societies based on interdependence and complementary differences). But Durkheim's *Division of Labor in Society* is not just a description of these two types — it is a causal argument about *why* the transition occurs. The division of labor is the engine of modernity: as societies specialize, each member becomes more unlike others, traditional shared beliefs weaken, and the new basis for cohesion must be found in mutual dependency rather than collective conscience.

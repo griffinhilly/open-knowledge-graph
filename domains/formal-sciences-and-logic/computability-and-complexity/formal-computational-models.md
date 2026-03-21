@@ -37,6 +37,45 @@ Study Turing machines and lambda calculus in parallel; show explicit translation
 - Assuming Turing completeness means all Turing-complete systems solve the same problems equally fast. They compute the same functions, not with the same complexity.
 - Overlooking that Church-Turing thesis is not a theorem; it's a conjecture about what 'computable' means.
 
+## Questions
+
+```yaml
+- question: "A function f is known to be computable by a Turing machine in 100 steps. Which of the following is guaranteed about computing f using an equivalent lambda calculus term?"
+  type: multiple-choice
+  options:
+    - "It will also require exactly 100 beta-reductions, since both models are equivalent"
+    - "It will require at most 100 beta-reductions, since equivalent models are equally efficient"
+    - "It will correctly compute f, but the number of beta-reductions may be exponentially larger or smaller — equivalence is about computability, not complexity"
+    - "The lambda calculus cannot simulate this Turing machine because it lacks a tape mechanism"
+  answer: 2
+  explanation: "The Church-Turing equivalence guarantees that both models compute the same class of functions — whatever a Turing machine computes, a lambda calculus term computes. But equivalence in computational power says nothing about efficiency. A 100-step Turing machine computation might require thousands of beta-reductions to simulate, or vice versa. Complexity (how long it takes) is a separate question from computability (whether it terminates with the right answer)."
+
+- question: "Which statement correctly characterizes the relationship between Turing machines and the lambda calculus?"
+  type: multiple-choice
+  options:
+    - "They are equivalent in the functions they can compute, but this equivalence is a proven mathematical theorem with no remaining uncertainty"
+    - "The lambda calculus can compute a strict superset of Turing-computable functions, since it handles higher-order functions that Turing machines cannot"
+    - "They compute exactly the same class of functions; the Church-Turing thesis asserts this coincidence reflects the true boundary of mechanical computation, though this claim is a conjecture rather than a theorem"
+    - "Turing machines are strictly more powerful because they have an infinite tape, while lambda calculus terms are finite expressions"
+  answer: 2
+  explanation: "Every lambda calculus term can be simulated by a Turing machine (mechanically apply reduction rules), and every Turing machine can be encoded in the lambda calculus (represent tape and state as data). This proves both directions of the equivalence. However, the broader claim — that these models capture *all* mechanical computation — is the Church-Turing *thesis*, a philosophical conjecture about what 'computable' means, not a formal theorem. No one has proved it or refuted it, because 'mechanical computation' has no prior formal definition to prove it against."
+
+- question: "The Church-Turing thesis is a proven mathematical theorem establishing that Turing machines compute all and only the computable functions."
+  type: true-false
+  answer: false
+  explanation: "The Church-Turing thesis is a conjecture, not a theorem. It asserts that any function computable by a 'reasonable mechanical process' is computable by a Turing machine — but 'reasonable mechanical process' has no prior formal definition, so there is nothing to prove the thesis against in a strict logical sense. The equivalence between specific formal models (Turing machines, lambda calculus, recursive functions) is proven. The broader claim that these models capture all of computation is an empirical observation and philosophical commitment, not a mathematical derivation."
+
+- question: "If two computational models are Turing-equivalent, they will solve any given problem with the same number of computational steps."
+  type: true-false
+  answer: false
+  explanation: "Turing equivalence means the models compute the same class of functions — both halt on the same inputs and produce the same outputs. It says nothing about efficiency. A Turing machine might solve a problem in polynomial time while an equivalent lambda calculus simulation requires exponential beta-reductions, or vice versa. This is why complexity theory studies specific machine models carefully: different Turing machine variants (deterministic, nondeterministic, multi-tape) can define different complexity classes even though they all compute the same functions."
+
+- question: "What does it mean for two computational models to be 'equivalent,' and what does equivalence explicitly NOT imply?"
+  type: short-answer
+  answer: "Two models are computationally equivalent if they compute exactly the same class of functions: for every function one can compute (halting with the correct output on all valid inputs), the other can compute it too. Equivalence does NOT imply equal efficiency — the same function may require very different numbers of steps in each model. It also does not imply that programs in one model are easily translated into the other in a practical sense, only that a translation exists in principle."
+  explanation: "The distinction between 'what can be computed' and 'how efficiently it can be computed' is foundational in theoretical CS. Computability theory (can it be done at all?) and complexity theory (how much resource does it take?) are separate disciplines. The Church-Turing equivalence results belong to computability; they say nothing about polynomial vs. exponential time, which is the domain of complexity classes like P, NP, and PSPACE."
+```
+
 ## Explainer
 
 Your prerequisite on the Church-Turing thesis established the central claim: any function computable by a "reasonable mechanical process" is computable by a Turing machine. But what exactly is a Turing machine? And why should a completely different formalism — the lambda calculus — compute the same class of functions? Understanding both models concretely, and then seeing why they coincide, is the core payoff of this topic.

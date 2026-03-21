@@ -30,6 +30,45 @@ Compare entropy values for different states (gas > liquid > solid) and predict e
 ## Common Misconceptions
 Confusing entropy with enthalpy; thinking entropy always increases even in non-isolated systems.
 
+## Questions
+
+```yaml
+- question: "A chemist observes a reaction that proceeds spontaneously even though the products are more ordered than the reactants — the system's entropy decreases. Is this a violation of the second law of thermodynamics?"
+  type: multiple-choice
+  options:
+    - "Yes — the second law requires entropy to increase for all spontaneous processes"
+    - "No — the second law requires only that total entropy of the universe (system plus surroundings) increases; if the reaction releases heat, the surroundings' entropy can increase by more than the system's entropy decreases"
+    - "No — the second law applies only to isolated systems, and laboratory reactions are never truly isolated"
+    - "Yes — any decrease in system entropy prevents spontaneity regardless of what happens in the surroundings"
+  answer: 1
+  explanation: "The second law governs the entropy of the universe (ΔS_universe = ΔS_system + ΔS_surroundings ≥ 0), not the system alone. An exothermic reaction releases heat to the surroundings. That heat increases the surroundings' entropy by q/T, which can exceed the decrease in system entropy. Water freezing at −10°C is the canonical example: the liquid becomes a more ordered solid (system entropy decreases), but the heat released to the cold surroundings increases surroundings' entropy by a larger amount, so ΔS_universe > 0 and the process is spontaneous. Options A and D confuse 'the universe' with 'the system.'"
+
+- question: "Which of the following processes results in the LARGEST increase in entropy?"
+  type: multiple-choice
+  options:
+    - "Dissolving a small amount of table salt in water at room temperature"
+    - "Compressing a gas to half its volume at constant temperature"
+    - "The thermal decomposition of a solid carbonate into a metal oxide and multiple moles of CO₂ gas"
+    - "Cooling a liquid to crystallize it into a highly ordered solid"
+  answer: 2
+  explanation: "The largest entropy increase occurs when a solid decomposes into multiple gas molecules — this combines a phase change from solid to gas (enormous increase in microstates) with an increase in the number of particles. Gas molecules occupy vastly more positions and have a much wider range of velocities than solid or liquid particles; producing several moles of CO₂ from one mole of solid represents an enormous increase in W (number of microstates). Dissolving salt (option A) does increase entropy but modestly. Compressing gas (option B) decreases entropy. Crystallization (option D) decreases entropy."
+
+- question: "The second law of thermodynamics states that the entropy of any system must always increase during a spontaneous process."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misstatement of the second law. The second law states that the total entropy of the UNIVERSE (system plus surroundings) increases for spontaneous processes. A system's entropy can decrease — as when water freezes, ice forms, or proteins fold — as long as the surroundings' entropy increases by at least as much. The second law without qualification applies to isolated systems (no exchange of matter or energy), where ΔS_system = ΔS_universe. In open or closed systems that exchange heat with surroundings, only ΔS_universe is always ≥ 0."
+
+- question: "Water freezing at −10°C is consistent with the second law of thermodynamics even though the water molecules become more ordered during the process."
+  type: true-false
+  answer: true
+  explanation: "System entropy decreases when water freezes (liquid → ordered solid crystal). But freezing releases heat to the cold surroundings (at −10°C = 263 K). The surroundings' entropy change is +q/T_surroundings — positive and large, because the temperature is low (making q/T large). This increase in surroundings' entropy exceeds the decrease in system entropy, so ΔS_universe > 0 and the process is thermodynamically spontaneous. At exactly 0°C, ΔS_universe = 0 (equilibrium — ice and water coexist). Below 0°C, freezing is spontaneous; above 0°C, melting is spontaneous."
+
+- question: "Why must entropy changes in both the system AND the surroundings be tracked to apply the second law? Give an example where the system's entropy decreases but the process still occurs spontaneously."
+  type: short-answer
+  answer: "The second law governs the total entropy of the universe, not the system alone. A system can reduce its internal disorder by expelling heat or performing work on its surroundings — transferring disorder outward. The surroundings absorb that heat at some temperature T, gaining entropy q/T. If this gain exceeds the system's entropy loss, ΔS_universe > 0 and the process is spontaneous. Example: protein folding. A protein in solution adopts a compact, highly ordered native structure (system entropy decreases), but the folding releases structured water molecules that were surrounding the unfolded chain — those water molecules gain rotational and translational freedom (surroundings entropy increases significantly), making the total ΔS_universe positive."
+  explanation: "The Gibbs free energy equation ΔG = ΔH − TΔS encodes exactly this bookkeeping: the TΔS term accounts for the entropy exchanged with surroundings via heat (ΔH = −q_surroundings at constant pressure), so ΔG < 0 is equivalent to ΔS_universe > 0. This is why ΔG is the practical criterion for spontaneity at constant temperature and pressure — it bundles the two-step entropy accounting into a single system-level quantity."
+```
+
 ## Explainer
 
 From your study of enthalpy and calorimetry, you know how to track energy flowing into and out of a system as heat. But energy alone does not determine whether a process happens spontaneously. Ice melts at room temperature even though melting is endothermic — it absorbs heat from the surroundings. Something beyond enthalpy is driving the process, and that something is **entropy**.

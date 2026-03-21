@@ -31,6 +31,45 @@ Read ethnographic accounts that explicitly discuss the researcher's positionalit
 - Assuming that disclosing one's identity biases research rather than enriching it.
 - Expecting complete transparency when some positionalities are invisible or when full honesty creates ethical problems.
 
+## Questions
+
+```yaml
+- question: "An anthropologist studying a rural community finds that, as a woman, she is excluded from certain male-only ceremonial spaces. From a reflexive standpoint, this limitation is best understood as:"
+  type: multiple-choice
+  options:
+    - "A methodological flaw that undermines the validity of her study"
+    - "Evidence that she should partner with a male researcher to fill the data gap"
+    - "Data in itself — the exclusion reveals how gender organizes access and authority in this community"
+    - "A sign that she chose the wrong field site for her research questions"
+  answer: 2
+  explanation: "Reflexivity reframes what looks like a limitation as information. The researcher's gender affects which spaces she can enter, which in turn reveals something real about how the community organizes gendered boundaries. A reflexive researcher asks: what does the fact that I was excluded tell me about how this community works? The exclusion is not just a gap in data — it is data about the social structure itself."
+
+- question: "A researcher writing up fieldwork results includes a section describing how her close friendship with one community elder shaped which stories she was told and which she was not. This practice is best described as:"
+  type: multiple-choice
+  options:
+    - "A conflict of interest that should be disclosed to an ethics board but removed from the publication"
+    - "Reflexivity — situating the knowledge produced within the conditions and relationships that produced it"
+    - "Emic analysis, because the researcher has become an insider whose subjectivity now matches the community's"
+    - "An unnecessary personal aside that weakens the ethnography's scientific credibility"
+  answer: 1
+  explanation: "Reflexivity requires making the conditions of knowledge production visible — not to confess personal feelings, but to help readers assess what the data represents and how it was shaped. Disclosing the role of specific fieldwork relationships (who you knew, who trusted you, who avoided you) is epistemic honesty, not self-indulgence. It helps the reader understand the situated character of the knowledge."
+
+- question: "Reflexivity in anthropological research means the researcher should minimize the influence of their identity and background by adopting the most neutral, objective stance possible."
+  type: true-false
+  answer: false
+  explanation: "This is precisely the misconception reflexivity is designed to correct. A 'view from nowhere' is impossible — every researcher brings identity, assumptions, and theoretical training that shape what they notice and interpret. Reflexivity does not eliminate this influence; it makes it visible and analytically productive. The goal is not neutrality but epistemic honesty about how positionality shaped the research."
+
+- question: "The fact that Malinowski's private diaries revealed personal contempt and ambivalence toward the Trobriand Islanders is relevant not only to his character but also to the ethnographic knowledge he produced."
+  type: true-false
+  answer: true
+  explanation: "Reflexivity means the researcher's inner life, relationships, and attitudes are not separate from the data they produce — they shape what gets observed, recorded, and interpreted. If Malinowski held contempt for his subjects, this likely affected which behaviors he attended to, how he characterized them, and what he omitted. The diaries are evidence that his positionality shaped his ethnographic account, which is exactly what reflexive analysis examines."
+
+- question: "Why is reflexivity described as a 'discipline' rather than a one-time confession or personal disclaimer at the start of a paper?"
+  type: short-answer
+  answer: "Reflexivity is a continuous practice of examining how the researcher's identity, relationships, and evolving fieldwork position shape data collection and interpretation throughout the research — not a one-time acknowledgment. New relationships open new access; changing status in the community shifts what people share. A single positionality statement cannot capture this dynamic process. Reflexivity as discipline means constantly asking 'how am I shaping what I'm seeing, and how is what I'm seeing shaping how I understand my own position?'"
+  explanation: "The 'discipline' framing matters because it distinguishes reflexivity from mere disclosure. Disclosure is a one-time act; discipline is a habit of mind applied throughout fieldwork and writing. It also distinguishes reflexivity from navel-gazing: the goal is not self-analysis for its own sake but epistemic clarity about knowledge production — understanding whose voice appears in the ethnography, what was inaccessible, and why."
+```
+
 ## Explainer
 
 You already know from studying emic and etic perspectives that good anthropological understanding requires getting inside a community's logic rather than imposing external categories. **Participant observation** is the method designed to make that possible. The anthropologist doesn't just interview people or observe from a distance — they move in, learn the language, participate in daily routines, share meals, attend ceremonies, make themselves present across months or years. The idea is that sustained, embodied presence allows you to understand cultural logic from the inside in a way that no survey or short visit can replicate.

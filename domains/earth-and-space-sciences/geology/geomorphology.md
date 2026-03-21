@@ -37,6 +37,45 @@ Analyzing digital elevation models or topographic maps to identify stream captur
 - Glaciers move by sliding and internal deformation, not by melting and refreezing alone; the mechanism depends on whether the base is at the pressure-melting point.
 - Landslides are not limited to steep mountain slopes; gentle clay-rich slopes can fail suddenly when pore water pressure rises during heavy rainfall, as seen in many fatal events in low-relief terrain.
 
+## Questions
+
+```yaml
+- question: "Two rivers run parallel through the same landscape: River A drains a 10,000 km² watershed and River B drains only 500 km². A student predicts River A will always cut a deeper valley because it has far greater discharge. What critical concept does this reasoning overlook?"
+  type: multiple-choice
+  options:
+    - "River A carries more suspended sediment, which armors the valley floor and limits incision"
+    - "Base level sets an absolute lower limit for incision regardless of river size; both rivers can only cut down to their local base level, making discharge alone insufficient to predict valley depth"
+    - "Smaller rivers have steeper gradients, so River B will incise more deeply per unit discharge"
+    - "Valley depth is determined entirely by bedrock hardness, not discharge or drainage area"
+  answer: 1
+  explanation: "The stream power law predicts erosion rate from gradient and discharge, but base level — typically sea level, a lake, or a resistant rock step — sets the floor below which no river can incise, regardless of its power. A large river draining to sea level is limited to the same ultimate incision depth as a small river draining to the same point. Base level changes (e.g., sea level fall or dam removal) are what unlock deeper incision, not river size alone."
+
+- question: "On a topographic map, which cross-sectional shape most reliably distinguishes a glacially carved valley from a fluvially carved valley?"
+  type: multiple-choice
+  options:
+    - "Glacial valleys are always deeper; fluvial valleys are always wider"
+    - "Glacial valleys have U-shaped cross-sections with steep walls and flat floors; fluvial valleys have V-shaped cross-sections narrowing to the channel"
+    - "Glacial valleys show meandering planform patterns; fluvial valleys are straight"
+    - "Glacial valleys lack tributary streams; fluvial valleys have dendritic drainage networks"
+  answer: 1
+  explanation: "Rivers erode primarily by abrasion and hydraulic action concentrated at the channel bottom, producing a V-shape that narrows downward. Glaciers erode by abrasion and quarrying across their entire base and lower walls simultaneously, widening the valley floor and producing a characteristic U-shape with steep headwalls. This cross-sectional difference is the most diagnostic field indicator of glacial vs. fluvial origin."
+
+- question: "Larger rivers with high discharge always cut deeper valleys than smaller rivers, because greater water volume provides greater erosive power."
+  type: true-false
+  answer: false
+  explanation: "While discharge does increase erosion rate through the stream power law, base level provides an absolute lower limit on incision that no amount of discharge can overcome. A large river cannot incise below sea level or below a resistant bedrock step that defines its local base level. Valley depth reflects both the erosive capacity of the river and the position of its base level — not discharge alone."
+
+- question: "Landslides and debris flows can occur on relatively gentle, clay-rich slopes when pore water pressure rises sufficiently during prolonged heavy rainfall, even in the absence of steep terrain."
+  type: true-false
+  answer: true
+  explanation: "Slope stability depends on the balance between driving forces (gravity, proportional to slope angle and material weight) and resisting forces (friction, cohesion, root strength). Elevated pore water pressure reduces effective normal stress between grains, dramatically lowering friction. When pore pressure rises enough, even gentle clay-rich slopes can fail suddenly. Many fatal historical landslides have occurred on slopes that appear safe under dry conditions."
+
+- question: "Explain how base level controls the depth to which a river can incise its valley, and why this makes a river's discharge an insufficient predictor of valley depth."
+  type: short-answer
+  answer: "Base level is the lowest elevation to which a river can erode — typically sea level for rivers draining to the ocean, or a resistant rock layer, lake, or dam for interior rivers. No matter how much erosive power a river has, it cannot cut below this level because the energy gradient that drives incision disappears at base level. Valley depth therefore reflects both the river's capacity to erode and how far above base level the surrounding landscape sits. Two rivers with very different discharges draining to the same base level can ultimately incise to the same depth, while a small river far above base level may carve a deeper gorge than a large one near sea level."
+  explanation: "The concept of base level is essential for interpreting ancient and modern landscapes. Knickpoints (abrupt steps in the river profile) mark where base level change has not yet propagated upstream — classic evidence of glacial lake drainage, tectonic uplift, or human-altered base levels. Understanding this prevents the common error of attributing all landscape differences to discharge rather than to the history of base level change and tectonic context."
+```
+
 ## Explainer
 
 You already understand that weathering breaks rock into transportable particles and that sediment transport moves those particles downhill and downstream. Geomorphology takes the next step: it asks how these processes, operating over thousands to millions of years, sculpt the landforms we see — valleys, ridges, floodplains, glacial cirques, coastal cliffs, and everything in between. The central insight is that landscape form reflects a competition between **tectonic uplift** (which raises rock above base level) and **surface processes** (which wear it down and carry it away).

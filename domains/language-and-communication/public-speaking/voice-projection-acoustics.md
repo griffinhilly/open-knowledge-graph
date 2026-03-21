@@ -29,6 +29,45 @@ Practice speaking to a partner at the far end of a large room without a micropho
 - Microphones do not eliminate the need for projection skills; a microphone amplifies whatever voice you give it, including a thin, unsupported one.
 - Vocal projection can be developed at any age — it is a matter of technique and practice, not vocal cord anatomy.
 
+## Questions
+
+```yaml
+- question: "A speaker in a carpeted conference room finds her voice sounds thin and doesn't reach the back of the room. She increases her effort by pushing harder from her throat. Which description best explains why this approach will fail?"
+  type: multiple-choice
+  options:
+    - "Throat-based pushing increases resonance, so it should help but she may be doing it incorrectly"
+    - "Carpeted rooms absorb all sound regardless of technique, so projection is impossible without a microphone"
+    - "Throat-based effort produces a harsher, thinner sound without the resonance needed for carrying power, and it fatigues quickly"
+    - "The real issue is articulation, not projection — she should speak more slowly"
+  answer: 2
+  explanation: "Pushing from the throat uses larynx and neck muscles rather than the diaphragm, producing a thin, strained sound that lacks the resonance needed to carry distance. The carpeted room does absorb more sound and require more energy, but the correct response is to increase diaphragmatic breath support, which provides a steady air column and opens resonating cavities. Throat-based effort is both less effective and more tiring."
+
+- question: "A speaker trained indoors now faces an outdoor venue with no walls. Compared to a hard-walled auditorium, what adjustment is most important?"
+  type: multiple-choice
+  options:
+    - "Speak faster to avoid the audience's attention drifting"
+    - "Slow down significantly to let reflections settle between words"
+    - "Increase diaphragmatic breath support substantially, since no surfaces help reflect sound"
+    - "Use chest resonance less, since it is only effective indoors"
+  answer: 2
+  explanation: "Outdoors, there are no walls to reflect sound back toward the audience — sound disperses in all directions. The speaker must provide substantially more vocal energy to compensate, which requires stronger diaphragmatic support. Slowing down helps in reverberant hard-walled spaces where reflections blur consonants, but outdoors the problem is loss of energy, not excess echo."
+
+- question: "Using a microphone eliminates the need for strong vocal projection technique."
+  type: true-false
+  answer: false
+  explanation: "A microphone amplifies whatever voice you give it — a thin, unsupported, throat-produced voice becomes a loud thin voice. The microphone does not add resonance or improve breath support; it only increases amplitude. A projected voice fed into a microphone sounds richer and carries more authority than a strained voice amplified to the same volume."
+
+- question: "A projected voice and a loud voice are not the same thing: projection relies on resonance and breath support, while loudness pushed from the throat is less efficient and more fatiguing."
+  type: true-false
+  answer: true
+  explanation: "This is the central distinction of the topic. A projected voice uses diaphragmatic breath support to produce a sustained air column, and open resonating cavities (chest, mouth, nasal passages) to enrich the sound with overtones. This carries further and sustains longer than a throat-pushed voice of equivalent perceived volume. The throat-pushed voice fatigues both speaker and audience faster."
+
+- question: "Why is diaphragmatic breathing the foundation of voice projection rather than simply breathing deeply and speaking loudly?"
+  type: short-answer
+  answer: "Diaphragmatic breathing creates a steady, controlled column of air by contracting the diaphragm downward and using its controlled return during exhalation. This sustained airflow supports the resonating cavities — chest, throat, mouth, nasal passages — which amplify and enrich the sound. Speaking loudly from the throat bypasses this resonance system, producing a harsher sound that lacks carrying power and fatigues quickly. Projection is about converting breath energy into resonant sound efficiently, not about raw loudness."
+  explanation: "The key distinction is between source (the vocal cords) and amplification (the resonating cavities). Throat-based loudness tightens the source without engaging the amplification system. Diaphragmatic support opens the system and lets resonance do the work, which is why a well-projected voice can fill a large room while sounding relatively effortless to produce."
+```
+
 ## Explainer
 
 From your work on vocal delivery techniques, you know that voice is more than words — rate, pitch, pause, and articulation all shape how a message is received. Projection is the physical foundation that makes any of those other skills accessible to the audience in the first place. A speaker with perfect pacing and clear articulation who cannot fill the room has communication that reaches only the front rows; the rest of the audience disengages regardless of content quality.

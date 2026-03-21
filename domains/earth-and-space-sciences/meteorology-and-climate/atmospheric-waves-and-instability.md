@@ -29,6 +29,45 @@ status: draft
 ## Core Idea
 The atmosphere supports wave-like disturbances including Rossby waves (which owe their existence to Earth's rotation and meridional variation of the Coriolis parameter) and gravity waves (driven by buoyancy). Large-amplitude Rossby waves can become unstable and break down into smaller-scale eddies and weather systems. These waves are the primary mechanism for mid-latitude weather variability on timescales from days to weeks and connect surface weather to upper-atmospheric patterns.
 
+## Questions
+
+```yaml
+- question: "What is the restoring force that produces Rossby waves in the atmosphere?"
+  type: multiple-choice
+  options:
+    - "Buoyancy — gravity acting on vertical density differences in a stably stratified atmosphere"
+    - "The variation of the Coriolis parameter with latitude — when air is displaced northward it experiences a stronger Coriolis deflection and curves back"
+    - "Pressure gradient forces from surface high and low pressure systems"
+    - "Centrifugal forces arising from the curvature of airflow around the Earth"
+  answer: 1
+  explanation: "Rossby waves exist because the Coriolis parameter f = 2Ω sin(latitude) increases with latitude. Air displaced northward gains relative cyclonic vorticity (the planet's vorticity is larger there), which deflects it back southward; displaced southward it loses vorticity and curves back northward. This beta effect is the restoring force. Buoyancy is the restoring force for gravity waves — a different class of atmospheric wave with much smaller scale and shorter period."
+
+- question: "A forecaster observes large-amplitude Rossby waves with very slow eastward propagation locked over a continent. What should they predict for near-term surface weather?"
+  type: multiple-choice
+  options:
+    - "Conditions will change rapidly as weather systems cycle through every 2–3 days"
+    - "The pattern will likely persist for days to weeks, potentially locking in heat, cold, drought, or flooding depending on wave phase"
+    - "The large-amplitude waves signal the atmosphere is returning to a faster, more zonal state"
+    - "Slow propagation means fronts will intensify rapidly, producing severe but brief storm events"
+  answer: 1
+  explanation: "Slow, large-amplitude Rossby waves produce persistent weather because the trough/ridge pattern steers the same air masses over the same regions repeatedly. A fast, zonal (straight) jet would sweep systems eastward before they could lock in. Large, slow waves are the atmospheric configuration associated with prolonged heat waves, cold outbreaks, drought, and flooding — this is why extended-range weather forecasting depends critically on predicting Rossby wave behavior."
+
+- question: "Rossby waves and gravity waves are driven by the same restoring mechanism — buoyancy — but differ mainly in their horizontal scale and propagation speed."
+  type: true-false
+  answer: false
+  explanation: "They have entirely different restoring mechanisms. Gravity waves are driven by buoyancy: a vertically displaced air parcel in a stably stratified atmosphere is pushed back by gravity, oscillating vertically. Rossby waves are driven by the beta effect: a horizontally displaced air parcel experiences a different Coriolis deflection at its new latitude, which restores it. The two wave types differ not only in scale and speed but in their fundamental physical origin."
+
+- question: "Barotropic instability allows atmospheric wave disturbances to amplify by extracting kinetic energy from horizontal shear in the mean wind flow."
+  type: true-false
+  answer: true
+  explanation: "Barotropic instability transfers kinetic energy from the horizontally sheared mean flow (such as the jet stream) into growing wave disturbances. When horizontal wind shear exceeds the threshold set by the beta effect, perturbations amplify rather than simply propagating. This is analogous to Kelvin-Helmholtz instability in fluid dynamics — velocity differences drive eddy growth. The result is the breakdown of smooth jet flow into the rotating vortices that become mid-latitude weather systems."
+
+- question: "Why can Rossby waves amplify into instability rather than simply propagating indefinitely, and what are the meteorological consequences?"
+  type: short-answer
+  answer: "Rossby waves propagate stably when the beta effect (the restoring force from the Coriolis gradient) is strong enough to counteract the destabilizing effect of horizontal wind shear. When shear in the jet stream is strong enough, this balance breaks down: small wave disturbances extract kinetic energy from the mean flow and grow — barotropic instability. The amplifying waves eventually break (like ocean waves reaching shallow water, but in the horizontal plane), creating cut-off lows, blocking highs, and the mid-latitude cyclones responsible for most temperate-region weather. Instability is thus the mechanism by which the ordered jet-stream circulation converts into the chaotic, eddy-dominated weather patterns seen on synoptic weather maps."
+  explanation: "The key distinction is between propagation (wave maintains its amplitude while moving) and instability (wave amplitude grows). Most of the interesting weather dynamics in the mid-latitudes arise from this instability mechanism, not from simple wave propagation."
+```
+
 ## Explainer
 
 You already know that the Coriolis effect deflects moving air to the right in the Northern Hemisphere and to the left in the Southern Hemisphere, and that this deflection varies with latitude — strongest at the poles, zero at the equator. This latitude dependence is the key ingredient for understanding the most important wave in large-scale meteorology: the **Rossby wave**. When air is displaced northward, it encounters a stronger Coriolis parameter and is deflected back; displaced southward, it encounters a weaker one and curves the other way. The result is a restoring force that produces undulating wave patterns in the mid-latitude westerly flow — the same sweeping troughs and ridges you see on upper-level weather maps.

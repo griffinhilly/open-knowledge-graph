@@ -19,6 +19,45 @@ status: draft
 ## Core Idea
 Actor-critic combines policy gradient (actor) with value function (critic). Actor updates via policy gradients; critic provides TD targets reducing variance. Critic uses bootstrapping for sample efficiency. A3C extends to parallel workers.
 
+## Questions
+
+```yaml
+- question: "Why does using the critic's value estimate as a baseline reduce variance in the actor's gradient updates compared to using the full episode return?"
+  type: multiple-choice
+  options:
+    - "The critic filters out noisy rewards by averaging them before passing them to the actor"
+    - "The critic's state-value estimate is a learned function of the current state, while the full episode return varies randomly based on all future actions and transitions"
+    - "The critic reduces variance because it uses a larger batch of samples to estimate the gradient"
+    - "The actor's gradient is inherently lower variance because the critic replaces the policy gradient entirely"
+  answer: 1
+  explanation: "The full episode return is a high-variance signal because it is the sum of all future rewards along a specific trajectory — every random action and stochastic transition contributes noise. The critic's value estimate, V(s), is a smoothed function of the current state learned over many updates; it is stable relative to a single trajectory's return. The advantage A = r + γV(s') - V(s) subtracts a well-calibrated baseline, dramatically reducing variance while preserving the correct direction of the gradient. Option C is incorrect: the variance reduction comes from the quality of the baseline, not batch size."
+
+- question: "An agent is learning to play a video game where episodes last 50,000 steps. Which scenario makes actor-critic most beneficial compared to a pure Monte Carlo policy gradient?"
+  type: multiple-choice
+  options:
+    - "The game has a sparse reward (only +1 at victory after 50,000 steps), making it impractical to wait for full episode returns before updating"
+    - "The game has dense rewards every step, so the full episode return is easy to compute and the critic adds unnecessary complexity"
+    - "The action space is discrete, so value-based methods like Q-learning are always preferred"
+    - "The game has a deterministic transition function, eliminating stochasticity in the return"
+  answer: 0
+  explanation: "Sparse, long-horizon environments are exactly where actor-critic excels. With a reward only at the episode's end (50,000 steps), a pure Monte Carlo policy gradient must wait for the complete episode before making a single update — slow and sample-inefficient. The actor-critic critic can bootstrap using TD learning (r + γV(s')), enabling updates after every step even when the reward is sparse. Option B misidentifies the problem: dense rewards make the return *computable* but still noisy; the critic still helps by providing a baseline. Option C is wrong: actor-critic handles continuous action spaces better than Q-learning."
+
+- question: "In an actor-critic system, the actor can be updated after every individual time step rather than waiting for a complete episode to end."
+  type: true-false
+  answer: true
+  explanation: "This is one of the defining advantages of actor-critic over pure Monte Carlo policy gradient. Because the critic uses TD bootstrapping — estimating value from the immediate reward plus a discounted estimate of the next state's value — it can provide a learning signal after a single step. The actor then uses this TD-based advantage to update its policy immediately. This step-by-step learning is what makes actor-critic practical for long-horizon and continuing (non-episodic) tasks."
+
+- question: "In an actor-critic architecture, both the actor and the critic are updated using Monte Carlo estimates from complete episode returns."
+  type: true-false
+  answer: false
+  explanation: "Only the actor uses something conceptually related to returns — and even then, through the advantage signal, not raw returns. The defining feature of actor-critic is that the critic uses temporal difference (TD) learning: it bootstraps from its own prediction at the next state rather than waiting for the episode to end. This bootstrapping is what enables step-by-step updates and improved sample efficiency. If the critic used full Monte Carlo returns, you would lose the key benefit of actor-critic over pure policy gradient methods."
+
+- question: "What does the 'advantage' signal measure in actor-critic, and why is it used instead of the raw reward to update the actor?"
+  type: short-answer
+  answer: "The advantage A(s,a) = r + γV(s') - V(s) measures how much better (or worse) taking action a in state s turned out to be compared to what the critic expected. A positive advantage means the action exceeded expectations; a negative advantage means it underperformed. The raw reward is used instead of raw reward because the reward alone doesn't account for how good the state was to begin with — an action that yields reward 5 is excellent from a bad state but mediocre from a good state. The advantage centers this comparison around the critic's learned expectation."
+  explanation: "Using the advantage rather than raw reward is a variance reduction technique that also provides better credit assignment. If you update the actor using raw reward, actions in naturally high-reward states always get positive updates and actions in low-reward states always get negative updates — regardless of whether those actions were actually good or bad relative to alternatives. The advantage removes this baseline bias: it asks 'was this action better than average for this state?' rather than 'was the reward positive?' This makes gradient estimates more informative and less noisy."
+```
+
 ## Explainer
 
 From your study of policy gradient methods, you know the fundamental idea: adjust policy parameters in the direction that increases expected return, using sampled trajectories to estimate the gradient. You also know the central problem — policy gradient estimates are noisy. The return from a single trajectory is a high-variance signal because it depends on every random action and state transition in the episode. Subtracting a baseline helps, but the question becomes: what is the best baseline? **Actor-critic methods** answer this by learning the baseline itself, creating a two-component architecture where each part does what it is best at.

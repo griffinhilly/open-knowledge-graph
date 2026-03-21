@@ -33,6 +33,45 @@ Use `nslookup` or `dig` to perform DNS lookups and observe the hierarchy of name
 - DNS always performs full resolution from root; most queries hit cached resolvers.
 - DNS is only for A records; DNS also handles CNAME, MX, TXT, and other record types.
 
+## Questions
+
+```yaml
+- question: "You type a domain name your computer has never seen before into your browser. Which sequence correctly describes the DNS resolution process, assuming no caches hold the answer?"
+  type: multiple-choice
+  options:
+    - "Browser → root server → TLD server → authoritative server → IP address returned directly to browser"
+    - "Browser → OS → recursive resolver → root server → TLD server → authoritative server → answer cached and returned"
+    - "Browser → ISP nameserver → DNS root zone database → IP address returned"
+    - "Browser → recursive resolver → authoritative server (which queries root and TLD on its own) → IP address returned"
+  answer: 1
+  explanation: "The recursive resolver (typically your ISP's or a public resolver like 8.8.8.8) does the iterative work on the client's behalf. It first contacts a root server, which returns a referral to the relevant TLD server; the resolver then contacts the TLD server, which returns a referral to the domain's authoritative nameserver; finally the resolver contacts the authoritative nameserver for the actual IP address. The resolver caches the result (respecting TTL) and returns it to the OS, which passes it to the browser. Option A skips the resolver and option D misrepresents which party performs the iterative chain."
+
+- question: "After you move your website to a new server and update its DNS A record, some visitors worldwide still reach the old server for hours or days. What is the most direct cause?"
+  type: multiple-choice
+  options:
+    - "Root servers cache A records permanently and must be manually purged"
+    - "Authoritative nameservers require 48 hours to synchronize with each other after any change"
+    - "Recursive resolvers and operating systems cached the old A record with a positive TTL that has not yet expired"
+    - "Browser caches override DNS and must be manually cleared by each visitor"
+  answer: 2
+  explanation: "DNS is designed around aggressive caching for performance. When a recursive resolver fetches an A record, it stores the result for the duration specified by the TTL (time to live). Until that TTL expires, the resolver serves the old cached answer to all clients — even though the authoritative nameserver now has the updated record. Different resolvers cached the record at different times and have different TTLs remaining, which is why propagation is gradual rather than instantaneous. The fix is to lower the TTL well before making a planned change, giving caches time to drain."
+
+- question: "Every DNS query must contact a root nameserver to begin the resolution chain, since root servers are the authoritative source for all DNS information."
+  type: true-false
+  answer: false
+  explanation: "In practice, the vast majority of DNS queries are answered from cache — in the recursive resolver, the operating system, or even the browser — without ever contacting a root server. Root servers only come into play when the recursive resolver has no cached information about the relevant TLD. Popular domains may have their cached answers served millions of times between any root-server contacts. Root servers are critical infrastructure, but they are rarely the bottleneck for ordinary queries. Without this caching architecture, the ~13 root server clusters could never handle the global query volume."
+
+- question: "DNS uses UDP rather than TCP for most queries because name resolution is a single question-and-answer exchange that benefits from low latency and does not require connection setup."
+  type: true-false
+  answer: true
+  explanation: "UDP is connectionless and adds virtually no overhead — the client sends a datagram with the query, and the server sends a datagram with the answer. A typical DNS query fits in a single UDP packet. TCP requires a three-way handshake before any data is exchanged, nearly doubling the round trips needed for a lookup. Since DNS lookups happen for virtually every network connection (loading a webpage may trigger dozens), the latency savings of UDP are significant at scale. DNS does fall back to TCP for large responses (like zone transfers or responses exceeding 512 bytes) but uses UDP as its default."
+
+- question: "Why is caching fundamental to DNS performance, and what tradeoff does it introduce?"
+  type: short-answer
+  answer: "Without caching, every DNS query would require multiple round trips to nameservers that may be geographically distant — a root server, a TLD server, and an authoritative server — adding tens or hundreds of milliseconds of latency before any actual network connection can begin. Since virtually every TCP connection starts with DNS resolution, this overhead would make the Internet noticeably slower. Caching — at the recursive resolver, OS, and browser levels — means most queries are answered locally in microseconds. The tradeoff is staleness: when a DNS record changes (e.g., a server moves), old answers persist in caches until their TTL expires, creating a propagation delay where different clients may reach different servers."
+  explanation: "The TTL field on each DNS record is the operator's control knob for this tradeoff. A low TTL (e.g., 60 seconds) means changes propagate quickly but increases load on authoritative servers. A high TTL (e.g., 86400 seconds / 1 day) means excellent caching performance but slow change propagation. Common practice is to lower the TTL before a planned change, wait for caches to drain, make the change, then restore a long TTL afterward."
+```
+
 ## Explainer
 
 You know from studying UDP that it provides a lightweight, connectionless way to send datagrams without the overhead of TCP's connection setup. DNS uses UDP (on port 53) for most queries because name lookups need to be fast — a single question-and-answer exchange, not a prolonged conversation. Understanding DNS means understanding how the Internet translates the human-readable names you type into a browser into the numeric IP addresses that routers actually use to deliver packets.

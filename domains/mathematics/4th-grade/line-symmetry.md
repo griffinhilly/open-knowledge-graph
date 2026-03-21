@@ -26,6 +26,45 @@ Fold paper cutouts to test for symmetry physically. Use mirrors along a proposed
 - Drawing diagonal lines on rectangles as lines of symmetry (only the horizontal and vertical midlines are lines of symmetry for non-square rectangles).
 - Confusing line symmetry with rotational symmetry.
 
+## Questions
+
+```yaml
+- question: "How many lines of symmetry does a square have?"
+  type: multiple-choice
+  options:
+    - "1 — just the vertical midline"
+    - "2 — the horizontal and vertical midlines only"
+    - "4 — the two midlines and both diagonals"
+    - "0 — the sides are equal, so no one line divides it differently"
+  answer: 2
+  explanation: "A square has 4 lines of symmetry: the vertical midline, the horizontal midline, and both diagonals. All four fold the square so both halves align perfectly. A non-square rectangle only has 2 (the two midlines) because its diagonals fold to triangles whose long and short sides don't match."
+
+- question: "A student draws a diagonal on a non-square rectangle and says it is a line of symmetry because it 'divides the rectangle into two equal triangles.' What is the error in this reasoning?"
+  type: multiple-choice
+  options:
+    - "A rectangle cannot be divided along a diagonal"
+    - "Dividing into two pieces of equal area is not the same as a line of symmetry — the two triangles don't match when folded"
+    - "Only horizontal lines can be lines of symmetry for rectangles"
+    - "Non-square rectangles have no lines of symmetry at all"
+  answer: 1
+  explanation: "A line of symmetry requires the two halves to be mirror images that align exactly when folded. Folding a non-square rectangle along a diagonal produces two triangles that don't align: the long side of one overhang the short side of the other. Dividing in half by area is a weaker condition than symmetry — the rectangle has exactly 2 lines of symmetry, both midlines."
+
+- question: "A shape can be divided into two halves of equal area without having a line of symmetry."
+  type: true-false
+  answer: true
+  explanation: "True. Many lines can split a shape into equal areas without either half being a mirror image of the other. The diagonal of a non-square rectangle cuts it into two equal-area triangles, but they don't fold to match — corners land in wrong positions. Line symmetry requires mirror-image matching, not just equal areas."
+
+- question: "A regular pentagon has exactly 5 lines of symmetry."
+  type: true-false
+  answer: true
+  explanation: "True. A regular polygon with n sides has exactly n lines of symmetry. A regular pentagon has 5 sides, so it has 5 lines of symmetry — one through each vertex and the midpoint of the opposite side. This pattern holds for all regular polygons."
+
+- question: "What does it mean for a line to be a 'line of symmetry'? Why does the vertical midline of a rectangle qualify, but its diagonal does not?"
+  type: short-answer
+  answer: "A line of symmetry divides a figure into two halves that are exact mirror images — when folded along that line, both halves align perfectly with no part sticking out. The vertical midline of a rectangle works because folding places the left half exactly over the right half. The diagonal doesn't work because the corners and sides land in wrong positions — the two triangles formed are congruent but do not fold onto each other."
+  explanation: "The test for a line of symmetry is folding, not measuring area. 'Equal halves' by area is a weaker condition than mirror-image symmetry. For true symmetry, every point on one side must have a matching point at the same distance on the other side — and that only happens with the rectangle's midlines."
+```
+
 ## Explainer
 
 A **line of symmetry** is a line that divides a figure into two halves that are mirror images of each other — the two halves match exactly when the shape is folded along that line. Think of folding a piece of paper: if you can fold the figure so that both halves align perfectly and no part sticks out, the fold line is a line of symmetry. You've worked with lines, rays, and segments, so you can think of the line of symmetry as a special line with a particular relationship to the shape: every point on one side has a matching point at the same distance on the other side.

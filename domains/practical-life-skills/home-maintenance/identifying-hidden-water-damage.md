@@ -32,6 +32,45 @@ Inspect areas prone to water problems: under sinks, around bathrooms, basement/c
 ## Common Misconceptions
 Water damage is always visible externally (problems develop slowly behind surfaces); mold only grows on water-damaged areas (can grow in high-humidity areas); one small leak will show obvious damage immediately.
 
+## Questions
+
+```yaml
+- question: "There is a brown water stain on the ceiling directly below a second-floor bathroom. What does this tell a homeowner about the source of the water?"
+  type: multiple-choice
+  options:
+    - "The water entered directly above the stain — likely a floor crack at that exact spot"
+    - "The stain marks where water appeared at the surface, but the source could be anywhere the water traveled to reach that point"
+    - "The stain is cosmetic only — water damage always requires visible saturation before structural damage"
+    - "The stain indicates a one-time event since ongoing leaks would have caused visible mold by now"
+  answer: 1
+  explanation: "Water follows gravity, wicks through porous materials, and migrates along structural members — by the time it appears at a ceiling, it may have traveled from a supply line drip, a failed wax ring, or failed shower grout feet away. The stain marks the terminus, not the source. Effective investigation traces back up the path water could have traveled, not just the spot where it became visible."
+
+- question: "A homeowner presses on the drywall near the base of a wall under the kitchen sink and it feels spongy and soft. What is the most likely explanation?"
+  type: multiple-choice
+  options:
+    - "The drywall was installed with insufficient backing and is flexing normally"
+    - "The wall is an exterior wall and the softness indicates inadequate insulation"
+    - "The drywall has been repeatedly wetted and dried, degrading its structural integrity"
+    - "Soft drywall is normal near the base of walls due to settling over time"
+  answer: 2
+  explanation: "Drywall that has been repeatedly wet and dried becomes soft, spongy, or crumbles at the edges as its gypsum core deteriorates. Softness specifically near a water source (under sinks, around bathroom fixtures, near exterior wall bases) is a reliable indicator of repeated water exposure. Normal drywall without water damage is firm and rigid. Physical probing is one of the three primary detection methods alongside visual inspection and odor."
+
+- question: "A musty odor detected when opening a bathroom cabinet under the sink is a reliable indicator of water damage or mold, even when no visible staining or wet materials are present."
+  type: true-false
+  answer: true
+  explanation: "Mold commonly colonizes surfaces that are hidden from view — the back face of drywall, inside wall cavities, and the underside of cabinet floors. Opening an enclosed space can release a concentrated pocket of musty air that was trapped there. Odor is often the earliest detectable sign because mold begins growing within 24–48 hours of sustained moisture, well before visible surface damage appears."
+
+- question: "The location of a water stain on a ceiling or wall reliably identifies where water entered the building structure."
+  type: true-false
+  answer: false
+  explanation: "Water migrates significantly from its entry point before surfacing. It follows gravity and wicks through wood, drywall, and insulation, often traveling horizontally along joists or vertically down wall cavities before appearing at a surface. A ceiling stain below a bathroom could originate from a supply line, drain fitting, toilet wax seal, or shower grout failure — none of which may be directly above the stain. Always trace water pathways backward from the visible damage."
+
+- question: "Why does visible water damage often appear weeks or months after the underlying problem began? What does this mean for how frequently high-risk areas should be inspected?"
+  type: short-answer
+  answer: "Water damage hides because water migrates through porous building materials — drywall, wood framing, insulation — before reaching a visible surface. During this migration, structural degradation and mold growth can progress significantly without any visible sign. This means high-risk areas (under sinks, around water heaters, near exterior wall bases) should be inspected regularly — not just when something looks wrong — using physical probing and odor checks in addition to visual inspection."
+  explanation: "The 'wait until it's visible' approach is the most common mistake in home water damage prevention. By the time a stain appears on a ceiling, the subfloor above may already be rotting, or mold may have colonized an entire wall cavity. Early, regular inspection with multiple detection methods catches problems while they're still cheap to fix."
+```
+
 ## Explainer
 
 From your study of water damage and mold basics, you understand that water intrusion is the root cause of most serious structural degradation in homes, and that mold can establish within 24–48 hours in saturated conditions. The challenge is that water does not stay where it enters. It follows gravity, it wicks through porous materials, it migrates along structural members and pipes — and by the time damage becomes visible at the surface, the problem has often been developing for weeks or months behind it.

@@ -29,6 +29,45 @@ Map DNA methylation genome-wide using bisulfite sequencing; measure methyltransf
 ## Common Misconceptions
 - DNA methylation always silences genes; unmethylated CpG islands at promoters are normally associated with transcription. - Methylation is erased and reset during differentiation; some patterns are remarkably stable.
 
+## Questions
+
+```yaml
+- question: "After DNA replication, each daughter duplex is hemimethylated — the parental strand retains its methyl marks, but the newly synthesized strand does not. Which enzyme recognizes this state and what does it do?"
+  type: multiple-choice
+  options:
+    - "DNMT3a and DNMT3b recognize hemimethylated DNA and establish entirely new methylation patterns de novo on both strands"
+    - "DNMT1 recognizes hemimethylated CpG sites and methylates the corresponding cytosine on the newly synthesized strand, restoring the full symmetrical methylation pattern"
+    - "TET enzymes recognize hemimethylated DNA and oxidize the methyl group on the parental strand, erasing the pattern to produce a clean demethylated state"
+    - "MeCP2 recognizes hemimethylated sites and recruits histone acetyltransferases to activate the surrounding chromatin"
+  answer: 1
+  explanation: "DNMT1 has high substrate preference for hemimethylated over unmethylated DNA — this selectivity is precisely what makes it the maintenance methyltransferase. After replication, DNMT1 reads the existing methyl mark on the parental strand and deposits a methyl group at the symmetrical CpG on the new strand, restoring full methylation. DNMT3a and 3b are de novo methyltransferases that establish new patterns at previously unmethylated sites during development. TET enzymes oxidize 5mC to promote demethylation — the opposite function."
+
+- question: "In many cancers, CpG islands at tumor suppressor gene promoters become hypermethylated. What is the most likely direct consequence for gene expression?"
+  type: multiple-choice
+  options:
+    - "The tumor suppressor gene is constitutively overexpressed because methylation stabilizes the promoter-transcription factor complex"
+    - "The tumor suppressor gene is silenced: methyl-binding proteins are recruited, which attract histone deacetylases that compact chromatin into a repressive state"
+    - "The CpG sites mutate to non-CpG dinucleotides over time, permanently disrupting the promoter sequence"
+    - "Transcription factors bind irreversibly to the methylated promoter, blocking all further regulatory changes"
+  answer: 1
+  explanation: "Normally, CpG islands at active gene promoters are unmethylated. When hypermethylated, methyl-CpG-binding domain proteins (MeCP2, MBD1) are recruited, which in turn recruit histone deacetylases and chromatin-remodeling complexes that compact the surrounding chromatin. This creates stable, long-term silencing of the tumor suppressor gene — functionally equivalent to a loss-of-function mutation but without altering the DNA sequence. Reactivating silenced tumor suppressors with DNMT inhibitors like 5-azacytidine is a therapeutic strategy in certain leukemias."
+
+- question: "A differentiated liver cell can maintain its specific gene expression pattern across decades of cell division — with the same genes silenced and the same genes active as in the original liver cell — without any change to the DNA sequence itself."
+  type: true-false
+  answer: true
+  explanation: "This heritability is the defining feature of epigenetic regulation. DNMT1 faithfully copies methylation patterns to daughter strands after every cell division, so the gene silencing established during differentiation is perpetuated in all cellular descendants. The liver cell's daughters are liver cells — they contain identical DNA sequences to all other cell types in the body, but a distinct methylation landscape that maintains cell identity. This is what 'epigenetic' means: heritable information about gene expression that is independent of the underlying DNA sequence."
+
+- question: "All CpG dinucleotides in the human genome are methylated in differentiated cells, and this methylation uniformly silences nearby genes."
+  type: true-false
+  answer: false
+  explanation: "Context matters enormously. CpG islands at gene promoters are normally *unmethylated* and are associated with active transcription — methylation at these sites silences the gene. Most CpG sites scattered throughout the genome (in repetitive elements, transposons, and gene bodies) are methylated even in transcriptionally active regions, and their methylation serves different functions: suppressing transposon activity, potentially modulating transcriptional elongation. 'DNA methylation silences genes' is a useful rule of thumb for promoter CpG islands but is an oversimplification for the genome as a whole."
+
+- question: "Why is DNMT1 called the 'maintenance methyltransferase,' and how does it preserve a cell's epigenetic identity through cell division?"
+  type: short-answer
+  answer: "DNMT1 specifically recognizes hemimethylated CpG sites — where the parental strand is methylated but the newly synthesized strand is not — and methylates the complementary cytosine. This happens after every DNA replication cycle, perpetuating the inherited methylation pattern to daughter cells without requiring any new signal. Without this mechanism, methylation patterns would be diluted by half with each division."
+  explanation: "De novo methyltransferases (DNMT3a/3b) establish methylation patterns during development; DNMT1 preserves them indefinitely. The selectivity for hemimethylated substrates is the key: DNMT1 copies what exists rather than creating new patterns. This allows differentiated cell identity to persist stably for decades — a liver cell's methylation landscape is replicated at every division, ensuring its daughters are also liver cells. When DNMT1 is disrupted experimentally, genome-wide demethylation leads to inappropriate gene activation, chromosomal instability, and cell death — demonstrating that methylation maintenance is essential for normal cell function."
+```
+
 ## Explainer
 
 You know from eukaryotic gene regulation that transcription depends on the accessibility of promoter and enhancer regions, and from histone modifications that chromatin structure is a major determinant of that accessibility. **DNA methylation** adds another layer to this regulatory system — one that operates directly on the DNA molecule itself rather than on the histone proteins around which it is wrapped. Together with histone modifications, methylation constitutes the cell's epigenetic memory: a system for recording gene expression states that persists across cell divisions without altering the underlying DNA sequence.

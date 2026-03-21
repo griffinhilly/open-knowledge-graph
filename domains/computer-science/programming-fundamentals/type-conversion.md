@@ -36,6 +36,45 @@ Write a calculator that reads string input, converts to numbers, computes, and f
 - Thinking int(3.9) rounds to 4 — it truncates to 3.
 - Not realizing that all console input arrives as a string and must be explicitly converted.
 
+## Questions
+
+```yaml
+- question: "A Python program prompts the user to enter their age and then adds 1: age = input('Enter your age: ') + 1. What happens when the user types '25'?"
+  type: multiple-choice
+  options:
+    - "The program returns 26, because Python automatically converts the string to an integer"
+    - "The program raises a TypeError, because you cannot add an integer to a string"
+    - "The program returns '251', concatenating the string with the integer"
+    - "The program returns 25, because addition is undefined between a string and integer"
+  answer: 1
+  explanation: "In Python, input() always returns a string. The string '25' cannot be added to the integer 1 — Python raises a TypeError because these types are incompatible for addition. This is the core insight: user input always arrives as a string and must be explicitly converted with int() before arithmetic. The fix is: age = int(input('Enter your age: ')) + 1."
+
+- question: "What does int(7.9) evaluate to in Python?"
+  type: multiple-choice
+  options:
+    - "8, because int() rounds to the nearest integer"
+    - "7, because int() truncates toward zero"
+    - "8.0, because the result remains a float"
+    - "A ValueError, because 7.9 is not a valid integer representation"
+  answer: 1
+  explanation: "int() applied to a float truncates (chops off) the decimal portion — it does not round. int(7.9) → 7, and int(-7.9) → -7 (not -8). This surprises many beginners who expect mathematical rounding behavior. Truncation always moves toward zero, regardless of how close the decimal is to the next integer."
+
+- question: "int('3.14') successfully converts the string '3.14' to the integer 3 in Python."
+  type: true-false
+  answer: false
+  explanation: "int() cannot convert a string containing a decimal point directly to an integer — it raises a ValueError. The string '3.14' must first be converted to a float: float('3.14') gives 3.14, and then int(3.14) gives 3. You cannot skip the intermediate step."
+
+- question: "Any value entered by a user at the keyboard arrives in a Python program as a string, regardless of what they typed."
+  type: true-false
+  answer: true
+  explanation: "This is one of the most important facts about console input. input() always returns a string. If the user types '42', the program receives the string '42', not the integer 42. If the user types '3.14', the program receives the string '3.14'. Arithmetic on these values without explicit conversion will fail or produce unexpected results."
+
+- question: "Why does int('3.14') fail in Python, and what is the correct two-step approach to convert the string '3.14' to the integer 3?"
+  type: short-answer
+  answer: "int() can only parse strings that represent whole numbers (like '3' or '-10'). A string containing a decimal point is not a valid integer literal, so Python raises a ValueError. The correct approach is to first convert to a float — float('3.14') gives 3.14 — and then convert that float to an integer — int(3.14) gives 3. The two-step process passes through a valid intermediate type before truncating."
+  explanation: "This two-step requirement reveals an important principle: type conversions follow valid intermediate states. You cannot jump from a decimal-containing string directly to an integer because those types are too 'far apart' in their representations. Going string→float→int follows a logical path through a compatible intermediate type."
+```
+
 ## Explainer
 
 You already know that values in a program have types — integers, floats, strings, booleans — and that operators behave differently depending on those types. But what happens when you need to combine values of different types, or when data arrives in one type and you need it in another? This is where **type conversion** (also called **casting**) comes in: explicitly transforming a value from one type to another using built-in functions like `int()`, `float()`, and `str()`.

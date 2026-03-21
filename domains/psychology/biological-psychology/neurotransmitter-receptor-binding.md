@@ -37,6 +37,45 @@ Compare structural features of ionotropic receptors (AMPA, NMDA, GABA-A, glycine
 ## Common Misconceptions
 All receptors for one neurotransmitter produce the same effect / one neurotransmitter = one function / receptor density is fixed / desensitization is always bad.
 
+## Questions
+
+```yaml
+- question: "Dopamine is released simultaneously in two brain regions: region A contains D1 receptors (coupled to Gs proteins that elevate cAMP) and region B contains D2 receptors (coupled to Gi proteins that reduce cAMP). What would you predict about the effects of this dopamine release?"
+  type: multiple-choice
+  options:
+    - "The same excitatory effect in both regions, since dopamine is the same neurotransmitter"
+    - "Opposite effects — excitatory in region A and inhibitory in region B — because receptor subtype, not neurotransmitter identity, determines the response"
+    - "No effect in either region until dopamine is cleared by reuptake"
+    - "Inhibitory effects in both regions, since dopamine is primarily an inhibitory neurotransmitter"
+  answer: 1
+  explanation: "The receptor subtype — not the neurotransmitter — determines the cellular response. Dopamine at D1 receptors activates Gs, raising cAMP and producing excitatory downstream effects. The same dopamine at D2 receptors activates Gi, lowering cAMP and producing inhibitory effects. Option A reflects the misconception that one neurotransmitter = one function. The neurotransmitter is merely the key; the receptor determines which door it opens."
+
+- question: "A researcher applies a drug that selectively blocks NMDA receptors (ionotropic) but leaves metabotropic glutamate receptors intact. She then stimulates a glutamatergic synapse. Which outcome best describes what she would observe?"
+  type: multiple-choice
+  options:
+    - "All glutamate signaling is eliminated since NMDA receptors mediate all glutamate effects"
+    - "Fast excitatory postsynaptic potentials mediated by NMDA are blocked, but slower G-protein-mediated glutamate effects persist"
+    - "Inhibitory postsynaptic potentials increase because blocking NMDA disinhibits Cl− channels"
+    - "G-protein cascades are activated faster to compensate for lost ionotropic signaling"
+  answer: 1
+  explanation: "Ionotropic receptors (like NMDA) produce fast responses by directly gating ions; metabotropic receptors produce slower, amplified responses through G-protein cascades. Blocking one class leaves the other intact. Option A reflects the misconception that a single neurotransmitter has only one receptor type. In reality, glutamate binds multiple receptor types (AMPA, NMDA, kainate ionotropic; mGluR1-8 metabotropic), each with distinct kinetics and downstream effects."
+
+- question: "The same neurotransmitter can produce excitatory effects at one synapse and inhibitory effects at another, depending on which receptor type is present at the postsynaptic membrane."
+  type: true-false
+  answer: true
+  explanation: "This is the central insight of receptor pharmacology. Whether a neurotransmitter excites or inhibits depends entirely on the receptor it binds and the ion or second messenger that receptor controls. GABA-A receptors (Cl− channel) produce inhibition; but GABA acting on certain metabotropic GABA-B receptors can produce different kinetics. Similarly, acetylcholine is excitatory at nicotinic receptors (Na+/Ca2+ influx) and can be inhibitory at muscarinic M2 receptors in the heart. The neurotransmitter identity alone does not determine the sign of the response."
+
+- question: "Desensitization — when a receptor stops responding to its neurotransmitter despite the ligand still being bound — represents a malfunction or breakdown of the signaling system."
+  type: true-false
+  answer: false
+  explanation: "Desensitization is a normal, adaptive regulatory feature, not a malfunction. When prolonged or repeated activation closes a channel despite continued ligand binding, the synapse gains an important functional property: it encodes the *rate of change* in neurotransmitter levels rather than absolute concentration. Desensitization also prevents runaway excitation (e.g., seizures or excitotoxicity). Far from being harmful, it is one of the gain controls that gives synapses dynamic range."
+
+- question: "Why can the same neurotransmitter produce opposite functional effects in different brain regions, and what structural feature of the receptor system makes this possible?"
+  type: short-answer
+  answer: "The same neurotransmitter can produce opposite effects because different brain regions express different receptor subtypes coupled to different intracellular machinery. For example, dopamine at D1 receptors activates Gs proteins (increasing cAMP, generally excitatory), while at D2 receptors it activates Gi proteins (decreasing cAMP, generally inhibitory). The neurotransmitter binds the receptor's extracellular pocket, but the intracellular side of the receptor determines which G-protein is activated or which ion channel is gated. The neurotransmitter is the signal; the receptor is the decoder."
+  explanation: "This insight — that the receptor, not the neurotransmitter, determines the effect — is fundamental to neuropharmacology. It explains why drugs can selectively target specific receptor subtypes (e.g., D2 blockers for psychosis without eliminating all dopamine signaling), and why broad statements like 'dopamine is excitatory' or 'GABA is inhibitory' are oversimplifications that fail when applied across diverse brain circuits."
+```
+
 ## Explainer
 
 Think of a neurotransmitter receptor as a molecular lock that only a particular key — or keys with very similar shapes — can open. From your work on protein structure and function, you know that a protein's three-dimensional shape determines what it can bind and what it does when it binds. Receptors are membrane-spanning proteins whose extracellular binding pocket is precisely shaped to accommodate specific neurotransmitters. When a neurotransmitter molecule docks into that pocket, it induces a conformational change that triggers the receptor's downstream effect. The specificity of this binding is quantified by **binding affinity**, typically expressed as the dissociation constant (Kd) from enzyme kinetics: a low Kd means the receptor holds the neurotransmitter tightly, whereas a high Kd means binding is weak and transient.

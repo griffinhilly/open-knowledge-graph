@@ -39,6 +39,45 @@ Begin with the contrapositive (if Γ is consistent, it has a model) and understa
 - Confusing completeness (all valid formulas provable) with decidability (all formulas can be determined true or false).
 - Assuming completeness implies axiomatizability (a consistent theory complete in FOL is still not necessarily recursively axiomatizable).
 
+## Questions
+
+```yaml
+- question: "Gödel's incompleteness theorems show that Peano Arithmetic (PA) has true sentences that PA cannot prove. Does this contradict Gödel's completeness theorem for first-order logic?"
+  type: multiple-choice
+  options:
+    - "Yes — completeness says all true sentences are provable, but incompleteness says some are not"
+    - "No — completeness applies to logically *valid* sentences (true in all models), while the unprovable arithmetic sentences are true in the standard model but false in some non-standard model"
+    - "No — completeness applies only to propositional logic, not first-order arithmetic"
+    - "Yes — this is a known paradox in mathematical logic that remains unresolved"
+  answer: 1
+  explanation: "The two theorems address different objects. Completeness says: every formula that is *logically valid* (true in every model of every theory) is provable in first-order logic. The arithmetic sentences Gödel constructs are true in the standard natural numbers, but Peano Arithmetic has non-standard models where those sentences are false — so they are not logically valid, and completeness makes no promise about them. The incompleteness theorems show that PA (as a theory) is incomplete; the completeness theorem shows that first-order logic (as a proof system) is complete. These are claims about different things."
+
+- question: "The Henkin construction in the completeness proof builds a model for any consistent theory by:"
+  type: multiple-choice
+  options:
+    - "Translating the theory into a computable program and running it to enumerate all theorems"
+    - "Extending the theory to a maximal consistent set, adding witness constants for existential claims, and defining a term model whose universe is the set of closed terms"
+    - "Applying the axiom of choice to select one model from all possible interpretations"
+    - "Constructing the unique minimal model of the theory and verifying it satisfies all axioms"
+  answer: 1
+  explanation: "The Henkin construction is a three-step process: (1) Use Lindenbaum's lemma to extend the consistent theory Γ to a maximal consistent set Γ* by adding, for each formula, either it or its negation while preserving consistency. (2) For each existential ∃x φ(x) in Γ*, introduce a fresh 'Henkin constant' c and add φ(c) — this gives every existence claim a named witness. (3) Define the term model: the domain is the set of closed terms (modulo provable equality), and each predicate is interpreted by whether the corresponding atomic sentence is in Γ*. This model is built entirely from syntax and satisfies every sentence in Γ*."
+
+- question: "Gödel's completeness theorem for first-order logic states that every logically valid formula — one true in all interpretations — can be derived using the formal proof rules of first-order logic."
+  type: true-false
+  answer: true
+  explanation: "This is the completeness theorem's precise statement: Γ ⊨ φ implies Γ ⊢ φ. In particular, if φ is valid (true in all models, i.e., ∅ ⊨ φ), then φ is provable (⊢ φ). This establishes the adequacy of formal first-order proof systems: the syntactic machinery captures all semantic truth at the logical level. No valid formula escapes provability. The converse direction — soundness (Γ ⊢ φ implies Γ ⊨ φ) — is easier to prove and holds as well, making the two directions perfectly symmetric."
+
+- question: "Gödel's completeness theorem implies that any sufficiently strong first-order theory capable of expressing arithmetic must be able to prove or refute every sentence expressible in its language."
+  type: true-false
+  answer: false
+  explanation: "This confuses completeness of first-order *logic* with completeness of a *theory*. The completeness theorem says first-order logic is a complete proof system for logical validity. A theory like Peano Arithmetic is a specific set of axioms, and whether PA can prove or refute every arithmetic sentence is the question of PA's theoretical completeness — which Gödel's incompleteness theorem shows is false. There exist arithmetic sentences neither provable nor refutable from PA. Completeness of logic ≠ completeness of any particular theory built on that logic."
+
+- question: "What is the difference between 'first-order logic is complete' and 'Peano Arithmetic is complete'? Why does Gödel's completeness theorem not contradict his incompleteness theorem?"
+  type: short-answer
+  answer: "First-order logic is complete means: every formula that is logically valid (true in all models) is derivable using the proof rules of FOL. This is a claim about the proof system itself. Peano Arithmetic is complete would mean: for every sentence φ in the language of arithmetic, either PA ⊢ φ or PA ⊢ ¬φ. Gödel's incompleteness theorem says this fails — there are arithmetic sentences neither provable nor refutable from PA. There is no contradiction because the completeness theorem only guarantees proofs for *logically valid* sentences, while the Gödel sentences are not logically valid — they are true in the standard model but false in some non-standard model of PA."
+  explanation: "The key bridge is non-standard models. PA has models beyond the standard natural numbers (by the compactness theorem applied to PA plus the axiom 'there is an element larger than 0, 1, 2, 3...'). A Gödel sentence G is true in the standard model but false in some non-standard model, so G is not logically valid (not true in *all* models). The completeness theorem promises nothing about sentences that fail in some model. This is why the two theorems coexist: completeness quantifies over all models; incompleteness exploits the existence of non-standard ones."
+```
+
 ## Explainer
 
 You already know that a proof system for first-order logic is **sound** if every formula it can derive is actually valid — every proof leads somewhere true. Soundness is the easy direction and is established by checking that each inference rule preserves truth. Gödel's Completeness Theorem proves the converse: every valid formula *can* be derived. The formal statement is Γ ⊨ φ if and only if Γ ⊢ φ — semantic entailment and syntactic derivability coincide perfectly. This is a profound alignment between two very different ways of asking "must φ be true?"

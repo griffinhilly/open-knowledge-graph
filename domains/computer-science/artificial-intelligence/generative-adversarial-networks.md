@@ -39,6 +39,45 @@ Implement a simple GAN on MNIST, observing mode collapse and experimenting with 
 ## Common Misconceptions
 GANs do not reliably produce high-quality samples; mode collapse is common. Discriminator loss alone does not indicate sample quality.
 
+## Questions
+
+```yaml
+- question: "During GAN training, the discriminator's loss drops to near zero and stays there. What does this most likely indicate about the training dynamics?"
+  type: multiple-choice
+  options:
+    - "Training is succeeding — a near-zero discriminator loss means the generator is producing perfect samples"
+    - "The discriminator has become too strong, meaning the generator receives near-zero gradient signal and cannot improve"
+    - "Mode collapse has been prevented because the discriminator can perfectly classify all outputs"
+    - "The generator has converged to the data distribution and training can safely be stopped"
+  answer: 1
+  explanation: "When the discriminator is nearly perfect at distinguishing real from fake, log(1 − D(G(z))) saturates near zero, and the gradient flowing back to the generator vanishes. The generator cannot learn because it is receiving no useful training signal. This is the opposite of a success condition. At theoretical equilibrium, the discriminator should output 0.5 for everything — it literally cannot distinguish real from fake. A discriminator loss near zero means the generator is losing badly, not winning."
+
+- question: "In a GAN, what information does the generator receive during training to learn how to produce realistic samples?"
+  type: multiple-choice
+  options:
+    - "Direct access to the training data so it can learn to copy real examples"
+    - "A fixed target distribution it must match through supervised learning"
+    - "Gradient signals from the discriminator indicating how to adjust outputs to be more convincing"
+    - "Explicit density estimates of the training data provided by a separate density model"
+  answer: 2
+  explanation: "The generator never sees real training data directly — it only receives gradient signals backpropagated from the discriminator's assessment of whether its outputs are convincing. This indirect learning is both the elegance and a weakness of GANs: the generator learns purely from adversarial feedback, not from the data itself. This contrasts with VAEs (which use an explicit reconstruction loss against real data) and normalizing flows (which directly maximize likelihood under the data distribution)."
+
+- question: "At the theoretical equilibrium of GAN training, the discriminator outputs 0.5 for every input — whether real or generated."
+  type: true-false
+  answer: true
+  explanation: "This is the defining characteristic of GAN equilibrium: the generator has learned to produce samples indistinguishable from real data, so the discriminator — which only outputs a probability of being real — can do no better than random chance (0.5). In practice, this ideal equilibrium is rarely reached due to training instability, mode collapse, and the difficulty of simultaneously optimizing two competing networks. But the 0.5 threshold is the theoretical target that defines what 'convergence' means for the discriminator."
+
+- question: "Mode collapse in GANs occurs when the discriminator overfits to a small subset of real data examples."
+  type: true-false
+  answer: false
+  explanation: "Mode collapse is a failure of the generator, not the discriminator. It occurs when the generator discovers a small set of outputs that reliably fool the discriminator and exploits those exclusively — producing, for example, only convincing 7s when trained on MNIST, while never generating other digits. The generator over-exploits a few successful strategies instead of exploring the full diversity of the data distribution. The discriminator may eventually learn to spot these repetitive outputs, but mode collapse originates from the generator's optimization dynamics, not discriminator overfitting."
+
+- question: "Why does GAN training not require explicit density estimation of the training data, and what problem does this create?"
+  type: short-answer
+  answer: "GANs learn to sample from the data distribution implicitly through adversarial feedback. The generator adjusts its outputs based on gradients from the discriminator without ever modeling the probability density of the training data. This avoids the computational and architectural constraints of explicit density models. The problem it creates is training instability: because the generator's only signal is an adversary that is also changing, the optimization is a minimax game with no guarantee of stable convergence. Mode collapse, vanishing gradients, and oscillations arise from this unstable two-player dynamic."
+  explanation: "This contrast with other generative models (VAEs, normalizing flows) is central to understanding why GANs produce high-quality samples but are hard to train. Explicit density models maximize likelihood directly, which provides a stable, well-defined training objective but constrains the architecture. GANs' implicit approach allows modeling very complex distributions but replaces a stable optimization problem with an adversarial game."
+```
+
 ## Explainer
 
 From neural networks, you know how to train a model to map inputs to outputs by minimizing a loss function. From probability and optimization, you know that distributions can be complex and high-dimensional. **Generative adversarial networks** combine these ideas in a surprising way: instead of training one network to solve a task, you train two networks that compete against each other, and the byproduct of their competition is a generator capable of producing realistic synthetic data.

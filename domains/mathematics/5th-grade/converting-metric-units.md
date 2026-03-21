@@ -36,6 +36,45 @@ Use the metric staircase or place-value chart to determine how many places to sh
 - Confusing the number of places to move for different prefix pairs (km to mm is 6 places, not 3).
 - Mixing up metric and customary conversion factors.
 
+## Questions
+
+```yaml
+- question: "Convert 4.7 kilometers to meters."
+  type: multiple-choice
+  options:
+    - "0.0047 m"
+    - "47 m"
+    - "470 m"
+    - "4,700 m"
+  answer: 3
+  explanation: "1 kilometer = 1,000 meters, so multiply by 1,000. Multiplying by 1,000 moves the decimal point 3 places to the right: 4.7 → 4,700. The answer passes the intuition check: meters are smaller than kilometers, so going from km to m should give a larger number. Options A and B result from moving the decimal the wrong way or the wrong number of places."
+
+- question: "A student converts 850 centimeters to meters and gets 85,000. They moved the decimal 3 places to the right. What went wrong?"
+  type: multiple-choice
+  options:
+    - "They should have moved the decimal only 2 places, not 3"
+    - "Converting to a larger unit means dividing — moving the decimal LEFT — not right; the correct answer is 8.5 m"
+    - "There are only 10 centimeters in a meter, not 100"
+    - "The answer is correct"
+  answer: 1
+  explanation: "The critical rule: going to a larger unit means you need fewer of them, so the number gets smaller — move the decimal LEFT (divide). 1 meter = 100 centimeters, so 850 cm ÷ 100 = 8.5 m. Moving right (multiplying) is used when converting to a smaller unit. The student applied the right number of places (2 for cm→m, not 3) but also moved in the wrong direction — a compound error."
+
+- question: "Converting a measurement from a smaller unit to a larger unit always produces a larger number (for example, 500 cm becomes a number larger than 500 when converted to meters)."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true. Converting to a larger unit always produces a smaller number — you need fewer large units to describe the same length. 500 cm = 5 m, and 5 is much smaller than 500. The intuition check 'larger unit → smaller number, smaller unit → larger number' is the built-in sanity check for every metric conversion."
+
+- question: "Multiplying a number by 1,000 and moving its decimal point 3 places to the right describe the exact same mathematical operation."
+  type: true-false
+  answer: true
+  explanation: "Moving the decimal point one place to the right multiplies by 10 (5.0 → 50.0). Moving it 2 places multiplies by 100; 3 places multiplies by 1,000. The decimal-point shift notation is just a shorthand for the underlying place-value arithmetic. This connection is why metric conversions are so straightforward: each prefix step corresponds to exactly one decimal place shift."
+
+- question: "How can you quickly check whether you moved the decimal point in the right direction when converting between metric units?"
+  type: short-answer
+  answer: "Ask: am I converting to a larger unit or a smaller unit? If larger (e.g., cm → m, g → kg), the number should get smaller — move the decimal left. If smaller (e.g., m → cm, kg → g), the number should get larger — move the decimal right. If your answer violates this — for instance, if you converted to meters and got a bigger number than your centimeter value — you moved the decimal the wrong way."
+  explanation: "This direction check is more reliable than trying to remember 'multiply or divide' for each pair of units. It is grounded in a simple physical truth: larger units need fewer of them to cover the same quantity. Any answer that puts more of a larger unit than a smaller unit for the same measurement is automatically wrong."
+```
+
 ## Explainer
 
 You already know three things that come together here: the metric prefix system (kilo-, base, centi-, milli-), how multiplying and dividing by powers of ten shifts the decimal point, and how decimal place value works. Metric unit conversion in 5th grade is the intersection of all three — and once you see the connection, conversions become almost automatic.

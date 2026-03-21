@@ -28,6 +28,45 @@ Revisit the definition of absolute value as distance from zero. Solve progressiv
 - Not checking for extraneous solutions, especially when the equation has been manipulated.
 - Thinking |x| = -3 has solutions (absolute value is never negative).
 
+## Questions
+
+```yaml
+- question: "Solve |2x + 4| = 6. Which answer correctly identifies ALL solutions?"
+  type: multiple-choice
+  options:
+    - "x = 1 only — solving 2x + 4 = 6"
+    - "x = 1 and x = −5 — solving both 2x + 4 = 6 and 2x + 4 = −6"
+    - "x = −5 only — since the expression must be negative inside the bars"
+    - "No solution — the right side must first be rewritten before splitting"
+  answer: 1
+  explanation: "Case-splitting gives two equations: 2x + 4 = 6 → x = 1, and 2x + 4 = −6 → x = −5. Both satisfy the original equation when checked. The most common error is solving only the positive case and missing x = −5 entirely."
+
+- question: "A student encounters |3x − 1| = −4. What is the correct conclusion?"
+  type: multiple-choice
+  options:
+    - "x = −1 (solving 3x − 1 = −4)"
+    - "x = 5/3 and x = −1 (splitting into both cases)"
+    - "There is no solution because an absolute value cannot equal a negative number"
+    - "x = 5/3 (solving 3x − 1 = 4)"
+  answer: 2
+  explanation: "Absolute value is always non-negative, so |3x − 1| ≥ 0 for every real x. The equation |3x − 1| = −4 asks when a non-negative quantity equals a negative number — which is never. Stop immediately when c < 0; no case-splitting is needed."
+
+- question: "The equation |x − 5| = 3 has exactly one solution, x = 8."
+  type: true-false
+  answer: false
+  explanation: "Case-splitting gives two equations: x − 5 = 3 → x = 8, and x − 5 = −3 → x = 2. Both values satisfy |x − 5| = 3. Forgetting the negative case is the single most common error in absolute value equations — it always produces two solutions (when c > 0) unless the two cases coincidentally give the same answer."
+
+- question: "When solving |f(x)| = |g(x)|, the correct approach is to set up two cases: f(x) = g(x) and f(x) = −g(x)."
+  type: true-false
+  answer: true
+  explanation: "Two expressions have equal absolute values when they are equal or when they are opposites — exactly these two cases. This is the natural extension of the single-sided case: |expression| = c becomes expression = c or expression = −c, and when both sides have absolute values, the same logic applies to the relationship between f(x) and g(x)."
+
+- question: "Why is it necessary to check solutions back in the original absolute value equation, and what type of error are you guarding against?"
+  type: short-answer
+  answer: "Checking guards against extraneous solutions — values that satisfy an algebraically manipulated form of the equation but not the original. Extraneous solutions can arise from operations like squaring both sides (sometimes used as an alternative method), which can introduce values that weren't present in the original. Substituting each candidate solution back into |f(x)| = c and verifying the equation holds is the only reliable way to confirm every solution is genuine."
+  explanation: "Absolute value equations are one of the few contexts where algebraically correct steps can introduce spurious answers. The habit of checking solutions — fast and reliable — becomes even more critical when moving to absolute value inequalities, where forgetting to verify can silently produce an incorrect solution set."
+```
+
 ## Explainer
 
 You already know that **absolute value** measures distance from zero on the number line: |x| is always non-negative, regardless of the sign of x. Solving an absolute value equation asks a geometric question: for which values of x is the expression inside the absolute value bars exactly a certain distance from zero? The answer requires thinking in two directions. If |f(x)| = 5, then f(x) must be exactly 5 away from zero — either f(x) = 5 (positive direction) or f(x) = −5 (negative direction). This is the **case-splitting** technique, and it is the engine of every absolute value equation.

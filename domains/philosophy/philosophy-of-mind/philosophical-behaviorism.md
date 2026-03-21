@@ -32,6 +32,45 @@ Read Ryle's The Concept of Mind, especially the chapter on 'Descartes' Myth.' Wo
 - Philosophical behaviorism is not the same as psychological behaviorism (Skinner); the philosophical version makes a conceptual claim about the meaning of mental terms, not an empirical claim about learning.
 - Behaviorism is not simply the view that we can only know about minds through behavior; it claims mental states just are behavioral dispositions.
 
+## Questions
+
+```yaml
+- question: "Ryle accuses Descartes of a 'category mistake.' What exactly is this mistake?"
+  type: multiple-choice
+  options:
+    - "Descartes wrongly claimed that mental states are caused by brain states"
+    - "Descartes treated the mind as a hidden inner entity of the same logical type as the body, just immaterial — like asking 'where is the university?' after visiting all its buildings"
+    - "Descartes failed to distinguish between voluntary and involuntary behavior"
+    - "Descartes confused the concept of mind with the concept of consciousness"
+  answer: 1
+  explanation: "Ryle's category mistake charge is that Descartes treated 'mind' as naming an inner mechanism that runs alongside the body, parallel to it but nonphysical. Just as someone who has visited all the university's colleges and labs and then asks 'but where is the university?' makes a logical error (the university IS the organized functioning of those parts), positing a mind over and above behavior is a logical error. The mind is not an extra entity — mental terms describe how a person behaves and is disposed to behave."
+
+- question: "Consider a 'super-spartan' who feels intense pain but shows none of the behavioral responses associated with pain — no wincing, crying, avoidance, or verbal report. What does this thought experiment reveal about philosophical behaviorism?"
+  type: multiple-choice
+  options:
+    - "It confirms behaviorism: since the super-spartan shows no behavior, they have no pain"
+    - "It is irrelevant because such a person is physically impossible"
+    - "It reveals that behavioral dispositions can serve as evidence for pain without being identical to pain — the super-spartan intuitively still hurts"
+    - "It shows that behaviorism is correct but incomplete — we need to add memory and language to the account"
+  answer: 2
+  explanation: "The super-spartan thought experiment is designed to pump the intuition that someone can be in pain even with no behavioral dispositions to show it. If pain just IS the disposition to wince, cry out, etc., then the super-spartan feels nothing — but that conclusion seems clearly wrong. The intuition is that pain has a felt, qualitative character that behavioral dispositions cannot capture. This is the qualia objection to behaviorism."
+
+- question: "Philosophical behaviorism claims that we can only know about other minds through behavioral evidence."
+  type: true-false
+  answer: false
+  explanation: "This is a crucial distinction. Philosophical (logical) behaviorism makes a stronger, conceptual claim: mental states just are behavioral dispositions — not merely that we infer them from behavior. The claim is about what mental terms mean, not just our epistemic access. A view that says 'we can only know about minds through behavior' is epistemological. Behaviorism makes an ontological/semantic claim: pain isn't a hidden inner state that causes behavior; it IS the relevant set of dispositions."
+
+- question: "Philosophical behaviorism and psychological behaviorism (Skinner) make the same kind of claim, just about different subject matter."
+  type: true-false
+  answer: false
+  explanation: "They make fundamentally different kinds of claims. Psychological behaviorism is empirical: it claims that behavior can be explained through stimulus-response patterns without invoking mental states. Philosophical behaviorism is conceptual/semantic: it claims that mental vocabulary, properly analyzed, refers to behavioral dispositions — a claim about the meaning of mental terms, not an empirical hypothesis about learning mechanisms. The distinction matters because the philosophical version cannot be refuted by experiments the way the psychological version can."
+
+- question: "Why does the super-spartan thought experiment pose a serious problem for philosophical behaviorism? What does it reveal about the relationship between behavioral dispositions and inner experience?"
+  type: short-answer
+  answer: "The super-spartan has no behavioral dispositions associated with pain — they don't wince, cry out, or seek relief — yet intuitively they are still in pain. If behaviorism is correct and pain just IS the set of behavioral dispositions, the super-spartan feels nothing. But this seems wrong: pain has a felt, qualitative character (qualia) that seems conceptually separable from any behavior. The thought experiment reveals that behavioral dispositions are at most evidence for mental states, not their definition — you can have the inner experience without the behavioral profile."
+  explanation: "The force of the thought experiment is that it separates the inner experience from the behavioral criteria. Behaviorism needs these to be the same thing; the super-spartan shows they can come apart. This doesn't prove behaviorism false, but it reveals that the analysis is incomplete — something more than behavioral disposition seems to be part of what 'pain' means."
+```
+
 ## Explainer
 
 The **mind-body problem** you've studied asks how mental states relate to physical ones. One tempting answer, historically dominant, is Cartesian dualism: the mind is a nonphysical substance that causally interacts with the body. Gilbert Ryle's philosophical behaviorism begins as a sustained attack on this picture. Ryle's diagnosis is that Descartes made a **category mistake** — he treated the mind as a hidden inner entity of the same logical type as the body, just immaterial rather than material. This is like watching all the departments of a university and then asking "but where is the university?" The university is not an extra thing; it is the organized functioning of the departments. Similarly, the mind is not a hidden mechanism running alongside the body — mental terms describe how a person *behaves* and *is disposed to behave*.

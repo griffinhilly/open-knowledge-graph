@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 Work is not merely an economic activity but a social institution that shapes identity, status, and daily social relationships. Occupational structures distribute rewards, authority, and prestige unequally; entry into an occupation involves occupational socialization—learning appropriate behavior, values, and ways of thinking within professional communities.
 
+## Questions
+
+```yaml
+- question: "A newly licensed physician has mastered clinical knowledge and passed board exams, but still struggles to tolerate diagnostic uncertainty, maintain appropriate emotional distance from patient suffering, and navigate the informal hierarchy among specialists. According to the sociology of work, what is this physician still acquiring?"
+  type: multiple-choice
+  options:
+    - "Human capital — the technical skills and knowledge that make workers economically productive"
+    - "Occupational socialization — the norms, orientations, identity, and informal rules appropriate to the medical profession"
+    - "Occupational closure credentials — the formal licensing requirements that restrict entry into medicine"
+    - "Alienated labor — the experience of disconnection from one's productive capacity under capitalist work organization"
+  answer: 1
+  explanation: "Occupational socialization includes both the formal (clinical training) and the informal — the unwritten rules, emotional orientations, ways of thinking, and professional identity that experienced practitioners embody. Everett Hughes called these the 'humble and proud' features of occupational life: the dirty work outsiders don't see alongside the skilled work that justifies the occupation's claims to status. Medical students learn more than anatomy; they learn how to be a physician — a process that continues well beyond licensure."
+
+- question: "A professional association lobbies state legislatures for mandatory licensing requirements in its field, arguing this protects consumers from unqualified practitioners. A sociologist of work would observe:"
+  type: multiple-choice
+  options:
+    - "This is a purely altruistic consumer-protection measure with no structural implications for the occupation's members"
+    - "Licensing is a form of alienation because it fragments skilled work into bureaucratically regulated tasks"
+    - "Mandatory licensing functions simultaneously as a quality-control mechanism and as occupational closure — restricting entry to maintain credential scarcity and limit competition"
+    - "Only state-mandated licensing enacted without industry input constitutes genuine occupational closure"
+  answer: 2
+  explanation: "Occupational closure describes how occupations restrict entry to maintain the scarcity — and thus the market value — of their credentials and expertise. Professional associations that lobby for licensing requirements are simultaneously pursuing two goals: the ostensible public justification (quality control) and the structural effect (limiting the supply of licensed practitioners, protecting incumbents from competition). Sociologists don't treat these as mutually exclusive — the same mechanism can serve both functions — but they insist that the stratification-reinforcing effect be recognized alongside the quality rationale."
+
+- question: "Work shapes identity and social position so thoroughly that asking someone 'what do you do?' immediately communicates information about their education, likely income, social world, and status — far beyond just their job duties."
+  type: true-false
+  answer: true
+  explanation: "This is the core sociological claim that distinguishes the sociology of work from economics of labor. Occupational identity is a primary axis of social categorization in modern societies. An occupation signals not just an activity but a position in the stratification system — education level, income range, lifestyle associations, and likely social networks. This is why 'what do you do?' functions as social positioning rather than mere information gathering, and why unemployment or occupational degradation carries identity consequences beyond income loss."
+
+- question: "Occupational prestige rankings vary significantly across cultures and change substantially from decade to decade as economic conditions and labor market demand shift."
+  type: true-false
+  answer: false
+  explanation: "The striking empirical finding in sociology of occupations is the cross-cultural and temporal stability of occupational prestige rankings. Studies comparing prestige scores across very different societies and across several decades find remarkably high correlations. Physicians, lawyers, and professors rank highly almost everywhere; manual laborers and service workers rank lower. This stability suggests prestige reflects deeply institutionalized beliefs about the social value of different forms of work, education, and expertise — not just current market wages — and that it changes slowly even as economic conditions fluctuate."
+
+- question: "Why do sociologists treat work as a social institution rather than simply an economic activity, and what does this perspective reveal that an economic analysis alone would miss?"
+  type: short-answer
+  answer: "Treating work as a social institution means recognizing that it does more than produce economic output and distribute wages — it organizes identity, social relationships, daily time structure, and social position. Work is where social structure enters individual experience: who you work with, how your occupation positions you in a status hierarchy, what occupational socialization has taught you to see and value, and whether your work involves emotional labor, alienation, or genuine craft all shape consciousness in ways that wage rates don't capture. An economic analysis misses why unemployment is psychologically devastating beyond income loss, why occupational prestige is stable even when wages shift, and why the same work produces very different experiences depending on one's position in the occupational structure."
+  explanation: "The sociological lens also reveals mechanisms of stratification reproduction that economics tends to treat as exogenous: occupational closure, credential inflation, and occupational socialization all operate to transmit advantage and disadvantage across generations in ways that labor market models typically don't model. By treating work as a social institution, sociologists can ask not just 'what does this job pay?' but 'what does this job make you?'"
+```
+
 ## Explainer
 
 Your prerequisite in social institutions gave you the framework for understanding that institutions are durable patterns of norms, roles, and relationships that organize major domains of social life. Work is one of the most powerful institutions in modern societies — not simply because it produces economic output but because it structures time, identity, social relationships, and social position. When someone asks "what do you do?" they are typically asking for occupational identity, which communicates — within seconds — something about education, income, likely lifestyle, and social world. Work is the primary mechanism through which market societies distribute not just wages but status, authority, and self-concept.

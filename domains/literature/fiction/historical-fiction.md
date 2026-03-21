@@ -33,6 +33,45 @@ Read a historical novel alongside a nonfiction account of the same period. Ident
 - Accuracy about costumes and customs is less important than accuracy about social conditions and power structures.
 - Historical novels may legitimately invent characters, events, and dialogue, but should not contradict well-established historical facts without purpose.
 
+## Questions
+
+```yaml
+- question: "A novelist writing a story set in medieval Europe gives her peasant protagonist an internal monologue about self-actualization and breaking free from societal conditioning. What craft problem does this illustrate?"
+  type: multiple-choice
+  options:
+    - "Unreliable narration — the character cannot be trusted to accurately report events"
+    - "Anachronism — the character is thinking in conceptual frameworks unavailable in their historical moment"
+    - "Purple prose — the interiority is overwritten and melodramatic"
+    - "Lack of verisimilitude — medieval peasants did not have rich inner lives"
+  answer: 1
+  explanation: "This is a textbook case of anachronism: imposing contemporary psychological frameworks ('self-actualization,' 'societal conditioning') onto a character who lived before those concepts existed. Anachronism is not just about material objects — it is about the horizon of thought available to historical people. A medieval peasant understood their world through religious, feudal, and communal frameworks, not through Maslow's hierarchy or sociological theory. The genre's central craft danger is allowing the novelist's present-day consciousness to colonize the characters' minds."
+
+- question: "Which of the following best explains why Toni Morrison's Beloved qualifies as great historical fiction rather than merely a novel 'set in the past'?"
+  type: multiple-choice
+  options:
+    - "It is scrupulously accurate about the material culture of post-Civil War Ohio"
+    - "It invents no characters — all figures are drawn from historical records"
+    - "The history of slavery is not context but the argument — the historical moment is doing the thematic work"
+    - "It covers a long historical period spanning multiple generations"
+  answer: 2
+  explanation: "The key distinction is whether the historical setting is doing thematic work or merely providing atmosphere. In Beloved, slavery and its aftermath is not backdrop — it is the novel's central subject and argument. The specific historical conditions (the Fugitive Slave Act, the psychic aftermath of enslavement, the ghost as externalized trauma) are not decorative; they make the story possible and give it its meaning. A story 'set in the past' uses history as setting; historical fiction uses history as medium."
+
+- question: "In historical fiction, getting the social conditions and power structures of a period right matters more than accurately representing material culture like clothing and technology."
+  type: true-false
+  answer: true
+  explanation: "Social and psychological verisimilitude — accurately representing how people in a given historical moment understood their world, what they feared, what they could imagine — is more significant than material verisimilitude. Getting costumes wrong is a minor error; giving a 17th-century character the psychological interiority of a 21st-century person destroys the historical authenticity that gives the genre its power. Material details can be checked by a fact-checker; capturing the epistemic horizon of a historical moment requires deep historical imagination."
+
+- question: "Historical fiction is distinguished from other genres primarily by the accuracy of its physical and material details — correct furniture, clothing, and technology signal a well-researched historical novel."
+  type: true-false
+  answer: false
+  explanation: "Material accuracy is the least important level of verisimilitude in historical fiction. What defines the genre is whether the historical context is integral to the story's meaning — whether the social conditions, power structures, and epistemic horizon of the period are accurately rendered and doing thematic work. A novel with perfectly described period furniture but anachronistic psychology and modern social attitudes fails as historical fiction, while one with some material inaccuracies but a deep understanding of how people in that era thought and lived succeeds."
+
+- question: "Why is anachronism considered the central craft danger of historical fiction, and how does it differ from simple factual error?"
+  type: short-answer
+  answer: "Anachronism is the imposition of contemporary values, knowledge, or psychological frameworks onto historical characters who could not have held them. It differs from factual error (getting a date or location wrong) because it undermines the fundamental premise of the genre: that the historical moment shapes how people think and what is imaginable to them. A factual error is correctable; anachronism collapses the distance between past and present that historical fiction needs in order to do its thematic work — exploring what the past illuminates about human experience that the present obscures."
+  explanation: "The danger is not merely one of accuracy but of conceptual integrity. Historical fiction's deepest claim is that different historical conditions produce different forms of consciousness and possibility. When characters think in twenty-first-century terms, the novel loses its ability to show readers a genuinely different world — and with it, the ability to use that difference to illuminate the present. Every line of dialogue and interior thought is a test: would this person, in this time and place, be capable of thinking this?"
+```
+
 ## Explainer
 
 You already know how setting creates atmosphere and how world-building constructs the internal logic of a fictional space. Historical fiction applies both skills under a special constraint: the world being built already exists in the historical record. The novelist does not invent the rules of sixteenth-century Venice or the social hierarchies of the antebellum South — they inherit them, and must then navigate between fidelity to that inheritance and the freedom that fiction requires. That navigation is the central craft problem of the genre.

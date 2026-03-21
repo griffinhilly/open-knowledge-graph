@@ -34,6 +34,45 @@ Write and run short MIPS or RISC-V assembly programs in a simulator such as MARS
 - Assembly language is not machine code — it is a text-based representation that an assembler translates into binary.
 - Writing assembly is not always faster than compiled code; modern optimizing compilers often produce more efficient code than hand-written assembly.
 
+## Questions
+
+```yaml
+- question: "In a RISC assembly program, a programmer wants to add two values stored in memory. What must happen before the addition can occur?"
+  type: multiple-choice
+  options:
+    - "The ADD instruction can directly reference memory addresses as its operands"
+    - "The values must be loaded into registers first, because arithmetic operations work only on register contents"
+    - "The values must be converted to hexadecimal before the processor can handle them"
+    - "The programmer must declare the memory addresses as variables at the start of the program"
+  answer: 1
+  explanation: "In RISC architectures, arithmetic instructions only operate on register contents — this is the load-store model. To add two values in memory, you must first use LOAD instructions to bring them into registers, then ADD the registers, then optionally STORE the result back. The ADD instruction cannot directly reference memory addresses (option A) in a load-store architecture. This constraint keeps the instruction set simple and the hardware fast."
+
+- question: "A student writes `lw $t0, 8($sp)`. Which addressing mode is this, and what does it do?"
+  type: multiple-choice
+  options:
+    - "Immediate addressing — it loads the constant 8 into register $t0"
+    - "Register addressing — it copies the value of $sp into $t0, offset by 8 bits"
+    - "Base-plus-offset addressing — it loads the word in memory at address (sp + 8) into $t0"
+    - "Indirect addressing — it loads the word at the address stored in memory location 8"
+  answer: 2
+  explanation: "Base-plus-offset addressing computes a memory address by adding a constant offset to a register value. `lw $t0, 8($sp)` means: compute sp+8, read the word at that memory location, and put it in $t0. This mode is essential for accessing stack variables, array elements, and struct fields. Immediate addressing (option A) embeds a constant directly as an operand, not as an address offset."
+
+- question: "Assembly language and machine code are equivalent terms — both refer to the binary instructions a CPU executes."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception the topic addresses. Assembly language is a human-readable text representation of machine instructions — it uses mnemonics like ADD, LOAD, and BRANCH. Machine code is the binary encoding the CPU actually executes. An assembler translates assembly into machine code. They represent the same operations, but assembly is text; machine code is binary."
+
+- question: "In a RISC assembly program, all control flow — if-else, loops, and function calls — ultimately reduces to conditional and unconditional jump instructions."
+  type: true-false
+  answer: true
+  explanation: "Assembly has no structured control flow constructs — no if-else blocks, no for loops, no built-in function call syntax. All control flow is implemented through branch (conditional jump) and jump (unconditional jump) instructions combined with labels. `beq $t0, $zero, loop` is equivalent to 'if $t0 == 0, go to loop.' Everything else — loops, conditionals, function calls, returns — is built from this primitive."
+
+- question: "Why does the load-store model — where arithmetic happens only in registers and memory is accessed only through explicit load/store instructions — make hardware design simpler and faster?"
+  type: short-answer
+  answer: "By restricting arithmetic to register contents, the CPU's execution units only need to handle a small, fixed set of fast storage locations rather than the vastly larger and slower memory space. Load and store instructions are explicitly sequenced, making memory access predictable. This separation allows the processor to execute arithmetic at register speed — orders of magnitude faster than memory access — while treating memory operations as their own distinct pipeline stage."
+  explanation: "The load-store model is the defining characteristic of RISC architectures. It simplifies instruction decoding (every arithmetic instruction has the same format), enables pipelining (arithmetic and memory stages are separate), and allows the CPU to optimize register usage aggressively. The cost is that programmers must explicitly manage data movement — which is exactly why reading assembly reveals what a program is actually doing at the hardware level."
+```
+
 ## Explainer
 
 You already understand from instruction set architecture that a processor executes binary-encoded instructions, each specifying an operation and its operands. Assembly language is the human-readable face of these binary instructions: instead of writing `0000 0000 1010 0000 0010 0000 0010 0000` you write `add $a0, $a1, $zero`. Every assembly instruction maps to exactly one machine instruction (or, in some assemblers, a small fixed expansion called a **pseudo-instruction**). This one-to-one correspondence is what distinguishes assembly from higher-level languages — there is no abstraction layer, no optimization step, and no hidden behavior.

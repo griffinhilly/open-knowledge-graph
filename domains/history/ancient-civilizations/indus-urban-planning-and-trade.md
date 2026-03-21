@@ -33,6 +33,45 @@ Compare Indus city layouts to Mesopotamian and Egyptian cities to identify uniqu
 - The absence of palatial architecture does not mean Indus society lacked centralized control—administration may have been more diffuse or merchant-based.
 - We cannot read Indus script yet, so claims about Indus beliefs or governance remain speculative.
 
+## Questions
+
+```yaml
+- question: "Archaeologists find standardized bricks in a 1:2:4 ratio at Harappa, Mohenjo-daro (600 km away), and Lothal (even farther). A student concludes: 'This proves a centralized empire with a powerful king imposing standards.' Why is this conclusion problematic?"
+  type: multiple-choice
+  options:
+    - "The brick proportions are coincidental — ancient builders naturally converged on the same dimensions"
+    - "Standardization proves long-distance trade occurred but says nothing about political organization"
+    - "While the standardization clearly required coordination, the absence of royal palaces and inscribed rulers means we cannot conclude a centralized empire — the mechanism of coordination remains unknown"
+    - "The conclusion is correct — uniform material standards across distant cities always require a central government"
+  answer: 2
+  explanation: "The standardization is real and analytically significant, but the interpretive leap to 'centralized empire' is unwarranted. Unlike Mesopotamia — where ziggurats, king-lists, and royal inscriptions make the palace-temple center unmistakable — Indus cities lack identifiable palaces, glorified rulers, or monumental self-promotion. Whether coordination came from a central state, a merchant network, or deeply shared cultural conventions is genuinely unknown. The standardization proves coordination happened; it does not reveal how."
+
+- question: "What is the primary archaeological evidence that Indus traders reached Mesopotamia during the third and second millennia BCE?"
+  type: multiple-choice
+  options:
+    - "Deciphered Indus texts describe trade routes to the Persian Gulf"
+    - "Indus seals found at Mesopotamian sites like Ur, combined with Mesopotamian textual references to trade with 'Meluhha'"
+    - "Mesopotamian clay tablets written in Indus script have been recovered from Harappa"
+    - "Genetic analysis of Mesopotamian populations shows significant Indus ancestry"
+  answer: 1
+  explanation: "Indus seals — small carved steatite stamps bearing pictographic inscriptions and animal imagery — have been found at Mesopotamian sites, and Mesopotamian cuneiform texts reference trade with a region called 'Meluhha,' widely identified as the Indus. The Indus script itself has never been deciphered, so it cannot provide textual evidence from the Indus side. The evidence is therefore asymmetric: Mesopotamian texts confirm the trade while Indus material remains (seals, carnelian beads, cotton textiles) confirm the goods."
+
+- question: "The absence of monumental palaces and royal inscriptions in Indus cities proves that Indus society lacked significant administrative coordination."
+  type: true-false
+  answer: false
+  explanation: "The standardization of bricks, weights, and measures across hundreds of kilometers clearly required coordination of some kind. The absence of palatial architecture shows only that the form of governance differed from the Mesopotamian palace-temple model — not that coordination was absent. Administration may have been merchant-based, diffuse, or organized around institutions we have not yet identified. Absence of evidence for a particular organizational form is not evidence of disorganization."
+
+- question: "Because the Indus script has not been deciphered, historians must rely entirely on material evidence — archaeological remains, artifact distributions, and architectural analysis — to reconstruct Indus trade and economic organization."
+  type: true-false
+  answer: true
+  explanation: "Without readable texts from the Indus side, all reconstruction of trade routes, economic relationships, and governance comes from archaeology: standardized weights found consistently calibrated across sites, seals recovered at distant locations, carnelian beads whose distinctive drilling techniques identify their Indus origin, and comparative architectural analysis. This makes the Indus case a methodological lesson in reading the past from material evidence when texts are unavailable — or unreadable."
+
+- question: "What does the standardization of bricks and weights across Indus cities reveal, and what does it leave unexplained?"
+  type: short-answer
+  answer: "Standardization reveals that coordination existed: bricks in a consistent 1:2:4 ratio and stone cube weights in consistent binary and decimal systems appear at sites separated by hundreds of kilometers, ruling out independent coincidence. Something ensured conformity across a vast region. What standardization cannot reveal is the mechanism: whether a central state imposed standards, a merchant guild enforced them, or deeply shared cultural conventions propagated them without top-down enforcement. Without decipherable texts or identifiable administrative centers (no palaces, no royal inscriptions comparable to Mesopotamia or Egypt), the 'how' of Indus coordination remains one of the great unresolved questions in ancient history."
+  explanation: "This is the central interpretive puzzle of Indus studies: the evidence for coordination is overwhelming, but the institutional structure that produced it is invisible to current methods. This uncertainty is intellectually honest — students should resist the temptation to fill the gap with analogies to Mesopotamia or Egypt, whose administrative forms were quite different."
+```
+
 ## Explainer
 
 From your study of the Indus Valley Civilization and ancient urbanization, you have a foundation for understanding what distinguishes a city from a large village: division of labor, monumental public architecture, administrative coordination, and surplus extraction. What makes the Indus cities of Harappa and Mohenjo-daro intellectually extraordinary is not that they were large—though at their peak each housed 40,000–80,000 people, rivaling the largest Mesopotamian cities—but that the form of their urban organization was unlike anything else in the ancient world. Comparing them to what you know of Mesopotamian cities reveals both the similarities and the profound differences.

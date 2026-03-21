@@ -33,6 +33,45 @@ Always find external support reactions first, then pass an imaginary cut at the 
 - Choosing the more complicated side of the cut for the FBD, making the algebra harder than necessary.
 - Confusing the sign convention for internal forces with the sign of external reactions — internal sign conventions are defined relative to the cut face orientation.
 
+## Questions
+
+```yaml
+- question: "You apply the section method to find the bending moment at a cut section of a beam. When you take moments about the cut point, what happens to N and V in the equation?"
+  type: multiple-choice
+  options:
+    - "N and V both appear in the moment equation and must be solved first before finding M"
+    - "N and V are zero at the cut because the beam is in equilibrium, so they vanish automatically"
+    - "N and V are eliminated because their lines of action pass through the cut point, contributing zero moment"
+    - "N creates a moment but V does not, so only V is eliminated when taking moments about the cut"
+  answer: 2
+  explanation: "Taking moments about the cut point is powerful precisely because N and V both act *at* the cut face — their lines of action pass through the moment center. A force acting through the moment center contributes zero moment (moment = force × perpendicular distance = force × 0). Both N and V vanish from the moment equation, leaving a single equation with M as the only unknown. This is why the section method always recommends summing moments about the cut point."
+
+- question: "What must be done before making an imaginary cut to find internal forces at a section of a beam?"
+  type: multiple-choice
+  options:
+    - "Identify the material properties and cross-sectional dimensions of the beam"
+    - "Choose the simpler side of the cut — the side with fewer loads — to isolate"
+    - "Determine all external support reactions by applying equilibrium to the entire structure"
+    - "Draw shear force and bending moment diagrams for the entire beam first"
+  answer: 2
+  explanation: "The section method requires knowing all forces and moments acting on the isolated portion before solving for N, V, and M. The external support reactions are part of those forces. If reactions are unknown, you have too many unknowns and cannot solve the equilibrium equations. The correct sequence is always: (1) solve the whole structure for reactions, then (2) make cuts to find internal forces at specific sections."
+
+- question: "Taking moments about the cut point when applying the section method eliminates both N and V from the moment equation, allowing M to be solved directly as the only unknown."
+  type: true-false
+  answer: true
+  explanation: "N (axial force) and V (shear force) both act at the cut cross-section — their lines of action pass through the cut point. A force through the moment center produces zero moment. Therefore both N and V drop out of the ΣM equation, leaving M as the sole unknown. This makes the moment equation the most efficient route to M in problems where all three internal resultants are unknown."
+
+- question: "The sign convention used for internal forces (N, V, M) at a cut section follows the same rules as the sign convention for external reactions and applied loads."
+  type: true-false
+  answer: false
+  explanation: "External reactions are defined relative to a fixed global coordinate system. Internal force sign conventions are defined relative to the cut face orientation: positive N means tension (faces pulling apart); positive V follows a specific face-direction convention; positive M produces concave-up curvature. These conventions ensure consistency when building shear and moment diagrams from multiple cuts. Mixing them up leads to incorrect signs throughout the analysis."
+
+- question: "Explain why a bending moment M must always be included at an imaginary cut section of a loaded beam, even if no external moment loads are applied anywhere on the beam."
+  type: short-answer
+  answer: "A bending moment at the cut is the internal moment the material exerts to prevent rotation of the isolated portion. Even without applied external moments, the external forces on the isolated portion (reactions and applied loads) typically do not all pass through the cut point — they create a net moment about the cut. For rotational equilibrium (ΣM_cut = 0), an internal bending moment M must exist at the cut to balance this net moment. Omitting M leaves the free body out of rotational equilibrium."
+  explanation: "The only exception is a two-force member — forces applied only at two points with no loads in between, where forces must be collinear and M = 0 at every interior section. For any beam with transverse loads, the forces on the isolated portion create a moment about the cut that must be balanced by internal M. This is precisely why beams deflect under load: M varies along the length, and that variation drives bending stress and curvature."
+```
+
 ## Explainer
 
 When you draw a free-body diagram of an entire structure, you can find the support reactions — the external forces and moments the supports exert on the structure. But this tells you nothing about what is happening *inside* the structure. A beam carrying a heavy load might be about to snap at its midpoint even though it's perfectly balanced as a whole. To find the internal forces, you need the **section method**: mentally cut through the member and ask, "what forces must exist at this cut to keep the piece I'm holding in equilibrium?"

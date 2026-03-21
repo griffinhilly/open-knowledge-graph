@@ -38,6 +38,45 @@ Experiment with manual query rewrites and compare EXPLAIN outputs: move filters 
 - SQL hints that force a specific plan are a last resort, not a routine practice.
 - Outdated statistics (after large bulk loads) are a leading cause of bad plan selection — running ANALYZE fixes this.
 
+## Questions
+
+```yaml
+- question: "After a bulk load of 50 million new rows into a table, queries that previously ran in 2 seconds now take 8 minutes. No schema or index changes were made. What is the most likely cause and the correct first step to fix it?"
+  type: multiple-choice
+  options:
+    - "The indexes have become corrupted and must be dropped and rebuilt from scratch"
+    - "The table statistics are stale — the optimizer is estimating row counts based on old data and choosing a bad plan; run ANALYZE to refresh them"
+    - "The query must be manually rewritten with SQL hints to force the original execution plan"
+    - "The database server ran out of memory and needs to be restarted"
+  answer: 1
+  explanation: "Stale statistics are the leading cause of sudden plan degradation after bulk loads. The optimizer chose the original plan based on estimated row counts, histograms, and selectivity — all of which are now wildly inaccurate after 50M new rows. Running ANALYZE refreshes these statistics, allowing the optimizer to reassess and typically choose a much better plan. SQL hints (Option C) are a last resort, not a first response — and bypassing the optimizer rather than fixing the underlying statistics problem tends to create maintenance nightmares. Dropping indexes (Option A) would make things worse, not better."
+
+- question: "Why is join ordering considered the hardest sub-problem in query optimization for a query joining many tables?"
+  type: multiple-choice
+  options:
+    - "Joins can only be performed in the order the tables appear in the FROM clause"
+    - "The number of possible join orderings grows factorially — for n tables, there are n!/2 orderings — making exhaustive search impractical for large n"
+    - "Joins always produce more output rows than input rows, so order doesn't matter for cost"
+    - "The database must read all tables into memory before it can join any of them"
+  answer: 1
+  explanation: "For 5 tables: 5!/2 = 60 orderings. For 10 tables: 10!/2 = 1,814,400. The search space explodes factorially, making it computationally infeasible to evaluate every possible plan. Optimizers use dynamic programming (for small n) and greedy heuristics (for large n) to search this space efficiently. The insight that drives the optimization is that cheapest plans generally minimize intermediate result sizes — joining the most selective tables first keeps the data flowing through later joins as small as possible."
+
+- question: "A cost-based query optimizer always finds the globally optimal execution plan for a given query."
+  type: true-false
+  answer: false
+  explanation: "Query optimizers use approximations — dynamic programming for manageable join counts, greedy heuristics for larger ones, and statistical estimates that can be imprecise (especially for multi-column correlations). The optimizer finds the best plan it can evaluate within practical time constraints, not a guaranteed global optimum. This is explicitly acknowledged in the misconceptions section: the optimizer sacrifices optimality for tractability. In practice, the plan is usually good, but edge cases (correlated columns, unusual data distributions, very large join counts) can produce poor plans even with accurate statistics."
+
+- question: "Predicate pushdown — applying WHERE filters before joins rather than after — is beneficial because it reduces the number of rows flowing into join operations."
+  type: true-false
+  answer: true
+  explanation: "This is one of the few rule-based optimizations that is almost always beneficial. If a table has 10 million rows but a filter reduces it to 50,000 matching rows, performing the filter first means the subsequent join operates on 50,000 rows rather than 10 million. Intermediate result sizes drive I/O and memory costs — the join algorithm (nested loop, hash join, merge join) all scale with input size. Predicate pushdown is derived from relational algebra equivalences: since filtering and joining are algebraically equivalent in either order when the filter only references one table, the optimizer freely chooses the cheaper order."
+
+- question: "Why does the query optimizer need table statistics like row counts, histograms, and distinct value counts, and what happens to query performance when those statistics become stale?"
+  type: short-answer
+  answer: "The optimizer uses statistics to estimate how many rows each operation will produce — its 'cardinality estimates.' These estimates drive every cost calculation: whether an index scan beats a sequential scan depends on estimated selectivity; which join order is cheapest depends on estimated intermediate result sizes. When statistics are stale (after bulk inserts, large deletes, or significant updates), the optimizer's estimates diverge from reality. It may choose a nested-loop join expecting 100 matching rows when the table actually has 10 million, or bypass an index expecting low selectivity when the actual filter is highly selective. The result is plans that can be orders of magnitude slower than optimal."
+  explanation: "Running ANALYZE (or its equivalent) refreshes the statistics the optimizer relies on. This is why ANALYZE is the first fix to try after bulk data changes — it costs relatively little and can dramatically improve plan quality by giving the optimizer accurate information to reason with."
+```
+
 ## Explainer
 
 When you write a SQL query, you describe *what* data you want — not *how* to retrieve it. The database's **query optimizer** bridges that gap. From your prerequisite work with query execution plans, you know that a single SQL statement can be executed in many different ways: scanning a full table, using an index, joining tables in different orders, or applying filters at different stages. The optimizer's job is to evaluate these alternatives and pick the one with the lowest estimated cost.

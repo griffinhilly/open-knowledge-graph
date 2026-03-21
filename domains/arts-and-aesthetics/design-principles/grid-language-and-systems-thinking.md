@@ -31,6 +31,45 @@ Design a simple grid system for a specific context (business cards, a website, a
 - Grids are only for print design; they are essential in web and digital design.
 - Grids remove the need for design judgment; they provide a framework within which good judgment is applied.
 
+## Questions
+
+```yaml
+- question: "A designer using a 12-column grid for a poster series feels the grid is too restrictive and will prevent creative expression. Which response best captures the key insight about grids?"
+  type: multiple-choice
+  options:
+    - "They are right — genuine creative expression requires freedom from structural constraints"
+    - "The grid removes all design decisions and generates layouts automatically"
+    - "The grid eliminates trivial alignment decisions and focuses creative energy on meaningful choices — and makes deliberate grid breaks into expressive statements"
+    - "Grids are appropriate for corporate documentation but inappropriate for expressive poster design"
+  answer: 2
+  explanation: "The counterintuitive insight is that constraints enable creativity. A grid eliminates infinite trivial decisions (how many pixels left?) and focuses attention on choices that carry meaning: hierarchy, typography, what to emphasize. Experienced designers find grids accelerate creative decision-making rather than restricting it. And breaking the grid deliberately becomes powerful precisely because the system makes the exception visible."
+
+- question: "When viewers interact with a well-designed layout using a consistent grid system, how do they typically experience it?"
+  type: multiple-choice
+  options:
+    - "They consciously notice and appreciate the underlying column structure"
+    - "They may not consciously notice the grid at all, but perceive the design as ordered, professional, and intentional"
+    - "They primarily focus on where the grid has been broken"
+    - "They find the repetitive alignment distracting and predictable"
+  answer: 1
+  explanation: "The grid is a subconscious language — users don't consciously perceive the underlying structure but experience its effects as coherence, trustworthiness, and intentionality. This is precisely why the grid is called a 'language' rather than just a 'tool': it communicates something to viewers even though it remains invisible to them."
+
+- question: "Deliberately breaking a grid — placing an element outside the established column or baseline structure — can be a powerful expressive technique, but only because the consistent grid is established first. Without the grid, the break carries no meaning."
+  type: true-false
+  answer: true
+  explanation: "Meaning comes from contrast with an established pattern. A misalignment on a grid-less layout looks like an error; the same misalignment on a carefully maintained grid reads as a bold, intentional statement. The grid enables expressive exceptions — you cannot meaningfully break something that doesn't exist. This is the deepest point about systems thinking: the constraint creates the possibility for intentional violation."
+
+- question: "Grid systems are a print design technique and cannot be meaningfully applied to digital or web design contexts."
+  type: true-false
+  answer: false
+  explanation: "Grid systems are foundational to web and digital design. Bootstrap's 12-column grid, Material Design's 8-point grid, and CSS Grid all apply the same underlying philosophy: establishing spatial intervals and proportional relationships that create visual coherence across screens and components. The grid is a universal design language, not a print-specific tool."
+
+- question: "Why does working within a grid constraint often make design decisions easier rather than harder? Explain the creative mechanism at work."
+  type: short-answer
+  answer: "A grid eliminates infinite trivial decisions — exact pixel positions, margin widths, column alignments — by establishing a finite set of valid positions and sizes. This frees the designer's cognitive attention for choices that actually carry meaning: which content deserves prominence, how hierarchy should be structured, what visual relationships to create. Constraints reduce decision fatigue and make every remaining choice meaningful. Paradoxically, fewer valid options makes it easier to make the right choice."
+  explanation: "This counterintuitive mechanism — constraints enabling creativity rather than restricting it — is at the heart of systems thinking in design. Müller-Brockmann's analogy is useful: a musical time signature constrains when notes can fall but enables infinite melodic variation within that structure. The grid does the same for spatial composition."
+```
+
 ## Explainer
 
 From your study of grid systems and layout, you understand the mechanics: columns, gutters, margins, and modules create a structural framework for placing content. **Grid language and systems thinking** elevates this from a layout technique to a design philosophy. The core insight is that a well-designed grid is not just a tool you use — it is a *language* that speaks to users through consistency, rhythm, and predictability, even though they never consciously notice it. When elements align to the same underlying structure across every page, screen, or spread, the design communicates order, professionalism, and intentionality at a subconscious level.

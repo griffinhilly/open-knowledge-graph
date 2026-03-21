@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 The PDF f(x) of a continuous random variable satisfies P(a≤X≤b)=∫ₐᵇ f(x)dx. Valid PDFs satisfy f(x)≥0 and ∫f(x)dx=1. Unlike the PMF, f(x) is not a probability itself, and P(X=x)=0 for any single value. The PDF completely characterizes continuous distributions.
 
+## Questions
+
+```yaml
+- question: "A continuous random variable X has PDF f(x) = 4 for x ∈ [0, 0.25] and f(x) = 0 elsewhere. What is P(X = 0.1)?"
+  type: multiple-choice
+  options:
+    - "0.4, since f(0.1) = 4 and we multiply by the distance 0.1 from the left endpoint"
+    - "4, since f(0.1) = 4 is the PDF value at x = 0.1"
+    - "0, since the probability of any single exact value is zero for a continuous distribution"
+    - "0.25, since 0.1 falls within the support interval [0, 0.25]"
+  answer: 2
+  explanation: "For any continuous random variable, P(X = c) = 0 for every specific value c, regardless of how large the PDF is there. Probability accumulates only over intervals with nonzero width. f(0.1) = 4 tells you the density at that point — how concentrated probability is near 0.1 — but a single point has no width, so its contribution to probability is zero. To find a nonzero probability you must integrate: P(0 ≤ X ≤ 0.25) = ∫₀^0.25 4 dx = 1."
+
+- question: "A student claims: 'A PDF with f(x) = 3 on the interval [0, 1/3] and f(x) = 0 elsewhere is invalid, because a probability function cannot exceed 1.' Is the student right?"
+  type: multiple-choice
+  options:
+    - "Yes — a valid PDF must always satisfy 0 ≤ f(x) ≤ 1 for all x"
+    - "No — f(x) is a density, not a probability; what must equal 1 is the total area ∫f(x)dx, not the function values"
+    - "Yes — probabilities are between 0 and 1, so the density representing them must be as well"
+    - "No — but this PDF is still technically invalid because the support [0, 1/3] is too short"
+  answer: 1
+  explanation: "The student is wrong. The constraints on a valid PDF are: (1) f(x) ≥ 0 everywhere, and (2) ∫₋∞^∞ f(x)dx = 1. The function value f(x) is a density, not a probability, and is not bounded above by 1. Here, f(x) = 3 on [0, 1/3] gives total area = 3 × (1/3) = 1, so the PDF is perfectly valid. The analogy to physical density is exact: just as mass per unit volume can far exceed 1, probability per unit length can too, as long as the total integrates to 1."
+
+- question: "A valid probability density function must satisfy f(x) ≤ 1 for all values of x in its support."
+  type: true-false
+  answer: false
+  explanation: "This is a very common misconception. The constraint is that the total area under the PDF equals 1: ∫f(x)dx = 1. The function values themselves can be arbitrarily large. A uniform distribution on [0, 0.1] has f(x) = 10 throughout its support — perfectly valid, because 10 × 0.1 = 1. Confusing 'density' with 'probability' leads to this error. Density is probability per unit length; it is not bounded by 1."
+
+- question: "For a continuous random variable X, P(a ≤ X ≤ b) equals P(a < X < b) for any a < b."
+  type: true-false
+  answer: true
+  explanation: "Including or excluding the endpoints makes no difference for continuous random variables because P(X = a) = 0 and P(X = b) = 0. Since individual points contribute zero probability, the events {a ≤ X ≤ b} and {a < X < b} differ only by two probability-zero points, so they have identical probabilities. This is a key difference from discrete distributions, where endpoint inclusion can matter significantly."
+
+- question: "Explain why the value of a PDF at a single point f(c) is not a probability, and describe what operation you must perform on the PDF to extract actual probability."
+  type: short-answer
+  answer: "f(c) is a density — it measures how concentrated probability is per unit length near c, not the probability of landing exactly at c. A single point has zero width, so it captures zero probability regardless of how large f(c) is. To get actual probability, you must integrate f(x) over an interval: P(a ≤ X ≤ b) = ∫ₐᵇ f(x)dx. The integral sums infinitely many infinitesimally thin probability slices. Just as physical mass is found by integrating density over a region (not by reading off density at a point), probability is found by integrating the PDF over an interval."
+  explanation: "The analogy to physical density is the deepest way to understand PDFs. Mass density tells you concentration per unit volume; integrating gives total mass. Probability density tells you probability concentration per unit length; integrating gives total probability. The density value at a point is meaningful as a comparative measure (peaks show where X is likely to fall), but only the integral gives actual probability."
+```
+
 ## Explainer
 
 You already know that a random variable assigns a number to each outcome, and you know from working with discrete random variables that a **probability mass function (PMF)** gives P(X = x) directly. The jump to continuous distributions requires giving up something: for a continuous random variable, the probability of landing on any single exact value is zero. This sounds strange at first — if X is "uniformly distributed on [0,1]," what is P(X = 0.5)? The answer is exactly zero, not because it's impossible, but because a single point has no width, and probability accumulates over intervals, not points.

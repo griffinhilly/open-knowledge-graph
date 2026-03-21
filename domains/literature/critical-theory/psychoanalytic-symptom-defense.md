@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Psychoanalytic criticism reads literary texts as symptomatic—displaying displaced unconscious conflicts, repressed desires, and defensive formations. Characters' actions, obsessions, and contradictions reveal what they cannot consciously acknowledge. Literary form itself—narrative gaps, repetitions, distortions—enacts these unconscious structures, making the text a kind of collective dream.
 
+## Questions
+
+```yaml
+- question: "A character in a novel compulsively returns to the site of a childhood trauma, each time denying any emotional connection to the place. A psychoanalytic reading would most likely identify this pattern as:"
+  type: multiple-choice
+  options:
+    - "Realistic character psychology reflecting unconscious avoidance of direct confrontation"
+    - "The return of the repressed — expelled material seeking expression through compulsive behavior that the character cannot consciously acknowledge"
+    - "Evidence that the author endorses the character's denial as the correct emotional response"
+    - "Situational irony created by the gap between the character's actions and stated feelings"
+  answer: 1
+  explanation: "The return of the repressed is a core psychoanalytic concept: repressed material is not eliminated but displaced, and it keeps returning in distorted form — compulsions, obsessions, repeated behaviors without apparent rational motivation. The character's denial is itself diagnostic: the very insistence that there is nothing here becomes legible as the defense. The pattern of repetition combined with denial is exactly the 'excess and contradiction' that symptomatic reading attends to — behavior that exceeds what the situation requires and contradicts the character's own stated claims."
+
+- question: "In psychoanalytic literary analysis, a 'symptom' differs from a direct expression of desire in that it:"
+  type: multiple-choice
+  options:
+    - "Involves the character's conscious acknowledgment and articulate reflection on their underlying desire"
+    - "Is always located in the behavior of characters, never in the narrative structure of the text itself"
+    - "Simultaneously enacts a repressed wish and punishes it, forming a compromise between expression and repression"
+    - "Requires biographical evidence about the author's personal unconscious conflicts to be interpretively valid"
+  answer: 2
+  explanation: "A symptom is a compromise formation — it does two things at once: it enacts the repressed wish (giving it partial expression) and punishes it (through the distorted, painful form of the expression). This double structure is what distinguishes symptomatic analysis from simple 'the character wants X' readings. The obsessive ritual enacts a desire while the very compulsiveness of it registers punishment. Reading for symptoms means identifying this double structure — excess, repetition, contradiction — rather than just cataloging what characters consciously want."
+
+- question: "A narrator who protests at length that they feel no jealousy toward another character is exhibiting the defense mechanism known as condensation."
+  type: true-false
+  answer: false
+  explanation: "This is reaction formation — converting an intolerable feeling into its opposite and expressing the opposite with exaggerated force. The very intensity of the denial signals the presence of what is being denied. Condensation is a different mechanism: it compresses multiple meanings or conflicts into a single image or symbol (as in dream imagery). Each defense mechanism operates differently, and accurate identification requires attending to the specific form of distortion: displacement (substituting a safer target), projection (attributing the feeling to someone else), reaction formation (expressing the opposite), condensation (compressing multiple meanings into one). Confusing them misidentifies the interpretive key."
+
+- question: "In psychoanalytic criticism, narrative gaps — the things a text does not say, the scenes it cuts away from, the explanations it withholds — can be read as repressions: material the text knows but cannot consciously acknowledge."
+  type: true-false
+  answer: true
+  explanation: "The extension of psychoanalytic logic to textual form is one of the framework's most distinctive and productive moves. Just as a patient's speech reveals unconscious content through gaps, evasions, and what goes unsaid, a narrative's gaps and elisions can mark the presence of material the text manages but cannot directly represent. This reading treats the text as analogous to a dream: it has manifest content (the story as told) and latent content (the conflict being worked through in distorted form). Narrative gaps are not merely aesthetic choices — they may be the text's version of repression."
+
+- question: "What makes a symptom a 'compromise formation,' and how does this double structure help a reader identify symptomatic content in a literary text?"
+  type: short-answer
+  answer: "A symptom is a compromise because it simultaneously does two contradictory things: it gives the repressed wish partial expression (enacting it) and punishes it (through the distorted, excessive, or painful form of that expression). The wish gets through, but in a form that also registers the prohibition against it. In literary reading, this double structure manifests as excess, repetition, or contradiction: a character does more than the situation requires (excess signals a charge beyond the manifest content), returns to the same scene without apparent narrative necessity (repetition signals the return of repressed material), or acts contrary to their stated beliefs (contradiction signals the gap between conscious and unconscious motivation). Strong symptomatic reading identifies patterns that exceed narrative necessity and then demonstrates why the psychoanalytic explanation accounts for them better than alternatives."
+  explanation: "The practical skill this develops is distinguishing genuine symptomatic patterns from ordinary narrative elements. Not every repetition is a repression; not every gap is psychically loaded. The discipline is identifying patterns that resist explanation by plot logic, genre convention, or authorial intention, and then making the case for the psychoanalytic reading with specific textual evidence."
+```
+
 ## Explainer
 
 Your prerequisite work on psychoanalytic criticism established the basic framework: literary texts can be read as expressing the wishes, fears, and conflicts of their authors or characters through displaced, disguised, or condensed form. Desire-lack-unconscious gave you the conceptual engine — the idea that subjects are structured around an absence, that desire is always desire for something unreachable, and that the unconscious speaks obliquely rather than directly. Psychoanalytic symptom analysis and defense mechanism theory push this into the detailed, practical question: **how, specifically, does the unconscious distort, displace, and disguise itself in a text?**

@@ -29,6 +29,45 @@ Build seventh chords on a staff starting from major and minor triads. Play and l
 ## Common Misconceptions
 A dominant seventh is not built from the dominant scale—it is a major triad built on scale degree V plus a minor seventh above the root, creating tritone tension.
 
+## Questions
+
+```yaml
+- question: "A student constructs a chord by taking a major triad and adding a major seventh above the root. What chord has she built?"
+  type: multiple-choice
+  options:
+    - "A dominant seventh chord (e.g., C7)"
+    - "A major seventh chord (e.g., Cmaj7)"
+    - "A minor seventh chord (e.g., Cm7)"
+    - "A half-diminished chord (e.g., Cø7)"
+  answer: 1
+  explanation: "Major triad + major seventh = major seventh chord (Cmaj7 or CΔ7). The dominant seventh chord uses a major triad combined with a MINOR seventh — that combination is what creates the tritone tension that drives resolution. Confusing major seventh with dominant seventh is extremely common: both use a major triad, but the seventh's quality (major vs. minor) is what distinguishes them and determines their harmonic function."
+
+- question: "Why does the dominant seventh chord (V7) create such strong pressure to resolve to the tonic?"
+  type: multiple-choice
+  options:
+    - "Because it contains four notes, making it harmonically denser than a triad and requiring resolution"
+    - "Because the tritone between its major third and minor seventh creates dissonance that pulls urgently toward resolution"
+    - "Because the major triad component sounds unstable without a following minor chord"
+    - "Because dominant seventh chords are built on scale degree V, which is naturally harmonically restless"
+  answer: 1
+  explanation: "The tritone — the interval between the major third and minor seventh of a dominant seventh chord — is the most dissonant interval in tonal music. In C7, E pulls upward toward F and Bb pulls downward toward A, creating two simultaneous voice-leading tensions. This is precisely what makes V7–I such a powerful cadential motion: the tritone resolves inward (or outward), satisfying both tensions simultaneously. The tritone is the mechanical source of dominant function."
+
+- question: "A dominant seventh chord is built by adding a major seventh above the root of a major triad."
+  type: true-false
+  answer: false
+  explanation: "A dominant seventh chord (e.g., C7: C–E–G–Bb) uses a MINOR seventh above the root, not a major seventh. Adding a major seventh to a major triad produces a major seventh chord (Cmaj7: C–E–G–B). The distinction is critical: the minor seventh is what creates the tritone with the major third, generating the chord's characteristic tension and strong pull toward resolution. This is the most common misconception in seventh chord construction."
+
+- question: "A fully diminished seventh chord can resolve convincingly to any of four different tonal centers, making it especially useful for dramatic harmonic pivots."
+  type: true-false
+  answer: true
+  explanation: "The fully diminished seventh chord is built entirely from stacked minor thirds, giving it perfect symmetry. Because all four inversions of the chord are enharmonically equivalent to each other (they produce the same pitch-class set), the chord can be reinterpreted as the leading-tone seventh of four different keys. This ambiguity makes it a favorite tool for modulation: the composer lands on a diminished seventh, resolves it to an unexpected key, and the listener accepts it because the resolution is grammatically correct."
+
+- question: "What two variables determine the type of a seventh chord, and how do they combine to give each type its distinctive sound and function?"
+  type: short-answer
+  answer: "The two variables are the quality of the underlying triad (major, minor, or diminished) and the quality of the seventh added above the root (major, minor, or diminished). Each type combines one triad quality with one seventh quality: e.g., dominant seventh = major triad + minor seventh; major seventh = major triad + major seventh; minor seventh = minor triad + minor seventh. The triad quality establishes the basic mood (bright or dark); the seventh quality determines the degree of tension and the chord's harmonic function."
+  explanation: "Understanding these two variables lets you derive any seventh chord type from first principles rather than memorizing each one separately. The dominant seventh's power, for example, follows directly from its combination: the major triad provides a stable, bright foundation while the minor seventh creates a tritone with the major third — generating the specific tension that drives authentic cadences."
+```
+
 ## Explainer
 
 You already know how to build major, minor, and diminished triads by stacking thirds above a root. A **seventh chord** extends that stack one step further: you add another third above the fifth, producing a four-note chord. That added note is called the seventh because it sits a seventh interval above the root. What varies across the five common seventh chord types is the quality of the underlying triad and the quality of the seventh itself — and those two variables combine to give each type its distinctive sound and function.

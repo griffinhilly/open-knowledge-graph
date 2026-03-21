@@ -31,6 +31,45 @@ Compare the capabilities approach to resource-based (Dworkin) and welfare-based 
 - Nussbaum's list is not meant to dictate how people live; it specifies minimum thresholds of capability that must be available, not functionings that must be exercised.
 - Sen's version is not vague or incomplete by accident — the open-endedness is a deliberate philosophical commitment to democratic specification.
 
+## Questions
+
+```yaml
+- question: "Two people each receive $50,000 in annual income. Person A is able-bodied; Person B uses a wheelchair and requires expensive adaptive equipment to work, travel, and participate in civic life. According to the capabilities approach, are they equally well off?"
+  type: multiple-choice
+  options:
+    - "Yes — equal income means equal opportunity under any fair distribution framework"
+    - "No — equal income does not translate to equal capabilities; Person B requires more resources to achieve equivalent real freedoms"
+    - "No — welfare metrics show Person B would report lower subjective satisfaction, making them less well off"
+    - "Yes — the capabilities approach evaluates what people do with resources, and both have the same income to use as they choose"
+  answer: 1
+  explanation: "This example captures the central insight: resources are only instrumentally valuable, and people differ in their ability to convert resources into capabilities (real freedoms). Person B requires more resources to achieve equivalent mobility, employment, and civic participation. Equal income masks deeply unequal capabilities. This is why the capabilities approach rejects resource metrics — they fail to track what actually matters: whether people have real opportunities to live decent human lives."
+
+- question: "A survey finds women in a particular society report high life satisfaction despite lacking access to education, political participation, and economic independence. How does the capabilities approach respond to using this as evidence of their well-being?"
+  type: multiple-choice
+  options:
+    - "The capabilities approach agrees — self-reported welfare is the most reliable indicator of how well someone is doing"
+    - "The capabilities approach rejects this as circular — you cannot measure well-being using the preferences that deprivation has shaped"
+    - "The capabilities approach identifies adaptive preferences as a problem: people systematically adjust their aspirations to constrained circumstances, making welfare an unreliable measure of justice"
+    - "The capabilities approach would require these women to exercise their capabilities, not merely report satisfaction"
+  answer: 2
+  explanation: "Adaptive preferences are a core problem for welfare-based metrics. When people are systematically deprived of opportunities, they often adapt by reducing their aspirations — making high satisfaction under deprivation a symptom of injustice rather than evidence against it. Sen's capabilities approach insists on evaluating the actual freedoms available, not the satisfaction felt within those constraints. High reported welfare is not sufficient — what matters is whether real opportunities to achieve valuable functionings are present."
+
+- question: "In Sen's capabilities approach, securing a person's capability to do something is distinct from requiring them to do it — the goal is real freedom, not prescribed functioning."
+  type: true-false
+  answer: true
+  explanation: "The capability-functioning distinction is politically critical. A fasting person and a starving person may both not be eating, but one has the capability to eat and freely chooses not to; the other lacks it. Justice demands securing the capability — ensuring the real freedom exists — while respecting individual choice about whether to exercise it. Nussbaum's list specifies capability thresholds, not required functionings; the approach does not dictate how people live."
+
+- question: "Sen's refusal to specify a definitive list of capabilities reflects a lack of philosophical rigor — he was unable to identify which capabilities are truly important and so left the question unresolved."
+  type: true-false
+  answer: false
+  explanation: "Sen's open-endedness is a deliberate philosophical commitment to democratic specification, not an omission. He argues that the appropriate set of valued capabilities should be identified through democratic deliberation within each society, preserving political pluralism and avoiding the imposition of a particular vision of the good life. This is a genuine philosophical disagreement with Nussbaum — who defends a specific list — with real stakes for how the approach handles cross-cultural diversity and political authority."
+
+- question: "Explain the distinction between a 'capability' and a 'functioning' in Sen's framework, using an example to show why the distinction has political significance."
+  type: short-answer
+  answer: "A functioning is an actual doing or being (e.g., being nourished, working, participating politically). A capability is the real freedom to achieve that functioning — whether or not one chooses to exercise it. Example: someone who fasts has the capability to eat and freely chooses not to; someone who is starving lacks that capability. Justice requires securing the capability; it does not prescribe the functioning. This matters politically because it separates freedom from outcome — a just society must ensure people *can* participate, work, and move freely while respecting that they may choose otherwise."
+  explanation: "This distinction also separates the capabilities approach from paternalism. The goal is expanding real freedom, not enforcing particular life choices. It also explains why Nussbaum's list specifies what societies must guarantee (capabilities), not what people must do (functionings). The political consequence is that the approach is compatible with wide diversity of actual lives, as long as the real freedoms are present."
+```
+
 ## Explainer
 
 From your study of distributive justice you know the major frameworks: utilitarians maximize aggregate welfare, Rawlsians maximize the minimum share of primary goods, and libertarians protect entitlements regardless of outcomes. The capabilities approach challenges all of these at the level of **metric** — what is the right currency for measuring how well off a person is? Sen's central insight is that income, wealth, and even subjective welfare all fail to track what actually matters: whether people have real opportunities to live decent human lives.

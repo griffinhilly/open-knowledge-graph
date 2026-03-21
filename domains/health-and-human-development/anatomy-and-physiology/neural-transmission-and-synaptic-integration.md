@@ -31,6 +31,45 @@ status: draft
 ## Core Idea
 Synaptic transmission is unidirectional: action potentials in the presynaptic terminal cause neurotransmitter release, which binds receptors on the postsynaptic membrane. Excitatory transmission depolarizes the postsynaptic cell; inhibitory transmission hyperpolarizes it. Summation—temporal (rapid successive inputs) or spatial (simultaneous inputs from many synapses)—integrates synaptic inputs to determine whether the postsynaptic neuron fires.
 
+## Questions
+
+```yaml
+- question: "A neuron receives five simultaneous EPSPs, each depolarizing the membrane by 3 mV. The threshold is 15 mV above resting potential. Which statement best describes what happens at the axon hillock?"
+  type: multiple-choice
+  options:
+    - "No action potential fires because no single EPSP is strong enough"
+    - "An action potential fires because the summed depolarization reaches threshold"
+    - "An action potential fires because five inputs always exceed threshold"
+    - "The neuron fires five separate action potentials, one per EPSP"
+  answer: 1
+  explanation: "This is spatial summation: simultaneous inputs from multiple synapses are added algebraically at the axon hillock. Five EPSPs of 3 mV each sum to 15 mV, exactly reaching threshold. Option A reflects the common misconception that each EPSP must independently trigger firing. Option C is wrong because five inputs don't automatically exceed threshold — it depends on their amplitudes. Option D confuses the number of inputs with the number of output spikes."
+
+- question: "GABA opens chloride channels on a postsynaptic neuron. Which factor determines whether this produces an inhibitory postsynaptic potential?"
+  type: multiple-choice
+  options:
+    - "Whether GABA is classified as an inhibitory neurotransmitter"
+    - "The direction of Cl⁻ flow, determined by the electrochemical gradient across the membrane"
+    - "Whether the neuron is excitatory or inhibitory"
+    - "The number of GABA molecules released by the presynaptic terminal"
+  answer: 1
+  explanation: "The sign of the postsynaptic effect depends entirely on which ions flow and in which direction — determined by the electrochemical gradient, not by the neurotransmitter's classification. At typical resting potentials, the Cl⁻ equilibrium potential is near or below resting potential, so Cl⁻ flows in and hyperpolarizes the membrane. Option A gets the causation backward. Option C confuses the identity of the neuron with the effect at a specific synapse."
+
+- question: "Inhibitory postsynaptic potentials (IPSPs) prevent the neuron from ever firing, regardless of how many excitatory inputs arrive."
+  type: true-false
+  answer: false
+  explanation: "IPSPs don't permanently silence a neuron — they make firing less likely by pushing the membrane potential away from threshold. The axon hillock sums all EPSPs and IPSPs algebraically. If excitatory inputs are sufficiently numerous or strong, they can overcome the hyperpolarizing pull of IPSPs and still bring the membrane to threshold. IPSPs are probabilistic influences on the integration, not absolute vetoes."
+
+- question: "The axon hillock integrates excitatory and inhibitory inputs algebraically, firing only when the net depolarization reaches threshold."
+  type: true-false
+  answer: true
+  explanation: "The axon hillock is the decision point of the neuron. It sums all incoming EPSPs (depolarizing) and IPSPs (hyperpolarizing) simultaneously. Because the axon hillock has the lowest threshold for action potential initiation (highest density of voltage-gated Na⁺ channels), it is where this algebraic integration determines whether a spike is generated. This is the core logic of neural integration."
+
+- question: "Why is a single EPSP typically insufficient to fire a neuron, and what two mechanisms allow neurons to integrate inputs and fire reliably?"
+  type: short-answer
+  answer: "A single EPSP is only a few millivolts in amplitude, well below the ~15–20 mV depolarization needed to reach threshold. Neurons integrate via spatial summation (simultaneous EPSPs from multiple synapses add at the axon hillock) and temporal summation (rapidly repeated inputs from the same synapse overlap before each decays, accumulating depolarization)."
+  explanation: "This is the core logic of the synapse as a computational device. Because single EPSPs are subthreshold, the nervous system uses summation to require coincident or repeated activity before producing output. This threshold requirement filters noise and ensures that only coordinated input — not random spontaneous release — drives a neuron to fire."
+```
+
 ## Explainer
 
 You already know that the action potential is an all-or-nothing electrical event that travels down an axon without decrement. What happens at the end of that axon is fundamentally different in kind — a **chemical synapse** converts the electrical signal into a chemical signal, which is then converted back into electrical information at the postsynaptic cell. This chemical intermediary is not merely a relay; it is a computation. Understanding how the synapse works requires tracking energy through each step: the electrical signal at the terminal, the calcium-triggered **vesicle fusion**, the diffusion of neurotransmitter across the synaptic cleft (a gap of only ~20 nm), and the binding to **ligand-gated ion channels** or metabotropic receptors on the postsynaptic membrane.

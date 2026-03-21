@@ -29,6 +29,45 @@ Fit models with and without random effects to clustered data; compare to standar
 ## Common Misconceptions
 Random effects allow one to ignore clustering (ignoring ICC leads to invalid inference). Must check ICC to assess the practical importance of clustering for standard errors.
 
+## Questions
+
+```yaml
+- question: "A researcher studies student test scores from 50 schools and estimates the effect of a tutoring program using standard OLS regression that ignores school membership. What is the most likely statistical consequence?"
+  type: multiple-choice
+  options:
+    - "Coefficient estimates will be biased toward zero because the tutoring effect is diluted across schools"
+    - "Standard errors will be artificially small, leading to inflated test statistics and confidence intervals that are too narrow"
+    - "The model will fail to converge because clustering violates the computational assumptions of OLS"
+    - "Coefficient estimates will be too large because schools with more students receive excess influence"
+  answer: 1
+  explanation: "Ignoring clustering violates the independence assumption of OLS. Students within the same school share environments, teachers, and resources — they are more correlated with each other than with students in other schools. This within-cluster correlation means the 'effective sample size' is smaller than the nominal N. OLS treats all N observations as independent, underestimates true standard errors, and overstates precision. The result is inflated test statistics and too-narrow confidence intervals — an elevated false positive rate. Coefficient point estimates may not be biased, but inference about them will be unreliable."
+
+- question: "A researcher computes the intraclass correlation coefficient (ICC) for patient mortality across 30 hospitals and finds ICC = 0.25. What is the correct interpretation?"
+  type: multiple-choice
+  options:
+    - "The pairwise correlation between any two patients' mortality outcomes within the same hospital is 0.25"
+    - "25% of the total variation in mortality outcomes is attributable to which hospital a patient is in — clustering is substantial and ignoring it will bias inference"
+    - "The multilevel model explains 25% of the mortality variance; the remaining 75% is unexplained"
+    - "25% of hospitals in the study have statistically significantly above-average mortality rates"
+  answer: 1
+  explanation: "The ICC is the proportion of total outcome variance attributable to between-cluster differences. ICC = 0.25 means that 25% of the variation in mortality is explained simply by knowing which hospital a patient is in — a very large clustering effect. As a rule of thumb, ICC > 0.05 warrants a multilevel model; ICC = 0.25 makes it mandatory. Option A is close but slightly wrong: ICC measures the expected correlation between two randomly chosen individuals from the same cluster, not a simple pairwise correlation — though numerically they are equivalent in the simple two-level model."
+
+- question: "Partial pooling in a hierarchical model produces better small-cluster estimates than estimating each cluster completely independently (no pooling)."
+  type: true-false
+  answer: true
+  explanation: "True — when a cluster has few observations, its independent (no-pooling) estimate is highly unstable and driven by noise. Partial pooling shrinks the cluster's estimate toward the overall mean, with the degree of shrinkage proportional to how few observations are in the cluster and how much clusters vary. For small clusters, this trades a small bias for a large reduction in variance, yielding a lower mean squared error. This is formalized in the James-Stein result: under squared error loss, shrinkage estimators dominate independent estimation when there are many groups."
+
+- question: "If the intraclass correlation coefficient for a dataset is 0.02, using a multilevel model instead of ordinary regression will substantially change the study's conclusions."
+  type: true-false
+  answer: false
+  explanation: "False — when ICC is near zero, almost no variation in the outcome is attributable to cluster membership. The observations within clusters are barely more correlated than observations from different clusters. In this case, OLS standard errors will be approximately correct and the inferential gap between OLS and multilevel modeling will be negligible. The practical rule of thumb is ICC > 0.05 warrants the multilevel approach. ICC = 0.02 indicates clustering is unlikely to meaningfully bias inference, making the added model complexity unnecessary."
+
+- question: "In your own words, explain what 'partial pooling' means in a hierarchical model and why it produces better estimates than either complete pooling or no pooling for clustered data."
+  type: short-answer
+  answer: "Partial pooling means cluster-specific estimates are pulled toward the overall mean rather than being estimated either all-identically (complete pooling) or fully independently (no pooling). The degree of shrinkage depends on cluster size and between-cluster variance: large, information-rich clusters are barely shrunk; small clusters are pulled substantially toward the global mean. Complete pooling ignores genuine between-cluster differences. No pooling gives unstable, noisy estimates for small clusters. Partial pooling navigates between these extremes, yielding better estimates by borrowing strength from the full dataset without erasing real cluster differences."
+  explanation: "The intuition: if a hospital has only 5 patients in your study, its raw observed mortality rate is mostly noise. Instead of reporting that noisy rate as-is (no pooling) or ignoring the hospital's identity entirely (complete pooling), partial pooling says 'your estimate is mostly the overall mean, adjusted a little toward your 5-patient observation.' As the cluster size grows, the observation dominates and the estimate converges to the no-pooling value. This is formally optimal under squared error loss for a broad class of models."
+```
+
 ## Explainer
 
 Standard regression assumes that observations are independent. In practice, epidemiological data is often clustered: patients nest within hospitals, students within schools, repeated measurements within individuals, neighborhoods within cities. Individuals in the same cluster tend to be more similar to each other than to individuals in other clusters — they share environments, exposures, providers, or genetics. Ignoring this correlation violates the independence assumption and leads to artificially small standard errors, inflated test statistics, and confidence intervals that are too narrow. Hierarchical models solve this problem by explicitly modeling the structure.

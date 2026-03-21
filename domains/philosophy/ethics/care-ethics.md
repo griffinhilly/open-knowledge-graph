@@ -33,6 +33,45 @@ Read Gilligan's In a Different Voice alongside Noddings' Caring. Then examine a 
 - Care ethics is not simply the claim that emotions matter in ethics; it offers a systematic alternative framework that prioritizes relational context and responsiveness over abstract rule-following.
 - Care ethics is not exclusively for or about women; it identifies a moral orientation available to anyone and argues that care work has been systematically undervalued regardless of who performs it.
 
+## Questions
+
+```yaml
+- question: "A utilitarian administrator argues that healthcare workers should treat all patients equally, setting aside personal relationships, because impartiality maximizes aggregate welfare. How would a care ethicist most likely respond?"
+  type: multiple-choice
+  options:
+    - "The utilitarian is correct — care ethics supplements impartiality by adding emotional warmth but does not challenge its priority"
+    - "Impartiality is morally distorting: actual moral life is structured by relationships and roles that generate legitimate obligations, and a theory that treats all persons as equidistant misses something morally important"
+    - "Care ethics rejects all systematic frameworks, so the administrator should simply follow their emotional responses to each patient"
+    - "Care ethics agrees with utilitarianism about impartiality but insists that caregiver wellbeing must be factored into the welfare calculation"
+  answer: 1
+  explanation: "The challenge to impartiality is the theoretical core of care ethics. Care ethicists argue that actual moral obligations arise from specific relationships — the nurse-patient bond, the caregiver-dependent bond — and that treating all persons as equidistant is not moral sophistication but moral distortion. The relationships, roles, and histories that structure caregiving create real and legitimate obligations that a purely impartialist framework systematically undervalues."
+
+- question: "What does Nel Noddings' distinction between 'natural caring' and 'ethical caring' add to care ethics that a pure emotion-based account would lack?"
+  type: multiple-choice
+  options:
+    - "It shows that natural caring is morally superior because it is authentic, while ethical caring is a second-best substitute"
+    - "It shows that care ethics is not just 'do what you feel' — ethical caring is the deliberate commitment to act as a caring person even when the natural impulse is absent, which is what moral maturity requires"
+    - "It distinguishes caring for strangers (natural) from caring for intimates (ethical), clarifying the scope of care obligations"
+    - "It identifies rules governing care relationships, showing that care ethics is a form of rule-based ethics like deontology"
+  answer: 1
+  explanation: "The objection that care ethics collapses into 'follow your feelings' is answered by this distinction. Natural caring — the spontaneous impulse to respond to need — requires no moral effort. Ethical caring is the deliberate cultivation of responsive caring when the impulse is absent: when exhausted, resentful, or simply not feeling it. This makes care ethics a genuine moral demand: it requires developing and sustaining the disposition to care even under difficulty."
+
+- question: "Care ethics argues that impartial reasoning represents a less mature form of moral development than contextually sensitive reasoning about particular relationships."
+  type: true-false
+  answer: true
+  explanation: "This is Gilligan's direct inversion of Kohlberg's hierarchy. Kohlberg ranked abstract impartial principle-reasoning as the highest moral stage and found women more likely to reason about particular relationships — which he coded as less developed. Gilligan argued this reflected the bias of his male-only sample and that relational, contextual reasoning represents an equally sophisticated moral orientation. Care ethics claims that attending to particular bonds is not a failure to reach impartiality but a different, equally valid moral achievement."
+
+- question: "Care ethics is exclusively a theory about personal relationships and has no implications for institutional or political arrangements."
+  type: true-false
+  answer: false
+  explanation: "Joan Tronto and Virginia Held extend care ethics to political philosophy, arguing that care work — raising children, tending the sick, supporting the elderly — has been systematically undervalued and treated as a private burden rather than a social good. A political care ethics argues that measuring social flourishing should include how well a society sustains webs of caring relationships. Care as a political concept challenges the public/private divide that relegates caregiving to invisible domestic labor."
+
+- question: "Why does care ethics challenge the view that impartiality is a moral virtue, and what does it propose as an alternative criterion for mature moral reasoning?"
+  type: short-answer
+  answer: "Care ethics challenges impartiality because it treats all persons as morally equidistant, ignoring that actual moral demands arise from particular relationships, roles, and histories. The parent-child relationship creates real obligations that a stranger's parent-child relationship does not create for you — not because of irrational bias, but because specific bonds generate specific responsibilities. Care ethics proposes that moral maturity is responsiveness to the needs of particular others within real relationships — attending to context, vulnerability, and dependency — not reasoning from universal principles as though relationships don't matter."
+  explanation: "The debate this generates is genuine: both care ethics and impartialist frameworks capture real moral demands that can pull in opposite directions. Impartiality captures something important about fairness and the wrongness of arbitrary favoritism. Care ethics captures something equally important about the legitimate weight of particular ties. Contemporary ethics takes both seriously, asking when partiality is legitimate and when impartiality is required — a question care ethics forces onto the agenda."
+```
+
 ## Explainer
 
 Care ethics begins not as a philosophical theory constructed in the abstract but as a critique. Lawrence Kohlberg's influential theory of moral development ranked mature moral reasoning as reasoning by abstract, impartial principles — his highest stage was essentially Kantian. Carol Gilligan, studying moral development in women, found a different pattern: many of her subjects reasoned not in terms of universal rules but in terms of particular relationships, contextual responsibilities, and attentiveness to needs. Rather than concluding these women were morally immature, Gilligan argued in *In a Different Voice* (1982) that this represented a distinct but equally sophisticated **moral orientation** — one that Kohlberg's framework, built on male samples, had systematically missed and devalued.

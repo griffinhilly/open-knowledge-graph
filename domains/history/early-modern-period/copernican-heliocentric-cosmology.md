@@ -29,6 +29,45 @@ Examine the mathematical advantages of heliocentric models by comparing epicycle
 ## Common Misconceptions
 - That the Copernican theory was immediately accepted; it remained controversial for over a century. - That Copernicus was persecuted for heliocentrism; most early reactions were cautious skepticism rather than active persecution.
 
+## Questions
+
+```yaml
+- question: "Why did educated Europeans in the late 16th century not immediately adopt the Copernican heliocentric model despite its mathematical elegance?"
+  type: multiple-choice
+  options:
+    - "The Catholic Church immediately banned De Revolutionibus and imprisoned anyone who supported it"
+    - "The model predicted stellar parallax that no instrument could detect, and offered no physical theory to explain why Earth's inhabitants weren't flung off a moving planet"
+    - "Copernicus's mathematics contained fundamental errors that scholars recognized immediately"
+    - "The heliocentric model required more epicycles than the Ptolemaic system, making it less accurate"
+  answer: 1
+  explanation: "The sophisticated initial response was cautious interest, not rejection or persecution. The model had genuine, unresolved problems: heliocentrism predicted that nearby stars should appear to shift position (stellar parallax) as Earth orbited — but no such shift was detectable (the stars are simply too far away for naked-eye detection). More critically, Aristotelian physics had no explanation for why a rapidly moving Earth would retain its atmosphere, oceans, and inhabitants. These were real scientific objections, not mere conservatism. Resolution required Galileo's observations, Kepler's orbital mechanics, and Newton's physics — over a century of work."
+
+- question: "In the Ptolemaic geocentric model, retrograde motion (planets briefly appearing to move backward) was explained using epicycles. How does the heliocentric model explain the same phenomenon?"
+  type: multiple-choice
+  options:
+    - "Planets slow down due to gravitational drag as they pass through denser regions of space"
+    - "Earth overtakes a slower outer planet in its orbit, making the planet appear to move backward relative to background stars"
+    - "Planets move onto smaller epicycle paths during part of their orbit around the sun"
+    - "The planet enters Earth's shadow, temporarily reversing its apparent direction"
+  answer: 1
+  explanation: "In the heliocentric model, retrograde motion is a perspective effect: as faster-moving Earth overtakes a slower outer planet (like Mars or Jupiter), the outer planet appears to move backward against the fixed stars — just as a car you're passing appears to move backward relative to the road. This requires no epicycles; it emerges naturally from the geometry of orbits at different speeds. This elegant explanation was one of the most compelling mathematical advantages of Copernicus's model."
+
+- question: "Copernicus's original heliocentric model successfully eliminated all epicycles from planetary astronomy."
+  type: true-false
+  answer: false
+  explanation: "Copernicus's model reduced the need for epicycles significantly by explaining retrograde motion geometrically, but it did not eliminate epicycles entirely. Copernicus retained circular orbits, and because planetary orbits are actually ellipses, some smaller epicycles were still needed to match observational data. It was Kepler's elliptical orbit laws (published 1609–1619) that finally eliminated the need for epicycles altogether."
+
+- question: "Copernicus was actively persecuted by the Catholic Church immediately after publishing De Revolutionibus in 1543."
+  type: true-false
+  answer: false
+  explanation: "The initial response to De Revolutionibus was cautious scholarly interest, not persecution. The book was dedicated to Pope Paul III and was not placed on the Index of Forbidden Books until 1616 — more than 70 years after publication — when Galileo's championing of heliocentrism had made it theologically contentious. Copernicus died shortly after publication and faced no personal persecution. It is Galileo (1633) who is most associated with Church conflict, not Copernicus."
+
+- question: "Why did the full acceptance of the Copernican model require contributions from Galileo, Kepler, and Newton over more than a century? What was missing from Copernicus's original proposal?"
+  type: short-answer
+  answer: "Copernicus provided a mathematically elegant alternative cosmology but lacked two things the scientific community required for full acceptance: (1) observational evidence — Galileo's telescope revealed moons orbiting Jupiter (showing not everything circles Earth) and phases of Venus (incompatible with strict geocentrism); and (2) a physical theory — Copernicus had no explanation for why objects on a moving Earth stay put. Kepler showed orbits are ellipses, eliminating remaining epicycles. Newton's gravitational mechanics finally explained WHY planets move as Copernicus described and why Earth retains its contents despite orbiting the sun."
+  explanation: "This is why the Copernican revolution is dated not to 1543 but to a broader 150-year process. Copernicus planted a seed — a new mathematical framework — but scientific revolutions require more than elegant mathematics: they require empirical confirmation and a coherent physical theory. The social and institutional context also mattered: a network of correspondence and print across Europe allowed Galileo, Kepler, and Newton to build on each other's work in ways that wouldn't have been possible in earlier centuries."
+```
+
 ## Explainer
 
 From your study of medieval cosmology, you know that the Aristotelian-Ptolemaic universe placed a motionless Earth at the center of a series of crystalline spheres carrying the moon, sun, planets, and fixed stars. This was not naive folk belief — it was a sophisticated mathematical system refined over nearly two thousand years, supported by centuries of observation, and embedded in Christian theology, which identified the center as humanity's God-given place in creation. When Copernicus proposed a sun-centered cosmos, he was not simply correcting an error. He was challenging an entire interlocked system of physics, metaphysics, and theology that explained *why* things moved the way they did.

@@ -33,6 +33,45 @@ Classify the same reaction under all three definitions where possible, then find
 - Not all Lewis acid-base reactions involve protons. Students who learn Brønsted-Lowry first often assume every acid-base reaction is a proton transfer, but metal ion hydration (M²⁺ + 6H₂O) is a Lewis acid-base reaction with no proton exchange.
 - A substance can be an acid by one definition and a base by another depending on the reaction context. Water, for example, is amphoteric — acting as either acid or base.
 
+## Questions
+
+```yaml
+- question: "Boron trifluoride (BF₃) reacts with ammonia (NH₃) to form BF₃·NH₃. BF₃ has no proton to donate and no OH⁻ to release. Under which acid-base framework(s) can BF₃ be classified as an acid?"
+  type: multiple-choice
+  options:
+    - "Arrhenius only — BF₃ is an acid because it dissolves in water"
+    - "Brønsted-Lowry only — BF₃ accepts a proton from NH₃"
+    - "Lewis only — BF₃ accepts an electron pair from NH₃'s lone pair"
+    - "None — BF₃ cannot be an acid because it doesn't donate protons or produce H⁺"
+  answer: 2
+  explanation: "BF₃ is a Lewis acid: boron has an empty orbital and accepts the lone pair on nitrogen, forming a coordinate covalent bond. There is no proton transfer (eliminating Brønsted-Lowry) and no H⁺ or OH⁻ production in water (eliminating Arrhenius). Option D represents the exact misconception the Lewis definition was designed to correct — not every acid-base reaction involves protons. The Lewis definition is broader precisely because it captures electron-pair interactions independent of proton transfer."
+
+- question: "Which pair of definitions correctly classifies HF donating a proton to F⁻ to give HF₂⁻?"
+  type: multiple-choice
+  options:
+    - "Arrhenius acid-base only — HF produces H⁺ in water"
+    - "Brønsted-Lowry and Lewis — HF donates a proton (Brønsted-Lowry acid), and F⁻ donates a lone pair to the proton (Lewis base)"
+    - "Lewis only — the reaction involves electron pair donation, not proton transfer"
+    - "Arrhenius and Brønsted-Lowry, but not Lewis — Lewis requires no proton transfer"
+  answer: 1
+  explanation: "HF donating H⁺ to F⁻ is a Brønsted-Lowry acid-base reaction (proton transfer). It is also a Lewis reaction: F⁻ donates a lone pair to the proton (H⁺ is the Lewis acid, F⁻ is the Lewis base). Every Brønsted-Lowry reaction is simultaneously a Lewis reaction — proton transfer is always also an electron-pair donation to the proton. Option D gets the nesting backwards: Lewis is the broadest definition, not the narrowest."
+
+- question: "The Lewis definition of acids and bases competes with the Brønsted-Lowry definition — chemists must choose which framework to use because they are incompatible."
+  type: true-false
+  answer: false
+  explanation: "The three definitions are nested like concentric circles, not competing alternatives. Every Arrhenius acid-base reaction is also a Brønsted-Lowry one; every Brønsted-Lowry reaction is also a Lewis acid-base reaction. They are not incompatible — they are progressively broader ways of classifying the same phenomenon. Chemists choose based on what they are analyzing: Brønsted-Lowry for most aqueous and protic chemistry, Lewis when electron-pair transfer is occurring without proton involvement (coordination chemistry, organometallics, many organic mechanisms)."
+
+- question: "Water is amphoteric, meaning it can act as either an acid or a base depending on what it reacts with."
+  type: true-false
+  answer: true
+  explanation: "Water is the classic example of an amphoteric substance. When water reacts with a stronger acid like HCl, water accepts a proton (H₂O is the Brønsted-Lowry base: HCl → H₃O⁺ + Cl⁻). When water reacts with a stronger base like NH₃, water donates a proton (H₂O is the Brønsted-Lowry acid: H₂O + NH₃ → OH⁻ + NH₄⁺). This also illustrates that acid/base identity is context-dependent — a molecule is not inherently an acid or base, but acts as one relative to its reaction partner."
+
+- question: "Why is the Lewis acid-base definition considered the broadest of the three definitions? What category of reactions does it capture that Brønsted-Lowry cannot?"
+  type: short-answer
+  answer: "The Lewis definition is broadest because it defines acids as electron-pair acceptors and bases as electron-pair donors, requiring no proton transfer at all. It captures reactions like metal ion coordination (M²⁺ accepting lone pairs from water or ligands), BF₃ accepting a lone pair from NH₃, and many organometallic reactions — none of which involve H⁺. Brønsted-Lowry requires a proton donor and acceptor, so it excludes all reactions where electron pairs are transferred without proton movement. The Lewis definition subsumes Brønsted-Lowry: a proton transfer is always also an electron-pair donation to H⁺ (which is the Lewis acid), but not every electron-pair transfer involves a proton."
+  explanation: "The nesting relationship — Lewis ⊃ Brønsted-Lowry ⊃ Arrhenius — is the key conceptual structure. Understanding this prevents the common error of assuming every acid-base reaction is a proton transfer. Coordination chemistry and Lewis acid catalysis (critical in organic synthesis and industrial chemistry) are entirely explained by the electron-pair framework."
+```
+
 ## Explainer
 
 The simplest way to think about acids and bases starts with water. The **Arrhenius definition** says an acid is any substance that produces H⁺ ions when dissolved in water, and a base produces OH⁻ ions. HCl dissolves and releases H⁺; NaOH dissolves and releases OH⁻. This works well for straightforward aqueous reactions, but it immediately runs into limits. What about ammonia, NH₃, which makes solutions basic without containing any OH⁻ in its formula? And what about reactions that happen in solvents other than water, or with no solvent at all? You need a broader framework.

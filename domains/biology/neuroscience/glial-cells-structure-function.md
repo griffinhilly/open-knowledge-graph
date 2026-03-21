@@ -31,6 +31,45 @@ Examine fluorescence imaging showing different glial markers. Compare roles by m
 ## Common Misconceptions
 Glia are passive support cells. Glia outnumber neurons and actively shape synaptic function. Not all glia are immune cells.
 
+## Questions
+
+```yaml
+- question: "During intense neural activity, potassium ions accumulate in the extracellular space around neurons. What would happen if astrocytes were not present to buffer this potassium?"
+  type: multiple-choice
+  options:
+    - "Neurons would fire more action potentials because high extracellular potassium enhances depolarization currents"
+    - "Nothing significant — neurons regulate their own extracellular ionic environment independently of glia"
+    - "Elevated extracellular potassium would reduce the driving force for K⁺ exit during repolarization, potentially causing sustained depolarization and hyperexcitability that could trigger seizure-like activity"
+    - "The blood-brain barrier would automatically clear excess potassium without glial involvement"
+  answer: 2
+  explanation: "Neurons repolarize after an action potential by allowing K⁺ to exit down its electrochemical gradient. When extracellular K⁺ rises (as it does during sustained firing), the gradient driving K⁺ out is reduced, making repolarization slower and potentially causing neurons to remain in a depolarized, hyperexcitable state. Astrocytes prevent this by taking up extracellular K⁺ and redistributing it through gap junctions — a process called 'potassium spatial buffering.' This is one reason astrocyte dysfunction is linked to epilepsy. Option A has the direction of effect wrong; option B denies the well-established role of glia in ionic homeostasis."
+
+- question: "A mouse model suppresses all microglial phagocytic activity during the first two weeks of postnatal life, when synaptic refinement is most active. What outcome would you most expect?"
+  type: multiple-choice
+  options:
+    - "Axons would fail to myelinate, since microglia provide lipids for oligodendrocyte sheaths"
+    - "CSF production would cease, since microglia normally help circulate cerebrospinal fluid"
+    - "Synaptic connections would not be appropriately pruned, likely leaving an excess of weak or redundant synaptic contacts and impaired circuit refinement"
+    - "Astrocyte glutamate uptake would fully compensate for lost microglial function during this period"
+  answer: 2
+  explanation: "Microglia perform synaptic pruning during development by engulfing synaptic terminals tagged with complement proteins — selectively eliminating weak or less-active synapses while preserving stronger ones. This sculpts neural circuits from an initially overconnected state. Without this pruning, circuits remain excessively connected and fail to refine into their mature patterns. This process has been implicated in neurodevelopmental conditions: excessive microglial pruning is linked to schizophrenia, while insufficient pruning may contribute to autism spectrum conditions. Myelination is the job of oligodendrocytes (option A), not microglia."
+
+- question: "Astrocytes can release signaling molecules (gliotransmitters) that modulate synaptic strength, making them active computational participants in neural circuits rather than passive support cells."
+  type: true-false
+  answer: true
+  explanation: "Modern neuroscience has overturned the view of glia as passive scaffolding. Astrocytes express receptors for neurotransmitters and respond to synaptic activity with intracellular calcium waves. These calcium signals trigger the release of gliotransmitters — including glutamate, D-serine, and ATP — that act on presynaptic and postsynaptic elements to modulate synaptic efficacy. This is the basis of the 'tripartite synapse' concept: the functional synapse includes not just the two neuronal partners but also the astrocyte process that enwraps it. Astrocytes can thereby influence learning, memory consolidation, and circuit dynamics."
+
+- question: "Microglia are derived from neural stem cells in the brain, like neurons and astrocytes, since all brain cells develop from the same neuroectodermal precursors."
+  type: true-false
+  answer: false
+  explanation: "Microglia have a fundamentally different developmental origin from all other brain cells. While neurons, astrocytes, and oligodendrocytes all derive from neural progenitors in the neuroectoderm, microglia originate from blood-borne monocyte precursors that migrate into the brain from the yolk sac during early embryonic development — before the blood-brain barrier forms. This makes microglia the brain's resident immune cells and explains their immunological function: they are the CNS branch of the mononuclear phagocyte system, not neurally derived cells. Their distinct origin has practical implications — microglial dysfunction is fundamentally an immune problem, not a neurodevelopmental one."
+
+- question: "What is the tripartite synapse, and why does this concept change how we understand synaptic transmission?"
+  type: short-answer
+  answer: "The tripartite synapse refers to the functional unit consisting of the presynaptic neuron, the postsynaptic neuron, and the astrocyte process that enwraps both. The astrocyte is not merely a bystander — it takes up neurotransmitters from the cleft, releases gliotransmitters that modulate the postsynaptic neuron, and responds to synaptic activity with calcium signals. Synaptic strength is therefore influenced by a third cell, not just the two neurons."
+  explanation: "The classical synapse model treated transmission as a two-party event between presynaptic and postsynaptic neurons. The tripartite model adds the astrocyte as an active modulator, which changes how we think about synaptic plasticity, learning, and disease. If astrocytes regulate glutamate clearance and release D-serine (a co-agonist for NMDA receptors), then astrocytic state directly gates long-term potentiation. This also means CNS diseases involving astrocyte dysfunction — epilepsy, Alzheimer's, some psychiatric conditions — may involve synaptic pathology not visible from a purely neuronal perspective."
+```
+
 ## Explainer
 
 From your study of neuron structure and function, you know that neurons communicate through electrical and chemical signals at synapses. But neurons do not operate alone. **Glial cells** — from the Greek word for "glue" — make up roughly half the cells in the brain and perform functions so critical that the nervous system cannot operate without them. Far from being passive scaffolding, glia actively regulate the chemical environment around neurons, insulate their axons, defend against pathogens, and even influence which synaptic connections survive and which are eliminated.

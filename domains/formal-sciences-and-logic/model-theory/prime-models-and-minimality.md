@@ -29,6 +29,45 @@ A prime model of a complete theory T is a model that embeds into every model of 
 ## How It's Best Learned
 Construct prime models explicitly by omitting types and using the completeness theorem. Compare prime models with saturated models and understand when they coincide.
 
+## Questions
+
+```yaml
+- question: "A complete theory T has a prime model P. A different model M of T is constructed by adding an element that realizes a type not realized in P. What is the relationship between P and M?"
+  type: multiple-choice
+  options:
+    - "M elementarily embeds into P, because P is the smallest model and must contain M"
+    - "P elementarily embeds into M, because a prime model embeds elementarily into every model of T"
+    - "P and M are isomorphic, because prime models are unique up to isomorphism"
+    - "Neither model embeds into the other, because M realizes a type that P does not"
+  answer: 1
+  explanation: "By definition, a prime model P embeds elementarily into every model of T — that is what 'prime' means. The embedding j: P → M is injective and preserves all first-order formulas: φ holds of a tuple in P if and only if φ holds of the corresponding tuple in M. The fact that M realizes an additional type (one not realized in P) means M is strictly larger — it is not isomorphic to P. But P still embeds into M, just not surjectively. Option C is wrong because M has strictly more structure than P (extra elements realizing new types); option D confuses 'not isomorphic' with 'no embedding exists.'"
+
+- question: "Which characterization best describes what makes a model of a complete theory T a 'prime model'?"
+  type: multiple-choice
+  options:
+    - "It is the largest model of T that satisfies all the axioms with no redundant elements"
+    - "It realizes every type consistent with T, ensuring maximum expressibility"
+    - "It realizes only principal (isolated) types — types forced by a single formula in T"
+    - "It is the unique countable model of T, as guaranteed by the Löwenheim-Skolem theorem"
+  answer: 2
+  explanation: "A prime model is an atomic model: every element (and every tuple) in P realizes a principal (isolated) type — one isolated by a single complete formula φ(x) such that T ⊢ ∀x(φ(x) → ψ(x)) for every ψ in the type. Isolated types are 'forced' by the theory — any element satisfying φ must satisfy the entire type, so there is no freedom. A prime model contains only such forced elements, making it as small as possible. Option B describes saturated models (the opposite extreme). Options A and D are incorrect characterizations."
+
+- question: "A prime model of a complete theory T is characterized by the fact that it elementarily embeds into every other model of T."
+  type: true-false
+  answer: true
+  explanation: "This is the defining property of prime models: P is prime for T if and only if for every model M of T, there exists an elementary embedding j: P → M. An elementary embedding preserves all first-order formulas (not just quantifier-free ones), so P is not just a substructure of every model — it is an elementary substructure. This universal embedding property is precisely the sense in which P is 'minimal': you cannot remove any element without losing the ability to embed, because every other model must contain an isomorphic copy of P."
+
+- question: "A saturated model and a prime model of the same complete theory T are always isomorphic, because both represent canonical, uniquely determined structures."
+  type: true-false
+  answer: false
+  explanation: "Prime and saturated models are opposite extremes. A prime model is as small as possible — it realizes only principal (isolated) types, containing only what the theory forces. A saturated model is as large as possible — it realizes every consistent type over every finite parameter set, containing far more than any theory forces. They coincide only in degenerate cases, such as a theory with exactly one countable model up to isomorphism (an ω-categorical theory), where the prime, saturated, and universal models all collapse to the same structure. In general, these are very different structures with very different cardinalities."
+
+- question: "What does it mean for an element in a prime model to realize a 'principal type,' and why does this characterize the prime model as containing nothing beyond what the theory forces?"
+  type: short-answer
+  answer: "A principal type p(x) is a complete type that is isolated by a single formula φ(x): the theory T proves that any element satisfying φ must satisfy every formula in p. In other words, φ alone determines all first-order properties of the element — you get the entire type 'for free' once you have one formula. An element realizing a non-principal type has properties that cannot all be determined by any single formula; its full description is a 'bonus' not entailed by the theory axioms. A prime model contains only elements whose types are principal — every element is entirely determined by some formula in T. This means the prime model includes no extra structure: everything in it is forced by the theory itself, and nothing is added as an unexplained contingent fact."
+  explanation: "The contrast with non-principal types clarifies the intuition. A non-principal type might specify, say, 'this element is not definable over the empty set in any specific way' — its existence in a model is optional, not forced. Prime models include no such elements. This is also why prime models are called 'atomic': in the Boolean algebra of definable sets, every element of P is an atom — fully pinned down by a single formula."
+```
+
 ## Explainer
 
 From your study of complete first-order theories and the Löwenheim-Skolem theorems, you know that a complete theory T can have models of many different cardinalities — countably many, uncountably many, models of any infinite size. This proliferation raises a natural question: is there a *smallest* or *most basic* model of T, one that contains only what the theory forces and nothing extra? That is the idea behind a **prime model**.

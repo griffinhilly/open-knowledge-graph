@@ -29,6 +29,45 @@ Have students measure the circumference and diameter of several circular objects
 - Squaring pi or squaring the diameter in the circumference formula (mixing up circumference and area formulas).
 - Thinking pi = 3.14 exactly rather than understanding it is an approximation.
 
+## Questions
+
+```yaml
+- question: "A student is asked to find the circumference of a circle with radius 6 cm. She uses the formula C = π × d and substitutes 6 for d, getting C = 6π cm. Is her answer correct?"
+  type: multiple-choice
+  options:
+    - "Yes — both formulas give the same answer, so substituting either r or d produces 6π"
+    - "No — she substituted the radius where the formula requires the diameter; the correct answer is 12π cm"
+    - "No — she should have used C = 2πr, and that formula gives C = 36π cm"
+    - "Yes — for a circle with radius 6, the diameter is also 6"
+  answer: 1
+  explanation: "C = πd requires the diameter, not the radius. The diameter is twice the radius, so d = 2 × 6 = 12 cm. The correct answer is C = π × 12 = 12π cm. Alternatively, using C = 2πr directly: C = 2 × π × 6 = 12π cm. Both formulas give the same answer because they express the same relationship — but you must use the right measurement in each formula. The most common error is plugging the radius into C = πd."
+
+- question: "You measure the circumference and diameter of three circular objects: a coin, a dinner plate, and a bicycle wheel. You then compute C ÷ d for each. What should you find?"
+  type: multiple-choice
+  options:
+    - "A different ratio for each object, since larger circles have a larger ratio"
+    - "A ratio close to 3.14159 for each object, because this ratio is constant for all circles"
+    - "A ratio equal to the radius of each circle"
+    - "A ratio of exactly 3.14 for each, because π equals 3.14"
+  answer: 1
+  explanation: "Pi is defined as the ratio C/d, and this ratio is the same for every circle regardless of size. This is a discovered fact of geometry, not a human convention. A coin and a bicycle wheel have vastly different sizes but identical C/d ratios — approximately 3.14159. Note that 3.14 is only an approximation; the true value of π is irrational and never terminates or repeats exactly. This universality is what makes π a fundamental constant rather than a circle-specific measurement."
+
+- question: "The ratio of circumference to diameter is the same for every circle, regardless of its size."
+  type: true-false
+  answer: true
+  explanation: "This is the fundamental property that defines π. No matter how large or small the circle, C/d = π ≈ 3.14159. This can be verified empirically by measuring real circular objects and computing the ratio — it is always approximately the same value. Pi is a fixed constant of geometry, not a variable that depends on circle size. This is why it appears in both circumference formulas: the ratio is always π, so C = π × d."
+
+- question: "The circumference of a circle with radius 5 cm is 5π cm."
+  type: true-false
+  answer: false
+  explanation: "The circumference is C = 2πr = 2 × π × 5 = 10π cm. Equivalently, the diameter is d = 2r = 10 cm, so C = πd = 10π cm. The answer 5π would result from forgetting to multiply by 2 — either using C = πr (incorrect formula) or using the radius where the diameter belongs. This is the most common circumference error: confusing radius and diameter in the formula."
+
+- question: "Explain why the formulas C = πd and C = 2πr give identical results for any circle. What is the relationship that makes them equivalent?"
+  type: short-answer
+  answer: "The diameter of a circle is always exactly twice its radius: d = 2r. Substituting this into C = πd gives C = π(2r) = 2πr, which is exactly the other formula. They express the same relationship in terms of different measurements of the same circle. If you know the radius, use C = 2πr. If you know the diameter, use C = πd. Both arrive at the same circumference because the two formulas are algebraically identical."
+  explanation: "The equivalence is algebraic, not coincidental. The underlying truth is C/d = π for every circle, which gives C = πd. Since d = 2r always, substituting yields C = 2πr. Students sometimes think the two formulas are different rules — they are one rule expressed two ways depending on which circle measurement you start with."
+```
+
 ## Explainer
 
 **Circumference** is simply the distance you would walk if you followed the edge of a circle all the way around. If you unwrapped that edge and laid it flat, it would form a straight line segment — and that length is the circumference. The question is: how long is that line compared to the circle's size?

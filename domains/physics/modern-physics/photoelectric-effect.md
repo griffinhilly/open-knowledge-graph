@@ -35,6 +35,45 @@ Map each experimental observation (threshold frequency, instantaneous emission, 
 - The photoelectric effect proves light is a particle — it shows light behaves as particles in this context; interference still demonstrates wave behavior.
 - Electrons are stored energy that light 'heats up' — the interaction is a single-photon, single-electron quantum event.
 
+## Questions
+
+```yaml
+- question: "You shine intense red light and dim ultraviolet light on the same metal surface. The UV frequency is above the threshold; the red frequency is below it. Which produces ejected electrons?"
+  type: multiple-choice
+  options:
+    - "The intense red light, because greater intensity delivers more total energy to the surface"
+    - "The dim UV light, because its photon frequency exceeds the metal's threshold frequency"
+    - "Both, because enough total light energy reaches the surface from both sources"
+    - "Neither, because both beams are too weak individually to eject electrons"
+  answer: 1
+  explanation: "Each photon interacts with a single electron in an all-or-nothing event. The red photon energy hf_red < φ, so no single red photon can free an electron — intensity (number of photons) is irrelevant below threshold. The UV photon energy hf_UV > φ, so even a single UV photon can eject an electron. Option A embodies the classical misconception that energy accumulates from many photons; quantum mechanics shows it does not."
+
+- question: "For a fixed frequency above the photoelectric threshold, doubling the light intensity will:"
+  type: multiple-choice
+  options:
+    - "Double the maximum kinetic energy of the ejected electrons"
+    - "Double the number of ejected electrons per second"
+    - "Raise the threshold frequency for the metal"
+    - "Increase the stopping potential required to halt the electrons"
+  answer: 1
+  explanation: "Intensity equals photon flux — more photons per second, not more energetic photons. Doubling intensity doubles the number of photon-electron collisions and thus the electron ejection rate. Maximum kinetic energy K_max = hf − φ depends only on frequency and the work function, not on intensity. Stopping potential depends on K_max and therefore also doesn't change."
+
+- question: "According to the classical wave model, a very bright low-frequency light source should eventually eject electrons from a metal if given enough time."
+  type: true-false
+  answer: true
+  explanation: "This is what the classical model predicts — and this prediction is wrong. Classical wave theory treats light energy as continuously delivered to the surface, so sufficient time and intensity should always transfer enough energy to free an electron. The photoelectric effect's experimental result — that no electrons are emitted below the threshold frequency regardless of intensity or exposure time — directly refutes this prediction and requires the photon model."
+
+- question: "The maximum kinetic energy of photoelectrons emitted from a metal depends on the frequency of the incident light, not on its intensity."
+  type: true-false
+  answer: true
+  explanation: "K_max = hf − φ. The frequency f determines the energy of each photon; the work function φ is fixed for a given metal. Intensity controls how many photons arrive per second and therefore how many electrons are ejected, but each electron that escapes carries at most hf − φ of kinetic energy. Millikan's precise measurements confirmed this linear K_max versus f relationship and measured Planck's constant h."
+
+- question: "Why does the classical wave model of light fail to explain the photoelectric effect, and what aspect of the photon model resolves each of its failures?"
+  type: short-answer
+  answer: "Classical waves predict: (1) electrons should accumulate energy over time, so any frequency should eventually eject electrons given enough time — but experiment shows an instantaneous threshold. (2) Higher intensity should produce higher-energy electrons — but K_max is independent of intensity. (3) There should be a delay before emission — but emission is nearly instantaneous. The photon model resolves all three: energy comes in quanta hf, so a single low-frequency photon cannot free an electron no matter how long you wait (resolves 1); intensity sets photon count not photon energy (resolves 2); a single photon-electron collision is instantaneous (resolves 3)."
+  explanation: "The failure is structural, not quantitative: the wave model is wrong in kind, not just in degree. Millikan tried for years to disprove Einstein's equation and instead confirmed the linear K_max vs. f relationship and measured h to five significant figures — the same h as in Planck's blackbody law, cementing the photon concept across phenomena."
+```
+
 ## Explainer
 
 You know from electromagnetic waves that light carries energy, and from your study of electric potential energy how energy is stored in electric fields and required to move charges. The photoelectric effect sits at the intersection of both: it is the experiment that forced physicists to accept that light energy comes in discrete chunks, not a continuous flow. The result contradicted classical physics so sharply that it was one of the experiments that launched quantum mechanics.

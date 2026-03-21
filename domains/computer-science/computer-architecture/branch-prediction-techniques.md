@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Branch prediction guesses the outcome of conditional branches and speculatively fetches the predicted path, minimizing pipeline stalls from control hazards. Prediction tables track branch history; incorrect predictions require rollback and re-execution.
 
+## Questions
+
+```yaml
+- question: "A loop executes exactly 100 times. A 1-bit branch predictor is used for the loop-back branch. How many times does the predictor mispredict across all 100 iterations?"
+  type: multiple-choice
+  options:
+    - "0 times — the predictor quickly learns the branch is always taken"
+    - "2 times — once when the loop first executes and once when it finally exits"
+    - "100 times — the predictor mispredicts every iteration"
+    - "50 times — the 1-bit predictor alternates predictions"
+  answer: 1
+  explanation: "A 1-bit predictor remembers the last outcome and predicts the same thing will happen again. For a loop running 100 times: the branch is taken 99 times (looping back) and not-taken once (exiting). The predictor mispredicts once on entry (if it last saw a 'not-taken' from the previous loop execution) and once on exit (when it predicts 'taken' but the loop ends). This 2-mispredictions-per-loop pattern is the classic weakness of 1-bit prediction, which the 2-bit saturating counter fixes."
+
+- question: "Why does branch misprediction penalty grow with pipeline depth?"
+  type: multiple-choice
+  options:
+    - "Deeper pipelines encounter branches more frequently because they execute more instructions per cycle"
+    - "Each misprediction requires flushing all instructions that were speculatively fetched after the branch, and deeper pipelines have fetched more of them"
+    - "Deeper pipelines use more complex prediction algorithms that introduce more errors"
+    - "Branch resolution happens earlier in deeper pipelines, giving the predictor less time to decide"
+  answer: 1
+  explanation: "The misprediction penalty equals the number of pipeline stages between instruction fetch and branch resolution — that is, how many speculative instructions must be discarded. In a 5-stage pipeline, the penalty is 1-2 cycles. In a 15-stage pipeline, it might be 10-15 cycles. Each of those discarded instructions represents wasted computation: fetch, decode, and possibly partial execution occurred for instructions on the wrong path. This is why prediction accuracy is so critical in modern deep-pipeline processors — even improving from 95% to 97% accuracy yields substantial performance gains."
+
+- question: "Static branch prediction can achieve 85–90% accuracy by always predicting branches as not taken."
+  type: true-false
+  answer: false
+  explanation: "Static prediction achieves roughly 60-70% accuracy, not 85-90%. The 85-90% figure is achieved by dynamic 2-bit saturating counter predictors, which learn from runtime history. Static 'always not-taken' performs poorly on loop-back branches (which are taken the majority of the time) and on other frequently-taken conditional branches. The improvement to 85-90% is specifically due to dynamic adaptation based on observed branch behavior."
+
+- question: "When a branch prediction is incorrect, the processor must flush the speculatively executed instructions from the pipeline and restart fetching from the correct path."
+  type: true-false
+  answer: true
+  explanation: "This is the fundamental cost of misprediction. Speculative instructions that were fetched, decoded, and executed along the wrong path must be squashed — their results discarded and any state changes reversed — before the processor can restart from the correct branch target. This pipeline flush is called the misprediction penalty, measured in cycles. Modern out-of-order processors use techniques like precise exceptions and reorder buffers to enable clean rollback without corrupting architectural state."
+
+- question: "Explain why branch prediction is described as 'one of the most performance-critical components in a processor despite performing no actual computation.' What cost does a misprediction incur?"
+  type: short-answer
+  answer: "Branch prediction is critical because branches occur roughly every 5-7 instructions in typical code, and each misprediction in a modern deep-pipeline processor costs 10-20 wasted cycles — time spent fetching, decoding, and beginning execution of the wrong instruction stream. At a 3 GHz clock with a 15-stage pipeline, a misprediction wastes about 5 nanoseconds. Even at 95% accuracy, with branches every 6 instructions, ~8% of cycles are wasted on mispredictions. Going from 95% to 97% accuracy meaningfully reduces this overhead. The predictor performs no ALU work, but its decisions gate whether all the ALU work ahead of it was useful or wasted."
+  explanation: "This counterintuitive importance arises from the interaction between two processor design trends: deeper pipelines (more stages between fetch and branch resolution) and higher instruction throughput (more work in flight). Both trends increase the cost of flushing. A predictor that was 'good enough' for a 5-stage pipeline becomes a bottleneck in a 20-stage one, which is why processor vendors invest heavily in increasingly sophisticated prediction schemes like tournament predictors and neural network-based predictors."
+```
+
 ## Explainer
 
 From your study of control hazards, you know the core problem: when a pipelined processor encounters a conditional branch, it does not know whether to fetch the next sequential instruction or the branch target until the branch condition is evaluated, which happens several stages into the pipeline. Waiting for the result means stalling — inserting bubbles that waste cycles. In a 5-stage pipeline, this costs 1-2 cycles per branch. In a deep 15-stage pipeline, it could cost 10 or more. Since branches occur roughly every 5-7 instructions in typical code, the performance penalty of always stalling would be catastrophic. **Branch prediction** solves this by guessing the branch outcome and fetching instructions along the predicted path speculatively.

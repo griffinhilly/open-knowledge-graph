@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Life table methods summarize age-specific mortality rates to estimate population survival, life expectancy, and probability of surviving to specific ages. Life tables organize person-time and events by age group, allowing stratified survival comparisons between populations.
 
+## Questions
+
+```yaml
+- question: "Mortality rates have been falling steadily for decades. A demographer calculates period life expectancy for 2024. How will this figure compare to the actual life expectancy of people born in 2024?"
+  type: multiple-choice
+  options:
+    - "It will overestimate actual life expectancy because it assumes future medical advances continue"
+    - "It will underestimate actual life expectancy because it applies today's relatively high elderly mortality rates to a cohort that will experience lower rates in the future"
+    - "It will match actual life expectancy closely, because period tables are calibrated to real cohort data"
+    - "It cannot be compared to cohort life expectancy because they measure fundamentally different populations"
+  answer: 1
+  explanation: "A period life table freezes mortality rates at the current snapshot and applies them to a hypothetical cohort. In a world of improving mortality, the rates that will actually apply when today's newborns are elderly will be lower than today's rates. The period table applies today's high elderly mortality, so it systematically underestimates the life expectancy that a real birth cohort will achieve."
+
+- question: "A public health researcher wants to compare survival patterns between smokers and nonsmokers across age groups 40–75. Which approach is most appropriate?"
+  type: multiple-choice
+  options:
+    - "A single period life table combining both groups to measure overall population survival"
+    - "Cohort life tables following actual smokers and nonsmokers from birth to extinction"
+    - "Separate period life tables applying current age-specific mortality rates to parallel hypothetical cohorts for each group"
+    - "A Kaplan-Meier estimator only, since life tables cannot accommodate subgroup comparisons"
+  answer: 2
+  explanation: "Life tables can be constructed for any subgroup by applying that group's age-specific mortality rates to a hypothetical cohort. Separate period life tables for smokers and nonsmokers allow direct comparison of their survival curves (l_x columns) and life expectancies — this is one of the primary practical uses of life tables. Cohort tables would require following actual people for decades; period tables make the comparison feasible now."
+
+- question: "A period life table does not describe the survival experience of any actual birth cohort — it is a hypothetical construct based on mortality rates observed during a single time period."
+  type: true-false
+  answer: true
+  explanation: "Correct. A period life table asks: 'If a cohort of 100,000 newborns experienced the age-specific mortality rates observed right now throughout their entire lives, how many would survive to each age?' No real cohort has ever experienced exactly this — rates change over decades. A cohort life table, by contrast, follows an actual birth cohort through the rates they actually experienced, which is why cohort tables take a century to complete."
+
+- question: "Life expectancy at birth is calculated by dividing the number of infant deaths in a given year by the total births that year."
+  type: true-false
+  answer: false
+  explanation: "This describes the infant mortality rate, not life expectancy. Life expectancy at birth is derived from the entire life table: by summing the future person-time (L_x) across all age intervals from birth onward, then dividing by the initial cohort size (l_0 = 100,000). It represents the expected total years of life for a hypothetical newborn given current age-specific mortality across all ages — not just mortality in infancy."
+
+- question: "Why does a period life table tend to underestimate actual life expectancy for people born today in a society where mortality rates are improving over time?"
+  type: short-answer
+  answer: "A period life table applies today's age-specific mortality rates — including relatively high rates for elderly age groups — to a hypothetical newborn cohort. But people born today will actually experience the mortality rates that prevail when they are old, which in an improving-mortality environment will be substantially lower than today's rates. The period table freezes mortality at the current snapshot; real cohorts benefit from decades of future improvements. The gap between period and cohort life expectancy grows larger when mortality improvement accelerates."
+  explanation: "This is why period life expectancy should not be interpreted as a prediction of how long today's newborns will actually live — it is a description of current mortality conditions expressed as a hypothetical survival outcome. The distinction matters for policy: a country with rapidly falling mortality will consistently 'underperform' its period life expectancy figures while actually improving dramatically."
+```
+
 ## Explainer
 
 From your study of person-time and incidence density rates, you know how to express mortality as a rate: deaths divided by the total person-time at risk in an interval. A **life table** organizes these rates by age group into a single coherent framework that answers a different question: not "how many died per year of observation?" but "what is the probability that a person born today survives to age 70?" These questions are related but require a different calculation structure.

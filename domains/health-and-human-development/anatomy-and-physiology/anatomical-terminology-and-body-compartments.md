@@ -30,6 +30,45 @@ Use 3D models or virtual anatomy software. Have students practice describing loc
 - Confusing superior with anterior; remember superior means toward the head.
 - Not realizing that anatomical directions assume the body is in anatomical position (palms forward).
 
+## Questions
+
+```yaml
+- question: "A patient is lying on their back on a hospital bed. A physician says the patient's nose is 'anterior' to their ears. Is this correct?"
+  type: multiple-choice
+  options:
+    - "No — anterior means 'above,' and lying down changes which direction is anterior"
+    - "Yes — anatomical directions are always defined relative to anatomical position, not the patient's current orientation"
+    - "No — when lying down, anterior becomes inferior"
+    - "It depends on whether the patient is face-up or face-down"
+  answer: 1
+  explanation: "Anatomical terminology is always defined relative to anatomical position (body standing upright, facing forward, palms forward), regardless of how the patient is actually positioned. Anterior means 'toward the front of the body in anatomical position' — so the nose is always anterior to the ears whether the patient is standing, lying, or inverted. This fixed reference is precisely what makes anatomical communication unambiguous in clinical settings."
+
+- question: "Which body cavity contains both the heart and the lungs?"
+  type: multiple-choice
+  options:
+    - "The dorsal cavity"
+    - "The abdominal cavity"
+    - "The thoracic cavity"
+    - "The cranial cavity"
+  answer: 2
+  explanation: "The thoracic cavity is the superior portion of the ventral cavity (above the diaphragm) and contains the lungs and the heart (enclosed within the mediastinum). The dorsal cavity contains the brain (cranial) and spinal cord (vertebral canal). The abdominal cavity contains the stomach, intestines, liver, and kidneys — it is inferior to the diaphragm. The cranial cavity contains only the brain."
+
+- question: "In anatomical terminology, 'superior' and 'anterior' describe the same direction — toward the top of the body."
+  type: true-false
+  answer: false
+  explanation: "These describe entirely different axes. Superior means toward the head along the head-to-toe axis; anterior means toward the front of the body along the front-to-back axis. The two axes are perpendicular to each other, so superior and anterior cannot be equated. The confusion arises from everyday language where 'above' can describe either dimension depending on context — anatomical terminology eliminates this ambiguity by assigning each term to one specific axis."
+
+- question: "Anatomical directional terms only apply when the subject is physically standing upright in anatomical position."
+  type: true-false
+  answer: false
+  explanation: "Anatomical terms are defined relative to anatomical position as a fixed conceptual reference — they apply regardless of the subject's actual orientation. Saying the elbow is 'proximal' to the wrist means the elbow is closer to the shoulder attachment point, whether the person is standing, lying, or seated. The reference system is fixed; the patient's actual position is irrelevant. This is the entire purpose of establishing a standard reference: it removes orientation-dependence from clinical description."
+
+- question: "Why do anatomists use a standard anatomical position rather than simply describing locations relative to how the body is currently oriented?"
+  type: short-answer
+  answer: "Without a fixed reference, the same description changes meaning as the body moves. 'Above the knee' means something different if the patient is standing, lying down, or inverted. Anatomical position (standing upright, facing forward, palms forward) provides a universal reference frame so that terms like 'superior,' 'anterior,' and 'medial' have the same meaning regardless of how the patient is positioned, making clinical communication consistent and unambiguous."
+  explanation: "The analogy is a map's north arrow: maps work because north is a fixed direction, not relative to which way you're holding the map. Anatomical position is the 'north arrow' of the human body. Every directional term is defined once relative to that standard, making the system interpretable across all clinical contexts — imaging, surgery, documentation, and patient handoffs."
+```
+
 ## Explainer
 
 Anatomy needs a shared coordinate system for the same reason that maps need a north arrow: without it, "above the knee" means something different depending on whether the patient is standing, lying down, or upside-down. **Anatomical position** solves this by fixing a reference: the body stands upright, facing forward, with arms at the sides and palms facing anteriorly. All anatomical directions are defined relative to this standard posture, regardless of how the patient or specimen is actually oriented.

@@ -30,6 +30,45 @@ Analyze the first pages of novels in three different genres. Identify what creat
 ## Common Misconceptions
 That hooks must be dramatic or action-filled; that the inciting incident must occur on page one; that all readers respond equally to the same type of opening.
 
+## Questions
+
+```yaml
+- question: "A literary novel's first chapter opens with precise, quiet descriptions of a small town in 1950s America, establishing voice and atmosphere without any dramatic action. The murder that will drive the plot is discovered in chapter three. A student complains the novel has a 'weak opening because nothing happens.' The more accurate analysis is:"
+  type: multiple-choice
+  options:
+    - "The student is correct — genre conventions require both hook and inciting incident on page one for any effective opening"
+    - "The chapter-one opening likely functions as a hook through voice and atmosphere, while the delayed inciting incident is appropriate for literary fiction, which often earns the disruption by first establishing what will be lost"
+    - "The novel violates narrative structure by separating the hook from the inciting incident across chapters"
+    - "Voice and atmosphere can function as hooks in poetry but not in prose fiction"
+  answer: 1
+  explanation: "Hook and inciting incident are distinct mechanisms that can be separated by pages or chapters. Literary fiction frequently uses atmosphere and voice to earn attention before the inciting incident arrives — making the disruption more impactful by first establishing what is at stake. The student is conflating hook (attentional) with inciting incident (structural)."
+
+- question: "A screenwriting teacher tells students that 'the hook IS the inciting incident — they are the same thing.' This claim is:"
+  type: multiple-choice
+  options:
+    - "Always correct — in all narrative forms, hook and inciting incident necessarily coincide"
+    - "True for some genres (thrillers, action films) that open in media res, but not universally — hook and inciting incident are conceptually distinct elements that may coincide or be separated depending on genre and structure"
+    - "Correct for film but not prose fiction, where the two always occur separately"
+    - "True only when the story begins at equilibrium rather than in media res"
+  answer: 1
+  explanation: "Hook and inciting incident can coincide — opening in media res at the destabilizing event uses the urgency of that event itself as the hook. But conceptually they operate at different levels: the hook is attentional (sentence/paragraph level), the inciting incident is structural (plot level). Treating them as identical leads to misdiagnosis of openings where they are deliberately separated."
+
+- question: "An effective opening hook must be dramatic or action-filled to successfully arrest a reader's attention."
+  type: true-false
+  answer: false
+  explanation: "Hooks work through voice, image, question, situation, or action — and a quiet, precise voice can arrest attention as surely as an explosion. 'Call me Ishmael' creates a gap through mystery and character; it contains no action. The test is whether the reader wants to find out what happens next, not whether the opening contains violence or conflict."
+
+- question: "The inciting incident is the structural event that destabilizes the opening equilibrium and makes the specific story being told necessary."
+  type: true-false
+  answer: true
+  explanation: "Before the inciting incident, the protagonist has a life; after it, they have a problem the story must address. It is the plot-level event that sets the narrative on its particular course. This is distinct from the hook (which works at the attentional level). Correctly identifying the inciting incident — separate from what creates initial interest — is essential to analyzing why an opening works or fails."
+
+- question: "Explain the difference between a hook and an inciting incident, and why treating them as the same thing would lead to misdiagnosis of an opening's strengths or weaknesses."
+  type: short-answer
+  answer: "The hook operates at the sentence or paragraph level — its job is purely attentional: give the reader a reason to keep reading right now, through voice, image, question, or action. The inciting incident operates at the plot level: it is the event that destabilizes the opening equilibrium and makes the story structurally necessary. They may coincide (in media res openings where the destabilizing event itself creates urgency) or be separated by pages or chapters. Treating them as identical causes two diagnostic errors: evaluating an opening solely on whether it contains plot action (missing atmospheric hooks), and failing to identify the structural function of a delayed inciting incident."
+  explanation: "The hook-vs-inciting-incident distinction is a practical analytical tool. Asking 'what arrested my attention?' and 'what moment made this story unavoidable?' as separate questions lets you evaluate each element on its own terms and understand the structural choices the writer made."
+```
+
 ## Explainer
 
 From your study of plot structure, you know that stories follow a shape: a situation is established, something disrupts it, conflict develops, a climax is reached, and the disruption is resolved. The **opening hook** and the **inciting incident** are the two distinct mechanisms that get this engine running. Understanding both — and the difference between them — transforms how you read and write opening pages.

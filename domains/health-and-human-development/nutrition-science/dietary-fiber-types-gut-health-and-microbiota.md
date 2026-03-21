@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Dietary fiber comprises soluble fibers (promote viscosity, fermentation) and insoluble fibers (promote fecal bulk, transit time). Fermentation of soluble fiber and resistant starch by colonic bacteria produces short-chain fatty acids (butyrate, propionate, acetate) that fuel colonocytes, improve glycemic control, and have immunological effects. Prebiotic fibers selectively stimulate beneficial bacteria. Low fiber intake is associated with dysbiosis and elevated risk of colorectal cancer, metabolic disease, and cardiovascular disease.
 
+## Questions
+
+```yaml
+- question: "A patient wants to lower their LDL cholesterol through dietary changes. Which type of fiber is most relevant, and through what mechanism does it work?"
+  type: multiple-choice
+  options:
+    - "Insoluble fiber, by accelerating intestinal transit and reducing cholesterol absorption time"
+    - "Soluble fiber, by forming viscous gels that trap bile acids and promote their excretion, forcing the liver to draw on its cholesterol pool"
+    - "Resistant starch, by producing butyrate that directly inhibits hepatic cholesterol synthesis"
+    - "Both types equally, since all fiber reduces cholesterol by slowing overall gut motility"
+  answer: 1
+  explanation: "Soluble fiber forms viscous gels in the small intestine that trap bile acids, diverting them toward excretion rather than reabsorption. Because the liver must synthesize new bile acids to replace those lost, it draws down its cholesterol pool — the same logic as interrupting the enterohepatic circulation. Insoluble fiber does not dissolve or form gels; it works mechanically by retaining water and increasing stool bulk."
+
+- question: "Why does butyrate, produced from colonic fermentation of soluble fiber, have protective effects against colorectal cancer?"
+  type: multiple-choice
+  options:
+    - "Butyrate accelerates intestinal transit, reducing the time potential carcinogens contact the colonic mucosa"
+    - "Butyrate is the primary energy source for colonocytes and has both anti-inflammatory and anti-proliferative effects on the mucosal lining"
+    - "Butyrate raises colonic pH, creating an environment hostile to carcinogens and pathogenic bacteria"
+    - "Butyrate suppresses dysbiosis by directly killing potentially harmful bacterial species"
+  answer: 1
+  explanation: "Butyrate plays a dual role: it feeds the colonocytes (colon lining cells) that maintain mucosal integrity, and it has direct anti-inflammatory and anti-proliferative effects. These combined properties support a healthy mucosa and suppress conditions that favor tumor development. Accelerated transit (answer A) is actually a mechanism of insoluble fiber, not butyrate."
+
+- question: "Insoluble fiber lowers LDL cholesterol primarily by being fermented into short-chain fatty acids in the colon."
+  type: true-false
+  answer: false
+  explanation: "Insoluble fiber is not extensively fermented — it resists colonic fermentation and works mechanically: retaining water, increasing stool bulk, and accelerating transit. It is soluble fiber (and resistant starch) that is fermented by colonic bacteria into SCFAs including butyrate. The cholesterol-lowering mechanism belongs to soluble fiber's bile acid trapping, not to SCFA production."
+
+- question: "A low-fiber diet can promote dysbiosis partly because without fermentable fiber, some bacterial species shift to consuming components of the gut's own protective mucus layer."
+  type: true-false
+  answer: true
+  explanation: "When dietary fiber is absent, certain bacterial species that would normally ferment fiber instead subsist on the mucus layer lining the gut, thinning this protective barrier. This promotes increased intestinal permeability and systemic inflammation — a key mechanistic pathway linking low fiber intake to metabolic disease and cardiovascular disease beyond mere effects on transit time."
+
+- question: "Explain why 'resistant starch' (found in cooked-then-cooled potatoes or unripe bananas) behaves more like soluble fiber than like regular digestible starch in terms of its health effects."
+  type: short-answer
+  answer: "Regular starch is fully digested by amylase enzymes in the small intestine. Resistant starch escapes small intestinal digestion and passes intact into the colon, where colonic bacteria ferment it — producing short-chain fatty acids (butyrate, propionate, acetate) just as they ferment soluble fiber. Its functional impact therefore mirrors soluble fiber: SCFA production, colonocyte support, and microbiome effects."
+  explanation: "The structural change during cooling (retrogradation) causes starch molecules to reorganize into a form that amylase cannot efficiently cleave. This structural resistance — not the original starch chemistry — is what makes it 'resistant.' The fiber classification is functional, not chemical: what matters is whether the material reaches the colon intact for bacterial fermentation."
+```
+
 ## Explainer
 
 From your study of dietary fiber and gut health, you know that fiber is the portion of plant food that human digestive enzymes cannot break down. From your study of carbohydrate structure and classification, you know why: fiber consists of polysaccharide chains linked by β-glycosidic bonds (as in cellulose) or branched in ways (as in pectins and fructooligosaccharides) that the human digestive tract simply lacks the enzymes to cleave. This structural resistance is not a failure — it is the functional basis of fiber's effects. The distinction between soluble and insoluble fiber is essentially about what happens to these intact polysaccharides as they travel through the gut.

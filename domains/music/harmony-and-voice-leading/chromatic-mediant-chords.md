@@ -32,6 +32,45 @@ Play I–bVI–I and I–III–I progressions at the keyboard in several keys to
 - Assuming chromatic mediants require complicated voice leading: the shared common tone makes smooth connection natural.
 - Conflating chromatic mediants with modulations to third-related keys: a single chord does not constitute a modulation.
 
+## Questions
+
+```yaml
+- question: "In C major, a composer moves from a C major tonic chord directly to an E major chord. What type of harmonic motion is this?"
+  type: multiple-choice
+  options:
+    - "A secondary dominant — E major functions as V/vi, preparing a move to A minor"
+    - "A chromatic mediant — E major (III) is a major chord a third above the tonic sharing the common tone E, but differing from the diatonic iii (E minor)"
+    - "A borrowed chord from C minor replacing the diatonic iii"
+    - "A modulation to E major, established by the direct move from I"
+  answer: 1
+  explanation: "E major (III) in C major is a chromatic mediant: its root is a major third above the tonic C, it shares the common tone E with the C major tonic chord (C–E–G), but it differs from the expected diatonic mediant iii (E minor) by raising the fifth from G to G#. The I–III move is a coloristic shift, not a secondary dominant (which would need to resolve to A minor through a dominant-tonic cadence) and not a modulation (a single chord cannot establish a new key)."
+
+- question: "What voice-leading feature primarily accounts for the smoothness of chromatic mediant progressions despite their use of non-diatonic pitches?"
+  type: multiple-choice
+  options:
+    - "Both chords belong to the same diatonic scale, so no chromatic motion occurs"
+    - "The chromatic half-step motion in all voices creates a seamless glide"
+    - "A shared common tone allows one voice to hold stationary while other voices move by half-step"
+    - "The bass moves by perfect fifth, providing the same grounding as a functional progression"
+  answer: 2
+  explanation: "Despite involving non-diatonic pitches, chromatic mediant progressions are inherently smooth because each chromatic mediant shares at least one pitch with the tonic triad — the common tone. In C major to Ab major (I–bVI), the pitch C is shared by both chords. One voice holds C while the others move by half-step (E → Eb, G → Ab). The combination of a stationary common tone and minimal voice movement produces the characteristic 'slide' — harmonic color change with no sensation of effort or distance."
+
+- question: "A chromatic mediant progression preserves the tonal center — the listener does not perceive a change of key."
+  type: true-false
+  answer: true
+  explanation: "This is the essential distinction between a chromatic mediant and a modulation. A modulation establishes a new tonic through mechanisms like a dominant-tonic cadence in the new key or sustained emphasis on a new pitch center. A chromatic mediant is a single chord that creates a coloristic shift without establishing a new key — the tonal center remains unchanged. Listeners experience this as an emotional inflection, not as a key change. This is why film composers use chromatic mediants for 'wonder' or 'otherworldly' effects: they change harmonic color without moving away from home."
+
+- question: "Moving from I to bVI in C major (C major to Ab major) constitutes a modulation to Ab major."
+  type: true-false
+  answer: false
+  explanation: "A single chord does not constitute a modulation. Modulation requires establishing a new tonal center — typically through a dominant-tonic cadence (V–I) in the new key or by sustaining emphasis on the new pitch class. A chromatic mediant like bVI creates a coloristic effect and typically returns to the original key context. Unless the Ab major chord is followed by Eb major (V of Ab) and further cadential confirmation of Ab as a new tonic, it remains a chromatic mediant, not a modulation."
+
+- question: "What distinguishes a chromatic mediant from a diatonic mediant in C major? Use a specific example."
+  type: short-answer
+  answer: "In C major, the diatonic mediants are iii (E minor) and vi (A minor) — both are a third from the tonic and entirely within the C major scale. The chromatic mediants are III (E major), VI (A major), bIII (Eb major), and bVI (Ab major) — also third-related to the tonic, but they differ in quality or diatonic origin. For example, III (E major) versus iii (E minor): both have root E, but E major contains G#, which is not in C major. E major shares the common tone E with the tonic triad (C–E–G) while introducing foreign G#, creating coloristic contrast that the diatonic E minor lacks."
+  explanation: "The key is that 'chromatic' refers to the contrast in mode or diatonic origin, not merely the presence of accidentals. The defining features of a chromatic mediant are: (1) root a third away from the tonic, (2) at least one common tone with the tonic chord, and (3) at least one pitch foreign to the home key's diatonic scale. A borrowed chord like bVII (Bb major in C) has chromatic notes but is not a chromatic mediant because its root is a seventh above, not a third."
+```
+
 ## Explainer
 
 From your prerequisite work with borrowed chords, you understand how a composer can reach outside the diatonic scale and import chords from the parallel major or minor. Chromatic mediants are a specific, particularly beautiful application of that principle — chords whose roots sit a third away from the tonic, connected by smooth voice leading through a shared common tone. The defining feature is the combination of **third relationship** and **chromatic contrast**: the root is a third away, but the chord quality creates at least one note that is not diatonic to the home key.

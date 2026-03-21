@@ -33,6 +33,45 @@ Take a dialogue exchange from a realistic play (Chekhov, Ibsen, or modern drama)
 ## Common Misconceptions
 Subtext doesn't mean 'hidden meaning' in a puzzle sense. It's not that the playwright is hiding something from the audience. Rather, subtext is the psychological truth that realistic characters would not articulate directly in the moment.
 
+## Questions
+
+```yaml
+- question: "In a play, two characters spend an entire scene arguing about whose turn it is to do the dishes, growing increasingly hostile until one storms out. A student concludes the scene is about domestic chores. What does this student miss?"
+  type: multiple-choice
+  options:
+    - "Characters in realistic drama never discuss actual domestic details — all concrete dialogue functions as allegory"
+    - "The emotional charge has been displaced onto the neutral object of chores; the scene is really about a deeper relational conflict that neither character can address directly"
+    - "The scene is about domestic chores, but the student should also identify which character has symbolic power over the household"
+    - "Subtext is only present in scenes that contain silence or hesitation — an argument like this is surface-level conflict"
+  answer: 1
+  explanation: "This is displacement: a core subtext technique in which the emotional charge of a conflict that cannot be addressed directly attaches to a neutral, surface-level subject. The scene's real subject — resentment, invisibility in the relationship, power imbalance — cannot be named, so it finds expression through the available surface of a mundane domestic dispute. Recognizing displacement requires asking not 'what are they talking about?' but 'what do they need, and why can't they just say it?'"
+
+- question: "Why does making subtext explicit — turning 'I'm fine' said through gritted teeth into 'I am furious and feel completely invisible' — typically reduce the dramatic power of a scene?"
+  type: multiple-choice
+  options:
+    - "Audiences prefer oblique dialogue because direct speech is grammatically simpler and therefore less intellectually engaging"
+    - "Realistic audiences expect characters to speak indirectly because that reflects how people actually communicate"
+    - "Subtext requires the audience's active inference to generate its emotional power — making it explicit eliminates the collaborative gap that makes the moment land"
+    - "Playwrights use subtext to protect controversial content from censorship, so making it explicit removes the protective indirection"
+  answer: 2
+  explanation: "Subtext operates through the audience's act of inference — the gap between what is said and what is meant is where the audience actively constructs emotional truth. When that gap closes, the audience becomes a passive receiver rather than an active collaborator, and the scene loses the mechanism that generates power. The emotional charge was being held in tension between the surface words and the underlying meaning; collapse that tension and there is nothing left to feel."
+
+- question: "Subtext is hidden meaning that the playwright conceals from the audience but reveals to attentive readers willing to do interpretive work."
+  type: true-false
+  answer: false
+  explanation: "Subtext is not hidden from the audience — the audience is meant to perceive it. It is hidden from other characters (or from the character themselves). The playwright's craft is to communicate the underlying psychological truth to the audience through implication, hesitation, displacement, and repetition, even while the characters fail to say it directly. The Common Misconceptions section names this exactly: subtext is not a puzzle the playwright hides from the audience but rather the psychological truth realistic characters would not articulate in the moment."
+
+- question: "A character's repeated use of a casual phrase ('never mind,' 'it's fine') across a scene can generate subtext by accumulating emotional weight beyond the phrase's literal meaning."
+  type: true-false
+  answer: true
+  explanation: "Repetition is one of the key mechanisms for generating subtext. When a phrase recurs, it stops being casual — by the third time a character says 'never mind,' the audience understands exactly what mind they mean and why they won't say it. The phrase becomes a signal of suppression rather than a literal statement. This accumulation of weight through repetition is a craft choice that transfers meaning from explicit content to the pattern itself."
+
+- question: "What does subtext reveal about a character, and why is a character who cannot speak directly about their feelings often more dramatically interesting than one who can?"
+  type: short-answer
+  answer: "A character's inability to speak directly reveals the pressures acting on them — fear, conditioning, pride, power imbalance, desire, shame. These constraints make the character's interior life visible as something in tension with their social situation. The question 'why can't they just ask for it?' is where character depth lives. Transparent characters leave nothing for the audience to discover; constrained characters invite active psychological interpretation."
+  explanation: "Subtext is a diagnostic tool for character: it shows what someone needs and why the social, psychological, or situational context prevents them from asking directly. A character who speaks everything they feel is psychologically simple; a character navigating the gap between what they feel and what they can say is embedded in a complex reality the audience must work to understand. That work is what makes the character feel real."
+```
+
 ## Explainer
 
 You already know that dialogue is not just information exchange — it's action. Characters use words to deflect, to wound, to court, to avoid. Subtext is what happens when the words and the underlying action diverge. A character says "I'm fine" while every other signal in the scene says the opposite. The audience registers both layers simultaneously, and the gap between them is where drama lives.

@@ -33,6 +33,45 @@ Read excerpts from Herodotus's Histories and Thucydides's Peloponnesian War in t
 - Ancient historians were less rigorous than moderns; in fact, Thucydides anticipated modern source criticism.
 - All ancient history is equally reliable; Herodotus was more credulous than Thucydides.
 
+## Questions
+
+```yaml
+- question: "A student argues that Herodotus was simply an unreliable storyteller because his Histories include mythological tales and unverified legends. What is the most accurate historical assessment of this claim?"
+  type: multiple-choice
+  options:
+    - "Correct — Herodotus had no historical method and simply recorded whatever he heard without evaluation"
+    - "Partially correct — Herodotus preserved legendary material but also flagged contradictory accounts and unreliable traditions, operating within a different but intentional methodological framework"
+    - "Incorrect — Herodotus systematically excluded all legendary material and met the same source-critical standards as Thucydides"
+    - "Irrelevant — ancient history should not be judged by modern reliability standards at all"
+  answer: 1
+  explanation: "Herodotus was not naive or indiscriminate — he frequently flagged accounts he found implausible, noted when sources contradicted each other, and reminded readers he was reporting what he heard rather than what he verified. His inclusion of legendary and ethnographic material reflected a broader conception of *historia* (inquiry) that encompassed cultural and mythological traditions as evidence of how peoples understood themselves, not just of what literally occurred. Option A understates his methodological awareness; option C overstates his source criticism by conflating him with Thucydides. The accurate picture is a different but coherent method, not the absence of method."
+
+- question: "Thucydides writes that when reconstructing speeches, he tried to record 'what was appropriate to the occasion' rather than verbatim words. This methodological choice reflects:"
+  type: multiple-choice
+  options:
+    - "Deliberate fabrication to make the narrative more dramatic and engaging for Athenian readers"
+    - "A commitment to capturing the strategic logic and intent of speakers accurately, even at the cost of literal transcription"
+    - "An admission that his memory was unreliable, so he invented plausible substitutes"
+    - "A convention required by Athenian law that prohibited exact quotation of public speeches"
+  answer: 1
+  explanation: "Thucydides explicitly acknowledges he could not reproduce verbatim what was said, but he distinguishes this from invention: he reports what the circumstances required the speaker to say given the situation — the strategic rationale behind the speech. This is an analytical commitment to causal and logical accuracy over surface accuracy. The Melian Dialogue, for instance, captures the logic of Athenian imperial power relations even if it is not a transcript. Option A misreads this as literary license; Thucydides was explicit about his method and its rationale, which is precisely why historians still discuss it 2,500 years later."
+
+- question: "The tension between preserving broad cultural traditions (Herodotus) and applying rigorous source criticism (Thucydides) is a distinctly modern problem that ancient historians did not recognize."
+  type: true-false
+  answer: false
+  explanation: "The Herodotus-Thucydides contrast shows this tension was recognized from the very beginning of Western historical writing. Thucydides explicitly criticized the approach of historians who included unverified traditions for entertainment value (a clear reference to his predecessors' methods), and the debate between broad cultural documentation and analytical rigor has been explicit in historiography since the 5th century BCE. The problem of evidence versus tradition — knowing when a compelling account is also a reliable one — is 2,500 years old, not a modern discovery."
+
+- question: "Thucydides anticipated aspects of modern source criticism by distinguishing between what witnesses reported, what they likely believed, and what actually occurred."
+  type: true-false
+  answer: true
+  explanation: "Thucydides explicitly separated layers of evidence — what participants said they did, what they were likely thinking given the circumstances, and his own reconstruction of events from multiple interrogated sources. His statement that he excluded 'the romantic element' and sought 'plain truth about the past' reflects a methodological commitment to distinguishing the evidential from the legendary that modern historians recognize as source-critical in spirit. The common misconception (listed in the topic's metadata) is that ancient historians were uniformly less rigorous than modern ones — Thucydides is the standard counterexample."
+
+- question: "What is the key methodological difference between Herodotus and Thucydides, and what does each approach preserve or sacrifice?"
+  type: short-answer
+  answer: "Herodotus prioritized breadth: he collected accounts from diverse traditions, cultures, and peoples across the Mediterranean world, preserving ethnographic detail, mythology, and local self-understanding alongside political narrative. He sacrificed precision in source vetting, accepting accounts he found implausible while flagging them. Thucydides prioritized analytical precision: he focused on a single war, insisted on eyewitness testimony and documented sources, excluded unverifiable traditions, and analyzed causation rigorously. He sacrificed cultural breadth and preserved less of the social and cultural context that Herodotus captured. Each approach makes real tradeoffs rather than one being simply superior."
+  explanation: "This tradeoff maps directly onto persistent debates in modern historiography: social/cultural history (which requires accepting fragmentary and partial sources to recover marginalized perspectives) versus political/analytical history (which prioritizes well-documented events and verifiable causation). Neither Herodotus nor Thucydides is simply 'right' — they answer different questions with different evidence. A historian studying ancient Greek religion may find Herodotus more valuable; one studying the strategic dynamics of fifth-century warfare turns to Thucydides."
+```
+
 ## Explainer
 
 You already understand what a primary source is and why historiography matters — the study of how historians have practiced their craft across time. Ancient historiography is where that practice begins in the Western tradition: with two Greek historians whose contrasting methods defined a debate about the purpose and standards of historical writing that continues today.

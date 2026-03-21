@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 A second wave of industrialization (ca. 1870-1914) harnessed electricity, chemical processes, and steel production at scale, amplifying industrial capacity and enabling new industries like petrochemicals and electrical power. This wave intensified competition for resources and markets among industrializing nations, creating economic pressures that fueled imperial expansion. Technological acceleration also increased military capability, contributing to arms races and the conditions for global conflict.
 
+## Questions
+
+```yaml
+- question: "What was the most transformative feature of electrical power transmission that distinguished it from steam power?"
+  type: multiple-choice
+  options:
+    - "Electricity was cleaner to produce, reducing the air pollution problems caused by coal-burning steam engines"
+    - "Electricity could be transmitted over distance, separating the point of power generation from the point of use for the first time"
+    - "Electrical machines were more efficient per unit of fuel than steam engines, lowering production costs"
+    - "Electricity enabled higher speeds in textile mills, increasing output without requiring more workers"
+  answer: 1
+  explanation: "The revolutionary feature of electricity was spatial decoupling: a factory no longer had to be located beside a river, canal, or coal supply. Power could be generated at a centralized station and transmitted to wherever it was needed. This transformed industrial geography, urban planning, and daily life — factories could be built anywhere, electric light extended the productive day, and communication (telegraph, telephone) could span continents. Steam was transformative, but factories still had to be near their energy source. Electricity liberated them from that constraint."
+
+- question: "By 1900, Germany had overtaken Britain in chemical and electrical manufacturing. What is the most significant historical consequence of this shift for European geopolitics?"
+  type: multiple-choice
+  options:
+    - "Britain abandoned industrial production and focused on financial services, becoming the world's banker"
+    - "Germany's structural economic advantage in cutting-edge sectors intensified rivalry with Britain, contributing to arms races and the imperial competition that preceded World War I"
+    - "France became the dominant industrial power after both Britain and Germany exhausted themselves in economic competition"
+    - "The shift was economically significant but geopolitically neutral, since industrial competition was managed peacefully through trade agreements"
+  answer: 1
+  explanation: "Germany's rise in chemistry and electrical manufacturing — the leading-edge industries of the Second Industrial Revolution — alarmed Britain, which had dominated the first wave of industrialization and now found itself being overtaken. This structural rivalry intensified competition for colonial resources and export markets, fed the naval arms race (German dreadnoughts requiring Krupp steel), and deepened the alliance and counter-alliance system that would mechanically drag nations into war in 1914. The economic competition was not geopolitically neutral — it was one of the structural pressures that made WWI possible."
+
+- question: "The Second Industrial Revolution was primarily an acceleration and expansion of the industries established during the first Industrial Revolution — more steam power, more textiles, more coal."
+  type: true-false
+  answer: false
+  explanation: "This misses the qualitative difference between the two waves. The first Industrial Revolution (ca. 1760–1840) was powered by steam applied to textiles, mining, and manufacturing — mechanizing existing industries. The Second Industrial Revolution (ca. 1870–1914) introduced entirely new industries: electrical power generation and transmission, synthetic chemistry (dyes, fertilizers, pharmaceuticals), precision steel production, and petroleum processing. These did not speed up old industries — they created new ones that did not previously exist. The Haber-Bosch process, which synthesized fertilizer from atmospheric nitrogen, had no predecessor in the first revolution. The distinction matters because the new industries generated new geopolitical pressures, not just more of the old ones."
+
+- question: "The naval arms race between Britain and Germany in the 1890s–1910s was made economically feasible by the steel and engineering capacity developed during the Second Industrial Revolution."
+  type: true-false
+  answer: true
+  explanation: "Dreadnoughts — the massive steel battleships that defined the pre-WWI arms race — required industrial-scale production of high-quality steel (enabled by the Bessemer process and its successors), precision machining of large gun barrels and armor plate, and coordination of engineering knowledge that only the Second Industrial Revolution's technical infrastructure made possible. Britain and Germany were competing to build large fleets of these ships simultaneously, something that would have been economically and technically impossible before the 1870s. The arms race was both a product and a driver of Second Industrial Revolution technology, a direct causal link between industrial capacity and military-political crisis."
+
+- question: "How did the technologies of the Second Industrial Revolution directly contribute to the conditions that made World War I possible? Identify at least two mechanisms."
+  type: short-answer
+  answer: "First, industrial-scale steel production made possible the naval arms race between Britain and Germany (dreadnoughts) and the mass production of artillery and weapons — military capacity grew with industrial capacity. Second, the need for raw materials (rubber, copper, petroleum, iron ore) that industrializing nations lacked domestically drove the scramble for colonial territories in Africa and Asia, intensifying imperial rivalries that created alliance systems. Third, Germany's structural advantage in chemistry and electrical manufacturing alarmed Britain and France, generating economic competition that fed geopolitical tension. Finally, the same chemistry that produced synthetic dyes and fertilizers also produced explosives and, later, poison gas — the Second Industrial Revolution made industrial-scale killing possible."
+  explanation: "The connection between the Second Industrial Revolution and WWI is not coincidental — it is causal in multiple directions. The war's unprecedented scale of carnage required the industrial capacity to produce millions of artillery shells, rifles, and eventually chemical weapons. The political conflicts that led to war were partly driven by economic competition over the raw materials and markets that Second Industrial Revolution industries required. Understanding the war requires understanding the industrial context that preceded it."
+```
+
 ## Explainer
 
 From your study of the first Industrial Revolution, you know that Britain's industrialization (ca. 1760–1840) was driven primarily by **steam, coal, and textiles**: a new energy source (steam power) applied to mechanized production concentrated in factories. The Second Industrial Revolution that followed from roughly 1870 to 1914 was different in kind, not just scale. Its key technologies — electricity, synthetic chemistry, and Bessemer steel — enabled entirely new industries rather than simply speeding up existing ones, and it spread across multiple nations simultaneously rather than originating in one country.

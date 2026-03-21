@@ -30,6 +30,45 @@ Study the Concert of Europe (multipolar), Cold War (bipolar), and post-Cold War 
 ## Common Misconceptions
 More poles does not automatically mean more stability—multipolar systems can be more conflictual if balancing is ineffective. Conversely, bipolarity does not guarantee peace; the superpowers can still threaten each other.
 
+## Questions
+
+```yaml
+- question: "Kenneth Waltz argued that bipolarity was MORE stable than multipolarity. What was his core reasoning?"
+  type: multiple-choice
+  options:
+    - "Bipolar systems prevent war because two superpowers can negotiate directly without third-party interference"
+    - "Bipolar systems have fewer actors, clearer lines of responsibility, and superpowers can deter each other without relying on unreliable allies"
+    - "Bipolar systems allow weaker states to play the two powers against each other, balancing the system"
+    - "Bipolar systems produce equal capabilities on each side, making conflict irrational"
+  answer: 1
+  explanation: "Waltz's argument was that bipolarity reduces the uncertainty that causes miscalculation. With only two major powers, each can monitor the other closely, knows who is responsible for deterrence without counting on unreliable third parties, and has sufficient independent capabilities to deter directly. Multipolarity multiplies the actors and alliance calculations, creating more opportunities for chain-gang escalation, alliance abandonment, and miscalculated commitments — as the lead-up to World War I illustrates."
+
+- question: "A new military alliance forms between three medium-sized states. A polarity analyst's first interpretive question would be:"
+  type: multiple-choice
+  options:
+    - "What are the domestic political motivations driving each member state?"
+    - "Is this alliance consistent with the structural incentives of the current polar configuration, or does it signal a transition?"
+    - "What is the combined GDP of the alliance members?"
+    - "Whether the alliance treaty includes a mutual defense clause"
+  answer: 1
+  explanation: "Polarity theory provides a structural baseline for interpreting events. Individual state decisions matter, but the polarity framework first asks whether an event is structurally predicted — for example, medium powers balancing against a hegemon is exactly what unipolarity predicts — or whether it signals a structural shift. The structural question frames which state-level motivations are most relevant to investigate next."
+
+- question: "Multipolar systems are more stable than bipolar systems because more great powers means more potential alliance partners and greater flexibility in balancing."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception in polarity theory. More alliance options also mean more unreliable alliances, more complex calculations, and more actors who can trigger cascading escalation. The Concert of Europe managed multipolarity successfully through deliberate restraint, but the interwar period produced catastrophic failure despite (or partly because of) its multipolar flexibility. Whether multipolarity is more or less stable than bipolarity is empirically contested — not settled in multipolarity's favor."
+
+- question: "A unipolar system is inherently more stable than other polar configurations because the dominant hegemon can enforce order and deter challengers."
+  type: true-false
+  answer: false
+  explanation: "Hegemonic stability theory makes this argument, but power transition theory contests it. Unipolarity is paradoxical: the hegemon's dominance can provide order in the short run, but it also generates resentment and incentivizes rising powers to invest in closing the capabilities gap. The transition period — when a challenger approaches parity — is often the most dangerous phase in international politics. Unipolar systems are inherently temporary and contain within themselves the dynamics that eventually undermine their own stability."
+
+- question: "Explain the practical value of polarity analysis for interpreting contemporary international events."
+  type: short-answer
+  answer: "Polarity provides a structural baseline that distinguishes events predicted by the existing system structure from events signaling a structural transition. Growing Chinese military investment and Sino-Russian alignment in a formerly unipolar world are exactly what polarity theory predicts: rising powers balance against the hegemon. This structural expectation helps analysts avoid over-interpreting individual decisions as idiosyncratic and instead situate them in the broader pattern of capability distribution and incentives. When multiple states begin forming competing blocs or withdrawing from a hegemon's institutions, polarity theory asks: are we watching a structural shift from unipolarity toward bipolarity or multipolarity?"
+  explanation: "Polarity doesn't predict specific outcomes but constrains the range of plausible behaviors and makes structural patterns interpretable rather than merely surprising."
+```
+
 ## Explainer
 
 From your study of balance of power and power capabilities distribution, you know that states in the international system tend to resist domination by any single state — forming counterbalancing coalitions when one power grows too strong. **Polarity** takes this framework to the system level: it asks how many major powers exist in the system at once, and argues that the answer shapes the overall pattern of conflict and cooperation in ways that transcend the decisions of any individual state.

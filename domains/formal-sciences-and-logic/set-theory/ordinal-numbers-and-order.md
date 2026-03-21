@@ -33,6 +33,45 @@ Classify the first several ordinals into successor vs. limit: 0, 1, 2, ..., ω (
 - Limit ordinals are not simply 'large' ordinals — ω is the smallest limit ordinal and is countable. Every infinite cardinal is a limit ordinal, but most limit ordinals are not cardinals.
 - Ordinal equality is order-type equality, not set-size equality: ω and ω+ω have the same cardinality (both countable) but are distinct ordinals with different order structures.
 
+## Questions
+
+```yaml
+- question: "Consider two well-ordered sets: ℕ = {0, 1, 2, ...} and ℕ ∪ {ω} = {0, 1, 2, ..., ω} where ω comes after all natural numbers. Both sets are countably infinite. Are they the same ordinal?"
+  type: multiple-choice
+  options:
+    - "Yes — they have the same cardinality, so they represent the same ordinal"
+    - "Yes — any two countably infinite well-ordered sets are order-isomorphic"
+    - "No — they are isomorphic to ω and ω+1 respectively, which are distinct ordinals with different order structures"
+    - "No — ℕ ∪ {ω} is uncountable because it includes a transfinite element"
+  answer: 2
+  explanation: "Ordinal equality is order-type equality, not cardinality equality — this is one of the most important distinctions in ordinal theory. ℕ is isomorphic to ω (every element has finitely many predecessors, no greatest element). ℕ ∪ {ω} has ω as a greatest element preceded by all natural numbers — it is isomorphic to ω+1. These have the same cardinality (both countable) but radically different order structures. ω+1 has a greatest element; ω does not. Same size, different shape — different ordinals."
+
+- question: "Which of the following correctly describes ω (the first transfinite ordinal)?"
+  type: multiple-choice
+  options:
+    - "ω is a successor ordinal — it has an immediate predecessor, namely the 'last' natural number"
+    - "ω is a large, uncountable ordinal that lies far beyond the natural numbers"
+    - "ω is the smallest limit ordinal — countable, with no immediate predecessor and no greatest finite element below it"
+    - "ω is the ordinal of the real numbers, representing the uncountable continuum"
+  answer: 2
+  explanation: "ω is the first limit ordinal: it has no immediate predecessor (there is no 'last' natural number before it), and every element below it has only finitely many predecessors. Crucially, ω is countable — it is the ordinal of the natural numbers, not of any uncountable set. The misconception that limit ordinals must be 'large' or uncountable is common; in fact, ω is the smallest limit ordinal and is no larger than any infinite cardinal. Uncountable ordinals come much later (ω₁ is the first uncountable ordinal)."
+
+- question: "For any ordinals α and β, exactly one of α < β, α = β, or α > β holds — ordinals are totally ordered by membership."
+  type: true-false
+  answer: true
+  explanation: "True — this trichotomy is a fundamental property of ordinals that distinguishes them from arbitrary sets. Two arbitrary sets may be incomparable in cardinality (by independence results), and even two well-ordered sets may require work to compare. But ordinals are totally ordered: for any α and β, one is a member of the other or they are equal. This follows from the fact that every nonempty class of ordinals has a least element (the ordinals are themselves well-ordered). Trichotomy makes ordinals powerful tools for transfinite arguments."
+
+- question: "Two well-ordered sets that have the same cardinality always have the same ordinal."
+  type: true-false
+  answer: false
+  explanation: "False — same cardinality does not imply same ordinal. ω and ω+ω are both countably infinite but are distinct ordinals: ω has order type of ℕ (no element preceded by infinitely many others), while ω+ω has an element preceded by infinitely many others (namely the 'first' ω-element). Same size, different structure. However, the converse is true: same ordinal does imply same cardinality, because ordinal isomorphism is in particular a bijection. Ordinal equality is strictly finer than cardinal equality — it preserves order structure, not just size."
+
+- question: "What does it mean for two well-ordered sets to be 'order-isomorphic,' and why do ordinals use order-isomorphism rather than cardinality (bijection alone) as their notion of equality?"
+  type: short-answer
+  answer: "Two well-ordered sets are order-isomorphic if there exists a bijection between them that preserves the order in both directions: a < b in the first set if and only if f(a) < f(b) in the second. Ordinals use order-isomorphism rather than bare cardinality because ordinals are designed to capture the shape of a well-ordering — how the elements are arranged — not just how many there are. Cardinality only asks whether a bijection exists; order-isomorphism asks whether a structure-preserving bijection exists. This finer notion is needed to classify the distinct well-order types that arise in transfinite mathematics."
+  explanation: "The distinction between cardinality and order type is one of the deepest in set theory. The natural numbers can be well-ordered in many non-isomorphic ways (ω, ω+1, ω·2, ...) even though the underlying set is always countable. Ordinals serve as canonical labels for these distinct order structures. Without order-isomorphism as the standard, all countably infinite well-orderings would be 'the same' — collapsing a rich classification into a single type and losing the entire theory of ordinal arithmetic."
+```
+
 ## Explainer
 
 From your work with von Neumann ordinals, you already know that ordinals are built from the empty set outward: 0 = ∅, 1 = {0}, 2 = {0, 1}, and in general each natural number n = {0, 1, ..., n−1}. The key property that makes this construction powerful is that membership (∈) among von Neumann ordinals coincides exactly with the ordering relation (<). When we say α < β for ordinals, we mean α ∈ β, and also α ⊂ β — the smaller ordinal is literally a member and a subset of the larger. This tight connection between set-membership and ordering is what lets ordinals serve as canonical yardsticks for well-ordered sets.

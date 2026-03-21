@@ -30,6 +30,45 @@ Trace a specific landscape — a river delta, a dryland farming region, an urban
 - Adaptation is not only a response to hostile environments; humans actively co-produce environments through long-term landscape management, often making them more habitable.
 - "Natural" landscapes are rarely unmodified by human activity; most of what we see as wilderness reflects centuries of indigenous management.
 
+## Questions
+
+```yaml
+- question: "Pre-Columbian peoples in the Amazon basin deliberately enriched soils over generations, creating anthropogenic dark earth (terra preta) that made productive agriculture possible in difficult terrain. How does this example best illustrate the concept of human-environment adaptation?"
+  type: multiple-choice
+  options:
+    - "Humans passively adjusted to an environment that was naturally rich in nutrients"
+    - "Humans abandoned agriculture when the environment was too challenging"
+    - "Humans actively co-produced the environment they subsequently 'adapted to,' making adaptation bidirectional"
+    - "The example shows that technology can fully overcome all environmental constraints"
+  answer: 2
+  explanation: "The terra preta example is a direct counter to the passive model of adaptation. These peoples didn't merely respond to the Amazon's thin, acidic soils — they transformed those soils over centuries into something qualitatively different. The environment subsequent generations 'adapted to' was itself a product of prior human action. This is what bidirectional adaptation means: humans modify environments while adapting to them, and the environment humans encounter is largely a product of what previous humans did to it."
+
+- question: "Farmers in a dry region respond to drought by drilling deeper wells. This lowers the water table, making shallow wells unreliable for neighboring farms, which then also drill deeper. What concept does this scenario best illustrate?"
+  type: multiple-choice
+  options:
+    - "Extensive adaptation strategy replacing intensive strategy"
+    - "Environmental determinism — the drought predetermined all human responses"
+    - "Feedback loops in coupled human-environment systems, where each adaptation changes the conditions for the next"
+    - "Substitution bias in measuring environmental change"
+  answer: 2
+  explanation: "This is a classic coupled human-environment feedback loop: drought → deeper wells (human response) → lower water table (environmental change) → more wells needed (human response driven by the changed environment). Each adaptation alters the system the next adaptation must navigate. This feedback structure is the defining feature of coupled systems, and it explains why interventions intended to solve one problem can create new vulnerabilities — a pattern called adaptive cycles in resilience theory."
+
+- question: "Most landscapes that appear 'natural' or 'pristine' today — including many forests and grasslands — reflect centuries of indigenous management rather than the absence of human influence."
+  type: true-false
+  answer: true
+  explanation: "Archaeological, ecological, and ethnohistorical research has shown that fire management, selective hunting, soil enrichment, water control, and plant cultivation by indigenous peoples shaped virtually every landscape on Earth over millennia. What appears as 'wilderness' is often an artifact of indigenous depopulation — the ecological rebound after disease, displacement, or colonization removed the human managers who maintained particular landscape states. Treating these landscapes as 'natural' misrepresents their history and obscures the human knowledge systems that produced them."
+
+- question: "Intensive adaptation strategies — such as irrigation, terracing, and soil improvement — are universally more adaptive than extensive strategies like pastoralism or nomadism because they produce more food per area."
+  type: true-false
+  answer: false
+  explanation: "The relative fitness of intensive and extensive strategies depends on the environmental variability regime they face. Intensive strategies are highly productive in stable environments but create path dependence — the accumulated capital investment locks a community into a place and becomes a liability if the environment shifts dramatically. Extensive strategies distribute risk by not stressing any one resource base to exhaustion; they are adaptive precisely because they avoid the lock-in that intensive strategies create. High-variability environments often favor extensive strategies that can relocate as conditions shift."
+
+- question: "Why is 'humans adapting to nature' a less accurate description of human-environment relationships than 'coupled human-environment systems'?"
+  type: short-answer
+  answer: "'Humans adapting to nature' implies a one-directional relationship: a fixed natural environment to which humans passively respond. Coupled human-environment systems captures the bidirectionality and feedback dynamics: humans modify environments through agriculture, fire management, and construction; those modifications become the conditions subsequent generations must adapt to; and human adaptations generate further environmental changes. The relationship is an ongoing co-evolution, not a one-time adjustment to a static backdrop."
+  explanation: "The framing matters practically: a 'humans adapt to nature' view suggests that environmental problems can be solved by better human adjustment, while a coupled-systems view reveals that 'solving' one problem by modifying the environment creates new constraints requiring further adaptation. Drilling wells to address drought lowers the water table; clearing forests to expand agriculture changes rainfall patterns. The coupled-systems framework reveals these feedback structures; the linear adaptation framework hides them."
+```
+
 ## Explainer
 
 Your prerequisite understanding of spatial scale in human geography taught you that phenomena look different at different scales — what appears stable at the regional level may be volatile locally, and what seems like a local problem may be driven by global forces. **Human-environment adaptation** takes that scalar sensitivity and applies it to the relationship between social systems and biophysical ones. The core claim is straightforward but consequential: this relationship is bidirectional and dynamic, not a one-time adjustment but an ongoing co-evolution.

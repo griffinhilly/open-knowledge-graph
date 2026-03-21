@@ -31,6 +31,45 @@ Analyze recordings of your own speeches and identify moments where audience perc
 ## Common Misconceptions
 That credibility is established in your introduction; it builds dynamically throughout. That credentials alone establish credibility; ongoing demonstration of competence and trustworthiness matters more.
 
+## Questions
+
+```yaml
+- question: "A speaker opens with impressive credentials and a strong introduction. Midway through, she presents vague evidence, ignores an obvious objection, and visibly stumbles on a complex point. What happens to her credibility?"
+  type: multiple-choice
+  options:
+    - "It remains high because strong initial credibility is resistant to in-speech erosion"
+    - "It decreases because every speaker choice either adds to or subtracts from the audience's running assessment"
+    - "It is unaffected — audience credibility judgments are made only at the beginning and end"
+    - "It decreases only if the audience is already skeptical of her field"
+  answer: 1
+  explanation: "Credibility is a dynamic account that the audience updates in real time throughout a speech. Vague evidence, ignored objections, and visible uncertainty are all credibility withdrawals that erode even a strong initial balance. Initial credibility does not function as insulation — it provides a starting surplus that poor choices can spend down. A speaker who opens strong but performs weakly will finish with less credibility than she started with."
+
+- question: "Which of the following speaker actions is a credibility DEPOSIT during a speech?"
+  type: multiple-choice
+  options:
+    - "Asserting your conclusion early and repeatedly to signal conviction"
+    - "Acknowledging the strongest counterargument to your position before refuting it"
+    - "Citing credentials established in the introduction instead of new evidence"
+    - "Skipping minor qualifications to maintain a confident, decisive tone"
+  answer: 1
+  explanation: "Acknowledging a strong counterargument signals intellectual honesty and fairness — the audience sees you know the opposing case and have thought it through. This is a deposit because it demonstrates both competence (you know the field) and trustworthiness (you're not hiding inconvenient evidence). By contrast, ignoring obvious objections is a withdrawal, as it suggests either ignorance or evasion. Restating credentials mid-speech adds nothing; only demonstrated performance of competence in the moment builds credibility."
+
+- question: "Acknowledging a strong counterargument during a speech can increase a speaker's credibility with the audience."
+  type: true-false
+  answer: true
+  explanation: "Acknowledging counterarguments is a credibility deposit, not a vulnerability. Audiences recognize that speakers who engage honestly with opposing views are more trustworthy than speakers who pretend no objections exist. It demonstrates competence (familiarity with the full debate) and goodwill (concern for the audience's complete understanding). Speakers who ignore obvious objections risk the audience thinking: 'they don't know about this' or 'they're hiding something' — both credibility withdrawals."
+
+- question: "A speaker who establishes strong initial credibility in the introduction is protected from significant credibility loss for the remainder of the speech."
+  type: true-false
+  answer: false
+  explanation: "Initial credibility provides a starting balance, not immunity. Every decision throughout the speech — evidence quality, counterargument handling, delivery consistency — either adds to or subtracts from that balance. High-profile credibility failures often happen to speakers who relied on introductory establishment rather than maintaining credibility through demonstrated performance. The strategic implication is clear: design every section of the speech with credibility in mind, not just the opening."
+
+- question: "What is 'terminal credibility,' and why does designing a credibility arc throughout a speech matter more than maximizing initial credibility?"
+  type: short-answer
+  answer: "Terminal credibility is the audience's final assessment of the speaker at the end of the speech — the impression they leave with. It reflects the entire trajectory of the speech, not just the opening. Designing a credibility arc means strategically placing the strongest credibility signals at the highest-stakes persuasive moments, and building toward a finish that is stronger than the opening. A speaker who earns credibility progressively through demonstrated competence, honest evidence, and acknowledged complexity often ends with higher terminal credibility than a speaker who opened with impressive credentials but coasted."
+  explanation: "Terminal credibility matters because it is what persists after the speech ends — the impression the audience carries out of the room. A speaker who 'finished stronger than they started' is remembered as credible; a speaker who 'started strong but fell apart' is remembered as disappointing. Since persuasion often happens after the speech (in the audience's deliberation), terminal credibility shapes whether they act on what they heard. This is why treating credibility as a static property established once is a strategic error."
+```
+
 ## Explainer
 
 From your work on speaker credibility building, you understand the three pillars — competence, trustworthiness, and likability — and how to actively construct each one. What that foundation leaves implicit is the time dimension: credibility is not a static attribute you establish once and then spend. It is a running score that changes throughout a speech, and understanding how it changes gives you a more sophisticated tool for speech design.

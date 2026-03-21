@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Atomic operations execute indivisibly without interruption, enabling lock-free synchronization primitives. Compare-and-swap (CAS) atomically compares a memory location's value and conditionally updates it in a single operation. Lock-free algorithms using CAS can improve concurrency and reduce context switch overhead but are notoriously difficult to implement and reason about correctly.
 
+## Questions
+
+```yaml
+- question: "Thread T1 reads a shared pointer P = A, then gets descheduled. Thread T2 changes P: A → B → A. T1 resumes and executes CAS(P, A, new_value). What happens and why is it a problem?"
+  type: multiple-choice
+  options:
+    - "The CAS fails because P was modified while T1 was descheduled"
+    - "The CAS succeeds, but the underlying state may have changed in ways T1 did not account for"
+    - "The CAS succeeds and is safe because P currently equals T1's expected value"
+    - "The CAS fails because T2 performed two modifications rather than one"
+  answer: 1
+  explanation: "This is the ABA problem. CAS only checks whether the current value equals the expected value — it has no memory of intermediate states. Even though T1's CAS succeeds (P is currently A, matching the expected value), the underlying data structure may have been reorganized or a memory node freed and reallocated at the same address. T1 proceeds as if nothing changed, potentially corrupting the structure. Solutions include tagged pointers (appending a version counter so A-at-version-1 and A-at-version-2 are distinguishable)."
+
+- question: "A high-frequency trading system uses a shared reference counter incremented and decremented by many threads. Which synchronization approach is most appropriate?"
+  type: multiple-choice
+  options:
+    - "A mutex protecting all increment/decrement operations"
+    - "An atomic CAS-based counter, since the critical section is tiny and mutex overhead would dominate"
+    - "No synchronization, since increments on separate threads are independent"
+    - "A read-write lock, since increments and decrements are symmetric operations"
+  answer: 1
+  explanation: "For a simple integer counter, the critical section is just a few instructions. Using a mutex causes threads to sleep, wake, and context-switch — overhead that dwarfs the actual work. A CAS loop retries inline: read, compute new value, CAS. If the CAS fails due to concurrent modification, the thread retries immediately without sleeping. For short critical sections with moderate contention, this lock-free approach eliminates scheduling overhead. For longer critical sections or complex multi-step operations, mutexes remain simpler and safer."
+
+- question: "Unlike mutex acquisition, compare-and-swap instructions can be executed from user space without requiring a transition to kernel mode."
+  type: true-false
+  answer: true
+  explanation: "CAS is implemented as a single hardware instruction (e.g., CMPXCHG on x86, LDREX/STREX on ARM) available in user mode. Mutex lock acquisition, by contrast, often requires a system call (futex on Linux) when there is contention, which involves a kernel trap and context-switch overhead. CAS-based lock-free operations run entirely in user space, avoiding this overhead for short operations. This is one reason lock-free data structures can outperform mutex-based ones in high-throughput scenarios."
+
+- question: "Lock-free algorithms using CAS never cause threads to wait, so they are always faster than mutex-based algorithms for the same operation."
+  type: true-false
+  answer: false
+  explanation: "Lock-free means no thread ever blocks indefinitely (a liveness guarantee), but it does not mean threads never waste time. Under high contention, many threads may repeatedly fail their CAS and retry in tight loops — a form of livelock that burns CPU cycles without making progress. A mutex allows contending threads to sleep and yield the CPU, which can be more efficient when contention is sustained. Lock-free code excels for short critical sections with low-to-moderate contention; mutexes can be better when contention is high or critical sections are long."
+
+- question: "Explain why ordinary loads and stores cannot be composed into a correct compare-and-swap, even with careful ordering."
+  type: short-answer
+  answer: "Between any load (read) and the subsequent store (write), another thread on a different core can modify the same location — and modern CPUs execute threads truly in parallel with no 'between instruction' gap that software can lock out. No software ordering scheme can prevent this race because the hardware executes multiple threads simultaneously. Only a single hardware instruction that atomically tests and conditionally writes — using bus locking or hardware-level exclusive reservation — can prevent any interleaving between the check and the update."
+  explanation: "This is why hardware support is essential. x86 provides CMPXCHG with a LOCK prefix that asserts exclusive access to the memory location during the operation. ARM uses load-linked/store-conditional pairs with a hardware reservation mechanism. These are not software tricks — they require explicit hardware mechanisms that signal to other cores to invalidate their cached copies and stall. No software-only protocol operating above the hardware abstraction layer can match this guarantee."
+```
+
 ## Explainer
 
 From the synchronization problem, you know that concurrent threads sharing memory can produce incorrect results when their operations interleave. The root cause is that ordinary operations like "read a variable, add one, write it back" are not indivisible — another thread can sneak in between the read and the write. **Atomic operations** solve this by making certain operations execute as a single, uninterruptible step from the perspective of all other threads. No thread can ever observe an atomic operation "half-done."

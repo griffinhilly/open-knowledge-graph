@@ -31,6 +31,45 @@ Practice searching for information you need using various operators (quotes, min
 - Operators work the same way on all search engines (they vary).
 - Quotes always return exact matches (synonyms and related words may still appear).
 
+## Questions
+
+```yaml
+- question: "You want to find academic sources about renewable energy storage specifically from university websites. Which search query best accomplishes this?"
+  type: multiple-choice
+  options:
+    - "renewable energy storage academic university"
+    - "\"renewable energy storage\" site:edu"
+    - "renewable energy storage -commercial site:gov"
+    - "renewable+energy+storage filetype:edu"
+  answer: 1
+  explanation: "The site:edu operator restricts results to .edu domains, which are university and academic institutional websites. Combining it with quotes around the exact phrase ensures the three words appear together rather than scattered across the page. Option A is a plain search — the engine will expand terms and return results from all domains. Option C looks for .gov sites (government) not .edu. Option D uses an incorrect syntax — filetype: works with file extensions like pdf, not domain types."
+
+- question: "A researcher searches for 'mercury' and gets results mostly about the planet. Which search query would best filter those out to find results about the element?"
+  type: multiple-choice
+  options:
+    - "mercury element NOT planet"
+    - "mercury -planet"
+    - "\"mercury\" -\"solar system\""
+    - "mercury +element"
+  answer: 1
+  explanation: "The minus sign (-) directly before a term excludes it from results. 'mercury -planet' tells the search engine to return pages about mercury that do not contain the word 'planet.' Option A uses a 'NOT' operator that is not standard syntax in major search engines. Option C uses quotes around both terms, which works but is unnecessarily narrow. Option D uses a '+' operator which is not standard modern syntax for most search engines."
+
+- question: "Using quotation marks around a search phrase guarantees that no synonyms or related words will appear in the results."
+  type: true-false
+  answer: false
+  explanation: "False — this is listed as a common misconception. Quotation marks require the exact phrase to appear verbatim in the page, but search engines may still include some synonym expansion or show results where the phrase appears alongside related terms. Quotes significantly narrow results toward exact matches, but they do not create an absolute guarantee. The behavior also varies between search engines."
+
+- question: "The site: operator and the minus (-) operator can be combined in a single search query."
+  type: true-false
+  answer: true
+  explanation: "True. Search operators can be combined freely in most search engines. For example, 'climate change -coal site:edu' would search for climate change excluding mentions of coal, only on .edu domains. Building queries incrementally — starting with core terms, then adding operators one at a time — lets you see the effect of each operator and refine results step by step."
+
+- question: "Why do search engines expand your query by default (adding synonyms, reordering terms), and when does this behavior become a problem worth overriding with operators?"
+  type: short-answer
+  answer: "Search engines expand queries because most users want broadly relevant results and do not phrase searches with precision. Expansion helps when you are exploring a topic. It becomes a problem when you need a specific phrase, a specific source, or want to exclude a particular meaning — situations where the engine's guesses about your intent produce noise rather than signal."
+  explanation: "The fundamental tension in search is between recall (finding everything relevant) and precision (finding only what you want). Default search optimizes for recall. Operators shift toward precision. Quotes, site:, and minus are precision tools — they reduce the engine's latitude to interpret your query. Knowing when to use them (specific titles, targeted sources, ambiguous terms with unwanted meanings) is the practical skill."
+```
+
 ## Explainer
 
 Basic web searching works by sending your query to a search engine, which ranks pages based on how well they match your terms and how authoritative they are. The problem is that search engines guess at your intent — they expand synonyms, drop rare words, and optimize for the most common interpretation of your query. Advanced search operators let you override those guesses and tell the search engine precisely what you want.

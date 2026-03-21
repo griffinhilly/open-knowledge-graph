@@ -40,6 +40,45 @@ Compare basicity of the series: NH₃, methylamine, dimethylamine, aniline, pyri
 - Amide nitrogens are drastically less basic than amine nitrogens — protonation of an amide occurs on oxygen, not nitrogen, because the N lone pair is delocalized.
 - Quaternary ammonium salts (R₄N⁺) carry a permanent positive charge and cannot act as bases or nucleophiles.
 
+## Questions
+
+```yaml
+- question: "A student predicts that aniline (C₆H₅NH₂) should be a stronger base than methylamine (CH₃NH₂), reasoning that the benzene ring is electron-rich and should push electron density toward nitrogen. What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — aniline is indeed a stronger base because the aromatic ring donates electrons to nitrogen via induction"
+    - "The benzene ring withdraws electrons from nitrogen inductively through the C–N bond, which reduces basicity but not through resonance"
+    - "The benzene ring delocalizes the nitrogen lone pair into the π system via resonance, reducing its availability for protonation and making aniline far less basic"
+    - "Aniline cannot be protonated at all because the lone pair is fully committed to maintaining aromaticity"
+  answer: 2
+  explanation: "This is the central misconception about arylamine basicity. The benzene ring does contain high electron density, but it interacts with the nitrogen lone pair through resonance — the lone pair donates into the aromatic π system, delocalizing it across the ring. This resonance reduces the availability of the lone pair for accepting a proton. Aniline's conjugate acid pKa ≈ 4–5 vs. methylamine's ≈ 10–11 — aniline is roughly a million times weaker as a base. The student's error is confusing overall ring electron density with lone-pair availability: resonance delocalization into the ring stabilizes aniline but simultaneously makes protonation much less favorable."
+
+- question: "Why are amide nitrogens (as in acetamide, CH₃CONH₂) far less basic than amine nitrogens?"
+  type: multiple-choice
+  options:
+    - "The carbonyl oxygen withdraws electrons from nitrogen purely through induction along the C–N bond"
+    - "The nitrogen lone pair is delocalized into the adjacent carbonyl π system via resonance, leaving it much less available for protonation"
+    - "Amide nitrogen is bonded to more substituents, which sterically block approach of a proton"
+    - "The carbonyl group formally converts the amide nitrogen into a quaternary center with no lone pair"
+  answer: 1
+  explanation: "In amides, the nitrogen lone pair participates in resonance with the adjacent carbonyl — this is why amide C–N bonds have partial double-bond character and why amide bonds are rigid and planar. The lone pair is delocalized into the carbonyl π* orbital. As a result, protonation of an amide occurs preferentially on oxygen (giving a more resonance-stabilized cation), not on nitrogen. The dramatic loss of lone pair availability makes amide nitrogens barely basic, with conjugate acid pKa values near 0, compared to ~10–11 for simple alkylamines. Understanding this delocalization is essential for predicting reactivity in peptide chemistry."
+
+- question: "An amine that is less basic than another will generally also be a weaker nucleophile toward a sterically accessible electrophilic carbon center."
+  type: true-false
+  answer: true
+  explanation: "Basicity (toward H⁺) and nucleophilicity (toward carbon electrophiles) both depend on the availability of the nitrogen lone pair. An amine with a more available, less delocalized lone pair is both more willing to donate to H⁺ (more basic) and more willing to attack an electrophilic carbon (more nucleophilic). This is why arylamines like aniline are both weaker bases AND weaker nucleophiles than alkylamines — the resonance delocalization that reduces basicity also reduces nucleophilicity toward carbon electrophiles. The important caveat is steric effects: a bulky tertiary amine like triethylamine is a good base but a poor nucleophile because the alkyl groups block approach to carbon centers."
+
+- question: "Adding more alkyl groups to an amine always increases its basicity in aqueous solution."
+  type: true-false
+  answer: false
+  explanation: "In the gas phase, basicity increases monotonically with alkylation (Me₃N > Me₂NH > MeNH₂ > NH₃) because each alkyl group donates electrons inductively to nitrogen. In aqueous solution, the trend breaks down: secondary amines are typically more basic than tertiary amines because solvation matters. A protonated tertiary amine (R₃NH⁺) is less effectively stabilized by hydrogen bonding with water than a protonated secondary amine (R₂NH₂⁺), which has more N–H bonds available for hydrogen bonding. The solvation penalty partially offsets the inductive benefit, so the aqueous trend is non-monotonic. This is a classic case where gas-phase logic must be qualified for solution-phase conditions."
+
+- question: "Explain why aniline (C₆H₅NH₂) is a far weaker base than cyclohexylamine (C₆H₁₁NH₂), even though both have a nitrogen atom with a lone pair."
+  type: short-answer
+  answer: "Cyclohexylamine has an sp³ carbon substituent on nitrogen; the cyclohexyl ring donates electrons inductively, leaving the nitrogen lone pair localized in an sp³ orbital and more available for protonation. Aniline has an aryl group on nitrogen; draw the resonance structures and you see the nitrogen lone pair delocalizing into the ortho and para positions of the benzene ring, generating partial negative charge on the ring and partial positive charge on nitrogen. This resonance stabilizes aniline itself, but destabilizes protonation because accepting a proton would require the lone pair to localize — eliminating the resonance benefit. The net result: aniline's conjugate acid pKa ≈ 4.6 vs. cyclohexylamine's ≈ 10.6, a difference of ~10⁶ in Kₐ."
+  explanation: "The key insight is that resonance delocalization of the lone pair stabilizes the free base but makes protonation thermodynamically costly. When aniline is protonated, nitrogen rehybridizes toward sp³, the N–aromatic π interaction is disrupted, and the resonance stabilization is lost. The conjugate acid of aniline is therefore poorly stabilized relative to the free base, making protonation unfavorable. For cyclohexylamine, no such resonance stabilization exists in the free base, so there is no analogous penalty upon protonation."
+```
+
 ## Explainer
 
 You already know functional groups and acid-base chemistry, so think of amines as ammonia (NH₃) with one, two, or three hydrogens replaced by carbon groups. A **primary amine** (RNH₂) has one carbon substituent, a **secondary amine** (R₂NH) has two, and a **tertiary amine** (R₃N) has three. In every case, nitrogen retains a lone pair of electrons in an sp³ orbital, giving amines their pyramidal geometry and — crucially — their dual chemical personality as both bases and nucleophiles.

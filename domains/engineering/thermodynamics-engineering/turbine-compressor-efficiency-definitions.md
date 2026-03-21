@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Isentropic efficiency compares actual to reversible work: η_T = W_actual/W_isentropic for turbines, η_C = W_isentropic/W_actual for compressors. Both are <100% due to friction, turbulence, and non-ideal flows. Typical values: turbines 85-90%, compressors 80-88%. Even 1% efficiency improvement in a large power plant saves significant fuel and operating costs annually.
 
+## Questions
+
+```yaml
+- question: "A steam turbine expands steam from inlet to outlet pressure. The isentropic enthalpy drop is 400 kJ/kg, but friction and turbulence cause the actual enthalpy drop to be only 340 kJ/kg. What is the isentropic efficiency of this turbine?"
+  type: multiple-choice
+  options:
+    - "85%, computed as 340/400 — actual work divided by isentropic work"
+    - "118%, computed as 400/340 — isentropic work divided by actual work"
+    - "60 kJ/kg — the lost work due to irreversibilities"
+    - "85%, but this means the turbine is operating poorly since ideal efficiency is 100%"
+  answer: 0
+  explanation: "Turbine isentropic efficiency η_T = W_actual / W_isentropic = (h_in − h_out,actual) / (h_in − h_out,s) = 340/400 = 0.85 = 85%. For a turbine, actual work is always less than isentropic because irreversibilities (friction, turbulence, leakage) convert some shaft work into heating the fluid. Dividing actual by isentropic gives a number ≤ 1. Option B flips the ratio — that structure applies to compressors, not turbines. 85% is considered a good turbine efficiency; real industrial turbines operate in the 85–90% range."
+
+- question: "A compressor's isentropic efficiency formula uses η_C = W_isentropic / W_actual (ideal in numerator, actual in denominator). Why is it structured this way, opposite to a turbine?"
+  type: multiple-choice
+  options:
+    - "Compressors are work-consuming devices, so actual work is always greater than isentropic — putting ideal in the numerator keeps η_C ≤ 1"
+    - "Compressors operate at higher pressures, so the energy scale is reversed"
+    - "The formula is the same as the turbine; the textbook notation just differs"
+    - "Compressors are more efficient than turbines, so their efficiency formula naturally exceeds 1 if structured like a turbine"
+  answer: 0
+  explanation: "Efficiency must always be ≤ 1. For a compressor, the isentropic (ideal) process requires the *minimum* possible work; the real compressor always requires more due to friction and irreversibilities. W_actual > W_isentropic. If you wrote η_C = W_actual / W_isentropic, you'd get a number > 1, which is meaningless as an efficiency. Inverting the ratio — ideal/actual — gives a number between 0 and 1. The mnemonic: efficiency = (what you want) / (what you pay). For a compressor you want pressure rise and 'pay' in work input."
+
+- question: "A real compressor's exit state is at a higher temperature and enthalpy than the isentropic exit state at the same outlet pressure."
+  type: true-false
+  answer: true
+  explanation: "In an isentropic (ideal) compressor, all the work input goes into raising the fluid's pressure and enthalpy along the isentrope. In a real compressor, the extra work required beyond the isentropic minimum goes into entropy generation — which manifests as additional heating of the working fluid. The real outlet enthalpy h_out,actual = h_in + W_actual/ṁ is higher than the isentropic outlet enthalpy h_out,s = h_in + W_isentropic/ṁ, meaning the fluid exits hotter. This is why compressor efficiency matters in power cycle analysis: a less efficient compressor delivers hotter air to the combustor, wasting fuel."
+
+- question: "A turbine with η_T = 0.90 delivers more work per unit of fluid than the ideal isentropic turbine operating between the same inlet and outlet pressures."
+  type: true-false
+  answer: false
+  explanation: "The isentropic turbine represents the maximum possible work extraction for given inlet and outlet pressures. A real turbine with η_T = 0.90 delivers only 90% of that maximum — the other 10% is lost to internal irreversibilities (friction, turbulence, heat leakage) that heat the fluid rather than turning the shaft. The actual outlet enthalpy is higher than the isentropic outlet enthalpy, meaning less enthalpy was converted to work. No real device can exceed the isentropic limit; efficiency is always < 1."
+
+- question: "Why are the isentropic efficiency formulas for turbines and compressors structured differently (actual/ideal vs. ideal/actual), and how can you remember which applies to which device?"
+  type: short-answer
+  answer: "Both formulas are structured so that efficiency = (what you want) / (what you pay). For a turbine, you want work output and the isentropic process provides the theoretical maximum; real devices fall short. So η_T = W_actual / W_isentropic < 1. For a compressor, you want pressure rise (achieved at minimum isentropic work cost) but real devices require more work. So η_C = W_isentropic / W_actual < 1. The key question is: which quantity is larger in the real device? For turbines, actual < isentropic (bad = less output), so actual goes in numerator to get < 1. For compressors, actual > isentropic (bad = more input), so actual goes in denominator to get < 1."
+  explanation: "A quick check: if you mix up the formulas, you'll get a number > 1, which immediately flags an error. The asymmetry also has a physical interpretation: turbine irreversibilities reduce the enthalpy drop (shaft work), keeping the exit enthalpy above the isentropic exit. Compressor irreversibilities increase the enthalpy rise (shaft work required), pushing the exit enthalpy above the isentropic exit. In both cases, the real exit enthalpy is higher than the isentropic exit enthalpy — but for opposite reasons."
+```
+
 ## Explainer
 
 You already know that isentropic processes are reversible and adiabatic — they represent the best-case scenario for work-producing or work-consuming devices. **Isentropic efficiency** uses this ideal as a yardstick: it compares what a real device achieves to what a perfect isentropic device would achieve between the same inlet and outlet pressures.

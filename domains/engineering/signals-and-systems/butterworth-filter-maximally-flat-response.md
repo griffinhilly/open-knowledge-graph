@@ -31,6 +31,45 @@ Design a 4th-order Butterworth lowpass filter with 1-rad/s cutoff; plot magnitud
 - Confusing Butterworth polynomial zeros with filter zeros.
 - Not recognizing that Butterworth sacrifices rolloff sharpness for passband flatness.
 
+## Questions
+
+```yaml
+- question: "An audio engineer needs to process a signal where any ripple within the passband would be audible and objectionable, but a gradual transition to the stopband is acceptable. Which filter design is most appropriate?"
+  type: multiple-choice
+  options:
+    - "Chebyshev Type I — it has equiripple in the passband, providing very sharp rolloff"
+    - "Elliptic (Cauer) — it has ripple in both passband and stopband but achieves the sharpest possible transition"
+    - "Butterworth — maximally flat passband means no audible coloration within the passband, at the cost of a gradual rolloff"
+    - "Chebyshev Type II — it has equiripple in the stopband but a monotonically decreasing passband, providing sharper rolloff than Butterworth"
+  answer: 2
+  explanation: "Butterworth is the correct choice when passband flatness is paramount. Its defining property — the first 2N−1 derivatives of the magnitude response are zero at ω = 0 — ensures no ripple within the passband, so no frequency is amplified or attenuated relative to others. The tradeoff is a gradual transition band: a same-order Chebyshev Type I achieves sharper rolloff by accepting equiripple in the passband. In audio, passband ripple causes frequency coloration. Chebyshev Type II (option D) does have a monotone passband, but its passband is not maximally flat and it still outperforms Butterworth on rolloff sharpness, so it would be preferred when transition sharpness matters more than ultimate flatness."
+
+- question: "A 6th-order Butterworth lowpass filter has a cutoff frequency of ωc = 1 rad/s. At a frequency of 10 rad/s (one decade above cutoff), approximately how much is the signal attenuated?"
+  type: multiple-choice
+  options:
+    - "−20 dB — only the first-order term dominates at high frequencies"
+    - "−60 dB — each order contributes 10 dB/decade"
+    - "−120 dB — the 6th-order filter rolls off at 20×6 = 120 dB/decade"
+    - "−3 dB — the −3 dB point is fixed at ωc regardless of order"
+  answer: 2
+  explanation: "Butterworth rolls off at 20N dB/decade in the stopband. For N = 6: 20 × 6 = 120 dB/decade. At 10 rad/s (one decade above the 1 rad/s cutoff), the attenuation is approximately 120 dB. This can also be verified from the magnitude formula: |H(j·10)|² = 1/(1 + 10^12) ≈ 10^{−12}, corresponding to −120 dB in power or −60 dB in amplitude — but since dB for voltage/amplitude is 20 log₁₀, we get 20 × log₁₀(10^6) = 120 dB. The steep stopband attenuation at high order is one of Butterworth's strengths, offset by its slow initial rolloff near ωc."
+
+- question: "A Butterworth filter of any order reaches exactly −3 dB at the cutoff frequency ωc, regardless of the order N."
+  type: true-false
+  answer: true
+  explanation: "This is a defining property of the Butterworth design. The squared magnitude at ω = ωc is |H(jωc)|² = 1/(1 + (ωc/ωc)^{2N}) = 1/(1 + 1) = 1/2 for every N. Since −10 log₁₀(1/2) ≈ 3.01 dB, the −3 dB point is exactly at ωc regardless of order. This consistent −3 dB definition of cutoff frequency makes Butterworth filters straightforward to specify and compare across orders."
+
+- question: "A Butterworth filter is the optimal choice whenever steep stopband attenuation is required, because its monotonic rolloff means it reaches full stopband attenuation faster than any other filter type."
+  type: true-false
+  answer: false
+  explanation: "This is the primary Butterworth misconception. Butterworth is optimal for *passband flatness*, not stopband rolloff speed. For a given filter order, Chebyshev Type I achieves steeper rolloff by allowing equiripple in the passband; Chebyshev Type II achieves steep rolloff by allowing equiripple in the stopband; the elliptic (Cauer) filter achieves the steepest possible rolloff by allowing ripple in both. When stopband attenuation is the priority, Butterworth is one of the *worst* choices at a given order — it sacrifices rolloff sharpness to preserve its monotonically flat passband."
+
+- question: "Explain the core tradeoff that defines the Butterworth filter, and describe the type of application where this tradeoff is favorable."
+  type: short-answer
+  answer: "Butterworth maximizes passband flatness (the first 2N−1 derivatives of the magnitude are zero at DC) at the cost of a gradual transition band. The passband has zero ripple — the magnitude decreases monotonically — but the rolloff is slower than same-order Chebyshev or elliptic designs. This tradeoff is favorable in audio processing, measurement instrumentation, and any application where amplitude accuracy within the passband matters more than sharp frequency separation."
+  explanation: "The tradeoff can be summarized as: Butterworth spends all its 'design degrees of freedom' on passband flatness, leaving little margin for a sharp transition. Chebyshev and elliptic filters redistribute those degrees of freedom to achieve steeper rolloff by accepting ripple somewhere. Understanding where each design sits on the flatness-vs-sharpness tradeoff surface is the key to selecting the right filter for an application."
+```
+
 ## Explainer
 
 From your study of filter order and transition bands, you know that a higher-order filter produces steeper rolloff but also more complexity — more poles, more components, more phase shift. You also know that no filter has a perfectly sharp transition from passband to stopband; every realizable filter is a tradeoff between passband behavior, transition bandwidth, and stopband attenuation. The Butterworth design is one specific, principled way to navigate this tradeoff, and its defining choice is to sacrifice transition bandwidth in exchange for the smoothest possible passband.

@@ -29,6 +29,45 @@ Use visual representations like seating arrangements, password creation, or race
 - Misapplying the factorial formula.
 - Not reducing n!/(n-r)! correctly.
 
+## Questions
+
+```yaml
+- question: "An election has 10 candidates. A voter must rank their top 3 choices in order (1st place, 2nd place, 3rd place). How many distinct ranked ballots are possible?"
+  type: multiple-choice
+  options:
+    - "30 (10 × 3)"
+    - "120 (10 × 3 × 4)"
+    - "720 (P(10,3) = 10 × 9 × 8)"
+    - "210 (C(10,3) = 10!/(3!7!))"
+  answer: 2
+  explanation: "Since the ranking order matters — ranking Alice 1st and Bob 2nd is a different ballot than ranking Bob 1st and Alice 2nd — this is a permutation problem. P(10,3) = 10 × 9 × 8 = 720. The first choice has 10 options, the second has 9 (one used), and the third has 8. Option D (210) is the combination count — it would be correct if we only asked 'which 3 candidates are on the ballot' without distinguishing their ranking."
+
+- question: "A password consists of 4 distinct letters chosen from the 26-letter alphabet, where order matters (so 'ABCD' and 'DCBA' are different passwords). Which expression gives the number of possible passwords?"
+  type: multiple-choice
+  options:
+    - "26⁴ = 456,976"
+    - "P(26,4) = 26 × 25 × 24 × 23 = 358,800"
+    - "C(26,4) = 14,950"
+    - "4! = 24"
+  answer: 1
+  explanation: "Since each of the 4 positions must be a distinct letter and order matters, this is P(26,4) = 26!/(26-4)! = 26 × 25 × 24 × 23 = 358,800. Option A (26⁴) would be correct if letters could repeat — then each of 4 positions independently has 26 choices. With the 'distinct' constraint, each subsequent position loses one available letter. Option C (combinations) ignores the order distinction between passwords like 'ABCD' and 'DCBA'."
+
+- question: "The number of ways to arrange all 7 books on a shelf is 7! = 5,040."
+  type: true-false
+  answer: true
+  explanation: "When arranging all n distinct objects in a sequence, the first position has n choices, the second has n-1, and so on down to 1. This gives n! total arrangements. For 7 books: 7 × 6 × 5 × 4 × 3 × 2 × 1 = 5,040. This is the special case P(n,n) = n!/(n-n)! = n!/0! = n!/1 = n!. Each distinct ordering corresponds to a unique permutation, so every book placed in every position must be counted."
+
+- question: "When selecting 3 people from a group of 8 for the roles of president, vice president, and treasurer, the number of ways equals the number of ways to simply choose any 3 people from the group of 8."
+  type: true-false
+  answer: false
+  explanation: "Assigning named roles makes order matter: selecting Alice as president, Bob as VP, and Carol as treasurer is different from Alice as treasurer, Bob as president, and Carol as VP. This is a permutation problem: P(8,3) = 8 × 7 × 6 = 336. Choosing 3 people without role distinctions is a combination: C(8,3) = 56. The permutation count is always r! times the combination count (here 6 × 56 = 336), reflecting the number of ways to assign the r roles to the chosen group."
+
+- question: "How do you determine whether a counting problem requires permutations rather than combinations? Give a concrete test and apply it to an example."
+  type: short-answer
+  answer: "Ask: would swapping two of the selected items produce a genuinely different outcome? If yes, order matters and you need permutations. If no, use combinations. Example: assigning 1st, 2nd, and 3rd place in a race — swapping Alice and Bob gives a different result (Alice-gold vs. Bob-gold), so use P(n,r). Selecting any 3 finalists for a participation prize — swapping Alice and Bob gives the same group, so use C(n,r). The formula P(n,r) = n!/(n-r)! captures the dwindling-slot pattern for ordered selections; C(n,r) = P(n,r)/r! divides out the orderings we don't want to distinguish."
+  explanation: "This swap test is the most reliable practical heuristic. It works because combinations treat all orderings of a selection as equivalent — C(n,r) = P(n,r)/r! precisely because there are r! orderings of any r-element selection. If the problem requires distinguishing those orderings, you want the full P(n,r) count; if not, divide by r! to collapse them."
+```
+
 ## Explainer
 
 A **permutation** is what you get when order matters. From the multiplication principle — your prerequisite — you already know that sequential independent choices multiply. Permutations are exactly that pattern applied to the specific situation of selecting and arranging items from a set without replacement.

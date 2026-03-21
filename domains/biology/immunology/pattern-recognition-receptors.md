@@ -30,6 +30,45 @@ Study specific PRRs and their ligands (TLR4 for LPS, TLR3 for dsRNA, dectin-1 fo
 ## Common Misconceptions
 Not all PRRs are on the cell surface; many function intracellularly. PAMPs are not inherently dangerous—they are simply evolutionary-conserved structures that distinguish pathogens from host.
 
+## Questions
+
+```yaml
+- question: "Why are PAMPs (pathogen-associated molecular patterns) ideal targets for innate immune detection? Select the best explanation."
+  type: multiple-choice
+  options:
+    - "PAMPs are highly variable between individual pathogens, allowing the immune system to distinguish closely related strains"
+    - "PAMPs are structural molecules essential for microbial survival, broadly shared across pathogen classes, and absent from host cells"
+    - "PAMPs are secreted toxins that directly harm host cells, making them easy to detect at high concentration"
+    - "PAMPs trigger adaptive immunity first, which then activates innate defenses through cytokine signaling"
+  answer: 1
+  explanation: "PAMPs are ideal precisely because they are conserved (pathogens cannot easily mutate them away without losing fitness), broadly shared across pathogen categories (so a small receptor repertoire covers many threats), and structurally absent from host cells (reducing false positives). They are not toxins — LPS, peptidoglycan, and flagellin are structural components. Innate immunity precedes and instructs adaptive immunity, not the other way around."
+
+- question: "A virus infects a cell and begins replicating, producing double-stranded RNA (dsRNA) inside the cytoplasm. Which receptor system is best positioned to detect this?"
+  type: multiple-choice
+  options:
+    - "Surface TLR4, which patrols the extracellular environment for lipopolysaccharide from the replicating virus"
+    - "Endosomal TLR3, which detects dsRNA from viruses degraded in endosomes after phagocytosis"
+    - "RIG-I-like receptors (RLRs), which are cytoplasmic sensors specialized for viral RNA"
+    - "NOD-like receptors (NLRs), which assemble inflammasomes in response to intracellular dsRNA"
+  answer: 2
+  explanation: "RIG-I and MDA5 (RLRs) are cytoplasmic sensors that detect viral RNA produced during active intracellular replication — exactly the scenario described. TLR3 detects dsRNA too, but endosomally (after an engulfed pathogen is degraded), not during active cytoplasmic replication. Surface TLR4 detects LPS from bacteria, not viral RNA. NLRs form inflammasomes in response to bacterial components and DAMPs, not dsRNA. The distinction between surface, endosomal, and cytoplasmic PRR locations matters for when and how they engage."
+
+- question: "PAMPs are inherently dangerous molecular toxins that directly injure host tissue, which is why their detection by PRRs triggers an inflammatory response."
+  type: true-false
+  answer: false
+  explanation: "PAMPs are not inherently dangerous to host tissue — they are evolutionarily conserved structural components of microbes (e.g., LPS is part of the Gram-negative outer membrane; peptidoglycan is a bacterial cell wall polymer; flagellin is the protein subunit of bacterial flagella). Their detection triggers inflammation not because they directly harm cells, but because their presence reliably signals microbial invasion. DAMPs, by contrast, are released from damaged host cells and signal tissue injury without infection."
+
+- question: "The innate immune system can mount qualitatively different responses to bacteria, viruses, and fungi despite having far fewer recognition receptors than the adaptive immune system."
+  type: true-false
+  answer: true
+  explanation: "Different pathogens trigger different combinations of PRRs — bacteria engage surface TLRs and NLRs (driving NF-κB-mediated inflammation), viruses engage endosomal and cytoplasmic nucleic acid sensors (driving IRF3-mediated type I interferon production), and fungi engage C-type lectin receptors like Dectin-1 (driving Th17-type responses). The qualitative specificity arises from which PRR combinations are activated, not from recognizing individual pathogen identities as adaptive immunity does."
+
+- question: "Why do some PRRs function on the cell surface while others are located inside endosomes or the cytoplasm, and why does this distribution matter?"
+  type: short-answer
+  answer: "Location matches the site where each class of pathogen-derived molecule is accessible. Bacterial membrane components (LPS, lipoproteins, flagellin) are exposed on the extracellular surface of intact pathogens, so surface TLRs detect them before invasion. Nucleic acids are normally hidden inside pathogens; they become accessible only after a pathogen is engulfed and degraded in endosomes (TLR3/7/8/9) or during active cytoplasmic replication (RLRs). Cytoplasmic NLRs detect bacteria that breach the membrane and enter the cytosol."
+  explanation: "This compartmentalization also reduces false positives: placing nucleic acid sensors inside endosomes or the cytoplasm prevents them from triggering on extracellular self-DNA/RNA. Localizing nucleic acid-sensing TLRs to endosomes (where degradation occurs) rather than the surface reduces the risk of autoimmunity from circulating host nucleic acids released during normal cell turnover."
+```
+
 ## Explainer
 
 From your study of innate immunity, you know that the innate immune system provides rapid, nonspecific defense against pathogens without requiring prior exposure. From cell signaling, you understand that receptors on cell surfaces detect extracellular signals and activate intracellular cascades. **Pattern recognition receptors (PRRs)** sit at the intersection of these two concepts: they are the molecular sensors that allow innate immune cells to detect infection and tissue damage, translating microbial recognition into inflammatory and antimicrobial responses within minutes.

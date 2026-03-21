@@ -29,6 +29,45 @@ Solution stoichiometry uses molarity and volume to relate quantities in solution
 ## How It's Best Learned
 Practice dilution problems before moving to reaction stoichiometry in solution.
 
+## Questions
+
+```yaml
+- question: "You have 25.0 mL of 4.0 M HCl and dilute it to a final volume of 100 mL. What is the new concentration?"
+  type: multiple-choice
+  options:
+    - "16 M — you divided 4.0 by 0.25 because the volume ratio increased"
+    - "1.0 M — using M₁V₁ = M₂V₂: (4.0)(25) = M₂(100)"
+    - "0.25 M — you multiplied the original molarity by the volume ratio"
+    - "4.0 M — dilution doesn't change concentration, only volume"
+  answer: 1
+  explanation: "M₁V₁ = M₂V₂ gives (4.0 M)(25 mL) = M₂(100 mL), so M₂ = 1.0 M. The moles of HCl before dilution are 0.10 mol; they are still 0.10 mol after — just spread through 4× more solvent. Option D reflects the misconception that dilution doesn't change concentration; option A inverts the ratio. The key is that moles are conserved, not concentration."
+
+- question: "Which statement best describes what happens during a dilution?"
+  type: multiple-choice
+  options:
+    - "The number of moles of solute decreases as more solvent is added, lowering the concentration"
+    - "Both moles and molarity stay constant; only the volume of solvent changes"
+    - "The number of moles of solute stays constant while the volume increases, so molarity decreases"
+    - "The solute chemically reacts with the added water, producing a less concentrated species"
+  answer: 2
+  explanation: "Dilution is a physical process: you add solvent, increasing volume, but the solute molecules themselves are unchanged and uncreated/undestroyed. The same moles spread through more liquid — hence lower molarity. Option A is the most common misconception (students think 'less concentrated means fewer moles'). Option D confuses dilution with a chemical reaction, which is the other critical distinction in this topic."
+
+- question: "When 50.0 mL of 0.10 M NaOH is mixed with 50.0 mL of 0.10 M HCl, the resulting solution contains NaOH at a concentration of 0.05 M."
+  type: true-false
+  answer: false
+  explanation: "This is a reaction, not a dilution. NaOH + HCl → NaCl + H₂O. Both reactants are present in equal moles (0.0050 mol each), so they completely neutralize each other. The resulting solution contains NaCl and water — essentially no NaOH remains. The M₁V₁ = M₂V₂ equation applies to dilution (adding solvent), not to mixing reactive solutions, where solute is chemically consumed."
+
+- question: "In the equation M₁V₁ = M₂V₂, the equality holds because the number of moles of solute is the same before and after dilution."
+  type: true-false
+  answer: true
+  explanation: "This is exactly right, and understanding why makes the formula trivial: moles = M × V, so if moles are conserved, M₁V₁ must equal M₂V₂. The formula isn't magic — it's just a restatement of moles in = moles out for a process where no solute is added or removed. Contrast this with a reaction, where moles are not conserved and M₁V₁ = M₂V₂ does not apply."
+
+- question: "Explain the key difference between diluting a solution and mixing it with a reactive solute, and why this distinction matters for solving problems."
+  type: short-answer
+  answer: "In dilution, only solvent is added — the solute molecules are unchanged, so moles of solute are conserved and M₁V₁ = M₂V₂ applies. When a reactive solute is added, a chemical reaction occurs: solute molecules are consumed and new species form, so moles are not conserved and a different approach (stoichiometry with mole ratios) is required."
+  explanation: "Confusing these two processes is the most common error in solution stoichiometry. The conceptual test is: does the solute change chemically? If you add water to HCl, HCl is still HCl — dilution, use M₁V₁ = M₂V₂. If you add NaOH to HCl, the acid and base react — stoichiometry, find the limiting reactant, calculate what remains."
+```
+
 ## Explainer
 
 You already know how to use mole ratios from balanced equations to predict how much product forms from a given amount of reactant — that is stoichiometry. You also know that **molarity** (M = moles of solute per liter of solution) is the standard way to express concentration in solution. Solution stoichiometry combines these two ideas: instead of starting with grams and converting to moles via molar mass, you start with volume and molarity and convert to moles via the relationship moles = M × V. This single equation is the bridge between the liquid in a beaker and the mole ratios in a balanced equation.

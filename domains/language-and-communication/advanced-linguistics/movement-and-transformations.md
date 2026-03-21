@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Movement (transformations) relocates phrases from one structural position to another, explaining question formation ('What did you see?'), topicalization, and passive voice. Movement leaves a trace or copy linking the moved element to its original position, preserving thematic role assignment and explaining why 'What did you think [trace] Mary saw?' is ungrammatical (extraction from embedded clause).
 
+## Questions
+
+```yaml
+- question: "In the question 'What did Mary eat?', where did 'what' receive its thematic role as Theme of the verb 'eat'?"
+  type: multiple-choice
+  options:
+    - "In object position after 'eat', before it moved to the front of the sentence"
+    - "In Spec,CP (the front of the clause), where it currently appears on the surface"
+    - "In subject position, since Themes in English are assigned there"
+    - "Thematic roles are assigned at the surface level, so 'what' received its role in its current position"
+  answer: 0
+  explanation: "Thematic roles are assigned in the structural positions where verbs' selectional requirements are satisfied — for 'eat', the Theme is assigned to its object position. 'What' moved from object position to Spec,CP to form the question, but it retains the Theme role because a trace or copy in the original object position preserves the thematic connection. Surface position and thematic role assignment are distinct levels of representation — this is the core claim of movement theory."
+
+- question: "Consider: 'What do you think Mary bought?' (grammatical) vs. '*What did you see the man who bought?' (ungrammatical). What explains the contrast?"
+  type: multiple-choice
+  options:
+    - "'What' would have to extract from inside a relative clause — a syntactic island from which movement is blocked"
+    - "Objects of perception verbs like 'see' cannot be questioned in English"
+    - "Movement can only cross one clause boundary, and both examples cross the same number of boundaries"
+    - "The relative pronoun 'who' blocks any further movement within the same sentence"
+  answer: 0
+  explanation: "The first sentence extracts 'what' from an embedded tensed clause — crossing a CP boundary — which is permitted. The second extracts 'what' from inside a relative clause, which is a syntactic island: movement out of it is blocked. Island constraints follow from movement theory as structural predictions — a trace inside an island cannot be properly licensed, so the movement is ruled out. This ungrammaticality is not an arbitrary fact to memorize but a consequence of the theory's architecture."
+
+- question: "In the passive sentence 'The window was broken by the vandal,' the window receives the Agent thematic role because it occupies the grammatical subject position."
+  type: true-false
+  answer: false
+  explanation: "The window has the Theme role (it is what got broken), not Agent, despite being the grammatical subject. Movement theory explains this as: 'the window' started in object position (where 'break' assigns its Theme role), then moved to subject position via passivization. The vandal retains the Agent role, realized in the by-phrase adjunct. This demonstrates that grammatical subject position does not always correspond to Agent — thematic role and grammatical position can come apart when movement has occurred."
+
+- question: "Movement operations in syntax can apply to any arbitrary sequence of words as long as the resulting sentence is semantically interpretable."
+  type: true-false
+  answer: false
+  explanation: "Movement can only apply to constituents — syntactic units identified as phrases by constituency tests. You cannot move a partial noun phrase, a verb plus one but not all its arguments, or any other non-constituent string. This is not a stipulation but a prediction: movement operates over the same hierarchical structures that define constituency. This is why constituency and movement are mutually dependent topics — violations of constituency in movement produce ungrammaticality in exactly the cases the theory predicts."
+
+- question: "What theoretical work does the trace or copy left behind by movement accomplish? Why does the theory need it, rather than simply describing a phrase as appearing in a new position?"
+  type: short-answer
+  answer: "The trace or copy preserves the thematic connection between the moved phrase and the position where it received its role. Without a trace, 'What did Mary eat?' would have 'what' in Spec,CP with no structural explanation for why it has the Theme role of 'eat'. The trace in object position maintains the thematic relationship. The trace also makes island constraints predictable: if a trace must be properly licensed in its base position, then base positions inside syntactic islands cannot be traced to, producing the observed ungrammaticality."
+  explanation: "The trace is the mechanism that allows movement theory to maintain a single level at which thematic roles are uniformly assigned (the position where the verb selects its arguments), while explaining why surface word order can differ from thematic structure. Without it, the theory would need separate mechanisms for thematic interpretation and island effects, losing explanatory unity. With it, both follow from the same architectural commitment: constituents move, leaving licensed copies that preserve their interpretive properties."
+```
+
 ## Explainer
 
 From constituency and phrases, you know that sentences aren't linear strings of words but hierarchically structured objects — DPs, VPs, and CPs nested inside each other in principled ways. From argument structure and thematic roles, you know that verbs assign roles (Agent, Theme, Goal) to their arguments in specific structural positions. Movement theory builds on both: it proposes that the *surface* order of words in a sentence is often different from the *underlying* order in which thematic roles were assigned, and that this displacement follows predictable rules.

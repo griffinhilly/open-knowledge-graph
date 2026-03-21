@@ -31,6 +31,45 @@ Study a dialect atlas (like the Atlas of North American English or the Survey of
 - Mutual intelligibility is not symmetric — speakers of variety A may understand variety B better than speakers of B understand A, depending on exposure and prestige.
 - Rural dialects are not "older" or "purer" forms of the language; they have undergone just as much change as urban varieties, simply in different directions.
 
+## Questions
+
+```yaml
+- question: "Norwegian and Swedish are mutually intelligible yet counted as separate languages. Mandarin and Cantonese are officially 'dialects of Chinese' yet are not mutually intelligible. The best explanation for this apparent contradiction is:"
+  type: multiple-choice
+  options:
+    - "Linguists classify languages by grammar complexity, not by intelligibility, so the labels reflect structural analysis"
+    - "The distinction between 'language' and 'dialect' is socio-political rather than linguistic — political history, national identity, and prestige determine the label, not linguistic structure"
+    - "Norwegian has a written standard that Swedish lacks, making them officially separate"
+    - "Mutual intelligibility is unreliable as a criterion because it varies with exposure, so linguists use other technical criteria"
+  answer: 1
+  explanation: "The famous quip — 'a language is a dialect with an army and a navy' — captures the real answer. Norwegian and Swedish were separated by national political history and distinct state identities; Mandarin and Cantonese were grouped under a unified Chinese national identity that preferred 'dialect' over 'separate language' for political reasons. Mutual intelligibility would actually suggest the opposite groupings in both cases. Structural linguistic analysis cannot determine which label applies; only social and political context can. This is why linguists prefer the neutral term 'variety' to sidestep the politically loaded distinction."
+
+- question: "Isoglosses for different linguistic features rarely coincide perfectly. The practical consequence of this fact for dialect geography is:"
+  type: multiple-choice
+  options:
+    - "It is impossible to define any meaningful dialect regions, since no features have the same boundaries"
+    - "Dialect regions are defined by bundles of clustered isoglosses rather than single sharp boundaries — where many isoglosses cluster in one area, a dialect region emerges"
+    - "Linguists must pick one defining feature per dialect and draw a single boundary based on that feature"
+    - "The non-coincidence proves that language variation is not geographic but purely social"
+  answer: 1
+  explanation: "No single isogloss draws the boundary of a dialect. The American South as a dialect region is defined because many isoglosses — vowel mergers, particular lexical choices, certain grammatical features — happen to concentrate in roughly the same geographic band. Where isoglosses cluster, transitions feel sharp and 'dialect regions' feel real. Where isoglosses are spread out, transitions are gradual. This means dialect boundaries are gradient and emergent from clusters of features, not drawn by any single linguistic line. It is precisely the bundling of many partial distinctions that creates recognizable dialect areas."
+
+- question: "In a dialect continuum, speakers at the two ends of the continuum may not be mutually intelligible even though every adjacent pair along the continuum can understand each other."
+  type: true-false
+  answer: true
+  explanation: "This is the defining property of a dialect continuum. Each adjacent pair shares enough features to communicate — the differences between neighboring villages are minor. But the cumulative effect of small changes across a large geographic span can produce varieties at the endpoints that share too few features for intelligible communication. Medieval European dialects formed such a continuum from Portugal to Poland; modern Arabic dialects from Morocco to Oman function similarly. The continuum structure shows that 'mutual intelligibility' is not a binary property but a gradient one, and that it depends on where in the chain you make the comparison."
+
+- question: "Rural dialects are more conservative and preserve older features of a language than urban dialects, which have changed more due to exposure to multiple varieties."
+  type: true-false
+  answer: false
+  explanation: "Rural dialects have undergone just as much change as urban varieties over time — simply in different directions. All living language varieties change continuously; there are no 'frozen' dialects that preserve an ancient baseline. What differs is the direction and type of change, shaped by geographic isolation, contact with other varieties, and social pressures specific to each community. Urban varieties often innovate through dialect contact and social stratification; rural varieties may retain some older features while innovating in others. The notion that rural speech is 'purer' or 'older' is a romantic myth that does not survive empirical investigation."
+
+- question: "What does it mean that dialect boundaries are 'gradient rather than sharp,' and why does this create challenges for defining dialect regions?"
+  type: short-answer
+  answer: "Gradient boundaries mean that as you travel across a landscape, speech does not suddenly switch from one variety to another at a definable line. Instead, features change at different rates and at different places: one vowel merges in one county, a different lexical choice shifts three counties later, a grammatical feature changes at a different point still. The isoglosses for individual features rarely coincide. This means there is no single correct answer to 'where does Dialect A end and Dialect B begin?' — the answer differs depending on which feature you are tracking. Dialect regions emerge from the *clustering* of many such gradient boundaries, not from any single sharp line."
+  explanation: "This has practical consequences for fieldwork: there is no dialect atlas entry that cleanly says 'X is spoken here, Y is spoken there.' Instead, each feature has its own map, and 'dialect regions' are zones where many features cluster together. Transition zones between dialects often have mixed features — some from one region, some from another — rather than uniformly belonging to either. This gradient reality also means that speakers in transition zones may have variable, context-dependent usage, making even their individual speech difficult to classify. The methodological response is to map features individually rather than imposing region labels first."
+```
+
 ## Explainer
 
 From your study of sociolinguistics, you know that language variation is not random noise but patterned along social dimensions — class, age, ethnicity, gender. **Dialect geography** extends this into the spatial dimension: language also varies systematically across physical space, and the patterns of that variation can be mapped. The central tool for mapping linguistic geography is the **isogloss** — a line drawn on a map marking the approximate boundary between two regions where speakers use different forms of the same feature. You might draw an isogloss separating the region where "cot" and "caught" are pronounced identically from the region where they're distinct, or separating the area where "pop" is used for soft drinks from the area where "soda" dominates.

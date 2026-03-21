@@ -32,6 +32,45 @@ Set up your own still life with objects you find interesting. Sketch from multip
 - Still life must include fruit and drapery; everyday objects are equally engaging.
 - Lighting must be neutral or flat; dramatic, directional light creates more interesting forms.
 
+## Questions
+
+```yaml
+- question: "You are setting up a still life specifically to practice rendering three-dimensional form. Where should you position your single desk lamp?"
+  type: multiple-choice
+  options:
+    - "Directly above the objects to eliminate shadows and reveal true surface colors"
+    - "Directly in front of the objects so the light is even and consistent"
+    - "To one side and slightly above, at roughly 45 degrees, creating a clear light/shadow division"
+    - "Behind the objects to produce dramatic silhouettes and rim highlights"
+  answer: 2
+  explanation: "Sidelighting at roughly 45 degrees creates the full vocabulary of form: a distinct light side, shadow side, cast shadow, and reflected light on each object. This is what makes three-dimensional structure legible and drawable. Overhead and frontal light flatten form by minimizing shadows. Backlighting is visually dramatic but sacrifices surface detail — the interior of each object receives very little light, making form difficult to observe and render."
+
+- question: "Which object grouping demonstrates the best variety for a learning-focused still life session?"
+  type: multiple-choice
+  options:
+    - "Three round ceramic apples of different sizes"
+    - "A tall glass bottle, a matte terra cotta pot, and a folded cloth"
+    - "Two identical hardcover books stacked on top of each other"
+    - "Five small objects of similar height arranged in a horizontal row"
+  answer: 1
+  explanation: "The best grouping mixes form types (cylinder, rounded pot, draped fabric), contrasts surface qualities (specular glass vs. matte terra cotta vs. cloth), varies height for overlapping depth, and creates opportunities for interesting negative shapes. Three similar apples offer minimal variety in silhouette or surface response to light; stacked books are repetitive; a row of equal-height objects lacks depth and grouping. Variety in form, scale, and surface material is the guiding principle."
+
+- question: "Using multiple light sources on a still life creates a richer, more instructive study because it produces more varied and complex shadows."
+  type: true-false
+  answer: false
+  explanation: "Multiple light sources create conflicting cross-shadows pointing in different directions, which makes it impossible to read a coherent three-dimensional story. When shadows contradict each other, form becomes harder to understand and render, not easier. A single dominant light source produces a clear, consistent vocabulary — one light side, one shadow side, one cast shadow — that reveals the three-dimensional structure of every object. 'More shadows' does not mean 'more informative.'"
+
+- question: "The arrangement of objects in a still life is a compositional decision that shapes the drawing before any mark is made."
+  type: true-false
+  answer: true
+  explanation: "Every arrangement choice — overlaps, groupings, height variations, gaps — creates visual relationships that determine what the drawing will look like before pencil touches paper. Overlapping objects creates depth and visual connection; negative shapes between objects are compositional elements in their own right; a unified cluster with a clear focal area is built into the setup, not invented during drawing. If the arrangement is random, the drawing inherits that randomness and cannot fully redeem it."
+
+- question: "Why is a single directional light source generally preferred over flat or frontal lighting for a still life form study?"
+  type: short-answer
+  answer: "A single directional light source — typically placed to one side and slightly above — produces a complete vocabulary of form on every object: a light side, a shadow side, a cast shadow, and reflected light in the shadow. These are the visual cues that communicate three-dimensionality on a flat surface. Flat or frontal lighting eliminates strong shadows, making objects appear two-dimensional and undifferentiated. Without directional light, there is very little information to observe and draw about how the surface turns in space."
+  explanation: "This is why the lighting choice is as much a drawing decision as a practical one. The light defines what information is available to the eye. Directional light makes form visible; flat light hides it. For a study specifically aimed at understanding volume and three-dimensional structure, the lighting must be set up to reveal rather than obscure those qualities."
+```
+
 ## Explainer
 
 You already understand how composition organizes visual elements and how light direction creates shadow patterns that reveal form. Now the question becomes practical: how do you choose objects, arrange them, and light them so that the still life in front of you actually rewards the effort of drawing it? The answer is that a good still life setup is itself a compositional act — you are designing the subject before you ever pick up a pencil.

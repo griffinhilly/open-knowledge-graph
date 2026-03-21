@@ -20,6 +20,45 @@ status: draft
 ## Core Idea
 Tracing a commodity from production to consumption reveals hidden global connections and geographies. Coffee, chocolate, textiles, and minerals connect producers in the Global South to consumers in the Global North through complex chains of processing, trading, and distribution. These chains often involve exploitation of workers and degradation of environments, with profits concentrated at the retail end.
 
+## Questions
+
+```yaml
+- question: "A coffee farmer in Ethiopia earns $0.30 per kilogram of raw beans. After processing, trading, roasting, branding, and retail, the same coffee sells for $25 per kilogram in European cafés. A commodity chain analysis would attribute the majority of that price difference to which node?"
+  type: multiple-choice
+  options:
+    - "The processing and shipping stages, which add the most tangible physical transformation"
+    - "The commodity exchange, which sets the global benchmark price and therefore controls all downstream margins"
+    - "The branding and retail ends, which capture value through control of the label and consumer relationship rather than ownership of production"
+    - "The farming stage, since raw material quality determines what the final product can command"
+  answer: 2
+  explanation: "The 'smile curve' describes how value concentrates at the two ends of a commodity chain: the design/branding end and the retail/consumer interface end. The labor-intensive processing and manufacturing nodes in the middle — and especially the raw material producers — capture relatively little. Brands hold power in buyer-driven chains not because they own factories but because they control the design, the label, and the relationship with consumers. This allows brands to extract large margins even while outsourcing physical production."
+
+- question: "A developing country enters the global apparel industry through low-cost garment manufacturing for international fashion brands. A decade later, employment has grown but wages and profits remain low. The 'smile curve' concept best explains this outcome as:"
+  type: multiple-choice
+  options:
+    - "Evidence that manufacturing in lower-income countries is inherently less productive than in wealthier countries"
+    - "A result of exploitative trade agreements that prevent the country from competing at higher value-added activities"
+    - "A structural feature of buyer-driven chains where fabrication nodes capture relatively little value, while design and retail ends retain the surplus"
+    - "A temporary stage the country will naturally exit as workers gain skills over time"
+  answer: 2
+  explanation: "The smile curve is a structural pattern, not a temporary one. Fabrication — the middle of the chain — is where competition is fiercest and margins are thinnest, because many countries and factories can offer low-cost assembly. High value sits at the ends: innovation/design (intellectual property, brand equity) and consumer interface (retail relationships, marketing). Transitioning from fabrication to either end requires building entirely different capabilities — brand equity, design talent, retail channels — which is politically and economically difficult, especially when buyers can simply shift orders to cheaper suppliers if costs rise."
+
+- question: "In buyer-driven commodity chains, brand power derives from controlling design and retail relationships rather than from owning manufacturing facilities."
+  type: true-false
+  answer: true
+  explanation: "This is the defining feature of buyer-driven chains (like fast fashion, electronics, and food). Brands like Nike or H&M own almost no factories; their power comes from controlling the label, design specifications, and relationships with retailers and consumers. This organizational form allows them to extract high margins while forcing suppliers to compete fiercely on price — suppressing wages and environmental standards at the manufacturing nodes they do not own."
+
+- question: "The retail price of a commodity accurately reflects the social and environmental costs incurred throughout its production chain."
+  type: true-false
+  answer: false
+  explanation: "This is precisely what commodity chain analysis challenges. Environmental costs (soil degradation, water use, carbon emissions) and social costs (labor conditions, land conflicts, gender inequity) are externalized onto producers and their communities — they do not appear in the retail price. The price tag on a coffee cup or a shirt tells you almost nothing about the geography of its production. Certification schemes like Fair Trade attempt to correct this, but the standard retail price embeds these costs as invisible externalities, not as line items."
+
+- question: "Why does entering a global commodity chain at the manufacturing node often fail to generate the kind of economic development countries hope for, even when it creates significant employment?"
+  type: short-answer
+  answer: "Manufacturing nodes sit in the low-value middle of the smile curve — they add labor and processing but capture relatively little surplus profit. Value concentrates at the design/branding end (intellectual property, brand equity) and the retail end (consumer relationships, marketing). Employment rises, but wages are kept low by competition among many manufacturing locations. To capture more value, countries must move toward design, branding, or retail — transitions requiring capabilities and institutions very different from low-cost assembly, and ones that powerful buyers may actively resist by switching suppliers if costs rise."
+  explanation: "The trap is structural: the very conditions that made manufacturing entry feasible (low labor costs, willingness to accept tight margins) become obstacles to upgrading, because upgrading requires investments that raise costs. Meanwhile, buyers retain the leverage to redirect orders to cheaper locations, limiting the bargaining power of any single country. Development economists debate whether industrial policy, domestic market development, or regional value chains can break this trap."
+```
+
 ## Explainer
 
 From your study of global production networks, you know that economic activity is organized across space in coordinated systems — that the factory floor is only one node in a larger web of suppliers, logistics providers, financial actors, and retailers. **Global commodity chains** (GCCs) extend that logic to finished goods and ask a simpler but more provocative question: where did this thing come from, and who got paid along the way? The exercise of tracing a commodity from raw material to retail shelf is not merely descriptive — it is an analytical tool for exposing the geographic and social relations that make everyday objects possible.

@@ -37,6 +37,45 @@ Complete a sequence of exercises in a DAW: program a drum pattern using MIDI, re
 - More tracks and more plugins do not make a better composition — restraint and clarity in sound selection are as important electronically as they are acoustically.
 - MIDI velocity and timing quantization are compositional choices; over-quantizing removes the human rhythmic feel that makes music compelling.
 
+## Questions
+
+```yaml
+- question: "A producer exports a MIDI file and sends it to a collaborator. The collaborator opens it in a different DAW and hears a completely different set of sounds than the producer intended. What explains this?"
+  type: multiple-choice
+  options:
+    - "The MIDI file was corrupted during export, scrambling the note data"
+    - "MIDI files are tied to specific DAWs and cannot be opened cross-platform without conversion"
+    - "MIDI contains only performance instructions — note, velocity, timing — not audio; the sounds depend entirely on which instruments the DAW assigns to play them"
+    - "The collaborator's computer audio hardware produces different waveforms than the producer's"
+  answer: 2
+  explanation: "This is the key insight about MIDI: a MIDI file contains no sound whatsoever. It is a set of performance messages — 'play note 60 at velocity 80 for 0.5 seconds' — and those messages are sent to whatever sound-producing module is assigned to receive them. If the producer used a Rhodes piano library and the collaborator's DAW defaults to a synth pad, the notes are identical but the sounds are completely different. MIDI separates musical information from sound production, which is both the source of its power and the reason collaboration requires agreeing on instruments."
+
+- question: "In audio production, what does compression do to a signal?"
+  type: multiple-choice
+  options:
+    - "It reduces the file size by encoding audio more efficiently, like MP3 compression"
+    - "It adds simulated room reflections to create a sense of acoustic space"
+    - "It reduces the dynamic range by lowering loud peaks relative to quieter moments, producing a denser and punchier sound"
+    - "It boosts or cuts specific frequency bands to shape the tonal character of the sound"
+  answer: 2
+  explanation: "Audio compression (dynamic range compression) is completely different from data compression. It works by detecting loud moments above a threshold and reducing their volume, closing the gap between loud and quiet. This makes the overall level more consistent, allows the mix to sit louder, and gives transients (drums, plucks) a punchy, dense character. Option A is data compression (MP3, FLAC). Option B is reverb. Option D is EQ. All three are distinct signal processing tools with different functions in the mix."
+
+- question: "In a DAW's piano-roll interface, the same MIDI sequence can trigger a string orchestra, a drum kit, or a synthesizer simply by changing which instrument is assigned to receive it."
+  type: true-false
+  answer: true
+  explanation: "True — this is precisely what 'MIDI contains no sound' means in practice. The piano-roll encodes timing, pitch, velocity, and duration as abstract data. That data is routed to a sound-producing module (a virtual instrument, a hardware synthesizer, a sample library), and the module determines the actual sound. Changing the instrument assignment is non-destructive and instantaneous — the MIDI sequence is unchanged. This decoupling of musical content from timbre is one of the most powerful features of electronic composition."
+
+- question: "Adding more tracks and more plugins to an electronic composition generally produces a richer, more professional result."
+  type: true-false
+  answer: false
+  explanation: "False — this is one of the central misconceptions in electronic production. Unlike acoustic composition, where physical constraints limit the number of instruments, electronic composition imposes no natural ceiling. This makes restraint a deliberate choice. Layering too many tracks creates frequency conflicts, mud in the mix, and loss of individual clarity. Each sound should occupy a distinct sonic space (frequency band, rhythmic role, stereo position). Professional electronic music is often characterized by careful subtraction — fewer elements, each with more impact — not addition."
+
+- question: "What is the key difference between the 'musical layer' and the 'sonic layer' in electronic composition, and why does their decoupling matter for composers?"
+  type: short-answer
+  answer: "The musical layer consists of what notes are played, in what rhythm, at what dynamic — the compositional content. The sonic layer consists of what timbres, spatial qualities, and textures are used — the production decisions. In acoustic music these are inseparable (a violin playing C has a fixed timbre). In electronic composition they are completely decoupled: a MIDI note is abstract, and the timbre is a separate routing decision. This matters because it doubles the compositional decisions: a producer must design both the music and the sound simultaneously, and choices at the sonic layer (reverb depth, compression, EQ) are as expressive as choices at the musical layer."
+  explanation: "The decoupling is what makes electronic composition uniquely flexible and uniquely demanding. A melody that feels sparse and fragile with a solo piano patch can feel massive and anthemic with a layered synthesizer pad — the same notes, completely different emotional effect. Conversely, a compelling musical idea can be ruined by poor sound design. Understanding that these are two separate creative dimensions — and that both require deliberate choices — is the foundational insight of electronic composition."
+```
+
 ## Explainer
 
 Electronic composition requires understanding two separate layers simultaneously: the **musical layer** (what notes are played, in what rhythm, at what dynamic) and the **sonic layer** (what timbres and spatial qualities are used). In acoustic music, these are inseparable — a violin playing C has a specific timbre built into the instrument. In electronic composition, they are completely decoupled: a MIDI note is just a number, and the timbre it triggers is a separate decision made by routing that note to a synthesizer or sample library. This separation is what makes electronic composition uniquely flexible — and uniquely demanding.

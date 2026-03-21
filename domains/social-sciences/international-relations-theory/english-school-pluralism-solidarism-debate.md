@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 The English School debate between pluralists and solidarists concerns whether international society is merely a system of independent states respecting sovereignty (pluralism) or whether shared norms create deeper obligations toward justice (solidarism). This debate underpins disagreements about humanitarian intervention and universal values.
 
+## Questions
+
+```yaml
+- question: "A powerful liberal democracy considers military intervention to stop ethnic cleansing in a neighboring state, without UN Security Council authorization. Which response best represents the pluralist position?"
+  type: multiple-choice
+  options:
+    - "Intervention is required: the government has forfeited its sovereignty by committing mass atrocities against its own people"
+    - "Intervention is permissible but only if authorized by the Security Council, which is the appropriate legitimating institution"
+    - "Intervention is dangerous: it violates the non-interference norm and sets a precedent for powerful states to pursue strategic interests under humanitarian rhetoric"
+    - "Intervention is irrelevant: states act on material self-interest, and sovereignty norms have no real effect on behavior"
+  answer: 2
+  explanation: "Pluralists defend the sovereignty and non-interference norms as the foundation of international society. These norms are valuable precisely because they accommodate radical diversity — states with very different domestic arrangements can coexist under shared rules. Pluralists worry that humanitarian intervention, however well-intentioned, erodes these norms and historically has been used by powerful states to impose their values on weaker ones (colonialism is the paradigm case). Option D sounds like realism, not pluralism — pluralists accept that norms are real and constraining, they just argue for a thin set of norms centered on sovereignty."
+
+- question: "What is the fundamental question that divides pluralists from solidarists in the English School tradition?"
+  type: multiple-choice
+  options:
+    - "Whether international society exists at all, or whether world politics is simply anarchic great-power competition"
+    - "Whether states should prioritize collective security arrangements over bilateral alliances"
+    - "Whether sovereignty functions as a protective norm that enables diversity among states, or whether it can be forfeited when states commit mass atrocities against their own populations"
+    - "Whether international law is legally binding on states or merely advisory guidance that states can freely ignore"
+  answer: 2
+  explanation: "Both pluralists and solidarists accept that international society is real and that norms shape state behavior — this distinguishes them from realists. Their dispute is about the depth and content of those norms. Pluralists treat sovereignty as foundational and valuable because it protects diversity; solidarists argue that norms of human rights have developed within international society such that sovereignty is forfeited by governments that massacre their own citizens. The debate is about what kind of society international society is, not whether one exists."
+
+- question: "Both pluralists and solidarists within the English School accept that international society is a real and meaningful feature of world politics — they disagree about its depth and what it demands, not about its existence."
+  type: true-false
+  answer: true
+  explanation: "This is the crucial baseline that distinguishes the internal English School debate from the external debate with realism. Realists deny that international society meaningfully constrains state behavior; English School thinkers (pluralist and solidarist alike) assert that it does. What divides pluralists and solidarists is whether the shared norms of international society remain thin (mutual recognition of sovereignty, non-interference) or whether they have thickened to include human rights obligations — and whether that thickening is desirable."
+
+- question: "The pluralist position holds that international society should progressively adopt more shared norms on human rights and justice, eventually superseding the sovereignty principle as states develop deeper mutual commitments."
+  type: true-false
+  answer: false
+  explanation: "This describes the solidarist position, not the pluralist one. Pluralists value the thin sovereignty-based consensus precisely because it accommodates states with radically different domestic arrangements. For pluralists, the expansion of shared norms toward thicker moral obligations risks two dangers: (1) imposing the values of powerful states on weaker ones, repeating the logic of colonialism; and (2) undermining the stable foundation of international coexistence that sovereignty norms provide. The call to progressively thicken international society belongs to solidarists."
+
+- question: "Why do pluralists argue that the sovereignty norm protects rather than undermines justice in international relations, and how do solidarists challenge this claim?"
+  type: short-answer
+  answer: "Pluralists argue that sovereignty is a protective norm because it allows states with radically different political systems, cultures, and values to coexist without being compelled to conform to any single standard of domestic justice. The alternative — using international society to enforce shared moral norms — historically tends to mean the powerful imposing their values on the weak, as colonial 'civilizing missions' demonstrated. Justice, for pluralists, requires first the stable coexistence that sovereignty enables. Solidarists challenge this by arguing that sovereignty's protective logic inverts when a state massacres its own citizens: the norm was designed to protect peoples from outside domination, not to shield governments from accountability for atrocities. When a state commits genocide, its claim to non-interference collapses, and the international community has an obligation — not just a permission — to act."
+  explanation: "The strongest version of the pluralist case is not that sovereignty is intrinsically valuable but that it is instrumentally valuable for protecting diversity and preventing powerful-state domination. The solidarist counter-move is to show that this instrument becomes perverse when the sovereign power uses it to commit the very harms sovereignty was meant to prevent. The contemporary debate about R2P (Responsibility to Protect) is essentially this philosophical argument played out in real institutions."
+```
+
 ## Explainer
 
 From your study of the English School's concept of international society, you know that this tradition occupies a distinctive middle position in IR theory — rejecting both realism's anarchic billiard-ball world and liberal institutionalism's vision of progressive convergence toward a world government. International society, for English School thinkers, is real and substantive: states share common interests, recognize each other's legitimacy, and abide by common rules and institutions. But within this shared framework, a fundamental dispute divides the tradition. **Pluralists** and **solidarists** agree that international society exists — they disagree sharply about what kind of society it is and what it demands.

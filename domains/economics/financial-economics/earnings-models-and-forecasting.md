@@ -31,6 +31,45 @@ Examine historical analyst earnings forecasts and compare them to realized resul
 - Linear extrapolation of past earnings is sufficient (mean reversion and cyclicality require more nuanced modeling).
 - Consensus forecasts are unbiased (they often exhibit herding and systematic errors).
 
+## Questions
+
+```yaml
+- question: "An analyst consistently issues optimistic earnings estimates for companies they cover. A colleague attributes this to poor modeling skills. A more structurally accurate explanation is:"
+  type: multiple-choice
+  options:
+    - "Analysts lack accounting training and systematically overestimate margins"
+    - "Career incentives push analysts to maintain management relationships, making negative projections costly regardless of accuracy"
+    - "Optimistic estimates reflect genuine informational advantages analysts hold over the public"
+    - "Consensus models are designed to underweight mean reversion, producing upward bias"
+  answer: 1
+  explanation: "The systematic optimism bias in analyst forecasts is best explained by incentive structure. Sell-side analysts need management access, want to preserve investment banking relationships, and face asymmetric career risk — being solo-wrong costs more than being wrong with the consensus. This produces herding and reluctance to issue negative estimates. Estimates are then 'walked down' as the reporting date approaches so companies can beat lowered expectations. Option B is a real mechanism but describes a modeling flaw, not the primary source of persistent directional bias."
+
+- question: "A semiconductor company earned $5/share in 2023, a cyclical peak year. An analyst extrapolates at 8% annual growth for five years. The primary flaw in this model is:"
+  type: multiple-choice
+  options:
+    - "8% is too high a growth rate for any established company"
+    - "Extrapolating from a cyclical peak ignores mean reversion — near-term earnings will likely fall before growing"
+    - "The model should use free cash flow rather than earnings as the base"
+    - "Five years is too short a horizon for semiconductor forecasting"
+  answer: 1
+  explanation: "The core flaw is anchoring to a cyclical peak. Semiconductors are highly cyclical — peak-year earnings reflect unsustainably high capacity utilization and pricing that typically revert over the next 1-3 years. Extrapolating 8% growth from that peak produces forecasts that are too high throughout the period. A sound model either normalizes to through-cycle average margins or explicitly models the cyclical downturn before resuming trend growth. This is the mean reversion problem: unusually high profitability attracts competition and corrects."
+
+- question: "Analyst consensus earnings estimates tend to be revised downward as the actual reporting date approaches."
+  type: true-false
+  answer: true
+  explanation: "This 'walk-down' phenomenon is well-documented in empirical finance. Analysts begin with optimistic estimates and gradually reduce them so companies can 'beat consensus' at the moment of reporting. This serves multiple interests: management prefers to beat rather than miss; analysts maintain goodwill by not publishing estimates companies will miss. The result is a predictable downward drift of consensus estimates in the weeks before earnings reports."
+
+- question: "Consensus analyst estimates are more reliable than individual forecasts because they aggregate information from many independent experts."
+  type: true-false
+  answer: false
+  explanation: "The 'wisdom of crowds' argument requires independence, but analyst forecasts are not independent — they are subject to herding. Once a consensus forms, individual analysts face higher career risk from deviating than from following the crowd. This creates correlated errors: the aggregate inherits the same biases (systematic optimism, reluctance to go negative) rather than canceling them out. Consensus estimates often reflect social dynamics as much as information aggregation."
+
+- question: "Why does earnings mean reversion undermine naive extrapolation, and how should a rigorous model account for it?"
+  type: short-answer
+  answer: "Mean reversion means unusually high returns on equity attract competition that erodes margins back toward the cost of capital; unusually low returns prompt restructuring that eventually restores profitability. A naive extrapolation of a peak year overstates the long-run earnings base; extrapolating a trough understates it. A rigorous model uses a normalized earnings base (through-cycle average margins and returns), then applies growth to that base — or uses multi-stage models that explicitly transition from current conditions toward a mean-reverting long-run equilibrium."
+  explanation: "The empirical evidence is strong: above-average returns on equity converge toward the cost of equity over 5-10 years across most industries. Competitive markets enforce this. Models that ignore mean reversion systematically overvalue high-ROIC companies at peaks and undervalue low-ROIC companies at troughs — exactly the errors that create the value premium and post-earnings drift anomalies in asset pricing."
+```
+
 ## Explainer
 
 Equity value in a discounted cash flow framework is the present value of all future earnings (or cash flows) available to shareholders. From the dividend discount model, you know that value depends on the level of future payouts and the discount rate applied to them. The challenge in practice is that neither future earnings nor the appropriate growth rate are observable — they must be forecast. Earnings modeling is the machinery that generates those forecasts.

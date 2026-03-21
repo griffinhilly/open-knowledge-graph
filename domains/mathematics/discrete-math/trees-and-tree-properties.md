@@ -32,6 +32,45 @@ Recognize that any two of these properties imply the third: connected, n−1 edg
 ## Common Misconceptions
 Not all trees are rooted; an unrooted tree has no distinguished root. A path graph and a star graph are both trees but very different structurally.
 
+## Questions
+
+```yaml
+- question: "A graph has 10 vertices, 9 edges, and no cycles. What can you conclude?"
+  type: multiple-choice
+  options:
+    - "Nothing — you need to verify connectivity before drawing conclusions"
+    - "It is a tree: connected, acyclic, and has exactly n−1 edges"
+    - "It is a forest with at least two components, since acyclic graphs with n−1 edges are never connected"
+    - "It must have at least one vertex of degree 0 (an isolated vertex)"
+  answer: 1
+  explanation: "This is the key equivalence: acyclic + exactly n−1 edges implies the graph is connected (and hence a tree). Here's why: a forest (acyclic graph) with k connected components on n vertices has exactly n−k edges. If the edge count is n−1, then k=1, so there is exactly one component — meaning the graph is connected. You do not need to check connectivity separately; it follows from the other two conditions. This equivalence is why the three properties (connected, acyclic, n−1 edges) are mutually redundant — any two imply the third."
+
+- question: "You have a tree on n vertices and you add exactly one new edge between two existing vertices. What is the result?"
+  type: multiple-choice
+  options:
+    - "The graph becomes disconnected, since adding edges can split components"
+    - "The graph gains exactly one cycle, while remaining connected"
+    - "The graph may or may not gain a cycle, depending on which vertices are connected"
+    - "The graph becomes a forest with two trees"
+  answer: 1
+  explanation: "In a tree, there is exactly one path between every pair of vertices. If you add an edge between vertices u and v, you create a second path between them (the new edge), which together with the original unique path forms exactly one cycle. The graph remains connected (you can only add edges between already-existing vertices). This is a direct consequence of the uniqueness-of-paths property: the only way to have no cycles is for paths to be unique, and any additional edge destroys that uniqueness by creating a cycle."
+
+- question: "Removing any single edge from a tree always results in exactly two connected components."
+  type: true-false
+  answer: true
+  explanation: "Trees are minimally connected: they have just enough edges to be connected (n−1 for n vertices) with no redundancy. Every edge in a tree is a bridge — removing it disconnects the graph. Since a tree is connected and every edge is on the unique path between its endpoints' components, removing any edge splits the tree into exactly two subtrees (components). This is why trees are sometimes called 'fragile' graphs: no edge is redundant, so any single deletion disconnects."
+
+- question: "A rooted tree has fundamentally different graph-theoretic properties than an unrooted tree — different edge counts, connectivity, and structural constraints."
+  type: true-false
+  answer: false
+  explanation: "Rooting a tree is a labeling operation, not a structural change. The underlying graph remains identical: same vertices, same edges, same counts, same connectivity. Choosing a root simply imposes a hierarchy — a parent-child orientation — that makes certain relationships (depth, ancestors, subtrees) well-defined. An unrooted tree on n vertices still has n−1 edges and is connected and acyclic; designating any vertex as 'root' doesn't change any of these properties. This is a common misconception: rooted trees feel like a different object, but they are the same graph with a chosen reference point."
+
+- question: "Why is it impossible to add an edge to a tree without creating a cycle?"
+  type: short-answer
+  answer: "In a tree, there is exactly one path between any two vertices. If you add an edge between vertices u and v, those vertices were already connected by a unique path through the tree. The new edge creates a second way to travel from u to v, and the combination of the new edge plus the existing path forms a cycle. Since every pair of vertices is already connected in a tree, any new edge between existing vertices is guaranteed to create a cycle."
+  explanation: "This explains why n−1 edges is the exact upper bound for an acyclic connected graph on n vertices — any additional edge must create a cycle, and any removed edge must disconnect. Trees are simultaneously the sparsest connected graphs and the densest acyclic graphs; they occupy the precise boundary between the two regimes."
+```
+
 ## Explainer
 
 From your work on **connectivity and components**, you know that a connected graph has a path between every pair of vertices. A tree adds one more constraint: no cycles. These two properties together — connected and acyclic — turn out to be very restrictive in a precise way. A tree on n vertices has exactly n−1 edges, no more and no fewer. This is not a coincidence; it follows from the structure itself. To keep a graph connected you need enough edges, but every extra edge beyond n−1 creates a cycle. Trees are, in a sense, the *minimal* connected graphs — remove any single edge and the graph falls apart into two components.

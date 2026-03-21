@@ -37,6 +37,45 @@ Map each stage to specific social contexts (caregiver relationship, peer group, 
 - 'Resolution' does not mean eliminating the negative pole — some tension between trust and mistrust is adaptive.
 - Identity formation in adolescence is not a one-time event; it continues through young adulthood and is shaped by cultural context.
 
+## Questions
+
+```yaml
+- question: "A 4-year-old is consistently scolded and told her ideas are 'silly' whenever she proposes games or asks questions. According to Erikson, what is the most likely developmental outcome?"
+  type: multiple-choice
+  options:
+    - "She will regress to the autonomy vs. shame stage and lose self-control skills"
+    - "She will develop guilt rather than purpose, inhibiting self-initiated activity"
+    - "She will develop mistrust because her caregivers are unreliable"
+    - "She will become industrious by redirecting her initiative toward school tasks"
+  answer: 1
+  explanation: "Ages 3–6 fall in the initiative vs. guilt stage. When children's self-initiated plans are consistently frustrated or ridiculed, the failure mode is guilt — a sense that their desires and goals are wrong. This produces self-inhibition rather than purpose. Option A confuses stages (autonomy is toddlerhood). Option C confuses stages (mistrust is infancy). Option D is the school-age industry stage, and it describes the opposite of the presented scenario."
+
+- question: "A teenager who drifts between social groups, rapidly adopts and abandons different values, and shows deep anxiety when asked 'who are you really?' is most likely experiencing which stage conflict?"
+  type: multiple-choice
+  options:
+    - "Inferiority from unresolved school-age conflicts about competence"
+    - "Identity diffusion — the failure mode of the identity vs. role confusion stage"
+    - "Shame and doubt from inadequate autonomy development in toddlerhood"
+    - "Guilt from initiative that was consistently discouraged in preschool"
+  answer: 1
+  explanation: "The identity vs. role confusion stage of adolescence involves integrating a coherent sense of self. Identity diffusion — the failure to achieve this integration — manifests as inability to commit to roles, values, or relationships, often with anxiety about self-definition. The teenager's behavior (drifting, rapid value shifts, anxiety about self-questions) is the classic picture of role confusion. Earlier unresolved stages may contribute, but the primary description maps directly to the adolescent identity crisis."
+
+- question: "Successful resolution of the trust vs. mistrust stage means the infant develops complete, unconditional trust and no capacity for mistrust."
+  type: true-false
+  answer: false
+  explanation: "Erikson explicitly argued that the goal of each stage is a productive balance between the two poles, not elimination of the negative pole. Some capacity for mistrust is adaptive — a child who trusts everyone indiscriminately is vulnerable. The ego strength of this stage, hope, emerges from a balance weighted toward trust, not from pure trust. This is one of Erikson's most important departures from simpler models: healthy development requires tension, not the defeat of the negative pole."
+
+- question: "Erikson's psychosocial stages are strictly age-locked: unresolved conflicts from earlier stages cannot be revisited or reworked in later life."
+  type: true-false
+  answer: false
+  explanation: "Erikson's stages are not strictly age-locked. Earlier conflicts can recur and unresolved issues can be reworked later in development — for example, a person who did not develop a secure sense of trust in infancy may have opportunities to build it through later relationships. Erikson extended development across the full lifespan partly to acknowledge that development is not a one-shot process with permanent outcomes from each stage."
+
+- question: "Why does Erikson argue that formal operational thinking is a prerequisite for successful identity formation in adolescence?"
+  type: short-answer
+  answer: "Identity formation requires integrating multiple self-images, social roles, values, and past experiences into a coherent narrative. This requires abstract, hypothetical self-reflection — imagining who you might be, comparing possible selves, evaluating how you appear to others — which depends on formal operational thinking. Without the ability to reason hypothetically about abstract possibilities, an adolescent cannot systematically explore identity alternatives or construct a stable self-concept. Concrete operational thinking, tied to specific situations, is insufficient for this kind of second-order reflection on the self."
+  explanation: "This connection reveals that Erikson's psychosocial stages depend partly on Piaget's cognitive stages for their content. The ego strength of fidelity — sustaining abstract commitments — also requires formal operational capacity to hold and evaluate those commitments consistently."
+```
+
 ## Explainer
 
 Erik Erikson built his theory in explicit dialogue with Freud, accepting the idea that development unfolds in stages but rejecting the claim that it ends at adolescence or is driven primarily by libidinal drives. Where Freud saw instinct, Erikson saw society: each stage is defined not by a bodily zone but by a **psychosocial conflict** — a tension between a positive developmental achievement and its failure mode, played out in a specific social context. The eight stages span the entire lifespan, but the first five are most relevant to child and adolescent development.

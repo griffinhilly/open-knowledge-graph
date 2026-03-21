@@ -33,6 +33,45 @@ Choose a social problem you care about. Identify different groups and what they 
 ## Common Misconceptions
 Social problems are objective facts that everyone agrees on. They can be solved through changing individual behavior alone without changing social structures.
 
+## Questions
+
+```yaml
+- question: "In the 1970s, domestic violence was widespread but rarely treated as a social problem requiring public response. By the 1990s, it had become a major focus of law, policy, and social services. What best explains this change in terms of social problems frameworks?"
+  type: multiple-choice
+  options:
+    - "Domestic violence became more frequent in the 1970s–90s, creating objective conditions that eventually demanded recognition"
+    - "Feminist advocacy successfully engaged in claims-making that redefined domestic violence from a private family matter to a public harm requiring state intervention"
+    - "Scientific research proved for the first time that domestic violence caused measurable psychological harm"
+    - "Politicians recognized the electoral benefits of addressing domestic violence and mobilized public concern"
+  answer: 1
+  explanation: "This is the classic example of social construction of a social problem. Domestic violence had always existed and always caused harm — the condition did not change. What changed was the definitional politics: feminist organizations successfully engaged in claims-making, shifting the frame from 'private family business' to 'gender-based violence requiring public response.' This reframing changed what solutions seemed appropriate (criminalization, shelters, legal remedies) and who was responsible for the problem. The condition was always real; its status as a recognized 'social problem' was constructed through political struggle."
+
+- question: "Two commentators debate drug addiction. One says it is a moral failure requiring punishment; another says it is a public health condition requiring treatment. From a sociological social-problems framework, what is most significant about this disagreement?"
+  type: multiple-choice
+  options:
+    - "One framing is empirically correct and the other is not — sociology can determine which"
+    - "The framing of the problem determines which solutions appear legitimate and appropriate"
+    - "The disagreement reflects different levels of moral development between the two commentators"
+    - "The disagreement is about severity — both agree on the nature of the problem but differ on how serious it is"
+  answer: 1
+  explanation: "This is the key insight of social constructionist approaches to social problems: problem definition is prescriptive, not just descriptive. If addiction is a moral failure, the appropriate response is punishment (deterrence, incarceration). If it is a medical condition, the appropriate response is treatment (rehabilitation, harm reduction). The frame doesn't just describe the problem — it constructs the solution space. Sociologists are not necessarily endorsing one frame over the other, but they insist that the choice of frame is itself a power-laden political act: it determines who is responsible, who is helped, and whose interests are served by the response."
+
+- question: "Social construction of a social problem means that the suffering or harm associated with the problem is not real — it is fabricated by advocacy groups for political purposes."
+  type: true-false
+  answer: false
+  explanation: "False. This is a critical misunderstanding of what 'social construction' means in this context. Social constructionism is about the definitional process — how a condition comes to be recognized and labeled as a 'social problem' warranting public response — not about whether the underlying harm is real. Homelessness, drug addiction, and domestic violence cause genuine, measurable suffering. What is socially constructed is the frame: how the problem is understood, what causes it is believed to have, and what solutions are therefore considered appropriate. The harm is real; the definition is contested."
+
+- question: "How a social problem is framed — its causes attributed to individual failures versus structural conditions — directly determines what kinds of solutions appear appropriate and politically legitimate."
+  type: true-false
+  answer: true
+  explanation: "True. This is the central practical implication of social problems frameworks. Individual-failure frames generate individually targeted solutions: punishment, rehabilitation, moral education, job training. Structural-failure frames generate structurally targeted solutions: regulation, redistribution, institutional reform, policy change. The same condition (unemployment, addiction, poverty) generates radically different policy responses depending on whether it is understood as something individuals brought on themselves or something produced by economic and social structures. The sociological contribution is not to automatically prefer structural frames but to expose the choice of frame as a political act rather than a neutral description."
+
+- question: "What is 'claims-making,' and why does the concept matter for understanding which social conditions get recognized as social problems?"
+  type: short-answer
+  answer: "Claims-making is the process by which groups successfully define a condition as a social problem and insert that definition into public discourse and policy. It matters because many harmful conditions exist without generating recognition as 'social problems' — recognition requires actors who can frame the condition, mobilize attention, and gain institutional legitimacy. Different groups have unequal capacity for claims-making: corporations, professional associations, and media organizations have more resources to define problems than marginalized communities. As a result, which conditions become recognized as social problems reflects patterns of political power, not simply which conditions cause the most objective harm."
+  explanation: "The claims-making concept explains apparent anomalies in how social problems are defined: why some conditions generating enormous harm receive little policy attention while less harmful conditions generate intense response. It also explains why problem definitions can change rapidly when previously marginalized groups gain political voice — as with domestic violence, environmental racism, or workplace sexual harassment. The sociological task is to analyze whose claims succeed, why, and what the consequences are for the distribution of social responses."
+```
+
 ## Explainer
 
 The **sociological imagination** you developed as a prerequisite — C. Wright Mills's concept — gave you the core move: connecting private troubles to public issues, linking individual biography to historical structure. Social problems frameworks extend this directly. A person who is unemployed experiences a private trouble. But when unemployment is widespread during an economic recession, it is a public issue whose causes lie not in the failures of individuals but in the structural organization of labor markets, monetary policy, and capital investment decisions. The sociological framework insists on examining this structural level, not as a denial that individuals matter, but as a correction to the individualism that typically dominates public discourse about problems.

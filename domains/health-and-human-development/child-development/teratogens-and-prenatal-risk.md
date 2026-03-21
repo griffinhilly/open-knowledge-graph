@@ -37,6 +37,45 @@ Map specific teratogens to the developmental windows where they cause harm using
 - 'Natural' substances are not automatically safe during pregnancy; caffeine and herbal supplements can have effects.
 - Paternal exposures are generally less studied but not irrelevant.
 
+## Questions
+
+```yaml
+- question: "A woman unknowingly takes a teratogenic medication during weeks 4–6 of pregnancy (during organogenesis). A second woman takes the same medication at the same dose during weeks 18–20 (mid-fetal period). How would you expect their outcomes to differ?"
+  type: multiple-choice
+  options:
+    - "Both women face identical risks because the same teratogen at the same dose always produces the same outcome"
+    - "The woman exposed during weeks 4–6 is at risk for severe structural malformations (e.g., limb reduction, cardiac defects), while the woman exposed during weeks 18–20 faces a lower risk of gross malformations but may have functional or growth impairments"
+    - "The woman exposed during weeks 18–20 faces greater risk because the fetus is larger and absorbs more of the drug"
+    - "The woman exposed during weeks 4–6 is at lower risk because the embryo can regenerate damaged cells before differentiation is complete"
+  answer: 1
+  explanation: "The critical period principle is the cornerstone of teratology: the same teratogen produces very different outcomes depending on when during development exposure occurs. Weeks 4–6 fall during organogenesis — the window when the neural tube, heart, and limbs are being initially formed. A teratogenic insult at this stage can produce permanent structural malformations because these organ systems are forming for the first and only time. By weeks 18–20, organogenesis is complete; exposure during the fetal period typically causes functional impairment, growth restriction, or disruption of brain maturation rather than gross structural defects."
+
+- question: "Why is folic acid supplementation most effective when started before conception rather than when pregnancy is confirmed?"
+  type: multiple-choice
+  options:
+    - "Folic acid takes several months to accumulate in the body, so early supplementation ensures adequate levels at any point during pregnancy"
+    - "The neural tube closes during weeks 3–4 of pregnancy — often before a woman knows she is pregnant — so supplementation must begin before conception to cover this critical window"
+    - "Folic acid only protects against teratogens during the first two weeks before any embryonic differentiation has occurred"
+    - "Folic acid is teratogenic in early pregnancy and must be replaced with other vitamins once pregnancy is confirmed"
+  answer: 1
+  explanation: "The neural tube closes during weeks 3–4 of pregnancy — a window that typically occurs before most women realize they are pregnant (pregnancy tests become reliable around week 4–5, and many women don't test until after a missed period). Neural tube defects arise when this closure fails. Since folic acid supplementation reduces neural tube defect risk by 50–70% by supporting this closure process, it must be present in adequate amounts during weeks 3–4. Waiting until pregnancy is confirmed means this critical window has already closed. This is a canonical example of how understanding the critical period principle translates directly into preventive health recommendations."
+
+- question: "The critical period for teratogen-induced structural malformations is primarily during organogenesis (weeks 3–8), because organ systems are being laid down for the first and only time during this window."
+  type: true-false
+  answer: true
+  explanation: "The all-or-nothing principle governs the pre-embryonic period (weeks 1–2): exposure either kills the embryo or produces no lasting structural effect because no organ differentiation has occurred yet. Organogenesis (weeks 3–8) is the window of maximum structural vulnerability because the initial formation of every major organ system — neural tube, heart, limbs, face — occurs here. A teratogenic insult during this period disrupts a one-time developmental event, producing permanent structural malformation. After week 8, the fetal period involves growth and functional maturation; teratogens during this period cause functional or growth impairments, not gross structural defects."
+
+- question: "Exposure to a known teratogen during organogenesis guarantees that the exposed embryo will develop a structural malformation."
+  type: true-false
+  answer: false
+  explanation: "Teratogen risk is probabilistic, not deterministic. Even potent teratogens during the most vulnerable windows produce malformations in only a fraction of exposed pregnancies. The outcome depends on dose (many teratogens have a threshold below which harm is undetectable), gestational timing within organogenesis (each organ system has its own peak vulnerability window), genetic susceptibility of the embryo, co-occurring nutritional status, and interactions with other environmental factors. The famous example is thalidomide: while it produced severe limb defects in many exposed embryos, some exposed pregnancies resulted in unaffected offspring. Risk is increased — sometimes dramatically — but exposure is not a guarantee of harm."
+
+- question: "Why does the same teratogen produce structural malformations when exposure occurs during organogenesis but only functional impairments when exposure occurs during the fetal period?"
+  type: short-answer
+  answer: "During organogenesis (weeks 3–8), the major organ systems are being initially formed — the neural tube closes, the heart takes shape, limb buds emerge. These are singular, irreversible developmental events: if the process is disrupted, the structure either fails to form or forms incorrectly, producing a permanent structural malformation. There is no later opportunity to re-form the structure. During the fetal period (after week 8), organogenesis is essentially complete. Development shifts to growth, structural refinement, and functional maturation. A teratogenic insult at this stage disrupts ongoing processes (neuronal migration, myelination, synaptic development) rather than initial formation, producing functional deficits — cognitive impairments, sensory deficits, growth restriction — rather than absent or malformed gross structures."
+  explanation: "This principle explains the pattern of harm seen with specific teratogens. Thalidomide, taken during weeks 4–8, caused limb reduction defects because limb bud formation occurs in that window. Alcohol causes both structural effects (facial features, brain malformations) when exposure is heavy in the first trimester AND functional effects (cognitive, attentional deficits) when exposure occurs throughout pregnancy, because brain development — both structural and functional — spans the entire prenatal period."
+```
+
 ## Explainer
 
 From your study of prenatal development, you know that embryogenesis follows an ordered sequence of differentiation events: cells progressively specialize into tissues and organ systems according to a timetable set by gene expression and intercellular signaling. A **teratogen** is any external agent — drug, pathogen, chemical, radiation, or environmental stressor — that disrupts this ordered program. The key insight of teratology is that harm is not primarily about the agent itself but about the interaction between the agent and the developmental window during which exposure occurs. The same substance can produce entirely different outcomes depending on when the embryo or fetus encounters it.

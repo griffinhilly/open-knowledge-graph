@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Tests for heteroskedasticity include: residual scatter plots vs fitted values, Breusch-Pagan regression of squared residuals on X, and White's test using fitted values and squares. Each detects dependence of error variance on regressors; rejection indicates correction is needed.
 
+## Questions
+
+```yaml
+- question: "After running a regression of consumption on income, you plot residuals against fitted values and see a clear funnel shape — variance increasing with fitted values. Which formal test is most appropriate to confirm this, and what would rejection indicate?"
+  type: multiple-choice
+  options:
+    - "An F-test for joint significance; rejection means some regressors are not significant"
+    - "A Breusch-Pagan test; rejection means error variance is systematically related to the regressors"
+    - "A Durbin-Watson test; rejection means residuals are correlated across observations"
+    - "A Hausman test; rejection means the regressors are endogenous"
+  answer: 1
+  explanation: "The funnel shape is the classic visual signature of heteroskedasticity — variance growing with fitted values. The Breusch-Pagan test formalizes this: it runs an auxiliary regression of squared OLS residuals on the original regressors and tests whether any coefficient is nonzero (i.e., whether residual size is predictable from the regressors). Rejection confirms that error variance depends on at least one regressor. The other tests detect different problems: F-tests for joint significance, Durbin-Watson for serial autocorrelation, Hausman for endogeneity."
+
+- question: "A researcher uses White's test instead of Breusch-Pagan. What is the main reason White's test might be preferred, and what is its key limitation?"
+  type: multiple-choice
+  options:
+    - "White's test is preferred because it has higher power in all sample sizes; its limitation is it requires specifying the functional form for variance"
+    - "White's test is preferred because it does not require assuming which regressors drive variance; its limitation is lower power in small samples due to using more degrees of freedom"
+    - "White's test is preferred for detecting serial correlation; its limitation is it cannot detect heteroskedasticity in cross-sectional data"
+    - "White's test is preferred because it is computationally simpler; its limitation is it only works for continuous regressors"
+  answer: 1
+  explanation: "White's test uses fitted values and their squares as auxiliary regressors rather than the original regressors, making it agnostic about the functional form of heteroskedasticity. This generality lets it catch patterns that Breusch-Pagan misses when variance depends on nonlinear combinations of regressors. The cost is consuming more degrees of freedom, which reduces statistical power in small samples. Breusch-Pagan is preferred when theory suggests which specific variable drives variance; White's test is the safer diagnostic when there are no strong priors."
+
+- question: "The Breusch-Pagan test works by regressing squared OLS residuals on the original explanatory variables and testing whether the coefficients are jointly zero."
+  type: true-false
+  answer: true
+  explanation: "This is an accurate description of the Breusch-Pagan procedure. If error variance is constant (homoskedasticity), squared residuals should be unrelated to any regressor — the auxiliary regression should have no explanatory power. The test statistic is n × R² from this auxiliary regression, distributed chi-squared under the null. A significant result means at least one regressor predicts residual size, which is exactly what heteroskedasticity means: variance is not constant but systematically related to the regressors."
+
+- question: "Because OLS coefficient estimates are unbiased under heteroskedasticity, detecting heteroskedasticity requires no change to the estimation or inference procedure."
+  type: true-false
+  answer: false
+  explanation: "This is a critical misconception. OLS coefficients are indeed unbiased under heteroskedasticity — the estimates of β are numerically correct. But the standard errors are wrong: OLS standard errors assume constant variance, so they are too small or too large under heteroskedasticity, making t-statistics and confidence intervals unreliable. Hypothesis tests based on incorrect standard errors can badly mislead. Detecting heteroskedasticity is a signal to switch to heteroskedasticity-robust standard errors or weighted least squares to restore valid inference."
+
+- question: "What is the null hypothesis of the Breusch-Pagan test, and what does rejection tell you about the need to change your estimation strategy?"
+  type: short-answer
+  answer: "The null hypothesis is homoskedasticity: error variance is constant and unrelated to any regressor. Rejection means at least one regressor predicts the magnitude of the errors. OLS coefficient estimates remain unbiased, but standard errors are inconsistent, making t-statistics and confidence intervals unreliable. Rejection indicates you should switch to heteroskedasticity-robust standard errors or weighted least squares."
+  explanation: "It's important to distinguish what rejection does and does not imply. The coefficients (β̂) are still correct point estimates — heteroskedasticity does not bias them. What's broken is the precision estimate: OLS standard errors assume Var(ε) = σ²I, so they are systematically wrong when variance differs across observations. Robust standard errors (e.g., HC3) correct the inference problem without changing the coefficients. Weighted least squares is more efficient if you can correctly specify the variance function."
+```
+
 ## Explainer
 
 From your study of heteroskedasticity, you know the core problem: when error variance is not constant across observations, OLS estimates remain unbiased but lose efficiency, and — critically — the standard errors become wrong, making t-tests and confidence intervals unreliable. Before choosing a remedy, you need to *detect* the problem. Testing for heteroskedasticity translates an abstract concern about non-constant variance into a concrete empirical question.

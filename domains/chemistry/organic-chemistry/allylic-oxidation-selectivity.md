@@ -31,6 +31,45 @@ Identify allylic positions in structures and predict oxidation products with var
 - Confusing allylic oxidation with epoxidation or direct alkene hydroxylation; these are distinct reactions at different positions.
 - Failing to recognize that the allylic C-H is activated relative to typical alkyl C-H due to resonance stabilization of intermediates.
 
+## Questions
+
+```yaml
+- question: "Cyclohexene is treated with SeO₂ under mild conditions. Which product is primarily formed?"
+  type: multiple-choice
+  options:
+    - "Cyclohexene oxide (an epoxide bridging across the double bond)"
+    - "Cyclohexane-1,2-diol (a cis-diol from direct double-bond hydroxylation)"
+    - "Cyclohex-2-en-1-ol (an allylic alcohol with the double bond intact)"
+    - "Cyclohexanone (a saturated ketone with no double bond)"
+  answer: 2
+  explanation: "SeO₂ performs allylic oxidation — it targets the C–H bond adjacent to the double bond, not the π bond itself. The product is cyclohex-2-en-1-ol, an allylic alcohol with the original double bond preserved. Options A and B describe reactions of the double bond (epoxidation with mCPBA, dihydroxylation with OsO₄ or KMnO₄), which are entirely different reactions at a different site. Option D would require the double bond to be lost, which does not happen under these conditions."
+
+- question: "Why are allylic C–H bonds more reactive toward oxidizing agents than typical secondary alkyl C–H bonds?"
+  type: multiple-choice
+  options:
+    - "Allylic carbons are more electronegative due to adjacent π electrons, making them better hydrogen-bond donors"
+    - "The oxidant first attacks the C=C double bond, then migrates to the adjacent carbon in a two-step process"
+    - "The transition state for allylic C–H abstraction is stabilized by resonance delocalization of the resulting radical across two carbons"
+    - "Allylic C–H bonds are stronger than typical secondary C–H bonds and therefore require more forcing oxidative conditions"
+  answer: 2
+  explanation: "The key is the stability of the allylic radical intermediate. When the allylic C–H is abstracted, the resulting radical is stabilized by resonance with the adjacent π system — the unpaired electron delocalizes over two carbons, lowering the energy of both the intermediate and the transition state leading to it. This makes allylic C–H bonds significantly weaker (~88 kcal/mol) than typical secondary C–H bonds (~99 kcal/mol). The oxidant does not attack the double bond first — that would be an electrophilic addition, a different reaction entirely."
+
+- question: "Allylic oxidation with SeO₂ attacks the C=C double bond directly, converting it to a carbonyl group."
+  type: true-false
+  answer: false
+  explanation: "SeO₂ performs allylic oxidation by reacting at the C–H bond adjacent to the double bond, leaving the π bond intact and producing an allylic alcohol. Reactions that directly attack the C=C bond are a different class: epoxidation (mCPBA), dihydroxylation (OsO₄), ozonolysis (O₃), and others. Confusing these reaction sites — the double bond versus the adjacent allylic C–H — is the most common misconception in this topic."
+
+- question: "Resonance stabilization of the allylic radical lowers the activation energy for allylic C–H abstraction relative to abstraction of an ordinary secondary C–H bond."
+  type: true-false
+  answer: true
+  explanation: "By Hammond's postulate, for an endothermic step (hydrogen abstraction), the transition state resembles the product — in this case, the carbon radical. A more stable radical (lower energy) means a lower-energy transition state, which means a lower activation barrier. The allylic radical is stabilized by resonance delocalization across the adjacent π system, making it more stable than a localized secondary alkyl radical. This stability advantage is reflected directly in the selectivity: allylic positions react preferentially under oxidative conditions."
+
+- question: "Explain why an oxidizing reagent selectively reacts at the allylic position rather than at other C–H bonds in the same molecule."
+  type: short-answer
+  answer: "The allylic C–H is selectively broken because abstraction of that hydrogen produces a resonance-stabilized radical (or ionic intermediate): the unpaired electron delocalizes over the adjacent π system, spreading across two carbons. This delocalization makes allylic C–H bonds significantly weaker (~88 kcal/mol) than typical secondary C–H bonds (~99 kcal/mol). By Hammond's postulate, the more stable radical intermediate corresponds to a lower-energy transition state, so the activation barrier for allylic C–H abstraction is lower than for abstraction at other positions. The oxidant simply follows the path of least resistance."
+  explanation: "The selectivity is thermodynamically and kinetically favorable for the same reason: resonance stabilization lowers both the intermediate energy and the transition-state energy. This is directly analogous to why allylic halogenation (NBS/light) is selective for the same position — the allylic radical is the most stable radical available in the molecule, so the chain-carrying radical abstracts from that position first."
+```
+
 ## Explainer
 
 From your work on free-radical halogenation, you know that hydrogen abstraction creates a carbon radical, and that the stability of that radical determines which C–H bond breaks preferentially. The **allylic position** — the carbon directly adjacent to a C=C double bond — takes this selectivity to a new level. When a hydrogen is abstracted from an allylic carbon, the resulting radical is stabilized by **resonance**: the unpaired electron delocalizes across the adjacent π system, spreading over two carbons rather than sitting on one. This resonance stabilization makes allylic C–H bonds significantly weaker (~88 kcal/mol) compared to typical secondary C–H bonds (~99 kcal/mol), meaning they break more easily under oxidative conditions.

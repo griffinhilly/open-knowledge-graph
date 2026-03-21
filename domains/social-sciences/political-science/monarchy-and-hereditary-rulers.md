@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Monarchy is a system where power is held by a hereditary ruler (monarch) and passes to designated descendants. Modern monarchies vary from absolute, where the monarch exercises substantial power, to constitutional, where the monarch's powers are limited by law.
 
+## Questions
+
+```yaml
+- question: "A political scientist asks: 'What problem does hereditary succession primarily solve?' Which answer best reflects the analysis in this topic?"
+  type: multiple-choice
+  options:
+    - "It ensures the most capable person becomes ruler by selecting from an elite gene pool"
+    - "It prevents succession crises by creating clear, shared expectations about who the next ruler will be"
+    - "It concentrates power in one person, making decision-making faster and more efficient"
+    - "It prevents foreign powers from interfering in domestic leadership transitions"
+  answer: 1
+  explanation: "The key insight is that hereditary succession is not a method for selecting good rulers — it completely decouples selection from fitness to rule. Its primary purpose is stability: by establishing clear, predictable rules for who comes next, it reduces the incentive for rivals to compete violently. The Norman Conquest illustrates the alternative: when succession is ambiguous, catastrophic conflict follows. Effectiveness at selecting capable leaders is a separate question, and hereditary succession performs poorly on it."
+
+- question: "In a modern constitutional monarchy like the United Kingdom or Sweden, how is political power actually distributed?"
+  type: multiple-choice
+  options:
+    - "The monarch retains veto power over legislation but delegates day-to-day governance to ministers"
+    - "The monarch and elected parliament share roughly equal governing authority"
+    - "The monarch reigns as head of state but does not govern — political power is exercised by elected institutions"
+    - "The monarch governs on most matters but is constrained by a written constitution for major decisions"
+  answer: 2
+  explanation: "In contemporary constitutional monarchies, the monarch 'reigns but does not rule.' They perform ceremonial functions — opening parliament, representing the nation, providing symbolic continuity and an apolitical head of state — while actual governing authority belongs to elected governments accountable to the legislature. This arrangement preserves the legitimizing and symbolic functions of monarchy while transferring decision-making power to democratic institutions. It is a fundamentally different arrangement from absolute monarchy or even most historical constitutional monarchies."
+
+- question: "The Magna Carta (1215) was significant because it established that royal authority is limited by law — even the monarch must operate within legal constraints."
+  type: true-false
+  answer: true
+  explanation: "The Magna Carta was a foundational step in the long transition from absolute to constitutional monarchy in England. King John was forced by barons to acknowledge explicit limits on royal power, including protections for noble rights and constraints on arbitrary taxation and imprisonment. This principle — that the monarch is not above the law — became central to constitutionalism. The Glorious Revolution of 1688 later made parliamentary supremacy permanent, completing the shift from a monarch who governed to one who reigned within legal boundaries."
+
+- question: "Absolute monarchs in early modern Europe faced no practical constraints on their power — their authority was genuinely unlimited in practice, not just in theory."
+  type: true-false
+  answer: false
+  explanation: "Even the most powerful absolute monarchs were constrained in practice — by the cost of enforcement, the power of noble factions, the institutional authority of the church, and fiscal limits. Louis XIV's 'I am the state' represented an ideological claim, not an empirical description of unchecked power. Absolute monarchy asserted unlimited authority in principle and used divine right to legitimize it, but governing in practice required negotiating with elites, managing military loyalty, and staying solvent. Theoretical absolutism and practical governance diverged significantly."
+
+- question: "Why does hereditary succession reduce succession crises even though it completely ignores whether the heir is fit to rule?"
+  type: short-answer
+  answer: "Hereditary succession reduces conflict by creating a single, widely accepted answer to 'who comes next?' When succession rules are clear and accepted, there is no point in competing — the outcome is already determined. The reduction in violence comes from eliminating the incentive to fight, not from guaranteeing a good ruler."
+  explanation: "The political value of hereditary succession is coordination, not selection quality. A contested succession — like England in 1066 — invites every ambitious rival to press a claim, potentially triggering war. Clear rules (primogeniture, agnatic succession, etc.) depersonalize the transition: no individual can win by fighting when the rule is sufficiently entrenched. This explains why monarchies often survive even with manifestly incompetent rulers — the stability of the succession mechanism can outweigh the cost of bad governance, at least for a time."
+```
+
 ## Explainer
 
 From your study of power and political order, you know that all political systems must solve the same fundamental problems: how authority is legitimized, how it is transferred, and how it is constrained. Monarchy offers one of history's oldest answers to these problems. Power is held by a single person whose claim rests on hereditary succession — the right to rule is inherited, typically from a parent, following established rules of succession. This solution is both elegant and problematic: hereditary succession provides clarity and continuity, but it completely decouples the selection of rulers from any assessment of their fitness to rule.

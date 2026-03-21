@@ -31,6 +31,45 @@ Work through the Twin Earth scenario carefully, noting exactly where the content
 - Externalism does not deny that internal brain states play a role in thought; it denies that internal states alone fix the content of thought.
 - The Twin Earth argument is not about word meanings in isolation; it is about the contents of beliefs, desires, and other propositional attitudes.
 
+## Questions
+
+```yaml
+- question: "In Putnam's Twin Earth thought experiment, before modern chemistry, an Earthling and her molecule-for-molecule identical Twin Earth duplicate are each thinking 'water is wet.' What does Putnam conclude?"
+  type: multiple-choice
+  options:
+    - "Their thoughts have identical content, since their brains are in exactly the same internal state"
+    - "Their thoughts differ in content — one is about H₂O and the other about XYZ — despite their internal states being identical"
+    - "Neither thought has determinate content until the underlying chemistry is discovered"
+    - "The experiment is incoherent because molecule-for-molecule identical people cannot exist in different environments"
+  answer: 1
+  explanation: "Putnam's conclusion is precisely that identical internal states can yield different contents when environments differ. The Earthling's use of 'water' tracks H₂O — the actual substance in her environment — while the Twin Earthling's tracks XYZ. Since their internal states are identical, the difference in content must be traced to the difference in their environments, not to anything inside their heads. This is the core argument that 'meanings ain't in the head': mental content is partially constituted by the external world, and no amount of introspection can reveal which substance your thoughts are about."
+
+- question: "Tyler believes he has 'arthritis in his thigh.' In fact, arthritis is a joint disease that cannot affect the thigh. According to Burge's social externalism, what is the content of Tyler's belief?"
+  type: multiple-choice
+  options:
+    - "Whatever Tyler privately means by 'arthritis' — including thigh ailments — making his belief true of his own condition"
+    - "About arthritis, the actual joint disease, because his linguistic community's use of the term fixes its extension even when Tyler misapplies it"
+    - "Indeterminate, since Tyler is in error and there is no fact of the matter about what he believes"
+    - "A mixture of Tyler's private meaning and the community's meaning, weighted by how often he has used the term correctly"
+  answer: 1
+  explanation: "Burge's key insight is that you do not fully control what your own words mean. 'Arthritis' in Tyler's language community refers to a joint disease, and when Tyler uses that term he is using a community word, inheriting its extension. His belief is therefore about the real disease called arthritis — which makes his belief 'I have arthritis in my thigh' straightforwardly false, not true-but-private. This is social externalism: mental content is partly fixed by linguistic community usage, not solely by the thinker's internal representations or intentions."
+
+- question: "Content externalism implies that internal brain states play no role in mental content — only facts about the external environment or linguistic community determine what a thought is about."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misreading of externalism. Externalism does not claim the brain is irrelevant; it claims that internal states alone are insufficient to fix content. Both internal states and external factors jointly determine content. Putnam explicitly says internal states matter — his claim is that they underdetermine content: the same internal state can be about different things depending on the environment. A complete theory of mental content requires both the internal state and the external context in which it is embedded."
+
+- question: "On the content externalist view, two people who are molecule-for-molecule identical can have thoughts with genuinely different contents."
+  type: true-false
+  answer: true
+  explanation: "This is exactly Putnam's Twin Earth conclusion. The Earthling and her twin are in identical internal states, but their thoughts about 'water' differ in content: one is about H₂O, the other about XYZ. What fixes the difference is their respective environments — the actual substance that 'water' tracks in each world. This result is the core of content externalism and is widely accepted even by philosophers who disagree about its implications. It directly shows that internal physical states underdetermine semantic content."
+
+- question: "What is the difference between 'narrow content' and 'wide content,' and why does this distinction matter for the debate between internalists and externalists?"
+  type: short-answer
+  answer: "Narrow content is whatever is shared by two internal duplicates regardless of their environments — something like 'the watery stuff in my environment,' which abstracts away from which specific substance is actually tracked. Wide content is the full semantic content determined by the environment — 'H₂O' for the Earthling, 'XYZ' for her twin. Internalists argue narrow content is what matters for psychological explanation, since duplicates behave identically and should be predicted to do so. Externalists argue wide content is required for semantic evaluation — for determining whether beliefs are true — and that cognitive science is impoverished without reference to a thinker's world."
+  explanation: "The narrow/wide distinction is the internalist's response to the externalist challenge: concede that wide content is environmentally determined, but insist that psychological explanation only needs narrow content. The debate then shifts to whether cognitive science aims to track truth-apt representations (requiring wide content) or merely to predict behavior (which might need only narrow content). The answer has concrete implications: if cognitive science must be purely internal, mental states can be fully characterized without knowing anything about the external world; if it is inherently relational, understanding a thinker's environment is essential to characterizing their mental life."
+```
+
 ## Explainer
 
 From your study of intentionality, you know that mental states are "about" things — beliefs, desires, and thoughts are directed at objects or states of affairs in the world. Representationalism extends this: mental states have content because they contain internal representations. The internalist pictures this as a self-contained system: whatever your brain contains fully determines what your thoughts are about. Content externalism directly challenges this picture, arguing that what you think about is partly fixed by factors outside your skull.

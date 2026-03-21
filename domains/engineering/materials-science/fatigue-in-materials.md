@@ -30,6 +30,45 @@ Analyze a fatigue fracture surface (beach marks indicating stable propagation, r
 - A component can fail by fatigue at a stress far below its yield strength — fatigue is not a concern only for heavily loaded parts.
 - Polishing surfaces dramatically improves fatigue life; this surprises students who view it as cosmetic.
 
+## Questions
+
+```yaml
+- question: "An aluminum aircraft component is loaded at 60% of its tensile strength — well below yield — and fractures after 10⁸ cycles. What best explains this failure?"
+  type: multiple-choice
+  options:
+    - "The component must have been defective; aluminum cannot fail below its yield strength"
+    - "Fatigue: cyclic loading accumulates microscopic damage even at stresses below static yield strength"
+    - "The 60% rating was based on static loading; dynamic loading invokes different strength limits that were exceeded"
+    - "The aluminum work-hardened progressively until it became brittle enough to fracture"
+  answer: 1
+  explanation: "Fatigue is the accumulation of microscopic irreversible damage — slip bands that grow into surface cracks — over many cycles. Each individual loading event is elastic and apparently benign, but the cumulative effect is crack initiation and propagation. This is the counterintuitive core of fatigue: you cannot assess fatigue risk from a single stress-strain test because failure depends on repetition, not magnitude alone. Aluminum, unlike steel, has no endurance limit, so it will eventually fail at any cyclic stress amplitude given enough cycles."
+
+- question: "Two identical steel shafts are manufactured for a rotating application. Shaft A is mirror-polished; Shaft B has visible machining marks. Both are loaded at the same cyclic stress well below yield. Which lasts longer?"
+  type: multiple-choice
+  options:
+    - "Shaft A — a smooth surface has fewer stress concentration sites where cracks can initiate"
+    - "Shaft B — surface roughness increases the effective load-bearing cross-section"
+    - "They last the same — surface finish affects appearance, not structural fatigue life"
+    - "Shaft B — machining introduces compressive residual stresses that resist crack opening"
+  answer: 0
+  explanation: "Fatigue cracks initiate at surface stress concentrations: scratches, machining marks, pits, and tool marks all act as geometric notches that multiply local stress. A mirror-polished surface has far fewer and shallower initiation sites, dramatically extending Stage 1 (initiation) life. The misconception that surface finish is cosmetic is dangerous — surface condition is often the single most influential factor in fatigue life. Shot peening improves on even polished surfaces by adding compressive residual stress."
+
+- question: "Steel components have a fatigue endurance limit — a stress amplitude below which fatigue failure will never occur regardless of the number of cycles."
+  type: true-false
+  answer: true
+  explanation: "Ferrous metals (steels, cast iron) exhibit a characteristic plateau on the S-N curve: below the endurance limit (typically ~40–50% of tensile strength), the S-N curve flattens, indicating the material can sustain infinite cycles without fatigue failure. This plateau is why steel machinery can be designed for infinite fatigue life. Non-ferrous alloys (aluminum, titanium, copper) do not have this plateau and continue weakening with increasing cycles, requiring retirement limits based on total cycles."
+
+- question: "Fatigue cracks typically initiate deep within the material, away from the surface, where stress concentrations are highest under bending or torsional loading."
+  type: true-false
+  answer: false
+  explanation: "Fatigue cracks almost always initiate at the surface, not the interior. Even under bending or torsion (where surface stresses are highest), the initiation is driven by surface stress concentrations — scratches, pits, machining marks — that amplify local stresses beyond yield even when nominal stress is low. Internal crack initiation only occurs in specific cases, such as subsurface inclusions in high-cycle fatigue of very clean, polished high-strength steels. Surface condition is the dominant variable in Stage 1 life."
+
+- question: "Why does surface condition have such a large effect on fatigue life, and what engineering interventions exploit this relationship?"
+  type: short-answer
+  answer: "Fatigue crack initiation (Stage 1) occurs at surface stress concentrations where local stresses exceed yield even when the nominal stress is low. Every surface defect — scratch, pit, machining mark, tool groove — acts as a notch that multiplies local stress. The more and deeper the initiation sites, the earlier Stage 1 ends and crack propagation begins. Interventions: (1) mirror polishing minimizes initiation sites; (2) shot peening introduces compressive residual stress at the surface, forcing fatigue cracks to overcome that compression before opening; (3) eliminating geometric stress risers (sharp corners, keyways, abrupt cross-section changes) through fillets and chamfers."
+  explanation: "The surface dominance also explains why sub-surface defects like inclusions matter more in materials with excellent surface finish — once you eliminate surface initiation, internal defects become the limiting factor. In high-performance applications like aircraft turbine disks, both surface finish and material cleanliness are controlled together."
+```
+
 ## Explainer
 
 From stress-strain behavior, you know that stresses below the yield strength cause only elastic — fully reversible — deformation. Fatigue seems to violate this intuition: a component loaded at half its yield strength can fracture after enough cycles, even though each individual loading event appears benign. The resolution is that microscopic damage accumulates cycle by cycle in a way that is invisible at the macroscopic level. **Fatigue** is not a single event but the cumulative consequence of thousands or millions of tiny, irreversible damage increments.

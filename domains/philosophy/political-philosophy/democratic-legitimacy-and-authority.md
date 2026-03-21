@@ -32,6 +32,45 @@ Compare democratic legitimacy with other sources like tradition, efficiency, or 
 - Democracy does not guarantee wise decisions; it justifies decisions through participation, not outcomes.
 - Majority rule is not the only democratic principle; minority protection and individual rights are equally important.
 
+## Questions
+
+```yaml
+- question: "A democratic majority votes to pass a law that is widely regarded as unjust, harming a persistent minority group. According to the proceduralist account of democratic legitimacy, the law:"
+  type: multiple-choice
+  options:
+    - "Is legitimate because democratic majorities are generally wiser than minorities"
+    - "Is legitimate in the sense that it was produced through proper democratic procedures — it carries obligatory authority — even though it may simultaneously be unjust"
+    - "Is illegitimate because legitimacy requires just outcomes; a democracy that produces injustice has failed its own criteria"
+    - "Is legitimate only if the minority had the opportunity to vote, regardless of whether their interests were systematically overridden"
+  answer: 1
+  explanation: "The proceduralist account separates legitimacy (does the process generate binding authority?) from justice (is the outcome correct?). A law can be both legitimate and unjust — legitimacy is grounded in the process, not the outcome. This is why democrats can accept the authority of a decision they believe is wrong while continuing to fight for change. Option C conflates the two concepts; Option D partially captures the proceduralist view but misses the crucial distinction — even if the minority voted, the outcome can still be unjust while remaining procedurally legitimate."
+
+- question: "A voter casts her ballot against a proposed policy, loses, and says: 'I think this policy is wrong and I'll keep arguing against it — but I recognize it was passed through legitimate democratic procedures, so I accept its authority for now and will work to change it through future votes.' This attitude best illustrates:"
+  type: multiple-choice
+  options:
+    - "The belief that democratic decisions are always correct because they reflect collective wisdom"
+    - "Acquiescence to illegitimate authority driven by fear of legal consequences"
+    - "The proceduralist distinction: democratic authority is grounded in process, and accepting that authority is compatible with believing the outcome is wrong"
+    - "The view that majority rule is justified only when it produces good outcomes"
+  answer: 2
+  explanation: "This response exemplifies proceduralist legitimacy in practice. She accepts the process's authority (procedural legitimacy) while maintaining her own view that the outcome is mistaken (justice critique). The democratic frame structures moral disagreement — it doesn't end it. She can simultaneously obey the law and argue strenuously for its repeal through further democratic action. Option A (always correct) conflates legitimacy with justice. Option D makes legitimacy outcome-dependent, which is the view proceduralism rejects."
+
+- question: "Democratic legitimacy is primarily justified by the fact that democratic procedures tend to produce better decisions than other systems — wiser policy through collective deliberation."
+  type: true-false
+  answer: false
+  explanation: "This is an outcome-based (epistemic) justification of democracy, not the proceduralist account. Proceduralism grounds democratic authority in self-governance and equal participation, not in output quality. The proceduralist argument holds that citizens who participate in making the laws they live under are governing themselves, which respects their autonomy regardless of whether the outcomes are wise. Democracy could have legitimacy even when it makes bad decisions, because legitimacy flows from the process. Consequentialist democrats do sometimes offer outcome-based justifications, but the core claim about political *obligation* rests on participation, not results."
+
+- question: "A democratic decision can be simultaneously legitimate (having proper procedural authority) and unjust (producing a wrong or harmful outcome)."
+  type: true-false
+  answer: true
+  explanation: "This is a foundational distinction in democratic theory. Legitimacy and justice are independent dimensions: a decision can be made through perfectly proper democratic procedures and still be morally wrong. Recognizing this is what allows democrats to accept the binding authority of democratic decisions they disagree with, while continuing to press for change. If legitimacy required justice, every disagreement about policy would become a disagreement about whether to comply at all — undermining the stability democratic institutions depend on."
+
+- question: "What does the proceduralist account of democratic legitimacy imply about how a citizen should respond to a democratic decision they believe is wrong — and what are the limits of the obligation it creates?"
+  type: short-answer
+  answer: "Proceduralism implies that citizens have a genuine (though not absolute) obligation to comply with democratically produced laws even when they believe those laws are wrong, because the obligation flows from the process — their participation in a system that treats all voices equally — not from the outcome's correctness. The citizen can comply while continuing to advocate, protest, and vote to change the law. But the obligation has limits: when the process itself is deeply corrupted, excludes major groups, or systematically overrides the basic rights of a minority, the legitimacy claim weakens. Constitutional rights constraints are part of the fuller account of democratic legitimacy, not exceptions to it."
+  explanation: "The proceduralist view is not a blank check for majority rule. It grounds obligation in the participatory structure of the process, which means that when the process fails — through voter suppression, gerrymandering, or systematic exclusion — the legitimacy claim is correspondingly weakened. And it is always compatible with the view that the outcome is wrong and worth changing. Democratic legitimacy structures how disagreement is pursued (through further democratic action), it does not silence it."
+```
+
 ## Explainer
 
 From your study of the sources of democratic legitimacy and the concept of self-governance, you've encountered the basic democratic claim: that government acquires its authority not from God, tradition, or superior wisdom, but from the governed themselves. Now the question becomes sharper — what exactly does this grounding accomplish, and how strong is the obligation it creates? **Democratic legitimacy** is the claim that decisions made through proper democratic procedures have a special authority that non-democratic decisions lack, and that this authority generates genuine political obligations.

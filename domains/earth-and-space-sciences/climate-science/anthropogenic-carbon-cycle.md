@@ -32,6 +32,45 @@ Use a box model (atmosphere, ocean surface, deep ocean, terrestrial biosphere) t
 ## Common Misconceptions
 Not all CO₂ emitted reaches the atmosphere; roughly half is absorbed by the ocean and land (the terrestrial carbon sink). The residence time of CO₂ is long (~1000 years for ocean adjustment), so past emissions continue to perturb climate.
 
+## Questions
+
+```yaml
+- question: "An analyst states: 'If global CO₂ emissions dropped to zero overnight, atmospheric CO₂ levels would return to pre-industrial concentrations within a few decades.' Based on carbon cycle dynamics, this is:"
+  type: multiple-choice
+  options:
+    - "Correct — the ocean has sufficient capacity to absorb all excess CO₂ within decades via gas exchange"
+    - "Correct — photosynthesis would rapidly remove the excess carbon once emissions stopped"
+    - "Incorrect — a large fraction of already-emitted CO₂ would persist in the atmosphere for thousands of years due to slow deep-ocean mixing and sediment processes"
+    - "Incorrect — stopping emissions would cause atmospheric CO₂ to rise further because positive feedbacks would dominate"
+  answer: 2
+  explanation: "Carbon cycle dynamics operate on multiple timescales. The atmosphere equilibrates with the ocean surface in years, but carbon must then mix into the deep ocean over centuries to millennia via thermohaline overturning. Chemical buffering by carbonate sediments adds tens of thousands of years. Even if emissions stopped today, roughly 20–30% of already-emitted CO₂ would remain elevated for tens of thousands of years. CO₂ is not like a short-lived pollutant — its atmospheric impact is effectively cumulative and persistent."
+
+- question: "Human CO₂ emissions are approximately 10 GtC/year, but atmospheric CO₂ is rising by only about 5 GtC/year. Where is the missing carbon going?"
+  type: multiple-choice
+  options:
+    - "Atmospheric measurements systematically underestimate the true rise due to calibration errors"
+    - "Ocean and land carbon sinks are currently absorbing approximately half of human emissions — about 2.5 GtC/year each"
+    - "Volcanic outgassing is consuming half of human emissions through crustal reactions"
+    - "CO₂ is being photochemically converted to methane in the upper atmosphere, so only half registers as CO₂"
+  answer: 1
+  explanation: "The roughly 50% 'airborne fraction' is one of the most important facts in climate science. Ocean surface gas exchange and the marine biological pump absorb ~2.5 GtC/year; enhanced terrestrial photosynthesis (the CO₂ fertilization effect) absorbs another ~2.5 GtC/year. This natural buffering is why atmospheric CO₂ does not rise as fast as we emit. Critically, these sinks are not guaranteed to remain stable — warming threatens to weaken or reverse them through positive feedbacks."
+
+- question: "Because land and ocean sinks currently absorb about half of human CO₂ emissions, this airborne fraction will remain stable at roughly 50% indefinitely, providing reliable natural buffering regardless of warming."
+  type: true-false
+  answer: false
+  explanation: "This is a dangerous misconception. The natural sinks are already being weakened by warming. Warmer ocean waters hold less dissolved CO₂ (Henry's Law), reducing oceanic uptake. Stratification reduces deep-water carbon transport. Permafrost thaw releases stored carbon as CO₂ and methane. Drought and wildfire can flip terrestrial ecosystems from sinks to sources. These positive feedbacks mean the airborne fraction could increase — effectively amplifying the climate response to a given level of emissions."
+
+- question: "The TCRE (transient climate response to cumulative emissions) implies that limiting warming to a specific temperature target requires limiting total cumulative CO₂ emissions, not just the annual emission rate."
+  type: true-false
+  answer: true
+  explanation: "The TCRE describes the roughly linear relationship between cumulative total CO₂ emissions and peak warming. Because CO₂ persists in the atmosphere for centuries and the warming commitment is tied to total cumulative burden, every ton ever emitted counts against the carbon budget for any given temperature target. A low emission rate in one decade does not undo the warming commitment from prior high emissions. This is why the concept of a remaining carbon budget — total future emissions allowable to stay below 1.5°C or 2°C — is meaningful and finite."
+
+- question: "Why does the long atmospheric residence time of CO₂ make it fundamentally different from other air pollutants, and what are the policy implications?"
+  type: short-answer
+  answer: "Most air pollutants (SO₂, particulates, NOx) clear within days to weeks, so emission reductions produce rapid improvements. CO₂ is different because the relevant timescales span centuries to millennia: atmosphere-surface ocean equilibration takes years, deep ocean uptake takes centuries, and sediment buffering takes tens of thousands of years. A large fraction of CO₂ emitted today will still be elevating atmospheric concentrations millennia from now. This means warming is effectively cumulative — each ton of CO₂ adds a durable increment to atmospheric burden that cannot be quickly reversed. The policy implication is that reaching any temperature target requires staying within a total carbon budget (cumulative emissions), not merely achieving a low annual rate. Past emissions already count against the budget, and the commitment from emissions already made will continue shaping the climate for generations regardless of future action."
+  explanation: "The contrast with other pollutants is sharp and often underestimated. It also explains why carbon removal (negative emissions) is so strategically important and difficult: removing CO₂ from the atmosphere is essentially trying to run the slow timescale processes backward, which is energetically and economically costly."
+```
+
 ## Explainer
 
 From your study of anthropogenic climate forcing, you know that human activities — primarily burning fossil fuels and changing land use — add greenhouse gases to the atmosphere, altering Earth's radiative balance. The anthropogenic carbon cycle builds on this by asking a more detailed question: when we emit a ton of CO₂, where does it go, how long does it stay there, and how does the redistribution of carbon among Earth's reservoirs feed back on climate itself?

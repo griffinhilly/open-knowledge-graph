@@ -34,6 +34,45 @@ Listen to the finale of Mozart's Piano Concerto No. 21 while following a score, 
 - The refrain should return relatively intact — extensive development of the A theme within a rondo is more characteristic of sonata form.
 - Episodes in rondo are not simply 'different themes'; they typically move to related key areas and are harmonically directed back toward the refrain.
 
+## Questions
+
+```yaml
+- question: "In a Classical rondo finale, the A theme (refrain) returns three times. How should it appear on each return compared to its first statement?"
+  type: multiple-choice
+  options:
+    - "Each return should develop and transform the theme, as in the development section of sonata form"
+    - "Each return should be in a different key to maintain freshness and avoid monotony"
+    - "Each return should be relatively intact and recognizable, since its function is arrival and recognition"
+    - "The final return should be a strict literal repetition; earlier returns can be varied freely"
+  answer: 2
+  explanation: "The refrain's structural function — providing a satisfying return to 'home base' after harmonic excursions — depends on recognition. If the theme is developed or transformed beyond recognition, it cannot serve as an anchor. This distinguishes rondo from sonata form, where the first theme is dramatically developed. Option B would defeat the tonic-arrival purpose: the refrain must return in the tonic to function as resolution. The refrain can have minor ornamental variations, but its identity must be preserved."
+
+- question: "In an ABACA rondo, what typically happens at the end of each episode (B and C) before the refrain returns?"
+  type: multiple-choice
+  options:
+    - "The episode ends on a new, unrelated key to maximally contrast with the returning refrain"
+    - "A retransition — often a dominant preparation — leads back to the tonic for the refrain's return"
+    - "The episode simply stops, and the refrain begins with no harmonic preparation"
+    - "The refrain always enters in the wrong key first, then modulates to the tonic as a surprise effect"
+  answer: 1
+  explanation: "Episodes in rondo are harmonically directed: they move to related keys but are structured to return to the tonic. A retransition — typically built on the dominant or dominant seventh — prepares the refrain's tonic arrival and makes it feel inevitable rather than arbitrary. This is where the compositional skill of transitions and bridge writing (a prerequisite) directly applies. An unprepared cut back to the refrain feels jarring; a well-crafted retransition generates anticipation."
+
+- question: "In a Classical rondo finale, each successive return of the refrain tends to feel more conclusive and satisfying than the previous one."
+  type: true-false
+  answer: true
+  explanation: "With each episode, the listener travels further from the tonic in harmonic space. Each return of the refrain is experienced relative to the distance just traveled — the further the excursion, the more satisfying the return. This cumulative effect is a primary reason rondo form became the preferred finale structure in Classical concertos and symphonies: successive returns generate escalating momentum and a growing sense of celebration."
+
+- question: "Rondo episodes are typically in the tonic key, providing contrast through changes in texture and rhythm rather than through harmonic distance."
+  type: true-false
+  answer: false
+  explanation: "Rondo episodes provide contrast primarily through harmonic movement to *related but different* key areas. In a major-key rondo, B typically moves to the dominant or relative minor; C may explore a more remote key. Moving away from the tonic is what gives the refrain's return its sense of arrival — without harmonic distance, there is nothing to 'return' from. Textural and rhythmic contrast are secondary; harmonic contrast is the structural engine of the form."
+
+- question: "Why must the rondo refrain remain recognizable across multiple hearings, and what structural function does this recognizability serve?"
+  type: short-answer
+  answer: "The refrain functions as a harmonic and psychological home base. After each episode has led the listener into foreign key areas, the refrain's return provides a satisfying sense of orientation and arrival. This effect depends entirely on recognition — listeners must immediately identify 'we're home' when the theme returns. A refrain too transformed to be recognized cannot provide this orientation. The pleasure of rondo derives from the contrast between unfamiliar harmonic territory (episodes) and the familiar anchor (refrain), so preserving the refrain's identity is not a constraint but the source of the form's expressive power."
+  explanation: "This question gets at the difference between rondo and sonata form. In sonata, development and transformation of themes is the point. In rondo, stability of the refrain is the point. Understanding this structural logic helps composers make appropriate choices: develop material in episodes if you want, but keep the refrain recognizable or you've abandoned the form's fundamental mechanism."
+```
+
 ## Explainer
 
 You already know **binary and ternary form** — the simplest ways to organize musical sections into two or three parts. Rondo extends this logic outward. Where ternary form gives you ABA (statement, contrast, return), rondo multiplies the contrasts while keeping the A theme as a recurring anchor. The most common patterns are ABACA (five-part rondo) and ABACABA (seven-part rondo). The letter A is called the **refrain**; B and C are **episodes**. Every time the refrain returns, it functions as a moment of arrival and re-orientation — home base after an excursion.

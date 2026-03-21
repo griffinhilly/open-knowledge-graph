@@ -32,6 +32,45 @@ Sketch refrigeration cycles on P-h and T-s diagrams, locating the evaporator, co
 - Higher COP always indicates better performance; COP alone does not account for heat exchanger size, compressor reliability, or refrigerant environmental impact.
 - The cooling effect Q_in comes from an ideal, perfect evaporator; real evaporators operate at finite superheat to ensure liquid refrigerant doesn't reach the compressor.
 
+## Questions
+
+```yaml
+- question: "A refrigeration system removes 5 kJ from a cold space and rejects 7 kJ to the warm surroundings per cycle. What is its coefficient of performance?"
+  type: multiple-choice
+  options:
+    - "COP = 7/5 = 1.4"
+    - "COP = 5/2 = 2.5"
+    - "COP = 5/7 ≈ 0.71"
+    - "COP = 7/2 = 3.5"
+  answer: 1
+  explanation: "COP for refrigeration = Q_cold / W_net. By the first law, W_net = Q_hot − Q_cold = 7 − 5 = 2 kJ. Therefore COP = 5/2 = 2.5. Option A (7/5 = 1.4) is the common error of using Q_hot in the numerator — this confuses the refrigeration COP with the heat pump COP (COP_HP = Q_hot/W_net). The refrigeration COP counts only the useful effect: heat removed from the cold space."
+
+- question: "A refrigeration engineer raises the condenser temperature from 30°C to 45°C to reject heat more quickly. The evaporator remains at −10°C. What happens to the Carnot COP?"
+  type: multiple-choice
+  options:
+    - "Carnot COP increases — higher rejection temperature improves thermodynamic efficiency"
+    - "Carnot COP decreases — the temperature difference between hot and cold reservoirs increases, requiring more work per unit of heat pumped"
+    - "Carnot COP is unchanged — the formula depends only on the cold reservoir temperature"
+    - "Carnot COP increases marginally because the compressor achieves higher pressure ratios"
+  answer: 1
+  explanation: "Carnot COP = T_cold / (T_hot − T_cold). Raising T_hot from 303 K to 318 K: original COP = 263/(303−263) = 263/40 = 6.6; new COP = 263/(318−263) = 263/55 = 4.8. A wider temperature gap requires more work per unit of heat pumped uphill. Rejecting heat at a higher temperature is not more efficient thermodynamically — it may allow a smaller condenser, but always at a cost in COP."
+
+- question: "Real vapor-compression refrigerators have lower COPs than the Carnot ideal primarily because real compressors consume more work than an ideal isentropic compressor would."
+  type: true-false
+  answer: false
+  explanation: "Compressor irreversibility does reduce COP, but the dominant sources of inefficiency in most real systems are the finite temperature differences required in the evaporator and condenser. The refrigerant must be colder than the food (evaporator) and hotter than the room (condenser) for heat to flow. These required ΔTs widen the effective temperature gap the cycle spans beyond the nominal reservoir temperatures, directly reducing COP relative to the Carnot ideal. Throttling irreversibility is another major loss. Compressor inefficiency is real but typically not the single dominant factor."
+
+- question: "The Carnot COP formula T_cold / (T_hot − T_cold) implies that a refrigeration cycle operating between temperatures close together is more efficient than one operating across a large temperature difference."
+  type: true-false
+  answer: true
+  explanation: "As (T_hot − T_cold) → 0, COP_Carnot → ∞. Physically, a tiny temperature difference means the thermodynamic 'hill' that heat must be pumped up is nearly flat — very little work is required. Maintaining a very cold space (large temperature gap) requires much more work per unit of heat pumped. This is why industrial freezers at −80°C are far less efficient than household refrigerators at 4°C, and why using larger heat exchangers (which reduce required ΔTs) directly improves COP."
+
+- question: "Why does the Carnot COP formula predict that refrigeration becomes more efficient as the temperature difference between reservoirs decreases? Explain the physical reasoning, not just the algebra."
+  type: short-answer
+  answer: "Heat naturally flows from hot to cold; forcing it to flow from cold to hot requires overcoming an entropy gradient. Removing Q_cold from the cold reservoir decreases its entropy by Q_cold/T_cold. To satisfy the second law, the warm reservoir's entropy must increase by at least as much: Q_hot/T_hot ≥ Q_cold/T_cold, giving Q_hot ≥ Q_cold × (T_hot/T_cold). The required work W = Q_hot − Q_cold ≥ Q_cold × (T_hot − T_cold)/T_cold. A larger temperature ratio means rejecting proportionally more heat to the warm side than you extract from the cold side — hence more work per unit of cooling. COP = Q_cold/W ≤ T_cold/(T_hot − T_cold)."
+  explanation: "The physical insight is that refrigeration pays an entropy tax: to move entropy from cold to hot, external work must supply additional entropy to keep the total non-decreasing. A steeper temperature gradient demands a larger entropy tax. Minimizing the temperature difference minimizes the tax, which is why engineers obsess over heat exchanger approach temperatures — every degree of unnecessary ΔT in the condenser or evaporator costs real compressor work."
+```
+
 ## Explainer
 
 From the second law of thermodynamics you know that heat spontaneously flows from hot to cold — never the reverse. A refrigeration cycle forces heat to flow the "wrong" way: from the cold interior of a refrigerator to the warm kitchen. This is not a violation of the second law; it only happens because you supply work. The **coefficient of performance** quantifies how much cooling you get per unit of work supplied: **COP = Q_cold / W_net**, where Q_cold is the heat removed from the cold reservoir and W_net is the net compressor work input. By the first law, Q_hot = Q_cold + W_net, so the cycle simultaneously removes heat from the cold space and rejects more heat to the warm surroundings.

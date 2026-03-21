@@ -32,6 +32,45 @@ Compare 70S and 80S ribosomal structures and their assembly. Study the clinical 
 - Assuming prokaryotic ribosomes are 'simpler' than eukaryotic ones; both perform the same chemical catalysis, just with different accessory factors.
 - Thinking all antibiotics target the prokaryotic ribosome equally; specificity varies greatly by antibiotic class and ribosomal region.
 
+## Questions
+
+```yaml
+- question: "An antibiotic binds specifically to the decoding center of the bacterial 30S ribosomal subunit, causing miscoding. Why does this selectively harm bacteria without significantly damaging human cells at therapeutic concentrations?"
+  type: multiple-choice
+  options:
+    - "Human cells lack ribosomes in the cytoplasm, so the drug cannot reach its target"
+    - "The 30S subunit has prokaryote-specific rRNA conformations at the binding site that differ from the eukaryotic 40S subunit structure"
+    - "Human cells can expel the antibiotic before it reaches the ribosome"
+    - "The antibiotic is too large to cross the eukaryotic nuclear envelope to reach ribosomes"
+  answer: 1
+  explanation: "Selectivity arises from structural differences between the 30S and 40S subunit rRNA. Aminoglycosides, for example, bind to a specific site in the 16S rRNA of the 30S subunit where the rRNA conformation is different from the corresponding region in eukaryotic 18S rRNA. This structural difference is why the drug fits the bacterial target well but fits the human target poorly — providing the therapeutic window. This is the molecular basis for selective toxicity, and why ribosomal RNA mutations at these sites are a major mechanism of antibiotic resistance."
+
+- question: "What unique feature of prokaryotic cell organization makes coupled transcription-translation possible, and why is this impossible in eukaryotes?"
+  type: multiple-choice
+  options:
+    - "Prokaryotic ribosomes are smaller, so they can fit into the narrow space alongside RNA polymerase"
+    - "Prokaryotic mRNAs lack 5' caps, so ribosomes can bind before transcription is complete"
+    - "The absence of a nuclear envelope means ribosomes can access the nascent mRNA while RNA polymerase is still transcribing it"
+    - "Prokaryotes have a single circular chromosome, placing all genes near the ribosomes"
+  answer: 2
+  explanation: "In eukaryotes, transcription occurs in the nucleus and translation occurs in the cytoplasm — the nuclear envelope physically separates the two processes. mRNA must be processed, capped, polyadenylated, and exported before ribosomes can access it. In prokaryotes, the absence of a nuclear envelope means ribosomes can attach to the nascent mRNA transcript as soon as the 5' end emerges from RNA polymerase, while the polymerase is still transcribing the 3' end. This coupling has functional consequences for gene regulation and speeds up protein production."
+
+- question: "Prokaryotic ribosomes perform a fundamentally simpler version of peptidyl transferase catalysis than eukaryotic ribosomes, reflecting their simpler cellular organization."
+  type: true-false
+  answer: false
+  explanation: "The catalytic mechanism of peptide bond formation is conserved between prokaryotic and eukaryotic ribosomes. In both cases, the peptidyl transferase center is located in the large subunit (50S in prokaryotes, 60S in eukaryotes) and is composed of rRNA — the 23S rRNA in bacteria and 28S rRNA in eukaryotes. The ribosome is a ribozyme in both domains of life. Structural differences are in accessory elements, initiation factors, and regulation — not in the core chemistry. The misconception that prokaryotic ribosomes are simpler often conflates 'smaller' with 'less sophisticated.'"
+
+- question: "The Shine-Dalgarno sequence in prokaryotic mRNA base-pairs with the 16S rRNA of the 30S subunit to position the start codon at the ribosome's P site."
+  type: true-false
+  answer: true
+  explanation: "The Shine-Dalgarno (SD) sequence is a purine-rich stretch (consensus: 5'-AGGAGG-3') located about 5-10 nucleotides upstream of the AUG start codon. It base-pairs with a complementary sequence near the 3' end of 16S rRNA in the 30S subunit. This interaction positions the start codon precisely at the peptidyl (P) site, where the initiator fMet-tRNA can bind. This mechanism is uniquely prokaryotic — eukaryotes use 5' cap recognition and ribosome scanning to find the start codon instead."
+
+- question: "Why are bacterial ribosomes valuable antibiotic targets, and what structural features enable drugs to selectively inhibit bacterial protein synthesis without harming human protein synthesis?"
+  type: short-answer
+  answer: "Bacterial ribosomes are 70S particles (30S + 50S subunits) while human cytoplasmic ribosomes are 80S (40S + 60S). These structural differences — in rRNA sequences, rRNA folding, and ribosomal protein composition — create binding sites on the bacterial ribosome that either are absent or have different shapes in the human ribosome. Drugs like aminoglycosides (bind 30S decoding center), tetracyclines (block aminoacyl-tRNA entry to 30S A site), and macrolides (block the 50S peptide exit tunnel) all exploit prokaryote-specific structural features. Mutations in these binding sites confer resistance by preventing drug binding."
+  explanation: "The principle of selective toxicity requires that the drug target be structurally different enough between pathogen and host that a drug can distinguish them. The 30S/50S vs. 40S/60S difference is large enough to be exploited pharmacologically. Resistance arises when bacterial rRNA or ribosomal proteins mutate at drug contact sites, making the bacterial ribosome more like the eukaryotic one in that specific region."
+```
+
 ## Explainer
 
 From your study of ribosome structure and peptidyl transferase activity, you know that ribosomes are RNA-protein machines that decode mRNA and catalyze peptide bond formation. Prokaryotic ribosomes perform exactly the same fundamental chemistry as eukaryotic ones, but they differ enough in structure, assembly, and regulation to create crucial opportunities for selective antibiotic targeting. Understanding these differences is the bridge between basic molecular biology and clinical medicine.

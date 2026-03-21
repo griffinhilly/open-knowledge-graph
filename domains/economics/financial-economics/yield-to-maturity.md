@@ -31,6 +31,45 @@ Use trial and error or a financial calculator to find YTM for a given price, the
 - YTM equals the coupon rate only when the bond trades at par; for a discounted bond, YTM exceeds the coupon rate.
 - YTM is not a guaranteed return — it depends on the reinvestment rate assumption and on holding to maturity without default.
 
+## Questions
+
+```yaml
+- question: "Bond A has a 3% coupon and is trading at $920 (below par). Bond B has a 6% coupon and is trading at $1,060 (above par). Both have the same maturity. Which bond has the higher yield to maturity?"
+  type: multiple-choice
+  options:
+    - "Bond B, because it pays a higher coupon rate each year"
+    - "Bond A, because it trades at a discount and the price will appreciate to par at maturity"
+    - "They have the same YTM because bonds with the same maturity always yield the same"
+    - "Bond B, because investors prefer higher coupon payments"
+  answer: 1
+  explanation: "YTM captures total return — coupon income plus any capital gain or loss. Bond A trades at a discount ($920 vs $1,000 par), so the investor receives capital appreciation to par at maturity in addition to coupons, pushing YTM above the 3% coupon rate. Bond B trades at a premium ($1,060 vs $1,000), so the investor suffers a capital loss as the price falls to par, dragging YTM below the 6% coupon rate. The common misconception is judging bonds by coupon rate alone, ignoring the effect of purchase price on total return."
+
+- question: "An investor buys a 10-year bond at YTM = 6% and plans to hold it to maturity, but market rates fall to 3% after year 2 and coupons are reinvested at 3% for the remaining 8 years. Their realized return will be:"
+  type: multiple-choice
+  options:
+    - "Exactly 6%, because YTM is locked in at purchase and guaranteed"
+    - "Above 6%, because falling rates increase the bond's market price"
+    - "Below 6%, because the reinvestment rate assumption embedded in YTM was not met"
+    - "Exactly 3%, because realized return equals the current reinvestment rate"
+  answer: 2
+  explanation: "YTM assumes every coupon is reinvested at the YTM rate (6%) for the remaining life of the bond. If coupons are actually reinvested at 3%, the compounding effect on reinvested income is lower than YTM assumed, and realized return falls short of 6%. YTM is a theoretical return under a specific (often unrealistic) assumption — not a guaranteed outcome. For long-maturity, high-coupon bonds, reinvestment income is a large fraction of total return, making realized return especially sensitive to the path of rates."
+
+- question: "When a bond trades at a discount — below its par value — its yield to maturity is higher than its coupon rate."
+  type: true-false
+  answer: true
+  explanation: "A bond trading at a discount means investors pay less than they will receive at maturity (par). The difference between purchase price and par is capital appreciation — an additional component of return on top of coupon income. YTM accounts for this by solving for the single discount rate that equates the discounted value of all cash flows to the purchase price. Because the price is lower (and the investor receives more at maturity relative to what they paid), YTM must exceed the coupon rate to balance the equation."
+
+- question: "YTM is essentially the same as the coupon rate — it just adjusts the coupon payments for inflation."
+  type: true-false
+  answer: false
+  explanation: "YTM and coupon rate are completely different concepts. The coupon rate is set at issuance as a percentage of face value and never changes. YTM is the discount rate implied by the current market price — it changes every time the bond's price changes. YTM equals the coupon rate only when the bond trades at exactly par. YTM has nothing to do with inflation adjustment (that would be the real yield or TIPS-related concepts). YTM is the bond's internal rate of return given its current market price."
+
+- question: "Why do bond prices and yields always move in opposite directions? Explain the mechanism, not just the rule."
+  type: short-answer
+  answer: "Bond cash flows — coupons and face value — are fixed in dollar terms at issuance. A bond's price equals the present value of those fixed cash flows discounted at the market yield. When market yields rise, the same fixed cash flows are discounted at a higher rate, producing a lower present value (lower price). When yields fall, the same flows discounted at a lower rate produce a higher present value (higher price). This is a mathematical identity from the bond pricing formula: P = Σ C/(1+r)^t + F/(1+r)^T. As r increases, every denominator gets larger, so P must decrease. Price and yield are inversely linked by the structure of discounting."
+  explanation: "The inverse relationship is not a market convention or an empirical pattern — it is a direct mathematical consequence of discounted cash flow valuation applied to fixed future payments. Understanding this from first principles makes bond market dynamics (flight-to-quality driving prices up and yields down, rate hike fears driving prices down) immediately intuitive."
+```
+
 ## Explainer
 
 From bond pricing, you know that a bond's price equals the present value of its future cash flows — coupon payments and face value — discounted at a rate r: P = Σ C/(1+r)^t + F/(1+r)^T. In that framework, r is given and you compute P. **Yield to maturity** inverts this: you observe the market price P and solve for the discount rate r that makes the equation hold. YTM is the bond's **internal rate of return** — the single annualized rate that equates the bond's cost to the present value of everything it will pay you if held to maturity.

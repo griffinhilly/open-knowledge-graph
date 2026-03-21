@@ -31,6 +31,45 @@ Map the actual institutional relationships in several countries across president
 - Separation of powers does not mean the branches never interact; in fact, the system depends on constant negotiation and mutual constraint between them.
 - Parliamentary systems are not less democratic than presidential ones; they often have stronger accountability mechanisms through votes of confidence.
 
+## Questions
+
+```yaml
+- question: "The U.S. Congress passes a major spending bill, the president vetoes it, and the government partially shuts down. From the perspective of separation-of-powers theory, this situation is best described as:"
+  type: multiple-choice
+  options:
+    - "A failure of the constitutional design, since the branches are unable to cooperate"
+    - "Evidence that the system needs reform to reduce inter-branch conflict"
+    - "The separation of powers working as designed — friction between branches prevents rapid concentration of power"
+    - "Proof that presidential systems are less democratic than parliamentary systems"
+  answer: 2
+  explanation: "Government shutdowns and gridlock are features, not bugs, of the presidential system. The framers intentionally built friction into the design: by requiring cooperation between separately elected branches, the system prevents any single actor from rapidly accumulating or exercising unchecked power. Parliamentary systems avoid such gridlock precisely because they fuse executive and legislative power — but they sacrifice the structural tensions that prevent hasty governance. Treating deadlock as failure misunderstands the purpose of 'separated institutions sharing powers.'"
+
+- question: "Which feature most fundamentally distinguishes a parliamentary system from a presidential system?"
+  type: multiple-choice
+  options:
+    - "Parliamentary systems have written constitutions while presidential systems rely on unwritten conventions"
+    - "In parliamentary systems the executive emerges from and remains accountable to the legislature, while in presidential systems they are separately elected"
+    - "Presidential systems feature judicial review while parliamentary systems do not"
+    - "Parliamentary systems concentrate power in the head of state, while presidential systems distribute it across branches"
+  answer: 1
+  explanation: "The defining structural difference is the relationship between executive and legislative power. In a parliamentary system, the prime minister and cabinet emerge from the parliamentary majority and can be removed through a vote of no confidence — the executive is accountable to the legislature at all times. In a presidential system (US model), the executive and legislature have distinct electoral bases and cannot remove each other through normal legislative processes. This fusion vs. separation of origin determines the system's incentive structure, party discipline, and accountability mechanisms."
+
+- question: "Separation of powers means the three branches of government operate independently and should avoid interfering in each other's functions."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about separation of powers. The American system is better described as 'separated institutions *sharing* powers' — the branches are designed to interact constantly. The president proposes budgets, Congress passes them, courts can invalidate them. The Senate confirms executive appointments. Congress can override presidential vetoes. These are not failures of separation but the very mechanisms of checks and balances. Separation refers to the distinct *mandates and electoral bases* of the branches, not to their isolation from one another."
+
+- question: "In a parliamentary system, the legislature can remove the executive through a vote of no confidence."
+  type: true-false
+  answer: true
+  explanation: "A vote of no confidence is the defining accountability mechanism of parliamentary systems. If the prime minister loses the confidence of the parliamentary majority — because of a policy failure, scandal, or coalition collapse — they must resign and a new government is formed (or elections are called). This creates strong accountability in one direction: the executive depends on maintaining legislative support to govern. Presidential systems lack this mechanism; a president cannot normally be removed except through the more extreme process of impeachment, which is why accountability operates differently in presidential systems."
+
+- question: "Why did the designers of constitutions like the US one intentionally build in friction and the potential for gridlock between the branches of government?"
+  type: short-answer
+  answer: "The designers feared the concentration of power more than they feared inefficiency. By distributing governmental authority across branches with different constituencies and different terms, and by giving each branch tools to block or constrain the others, they created a system where no single actor can rapidly consolidate power without gaining the acquiescence of the others. Gridlock is the cost of this design; the benefit is that sudden, radical, or tyrannical uses of power are made structurally difficult."
+  explanation: "This connects directly to the historical context: the framers had experienced both royal tyranny and the chaos of unchecked legislative power under the Articles of Confederation. The checks-and-balances design accepts governance inefficiency as the price of preventing any single faction from capturing the entire government. Understanding this trade-off is essential for evaluating both the strengths and weaknesses of presidential systems compared to parliamentary alternatives."
+```
+
 ## Explainer
 
 Your study of constitutionalism introduced the idea that government authority is not absolute — it is bounded by a fundamental law that stands above ordinary legislation. But knowing that a constitution limits government raises a practical question: what stops those in power from simply ignoring constitutional constraints? The separation of powers is the structural answer. By distributing governmental functions across distinct institutions — **legislative** (making law), **executive** (enforcing law), and **judicial** (interpreting law) — a constitution creates multiple power centers, each with its own mandate, constituency, and self-interest in defending its turf.

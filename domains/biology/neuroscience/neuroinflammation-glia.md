@@ -30,6 +30,45 @@ Image microglial morphology during activation. Measure cytokine production using
 ## Common Misconceptions
 Microglia are immune cells invading the brain—they're resident. Inflammation is always bad—appropriate inflammation is needed for repair.
 
+## Questions
+
+```yaml
+- question: "A patient develops a bacterial brain abscess. Microglia at the site become activated, adopt an amoeboid morphology, and begin producing TNF-alpha and reactive oxygen species. How should this response be characterized?"
+  type: multiple-choice
+  options:
+    - "This is always pathological and represents the early stage of neurodegeneration"
+    - "This is an acute protective response — clearing infection and debris — that would become destructive if sustained chronically"
+    - "This represents peripheral macrophages infiltrating through the blood-brain barrier in response to the infection"
+    - "TNF-alpha and ROS production is unique to chronic neurodegeneration and should not occur during acute bacterial infection"
+  answer: 1
+  explanation: "Acute microglial activation is protective: phagocytosis, cytokine production, and ROS generation are essential for clearing pathogens and debris. The same mechanisms become destructive only when chronically sustained — TNF-alpha and ROS that kill bacteria in the short term damage healthy neurons and oligodendrocytes when produced continuously. Option C is wrong because microglia are *resident* cells that colonized the brain in early development, not peripheral macrophages that cross the barrier."
+
+- question: "Which of the following correctly describes the developmental origin of microglia and why it matters?"
+  type: multiple-choice
+  options:
+    - "Microglia originate from neural progenitor cells in the ventricular zone during brain development"
+    - "Microglia develop from yolk sac macrophage precursors that colonize the brain early in embryogenesis and remain resident for life"
+    - "Microglia are neurons that have differentiated into an immune-like surveillance state in response to injury"
+    - "Microglia are continuously replenished from circulating monocytes that cross the blood-brain barrier throughout adult life"
+  answer: 1
+  explanation: "Microglia are derived from yolk sac macrophage precursors — not from neural tissue — that colonize the brain during early development and self-renew in situ throughout life. This origin distinguishes them from all other glial cells (which are neural-lineage) and explains why they function as the brain's immune cell population. It also means they are residents, not invaders — a key distinction that shapes how we interpret their activation in disease."
+
+- question: "Chronic microglial activation is neuroprotective because microglia are the brain's immune defense, and continuous surveillance prevents neuronal damage."
+  type: true-false
+  answer: false
+  explanation: "Acute microglial activation is protective, but chronic activation is destructive. The cytokines (TNF-alpha, IL-1beta) and reactive oxygen species that clear pathogens acutely become neurotoxic when produced continuously. Chronically elevated TNF-alpha promotes excitotoxicity; chronic IL-1beta impairs synaptic plasticity; chronic ROS damages neuronal DNA and membranes. Chronic neuroinflammation is now recognized as a central feature of neurodegeneration in Alzheimer's, Parkinson's, and ALS."
+
+- question: "Activated microglia can drive astrocytes into a reactive state that amplifies and sustains neuroinflammation beyond what microglia alone would produce."
+  type: true-false
+  answer: true
+  explanation: "Activated microglia release cytokines and other signals that push astrocytes into reactive astrogliosis. Reactive astrocytes lose their normal supportive functions (glutamate buffering, potassium homeostasis, BBB maintenance) and begin secreting additional inflammatory mediators. This creates a microglia-astrocyte feedforward loop that can sustain inflammation even after the initial trigger is removed — contributing to the self-perpetuating cycle seen in neurodegenerative disease."
+
+- question: "Why is neuroinflammation not simply 'bad'? Describe the conditions under which it is protective versus when it becomes destructive."
+  type: short-answer
+  answer: "Acute neuroinflammation is protective: activated microglia phagocytose debris and pathogens, produce cytokines that coordinate the immune response, and initiate tissue repair. This acute response is necessary and beneficial. The same mechanisms become destructive when sustained chronically — TNF-alpha and ROS that kill pathogens in the short term damage healthy neurons and oligodendrocytes when produced for weeks or months. The key variable is duration and context: a brief, localized response resolves and heals, while chronic activation enters a self-perpetuating cycle where neuronal damage triggers more microglial activation, causing more damage."
+  explanation: "This is why therapeutic approaches targeting neuroinflammation must be carefully calibrated — blocking all inflammation would impair the brain's ability to respond to injury, while failing to resolve chronic inflammation perpetuates neurodegeneration. The same molecular players (TNF-alpha, ROS) play opposite functional roles depending on timing."
+```
+
 ## Explainer
 
 From your study of glial cells, you know that the brain contains far more than just neurons — glial cells provide structural support, insulate axons, regulate the extracellular environment, and maintain the blood-brain barrier. Among these, **microglia** stand apart: they are the brain's resident immune cells, derived not from neural tissue but from yolk sac macrophage precursors that colonize the brain early in development and remain there for life. In the healthy brain, microglia exist in a "surveilling" state, extending and retracting long, branching processes that continuously sample the local environment for signs of damage, infection, or abnormal cellular debris.

@@ -32,6 +32,45 @@ Study 2-3 undecidable problems and their reduction relationships. The Post Corre
 - Assuming all undecidable problems are variants of the Halting Problem. Many arise from independent domains.
 - Thinking undecidability is rare; it is pervasive.
 
+## Questions
+
+```yaml
+- question: "The Post Correspondence Problem (PCP) is about matching string sequences from two lists. Why is its undecidability particularly significant?"
+  type: multiple-choice
+  options:
+    - "It shows that even problems about Turing machines are unsolvable in general"
+    - "It demonstrates undecidability in a purely string-matching puzzle with no programs or machines in its statement"
+    - "It proves that no practical string algorithms can exist for modern compilers"
+    - "It is a harder version of the Halting Problem that applies only to infinite alphabets"
+  answer: 1
+  explanation: "PCP involves no programs, machines, or computation — just lists of string pairs and the question of whether indices can be chosen so both concatenations match. Its undecidability shows that computational limits are not confined to problems about computation itself. The proof works by encoding Turing machine computation histories as PCP instances, but the problem statement is purely combinatorial. This is what makes it a powerful intermediate lemma: proving something reduces to PCP proves it's undecidable without mentioning Turing machines directly."
+
+- question: "A compiler engineer proposes building a tool that checks every context-free grammar in their language suite for ambiguity before release. This proposal is:"
+  type: multiple-choice
+  options:
+    - "Feasible — grammar ambiguity can be checked by parsing all strings up to some length"
+    - "Infeasible in general — grammar ambiguity is undecidable, so no algorithm can solve this for all grammars"
+    - "Feasible only for grammars with fewer than 100 production rules"
+    - "Infeasible because context-free grammars are not Turing-complete"
+  answer: 1
+  explanation: "Grammar ambiguity — whether some string has two distinct parse trees — is undecidable for context-free grammars, proved by reduction from PCP. No algorithm can correctly decide ambiguity for all grammars. Checking finite test inputs cannot work: a grammar might be unambiguous on all strings up to any given length yet ambiguous for some longer string. The common misconception is that exhaustive testing can serve as a decision procedure; for undecidable problems it cannot, regardless of how many cases are checked."
+
+- question: "Undecidability only arises in problems that are explicitly about programs and Turing machines. Natural mathematical problems — like solving polynomial equations — are always decidable."
+  type: true-false
+  answer: false
+  explanation: "Hilbert's Tenth Problem — determining whether a polynomial Diophantine equation has integer solutions — is undecidable, despite being a purely number-theoretic question with no mention of programs or machines. The proof encodes Turing machine computation into Diophantine equations, showing that the set of solvable instances can represent any recursively enumerable set. Undecidability pervades mathematics; it appears in number theory, formal language theory, logic, and tiling problems — not just problems about computation."
+
+- question: "The membership problem for context-free grammars (given grammar G and string w, is w in L(G)?) is decidable, even though grammar ambiguity is not."
+  type: true-false
+  answer: true
+  explanation: "Decidability is not uniform across all questions about a class of objects. Whether a string belongs to a context-free language is decidable (e.g., by the CYK algorithm). But whether a context-free grammar is ambiguous is not decidable — there is no algorithm that can answer this for all grammars. This contrast illustrates that undecidability is fine-grained: even within simple computational classes, some questions are decidable and others are not."
+
+- question: "How is the undecidability of a new problem typically established, and why does this method work even for problems that seem to have nothing to do with computation?"
+  type: short-answer
+  answer: "Undecidability is typically established by reduction: showing that if an algorithm existed for the new problem, it could be used to decide the Halting Problem (or another known undecidable problem). Reductions encode computation histories or machine behavior into instances of the new problem. This works even for non-computational problems — like Diophantine equations or grammar ambiguity — because any question powerful enough to capture the behavior of arbitrary computations inherits undecidability. The new problem doesn't need to look like a computing problem; it just needs to be expressive enough to simulate one."
+  explanation: "The reduction method is the core proof technique: if problem B is undecidable and B reduces to A (any algorithm for A would solve B), then A is also undecidable. PCP, grammar ambiguity, and Hilbert's Tenth are all established this way. The surprising reach of undecidability comes from the fact that many natural mathematical structures — strings, polynomials, grammars — are expressive enough to encode arbitrary computation."
+```
+
 ## Explainer
 
 The Halting Problem proved that no Turing machine can decide, for all pairs (M, w), whether machine M halts on input w. Rice's theorem extended this: no machine can decide any non-trivial semantic property of programs. But undecidability is not merely a feature of computing about computing — it appears throughout mathematics in domains that seem to have nothing to do with Turing machines.

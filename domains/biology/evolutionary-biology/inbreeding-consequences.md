@@ -29,6 +29,45 @@ Draw pedigrees and calculate inbreeding coefficients. Compare fitness loss acros
 - Inbreeding itself is harmful; it reveals the genetic load (deleterious recessive alleles) that was hidden in heterozygotes.
 - Only animals experience inbreeding depression; plants with self-fertilization and clonal organisms also show strong depression.
 
+## Questions
+
+```yaml
+- question: "A captive breeding program for an endangered species carefully pairs individuals with low pedigree relatedness. The primary goal of this practice is to:"
+  type: multiple-choice
+  options:
+    - "Increase the rate of beneficial mutations by maximizing genetic diversity"
+    - "Prevent deleterious recessive alleles from reaching homozygosity, thereby avoiding inbreeding depression"
+    - "Reduce competition between related individuals for food and territory"
+    - "Ensure phenotypic uniformity for consistent fitness in the reintroduction environment"
+  answer: 1
+  explanation: "The central risk of inbreeding is exposing the population's genetic load — the deleterious recessive alleles that were masked in heterozygotes. By pairing unrelated individuals, managers keep those alleles in heterozygous form where they are harmless. Option A misidentifies the mechanism (inbreeding doesn't affect mutation rates); option C describes a behavioral concern, not genetic; option D gets the goal backwards — managers often want phenotypic variation."
+
+- question: "A population of self-fertilizing plants has maintained very high inbreeding coefficients for hundreds of generations but shows minimal inbreeding depression. The most likely explanation is:"
+  type: multiple-choice
+  options:
+    - "Self-fertilization is a different mechanism from true inbreeding and doesn't expose recessive alleles"
+    - "Plants lack the immune and reproductive systems through which inbreeding depression manifests"
+    - "Repeated exposure of recessive alleles to selection over many generations has purged the most severely deleterious ones"
+    - "Inbreeding depression only affects diploid species with sexual reproduction, not self-fertilizing plants"
+  answer: 2
+  explanation: "Purging is a real evolutionary phenomenon: when inbreeding repeatedly exposes deleterious recessives to homozygosity, selection removes the most harmful alleles over generations. A population with a long history of inbreeding may have a greatly reduced genetic load. Self-fertilizing plants absolutely can experience inbreeding depression (option A is false); plants do show depression in survival and fertility (B is false); inbreeding depression affects all diploids (D is false)."
+
+- question: "Inbreeding depression occurs because mating between relatives creates new harmful mutations that were not present in the population before."
+  type: true-false
+  answer: false
+  explanation: "Inbreeding does not generate new mutations. Inbreeding depression occurs because mating between relatives increases the probability that offspring inherit the same allele from both parents (identity by descent), exposing previously hidden deleterious recessive alleles that were masked in heterozygotes. The harmful alleles were already present in the population — inbreeding merely reveals the existing genetic load. This distinction is crucial: a population with a smaller genetic load will show less depression, regardless of inbreeding level."
+
+- question: "The coefficient of inbreeding (F) measures the probability that an individual carries two alleles at a given locus that are identical by descent — both physical copies of the same ancestral allele."
+  type: true-false
+  answer: true
+  explanation: "This is the precise definition. F is not about allele frequency similarity or phenotypic resemblance to relatives; it is specifically the probability of identity by descent (IBD). Two alleles are IBD if they trace back through the pedigree to the same single ancestral copy. For first-cousin offspring, F = 1/16; for sibling offspring, F = 1/4. Crucially, alleles can be the same variant (e.g., both 'A') without being IBD if they came from different ancestral copies."
+
+- question: "Why does inbreeding increase the expression of fitness-reducing traits, and why does the severity of inbreeding depression vary between populations with the same level of inbreeding?"
+  type: short-answer
+  answer: "Inbreeding increases homozygosity at all loci, including those carrying deleterious recessive alleles. In heterozygotes, one functional allele masks the defective one; in homozygotes, the harmful phenotype is expressed. The severity of depression depends on the population's genetic load — the number and effect size of deleterious recessives present. Populations that have been inbreeding for many generations may have purged severe recessives through selection, leaving a reduced load; populations with a history of large, outbreeding size may carry many hidden deleterious alleles that only become exposed under inbreeding."
+  explanation: "The key insight is that inbreeding acts as a revealer, not a creator, of genetic harm. Two populations with identical F values can show dramatically different levels of depression depending on their evolutionary history. This is why some naturally self-fertilizing species tolerate high inbreeding with little apparent cost, while others suffer severe decline."
+```
+
 ## Explainer
 
 Every individual carries a hidden burden of **deleterious recessive alleles** — mutations that reduce fitness but remain masked in heterozygotes because one functional copy of the gene is enough. In large, randomly mating populations, most individuals are heterozygous at these loci, and the harmful alleles stay invisible. Inbreeding changes this equation. When relatives mate, they share recent common ancestors, which means they are likely to carry copies of the same alleles inherited from those ancestors. Their offspring therefore have a much higher chance of receiving two identical copies — becoming homozygous — and when both copies are the broken version, the deleterious phenotype appears. This is **inbreeding depression**: the decline in average fitness that accompanies increased homozygosity.

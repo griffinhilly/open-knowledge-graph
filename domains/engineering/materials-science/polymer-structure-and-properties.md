@@ -36,6 +36,45 @@ Compare the properties of HDPE (high crystallinity), LDPE (low crystallinity due
 - Polymers are never 100% crystalline; crystalline regions coexist with amorphous regions even in highly ordered semicrystalline polymers.
 - Molecular weight and chain length are the same concept — longer chains increase Tg, melt viscosity, and mechanical strength.
 
+## Questions
+
+```yaml
+- question: "HDPE and LDPE are both polyethylene — chemically identical repeating units — yet HDPE is stiffer and more opaque while LDPE is more flexible and translucent. What best explains this difference?"
+  type: multiple-choice
+  options:
+    - "HDPE monomers contain different functional groups that form stronger covalent bonds within the chain"
+    - "HDPE has shorter chains that resist deformation more readily than LDPE's longer, flexible chains"
+    - "HDPE's linear chains pack into higher crystallinity; crystalline regions are stiffer and scatter light, while LDPE's branching disrupts packing and prevents efficient crystallization"
+    - "HDPE contains covalent crosslinks between chains that prevent deformation, whereas LDPE does not"
+  answer: 2
+  explanation: "Both polymers are chemically (–CH₂–CH₂–)_n. The difference is architectural: LDPE's short branches interrupt regular chain packing, reducing crystallinity and producing a more flexible, translucent material. HDPE's linear chains pack efficiently into crystalline lamellae (50–80% crystallinity), giving stiffness (ordered regions resist deformation) and opacity (crystallite boundaries scatter light). No crosslinks are involved in either — both remain thermoplastics. The lesson: identical monomer chemistry, different chain architecture, radically different bulk properties."
+
+- question: "An engineer needs a polymer component that must hold its shape at elevated temperatures and cannot be remolded after manufacturing. Which type of polymer best meets this requirement and why?"
+  type: multiple-choice
+  options:
+    - "A high-molecular-weight thermoplastic, because chain entanglement prevents flow even at very high temperatures"
+    - "An amorphous thermoplastic with a very high glass transition temperature, because it remains rigid below Tg indefinitely"
+    - "A thermoset polymer, because covalent crosslinks between chains form a permanent network that cannot flow regardless of temperature"
+    - "A highly crystalline semicrystalline polymer, because crystalline regions maintain rigidity all the way to the melting point"
+  answer: 2
+  explanation: "Thermosets form covalent crosslinks during curing — a permanent network structure that cannot flow regardless of temperature (eventually the bonds degrade rather than the material melting). Thermoplastics (options A and B) are held together only by intermolecular forces that weaken with heat, causing all thermoplastics to eventually flow — high molecular weight delays this but doesn't eliminate it. Crystalline polymers (option D) do resist flow below their melting point, but flow readily once that point is exceeded. Only covalent crosslinking provides temperature-stable rigidity."
+
+- question: "A perfectly regular, unbranched polymer chain in principle can achieve 100% crystallinity given sufficient time and ideal conditions."
+  type: true-false
+  answer: false
+  explanation: "No polymer achieves 100% crystallinity. Even the most regular chains (HDPE, nylon) reach 50–80% at best. Chain ends cannot be incorporated into the crystalline lattice and are expelled to amorphous regions. Long chains become entangled during solidification, and the transition zones between crystalline lamellae are inherently disordered. The term 'semicrystalline' is not just a practical limitation — it reflects a fundamental physical constraint. The coexistence of crystalline and amorphous regions is the equilibrium state."
+
+- question: "Increasing the molecular weight (chain length) of a thermoplastic polymer generally raises both its glass transition temperature and its melt viscosity."
+  type: true-false
+  answer: true
+  explanation: "Both effects have the same physical origin: longer chains have more extensive segment-to-segment contacts and become physically entangled (like a bowl of spaghetti). Higher Tg reflects the fact that more thermal energy is required before chain segments can move freely when chains are longer. Higher melt viscosity reflects the resistance to flow from chain entanglement — longer chains resist sliding past each other. Both properties are therefore controlled by molecular weight distribution, which is why polymer processors specify molecular weight carefully for each application."
+
+- question: "Explain why the thermoplastic/thermoset distinction determines both manufacturing process and end-of-life disposal options, and what structural feature is responsible."
+  type: short-answer
+  answer: "Thermoplastics have no covalent crosslinks between chains — only intermolecular forces (van der Waals, hydrogen bonds) hold them together. Heat weakens these reversible interactions and allows chains to flow, so thermoplastics can be melted and remolded repeatedly (injection molding, extrusion, blow molding) and are potentially recyclable through thermal reprocessing. Thermosets form covalent crosslinks during curing, creating a permanent network that cannot flow when heated — these can only be shaped before curing or cut/machined afterward, and cannot be thermally recycled because the crosslinks are irreversible. The responsible structural feature is the presence (thermoset) or absence (thermoplastic) of covalent inter-chain crosslinks."
+  explanation: "This distinction is consequential at industrial scale — it determines manufacturing routes, tooling requirements, cycle times, and waste streams. Understanding it requires grasping that covalent bonds require chemical energy to break (permanent) while intermolecular forces are overcome by thermal energy (reversible)."
+```
+
 ## Explainer
 
 From organic chemistry you know that carbon forms four covalent bonds, and that chains of carbon atoms can grow arbitrarily long. From intermolecular forces, you understand that these chains interact with each other through van der Waals forces, dipole-dipole interactions, and hydrogen bonds. Polymers are what you get when these two concepts combine: a **monomer** (a small reactive molecule) is linked covalently thousands of times into a **polymer chain**, and the bulk material is a dense tangle of these chains interacting through intermolecular forces. The properties of the material emerge from the interplay between the covalent backbone and those intermolecular interactions.

@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 The joint distribution of (X, Y) is a probability measure on ℝ² induced by the random vector. Marginal distributions are obtained by integrating over the other variable. Dependence structure is encoded in the joint distribution; independence means the joint factors as a product of marginals.
 
+## Questions
+
+```yaml
+- question: "Two random variables X and Y each have an exponential marginal distribution with rate 1. Which statement is correct?"
+  type: multiple-choice
+  options:
+    - "X and Y must be independent since they have the same marginal distribution"
+    - "The joint density must be f(x,y) = e^{-x} · e^{-y}, since that is the only density with these marginals"
+    - "The marginals alone tell us nothing about whether X and Y are independent — the joint distribution is needed"
+    - "X and Y must be identically equal almost surely if they have the same marginal distribution"
+  answer: 2
+  explanation: "The same marginals are consistent with infinitely many joint distributions. f(x,y) = e^{-x}·e^{-y} (the independent case) is one possibility, but so is the joint distribution of (X, X) — where Y = X almost surely and the variables are perfectly dependent. Independence means the joint FACTORS as a product of marginals; having the same marginals, or even any particular marginals, says nothing about independence."
+
+- question: "A joint density is given by f(x,y) = 2 for 0 < x < y < 1. What is the marginal density of X?"
+  type: multiple-choice
+  options:
+    - "fₓ(x) = 2x"
+    - "fₓ(x) = 2(1 − x)"
+    - "fₓ(x) = 2"
+    - "fₓ(x) = 1"
+  answer: 1
+  explanation: "To find the marginal of X, integrate out y over all y values consistent with the constraint 0 < x < y < 1. For fixed x, y ranges from x to 1: fₓ(x) = ∫_x^1 2 dy = 2(1 − x). This integrates to 1 over [0,1] as required. The constraint 0 < x < y < 1 means the support is the upper triangle of the unit square, so the y-range for each x is not the full [0,1] — getting this wrong (integrating over all of [0,1]) is the typical error."
+
+- question: "Two random variables can each have a standard normal marginal distribution and yet be strongly positively correlated."
+  type: true-false
+  answer: true
+  explanation: "The bivariate normal with correlation ρ ∈ (0,1) has standard normal marginals for any value of ρ. The marginals tell you only about the individual variables; the correlation — encoded in the joint distribution — is invisible from the marginals alone. This is precisely why the joint distribution contains strictly more information than the pair of marginals."
+
+- question: "If the joint density factors as f(x,y) = fₓ(x) · f_Y(y) for all (x,y), then X and Y must have the same marginal distribution."
+  type: true-false
+  answer: false
+  explanation: "Independence (joint = product of marginals) places no restriction on the relationship between fₓ and f_Y. X could be exponential and Y could be uniform, and they could still be independent — as long as f(x,y) = fₓ(x)·f_Y(y). The factorization condition says the joint contains no additional information beyond the marginals separately; it says nothing about whether those marginals are similar to each other."
+
+- question: "Why can you always recover marginal distributions from the joint distribution, but you generally cannot recover the joint distribution from the marginals alone?"
+  type: short-answer
+  answer: "The marginal of X is obtained by integrating out y: fₓ(x) = ∫ f(x,y) dy. This integration destroys all information about how X and Y covary. The same marginals are consistent with infinitely many joint distributions encoding different dependence structures — from full independence (joint = product of marginals) to perfect correlation (Y = g(X) almost surely). The joint distribution is strictly richer than its marginals: it encodes the full dependence structure, while each marginal captures only the behavior of one variable in isolation."
+  explanation: "Independence is the special case where the joint is exactly determined by the marginals (it's their product). In general, knowing only the marginals is like knowing the row totals and column totals of a table but not the individual cell values — there are many tables consistent with any given set of margins."
+```
+
 ## Explainer
 
 From your study of distribution and density functions, you know that a single random variable X is characterized by a probability measure on ℝ — a distribution function F(x) = P(X ≤ x), and for continuous random variables, a density f(x) satisfying P(X ∈ A) = ∫_A f(x) dx. When you have two random variables X and Y defined on the same probability space, you need a way to describe their joint behavior — not just what X does alone or what Y does alone, but how they interact. The **joint distribution** of (X, Y) is a probability measure on ℝ², capturing all this information at once.

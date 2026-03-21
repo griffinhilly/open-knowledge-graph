@@ -36,6 +36,45 @@ Compare R² and adjusted R² across nested models (same data, different regresso
 - A low R² (e.g., 0.05) does not invalidate a regression — causal identification is about E[u|x]=0, not explained variance.
 - R² is not comparable across datasets or when the dependent variable is transformed (e.g., log y vs y).
 
+## Questions
+
+```yaml
+- question: "A researcher adds three variables to a regression and reports that R² increased from 0.45 to 0.52. A colleague concludes the model is now substantially better. What is wrong with this interpretation?"
+  type: multiple-choice
+  options:
+    - "R² should have decreased when variables are added"
+    - "R² mechanically cannot decrease when variables are added, so the increase tells us nothing about whether the new variables are informative — adjusted R² is needed"
+    - "An increase of 0.07 in R² is always too small to be meaningful"
+    - "R² only measures fit for the training data, so this comparison is invalid"
+  answer: 1
+  explanation: "R² can only stay flat or rise when variables are added, because OLS can always set a new coefficient to zero if the variable contributes nothing. An increase in R² therefore proves nothing about the variables' usefulness. Adjusted R² penalizes for the additional degrees of freedom used; if adjusted R² falls, the new variables are hurting the model by overfitting rather than genuinely improving it."
+
+- question: "A randomized experiment finds that a job training program increases wages by $200/week (p < 0.001), but R² = 0.03. A critic argues: 'The model explains almost nothing — this result can't be trusted.' What is the correct response?"
+  type: multiple-choice
+  options:
+    - "The critic is right — a low R² indicates the estimate is biased"
+    - "The critic is wrong — R² measures explained variance, not causal validity; wages vary for many reasons beyond the program, and the coefficient can be unbiased even if R² is low"
+    - "The critic is right — a larger sample would raise R² and validate the result"
+    - "The critic is wrong, but R² should be at least 0.10 to report results in economics"
+  answer: 1
+  explanation: "This is the deepest misconception about R². The key OLS assumption for unbiased estimation is E[u|x] = 0, not high R². In a randomized experiment, random assignment ensures the treatment indicator is uncorrelated with the error term — satisfying the identification condition regardless of how much unexplained variation remains. Wages vary enormously for reasons unrelated to the program (education, industry, experience), producing a low R² that is completely consistent with a valid, precisely estimated causal effect."
+
+- question: "Adding any regressor to a regression, even an irrelevant one, can never decrease R²."
+  type: true-false
+  answer: true
+  explanation: "This is a mechanical fact about OLS. The algorithm minimizes the sum of squared residuals, and it can always set the new variable's coefficient to zero if the variable adds nothing — in which case R² stays flat. If the variable has any relationship with y, even due to random chance in the sample, the coefficient will be nonzero and R² will rise. This is why raw R² is a misleading model comparison tool when models have different numbers of regressors."
+
+- question: "A regression with R² = 0.92 provides stronger evidence for a valid causal estimate than one with R² = 0.08, all else equal."
+  type: true-false
+  answer: false
+  explanation: "R² and causal validity are entirely separate. A high R² means the regressors explain most of the variation in y — but if those regressors are correlated with the error term (omitted variable bias, endogeneity), the coefficients are biased regardless of R². A low R² from a clean randomized experiment delivers perfectly unbiased estimates. The relevant criterion for causal identification is E[u|x] = 0, not the fraction of variance explained."
+
+- question: "Why do econometricians pursuing causal identification often report low R² without apology, and what would actually need to be true for their coefficient estimates to be valid?"
+  type: short-answer
+  answer: "For causal identification, what matters is that the identifying assumption holds — most commonly E[u|x] = 0, meaning the regressor of interest is uncorrelated with the error term (no omitted variable bias, no reverse causation). This assumption is satisfied by good research design: randomization, instrumental variables, regression discontinuity, or difference-in-differences. R² measures how much variation the model explains, which is a separate question from whether the coefficient is unbiased. Low R² just means many other factors influence y — it does not compromise identification."
+  explanation: "This distinction is fundamental to modern econometrics. The field moved away from treating high R² as a goal (which leads to overfitted kitchen-sink regressions) toward treating credible identification as the primary criterion. A study with R² = 0.04 from a clean natural experiment is far more informative about a causal question than one with R² = 0.85 from a poorly specified observational regression."
+```
+
 ## Explainer
 
 From bivariate regression, you learned how to fit a line through data by minimizing squared residuals — the vertical distances between data points and the fitted line. Those residuals capture what the model fails to explain. **R²** formalizes this intuition into a single summary statistic: the fraction of the total variation in y that your regression accounts for.

@@ -28,6 +28,45 @@ Imitative counterpoint creates texture and unity by having multiple voices prese
 ## How It's Best Learned
 Begin with simple 2-voice imitation at the unison or octave, then experiment with staggered entrances at different intervals (fourth, fifth). Write short imitative sections and extend them through sequential repetition.
 
+## Questions
+
+```yaml
+- question: "A composer introduces a melodic subject in voice 1, then has voice 2 enter with the same subject two beats later. While voice 2 states the subject, what must voice 1 provide?"
+  type: multiple-choice
+  options:
+    - "Silence, so the subject in voice 2 can be heard clearly"
+    - "An exact rhythmic augmentation of the subject at double speed"
+    - "A countersubject — new material that forms good two-voice counterpoint against the subject"
+    - "A restatement of the same subject at a different octave simultaneously"
+  answer: 2
+  explanation: "When the second voice enters with the subject, the first voice continues with the countersubject — material that is melodically independent and forms correct contrapuntal intervals against the subject as it unfolds. Silence would destroy the texture; the entire point of imitative counterpoint is that both voices remain active. The countersubject must be good melody on its own while simultaneously working against another specific melody, making it the most demanding compositional challenge in imitative writing."
+
+- question: "Why is imitation at the fifth often preferred over imitation at the unison or octave in tonal counterpoint?"
+  type: multiple-choice
+  options:
+    - "Imitation at the fifth avoids parallel octaves, which are always prohibited"
+    - "The fifth keeps the material in a closely related key area while creating tonal contrast between tonic and dominant regions"
+    - "Imitation at the unison creates identical lines that cannot be distinguished by the listener"
+    - "The fifth produces more dissonance, which is required for expressive counterpoint"
+  answer: 1
+  explanation: "Imitation at the fifth (called the 'answer' in fugal tradition) transposes the subject to the dominant key area — closely related but tonally distinct. This creates a satisfying call-and-response between tonic and dominant that gives tonal music its characteristic balance. Imitation at the unison or octave is harmonically static by comparison; imitation at the fifth generates harmonic motion without abandoning the key. This is why the tonic-dominant relationship is so central to the fugue and invention."
+
+- question: "The staggered entry of voices in imitative counterpoint creates both unity and independence: unity because both voices share the same thematic material, and independence because their different rhythmic positions force them onto different notes at every moment."
+  type: true-false
+  answer: true
+  explanation: "This double effect is the genius of imitation. Unity comes from the shared subject — the listener hears the same idea in both voices. Independence comes automatically from the rhythmic offset: if voice 1 is on beat 5 of the subject when voice 2 starts beat 1, they are in genuinely different musical positions and will produce different pitches, creating real two-voice texture rather than parallel motion. The structural engine of imitation generates independence as a byproduct of the staggered entry."
+
+- question: "When the second voice enters with the subject in imitative counterpoint, the first voice typically rests to give the subject clarity."
+  type: true-false
+  answer: false
+  explanation: "The first voice does not rest — it continues with the countersubject, maintaining the two-voice texture. Resting would destroy the defining characteristic of imitative counterpoint: overlapping, independent voices that weave together from a shared thematic source. The first voice's continuation is what makes the texture contrapuntal rather than antiphonal (call-and-response with rests). The simultaneous combination of subject and countersubject is precisely where the contrapuntal craft is tested."
+
+- question: "How does imitative counterpoint achieve 'much arising from little' — generating extended passages from compact material?"
+  type: short-answer
+  answer: "Imitative counterpoint generates length through sequential repetition: once the subject and countersubject are established, the same material can be repeated at successively higher or lower pitch levels (sequences). Because the voices maintain their staggered relationship, the imitative texture continues through each sequential step, spinning out many bars of counterpoint from a two-bar subject. A short subject, its countersubject, and sequential extension can produce passages of eight to sixteen or more bars — economy of means that is characteristic of the Baroque contrapuntal tradition."
+  explanation: "Sequences are the engine of extension in imitative writing. They work naturally because the intervallic relationships within the subject repeat at each pitch level, and the imitative structure between voices continues throughout. The composer essentially 'reuses' the established contrapuntal relationship at new pitch levels rather than composing new material. This is why a Bach two-part invention can sustain interest over dozens of bars from a single opening idea."
+```
+
 ## Explainer
 
 Imitative counterpoint starts with a surprisingly simple idea: one voice plays a melodic idea, and a moment later another voice plays the same idea. That gap between the first and second entrance is what creates the characteristic texture. When the second voice enters, the first doesn't stop — it continues with new material, and suddenly you have two independent lines weaving together, each logically related to the other through their shared thematic origin. This is the mechanism that underlies the invention, the fugue, the canon, and dozens of other forms.

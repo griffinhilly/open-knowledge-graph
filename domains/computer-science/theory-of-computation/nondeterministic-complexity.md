@@ -36,6 +36,45 @@ For each NP problem, identify the certificate explicitly (e.g., for 3-SAT: a sat
 - Thinking NP problems have no polynomial-time algorithms — it is unknown whether P = NP; some NP problems might be in P.
 - Assuming verification being easy implies solving is hard — this is the P vs NP question, not an established fact.
 
+## Questions
+
+```yaml
+- question: "A computer science student claims: 'Graph coloring must be an exponential-time problem — it's in NP, after all.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Graph coloring is not in NP because its certificate cannot be verified in polynomial time"
+    - "NP does not mean non-polynomial time; it stands for nondeterministic polynomial, and since P ⊆ NP, some NP problems may well be solvable in polynomial time"
+    - "Graph coloring is in co-NP, not NP, so the student has misclassified it"
+    - "The student is correct — all NP problems require exponential time in the worst case"
+  answer: 1
+  explanation: "NP stands for nondeterministic polynomial time, not 'non-polynomial.' Every problem in P is also in NP (you can verify a solution by just solving it in polynomial time), so NP is not a class of hard problems — it is a class of problems whose solutions are verifiable in polynomial time. Whether NP contains problems that genuinely require super-polynomial solving time is the unsolved P vs. NP question. Claiming that membership in NP proves exponential hardness assumes P ≠ NP, which is unproven."
+
+- question: "For the Boolean satisfiability (SAT) problem, what would serve as a valid certificate that a specific formula is satisfiable?"
+  type: multiple-choice
+  options:
+    - "A proof that no variable assignment satisfies the formula"
+    - "A listing of all 2ⁿ possible variable assignments"
+    - "A specific variable assignment that makes the formula evaluate to true"
+    - "A polynomial-time algorithm that generates satisfying assignments"
+  answer: 2
+  explanation: "A certificate for NP must be short (polynomial-size) and checkable quickly (polynomial-time). For SAT, a single satisfying assignment of variables is exactly this: it has n bits (polynomial in input size) and checking it requires plugging values into the formula and evaluating it — linear time. Option A is a certificate for unsatisfiability, which is a co-NP question. Option B is exponential in size — not a valid certificate. Option D describes a polynomial-time solver, which would put SAT in P (unproven)."
+
+- question: "The fact that a problem's solution can be verified in polynomial time proves that the problem cannot be solved in polynomial time."
+  type: true-false
+  answer: false
+  explanation: "This is the central confusion about NP. Easy verification tells us the problem is in NP; it says nothing about whether the problem is in P. If P = NP (which has not been ruled out), then every problem in NP — including SAT and graph coloring — would be solvable in polynomial time. The conjecture that P ≠ NP (that efficient verification does not imply efficient solving) is widely believed but unproven. Until it is settled, we cannot conclude that any specific NP problem requires super-polynomial solving time."
+
+- question: "Every problem in P is also in NP, because a polynomial-time solution can itself serve as a polynomial-time certificate verification."
+  type: true-false
+  answer: true
+  explanation: "This is established: P ⊆ NP. If you can solve a problem in polynomial time, then given a proposed solution, you can verify it in polynomial time by simply solving the problem from scratch and comparing. The certificate is therefore the solution itself; the verifier is the solver. This means NP is at least as large as P — the open question is whether NP is strictly larger (P ≠ NP) or exactly equal (P = NP)."
+
+- question: "Explain the certificate-verifier definition of NP in your own words, using a concrete example to illustrate."
+  type: short-answer
+  answer: "A problem is in NP if, for every 'yes' instance, there exists a short certificate (a piece of evidence, polynomial in the input size) that a polynomial-time verifier can check to confirm the answer is indeed 'yes.' For example, Hamiltonian path asks whether a graph has a path visiting every vertex exactly once. A certificate is the path itself — a list of vertices. Verifying it is easy: check that each vertex appears exactly once and that consecutive vertices are connected by an edge. This check is linear in the number of vertices. Finding the path is (apparently) hard; checking a proposed path is easy."
+  explanation: "The power of this definition is that it shifts attention from solving to checking. You don't need to understand how to find a Hamiltonian path to understand why the problem is in NP — you just need to recognize that if someone hands you one, you can quickly confirm it's valid. The P vs. NP question then becomes: for all the problems where checking is easy, is finding also easy? Most researchers believe the answer is no, but nobody has proved it."
+```
+
 ## Explainer
 
 You already know that time complexity classes group decision problems by how quickly a deterministic Turing machine can solve them — P captures the problems solvable in polynomial time. **NP** extends this idea by asking a different question: instead of "can we solve this quickly?", it asks "can we check a proposed answer quickly?" The name stands for **nondeterministic polynomial time**, not "non-polynomial," and the distinction matters. A nondeterministic Turing machine can be thought of as one that magically guesses the right answer and then verifies it in polynomial time. The class NP is exactly the set of problems where this guess-then-verify strategy works.

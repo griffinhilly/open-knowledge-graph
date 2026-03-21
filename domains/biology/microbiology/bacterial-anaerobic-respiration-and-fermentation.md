@@ -29,6 +29,45 @@ Culture bacteria anaerobically and measure lactate, ethanol, or other fermentati
 ## Common Misconceptions
 Anaerobic respiration is not the same as fermentation—anaerobic respiration still uses an electron transport chain. Not all bacteria can ferment; many strictly require oxygen or an alternate electron acceptor.
 
+## Questions
+
+```yaml
+- question: "A bacterium is growing in an anoxic environment rich in nitrate. It uses an electron transport chain, reduces nitrate to nitrogen gas, and generates a proton motive force that drives ATP synthesis. This organism is performing:"
+  type: multiple-choice
+  options:
+    - "Fermentation, because no oxygen is present"
+    - "Anaerobic respiration, because it uses an electron transport chain with a non-oxygen terminal electron acceptor"
+    - "Aerobic respiration with nitrate substituting chemically for oxygen"
+    - "Substrate-level phosphorylation only, since no oxygen is available for oxidative phosphorylation"
+  answer: 1
+  explanation: "Anaerobic respiration is defined by the use of an electron transport chain with an inorganic terminal electron acceptor other than oxygen — nitrate, sulfate, iron(III), etc. The presence or absence of oxygen is not what distinguishes anaerobic respiration from fermentation; the presence or absence of an electron transport chain is. Fermentation bypasses the ETC entirely, using organic molecules (pyruvate or its derivatives) as electron acceptors and relying solely on substrate-level phosphorylation. Option A reflects the common misconception that 'anaerobic' = fermentation."
+
+- question: "Why does fermentation yield significantly less ATP per glucose molecule than either aerobic or anaerobic respiration?"
+  type: multiple-choice
+  options:
+    - "Fermentation uses a less efficient form of glycolysis that produces fewer ATP molecules per step"
+    - "Fermentation cannot access the energy stored in glucose — it only harvests energy from the organic end products"
+    - "Fermentation produces no proton motive force because it lacks an electron transport chain, so all ATP comes from substrate-level phosphorylation only"
+    - "Fermentation is thermodynamically less favorable because organic electron acceptors have higher reduction potentials than oxygen"
+  answer: 2
+  explanation: "Fermentation produces only ~2 ATP per glucose (from glycolysis substrate-level phosphorylation) because it lacks an electron transport chain and cannot capture the chemical energy stored in NADH via oxidative phosphorylation. Respiration (aerobic or anaerobic) uses the ETC to pass electrons from NADH to terminal acceptors, generating a proton gradient across the membrane that drives ATP synthase — capturing far more energy. The fermentation end products (lactate, ethanol, etc.) still contain most of the original glucose's chemical energy, which is why fermentation fuels can be used by other organisms or as industrial biofuels."
+
+- question: "Anaerobic respiration and fermentation are two names for the same process — both generate ATP in the absence of oxygen, differing only in which molecules accept electrons."
+  type: true-false
+  answer: false
+  explanation: "This is the core misconception the topic addresses. Fermentation and anaerobic respiration are fundamentally different metabolic strategies. Fermentation has no electron transport chain; electrons from NADH are transferred directly to an organic acceptor (like pyruvate → lactate), and all ATP comes from substrate-level phosphorylation. Anaerobic respiration retains the full electron transport chain and proton motive force — it just substitutes a non-oxygen terminal acceptor (nitrate, sulfate, etc.). Anaerobic respiration therefore generates substantially more ATP than fermentation. The distinction matters for predicting organism behavior, culture conditions, and product formation."
+
+- question: "In fermentation, the conversion of pyruvate to lactate (or to ethanol + CO₂) serves primarily to regenerate NAD+ rather than to directly produce ATP."
+  type: true-false
+  answer: true
+  explanation: "The fermentation reactions that convert pyruvate to organic end products produce no ATP themselves. Their sole metabolic purpose is to reoxidize NADH back to NAD+, which is essential for keeping glycolysis running — glycolysis requires NAD+ as an electron acceptor at the glyceraldehyde-3-phosphate dehydrogenase step. Without NAD+ regeneration, glycolysis would halt and no more ATP could be produced. All the ATP in fermentation comes from glycolysis (substrate-level phosphorylation). The organic end products are in this sense metabolic necessities, not goals."
+
+- question: "Why does the diversity of fermentation end products (lactate, ethanol, butyrate, propionate, etc.) matter ecologically and clinically, rather than being irrelevant biochemical variation?"
+  type: short-answer
+  answer: "Ecologically, different fermentation products feed different members of anaerobic microbial communities, forming the basis of food webs in oxygen-depleted environments. In the human gut, butyrate produced by fermentative bacteria serves as the primary energy source for intestinal epithelial cells and influences immune regulation — making these products medically important, not just metabolic byproducts. Clinically, the specific fermentation products identify the organism and predict its behavior: lactic acid bacteria acidify their environment (relevant in food preservation and infections); butyrate-producing Clostridia signal a particular gut community state. Additionally, fermentative organisms cannot be treated with aminoglycosides (which require aerobic proton motive force for uptake), so distinguishing fermentation from respiration directs antibiotic choice."
+  explanation: "The ecological significance also extends to global biogeochemical cycles: fermentation in anoxic sediments produces organic acids that feed sulfate reducers and methanogens, driving carbon and sulfur cycling in marine sediments, wetlands, and the deep biosphere. In anaerobic digestion engineered systems, controlling which fermentation pathways predominate determines whether the process produces hydrogen, methane, or volatile fatty acids — with different energy recovery potential."
+```
+
 ## Explainer
 
 From your study of microbial fermentation, you know the basic problem: when cells oxidize glucose through glycolysis, they reduce NAD+ to NADH, and they need a way to regenerate NAD+ to keep glycolysis running. Aerobic organisms solve this by passing electrons from NADH through an electron transport chain to oxygen, the ultimate electron acceptor. But many environments — deep sediments, waterlogged soils, the interior of the mammalian gut — contain little or no oxygen. Bacteria thriving in these habitats have evolved two fundamentally different strategies for coping, and the distinction between them is one of the most important concepts in microbial metabolism.

@@ -31,6 +31,45 @@ Compare morphology and signaling of different death pathways. Understand when ea
 ## Common Misconceptions
 Necroptosis is not uncontrolled necrosis—it is actively regulated and can be pharmacologically inhibited by RIPK1 inhibitors. It is implicated in inflammatory diseases including sepsis and inflammatory bowel disease.
 
+## Questions
+
+```yaml
+- question: "A virus infects a host cell and specifically blocks caspase-8 activity. What is the most likely consequence for the infected cell?"
+  type: multiple-choice
+  options:
+    - "The cell survives because the apoptosis pathway is successfully blocked"
+    - "The cell undergoes uncontrolled necrosis due to viral damage"
+    - "The cell undergoes necroptosis via RIPK1/RIPK3/MLKL signaling"
+    - "The cell undergoes pyroptosis via inflammasome activation"
+  answer: 2
+  explanation: "When caspase-8 — the initiator caspase for extrinsic apoptosis — is blocked, RIPK1 accumulates and activates RIPK3, which phosphorylates MLKL, causing membrane pore formation and a necrotic-style death. Many viruses have evolved mechanisms to block apoptosis, but this counter-adaptation by the host — triggering necroptosis as a backup — ensures the cell still dies and releases DAMPs that alert the immune system. Necroptosis is thus an anti-viral fallback: when a pathogen hijacks the clean death pathway, the cell executes a more inflammatory death instead."
+
+- question: "Which combination of features correctly distinguishes necroptosis from classical uncontrolled necrosis?"
+  type: multiple-choice
+  options:
+    - "Necroptosis involves cell swelling and membrane lysis; classical necrosis does not"
+    - "Necroptosis is genetically programmed and pharmacologically inhibitable; classical necrosis is not"
+    - "Necroptosis releases DAMPs that trigger inflammation; classical necrosis does not"
+    - "Necroptosis is triggered by caspase activation; classical necrosis bypasses caspases"
+  answer: 1
+  explanation: "Both necroptosis and classical necrosis produce cell swelling and membrane lysis (necrotic morphology), and both release DAMPs. What distinguishes necroptosis is that it proceeds through a defined kinase cascade (RIPK1 → RIPK3 → MLKL phosphorylation) that can be specifically blocked with RIPK1 inhibitors. Classical uncontrolled necrosis has no such program — it cannot be pharmacologically prevented at the signaling level. This pharmacological inhibitability is the operational proof that necroptosis is regulated, not accidental. Option C is incorrect because classical necrosis also releases DAMPs; the DAMP release is a consequence of membrane rupture in both pathways."
+
+- question: "Necroptosis can be pharmacologically blocked by RIPK1 inhibitors, which proves it proceeds through a defined molecular program rather than being random cell damage."
+  type: true-false
+  answer: true
+  explanation: "True. This is the key evidence distinguishing necroptosis from chaotic necrosis. If necroptosis were uncontrolled membrane damage, no specific inhibitor could prevent it. The fact that RIPK1 inhibitors (which block the RIPK1 → RIPK3 → MLKL cascade) prevent cells from dying in the characteristic necrotic fashion demonstrates that the death requires specific kinase activity. This has direct therapeutic implications: inflammatory diseases driven by necroptosis (sepsis, IBD, ischemia-reperfusion injury) may be treatable by blocking this program at specific molecular nodes."
+
+- question: "Pyroptosis and necroptosis are triggered by the same signaling mechanism — both require RIPK3 activation to execute cell death."
+  type: true-false
+  answer: false
+  explanation: "False. Pyroptosis is triggered by inflammasome activation (e.g., NLRP3), which activates caspase-1, which cleaves gasdermin D to form membrane pores — an entirely distinct pathway from necroptosis's RIPK1/RIPK3/MLKL cascade. Necroptosis does not require caspase-1 or gasdermin D; pyroptosis does not require RIPK3 or MLKL. Both pathways produce inflammatory cell death with DAMP release, but they respond to different triggers and require different molecular machinery — which is why they are therapeutically targetable with different inhibitors."
+
+- question: "Why does blocking caspase-8 (as some viruses do) lead to necroptosis rather than simply allowing the cell to survive?"
+  type: short-answer
+  answer: "When a cell receives a death signal (such as TNF binding its receptor) but cannot execute apoptosis because caspase-8 is blocked, RIPK1 is no longer cleaved and inactivated by caspase-8. RIPK1 accumulates, activates RIPK3, which phosphorylates MLKL, causing membrane rupture. The cell still dies — it just dies necroptotically rather than apoptotically. This is an evolutionary counter-adaptation: viruses that block apoptosis to prolong their replication window encounter a backup death program that the host can execute through a caspase-independent route."
+  explanation: "The biological logic is that cell death in infected cells is generally advantageous to the host: it limits viral replication and alerts the immune system. Necroptosis is more pro-inflammatory than apoptosis (due to DAMP release), so paradoxically, the virus's attempt to evade apoptosis triggers an even more immunogenic death. This arms race between viral evasion and host counter-evasion has shaped the entire necroptosis pathway."
+```
+
 ## Explainer
 
 You already know the two classic modes of cell death: apoptosis, the orderly programmed dismantling that packages cellular contents for phagocytic removal without triggering inflammation, and necrosis, the chaotic rupture that spills cell contents and ignites an immune response. This binary seemed clean until researchers discovered cells that look like necrosis under the microscope but are executing a genetically encoded program that can be blocked by specific inhibitors. That discovery revealed a third category — **regulated cell death pathways** — that have since grown into a diverse family. **Necroptosis** was the first and remains the best understood.

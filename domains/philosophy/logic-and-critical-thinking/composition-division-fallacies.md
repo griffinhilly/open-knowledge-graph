@@ -27,6 +27,45 @@ Use concrete examples from economics (the paradox of thrift: saving is good for 
 - Thinking that composition and division are always fallacious — some properties genuinely transfer between parts and wholes (e.g., if every part is made of metal, the whole is made of metal).
 - Conflating these fallacies with hasty generalization, which involves samples and populations rather than parts and wholes.
 
+## Questions
+
+```yaml
+- question: "Every individual water molecule is invisible to the naked eye. Therefore, a glass of water is invisible to the naked eye. This argument commits which fallacy?"
+  type: multiple-choice
+  options:
+    - "The fallacy of division — concluding a property of the whole applies to its parts"
+    - "The fallacy of composition — assuming a property of each part belongs to the whole they compose"
+    - "Hasty generalization — drawing a universal conclusion from too few cases"
+    - "No fallacy — if every part has a property, the whole necessarily has it too"
+  answer: 1
+  explanation: "This is a composition fallacy: inferring a property of the whole from a property shared by all its parts. The premise is true (water molecules are individually too small to see); the conclusion is false (water is clearly visible). The error is ignoring emergence: visibility arises at the macroscopic level from the aggregate of billions of molecules, not from any individual molecule. Option D is itself the fallacy — not all properties transfer from parts to wholes, only distributive ones do."
+
+- question: "An economist argues: 'Since every individual saving more money is financially prudent, a policy encouraging everyone to save simultaneously must be good for the economy.' This argument is most vulnerable to which error?"
+  type: multiple-choice
+  options:
+    - "The fallacy of division — attributing an aggregate property back to each individual"
+    - "The fallacy of composition — assuming what is rational at the individual level produces a good outcome at the aggregate level"
+    - "Circular reasoning — the argument's premise restates the conclusion"
+    - "Appeal to authority — relying on 'prudence' as a value judgment rather than evidence"
+  answer: 1
+  explanation: "This is the paradox of thrift in economic terms — a textbook composition fallacy. Individual saving is financially prudent, but when everyone saves simultaneously, aggregate demand falls, businesses lose revenue, and the economy may contract. The collective outcome of individually rational choices is an aggregate harm that no individual's choice alone would cause. Emergent aggregate-level properties — like total demand — behave differently from individual-level ones."
+
+- question: "The fallacy of composition always occurs when you reason from parts to the whole — any part-to-whole inference is fallacious."
+  type: true-false
+  answer: false
+  explanation: "Some properties are distributive and genuinely transfer between parts and wholes. 'Every room in the house has a wooden floor; therefore the house has wooden floors' is valid. 'Every component of this machine is metal; therefore the machine is metal' is valid. The fallacy of composition occurs specifically when a non-distributive (collective or emergent) property is incorrectly assumed to transfer. The critical skill is identifying which type of property is at stake, not blanket avoidance of part-to-whole reasoning."
+
+- question: "The fallacy of division is the structural mirror image of the fallacy of composition, applying the same part-whole confusion in the opposite direction."
+  type: true-false
+  answer: true
+  explanation: "Composition moves upward: it assumes a property of the parts belongs to the whole. Division moves downward: it assumes a property of the whole belongs to each of its parts. 'Salt is safe to eat; therefore sodium and chlorine are individually safe to eat' runs division. 'Every player is excellent; therefore the team is excellent' runs composition. Both involve incorrectly assuming a property transfers across the part-whole boundary — one from parts to whole, one from whole to parts."
+
+- question: "Why does the fallacy of composition fail so often in social and economic arguments? What concept explains why individual-level properties might not hold at the aggregate level?"
+  type: short-answer
+  answer: "The fallacy fails in social and economic arguments because of emergent properties — properties that arise from the organization and interaction of parts into a whole, not present in any individual part. At the aggregate level, interactions between individuals create dynamics no individual action alone could produce. The paradox of thrift is the classic example: each person's saving is prudent, but simultaneous mass saving reduces demand, triggering a collective harm that contradicts the individual-level logic. Social systems produce feedback loops, externalities, and coordination effects that make the aggregate fundamentally different from the sum of its parts."
+  explanation: "This is why economics, sociology, and ecology require their own analytical frameworks rather than simply scaling up individual-level analysis. The fallacy of composition has misled experts across disciplines. Recognizing emergence — the appearance of properties at higher levels of organization that don't exist at lower levels — is one of the most practically important moves in systems thinking."
+```
+
 ## Explainer
 
 From your study of informal fallacies, you know that fallacious reasoning involves an error in the logical structure of an argument — the conclusion doesn't actually follow from the premises, even when the premises may be true. The **fallacy of composition** and the **fallacy of division** are both errors about the relationship between parts and wholes, and they run in opposite directions.

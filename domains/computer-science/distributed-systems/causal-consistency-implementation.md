@@ -32,6 +32,45 @@ Implement a key-value store with vector clock-based causal consistency: track cl
 - Causal consistency is as strong as linearizability; it allows concurrent operations to be reordered.
 - Implementing causal consistency is free; it requires tracking dependencies and waiting for writes to propagate before serving reads.
 
+## Questions
+
+```yaml
+- question: "Client A writes X=1, then reads Y=2 (written earlier by Client B). Client A then writes Z=3. A replica receives these writes out of order. Before serving a read of Z=3, what must the replica verify?"
+  type: multiple-choice
+  options:
+    - "Nothing — replicas in a causally consistent system never need to delay reads"
+    - "That it has received both X=1 and Y=2, because Z causally depends on those writes through Client A's observed history"
+    - "That all other replicas have also received Z=3, to prevent stale reads across the cluster"
+    - "That Z=3 is the highest-versioned write for that key, regardless of its causal dependencies"
+  answer: 1
+  explanation: "Z=3 causally depends on X=1 (Client A wrote it) and Y=2 (Client A read it before writing Z). Before serving Z to any client, the replica must confirm it has seen all causally prior writes — here, both X=1 and Y=2. This is enforced by comparing the dependency metadata attached to Z against the replica's own vector clock. If the replica's clock doesn't yet dominate Z's dependency list, it must wait. This is the key cost of causal consistency: reads (or dependent writes) may be delayed until the replica catches up."
+
+- question: "What is the primary performance cost of implementing causal consistency compared to eventual consistency?"
+  type: multiple-choice
+  options:
+    - "Causal consistency requires a consensus protocol (like Paxos or Raft) for every write operation"
+    - "Reads may be delayed while replicas wait to receive all causally prior writes before serving the requested data"
+    - "Every write must be acknowledged synchronously by all replicas before the client is unblocked"
+    - "Causal consistency prohibits concurrent writes to the same key, requiring serialization"
+  answer: 1
+  explanation: "The implementation mechanism for causal consistency is that replicas check — and may wait — before serving reads. If a replica hasn't yet received all writes that causally precede the requested value, it blocks the read until those writes arrive. This introduces latency that eventual consistency doesn't have (eventual consistency serves whatever is locally available, regardless of causal order). Option A is wrong — causal consistency deliberately avoids consensus, which is the stronger and more expensive model. Option C describes strong consistency, not causal."
+
+- question: "Causal consistency requires all nodes to agree on a total order for all operations, making it as strong as linearizability."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception about causal consistency. Causal consistency only enforces ordering between causally related operations — if A happened before B in the causal sense, every node must see A before B. But concurrent operations (those with no causal relationship) may be observed in different orders by different clients, and that is permitted. No consensus is required. Linearizability imposes a total order on all operations, requiring coordination. Causal consistency is strictly weaker than linearizability but achievable without the prohibitive latency cost of consensus."
+
+- question: "A replica implementing causal consistency may delay responding to a read request until it has received all writes that causally precede the requested value."
+  type: true-false
+  answer: true
+  explanation: "Yes — this waiting behavior is the core mechanism and primary cost of causal consistency implementation. The replica compares its vector clock against the dependency metadata attached to the value. If its clock does not dominate the dependency list (meaning some causally prior write hasn't yet arrived), the replica holds the read response until the missing writes propagate. This ensures clients always observe a causally consistent view of the data, at the cost of potential read latency."
+
+- question: "Explain how vector clocks encode causal precedence, and how a replica uses them to determine whether it is safe to serve a read."
+  type: short-answer
+  answer: "Each node maintains a vector with one counter per node in the system. A node increments its own counter on each local operation and attaches its full vector to every message it sends. On receipt, a node takes the element-wise maximum of its own vector and the received vector. Vector clock V1 causally precedes V2 if V1[i] ≤ V2[i] for all i (and strict for at least one). To serve a read safely, the replica checks whether its own vector clock dominates the dependency vector attached to the requested value — if it does, the replica has seen all causally prior writes and can safely respond. If not, it waits."
+  explanation: "The power of vector clocks is that they encode full causal history compactly. A single comparison (does my clock dominate this dependency vector?) replaces what would otherwise require tracking every individual write globally. The replica doesn't need to know *which* writes are missing — only that its clock doesn't yet dominate the dependency, meaning some writes must still be in transit. This makes the implementation efficient: O(n) metadata per write (where n is the number of nodes) and O(n) comparison per read check."
+```
+
 ## Explainer
 
 You already understand what causal consistency promises — if operation A causally precedes operation B, then every node in the system must observe A before B — and you know how the happened-before relation defines causality. The implementation challenge is making this guarantee real in a system where data is replicated across multiple servers and messages arrive at unpredictable times.

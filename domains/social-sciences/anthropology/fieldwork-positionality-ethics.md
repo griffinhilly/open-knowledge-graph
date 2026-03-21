@@ -32,6 +32,45 @@ Read reflexive ethnographies revealing the author's position and fieldwork chall
 - Acknowledging positionality weakens research objectivity; reflexivity strengthens validity by recognizing how researchers shape findings.
 - Ethical research is burdensome; it respects participants and produces better, more trustworthy results.
 
+## Questions
+
+```yaml
+- question: "An anthropologist from a wealthy country conducts fieldwork in an impoverished community. During interviews, participants consistently emphasize formal employment and downplay survival strategies the researcher might find stigmatizing. This most likely reflects:"
+  type: multiple-choice
+  options:
+    - "Sampling bias — the researcher happened to interview unusually formal participants"
+    - "Participants performing respectability in response to the researcher's visible class and nationality markers"
+    - "Accurate representation, since prolonged ethnographic presence neutralizes the researcher's identity effects"
+    - "Language barriers causing systematic misunderstanding of interview questions"
+  answer: 1
+  explanation: "Participants read and respond to the researcher's visible identity markers — class, nationality, race, gender — shaping what they reveal and how they present themselves. This is the positionality problem: the researcher's social position actively structures data collection. Option C represents the naive view that ethnographers become neutral observers through immersion; positionality theory rejects this premise. The phenomenon described here (performing respectability for a privileged outsider) is a well-documented fieldwork effect — not a methodological error to be corrected but a feature of the data requiring reflexive analysis and disclosure."
+
+- question: "A researcher acknowledges her positionality as an insider — studying a community she grew up in — in the published ethnography. A critic argues this disclosure undermines objectivity. What is the reflexivist response?"
+  type: multiple-choice
+  options:
+    - "The critic is correct — insider status creates bias resolvable only by using outsider researchers"
+    - "Acknowledging positionality allows readers to evaluate the conditions under which knowledge was produced, strengthening rather than undermining validity"
+    - "Positionality only affects insider researchers; outsider researchers achieve genuine objectivity"
+    - "The disclosure is unnecessary because trained ethnographers can bracket their identities during fieldwork"
+  answer: 1
+  explanation: "Reflexivity is not a confession of failure but an analytical tool. By making her social position visible, the researcher allows readers to understand what access she had, whose trust she gained or lost, and what assumptions shaped her interpretation — all essential for evaluating her claims. Concealing positionality would not eliminate its influence; it would obscure the conditions of knowledge production. Option D is false — bracketing one's identity does not eliminate its effects on how participants respond. The transparency of reflexivity is precisely what makes ethnographic knowledge legible and trustworthy."
+
+- question: "In ethnographic fieldwork, informed consent is a one-time procedural requirement obtained at the start of fieldwork that satisfies ethical obligations to participants."
+  type: true-false
+  answer: false
+  explanation: "Ethnographic consent is continuous and must be re-negotiated throughout fieldwork. Unlike a lab study with a discrete procedure, ethnography involves months of deepening relationships during which participants may reveal sensitive information they would not have shared initially — sometimes without realizing the implications. The research direction evolves, audiences change, and participants' circumstances shift. Ethical fieldwork requires ongoing attention to what participants have consented to have published, protecting identities, and ensuring participants understand how findings may be used. The initial consent form is a starting point, not a complete ethical clearance."
+
+- question: "A reflexive ethnographer who openly documents her positionality produces a stronger account than one who suppresses those details in the name of scientific objectivity."
+  type: true-false
+  answer: true
+  explanation: "Reflexivity strengthens ethnographic validity because the researcher's identity is not separable from the data collected — it structures access, rapport, and interpretation. Suppressing positionality doesn't eliminate its influence; it hides the conditions under which knowledge was produced and makes it impossible for readers to evaluate findings appropriately. A transparent account allows readers to understand who spoke freely, who withheld information, and what the researcher could and could not observe from her social location. This is methodological transparency, not subjectivism."
+
+- question: "What is 'positionality,' and why do anthropologists argue it should be disclosed and analyzed rather than minimized or ignored?"
+  type: short-answer
+  answer: "Positionality refers to the researcher's social location — gender, race, class, nationality, sexuality, and other identity markers — and how these shape interactions in the field, what participants reveal, and how findings are interpreted. Anthropologists argue it should be analyzed rather than ignored because it cannot be eliminated: participants inevitably read the researcher's identity and respond to it. By disclosing positionality, researchers allow readers to understand the conditions under which data was gathered — whose trust was gained, what access was possible, and what biases may have shaped interpretation. This transparency strengthens the research rather than weakening it."
+  explanation: "The positionality framework rejects the ideal of the neutral, invisible observer as both impossible and undesirable. A researcher who explicitly examines how their position shaped the field can turn this into an analytical advantage — making visible what would otherwise silently distort the account. Ignoring positionality doesn't make its effects disappear; it just makes them invisible in the final product."
+```
+
 ## Explainer
 
 When you learned ethnographic methods, you learned the mechanics: participant observation, sustained immersion in a community, field notes, informant relationships, and interview strategies. What positionality and ethics address is a more uncomfortable question — *who are you in all of this, and what does your presence do to what people tell you?* The foundational claim is that ethnographers are not neutral recording devices. Every researcher carries a body with visible characteristics — apparent gender, race, age, nationality, class markers, accent, and affect — that participants read and respond to. The premise that "immersing yourself in a culture" produces some unmediated access to truth ignores this reality. **Positionality** is the practice of taking that reality seriously: using your social location as an analytical tool rather than pretending it has no effect.

@@ -32,6 +32,45 @@ Visualize NTM computation as a tree of computation paths, with acceptance define
 - Nondeterminism is not probabilistic computation; an NTM accepts if *any* branch accepts, whereas a probabilistic TM accepts based on the fraction of accepting branches.
 - NTMs are not more computationally powerful than DTMs in terms of *what* they compute (same Turing-computable functions), only potentially in *how efficiently* they compute.
 
+## Questions
+
+```yaml
+- question: "An NTM is given an input and runs. One branch of its computation accepts, but 999 other branches reject. What does the NTM do?"
+  type: multiple-choice
+  options:
+    - "It rejects, since the majority of branches reject"
+    - "It accepts, since at least one branch accepts"
+    - "It accepts with probability 0.1%, since 1 of 1000 branches accepts"
+    - "The result is undefined — NTMs require all branches to agree"
+  answer: 1
+  explanation: "By definition, an NTM accepts if *any* branch of its computation tree accepts. Rejection requires *all* branches to reject (or loop). This is a logical OR over all branches, not a vote or a probability. A probabilistic TM would accept based on the fraction of accepting branches (option C describes BPP-style computation), but that is a different computational model. The NTM is asking: 'does a solution exist?' not 'how many solutions exist?' This is why NP is naturally characterized by NTMs — NP problems have a 'guess-and-verify' structure where one correct guess suffices."
+
+- question: "Which of the following best describes what an NTM adds beyond the power of a DTM?"
+  type: multiple-choice
+  options:
+    - "It can compute functions that a DTM cannot — it solves undecidable problems"
+    - "It can decide the halting problem, which a DTM cannot"
+    - "It potentially solves certain problems faster (in fewer steps), but computes the same set of functions as a DTM"
+    - "It eliminates the need for exponential time by parallelizing computation physically"
+  answer: 2
+  explanation: "NTMs and DTMs are equivalent in computability — they decide exactly the same set of languages (both characterize Turing-computable functions). An NTM cannot solve the halting problem or any undecidable problem. What NTMs potentially offer is an *efficiency* advantage: an NTM might decide a problem in polynomial time that a DTM requires exponential time to decide. Whether this gap is real for NP vs P problems is precisely the P vs. NP question. Option D misunderstands NTMs as physical parallel computers — they are a theoretical model, not a description of real hardware."
+
+- question: "A nondeterministic Turing machine is just a Turing machine that makes random choices between transitions."
+  type: true-false
+  answer: false
+  explanation: "This is the most important misconception about NTMs. A *probabilistic* Turing machine makes random choices, and its acceptance is defined by the probability of accepting branches. An NTM accepts if *any* branch accepts — there is no randomness or probability. Nondeterminism is a theoretical abstraction for 'existential choice': the machine is defined to succeed if there *exists* a sequence of choices leading to acceptance, regardless of how likely or unlikely any single branch is. NTMs and probabilistic TMs define different complexity classes (NP vs. BPP) and answer different questions."
+
+- question: "An NTM that runs in polynomial time can always be simulated by a DTM in polynomial time."
+  type: true-false
+  answer: false
+  explanation: "This is exactly what the P vs. NP question asks — and the answer is unknown. What we do know is that a DTM can simulate an NTM running in time t(n) in time 2^{O(t(n))} by performing BFS over the computation tree. This simulation is exponentially expensive. If the NTM runs in polynomial time (NP), the DTM simulation costs exponential time. Whether there is always a polynomial-time DTM equivalent is the central open problem in computer science."
+
+- question: "Why is the computation tree the right way to visualize NTM execution, and how does the acceptance condition connect to NP problems in practice?"
+  type: short-answer
+  answer: "An NTM's execution is not a single timeline but a branching tree: at each step where multiple transitions are possible, the machine splits into all possibilities simultaneously. The root is the initial configuration; each path through the tree is one possible sequence of choices. The NTM accepts if any leaf is an accepting state. This models NP problems naturally because NP problems have a 'guess-and-verify' structure: an NTM can nondeterministically guess a candidate solution (one path) and then verify it in polynomial time. If even one guess-path leads to acceptance (a correct solution), the NTM accepts. The difficulty of simulating this with a DTM is that the DTM must search all paths, not just find one."
+  explanation: "The tree visualization makes clear why BFS simulation is expensive: the tree can have exponentially many nodes. It also makes clear why acceptance is 'existential' — the NTM is equivalent to asking 'does an accepting leaf exist?' not 'how many accepting leaves exist?' The SAT problem fits perfectly: an NTM guesses a truth assignment (one path down the tree) and verifies it (the rest of that path) — if any assignment satisfies the formula, one branch accepts."
+```
+
 ## Explainer
 
 You already know that a **deterministic Turing machine (DTM)** processes its input one step at a time, with each configuration uniquely determining the next move. A **nondeterministic Turing machine (NTM)** relaxes this: at each step, the machine may have several valid transitions available. The right mental model is not a single thread of computation but a **computation tree** — the root is the initial configuration, and each node branches into all possible next steps. The NTM accepts an input if *at least one* leaf in this tree is an accepting state. Rejection requires every branch to reject or loop.

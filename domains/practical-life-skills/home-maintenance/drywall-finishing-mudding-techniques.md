@@ -30,6 +30,45 @@ Practice on scrap drywall in a workshop or garage. Start with taping, then apply
 ## Common Misconceptions
 Trying to finish in one thick coat instead of multiple thin coats; not sanding between coats properly; applying compound too thickly which takes forever to dry and cracks easily.
 
+## Questions
+
+```yaml
+- question: "A first-time DIYer wants to finish a drywall seam quickly and decides to apply one thick coat of joint compound, reasoning it will save time and drying cycles. Why will this approach fail?"
+  type: multiple-choice
+  options:
+    - "Thick compound is harder to sand smooth, so the surface will feel rough"
+    - "The compound will shrink as it dries, crack, and leave a visible ridge"
+    - "Thick coats trap moisture and prevent the tape from adhering"
+    - "You cannot feather a thick coat, so the edges will always be visible"
+  answer: 1
+  explanation: "Joint compound shrinks as it loses moisture during drying. A thick coat shrinks unevenly, producing cracks and a raised ridge that will show through paint. Multiple thin coats control this: each layer shrinks a small, manageable amount and can be sanded flat before the next coat adds more material. Speed is not the reason for multiple coats — physics is."
+
+- question: "When applying the third coat of joint compound with a 12-inch knife, a finisher is told to 'feather the edges.' What is feathering actually accomplishing?"
+  type: multiple-choice
+  options:
+    - "Using less compound to save material on a wide area"
+    - "Building a gradual transition from the slightly raised seam center to the flat surrounding wall"
+    - "Ensuring the compound dries faster at the edges where it is thinnest"
+    - "Removing excess compound before it sets too hard to work"
+  answer: 1
+  explanation: "Feathering is not about saving material or drying time — it is about invisible transitions. If compound ends abruptly, the edge will catch light and show through paint as a line or ridge. By tapering the compound to almost nothing across 8–12 inches, you create a ramp so gradual that the eye cannot detect where wall ends and compound begins. The goal is a seamless surface, and feathering is how you achieve it."
+
+- question: "When sanding between coats of joint compound, the goal is to remove large amounts of material to flatten the seam."
+  type: true-false
+  answer: false
+  explanation: "Sanding between coats is light, targeted work — you are knocking off ridges, tooling marks, and high spots left by the knife, not removing large amounts of material. Aggressive sanding risks gouging into the previous coat or damaging the paper tape. The phrase 'build up and remove' refers to the overall process, but the removal phase is precise and minimal, not heavy grinding."
+
+- question: "A thick coat of joint compound will produce an acceptable finish if given extra drying time (48–72 hours instead of 24)."
+  type: true-false
+  answer: false
+  explanation: "Drying time doesn't fix the problem with thick coats. The issue is that thick compound shrinks differentially as it dries — the outside dries and skins over while the inside is still wet, producing cracks. No amount of waiting changes this physics. The solution is thin coats, not patience."
+
+- question: "Why does drywall finishing require multiple thin coats rather than a single thicker application? What physical process makes thick coats fail, and what principle do thin coats exploit instead?"
+  type: short-answer
+  answer: "Joint compound contains water that evaporates as it dries. A thick coat dries unevenly — the surface skins over while the interior stays wet — causing shrinkage, cracking, and raised ridges that show through paint. Thin coats dry uniformly, shrink only slightly, and can be sanded flat before the next layer widens and feathers the transition. Each successive coat is thinner and wider, gradually ramping the compound down to the wall surface. The multi-coat process uses controlled build-up and light material removal to create an imperceptibly gradual surface, which is fundamentally different from simply filling the gap."
+  explanation: "The key insight is that the enemy is thickness, not time. Thin coats work with the drying physics of compound rather than against it. This same principle — build thin layers, allow proper drying, sand between — applies to almost any surface finishing process."
+```
+
 ## Explainer
 
 Drywall finishing is fundamentally a process of building up thin layers and removing material — the opposite of what intuition suggests. When you first encounter a drywall seam, the goal looks deceptively simple: fill it flat. But a single thick application of joint compound will shrink as it dries, crack, and leave a visible ridge. The professional approach uses three or more passes, each one thinner and wider than the last, so the compound gradually blends into the surrounding wall surface across a span of 8–12 inches. Thinness is not about saving material — it is about controlling the physics of drying.

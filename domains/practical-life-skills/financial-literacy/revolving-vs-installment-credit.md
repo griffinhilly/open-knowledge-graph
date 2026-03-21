@@ -30,6 +30,45 @@ Compare a credit card statement showing varying balance and minimum payment with
 ## Common Misconceptions
 All debt is the same—in fact, installment debt is often considered less risky by lenders than high revolving utilization. Revolving credit is always bad when it can be a useful tool if managed properly.
 
+## Questions
+
+```yaml
+- question: "You have one credit card with a $6,000 limit and a $1,800 balance, and you just paid off a second card with a $4,000 limit. Your friend advises you to close the paid-off card to simplify your finances. What will happen to your credit utilization?"
+  type: multiple-choice
+  options:
+    - "It will improve — less total debt means lower utilization"
+    - "It will stay the same — the paid-off card had no balance"
+    - "It will worsen — removing the $4,000 limit raises your utilization ratio"
+    - "It will improve — lenders see fewer open accounts as more responsible"
+  answer: 2
+  explanation: "Closing the paid-off card removes its $4,000 limit from your available revolving credit. Before closing: $1,800 / $10,000 = 18% utilization. After closing: $1,800 / $6,000 = 30% utilization. A higher ratio signals more financial stress, which can lower your credit score. Keeping unused cards open preserves your available credit and keeps utilization low — which is why closing a card you've paid off can hurt rather than help."
+
+- question: "Which of the following best explains why lenders treat high revolving credit utilization as a risk signal?"
+  type: multiple-choice
+  options:
+    - "Revolving credit balances take longer to repay than installment loans"
+    - "Someone consistently using most of their available credit may be spending beyond their means"
+    - "Revolving credit accounts always charge higher interest than installment loans"
+    - "A high balance means you have borrowed more total money than someone with a large mortgage"
+  answer: 1
+  explanation: "Credit utilization is a proxy for financial health. Someone using 90% of their available credit may be doing so because their income doesn't cover expenses — a risk signal for lenders. It's not about the absolute amount borrowed (a $200,000 mortgage is more debt than a $5,000 card balance), but the ratio: how much of your available revolving credit are you relying on? High reliance suggests financial stress."
+
+- question: "Unlike a late payment, damage to your credit score from high revolving credit utilization can be undone relatively quickly by paying down balances."
+  type: true-false
+  answer: true
+  explanation: "Utilization is recalculated every billing cycle when your balance is reported to the credit bureaus. Pay down a high balance this month and your score can recover quickly next month. Late payments, by contrast, stay on your credit report for up to 7 years and reflect a history of behavior, not a snapshot. This is why utilization damage is reversible in a way that payment history damage is not."
+
+- question: "Installment debt (like a mortgage or car loan) is considered riskier by lenders than revolving debt at high utilization."
+  type: true-false
+  answer: false
+  explanation: "This is the opposite of what lenders believe. Installment debt is viewed as evidence of responsible long-term borrowing — you took on a structured obligation and make regular fixed payments. High revolving utilization (not installment debt itself) is the warning sign. The misconception may arise from the fact that mortgages are large loans, but size alone doesn't determine how lenders assess credit risk."
+
+- question: "Why does closing a credit card you've fully paid off sometimes hurt your credit score rather than help it?"
+  type: short-answer
+  answer: "Closing the card reduces your total available revolving credit, which raises your credit utilization ratio — the percentage of your available credit you're currently using. Even though your balance didn't change, the denominator (available credit) shrinks, so the ratio increases."
+  explanation: "Credit scoring models care about the ratio, not just the balance. A $2,000 balance on $10,000 available is 20% utilization; the same $2,000 on $6,000 available (after closing a $4,000-limit card) is 33% — above the ~30% threshold where scores start to suffer. Keeping old cards open preserves available credit and keeps utilization low, even if you never use them."
+```
+
 ## Explainer
 
 You know from your prerequisites how credit scores are calculated and why they matter. Now let's look at the two fundamentally different structures of debt, because understanding the difference changes how you manage both your borrowing and your score.

@@ -31,6 +31,45 @@ Collect class data (favorite fruits, pet preferences) and create a bar graph tog
 - Not labeling axes clearly.
 - Confusing the title with the category labels.
 
+## Questions
+
+```yaml
+- question: "A bar graph shows bars for cats, dogs, and fish. The dog bar is exactly twice the height of the fish bar. What can you conclude?"
+  type: multiple-choice
+  options:
+    - "There are exactly 2 more dogs than fish"
+    - "Twice as many people chose dogs as chose fish"
+    - "Dogs are more popular than cats"
+    - "The difference between dogs and fish is unknown without the actual numbers"
+  answer: 1
+  explanation: "If a bar is twice the height, it represents twice the quantity. The ratio of bar heights directly reflects the ratio of counts. This is the core visual-comparison purpose of bar graphs. Option A confuses ratio (twice as many) with difference (2 more). Option C is a non-sequitur — we don't know how the cat bar compares without seeing it."
+
+- question: "A bar graph has no label on its vertical axis. Why does this make the graph impossible to interpret fully?"
+  type: multiple-choice
+  options:
+    - "It doesn't matter — you can read the relative heights of bars without a label"
+    - "Without knowing what the vertical axis numbers represent, you cannot answer 'how many?' questions"
+    - "The title alone is enough to understand the graph"
+    - "Only the horizontal axis label is necessary"
+  answer: 1
+  explanation: "Bar height represents quantity, but quantity of what? Without a vertical axis label, you don't know if bars represent people, votes, dollars, or animals. You can see that one bar is taller (relative comparison), but you can't interpret the actual values or answer 'how many?' Both axis labels are essential for a graph to be fully readable."
+
+- question: "A bar graph lets you compare categories at a glance in a way that a plain list of numbers does not."
+  type: true-false
+  answer: true
+  explanation: "This is the core purpose of bar graphs. When quantities are represented as bar heights, visual comparison is immediate — taller bars stand out without reading numbers. A list like '7, 3, 9, 5' requires active reading and mental comparison; a bar graph makes the same comparison nearly effortless. The visual encoding does cognitive work for the reader."
+
+- question: "The title of a bar graph tells you what the categories are, so axis labels are not needed."
+  type: true-false
+  answer: false
+  explanation: "The title describes the graph's general subject (e.g., 'Favorite Fruits in Our Class') but does not identify the specific categories on each axis or what units the numbers represent. Axis labels specify categories (horizontal) and what the numbers mean (vertical — e.g., 'Number of Students'). Without them, even a titled graph is ambiguous and cannot be fully interpreted."
+
+- question: "Why does bar height represent quantity, and how do you use that to compare two categories?"
+  type: short-answer
+  answer: "Each bar is drawn to a height that matches the count for its category — taller bar means more items. To compare two categories, you compare bar heights: the taller bar has a larger count. For exact numbers, you read the height against the vertical axis scale."
+  explanation: "The key insight is that physical height encodes quantity, converting an abstract number into a visual magnitude that the eye grasps instantly. This visual representation is why graphs exist — to transform data comparison from a mental calculation into a perceptual one."
+```
+
 ## Explainer
 
 You've already worked with data — collecting information and organizing it into groups. A **bar graph** is a way to display that organized data so that comparisons jump out at a glance. Instead of reading a list of numbers, you can see at once which category is biggest, which is smallest, and how they compare to each other.

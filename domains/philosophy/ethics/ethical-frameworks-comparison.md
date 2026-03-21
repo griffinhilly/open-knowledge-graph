@@ -33,6 +33,45 @@ Apply different frameworks to a single case: lying to save a life. Consequential
 ## Common Misconceptions
 - Assuming frameworks are entirely incommensurable (they often agree on concrete cases even when they disagree in theory). - Thinking one framework must be correct (many philosophers believe frameworks capture different moral truths that sometimes conflict). - Overlooking hybrid views (many ethicists blend frameworks, e.g., consequentialists who accept some deontological constraints).
 
+## Questions
+
+```yaml
+- question: "In the classic trolley problem, a runaway trolley will kill five people unless you divert it onto a side track, killing one. How do consequentialism and deontology most clearly diverge here?"
+  type: multiple-choice
+  options:
+    - "Consequentialism forbids diverting because it causes the one person's death; deontology permits it because five lives outweigh one"
+    - "Consequentialism permits diverting because five saved outweighs one lost; deontology may prohibit it because it uses the one person as a means to save the five"
+    - "Both frameworks prohibit the action, but for entirely different reasons"
+    - "Deontology endorses diverting because rules about saving lives are absolute; consequentialism prohibits it to protect individual rights"
+  answer: 1
+  explanation: "Consequentialism (act-utilitarianism) favors the action producing the best net outcome: five lives saved vs. one lost. Deontology — particularly Kantian ethics — asks whether the action violates a duty. Some deontologists argue that diverting the trolley makes you morally responsible for using the one person as a means to save others, which violates the categorical imperative regardless of the outcome. This is the paradigmatic case showing how the frameworks identify different features of a situation as morally fundamental."
+
+- question: "A student claims: 'Once I determine which ethical theory is correct, I can derive the right answer to any moral question.' Which response best reflects the sophisticated pluralist view?"
+  type: multiple-choice
+  options:
+    - "This is correct — the right theory provides a complete decision procedure for all cases"
+    - "This underestimates complexity — even the correct theory requires judgment in application"
+    - "Each framework captures different moral truths; treating them as lenses rather than competitors helps identify what each reveals that the others miss"
+    - "This is wrong because ethics is entirely subjective and no framework is more valid than another"
+  answer: 2
+  explanation: "The sophisticated position is pluralism: using frameworks as complementary lenses rather than picking one winner. Consequentialism focuses attention on outcomes and welfare; deontology on rights and duties; virtue ethics on character and motivation. When they agree, you have strong grounds for confidence; when they diverge, you face a genuine conflict requiring judgment. Claiming one framework provides all the answers ignores both the characteristic blind spots of each theory and the genuine moral insights the others contribute."
+
+- question: "Two ethical frameworks can give the same verdict on a moral case — both prohibiting the same action — while giving completely different reasons, and those different reasons still matter for analyzing harder cases."
+  type: true-false
+  answer: true
+  explanation: "The organ harvest example illustrates this: consequentialism, deontology, and virtue ethics all prohibit harvesting the healthy patient's organs, but for different reasons. This matters because in a slightly different case — say, where the numbers are more extreme — the frameworks may diverge. The reasoning carries predictive power for edge cases even when it doesn't change a given verdict. Understanding why each framework prohibits the action is the starting point for reasoning about harder dilemmas."
+
+- question: "Virtue ethics is better suited than other frameworks for resolving large-scale policy and institutional ethics questions because its focus on character gives it superior practical guidance."
+  type: true-false
+  answer: false
+  explanation: "Virtue ethics faces what the literature calls the 'guidance problem': it tells you to act as a person of practical wisdom would act, which is unhelpful if you're still developing that wisdom. It also struggles with institutional questions where individual character isn't the operative variable — designing a tax policy or regulating AI requires attending to aggregate outcomes and rights-based constraints more directly than to the character of the decision-maker. Each framework has characteristic blind spots, and virtue ethics' is large-scale institutional and policy reasoning."
+
+- question: "What is the 'guidance problem' in virtue ethics, and what does it reveal about the limits of relying on a single ethical framework?"
+  type: short-answer
+  answer: "The guidance problem is that virtue ethics tells you to act as a person of good character with practical wisdom would act — but this is circular for someone still developing moral judgment. You cannot identify the right action by asking 'what would a virtuous person do?' if you don't already have enough virtue to recognize the answer. This reveals a broader limitation: each framework excels at illuminating certain moral features but fails to cover all cases. A sophisticated ethical thinker uses frameworks as complementary lenses rather than relying on one theory to answer every question."
+  explanation: "The guidance problem is not a fatal flaw — virtue ethics remains enormously valuable for questions of character, motivation, and contextual judgment. But it shows why ethical reasoning requires judgment rather than algorithm-following, and why comparing frameworks matters. Knowing what each framework sees and what it misses is the beginning of genuine moral reasoning about hard cases."
+```
+
 ## Explainer
 
 You've studied the three major normative ethical frameworks individually — consequences, duties, and virtue — and now the task is to understand how they relate to each other, where they agree, where they diverge, and what each reveals that the others obscure. Comparing frameworks is not about picking a winner; it is about developing a mature moral vocabulary that can engage with complexity.

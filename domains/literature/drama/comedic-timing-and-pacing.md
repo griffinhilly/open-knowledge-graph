@@ -30,6 +30,45 @@ Watch skilled comic performances and note how variations in pacing, pauses, and 
 ## Common Misconceptions
 Comedic timing is not intuitive or purely instinctive—it's a learnable technical skill that becomes internalized through practice and observation.
 
+## Questions
+
+```yaml
+- question: "A stand-up comedian delivers a well-written punchline but gets no laughs. A colleague who watched says 'the material was fine — you killed the laugh.' What most likely happened?"
+  type: multiple-choice
+  options:
+    - "The comedian chose the wrong topic for this audience"
+    - "The comedian spoke the next line immediately after the punchline, cutting into the beat before the audience could laugh"
+    - "The punchline was too complex for this audience to follow"
+    - "The comedian's voice was too quiet for the room"
+  answer: 1
+  explanation: "The beat after the punchline is where the laugh lives. Delivering the next line too quickly cuts into that space and prevents the audience from laughing — the comedian 'kills the laugh' by not leaving room for it. This is a common technical mistake that has nothing to do with the quality of the material. Understanding this is the key insight: timing controls whether good material lands."
+
+- question: "Why can an extended pause — doing nothing — sometimes be the most powerful comedic technique?"
+  type: multiple-choice
+  options:
+    - "Pauses signal that the performer is uncertain, which creates sympathy and goodwill"
+    - "The silence builds anticipation and lets the audience's imagination work, making the eventual response funnier by contrast"
+    - "Audiences always interpret long pauses as intentional, so they laugh out of respect"
+    - "Pauses work universally across all comedy styles and audiences"
+  answer: 1
+  explanation: "The pause is counterintuitive because doing nothing is active: it allows tension to build, anticipation to escalate, and the audience to fill the silence with their own expectations. Jack Benny's multi-second pauses generated laughter before he said anything because the waiting itself became the joke. This illustrates a broader principle: the space around the joke is part of the joke, not dead air to be avoided."
+
+- question: "Comedic timing is primarily a natural talent — performers either have it or they don't."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about comedic timing. The topic's core insight is that timing is a learnable technical skill that becomes internalized through practice and observation. What looks like instinct from the outside is finely calibrated technique developed over time. Skilled comics continuously adjust to audience feedback in real time — that adaptation itself requires learned skill, not just natural gift."
+
+- question: "The same joke delivered at different paces to the same audience can produce significantly different amounts of laughter."
+  type: true-false
+  answer: true
+  explanation: "This is the foundational claim of comedic timing as a technical discipline. The material is constant; what changes is the rhythm, the placement of the beat, the pace of delivery. A punchline delivered too quickly doesn't give the audience time to process; delivered too slowly, the tension deflates. The same words at the right tempo produce laughter that the same words at the wrong tempo do not — proving that timing is doing real work independent of content."
+
+- question: "Why does 'reading the room' matter for comedic timing, and what does it mean in practice?"
+  type: short-answer
+  answer: "Comedic timing is contextual and social — different audiences, cultures, and settings have different rhythms, tolerances for silence, and expectations about how quickly jokes should land. 'Reading the room' means continuously monitoring audience feedback (laughter, restlessness, silence) and adjusting beat lengths, pacing, and energy in real time to match what this specific audience responds to."
+  explanation: "Timing is not a fixed formula applied identically every performance. A pause that works for a New York audience might feel too long elsewhere; a rapid-fire delivery style might feel uncomfortable where slower pacing is the norm. Learning comedic timing means learning to listen as much as to perform — the performer calibrates to the audience rather than imposing a predetermined rhythm."
+```
+
 ## Explainer
 
 Comedy, as you learned in comic structure, depends on a particular relationship between expectation and surprise: the setup establishes a pattern, the punchline violates it in a way that is simultaneously unexpected and retrospectively inevitable. But knowing *what* to say is only half of comedy. The other half is knowing *when and how* to say it — and this is where timing enters. Timing is the dimension of comedy that operates in real time, in performance, and it is what separates a mediocre comedian delivering a brilliant joke from a brilliant comedian delivering a mediocre one. The material matters; the delivery matters more.

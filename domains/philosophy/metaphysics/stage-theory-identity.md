@@ -30,6 +30,45 @@ Compare stage theory systematically with four-dimensionalism and three-dimension
 ## Common Misconceptions
 Thinking stage theory means nothing persists or truly changes. Confusing stage theory with presentism or the growing block theory.
 
+## Questions
+
+```yaml
+- question: "A person undergoes fission: their brain is divided and each half implanted in a different body, producing two people (A and B) who both remember being the original. How does stage theory handle this case?"
+  type: multiple-choice
+  options:
+    - "Both A and B are strictly identical to the original person, making them identical to each other — a violation of transitivity that stage theory accepts"
+    - "Neither A nor B is the original person; the original person ceased to exist at the moment of fission"
+    - "The pre-fission stage is related to both post-fission stages by the counterpart relation, with no violation of strict identity because identity was never what connected stages across time"
+    - "Fission shows that stage theory is false, since it implies a person can become two people"
+  answer: 2
+  explanation: "Stage theory's elegance on fission cases is one of its main selling points. Because temporal 'persistence' is a counterpart relation (causal and resemblance connections among distinct stages), not strict identity, there is no requirement that a stage have exactly one continuation. The pre-fission stage simply has two successor stages, each related to it by the counterpart relation. No identity violation occurs because identity was never the relationship at issue. This contrasts with worm theory, which must explain how one four-dimensional worm becomes two — a genuinely awkward result."
+
+- question: "According to stage theory, when we say 'Maria was sitting yesterday and is standing today,' the correct analysis is:"
+  type: multiple-choice
+  options:
+    - "The same four-dimensional entity (Maria) has temporally indexed properties: sitting-at-t₁ and standing-at-t₂"
+    - "Two distinct stages — one that is simply sitting and one that is simply standing — are related by the counterpart relation, with no contradiction"
+    - "The statement is literally false because no entity strictly persists from yesterday to today"
+    - "Maria is a temporal worm whose yesterday-part has the property of sitting and whose today-part has the property of standing"
+  answer: 1
+  explanation: "Stage theory's handling of temporary properties is one of its chief motivations. Because the yesterday-stage and today-stage are numerically distinct objects, each can have its property simply and absolutely: the yesterday-stage is sitting, full stop; the today-stage is standing, full stop. No temporal indexing is needed. This differs from both worm theory (option D, which requires attributing properties to temporal parts of an extended worm) and three-dimensionalism (which requires indexing to avoid contradiction). Option A describes worm theory with temporal indexing, not stage theory."
+
+- question: "On stage theory, when you say 'I will exist tomorrow,' you are making a claim about a future stage in your continuation-series, not a claim about your own future existence in the strict numerical sense."
+  type: true-false
+  answer: true
+  explanation: "This is one of the most striking implications of stage theory. Since you are a stage — a brief temporal slice — you literally will not exist tomorrow; a numerically distinct but causally continuous stage will exist. 'I will exist tomorrow' is therefore understood as a claim about a future stage that stands in the right counterpart relation to the present stage. This may seem paradoxical but it is internally consistent: ordinary language about persistence is reinterpreted in terms of counterpart relations among distinct stages."
+
+- question: "Stage theory and worm theory agree that strict numerical identity holds between a person at different times — they merely disagree about whether persons are three-dimensional or four-dimensional entities."
+  type: true-false
+  answer: false
+  explanation: "This is a fundamental mischaracterization. Both stage theory and worm theory accept a four-dimensionalist ontology where temporal stages exist. But they differ crucially on identity: worm theory says the same entity (the four-dimensional worm) is present at different times via its temporal parts, so strict identity holds across time. Stage theory says that what we point to is the stage itself, and the stage-at-t₁ is numerically distinct from the stage-at-t₂ — identity does not hold across times. What replaces identity is a counterpart relation. This is the core disagreement."
+
+- question: "What problem about temporary properties motivates stage theory, and how does stage theory resolve it more cleanly than worm theory?"
+  type: short-answer
+  answer: "The problem: if the same object is both sitting (yesterday) and standing (today), it seems to have contradictory properties. Worm theory resolves this by attributing properties to different temporal parts of the four-dimensional worm and indexing properties to times (sitting-at-t₁, standing-at-t₂), but this relational move seems to change the nature of property attribution. Stage theory resolves it more cleanly by denying that the same object is involved at both times at all. The yesterday-stage simply is sitting, the today-stage simply is standing — both have their properties absolutely, not relationally. The contradiction dissolves because no single object ever has both properties."
+  explanation: "This also shows why stage theory is not merely terminological. The metaphysics of property attribution differs: worm theory introduces temporal relativization of intrinsic properties (which some find objectionable), while stage theory preserves the absolute attribution of intrinsic properties by multiplying objects. Which resolution is more parsimonious is itself a substantive metaphysical question."
+```
+
 ## Explainer
 
 From your study of **four-dimensionalism**, you know that one major view treats persisting objects as extended through time as well as space — a person, on this view, is a four-dimensional entity whose temporal parts or "stages" are as real as its spatial parts. Stage theory accepts this ontological picture but draws a surprising conclusion about identity: when you point to yourself today, you are not pointing to the whole four-dimensional worm. You are pointing to a **stage** — an instantaneous or very brief temporal slice — and that stage is the person.

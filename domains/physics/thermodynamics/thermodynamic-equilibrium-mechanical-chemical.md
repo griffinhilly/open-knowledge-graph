@@ -32,6 +32,45 @@ Examine systems approaching equilibrium from non-equilibrium states: gas diffusi
 - Confusing static equilibrium (mechanics) with thermodynamic equilibrium.
 - Assuming any single criterion (e.g., constant T) guarantees full equilibrium.
 
+## Questions
+
+```yaml
+- question: "A rigid, thermally insulated container holds a mixture of H₂ and O₂ at perfectly uniform temperature and pressure. Has the system reached thermodynamic equilibrium?"
+  type: multiple-choice
+  options:
+    - "Yes — uniform temperature and pressure satisfy all equilibrium conditions."
+    - "Not necessarily — chemical equilibrium also requires Σνᵢμᵢ = 0 for all reactions, which may not yet hold."
+    - "Yes — rigidity guarantees mechanical equilibrium and insulation guarantees thermal equilibrium."
+    - "No — thermodynamic equilibrium is impossible in a rigid container because boundaries always transmit some energy."
+  answer: 1
+  explanation: "Uniform T satisfies thermal equilibrium; rigidity with uniform P satisfies mechanical equilibrium. But thermodynamic equilibrium requires all three conditions simultaneously. H₂ and O₂ can react (2H₂ + O₂ → 2H₂O), and if this reaction has not reached its equilibrium composition, chemical potentials are unbalanced and the system will spontaneously evolve. Uniform T and P are necessary but not sufficient; without verifying Σνᵢμᵢ = 0 for all reactions, full thermodynamic equilibrium cannot be assumed."
+
+- question: "What drives particles to flow between two regions, and what condition is satisfied when chemical equilibrium is reached?"
+  type: multiple-choice
+  options:
+    - "Particles flow from low to high chemical potential, like water flowing uphill; equilibrium requires equal pressure."
+    - "Particles flow from high to low chemical potential; equilibrium requires chemical potential to be uniform throughout for each species."
+    - "Particles flow due to temperature gradients; chemical equilibrium requires equal temperatures everywhere."
+    - "Particles move randomly with no directional tendency; equilibrium is reached when all molecular motion ceases."
+  answer: 1
+  explanation: "Chemical potential μ = (∂G/∂N)_{T,P} is the Gibbs free energy per particle. Just as heat flows from high T to low T and pressure drives volume change, particles flow from high μ to low μ — from regions where adding a particle is energetically costly to regions where it is cheap. Chemical equilibrium requires μ to be uniform for each species throughout the system: no gradient, no net flow. For chemical reactions, equilibrium requires Σνᵢμᵢ = 0, meaning the chemical potentials of reactants and products are exactly balanced."
+
+- question: "A system can be in thermal and mechanical equilibrium while still not being in full thermodynamic equilibrium."
+  type: true-false
+  answer: true
+  explanation: "Thermodynamic equilibrium requires three simultaneous conditions: thermal (uniform T), mechanical (uniform P, no net forces on movable boundaries), and chemical (uniform μ for each species, no net reaction). A system satisfying the first two can still be undergoing chemical reaction. A rigid insulated container with a slow-reacting mixture is in thermal and mechanical equilibrium throughout the reaction — but not thermodynamic equilibrium until the reaction reaches completion (Σνᵢμᵢ = 0). Partial equilibrium is common in practice and is often exploited as a useful approximation."
+
+- question: "A gas mixture at uniform temperature and pressure must be at thermodynamic equilibrium, since no driving forces remain for heat flow or mechanical work."
+  type: true-false
+  answer: false
+  explanation: "Uniform T eliminates the driving force for heat flow, and uniform P eliminates the driving force for volume work. But these two conditions say nothing about whether chemical reactions are proceeding or whether species are diffusing due to chemical potential gradients. A mixture at uniform T and P can be far from chemical equilibrium — for example, H₂ + Cl₂ → 2HCl proceeds at uniform T and P until the equilibrium composition is reached. Thermodynamic equilibrium requires all three driving forces (thermal, mechanical, chemical) to vanish simultaneously."
+
+- question: "Explain why thermodynamic equilibrium requires three simultaneous conditions rather than just thermal equilibrium (uniform temperature)."
+  type: short-answer
+  answer: "Temperature uniform throughout means heat will not flow spontaneously — thermal equilibrium is satisfied. But a system can have uniform T while still having pressure gradients that drive mechanical work, or chemical potential gradients that drive diffusion and reaction. Each condition corresponds to a different mode of spontaneous change: thermal gradients drive heat flow, pressure gradients drive volume change, and chemical potential gradients drive matter flow and chemical reactions. Thermodynamic equilibrium means all spontaneous processes have ceased simultaneously — all three driving forces must vanish at once."
+  explanation: "This is why thermodynamic equilibrium is a richer concept than mechanical equilibrium. In mechanics, equilibrium means no net force. In thermodynamics, 'forces' include temperature differences (driving heat flow), pressure imbalances (driving mechanical work), and chemical potential differences (driving diffusion and reaction). A system is truly at rest — at thermodynamic equilibrium — only when none of these thermodynamic driving forces remain. Partial equilibrium (thermal + mechanical, but not chemical) is common when reactions are slow and is often the appropriate approximation for thermodynamic analysis."
+```
+
 ## Explainer
 
 The zeroth law gave you thermal equilibrium: two systems in contact with no heat flow have the same temperature. Temperature-and-thermal-equilibrium deepened this by connecting temperature to the tendency of energy to distribute among microstates. Thermodynamic equilibrium extends this logic to *all* the ways a system can exchange things across its boundary — not just heat, but also mechanical work (volume exchange) and matter (particle exchange). Full equilibrium requires all three driving forces to vanish simultaneously.

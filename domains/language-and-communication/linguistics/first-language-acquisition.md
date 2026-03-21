@@ -30,6 +30,45 @@ Study longitudinal transcripts from the CHILDES database to observe how a single
 - Babbling is not random noise; it increasingly reflects the phonological patterns of the ambient language, and deaf infants exposed to sign language "babble" with their hands.
 - Parents do not explicitly teach grammar to children; corrective feedback ("No, say 'went'") is rare and largely ineffective compared to the child's internal rule-building process.
 
+## Questions
+
+```yaml
+- question: "A two-year-old child correctly used the word 'went' for several months but now consistently says 'goed.' A concerned parent concludes the child is regressing. What does a linguist conclude instead?"
+  type: multiple-choice
+  options:
+    - "The child has been exposed to non-standard dialect forms and is copying them"
+    - "The child has acquired the regular past-tense rule (-ed) and is now applying it productively, demonstrating active rule construction rather than memorization"
+    - "The child's language development has stalled and early speech therapy is advisable"
+    - "The child is confusing English with another language they are learning simultaneously"
+  answer: 1
+  explanation: "This is the classic 'U-shaped learning curve' and it is evidence of rule construction, not regression. The child initially used 'went' by memorization (treating it as a stored item). After acquiring the productive rule for forming past tense (add -ed), they overgeneralize it to irregular verbs, producing 'goed.' This overgeneralization phase proves the child has extracted an abstract grammatical rule — something no mere memorization system would produce. Eventually, 'went' is re-learned as an exception."
+
+- question: "What does the poverty of the stimulus argument claim, and what does it motivate theoretically?"
+  type: multiple-choice
+  options:
+    - "Children hear too little language, so parents must actively teach grammar for acquisition to succeed"
+    - "The linguistic input children receive is too incomplete, noisy, and limited to fully explain the grammar they acquire through learning alone, motivating the hypothesis of an innate grammatical endowment"
+    - "Stimulus-response conditioning explains language acquisition; children just need enough positive reinforcement"
+    - "The environment is so impoverished that language acquisition always results in simplified, non-adult grammars"
+  answer: 1
+  explanation: "The poverty of the stimulus argument (Chomsky) observes that children correctly use complex grammatical constructions they have never heard exemplified, and they are rarely corrected for grammatical errors. The input they receive is too fragmentary and noisy to specify the grammar they converge on. This gap between input and outcome motivates the hypothesis that learners bring innate grammatical constraints — a Language Acquisition Device (LAD) — that restricts the hypothesis space and directs the learning process toward adult grammar."
+
+- question: "Overgeneralization errors like 'goed' and 'foots' are evidence that children construct grammatical rules rather than simply memorizing word forms."
+  type: true-false
+  answer: true
+  explanation: "Memorization would predict that children produce exactly what they have heard — if they heard 'went,' they would produce 'went.' But children who have correctly used 'went' begin producing 'goed' after acquiring the past-tense rule. This can only happen if they are applying an abstract rule (-ed suffix) to a new domain (irregular verbs). The overgeneralization is direct evidence of productive rule application, which is exactly what the nativist account predicts: children are not recorders, they are grammar builders."
+
+- question: "Deaf children do not babble because babbling is an auditory feedback process that requires the ability to hear one's own vocalizations."
+  type: true-false
+  answer: false
+  explanation: "Deaf infants exposed to sign language 'babble' manually — producing repetitive, patterned hand shapes that mirror the phonological structure of the signed language they are exposed to. This finding shows that babbling is not dependent on the auditory modality but reflects the general process of language-specific phonological tuning, regardless of the channel (spoken vs. signed). It is one of the strongest arguments that babbling is a language-developmental milestone, not merely a consequence of hearing."
+
+- question: "Explain what overgeneralization errors reveal about how children acquire language, and how this evidence bears on the debate between nativist and constructivist accounts."
+  type: short-answer
+  answer: "Overgeneralization errors (e.g., 'goed,' 'foots,' 'mouses') show that children extract abstract grammatical rules from the input and apply them productively to new cases — including irregular forms that violate the rule. This is inconsistent with pure memorization or imitation. Nativists argue this supports the LAD hypothesis: children are biologically prepared to extract grammar, and the rules they generalize reflect the abstract structure of human language. Constructivists argue children are powerful statistical learners who extract patterns without dedicated grammatical machinery. Both accounts must explain why children make systematic rule-based errors across all languages rather than language-specific random mistakes."
+  explanation: "The u-shaped curve (correct → overgeneralized → correct again) is particularly compelling because it shows that earlier 'correct' forms were stored items, not rule applications. The child then learns the rule, temporarily produces errors, and finally learns the exception. This developmental trajectory is difficult to explain by pure reinforcement or memorization, and it has been a central piece of evidence in debates about the nature of language acquisition for decades."
+```
+
 ## Explainer
 
 Your prerequisite study of language acquisition gave you the broad landscape: children learn language, and they do so without formal instruction. First language acquisition narrows the lens to trace exactly how that process unfolds, stage by stage, and to ask the deeper question — how is it even possible? The developmental sequence is one of the most reliably documented facts in all of linguistics, and the explanation for it remains one of the most contested.

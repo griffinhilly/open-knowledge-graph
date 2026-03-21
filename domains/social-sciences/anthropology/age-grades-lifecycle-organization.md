@@ -31,6 +31,45 @@ Study ethnographic accounts of specific age-grade systems (e.g., Samburu or Nuer
 - Assuming age always ranks linearly (young to old); some systems have complex non-linear statuses.
 - Overlooking how gender often structures age systems differently for men and women.
 
+## Questions
+
+```yaml
+- question: "Among the Maasai, a man in the junior warrior age grade feels personally ready — by experience and temperament — to take on the deliberative responsibilities of an elder. Why is this institutionally impossible, regardless of his personal maturity?"
+  type: multiple-choice
+  options:
+    - "Elders must be elected by the community, and elections only occur every decade"
+    - "Age-grade transitions are collective — the entire cohort advances together through ritual ceremony, not through individual achievement or readiness"
+    - "The man would need to demonstrate warrior credentials to a panel of senior elders before being considered for promotion"
+    - "There are no formal mechanisms for transitioning between grades; people simply assume elder roles as they age"
+  answer: 1
+  explanation: "The critical feature of age-grade systems is that transitions are *collective and ritualized*, not individual and achieved. An age set — a cohort of peers — moves through grades together. Individual readiness is irrelevant; what matters is whether the cohort as a whole has reached the transition point. This is what distinguishes age grades from modern meritocratic advancement. Options A and C import Western institutional logics that don't apply; option D gets the mechanism exactly backwards."
+
+- question: "What is the primary social significance of age grades being *corporate groups* rather than simple demographic categories like 'people in their 30s'?"
+  type: multiple-choice
+  options:
+    - "Corporate groups have formal legal status recognized by outside governments, making age grades more enforceable"
+    - "Corporate groups have collective responsibilities, shared identity, and authority — making age grades active social actors that can own resources, enforce norms, and negotiate with other groups across kinship lines"
+    - "Being a corporate group means age-grade membership is inherited, just like clan membership in kinship systems"
+    - "Corporate groups require written charters, which gives age-grade transitions legal weight"
+  answer: 1
+  explanation: "A corporate group is not just a label — it is an organized social unit with collective functions. Age grades, like lineages in kinship systems, can hold authority, enforce obligations on members, and act as a collective in relation to other groups. Crucially, age-grade corporate membership cuts across kinship divisions, creating loyalty structures that can de-escalate conflicts that lineage affiliations would otherwise intensify. Options A, C, and D import irrelevant features from other institutional contexts."
+
+- question: "In many age-grade societies, an entire cohort of peers is initiated and promoted together through elaborate ceremonies, regardless of individual variation in maturity or accomplishment."
+  type: true-false
+  answer: true
+  explanation: "Collective transition is a defining feature of age-grade systems. The cohort — the age set — is the unit of social movement through grades. Initiation ceremonies mark the passage of the group, not individuals. This collective structure is what creates the shared identity and peer solidarity that makes age sets durable social bonds. It is precisely the difference between an age-grade system and a meritocratic system of individual advancement."
+
+- question: "Age-grade systems typically apply uniformly to all members of society regardless of gender, since age is a universal biological fact."
+  type: true-false
+  answer: false
+  explanation: "Gender typically structures age-grade systems asymmetrically and often profoundly differently. In many East African societies, men's grades are explicitly ranked and tied to political-military functions (warrior, elder), while women's transitions are organized around reproductive status (marriage, motherhood). The grades, ceremonies, privileges, and obligations for men and women are often entirely separate and carry different social weights. Reading age-grade systems as if they apply uniformly across gender is a common error that obscures these asymmetries."
+
+- question: "How do age-grade solidarities differ from kinship solidarities, and why might cross-cutting age-grade bonds matter for social cohesion in societies with strong lineage divisions?"
+  type: short-answer
+  answer: "Kinship bonds tie people to family members — lineages, clans — creating strong loyalties within descent groups but also the basis for inter-group conflict. Age-grade solidarities tie people to peers born at the same time who were initiated together, cutting across lineage divisions. Someone may share an age set with members of rival clans, creating bonds of loyalty that compete with lineage loyalty. When inter-lineage conflicts arise, age-set members from opposing lineages have a countervailing interest in resolving the conflict. Cross-cutting solidarities reduce the intensity of any single cleavage by ensuring that most individuals have competing loyalties pulling in different directions."
+  explanation: "The sociological concept here is that cross-cutting cleavages reduce polarization: when social divisions overlap (everyone is in the same category on multiple dimensions), conflict intensifies; when they cross-cut (you and I are rivals on one dimension but allies on another), conflict is moderated. Age-grades institutionalize cross-cutting solidarity."
+```
+
 ## Explainer
 
 Age-grade systems are a solution to a problem every society faces: how do you allocate roles and responsibilities across a population with diverse ages and experience levels? Your prerequisite — social organization through kinship — gave you one answer: base social status on who you are related to, placing people in lineages, clans, and family groups. Age-grade systems offer a parallel but distinct principle: base social status on *when* you were born and where you stand in the lifecycle, placing people in cohorts that move through the social structure together. The two principles often coexist and interlock, but age-grading creates solidarities that cross-cut kinship lines in socially significant ways.

@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Competing risks occur when individuals may experience one of several mutually exclusive events. Standard Kaplan-Meier and Cox methods are inappropriate because censoring is not independent. Cumulative incidence functions and competing risk regression properly estimate the probability of each event.
 
+## Questions
+
+```yaml
+- question: "In a study of cancer mortality among elderly patients, 30% of participants die of heart disease before the study ends. If researchers treat heart disease deaths as censored in a Kaplan-Meier analysis of cancer mortality, what will happen to their estimated cancer mortality probability?"
+  type: multiple-choice
+  options:
+    - "It will be unbiased, because KM handles censoring correctly by design"
+    - "It will be underestimated, because removing heart disease deaths reduces the effective sample size"
+    - "It will be overestimated, because censored patients are assumed to continue facing cancer mortality risk they no longer actually face"
+    - "It will be correct only if heart disease and cancer risks are uncorrelated in the population"
+  answer: 2
+  explanation: "When a patient dies of heart disease, they can never subsequently die of cancer — the competing event eliminates the cancer risk entirely. KM treats these patients as if they were merely lost to follow-up, implicitly assuming they continue to face the same cancer mortality risk as surviving patients. This inflates the estimated probability because the denominator of 'surviving and at risk' patients is too large. In elderly populations with high competing mortality, this overestimation can be dramatic — sometimes double the true probability."
+
+- question: "A trialist wants to know: 'Does treatment A reduce the probability that a patient will eventually die of cardiovascular disease?' A statistician recommends Fine-Gray subdistribution hazard regression rather than cause-specific Cox regression. Why?"
+  type: multiple-choice
+  options:
+    - "Fine-Gray handles non-proportional hazards better than cause-specific Cox regression"
+    - "Fine-Gray directly models the cumulative incidence function, so its coefficients reflect the treatment effect on the observable probability of the event"
+    - "Cause-specific Cox regression cannot be used when competing events are present"
+    - "Fine-Gray requires fewer modeling assumptions than cause-specific Cox regression"
+  answer: 1
+  explanation: "The key is what each model estimates. Cause-specific Cox regression models the hazard among those still at risk — it answers 'does treatment affect the underlying cardiovascular disease process?' Fine-Gray directly models a covariate's effect on the CIF — the probability a patient will experience the event — which is exactly what the trialist wants. The choice is scientific, not statistical: both models make proportional hazards assumptions; neither handles non-proportionality better. Cause-specific regression can absolutely be used when competing events are present."
+
+- question: "The sum of the cumulative incidence functions for all competing events at any time point t equals 1."
+  type: true-false
+  answer: false
+  explanation: "The CIFs for all competing events sum to 1 − S(t), where S(t) is the overall survival probability. This is less than 1 because survival is always possible — at time t, some individuals have not yet experienced any event. The CIFs partition the probability of having had some event by time t, not the total probability mass. Only as t → ∞ (and assuming everyone eventually experiences an event) would the sum approach 1."
+
+- question: "When competing risks are present, Fine-Gray subdistribution regression is statistically superior to cause-specific Cox regression because it uses more of the data."
+  type: true-false
+  answer: false
+  explanation: "This framing misunderstands the relationship. Fine-Gray and cause-specific Cox regression are not competitors where one is 'better' — they answer fundamentally different scientific questions. Fine-Gray asks how a covariate affects the probability of experiencing this event, accounting for competing events. Cause-specific asks how a covariate affects the biological hazard of this event among those still at risk. The choice depends on the research question, not on statistical efficiency. Choosing between them is a scientific decision, not a modeling one."
+
+- question: "Explain why treating competing events as censored in Kaplan-Meier analysis violates the independent censoring assumption, and what the practical consequence is."
+  type: short-answer
+  answer: "Independent censoring requires that the reason a subject leaves observation tells you nothing about their underlying event risk. When a patient dies of a competing cause, their removal is informative: they faced real mortality risk and experienced a different real event. Unlike administrative censoring (end of study, moved away), a competing event permanently eliminates the possibility of the primary event. Treating these deaths as censored implicitly assumes they continue to face the primary event risk at the same rate as survivors, which is false. The practical consequence is that 1 − KM(t) overstates the cumulative incidence of the primary event, because the risk pool is treated as larger than it actually is."
+  explanation: "The distinction is between 'lost to follow-up' (potentially random) and 'competing event occurred' (a definitive, informative outcome). Independent censoring is violated because subjects censored by a competing event are systematically different from truly at-risk subjects — they are no longer alive to experience the primary event."
+```
+
 ## Explainer
 
 From Kaplan-Meier and Cox regression you know the fundamental survival analysis setup: individuals enter a study, some experience the event of interest, and those who don't are **censored** at their last follow-up time. The crucial assumption in that framework is **independent censoring** — the reason a person leaves observation (moves away, withdraws, study ends) tells you nothing about their underlying event risk. Competing risks arise when that assumption fails in a particular structural way: a person can be removed from risk not by administrative censoring but by experiencing a *different, real event* that makes the first event permanently impossible.

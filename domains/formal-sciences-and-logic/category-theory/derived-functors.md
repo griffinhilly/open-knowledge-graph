@@ -42,6 +42,45 @@ Compute Ext^1_Z(Z/2, Z) by hand: take a projective resolution of Z/2 (namely 0 �
 - Ext^0 and Tor_0 recover the original functors (Hom and ⊗ respectively); the higher derived functors measure the non-exactness.
 - Not every abelian category has enough projectives or injectives; derived functors require such existence conditions, which must be verified for each category.
 
+## Questions
+
+```yaml
+- question: "To compute Ext¹(ℤ/2, ℤ), one takes the projective resolution of ℤ/2 — namely 0 → ℤ →(×2)→ ℤ → ℤ/2 → 0 — applies Hom(−, ℤ) to the projective part, and takes cohomology. The result is:"
+  type: multiple-choice
+  options:
+    - "0, because ℤ is a free ℤ-module and free modules have trivial Ext"
+    - "ℤ/2, capturing the single non-trivial extension class corresponding to the original sequence"
+    - "ℤ, because the sequence involves integer multiplication"
+    - "Undefined, because ℤ/2 does not have a projective resolution over ℤ"
+  answer: 1
+  explanation: "Applying Hom(−, ℤ) to the projective part 0 → ℤ →(×2)→ ℤ gives the complex 0 → Hom(ℤ,ℤ) →(×2)→ Hom(ℤ,ℤ), i.e., 0 → ℤ →(×2)→ ℤ. The first cohomology H¹ = coker(×2: ℤ → ℤ) = ℤ/2ℤ. This Ext¹ classifies extensions of ℤ/2 by ℤ — there is exactly one non-trivial class, the original sequence. Option A is wrong: free target modules do not make Ext vanish; what matters is whether the source module is projective (ℤ/2 is not). Option D is wrong — ℤ/2 has the explicit projective resolution shown."
+
+- question: "Which statement best explains why Ext^n(M, N) is well-defined — that is, independent of which projective resolution of M is used to compute it?"
+  type: multiple-choice
+  options:
+    - "All projective resolutions of M are isomorphic as chain complexes, so they produce identical cohomology groups"
+    - "Any two projective resolutions of M are connected by a chain map unique up to chain homotopy, and chain-homotopic maps induce identical maps on cohomology"
+    - "The definition of Ext uses only the module M itself and not any resolution, making independence trivial"
+    - "Only one projective resolution of each module exists in any abelian category with enough projectives"
+  answer: 1
+  explanation: "The comparison lemma guarantees that any two projective resolutions P* and Q* of M are connected by a chain map P* → Q*, and any two such maps are chain-homotopic. Since homotopic chain maps induce the same maps on cohomology, applying Hom(−, N) and taking cohomology gives canonically isomorphic groups regardless of which resolution was used. This is a non-trivial theorem — it is not obvious, and it relies specifically on the projective (or injective) property of the resolution objects. Option A is wrong: resolutions are not isomorphic as complexes, only homotopy equivalent. Option C is wrong: the construction fundamentally requires a resolution. Option D is wrong: resolutions are far from unique."
+
+- question: "The zeroth right derived functor R⁰F of a left exact functor F satisfies R⁰F(A) = F(A), meaning the derived functor construction recovers the original functor at degree zero."
+  type: true-false
+  answer: true
+  explanation: "This confirms the construction is correctly calibrated. For a left exact functor F, applying F to the injective resolution 0 → A → I⁰ → I¹ → ... and taking H⁰ of the resulting complex gives ker(F(I⁰) → F(I¹)). By left exactness of F, this kernel equals F(A) — the same result you would get by just applying F to A directly. The higher derived functors R^nF for n ≥ 1 are genuinely new groups that capture where exactness fails beyond degree zero."
+
+- question: "The value of R^nF(A) depends on which injective resolution of A is chosen, so a careful computation must specify which resolution is being used."
+  type: true-false
+  answer: false
+  explanation: "Independence from the choice of resolution is the central theorem that makes derived functors well-defined as functors of A. Any two injective resolutions of A are connected by a chain map unique up to homotopy, and chain-homotopic maps induce the same maps on cohomology. This independence is not obvious — it requires proof. If R^nF(A) depended on the resolution, it would not be a functor of A at all. The theorem is foundational: it is one of the first results established in any systematic treatment of homological algebra."
+
+- question: "What does it mean for a functor to 'fail to be exact,' and how do derived functors convert this failure into useful algebraic invariants?"
+  type: short-answer
+  answer: "A functor is exact if it preserves short exact sequences in both directions. Many natural functors are only partially exact: Hom(M, −) is left exact (preserves the beginning of a short exact sequence but may lose surjectivity at the end), and − ⊗ M is right exact (preserves the end but may lose injectivity at the beginning). The derived functors measure what is missing: R^nF(A) extends the truncated exact sequence in the direction where exactness fails, with each degree measuring the obstruction at that level. Ext¹(M, N) classifies extensions; Tor₁(M, N) detects torsion."
+  explanation: "The key reframe is that 'failure to be exact' is information, not merely an obstacle. If Hom(M, −) were exact, there would be nothing to measure. The failure creates non-trivial groups that classify algebraic structure: Ext¹ = 0 characterizes projective modules; Tor₁ = 0 characterizes flat modules. Derived functors organize all of module theory around exactness failures, giving a coherent indexed hierarchy of invariants. This is the sense in which homological algebra turns obstructions into computable data."
+```
+
 ## Explainer
 
 From homology and cohomology, you know that chain complexes and their homology groups detect structural information that is invisible at the level of individual objects. Derived functors are built on the same intuition, but the question they answer is different: instead of asking what is true about a topological space, they ask **how much a functor distorts exact sequences**. This is a question about the functor itself — specifically, about the algebraic information it fails to preserve.

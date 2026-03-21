@@ -30,6 +30,45 @@ Trace if-else execution on paper with different inputs; test both branches (true
 ## Common Misconceptions
 That both branches execute; that the condition can be any expression (it must be boolean-valued); that if without else is incomplete.
 
+## Questions
+
+```yaml
+- question: "Consider: `if score >= 60: grade = 'Pass'` / `else: grade = 'Fail'`. What grade does `score = 60` receive?"
+  type: multiple-choice
+  options:
+    - "'Fail', because 60 is the threshold value, not above it"
+    - "'Pass', because 60 >= 60 evaluates to True"
+    - "Both 'Pass' and 'Fail', since 60 is a boundary value"
+    - "An error, because boundary values require special handling"
+  answer: 1
+  explanation: "The condition `60 >= 60` evaluates to `True`, so the if-block runs (grade = 'Pass') and the else-block is completely skipped. This is a common source of off-by-one confusion: >= includes the boundary value, while > would exclude it. Tracing the exact comparison operator and applying it to the boundary input is essential — option A is the mistake of confusing >= with >."
+
+- question: "What happens when the if-condition is True in an if-else statement?"
+  type: multiple-choice
+  options:
+    - "The if-block executes first, then the else-block executes as a fallback"
+    - "The if-block executes and the else-block is completely skipped"
+    - "Both blocks execute in parallel, and the last one wins"
+    - "The else-block is checked first to see if it should override the if-block"
+  answer: 1
+  explanation: "In an if-else, exactly one branch runs — never both, never neither. When the condition is True, the if-block executes and the else-block is entirely skipped. When the condition is False, the if-block is skipped and the else-block executes. Think of it as a fork in a road: choosing one path means not taking the other. This mutual exclusivity is the defining property of if-else branching."
+
+- question: "If an if-condition evaluates to True, the else block does not execute at all."
+  type: true-false
+  answer: true
+  explanation: "True. This is the fundamental guarantee of if-else: exactly one branch executes. When the condition is True, execution enters the if-block and then jumps past the else-block entirely. There is no partial or conditional execution of the else branch — it is completely bypassed. This mutual exclusivity is what makes if-else useful for distinguishing two cases."
+
+- question: "An if statement without an else clause is always a programming error that should be fixed."
+  type: true-false
+  answer: false
+  explanation: "False. An if without else is completely legitimate — it means 'if the condition is true, do this; otherwise, do nothing and continue.' This is correct whenever you only need to act in one case: `if temperature > 100: send_alert()` needs no else because there is nothing special to do at normal temperatures. Adding a meaningless empty else block would be clutter, not an improvement. The else clause should only appear when there is a meaningful action for the false case."
+
+- question: "Why should you test both the true and false branches when debugging if-else logic, and what inputs are most revealing?"
+  type: short-answer
+  answer: "Testing only one branch leaves the other branch unverified — bugs often hide in the untested path. Boundary inputs are the most revealing: they sit exactly at the threshold of the condition and are the values most likely to expose off-by-one errors. For a condition like `x > 0`, test x = 1 (if-branch), x = -1 (else-branch), and x = 0 (boundary — which branch does it take, and is that the intended behavior?)."
+  explanation: "This is the minimal form of branch coverage testing. A correct if-else must behave correctly for ALL inputs, not just the ones you expected. The condition `if x > 0: print('positive')` / `else: print('negative')` has a latent bug when x = 0 — it prints 'negative' for zero. This bug is invisible if you only test positive and negative values, but immediately visible when you test the boundary. Systematic boundary testing is the single most effective technique for catching branching bugs."
+```
+
 ## Explainer
 
 From conditional statements and comparison operators, you know that a program can test whether a condition is true or false, and that comparisons like `x > 10` or `name == "Alice"` produce boolean values. **If-else branching** takes this a step further: it lets your program choose between two different actions based on the result of such a test. This is the fundamental mechanism that makes programs behave differently under different circumstances, rather than always doing the same thing regardless of input.

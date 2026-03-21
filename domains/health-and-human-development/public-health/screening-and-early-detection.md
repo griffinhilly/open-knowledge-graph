@@ -38,6 +38,45 @@ Use a 2×2 table to calculate sensitivity, specificity, PPV, and NPV at differen
 - Lead-time bias inflates apparent survival benefit of screening without actual improvement in mortality; only randomized trials with mortality endpoints can confirm screening benefit.
 - PPV is not a property of the test alone; it changes with population prevalence, so a test validated in a high-risk clinic may perform poorly in a general population.
 
+## Questions
+
+```yaml
+- question: "A diagnostic test has 99% sensitivity and 95% specificity. It is applied to a population where 1 in 1,000 people have the disease. Which result best approximates the positive predictive value (PPV)?"
+  type: multiple-choice
+  options:
+    - "Approximately 99%, because the sensitivity is 99%"
+    - "Approximately 95%, because the specificity is 95%"
+    - "Approximately 2%, because false positives vastly outnumber true positives at low prevalence"
+    - "Approximately 50%, because sensitivity and specificity are nearly equal"
+  answer: 2
+  explanation: "In 100,000 screened people: ~100 have the disease and ~99 test positive (99% sensitivity). Of the ~99,900 healthy people, ~4,995 test positive (5% false positive rate). PPV = 99 / (99 + 4,995) ≈ 2%. This illustrates Bayes' theorem in action: even a near-perfect test produces mostly false positives in a low-prevalence population. Options A and B confuse test properties with predictive value — sensitivity and specificity describe the test's performance; PPV describes what a positive result actually means for the patient."
+
+- question: "A screening program reports that 5-year survival for screen-detected cancer is 80%, compared to 40% for symptom-diagnosed cancer. Which conclusion is best supported?"
+  type: multiple-choice
+  options:
+    - "Screening is clearly beneficial because survival doubled"
+    - "This difference may reflect lead-time and length-time bias rather than genuine mortality benefit"
+    - "Screening is harmful because it identifies so many more cases"
+    - "The test's sensitivity is approximately 80%"
+  answer: 1
+  explanation: "Improved 5-year survival is a notoriously unreliable measure of screening benefit. Lead-time bias means detection earlier in the natural history inflates survival time without changing when the patient dies. Length-time bias means screening preferentially catches slow-growing, less dangerous tumors, making screened cases appear less aggressive. Only a randomized controlled trial with cause-specific mortality as the endpoint can determine whether screening actually prevents deaths — improved survival statistics alone cannot."
+
+- question: "The positive predictive value of a diagnostic test is a fixed property of the test itself, determined by its sensitivity and specificity alone."
+  type: true-false
+  answer: false
+  explanation: "PPV is not fixed — it depends on disease prevalence in the tested population. The formula PPV = (sensitivity × prevalence) / [(sensitivity × prevalence) + (1 − specificity)(1 − prevalence)] shows that prevalence is a direct input. The same test with the same sensitivity and specificity will have a very high PPV in a high-risk clinic (high prevalence) and a very low PPV in a general population (low prevalence). This is Bayes' theorem: the pre-test probability (prevalence) fundamentally shapes the meaning of a positive result."
+
+- question: "A highly sensitive screening test is the most important property for a population-level screening program because it minimizes missed cases."
+  type: true-false
+  answer: false
+  explanation: "While sensitivity matters, a highly sensitive test with low specificity generates large numbers of false positives. Each false positive triggers follow-up tests, patient anxiety, and sometimes invasive procedures — all in people without the disease. The population-level harm from false positives can exceed the benefit from early detection. A viable screening program requires that the test perform well on both dimensions, that the disease has a detectable preclinical phase, that early treatment improves outcomes, and that prevalence is high enough for PPV to be clinically useful."
+
+- question: "Why can improved 5-year survival in a screened population not by itself demonstrate that a screening program reduces cancer mortality?"
+  type: short-answer
+  answer: "Improved 5-year survival in screened populations is inflated by two biases. Lead-time bias: screening detects disease earlier in its natural history, so survival is measured from an earlier starting point — but if the patient still dies at the same biological time, the death date hasn't changed, only the detection date. Length-time bias: screening preferentially detects slow-growing, indolent tumors that spend more time in the detectable preclinical window; rapidly fatal cancers progress too quickly to be caught. Screen-detected cases therefore appear less deadly, but this reflects which cancers get caught, not whether screening prevented deaths. Only randomized trials tracking cause-specific mortality can establish genuine benefit."
+  explanation: "These biases explain why many screening programs with impressive survival statistics failed to demonstrate mortality benefit in randomized trials. Survival from detection is the wrong endpoint; what matters is whether people assigned to screening die of the target disease at lower rates than controls."
+```
+
 ## Explainer
 
 From your prerequisites, you have the conceptual tools to analyze screening: disease frequency measures (prevalence and incidence) tell you how common a condition is in a population; biostatistics gives you the 2×2 table; and disease prevention levels place screening in its proper context as **secondary prevention** — intervening after a disease exists but before it produces symptoms or irreversible harm. The key move in this topic is connecting those statistical tools to the practical question: does this test do more good than harm in this population?

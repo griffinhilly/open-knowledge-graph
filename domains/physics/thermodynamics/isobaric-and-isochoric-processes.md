@@ -31,6 +31,45 @@ Contrast heating water in an open pot (approximately isobaric) with heating a ga
 - Cp > Cv does not mean isobaric heating is less efficient — it means the gas does extra work expanding; total energy input per mole is greater.
 - For solids and liquids, Cp ≈ Cv because they expand very little; the difference only matters significantly for gases.
 
+## Questions
+
+```yaml
+- question: "You supply 100 J of heat to n moles of an ideal gas. In which scenario does the gas temperature rise more?"
+  type: multiple-choice
+  options:
+    - "Constant volume (isochoric) — all heat goes to raising internal energy"
+    - "Constant pressure (isobaric) — the gas can expand and do more work"
+    - "Both scenarios produce the same temperature rise"
+    - "Constant pressure — higher Cp means more heat capacity, so more temperature rise per joule"
+  answer: 0
+  explanation: "In an isochoric process, W = 0, so all 100 J raises internal energy: ΔT = Q/(nCv). In an isobaric process, some energy is diverted to expansion work (W = nRΔT), leaving less to raise temperature: ΔT = Q/(nCp). Since Cp > Cv, the temperature rise is smaller at constant pressure. Option D is the key misconception: 'more heat capacity' means you need MORE heat per degree, not that you get more temperature rise per joule."
+
+- question: "A sealed rigid container of ideal gas is heated. Which of the following is true?"
+  type: multiple-choice
+  options:
+    - "No work is done by the gas on its surroundings"
+    - "The gas does positive work equal to PΔV"
+    - "The heat added exceeds the change in internal energy"
+    - "Cp is the relevant heat capacity for calculating heat input"
+  answer: 0
+  explanation: "Rigid means ΔV = 0, so W = PΔV = 0. By the first law, ΔU = Q, and Q = nCvΔT. Cv (not Cp) applies to constant-volume processes. Option B describes an isobaric process. Option C would require W > 0, since ΔU = Q − W. Option D confuses the two heat capacities: Cp is for constant pressure, Cv for constant volume."
+
+- question: "In an isochoric process, the heat added to the gas equals the change in its internal energy."
+  type: true-false
+  answer: true
+  explanation: "W = PΔV = 0 for constant volume. The first law then gives ΔU = Q − W = Q. None of the heat is converted to mechanical work; all of it raises the gas's internal energy (and therefore temperature). This is why Cv is defined via Q = nCvΔT for this process."
+
+- question: "Because Cp > Cv, an isobaric process requires less heat input than an isochoric process to achieve the same temperature rise in an ideal gas."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true: Cp > Cv means isobaric heating requires MORE heat to achieve the same ΔT. At constant pressure, some heat is diverted to doing expansion work (W = nRΔT), so extra heat must be supplied. The Mayer relation Cp = Cv + R quantifies this: the extra R per mole per kelvin is exactly the work cost of isobaric expansion."
+
+- question: "Why does Cp > Cv for an ideal gas, and where does the 'extra' energy go in an isobaric process compared to an isochoric one?"
+  type: short-answer
+  answer: "At constant volume, all heat goes to raising internal energy. At constant pressure, the gas must also expand against external pressure, doing work W = nRΔT. This expansion work leaves the system as mechanical work rather than temperature increase, requiring extra heat input to achieve the same ΔT. Quantitatively, Cp = Cv + R; the R represents the work done per mole per kelvin of temperature rise."
+  explanation: "A useful image: heating gas in a sealed rigid cylinder (isochoric) vs. a piston-cylinder that is free to expand (isobaric). The piston must be pushed outward — energy you supplied is doing that pushing rather than warming the gas. So you need more total energy input to reach the same temperature."
+```
+
 ## Explainer
 
 Every thermodynamic process involves exchanging energy as heat and work between a system and its surroundings. But the same amount of heat can produce very different temperature changes depending on what is held constant during the process. The distinction between **isobaric** (constant pressure) and **isochoric** (constant volume) processes is the clearest illustration of why: it determines whether any of the energy input is diverted into doing mechanical work, or whether all of it stays in the system as internal energy.

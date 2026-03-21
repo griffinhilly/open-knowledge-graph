@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Clouds affect climate through competing effects: high, thin clouds trap outgoing radiation (warming), while low, thick clouds reflect solar radiation (cooling). Cloud feedbacks remain the largest source of uncertainty in climate sensitivity. Paleoclimate records (reduced solar variability, proxy-based cloud indicators) help constrain cloud feedback strength across different climate states.
 
+## Questions
+
+```yaml
+- question: "If warming causes subtropical marine stratocumulus clouds to thin and decrease in area, this constitutes a:"
+  type: multiple-choice
+  options:
+    - "Negative feedback, because less cloud cover allows more infrared radiation to escape to space, cooling the planet"
+    - "Positive feedback, because less low-cloud cover means less solar radiation is reflected back to space, allowing additional warming"
+    - "Neutral effect, because stratocumulus clouds have a greenhouse effect that exactly cancels their albedo effect"
+    - "Negative feedback, because thinner clouds transmit more outgoing radiation, increasing the net cooling from the surface"
+  answer: 1
+  explanation: "Marine stratocumulus clouds have a strong net cooling effect because their high reflectivity (albedo) bounces incoming solar radiation back to space, while their low-altitude greenhouse effect is modest (they radiate at temperatures close to the surface). If they thin or shrink as the planet warms, less solar radiation is reflected — more reaches the surface, driving further warming. This is a positive feedback (amplifying). Option A is wrong because it confuses the cloud's dominant effect: low clouds mainly affect incoming solar radiation, not outgoing infrared."
+
+- question: "Why are paleoclimate records especially valuable for constraining cloud feedbacks, compared to modern satellite observations?"
+  type: multiple-choice
+  options:
+    - "Ice cores directly measure past cloud properties with higher accuracy than satellite sensors"
+    - "Satellites only observe tropical clouds; paleoclimate records provide global coverage including polar regions"
+    - "Modern observational records span only decades — too short to capture cloud responses across different climate states; paleoclimate evidence provides natural experiments across much larger climate variations"
+    - "Cloud feedbacks operate only on millennial timescales and are therefore invisible to satellite monitoring"
+  answer: 2
+  explanation: "Satellite observations of clouds began only in the 1970s–1980s, providing just a few decades of data. Cloud feedbacks — especially the response of low clouds to sustained warming — may operate over longer timescales or require large climate perturbations to detect. Paleoclimate records (glacial-interglacial cycles, warm Pliocene intervals) provide natural experiments where the full climate system, including clouds, responded to large forcing changes. By estimating climate sensitivity from these periods, scientists can infer the net strength of all feedbacks, including cloud feedbacks, that modern observations are too short to constrain."
+
+- question: "High-altitude, thin cirrus clouds produce a net cooling effect on Earth's climate because they reflect significant amounts of incoming solar radiation back to space."
+  type: true-false
+  answer: false
+  explanation: "High, thin cirrus clouds are semi-transparent to sunlight — they reflect relatively little incoming solar radiation. However, they are effective absorbers and re-emitters of outgoing longwave (infrared) radiation. Because cirrus sits at cold, high altitudes, it re-emits at very low temperatures, meaning less energy escapes to space than would from the warmer surface below. This is a net greenhouse (warming) effect. Low, thick clouds are the ones that produce net cooling through their high reflectivity. The common misconception is that all clouds cool — only low-level clouds with high albedo do so on net."
+
+- question: "If paleoclimate-derived climate sensitivity estimates are higher than what water vapor and ice-albedo feedbacks alone can explain, this implies that cloud feedbacks are net positive."
+  type: true-false
+  answer: true
+  explanation: "Climate sensitivity (warming per CO2 doubling) reflects the combined strength of all feedbacks. Water vapor and ice-albedo feedbacks are well-constrained and are known to be positive. If paleo-derived sensitivity estimates systematically exceed what those two feedbacks predict, the residual must come from other sources — and cloud feedbacks are the largest candidate. A net positive cloud feedback would amplify warming beyond what the better-understood feedbacks produce. This is how paleoclimate evidence constrains cloud feedback direction and magnitude even without directly measuring past clouds."
+
+- question: "Explain how low clouds and high clouds differ in their effects on Earth's energy balance, and why cloud feedback is considered the largest source of uncertainty in climate sensitivity."
+  type: short-answer
+  answer: "Low, thick clouds (like marine stratocumulus) reflect a large fraction of incoming solar radiation back to space (high albedo) while emitting outgoing infrared at temperatures close to the surface, so their net effect is strong cooling. High, thin clouds (like cirrus) are mostly transparent to sunlight but absorb and re-emit outgoing infrared from cold altitudes, trapping heat below — a net warming greenhouse effect. Cloud feedback uncertainty arises because both types can change in coverage, thickness, and altitude as the planet warms, and even small changes in low-cloud area have large effects on reflected sunlight. Models disagree on the sign and magnitude of these changes, and the satellite record is too short to resolve the question."
+  explanation: "The two cloud types act in opposite directions, and the net effect of clouds on feedback depends on which type changes more in a warming world. If low clouds decrease (less cooling), warming is amplified. If high clouds also shift to colder altitudes, warming is further amplified. Paleoclimate evidence increasingly suggests the net cloud feedback is positive, which would place climate sensitivity toward the higher end of projected ranges."
+```
+
 ## Explainer
 
 From your study of climate sensitivity and radiative feedbacks, you know that when the climate system is perturbed — say, by increased CO2 — the initial warming triggers secondary responses that either amplify or dampen the original change. You also understand that **positive feedbacks** (like water vapor increasing with warming, which traps more heat) amplify warming, while **negative feedbacks** (like increased thermal radiation to space at higher temperatures) resist it. Clouds sit at the center of climate feedback analysis because they do both things simultaneously, and the net effect depends on cloud type, altitude, thickness, and coverage — details that are extraordinarily difficult to model.

@@ -30,6 +30,45 @@ Understand what counts as a defeater (both rebutting and undercutting) and how d
 ## Common Misconceptions
 - Not every fact that could possibly defeat a belief counts as a defeater in the technical sense. - The absence of a defeater doesn't guarantee knowledge; justification itself must be adequate.
 
+## Questions
+
+```yaml
+- question: "Maya sees what appears to be a sheep in a field and forms the justified true belief 'there is a sheep in the field.' Unknown to Maya, the animal she sees is a dog in a sheep costume — but a real sheep is hidden behind a rock. Does Maya know there is a sheep, according to defeasibility theory?"
+  type: multiple-choice
+  options:
+    - "Yes — her belief is true, justified, and she reasoned without false lemmas"
+    - "No — the truth 'the animal she sees is a costumed dog' is an undefeated defeater of her justification"
+    - "Yes — she happens to be right, and adequacy of justification is all that matters"
+    - "No — she cannot know because she did not observe the actual sheep"
+  answer: 1
+  explanation: "Defeasibility theory holds that S knows P only if there is no true proposition that, if added to S's evidence, would defeat the justification. The truth 'she is looking at a costumed dog' would completely undermine her visual justification for believing there is a sheep — and this defeater exists in the world, even though Maya is unaware of it. Her belief is accidentally true in a way that reveals the justification is defective. Identifying the hidden defeater as the structural flaw is exactly what the defeasibility condition is designed to do."
+
+- question: "What is the key distinction between a rebutting defeater and an undercutting defeater?"
+  type: multiple-choice
+  options:
+    - "A rebutting defeater is known to the believer; an undercutting defeater is unknown"
+    - "A rebutting defeater directly contradicts the belief; an undercutting defeater removes the support without directly contradicting it"
+    - "A rebutting defeater applies only to perceptual beliefs; an undercutting defeater applies to inferential beliefs"
+    - "A rebutting defeater eliminates knowledge entirely; an undercutting defeater only weakens justification"
+  answer: 1
+  explanation: "A rebutting defeater directly contradicts the belief — evidence that the animal is a dog in disguise rebuts 'there is a sheep.' An undercutting defeater attacks the link between evidence and belief without asserting the belief is false — learning that the field routinely uses lifelike decoys undercuts the evidential weight of visual perception here without proving there is no sheep. Both types undermine knowledge claim by different mechanisms: one attacks the content, the other attacks the warrant."
+
+- question: "For a defeater to undermine knowledge on the defeasibility account, the knower must be aware of the defeater."
+  type: true-false
+  answer: false
+  explanation: "This is the crucial and counterintuitive feature of defeasibility theory. The defeater only needs to exist as a true proposition in the world — it need not be known by or even accessible to the believer. If you are looking at a stuffed animal while truly believing there's a sheep, the mere truth that it's a stuffed animal defeats your knowledge claim, even though you have no idea. Genuine knowledge requires stability against all true potential defeaters, not just against those the believer has encountered."
+
+- question: "Defeasibility theory primarily addresses cases where a belief is false but the believer mistakenly thinks it is true."
+  type: true-false
+  answer: false
+  explanation: "Defeasibility theory specifically targets Gettier-type cases — situations where a belief is TRUE but still fails to constitute knowledge due to structural flaws in the justification. The defeater exists alongside the true belief; the problem is not falsity but that the truth is accidental or lucky in a way an undefeated defeater would reveal. The theory's contribution is to explain how justified true belief can fail to be knowledge even when the belief is correct — the hidden defeater is the diagnosis."
+
+- question: "What does it mean for a justified true belief to be 'indefeasible,' and why does defeasibility theory use this condition to distinguish genuine knowledge from lucky true belief?"
+  type: short-answer
+  answer: "A belief is indefeasible if there is no true proposition that, if added to the believer's evidence, would defeat or undermine the justification. Defeasibility theory uses this condition because Gettier cases show that JTB can be accidentally true — the justification rests on evidence that would collapse if a certain hidden truth were known. Genuine knowledge is stable: learning additional true facts about the situation does not disintegrate the justification. Lucky true belief is fragile: a specific hidden truth would expose it as unjustified coincidence."
+  explanation: "The indefeasibility condition captures the intuition that real knowledge cannot rest on a house of cards. If knowing requires that your justification survive all true potential challenges, then cases where a hidden truth would undermine your basis for belief — even if your belief happens to be true — are correctly classified as not knowing."
+```
+
 ## Explainer
 
 You've studied Gettier problems and the various responses epistemologists have proposed — including the "no false lemmas" condition, which rules out knowledge based on reasoning that passes through a false intermediate belief. Defeasibility theory is another response in this tradition, and it generalizes the no-false-lemmas approach into something more comprehensive. The core question it addresses is: what makes knowledge *stable*?

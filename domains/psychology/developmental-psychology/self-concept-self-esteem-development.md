@@ -31,6 +31,45 @@ Conduct or review interviews with children at different ages asking 'Tell me abo
 ## Common Misconceptions
 High self-esteem in young children is not narcissism or problem; it reflects realistic optimism and is necessary for healthy exploration and development. Declines in early adolescence are normative and reflect more accurate self-assessment; chronically low self-esteem predicts problems.
 
+## Questions
+
+```yaml
+- question: "A researcher asks a 5-year-old to describe himself. Which response is most developmentally typical?"
+  type: multiple-choice
+  options:
+    - "'I'm a kind person who tries hard even when things are difficult'"
+    - "'I'm better at math than reading, but I'm pretty good at most things'"
+    - "'I have blue eyes, I can ride my bike, and I have a cat named Whisker'"
+    - "'I'm shy around strangers but outgoing with my friends'"
+  answer: 2
+  explanation: "Young children's self-descriptions are concrete and tied to observable features — physical attributes, possessions, and specific behaviors. They lack the cognitive machinery to form abstract psychological trait labels or to abstract across situations. Options A, B, and D all involve abstraction (kindness, comparative ability, conditional shyness) characteristic of older children and adults. Option C — observable facts about appearance, capabilities, and possessions — is the typical preschool-age response."
+
+- question: "Why do researchers characterize the self-esteem decline that commonly occurs in early adolescence as normative rather than pathological?"
+  type: multiple-choice
+  options:
+    - "Because it is caused by hormonal changes that are biologically inevitable and temporary"
+    - "Because it reflects increasingly accurate self-assessment as adolescents encounter more realistic feedback and social comparison"
+    - "Because high self-esteem in early childhood is artificially inflated by parents, so any decline is a healthy correction"
+    - "Because self-esteem doesn't affect long-term wellbeing, making fluctuations developmentally irrelevant"
+  answer: 1
+  explanation: "The decline is normative because it reflects more accurate self-knowledge, not psychological failure. As adolescents encounter rigorous academic comparison, peer evaluation, and body-image pressures, earlier optimism gets calibrated against realistic feedback. The young child's inflated self-esteem was adaptive (fueling exploration), but healthy adult self-concept requires accurate self-appraisal. Option A (hormones) is not the correct developmental explanation. Option C mischaracterizes parental influence. Option D is wrong — chronically low self-esteem is a robust predictor of depression and poor outcomes."
+
+- question: "Young children's tendency to overestimate their own abilities is a warning sign of poor self-concept development and should be corrected by parents and teachers."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception about early childhood self-esteem. Optimistic overestimation is developmentally appropriate and adaptive — it fuels the exploration, effort, and persistence required when nearly every skill is genuinely new. Young children lack the cognitive capacity for accurate social comparison, and inflated self-belief helps them engage with challenging tasks rather than avoiding them. The concern is not with high self-esteem in early childhood but with chronically low self-esteem, which predicts poor outcomes across development."
+
+- question: "A child who describes herself as 'shy around new people but talkative with my friends' is demonstrating a level of self-knowledge more characteristic of middle childhood than early childhood."
+  type: true-false
+  answer: true
+  explanation: "This statement requires a psychological trait label ('shy/talkative') applied conditionally across situations — a kind of contextual differentiation that requires abstracting across multiple instances and recognizing situational variability in one's own behavior. This is characteristic of middle childhood (roughly ages 7–11), when children develop the capacity for trait-level thinking and social comparison. A preschooler would describe herself in terms of concrete, observable features rather than conditional psychological states."
+
+- question: "Why does self-concept become more psychological and abstract across childhood, and what cognitive development enables this shift?"
+  type: short-answer
+  answer: "Self-concept shifts from concrete, observable descriptions to abstract trait labels and social comparisons as children develop concrete operational thinking and the ability to abstract across situations. Young children describe observable facts (hair color, possessions, specific actions) because they can only represent what is perceptually immediate. As children gain logical operations, they can abstract a stable attribute from multiple instances ('I'm shy' as a summary of many specific interactions) and compare themselves to peers as a reference point. Egocentrism reduction also plays a role — as children better understand how others see them, self-concept becomes more socially embedded."
+  explanation: "The shift isn't just about having more information — it's about having new cognitive tools for organizing self-knowledge. Concrete operations enable abstraction from specific instances to general traits. Social comparison becomes meaningful once children understand their performance is evaluated relative to a reference group, not in isolation. These cognitive advances transform self-concept from a list of observable facts into an organized, comparative psychological portrait that acknowledges both strengths and weaknesses."
+```
+
 ## Explainer
 
 Your earlier work on egocentrism and perspective-taking revealed that children's understanding of *other minds* develops systematically across childhood — very young children struggle to take others' viewpoints, and this capacity grows throughout middle childhood. The same developmental trajectory shapes how children understand *their own* minds. **Self-concept** — the organized set of beliefs a person holds about who they are — starts as a simple list of observable facts and becomes an increasingly abstract, psychological, and socially embedded portrait over development.

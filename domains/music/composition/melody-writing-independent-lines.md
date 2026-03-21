@@ -31,6 +31,45 @@ Compose simple melodies (16-32 bars) without predetermined harmonic support, foc
 ## Common Misconceptions
 Thinking a good melody must be simple or mostly stepwise; overlooking how rhythm and phrasing create coherence independent of intervals; assuming harmony must determine melody.
 
+## Questions
+
+```yaml
+- question: "A student writes a 16-bar melody that sounds coherent when played with its intended chords, but feels directionless and incomplete when played alone. What does this reveal?"
+  type: multiple-choice
+  options:
+    - "The melody is too long — 16 bars exceeds what a melody can sustain without harmonic support"
+    - "The melody lacks true independence — it relies on the harmony to supply structure rather than generating it internally"
+    - "The accompaniment is poorly written and dominates the melody too much"
+    - "The melody needs to be simplified with more stepwise motion to achieve independence"
+  answer: 1
+  explanation: "An independent melodic line must generate its own sense of direction, tension, and arrival through internal resources — scale-degree function, contour, and rhythmic character. A melody that only makes sense with chords beneath it is essentially accompaniment with lead-voice privileges. The test for independence is whether the line feels complete and directional when played alone. If chords are doing the structural work, the melody hasn't yet achieved independence."
+
+- question: "Two melodies use the exact same sequence of pitches. Melody A uses steady quarter notes throughout; Melody B uses a distinctive pattern of long-short rhythms. Which statement best describes their relationship?"
+  type: multiple-choice
+  options:
+    - "They are essentially the same melody — pitch sequence alone determines melodic identity"
+    - "Melody B is necessarily superior because rhythmic variety is always more engaging"
+    - "They are distinct melodies — rhythmic character is as fundamental to melodic identity as pitch sequence"
+    - "Melody A is stronger because rhythmic simplicity keeps the pitch content clearer"
+  answer: 2
+  explanation: "Rhythm is at least as important as pitch in determining a melody's identity and character. The same pitch sequence with different rhythms can feel like completely different melodies — one may feel declaratory, another tentative, another dance-like. Rhythmic motives create the sense of a melody 'speaking in its own voice.' Many iconic melodies are rhythmically recognizable before they are melodically distinctive. Neither melody is automatically superior — the point is that they are genuinely different musical statements."
+
+- question: "A melody that sounds convincing and complete when harmonized has demonstrated melodic independence."
+  type: true-false
+  answer: false
+  explanation: "Harmonization can supply structure that the melody itself lacks. A sequence of pitches that wanders without direction can still 'work' over strong chords that impose tension and resolution. The test for independence is the opposite: does the melody feel complete and directional *without* harmonic support? If it requires chords to explain where it's going and where it arrives, it depends on harmony for structure — the melody is not independent, even if it sounds fine harmonized."
+
+- question: "An effective independent melody tends to have a single clear climax — the highest or most tension-laden moment — approached gradually and followed by descent, creating an overall arc of tension and release."
+  type: true-false
+  answer: true
+  explanation: "This arch structure is a robust organizing principle for independent melodic lines. Gradual approach to the climax allows tension to accumulate in a way the listener can follow; the descent provides release and signals arrival. Without this arc, a melody may feel either static (no climax) or incoherent (multiple competing peaks). The principle applies at multiple scales: individual 4-bar phrases can have their own smaller arcs while contributing to the larger arch of the full melody."
+
+- question: "What makes a melodic line 'independent,' and how would you test whether a melody you wrote has achieved this quality?"
+  type: short-answer
+  answer: "An independent melodic line generates its own sense of direction, tension, and resolution through internal resources: scale-degree function (the gravitational pull of stable and unstable scale degrees), rhythmic character (a distinctive rhythmic motive), and contour (a clear arc toward and away from a climactic point). To test independence, perform the melody alone without any accompaniment. If it feels complete, directional, and musically coherent — if it goes somewhere and arrives — it is independent. If it feels ambiguous or incomplete without chords to explain it, it relies on harmony for structure."
+  explanation: "The practical test is the clearest guide. A truly independent line constrains its own harmonization when you later add chords: the scale-degree trajectories and implied chord tones embedded in melodic leaps will have already narrowed the harmonic options. When a melody strongly implies its harmonization, that is evidence of genuine melodic logic — the structure was always internal to the line."
+```
+
 ## Explainer
 
 When you write a melody over a harmonic progression, the harmony partly carries the melody for you. The listener hears the chord and already knows which scale degrees are stable. But an independent melodic line must generate its own sense of stability and tension, directionality and arrival, without that harmonic scaffolding beneath it. This forces you to confront what melody actually is — not just a sequence of pitches over chords, but an autonomous musical statement with its own internal logic.

@@ -27,6 +27,45 @@ Reconstruct continental positions using paleomagnetic pole paths and fossil data
 ## Common Misconceptions
 Continents drift through oceanic crust rather than on it. Plate boundaries are narrow, sharp lines. All plate boundaries have the same slip rates. Plates move at constant rates over geological time.
 
+## Questions
+
+```yaml
+- question: "Wegener proposed continental drift in 1912 but it was rejected for decades. What was the primary scientific objection?"
+  type: multiple-choice
+  options:
+    - "The fossil evidence he cited was too fragmentary to be statistically convincing"
+    - "He could not explain a mechanism powerful enough to move continents through solid oceanic crust"
+    - "Continental coastline fits were considered coincidental with no predictive value"
+    - "Paleomagnetic evidence directly contradicted his proposed reconstruction"
+  answer: 1
+  explanation: "Wegener's fatal weakness was mechanism. He proposed that continents plow through oceanic crust — physically impossible, since oceanic crust is far stronger than any force Wegener could identify. The fossil and coastline evidence was actually quite compelling, but without a mechanism the scientific community rejected the theory. The missing mechanism came from seafloor spreading: rigid lithospheric plates ride on the weak asthenosphere, with new crust created at ridges and destroyed at subduction zones."
+
+- question: "Which evidence provides the most quantitative, mechanistic record of seafloor spreading rates and allows precise reconstruction of past plate positions?"
+  type: multiple-choice
+  options:
+    - "Matching fossil assemblages of land organisms across continents"
+    - "The geometric fit of continental coastlines when reassembled"
+    - "Paleoclimate indicators like glacial deposits on now-tropical continents"
+    - "Symmetric magnetic polarity stripes preserved in oceanic crust on either side of mid-ocean ridges"
+  answer: 3
+  explanation: "Magnetic stripes are the most quantitative evidence: combining the known chronology of magnetic reversals (the geomagnetic polarity timescale) with measured stripe widths gives spreading rates in centimeters per year. Apparent polar wander paths allow precise plate position reconstruction through time. The other lines of evidence are compelling but qualitative — the magnetic record is a direct barcode of spreading history with built-in chronology."
+
+- question: "The discovery of identical Mesosaurus fossils on both sides of the Atlantic is strong evidence for continental drift because Mesosaurus could have migrated across the open ocean."
+  type: true-false
+  answer: false
+  explanation: "The argument runs in the opposite direction. Mesosaurus was a freshwater reptile utterly incapable of crossing thousands of kilometers of open saltwater. Its presence on both continents is evidence that South America and Africa were once joined — the identical fossils make no sense if the continents were always in their current positions. The impossibility of transoceanic migration strengthens, not weakens, the continental drift interpretation."
+
+- question: "Symmetric magnetic stripes on the ocean floor support seafloor spreading because new crust records Earth's magnetic field direction as it cools, and field reversals produce alternating bands of normal and reversed magnetization."
+  type: true-false
+  answer: true
+  explanation: "As basalt erupts at mid-ocean ridges and cools, iron minerals align with Earth's current magnetic field direction. Because the field periodically reverses polarity, the ocean floor preserves symmetric bands of normally and reversely magnetized crust on either side of the ridge. Age dating of crust samples confirms the crust is youngest at the ridge and oldest at the margins — exactly as seafloor spreading predicts. This was the decisive evidence that converted most earth scientists to plate tectonics in the late 1960s."
+
+- question: "Explain why the evidence from seafloor magnetic striping was more decisive than the earlier evidence from fossil distributions and continental fit."
+  type: short-answer
+  answer: "Fossil distributions and coastline fit are compelling but interpretable — a skeptic could invoke land bridges, transoceanic dispersal, or coincidence. Magnetic stripes satisfy three stronger criteria: (1) the polarity reversal chronology is independently known, (2) the symmetric pattern around ridges is exactly what spreading predicts quantitatively, and (3) age measurements of crust samples directly confirm the prediction. Crucially, the magnetic evidence also provides a mechanism — lithospheric plates moving on the asthenosphere — not just a pattern, which is what Wegener's evidence lacked."
+  explanation: "Decisive evidence in geology is evidence that is independently verifiable, quantitatively consistent with a proposed mechanism, and not easily explained by alternative hypotheses. Magnetic stripes satisfy all three. They also led to precise, testable predictions about spreading rates that could be confirmed by drilling and dating — the hallmark of a mature scientific theory."
+```
+
 ## Explainer
 
 From your study of Earth's interior structure, you know that the planet is layered: a rigid **lithosphere** (crust plus uppermost mantle) sits atop a weaker, slowly flowing **asthenosphere**. Plate tectonics is the theory that the lithosphere is broken into a mosaic of rigid plates that move relative to one another, driven by convection in the mantle beneath. This single framework explains an astonishing range of geological phenomena — earthquakes, volcanoes, mountain belts, ocean basins — that previously seemed unrelated.

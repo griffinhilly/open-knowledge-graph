@@ -30,6 +30,45 @@ status: draft
 ## Core Idea
 SEM integrates measurement models (latent variables' relationships to observed items) with structural models (latent variables' relationships to each other). It simultaneously estimates factor loadings, item residuals, and structural parameters, providing comprehensive evaluation of measurement quality and theoretical relationships.
 
+## Questions
+
+```yaml
+- question: "A researcher regresses observed 'cognitive ability' test scores on observed 'academic motivation' scores to estimate their relationship. A reviewer recommends SEM instead. What specific problem does SEM address that regression cannot?"
+  type: multiple-choice
+  options:
+    - "SEM automatically controls for all possible confounding variables"
+    - "Regression on error-contaminated observed composites attenuates the coefficient toward zero; SEM estimates paths between true-score constructs by explicitly partitioning measurement error in the measurement model first"
+    - "SEM always produces smaller standard errors, yielding more precise estimates"
+    - "Regression cannot handle the non-normal distributions common in psychological data"
+  answer: 1
+  explanation: "When you regress one error-contaminated observed composite on another, measurement error in both variables attenuates (biases toward zero) the regression coefficient — you systematically underestimate the true relationship between the constructs. SEM avoids this by modeling measurement error explicitly in the CFA layer before estimating structural paths, so the paths reflect relationships between the underlying true-score latent variables. Options A and C describe properties SEM does not reliably provide; option D is unrelated to why regression fails here."
+
+- question: "Two SEM models are fitted to the same data: Model A has a path X → Y; Model B has Y → X. Both produce identical χ², RMSEA, and CFI values. What can be concluded?"
+  type: multiple-choice
+  options:
+    - "Model A is correct because the researcher's original theory specified that direction"
+    - "Causal direction cannot be determined from covariance data alone; design-level evidence (experiments, longitudinal ordering) is required to distinguish the models"
+    - "The models are mathematically equivalent, so both must be rejected as unidentified"
+    - "The model with stronger theoretical justification should be reported as the confirmed causal structure"
+  answer: 1
+  explanation: "This is the equivalent models problem. Covariance data do not carry directional information — two models with arrows pointing in opposite directions can imply identical covariance structures and fit identically. Good fit means the data are consistent with a causal structure, not that the structure is proven. Establishing causal direction requires experimental manipulation, temporal ordering in longitudinal designs, or natural experiments. Option D is appealing but conflates theoretical plausibility with empirical proof — consistency is not confirmation."
+
+- question: "In SEM, a model with more free parameters always fits the observed covariance data at least as well as a more constrained model."
+  type: true-false
+  answer: true
+  explanation: "A saturated model — one with as many free parameters as unique covariance elements — achieves perfect fit by construction (χ² = 0) because it imposes no constraints on the data. Every constraint added (parameters fixed to zero or set equal) forces the implied covariance matrix to depart from the observed one, worsening fit. More constrained models fit worse but are more theoretically informative — they make falsifiable predictions. Fit is always evaluated relative to the constraints imposed by the researcher's theory."
+
+- question: "A well-fitting SEM model estimated from cross-sectional observational data establishes that the hypothesized causal relationships between latent variables are correct."
+  type: true-false
+  answer: false
+  explanation: "Good fit means the data are *consistent* with the hypothesized causal structure — not that the structure is proven. The equivalent models problem shows that models with different causal directions can fit identically. Causation requires design-level evidence: random assignment, temporal precedence in longitudinal data, or natural experiments. SEM is a confirmatory tool for evaluating consistency, not a method for discovering causation from observational data. Distinguishing 'consistent with' from 'proved by' is the most critical reading skill for SEM consumers."
+
+- question: "What does it mean to say SEM separates the 'measurement model' from the 'structural model,' and why does this separation matter for estimating relationships between constructs?"
+  type: short-answer
+  answer: "The measurement model (the CFA layer) specifies how observed indicators load onto latent constructs, explicitly partitioning each indicator's variance into true-score and error components. The structural model then specifies directional paths between the latent constructs themselves — estimated after measurement error has been accounted for. This separation matters because it allows structural paths to be estimated between error-free constructs, correcting the attenuation bias that occurs when observable composites are used directly in regression."
+  explanation: "Without the measurement model, regressing observed composites on each other underestimates relationships because error in both variables biases coefficients toward zero. By modeling error explicitly first, SEM recovers the relationships between the underlying theoretical constructs. The separation also allows simultaneous evaluation of measurement quality (are items loading as theorized?) and theoretical claims (do constructs relate as hypothesized?), something regression of observed variables cannot do."
+```
+
 ## Explainer
 
 From confirmatory factor analysis, you know how to specify a model where latent variables (factors) explain the covariances among observed indicators, estimate factor loadings, evaluate model fit, and test whether a hypothesized factor structure is consistent with data. CFA treats the latent variables as end points — it answers the measurement question ("do these indicators cohere as hypothesized?") but says nothing about how the latent variables relate to *each other*. **Structural equation modeling** extends CFA by adding a second layer: the **structural model**, which specifies directional relationships among the latent variables themselves, complete with path coefficients, mediated effects, and residual variances.

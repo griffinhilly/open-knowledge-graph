@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 The Frankfurt School (Horkheimer, Adorno, Marcuse) extended Marxism to analyze how advanced capitalism perpetuates domination through culture, media, and ideology rather than just economic coercion. They examined how the culture industry manufactures consent and forecloses critical thinking.
 
+## Questions
+
+```yaml
+- question: "According to Horkheimer and Adorno, how does the culture industry primarily maintain social control?"
+  type: multiple-choice
+  options:
+    - "Through state censorship and legal prohibition of alternative cultural expressions"
+    - "By standardizing cultural products while generating the illusion of individual choice and genuine diversity"
+    - "By converting workers into partial owners of cultural production, giving them a stake in the system"
+    - "Through state surveillance and direct monitoring of cultural consumption habits"
+  answer: 1
+  explanation: "The culture industry's mechanism is pseudo-individualization: it produces minor stylistic variations on standardized formulas — different genres, different stars, different packaging — that give consumers the feeling of choosing freely while the underlying structure remains constant. This is more insidious than censorship because it operates through pleasure and apparent freedom rather than prohibition. Consumers feel they are expressing their individuality through their choices while the range of genuinely different alternatives has already been foreclosed."
+
+- question: "A critic argues that the Frankfurt School's culture industry thesis is refuted by modern streaming platforms, which offer hundreds of genres, international films, and documentaries — genuine diversity impossible in the era of network television. What would a Frankfurt School theorist most likely respond?"
+  type: multiple-choice
+  options:
+    - "The critic is correct; the proliferation of genuine choice has undermined the culture industry thesis"
+    - "The diversity is pseudo-individualization — proliferating variations on standardized formats that reinforce the existing order while simulating free choice"
+    - "Streaming platforms simply extend the culture industry to new delivery mechanisms; the thesis applies without modification"
+    - "The Frankfurt School's analysis was specific to 1940s radio and film and explicitly cannot apply to digital media"
+  answer: 1
+  explanation: "A Frankfurt School theorist would argue that the appearance of expanded choice is precisely the mechanism the culture industry has refined. Having 500 options rather than 3 doesn't constitute genuine cultural alternatives if those 500 options all operate within the same commercial logic, reward the same forms of passive consumption, and foreclose the same critical distance. The 'long tail' of streaming content mostly produces more variations on familiar genres, stars, and narrative formulas. The proliferation of choice may actually be a more effective form of pseudo-individualization than the older, more obviously limited broadcast model."
+
+- question: "The Frankfurt School's critical theory is explicitly normative — it aims not merely to describe social arrangements but to diagnose social pathologies with an orientation toward emancipation."
+  type: true-false
+  answer: true
+  explanation: "Horkheimer distinguished 'critical theory' from 'traditional theory' precisely on this point. Traditional theory aims at objective, value-neutral description. Critical theory takes an explicitly normative stance: it is motivated by an interest in human emancipation and evaluates social arrangements by their capacity to enable or obstruct it. This normative orientation is not seen as a weakness or bias but as the defining feature that makes theory genuinely critical rather than merely descriptive or technocratic."
+
+- question: "The Frankfurt School's central contribution was extending classical Marxist economic critique, adding more sophisticated analysis of wage exploitation and the extraction of surplus value from workers."
+  type: true-false
+  answer: false
+  explanation: "The Frankfurt School's key innovation was to move beyond economic determinism into culture, psychology, and reason itself. Classical Marxism expected that economic contradictions would produce class consciousness and revolutionary change. The Frankfurt School asked why this hadn't happened and found the answer in ideology operating through culture (the culture industry), in the psychological mechanisms that produce conformity (authoritarian personality), and in the deformation of reason itself (instrumental reason). Their target was not economic exploitation per se but how capitalism perpetuates domination through the very categories within which people think, desire, and experience freedom."
+
+- question: "What does Marcuse mean by 'one-dimensional thought,' and why does he consider it a form of domination even when people appear to be free and satisfied?"
+  type: short-answer
+  answer: "One-dimensional thought is a condition in which critical negation — the ability to imagine and desire fundamentally different social arrangements — has been systematically absorbed and neutralized. Consumer satisfaction, mass media, and technological management of needs have eliminated the felt sense that things could be otherwise. It is domination without a visible oppressor, administered through comfort and desire rather than coercion."
+  explanation: "Marcuse's insight was that genuine freedom requires not just the absence of coercion but the ability to conceive of alternatives. Advanced industrial society forecloses this not through prohibition but by colonizing imagination itself: it generates needs whose satisfaction binds people to the existing order, and it absorbs oppositional language and images into mainstream culture (co-optation). Someone who has enough to eat, entertainment on demand, and no immediate grievances is not obviously unfree — yet if they genuinely cannot imagine a different kind of society, Marcuse considers them subject to a profound form of domination."
+```
+
 ## Explainer
 
 Your prerequisite in conflict theory introduced the core Marxist claim: society is structured by material inequalities, and dominant groups use ideology to naturalize arrangements that serve their interests. The **Frankfurt School** accepted this framework but found it insufficient. Classical Marxism expected that working-class consciousness, once achieved, would produce revolutionary change. What actually happened in the twentieth century — the rise of fascism, consumer society's pacification of workers, the Soviet Union's authoritarian turn — demanded an explanation that economic determinism alone could not provide. The Frankfurt School's answer was a radical extension of ideology critique into culture, psychology, and reason itself.

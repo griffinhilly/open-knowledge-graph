@@ -39,6 +39,45 @@ Start by drawing a rectangle, cutting it diagonally, and showing that each trian
 - Using a slant side as the height instead of the perpendicular height.
 - Thinking only the bottom side can be the base — any side can be the base if the corresponding height is used.
 
+## Questions
+
+```yaml
+- question: "A triangle has a base of 10 cm. The slant side adjacent to the base measures 8 cm, and the perpendicular height from the base to the opposite vertex is 6 cm. What is the area?"
+  type: multiple-choice
+  options:
+    - "80 cm² — multiply base times slant side"
+    - "40 cm² — use (1/2) × base × slant side"
+    - "30 cm² — use (1/2) × base × perpendicular height"
+    - "60 cm² — multiply base times perpendicular height"
+  answer: 2
+  explanation: "The formula A = (1/2)bh requires the *perpendicular* height h — the straight-line distance from the base to the opposite vertex, measured at a right angle. Here h = 6 cm, so A = (1/2)(10)(6) = 30 cm². Using the slant side (8 cm) instead of the height is the most common error with non-right triangles. The slant side is a side of the triangle, not its height."
+
+- question: "A triangle has three base-height pairs that can be used to compute its area: (base 5, height 12) and (base 10, height 6). What must the height be when the third side of length 13 is used as the base?"
+  type: multiple-choice
+  options:
+    - "13 — the height equals the base when a different side is chosen"
+    - "≈ 4.6 — because all three base-height pairs must yield the same area"
+    - "Cannot be determined without knowing the triangle's angles"
+    - "6 — the height is fixed regardless of which base you choose"
+  answer: 1
+  explanation: "All three base-height pairs give the same area because there is only one area for a given triangle. Using (base 5, height 12): A = (1/2)(5)(12) = 30. Using (base 10, height 6): A = (1/2)(10)(6) = 30. So (1/2)(13)(h) = 30, giving h = 60/13 ≈ 4.6. This confirms that you can choose any side as the base as long as you use the *corresponding* perpendicular height."
+
+- question: "The height of a triangle is always one of its three sides."
+  type: true-false
+  answer: false
+  explanation: "The height (altitude) of a triangle is the perpendicular distance from a chosen base to the opposite vertex — it is not a side of the triangle unless the triangle is a right triangle and you use the legs as base and height. For non-right triangles, the height is a separate segment drawn from the vertex perpendicular to the base (or the extended base). Using a slant side as the height is the most common error in computing triangle area."
+
+- question: "If you double the height of a triangle while keeping the base the same, the area doubles."
+  type: true-false
+  answer: true
+  explanation: "A = (1/2)bh. If h becomes 2h, the new area is (1/2)b(2h) = 2 × (1/2)bh = 2A. Area is directly proportional to height (and to base). This is a direct consequence of the formula and is useful for scaling: doubling any one dimension while holding the other constant doubles the area."
+
+- question: "Why does the formula A = (1/2)bh for the area of a triangle include the factor of 1/2?"
+  type: short-answer
+  answer: "Because every triangle is exactly half of a parallelogram (or rectangle) with the same base and height. If you duplicate a triangle and rotate the copy 180°, the two triangles fit together to form a rectangle (for right triangles) or parallelogram (for any triangle). That parallelogram has area b × h, so each triangle is half: (1/2)bh."
+  explanation: "This geometric reasoning makes the formula unforgettable once understood. It also explains why the height must be perpendicular: the area of the parallelogram is base times *perpendicular* height, so halving it gives (1/2) × base × perpendicular height. Using a slant dimension would give the wrong parallelogram area and thus the wrong triangle area."
+```
+
 ## Explainer
 
 The formula A = (1/2)bh is not just a rule to memorize — it has a clear geometric reason that makes it impossible to forget once you see it. You already know how to find the **area of a rectangle**: multiply length times width, or equivalently, base times height. Every triangle is secretly half of a rectangle (or parallelogram). Draw any right triangle; rotate a copy of it 180° and attach it to the hypotenuse: you get a rectangle. The triangle is exactly half that rectangle, so its area is half of base × height. The formula follows directly from your prerequisite knowledge.

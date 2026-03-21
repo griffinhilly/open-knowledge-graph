@@ -37,6 +37,45 @@ Solve beam and ladder problems: draw the FBD, write ΣFx = 0, ΣFy = 0, and Στ
 - Thinking the torque pivot must be a physical support point: it can be any point.
 - Setting up torque equations without specifying the sign convention for clockwise vs. counterclockwise.
 
+## Questions
+
+```yaml
+- question: "A uniform horizontal beam is pinned at its left end and rests against a smooth wall at its right end. A student places the torque pivot at the wall contact point. Which forces drop out of the torque equation?"
+  type: multiple-choice
+  options:
+    - "Only gravity drops out because it acts at the center"
+    - "The pin reaction at the left end drops out"
+    - "The wall's normal force drops out because it acts right at the pivot and has zero moment arm"
+    - "All forces drop out, making the torque equation useless at that pivot"
+  answer: 2
+  explanation: "Torque = force × perpendicular moment arm. When the pivot is placed at the point where the wall's normal force acts, that force has a zero moment arm and contributes zero torque — it drops out of the equation entirely. This leaves an equation involving only the pin reaction and gravity, making it straightforward to solve. Strategic pivot selection is the central technique in static equilibrium analysis."
+
+- question: "Two equal but opposite forces act at the two ends of a horizontal beam, one pushing up on the left and one pushing down on the right. The net force on the beam is zero, so the beam is in static equilibrium."
+  type: true-false
+  answer: false
+  explanation: "False. Static equilibrium requires BOTH conditions: ΣF = 0 AND Στ = 0. In this scenario, the net force is indeed zero, but the two forces form a couple that produces a net torque, causing the beam to rotate. Satisfying the force condition alone is insufficient for equilibrium of an extended object — the torque condition is a separate, independent requirement."
+
+- question: "The pivot point used in the torque equation for static equilibrium must be located at an actual physical support or hinge."
+  type: true-false
+  answer: false
+  explanation: "False. The torque equilibrium condition Στ = 0 must hold about any point — this is a consequence of equilibrium itself. You are free to choose whichever pivot makes the algebra simplest. The standard strategy is to place the pivot at the location of an unknown force, which makes that force's torque contribution zero and removes it from the equation. There is no requirement that the pivot be a physical support."
+
+- question: "A ladder leans against a frictionless wall. To find the wall's normal force, a student writes Στ = 0 about the base of the ladder. Which forces appear in this torque equation?"
+  type: multiple-choice
+  options:
+    - "The wall normal force and gravity only — base forces have zero moment arm at the base pivot"
+    - "All four forces: gravity, wall normal, base normal, and base friction"
+    - "Only gravity, since it is the only downward force"
+    - "Base friction and gravity only — the wall force is too far away"
+  answer: 0
+  explanation: "With the pivot at the base, the two base forces (normal and friction) act right at the pivot — their moment arms are zero and they contribute zero torque. The torque equation then contains only the wall's normal force and gravity (each with nonzero moment arms from the base). This allows the wall force to be solved immediately, after which the force equations ΣFx = 0 and ΣFy = 0 yield the base forces."
+
+- question: "Explain why ΣF = 0 alone is not sufficient to guarantee static equilibrium of an extended object, and what additional condition is required."
+  type: short-answer
+  answer: "ΣF = 0 ensures the center of mass has no translational acceleration — the object won't slide or accelerate in any direction. But extended objects can also rotate. Forces can produce torques even when they balance: two equal and opposite forces applied at different points create zero net force but nonzero net torque, causing rotation. The additional condition is Στ = 0 about any point, ensuring no rotational acceleration. Both conditions together — zero net force and zero net torque — guarantee true static equilibrium."
+  explanation: "A particle (point mass) only needs ΣF = 0. But rigid bodies have spatial extent, so forces applied at different points can cause rotation without causing translation. The torque equation is an independent constraint that the force equation cannot capture, which is why equilibrium problems with extended objects have three independent scalar equations (ΣFx, ΣFy, Στ) rather than two."
+```
+
 ## Explainer
 
 From your study of free-body diagrams, torque, and Newton's first law, you have all the tools needed to analyze rigid objects that are not moving. Newton's first law tells you that an object in equilibrium has zero net force. Your study of torque adds a second, independent condition: an object that is not rotating — one in rotational equilibrium — has zero net torque. **Static equilibrium** requires *both*: ΣF = 0 and Στ = 0. Neither condition alone is sufficient, and understanding why is the key to mastering this topic.

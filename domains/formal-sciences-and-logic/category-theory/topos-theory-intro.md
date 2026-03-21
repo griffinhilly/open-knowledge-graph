@@ -37,6 +37,45 @@ Start with Set as the canonical example: the subobject classifier is {0,1} with 
 - The internal logic of a topos is not classical in general; the law of excluded middle and axiom of choice may fail, leading to constructive/intuitionistic reasoning.
 - Not every Grothendieck topos arises from a topological space; the general definition uses Grothendieck topologies on arbitrary categories (sites), vastly generalizing the topological case.
 
+## Questions
+
+```yaml
+- question: "A mathematician proposes to use the law of excluded middle (P ∨ ¬P) freely in the internal logic of a presheaf topos [C^op, Set]. Why is this problematic?"
+  type: multiple-choice
+  options:
+    - "The law of excluded middle holds in all toposes, so there is no issue — it is always valid"
+    - "In a presheaf topos, the subobject classifier Ω assigns each object a set of sieves rather than just {true, false}, so propositions can be 'true at some stages but not others' — excluded middle fails"
+    - "Presheaf toposes lack a subobject classifier, making logical reasoning inside them impossible"
+    - "The law of excluded middle holds in Grothendieck toposes but not elementary ones, and presheaf toposes are neither"
+  answer: 1
+  explanation: "The internal logic of a presheaf topos is intuitionistic, not classical. The subobject classifier Ω is the presheaf of sieves, which can have many more than two elements at each object. A proposition's truth value at stage c is a sieve — it can be 'true at c but not at c′' — so a proposition and its negation need not together cover all possibilities. Excluded middle (P ∨ ¬P) is the claim that truth values are always exactly {true, false}, which fails when Ω is richer."
+
+- question: "What is the role of the subobject classifier Ω in an elementary topos?"
+  type: multiple-choice
+  options:
+    - "It classifies all objects in the topos by their size, analogously to a cardinality function"
+    - "It is an object equipped with a morphism true: 1 → Ω such that every monomorphism m: A ↪ X has a unique characteristic morphism χ_m: X → Ω making a pullback square — generalizing the characteristic function of a subset"
+    - "It is the terminal object 1, providing a canonical basepoint for the topos"
+    - "It classifies all morphisms in the topos, not just monomorphisms"
+  answer: 1
+  explanation: "The subobject classifier generalizes the characteristic function of subsets. In Set, every subset A ⊆ X is characterized by its indicator function χ: X → {0,1}, where χ(x) = 1 iff x ∈ A. In a general topos, Ω replaces {0,1} and characteristic morphisms replace indicator functions. The key requirement is the pullback condition: A is recovered from χ_m as the preimage of 'true'. Without Ω, there is no internal notion of 'proposition' or 'truth value,' which is why the subobject classifier is the defining feature."
+
+- question: "The internal logic of a general elementary topos is intuitionistic rather than classical, because the subobject classifier Ω can have more than two global sections, meaning propositions can have truth values beyond simply 'true' or 'false.'"
+  type: true-false
+  answer: true
+  explanation: "Classical logic requires exactly two truth values. In a general topos, Ω may have many global sections (morphisms 1 → Ω), each representing a distinct truth value. In the presheaf topos [C^op, Set], these correspond to sieves on each object, which can be numerous. When Ω has more than two global sections, both the law of excluded middle (P ∨ ¬P) and the axiom of choice may fail, and reasoning must be intuitionistic. Classical logic is recovered only in degenerate cases where Ω ≅ 1 + 1."
+
+- question: "Every Grothendieck topos arises as the category of sheaves on a topological space; the generalization to arbitrary sites (categories equipped with Grothendieck topologies) does not produce genuinely new examples."
+  type: true-false
+  answer: false
+  explanation: "This is a fundamental misconception. Grothendieck topologies generalize the notion of 'open cover' from topological spaces to arbitrary categories. Many important Grothendieck toposes have no underlying topological space: the étale topos over a scheme, classifying toposes for algebraic theories, and the effective topos (where functions are computable) are all Grothendieck toposes that do not arise from any topological space. The full generality of sites is essential to algebraic geometry and categorical logic."
+
+- question: "Explain why the subobject classifier is considered the defining feature of a topos, and why its structure in a presheaf topos differs from the two-element set {true, false} in Set."
+  type: short-answer
+  answer: "The subobject classifier Ω is what gives a topos its logical character: it allows every subobject (monomorphism) to be represented by a unique characteristic morphism into Ω, internalizing the notion of 'proposition' within the category. Without Ω, there is no way to reason logically inside the topos. In Set, Ω = {true, false} because a subset is either included or not — there are exactly two truth values. In a presheaf topos [C^op, Set], truth is indexed by the category C: Ω assigns to each object c the set of sieves on c (collections of morphisms closed under precomposition). A proposition can be 'true at stage c but not at stage c′,' yielding many truth values and an intuitionistic logic where excluded middle need not hold."
+  explanation: "The richness of Ω directly determines the complexity of the internal logic. Set's two-element Ω produces classical logic; presheaf toposes' richer Ω produces intuitionistic logic. This is why topos theory provides a framework for studying alternative logics categorically."
+```
+
 ## Explainer
 
 You already know that presheaves — contravariant functors from a small category C into Set — form a category [C^op, Set] that is Cartesian closed (from your prerequisite on Cartesian closed categories) and has all limits and colimits. The category Set is the simplest topos, and [C^op, Set] is the next most accessible one. What makes a topos more than just "a nice category" is the **subobject classifier**: an object Ω together with a morphism true: 1 → Ω such that every monomorphism m: A ↪ X in the category is classified by a unique characteristic morphism χ_m: X → Ω making a pullback square. In Set, Ω = {0, 1} and χ_m(x) = 1 iff x ∈ im(m) — this is just the characteristic function of a subset. The subobject classifier generalizes this idea to any topos, replacing {0, 1} with a richer object of "truth values."

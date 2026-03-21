@@ -37,6 +37,45 @@ Prove the theorem first for A = ℕ (Cantor's diagonal argument for the reals). 
 - Cantor's theorem applies to ALL sets, including finite ones: |P(∅)| = 1 > 0 and |P({a})| = 2 > 1.
 - The theorem shows no surjection A → P(A) exists, but there is always an injection x ↦ {x} from A into P(A).
 
+## Questions
+
+```yaml
+- question: "Cantor's theorem states that |P(A)| > |A| for any set A. Applied to the natural numbers ℕ, what does this imply?"
+  type: multiple-choice
+  options:
+    - "P(ℕ) is countably infinite — larger than ℕ but still in correspondence with it via a clever enumeration"
+    - "P(ℕ) is uncountable — its cardinality strictly exceeds that of ℕ, and no bijection between them can exist"
+    - "P(ℕ) has the same cardinality as ℕ because both are infinite sets"
+    - "P(ℕ) is a proper class, not a set, and cardinality does not apply to it"
+  answer: 1
+  explanation: "Cantor's theorem guarantees no surjection ℕ → P(ℕ) exists, and hence no bijection — so |P(ℕ)| > |ℕ| = ℵ₀. P(ℕ) is strictly larger than ℕ and is in fact uncountable, having cardinality 2^ℵ₀ = |ℝ|. The common misconception is that 'all infinite sets are the same size' — this was the revolutionary content of Cantor's work, showing that infinities come in different sizes. The result for ℕ is a special case of the theorem, which applies to every set."
+
+- question: "In the proof of Cantor's theorem, the diagonal set D = {x ∈ A : x ∉ f(x)} is constructed. Why does this set produce a contradiction when we assume f: A → P(A) is a surjection?"
+  type: multiple-choice
+  options:
+    - "Because D is the empty set, and surjections cannot map any element to the empty set"
+    - "Because D has larger cardinality than P(A), which is impossible"
+    - "Because D is a well-defined subset of A (so D ∈ P(A)), but asking whether the element d with f(d) = D belongs to D leads to a logical contradiction in either case"
+    - "Because the axiom of choice fails for infinite sets, making the construction of D impossible"
+  answer: 2
+  explanation: "D is a perfectly well-defined subset of A — no choice axiom or cardinality argument is needed. If f is a surjection, then D = f(d) for some d. Now: if d ∈ D, then by D's definition, d ∉ f(d) = D — contradiction. If d ∉ D, then d ∉ f(d), so by D's definition, d ∈ D — contradiction. Both cases are impossible, so the assumption that f is a surjection must be false. The elegance is that D's definition is self-referential in exactly the way needed to escape any proposed surjection."
+
+- question: "Cantor's theorem applies only to infinite sets — for finite sets, it is possible for A and P(A) to have the same cardinality."
+  type: true-false
+  answer: false
+  explanation: "Cantor's theorem applies to ALL sets without exception, including finite and empty ones. For the empty set: |P(∅)| = |{∅}| = 1 > 0 = |∅|. For a singleton: |P({a})| = |{∅, {a}}| = 2 > 1 = |{a}|. For any finite set of size n, |P(A)| = 2^n > n. The proof by diagonal argument works for finite sets too — there is simply no surjection A → P(A) for any set, finite or infinite. This is one of the misconceptions explicitly flagged in the topic."
+
+- question: "Cantor's theorem implies there is no largest cardinal number — for any infinite cardinal κ, there exists a strictly larger cardinal 2^κ."
+  type: true-false
+  answer: true
+  explanation: "Cantor's theorem gives |P(A)| > |A| for every set A. Applied to any infinite cardinal κ (the cardinality of some set A), the power set P(A) has cardinality 2^κ > κ. This generates an unbounded tower: ℵ₀ < 2^ℵ₀ < 2^(2^ℵ₀) < ···. Since every step strictly increases cardinality and there is no ceiling, there is no largest cardinal. The collection of all cardinals is a proper class — it cannot itself be a set, because that would require a set larger than any cardinal, contradicting Cantor's theorem applied to that set."
+
+- question: "Explain in your own words why the diagonal set D in Cantor's proof always escapes any proposed surjection f: A → P(A), no matter how cleverly f is constructed."
+  type: short-answer
+  answer: "D is built by adversarially exploiting the structure of f itself: for each element x in A, D includes x if and only if x is NOT in the subset f(x). This means D disagrees with f(x) about whether x belongs — for every single x in A. If f(d) = D for some d, then asking 'is d in D?' generates a direct contradiction: D includes d iff d is not in f(d) = D. No matter how f is chosen, D is specifically constructed to differ from every set in f's range. It's a moving target that is always exactly one step ahead of f: f tries to hit D, but D is defined to dodge by checking whether f(d) contains d and doing the opposite. The diagonal argument is a formalization of self-referential evasion."
+  explanation: "This is the deep structure of diagonal arguments, which reappear across mathematics and logic: in the proof that the reals are uncountable (Cantor's diagonal), in Russell's paradox (the set of all sets that don't contain themselves), in Gödel's incompleteness proof (the statement that says 'I am not provable'), and in the undecidability of the halting problem. Recognizing this structure is one of the most transferable insights in foundational mathematics."
+```
+
 ## Explainer
 
 You have studied cardinality and countability, and you know that two sets have the same cardinality when there is a bijection between them. Cantor's theorem is the most powerful result in this territory: for any set A whatsoever, the **power set** P(A) — the set of all subsets of A — is strictly larger than A. There is an injection A → P(A) (send each element x to its singleton {x}), but no surjection. Since cardinality comparison requires a bijection, and no bijection can exist when there's no surjection, we get |A| < |P(A)|.

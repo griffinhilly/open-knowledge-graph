@@ -35,6 +35,45 @@ Constructing a simple groundwater flow net (equipotential lines and flow lines) 
 - Groundwater does not flow in underground rivers (in most settings); it seeps slowly through pore spaces at rates of centimeters to meters per day.
 - Aquifer recharge is often slow; in arid regions, many aquifers recharge on timescales of thousands to tens of thousands of years, making them essentially non-renewable on human timescales.
 
+## Questions
+
+```yaml
+- question: "Clay has ~50% porosity; well-sorted gravel has ~25% porosity. Which material makes a more productive aquifer, and why?"
+  type: multiple-choice
+  options:
+    - "Clay, because it holds more water per unit volume"
+    - "Gravel, because its large, well-connected pores give it far higher hydraulic conductivity, allowing rapid water flow to a well"
+    - "Clay, because finer grain size filters impurities, making the water safer"
+    - "They are equally productive because aquifer yield depends only on total stored water, not flow rate"
+  answer: 1
+  explanation: "Porosity measures storage capacity; hydraulic conductivity (permeability) measures how easily water flows. Clay's tiny, poorly connected pores trap water effectively but release it extremely slowly — it is practically impermeable. Gravel's large, interconnected pores allow rapid flow. A productive aquifer needs both storage and the ability to yield water to wells at usable rates; clay fails the second criterion catastrophically."
+
+- question: "According to Darcy's Law (Q = −KA dh/dl), what happens to the groundwater flow rate if the hydraulic gradient (dh/dl) doubles while hydraulic conductivity and cross-sectional area remain constant?"
+  type: multiple-choice
+  options:
+    - "Flow rate doubles"
+    - "Flow rate is halved"
+    - "Flow rate is unchanged because gradient only affects direction, not magnitude"
+    - "Flow rate quadruples because the squared relationship applies to gradients"
+  answer: 0
+  explanation: "Darcy's Law is linear — flow rate is directly proportional to the hydraulic gradient. Doubling dh/dl doubles Q. The gradient represents the slope of the water table (or pressure surface) per unit distance; a steeper gradient means a stronger driving force pushing water through the aquifer."
+
+- question: "In most geological settings, groundwater moves through large underground rivers and caves at speeds comparable to surface streams."
+  type: true-false
+  answer: false
+  explanation: "In most settings, groundwater seeps slowly through pore spaces and fractures at centimeters to meters per day — far slower than surface streams. The misconception of underground rivers applies mainly to karst (limestone) terrain, where dissolution has created large conduits. In typical sand, gravel, or fractured-rock aquifers, flow is a slow, distributed percolation through tiny pores."
+
+- question: "A confined aquifer under artesian pressure will have water that rises above the top of the aquifer unit when a well is drilled into it."
+  type: true-false
+  answer: true
+  explanation: "A confined aquifer is sandwiched between impermeable aquitards and the water is under pressure greater than atmospheric — often because the recharge area is at a higher elevation. When a well penetrates the confining layer, this pressure pushes water up the well casing above the aquifer top. If pressure is high enough, the well flows freely without pumping — an artesian well."
+
+- question: "Explain why clay can have higher porosity than sandstone yet be a far worse aquifer material."
+  type: short-answer
+  answer: "Porosity and permeability are independent properties. Porosity is the fraction of void space — how much water can be stored per unit volume. Permeability (hydraulic conductivity) describes how easily water flows through those voids. Clay has very high porosity (40–60%) but extremely low permeability because its pores are microscopic and poorly connected, so water barely moves through it. Sandstone has lower porosity (15–30%) but much larger, well-connected pores that allow rapid flow. A productive aquifer requires both adequate storage AND sufficient permeability to yield water to wells; clay meets only the first criterion."
+  explanation: "This distinction is the most important misconception in hydrogeology. Many students assume more void space = better aquifer, but a rock full of disconnected micropores is a trap, not a resource. Permeability depends on pore size, shape, and connectivity — properties that are largely independent of total void fraction."
+```
+
 ## Explainer
 
 You know from studying sedimentary rocks that different rock types have very different textures — sandstone has visible, well-sorted grains with open pore spaces, while shale is made of compacted clay particles so fine you cannot distinguish them without a microscope. From weathering and erosion, you understand that rock at the surface breaks down and that water is a primary agent driving that breakdown. Hydrogeology connects these ideas: the same textural properties that define a sedimentary rock also determine whether it can store and transmit water underground.

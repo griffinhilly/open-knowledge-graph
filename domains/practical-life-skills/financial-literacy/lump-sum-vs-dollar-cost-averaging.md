@@ -29,6 +29,45 @@ Research historical data comparing investing $50,000 all at once versus in equal
 ## Common Misconceptions
 Dollar-cost averaging guarantees lower average cost when it only works if the asset trends upward after you start investing. Lump-sum is always better when it has higher sequence-of-returns risk. You must choose one approach when most people use both.
 
+## Questions
+
+```yaml
+- question: "An investor has $60,000 to invest. An advisor recommends investing $10,000 per month for 6 months to 'guarantee a lower average cost per share.' For this advice to hold mathematically, which condition must be true?"
+  type: multiple-choice
+  options:
+    - "Markets will rise at some point during the 6-month window"
+    - "Prices must fluctuate enough during the window for averaging to help, AND the market must not simply trend upward the whole time"
+    - "The investor must have above-average risk tolerance"
+    - "Lump-sum investing always results in buying near a market peak"
+  answer: 1
+  explanation: "DCA produces a lower average cost per share only compared to buying the same number of shares each period. In a steadily rising market, DCA just means less money invested early and more invested at higher prices — worse than lump-sum. The advisor's claim requires prices to dip after the first purchase so later installments buy at lower prices. Since markets trend upward roughly two-thirds of the time, this condition often fails, which is why lump-sum statistically outperforms."
+
+- question: "What is the primary mathematical argument for lump-sum investing over DCA when deploying a windfall into a diversified index fund over the long term?"
+  type: multiple-choice
+  options:
+    - "Lump-sum forces you to buy at temporarily low prices before markets recover"
+    - "Money invested earlier has more years to compound, and because markets trend upward on average, early deployment captures more expected growth"
+    - "DCA always guarantees a higher average purchase price"
+    - "Lump-sum eliminates sequence-of-returns risk entirely"
+  answer: 1
+  explanation: "The compound interest insight is decisive: a dollar invested today has more time to grow than a dollar invested 6 months from now. In an upward-trending market, every month of delayed deployment is a month of expected gains foregone. Studies consistently find lump-sum outperforms DCA about two-thirds of the time for this reason. Note that lump-sum does NOT eliminate sequence-of-returns risk — it actually concentrates it at a single entry point, which is the main argument for DCA."
+
+- question: "Dollar-cost averaging reduces the emotional pain of investing by distributing potential regret across multiple purchase points rather than concentrating it at one entry."
+  type: true-false
+  answer: true
+  explanation: "This is DCA's genuine and primary advantage — it is psychological, not mathematical. If a lump-sum investor watches their entire $60,000 drop 20% the following week, the pain is intense and often triggers panic selling. With DCA, later purchases are at lower prices, which feels like 'getting a deal' rather than 'sitting on a loss.' For investors prone to loss aversion, this framing can prevent the worst behavioral mistake: selling at the bottom. Better psychological sustainability can produce better actual outcomes even with lower expected value."
+
+- question: "Dollar-cost averaging always produces a lower average cost per share than investing a lump sum."
+  type: true-false
+  answer: false
+  explanation: "DCA produces a lower average cost than buying the *same number of shares* each period (because fixed dollar amounts automatically buy more shares when prices are low). But compared to lump-sum investing the same total dollar amount on day one, DCA does NOT guarantee lower average cost. In a rising market, each DCA installment buys at a progressively higher price — the average cost ends up higher than the initial lump-sum price. The math only favors DCA if the market dips after you start."
+
+- question: "In what specific market scenario does DCA mathematically outperform lump-sum investing, and why is that scenario relatively rare for long-term equity index investors?"
+  type: short-answer
+  answer: "DCA outperforms lump-sum when the market declines after the initial investment and then recovers by the end of the period. In that case, later DCA installments buy shares at lower prices, reducing the average cost. This scenario requires a significant dip followed by recovery — exactly the pattern where DCA shines. It is relatively rare because equity markets trend upward over long periods; in any given 6-12 month window, markets are more likely to be higher at the end than lower. Roughly two-thirds of the time, lump-sum captures more of the upward trend."
+  explanation: "Understanding this scenario also clarifies DCA's real value: it is a risk-reduction tool (lower variance of outcomes) that accepts a lower expected return as the cost. Whether that tradeoff is worth it depends on the individual's behavioral profile, not on a universal mathematical superiority of DCA."
+```
+
 ## Explainer
 
 You already know from compound interest that time in the market is the primary driver of long-term investment returns — money invested earlier has more years to compound. This intuition directly supports **lump-sum investing**: if you receive a windfall of $50,000, deploying it all immediately maximizes the time that money is working for you. Historical data consistently confirms this. Studies across various markets find that lump-sum investing outperforms spreading the same investment over 6–12 months roughly two-thirds of the time. The reason is simple: markets tend to rise over time, so any money sitting on the sidelines waiting to be deployed is, on average, missing gains.

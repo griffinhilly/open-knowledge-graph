@@ -33,6 +33,45 @@ Practice the 'paragraph audit': read only the topic sentences of a multi-paragra
 - The topic sentence must always be the first sentence; while that is the most common and readable position, it can appear mid-paragraph as a pivot.
 - Topic sentences restate the thesis; they should instead extend and subdivide it.
 
+## Questions
+
+```yaml
+- question: "A student writes a paragraph with this topic sentence: 'Shakespeare was a great writer.' The paragraph then discusses iambic pentameter, lists his plays, mentions the Globe Theatre, and quotes a sonnet. What is the primary structural problem?"
+  type: multiple-choice
+  options:
+    - "The topic sentence is too specific — it limits the paragraph to only one aspect of Shakespeare"
+    - "The paragraph lacks unity because the topic sentence is too broad to govern any one controlling idea, and the sentences go in multiple directions"
+    - "The topic sentence should be moved to the end of the paragraph"
+    - "The paragraph needs more supporting evidence before it can be considered unified"
+  answer: 1
+  explanation: "A topic sentence that says 'Shakespeare was a great writer' is so vague it cannot govern a paragraph — anything about Shakespeare could technically follow it. The result is a paragraph with no controlling idea, so the sentences scatter in multiple directions. This is both a topic-sentence problem (too general) and a unity problem (no single idea is being developed). A better topic sentence would name one specific claim, like how Shakespeare's use of iambic pentameter creates emotional tension."
+
+- question: "A student is writing a paragraph with the topic sentence: 'Social media has fundamentally changed how teenagers form friendships.' Which sentence does NOT belong in this paragraph?"
+  type: multiple-choice
+  options:
+    - "Many teens report feeling closer to online friends than to classmates they see daily"
+    - "Platforms create pressure to curate an idealized public image that affects self-esteem"
+    - "Mark Zuckerberg founded Facebook in 2004 while attending Harvard University"
+    - "Parasocial relationships with influencers can partially substitute for peer connection"
+  answer: 2
+  explanation: "The founding date of Facebook is a biographical fact about a company, not a claim about how teenagers form friendships. It may be related to the topic of social media broadly, but it does not develop the controlling idea of the paragraph. All the other options directly address how social media shapes friendship formation. This is what breaking paragraph unity looks like: the sentence could exist in a different paragraph (about the history of social media) without any adjustment."
+
+- question: "A strong topic sentence restates the essay's thesis in slightly different words, so the reader is reminded of the main argument throughout."
+  type: true-false
+  answer: false
+  explanation: "Topic sentences should extend and subdivide the thesis, not restate it. The thesis covers the essay's entire argument; each topic sentence covers one segment of that argument, advancing it in a new direction. If every topic sentence merely restates the thesis, the paragraphs are all saying the same thing rather than building a cumulative case. The paragraph audit test makes this failure visible: topic sentences that could be swapped for each other reveal an essay that is repeating, not progressing."
+
+- question: "If you can read only the topic sentences of a well-structured essay and still follow the argument's logical progression, the essay's structure is sound."
+  type: true-false
+  answer: true
+  explanation: "This is the paragraph audit test described in the Core Idea. In a well-organized argumentative essay, the topic sentences form a coherent outline — each one advances the thesis in a distinct direction, and together they trace the essay's reasoning. If the topic sentences can be reordered without loss of coherence, the essay is organized by association rather than argument. The audit works because topic sentences are the structural skeleton; if the skeleton is sound, the paragraphs built on it will be too."
+
+- question: "Why must a good topic sentence be both specific enough to govern the paragraph AND general enough to require the sentences that follow? What goes wrong when it is only one of these?"
+  type: short-answer
+  answer: "If a topic sentence is too general ('Shakespeare is important'), it cannot govern the paragraph because anything could follow it — there is no controlling idea to test other sentences against. If it is too specific ('Shakespeare used the word 'love' 2,137 times'), it states a complete fact with no interpretive claim, leaving nothing for supporting sentences to develop or demonstrate. A good topic sentence makes a specific but arguable claim (a 'mini-thesis') that points toward the evidence and explanation the paragraph will provide."
+  explanation: "The specificity-generality balance is the core technical skill of topic sentence writing. Too broad and the sentence controls nothing; too narrow and it answers itself. The test: does the topic sentence raise a question in the reader's mind that the paragraph will answer? 'Shakespeare used iambic pentameter in Hamlet to create tension between formal control and emotional instability' is specific enough to name a claim and general enough that the reader wonders: how? what evidence? The supporting sentences provide the answer."
+```
+
 ## Explainer
 
 From your work on paragraph structure, you know what a paragraph is: a unit of thought organized around a single controlling idea. The topic sentence makes that idea explicit and governs everything that follows. Think of it as a contract with your reader — the topic sentence promises a certain territory, and every subsequent sentence in the paragraph is bound by that promise.

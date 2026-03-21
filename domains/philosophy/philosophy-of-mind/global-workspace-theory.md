@@ -31,6 +31,45 @@ Visualize the workspace as a stage in a theater: many processes operate backstag
 - GWT is not a theory of phenomenal consciousness per se; critics argue it explains the function of access consciousness but leaves the hard problem untouched.
 - The theory does not claim consciousness serves no function; on the contrary, broadcasting is what enables flexible, integrative cognition that purely modular processing cannot achieve.
 
+## Questions
+
+```yaml
+- question: "In a masking experiment, a word is flashed so briefly that subjects report no awareness of it, yet their responses are primed by the word's meaning. According to Global Workspace Theory, what best explains this dissociation?"
+  type: multiple-choice
+  options:
+    - "The word entered the global workspace weakly and produced a faint conscious experience that subjects failed to remember"
+    - "The word was processed by specialist modules but failed to win the competition for global broadcast, so it never became conscious"
+    - "The word produced phenomenal experience that was erased before verbal report was possible"
+    - "The global workspace processed the word but inhibited its broadcast to protect attentional resources"
+  answer: 1
+  explanation: "GWT predicts that subliminal stimuli are processed locally by specialized modules — activating semantic representations, for example — but do not achieve global broadcast. This is why they can prime responses without being consciously reportable. The key GWT claim is that consciousness IS global broadcast: if the word doesn't win broadcast rights, it was never conscious. Option A is wrong because GWT treats ignition as an all-or-nothing threshold event, not a matter of degree."
+
+- question: "Which of the following best describes the 'ignition' phenomenon identified by Dehaene as empirical support for the neuronal global workspace?"
+  type: multiple-choice
+  options:
+    - "A gradual, linear increase in neural activity as stimulus intensity increases toward conscious threshold"
+    - "Sequential activation of specialist modules as information propagates from sensory cortex to prefrontal cortex"
+    - "A sudden, non-linear, all-or-nothing activation of prefrontal and parietal networks when a stimulus crosses the threshold for conscious access"
+    - "Sustained firing in primary sensory cortex that marks the duration of conscious experience"
+  answer: 2
+  explanation: "Ignition is the hallmark of global broadcast: when a stimulus crosses the conscious threshold, prefrontal and parietal networks suddenly 'light up' in a way that is qualitatively different from the graded sensory response — it is non-linear and widespread. This all-or-nothing character predicts why conscious access feels like flipping a switch rather than turning a dial, and distinguishes GWT's prediction from alternatives that posit gradual accumulation of conscious content."
+
+- question: "Global Workspace Theory is, at its core, a theory of access consciousness — explaining how information becomes globally available for reasoning, report, and behavioral control."
+  type: true-false
+  answer: true
+  explanation: "Baars explicitly designed GWT as an account of access consciousness in Block's sense: information that is 'in' the global workspace is available for verbal report, deliberate attention, memory encoding, and motor planning. This is distinct from phenomenal consciousness (what it is like). GWT makes no direct claim about why there is subjective experience — it describes the functional architecture of conscious access, not the qualitative feel of it."
+
+- question: "If Global Workspace Theory were fully confirmed empirically, it would resolve both access consciousness and phenomenal consciousness, leaving no remaining 'hard problem.'"
+  type: true-false
+  answer: false
+  explanation: "This is precisely the main challenge critics level at GWT. Even a complete account of the global workspace — which systems broadcast, when, and how — describes the functional role of conscious information without explaining why there is something it is like to be the system. A philosophical zombie performing identical information-integration would satisfy all of GWT's functional predictions. Critics argue that explaining access consciousness (informational availability) does not entail explaining phenomenal consciousness (subjective experience), so the hard problem remains even if GWT is correct."
+
+- question: "Why do critics argue that Global Workspace Theory fails to solve the hard problem of consciousness, even if its empirical claims are correct?"
+  type: short-answer
+  answer: "GWT explains the functional architecture of conscious access — what information gets broadcast, which systems receive it, and what cognitive work becomes possible as a result. But explaining that information is globally available does not explain why there is something it is like to receive it. A philosophical zombie — a system that performs all the same broadcast and integration operations with no inner experience — would satisfy every GWT prediction. This is the explanatory gap: access and phenomenal consciousness are distinct explanandum, and demonstrating the mechanism of access leaves the 'what it is like' question untouched."
+  explanation: "The force of this criticism depends on Block's phenomenal/access distinction. If you accept that there is a further question beyond functional availability — namely, why is there subjective experience at all — then GWT's account of broadcasting leaves that question open. GWT theorists may respond either by denying the gap (phenomenal consciousness just is access consciousness fully understood) or by arguing that phenomenal consciousness requires additional principles beyond the workspace architecture."
+```
+
 ## Explainer
 
 Think of the mind as a large organization with many departments — vision, language, memory, motor planning, emotional evaluation — each running its own specialized processes in parallel and largely out of sight. Most of the time these departments work independently. Global Workspace Theory asks: what happens when information needs to be shared across departments? The answer is a **global workspace**: a limited-capacity communication channel that broadcasts selected information to all departments simultaneously. When a representation enters the workspace and gets broadcast, that information becomes available to memory consolidation, verbal report, deliberate attention, and motor control all at once. This is what Baars means by consciousness: not a mystery room where a homunculus watches, but a coordination mechanism for cross-domain information integration.

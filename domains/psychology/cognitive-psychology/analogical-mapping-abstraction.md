@@ -31,6 +31,45 @@ Provide source domain examples (story analogues) with varying structural similar
 - Assuming surface similarity is sufficient for analogical transfer; structural correspondence is what matters.
 - Treating analogy as rare or limited to special domains; everyday reasoning relies heavily on analogical mapping.
 
+## Questions
+
+```yaml
+- question: "A student is given the 'radiation problem' (how to destroy a tumor with rays without harming surrounding tissue) and a structurally identical 'military fortress' story (how to capture a fortress using many small converging forces). The student fails to apply the fortress strategy to the radiation problem spontaneously, but solves it immediately when told to use the story. What best explains this failure?"
+  type: multiple-choice
+  options:
+    - "The student lacks sufficient working memory to hold both problems in mind simultaneously"
+    - "Surface dissimilarity between rays and armies prevented spontaneous structural mapping"
+    - "The fortress story is too simple to serve as a genuine analogue for the radiation problem"
+    - "The student has not yet learned the radiation problem's domain-specific vocabulary"
+  answer: 1
+  explanation: "The key finding from Gick and Holyoak's classic studies is that people possess the structural knowledge needed for the mapping but fail to activate it spontaneously when surface features differ. Rays and armies share no perceptual or category similarity — yet their underlying relational structure (divide a force, converge from multiple directions to reduce individual intensity) is identical. Surface dissimilarity blocks spontaneous retrieval even when the structural analogy is perfect. Once the experimenter provides an explicit cue to use the story, the mapping succeeds immediately — demonstrating the structural knowledge was present all along."
+
+- question: "Expert physics students and novice physics students are given a set of problems to sort into categories. Experts group 'a ball rolling down a ramp' with 'a pendulum swinging' but separate them from 'two blocks connected by a string over a pulley.' Novices group the ramp and the pulley together. What principle explains the expert-novice difference?"
+  type: multiple-choice
+  options:
+    - "Experts have memorized more solved examples and pattern-match by frequency of encounter"
+    - "Experts categorize by deep relational structure (e.g., conservation of energy vs. Newton's second law), while novices categorize by surface features (e.g., inclined surfaces vs. pulleys)"
+    - "Experts focus on the objects and physical setup; novices focus on the equations needed"
+    - "Experts use backward reasoning from the goal; novices use forward reasoning from given information"
+  answer: 1
+  explanation: "Chi, Feltovich, and Glaser's classic research shows that novices classify physics problems by surface features — the objects and physical arrangement (inclined planes, pulleys, springs). Experts classify by the abstract relational structure — the underlying physics principle required (conservation of energy, Newton's second law, momentum). This structural representation is the cognitive prerequisite for analogical transfer: once a problem is encoded at the relational level, structural correspondences to known solutions become visible. This is why the expert-novice distinction is fundamentally a difference in *how problems are represented*, not just in how much knowledge is stored."
+
+- question: "Structural consistency — not surface similarity — is the primary constraint that drives successful analogical mapping."
+  type: true-false
+  answer: true
+  explanation: "This is the central finding of structure-mapping theory (Gentner, 1983). Valid analogies preserve relational structure: if A causes B in the source, then A' must cause B' in the target. Surface similarity (shared object attributes) is irrelevant to the validity of the mapping, though it may affect how easily the mapping is retrieved. A solar system is analogous to a Rutherford atom not because the sun and nucleus share features, but because both instantiate the same causal-relational structure. The three constraints — one-to-one correspondence, structural consistency, and systematicity — are all relational, not feature-based."
+
+- question: "The best way to help students apply an analogy to a new problem is to choose source examples that physically resemble the target problem as closely as possible."
+  type: true-false
+  answer: false
+  explanation: "This is the common misconception — and the empirical evidence runs directly against it. What promotes transfer is abstracting the relational skeleton of the source, not maximizing surface resemblance. When students explicitly articulate the underlying structural principle ('converge forces from many directions to reduce local intensity'), they transfer it to structurally parallel problems with very different surface features. Increasing surface similarity may help initial retrieval but can actually impede transfer to structurally similar but superficially dissimilar problems by reinforcing feature-based representation rather than relational abstraction."
+
+- question: "Why does explicitly abstracting the structural principle from a source analog — stripping away its surface content and stating the relational skeleton — significantly improve analogical transfer to new problems?"
+  type: short-answer
+  answer: "When the principle is stated in its abstract relational form (e.g., 'divide a force and converge from multiple directions'), the representation travels across surface-dissimilar domains. Structural abstraction creates a schema that matches any situation instantiating those relations, regardless of what objects fill the roles. Without abstraction, the knowledge is 'trapped' in the specific surface features of the original example and only retrieves when the new problem looks similar — a far narrower range."
+  explanation: "This is the core payoff of the topic. Analogical mapping is only as powerful as the representations it operates over. Surface-specific representations produce local, brittle transfer. Relationally abstract representations produce wide, flexible transfer. This is why expertise in any domain involves cultivating the habit of representing problems at their structural level — not to remember more facts, but to make structural correspondences visible that would otherwise remain hidden beneath surface differences."
+```
+
 ## Explainer
 
 From your study of analogical reasoning and structure-mapping theory, you already know the core insight: analogy is about shared relational structure, not surface similarity. A solar system is analogous to a Rutherford atom not because the sun and nucleus look alike, but because both share the abstract structure of a central massive body around which smaller objects orbit at various distances. The task now is to go deeper — to understand how the cognitive system actually *performs* this mapping, why it sometimes succeeds and sometimes fails, and what the implications are for problem-solving and expertise.

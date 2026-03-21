@@ -34,6 +34,45 @@ Compare basicity (pKa values) of conjugate bases to rank leaving group ability. 
 - Confusing leaving group ability with nucleophilicity; they are separate properties.
 - Underestimating how poor hydroxyl is as a leaving group; it typically requires protonation to water to depart.
 
+## Questions
+
+```yaml
+- question: "A student attempts an SN2 reaction by treating an alcohol (R-OH) directly with sodium cyanide (NaCN). No substitution product forms. What is the most likely reason?"
+  type: multiple-choice
+  options:
+    - "Cyanide is too weak a nucleophile to attack a carbon bearing an OH group."
+    - "OH⁻ is too poor a leaving group to depart; its high basicity makes it resist leaving, and alcohols cannot undergo SN2 without prior activation."
+    - "The reaction actually proceeds by SN1 instead of SN2, so no substitution product is detected by the student's method."
+    - "NaCN makes the solution basic, which deprotonates the alcohol and prevents water from acting as a leaving group."
+  answer: 1
+  explanation: "The first check in any substitution analysis is the leaving group. OH⁻ is the conjugate base of water (pKₐ ≈ 15.7), making it a strong base and a terrible leaving group. It will not depart regardless of how good the nucleophile is. To activate an alcohol for SN2, the –OH must first be converted to a better leaving group — either by protonation to give –OH₂⁺ (water, an excellent leaving group) or by conversion to a tosylate or mesylate."
+
+- question: "Rank the following groups from BEST to WORST leaving group ability: F⁻, I⁻, Br⁻, OH⁻"
+  type: multiple-choice
+  options:
+    - "F⁻ > Br⁻ > I⁻ > OH⁻"
+    - "OH⁻ > F⁻ > Br⁻ > I⁻"
+    - "I⁻ > Br⁻ > F⁻ > OH⁻"
+    - "Br⁻ > I⁻ > F⁻ > OH⁻"
+  answer: 2
+  explanation: "Leaving group ability is inversely related to basicity. The order follows the pKₐ of the conjugate acids: HI (pKₐ ≈ −10) > HBr (pKₐ ≈ −9) > HF (pKₐ ≈ 3.2) > H₂O (pKₐ ≈ 15.7). So I⁻ > Br⁻ >> F⁻ >> OH⁻. Fluoride is surprisingly poor for a halide because HF is a weak acid — F⁻ is a relatively strong base. The common mistake is ranking F⁻ as the best halide leaving group because fluorine is the most electronegative."
+
+- question: "Converting an alcohol to a tosylate ester (–OTs) improves its reactivity in substitution reactions by replacing a poor leaving group with a better one."
+  type: true-false
+  answer: true
+  explanation: "This is exactly right. The tosylate anion (TsO⁻) is the conjugate base of toluenesulfonic acid, a strong acid (pKₐ ≈ −1). The departing anion is stabilized by resonance delocalization of the negative charge across multiple sulfonate oxygen atoms, making TsO⁻ a weak base and excellent leaving group. Crucially, this conversion does not alter the stereochemistry at the carbon bearing the leaving group, preserving the substrate's configuration for subsequent stereospecific reactions."
+
+- question: "A better nucleophile is always also a better leaving group, because both properties reflect the stability of the species."
+  type: true-false
+  answer: false
+  explanation: "Nucleophilicity and leaving group ability are distinct and often inversely correlated in polar aprotic solvents. Nucleophilicity measures how readily a species attacks an electrophile (a kinetic, forward-reaction property). Leaving group ability measures how readily a species departs with bonding electrons (a thermodynamic stability property). Hydroxide (OH⁻) is a good nucleophile but a terrible leaving group. Iodide (I⁻) is both a good nucleophile and a good leaving group. Tosylate is an excellent leaving group but a weak nucleophile. The confusion is one of the most common in organic chemistry."
+
+- question: "Why does protonating an alcohol (R-OH → R-OH₂⁺) dramatically increase its reactivity in substitution reactions, even though the nucleophile still attacks the same carbon?"
+  type: short-answer
+  answer: "Protonation converts OH⁻ (a strong base, terrible leaving group) into H₂O (a weak base, excellent leaving group). The key factor is the stability of the departing species: water is the conjugate base of H₃O⁺ (pKₐ ≈ −1.7), making it an extremely weak base that departs easily. Before protonation, the carbon-oxygen bond would have to break to release OH⁻, an unstable high-energy anion. After protonation, the same bond breaks to release neutral water, a stable molecule. The nucleophile's job hasn't changed — the leaving group has been transformed from unworkable to excellent."
+  explanation: "This question probes whether students understand that leaving group ability determines whether bond cleavage is thermodynamically feasible, not just kinetically fast. The proton does not go to the leaving group's carbon or change which bond the nucleophile attacks — it changes the identity of the leaving species from OH⁻ to H₂O. Since leaving group ability tracks inverse basicity, converting a strong base (OH⁻) to a weak base (H₂O) makes all the difference between zero reactivity and rapid substitution."
+```
+
 ## Explainer
 
 In every substitution and elimination reaction you will study, a bond must break and a group must depart with the bonding electrons. That departing species is the **leaving group**, and its ability to leave — its **nucleofugality** — is one of the most important factors controlling whether a reaction occurs at all. The core principle is simple: a good leaving group is a **stable species after it departs**. If the leaving group can exist comfortably as an anion or neutral molecule once it carries away the bonding electrons, it leaves easily. If it would form a high-energy, unstable species, it resists departure.

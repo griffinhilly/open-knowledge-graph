@@ -32,6 +32,45 @@ Learn to identify tool types (Oldowan, Acheulean, Mousterian, Upper Paleolithic)
 - Simple stone tools reflect simple minds; creating stone tools requires sophisticated motor control, planning, and technical knowledge.
 - Tool type sequences represent evolutionary progress; they reflect adaptation to specific environmental and cultural contexts.
 
+## Questions
+
+```yaml
+- question: "An archaeologist uncovers simple Oldowan choppers at a site and a colleague concludes: 'These hominids must have had very limited cognitive abilities — their tools are barely modified rocks.' What is the critical flaw in this reasoning?"
+  type: multiple-choice
+  options:
+    - "None — simple tools do indicate limited cognitive ability, which is why Oldowan tools predate complex thinking"
+    - "Oldowan tool production required sophisticated hand-eye coordination, understanding of stone fracture mechanics, and selection of appropriate raw materials — 'simple' form does not imply simple mind"
+    - "The colleague should compare to Mousterian tools first before drawing conclusions"
+    - "Simple tools indicate high efficiency, which is a sign of advanced intelligence"
+  answer: 1
+  explanation: "This is the most persistent misconception in lithic analysis. Even the earliest Oldowan tools required knowledge of which stone types fracture predictably, the motor skills to strike at precise angles, and the ability to select and transport suitable raw materials. Modern experiments show that learning to knap stone takes months of practice. 'Simple' describes the form, not the cognitive demands. The misconception conflates tool morphology with cognitive complexity."
+
+- question: "An archaeologist discovers obsidian tools at a site 450 km from the nearest geological source of obsidian. What does this finding most directly indicate about the people who occupied the site?"
+  type: multiple-choice
+  options:
+    - "The tools were carried to the site by river flooding or glacial transport"
+    - "The hominids at the site were unable to find suitable local stone materials"
+    - "Either long-distance movement of the toolmakers themselves or active exchange networks connecting distant groups"
+    - "The site was only temporarily occupied during seasonal migrations along that route"
+  answer: 2
+  explanation: "Obsidian can be geochemically 'fingerprinted' to its volcanic source. When tools appear far from their geological origin, archaeologists interpret this as evidence of either the toolmakers traveling long distances or exchange networks passing materials through intermediaries. Both interpretations require sophisticated social organization. The flooding/glacial option is testable — geologists assess site formation processes — and is not supported when the tools appear concentrated in use contexts. While seasonal movement is possible, it doesn't explain 450 km unless travel routes are established."
+
+- question: "Use-wear analysis of a stone tool's cutting edge can reveal what material the tool was used on — such as meat, wood, or plant fiber — based on microscopic patterns of wear."
+  type: true-false
+  answer: true
+  explanation: "Different worked materials leave distinct signatures at the microscopic level: meat-cutting leaves a smooth, rounded edge polish; hide-scraping produces a bright, high-relief polish with directional striations; wood-working creates a dull, granular polish. These patterns allow analysts to reconstruct subsistence activities even when the organic materials being processed have long since decomposed — a powerful example of how material culture preserves behavioral information that organic evidence cannot."
+
+- question: "The Oldowan → Acheulean → Mousterian → Upper Paleolithic sequence of tool industries represents progressive evolutionary improvement, with each stage showing that hominids were becoming smarter over time."
+  type: true-false
+  answer: false
+  explanation: "Tool industry transitions reflect adaptation to specific environmental and cultural contexts, not a linear march of cognitive improvement. Mousterian tools (associated with Neanderthals) used prepared-core techniques requiring more abstract planning than simple Oldowan percussion, yet Neanderthals and anatomically modern humans coexisted for tens of thousands of years. Different industries often appear simultaneously in different regions responding to different resources. Treating the sequence as 'progress' also misrepresents Neanderthal cognitive abilities, which archaeological evidence — including Mousterian prepared cores — shows were substantial."
+
+- question: "Why is the transition from Oldowan to Acheulean tool technology significant as evidence of cognitive change, and what does the comparison reveal?"
+  type: short-answer
+  answer: "Acheulean handaxes required the toolmaker to hold a three-dimensional mental image of the finished symmetrical form before starting and to execute dozens of coordinated blows to realize that pre-planned shape — a form of hierarchical planning not required for Oldowan percussion. The Oldowan toolmaker produces flakes opportunistically; the Acheulean toolmaker works backward from an intended design. This shift in planning depth — not just technical skill — is taken as evidence of increased working memory and hierarchical cognitive control."
+  explanation: "The key analytical move is to look for what the tool demands of the maker's mind, not just how sophisticated the tool looks. Archaeologists infer cognitive capacity from the production sequence required to make a tool, not from the tool's final appearance. This is why lithic technology — despite being 'just rocks' — is one of the richest sources of evidence for the evolution of human cognition."
+```
+
 ## Explainer
 
 Stone survives. Organic materials — wood, bone, fiber, hide — decay over thousands of years, leaving silence in the archaeological record. Stone tools do not decay, which is why lithic technology is our primary window into more than three million years of human behavioral history. From your study of archaeological methods you know that context is everything: a stone tool found in situ tells a different story than one found out of place. The skill of lithic analysis is reading that story — using the physical properties of the tool itself to reconstruct the decisions, knowledge, and capabilities of the person who made it.

@@ -29,6 +29,45 @@ Identify an unknown bacterial isolate using biochemical tests and 16S sequencing
 ## Common Misconceptions
 A single phenotypic test is insufficient for definitive identification; multiple methods strengthen confidence. 16S rRNA sequencing cannot always resolve subspecies or differentiate closely related strains.
 
+## Questions
+
+```yaml
+- question: "Three patients in a hospital develop Klebsiella pneumoniae infections in the same week. Clinicians want to know whether they share the same strain (suggesting hospital transmission) or acquired different strains independently. Which method is most appropriate for answering this question?"
+  type: multiple-choice
+  options:
+    - "Biochemical testing (API strips) to compare the metabolic profiles of the three isolates"
+    - "16S rRNA gene sequencing to confirm that all three are K. pneumoniae"
+    - "Gram staining and colony morphology comparison under a microscope"
+    - "Whole-genome sequencing or cgMLST to compare isolates at single-nucleotide resolution and reconstruct potential transmission chains"
+  answer: 3
+  explanation: "This is a typing question, not an identification question. All three isolates are already known to be K. pneumoniae — species identity is established. The epidemiological question is whether they share a common clonal origin, requiring resolution below the species level. Biochemical tests (option A) and Gram staining (option C) lack the discriminatory power to distinguish strains within a species. 16S rRNA (option B) is useful for identification but cannot reliably differentiate closely related strains. WGS/cgMLST provides single-nucleotide differences between isolates, enabling epidemiologists to assess whether they are too similar to have arisen independently — the current gold standard for outbreak investigation."
+
+- question: "MALDI-TOF mass spectrometry identifies a clinical isolate as Staphylococcus aureus in seconds. For infection control purposes, this result is:"
+  type: multiple-choice
+  options:
+    - "Sufficient — MALDI-TOF provides species and strain information needed to investigate potential transmission"
+    - "Necessary but not sufficient — species identity is established, but strain-level typing is still required to determine whether cases are epidemiologically linked"
+    - "Insufficient even for species identification — MALDI-TOF is unreliable for Gram-positive organisms"
+    - "More information than required — a positive Gram stain would establish sufficient clinical information"
+  answer: 1
+  explanation: "MALDI-TOF is excellent for rapid, accurate species identification — one of its great clinical advantages. But knowing 'this is S. aureus' does not tell you whether two patients' S. aureus isolates are the same strain. S. aureus is ubiquitous; independent acquisitions of different strains are common. For outbreak investigation, you need to know whether isolates are clonally related — a question of typing, not identification. MALDI-TOF spectral fingerprints reflect conserved housekeeping proteins and cannot resolve sub-species strain differences. Subsequent PFGE, MLST, or WGS is required for epidemiological linkage."
+
+- question: "A single biochemical test result — such as a positive catalase reaction — is sufficient to definitively identify an unknown bacterial species."
+  type: true-false
+  answer: false
+  explanation: "A single test provides a single data point that narrows but rarely establishes identity. Many unrelated species share catalase-positive results (e.g., all staphylococci and most aerobic Gram-negatives). Definitive identification requires a convergence of multiple independent lines of evidence — morphology, multiple biochemical tests, and ideally molecular confirmation. This is why clinical systems like API strips run 20+ tests simultaneously, producing a numerical profile matched against a database. Modern best practice pairs phenotypic testing with MALDI-TOF or molecular methods, recognizing that any individual phenotypic trait is too widely shared to serve as a definitive identifier alone."
+
+- question: "The distinction between bacterial identification (what species?) and typing (which strain?) matters clinically because typing is needed to determine whether patients in a hospital share a common source of infection."
+  type: true-false
+  answer: true
+  explanation: "This distinction structures all of clinical microbiology diagnostics. Identification answers the question a treating physician needs first: 'what organism am I treating, and what antibiotics are likely to work?' Typing answers the question an infection control epidemiologist needs: 'are these cases connected — is there a common source, a contaminated piece of equipment, or a carrier transmitting within the facility?' The same species can cause both sporadic unrelated infections and clonal outbreaks; only typing can distinguish these scenarios. Whole-genome sequencing has made this distinction increasingly precise — two isolates differing by zero to five single-nucleotide variants are considered epidemiologically linked in many outbreak investigations."
+
+- question: "Why is a single phenotypic test insufficient for definitive bacterial identification, and what approach does modern clinical practice use instead?"
+  type: short-answer
+  answer: "A single phenotypic test measures one aspect of an organism's biology — one enzyme, one metabolic capability, one structural feature — and many unrelated organisms share any given characteristic. No single phenotypic trait is both universal to a species and absent from all others. Modern clinical identification relies on convergent evidence: multiple biochemical tests run simultaneously (API strip, Vitek panel) generating a profile compared against a reference database, combined with MALDI-TOF mass spectrometry, which generates a protein spectral fingerprint matched against thousands of reference spectra. For cases where species-level confidence remains insufficient, 16S rRNA sequencing provides phylogenetic placement. Each method addresses different aspects of identity; their combination raises confidence from plausible to definitive."
+  explanation: "The practical implication is that diagnostic algorithms are intentionally multi-layered. Each method has characteristic strengths and failure modes: MALDI-TOF is fast and accurate for common organisms but fails for rare or poorly represented species; 16S rRNA resolves phylogenetic placement but not strain-level differences; biochemical profiles work for species with distinct metabolic signatures but fail for metabolically similar organisms. Using multiple independent methods catches the cases where any single method would fail."
+```
+
 ## Explainer
 
 From diagnostic microbiology, you know the clinical imperative: when a patient presents with an infection, clinicians need to identify the causative organism quickly and accurately to guide treatment. Bacterial **identification** answers "what species is this?" while **typing** answers "which strain within that species?" — a distinction that matters both for treating individual patients and for tracking outbreaks through populations.

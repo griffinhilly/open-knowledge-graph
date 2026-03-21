@@ -29,6 +29,45 @@ Study major migration corridors and routes of labor movement. Compare wage diffe
 ## Common Misconceptions
 Migration is not simply an individual rational choice but is pushed by lack of opportunity in origin areas and structural inequality. Migrants are not automatons seeking to maximize income; family, community, social networks, and social capital constrain choices. Remittances do not automatically benefit origin communities equally—they may reinforce inequality and create emigration cultures.
 
+## Questions
+
+```yaml
+- question: "Two destination countries offer nearly identical wage premiums for workers from a particular origin country. Over decades, migrants overwhelmingly concentrate in one destination and barely use the other. What best explains this pattern?"
+  type: multiple-choice
+  options:
+    - "The wages in the two destinations are not actually equal once cost of living is adjusted"
+    - "Social networks and chain migration channel migrants to the destination where earlier migrants from their community already settled"
+    - "Government immigration policy is more restrictive in one country, fully explaining the imbalance"
+    - "Workers rationally choose the destination with better climate and amenities, which differ between the two"
+  answer: 1
+  explanation: "This is the core insight that breaks the pure rational-actor model: when destinations offer similar economic returns, historical and social connections determine migration flows. The first migrant from a village who settles in City A becomes an information source, housing contact, and job referral for later migrants — making A the default destination even if B is equally viable economically. This chain migration dynamic means migration geography reflects social networks as much as wage differentials."
+
+- question: "An undocumented migrant worker earns wages well above what they could earn in their home country but frequently experiences wage theft and unsafe conditions. Which factor best explains this vulnerability?"
+  type: multiple-choice
+  options:
+    - "Lower productivity of undocumented workers, which prevents them from commanding better conditions"
+    - "Cultural differences that lead migrants to accept conditions locals would refuse"
+    - "Removal of legal status removes the labor law protections that would otherwise constrain employer behavior"
+    - "Undocumented workers choose dangerous jobs because they pay higher wages to compensate for risk"
+  answer: 2
+  explanation: "The geographic and legal asymmetry of labor mobility is the key insight: people from poor countries face visa restrictions and border enforcement that prevent authorized movement, forcing unauthorized entry. Without legal status, workers cannot invoke labor law protections — wage theft goes unreported because reporting risks deportation. This is a structural condition created by unequal mobility regimes, not a result of workers' choices or productivity."
+
+- question: "Remittances sent by migrants to their home communities can reinforce inequality within those communities, not just between countries."
+  type: true-false
+  answer: true
+  explanation: "Remittances benefit households with members abroad — funding education, healthcare, and consumption — while households without migrants receive nothing. Over time, this creates a widening gap within origin communities between remittance-receiving and non-receiving households. Migration culture can also stigmatize staying, discouraging local investment and entrepreneurship. The geographic benefits of remittances are real but uneven, not uniformly distributed across origin communities."
+
+- question: "Push-pull models provide a complete explanation of labor migration because migrants are rational actors who simply move toward higher wages when conditions at home deteriorate."
+  type: true-false
+  answer: false
+  explanation: "Push-pull is a useful starting point but a fundamentally incomplete model. It treats migration as individual rational calculation, ignoring social networks that shape destination choice, migration culture that normalizes movement independent of current wage differentials, legal regimes that constrain who can move legally, family obligations that prevent otherwise rational moves, and the role of historical colonial relationships in establishing migration corridors. Real migration patterns are produced by structural forces and social embeddedness, not just individual optimization."
+
+- question: "Explain why the geography of labor mobility is often described as 'asymmetric' and what that asymmetry reveals about the global political economy."
+  type: short-answer
+  answer: "Capital, commodities, and information cross borders with minimal friction under globalization, but labor — especially from poor countries — faces intense restriction: visa requirements, border enforcement, detention, and deportation. This asymmetry is not natural or inevitable but is produced by policy choices that serve wealthy countries' economic interests: access to low-wage labor without extending political rights or settlement protections to those workers. The asymmetry reveals that the global economy is organized to allow factors of production to flow where returns are highest, except when that factor is human — in which case political and social control override economic logic."
+  explanation: "Recognizing this asymmetry reframes migration from an individual choice problem to a structural power question: who decides who can move, under what conditions, and with what protections? This is why labor migration sits at the intersection of economic geography, international political economy, and human rights."
+```
+
 ## Explainer
 
 From your study of spatial inequality and uneven development, you know that economic opportunity is not evenly distributed across space — wages, jobs, and life chances cluster in certain regions and are scarce in others. **Labor migration** is the human response to this unevenness: people move across space to close the gap between where they are and where better opportunities exist. Understanding migration geographically means understanding both the structural forces that produce these spatial inequalities and the messy, socially embedded choices people make within those structures.

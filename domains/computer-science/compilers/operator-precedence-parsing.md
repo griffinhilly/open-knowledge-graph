@@ -29,6 +29,45 @@ Implement a simple arithmetic expression parser using precedence climbing, then 
 ## Common Misconceptions
 Precedence and associativity are the same thing—they're separate. Right-associativity requires different handling than left-associativity in recursive descent.
 
+## Questions
+
+```yaml
+- question: "In a precedence climbing parser, a left-associative operator at precedence level P triggers a recursive call for the right operand with minimum precedence P+1. What would change if P were used instead of P+1 in that recursive call?"
+  type: multiple-choice
+  options:
+    - "The parser would become more efficient, reducing the number of recursive calls needed"
+    - "The operator would be treated as right-associative — expressions like a+b+c would parse as a+(b+c) instead of (a+b)+c"
+    - "The parser would enter an infinite loop because the recursion would never terminate"
+    - "Higher-precedence operators would no longer bind more tightly than lower-precedence ones"
+  answer: 1
+  explanation: "Using P in the recursive call allows the recursive invocation to immediately consume another operator at the same precedence level, grouping it on the right — which is exactly right-associativity. Using P+1 instead raises the threshold just enough to prevent consuming same-level operators inside the recursion, so they are left for the outer call to handle in left-to-right order. This single +1 difference is the entire mechanism that separates left- from right-associativity in a precedence climbing parser."
+
+- question: "Consider parsing `2 ^ 3 ^ 4` where ^ has precedence 3 and is right-associative. Which parse does a correctly implemented precedence climbing parser produce?"
+  type: multiple-choice
+  options:
+    - "(2 ^ 3) ^ 4, because the leftmost operator is encountered and consumed first"
+    - "2 ^ (3 ^ 4), because right-associativity uses the same precedence (not +1) in the recursive call, allowing the second ^ to be consumed inside the recursion"
+    - "((2 ^ 3) ^ 4), because precedence climbing always produces left-associative grouping by default"
+    - "The expression cannot be parsed without explicit parentheses when the same operator appears twice"
+  answer: 1
+  explanation: "For right-associative ^, the recursive call for the right operand uses minimum precedence = 3 (same as ^, not 3+1). When parsing the right side after the first ^, the parser reads 3, then sees another ^ at precedence 3 which meets the threshold, so it consumes it inside the recursion, producing 3^4. Back in the outer call, the result is 2^(3^4). If ^ were left-associative, the recursive call would use minimum precedence 4, blocking consumption of the second ^ inside the recursion, and the outer call would handle it, producing (2^3)^4."
+
+- question: "Operator precedence and operator associativity describe the same property — how tightly an operator binds to its operands."
+  type: true-false
+  answer: false
+  explanation: "Precedence and associativity are distinct concepts requiring separate handling. Precedence determines which operator binds more tightly when *different* precedence levels appear together — for example, * binds tighter than + so 2+3*4 = 2+(3*4). Associativity determines how operators at the *same* precedence level group — left-associative means a−b−c = (a−b)−c (group left), right-associative means a^b^c = a^(b^c) (group right). Confusing them is the most common misconception in this topic."
+
+- question: "A grammar-based parser using separate nonterminals for each precedence level can express the same expression languages as a precedence climbing parser."
+  type: true-false
+  answer: true
+  explanation: "Both approaches implement the same underlying context-free grammar for arithmetic expressions with precedence and associativity. Precedence climbing is a parsing *algorithm* that encodes the grammar implicitly through its threshold logic, while the grammar-based approach encodes it explicitly through nonterminal structure (Expr → Expr + Term, Term → Term * Factor, etc.). The two are equivalent in expressive power; precedence climbing is simply more compact and easier to extend when new operators are added."
+
+- question: "Explain how the threshold value passed to recursive calls in a precedence climbing parser enforces both operator precedence and operator associativity."
+  type: short-answer
+  answer: "The threshold controls which operators the current recursive call is allowed to consume. If the next operator's precedence is below the threshold, the recursive call returns without consuming it, leaving the operator for its caller — this enforces precedence, since low-precedence operators are always handled by outer (earlier) calls and group last. Associativity is controlled by the threshold passed when recursing for the right operand of a binary operator: left-associative operators pass threshold = current precedence + 1, which prevents consuming another same-level operator inside the recursion (forcing left-grouping by returning it to the outer call); right-associative operators pass threshold = current precedence, which allows consuming another same-level operator inside the recursion (forcing right-grouping). The two behaviors differ by exactly one integer."
+  explanation: "The elegance of precedence climbing is that both precedence and associativity are encoded in a single integer parameter. There are no special cases or lookup tables — just arithmetic on the threshold value passed to each recursive call."
+```
+
 ## Explainer
 
 When you learned about context-free grammars, you saw how to encode arithmetic expressions using multiple nonterminals — one for each precedence level. A grammar for `+` and `*` might have `Expr → Expr + Term`, `Term → Term * Factor`, `Factor → number | ( Expr )`. This works, but it is verbose: every new operator means another nonterminal and another level of recursion. **Operator precedence parsing** collapses all of that into a single algorithm driven by a table of precedence levels and associativity rules.

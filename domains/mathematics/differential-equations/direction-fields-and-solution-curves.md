@@ -31,6 +31,45 @@ Start by plotting direction fields by hand for simple equations like dy/dx = x o
 - Thinking a direction field determines a unique solution; actually, it determines a family of solutions (one through each point).
 - Confusing the direction of the arrows with the actual trajectory of a solution.
 
+## Questions
+
+```yaml
+- question: "A student says: 'I drew a direction field for y' = y and sketched one solution curve through (0, 1). But I could sketch a different curve through (0, 1) that doesn't follow the arrows as precisely — it would just be a slightly different solution.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Direction fields only show approximate behavior, so multiple curves through a point are possible"
+    - "Under mild conditions, exactly one solution curve passes through each point; a second curve through (0, 1) would either cross the first or fail to be a solution"
+    - "The direction field for y' = y doesn't apply at points where y ≠ 0"
+    - "Direction fields only apply to linear equations, not exponential ones"
+  answer: 1
+  explanation: "The existence and uniqueness theorem guarantees that under mild conditions on f, exactly one solution passes through each initial point. Any curve claiming to be a solution through (0, 1) must follow the direction field exactly. If a second 'solution' also passed through (0, 1), it would have to cross the first — but solution curves cannot cross, because crossing would require two different slopes at the same point, contradicting the differential equation."
+
+- question: "In an autonomous equation y' = f(y), all arrows in the direction field at height y = 3 are horizontal (slope = 0). What can you immediately conclude?"
+  type: multiple-choice
+  options:
+    - "y = 3 is the only solution to the differential equation"
+    - "y = 3 is an equilibrium solution — a constant function y(x) = 3 where f(3) = 0"
+    - "All non-constant solutions eventually reach y = 3 and stay there"
+    - "The direction field is undefined at height y = 3"
+  answer: 1
+  explanation: "Horizontal arrows mean the slope is zero at that height: f(3) = 0. This means y(x) = 3 is a constant solution (equilibrium) — if you start there, you stay there. But this does NOT mean all solutions are attracted to y = 3; stability depends on the signs of f(y) near y = 3, which you can read directly from the direction field."
+
+- question: "A direction field for y' = f(x, y) determines a single unique solution curve — the one that best fits all the arrows in the field."
+  type: true-false
+  answer: false
+  explanation: "A direction field represents an entire family of solutions — one through each point in the plane. The field specifies the slope at every point, so any different initial condition gives a different solution curve. You need an initial condition to select a single solution from the family. The field shows the structure of all solutions simultaneously, which is its geometric power."
+
+- question: "Two distinct solution curves of the same differential equation y' = f(x, y) can never intersect, provided f satisfies the conditions of the existence and uniqueness theorem."
+  type: true-false
+  answer: true
+  explanation: "If two solution curves intersected at a point (x₀, y₀), both would pass through that point. But uniqueness guarantees exactly one solution through each point — so the two curves must be the same curve. Visually: solution curves can never cross, only flow alongside each other getting closer or farther apart."
+
+- question: "A direction field for an autonomous equation y' = f(y) shows arrows pointing upward above y = 2 and downward below y = 2, with horizontal arrows at y = 2. What does this tell you about solutions that start near but not at y = 2?"
+  type: short-answer
+  answer: "y = 2 is an unstable equilibrium — solutions starting near but not at y = 2 are repelled away from it. Solutions above y = 2 increase (arrows point up) and solutions below y = 2 decrease (arrows point down), so both move away from the equilibrium."
+  explanation: "Reading stability from a direction field is a key skill. Arrows pointing toward the equilibrium from both sides indicate stability (a sink); arrows pointing away indicate instability (a source). This geometric reading replaces algebraic analysis — you can classify equilibria just by observing the direction field, without solving the equation."
+```
+
 ## Explainer
 
 A **direction field** (also called a slope field) is a picture of a differential equation y' = f(x, y). At every point (x, y) in the plane, you draw a short line segment with slope f(x, y) — the slope that any solution passing through that point must have at that instant. The result is a field of arrows that shows the "flow" of solutions across the plane, even before you solve the equation analytically.

@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Focal mechanisms from earthquake populations can be inverted to determine the regional stress tensor (principal stress orientations and relative magnitudes). Methods like the Michael method assume earthquakes occur on planes optimally oriented for slip given the stress state. Stress tensors inferred from seismicity illuminate plate boundary mechanics and lithospheric stress states.
 
+## Questions
+
+```yaml
+- question: "A seismologist inverts 300 focal mechanisms from a transform fault zone. Which quantities can the stress tensor inversion reliably determine, and which cannot?"
+  type: multiple-choice
+  options:
+    - "It determines the absolute magnitudes of σ₁, σ₂, and σ₃ in MPa, but not their orientations"
+    - "It determines the orientations of the three principal stress axes and the stress ratio R = (σ₂ − σ₃)/(σ₁ − σ₃), but not the absolute magnitudes of the stresses"
+    - "It determines all six independent components of the full stress tensor, including absolute magnitudes"
+    - "It determines only whether the tectonic regime is compressional, extensional, or strike-slip — nothing more"
+  answer: 1
+  explanation: "The reduced stress tensor has four parameters: the three principal stress axis orientations and the stress ratio R, which describes the relative shape of the stress ellipsoid. Absolute magnitudes of stress are not recoverable from focal mechanism data alone — focal mechanisms record slip direction, which depends on stress orientations and relative magnitudes (R), but not the absolute scale of the stresses. Obtaining absolute magnitudes requires independent measurements like borehole breakouts or hydraulic fracturing."
+
+- question: "A colleague argues that a single, well-constrained focal mechanism from a M6.5 earthquake is sufficient to determine the regional stress tensor. What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — one focal mechanism from a large earthquake fully constrains the regional stress state"
+    - "A single focal mechanism only reveals the geometry of slip on one fault plane; it takes many focal mechanisms from faults with different orientations to overdetermine the stress tensor, because each provides only one constraint on the shear traction direction"
+    - "Focal mechanisms from large earthquakes are less reliable than those from small ones for stress inversion"
+    - "The colleague is wrong only because M6.5 earthquakes are too shallow for stress inversion methods"
+  answer: 1
+  explanation: "A single focal mechanism constrains the shear traction direction on one fault plane, which is consistent with many possible stress tensors. The inversion requires multiple focal mechanisms from faults with different orientations to overdetermine the system: each provides one equation relating the unknown stress tensor to the observed slip direction (via the Wallace-Bott hypothesis). A single observation leaves the system massively underdetermined."
+
+- question: "The Wallace-Bott hypothesis used in stress tensor inversion assumes that earthquake slip on a fault occurs in the direction of maximum resolved shear stress on that fault plane."
+  type: true-false
+  answer: true
+  explanation: "This is the foundational physical assumption linking individual earthquake focal mechanisms to the regional stress field. For a fault plane sitting in a known stress field, the shear traction direction on the plane is geometrically determined by the fault's orientation relative to the principal stress axes. The Wallace-Bott hypothesis says the slip vector parallels this shear traction direction. Each focal mechanism then provides a constraint: the observed slip direction should match the predicted shear traction direction for the best-fitting stress tensor."
+
+- question: "Stress tensor inversion from earthquake focal mechanisms can determine the absolute magnitudes of the principal stresses, allowing engineers to directly calculate the force per unit area acting on structures at depth."
+  type: true-false
+  answer: false
+  explanation: "Stress tensor inversion recovers only the reduced stress tensor: the orientations of the three principal stress axes and the stress ratio R. It cannot determine absolute stress magnitudes because focal mechanisms record slip directions, which depend on stress axis orientations and the relative shape of the stress ellipsoid (R), not the absolute scale. Absolute stress magnitudes require independent measurements such as borehole breakouts, hydraulic fracturing tests, or overcoring, which measure actual forces acting on the rock."
+
+- question: "Why does stress tensor inversion require many focal mechanisms rather than just one, and what assumption connects individual earthquake slip directions to the regional stress state?"
+  type: short-answer
+  answer: "The Wallace-Bott hypothesis provides the link: it assumes each earthquake slips in the direction of maximum resolved shear stress on its fault plane. This means each focal mechanism provides one observed shear traction direction — one constraint on the unknown stress tensor. But the reduced stress tensor has four parameters (three principal axis orientations plus the stress ratio R), and any single focal mechanism is consistent with a wide range of stress states. Only by combining many focal mechanisms from faults with different orientations does the system become overdetermined, allowing least-squares inversion to find the stress tensor that best fits all observations simultaneously. More focal mechanisms improve robustness, quantifiable via bootstrap resampling."
+  explanation: "The analogy is triangulation: a single bearing tells you a direction but not a location; multiple bearings from different vantage points pin down the target. Here, each focal mechanism gives a bearing on the stress state from one fault geometry; the collection of many constrains the four-parameter reduced stress tensor."
+```
+
 ## Explainer
 
 From your work with focal mechanisms, you know that each earthquake's radiation pattern reveals the geometry of faulting — the orientation of the fault plane and the direction of slip. From moment tensor inversion, you know how to extract this information from seismic waveforms. **Stress tensor inversion** asks the inverse question: given many earthquakes, each with its own focal mechanism, what single stress field could have caused all of them to slip the way they did?

@@ -30,6 +30,45 @@ Measure blood glucose and hormone levels (insulin, glucagon, epinephrine) during
 ## Common Misconceptions
 Glucagon does not cause hyperglycemia independently; it restores normoglycemia during fasting. In diabetes, hyperglycemia results from inadequate insulin action, not from excess glucagon.
 
+## Questions
+
+```yaml
+- question: "A patient is found to have a glucagonoma — a tumor that secretes excess glucagon continuously. Which metabolic state would most likely result?"
+  type: multiple-choice
+  options:
+    - "Severe hypoglycemia, because excess glucagon drives glucose into muscle and adipose tissue"
+    - "Hyperglycemia, because excess glucagon continuously drives hepatic glycogenolysis and gluconeogenesis"
+    - "Normal blood glucose, because insulin will fully compensate for excess glucagon"
+    - "Hyperlipidemia alone, because glucagon acts only on fat tissue"
+  answer: 1
+  explanation: "Glucagon acts primarily on the liver to stimulate glycogenolysis (breaking down glycogen) and gluconeogenesis (synthesizing new glucose), continuously raising blood glucose. Excess glucagon therefore causes hyperglycemia, not hypoglycemia. Option A reflects the common misconception that glucagon drives glucose INTO cells (that is insulin's role). Option C is wrong because insulin resistance or insufficient insulin cannot fully compensate for sustained hepatic glucose output."
+
+- question: "After a 24-hour fast when liver glycogen stores are nearly depleted, what is the primary mechanism maintaining blood glucose for the brain?"
+  type: multiple-choice
+  options:
+    - "Lipolysis releases glycerol and fatty acids, which the brain oxidizes directly"
+    - "Muscle glycogen is exported to the liver and converted to glucose"
+    - "Gluconeogenesis in the liver synthesizes new glucose from lactate, amino acids, and glycerol"
+    - "The brain switches entirely to ketone body oxidation, eliminating the glucose requirement"
+  answer: 2
+  explanation: "Once glycogen stores are depleted (typically within 12–24 hours of fasting), gluconeogenesis becomes the dominant source of blood glucose. The liver synthesizes glucose from non-carbohydrate precursors: lactate (from anaerobic glycolysis in red blood cells and muscle), amino acids (from protein catabolism), and glycerol (from lipolysis). Option B is incorrect — muscle glycogen cannot be directly exported; muscle lacks glucose-6-phosphatase and cannot release free glucose. Option D is wrong: the brain cannot run entirely on ketones, especially early in fasting."
+
+- question: "In the fasted state, falling insulin levels remove the brake on lipolysis, allowing adipose tissue to release free fatty acids that spare glucose for the brain."
+  type: true-false
+  answer: true
+  explanation: "This is correct. Insulin actively suppresses lipolysis in adipose tissue; when insulin levels fall during fasting, this suppression is lifted and hormone-sensitive lipase becomes active, releasing free fatty acids into circulation. Muscle and liver can then oxidize these fatty acids for energy, reducing their dependence on glucose and leaving more glucose available for the brain, which has a near-absolute requirement for it."
+
+- question: "Hyperglycemia in type 2 diabetes is primarily caused by excess glucagon secretion driving runaway hepatic glucose production."
+  type: true-false
+  answer: false
+  explanation: "The primary cause of hyperglycemia in type 2 diabetes is inadequate insulin action — either insufficient insulin secretion (relative or absolute) or insulin resistance in target tissues (muscle, adipose, liver). Glucagon does not independently cause hyperglycemia; in normal physiology, it functions to restore blood glucose to normal during fasting, not to drive it above normal. While elevated glucagon may contribute to hyperglycemia in some diabetic contexts, it is not the primary mechanism — the core defect is impaired insulin action."
+
+- question: "Why does the body maintain multiple counter-regulatory hormones (glucagon, epinephrine, cortisol, growth hormone) to prevent hypoglycemia rather than relying on glucagon alone?"
+  type: short-answer
+  answer: "The brain cannot survive more than a few minutes without glucose, making hypoglycemia immediately life-threatening. Relying on a single counter-regulatory system would be catastrophically risky if that system failed. The layered response provides redundancy: glucagon acts first (rapid hepatic glycogenolysis), followed by epinephrine if glucagon is insufficient (powerful glycogenolysis plus lipolysis plus insulin suppression), then cortisol and growth hormone for sustained gluconeogenesis and peripheral insulin resistance during prolonged fasting. Each layer activates at a lower glucose threshold than the last, ensuring virtually no failure mode reaches the brain."
+  explanation: "This layered defense is clinically significant: patients with diabetes who take insulin lose counter-regulatory capacity over time — glucagon responses to hypoglycemia become blunted, and adrenal epinephrine responses diminish. This is 'hypoglycemia unawareness,' which is why insulin therapy carries significant hypoglycemia risk in diabetic patients who have lost their backup defenses."
+```
+
 ## Explainer
 
 From your study of carbohydrate homeostasis and fed/fasted state metabolism, you understand the individual biochemical pathways — glycolysis, glycogen synthesis, gluconeogenesis, lipolysis — and how they are activated or suppressed. **Glucose homeostasis** is the integrated system that coordinates all of these pathways in real time to keep blood glucose within a remarkably narrow range of 70–100 mg/dL, whether you have just eaten a large meal or have been fasting for 24 hours. The key insight is that this is not a single pathway but a hormonal control system operating across multiple organs simultaneously.

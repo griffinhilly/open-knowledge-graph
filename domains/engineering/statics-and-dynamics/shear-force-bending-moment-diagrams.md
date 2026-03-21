@@ -33,6 +33,45 @@ Find all support reactions first, then move along the beam from left to right, c
 - Missing the jump in the moment diagram at the location of an applied couple (external moment).
 - Assuming the maximum moment always occurs at midspan — it occurs where V = 0 or changes sign, which depends on the loading configuration.
 
+## Questions
+
+```yaml
+- question: "A simply-supported beam carries a single concentrated load that is placed one-third of the way from the left support. Where does the maximum bending moment occur?"
+  type: multiple-choice
+  options:
+    - "At midspan, because that is always the point farthest from both supports"
+    - "At the location of the concentrated load, because the shear diagram crosses zero there"
+    - "At the left support, because the reaction force is larger for an off-center load"
+    - "Evenly distributed between the load point and midspan"
+  answer: 1
+  explanation: "The maximum bending moment occurs where the shear diagram crosses zero (where dM/dx = V = 0). For a single off-center concentrated load, the shear diagram has a positive constant value from the left support to the load, then jumps down at the load and is negative from there to the right support. The zero-crossing is exactly at the load location — not midspan. Midspan is only the correct answer for a symmetric loading case (e.g., uniform load or central point load on a simply-supported beam)."
+
+- question: "A simply-supported beam carries a uniformly distributed load w (force per unit length) along its entire span. What shape does the shear force diagram take?"
+  type: multiple-choice
+  options:
+    - "Constant (horizontal line) across the span"
+    - "Parabolic, because the load intensity is squared in the integral"
+    - "Linearly varying, because dV/dx = -w is a constant"
+    - "Stepped, with a jump at midspan where shear changes sign"
+  answer: 2
+  explanation: "The relationship dV/dx = -w(x) means the slope of the shear diagram equals the negative distributed load intensity. For a uniform load, w is constant, so dV/dx is constant — producing a straight line (linear shear diagram). The shear starts at the left reaction (positive), decreases linearly to zero at midspan, and continues to the right reaction (negative). The bending moment diagram, being the integral of the shear diagram, is then parabolic — not the shear diagram itself."
+
+- question: "The maximum bending moment in a beam always occurs at the midspan of the beam."
+  type: true-false
+  answer: false
+  explanation: "The maximum bending moment occurs where the shear diagram crosses zero (V = 0), which is only at midspan for symmetric loading on a simply-supported beam. For a concentrated load placed off-center, the zero-crossing shifts toward the heavier reaction. For a cantilever beam, the maximum moment is at the fixed support, not midspan. Always locate the zero-crossing of the shear diagram — not midspan — to identify the critical cross-section."
+
+- question: "An applied concentrated couple (external moment) at a point on a beam causes a sudden jump in the bending moment diagram at that location."
+  type: true-false
+  answer: true
+  explanation: "Concentrated forces cause jumps in the shear diagram; concentrated couples (external moments) cause jumps in the bending moment diagram. This follows from the equilibrium equations: summing moments about a cut just before vs. just after the applied couple gives values that differ by the magnitude of the couple. The shear diagram is unaffected at that location (no vertical force is added), but M jumps by the applied couple's magnitude. Forgetting this jump is one of the most common errors in constructing M diagrams."
+
+- question: "Explain why the maximum bending moment in a beam occurs at the location where the shear force is zero."
+  type: short-answer
+  answer: "The bending moment and shear force are related by dM/dx = V. The maximum of M occurs where its derivative is zero — i.e., where V = 0. This is a direct consequence of calculus: a function reaches a local extremum where its first derivative vanishes. Physically, at the cross-section where shear changes sign, the internal forces on either side are in 'balance' with respect to bending — the tendency to rotate the beam clockwise from the left equals the tendency to rotate it counterclockwise from the right, producing the peak moment."
+  explanation: "This relationship is also why the area method works: M changes by the area under the V diagram, and M stops increasing (reaches its peak) when V transitions through zero. In structural design, identifying this location determines which cross-section must be sized to carry the largest bending stress. The flexure formula σ = Mc/I then gives the maximum stress at that critical section."
+```
+
 ## Explainer
 
 A beam is a structural element designed to carry loads perpendicular to its length. When you apply loads to a beam, the beam's cross-sections push and pull on one another internally to resist those loads. **Shear force** V at a cross-section is the internal force that prevents one part of the beam from sliding vertically past the other; **bending moment** M is the internal couple that prevents the beam from rotating at that section. These internal forces are invisible — you cannot see them — but they determine whether the beam will survive or fail. The V and M diagrams make the distribution of these internal forces visible along the beam's entire length.

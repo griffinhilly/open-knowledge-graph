@@ -31,6 +31,45 @@ Build a reference chart of key phrases and their operations. Practice one direct
 - "Twice a number plus 3" written as 2(n + 3) instead of 2n + 3 — confusing when to use parentheses.
 - Not identifying what the variable represents before writing the expression.
 
+## Questions
+
+```yaml
+- question: "A student translates 'five less than a number' as 5 − n. What is the correct expression, and what went wrong?"
+  type: multiple-choice
+  options:
+    - "Correct expression: n − 5; the student wrote the numbers in reading order, but 'less than' reverses the subtraction"
+    - "Correct expression: 5 − n; the student is actually right"
+    - "Correct expression: n + 5; 'less than' should be treated as addition"
+    - "Correct expression: −5n; 'less than' signals a negative coefficient"
+  answer: 0
+  explanation: "'Five less than a number' means: start with the number and remove 5 from it — that's n − 5. The phrase 'less than' describes what the result is relative to n, so n comes first in the subtraction. The student read left-to-right and wrote 5 − n, which would mean something different: a number that is n less than 5. Whenever you see 'less than' or 'subtracted from,' the reading order reverses the operation order."
+
+- question: "Which expression correctly translates 'twice the sum of a number and 4'?"
+  type: multiple-choice
+  options:
+    - "2n + 4"
+    - "2(n + 4)"
+    - "2n + 8"
+    - "n + 8"
+  answer: 1
+  explanation: "'The sum of a number and 4' signals a grouping — n + 4 must be computed first. 'Twice the sum' means that whole group is multiplied by 2, giving 2(n + 4). Compare this to 'twice a number, plus 4' which gives 2n + 4 — here you double first, then add. The phrase 'the sum of…' acts like parentheses in language, indicating that everything inside belongs together before other operations are applied."
+
+- question: "The phrase 'the quotient of n and 5, decreased by 4' translates to n/5 − 4, not 4 − n/5."
+  type: true-false
+  answer: true
+  explanation: "'The quotient of n and 5' means n divided by 5, giving n/5. 'Decreased by 4' means subtract 4 from what came before: n/5 − 4. If the expression were '4 decreased by the quotient of n and 5,' that would be 4 − n/5. The phrase 'decreased by' follows the same reading-order logic as 'less than' — you subtract from what was stated before, not the other way around."
+
+- question: "In the expression 4(n − 7) + 2, the parentheses are optional because multiplication distributes, so you could write 4n − 7 + 2 instead."
+  type: true-false
+  answer: false
+  explanation: "The parentheses change the meaning. 4(n − 7) + 2 distributes to 4n − 28 + 2 = 4n − 26. Without parentheses, 4n − 7 + 2 = 4n − 5, which is a different expression. Removing the parentheses would only multiply the n by 4, leaving the −7 unchanged. The parentheses indicate that the entire quantity (n − 7) is multiplied by 4 — this is exactly the distinction between 'twice the sum of a number and 7' (2(n+7)) and 'twice a number, plus 7' (2n+7)."
+
+- question: "Explain why 'five less than a number' translates to n − 5 and not 5 − n. What is it about the phrase 'less than' that reverses the order?"
+  type: short-answer
+  answer: "'Five less than a number' means the result is 5 fewer than the number — so you start with n and subtract 5, giving n − 5. The phrase 'less than' describes the result in relation to the number: the number n is the reference point, and we remove 5 from it. In English, 'less than' reads with the amount first ('five less than') but the math puts the reference quantity first (n − 5). This reversal occurs because 'less than' is a comparison phrase — it identifies the base value that comes second in the sentence but first in the subtraction."
+  explanation: "This is one of the most consistently confused translations in algebra. A useful check: substitute a number. 'Five less than 10' should be 5 (ten minus five), not −5 (five minus ten). So n − 5 is correct. The same reversal applies to 'subtracted from': 'n subtracted from 10' is 10 − n, not n − 10."
+```
+
 ## Explainer
 
 You already know that a **variable** is a letter that stands for an unknown or changing number, and you know how to add, subtract, and multiply integers. Writing and interpreting expressions is the skill that connects those pieces to the language of word problems — it is the translation layer between a sentence in English and a string of symbols a mathematician can work with.

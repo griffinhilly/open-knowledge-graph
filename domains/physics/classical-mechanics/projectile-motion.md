@@ -38,6 +38,45 @@ Solve problems at multiple launch angles (30°, 45°, 60°) and verify that 45°
 - Using total velocity magnitude instead of just the vertical component when computing time to peak.
 - Assuming that maximum range always occurs at 45° — this changes if launch and landing heights differ.
 
+## Questions
+
+```yaml
+- question: "A ball is launched at 30 m/s at a 40° angle. At the highest point of its trajectory, what is true about its velocity?"
+  type: multiple-choice
+  options:
+    - "Velocity is zero — the ball momentarily stops before falling"
+    - "Velocity equals 30 m/s in the horizontal direction"
+    - "Velocity equals 30 cos(40°) horizontally and is nonzero"
+    - "Only the vertical component remains; horizontal velocity has been lost to gravity"
+  answer: 2
+  explanation: "At the apex, vertical velocity is zero (the ball is neither rising nor falling), but horizontal velocity is unchanged throughout the flight — there is no horizontal force to alter it. The horizontal component remains v₀cos(40°) for the entire flight. Option A is a very common misconception: students often assume the ball 'stops' at the top. Option D reverses the physics — gravity only acts vertically, so only the vertical component is reduced."
+
+- question: "A golfer hits two balls with identical speed: one at 30°, one at 60°. Ignoring air resistance and assuming flat ground, how do their horizontal ranges compare?"
+  type: multiple-choice
+  options:
+    - "The 60° shot travels farther because it stays in the air longer"
+    - "The 30° shot travels farther because it has more horizontal velocity"
+    - "They travel the same horizontal distance"
+    - "The 45° shot would travel farther than either, but we cannot compare these two without calculating"
+  answer: 2
+  explanation: "Launch angles symmetric about 45° produce identical range on flat ground. This follows from the range formula R = (v₀² sin 2θ)/g: sin(2×30°) = sin(60°) = sin(120°) = sin(2×60°). Options A and B identify real trade-offs — the 60° shot stays up longer, the 30° shot has higher horizontal speed — but these effects exactly cancel. This symmetry is a beautiful result from the sin(2θ) structure of the range formula."
+
+- question: "At the highest point of its trajectory, a projectile has zero velocity."
+  type: true-false
+  answer: false
+  explanation: "Only the vertical component of velocity is zero at the apex — the projectile has stopped rising and hasn't yet begun to fall. The horizontal component, unchanged throughout the flight (no horizontal force acts), remains v₀cosθ. The total velocity at the apex is v₀cosθ, directed purely horizontally. This is the most common single misconception in projectile motion: confusing 'vertical velocity = 0' with 'total velocity = 0.'"
+
+- question: "A projectile launched at 30° and one launched at 60° from the same point with the same initial speed land at the same horizontal distance on flat ground."
+  type: true-false
+  answer: true
+  explanation: "The horizontal range formula R = v₀²sin(2θ)/g shows that complementary angles (adding to 90°) give the same sin(2θ) value: sin(60°) = sin(120°). The 30° shot has more horizontal speed but less time aloft; the 60° shot has less horizontal speed but more time aloft. These effects precisely cancel, yielding equal range."
+
+- question: "Explain why time of flight for a projectile is determined entirely by the vertical component of motion, not by the horizontal speed."
+  type: short-answer
+  answer: "Gravity acts only vertically, so only the vertical motion controls when the projectile hits the ground. The projectile lands when its vertical position returns to zero, which occurs at a time determined by solving y(t) = v₀sinθ·t − ½gt² = 0. The horizontal speed v₀cosθ determines how far the projectile travels during that time, but has no influence on how long it is in the air. This is the independence of horizontal and vertical motion: they share time as a variable, but neither axis's physics depends on the other."
+  explanation: "Students sometimes think a faster horizontal speed 'carries' the projectile further and keeps it in the air longer — but horizontal motion has no vertical component and cannot affect vertical acceleration. The time in the air is a vertical problem only; range is then horizontal speed multiplied by that pre-determined flight time."
+```
+
 ## Explainer
 
 The key insight in projectile motion — the one that makes all the calculations tractable — is the **independence of horizontal and vertical motion**. Your prerequisites give you the tools: from **2D kinematics**, you know how to track position and velocity as vectors; from **free fall**, you know that a vertically falling object accelerates at g ≈ 9.8 m/s² downward and that there is no horizontal force. Put these together: a launched projectile has its initial velocity split into two components, and after launch those components evolve completely independently of each other.

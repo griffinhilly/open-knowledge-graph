@@ -28,6 +28,45 @@ Identify the subject and verb in sentences, then check if they match in number. 
 - Collective nouns (team, family, group) are always plural; they can be singular or plural depending on whether you're treating them as one unit or as individuals.
 - Words between the subject and verb change agreement; the subject and verb agree regardless of intervening words.
 
+## Questions
+
+```yaml
+- question: "Which verb correctly completes this sentence? 'The quality of his speeches _____ improved this semester.'"
+  type: multiple-choice
+  options:
+    - "have"
+    - "hasn't"
+    - "has"
+    - "are"
+  answer: 2
+  explanation: "The grammatical subject is 'quality' (singular), not 'speeches.' The prepositional phrase 'of his speeches' modifies 'quality' but is not the subject. Agreement tracks the head noun of the subject phrase — always ask 'what is the verb's logical actor?' and strip away modifying phrases. 'Speeches' sits close to the verb and is plural, which is precisely why this construction causes agreement errors. The correct answer is 'has.'"
+
+- question: "Which verb correctly completes this sentence? 'Neither the manager nor the employees _____ responsible for the error.'"
+  type: multiple-choice
+  options:
+    - "is"
+    - "are"
+    - "was"
+    - "has been"
+  answer: 1
+  explanation: "When subjects are joined by 'or' or 'nor,' the verb agrees with the subject closest to it — the one immediately before the verb. 'Employees' (plural) is the closer subject here, so the verb is plural ('are'). If the order were reversed — 'Neither the employees nor the manager' — the answer would be 'is' (singular). This proximity rule prevents the common error of defaulting to the first subject or the most prominent one."
+
+- question: "In American English, 'The jury has reached a verdict' is grammatically correct because collective nouns always take singular verbs."
+  type: true-false
+  answer: false
+  explanation: "Collective nouns like 'jury,' 'committee,' and 'team' take singular verbs when the group acts as a unified entity — 'The jury has reached a verdict' (one body acting). But when emphasis falls on individuals acting separately, plural agreement is acceptable: 'The jury are arguing amongst themselves.' The distinction is conceptual: one unified thing, or a collection of individuals in view? 'Always singular' overstates the rule and ignores the meaning-based judgment required."
+
+- question: "In the sentence 'Everyone in both classes are required to attend,' the verb 'are' is correct because 'classes' is plural."
+  type: true-false
+  answer: false
+  explanation: "'Everyone' is the grammatical subject, not 'classes.' 'Everyone' is an indefinite pronoun that is always singular. 'In both classes' is a prepositional phrase modifying the subject — it says which everyone we mean, but it doesn't change the subject's number. The correct sentence is 'Everyone in both classes is required to attend.' This is one of the most common agreement errors: a nearby plural noun attracting the verb away from the actual singular subject."
+
+- question: "Why must a verb agree with its grammatical subject rather than with the nearest noun or the noun that seems most prominent?"
+  type: short-answer
+  answer: "Agreement is a grammatical contract between a verb and its logical actor — the entity the predicate makes a claim about. Intervening nouns are modifiers (prepositional phrases, relative clauses, appositives) that describe the subject without replacing it. If agreement tracked the nearest noun, the rule would produce different results depending on how much material sits between subject and verb — making grammatical correctness depend on sentence length rather than logical structure. The subject is the controller of agreement because it is what the verb is actually predicating something of."
+  explanation: "Practically, this means the skill of subject-verb agreement is really the skill of identifying the true subject. Strip away prepositional phrases ('of his speeches,' 'along with her colleagues'), classify indefinite pronouns correctly (everyone = singular), and apply the proximity rule for or/nor compounds. Every hard case reduces to one question: what is the actual grammatical subject of this verb?"
+```
+
 ## Explainer
 
 You already know the fundamental rule from your prerequisite work: the subject and predicate of a sentence must agree in number, and you can identify the subject and verb in basic sentences. This topic develops the skill further by working through the hard cases — the situations where the correct agreement is non-obvious because the grammatical structure is complex or counterintuitive.

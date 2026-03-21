@@ -31,6 +31,45 @@ Measure benthic δ18O down a marine core, identify MIS stages by their character
 ## Common Misconceptions
 - The MIS δ18O record reflects both temperature and ice-volume changes; interpreting MIS stages as purely temperature variations misses the global ice-volume signal. - MIS numbering can be confusing (odd=warm, even=cold); always reference a standard benthic δ18O stack to confirm stage boundaries.
 
+## Questions
+
+```yaml
+- question: "During a glacial stage, benthic foraminiferal δ¹⁸O values increase significantly. A student concludes that deep ocean temperatures dropped substantially. What is missing from this interpretation?"
+  type: multiple-choice
+  options:
+    - "Deep ocean temperatures actually increase during glacials due to denser, saltier bottom water"
+    - "The δ¹⁸O increase in benthic foraminifera is primarily caused by the global ice-volume effect — growing ice sheets lock up ¹⁶O, enriching ocean water in ¹⁸O — not only by temperature change"
+    - "Benthic foraminifera do not record δ¹⁸O changes; only planktonic foraminifera track isotopic variation"
+    - "The student is correct — benthic δ¹⁸O is a pure deep-water temperature thermometer"
+  answer: 1
+  explanation: "Benthic δ¹⁸O records a mixed signal of temperature and ice volume. During glacials, large ice sheets preferentially incorporate ¹⁶O (lighter water evaporates more readily and precipitates as snow, becoming trapped in ice), leaving the remaining ocean enriched in ¹⁸O. Because deep water temperatures are relatively stable compared to surface temperatures, the ice-volume contribution dominates the benthic signal. This is why benthic δ¹⁸O is used as a global ice-volume proxy — interpreting it as a pure temperature record misses the primary signal."
+
+- question: "Why do paleoclimatologists prefer benthic (bottom-dwelling) foraminifera over planktonic (surface-dwelling) foraminifera to define the global MIS chronostratigraphic framework?"
+  type: multiple-choice
+  options:
+    - "Benthic foraminifera have thicker shells that preserve better in sediment cores, reducing measurement uncertainty"
+    - "Benthic δ¹⁸O is dominated by the globally synchronous ice-volume signal because deep water temperatures are stable, whereas planktonic δ¹⁸O reflects local surface conditions that vary with latitude and season"
+    - "Planktonic foraminifera do not form calcium carbonate and therefore cannot record δ¹⁸O"
+    - "Benthic foraminifera are more abundant in sediment cores, providing higher temporal resolution"
+  answer: 1
+  explanation: "Surface ocean conditions vary substantially by latitude, season, and local oceanographic circulation — a planktonic record mixes both temperature and ice-volume signals with large site-specific components. Deep ocean temperatures are far more stable and globally uniform, so changes in benthic δ¹⁸O are dominated by the ice-volume signal, which is physically global and synchronous across all ocean basins. This global synchrony is what makes benthic δ¹⁸O a universal reference: the same MIS stages appear in benthic records from the Pacific, Atlantic, and Indian Oceans, enabling worldwide correlation."
+
+- question: "MIS 1 corresponds to the last glacial maximum (~20 ka) and MIS 2 corresponds to the current Holocene interglacial."
+  type: true-false
+  answer: false
+  explanation: "The numbering is reversed from this statement. MIS 1 is the current interglacial (the Holocene, ~12 ka to present), characterized by low benthic δ¹⁸O values reflecting small ice volume. MIS 2 is the last glacial maximum (~26–19 ka), when large ice sheets covered much of the northern hemisphere and benthic δ¹⁸O was high. The convention is odd = warm (interglacial), even = cold (glacial), counting backward from the present. MIS 5 is the last interglacial; MIS 6 is the preceding glacial, and so on."
+
+- question: "The orbital periodicities visible in the MIS record (~100 kyr, 41 kyr, 23 kyr cycles) provide empirical support for the Milankovitch theory that glacial-interglacial cycles are paced by changes in Earth's orbital parameters."
+  type: true-false
+  answer: true
+  explanation: "The MIS record extending back ~5 million years shows a spectral signature dominated by exactly these periodicities: ~100 kyr (eccentricity), ~41 kyr (obliquity), and ~23 kyr (precession) — which are the astronomical periods predicted by Milankovitch theory to alter the seasonal and latitudinal distribution of incoming solar radiation. The match between observed MIS periodicities and calculated orbital frequencies is the primary empirical foundation for the Milankovitch theory of ice ages. The ~100 kyr cycle dominates the last ~800 kyr; obliquity dominated in earlier Quaternary time."
+
+- question: "Why does the MIS benthic δ¹⁸O record serve as a universal chronostratigraphic reference for correlating climate archives from different geographic regions and different proxy types?"
+  type: short-answer
+  answer: "Because the global ice-volume signal is recorded simultaneously everywhere. When ice sheets grow or shrink, the isotopic composition of the entire ocean changes at once — not just locally. This means benthic δ¹⁸O transitions are synchronous across all ocean basins, and other climate archives (ice cores, speleothems, loess sequences) that respond to the same global forcing show the same pattern. By matching characteristic features of a local record to the global MIS template, researchers can assign ages without independently dating every sample."
+  explanation: "The power of MIS as a framework comes from combining global synchrony (the ice-volume signal is physically global) with orbital pacing (MIS boundaries can be tied to astronomically calculated insolation changes). Together, these properties make the MIS timescale a Rosetta Stone connecting records from entirely different archives, geographic regions, and proxy types. Without this framework, correlating an Antarctic ice core to a Chinese speleothem to a Pacific sediment core would require high-precision independent dating of each archive — an enormous analytical burden that the MIS framework largely circumvents."
+```
+
 ## Explainer
 
 From your study of oxygen isotope paleothermometry, you know that the ratio of ¹⁸O to ¹⁶O in calcium carbonate shells reflects the temperature and isotopic composition of the water in which the organism grew. And from your work with foraminifera, you know that these tiny shell-building organisms accumulate in ocean sediments in vast numbers, providing a continuous record of ocean conditions going back millions of years. **Marine Isotope Stages (MIS)** are what you get when you measure benthic (bottom-dwelling) foraminiferal δ¹⁸O down a long sediment core and divide the resulting curve into numbered intervals — the global reference framework for Quaternary climate history.

@@ -29,6 +29,45 @@ Identify a key argument or concept. Craft a 2-3 minute personal narrative that i
 ## Common Misconceptions
 - Stories should be included in speeches for entertainment value only. - Personal stories undermine credibility by making speakers seem too emotional. - Effective stories require dramatic or unusual experiences; mundane experiences cannot serve rhetorical purposes.
 
+## Questions
+
+```yaml
+- question: "A speaker concludes her story about her grandmother's immigration journey by saying 'And that's why we need comprehensive immigration reform.' An audience member walks away remembering the grandmother vividly but feeling unmoved on the policy. What most likely went wrong?"
+  type: multiple-choice
+  options:
+    - "The story was too emotional and distracted from the argument"
+    - "The story lacked an explicit connection directing emotional energy toward the specific policy claim"
+    - "Personal narratives are inherently less persuasive than statistics for policy audiences"
+    - "The story succeeded — emotional stories are not supposed to change policy opinions"
+  answer: 1
+  explanation: "The emotional energy of the story was never directed toward the argument. An explicit, specific connection — explaining *why* this grandmother's story makes the particular policy claim urgent — closes the rhetorical loop. Without it, the audience absorbs the emotion but doesn't know where to apply it. The emotional channel opened; the direction was never given."
+
+- question: "Which of the following details best illustrates the principle that specificity creates identification rather than mere sympathy?"
+  type: multiple-choice
+  options:
+    - "'She was terrified about her diagnosis.'"
+    - "'Cancer affects millions of families every year.'"
+    - "'She rehearsed the doctor's words in her head while folding the same shirt three times.'"
+    - "'She felt the weight of the situation bearing down on her.'"
+  answer: 2
+  explanation: "Specific, sensory, concrete details allow audiences to imaginatively inhabit the story — this is narrative transportation. 'Folding the same shirt three times' is a particular, observable behavior that makes the internal state visible and real. Abstract statements like 'she was terrified' or 'she felt the weight' tell the audience what to feel rather than showing conditions that generate the feeling. Statistics invoke analytical processing, not identification."
+
+- question: "A story that opens an emotional channel but never explicitly connects to the speaker's argument is still rhetorically effective, because audiences will naturally draw the intended inference."
+  type: true-false
+  answer: false
+  explanation: "Audiences draw inferences from stories, but those inferences vary. Different listeners will connect the story to different conclusions, and many will simply experience it as entertainment. The explicit connection is not optional — it directs the emotional energy toward the specific claim the speaker wants accepted. Without it, persuasive force diffuses rather than concentrates. A story without a connection is entertainment; a connection without a story is an unsupported assertion."
+
+- question: "Narrative transportation makes stories more persuasive than factual arguments partly because audiences in that state form stronger attitudes and are more resistant to counter-arguments."
+  type: true-false
+  answer: true
+  explanation: "Research on narrative transportation consistently shows that audiences absorbed in a story form stronger, more durable attitudes and are less receptive to counter-arguments than audiences who processed the same information analytically. The story bypasses evaluative scrutiny — the audience is experiencing rather than judging. This is precisely why emotional storytelling is a more powerful rhetorical tool than a well-reasoned list of propositions."
+
+- question: "Why must the emotional tone of a story be congruent with the emotional response the argument requires, and what happens when they conflict?"
+  type: short-answer
+  answer: "The story is meant to prime the audience emotionally so that the argument lands in a prepared emotional state. If a speaker tells a funny, lighthearted story and then pivots to a somber policy argument about injustice, the emotional mismatch creates cognitive dissonance — the audience's mood undercuts the gravity the argument needs. Emotional congruence means the feeling the story produces should be the same feeling that makes the argument compelling: urgency, indignation, hope, grief. When tone conflicts, neither the story nor the argument achieves its intended effect."
+  explanation: "This congruence requirement is what makes emotional storytelling a craft, not just a technique. The speaker must work backward from the emotional state the argument requires and then design a story whose turning point produces exactly that state. Selecting the wrong kind of story — even a well-told one — can actively undermine the persuasive goal."
+```
+
 ## Explainer
 
 You've studied storytelling as a general skill in public speaking, and you've worked with **pathos** — the rhetorical appeal to emotion. Emotional storytelling sits at the intersection of those two tools: it is the technique of deliberately structuring a narrative so that its emotional arc does specific argumentative work. The distinction from ordinary storytelling is intentionality. An anecdote entertains; an emotionally structured story persuades.

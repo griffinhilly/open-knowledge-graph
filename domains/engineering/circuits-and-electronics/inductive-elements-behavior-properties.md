@@ -29,6 +29,45 @@ Examine how inductors behave in RL circuits by measuring voltage spikes when swi
 ## Common Misconceptions
 - An inductor blocks all AC signals; it only blocks high frequencies with significant impedance. - Inductors have zero resistance; real coils have wire resistance. - Inductance is always constant; it varies with current in nonlinear inductors and depends on frequency in real components.
 
+## Questions
+
+```yaml
+- question: "A switch in series with an inductor and a battery is suddenly opened, attempting to drive the current to zero instantaneously. What happens immediately after the switch opens?"
+  type: multiple-choice
+  options:
+    - "The current drops to zero instantly, since no complete path for current remains"
+    - "The inductor generates a large voltage spike (back-EMF) opposing the sudden change in current, which can arc across the switch contacts"
+    - "The inductor begins storing energy in an electric field, like a charging capacitor"
+    - "The current reverses direction to maintain continuity through the inductor"
+  answer: 1
+  explanation: "From v = L(di/dt): if current tries to drop to zero instantaneously, di/dt → ∞, so the induced voltage → ∞. The inductor generates a large back-EMF opposing the change — Lenz's law in circuit form. In practice, this voltage spike can far exceed the supply voltage and arc across the open switch contacts, destroying components. This is why real inductive circuits (motor drivers, relay coils) use freewheeling diodes: they provide a controlled discharge path so the inductor releases its stored energy gradually, limiting the spike."
+
+- question: "A circuit reaches DC steady state with both a capacitor and an inductor in different branches. For the purposes of steady-state DC analysis, what are their equivalent circuit elements?"
+  type: multiple-choice
+  options:
+    - "Both act as open circuits — neither allows sustained DC current flow"
+    - "Both act as short circuits — both pass DC current without impedance"
+    - "The inductor acts as a short circuit; the capacitor acts as an open circuit"
+    - "The capacitor acts as a short circuit; the inductor acts as an open circuit"
+  answer: 2
+  explanation: "At DC steady state, all currents and voltages are constant. For the inductor: di/dt = 0, so v = L(di/dt) = 0 — zero voltage drop with current flowing means it behaves as a wire (short circuit). For the capacitor: dv/dt = 0, so i = C(dv/dt) = 0 — zero current flow means it behaves as an open circuit. These are the complementary DC behaviors: inductors short at DC, capacitors open at DC. This duality is also why LC circuits can oscillate — the two elements respond oppositely to frequency."
+
+- question: "An inductor stores energy in its magnetic field that can be returned to the circuit; none of this stored energy is dissipated by an ideal inductor."
+  type: true-false
+  answer: true
+  explanation: "The energy stored in an inductor is E = ½LI², held in the magnetic field around the coil. An ideal inductor has zero resistance, so it dissipates nothing — energy flows in as current increases and flows back out as current decreases. This is directly analogous to a capacitor storing energy in its electric field. When an inductor and capacitor exchange energy in an LC circuit, oscillation persists indefinitely in the ideal case; only resistance damps the oscillation by converting stored energy to heat."
+
+- question: "An ideal inductor in DC steady state behaves like an open circuit, preventing current from flowing through it."
+  type: true-false
+  answer: false
+  explanation: "This is the opposite of correct behavior and a common confusion with capacitors. In DC steady state, current through an inductor is constant and nonzero; di/dt = 0, so v = L(di/dt) = 0. Zero voltage drop with current flowing is the behavior of a short circuit (wire), not an open circuit. Capacitors block DC (open circuit at steady state); inductors pass DC freely (short circuit at steady state). At high frequencies the roles reverse: inductors impede high-frequency signals (Z_L = jωL grows with ω) while capacitors pass them."
+
+- question: "Explain why v = L(di/dt) means inductors oppose sudden changes in current. What physically happens to the voltage when current tries to change instantaneously?"
+  type: short-answer
+  answer: "If current changes instantaneously, di/dt → ∞, and since v = L(di/dt), the voltage across the inductor would become infinite — physically impossible in any real circuit. To prevent this, the inductor generates a back-EMF (induced voltage) opposing whatever is driving the current change. Current through an inductor must therefore change continuously over time; it cannot jump discontinuously. The inductor acts as inertia for current, analogous to how mechanical inertia resists sudden changes in velocity."
+  explanation: "The physical mechanism is Faraday's law: a changing current creates a changing magnetic flux, which induces a voltage that opposes the change (Lenz's law). The equation v = L(di/dt) is not just a formula — it is a physical constraint. The inductor will generate whatever voltage is necessary to prevent a discontinuous current jump. This property is exploited in switching power supplies: once an inductor is energized, it tends to maintain its current even as the supply switches, smoothing current delivery to the load."
+```
+
 ## Explainer
 
 Capacitors store energy in an electric field between two charged plates; inductors are their magnetic dual. When current flows through a coil of wire, it creates a magnetic field threading the coil. The **inductance** L of the coil quantifies how efficiently it concentrates that field: the **magnetic flux linkage** λ = Li tells you how much total flux (field strength × area × turns) exists per ampere of current. When the current changes, the flux changes, and by Faraday's law — which you know from electromagnetism — a changing magnetic flux induces a voltage. That induced voltage is **v = L(di/dt)**: the voltage across an inductor equals inductance times the rate of change of current.

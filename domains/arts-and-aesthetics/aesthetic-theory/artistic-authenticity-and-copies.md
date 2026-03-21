@@ -28,6 +28,45 @@ status: draft
 ## Core Idea
 Beyond Benjamin's concept of aura, what makes an original artwork 'authentic'? Mechanical and digital reproduction, forgeries, and appropriation art challenge the identity and value of artworks. How do meaning and value persist when originals are infinitely reproducible?
 
+## Questions
+
+```yaml
+- question: "Han van Meegeren's forged 'Vermeers' passed expert authentication for decades. When the forgeries were exposed, their market value collapsed — yet their visual appearance had not changed at all. What is the most philosophically precise explanation for this collapse?"
+  type: multiple-choice
+  options:
+    - "Collectors are irrational — the aesthetic experience of the painting is unchanged, so its value should be unchanged"
+    - "Authenticity depends on correct causal-historical embedding: a genuine Vermeer is so because Vermeer made it in seventeenth-century Delft in response to specific artistic problems, not merely because it looks like one"
+    - "The collapse reflects legal liability from fraud rather than any aesthetic or philosophical shift in the work's value"
+    - "Benjamin's concept of aura explains why all reproductions, once identified as such, inevitably lose value"
+  answer: 1
+  explanation: "The forgery case reveals that aesthetic value in autographic arts is not determined by visual properties alone. A genuine Vermeer is authentic because it stands in the right causal-intentional relationship to its creator and historical context — it is the physical trace of Vermeer's engagement with seventeenth-century Dutch painterly problems. The forgery, despite its identical appearance, is parasitic on this history rather than contributing to it. What collapsed when the provenance was revealed was not the painting's appearance but our understanding of its historical identity. This is the core insight: authenticity is about the right causal history, not perceptual properties."
+
+- question: "Music is classified as an 'allographic' art. According to philosopher Nelson Goodman's distinction, this means:"
+  type: multiple-choice
+  options:
+    - "Musical authenticity is impossible because sound cannot be physically preserved like a painting"
+    - "A performance of a Beethoven sonata can be fully authentic without being Beethoven's own performance, because the work's identity is defined by its score (notation), not any particular physical object or event"
+    - "Recorded music is always a less authentic version of the same music performed live"
+    - "Musical compositions are inherently more reproducible and therefore less valuable than visual artworks"
+  answer: 1
+  explanation: "Goodman distinguished autographic arts (where the history of production matters for authenticity — painting, sculpture in unique materials) from allographic arts (where authenticity is defined by conformity to a notation or specification — music, literature, printmaking). In allographic arts, the work is not tied to any single physical object: a correct performance of a Beethoven sonata is authentic regardless of who performs it. This is why forgery is a meaningful concept in painting (a fake Vermeer fails to have the right causal history) but not in music (there is no 'fake' Beethoven sonata — only correct and incorrect performances of a work defined by its score)."
+
+- question: "The concept of provenance — a work's documented causal history and chain of ownership — is central to assessments of artistic authenticity in autographic arts like painting and unique sculpture."
+  type: true-false
+  answer: true
+  explanation: "Correct. In autographic arts, the physical object's specific history of production matters for its identity as a work of art. Provenance documents this history: who made it, when, where, and through whose hands it has passed. A Rembrandt with impeccable provenance tracing to Rembrandt's own studio is authenticated by this causal chain. When provenance is uncertain or forged, authenticity is in question — not because the painting looks different but because we cannot confirm it stands in the right historical relationship to its claimed creator."
+
+- question: "Because Sherrie Levine's re-photographed Walker Evans images are visually identical to Evans's originals, they function as the same artworks with the same meaning and aesthetic value."
+  type: true-false
+  answer: false
+  explanation: "Levine's photographs are intentionally, critically different works — not the same works by a different hand. By re-photographing Evans's Depression-era images and exhibiting them under her own name, Levine created artworks that function as critical commentary on originality, authorship, and the commodification of photographic images. They work precisely because they raise the question of what makes an image 'original.' If they were simply the same artworks, the gesture would be meaningless. Their identical visual appearance is the point: Levine weaponizes indiscernibility to expose the mythology of artistic originality."
+
+- question: "Explain why the autographic/allographic distinction matters for understanding what counts as forgery in different art forms."
+  type: short-answer
+  answer: "In autographic arts (painting, unique sculpture), the work's identity is tied to the specific physical object and its causal history. A forgery fails because it lacks the correct history of production — it is the wrong object, regardless of how it looks. In allographic arts (music, literature), the work's identity is defined by its structural properties or notation, not by any physical instance. You cannot 'forge' a performance of a symphony; you can only perform it correctly or incorrectly. Forgery is only possible where authenticity depends on historical identity, not just structural conformity."
+  explanation: "The distinction reveals that our intuitions about authenticity, forgery, and originality are not universal but depend on the conventions of the art form. It also explains why printmaking occupies an interesting middle ground: multiple impressions pulled from an artist's plate can all be 'originals' because the plate is the authoritative object, and prints are allographic with respect to it. Editions, numbering, and artist authentication reflect this — they mark which impressions belong to the sanctioned causal chain of production."
+```
+
 ## Explainer
 
 You already understand Benjamin's insight that mechanical reproduction strips an artwork of its **aura** — that unique presence tied to its singular existence in a particular time and place. But authenticity turns out to be a richer and more contested concept than aura alone can capture. When we ask whether an artwork is authentic, we are really asking several different questions at once: Is this the object the artist physically made? Does it faithfully express the artist's intention? Does it occupy the right place in the causal chain of art history? Each of these questions can come apart from the others, and the most interesting cases in authenticity arise precisely when they do.

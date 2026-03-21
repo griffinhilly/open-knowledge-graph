@@ -31,6 +31,45 @@ Work through the complete Bode-based design procedure for a Type 1 plant (e.g., 
 - Adding the safety margin (5-12 degrees) to the required phase is not optional — the lead compensator's magnitude increase shifts the gain crossover frequency to the right, where the plant's phase is more negative, partially consuming the added phase lead.
 - Lead compensation improves transient response but does not improve steady-state accuracy — the DC gain of a lead network (with z_c < p_c) is less than 1 unless separately compensated by K_c, and the system type remains unchanged.
 
+## Questions
+
+```yaml
+- question: "A control engineer designs a lead compensator to add exactly 30° of phase lead at the current gain crossover frequency, meeting a target phase margin of 30°. After implementing the compensator, the measured phase margin is only about 20°. What most likely explains the shortfall?"
+  type: multiple-choice
+  options:
+    - "The lead compensator formula was calculated incorrectly, providing only 20° of phase lead instead of 30°"
+    - "The lead compensator adds gain above the original crossover frequency, shifting the gain crossover rightward to a frequency where the plant has more phase lag — partially consuming the added phase lead"
+    - "The plant's phase response shifted due to unmodeled dynamics that only appear after compensation"
+    - "The gain K_c was set too high, saturating the actuator and preventing the phase lead from being delivered"
+  answer: 1
+  explanation: "This is precisely why the safety margin is non-optional. A lead compensator adds both phase and gain above the original crossover frequency. The added gain pushes the new gain crossover frequency to the right on the Bode plot. At this higher frequency, the uncompensated plant has accumulated more phase lag — partially consuming the phase lead just added. The design procedure therefore specifies adding 5–12° more than the required phase margin deficit, pre-compensating for this predictable erosion. Omitting the safety margin guarantees the achieved phase margin falls short of the target."
+
+- question: "A unity-feedback control system with a type-1 plant (one integrator) has steady-state ramp error. A lead compensator is added to improve transient response. What effect does this have on the steady-state ramp error?"
+  type: multiple-choice
+  options:
+    - "The ramp error decreases — improved phase margin indicates better overall performance including steady-state tracking"
+    - "The ramp error is unchanged or may slightly worsen — lead compensation does not change the system type or velocity constant K_v"
+    - "The ramp error is eliminated — the compensator zero cancels the plant integrator at steady state"
+    - "The ramp error increases dramatically — lead compensation's high-frequency gain amplification destabilizes steady-state behavior"
+  answer: 1
+  explanation: "Lead compensation targets transient response by adding phase near the gain crossover frequency. It does not change the system type (the number of open-loop integrators determines steady-state error class) or meaningfully alter the velocity constant K_v for ramp tracking. A lead compensator C(s) = Kc(s+zc)/(s+pc) with zc < pc has a DC gain of Kc·(zc/pc) — which may actually reduce DC loop gain and worsen steady-state error if Kc is not chosen carefully. Improving steady-state accuracy requires integral action or lag compensation, not lead compensation."
+
+- question: "A single lead compensator stage is practically limited to adding about 60–65° of phase because higher pole-zero ratios α produce excessive high-frequency gain that amplifies sensor noise to unacceptable levels."
+  type: true-false
+  answer: true
+  explanation: "φ_max = sin⁻¹((α−1)/(α+1)) increases with α, but the high-frequency gain amplification also scales with α (the magnitude ratio from zero to pole frequency is α). For α = 10 the maximum phase lead is about 55°; for α = 20 about 65°. Beyond that, the high-frequency gain becomes large enough that realistic sensor noise is amplified into the control signal at destructive levels. This practical limit means that when more than ~65° of phase lead is needed, engineers use two cascaded lead stages or a lead-lag design rather than a single stage with very large α."
+
+- question: "The maximum phase lead from a lead compensator occurs at ω_max = √(zc·pc), but placing this frequency at the desired gain crossover frequency is an optional refinement rather than a required design step."
+  type: true-false
+  answer: false
+  explanation: "Placing ω_max at the desired gain crossover frequency is not optional — it is the cornerstone of the design procedure. The entire purpose of a lead compensator is to add maximum phase at the frequency where phase is most critical (the crossover frequency). If ω_max is displaced from the crossover, the compensator delivers less than its maximum phase contribution at exactly the frequency where it is needed most. Every derived formula for zc and pc in the design procedure is derived by requiring that ω_max coincides with the new desired crossover frequency."
+
+- question: "Why must a lead compensator design include a safety margin of 5–12° beyond the required phase deficit, and what happens if this margin is omitted?"
+  type: short-answer
+  answer: "The lead compensator adds gain above the original gain crossover frequency. This extra gain shifts the gain crossover to a higher frequency. At this new (higher) crossover frequency, the uncompensated plant has more accumulated phase lag than at the original crossover (plants typically have increasingly negative phase as frequency increases). This additional plant lag partially cancels the phase lead the compensator contributed. Without the safety margin, the designer calculates the compensator for the old crossover frequency and assumes all the added phase will be delivered — but the crossover has moved to a worse location. The shortfall equals approximately the increase in plant phase lag between the old and new crossover frequencies. With the safety margin, the compensator is designed to add more phase than required, so even after this erosion the target phase margin is met."
+  explanation: "The safety margin is not a fudge factor — it is a deterministic correction for a predictable consequence of adding gain. Engineers with experience can estimate the required margin more precisely by evaluating the plant's phase slope near the intended crossover frequency."
+```
+
 ## Explainer
 
 From your study of gain and phase margins, you know that a control system's relative stability is characterized by how much additional phase lag the open-loop system can tolerate before going unstable (phase margin) and how much gain increase it can accept (gain margin). A system with insufficient phase margin oscillates excessively or goes unstable — its step response overshoots badly and takes a long time to settle. The **lead compensator** is a systematic frequency-domain tool for adding phase where you need it most: near the gain crossover frequency, where the open-loop magnitude crosses 0 dB.

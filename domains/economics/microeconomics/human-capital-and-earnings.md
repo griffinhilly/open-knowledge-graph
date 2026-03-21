@@ -19,6 +19,45 @@ status: draft
 ## Core Idea
 Education and training increase worker productivity (human capital), raising earnings through higher MRPL. Individuals invest in schooling if present value of lifetime earnings gains exceeds present value of costs (tuition, forgone income). Optimal schooling depends on individual ability, parental resources, and expected returns. Wage-experience profiles show rising earnings from accumulating on-the-job capital. Signaling and screening models suggest education may partly reveal rather than create ability.
 
+## Questions
+
+```yaml
+- question: "A policymaker proposes that subsidizing college attendance will substantially raise national productivity. A labor economist who emphasizes the signaling model challenges this prediction. What is the economist's core argument?"
+  type: multiple-choice
+  options:
+    - "College education has no effect on wages according to the signaling model, so the subsidy would be wasted"
+    - "If education primarily signals innate ability rather than building skills, expanding it to everyone dilutes the signal without raising average worker productivity"
+    - "The private return to education is lower than the social return under the signaling model, so the policy is self-defeating"
+    - "Signaling models predict that low-ability workers benefit most from education because the signal is more valuable to them"
+  answer: 1
+  explanation: "In the pure signaling model, education raises wages by separating high-ability workers from low-ability workers — it reveals pre-existing ability without creating new productivity. If everyone gets a college degree, the signal loses its separating power and wages revert to reflecting underlying ability distribution without the education premium. Average productivity is unchanged, but society has spent real resources on education. The social return can be near zero even when each individual's private return is high."
+
+- question: "Alex (age 22, plans to retire at 65) and Beth (age 22, plans to retire at 35 for other pursuits) are deciding whether to pursue graduate degrees with identical tuition and forgone wages. Human capital theory predicts:"
+  type: multiple-choice
+  options:
+    - "Beth will invest more because her shorter career creates stronger urgency to signal ability quickly"
+    - "Alex and Beth will invest equally because tuition and forgone wages are the same for both"
+    - "Alex has stronger incentive to invest because he has 43 working years to recoup the earnings premium versus Beth's 13"
+    - "Beth has stronger incentive because compounding amplifies the return over a shorter high-earnings period"
+  answer: 2
+  explanation: "Human capital theory treats education as an investment: pay costs now, receive a stream of higher earnings later. With a longer working life, there are more years over which to collect the earnings premium, making the present value of the return larger for Alex. This is why younger workers invest more in education — they have the longest horizon over which to recover the cost. Beth's shorter career dramatically shrinks the present value of her returns, making the same investment less profitable for her."
+
+- question: "Under human capital theory, the largest component of the true cost of attending a four-year college is tuition and fees."
+  type: true-false
+  answer: false
+  explanation: "Forgone earnings — the wages a student could have earned while working full-time instead of attending college — are typically as large as or larger than tuition, especially for students who could command reasonable wages. A student forgoing four years of $40,000/year wages faces $160,000 in opportunity costs before counting tuition. Human capital theory counts this opportunity cost explicitly, which is why the internal rate of return on education is often lower than naive tuition-return calculations suggest."
+
+- question: "A high private return to education is consistent with a low social return if the earnings premium comes primarily from the signaling value of credentials rather than from genuine productivity gains."
+  type: true-false
+  answer: true
+  explanation: "Private return measures what the individual gains — a higher wage — regardless of why. Social return measures what the economy gains — actual output per worker. If the earnings premium is purely signaling (sorting workers by pre-existing ability), no new value is created; the premium just transfers from employers to high-ability workers. The resources spent on education are a social cost with no productivity offset. This gap between private and social return is a classic externality argument for why education subsidies might be misallocated if signaling is dominant."
+
+- question: "Explain the distinction between the human capital model and the signaling model of education. Why might an economy where signaling dominates be less efficient than one where human capital accumulation dominates?"
+  type: short-answer
+  answer: "In the human capital model, education genuinely transforms workers — it builds skills, knowledge, and capabilities that make them more productive. The wage premium reflects real output gains. In the signaling model, education does not change workers' productivity; instead, it acts as a costly screen that separates high-ability workers (for whom education is cheaper to complete) from low-ability workers. The wage premium reflects the information value of the credential, not productivity gains. In a signaling-dominated economy, real resources (tuition, time, effort) are consumed on an activity that creates no new productivity — it only reveals pre-existing differences. This is inefficient: the same sorting could theoretically occur at lower cost if ability were directly observable."
+  explanation: "The efficiency loss under signaling arises because the equilibrium requires just enough costly signaling to deter mimicry — a pure social waste. The human capital model, by contrast, ties the signaling cost to an activity (learning) that also produces genuine economic value."
+```
+
 ## Explainer
 
 From your study of wage equilibrium in labor markets, you know that wages reflect the marginal revenue product of labor — employers pay workers what they're worth at the margin. **Human capital theory** extends this logic over time: workers can invest in themselves to become more productive, and those productivity gains get reflected in higher wages. Education is the clearest example — a college degree doesn't just signal effort, in the basic model it actually transforms you into a more productive input.

@@ -19,6 +19,45 @@ status: draft
 ## Core Idea
 The Diesel cycle replaces constant-volume combustion with constant-pressure combustion (isobaric heat addition), allowing compression ignition without spark plugs. The Diesel cycle has lower thermal efficiency than the Otto cycle at the same compression ratio but achieves higher efficiency overall due to higher practical compression ratios. Analysis requires tracking the expansion ratio and cutoff ratio (the fraction of stroke at constant pressure)
 
+## Questions
+
+```yaml
+- question: "An ideal Otto cycle and an ideal Diesel cycle both operate at a compression ratio of 14:1. The Diesel cycle has a cutoff ratio of 2. Which cycle has higher thermal efficiency?"
+  type: multiple-choice
+  options:
+    - "The Diesel cycle — compression ignition is inherently more efficient than spark ignition"
+    - "The Otto cycle — at the same compression ratio, constant-volume heat addition is thermodynamically superior to constant-pressure"
+    - "They are equal — efficiency depends only on compression ratio, not the heat addition process"
+    - "The Diesel cycle — because it operates at a higher temperature during combustion"
+  answer: 1
+  explanation: "At the same compression ratio, the Otto cycle efficiency η = 1 − 1/r^(γ−1) is higher than the Diesel cycle efficiency, which includes an extra bracket factor (r_c^γ − 1)/(γ(r_c − 1)) > 1. Constant-volume heat addition is more effective than constant-pressure: in the Diesel cycle, some energy goes into moving the piston during combustion rather than raising temperature. However, real diesel engines are more efficient overall because they operate at much higher compression ratios (14–22:1 vs. 8–12:1 for gasoline), more than compensating for the per-cycle disadvantage."
+
+- question: "Why can diesel engines use much higher compression ratios than gasoline engines without the knocking problem?"
+  type: multiple-choice
+  options:
+    - "Diesel fuel has a higher octane rating than gasoline, resisting autoignition"
+    - "Diesel engines compress only air during the compression stroke, so there is no premixed fuel-air mixture to autoignite prematurely"
+    - "Diesel engines use lower cylinder pressures because combustion is spread over a longer stroke"
+    - "Diesel fuel is injected at lower pressure, preventing the energy concentrations that cause knock"
+  answer: 1
+  explanation: "In a diesel engine, only air is present during compression — fuel is injected directly at the top of the stroke. Autoignition of a premixed fuel-air charge (knock) cannot occur when there is no fuel present during compression. In a gasoline engine, the premixed charge can spontaneously ignite as compression ratio rises above ~12:1, causing knock. Diesel's compression-ignition design intentionally uses the high temperature from compression to ignite injected fuel, so knocking is not a constraint. This allows compression ratios of 14–22:1, which is the key to diesel engines' superior real-world efficiency."
+
+- question: "The Diesel cycle is more thermodynamically efficient than the Otto cycle at the same compression ratio because constant-pressure combustion is inherently a superior heat addition process."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception about diesel engine efficiency. At the same compression ratio, the Otto cycle (constant-volume heat addition) is actually MORE efficient than the Diesel cycle. Constant-volume addition raises temperature most effectively for a given heat input; constant-pressure addition diverts some energy into moving the piston rather than raising working gas temperature. Diesel engines achieve higher practical efficiency than gasoline engines not because of any per-cycle advantage, but because they can operate at much higher compression ratios — which dramatically increases efficiency for both cycle types, and diesel engines can reach compression ratios that gasoline engines cannot."
+
+- question: "In the Diesel cycle, the cutoff ratio r_c = V₃/V₂ represents the fraction of the power stroke over which heat is added at constant pressure, and increasing r_c (more fuel burned at constant pressure) reduces thermal efficiency."
+  type: true-false
+  answer: true
+  explanation: "The thermal efficiency formula η = 1 − (1/r_v^(γ−1)) · [(r_c^γ − 1)/(γ(r_c − 1))] shows that the bracket factor increases with r_c. Since the bracket is always > 1 (it represents the efficiency penalty for constant-pressure vs. constant-volume addition), a larger r_c means more heat is added in the less-efficient isobaric process, reducing overall efficiency. This is why diesel engines operate with small cutoff ratios (injecting just enough fuel for the desired load) — maximum efficiency corresponds to r_c → 1, which approaches the Otto cycle limit."
+
+- question: "Explain why it seems paradoxical that the Diesel cycle is less efficient than the Otto cycle at the same compression ratio, yet diesel engines typically achieve higher thermal efficiency than gasoline engines in practice."
+  type: short-answer
+  answer: "At the same compression ratio, constant-volume heat addition (Otto) is thermodynamically superior to constant-pressure heat addition (Diesel) — the bracket term in the Diesel efficiency formula is always greater than 1, penalizing the isobaric process. However, gasoline engines are limited to compression ratios of about 8–12:1 because the pre-mixed fuel-air charge autoignites (knocks) at higher compression. Diesel engines compress only air, so fuel cannot knock during compression. They can therefore operate at 14–22:1, where the enormous efficiency gain from higher compression ratio far outweighs the per-cycle disadvantage of constant-pressure combustion."
+  explanation: "This apparent paradox dissolves when you recognize that the comparison must be made at realistic operating compression ratios, not at the same theoretical compression ratio. Comparing a gasoline engine at r_v = 10 to a diesel engine at r_v = 18, the diesel wins decisively on efficiency even though it uses the less efficient heat addition mode. The lesson is that compression ratio is the dominant variable in thermal efficiency, and the choice of combustion mode is really a constraint on what compression ratios are achievable."
+```
+
 ## Explainer
 
 You already know the Otto cycle from your prerequisite: it compresses air-fuel mixture, ignites it (adding heat at constant volume), expands the hot gas to do work, and exhausts the products. The Diesel cycle keeps the same four-stroke structure but changes one critical process. Instead of adding heat at constant volume (an explosive pressure spike), it adds heat at **constant pressure** while the piston continues to move outward. This is the isobaric heat addition that defines the Diesel cycle, and it changes both the combustion mechanism and the efficiency analysis.

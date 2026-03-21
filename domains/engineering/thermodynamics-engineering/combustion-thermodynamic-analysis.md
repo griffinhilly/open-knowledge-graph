@@ -29,6 +29,45 @@ Write the combustion equation balancing atoms and molecules for stoichiometric o
 - Combustion is a reversible process with maximum work output at Carnot efficiency; combustion is highly irreversible; exergy destruction is large despite large heat release.
 - Adiabatic flame temperature is the same as actual flame temperature; adiabatic is an upper limit; actual temperatures are lower due to cooling and heat losses.
 
+## Questions
+
+```yaml
+- question: "A gas turbine burns stoichiometric natural gas-air mixture. Thermodynamic calculations predict an adiabatic flame temperature of 2200°C, but temperature sensors in the combustion chamber read 1620°C. What is the most likely explanation for this gap?"
+  type: multiple-choice
+  options:
+    - "The first-law energy balance was applied incorrectly — actual temperature always equals adiabatic flame temperature at stoichiometric conditions"
+    - "The turbine is extracting shaft work from the combustion gases inside the combustor itself"
+    - "Heat losses through combustor walls, thermal radiation from hot gases, and incomplete combustion reduce the actual temperature below the adiabatic limit"
+    - "The stoichiometric mixture produces a lower flame temperature than a lean mixture would"
+  answer: 2
+  explanation: "Adiabatic flame temperature assumes Q_loss = 0 — all chemical energy heats the products. In a real combustor, heat is lost through conduction and convection through the combustor walls, radiation from incandescent combustion gases, and incomplete combustion of fuel. The adiabatic flame temperature is a theoretical upper bound that real systems approach but never reach. The 580°C gap (26%) is typical of industrial combustors with active cooling."
+
+- question: "What effect does running a gas turbine combustor lean (excess air beyond the stoichiometric amount) have on the adiabatic flame temperature?"
+  type: multiple-choice
+  options:
+    - "It increases adiabatic flame temperature because more oxygen ensures more complete combustion"
+    - "It decreases adiabatic flame temperature because excess air acts as a thermal diluent, absorbing energy without releasing any"
+    - "It has no effect because adiabatic flame temperature depends only on fuel type and inlet conditions"
+    - "It increases efficiency by increasing the available exergy of the combustion products"
+  answer: 1
+  explanation: "Excess air beyond the stoichiometric amount does not participate in the chemical reaction — it absorbs heat from the products without contributing any. This diluent effect lowers the adiabatic flame temperature. Gas turbine designers use lean combustion deliberately to keep flame temperatures below material limits for turbine blades. The energy balance is unchanged — the same chemical energy is released — but it is distributed over a larger mass of product (fuel products + excess air), so temperature rise per kilogram is smaller."
+
+- question: "Adiabatic flame temperature represents the temperature a combustor will actually achieve if it is well-insulated with thick refractory walls."
+  type: true-false
+  answer: false
+  explanation: "Adiabatic flame temperature is a theoretical maximum, not a practical target. Even a perfectly insulated combustor would not reach the adiabatic limit because the calculation also assumes complete combustion and ignores high-temperature dissociation of products. Real combustors always operate below the adiabatic temperature due to heat losses, incomplete combustion, and dissociation at very high temperatures. The adiabatic value is most useful as an upper bound for design calculations and as a reference to quantify actual losses."
+
+- question: "The energy balance for a steady-flow combustor must include formation enthalpies of both reactants and products because the first law must account for chemical energy stored in molecular bonds, not just sensible heat."
+  type: true-false
+  answer: true
+  explanation: "This is the key distinction between combustion thermodynamics and purely thermal problems. In a combustor, the chemical identity of the fluid changes — bonds are broken and formed, releasing energy. Sensible enthalpy alone (the temperature-dependent part) would miss the chemical energy source entirely. Formation enthalpies, referenced to stable elements at standard conditions, capture the chemical energy stored in each species. The energy balance Σ(ṁᵢ·h̄ᵢ) = Σ(ṁⱼ·h̄ⱼ) + Q_loss, where h̄ includes both formation and sensible enthalpy, is what makes the first law applicable across a chemical transformation."
+
+- question: "Explain why adiabatic flame temperature is an upper bound rather than a prediction of actual combustor temperature. What are the main factors that cause real flame temperatures to fall below this limit?"
+  type: short-answer
+  answer: "Adiabatic flame temperature assumes Q_loss = 0 — all chemical energy released by the reaction heats the product gases, with no energy leaving the control volume. Real combustors violate this assumption in several ways: (1) heat is conducted and convected through combustor walls (necessary for structural integrity); (2) high-temperature combustion gases radiate significant thermal energy; (3) incomplete combustion means some fuel energy is not released; and (4) at very high temperatures, products partially dissociate endothermically (CO₂ → CO + ½O₂), absorbing energy. Each mechanism removes energy from the gas phase before it can raise product temperature. The adiabatic value remains useful as an idealized maximum for design calculations."
+  explanation: "The concept of the adiabatic temperature as an upper bound follows directly from the first law: any path that removes energy (Q_loss > 0) must produce a lower product temperature than the path with Q_loss = 0. Students sometimes confuse 'no heat transfer' with 'perfectly efficient' — but an adiabatic combustor still has irreversibility from the combustion reaction itself, which is why actual work output is bounded by exergy, not by the adiabatic enthalpy drop."
+```
+
 ## Explainer
 
 From your study of the first law for open systems, you know that for a steady-flow control volume, energy enters and leaves with mass (carrying enthalpy h = u + Pv) and via heat and shaft work. Applying this to a combustor means treating the reaction zone as a control volume: fuel and air enter, combustion products exit, and the difference in total enthalpy between inlet and outlet is accounted for by heat transfer to the surroundings. The chemical reaction is just the mechanism by which energy stored in molecular bonds is converted to thermal energy of the products — the first law does not care about the mechanism, only the accounting.

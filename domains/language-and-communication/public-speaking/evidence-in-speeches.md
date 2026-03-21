@@ -37,6 +37,45 @@ Practice oral citation formulas until they sound natural rather than recited. Fo
 - Statistics without context or comparison are often meaningless to audiences; '47%' means nothing without a reference point.
 - Testimony is most powerful from sources the specific audience finds credible, which varies by context.
 
+## Questions
+
+```yaml
+- question: "A speaker presents this statistic: '47% of adults in this state report financial stress.' She then moves on to her next point without further comment. What critical element is missing?"
+  type: multiple-choice
+  options:
+    - "A verbal citation identifying the source of the statistic"
+    - "An interpretive link explaining what the statistic proves and why it matters to her argument"
+    - "A narrative story to make the statistic emotionally engaging"
+    - "Nothing — stating the statistic is sufficient; the audience can draw its own conclusions"
+  answer: 1
+  explanation: "Citing or stating evidence is not the same as using it effectively. The interpretive link — the explicit statement of what the evidence shows and why it matters — is the speaker's job. In oral communication, audiences cannot pause to reflect; without the link, the evidence floats unanchored. Option D is the classic misconception: audiences in real time often do not connect data to argument unless the speaker makes that connection explicit."
+
+- question: "A speaker addressing a skeptical audience of union workers wants to use testimony about unfair labor conditions. Which type of testimony is most likely to be persuasive?"
+  type: multiple-choice
+  options:
+    - "Expert testimony from a nationally recognized economist at a research university"
+    - "Expert testimony from a government labor department official"
+    - "Peer testimony from workers in a similar industry who experienced the same conditions"
+    - "Narrative from a corporate executive who has since changed his views"
+  answer: 2
+  explanation: "The effectiveness of testimony depends on audience analysis — which sources the specific audience finds credible. A skeptical union audience may distrust institutional authority (economists, government officials) while relating strongly to peers who share their experience. Peer testimony works when the audience is more moved by relatable experience than by credentials. The speaker who chooses testimony without considering the audience is likely to lose credibility rather than gain it."
+
+- question: "In a speech, oral citations should follow academic format — including journal name, volume, and page number — so the audience can verify the source."
+  type: true-false
+  answer: false
+  explanation: "Oral citation is fundamentally different from academic citation. Audiences cannot look up footnotes in real time. An oral citation must be embedded in the sentence itself and must establish the source's credibility while speaking: 'According to a 2024 analysis by the Kaiser Family Foundation, a nonpartisan health research organization...' The goal is to identify the source and justify trusting it in a single, natural-sounding phrase — not to provide bibliographic detail that listeners cannot use."
+
+- question: "A well-told story about a single individual can be more memorable to an audience than a set of statistics covering thousands of people."
+  type: true-false
+  answer: true
+  explanation: "Narratives are processed as lived experience rather than data, which is why they tend to outlast statistics in audience memory. This is not a weakness in human reasoning but a feature: stories activate empathy and create mental imagery that sticks. Skilled speakers use statistics to provide scale ('this isn't one person — it's 23%') and stories to provide salience, combining both for maximum persuasive effect."
+
+- question: "Why must a speaker explicitly state what a piece of evidence proves, rather than letting the audience make that connection themselves?"
+  type: short-answer
+  answer: "Oral communication happens in real time — audiences cannot pause, re-read, or look up context. Without an explicit interpretive link, the evidence has no anchor: the audience receives the data but not the argument it is supposed to support. The speaker must bridge evidence to claim out loud because what a skilled reader might infer from text, a listener cannot always reconstruct on the fly."
+  explanation: "This is the defining constraint of oral evidence use. Academic writers can rely on a careful reader to infer connections; speakers cannot. The interpretive link is what transforms raw evidence into an argument — and omitting it is the most common reason a speech feels like a collection of facts rather than a coherent case."
+```
+
 ## Explainer
 
 You already know from your work on evidence and support that claims need backing — that assertions without support are just opinions. And from research and citation, you know how to find and attribute sources. In public speaking, those skills apply with a critical twist: your audience cannot stop to verify your sources, re-read a confusing statistic, or look up a citation in a footnote. Everything the evidence does, it must do in real time, in the moment the audience hears it. This is what makes oral evidence use a distinct skill.

@@ -32,6 +32,45 @@ Research the salon selection process and rejection rates to understand the gatek
 ## Common Misconceptions
 - The salon was democratic—jury selection was controlled by academically trained painters with narrow aesthetic preferences. - Salon rejection meant an artist was untalented—some of the greatest modern artists (Manet, Monet) were rejected or exhibited reluctantly. - The salon system simply disappeared—while formal salons declined, institutional gatekeeping and market gatekeeping continue in contemporary art.
 
+## Questions
+
+```yaml
+- question: "Édouard Manet's 'Le Déjeuner sur l'herbe' was rejected from the official Salon in 1863 and shown instead at the Salon des Refusés. What was the most historically significant consequence of this rejection?"
+  type: multiple-choice
+  options:
+    - "It demonstrated that Manet lacked the technical skill required for Salon acceptance"
+    - "It caused the Académie Royale to immediately reform its jury selection criteria"
+    - "The painting became historically famous precisely through its rejection, helping establish the principle that artistic legitimacy could exist outside institutional approval"
+    - "It proved that academic painting had always been artistically inferior to innovative work"
+  answer: 2
+  explanation: "The historical irony of Salon rejection is that it sometimes produced more lasting fame than acceptance would have. The Salon des Refusés allowed the public to see what the jury excluded — and Manet's painting became a flashpoint for debate about what art could be. More broadly, the pattern of rejection followed by independent exhibition helped establish the principle that artistic legitimacy did not require institutional approval. This fracture was the seed of the modern art market, with its private dealers, independent critics, and alternative exhibition spaces."
+
+- question: "The Salon jury systematically rejected works featuring rough brushwork, contemporary subjects, and unusual compositions. This pattern is best understood as:"
+  type: multiple-choice
+  options:
+    - "A fair meritocratic process that correctly identified technically inferior work"
+    - "An arbitrary selection process with no consistent aesthetic rationale"
+    - "Active enforcement of a specific aesthetic ideology — the jury was constructing taste, not neutrally evaluating quality"
+    - "A necessary gatekeeping function that prevented the market from being flooded with amateur work"
+  answer: 2
+  explanation: "The jury's preferences were not neutral or self-evident — they reflected the specific values of academic training: history painting, idealized forms, polished finish, and classical sources. Works violating these conventions were rejected not because they were objectively inferior, but because they embodied different aesthetic values. Understanding this is the key insight: the Salon did not passively reflect pre-existing taste. It actively constructed taste by determining what the public was allowed to see and what received critical attention and market access."
+
+- question: "The decline of the formal Salon system in the late 19th century ended institutional gatekeeping in the art world."
+  type: true-false
+  answer: false
+  explanation: "The Salon's institutional form declined, but its dynamics persisted and transformed. Contemporary art operates through gallery representation, museum acquisition, biennial inclusion, critical coverage, and collector networks — all of which function as gatekeeping systems that determine which artists gain visibility and which remain obscure. The specific institution changed; the structural role of institutions in constructing and legitimating taste did not. This is one of the Salon's most durable lessons: institutional power in the art world is not eliminated, only reorganized."
+
+- question: "Salon rejection could paradoxically increase an artist's historical significance by positioning their work as a counterpoint to the dominant academic aesthetic."
+  type: true-false
+  answer: true
+  explanation: "The history of modern art repeatedly demonstrates this paradox. Artists rejected by the Salon — Courbet, Manet, the Impressionists — became the canonical figures of art history precisely because their rejection marked them as challengers to official taste. Rejection created a narrative of misunderstood genius versus institutional conservatism that later critics and historians found compelling. The Salon's gatekeeping function thus cut both ways: it controlled access, but it also made transgression visible and legible."
+
+- question: "In what sense did the Salon system actively construct artistic taste rather than simply reflecting the public's existing preferences?"
+  type: short-answer
+  answer: "The Salon constructed taste by controlling what the public was allowed to see. Most people encountered visual art almost exclusively through Salon exhibitions — there was no competing gallery system, no independent critics with mass audiences, no alternative venues for serious art. By selecting which works were exhibited, the jury determined which aesthetic values were visible, discussed, and validated. Works conforming to academic conventions were seen, reviewed, and purchased; works violating those conventions were invisible to the public. Over decades, this shaped what audiences expected art to look like and what critics had the vocabulary to praise. Taste appeared to emerge naturally from the public, but it had been filtered through institutional selection first."
+  explanation: "The key is that taste formation requires exposure. You cannot prefer or value what you have never seen. By monopolizing the primary venue for public exposure to visual art, the Salon shaped the categories through which audiences and critics evaluated art — not through overt coercion, but through the structural power to determine visibility."
+```
+
 ## Explainer
 
 From your study of art markets and taste formation, you know that art does not simply exist — it must be shown, discussed, bought, and validated by institutions before it enters the cultural record. The **Salon** was the most powerful of these validating institutions for over two centuries. Originating in seventeenth-century France as an exhibition organized by the Académie Royale, the Salon became the single most important venue where an artist could build a reputation, attract buyers, and establish critical credibility. Being accepted into the Salon was not just an honor — for most artists, it was an economic necessity. Without Salon exposure, there was effectively no market.

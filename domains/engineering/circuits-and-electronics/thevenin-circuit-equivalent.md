@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Thévenin's theorem states any linear two-terminal circuit simplifies to a voltage source V_th in series with resistance R_th. V_th is the open-circuit voltage at the terminals, and R_th is found by zeroing independent sources and measuring resistance. This powerful simplification enables efficient load analysis and is widely used in circuit design.
 
+## Questions
+
+```yaml
+- question: "You need to find the voltage delivered to load resistors of 10Ω, 47Ω, and 100Ω connected to a complex circuit. What is the advantage of finding the Thévenin equivalent first?"
+  type: multiple-choice
+  options:
+    - "You still solve the circuit three times, but each solution is simpler because the Thévenin model has fewer nodes"
+    - "You reduce the source network once to V_th and R_th, then use a simple voltage divider formula for each load — no re-solving required"
+    - "You find V_th once, and R_th equals the smallest resistor in the source network"
+    - "You cannot use Thévenin's theorem unless all three loads are connected simultaneously"
+  answer: 1
+  explanation: "The payoff of Thévenin equivalents is decoupling the source from the load. You solve the source network once to find V_th (open-circuit voltage) and R_th (Thévenin resistance). Then for any load R_L, V_load = V_th × R_L / (R_th + R_L) — a simple voltage divider. Changing the load never requires re-solving the source network. This is why Thévenin analysis is so widely used: it converts a complex multi-component problem into a trivial two-resistor calculation for every subsequent load variation."
+
+- question: "To find R_th for a circuit containing only independent sources, you 'zero' the sources. What does zeroing a voltage source and zeroing a current source mean physically?"
+  type: multiple-choice
+  options:
+    - "Both become open circuits, since a zero-value source contributes nothing to the circuit"
+    - "Voltage sources become open circuits; current sources become short circuits"
+    - "Voltage sources become short circuits (wires); current sources become open circuits (breaks)"
+    - "Both sources are removed entirely and their terminals are left disconnected"
+  answer: 2
+  explanation: "Zeroing sets a source's value to zero. A voltage source with 0 V enforces zero potential difference across its terminals — exactly what a short circuit (wire) does. A current source with 0 A passes no current — exactly what an open circuit (break) does. Reversing these (option B) is a very common error that produces an incorrect R_th. The physical interpretation: a dead voltage source is a wire; a dead current source is a gap."
+
+- question: "Thévenin's theorem works because a linear circuit produces a straight-line V-I relationship at any two terminals, and a voltage source in series with a resistor is precisely the minimal circuit with that characteristic."
+  type: true-false
+  answer: true
+  explanation: "Linearity means the terminal voltage V is a linear function of the current I drawn: V = V_oc − I·R_th. This is a straight line in V-I space. The intercept at I = 0 is V_th (the open-circuit voltage), and the slope magnitude is R_th. A voltage source V_th in series with R_th produces exactly this same straight-line V-I characteristic. Thévenin's theorem is therefore a direct consequence of linearity: any circuit satisfying superposition has a Thévenin equivalent, because linearity guarantees the straight-line terminal behavior."
+
+- question: "For a circuit that contains dependent sources, R_th can be found by zeroing the dependent sources and computing the resistance at the terminals."
+  type: true-false
+  answer: false
+  explanation: "Dependent sources cannot be zeroed — they are controlled by circuit variables (other voltages or currents), and setting them to zero removes relationships that are essential to the circuit's behavior, producing an incorrect R_th. For circuits with dependent sources, the correct procedure is: (1) zero only the independent sources, (2) apply a test voltage V_test (or current I_test) at the terminals, and (3) compute R_th = V_test / I_test from the resulting current (or voltage). The test-source method correctly accounts for dependent source behavior."
+
+- question: "Explain why Thévenin's theorem holds — why can any linear two-terminal circuit always be replaced by a voltage source and a single resistor?"
+  type: short-answer
+  answer: "Because linearity guarantees that the terminal voltage V is a linear function of the terminal current I: V = V_oc − I·R_th. Any straight-line V-I relationship can be reproduced by a voltage source V_th in series with a resistor R_th. No more complex internal structure is needed — from the terminals' perspective, only these two numbers (V_th and R_th) matter. V_th is the open-circuit voltage (I = 0), and R_th is the slope of the V-I line."
+  explanation: "This is why Thévenin's theorem applies to any linear circuit regardless of how many resistors, capacitors, inductors, or sources it contains internally — the linearity property guarantees the terminal behavior collapses to a straight line. The theorem is essentially saying: all the internal complexity contributes only two numbers externally. This same reasoning underlies Norton's theorem (a current source in parallel with R_th), which represents the same straight line using the other intercept (at V = 0) and the same slope."
+```
+
 ## Explainer
 
 You've studied the linearity property of circuits: responses scale proportionally with sources, and superposition holds. Thévenin's theorem is one of the most powerful consequences of linearity. It says that no matter how tangled a network of resistors and sources looks internally, from the perspective of any two terminals it behaves exactly like a single voltage source in series with a single resistor. Everything inside the box collapses to just two numbers: **V_th** and **R_th**.

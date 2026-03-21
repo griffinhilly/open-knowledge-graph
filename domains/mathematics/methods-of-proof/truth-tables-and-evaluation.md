@@ -31,6 +31,45 @@ Start with tables for single connectives, then build up to more complex expressi
 - Making arithmetic errors when evaluating complex expressions.
 - Confusing the order of operations (negation binds tightest).
 
+## Questions
+
+```yaml
+- question: "How many rows are required in the truth table for a formula containing exactly three distinct propositional variables (P, Q, R)?"
+  type: multiple-choice
+  options:
+    - "6 rows — two rows per variable"
+    - "8 rows — 2³ = 8 distinct truth-value combinations"
+    - "9 rows — three variables squared"
+    - "It depends on the number of connectives in the formula, not just the variables"
+  answer: 1
+  explanation: "Each propositional variable independently takes the value True or False, giving 2 choices per variable. For n independent variables, there are 2ⁿ total combinations — 2³ = 8 for three variables. The number of connectives affects how many intermediate columns you need but does not change the row count. Missing rows means you have not checked all possible truth-value assignments, leaving the formula's behavior underdetermined. The 2ⁿ rule follows from treating variable assignments like binary strings of length n."
+
+- question: "A logician builds truth tables for two complex formulas and finds that their final columns are identical in every row. What can be concluded?"
+  type: multiple-choice
+  options:
+    - "Both formulas must be tautologies"
+    - "The formulas are logically equivalent — they have the same truth value for every possible assignment of variables"
+    - "One formula implies the other, but they are not necessarily interchangeable"
+    - "The conclusion depends on whether the formulas use the same connectives"
+  answer: 1
+  explanation: "Two formulas are logically equivalent if and only if they have the same truth value for every possible truth-value assignment — exactly what identical final columns show. This allows complex equivalences like De Morgan's laws (¬(P ∧ Q) ≡ ¬P ∨ ¬Q) to be verified purely mechanically by comparing columns, without any proof-theoretic argument. Note that option A is wrong: identical columns could represent two tautologies, but they could equally represent two formulas that are sometimes true and sometimes false — what matters is that they match each other."
+
+- question: "A formula that is true in every row of its truth table is called a tautology."
+  type: true-false
+  answer: true
+  explanation: "A tautology is a formula that is necessarily true — true regardless of the truth values of its component variables. The truth table shows exactly this: it enumerates every possible world (every truth-value assignment) and checks whether the formula holds. If it holds in all 2ⁿ rows, the formula cannot be made false by any assignment. The classic example is P ∨ ¬P (the law of excluded middle): regardless of whether P is true or false, exactly one of P or ¬P is true, making the disjunction always true."
+
+- question: "In the formula ¬P ∧ Q, the conjunction (∧) is evaluated before the negation (¬) because conjunction involves two operands while negation involves only one."
+  type: true-false
+  answer: false
+  explanation: "Negation (¬) has the highest operator precedence in propositional logic — it binds more tightly than conjunction (∧), which binds more tightly than disjunction (∨), which binds more tightly than the conditional (→). The number of operands has no bearing on precedence. In ¬P ∧ Q, the negation applies only to P, yielding (¬P) ∧ Q. This matters significantly: ¬(P ∧ Q) and (¬P) ∧ Q are different formulas with different truth tables, and misapplying precedence leads to systematic evaluation errors."
+
+- question: "Explain how truth tables can prove that two logically complex formulas are equivalent, and why this mechanical method is more reliable than informal argument."
+  type: short-answer
+  answer: "To prove logical equivalence via truth table, construct a single table with both formulas as separate final columns. If the columns are identical in every row — both formulas have the same truth value for every possible variable assignment — the formulas are logically equivalent. This method is exhaustive for a finite number of variables: it checks every possible scenario, so no counterexample can be hiding. Informal argument might miss edge cases or rely on intuitions that fail for some assignment."
+  explanation: "The power of truth tables is their completeness. For n variables, the table has 2ⁿ rows — a finite, total check. A valid-seeming informal argument can contain hidden errors; a complete truth table cannot. This mechanical completeness makes truth tables foundational in logic, digital circuit design, and formal verification. The tradeoff is scalability: for many variables, 2ⁿ rows grows exponentially and other methods become necessary. But truth tables remain the gold standard for verifying small formulas and building intuition about logical structure."
+```
+
 ## Explainer
 
 From your prerequisite on logical connectives, you know that the basic connectives — negation (¬), conjunction (∧), disjunction (∨), and conditional (→) — each have precise rules defining when they produce true or false outputs. A **truth table** is the systematic method for applying those rules to any compound formula. By listing every possible combination of truth values for the component variables and evaluating the formula for each, the table makes the formula's behavior completely transparent.

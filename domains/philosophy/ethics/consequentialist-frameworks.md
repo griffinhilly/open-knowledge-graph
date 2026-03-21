@@ -28,6 +28,45 @@ Apply consequentialist reasoning to a case: should you break a promise if doing 
 ## Common Misconceptions
 Not all consequentialists think only outcomes matter; many allow agent-relative projects, side constraints, or procedural fairness. Also, calculating consequences is difficult in practice, but that limitation on application doesn't refute the framework itself.
 
+## Questions
+
+```yaml
+- question: "Peter Singer argues that if you can prevent something very bad from happening without sacrificing anything of comparable moral importance, you are morally required to do so. This argument relies on which core feature of consequentialism?"
+  type: multiple-choice
+  options:
+    - "The demandingness objection, which limits how much agents must sacrifice"
+    - "The impartiality requirement that gives all affected parties equal moral weight"
+    - "The distinction between duties and supererogatory acts"
+    - "An objective list theory of value that ranks basic needs above preferences"
+  answer: 1
+  explanation: "Singer's argument works precisely by applying consequentialism's impartiality requirement: your marginal utility from spending on luxuries is less than a stranger's gain from food or medicine, and equal weighting of all affected parties makes helping strangers morally required rather than optional. The demandingness objection (option A) is the criticism of this conclusion, not its foundation — it's what opponents say in response."
+
+- question: "Someone says 'the ends justify the means, so of course break the promise — that's just consequentialism.' What is most incomplete about this response?"
+  type: multiple-choice
+  options:
+    - "Consequentialism treats promise-keeping as an intrinsic duty that cannot be overridden"
+    - "A full consequentialist calculation must include systemic effects — erosion of trust and the value of promise-keeping as a social practice"
+    - "Consequentialism is a metaethical theory, not a normative one"
+    - "Intentions matter equally to consequences under consequentialism"
+  answer: 1
+  explanation: "The 'ends justify the means' framing treats consequences too narrowly. A rigorous consequentialist calculation must include second-order effects: the erosion of trust, the devaluing of commitments as social institutions, and the precedent set. Option A is wrong — consequentialism doesn't treat promise-keeping as an intrinsic duty; that's a deontological claim. The point is that calculating consequences is harder than it first appears."
+
+- question: "Consequentialism's impartiality requirement implies that special obligations to family and friends may sometimes be morally impermissible if those resources could produce more good for strangers."
+  type: true-false
+  answer: true
+  explanation: "True. This is precisely the 'demandingness objection' — if you must maximize overall good impartially, there is no privileged moral space for personal relationships. Most consequentialists either accept this demanding conclusion, argue for indirect versions (rule consequentialism) that preserve room for special relationships, or acknowledge it as a genuine tension the framework must address."
+
+- question: "The objections to consequentialism — demandingness, rights violations, integrity — show that the framework is fundamentally flawed and should be rejected."
+  type: true-false
+  answer: false
+  explanation: "False. Objections reveal genuine tensions that any consequentialist theory must address, but they don't refute the framework. Every ethical theory faces counterintuitive cases. Understanding where a framework succeeds and strains is itself the most important lesson — the disagreements between frameworks track genuine tensions in moral life. 'Biting the bullet' on demanding implications may be the honest position."
+
+- question: "What is the 'demandingness objection' to consequentialism, and why does it pose a genuine challenge rather than a simple refutation?"
+  type: short-answer
+  answer: "The objection holds that impartially maximizing good leaves no moral space for personal projects, special relationships, or limits on self-sacrifice — whenever your resources could produce more good elsewhere, impartial accounting requires you to give them up. It's a genuine challenge because it conflicts with something morally real: the significance of personal commitments and the intuition that morality has limits."
+  explanation: "Bernard Williams argued this alienates agents from their own integrity — consequentialism requires you to always calculate rather than act from character. Consequentialists respond variously: accepting the demanding conclusion, moving to rule consequentialism, or arguing that agent-relative values are themselves part of good outcomes. None of these responses fully dissolves the tension, which is why the objection is philosophically serious rather than easily dismissed."
+```
+
 ## Explainer
 
 You've distinguished normative from metaethical questions: normative ethics asks what we ought to do, while metaethics asks about the nature and status of moral claims. **Consequentialism** is a normative theory — a systematic answer to "what makes an action right or wrong?" Its answer is simple in structure: an action is right if and only if it produces the best available outcomes. Everything else — intentions, rules, duties, character — matters only instrumentally, as means to producing good consequences. This distinguishes consequentialism sharply from **deontological** theories, which hold that some actions (lying, killing innocents) are intrinsically wrong regardless of outcomes, and from **virtue ethics**, which centers the character of the agent rather than the consequences of individual acts.

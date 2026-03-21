@@ -29,6 +29,45 @@ Study how breaking the fourth wall functions in specific plays: compare a moment
 ## Common Misconceptions
 The fourth wall is not a literal wall—it's a psychological contract. Also, direct address doesn't automatically break the fourth wall in all contexts; conventions vary by theatrical tradition and period.
 
+## Questions
+
+```yaml
+- question: "In Shakespeare's epilogues (Puck in A Midsummer Night's Dream, Prospero in The Tempest), characters address the audience directly. How does this use differ from Brecht's fourth-wall breaks?"
+  type: multiple-choice
+  options:
+    - "There is no meaningful difference — both are examples of metatheatrical disruption"
+    - "Shakespeare's epilogues function as ritual closure and are expected; Brecht uses direct address as an anti-immersive instrument to prevent emotional identification with the fiction"
+    - "Shakespeare's breaks occur within the story world; Brecht's occur between acts as stage directions"
+    - "Shakespeare uses direct address to create dramatic irony; Brecht uses it to create audience intimacy"
+  answer: 1
+  explanation: "Both are fourth-wall breaks, but context determines effect. Shakespeare's epilogues come after the story as formal closure — the audience expects them, and they function as graceful ritual transitions back to ordinary life. Brecht's mid-play interruptions are designed to prevent immersion, making the theatrical apparatus visible as a political tool. Same technique, opposite purposes — because the contracts being broken are different."
+
+- question: "A playwright wants a fourth-wall break to produce maximum disruptive effect. Which approach would most reliably achieve this?"
+  type: multiple-choice
+  options:
+    - "Have a character deliver direct address in the middle of an otherwise fully naturalistic play"
+    - "Use direct address in a stylized play that already features music, narration, and visible theatrical devices"
+    - "Have an actor break character during a curtain call to thank the audience"
+    - "Use direct address in the opening scene before the audience has settled into the fictional world"
+  answer: 0
+  explanation: "Maximum disruption requires violating a firmly established contract. In a naturalistic play, the audience has settled deeply into the fiction of a transparent window on reality — a sudden direct address collapses that agreement violently. In a stylized play with multiple visible conventions (option B), the audience was never fully immersed, so direct address produces little shock. The more complete the immersive contract, the more disruptive its violation."
+
+- question: "The fourth wall is not a physical structure but a shared psychological agreement — a convention that both performers and audience agree to maintain."
+  type: true-false
+  answer: true
+  explanation: "True. This is the foundational insight. The fourth wall exists because everyone present — audience and performers — implicitly agrees to pretend it does. That shared agreement is what makes breaking it meaningful: you can only violate a contract that actually exists. There is no literal wall; there is only the mutually maintained fiction of one."
+
+- question: "Breaking the fourth wall always disrupts audience immersion and reminds viewers they are watching a performance."
+  type: true-false
+  answer: false
+  explanation: "False. The effect depends entirely on context and execution. Shakespeare's epilogues use direct address to create graceful closure and invite the audience's goodwill — not disruption. Puck's 'If we shadows have offended...' is expected, warm, and transitional. Direct address can create intimacy, complicity, irony, metatheatrical commentary, or disruption — what determines the result is what kind of contract existed beforehand and how the break is executed."
+
+- question: "Why does breaking the fourth wall only produce a meaningful effect if the fourth wall convention was already established?"
+  type: short-answer
+  answer: "Because breaking the fourth wall is an act against an established contract. If no convention of immersive illusion exists to violate, direct address is just address — there is nothing being broken, and the technique carries no charge."
+  explanation: "This is why the same technique produces entirely different effects in different contexts. A naturalistic play with a firmly established fourth wall makes breaking it shocking. A Brechtian play where the apparatus has been visible throughout produces no disruption when an actor addresses the audience — the contract was never established in the first place. The power of the technique is always relative to what precedes it."
+```
+
 ## Explainer
 
 The concept of the fourth wall presupposes the theatrical conventions you already know: the proscenium stage, with its picture-frame opening, positioned actors and audience in a specific spatial relationship that became dominant in European theater from the seventeenth century onward. The three "walls" of a realistic stage set are literal; the fourth wall is the invisible plane between stage and audience, through which the audience watches without being acknowledged. Denis Diderot, the eighteenth-century theorist, gave this idea its clearest early articulation: the ideal actor should perform as if the audience did not exist, completely absorbed in the dramatic world. This fiction of a transparent window onto reality is the foundation of naturalistic theater — and it is always, from the start, a convention agreed upon rather than a fact about the world.

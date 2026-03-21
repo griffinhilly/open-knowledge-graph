@@ -38,6 +38,45 @@ Draw the homunculus distortion deliberately — making hands enormous and the to
 - Cortical maps are not fixed; they reorganize substantially with experience and after injury (neuroplasticity).
 - 'Association cortex' does not mean vaguely 'higher thinking'; it has specific connectivity and functional contributions.
 
+## Questions
+
+```yaml
+- question: "A professional violinist has practiced precise finger movements for decades. Neuroscientists find that her finger representations in somatosensory and motor cortex are larger than those of non-musicians. What does this demonstrate?"
+  type: multiple-choice
+  options:
+    - "Violinists are born with more cortex dedicated to their fingers, which is why they excel at fine motor skills"
+    - "Cortical maps are plastic — repeated use and precision practice can expand the cortical territory devoted to body parts used with high frequency"
+    - "Primary cortex grows new neurons in response to practice, increasing its overall volume"
+    - "The homunculus is simply different for musicians because their fingers have more peripheral nerve endings"
+  answer: 1
+  explanation: "This is a demonstration of cortical plasticity — the ability of cortical maps to reorganize based on experience. Cortical territory is not fixed at birth; areas used frequently and with high precision recruit more neurons and expand their representation over time. Studies of musicians, Braille readers, and taxi drivers all confirm this principle. Option 0 reverses the causation. Option 3 confuses peripheral receptor density (a fixed anatomical property) with central cortical organization (which is plastic)."
+
+- question: "A patient has a stroke affecting primary somatosensory cortex (S1) over the right hand region. A second patient has damage to parietal association cortex. How would their deficits most likely differ?"
+  type: multiple-choice
+  options:
+    - "Both patients would have identical deficits because both regions process touch"
+    - "The S1 patient loses raw tactile sensation from the right hand; the association cortex patient may feel touch but struggle to recognize objects by touch or integrate tactile with visual information"
+    - "The association cortex patient would have more severe sensory loss because association areas are higher in the hierarchy"
+    - "The S1 patient loses all sensation below the neck; the association cortex patient loses only fine discriminative touch"
+  answer: 1
+  explanation: "The cortical hierarchy predicts qualitatively different deficits at each level. Primary somatosensory cortex receives raw sensory data — damage here causes loss of sensation (hypoesthesia) in the corresponding body part. Association cortex extracts meaning from that data — damage can leave basic touch detection intact while impairing the ability to recognize objects by touch (tactile agnosia) or integrate touch with other senses. A patient who can feel that something is in their hand but cannot identify what it is has intact S1 but impaired somatosensory association cortex."
+
+- question: "In the somatosensory homunculus, the back and torso have larger cortical representations than the hands because the back is a larger body surface area."
+  type: true-false
+  answer: false
+  explanation: "The homunculus is famously distorted in the opposite direction: hands, lips, and tongue receive disproportionately large cortical representations despite being physically small, while the back and torso get comparatively little cortex despite being large body surfaces. Cortical territory tracks behavioral importance and receptor density, not body surface area. Fingertips have extremely high tactile receptor density and require fine motor control; the back needs neither."
+
+- question: "Damage to primary visual cortex (V1) produces a blind spot in the corresponding visual field, whereas damage to higher visual association areas can leave basic light detection intact while impairing object recognition or motion perception."
+  type: true-false
+  answer: true
+  explanation: "This is a direct consequence of the cortical hierarchy. V1 is the entry point for visual cortical processing — damage here eliminates processing for that region of visual space, producing a scotoma. Higher visual areas build on V1 output: damage to the ventral stream impairs object recognition (visual agnosia) while leaving motion detection intact; damage to the dorsal stream impairs spatial and motion processing while leaving object identity relatively intact. Qualitatively different deficit types reveal which level of the hierarchy is damaged."
+
+- question: "What does the distorted shape of the cortical homunculus reveal about the principle governing cortical map organization, and why is this allocation functionally beneficial?"
+  type: short-answer
+  answer: "The homunculus reveals that cortical territory is allocated according to behavioral importance and sensory receptor density — not according to the physical size of body parts. Body parts requiring fine motor control or high-resolution sensation (hands, lips, tongue) command disproportionately more cortical space. This allocation is functionally optimal: more cortex means more computational resources devoted to tasks where precision matters. The back needs little spatial resolution; the fingertips must discriminate texture, shape, and position at millimeter scales."
+  explanation: "The same principle applies across species in ways that reveal evolutionary priorities: rats have enormous cortical maps for whiskers; star-nosed moles devote vast cortex to their sensory stars; raccoons have unusually large paw representations. Cortical real estate is not distributed by anatomy but by what the organism actually needs to do — a concrete example of structure following function at the neural level, and one reason cortical maps are a window into an animal's behavioral ecology."
+```
+
 ## Explainer
 
 From your prerequisite on brain lobes, you know that different regions of the cortex handle different functions — the occipital lobe handles vision, the parietal lobe handles touch, the frontal lobe handles movement and executive function. Cortical organization deepens that map by explaining *how* functions are organized *within* those regions. The key organizing principle is a hierarchy: not all cortex is equal in what it does or how directly it connects to the external world.

@@ -33,6 +33,45 @@ Work through scenarios with lactose present/absent and glucose present/absent to
 - Confusing glucose repression (catabolite repression) with lactose-mediated regulation.
 - Thinking the operon is 'turned off' when it's actually reduced in activity.
 
+## Questions
+
+```yaml
+- question: "An E. coli cell is growing in medium containing both lactose and glucose. Which best describes lac operon expression?"
+  type: multiple-choice
+  options:
+    - "Maximally expressed — lactose is present, so the repressor is removed and full transcription occurs."
+    - "Expressed at intermediate levels — glucose partially inhibits while lactose partially activates."
+    - "Minimally expressed — glucose keeps cAMP levels low, so CAP is inactive and the promoter is weak, even though the repressor is off."
+    - "Completely repressed — the presence of glucose overrides lactose and causes the repressor to rebind the operator."
+  answer: 2
+  explanation: "The lac operon has two simultaneous control mechanisms. Negative regulation: lactose (via allolactose) removes the repressor — so with lactose present, the operator is clear and transcription can occur. Positive regulation: low glucose raises cAMP, which activates CAP to boost transcription. With glucose present, cAMP is low, CAP is inactive, and the promoter is intrinsically weak. The result is low (not zero, not maximal) expression — both conditions for high expression (repressor removed AND CAP active) are not simultaneously met. This dual control ensures lactose-digesting enzymes are made at high levels only when the cell truly needs them: lactose present, glucose absent."
+
+- question: "What is the actual molecular inducer of the lac operon, and why does this distinction matter?"
+  type: multiple-choice
+  options:
+    - "Lactose itself — it binds the repressor and causes the conformational change that releases it from the operator."
+    - "Allolactose, an isomer of lactose produced inside the cell — it is allolactose, not lactose, that binds and inactivates the repressor."
+    - "β-galactosidase — the enzyme encoded by lacZ feeds back to induce its own synthesis by inactivating the repressor."
+    - "cAMP — the secondary messenger that, when lactose enters the cell, rises to inactivate the repressor."
+  answer: 1
+  explanation: "The actual inducer is allolactose, produced when a small amount of lactose is converted by the low basal level of β-galactosidase always present. Allolactose binds the lac repressor and triggers a conformational change that prevents it from binding the operator. Lactose itself does not directly bind the repressor. This distinction matters conceptually: the cell uses a small metabolic byproduct of the very enzyme it is trying to induce as the signal for induction — a clever feedback mechanism that ensures the pathway is activated only after lactose has actually entered the cell and begun to be processed."
+
+- question: "The lac repressor, when bound to the operator, reduces transcription of the structural genes by approximately 1,000-fold but does not completely abolish it."
+  type: true-false
+  answer: true
+  explanation: "This is explicitly stated and is a common misconception to correct: the repressor reduces transcription approximately 1,000-fold, not to zero. A small basal level of β-galactosidase and permease is always produced, even in the absence of lactose. This basal level is physiologically important — it is the basal β-galactosidase that converts the small amount of lactose that enters the cell into allolactose, which then induces the operon more strongly. Complete repression would create a logical paradox: the cell could never begin to produce the enzymes needed to detect lactose."
+
+- question: "Negative regulation of the lac operon means that the repressor protein actively degrades lac mRNA after it is produced, preventing translation of the structural genes."
+  type: true-false
+  answer: false
+  explanation: "Negative regulation means the system's default state is 'off' — the repressor blocks transcription initiation by binding the operator between the promoter and structural genes, physically preventing RNA polymerase from proceeding. It does not degrade mRNA after transcription. The distinction between transcriptional and post-transcriptional control is fundamental: the repressor acts before mRNA is made, not after. The term 'negative regulation' refers to the mode of control (a repressor protein that negatively controls transcription), not to RNA degradation."
+
+- question: "Explain why 'negative regulation' is an apt description of the lac repressor system, and how this differs from positive regulation."
+  type: short-answer
+  answer: "In negative regulation, the default state of the gene is OFF — a repressor protein constitutively binds the operator and blocks transcription. The inducer (allolactose) works by removing the repressor, derepressing the gene. There is no activator; transcription simply proceeds once the block is removed. In positive regulation (like CAP-cAMP activation of the lac operon), the default state is low or basal — a transcriptional activator must be present and bound to enhance transcription above baseline. The lac operon uses both: the repressor (negative) is the on/off switch based on lactose availability, while CAP (positive) adjusts the gain based on glucose availability. Maximum expression requires derepression AND activation simultaneously."
+  explanation: "The naming reflects the logic of control: negative regulation = a regulatory protein negatively affects transcription (repressor removes itself to allow expression); positive regulation = a regulatory protein positively affects transcription (activator must bind to enhance expression). Understanding this distinction is essential for predicting what happens in mutant strains — an operator-constitutive mutant (operator cannot bind repressor) will always be derepressed; a promoter mutant that cannot bind CAP will never be fully induced."
+```
+
 ## Explainer
 
 From your study of prokaryotic gene regulation and transcription initiation, you know that bacteria control when genes are expressed and that RNA polymerase must bind a promoter to begin transcription. The **lac operon** is the foundational example of how this regulation works in practice — a system that allows *E. coli* to make lactose-digesting enzymes only when lactose is actually present and glucose is absent.

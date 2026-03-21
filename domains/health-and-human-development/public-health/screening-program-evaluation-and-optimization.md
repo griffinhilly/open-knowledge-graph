@@ -32,6 +32,45 @@ Compare screening programs for different conditions (cancer, diabetes, hypertens
 - Screening always helps; overdiagnosis and overtreatment can harm individuals when disease detected at screening would never have caused symptoms.
 - A test with high sensitivity and specificity is appropriate for screening; positive predictive value (which depends on disease prevalence) is more relevant for populations with low disease prevalence.
 
+## Questions
+
+```yaml
+- question: "A new screening test for pancreatic cancer is introduced. Five years later, researchers report that screen-detected patients have a 3-year survival rate of 45%, compared to 15% for symptom-detected patients. No control group was used. Which bias most likely explains this difference?"
+  type: multiple-choice
+  options:
+    - "Length bias — screening preferentially detects faster-growing tumors with worse prognosis"
+    - "Lead-time bias — earlier diagnosis moves the start date forward without changing the death date, making survival from diagnosis appear longer"
+    - "Selection bias — sicker patients were more likely to seek screening"
+    - "Overdiagnosis — the test detected cancers that were never truly present"
+  answer: 1
+  explanation: "Lead-time bias is the classic trap in screening studies. When screening advances the diagnosis date, the measured interval from diagnosis to death increases even if the patient dies on exactly the same day they would have without screening. The 5-year or 3-year survival from diagnosis looks better — but the patient is simply aware of their cancer for longer, not actually living longer. The correct endpoint for screening trials is disease-specific mortality per 1,000 people over time, not survival from diagnosis."
+
+- question: "A screening test has 99% specificity. A public health official proposes universal screening for a disease with 0.1% prevalence. What is the most important flaw in this reasoning?"
+  type: multiple-choice
+  options:
+    - "A specificity of 99% is below the threshold required for any legitimate screening application"
+    - "At 0.1% prevalence, even 1% false-positive rate generates roughly 10 false positives for every true positive, making the positive predictive value very low"
+    - "Sensitivity, not specificity, is the only relevant test characteristic for screening programs"
+    - "99% specificity means the test correctly identifies 99% of true cases, which is too low for pancreatic cancer"
+  answer: 1
+  explanation: "This is the prevalence-PPV trap. In a population of 10,000 with 0.1% prevalence, there are 10 true cases and 9,990 true negatives. With 99% specificity, about 100 of those 9,990 will test false positive. So you get ~100 false positives per 10 true positives — a PPV of about 9%. Most people with a positive result do not have the disease. High specificity does not protect you when disease prevalence is very low, because the denominator of true negatives is enormous."
+
+- question: "If a new cancer screening test improves 5-year survival rates for screen-detected cases, this constitutes strong evidence that the screening program reduces cancer mortality."
+  type: true-false
+  answer: false
+  explanation: "Improved 5-year survival from diagnosis is mechanically produced by lead-time bias whenever screening advances the diagnosis date — even if the date of death is completely unchanged. The correct evidence for a mortality benefit requires a randomized controlled trial measuring disease-specific mortality rates (deaths per 1,000 people over a defined follow-up period) in screened versus unscreened populations. Survival from diagnosis is not an acceptable surrogate endpoint for screening evaluation."
+
+- question: "Overdiagnosis is a genuine harm of screening programs because it leads to treatment of diseases that would never have caused symptoms or death during the patient's lifetime."
+  type: true-false
+  answer: true
+  explanation: "Overdiagnosis is the extreme end of length bias: the screening test detects indolent disease that would have remained asymptomatic permanently. Treatment of overdiagnosed disease imposes real harms — surgery, radiation, chemotherapy, anxiety, financial costs — for conditions that would never have threatened the patient. Autopsy studies show 30–40% of men harbor microscopic prostate cancers that never became clinically apparent; PSA screening detects many of these, leading to overtreatment."
+
+- question: "Why must randomized trials evaluating screening programs use disease-specific mortality as the outcome measure rather than survival time from diagnosis?"
+  type: short-answer
+  answer: "Survival time from diagnosis is automatically inflated by lead-time bias: when screening advances the date of diagnosis, the interval from diagnosis to death increases even if the patient dies on exactly the same day they would have without screening. This makes any screening intervention look effective in survival analyses, even if it provides no actual mortality benefit. Disease-specific mortality — counting deaths per 1,000 people over a fixed follow-up period — is not affected by when the diagnosis was recorded, so it accurately measures whether screening prevents deaths rather than merely moving the diagnostic clock forward."
+  explanation: "This is why early observational studies of screening consistently overestimated benefit. Randomized trials comparing screened versus unscreened groups and measuring mortality rates over time are the gold standard. Some screening programs (e.g., mammography, colorectal cancer screening) have shown genuine mortality reductions in RCTs; others (e.g., chest X-ray for lung cancer) showed improved survival with no mortality benefit — exactly the lead-time bias pattern."
+```
+
 ## Explainer
 
 You already understand the individual-level test characteristics from your prerequisites — sensitivity, specificity, and predictive values. At the individual level, a highly sensitive test catches most true cases, a highly specific test avoids false alarms, and positive predictive value (PPV) tells you how likely a positive result is to represent real disease. Population-level screening evaluation builds on these concepts but asks a harder question: does offering this test to a defined population actually reduce disease burden, morbidity, or mortality? The answer is surprisingly often "less than expected" — because several systematic biases inflate the apparent benefit of screening.

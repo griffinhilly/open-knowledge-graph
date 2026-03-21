@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Clinical interviews systematically gather information about symptom onset, severity, and functional impact while building therapeutic rapport. Effective assessment balances open-ended exploration with structured inquiry to inform diagnosis and treatment planning.
 
+## Questions
+
+```yaml
+- question: "A clinician conducts an intake interview using only closed-ended yes/no questions. What is the primary limitation of this approach?"
+  type: multiple-choice
+  options:
+    - "It is ethically impermissible under APA guidelines"
+    - "It fails to build rapport and may miss important clinical information the patient would have volunteered spontaneously"
+    - "It produces diagnoses that are less reliable than unstructured interviews"
+    - "It cannot gather information about symptom onset"
+  answer: 1
+  explanation: "Closed-ended questions efficiently verify specific criteria but suppress the richness of the patient's own narrative. Open-ended questions allow patients to organize and volunteer information in ways that reveal context, functional impairment, and concerns the clinician might not have thought to ask about. Exclusive reliance on closed questions also makes patients feel interrogated rather than heard, damaging the therapeutic alliance that effective treatment depends on. Skilled interviewers begin broadly and funnel down with closed questions only after the patient's narrative has guided which domains need closer examination."
+
+- question: "Why does a clinical interview systematically ask about medical history and current medications, even when a patient presents with what appears to be a purely psychological complaint?"
+  type: multiple-choice
+  options:
+    - "To complete billing documentation required by insurance providers"
+    - "Because medical conditions and medications can cause or mimic psychiatric symptoms, which would change the diagnosis and treatment approach entirely"
+    - "Because the DSM-5 mandates it as a legal safeguard against misdiagnosis"
+    - "Primarily to build rapport by demonstrating interest in the whole person"
+  answer: 1
+  explanation: "This is why the interview covers domains beyond the presenting complaint. Many medical conditions — hypothyroidism, Cushing's syndrome, brain tumors, vitamin deficiencies — produce psychiatric-looking symptoms. Medications like corticosteroids, beta-blockers, and some antibiotics can trigger depression or psychosis. If a patient's depressed mood began after starting a corticosteroid, that is a substance/medication-induced mood disorder requiring a completely different treatment approach than major depressive disorder. Closing this diagnostic possibility requires explicitly gathering medical history."
+
+- question: "A fully structured diagnostic interview like the SCID produces more reliable diagnoses than an unstructured interview because different clinicians following the same script will reach the same conclusion."
+  type: true-false
+  answer: true
+  explanation: "Inter-rater reliability is indeed higher for structured instruments. The SCID follows a fixed decision-tree script that systematically queries every DSM criterion, leaving little room for clinician judgment to vary. The tradeoff is flexibility: structured interviews cannot adapt to what the patient brings, may feel mechanical, and can miss clinically important information that doesn't fit the predetermined categories. Semi-structured approaches try to preserve the reliability advantage while allowing the clinician to respond to the person's narrative."
+
+- question: "A patient reports depressed mood throughout the interview but never mentions anhedonia. A skilled clinician should record anhedonia as absent."
+  type: true-false
+  answer: false
+  explanation: "Absence of mention is not evidence of absence. Patients often don't volunteer symptoms because they don't recognize them as relevant, use different language ('nothing feels fun anymore' rather than 'anhedonia'), or are embarrassed. A skilled clinician probes: asking directly 'Have you lost interest in activities you used to enjoy?' may reveal anhedonia the patient simply didn't think to mention. The goal of the interview is a complete clinical picture, not a transcription of what the patient chose to say unprompted."
+
+- question: "Explain why clinical assessment requires attending to what a patient does NOT say, not only what they do say."
+  type: short-answer
+  answer: "Patients organize their narratives around what seems important or relevant to them, which may not match what is clinically significant. They may lack clinical vocabulary, be embarrassed about certain symptoms, or not recognize that a symptom is related to their chief complaint. A clinician who records only what is spontaneously offered will miss symptoms that require targeted prompting. Skilled interviewers note gaps — a patient describing depression who never mentions sleep or concentration difficulties — and actively probe those domains to ensure nothing clinically important is left unexamined."
+  explanation: "This is the practical skill that separates a diagnostic checklist from a clinical interview: the clinician brings diagnostic knowledge to the conversation and uses it to generate follow-up questions that the patient's own narrative would not produce."
+```
+
 ## Explainer
 
 From your study of DSM-5 diagnostic criteria, you have a map of the symptom clusters and thresholds that define each disorder. The clinical interview is the primary instrument for determining whether a given person meets those criteria — but the interview is far more than a checklist. It must simultaneously gather diagnostic information, assess severity and context, understand the person's life history and functional impairment, and begin establishing the relational foundation that makes treatment possible. Learning to do all of this at once is the central practical skill of clinical assessment.

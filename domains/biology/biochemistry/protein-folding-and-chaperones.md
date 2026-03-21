@@ -39,6 +39,45 @@ Study the binding and release cycle of Hsp70 and the symmetrical folding cage of
 - Assuming chaperones push folding in a single direction; they are recycled multiple times per protein, enabling corrective unfolding and refolding.
 - Forgetting that chaperones themselves have specificity; different chaperones recognize different classes of substrates.
 
+## Questions
+
+```yaml
+- question: "A protein refolds spontaneously and correctly when a single purified molecule is diluted from denaturant into buffer. Yet when the same protein is overexpressed in E. coli, it forms insoluble inclusion bodies. What is the most likely explanation?"
+  type: multiple-choice
+  options:
+    - "The cellular environment contains proteases that degrade the protein before it folds correctly"
+    - "The gene encoding the protein acquires mutations during overexpression that prevent proper folding"
+    - "The crowded cytoplasm causes exposed hydrophobic regions to aggregate with neighboring proteins before folding completes"
+    - "Chaperones in the cell actively prevent certain proteins from folding to maintain a pool of unfolded substrate"
+  answer: 2
+  explanation: "This is the core problem that chaperones solve. A single protein in dilute buffer can fold correctly because there are no competing surfaces for its hydrophobic regions to contact. In the crowded cytoplasm (~300–400 mg/mL macromolecules), the same exposed hydrophobic patches are far more likely to stick to adjacent proteins than to fold correctly, producing aggregation into inclusion bodies. The sequence still encodes the correct fold — Anfinsen's hypothesis still holds — but the kinetic competition between folding and aggregation is lost without chaperone assistance."
+
+- question: "What is the primary role of ATP hydrolysis in Hsp70-mediated chaperone activity?"
+  type: multiple-choice
+  options:
+    - "ATP hydrolysis provides energy to force the substrate protein into its native conformation"
+    - "ATP hydrolysis drives conformational changes in Hsp70 that release the bound substrate, giving it a fresh opportunity to fold"
+    - "ATP hydrolysis degrades irreversibly misfolded proteins so they can be resynthesized correctly"
+    - "ATP hydrolysis is required to seal the GroEL/GroES cage around the substrate"
+  answer: 1
+  explanation: "Hsp70 does not know the correct fold and cannot force a protein into it — the sequence information for folding resides in the protein itself. ATP binding triggers a conformational change in Hsp70 that releases the substrate, giving it a window to sample conformational space and potentially fold correctly. If folding fails, Hsp70 can rebind and cycle again. The chaperone's job is prevention of aggregation and enabling repeated folding attempts, not providing folding instructions or energy to force the native structure."
+
+- question: "Molecular chaperones carry the structural information that specifies a protein's native three-dimensional fold."
+  type: true-false
+  answer: false
+  explanation: "This is a fundamental misconception. The amino acid sequence alone encodes all the information needed to reach the native fold — this is Anfinsen's thermodynamic hypothesis, validated by the demonstration that denatured proteins can refold correctly in the absence of chaperones. Chaperones do not instruct folding; they create the conditions (preventing aggregation, providing isolated environment) that allow the protein's own sequence-encoded thermodynamic tendencies to guide it to the correct structure."
+
+- question: "The GroEL/GroES system improves folding efficiency partly by providing an isolated, hydrophilic interior environment where a substrate protein can fold without contact with other cellular components."
+  type: true-false
+  answer: true
+  explanation: "This is the 'Anfinsen cage' concept. GroEL forms a barrel-shaped chamber into which an unfolded protein is admitted, then GroES caps seal it for approximately 10 seconds. During this interval, the protein folds in complete isolation — the crowding problem is eliminated. The chamber interior is hydrophilic, which actively repels the protein's hydrophobic residues inward toward where they belong (the core), further promoting correct burial. ATP hydrolysis drives the release cycle, and proteins that remain misfolded can re-enter for additional rounds."
+
+- question: "Explain why the 'folding energy landscape' model requires molecular chaperones in vivo. What specific problem do chaperones solve, and what do they do mechanistically to address it?"
+  type: short-answer
+  answer: "The folding energy landscape is a funnel where the native state is at the bottom (global free energy minimum), but the path is dotted with kinetic traps — local energy minima where misfolded intermediates get stuck. In a test tube, a protein can eventually escape these traps by thermal fluctuation. In the crowded cell, trapped intermediates instead aggregate before they can find their way out. Chaperones use ATP hydrolysis to bind misfolded proteins and actively pull them out of kinetic traps, then release them to try again — not by changing the shape of the funnel, but by repeatedly giving the protein fresh starts."
+  explanation: "The key distinction is kinetics vs. thermodynamics. The native fold is still the thermodynamic minimum; chaperones don't change the endpoint. They change the path by preventing the kinetic side reaction (aggregation) that would otherwise consume the protein before it reaches the minimum. This explains why chaperone deficiency leads to diseases of protein misfolding — Alzheimer's (amyloid-β), Parkinson's (α-synuclein), prion disease — rather than simply killing cells outright: the thermodynamic information is intact, but without kinetic guidance, misfolded intermediates accumulate."
+```
+
 ## Explainer
 
 From your study of protein denaturation and renaturation, you know that a protein's amino acid sequence contains all the information needed to specify its three-dimensional structure — Anfinsen's thermodynamic hypothesis. In a test tube with a single purified protein, this works: the unfolded chain explores conformational space and finds its native state. But inside a living cell, conditions are radically different. The cytoplasm is extraordinarily crowded — roughly 300–400 mg/mL of macromolecules — and a newly synthesized polypeptide emerging from the ribosome exposes hydrophobic regions that would normally be buried in the folded protein. In this environment, exposed hydrophobic surfaces are far more likely to stick to neighboring proteins than to fold correctly. The result without assistance would be **aggregation** — clumps of misfolded protein that are not only nonfunctional but can be toxic.

@@ -28,6 +28,45 @@ The kernel ker(T) = {v : T(v) = 0} is the null space of the matrix A. The image 
 ## How It's Best Learned
 Compute kernel by solving Ax = 0 (null space). Find image by identifying pivot columns and their span. Relate geometric intuition: kernel is directions that collapse to zero; image is reachable outputs.
 
+## Questions
+
+```yaml
+- question: "A linear transformation T: ℝ⁴ → ℝ³ has a kernel that is a 2-dimensional plane through the origin. What can you conclude about the image of T?"
+  type: multiple-choice
+  options:
+    - "The image is all of ℝ³, since the domain has higher dimension than the codomain"
+    - "The image is a 2-dimensional subspace of ℝ³ (a plane through the origin)"
+    - "The image is a 1-dimensional subspace of ℝ³ (a line through the origin)"
+    - "Nothing can be concluded about the image without computing T explicitly"
+  answer: 1
+  explanation: "By the rank-nullity theorem: dim(ker T) + dim(im T) = dim(domain). With dim(ker T) = 2 and dim(domain) = 4, we get dim(im T) = 4 − 2 = 2. So the image is a 2-dimensional subspace of ℝ³. Option A is wrong — a larger domain does not guarantee surjectivity. The rank-nullity theorem gives us the image dimension directly from the kernel dimension, with no additional computation needed."
+
+- question: "You've found one solution x₀ to the system Ax = b. The kernel of A is most relevant to:"
+  type: multiple-choice
+  options:
+    - "Whether the system has any solution at all"
+    - "How many solutions the system has — once one solution exists, the kernel tells you all others"
+    - "Whether b lies in the column space of A"
+    - "The dimension of the output space of A"
+  answer: 1
+  explanation: "Whether Ax = b has any solution at all depends on whether b lies in the image (column space) of A — that's the image's job. But once you know one solution x₀ exists, every other solution has the form x₀ + v where v is in ker(A). If ker(A) = {0}, the solution is unique. If ker(A) has higher dimension, there are infinitely many solutions. The kernel tells you the 'size' of the solution set once you know one exists."
+
+- question: "The image of a linear transformation T: ℝⁿ → ℝᵐ is a subspace of the codomain ℝᵐ, not a subspace of the domain ℝⁿ."
+  type: true-false
+  answer: true
+  explanation: "Correct. The image is {T(v) : v ∈ ℝⁿ} — the set of all outputs. These outputs live in the codomain ℝᵐ. The kernel, by contrast, is a subspace of the domain ℝⁿ — it consists of inputs that map to zero, so it lives in the domain. Keeping this straight is important: the rank-nullity theorem says dim(ker T) + dim(im T) = n, where n is the domain dimension, because both the kernel (domain subspace) and image dimension (capped by both domain and codomain) are constrained by n."
+
+- question: "If T: ℝⁿ → ℝᵐ is injective (ker T = {0}), then T must map onto all of ℝᵐ (T is also surjective)."
+  type: true-false
+  answer: false
+  explanation: "Injectivity and surjectivity are independent properties unless n = m. T: ℝ² → ℝ³ defined by T(x,y) = (x, y, 0) is injective (ker T = {0}) but not surjective (only the xy-plane is reachable). Injectivity means no two inputs share an output; surjectivity means every output is reachable. By rank-nullity, an injective T: ℝⁿ → ℝᵐ has rank n — so T is also surjective only if n = m."
+
+- question: "The rank-nullity theorem states that dim(ker T) + dim(im T) = dim(domain). Why does this imply a fundamental trade-off between what a transformation 'forgets' and what it 'covers'?"
+  type: short-answer
+  answer: "Because the domain dimension is fixed, increasing the kernel dimension (collapsing more of the domain to zero — 'forgetting' more) must decrease the image dimension (reaching a smaller subspace of the codomain — 'covering' less), and vice versa. A transformation cannot both collapse a large subspace to zero and produce outputs spanning a large subspace — the sum of these two dimensions is constrained to equal the domain dimension."
+  explanation: "This trade-off has a concrete consequence: a transformation from ℝ⁴ to ℝ³ that is surjective (covers all of ℝ³, rank = 3) must have a 1-dimensional kernel — it can't avoid losing some information. Conversely, if the kernel is a plane (rank 2), the image is also a plane — it covers less of the codomain. Understanding this trade-off is essential for reasoning about systems of linear equations, least-squares problems, and the geometry of transformations."
+```
+
 ## Explainer
 
 Every linear transformation T: V → W partitions its input space V into two fundamental subspaces. The **kernel** (also called the null space) is the collection of all vectors that T sends to the zero vector: ker(T) = {v ∈ V : T(v) = 0}. Think of the kernel as the "invisible" part of the domain — everything in it collapses to a single point (the zero vector in W) and leaves no trace in the output. The **image** (also called the column space or range) is the collection of all vectors that T can actually produce: im(T) = {T(v) : v ∈ V}. It answers the question "what outputs are reachable?"

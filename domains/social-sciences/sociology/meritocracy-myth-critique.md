@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 The meritocracy myth claims success derives from individual talent and effort rather than inherited advantage. Educational systems systematically advantage already-privileged groups through cultural capital, social networks, and subtle selection mechanisms. Schools claim to identify merit but actually sort students by class background, perpetuating privilege across generations.
 
+## Questions
+
+```yaml
+- question: "A student from a wealthy family who attended private school scores 1450 on the SAT. A student from a low-income family who attended an underfunded public school scores 1150. The meritocracy framework treats this as evidence of a difference in individual ability. What would a sociological critique argue?"
+  type: multiple-choice
+  options:
+    - "The wealthy student likely cheated or received illegal test preparation assistance"
+    - "SAT scores reflect class-specific preparation, cultural capital, and unequal resource access — what gets misrecognized as individual merit"
+    - "Economic differences between families fully explain the gap without any structural critique being needed"
+    - "The test is biased against wealthy students because it overweights verbal skills that poor students develop through harder circumstances"
+  answer: 1
+  explanation: "The sociological critique does not claim the wealthy student cheated — it claims the game was structured in their favor before they arrived. Cultural capital (knowing how to navigate academic institutions), economic capital (test prep, tutoring, better schools), and social capital (networks with institutional knowledge) all systematically advantage already-privileged students. These advantages get misrecognized as individual talent by the assessment system. Option C is tempting but misses the structural critique: naming economic differences is not the same as explaining why they should be treated as evidence of individual merit."
+
+- question: "What does Bourdieu mean by 'symbolic violence' in the context of educational sorting?"
+  type: multiple-choice
+  options:
+    - "The physical intimidation that working-class students sometimes experience in elite educational environments"
+    - "Institutions impose meanings that disguise the arbitrariness of social hierarchies, so the dominated come to experience their own disadvantage as personal failure"
+    - "Teachers use academic language as a weapon to humiliate students whose home language differs from school language"
+    - "Elite institutions extract and commodify cultural knowledge from working-class communities"
+  answer: 1
+  explanation: "Symbolic violence is Bourdieu's term for domination exercised through categories of perception that are accepted as natural or legitimate by both dominant and dominated groups. In education, it works like this: schools reward class-specific cultural capital as if it were universal academic ability. Students from privileged backgrounds are recognized as 'talented'; students from disadvantaged backgrounds are identified as 'low ability.' Both groups may accept these judgments as reflecting genuine differences rather than arbitrary class advantage — the dominated internalize the social order as a natural order. This is symbolic violence: the dominated participate in their own domination."
+
+- question: "The meritocracy myth is ideologically powerful precisely because it converts structural advantage into apparent personal achievement, making inequality appear self-justifying."
+  type: true-false
+  answer: true
+  explanation: "This is the crucial ideological function Bourdieu and other sociologists identify. In a caste system, inequality requires no justification beyond tradition. In a meritocratic system, inequality is self-legitimating: those at the top deserve to be there (they earned it), those at the bottom deserve to be there (they didn't perform), and the process that sorted them is fair. This makes meritocracy more powerful as an ideology than explicit hereditary privilege — it recruits the participants in the system to validate its outcomes as just."
+
+- question: "Sociologists who critique meritocracy argue that individual talent and effort play no role in educational and occupational outcomes."
+  type: true-false
+  answer: false
+  explanation: "This is a common mischaracterization of the sociological critique. The argument is not that talent and effort are irrelevant — they clearly have some effect on outcomes. The critique is that institutions consistently reward talent and effort more when they arrive pre-packaged in privileged social positions, and that the gap in outcomes is far larger than can be explained by genuine differences in talent and effort alone. Cultural capital, social capital, and economic capital systematically amplify the advantages of already-privileged individuals in competitions that claim to be about individual ability."
+
+- question: "Explain why the meritocracy ideal, despite being genuinely appealing as a principle, can function as an ideological barrier to addressing structural inequality."
+  type: short-answer
+  answer: "When people believe outcomes reflect merit, they attribute inequality to individual failure rather than structural advantage — the poor failed to work hard enough; the rich earned their position. This makes redistributive policy appear unfair (penalizing the talented) and conceals how cultural capital, social networks, and economic resources systematically advantage already-privileged groups in competitions that appear to be about individual ability. The myth's power is that it recruits even disadvantaged people to legitimate the system that disadvantages them."
+  explanation: "This is Bourdieu's point about symbolic violence: the ideological effect of meritocracy is not maintained by direct coercion but by the internalization of social hierarchies as natural hierarchies. When students from disadvantaged backgrounds interpret their lower academic performance as evidence of personal inadequacy rather than structural disadvantage, they participate in their own domination. Understanding the meritocracy myth requires seeing both what the ideal claims and what the reality produces — and why the gap between them is systematically obscured."
+```
+
 ## Explainer
 
 You already understand two key prerequisites: **status attainment processes**, which showed that socioeconomic background strongly predicts educational attainment and occupational outcomes; and **cultural capital**, Bourdieu's concept that families transmit not just money but knowledge, tastes, dispositions, and social connections that are valued by educational institutions. The meritocracy critique is what you get when you combine these insights with a structural question: why does inequality persist generation to generation in societies that officially believe in equal opportunity?

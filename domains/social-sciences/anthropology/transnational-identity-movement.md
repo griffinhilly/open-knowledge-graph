@@ -31,6 +31,45 @@ Study diaspora communities maintaining homeland ties, or examine commodity chain
 - Treating transnational identities as inauthentic or rootless rather than as creative adaptations.
 - Overlooking power asymmetries that shape who can move transnationally and maintain multiple memberships.
 
+## Questions
+
+```yaml
+- question: "A researcher studying a Filipino immigrant community assumes that the first generation will maintain homeland ties, but their children and grandchildren will gradually assimilate and those ties will fade. What assumption does transnational anthropology most directly challenge in this model?"
+  type: multiple-choice
+  options:
+    - "That immigrants face discrimination in host societies"
+    - "That migration is a one-way trajectory ending in full assimilation, rather than a sustained dual engagement with multiple societies"
+    - "That language acquisition is necessary for economic success in the host country"
+    - "That immigrant communities cluster geographically in urban centers"
+  answer: 1
+  explanation: "The classic assimilation model treats migration as a one-way journey with homeland ties as residual features that fade over generations. Transnational anthropology challenged this empirically — researchers like Glick Schiller found migrants maintaining intense, active engagement with both origin and destination societies simultaneously, not as a transitional phase, but as a stable ongoing condition. Children and grandchildren may also maintain transnational connections, not because assimilation failed, but because transnational social fields are actively reproduced."
+
+- question: "Which of the following best captures the concept of a 'transnational social field'?"
+  type: multiple-choice
+  options:
+    - "A geographic region where multiple national cultures intermix, such as a border zone"
+    - "A set of relationships and social positions connecting people across national boundaries that cannot be reduced to either origin or destination country alone"
+    - "A diaspora community that preserves its original culture unchanged in a new country"
+    - "An international organization that coordinates migration policy between governments"
+  answer: 1
+  explanation: "A transnational social field is not a place but a social structure — a network of positions, relationships, and practices that spans national borders. It cannot be analyzed purely from either the sending or receiving country's perspective because the social positions within it exist only in relation to both. This distinguishes transnationalism from simple immigrant experience: the field produces identities and obligations that are genuinely cross-national, not reducible to either context."
+
+- question: "A person who actively maintains their homeland language, sends remittances to family, and participates in origin-country elections while also building a career and social life in the host country is demonstrating a failure to fully adapt to the host society."
+  type: true-false
+  answer: false
+  explanation: "This is a key misconception that transnational anthropology addresses directly. Maintaining homeland ties is not evidence of failed adaptation — it is evidence of successful participation in a transnational social field. These practices are not mutually exclusive with engagement in the host society; many transnational migrants are highly functional in both contexts simultaneously. The 'failure to adapt' framing assumes the assimilation model, which transnational research has shown to be empirically inaccurate for many communities."
+
+- question: "Transnationalism is a uniquely modern phenomenon made possible by digital communication and global transportation infrastructure that did not exist before the 20th century."
+  type: true-false
+  answer: false
+  explanation: "Transnational ties predate modern technology by centuries or millennia. Long-distance merchants maintained identities and obligations across political boundaries on the Silk Road; Jewish diaspora communities sustained cultural continuity across continents for centuries; colonial subjects navigated multiple political allegiances under empire. What is different today is scale, speed, and the formal hardening of national borders — not the basic phenomenon of sustained cross-border identity and social obligation, which is ancient."
+
+- question: "Why do power asymmetries matter in transnational analysis, and how do they shape who can participate in transnational social fields?"
+  type: short-answer
+  answer: "Power asymmetries determine access to transnational life. A wealthy investor with multiple passports can cross borders freely, maintain residences in multiple countries, and participate in transnational networks with few barriers. An undocumented agricultural worker may send remittances and maintain strong homeland ties but cannot cross the border to attend a family funeral without risking permanent exile. Legal status, economic resources, and citizenship shape not just ease of movement but the basic ability to sustain transnational relationships at all."
+  explanation: "Treating transnationalism as equally available to everyone obscures a fundamental dimension of the phenomenon. The same globalized infrastructure that enables easy transnational connection for the privileged creates intensified barriers for the poor and undocumented. Analyzing transnational identity without attending to these power differences produces a romanticized picture that misses who bears the costs and who captures the benefits of a world with porous cultures but highly unequal border regimes."
+```
+
 ## Explainer
 
 From your study of cultural change and innovation, you know that cultures are not static — they transform through contact, borrowing, internal variation, and response to changing conditions. **Transnationalism** extends this framework to the specific dynamics of movement across national borders: it examines how people maintain sustained ties, identities, and practices that span multiple nation-states simultaneously, not just as a transitional phase but as an ongoing condition.

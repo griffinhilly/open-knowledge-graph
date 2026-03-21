@@ -31,6 +31,45 @@ Learn the payoff matrix, then apply it to Cold War arms racing: each superpower 
 ## Common Misconceptions
 The prisoner's dilemma does not make cooperation impossible—repeated interaction, monitoring, and enforcement mechanisms can sustain cooperation even in dilemma situations.
 
+## Questions
+
+```yaml
+- question: "State A believes that State B will cooperate (not build weapons). Given the prisoner's dilemma payoff structure, what should State A do to maximize its payoff?"
+  type: multiple-choice
+  options:
+    - "Cooperate, since mutual cooperation (R) is better than mutual defection (P)"
+    - "Defect, since the temptation payoff (T) for defecting while B cooperates exceeds R"
+    - "Cooperate, since defecting while B cooperates risks retaliation in future rounds"
+    - "Randomize, since neither strategy dominates under uncertainty"
+  answer: 1
+  explanation: "In a one-shot prisoner's dilemma, defection is the dominant strategy — it is optimal regardless of what the other player does. If B cooperates, defecting yields T (best possible). If B defects, defecting yields P rather than S (sucker's payoff). Option A is tempting because R > P, but it misses the key insight: A's choice between cooperate and defect is the same regardless of B's action, and defecting is always better given B's actual choice. The tragedy is that both reasoning this way produces P < R for everyone."
+
+- question: "Which condition most effectively transforms a prisoner's dilemma into a situation where cooperation can be sustained as a stable outcome?"
+  type: multiple-choice
+  options:
+    - "One state being significantly more powerful than the other"
+    - "Both states sharing cultural values that favor cooperation"
+    - "Repeated interaction where defection is detectable and triggers future punishment"
+    - "A one-time side payment that compensates the cooperating party"
+  answer: 2
+  explanation: "Repeated interaction changes the payoff calculus by extending the shadow of the future: defecting today triggers punishment across all future rounds. If the present value of future cooperation (R accruing indefinitely) exceeds the one-time temptation gain (T - R), cooperation becomes rational. Detectability is essential — if defection goes unnoticed, the punishment mechanism fails. Power asymmetry (option A) can coerce compliance but doesn't change the underlying incentive structure. Shared values (option B) help but are insufficient without enforcement. Side payments (option D) realign incentives in a one-shot game but don't address the structural instability of repeated play."
+
+- question: "In a one-shot prisoner's dilemma, mutual cooperation is not a Nash equilibrium because each player has an incentive to deviate unilaterally."
+  type: true-false
+  answer: true
+  explanation: "A Nash equilibrium requires that no player can improve their payoff by changing their strategy alone. At the mutual cooperation outcome, either player can improve by switching to defect (gaining T instead of R, since T > R). So mutual cooperation is not a Nash equilibrium. Mutual defection, by contrast, is the unique Nash equilibrium: if both are defecting, switching to cooperate yields S < P, so neither wants to deviate. The tragedy of the dilemma is precisely that the Nash equilibrium (mutual defection at P) is worse for everyone than the non-equilibrium outcome (mutual cooperation at R)."
+
+- question: "The prisoner's dilemma shows that rational, self-interested states will never cooperate on issues like arms control or climate agreements."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception the topic is designed to correct. The prisoner's dilemma does not make cooperation impossible — it identifies the conditions under which cooperation is difficult. Repeated interaction (the 'shadow of the future'), monitoring institutions, and enforcement mechanisms can restructure the dilemma so that cooperation is individually rational. International institutions like arms control treaties, the WTO, and emissions verification bodies are precisely mechanisms designed to convert one-shot dilemmas into iterated games where defection is costly and cooperation sustainable."
+
+- question: "Why is defection a dominant strategy in a one-shot prisoner's dilemma, even when both players know that mutual cooperation would produce better outcomes for everyone?"
+  type: short-answer
+  answer: "Defection is dominant because it produces a higher payoff than cooperation regardless of the other player's choice. If the other player cooperates, defecting yields T (the best possible outcome) instead of R. If the other player defects, defecting yields P instead of S (the worst outcome). Since T > R and P > S, defecting is the better choice in both cases. Knowing that mutual cooperation would be better doesn't change this — each player is choosing in the absence of a binding commitment from the other, so they must reason about both possibilities. The result is a stable but inefficient equilibrium."
+  explanation: "The dilemma arises from the combination of two features: (1) defection strictly dominates cooperation for each individual, and (2) universal defection is worse for everyone than universal cooperation. These features can coexist because each player's best response doesn't depend on coordinating with others. Without a mechanism to make commitments binding — or without the threat of future punishment — each player's logic drives them toward the collectively harmful outcome."
+```
+
 ## Explainer
 
 If you have studied coordination games through multilateralism, you know that international cooperation often fails not because states disagree about what outcome they want but because they lack mechanisms to coordinate and commit. The **prisoner's dilemma** describes a harder problem: even when all parties agree that mutual cooperation is better than mutual defection, each individual actor has a private incentive to defect, and this individual rationality leads to a collectively worse outcome. The game gets its name from a setup where two arrested suspects, interrogated separately, each do better by confessing (defecting) regardless of what the other does — yet both confessing produces a worse outcome for both than both staying silent.

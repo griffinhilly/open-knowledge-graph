@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Key transient response metrics: rise time (initial speed), peak time, overshoot (maximum deviation), settling time (2% band arrival). Steady-state error measures tracking accuracy. These specifications must be balanced against bandwidth and robustness. The design problem is choosing controller parameters to satisfy all specifications simultaneously.
 
+## Questions
+
+```yaml
+- question: "A control engineer increases loop gain to reduce rise time from 0.8s to 0.2s. What is the most predictable consequence on the other transient specifications?"
+  type: multiple-choice
+  options:
+    - "Settling time decreases proportionally — all transient specs improve together with higher gain"
+    - "Percent overshoot increases significantly because higher gain drives the system toward underdamped behavior"
+    - "Steady-state error increases because higher gain reduces tracking accuracy"
+    - "Peak time is unaffected because it depends only on natural frequency, not damping"
+  answer: 1
+  explanation: "Rise time and overshoot trade off fundamentally: achieving faster rise requires higher bandwidth and loop gain, which shifts closed-loop poles toward lower damping ratios. For a second-order system, %OS = exp(−πζ/√(1−ζ²)) × 100, and reducing ζ causes exponential growth in overshoot. Higher gain buys faster initial response at the direct cost of the system overshooting the target more aggressively before settling."
+
+- question: "A designer specifies zero percent overshoot for a position control system. Which performance metric is most directly compromised compared to allowing 5% overshoot?"
+  type: multiple-choice
+  options:
+    - "Steady-state error — zero overshoot requires lower gain, increasing steady-state error"
+    - "Rise time and settling time — zero overshoot requires overdamped behavior, which approaches the target sluggishly"
+    - "Bandwidth — overdamped systems have higher bandwidth than underdamped ones"
+    - "Peak time — with zero overshoot there is no peak, so the system is intrinsically faster overall"
+  answer: 1
+  explanation: "Enforcing zero overshoot means requiring an overdamped or critically damped system. An overdamped response approaches its final value slowly without the brief 'sprint' of an underdamped response. Both rise time and settling time increase compared to a slightly underdamped design. Counterintuitively, minimum settling time often occurs near ζ ≈ 0.7 (slightly underdamped), not at maximum damping. Requiring zero overshoot strictly sacrifices settling speed."
+
+- question: "The minimum possible settling time for a feedback system is achieved by making the system as overdamped as possible, since overdamped systems never overshoot and therefore never need to recover."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about overshoot and settling time. An overdamped system never exceeds the target, but it creeps toward the final value so slowly that it enters the ±2% settling band much later than a critically or slightly underdamped system. A system with ζ ≈ 0.7 typically settles fastest in total time, even though it briefly overshoots, because the fast initial approach outweighs the small recovery cost. Maximizing damping optimizes for zero overshoot, not minimum settling time — these are different objectives."
+
+- question: "A system with zero steady-state error and excellent transient specs (fast rise, low overshoot) can still be considered a poor design if its closed-loop bandwidth is very high."
+  type: true-false
+  answer: true
+  explanation: "High bandwidth means the system responds aggressively to rapidly changing inputs — including sensor noise and high-frequency disturbances always present in real hardware. A high-bandwidth controller amplifies noise into the control signal, potentially causing actuator saturation, mechanical wear, or instability when unmodeled high-frequency dynamics are present. Robustness against noise and model uncertainty is a constraint that must be balanced against transient and steady-state specifications."
+
+- question: "Explain why reducing overshoot and reducing rise time are fundamentally in conflict in a feedback control system, using the relationship between damping ratio and closed-loop response."
+  type: short-answer
+  answer: "Both rise time and overshoot are primarily determined by the closed-loop damping ratio ζ. Fast rise time requires high bandwidth and loop gain, pulling closed-loop poles toward lower damping (ζ decreases). A low ζ means the system overshoots significantly before oscillating back to the final value. Conversely, high ζ (overdamped) prevents overshoot but slows the initial response, increasing rise time. The two specs impose opposing requirements on ζ: reducing overshoot wants ζ large, reducing rise time wants ζ small. No controller can simultaneously minimize both within standard second-order dynamics."
+  explanation: "This tradeoff reflects physical reality: any system with inertia or storage elements will 'coast past' its target if pushed hard enough. Fast response and smooth approach are competing goals whenever dynamics create momentum. Control design is a negotiation among competing specs, choosing ζ based on the application's priorities rather than optimizing all specs simultaneously."
+```
+
 ## Explainer
 
 When you design a feedback controller, you need a language to describe what "good" performance means. From your study of steady-state error and system types, you know one dimension: accuracy at rest. But a system could achieve perfect steady-state accuracy while oscillating violently on the way there, or while taking ten seconds to settle after a step command. **Response specifications** give you the vocabulary to describe the complete time-domain behavior — both the transient journey and the final destination — so that design requirements can be stated precisely and verified objectively against test data.

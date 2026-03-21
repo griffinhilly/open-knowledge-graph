@@ -33,6 +33,45 @@ Compare digestion rates of simple sugars, disaccharides, and complex carbohydrat
 ## Common Misconceptions
 - Starch is instantly converted to glucose; in fact, enzymatic digestion takes 1–2 hours. - All monosaccharides are absorbed equally fast; fructose and galactose use different transporters and are absorbed more slowly than glucose.
 
+## Questions
+
+```yaml
+- question: "After food is swallowed, salivary amylase stops digesting starch. What is the primary reason?"
+  type: multiple-choice
+  options:
+    - "Salivary amylase is physically washed away by stomach secretions"
+    - "Salivary amylase is denatured and inactivated by the low pH of stomach acid"
+    - "The stomach secretes inhibitors that block salivary amylase activity"
+    - "Starch digestion is complete by the time food reaches the stomach"
+  answer: 1
+  explanation: "Salivary amylase has an optimal pH around 6–7. The stomach's highly acidic environment (pH 1–3) denatures the enzyme, terminating its activity. This is why the stomach is not a major site of carbohydrate digestion. Option D is wrong: starch is not fully digested in the mouth — most remains as oligosaccharides and dextrins when swallowed."
+
+- question: "A person consumes a very large amount of fructose. Some fructose reaches the colon and is fermented by bacteria, causing gas and bloating. What is the most direct biochemical explanation?"
+  type: multiple-choice
+  options:
+    - "The small intestine lacks sufficient brush-border enzymes to cleave fructose from sucrose"
+    - "Fructose absorption via GLUT5 is passive facilitated diffusion and can be saturated by high concentrations"
+    - "Excess fructose inhibits SGLT1, reducing glucose absorption and leaving fructose unabsorbed"
+    - "The pancreas cannot produce enough amylase to digest fructose-containing polysaccharides"
+  answer: 1
+  explanation: "Fructose is a monosaccharide — no brush-border enzyme is needed. The bottleneck is the GLUT5 transporter, which is a facilitated diffusion transporter with a fixed capacity. At high lumen concentrations, GLUT5 saturates and cannot transport all available fructose, leaving the remainder to pass to the colon. Options A and D are wrong because fructose is already a monosaccharide requiring no enzymatic digestion."
+
+- question: "Lactase deficiency causes gastrointestinal symptoms not because lactose itself is toxic, but because undigested lactose reaches the colon and is fermented by bacteria."
+  type: true-false
+  answer: true
+  explanation: "Without functional lactase, intact lactose passes through the small intestine unabsorbed and enters the colon, where resident bacteria ferment it, producing gas (hydrogen, methane) and short-chain fatty acids. The osmotic effect of unabsorbed lactose also draws water into the lumen, causing diarrhea. This accurately describes the mechanism of lactose intolerance."
+
+- question: "Glucose and fructose are both monosaccharides, so they are absorbed from the intestinal lumen by the same transporter."
+  type: true-false
+  answer: false
+  explanation: "Glucose (and galactose) are absorbed by SGLT1, a sodium-linked active transporter that moves glucose against a concentration gradient. Fructose uses GLUT5, a passive facilitated diffusion transporter. This mechanistic difference makes glucose absorption faster and more efficient, while fructose absorption is slower, concentration-dependent, and can be overwhelmed by large loads. All three monosaccharides then exit the enterocyte via GLUT2."
+
+- question: "Why does glucose absorption remain efficient even when blood glucose levels are already high, while fructose absorption slows down when large amounts are consumed at once?"
+  type: short-answer
+  answer: "Glucose absorption via SGLT1 is active transport coupled to sodium's electrochemical gradient, maintained by the Na/K-ATPase pump. SGLT1 can move glucose from the intestinal lumen into the cell even against a concentration gradient — it does not depend on a lumen-to-blood concentration difference. Fructose enters via GLUT5 through facilitated diffusion, which requires fructose to be more concentrated in the lumen than in the cell. When large amounts of fructose flood the lumen simultaneously, GLUT5 becomes saturated — it has a finite number of transporter molecules — and the surplus remains in the lumen."
+  explanation: "The key distinction is active versus passive transport. Active transporters can work against gradients and are not limited by ambient concentration differences; passive transporters cannot, and they saturate. This is why SGLT1 ensures efficient glucose absorption under varying conditions, while GLUT5 creates a ceiling on fructose absorption capacity per unit time."
+```
+
 ## Explainer
 
 From your study of carbohydrate structure and function, you know that dietary carbohydrates range from simple monosaccharides (glucose, fructose, galactose) through disaccharides (sucrose, lactose, maltose) to complex polysaccharides (starch, glycogen, fiber). From your work on nutrient digestion and absorption, you know that large molecules must be broken down to absorbable units before the intestinal epithelium can take them up. Carbohydrate digestion is the process that bridges these two facts: it is a sequential enzymatic disassembly that converts complex carbohydrates down to individual monosaccharides.

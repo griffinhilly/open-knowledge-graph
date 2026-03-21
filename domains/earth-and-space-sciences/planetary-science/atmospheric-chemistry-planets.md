@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Planetary atmospheric chemistry includes photodissociation driven by stellar UV radiation, chemical equilibrium reactions, and disequilibrium processes maintained by biogenic or geological sources. Reducing atmospheres (early Earth, Titan) support different chemistry than oxidizing atmospheres (modern Earth, Venus).
 
+## Questions
+
+```yaml
+- question: "A spectroscopic survey of an exoplanet detects simultaneous large abundances of both O₂ and CH₄ in its atmosphere. Why would this combination be considered a significant potential biosignature?"
+  type: multiple-choice
+  options:
+    - "O₂ and CH₄ are both rare in planetary atmospheres, so their coexistence is statistically unusual"
+    - "O₂ and CH₄ react with each other and are mutually destroyed on timescales of thousands of years, so their coexistence implies something continuously replenishes both"
+    - "O₂ is a product of photodissociation and CH₄ is a product of volcanism, so their coexistence confirms both stellar and geological activity"
+    - "High concentrations of both gases indicate a dense, massive atmosphere capable of supporting complex chemistry"
+  answer: 1
+  explanation: "O₂ and CH₄ should not coexist in equilibrium — they react with each other and would be mutually destroyed on geologically short timescales. Their simultaneous presence on Earth is maintained only because photosynthesis continuously produces O₂ and methanogenic archaea continuously produce CH₄. A planetary atmosphere simultaneously containing both implies active sources replenishing both gases faster than reactions destroy them. This persistent chemical disequilibrium is the biosignature — pure photochemistry and geology alone cannot sustain this specific combination."
+
+- question: "UV radiation drives different photodissociation products on Earth versus Titan. Why does UV photodissociation of CH₄ on Titan produce organic haze rather than an ozone layer as on Earth?"
+  type: multiple-choice
+  options:
+    - "Titan receives less UV radiation than Earth, so only the weakest bonds in CH₄ break"
+    - "Titan's atmosphere contains CH₄ and N₂ rather than O₂, so photodissociation products undergo different reactions — organic synthesis rather than ozone formation"
+    - "Titan's low gravity allows dissociation products to escape into space before they can react"
+    - "CH₄ absorbs UV more strongly than O₂, preventing UV from penetrating deep enough for ozone chemistry"
+  answer: 1
+  explanation: "Photodissociation products depend entirely on which molecules are available to react. On Earth, UV splits O₂ to produce oxygen atoms that combine with O₂ to form O₃ (ozone). On Titan, there is no free O₂ — the atmosphere is mostly N₂ with traces of CH₄. UV splits CH₄ and N₂ into reactive fragments (carbon radicals, hydrogen, nitrogen-carbon compounds) that combine into complex organics — acetylene, HCN, ethane — which eventually polymerize into the orange haze. Same energy input, completely different chemistry, determined by available molecular feedstocks."
+
+- question: "Earth's present atmosphere is in a state of chemical disequilibrium — it simultaneously contains gases that should react with each other and be mutually destroyed."
+  type: true-false
+  answer: true
+  explanation: "Earth's atmosphere contains both O₂ (~21%) and CH₄ (trace), which react with each other and would destroy both within thousands of years if not continuously replenished. This disequilibrium is maintained by photosynthesis (O₂) and methanogenic biology (CH₄). An atmosphere in true chemical equilibrium would have reactive gases run to completion. The persistence of chemically incompatible gases is itself evidence of active biological processes — the key insight behind disequilibrium biosignatures."
+
+- question: "A 'reducing atmosphere' is characterized by high concentrations of free molecular oxygen (O₂), which accepts electrons from other molecules."
+  type: true-false
+  answer: false
+  explanation: "This reverses the definition. A reducing atmosphere is rich in hydrogen-bearing, electron-donating molecules (H₂, CH₄, NH₃) and lacks free O₂. An oxidizing atmosphere contains abundant free O₂ or other oxidants. Early Earth had a mildly reducing atmosphere dominated by N₂ and CO₂ with traces of CH₄ — no free O₂. The Great Oxidation Event ~2.4 billion years ago transformed Earth's atmosphere as photosynthetic organisms flooded it with O₂."
+
+- question: "What distinguishes a 'disequilibrium biosignature' from ordinary atmospheric chemistry, and why must scientists understand abiotic atmospheric chemistry before interpreting disequilibrium as evidence of life?"
+  type: short-answer
+  answer: "A disequilibrium biosignature is a combination of atmospheric gases that cannot coexist at observed concentrations through equilibrium chemistry, photodissociation, and geological processes alone — their coexistence requires an active source (potentially biological) continuously replenishing them. Scientists must first understand abiotic atmospheric chemistry because some disequilibria can be produced by purely geological or photochemical processes. Only after ruling out abiotic explanations does disequilibrium become strong evidence for life."
+  explanation: "If O₂ is detected on an exoplanet, we need to know whether abiotic processes (e.g., photodissociation of CO₂ on a hydrogen-poor world, or water photolysis) could account for it before concluding we've found life. False positives — abiotic O₂ — are possible, and thorough knowledge of abiotic chemistry is required to distinguish the two cases. The standard for a biosignature is not merely 'unusual' but 'unexplainable without active biology.'"
+```
+
 ## Explainer
 
 From your study of atmospheric circulation, you know how winds and pressure gradients move gases around a planet. Atmospheric chemistry asks a different question: what happens to those gases once they are there? Every planetary atmosphere is a reactor — stellar radiation pours energy in from above, surfaces and interiors inject new gases from below, and the molecules in between undergo a continuous web of chemical reactions that determine what the atmosphere is made of, how it behaves, and what it can tell us about the planet.

@@ -36,6 +36,45 @@ Calculate Macaulay duration as a weighted average of cash flow timings and compa
 - Duration is not simply maturity — for coupon bonds, duration is always less than maturity because interim coupons arrive early.
 - For large yield changes, ignoring convexity causes significant error; duration alone systematically underestimates gains and overestimates losses.
 
+## Questions
+
+```yaml
+- question: "Two bonds have the same modified duration of 8 years, but Bond A has much higher convexity than Bond B. Interest rates fall by 3 percentage points. Which statement correctly describes the outcome?"
+  type: multiple-choice
+  options:
+    - "Both bonds gain the same amount — duration determines price sensitivity and they have equal duration"
+    - "Bond A gains more than Bond B — higher convexity means larger price increases for the same rate decline"
+    - "Bond B gains more — higher convexity bonds trade at a premium and thus have lower starting prices to rise from"
+    - "The outcome depends on the bonds' maturities, not their convexity"
+  answer: 1
+  explanation: "Duration gives only the first-order (linear) approximation of price change. For a large yield move like 3 percentage points, the second-order convexity term matters significantly. Higher convexity means the price-yield curve bows more favorably toward the investor: the actual price gain from falling rates exceeds the duration prediction, and by more for higher-convexity bonds. Bond A, with higher convexity, will gain more than Bond B from the same rate decline, even though both have the same duration. This asymmetric benefit — gaining more from rate decreases than losing from equivalent increases — is exactly why investors pay a premium for convexity."
+
+- question: "A 10-year bond pays semi-annual coupons. What is its Macaulay duration relative to its 10-year maturity?"
+  type: multiple-choice
+  options:
+    - "Exactly 10 years — maturity and duration are the same for all bonds"
+    - "Greater than 10 years — coupons extend the effective life of the investment beyond maturity"
+    - "Less than 10 years — early coupon payments reduce the weighted-average time to receive cash flows"
+    - "It cannot be determined without knowing the specific coupon rate"
+  answer: 2
+  explanation: "Macaulay duration is the present-value-weighted average time to receive all cash flows. A coupon bond pays cash flows before maturity (the semi-annual coupons), and those early payments receive positive weight in the average. Since some present value arrives earlier than maturity, the weighted average time must be *less than* maturity. Only a zero-coupon bond, where all cash flow arrives exactly at maturity, has duration equal to maturity. The higher the coupon rate (and the lower the yield), the more weight the early coupons receive and the further duration falls below maturity. Duration ≠ maturity is one of the most important corrections in fixed income."
+
+- question: "A bond with higher convexity will gain more in price from a rate decrease than it will lose from an equal rate increase."
+  type: true-false
+  answer: true
+  explanation: "This asymmetry is the defining property of convexity and the reason it is universally valued. The price-yield relationship curves toward the investor (convex from below): as yields fall, price rises faster than the duration prediction; as yields rise, price falls more slowly than the duration prediction. For equal up and down yield moves, the gain is larger than the loss. This means convexity provides a 'free lunch' in terms of asymmetric price performance — higher convexity is always preferable, all else equal, and investors bid up prices of high-convexity bonds accordingly."
+
+- question: "A bond's modified duration equals its time to maturity."
+  type: true-false
+  answer: false
+  explanation: "Modified duration equals maturity only for zero-coupon bonds, which pay no interim cash flows — all value arrives at maturity, so the weighted average time to receive cash flows is exactly the maturity date. For coupon-paying bonds, Macaulay duration is always less than maturity because early coupon payments pull the weighted average forward in time. Modified duration (= Macaulay duration divided by (1 + y/m)) is then also less than maturity. This is a persistent misconception: students often use maturity as a proxy for interest rate sensitivity, which overestimates the risk of coupon bonds."
+
+- question: "Why is convexity described as a 'favorable' property, and what does it imply about the symmetry of price changes around a yield shift?"
+  type: short-answer
+  answer: "Convexity is favorable because it creates an asymmetry that benefits the investor: for a given change in yield, the price gain from a rate decrease exceeds the price loss from an equal rate increase. This happens because the true price-yield relationship is a curve that bows toward the investor, not a straight line. Duration (the linear approximation) predicts symmetrical gains and losses for equal rate moves; convexity corrects this by accounting for the curve's favorable bend. A bond with high convexity 'runs away' from you when rates rise (loses less than predicted) and 'races toward' you when rates fall (gains more than predicted). Investors pay for this asymmetric benefit by accepting lower yields on high-convexity bonds."
+  explanation: "The full Taylor expansion approximation is ΔP/P ≈ −D_mod × Δy + (1/2) × Convexity × (Δy)². The convexity term always adds a positive contribution regardless of the sign of Δy, because (Δy)² is always positive. This is why convexity always helps: it increases price gains when rates fall and reduces price losses when rates rise. For small yield moves, this effect is negligible; for large moves (like 3%), it is the dominant source of estimation error if ignored."
+```
+
 ## Explainer
 
 You already know that a bond's price is the present value of its cash flows discounted at the yield to maturity, and that price and yield move in opposite directions. But knowing the direction of that relationship is not enough for risk management — you need to quantify it. **Duration** is the tool that answers the question: if yields rise by one percentage point, how much does this bond's price fall?

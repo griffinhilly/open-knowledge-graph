@@ -38,6 +38,45 @@ Model two scenarios over 35 years: one contributing only to a taxable brokerage,
 - You should wait until your income is higher to start contributing to retirement accounts; the compounding benefit of starting at 22 versus 32 vastly outweighs any incremental contribution amount.
 - The 401(k) investment options determine your strategy; the account type only provides the tax wrapper — asset allocation within the account is a separate, equally important decision.
 
+## Questions
+
+```yaml
+- question: "You earn $60,000/year. Your employer matches 50 cents per dollar contributed, up to 6% of salary. You currently contribute 3% and are deciding whether to increase contributions or pay down a credit card at 8% APR. What should you do first?"
+  type: multiple-choice
+  options:
+    - "Pay off the credit card — 8% guaranteed return beats any uncertain investment"
+    - "Increase 401(k) contributions to 6% to capture the full employer match, then address the credit card"
+    - "Keep contributing 3% — the reduced take-home pay isn't worth the additional match"
+    - "Stop 401(k) contributions entirely until all high-interest debt is eliminated"
+  answer: 1
+  explanation: "The employer match on contributions from 3% to 6% is an immediate 50% return on those dollars — far exceeding the 8% credit card savings. Contributing an additional $1,800/year earns $900 in employer match instantly, a 50% guaranteed return before any investment growth. The 8% credit card rate is real and should be addressed, but only after capturing a return that is more than 6× larger. Options A and D represent the common error of letting debt-aversion override the dominant math of employer matching."
+
+- question: "A 35-year-old earns $85,000/year and expects to retire at 70 in a similarly high tax bracket. Which account type is generally more advantageous?"
+  type: multiple-choice
+  options:
+    - "Traditional 401(k) — pre-tax contributions always reduce lifetime taxes because the contribution is never taxed"
+    - "Roth 401(k) — paying taxes now locks in today's rate, and tax-free growth is valuable over 35 years when retirement bracket is similar"
+    - "Neither — tax-advantaged accounts offer no real benefit once income exceeds $85,000"
+    - "Traditional 401(k) — higher earners should always use pre-tax accounts regardless of expected retirement income"
+  answer: 1
+  explanation: "The traditional vs. Roth decision hinges on current vs. retirement tax bracket. If you expect a similar or higher bracket in retirement, Roth is advantageous: pay tax now at the known rate, then withdraw tax-free. Traditional is better when you expect a lower retirement bracket (defer taxes to a cheaper time). Option A is wrong — pre-tax contributions don't avoid tax, they defer it. Option D is a common but incorrect rule of thumb that ignores the bracket comparison."
+
+- question: "Roth IRA accounts require account holders to begin taking Required Minimum Distributions (RMDs) at age 73."
+  type: true-false
+  answer: false
+  explanation: "Traditional IRAs and 401(k)s require RMDs starting at age 73 — the IRS forces withdrawals to collect deferred taxes. Roth IRAs have no RMDs during the account holder's lifetime. Assets can compound indefinitely until you choose to withdraw, which is one of Roth's key advantages: it avoids forced distributions, preserves flexibility, and makes Roth accounts especially valuable for estate planning or for those who don't need the retirement income."
+
+- question: "The primary difference between Roth and Traditional retirement accounts is that they invest in fundamentally different types of assets."
+  type: true-false
+  answer: false
+  explanation: "Both account types can hold the same underlying investments — index funds, stocks, bonds, ETFs. The difference is entirely about when taxes are paid: Traditional accounts use pre-tax dollars (contribution reduces taxable income now; withdrawals taxed as ordinary income later), while Roth accounts use post-tax dollars (no deduction now; growth and qualified withdrawals are completely tax-free). The account type is a tax wrapper, not an investment category."
+
+- question: "Why is capturing the full employer 401(k) match almost always the first savings priority, even ahead of paying down moderate-rate debt?"
+  type: short-answer
+  answer: "Employer matching is an immediate, guaranteed return — typically 50–100% on contributed dollars — that no investment and no debt payoff can reliably beat. Contributing enough to get the full match earns an instant 50% return (at a common matching rate) before any market growth, locked in the moment you contribute. Skipping even one year of full match is permanently lost money; unlike investments, unmatched contribution opportunities don't roll over. Only debt with interest rates competitive with a 50–100% guaranteed return — essentially no realistic consumer debt — would justify delaying the full match."
+  explanation: "The standard prioritization rule (capture match → max Roth IRA → return to 401(k)) reflects this math. The compounding effect of the match over 30+ years is even more significant. A $3,000 annual match left uncaptured for 30 years at 7% real returns represents roughly $285,000 in lost retirement wealth. The match is the closest thing to free money in personal finance."
+```
+
 ## Explainer
 
 You already understand index fund investing and how compound growth works over time. Retirement accounts don't change the underlying investments — they wrap those same index funds in a **tax-advantaged account structure** that dramatically changes how much of the return you actually keep. The core question is simple: when do you pay taxes on this money? Pay now (Roth) or pay later (traditional/pre-tax)? The answer depends on whether your tax rate is higher today or higher when you withdraw in retirement.

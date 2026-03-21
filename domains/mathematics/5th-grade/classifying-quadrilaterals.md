@@ -30,6 +30,45 @@ Use property cards (has right angles, has parallel sides, has equal sides) and s
 - Not recognizing that a shape can belong to multiple categories simultaneously.
 - Thinking trapezoids must be isosceles (have equal non-parallel sides).
 
+## Questions
+
+```yaml
+- question: "A student says: 'A square is not a rectangle because rectangles don't have to have equal sides, and squares do — so they're different shapes.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — the student is correct that squares and rectangles are distinct, non-overlapping categories"
+    - "The student has the properties backward — rectangles have equal sides and squares have right angles"
+    - "The student confuses 'different' with 'not included in.' A square satisfies every property a rectangle requires (four right angles, two pairs of parallel sides), plus has the bonus of equal sides — so it is always a rectangle"
+    - "The statement is partially correct — a square is not a rectangle unless it is also a rhombus"
+  answer: 2
+  explanation: "Rectangle is defined by its required properties: four right angles and two pairs of parallel sides. A square has four right angles and two pairs of parallel sides — it satisfies every requirement for being a rectangle. Having additional properties (equal sides) doesn't disqualify it. The relationship is logical inclusion: square ⊂ rectangle. Saying 'a square isn't a rectangle because it has extra properties' is like saying a golden retriever isn't a dog because it has a specific coat. The category contains everything meeting the criteria, and squares qualify completely."
+
+- question: "Which of the following is ALWAYS true, regardless of any additional properties a shape may have?"
+  type: multiple-choice
+  options:
+    - "A rectangle is a square"
+    - "A parallelogram is a rectangle"
+    - "A square is a rectangle"
+    - "A rhombus is a rectangle"
+  answer: 2
+  explanation: "A square is always a rectangle, by definition. Every square has four right angles and two pairs of parallel sides — exactly the properties that define a rectangle. A rectangle is only sometimes a square (when all four sides happen to be equal). A parallelogram is only sometimes a rectangle (when all four angles are right angles). A rhombus is only sometimes a rectangle (when it is also a square). 'Always, sometimes, never' questions test whether you understand logical inclusion vs. conditional membership."
+
+- question: "A shape can only belong to one quadrilateral category at a time — a square is a square, not also a rectangle or a rhombus."
+  type: true-false
+  answer: false
+  explanation: "Shapes can and do belong to multiple categories simultaneously. A square is a quadrilateral, a parallelogram, a rectangle, and a rhombus — all at once. It satisfies every property each of those categories requires. The hierarchy is: square ⊂ rectangle ⊂ parallelogram ⊂ quadrilateral, and also square ⊂ rhombus ⊂ parallelogram ⊂ quadrilateral. Category membership is about satisfying property requirements, not about being a 'pure' member of a single group."
+
+- question: "Every rectangle is also a parallelogram, because rectangles have two pairs of parallel sides."
+  type: true-false
+  answer: true
+  explanation: "Yes — this is a direct consequence of the property hierarchy. A parallelogram is defined as having two pairs of parallel sides. A rectangle is defined as a parallelogram with four right angles — the parallelogram properties (two pairs of parallel sides, opposite sides equal, opposite angles equal) are inherited. Every rectangle automatically satisfies everything needed to be a parallelogram. The rectangle adds constraints on top; it does not lose the parallelogram properties."
+
+- question: "A student says 'rectangles and squares are different shapes.' What is wrong with this statement, and how does the hierarchy of quadrilateral properties explain the correct relationship?"
+  type: short-answer
+  answer: "The statement conflates 'different in appearance' with 'different categories.' A square is a special case of rectangle — one where all four sides are equal. The rectangle category is defined by having four right angles and two pairs of parallel sides. A square satisfies both requirements, so it belongs to the rectangle category. The hierarchy shows that properties accumulate: square ⊂ rectangle ⊂ parallelogram ⊂ quadrilateral. A square doesn't leave the rectangle category by having extra properties; it is the most constrained member of it."
+  explanation: "This is the key conceptual shift in quadrilateral classification: moving from 'different shapes look different' to 'categories are defined by properties, and shapes can satisfy multiple category definitions simultaneously.' A square is a rectangle the way a square meal is still a meal — the extra properties don't cancel membership, they add to it. Understanding this logical inclusion structure is what allows 'always, sometimes, never' questions to be answered correctly."
+```
+
 ## Explainer
 
 You already know how to classify 2D shapes by their basic properties, and you can identify parallel and perpendicular lines. Quadrilateral classification takes those two skills and builds a logical system from them — one where the categories nest inside each other like Russian dolls. The key insight is that quadrilaterals are not just different shapes side by side; they form a **hierarchy** based on which properties each shape has.

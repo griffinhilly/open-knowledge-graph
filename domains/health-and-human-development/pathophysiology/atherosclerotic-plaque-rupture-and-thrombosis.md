@@ -31,6 +31,45 @@ Compare plaque morphology in stable angina (thick fibrotic cap, small lipid core
 ## Common Misconceptions
 Atherosclerosis severity does not directly predict acute events; moderate plaques often rupture while severe concentric stenosis may be hemodynamically limiting but stable. Thrombotic occlusion in acute MI is not always complete; some restore flow (spontaneous thrombolysis) or collateral supply maintains viability.
 
+## Questions
+
+```yaml
+- question: "A patient has two coronary lesions: one causing 70% stenosis (producing stable angina on exertion) and one causing 40% stenosis (asymptomatic, found incidentally). Six months later the patient presents with acute MI. Which lesion is most likely responsible?"
+  type: multiple-choice
+  options:
+    - "The 70% stenosis, because it was already symptomatic and therefore more clinically dangerous."
+    - "The 70% stenosis, because greater luminal obstruction always indicates higher rupture risk."
+    - "The 40% stenosis, because moderate plaques are more likely to have thin fibrous caps and vulnerable morphology."
+    - "The 40% stenosis, because asymptomatic plaques always rupture before symptomatic ones."
+  answer: 2
+  explanation: "This is the key counterintuitive insight: stenosis severity does not predict rupture risk. The 70% plaque is stable — thick fibrous cap, small lipid core. The 40% plaque may be vulnerable — thin cap, large lipid-rich core, abundant macrophages secreting MMPs that degrade the cap. Angiography reveals obstruction but cannot detect cap thickness or inflammatory activity. Moderate stenotic vulnerable plaques cause most acute MIs precisely because they are numerous and invisible on angiography."
+
+- question: "The primary mechanism by which macrophages in a vulnerable plaque weaken the fibrous cap is:"
+  type: multiple-choice
+  options:
+    - "Directly phagocytosing collagen fibers within the fibrous cap."
+    - "Secreting matrix metalloproteinases (MMPs) that degrade the collagen framework giving the cap tensile strength."
+    - "Triggering apoptosis of the smooth muscle cells that synthesize and maintain the cap."
+    - "Stimulating intraplaque angiogenesis leading to hemorrhage that tears the cap."
+  answer: 1
+  explanation: "Activated macrophages in the cap's shoulder regions secrete collagenases and gelatinases (MMPs) that break down the fibrillar collagen that gives the cap its mechanical strength. When degradation outpaces smooth muscle cell collagen synthesis, the cap thins below the 65 µm threshold associated with high rupture risk. The other options describe real phenomena (foam cell accumulation, SMC loss, plaque hemorrhage) but MMP-mediated collagen degradation is the primary mechanism of cap weakening."
+
+- question: "The clustering of myocardial infarctions in early morning hours is explained by the role of sympathetic activation in plaque rupture: increased heart rate and blood pressure elevate hemodynamic shear stress at the fibrous cap's shoulder region."
+  type: true-false
+  answer: true
+  explanation: "Sympathetic surges (morning awakening, physical exertion, emotional stress) increase heart rate and blood pressure, which increases shear force at arterial branch points and cap shoulder regions — precisely where macrophage infiltration and cap thinning are greatest. This mechanical stress, combined with biological vulnerability, triggers rupture. This explains the epidemiological clustering of MI in morning hours and after acute stress, patterns that were puzzling before plaque rupture pathophysiology was understood."
+
+- question: "The severity of coronary artery stenosis visible on angiography is the best predictor of a plaque's risk of rupture and acute thrombotic occlusion."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception. Angiography shows the degree of luminal narrowing but cannot detect the features that determine rupture risk: cap thickness, lipid core size, and macrophage infiltration. A 40% stenotic vulnerable plaque poses greater acute MI risk than a 70% stenotic stable plaque. Most acute coronary events arise from plaques that were not hemodynamically significant before rupture."
+
+- question: "What specific structural and biological features distinguish a vulnerable plaque from a stable plaque, and why do these features make the vulnerable plaque prone to rupture?"
+  type: short-answer
+  answer: "A vulnerable plaque has a thin fibrous cap (<65 µm), a large lipid-rich necrotic core, and abundant macrophages at the shoulder regions. The macrophages secrete matrix metalloproteinases (MMPs) that degrade the collagen giving the cap tensile strength, thinning it faster than smooth muscle cells can replenish it. This produces a mechanically weak cap over a pressurized lipid core — prone to rupture under hemodynamic shear. A stable plaque has a thick fibrous cap, small lipid core, and few inflammatory cells — it may narrow the lumen significantly but is mechanically durable."
+  explanation: "The contrast between morphological vulnerability and stenosis severity is the clinical core of this topic. Management implications follow directly: identifying and stabilizing vulnerable plaques requires anti-inflammatory and lipid-lowering strategies, not just revascularization of the most obstructive lesions."
+```
+
 ## Explainer
 
 From your study of atherosclerosis pathophysiology, you know how plaques form: lipid-laden macrophages (foam cells) accumulate in the intima, a fibrous cap of smooth muscle cells and collagen forms over the lipid core, and the plaque grows to narrow the vessel lumen over decades. From thrombosis pathophysiology, you understand the coagulation cascade: vessel wall disruption exposes subendothelial tissue factor, activating the extrinsic pathway, and platelet adhesion amplifies clot formation. Plaque rupture is the event that connects these two processes — the moment a silent, years-long atherosclerotic lesion becomes an acute, life-threatening occlusion.

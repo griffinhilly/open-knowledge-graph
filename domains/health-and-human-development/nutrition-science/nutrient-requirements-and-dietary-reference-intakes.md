@@ -34,6 +34,45 @@ Use nutrient assessment software to compare individual intakes to DRI; analyze h
 ## Common Misconceptions
 - RDA is the minimum needed to avoid deficiency; it is actually set to meet needs of 97–98% of healthy individuals—exceeding RDA often provides no additional benefit. - Requirements are the same for everyone; they vary significantly by age, sex, and genetic polymorphisms.
 
+## Questions
+
+```yaml
+- question: "A public health researcher wants to estimate the prevalence of vitamin D inadequacy in a population. Which DRI value should she use as the reference point for this analysis?"
+  type: multiple-choice
+  options:
+    - "The RDA, because it represents the requirement for nearly all healthy individuals"
+    - "The AI, because it is based on observed intakes of healthy people"
+    - "The EAR, because individuals below this level are more likely than not to be inadequate"
+    - "The UL, because intakes must stay below this level to avoid harm"
+  answer: 2
+  explanation: "The EAR is the population-assessment tool: it meets the needs of 50% of healthy individuals, so the proportion of a population consuming below the EAR estimates the prevalence of inadequacy. The RDA is set to cover 97–98% of individuals and is useful as an individual target, but using it for population assessment would vastly overestimate inadequacy — nearly half a 'healthy' population would appear deficient."
+
+- question: "A healthy adult male consumes exactly the RDA for calcium every day. Which conclusion is best supported?"
+  type: multiple-choice
+  options:
+    - "He is definitely meeting his calcium requirement, since the RDA covers all healthy individuals"
+    - "He is likely meeting his requirement, since the RDA is set to cover 97–98% of healthy individuals"
+    - "He is consuming more than he needs, since the RDA includes a safety margin far above individual requirements"
+    - "His intake is adequate only if he also consumes above the EAR for calcium"
+  answer: 1
+  explanation: "The RDA is set at EAR + 2 standard deviations, covering 97–98% of healthy individuals. There is still a 2–3% chance this specific person's actual requirement exceeds the RDA due to genetic variation (e.g., VDR polymorphisms affecting vitamin D-dependent calcium absorption). Option A overstates certainty. Option C is wrong — the RDA is not an excessive amount; it is the evidence-based target for individual adequacy. Option D is nonsensical since EAR < RDA by definition."
+
+- question: "The RDA represents the minimum daily intake required to prevent deficiency symptoms in a healthy adult."
+  type: true-false
+  answer: false
+  explanation: "The RDA is set well above the minimum — it meets the needs of 97–98% of healthy individuals (EAR + 2 SD). The minimum needed to avoid deficiency symptoms would be closer to the EAR or even below it. Equating RDA with a 'minimum' is a common misconception that leads to unnecessary supplementation or anxiety when intakes fall slightly short of RDA."
+
+- question: "A person whose habitual intake of a nutrient consistently falls below the EAR is more likely than not to have an inadequate intake for that nutrient."
+  type: true-false
+  answer: true
+  explanation: "By definition, the EAR meets the needs of exactly 50% of healthy individuals. Below the EAR, more than half of people with that intake level would be inadequate. This is why the EAR is used to estimate prevalence of population inadequacy — the proportion below the EAR approximates the proportion with insufficient intakes."
+
+- question: "Why is the RDA set at the 97–98th percentile of requirements rather than at the average requirement (EAR)?"
+  type: short-answer
+  answer: "If the RDA were set at the EAR (the 50th percentile), approximately half of all healthy individuals following that recommendation would still fail to meet their actual needs — because individuals vary in absorption efficiency, metabolism, and genetic factors by ±20–30%. Setting the RDA at EAR + 2 standard deviations ensures the recommendation is sufficient for nearly all healthy people, providing a population-wide safety margin that accounts for this individual variation."
+  explanation: "This logic also explains why RDA is not an appropriate target for population-level assessment: a population averaging exactly the RDA would have most individuals adequately nourished, but using RDA as the threshold would still flag a large fraction as 'below target' even though most are genuinely adequate."
+```
+
 ## Explainer
 
 From your study of macronutrients, vitamins, and minerals, you know *what* nutrients are and broadly *why* the body needs them. The next question is: how much? The Dietary Reference Intakes (DRI) framework is the scientific answer — a set of four distinct reference values, each serving a different purpose and answering a different question.

@@ -24,6 +24,44 @@ status: draft
 ## Core Idea
 The refractive index n = c/v relates the speed of light in vacuum (c) to its speed in the material (v). Refractive index depends on wavelength (dispersion), with shorter wavelengths typically experiencing higher refractive indices. This wavelength dependence causes dispersion and chromatic aberration in optical systems.
 
+## Questions
+
+```yaml
+- question: "A glass prism is illuminated with white light. Which color is refracted (bent) the most as it enters the glass?"
+  type: multiple-choice
+  options:
+    - "Red, because it has the longest wavelength and the most energy to push through the material"
+    - "Violet, because it has the shortest wavelength and therefore the highest refractive index in glass"
+    - "Green, because it is in the middle of the visible spectrum where glass absorbs least"
+    - "All colors are refracted equally because the prism is made of uniform glass throughout"
+  answer: 1
+  explanation: "The Cauchy equation n(λ) ≈ A + B/λ² shows that shorter wavelengths produce higher refractive indices. Violet light (λ ≈ 400 nm) has a higher n in glass than red light (λ ≈ 700 nm), so by Snell's law (n₁ sin θ₁ = n₂ sin θ₂) violet bends more sharply at the interface. Option A is the common misconception — wavelength and energy don't directly control bending; the refractive index does. Option D is wrong because n varies with wavelength even in homogeneous glass, which is the entire point of dispersion."
+
+- question: "A camera produces colored fringes around bright edges in its images. An optical engineer wants to eliminate this chromatic aberration. Which approach addresses the root cause?"
+  type: multiple-choice
+  options:
+    - "Using a lens made from a single glass type with the highest possible refractive index"
+    - "Adding an anti-reflective coating to all lens surfaces"
+    - "Using a doublet: combining two glass types with different dispersion curves so their wavelength-dependent bending partially cancels"
+    - "Reducing the lens aperture to block wavelengths at the spectrum edges"
+  answer: 2
+  explanation: "Chromatic aberration exists because n varies with wavelength — different colors focus at slightly different distances. The fix must address this wavelength dependence directly. A doublet uses crown glass (lower dispersion) and flint glass (higher dispersion) whose dispersion curves run in opposite directions for the same wavelengths, so their combined effect is nearly the same bending for all visible wavelengths. Option A makes aberration worse (higher n doesn't help if dispersion remains). Options B and D address reflections and intensity, not wavelength-dependent focusing."
+
+- question: "In most transparent optical materials, red light travels faster through the material than violet light."
+  type: true-false
+  answer: true
+  explanation: "Speed in a medium is v = c/n. Red light has a longer wavelength, so the Cauchy equation gives it a lower refractive index than violet light. Lower n means higher speed (v = c/n), so red light travels faster through glass or water than violet light. This is directly related to why violet bends more: higher n means slower speed at the interface, which corresponds to more bending via Snell's law."
+
+- question: "The refractive index of a material is a single fixed constant that characterizes the material's optical properties, independent of the color of light used."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception this topic corrects. The refractive index depends on wavelength — this wavelength dependence is called dispersion. The Cauchy equation n(λ) ≈ A + B/λ² shows n changes with λ. Glass has n ≈ 1.512 for red light and n ≈ 1.532 for violet light — a ~1% difference that is small but physically significant, producing the rainbow pattern from a prism and chromatic aberration in lenses. Textbooks sometimes give a single n value for a material only as an approximation for a specific wavelength (usually the sodium D line at 589 nm)."
+
+- question: "Explain why a glass prism separates white light into its component colors, using the definition of refractive index and its relationship to wavelength."
+  type: short-answer
+  answer: "White light is a mixture of all visible wavelengths. The refractive index n of glass is higher for shorter wavelengths (violet, ~400 nm) than for longer wavelengths (red, ~700 nm) — captured by n(λ) ≈ A + B/λ². Since Snell's law n₁ sin θ₁ = n₂ sin θ₂ determines bending angle, and n differs for each wavelength, each color bends by a different amount when entering the prism. Violet bends most, red bends least, and the intermediate wavelengths spread between them. This wavelength-dependent refraction physically separates the originally overlapping colors into a spatial spectrum."
+```
+
 ## Explainer
 
 From Snell's law, you know that light bends when it crosses between two media, and that the amount of bending depends on the ratio of refractive indices: n₁ sin θ₁ = n₂ sin θ₂. The **refractive index** n of a medium is defined as n = c/v, where c is the speed of light in vacuum (~3 × 10⁸ m/s) and v is the speed of light in that material. Glass has n ≈ 1.5, meaning light travels about two-thirds as fast in glass as in vacuum. Diamond has n ≈ 2.4 — light crawls through it at less than half its vacuum speed. Air has n ≈ 1.0003, close enough to vacuum that we often treat it as 1.

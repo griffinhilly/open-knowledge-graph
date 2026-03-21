@@ -34,6 +34,40 @@ Derive Kepler's third law for circular orbits from Newton's law of gravitation a
 - Confusing Kepler's third law: it is T² ∝ a³, not T ∝ a or T² ∝ a².
 - Believing Kepler's laws only apply to planets: they apply to any two-body gravitational system (moons, comets, binary stars).
 
+## Questions
+
+```yaml
+- question: "Planet X orbits a star with a semi-major axis of 4 AU. Planet Y orbits the same star with a semi-major axis of 1 AU. How do their orbital periods compare?"
+  type: multiple-choice
+  options:
+    - "Planet X has a period 4 times longer, because T ∝ a"
+    - "Planet X has a period 8 times longer, because T² ∝ a³ means T ∝ a^(3/2)"
+    - "Planet X has a period 16 times longer, because T ∝ a²"
+    - "Planet X has a period 64 times longer, because T² ∝ a³"
+  answer: 1
+  explanation: "Kepler's Third Law states T² ∝ a³, so T ∝ a^(3/2). With a ratio of 4:1 in semi-major axes, the period ratio is 4^(3/2) = (4³)^(1/2) = 64^(1/2) = 8. Planet X takes 8 times as long. Option A (T ∝ a, giving ratio 4) confuses the law with a linear relationship. Option C (T ∝ a², giving ratio 16) has the wrong exponent. Option D confuses T with T², applying the cube without taking the square root. Getting the exponent right — a^(3/2) on a, not a³ on T — is the key computational skill."
+
+- question: "A planet is at aphelion (its farthest point from the Sun). At this point, the planet is moving at its fastest orbital speed."
+  type: true-false
+  answer: false
+  explanation: "A planet moves fastest at perihelion (closest approach) and slowest at aphelion (farthest point). This follows directly from conservation of angular momentum: L = mrv = constant. When r is smallest (perihelion), v must be largest. Kepler's Second Law — equal areas in equal times — is the geometric expression of this: to sweep equal areas in equal times when close to the focus, the planet must cover a longer arc per unit time. The common confusion reverses this relationship."
+
+- question: "Kepler discovered his three laws by deriving them mathematically from the law of gravity and Newton's laws of motion."
+  type: true-false
+  answer: false
+  explanation: "Kepler's laws are empirical — he derived them from patient analysis of Tycho Brahe's observational data, not from theory. Newton came later and showed that all three laws could be derived from universal gravitation and his laws of motion, demonstrating they are not independent empirical facts but consequences of deeper physics. The historical sequence matters: Kepler (observation → pattern) preceded Newton (theory → derivation). Kepler did not know why his laws were true; Newton explained why."
+
+- question: "Two moons orbit a planet, one with a semi-major axis of 100,000 km and one with a semi-major axis of 400,000 km. The outer moon has a period exactly 4 times longer than the inner moon."
+  type: true-false
+  answer: false
+  explanation: "By Kepler's Third Law, T ∝ a^(3/2). The ratio of semi-major axes is 400,000/100,000 = 4, so the period ratio is 4^(3/2) = 8, not 4. The outer moon takes 8 times longer. A factor of 4 in the period would require a factor of 4^(2/3) ≈ 2.52 in the semi-major axis. This is the most common computational error with the third law: applying a linear or square relationship instead of the a^(3/2) relationship."
+
+- question: "If Kepler's Third Law is T² = 4π²a³/GM, how could astronomers use it to calculate the distance to a planet before space probes existed?"
+  type: short-answer
+  answer: "By timing how long a planet takes to complete one full orbit (observing T through telescope observations), astronomers can solve for a: a = (GMT²/4π²)^(1/3). Since G and M (mass of the Sun) are determined from Earth's orbital data, the semi-major axis follows directly from the period. This allows calculation of planetary distances using only timing — no spacecraft needed. The ratio T²/a³ = 4π²/GM is constant for all objects orbiting the same star, so once Earth's distance (1 AU) is calibrated, all planetary distances follow from period measurements alone."
+  explanation: "This is the quantitative power of the Third Law. It creates a direct algebraic bridge between an observable quantity (period, measured by timing a planet's return to the same position against the stars) and a geometric quantity (semi-major axis, the average orbital distance). Most planetary distances were calculated this way before the space age, using the constant ratio T²/a³ across all planets to bootstrap from Earth's known distance of 1 AU."
+```
+
 ## Explainer
 
 From your work on orbital mechanics, you know that a satellite in a circular orbit maintains constant speed because gravity provides exactly the centripetal force needed. Kepler's laws generalize this: real orbits are not circles but **ellipses**, and the geometry of the ellipse encodes everything about how speed and position vary over the orbit.

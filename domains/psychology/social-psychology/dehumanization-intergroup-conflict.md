@@ -33,6 +33,45 @@ Analyze propaganda and dehumanizing language from historical and contemporary co
 ## Common Misconceptions
 Dehumanization is often seen as rare or pathological; evidence shows it is a systematic cognitive process that emerges even in minimal conflict contexts, particularly when in-group members frame out-group members as threats.
 
+## Questions
+
+```yaml
+- question: "Before a genocide, state propaganda consistently describes the targeted ethnic group as rats, vermin, and cockroaches. According to research on dehumanization, the primary psychological function of this language is:"
+  type: multiple-choice
+  options:
+    - "To express the intense hatred that perpetrators already feel, which would exist even without the language"
+    - "To disable the normal moral inhibitions — empathy, guilt, anticipation of censure — that prevent ordinary people from harming others"
+    - "To signal ideological loyalty among in-group members and identify dissenters"
+    - "To create a simplified political narrative that reduces complex grievances to memorable slogans"
+  answer: 1
+  explanation: "Dehumanization is not merely the expression of pre-existing hatred — it is preparation for action. Bandura's moral disengagement framework explains why: humans have internal moral regulators that inhibit harm against those perceived as full persons. These regulators depend on perceiving the target as capable of suffering and deserving of moral consideration. Dehumanizing language degrades that perception, reducing the psychological cost of harm. This is why dehumanizing rhetoric systematically precedes organized violence — it works by circumventing moral inhibitions, not just expressing hatred."
+
+- question: "Research using the minimal group paradigm suggests that dehumanizing responses toward out-groups:"
+  type: multiple-choice
+  options:
+    - "Require prolonged historical conflict between groups to develop"
+    - "Are primarily characteristics of individuals with authoritarian personality structures"
+    - "Can emerge even from arbitrary, newly created group boundaries under conditions of competitive threat or zero-sum framing"
+    - "Only occur in contexts of extreme ideological or ethnic conflict"
+  answer: 2
+  explanation: "The disturbing finding from minimal group research is how little is required to produce intergroup discrimination and subtle dehumanizing responses. Arbitrary group membership — created in a lab within minutes — is sufficient to generate favoritism toward the in-group. Under mild competitive threat or zero-sum framing, even these minimal groups produce reduced moral concern for out-group suffering. This undermines the view that dehumanization requires pathological personalities or deep historical grievances; it is a systematic, contextually driven process."
+
+- question: "Dehumanization primarily affects perpetrators' perceptions of targets, but does not affect how bystanders respond to out-group suffering."
+  type: true-false
+  answer: false
+  explanation: "Bystanders also engage in forms of dehumanization. Research shows that people extend less moral concern to out-group suffering even without direct participation in conflict — this is passive dehumanization. Bystanders who perceive out-group members primarily as category members rather than individuals (through dehumanizing media framing, for instance) show reduced empathic response and reduced motivation to intervene. Understanding dehumanization as affecting bystanders as well as perpetrators is critical for conflict prevention, since bystander responses can either reinforce or interrupt cycles of violence."
+
+- question: "Infrahumanization research shows that people in ordinary social perception tend to deny uniquely human emotions (such as guilt, hope, or shame) to out-groups while still attributing basic emotions (such as fear or anger) to them."
+  type: true-false
+  answer: true
+  explanation: "Nick Haslam's infrahumanization work, part of the mechanistic dehumanization tradition, demonstrates that subtle dehumanization occurs in everyday social perception — not only in extreme conflict. The denial of uniquely human emotions (complex, morally laden, self-reflective) while allowing basic animal emotions represents a cognitive representation of the out-group as less than fully human. This happens not just between historically hostile groups but in ordinary intergroup perception, suggesting dehumanization exists on a continuum rather than being a discrete, extreme phenomenon."
+
+- question: "Why does Bandura describe moral disengagement as the mechanism through which dehumanization enables violence, rather than simply saying dehumanization creates hatred that motivates violence?"
+  type: short-answer
+  answer: "Moral disengagement is a more precise mechanism than hatred. Humans normally have internal regulators — empathy, guilt, anticipation of social censure — that inhibit aggression against others perceived as full persons. These regulators do not require the absence of hatred; people can hate others while still being inhibited from harming them by moral emotions. Dehumanization works by disabling these specific inhibitory mechanisms: when the target is perceived as less than fully human, the psychological machinery that produces guilt and empathy fails to activate, removing the barrier between hatred and action. The key is not that dehumanization increases motivation to harm, but that it removes the normal brakes on acting on that motivation."
+  explanation: "This distinction matters for prevention: if dehumanization merely expressed hatred, reducing it would require eliminating hatred first — a very difficult task. But if dehumanization disables specific psychological mechanisms, those mechanisms can potentially be protected through contact, humanizing narratives, and counter-framing — interrupting the process before hatred becomes action."
+```
+
 ## Explainer
 
 From your study of prejudice, discrimination, and stereotyping, you know that out-groups are routinely perceived through simplified, often negative generalizations, and that implicit biases operate below the level of conscious intention. **Dehumanization** can be understood as the far end of the same spectrum: not merely a negative evaluation of an out-group, but a cognitive representation that strips them of the attributes considered distinctively human. The progression matters: stereotyping denies individuality; dehumanization denies humanity itself.

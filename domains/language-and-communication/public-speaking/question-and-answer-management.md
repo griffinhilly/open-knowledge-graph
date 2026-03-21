@@ -34,6 +34,45 @@ Practice by having colleagues ask maximally adversarial questions about your top
 - 'That's a great question' is a filler response that telegraphs stalling — acknowledge and answer.
 - Not knowing an answer is acceptable; guessing confidently when you don't know is not.
 
+## Questions
+
+```yaml
+- question: "A speaker is asked about the cost of her proposed program. She responds: 'I'm glad you raised cost — that brings me to the real issue, which is the long-term value we'll create together.' She has not addressed the cost question. What has she done?"
+  type: multiple-choice
+  options:
+    - "She successfully used the bridging technique — redirecting to key messages is exactly what bridging is for"
+    - "She performed a bridge without first answering the question, which reads as evasion and damages credibility"
+    - "She appropriately deflected a hostile question by redirecting to her key message"
+    - "She demonstrated active listening by acknowledging the question before answering"
+  answer: 1
+  explanation: "The bridging technique requires genuinely answering the question first, then bridging to a related key message. The formula is: acknowledge, answer the part you can, then bridge. Performing the bridge without answering first is the failure mode — audiences recognize it as evasion, and it damages credibility faster than almost anything else. The speaker needed to address the cost before pivoting to the value framing."
+
+- question: "Why is admitting you don't know the answer to a question often more credibility-building than guessing confidently?"
+  type: multiple-choice
+  options:
+    - "Audiences prefer speakers who admit weakness, as it makes them seem more relatable and humble"
+    - "Confident guessing risks being wrong, which destroys credibility; admitting uncertainty paired with a path to find the answer demonstrates both intellectual honesty and genuine competence"
+    - "It is always better to say you don't know than to risk an incorrect answer in any public setting"
+    - "Audiences cannot tell when speakers are guessing, so the choice has no impact on credibility"
+  answer: 1
+  explanation: "'I don't know, but here's how I'd find out' is one of the most credibility-building responses available. It shows intellectual honesty (you won't pretend) and competence (you know how to find the answer). Confident guessing when you're wrong is discovered — and the combination of false confidence and error is far more damaging than honest uncertainty. The misconception is that admitting uncertainty always signals weakness."
+
+- question: "Beginning to formulate your answer while the questioner is still speaking is a useful strategy in Q&A because it reduces response time and signals confidence."
+  type: true-false
+  answer: false
+  explanation: "Starting to formulate before the question is complete produces two common errors: answering the wrong question, or missing a nuanced secondary part. The apparent confidence from faster response is outweighed by the damage done when you answer a different question than was asked. Active listening to the complete question — followed by a brief pause that reads as thoughtfulness — leads to better answers and stronger audience trust."
+
+- question: "Saying 'That's a great question' before answering effectively acknowledges the questioner and signals engagement with their concern."
+  type: true-false
+  answer: false
+  explanation: "'That's a great question' is a filler response that audiences recognize as stalling. It telegraphs that you're buying time rather than engaging substantively. It can also read as insincere — implying that other questions weren't great. A direct acknowledgment of the question's substance or a brief clarifying pause is more credible. 'What you're getting at is...' or 'That's worth addressing carefully...' engage the content; 'great question' only evaluates the act of asking."
+
+- question: "Why is the Q&A session described as the moment where credibility is 'made or lost,' even for speakers who delivered a polished prepared speech?"
+  type: short-answer
+  answer: "A prepared speech can be rehearsed to near-perfection — structure, delivery, language, and timing are all under the speaker's control. Q&A strips that control away: questions are unpredictable, and audiences watch how the speaker handles pressure, uncertainty, and challenge. Evasiveness, defensiveness, or confident wrong answers are immediately visible in a way a scripted talk doesn't expose. A speaker who handles hostile questions with intellectual honesty, admits knowledge limits without losing composure, and answers what was actually asked demonstrates real competence and trustworthiness — qualities that polished delivery alone cannot prove."
+  explanation: "The key insight is that the Q&A tests authenticity in a way the prepared speech cannot. Anyone can rehearse a good speech. Not everyone can respond honestly, accurately, and composedly to an unexpected adversarial question. The audience intuitively understands this, which is why Q&A performance often outweighs prepared speech quality in forming lasting impressions of credibility."
+```
+
 ## Explainer
 
 A Q&A session is the most unscripted moment in public speaking, and it tests a different set of skills than prepared delivery. You've studied impromptu speaking — the ability to organize a response quickly under pressure — and debate techniques including refutation. Q&A draws on both: the structural flexibility of impromptu delivery and the adversarial readiness of debate, deployed in a more conversational register. The result is a hybrid mode that requires you to be simultaneously prepared and genuinely responsive.

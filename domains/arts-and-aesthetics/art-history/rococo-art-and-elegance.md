@@ -34,6 +34,45 @@ Compare Fragonard's The Swing with any Caravaggio — the shift from dark, theat
 - Rococo is often dismissed as merely decorative or trivial — it was a coherent aesthetic program reflecting specific aristocratic values and a philosophical emphasis on pleasure and sensory experience.
 - Rococo was not confined to France — it flourished in Bavaria, Austria, and southern Germany, particularly in church architecture and interior design, where it took on distinctly different character.
 
+## Questions
+
+```yaml
+- question: "A critic dismisses Rococo as 'purely decorative — pleasant pictures for rich people with no serious ideas behind them.' Which response best challenges this assessment?"
+  type: multiple-choice
+  options:
+    - "Rococo actually contains hidden religious symbolism beneath its pleasurable surfaces"
+    - "Rococo represents a coherent philosophical position: that sensory delight, private experience, and intimacy are legitimate purposes for art"
+    - "The criticism is correct — Rococo artists themselves described the style as ornamental rather than conceptual"
+    - "Rococo's technical mastery in color and light makes it serious art regardless of its subject matter"
+  answer: 1
+  explanation: "Rococo embodied a real philosophical program: that art's purpose could be delight rather than instruction, that the senses matter as much as reason, and that private aristocratic experience is a worthy subject. This was a direct alternative to Baroque moral and religious gravity, not an absence of ideas. The Neoclassical critique that Rococo was 'frivolous' was itself a philosophical and political position — a preference for civic virtue over private pleasure — not a neutral aesthetic judgment."
+
+- question: "What primarily distinguished Rococo patronage from Baroque patronage, and why did this difference shape the style?"
+  type: multiple-choice
+  options:
+    - "Rococo was funded by merchants and a rising middle class who wanted domestic scenes"
+    - "Rococo served private aristocratic salons rather than the church and absolutist state, so intimate subjects replaced monumental religious narratives"
+    - "Rococo was primarily sponsored by the French Academy, which imposed new formal rules"
+    - "Rococo patrons demanded moral and religious subjects but in a lighter, more accessible style"
+  answer: 1
+  explanation: "Rococo art was made for private apartments and salons of the French aristocracy, not for cathedrals or royal propaganda. This patronage context directly explains the style: intimate scale, pleasurable subjects, decorative integration with furniture and interiors. Baroque served the Counter-Reformation church and absolutist monarchs — purposes that demanded grandeur, drama, and moral authority. Change the patron and the audience, and you change the art."
+
+- question: "Rococo emerged as a deliberate reaction against the heaviness and grandeur of the Baroque, not as a continuation of it."
+  type: true-false
+  answer: true
+  explanation: "The Baroque-to-Rococo transition is precisely a pivot: from dark, theatrical chiaroscuro and muscular figures designed to overwhelm, to pastel palettes, asymmetrical curves, and intimate leisure scenes. Watteau's fête galante replaced Caravaggio's martyrdoms. The shift was deliberate — Rococo artists and patrons wanted lightness and charm where Baroque offered awe and submission. Understanding Baroque is a prerequisite because Rococo only makes sense as a reaction to it."
+
+- question: "The Neoclassical replacement of Rococo in the 1760s–1780s was an objective correction of bad artistic taste rather than a philosophical and political shift."
+  type: true-false
+  answer: false
+  explanation: "The replacement of Rococo by Neoclassicism was driven by Enlightenment values — a preference for civic virtue, public reason, and moral seriousness over aristocratic pleasure and private sensation. Diderot's critiques of Boucher were philosophical attacks, not purely aesthetic ones. Rococo was 'overthrown' as aristocratic political power came under pressure; Neoclassicism aligned with the emerging bourgeois and republican ideals that culminated in the French Revolution. Framing this as a correction of taste misreads it as a neutral aesthetic judgment."
+
+- question: "Why did Neoclassicism replace Rococo, and what does this transition reveal about the relationship between art and political or philosophical values?"
+  type: short-answer
+  answer: "Neoclassicism replaced Rococo because the Enlightenment favored civic virtue, public reason, and moral seriousness over the aristocratic pleasures Rococo celebrated. As the political and philosophical climate shifted — with growing criticism of aristocratic excess and the rise of republican ideals — the art that served those aristocrats lost legitimacy. The transition reveals that aesthetic preferences are never purely formal: they reflect and serve the values of the patrons and audiences who commission and consume art. Rococo's 'frivolity' was a Neoclassical political judgment, not an objective aesthetic fact."
+  explanation: "The tension Rococo vs. Neoclassicism embodies — art as sensory delight vs. art as moral instruction — is one of the fundamental debates in aesthetics. Tracing this transition shows that stylistic changes often follow philosophical and political shifts, and that what gets dismissed as 'mere decoration' in one era may be the deliberate philosophical program of another."
+```
+
 ## Explainer
 
 If you understand Baroque art — its dramatic lighting, muscular figures, and theatrical intensity designed to overwhelm the viewer — then Rococo makes sense as a deliberate pivot. Imagine walking from a dimly lit cathedral filled with Caravaggio's chiaroscuro martyrdoms into a bright, silk-lined Parisian salon: the mood shifts from awe and submission to charm and pleasure. That shift is the Baroque-to-Rococo transition in physical form. Where Baroque served the Counter-Reformation church and absolutist monarchs, Rococo served a different patron class entirely — the French aristocracy of the early eighteenth century, who wanted art for their private apartments, not for public cathedrals.

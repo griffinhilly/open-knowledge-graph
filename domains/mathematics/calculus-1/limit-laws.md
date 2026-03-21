@@ -28,6 +28,45 @@ State each law, verify with examples, then practice applying them to compute lim
 - Assuming all limit laws hold for infinite limits (some do, some produce indeterminate forms).
 - Believing limit laws are definitions rather than consequences of the precise limit definition.
 
+## Questions
+
+```yaml
+- question: "You want to find lim_{x→2} (x² + 3x)/(x − 2). You apply the quotient law and get (4 + 6)/(2 − 2) = 10/0. What should you conclude?"
+  type: multiple-choice
+  options:
+    - "The limit is infinity, since 10/0 = ∞"
+    - "The limit does not exist, since the quotient law produces an undefined result"
+    - "The quotient law cannot be applied here because the denominator's limit is 0; further analysis is required"
+    - "You should apply L'Hôpital's rule directly to get lim = 10/1 = 10"
+  answer: 2
+  explanation: "The quotient law states lim(f/g) = L/M only when M ≠ 0. When M = 0, the quotient law simply does not apply — you cannot draw any conclusion from it. The result 10/0 is not '∞'; it signals that this case requires different analysis. Here lim(x²+3x) = 10 ≠ 0 and lim(x−2) = 0, which indicates vertical asymptote behavior — but you must determine this through further work, not by mechanically writing '10/0 = ∞.'"
+
+- question: "A student evaluates lim_{x→3} (x²−9)/(x−3) by substituting x = 3, gets 0/0, and concludes the limit doesn't exist. A second student factors to get lim_{x→3}(x+3) = 6. Who is correct?"
+  type: multiple-choice
+  options:
+    - "The first student; substituting x = 3 gives 0/0 which means the limit is undefined"
+    - "Neither; a 0/0 form always means further limit laws must be applied iteratively"
+    - "The second student; 0/0 is an indeterminate form signaling the quotient law fails, not that the limit doesn't exist"
+    - "Both are correct; 0/0 and 6 are equivalent in limit notation"
+  answer: 2
+  explanation: "0/0 is an indeterminate form — it means the quotient law fails and further algebraic work is needed, not that the limit is undefined or doesn't exist. The second student correctly factors the numerator as (x−3)(x+3), cancels (x−3) (valid since x ≠ 3 in a limit), and applies direct substitution to (x+3), getting 6. The indeterminate form is a signal to look for hidden algebraic structure, not a dead end."
+
+- question: "For any polynomial p(x), the limit as x approaches any real number a can be found by direct substitution: lim_{x→a} p(x) = p(a)."
+  type: true-false
+  answer: true
+  explanation: "This follows directly from the limit laws. A polynomial is built from sums and products of constants and powers of x. The limit laws say limits distribute over sums and products. The foundational limits lim_{x→a} c = c and lim_{x→a} x = a hold by definition. Applying the limit laws repeatedly through the polynomial's structure reduces everything to p(a). Direct substitution for polynomials is not magic — it is the limit laws working automatically."
+
+- question: "Limit laws are the definitions of what limits mean — they establish how limits of sums, products, and quotients are computed."
+  type: true-false
+  answer: false
+  explanation: "Limit laws are theorems, not definitions. The limit is defined independently (via epsilon-delta or as the value a function approaches). The limit laws are then proved from that definition: if you can get f close to L and g close to M, you can prove rigorously that f+g gets close to L+M. The laws are derived results that make computation convenient. This distinction matters because the laws have conditions (like M ≠ 0 for the quotient law) that make no sense if they were definitions."
+
+- question: "Explain why the quotient law fails when the denominator's limit is zero, and what this failure tells you about how to proceed."
+  type: short-answer
+  answer: "The quotient law requires M ≠ 0 because division by zero is undefined, and when M = 0, the ratio f/g can behave in any number of ways as x approaches a: it might approach a finite value (0/0 indeterminate form, requiring algebraic simplification), blow up to ±∞ (vertical asymptote), or fail to exist. The failure of the quotient law is a diagnostic signal — not a final answer — that tells you which case you're in and that a different technique is needed: factoring and canceling, conjugate multiplication, L'Hôpital's rule, or the squeeze theorem."
+  explanation: "Recognizing when limit laws fail is as important as knowing what they say. 'The law doesn't apply' is informative: it tells you that you're in a case requiring special treatment. Students who mechanically write '0/0' as an answer have misunderstood the quotient law; students who recognize it as an indeterminate form know they need a different strategy."
+```
+
 ## Explainer
 
 When you first learned about limits, you built intuition: the limit of f(x) as x → a is the value f(x) approaches as x gets close to a. That intuition is powerful but it leaves a practical question unanswered: how do you actually *compute* a limit for a complicated expression? **Limit laws** answer this by giving you a toolkit for breaking a complex limit into smaller, manageable pieces — much like order of operations lets you evaluate arithmetic by breaking it into steps.

@@ -37,6 +37,45 @@ Consider the codomain fibration cod: Arr(C) → C sending each arrow f: A → B 
 - Cartesian morphisms are not simply morphisms in the total category; they must satisfy a universal property relative to the projection functor.
 - A cleavage (choice of cartesian liftings) is not unique; different cleavages give equivalent structures, and a split fibration is one where the cleavage is strictly functorial.
 
+## Questions
+
+```yaml
+- question: "In the codomain fibration cod: Arr(C) → C, morphisms are commutative squares. Under what condition is a commutative square a cartesian morphism?"
+  type: multiple-choice
+  options:
+    - "When the square is commutative — any commutative square is automatically cartesian in the codomain fibration"
+    - "When the horizontal arrows of the square are isomorphisms"
+    - "When the square is a pullback square — satisfying the universal property that any competing morphism factors uniquely through it"
+    - "When the domain objects of the top and bottom arrows coincide"
+  answer: 2
+  explanation: "In the codomain fibration, a morphism in Arr(C) is cartesian if and only if it is a pullback square. This is the key example making the abstract definition concrete: the universal property of a cartesian morphism — any morphism in E with the same base morphism in B factors uniquely through it — becomes exactly the universal property of the pullback. Not every commutative square is a pullback (option A is the most common error), and isomorphisms of horizontal arrows (option B) would be a much stronger, and incorrect, condition."
+
+- question: "What is the precise relationship between a Grothendieck fibration p: E → B and a pseudofunctor F: B^{op} → Cat?"
+  type: multiple-choice
+  options:
+    - "They are the same structure: every fibration is a pseudofunctor and every pseudofunctor is a fibration, with no translation needed"
+    - "They are equivalent via the Grothendieck construction, which provides a 2-categorical equivalence between fibrations over B and pseudofunctors B^{op} → Cat"
+    - "A pseudofunctor is a special case of a fibration: every pseudofunctor gives a fibration, but not every fibration comes from a pseudofunctor"
+    - "A fibration is strictly stronger: fibrations always yield split functorial compositions, which pseudofunctors only satisfy up to isomorphism"
+  answer: 1
+  explanation: "The Grothendieck construction gives a 2-categorical equivalence between fibrations over B and pseudofunctors B^{op} → Cat. Given a fibration, one extracts a pseudofunctor by b ↦ E_b and f ↦ f* (the pullback functor); given a pseudofunctor, one constructs the total category. They are equivalent — two different but compatible ways to describe 'a family of categories varying over B' — but not identical. A fibration is a single functor p: E → B; a pseudofunctor is a contravariant assignment B → Cat. Conflating them (option A) is the most common misconception in the topic."
+
+- question: "In the codomain fibration cod: Arr(C) → C, the fiber over an object b ∈ C is the slice category C/b."
+  type: true-false
+  answer: true
+  explanation: "The fiber over b consists of all objects e in Arr(C) with cod(e) = b — that is, all morphisms in C with codomain b — together with all morphisms between them that project to the identity on b. This is exactly the slice category C/b: objects are arrows f: a → b in C, and morphisms from f: a → b to g: a' → b are arrows h: a → a' making the triangle commute. The codomain fibration is the canonical first example for building intuition about fibered categories."
+
+- question: "A fibered category p: E → B is the same mathematical object as a pseudofunctor B^{op} → Cat, so there is no need to distinguish between them."
+  type: true-false
+  answer: false
+  explanation: "A fibration p: E → B is a single functor satisfying the cartesian lifting property. A pseudofunctor F: B^{op} → Cat is a contravariant assignment of categories and functors to objects and morphisms of B. They are *equivalent* structures via the Grothendieck construction, but they are not the same object. In particular, a fibration does not come with a canonical choice of pullback functors (that requires choosing a cleavage), while a pseudofunctor specifies F(f) = f* explicitly. Most natural fibrations are not split, meaning the induced pseudofunctor satisfies (f ∘ g)* ≅ g* ∘ f* only up to coherent isomorphism, not on the nose."
+
+- question: "Why is the universal property essential in the definition of a cartesian morphism, rather than simply requiring φ: e' → e to be any morphism in E lying over f: b' → b in B?"
+  type: short-answer
+  answer: "Without the universal property, there would be no canonical way to relate fibers across morphisms in B — any morphism over f would qualify as a 'lifting,' and different choices would give incompatible fiber relationships. The universal property says φ is the unique best lifting of f above a fixed target e: any other morphism ψ over a factorization of f factors uniquely through φ. This uniqueness makes the pullback functor f*: E_b → E_{b'} well-defined up to unique isomorphism, which is what makes descent theory coherent and the Grothendieck construction work."
+  explanation: "If we only required existence of some morphism over f, different choices of liftings would yield non-canonically related fibers, and the pullback functors f* could not be assembled into a well-defined pseudofunctor. The universal property is precisely what characterizes each cartesian lifting uniquely (up to isomorphism), ensuring that two different cleavages give equivalent, not merely isomorphic, total categories."
+```
+
 ## Explainer
 
 From your study of comma categories and functor categories, you know how to form slice categories C/b and how to assemble categories of functors into structured wholes. Fibered categories answer a subtler organizational question: how do you talk about a *family* of categories varying over a base, where morphisms in the base tell you how to transport objects between fibers? The motivating example is geometric: over each topological space (or scheme) B, you have a category of vector bundles — small changes in the base space induce pullback operations on bundles, and those pullbacks are the "transport maps" the fibration formalizes.

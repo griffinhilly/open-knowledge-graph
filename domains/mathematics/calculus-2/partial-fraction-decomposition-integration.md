@@ -30,6 +30,45 @@ Review the algebraic decomposition from precalculus, then integrate each term. P
 - Not recognizing irreducible quadratic factors (try to factor first, then use the discriminant test).
 - Making algebraic errors when solving for the coefficients A, B, C.
 
+## Questions
+
+```yaml
+- question: "You want to integrate (x³ + 2x) / (x² − 1). What is the correct first step?"
+  type: multiple-choice
+  options:
+    - "Factor the denominator and set up A/(x−1) + B/(x+1) immediately"
+    - "Perform polynomial long division, since the numerator degree exceeds the denominator degree"
+    - "Complete the square in the denominator to identify irreducible factors"
+    - "Apply u-substitution with u = x² − 1"
+  answer: 1
+  explanation: "Partial fraction decomposition only applies to proper fractions (numerator degree < denominator degree). Here the numerator has degree 3 and the denominator degree 2, so the fraction is improper. Long division must come first, producing a polynomial plus a proper remainder; only the remainder is then decomposed. Jumping straight to partial fractions (option A) leads to an inconsistent system of equations — there won't be enough unknowns to match all numerator coefficients."
+
+- question: "Which integral form does the irreducible quadratic factor (x² + 9) in the denominator contribute?"
+  type: multiple-choice
+  options:
+    - "A logarithm term A·ln|x² + 9|"
+    - "A power-rule term −A/(x² + 9)"
+    - "An arctan term (and possibly a logarithm term from the linear part of the numerator)"
+    - "Two separate logarithm terms from the complex roots of x² + 9"
+  answer: 2
+  explanation: "Because x² + 9 has discriminant 0 − 36 < 0, it has no real roots and cannot be factored — it is irreducible. Its partial fraction form is (Ax + B)/(x² + 9). The Ax part produces A·ln|x² + 9| via u-substitution, and the B part produces (B/3)arctan(x/3) via the standard inverse-trig integral ∫1/(x²+k²) dx = (1/k)arctan(x/k). Option D is wrong: complex roots never appear in real partial fraction decomposition; irreducibility is precisely what prevents factoring into real linear terms."
+
+- question: "Partial fraction decomposition can be applied directly to any rational function, regardless of the relative degrees of the numerator and denominator."
+  type: true-false
+  answer: false
+  explanation: "Partial fractions require a proper fraction — one where the numerator degree is strictly less than the denominator degree. When the numerator degree is greater than or equal to the denominator degree, polynomial long division must be performed first, separating the expression into a polynomial (integrated directly by the power rule) plus a proper fractional remainder. Skipping this step produces an inconsistent coefficient system that cannot be solved."
+
+- question: "A distinct linear factor (x − r) in the denominator always contributes a natural logarithm term to the antiderivative."
+  type: true-false
+  answer: true
+  explanation: "The partial fraction form for a distinct linear factor is A/(x − r). Integrating via u-substitution (u = x − r) gives A·ln|x − r| + C, regardless of the value of r. This is the standard result and holds universally for distinct (non-repeated) linear factors. Repeated linear factors (x − r)² behave differently — their additional terms integrate by the power rule to −A/(x − r), not a logarithm."
+
+- question: "Why must polynomial long division precede partial fraction decomposition when the numerator degree is greater than or equal to the denominator degree?"
+  type: short-answer
+  answer: "The partial fraction template assumes a proper fraction. If the fraction is improper, matching the coefficients of the partial fraction form requires more unknowns than the template provides — the system of equations is inconsistent and cannot be solved. Long division first extracts the polynomial part (which integrates term by term by the power rule) and leaves a proper remainder for decomposition."
+  explanation: "Students who skip long division typically realize the mistake when their coefficient equations have no solution. The structural reason is that a degree-k numerator over a degree-k denominator includes a constant quotient term that doesn't fit any partial fraction form. Long division makes that term explicit, reducing the remaining problem to one the template can handle."
+```
+
 ## Explainer
 
 The core strategy is to work backwards from addition. You know how to add fractions: 1/(x−1) + 2/(x+3) = (3x+1)/((x−1)(x+3)). **Partial fraction decomposition** reverses this: given a rational function like (3x+1)/((x−1)(x+3)), break it back into simpler fractions. From your algebra prerequisite, you know how to do this decomposition. Now the payoff: each simple fraction is integrable by a method you already know, so a rational function that seemed hard to integrate becomes a sum of easy integrals.

@@ -35,6 +35,45 @@ Construct perpendicular bisectors with compass and straightedge. Verify equidist
 - Thinking the circumcenter is always inside the triangle (it is outside for obtuse triangles).
 - Forgetting that "perpendicular bisector" requires both conditions: perpendicular AND bisecting.
 
+## Questions
+
+```yaml
+- question: "Point P is equidistant from the two endpoints of segment AB (PA = PB). What can you conclude about P?"
+  type: multiple-choice
+  options:
+    - "P is the midpoint of AB"
+    - "P lies on the perpendicular bisector of AB"
+    - "P is the circumcenter of any triangle containing AB"
+    - "P lies on the angle bisector of any angle formed at A or B"
+  answer: 1
+  explanation: "By the converse of the Perpendicular Bisector Theorem, equidistance from both endpoints is sufficient to place P on the perpendicular bisector of AB — this is the biconditional at the heart of the theorem. P being the midpoint (option A) would require P to be *on* AB, not just equidistant. And equidistance from two vertices only, not all three, is not enough to make P the circumcenter."
+
+- question: "A triangle has one obtuse angle. Where is its circumcenter located?"
+  type: multiple-choice
+  options:
+    - "At the midpoint of the longest side"
+    - "Inside the triangle, near the obtuse vertex"
+    - "Outside the triangle, beyond the longest side"
+    - "At the vertex of the obtuse angle"
+  answer: 2
+  explanation: "For an obtuse triangle, the three perpendicular bisectors intersect at a point outside the triangle — on the far side of the longest side, opposite the obtuse angle. The common misconception is that the circumcenter is always interior, which is only true for acute triangles. For a right triangle, it falls exactly at the midpoint of the hypotenuse."
+
+- question: "Any point that is equidistant from both endpoints of a segment must lie on the perpendicular bisector of that segment."
+  type: true-false
+  answer: true
+  explanation: "This is the converse of the Perpendicular Bisector Theorem, and it holds. The theorem is actually a biconditional: a point lies on the perpendicular bisector of a segment *if and only if* it is equidistant from both endpoints. Equidistance is not merely consistent with lying on the bisector — it guarantees it."
+
+- question: "The circumcenter of a triangle is always located inside the triangle."
+  type: true-false
+  answer: false
+  explanation: "The circumcenter is inside only for acute triangles. For a right triangle, it lies exactly at the midpoint of the hypotenuse (on the triangle's boundary). For an obtuse triangle, it lies entirely outside the triangle. This is a persistent misconception that comes from confusing the circumcenter with the centroid or incenter, both of which are always interior."
+
+- question: "Why does the Perpendicular Bisector Theorem guarantee that all three perpendicular bisectors of a triangle meet at a single point (the circumcenter)?"
+  type: short-answer
+  answer: "The perpendicular bisectors of sides AB and BC meet at a point O where OA = OB (from the bisector of AB) and OB = OC (from the bisector of BC). By transitivity, OA = OB = OC. By the converse theorem, any point equidistant from both endpoints of a segment lies on its perpendicular bisector — so O must also lie on the perpendicular bisector of AC. This proves all three bisectors are concurrent."
+  explanation: "The key move is chaining the equidistance relationships from two bisectors, then using the converse to conclude the third bisector passes through the same point. Without the converse, you couldn't close the argument. The circumcenter's equal distance from all three vertices also directly implies it is the center of the circumscribed circle."
+```
+
 ## Explainer
 
 You know how to find the midpoint of a segment and measure distances between points. A **perpendicular bisector** combines both ideas: it is the unique line that passes through the midpoint of a segment and is perpendicular to it. But the most powerful way to think about it is not as a construction — it is the set of all points that are **equidistant** from the two endpoints. That equidistance characterization is what makes perpendicular bisectors useful.

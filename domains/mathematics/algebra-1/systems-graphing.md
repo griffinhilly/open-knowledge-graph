@@ -30,6 +30,45 @@ Graph both equations on the same axes and identify the intersection point. Verif
 - Reading the intersection point inaccurately from the graph (especially with non-integer coordinates).
 - Confusing "no solution" (parallel, inconsistent) with "infinitely many solutions" (same line, dependent).
 
+## Questions
+
+```yaml
+- question: "When graphing a system of two linear equations, you find both lines have slope 3 but different y-intercepts. What is the solution to the system?"
+  type: multiple-choice
+  options:
+    - "One solution — lines with the same slope intersect once at their shared steepness"
+    - "Infinitely many solutions — same slope means the lines are identical"
+    - "No solution — parallel lines never intersect"
+    - "Cannot be determined without knowing the exact y-intercepts"
+  answer: 2
+  explanation: "Same slope, different y-intercepts means the lines are parallel — they run in the same direction but are offset from each other and never meet. No intersection means no ordered pair satisfies both equations simultaneously. This is called an inconsistent system. The y-intercepts confirm the lines are distinct (ruling out the infinitely-many case), and same slope confirms they're parallel (ruling out any intersection)."
+
+- question: "A student graphs two equations and sees only one line on the coordinate plane, not two. She thinks she made an error. What is the most likely explanation?"
+  type: multiple-choice
+  options:
+    - "She made a graphing error — two different equations always produce two visible lines"
+    - "One equation has no solution and therefore doesn't appear on the graph"
+    - "The two equations represent the same line — every point on it is a solution to both equations"
+    - "The intersection is at the origin, making the lines visually overlap only there"
+  answer: 2
+  explanation: "When two equations are identical (or one is a scalar multiple of the other), they represent the same line — a dependent system. Every point on the line satisfies both equations, so there are infinitely many solutions. Seeing 'one line' is correct; it's not an error. This case arises when you simplify two apparently different equations and find they reduce to the same relationship."
+
+- question: "The intersection point of two graphed lines is the solution to the system because it is the midpoint between the two lines."
+  type: true-false
+  answer: false
+  explanation: "The intersection point is the solution because it is the one ordered pair (x, y) that lies on BOTH lines simultaneously — substituting its coordinates into either equation produces a true statement. 'Midpoint between lines' has no geometric meaning here. The solution is defined algebraically (it satisfies all equations) and interpreted geometrically (it's where the lines cross), not as any sort of average or midpoint."
+
+- question: "Graphing a system of equations can give an approximate but sometimes imprecise solution, especially when the intersection coordinates are not integers."
+  type: true-false
+  answer: true
+  explanation: "This is a genuine limitation of the graphing method. When the true intersection involves fractions or irrational numbers (e.g., x = 7/3, y = −5/4), reading those values accurately from a hand-drawn graph is unreliable. The graph reveals the type of solution (one, none, or infinitely many) and an approximate location, but algebraic methods — substitution and elimination — are needed for exact answers. This limitation is precisely what motivates learning those algebraic techniques."
+
+- question: "Why does the intersection point of two graphed lines represent the solution to a system of two equations?"
+  type: short-answer
+  answer: "Every point on a line satisfies that line's equation — it makes the equation true. The intersection point lies on both lines at the same time, so it satisfies both equations simultaneously. That is exactly what a solution to a system means: one set of values for x and y that makes every equation in the system true at once. The graph makes this visual: the intersection is the only location in the coordinate plane where both equations hold true simultaneously."
+  explanation: "This geometric interpretation — solution = intersection — is why graphing builds intuition even when algebraic methods are more practical. Substituting the intersection coordinates back into both original equations to verify the solution reinforces the definition: the solution must satisfy all equations in the system. When lines don't intersect (parallel) or are identical (same line), the algebraic and geometric interpretations align: no common point means no solution, and infinitely many shared points means infinitely many solutions."
+```
+
 ## Explainer
 
 You already know how to graph a single linear equation in slope-intercept form and see it as a straight line cutting across the coordinate plane. Every point on that line is a solution to the equation — an ordered pair (x, y) that makes it true. A system of two equations simply asks: which ordered pairs satisfy *both* equations at the same time? Graphically, that means: where do the two lines cross?

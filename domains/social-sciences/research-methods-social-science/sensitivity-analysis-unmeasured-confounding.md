@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 All observational causal estimates depend on unverifiable assumptions about unmeasured confounders. Sensitivity analysis quantifies how large unmeasured confounding must be to overturn conclusions. This acknowledges uncertainty while assessing robustness.
 
+## Questions
+
+```yaml
+- question: "A researcher estimates that a tutoring program raises test scores by 8 points after matching students on income, prior grades, and school quality. A reviewer asks: 'What about student motivation — more motivated students might both seek tutoring and score higher regardless?' Which response best demonstrates sensitivity analysis thinking?"
+  type: multiple-choice
+  options:
+    - "Motivation is unmeasured, so we cannot draw any causal conclusion from this study"
+    - "We estimate that an unmeasured confounder would need to roughly triple the odds of receiving tutoring while also raising baseline scores by 5 points to eliminate our result — we judge that implausibly strong"
+    - "Since motivation correlates with tutoring, we should re-run the study controlling for it"
+    - "The 8-point effect is large enough that motivation alone couldn't plausibly explain it away"
+  answer: 1
+  explanation: "Sensitivity analysis responds to the threat of unmeasured confounding not with despair or dismissal, but by quantifying the threshold: how strong would the confounder need to be to overturn the conclusion? The correct response names the specific magnitude, then argues whether confounding that large is plausible. Option A overcorrects (treating all observational evidence as worthless). Option D undercorrects (asserting robustness without quantifying it). Option C misses the point entirely — if motivation is unmeasured, you cannot 'control for it' in a future study without first measuring it."
+
+- question: "A study reports its Rosenbaum sensitivity analysis result as Γ = 2.5. What is the correct interpretation?"
+  type: multiple-choice
+  options:
+    - "The study's result could be explained by a confounder present in 2.5% of the sample"
+    - "An unmeasured confounder would need to increase the odds of treatment assignment by a factor of 2.5 — holding all measured covariates constant — to eliminate the statistical significance of the result"
+    - "The treatment effect is 2.5 times larger than any measured covariate's effect"
+    - "The confidence interval spans 2.5 units on either side of the point estimate"
+  answer: 1
+  explanation: "Gamma parameterizes unmeasured confounding as an odds ratio for treatment assignment. Γ = 2.5 means that to explain away the result, an unmeasured confounder would need to make matched individuals 2.5 times more likely to receive treatment — after accounting for all measured covariates. Higher Γ means greater robustness: the unmeasured confounder required to nullify your result is increasingly implausible. This framing turns the question over to domain expertise: is there a plausible variable that strongly predicts both treatment and outcome but wasn't measured?"
+
+- question: "An unmeasured variable that strongly predicts who receives treatment but has no relationship to the outcome cannot confound the estimated treatment effect, even though it is unmeasured."
+  type: true-false
+  answer: true
+  explanation: "Confounding requires that a variable affect both treatment assignment AND the outcome. A variable that only predicts treatment creates imbalance between groups on that variable, but since it doesn't affect outcomes, it produces no bias in the estimated treatment effect. Similarly, a variable that affects outcomes but is balanced between treatment and control cannot confound either. This is not merely definitional — it has practical implications: sensitivity analysis focuses on unmeasured variables that could plausibly affect both, not just any unmeasured variable."
+
+- question: "Conducting sensitivity analysis on an observational study's results weakens the causal claim by acknowledging that confounding might exist, effectively converting a causal finding into a correlational one."
+  type: true-false
+  answer: false
+  explanation: "Sensitivity analysis doesn't weaken a causal claim — it makes it honest and defensible. The output remains a conditional causal claim: 'If unmeasured confounding is weaker than Γ = 2.5, the effect is causal.' This is not correlation. All observational causal inference is conditional on unverifiable assumptions; sensitivity analysis makes those conditions explicit and evaluable, which strengthens the argument rather than weakening it. Pretending the no-confounding assumption is definitely satisfied — without sensitivity analysis — is the weaker, less honest practice."
+
+- question: "What does sensitivity analysis actually accomplish, and what is the key conceptual shift it demands from researchers?"
+  type: short-answer
+  answer: "Sensitivity analysis quantifies the threshold at which unmeasured confounding would overturn a conclusion — it does not eliminate or verify the no-confounding assumption. The key shift is treating causal conclusions as conditional rather than absolute: the output becomes 'IF unmeasured confounding is weaker than X, THEN the effect is real,' paired with a substantive argument about whether X is plausible. This converts a hidden, unexamined assumption into an explicit, debatable parameter."
+  explanation: "Without sensitivity analysis, the no-unmeasured-confounding assumption lurks implicitly — researchers proceed as if it is satisfied without stating or defending it. With sensitivity analysis, the assumption becomes quantified: you can ask domain experts whether any plausible unmeasured variable could increase treatment odds by a factor of 3. This is a tractable question that marshals subject-matter knowledge and makes the causal argument transparent and contestable. The goal is not to fix the problem (nothing can) but to be honest about its magnitude and argue that it is insufficient to overturn your conclusion."
+```
+
 ## Explainer
 
 From your work on matching and weighting, you know that these methods balance observed covariates between treatment and control groups — essentially eliminating the influence of confounders you can measure. But matching and weighting cannot touch what you cannot see. The fundamental limitation of any observational study is the **no unmeasured confounding assumption** (also called ignorability or exchangeability): the claim that all variables that affect both treatment assignment and the outcome have been measured and controlled for. This assumption is unverifiable from the data itself. Sensitivity analysis is the discipline of reasoning carefully about how wrong this assumption can be before your conclusion falls apart.

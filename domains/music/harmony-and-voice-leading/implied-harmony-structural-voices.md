@@ -26,6 +26,45 @@ Music sometimes creates harmonic implication through voice leading without expli
 ## How It's Best Learned
 Take a simple folk melody and identify which notes are structural (carrying harmonic meaning) versus ornamental. Then harmonize the structural skeleton and compare with possible full-voice harmonization of the melody.
 
+## Questions
+
+```yaml
+- question: "In 'Twinkle Twinkle Little Star,' the opening scale degrees are 1–1–5–5–6–6–5. Which note is best classified as ornamental in this phrase?"
+  type: multiple-choice
+  options:
+    - "Scale degree 1 — it appears twice and could be reduced to one occurrence"
+    - "Scale degree 5 — it is the dominant and feels harmonically unstable"
+    - "Scale degree 6 — it passes between the two structural scale degree 5s as a neighbor tone"
+    - "Scale degree 1 — the tonic is always ornamental since it just confirms the key"
+  answer: 2
+  explanation: "Scale degree 6 (A in C major) is a neighbor tone: it moves up one step from the structural G (scale degree 5) and immediately returns to G. Removing it leaves the structural skeleton intact — the harmonic meaning (dominant) is unchanged. Scale degrees 1 and 5 are structural; they are the tonic and dominant chord tones that carry the harmonic meaning of the phrase. The defining test for ornamental vs. structural is: does the harmony remain clear if you remove this note?"
+
+- question: "A solo violinist's melody lingers on G and D (returning to them repeatedly, ending phrases on them), while passing quickly through E and F#. Which are the structural tones?"
+  type: multiple-choice
+  options:
+    - "E and F#, because they create the most tension and therefore carry more harmonic information"
+    - "All four equally — in a melody, every note is structurally significant"
+    - "G and D, because they receive emphasis, longer duration, and serve as phrase goals"
+    - "None — a solo melody cannot imply harmony without accompaniment"
+  answer: 2
+  explanation: "Structural tones are identified by emphasis, duration, and their role as phrase goals — the notes the melody 'aims toward' and 'rests on.' G and D are dwelt upon and serve as arrival points; E and F# move quickly between them, functioning as passing or neighbor tones. A solo melody absolutely can imply harmony — the G–D pairing implies a G-major or D-major sonority (both contain G and D as strong harmonic tones). The listener infers the underlying harmony from the contour and goal notes."
+
+- question: "In Schenkerian analysis, the Urlinie (fundamental line) always descends stepwise from scale degree 3 or 5 down to scale degree 1."
+  type: true-false
+  answer: true
+  explanation: "This is a core claim of Schenkerian theory: the entire tonal surface of a piece is an elaboration of a background structural framework consisting of the Urlinie descending stepwise from 3̂ or 5̂ to 1̂, over a bass Arpeggiation tracing I–V–I. The Urlinie is not a summary of the melody's surface; it is the deepest structural voice-leading motion, revealed by progressive reduction that strips away ornamental tones. Beginning from scale degree 2̂ is not considered a valid Urlinie form in Schenker's theory."
+
+- question: "Ornamental tones are musically meaningless — they add surface variety but carry no structural or expressive function."
+  type: true-false
+  answer: false
+  explanation: "Ornamental tones are not meaningless — they are the artistry of a piece. They give the surface its rhythmic energy, melodic contour, and expressive character. The structural skeleton explains *why* the music sounds directed and coherent (it has clear harmonic goals), but the ornamental tones determine *how* it moves between those goals. The distinction structural/ornamental is about harmonic function, not musical value. Reducing a piece to its skeleton shows the architecture; the full surface is where the music lives."
+
+- question: "A composer wants a complex, elaborately ornamented melodic surface to feel purposeful and coherent rather than arbitrary. According to implied harmony analysis, what must be true about the structural skeleton underneath?"
+  type: short-answer
+  answer: "The structural skeleton — the network of structural tones carrying harmonic meaning — must itself be clear, well-directed, and harmonically coherent. The ornamental surface can be as dense and complex as the composer wishes, as long as the structural voice leading beneath it outlines a clear and purposeful harmonic progression. If the skeleton is confused or harmonically ambiguous, no amount of decorative elaboration will make the surface feel coherent; it will just feel arbitrary."
+  explanation: "This is the key compositional application of implied harmony analysis: complexity and coherence are not in conflict, but they operate at different levels. You can add any ornament you want without losing coherence — provided the structural tones remain clearly implied. Conversely, if the structural level is poorly defined, listeners cannot extract the underlying direction, and the elaborate surface feels like random noise. Skilled composers control both levels simultaneously."
+```
+
 ## Explainer
 
 When you hear a solo violin melody or an unaccompanied vocal line, you're not just hearing pitches in sequence — you're hearing implied harmony. The melody moves through certain notes more slowly and with more emphasis, landing on scale degrees that feel like harmonic goals. Other notes pass quickly between these structural points. This distinction between **structural tones** (notes that carry harmonic meaning) and **ornamental tones** (notes that decorate the path between structural ones) is the foundation of implied harmony analysis.

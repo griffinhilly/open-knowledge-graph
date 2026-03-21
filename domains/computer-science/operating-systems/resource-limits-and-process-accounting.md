@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Operating systems limit per-process resource consumption (memory, CPU time, file descriptors, disk I/O) to prevent resource exhaustion and ensure fair allocation. Process accounting tracks resource usage for billing, capacity planning, and auditing. Limits are enforced by the kernel at the per-process, user, or system level and can be adjusted dynamically or by configuration.
 
+## Questions
+
+```yaml
+- question: "A process tries to open its 2000th file descriptor. Its soft limit is 1024 and its hard limit is 4096. What can the process do?"
+  type: multiple-choice
+  options:
+    - "The open() call fails; the process cannot open more file descriptors regardless"
+    - "The process can raise its own soft limit to up to 4096 and retry the open() call"
+    - "The process needs root privileges to open more file descriptors since it exceeded its limit"
+    - "The kernel automatically kills the process for exceeding its resource limit"
+  answer: 1
+  explanation: "A process can raise its own soft limit up to the hard limit without special privileges. Since 2000 < 4096 (the hard limit), the process calls setrlimit() to raise its soft limit (e.g., to 4096), then the open() succeeds. Root is only required to raise the hard limit itself. The soft limit is the currently enforced ceiling, not an absolute cap."
+
+- question: "What is the key distinction between resource limits and process accounting?"
+  type: multiple-choice
+  options:
+    - "Limits control memory usage; accounting controls CPU time"
+    - "Limits are enforced by hardware; accounting is a software-only mechanism"
+    - "Limits proactively prevent resource exhaustion; accounting reactively records what was consumed"
+    - "Limits apply only to privileged processes; accounting applies to all processes"
+  answer: 2
+  explanation: "The fundamental distinction is proactive vs. reactive: limits cap resource consumption before damage occurs, while accounting records actual usage after the fact. Together they form a governance system — limits prevent abuse, accounting enables analysis, billing, and tuning. Neither substitutes for the other."
+
+- question: "A process can raise its own hard limit without administrator privileges if it needs more resources."
+  type: true-false
+  answer: false
+  explanation: "Hard limits are the absolute ceiling and can only be raised by the superuser (root). A process can freely adjust its soft limit up to the hard limit, but it cannot exceed the hard limit without root access. This two-tier design allows normal processes to tune their own behavior within safe bounds while preventing unprivileged processes from bypassing system-wide resource governance."
+
+- question: "Process accounting data can be used for capacity planning and usage-based billing on shared computing systems."
+  type: true-false
+  answer: true
+  explanation: "Accounting records CPU time consumed, I/O performed, page faults, and run durations per process. On shared systems — university clusters, cloud servers, corporate batch systems — this data directly enables administrators to answer 'which user consumed the most CPU this month?' and to bill accordingly. It also helps identify bottlenecks and unusual resource spikes."
+
+- question: "Why would an operating system use both resource limits and process accounting rather than relying on just one mechanism?"
+  type: short-answer
+  answer: "Limits are proactive: they prevent a runaway process from exhausting resources before damage occurs. Accounting is reactive: it records what actually happened so administrators can tune limits, identify bottlenecks, and hold users accountable. They serve complementary roles — limits prevent abuse in real time, accounting enables analysis and enforcement after the fact. Neither alone is sufficient: limits without accounting give no visibility into usage patterns; accounting without limits allows damage before it can be analyzed."
+  explanation: "The two mechanisms target different time horizons. Limits enforce policy in the present; accounting creates a historical record for the future. A well-governed multi-user system needs both: enforce fair usage now, understand actual usage patterns over time."
+```
+
 ## Explainer
 
 You already know that a process is the OS's unit of running work — it has its own address space, open files, and CPU state. But imagine a multi-user server where hundreds of processes run simultaneously. Without guardrails, a single runaway process could consume all available memory or open every file descriptor the kernel supports, starving every other process on the machine. **Resource limits** are the kernel's answer: per-process caps that say "you may use this much and no more."

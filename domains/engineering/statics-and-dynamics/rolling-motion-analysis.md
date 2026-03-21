@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Rolling without slipping (v = ωr) is a nonholonomic constraint that couples translational and rotational motion. The no-slip condition at the contact point relates acceleration (a = αr) and, through energy analysis, reveals that rolling motion distributes kinetic energy between translation and rotation—the rolling object accelerates slower than one sliding freely.
 
+## Questions
+
+```yaml
+- question: "A solid disk (I = ½mr²) and a thin ring (I = mr²) of the same mass and radius are released from rest at the top of the same ramp. Which reaches the bottom first?"
+  type: multiple-choice
+  options:
+    - "The ring — it has more rotational inertia, which propels it faster"
+    - "The solid disk — it has a lower I/mr² ratio, so less energy goes into rotation and more into translation"
+    - "They tie — both have the same mass, so gravitational force is identical"
+    - "The disk — because the ring's larger moment of inertia causes it to slip"
+  answer: 1
+  explanation: "Rolling kinetic energy is KE = ½mv²(1 + I/mr²). For a solid disk, I/mr² = ½, giving KE = ¾mv². For a ring, I/mr² = 1, giving KE = mv². At the same height, both start with the same potential energy mgh. The ring must 'spend' more of that energy on rotation, leaving less for translation — so its center moves slower. The disk wins every time, regardless of mass, because the ratio I/mr² depends only on geometry. The common error is thinking mass determines the winner."
+
+- question: "A disk of radius r rolls without slipping with its center moving at speed v. What is the velocity of the topmost point of the disk?"
+  type: multiple-choice
+  options:
+    - "v — all points on a rolling disk move at the same speed as the center"
+    - "0 — all points rotate around the center, so the top and bottom cancel out"
+    - "2v — the top point's translational and rotational velocities add together"
+    - "½v — the topmost point is moving against the direction of travel"
+  answer: 2
+  explanation: "Every point on a rolling object has two components of velocity: the translational velocity v of the center (same for all points), plus a rotational velocity relative to the center. At the top, the rotational velocity is +ωr = +v in the same direction as the translation, giving 2v total. At the contact point, the rotational velocity is -ωr = -v, exactly canceling the translational +v, giving zero — which is required by the no-slip condition. This geometry (contact at rest, top at 2v) is a direct consequence of the instantaneous center of rotation being at the contact point."
+
+- question: "A rolling object always reaches the bottom of a frictionless ramp more slowly than an identical sliding block, regardless of the object's mass."
+  type: true-false
+  answer: true
+  explanation: "The rolling constraint forces the object to distribute its kinetic energy between translational and rotational motion: KE_total = ½mv²(1 + I/mr²). A sliding block on a frictionless ramp converts all potential energy to translational KE = ½mv². Since the rolling object must also spin, less energy is available for translation at any given height, so it moves slower. Mass cancels from both sides of the energy equation (mgh = ½mv²(1 + I/mr²)), confirming that mass does not affect the outcome — only the shape ratio I/mr² matters."
+
+- question: "Two rolling objects of different masses but the same geometric shape will reach the bottom of a ramp at different times because the heavier object has more gravitational force acting on it."
+  type: true-false
+  answer: false
+  explanation: "Mass cancels completely in the rolling-down-a-ramp problem. From energy conservation: mgh = ½mv²(1 + I/mr²). Dividing both sides by m, the descent speed v depends only on gh and I/mr² — neither of which involves mass. A heavy solid disk and a light solid disk released together will reach the bottom at exactly the same time. This is the rotational analog of Galileo's finding that all objects fall at the same rate in free fall. What determines arrival time is the geometry of the object (I/mr²), not its mass."
+
+- question: "Why does the no-slip condition (v = ωr) mean that a rolling object has effectively higher inertia than a sliding block of the same mass?"
+  type: short-answer
+  answer: "The no-slip constraint couples translational and rotational motion into a single degree of freedom. Any force that accelerates the center (producing a = αr) must also simultaneously angularly accelerate the spinning — it cannot do one without the other. The energy that goes into spinning (½Iω² = ½I(v/r)²) is unavailable for translational acceleration. Effectively, the object resists acceleration from both its translational mass m and its rotational inertia I/r². The total effective inertia is m(1 + I/mr²), always greater than m alone. This is why rolling objects accelerate more slowly than sliding ones under the same net force."
+  explanation: "The physical picture is: a net horizontal force on a sliding block on a frictionless surface accelerates only the center of mass. The same force on a rolling object must also cause rotation — friction at the contact point creates a torque. Some of the applied force's effect goes into spinning, less into translating. The coupling via v = ωr means you cannot speed up the center without also speeding up the rotation, so the 'effective mass' seen by any accelerating force is larger than the actual mass. This insight generalizes to all constrained mechanical systems: constraints redistribute inertia."
+```
+
 ## Explainer
 
 You've studied rigid body rotation and the constraints that govern mechanical systems. Rolling without slipping is the most important constrained rigid-body motion in engineering, appearing in wheels, gears, planetary rollers, and ball bearings. The "without slipping" condition is a constraint that links translational and rotational motion in a precise way — and understanding that link transforms what seems like a complex problem into a tractable one.

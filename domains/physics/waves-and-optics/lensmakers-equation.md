@@ -29,6 +29,45 @@ Compare the focal lengths of lenses with identical shapes but different glass ty
 - The sign convention for R₁ and R₂ is the trickiest part; always define the convention first and apply it to the specific lens orientation.
 - A lens in water has a longer focal length than the same lens in air because (n_glass − n_water) < (n_glass − n_air).
 
+## Questions
+
+```yaml
+- question: "A glass lens (n = 1.5) has focal length f in air. The same lens is submerged in water (n = 1.33). What happens to its focal length?"
+  type: multiple-choice
+  options:
+    - "It decreases — the lens is more powerful in water because light bends more"
+    - "It stays the same — focal length depends only on the lens geometry, not the medium"
+    - "It increases — the effective index contrast between lens and medium is smaller, reducing bending power"
+    - "It becomes negative — the lens becomes diverging in water"
+  answer: 2
+  explanation: "The full lensmaker's equation includes (n_lens/n_medium − 1). In air, this factor is (1.5/1.0 − 1) = 0.5. In water, it becomes (1.5/1.33 − 1) ≈ 0.128 — about four times smaller. So the focal length increases by roughly that factor: the same glass lens is a much weaker converging lens in water. This is why your cornea (which acts as a lens) loses most of its refracting power when submerged — the index contrast with water is nearly gone. Option B is the key misconception: focal length is NOT just a property of the glass shape."
+
+- question: "A lens designer wants to achieve a given focal length using a thinner, lighter lens with flatter surfaces. Which material property should she choose to maximize?"
+  type: multiple-choice
+  options:
+    - "Lower refractive index — less dense glass curves light more per unit thickness"
+    - "Higher refractive index — more index contrast means each surface bends light more, so less curvature is needed"
+    - "Lower density — thinner lenses require less mass, not a different optical property"
+    - "Higher dispersion — spreading colors more gives more overall focusing power"
+  answer: 1
+  explanation: "The lensmaker's equation shows that focal length is inversely proportional to (n − 1). A higher n makes (n − 1) larger, increasing 1/f and thus shortening the focal length — meaning more power per unit of surface curvature. To get the same focal length with a higher-n material, you can use flatter (larger-radius) surfaces, making the lens thinner and lighter. This is exactly why high-index glass is used in modern thin eyeglass lenses. Dispersion (option D) describes how n varies with wavelength, which causes chromatic aberration — not overall focusing power."
+
+- question: "The focal length of a lens is determined solely by the refractive index of the lens material and the radii of curvature of its surfaces — the medium surrounding the lens plays no role."
+  type: true-false
+  answer: false
+  explanation: "This is false. The lensmaker's equation in its full form is 1/f = (n_lens/n_medium − 1)(1/R₁ − 1/R₂). The surrounding medium enters through n_medium. In air (n_medium ≈ 1) the equation simplifies to the familiar (n − 1) form, but this is a special case. Immerse any lens in a medium with refractive index closer to that of the lens and the focal length increases dramatically. A lens immersed in a fluid with the exact same refractive index has infinite focal length — it doesn't bend light at all."
+
+- question: "For a biconvex lens oriented so the first surface faces incoming light, the lensmaker's sign convention assigns a positive radius of curvature to the first surface and a negative radius to the second."
+  type: true-false
+  answer: true
+  explanation: "Correct. The standard sign convention defines R as positive if the center of curvature lies to the right of the surface, and negative if it lies to the left. For a biconvex lens in the standard orientation: the first surface bulges toward incoming light, so its center of curvature is to the right — R₁ > 0. The second surface bulges away from outgoing light, so its center of curvature is to the left — R₂ < 0. This makes 1/R₁ − 1/R₂ = (positive) − (negative) = a positive sum, giving a positive 1/f, confirming a converging lens."
+
+- question: "Why does human vision blur when opening your eyes underwater, and why does wearing swim goggles restore clear vision?"
+  type: short-answer
+  answer: "The cornea normally forms images by refracting light at the air-cornea interface, where there is a large difference in refractive index (air ≈ 1.0, cornea ≈ 1.376). When submerged in water (n ≈ 1.33), the index contrast at the cornea drops from about 0.376 to about 0.046 — a factor of ~8 reduction. By the lensmaker's equation, this collapse in (n_lens/n_medium − 1) increases the focal length enormously, leaving the eye far too weak to focus on the retina. Swim goggles trap an air pocket in front of the eyes, restoring the original air-cornea index contrast and therefore the normal focusing power."
+  explanation: "This question tests whether students understand the key insight: focal length depends on the surrounding medium, not just the lens material. The cornea functions as a lens, and like any lens, its power depends on the index contrast with its environment. Underwater, that contrast nearly vanishes. The goggles solution is elegant precisely because it requires no change to the optical components — just restoring the air interface."
+```
+
 ## Explainer
 
 You already know from the thin-lens equation that a converging lens with focal length f forms images according to 1/do + 1/di = 1/f. But where does f come from? The thin-lens equation treats f as a given, leaving the origin of focal length in a black box. The **lensmaker's equation** opens that box: 1/f = (n − 1)(1/R₁ − 1/R₂). It connects the focal length to two physical properties — the refractive index n of the lens material, and the radii of curvature R₁ and R₂ of its two surfaces.

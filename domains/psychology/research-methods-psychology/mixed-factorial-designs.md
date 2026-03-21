@@ -31,6 +31,45 @@ Sketch designs using 2×3 matrices (rows = between factor, columns = within fact
 - Order effects only affect the within factor; between-group differences can interact with order, creating factorial confounds.
 - All factorial designs are equally powerful; efficiency depends on effect sizes and the relative costs of between vs. within observation.
 
+## Questions
+
+```yaml
+- question: "A clinical trial assigns participants to treatment or placebo (between-subjects) and measures them at baseline, 6 weeks, and 12 weeks (within-subjects). The treatment group improves by 15 points from baseline to 12 weeks; the placebo group improves by 14 points. The Group × Time interaction is non-significant. What can you conclude?"
+  type: multiple-choice
+  options:
+    - "The treatment was effective because the treatment group improved by more than the placebo group"
+    - "The treatment showed no differential efficacy — both groups changed over time by nearly the same amount, with no significant difference in trajectory"
+    - "The design is flawed because both groups should not improve if the treatment is working"
+    - "No conclusion is possible without knowing whether the main effect of time was significant"
+  answer: 1
+  explanation: "The scientifically central question in a treatment × time design is whether the trajectory of change over time differs between groups — this is the Group × Time interaction. A non-significant interaction means both groups changed by approximately the same amount. The 1-point difference between 15 and 14 is not a differential treatment trajectory; it is captured by the group main effect and likely reflects noise. A significant interaction — not a significant group main effect — is the signature of differential treatment efficacy."
+
+- question: "In a mixed-factorial design, why is the error term for testing the within-subjects factor smaller than for the between-subjects factor?"
+  type: multiple-choice
+  options:
+    - "Because within-subjects effects are measured at more time points, providing more data"
+    - "Because individual differences (person-level variance) are removed from the within-subjects error term, since each person serves as their own baseline"
+    - "Because the within-subjects factor always has more levels, spreading variance across more cells"
+    - "Because researchers choose the within-subjects factor to be the more reliable measurement"
+  answer: 1
+  explanation: "In within-subjects analysis, each participant contributes measurements at every level of the factor, so person-level variance can be partitioned out of the error term. Two people who both improve 10 points are perfectly consistent even if their baseline scores differ by 30 points — their individual baseline is subtracted out. This partitioning of individual differences is the core statistical efficiency advantage of within-subjects designs. It carries into the within-subjects portion of mixed designs, giving those effects more power than the between-subjects effects."
+
+- question: "In a mixed-factorial treatment study, a significant main effect of the between-subjects group factor is the primary evidence that the treatment worked."
+  type: true-false
+  answer: false
+  explanation: "A significant between-subjects main effect only tells you that one group scored higher on average across all time points. This could reflect pre-existing group differences rather than treatment-driven change. The Group × Time interaction is the primary evidence of differential treatment efficacy — it tests whether the trajectory of change over time differs between groups. Main effects alone cannot distinguish 'the treatment group was already different' from 'the treatment group changed differently over time.'"
+
+- question: "In a treatment × time mixed design, non-parallel lines when plotting group means across time points indicate a Group × Time interaction."
+  type: true-false
+  answer: true
+  explanation: "Plotting time on the x-axis with separate lines per group is the standard visualization of a mixed design. Parallel lines mean each group changed by the same amount across time — no interaction. Non-parallel lines (different slopes, or crossing lines) indicate the groups differed in their rate or direction of change over time — a Group × Time interaction. This graphical interpretation is one of the most direct ways to communicate whether a differential treatment trajectory exists."
+
+- question: "What does a Group × Time interaction actually mean in a treatment study, and why is it more informative than the main effects alone?"
+  type: short-answer
+  answer: "A Group × Time interaction means the effect of time is different depending on which group you are in — equivalently, the effect of group differs depending on when you measure it. In a treatment study, this is the signature that one group's scores changed over time in a pattern the other group did not show. Main effects in isolation cannot capture this: the main effect of group asks whether one group scored higher overall; the main effect of time asks whether scores changed overall. Neither tells you whether the treatment produced a distinctive trajectory of change compared to control."
+  explanation: "This is why the interaction is typically reported as the primary finding in treatment research. A treatment that causes both groups to improve equally produces significant main effects of time and possibly group, but a non-significant interaction — meaning no evidence the treatment specifically drove differential change. The interaction directly tests the causal claim."
+```
+
 ## Explainer
 
 You've studied between-subjects designs, where different participants are assigned to different conditions, and within-subjects designs, where the same participants experience all conditions. Each has characteristic strengths and limitations. Between-subjects designs eliminate carryover effects but require more participants and leave person-level variance in the error term, reducing power. Within-subjects designs are statistically efficient (person variance is removed) but are vulnerable to order effects, practice, and fatigue. A **mixed-factorial design** combines both in a single study: at least one factor is between-subjects and at least one factor is within-subjects, and the design asks how these factors interact.

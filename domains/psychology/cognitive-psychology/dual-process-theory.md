@@ -34,6 +34,45 @@ Use the Cognitive Reflection Test: items like 'A bat and ball cost $1.10 total; 
 - The two systems are not separate brain areas — they represent processing styles that overlap neurologically and shade into each other on a continuum.
 - System 2 is not always more accurate than System 1 — in domains of genuine expertise, fast intuitive Type 1 processes often outperform slow deliberate analysis.
 
+## Questions
+
+```yaml
+- question: "On the Cognitive Reflection Test, a person of high general intelligence confidently answers '10 cents' to the bat-and-ball problem (correct answer: 5 cents). What does this most directly demonstrate about System 1 and System 2?"
+  type: multiple-choice
+  options:
+    - "High intelligence reliably activates System 2 to catch System 1 errors"
+    - "System 2 often endorses System 1's output without independent verification, even in intelligent people"
+    - "System 1 is more accurate than System 2 for arithmetic problems"
+    - "The bat-and-ball problem is too difficult for System 2 to solve under normal conditions"
+  answer: 1
+  explanation: "The CRT is specifically designed to generate a compelling but wrong System 1 answer ('10 cents' feels obvious). The key finding is that many highly intelligent people still answer '10 cents' — not because they lack the ability to reason correctly, but because they don't recruit System 2 to check the System 1 output. The default architecture is: System 1 generates a confident-feeling answer, System 2 checks it only if something signals 'this needs review.' Intelligence predicts accuracy on many tasks, but cognitive reflection — the disposition to pause and check — is a separate trait that better predicts CRT performance."
+
+- question: "An experienced emergency physician, after years of practice, senses immediately that 'something is wrong' with a patient before completing a systematic examination — and the intuition turns out to be correct. What does dual-process theory say about this?"
+  type: multiple-choice
+  options:
+    - "The physician's System 2 is running unusually fast due to expertise, explaining the rapid correct response"
+    - "System 1, trained on thousands of patient encounters, has encoded reliable pattern-matching that can outperform deliberate System 2 analysis in this domain"
+    - "The physician's response is a cognitive bias (representativeness heuristic) that happened to be correct by chance"
+    - "Dual-process theory predicts that System 2 should always be more accurate, so this example is an anomaly"
+  answer: 1
+  explanation: "This is the crucial nuance of dual-process theory: System 2 is NOT simply 'the accurate system.' In domains with genuine regularities where an expert has accumulated thousands of cases, System 1 encodes those patterns into fast, reliable intuitions. The physician's fast pattern recognition outperforms slow deliberate analysis because the domain contains the structure that makes fast pattern-matching reliable. Dual-process theory's real lesson is not 'slow down and think carefully' — it is 'know which mode of processing is appropriate for the domain.' Forcing System 2 deliberation onto an expert's reliable intuition can actually degrade performance."
+
+- question: "System 2 processing is more accurate than System 1 processing across all domains and types of tasks."
+  type: true-false
+  answer: false
+  explanation: "This is the most important misconception about dual-process theory. System 2 is more accurate for tasks requiring logical rule application in domains without extensive prior experience. But in domains of genuine expertise — chess, medicine, fire-fighting, music — fast System 1 processes often match or outperform deliberate System 2 analysis. A chess grandmaster's immediate intuitive move often beats their step-by-step calculation. The reason: expert System 1 has been trained on thousands of examples and encodes statistically reliable patterns. The correct framing is: System 2 outperforms System 1 in unfamiliar domains; in familiar structured domains, expert System 1 often wins."
+
+- question: "The 'two systems' in dual-process theory correspond to two distinct, anatomically separate brain regions."
+  type: true-false
+  answer: false
+  explanation: "Despite the convenient 'System 1 / System 2' framing, the two types of processing are not localized to separate brain structures. They represent processing styles — fast/automatic/parallel vs. slow/deliberate/serial — that are implemented across overlapping neural circuits. Neuroimaging studies show that the same brain regions participate in both fast and slow processing depending on context, training, and task demands. Some researchers prefer the neutral labels 'Type 1' and 'Type 2' processes precisely to avoid implying a clean anatomical split. The two-system metaphor is useful for understanding behavior but should not be taken as a neuroanatomical claim."
+
+- question: "Why does deliberate, slow thinking (System 2) not always produce better outcomes than fast intuition (System 1), even on high-stakes decisions?"
+  type: short-answer
+  answer: "System 2 outperforms System 1 only when the domain lacks the regularities that make fast pattern-matching reliable. In domains of genuine expertise — where a person has accumulated thousands of experiences in an environment with clear feedback and stable structure — System 1 encodes valid patterns that can be retrieved and applied faster than deliberate analysis. Forcing slow deliberation in these domains can actually degrade performance by replacing reliable compiled knowledge with halting, incomplete explicit reasoning. The critical question is not 'how fast was the decision?' but 'does this domain have enough structure for fast pattern-matching to be reliable?' Where it does (expert chess, experienced clinical diagnosis, skilled music performance), System 1 often wins. Where it doesn't (predicting complex social outcomes, statistical reasoning, novel logic problems), System 2 is needed."
+  explanation: "This insight — that the value of deliberation depends on domain structure — is directly applicable to questions about when to trust expert intuition vs. demand justification. Kahneman's synthesis acknowledges that Gigerenzen's research on 'fast and frugal heuristics' is correct within its domain: for many real-world decisions made by experienced practitioners, simple fast rules outperform elaborate analysis."
+```
+
 ## Explainer
 
 You already know from your study of heuristics and cognitive biases that human judgment reliably departs from normative models in predictable ways — the availability heuristic, anchoring, representativeness, and dozens of others. What dual-process theory provides is the unifying architecture that explains *why* these biases occur systematically rather than randomly. The framework groups mental processes into two broad types and describes how their interaction produces both the efficiency and the error-proneness of human cognition.

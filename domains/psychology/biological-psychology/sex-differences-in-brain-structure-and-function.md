@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 Male and female brains show reliable differences in volume, connectivity, and neurochemistry, originating from both prenatal hormone exposure and sex chromosome effects. The anterior hypothalamus, corpus callosum, and cerebellum show substantial sexual dimorphism. Sex differences in cognitive abilities are modest and overlapping; explanations involve both biological factors (hormone effects on circuit development) and social factors (stereotype threat, gender socialization). Sex strongly influences psychiatric risk—females have higher rates of depression and anxiety, while males predominate in ADHD and autism.
 
+## Questions
+
+```yaml
+- question: "A study reports a statistically significant sex difference in a spatial rotation task (p < 0.001), with males scoring higher on average. A student concludes: 'This proves that males are better at spatial reasoning than females.' What is the most important flaw in this reasoning?"
+  type: multiple-choice
+  options:
+    - "Statistical significance alone does not convey effect size or distributional overlap — the average difference may be small relative to variation within each sex, making group membership a poor predictor of individual performance"
+    - "Spatial rotation tasks are culturally biased and therefore cannot be used to measure any real cognitive ability"
+    - "The study must have failed to control for handedness, which confounds spatial task performance"
+    - "Statistically significant differences always reflect genetic causes, so the conclusion should cite genes, not general cognitive ability"
+  answer: 0
+  explanation: "Statistical significance (p < 0.001) only tells you the result is unlikely under the null hypothesis — it says nothing about how large the difference is or how much the distributions overlap. For most cognitive sex differences, effect sizes are small to moderate and the within-sex variation far exceeds the between-sex average difference. This means knowing someone's sex gives very little predictive power about their individual spatial ability. The student's conclusion moves from 'average group difference exists' to 'group membership predicts individual performance,' which the data do not support."
+
+- question: "Stereotype threat experiments that reduce or eliminate sex differences in spatial performance under neutral testing conditions most directly support which conclusion?"
+  type: multiple-choice
+  options:
+    - "Sex differences in spatial ability are entirely fabricated by biased testing conditions and do not exist"
+    - "Biological factors have no influence on spatial task performance — all observed differences are socially caused"
+    - "Observed cognitive sex differences reflect the interaction of biological and social factors, not biological determinism alone"
+    - "Males are actually disadvantaged on spatial tasks but are socially conditioned to perform better"
+  answer: 2
+  explanation: "Stereotype threat studies show that a significant portion of the observed spatial performance gap can be reduced or eliminated by changing the testing context (e.g., removing cues that activate gender stereotypes). This does not prove the differences are entirely social — it shows that social factors are causally active contributors. The most defensible conclusion is that observed cognitive differences are the product of biological tendencies (from prenatal hormones, sex chromosomes, etc.) and social amplification through stereotype threat and differential practice. Option A goes too far; option B eliminates biology entirely without justification."
+
+- question: "Prenatal testosterone exposure has organizational effects on certain brain structures (such as hypothalamic nuclei) that persist into adulthood and contribute to sex differences in brain anatomy."
+  type: true-false
+  answer: true
+  explanation: "The 'organize-then-activate' model is well-supported: during a critical prenatal window, testosterone surges in male fetuses masculinize specific hypothalamic nuclei, most notably the sexually dimorphic nucleus of the preoptic area (SDN-POA), which ends up two to three times larger in males. These organizational effects are distinct from the activational effects of pubertal hormones — the architecture of sex-differentiated circuits is laid down prenatally. This is one of the most robust findings in the biology of sex differences."
+
+- question: "Because statistically significant sex differences in cognitive ability have been found across multiple studies, they are reliable enough to predict individual performance from group membership."
+  type: true-false
+  answer: false
+  explanation: "This conflates statistical significance with practical predictability. A difference can be highly statistically significant (reliably reproducible) yet have a small effect size with enormous distributional overlap, making individual prediction essentially useless. For most reported cognitive sex differences (including spatial rotation), the effect sizes are in the small-to-moderate range (d ≈ 0.3–0.5), meaning the distributions overlap enormously. Individual variation within each sex dwarfs the average between-sex difference. Statistical reliability tells you the difference is real; effect size and overlap tell you whether it is practically meaningful for predicting individuals."
+
+- question: "What does it mean to say that sex differences in brain and cognition are 'real but modest,' and why is this distinction important for interpreting research findings?"
+  type: short-answer
+  answer: "'Real' means statistically reliable differences exist — they replicate across independent samples and reflect genuine biological and psychological tendencies, not measurement artifact or bias alone. 'Modest' means the effect sizes are small to moderate, and the distributions for males and females overlap enormously, so individual variation within each sex far exceeds the average difference between sexes. The distinction matters for interpretation because: (1) 'real' does not imply 'large' or 'deterministic' — a real difference can be too small to predict individuals; (2) 'modest' does not imply 'nonexistent' or 'purely social' — acknowledging social factors is compatible with recognizing genuine biological tendencies; (3) the overlap means that individual members of each sex cannot be reliably classified or predicted from group averages alone."
+  explanation: "The history of this field has been distorted by overclaims in both directions: those who overstate differences as biologically fixed destiny, and those who deny them entirely on ideological grounds. The honest answer — real but modest, biologically influenced but socially amplified, statistically significant but not individually predictive — is less rhetorically useful but more empirically accurate. The methodological lesson is to always ask about effect size and distributional overlap, not just statistical significance."
+```
+
 ## Explainer
 
 From your study of reproductive hormones and sexual neural circuits, you already know that testosterone and estrogen are not just peripheral hormones — they directly sculpt brain development. **Sexual dimorphism** in brain structure begins in utero: during a critical prenatal window, testosterone surges in male fetuses masculinize certain hypothalamic nuclei, most famously the **sexually dimorphic nucleus of the preoptic area (SDN-POA)**, which ends up two to three times larger in males. This organizational effect of hormones — "organize, then activate" — means the architecture of sex-differentiated circuits is laid down long before puberty, though pubertal hormones then activate those circuits in sex-specific ways.

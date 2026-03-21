@@ -34,6 +34,45 @@ Prove convergence/divergence using the integral test (integral of 1/x^p). Study 
 - Confusing p-series with geometric series (p-series has n in the base, geometric has n in the exponent).
 - Not remembering whether p > 1 converges or diverges (think: the integral of 1/x^2 from 1 to infinity converges).
 
+## Questions
+
+```yaml
+- question: "A student argues that the harmonic series ∑ 1/n converges because its terms approach zero as n → ∞. Which response is correct?"
+  type: multiple-choice
+  options:
+    - "The student is wrong — the harmonic series diverges despite its terms approaching zero."
+    - "The student is right — any series whose terms go to zero must converge."
+    - "The student is partially right — the series converges conditionally but not absolutely."
+    - "The p-series test does not apply to the harmonic series, so no conclusion is possible."
+  answer: 0
+  explanation: "The harmonic series (p = 1) is the canonical example proving that terms going to zero is necessary but not sufficient for convergence. The partial sums grow like ln(n) — slowly but without bound — so the series diverges. Option B is the precise misconception the p-series concept is designed to demolish."
+
+- question: "Which of the following p-series converges?"
+  type: multiple-choice
+  options:
+    - "∑ 1/√n   (p = 1/2)"
+    - "∑ 1/n    (p = 1)"
+    - "∑ 1/n^(3/2)   (p = 3/2)"
+    - "∑ 1/n^(0.9)   (p = 0.9)"
+  answer: 2
+  explanation: "A p-series converges if and only if p > 1. Only option C has p = 3/2 > 1. Options A (p = 0.5), B (p = 1), and D (p = 0.9) all have p ≤ 1 and diverge. The boundary is strict: p = 1 diverges, and even p = 1.001 converges."
+
+- question: "The p-series ∑ 1/n² converges to a finite value."
+  type: true-false
+  answer: true
+  explanation: "True. With p = 2 > 1, the p-series test confirms convergence. The exact sum is π²/6 ≈ 1.645, a famous result known as the Basel problem solved by Euler. This is a concrete illustration that p > 1 produces a genuine finite limit."
+
+- question: "If the terms of an infinite series approach zero, the series must converge."
+  type: true-false
+  answer: false
+  explanation: "False — this is the central misconception the p-series highlights. The harmonic series ∑ 1/n has terms 1/n → 0, yet it diverges. Terms going to zero is necessary for convergence (the divergence test says: if terms don't go to zero, the series definitely diverges), but it is not sufficient. The rate of decay matters — 1/n decays too slowly."
+
+- question: "Why is p = 1 exactly the boundary between convergence and divergence for p-series?"
+  type: short-answer
+  answer: "The boundary comes directly from the integral test: the improper integral ∫₁^∞ 1/x^p dx converges when p > 1 (evaluating to 1/(p−1)) and diverges when p ≤ 1. Since 1/x^p is positive and decreasing, the integral test guarantees the series and the integral share the same convergence fate. So the series ∑ 1/n^p converges exactly when its companion integral converges — precisely when p > 1."
+  explanation: "The p = 1 boundary is not arbitrary; it is inherited from the exact threshold at which 1/x^p is integrable from 1 to infinity. For p > 1, the function decays fast enough that accumulated area is finite. At p = 1, area grows like ln(x) without bound. The series mirrors this because the integral test directly links them."
+```
+
 ## Explainer
 
 From your work with series, you know that convergence asks whether the infinite sum of a sequence of terms adds up to a finite number. From improper integrals, you know that ∫₁^∞ 1/x^p dx converges when p > 1 and diverges when p ≤ 1 — this is a boundary you calculated explicitly. The **p-series** ∑ 1/n^p mirrors this exactly, and that's not a coincidence: it's because the integral test directly connects the two. The integral test says that ∑f(n) and ∫f(x) dx converge or diverge together for positive, decreasing f. Since f(x) = 1/x^p is exactly that kind of function, the series and integral share the same fate at the same boundary: **p-series converges if and only if p > 1**.

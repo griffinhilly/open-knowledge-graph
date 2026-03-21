@@ -32,6 +32,45 @@ Given a plant transfer function with specified overshoot and settling time requi
 - The gain K found from the root locus is the open-loop gain parameter, not the closed-loop DC gain — the steady-state value of the step response depends on the closed-loop transfer function and may require separate steady-state error analysis.
 - Increasing K to speed up the response (higher ωn) eventually drives branches into the right half-plane for most systems, so there is a fundamental tradeoff between speed and stability that gain alone cannot resolve.
 
+## Questions
+
+```yaml
+- question: "A root locus for a third-order plant shows two branches crossing the desired damping ratio line at gains K1=2 and K2=15. At K2=15, the third closed-loop pole is much closer to the imaginary axis than at K1=2. Which gain should the designer prefer, and why?"
+  type: multiple-choice
+  options:
+    - "K2=15, because higher gain always means faster response and better transient performance"
+    - "K1=2, because at K2=15 the third pole may be close enough to the imaginary axis to violate the dominant-pole assumption, causing actual overshoot and settling time to differ from predictions"
+    - "Either gain, because both achieve the specified damping ratio and therefore produce identical step responses"
+    - "K2=15, because the magnitude condition requires choosing the largest valid gain on the locus"
+  answer: 1
+  explanation: "Both gains satisfy the damping ratio requirement, but the dominant-pole approximation assumes all non-dominant closed-loop poles are at least five times farther left than the dominant pair. At K2=15, the third pole migrates toward the imaginary axis, potentially violating this assumption. When it does, the third pole contributes meaningfully to the step response, producing more overshoot or a slower tail than the second-order prediction. The designer must check the dominant-pole assumption at each candidate gain and prefer the one where it is satisfied — meeting the ζ line is necessary but not sufficient."
+
+- question: "The root locus for a plant does not pass through the desired s-plane target region at any finite gain K. What is the correct conclusion?"
+  type: multiple-choice
+  options:
+    - "Increase K until the locus eventually reaches the target region — high enough gain can always extend the locus there"
+    - "Pure gain adjustment cannot achieve the specifications; a compensator must be added to reshape the locus before gain selection"
+    - "The specifications are physically impossible to achieve with any controller"
+    - "Recheck the locus sketch — the root locus always passes through every point in the left half-plane at some gain"
+  answer: 1
+  explanation: "The root locus shows exactly which s-plane locations closed-loop poles can occupy as K varies from 0 to infinity, determined entirely by the open-loop poles and zeros. If the desired region is not on the locus, no value of K places a pole there — not a larger K, not an optimized K. The solution is compensator design: adding poles or zeros to the open-loop transfer function changes the shape of the locus entirely, potentially routing it through the desired region. Only then does gain selection become meaningful. Option A is wrong because increasing K moves poles along the existing locus, which already misses the target."
+
+- question: "If the root locus passes through the desired damping ratio line at a given gain K, the resulting closed-loop system is guaranteed to meet the specified percent overshoot."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception about root locus gain design. Meeting the ζ specification by placing dominant poles on the correct line is necessary but not sufficient. The dominant-pole approximation assumes all other closed-loop poles are at least five times farther left. If nearby poles or zeros are present, they contribute to the response, producing more overshoot or a longer tail than the second-order prediction. The designer must always verify the dominant-pole assumption after computing K. Nearby zeros can also increase overshoot even when poles are correctly placed."
+
+- question: "The gain K computed from the root locus magnitude condition equals the product of distances from the desired pole location to all open-loop poles, divided by the product of distances to all open-loop zeros."
+  type: true-false
+  answer: true
+  explanation: "This is the geometric interpretation of the magnitude condition. At any point s* on the root locus, the condition |G(s*)H(s*)| = 1/K must hold. Expanding the open-loop transfer function as a product of first-order factors, the magnitude becomes the product of |s* - p_i| over the product of |s* - z_j|, which equals 1/K. Rearranging: K equals the product of distances to poles divided by the product of distances to zeros. This lets designers read off K graphically from a root locus plot using measured distances."
+
+- question: "Why can't a designer achieve an arbitrary closed-loop pole location by choosing a large enough gain K? What fundamental constraint does the root locus impose?"
+  type: short-answer
+  answer: "The root locus traces the exact set of s-plane locations that closed-loop poles can occupy as K varies from 0 to infinity. These paths are determined entirely by the open-loop poles and zeros and are fixed regardless of how K is chosen. Gain K selects a point along these fixed paths — it cannot move poles off the locus or create new paths. Desired pole locations that do not lie on the locus are simply unreachable through gain adjustment alone, regardless of how large K becomes. Adding a compensator (poles or zeros) restructures the locus itself, potentially routing it through the desired region, at which point gain selection can work."
+  explanation: "Recognizing that 'the locus does not pass through the desired region' is not a failure — it is critical diagnostic information indicating that the plant must be augmented before gain selection can achieve the specifications. This is the fundamental motivation for lead, lag, and lead-lag compensator design."
+```
+
 ## Explainer
 
 From your prerequisite work on root locus construction rules, you can draw the paths that closed-loop poles trace in the s-plane as the gain K varies from 0 to ∞. At K = 0, the closed-loop poles sit at the open-loop poles; as K → ∞, they migrate toward the open-loop zeros (or to infinity along asymptotes). The root locus tells you *where* the poles can go. Root locus gain design answers the follow-up question: where *should* they go, and what value of K puts them there?

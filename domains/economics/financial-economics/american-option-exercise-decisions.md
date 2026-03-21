@@ -27,6 +27,45 @@ American options' early exercise feature has value when receiving the intrinsic 
 ## How It's Best Learned
 Use binomial trees to solve the optimal exercise boundary and compare American and European option values under different scenarios.
 
+## Questions
+
+```yaml
+- question: "An American call on a non-dividend-paying stock is deep in-the-money with one month to expiration. An investor exercises it immediately to 'lock in profits.' Was this decision optimal?"
+  type: multiple-choice
+  options:
+    - "Yes — exercising eliminates downside risk from a stock price reversal"
+    - "Yes — deep in-the-money options have negligible time value so little is lost"
+    - "No — the option could have been sold for intrinsic value plus positive time value, which is always more"
+    - "It depends on how deep in-the-money the option is"
+  answer: 2
+  explanation: "Early exercise of an American call on a non-dividend-paying stock is never optimal. The option's market price equals intrinsic value plus time value, and time value is always positive before expiration. Exercising captures only intrinsic value, permanently destroying the time value. Selling the option always dominates exercising — it yields intrinsic plus time value. Option B is the seductive misconception: even 'negligible' time value is better than zero."
+
+- question: "When might early exercise of an American put be optimal?"
+  type: multiple-choice
+  options:
+    - "Never — puts, like calls, should always be held to expiration"
+    - "When the put is deep in-the-money and the interest earned on the intrinsic value exceeds the remaining time value"
+    - "When implied volatility is high, making the option more valuable alive"
+    - "Only when the underlying stock pays dividends"
+  answer: 1
+  explanation: "For a deep in-the-money put (e.g., the right to sell at $50 when the stock is at $2), exercising now yields ~$48 that can earn interest. If that interest exceeds the remaining time value of keeping the put alive, early exercise is rational. This is the key asymmetry: puts face an interest-opportunity cost that can dominate their time value; calls don't, because exercising a call means paying the strike price and forgoing interest on those funds."
+
+- question: "An American call on a non-dividend-paying stock is always worth more than an otherwise identical European call because of the early exercise right."
+  type: true-false
+  answer: false
+  explanation: "Because early exercise is never optimal for calls on non-dividend-paying stocks, the early exercise right has zero practical value. The American and European call are worth exactly the same in this case. The pricing premium for American options over European options only materializes for puts (where early exercise can be optimal) or for calls on dividend-paying stocks."
+
+- question: "Early exercise of an American call can become optimal when a large dividend is about to be paid."
+  type: true-false
+  answer: true
+  explanation: "When a stock goes ex-dividend, its price falls by approximately the dividend amount, shrinking the call's intrinsic value. Exercising just before the ex-dividend date captures the pre-dividend stock price. If the dividend exceeds the forgone time value from surrendering the option, early exercise is optimal. This is why American call options on high-dividend stocks trade above their European counterparts."
+
+- question: "Why is early exercise of an American call on a non-dividend-paying stock never optimal?"
+  type: short-answer
+  answer: "At any point before expiration, the option's market price equals intrinsic value plus positive time value. Exercising captures only intrinsic value — time value is permanently destroyed. Since the option can always be sold in the market for at least intrinsic value plus some time value, selling always strictly dominates exercising. The early exercise right is valuable in principle but should never actually be used on non-dividend-paying stocks."
+  explanation: "The intuition 'lock in profits by exercising' is wrong because the option itself already locks in those profits — it can be sold at any time. Exercising is irreversible and wasteful: you receive the stock (worth S) by paying the strike (K), getting S − K. But selling the option yields at least S − K plus the time premium. Early exercise is only rational when a specific cash flow (a dividend) makes holding the option cost more than exercising it."
+```
+
 ## Explainer
 
 Your prerequisite on American versus European options introduced the key asymmetry: an American option grants the right to exercise at any point up to expiration, not just at maturity. Your study of intrinsic and time value established that an option's total market value equals intrinsic value plus time value, where time value is always non-negative because optionality has value. These two facts together produce a surprisingly elegant result for calls — and a more nuanced story for puts.

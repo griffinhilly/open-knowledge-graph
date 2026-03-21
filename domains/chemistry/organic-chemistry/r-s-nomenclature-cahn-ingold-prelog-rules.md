@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 The Cahn-Ingold-Prelog rules assign priorities 1-4 to groups on a chiral center based on atomic number, then by atomic weight of attached atoms, then by examining second and third atoms iteratively. Once priorities are assigned, viewing the molecule with group 4 away and tracing 1→2→3 clockwise gives R (rectus); counterclockwise gives S (sinister). This absolute configuration system uniquely specifies each enantiomer.
 
+## Questions
+
+```yaml
+- question: "A chiral center has four substituents: –OH (O, atomic number 8), –NH₂ (N, atomic number 7), –CH₃ (C, atomic number 6), and –H (H, atomic number 1). With the –H group pointing away from you, you trace priorities 1→2→3 clockwise. What is the absolute configuration?"
+  type: multiple-choice
+  options:
+    - "S, because oxygen is the highest priority and clockwise traces S"
+    - "R, because clockwise rotation with the lowest priority away gives R"
+    - "S, because the hydrogen is already considered in the numbering"
+    - "R, because counterclockwise rotation always gives R"
+  answer: 1
+  explanation: "When the lowest-priority group (H, priority 4) points away from you, tracing priorities 1→2→3 clockwise gives R (rectus). Counterclockwise would give S. Option A is a misconception that R/S depends on which group is highest priority — the designation depends solely on the direction of the 1→2→3 trace with priority 4 away."
+
+- question: "In a Fischer projection, a student traces 1→2→3 counterclockwise and concludes the configuration is S. However, priority group 4 happens to be on a horizontal bond. What is the actual configuration?"
+  type: multiple-choice
+  options:
+    - "S — the counterclockwise trace gives S regardless of orientation"
+    - "R — horizontal bonds in Fischer projections point toward the viewer, so the apparent direction must be reversed"
+    - "S — the Fischer projection is a valid viewing orientation for CIP assignment"
+    - "R — horizontal bonds indicate the priority 4 group is actually highest priority"
+  answer: 1
+  explanation: "In a Fischer projection, horizontal bonds point toward the viewer. The CIP rule requires priority 4 to point AWAY from the viewer. When it points toward you, the apparent rotation you observe is the OPPOSITE of the true rotation. So if you trace counterclockwise (apparently S), the actual configuration is R. This is a critical practical trap when using Fischer projections."
+
+- question: "The R/S designation of a chiral center depends on how the molecule is drawn — rotating a wedge-dash structure changes the designation."
+  type: true-false
+  answer: false
+  explanation: "R/S is an ABSOLUTE configuration — it describes the actual three-dimensional arrangement of atoms and is independent of how you draw or orient the molecule. Rotating the molecule in space, switching from Fischer to wedge-dash notation, or looking at it from a different angle does not change the configuration. What determines R vs S is the spatial arrangement of the four groups, which is fixed by the actual bonding geometry."
+
+- question: "When two substituents at a chiral center both begin with carbon atoms, the CIP tie-breaking rule is to compare the next atoms outward along each chain simultaneously."
+  type: true-false
+  answer: true
+  explanation: "The CIP rules break ties by moving outward along each substituent in parallel and comparing atomic numbers at each subsequent layer. This iterative approach continues until the tie breaks. For double bonds (C=O), the rule treats each bonded atom as appearing multiple times (phantom duplicate atoms), so C=O counts as C bonded to O,O and O bonded to C,C. This systematic recursive comparison ensures a unique priority ranking."
+
+- question: "Why must the lowest-priority group (priority 4) point away from you when determining R vs S, and what do you do when it doesn't?"
+  type: short-answer
+  answer: "If priority 4 points away from you, you directly observe the rotation of 1→2→3 as it would appear from 'above' the chiral center — clockwise = R, counterclockwise = S. If priority 4 points toward you, you are observing the molecule from the wrong side, and the apparent rotation is the mirror image of the true rotation. In this case, assign the opposite designation: if the 1→2→3 trace appears clockwise, the true configuration is S."
+  explanation: "The R/S convention was designed assuming priority 4 points away (like the steering column of a car). The direction of 1→2→3 from that viewpoint defines the configuration. When priority 4 points toward you, you are looking at the molecule 'from behind,' which reverses all apparent clockwise/counterclockwise relationships — just like a clock viewed from behind appears to run backwards."
+```
+
 ## Explainer
 
 You already know that a chiral center with four different substituents exists as two non-superimposable mirror images — enantiomers. But calling them "left" and "right" is ambiguous. The **Cahn-Ingold-Prelog (CIP) priority rules** provide an unambiguous naming system that assigns every chiral center an absolute configuration of either **R** (rectus, Latin for "right") or **S** (sinister, Latin for "left"), independent of how you draw or orient the molecule.

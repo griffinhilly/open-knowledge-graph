@@ -32,6 +32,45 @@ Sketch the Brayton cycle on both P-V and T-S diagrams. Derive the efficiency for
 - Confusing pressure ratio with volume ratio.
 - Assuming the Brayton cycle has constant efficiency (it improves with pressure ratio).
 
+## Questions
+
+```yaml
+- question: "An engineer doubles the pressure ratio of a Brayton-cycle gas turbine from r_p = 10 to r_p = 20. According to the ideal Brayton cycle, what happens to the thermal efficiency?"
+  type: multiple-choice
+  options:
+    - "It stays the same — efficiency depends only on the working fluid's heat capacity ratio γ"
+    - "It increases — higher pressure ratio means more work extracted relative to heat input"
+    - "It decreases — compressing to higher pressure requires more work, reducing net output"
+    - "It depends on the turbine inlet temperature, not the pressure ratio alone"
+  answer: 1
+  explanation: "The Brayton efficiency formula η = 1 − 1/r_p^((γ−1)/γ) shows that efficiency increases monotonically with pressure ratio r_p. Doubling r_p from 10 to 20 raises efficiency from about 48% to 57% (for γ = 1.4). Option C is the classic misconception: yes, the compressor requires more work, but the turbine also extracts more, and the net effect is favorable. Option D is wrong because pressure ratio is the sole structural variable in the ideal formula."
+
+- question: "What thermodynamic process describes the heat addition in an ideal Brayton cycle, and how does this differ from the Otto cycle?"
+  type: multiple-choice
+  options:
+    - "Isentropic heat addition in both cycles — they differ only in the compression ratio"
+    - "Isobaric (constant-pressure) heat addition in Brayton; isochoric (constant-volume) in Otto"
+    - "Isothermal heat addition in Brayton; isobaric in Otto"
+    - "Isobaric heat addition in both cycles; they differ only in whether the working fluid is air or fuel"
+  answer: 1
+  explanation: "In the Brayton cycle, fuel burns in a continuous-flow combustion chamber where the gas is free to expand — pressure stays constant (isobaric). In a piston engine (Otto cycle), combustion happens in a sealed cylinder at constant volume (isochoric). This is why Brayton efficiency depends on pressure ratio rather than volume ratio, and why jet engines use continuous combustion rather than discrete power strokes."
+
+- question: "In an ideal Brayton cycle, the compression of air from ambient pressure to combustion-chamber pressure occurs at constant pressure."
+  type: true-false
+  answer: false
+  explanation: "Compression in the Brayton cycle is isentropic (adiabatic and reversible), not isobaric. Constant pressure is the condition for heat addition (combustion) and heat rejection (exhaust). This is a common confusion: the two isobaric steps bound the cycle at the top and bottom of the pressure range, while the two isentropic steps cross between them. Thinking compression is isobaric contradicts the basic mechanism by which the compressor does work on the gas."
+
+- question: "Increasing the pressure ratio of a Brayton cycle improves its thermal efficiency."
+  type: true-false
+  answer: true
+  explanation: "From η = 1 − 1/r_p^((γ−1)/γ), efficiency increases with pressure ratio r_p. Modern jet engines operate at pressure ratios of 30–50:1, giving ideal efficiencies around 55–60%. This is why the compressor is one of the most technologically demanding components: each increment in pressure ratio requires more precise, high-temperature-resistant engineering but yields measurable efficiency gains."
+
+- question: "Why does the thermal efficiency of the Brayton cycle depend on pressure ratio rather than volume ratio, as in the Otto cycle?"
+  type: short-answer
+  answer: "In the Brayton cycle, compression and expansion are isentropic in a continuous-flow device where pressure — not volume — is the controlled variable. Heat is added and rejected at constant pressure, so temperature ratios are governed by isentropic pressure-temperature relationships (T₂/T₁ = r_p^((γ−1)/γ)). In the Otto cycle, combustion and exhaust occur at constant volume, making volume ratio the natural control variable. The efficiency formulas are structurally similar but reflect the different thermodynamic constraints of each device."
+  explanation: "The key is which variable is held constant during heat exchange. Brayton cycle: isobaric heat addition → pressure ratio governs temperature rise. Otto cycle: isochoric combustion → volume ratio governs pressure and temperature. Efficiency depends on temperature ratios, so the relevant structural parameter is whichever variable is held constant during combustion."
+```
+
 ## Explainer
 
 From your study of thermodynamic processes, you know that isentropic means adiabatic and reversible — no heat exchange, no entropy change. From isobaric processes, you know that heat can be added at constant pressure, with the gas expanding to absorb it. The Brayton cycle strings together two of each: two isentropic steps and two isobaric steps, in the specific order that models how a continuous-flow gas turbine operates. Understanding why this sequence makes engineering sense requires thinking about what a jet engine or gas turbine actually does with a continuous stream of air.

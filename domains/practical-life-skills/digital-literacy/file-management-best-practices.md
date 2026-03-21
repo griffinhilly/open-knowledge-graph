@@ -28,6 +28,45 @@ Rename files using descriptive names like 'homework-math-2026-03'. Clean up your
 - Deleted files are gone forever. (They often remain on the drive until overwritten; backups can recover them.)
 - Backups are optional if you're careful. (Everyone makes mistakes or experiences hardware failure; backups are essential.)
 
+## Questions
+
+```yaml
+- question: "A student keeps all her schoolwork on her laptop and backs it up monthly to an external hard drive stored on the same desk. Which backup risk is she NOT protected against?"
+  type: multiple-choice
+  options:
+    - "The laptop's hard drive failing unexpectedly"
+    - "Accidentally overwriting a file she needs"
+    - "A theft, fire, or flood destroying both the laptop and the external drive at the same location"
+    - "The backup drive becoming full over time"
+  answer: 2
+  explanation: "The 3-2-1 backup rule requires at least one copy to be off-site (or in the cloud). Keeping both the original and the backup at the same physical location means any disaster at that location — theft, fire, flood — destroys both simultaneously. The student needs a cloud service (Google Drive, OneDrive) or an off-site drive to satisfy the '1 off-site' requirement."
+
+- question: "Which filename best follows file management best practices?"
+  type: multiple-choice
+  options:
+    - "FinalReport.docx"
+    - "report (1).docx"
+    - "history-essay-causes-wwi-2026-03-draft2.docx"
+    - "My History Essay Final Version ACTUAL FINAL.docx"
+  answer: 2
+  explanation: "A good filename answers three questions at a glance: what is this, when was it made, and what version is it? 'history-essay-causes-wwi-2026-03-draft2.docx' is descriptive, includes a date in YYYY-MM format (which sorts chronologically), uses hyphens instead of spaces (avoiding software parsing issues), and indicates the version. The other options are vague, include spaces or parentheses, or rely on informal version labels that communicate nothing about the file's actual content."
+
+- question: "The '3-2-1 backup rule' means keeping three copies of your data: the original file and two backups stored in the same location for easy access."
+  type: true-false
+  answer: false
+  explanation: "The 3-2-1 rule specifies: at least 3 copies, on at least 2 different types of media, with at least 1 copy off-site (or in the cloud). Storing all copies in the same location defeats the purpose — a single physical disaster (fire, theft, flood) would destroy all copies. The off-site requirement is specifically designed to protect against location-specific disasters."
+
+- question: "Keeping the desktop nearly empty and using it as a workspace rather than a storage location is a meaningful file management practice, not just an aesthetic preference."
+  type: true-false
+  answer: true
+  explanation: "Files accumulated on the desktop slow down display refresh, make it impossible to find specific files by scanning, and encourage disorganized storage habits. The desktop is a temporary staging area — a workspace — not a folder. Well-organized file management requires that files live in descriptively named folders within a logical structure, not loose on the desktop where they cannot be systematically searched or sorted."
+
+- question: "Why do naming conventions like 'history-essay-2026-03-draft2.docx' improve file management compared to names like 'document1.docx' or 'Final Essay'?"
+  type: short-answer
+  answer: "Descriptive names make files self-identifying — you can determine content, date, and version at a glance without opening the file. Dates in YYYY-MM format sort chronologically when files are listed by name. Hyphens instead of spaces prevent issues when software or command-line tools interpret spaces as separators. Version labels ('draft2') prevent overwriting earlier versions. Together, these conventions reduce search time and prevent confusion over which version is current."
+  explanation: "The investment of 10 seconds per file at creation saves minutes of searching later. 'document1.docx' is meaningless a month after creation; 'history-essay-causes-wwi-2026-03-draft2.docx' communicates subject, date, and version instantly. At scale — hundreds of files across years of work — this difference becomes enormous."
+```
+
 ## Explainer
 
 You already know how to organize files into folders — that's the foundation. File management best practices build on that foundation by answering a more practical question: how do you organize files so that you (and others) can find them quickly, avoid losing them, and keep your system running cleanly over time?

@@ -34,6 +34,45 @@ Trace the algorithm step-by-step for several pairs, recording the remainder at e
 - Making sign errors during the back-substitution step of the extended algorithm.
 - Thinking GCD computation requires factoring — the Euclidean algorithm avoids factoring entirely.
 
+## Questions
+
+```yaml
+- question: "A student tries to find gcd(252, 105) by listing all divisors of each number and finding the largest match. The Euclidean algorithm finds the same answer far more efficiently because:"
+  type: multiple-choice
+  options:
+    - "The Euclidean algorithm uses prime factorization, which is faster than enumerating divisors"
+    - "The Euclidean algorithm only works when one number divides the other evenly"
+    - "The Euclidean algorithm avoids factoring entirely by repeatedly replacing gcd(a, b) with gcd(b, a mod b), reducing problem size in O(log n) steps"
+    - "The Euclidean algorithm is only more efficient for numbers larger than one million"
+  answer: 2
+  explanation: "The Euclidean algorithm's efficiency comes from the key identity gcd(a, b) = gcd(b, a mod b), which replaces each problem with a strictly smaller one without any factoring. For gcd(252, 105): step 1 gives gcd(105, 42), step 2 gives gcd(42, 21), step 3 terminates at gcd(21, 0) = 21. Three steps, no factoring. Listing divisors requires finding all factors of both numbers — an O(√n) operation per number — and the approach becomes completely impractical for large numbers. For a 2048-bit number used in RSA, listing divisors is computationally infeasible; the Euclidean algorithm runs in milliseconds."
+
+- question: "After running the Euclidean algorithm on two coprime inputs a and b (gcd = 1), what does the extended Euclidean algorithm additionally produce, and why is this output critical in RSA cryptography?"
+  type: multiple-choice
+  options:
+    - "The prime factorizations of a and b, needed to construct the RSA public key"
+    - "Integers x and y satisfying ax + by = 1, which gives a modular inverse of a mod b — used to compute the RSA private key from the public exponent"
+    - "The least common multiple of a and b, needed to verify RSA signatures"
+    - "The binary representation of gcd(a, b), enabling efficient modular exponentiation"
+  answer: 1
+  explanation: "Bézout's identity states that for any a, b there exist integers x, y with ax + by = gcd(a, b). When gcd(a, b) = 1 (coprime inputs), this gives ax + by = 1, which means ax ≡ 1 (mod b) — so x is the modular inverse of a modulo b. In RSA, the private exponent d is the modular inverse of the public exponent e modulo φ(n). Computing this inverse via the extended Euclidean algorithm takes O(log n) steps even for 2048-bit numbers — making RSA key generation fast. Without a fast modular inverse algorithm, public-key cryptography as currently implemented would be computationally infeasible."
+
+- question: "The Euclidean algorithm terminates when the remainder equals 1, because 1 is a divisor of all integers and therefore the GCD of any two numbers is at least 1."
+  type: true-false
+  answer: false
+  explanation: "The algorithm terminates when the remainder equals exactly 0 — not 1. The last nonzero remainder before the 0 is the GCD. For example, gcd(252, 105) terminates when the remainder becomes 0 after gcd(42, 21): 42 = 2×21 + 0, so the GCD is 21 (the last nonzero remainder). If the algorithm stopped at remainder 1, it would terminate too early for inputs whose GCD is greater than 1. Stopping at 0 is logically necessary: a mod 0 is undefined, so reaching 0 signals that the previous step's remainder divides the one before it exactly — that remainder is the answer."
+
+- question: "The Euclidean algorithm can compute gcd(a, b) without ever determining the prime factorizations of a or b."
+  type: true-false
+  answer: true
+  explanation: "This is one of the algorithm's most important properties. The entire computation uses only division with remainders — no factoring at any step. The key identity gcd(a, b) = gcd(b, a mod b) preserves the GCD while shrinking the inputs, and the termination condition (remainder = 0) identifies the answer. This is why the algorithm works for large numbers where factoring would be computationally infeasible. RSA security depends partly on the hardness of factoring large numbers — but computing GCDs, which requires only the Euclidean algorithm, remains fast regardless of number size."
+
+- question: "Explain why the identity gcd(a, b) = gcd(b, a mod b) is true — why does replacing a with its remainder after division by b not change the GCD?"
+  type: short-answer
+  answer: "Any common divisor of a and b also divides a − qb (where q = ⌊a/b⌋) = a mod b, so it is a common divisor of b and a mod b. Conversely, any common divisor of b and a mod b also divides a = qb + (a mod b). The sets of common divisors are identical, so the largest common divisor (the GCD) is the same. Each step replaces a larger pair with a smaller pair having the same set of common divisors."
+  explanation: "This is the mathematical heart of why the algorithm is correct. The proof relies on a simple divisibility fact: if d divides both a and b, it must also divide any linear combination of a and b, including a − qb. The algorithm exploits this to make the problem smaller at every step without changing the answer. The efficiency then follows from how quickly the remainder shrinks: Fibonacci numbers are the worst case (they minimize the ratio b/(a mod b)), and even for them the number of steps is proportional to the number of digits — O(log n). The algorithm is both provably correct and provably fast, two properties that together make it one of the oldest and most important algorithms in mathematics."
+```
+
 ## Explainer
 
 You already know from divisibility that gcd(a, b) is the largest number that divides both a and b. The naive approach — list all divisors of each number and find the largest common one — works fine for small inputs but becomes impractical for large numbers. The **Euclidean algorithm** sidesteps this by exploiting a single elegant observation: gcd(a, b) = gcd(b, a mod b). Whatever divides a and b also divides their remainder; conversely, whatever divides b and the remainder also divides a. So each step replaces a larger problem with a smaller one without changing the answer.

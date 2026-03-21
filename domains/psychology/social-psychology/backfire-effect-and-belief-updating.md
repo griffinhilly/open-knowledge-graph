@@ -30,6 +30,45 @@ Review original backfire findings alongside recent replications and meta-analyse
 ## Common Misconceptions
 Students assume correcting misinformation typically backfires and strengthens false beliefs; actually, backfire is rare, and more commonly corrections produce modest belief change or are simply ignored, depending on political identity and prior commitment.
 
+## Questions
+
+```yaml
+- question: "A science journalist plans to write: 'Fact-checking is counterproductive — corrections cause people to dig in harder and believe misinformation more strongly.' Based on the current state of evidence, what should the journalist actually report?"
+  type: multiple-choice
+  options:
+    - "Corrections reliably produce large belief changes, making fact-checking highly effective"
+    - "Corrections typically produce modest belief updating toward accuracy; true backfire is rare in large-sample studies"
+    - "Corrections are equally likely to cause backfire, no change, or positive updating — the effect is essentially random"
+    - "Corrections never change underlying beliefs but can reduce the emotional intensity of false beliefs"
+  answer: 1
+  explanation: "Large-scale replication studies (including work by Nyhan and Reifler themselves) found that corrections typically move beliefs in the direction of accuracy, though often modestly. True backfire — where corrections strengthen false beliefs — is rare or non-existent in representative samples. The journalist's framing describes a dramatic effect that did not replicate. The accurate story is cautiously optimistic: corrections help, but not dramatically, and the magnitude depends on how corrections are framed and how identity-central the belief is."
+
+- question: "What did subsequent large-scale replication attempts find about the original 2010 Nyhan and Reifler backfire effect?"
+  type: multiple-choice
+  options:
+    - "It replicated cleanly across larger and more diverse samples, confirming the backfire effect is robust"
+    - "It was confirmed only for national-security topics but not other political domains"
+    - "The original effect did not replicate; corrections typically reduced false beliefs even when modestly"
+    - "The effect is real but requires repeated corrections rather than a single exposure to emerge"
+  answer: 2
+  explanation: "A 2019 large-scale study testing dozens of political misperceptions found essentially no evidence for backfire effects. Nyhan and Reifler themselves could not replicate their original results consistently. This is a textbook replication crisis case: a dramatic, counterintuitive finding spread widely through journalism and science communication before replication evidence accumulated. The current consensus is that corrections generally help — the question is how much, not whether."
+
+- question: "Even when a correction successfully reduces a specific false belief, people may maintain the broader political attitude that originally motivated holding that false belief."
+  type: true-false
+  answer: true
+  explanation: "This describes a common pattern in the correction literature: belief updating is belief-specific more often than attitude-general. A person can acknowledge that a particular claim was false while maintaining the ideological framework that made the claim seem plausible. This is one reason corrections produce modest attitude change even when they produce measurable belief change — the underlying attitude that gave the false belief its appeal remains intact and can generate new specific beliefs."
+
+- question: "The backfire effect — where corrections cause people to hold false beliefs more strongly — is a well-established, reliably replicating phenomenon in social psychology."
+  type: true-false
+  answer: false
+  explanation: "The backfire effect was proposed based on a 2010 study but has not replicated in large-scale subsequent research. Most people, when exposed to credible corrections, show some movement toward accuracy (though often modest), not entrenchment. Outright backfire (becoming more wrong after correction) is rare in representative samples. The original finding is now considered a candidate artifact of small samples and particular experimental conditions rather than a robust feature of human psychology."
+
+- question: "Why do 'truth sandwich' correction strategies recommend not repeating the false claim, even when the goal is to debunk it?"
+  type: short-answer
+  answer: "Repetition increases familiarity, and familiarity increases credibility — a phenomenon called the 'illusory truth effect.' When a correction says 'It is FALSE that X,' the repetition of X activates the mental representation of X, making it more fluent and thus more believable even as it is labeled false. The truth sandwich approach instead leads with and emphasizes the correct information, mentions the false claim minimally if at all, and returns to the correct information — so the corrections strengthen the true representation rather than inadvertently reinforcing the false one."
+  explanation: "This design principle follows from research on fluency and truth judgments: we tend to rate statements as more likely true when they feel easy to process, and prior exposure makes statements easier to process. Corrections that repeat misinformation prominently may inadvertently inoculate the false belief against later disconfirmation by increasing its fluency. The truth sandwich is a practical response to this cognitive mechanism."
+```
+
 ## Explainer
 
 From your study of persuasion and attitude change, you know that attitudes are not simply overwritten by new information — people process incoming messages through their existing beliefs, motivations, and identities. From cognitive dissonance, you know that people are motivated to maintain consistency among their beliefs and will resist or rationalize information that threatens that consistency. The **backfire effect** hypothesis took these ideas to an extreme conclusion: when people encounter factual corrections to beliefs they hold strongly, the correction actually *strengthens* the false belief rather than weakening it. The idea is intuitively compelling — a direct challenge to a belief triggers defensive resistance so intense that the person ends up more committed than before.

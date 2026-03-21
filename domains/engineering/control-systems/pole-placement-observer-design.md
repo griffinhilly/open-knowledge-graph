@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 If system is controllable, state feedback u = -Kx can place closed-loop poles at arbitrary locations. Observer estimates unmeasured states from y; if observable, observer poles can be placed arbitrarily. Pole-placement design trade-off: faster response requires higher gain and larger control effort; observer poles typically placed faster than controller poles (separation principle).
 
+## Questions
+
+```yaml
+- question: "A control engineer designs full-state feedback for a 4th-order controllable system. She wants the closed-loop response to have poles at {−1 ± 2j, −5, −6}. What does controllability guarantee about this design?"
+  type: multiple-choice
+  options:
+    - "The closed-loop system will be stable, but the poles can only be placed on the real axis"
+    - "A gain matrix K exists such that the eigenvalues of (A − BK) are exactly {−1 ± 2j, −5, −6}"
+    - "The system's natural response is already fast enough; additional feedback only slightly adjusts performance"
+    - "Controllability guarantees the poles can be placed anywhere, including the right half-plane, for testing purposes"
+  answer: 1
+  explanation: "Controllability is the precise mathematical condition guaranteeing that K can be chosen to make the closed-loop eigenvalues (poles of A − BK) be any desired set of values. This follows from the Cayley-Hamilton theorem: for a controllable system, the controllability matrix has full rank, enabling Ackermann's formula or direct comparison to solve for K given any target characteristic polynomial. Option A is wrong — poles can be placed anywhere in the complex plane (real or complex), not just on the real axis. Option D is technically true as a mathematical statement but misses the point — instability is of course never desired in practice."
+
+- question: "In an observer-based control system, why are the observer poles typically designed to be 2 to 5 times faster (further left in the complex plane) than the controller poles?"
+  type: multiple-choice
+  options:
+    - "Faster observer poles reduce the control effort required from the actuators"
+    - "The separation principle requires observer poles to be faster to ensure the two sets of poles do not interfere"
+    - "The estimated states need to converge to true states before the controller dynamics become dominant, so observer errors don't significantly degrade performance"
+    - "Faster observer poles increase the system's noise rejection by making the Luenberger gain L larger"
+  answer: 2
+  explanation: "The full-state feedback controller was designed assuming perfect knowledge of the states. When an observer estimates those states, the controller is fed x̂ instead of x — and x̂ contains estimation error e = x − x̂. If the observer error decays much faster than the controller dynamics unfold, then by the time the controller acts on the estimated states, the estimation error is negligible, and performance is nearly identical to the ideal full-state feedback case. If observer poles are slower than controller poles, significant estimation error persists while the controller is actively responding, degrading performance. Note: faster observer poles also increase L, which can amplify sensor noise — this is the real engineering tradeoff the rule of thumb balances."
+
+- question: "When observer-based state feedback is implemented (substituting x̂ for x in u = −Kx), the combined closed-loop eigenvalues are a complex mixture of the controller and observer poles that interact and must be jointly optimized."
+  type: true-false
+  answer: false
+  explanation: "False — this is precisely what the separation principle disproves. The combined closed-loop system's characteristic polynomial factors into the controller polynomial (from K, eigenvalues of A − BK) and the observer polynomial (from L, eigenvalues of A − LC). These two sets of poles do not interact: the closed-loop eigenvalues are the simple union of the controller poles and observer poles, nothing more. This remarkable result means K can be designed as if perfect state knowledge existed, and L can be designed purely based on convergence speed requirements, with the guarantee that their combination will produce the intended result."
+
+- question: "A system is observable but not controllable. It is still possible to design a Luenberger observer that estimates the system states with arbitrary convergence speed."
+  type: true-false
+  answer: true
+  explanation: "True. Controllability and observability are independent properties. Observability determines whether an observer can reconstruct states from outputs; controllability determines whether state feedback can assign arbitrary closed-loop poles. If the system is observable, the observer gain matrix L can be chosen to make the observer error decay at any desired rate — this requires only observability (that the observability matrix has full rank, enabling arbitrary placement of A − LC eigenvalues). The lack of controllability only means you cannot place the state feedback controller poles arbitrarily — but observer design is unaffected. Of course, a non-controllable system has limited utility even with a perfect observer."
+
+- question: "What is the separation principle, and why does it simplify the practical design of observer-based control systems?"
+  type: short-answer
+  answer: "The separation principle states that when state feedback u = −Kx̂ is implemented using observed states x̂ from a Luenberger observer, the combined closed-loop eigenvalues are exactly the union of the controller poles (eigenvalues of A − BK) and the observer poles (eigenvalues of A − LC), with no interaction between them. This means K and L can be designed independently: first design K as if perfect state knowledge were available, then design L to make estimation errors converge fast enough. The two designs are then connected without re-optimization, and the combined system behaves as intended."
+  explanation: "Without the separation principle, designing an observer-based controller would require jointly optimizing K and L to achieve desired combined eigenvalues — a much harder 2n-dimensional problem for an nth-order system. The principle turns this into two independent nth-order problems. It also provides design intuition: controller poles govern the response the user sees; observer poles govern the hidden estimation dynamics. The convention to place observer poles faster ensures the hidden dynamics resolve before the visible response unfolds."
+```
+
 ## Explainer
 
 From your study of eigenvalues and eigenvectors, you know that the time evolution of a linear system ẋ = Ax is governed by the eigenvalues of A — they determine whether the system is stable, how fast it decays, and whether it oscillates. From observability and controllability, you know when it is *possible* in principle to steer the system's states and observe them. Pole placement is the design method that turns those theoretical possibilities into a concrete algorithm: choose a feedback gain matrix K so that the closed-loop eigenvalues — the **poles** — are exactly where you need them.

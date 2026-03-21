@@ -34,6 +34,45 @@ Read Locke's Essay Book 2 Ch. 27, then Parfit's Reasons and Persons Part III. Wo
 - The question is not sociological (how do others identify you?) but metaphysical (what makes you numerically the same entity over time?).
 - Accepting that identity is indeterminate in fission cases is not a failure of argument — it may be the correct result, as Parfit argues.
 
+## Questions
+
+```yaml
+- question: "In Parfit's fission thought experiment, your brain hemispheres are each transplanted into different bodies. Both resulting people wake up with your memories and personality. A friend says: 'Well, one of them must be you, and the other is just a copy.' What is the fundamental problem with this response?"
+  type: multiple-choice
+  options:
+    - "The friend is correct — the hemisphere that has the dominant memory traces is you"
+    - "Both resulting people have equal psychological continuity with you, so arbitrarily declaring one 'you' ignores this symmetry; neither can be you, yet both satisfy what we thought guaranteed personal identity"
+    - "The friend is wrong because personal identity requires bodily continuity, which neither person has"
+    - "The question is unanswerable because personal identity is a social construct, not a metaphysical fact"
+  answer: 1
+  explanation: "The power of the fission case is its perfect symmetry. If psychological continuity (memories, personality, values) is what constitutes personal identity, both resulting people qualify equally. The friend's response tries to preserve the idea that identity must be determinate — that there must be a fact about which one is 'really' you. But Parfit's argument is that this demand for determinacy is the problem: identity may simply be indeterminate here, and this indeterminacy doesn't mean something valuable is lost. It suggests personal identity was never the right thing to care about."
+
+- question: "Parfit's analysis of the fission case leads him to conclude that:"
+  type: multiple-choice
+  options:
+    - "Personal identity consists in memory continuity, confirming Locke's psychological theory"
+    - "Personal identity does not exist at all — the self is just a bundle of perceptions, as Hume argued"
+    - "Personal identity is not what matters in survival — psychological continuity without strict numerical identity is sufficient for everything we care about"
+    - "Fission cases are philosophically incoherent and should not be used as thought experiments"
+  answer: 2
+  explanation: "Parfit's radical conclusion is not that we don't survive fission, or that identity is impossible to determine — it is that the question of personal identity is the wrong question. What matters for survival is psychological continuity: having a future person with your memories, values, and psychological connections. Whether that future person is numerically identical to you is a further question that may be indeterminate, but indeterminacy doesn't mean anything of real value is lost. This reorientation challenges intuitions about self-interest, moral responsibility, and the ethics of death."
+
+- question: "For Locke, personal identity consists in the continuity of memory and consciousness — not in the persistence of the same body, brain matter, or soul substance."
+  type: true-false
+  answer: true
+  explanation: "Locke's psychological continuity theory holds that you are the same person over time because you can connect your current consciousness to past experiences through chains of memory. If your brain were transplanted into a new body, most people's intuition — and Locke's theory — says you would go with the brain (the psychological continuity), not stay with the body. Physical matter, for Locke, is not what grounds personal identity; the continuity of conscious mental life is."
+
+- question: "If the fission thought experiment shows that personal identity is indeterminate, this necessarily means that something of great value has been lost and that the outcome is bad for the original person."
+  type: true-false
+  answer: false
+  explanation: "This is exactly what Parfit denies. He argues that if two people survive with your psychological continuity, you should not fear this outcome on behalf of yourself — two people with your psychology, memories, and values will exist and flourish. The indeterminacy about which one is 'you' is a feature of our ordinary concept of identity, not a feature of what matters. What matters (psychological continuity) is fully preserved; only strict numerical identity is lost, and Parfit argues that wasn't the valuable thing after all."
+
+- question: "What does the fission thought experiment reveal about the relationship between personal identity and what Parfit calls 'what matters in survival'?"
+  type: short-answer
+  answer: "The fission case reveals that personal identity and what matters in survival can come apart. Normally we assume that psychological continuity (memories, personality, values connecting present and future self) both constitutes personal identity and explains why we care about our future selves. But fission produces two future people each with equal psychological continuity to the original. If identity requires uniqueness (only one thing can be numerically identical to me), neither resulting person is strictly me — yet both have everything we thought guaranteed identity. Parfit concludes that identity was never what mattered; psychological continuity was. Two futures with your psychology are, if anything, better than one."
+  explanation: "The deeper implication Parfit draws is ethical: if personal identity is not what matters, the sharp boundaries we draw between persons may be less morally significant than we assume. This undermines certain arguments about self-interest and opens up more impartial moral perspectives — the reasoning used, for instance, to challenge the special weight we give to our own future welfare over others' present welfare."
+```
+
 ## Explainer
 
 You know from your introduction to metaphysics that identity is a deep puzzle: what makes a thing the same thing over time, given that things change? For persons, this question has a peculiar urgency. Physical matter is replaced; beliefs, memories, and personality transform; even the continuity of consciousness is interrupted every night. You studying this text are numerically the same person as the child who first learned to read — but what does "numerically the same" mean here, and what grounds that identity?

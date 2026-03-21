@@ -30,6 +30,45 @@ Analyze how Shakespeare uses comic characters and scenes in tragedies (the porte
 ## Common Misconceptions
 Comic relief is not padding or distraction—when effective, it strengthens the overall dramatic effect through contrast and complexity.
 
+## Questions
+
+```yaml
+- question: "Immediately after a king's murder, a playwright inserts a scene of a drunken doorman delivering bawdy jokes. A student argues this is a structural flaw that undermines the tragedy. What is the strongest counter-argument?"
+  type: multiple-choice
+  options:
+    - "The scene is acceptable because the audience needs any break from tension"
+    - "The comedy resets emotional capacity so the subsequent discovery of the body hits with redoubled force — the interruption amplifies, not dilutes, the tragedy"
+    - "Comic scenes are always structurally justified in long plays because pacing is paramount"
+    - "The scene's low-status characters signal that the play is transitioning to tragicomedy"
+  answer: 1
+  explanation: "The hydraulic function of comic relief is not merely to provide a break but to clear emotional space so the next burst of intensity is felt more acutely. The Porter scene in Macbeth works exactly this way — audience laughter releases tension, then Macduff's knock and the discovery of Duncan's body rush back with full impact. Option A misidentifies the mechanism: the goal isn't any break but the *right* break that enables greater effect."
+
+- question: "The gravediggers in Hamlet crack jokes about death while digging Ophelia's grave. What distinguishes this as effective comic relief rather than mere pacing?"
+  type: multiple-choice
+  options:
+    - "It occurs at the exact midpoint of the play, where tension peaks and relief is mathematically required"
+    - "Its humor is unrelated to the plot, giving the audience a complete mental reset"
+    - "The comedy directly engages the play's central theme of mortality, offering a demotic philosophical perspective unavailable to noble characters bound by decorum"
+    - "Low-status characters always provide comic relief in Elizabethan drama by convention"
+  answer: 2
+  explanation: "Effective comic relief integrates thematically — it doesn't just pause the drama but deepens it. The gravediggers discuss death with irreverent directness that the court characters cannot, because their lowness licenses what decorum forbids. Removing them would cost the play not just rhythm but a unique moral and philosophical perspective. Option B describes ineffective, merely interruptive comedy. The test for genuine comic relief is whether removal would weaken the play thematically."
+
+- question: "Comic relief scenes can be removed from a play without thematic loss, since their function is purely to manage audience fatigue."
+  type: true-false
+  answer: false
+  explanation: "This describes only failed or weak comic relief. Effective comic relief integrates thematically: it illuminates character, echoes the play's central concerns, or voices truths that formal characters cannot. Removing the Porter from Macbeth or the Fool from King Lear would gut those plays thematically, not just rhythmically. The criterion for genuine comic relief is precisely that something essential to understanding would be lost — not just a pacing adjustment."
+
+- question: "In Shakespeare's tragedies, comic characters sometimes function as truth-tellers precisely because their social license to be absurd allows them to say what serious characters cannot."
+  type: true-false
+  answer: true
+  explanation: "This is one of comic relief's deepest functions. The Fool in King Lear is the play's primary truth-teller — he can speak directly to Lear's folly because the fool's role licenses what would be treasonous from anyone else. The gravediggers can discuss death with philosophical bluntness that Hamlet, constrained by grief and court ceremony, cannot. Comic lowness confers a freedom of speech unavailable to serious characters."
+
+- question: "What is the difference between comic relief that is merely functional and comic relief that is genuinely effective, and how do you test which kind you're looking at?"
+  type: short-answer
+  answer: "Functional comic relief provides pacing variation and emotional release but has no necessary connection to the play's themes or characters — it could appear anywhere without loss. Genuinely effective comic relief integrates with the drama: it develops character, echoes thematic concerns, or voices truths unavailable elsewhere. The test is removal: would taking the scene out weaken the play thematically (not just rhythmically)? If yes, it's doing genuine dramatic work; if no, it's merely functional."
+  explanation: "This distinction is the critical analytical task the topic introduces. Identifying that a scene provides comic relief is only the first step. The deeper question is how the humor serves the drama — whether the comedy is doing genuine work or merely providing respite. Both kinds exist; the better drama tends to have the integrated kind."
+```
+
 ## Explainer
 
 You already understand comedy and comic structure — how comic plots generate and release tension through incongruity, reversal, and resolution. **Comic relief** is what happens when comic technique is deployed *inside* a serious or tragic dramatic work, not as the play's governing mode but as a punctuation within it. Understanding it requires grasping why emotional intensity needs interruption — and why the right kind of interruption, far from dissipating dramatic power, can intensify it.

@@ -28,6 +28,45 @@ Fit regression lines to scatterplots. Interpret slope in context. Use regression
 ## Common Misconceptions
 Thinking regression assumes causation. Using regression for severely nonlinear data. Extrapolating far beyond the data range with confidence. Confusing the fitted value with the data point.
 
+## Questions
+
+```yaml
+- question: "A regression of study hours (x) on exam score (y) yields slope b = 5 and intercept a = 20. A student studies 15 hours. The fitted line predicts a score of 95. The student actually scores 88. What is the residual for this student?"
+  type: multiple-choice
+  options:
+    - "95, because that is the predicted value"
+    - "−7, because residual = observed − predicted = 88 − 95"
+    - "7, because residual = predicted − observed = 95 − 88"
+    - "0, because the regression line minimizes residuals to zero"
+  answer: 1
+  explanation: "A residual is defined as observed minus predicted: yᵢ − ŷᵢ = 88 − 95 = −7. A negative residual means the actual value fell below the regression line's prediction. Residuals are not zero for individual points — the regression minimizes the *sum of squared* residuals, but individual points scatter around the line. Option C has the subtraction reversed."
+
+- question: "For a dataset with correlation r = 0.6, s_x = 5, and s_y = 20, what is the slope of the regression line of y on x?"
+  type: multiple-choice
+  options:
+    - "0.15, because b = r × (s_x / s_y) = 0.6 × (5/20)"
+    - "2.4, because b = r × (s_y / s_x) = 0.6 × (20/5)"
+    - "0.6, because the slope equals the correlation coefficient"
+    - "12, because b = s_y / s_x = 20/5 = 4, then scaled by r gives 0.6 × 20 = 12"
+  answer: 1
+  explanation: "The slope formula is b = r × (s_y / s_x). Substituting: b = 0.6 × (20/5) = 0.6 × 4 = 2.4. Option A inverts the ratio — that would be the slope of the regression of x on y. Option C confuses the slope with the correlation itself, which is only true when both variables have equal standard deviations."
+
+- question: "A significant linear regression relationship between two variables proves that one variable causes the other."
+  type: true-false
+  answer: false
+  explanation: "Regression (and correlation) quantify the strength and direction of linear association, not causation. A famous example: ice cream sales and drowning rates are positively correlated — both increase in summer — but ice cream does not cause drowning. A regression line fits the association but says nothing about whether x produces y. Establishing causation requires experimental design (randomization, control groups), not statistical fitting alone."
+
+- question: "The least-squares regression line always passes through the point (x̄, ȳ), the means of x and y."
+  type: true-false
+  answer: true
+  explanation: "This is a provable algebraic property of least-squares regression. The intercept is defined as a = ȳ − b × x̄, which ensures the line passes through (x̄, ȳ). Substituting x = x̄ gives ŷ = a + b × x̄ = (ȳ − b × x̄) + b × x̄ = ȳ. The regression line is therefore anchored at the centroid of the data and tilted by the slope. This also means the mean of the fitted values equals ȳ."
+
+- question: "Explain why extrapolating a regression line far beyond the range of the data is unreliable, even when the line fits the data well."
+  type: short-answer
+  answer: "The regression line summarizes the linear relationship observed within the data range. There is no guarantee this relationship holds outside that range — the underlying process may become nonlinear, saturate, reverse direction, or be subject to different influences. A model fitted to adults' height-weight data would produce nonsensical (negative) weight predictions for very short heights, because the linear trend cannot extend indefinitely. The fit quality (R², residual size) only measures how well the line describes the data you have, not how well it describes regions you haven't observed."
+  explanation: "The deeper point is that a regression line is an empirical description, not a physical law. Its validity is bounded by the scope of the data used to fit it. Extrapolation assumes the pattern continues, which is an untestable assumption that frequently fails in practice."
+```
+
 ## Explainer
 
 From the correlation coefficient, you know how to measure the *strength* and *direction* of a linear association between two variables. Linear regression goes one step further: it finds the specific line that best describes that association and uses it to make predictions. The method is called **least squares** because it chooses the line that minimizes the total squared vertical distance between each data point and the line.

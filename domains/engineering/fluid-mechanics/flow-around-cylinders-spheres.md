@@ -32,6 +32,45 @@ Watch flow visualization videos showing the progression from creeping flow to st
 - The von Karman vortex street is not random turbulence — it is a highly organized, periodic instability. Its frequency is predictable from the Strouhal number, which is remarkably constant (St ≈ 0.21 for a cylinder) over a wide range of Re (300–10⁵).
 - Flow separation on a cylinder or sphere does not occur at the equator (90 degrees from the stagnation point). For laminar boundary layers, separation occurs at about 80 degrees; for turbulent boundary layers, it delays to about 120 degrees, which is why the wake is smaller and drag is lower after the drag crisis.
 
+## Questions
+
+```yaml
+- question: "A smooth golf ball and a dimpled golf ball are struck at the same speed. The smooth ball has a larger wake. Which ball travels farther, and why?"
+  type: multiple-choice
+  options:
+    - "The smooth ball, because a smooth surface minimizes skin friction drag along the entire ball"
+    - "The dimpled ball, because dimples trip the boundary layer turbulent, which delays flow separation and dramatically shrinks the wake and pressure drag"
+    - "The smooth ball, because adding surface texture (dimples) always increases total drag by increasing surface area exposed to the flow"
+    - "Both travel equally far, because total drag depends only on the ball's shape, which is spherical for both"
+  answer: 1
+  explanation: "On a bluff body like a golf ball, the dominant drag component is form (pressure) drag from the low-pressure wake behind the ball — not skin friction. Dimples trip the boundary layer from laminar to turbulent at a lower Reynolds number. The turbulent boundary layer has more momentum and can resist the adverse pressure gradient on the rear of the ball longer before separating. Separation is delayed, the wake shrinks dramatically, wake pressure rises, and form drag drops — enough to more than offset the small increase in skin friction from turbulence. The dimpled ball flies farther because it has lower total drag despite (not in spite of) its rougher surface."
+
+- question: "The 'drag crisis' for a smooth sphere occurs at Re ≈ 3×10⁵ and produces a sudden large drop in drag coefficient. What causes it?"
+  type: multiple-choice
+  options:
+    - "At this Re, inertia becomes large enough that viscous drag (which dominated at low Re) becomes negligible"
+    - "At this Re, the flow becomes so turbulent that vortex shedding stops entirely, eliminating the oscillating wake"
+    - "At this Re, the laminar boundary layer transitions to turbulent, allowing it to remain attached further around the sphere, shrinking the wake and reducing pressure drag"
+    - "At this Re, the Strouhal number reaches a maximum, after which the vortex shedding frequency drops and the wake narrows"
+  answer: 2
+  explanation: "The drag crisis is a counterintuitive phenomenon: drag drops sharply as Re increases. The mechanism is boundary layer transition. At Re just below 3×10⁵, the boundary layer is laminar and separates early (~80° from the front stagnation point), leaving a large, low-pressure wake. At Re around 3×10⁵, the laminar boundary layer transitions to turbulent — which has more momentum — and separation is delayed to ~120°. The wake shrinks, pressure in the wake rises, and C_D drops from ~0.5 to ~0.1. Reducing form drag through controlled separation is the key insight, not reducing skin friction."
+
+- question: "The von Karman vortex street is a random turbulent phenomenon whose shedding frequency varies unpredictably and cannot be reliably estimated in engineering calculations."
+  type: true-false
+  answer: false
+  explanation: "The von Karman vortex street is a highly organized, periodic instability — not random turbulence. Its frequency is well-characterized by the Strouhal number St = fD/V ≈ 0.21 for a cylinder, which remains nearly constant across three decades of Reynolds number (approximately 300 to 10⁵). This predictability is precisely why it is an engineering concern: the shedding frequency f = 0.21V/D can be calculated from known flow speed and cylinder diameter, allowing engineers to check whether it might excite structural resonance in power lines, heat exchanger tubes, bridge cables, and tall structures."
+
+- question: "In Stokes (creeping) flow at very low Reynolds numbers, the drag on a sphere is proportional to velocity (not velocity squared), and the flow pattern is symmetric fore and aft."
+  type: true-false
+  answer: true
+  explanation: "Both properties are exact consequences of the Stokes flow regime, where viscosity completely dominates inertia. Stokes derived F_D = 3πμVD for a sphere, which is linear in velocity V — this is the Stokes drag formula. The flow symmetry (symmetric fore-aft) arises because inertia, which breaks time-reversal symmetry, is negligible — the Stokes equations are linear and time-reversible. At higher Re, inertia becomes important, the downstream side can no longer maintain the symmetric pattern, and the wake forms: the flow is no longer reversible and drag scales more nearly as V²."
+
+- question: "Why does adding turbulence to the boundary layer (by roughening a sphere's surface) reduce overall drag, even though turbulence locally increases skin friction?"
+  type: short-answer
+  answer: "On a bluff body, the dominant drag component is form (pressure) drag arising from the pressure difference between the high-pressure stagnation region at the front and the low-pressure separated wake at the rear. A laminar boundary layer has low momentum and separates from the sphere's surface early (around 80° from the stagnation point), leaving a large, low-pressure wake and high form drag. A turbulent boundary layer carries more streamwise momentum and can overcome the adverse pressure gradient on the rear of the sphere for longer, so it separates later (around 120°). The smaller wake has higher pressure, reducing the fore-aft pressure difference and cutting form drag dramatically — far more than the modest increase in skin friction from turbulence. The net result is lower total drag. Reducing drag on a bluff body is about controlling where the flow separates, not about minimizing surface roughness."
+  explanation: "This insight — that the location of separation, not the surface friction, dominates bluff-body drag — is the key conceptual shift from streamlined-body thinking to bluff-body aerodynamics."
+```
+
 ## Explainer
 
 The flow around a bluff body like a cylinder or sphere is one of fluid mechanics' most studied problems because it captures the full range of flow physics in a single geometry. Your prerequisite, the **Reynolds number** Re = ρVD/μ, is the organizing variable: it compares inertial to viscous forces and acts as a dial that, as you turn it up, progressively hands control from viscosity to inertia. At each Re regime the flow looks qualitatively different, and each transition introduces new physics.

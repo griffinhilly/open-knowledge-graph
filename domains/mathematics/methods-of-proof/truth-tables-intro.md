@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 A truth table systematically lists all possible truth value assignments for a statement's components and shows the resulting truth value. Truth tables provide a mechanical, exhaustive method for determining when compound statements are true or false under all possible conditions, eliminating ambiguity from logical reasoning.
 
+## Questions
+
+```yaml
+- question: "The statement 'If it is raining, then the ground is wet' (P → Q) — in which scenario is this conditional FALSE?"
+  type: multiple-choice
+  options:
+    - "It is raining and the ground is wet"
+    - "It is not raining and the ground is not wet"
+    - "It is raining and the ground is not wet"
+    - "It is not raining and the ground is wet"
+  answer: 2
+  explanation: "A conditional P → Q is false in exactly one case: when P is true and Q is false — the conditional 'breaks its promise.' If it is raining (P is true) but the ground is not wet (Q is false), the statement is falsified. All other combinations make the conditional true: when P is false, the conditional cannot be falsified regardless of Q, because no promise was made. Rows B and D have a false antecedent, making the conditional vacuously true."
+
+- question: "A truth table analysis of an argument shows that in one row where all premises are true, the conclusion is false. What does this tell you about the argument?"
+  type: multiple-choice
+  options:
+    - "The argument is valid — one counterexample row is not enough to defeat it"
+    - "The argument is invalid — there exists a possible scenario where the premises hold but the conclusion fails"
+    - "The argument is unsound, but soundness is different from validity"
+    - "The truth table must contain an error, because valid arguments cannot have such rows"
+  answer: 1
+  explanation: "Validity requires that every row making all premises true also makes the conclusion true. A single row where the premises are all true and the conclusion is false is a logical counterexample — proof that the argument is invalid. Validity is all-or-nothing: if even one such row exists, the argument fails. This mechanical test is the power of truth tables — they make validity checking exhaustive and error-free."
+
+- question: "If the antecedent P in a conditional P → Q is false, then the conditional is true regardless of Q's truth value."
+  type: true-false
+  answer: true
+  explanation: "This is the 'vacuous truth' principle. A conditional makes a promise: 'if P, then Q.' If P never happens (P is false), the promise is never tested and cannot be broken. Logically, a false premise makes the conditional true under both Q = true and Q = false. This seems counterintuitive but is the only consistent rule — if false antecedents made conditionals false, then 'if 2 + 2 = 5, then pigs can fly' would be false, which would undermine mathematical theorems stated in conditional form."
+
+- question: "A tautology is a statement that is true whenever all of its component propositions are true."
+  type: true-false
+  answer: false
+  explanation: "A tautology is a statement that is true under ALL possible truth value assignments — including rows where some components are false. For example, P ∨ ¬P is a tautology: it is true whether P is true or false. The statement in this question describes only partial coverage. Many statements are true when all components are true but false in other rows — those are not tautologies. A tautology must be true in every single row of its truth table."
+
+- question: "Why is a conditional P → Q defined as true when P is false? Explain the 'broken promise' reasoning and why this seemingly strange rule is logically essential."
+  type: short-answer
+  answer: "The conditional P → Q is a promise: 'if P occurs, then Q will follow.' The only way to break this promise is for P to be true (the triggering condition occurred) and Q to be false (the promised outcome didn't happen). When P is false, the triggering condition never occurred, so the promise was never tested and cannot be broken — making the conditional vacuously true. This rule is logically essential because mathematical theorems often take the form 'if X, then Y' where the hypothesis X may be false for many objects. If false hypotheses made conditionals false, entire bodies of mathematical results would collapse."
+  explanation: "Students often think 'false implies anything' is arbitrary. But it follows from defining falsity as 'breaking the promise.' A conditional that is never tested cannot be said to have been broken. This is also why P → Q is logically equivalent to ¬P ∨ Q — either the antecedent fails (promise never triggered) or the consequent holds (promise kept)."
+```
+
 ## Explainer
 
 You know that logical connectives like AND (∧), OR (∨), NOT (¬), and the conditional (→) have meanings in ordinary language. But ordinary language is imprecise: "or" can mean "one or the other but not both" or "at least one of them," and "if…then" carries causal implications that formal logic strips away. A **truth table** makes these meanings completely precise by exhaustively listing every possible combination of truth values and specifying the output for each combination according to a fixed rule.

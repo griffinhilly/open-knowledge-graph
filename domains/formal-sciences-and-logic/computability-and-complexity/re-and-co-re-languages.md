@@ -35,6 +35,45 @@ Contrast 'recognizing' (may loop on negatives) versus 'deciding' (always halts).
 - 'Recursively enumerable' does not imply the language is infinite — every finite language is RE (and in fact decidable).
 - A TM that loops forever on some inputs still recognizes a language; recognition requires only that all positives are eventually accepted.
 
+## Questions
+
+```yaml
+- question: "You build a Turing machine M that, given ⟨P, x⟩, simulates P on x and accepts if P halts — but loops forever if P does not halt. What can you conclude about the halting problem?"
+  type: multiple-choice
+  options:
+    - "M decides the halting problem, since it correctly identifies all halting instances"
+    - "M only recognizes the halting problem — it is a recognizer, not a decider, because it loops on non-halting instances rather than rejecting them"
+    - "M is impossible to build, since the halting problem is undecidable"
+    - "M proves the halting problem is in co-RE but not in RE"
+  answer: 1
+  explanation: "A recognizer only needs to accept all strings in the language — it makes no promise about non-members, which may cause it to loop. M is a valid recognizer: it accepts every ⟨P, x⟩ where P halts on x, so the halting problem is RE. But M is not a decider, because it loops forever on non-halting instances instead of halting with a 'reject.' A decider must halt on all inputs. The halting problem is RE-but-undecidable: we can recognize it (simulate and accept if halting) but cannot decide it (we cannot reliably detect non-halting). Undecidability and non-RE-membership are different things."
+
+- question: "A computer scientist has M₁ (recognizes language L, may loop on strings not in L) and M₂ (recognizes L̄, may loop on strings in L). She claims this is sufficient to decide L. Is she correct?"
+  type: multiple-choice
+  options:
+    - "No — a recognizer for L̄ only provides information about strings outside L and cannot help decide membership in L"
+    - "Yes — run M₁ and M₂ in parallel; one of them is guaranteed to eventually accept any input, giving the correct answer and always halting"
+    - "Only if both machines halt within polynomial time"
+    - "No — having recognizers for both L and L̄ is equivalent to having a single recognizer for L"
+  answer: 1
+  explanation: "Running M₁ and M₂ in dovetailed parallel creates a decider: for any input w, either w ∈ L (M₁ eventually accepts) or w ∉ L (M₂ eventually accepts). One must accept, so the combined machine always halts — it is a decider. This is the constructive proof of the theorem: L is decidable if and only if both L and its complement are RE. Note that we interleave steps of M₁ and M₂ rather than running M₁ to completion first (which might loop forever if w ∉ L)."
+
+- question: "If language L is recursively enumerable, then its complement L̄ is also recursively enumerable."
+  type: true-false
+  answer: false
+  explanation: "RE is not closed under complementation — this is one of the most important facts in computability theory. The halting problem H is RE (a recognizer exists), but its complement co-H is not RE (no Turing machine can recognize co-H). If both H and co-H were RE, we could run recognizers for both in parallel to decide H — contradicting undecidability. Only the decidable languages sit at the intersection of RE and co-RE; languages that are RE-but-undecidable have complements that are co-RE-but-not-RE."
+
+- question: "A Turing machine that loops forever on inputs not in L — never halting with a reject — still qualifies as a recognizer for L."
+  type: true-false
+  answer: true
+  explanation: "Recognition only requires that the machine accepts every string in L — eventually, after any finite amount of computation. What the machine does on strings not in L is irrelevant to recognition: it may loop, or it may halt with a reject; both are acceptable behaviors for a recognizer. Only a decider must halt on all inputs (accepting members and explicitly rejecting non-members). Looping on negatives is the normal, expected behavior of a recognizer for an undecidable language — the machine simply has no way to determine that a non-member will never be accepted."
+
+- question: "Why is a language decidable if and only if it is both RE and co-RE? Explain using the definitions of recognition and decision."
+  type: short-answer
+  answer: "A language L is RE if a Turing machine M₁ accepts every string in L (possibly looping on strings not in L). L is co-RE if a Turing machine M₂ accepts every string not in L (i.e., M₂ recognizes the complement). If L is both RE and co-RE, run M₁ and M₂ in parallel on any input w: either w ∈ L (M₁ eventually accepts) or w ∉ L (M₂ eventually accepts). One must accept, so the combined machine always halts with the correct answer — it is a decider. Conversely, any decidable language is trivially both RE (the decider is itself a recognizer) and co-RE (run the decider and swap accept/reject to get a recognizer for the complement)."
+  explanation: "The 'if' direction (RE ∩ co-RE ⊆ decidable) is the constructive argument via parallel simulation. The 'only if' direction (decidable ⊆ RE ∩ co-RE) is immediate from definitions. Together they establish that decidability is exactly the property of being recognizable from both sides — the machine can certify both membership and non-membership. The halting problem fails precisely because its complement is not RE: we can certify halting instances but cannot certify non-halting ones."
+```
+
 ## Explainer
 
 From your study of the halting problem, you know that some problems are simply undecidable—no Turing machine can solve them for all inputs. But undecidability comes in degrees. The RE/co-RE distinction gives you a fine-grained picture of what is just barely undecidable versus what is fully decidable, and it explains precisely where the halting problem sits in the landscape of computation.

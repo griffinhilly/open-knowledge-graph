@@ -31,6 +31,45 @@ Classic demonstrations involve learning in one drug or mood state and testing in
 - Assuming internal states are irrelevant to memory; they become part of the encoding context.
 - Confusing state-dependence with state-independent retrieval being impossible; retrieval outside the original state is possible but impaired.
 
+## Questions
+
+```yaml
+- question: "A student studies for an exam while feeling calm and well-rested, then takes the exam in a state of high anxiety. State-dependent memory research most directly predicts which outcome?"
+  type: multiple-choice
+  options:
+    - "No effect on performance — internal states do not influence retrieval"
+    - "Improved performance — anxiety increases arousal and sharpens recall"
+    - "Impaired retrieval because the internal state at encoding doesn't match the state at test"
+    - "Impaired retrieval only if the student was under sedation while studying"
+  answer: 2
+  explanation: "State-dependent memory holds that internal physiological and psychological states during encoding become part of the memory trace. A mismatch between encoding state (calm) and retrieval state (anxious) removes a retrieval cue, impairing recall. This effect is not limited to drug states — mood and arousal states produce the same pattern, though effects are smaller for moderate states than for extreme ones. Option A reflects the common misconception that only external context matters for retrieval."
+
+- question: "What is the critical difference between state-dependent memory and mood-congruent memory?"
+  type: multiple-choice
+  options:
+    - "State-dependent memory involves drug states; mood-congruent memory involves emotional states"
+    - "State-dependent memory is about whether states match at encoding and retrieval; mood-congruent memory is about whether the content matches the current mood"
+    - "They are the same phenomenon described by different researchers"
+    - "Mood-congruent memory involves forgetting; state-dependent memory involves recall failure"
+  answer: 1
+  explanation: "These are related but separable phenomena. State-dependent memory is a context-matching effect: material learned in a given internal state is better recalled in that same state, regardless of whether the content is emotionally valenced. Mood-congruent memory is a content-filtering effect: people preferentially recall memories whose emotional valence matches their current mood (happy people recall more happy events). A depressed person in a state-dependent paradigm doesn't better remember sad material — they better remember material they originally encoded while depressed, whether that material was sad or neutral."
+
+- question: "State-dependent memory means that information learned in one internal state cannot be retrieved when in a different state."
+  type: true-false
+  answer: false
+  explanation: "State-dependent effects impair retrieval, they do not block it. The original encoding state functions as one retrieval cue among many — when absent, access to the memory is reduced but not eliminated. Memory is supported by multiple overlapping retrieval pathways: semantic associations, contextual cues, spatial memory, and more. A richly encoded memory with many pathways is far more robust to state mismatch than a sparsely encoded one. 'Cannot be retrieved' overstates the effect significantly."
+
+- question: "State-dependent memory effects are stronger when the original encoding state was highly distinctive or extreme."
+  type: true-false
+  answer: true
+  explanation: "The mechanism behind state-dependent memory is that internal states become encoded as contextual features. For this to create a strong retrieval cue, the state must be sufficiently distinctive to be noticed and encoded. Extreme physiological states — strong intoxication, intense fear, high doses of sedatives — create highly distinctive internal contexts and thus stronger state-dependent effects. Moderate states (mild caffeine, slight anxiety) are less distinctive and produce weaker effects. This is why pharmacological state-dependence studies with alcohol or benzodiazepines show clearer effects than mood-state studies."
+
+- question: "Why does your internal psychological or physiological state during encoding become a retrieval cue? What is the mechanism?"
+  type: short-answer
+  answer: "During encoding, the memory trace is formed from all the features present in that moment — external context (room, lighting, smell) and internal context (physiological arousal, mood, drug state) alike. The memory system tags these contextual features as part of the encoded episode. At retrieval, the brain uses available cues to reinstate the original encoding context; a matching internal state re-instantiates part of that original context, improving access to the trace. A mismatched state fails to provide this cue, reducing the number of available retrieval pathways and impairing recall."
+  explanation: "This follows directly from the encoding specificity principle: memory retrieval is enhanced when the cues available at retrieval match the cues present during encoding. State-dependent memory extends this principle inward — showing that internal physiological and psychological states function the same way as external environmental cues. The practical implication is that building richly encoded traces with many cues provides redundancy that makes memory more robust to any one cue (including internal state) being absent."
+```
+
 ## Explainer
 
 Your study of memory encoding strategies established that effective encoding involves creating rich, interconnected traces — the more associations at encoding, the more retrieval pathways available later. Your study of retrieval cues showed that memory is not a fixed record but a reconstruction: what you remember depends on what cues are present at retrieval to reinstate the original encoding context. State-dependent memory is the logical extension of both ideas: your internal physiological and psychological state during encoding becomes part of that context — and reinstating that state improves retrieval, just as reinstating an external context does.

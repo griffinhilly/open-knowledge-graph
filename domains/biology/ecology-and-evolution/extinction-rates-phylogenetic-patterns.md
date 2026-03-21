@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Extinction rates vary over geological time and across lineages. Mass extinctions alter ecosystem composition and create radiative opportunities. Modern extinction rates exceed background rates by orders of magnitude, driven by habitat loss, climate change, and invasive species.
 
+## Questions
+
+```yaml
+- question: "Conservation funds are limited. Two species are at equal extinction risk: Species A is the last member of a lineage that diverged from all other living organisms 300 million years ago; Species B is one of 80 closely related species in a recently diversified clade. From a phylogenetic conservation perspective, which deserves higher priority?"
+  type: multiple-choice
+  options:
+    - "Species B, because protecting one of 80 is more likely to preserve the clade's genetic diversity"
+    - "Species A, because it represents a unique, irreplaceable branch of evolutionary history that cannot be recovered"
+    - "Neither — extinction risk should be the only criterion, not phylogenetic position"
+    - "Species B, because recently diversified clades are more evolutionarily active and therefore more valuable"
+  answer: 1
+  explanation: "Phylogenetic conservation prioritization values evolutionary uniqueness, not just species count. Species A's loss would remove an entire branch of the tree of life representing 300 million years of unique evolutionary history — metabolic pathways, developmental innovations, ecological roles found nowhere else. Losing one of 80 closely related species in a diverse clade is a much smaller loss of evolutionary heritage, since relatives preserve most of the clade's evolutionary information. This 'evolutionary distinctiveness' principle now formally informs frameworks like EDGE (Evolutionarily Distinct and Globally Endangered) conservation scoring."
+
+- question: "Modern extinction rates compared to the background extinction rate are estimated to be approximately:"
+  type: multiple-choice
+  options:
+    - "2–5 times higher, reflecting normal variation in extinction pressure across geological periods"
+    - "10–20 times higher, consistent with an accelerated but not catastrophic extinction event"
+    - "100–1,000 times higher, suggesting we may be entering a sixth mass extinction"
+    - "Equal to or slightly below background rates, because conservation efforts have effectively offset habitat loss"
+  answer: 2
+  explanation: "The best estimates place modern extinction rates at 100 to 1,000 times the background rate of approximately 0.1–1 species per million species-years. This is the empirical basis for proposals that we are entering a sixth mass extinction comparable to the five recognized events in Earth's history. Option A and B understate the magnitude; option D contradicts the evidence. The wide range (100–1,000×) reflects genuine uncertainty in background rate estimation and in how many modern extinctions go undetected in poorly studied groups."
+
+- question: "Extinction risk tends to cluster on the tree of life because traits that increase vulnerability — such as small range size, large body size, and slow reproduction — are often shared among close relatives."
+  type: true-false
+  answer: true
+  explanation: "Phylogenetic conservatism means closely related species tend to share traits — including traits that affect extinction risk. Large body size, for example, is characteristic of entire mammalian orders; slow reproduction characterizes entire primate lineages; specialized diets characterize entire clades of beetles. When a stressor (habitat fragmentation, hunting) targets species with one of these traits, it tends to remove whole branches of the phylogenetic tree rather than random species. This non-random pattern means that the diversity loss from modern extinctions is disproportionately large: we are losing evolutionarily distinctive lineages, not just random leaves."
+
+- question: "After mass extinctions, biodiversity typically recovers within tens of thousands of years through rapid adaptive radiation of surviving lineages."
+  type: true-false
+  answer: false
+  explanation: "Recovery from mass extinctions takes millions, not thousands, of years. Even the explosive mammalian radiation after the end-Cretaceous extinction — one of the fastest post-extinction diversifications in the fossil record — required roughly 10–20 million years to produce the ecological and taxonomic diversity that existed before. The end-Permian extinction's recovery took even longer. This temporal scale has stark implications: even if extinction pressures were eliminated today, the evolutionary heritage destroyed by a mass extinction event cannot be restored on any timescale relevant to human civilization."
+
+- question: "Why does a phylogenetic approach provide a better measure of the severity of the modern extinction crisis than simply counting how many species are lost?"
+  type: short-answer
+  answer: "Species counts treat all extinctions as equal, but they are not evolutionarily equivalent. Losing one species from a clade of 200 closely related species removes relatively little unique evolutionary information — the remaining 199 preserve most of the clade's genetic diversity, biochemical pathways, and ecological adaptations. Losing the only surviving member of an ancient, species-poor lineage removes an entire branch of the tree of life — millions of years of unique evolutionary history with no close relatives to preserve it. Phylogenetic approaches quantify how much evolutionary heritage is at stake, enabling prioritization that preserves the maximum breadth of life's diversity."
+  explanation: "Metrics like 'phylogenetic diversity' (the summed branch lengths of the evolutionary tree represented by a set of species) capture this distinction. Conservation frameworks like EDGE explicitly weight species by both extinction risk and evolutionary distinctiveness. This phylogenetic lens also reveals that current extinctions are disproportionately affecting evolutionarily isolated lineages — amphibians, reptiles, and certain mammalian orders — making the tree of life thinner in ways that species counts alone do not capture."
+```
+
 ## Explainer
 
 From your understanding of extinction and recovery dynamics and molecular phylogenetics, you know that species go extinct, that life has rebounded from catastrophic losses, and that evolutionary relationships can be reconstructed from molecular data. Extinction rates and phylogenetic patterns bring these ideas together by asking: how fast do lineages disappear, which lineages are most vulnerable, and what does the tree of life look like after major extinction events?

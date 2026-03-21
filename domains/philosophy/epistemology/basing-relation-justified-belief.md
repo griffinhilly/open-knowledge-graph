@@ -32,6 +32,45 @@ Study cases where someone has available justification but fails to base their be
 - Confusing the basing relation with the cause of one's belief (they're related but distinct).
 - Assuming all cases of justified belief involve explicit conscious reasoning.
 
+## Questions
+
+```yaml
+- question: "Maria has excellent analyst reports confirming her stock pick will succeed, but she never reads them. She buys the stock because her lucky coffee mug fell in a way she interprets as a good omen. Is her belief that the stock will succeed justified?"
+  type: multiple-choice
+  options:
+    - "Yes — she possesses the justification (the analyst reports exist), so her belief counts as justified"
+    - "No — she has no justification at all, since superstitious reasoning provides zero evidential support"
+    - "No — although she possesses justification, her belief is not based on it; it is based on the omen, not the evidence"
+    - "Yes — the basing relation only requires that adequate justification be available in principle, not that it causally produced the belief"
+  answer: 2
+  explanation: "This is the core case the basing relation is designed to diagnose. Maria has justification — the evidence exists — but her belief is not *based* on it. Her belief was formed through superstition, not through the available evidence. Options A and D represent exactly the misconception the basing relation corrects: having justification in one's possession is necessary but not sufficient. The justification must be *operative* — it must be what actually produces and sustains the belief. Option B is too strong; the point is not that she has no justification at all, but that the justification she has is not doing the epistemic work."
+
+- question: "Which of the following best captures the distinction between rationalization and genuine justified belief?"
+  type: multiple-choice
+  options:
+    - "Rationalization involves false beliefs; genuine justified belief always involves true beliefs"
+    - "Rationalization means reaching a conclusion first (for non-evidential reasons), then finding supporting justification afterward; genuine justified belief means the justification actually produces and sustains the belief"
+    - "Rationalization is always unconscious; genuine justified belief always involves explicit, conscious reasoning from evidence"
+    - "Rationalization uses emotional rather than empirical evidence; genuine justified belief excludes all emotional influence"
+  answer: 1
+  explanation: "The epistemically important difference is about the direction of causation. In rationalization, you already hold the belief (from desire, emotion, social pressure) and then identify supporting reasons post hoc. The reasons are collected to justify a conclusion you've already reached, not to generate it. In genuine justified belief, the evidence or reasons causally (or reasons-responsively) produce the belief. A rationalizer and a genuine believer may have identical sets of available evidence — the difference lies entirely in whether that evidence is doing the epistemic work."
+
+- question: "If a person can correctly articulate good reasons for their belief when asked, that is sufficient evidence that their belief is properly based on those reasons."
+  type: true-false
+  answer: false
+  explanation: "Being able to cite justification retrospectively does not show that the justification was operative in forming the belief. A skilled rationalizer can articulate compelling reasons for a conclusion she reached through wishful thinking. The basing relation requires that the reasons *causally or reasons-responsively* produced the belief — not that they can be mentioned when prompted. The misconception conflates having access to a justification (a cognitive resource) with having a belief that was formed by that justification (an epistemic achievement)."
+
+- question: "The basing relation matters even in cases where both the belief and the available justification are correct — what is at issue is not the truth of the belief or the quality of the justification, but whether the justification is actually doing the work of producing the belief."
+  type: true-false
+  answer: true
+  explanation: "This is precisely why the basing relation is philosophically significant and not just a practical concern. Imagine someone with complete, accurate evidence for a true conclusion, who nonetheless believes that conclusion for irrelevant reasons. The justification is excellent, the belief is true, but the belief is not *based* on the justification — and epistemologists argue it therefore does not constitute knowledge. The basing relation separates having the right epistemic resources from using them correctly."
+
+- question: "Why is possessing adequate justification not sufficient for a belief to count as genuinely justified? What additional condition does the basing relation require, and why does this matter for Gettier-style problems?"
+  type: short-answer
+  answer: "Possessing justification means the relevant evidence or good reasons exist in your cognitive repertoire. But a belief can be formed through completely different processes — emotion, habit, superstition — while the justification remains unused. The basing relation requires that the justification be causally or reasons-responsively operative: the belief must be formed and maintained *because of* the justification, not merely alongside it. For Gettier cases, this matters because many proposed repairs to the JTB account require that the belief 'tracks' or 'flows from' the justification in the right way — not merely that justification exists nearby."
+  explanation: "The basing relation also clarifies the difference between propositional justification (you have reasons that would justify a belief) and doxastic justification (your belief is actually supported by those reasons in the right way). Only doxastic justification — belief based on justification — is epistemically valuable. This distinction explains why rationalization is epistemically defective even when the rationalizer has good evidence: the evidence isn't doing the epistemic work, so the belief isn't genuinely justified despite the evidence being available."
+```
+
 ## Explainer
 
 From justified true belief, you know that knowledge — in the standard pre-Gettier analysis — requires three components: a belief that is true, and justification for holding it. But there is a gap in that account. Consider a person who has excellent evidence that their flight departs at noon (they checked the airline website, their phone calendar, and a printed itinerary), but who believes it departs at noon for a completely different reason — a superstition about the number 12 or a gut feeling from a dream. Do they have justified belief? They possess justification (the evidence exists), but their belief is not *based* on that justification. The **basing relation** is the connection that determines whether the justification you possess is actually doing the work of supporting your belief.

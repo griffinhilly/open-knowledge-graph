@@ -31,6 +31,45 @@ Use the multiplication principle to derive P(n, r): first position has n choices
 ## Common Misconceptions
 Permutations require distinct objects; if objects repeat, the formula changes. The formula P(n, r) assumes choosing without replacement and that order distinguishes arrangements.
 
+## Questions
+
+```yaml
+- question: "A club of 10 members needs to elect a president, a vice-president, and a treasurer. How many ways can these three distinct offices be filled?"
+  type: multiple-choice
+  options:
+    - "C(10, 3) = 120, because we are choosing 3 people from 10"
+    - "10 × 10 × 10 = 1000, because each office independently has 10 candidates"
+    - "P(10, 3) = 720, because the offices are distinct and order of assignment matters"
+    - "3! = 6, because there are 3 offices to arrange"
+  answer: 2
+  explanation: "The offices are distinguishable (president ≠ vice-president ≠ treasurer), so assigning Alice as president and Bob as VP is different from assigning Bob as president and Alice as VP. This means order matters — it's a permutation problem. P(10, 3) = 10 × 9 × 8 = 720. Option A (combinations) would be correct if the three selected people formed an unranked committee with no distinct roles."
+
+- question: "How many distinct 3-letter arrangements can be formed using letters from {A, B, C, D, E} with no repetition?"
+  type: multiple-choice
+  options:
+    - "10, because C(5, 3) = 10"
+    - "60, because P(5, 3) = 5!/2! = 60"
+    - "125, because each of 3 positions has 5 choices"
+    - "15, because 5 × 3 = 15"
+  answer: 1
+  explanation: "We are choosing 3 letters from 5 and arranging them in order — order matters (ABC ≠ BAC), and no letter repeats. P(5, 3) = 5!/(5−3)! = 5!/2! = 5 × 4 × 3 = 60. Option A gives C(5,3) = 10, which counts unordered selections (combinations) — correct if you only cared which letters were chosen, not their order. Option C (125) counts arrangements with repetition, which is n^r = 5³, not applicable here."
+
+- question: "Arranging all n distinct objects in a complete sequence is a special case of permutations: P(n, n) = n!."
+  type: true-false
+  answer: true
+  explanation: "P(n, n) = n!/(n−n)! = n!/0! = n!/1 = n!. When you arrange all n objects (r = n), you're filling every slot, so the count is n × (n−1) × ⋯ × 1 = n!. This is exactly the 'number of ways to order n distinct objects' that factorial was introduced to count. Permutations generalize this: P(n, r) counts ordered arrangements when you only fill r of n slots."
+
+- question: "Permutations count arrangements where the order of selection does not affect the outcome."
+  type: true-false
+  answer: false
+  explanation: "This describes combinations, not permutations. Permutations count ordered arrangements, where swapping two elements produces a *different* outcome. For example, (Alice, Bob) and (Bob, Alice) are two distinct permutations of the same two people — because in a permutation context (like ranking first and second place), the order is what matters. Combinations count unordered selections, where {Alice, Bob} and {Bob, Alice} are the same."
+
+- question: "Explain why the formula P(n, r) = n!/(n−r)! has (n−r)! in the denominator."
+  type: short-answer
+  answer: "The numerator n! counts all ways to arrange all n objects in a complete sequence. But we only want to fill r slots — we use n, n−1, …, n−r+1 for those r choices, and the remaining (n−r) objects are not placed at all. Those unplaced objects can be in any order among themselves without changing the outcome, so we divide by (n−r)! to cancel the arrangements of the unused objects. The result n!/(n−r)! = n × (n−1) × ⋯ × (n−r+1) counts only the ordered choices for the r occupied slots."
+  explanation: "The denominator isn't arbitrary — it precisely removes the overcounting caused by treating the unchosen objects as though they have meaningful positions. When r = n, (n−r)! = 0! = 1, so nothing is canceled and P(n,n) = n! as expected."
+```
+
 ## Explainer
 
 A **permutation** is any ordered arrangement of objects. "Ordered" is the key word: the arrangement (Alice, Bob, Carol) is different from (Bob, Alice, Carol), even though they involve the same three people. When you studied the multiplication principle in counting fundamentals, you learned to multiply independent choices. Permutations apply that principle to sequential slots where each choice reduces the available options.

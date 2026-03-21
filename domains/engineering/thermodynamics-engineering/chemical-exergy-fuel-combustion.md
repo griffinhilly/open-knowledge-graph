@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Chemical exergy represents the maximum useful work available from a chemical substance relative to the reference environment at equilibrium. For fuels, chemical exergy is approximately the lower heating value; precise values depend on composition and environmental standard state. Chemical exergy accounting reveals true second-law efficiency of combustion-based power cycles and identifies losses to irreversible mixing.
 
+## Questions
+
+```yaml
+- question: "A natural gas combustor operates adiabatically — zero heat loss to the surroundings. A first-law analysis confirms that all the fuel's chemical energy is retained within the system as hot combustion products. Does this mean the combustor has achieved 100% second-law efficiency? Why or why not?"
+  type: multiple-choice
+  options:
+    - "Yes — if no heat escapes, no exergy is lost, and all the fuel's work potential is preserved in the hot products"
+    - "No — irreversible combustion (finite-temperature mixing, off-equilibrium reactions) generates entropy, destroying 25–30% of the fuel's chemical exergy even with no heat loss"
+    - "Yes — second-law efficiency equals first-law efficiency for adiabatic processes because there is no thermal exergy transfer to the surroundings"
+    - "No — adiabatic combustors always have lower efficiency because restricting heat loss prevents the products from reaching equilibrium with the environment"
+  answer: 1
+  explanation: "Entropy generation — and thus exergy destruction — occurs internally during combustion, independent of whether heat escapes. The irreversibility of combustion arises from mixing fuel and air at finite temperature, from kinetically-driven reactions far from chemical equilibrium, and from large temperature gradients within the flame. These processes generate entropy within the system, destroying exergy that cannot be recovered. A first-law energy balance shows energy is conserved; an exergy balance reveals that 25–30% of the fuel's chemical exergy is typically destroyed in the combustor alone. Adiabatic operation preserves energy, not exergy."
+
+- question: "A simple gas turbine achieves 40% first-law (thermal) efficiency and 35% second-law (exergy) efficiency. What phenomenon accounts for the 5% gap between these two metrics?"
+  type: multiple-choice
+  options:
+    - "Heat rejection to the environment, which first-law efficiency includes but second-law efficiency excludes"
+    - "Internal irreversibilities — entropy generation from combustion, heat transfer across finite temperature differences, and fluid friction — that destroy work potential before it can be converted to shaft work"
+    - "The fact that second-law efficiency uses a different reference temperature than first-law efficiency, creating a systematic offset"
+    - "The compressor work that must be subtracted from turbine output, which is counted in second-law efficiency but not first-law efficiency"
+  answer: 1
+  explanation: "First-law efficiency compares work output to heat released by fuel. It captures heat rejection losses but does not identify *where* useful work potential was irreversibly destroyed inside the system. Second-law efficiency compares work output to chemical exergy input — a more demanding benchmark because it accounts for the maximum theoretically achievable work. The gap between the two reflects exergy destroyed by internal irreversibilities: entropy generation in the combustor (flame irreversibility), heat transfer across large temperature differences in the heat exchanger, and friction losses. These losses are invisible to first-law analysis but fully accounted for by exergy analysis."
+
+- question: "A combustion system that rejects no heat to the environment achieves 100% second-law efficiency because all energy is retained as thermal exergy in the exhaust."
+  type: true-false
+  answer: false
+  explanation: "Second-law efficiency measures useful exergy output divided by chemical exergy input — not just whether energy is retained. Adiabatic combustion converts chemical exergy to thermal exergy in the products, but the irreversible combustion process itself destroys a significant fraction of exergy through entropy generation. Additionally, hot exhaust gas at high temperature contains thermal exergy, but if that exergy is not extracted (by a turbine or heat exchanger), it is eventually rejected to the environment and lost. Second-law efficiency requires actually capturing the exergy, not merely retaining the energy."
+
+- question: "Chemical exergy of a fuel is approximately equal to its lower heating value because both represent the maximum work or heat extractable from complete combustion relative to the reference environment."
+  type: true-false
+  answer: true
+  explanation: "The lower heating value (LHV) represents the heat released in complete combustion with water remaining as vapor. Chemical exergy represents the maximum work obtainable from reversible reaction to environmental equilibrium (CO₂ and H₂O at atmospheric partial pressures). These two quantities are close because Gibbs free energy of combustion ≈ enthalpy of combustion for most hydrocarbons — the TΔS term is relatively small. The ratio e_ch/LHV is typically 1.01–1.10 for common fuels (1.04 for methane, higher for hydrogen where entropy effects are larger). For engineering calculations, LHV is often used as an approximation for chemical exergy."
+
+- question: "What does second-law (exergy) analysis reveal about combustion that first-law (energy) analysis cannot, and why does this distinction matter for improving power plant efficiency?"
+  type: short-answer
+  answer: "First-law analysis tracks energy quantities (input heat, work output, heat rejection) and concludes that all unrecovered energy is 'lost to exhaust.' It cannot locate *where* in the cycle work potential was irreversibly destroyed. Exergy analysis tracks the quality of energy — its capacity to do work — and identifies internal irreversibilities that destroy exergy within the system. For a combustor, exergy analysis reveals that 25–30% of fuel's chemical exergy is destroyed by the combustion process itself, even before any heat rejection occurs. This tells engineers that simply recovering exhaust heat (a first-law improvement) leaves a large untapped gain available by reducing combustion irreversibility — through higher combustion temperatures, staged combustion, or alternative thermodynamic cycles."
+  explanation: "This distinction is practically significant because it directs improvement efforts. If first-law analysis suggests 60% of energy is 'lost to exhaust,' an engineer might focus entirely on heat recovery. Exergy analysis reveals that perhaps 25% is destroyed in combustion itself (irreversible) and 35% is thermal exergy in the exhaust (potentially recoverable). Combined cycle plants recover much of the exhaust exergy using a bottoming steam cycle, pushing second-law efficiency above 55%. Knowing the location and magnitude of each exergy destruction term tells engineers exactly where further improvements are possible and which losses are fundamentally unavoidable."
+```
+
 ## Explainer
 
 Your prerequisite on exergy (availability) established that exergy measures the maximum work extractable as a system moves to equilibrium with its environment — the **dead state**. That concept applied to thermal and mechanical disequilibrium: a hot gas has thermal exergy, a compressed gas has pressure exergy. Chemical exergy extends the same logic to *chemical* disequilibrium: a fuel is not in chemical equilibrium with the atmosphere (oxygen, nitrogen, CO₂, H₂O in ambient proportions), and that disequilibrium is a potential source of work.

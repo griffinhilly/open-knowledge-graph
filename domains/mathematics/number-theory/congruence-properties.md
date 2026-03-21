@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Congruences mod n form an equivalence relation: a ≡ b (mod n) iff n|(a-b). They respect addition, subtraction, and multiplication. If gcd(a,n) = 1, division is possible. These properties make congruences a powerful algebraic tool for number theory.
 
+## Questions
+
+```yaml
+- question: "Starting from 6 ≡ 2 (mod 4), a student cancels the factor of 2 from both sides to obtain 3 ≡ 1 (mod 4). What went wrong?"
+  type: multiple-choice
+  options:
+    - "You can never cancel common factors in congruences — division is entirely undefined in modular arithmetic"
+    - "You can cancel the factor of 2, but since gcd(2, 4) = 2, the modulus must also be divided by 2, giving the correct result 3 ≡ 1 (mod 2)"
+    - "The original congruence 6 ≡ 2 (mod 4) is false, so no valid manipulation can follow"
+    - "Division requires the factor to be prime; since 2 is prime, the cancellation should indeed give 3 ≡ 1 (mod 4)"
+  answer: 1
+  explanation: "When cancelling a factor c from ac ≡ bc (mod n), you must also divide the modulus by gcd(c, n). Here c = 2 and n = 4, so gcd(2, 4) = 2, and the correct result is 3 ≡ 1 (mod 4/2) = 3 ≡ 1 (mod 2), which is true (both are odd). The student kept the original modulus 4 after dividing both sides by 2, producing a false statement. This is the key subtlety of 'division' in congruences: it is valid, but it shrinks the modulus when the divisor shares a common factor with it."
+
+- question: "Which of the following operations can always be performed on both sides of a valid congruence a ≡ b (mod n) while preserving validity?"
+  type: multiple-choice
+  options:
+    - "Dividing both sides by any integer c, keeping the modulus n unchanged"
+    - "Squaring both sides to get a² ≡ b² (mod n)"
+    - "Taking the square root of both sides to get √a ≡ √b (mod n)"
+    - "Adding an arbitrary integer c to the modulus"
+  answer: 1
+  explanation: "Because congruences are closed under multiplication, squaring is always valid: if a ≡ b (mod n), then a² = a·a ≡ b·b = b² (mod n). This is a direct application of the multiplicative property. Option A (division while keeping modulus unchanged) only works when the divisor is coprime to n. Option C (square roots) has no general guarantee in modular arithmetic — square roots may not exist, or may not be unique. Option D makes no sense as a manipulation of a congruence."
+
+- question: "If a ≡ b (mod n) and c divides both a and b, then a/c ≡ b/c (mod n) always holds."
+  type: true-false
+  answer: false
+  explanation: "This is false when gcd(c, n) > 1. The classic example: 6 ≡ 2 (mod 4). Dividing by c = 2 gives 3 ≡ 1 (mod 4), which is false (4 does not divide 3 − 1 = 2). Division preserves the congruence at the same modulus only when gcd(c, n) = 1. When gcd(c, n) = d > 1, cancelling c requires dividing the modulus by d: a/c ≡ b/c (mod n/d). This rule is the most common source of errors in elementary number theory computations."
+
+- question: "When the modulus n is prime, every nonzero residue class mod n has a multiplicative inverse."
+  type: true-false
+  answer: true
+  explanation: "When n is prime, gcd(a, n) = 1 for every a not divisible by n (since n has no factors other than 1 and itself). By Bézout's identity, this implies there exist integers x, y such that ax + ny = 1, which means ax ≡ 1 (mod n) — so x = a⁻¹ mod n exists. This makes ℤ/pℤ a field: every nonzero element has a multiplicative inverse and all four arithmetic operations are fully defined. This property is what enables Fermat's little theorem and makes prime moduli central to cryptographic applications."
+
+- question: "Why does division in modular arithmetic require the divisor to be coprime to the modulus, when addition and multiplication have no such restriction?"
+  type: short-answer
+  answer: "Addition and multiplication are defined directly by the ring structure of ℤ/nℤ — the sum or product of any two residue classes is another residue class, always. Division means multiplying by the multiplicative inverse. An inverse of c mod n exists if and only if gcd(c, n) = 1, because c·c⁻¹ ≡ 1 (mod n) requires that 1 is reachable as a multiple of c modulo n — which only happens when c and n share no common factor. When gcd(c, n) = d > 1, the element c is a zero-divisor: there exist nonzero elements it sends to zero (e.g., c · (n/d) ≡ 0 mod n), destroying the injectivity required for division to be well-defined."
+  explanation: "The algebraic intuition: in ℤ/6ℤ, the element 2 has no inverse because 2·1=2, 2·2=4, 2·3=0, 2·4=2, 2·5=4 — none equals 1. But in ℤ/7ℤ (prime), every nonzero element has an inverse: 2·4=8≡1, so 2⁻¹=4."
+```
+
 ## Explainer
 
 From your study of modular arithmetic, you know that a ≡ b (mod n) means a and b leave the same remainder when divided by n — equivalently, n divides (a − b). What congruences gain from being an **equivalence relation** is structure: they carve the integers into n disjoint **residue classes** (the classes 0, 1, 2, ..., n−1), and every integer belongs to exactly one. You can think of the integers as being "folded" onto a circle of n positions, and two numbers are congruent precisely when they land on the same position.

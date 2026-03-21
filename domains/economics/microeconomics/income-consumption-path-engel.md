@@ -30,6 +30,45 @@ Draw budget lines at increasing income levels, find optimum at each, and trace t
 - Income and demand always move together (they do for normal goods, but move opposite for inferior goods).
 - Engel curves are the same for all goods (they differ by good type and consumer preferences).
 
+## Questions
+
+```yaml
+- question: "As a consumer's income rises from $30,000 to $80,000/year, they take fewer bus rides per month. What does this tell us about bus rides for this consumer?"
+  type: multiple-choice
+  options:
+    - "Bus rides are a luxury good — consumers want proportionally more of them at higher incomes"
+    - "Bus rides are a normal good — any reduction in quantity must reflect a price increase, not an income effect"
+    - "Bus rides are an inferior good — demand falls in absolute terms as income rises past the threshold where alternatives become affordable"
+    - "The consumer's preferences for bus rides have changed, which shifts the Engel curve"
+  answer: 2
+  explanation: "An inferior good is defined as one for which quantity demanded *falls* as income rises, with prices held constant. Bus rides fit the classic pattern: at low income they're the best available option; at higher income, the consumer can afford a car or ride-sharing and substitutes away. Option B is the common misconception — income changes cause shifts in the demand curve (or movement along the Engel curve), not movements along the demand curve. Prices haven't changed here."
+
+- question: "An Engel curve for ramen noodles has a positive slope below $25,000 annual income and a negative slope above $25,000. What does this mean?"
+  type: multiple-choice
+  options:
+    - "Ramen is always a normal good but becomes a smaller share of spending at high income"
+    - "Ramen is a normal good at low incomes (demand rises with income) but becomes an inferior good above $25,000 (demand falls as income rises further)"
+    - "The Engel curve must be drawn incorrectly — slopes cannot change direction"
+    - "The price of ramen rises as consumers become wealthier, explaining the slope reversal"
+  answer: 1
+  explanation: "Good type is not fixed — it depends on income level. Below $25,000, ramen is normal: higher income lets the consumer buy more of it. Above $25,000, ramen becomes inferior: higher income makes restaurant meals or better food newly affordable, and the consumer substitutes away from ramen absolutely (fewer units, not just a smaller share). Engel curves routinely have inflection points. The slope change reveals a change in relative marginal utility between ramen and its substitutes at that income threshold."
+
+- question: "The income consumption path holds prices constant and traces how the consumer's optimal bundle changes as income varies."
+  type: true-false
+  answer: true
+  explanation: "This is the defining feature: prices are fixed, and only income varies. Each income level produces a parallel budget line (same slope, farther from origin), and the tangency between that budget line and the highest reachable indifference curve gives the optimal bundle at that income. Connecting those optimal bundles traces the income consumption path. If prices changed, the budget line would rotate rather than shift, producing a different kind of path (the price consumption path)."
+
+- question: "A good classified as inferior will have a downward-sloping Engel curve at all income levels."
+  type: true-false
+  answer: false
+  explanation: "A good is normal at some income levels and inferior at others. 'Inferior' is not an inherent property of a good but a description of how demand responds to income changes in a particular range. A cheap food staple may be normal at low income (consumers want more as they can afford it) and inferior at higher income (consumers substitute away once better alternatives are affordable). The Engel curve's slope can change from positive to negative at the income threshold where substitution kicks in."
+
+- question: "Explain the microeconomic logic for why a consumer might buy less of a good when their income rises. What is happening to marginal utility?"
+  type: short-answer
+  answer: "As income rises, the consumer's opportunity set expands — goods that were previously unaffordable become options. If a higher-quality substitute (e.g., restaurants vs. ramen, a car vs. bus rides) now lies within reach, the consumer compares the marginal utility per dollar of the cheap staple against the newly affordable substitute. Because of diminishing marginal utility, consuming more of the staple yields decreasing satisfaction per unit, while the substitute offers higher marginal utility at the margin. Once income passes the threshold, the consumer maximizes utility by reallocating spending toward the substitute — and absolute quantity of the inferior good falls."
+  explanation: "The key is that 'inferior' does not mean the good became worse or less satisfying. At low income, the staple was the best option available. At high income, better options become feasible, and diminishing marginal utility from the staple means the substitute now wins the marginal utility comparison. The consumer rationally shifts spending, reducing demand for the former staple in absolute terms."
+```
+
 ## Explainer
 
 You already know how a consumer finds their optimal bundle using indifference curves: the optimal choice sits at the tangency between the budget line and the highest reachable indifference curve. The price of each good and the consumer's income determine where the budget line sits. The **income consumption path** answers a simple question: what happens to that optimal bundle as income rises, holding both prices fixed? Each income level produces a parallel budget line shifted outward, and each budget line has its own tangency point. Connecting all those tangency points traces the income consumption path through the indifference map.

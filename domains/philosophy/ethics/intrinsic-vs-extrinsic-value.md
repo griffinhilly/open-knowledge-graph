@@ -29,6 +29,45 @@ Ask about any seemingly valuable thing: Is it good because of what it produces, 
 ## Common Misconceptions
 Assuming intrinsic value requires independence from all preferences or minds. Treating money as if it could be intrinsically valuable. Assuming something can have only one type of value, rather than both intrinsic and extrinsic.
 
+## Questions
+
+```yaml
+- question: "A philosopher argues that money has intrinsic value because modern life is impossible without it. What is the strongest objection to this argument?"
+  type: multiple-choice
+  options:
+    - "The argument is sound — essential things always have intrinsic value"
+    - "Essential instrumentality is not intrinsic value; money is valuable because of what it buys, not for its own sake — the 'why?' test keeps going"
+    - "The argument is correct in a relativist sense, since intrinsic value varies by culture and context"
+    - "The argument proves money has both intrinsic and extrinsic value, since important things typically have both"
+  answer: 1
+  explanation: "The 'why?' test is decisive: why is money valuable? Because it buys food, shelter, and things that matter. Why are those valuable? Because they produce safety, pleasure, or the ability to help others. The chain continues — money is always valuable *for* something else, never as a terminal stopping point. Essential instrumentality is high extrinsic value, not intrinsic value. This is the core misconception the topic addresses: indispensable tools are often mistaken for intrinsically valuable things."
+
+- question: "A student defines intrinsic value as 'value that is objective and mind-independent — it exists whether or not anyone recognizes or cares about it.' What is the problem with this definition?"
+  type: multiple-choice
+  options:
+    - "No problem — this is the standard definition all philosophers accept"
+    - "It conflates intrinsic value (valued for its own sake, not as a means) with objective value (mind-independent); these are separate questions, and a subjective view can still maintain the intrinsic/extrinsic distinction"
+    - "The definition is too narrow — intrinsic value should include aesthetic properties like beauty"
+    - "Objective value is impossible, so the definition makes intrinsic value an empty category"
+  answer: 1
+  explanation: "The intrinsic/extrinsic distinction is about the *structure* of value: is this thing valued for its own sake or for what it leads to? Whether such value is objective or mind-dependent is a further, disputed metaethical question. A subjectivist can say 'intrinsic value is whatever a subject values for its own sake, not as a means' — maintaining the distinction without committing to mind-independence. Conflating intrinsic with objective is a common error that prematurely resolves a contested debate."
+
+- question: "Knowledge can have both intrinsic and extrinsic value simultaneously — it can be good in itself and also useful for achieving other goals."
+  type: true-false
+  answer: true
+  explanation: "Many things plausibly have both kinds of value, and the topic explicitly identifies this complication. Knowledge is valuable in itself (for some, knowing is good full stop) and also instrumentally useful. The intrinsic/extrinsic distinction is about the type of value, not whether a thing can have only one type. The common error is thinking something must be exclusively one or the other — but 'good in itself' and 'good as a means' are not mutually exclusive."
+
+- question: "According to the Kantian view, treating a person merely as a means to your ends is wrong because persons have extrinsic value that must be respected."
+  type: true-false
+  answer: false
+  explanation: "Kant's argument is precisely the opposite: persons have intrinsic dignity or worth — value in themselves, independent of what they are useful for. This is why using a person merely as a means is impermissible. If persons had only extrinsic value (value as instruments), there would be no principled objection to using them whenever it served a purpose. The prohibition follows from their intrinsic value: they are ends in themselves, not merely means to others' ends."
+
+- question: "Explain the 'why?' test for distinguishing intrinsic from extrinsic value, and apply it to determine whether health has intrinsic or extrinsic value."
+  type: short-answer
+  answer: "The 'why?' test asks: why is this thing valuable? If the answer requires citing something else the thing produces or enables, it has extrinsic value. Keep asking why until you reach something whose value cannot be further explained by what it produces — that stopping point is intrinsic value. Applying it to health: health is valuable because it allows you to live fully, pursue goals, avoid suffering, and experience pleasure. But is health valuable in itself? Many argue yes — being healthy is good independently of what you do with it. Others argue it reduces to the pleasure or capability it enables. Health may have both: intrinsic value as a good in itself, and extrinsic value as a means to other goods."
+  explanation: "The 'why?' test reveals the structure of value justification: extrinsic values form chains, intrinsic values terminate them. The interesting cases are things like health, friendship, and knowledge, which seem to have both kinds. The test is most powerful when applied to things like money, which clearly cannot terminate the chain — no matter how essential money is, asking 'why is having money good?' always yields an answer that points beyond the money itself."
+```
+
 ## Explainer
 
 The most useful way to grasp the intrinsic/extrinsic distinction is through the **"why?" test**: ask why something is valuable, and keep asking until you either reach bedrock or go in a circle. Money is a clear case of extrinsic value — it is valuable because it buys things, which in turn might give you pleasure, security, or the ability to help others. But those goods are valuable because of what they produce in you and others. Keep asking why, and eventually you reach something that is not valuable for what it leads to — it is valuable in itself, full stop. That stopping point is **intrinsic value**. Things typically cited as having intrinsic value include pleasure or happiness, knowledge, friendship, beauty, and virtue — though there is substantial philosophical disagreement about exactly which items belong on that list.

@@ -34,6 +34,45 @@ Reading excerpts of the Book of the Dead alongside images of tomb paintings make
 - Egyptian religion was not monolithic; local cults, theological disputes (like Akhenaten's Aten heresy), and evolving practices occurred across 3,000 years.
 - Mummification was not universally available; it was expensive and therefore socially stratified.
 
+## Questions
+
+```yaml
+- question: "The Book of the Dead spells were primarily magical passwords that allowed anyone who knew them to bypass moral judgment in the afterlife. What does this claim miss about Egyptian theology?"
+  type: multiple-choice
+  options:
+    - "Nothing — Egyptian priests did sell Book of the Dead papyri as magical protection, making this interpretation accurate"
+    - "It misunderstands the spells' function: they were primarily confessions, affirmations of innocence, and ritual knowledge — not magical bypasses of moral accountability"
+    - "It is correct for elite practice but incorrect for ordinary Egyptians, who accessed judgment through different rituals"
+    - "It underestimates the role of priests, who could intercede to reverse a negative judgment at the Weighing of the Heart"
+  answer: 1
+  explanation: "Egyptian afterlife theology was grounded in ma'at — cosmic order and moral accountability. The Weighing of the Heart measured whether the deceased had lived righteously; the Book of the Dead's 'negative confessions' (e.g., 'I have not stolen, I have not lied') were affirmations of a righteous life, not magic words that made moral conduct irrelevant. The Explainer states directly: 'The spells in the Book of the Dead were not magical bypasses of moral judgment.' The misconception projects later magical thinking onto a theology genuinely concerned with accountability."
+
+- question: "Why did mummification hold religious importance in ancient Egypt, beyond simply being an expensive burial custom?"
+  type: multiple-choice
+  options:
+    - "It demonstrated the family's wealth and social status, serving primarily as a marker of elite prestige"
+    - "Egyptian theology held that soul components (ka, ba, and others) needed a physical body as an anchor — without the preserved body, the soul could not be sustained in the afterlife"
+    - "Mummification was required to appease Osiris, who would not grant passage to the Field of Reeds without a preserved body"
+    - "It prevented the deceased's property from being redistributed, since a mummified person retained legal standing"
+  answer: 1
+  explanation: "The theological reason is key: Egyptians believed the soul had multiple components that needed to return to and be sustained by the physical body. Decomposition meant the soul components had no anchor and could not exist in the afterlife. Preservation was therefore a religious necessity, not just a display of wealth (though expense did make it socially stratified). Every step of the process was simultaneously technical preservation and ritual reenactment — deliberately paralleling the myth of Osiris being dismembered and reassembled."
+
+- question: "Ma'at in ancient Egyptian thought was primarily a legal concept governing how pharaoh should resolve disputes and administer justice among citizens."
+  type: true-false
+  answer: false
+  explanation: "Ma'at was a cosmological concept, not primarily a legal one. It referred to the fundamental order of the universe — the condition that allowed the sun to rise each morning, the Nile to flood on schedule, and the harvest to come. Maintaining ma'at through ritual, the king's just rule, and ordinary righteous conduct was what kept the universe functioning. Legal justice was one dimension of ma'at, but reducing it to a legal concept misses the cosmological scope: disorder and injustice were not just social problems but cosmic threats to the functioning universe itself."
+
+- question: "When the pharaoh died, he was identified with Horus, ensuring continuity of the living divine ruler's role."
+  type: true-false
+  answer: false
+  explanation: "This reverses the succession myth. When the pharaoh died, he was identified with OSIRIS (god of the dead and resurrection); his successor became the new HORUS. The living king is Horus; the dead king is Osiris. This structure meant every royal succession reenacted the central myth of Egyptian cosmology — Horus avenging his dead father Osiris against the chaos god Set — making succession not merely political but cosmically meaningful and ideologically essential to the continuity of the state."
+
+- question: "How does the concept of ma'at explain why the pyramids were state projects rather than private monuments?"
+  type: short-answer
+  answer: "Ma'at was the cosmic order that the pharaoh, as divine intermediary, was responsible for maintaining on behalf of all Egyptians. The pharaoh's successful afterlife was not a private concern but a cosmic necessity: a failed or dishonored king could disrupt ma'at and threaten the universe itself. Building monumental tombs was therefore a state obligation — ensuring the cosmic order was maintained through proper burial and continued ritual. The pyramids were state projects because the pharaoh's afterlife was the state's business, not just the king's private religious concern."
+  explanation: "This question tests whether students can apply the ma'at framework beyond the obvious. If ma'at is truly cosmological — the condition of a functioning universe — then ensuring the pharaoh's successful afterlife is as important to the state as maintaining the army or storing grain. The elaborate burial program (pyramids, tomb goods, ritual preparations) follows logically from the cosmological function of the king. This also explains why disruptions like Akhenaten's religious revolution were experienced as cosmic crises, not merely political ones."
+```
+
 ## Explainer
 
 From your study of Egyptian civilization, you know that the pharaoh occupied the apex of a highly centralized state — divine king, political ruler, and chief ritual performer in one person. Egyptian religion cannot be understood separately from this political structure: the gods, the king, and the cosmos were bound together in a single system maintained by proper ritual and moral conduct. The organizing concept is **ma'at** — usually translated as truth, justice, or cosmic order. Ma'at was not merely a moral ideal; it was the fundamental condition of a functioning universe. The sun rose each morning, the Nile flooded on schedule, and the harvest came because ma'at was maintained through ritual, the king's just rule, and ordinary people's righteous conduct. Disorder, injustice, and impiety were not merely social problems — they were cosmic threats.

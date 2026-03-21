@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Transcranial magnetic stimulation uses rapidly changing magnetic fields to induce electrical currents in brain tissue, temporarily disrupting local neural activity. Single-pulse TMS measures cortical excitability and can produce behavioral effects; repetitive TMS can induce lasting plasticity changes. Unlike correlational neuroimaging, TMS enables causal claims about brain-behavior relationships by directly manipulating neural activity.
 
+## Questions
+
+```yaml
+- question: "An fMRI study shows that brain region X reliably activates during a language comprehension task. A researcher then applies single-pulse TMS to disrupt region X during the same task and finds no effect on performance. What is the most accurate interpretation?"
+  type: multiple-choice
+  options:
+    - "Region X is causally necessary for language comprehension — the TMS must not have been strong enough"
+    - "Region X is correlated with language comprehension but is not causally necessary for it"
+    - "The fMRI finding must have been a false positive, since TMS confirmed no involvement"
+    - "Region X is necessary only during the specific timing window when TMS was applied"
+  answer: 1
+  explanation: "This is exactly the gap TMS fills: neuroimaging shows correlation (region X activates with the task), but the TMS result reveals that X is not causally necessary — the task proceeds normally without it. The region may be active as a downstream consequence, part of a broader network, or involved in a related process. Option A reverses the logic — TMS provides the causal test, not a replication of fMRI. Option C is wrong because the fMRI finding (correlation) can be true while the TMS finding (no causal necessity) also holds."
+
+- question: "Which of the following best captures the primary methodological advantage of TMS 'virtual lesions' over studying patients with naturally occurring brain lesions?"
+  type: multiple-choice
+  options:
+    - "TMS is more accurate at targeting specific brain regions than surgical lesions"
+    - "TMS can stimulate deeper brain structures that patient lesions rarely affect"
+    - "TMS lesions are reversible and precisely timed, allowing within-subject designs that control for chronic compensation and individual differences"
+    - "Patient lesion studies are correlational, while TMS is purely observational"
+  answer: 2
+  explanation: "The core advantage is control: TMS disruption lasts milliseconds to hours, can be precisely timed relative to a stimulus, and can be applied within-subject across conditions. Patient lesion studies compare different people (patients vs. controls), whose brains may differ in many ways, and involve chronic lesions where compensation has occurred. TMS eliminates both confounds. Option D is wrong — patient lesion studies ARE causal (the lesion causes the deficit), but they lack the precision and control that TMS provides."
+
+- question: "A TMS pulse delivered to the motor cortex of a healthy participant with no neurological condition can produce a visible muscle twitch."
+  type: true-false
+  answer: true
+  explanation: "This is the motor-evoked potential (MEP), and it is the direct proof that TMS depolarizes cortical neurons in intact brains. The magnetic pulse induces an electrical current that fires motor cortex neurons, which propagate the signal down the corticospinal tract to the target muscle. The amplitude of the MEP is a quantitative index of cortical excitability at that moment. No brain damage is required — this is the operating principle of TMS."
+
+- question: "High-frequency repetitive TMS (>5 Hz) generally decreases cortical excitability, making it useful for suppressing overactive brain regions."
+  type: true-false
+  answer: false
+  explanation: "This is reversed: high-frequency rTMS generally *increases* cortical excitability (analogous to LTP), while low-frequency rTMS (≤1 Hz) generally *decreases* it (analogous to LTD). This matters clinically — the FDA-approved rTMS protocol for treatment-resistant depression applies high-frequency stimulation to left dorsolateral prefrontal cortex, which is *hypoactive* in depression, to *increase* excitability there. Getting the direction wrong would worsen symptoms."
+
+- question: "Why does the 'virtual lesion' paradigm establish a causal relationship between a brain region and a behavior in a way that neuroimaging alone cannot?"
+  type: short-answer
+  answer: "Neuroimaging shows that a region's activity correlates with a behavior — it becomes more active when the task is performed. But correlation cannot establish necessity: the region might be active as a downstream consequence, part of a general arousal response, or engaged in a related but non-essential process. The virtual lesion disrupts the region's activity during the task and observes whether performance degrades. If it does, the region is causally necessary — the task depends on it. If it doesn't, activation was not necessary for the task. This is the logic of an intervention: changing the cause should change the effect. Passive observation (neuroimaging) cannot test this because the observer never manipulates the variable of interest."
+  explanation: "The key distinction is between correlation (region activates with task) and necessity (task fails without region). Many regions can be active during a task for non-essential reasons. TMS applies a direct intervention — it temporarily removes the region from the circuit — and tests whether the behavior changes as a result. This mirrors the logic of a controlled experiment: hold everything else constant, manipulate one variable, observe the outcome. Neuroimaging, being purely observational, cannot isolate which of the many activated regions are doing the causal work."
+```
+
 ## Explainer
 
 You have studied neuroimaging methods — tools that reveal which brain regions are active during cognitive tasks. You have also studied causal inference in neuroscience, which means you understand the problem: correlation between brain activity and behavior does not establish that the region is *necessary* for that behavior. A region might activate as a downstream consequence, as part of a general engagement network, or simply because it receives input from the task-relevant circuit. Neuroimaging can tell you "this region lights up with that task." It cannot tell you "without this region, the task fails." **Transcranial Magnetic Stimulation (TMS)** addresses this gap by intervening directly on the brain rather than merely observing it.

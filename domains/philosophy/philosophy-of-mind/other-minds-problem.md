@@ -33,6 +33,45 @@ Start with the logical problem: we infer other minds from behavior, but behavior
 - Thinking private language rules out other minds.
 - Confusing the metaphysical problem with the epistemological one.
 
+## Questions
+
+```yaml
+- question: "A functionalist argues that a robot has pain if its internal states are caused by tissue damage and cause avoidance behavior — the right causal-functional role. A philosopher responds: 'That only shows access consciousness, not phenomenal consciousness.' Who has the stronger position, and why?"
+  type: multiple-choice
+  options:
+    - "The functionalist, because functional role is sufficient to define all mental states including phenomenal ones"
+    - "The philosopher, because the functional characterization captures information availability and behavioral disposition but leaves open whether there is any 'what it's like' — phenomenal consciousness slips through purely functional descriptions"
+    - "Neither — the debate is purely terminological, since 'access' and 'phenomenal' consciousness refer to the same thing"
+    - "The philosopher, because robots cannot have mental states by definition"
+  answer: 1
+  explanation: "Access consciousness — information being available for reasoning and verbal report — can in principle be detected functionally. But phenomenal consciousness is the 'what it's like' aspect: the felt quality of pain, the redness of red. The hard problem is precisely that functional characterizations seem to leave phenomenal experience out entirely. A philosophical zombie has all the right functional properties but (by hypothesis) no phenomenal experience. If zombies are conceivable, functional role is insufficient for phenomenal consciousness. This is why the other minds problem is hardest for those who take phenomenal consciousness seriously."
+
+- question: "Why is the argument from analogy considered a weak solution to the other minds problem?"
+  type: multiple-choice
+  options:
+    - "Because it relies on evolutionary theory, which is contested"
+    - "Because analogical arguments are strengthened by multiple independent cases, but here the argument rests on a sample of exactly one — your own case — and you cannot independently verify the conclusion in anyone else"
+    - "Because you cannot be certain your own introspective reports accurately reflect your internal states"
+    - "Because similarity in behavior does not entail similarity in physical brain structure"
+  answer: 1
+  explanation: "Analogical inferences are typically strengthened by surveying many independent cases — the more instances where the pattern holds, the stronger the inference. But in the other minds case, the only direct evidence you have is your own case: you know that, in you, pain behavior accompanies pain experience. Every other case is precisely what you are trying to prove. The argument is circular in form and rests on a sample of one, making it logically weak compared to standard analogical reasoning, even if it captures our intuitive confidence in other minds."
+
+- question: "The philosophical zombie thought experiment proves that other humans are not conscious."
+  type: true-false
+  answer: false
+  explanation: "The zombie thought experiment is a conceivability argument, not a proof about actual humans. It claims that a being behaviorally and physically identical to a human but with no phenomenal consciousness is conceivable (not obviously self-contradictory). If such a being is conceivable, the argument goes, then consciousness is not logically entailed by physical or behavioral facts. This challenges inference from behavior to experience — it does not establish that anyone is actually a zombie. Its purpose is to demonstrate an explanatory gap, not to make a positive claim about actual human consciousness."
+
+- question: "Even a complete description of another person's brain states would not resolve the other minds problem for a philosopher who takes phenomenal consciousness seriously."
+  type: true-false
+  answer: true
+  explanation: "If phenomenal consciousness is not identical to any physical brain state — if there is an explanatory gap between third-person physical descriptions and first-person phenomenal experience — then even perfect neural knowledge leaves open the question of what it is like to be that person. This is the hard problem of consciousness applied to the other minds context. Physicalists who accept strict identity theory might disagree, but for those who take the phenomenal-physical gap seriously, complete brain data cannot close it."
+
+- question: "Explain why the other minds problem is particularly difficult for those who take phenomenal consciousness seriously, and give one real-world domain where the problem has genuine moral implications."
+  type: short-answer
+  answer: "Phenomenal consciousness is the 'what it's like' aspect of experience — felt pain, the redness of red — that seems to resist purely physical or functional characterization. Access consciousness (information available for report and behavior) is at least in principle detectable, but phenomenal consciousness is epistemically private by definition: only you can directly access your own experience. For those who take this seriously, no amount of behavioral or neural evidence can close the gap, because behavior and brain states are third-person facts while phenomenal experience is first-person. One real-world domain with moral implications: animal consciousness — if fish or invertebrates have phenomenal pain, their suffering morally matters; if they have only access-functional states, the moral calculus changes. The question is not merely academic for animal welfare policy, animal research ethics, or decisions about which beings count as moral patients."
+  explanation: "Similar stakes apply to AI consciousness, end-of-life decisions for patients in vegetative states, and the moral status of early-stage embryos. In each case, the practical question 'does this being have morally relevant experiences?' maps directly onto the philosophical question the other minds problem poses. How seriously you take the phenomenal-access distinction shapes how you answer all these questions."
+```
+
 ## Explainer
 
 When you studied introspection and phenomenal knowledge, you came to understand a distinctive feature of mental life: you have **first-person access** to your own experiences. When you feel pain, you don't infer that you're in pain from behavioral evidence — you just feel it. This direct, non-inferential access is part of what makes consciousness philosophically special. But notice what it implies: the only mind you know in this immediate way is your own.

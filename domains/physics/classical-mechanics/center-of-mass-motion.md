@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 The center of mass (CM) of a system moves as if all mass were concentrated there with external forces applied there: M·a_CM = F_external. Internal forces do not affect CM motion, only the motion of individual parts relative to the CM. This theorem greatly simplifies multi-body problems by separating overall motion (CM trajectory) from internal dynamics (orbits about the CM).
 
+## Questions
+
+```yaml
+- question: "A firework shell explodes at the peak of its arc. Ignoring air resistance, what happens to the trajectory of the center of mass after the explosion?"
+  type: multiple-choice
+  options:
+    - "The CM stops because internal forces from the explosion act in all directions"
+    - "The CM continues on the same parabolic arc as before the explosion"
+    - "The CM accelerates downward faster due to the increase in total downward momentum"
+    - "The CM follows a new trajectory determined by the direction of the largest fragment"
+  answer: 1
+  explanation: "The CM theorem states M·a_CM = F_net,external. The explosion's forces are internal — every action has an equal and opposite reaction, so they sum to zero. Only gravity (an external force) acts on the system of fragments, giving a_CM = g downward. The CM continues the same parabola it was already on, completely unaffected by the internal explosion."
+
+- question: "An astronaut floating in empty space pushes off a heavy wrench, sending it flying backward. What happens to the astronaut?"
+  type: multiple-choice
+  options:
+    - "She stays still because she exerted an internal force on a system object"
+    - "She moves forward, as the system CM stays fixed while wrench and astronaut move apart"
+    - "She stays still because the CM of the astronaut-wrench system doesn't move"
+    - "She moves forward, and the system CM also shifts toward her new position"
+  answer: 1
+  explanation: "With no external forces, the system CM stays fixed. The astronaut and wrench must move in opposite directions to keep the CM stationary. As the wrench moves backward, the astronaut moves forward — total momentum remains zero. Option C confuses 'CM stays fixed' with 'everything stays fixed'; the CM is fixed, but individual parts move in opposite directions around it."
+
+- question: "Internal forces within a system can move the system's center of mass if they are large enough."
+  type: true-false
+  answer: false
+  explanation: "False. By Newton's third law, every internal force has an equal and opposite internal reaction. When summed over the entire system, internal forces always cancel exactly, contributing zero to the net force and therefore zero to the CM acceleration. No matter how large the internal forces (an explosion, a spring releasing, colliding parts), the CM motion is determined solely by external forces."
+
+- question: "Separating CM motion from relative motion simplifies multi-body problems because the two motions are governed by different forces."
+  type: true-false
+  answer: true
+  explanation: "True. The CM motion obeys M·a_CM = F_external — only external forces matter. The relative motion of parts about the CM is governed by internal forces. These two analyses are completely independent. For a binary star with no external forces, the CM travels in a straight line while each star follows an elliptical orbit around the CM. You solve each piece separately with the appropriate tools."
+
+- question: "Why can't an isolated astronaut floating in space propel herself in any direction by moving her body (waving arms, kicking legs)? What would she need to do to actually change her position?"
+  type: short-answer
+  answer: "With no external forces, the astronaut-system CM is fixed. Any movement of her arms pushes her body in the opposite direction — the CM doesn't translate. She can rearrange her body around the CM but cannot move the CM itself. To change her position, she must interact with an external agent: throw an object away from herself (the reaction force pushes her in the opposite direction) or use a thruster that expels mass."
+  explanation: "This follows directly from M·a_CM = F_external with F_external = 0. Internal rearrangements cannot translate the CM. She can change her orientation through internal torques, but translational motion requires ejecting mass or pushing off something external — creating an external reaction force that moves the CM."
+```
+
 ## Explainer
 
 Imagine a firework exploding in the sky. After the explosion, hundreds of fragments fly outward, spinning and tumbling in all directions. The internal forces of the explosion are enormous — far larger than gravity during the brief detonation. Yet if you track the **center of mass** of all the fragments together, weighting each fragment's position by its mass, that single point traces the same smooth parabolic arc the intact firework would have followed. It ignores the explosion entirely. This is the center of mass theorem: the explosion's internal forces come in equal-and-opposite pairs that cancel out, leaving only gravity — the external force — to govern how the CM moves.

@@ -35,6 +35,45 @@ Use soldier memoirs and letters alongside statistical data on casualties. Analyz
 - The war was not fought only on the Western Front; the Eastern Front, Gallipoli, and colonial theaters were equally significant.
 - Poison gas, though horrific, caused a small fraction of total casualties compared to artillery.
 
+## Questions
+
+```yaml
+- question: "A student argues that the stalemate on the Western Front was primarily caused by incompetent generalship — better leadership would have broken through enemy lines within months. What does the evidence about military technology better suggest?"
+  type: multiple-choice
+  options:
+    - "The student is correct — multiple historians have confirmed that more aggressive tactics would have ended the stalemate by 1915"
+    - "The stalemate arose because military technology of the era — machine guns, artillery, and barbed wire — overwhelmingly favored defenders, making successful offensives extraordinarily costly for any commander"
+    - "The student is partly right; poor leadership was equally important alongside technological factors"
+    - "The stalemate was caused primarily by inadequate supply chains that prevented armies from exploiting breakthroughs"
+  answer: 1
+  explanation: "The 'lions led by donkeys' narrative is a misconception. Generals on both sides faced a genuinely novel tactical problem: defensive technology had outpaced offensive doctrine. Machine guns could fire 600 rounds per minute; artillery fired millions of shells before major offensives; barbed wire funneled attackers into killing grounds; and defenders could shelter in deep dugouts and emerge when the barrage lifted. Every attempt to break through — the Somme, Verdun, Passchendaele — failed for structural reasons that no individual commander, however skilled, had the doctrine or technology to overcome until tanks and infiltration tactics emerged late in the war."
+
+- question: "The concept of 'total war' as exemplified by World War I refers to:"
+  type: multiple-choice
+  options:
+    - "A war fought with no legal or ethical constraints, including deliberate targeting of civilians"
+    - "A war in which all major world powers participate simultaneously"
+    - "Industrialized conflict that mobilizes entire national economies and civilian populations, dissolving the distinction between the fighting front and the home front"
+    - "A war aimed at the unconditional surrender and complete destruction of the enemy state"
+  answer: 2
+  explanation: "Total war describes a transformation in the relationship between war and society, not just a scale of destruction or a set of rules. Previous wars had been fought by professional armies largely separate from civilian life. WWI's mass conscript armies required industrial mobilization of entire economies — the Hindenburg Program, Britain's conscription, France's Union Sacrée. Women entered industrial work; governments controlled industries and rationed food; propaganda and censorship managed information. The civilian population was no longer a bystander but an integral part of the war effort. The distinction between soldier and civilian effectively dissolved."
+
+- question: "The entry of women into industrial work during WWI was a direct consequence of mass conscription creating labor shortages, and it had lasting consequences for women's suffrage and gender norms."
+  type: true-false
+  answer: true
+  explanation: "With millions of men mobilized into armies, the industrial workforce that had to supply those armies faced severe labor shortages. Women filled factory jobs, drove ambulances, served as nurses, and took on roles previously reserved for men. This visible demonstration of women's capacity in the industrial economy strengthened suffrage movements: Britain extended the vote to women over 30 in 1918, the US passed the 19th Amendment in 1920, and Germany granted women's suffrage after the war ended. The war's social transformation was as lasting as its political one."
+
+- question: "Poison gas was the single most lethal weapon on the Western Front, responsible for the majority of WWI casualties."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception — poison gas was horrific and psychologically devastating, but it caused a relatively small fraction of total casualties. Artillery was the dominant killer, accounting for the majority of deaths and wounds on the Western Front. Gas could be countered by masks, wind direction was unpredictable, and it often dispersed before reaching effective concentrations. Its terror exceeded its lethality. Confusing its psychological impact for its material impact misrepresents the tactical and statistical reality of the war."
+
+- question: "Why did defensive military technology give defenders a decisive advantage on the Western Front, and how did this produce the strategy of attrition?"
+  type: short-answer
+  answer: "Attackers had to cross open ground under fire from machine guns capable of 600 rounds per minute, through barbed wire that channeled them into killing grounds, under artillery bombardment. Defenders could shelter in deep dugouts during the attacker's preparatory barrage and emerge to repel the infantry assault. The asymmetry was structural: offense required crossing exposed ground; defense required only surviving underground and then manning positions. No breakthrough was possible at acceptable cost. Commanders on both sides concluded that the only strategy available was attrition — grinding down the enemy's manpower and industrial capacity faster than one's own were depleted, hoping the enemy's will or resources collapsed first."
+  explanation: "The attrition strategy — horrifying as it was — was a rational response to a genuine tactical problem, not a failure of imagination. Every major attempted breakthrough (Verdun, the Somme, Passchendaele) confirmed the structural advantage of defense. The eventual solution came from combining tanks (which could cross wire and suppress machine gun nests) with infiltration tactics (small units bypassing strongpoints rather than assaulting them frontally) — but these doctrines weren't mature until 1917–18. Until then, attrition was the only coherent strategy available."
+```
+
 ## Explainer
 
 From your study of World War I's origins, you know that the war began with mobilization plans built on the expectation of a short, decisive conflict — the German Schlieffen Plan called for defeating France in six weeks before turning east to face Russia. Instead, the Western Front stabilized into a continuous line of trenches stretching 700 kilometers from the English Channel to Switzerland by late 1914, and barely moved for the next three years. Understanding why requires understanding the relationship between industrial technology and tactics — and that is the core of what "total war" means.

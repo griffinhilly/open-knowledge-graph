@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Impartial moral theories require treating like interests equally regardless of whose interests they are; partial theories permit or require special concern for family, friends, or communities. Impartiality is often seen as essential to morality's universality; partiality reflects personal relationships and projects that seem morally important. This debate shapes which reasons count as moral reasons and how to resolve conflicts between general duty and special allegiance.
 
+## Questions
+
+```yaml
+- question: "A man must choose between saving his drowning wife and saving a drowning stranger when he can only save one. He stops to calculate whether he has any impartial justification for preferring his wife before diving in. Bernard Williams would say this behavior:"
+  type: multiple-choice
+  options:
+    - "Demonstrates admirable moral rigor — important decisions warrant careful deliberation"
+    - "Is correct for deontological ethics, which requires rule-following even in personal situations"
+    - "Contains 'one thought too many' — consulting moral theory before acting for a loved one undermines the very relationship that justifies acting for her"
+    - "Is a reasonable response to genuine moral uncertainty about the limits of partiality"
+  answer: 2
+  explanation: "Williams' point is that requiring impartial calculation before acting from love corrupts what love actually is. A man who must first justify his wife's priority in terms acceptable to moral theory doesn't have the relationship we call marriage — he has something more like a cost-benefit analysis that happens to favor her. The 'one thought too many' phrase captures this: the relationship itself is the reason, and inserting a prior calculative step undermines rather than validates it."
+
+- question: "Which of the following best illustrates an 'agent-relative' reason as opposed to an 'agent-neutral' reason?"
+  type: multiple-choice
+  options:
+    - "I should reduce suffering wherever it occurs, regardless of who is suffering"
+    - "I should keep this promise because it is my promise — not merely because promise-keeping in general produces good outcomes"
+    - "All rational agents are bound by the same moral duties regardless of their personal relationships"
+    - "The welfare of strangers counts exactly as much as my family's welfare, since suffering is bad wherever it occurs"
+  answer: 1
+  explanation: "An agent-relative reason essentially involves the identity of the agent — 'my promise,' 'my child,' 'my project.' The reason is not generalizable as a bearer-neutral principle; it applies specifically to me because of who I am in relation to this person or obligation. Options A, C, and D are all agent-neutral: they apply equally to any rational agent regardless of their particular relationships or history. Option B's key word is 'my' — the reason derives from the fact that it is this agent's specific promise."
+
+- question: "Bernard Williams argued that impartiality, taken to its logical conclusion, can corrupt the very goods it is meant to protect — such as loving relationships — by requiring that they be externally justified."
+  type: true-false
+  answer: true
+  explanation: "This is the substance of Williams' 'one thought too many' objection. Goods like friendship, love, and loyalty are constituted by the willingness to act for that person's sake without needing external justification. A friendship where you help a friend because helping friends maximizes utility is not genuine friendship — the friend has become a vehicle for an impartial aim. The demand for justification from outside the relationship undermines the relationship itself."
+
+- question: "Partiality toward family and friends is a moral defect that, according to most contemporary ethicists, should be corrected by expanding concern to include all people equally."
+  type: true-false
+  answer: false
+  explanation: "Most contemporary ethicists do not accept pure impartiality as the standard. The Aristotelian tradition treats appropriate care for one's particular relationships as a virtue — partiality in the right degree toward the right people is part of what a good life involves. Contemporary approaches recognize 'agent-relative reasons' as genuine moral reasons alongside agent-neutral ones. The question is not whether partiality is ever legitimate (it is), but where its limits lie and when it crosses into self-serving bias."
+
+- question: "What did Bernard Williams mean by 'one thought too many,' and why does this phrase pose a challenge to purely impartialist moral theories?"
+  type: short-answer
+  answer: "Williams used this phrase to describe a situation where a person pauses to consult an impartial moral framework before acting on a special relationship — for instance, calculating whether it is morally justified to save one's wife before diving in. The 'extra thought' (the impartial calculation) is not just unnecessary but corrosive: a person who needs impartial theory to authorize their love for their wife doesn't have the relationship we call love. The challenge to impartialism is that if it demands justification from outside the relationship for every agent-relative action, it destroys the very goods — love, friendship, loyalty — that make life worth living."
+  explanation: "Williams is not arguing against impartiality as a constraint (e.g., don't harm innocents) but against it as a total framework that must approve every motivation. Some reasons — rooted in who you are to other people — are prior to and independent of impartial calculation, and they lose their meaning when subjected to that test."
+```
+
 ## Explainer
 
 From your study of normative ethics, you know the main theoretical families: consequentialism evaluates acts by their outcomes for overall welfare; deontology identifies duties and rights that constrain action regardless of consequences; virtue ethics asks what a person of good character would do. The debate between impartial and partial agency cuts across all these frameworks as a structural question: must a moral agent treat everyone's interests equally, or do special relationships generate legitimate grounds for preferential treatment? This is not a peripheral dispute — it concerns what morality fundamentally demands and whether its demands are livable.

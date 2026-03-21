@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 Political sociology examines how social structures shape political behavior, institutions, and power. Rather than treating politics as a separate sphere, it integrates it with social analysis by asking how class, gender, race, organizational membership, and social movements intersect with political participation and outcomes.
 
+## Questions
+
+```yaml
+- question: "Two citizens hold nearly identical policy preferences but have very different rates of political participation. One is a unionized factory worker; the other is a professional active in a civic association. A political sociologist's first move would be to examine:"
+  type: multiple-choice
+  options:
+    - "Which citizen has more accurate information about policy outcomes"
+    - "How their social structural positions — organizational membership, class, social networks — shape their access to political resources and motivation to participate"
+    - "Which candidate's platform is better aligned with each citizen's stated preferences"
+    - "Whether one citizen's preferences are more internally consistent and thus more politically effective"
+  answer: 1
+  explanation: "Political sociology's core move is to explain political behavior through social location rather than individual psychology or rational policy calculation. The factory worker's union membership provides organizational resources, political cues, and collective solidarity that shape participation; the professional's civic association similarly structures political engagement. Both citizens may want the same policy, but their structural positions determine whether and how they act. This is what separates political sociology from rational-choice political science: behavior is embedded in social organization, not just derived from preferences."
+
+- question: "The 'power elite' and 'pluralist' traditions in political sociology disagree most fundamentally about:"
+  type: multiple-choice
+  options:
+    - "Whether social class affects voting behavior"
+    - "Whether social movements can influence formal political institutions"
+    - "Whether any single group exercises persistent disproportionate influence over state decisions"
+    - "Whether political participation varies systematically by race and gender"
+  answer: 2
+  explanation: "Pluralism holds that the state is an arena where multiple competing interest groups contest influence, with no single group consistently dominant — outcomes reflect the shifting balance of organized pressure. The power elite tradition (Mills) argues instead that a coherent upper class, military establishment, and corporate elite exercise systematic, disproportionate influence that pluralism's focus on visible policy conflicts obscures. This is the fundamental cleavage in state theory. Both traditions agree that class, race, and gender shape participation (options A and D); both acknowledge social movements (option B) as a mechanism of change."
+
+- question: "Political sociology treats voting behavior as systematically shaped by social location — class, race, organizational membership — rather than as a purely individual, rational policy calculation."
+  type: true-false
+  answer: true
+  explanation: "This is the defining claim of the field. Empirically, vote choice correlates strongly with class, race, education level, union membership, church attendance, and neighborhood — not just policy preference alignment. A sociological analysis of elections asks why certain groups vote in particular directions as groups, what social structures produce turnout differentials, and how organizational networks mobilize or demobilize participation. This does not deny that individuals make choices; it shows that those choices are patterned by social location in ways that cannot be reduced to individual preference calculation."
+
+- question: "The core contribution of political sociology is to demonstrate that formal political institutions — constitutions, electoral rules, legislative procedures — fully determine political outcomes and that social factors are secondary residuals."
+  type: true-false
+  answer: false
+  explanation: "This inverts the field's argument. Political sociology holds that formal institutions cannot be understood apart from the social relations that surround them. Elections are not just rational preference aggregation; they are expressions of group identity, economic anxiety, and differential turnout shaped by social structure. Legislatures are not just deliberative bodies; they are sites where organized interests, social networks, and class power shape what gets decided. Political sociology does not deny that institutions matter, but insists that a purely institutionalist account leaves the deeper determinants of political life — inequality in participation, class power, movement dynamics — unexamined."
+
+- question: "What does it mean to say that political participation is 'unequally distributed in sociologically systematic ways'? Give an example of how a social structural factor shapes who participates and who does not."
+  type: short-answer
+  answer: "Political participation being 'unequally distributed in sociologically systematic ways' means that who votes, lobbies, protests, or contacts officials is not random — it is patterned by class, race, education, organizational membership, and neighborhood in predictable, structural ways. For example: union membership historically increased working-class political participation by providing organizational resources (meeting spaces, communication networks, political endorsements) and collective identity that overcame the costs of participation. As union membership has declined in the US, working-class participation has declined relative to professional-class participation — not because working-class preferences changed, but because the organizational infrastructure for mobilization weakened."
+  explanation: "This example illustrates the distinction between political sociology and political science: the question is not 'what do people prefer?' but 'what structural conditions enable or suppress acting on preferences?' The poor, the organizationally disconnected, and racial minorities face systematic barriers to participation — not just informational barriers, but resource barriers, mobilization deficits, and in some cases active suppression. Political outcomes are therefore not simply reflections of majority preference; they are reflections of the preferences of those who successfully participate, which are systematically non-representative of the full population."
+```
+
 ## Explainer
 
 You already understand **power and authority** — Weber's foundational distinction between power as the ability to get one's will done despite resistance, and authority as power that is considered legitimate by those over whom it is exercised. And you have studied **social stratification**: the systematic patterning of inequality by class, status, and other axes. Political sociology is the field that connects these two — it asks how social structure shapes who has power, how power is exercised, and why some forms of domination appear legitimate while others do not.

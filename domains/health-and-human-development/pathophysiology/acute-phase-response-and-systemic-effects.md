@@ -33,6 +33,45 @@ Understand the cytokine cascade triggering fever and hepatic protein synthesis. 
 ## Common Misconceptions
 Fever is not harmful—it is an adaptive response that enhances immune function. The acute phase response is not synonymous with SIRS; SIRS is a broader systemic inflammatory state that can be triggered by non-infectious triggers (trauma, burns).
 
+## Questions
+
+```yaml
+- question: "A patient with a bacterial infection develops a temperature of 38.8°C. A clinician considers NSAIDs to reduce the fever. Which of the following best explains the mechanism by which NSAIDs exert their antipyretic effect?"
+  type: multiple-choice
+  options:
+    - "They directly neutralize IL-6 and TNF-α circulating in the bloodstream"
+    - "They block prostaglandin E2 synthesis, preventing the hypothalamic set-point from being raised"
+    - "They stimulate hepatic synthesis of acute phase proteins that sequester pyrogenic cytokines"
+    - "They reduce sympathetic nervous system output, preventing the peripheral vasoconstriction that generates heat"
+  answer: 1
+  explanation: "IL-1 and TNF-α induce production of prostaglandin E2 (PGE2) in the hypothalamus, which raises the thermostat set-point. NSAIDs (non-steroidal anti-inflammatory drugs) work by inhibiting cyclooxygenase (COX) enzymes, blocking prostaglandin synthesis. This prevents the set-point elevation, so the body no longer generates heat to reach the higher temperature. This same mechanism also explains their anti-inflammatory effects. Option A (neutralizing cytokines) describes the mechanism of biologics like tocilizumab, not NSAIDs."
+
+- question: "During the acute phase response, transferrin levels fall sharply while ferritin levels rise. What is the adaptive significance of this pattern?"
+  type: multiple-choice
+  options:
+    - "The liver downregulates transferrin to free up amino acids for synthesizing more CRP and fibrinogen"
+    - "Reducing circulating transferrin sequesters iron away from bacteria, which require iron for growth"
+    - "Ferritin rise signals that the immune response is resolving and iron stores are being replenished"
+    - "Transferrin reduction lowers blood viscosity, improving neutrophil delivery to infected tissue"
+  answer: 1
+  explanation: "Bacteria require iron for replication and metabolic function. By reducing transferrin (which transports iron) and increasing ferritin (which stores iron intracellularly), the acute phase response limits iron availability in the extracellular space — a strategy called 'nutritional immunity.' This is why anemia of chronic disease develops during prolonged inflammation: it is not a failure but an adaptive iron-withholding strategy. Giving iron supplements to acutely infected patients can worsen outcomes precisely because it undermines this defense."
+
+- question: "The shivering and sensation of cold at the onset of fever reflect the body generating heat to reach a newly elevated hypothalamic set-point, not a malfunction of temperature regulation."
+  type: true-false
+  answer: true
+  explanation: "When PGE2 raises the hypothalamic set-point, the body's current temperature (say, 37°C) is now 'too cold' relative to the new target (say, 39°C). The same thermoregulatory mechanisms that would respond to cold environmental exposure are activated: shivering generates heat, peripheral vasoconstriction reduces heat loss, and the subjective sensation is of cold despite normal ambient temperature. This is not temperature dysregulation but precisely regulated elevation. The rigors of early fever are the body efficiently climbing to its new set-point."
+
+- question: "The metabolic changes of the acute phase response — muscle catabolism, anorexia, and lethargy — represent pathological system failure and have no adaptive function."
+  type: true-false
+  answer: false
+  explanation: "Each component is adaptive in the context of acute infection. Muscle catabolism provides amino acids for hepatic synthesis of acute phase proteins (CRP, fibrinogen, complement components). Anorexia in sick animals reduces foraging behavior that would expose them to predation. Lethargy conserves energy for the immune response. These responses make sense as resource reallocation: the body shifts metabolic priorities from normal activities toward pathogen clearance. Their danger is chronicity — prolonged cytokine drive causes cachexia, insulin resistance, and multi-organ dysfunction — not that they are maladaptive in the acute setting."
+
+- question: "Why do the systemic metabolic changes of the acute phase response (anorexia, muscle catabolism, lethargy) make adaptive sense as part of an integrated immune defense?"
+  type: short-answer
+  answer: "The acute phase response is best understood as resource reallocation: the body shifts metabolic priorities from normal maintenance activities toward pathogen clearance. Muscle catabolism provides amino acids for the liver to massively upregulate acute phase protein synthesis (CRP, fibrinogen, complement). Anorexia reduces foraging behavior that would expose a sick animal to predation and redirects energy to the immune response. Lethargy conserves energy by reducing non-essential activity. Together these represent a coordinated emergency program, not independent failures — each component supports the primary goal of clearing the infection."
+  explanation: "The key conceptual move is recognizing that these 'sickness behaviors' are not side effects of inflammation but evolved responses coordinated by the same cytokines (IL-1, TNF-α, IL-6) that drive the local immune response. Their danger is in chronicity: when infection persists, sustained cytokine drive turns protective muscle catabolism into cachexia, and adaptive metabolic changes into multi-organ dysfunction — which is the transition to sepsis you study next."
+```
+
 ## Explainer
 
 You already know from acute inflammation that local tissue injury triggers a cascade: mast cells degranulate, macrophages release cytokines, neutrophils flood the site, and blood vessels dilate and become leaky. That local response is contained — the redness and swelling stay near the injury. The **acute phase response** is what happens when the same cytokine signals escape the local compartment and reach the circulation. IL-6, TNF-α, and IL-1β, which you studied as mediators of local inflammation, act as messengers that broadcast the alarm system-wide.

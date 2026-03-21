@@ -34,6 +34,45 @@ Use Quine's famous example: Ralph believes de dicto that a spy is a patriot, but
 - Confusing de re belief with having metalinguistic knowledge about someone's name.
 - Assuming de re attitudes require only causal contact; they require the right kind of cognitive relation to the object.
 
+## Questions
+
+```yaml
+- question: "Mary believes that whoever is tallest on the team will win the award. She has no particular person in mind — just whoever happens to satisfy that description. What kind of belief is this?"
+  type: multiple-choice
+  options:
+    - "De re, because tallness is a real physical property of a specific individual"
+    - "De dicto, because the belief is about whoever satisfies the description 'tallest player,' not about any particular individual"
+    - "Neither, because beliefs about teams are always collective rather than individual"
+    - "De re, because there is in fact a specific tallest player even if Mary doesn't know who it is"
+  answer: 1
+  explanation: "A de dicto attitude is directed at a description or proposition — here, 'whoever is tallest.' Mary's belief would be satisfied by any person who turns out to be the tallest; she is not thinking about a particular individual. The tempting wrong answer is D: even though a specific person happens to satisfy the description, Mary's belief is not anchored to that individual as an individual — it would transfer to a different person if the team roster changed. De re beliefs, by contrast, are anchored to a specific object regardless of how it is described."
+
+- question: "Ralph has seen a man on the beach and believes him to be a pillar of the community. Unknown to Ralph, this man is a spy named Ortcutt. Which statement best describes Ralph's doxastic situation?"
+  type: multiple-choice
+  options:
+    - "Ralph has de dicto beliefs about Ortcutt because he doesn't know Ortcutt's name"
+    - "Ralph has de re beliefs about Ortcutt — his belief is about that particular individual, regardless of Ralph's ignorance of his name or identity"
+    - "Ralph has no genuine beliefs about Ortcutt since they have never been formally introduced"
+    - "Ralph's belief is neither de re nor de dicto because it is based on incomplete information"
+  answer: 1
+  explanation: "This is Quine's famous Ortcutt example. A de re belief is anchored to a specific individual — the res — rather than to how that individual is described. Ralph has perceived Ortcutt directly and formed a belief about him; the belief is about that particular person even though Ralph would not describe him as 'the spy Ortcutt.' Knowing someone's name is not required for de re belief — what matters is the right kind of direct cognitive relation to the individual. The tempting wrong answer is A: lack of metalinguistic knowledge (not knowing a name) does not reduce a de re belief to a de dicto one."
+
+- question: "The de re/de dicto distinction can be formalized in first-order logic by the relative scope of the existential quantifier and the attitude operator: de dicto places the quantifier inside the operator's scope, while de re places it outside."
+  type: true-false
+  answer: true
+  explanation: "This is the standard logical representation of the distinction. De dicto: John believes [∃x: x is a millionaire ∧ he marries x] — the quantifier is inside the scope of 'believes,' so the belief is about whatever description is satisfied. De re: ∃x: x is a millionaire ∧ John believes [he marries x] — the quantifier scopes outside 'believes,' so the belief is about a particular individual that exists in the domain. The scope difference captures the philosophical distinction precisely."
+
+- question: "A de re attitude requires the believer to know the name or a correct identifying description of the object the belief is about."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception. De re attitudes require the right kind of direct cognitive relation to the object — perception, acquaintance, tracking — not metalinguistic knowledge of names or descriptions. You can have a de re belief about someone you saw on the street without knowing their name. What matters, as Kaplan and others have argued, is that the belief is genuinely anchored to the individual as an individual, not to whatever satisfies some description. Knowing a name is neither necessary nor sufficient for de re belief."
+
+- question: "Explain why the same English sentence can be genuinely ambiguous between a de re and a de dicto reading, and give an example illustrating the difference."
+  type: short-answer
+  answer: "Natural language attitude reports don't mark quantifier scope syntactically in a way that resolves the de re/de dicto distinction. A sentence like 'John wants to marry a millionaire' can mean (de dicto) that John wants it to be the case that whoever he marries is a millionaire, or (de re) that there is a particular millionaire John wants to marry. Both are grammatically available readings of the same sentence."
+  explanation: "The ambiguity is not merely semantic slipperiness — it reflects a genuine philosophical distinction about how the attitude is directed. In the de dicto case, John's desire would be satisfied by any millionaire; if the woman he marries turns out not to be a millionaire, the desire is frustrated even if she's wonderful. In the de re case, John's desire is about Sarah specifically; whether she's a millionaire is incidental to the direction of the desire. The difference has implications for substitutivity, transparency, and content externalism."
+```
+
 ## Explainer
 
 From your study of intentionality and aboutness, you know that mental states and linguistic expressions can be **about** things — they have content that points toward objects or states of affairs in the world. The de re / de dicto distinction is a refinement of this: it asks *how* an attitude or statement is about its object, and specifically whether the object is picked out as a definite individual or merely as whatever satisfies a description.

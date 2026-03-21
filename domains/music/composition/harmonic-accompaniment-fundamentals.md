@@ -31,6 +31,45 @@ Take simple melodies and experiment with different diatonic progressions underne
 ## Common Misconceptions
 Accompaniment must be static or repetitive; interesting accompaniments vary rhythmically and texturally while maintaining harmonic logic. Every melody requires full four-part harmonic realization—effective accompaniment can be achieved with two or three voices.
 
+## Questions
+
+```yaml
+- question: "A composer sets an elaborate, melodically busy vocal line with chords changing on every beat. A listener describes the result as 'cluttered' and says the melody is hard to follow. What is the most likely cause?"
+  type: multiple-choice
+  options:
+    - "The chords are in the wrong key relative to the melody"
+    - "The harmonic rhythm is too fast — rapid chord changes compete with a complex melody for the listener's attention"
+    - "Root-position chords are too stable and should be replaced with first-inversion chords"
+    - "The accompaniment must use four voices to properly support an elaborate melody"
+  answer: 1
+  explanation: "Harmonic rhythm — the rate at which chords change — must match the character of the melody. A melodically elaborate line already occupies the listener's attention; rapid harmonic changes beneath it create two competing streams of information. Slower harmonic rhythm under a busy melody gives it room to breathe. Options C and D are both false: chord position and voice count are secondary considerations, and four-part harmony is not required for effective accompaniment."
+
+- question: "A melodic phrase climbs to a dramatic high point. What accompaniment strategy best serves the melody at that moment?"
+  type: multiple-choice
+  options:
+    - "Also surge upward in volume and complexity to match the energy of the climax"
+    - "Provide stable harmonic support without competing — give the melody space to inhabit the high point"
+    - "Switch to second-inversion chords to create instability that mirrors the dramatic tension"
+    - "Increase the rate of chord changes to intensify the moment with harmonic motion"
+  answer: 1
+  explanation: "The principle of subordination requires that accompaniment serve the melody's expressive intent rather than rival it. If the melody is already reaching its apex, an accompaniment that also surges upward in complexity or volume competes for attention — the melody needs space. The correct strategy is to provide grounded harmonic support that highlights the melody's peak rather than obscuring it. Options A and D would pull the listener's ear away from the melodic climax."
+
+- question: "A slower harmonic rhythm — fewer chord changes per measure — is often more effective under a melodically complex line than a faster one."
+  type: true-false
+  answer: true
+  explanation: "When the melody is harmonically and rhythmically rich, it already occupies the listener's attention fully. Slow harmonic rhythm underneath provides a stable harmonic backdrop that lets the melody's complexity be heard clearly. Fast chord changes beneath a complex melody create texture clutter, making both the melody and the harmony harder to perceive. The harmonic rhythm should complement, not compete with, the melody's density."
+
+- question: "Effective harmonic accompaniment requires full four-part realization (soprano, alto, tenor, bass) to provide adequate harmonic support for a melody."
+  type: true-false
+  answer: false
+  explanation: "This is explicitly a misconception identified in the topic. Effective accompaniment can be achieved with two or three voices. Many successful accompaniment styles — including simple chord-and-melody piano textures, Alberti bass patterns, or guitar chord strumming — use fewer than four voices and provide complete harmonic support. The number of voices is a textural choice, not a requirement for harmonic adequacy."
+
+- question: "What is the principle of subordination in harmonic accompaniment, and how does it guide decisions about harmonic rhythm and texture?"
+  type: short-answer
+  answer: "Subordination means the accompaniment must always serve the melody's expressive intent rather than compete with it. The accompaniment exists to enrich and support what the melody is saying, not to draw attention to itself. In practice, this means: if the melody is busy and elaborate, use slower harmonic rhythm so it doesn't crowd the melody; if the melody climbs to a dramatic peak, don't surge the accompaniment in complexity; if the melody is rhythmically active, a sustained bass can anchor it. The key skill is reading what the melody needs at each moment and supplying exactly that — no more, no less."
+  explanation: "Subordination is the deepest organizing principle of accompaniment. It transforms a set of technical decisions (how many chords, which voicing, what rhythm) into a single guiding question: what does the melody need here? A harmonically sophisticated accompaniment that competes with the melody fails as accompaniment; a simpler one that supports the melody succeeds."
+```
+
 ## Explainer
 
 Harmonic accompaniment is fundamentally a relationship problem: the melody is saying something, and the accompaniment's job is to support that statement without talking over it. You already know how to build diatonic chords and string them into progressions — now the question is *when* to change chords, *which voicing* to use, and *how often* to move. These three decisions together determine whether an accompaniment feels light and transparent or dense and cluttered.

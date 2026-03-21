@@ -33,6 +33,45 @@ Practice with a listener who raises their hand every time they lose track of whe
 - Transitions should not all be the same phrase; formulaic transitions signal mechanical rather than organic structure.
 - Transitional phrases feel redundant to the speaker but are genuinely necessary for the listener.
 
+## Questions
+
+```yaml
+- question: "A speaker skips the verbal transition between two main points because the logical connection seems 'obvious from the flow.' What is the most likely consequence for the audience?"
+  type: multiple-choice
+  options:
+    - "The audience will infer the connection easily from context"
+    - "The audience will lose their mental map of the speech and struggle to re-orient during live delivery"
+    - "The lack of transition signals natural, conversational confidence"
+    - "The speech will feel more engaging because it moves faster"
+  answer: 1
+  explanation: "Listeners — unlike readers — cannot back up. When a speaker omits a transition, anyone who was slightly distracted or still processing the previous point has no way to recover their footing. What seems 'obvious' to a speaker who has rehearsed for hours is often invisible to an audience who has been inside the speech for twelve minutes. The other options describe writing, not speaking — there, context can carry more weight."
+
+- question: "Which of the following best describes the primary function of an internal preview in a speech?"
+  type: multiple-choice
+  options:
+    - "To replace the introduction when a speaker runs short on time"
+    - "To narrate the architecture of an upcoming section, protecting the listener's mental map before dense material"
+    - "To demonstrate that the speaker has memorized the outline"
+    - "To provide a brief summary of what was just said before moving on"
+  answer: 1
+  explanation: "An internal preview is a mini-introduction to an upcoming section: 'In the next few minutes I'll show you why this matters, who's affected, and what the data tells us.' Its job is to give the audience a frame before the material arrives, so they can organize what they hear as it lands. Option D describes an internal summary, not an internal preview. Options A and C misunderstand the purpose entirely."
+
+- question: "A transition that feels obvious and redundant to the speaker should be cut, since the audience will find it condescending."
+  type: true-false
+  answer: false
+  explanation: "This is the central paradox of verbal transitions: what feels redundant to the speaker is exactly the clarity the listener needs. The speaker has lived inside the speech for hours and knows every connection intimately. The audience has been inside it for minutes and is processing in real time, without the ability to reread. When a transition feels too obvious, it is almost certainly just right. The temptation to cut it is a reliable sign that it should stay."
+
+- question: "Spoken transitions must do more work than written transitions because listeners cannot reread, scan back, or use visual cues like headings to re-orient."
+  type: true-false
+  answer: true
+  explanation: "Written text provides visual affordances — headers, white space, paragraph breaks, the ability to reread — that allow readers to recover the thread independently. Spoken delivery provides none of these. A listener who loses the thread is lost until the speaker provides an explicit navigational signal. This is why effective verbal transitions must be more explicit, not less: they carry the entire structural load that visual text distributes across multiple cues."
+
+- question: "Why do verbal transitions feel redundant to the speaker but necessary to the listener? What creates this asymmetry?"
+  type: short-answer
+  answer: "The speaker has spent hours preparing and rehearsing, making every connection feel obvious and internal. The listener has been inside the speech for minutes, processing content in real time without the ability to pause, reread, or reflect. The speaker's familiarity creates the illusion that the structure is transparent; from the outside, that structure is only visible when explicitly announced. This is the asymmetry: preparation creates insider knowledge that the speaker must consciously bridge for an audience starting fresh."
+  explanation: "This asymmetry is why great speakers often feel they are over-explaining while their audiences feel just barely oriented. The correct calibration point is the audience's experience, not the speaker's — and from inside a well-rehearsed speech, transitions always feel like more than enough even when they are exactly what's needed."
+```
+
 ## Explainer
 
 Your work on transitions and cohesion taught you how writers link ideas — using conjunctions, pronouns, repetition, and transitional phrases to create the sense that sentences and paragraphs belong together. Your work on speech organization taught you how speakers structure arguments into a clear beginning, middle, and end. Verbal transitions are where those two areas converge for spoken delivery — and the challenge is greater in speech than in writing for a specific reason: listeners cannot back up.

@@ -30,6 +30,45 @@ Trace the animal origins of three zoonotic pandemic pathogens and identify the h
 ## Common Misconceptions
 Assuming zoonotic spillover is random—specific human behaviors and ecological disruption dramatically increase spillover risk.
 
+## Questions
+
+```yaml
+- question: "Pathogen A has a case fatality rate of 65% in humans but an R₀ of 1.2. Pathogen B has a case fatality rate of 3% in humans but an R₀ of 4.0. From a pandemic preparedness standpoint, which poses the greater risk of large-scale human catastrophe?"
+  type: multiple-choice
+  options:
+    - "Pathogen A — higher lethality means more deaths per case, which drives greater total mortality"
+    - "Pathogen B — moderate severity combined with high transmissibility causes wider spread, overwhelming health systems and generating more total deaths"
+    - "Both are equivalent — pandemic risk is simply the product of lethality and transmissibility"
+    - "Pathogen A — extremely lethal pathogens spread faster because infected people seek care and contact more people"
+  answer: 1
+  explanation: "This is the central asymmetry in pandemic risk assessment. A highly lethal pathogen (A) kills hosts before they can transmit widely and may prompt rapid behavioral change and containment. Pathogen B, with R₀ = 4.0, spreads exponentially — each infected person infects four others on average. Even at 3% fatality, 40 million infections generates 1.2 million deaths; the same 3% of an exponentially growing infected population becomes catastrophic. COVID-19 exemplified this: moderate severity with high transmissibility caused more deaths globally than highly lethal but poorly transmissible pathogens like Ebola ever did. High transmissibility + moderate severity is the dangerous combination."
+
+- question: "SARS-CoV-2 successfully caused a pandemic while many other bat coronavirus lineages have not, despite bats being a reservoir for numerous coronaviruses. A key factor in SARS-CoV-2's pandemic success was:"
+  type: multiple-choice
+  options:
+    - "It was unusually lethal, killing hosts rapidly enough to force global attention before containment was possible"
+    - "Its spike protein binds human ACE2 receptors with high affinity, enabling efficient entry into human respiratory cells"
+    - "Bats in Asia harbor more diverse coronaviruses than bats in other regions"
+    - "It infected domestic cats and dogs first, providing an amplifying host before human spillover"
+  answer: 1
+  explanation: "Spillover requires the pathogen's receptor-binding proteins to 'fit' human cell surface receptors — this molecular compatibility is not guaranteed and explains why most animal-to-human exposures fail. SARS-CoV-2's spike protein binds the human ACE2 receptor with high affinity, allowing efficient cell entry. Many other bat coronaviruses cannot bind human receptors effectively, so they cannot establish infection even after exposure. Lethality (option A) actually hinders spread. Geographic distribution of bat reservoirs (option C) is a risk factor for spillover opportunity but doesn't explain *why* SARS-CoV-2 succeeded where others failed — the molecular fit is the proximate cause."
+
+- question: "Most zoonotic spillover events — where a pathogen jumps from an animal host to a human — do not result in epidemics or pandemics."
+  type: true-false
+  answer: true
+  explanation: "Correct. Spillover is relatively common; pandemic is rare. To cause an epidemic, a pathogen must not only infect a human (spillover) but also achieve sustained human-to-human transmission with R₀ > 1. Many zoonotic pathogens cause disease in individual humans but spread poorly — rabies, for example, is almost universally fatal once symptomatic but rarely spreads human-to-human. The barrier between a spillover event and a self-sustaining epidemic is often the pathogen's inability to efficiently use the human respiratory tract for transmission, or immune responses that rapidly clear infection before spread."
+
+- question: "Zoonotic spillover events are essentially random and unpredictable, meaning that prevention strategies targeting human behavior and ecological disruption have limited value."
+  type: true-false
+  answer: false
+  explanation: "This is the core misconception the topic addresses. Spillover risk is strongly shaped by specific human behaviors and ecological conditions: deforestation that drives wildlife into human settlements, wet markets that aggregate multiple species in confined spaces enabling inter-species pathogen exchange, intensified livestock farming that creates dense amplifying hosts, and bushmeat hunting that creates direct contact with reservoir species. These are modifiable risk factors. The emergence of HIV (bushmeat hunting of chimpanzees), SARS (wildlife trade and wet markets), and COVID-19 (likely wildlife market contact) all involved identifiable, preventable human behaviors — not random chance."
+
+- question: "Why is early containment of a zoonotic outbreak — during the first few generations of human-to-human transmission — far more cost-effective than response after widespread global spread?"
+  type: short-answer
+  answer: "Because transmission is exponential: each generation of cases multiplies, so the number of cases (and therefore the resources needed to trace, isolate, and treat) grows geometrically with each missed generation. During the first few generations, there are still few cases, contact tracing is feasible, and ring vaccination or isolation can interrupt transmission chains before they ramify. After global spread, the same resources can contain only a fraction of ongoing transmission. Additionally, modern air travel means a local spillover can seed multiple continents within the incubation period of most pathogens, converting a containable local event into a global one if early action is missed."
+  explanation: "The cost-effectiveness of early containment reflects the mathematics of exponential growth: stopping transmission at generation 1–3 prevents all downstream cases that would have occurred from those chains. Waiting until generation 10 means each missed link has already seeded hundreds or thousands of descendants. This is why epidemic intelligence — detecting spillovers and early clusters — is considered one of the highest-return investments in pandemic preparedness."
+```
+
 ## Explainer
 
 The history of infectious disease is largely a history of animals. HIV originated in Central African chimpanzees. The 1918 influenza pandemic traced to avian and swine reservoirs. SARS and MERS came from bats (via civets and camels, respectively). SARS-CoV-2 most likely originated in a bat coronavirus lineage. Ebola cycles through bat and primate reservoirs. **Zoonotic spillover** — the moment a pathogen successfully jumps from an animal host into a human — is not a rare anomaly; it is the dominant mechanism by which novel human infectious diseases emerge. Understanding why spillover happens when and where it does is the foundation of pandemic prevention.

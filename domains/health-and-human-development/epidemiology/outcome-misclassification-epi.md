@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Outcome misclassification occurs when true outcome status is incorrectly recorded. Non-differential errors typically bias effects toward the null; differential errors can bias in any direction. Sensitivity and specificity of outcome measures determine bias direction and magnitude.
 
+## Questions
+
+```yaml
+- question: "A cohort study uses hospital records to identify myocardial infarction outcomes. Physicians order more thorough cardiac workups for patients taking the drug under study, leading to better case detection in the exposed group than in the unexposed group. What type of bias results, and in which direction?"
+  type: multiple-choice
+  options:
+    - "Non-differential misclassification, biasing the relative risk toward the null"
+    - "Differential misclassification, biasing the relative risk away from the null (inflating it)"
+    - "Non-differential misclassification, biasing the relative risk away from the null"
+    - "Random measurement error with no systematic directional effect"
+  answer: 1
+  explanation: "This is differential misclassification: the probability of correctly detecting an outcome (sensitivity) differs between exposed and unexposed groups, because exposed patients receive more thorough workups. Differential misclassification has an unpredictable direction in general, but here the mechanism is clear — better ascertainment in the exposed group inflates the apparent incidence there, biasing the relative risk upward (away from the null). This contrasts with non-differential misclassification, which always biases toward the null regardless of specifics."
+
+- question: "A case-control study uses a low-sensitivity outcome measure that misclassifies 30% of true cases as non-cases, but this error rate is the same in both the exposed and unexposed groups. What is the expected effect on the odds ratio?"
+  type: multiple-choice
+  options:
+    - "The odds ratio is biased away from the null because many cases are missed"
+    - "There is no net bias because both groups are equally affected by misclassification"
+    - "The odds ratio is biased toward the null (attenuated)"
+    - "The bias direction depends on the specificity of the measure, not just the sensitivity"
+  answer: 2
+  explanation: "Non-differential misclassification — equally distributed across exposed and unexposed — predictably biases measures of association toward the null (toward OR = 1). The intuition: random misclassification smears the distinction between true cases and non-cases symmetrically, reducing the apparent contrast between groups. Option B is the most tempting misconception: equal error rates in both groups sounds like they 'cancel out,' but they do not — they dilute the signal. This attenuation means a true positive association may appear weaker or null, not that the effect is correctly estimated."
+
+- question: "Non-differential outcome misclassification always biases the relative risk toward the null."
+  type: true-false
+  answer: true
+  explanation: "This is the defining directional property of non-differential misclassification. Because the error is symmetric across groups, it reduces the observable contrast between exposed and unexposed, pulling the estimated relative risk toward 1.0. The practical implication is important: a null or weakly positive result from a study with imperfect outcome ascertainment does not necessarily mean the true effect is null — the true association may be stronger than observed."
+
+- question: "A study finds a null result. The researchers note that their outcome measure was imperfect but misclassified cases at the same rate in both exposed and unexposed groups. This means the null result can be trusted."
+  type: true-false
+  answer: false
+  explanation: "Equal misclassification rates mean the error is non-differential — which biases toward the null. A null result could therefore be an artifact of attenuation: a genuine positive effect may have been diluted to the point of apparent non-significance. The proper response is quantitative bias analysis, using the known or estimated misclassification parameters to bound what the true relative risk might be. 'Equal error in both groups' does not validate a null finding; it raises the concern that a real effect was missed."
+
+- question: "Why is differential outcome misclassification considered more dangerous than non-differential misclassification, and what determines the direction of its bias?"
+  type: short-answer
+  answer: "Non-differential misclassification has a predictable, directional effect (bias toward the null), so its impact can be anticipated and quantified. Differential misclassification — where misclassification probabilities differ between exposed and unexposed groups — can bias in any direction, and the direction must be reasoned through case by case based on the specific mechanism. A researcher cannot assume a 'worst case' without knowing whether better ascertainment in the exposed group inflates or deflates the association."
+  explanation: "The directionality of differential bias follows directly from the mechanism: if exposed patients are over-ascertained for outcomes, the apparent incidence in exposed patients rises and the relative risk inflates. If exposed patients are under-ascertained (e.g., a protective exposure reduces symptoms, so events go undetected), the relative risk is attenuated. Because the direction is mechanism-dependent, no general rule applies — the investigator must model the specific ascertainment process to predict or correct for the bias."
+```
+
 ## Explainer
 
 Your prerequisites give you two essential tools for this topic: the general framework of information bias (measurement error distorts epidemiological estimates) and the sensitivity/specificity framework (which characterizes how well a diagnostic test correctly identifies true cases and non-cases). **Outcome misclassification** occurs when a study's outcome measure incorrectly assigns status — true cases are recorded as non-cases (false negatives, reflecting imperfect sensitivity) or true non-cases are recorded as cases (false positives, reflecting imperfect specificity). The critical question is whether this misclassification is **differential** (varying between exposed and unexposed groups) or **non-differential** (occurring equally across groups regardless of exposure).

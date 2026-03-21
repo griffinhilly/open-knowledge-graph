@@ -34,6 +34,45 @@ Map the cellular geography of lymph nodes and spleen. Understand how dendritic c
 ## Common Misconceptions
 All lymphocytes do not recirculate through all secondary lymphoid organs uniformly—homing receptors and addressins direct tissue-specific recruitment. The thymus and bone marrow continue to produce lymphocytes throughout adult life, albeit at declining rates.
 
+## Questions
+
+```yaml
+- question: "In a lymph node, B cells and T cells are segregated into distinct zones. What maintains this segregation, and why does it matter?"
+  type: multiple-choice
+  options:
+    - "Physical barriers between zones prevent cell mixing; this ensures B cells never interact with T cells, keeping responses independent"
+    - "Chemokine gradients direct B cells to follicles (via CXCL13) and T cells to the paracortex (via CCL19/CCL21), concentrating each cell type where its interactions are most productive"
+    - "B cells and T cells express different adhesion molecules that make them physically incompatible with each other's zones"
+    - "Segregation is incidental to developmental timing; B and T cells simply mature in different areas and remain where they land"
+  answer: 1
+  explanation: "Chemokines are the traffic signals of lymphoid organ architecture. CXCL13 draws B cells into follicles where follicular dendritic cells display antigen; CCL19/CCL21 attract T cells into the paracortex where dendritic cells from peripheral tissues present antigen peptides on MHC. This segregation is not a barrier to cooperation — T and B cells eventually interact at the follicle border once both are activated — but it creates the organized microenvironment that makes productive encounters efficient. Without chemokine-driven organization, rare antigen-specific lymphocytes would be unlikely to find each other in time."
+
+- question: "Why do lymph nodes and the spleen serve as effective sites for initiating adaptive immune responses against pathogens encountered at very different locations in the body?"
+  type: multiple-choice
+  options:
+    - "Lymph nodes and spleen produce new lymphocytes rapidly in response to infection, generating cells specific to whatever pathogen is present"
+    - "Lymph nodes filter lymph draining from peripheral tissues while the spleen filters blood, ensuring that antigens from almost anywhere in the body are concentrated and presented to recirculating lymphocytes"
+    - "These organs attract pathogens directly through chemokine signals, isolating the infection before it spreads"
+    - "Lymph nodes are not actually important for initiating responses — most adaptive immunity begins in the bone marrow"
+  answer: 1
+  explanation: "Secondary lymphoid organs solve a sampling problem: how to ensure that rare antigen-specific lymphocytes encounter their cognate antigen from a vast body surface. Lymph nodes receive lymph draining from surrounding tissues, bringing pathogens and dendritic cells carrying antigen from sites of infection. The spleen samples circulating blood, catching blood-borne pathogens. By concentrating antigen and lymphocytes in the same organized space, these organs dramatically increase encounter probability. MALT (mucosal lymphoid tissue) extends this to surface tissues like the gut. Together they provide surveillance coverage of essentially the entire body."
+
+- question: "The thymus selects for T cells that can recognize self-MHC molecules but eliminates those that react too strongly to self-peptides presented on self-MHC."
+  type: true-false
+  answer: true
+  explanation: "This two-stage selection explains the core functional requirement for T cells. Positive selection in the thymic cortex tests whether the T cell receptor can bind self-MHC at all — cells that cannot are useless and die. Negative selection in the medulla eliminates cells whose receptors bind self-MHC + self-peptide too strongly — these would attack the body's own tissues. Only cells passing both checkpoints (roughly 2–5% of candidates) survive. The result is a repertoire of T cells that can respond to foreign peptides presented on self-MHC without causing autoimmunity."
+
+- question: "Primary lymphoid organs (thymus and bone marrow) are the main sites where adaptive immune responses against infections are initiated."
+  type: true-false
+  answer: false
+  explanation: "Primary lymphoid organs are sites of lymphocyte *generation and education*, not immune response initiation. The bone marrow produces B cells and T cell precursors; the thymus matures and selects T cells. Adaptive immune responses are initiated in *secondary* lymphoid organs — lymph nodes, spleen, and MALT — where antigen, antigen-presenting cells, and lymphocytes converge. This distinction matters: a vaccine activates immune responses in secondary organs (especially draining lymph nodes), not in the bone marrow or thymus."
+
+- question: "Why does the microarchitecture of secondary lymphoid organs — the spatial segregation of B and T cell zones, follicular structures, and chemokine gradients — matter for the immune response?"
+  type: short-answer
+  answer: "Adaptive immunity depends on rare, antigen-specific lymphocytes finding the right antigen and the right partner cells. Without spatial organization, these encounters would be too infrequent to mount a timely response. The architecture concentrates dendritic cells carrying antigen with T cells in the paracortex, and organizes B cells with antigen-displaying follicular dendritic cells in follicles. Chemokine gradients direct traffic so each cell type is where it needs to be. The T-B interaction zone at the follicle border brings together activated T and B cells responding to the same pathogen — this spatial meeting is required for germinal center formation and high-affinity antibody production."
+  explanation: "The key insight is that the immune system's power to respond specifically to millions of possible antigens comes at a cost: any one lymphocyte is vanishingly rare. The lymphoid organ architecture solves this by creating organized spaces that maximize encounter probability — essentially a matchmaking infrastructure for the immune system. Remove the spatial organization and the probability of productive encounters plummets."
+```
+
 ## Explainer
 
 From your overviews of innate and adaptive immunity, you know that the immune system relies on diverse cell types — T cells, B cells, dendritic cells, macrophages — that must find each other and coordinate responses. But the body is enormous relative to an individual cell, and pathogens can enter anywhere. The lymphoid organs solve this logistical problem by creating organized meeting places where antigen, antigen-presenting cells, and lymphocytes are concentrated together, dramatically increasing the probability of the rare encounters needed to launch an adaptive immune response.

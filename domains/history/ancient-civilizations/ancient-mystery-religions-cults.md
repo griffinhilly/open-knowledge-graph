@@ -26,6 +26,45 @@ Study literary references to mystery religions (Plato, Apuleius) and archaeologi
 ## Common Misconceptions
 Mystery religions were not heretical or suppressed—they operated openly alongside traditional religions, serving complementary spiritual functions. Their secrecy was about initiation rites, not underground activities.
 
+## Questions
+
+```yaml
+- question: "A Roman citizen in 100 CE participates in both annual civic sacrifices to Jupiter and an initiation ceremony in the Isis cult. A student says this person must have been 'religiously confused.' What is wrong with this view?"
+  type: multiple-choice
+  options:
+    - "Roman citizens were legally prohibited from joining non-Roman mystery cults"
+    - "Mystery religions and civic religion served complementary functions — one for communal obligations, the other for personal spiritual transformation — and participating in both was entirely normal"
+    - "The Isis cult was a direct competitor to Roman state religion and its followers risked persecution"
+    - "Educated Romans regarded mystery cults as superstitions and would not have taken them seriously"
+  answer: 1
+  explanation: "The misconception is projecting modern religious exclusivism onto antiquity. Civic religion was communal and transactional: the community performed rites to secure divine protection for the city. It did not address individual destiny or offer personal spiritual experience. Mystery religions filled exactly that gap. Participating in both was not contradictory but complementary — each served a different function. Most educated Romans saw no conflict."
+
+- question: "What was the primary appeal of mystery religions across the Roman Empire, especially in urban centers?"
+  type: multiple-choice
+  options:
+    - "They offered an alternative to paying for public religious festivals"
+    - "They provided secret political networks for challenging Roman authority"
+    - "They offered personal transformation, direct spiritual experience, and assurance about the afterlife that public civic religion did not provide"
+    - "They were the only religious option available to non-citizens and slaves"
+  answer: 2
+  explanation: "Civic religion was primarily communal and transactional — the community fulfills its obligations, the gods protect the city. It said little about individual fate after death. Mystery cults offered initiates something deeply personal: a transformative ritual experience, a changed relationship with the divine, and hope for a blessed afterlife. This was especially attractive in the cosmopolitan, mobile world of the Roman Empire, where traditional community bonds were often weak."
+
+- question: "The secrecy surrounding ancient mystery religions referred to the content of initiatory rites, not to underground or politically subversive activities."
+  type: true-false
+  answer: true
+  explanation: "True. The Eleusinian Mysteries were state-sponsored, held annually at a major Athenian sanctuary, and open to any Greek-speaking free person who qualified. What was secret was what happened inside the initiation ceremony — the revealed objects, words, and dramas. Initiates were bound by oaths not to disclose these details. The cult's existence, location, and calendar were entirely public. 'Secret' meant 'restricted to initiates,' not 'hidden from authorities.'"
+
+- question: "Mystery religions represented a movement toward monotheism that challenged the foundations of traditional Greco-Roman polytheism."
+  type: true-false
+  answer: false
+  explanation: "False. Mystery religions were polytheistic or henotheistic (elevating one deity for special devotion), not monotheistic. The Eleusinian Mysteries honored Demeter and Persephone; Mithraism centered on Mithras within a cosmic framework; the Isis cult elevated Isis within a broader Egyptian pantheon. They coexisted with and drew on traditional polytheism. The move toward monotheism is a related but distinct historical development."
+
+- question: "How did mystery religions differ from traditional Greco-Roman civic religion in their purpose and appeal, and why did the two coexist rather than compete?"
+  type: short-answer
+  answer: "Civic religion was communal and transactional: the community performed rites (sacrifices, festivals, processions) to secure divine favor for the city as a whole. It did not address individual destiny or offer personal spiritual transformation. Mystery religions filled this gap by offering initiates a direct personal experience of the divine, secret knowledge, and assurance about the afterlife. Because their functions were entirely different — civic religion for public communal obligations, mystery cults for individual spiritual needs — most people participated in both without conflict."
+  explanation: "Understanding this complementarity prevents the error of projecting modern religious exclusivism onto antiquity. Ancient peoples routinely participated in multiple religious systems because those systems addressed different questions. The mystery cults did not compete with civic religion any more than private religious devotion competes with attending a national holiday celebration today."
+```
+
 ## Explainer
 
 Ancient Greek and Roman civic religion was largely a public affair: sacrifices, festivals, processions, and temple rituals performed on behalf of the community by officials and priests. The gods were expected to protect the city in return for proper worship. What this religion did not offer was an intimate, personal relationship with the divine, or any clear promise about what awaited individuals after death. **Mystery religions** filled this gap. They were initiatory cults that offered something public religion could not: secret knowledge, transformative ritual experience, and the assurance of a blessed afterlife or spiritual elevation available to the initiated.

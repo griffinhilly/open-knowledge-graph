@@ -20,6 +20,45 @@ status: draft
 ## Core Idea
 The Coriolis force F_cor = −2 m ω × v deflects moving objects in rotating frames (e.g., on Earth, which rotates at ω ≈ 7.3 × 10⁻⁵ rad/s). In the Northern Hemisphere, moving objects are deflected rightward; in the Southern Hemisphere, leftward. This effect is crucial for large-scale phenomena: hurricanes rotate due to Coriolis deflection, ocean currents curve, and ballistic trajectories deviate significantly over long distances.
 
+## Questions
+
+```yaml
+- question: "Air flows northward toward a low-pressure center in the Northern Hemisphere. The Coriolis force deflects it:"
+  type: multiple-choice
+  options:
+    - "To the left (westward), causing clockwise hurricane rotation"
+    - "To the right (eastward), contributing to counter-clockwise hurricane rotation"
+    - "Downward, toward the Earth's surface"
+    - "It has no effect on air flowing exactly northward"
+  answer: 1
+  explanation: "In the Northern Hemisphere, the Coriolis force deflects ALL moving objects to their right. Northward-moving air is deflected rightward (eastward). When air flows inward from all directions toward a low-pressure center, consistent rightward deflection produces counter-clockwise circulation. Option A gives the Southern Hemisphere result."
+
+- question: "Why do tropical cyclones never form right at the equator?"
+  type: multiple-choice
+  options:
+    - "Ocean surface temperature at the equator is too low to generate the needed energy"
+    - "The vertical component of Earth's angular velocity ω is zero at the equator, so there is no horizontal Coriolis deflection"
+    - "Trade winds blow too strongly at the equator to permit organized rotation"
+    - "The Coriolis force is strongest at the equator, producing chaotic rather than organized flow"
+  answer: 1
+  explanation: "The Coriolis acceleration for horizontal motion is 2ωv sinφ, where φ is latitude. At the equator (φ = 0°), sinφ = 0 and horizontal Coriolis deflection vanishes. Without deflection, inflowing air cannot develop organized rotation. Cyclones require a minimum latitude (roughly 5°) for sufficient Coriolis effect."
+
+- question: "The Coriolis force is a real physical force that acts on objects moving in any reference frame, not just rotating ones."
+  type: true-false
+  answer: false
+  explanation: "The Coriolis force is a fictitious (inertial) force that appears only when motion is analyzed in a rotating reference frame. In an inertial frame, no Coriolis force acts — the 'deflection' is simply inertial straight-line motion viewed from a rotating frame. Fictitious forces are real in their effects within rotating frames but have no physical cause independent of the choice of frame."
+
+- question: "The Coriolis effect deflects moving objects in the Southern Hemisphere to the left of their direction of motion."
+  type: true-false
+  answer: true
+  explanation: "This follows from F = −2m(ω×v). In the Southern Hemisphere, the local vertical component of ω points downward (opposite to the Northern Hemisphere), reversing the deflection direction. Moving objects are deflected to their left, which is why Southern Hemisphere cyclones rotate clockwise as inflowing air is deflected leftward from all directions."
+
+- question: "Explain why Coriolis deflection causes hurricanes to rotate counter-clockwise in the Northern Hemisphere — trace the deflection of air flowing inward from different directions rather than just citing the rule."
+  type: short-answer
+  answer: "Air flows inward from all directions. Northward-moving air (from the south) is deflected right = eastward. Southward-moving air (from the north) is deflected right = westward. Eastward-moving air (from the west) is deflected right = southward. Westward-moving air (from the east) is deflected right = northward. Each inflow direction gets a rightward push that consistently contributes to counter-clockwise rotation around the center."
+  explanation: "The CCW rotation is the cumulative result of independent rightward deflections from every compass direction of inflow. In the Southern Hemisphere, leftward deflection from all directions produces clockwise rotation by the same logic. The pattern emerges from the geometry of right-deflection applied symmetrically around a central low."
+```
+
 ## Explainer
 
 You already know that when you analyze motion in a rotating reference frame, Newton's second law gains extra terms — fictitious forces that account for the fact that the frame itself is accelerating. The two main fictitious forces are the **centrifugal force** (pointing outward from the rotation axis) and the **Coriolis force**, which is the one that depends on velocity. The Coriolis force arises because an object moving in a rotating frame is continuously changing its position relative to the rotation axis, and the frame's angular velocity is continuously rotating the coordinate directions underneath it.

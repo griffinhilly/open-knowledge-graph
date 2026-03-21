@@ -35,6 +35,45 @@ Drawing the cycle as a flow diagram with labeled pathways (uplift and erosion, b
 - The cycle operates on timescales of millions to hundreds of millions of years, so 'cycle' does not imply regular periodicity.
 - Rocks are not destroyed in the cycle; mass is conserved, though it changes form.
 
+## Questions
+
+```yaml
+- question: "A geologist observes granite exposed at the surface of a mountain range. She predicts the granite will next become sedimentary rock as it weathers into sand. Is this the only possible next step for the granite?"
+  type: multiple-choice
+  options:
+    - "Yes — granite must become sedimentary rock before it can ever become metamorphic rock"
+    - "No — the granite could be buried by tectonic forces and metamorphosed directly into gneiss without first becoming sedimentary rock"
+    - "No — granite can only melt back into magma; it cannot form sedimentary or metamorphic rocks"
+    - "Yes — the rock cycle always proceeds in the sequence igneous → sedimentary → metamorphic → igneous"
+  answer: 1
+  explanation: "This is the central misconception about the rock cycle: it does NOT follow a fixed sequence. Granite (igneous) can be buried and metamorphosed into gneiss without ever being weathered into sediment — if tectonic forces bury it before erosion acts. It can also be melted directly by a volcanic intrusion. Which pathway granite takes depends entirely on which geological forces act on it. The rock cycle is a network of possible transformations, not a conveyor belt with a prescribed order."
+
+- question: "The rock cycle is driven by two distinct energy sources. Which pairing correctly identifies them and their associated processes?"
+  type: multiple-choice
+  options:
+    - "Solar energy drives volcanism; radioactive decay drives weathering and erosion"
+    - "Solar energy drives weathering, erosion, and sediment transport; Earth's internal heat drives melting, metamorphism, and tectonics"
+    - "Gravitational energy alone drives all rock transformations"
+    - "Both pathways are driven exclusively by Earth's internal heat from radioactive decay"
+  answer: 1
+  explanation: "The rock cycle has two distinct engines. Solar energy powers the hydrological cycle — evaporation, precipitation, rivers — which drives weathering, erosion, and sediment transport. Gravity contributes by pulling sediment downhill to depositional basins. Earth's internal heat (from radioactive decay and residual planetary formation heat) drives plate tectonics, which causes burial, metamorphism, subduction, melting, and volcanism. Understanding these two energy sources explains why the cycle has operated continuously for billions of years: it won't stop until the Sun dims and Earth's interior cools."
+
+- question: "The rock cycle always follows the sequence igneous → sedimentary → metamorphic → igneous, with each rock type transforming into the next in order."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about the rock cycle. The cycle has no required sequence. Shortcuts are not just possible — they are common. Igneous rock can be metamorphosed directly (burial without prior weathering). Metamorphic rock can be eroded and become sedimentary without ever melting. Sedimentary rock can be melted by a volcanic intrusion and become igneous in a single step. Which transformation occurs depends on which geological conditions (heat, pressure, water, burial depth, tectonic setting) the rock encounters, not on a prescribed order."
+
+- question: "Throughout the rock cycle, mass is conserved — rocks are not created or destroyed, only transformed between types."
+  type: true-false
+  answer: true
+  explanation: "The rock cycle is a continuous recycling system. Matter is transformed — granite weathers to sand to sandstone to quartzite — but the atoms themselves are conserved. Silicon, oxygen, iron, calcium, and other elements cycle through the rock types repeatedly over geological time. Mass leaves the system only through very slow processes like atmospheric escape; within the crust and mantle, the material budget is essentially closed. This conservation principle is what makes 'cycle' an appropriate term, despite the lack of a fixed sequence."
+
+- question: "Why is it more accurate to describe the rock cycle as a 'network of possibilities' rather than a simple loop with a fixed sequence?"
+  type: short-answer
+  answer: "The rock cycle diagram shows every major rock type connected to every other by multiple possible pathways, each representing a real geological process. A given rock does not follow a predetermined route — it follows whichever pathway the forces acting on it dictate. Granite exposed at the surface will weather if erosion acts first, but will metamorphose if tectonic burial acts first, or melt if a magma intrusion acts first. All three outcomes are real possibilities, and which one occurs depends on the specific geological setting. The 'conveyor belt' metaphor fails because it implies a fixed order; the 'network' metaphor captures that all transitions are always possible simultaneously in different parts of Earth."
+  explanation: "This also means the cycle has no starting point and no ending point — it has been running continuously since Earth formed. Any rock you pick up is somewhere in the middle of a transformation that began billions of years ago and will continue for billions more."
+```
+
 ## Explainer
 
 You now know the three major rock families — igneous, sedimentary, and metamorphic — and how each one forms. The **rock cycle** is the framework that connects them, showing that no rock type is permanent. Every rock on Earth is in transit between states, driven by processes that operate on timescales far longer than human experience but that are happening continuously right now.

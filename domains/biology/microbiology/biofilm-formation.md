@@ -39,6 +39,45 @@ Compare antibiotic MIC (minimum inhibitory concentration) for planktonic vs. bio
 - Biofilm antibiotic tolerance is largely phenotypic, not genetic; planktonic descendants of biofilm bacteria regain normal susceptibility.
 - Not all biofilms are harmful — beneficial biofilms operate in wastewater treatment, the healthy gut mucosa, and industrial bioreactors.
 
+## Questions
+
+```yaml
+- question: "A patient with a prosthetic joint infection is treated with high-dose antibiotics for 6 weeks. Lab tests confirm the causative S. aureus is susceptible to the antibiotic. Yet the infection persists. The most likely explanation is:"
+  type: multiple-choice
+  options:
+    - "The bacteria acquired resistance mutations during treatment that the lab test failed to detect"
+    - "The bacteria form a biofilm on the prosthetic surface whose EPS limits diffusion and whose persister cells survive despite antibiotic susceptibility"
+    - "The patient's immune system is suppressed, allowing bacteria to evade antibiotics independently of biofilm"
+    - "The lab susceptibility test used planktonic bacteria, but biofilm descendants have permanently altered genetics"
+  answer: 1
+  explanation: "Standard susceptibility testing uses planktonic bacteria. In a biofilm on the prosthetic surface, the same bacteria are 10–1,000× more tolerant due to (1) EPS physically limiting antibiotic diffusion to interior cells, (2) oxygen/nutrient depletion driving metabolic dormancy in deeper layers, and (3) persister cells that survive treatment and reseed infection. This tolerance is phenotypic, not genetic — the lab test is not wrong; it tested the wrong form of the bacteria. Device removal is often necessary because antibiotics alone cannot eradicate a biofilm."
+
+- question: "A researcher proposes coating catheters with a compound that prevents initial bacterial attachment. Which stage of biofilm formation does this target, and why is it particularly attractive?"
+  type: multiple-choice
+  options:
+    - "Dispersal — triggering premature dispersal forces bacteria into the vulnerable planktonic state"
+    - "Mature biofilm — degrading EPS channels prevents nutrient delivery, starving the community"
+    - "Reversible attachment — preventing initial surface adhesion stops the developmental program before the tolerant phenotype develops"
+    - "Microcolony formation — blocking cell division inside the early biofilm prevents expansion"
+  answer: 2
+  explanation: "Targeting reversible attachment prevents the entire biofilm developmental program from initiating. At this stage, bacteria are still planktonic in behavior, susceptible to normal immune responses and antibiotics, and the EPS matrix has not formed. Once bacteria establish irreversible attachment and begin secreting EPS, quorum sensing triggers coordinated gene expression and the protective architecture starts forming. Prevention before the program starts is far easier than disruption of a mature biofilm."
+
+- question: "Planktonic descendants of bacteria dispersed from a mature biofilm retain elevated antibiotic tolerance compared to bacteria that were never in a biofilm."
+  type: true-false
+  answer: false
+  explanation: "Biofilm antibiotic tolerance is phenotypic, not genetic. Planktonic descendants of biofilm-dispersed bacteria regain normal susceptibility because the tolerance is a function of being embedded in the biofilm environment (diffusion limitation, metabolic dormancy, EPS shielding), not of having acquired resistance mutations. The bacteria have not changed genetically; their phenotype changed in response to the biofilm lifestyle and reverts when they return to planktonic growth. This is why device removal — not just stronger antibiotics — is often required."
+
+- question: "Dispersal is the final stage of the biofilm lifecycle and is a passive, incidental process triggered only by physical disruption of the matrix."
+  type: true-false
+  answer: false
+  explanation: "Dispersal is an active, regulated stage of the biofilm lifecycle triggered by specific biological signals: nutrient depletion, enzymatic degradation of the EPS matrix, or specific quorum-sensing signals. It is part of the developmental program, not an incidental event. Understanding dispersal has practical significance — deliberately triggering it forces bacteria back into the planktonic state where conventional antibiotics are effective, and dispersal events can also seed new infections at distant sites."
+
+- question: "Why is biofilm antibiotic tolerance described as 'phenotypic' rather than 'genetic,' and what is the clinical significance of this distinction?"
+  type: short-answer
+  answer: "Phenotypic tolerance means the increased resistance is a consequence of the bacteria's current physiological state and environment — slow growth due to oxygen/nutrient depletion, physical shielding by the EPS matrix — not of acquired resistance genes. The clinical significance is twofold: first, standard susceptibility tests (which use planktonic bacteria) still show the bacteria as susceptible, creating a misleading picture where the treatment 'should work' but doesn't. Second, planktonic descendants regain full susceptibility, so the solution is not to develop a new antibiotic but to disrupt the biofilm environment itself — remove the device, degrade the EPS — to restore access to the bacteria."
+  explanation: "Genetic resistance is heritable and spreads; phenotypic tolerance disappears when the organism returns to planktonic growth. Conflating the two leads to incorrect conclusions about resistance spread and to strategies that target the wrong problem."
+```
+
 ## Explainer
 
 You already know that bacteria reproduce through binary fission and that they communicate with one another through **quorum sensing** — small signaling molecules whose concentration rises with population density. Biofilm formation is what happens when bacteria stop living as free-floating individuals and commit to a communal, surface-attached lifestyle. This transition is not random; it is a coordinated developmental program triggered largely by quorum-sensing signals, and it produces communities with emergent properties that no single bacterium possesses.

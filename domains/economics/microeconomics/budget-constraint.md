@@ -35,6 +35,45 @@ Draw budget lines for various income and price combinations, labeling intercepts
 - Students often confuse a parallel shift (income change) with a rotation (price change).
 - The slope of the budget line reflects relative prices — not the absolute price of either good.
 
+## Questions
+
+```yaml
+- question: "A consumer's income doubles while prices remain unchanged. How does this affect the budget line?"
+  type: multiple-choice
+  options:
+    - "The budget line rotates outward around the horizontal intercept, since more X can be purchased"
+    - "The budget line shifts outward in a parallel fashion, with both intercepts doubling and the slope unchanged"
+    - "The slope of the budget line steepens, reflecting the increased purchasing power"
+    - "The budget line rotates around the origin, since the consumer can afford more of both goods proportionally"
+  answer: 1
+  explanation: "An income change shifts the budget line parallel to itself. Both intercepts (I/P_x and I/P_y) are proportional to income I, so when income doubles, both intercepts double — the line shifts out uniformly. The slope is −P_x/P_y, which depends only on prices. Since prices didn't change, the slope is unchanged. Rotation only occurs when one price changes (moving one intercept while holding the other fixed)."
+
+- question: "The price of good X falls while income and the price of good Y remain unchanged. What happens to the budget line?"
+  type: multiple-choice
+  options:
+    - "The budget line shifts outward in parallel — the consumer can afford more of everything at the same rate"
+    - "The budget line rotates outward around the vertical intercept — the horizontal intercept increases while the vertical intercept stays the same"
+    - "The budget line rotates inward around the horizontal intercept — cheaper X means the consumer doesn't need as much income"
+    - "The slope becomes more negative, rotating around the midpoint of the original line"
+  answer: 1
+  explanation: "A price change for one good rotates the budget line around the opposite intercept. The vertical intercept I/P_y doesn't change (income and P_y are unchanged). The horizontal intercept I/P_x increases (P_x fell, so you can afford more X if you spend everything on it). The line fans outward from the vertical intercept. The new slope −P_x/P_y is less steep (less negative) since P_x is now smaller relative to P_y."
+
+- question: "The slope of the budget line represents the absolute price of good X."
+  type: true-false
+  answer: false
+  explanation: "The slope is −P_x/P_y — the ratio of the two prices, i.e., the relative price of X in terms of Y. It tells you how many units of Y you must give up to get one more unit of X. The absolute level of prices does not determine the slope — only their ratio does. If both prices doubled (with income also doubling), the budget line would be identical, with the same slope, because relative prices are unchanged."
+
+- question: "A consumer faces P_x = $4 and P_y = $2 with income I = $40. If P_x rises to $8 while income and P_y stay the same, the budget line rotates inward around the vertical intercept."
+  type: true-false
+  answer: true
+  explanation: "The vertical intercept is I/P_y = 40/2 = 20 and does not change (income and P_y are unchanged). The horizontal intercept falls from I/P_x = 40/4 = 10 to 40/8 = 5. The line rotates inward around the vertical intercept, becoming steeper — the slope goes from −P_x/P_y = −4/2 = −2 to −8/2 = −4, reflecting that X is now more expensive relative to Y."
+
+- question: "Explain why the slope of the budget line is economically meaningful as a 'relative price,' and how it differs from the absolute price of either good."
+  type: short-answer
+  answer: "The slope −P_x/P_y tells you the rate at which the market exchanges Y for X: to buy one more unit of X, you must give up P_x/P_y units of Y. This is the opportunity cost of X expressed in units of Y — what you actually sacrifice. Absolute prices P_x and P_y only become meaningful in relation to income; their ratio matters independently of income because it governs tradeoffs. If both prices doubled with income doubled, the budget set and all consumption tradeoffs would be identical — only relative prices determine the slope and shape of the constraint."
+  explanation: "This is why price changes rotate the budget line rather than shift it: a price change on one good changes the relative price (slope) but leaves the opposite intercept fixed. The slope is the market's exchange rate between goods, and the optimal consumption point equates this market rate to the consumer's personal marginal rate of substitution."
+```
+
 ## Explainer
 
 The **budget constraint** translates your income and the prices you face into a picture of what's possible. If you have income I and face prices P_x and P_y for two goods X and Y, the constraint is P_x·X + P_y·Y = I. Think of it as a checkbook equation: the total you spend on X plus the total you spend on Y can't exceed what you have. The boundary — the budget line — maps out every combination that exactly exhausts your income. Everything below it is affordable; everything above is not.

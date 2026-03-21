@@ -31,6 +31,45 @@ Start with concrete examples: find the supremum of {1, 1/2, 2/3, 3/4, ...} and v
 - Thinking any bounded set has a supremum in its field of view; this is the whole point of the axiom.
 - Assuming the supremum is always the 'last' or 'largest' element.
 
+## Questions
+
+```yaml
+- question: "Consider the set S = {x ∈ ℚ : x² < 2}. Every element of S is rational and S is bounded above. What is true about the supremum of S?"
+  type: multiple-choice
+  options:
+    - "The supremum is √2, which exists as a rational number since it bounds S from above"
+    - "The supremum is 2, because 2 is the simplest rational upper bound"
+    - "The supremum exists in ℝ but not in ℚ — it equals √2, which is irrational, revealing a hole in the rationals"
+    - "S has no supremum because it is an open set with no largest element"
+  answer: 2
+  explanation: "This example is why the Completeness Axiom matters. S is non-empty and bounded above by any rational greater than √2, so by the axiom it has a supremum in ℝ — and that supremum is √2. But √2 is irrational, so no rational number is the least upper bound of S in ℚ. This demonstrates the 'hole' in ℚ that the axiom fills. Option D confuses supremum with maximum: open sets routinely lack a maximum but still have a supremum."
+
+- question: "What is the supremum of the open interval (0, 1) as a subset of ℝ, and does the set have a maximum?"
+  type: multiple-choice
+  options:
+    - "The supremum does not exist because the interval is open and no element is the largest"
+    - "The supremum is 0.999…, which is in the interval and serves as the largest element"
+    - "The supremum is 1, and 1 is in the interval — it is also the maximum"
+    - "The supremum is 1, but 1 is not in the interval — the supremum exists but the set has no maximum"
+  answer: 3
+  explanation: "The supremum is the smallest upper bound, not the largest element. For (0,1), every upper bound is ≥ 1, and 1 itself is an upper bound — so sup = 1. But 1 ∉ (0,1), so the set has no maximum. This is the essential distinction: supremum and maximum coincide only when the supremum is actually achieved by an element of the set. The Completeness Axiom guarantees the supremum exists in ℝ even when the set has no maximum."
+
+- question: "The set of rational numbers satisfies the Completeness Axiom: every non-empty subset of ℚ that is bounded above has a least upper bound in ℚ."
+  type: true-false
+  answer: false
+  explanation: "This is precisely what the Completeness Axiom denies about ℚ. The set {x ∈ ℚ : x² < 2} is non-empty, bounded above in ℚ, yet has no least upper bound in ℚ — its supremum is √2, which is irrational. The Completeness Axiom is the property that distinguishes ℝ from ℚ. Rationals satisfy all the ordered field axioms but fail completeness, which is why they have 'holes.'"
+
+- question: "A set can have a supremum without having a maximum — the supremum need not be an element of the set."
+  type: true-false
+  answer: true
+  explanation: "The supremum (least upper bound) is defined by two conditions: it is an upper bound, and no smaller number is an upper bound. Neither condition requires the supremum to belong to the set. The open interval (0,1) has supremum 1 but no maximum; the set {1 − 1/n : n ∈ ℕ} = {0, 1/2, 2/3, 3/4, ...} has supremum 1 but 1 is not in the set. The maximum, by contrast, must be an element of the set that is also an upper bound."
+
+- question: "Why does the Completeness Axiom matter beyond being a technical axiom? Name one major theorem in real analysis that depends on it and explain the dependence."
+  type: short-answer
+  answer: "The Completeness Axiom guarantees that ℝ has no holes — every place where a sequence or process converges, the limit actually exists in ℝ. The Monotone Convergence Theorem is a direct application: if a sequence is increasing and bounded above, its range is a non-empty bounded set, and the Completeness Axiom guarantees it has a supremum in ℝ — that supremum is the limit. Without completeness, a bounded increasing sequence of rationals could approach √2 yet have no limit in the field."
+  explanation: "The same dependence appears in the Intermediate Value Theorem (if a continuous function changes sign, the zero must exist — but existence requires completeness), the Extreme Value Theorem, and the Bolzano–Weierstrass Theorem. Completeness is not a curiosity; it is the single axiom that makes analysis work over ℝ rather than collapsing over ℚ."
+```
+
 ## Explainer
 
 You already know the ordered field axioms: the rational numbers ℚ satisfy every one of them. Addition, multiplication, ordering — ℚ behaves exactly like a number system "should." And yet there is a profound gap in ℚ. Consider the set S = {x ∈ ℚ : x² < 2}. Every element of S is a rational number, and S is clearly bounded above — for instance, 2 is an upper bound. So there should be a least upper bound, right? But there isn't one in ℚ. Every rational candidate for the least upper bound can be beaten: you can always find a larger rational that is still an upper bound. The true least upper bound would be √2, but √2 is irrational. The rationals have a **hole** exactly where √2 should be.

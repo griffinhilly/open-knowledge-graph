@@ -34,6 +34,45 @@ Use acoustic data to track the deep scattering layer throughout diel cycles. Mea
 ## Common Misconceptions
 Diel migration is not a simple day-night toggle; it is more nuanced (twilight-triggered, ontogenetic shifts) and varies with moon phase and local predation pressure. Not all zooplankton migrate; large copepods and some euphausiids show smaller amplitudes. Migration is energetically costly; it represents a trade-off between feeding and predation avoidance.
 
+## Questions
+
+```yaml
+- question: "What triggers zooplankton to begin ascending toward the surface at dusk?"
+  type: multiple-choice
+  options:
+    - "An absolute light intensity threshold — when ambient light falls below a fixed lux level, ascent begins"
+    - "Water temperature changes at the thermocline as the surface cools in the evening"
+    - "The rate of change of light intensity at twilight, rather than an absolute light level"
+    - "Chemical signals from phytoplankton that become detectable when light decreases"
+  answer: 2
+  explanation: "Diel vertical migration is triggered by the rate of change of light intensity at twilight, not by crossing an absolute light threshold. This distinction matters: it explains why migration timing shifts seasonally (twilight occurs at different absolute light intensities across seasons) and why the system is adaptive rather than merely reflexive. Responding to rate of change rather than absolute level allows zooplankton to consistently anticipate the transition from the risky daylit period to safer darkness, regardless of overall light conditions on a given day."
+
+- question: "Larger zooplankton tend to migrate deeper during the day than smaller species. What is the most likely explanation?"
+  type: multiple-choice
+  options:
+    - "Larger organisms have more fat reserves and can sustain longer migrations without feeding"
+    - "Larger organisms are more conspicuous to visual predators and therefore gain more survival benefit from seeking darker depths"
+    - "Larger organisms produce more metabolic heat and must descend to cooler water to regulate temperature"
+    - "Smaller organisms cannot survive the pressure at greater depths and are constrained to shallower water"
+  answer: 1
+  explanation: "Visual predators like fish and seabirds hunt by detecting zooplankton against background light. Larger, more visually conspicuous organisms are easier to detect and face higher predation risk in lit water. They gain more survival benefit from migrating to darker, deeper water during the day. Smaller species may be less detectable and tolerate shallower daytime depths or may not migrate at all. This size-gradient in migration depth is consistent with the predation-avoidance interpretation of DVM."
+
+- question: "Diel vertical migration is triggered when ambient light intensity falls below a fixed absolute threshold that zooplankton can detect."
+  type: true-false
+  answer: false
+  explanation: "The trigger is the rate of change of light intensity at twilight, not an absolute threshold. An absolute threshold would cause problems as seasons change, since twilight occurs at varying absolute light levels. A rate-of-change trigger ensures that migration consistently tracks the actual day-night transition regardless of season or cloud cover. It also explains behavioral nuances like migration suppression on bright full-moon nights, when the light change pattern at dusk is altered by moonrise."
+
+- question: "Diel vertical migration actively transports carbon to depth, contributing to the ocean's biological pump beyond the passive sinking of dead organic particles."
+  type: true-false
+  answer: true
+  explanation: "When zooplankton feed at the surface and descend to depth, they carry carbon with them in their bodies, guts, and as fecal pellets released below the photic zone. This active transport delivers organic carbon directly to the mesopelagic zone, bypassing the slow sinking process of the passive biological pump. Estimates suggest DVM-driven active transport accounts for 15–40% of total downward carbon flux in some ocean regions — a substantial contribution that would be missed if only passive particle sinking were considered."
+
+- question: "Explain the core evolutionary trade-off that drives diel vertical migration, and why the energy cost of migrating hundreds of meters twice daily does not prevent this behavior."
+  type: short-answer
+  answer: "Zooplankton face a fundamental dilemma: food (phytoplankton) is in the sunlit surface water, but so are visual predators. DVM resolves this by separating feeding (surface, at night) from the high-predation-risk period (surface, during daylight). The energy cost of migration — estimated at 10–30% of daily energy budget — is outweighed by the survival benefit in environments where predation pressure is high. Natural selection favors migrators when the mortality cost of remaining near the surface during the day exceeds the metabolic cost of descending."
+  explanation: "This is a classic life-history trade-off between energy acquisition and predation risk. The behavior is maintained when predation pressure is high enough that the survival benefit of the deep refuge outweighs the energetic cost of migration. Where predation pressure is low, migration frequency and amplitude are reduced — supporting the predation-avoidance interpretation. The behavioral flexibility seen across species, life stages, and moon phases shows that DVM is an adaptive optimum continuously tuned to local conditions, not a rigid fixed program."
+```
+
 ## Explainer
 
 From your study of the photic zone, you know that sunlight penetrates only the upper 200 meters or so of the ocean, and that this well-lit layer is where nearly all photosynthesis — and therefore nearly all primary food production — occurs. From your study of zooplankton food web structure, you know that zooplankton are the crucial link between phytoplankton and higher trophic levels. The dilemma facing zooplankton is stark: the food is at the surface, but so are the predators. **Diel vertical migration** (DVM) is evolution's solution to this problem, and it constitutes the largest synchronized animal movement on Earth.

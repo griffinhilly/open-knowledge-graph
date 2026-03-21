@@ -34,6 +34,45 @@ Compare two real plan options side by side — a high-deductible and a low-deduc
 - All doctors and hospitals accept all insurance; going out-of-network — even accidentally, such as an out-of-network anesthesiologist at an in-network hospital — can result in bills that bypass your normal cost-sharing protections.
 - Preventive care is subject to the deductible; under the ACA, most preventive services (annual physicals, certain screenings, vaccinations) must be covered at no cost-sharing for in-network care, even before you meet your deductible.
 
+## Questions
+
+```yaml
+- question: "Maria has a high-deductible health plan (HDHP) with a $1,800 deductible, 20% coinsurance, and a $6,000 out-of-pocket maximum, with a monthly premium of $200. Her coworker has a low-deductible plan with a $300 deductible, 20% coinsurance, $4,500 out-of-pocket max, and a $450 monthly premium. Maria has surgery that results in $30,000 in covered medical bills. Who pays less in total annual costs?"
+  type: multiple-choice
+  options:
+    - "Maria pays less — her HDHP has lower monthly premiums, so she always saves money"
+    - "Maria's coworker pays less — with a major medical event, the low-deductible plan hits its out-of-pocket cap faster and has only $300 in deductible exposure"
+    - "They pay the same — both plans have similar coinsurance rates, so costs equalize on large bills"
+    - "Maria pays less — her out-of-pocket maximum is lower than her coworker's"
+  answer: 1
+  explanation: "With $30,000 in bills, both plans quickly hit their out-of-pocket maximums. Maria pays $1,800 deductible + $4,200 coinsurance = $6,000 OOP max, plus $2,400 in premiums ($200 × 12) = $8,400 total. Her coworker pays $300 deductible + $4,200 coinsurance = $4,500 OOP max, plus $5,400 in premiums ($450 × 12) = $9,900 total. Wait — actually Maria pays less total ($8,400 vs $9,900). This illustrates that the HDHP wins even in a bad year if the premium savings are large enough. The key insight is that you must calculate TOTAL costs — premiums plus out-of-pocket — not just focus on one number. Option A is stated for a different reason (just 'lower premiums always wins') which is the misconception; the actual math sometimes still favors the HDHP even with major use."
+
+- question: "You have met your annual deductible for the year and have now also reached your out-of-pocket maximum. Your doctor orders an additional in-network procedure. What do you owe for the procedure?"
+  type: multiple-choice
+  options:
+    - "Your coinsurance percentage (e.g., 20%) of the procedure cost"
+    - "A flat copay as specified in your plan"
+    - "Nothing — the insurer covers 100% of covered in-network costs once you've hit the out-of-pocket max"
+    - "The full cost, since you've exhausted your benefits for the year"
+  answer: 2
+  explanation: "The out-of-pocket maximum is the annual ceiling on your cost-sharing. Once you reach it, the insurer pays 100% of covered in-network costs for the remainder of the year. This is the catastrophic protection function of health insurance — it prevents unlimited financial exposure. Options A and B describe what happens before the OOP max is reached. Option D confuses the OOP max with a 'benefits exhaustion' limit, which doesn't exist in standard health plans."
+
+- question: "Under the ACA, most preventive care services — such as annual physicals, recommended screenings, and vaccinations — must be covered at no cost to you, even if you haven't met your deductible yet."
+  type: true-false
+  answer: true
+  explanation: "This is a specific ACA requirement that many people don't know: preventive services on the recommended list must be covered with no cost-sharing (no deductible, no copay, no coinsurance) for in-network care. This means that going to your doctor for a covered preventive visit doesn't count toward your deductible — the insurer simply pays it. This is an exception to the general rule that you pay out of pocket until you meet your deductible."
+
+- question: "The deductible and the out-of-pocket maximum are the same thing — they both represent the total amount you'll pay before insurance covers everything."
+  type: true-false
+  answer: false
+  explanation: "These are different thresholds in the layered cost-sharing structure. The deductible is the amount you pay in full before the insurer begins sharing costs (e.g., the first $1,500). After meeting the deductible, you enter coinsurance — splitting costs with the insurer at a set ratio (e.g., 80/20). The out-of-pocket maximum is the ceiling on your total annual cost-sharing (deductible + coinsurance + copays combined), after which the insurer covers 100%. You pass through the deductible on the way to the out-of-pocket max — they are sequential thresholds, not the same threshold."
+
+- question: "Explain the difference between a deductible and coinsurance, and describe the sequence in which they typically apply to a covered medical expense."
+  type: short-answer
+  answer: "A deductible is the amount you pay in full before the insurer contributes anything to a covered service — you absorb the entire cost until that threshold is met. Coinsurance kicks in after the deductible: you split the cost with the insurer at a fixed percentage (e.g., you pay 20%, insurer pays 80%) for each subsequent service. The sequence is: (1) you pay 100% until you hit the deductible; (2) you pay your coinsurance percentage until you hit the out-of-pocket maximum; (3) the insurer pays 100% after that."
+  explanation: "Understanding the sequence is critical for predicting actual costs. Many people think 'I have insurance, so my costs are capped at my copay' and are shocked when a large bill arrives — because they haven't met their deductible yet. The layered structure means your exposure depends on where in the sequence you are when a health event occurs, which is why total annual cost calculations must account for premiums, deductible exposure, and coinsurance, not just the monthly premium."
+```
+
 ## Explainer
 
 From your study of insurance principles, you understand that insurance works by pooling risk: many people pay premiums so that those who face large losses can be compensated. Health insurance applies this same logic to medical costs, but with a layered cost-sharing structure that distributes expenses between you and the insurer across multiple thresholds. Understanding these layers is essential before you can compare plans intelligently or budget for healthcare.

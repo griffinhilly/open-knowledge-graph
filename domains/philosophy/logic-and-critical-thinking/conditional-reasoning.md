@@ -30,6 +30,45 @@ Practice converting sentences to if-then form, then test arguments by identifyin
 ## Common Misconceptions
 If-then always means cause and effect (conditionals can be logical, definitional, or probabilistic). If not A then not B follows from If A then B (the contrapositive is valid but the converse is not). All conditionals can be disproven by a single counterexample (material conditionals are false only when antecedent is true and consequent false).
 
+## Questions
+
+```yaml
+- question: "Consider the argument: 'If the economy grows, unemployment falls. Unemployment has fallen. Therefore, the economy has grown.' Which inference pattern does this use, and is it valid?"
+  type: multiple-choice
+  options:
+    - "Modus ponens — valid, because we confirmed the antecedent"
+    - "Affirming the consequent — invalid, because other causes could have reduced unemployment"
+    - "Modus tollens — valid, because we denied the consequent"
+    - "Denying the antecedent — invalid, because the antecedent was left unexamined"
+  answer: 1
+  explanation: "The argument has the form: if A then B; B; therefore A. This is affirming the consequent, which is invalid. Unemployment could have fallen for many reasons — policy changes, demographic shifts, new industries — without the economy growing. The argument feels compelling because the premises are plausible and the conclusion is desirable, but validity depends on structure, not plausibility."
+
+- question: "'If a student passes the final exam, they pass the course. Alex did not pass the final exam. Therefore, Alex did not pass the course.' What is wrong with this argument?"
+  type: multiple-choice
+  options:
+    - "Nothing — modus tollens applies here correctly"
+    - "It denies the antecedent: failing the exam doesn't rule out passing the course by other means"
+    - "It confuses the antecedent and consequent in the original conditional"
+    - "The argument is valid but unsound because the premise could be false"
+  answer: 1
+  explanation: "The argument has the form: if A then B; not-A; therefore not-B. This is denying the antecedent, which is invalid. The original conditional says passing the exam is sufficient for passing the course, not necessary. Alex might pass via extra credit, a makeup policy, or a grade appeal. Modus tollens would be valid: if A then B; not-B; therefore not-A. Here, not-B (didn't pass the course) would let us conclude not-A (didn't pass the exam)."
+
+- question: "The conditional statement 'If A then B' is false only when A is true and B is false."
+  type: true-false
+  answer: true
+  explanation: "This is the truth table definition of material implication. When A is false, the conditional is vacuously true regardless of B — there is no counterexample to the claim 'whenever A, B.' When A is true and B is true, the conditional holds. Only when A is true and B is false do we have a genuine violation: A occurred but B didn't follow. This explains why 'if pigs fly, I'll eat my hat' is technically true — the false antecedent prevents any falsification."
+
+- question: "'If A then B' logically implies 'If not-A then not-B.'"
+  type: true-false
+  answer: false
+  explanation: "This is the fallacy of denying the antecedent. 'If not-A then not-B' (the inverse) is not logically equivalent to 'if A then B.' The valid contrapositive is 'if not-B then not-A.' Consider: 'If it is raining, the ground is wet' does not imply 'if it is not raining, the ground is not wet' — a sprinkler could wet the ground. The inverse and the original are independent claims with separate truth values."
+
+- question: "Why is 'affirming the consequent' an invalid inference pattern? Give an example that shows why it fails even when the premises seem strongly related."
+  type: short-answer
+  answer: "Affirming the consequent (if A then B; B; therefore A) fails because the consequent B can be true for reasons other than A. The conditional only guarantees B follows from A, not that A is the unique cause of B. Example: 'If it rained, the grass is wet. The grass is wet. Therefore it rained.' Invalid — the sprinkler could explain the wet grass. Even in science, observing a predicted effect (B) does not confirm the hypothesis (A), because rival hypotheses may predict the same effect."
+  explanation: "The key is distinguishing sufficient from necessary conditions. 'If A then B' says A is sufficient for B, not that A is necessary. Affirming the consequent treats A as if it were the only sufficient cause of B. This error underlies many fallacies in everyday reasoning, from medical diagnosis ('that symptom means you have X') to political argument ('only bad people oppose Y'). Valid reasoning from B back to A requires the stronger claim 'B if and only if A.'"
+```
+
 ## Explainer
 
 You already know from your work on inference patterns that validity is about structure: a valid argument is one where the conclusion must be true if the premises are true, regardless of what the premises are actually about. Conditional reasoning is where that structural thinking becomes most precise, because conditionals ("if A then B") are the building blocks of virtually every serious argument in law, science, mathematics, and everyday decision-making.

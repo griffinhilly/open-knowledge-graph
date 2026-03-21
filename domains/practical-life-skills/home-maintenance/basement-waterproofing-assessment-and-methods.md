@@ -30,6 +30,45 @@ Inspect a basement with visible water damage; identify moisture sources and matc
 - 'Dehumidifiers solve water problems' (they manage symptoms, not root causes).
 - 'Waterproofing paint waterproofs concrete' (paint fills surface pores but doesn't stop structural water movement).
 
+## Questions
+
+```yaml
+- question: "A homeowner discovers wet basement walls after heavy rain and immediately applies waterproofing paint to the interior. Why is this unlikely to solve the problem?"
+  type: multiple-choice
+  options:
+    - "Waterproofing paint only works on exterior wall surfaces, never interior surfaces"
+    - "If the source is groundwater pushing through the wall under hydrostatic pressure, no surface coating can stop it — the pressure forces water through regardless"
+    - "Paint is effective for condensation but is chemically incompatible with liquid water"
+    - "Waterproofing paint must be applied during dry conditions to cure properly"
+  answer: 1
+  explanation: "Waterproofing paint fills surface pores but cannot withstand the hydrostatic pressure of saturated soil pressing against a foundation wall. The water finds microscopic paths through the concrete or block and pushes through regardless of a surface coating. The correct solution for hydrostatic seepage is exterior waterproofing (membrane + drainage board) or an interior drainage system, not surface paint. Paint might temporarily reduce mild staining from condensation but is ineffective against any pressure-driven water movement."
+
+- question: "You tape a sheet of plastic to a basement wall and return 24 hours later to find moisture collected on the room side of the plastic — between the plastic and the room air. What does this most likely indicate?"
+  type: multiple-choice
+  options:
+    - "Groundwater is actively seeping through the foundation wall under hydrostatic pressure"
+    - "Surface water is entering through a crack in the foundation"
+    - "The moisture source is condensation — humid air in the room is condensing on the cool wall surface behind the plastic"
+    - "The footing drain is blocked and water is backing up inside the wall cavity"
+  answer: 2
+  explanation: "The diagnostic logic: if moisture collects on the room side (between plastic and air), it came from the air — condensation forming on the cool surface of the plastic. If moisture collected on the wall side (between plastic and wall), it was coming through the wall itself. This simple test distinguishes condensation from active water infiltration. Condensation is treated with air management (dehumidifier, ventilation, insulation) — not waterproofing. Getting this diagnosis right is the whole point of the assessment process."
+
+- question: "An interior drainage system with a sump pump permanently eliminates the source of water in a basement suffering from lateral groundwater seepage through foundation walls."
+  type: true-false
+  answer: false
+  explanation: "An interior drainage system does not stop water from entering — it gives the water a controlled path once it's inside. Perimeter drains collect seeping water and route it to the sump pump, which expels it away from the house. This is moisture management, not moisture elimination. The water still enters through the walls; it just no longer pools on the floor. True elimination of lateral seepage requires addressing the water on the outside (exterior waterproofing, drainage board) or accepting managed infiltration via interior systems."
+
+- question: "The plastic-tape diagnostic can reliably distinguish condensation from active water infiltration through a basement wall."
+  type: true-false
+  answer: true
+  explanation: "Yes — the diagnostic works by determining which side of the plastic the moisture accumulates on. Room-side moisture = condensation from interior air. Wall-side moisture = water moving through the wall from outside. This distinction matters enormously because the two problems require opposite treatments: condensation calls for reducing humidity or raising wall surface temperature; infiltration calls for exterior or interior waterproofing. The diagnostic is low-cost, requires no equipment, and directly answers the diagnostic question."
+
+- question: "A homeowner's basement consistently gets wet near the foundation wall after heavy rain but stays completely dry during dry weather. The downspouts discharge just 6 inches from the foundation. What is the most likely moisture source and the most cost-effective first intervention?"
+  type: short-answer
+  answer: "The pattern (wet only after rain, concentrated near walls) strongly suggests surface water infiltration — rainwater pooling near the foundation and finding a path inside. The downspouts discharging 6 inches away are likely the primary culprit, funneling large volumes of roof runoff directly against the foundation. The most cost-effective first step is extending the downspouts 4–6 feet from the foundation and verifying that the grade slopes away from the house by at least 6 inches in the first 10 feet. This simple, inexpensive fix often eliminates what appears to be a serious water problem."
+  explanation: "The diagnostic logic here is: rain-correlated = water entering from outside; location near walls = foundation perimeter is the entry point; nearby downspouts = the most likely volume source. Expensive interior or exterior waterproofing systems should not be the first response — the principle is to match the solution to the source, and the cheapest source to fix (surface drainage) should be addressed before assuming structural water management is needed."
+```
+
 ## Explainer
 
 From your study of foundation assessment and moisture management, you know that water in a basement is a symptom, not just an event. The critical insight that determines treatment is: **where is the water coming from?** There are three distinct sources, and they look similar but require completely different solutions.

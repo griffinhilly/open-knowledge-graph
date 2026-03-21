@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 The cross product a × b produces a vector perpendicular to both a and b, with magnitude |a × b| = |a||b|sin(θ) equal to the area of the parallelogram they span. Right-hand rule determines direction: curl fingers from a toward b, thumb points in direction of a × b.
 
+## Questions
+
+```yaml
+- question: "You want to find the area of a triangle with vertices at the origin O, A = (1, 0, 0), and B = (0, 1, 0). Which expression gives the correct area?"
+  type: multiple-choice
+  options:
+    - "|A · B| = 0, so the area is 0"
+    - "|A × B| / 2 = |(0, 0, 1)| / 2 = 1/2"
+    - "|A| · |B| = 1, so the area is 1"
+    - "|A · B| / 2 = 0, so the area is 0"
+  answer: 1
+  explanation: "The area of the parallelogram spanned by two vectors equals |a × b|, and the triangle is half that parallelogram. A × B = (0·0 − 0·1, 0·0 − 1·0, 1·1 − 0·0) = (0, 0, 1), with magnitude 1, giving triangle area 1/2. Options A and D use the dot product, which measures projection (cosine), not area. Option C uses only the magnitudes, ignoring the angle — it would give the area only if the vectors were perpendicular."
+
+- question: "If a × b = v, what is b × a?"
+  type: multiple-choice
+  options:
+    - "v (same direction and magnitude as a × b)"
+    - "−v (opposite direction, same magnitude)"
+    - "0 (reversing order cancels the cross product)"
+    - "It depends on the angle between a and b"
+  answer: 1
+  explanation: "The cross product is anti-commutative: b × a = −(a × b) = −v. Swapping the order reverses the orientation of the parallelogram — the right-hand rule now points in the opposite direction. This is a geometric fact about orientation, not a computational quirk. Option A would be true for the dot product, where order doesn't matter because it yields a scalar."
+
+- question: "The cross product of two parallel vectors is a nonzero vector pointing perpendicular to both."
+  type: true-false
+  answer: false
+  explanation: "When two vectors are parallel, θ = 0 or π, so sin(θ) = 0, and |a × b| = |a||b|sin(θ) = 0. The cross product is the zero vector. Geometrically, parallel vectors span a degenerate parallelogram (a line segment) with zero area, and there is no unique perpendicular direction to a plane that isn't defined — because no plane is uniquely defined by two parallel vectors."
+
+- question: "The magnitude of the cross product a × b equals the area of the parallelogram spanned by a and b, which is why it appears in surface area calculations."
+  type: true-false
+  answer: true
+  explanation: "|a × b| = |a||b|sin(θ) exactly equals base × height of the parallelogram. This is the key to surface area integrals: when a surface is parametrized by r(u, v), the local area element is dS = |rᵤ × rᵥ| du dv, because rᵤ × rᵥ packages both the outward normal direction and the local area scaling factor into a single vector."
+
+- question: "Why is the cross product anti-commutative (a × b = −(b × a)), and what geometric fact does this algebraic property reflect?"
+  type: short-answer
+  answer: "Swapping the order of vectors reverses the orientation of the parallelogram they define. The right-hand rule determines direction: curl fingers from a toward b for a × b; curl fingers from b toward a for b × a, which points the opposite way. This orientation-dependence reflects the fact that a directed surface changes its 'outward' direction when you reverse the order of its spanning vectors — the same way reversing the traversal direction of a curve switches its orientation."
+  explanation: "Anti-commutativity is not an artifact of the determinant formula — it is a geometric statement about orientation in 3D space. The sign records which of the two perpendicular directions is 'selected,' and that selection depends on the order of the inputs."
+```
+
 ## Explainer
 
 From your work with 3D coordinates and the computational cross product, you know that a × b = (a₂b₃ − a₃b₂, a₃b₁ − a₁b₃, a₁b₂ − a₂b₁). The geometric content behind that formula is richer than the arithmetic suggests. The result is not a scalar (like the dot product) but a **vector** — one that lives in 3D space and has both a magnitude and a direction. Understanding both is essential for everything that comes next: surface parametrization, flux integrals, and Stokes' theorem all depend on cross products as a machine for generating normal vectors and measuring area.

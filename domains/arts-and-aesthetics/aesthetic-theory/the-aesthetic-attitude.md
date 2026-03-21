@@ -27,6 +27,45 @@ Contrast aesthetic attention to an artwork with instrumental attention (e.g., ex
 ## Common Misconceptions
 - The aesthetic attitude is entirely independent of context or knowledge; in reality, education, cultural background, and familiarity shape which objects attract aesthetic regard. - Non-art objects cannot be viewed aesthetically; natural objects and everyday items can occasion aesthetic experience when approached with the right attitude.
 
+## Questions
+
+```yaml
+- question: "A food critic tastes a dish and evaluates whether its flavor profile would appeal to most diners. A chef tastes the same dish and becomes absorbed in the interplay of acidity, sweetness, and texture for its own sake. Which person best illustrates the aesthetic attitude, and what is the decisive difference?"
+  type: multiple-choice
+  options:
+    - "The food critic, because professional evaluation requires more precise and educated attention to the object"
+    - "The chef, because the aesthetic attitude requires personal history with the object"
+    - "The chef, because the chef attends to the experience for its own sake rather than as an instrument for a practical judgment"
+    - "Neither, because the aesthetic attitude only applies to traditional fine arts like painting and music"
+  answer: 2
+  explanation: "The food critic's attention is instrumental — directed toward a practical judgment about market appeal. The chef's attention, as described, is disinterested in the philosophical sense: absorbed in the experiential qualities for their own sake, not as a means to some further end. This is the aesthetic attitude. It is defined by the perceiver's mode of engagement, not by the type of object — food qualifies just as well as a painting if the right mental posture is adopted. Option D is precisely what the aesthetic attitude theory challenges: any object can occasion aesthetic experience."
+
+- question: "What does Edward Bullough mean by 'psychological distance' as a condition of the aesthetic attitude?"
+  type: multiple-choice
+  options:
+    - "Physical separation from the artwork, such as sitting far from the stage in a theatre"
+    - "The absence of emotional response to the object, ensuring neutral and objective evaluation"
+    - "Suspension of practical concerns sufficient to attend to an experience's qualities without being consumed by its consequences"
+    - "The requirement that the perceiver has no personal connection or history with the object"
+  answer: 2
+  explanation: "Bullough's psychological distance is about suspending practical concern — not eliminating emotion. The sailor who notices the fog's mysterious transformation of shapes has achieved psychological distance even in a dangerous situation: she momentarily sets aside anxiety about consequences to attend to the perceptual qualities themselves. Option B reverses this: aesthetic experience can be intensely emotional. Option A confuses psychological with physical distance. The key is that the emotions and perceptions are attended to for their own sake rather than as signals calling for a practical response."
+
+- question: "The aesthetic attitude can be adopted toward natural objects, everyday items, and mathematical proofs — not only toward artworks in galleries."
+  type: true-false
+  answer: true
+  explanation: "Because the aesthetic attitude is defined as a mode of attention rather than a property of objects, any object can be the target of aesthetic engagement when approached with the right mental posture. A bridge, a proof, the cracks in dried mud, or the rhythm of a conversation can all occasion aesthetic experience. What makes an encounter aesthetic is not a feature of the object but a quality of the perceiver's engagement — attending to experiential qualities for their own sake. This is why aesthetic theory extends well beyond philosophy of art."
+
+- question: "Disinterestedness, as used in aesthetic theory, means the perceiver is emotionally detached from or indifferent to the object they are contemplating."
+  type: true-false
+  answer: false
+  explanation: "Disinterestedness means suspension of *practical* concern — not absence of emotion. When viewing a sunset aesthetically, you set aside whether the red sky means good weather tomorrow, but you may feel awe, melancholy, or wonder intensely. The aesthetic attitude values the emotional and perceptual experience for its own sake; the emotions are part of what makes the encounter worthwhile. The technical philosophical meaning of 'disinterested' is 'without a stake in some practical outcome,' not 'emotionally unengaged.' Indifference or detachment would actually undermine genuine aesthetic experience."
+
+- question: "Why is the aesthetic attitude described as a 'mode of attention' rather than a property of certain special objects? What does this imply about where aesthetic value resides?"
+  type: short-answer
+  answer: "The aesthetic attitude is a mode of attention because what makes an encounter aesthetic is how the perceiver engages — attending to experiential qualities for their own sake, suspending practical concerns — rather than any intrinsic property of the object. Two people can encounter the same building: one assesses structural safety (instrumental attention), the other attends to proportions, light, and rhythm (aesthetic attention). The object hasn't changed; only the stance has. This implies that aesthetic value arises in the encounter between a perceiver with the right attentional posture and an object, not in the object alone."
+  explanation: "This insight does significant philosophical work. It explains why the same object can support both aesthetic and non-aesthetic engagement, why education and attention shape aesthetic experience, and why 'what makes something art?' is partly a question about reception and not only about production. It also opens the door to later debates about whether aesthetic judgments can claim any objectivity: if aesthetic value depends on attitude, are aesthetic responses purely subjective, or can they still claim a kind of universality?"
+```
+
 ## Explainer
 
 Imagine you are a real estate appraiser walking through a house. You note the square footage, the condition of the roof, the age of the appliances. Now imagine you are an architect walking through the same house. You notice how light falls through the windows, how the staircase creates a sense of rhythm, how the proportions of the rooms feel generous or cramped. The house has not changed — but your **mode of attention** has. The aesthetic attitude is this second mode: a way of engaging with the world that attends to how things appear, feel, and resonate rather than what they are useful for.

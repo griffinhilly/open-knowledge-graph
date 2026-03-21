@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Transfer of learning occurs when knowledge or skills from one domain facilitate (positive transfer) or interfere with (negative transfer) performance in another domain. Analogical reasoning underlies transfer by identifying structural correspondences between domains, allowing solutions from one domain to solve problems in another. Transfer is typically limited and requires explicit encoding of abstract principles.
 
+## Questions
+
+```yaml
+- question: "A student masters probability by solving dozens of casino gambling problems and aces every exam. When presented with probability problems in medical diagnosis, they perform poorly. What best explains this failure?"
+  type: multiple-choice
+  options:
+    - "The student did not practice enough problems overall"
+    - "Probability principles do not actually generalize from gambling to medicine"
+    - "The student's knowledge was encoded with gambling's surface features, and without abstracting the underlying principle they cannot map it to the new context"
+    - "Medical diagnosis problems require higher intelligence than gambling problems"
+  answer: 2
+  explanation: "This is a classic failure of far transfer caused by encoding specificity. The student's knowledge of probability was tagged to casino-specific surface features (cards, dice, payout tables) during learning, so it does not activate when those features are absent. Without explicitly encoding the abstract principle — 'update probabilities based on prior and new evidence' — the knowledge remains context-bound. Options A and D misattribute the failure to quantity or ability rather than encoding structure."
+
+- question: "A teacher wants students to be able to apply critical-thinking skills learned in history class to science class. Which instructional approach is most likely to produce this far transfer?"
+  type: multiple-choice
+  options:
+    - "Assigning more history readings so students deeply master one domain first"
+    - "Having students explicitly articulate the abstract principle (e.g., 'evaluate the reliability of sources') and then apply it across multiple varied domains"
+    - "Ensuring history and science assignments cover similar subject matter so surface features match"
+    - "Testing critical thinking only in history until mastery is demonstrated, then introducing science"
+  answer: 1
+  explanation: "Far transfer requires abstract principle encoding plus varied practice — exactly option B. Explicit articulation strips surface features and creates a domain-neutral representation; varied practice builds a broad network of contexts associated with the principle. Options A, C, and D all rely on surface similarity or single-domain mastery, which supports near transfer but not far transfer. Option C is particularly counterproductive: making surface features similar reduces the need to abstract, teaching nothing about transfer."
+
+- question: "Experts who have practiced a skill extensively never experience negative transfer — their deep knowledge prevents old habits from interfering with new learning."
+  type: true-false
+  answer: false
+  explanation: "This is backwards. Experts can experience more negative transfer than novices precisely because prior knowledge is so deeply encoded. Experienced QWERTY typists find Dvorak harder to learn than someone who never typed. Expert physics students have more trouble accepting quantum mechanics because classical intuitions are strongly encoded. Negative transfer reveals that prior knowledge actively shapes — and can distort — new learning, not that deep encoding provides immunity."
+
+- question: "Far transfer rarely occurs spontaneously because knowledge is encoded together with the surface features and situational context of its original acquisition."
+  type: true-false
+  answer: true
+  explanation: "This is the core claim about encoding specificity. When we learn something, it gets tagged with the situation, materials, and surface features present at the time. Retrieval is context-sensitive, so changing those features reduces the probability that stored knowledge activates. Far transfer requires the learner to deliberately strip surface features, identify deep structure, and re-implement it in the new context — a cognitively demanding step that rarely happens without explicit prompting or instruction."
+
+- question: "Why is far transfer so much harder to achieve than near transfer, and what two instructional strategies most improve the chances of it occurring?"
+  type: short-answer
+  answer: "Far transfer is harder because source and target domains share few surface features, so stored knowledge does not automatically activate in the new context due to encoding specificity. The two key strategies are (1) abstract principle encoding — having learners explicitly formulate the underlying principle in domain-neutral language, creating a representation not bound to specific surface features — and (2) varied practice — encountering the same principle across many different surface contexts during learning, building a richer retrieval network."
+  explanation: "Near transfer works almost automatically because surface similarity triggers existing knowledge. Far transfer demands effortful abstraction. The two strategies work through different routes: abstract encoding creates a more general code at storage time; varied practice creates more retrieval paths to that code. Both are needed because a learner who articulates a principle but only ever saw it in one context is still vulnerable to encoding specificity."
+```
+
 ## Explainer
 
 From analogical reasoning, you know that productive analogy involves mapping *structural correspondences* between two situations — recognizing that the relationship between A and B mirrors the relationship between C and D, even when A and C look nothing alike. **Knowledge transfer** is what happens when this analogical mapping is applied across learning contexts: knowledge or skill acquired in one domain influences performance in another. The key insight is that transfer is not automatic — it depends on how knowledge was encoded and what features of the original learning situation are preserved in the new one.

@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 CPUs support two execution modes: privileged (kernel) mode for OS code and unprivileged (user) mode for applications. Transitions between modes are tightly controlled through special instructions (SYSCALL, SYSRET) and hardware exceptions to prevent unauthorized access to protected resources.
 
+## Questions
+
+```yaml
+- question: "A user program needs to read data from disk. Why can't it simply call the kernel's disk-reading function directly, the same way it calls its own subroutines?"
+  type: multiple-choice
+  options:
+    - "Because kernel functions are too slow to call directly and need to be batched"
+    - "Because kernel functions are written in a different programming language"
+    - "Because allowing direct calls would let user code jump to arbitrary kernel addresses, bypassing security boundaries"
+    - "Because the disk hardware only accepts requests from the CPU's interrupt controller"
+  answer: 2
+  explanation: "The core security requirement is that user code must not be able to jump to arbitrary kernel memory. If direct calls were allowed, a malicious program could skip kernel argument validation and gain unauthorized access to any resource. The system call mechanism fixes the entry point in the kernel — user code can only enter kernel mode at the designated system call handler. The syscall number selects which service is requested, but execution always begins at a validated, kernel-controlled entry point."
+
+- question: "Approximately how does the cost of a system call compare to a regular function call?"
+  type: multiple-choice
+  options:
+    - "About the same — both are a few nanoseconds"
+    - "2–5x more expensive due to argument marshaling overhead"
+    - "Hundreds to thousands of times more expensive due to mode switching, register saving, and stack changes"
+    - "System calls are faster because the kernel has direct memory access"
+  answer: 2
+  explanation: "A regular function call costs a few nanoseconds — save a frame, jump, return. A system call costs hundreds of nanoseconds to microseconds because it requires: saving all registers, switching privilege bits in the processor status register, switching stacks (to the kernel stack), potentially flushing pipeline state, executing the syscall handler, and reversing all of this on return. This order-of-magnitude cost difference is why high-performance programs minimize system calls by batching operations and why memory-mapped files exist."
+
+- question: "A user program can place a function pointer in a register before executing SYSCALL to specify exactly which kernel function should handle the request."
+  type: true-false
+  answer: false
+  explanation: "This is precisely what the mode transition mechanism prevents. The kernel fixes the system call entry point at boot time; user code cannot influence where in kernel memory execution begins. The user program places a syscall number (not a function pointer) in a register — this number indexes a kernel-maintained dispatch table. The kernel uses this number to look up the handler. Allowing user-specified function pointers would let any program jump to arbitrary kernel code and compromise the security model entirely."
+
+- question: "Hardware interrupts (such as a timer interrupt or network packet arrival) can cause a transition from user mode to kernel mode without the user program executing any special instruction."
+  type: true-false
+  answer: true
+  explanation: "Mode transitions have two categories: voluntary (the program executes SYSCALL to request OS service) and involuntary (hardware signals the CPU that an event requires kernel attention). When a hardware interrupt fires, the CPU immediately suspends the running user program, saves its state, and jumps to the kernel's interrupt handler at a fixed address in the interrupt vector table. The user program had no say in the transition. Exceptions (page faults, division by zero) work similarly."
+
+- question: "Why must the kernel use its own stack during a system call rather than continuing to use the user program's stack?"
+  type: short-answer
+  answer: "The kernel cannot trust the user program's stack pointer. A malicious or buggy program might set the stack pointer to an arbitrary address — including kernel memory — before issuing a syscall. If the kernel pushed return addresses and sensitive data onto that stack, an attacker could read or corrupt kernel data. The kernel maintains a per-process kernel stack in protected memory, switches to it at the start of every mode transition, and never dereferences user-provided pointers without validation."
+  explanation: "This connects to the broader principle that all data from user space is untrusted. Arguments passed in registers are validated before use; stack pointers are replaced; memory addresses are bounds-checked. The hardware-enforced stack switch ensures that even if a user program has fully corrupted its own stack, the kernel begins each system call on a known-good stack in protected memory."
+```
+
 ## Explainer
 
 You already understand from studying privilege levels that the CPU operates in at least two modes: **kernel mode**, where every instruction and every memory address is accessible, and **user mode**, where the hardware restricts what code can do. The critical question is: how does a program running in user mode request something that only the kernel can do — like reading a file, sending a network packet, or allocating memory? The answer is the **mode transition**, and it is one of the most carefully engineered boundaries in all of computing.

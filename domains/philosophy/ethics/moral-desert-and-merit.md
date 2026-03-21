@@ -23,6 +23,45 @@ Moral desert is what someone deserves morally based on their conduct or characte
 ## How It's Best Learned
 Reflect on a case of wrongdoing: what does the person deserve, and why? Consider whether luck (bad upbringing, brain injury) should reduce desert.
 
+## Questions
+
+```yaml
+- question: "A person commits a serious crime but was raised in extreme deprivation, suffered severe childhood trauma, and has a brain abnormality affecting impulse control — none of which they chose. A retributivist says they deserve punishment proportional to the wrong. What challenge does the control problem pose to this claim?"
+  type: multiple-choice
+  options:
+    - "No challenge — the crime was still wrong regardless of the person's history, so punishment is warranted"
+    - "The control problem shows that punishment is always wrong, so no punishment is ever deserved by anyone"
+    - "If the factors shaping the person's character were outside their control, it is hard to say they deserved to be the person who acted that way — which undermines the claim that they deserve punishment for the act"
+    - "The control problem only applies to cases of mental illness, not to poverty or upbringing"
+  answer: 2
+  explanation: "The control problem targets the foundation of desert: if you could not control the factors that made you the kind of person who commits such acts, in what sense did you deserve to become that person? And if you didn't deserve to become that person, it becomes harder to say you deserve punishment for being who you are. This is not a refutation of desert, but a serious challenge that requires desert theorists to specify what 'control' is required and how much unchosen circumstance can diminish it."
+
+- question: "What makes desert 'backward-looking,' and how does this distinguish desert-based punishment from consequentialist justifications?"
+  type: multiple-choice
+  options:
+    - "Desert is backward-looking because it considers the offender's childhood and past circumstances; consequentialism ignores history"
+    - "Desert justifies punishment based on what the person actually did — the past wrong — independently of any future benefit; consequentialism justifies punishment by its effects on future behavior, deterrence, or rehabilitation"
+    - "Desert looks backward to determine proportionality of punishment; consequentialism looks backward to determine eligibility"
+    - "Desert is backward-looking because it focuses on the victim's harm; consequentialism focuses on the offender's future"
+  answer: 1
+  explanation: "Desert is backward-looking in the specific sense that the justification for punishment is the prior wrongdoing itself — not what punishment will accomplish going forward. On a pure desert view, if we knew for certain that punishing someone would deter no one, rehabilitate no one, and incapacitate no one, it would still be justified if the person deserves it. Consequentialist views require punishment to produce net benefit; desert views require only that it be proportionate to the wrong."
+
+- question: "According to retributive justice, punishment is justified by what the offender deserves, not by its effects on deterrence or rehabilitation."
+  type: true-false
+  answer: true
+  explanation: "This is the defining feature of retributivism: punishment is intrinsically justified when deserved, entirely independently of its consequences. The backward-looking nature of desert grounds this — the past wrongdoing creates the desert claim, and the state's response is appropriate because it is proportionate to that wrong. This is what distinguishes retributivism from deterrence theories, rehabilitation theories, and incapacitation theories, all of which justify punishment forward-looking, by what it produces."
+
+- question: "The control problem (the 'basic argument') demonstrates conclusively that no one can be morally responsible for anything, and therefore desert-based punishment is always unjustified."
+  type: true-false
+  answer: false
+  explanation: "The basic argument is a serious philosophical challenge, not a decisive refutation. Many philosophers reject one or more of its premises: compatibilists argue that the relevant kind of control does not require the ultimate self-authorship the argument demands; others argue the regress has a legitimate stopping point. Even those who accept the argument's force often distinguish between theoretical skepticism about ultimate desert and practical justifications for retributive institutions. The control problem complicates desert, but the debate is genuinely contested, not closed."
+
+- question: "Explain the 'basic argument' against ultimate moral desert. What is the regress, and why does it challenge retributive thinking?"
+  type: short-answer
+  answer: "The basic argument (Galen Strawson) runs as follows: to be ultimately responsible for an action, you must be responsible for the character that produced it. To be responsible for your character, you must be responsible for the factors that shaped it. But those factors — upbringing, neurobiology, formative experiences — were outside your control. And the factors that shaped those factors were outside your control too. The regress never reaches a point where you chose to be the agent you are. Therefore, no one is ultimately responsible for anything. Applied to desert: if you did not deserve to be the kind of person who commits wrongs, it is unclear how you can deserve blame or punishment for being that person."
+  explanation: "The argument challenges not whether wrongs are wrongs, but whether the backward-looking desert claim — that this person in particular deserves to suffer this response — can be grounded when the causal history of their character is traced back to unchosen circumstances. Retributivists typically respond either by arguing that a weaker notion of control is sufficient (compatibilism) or by biting the bullet on the regress and accepting that desert is a primitive, non-reductive moral concept."
+```
+
 ## Explainer
 
 From your study of moral responsibility and control, you know that holding someone morally responsible seems to require that they could have done otherwise — that the action was genuinely within their control. **Moral desert** is what it is fitting to bestow on someone in light of their responsible agency: praise and reward for virtue, blame and punishment for wrongdoing. Desert is fundamentally **backward-looking**: it looks at what the person *did*, not at what consequences punishment will produce. This distinguishes desert-based thinking from consequentialist approaches, which justify punishment by its future effects (deterrence, rehabilitation, incapacitation).

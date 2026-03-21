@@ -32,6 +32,45 @@ Read Urmson's classic paper "Saints and Heroes" and Wolf's "Moral Saints." Then 
 - Supererogation is not the same as moral excellence; a virtue ethicist may deny that there are supererogatory acts at all, holding that the virtuous person simply does what virtue requires, which may look heroic to others.
 - The existence of supererogation does not mean morality is optional beyond a minimum threshold; it means the boundary between duty and admirable generosity is a genuine and contested question.
 
+## Questions
+
+```yaml
+- question: "A consistent utilitarian argues that donating to charity until further giving would harm you more than it benefits recipients is simply your moral duty — not heroic generosity. A critic says this 'eliminates the supererogatory.' What does the critic mean?"
+  type: multiple-choice
+  options:
+    - "Utilitarianism sets the bar for duty too low, making charity optional rather than obligatory"
+    - "If the right act is always the one that maximizes good, then acts we ordinarily call extraordinary generosity turn out to be mere compliance with duty — there is no moral category left for going beyond it"
+    - "The utilitarian is mistaken that large charitable donations can ever be morally required"
+    - "Supererogation only applies to deontological frameworks and has no relationship to consequentialist theory"
+  answer: 1
+  explanation: "This is the demandingness objection in action. Once utilitarianism holds that the right act is always the maximizing one, any act that falls short of maximum good is suboptimal — which means wrong. What we call 'extraordinary generosity' becomes simply what duty required all along. The supererogatory category depends on there being a genuine boundary between 'what duty requires' and 'what is admirable beyond that' — a boundary consequentialism cannot maintain."
+
+- question: "What is the 'three-tier structure' that the concept of supererogation adds to standard deontological moral theory?"
+  type: multiple-choice
+  options:
+    - "Obligatory, permissible, and impermissible acts"
+    - "Obligatory, supererogatory, and forbidden — with supererogatory acts praiseworthy but not required, distinguishing them from merely neutral permissible acts"
+    - "Saintly, ordinary, and vicious behavior on a virtue-ethics scale"
+    - "Positive duties, negative duties, and agent-relative permissions"
+  answer: 1
+  explanation: "Standard deontology divides acts into obligatory (required), forbidden (prohibited), and permissible (neither). Supererogation carves a distinguished subset out of the permissible: acts that are not merely neutral but positively praiseworthy, going beyond what duty demands. This three-tier structure — obligatory, supererogatory, and forbidden — is what gives moral theory room to recognize heroism and saintly generosity as a distinct category above ordinary permissible behavior."
+
+- question: "Supererogation poses a more direct challenge to consequentialist ethics than to deontological ethics because deontology naturally allows for acts that exceed what duty requires."
+  type: true-false
+  answer: true
+  explanation: "Kantian deontology identifies specific duties with definite limits — you are required to tell the truth, to avoid treating persons merely as means, and so on. These requirements leave a large space of permissible action within which some acts may be admirable without being obligatory. Consequentialism has no such boundary: there is always a better act possible, so 'beyond duty' collapses into 'suboptimally dutiful.'"
+
+- question: "Susan Wolf's 'Moral Saints' argues that achieving moral perfection would make a person the most admirable and complete human being possible."
+  type: true-false
+  answer: false
+  explanation: "Wolf's argument is the opposite: a moral saint — someone who dedicates every act to doing the most good — would be impoverished in the very dimensions (aesthetic taste, intellectual humor, personal obsessions) that make a human life rich and interesting. Wolf concludes that morality, properly understood, must leave room for the agent to be more than a moral engine. Full moral perfection, she argues, would be a kind of diminishment."
+
+- question: "Explain the demandingness objection to utilitarianism in your own words. What does the concept of supererogation reveal about what a moral theory can reasonably demand of individuals?"
+  type: short-answer
+  answer: "The demandingness objection holds that utilitarianism demands too much by requiring agents to always maximize the good, leaving no room for personal projects, relationships, or reasonable self-interest. Supererogation reveals that commonsense morality distinguishes between what is required and what is admirable beyond that — a distinction utilitarianism cannot sustain without modification."
+  explanation: "The objection is not merely that utilitarianism is demanding — demanding theories can be correct. It is that a theory with no space between 'required' and 'wrong' cannot accommodate the firm moral intuition that heroic self-sacrifice is admirable precisely because it is not required. If it were required, it would lose its distinctively heroic character. Supererogation names this intuition and challenges any theory that cannot account for it."
+```
+
 ## Explainer
 
 From your study of deontological ethics, you know that duties carve moral space into the obligatory and the forbidden—what you must do and what you must not do. But this leaves a vast region of the **permissible**: actions that are neither required nor prohibited. Supererogation identifies a special subset of this permissible space. A **supererogatory act** is one that goes beyond duty in a morally praiseworthy direction—it is not required, but doing it reflects exceptionally well on the agent. J.O. Urmson's example is the soldier who throws himself on a grenade to save his comrades: morality does not demand this, but we rightly call it heroic. The concept creates a three-tier structure—forbidden, obligatory, and supererogatory—and the existence of that third tier is philosophically significant.

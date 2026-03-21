@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Linear elastic fracture mechanics (LEFM) provides a quantitative framework for predicting fracture in materials containing pre-existing flaws or cracks, relating stress near a crack tip to the stress intensity factor K. Fracture toughness K_IC is a material property indicating resistance to crack growth, with fracture occurring when applied K exceeds K_IC. This theory enables safe design of structures by accounting for the inevitable presence of flaws and predicting their critical size.
 
+## Questions
+
+```yaml
+- question: "Material A has yield strength 600 MPa and K_IC = 30 MPa√m. Material B has yield strength 300 MPa and K_IC = 60 MPa√m. Both are loaded at the same service stress. Which can tolerate a larger critical crack before fracture?"
+  type: multiple-choice
+  options:
+    - "Material A, because its higher strength means it resists crack propagation better"
+    - "Material B, because its higher K_IC means it can sustain a larger crack-tip stress field before fracturing"
+    - "Both materials can tolerate the same crack size, because strength and toughness are equivalent properties"
+    - "It depends on the crack geometry factor F, which cannot be determined without more information"
+  answer: 1
+  explanation: "Critical crack size is a_c = (K_IC / σ√π)². Since both materials are at the same stress σ, a_c scales with K_IC². Material B has K_IC = 60 vs A's 30, so B can tolerate a crack (60/30)² = 4 times as large before fracture. This is the central insight LEFM provides: high yield strength and high fracture toughness are not the same property — high-strength alloys are often brittle (low K_IC) and fail catastrophically at small crack sizes. Option A is the key misconception LEFM corrects."
+
+- question: "Two specimens with very different geometries and crack sizes both have a calculated stress intensity factor K = 40 MPa√m. What can you conclude about their crack-tip stress fields?"
+  type: multiple-choice
+  options:
+    - "Nothing — stress intensity factors from different geometries cannot be compared directly"
+    - "The specimen with the larger crack has a more severe crack-tip stress field despite having the same K"
+    - "Both specimens have identical crack-tip stress fields, and both will fracture if K_IC < 40 MPa√m"
+    - "The specimen with higher applied stress has a more severe crack-tip condition despite having the same K"
+  answer: 2
+  explanation: "The stress intensity factor K completely characterizes the crack-tip stress field in LEFM — if two cracks have the same K, their crack-tip stress fields are mathematically identical, regardless of geometry, crack length, or remote stress individually. This single-parameter characterization is what makes LEFM powerful: K = σ√(πa)·F encodes everything about crack-tip severity into one number. Both specimens will fracture at the same K_IC. Options B and D misunderstand this: once K is computed, individual σ and a values are irrelevant — only K matters."
+
+- question: "In LEFM, fracture toughness K_IC is a material property — it does not depend on specimen geometry, crack size, or applied stress."
+  type: true-false
+  answer: true
+  explanation: "K_IC (plane strain fracture toughness) is a material property measured experimentally under standardized conditions (plane strain constraint, slow loading rate, specific specimen geometry). It represents the material's intrinsic resistance to crack propagation — the value of K at which unstable crack growth initiates. Once determined for a material at a given temperature and environment, K_IC is a fixed number applicable to real structures of any geometry. This is what makes the fracture condition K ≥ K_IC so useful for design."
+
+- question: "A high-strength steel with twice the yield strength of a mild steel will always have a higher fracture toughness K_IC."
+  type: true-false
+  answer: false
+  explanation: "This is the critical misconception LEFM corrects. Yield strength and fracture toughness are distinct material properties that frequently trade off: microstructural changes that increase strength (fine precipitates, high dislocation density, reduced grain size) often reduce toughness by impeding plastic zone formation at the crack tip. Many high-strength aerospace alloys have substantially lower K_IC than mild steels, making them more susceptible to catastrophic fracture from small cracks. This tradeoff is precisely why fracture mechanics exists as a discipline — strength-based design is insufficient for flaw-containing structures."
+
+- question: "Describe the 'triangle of interdependence' in LEFM — the relationship between applied stress, crack size, and fracture toughness — and give one practical design use for each vertex."
+  type: short-answer
+  answer: "The fracture condition K = σ√(πa)·F = K_IC links three quantities: applied stress σ, crack half-length a, and material fracture toughness K_IC. Knowing any two allows solving for the third. Design use 1 (find critical crack size): given service stress and material K_IC, compute a_c = (K_IC/σ√π)² — the largest flaw that can be tolerated, setting inspection thresholds. Design use 2 (find critical stress): given a detected crack of known size, find the maximum safe stress for fitness-for-service assessment. Design use 3 (select material): given expected crack sizes and service stresses, choose a material with K_IC large enough to prevent fracture."
+  explanation: "This triangle encodes the core logic of damage-tolerant design: cracks will exist in real structures, so instead of trying to prevent them entirely, engineers use LEFM to quantify their acceptability and schedule inspections before any crack reaches critical size."
+```
+
 ## Explainer
 
 From your study of toughness, ductility, and brittleness, you know that materials absorb energy before fracture in different amounts, and that brittle materials fail suddenly while ductile ones deform extensively first. But traditional stress analysis assumes a smooth, defect-free part — a convenient fiction that breaks down badly when cracks are present. A crack is not just a weak spot; it is a **stress concentrator** that multiplies the remote applied stress by a theoretically infinite factor right at the crack tip. **Linear elastic fracture mechanics (LEFM)** replaces the stress concentration framework with something more useful: a single parameter that characterizes the severity of the crack-tip stress field, regardless of crack geometry.

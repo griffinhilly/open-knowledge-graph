@@ -34,6 +34,45 @@ Compare Smetana's Má vlast or Dvořák's New World Symphony with contemporaneou
 - Nationalist composers were not parochial or isolated — most were trained in the German tradition and were in conscious dialogue with it.
 - Dvořák's New World Symphony incorporates African American and Native American influences encountered during his American residency, not exclusively Czech folk material.
 
+## Questions
+
+```yaml
+- question: "Dvořák's New World Symphony is often cited as a nationalist work, yet it incorporates African American and Native American influences encountered during his American residency. What does this reveal about musical nationalism?"
+  type: multiple-choice
+  options:
+    - "It shows that Dvořák was not truly a nationalist composer — his Americanism overrode his Czech identity"
+    - "Nationalism opened composers to other folk traditions; learning to hear non-canonical music made them receptive to diverse folk languages"
+    - "It is an exception to the nationalist movement, which was otherwise focused on exclusive national identity"
+    - "Dvořák was primarily imitating American folk music and the Czech elements are minor"
+  answer: 1
+  explanation: "The New World Symphony illustrates a key insight: musical nationalism was not about insularity. By training composers to value folk music outside the German academic tradition, it made them receptive to diverse folk traditions wherever they were found. Dvořák synthesized Czech, African American, and Native American influences — a cosmopolitan result produced by a nationalist sensibility. Nationalism gave composers a method for listening to non-canonical musical languages."
+
+- question: "Which musical elements did nationalist composers most commonly borrow from folk traditions to diversify Western art music?"
+  type: multiple-choice
+  options:
+    - "Sonata form and through-composed structures, which were uncommon in folk music"
+    - "Modal scales, pentatonic patterns, and irregular meters that didn't fit standard classical grids"
+    - "Chromaticism and altered chords drawn from urban popular music"
+    - "Counterpoint and fugue, which had been neglected in the German tradition"
+  answer: 1
+  explanation: "Folk music often used modal scales (neither standard major nor minor), pentatonic patterns (five-note scales), and irregular meters that didn't align with the 3/4 or 4/4 grids of classical form. Incorporating these elements into symphonies and tone poems didn't just add local color — it genuinely diversified Western art music's harmonic and rhythmic vocabulary, and this material later fed directly into modernist experimentation."
+
+- question: "Nationalist composers in the 19th century rejected their German academic training in favor of purely folk-derived techniques."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about musical nationalism. Dvořák studied in Prague and Vienna; Sibelius trained in Berlin and Vienna; Grieg knew Liszt personally. These composers were thoroughly trained in the German tradition and consciously in dialogue with it — sometimes working within its forms while filling them with national content, sometimes pushing against its conventions. Nationalism was a reaction to German dominance, not a rejection of all formal training."
+
+- question: "Musical nationalism was both an aesthetic movement and a political one, reflecting the emergence of national states in 19th-century Europe."
+  type: true-false
+  answer: true
+  explanation: "The revolutions of 1848, unification movements, and suppression of Slavic and Scandinavian cultures within multinational empires created pressure to articulate national identities through art. When Smetana composed Má vlast or Mussorgsky set Russian folk songs, it was both an artistic choice and a cultural-political assertion — claiming that Czech, Russian, and Norwegian identities were capable of sustaining serious art music. The aesthetic and political motivations were intertwined."
+
+- question: "How did incorporating folk music elements change the harmonic and rhythmic vocabulary of Western art music, beyond simply adding 'local color'?"
+  type: short-answer
+  answer: "Folk music introduced modal scales (not standard major/minor), pentatonic patterns, and irregular meters into concert music. These were structurally different from the conventions of the German classical tradition. Modal inflections diversified the harmonic language beyond major-minor tonality; irregular meters challenged the dominance of regular metric grids. These were new structural resources, not decorative additions. Bartók and Stravinsky later used folk-derived scales and rhythms to break free from late Romantic harmonic convention, showing that nationalism provided modernism much of its raw material."
+  explanation: "The key point is that folk elements weren't cosmetic. They introduced genuinely different structural logics — different scale systems, different rhythmic organizations — that expanded what Western art music could do. This structural diversification is what made the nationalist legacy so consequential for 20th-century composition."
+```
+
 ## Explainer
 
 From your study of the Romantic period, you know that the early Romantics — Schubert, Schumann, Chopin, Liszt — were largely working within a shared European art music tradition centered on German and Austro-Hungarian culture. By mid-century, however, a different impulse emerged: composers from peripheral nations began asking whether music could serve as a vehicle for national identity and cultural assertion. This wasn't purely aesthetic; it was political. The revolutions of 1848, the unification movements in Germany and Italy, the suppression of Slavic and Scandinavian cultures within multinational empires — all created pressure to articulate what it meant to be Czech, Russian, Norwegian, or Finnish through art.

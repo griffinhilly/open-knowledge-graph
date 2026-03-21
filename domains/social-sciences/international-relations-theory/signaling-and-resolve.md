@@ -31,6 +31,45 @@ Study the Cuban Missile Crisis: How did Kennedy's blockade signal resolve? What 
 ## Common Misconceptions
 Signaling is not about sending messages to the enemy directly (they hear about policies anyway)—it is about taking costly actions that would be irrational if bluffing.
 
+## Questions
+
+```yaml
+- question: "A state publicly declares 'we will defend our ally at all costs' but does not mobilize its military. According to signaling theory, a rival state considering challenging this commitment should:"
+  type: multiple-choice
+  options:
+    - "Believe the commitment fully, since public declarations are legally binding"
+    - "Be skeptical, because verbal statements are cheap signals that a bluffing state can make at zero cost"
+    - "Treat the verbal statement as equivalent in credibility to military mobilization"
+    - "Immediately back down to avoid any risk of armed conflict"
+  answer: 1
+  explanation: "Cheap talk — statements without costly action — cannot distinguish genuine commitment from bluff. Any state, whether resolute or not, can issue the same verbal claim at near-zero cost. Because the signal imposes no cost on a bluffing state, it is uninformative about actual resolve. Credible signals require costs that would be irrational to pay if you were bluffing — which a verbal declaration alone does not impose."
+
+- question: "What makes 'audience costs' an effective mechanism for credibly committing to a course of action in a crisis?"
+  type: multiple-choice
+  options:
+    - "Foreign audiences are more likely to believe statements made publicly than those made through back channels"
+    - "Domestic political punishment for backing down from public commitments limits the leader's options, making the original commitment more believable to adversaries"
+    - "Audience costs ensure that leaders always follow through regardless of the strategic calculation"
+    - "Public statements are enforceable under customary international law"
+  answer: 1
+  explanation: "Audience costs create credibility by tying the leader's hands. If a leader publicly draws a red line, backing down carries domestic political costs — loss of reputation, potential removal from office — that the adversary can anticipate. The adversary knows the leader faces a high price for retreat, making the commitment more credible. Crucially, the loss of flexibility is itself the signal: by publicly limiting their own future options, the leader demonstrates genuine commitment."
+
+- question: "A state's reputation for resolve is irrelevant to how adversaries assess its current commitments, since each crisis is evaluated independently on its own merits."
+  type: true-false
+  answer: false
+  explanation: "Reputation matters substantially in signaling theory. A state that repeatedly threatens and backs down loses deterrent capacity — adversaries update their beliefs that the state is a bluffer and discount future commitments. This creates the 'reputation trap': leaders sometimes absorb short-term costs to follow through on commitments even when backing down would be immediately cheaper, because preserving long-term credibility has strategic value."
+
+- question: "Military mobilization is a more credible signal of resolve than a verbal ultimatum because the cost of mobilization makes it irrational for a bluffing state to undertake."
+  type: true-false
+  answer: true
+  explanation: "This is the core logic of costly signaling. Military mobilization is expensive, disruptive, and often hard to reverse. A state that mobilizes its forces for a dispute it secretly intends to abandon has paid a significant price for nothing. Because it is costly, mobilization is informative — it screens out bluffers who would not absorb such costs. Kennedy's naval blockade during the Cuban Missile Crisis worked on this logic: the blockade created momentum and military commitment that a purely verbal ultimatum would not have conveyed."
+
+- question: "Why is 'talk cheap' in international crises, and what kinds of signals overcome this problem?"
+  type: short-answer
+  answer: "Talk is cheap because any state — whether genuinely committed to fighting or not — can issue verbal threats at near-zero cost. A bluffing state and a resolute state can make identical statements, so the statement carries no reliable information about true resolve. Costly signals overcome this problem by imposing costs that would be irrational for a bluffing state to pay: military mobilization (expensive and hard to reverse), audience costs from public domestic commitments (political punishment for backing down), and irreversible deployments that create military momentum. These actions differentiate genuine resolve from bluff because the cost of the action makes bluffing unprofitable."
+  explanation: "The concept of costly signaling, drawn from game theory and applied to international relations by scholars like Fearon and Schelling, shows that credibility is not just about will but about the structure of commitments. A state can make its commitments credible not by being obviously powerful but by finding ways to make backing down costly — and making those costs visible to the adversary."
+```
+
 ## Explainer
 
 The security dilemma you've studied showed why even states without aggressive intentions can end up in arms races: defensive preparations look threatening to others, who respond by arming in turn. In crises, this problem becomes acute. Two states may be on the verge of war, and each genuinely doesn't know whether the other will fight or back down. If you knew your opponent would fight, you might back down; if you knew they would back down, you might press harder. The problem is that neither side has reliable information about the other's **resolve** — their genuine willingness to absorb the costs of conflict rather than concede. Signaling is the set of tools states use to communicate that resolve, and the central problem is that these signals are hard to make credible.

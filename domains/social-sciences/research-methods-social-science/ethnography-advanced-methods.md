@@ -31,6 +31,45 @@ Conduct a pilot ethnography with structured reflection, analyze field notes for 
 - Researcher bias is a problem to eliminate rather than manage
 - Digital ethnography doesn't count as real ethnography
 
+## Questions
+
+```yaml
+- question: "An insider researcher studying a community they belong to gains access and rapport but faces a specific risk that reflexivity is designed to address. What is that risk?"
+  type: multiple-choice
+  options:
+    - "They will be perceived as biased by outside reviewers and struggle to publish"
+    - "They may over-familiarize with practices that seem obvious, failing to defamiliarize and analyze what others would notice as strange or significant"
+    - "Their participants will be less honest because they know the researcher personally"
+    - "They cannot maintain the emotional distance required to take field notes accurately"
+  answer: 1
+  explanation: "The insider risk is over-familiarity — when you belong to a community, practices that would strike an outsider as culturally significant and worth explaining may seem too obvious to document. Reflexivity addresses this by requiring the researcher to continuously examine how their own position shapes what they notice, what questions they ask, and what they assume goes without saying. The goal is not to eliminate this situatedness (impossible) but to make it visible so that both researcher and reader can account for it."
+
+- question: "A sociologist wants to study the global garment industry, following how clothing moves from factory workers in Bangladesh through fashion houses in New York to secondhand markets in Ghana. The most appropriate ethnographic approach is:"
+  type: multiple-choice
+  options:
+    - "Single-sited ethnography focused on the most important location in the chain"
+    - "Multi-sited ethnography that follows people, objects, or conflicts across locations"
+    - "Digital ethnography, since global industries are primarily coordinated online"
+    - "Comparative ethnography using separate research teams at each location"
+  answer: 1
+  explanation: "Multi-sited ethnography, associated with George Marcus, is designed precisely for social worlds that don't exist in a single place. Global commodity chains, diaspora communities, and social movements cannot be adequately studied by planting yourself in one location — the meaning of each site is partly constituted by its relationships to the others. Following the garment from production to consumption across sites reveals connections that single-sited ethnography would miss. The analytic challenge is then writing a coherent account from dispersed fieldwork."
+
+- question: "Researcher bias in ethnography is a methodological flaw that skilled researchers can eliminate through proper training, neutral observation techniques, and strict protocols."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception about ethnographic positionality. Every ethnographer occupies a social location — race, gender, class, insider/outsider status — that shapes what participants share with them, how they are perceived, and what they can observe. This influence cannot be eliminated through training or technique; it is a structural feature of the knowledge production process. Reflexivity is the practice of making this influence visible and accounting for it explicitly, not removing it. An ethnographer who claims neutrality is not more objective — they are simply less transparent about the inevitably positioned nature of their observations."
+
+- question: "Digital spaces such as social media platforms and online forums can constitute legitimate field sites for ethnographic research when those spaces support genuine social life with real norms and consequences."
+  type: true-false
+  answer: true
+  explanation: "Digital ethnography extends participant observation into online environments where real social processes occur — communities form, norms are enforced, identities are built, and people experience genuine social consequences. Critics who dismiss it miss that the fieldwork skills transfer directly: deep immersion, documentation of interaction patterns, attention to norm enforcement, interpretation of meaning from participants' perspectives. What changes is the ethics of observing public-but-intimate digital spaces, not the legitimacy of the method itself. Online spaces are not less real because they are digital."
+
+- question: "What is reflexivity in ethnographic research, and why is it better understood as a practice of managing rather than eliminating researcher bias?"
+  type: short-answer
+  answer: "Reflexivity is the ongoing practice of interrogating how the researcher's own social position — their race, gender, class, insider/outsider status, and prior assumptions — shapes the knowledge they produce in the field. It is a practice of management rather than elimination because the researcher's positionality cannot be removed from the research process: it affects who talks to them, what questions they ask, what they notice, and how they interpret what they see. Reflexivity makes these influences explicit and transparent so that readers can evaluate their effect, rather than pretending they don't exist."
+  explanation: "The distinction between managing and eliminating bias is crucial to advanced ethnographic practice. The positivist ideal of a neutral observer free of bias is not achievable in ethnography — and attempting it produces researchers who are less aware of how they are shaping the field, not more objective. The reflexive researcher is more rigorous precisely because they document and account for their position, turning an inevitable feature of fieldwork into an analytic resource rather than a hidden distortion."
+```
+
 ## Explainer
 
 Your grounding in foundational ethnography gave you the core toolkit: sustained presence in a field site, participant observation, field notes, and interpretation of cultural practices from the inside. Advanced ethnographic methods take all of this and ask a more demanding question: how do you design your presence strategically, manage your position as a researcher, and interpret cultural meanings in settings that are complex, dispersed, or mediated by technology?

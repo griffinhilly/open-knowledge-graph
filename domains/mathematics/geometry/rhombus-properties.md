@@ -26,6 +26,45 @@ Build on parallelogram properties. Prove perpendicularity of diagonals using con
 - Confusing the diagonal properties of rhombuses (perpendicular) with those of rectangles (congruent).
 - Forgetting that a rhombus is always a parallelogram.
 
+## Questions
+
+```yaml
+- question: "A parallelogram has diagonals that bisect each other. A student concludes it must be a rhombus. What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — bisecting diagonals are the defining property of a rhombus"
+    - "Bisecting diagonals are a property of all parallelograms, not just rhombuses; perpendicular diagonals are what make a parallelogram a rhombus"
+    - "The student should check for equal angles instead of diagonals"
+    - "Bisecting diagonals only apply to rectangles, not rhombuses"
+  answer: 1
+  explanation: "All parallelograms have diagonals that bisect each other — that property is inherited from the parallelogram definition and distinguishes nothing. What makes a parallelogram a rhombus is that its diagonals are perpendicular. Equivalently, if all four sides are equal, the diagonals must meet at 90°. Bisecting diagonals alone tell you only that you have a parallelogram."
+
+- question: "A rhombus has diagonals of length 6 cm and 8 cm. What is its area?"
+  type: multiple-choice
+  options:
+    - "48 cm²"
+    - "24 cm²"
+    - "28 cm²"
+    - "14 cm²"
+  answer: 1
+  explanation: "Area of a rhombus = (1/2)d₁d₂ = (1/2)(6)(8) = 24 cm². This formula works because the two perpendicular diagonals divide the rhombus into four right triangles, each with legs d₁/2 and d₂/2. Their combined area is 4 × (1/2)(3)(4) = 24 cm². The distractor 48 cm² comes from forgetting the factor of 1/2."
+
+- question: "A rhombus can never have right angles."
+  type: true-false
+  answer: false
+  explanation: "False. A square is a special case of a rhombus — it has all four sides equal AND all four angles equal to 90°. The rhombus family includes both the 'diamond' shapes with acute and obtuse angles AND the square with right angles. Thinking a rhombus must have non-right angles confuses the typical visual appearance with the definition."
+
+- question: "The perpendicularity of a rhombus's diagonals is a direct consequence of all four sides being equal."
+  type: true-false
+  answer: true
+  explanation: "True. The proof uses SSS congruence: label the rhombus ABCD with diagonals meeting at E. Triangles ABE and ADE share side AE, and have AB = AD (equal sides) and BE = DE (diagonals bisect each other from parallelogram properties). SSS congruence means the angles at E are both equal and supplementary, forcing each to be 90°. The equal sides are precisely what creates this constraint."
+
+- question: "Why does adding the constraint 'all four sides equal' to a parallelogram force its diagonals to be perpendicular?"
+  type: short-answer
+  answer: "Equal sides create congruent triangles on either side of the diagonal (by SSS), which means the angles where the diagonal meets the other diagonal must be both equal and supplementary — forcing them to be 90°."
+  explanation: "The argument: in rhombus ABCD, let the diagonals meet at E. Triangles ABE and ADE have three equal sides (AB = AD by definition, AE = AE shared, BE = DE because diagonals bisect each other in any parallelogram). SSS congruence means angle AEB = angle AED. Since these angles are also supplementary (they form a straight line), each must be 90°. This is why perpendicularity is a consequence of equal sides, not an independent assumption."
+```
+
 ## Explainer
 
 A **rhombus** is a parallelogram with one additional constraint: all four sides are equal in length. From your study of parallelograms, you already know that opposite sides are parallel and equal, opposite angles are equal, consecutive angles are supplementary, and the diagonals bisect each other. The rhombus inherits all of these properties — it is a specialization of the parallelogram, not a different kind of figure. The key question is: what does adding "all four sides equal" buy you beyond the parallelogram properties?

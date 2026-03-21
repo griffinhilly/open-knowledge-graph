@@ -31,6 +31,45 @@ Draw demand, MR, and MC curves to show equilibrium. Shade consumer surplus (mono
 - Assuming monopoly always earns positive profit (depends on costs).
 - Confusing markup power with deadweight loss.
 
+## Questions
+
+```yaml
+- question: "A monopolist sets MR = MC and charges price P_m > MC. A regulator forces the firm to price at MC instead. What is the primary welfare effect of this intervention?"
+  type: multiple-choice
+  options:
+    - "Consumer surplus falls because the lower price encourages overproduction and crowds out efficient firms"
+    - "The deadweight loss is eliminated, as output expands to the competitive level where all mutually beneficial trades occur"
+    - "The deadweight loss transfers to the producer, who now earns less profit but consumers gain equally"
+    - "Total welfare is unchanged — the deadweight loss just shifts from one area of the diagram to another"
+  answer: 1
+  explanation: "At P = MC, output expands to the competitive level where every unit that buyers value above its cost of production gets traded. The deadweight loss triangle — representing foregone trades between the monopoly quantity and the competitive quantity — disappears entirely. Consumer surplus increases (lower price, more quantity), producer surplus decreases (lower markup), but the sum of the two is larger because previously un-executed trades now occur. DWL is not transferred; it is recovered."
+
+- question: "What is the direct source of deadweight loss under monopoly?"
+  type: multiple-choice
+  options:
+    - "The transfer of income from consumers to the monopolist through higher prices"
+    - "The monopolist's positive economic profit, which distorts incentives for competitors to enter"
+    - "The underproduction of units for which buyers' willingness to pay exceeds marginal cost"
+    - "The fixed costs the monopolist must recover, which force it to price above average variable cost"
+  answer: 2
+  explanation: "Deadweight loss arises from underproduction, not from high prices per se. The transfer of surplus from consumers to the monopolist (via higher prices) redistributes existing surplus — it is an equity concern, not an efficiency loss. The efficiency loss is the foregone trades: units buyers would willingly purchase at a price above marginal cost, but which the monopolist declines to produce because doing so would require lowering the price on all units (since MR < P). Those gains from trade simply vanish."
+
+- question: "Under perfect price discrimination, consumers are better off than under uniform-price monopoly because deadweight loss is eliminated."
+  type: true-false
+  answer: false
+  explanation: "Perfect price discrimination does eliminate deadweight loss — output reaches the competitive level. But consumers are not better off: the monopolist charges each buyer exactly their maximum willingness to pay, extracting every dollar of consumer surplus. Consumers receive no surplus above what they strictly must pay. The efficiency gain (eliminated DWL) goes entirely to the firm as additional profit. This illustrates the crucial distinction between efficiency and equity: eliminating deadweight loss does not mean consumers benefit."
+
+- question: "The deadweight loss triangle under monopoly represents potential surplus that neither buyers nor sellers capture — it is simply lost from the economy."
+  type: true-false
+  answer: true
+  explanation: "The DWL triangle is bounded by the demand curve above, the MC curve below, and the gap between monopoly quantity and competitive quantity horizontally. Each point in that triangle corresponds to a unit that a buyer values above its production cost but that goes unproduced. No one gains this value — the buyer doesn't get the good, the producer doesn't capture the margin. It represents mutually beneficial trades that never happen, which is why economists call it a 'loss' rather than a 'transfer.'"
+
+- question: "Why is the transfer of surplus from consumers to the monopolist (due to higher prices) not the same thing as deadweight loss, and why does the distinction matter for policy?"
+  type: short-answer
+  answer: "The transfer is a distributional effect: existing surplus moves from buyers to the firm, but the total amount of surplus doesn't change. Deadweight loss is a different thing: it is surplus that disappears entirely because potential trades are never made. Society as a whole loses the DWL, whereas the transfer merely redistributes it. The distinction matters for policy because these two harms call for different remedies — transfers can be addressed by taxes and redistributive policies, while DWL requires changing the quantity produced, typically through price regulation, antitrust action, or competitive entry."
+  explanation: "A common mistake is to treat the whole gap between monopoly and competitive price as a 'loss.' Only the DWL triangle represents lost efficiency; the rectangle between the two prices and up to the monopoly quantity is a transfer. Getting this right matters: if you think all of the monopoly's 'extra' revenue is waste, you might over-regulate; if you realize only the underproduction creates DWL, you can design a more targeted intervention."
+```
+
 ## Explainer
 
 Recall from your study of monopoly pricing that a monopolist faces the entire downmarket demand curve, so to sell one more unit it must lower the price on all units — giving it a marginal revenue curve that lies below demand. The profit-maximizing rule is still MR = MC, but because MR < P, the monopolist charges a price above marginal cost. That gap between price and marginal cost is the source of the welfare problem.

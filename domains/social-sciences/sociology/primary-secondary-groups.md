@@ -30,6 +30,45 @@ Identify actual groups you participate in—family, friend groups, workplaces, c
 ## Common Misconceptions
 Primary and secondary groups form a strict binary rather than a continuum. All primary groups are small, or all secondary groups are coldly rational. Large communities cannot feel primary.
 
+## Questions
+
+```yaml
+- question: "A department head consistently promotes personal friends over equally qualified colleagues, reasoning that 'we care deeply about each other and I trust them.' From a sociological standpoint, what best explains the problem with this behavior?"
+  type: multiple-choice
+  options:
+    - "It violates laws specifically prohibiting workplace friendships"
+    - "Primary-group norms (particularism, loyalty to whole persons) are being applied to a secondary-group context that demands universalism and role-based impartiality"
+    - "It correctly reflects the natural evolution of secondary groups into primary ones, which should be encouraged"
+    - "The error is purely personal — the department head lacks professionalism, which is unrelated to group dynamics"
+  answer: 1
+  explanation: "This is the classic case of applying the wrong normative logic to a social context. Secondary groups — workplaces, institutions — demand universalism: rules apply equally, people are evaluated by their role performance, and personal loyalty should not override institutional criteria. Applying primary-group norms (favoring those you are close to, treating people as irreplaceable wholes) to that context is nepotism. It is a structural failure as much as a personal one: the department head has confused which group logic applies here."
+
+- question: "Which is the most accurate characterization of what distinguishes a primary group from a secondary group?"
+  type: multiple-choice
+  options:
+    - "Primary groups are always smaller than secondary groups"
+    - "Primary groups are exclusively family-based; secondary groups are exclusively work-based"
+    - "The distinction lies in the character of the relationship: intimate, whole-person involvement versus instrumental, role-based interaction"
+    - "Primary groups are healthier and more desirable than secondary groups in all social contexts"
+  answer: 2
+  explanation: "The defining criterion is relational character, not size, institutional setting, or desirability. A large religious community can develop primary-group characteristics; a small work team can remain purely secondary. What matters is whether you relate to others as whole persons with histories and emotional investment (primary) or primarily as role-occupants serving a function (secondary). Options A and B commit the error the misconceptions section flags: treating the distinction as rigid and taxonomically fixed."
+
+- question: "A military unit is formally structured as a secondary group — hierarchical, instrumental, and rule-governed — yet can develop some of the most intense primary-group bonds people experience."
+  type: true-false
+  answer: true
+  explanation: "This is a classic example the Explainer uses to illustrate the permeability of the primary/secondary boundary. Military units begin as structurally secondary (they exist to accomplish military objectives with formal hierarchy), but the combination of small size, shared danger, intense proximity, and mutual dependence over time generates deep personal loyalty, emotional investment, and whole-person knowledge of one another — primary-group characteristics. The sociological insight is that group *structure* and group *character* are distinct: structure is institutional, character is relational."
+
+- question: "The defining feature of a primary group is its small size — groups larger than approximately 15 people automatically become secondary groups."
+  type: true-false
+  answer: false
+  explanation: "Size is associated with primary groups but does not define them. Cooley characterized primary groups by intimacy, face-to-face interaction, and whole-person involvement — not by a numerical threshold. A large, geographically dispersed extended family that only meets formally at holidays may function as a secondary group despite being 'family.' A tightly-knit urban neighborhood of hundreds may develop genuine primary-group characteristics. The distinguishing question is always about the *quality and character* of the relationship, not a headcount."
+
+- question: "Why does confusing primary and secondary group norms produce social problems? Give an example of each type of confusion."
+  type: short-answer
+  answer: "Each group type has an appropriate normative logic. Primary groups operate on particularism — you favor those you're close to and relate to people as irreplaceable wholes. Secondary groups operate on universalism — rules apply equally, people are evaluated on role performance, and personal feeling should not override institutional criteria. Applying primary norms to secondary contexts creates nepotism, corruption, or bias (e.g., a judge ruling in favor of a friend). Applying secondary norms to primary contexts creates emotional failure or social harm (e.g., treating your child with the neutrality appropriate to a stranger, refusing to 'play favorites' in a context where special loyalty is exactly what is called for)."
+  explanation: "The point is that both normative logics are legitimate — in their proper contexts. The error is category confusion: importing the norms of one relationship type into a context where they don't belong. This is why the primary/secondary distinction is practically important: it gives you a framework for identifying when someone has crossed a normative boundary, and why that crossing is problematic."
+```
+
 ## Explainer
 
 The sociological imagination — your prerequisite — trains you to see individual lives as embedded in larger social forces. One of the most immediate of those forces is the group: the small social unit within which most daily life actually happens. Charles Cooley introduced the term **primary group** in 1909 to describe the face-to-face associations that are "primary" in the sense of being first in time and importance — the family you grow up in, the childhood friend group, the close-knit neighborhood. What defines a primary group is not size but the *character* of the relationship: intimate, personal, emotionally invested, and stable over time. In a primary group, you relate to others as *whole persons*, not as role-occupants. Your family knows your history, your fears, your idiosyncrasies; they care about you as a person, not a function.

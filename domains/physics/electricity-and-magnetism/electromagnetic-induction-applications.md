@@ -34,6 +34,45 @@ Derive the EMF output of a simple AC generator as a function of time, then use t
 - Transformers do not create energy — stepping up voltage necessarily steps down current, conserving power (minus losses).
 - Eddy currents are not always undesirable; they are deliberately used in induction cooktops, metal detectors, and braking systems.
 
+## Questions
+
+```yaml
+- question: "A student claims that a step-up transformer creates extra electrical energy because the output voltage is higher than the input voltage. What is the correct response?"
+  type: multiple-choice
+  options:
+    - "The student is correct — step-up transformers increase both voltage and current simultaneously"
+    - "Transformers conserve energy: stepping up voltage necessarily steps down current by the same ratio, so input power equals output power (minus losses)"
+    - "Extra energy is generated in the iron core through hysteresis effects during each AC cycle"
+    - "The claim is partially correct — eddy currents in the secondary coil add a small amount of additional energy"
+  answer: 1
+  explanation: "Energy conservation is absolute. The transformer turns ratio gives V_s/V_p = N_s/N_p, and since power must be conserved (V_p I_p = V_s I_s), a step-up in voltage requires a proportional step-down in current. A transformer is a voltage-current exchanger, not an energy source. Eddy currents and hysteresis are losses, not gains — they reduce efficiency below the ideal."
+
+- question: "Laminating transformer cores with thin insulated layers reduces eddy current losses. Why does lamination achieve this?"
+  type: multiple-choice
+  options:
+    - "Lamination increases the core's magnetic permeability, reducing the flux change that drives eddy currents"
+    - "Thin insulated laminations force eddy current paths to be very short with high resistance, drastically reducing circulating current and I²R heating losses"
+    - "Lamination aligns magnetic domains in the core, preventing the flux reversals that generate eddy currents"
+    - "Laminated cores conduct heat more efficiently, safely dissipating eddy current energy before it causes damage"
+  answer: 1
+  explanation: "Eddy current losses scale as I²R. The insulating layers between laminations break up the large conducting loops that would otherwise form, forcing eddy currents into very short, high-resistance paths. This reduces the circulating current enormously — since resistance goes up and the available loop area goes down — and the I²R power loss decreases accordingly. The flux itself is not significantly altered; only the eddy current paths are disrupted."
+
+- question: "Electromagnetic braking and eddy current heating in transformer cores both arise from the same physical law — Lenz's law — even though one is exploited as useful and the other is treated as a loss to be minimized."
+  type: true-false
+  answer: true
+  explanation: "In both cases, a changing magnetic flux induces currents in a conductor, and those currents by Lenz's law create forces opposing the change that caused them. In electromagnetic braking this opposition is the desired effect — the retarding torque slows a spinning disk smoothly. In transformer cores the same opposition wastes energy as heat. Same physics, different engineering contexts: one is designed in, the other is designed out."
+
+- question: "An AC generator produces direct current (DC) because the coil always rotates in the same direction within the magnetic field."
+  type: true-false
+  answer: false
+  explanation: "Rotating a coil in a fixed magnetic field produces a continuously reversing EMF: as the coil turns, the flux through it varies as Φ = NBAcos(ωt), giving EMF = NBAω sin(ωt) — a sinusoid that changes sign every half revolution. This is alternating current (AC). The fact that the coil rotates in one direction does not prevent the induced EMF from alternating; it is the changing angle between the coil and field that drives the oscillation."
+
+- question: "Explain why transmitting electrical power at high voltage over long distances is more efficient than transmitting at low voltage, using the transformer turns ratio and the relationship between current and resistive losses."
+  type: short-answer
+  answer: "For a fixed power P = VI, increasing voltage by a factor of k reduces current by the same factor k. Resistive losses in the transmission line scale as I²R, so a k-fold reduction in current reduces losses by k². High-voltage transmission uses step-up transformers at the source and step-down transformers at the destination to achieve this efficiency gain."
+  explanation: "The key is that power loss in a resistance is I²R, not V²/R — so reducing current is what matters for efficiency. Doubling the transmission voltage halves the current, cutting resistive losses to one quarter. High-voltage lines (hundreds of kilovolts) can transmit the same power with tiny current, minimizing the I²R losses that would otherwise be enormous over long distances. Transformers make this possible by allowing flexible conversion between voltage and current at either end of the line."
+```
+
 ## Explainer
 
 You already know Faraday's law: a changing magnetic flux through a loop induces an EMF. The applications in this topic are all answers to the question: what happens when you engineer that changing flux deliberately? The three technologies — generators, transformers, and eddy-current devices — each exploit the same law in a different geometry and for a different purpose.

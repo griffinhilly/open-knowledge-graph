@@ -38,6 +38,45 @@ Compare each glial type to its functional role using analogy: astrocytes as main
 - Glia do not 'just' support neurons; they actively shape synaptic transmission and plasticity.
 - The 'glia outnumber neurons 10:1' ratio is outdated; current estimates put the ratio closer to 1:1 in the human brain.
 
+## Questions
+
+```yaml
+- question: "A patient develops multiple sclerosis, in which the immune system attacks oligodendrocytes. Why does this slow nerve conduction rather than simply reducing the number of action potentials?"
+  type: multiple-choice
+  options:
+    - "Neurons themselves are damaged and lose the ability to generate action potentials"
+    - "Saltatory conduction fails because myelin insulation is destroyed, forcing continuous propagation along the entire axon membrane"
+    - "Astrocytes can no longer maintain the blood-brain barrier, flooding neurons with harmful ions"
+    - "Microglia over-prune synapses in response to inflammation, reducing synaptic transmission"
+  answer: 1
+  explanation: "Myelination enables saltatory conduction — the electrical signal jumping between nodes of Ranvier — which is up to 100 times faster than unmyelinated propagation. When oligodendrocytes are destroyed, the myelin sheath degrades and conduction reverts to slow, continuous propagation along the bare membrane. The misconception in option A is common: the neurons themselves survive MS initially; it is the glial insulation that is lost. Options C and D describe real glial functions but are not the primary mechanism of conduction slowing."
+
+- question: "How do astrocytes participate in resetting the synapse between action potentials?"
+  type: multiple-choice
+  options:
+    - "They generate inhibitory postsynaptic potentials that cancel residual excitation in the postsynaptic cell"
+    - "They take up excess neurotransmitter from the synaptic cleft, clearing it for the next signal"
+    - "They release enzymes into the synaptic cleft that chemically degrade neurotransmitter molecules"
+    - "They alter blood-brain barrier permeability to flush neurotransmitter into the bloodstream"
+  answer: 1
+  explanation: "Astrocytes wrap their processes around synapses and express transporter proteins that take up neurotransmitter molecules (e.g., glutamate reuptake transporters). This clears the synapse and prevents prolonged receptor activation. This is an *active* contribution to signal processing — not merely structural support. Option C is a distractor: enzymatic degradation does occur (e.g., acetylcholinesterase), but this is largely distinct from the astrocyte reuptake mechanism. The key insight is that synaptic transmission depends on glial clearing, not neuron-alone dynamics."
+
+- question: "Microglia are the brain's immune cells and participate in synaptic pruning during development."
+  type: true-false
+  answer: true
+  explanation: "True. Microglia are derived from blood-borne immune precursors (unlike other glia, which come from neural progenitors) and function as the brain's resident macrophages. During development, they selectively eliminate less-active synaptic connections — a process called synaptic pruning — that is essential for circuit refinement. This directly links microglia to neuroplasticity, showing that glia do not merely support existing neural architecture but actively shape it."
+
+- question: "In the adult human brain, glial cells outnumber neurons by approximately 10 to 1."
+  type: true-false
+  answer: false
+  explanation: "False. The 10:1 ratio is a persistent myth now known to be inaccurate. Modern cell-counting methods (isotropic fractionation) estimate the glia-to-neuron ratio in the human brain at roughly 1:1 — approximately 85 billion neurons and 85 billion glial cells. The myth likely arose from misinterpretation of earlier studies and has been repeated so frequently it became accepted as fact. The actual ratio varies considerably by brain region."
+
+- question: "Why is the speed of action potential propagation not an intrinsic property of the neuron alone?"
+  type: short-answer
+  answer: "Conduction velocity depends on whether the axon is myelinated, and myelination is provided by oligodendrocytes (CNS) or Schwann cells (PNS) — glial cells, not the neuron itself. Unmyelinated axons propagate action potentials by continuous membrane depolarization; myelinated axons use saltatory conduction, jumping between nodes of Ranvier, which is dramatically faster. The same neuron would conduct much more slowly without its glial-provided myelin sheath."
+  explanation: "This question targets the deepest insight of the topic: neural signaling is a joint property of neurons and glia, not of neurons alone. Every measurable feature of conduction speed depends on oligodendrocyte function. This is why demyelinating diseases like MS produce neurological deficits without killing neurons — the neurons survive but their glial partners are compromised. A purely neuron-centric model of the nervous system cannot explain this."
+```
+
 ## Explainer
 
 You already know from your study of neuron structure that neurons are highly specialized cells that transmit electrical signals — but neurons cannot do this work alone. The brain contains roughly as many **glial cells** as neurons, and rather than passive bystanders, glia are active partners in neural function. Think of neurons as specialized factory workers; glia are the infrastructure that keeps the factory running: cleaning up waste, regulating the environment, supplying fuel, and repairing damage. Every feature of neuronal signaling you've studied depends, at some level, on glial support.

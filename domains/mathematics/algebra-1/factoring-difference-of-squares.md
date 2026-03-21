@@ -29,6 +29,45 @@ Start by having students FOIL (a + b)(a − b) to discover the pattern themselve
 - Not recognizing perfect squares with coefficients (4x² is (2x)², 9y⁴ is (3y²)²).
 - Stopping too early when the result can be factored further (x⁴ − 1 = (x² + 1)(x² − 1) = (x² + 1)(x + 1)(x − 1)).
 
+## Questions
+
+```yaml
+- question: "A student claims that 4x² − 9 cannot be factored because 4 and 9 aren't 'simple' perfect squares. What is the correct factorization?"
+  type: multiple-choice
+  options:
+    - "(2x − 3)(2x − 3)"
+    - "(4x + 3)(4x − 3)"
+    - "(2x + 3)(2x − 3)"
+    - "4x² − 9 cannot be factored"
+  answer: 2
+  explanation: "4x² = (2x)² and 9 = 3², so a = 2x and b = 3, giving (2x + 3)(2x − 3). The key is recognizing that coefficients can be parts of perfect squares. Option A is (2x − 3)² = 4x² − 12x + 9 — a trinomial, not a difference of squares. Option B incorrectly uses 4x instead of 2x as the square root of 4x²."
+
+- question: "Which represents the complete factorization of x⁴ − 1?"
+  type: multiple-choice
+  options:
+    - "(x² + 1)(x² − 1)"
+    - "(x + 1)²(x − 1)²"
+    - "(x² + 1)(x + 1)(x − 1)"
+    - "(x² − 1)(x² − 1)"
+  answer: 2
+  explanation: "x⁴ − 1 = (x²)² − 1² = (x² + 1)(x² − 1). The first factor is a sum of squares — it cannot be factored further over the reals. The second factor, x² − 1, is itself a difference of squares: (x + 1)(x − 1). Complete factorization means checking every factor for further factorability. Option A stops too early. Option B incorrectly treats (x² + 1) as (x + 1)²."
+
+- question: "The expression x² + 49 can be factored as (x + 7)(x + 7)."
+  type: true-false
+  answer: false
+  explanation: "(x + 7)(x + 7) = x² + 14x + 49, not x² + 49. A sum of squares cannot be factored over the real numbers at all — there is no pair of real binomials whose product eliminates all middle terms while producing a plus sign between the squared terms. The difference of squares pattern requires subtraction: x² − 49 = (x + 7)(x − 7)."
+
+- question: "In the pattern a² − b² = (a + b)(a − b), the variable a must represent a single variable like x, not a compound expression like 3x or 2y³."
+  type: true-false
+  answer: false
+  explanation: "a and b can represent any algebraic expression. In 9x² − 25, a = 3x and b = 5, giving (3x + 5)(3x − 5). In 4y⁶ − 1, a = 2y³ and b = 1. The pattern is fully general — 'a' and 'b' are placeholders for whatever expressions, when squared, produce the two terms of the difference."
+
+- question: "Why does a² − b² factor into two binomials, but a² + b² cannot be factored over the real numbers?"
+  type: short-answer
+  answer: "The factorization a² − b² = (a + b)(a − b) works because FOIL produces outer term −ab and inner term +ab, which cancel completely, leaving a² − b². For a sum a² + b², any attempt to write it as (a + c)(a − c) changes the sign of the last term, and any attempt with same-sign factors produces a nonzero middle term that can't be eliminated. The cancellation of middle terms that makes the difference factorable requires one factor to have +b and the other −b — which forces the last terms to produce a difference, not a sum."
+  explanation: "The mechanical reason is the cancellation of FOIL's outer and inner terms. Conceptually: factoring over the reals means finding two real expressions that multiply to give the original. For the middle terms to cancel, the two factors must have opposite signs for the b-term, which forces the squared terms to subtract. There is no escape from this constraint when you need a plus sign."
+```
+
 ## Explainer
 
 The **difference of squares** pattern is a direct reversal of the FOIL process you already know. When you multiply (a + b)(a − b) using FOIL, the outer term is −ab and the inner term is +ab — and those two middle terms cancel completely, leaving a² − b². Factoring a² − b² just runs this in reverse: you recognize that some expression is a perfect square minus another perfect square, and you split it into the two binomials whose middle terms will cancel.

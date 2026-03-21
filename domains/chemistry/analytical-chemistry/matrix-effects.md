@@ -31,6 +31,45 @@ Prepare calibration curves for a compound in both pure solvent and in a post-ext
 - Matrix effects are not limited to mass spectrometry; they occur in virtually every analytical technique, including AAS, ICP, fluorescence, and electrochemical methods — any time the sample environment differs from the calibration environment.
 - Diluting the sample reduces matrix effects but also reduces the analyte signal, potentially pushing it below the LOQ; there is always a tradeoff between matrix dilution and sensitivity.
 
+## Questions
+
+```yaml
+- question: "An analyst constructs a calibration curve for a drug in pure methanol/water and obtains an excellent linear fit (R² = 0.9998). When plasma extracts spiked at the same concentrations are measured, the signals are consistently 40% lower than predicted by the calibration curve. What is the most likely cause?"
+  type: multiple-choice
+  options:
+    - "The drug compound is chemically unstable and degrades in plasma before measurement"
+    - "The calibration curve was prepared with insufficient concentration levels to capture non-linearity"
+    - "Ion suppression from plasma matrix components reduces ionization efficiency for the analyte — the calibration curve is valid for pure standards but not for plasma samples"
+    - "The R² value is misleading; the actual calibration curve has a non-zero intercept causing systematic under-measurement"
+  answer: 2
+  explanation: "This is the classic presentation of matrix-induced ion suppression. The calibration curve appears perfect because it was built entirely in clean solvent — but plasma contains proteins, lipids, salts, and metabolites that co-elute with the analyte and compete for ionization during electrospray. The result is a consistent systematic downward bias in the sample measurements. The calibration curve is not wrong for standards; it is wrong when applied to samples with a different matrix. This bias is invisible without specifically testing for it."
+
+- question: "A clinical lab needs to quantify an endogenous hormone in human plasma, but no hormone-free blank plasma is available for matrix-matched calibration. Which method best handles matrix effects under these constraints?"
+  type: multiple-choice
+  options:
+    - "External calibration in pure solvent with a 20-fold sample dilution to minimize matrix effects"
+    - "Standard addition — spiking the actual patient samples at multiple concentration levels and extrapolating back to the unspiked concentration"
+    - "Ignoring matrix effects if the inter-day precision coefficient of variation is below 15%"
+    - "Calibrating in urine instead, since both are biological fluids with similar matrix compositions"
+  answer: 1
+  explanation: "Standard addition is specifically designed for situations where blank matrix is unavailable. By spiking the actual sample at multiple added concentrations, the standard addition method extrapolates back to the native concentration entirely within the sample's own matrix — both the native analyte and the spikes experience identical matrix effects, which cancel in the extrapolation. Note that dilution (option A) reduces matrix effects but also reduces analyte signal, potentially below the LOQ — there is always a sensitivity tradeoff, and a 20-fold dilution may be too aggressive."
+
+- question: "Matrix effects are a concern specific to electrospray ionization mass spectrometry; other analytical techniques such as atomic absorption spectroscopy and fluorescence are not significantly affected."
+  type: true-false
+  answer: false
+  explanation: "Matrix effects occur in virtually every analytical technique — any time the sample environment differs from the calibration environment and alters the efficiency of some measurement step. In AAS, matrix salts change nebulization efficiency, form refractory compounds that resist atomization, or cause molecular absorption. In fluorescence, matrix components quench emission or scatter excitation. In ICP, matrix-induced changes in plasma loading affect excitation efficiency. The phenomenon is general; ESI-MS ion suppression is simply the most widely discussed example."
+
+- question: "A perfectly linear calibration curve with R² = 0.999 prepared in pure solvent guarantees that matrix effects will not significantly bias quantification results for real samples."
+  type: true-false
+  answer: false
+  explanation: "This is the most dangerous misconception in quantitative analytical chemistry. Matrix effects produce a systematic shift — the entire calibration relationship changes for samples vs. standards, but the curve for standards remains perfectly linear. The calibration looks fine; precision within the calibration set is excellent; but every sample result is biased by a consistent percentage. The bias is invisible unless you specifically compare calibration slopes in solvent vs. post-extraction matrix blank. Good curve statistics do not protect against this systematic error."
+
+- question: "Why is isotope-dilution mass spectrometry (IDMS) considered the gold standard for correcting matrix effects in quantitative MS analysis?"
+  type: short-answer
+  answer: "IDMS adds a stable-isotope-labeled analog of the analyte (e.g., deuterium-labeled or ¹³C-labeled) to every sample before processing. Because the labeled analog is chemically identical to the native analyte, it co-elutes and co-ionizes with it — any matrix-induced ion suppression or enhancement affects both species by the same factor. The native-to-labeled signal ratio is used for quantification. Since both are suppressed (or enhanced) equally, the ratio remains constant regardless of matrix effects, and the correction is automatic and sample-specific. Unlike matrix-matched calibration, IDMS requires no blank matrix; unlike dilution, it preserves sensitivity."
+  explanation: "IDMS also corrects for variability in sample preparation efficiency (extraction recovery) if the internal standard is added before extraction — another major source of systematic error in bioanalytical methods. This dual correction capability is why it is used as the reference method in clinical chemistry and regulatory submissions."
+```
+
 ## Explainer
 
 When you build a calibration curve, you prepare standards of known concentration in a clean solvent and measure the instrument response. The implicit assumption is that the relationship between concentration and signal will be the same when you measure a real sample. **Matrix effects** are what happens when that assumption fails. The sample matrix — everything in the sample that is not your analyte — can alter the signal in ways that make your calibration curve give the wrong answer. From your work on sample preparation and calibration methods, you understand how standards are prepared and how calibration curves translate signal to concentration. Matrix effects are the primary reason that a perfectly constructed calibration curve can still produce inaccurate results.

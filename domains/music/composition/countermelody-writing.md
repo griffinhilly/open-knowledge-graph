@@ -35,6 +35,45 @@ Take a 16-measure melody and write a countermelody for a second instrument, deli
 - A countermelody is not merely a harmony part — it must have its own motivic identity and melodic logic independent of the main theme.
 - Contrary motion is a guideline, not an absolute rule; brief parallel motion can be effective when the countermelody needs to align rhythmically with the main melody.
 
+## Questions
+
+```yaml
+- question: "The main melody reaches its highest, most climactic note, sustained for two beats. What should the countermelody do at this moment?"
+  type: multiple-choice
+  options:
+    - "Also reach its own high point to match the emotional intensity"
+    - "Drop in register, plateau, or reduce dynamic intensity to yield priority"
+    - "Move in parallel motion with the main melody for maximum harmonic support"
+    - "Pause entirely so the main melody can be heard clearly"
+  answer: 1
+  explanation: "A countermelody must manage climax carefully: when the main melody peaks, the countermelody should yield — descending, plateauing, or softening. If both voices peak simultaneously, the texture collapses and neither line is clearly heard as primary. Option A is the most common mistake of student composers and produces a 'fight' rather than a partnership. Pausing entirely (D) is rarely ideal either — the countermelody's value comes from maintaining its own presence while subordinating, not disappearing."
+
+- question: "Which technique is MOST responsible for preventing two simultaneous melodies from burying each other?"
+  type: multiple-choice
+  options:
+    - "Keeping both melodies in the same register so they blend seamlessly"
+    - "Having both melodies share the same rhythmic profile"
+    - "Rhythmic complementarity — the countermelody speaks where the main melody sustains or rests"
+    - "Ensuring the countermelody always moves in parallel thirds with the main melody"
+  answer: 2
+  explanation: "Rhythmic complementarity — filling the gaps — is the primary technique for achieving two-voice clarity. When the main melody is moving, the countermelody holds back; when the main melody holds or rests, the countermelody weaves through. This creates the impression of a dialogue rather than clutter. The other options are counterproductive: same register causes voices to merge (A), identical rhythms create a homophonic block (B), and parallel thirds make the countermelody a shadow of the main line rather than an independent voice (D)."
+
+- question: "A countermelody that has its own recognizable rhythmic figure and interval profile, consistent throughout the piece, is stronger than one that simply fills in harmony notes."
+  type: true-false
+  answer: true
+  explanation: "Motivic identity is what elevates a countermelody from 'fill' to 'obbligato.' A characteristic shape — a recurring rhythmic or intervallic figure — gives the countermelody its own identity that listeners can follow independently of the main melody. The cello line in 'Eleanor Rigby' and the flute obbligato in Schubert's 'Der Hirt auf dem Felsen' are memorable as independent melodies, not merely as accompaniments. Starting with a two-bar motive and developing it alongside the main theme's phrase structure produces this quality."
+
+- question: "A countermelody in the same register as the main melody can be highly effective as long as it moves in contrary motion."
+  type: true-false
+  answer: false
+  explanation: "Register separation is an essential tool for keeping two voices audible and distinguishable. Even with contrary motion, two melodies in the same register will compete for the listener's attention and create confusion about which is primary. Registral separation — e.g., a countermelody in the alto range against a soprano main melody — immediately signals which voice has priority without relying solely on motion direction. Contrary motion helps, but it cannot substitute for putting the voices in distinct registers."
+
+- question: "Explain why a countermelody must yield to the main melody at moments of climax, and describe what 'yielding' might look like in practice."
+  type: short-answer
+  answer: "Because two simultaneous climaxes compete for primacy and obscure each other, resulting in textural confusion rather than heightened impact. In practice, yielding means the countermelody descends in register, reduces its dynamic level, settles on a sustained or held note, or moves to less rhythmically active material exactly when the main melody reaches its peak."
+  explanation: "In any polyphonic texture, there is room for only one structural high point at a time — the principle of single climax. If the countermelody insists on its own peak at the wrong moment, the listener cannot tell which line is primary, and the emotional impact of the main melody's climax is diluted. Yielding can take many forms: a plateau, a descent, a diminuendo, or a rhythmic pull-back. The countermelody maintains its presence but steps back from center stage, which paradoxically makes the main melody's peak feel more powerful."
+```
+
 ## Explainer
 
 A **countermelody** is not a harmony part with a tune bolted on — it is a second, independent musical personality sharing the stage with the first. Think of a duet between a soprano and a flute: both sing recognizable lines, but neither simply doubles the other. Your prerequisite study of melodic phrase structure gives you the blueprint — you already know how phrases arc, breathe, and resolve. A countermelody obeys those same rules, except it must do so without tripping over the main theme. This is the central challenge: two melodies, one musical space.

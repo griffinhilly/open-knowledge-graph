@@ -26,6 +26,45 @@ Study the clinical manifestations of uremia in untreated ESRD versus controlled 
 ## Common Misconceptions
 Uremia is not synonymous with high creatinine; it is the clinical syndrome from toxin accumulation. Creatinine is an imperfect marker of uremic toxin burden; some protein-bound toxins accumulate despite modest elevation of serum creatinine. Dialysis clears some uremic toxins well but not others, explaining why some uremic symptoms persist despite dialysis.
 
+## Questions
+
+```yaml
+- question: "A patient on adequate hemodialysis has well-controlled serum creatinine and urea but continues to experience fatigue, cardiovascular complications, and peripheral neuropathy. What best explains the persistence of these symptoms?"
+  type: multiple-choice
+  options:
+    - "The dialysis machine is malfunctioning and failing to adequately clear urea"
+    - "The patient is not adhering to dietary protein restrictions, causing urea to re-accumulate between sessions"
+    - "Protein-bound uremic toxins such as indoxyl sulfate are poorly cleared by standard hemodialysis, leaving residual toxin burden despite controlled creatinine"
+    - "High creatinine directly damages peripheral nerves and the cardiovascular endothelium"
+  answer: 2
+  explanation: "Standard hemodialysis clears small, water-soluble molecules (urea, creatinine) efficiently by diffusion across a semipermeable membrane. Protein-bound toxins — indoxyl sulfate, p-cresyl sulfate, advanced glycation end-products — are tightly bound to albumin and cannot cross the dialysis membrane effectively. These toxins drive cardiovascular damage, endothelial dysfunction, and neuropathy even when traditional markers are well-controlled. This explains the clinically important observation that dialysis extends life but does not fully restore health. Creatinine is a marker of reduced GFR, not itself the primary toxin (option D is wrong)."
+
+- question: "A uremic patient has a prolonged bleeding time despite a normal platelet count. What is the best explanation?"
+  type: multiple-choice
+  options:
+    - "Uremic toxins reduce thrombopoietin production, impairing platelet maturation in the bone marrow"
+    - "Uremic toxins impair platelet adhesion molecule expression and ADP release, causing functional platelet dysfunction"
+    - "Hemodialysis removes platelets along with solutes, reducing their functional capacity"
+    - "Uremic acidosis degrades clotting factors in plasma, causing secondary bleeding"
+  answer: 1
+  explanation: "Uremic platelet dysfunction is a qualitative defect, not a quantitative one. Uremic toxins interfere with platelet activation mechanisms — specifically impairing adhesion to damaged vessel walls and reducing the release of ADP that triggers platelet aggregation. The platelet count remains normal because the bone marrow is producing adequate numbers; the problem is that each platelet functions poorly. This is why uremic patients bleed easily from mucous membranes and small wounds despite a normal CBC — a classic clinical test of conceptual understanding. Thrombopoietin (option A) controls production; hemodialysis (option C) does not significantly remove platelets."
+
+- question: "Uremia is essentially synonymous with elevated serum creatinine — if creatinine is high, the patient has uremia; if creatinine is controlled by dialysis, uremia is resolved."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception the topic attacks. Uremia is a clinical syndrome — a constellation of symptoms and signs from toxin accumulation and metabolic derangements. Creatinine is a marker of reduced GFR, not the primary toxin causing most uremic symptoms. Protein-bound toxins with more direct pathological effects (indoxyl sulfate, AGEs) are poorly correlated with creatinine levels. Dialysis controls creatinine and urea effectively but clears protein-bound toxins poorly, which is why uremic symptoms persist in many well-dialyzed patients. The surrogate marker is not the culprit."
+
+- question: "Uremic pericarditis is caused by direct toxin irritation of the pericardium, producing a fibrinous 'bread and butter' inflammation — and its presence indicates that uremic toxin burden is severe enough to affect the serosal surfaces."
+  type: true-false
+  answer: true
+  explanation: "Uremic pericarditis results from the direct irritant effect of uremic toxins on the pericardial serosal surface. The classic pathological description is 'bread and butter' pericarditis — fibrinous exudate that looks like two pieces of buttered bread pulled apart. Clinically it presents with a friction rub on auscultation and pleuritic chest pain. Its occurrence signals that uremic toxin exposure has become sufficient to cause serosal inflammation, and it is an indication for dialysis initiation or intensification in patients not yet on dialysis."
+
+- question: "Why does dialysis improve but not fully resolve uremic symptoms, even when it successfully normalizes urea and creatinine levels?"
+  type: short-answer
+  answer: "Standard hemodialysis clears toxins by diffusion across a semipermeable membrane, which efficiently removes small, water-soluble molecules like urea and creatinine. However, the most pathologically active uremic toxins — indoxyl sulfate, p-cresyl sulfate, advanced glycation end-products — are tightly bound to albumin. Protein-bound toxins cannot cross the standard dialysis membrane and are therefore poorly removed. These toxins drive the cardiovascular damage, endothelial dysfunction, neuropathy, and fatigue that persist in dialyzed patients. Dialysis replaces only a fraction of total kidney function; the gap between what dialysis clears and what actually causes uremic disease explains the residual symptom burden."
+  explanation: "This is why the clinical goal in dialysis is management, not cure — and why dietary management (limiting protein, phosphate, and potassium to reduce toxin generation) remains essential even in patients on dialysis. Understanding the toxin landscape helps explain why protein-bound toxin removal is an active area of dialysis technology research."
+```
+
 ## Explainer
 
 When kidneys fail, the first instinct is to focus on creatinine and BUN as the markers of trouble. But uremia — the clinical syndrome — teaches an important lesson: the surrogate marker is not the culprit. Creatinine is a metabolic byproduct of muscle creatine turnover; urea comes from protein catabolism. Both accumulate when GFR falls, and both are measured to track kidney function. But neither causes most of the symptoms of uremia at concentrations seen in clinical practice. They are indicators of the problem, not its primary drivers.

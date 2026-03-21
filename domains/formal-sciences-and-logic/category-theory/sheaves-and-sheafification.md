@@ -35,6 +35,45 @@ Start with a concrete topological space like the real line. Compare the presheaf
 - Sheafification does not change the sheaf on its stalks in a drastic way; it is the closest sheaf to the original presheaf in a precise adjoint sense.
 - Sheaves on a topological space are a special case of sheaves on a site (category with Grothendieck topology); the topological intuition does not always transfer directly to the general setting.
 
+## Questions
+
+```yaml
+- question: "The presheaf of bounded continuous functions on ℝ fails to be a sheaf. What specifically causes this failure?"
+  type: multiple-choice
+  options:
+    - "Bounded functions don't have well-defined restriction maps to open subsets"
+    - "Compatible local sections (locally bounded functions that agree on overlaps) fail to glue to a global section, because the globally assembled function may be unbounded"
+    - "The stalks of the bounded-functions presheaf are trivial, making any gluing impossible"
+    - "The restriction maps fail to compose correctly, violating the presheaf axioms"
+  answer: 1
+  explanation: "The restriction maps are perfectly well-defined (A is wrong). The gluing failure is more subtle: cover ℝ by intervals U_n = (−n−1, n+1). On each U_n, the function f(x) = x is bounded (bounded by n+1), so it's a valid section. These local sections are compatible — they agree on overlaps since they're all the same function. But f(x) = x is globally unbounded and therefore NOT a section of the bounded-functions presheaf on all of ℝ. The compatible local sections exist but cannot be assembled into a global section — the existence part of the gluing condition fails."
+
+- question: "Sheafification takes a presheaf F and produces a sheaf LF. Which statement best characterizes what sheafification changes and preserves?"
+  type: multiple-choice
+  options:
+    - "Sheafification changes the stalks of F, adding new local data to repair gluing failures"
+    - "Sheafification preserves the stalks of F but enforces the gluing condition, so LF has the same local data but assembles correctly globally"
+    - "Sheafification is only defined for presheaves on topological spaces, not for abstract Grothendieck sites"
+    - "Sheafification eliminates all local sections that fail to extend to global sections"
+  answer: 1
+  explanation: "A key property of sheafification is stalk-preservation: the stalk (LF)_x equals F_x for every point x. Sheafification does not change local data — it only fixes how local data assembles into global sections. The two-step construction (separate to enforce uniqueness, then glue to enforce existence) adds the globally correct sections required by the gluing axiom. Option A is wrong (stalks are preserved). Option C is wrong (sheafification generalizes to Grothendieck sites). Option D is not the mechanism — sheafification adds missing global sections, it doesn't subtract local ones."
+
+- question: "The gluing condition for a sheaf requires two things: compatible local sections must glue to a global section (existence), and that global section must be unique (uniqueness). A presheaf satisfying only the existence part is called a separated presheaf."
+  type: true-false
+  answer: false
+  explanation: "The definition is reversed. A separated presheaf satisfies the uniqueness part — if a global section exists and restricts to the same local data, it is unique — but does not guarantee existence of a global section. Separated presheaves have the property that sections are determined by their stalks locally, but compatible local data may fail to assemble. A full sheaf satisfies both uniqueness and existence. 'Satisfying only existence' is not the standard name for an intermediate notion between presheaf and sheaf."
+
+- question: "The sheafification functor L: PSh(X) → Sh(X) is the left adjoint to the inclusion Sh(X) → PSh(X), meaning maps from a presheaf F to any sheaf G correspond bijectively to maps from LF to G."
+  type: true-false
+  answer: true
+  explanation: "This is the precise categorical formulation of what sheafification does. The adjunction Hom(LF, G) ≅ Hom(F, iG) (where i is the forgetful inclusion) means sheafification is the universal way to map out of a presheaf into any sheaf. Instead of mapping directly from F, you can always factor through LF. This universal property defines LF up to isomorphism: it is the initial sheaf receiving a map from F. Recognizing this adjunction connects sheafification to other universal constructions in algebra — free objects, completions, and left adjoints generally."
+
+- question: "Explain the gluing condition in your own words, and why both the existence AND uniqueness parts are necessary for sheaves to capture the idea of 'local data assembling consistently to global data.'"
+  type: short-answer
+  answer: "The gluing condition says: given compatible local sections (sections on each open in a cover that agree on all pairwise overlaps), there exists a unique global section that restricts to each local one. Existence ensures that locally consistent data can always be assembled — you are never stuck with compatible pieces that refuse to combine. Uniqueness ensures the assembly is unambiguous — there is only one global section compatible with the local data, so global sections are completely determined by their local behavior."
+  explanation: "Both parts do real logical work. Without existence, you could have locally consistent data with no global interpretation — the sheaf would fail to capture global structure from local data. Without uniqueness, two different global sections could have identical local restrictions, meaning global sections carry extra 'hidden' information not detectable locally — the local-to-global principle breaks down. Separated presheaves have uniqueness without existence; they can track local consistency but cannot always assemble it. Full sheaves require both, making sections completely determined by and assembleable from their local data."
+```
+
 ## Explainer
 
 From your study of presheaves, you know that a presheaf on a topological space X assigns data (a set, group, ring, etc.) to each open set, and provides restriction maps that make the data on larger open sets compatible with the data on smaller ones. A presheaf is purely local in its construction — it says nothing about how local data can be assembled. A **sheaf** adds exactly one additional requirement: the assembly must work correctly. The **gluing condition** is precise: if you have an open cover {U_i} of U, and you have compatible sections s_i ∈ F(U_i) (meaning s_i and s_j agree on U_i ∩ U_j for every pair), then there exists a *unique* global section s ∈ F(U) that restricts to each s_i. Uniqueness here is as essential as existence — without it, the "assembly" would be ambiguous.

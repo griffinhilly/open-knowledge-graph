@@ -31,6 +31,45 @@ Compute the vorticity field for several known flows: solid-body rotation (unifor
 - Vorticity is not the same as turbulence. Laminar flows (like Poiseuille flow) have well-defined vorticity distributions. Turbulence involves chaotic, three-dimensional vorticity fluctuations, but vorticity itself is present in orderly flows.
 - Kelvin's theorem does not mean vorticity cannot appear in real flows. Viscosity, baroclinic effects (density gradients not aligned with pressure gradients), and non-conservative body forces all violate the theorem's assumptions and generate or redistribute vorticity.
 
+## Questions
+
+```yaml
+- question: "A bathtub drain creates a visible swirling vortex. Far from the drain center, the fluid has clearly circular streamlines. What is the vorticity of this fluid away from the center?"
+  type: multiple-choice
+  options:
+    - "Large and positive — the circular motion indicates strong rotation of fluid particles"
+    - "Zero — despite the circular streamlines, individual fluid particles are not spinning about their own axes in this region"
+    - "Negative — the vorticity is opposite in sign to the direction of circulation"
+    - "Uniform — equal at all radii because the velocity magnitude is constant on any circle"
+  answer: 1
+  explanation: "A bathtub vortex is a free (irrotational) vortex. Far from the drain, where viscous effects are negligible, the velocity field is V = Γ/(2πr) in the tangential direction. The vorticity ∇×V is zero everywhere except at the singular center. Each fluid parcel orbits the center but does not spin about its own axis — the rotation of the parcel's travel direction exactly cancels the spin that the curved path would seem to imply. Only at the center (a mathematical singularity) is vorticity non-zero. This is the most counterintuitive result in the subject."
+
+- question: "An airfoil accelerates from rest in an initially irrotational flow. As it develops lift, what must happen according to Kelvin's circulation theorem?"
+  type: multiple-choice
+  options:
+    - "The total circulation in the fluid increases as the wing generates bound circulation"
+    - "A starting vortex of equal and opposite circulation is shed into the wake, keeping total circulation zero"
+    - "Vorticity is generated uniformly throughout the flow field to balance the bound circulation"
+    - "The theorem does not apply because viscosity at the wing surface violates the inviscid assumption"
+  answer: 1
+  explanation: "Kelvin's theorem states that total circulation around any material loop in inviscid, barotropic flow is conserved. Since the flow starts at rest (total circulation = 0), the total must remain zero. When the airfoil develops bound circulation +Γ (necessary for lift via the Kutta-Joukowski theorem), an equal and opposite starting vortex −Γ must be shed into the wake. You can actually observe this starting vortex in flow visualizations: it trails behind the wing as it accelerates. This elegant result connects the abstract conservation law to the practical mechanism of aerodynamic lift."
+
+- question: "A fluid parcel following a curved path must be rotating about its own axis, so curved streamlines always indicate non-zero vorticity."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about vorticity. A free vortex has perfectly circular streamlines yet zero vorticity in the fluid away from the center. Vorticity measures the LOCAL spin of a fluid parcel — whether a tiny paddle wheel immersed in the fluid would rotate. In a free vortex, the velocity gradient structure is exactly such that the parcel's curved path involves zero net spin. Curved streamlines indicate curved paths, not parcel rotation. Only solid-body rotation (a forced vortex) has both curved streamlines AND non-zero vorticity."
+
+- question: "When a wing begins to generate lift and develops bound circulation, an equal and opposite starting vortex must be shed into the wake to conserve the initially-zero total circulation."
+  type: true-false
+  answer: true
+  explanation: "This is a direct consequence of Kelvin's circulation theorem. The flow starts at rest: total circulation = 0 for any material loop. As the wing accelerates, it develops a bound vortex of circulation +Γ. Since total circulation is conserved (within the inviscid, barotropic approximation), a starting vortex of circulation −Γ must appear. This starting vortex is physically real and observable — it is shed at the trailing edge when the wing begins to move. The bound circulation then generates lift: L = ρV∞Γ per unit span (Kutta-Joukowski)."
+
+- question: "Explain why a free vortex has circular streamlines yet zero vorticity away from its center. What is actually happening to the fluid parcels as they orbit?"
+  type: short-answer
+  answer: "In a free vortex, the tangential velocity decreases as V = Γ/(2πr) — faster near the center, slower far away. As a parcel moves along its circular orbit, the outer edge of the parcel moves more slowly than the inner edge. This velocity gradient exactly cancels the rotation that the curved path would impose, resulting in zero net spin. The parcel translates along a curved path without spinning about its own center — like a car driving around a circular track without the car itself rotating. Vorticity measures local spin, not path curvature."
+  explanation: "The contrast with forced (solid-body) rotation makes the distinction clear. In solid-body rotation, all parcels rotate at the same angular velocity — the angular velocity is uniform, and the vorticity is 2ω everywhere. In a free vortex, angular velocity increases as 1/r² toward the center, and the differential velocity across each parcel precisely cancels rotation. This mathematical distinction (irrotational vs. rotational flow) has physical consequences: Kelvin's theorem applies to irrotational flows, enabling the elegant conservation arguments that explain lift generation."
+```
+
 ## Explainer
 
 From fluid kinematics you know that the velocity gradient tensor ∇V can be decomposed into a symmetric rate-of-strain tensor and an antisymmetric rotation tensor. **Vorticity** ω = ∇×V is twice the antisymmetric part — it measures the instantaneous rate of rotation of a fluid element about its own center. Think of a tiny paddle wheel immersed in the flow: vorticity is the spin rate of that paddle wheel. A flow with ω = 0 everywhere is called **irrotational**, meaning fluid elements translate and deform but do not spin — even if their paths curve dramatically.

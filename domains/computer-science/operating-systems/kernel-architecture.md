@@ -31,6 +31,45 @@ Compare Linux (monolithic) and macOS/Mach (hybrid microkernel) side-by-side. Dra
 - 'Microkernel = slower' is an oversimplification; modern microkernels (e.g., seL4) can be highly performant.
 - The kernel is not the entire OS; utilities, shell, and libraries all live in user space.
 
+## Questions
+
+```yaml
+- question: "A faulty video driver causes frequent, unrecoverable system crashes on a general-purpose OS. Which architectural change would most directly address this failure mode?"
+  type: multiple-choice
+  options:
+    - "Switch to a monolithic kernel, which is faster and more optimized"
+    - "Move device drivers to user-space server processes as in a microkernel design"
+    - "Increase the size of the kernel to include more OS services"
+    - "Compile the driver with higher optimization flags to eliminate bugs"
+  answer: 1
+  explanation: "In a monolithic kernel, a buggy driver runs in kernel space with full privileges — a crash corrupts or halts the entire system. Moving drivers to isolated user-space server processes (the microkernel approach) means a crashing driver only terminates its own process; the kernel and other services remain intact. Option A is the opposite of the needed change. Option D confuses optimization with correctness isolation."
+
+- question: "In a monolithic kernel, why can two kernel components (e.g., the file system and the scheduler) call each other more efficiently than in a microkernel?"
+  type: multiple-choice
+  options:
+    - "Monolithic kernels use faster hardware because they require more memory"
+    - "Both components share the same address space, so calls are ordinary function calls with no context switching"
+    - "Microkernels prohibit direct communication between OS components"
+    - "Monolithic kernels pre-compile all components together, eliminating function call overhead"
+  answer: 1
+  explanation: "In a monolithic kernel, all components run in the same privileged address space, so one component can call another via a direct function call — the cheapest possible inter-component communication. In a microkernel, components run as separate user-space processes; communication requires IPC (context switches, message copies, privilege transitions), each of which carries significant overhead. Option C is false — microkernel components can communicate, they just do so through the kernel's IPC mechanism."
+
+- question: "A bug in a device driver can crash the entire OS in a monolithic kernel architecture."
+  type: true-false
+  answer: true
+  explanation: "In a monolithic kernel, device drivers run in kernel space alongside the scheduler, memory manager, and file system. A driver that writes to an arbitrary memory address or dereferences a null pointer corrupts kernel memory and typically triggers a system-wide crash (a kernel panic or blue screen). This is one of the primary motivations for microkernel and hybrid designs, where drivers run in isolated user-space processes and a crashing driver cannot corrupt the core kernel."
+
+- question: "The kernel constitutes the entire operating system, including the shell, standard libraries, and system utilities."
+  type: true-false
+  answer: false
+  explanation: "The kernel is only the privileged core of the OS — the layer that runs in kernel mode and mediates between hardware and programs. The shell, standard C library (libc), system utilities (ls, cp, etc.), and application frameworks all run in user space with restricted privileges. This distinction matters architecturally: 'OS' is the entire software stack; 'kernel' is just the privileged core. A common error is treating 'Linux' as synonymous with 'the Linux kernel,' when Linux distributions include enormous amounts of user-space software."
+
+- question: "Why do safety-critical systems (e.g., medical devices, avionics) tend to favor microkernel designs over monolithic kernels?"
+  type: short-answer
+  answer: "Microkernel designs isolate OS components in separate user-space processes, so a fault in any one component (a driver, a file system server) cannot corrupt the core kernel or other components. This isolation allows formal verification of the small kernel core (as in seL4), provides fault containment guarantees, and enables components to be restarted independently after failure. In safety-critical systems, predictable fault containment and the ability to formally verify the kernel's correctness outweigh the performance advantages of a monolithic design."
+  explanation: "The fundamental tradeoff is isolation vs. performance. Monolithic kernels are faster because components share an address space, but that shared space means a single fault can compromise everything. Microkernels pay a performance cost (IPC overhead) but gain strong isolation boundaries. For a medical device where a software fault could injure a patient, the ability to mathematically prove the kernel correct and contain failures within individual components is worth the performance cost."
+```
+
 ## Explainer
 
 If you have studied instruction set architecture, you know that CPUs provide privileged instructions that only certain code is allowed to execute — operations like disabling interrupts, accessing I/O ports, or modifying page tables. The kernel is the software that runs with these privileges. Everything else — your web browser, your text editor, the shell — runs in **user mode** with restricted access. The kernel is the gatekeeper: when a user program needs to do something privileged (read a file, send a network packet, allocate memory), it must ask the kernel through a **system call**, which switches the CPU from user mode to kernel mode, performs the operation, and switches back.

@@ -33,6 +33,45 @@ Analyze policy arguments in op-eds, campaign speeches, and policy papers. Notice
 - In policy argument, you should ignore opposing arguments; acknowledging and refuting strong opposing views makes policy arguments more persuasive.
 - Demonstrating that a policy would work logically is enough; audiences also need to believe the consequences matter to them.
 
+## Questions
+
+```yaml
+- question: "A policy advocate presents a detailed, data-rich argument showing that a new environmental regulation would reduce pollution by 40%. The audience remains unmoved. Which explanation from deliberative rhetoric theory is most likely correct?"
+  type: multiple-choice
+  options:
+    - "The data wasn't compelling enough — she needs stronger statistical evidence"
+    - "She failed to diagnose the stasis — the audience may already accept the facts but disagree on values (property rights, economic costs) that the argument never addressed"
+    - "Deliberative rhetoric doesn't work with policy audiences; she should have used epideictic rhetoric instead"
+    - "She should have led with emotional appeals before any data"
+  answer: 1
+  explanation: "This is the stasis problem. If the audience already accepts that the regulation would reduce pollution, presenting stronger data on that point won't move them. Their resistance may be about values (is reducing pollution worth the economic cost?), definitions (does this count as government overreach?), or causal claims (will the regulation actually work?). Diagnosing where the real disagreement lies — the stasis — and investing argumentative energy there is the core skill. Arguing at the wrong level wastes the strongest evidence."
+
+- question: "A student writing a policy argument for mandatory school uniforms deliberately omits the strongest opposing arguments to keep her essay focused. According to deliberative rhetoric theory, this approach is:"
+  type: multiple-choice
+  options:
+    - "Correct — policy arguments should present only supporting evidence to maximize persuasiveness"
+    - "Correct — acknowledging opposing arguments weakens your position by drawing attention to counterevidence"
+    - "Incorrect — policy arguments are formally incomplete until they address 'compared to what?' and acknowledge the strongest opposing case"
+    - "Incorrect only if the opposing arguments happen to be factually accurate"
+  answer: 2
+  explanation: "A deliberative argument's real question is not 'is this policy good?' but 'is this policy better than the alternatives?' An argument that only defends its preferred option hasn't answered the audience's actual question. Moreover, acknowledging and refuting strong opposing views makes the argument more persuasive, not less — audiences who see their concerns addressed are more persuadable than those who feel dismissed. The explainer states that the strongest policy arguments 'steelman opposing positions.' Ignoring them leaves the audience to assume they haven't been considered."
+
+- question: "Deliberative rhetoric concerns the future (what should we do?), while forensic rhetoric concerns the past (what happened and who is guilty?)."
+  type: true-false
+  answer: true
+  explanation: "This is the classical three-genre distinction from Aristotle: deliberative (future — what should we do?), forensic or judicial (past — what happened, is it guilty?), and epideictic (present — praising or blaming to reinforce shared values). The future orientation of deliberative rhetoric produces its characteristic moves: projection of consequences, prediction under uncertainty, comparison of alternatives, and priority-setting among competing values."
+
+- question: "In deliberative argument, demonstrating that a policy would achieve its stated goal is sufficient to persuade a reasonable audience to support it."
+  type: true-false
+  answer: false
+  explanation: "Showing that a policy would work is necessary but not sufficient. Deliberative audiences also hold competing values (freedom vs. safety, efficiency vs. equity), and they need to believe the consequences matter to them. They want to know whether this policy is better than alternatives, and whether its costs are worth its benefits. A policy argument that proves effectiveness while ignoring value conflicts, side effects, and opportunity costs has answered only one part of the audience's real question."
+
+- question: "What is 'stasis' in deliberative rhetoric, and why does diagnosing it correctly matter more than simply marshaling strong evidence?"
+  type: short-answer
+  answer: "Stasis is the contested point — the specific location of genuine disagreement. A deliberative argument can fail not because its evidence is weak but because it argues at the wrong level: presenting facts when the audience's real objection is about values, or arguing values when the actual dispute is about causation or definition. Diagnosing stasis means asking: do we disagree about facts, values, definitions, or causal claims? Then concentrating argumentative energy exactly where the resistance lies. Evidence is only persuasive when it addresses the actual source of disagreement."
+  explanation: "The stasis concept explains why technically strong arguments often fail to persuade. If someone opposes a policy for value reasons (individual freedom matters more than collective health) but your argument only provides health statistics, you have argued past each other — they've seen no reason to update their real objection. The art of deliberative rhetoric is locating where minds can actually change and building the argument at that point, not at the point where you happen to have the best evidence."
+```
+
 ## Explainer
 
 Deliberative rhetoric is the oldest and most practically consequential form of argument: it is what happens whenever citizens, legislators, or advocates try to answer the question "What should we do?" From Athenian assembly speeches to contemporary op-eds and legislative testimony, the genre is defined by its orientation toward the future and toward collective action. Where forensic rhetoric argues about past guilt or innocence, and epideictic rhetoric praises or blames to reinforce shared values, deliberative rhetoric argues about what course of action will produce the best outcomes going forward. This future orientation is what gives the genre its characteristic moves: projection, prediction, and priority-setting.

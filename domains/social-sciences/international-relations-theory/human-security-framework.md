@@ -26,6 +26,45 @@ Human security broadens IR beyond traditional military security between states t
 ## How It's Best Learned
 Compare human security frameworks with traditional state security approaches across cases: civil conflicts, refugee crises, pandemics, climate displacement. Evaluate whether human security concepts improve policy outcomes or distract from state-level conflict analysis.
 
+## Questions
+
+```yaml
+- question: "A government maintains sovereignty, defeats foreign military threats, and ranks highly on military capability indexes. However, half its population lives in poverty, lacks access to healthcare, and faces political repression. How would human security analysts evaluate this state?"
+  type: multiple-choice
+  options:
+    - "The state is secure — sovereignty and military defense are the proper criteria for security in IR"
+    - "The state is insecure across multiple dimensions — economic, health, and political security are absent for its population even though state-level military security is achieved"
+    - "This is a domestic matter outside the scope of IR theory, which addresses relations between states"
+    - "The poverty and repression are security concerns only if caused by a foreign adversary"
+  answer: 1
+  explanation: "Human security reorients the referent from the state to the individual. The seven dimensions of the UNDP framework — economic, food, health, environmental, personal, community, and political security — are absent for this population. Option (a) reflects the traditional Realist answer, which human security explicitly challenges: a state can satisfy the traditional security criterion while its people remain profoundly insecure. Options (c) and (d) reflect the state-centric logic that the human security framework argues is insufficient."
+
+- question: "The Responsibility to Protect (R2P) doctrine emerged from which core tension within the human security framework?"
+  type: multiple-choice
+  options:
+    - "The tension between great-power competition and multilateral burden-sharing"
+    - "The tension between state sovereignty (which prohibits intervention) and the obligation to protect individuals when their own government commits or enables mass atrocities"
+    - "The tension between economic development aid and military assistance priorities"
+    - "The tension between UN Security Council veto power and the rights of smaller states"
+  answer: 1
+  explanation: "Human security identifies protection of individuals as the goal of security policy. When a state itself commits atrocities against its population, the state-centric norm of non-intervention protects the perpetrator. R2P resolves this by asserting that sovereignty entails a responsibility to protect — and when states fail that responsibility, the international community may act. This directly subordinates sovereignty to human security, which is the framework's most radical departure from classical IR."
+
+- question: "Human security analysis can identify epidemic disease and climate displacement as security threats even when no hostile state is responsible."
+  type: true-false
+  answer: true
+  explanation: "The human security framework identifies threats to individual wellbeing regardless of their source. A pandemic threatens health security; climate change threatens environmental security and can drive forced migration threatening personal and community security. The state-centric framework struggles with these threats because no adversary state can be identified to deter or defeat. Human security explicitly expands the threat landscape beyond intentional state action."
+
+- question: "Critics of the human security framework argue that expanding 'security' to include poverty, disease, and climate change makes the concept more analytically precise and actionable for policymakers."
+  type: true-false
+  answer: false
+  explanation: "This is precisely the opposite of the Realist critique. Critics argue that expanding 'security' to encompass everything dilutes the concept until it loses analytical purchase — if hunger is a security issue and climate is a security issue and disease is a security issue, what is not? An overly expansive definition cannot guide the allocation of scarce resources or distinguish security problems from development problems. It may also militarize responses better handled through aid and diplomacy."
+
+- question: "Why does shifting the referent of security from the state to the individual reveal threats that remain invisible in traditional state-centric IR frameworks?"
+  type: short-answer
+  answer: "Traditional IR asks whether the state is protected from external military threats. It treats domestic conditions as internal affairs outside the security lens, and it assumes that a secure state provides security to its people. Shifting to the individual as the referent exposes two categories of invisible threats: (1) non-military, non-state threats — disease, poverty, climate — that harm individuals without any hostile state being responsible; and (2) cases where the state itself is the threat to its own population. Both are invisible in the state-centric frame because they involve no foreign adversary to deter or defeat."
+  explanation: "The 1994 UNDP report made exactly this argument: Cold War-era military spending in many developing states coexisted with mass hunger and political repression. The state was 'secure' by traditional measures while millions of its citizens were not. Human security makes these mismatches visible by insisting that the wellbeing of actual people — not the survival of states — is the ultimate goal."
+```
+
 ## Explainer
 
 From your introduction to international relations, you learned that the dominant frameworks — realism especially — treat the **state** as the primary actor and **military security** as the central problem. States protect their sovereignty, accumulate power relative to rivals, and form alliances to balance against threats. This framework was built for a world of great-power competition: it asks, "Is the state secure?" But the human security framework starts from a different question: "Are people secure?" The two questions produce very different analyses and very different policy prescriptions.

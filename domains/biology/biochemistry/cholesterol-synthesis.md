@@ -30,6 +30,45 @@ Cholesterol is synthesized primarily in the liver from acetyl-CoA through a 30+ 
 ## How It's Best Learned
 Outline the cholesterol synthesis pathway from acetyl-CoA to mevalonate to cholesterol, highlighting the major branches (squalene synthesis, steroid nucleus formation). Understand why statins are so effective at lowering cholesterol and cardiovascular disease risk.
 
+## Questions
+
+```yaml
+- question: "A patient takes a statin, which inhibits HMG-CoA reductase in liver cells. Their LDL cholesterol drops dramatically — far more than the reduction in synthesis alone would explain. What accounts for the amplified effect?"
+  type: multiple-choice
+  options:
+    - "Statins also inhibit intestinal cholesterol absorption, preventing dietary cholesterol from entering the bloodstream"
+    - "When intracellular cholesterol falls, SREBP is released from the ER membrane and upregulates LDL receptor expression, pulling more LDL from the bloodstream"
+    - "Statins activate VLDL secretion, which removes excess cholesterol from circulation"
+    - "The reduction in synthesis alone fully explains the LDL drop; the effect only appears amplified due to measurement artifacts"
+  answer: 1
+  explanation: "When HMG-CoA reductase is inhibited, intracellular cholesterol in hepatocytes falls. SREBP, sensing the deficit, is cleaved and travels to the nucleus to upregulate LDL receptor gene expression. More LDL receptors on the cell surface means more LDL is cleared from the bloodstream. This compensatory upregulation of LDL clearance amplifies the effect beyond what synthesis inhibition alone would produce — it's a two-pronged benefit from one drug target."
+
+- question: "Which of the following correctly describes why HMG-CoA reductase is the primary regulatory target in cholesterol synthesis?"
+  type: multiple-choice
+  options:
+    - "It is the first step in the pathway, so inhibiting it prevents all downstream intermediates from forming"
+    - "It catalyzes the rate-limiting irreversible step (HMG-CoA to mevalonate) where regulation concentrates, determining overall pathway flux"
+    - "It is the last step before cholesterol is formed, so inhibiting it minimally disrupts upstream metabolism"
+    - "It is uniquely sensitive to feedback from bile acids rather than cholesterol itself"
+  answer: 1
+  explanation: "HMG-CoA reductase catalyzes the rate-limiting step — the step that sets the overall pace of the pathway. This is also an irreversible step, making it a thermodynamically logical control point. Regulation at this step (by cholesterol feedback, SREBP, and phosphorylation) determines how much cholesterol the cell produces. Option A is wrong because HMG-CoA reductase is not the first step — acetyl-CoA condensation comes earlier."
+
+- question: "High intracellular cholesterol inhibits further cholesterol synthesis by directly inactivating HMG-CoA reductase through phosphorylation."
+  type: true-false
+  answer: false
+  explanation: "Cholesterol inhibits HMG-CoA reductase activity through allosteric feedback inhibition (direct product inhibition) and by trapping SREBP in the ER membrane (preventing transcription upregulation). Phosphorylation of HMG-CoA reductase does inactivate it, but this is part of the energy-sensing (AMPK-mediated) regulation, not the cholesterol-feedback mechanism. The multi-level regulation includes allosteric, transcriptional (SREBP), and covalent (phosphorylation) mechanisms acting together."
+
+- question: "Because NADPH is consumed in cholesterol synthesis, cells cannot synthesize cholesterol when they are in a low-energy state."
+  type: true-false
+  answer: true
+  explanation: "NADPH is required as a reducing agent (two molecules per mevalonate formed at the HMG-CoA reductase step). When the cell is in a low-energy state, AMPK becomes active and phosphorylates HMG-CoA reductase, inactivating it. This links cholesterol synthesis to the cell's energy status — when energy is scarce, the energetically costly cholesterol synthesis pathway is switched off. Both NADPH availability and the covalent regulation by AMPK contribute to this energy-dependent control."
+
+- question: "Explain why cholesterol synthesis is regulated at multiple levels (allosteric, transcriptional via SREBP, and covalent modification), rather than just one, and what each level contributes."
+  type: short-answer
+  answer: "Each level operates on a different timescale. Allosteric feedback (cholesterol directly inhibiting HMG-CoA reductase) is immediate — milliseconds. Covalent modification (phosphorylation/dephosphorylation) responds to energy status over seconds to minutes. SREBP-mediated transcription controls how much enzyme the cell makes, adjusting over hours to days. Together these mechanisms provide both rapid fine-tuning and long-term adaptation, preventing both cholesterol excess and deficiency across different physiological conditions."
+  explanation: "Single-layer regulation would create an on/off switch without dynamic range. Multi-level regulation allows the cell to respond quickly to acute changes while also adapting enzyme abundance to chronic conditions. This is a general principle in metabolic regulation: rate-limiting enzymes often sit at the convergence of multiple regulatory inputs, providing tight, responsive control over pathway flux."
+```
+
 ## Explainer
 
 From your study of fatty acid synthesis, you know that the cell can build complex lipid molecules from the simple two-carbon building block acetyl-CoA, using NADPH as a reducing agent. Cholesterol synthesis follows the same logic but aims at a very different product: instead of a long hydrocarbon chain, the pathway constructs a rigid four-ring **steroid nucleus** — a flat, hydrophobic scaffold that is essential for membrane structure, steroid hormone production, and bile acid synthesis.

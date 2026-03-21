@@ -29,6 +29,45 @@ Apply the isolation test for compounds (remove the other noun) and the completio
 - Hypercorrecting to "between you and I" because "I" sounds more formal; prepositions always take the objective case.
 - Abandoning "whom" entirely because it sounds archaic; while informal speech often drops it, formal and academic writing still requires the distinction.
 
+## Questions
+
+```yaml
+- question: "A colleague writes: 'The award was presented to both Sarah and I.' You know this is incorrect. What test confirms the error and gives the correct form?"
+  type: multiple-choice
+  options:
+    - "'I' is wrong because pronouns in compound lists must match the grammatical gender of the first noun — 'her' is correct"
+    - "Remove 'Sarah and' and test the pronoun alone: you would never say 'presented to I.' The preposition 'to' requires objective case: 'to both Sarah and me'"
+    - "'I' is correct here because the pronoun refers to a person who received something, making it the subject of the action"
+    - "'Sarah and I' is a fixed formal phrase — rewriting it as 'Sarah and me' would be grammatically improper in professional contexts"
+  answer: 1
+  explanation: "The isolation test cuts through the confusion of compound constructions: remove the other person and test the pronoun alone. 'The award was presented to I' is clearly wrong; 'presented to me' is clearly right. The compound 'Sarah and' doesn't change the grammatical role — the preposition 'to' takes an object, and objects require objective case ('me,' 'him,' 'her'), always, regardless of how many people are listed. The false belief that 'I' sounds more formal is pure hypercorrection."
+
+- question: "Consider: 'She likes pizza more than ___ [I/me].' The choice of pronoun changes the sentence's meaning. Which pair of completions is correct?"
+  type: multiple-choice
+  options:
+    - "'I' and 'me' are interchangeable here — any meaning difference is too subtle to matter in standard English"
+    - "'I' means she likes pizza more than I like pizza; 'me' means she likes pizza more than she likes me — completing the implied clause reveals distinct meanings"
+    - "'me' is always correct after 'than' because comparative constructions function like prepositions and require objective case"
+    - "'I' is always correct after 'than' because the pronoun is the subject of an implied verb"
+  answer: 1
+  explanation: "Comparisons with 'than' are elliptical — they have an implied verb. 'She likes pizza more than I [like pizza]' uses nominative 'I' because it is the subject of the implied 'like.' 'She likes pizza more than [she likes] me' uses objective 'me' because it is the object of the implied 'likes.' These are genuinely different sentences with different meanings. The test is to complete the implied clause — it disambiguates both grammar and meaning simultaneously."
+
+- question: "'Between you and I' is grammatically acceptable in formal English because the nominative pronoun 'I' is required in formal registers."
+  type: true-false
+  answer: false
+  explanation: "This is the most common hypercorrection in English grammar. 'Between' is a preposition, and prepositions always govern the objective case: 'between you and me,' 'between him and her,' 'between us.' The belief that 'I' sounds more educated leads speakers to apply the wrong case in an attempt to sound formal. Grammatical case is determined by syntactic function — a preposition's object takes objective case — not by social register or perceived formality."
+
+- question: "To determine whether 'who' or 'whom' is correct, you can substitute 'he' or 'him' — if 'him' fits naturally, use 'whom'; if 'he' fits, use 'who.'"
+  type: true-false
+  answer: true
+  explanation: "The he/him substitution works because 'he' and 'who' are both nominative (subject forms), while 'him' and 'whom' are both objective (object forms). 'Who called?' → 'He called' — nominative, so 'who.' 'Whom did you call?' → 'You called him' — objective, so 'whom.' In relative clauses, you must identify the pronoun's role within its own clause: 'the person who called me' (who = subject of 'called') vs. 'the person whom I called' (whom = object of 'I called')."
+
+- question: "What single underlying principle governs pronoun case in all three tricky situations — compounds, comparisons, and who/whom — and why does it matter that this principle is about grammatical function rather than social register?"
+  type: short-answer
+  answer: "The single principle is: the pronoun's case is determined by its grammatical function in its own slot — nominative for subjects, objective for objects — regardless of the sentence's complexity or social context. It matters that this is about function and not formality because the most common errors ('between you and I,' 'whom I trust to lead when it should be who') are driven by social pressure to sound educated, which produces hypercorrection. Understanding that case follows function lets you apply a reliable test instead of guessing by perceived formality."
+  explanation: "The isolation test (compounds), the clause-completion test (comparisons), and the he/him substitution (who/whom) are all versions of the same question: what grammatical role is this pronoun playing? Subject → nominative; object → objective. Once you internalize this, the three constructions stop being three separate rules and become one principle applied in three contexts."
+```
+
 ## Explainer
 
 You already know that English pronouns change form depending on their grammatical role: "I" is the subject form, "me" is the object form, "my" is possessive. The rule is clean in simple sentences — "I called her" gets the cases right because there is nothing confusing about a single subject and a single object. The difficulty arises in three specific constructions where speakers routinely misjudge which role a pronoun is playing.

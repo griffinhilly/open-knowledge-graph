@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 The null subject parameter explains why some languages (Spanish, Italian, Polish) permit sentences like 'Hablas español' (omitting 'you') while others (English, French) require overt subjects. The parameter governs whether verb morphology is rich enough to identify subjects independently, and interacts with other properties like word order freedom and subject-auxiliary inversion patterns.
 
+## Questions
+
+```yaml
+- question: "Spanish allows 'Habla María' (subject follows the verb, no expletive filler), while English requires 'Mary speaks' and 'It is raining.' What best explains both contrasts?"
+  type: multiple-choice
+  options:
+    - "Spanish has a richer literary tradition that tolerates more word-order variation"
+    - "English requires an overt subject even in expletive constructions because English verb morphology cannot uniquely identify subjects, while Spanish verb forms carry enough agreement information to recover the subject independently"
+    - "Spanish permits free word order in all sentence types, whereas English has strict SVO order due to its Germanic heritage"
+    - "English pronouns are phonologically weak and must be spoken, while Spanish pronouns are phonologically strong and therefore optional"
+  answer: 1
+  explanation: "The null subject parameter is tied to morphological richness: Spanish 'hablas' can only mean 'you speak' — the verb form uniquely determines the person and number of the subject. English 'speak' is compatible with I/you/we/they, so an overt subject is required for referential clarity. This also explains expletives like 'It is raining': the subject position must be filled in English even when there's nothing meaningful to say about it."
+
+- question: "Japanese and Chinese allow null subjects but lack the rich person/number verb agreement morphology that Spanish has. What does this most directly suggest?"
+  type: multiple-choice
+  options:
+    - "Japanese and Chinese are not genuine null-subject languages — their omitted subjects are better analyzed as topic-drop"
+    - "Null subject is a surface property that multiple different underlying mechanisms can produce, so 'null subject language' may cover several distinct parameter settings"
+    - "Verb morphology is not actually required for the null subject parameter — the real trigger is prosodic rather than morphological"
+    - "Japanese and Chinese must have covert agreement features that function like the overt agreement morphology in Spanish"
+  answer: 1
+  explanation: "This is a key complication: Japanese and Chinese look like null-subject languages on the surface but the mechanism differs from Spanish/Italian. Spanish null subjects are licensed by rich agreement morphology; Japanese/Chinese null subjects may reflect topic-drop, discourse-governed deletion, or different structural mechanisms. This shows that 'null subject language' is a heterogeneous category at the surface level, and the deeper parameter(s) may be distinct across language families — an active research question in syntax and typology."
+
+- question: "In a null-subject language like Spanish, the verb form 'hablas' can uniquely identify the subject as second-person singular without any overt pronoun."
+  type: true-false
+  answer: true
+  explanation: "'Hablas' can only mean 'you (singular) speak' — no other person-number combination maps onto this inflected form. This is what 'rich agreement morphology' means: the verb itself encodes enough grammatical information to recover the subject's reference, making an overt pronoun (tú) redundant rather than required."
+
+- question: "English 'It is raining' shows that English is a partial null-subject language because the subject 'it' has no real referential content — it is essentially absent semantically."
+  type: true-false
+  answer: false
+  explanation: "This is a subtle but important distinction: 'it' in English expletive constructions is an *overt* subject — it is phonologically present and fills the required subject position. English obligatorily requires something in the subject slot, even when there is no meaningful referent, which is why a semantically empty placeholder must be inserted. A true null-subject language like Italian would simply have no overt element: 'Piove' ('rains') with nothing in the subject position — not even a dummy pronoun."
+
+- question: "Why does the null subject parameter predict not just whether pronouns can be dropped but also whether a language allows free subject-verb inversion (e.g., 'Habla María' in Spanish)?"
+  type: short-answer
+  answer: "If verb morphology uniquely identifies the subject, the subject's position in the sentence is not needed for reference recovery — it can appear after the verb or be absent entirely without ambiguity. English requires the subject before the verb partly because the verb form alone doesn't tell you who is speaking/doing; moving the subject post-verbally would create interpretive confusion. The parameter is a cluster: rich agreement licenses both null subjects AND free inversion because both follow from the same underlying property — that the verb carries its own referential load."
+  explanation: "This cluster property is evidence that the null subject setting is a real syntactic parameter rather than an arbitrary language-specific quirk. It also predicts different behavior in that-trace constructions: Italian allows 'Chi pensi che abbia vinto?' ('Who do you think that won?') with an empty subject after the complementizer, while English disallows the equivalent because the subject position must be filled. Multiple surface contrasts follow from one binary setting."
+```
+
 ## Explainer
 
 From your work on movement and transformations, you know that syntactic structures involve more than the words you hear — positions can be filled by empty elements whose presence is inferred from morphological and syntactic evidence. The null subject parameter is the best-studied example of a **syntactic parameter**: a binary grammatical setting that generates a cluster of surface differences between languages, all deriving from a single underlying property.

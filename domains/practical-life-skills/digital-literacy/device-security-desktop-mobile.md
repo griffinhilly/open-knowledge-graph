@@ -33,6 +33,45 @@ Check for pending updates on your device and install them. Review your lock scre
 - Antivirus software significantly slows your device.
 - You don't need to update if your device is working fine.
 
+## Questions
+
+```yaml
+- question: "A user's laptop is running perfectly — no crashes, fast performance, no visible problems. A software update is available for the operating system. The user decides to skip it. What is the primary security risk?"
+  type: multiple-choice
+  options:
+    - "The device will become incompatible with new applications over time"
+    - "The device may be vulnerable to exploits targeting known flaws that the update patches — and attackers actively scan for unpatched systems"
+    - "Performance will degrade as the OS ages without updates"
+    - "The device's encryption will stop working without the update"
+  answer: 1
+  explanation: "The critical window in device security is between when a vulnerability becomes publicly known and when users apply the patch. Attackers actively scan for unpatched systems because they know exactly which flaws to exploit. A device that is 'working fine' gives no visible sign that it has been compromised — successful exploits are often silent. The update is not about fixing perceived problems; it is about closing known doors before attackers use them."
+
+- question: "A user only uses their smartphone for personal photos and messaging — no banking apps, no work email. They conclude the phone needs minimal security attention. What is the flaw in this reasoning?"
+  type: multiple-choice
+  options:
+    - "Smartphones need no antivirus because app stores filter all malware"
+    - "Messaging apps are inherently secure because they use end-to-end encryption"
+    - "Phones hold sensitive personal data (contacts, location history, photos) and face the same malware, phishing, and physical access threats as desktops"
+    - "The reasoning is sound — smartphones with no financial apps need only a basic PIN"
+  answer: 2
+  explanation: "Smartphones carry personal data that is often more sensitive than what's on a desktop: contacts, location history, private photos, and access to messaging. They face the same threat landscape — malicious apps, phishing links, spyware, and physical access attacks. The misconception that mobile devices need less security leads users to skip updates, ignore suspicious apps, and use weak PINs on devices that contain highly personal information."
+
+- question: "Physical access to a device is the most underestimated security layer — an unlocked device can be compromised in seconds."
+  type: true-false
+  answer: true
+  explanation: "USB-based attacks, malware installation, and direct data copying can be accomplished in seconds if a device is unlocked and unattended. Auto-lock timers (30–60 seconds), strong PINs, and biometric authentication all protect against opportunistic access — from a curious bystander to outright theft. Treat your device as you'd treat your wallet: it should be inaccessible to anyone without authentication."
+
+- question: "Mobile devices require less security attention than desktop computers because their operating systems are more secure by design."
+  type: true-false
+  answer: false
+  explanation: "This is one of the most dangerous misconceptions in device security. Mobile operating systems have security features, but smartphones face the same threat categories as desktops: outdated software vulnerabilities, malicious apps, phishing attacks, and physical access risks. The personal data on a typical phone (location history, banking apps, private messages, contacts) is often more sensitive than data on a desktop. 'More secure by design' does not mean 'requires less ongoing security practice.'"
+
+- question: "Why is the window between a vulnerability being publicly disclosed and users applying the patch especially dangerous — and how does enabling automatic updates reduce this risk?"
+  type: short-answer
+  answer: "Once a vulnerability is publicly known, attackers have precise knowledge of what flaw to exploit and which unpatched systems are vulnerable. They actively scan for and target unpatched systems. The longer a user delays the patch, the longer they remain exposed to targeted attacks. Enabling automatic updates minimizes this window by applying patches as soon as they are released, removing the delay caused by manual update decisions and turning a recurring security decision into a one-time configuration choice."
+  explanation: "The key insight is that 'working fine' is not evidence of security — a successfully exploited device often shows no visible signs. The update cycle is a continuous adversarial race: attackers look for disclosed vulnerabilities in unpatched systems, and automatic updates ensure you stay ahead of them rather than falling behind."
+```
+
 ## Explainer
 
 From operating system fundamentals, you know that software runs in layers — the OS manages hardware resources, and applications run on top of it. From account security, you know that credentials protect access to accounts. Device security adds a third layer of protection: securing the device itself, at the hardware and OS level, before any account or application is even reached. Think of it as three nested perimeters: physical access to the device, the device lock screen, and then account credentials. Attackers look for the weakest perimeter, so all three need attention.

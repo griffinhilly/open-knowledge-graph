@@ -31,6 +31,45 @@ Remove the tank lid and flush while watching the mechanism in action — you wil
 - Toilet repairs require a plumber — the internal tank components (flapper, fill valve, flush valve) are standardized, sold at any hardware store, and designed for tool-free or simple-wrench installation; the average homeowner can handle them.
 - Putting a brick in the tank saves water effectively — bricks deteriorate and can damage the flapper or clog the flush valve; if you want to reduce water per flush, adjust the fill valve float height or install a dual-flush conversion kit.
 
+## Questions
+
+```yaml
+- question: "Your toilet 'runs' briefly every 20–30 minutes even when no one has flushed it. What is the most likely cause?"
+  type: multiple-choice
+  options:
+    - "The fill valve is filling the tank too slowly, causing intermittent cycling"
+    - "High water pressure is triggering the flush mechanism spontaneously"
+    - "The flapper is leaking, allowing water to slowly escape to the bowl until the tank level drops and triggers the fill valve"
+    - "The wax ring is failing, causing water to leak beneath the toilet and back into the tank"
+  answer: 2
+  explanation: "A flapper that doesn't seal properly allows water to trickle from the tank into the bowl continuously. As the tank level falls, the fill valve eventually kicks in to refill it — creating the characteristic 'phantom flush' cycle. The food-coloring test confirms this diagnosis: add dye to the tank and if color appears in the bowl without flushing, the flapper is the culprit."
+
+- question: "A toilet is rocking slightly from side to side when sat on. What does this most likely indicate?"
+  type: multiple-choice
+  options:
+    - "The flush valve is damaged and needs internal tank replacement"
+    - "The fill valve float is set too high, creating pressure imbalance"
+    - "The closet bolts at the base are loose or corroded, possibly with a failing wax ring — the toilet may need to be removed and reset"
+    - "The supply line connection is loose at the wall valve"
+  answer: 2
+  explanation: "Rocking indicates loose floor bolts (closet bolts) or a compromised wax ring seal at the base. A toilet that rocks can break the wax ring seal, allowing sewer gas and water to escape beneath the toilet with each flush — potentially causing significant floor damage before it becomes visible. This is a different category of repair from tank components: it requires removing and resetting the toilet."
+
+- question: "A running toilet is a minor annoyance that can be deferred for weeks because the toilet still flushes normally."
+  type: true-false
+  answer: false
+  explanation: "A running toilet is one of the most costly-to-ignore household problems. A leaking flapper can waste 200+ gallons of water per day, substantially increasing your water bill. The repair takes roughly 10 minutes and costs under $5 for a replacement flapper. 'It still flushes' is not a reason to defer — the water is escaping continuously between flushes."
+
+- question: "You can diagnose a leaking flapper without disassembling the toilet by adding food coloring to the tank and checking whether color migrates to the bowl."
+  type: true-false
+  answer: true
+  explanation: "This is the definitive flapper test. Add a few drops of food coloring to the tank (not the bowl) and wait 15 minutes without flushing. If color appears in the bowl, the flapper is not sealing and water is trickling through. The test works because the flapper is the only connection between tank and bowl — any leak shows up immediately in the bowl's color."
+
+- question: "The tank contains three main components that each produce a distinct symptom when they fail. Name the three components and the symptom each causes."
+  type: short-answer
+  answer: "(1) Flapper — when worn or unsealed, causes a constantly running toilet (water trickles from tank to bowl between flushes). (2) Fill valve — when failing, causes slow refill, a whistling or humming sound, or inability to shut off. (3) Wax ring (at the toilet base, not inside the tank) — when failing or with loose closet bolts, causes rocking and water leaking at the base after flushing."
+  explanation: "Mapping symptoms to components is the key diagnostic skill. The tank components (flapper, fill valve) are cheap, standardized parts sold at any hardware store — DIY replaceable in under 15 minutes. The wax ring repair is more involved (requires lifting the toilet) but still within DIY capability if you follow the sequence carefully."
+```
+
 ## Explainer
 
 From your plumbing fundamentals, you know that household plumbing involves supply lines (pressurized water coming in) and drain lines (gravity-fed waste going out). A toilet uses both: the tank holds a reservoir of supply water at low pressure, and when you flush, that water rushes into the bowl and forces waste down the drain by hydraulic pressure. The toilet's tank mechanism is entirely self-contained, which is why it is one of the most DIY-friendly repairs in the house — you can work on it without touching the main water supply or the drain.

@@ -28,6 +28,45 @@ Derive each by setting B = A in the corresponding sum identity. Emphasize the th
 - Not recognizing that the power-reduction formulas are just rearrangements of cos(2A).
 - Failing to choose the most convenient form of cos(2A) for a given problem.
 
+## Questions
+
+```yaml
+- question: "A student computes sin(60°) by writing: sin(60°) = sin(2 × 30°) = 2sin(30°) = 2 × (1/2) = 1. What error did they make?"
+  type: multiple-choice
+  options:
+    - "sin(60°) cannot be written as sin(2 × 30°)"
+    - "They omitted the cos(30°) factor — the correct identity is sin(2A) = 2sin(A)cos(A)"
+    - "The double angle formula applies only to cosine, not to sine"
+    - "sin(30°) = 1/2 is incorrect"
+  answer: 1
+  explanation: "The most common error with double angle identities is writing sin(2A) = 2sin(A), which is wrong. The correct formula is sin(2A) = 2sin(A)cos(A). The missing cos(A) factor is essential — it comes from setting B = A in sin(A + B) = sinA cosB + cosA sinB, where both terms merge into 2sinA cosA. The correct computation: sin(60°) = 2sin(30°)cos(30°) = 2·(1/2)·(√3/2) = √3/2 ≈ 0.866."
+
+- question: "You need to evaluate ∫cos²(x) dx. Which form of the double angle identity is most directly useful?"
+  type: multiple-choice
+  options:
+    - "cos(2A) = cos²A − sin²A, to convert to a difference of squares"
+    - "cos(2A) = 2cos²A − 1, rearranged to cos²A = (1 + cos 2A)/2"
+    - "cos(2A) = 1 − 2sin²A, to convert the integrand to a sine expression"
+    - "tan(2A) = 2tanA / (1 − tan²A), to rewrite in terms of tangent"
+  answer: 1
+  explanation: "The power-reduction formula cos²A = (1 + cos 2A)/2 transforms a squared trig function into a first-power function of a doubled angle, which integrates directly: ∫cos²x dx = ∫(1 + cos 2x)/2 dx = x/2 + sin(2x)/4 + C. This is the standard approach for integrating even powers of trig functions in calculus. The form cos²A − sin²A isn't helpful here because it introduces sin²A, creating a new squared trig function to handle."
+
+- question: "The double angle identities are independent results that require separate memorization from the sum identities."
+  type: true-false
+  answer: false
+  explanation: "Double angle identities are not independent — they are the sum identities evaluated at the special case B = A. Setting B = A in sin(A + B) = sinA cosB + cosA sinB immediately gives sin(2A) = 2sinA cosA. Setting B = A in cos(A + B) = cosA cosB − sinA sinB gives cos(2A) = cos²A − sin²A. No new machinery is needed. The identities are worth recognizing on sight for speed, but understanding them as special cases of the sum formulas means you can always rederive them if you forget."
+
+- question: "The power-reduction formula cos²A = (1 + cos 2A)/2 is an algebraic rearrangement of the double angle identity cos(2A) = 2cos²A − 1."
+  type: true-false
+  answer: true
+  explanation: "Starting from cos(2A) = 2cos²A − 1: add 1 to both sides to get 1 + cos(2A) = 2cos²A, then divide by 2 to get cos²A = (1 + cos 2A)/2. These are the same equation, read from different directions. The power-reduction form is just the double angle identity solved for cos²A. Similarly, sin²A = (1 − cos 2A)/2 comes from rearranging cos(2A) = 1 − 2sin²A. The 'two' forms are literally one identity."
+
+- question: "Why does cos(2A) have three equivalent forms, and how do they all arise from a single starting identity?"
+  type: short-answer
+  answer: "All three forms start from cos(2A) = cos²A − sin²A, which comes from setting B = A in the cosine sum formula. The Pythagorean identity sin²A + cos²A = 1 allows substitution in two directions: replacing sin²A = 1 − cos²A gives cos(2A) = 2cos²A − 1; replacing cos²A = 1 − sin²A gives cos(2A) = 1 − 2sin²A. Each form eliminates one of the two trig functions, which is useful when a problem already has one of them — you choose the form that reduces the number of distinct functions in the expression."
+  explanation: "The three forms are most useful in different contexts: cos²A − sin²A when both are present and you want a single cosine; 2cos²A − 1 when only cosine appears; 1 − 2sin²A when only sine appears. In integration, you usually want a form with only one function, leading to the power-reduction formulas. Knowing the Pythagorean identity is what unlocks the flexibility — it's the bridge between all three."
+```
+
 ## Explainer
 
 You derived the sum identities — formulas expressing sin(A + B) and cos(A + B) in terms of functions of A and B separately. Double angle identities are what you get when you set B = A in those formulas. There is no new machinery: it is the same algebra applied to a special case. But the resulting formulas are used so often they deserve their own name and immediate recognition.

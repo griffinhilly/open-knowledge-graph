@@ -33,6 +33,45 @@ Always identify the direction of motion or impending motion first — the tight 
 - Reversing the tight and slack sides, which inverts the tension ratio and produces physically impossible results.
 - Assuming the belt friction equation applies at any tension level — it applies only at the condition of impending slip or full slip, not when the belt is slack or freely running.
 
+## Questions
+
+```yaml
+- question: "A rope wraps 2.5 times around a capstan (β = 5π rad) with μ = 0.25. Approximately how much force must a person exert to hold a 2,000 N load?"
+  type: multiple-choice
+  options:
+    - "About 500 N — the capstan gives roughly 4× mechanical advantage"
+    - "About 2,000 N — friction only helps when the load is moving"
+    - "About 40 N — the exponential ratio e^(0.25 × 5π) ≈ 52 divides the load"
+    - "About 200 N — each full wrap doubles the advantage"
+  answer: 2
+  explanation: "e^(0.25 × 5π) = e^(3.93) ≈ 51, so T_slack = 2000 / 51 ≈ 39 N — about 40 N. This illustrates the exponential amplification: a person exerting ~40 N controls a 2,000 N load. Option A assumes linear advantage. Option B is wrong because static friction is what allows the capstan to hold a static load at all. Option D assumes doubling per wrap, which would be linear growth — but friction compresses multiplicatively, making each wrap multiply (not add to) the advantage."
+
+- question: "A V-belt and a flat belt have identical geometry, material, and operating conditions, but the V-belt transmits far more torque before slipping. What explains this?"
+  type: multiple-choice
+  options:
+    - "V-belts are made of stronger material and withstand higher tension"
+    - "V-belts have a longer contact arc because the groove guides them deeper"
+    - "When a V-belt seats in its groove, the angled groove walls generate much larger normal forces for the same belt tension, producing more friction"
+    - "V-belts have higher wrap angles because the groove geometry forces them around the pulley"
+  answer: 2
+  explanation: "The V-belt advantage is purely geometric. When a belt seats in a V-groove, its tension is balanced by normal forces from both angled groove walls — not from a flat surface below. Because the walls are steep, the normal forces must be large to support the belt tension. More normal force means more friction force at the same coefficient μ. The effective friction becomes μ/sin(α), where α is the groove half-angle. At α = 18°, sin(18°) ≈ 0.31, giving effective μ ≈ 3.2× that of a flat belt. Material and wrap angle are held constant in the comparison, so Options A and D are incorrect."
+
+- question: "The capstan equation T_tight = T_slack · e^(μβ) applies only at the condition of impending slip — it cannot be used to find the actual tension ratio when the system is well within the friction limit."
+  type: true-false
+  answer: true
+  explanation: "The capstan equation is derived by setting friction equal to its maximum value μN (Coulomb's law at impending slip). Below this threshold, actual friction is less than μN and the tension ratio can be anywhere from 1.0 up to e^(μβ). The equation gives the maximum holding capacity, not the operating tension at any arbitrary load. Applying it to a freely-running or lightly-loaded belt to predict actual tensions produces incorrect results."
+
+- question: "A student substitutes the wrap angle in degrees (β = 180°) instead of radians (β ≈ 3.14) into the capstan formula. The resulting error in the tension ratio is modest — roughly a factor of 2."
+  type: true-false
+  answer: false
+  explanation: "The error is catastrophic, not modest, because β appears in an exponent. With μ = 0.3 and a 180° wrap: correct calculation gives e^(0.3 × π) = e^0.94 ≈ 2.6. Using degrees gives e^(0.3 × 180) = e^54 ≈ 3 × 10^23 — a physically meaningless number. The factor-of-57 difference between the numerical values of radians and degrees is amplified exponentially. This is why using radians is not merely a convention but a calculation requirement."
+
+- question: "Explain in physical terms why the tension ratio in the capstan equation grows exponentially with wrap angle, rather than linearly."
+  type: short-answer
+  answer: "Each small arc element generates a friction force proportional to the local tension at that element. Higher tension produces higher normal force on the next element, which produces more friction, which increases tension further. This self-amplifying process — larger tension leads to larger normal force leads to more friction leads to larger tension — compounds around the arc exactly like compound interest. The differential equation dT/dθ = μT has an exponential solution because friction at each point is proportional to the current tension, not a fixed value."
+  explanation: "The contrast with a linear model is instructive: if friction were proportional to arc length alone (independent of tension level), the tension ratio would grow linearly with wrap angle. Instead, because friction depends on the local normal force, which depends on the local tension, you get multiplicative compounding. This is the same mathematical structure as exponential growth in populations or investments — each increment multiplies the existing quantity rather than adding a fixed amount."
+```
+
 ## Explainer
 
 The belt friction equation emerges from the same Coulomb friction you already know — F ≤ μN — applied to an infinitesimally small arc element of a belt. Consider a tiny segment of belt spanning angle dθ: it is pulled by tension T on one side and T + dT on the other, and the curved surface pushes back with a normal force dN. Balancing radial forces gives dN = T dθ, and the friction force at impending slip is dF = μ dN = μT dθ. Substituting into the tangential force balance dT = dF gives dT/dθ = μT — a differential equation whose solution is the **capstan equation**: T_tight = T_slack · e^(μβ).

@@ -41,6 +41,45 @@ Construct controllability and observability matrices for 2nd and 3rd order syste
 - Controllability and observability depend on the placement of actuators and sensors (B and C matrices), not only on the plant dynamics (A matrix).
 - The rank of the controllability matrix can be misleading near the threshold for numerically ill-conditioned systems; condition number analysis provides more reliable insight.
 
+## Questions
+
+```yaml
+- question: "You test controllability for a 3rd-order system and find rank(𝒞) = 2. Which statement is most accurate?"
+  type: multiple-choice
+  options:
+    - "The system has one unstable mode that feedback cannot fix"
+    - "There exists one direction in state space that the input cannot influence, regardless of the control law applied"
+    - "The system cannot be stabilized under any circumstances"
+    - "The B matrix must be incorrect since rank should equal n for any physical system"
+  answer: 1
+  explanation: "A rank deficiency of 1 means one direction in state space lies outside the column span of [B, AB, …, Aⁿ⁻¹B]. The input simply has no effect on that mode. This does not by itself mean the system is unstable — an uncontrollable mode that is also stable (negative eigenvalue) will decay on its own. Only an uncontrollable *unstable* mode is catastrophic. Option A conflates uncontrollability with instability, which is a common and consequential error."
+
+- question: "A control engineer moves an actuator to a different location on the plant, keeping the same A matrix but changing B. The controllability matrix rank drops from n to n−1. What is the most precise explanation?"
+  type: multiple-choice
+  options:
+    - "The plant dynamics changed, making one eigenvalue uncontrollable"
+    - "One mode of the system is now uncontrollable because B changed, even though A is identical"
+    - "The system is now unstable due to the actuator placement"
+    - "The PBH test is no longer valid; the Kalman test must be used instead"
+  answer: 1
+  explanation: "Controllability depends on the pair (A, B), not on A alone. Moving an actuator changes the B matrix — which directions in state space the input directly enters — without altering the plant's intrinsic dynamics (A). A poor placement can make some modes unreachable from the new actuator position. This is exactly why controllability analysis must be re-run whenever sensor or actuator placement changes, not just when the plant dynamics are modified."
+
+- question: "Moving a sensor to a different location on a plant with the same A matrix can change whether the system is observable, even though the plant dynamics are unchanged."
+  type: true-false
+  answer: true
+  explanation: "Observability depends on the pair (A, C), and C encodes sensor placement — it maps the state to the measured output. Changing the sensor location changes C, which changes the observability matrix 𝒪 = [C; CA; …; CAⁿ⁻¹]. A new sensor position may fail to 'see' certain modes, destroying observability even though the plant's A matrix is identical. This is the observability analogue of the controllability dependence on B."
+
+- question: "An uncontrollable mode in a state-space system is always unstable and must be addressed before feedback can stabilize the system."
+  type: true-false
+  answer: false
+  explanation: "An uncontrollable mode is simply one the input cannot influence — it evolves according to its own eigenvalue regardless of what control is applied. If that eigenvalue has a negative real part (stable mode), the mode decays to zero on its own; it is benign. Only an uncontrollable *unstable* mode (positive real-part eigenvalue) is catastrophic, because it grows and no feedback can move its eigenvalue. The dangerous distinction is uncontrollable-and-unstable, not merely uncontrollable."
+
+- question: "Why does the Kalman controllability matrix stop at Aⁿ⁻¹B rather than including AⁿB and higher powers, and what theorem justifies this?"
+  type: short-answer
+  answer: "The Cayley-Hamilton theorem states that every matrix satisfies its own characteristic polynomial, so Aⁿ can be expressed as a linear combination of I, A, …, Aⁿ⁻¹. This means AⁿB lies in the column span of [B, AB, …, Aⁿ⁻¹B], adding no new reachable directions. The same applies to all higher powers. Therefore the first n columns of the infinite power series fully characterize the reachable subspace, and rank([B AB … Aⁿ⁻¹B]) is the complete test."
+  explanation: "This result is important because it makes the Kalman rank test finite and computable. Without Cayley-Hamilton, you might worry that longer sequences of input-propagation steps could reach new state-space directions — but the theorem guarantees they cannot. The controllability matrix is exactly as wide as it needs to be."
+```
+
 ## Explainer
 
 In state-space representation, the system dynamics are encoded in two objects: the **A matrix** (how states evolve autonomously) and the **B matrix** (how inputs influence states). A reasonable assumption might be that since we can pick any input signal, we have complete freedom to push the system anywhere. But this is wrong — certain state variables may be completely hidden from the input, forming "decoupled modes" that evolve independently no matter what we do. **Controllability** is the formal test for whether this problem exists.

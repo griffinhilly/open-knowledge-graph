@@ -29,6 +29,45 @@ Rehearse a speech at least three times using different methods — once from a f
 - Memorizing a speech word-for-word is not the goal of rehearsal; the goal is internalizing the structure and key language so delivery can be flexible and responsive.
 - One run-through is not rehearsal — it is a first draft of performance, and like any first draft, it needs revision.
 
+## Questions
+
+```yaml
+- question: "A speaker knows her material thoroughly and has read through her outline many times mentally. On the day of the speech, she fumbles her pacing, loses her place mid-sentence, and speaks too quickly under pressure. What most likely explains this gap between preparation and performance?"
+  type: multiple-choice
+  options:
+    - "She did not know the content well enough — more mental review was needed"
+    - "She rehearsed only mentally, not aloud — speaking engages motor and respiratory systems that mental review does not activate"
+    - "She needed a word-for-word script to avoid getting lost"
+    - "Her anxiety was the root cause, and rehearsal cannot address anxiety"
+  answer: 1
+  explanation: "Speaking aloud is a physical act involving breath control, articulation, pacing, and posture — systems that mental rehearsal does not train. A speaker who knows the content perfectly in her head may still fumble the delivery because her body has not practiced the act. Pacing problems, rushed delivery under stress, and losing one's place are all symptoms of under-rehearsed motor execution, not inadequate content knowledge. Option C points toward the opposite of expert advice: word-for-word memorization typically produces rigid, unresponsive delivery rather than curing fumbling."
+
+- question: "Why is recording yourself considered the most efficient single rehearsal tool for improving delivery?"
+  type: multiple-choice
+  options:
+    - "Recording creates external accountability, which motivates better performance"
+    - "While performing, you cannot accurately monitor your own delivery — recording captures what you actually did, not what you thought you were doing"
+    - "Recordings can be shared with audiences in advance so they know what to expect"
+    - "Recording preserves the speech for later reference in case you forget it"
+  answer: 1
+  explanation: "The fundamental problem with self-monitoring during performance is divided attention: your cognitive resources are consumed by the act of speaking, so you cannot simultaneously observe yourself accurately. A speaker who believes they maintained good eye contact, varied their vocal tone, and avoided filler words may discover on playback that they looked at the floor constantly, spoke in a monotone, and said 'um' forty times. The recording provides an objective external view that is unavailable during performance itself. This is not about motivation (Option A) but about the structural limitation of self-monitoring during a demanding task."
+
+- question: "Rehearsing a speech by silently reading through your outline in your head is not an adequate substitute for speaking aloud."
+  type: true-false
+  answer: true
+  explanation: "Mental rehearsal and physical rehearsal engage different systems. Reading silently activates comprehension and memory but not the motor programs that govern articulation, breath management, projection, pacing, and gesture. The vocal tract, diaphragm, and postural muscles need to actually practice the act of speaking. Even a single out-loud rehearsal, however imperfect, prepares the body in ways that hours of mental review cannot. Experienced speakers know this intuitively — they always rehearse aloud, even when they know the material cold, because knowing content and delivering it fluently are separate skills."
+
+- question: "The goal of speech rehearsal is to memorize the speech word-for-word so that it can be reproduced exactly as planned."
+  type: true-false
+  answer: false
+  explanation: "Memorizing a speech verbatim is counterproductive for most speaking contexts. Word-for-word memorization produces rigid delivery: if the speaker loses their place, they may freeze completely because they have no structure to fall back on. It also tends to sound recited rather than conversational. The actual goal of rehearsal is to internalize the speech's structure and key language so thoroughly that the speaker can move through the argument fluidly while remaining responsive to the audience, adjusting pacing or emphasis in the moment. Flexibility — not exact reproduction — is the target."
+
+- question: "Why should content rehearsal precede delivery rehearsal, and what goes wrong if a speaker inverts this order?"
+  type: short-answer
+  answer: "Content rehearsal — verifying that you can move from start to finish without losing your place or omitting a key section — must come first because polishing delivery on a structurally flawed speech wastes the effort. If the transition between your second and third points doesn't flow, or your conclusion is underdeveloped, no amount of vocal variety or gesture refinement will fix those problems. Discovering them in delivery rehearsal forces you to restructure the speech after you've already invested time in performance refinement. Working content to completion first means delivery rehearsal can focus purely on how the speech sounds and feels, not on whether the argument works."
+  explanation: "The analogy is editing versus proofreading: you fix structural and logical problems in editing (content rehearsal) before spending time on word-level polish (delivery rehearsal). A speech with perfect vocal delivery and a broken argument is still a bad speech. This ordering also helps the speaker build genuine confidence — after content rehearsal, they know they can get through the speech; delivery rehearsal then fine-tunes how well they can get through it."
+```
+
 ## Explainer
 
 You've received feedback on speeches through **speech critique and feedback**, which means you now have a picture of what good delivery looks like. Rehearsal is how the gap between your current performance and that picture gets closed — iteratively, through repeated practice with deliberate focus on specific elements. The key word is *deliberate*: undirected repetition does not improve performance. Targeted practice on identified weaknesses does.

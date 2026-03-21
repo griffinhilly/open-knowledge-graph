@@ -32,6 +32,45 @@ For each scenario, first determine whether flux is increasing or decreasing, the
 - Lenz's law does not prevent the change — it merely opposes it (like friction opposes motion but doesn't stop it).
 - The opposition requires energy input from whatever is changing the flux — magnetic braking is a direct consequence.
 
+## Questions
+
+```yaml
+- question: "A bar magnet with its north pole toward a conducting loop is being pulled away. The induced current in the loop will:"
+  type: multiple-choice
+  options:
+    - "Flow in the same direction as when the magnet was approaching"
+    - "Create a magnetic field that repels the receding magnet, speeding its departure"
+    - "Create a magnetic field that attracts the receding magnet, opposing the decrease in flux"
+    - "Vanish immediately, since the magnet is no longer approaching"
+  answer: 2
+  explanation: "As the magnet recedes, the flux through the loop is decreasing. Lenz's law says the induced current must oppose the change — here, it must oppose the decrease — so it creates a field in the same direction as the original (north-facing) field to maintain the flux. By the right-hand rule this produces a current that, from the magnet's side, makes the loop look like a north pole, attracting the receding magnet. Option B has the direction exactly backwards — a field opposing the receding magnet's motion would attract it, not repel it. Option A is wrong because the direction reverses when the change reverses."
+
+- question: "Which is the deepest reason why the induced current cannot flow in the direction that aids the flux change?"
+  type: multiple-choice
+  options:
+    - "Faraday's law limits the magnitude of induced EMF, preventing a large enough aiding current"
+    - "The resistance of the loop dissipates energy before the aiding current can grow large enough to matter"
+    - "An aiding current would cause the flux to grow indefinitely, generating unlimited energy from no external source — violating conservation of energy"
+    - "Lenz's law is an empirical rule with no known theoretical justification"
+  answer: 2
+  explanation: "If the induced current aided the flux change instead of opposing it, increasing flux would induce a current that increases the flux further, which induces more current, in a runaway chain that produces limitless energy. This violates conservation of energy, which is why it cannot happen. Lenz's law is not an empirical accident — it is conservation of energy applied to electromagnetic induction. The external agent changing the flux must do work against the opposing force, and that work is the source of the electrical energy dissipated in the loop."
+
+- question: "Lenz's law states that the induced current opposes the magnetic flux through the loop."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misstatement of Lenz's law. The induced current opposes the *change* in flux, not the flux itself. If a large flux is steady (not changing), there is no induced current at all. If the flux is decreasing, the induced current creates a field in the same direction as the existing flux — it is 'helping' maintain the flux, which means it is opposing the decrease. Confusing flux with change in flux leads to incorrect predictions about current direction."
+
+- question: "Magnetic braking (as in eddy-current brakes) is a direct application of Lenz's law because the induced currents always create forces that oppose the motion producing the flux change."
+  type: true-false
+  answer: true
+  explanation: "This is correct. Any moving conductor in a magnetic field experiences flux changes that induce eddy currents; by Lenz's law, those currents flow in directions that create forces opposing the motion. This is why a magnet falling through a copper tube decelerates smoothly, why eddy-current brakes slow trains and roller coasters without contact, and why galvanometer needles are damped. In every case, faster motion means faster flux change, which means stronger opposition — a natural self-regulating mechanism."
+
+- question: "Using the principle of conservation of energy, explain why the induced current in a conducting loop must oppose the change in flux that caused it."
+  type: short-answer
+  answer: "If the induced current aided the change in flux, it would create a feedback loop: increasing flux induces a current that increases the flux further, generating ever-greater electrical energy with no external energy input. This contradicts conservation of energy. The opposition enforces the energy budget: whatever agent is changing the flux — a moving magnet, a changing current — must do work against the opposing force created by the induced current. That work is the energy source. The induced current cannot produce more energy than is put in by the external agent."
+  explanation: "This is why Lenz's law is sometimes stated as 'nature opposes change' — it is the electromagnetic manifestation of the universe's resistance to free energy. The minus sign in Faraday's law (ε = −dΦ/dt) encodes this thermodynamic constraint mathematically."
+```
+
 ## Explainer
 
 Faraday's law gives you the magnitude of the induced EMF: ε = −dΦ_B/dt. But it also hands you something you might be tempted to ignore — the minus sign. That minus sign is Lenz's law, and it tells you the direction of the induced current. The induced EMF drives a current that creates a magnetic field **opposing the change in flux** that produced it. To apply this correctly, the two-step procedure is: (1) determine whether flux is increasing or decreasing through the loop, then (2) use the right-hand rule to find which current direction would produce a field opposing that change.

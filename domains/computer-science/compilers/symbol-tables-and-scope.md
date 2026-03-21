@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 A symbol table is a data structure mapping identifiers to their properties (type, storage location, scope). Scoping rules determine which declaration a name reference refers to. Block scoping creates nested symbol tables; a name lookup searches the current scope, then outer scopes (the scope chain). Proper scope handling prevents name collisions and enables separate compilation of modules.
 
+## Questions
+
+```yaml
+- question: "A program declares a global variable `count` and then declares a local variable also named `count` inside a function. When the compiler resolves the use of `count` inside the function body, how does it determine which declaration to use?"
+  type: multiple-choice
+  options:
+    - "It reports an ambiguity error because two declarations with the same name exist"
+    - "It uses the global `count` because global scope takes precedence over local scope"
+    - "It finds the local `count` first because the function's scope table sits higher on the scope stack and is searched before outer scopes"
+    - "It uses whichever declaration was entered into the symbol table most recently, regardless of scope level"
+  answer: 2
+  explanation: "Scope resolution uses a stack of symbol tables. The current (innermost) scope sits at the top of the stack; the global scope sits at the bottom. When a name is looked up, the compiler searches from top to bottom, returning the first match found. Because the local `count` is in the function's scope table (near the top), it is found before the global `count`. This is shadowing: a local declaration hides an outer one with the same name. The global declaration is not deleted — it is simply unreachable from inside the function because the local one intercepts the search."
+
+- question: "What happens to the symbol table entries for variables declared inside a function when the compiler finishes processing the function body?"
+  type: multiple-choice
+  options:
+    - "They are moved to the global symbol table so other functions can reference them"
+    - "The function's scope table is popped from the stack, making those names inaccessible to the surrounding scope"
+    - "They remain in the table but are marked as 'inactive' for future reference"
+    - "They are archived in a separate table used only for error reporting and debugging"
+  answer: 1
+  explanation: "When the compiler exits a block, it pops the scope table for that block from the stack. The names that were declared in that block simply cease to be visible — they cannot be referenced by any code outside the block. This is the compiler implementation of lexical scope: a variable's lifetime in the symbol table mirrors its lexical extent in the source code. Popping the table is also what enables the same local variable name to be reused in a different function without conflict — each function gets its own fresh scope table pushed and popped independently."
+
+- question: "When the compiler encounters a name reference (not a declaration), it searches starting from the current innermost scope and works outward through enclosing scopes until it either finds a matching declaration or exhausts all scopes."
+  type: true-false
+  answer: true
+  explanation: "This outward search — from the innermost scope to progressively outer scopes — is the core of scope chain resolution. It correctly handles shadowing (inner declarations found first) and closures (inner scopes can access outer declarations). If no declaration is found after searching all the way to the global scope, the compiler reports an 'undeclared identifier' error. A new symbol table entry is only created at declaration points, not at use sites."
+
+- question: "A new entry is added to the symbol table each time a variable name is *used* in the program source code."
+  type: true-false
+  answer: false
+  explanation: "Symbol table entries are created at *declaration* points — where a variable, function, or type is introduced into the program. Uses of a name trigger a *lookup* in the symbol table, not an insertion. If a use-site lookup fails (no matching declaration found in any enclosing scope), the compiler reports an undeclared identifier error. Inserting entries at every use would make the symbol table enormous and would destroy the scoping semantics — you would no longer know which declaration a name refers to."
+
+- question: "Why is a stack the natural data structure for implementing scope resolution, and what do pushing and popping correspond to in the program's structure?"
+  type: short-answer
+  answer: "A stack naturally models nested block structure: scopes are nested inside one another, and the innermost scope is always the one currently being processed — exactly what a stack's top represents. Pushing a new scope table corresponds to entering a new block (a function body, an if-statement, a loop body); popping corresponds to exiting that block. Name lookup searches from the top of the stack downward, finding the innermost matching declaration first and naturally implementing shadowing. Because blocks nest but never partially overlap, the LIFO discipline of a stack exactly matches the enter/exit pattern of block scoping."
+  explanation: "This is a case where the data structure perfectly mirrors the logical structure. The scope nesting in source code is a tree; a depth-first traversal of that tree during compilation follows a path from root to current node — exactly what a stack tracks. Alternative structures (like a single flat table) would require complex bookkeeping to achieve the same semantics."
+```
+
 ## Explainer
 
 When a compiler processes `x = y + 1`, it needs to answer concrete questions: What type is `y`? Where is it stored? Was it even declared? The **symbol table** is the data structure that holds these answers. It maps each identifier (variable name, function name, type name) to a record containing everything the compiler knows about it — its type, memory location, whether it is a constant, its parameter list if it is a function, and so on. From your study of hash tables, you know how to build a dictionary with fast lookup by key. The symbol table is exactly that dictionary, specialized for compiler use.

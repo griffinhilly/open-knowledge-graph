@@ -28,6 +28,45 @@ Observe water waves in a ripple tank or demo, draw particle motion diagrams, com
 - Confusing the direction of particle oscillation with the direction of wave travel.
 - Assuming all waves require a physical medium; electromagnetic waves don't.
 
+## Questions
+
+```yaml
+- question: "A speaker produces a sound wave that travels across a room to reach your ear. What physically travels from the speaker to your ear?"
+  type: multiple-choice
+  options:
+    - "Air molecules, which carry their kinetic energy from speaker to ear"
+    - "Energy in the form of a propagating pressure disturbance, while the air molecules stay roughly in place"
+    - "Both energy and air molecules — they travel together as the wave moves"
+    - "Nothing physical travels — the sound is reconstructed by your eardrum from electrical signals"
+  answer: 1
+  explanation: "This is the central insight of wave physics: waves transfer energy without transporting matter. The air molecules near the speaker compress and expand (oscillate) in place, passing the disturbance to neighboring molecules, which do the same. No individual molecule travels across the room; each one just moves back and forth locally. The energy of the compression pattern propagates, but the medium — the air — does not flow from speaker to ear. This is exactly what makes the stadium wave analogy so clarifying: the people stay in their seats."
+
+- question: "You shake one end of a horizontal rope up and down, and a wave pattern moves horizontally along the rope. How is this wave classified, and why?"
+  type: multiple-choice
+  options:
+    - "Longitudinal, because the rope and the wave both move in the horizontal direction"
+    - "Transverse, because the rope oscillates up and down while the wave travels horizontally — perpendicular directions"
+    - "Transverse, because the wave travels through a physical medium"
+    - "Longitudinal, because sound and rope waves both involve compression of a medium"
+  answer: 1
+  explanation: "The transverse/longitudinal distinction is purely geometric: it's about the relationship between oscillation direction and propagation direction. In this rope example, particles oscillate vertically (up-down) while the wave moves horizontally — these directions are perpendicular, so it is a transverse wave. In a longitudinal wave (like sound), particles oscillate parallel to the wave's direction of travel — compression and rarefaction occur in the same direction the wave propagates. The rope being a physical medium is irrelevant to the classification."
+
+- question: "When a water wave travels across the ocean's surface, water molecules travel with the wave from one location to another."
+  type: true-false
+  answer: false
+  explanation: "Water molecules in a surface wave trace small circles, returning nearly to their starting position after each cycle. The wave pattern moves across the ocean, but the water itself does not travel with it. A cork floating on the surface bobs up and down (and in small circles) as waves pass beneath it — it doesn't get swept along in the direction of wave travel. Confusing the motion of the wave pattern with the motion of the medium is the most common misconception in introductory wave physics."
+
+- question: "Electromagnetic waves — including light, radio waves, and X-rays — are transverse waves that can propagate through a vacuum without any physical medium."
+  type: true-false
+  answer: true
+  explanation: "Electromagnetic waves are oscillating electric and magnetic fields that sustain each other as they propagate — they require no material medium. This is why sunlight travels across 150 million kilometers of near-vacuum from the Sun to Earth, while sound (a longitudinal mechanical wave requiring a medium for pressure oscillations) cannot propagate through space. The 'no medium required' property distinguishes electromagnetic waves from every other wave type in introductory physics."
+
+- question: "What is the key geometric distinction between transverse and longitudinal waves? Give one example of each and explain how that example illustrates the definition."
+  type: short-answer
+  answer: "In a transverse wave, particles oscillate perpendicular to the direction the wave travels. In a longitudinal wave, particles oscillate parallel to the direction of travel. Example: a rope wave is transverse — the rope moves up and down while the wave moves sideways along the rope. Sound is longitudinal — air molecules compress and expand in the same direction the sound travels."
+  explanation: "The geometric relationship — perpendicular vs. parallel — is the entire basis of the classification. It's not about the type of medium or whether a medium is required. Light (transverse, no medium) and water waves (transverse, requires medium) share a geometric relationship between oscillation and propagation direction. Sound (longitudinal, requires medium) has a different geometric relationship. Getting this distinction right is what separates genuine understanding from surface familiarity with the terminology."
+```
+
 ## Explainer
 
 A **wave** is not a moving thing — it is a moving pattern. Imagine a crowd doing a stadium wave: no person actually travels around the stadium; each person simply rises and sits at the right moment. The disturbance propagates, but the participants stay roughly in place. This is the central insight of wave physics: waves transfer **energy** through a medium (or through empty space) without transporting the medium itself. A water wave moves across the ocean's surface, but each water molecule just traces a small circle, returning nearly to where it started.

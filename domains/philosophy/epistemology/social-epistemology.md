@@ -31,6 +31,45 @@ Consider how a jury reaches a verdict, how scientific consensus forms, or how mi
 - Social epistemology does not deny that individuals can have knowledge; it argues that individual knowledge is deeply dependent on social conditions and that epistemology is incomplete without analyzing those conditions.
 - Acknowledging the social dimensions of knowledge is not relativism; most social epistemologists maintain that truth is objective while arguing that our access to it is shaped by social factors.
 
+## Questions
+
+```yaml
+- question: "A scientific journal adopts double-blind peer review, where neither authors nor reviewers know each other's identities. Goldman's veritistic social epistemology would evaluate this practice primarily by asking:"
+  type: multiple-choice
+  options:
+    - "Whether it respects the autonomy and academic freedom of individual researchers"
+    - "Whether it increases the proportion of true beliefs across the scientific community by reducing identity-based bias in quality assessment"
+    - "Whether it satisfies democratic norms of equal representation in the peer review process"
+    - "Whether it is consistent with the historical norms of the academic tradition"
+  answer: 1
+  explanation: "Goldman's veritistic social epistemology evaluates social practices by a single criterion: do they reliably promote true belief and reduce false belief across the community? Double-blind review is epistemically valuable if it reduces the influence of factors like author prestige, institutional affiliation, and identity prejudice that can distort quality assessment — factors that are irrelevant to whether the work is actually correct. Autonomy, democracy, and tradition are not the evaluative standard in Goldman's framework; truth-tracking is. This consequentialist approach to epistemic institutions is distinctive to veritistic social epistemology."
+
+- question: "A researcher notices that women scientists' intellectual contributions are systematically attributed to their male collaborators, even when the women made the primary contribution. Miranda Fricker would classify this primarily as:"
+  type: multiple-choice
+  options:
+    - "Hermeneutical injustice — the community lacks the conceptual vocabulary to recognize women's intellectual contributions"
+    - "Testimonial injustice — the women's credibility as knowers is systematically discounted due to gender prejudice, wronging them in their capacity as epistemic agents"
+    - "A problem of evidence assessment, not a specifically epistemic injustice"
+    - "Collective epistemology failure — the group's aggregation process has broken down"
+  answer: 1
+  explanation: "Testimonial injustice occurs when a hearer gives a speaker less credibility than she deserves due to identity prejudice. Attributing women's intellectual work to male collaborators involves discounting their testimony about their own contributions — treating them as less credible sources because of their gender. This is Fricker's testimonial injustice: the wrong is specifically epistemic (not just ethical) because the women are wronged in their capacity as knowers. Hermeneutical injustice, by contrast, would involve a lack of shared concepts to understand the experience — the problem here is not conceptual absence but credibility discount."
+
+- question: "Social epistemology's claim that knowledge-production is shaped by social factors implies that there is no objective truth against which beliefs can be measured."
+  type: true-false
+  answer: false
+  explanation: "This is the relativism misreading that the Common Misconceptions section directly addresses. Most social epistemologists — Goldman, Fricker, Longino — accept that truth is objective. Their claim is about our epistemic access to truth: the social structures through which evidence is gathered, testimony is evaluated, and consensus is formed can be better or worse designed for tracking an objective reality. Showing that peer review is shaped by prestige bias is not claiming that scientific truth is socially constructed; it is claiming that our institutions for tracking truth are imperfect and susceptible to social distortion."
+
+- question: "An echo chamber is epistemically problematic because it creates a social structure where false beliefs encounter less corrective counterevidence."
+  type: true-false
+  answer: true
+  explanation: "Echo chambers are specifically epistemically problematic — not just socially uncomfortable — because their structure impairs truth-tracking. Error correction depends on exposure to disconfirming evidence and alternative perspectives. When people primarily encounter views similar to their own (through algorithmic filtering, social sorting, or ideological segregation), false beliefs within the group are never challenged. The social structure systematically reduces the likelihood that errors are identified and corrected. This is a precisely epistemic property of certain social arrangements, not a mere political preference — and it is why social epistemology treats network structure, not just individual reasoning, as an object of epistemic evaluation."
+
+- question: "Why is testimonial injustice — giving a speaker less credibility due to identity prejudice — an epistemic wrong, not merely an ethical one?"
+  type: short-answer
+  answer: "Testimonial injustice is an epistemic wrong because it corrupts the social processes through which knowledge is recognized and circulated. Two epistemic harms occur simultaneously. First, the speaker is wronged as a knower: her capacity to contribute to the collective epistemic enterprise is blocked not by a deficiency in her evidence or reasoning but by unjustified credibility deflation. She cannot transmit what she knows. Second, the community loses access to knowledge she possesses, because her testimony is filtered out before it can be evaluated on its merits. True and justified claims fail to gain epistemic uptake, making the community's collective beliefs worse off. The specifically epistemic dimension — harm to the knowledge-producing and knowledge-distributing system — is what distinguishes testimonial injustice from a generic unfairness and connects it to the broader social epistemological project of evaluating institutions by their epistemic consequences."
+  explanation: "Fricker's insight is that being wronged as a knower — not just as a person — is a distinctive kind of harm. It damages what she calls the speaker's 'epistemic confidence' and 'epistemic agency.' And the harm is not just to the individual: the community loses epistemic resources whenever credible testimony is systematically discounted. Social epistemology's contribution is to see that this isn't only a moral failure but a systemic epistemic failure in the infrastructure through which knowledge moves between people."
+```
+
 ## Explainer
 
 Traditional epistemology has largely treated the knowing subject as an isolated individual: you have a belief, you consider evidence, you reason toward justification. Your study of testimony showed the first crack in this picture — a great deal of what you know, you know because someone told you, and the epistemic quality of testimony depends on social factors (the speaker's reliability, your reasons to trust them). **Social epistemology** generalizes this insight: it treats the entire social infrastructure through which beliefs are produced, shared, and evaluated as epistemically significant.

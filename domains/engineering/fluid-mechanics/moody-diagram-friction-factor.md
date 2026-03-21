@@ -31,6 +31,45 @@ Use the Moody diagram to solve a series of pipe flow problems: given flow rate, 
 - Roughness that matters is the sand-grain equivalent roughness ε, not the actual surface profile. Real surfaces have different roughness characters (riveted steel vs. corroded cast iron) that map to different equivalent sand-grain values.
 - The "fully rough" regime does not mean the flow is more turbulent — it means the roughness elements protrude beyond the viscous sublayer, so viscous effects no longer influence the friction factor and f becomes independent of Re.
 
+## Questions
+
+```yaml
+- question: "A pipe carrying water operates at Re = 5×10⁶ and relative roughness ε/D = 0.05 (fully rough regime). An engineer doubles the flow velocity, which doubles the Reynolds number to 10⁷. What is the best prediction for the Darcy friction factor?"
+  type: multiple-choice
+  options:
+    - "It decreases significantly, because higher Re means a thinner viscous sublayer and less friction"
+    - "It stays approximately the same, because in the fully rough regime f depends only on ε/D, not Re"
+    - "It doubles, because friction scales with velocity in turbulent flow"
+    - "It falls to zero, because viscous effects become negligible at very high Re"
+  answer: 1
+  explanation: "In the fully rough regime, roughness elements protrude through the viscous sublayer so thoroughly that viscous effects no longer influence friction. The Moody diagram shows horizontal asymptotes on the right — f depends only on relative roughness ε/D, not Re. Doubling Re changes nothing. The common misconception is that more turbulence always means more friction variation, but the fully rough regime is defined precisely by this independence from Re."
+
+- question: "A reference gives the Fanning friction factor f_F = 0.005 for a pipe flow. What Darcy friction factor should be used in the Darcy-Weisbach equation h_f = f(L/D)(V²/2g)?"
+  type: multiple-choice
+  options:
+    - "0.005 — the two friction factors are identical"
+    - "0.00125 — the Darcy factor is one-quarter of the Fanning factor"
+    - "0.010 — the Darcy factor is twice the Fanning factor"
+    - "0.020 — the Darcy factor is four times the Fanning factor"
+  answer: 3
+  explanation: "f_Darcy = 4 × f_Fanning. This is one of the most consequential unit-convention errors in fluid mechanics — confusing the two introduces a factor-of-4 error in calculated head loss. Always check which convention a reference uses. The Darcy-Weisbach equation as written above uses the Darcy (Moody) friction factor."
+
+- question: "In laminar pipe flow (Re < 2000), a smoother pipe wall will produce a lower friction factor than a rougher one."
+  type: true-false
+  answer: false
+  explanation: "In laminar flow, the viscous sublayer is thick enough to completely cover all surface roughness. The flowing fluid 'sees' a smooth wall regardless of actual surface condition. The friction factor f = 64/Re exactly in laminar flow — independent of roughness. Roughness only matters once the flow is turbulent and the viscous sublayer thins enough for roughness elements to protrude through it."
+
+- question: "In the fully turbulent (fully rough) regime, the Darcy friction factor depends only on relative roughness ε/D and becomes independent of Reynolds number."
+  type: true-false
+  answer: true
+  explanation: "Correct. This is the defining characteristic of the fully rough regime: roughness elements fully protrude beyond the viscous sublayer, generating turbulent eddies and pressure drag that dominate friction. Viscous effects — which depend on Re — become negligible. On the Moody diagram, each ε/D curve converges to a horizontal asymptote at high Re, reading a constant f determined solely by ε/D."
+
+- question: "Why must the Colebrook equation be solved iteratively rather than directly for the friction factor, and what does this imply about engineering practice?"
+  type: short-answer
+  answer: "The Colebrook equation is implicit in f — f appears inside the square root on the right-hand side as well as on the left. It cannot be algebraically rearranged to give f explicitly. In practice, you start with an initial guess (e.g., f = 0.02), substitute into the right side, solve for a new f, and repeat until convergence (typically 2–3 iterations). The explicit Swamee-Jain approximation avoids iteration at the cost of a small error (~3%). The Moody diagram is a graphical solution to the same equation."
+  explanation: "The iterative nature reflects that turbulent friction involves a genuine self-consistent relationship: the friction factor depends on flow conditions that in turn depend on the friction factor (through velocity and head loss). Engineers in practice either use the Moody diagram graphically, the Swamee-Jain approximation explicitly, or run 2–3 Colebrook iterations — all converge quickly because f varies weakly with Re in the turbulent regime."
+```
+
 ## Explainer
 
 Pipe flow problems share a common structure: you know the geometry (length, diameter, roughness) and the flow rate, and you need to find the pressure drop — or vice versa. The Darcy-Weisbach equation, h_f = f(L/D)(V²/2g), reduces all the fluid physics to a single dimensionless number: the **Darcy friction factor** f. But f is not a constant — it depends on flow regime and surface condition, which is exactly what the Moody diagram encodes.

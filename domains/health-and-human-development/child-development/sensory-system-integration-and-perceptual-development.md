@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Multiple sensory systems including vision, hearing, touch, proprioception, and vestibular sense mature at different rates but must be progressively integrated by the central nervous system to enable coordinated perception and action. Sensory integration challenges in early childhood can interfere with motor development, learning, and behavior, making assessment and intervention important for developmental support.
 
+## Questions
+
+```yaml
+- question: "A 14-month-old has normal results on individual vision, hearing, and reflex tests, but is extremely clumsy, avoids playground equipment, and resists having her hair brushed. Which conclusion best fits this pattern?"
+  type: multiple-choice
+  options:
+    - "One of her primary sensory systems must be functionally abnormal despite the test results"
+    - "Her nervous system may not be effectively integrating signals from proprioception, vestibular, and tactile channels — even though each system individually tests normal"
+    - "These are purely behavioral issues that will resolve with consistent parenting"
+    - "She should be retested for hearing loss since auditory processing underlies motor coordination"
+  answer: 1
+  explanation: "Sensory integration is distinct from individual sensory function. Each sensory channel can be intact while the CNS fails to combine their signals into coordinated perception and action. The pattern described — clumsiness, avoidance of vestibular challenges, tactile hypersensitivity — is the classic profile of a sensory processing difference, not a failure of any single sensory organ."
+
+- question: "A premature infant who received minimal physical handling during NICU hospitalization later shows poor balance and difficulty with fine motor tasks despite intact vision and hearing. The most likely explanation is:"
+  type: multiple-choice
+  options:
+    - "Prematurity directly damaged the visual cortex, impairing motor planning"
+    - "The infant's proprioceptive and vestibular systems lacked sufficient early experience to develop integrated coordination with the motor system"
+    - "Fine motor tasks depend only on vision, so hearing cannot be contributing"
+    - "Hearing must also be impaired and was not tested correctly"
+  answer: 1
+  explanation: "Sensory integration develops through experience — the nervous system learns which sensory combinations reliably co-occur and builds predictive models for coordinated action. Restricted early sensory experience (minimal handling) deprives the proprioceptive and vestibular systems of the inputs needed to calibrate their integration with the motor system. This is an integration deficit, not a primary sensory deficit."
+
+- question: "The vestibular and proprioceptive systems are more developmentally mature at birth than the visual system."
+  type: true-false
+  answer: true
+  explanation: "Vision is the most immature sensory system at birth — acuity is approximately 20/400 and binocular depth perception doesn't emerge until 3–4 months. The vestibular system (balance, head position) and proprioception (body position from muscle and joint receptors) are relatively mature at birth, which is why newborns can maintain head posture and orient reflexively even while vision is still quite limited."
+
+- question: "A child who avoids textures and resists grooming must have damage to sensory receptors in the skin that reduces accurate touch detection."
+  type: true-false
+  answer: false
+  explanation: "Tactile hypersensitivity is a sensory processing difference — a problem with how the CNS integrates and calibrates touch signals — not necessarily damage to peripheral receptors. Paradoxically, hypersensitive children register touch signals more acutely than others (overresponsive processing), not less. The deficit is in the central integration and modulation of sensation, not in the receptor apparatus itself."
+
+- question: "Why is perception considered more complex than sensation, and how does this distinction explain why two children can score identically on individual sensory tests yet differ dramatically in motor coordination and daily functioning?"
+  type: short-answer
+  answer: "Sensation is raw input from individual sensory receptors; perception is the brain's active construction of a unified model of the world by combining signals from multiple channels simultaneously. Two children with identical individual sensory function can differ in integration — the CNS's ability to correlate and weight signals from vision, proprioception, and the vestibular system into coordinated action. Individual tests evaluate each sensory pathway in isolation; they cannot reveal whether those pathways are being effectively combined by the integrative circuitry that develops through early experience."
+  explanation: "This distinction is clinically and educationally important. A child with normal sensation but poor integration will 'pass' standard sensory screenings yet struggle with tasks requiring multisensory coordination — catching a ball, maintaining posture while writing, navigating a crowded hallway. Identifying the gap requires evaluating integration, not just individual sensory thresholds."
+```
+
 ## Explainer
 
 You already know that newborns come equipped with a set of reflexes and rudimentary sensory capabilities — they respond to light, sound, touch, and temperature from birth. But raw sensation is not the same as **perception**: the meaningful interpretation of sensory information that allows a child to navigate the world, reach for objects, recognize faces, learn to speak, and eventually read. Between sensation and action lies a complex integrative process that develops over the first years of life and involves coordinating signals from multiple sensory channels simultaneously.

@@ -31,6 +31,45 @@ Create a detailed comparison table: size range, DNA location, surface-area-to-vo
 ## Common Misconceptions
 Prokaryotes are primitive—both are equally evolved, just different. All prokaryotes are bacteria—archaea are also prokaryotic. Eukaryotes are always larger—some single-celled eukaryotes are larger than bacteria.
 
+## Questions
+
+```yaml
+- question: "E. coli can begin translating a protein from mRNA while the mRNA is still being transcribed from DNA. Why is this process impossible in human cells?"
+  type: multiple-choice
+  options:
+    - "Human cells have slower ribosomes and cannot keep up with transcription"
+    - "In eukaryotes, transcription occurs in the nucleus and translation in the cytoplasm — the nuclear envelope separates the two processes"
+    - "Human cells use a different genetic code that requires processing steps between transcription and translation"
+    - "Human cells have too many organelles blocking ribosome access to DNA"
+  answer: 1
+  explanation: "In prokaryotes, there is no nuclear envelope — the nucleoid region and cytoplasm are one continuous space, so ribosomes can begin translating mRNA while it is still being transcribed. In eukaryotes, transcription occurs inside the nucleus and the completed mRNA must be processed and exported through the nuclear pore complex before ribosomes in the cytoplasm can access it. This is a direct consequence of compartmentalization — the key structural divide between the two cell types."
+
+- question: "Prokaryotes have survived and thrived for billions of years despite being structurally 'simpler' than eukaryotes. What best explains this?"
+  type: multiple-choice
+  options:
+    - "Prokaryotes are gradually evolving toward eukaryotic complexity over geological time"
+    - "Prokaryotes' small size and fast replication allow rapid adaptation to environmental change — a different but equally successful evolutionary strategy"
+    - "Prokaryotes are protected from extinction because environmental pressures don't affect microorganisms"
+    - "Prokaryotes have fewer genes and are therefore less vulnerable to harmful mutations"
+  answer: 1
+  explanation: "The idea that prokaryotes are 'primitive' and on their way to becoming eukaryotes is a fundamental misconception. Prokaryotes and eukaryotes have been evolving for roughly the same amount of time. Prokaryotes' small size maximizes their surface-area-to-volume ratio for rapid nutrient uptake, and some divide every 20 minutes — enabling extremely fast adaptive evolution. They remain the most metabolically diverse organisms on Earth, performing feats like nitrogen fixation that no eukaryote can match."
+
+- question: "Prokaryotes are more 'primitive' than eukaryotes because they are structurally simpler and evolved earlier."
+  type: true-false
+  answer: false
+  explanation: "Prokaryotes are not on an evolutionary trajectory toward eukaryotic complexity — they represent a distinct, independently successful strategy. Both lineages have been evolving for billions of years. Prokaryotic 'simplicity' is an optimization, not a deficiency: staying small maximizes the surface-area-to-volume ratio, enables fast replication, and supports extraordinary metabolic diversity. Describing prokaryotes as 'primitive' conflates structural simplicity with evolutionary inadequacy, which is not supported by their dominance and diversity."
+
+- question: "Eukaryotic cells can grow much larger than prokaryotic cells largely because their internal membranes create additional functional surface area within the cell."
+  type: true-false
+  answer: true
+  explanation: "As cells grow larger, volume increases faster than surface area (the cube-square law). A very large cell with no internal organization would have its interior starved of nutrients that must enter via the surface. Eukaryotic internal membranes — the ER, mitochondrial membranes, Golgi — create local compartments with their own transport systems, effectively multiplying functional surface area inside the cell. This allows eukaryotes to support the larger size and complexity required for multicellularity."
+
+- question: "Prokaryotes and eukaryotes both face the surface-area-to-volume problem as cells grow. Describe the different strategies each uses to solve it, and why each strategy is suited to its organism type."
+  type: short-answer
+  answer: "Prokaryotes solve it by staying small — their small size keeps the surface-area-to-volume ratio high, ensuring efficient nutrient uptake and waste removal. This strategy also enables fast replication. Eukaryotes solve it differently: rather than staying small, they use internal membranes (organelles) to create compartments with their own transport systems, multiplying the functional surface area inside the cell. This enables larger size and the compartmentalization that supports multicellularity and cellular specialization."
+  explanation: "Neither strategy is better — each opens different evolutionary possibilities. Prokaryotes' strategy allows extreme metabolic diversity and rapid adaptation. Eukaryotes' strategy enables the morphological complexity that makes tissues, organs, and organisms possible. Understanding this tradeoff reframes the comparison from a simple hierarchy (complex > simple) to two distinct adaptive solutions."
+```
+
 ## Explainer
 
 From your study of prokaryotic and eukaryotic cells individually, you know the basic inventory of each: prokaryotes have a nucleoid region, ribosomes, a cell membrane, and often a cell wall, while eukaryotes add a membrane-bound nucleus, endoplasmic reticulum, Golgi apparatus, mitochondria, and (in plants and algae) chloroplasts. The comparison between the two is not about declaring a winner — it is about understanding how two fundamentally different architectural strategies solve the same problem of staying alive, and why both have thrived for billions of years.

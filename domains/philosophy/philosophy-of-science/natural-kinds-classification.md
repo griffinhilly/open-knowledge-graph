@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Are scientific categories like 'gold', 'acid', 'gene', or 'species' discovered in nature or imposed by human interests? Natural kind theory holds that some classifications carve nature at its joints: genuine categories reflecting real boundaries based on underlying essences or causal structures. Scientific progress often involves discovering what really distinguishes entities. The nature of natural kinds shapes our understanding of scientific taxonomy, reduction, and the objectivity of science.
 
+## Questions
+
+```yaml
+- question: "Before atomic theory, chemists identified gold by its observable properties: yellow color, high density, malleability. A natural kind theorist in the tradition of Kripke and Putnam would say that these properties are:"
+  type: multiple-choice
+  options:
+    - "The defining essence of gold — what makes something gold just is having these observable features"
+    - "Reliable indicators of gold, but not what makes something gold — the real essence is atomic number 79"
+    - "Conventional designators that we agreed to use, with no objective fact about whether something 'really' is gold"
+    - "Irrelevant to classification, since only microstructural properties count as scientific evidence"
+  answer: 1
+  explanation: "Kripke and Putnam argued that natural kinds have microstructural essences — what really makes something gold is having atomic number 79, not its observable surface features. The observable properties are how we identify gold in practice (reliable indicators), but they are not what gold is. This distinction matters: fool's gold (iron pyrite) shares the surface features but is not gold, while a sample of gold painted black is still gold. The kind is discovered through scientific investigation, not defined by our observational criteria."
+
+- question: "A philosopher of biology argues that 'species' cannot be natural kinds because different species concepts (biological, phylogenetic, ecological) carve up the same organisms differently, and no single concept correctly applies to all cases. This argument most strongly supports which view?"
+  type: multiple-choice
+  options:
+    - "Eliminativism — species do not exist and should be removed from scientific vocabulary"
+    - "Essentialism — we simply have not yet discovered the correct microstructural essence of species"
+    - "Promiscuous realism or the species-as-individuals view — valid taxonomies may differ by scientific purpose, or species may be historical entities rather than intrinsic kinds"
+    - "Nominalism — all scientific categories are conventional and none tracks anything real in nature"
+  answer: 2
+  explanation: "The observation that multiple species concepts apply to different organisms without a single unified criterion supports either promiscuous realism (multiple equally valid taxonomies for different explanatory purposes) or the species-as-individuals view (species are historical lineages, not types defined by intrinsic properties). This is not eliminativism (species are real, just not simple kinds) nor pure nominalism (the world does constrain valid classifications). It also resists simple essentialism — if a single microstructural essence existed, one species concept would win."
+
+- question: "Natural kinds are defined by whatever observable features scientists use to identify members of the kind — what makes something gold is that it looks, feels, and behaves like gold."
+  type: true-false
+  answer: false
+  explanation: "This is exactly the position that natural kind theory rejects. The Kripke-Putnam insight is that observable identification criteria are not the same as the essence that constitutes the kind. The identifying marks can be wrong (fool's gold) while the kind remains well-defined. What makes something gold is having atomic number 79 — a microstructural fact discoverable only through scientific investigation, not observable surface features. Confusing identification criteria with constitutive essence is the core mistake the theory corrects."
+
+- question: "Natural kind theory implies that scientists can be mistaken about the observable criteria they use to identify a kind, without that mistake undermining the existence of the kind itself."
+  type: true-false
+  answer: true
+  explanation: "This is one of the most important consequences of the Kripke-Putnam account. Gold was successfully referred to and traded long before anyone knew its atomic number — the reference was fixed by samples of the actual stuff, not by the (possibly mistaken) descriptive criteria attached to the term. If early chemists had included fool's gold in their category by mistake, that would be an error about which things are gold, not evidence that gold doesn't exist. The kind is real and its essence is what it is, even when our descriptions of it are incomplete or wrong."
+
+- question: "What is the difference between a 'natural kind' and a 'nominal kind,' and why does the distinction matter for assessing whether scientific classification is objective?"
+  type: short-answer
+  answer: "A natural kind carves nature at its genuine joints — it picks out a real grouping with underlying causal structure or microstructural essence that supports inductive generalization and figures in laws of nature. A nominal kind is defined by stipulation or surface features without tracking anything deep in the world. The distinction matters for scientific objectivity because natural kinds imply that classification is constrained by how the world actually is, not just by human convenience. If scientific categories are natural kinds, then scientific progress is genuine discovery; if they are nominal, taxonomy is more like useful convention than objective truth."
+  explanation: "The distinction is at the heart of realism about science. Natural kind classification supports the inference 'all Xs have property P' (because P is tied to the underlying structure that makes something an X). Nominal classification does not support such inferences without further argument. The debate about whether psychological, biological, or social science categories are natural kinds bears directly on whether those sciences can formulate genuine laws and whether their explanations are objectively correct or pragmatically useful."
+```
+
 ## Explainer
 
 Your study of **universals and particulars** introduced the question of whether properties and categories exist independently of the minds that think about them. Natural kind theory extends this into philosophy of science: among all the ways we could classify the world, some correspond to genuine joints in nature and others are merely conventional. A **natural kind** is a category that picks out a real grouping — one that supports inductive generalization, figures in laws of nature, and reflects underlying causal structure rather than human convenience. The contrast is with **nominal kinds**: categories defined by stipulation or surface features that do not track anything deep in the world.

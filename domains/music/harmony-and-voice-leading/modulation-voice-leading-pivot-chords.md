@@ -27,6 +27,45 @@ Pivot chord modulation maintains smooth voice leading across key areas by using 
 ## How It's Best Learned
 Plan modulations by first identifying common chords between two keys, then writing smooth voice leading that flows from the original key through the pivot to the new key without breaks or awkward jumps.
 
+## Questions
+
+```yaml
+- question: "A student modulates from C major to G major using a pivot chord. After the modulation, a listener says it sounded 'bumpy.' The student identified a valid common chord (ii in C / vi in G) and resolved smoothly to V–I in G. What is the most likely cause of the problem?"
+  type: multiple-choice
+  options:
+    - "The pivot chord she chose is not a valid common chord between C major and G major"
+    - "An awkward leap or poorly resolved voice at the pivot point broke the perceptual continuity of the key change"
+    - "The V–I cadence in G major should come before, not after, the pivot chord"
+    - "Modulating from C to G is too close — nearby keys don't use pivot chords"
+  answer: 1
+  explanation: "The harmonic analysis — finding a valid common chord and confirming the new key with V–I — is correct. The 'bumpiness' almost certainly comes from voice-leading: a large leap, a doubled leading tone, or a poor resolution at the pivot moment disrupts the perceptual glue that makes the modulation sound natural. The pivot chord's function as a seamless hinge depends entirely on the voices moving smoothly through it. Rough voice-leading at the pivot turns a discovered key change into an announced one."
+
+- question: "Why is voice-leading smoothness at the pivot chord specifically so critical in a modulation?"
+  type: multiple-choice
+  options:
+    - "The pivot introduces new accidentals that require each voice to resolve by half-step"
+    - "The perceptual continuity of the key change depends on the voices moving without disruption — smoothness is what makes the modulation feel discovered rather than abrupt"
+    - "The pivot chord must be in root position to confirm its identity in both keys simultaneously"
+    - "Smooth voice-leading ensures the listener can consciously hear the chord functioning in both keys at once"
+  answer: 1
+  explanation: "The pivot chord works by exploiting the listener's tendency to track harmonic context continuously. If the voices move smoothly through the pivot, the listener's harmonic orientation shifts gradually — they find themselves in the new key before they noticed leaving the old one. A rough voice-leading event at the pivot (a leap, a violation of doubling rules) breaks this continuity and calls attention to the seam. The ear hears 'something changed here' rather than following a seamless thread."
+
+- question: "When writing a pivot chord modulation, the individual voices do not 'change keys' at the pivot — they simply continue moving smoothly, and only the harmonic analysis label changes."
+  type: true-false
+  answer: true
+  explanation: "This is the crucial insight into how pivot chord modulations work. The voices don't know they're changing keys — they only know where they are and where to go next, guided by voice-leading principles. The same chord that was ii in the old key is now vi in the new key; the notes are identical and the individual voices move identically. The 'modulation' is a recontextualization of those notes in a new harmonic framework. Only the analyst's Roman numeral labels change at the pivot."
+
+- question: "A well-executed pivot chord modulation should create a clearly audible event at the moment of key change, so listeners can recognize exactly when the modulation occurs."
+  type: true-false
+  answer: false
+  explanation: "The goal of pivot chord modulation is seamlessness, not drama. The best pivot chord modulations are nearly imperceptible at the moment they occur — the listener realizes they are in the new key only when the new key's V–I confirms it. 'Arriving' at the new key unnoticed, then confirming it with the cadence, is the ideal. Drama comes after the pivot, in the new V–I resolution. If the pivot chord itself sounds like a dramatic event, the voice-leading probably has rough edges."
+
+- question: "In pivot chord modulation, what is the role of the V–I cadence in the new key, and why doesn't the pivot chord itself serve as the moment of modulation?"
+  type: short-answer
+  answer: "The V–I cadence in the new key is the confirmation of the modulation — it establishes tonal context unambiguously in the new key by presenting the new key's dominant-tonic relationship. The pivot chord cannot serve as the moment of modulation because it belongs to both keys simultaneously: it is ambiguous by design. Only after the pivot, when the music continues in the new key and arrives at V–I, does the ear retroactively understand that a key change has occurred. The pivot is preparation; the cadence is arrival."
+  explanation: "This is the perceptual logic of pivot chord modulation: the pivot creates ambiguity (the chord fits both keys), the subsequent voice-leading in the new key builds toward the cadence, and the V–I resolves the ambiguity by confirming which key has been established. The modulation is not located at one precise moment — it unfolds as a process that the V–I concludes. Voice-leading smoothness through the pivot sustains the ambiguity long enough for the new key's logic to take hold."
+```
+
 ## Explainer
 
 You now have two sets of skills converging: you know how pivot chord modulation works harmonically (a chord shared by two keys acts as a hinge), and you know how to write smooth voice progressions. Putting them together is where technique becomes craft. The challenge is that a modulation that makes theoretical sense on paper can still sound abrupt if the individual voices make sudden jumps at the pivot point. Smooth voice-leading is what makes the key change feel *discovered* rather than *announced*.

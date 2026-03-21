@@ -26,6 +26,45 @@ Paleoclimate reconstruction relies on statistical relationships between proxy va
 ## How It's Best Learned
 Develop a transfer function using modern foraminiferal assemblages and measured SST; apply regression to quantify the proxy-climate relationship. Test the model on withheld samples (cross-validation) to estimate reconstruction uncertainty, then apply to paleoclimate samples.
 
+## Questions
+
+```yaml
+- question: "A transfer function trained on modern foraminiferal assemblages and SST is applied to sediment samples from 80,000 years ago. What is the most important potential source of systematic error that cannot be detected by cross-validation on the modern calibration dataset?"
+  type: multiple-choice
+  options:
+    - "The calibration dataset may not include enough samples to build a reliable regression"
+    - "The proxy-climate relationship may have shifted over time due to evolutionary change or ecological restructuring"
+    - "Cross-validation was not performed with enough folds to estimate the RMSEP precisely"
+    - "Sea surface temperatures 80,000 years ago were outside the range of modern instruments"
+  answer: 1
+  explanation: "Cross-validation tests predictive skill within the modern calibration dataset, but it cannot detect non-stationarity — the possibility that species responded differently to temperature in the past. Evolutionary adaptation, changes in competing species, or altered seasonality can all shift the proxy-climate relationship over geological time. This is why reconstructions for deeper time carry larger structural uncertainties than those for the Holocene, and why multi-proxy corroboration is so important."
+
+- question: "What is the primary purpose of cross-validation in building a paleoclimate transfer function?"
+  type: multiple-choice
+  options:
+    - "To test whether the transfer function generalizes to ocean basins not included in the calibration"
+    - "To determine whether the chosen proxy is physically sensitive to the target climate variable"
+    - "To obtain a realistic estimate of reconstruction uncertainty from data the model was not trained on"
+    - "To confirm that the proxy-climate relationship is stationary over the period being reconstructed"
+  answer: 2
+  explanation: "Cross-validation — systematically withholding samples, training on the rest, and testing predictions against the withheld set — estimates how well the model performs on unseen data. The RMSEP from cross-validation gives a realistic precision estimate (typically ±1–2°C for SST from foraminifera). It does not test generalization across basins, physical mechanism, or stationarity over time — those require separate lines of evidence."
+
+- question: "Cross-validation can detect non-stationarity in a transfer function if the withheld samples come from a different time period than the training data."
+  type: true-false
+  answer: false
+  explanation: "Standard cross-validation withholds samples from the same modern calibration dataset, so it only tests within-calibration predictive skill. Non-stationarity — a change in the proxy-climate relationship over geological time — is invisible to cross-validation performed entirely on modern data. Detecting non-stationarity requires comparing reconstructions to independent evidence (e.g., physical models, other proxies, or known boundary conditions)."
+
+- question: "Using multiple independent proxy types to reconstruct the same past climate variable increases confidence in the result because each proxy type has different potential biases, making it unlikely that all proxies would err in the same direction."
+  type: true-false
+  answer: true
+  explanation: "This is the core rationale for multi-proxy reconstruction. Foraminiferal assemblages, Mg/Ca ratios, alkenone unsaturation indices, and ice core oxygen isotopes all respond to temperature through different mechanisms and have different ecological, diagenetic, and analytical biases. Agreement across independent proxies substantially reduces the probability that the reconstructed signal is an artifact of any single proxy's limitations."
+
+- question: "Why is uncertainty quantification described as the 'core intellectual contribution' of paleoclimate reconstruction methodology rather than a technicality?"
+  type: short-answer
+  answer: "Reconstructions are the only empirical window into past climates, and decisions about climate sensitivity, the range of natural variability, and model validation all depend on how much these reconstructions can be trusted. Without rigorous uncertainty bounds, it is impossible to determine whether a reconstructed temperature signal is real or an artifact of the statistical method, non-stationarity, or sampling bias. Honest uncertainty quantification is what separates a scientific inference from a plausible-looking curve."
+  explanation: "Paleoclimate reconstructions inform high-stakes questions about Earth's climate system. Reporting only a best-estimate temperature without propagating uncertainty from measurement error, calibration model error, and structural uncertainty (non-stationarity) would create false confidence. The RMSEP from cross-validation captures only statistical model error; additional layers include sampling uncertainty in the fossil assemblage, diagenetic alteration of the proxy signal, and the non-stationarity risk. Each layer must be carried forward into the final reconstruction."
+```
+
 ## Explainer
 
 From your study of paleoclimate proxies, you know that proxies are indirect indicators — tree ring widths, foraminiferal assemblages, ice core chemistry — that covary with climate variables like temperature or precipitation. The challenge is converting these proxy measurements into quantitative climate estimates with meaningful uncertainty bounds. This is the domain of **paleoclimate reconstruction methods**: the statistical machinery that bridges proxy observations and climate variables.

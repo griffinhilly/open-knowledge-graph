@@ -32,6 +32,45 @@ Study the different small-body populations and understand what their composition
 - Meteoroid, meteor, and meteorite describe the same object at different stages: in space, ablating in the atmosphere, and on the ground.
 - Cometary tails do not trail behind the comet in its direction of motion — both the ion tail and the dust tail always point away from the Sun regardless of the comet's trajectory.
 
+## Questions
+
+```yaml
+- question: "A comet is moving away from the Sun after passing perihelion. In which direction does its ion tail point?"
+  type: multiple-choice
+  options:
+    - "Behind the comet, trailing in the direction it just came from (toward the Sun)"
+    - "Away from the Sun — the solar wind pushes the ion tail radially outward regardless of the comet's direction of motion"
+    - "In the direction of the comet's motion — the tail streams behind it like a contrail"
+    - "Toward the Sun — the comet's gravity pulls released gas back toward the inner solar system"
+  answer: 1
+  explanation: "Cometary ion tails are driven by solar wind — a stream of charged particles flowing radially outward from the Sun at ~400 km/s. This force always pushes ionized gas directly away from the Sun, regardless of whether the comet is approaching or receding. A comet moving away from the Sun will actually have its ion tail pointing forward (toward the comet's destination), not behind it. The dust tail, pushed by radiation pressure, curves slightly due to orbital mechanics but also generally points away from the Sun. This is the most counter-intuitive fact about comets."
+
+- question: "A museum specimen is labeled 'Meteor — collected in Antarctica.' What is wrong with this label, and what should it be called?"
+  type: multiple-choice
+  options:
+    - "Nothing is wrong — 'meteor' is the correct term for any space rock on Earth"
+    - "It should be called a meteorite — a meteor is the light streak in the atmosphere; once on the ground, it becomes a meteorite"
+    - "It should be called a meteoroid — the term 'meteor' applies only to the flash, not the object itself"
+    - "It should be called an asteroid fragment — all extraterrestrial rocks on Earth are by definition asteroid material"
+  answer: 1
+  explanation: "The three terms describe the same type of object at different lifecycle stages: a meteoroid is the small rocky/metallic body in space; a meteor is the luminous streak it creates when ablating in Earth's atmosphere (the 'shooting star'); a meteorite is whatever survives to reach the ground. A museum specimen is definitionally a meteorite. The confusion is common because 'meteor' is often used loosely in casual speech to mean the physical object, but technically it refers only to the atmospheric phenomenon."
+
+- question: "Comets originate from the outer solar system because that is where icy material survived the heat of planetary formation."
+  type: true-false
+  answer: true
+  explanation: "In the early solar nebula, temperatures were high near the young Sun, so only refractory (high-melting-point) rocky and metallic material could condense in the inner solar system — explaining the rocky asteroids of the Main Belt. Far from the Sun, temperatures were cold enough for water ice, CO₂, CO, methane, and ammonia to freeze out. Comets — mixtures of ice and dust — formed in this cold outer region. The Kuiper Belt (30–50 AU) is the source of short-period comets; the Oort Cloud (extending to ~50,000 AU) is the reservoir for long-period comets. Their icy composition is thus a direct record of formation conditions."
+
+- question: "Asteroids are essentially uniform in composition — they are all rocky, silicate bodies similar to Earth's crust."
+  type: true-false
+  answer: false
+  explanation: "Asteroids span a wide compositional range reflecting different formation histories. C-type (carbonaceous) asteroids are rich in water-bearing minerals and organic compounds — primitive, unmelted bodies close to the original solar nebula composition. S-type (stony) asteroids are silicate-rich and partly differentiated. M-type (metallic) asteroids are thought to be the exposed iron-nickel cores of larger bodies that differentiated and were later shattered by collisions. This diversity is scientifically valuable: each type preserves a different chapter of early solar system history, and the metallic types provide direct evidence that asteroid-sized bodies once had molten interiors."
+
+- question: "Small solar system bodies are described as 'frozen time capsules.' What does this mean, and why are meteorites scientifically more valuable than most Earth rocks for understanding solar system formation?"
+  type: short-answer
+  answer: "Small bodies have been geologically inactive since their formation 4.6 billion years ago — they have not been melted, subducted, or chemically reset by plate tectonics or volcanism as Earth rocks have. Their mineralogy and isotopic composition preserve conditions from the early solar nebula. Meteorites deliver this pristine material to our laboratories: primitive carbonaceous chondrites contain pre-solar grains older than the solar system, amino acids, and isotopic anomalies that record nucleosynthesis in stars that predated our Sun. Earth's oldest rocks are ~4 billion years old; the oldest meteorites are ~4.567 billion years old and chemically unmodified."
+  explanation: "This is why sample-return missions (Hayabusa2 to asteroid Ryugu, OSIRIS-REx to Bennu) are scientifically high-priority: they recover material with known provenance from specific asteroid types, allowing direct comparison with meteorite collections and telescopic observations. Meteorites are effectively free sample returns — but without the orbital context that spacecraft missions provide."
+```
+
 ## Explainer
 
 From your understanding of solar system structure, you know the basic architecture: rocky planets close to the Sun, gas giants farther out, and vast regions of space beyond. The small bodies scattered throughout this system — asteroids, comets, meteoroids, and dwarf planets — are not minor afterthoughts. They are the **leftover building blocks** of planetary formation, frozen time capsules that preserve the chemical and physical conditions of the early solar nebula from 4.6 billion years ago.

@@ -29,6 +29,45 @@ Progress narratives—stories of improvement, modernization, or advancement—ha
 ## How It's Best Learned
 Compare Whiggish histories assuming inevitable progress toward the present with revisionist histories questioning whether change was actually improvement.
 
+## Questions
+
+```yaml
+- question: "A historian argues that the American Revolution was 'inevitable' once Enlightenment ideas of liberty spread among the colonists, and that British imperial rule was always destined to fail. Which historiographical error does this exemplify?"
+  type: multiple-choice
+  options:
+    - "Presentism — judging eighteenth-century British policy by twenty-first-century moral standards"
+    - "Anachronism — applying modern political categories like 'nationalism' to colonial-era actors"
+    - "Teleology — reading history backward from a known outcome and presenting contingent events as necessary steps toward a predetermined end"
+    - "Ethnocentrism — privileging European political concepts as universal historical forces"
+  answer: 2
+  explanation: "Teleology works by reading backward: because we know the Revolution happened, the historian treats all preceding events as pointing inevitably toward it, making the outcome seem necessary rather than contingent. In reality, colonial separation was one of several possible outcomes — many colonists remained loyalists, negotiations could have gone differently, and specific accidents of timing and personality shaped the result. Disguising this contingency as inevitability is the defining error of teleological historiography."
+
+- question: "Oswald Spengler's theory that civilizations inevitably pass through stages of birth, flourishing, and decay — as described in 'The Decline of the West' — is best understood as:"
+  type: multiple-choice
+  options:
+    - "A welcome alternative to Whig progress narratives because it honestly acknowledges civilizational failure"
+    - "A form of teleology running in reverse — replacing inevitable progress with inevitable decline, while equally suppressing contingency"
+    - "A contingency-based account because it acknowledges that civilizations can fail rather than continuously improving"
+    - "An empirical hypothesis that can be straightforwardly evaluated through comparative historical data"
+  answer: 1
+  explanation: "Decline narratives like Spengler's impose the same logical structure as progress narratives — a predetermined trajectory toward a fixed destination — only the destination is decay rather than improvement. The organic metaphor (civilizations as organisms that must age and die) disguises this teleology as natural law. Both progress and decline narratives suppress the same thing: contingency, the genuine openness of historical outcomes to the choices and accidents that occurred. The antidote to bad progress narratives is not decline narratives; it is the rejection of predetermined trajectories altogether."
+
+- question: "A 'Whig history' of a political movement would tend to celebrate figures who supported the eventual outcome while marginalizing those who represented alternatives that were foreclosed."
+  type: true-false
+  answer: true
+  explanation: "Whig history — named by Herbert Butterfield — is historiography that reads history as a march toward the present arrangement, celebrating 'progressive' forces and dismissing 'reactionary' ones. This leads historians to select evidence that confirms the predetermined narrative and ignore what doesn't fit: the genuine alternatives that existed, the violence and exclusions embedded in 'progressive' developments, and the perspectives of those who lost. The distortion is not in what is said but in what is systematically omitted."
+
+- question: "Taking historical contingency seriously requires concluding that historical outcomes were essentially random and that structural forces such as economics or geography played no role in shaping events."
+  type: true-false
+  answer: false
+  explanation: "Contingency means that outcomes were not predetermined or inevitable — that different choices and circumstances could have produced different results. It does not deny causation, structural forces, or patterns. An historian who takes contingency seriously can still argue that economic inequality made certain forms of conflict more likely, or that geography constrained certain developments — while insisting that within those constraints, multiple outcomes remained genuinely possible. Contingency opposes necessity, not causation."
+
+- question: "What is teleology in historical writing, and why does taking contingency seriously challenge teleological narratives?"
+  type: short-answer
+  answer: "Teleology is the assumption that history moves toward a predetermined goal, so that earlier events are preparation for and later events are fulfillment of that end. It works by reading backward from the present: since we know how things turned out, earlier events appear to have been pointing inevitably in that direction. Contingency challenges this by insisting that outcomes were not inevitable — that actors faced genuine choices, that multiple futures were genuinely possible, and that explaining why one path was taken requires actual analysis of specific events, decisions, and accidents rather than narrative momentum. When you take contingency seriously, what looks like a necessary march toward the present reveals itself as one of many possible paths that happened to be taken."
+  explanation: "This has practical stakes: societies that believe they are on a predetermined historical trajectory — toward liberal democracy, or toward national greatness, or toward decline — treat deviations as aberrations rather than examining what is actually changing, for whom, and with what consequences. The teleological habit short-circuits the careful causal analysis that historical understanding requires."
+```
+
 ## Explainer
 
 From your introduction to historiography, you know that historical writing does not simply record the past — it constructs interpretations shaped by the concerns and assumptions of the historian's own time. From your study of Enlightenment historiography, you know that the philosophical framework of progress — the idea that history moves toward greater reason, freedom, and human flourishing — was not a neutral discovery but an intellectual product of the eighteenth century, a time when European thinkers were genuinely excited about what rational inquiry and institutional reform could achieve. Progress narratives are not descriptions of historical reality; they are frameworks imposed on that reality, and understanding them as frameworks is the beginning of mature historical thinking.

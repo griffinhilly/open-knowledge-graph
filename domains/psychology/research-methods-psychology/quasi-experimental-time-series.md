@@ -32,6 +32,45 @@ Study published interrupted time series analyses (e.g., legislation effects on s
 - Natural experiments are always convenient; they require identifying natural variations that closely match your research question and carefully accounting for confounds.
 - Pretest-posttest designs adequately control threats; without a control group, regression to the mean and maturation remain plausible explanations.
 
+## Questions
+
+```yaml
+- question: "A city implements a new public health campaign in March. Researchers compare average hospital admissions in February vs. April and find a 15% drop. Which threat to validity does this simple pretest-posttest design MOST fail to rule out?"
+  type: multiple-choice
+  options:
+    - "Attrition — some participants may have left the study"
+    - "History effects — some other event in March (warmer weather, a national initiative) may have caused the decline"
+    - "Instrumentation — the measurement tool may have changed"
+    - "Experimenter bias — the researchers expected the intervention to work"
+  answer: 1
+  explanation: "A single pretest-posttest design cannot distinguish the intervention's effect from concurrent historical events. Any factor that changed between February and April could explain the drop — seasonal variation, a national campaign, a policy change. Without multiple pre-intervention observations or a control group, history is an untestable alternative explanation. This is the design's fundamental weakness."
+
+- question: "A researcher uses an interrupted time series design instead of a simple pretest-posttest design. What is the KEY advantage?"
+  type: multiple-choice
+  options:
+    - "ITS requires random assignment, making it equivalent to a true experiment"
+    - "ITS uses many pre-intervention observations to estimate a baseline trend, enabling detection of both level shifts and slope changes at the intervention point"
+    - "ITS eliminates all confounding variables through statistical adjustment"
+    - "ITS is faster and requires fewer participants than pretest-posttest designs"
+  answer: 1
+  explanation: "The defining strength of ITS is modeling the pre-existing trend from many data points. This lets you ask: did the outcome change MORE than the pre-intervention trend predicted? If crime was already declining 2% per month before a policy and continued at exactly that rate afterward, ITS reveals no effect — a simple before-after comparison would have incorrectly attributed the decline to the policy. The baseline trend is what single-observation designs cannot establish."
+
+- question: "A pretest-posttest design without a control group can adequately rule out maturation as an alternative explanation for observed changes."
+  type: true-false
+  answer: false
+  explanation: "Maturation refers to naturally occurring changes over time — children grow, patients recover spontaneously, organizational performance naturally cycles. Without a control group or multiple pre-intervention measurements, you cannot distinguish the intervention's effect from natural developmental or recovery trajectories. This is precisely why simple pretest-posttest designs are considered weak causal evidence."
+
+- question: "Natural experiments are called 'natural' because they require no statistical analysis — the causal effect is obvious from simple observation."
+  type: true-false
+  answer: false
+  explanation: "'Natural' refers to the source of variation being naturally occurring (not researcher-assigned) — geographic boundaries, policy adoption timing, lottery outcomes. Natural experiments require careful statistical analysis to verify that the variation source is unrelated to other outcome determinants, measure effect sizes, and rule out confounds. They are methodologically demanding; finding a valid natural experiment requires substantive knowledge of the context and rigorous empirical verification."
+
+- question: "What does it mean for an interrupted time series to detect a 'slope change' rather than just a 'level shift,' and why does this distinction matter?"
+  type: short-answer
+  answer: "A level shift is an abrupt jump or drop in the outcome immediately at the intervention point. A slope change is an alteration in the rate of change — the trend accelerates, decelerates, or reverses after the intervention. The distinction matters because some interventions don't cause immediate jumps but gradually alter trajectories. A prevention program might not reduce current incidence but might slow its rate of increase — detectable only as a slope change. Designs that only look for level shifts miss this class of intervention effects entirely."
+  explanation: "This question targets a nuanced aspect of ITS analysis. Students often think of interventions as causing sudden jumps, but many real-world policies work by changing trajectories over time. Detecting slope changes requires sufficient post-intervention data points to estimate the new trend — another reason why many measurement waves matter more than just two observations."
+```
+
 ## Explainer
 
 Random assignment — your prerequisite concept — is the gold standard for causal inference precisely because it makes groups equivalent at baseline by distributing individual differences randomly. When you cannot randomly assign, you are in quasi-experimental territory. This happens constantly in real research: you cannot randomly assign people to poverty, randomly assign schools to receive new curricula mid-year, or randomly assign states to adopt new traffic laws. The question is not whether to abandon causal inference but how to pursue it rigorously under constraint.

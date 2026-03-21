@@ -24,6 +24,45 @@ The Marginal Rate of Technical Substitution (MRTS) is the rate at which a firm c
 ## How It's Best Learned
 Compute MP for each input, then calculate MRTS = MP_L / MP_K. Verify it equals the slope of the isoquant.
 
+## Questions
+
+```yaml
+- question: "At a firm's current input mix, MRTS_{L,K} = 6 and the wage-rental ratio w/r = 4. What should the firm do to minimize cost?"
+  type: multiple-choice
+  options:
+    - "Use more capital and less labor — capital is relatively cheaper at the margin"
+    - "Use more labor and less capital — labor substitutes more favorably for capital than the market requires"
+    - "Keep the current mix — MRTS exceeding w/r indicates the firm is already efficient"
+    - "Increase both inputs proportionally to restore balance"
+  answer: 1
+  explanation: "MRTS = 6 means the firm can give up 6 units of capital to hire one more unit of labor while holding output constant. But the market only charges w/r = 4 units of capital worth of wage per unit of labor. The firm is overpaying in terms of capital forgone — substituting toward labor is cheaper than the market requires. Shifting toward more labor and less capital lowers cost until MRTS falls to equal w/r. Operating where MRTS > w/r is not efficient; it signals unexploited cost savings."
+
+- question: "Two inputs are perfect complements in production (e.g., one driver per truck). What is the MRTS at the optimal input mix?"
+  type: multiple-choice
+  options:
+    - "Zero — no substitution between inputs is possible, so the rate is zero"
+    - "Infinity — one input always fully substitutes for the other"
+    - "Undefined — the isoquant is L-shaped and has no well-defined slope at the corner"
+    - "Equal to w/r — the tangency condition always holds"
+  answer: 2
+  explanation: "Perfect complements produce L-shaped isoquants. On the horizontal segment the slope is 0; on the vertical segment the slope is −∞; at the corner (where the firm always operates) the derivative does not exist. MRTS is the negative slope of the isoquant, so at the corner it is undefined. Substituting one input for the other without adjusting the other cannot maintain output — both must expand together. The tangency condition MRTS = w/r cannot be applied when MRTS is undefined."
+
+- question: "The MRTS declines as a firm uses more labor and less capital because labor becomes more productive as it is added."
+  type: true-false
+  answer: false
+  explanation: "MRTS = MP_L / MP_K declines as the firm adds labor and removes capital precisely because of *diminishing* marginal product of labor (MP_L falls) and *rising* marginal product of capital (MP_K rises as capital becomes scarcer). The numerator falls and the denominator rises, causing MRTS to decline. The statement reverses the logic — labor is becoming less productive at the margin, not more, which is why additional substitution toward labor becomes increasingly costly."
+
+- question: "A firm that minimizes cost will always use positive quantities of every available input."
+  type: true-false
+  answer: false
+  explanation: "Corner solutions are possible. When inputs are perfect substitutes in production (constant MRTS), the firm compares the fixed MRTS to w/r. If w/r < MRTS, the firm uses all labor and no capital; if w/r > MRTS, it uses all capital and no labor. Interior solutions (positive quantities of all inputs) require strictly diminishing MRTS — the isoquant must be strictly convex. When MRTS is constant or the boundary conditions dominate, a corner solution minimizes cost."
+
+- question: "Why is the cost-minimizing condition MRTS = w/r, and what goes wrong economically if the firm operates where MRTS ≠ w/r?"
+  type: short-answer
+  answer: "MRTS = MP_L / MP_K measures how many units of capital the firm can save by hiring one more unit of labor while holding output constant. w/r measures the cost of one unit of labor in terms of capital forgone at market prices. If MRTS > w/r, the firm can substitute labor for capital more effectively than the market requires — there is a cheaper input mix achieving the same output. If MRTS < w/r, substituting toward capital saves money. Only when MRTS = w/r is there no profitable input reallocation: the firm's internal tradeoff matches the market's."
+  explanation: "This is the tangency condition: cost is minimized where an isocost line (slope −w/r) is tangent to the isoquant (slope −MRTS). At any other point the isocost line crosses the isoquant, meaning a lower-cost combination producing the same output exists. The condition is the production-side parallel to the consumer's MRS = p_x/p_y."
+```
+
 ## Explainer
 
 In your study of production with two variable inputs, you worked with **isoquants** — the firm-side analog of consumer indifference curves. Each isoquant shows all combinations of labor (L) and capital (K) that produce the same output level. The **Marginal Rate of Technical Substitution (MRTS)** is the slope of that isoquant at any given point: it tells you how many units of capital the firm can give up in exchange for one more unit of labor while keeping output exactly constant. Just as the consumer's MRS measured the rate of substitution in preferences, MRTS measures the rate of substitution in production.

@@ -29,6 +29,45 @@ The theory DLO of dense linear orders without endpoints is a classical model-the
 ## How It's Best Learned
 Verify ℵ₀-categoricity using the back-and-forth method. Study why DLO admits quantifier elimination and why all countable models are isomorphic to (ℚ, <).
 
+## Questions
+
+```yaml
+- question: "A student argues: 'DLO is ℵ₀-categorical and (ℝ, <) satisfies all DLO axioms, so (ℝ, <) must be isomorphic to (ℚ, <).' What is wrong with this argument?"
+  type: multiple-choice
+  options:
+    - "The real numbers do not satisfy DLO because the ordering has endpoints at −∞ and +∞"
+    - "ℵ₀-categoricity applies only to countable models; since ℝ is uncountable, the categoricity theorem does not force isomorphism"
+    - "(ℝ, <) is not a model of DLO because it is not a dense order"
+    - "DLO cannot have a unique countable model because it is not a complete theory"
+  answer: 1
+  explanation: "ℵ₀-categoricity says all *countable* models of DLO are isomorphic to each other (and to (ℚ, <)). The real numbers are uncountable, so they fall entirely outside the scope of this theorem. Indeed, (ℝ, <) is a perfectly valid uncountable model of DLO — it satisfies all four axioms (total order, density, no endpoints) — but it cannot be isomorphic to (ℚ, <) since they have different cardinalities. DLO is not categorical in uncountable cardinals: there are many non-isomorphic uncountable DLO models."
+
+- question: "Why does quantifier elimination in DLO imply that the theory is complete?"
+  type: multiple-choice
+  options:
+    - "Every formula is equivalent to a quantifier-free formula, and quantifier-free sentences in the order language are either tautologies or contradictions — so every sentence is decided"
+    - "Every model of DLO has the same cardinality, so no sentence can distinguish between models"
+    - "Eliminating quantifiers reduces formulas to atomic formulas, and atomic formulas are decidable by direct inspection"
+    - "Completeness follows from ℵ₀-categoricity alone, by Vaught's theorem, independently of quantifier elimination"
+  answer: 0
+  explanation: "Quantifier-free sentences in the language {<} consist of Boolean combinations of comparisons between constants. A closed sentence (no free variables) in this language has no named elements to compare, so it reduces to a purely logical statement — either a tautology (like ⊤) or a contradiction (like ⊥). Every sentence of DLO is DLO-equivalent to one of these, so DLO either proves or refutes every sentence: the theory is complete. Note that option D contains a grain of truth (Vaught's theorem does imply completeness from ℵ₀-categoricity for theories with no finite models), but quantifier elimination is the more direct and general route."
+
+- question: "The back-and-forth method proves ℵ₀-categoricity of DLO by constructing an isomorphism between any two countable models incrementally, using density and no-endpoints to always find a matching element."
+  type: true-false
+  answer: true
+  explanation: "This is precisely how the proof works. You alternate: pick the next element of M, find its image in N (a 'forth' step) using density/no-endpoints to insert it in the correct position; then pick the next element of N and find its preimage in M (a 'back' step). The density axiom ensures there is always an element between any two existing mapped elements, and no-endpoints ensures elements beyond all existing ones can always be matched. After countably many steps, every element of both structures is covered, yielding a total isomorphism."
+
+- question: "Because DLO is ℵ₀-categorical, it is also categorical in every infinite cardinal — meaning all models of DLO, regardless of size, are isomorphic."
+  type: true-false
+  answer: false
+  explanation: "ℵ₀-categoricity is a special property of the countable case only. DLO is far from categorical in uncountable cardinals: (ℝ, <), (ℝ × ℝ, <_lex) (lexicographic order), and many other structures are all non-isomorphic uncountable models of DLO. In fact, for any uncountable cardinal κ, there are 2^κ non-isomorphic DLO models of cardinality κ — the theory is maximally non-categorical in uncountable cardinals. This contrast highlights that ℵ₀-categoricity is a very strong special property tied to the specific combinatorics of countability and the back-and-forth method."
+
+- question: "Explain why quantifier elimination in DLO implies the theory is both complete and decidable."
+  type: short-answer
+  answer: "Quantifier elimination means every DLO formula φ(x₁,...,xₙ) is DLO-equivalent to a quantifier-free formula — one built from atomic formulas (xᵢ < xⱼ, xᵢ = xⱼ) using Boolean connectives. For a sentence (no free variables), there are no xᵢ to compare, so every sentence is equivalent to a Boolean combination of vacuous comparisons — which reduces to either ⊤ or ⊥. Since DLO proves or refutes every sentence, it is complete. Decidability follows because the reduction to quantifier-free form is algorithmic: given any sentence, repeatedly apply the elimination procedure until reaching ⊤ or ⊥."
+  explanation: "Decidability means there is an algorithm to determine whether any given sentence is a theorem of DLO. This is remarkable: most interesting mathematical theories are undecidable. DLO's decidability reflects its extreme simplicity — the only relations are < and =, and quantifier elimination strips away all expressive power beyond finite comparisons. More complex ordered structures (e.g., (ℤ, <, +, ×)) do not admit quantifier elimination and are undecidable."
+```
+
 ## Explainer
 
 From model theory basics, you know that a **theory** is a set of sentences closed under logical consequence, and that a **model** is a structure satisfying all the sentences of the theory. The theory **DLO** (dense linear orders without endpoints) is axiomatized by four simple axioms: the order is total (every two elements are comparable), it is strict (irreflexive and transitive), it is **dense** (between any two elements there is a third: ∀x ∀y (x < y → ∃z (x < z ∧ z < y))), and it has **no endpoints** (every element has something above it and below it). The rational numbers ℚ under their usual ordering is the prototypical model, but the axioms don't mention ℚ or real numbers — they just describe an abstract ordered structure with those properties.

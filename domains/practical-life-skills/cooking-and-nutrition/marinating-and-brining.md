@@ -32,6 +32,45 @@ Dry-brine a chicken breast (salt it and refrigerate uncovered for 1-24 hours) an
 - More acid means more tender — excessive acid denatures surface proteins so aggressively that the texture becomes mushy or chalky, as seen in over-marinated ceviche.
 - Marinating at room temperature works faster and is fine for short periods — bacteria multiply rapidly at room temperature; all marinating should be done in the refrigerator regardless of duration.
 
+## Questions
+
+```yaml
+- question: "A cook wants to add deep, all-the-way-through flavor to a thick pork roast and marinate it for 8 hours in a vinegar-herb mixture. What is the most accurate prediction about the result?"
+  type: multiple-choice
+  options:
+    - "The flavor will penetrate throughout the roast because 8 hours is sufficient time for full penetration"
+    - "The surface will be well-flavored and possibly tenderized, but most of the interior will taste like unmarinated pork"
+    - "The vinegar will make the entire roast uniformly tender and flavorful from outside to inside"
+    - "The roast will be inedibly salty after 8 hours in any liquid"
+  answer: 1
+  explanation: "Most marinades — regardless of duration — penetrate only a few millimeters into dense protein. The flavoring compounds and acid work primarily at the surface. Eight hours will produce a well-seasoned, tenderized outer layer but leave the interior largely unchanged. For deep flavor in thick cuts, brining (which works via osmosis and protein modification that affects moisture throughout) or injection is far more effective. The penetration misconception is the most persistent one in this topic."
+
+- question: "A cook dry-brines a chicken breast (coats it with salt and refrigerates it overnight), then cooks it alongside an identical unsalted breast. The brined breast is noticeably juicier after cooking. The primary reason is:"
+  type: multiple-choice
+  options:
+    - "Salt acts as a flavoring agent that makes the chicken taste moister even if the actual water content is identical"
+    - "Salt draws moisture to the surface through osmosis and evaporates it, concentrating protein so less moisture is lost"
+    - "Salt modifies muscle proteins so they retain more moisture during cooking — the modified fibers don't squeeze out their water as readily when heat causes them to contract"
+    - "Overnight refrigeration allows the chicken to reabsorb atmospheric moisture that unsalted chicken cannot"
+  answer: 2
+  explanation: "Dry brining works through a two-stage mechanism. Initially, salt draws surface moisture out through osmosis. As the salt concentration equilibrates inside the meat, dissolved proteins change conformation in ways that allow muscle fibers to hold onto more liquid when heated. The practical result: modified proteins don't squeeze out their water as readily when heat causes muscle fibers to contract, so the brined breast stays juicier throughout cooking. Option A is wrong — the mechanism is physical, not just perceptual. Option B describes the first stage accurately but misses the critical second stage (protein modification and moisture retention)."
+
+- question: "A marinade is more effective than a dry brine for adding deep, all-the-way-through flavor to a thick steak, because the liquid completely surrounds the meat."
+  type: true-false
+  answer: false
+  explanation: "Being surrounded by liquid doesn't determine penetration depth. Most flavor compounds in a marinade only travel a few millimeters into dense protein, regardless of how completely the surface is covered. A dry brine (salt directly applied) actually penetrates more effectively over time: salt draws surface moisture out, dissolves, and is drawn back in as the salt concentration equalizes. For flavor deep inside thick cuts, brining is generally superior to marinating, and injection (physically carrying flavor inward) is the most direct method."
+
+- question: "Over-marinating fish or shrimp in an acid-based marinade can turn the texture mushy or rubbery before the food ever reaches heat."
+  type: true-false
+  answer: true
+  explanation: "Acid denatures proteins — it partially unravels their structure, producing a softer texture. With extended marination, acid over-processes surface proteins, turning the texture from firm and fresh to chalky, mushy, or rubbery. This is the ceviche principle: citrus acid 'cooks' raw fish without heat by denaturing its proteins. An unintentional version of the same thing happens when shrimp or fish are left in an acid marinade too long. Thin, delicate proteins need only 15–30 minutes in an acid marinade; longer means texture damage."
+
+- question: "Explain why a wet brine makes meat juicier after cooking, using what you know about how salt interacts with muscle proteins."
+  type: short-answer
+  answer: "A wet brine works in two stages. First, osmosis causes salt to draw water out of the meat's surface. As the salt concentration inside the meat equalizes with the brine, the dissolved salt interacts with muscle proteins, changing their structure so they can hold onto more water. When the meat is cooked and heat causes muscle fibers to contract, these modified proteins don't squeeze out their water as readily as unmodified proteins would. The result is that brined meat retains more moisture during cooking and ends up juicier than unbrined meat cooked identically."
+  explanation: "The key mechanism is protein modification, not just osmosis. Many people stop at 'salt draws moisture out,' which sounds like it would make meat drier — but the second stage reverses this: the salt-modified proteins become better at holding onto moisture under the stress of cooking heat. The practical test is simple: dry-brine one chicken breast and cook it next to an identical unbrined one. The difference in juiciness after cooking makes the mechanism concrete and memorable."
+```
+
 ## Explainer
 
 From seasoning and flavor basics, you know that salt and aromatic compounds change how food tastes — primarily at the surface. Marinating and brining take this further: instead of just seasoning the surface at serving time, they change the food's actual texture and moisture content before cooking. The two techniques work through different mechanisms, which is why they have different applications, different timing rules, and different failure modes.

@@ -29,6 +29,45 @@ Isolate nucleosomal core particles by micrococcal nuclease digestion; determine 
 ## Common Misconceptions
 - DNA wraps around histone cores outside-to-outside; DNA enters one side and exits the other. - Nucleosomes are permanent; they are dynamic structures constantly assembling and disassembling.
 
+## Questions
+
+```yaml
+- question: "A researcher observes that a gene's promoter is tightly wrapped in nucleosomes in a differentiated cell but shows nucleosome-free regions in a stem cell. The most direct explanation is:"
+  type: multiple-choice
+  options:
+    - "The stem cell's DNA has been chemically modified, altering the promoter sequence"
+    - "Chromatin remodeling complexes have used ATP hydrolysis to reposition or eject nucleosomes at the promoter, exposing the DNA"
+    - "The gene's promoter sequence differs between cell types due to somatic mutation"
+    - "Histones are absent in stem cells, leaving all DNA as naked double helix"
+  answer: 1
+  explanation: "Nucleosome positioning is a regulatory mechanism, not a fixed structural feature. Chromatin remodeling complexes (such as SWI/SNF) use ATP hydrolysis to slide, eject, or restructure nucleosomes, creating nucleosome-free regions that allow transcription factors and RNA polymerase to bind. This is how the same genome produces different gene expression patterns in different cell types — through differential nucleosome occupancy at regulatory regions, not changes to the DNA sequence itself."
+
+- question: "Which statement about nucleosome dynamics is most accurate?"
+  type: multiple-choice
+  options:
+    - "Nucleosomes are permanent structures that require cell division to be reorganized"
+    - "The histone octamer binds DNA irreversibly through covalent bonds, requiring enzymatic cleavage to release"
+    - "Nucleosomes constantly breathe — transiently unwrapping and rewrapping — allowing brief windows of DNA access even in compact chromatin"
+    - "The nucleosome remains fully intact and undisturbed during transcription as RNA polymerase loops around it"
+  answer: 2
+  explanation: "Nucleosomes are dynamic assemblies held together by electrostatic and hydrogen bonds that allow transient unwrapping. This 'breathing' creates brief exposures of nucleosomal DNA, enabling transcription factors to probe for binding sites even in relatively compact chromatin. Full transcriptional activation typically requires chromatin remodeling complexes to more stably displace or reposition nucleosomes, but even without active remodeling, the inherent dynamics of nucleosome breathing provide a baseline level of DNA accessibility."
+
+- question: "The ionic attraction between positively charged histone residues and negatively charged DNA phosphate groups is a primary force holding the nucleosome together."
+  type: true-false
+  answer: true
+  explanation: "The histone octamer is enriched in lysine and arginine residues, which carry positive charges at physiological pH. These form electrostatic interactions with the negatively charged phosphate backbone of the DNA double helix. This is why histone acetylation — which adds an acetyl group to lysine, neutralizing its positive charge — weakens histone-DNA contacts and loosens chromatin structure, directly demonstrating that charge-based attraction is the primary physical mechanism of nucleosome assembly."
+
+- question: "The primary biological purpose of the nucleosome is DNA compaction — fitting the genome into the nucleus — and gene regulation is an incidental byproduct of this packaging."
+  type: true-false
+  answer: false
+  explanation: "Nucleosome positioning is a central mechanism of gene regulation, not a byproduct of compaction. Cells invest substantial energy in ATP-dependent chromatin remodeling complexes and an elaborate system of histone post-translational modifications precisely to control which regions are nucleosome-occupied (repressed) versus nucleosome-free (accessible). The same genome produces ~200 distinct cell types in the human body largely through differential nucleosome positioning and histone modification, demonstrating that regulation is a primary — not incidental — function."
+
+- question: "How does histone acetylation facilitate gene expression, and what does this reveal about the nucleosome's role as a regulatory element?"
+  type: short-answer
+  answer: "Acetylation adds an acetyl group to lysine residues on histone tails, neutralizing their positive charge. This reduces electrostatic attraction between the histone octamer and the negatively charged DNA phosphate backbone, loosening the DNA-histone grip and creating more open chromatin. Transcription factors and RNA polymerase can then access the underlying DNA sequence. This reveals that the nucleosome is an adjustable gate: by chemically modifying histone tails, the cell dynamically tunes DNA accessibility. The nucleosome is not merely a structural spool but the primary unit of epigenetic regulation."
+  explanation: "The consequence is profound: the same DNA sequence can be silenced or expressed depending on the post-translational modification state of the histones packaging it. This is the molecular basis for cell-type-specific gene expression from a single genome — and it explains why histone-modifying enzymes (acetyltransferases, deacetylases, methyltransferases) are major targets in cancer therapy."
+```
+
 ## Explainer
 
 You already know that DNA is a long, negatively charged double helix — and from your study of histone modifications, you know that chemical tags on histone proteins influence gene activity. The **nucleosome** is the structure that connects these two ideas: it is the fundamental unit of DNA packaging in eukaryotic cells, and it determines whether a given stretch of DNA is accessible for transcription or locked away in silence.

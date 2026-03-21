@@ -30,6 +30,45 @@ Trace a single work's critical reception across decades or its translation histo
 ## Common Misconceptions
 That a text's meaning is stable across contexts. Reception history shows meaning is produced through reading, translation, and institutional framing. Different readers and eras activate different aspects of a text.
 
+## Questions
+
+```yaml
+- question: "Emily Wilson's 2017 translation of Homer's Odyssey rendered a term that earlier translations glossed as heroic praise as 'complicated man,' foregrounding moral ambiguity rather than heroism. What does this translation choice represent, from a reception history perspective?"
+  type: multiple-choice
+  options:
+    - "A mistranslation that should be corrected against the authoritative original Greek"
+    - "A frozen interpretive reading that reflects Wilson's historical moment and interpretive priorities, adding a new layer to Homer's reception history"
+    - "Proof that earlier translations were ideologically biased while Wilson's is neutral and objective"
+    - "An example of foreignizing translation strategy that restores the original text's foreignness"
+  answer: 1
+  explanation: "From a reception history perspective, no translation is a neutral window onto the original — each is an interpretive reading frozen into another language. Wilson's choice reflects her historical moment and contemporary interpretive concerns, just as Pope's 1715 translation reflected neoclassical ideals and Chapman's 1616 version reflected Elizabethan heroic values. No translation is more 'correct' in the sense of being free from perspective; each adds a new layer to Homer's reception history and tells us about its era as much as about Homer."
+
+- question: "According to reception history, what primarily determines whether a literary work becomes canonical?"
+  type: multiple-choice
+  options:
+    - "The intrinsic aesthetic quality of the text, which readers across cultures and centuries recognize independently"
+    - "The author's biographical reputation and historical importance at the time of original publication"
+    - "The repeated selection, translation, teaching, and institutionalization of the work by schools, publishers, critics, and curricula across generations"
+    - "The universality of the themes the work addresses, which ensures relevance across cultures"
+  answer: 2
+  explanation: "Reception history reveals that canonicity is constructed, not discovered. A work becomes canonical through institutional action: it is repeatedly translated into influential languages, included in curricula, reviewed by critics, taught in universities, and made available to subsequent generations. Equally rich works that lack this institutional support remain invisible to most of the world's readers. Quality is necessary but not sufficient; institutional circulation is what converts potential canonicity into actual canonicity."
+
+- question: "A translation is a frozen interpretive reading that tells us as much about the translator's historical moment as about the original text."
+  type: true-false
+  answer: true
+  explanation: "This is the central insight of translation lineage analysis. Each translator brings ideological assumptions, aesthetic priorities, and the concerns of their era to the translation. Chapman read Homer through Elizabethan heroism; Pope through neoclassical formalism; Lattimore through mid-century directness; Wilson through contemporary critical analysis. The differences between translations are not random variation but records of different cultural encounters with antiquity. A translation lineage is reception history made visible."
+
+- question: "Studying reception history shows that literary texts have unstable, constructed meanings, which implies that evaluating their quality or significance is not possible."
+  type: true-false
+  answer: false
+  explanation: "Reception history contextualizes literary value but does not debunk it. Understanding that canonicity is institutionally constructed and that meanings shift across historical contexts does not mean all interpretations are equally valid or that quality judgments are impossible. Rather, it makes us more precise evaluators: we can distinguish intrinsic textual properties from the contingent historical choices that made particular works visible, and we can recognize which interpretive frames are doing the most work at any given moment of reading."
+
+- question: "What does reception history reveal about the relationship between a text's intrinsic properties and its meaning in the world?"
+  type: short-answer
+  answer: "Reception history reveals that a text's meaning in the world is not simply latent in its words, waiting to be correctly decoded. Meaning is produced through the encounter between text and reader within a specific historical, institutional, and cultural context. The same text generates different meanings when read through different critical traditions, translated by different hands, or taught in different curricula. The text's intrinsic properties constrain the range of plausible interpretations but underdetermine meaning — and the 'meaning' of a canonical work is always a layered accumulation of historical readings rather than a fixed essence."
+  explanation: "This insight transforms how we read: instead of asking 'what does this text mean?' we ask 'what have readers made of it, and why?' Reception history trains interpretive archaeology: unearthing layers of reading to see both the text's richness and the contingency of our own assumptions about it."
+```
+
 ## Explainer
 
 From Damrosch's work on world literature, you know that a text changes as it travels — that the same words mean different things when read in a different time, place, or institutional context. **Reception history** is the discipline that makes this systematic: rather than studying the text alone, it studies the text-plus-all-its-readings as the real object of literary knowledge. This shifts what counts as evidence. Instead of asking "what does *Hamlet* mean?", reception history asks "what have readers, critics, actors, translators, and directors made of *Hamlet* across four centuries, and what do those divergent makings tell us about the play and about those contexts?"

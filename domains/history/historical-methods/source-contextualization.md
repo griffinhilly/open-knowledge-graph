@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Sources must be understood within their historical context—the circumstances of their creation, the conventions and assumptions of their time, the networks of meaning in which they were embedded. Contextual reading avoids anachronism and reveals how sources participate in their own historical moments. Context is not merely background information but constitutive of meaning and understanding.
 
+## Questions
+
+```yaml
+- question: "A historian describes a 17th-century author who argued for concentrated state power as exhibiting 'proto-authoritarian tendencies.' What methodological problem does this most likely illustrate?"
+  type: multiple-choice
+  options:
+    - "Insufficient archival research into primary sources"
+    - "Anachronism — projecting a 20th-century political category onto an author who did not share it"
+    - "Overreliance on secondary literature rather than primary sources"
+    - "Failure to consider the author's biography and personal background"
+  answer: 1
+  explanation: "'Proto-authoritarian' carries associations with 20th-century totalitarian regimes. A 17th-century author arguing for concentrated state power may have been responding to civil war, religious conflict, or theories of natural law — operating within a completely different conceptual universe. Applying this category substitutes our concepts for theirs, closing off understanding of what the text was actually doing in its world. This is the core error that source contextualization is designed to prevent."
+
+- question: "When Quentin Skinner argues that understanding a historical text requires reconstructing its 'linguistic context,' what does he mean?"
+  type: multiple-choice
+  options:
+    - "Translating the original language into modern equivalents to make the text accessible"
+    - "Identifying all the metaphors and rhetorical devices used by the author"
+    - "Recovering the specific debates, available argumentative conventions, and live questions of the intellectual community at that time"
+    - "Documenting the influence of the text on later thinkers and traditions"
+  answer: 2
+  explanation: "Skinner's 'linguistic context' refers to the intellectual conversation the author was participating in: what positions were live and debatable, what conventions governed acceptable argument, what opponents they were responding to, and what audiences they were addressing. To understand Hobbes's Leviathan, you must know the specific debates it intervened in — parliamentary theory, resistance theory, Presbyterian arguments. A text is an act, and you cannot understand the act without the situation that made it possible and meaningful."
+
+- question: "Contextualizing a historical actor's choices — understanding the world from within their own categories — is equivalent to endorsing or excusing those choices."
+  type: true-false
+  answer: false
+  explanation: "This conflates contextualization with sympathy or relativism. Contextualization aims at accurate historical understanding: what were the available options, what categories made sense, what were the actor's actual beliefs and intentions? A historian can contextualize a slave trader's self-understanding while still judging slavery to be profoundly wrong. Indeed, rigorous contextualization is a precondition for fair moral judgment, because judging fairly requires knowing what was genuinely within the actor's control and understanding."
+
+- question: "Understanding what a historical source was doing in its own time — rather than what it merely says — requires reconstructing the conversation it was an intervention into."
+  type: true-false
+  answer: true
+  explanation: "A text is not merely a set of propositions — it is an intervention: it argues against some positions, supports others, attempts to persuade specific audiences, responds to specific challenges. To identify the act (what was the author doing?), you must know what debate they were entering, what positions existed in it, and what effect the text was designed to have. Context is not background — it is constitutive of the meaning of the act."
+
+- question: "Why does source contextualization improve not just historical accuracy but also the quality of moral judgment about historical actors?"
+  type: short-answer
+  answer: "Fair moral judgment requires knowing what choices were actually available to a historical actor, what they believed they were doing, and what their available evidence and conceptual frameworks supported. Without contextual knowledge, we judge historical actors by whether they conformed to standards they could not have known — standards that emerged later. Contextualization reveals what range of options existed, what was genuinely thinkable at the time, and what pressures and constraints shaped decisions. A judgment formed with this knowledge is fairer and more accurate than one formed from anachronistic projection."
+  explanation: "This is distinct from moral relativism. Contextualization does not require concluding that all historical practices were acceptable in their time. It requires being precise about what was avoidable, what was contested even then, and what was genuinely outside the actor's conceptual reach — distinctions that matter for any serious ethical evaluation."
+```
+
 ## Explainer
 
 From your study of contextualism, you know that meaning is not intrinsic to texts — it is produced in the interaction between a text and the conditions of its creation and reception. Source contextualization is the practical application of that theoretical insight to the everyday work of historical reading. The question is not simply "what does this source say?" but "what was this source doing in the world where it was made?" Getting that question right requires reconstructing the historical circumstances — the conventions, the audience, the pressures, the available alternatives — that shaped every choice the author made.

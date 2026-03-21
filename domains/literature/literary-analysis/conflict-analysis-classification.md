@@ -34,6 +34,45 @@ Identify the central conflict and classify it. Then ask: what makes this conflic
 - Limiting conflict to physical struggle; internal conflicts (moral dilemmas, psychological battles) can be equally or more central to a work.
 - Assuming all conflicts must be fully resolved; some texts intentionally leave conflicts unresolved to suggest ongoing struggle or ambiguity.
 
+## Questions
+
+```yaml
+- question: "A character faces both a hostile community (external conflict) and self-doubt about her own decisions (internal conflict). Which conflict is most likely to carry the thematic meaning of the work?"
+  type: multiple-choice
+  options:
+    - "The external conflict, because it drives the plot forward and is more visible to the reader"
+    - "The internal conflict, because it reveals what the character truly values under pressure"
+    - "Neither — thematic meaning comes from symbols and imagery, not from conflict"
+    - "They are equal, because both must be resolved for the work to feel complete"
+  answer: 1
+  explanation: "While external conflict drives plot, the internal conflict — the character's struggle with values, identity, or psychological reality — is typically where thematic meaning lives. The external obstacle forces a confrontation with the internal struggle that might otherwise have been avoided. Describing the external conflict's function ('drives plot') is not the same as identifying where meaning is generated. Rich literary texts work at both levels, but the internal conflict is usually what the text is *about*."
+
+- question: "In Hamlet, which conflict generates the tragedy's thematic meaning: Hamlet's opposition to Claudius, or Hamlet's paralysis and incapacity for action?"
+  type: multiple-choice
+  options:
+    - "The external conflict with Claudius — without it, there would be no play"
+    - "The internal conflict — the philosophical paralysis is what makes the tragedy tragic rather than merely eventful"
+    - "Both equally — the external and internal conflicts are independent and unrelated"
+    - "Neither — the thematic meaning comes from the play's language, not its conflicts"
+  answer: 1
+  explanation: "The external conflict (Hamlet vs. Claudius) gives the play its plot and occasion. But the internal conflict — Hamlet's inability to act, his philosophical paralysis, his incapacity for violence — is what generates the tragedy's length and meaning. The external obstacle forces Hamlet to confront his psychological limitations; the internal conflict is why we call this a tragedy of character rather than a thriller. This is the paradigm case for how external conflicts force characters to confront internal struggles they might otherwise have avoided."
+
+- question: "A story that ends with its central conflict completely unresolved — the opposing forces remain in opposition with no reconciliation — is structurally flawed."
+  type: true-false
+  answer: false
+  explanation: "Unresolved conflict is a deliberate, meaningful choice, not a flaw. A cleanly resolved conflict implies a world where problems have solutions; an unresolved conflict claims something darker — that some oppositions are irreconcilable. Camus's The Stranger ends with Meursault facing execution without catharsis or reconciliation, and the non-resolution *is* the existentialist argument made structurally. Authors choose resolution outcomes to make thematic claims about the world. The absence of resolution is itself a meaning-carrying decision."
+
+- question: "A character who has no obstacle between herself and her desire reveals the most about her values, because nothing constrains her choices."
+  type: true-false
+  answer: false
+  explanation: "Conflict is precisely what makes motivation visible. Without an obstacle, a character's desires and values remain latent and unexamined — there is no pressure to expose them. When something stands between a character and what they want, we learn what they actually value and how far they are willing to go. Atticus Finch defending a client he knows he'll lose, Raskolnikov confessing despite his ideology — these pressure-tested choices are the substance of characterization. Conflict reveals motivation; the absence of conflict conceals it."
+
+- question: "A character learns her mentor was involved in the corruption she has been protesting. She now faces a choice between loyalty and principle. How should this conflict be classified, and what does classification reveal?"
+  type: short-answer
+  answer: "This conflict operates at both levels simultaneously: person vs. person (the relationship with her mentor) and person vs. self (the internal moral dilemma between loyalty and principle). Classifying it reveals that the external opposition has generated an internal values conflict — the external fact forces a confrontation with what she actually cares about most. This layering is the norm in rich literary texts: conflict classification isn't about picking one type but about recognizing how levels interact and which level carries the deeper meaning."
+  explanation: "The most important analytical move in conflict classification is recognizing when external and internal conflicts mirror each other. The external situation is what makes the internal dilemma unavoidable. Naming both levels — and their relationship — produces richer analysis than forcing the scenario into a single category."
+```
+
 ## Explainer
 
 Your prerequisites — dramatic conflict and narrative conflict — established that conflict is the engine of plot: without it, nothing moves. Now we're adding the analytical layer: **classifying** conflict is a tool that sharpens your reading by forcing you to name precisely what kind of opposition is generating the story's energy. The familiar taxonomy (person vs. person, person vs. nature, person vs. society, person vs. self) is not a filing system for its own sake — it's a prompt that reveals what kind of problem the narrative is actually exploring.

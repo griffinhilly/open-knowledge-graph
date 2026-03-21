@@ -34,6 +34,45 @@ Start by expressing r and F in Cartesian component form, then evaluate the 3x3 d
 - Confusing moment about a point (a vector) with moment about an axis (a scalar projection of that vector).
 - Reversing the order of the cross product (F x r instead of r x F), which flips the sign of the result.
 
+## Questions
+
+```yaml
+- question: "A force F = 3j N is applied at point r = 2i m from the origin. What is the moment about the origin?"
+  type: multiple-choice
+  options:
+    - "M = 6i N·m — the moment points in the direction of the position vector"
+    - "M = 6j N·m — the moment points in the direction of the force"
+    - "M = 6k N·m — from r × F using the right-hand rule"
+    - "M = −6k N·m — the moment is negative because the force is in the y-direction"
+  answer: 2
+  explanation: "Using M = r × F with r = 2i and F = 3j: the cross product i × j = k, so M = 2·3·(i × j) = 6k N·m. The moment vector points in the +z direction. This illustrates the critical 3D insight: the moment vector points *perpendicular* to both r and F — not in the direction of either. A force in the y-direction at an x-offset produces a rotational tendency about the z-axis. Options A and B represent the common misconception that M points along r or F."
+
+- question: "An engineer computes M_O = (4i + 2j − 3k) N·m as the moment about point O. She wants the moment about a shaft axis defined by unit vector û = j. What is the result, and what type of quantity is it?"
+  type: multiple-choice
+  options:
+    - "A vector: (4i + 2j − 3k) N·m — the full moment vector projected onto the axis"
+    - "A scalar: 2 N·m — the dot product û · M_O extracts the y-component"
+    - "A vector: 2j N·m — the j-component of M_O"
+    - "A scalar: −3 N·m — the component perpendicular to the shaft"
+  answer: 1
+  explanation: "The moment about a specific axis is the scalar M_a = û · M_O = j · (4i + 2j − 3k) = 0(4) + 1(2) + 0(−3) = 2 N·m. This is a scalar, not a vector — it represents the rotational tendency about the chosen axis. The x- and z-components (4i and −3k) are reactions absorbed by the bearing and don't drive rotation about the y-axis. The transition from moment-about-a-point (vector) to moment-about-an-axis (scalar) via dot product is a key operation in 3D statics."
+
+- question: "In the cross product formula M_O = r × F, swapping the order to F × r gives a result that is equal in magnitude but opposite in direction."
+  type: true-false
+  answer: true
+  explanation: "The cross product is anti-commutative: F × r = −(r × F). This means swapping operand order flips all three components of the moment vector — same magnitude, opposite direction. In practice, this is one of the most common sign errors in 3D statics. The correct form is r × F (position vector crossed into force), following the right-hand rule: curl fingers from r toward F, thumb points in the direction of M_O."
+
+- question: "The moment vector M_O = r × F points in the direction of the applied force F."
+  type: true-false
+  answer: false
+  explanation: "The moment vector is perpendicular to both r and F, by definition of the cross product. It points along the axis about which the force tends to cause rotation — which is generally in a completely different direction from the force itself. For example, a vertical force (in the z-direction) applied at a horizontal offset (in the x-direction) produces a moment vector in the y-direction. The moment vector's direction tells you the rotational axis, not the force direction. Confusing these is the central conceptual error students make when first encountering 3D moments."
+
+- question: "What is the conceptual difference between the moment of a force about a point and the moment of a force about an axis, and when would you use each?"
+  type: short-answer
+  answer: "The moment about a *point* M_O = r × F is a vector describing the full rotational tendency — both which axis the rotation acts about and how strong it is. The moment about a specific *axis* is the scalar M_a = û · M_O, which isolates just the rotational component acting about one particular direction. You use moment about a point when writing full 3D equilibrium equations (summing all moment components to zero). You use moment about an axis when analyzing a specific shaft, hinge, or pin — to find what torque acts through that constrained direction."
+  explanation: "For example, analyzing a bolted plate in 3D requires taking moments about the point of application to write three vector equations. But computing the torque on a specific drive shaft means projecting the moment vector onto the shaft's axis — the other components are reacted by bearings. The axis moment gives the scalar answer a mechanical designer needs: how much torque must the shaft handle?"
+```
+
 ## Explainer
 
 In 2D statics, the moment of a force about a point is a scalar: M = r × F = r·F·sin θ, with a positive or negative sign indicating clockwise or counterclockwise. In 3D, that sign is replaced by a direction — the moment becomes a **vector** that points along the axis about which the rotation tends to occur. The formula is **M**_O = **r** × **F**, where **r** is any position vector from the moment reference point O to any point on the line of action of **F**. The direction of the moment vector is given by the right-hand rule: curl your right-hand fingers from **r** toward **F**, and your thumb points in the direction of **M**_O.

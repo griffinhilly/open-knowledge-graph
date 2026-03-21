@@ -32,6 +32,45 @@ Start with intuitionistic logic and understand the constructive interpretation. 
 - Assuming non-classical logics reject all classical reasoning (they typically relax specific principles).
 - Confusing intuitionistic logic with paraconsistent logic (intuitionistic rejects law of excluded middle; paraconsistent rejects explosion from contradictions; different motivations).
 
+## Questions
+
+```yaml
+- question: "Intuitionistic logic rejects the law of excluded middle (P ∨ ¬P). What does this mean in practice for asserting a disjunction?"
+  type: multiple-choice
+  options:
+    - "You must prove both P and ¬P before asserting any disjunction, since without both disjuncts the assertion is incomplete"
+    - "To assert P ∨ Q you must provide either a specific proof of P or a specific proof of Q — a disjunction without a proven disjunct is inadmissible"
+    - "Proof by contradiction remains valid, since ¬¬P ⟹ P holds and allows classical-style reasoning within intuitionistic logic"
+    - "All theorems provable in classical logic are also provable in intuitionistic logic, since intuitionistic logic only adds proof requirements"
+  answer: 1
+  explanation: "In intuitionistic logic, the meaning of P ∨ Q is constructive: to assert it, you must have a specific proof of P or a specific proof of Q in hand. You cannot assert P ∨ ¬P merely because you cannot find a counterexample — the absence of a refutation is not a proof. This is why double negation elimination (¬¬P ⟹ P) fails: knowing 'P is not false' is not the same as having a proof of P. Intuitionistic logic proves strictly fewer theorems than classical logic — all intuitionistic theorems are classically valid, but many classical theorems (like P ∨ ¬P for all P) are not intuitionistically provable."
+
+- question: "A software engineer is building a knowledge base that may contain contradictory information imported from multiple sources. She needs the system to reason usefully even when contradictions exist, without deriving arbitrary conclusions from them. Which logic is best suited to this requirement?"
+  type: multiple-choice
+  options:
+    - "Intuitionistic logic, because its constructive proof requirements would prevent contradictions from being formally asserted in the first place"
+    - "Modal logic S5, because the necessity operator □ can quarantine inconsistent facts within separate possible worlds"
+    - "Paraconsistent logic, which abandons the explosion principle so that a local contradiction does not cause arbitrary conclusions to follow"
+    - "Fuzzy logic, because representing truth values in [0, 1] allows inconsistent claims to average out rather than generating full contradictions"
+  answer: 2
+  explanation: "Classical logic obeys explosion (ex falso quodlibet): from φ ∧ ¬φ, anything follows. In a knowledge base with even one contradiction, every statement becomes provable — the system is useless. Paraconsistent logic explicitly abandons explosion, allowing the system to contain local contradictions without 'infecting' the rest of the knowledge base. Intuitionistic logic restricts proofs to constructive ones but still accepts explosion. Modal logic quarantines facts to possible worlds but does not handle outright contradictions within a single world. Fuzzy logic handles vagueness and gradable predicates but not logical contradictions per se."
+
+- question: "Non-classical logics such as intuitionistic and paraconsistent logic are less formally rigorous than classical logic because they prove fewer theorems and therefore have less complete proof systems."
+  type: true-false
+  answer: false
+  explanation: "This is a listed common misconception. Non-classical logics are equally rigorous — they have precisely defined semantics, sound and complete proof systems relative to those semantics, and well-defined inference rules. The fact that intuitionistic logic proves fewer theorems than classical logic is a design choice, not a deficiency: it reflects a deliberate commitment to constructive existence. Intuitionistic logic's Curry-Howard correspondence with typed lambda calculus and its soundness and completeness with respect to Kripke models are mathematically precise results. 'Fewer theorems' means more discriminating, not less rigorous."
+
+- question: "In modal logic, different constraints on the accessibility relation between possible worlds yield different modal systems (T, S4, S5, etc.) that can model different notions such as knowledge, obligation, or temporal necessity."
+  type: true-false
+  answer: true
+  explanation: "This is a key feature of Kripke semantics for modal logic. The logical behavior of □ ('necessarily') and ◇ ('possibly') changes depending on what properties the accessibility relation satisfies. Reflexivity gives the system T; transitivity gives K4; reflexivity plus transitivity gives S4; equivalence (reflexivity + symmetry + transitivity) gives S5. The same formal machinery accommodates different interpretations: in epistemic logic, □φ means 'the agent knows φ'; in deontic logic, □φ means 'it is obligatory that φ'; in temporal logic, □φ means 'φ always holds in the future.' The shared Kripke framework makes modal logic a versatile tool across many domains."
+
+- question: "Why is the choice between classical and non-classical logic not a matter of one being 'more correct' than the other?"
+  type: short-answer
+  answer: "Classical logic is built on specific foundational assumptions — bivalence and the law of excluded middle — that accurately model mathematical truth and most formal reasoning, but fail or are inappropriate in other domains. Non-classical logics are not corrections to classical logic; they are alternative systems that relax different assumptions for principled reasons matched to different phenomena. Intuitionistic logic rejects excluded middle to formalize the view that mathematical existence requires constructive proof, not merely the impossibility of non-existence — a coherent philosophical position with deep connections to type theory and program verification. Paraconsistent logic abandons explosion to enable reasoning in the presence of localized contradictions, appropriate for inconsistency-tolerant databases. Choosing a logic is analogous to choosing a geometry: Euclidean geometry is not more correct than hyperbolic geometry — each is the right tool for the space it describes."
+  explanation: "The deeper point is that 'logical truth' is relative to which inference rules and axioms you accept. Classical logic is the conventional default for pure mathematics because its assumptions match mathematical practice. The non-classical alternatives arose because practitioners in specific domains — intuitionistic mathematics, formal verification, database theory, legal reasoning — found that classical logic's assumptions did not accurately model the phenomena they needed to reason about."
+```
+
 ## Explainer
 
 Classical propositional and predicate logic rests on two invisible assumptions worth naming explicitly: **bivalence** (every formula is either true or false) and the **law of excluded middle** (⊢ φ ∨ ¬φ for every φ). These assumptions are so thoroughly embedded in classical reasoning that violations feel like errors. Non-classical logics suspend one or both for principled reasons, not as arbitrary variation. Each alternative is formally complete and consistent on its own terms — the question is not which logic is "correct," but which logic is appropriate for a given domain of reasoning.

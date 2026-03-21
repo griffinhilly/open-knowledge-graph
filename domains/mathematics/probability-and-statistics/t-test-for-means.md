@@ -36,6 +36,45 @@ Use technology for p-value computation — the t-distribution CDF is not tabulat
 - Forgetting to compute differences first in a paired design — treating paired data as independent.
 - Not checking normality conditions before applying the t-test to small samples.
 
+## Questions
+
+```yaml
+- question: "A researcher wants to test whether the mean blood pressure of a patient sample differs from a known reference value of 120 mmHg. The population standard deviation is unknown. Which test is appropriate, and why?"
+  type: multiple-choice
+  options:
+    - "A z-test, because the reference value μ₀ is known"
+    - "A t-test, because the population standard deviation σ is unknown and must be estimated from the sample"
+    - "A z-test, because blood pressure is normally distributed in the population"
+    - "A t-test, because the sample size is likely small"
+  answer: 1
+  explanation: "The z-test requires knowing the population standard deviation σ. When σ is unknown — the common situation in practice — the sample standard deviation s is substituted, producing the t-statistic t = (x̄ − μ₀)/(s/√n). This substitution introduces extra uncertainty about how well s approximates σ, which is captured by the t-distribution's heavier tails. The normality of the population or the size of the sample are secondary considerations that affect validity, not the choice between z and t."
+
+- question: "A study measures each participant's blood pressure before and after a training program. A researcher analyzes the data by running a standard two-sample independent t-test on the before and after groups. What error has the researcher made?"
+  type: multiple-choice
+  options:
+    - "Using a t-test instead of a z-test, since the measurements are paired"
+    - "Ignoring the pairing structure — matched pairs should be analyzed as differences, then subjected to a one-sample t-test"
+    - "Nothing — a two-sample t-test is always valid when comparing two sets of measurements"
+    - "Using a one-tailed instead of two-tailed test"
+  answer: 1
+  explanation: "When data consists of matched pairs (two measurements on the same subject), the correct approach is to compute the difference for each pair first, then run a one-sample t-test on those differences. Treating the 'before' and 'after' groups as independent discards the matching information — the correlation between a person's before and after measurements — and artificially inflates the variance estimate, dramatically reducing the test's power to detect a real effect."
+
+- question: "As the sample size n increases in a one-sample t-test, the t-distribution used to compute p-values approaches the standard normal distribution."
+  type: true-false
+  answer: true
+  explanation: "With more data, the sample standard deviation s becomes a more reliable estimate of the true σ, so the extra uncertainty that distinguishes the t-distribution from the normal diminishes. Formally, the t-distribution with df = n − 1 converges to N(0, 1) as n → ∞. This is why the z-test can be seen as a limiting special case of the t-test — when n is large enough, s ≈ σ and the two tests produce nearly identical results."
+
+- question: "The t-test statistic is computed identically to the z-test statistic — both use the population standard deviation σ in the denominator."
+  type: true-false
+  answer: false
+  explanation: "This is precisely the distinction between the two tests. The z-statistic uses z = (x̄ − μ₀)/(σ/√n), where σ is the known population standard deviation. The t-statistic uses t = (x̄ − μ₀)/(s/√n), where s is the sample standard deviation — an estimate of σ computed from the data itself. This substitution of a random quantity (s) for a fixed quantity (σ) is what gives the test statistic a t-distribution rather than a normal distribution, with heavier tails to account for the additional variability."
+
+- question: "Why does the t-distribution have heavier tails than the standard normal distribution, and what does this mean for hypothesis testing in practice?"
+  type: short-answer
+  answer: "The t-distribution has heavier tails because the test statistic uses s (the sample standard deviation) instead of the known σ. Since s is itself a random variable that varies from sample to sample, the t-statistic carries extra uncertainty beyond what the normal accounts for. Heavier tails mean the critical values (e.g., t* for α = 0.05) are larger than the corresponding z* values — making it harder to reject the null with small samples."
+  explanation: "The practical implication is that with small samples, you need a larger observed effect to reach statistical significance compared to a z-test. This is the cost of not knowing σ: you use a wider rejection region to account for the possibility that your s underestimates σ and your standardized statistic is therefore inflated. The degrees of freedom parameter (df = n − 1) tracks how much information you have about σ — more data, more information, thinner tails, critical values closer to the normal."
+```
+
 ## Explainer
 
 From your work on hypothesis testing and the z-test, you know the basic logic: assume the null hypothesis, compute how unusual your data would be under that assumption, and reject if the probability is small enough. The z-test uses the test statistic z = (x̄ − μ₀) / (σ/√n), which requires knowing the population standard deviation σ. In practice, σ is almost never known — you only have your sample. The natural fix is to plug in the sample standard deviation s, giving t = (x̄ − μ₀) / (s/√n). But this substitution introduces extra uncertainty: s itself is a random variable, varying from sample to sample. The **t-distribution** accounts for this extra randomness. It looks like a standard normal but has heavier tails — the extra probability in the tails reflects the possibility that s is an underestimate of σ, making your standardized statistic larger than a z-score would be.

@@ -34,6 +34,45 @@ Examining a soil pit with distinct horizons—or a photograph of one—and infer
 - Soil forms from bedrock in place, but transported parent materials (alluvial, glacial, loess deposits) also underlie large areas of fertile agricultural soil.
 - Clay minerals are not simply finely ground primary minerals; they are newly formed secondary minerals with distinct crystal structures (kaolinite, smectite, illite) that did not exist in the original rock.
 
+## Questions
+
+```yaml
+- question: "Two soils developed from the same granite parent material: one in a hot, humid tropical climate; one in a cold, dry arctic climate. After the same 100,000 years, which soil will have a thicker, more chemically developed B horizon with abundant clay minerals?"
+  type: multiple-choice
+  options:
+    - "The arctic soil — cold temperatures slow decomposition and preserve organic matter, building up the B horizon"
+    - "The tropical soil — higher temperature and moisture accelerate chemical weathering, clay formation, and eluviation/illuviation processes"
+    - "Both will be equally developed — parent material is the dominant factor over climate"
+    - "The arctic soil — frost heaving and freeze-thaw cycles mechanically mix and transport material into the B horizon"
+  answer: 1
+  explanation: "Climate is the dominant soil-forming factor over long time periods. High temperature accelerates chemical reaction rates, and high moisture drives the dissolution and leaching reactions that break down primary silicates into clay minerals. In tropical soils, intense weathering can produce thick, iron-rich, deeply leached profiles (laterites/Oxisols). The arctic soil may barely develop beyond a thin A over C horizon in the same timeframe. Parent material sets the starting chemistry but climate determines the rate and direction of transformation."
+
+- question: "A soil pit reveals a pale, sandy layer beneath the dark topsoil, with a dense, reddish-brown clay-rich layer below that. Which soil horizons are these, and what processes created them?"
+  type: multiple-choice
+  options:
+    - "The pale layer is the O horizon (organic accumulation) and the red layer is the A horizon (mixing zone)"
+    - "The pale layer is the E horizon (formed by eluviation — downward leaching of iron, aluminum, and clay) and the red layer is the B horizon (formed by illuviation — accumulation of those leached materials)"
+    - "The pale layer is the C horizon (partially weathered parent material) and the red layer is the B horizon (residual iron)"
+    - "The pale layer is the A horizon depleted by agriculture and the red layer is undisturbed subsoil"
+  answer: 1
+  explanation: "The E horizon (eluviation horizon) is formed when percolating water strips iron oxides, aluminum, and clay from the soil, leaving behind pale, coarse-textured residue — often sandy and bleached. Those stripped materials accumulate in the B horizon (illuviation horizon) below, producing the characteristic reddish-brown or yellowish color from iron oxides and the dense, clay-rich texture. E and B horizons are genetically linked: wherever there's an E, there should be a B below receiving what the E lost."
+
+- question: "Clay minerals found in soil are newly formed secondary silicates with crystal structures that did not exist in the original parent rock."
+  type: true-false
+  answer: true
+  explanation: "This is one of the key misconceptions to overcome. Clay minerals like kaolinite, smectite, and illite are not simply finely ground primary minerals (like feldspar or quartz). They form through chemical weathering reactions: feldspar reacts with water and carbonic acid to produce kaolinite plus silica and cations in solution. The product has a completely different layered sheet silicate structure that was not present in the granite or basalt parent rock. This distinction matters because clay properties (cation exchange capacity, swelling) are determined by this new crystal structure, not inherited from the parent."
+
+- question: "The A horizon (topsoil) is primarily a zone of mineral accumulation, receiving material leached downward from above."
+  type: true-false
+  answer: false
+  explanation: "The A horizon is a zone of organic-mineral mixing and biological activity — it is where decomposing organic matter from the surface integrates with mineral particles, producing the dark, fertile topsoil. It is not a zone of accumulation from above. If anything, the A horizon loses material: fine clay, iron, and organic compounds are leached downward from A (and the E horizon below it) into the B horizon. The B horizon is the accumulation zone (illuviation). Confusing A and B is common because both are 'above' the unweathered parent, but their formation processes are opposite."
+
+- question: "Why is soil considered a non-renewable resource on human timescales, and what makes this different from most geological processes?"
+  type: short-answer
+  answer: "Soil forms at rates of roughly 1–10 cm per thousand years — it takes centuries to millennia to develop a few centimeters of productive topsoil with well-developed horizons, clay minerals, and organic matter. Human activities (erosion from agriculture, construction, deforestation) can remove that topsoil in years to decades. Unlike water, which cycles on timescales of days to years, soil formation is so slow relative to human lifespans that once lost, it is effectively irreplaceable within any planning horizon relevant to agriculture or civilization."
+  explanation: "This is the core conservation argument for soil. The B horizon of a mature Alfisol may have taken 10,000+ years to develop through gradual eluviation and illuviation. Erosion that exposes the B or C horizon strips away not just organic matter but the entire legacy of slow pedogenesis. New soil formation on exposed subsoil begins again but at geological rates. This is why soil erosion is considered one of the most serious environmental problems — the loss is effectively permanent on human timescales."
+```
+
 ## Explainer
 
 From your understanding of weathering and erosion, you know that physical and chemical processes break down rock at Earth's surface. **Pedogenesis** — soil formation — is what happens when that weathered material stays in place long enough for biological and chemical processes to transform it into something fundamentally different from the parent rock. Soil is not just crushed rock; it is a living, layered system of mineral particles, organic matter, water, air, and organisms interacting over timescales of centuries to millennia.

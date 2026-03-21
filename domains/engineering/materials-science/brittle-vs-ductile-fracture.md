@@ -33,6 +33,45 @@ Compare SEM fractographs of ductile (dimpled) versus brittle (cleavage facets or
 - The ductile-to-brittle transition is not a universal phenomenon — FCC metals like copper and aluminum do not exhibit a sharp transition and remain ductile at cryogenic temperatures.
 - A material is not either ductile or brittle in an absolute sense — the same steel can fracture in a ductile mode at room temperature and a brittle mode at minus 40 degrees C.
 
+## Questions
+
+```yaml
+- question: "A structural steel component (BCC) and an aluminum bracket (FCC) are both placed in service at −50°C. Based on their crystal structures, which outcome is most consistent with materials science?"
+  type: multiple-choice
+  options:
+    - "Both will fracture in a ductile mode, since metals are generally ductile"
+    - "Both will fracture in a brittle mode, since any metal becomes brittle at sufficiently low temperatures"
+    - "The aluminum may remain fully ductile, while the steel is at significant risk of brittle fracture if −50°C is below its DBTT"
+    - "The steel will remain ductile because it is stronger, but the aluminum may become brittle"
+  answer: 2
+  explanation: "FCC metals like aluminum have enough slip systems and sufficient dislocation mobility at all temperatures that they do not exhibit a sharp ductile-to-brittle transition temperature (DBTT) — they remain ductile down to cryogenic temperatures. BCC metals like structural steel do exhibit a DBTT: below it, dislocation pinning makes cleavage fracture competitive with plastic flow, and the steel can switch to brittle behavior. Option B overgeneralizes — it is specifically BCC metals that undergo this transition. Option D reverses the actual relationship between strength and fracture mode."
+
+- question: "A high-strength ceramic has an ultimate tensile strength of 800 MPa — higher than many structural steels — but fails catastrophically without warning. The best explanation is:"
+  type: multiple-choice
+  options:
+    - "The ceramic has weak atomic bonds that break easily under any load"
+    - "Ceramics have lower strength than metals, so failure occurs sooner than expected"
+    - "The ceramic cannot absorb energy through plastic deformation before fracture — it is brittle despite its high strength"
+    - "The ceramic was improperly manufactured, which caused premature failure"
+  answer: 2
+  explanation: "This is the central misconception the topic addresses: brittle fracture is not about low strength — it is about the inability to absorb energy through plastic deformation. A ceramic can have very high ultimate strength (the stress required to break atomic bonds) but zero plastic deformation capacity. When a crack initiates at a stress concentration, there is no plastic zone to blunt the crack tip and absorb energy — the crack propagates rapidly and catastrophically. Option B is factually wrong. Option A confuses fracture toughness with bond strength."
+
+- question: "A material that fractures by a brittle mechanism is necessarily weaker (has a lower ultimate tensile strength) than one that fractures in a ductile mode."
+  type: true-false
+  answer: false
+  explanation: "Brittle fracture and strength are independent properties. Ceramics and glass can have very high ultimate strengths but fracture in a brittle mode because they lack dislocation mechanisms for plastic deformation. The distinction is about *energy absorption* and *warning before failure*, not about strength level. A glass rod can be stronger in tension than a mild steel rod while also being far more dangerous in structural service — because the glass fails suddenly with no plastic deformation as a warning sign, while the steel will visibly neck and yield long before it breaks."
+
+- question: "The same structural steel component can fracture in a ductile mode at room temperature and in a brittle mode at −40°C, depending on whether the service temperature is above or below its ductile-to-brittle transition temperature."
+  type: true-false
+  answer: true
+  explanation: "The DBTT is a temperature-dependent property, not a fixed material identity. Above the DBTT, dislocation mobility is high enough that plastic deformation precedes fracture. Below it, dislocations are pinned and cleavage becomes energetically competitive with plastic flow. The material doesn't 'change' — the same atomic structure, the same grain boundaries, the same inclusions — but the relative competition between plastic flow and cleavage shifts with temperature. This is why the Charpy impact test plots absorbed energy versus temperature to locate the transition range, not just classify the material as 'ductile' or 'brittle.'"
+
+- question: "What is the fundamental difference between ductile and brittle fracture in terms of energy absorption, and why does this difference matter for engineering design?"
+  type: short-answer
+  answer: "Ductile fracture absorbs large amounts of energy through plastic deformation — dislocation motion, void nucleation and coalescence, and necking all dissipate energy before final separation, providing visible warning (elongation, necking) before fracture. Brittle fracture absorbs almost no energy: the crack propagates along cleavage planes or grain boundaries with minimal plastic deformation, releasing stored elastic energy nearly instantaneously. For engineering design, this matters because brittle fracture is sudden and catastrophic — there is no warning and no chance for inspection to catch a developing problem. Safety margins for brittle materials must account for pre-existing flaws and dynamic loading; ductile materials redistribute stress through yielding, making them more forgiving of stress concentrations."
+  explanation: "The Liberty ships and Titanic examples from the topic illustrate the engineering stakes: both involved steels operating below their DBTT in cold-water service, where stress concentrations (welds, corrosion pits, structural notches) acted as crack initiators and the brittle mode propagated the crack faster than any human response could prevent."
+```
+
 ## Explainer
 
 Your stress-strain background gives you the foundation here. In a ductile material, the stress-strain curve shows a long plastic plateau — energy is continuously absorbed as dislocations move, slip planes shear, and the material necks before finally separating. In a brittle material, the curve has no such plateau: the material behaves elastically all the way to fracture, and the sudden crack releases stored elastic energy almost instantaneously. The difference is not about which material is "stronger" — a brittle ceramic or glass can have very high ultimate strength — but about how much energy is absorbed and how much warning the fracture gives before it occurs.

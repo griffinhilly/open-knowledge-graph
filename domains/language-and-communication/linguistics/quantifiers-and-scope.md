@@ -30,6 +30,45 @@ Practice generating both scope readings for ambiguous sentences and drawing the 
 - "Some" in logic (existential quantifier) means "at least one," which conflicts with the conversational implicature that "some" means "not all" — this is a pragmatic enrichment, not part of the semantic meaning.
 - Not all surface word orders correspond to scope order; quantifier raising and other covert movement operations can produce scope readings that do not match linear position.
 
+## Questions
+
+```yaml
+- question: "A teacher says 'Every student submitted a paper,' meaning one specific assignment was due and all students turned it in. Which scope order captures this reading?"
+  type: multiple-choice
+  options:
+    - "∀ student > ∃ paper: each student submitted some paper, possibly a different one each"
+    - "∃ paper > ∀ student: one specific paper exists that every student submitted"
+    - "The sentence is unambiguous — there is only one interpretation"
+    - "Neither quantifier takes scope over the other in natural language"
+  answer: 1
+  explanation: "The teacher's reading requires one specific paper to exist (∃ paper takes wide scope), which every student then submitted. If universal took wide scope (option A), each student would merely need to have submitted *some* paper — not necessarily the same one. Scope ambiguity is precisely this: the same surface string is compatible with two distinct logical forms with different truth conditions."
+
+- question: "In the sentence 'Some investor studied every company,' investor A studied companies 1–3 and investor B studied companies 4–6, but no single investor studied all six. Which reading is TRUE in this scenario?"
+  type: multiple-choice
+  options:
+    - "∃ investor > ∀ company: there exists one investor who studied every company"
+    - "∀ company > ∃ investor: for every company, some investor (possibly different) studied it"
+    - "Both readings are true"
+    - "Both readings are false"
+  answer: 1
+  explanation: "The scenario satisfies the reading where universal takes wide scope: for every company, some investor studied it (A for 1–3, B for 4–6). It does not satisfy the existential-wide-scope reading because no single investor studied all six companies. This scenario cleanly separates the two readings and shows why scope order matters: the same sentence can be true under one reading and false under the other."
+
+- question: "Scope ambiguity is a kind of vagueness — the sentence 'Every student read a book' has an underspecified meaning that lies somewhere between two extremes."
+  type: true-false
+  answer: false
+  explanation: "Scope ambiguity and vagueness are fundamentally different. An ambiguous sentence has two distinct, fully precise interpretations, each with exact truth conditions. 'Every student read a book' either means ∀x∃y(read(x,y)) — each student read some potentially different book — or ∃y∀x(read(x,y)) — there is one specific book every student read. Neither interpretation is underspecified. Vagueness (e.g., 'tall') involves a single interpretation with a fuzzy boundary; ambiguity involves multiple precise interpretations."
+
+- question: "In 'Every student thinks she will pass,' the pronoun 'she' can be bound by 'every student,' yielding the reading that each student thinks she herself will pass."
+  type: true-false
+  answer: true
+  explanation: "Bound-variable readings arise when a quantifier takes scope over a pronoun and binds it as a variable. Here, every student takes wide scope over the embedded clause, allowing the pronoun to range over each student: for every student x, x thinks x will pass. The alternative referential reading is that every student thinks some specific person identified by context will pass. Both readings are grammatical, and contexts can favor one over the other."
+
+- question: "Explain why 'Every student read a book' is ambiguous rather than vague. Give the two truth conditions and describe a scenario that makes the readings come apart."
+  type: short-answer
+  answer: "The sentence has two distinct logical forms: (1) ∀x∃y: for every student x, there exists a (possibly different) book y that x read; (2) ∃y∀x: there exists one specific book y such that every student x read it. These are precise, different truth conditions. A scenario where each of 30 students read a different novel satisfies reading (1) but not (2). A scenario where every student read the same assigned textbook satisfies both. Ambiguity means two competing precise interpretations; vagueness means one underspecified interpretation."
+  explanation: "This distinction matters because formal semantic analysis resolves ambiguity by generating multiple logical forms, while it resolves vagueness by specifying a context-dependent threshold. Conflating the two leads to treating genuinely different truth conditions as a single fuzzy meaning."
+```
+
 ## Explainer
 
 From your work in compositional semantics, you know that the meaning of a sentence is built from the meanings of its parts according to syntactic structure. Quantifiers are the elements that make compositional semantics genuinely interesting — and genuinely difficult — because they don't just contribute a fixed meaning to a slot in the structure; they operate on entire **predicates**, binding variables that can appear elsewhere in the sentence.

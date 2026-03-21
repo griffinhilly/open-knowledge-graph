@@ -30,6 +30,45 @@ Re-implement the bounded-buffer using Java synchronized methods and wait()/notif
 - signal() does not immediately transfer control to the woken thread (Mesa semantics); the woken thread must compete for the lock.
 - Always use while() not if() when waiting on a condition variable to guard against spurious wakeups.
 
+## Questions
+
+```yaml
+- question: "In a bounded buffer monitor using Mesa semantics, a consumer thread wakes from wait(notEmpty) and executes: 'if (buffer.isEmpty()) { wait(notEmpty); } consume();'. What is the danger?"
+  type: multiple-choice
+  options:
+    - "No danger — signal() in Mesa semantics guarantees the condition holds when the woken thread resumes"
+    - "The thread may consume from an empty buffer, because another thread could have consumed the item before this thread reacquired the monitor lock"
+    - "The thread will deadlock, because calling wait() inside an if-statement is not allowed"
+    - "The signal will be lost, because Mesa monitors use broadcast() instead of signal()"
+  answer: 1
+  explanation: "In Mesa semantics (used by Java, pthreads), signal() does not immediately hand control to the woken thread — it merely moves the thread to the ready queue. The signaling thread continues running, and by the time the woken consumer reacquires the monitor lock, another consumer may have already taken the item. Using if instead of while means the consumer will skip the check and attempt to consume from an empty buffer. The fix is always to wait in a while loop: 'while (buffer.isEmpty()) { wait(notEmpty); }'."
+
+- question: "When a thread calls wait(cond) inside a monitor, what two things happen atomically?"
+  type: multiple-choice
+  options:
+    - "The thread acquires the monitor lock and enters the critical section"
+    - "The thread releases the monitor lock and suspends itself"
+    - "The thread signals another thread and then blocks waiting for a response"
+    - "The thread increments a semaphore and yields the CPU"
+  answer: 1
+  explanation: "wait() must do both operations atomically: it releases the monitor lock (so another thread can enter and make progress) and suspends the calling thread (so it does not spin-wait). If these were not atomic — if the lock were released and then the thread slept — another thread could call signal() between the two steps, and the signal would be missed (the sleeping thread would never wake up). The atomicity of wait() prevents this lost-wakeup race condition."
+
+- question: "In Hoare-style monitors, a call to signal() causes the signaling thread to immediately yield the monitor to the woken thread, guaranteeing the condition still holds when the waiter resumes."
+  type: true-false
+  answer: true
+  explanation: "This is the defining feature of Hoare semantics: signal() is a direct handoff. The signaling thread pauses, the woken thread runs immediately in the monitor, and when the woken thread exits or waits, the signaling thread resumes. This guarantee that the condition holds upon resumption is why Hoare-style code can use if instead of while. However, Hoare semantics are harder to implement efficiently and are rarely used in practice; Mesa semantics (where the signaling thread continues) dominate real systems."
+
+- question: "A monitor automatically ensures that only one thread executes inside it at any time, without the programmer needing to write explicit lock-acquire and lock-release calls."
+  type: true-false
+  answer: true
+  explanation: "This is the defining abstraction advantage of monitors. The compiler or runtime inserts the lock operations at entry and exit of every monitor procedure. The programmer writes the shared data and the operations on it; mutual exclusion is enforced structurally. This eliminates the class of bugs where programmers forget to release a lock, release the wrong lock, or release in the wrong order — all common failures when using raw semaphores or mutexes."
+
+- question: "Why must waiting on a condition variable always use a while loop (not an if statement) in Mesa-style monitors? Describe the specific scenario where an if statement would cause a bug."
+  type: short-answer
+  answer: "In Mesa semantics, signal() wakes a waiting thread but does not guarantee that the condition still holds when that thread reacquires the monitor lock. Between the signal and the woken thread's resumption, other threads can run and may invalidate the condition. For example: a buffer has one item. Producer signals notEmpty. Before Consumer A reacquires the lock, Consumer B enters, takes the item, and exits. Consumer A then wakes, but the buffer is now empty. If Consumer A uses 'if (buffer.isEmpty())' it will not re-check and will try to consume from an empty buffer — a bug. With 'while (buffer.isEmpty())', Consumer A rechecks the condition, finds it false, and waits again correctly."
+  explanation: "Spurious wakeups — wakeups that occur without any explicit signal — are also possible in some implementations (including POSIX pthreads), which is another reason the while loop is required. The rule 'always while, never if' for condition variable waits is a fundamental concurrency correctness rule."
+```
+
 ## Explainer
 
 From your work with semaphores, you know that concurrency primitives must solve two problems: **mutual exclusion** (only one thread in a critical section at a time) and **coordination** (threads waiting for conditions that other threads establish). Semaphores handle both — a binary semaphore acts as a lock, and a counting semaphore can signal between threads — but combining them for complex problems like bounded buffers requires careful, error-prone reasoning about the order of `wait()` and `signal()` operations. **Monitors** were invented to make this safer by raising the abstraction level.

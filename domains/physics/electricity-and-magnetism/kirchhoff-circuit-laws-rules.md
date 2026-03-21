@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Kirchhoff's voltage law (KVL): sum of potential changes around a closed loop is zero, ΣV = 0. Kirchhoff's current law (KCL): sum of currents into a node equals sum leaving, ΣI_in = ΣI_out. Both follow from energy conservation and charge conservation.
 
+## Questions
+
+```yaml
+- question: "At a circuit node, three branches meet. Branch 1 carries 3 A into the node and Branch 2 carries 2 A into the node. What does KCL require for Branch 3?"
+  type: multiple-choice
+  options:
+    - "Branch 3 carries 1 A into the node, since currents distribute evenly"
+    - "Branch 3 carries 5 A out of the node, since total current in must equal total current out"
+    - "Branch 3 carries 5 A into the node, to balance the incoming current"
+    - "KCL cannot determine the current in Branch 3 without knowing the resistances"
+  answer: 1
+  explanation: "KCL states that current into a node equals current out. Currents in: 3 + 2 = 5 A. For no charge to accumulate, exactly 5 A must leave through Branch 3. KCL is charge conservation made local: charge cannot pile up at a node in steady state. No resistance information is needed — KCL applies to currents regardless of what circuit elements produce them."
+
+- question: "Traversing a loop, you cross a resistor in the direction opposite to the assumed current flow. What voltage term do you write for this resistor in your KVL equation?"
+  type: multiple-choice
+  options:
+    - "−IR, because you are going against the current and losing potential"
+    - "+IR, because going against the current means moving from low to high potential"
+    - "0, because the direction of traversal doesn't affect the voltage"
+    - "−IR/2, because crossing against the current gives half the normal voltage drop"
+  answer: 1
+  explanation: "Conventional current flows from high potential to low potential through a resistor. If you traverse the resistor against the current direction, you move from low to high potential — a gain — so you write +IR. If you traverse with the current (downhill), you write −IR. This sign convention is the key discipline in KVL: keeping it consistent throughout a loop ensures the equation correctly captures that total potential change around the loop is zero."
+
+- question: "KCL is fundamentally a statement of charge conservation: in steady-state DC circuits, charge cannot accumulate at a node, so current in must equal current out."
+  type: true-false
+  answer: true
+  explanation: "KCL is not an arbitrary circuit rule — it is conservation of charge applied locally to each node. In steady state, if more charge flowed in than out, charge would accumulate at the node, creating an increasing electric field that would alter currents until equilibrium. KCL states that equilibrium condition. Similarly, KVL is conservation of energy per unit charge: the work done on a charge going around any closed loop must be zero."
+
+- question: "If you assume the wrong direction for a current when setting up KCL/KVL equations, the solution is invalid and you must restart with the correct assumed direction."
+  type: true-false
+  answer: false
+  explanation: "Choosing the 'wrong' direction is not an error — it is part of the method. If your assumed direction is incorrect, the algebra will yield a negative value for that current. The negative sign tells you the actual current flows opposite to your assumption; the magnitudes and all other quantities are still correct. KCL/KVL is systematic precisely because you don't need to know directions in advance: the algebra discovers them."
+
+- question: "What physical conservation law underlies each of Kirchhoff's two laws, and why does understanding this matter beyond just memorizing the rules?"
+  type: short-answer
+  answer: "KCL expresses conservation of charge: charge cannot accumulate at a node in steady state, so current in equals current out. KVL expresses conservation of energy per unit charge: the work done per unit charge around any closed loop is zero, because electric potential is path-independent. Understanding the conservation-law basis clarifies when the laws apply and makes the sign conventions interpretable rather than arbitrary."
+  explanation: "Students who memorize 'voltages sum to zero around a loop' without the energy-conservation basis often apply the rule incorrectly when sign conventions become tricky. Knowing that you're tracking potential (altitude) as you traverse a circuit — and that returning to your starting node must leave you at the same potential — makes every sign choice interpretable. Conservation laws are the 'why' behind KCL and KVL."
+```
+
 ## Explainer
 
 Kirchhoff's laws are conservation laws in disguise. **Kirchhoff's current law (KCL)** says that charge cannot pile up at a circuit node: whatever current flows in must flow out. Think of it like water at a pipe junction — if 5 liters per second arrive through two pipes, exactly 5 liters per second must leave through the others. In circuit terms, currents flowing into a node sum to zero when you assign a sign convention: currents in are positive, currents out are negative. KCL is charge conservation made local.

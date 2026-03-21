@@ -30,6 +30,45 @@ Apply this to compute ∮_γ dz/(z²+1) around a circle of radius 2. Identify th
 ## Common Misconceptions
 Forgetting the factor 2πi; it comes from the integral formula for a simple pole. Assuming the theorem works for multiply-connected domains without accounting for all enclosed singularities.
 
+## Questions
+
+```yaml
+- question: "A function f(z) has isolated singularities at z = 0, z = 1+i, and z = 3. You integrate f around the circle |z−1| = 1.5. How many singularities contribute to the contour integral?"
+  type: multiple-choice
+  options:
+    - "All 3 — the residue theorem sums over all singularities of f, regardless of position"
+    - "2 — both z=0 (distance 1 from center) and z=1+i (distance 1 from center) lie inside the contour"
+    - "1 — only z=1+i lies inside since it is closest to the center"
+    - "0 — none of the singularities lie exactly at the center z=1"
+  answer: 1
+  explanation: "The residue theorem sums only over singularities enclosed by the contour. |0−1|=1 < 1.5, so z=0 is inside. |1+i−1|=|i|=1 < 1.5, so z=1+i is inside. |3−1|=2 > 1.5, so z=3 is outside. Option 0 is the classic error: position relative to the contour, not mere existence, determines which singularities contribute."
+
+- question: "A student correctly computes Res(f, 1) + Res(f, −2) for a function with poles at z=1 and z=−2, both enclosed by the contour γ. The student announces this sum as the value of ∮_γ f(z) dz. What is missing?"
+  type: multiple-choice
+  options:
+    - "The student must multiply the sum by 2πi to get the correct integral value"
+    - "Nothing is missing — the sum of residues equals the contour integral"
+    - "The student must divide by 2πi because the residues already include that factor"
+    - "The student must subtract the contribution from the contour itself"
+  answer: 0
+  explanation: "The residue theorem states ∮_γ f(z) dz = 2πi × Σ Res(f, zₖ). The factor 2πi arises from the fundamental integral ∮ dz/(z−z₀) = 2πi and cannot be omitted. Forgetting this factor is the single most common computational error when applying the theorem. The sum of residues alone is not the integral."
+
+- question: "A function that is holomorphic everywhere inside and on a closed contour (no singularities enclosed) must have a contour integral equal to zero."
+  type: true-false
+  answer: true
+  explanation: "This is Cauchy's theorem, the foundation from which the Residue Theorem generalizes. If f is holomorphic (analytic) everywhere inside and on γ, there are no singularities to contribute residues, and the sum Σ Res = 0, giving ∮_γ f dz = 2πi · 0 = 0. The Residue Theorem extends this: isolated singularities are the sole sources of nonzero contour integrals."
+
+- question: "The Residue Theorem applies only to functions with simple poles; it cannot be used for functions with poles of order 2 or higher."
+  type: true-false
+  answer: false
+  explanation: "The Residue Theorem applies to any isolated singularity, including poles of any order and essential singularities. The residue is defined as the coefficient a₋₁ of the 1/(z−z₀) term in the Laurent series, regardless of pole order. For a pole of order m at z₀, the residue is computed via lim_{z→z₀} (1/(m−1)!) d^{m-1}/dz^{m-1} [(z−z₀)^m f(z)]. The theorem remains ∮_γ f dz = 2πi Σ Res(f, zₖ) in all cases."
+
+- question: "Why does the factor 2πi appear in the residue theorem? Where does it come from?"
+  type: short-answer
+  answer: "It comes from the most fundamental contour integral in complex analysis: ∮_{|z−z₀|=r} 1/(z−z₀) dz = 2πi. Parametrizing with z = z₀ + re^{iθ} gives dz = ire^{iθ}dθ, and the integrand becomes (ire^{iθ})/(re^{iθ}) = i. Integrating i from 0 to 2π yields 2πi. Every pole's contribution to a contour integral ultimately reduces to a scalar multiple of this kernel integral, which is why 2πi appears universally — it is the winding number of the contour around the singularity multiplied by 2πi."
+  explanation: "The 2πi factor is not an artifact of notation — it encodes the topology of the contour. The winding number of a positively oriented simple closed curve around an interior point is exactly 1, contributing one factor of 2πi. If the contour wound around a point twice, you would get 4πi. This topological interpretation is what makes the theorem so powerful: the integral depends only on which singularities are enclosed and how many times the contour winds around them."
+```
+
 ## Explainer
 
 You know from contour integration that for a holomorphic function on a simply connected domain, every closed contour integral is zero — that is Cauchy's theorem. Isolated singularities break this: they are the sole sources of nonzero contour integrals. The **Residue Theorem** makes this precise: ∮_γ f(z) dz = 2πi Σ Res(f, zₖ), where the sum runs over all isolated singularities zₖ enclosed by γ. The theorem reduces a potentially difficult integral to the algebraic task of computing residues.

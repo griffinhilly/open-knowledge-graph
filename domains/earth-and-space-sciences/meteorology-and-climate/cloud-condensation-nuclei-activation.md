@@ -31,6 +31,45 @@ Study the Köhler equation for critical supersaturation; examine how different a
 - Thinking clouds form simply when air reaches 100% relative humidity (requires specific aerosol particles).
 - Assuming more aerosol particles always lead to more and heavier precipitation (higher CCN actually produces smaller droplets).
 
+## Questions
+
+```yaml
+- question: "A meteorology student claims clouds form whenever air reaches exactly 100% relative humidity. What critical factor does this description omit?"
+  type: multiple-choice
+  options:
+    - "Temperature must also be below 0°C for cloud droplets to form"
+    - "The Kelvin effect means pure water droplets evaporate faster than they grow unless supersaturation is extreme — real clouds form at modest supersaturation (0.1–1%) only because hygroscopic CCN lower the vapor pressure of the droplet surface"
+    - "Air must be moving upward for condensation to occur, regardless of humidity"
+    - "This is accurate — 100% RH is both necessary and sufficient for cloud formation"
+  answer: 1
+  explanation: "The common misconception is that 100% RH is sufficient for cloud formation. In reality, a pure water droplet's curved surface has higher vapor pressure than flat water (the Kelvin effect), so tiny droplets evaporate spontaneously unless the air is supersaturated by many tens of percent — far beyond what the atmosphere provides. CCN solve this by dissolving in water and lowering the vapor pressure (solute effect), allowing activation at the 0.1–1% supersaturations that actually occur."
+
+- question: "A region experiences an influx of pollution that greatly increases CCN concentrations. Compared to pre-pollution clouds, the new clouds will most likely:"
+  type: multiple-choice
+  options:
+    - "Contain larger droplets and produce more rainfall, since more nuclei provide more surface area for condensation"
+    - "Contain more numerous but smaller droplets, be more reflective (brighter), and produce less precipitation, since the available water is distributed across too many small droplets to coalesce efficiently"
+    - "Contain the same droplet sizes, since total atmospheric water vapor determines droplet size, not CCN count"
+    - "Dissipate more quickly, since smaller droplets evaporate faster and the cloud cannot sustain itself"
+  answer: 1
+  explanation: "This is the Twomey effect. When CCN are abundant, the same amount of condensable water is divided among many more nuclei, producing many small droplets rather than fewer large ones. Smaller droplets scatter light more efficiently, making the cloud optically brighter (higher albedo). But small droplets are too tiny to collide and coalesce into raindrops efficiently, suppressing precipitation. This is one of the largest sources of uncertainty in how aerosol emissions affect climate."
+
+- question: "More soluble CCN particles activate at lower supersaturation than less soluble particles of the same size."
+  type: true-false
+  answer: true
+  explanation: "Activation depends on the balance between the Kelvin effect (which promotes evaporation and scales with curvature) and the solute effect (which lowers vapor pressure and scales with the amount of dissolved material). More soluble material means more dissolved ions in the droplet, a stronger solute effect, and therefore a larger depression of vapor pressure. This overcomes the Kelvin effect at a lower supersaturation — the particle activates more easily."
+
+- question: "The Kelvin effect promotes cloud droplet growth by lowering the vapor pressure above the curved surface of a small droplet."
+  type: true-false
+  answer: false
+  explanation: "This reverses the physics. The Kelvin effect (curvature effect) INCREASES the vapor pressure above a small droplet's curved surface compared to flat water. Higher vapor pressure means the droplet tends to evaporate rather than grow. This is why pure water droplets are so resistant to forming spontaneously — the Kelvin effect makes microscopic droplets unstable. It is the SOLUTE effect (dissolved material from CCN) that lowers vapor pressure and promotes condensation."
+
+- question: "Explain why cloud droplets require CCN to form at realistic atmospheric supersaturations, using the Kelvin and solute effects."
+  type: short-answer
+  answer: "A pure water droplet's curved surface has higher vapor pressure than flat water (Kelvin effect), causing microscopic droplets to evaporate spontaneously — spontaneous nucleation would require supersaturation of many tens of percent, far exceeding real atmospheric values (0.1–1%). CCN are hygroscopic particles that dissolve in condensing water, and dissolved material lowers the vapor pressure of the droplet surface (solute effect, via Raoult's law). The Köhler equation describes the competition: for each particle, there is a critical supersaturation at which the solute effect overcomes the Kelvin effect, allowing spontaneous growth. Once the ambient supersaturation exceeds this threshold, the particle activates into a stable cloud droplet."
+  explanation: "The Köhler curve has a characteristic peak — the critical supersaturation — above which the droplet grows indefinitely. Below it, the Kelvin effect dominates and the droplet evaporates. CCN lower this peak to values achievable in real clouds, making droplet formation possible at atmospheric conditions."
+```
+
 ## Explainer
 
 From your study of cloud formation, you know that clouds appear when air cools to its dew point and water vapor condenses into droplets. But there is a hidden problem: pure water vapor strongly resists condensing into tiny droplets. The curved surface of a newly formed droplet has higher vapor pressure than a flat water surface (the **Kelvin effect**), meaning a microscopic droplet evaporates faster than it grows unless the surrounding air is extremely supersaturated — far beyond the modest supersaturations of 0.1–1% that actually occur in clouds. Without help, cloud droplets would almost never form.

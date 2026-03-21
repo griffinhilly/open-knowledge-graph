@@ -26,6 +26,45 @@ Start with concrete experiments like coin flips and dice rolls. Draw Venn diagra
 ## Common Misconceptions
 Confusing an event with a single outcome. Thinking the sample space is always numerical. Not recognizing that the same experiment can have different sample spaces depending on what outcomes we care about.
 
+## Questions
+
+```yaml
+- question: "You toss a coin twice and want to find the probability of getting at least one head. Which of the following correctly identifies the event?"
+  type: multiple-choice
+  options:
+    - "{Heads} — the event is just the outcome 'Heads'"
+    - "{HH, HT, TH} — the subset of outcomes containing at least one head"
+    - "{TT} — the event is what you want to exclude"
+    - "{HH} — this is the outcome with the most heads"
+  answer: 1
+  explanation: "An event is any subset of the sample space, not a single outcome. 'At least one head' includes every outcome where heads appears at least once: HH, HT, and TH. The single-outcome answer (option A) confuses an elementary event with the broader event being asked about. Option C identifies the complement of the event, not the event itself. Getting comfortable with events as subsets is essential for applying any probability rules."
+
+- question: "Two students are studying the same die-rolling experiment. Student A uses sample space {1,2,3,4,5,6}; Student B uses {odd, even}. Which is correct?"
+  type: multiple-choice
+  options:
+    - "Only Student A — a sample space must list every individual outcome"
+    - "Only Student B — grouping outcomes is more efficient and always preferred"
+    - "Both are valid, but they support different probability questions"
+    - "A sample space must always be numerical, so only Student A's is correct"
+  answer: 2
+  explanation: "A sample space is valid as long as it is exhaustive (covers all possibilities) and mutually exclusive (no outcome falls in two categories). Both sample spaces satisfy these conditions for their respective purposes. Student A's space supports questions like 'probability of rolling a 3'; Student B's supports questions like 'probability of rolling odd.' Choosing the right sample space is a modeling decision — use the one that is rich enough for your question but no richer."
+
+- question: "An event must consist of exactly one outcome from the sample space."
+  type: true-false
+  answer: false
+  explanation: "An event is any subset of the sample space — including the empty set (the impossible event), single-element subsets (elementary events), multi-element subsets (compound events), and the entire sample space itself (the certain event). Restricting events to single outcomes would make probability theory unable to handle questions like 'probability of rolling an even number,' which requires a three-element subset {2, 4, 6}."
+
+- question: "For a given random experiment, the choice of sample space determines which probability questions you can meaningfully ask and answer."
+  type: true-false
+  answer: true
+  explanation: "The sample space is the universe of your probability model — nothing outside it can be assigned a probability or defined as an event. If you use {0,1,2} as the sample space for two coin flips (counting heads), you cannot ask about order of outcomes like P(HT before TH) because those distinctions don't exist in this sample space. The richer {HH, HT, TH, TT} supports order-dependent questions. The modeling choice comes first; the questions you can ask follow from it."
+
+- question: "Why can't you assign a probability to an outcome that lies outside the sample space? What does this reveal about the role the sample space plays in probability?"
+  type: short-answer
+  answer: "The sample space defines the universe of the probability model — it is the set of all possible outcomes, and probability is only defined over subsets of that universe. An outcome outside the sample space is, by definition, impossible within the model you have set up. This reveals that the sample space is not just a list of outcomes but a foundational modeling commitment: you are declaring what can happen before you ask how likely each possibility is. If you have omitted a real possibility, your model is wrong — not just incomplete."
+  explanation: "This is why the first step in any probability problem is defining the sample space. The events you can reason about, the probabilities you can compute, and the questions you can answer are all constrained by that initial choice. The sample space is the frame; everything else is built inside it."
+```
+
 ## Explainer
 
 Before you can assign probabilities to anything, you need a precise language for describing what can happen. A **sample space** is simply the set of all possible outcomes of an experiment — exhaustive (every possibility is included) and mutually exclusive (no two outcomes can occur simultaneously). For a coin flip, the sample space is {Heads, Tails}. For rolling a standard die, it is {1, 2, 3, 4, 5, 6}. For measuring tomorrow's temperature, it might be any real number in a continuous range. The sample space is your universe — nothing outside it can be assigned a probability.

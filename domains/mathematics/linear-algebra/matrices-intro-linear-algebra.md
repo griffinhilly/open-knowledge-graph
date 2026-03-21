@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 A matrix is a rectangular array of numbers arranged in rows and columns; an m × n matrix has m rows and n columns. Matrices generalize vectors and are used to represent systems of equations, linear transformations, and quadratic forms. Matrix notation A = (aᵢⱼ) allows compact representation of data and operations.
 
+## Questions
+
+```yaml
+- question: "In a matrix A, the entry a₃₂ refers to which position?"
+  type: multiple-choice
+  options:
+    - "The entry in the 2nd row and 3rd column"
+    - "The entry in the 3rd row and 2nd column"
+    - "A 3×2 submatrix starting from the top-left"
+    - "The entry at position 3·2 = 6 in the matrix read left-to-right"
+  answer: 1
+  explanation: "Matrix index notation is row first, column second — aᵢⱼ means row i, column j. So a₃₂ is in the 3rd row, 2nd column. This is a frequent source of confusion because some other mathematical contexts (like coordinate pairs) use (x, y) = (column, row). In matrices, the convention is always (row, column), which is why a₃₂ ≠ a₂₃."
+
+- question: "The system 4x − y = 2, 3x + 2y = 7 is written as Ax = b. What does the matrix A contain, and what does the vector b contain?"
+  type: multiple-choice
+  options:
+    - "A contains the unknowns x and y; b contains the coefficients"
+    - "A contains the coefficients of x and y (4, −1, 3, 2); b contains the right-hand-side values (2, 7)"
+    - "A contains the right-hand-side values; b contains the unknowns"
+    - "A contains both coefficients and right-hand sides in an augmented form"
+  answer: 1
+  explanation: "In Ax = b, A is the coefficient matrix containing the coefficients of each variable in each equation — here [[4, −1], [3, 2]]. The vector x holds the unknowns [x, y], and b holds the right-hand sides [2, 7]. Separating coefficients (A) from unknowns (x) from constants (b) is what allows us to reason about the system's structure independently of specific values, and to apply linear algebra operations like row reduction or matrix inversion."
+
+- question: "A 1 × n matrix (a single row) is the same mathematical object as a row vector with n components."
+  type: true-false
+  answer: true
+  explanation: "A row vector with n components is precisely a 1 × n matrix — one row, n columns. Similarly, a column vector with m components is an m × 1 matrix. This is why matrices generalize vectors: vectors are the special case where one of the dimensions equals 1. Understanding this connection helps explain why matrix-vector multiplication (Ax) is defined the way it is — it extends dot products to the multi-equation case."
+
+- question: "The entry aᵢⱼ in a matrix A refers to the element in the i-th column and j-th row."
+  type: true-false
+  answer: false
+  explanation: "The standard convention is row first, column second: aᵢⱼ is in the i-th row and j-th column. This is why a 3×4 matrix has 3 rows and 4 columns — the first index is always the row count. Reversing row and column (the common confusion) would make a₁₂ and a₂₁ the same entry, which would break matrix multiplication and transpose operations."
+
+- question: "Why is writing a system of linear equations as Ax = b more powerful than writing out each equation individually?"
+  type: short-answer
+  answer: "Writing Ax = b separates the structure of the system (captured in A) from the specific right-hand side (b). This allows you to reason about all systems with the same coefficient structure at once, apply operations like matrix inversion (x = A⁻¹b) or row reduction to solve for any b, and interpret the system geometrically as a linear transformation. It also connects to the broader framework of linear algebra where the same matrix A can represent a linear transformation, enabling eigenvalue analysis, determinants, and other tools."
+  explanation: "The power of matrix notation is representational: it compresses all the equations into a single object and opens the door to algebraic and geometric reasoning. A⁻¹ exists when the system has a unique solution for any b; the determinant of A tells you whether solutions exist; eigenvalues tell you about the geometry of the transformation. None of these become visible when equations are written separately."
+```
+
 ## Explainer
 
 If you already know vectors from Rⁿ, you can think of a matrix as a natural generalization: a vector is a single column of numbers, while a **matrix** packages multiple columns (or rows) together into one rectangular structure. An m × n matrix has m rows and n columns — the entry in row i and column j is written aᵢⱼ. The subscript convention is row first, column second, so a₂₃ lives in the second row and third column. A 3 × 1 matrix is just a column vector with three components; a 1 × 3 matrix is a row vector.

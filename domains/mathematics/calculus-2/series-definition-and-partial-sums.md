@@ -27,6 +27,45 @@ Compute partial sums for specific series (geometric, telescoping) and observe co
 - Confusing the terms a_n with the partial sums S_N.
 - Assuming the partial sums always have a nice closed form (they usually do not).
 
+## Questions
+
+```yaml
+- question: "The series Σ (1/n) — the harmonic series — has terms that approach zero as n → ∞. Does it converge?"
+  type: multiple-choice
+  options:
+    - "Yes — since the terms go to zero, the partial sums must stabilize"
+    - "No — the terms go to zero too slowly for the partial sums to converge"
+    - "Yes — any series whose terms shrink to zero converges by definition"
+    - "It depends on where you start the sum"
+  answer: 1
+  explanation: "The harmonic series diverges even though its terms approach zero. Terms going to zero is necessary but not sufficient for convergence. The partial sums of Σ(1/n) grow without bound — they just grow very slowly (logarithmically). This is the key asymmetry: if terms don't go to zero, the series definitely diverges, but the converse is false. The harmonic series is the canonical counterexample every calculus student must internalize."
+
+- question: "For the series Σ aₙ, the notation S_N refers to:"
+  type: multiple-choice
+  options:
+    - "The Nth term of the series, aₙ evaluated at n = N"
+    - "The sum of the first N terms: a₁ + a₂ + ⋯ + aₙ"
+    - "The limit of the series as it approaches its sum S"
+    - "The number of terms needed for the partial sum to exceed N"
+  answer: 1
+  explanation: "S_N is the Nth partial sum — a finite sum of the first N terms. This is a concrete, computable number. The series itself is defined as lim(N→∞) S_N. The confusion between aₙ (individual terms) and S_N (accumulated total) is one of the most common errors in this topic: aₙ is what you're adding; S_N is what you've added so far."
+
+- question: "Saying that an infinite series 'converges to S' is really a statement about a sequence of partial sums converging to S."
+  type: true-false
+  answer: true
+  explanation: "This is exactly the definition. The series Σ aₙ converges to S means the sequence {S_N} — where S_N = a₁ + ⋯ + aₙ — converges to S as N → ∞. This is not just a reformulation; it is the precise definition that makes infinite sums mathematically rigorous by reducing them to limits of sequences, which you already know how to handle."
+
+- question: "If the terms of a series approach zero, the series must converge."
+  type: true-false
+  answer: false
+  explanation: "This is the most persistent misconception in infinite series. The harmonic series Σ 1/n is the canonical counterexample: each term 1/n → 0, but the partial sums grow without bound. Terms approaching zero is a necessary condition for convergence — if terms don't go to zero, the series definitely diverges — but it is not sufficient. The terms must shrink fast enough that their cumulative sum stays bounded."
+
+- question: "Why can't we define an infinite series simply as 'the result of adding infinitely many numbers together,' the way we add finitely many numbers?"
+  type: short-answer
+  answer: "Addition is a binary operation — it takes two inputs. Finite sums extend this by repeating the operation, but 'infinitely many additions' cannot be completed in any finite number of steps; there is no last step that yields a result. The definition via partial sums resolves this by converting the infinite process into a limit of finite computations: S_N = a₁ + ⋯ + aₙ is always well-defined, and we define the series as lim S_N."
+  explanation: "Without this definition, 'infinite sum' is meaningless. The brilliance of the partial sums definition is that it reduces a new concept (infinite series) to a concept already understood (limits of sequences), giving access to all the tools of sequence analysis. Every convergence test you will learn is ultimately a test for whether the sequence {S_N} converges."
+```
+
 ## Explainer
 
 An infinite series looks like a sum that goes on forever, but "adding infinitely many terms" is not a well-defined arithmetic operation — you cannot literally perform infinitely many additions. The crucial insight, which mirrors what you learned about sequences, is to turn the infinite process into a limit. Define the **partial sum** S_N = a₁ + a₂ + ⋯ + a_N — a perfectly ordinary finite sum you can compute — and then define the series as the limit of S_N as N → ∞. A series **converges** if this limit exists and is finite; otherwise it **diverges**.

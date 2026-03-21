@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Above the critical point (T > T_c, P > P_c), fluids are supercritical: no distinct liquid-vapor boundary, but continuous density and thermophysical property changes. Supercritical fluids exhibit high solvent power and are used in extraction (CO₂), sCO₂ power cycles, and advanced cooling systems. Property variations near the critical point are steep, requiring careful calculations and specialized tables.
 
+## Questions
+
+```yaml
+- question: "Supercritical CO₂ is used to extract caffeine from coffee beans. After the caffeine dissolves in the sCO₂, how is it recovered without using a secondary liquid solvent?"
+  type: multiple-choice
+  options:
+    - "The temperature is raised above 300°C, causing the caffeine to pyrolyze and precipitate as a solid"
+    - "The pressure is reduced, dropping the sCO₂ density so that its solvent power decreases and the caffeine precipitates out"
+    - "The sCO₂ is cooled below its boiling point, converting it to liquid CO₂ that is then evaporated"
+    - "An aqueous wash is added to the sCO₂ stream, which selectively absorbs the caffeine"
+  answer: 1
+  explanation: "The key property of supercritical fluids is continuously tunable density. Dispersion-based solvent power scales with density: dense sCO₂ (at high pressure) dissolves nonpolar compounds like caffeine; lower-density sCO₂ (at reduced pressure) does not. Simply reducing pressure decreases the density and causes the dissolved compound to precipitate out — no secondary solvent needed. This is the defining advantage over traditional solvent extraction. Option C describes liquefaction, not a supercritical process. Option D reintroduces the liquid solvent that sCO₂ extraction is designed to avoid."
+
+- question: "Why does an sCO₂ Brayton cycle achieve higher efficiency compared to a conventional gas turbine cycle that uses air as the working fluid?"
+  type: multiple-choice
+  options:
+    - "CO₂ has a higher specific heat than air, so more heat is stored per unit mass"
+    - "Supercritical CO₂ is compressed as a dense fluid, dramatically reducing the compressor work relative to compressing a low-density ideal gas"
+    - "CO₂ undergoes phase change in the turbine, releasing latent heat that improves the expansion work output"
+    - "The critical temperature of CO₂ is low enough to allow heat rejection near ambient conditions"
+  answer: 1
+  explanation: "Compression work is proportional to the specific volume of the fluid being compressed (W_comp ≈ ∫v dP). A dense supercritical fluid has a much smaller specific volume than a gas at the same pressure, so the compressor work is dramatically reduced. This is the central thermodynamic advantage: the high-side compression occurs in the dense supercritical region, while the turbine expansion can still deliver large work. Option C is incorrect — sCO₂ cycles specifically avoid the two-phase dome, so no phase change (latent heat) occurs. Option D is true but secondary; the primary advantage is reduced compression work."
+
+- question: "Above the critical point, a supercritical fluid exists as a single continuous phase with no distinction between liquid and vapor."
+  type: true-false
+  answer: true
+  explanation: "This is the defining feature of the supercritical state. Below the critical point, liquid and vapor are distinct phases separated by a meniscus and a phase boundary on a P-T diagram. At the critical point, these phases become indistinguishable — the meniscus disappears and all intensive properties converge. Above both T_c and P_c simultaneously, there is no phase transition to cross: the substance varies continuously from liquid-like densities (at high P, low T end of the supercritical region) to gas-like densities (at low P, high T end) without ever crossing a boundary."
+
+- question: "Supercritical fluids have uniform, stable thermophysical properties throughout the supercritical region, which simplifies heat exchanger design compared to subcritical fluids."
+  type: true-false
+  answer: false
+  explanation: "This is the opposite of reality near the pseudocritical line. Properties like specific heat, thermal conductivity, and viscosity vary sharply near the locus of temperatures where heat capacity peaks at each supercritical pressure. Heat transfer correlations developed for subcritical fluids or ideal gases fail badly in this region, and phenomena like heat transfer deterioration can create dangerous hot spots. The engineering challenge of supercritical systems is precisely this property nonlinearity — designers must use specialized tables and carefully track operating conditions relative to the pseudocritical line."
+
+- question: "Why does operating a compressor in the supercritical region — rather than in the gas phase — reduce compression work? Connect this to the thermodynamic definition of compression work."
+  type: short-answer
+  answer: "For a steady-flow compressor, work input is proportional to ∫v dP, where v is the specific volume of the fluid. A supercritical fluid near its critical point has very high density and therefore very low specific volume compared to an ideal gas at the same pressure. A smaller specific volume means less work is needed per unit of pressure rise. Intuitively: you are squeezing something nearly as incompressible as a liquid rather than a highly compressible gas, so the pressure rises quickly with little volume change and therefore little work. This is exactly analogous to why liquid-phase pumps in a Rankine cycle require far less work than the gas-phase compressors in a Brayton cycle."
+  explanation: "This question targets whether students can connect the qualitative claim ('less compression work') to the quantitative mechanism (∫v dP). The analogy to pump vs. compressor in Rankine/Brayton cycles is a useful bridge for students with thermodynamic cycle backgrounds. The key is recognizing that specific volume — not just density — appears directly in the compression work integral."
+```
+
 ## Explainer
 
 From your study of critical-point behavior, you know that the liquid and vapor phases become indistinguishable at the critical point: density, enthalpy, and all other intensive properties converge to a single value, and the meniscus between liquid and vapor disappears. The supercritical region extends beyond this point — above both T_c and P_c simultaneously — into a domain where the substance exists as a single, continuous phase. There is no phase transition to cross, no latent heat to add or remove, just smooth, continuous property variation from liquid-like densities (when cold and highly compressed) to gas-like densities (when hot and moderately compressed).

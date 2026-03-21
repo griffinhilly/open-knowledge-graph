@@ -37,6 +37,45 @@ Compare specific heat capacities of water and air to quantify why the ocean domi
 - 'The ocean is absorbing CO₂, not warming' conflates two distinct processes — the ocean absorbs both CO₂ and heat, and warming is occurring regardless.
 - Thermal inertia means the ocean delays warming, not prevents it — committed future warming is already stored in the ocean-atmosphere system.
 
+## Questions
+
+```yaml
+- question: "If all greenhouse gas emissions stopped completely today, what would most likely happen to global average surface temperatures over the next several decades?"
+  type: multiple-choice
+  options:
+    - "Temperatures would immediately stabilize at current levels because new forcing would stop"
+    - "Temperatures would decline rapidly as the atmosphere cooled without new greenhouse gas input"
+    - "Temperatures would continue rising for decades as the ocean releases stored heat into the atmosphere"
+    - "Temperatures would be unaffected because ocean heat content is independent of surface climate"
+  answer: 2
+  explanation: "This is the 'committed warming' effect of ocean thermal inertia. The ocean has already absorbed an enormous amount of excess heat and is not yet in thermal equilibrium with the current atmosphere. Even if forcing stopped, the ocean would continue releasing stored heat for decades to centuries, driving further surface warming. Thermal inertia means the ocean responds slowly — like a massive flywheel still spinning after you stop pushing. Emissions stopping prevents additional forcing but cannot cancel the energy already banked in the ocean-atmosphere system."
+
+- question: "The ocean dominates Earth's heat budget despite covering the same planet as the atmosphere. The primary physical reason is:"
+  type: multiple-choice
+  options:
+    - "The ocean is darker than clouds and absorbs more solar radiation per unit area"
+    - "The ocean's mass is roughly 260 times greater than the atmosphere's, and water has roughly 4 times the specific heat of air, giving it about 1,000 times the heat storage capacity"
+    - "Ocean currents distribute heat more efficiently than atmospheric circulation, minimizing energy loss"
+    - "The ocean's depth means it has more total volume to store heat than the shallow atmosphere"
+  answer: 1
+  explanation: "The ocean's heat storage advantage is multiplicative: roughly 260× the mass of the atmosphere times roughly 4× the specific heat capacity per unit mass gives approximately 1,000× the heat storage capacity for the same temperature change. This is why over 90% of excess heat from greenhouse gases has gone into the ocean while the atmosphere has warmed comparatively little. Volume alone (option D) understates the advantage because specific heat capacity matters as much as mass."
+
+- question: "Thermosteric sea-level rise — caused by the thermal expansion of warming ocean water — is currently the largest single contributor to observed global sea-level rise."
+  type: true-false
+  answer: true
+  explanation: "Thermosteric expansion is the dominant term in the current sea-level rise budget, ahead of contributions from mountain glacier melt and ice sheet loss from Greenland and Antarctica. As ocean heat content increases and water warms, it expands in volume. While ice-sheet contributions are growing and projected to overtake thermosteric rise later this century under high-emission scenarios, thermosteric expansion has been the leading contributor to observed sea-level rise over recent decades."
+
+- question: "Because the ocean absorbs large quantities of CO₂ from the atmosphere, the energy stored in dissolved CO₂ offsets the heat the ocean would otherwise absorb, meaning ocean warming is slower than it would be without CO₂ uptake."
+  type: true-false
+  answer: false
+  explanation: "CO₂ absorption and heat absorption are distinct physical-chemical processes that do not offset each other. CO₂ dissolves into seawater through gas exchange — a chemical process that slightly acidifies the water. Heat absorption is a separate thermodynamic process driven by the ocean's energy balance. The ocean is simultaneously warming AND absorbing CO₂. In fact, as the ocean warms its capacity to dissolve CO₂ decreases (warm water holds less dissolved gas), creating a positive feedback that reduces future CO₂ uptake — the two processes interact, but not as mutual offsets."
+
+- question: "What is 'committed warming,' and why does ocean thermal inertia make some degree of future warming inevitable even if emissions were halted immediately?"
+  type: short-answer
+  answer: "Committed warming refers to temperature increases already locked in by the energy imbalance stored in the ocean-atmosphere system, even if no additional greenhouse gases were emitted. Ocean thermal inertia makes this inevitable because the ocean has absorbed enormous amounts of heat and is not yet in equilibrium with the atmosphere — it will continue releasing that stored heat over decades to centuries, driving further surface warming. The ocean's massive heat capacity means it responds slowly; once it has taken on heat, it cannot release it quickly. Stopping emissions halts new forcing but does not cancel the energy already in the system."
+  explanation: "Committed warming is critical for climate policy because it means some future warming is already determined regardless of current action — we are choosing which amount of committed warming to accept, not whether any occurs. Every ton of emissions avoided now determines the magnitude of future committed warming. The ocean's thermal inertia is the physical mechanism: it acts as a slow-release heat reservoir that guarantees surface warming continues after forcing stops, just more slowly than before."
+```
+
 ## Explainer
 
 From your study of specific heat capacity, you know that water requires roughly four times more energy than air to raise its temperature by one degree. Now scale that up: the ocean contains about 1.335 billion cubic kilometers of water. Even though air surrounds the planet too, the ocean's mass is roughly 260 times greater than the atmosphere's. Multiply the mass advantage by the specific heat advantage and you get a staggering result — the ocean can store about 1,000 times more heat than the atmosphere for the same temperature change. This is why the ocean, not the atmosphere, is the dominant term in Earth's energy budget.

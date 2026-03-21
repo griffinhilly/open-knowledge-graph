@@ -35,6 +35,45 @@ Interpreting a stratigraphic column diagram—identifying the oldest and younges
 - An angular unconformity records tilting and erosion, not simply a period of non-deposition; it implies an entire cycle of deformation, uplift, and erosion before re-burial.
 - Correlation does not mean rocks in two locations are identical; it means they were deposited at approximately the same time, even if their lithologies differ due to different depositional environments.
 
+## Questions
+
+```yaml
+- question: "A geologist observes that older rock layers appear above younger ones in an undisturbed-looking outcrop. Which explanation is most consistent with Steno's principles?"
+  type: multiple-choice
+  options:
+    - "The principle of superposition is incorrect and does not apply universally"
+    - "The sequence has been overturned or displaced by tectonic folding or thrust faulting"
+    - "The younger rocks sank through the older ones due to density differences after deposition"
+    - "An unconformity placed the older rocks directly on top of the younger ones"
+  answer: 1
+  explanation: "Superposition holds only for undisturbed sequences. Tectonic forces can overturn folds or move older rocks on top of younger ones via thrust faults, creating an apparent violation of superposition that is actually consistent with it — because the sequence was disrupted after deposition. Recognizing this exception is crucial: when superposition seems violated, the diagnosis is structural deformation, not a failure of the principle."
+
+- question: "An angular unconformity separates flat-lying sandstone above from tilted shale below. What sequence of geological events does this surface record?"
+  type: multiple-choice
+  options:
+    - "A period of non-deposition followed by resumed sedimentation with a slight tectonic tilt"
+    - "Simultaneous deposition of both layers in different environments that were later juxtaposed"
+    - "Deposition of shale, followed by tilting through deformation, uplift, erosion, and finally deposition of overlying sandstone"
+    - "A volcanic intrusion that tilted the shale, then cooled and eroded before sandstone accumulated"
+  answer: 2
+  explanation: "An angular unconformity requires a complete geological cycle: the lower beds must have been deposited, then tilted or folded by tectonic deformation, then uplifted to the surface where erosion truncated them, and finally buried by a new episode of sedimentation. This is fundamentally different from a simple gap in deposition (a disconformity). The angular relationship between lower and upper beds is the direct evidence of the deformation-erosion cycle."
+
+- question: "Biostratigraphic correlation works because rocks of the same age have the same lithology — similar rock types indicate similar age."
+  type: true-false
+  answer: false
+  explanation: "This is a common and consequential misconception. Biostratigraphic correlation matches time intervals using index fossils — it explicitly does NOT require matching rock types. Two outcrops 500 km apart might contain the same ammonite species in completely different lithologies (one a limestone, the other a shale) because the same time interval can produce different sediment types in different depositional environments. Lithostratigraphic correlation uses rock type similarity, but this is unreliable over long distances precisely because environment varies."
+
+- question: "The law of superposition applies only to undisturbed sequences; structural deformation can place older rocks above younger ones."
+  type: true-false
+  answer: true
+  explanation: "This is a critical qualification of Steno's principle. In overturned folds or along thrust faults, older rocks can be physically emplaced on top of younger ones. Geologists detect these situations by examining sedimentary structures (graded bedding, cross-bedding, ripple marks) that reveal which way was originally 'up,' and by mapping the structural geometry of the area. The principle is not wrong — the sequence was deformed after deposition."
+
+- question: "How do index fossils enable correlation of rock layers across widely separated outcrops, even when the rock types at those locations are completely different?"
+  type: short-answer
+  answer: "Index fossils are species that were geographically widespread, ecologically abundant, and geologically short-lived — they existed for a narrow time interval before going extinct. Because they lived everywhere and for only a short time, their presence in a rock layer constrains when that layer was deposited regardless of its lithology. If two outcrops both contain the same index fossil, those layers formed at approximately the same time, even if one is limestone and the other is shale — different depositional environments producing different rocks during the same time interval."
+  explanation: "The power of biostratigraphy is that organisms spread across many environments simultaneously, so their fossils serve as time markers that cut across lithological differences. This is why paleontology and stratigraphy developed together: fossils provide the temporal index that lithology alone cannot."
+```
+
 ## Explainer
 
 From your study of sedimentary rocks, you know that sediments accumulate in layers, and from the geological time scale, you know that Earth's history spans billions of years divided into named intervals. Stratigraphy is the discipline that connects these ideas: it provides the principles for reading the order, age, and meaning of rock layers — turning exposed cliff faces and drill cores into a narrative of Earth history.

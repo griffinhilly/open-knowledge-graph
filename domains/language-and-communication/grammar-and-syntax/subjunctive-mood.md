@@ -31,6 +31,45 @@ Identify subjunctive triggers — verbs like insist, recommend, suggest, demand,
 - Believing "If I were" is simply an old-fashioned alternative to "If I was"; the subjunctive signals that the condition is counterfactual, while the indicative treats it as a real possibility.
 - Overcorrecting by using "were" in every "if" clause; "if" clauses that describe real or likely conditions use the indicative (If she was late, we'll wait).
 
+## Questions
+
+```yaml
+- question: "A speaker says 'If I were president, I would cancel all student debt.' What does the choice of 'were' instead of 'was' signal?"
+  type: multiple-choice
+  options:
+    - "The speaker is using an old-fashioned or formal style with no meaningful semantic difference from 'was'"
+    - "The speaker is uncertain whether they will ever become president"
+    - "The speaker is signaling that the condition is contrary to fact — they are not the president and know it"
+    - "The sentence is grammatically incorrect and should use 'would be' in the if-clause"
+  answer: 2
+  explanation: "The subjunctive 'were' encodes the speaker's stance that the condition is counterfactual — contrary to actual reality. Compare: 'If I was rude at dinner, I apologize' — here 'was' (indicative) treats the condition as a genuine uncertainty; the speaker doesn't know if they were rude. 'If I were rude' would signal the speaker knows they were NOT rude, speaking purely hypothetically. This is not stylistic variation; it carries real semantic content about how the speaker assesses the reality of the condition."
+
+- question: "Which of the following correctly uses the present subjunctive?"
+  type: multiple-choice
+  options:
+    - "The committee insisted that the witness leaves the room immediately."
+    - "The committee insisted that the witness left the room immediately."
+    - "The committee insisted that the witness leave the room immediately."
+    - "The committee insisted that the witness should leaving the room immediately."
+  answer: 2
+  explanation: "The present subjunctive uses the bare infinitive — the base form of the verb, uninflected — in clauses following verbs of demand, command, and recommendation: insist, demand, require, suggest, recommend. 'Leave' is the bare infinitive with no -s ending, no -ing, no auxiliary. Option A ('leaves') uses the indicative third-person inflection, which is wrong after a verb of insistence. Recognizing the trigger verbs and applying the bare infinitive pattern is the core skill for the present subjunctive."
+
+- question: "The sentence 'If she was the director, the project probably would have succeeded' uses the indicative correctly — the speaker is treating the condition as a genuine uncertainty, not as contrary to fact."
+  type: true-false
+  answer: true
+  explanation: "The indicative 'was' in an if-clause signals that the speaker treats the condition as a real possibility — perhaps the speaker doesn't know for certain whether she was actually the director. This is the correct use of the indicative. If the speaker knew she was NOT the director and was speaking hypothetically, the subjunctive 'were' would be appropriate. The choice between 'was' and 'were' after 'if' is not a formality preference — it encodes the speaker's epistemic stance toward the condition's reality."
+
+- question: "The subjunctive mood has completely disappeared from modern standard English and survives only as an error in overly formal writing."
+  type: true-false
+  answer: false
+  explanation: "The subjunctive is alive in modern formal English in two main contexts: (1) the past subjunctive — 'If I were you,' 'If he were here' — in counterfactual conditionals; and (2) the present subjunctive — 'I insist that she be present,' 'The rules require that students submit by Friday' — after verbs of demand and recommendation. It has retreated from casual speech but remains standard in formal writing and persists in fixed expressions: 'if need be,' 'come what may,' 'so be it.'"
+
+- question: "Explain the semantic difference between 'If I was the manager' and 'If I were the manager' in a context where the speaker is not currently the manager."
+  type: short-answer
+  answer: "'If I was the manager' uses the indicative, treating the condition as possibly real or genuinely uncertain — appropriate if there's some chance the speaker might be or become the manager. 'If I were the manager' uses the subjunctive and marks the condition as contrary to fact: the speaker definitively is not the manager and is speaking purely hypothetically. The choice encodes the speaker's epistemic stance on the reality of the condition."
+  explanation: "This distinction matters because it changes meaning, not just style. A speaker who says 'If I was the manager' in a job interview may be hedging about a real possibility. A speaker who says 'If I were the manager' in the same context is clearly in a hypothetical register, signaling they don't expect to actually be the manager. Using the indicative in a clearly counterfactual context can create unintended ambiguity about whether the speaker believes the condition might actually hold."
+```
+
 ## Explainer
 
 **Mood** is the grammatical category that encodes a speaker's relationship to the reality of what they're saying. You already know verb tense (past, present, future) and modal auxiliaries (can, could, might, should) — mood sits alongside these as another dimension of verb meaning. The **indicative mood** is the default: it makes statements about facts or asks questions about what is real. The **subjunctive mood** signals a departure from the real: a wish, a hypothetical, a demand, a recommendation — anything the speaker marks as not (yet) actual.

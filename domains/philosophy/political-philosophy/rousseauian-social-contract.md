@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Rousseau's general will represents a people united for the common good, distinct from aggregated preferences or majority voting. The general will tends toward freedom and equality; laws reflecting it are legitimate. Citizens resisting it can be 'forced to be free,' combining democratic appeal with troubling implications for coercion in the name of collective purpose.
 
+## Questions
+
+```yaml
+- question: "Sixty percent of citizens vote for a policy that increases their personal wealth while significantly harming a marginalized minority. The vote is free and fair, and each citizen voted their genuine preference. Does this express the general will?"
+  type: multiple-choice
+  options:
+    - "Yes — the general will is determined by majority vote, and 60% is a majority"
+    - "Yes — each citizen voted for what they genuinely wanted, so this is an authentic expression of the people's will"
+    - "No — the general will is what citizens will as citizens oriented toward the common good, not an aggregate of private preferences; a majority benefiting itself at a minority's expense expresses the will of all, not the general will"
+    - "No — Rousseau rejected democracy entirely, so no vote can express the general will"
+  answer: 2
+  explanation: "This is the defining distinction in Rousseau's theory. The will of all (volonté de tous) is the sum of private preferences — what each citizen wants for themselves. The general will (volonté générale) is what citizens will when they set aside private interest and ask what is good for the political community as a whole. A majority vote for personal enrichment at a minority's expense is precisely a case where the will of all diverges from the general will. For Rousseau, only laws expressing the general will are legitimate."
+
+- question: "Rousseau argues that citizens who resist laws expressing the general will can be 'forced to be free.' What is the internal logic of this claim?"
+  type: multiple-choice
+  options:
+    - "Freedom requires obedience to authority, and the state must enforce obedience to be legitimate"
+    - "The general will is what you truly will as a citizen, aimed at your genuine freedom; if you act against it out of ignorance or private passion, forcing compliance brings your behavior into alignment with your own deepest rational will"
+    - "Citizens surrender all freedom when they enter the social contract, so the state may compel any behavior it chooses"
+    - "Freedom is a collective property of the political community, and individual resistance undermines this collective freedom structurally"
+  answer: 1
+  explanation: "Rousseau distinguishes natural freedom (doing whatever you can) from civil freedom (governed by rational law you collectively authored). The general will aims at everyone's genuine freedom and good. If you resist it, you are acting against your own rational self — out of ignorance, passion, or private interest. Correcting this misalignment is not domination, on Rousseau's account, but enlightenment. The danger critics identify: any regime can invoke this logic to justify coercion in the name of what citizens 'truly' want."
+
+- question: "For Rousseau, each citizen in the social contract simultaneously holds the role of sovereign (author of the law) and subject (bound by the law), which is what distinguishes his theory from those of Hobbes and Locke."
+  type: true-false
+  answer: true
+  explanation: "In Hobbes, citizens transfer authority to a sovereign who stands above the social contract. In Locke, government is a trustee accountable to the people but still a distinct entity. For Rousseau, the social contract is a total alienation to the community itself — each person gives everything, and the community is constituted entirely by its members. Because every person is simultaneously author of the law and subject to it, there is no external sovereign and thus (in principle) no domination."
+
+- question: "Rousseau's general will is equivalent to what a majority of citizens vote for when they freely express their preferences."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misreading of Rousseau. The will of all (the aggregate of individual preferences expressed through voting) can diverge dramatically from the general will (what is genuinely good for the community). A vote captures what citizens want for themselves — their private interests — not what they would will as citizens concerned with the common good. Rousseau was aware that majority voting could produce unjust outcomes and that private interest could systematically distort collective decision-making."
+
+- question: "Explain the distinction between Rousseau's 'general will' and the 'will of all,' and why only the former legitimates political authority."
+  type: short-answer
+  answer: "The will of all (volonté de tous) is simply the aggregate of citizens' private preferences — what each person wants for themselves when they vote. The general will (volonté générale) is what citizens will when they set aside private interest and ask what is genuinely good for the political community as a whole. These can diverge: a majority might want a policy that benefits them personally while harming the community or a minority. For Rousseau, only the general will legitimates political authority because the purpose of the social contract is to create civic life oriented toward genuine freedom and equality, not merely to aggregate private interests."
+  explanation: "The distinction is philosophically load-bearing: it explains why Rousseau is both a democratic theorist (authority derives from the people) and a critic of mere majority rule (counting preferences doesn't produce genuine legitimacy). It also explains the 'forced to be free' claim — if the general will represents what citizens truly will as civic beings, resisting it is resisting one's own rational self."
+```
+
 ## Explainer
 
 From your study of Rousseau's general will, you know the core distinction: the **general will** (*volonté générale*) is not the same as the **will of all** (*volonté de tous*). The will of all is merely the sum of private preferences — each person voting for what they personally want. The general will is what citizens want *as citizens*, when they set aside private interest and ask what is good for the community as a whole. Rousseau believed these could diverge dramatically: a majority could vote for something that benefits most individuals while being bad for the body politic. Only the general will is legitimate. This is not a technicality; it is the foundation of his entire political theory.

@@ -29,6 +29,45 @@ Use 10x10 grids: shading 25 of 100 squares shows both 25/100 and 0.25 simultaneo
 - Thinking fractions and decimals are fundamentally different kinds of numbers rather than different representations.
 - Not recognizing that some fractions (like 1/3) produce repeating decimals, which is addressed more fully in later grades.
 
+## Questions
+
+```yaml
+- question: "A student claims that 1/3 = 0.3 because 'there's a 3 in both.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — 1/3 and 0.3 are the same number and represent the same point on the number line"
+    - "0.3 means 3/10, not 1/3 — the numbers look similar but represent very different quantities"
+    - "1/3 should be written as 0.03, not 0.3"
+    - "The student should divide 1 ÷ 3 to get the decimal, which equals 3.0"
+  answer: 1
+  explanation: "0.3 means 3 tenths, or 3/10 — not 1 third. 3/10 = 0.3 exactly, while 1/3 ≈ 0.333... (a repeating decimal that never ends). The confusion comes from surface similarity: both involve the digit 3. The actual conversion from fraction to decimal goes through the powers-of-ten structure. 1/3 cannot be written as a clean decimal because 3 does not divide evenly into 10 or 100."
+
+- question: "To convert 3/4 to a decimal, a student finds that 4 × 25 = 100 and multiplies both numerator and denominator by 25, getting 75/100. What decimal does 75/100 equal?"
+  type: multiple-choice
+  options:
+    - "0.075 — because 75 is placed three places after the decimal point"
+    - "0.75 — because 75/100 means 75 hundredths"
+    - "7.5 — because 75 divided by 10"
+    - "0.34 — because the fraction converts digit by digit (3 and 4)"
+  answer: 1
+  explanation: "75/100 reads as '75 hundredths,' which is 0.75. The strategy works because the decimal system is built on powers of 10: hundredths place = /100. Since 4 × 25 = 100 and 3 × 25 = 75, we get 75/100 = 0.75. This is the benchmark ¾ = 0.75, which should become automatic."
+
+- question: "The fraction 7/10 and the decimal 0.7 name exactly the same quantity."
+  type: true-false
+  answer: true
+  explanation: "Decimals with one digit after the decimal point represent tenths. 0.7 literally means '7 tenths,' which is exactly what 7/10 means. They are two different notations for the same number — like writing 'a dozen' and '12.' Place them on a number line and they land on the exact same point."
+
+- question: "Fractions represent parts of a whole, while decimals represent measurements — they are fundamentally different types of numbers that happen to look similar sometimes."
+  type: true-false
+  answer: false
+  explanation: "Fractions and decimals are the same numbers expressed in different notations, not different types of numbers. 1/2 and 0.5 occupy exactly the same point on the number line. The decimal system is built on fractions with powers-of-ten denominators; 0.7 is simply shorthand for 7/10. Treating them as separate categories is the central misconception this topic is designed to correct."
+
+- question: "Why can 1/4 be expressed as a clean decimal (0.25), but 1/3 cannot?"
+  type: short-answer
+  answer: "1/4 can be converted to an equivalent fraction with denominator 100 (since 4 × 25 = 100), giving 25/100 = 0.25. But 3 does not divide evenly into 10 or 100 — there is no whole number you can multiply 3 by to get 10 or 100 — so 1/3 produces a repeating decimal (0.333...) rather than a clean one."
+  explanation: "Decimals are built on powers of 10. A fraction converts cleanly to a decimal only when its denominator can be made into 10 or 100 (or another power of 10) by multiplying by a whole number. 4 × 25 = 100, so 1/4 = 25/100 = 0.25. But 3 shares no factors with 10, so dividing 1 by 3 never terminates. This is why benchmark fractions like 1/4, 1/5, and 1/2 have clean decimal equivalents while 1/3, 1/6, and 1/7 do not."
+```
+
 ## Explainer
 
 You already know how to work with fractions, and you've been introduced to decimals like 0.7 and 0.25. The big idea here is that these are not two different kinds of numbers — they are two different **notations** for the same quantities. Just as "a dozen" and "12" name the same amount, ½ and 0.5 name the same point on the number line. Switching fluently between the two representations is a skill you'll use constantly.

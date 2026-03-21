@@ -30,6 +30,45 @@ Examine cases where moral agreement seems universal (harm to innocent) versus ca
 ## Common Misconceptions
 Denying objective moral facts doesn't commit you to nihilism or the view that anything goes; many anti-realists defend rigorous, rationally compelling moral standards. Also, agreement alone doesn't establish objectivity—widespread false belief is possible.
 
+## Questions
+
+```yaml
+- question: "A friend argues: 'If moral anti-realism is true, then nothing is really wrong — not even genocide.' What is the most accurate response?"
+  type: multiple-choice
+  options:
+    - "The friend is right — anti-realism entails that moral judgments are arbitrary"
+    - "Anti-realists can defend rigorous moral standards even without mind-independent moral facts"
+    - "Anti-realism must be false because genocide is obviously wrong"
+    - "This is a question that only realists can answer"
+  answer: 1
+  explanation: "Anti-realism does not entail nihilism or 'anything goes.' Expressivists can express deep and well-reasoned commitments against genocide; constructivists can derive robust norms from rational procedures. The absence of mind-independent moral facts does not mean morality is arbitrary — it means moral standards are grounded differently, not that they don't exist. The misconception that anti-realism leads to nihilism is explicitly flagged in the Common Misconceptions section."
+
+- question: "What does J.L. Mackie's error theory claim about moral statements like 'gratuitous cruelty is wrong'?"
+  type: multiple-choice
+  options:
+    - "They express genuine feelings but don't assert facts"
+    - "They are true because they reflect what rational agents would choose"
+    - "They attempt to assert objective facts, but those facts don't exist, so they are systematically false"
+    - "They are true because they reflect the consensus of most people"
+  answer: 2
+  explanation: "Error theory (Mackie) holds that moral sentences purport to describe mind-independent moral facts — unlike expressivism, which denies they are fact-assertions at all. But since Mackie believes no such facts exist, all positive moral claims are literally false. This distinguishes error theory from expressivism: rather than reinterpreting what moral language does, error theory says moral language is trying to do what it appears to do (assert facts) but systematically failing."
+
+- question: "The fact that nearly all human societies condemn murder is strong evidence that 'murder is wrong' is an objective moral fact."
+  type: true-false
+  answer: false
+  explanation: "Widespread agreement does not establish objectivity. Many false beliefs have been held nearly universally. A moral realist cannot simply point to agreement to prove mind-independent facts; an anti-realist can explain near-universal condemnation of murder through convergent expressions of attitude or parallel social constructions without positing objective facts. As the topic notes, 'agreement alone doesn't establish objectivity — widespread false belief is possible.'"
+
+- question: "Both moral realists and moral anti-realists can, in principle, defend the view that certain moral standards are compelling and non-arbitrary."
+  type: true-false
+  answer: true
+  explanation: "This is one of the most important points in the debate. Realists ground standards in mind-independent facts; constructivists ground them in rational procedures; expressivists ground them in deeply held, carefully reasoned commitments. Anti-realism does not mean 'anything goes' — it means moral standards are grounded in something other than mind-independent facts, not that they lack all grounding."
+
+- question: "What is the key difference between how an expressivist and an error theorist understand the sentence 'Torturing innocents is wrong'?"
+  type: short-answer
+  answer: "An expressivist says the sentence does not assert a fact at all — it expresses an attitude or commitment (like 'Boo to torturing innocents!'). An error theorist says the sentence does try to assert an objective fact, but since no such moral facts exist, the claim is literally false."
+  explanation: "The distinction turns on what moral language is doing. Expressivists reinterpret moral sentences as non-cognitive — they aren't in the business of asserting truths. Error theorists take moral sentences at face value as fact-assertions, but then argue that the facts they would need to be true (mind-independent moral properties) don't exist in the world. Both are anti-realist, but they disagree about the function of moral language."
+```
+
 ## Explainer
 
 You've distinguished normative from metaethical questions. This topic is firmly metaethical: not "what should we do?" but "what kind of thing are moral claims?" When someone says "torturing children for amusement is wrong," are they stating an objective fact that exists independently of human attitudes — like the fact that water is H₂O — or are they doing something else: expressing an attitude, prescribing behavior, or constructing a norm relative to their community? This is the central debate between **moral realism** and **moral anti-realism**.

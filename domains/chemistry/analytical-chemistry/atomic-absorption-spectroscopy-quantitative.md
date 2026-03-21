@@ -31,6 +31,45 @@ Analyze environmental samples for trace metals using both flame and graphite fur
 ## Common Misconceptions
 Assuming all metals have equal sensitivity in AAS (sensitivity varies enormously by element). Thinking background correction is optional rather than essential for accurate trace analysis.
 
+## Questions
+
+```yaml
+- question: "A chemist needs to measure lead at 5 µg/L in blood samples. Should she use flame AAS or graphite furnace AAS (GFAAS), and why?"
+  type: multiple-choice
+  options:
+    - "Flame AAS, because lead is a common analyte and does not require specialized equipment"
+    - "Graphite furnace AAS, because 5 µg/L is in the parts-per-billion range — below typical flame AAS detection limits — and blood is a complex matrix requiring sensitive background correction"
+    - "Flame AAS, because blood can be aspirated directly into the flame without sample preparation"
+    - "Graphite furnace AAS, because it uses a stronger hollow cathode lamp than flame AAS and therefore absorbs more light"
+  answer: 1
+  explanation: "5 µg/L (parts per billion) is typically below flame AAS detection limits for lead. GFAAS provides 100-1000x lower detection limits because the sample is confined in an enclosed graphite tube for several seconds rather than streaming through an open flame — far more atoms absorb the analyte light per measurement. Blood is also a complex biological matrix that produces significant spectral background, requiring Zeeman background correction available on GFAAS instruments. Option D is incorrect: both techniques use the same type of hollow cathode lamp. The difference is atomization efficiency and atom residence time, not the light source."
+
+- question: "A chemist analyzes calcium in seawater by flame AAS and gets results lower than expected. She suspects chemical interference. Adding lanthanum to the standards and samples corrects the problem. What role does lanthanum play?"
+  type: multiple-choice
+  options:
+    - "Lanthanum acts as an ionization suppressor, keeping calcium atoms in their ground state"
+    - "Lanthanum preferentially binds phosphate in the sample, releasing calcium from refractory calcium-phosphate compounds that would otherwise resist atomization"
+    - "Lanthanum enhances the emission intensity of calcium atoms, improving detection sensitivity"
+    - "Lanthanum serves as an internal standard to correct for variations in aspiration rate"
+  answer: 1
+  explanation: "Phosphate in seawater binds calcium to form refractory calcium phosphate compounds that resist decomposition in the flame, causing calcium atoms never to form — depressing the signal. Lanthanum acts as a releasing agent by competing with calcium for phosphate binding, freeing calcium to atomize completely. This is a classic chemical interference and its solution. Option A describes ionization suppressors (e.g., cesium added to suppress potassium or sodium ionization in hot flames) — a different type of interference with a different mechanism. Lanthanum does not suppress ionization of calcium."
+
+- question: "Zeeman background correction is superior to deuterium lamp correction for graphite furnace AAS with complex biological matrices because it measures background at the exact analyte wavelength rather than at a nearby wavelength."
+  type: true-false
+  answer: true
+  explanation: "Zeeman correction uses a magnetic field to split and shift the atomic absorption line away from the measurement wavelength; while shifted, the instrument measures only background at that precise wavelength, then compares to the unshifted measurement (atomic absorption plus background). Because background is sampled at exactly the analyte wavelength, even structured or rapidly varying background — common in graphite furnace work with blood or tissue digests — is accurately subtracted. Deuterium correction measures background from a broad continuum source, which assumes background is uniform across a spectral window. In complex matrices where background varies across wavelengths, this assumption fails and deuterium correction becomes less accurate."
+
+- question: "In atomic absorption spectroscopy, all metallic elements have similar detection limits because the underlying principle — ground-state atom absorbance at a characteristic wavelength — is the same for every element."
+  type: true-false
+  answer: false
+  explanation: "Detection limits vary enormously between elements in AAS, despite the shared underlying principle. Sensitivity depends on the element-specific absorption cross-section at its analytical wavelength, the efficiency of atomization in the chosen flame or furnace, and the hollow cathode lamp intensity at that wavelength. Mercury is typically analyzed by cold-vapor AAS (not flame or furnace) because it is volatile at room temperature. Arsenic and selenium have weak flame absorption and often require hydride generation to improve sensitivity by several orders of magnitude. Assuming equal sensitivity across elements is explicitly listed as a common misconception in this topic and leads to serious errors when selecting methods for trace analysis."
+
+- question: "Why does graphite furnace AAS achieve 100-1000x lower detection limits than flame AAS, even when both use the same hollow cathode lamp and detector system?"
+  type: short-answer
+  answer: "The difference is atom residence time in the light path. In flame AAS, atoms stream through the beam in milliseconds and most of the aspirated sample drains away unused — atomization efficiency is low. In GFAAS, a small aliquot is vaporized into an enclosed graphite tube where atoms are confined for several seconds, so many more atoms absorb light per measurement. More atoms in the light path per unit concentration = more absorbance = lower detection limit."
+  explanation: "This efficiency difference explains why GFAAS requires only 10-50 µL of sample while flame AAS continuously aspirates mL-scale volumes yet still achieves far worse detection limits. The graphite furnace also allows temperature programming — separate drying, ashing, and atomization steps — which removes matrix components before the high-temperature atomization flash. This combination of confinement (high residence time), small sample volume (concentrated analyte), and matrix removal (reduced background) is what produces the dramatic sensitivity improvement over the open flame. The principle of absorbance is identical; the engineering of the atomization step is what changes detection capability."
+```
+
 ## Explainer
 
 You already know from your study of atomic absorption spectroscopy that ground-state atoms absorb light at characteristic wavelengths, and from calibration curve methods that plotting instrument response against known concentrations lets you determine unknowns. Quantitative AAS brings these together by measuring how much element-specific light a sample absorbs and converting that absorbance into a concentration through careful calibration. The challenge at the quantitative level is choosing the right atomization technique and correcting for everything in the sample matrix that is not your target element.

@@ -34,6 +34,45 @@ Practice writing regular expressions for specific languages, then convert them t
 - Misapplying operator precedence: R₁R₂* means R₁ followed by any number of R₂, not (R₁R₂)*.
 - Assuming regular expressions can describe any pattern — languages like {aⁿbⁿ} are not regular.
 
+## Questions
+
+```yaml
+- question: "Which of the following languages CANNOT be described by any formal regular expression?"
+  type: multiple-choice
+  options:
+    - "All binary strings containing at least one '1'"
+    - "All strings over {a, b} where every 'a' is immediately followed by a 'b'"
+    - "All strings of the form aⁿbⁿ for n ≥ 0 (equal numbers of a's then b's)"
+    - "All strings over {0, 1} that end in '00'"
+  answer: 2
+  explanation: "The language {aⁿbⁿ : n ≥ 0} is not regular — no finite automaton can count unboundedly, and no regular expression can describe it. The other three languages ARE regular: 'at least one 1' is (0∪1)*1(0∪1)*, 'every a followed by b' is (ab∪b)*, and 'ends in 00' is (0∪1)*00. The pumping lemma for regular languages formally proves aⁿbⁿ is non-regular, but the intuition is that you'd need to 'remember' how many a's you've seen to match them with b's — a finite automaton has no such memory."
+
+- question: "What language does the regular expression ab* denote?"
+  type: multiple-choice
+  options:
+    - "Zero or more repetitions of the string 'ab'"
+    - "The string 'a' followed by zero or more 'b's"
+    - "Either 'a' or zero or more 'b's"
+    - "One or more 'b's, optionally preceded by 'a'"
+  answer: 1
+  explanation: "Operator precedence is the key: Kleene star binds tighter than concatenation. So ab* is parsed as a(b*) — the symbol 'a' concatenated with zero-or-more 'b's. This gives the language {a, ab, abb, abbb, ...}. To get zero or more repetitions of 'ab' (option A), you would need parentheses: (ab)*, which gives {ε, ab, abab, ababab, ...}. Getting precedence wrong is the most common error when writing or reading regular expressions."
+
+- question: "The regular expressions (ab)* and ab* describe the same language over the alphabet {a, b}."
+  type: true-false
+  answer: false
+  explanation: "(ab)* describes zero or more repetitions of the pair 'ab': {ε, ab, abab, ababab, ...}. ab* describes 'a' followed by zero or more 'b's: {a, ab, abb, abbb, ...}. These are entirely different sets. For example, 'abab' is in (ab)* but not in ab*; 'abb' is in ab* but not in (ab)*; and ε is in (ab)* but not in ab*. The difference stems from operator precedence: star binds to its immediate left operand — just 'b' in ab*, but the grouped '(ab)' when parenthesized."
+
+- question: "Any language accepted by a nondeterministic finite automaton (NFA) can be described by a formal regular expression using only union, concatenation, and Kleene star."
+  type: true-false
+  answer: true
+  explanation: "This is Kleene's theorem, one of the foundational results in formal language theory. It establishes a three-way equivalence: DFAs, NFAs, and formal regular expressions all describe exactly the same class of languages — the regular languages. This means the three operations (union, concatenation, star) are not just convenient notation; they are exactly sufficient to characterize everything a finite automaton can do. No additional operations are needed, and no additional operations can expand the class."
+
+- question: "Formal regular expressions use only three operations — union, concatenation, and Kleene star. Why does this minimal set describe exactly the same languages that finite automata can recognize?"
+  type: short-answer
+  answer: "The three operations correspond directly to the structural operations on automata. Union corresponds to combining two NFAs with a new start state and epsilon transitions to each. Concatenation corresponds to connecting the accept states of one NFA to the start state of another. Kleene star corresponds to adding epsilon transitions from accept states back to the start state. Thompson's construction converts any regular expression to an NFA using these correspondences, and the state elimination algorithm converts any NFA back to a regular expression, proving the equivalence is exact."
+  explanation: "The deep point is that these three operations are not arbitrary — they are exactly the operations you can perform on finite automata while staying within the class of finite automata. More powerful operations like backreferences (which 'remember' a matched string) require more computational power than a finite automaton has, which is why PCRE regex engines that support backreferences can match some non-regular languages."
+```
+
 ## Explainer
 
 You already understand finite state machines — devices with a fixed number of states that read input one symbol at a time and either accept or reject. **Regular expressions** are a completely different notation for describing the same class of languages, using algebraic syntax instead of state diagrams. The connection is deep: every pattern you can describe with a regular expression corresponds to some finite automaton, and every language a finite automaton accepts can be written as a regular expression.

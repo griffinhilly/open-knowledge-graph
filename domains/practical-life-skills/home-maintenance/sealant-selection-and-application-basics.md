@@ -27,6 +27,45 @@ Inspect gaps around windows and doors in your home. Observe old, failed caulk an
 ## Common Misconceptions
 - All caulk is the same. - Caulk seals air gaps indefinitely. - You can apply caulk over failed caulk without removing it. - Paintable caulk is cheaper because it's lower quality.
 
+## Questions
+
+```yaml
+- question: "A homeowner wants to re-seal a bathtub surround that has cracked, pulling-away caulk around the edges. What should she do first?"
+  type: multiple-choice
+  options:
+    - "Apply fresh silicone caulk directly over the old caulk to lock in the existing seal"
+    - "Use latex caulk on top of the old caulk since latex bonds better to aged silicone"
+    - "Remove all old caulk completely, clean the joint with rubbing alcohol, then apply new caulk"
+    - "Score along the old caulk with a utility knife to create tooth for the new layer to grip"
+  answer: 2
+  explanation: "New caulk bonds to the substrate (the actual tub and wall surfaces), not to old caulk. Applying new caulk over failed caulk means the new bead has no real adhesion — it sits on a failed foundation and will fail again quickly. The old caulk must be completely removed and the joint cleaned of residue and oils before new sealant can bond properly. This extra prep step is the single most common thing homeowners skip, and it's the primary reason caulk jobs fail prematurely."
+
+- question: "A painter needs to caulk the gap between wood baseboards and drywall before painting the room. Which sealant is most appropriate?"
+  type: multiple-choice
+  options:
+    - "Pure silicone — it provides the best flexibility for wood movement"
+    - "Latex/acrylic caulk — it's paintable, easy to clean up, and appropriate for interior gaps not exposed to standing water"
+    - "Polyurethane sealant — it bonds permanently to both wood and drywall"
+    - "Any available caulk, since interior joints don't experience moisture"
+  answer: 1
+  explanation: "Latex/acrylic (painter's caulk) is the right choice here because the primary requirement is paintability — you can't paint over silicone. The baseboard gap is interior and not exposed to running or standing water, so silicone's superior waterproofing is unnecessary. Pure silicone (option A) would be disqualified immediately: the paint won't adhere over it. Polyurethane (option C) is overkill for an interior trim gap and typically not paintable or is harder to clean up."
+
+- question: "Silicone caulk is the best all-purpose choice for bathroom applications because it is both waterproof and paintable."
+  type: true-false
+  answer: false
+  explanation: "Silicone cannot be painted — this is its critical limitation. It provides superior waterproofing and flexibility (ideal for tub surrounds, shower bases, around sinks) but paint will not adhere to a silicone surface. Where a painted finish is required, siliconized acrylic (a hybrid) or latex/acrylic caulk must be used instead, accepting a trade-off in moisture resistance. Selecting sealant always requires matching properties to the joint's specific exposure and finish requirements."
+
+- question: "Tooling a fresh caulk bead — smoothing it with a wet finger or tool immediately after application — improves adhesion to both surfaces and helps the bead shed water rather than collect it."
+  type: true-false
+  answer: true
+  explanation: "Tooling serves two functional purposes: it presses the caulk into firm contact with both sides of the joint (ensuring adhesion on both surfaces, not just where the bead touches), and it creates a slightly concave or flush profile that sheds water. An untooled bead sits proud of the surface, creating ledges where water can pool — the opposite of what a sealant should do. The 'wet finger' technique works because the water prevents the caulk from sticking to your finger, allowing a smooth glide."
+
+- question: "Why can't you simply apply new caulk over old, failed caulk? What property of sealants makes the substrate preparation step essential?"
+  type: short-answer
+  answer: "New caulk forms its adhesive bond to the substrate — the actual surfaces of the tub, tile, or wall — not to the old caulk. Old, failed caulk is no longer bonded to the substrate itself; if you apply new caulk on top of it, the new bead bonds to a failed layer and will pull away along with the old caulk. Proper adhesion requires the new sealant to make direct contact with clean, oil-free substrate surfaces on both sides of the joint."
+  explanation: "This principle applies to nearly all adhesive and sealant work: the strength of a bond is only as good as the weakest interface in the stack. Old caulk that has failed by pulling away from one surface creates a weak interface — any new caulk applied over it inherits that weakness. Removing all old material and cleaning with a solvent ensures the new bead bonds to a solid, stable surface."
+```
+
 ## Explainer
 
 Caulk and sealants exist to solve a fundamental mismatch between how buildings are built and how they behave over time. Structures are assembled from rigid components — wood framing, windows, doors, plumbing fixtures — that are then expected to expand, contract, vibrate, and shift with temperature changes, humidity cycles, and settling. The gaps at every junction between dissimilar materials are gaps where water and air will travel if given the chance. Sealants fill those gaps with a material that can flex with movement rather than crack the way rigid materials like grout or wood filler would.

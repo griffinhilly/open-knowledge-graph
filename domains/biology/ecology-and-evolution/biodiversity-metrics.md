@@ -38,6 +38,45 @@ Calculate Shannon and Simpson indices for two communities with the same richness
 - More species does not always mean higher ecological function — a community can have high richness but low functional diversity.
 - Beta diversity is not simply the difference in species lists — multiple metrics capture different aspects of turnover and nestedness.
 
+## Questions
+
+```yaml
+- question: "Community A has 10 species with perfectly equal abundance (10% each). Community B also has 10 species, but one species makes up 91% of individuals while the remaining 9 species each make up 1%. How do these communities compare in Shannon diversity?"
+  type: multiple-choice
+  options:
+    - "Community A has higher Shannon diversity — equal abundance maximizes H' because every species contributes substantially to the calculation"
+    - "Community B has higher Shannon diversity — its dominant species contributes more to the index by virtue of its large share"
+    - "Both have equal Shannon diversity — species richness is identical at 10, which determines H'"
+    - "Shannon diversity cannot be compared between communities with unequal abundance distributions"
+  answer: 0
+  explanation: "Shannon diversity H' = −Σ(pᵢ ln pᵢ) captures both richness and evenness. Community A (equal abundances): H' = −10 × (0.1 × ln 0.1) ≈ 2.30. Community B: H' ≈ −(0.91 × ln 0.91) − 9 × (0.01 × ln 0.01) ≈ 0.51. Community A is far more diverse. The dominant species in B suppresses the index: a single species with pᵢ = 0.91 has a small |ln pᵢ| term, while the rare species contribute little because pᵢ ≈ 0. Option C — equating richness with diversity — is the central misconception Shannon diversity was designed to correct."
+
+- question: "A conservation manager compares two adjacent forest reserves and finds their species compositions overlap by 95%. What does this imply for regional biodiversity?"
+  type: multiple-choice
+  options:
+    - "Beta diversity between the reserves is low, so together they contribute little more to regional gamma diversity than either does alone"
+    - "Alpha diversity is low in both reserves, since similar composition implies each site has few species"
+    - "Gamma diversity is high because two reserves are always more valuable than one for conservation"
+    - "Shannon diversity for each reserve must be low, since similar compositions imply poor evenness"
+  answer: 0
+  explanation: "Beta diversity measures species turnover between sites. High overlap means low beta diversity — the reserves are largely redundant from a regional diversity perspective. Gamma diversity (regional total) exceeds each reserve's alpha diversity only slightly, because the reserves mostly share species. This has direct conservation implications: protecting two sites with near-identical composition adds little total species coverage compared to protecting two sites with distinct communities. Beta diversity is the key to understanding whether spatial replication increases regional biodiversity."
+
+- question: "Two communities with the same number of species (the same species richness) always have the same level of biodiversity."
+  type: true-false
+  answer: false
+  explanation: "Species richness is only one component of biodiversity. Evenness — how individuals are distributed among species — matters equally. Two 10-species communities can differ dramatically: one with equal abundances (high evenness) and one where a single species dominates 90% of individuals (low evenness). Diversity indices like Shannon-Wiener H' explicitly incorporate both richness and evenness, and they will assign very different values to these communities despite identical richness. 'More species = more diverse' is precisely the misconception these indices were developed to correct."
+
+- question: "Beta diversity measures the diversity of species within a single site — specifically, how evenly individuals are distributed among species at that location."
+  type: true-false
+  answer: false
+  explanation: "Beta diversity measures the change in species composition between sites — turnover as you move from one location to another. Within-site diversity is alpha diversity; beta diversity is fundamentally a between-site concept. If two sites share all the same species, beta diversity is near zero; if they share no species, beta diversity is maximal. The regional decomposition gamma = alpha + beta (additive) shows how local richness and between-site turnover combine into regional diversity. Confusing alpha and beta is one of the most common errors in applying biodiversity frameworks."
+
+- question: "Why is species richness alone an insufficient measure of biodiversity, and what additional dimension does the Shannon-Wiener index add to our understanding of a community?"
+  type: short-answer
+  answer: "Species richness counts only how many species are present, ignoring how individuals are distributed among those species. Two communities with the same 20 species can differ dramatically: one with equal abundances across all 20, and one where a single species accounts for 95% of individuals. The latter is ecologically impoverished — most interactions involve the dominant species, rare species are functionally marginal, and the community is vulnerable to collapse if that dominant is lost. The Shannon-Wiener index H' = −Σ(pᵢ ln pᵢ) adds the evenness dimension by weighting each species by its proportional abundance, giving higher scores when abundance is evenly distributed and lower scores when a few species dominate. A monoculture receives a low H' even if it technically contains many species."
+  explanation: "The key mathematical intuition is that the pᵢ × ln(pᵢ) term is maximized (in absolute value) at intermediate abundances — very rare species (pᵢ ≈ 0) and a single overwhelmingly dominant species both contribute little to H'. Maximum diversity occurs at uniform abundance, capturing the intuition that a truly diverse community is one where no single species overwhelms the others. This is why richness and diversity are not synonymous: you can have high richness with very low H' (a species-rich but dominance-structured community) or moderate richness with high H' (fewer species but equal representation)."
+```
+
 ## Explainer
 
 From community ecology, you know that ecological communities consist of multiple species interacting within a shared environment. But how do we quantify how "diverse" a community actually is? Simply counting species is a start, but it misses something important: a forest with 20 tree species where one species comprises 95% of all individuals feels very different from a forest with 20 species in equal proportions. **Biodiversity metrics** give us rigorous tools to capture these distinctions and compare communities in meaningful ways.

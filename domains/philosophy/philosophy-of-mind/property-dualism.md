@@ -31,6 +31,45 @@ Compare with substance dualism and physicalism to clarify what makes property du
 - Conflating property dualism with emergentism.
 - Assuming property dualism requires new fundamental forces.
 
+## Questions
+
+```yaml
+- question: "A philosopher claims: 'The brain state that causes pain is identical to pain itself — fully describing the neural firing pattern is fully describing the experience.' Which position does this express?"
+  type: multiple-choice
+  options:
+    - "Property dualism"
+    - "Substance dualism"
+    - "Strict physicalism / type identity theory"
+    - "Epiphenomenalism"
+  answer: 2
+  explanation: "This is strict physicalism (or type identity theory): mental properties just ARE physical properties, and a complete physical description leaves nothing out. Property dualism denies this — it holds that no physical description, however complete, entails what it *feels like* to be in pain. That phenomenal character is an additional, irreducible property of the brain state."
+
+- question: "What is the causal exclusion problem for property dualism?"
+  type: multiple-choice
+  options:
+    - "Mental properties cannot supervene on physical properties because the two are too different"
+    - "If the physical world is causally closed, mental properties appear causally redundant alongside physical ones"
+    - "Mental properties require a separate substance to exert causal influence"
+    - "Property dualists cannot explain why mental properties evolved if they are non-physical"
+  answer: 1
+  explanation: "If every physical event has a sufficient physical cause (causal closure), then when your desire causes your arm to move, the underlying neural state *also* fully causes that movement. The mental property appears to do no additional causal work — it is redundant. Property dualists must either argue mental properties are genuinely efficacious without violating closure, accept epiphenomenalism (mental properties cause nothing), or reject causal closure — each option carries serious costs."
+
+- question: "Property dualism posits two kinds of substance — the mental and the physical — each with its own causal powers."
+  type: true-false
+  answer: false
+  explanation: "This describes substance dualism (Descartes's res cogitans and res extensa). Property dualism accepts only ONE substance — the physical — but maintains that not all properties of that substance are physical. Mental properties are real, irreducible features of physical things, not additional substances. This distinction lets property dualism avoid the interaction problem while still rejecting physicalist reduction."
+
+- question: "A property dualist can consistently hold that mental properties supervene on physical properties while also maintaining that they are irreducible to physical properties."
+  type: true-false
+  answer: true
+  explanation: "Supervenience means there can be no mental difference without a physical difference — fix the physics and you fix the mental. But supervenience does not entail reduction or identity. The mental property may necessarily depend on the physical without being *identical* to it or derivable from it. Property dualists use supervenience to explain why brains produce minds without committing to the reductionist claim that minds are *nothing but* brains."
+
+- question: "What distinguishes property dualism from both strict physicalism and substance dualism? What does it preserve from each view?"
+  type: short-answer
+  answer: "Property dualism agrees with physicalism that there is only one substance (the physical brain/body). It agrees with substance dualism that mental properties are irreducible — phenomenal character cannot be derived from or identified with physical properties. It thus avoids substance dualism's interaction problem (how does an immaterial mind affect a material body?) while rejecting physicalism's claim that consciousness is nothing over and above physical description."
+  explanation: "This middle-ground position is its appeal and its burden. By keeping one substance, it avoids positing mysterious non-physical stuff. By keeping irreducible mental properties, it honors the intuition that experience has a character that physics leaves out. The price is the causal exclusion problem: if there's only one substance and it's causally closed, what work do the extra mental properties actually do?"
+```
+
 ## Explainer
 
 You have already studied the mind-body problem and substance dualism, so you know the central tension: mental states seem to have a character — subjectivity, qualia, intentionality — that resists straightforward identification with physical processes. Substance dualism responded by positing two distinct *kinds of stuff* in the universe. **Property dualism** accepts that response's motivation while rejecting its ontology. There is, the property dualist says, only one substance in the world — the physical — but not all properties of that substance are themselves physical. Mental properties are real, irreducible features of physical things, not additional substances.

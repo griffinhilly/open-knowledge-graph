@@ -32,6 +32,45 @@ Examine candidates like direct sensory experiences ('I see red'), self-evident t
 - Assuming foundationalism requires that basic beliefs be infallible.
 - Confusing basic beliefs with self-evident truths.
 
+## Questions
+
+```yaml
+- question: "A person directly perceives a cup on her desk — a belief arising from sensory experience, not inferred from anything else. She later discovers she was given a hallucinogen. Which best describes the epistemic status of her original perceptual belief?"
+  type: multiple-choice
+  options:
+    - "It was never a basic belief, since basic beliefs cannot be false"
+    - "It was a basic belief — non-inferentially justified — but it was defeated by the later evidence"
+    - "It remains fully justified because basic beliefs are immune to defeat"
+    - "It was a basic belief only if she had no reason to suspect hallucination at the time"
+  answer: 1
+  explanation: "Moderate foundationalism holds that basic beliefs are non-inferentially justified — they do not derive their justification from other beliefs — but they can still be defeated by contrary evidence. The discovery of the hallucinogen is a defeater: evidence that overrides the original justification. This does not mean the belief was never basic; it was basic at the time it formed. Option A conflates being basic with being infallible, which moderate foundationalism explicitly rejects."
+
+- question: "Which of the following is the strongest candidate for an incorrigible basic belief, in the classical foundationalist sense?"
+  type: multiple-choice
+  options:
+    - "There is a red apple on the table in front of me"
+    - "I am currently conscious and having experiences"
+    - "It seems to me as though I see something red"
+    - "Red is a color"
+  answer: 2
+  explanation: "Incorrigible beliefs are those that cannot be mistaken — where having the belief guarantees its truth. 'It seems to me as though I see something red' is the classical candidate: it reports only how things appear to the subject, not how the world is. Even while hallucinating, it remains true that things appear red to me. 'There is a red apple' could be false if I'm hallucinating. The sense-datum report is the paradigm case precisely because it retreats from claims about the external world to claims about inner appearances — the price of incorrigibility."
+
+- question: "A foundational belief can be simultaneously non-inferentially justified and defeasible by later evidence."
+  type: true-false
+  answer: true
+  explanation: "This is the core claim of moderate foundationalism, associated with Chisholm and Alston. 'Non-inferential' means justification comes directly from experience rather than from other beliefs. 'Defeasible' means it can be overridden by contrary evidence. These properties are logically independent: a belief can be the starting point of a justificatory chain (non-inferential) while remaining sensitive to later evidence (defeasible). The misconception to avoid is treating 'basic' as synonymous with 'certain' or 'indefeasible.'"
+
+- question: "Classical foundationalism requires that basic beliefs be infallible — incapable of being false — in order to successfully terminate the regress of justification."
+  type: true-false
+  answer: false
+  explanation: "Infallibilism is the Cartesian version of foundationalism, but it is not a requirement for the foundationalist project to succeed. The regress problem only requires that some beliefs be justified without deriving justification from other beliefs — not that they be impossible to doubt or guaranteed true. Moderate foundationalism demonstrates this: a perceptual belief like 'there is a cup on the desk' can be non-inferentially justified and serve as a regress-stopper, even though it is fallible and potentially defeatable."
+
+- question: "What is the difference between a belief being non-inferentially justified and a belief being indefeasible? Why does this distinction matter for modern foundationalism?"
+  type: short-answer
+  answer: "A belief is non-inferentially justified when it does not derive its justification from other beliefs — it is justified by direct experience or self-evidence, not by inference. A belief is indefeasible when no possible evidence could overturn it. These are independent: a belief can be non-inferentially justified yet still be defeatable by later evidence. Moderate foundationalism exploits this independence: it accepts that basic beliefs can be fallible and defeasible while insisting they still perform the regress-stopping function, since their justification does not rest on further beliefs."
+  explanation: "The distinction resolves what seems like a fatal objection to foundationalism: 'Don't even basic perceptual beliefs sometimes turn out to be wrong?' Yes — moderate foundationalism grants this. What it insists on is that the justification comes from experience directly, not from inferential argument, even if the belief is fallible. Alston argued that direct perceptual justification is a genuine epistemic source even without infallibility, just as memory justifies beliefs about the past even though memories are sometimes false."
+```
+
 ## Explainer
 
 From your study of foundationalism, you know the core picture: justification has a structure, and not all beliefs can be justified by appeal to other beliefs without generating an infinite regress or vicious circle. Foundationalism resolves this by positing a base level — **basic beliefs** — that do not require support from other beliefs because they are in some way self-justifying. But what makes a belief capable of justifying itself? This is the central question that any theory of basic beliefs must answer.

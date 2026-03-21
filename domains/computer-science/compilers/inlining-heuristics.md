@@ -24,6 +24,45 @@ Inlining replaces function calls with function bodies, eliminating call overhead
 ## How It's Best Learned
 Examine compiler inlining decisions via -fopt-info in GCC or llvm-opt-report; compare code size and performance with and without inlining enabled.
 
+## Questions
+
+```yaml
+- question: "A compiler is evaluating whether to inline a tiny 3-instruction getter function that is called from 800 different locations, most of them in initialization code that runs once at startup. What should the heuristic decide?"
+  type: multiple-choice
+  options:
+    - "Inline it everywhere — tiny functions should always be inlined to eliminate call overhead"
+    - "Do not inline — duplicating the function body 800 times bloats the binary without meaningful performance gain"
+    - "Inline only the calls inside hot loops; leave the cold startup calls as-is"
+    - "Inline it and then apply dead code elimination to remove the duplicates"
+  answer: 2
+  explanation: "A good heuristic considers both size and call frequency. This tiny function seems like a perfect inline candidate by size alone, but 800 cold call sites means 800 copies of the code in the binary — significant code bloat with almost no performance benefit, since initialization code runs once. Instruction cache pressure may actually worsen performance. A size-threshold-only heuristic would naively inline this; a frequency-aware heuristic would correctly decline. Option C (inline only hot loops) is actually the right approach in practice, but only option B correctly diagnoses the problem with naive blanket inlining."
+
+- question: "What is the primary reason that inlining every function call in a program could make it run *slower* than selective inlining?"
+  type: multiple-choice
+  options:
+    - "Inlined code cannot be optimized by the compiler since it loses its function structure"
+    - "Code size explosion overwhelms the instruction cache, causing more cache misses"
+    - "Inlining prevents the CPU from using branch prediction on the call sites"
+    - "Inlined functions cannot be shared between threads, creating synchronization overhead"
+  answer: 1
+  explanation: "When every call is inlined, the binary grows massively — a function called from 50 sites gets duplicated 50 times. This bloated code no longer fits efficiently in the L1 instruction cache. The CPU must constantly fetch new instructions from slower memory, and the cache miss penalties dominate any savings from eliminated call overhead. This is the central tension in inlining: the optimization that eliminates overhead at one level can create worse overhead at another. Compilers must estimate the net effect, not just the call overhead eliminated."
+
+- question: "A function that is very small (below the compiler's size threshold) should always be inlined, regardless of how frequently it is called."
+  type: true-false
+  answer: false
+  explanation: "Size is only one signal. Call frequency matters equally — a tiny function called from 1,000 cold paths still creates 1,000 copies in the binary with minimal performance benefit. Good heuristics weight both size and call frequency (ideally from profiling data). Some compilers also consider whether inlining exposes constant arguments that would enable further optimizations. The `__attribute__((always_inline))` directive exists precisely because the compiler's size-based default sometimes gets it wrong — the compiler needs developer knowledge to override."
+
+- question: "Profile-guided optimization (PGO) improves inlining decisions by revealing which call sites execute most frequently during representative program runs."
+  type: true-false
+  answer: true
+  explanation: "PGO transforms inlining from static estimation to measurement. The compiler instruments the binary, a representative workload runs to collect call frequency data, and the second compilation uses that data to inline aggressively at hot call sites while leaving cold sites uninlined. This concentration of optimization effort on the 5% of call sites that account for 95% of execution time routinely produces 10–30% speedups in large applications. Static heuristics must guess at frequency; PGO measures it directly."
+
+- question: "Why do production compilers use elaborate cost models rather than a simple size threshold when deciding whether to inline a function, and what factors beyond size matter most?"
+  type: short-answer
+  answer: "A size threshold alone ignores call frequency (a hot function is worth inlining even if medium-sized), cascading optimization benefit (inlining may expose constant arguments that enable further simplification), and code size impact on instruction cache. Production cost models weigh: the saved call overhead, the inlining-enabled optimization opportunities (constant propagation, dead code elimination), the code size increase, the instruction cache pressure from that growth, and whether profiling data identifies the call site as hot. The net benefit — not just the direct call savings — drives the decision."
+  explanation: "The core insight is that inlining is a tradeoff, not a simple win. It trades call overhead for code size, and code size affects instruction cache performance which can be the dominant factor. A function that fits in 5 instructions when called normally becomes 50 instructions in 10 call sites after inlining — and if those 10 sites scatter across the code, the instruction cache locality degrades. Cascading benefit (inlining enabling further passes) can make a medium function worth inlining; lack of benefit makes even a tiny function potentially not worth the bloat."
+```
+
 ## Explainer
 
 From your study of procedure inlining and local optimization, you know that replacing a function call with the function's body eliminates call overhead (saving the return address, setting up a stack frame, jumping) and exposes the inlined code to further optimizations — constant folding, dead code elimination, and register allocation can now operate across what was previously an opaque call boundary. But inlining every call is disastrous: a function called from 50 sites would be duplicated 50 times, bloating the binary, overwhelming the instruction cache, and potentially making the program *slower*. **Inlining heuristics** are the decision rules that determine which calls to inline and which to leave as calls.

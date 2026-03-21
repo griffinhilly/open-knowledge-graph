@@ -29,6 +29,45 @@ Read Churchland's 'Eliminative Materialism and the Propositional Attitudes' (198
 - Eliminative materialism is not the claim that consciousness doesn't exist phenomenologically; it's primarily a claim about the theoretical terms of folk psychology (beliefs, desires) failing to carve nature at its joints.
 - Eliminativism is distinct from reductionism: reductionists preserve folk psychology by showing it reduces to neuroscience; eliminativists say folk psychology will be replaced wholesale.
 
+## Questions
+
+```yaml
+- question: "Mature neuroscience arrives and fully maps every mental process to neural states. According to the eliminative materialist, what happens to folk psychological terms like 'belief' and 'desire'?"
+  type: multiple-choice
+  options:
+    - "They are vindicated — neuroscience confirms that 'beliefs' and 'desires' accurately pick out real neural kinds"
+    - "They are reduced — neuroscience shows precisely which neural states beliefs and desires correspond to, preserving the folk categories"
+    - "They are eliminated — like 'phlogiston' and 'caloric fluid,' they refer to nothing real and are discarded in favor of neural vocabulary"
+    - "They are supplemented — folk psychology remains useful for everyday prediction while neuroscience handles the underlying mechanisms"
+  answer: 2
+  explanation: "Eliminativism predicts elimination, not reduction. The key move is the analogy to historical scientific replacement: phlogiston was not reduced to oxygen chemistry — there turned out to be nothing for 'phlogiston' to refer to, and the term was abandoned. The Churchlands argue 'beliefs' and 'desires' may similarly fail to carve neural reality at its joints. Option B describes reductionism — the rival view that folk psychology will be vindicated by finding neural correlates. The eliminativist denies that any such correlates will be found, because the categories themselves are theoretically corrupt."
+
+- question: "What is the strongest philosophical objection to eliminative materialism?"
+  type: multiple-choice
+  options:
+    - "Neuroscience has not yet progressed far enough to evaluate the Churchlands' prediction"
+    - "Folk psychology is a successful predictive framework and has not been falsified"
+    - "The claim 'folk psychology is false' appears to be itself a belief — but if beliefs don't exist, the eliminativist cannot coherently state their own position"
+    - "Eliminativism is empirically indistinguishable from reductionism and adds no new predictions"
+  answer: 2
+  explanation: "The self-refutation objection is the most powerful: if eliminativism is true, then there are no beliefs — but 'folk psychology is false' appears to be something the eliminativist believes and asserts as true. Uttering a statement with the intent to convey a truth is an exercise of exactly the folk psychological machinery being denied. Patricia Churchland's response is that this objection assumes the folk vocabulary must be used to dismantle the folk vocabulary — but conceptual frameworks can be criticized from within while reaching toward a replacement, even if the transition is philosophically awkward."
+
+- question: "The eliminative materialist distinguishes their view from reductionism by arguing that folk psychological categories like 'belief' and 'desire' may have no counterpart in the brain's actual processing architecture, just as 'phlogiston' had no counterpart in oxygen chemistry."
+  type: true-false
+  answer: true
+  explanation: "This analogy is the Churchlands' central argument. Reduction requires that the old theory's terms get identified with something in the new theory — 'temperature' reduces to mean molecular kinetic energy. Elimination requires that the old terms simply refer to nothing: the theory is so wrong that no part of reality maps onto its posits. The eliminativist's bet is that the brain's actual information-processing architecture will look nothing like propositional attitudes (beliefs, desires with propositional content), making reduction impossible and elimination necessary."
+
+- question: "Eliminative materialism and functionalism both accept folk psychological categories like 'beliefs' and 'desires' as genuinely referring to real mental states."
+  type: true-false
+  answer: false
+  explanation: "Functionalism accepts folk psychological categories and tries to vindicate them: mental state types are defined by their causal-functional roles, and whatever neural states play those roles just are beliefs, desires, etc. Eliminativism rejects this rescue operation entirely. The eliminativist argues that functionalism's strategy of saving folk psychology by functional definition is misguided because the folk categories don't carve the brain's actual processing at its joints — there may be no unified functional role corresponding to 'belief' any more than there is one for 'phlogiston.'"
+
+- question: "Explain the difference between reducing folk psychology to neuroscience and eliminating it. Which outcome do eliminative materialists predict, and why?"
+  type: short-answer
+  answer: "Reduction preserves folk psychological terms by identifying them with neuroscientific ones: 'belief that P' = neural state X. Elimination discards the folk terms as referring to nothing real, the way 'phlogiston' was discarded rather than reduced to oxygen. Eliminativists predict elimination because they argue folk psychology is a stagnant, explanatorily impoverished theory — it offers no account of mental illness, sleep, or the neural basis of learning — suggesting its categories (propositional attitudes, beliefs, desires) don't track the actual structure of the brain."
+  explanation: "The prediction is empirical, not a priori: the Churchlands are betting that when neuroscience matures, it will not find counterparts for propositional attitudes. The brain's processing architecture may be so different from the belief-desire framework that no smooth reduction is available. This is a falsifiable claim — if neuroscience does find clean neural correlates for beliefs and desires, eliminativism loses to reductionism. The historical analogy to phlogiston motivates the bet but doesn't guarantee it."
+```
+
 ## Explainer
 
 You already know that physicalism holds all mental states are physical states — nothing over and above the brain. But physicalism leaves open a further question: do the categories we use to describe minds (beliefs, desires, intentions, pains) actually carve neural reality at its joints? Eliminative materialism answers: almost certainly not. The Churchlands argue that **folk psychology** — the commonsense theory we use every day to explain and predict behavior by citing beliefs and desires — is a theoretical framework like any other. And like many folk theories before it, it may be radically and systematically wrong.

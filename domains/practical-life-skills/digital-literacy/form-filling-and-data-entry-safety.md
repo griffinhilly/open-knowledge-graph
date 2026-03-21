@@ -30,6 +30,45 @@ Look at a legitimate form and identify required vs optional fields. Check for se
 ## Common Misconceptions
 - All forms are equally safe (check security indicators first). - Browser autofill is always secure (it's convenient but risky for sensitive data). - Required fields marked with asterisks are always essential (sometimes they're just industry practice).
 
+## Questions
+
+```yaml
+- question: "A website shows a padlock icon and 'https://' in the address bar. You are about to enter your credit card number. Is this sufficient to confirm it is safe to proceed?"
+  type: multiple-choice
+  options:
+    - "Yes — HTTPS encrypts your data, so the site is verified as trustworthy"
+    - "No — HTTPS only encrypts the connection; you must also verify the site's identity through the domain name"
+    - "Yes — a padlock icon is issued by governments and confirms a site is legitimate"
+    - "No — HTTPS is only safe on desktop browsers, not mobile"
+  answer: 1
+  explanation: "HTTPS encrypts the channel between your browser and the server, protecting data in transit from interception — but it says nothing about whether the site itself is legitimate. A phishing site can and often does have a valid HTTPS certificate. Verifying the domain name carefully (looking for misspellings, suspicious top-level domains, or added words) is a separate, necessary check. HTTPS is necessary but not sufficient."
+
+- question: "You visit your bank's login page and your password manager fails to autofill your credentials, even though you've logged in there before. What does this most likely indicate?"
+  type: multiple-choice
+  options:
+    - "Your password manager has a bug and you should type the password manually"
+    - "The bank updated its login page and autofill is no longer compatible"
+    - "The current URL does not match the domain where your credentials were saved, suggesting a possible phishing page"
+    - "Your session has expired and you need to reset your password"
+  answer: 2
+  explanation: "Password managers autofill credentials only on the exact domain they were originally saved for. If autofill fails on a page claiming to be your bank, the most likely reason is that the URL is different — a strong indicator of a phishing page mimicking the real site. This is one of the most reliable phishing detectors available and works even when the page visually appears identical to the real thing."
+
+- question: "A newsletter signup form is asking for your date of birth and phone number in addition to your email address. These fields are optional. You should fill them out to complete the form properly."
+  type: true-false
+  answer: false
+  explanation: "The principle of data minimization means you should provide only information necessary for the stated purpose. A newsletter only needs your email to send you content. Optional fields collecting a birth date or phone number serve marketing or data monetization purposes, not the newsletter itself. Providing more than necessary increases your exposure if the site is breached. Optional means optional — you are not required to fill these fields."
+
+- question: "HTTPS in a website's address bar guarantees the website itself is legitimate and not a phishing site."
+  type: true-false
+  answer: false
+  explanation: "HTTPS guarantees that the connection between your browser and the server is encrypted, preventing interception in transit. It does NOT verify the identity or legitimacy of the website owner. Attackers routinely obtain valid HTTPS certificates for phishing domains because certificate authorities only verify domain ownership, not intent. You must separately verify the domain name matches the real organization."
+
+- question: "Why is a dedicated password manager with a master password generally safer than saving passwords in a browser for high-value accounts like banking or email?"
+  type: short-answer
+  answer: "A dedicated password manager requires a master password to unlock stored credentials, adding an independent authentication layer. Browser-saved passwords typically unlock automatically for anyone logged into the operating system, and certain malicious browser scripts (cross-site scripting attacks) can attempt to extract them. A dedicated manager also only autofills on exact matching domains, which detects phishing pages."
+  explanation: "The key distinction is that browser autofill is tied to OS login state — if someone accesses your computer while you're logged in, your saved passwords are exposed. A password manager requires a separate master password, creating defense in depth. The domain-matching behavior is an additional security benefit: the manager acts as a phishing detector, refusing to autofill on URLs that don't exactly match where the password was saved."
+```
+
 ## Explainer
 
 Every time you fill out a web form — creating an account, checking out of an online store, subscribing to a newsletter — you are sending personal data to a server somewhere. The first question to ask before typing anything is: *is this a legitimate site, and is my connection to it secure?* You've learned about internet safety basics, so you know that **HTTPS** (indicated by a padlock icon in the browser's address bar) means the connection between your browser and the server is encrypted. Without HTTPS, anything you type — including passwords — travels in plain text that could be intercepted on a public network. HTTPS doesn't guarantee the website itself is trustworthy, but its absence is a clear signal not to proceed with any sensitive information.

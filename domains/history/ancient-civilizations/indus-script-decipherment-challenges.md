@@ -28,6 +28,45 @@ Examine images of Indus seals and note repetitive symbols. Consider what languag
 ## Common Misconceptions
 All undeciphered scripts will eventually be deciphered—some may remain impossible if too few examples survive or if the writing system encodes non-linguistic information. The Indus civilization was more advanced than contemporaries—it was equally sophisticated but in different ways.
 
+## Questions
+
+```yaml
+- question: "Why has the Indus script resisted decipherment despite thousands of inscribed objects being recovered?"
+  type: multiple-choice
+  options:
+    - "The script is too recent — scholars have not yet had enough time to analyze it"
+    - "No bilingual text exists, the underlying language family is unknown, and inscriptions average only five signs — offering almost no statistical leverage"
+    - "The script uses a purely alphabetic system with no repeated patterns, making statistical analysis impossible"
+    - "The Indus script has been deciphered; scholars simply disagree on which translation is correct"
+  answer: 1
+  explanation: "Three interlocking problems block decipherment: (1) no bilingual text — there is no Rosetta Stone pairing Indus with a known language; (2) unknown language family — if the language has no living descendants and is unrelated to known families, internal reconstruction is severely constrained; (3) extremely short inscriptions averaging just five signs, far too brief for the kind of statistical and structural analysis that enabled decipherment of Egyptian hieroglyphics and Mayan glyphs. All three problems reinforce each other, and solving any one would substantially change the prospects for the others."
+
+- question: "What does the debate between Farmer/Sproat/Witzel and Rao et al. concern, and why does it matter for how we approach the Indus inscriptions?"
+  type: multiple-choice
+  options:
+    - "Whether the Indus civilization was literate at all, or whether the seals were made by outsiders"
+    - "Whether the marks constitute a linguistic writing system at all, or encode administrative/religious symbols without representing spoken language"
+    - "Whether Indus script is related to Sumerian cuneiform or Egyptian hieroglyphics"
+    - "Whether the corpus is large enough to attempt decipherment, or whether more excavation is needed first"
+  answer: 1
+  explanation: "The fundamental question is whether 'decipherment' is even the right goal. Farmer, Sproat, and Witzel argued the marks may be non-linguistic — more like heraldic symbols or administrative tokens — based on sign frequency distributions and the absence of long texts. Rao et al. used entropy analysis to argue the distribution resembles linguistic systems. This matters enormously: if the marks are linguistic, we search for a language and grammar; if they are not, we look for a semiotic system encoding categories, identities, or religious content without representing speech."
+
+- question: "All ancient scripts that have survived in sufficient quantity will eventually be deciphered with enough scholarly effort."
+  type: true-false
+  answer: false
+  explanation: "Decipherment requires either a bilingual text or a known language family to constrain interpretation. If neither exists and no living linguistic tradition descended from the script's language, decipherment may be categorically impossible regardless of how many examples are recovered. The Indus script illustrates this: 4,000+ objects have been found, yet scholars are no closer to consensus. Some scripts remain opaque not from lack of effort but from lack of the comparative framework needed to anchor interpretation. More data helps but cannot substitute for the missing bilingual anchor."
+
+- question: "The Indus civilization's failure to leave readable texts means we can infer little about its social organization from archaeological evidence."
+  type: true-false
+  answer: false
+  explanation: "Archaeological evidence provides substantial evidence about Indus social organization even without readable texts. Standardized weights and measures across hundreds of kilometers suggest centralized or coordinated administration. Planned city layouts with sophisticated drainage imply collective civic management. The absence of large palaces or temples comparable to Mesopotamia suggests a different power structure — possibly merchant-based or more egalitarian. Material remains speak; the Indus civilization is 'silent from the inside' in the sense that we have no names, no laws, no accounts of events — but not silent about physical organization and craft."
+
+- question: "Why does the average inscription length of five signs create a particularly severe obstacle to decipherment, compared to a situation with longer texts?"
+  type: short-answer
+  answer: "Decipherment relies on identifying repeated patterns, grammatical structures, and contextual regularities across many examples. Short inscriptions — likely proper names, titles, or commodity labels — have too few signs to exhibit grammar or narrative structure. Longer texts allowed decipherment of Egyptian hieroglyphics (royal inscriptions, religious texts) and Mayan glyphs (dynastic histories) because researchers could identify recurring phrases, verb forms, and proper names through frequency and context. Five-sign sequences give virtually no statistical leverage: even if you identified a common sign as meaning 'merchant' or 'city,' you could not verify it without longer surrounding context."
+  explanation: "The length problem compounds the other two obstacles. Even if scholars correctly identified the language family and had some comparative vocabulary, five-sign inscriptions provide insufficient context to verify any interpretation. This is why the Farmer/Sproat/Witzel thesis that the marks are non-linguistic is taken seriously: linguistic systems used for administration tend to produce longer texts, and the consistent brevity of Indus inscriptions is unusual for a script being used to record complex administrative or narrative content."
+```
+
 ## Explainer
 
 From your study of ancient writing systems, you know that scripts have been deciphered through one of two pathways: a **bilingual text** pairing the unknown script with a known language (the Rosetta Stone giving Greek alongside hieroglyphics), or a **known language family** allowing reconstruction from internal patterns (Linear B deciphered as Mycenaean Greek because later Greek provided the comparison). You also know the Indus civilization's material sophistication from your study of its urban planning — standardized weights and measures, planned city grids, sophisticated drainage — evidence of a complex society that almost certainly required administrative coordination. The puzzle is why, despite 4,000+ inscribed objects, the script that presumably supported that coordination remains entirely opaque.

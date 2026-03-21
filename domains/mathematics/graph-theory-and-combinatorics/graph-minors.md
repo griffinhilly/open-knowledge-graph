@@ -19,6 +19,45 @@ status: draft
 ## Core Idea
 A graph H is a minor of G if H can be obtained by deleting vertices/edges and contracting edges. Minor-closed families are sets closed under taking minors (e.g., planar graphs, forests, bounded treewidth graphs). The theory of graph minors underpins modern structural graph theory and has led to deep results about decomposition and decidability.
 
+## Questions
+
+```yaml
+- question: "A researcher claims: 'H is a minor of G because I found a copy of H as a subgraph of G.' A colleague objects. What is wrong with the researcher's reasoning?"
+  type: multiple-choice
+  options:
+    - "The reasoning is correct: every subgraph relationship is also a minor relationship, and the two definitions are equivalent"
+    - "The reasoning is too restrictive: H could be a minor of G even if H is not isomorphic to any subgraph of G, because edge contraction can produce graphs that no amount of deletion alone could create from G"
+    - "The reasoning is too broad: a minor relationship requires that H and G share the same vertex set, which a subgraph relationship does not guarantee"
+    - "The reasoning confuses directed and undirected graphs — the minor relationship is only defined for undirected graphs"
+  answer: 1
+  explanation: "While it's true that every subgraph of G is also a minor of G (using only deletions), the converse is false — and this is the key point. Edge contraction merges vertices in a way that deletion cannot, so H can be a minor of G without being isomorphic to any subgraph of G. For example, K₄ is a minor of many sparse graphs where it doesn't appear as a subgraph: find four connected 'blobs' of vertices and contract each blob to a single vertex. The minor relationship is strictly more general than the subgraph relationship precisely because of contraction."
+
+- question: "The Robertson-Seymour theorem guarantees that every minor-closed family of graphs can be characterized by a finite list of forbidden minors. What is the key algorithmic implication of this theorem?"
+  type: multiple-choice
+  options:
+    - "It provides an efficient algorithm for computing all forbidden minors of any given minor-closed family in polynomial time"
+    - "If the forbidden minors of a family can each be recognized in polynomial time, then membership in the family can be decided in polynomial time — producing a meta-theorem that converts any finite forbidden-minor characterization into an efficient algorithm"
+    - "It proves that all graph problems restricted to minor-closed families are in P, regardless of the specific problem"
+    - "It shows that the only minor-closed families relevant to algorithms are planar graphs and forests, since other families have infinitely many forbidden minors"
+  answer: 1
+  explanation: "The theorem's power is as a meta-algorithm generator. Because every minor-closed family has a finite forbidden-minor list, and because testing for a fixed minor H in a graph G can be done in polynomial time (Robertson and Seymour also proved this), membership in any minor-closed family is decidable in polynomial time. This is remarkable: it means that for problems like 'is this graph embeddable on a surface of genus k?' or 'does this graph have treewidth ≤ k?', polynomial-time algorithms are guaranteed to exist — even when we don't know the forbidden minors explicitly."
+
+- question: "Planar graphs form a minor-closed family: any minor of a planar graph is also planar, because edge deletion and contraction cannot introduce new edge crossings into a planar embedding."
+  type: true-false
+  answer: true
+  explanation: "This is the foundational example of a minor-closed family. Deleting a vertex or edge from a planar embedding trivially preserves planarity. Edge contraction — merging two adjacent vertices — also preserves planarity: the merged vertex can be placed in the region shared by the two original vertices, and no new crossings are introduced. Since planarity is preserved under all three minor operations (vertex deletion, edge deletion, edge contraction), planar graphs are closed under taking minors. Wagner's theorem then characterizes this family by its two forbidden minors: K₅ and K₃,₃."
+
+- question: "The Robertson-Seymour theorem tells us the explicit list of forbidden minors for every minor-closed family, including those families whose forbidden minors are currently unknown to researchers."
+  type: true-false
+  answer: false
+  explanation: "The theorem proves existence — every minor-closed family has a finite forbidden-minor list — but it is non-constructive and does not provide an algorithm for finding that list. For many natural minor-closed families (e.g., graphs embeddable on a torus, graphs of treewidth ≤ 4), the complete forbidden-minor list is either unknown or contains so many elements that it is only partially characterized. The theorem guarantees finiteness; it says nothing about what the forbidden minors are or how to find them."
+
+- question: "What is the key difference between a graph minor and a subgraph, and why does edge contraction make the minor relation strictly more powerful? Give an example showing how a minor can differ dramatically from any subgraph."
+  type: short-answer
+  answer: "A subgraph is obtained by deleting vertices and/or edges only — the remaining graph is literally a 'piece' of the original, with the same structure among surviving vertices. A minor adds edge contraction: merging two adjacent vertices into one, with all their edges redirected to the merged vertex. This can radically transform a graph's structure. Example: start with a cycle on 6 vertices (C₆). No subgraph of C₆ is K₃ (a triangle), because C₆ has no triangles and no vertex has degree 3. But by contracting every other edge, you merge pairs of adjacent vertices and obtain C₃ (a triangle) — so K₃ is a minor of C₆ without being a subgraph. More dramatically, K₅ is a minor of many planar-looking graphs: find five large connected subsets that are mutually connected, contract each subset to a single vertex, and K₅ emerges."
+  explanation: "The practical significance is that the minor relation captures 'hidden structure' that the subgraph relation cannot see. When we say a graph has K₃,₃ as a minor, we're saying there is a way to 'see' K₃,₃'s connectivity pattern in the graph after collapsing some of its structure — which is exactly the right notion for characterizing planarity and other topological graph properties."
+```
+
 ## Explainer
 
 You know from graph theory that subgraphs are obtained by removing vertices and edges. **Graph minors** introduce a third operation: **edge contraction**. To contract an edge {u, v}, you merge u and v into a single new vertex w, and every edge that previously connected to u or v now connects to w (deleting any resulting loops or duplicate edges). A graph H is a **minor** of G if H can be obtained from G by any combination of these three operations — deleting vertices, deleting edges, and contracting edges — in any order. Crucially, H doesn't need to look anything like a subgraph of G; contraction lets you "collapse" structure in ways that deletion alone cannot.

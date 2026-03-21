@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Fluid exchange across capillaries follows Starling forces: hydrostatic pressure drives filtration while oncotic pressure opposes it. At the arterial end, hydrostatic pressure exceeds oncotic pressure, promoting filtration; at the venous end, oncotic pressure dominates and fluid is reabsorbed. Lymphatic vessels return excess interstitial fluid, completing the circuit. Disruption of Starling forces leads to edema.
 
+## Questions
+
+```yaml
+- question: "At the arteriolar end of a capillary, hydrostatic pressure is 35 mmHg and plasma oncotic pressure is 25 mmHg. At the venular end, hydrostatic pressure has dropped to 15 mmHg while oncotic pressure remains at 25 mmHg. What is the net direction of fluid movement at each end?"
+  type: multiple-choice
+  options:
+    - "Filtration (outward) at both ends, because blood pressure always exceeds oncotic pressure throughout the capillary"
+    - "Filtration at the arteriolar end (net +10 mmHg outward) and reabsorption at the venular end (net −10 mmHg inward)"
+    - "Reabsorption at the arteriolar end and filtration at the venular end, because high pressure retains fluid"
+    - "No net movement at either end because all Starling forces cancel throughout the capillary"
+  answer: 1
+  explanation: "Net filtration pressure = capillary hydrostatic − plasma oncotic (ignoring the smaller interstitial contributions for this calculation). Arteriolar end: 35 − 25 = +10 mmHg, favoring outward filtration. Venular end: 15 − 25 = −10 mmHg, favoring inward reabsorption. This gradient along the capillary drives the exchange cycle: fluid leaves at the arterial end delivering dissolved nutrients, and returns at the venous end recovering water. Note that overall filtration slightly exceeds reabsorption — the excess ~3 L/day is returned via the lymphatic system."
+
+- question: "A patient with severe liver failure has very low plasma albumin levels. Which form of edema would you predict, and which Starling force is disrupted?"
+  type: multiple-choice
+  options:
+    - "Pulmonary edema from elevated capillary hydrostatic pressure, because the liver regulates arterial blood pressure"
+    - "Peripheral edema from reduced plasma oncotic pressure — with less albumin to retain fluid in vessels, filtration exceeds reabsorption throughout the capillary bed"
+    - "Lymphatic edema from hepatic obstruction of the thoracic duct drainage pathway"
+    - "No edema, because the body compensates by lowering capillary hydrostatic pressure"
+  answer: 1
+  explanation: "Plasma oncotic pressure is generated primarily by albumin, synthesized by the liver. In liver failure, albumin production drops, reducing the oncotic force that opposes filtration and drives reabsorption at the venular end. The Starling balance tips toward net filtration throughout the capillary bed, and fluid accumulates in the interstitium faster than lymphatics can drain it. This is why ascites (peritoneal fluid accumulation) and peripheral edema are classic signs of liver failure. Pulmonary edema (option A) results from elevated capillary hydrostatic pressure — as in left heart failure where venous congestion backs up into pulmonary capillaries, a completely different Starling force."
+
+- question: "The Starling model predicts that filtration at the arteriolar end is exactly balanced by reabsorption at the venular end, leaving no net fluid accumulation in the interstitium under normal conditions."
+  type: true-false
+  answer: false
+  explanation: "In reality, filtration slightly exceeds reabsorption — approximately 3 liters per day of excess fluid accumulates in the interstitial space even under normal physiological conditions. This is why the lymphatic system is essential: lymphatic capillaries collect this excess fluid (now called lymph) along with any leaked plasma proteins and return it to the venous circulation via the thoracic duct. Without lymphatic drainage, even normal capillary function would produce progressive interstitial fluid accumulation. The Starling model describes the forces and their direction along the capillary, but the net balance slightly favors filtration."
+
+- question: "In congestive heart failure, blood backs up in the venous circulation because the failing heart cannot pump it forward efficiently. This elevated venous pressure would be expected to contribute to edema formation."
+  type: true-false
+  answer: true
+  explanation: "Elevated venous pressure transmits backward into the venular end of capillaries, raising capillary hydrostatic pressure throughout the capillary bed. This shifts the Starling balance — filtration increases and reabsorption decreases, producing net fluid accumulation in the interstitium that overwhelms lymphatic capacity. In left heart failure, pulmonary venous pressure rises and pulmonary edema results; in right heart failure or biventricular failure, systemic venous pressure rises and peripheral or abdominal (ascitic) edema results. Each case is the same mechanism: elevated hydrostatic pressure shifting Starling forces toward net filtration."
+
+- question: "Explain the role of plasma oncotic pressure in Starling's model. Why do plasma proteins generate this force while small dissolved solutes do not?"
+  type: short-answer
+  answer: "Plasma oncotic pressure (colloid osmotic pressure) is an osmotic force generated by large plasma proteins — primarily albumin — that are too large to freely cross the capillary wall. Because they are retained inside the vessel while water and small solutes can exit, they create an osmotic gradient that draws water back into the capillary, opposing outward filtration and driving reabsorption at the venular end. Small solutes (glucose, sodium, chloride) do not generate significant oncotic pressure because they equilibrate freely across the capillary wall — they quickly reach the same concentration on both sides and create no lasting osmotic gradient. Only molecules selectively retained on one side of the membrane create an effective osmotic force."
+  explanation: "When plasma protein levels fall — in malnutrition (kwashiorkor), liver disease, or protein-losing nephropathy — oncotic pressure drops and the reabsorptive force is reduced throughout the capillary bed. Net filtration exceeds lymphatic return capacity, producing edema. This distinction between oncotic (colloid) and crystalloid osmotic pressure matters clinically: infusing saline expands volume transiently but distributes throughout extracellular fluid without restoring oncotic pressure, while albumin infusion directly raises the reabsorptive force. The mechanism follows directly from which molecules can and cannot cross the capillary wall."
+```
+
 ## Explainer
 
 You already understand from your work on osmosis and tonicity that water moves across semipermeable membranes toward regions of higher solute concentration. And from capillary filtration and reabsorption, you know that capillary walls allow passage of water and small solutes but retain large plasma proteins. The question now is: what determines how much fluid leaves the blood, how much returns, and what happens when the balance goes wrong?

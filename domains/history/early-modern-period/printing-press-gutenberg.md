@@ -35,6 +35,45 @@ Analyze the quantitative spread of printing houses across Europe between 1450 an
 - Gutenberg did not invent printing — block printing existed in China and Korea centuries earlier. His innovation was a practical system of movable metal type adapted to European languages and conditions.
 - Literacy did not immediately skyrocket — most early print consumers were clergy, scholars, and merchants. Mass literacy was a much longer and uneven process.
 
+## Questions
+
+```yaml
+- question: "Before Gutenberg's press, why was it difficult for theological arguments to spread quickly across Europe even when scholars wanted to engage with them?"
+  type: multiple-choice
+  options:
+    - "Governments actively suppressed all non-official religious texts"
+    - "Manuscript reproduction was so slow and costly that a new text could take years to reach scholars in distant cities through personal correspondence or rare copied manuscripts"
+    - "Latin was not widely understood outside of major cities, limiting the audience for intellectual ideas"
+    - "Paper had not yet reached Europe, limiting writing to expensive parchment that few could afford"
+  answer: 1
+  explanation: "The bottleneck was reproduction, not ideas. A trained scribe could copy only a few pages per day; a single Bible took months of labor and cost roughly a clerk's annual salary. This made books scarce enough that monasteries chained them to reading stands. New ideas circulated slowly through personal correspondence and rare manuscripts. The printing press eliminated this bottleneck by reducing reproduction time by orders of magnitude and cost dramatically — enabling Luther's theses to cross Germany in weeks rather than years."
+
+- question: "What was the most significant structural consequence of the economics of movable-type printing?"
+  type: multiple-choice
+  options:
+    - "It immediately eliminated illiteracy across Europe within a generation"
+    - "It created a market-driven reading public, shifting intellectual participation from a narrow patron-dependent elite to a distributed audience competing for customers"
+    - "It made the Catholic Church institutionally irrelevant within decades of its introduction"
+    - "It primarily benefited government administrators who could now distribute laws and decrees efficiently"
+  answer: 1
+  explanation: "The economic logic was the key structural shift. Scribal manuscripts were commissioned by institutions or the wealthy — production was tied to patronage. Printers competed for customers, which gave them incentives to publish what readers wanted: devotional texts, practical manuals, humanist editions, polemical pamphlets. This created something genuinely new — a reading public of people who had never met but shared common texts and could participate in common intellectual conversations. That infrastructure made the Reformation, Scientific Revolution, and Enlightenment structurally possible."
+
+- question: "Gutenberg's key innovation was not inventing printing, but developing a practical system of durable metal movable type adapted to European languages and conditions."
+  type: true-false
+  answer: true
+  explanation: "Correct. Block printing had existed in East Asia for centuries, and movable type in clay and wood had been attempted in China and Korea. Gutenberg's contribution was practical adaptation: his alloy of lead, tin, and antimony produced type that was durable, precise, and reproduced cleanly at scale. Combined with a modified screw press and oil-based ink, the system worked reliably enough to transform European information production. The invention was engineering, not discovery."
+
+- question: "Widespread mass literacy across Europe followed quickly and directly from the introduction of movable-type printing by 1500."
+  type: true-false
+  answer: false
+  explanation: "Mass literacy was a much longer, uneven process. The early audiences for print were primarily clergy, scholars, and merchants — those who were already literate. By 1500, roughly 20 million books were in circulation, but broad popular literacy required generations of social, educational, and economic change that unfolded unevenly across regions and classes. The printing press democratized access to texts; it did not instantly democratize the ability to read them."
+
+- question: "How did the printing press create structural conditions for the Reformation? Why couldn't Luther's Ninety-Five Theses have spread the same way in a manuscript culture?"
+  type: short-answer
+  answer: "In manuscript culture, a document intended for local academic debate would circulate slowly through hand-copying — reaching only a narrow network of scholars over months or years, giving authorities time to respond and suppress it. The printing press meant that Luther's theses, once printed, could be reproduced by multiple printers simultaneously and circulate across Germany in weeks, then across Europe in months. Authorities couldn't suppress an idea fast enough once print had distributed it widely. The Reformation required not just Luther's theology but the infrastructure to multiply and circulate it faster than suppression could follow."
+  explanation: "The key word is 'structural': the printing press didn't cause the Reformation — Luther's arguments required genuine religious anxiety and existing discontent with church abuses. But it made the Reformation's speed and geographic reach possible. Ideas that previously burned out locally could now sustain distributed movements across political boundaries. This is why the printing press is considered a necessary condition for the Reformation even if not a sufficient one."
+```
+
 ## Explainer
 
 To grasp what Gutenberg's press actually changed, start with what it replaced. A trained scribe could copy perhaps four pages of text per day. A single Bible required months of labor and cost roughly the equivalent of a clerk's annual salary. Books were scarce enough that monastery libraries chained them to reading stands. Knowledge circulated slowly — a new theological argument might take years to reach scholars in different cities, and even then only through personal correspondence or the rare copied manuscript. If you've studied Renaissance humanism, you know that scholars were already hungry for classical texts and new ideas; the bottleneck was not imagination but reproduction.

@@ -29,6 +29,45 @@ Build intuition by starting with a simple parent function (like f(x) = x^2) and 
 - Confusing the order of transformations when multiple are combined.
 - Forgetting that horizontal stretches/compressions also shift asymptotes and key features.
 
+## Questions
+
+```yaml
+- question: "The graph of y = f(x) has a vertex at (0, 4). Where is the vertex on the graph of y = f(x − 3)?"
+  type: multiple-choice
+  options:
+    - "(−3, 4) — the graph shifts left because you're subtracting"
+    - "(3, 4) — the graph shifts right despite the subtraction"
+    - "(0, 1) — subtracting from the input compresses the graph vertically"
+    - "(0, 7) — the vertex moves up by 3"
+  answer: 1
+  explanation: "Replacing x with (x − 3) is an inside change — it modifies the input. To produce the same output the function used to produce at x = 0, you now need x = 3 (so that x − 3 = 0). The entire graph shifts rightward by 3, even though the algebra shows subtraction. This is the central counterintuitive rule: inside changes act opposite to what the algebra suggests."
+
+- question: "The function y = f(2x) is applied to the parent y = f(x). What happens to the graph?"
+  type: multiple-choice
+  options:
+    - "It stretches horizontally by a factor of 2 — multiplying x by 2 spreads the graph out"
+    - "It compresses horizontally by a factor of 2 — the graph is narrowed"
+    - "It stretches vertically by a factor of 2 — multiplying makes outputs larger"
+    - "It shifts rightward by 2 units"
+  answer: 1
+  explanation: "Replacing x with 2x compresses the graph horizontally by a factor of 2 — every feature occurs at half the x-value it used to. A point previously at x = 4 now appears at x = 2 (because 2·2 = 4). Again, the inside change acts opposite to intuition: multiplying by 2 inside makes the graph narrower, not wider. Stretching horizontally would correspond to y = f(x/2)."
+
+- question: "The graph of y = f(x − 4) is the graph of y = f(x) shifted 4 units to the right."
+  type: true-false
+  answer: true
+  explanation: "True. Replacing x with (x − 4) is an inside change that shifts the graph rightward by 4, despite the subtraction. The key: to get f's original output at x = 0, you now need x = 4 (so x − 4 = 0). Every point migrates 4 units to the right. This feels backwards because we're subtracting, but inside changes act opposite to intuition."
+
+- question: "The transformations y = f(x) + 3 and y = f(x + 3) both move the graph upward by 3 units."
+  type: true-false
+  answer: false
+  explanation: "False. y = f(x) + 3 is an outside change — it adds 3 to the output, shifting the graph vertically upward by 3. But y = f(x + 3) is an inside change — it modifies the input, shifting the graph horizontally to the LEFT by 3 (not upward). The two transformations move the graph in completely different directions. Outside changes affect y (act as expected); inside changes affect x (act opposite to intuition)."
+
+- question: "Why do horizontal transformations — like f(x − h) or f(bx) — act opposite to what the algebra seems to suggest?"
+  type: short-answer
+  answer: "Because input changes must be 'undone' to produce the same output. To get the output f used to produce at x = 0, you now need x = h when the argument is (x − h). The graph shifts right (toward larger x) to compensate for the subtraction. Similarly, y = f(bx) compresses rather than stretches because each output now occurs at 1/b of its original x-value."
+  explanation: "The intuition: a transformation applied to the input changes 'where you need to be' to get a given output — not 'what output you get.' Outside transformations directly scale or shift outputs and behave as expected. Inside transformations redefine the input mapping, and the graph moves in the opposite direction of the algebraic operation to compensate."
+```
+
 ## Explainer
 
 You know from function notation that f(x) is a machine: input x, output f(x). Function transformations ask a new question: what happens to the graph if you modify the machine's input or output systematically? The answer is completely mechanical — there is one master formula y = af(b(x − h)) + k, and each parameter controls exactly one type of transformation. Once you can read this formula, you can graph any transformed function quickly by reading off the parameters without recomputing the function from scratch.

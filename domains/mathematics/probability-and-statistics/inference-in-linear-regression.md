@@ -26,6 +26,45 @@ Under standard regression assumptions, regression coefficients are normally dist
 ## How It's Best Learned
 Examine regression output with coefficients, SE, t-statistics, and p-values. Test whether slope differs from zero. Construct confidence intervals for slope and intercept. Compare F-test to t-test for single predictor.
 
+## Questions
+
+```yaml
+- question: "A regression output shows a slope estimate with p < 0.001, suggesting a highly significant predictor. However, the residual plot shows a strong funnel pattern — residuals spread much wider at high fitted values than at low ones. What should you conclude?"
+  type: multiple-choice
+  options:
+    - "The regression is reliable; a significant p-value overrides any concerns about the residual plot"
+    - "The p-value may be misleading because heteroskedasticity distorts standard errors, making inference invalid"
+    - "The funnel pattern is normal and only affects predictions at the extremes, not inference on the slope"
+    - "The solution is to remove the high-leverage points and refit the model"
+  answer: 1
+  explanation: "Heteroskedasticity — non-constant error variance — violates a core regression assumption. The standard error SE(β̂₁) is derived assuming constant variance σ²; if variance grows with fitted values, this formula is wrong, which means the t-statistic and p-value are both wrong. A very small p-value may be inflated by underestimated standard errors, or a real effect may be masked by overestimated errors. Diagnostics are not optional decoration — they determine whether inference is trustworthy at all."
+
+- question: "In a simple linear regression with one predictor, the t-test for the slope yields a p-value of 0.04. What does the F-test for overall model significance return?"
+  type: multiple-choice
+  options:
+    - "0.0016 (= 0.04²), because F = t²"
+    - "0.04 — the same p-value, because F = t² and the F and t tests are equivalent here"
+    - "A different p-value that depends on the residual degrees of freedom"
+    - "Cannot be determined without knowing the number of observations"
+  answer: 1
+  explanation: "For simple linear regression (exactly one predictor), the F-statistic equals the square of the t-statistic for the slope: F = t². But F and t² have the same p-value because the F distribution with (1, n−2) degrees of freedom and the t distribution with n−2 degrees of freedom are related in exactly this way. Both tests answer the same question: does the predictor explain any variance beyond the mean? The F-test becomes distinct from individual t-tests only in multiple regression, where it tests whether *all* predictors are jointly zero."
+
+- question: "The standard error of the slope SE(β̂₁) decreases when the predictor values are more spread out — i.e., when Σ(xᵢ − x̄)² is larger."
+  type: true-false
+  answer: true
+  explanation: "SE(β̂₁) = s / √Σ(xᵢ − x̄)², so larger spread in x (larger Σ(xᵢ − x̄)²) shrinks the standard error and increases precision. Intuitively, if your data spans a wide range of x values, the slope is more tightly estimated because you have more 'leverage' on the line's tilt. If all x values are clustered near x̄, even a small amount of noise can swing the slope dramatically, yielding a large SE."
+
+- question: "In simple linear regression, the F-test for overall model significance and the t-test for the slope test different null hypotheses, which is why they can give different p-values."
+  type: true-false
+  answer: false
+  explanation: "In simple linear regression (one predictor), the F-test and the t-test for the slope test exactly the same null hypothesis — H₀: β₁ = 0 — and always give the same p-value, because F = t². They differ only in multiple regression: there, the F-test jointly tests all slope coefficients simultaneously (H₀: β₁ = β₂ = ⋯ = 0), while each t-test assesses one predictor conditional on the others. For one predictor, the distinction collapses."
+
+- question: "Why does heteroskedasticity (non-constant residual variance) threaten the validity of t-tests and confidence intervals for regression coefficients, even when the slope estimate β̂₁ itself remains unbiased?"
+  type: short-answer
+  answer: "OLS gives an unbiased estimate of β₁ regardless of whether variance is constant — heteroskedasticity does not cause bias in the estimate itself. But the t-statistic is computed as β̂₁ divided by its estimated standard error SE(β̂₁), and SE(β̂₁) is derived assuming errors have the same variance σ² at every x value. When variance is not constant, the formula produces a wrong SE — either too small (making effects look more significant than they are) or too large (masking real effects). Since p-values and confidence intervals are built on SE(β̂₁), they are unreliable whenever the homoskedasticity assumption fails."
+  explanation: "Unbiasedness of β̂₁ and validity of inference are separate properties. Bias concerns the center of the sampling distribution; inference concerns its spread (standard error). Heteroskedasticity corrupts the spread estimate without shifting the center, so estimates can be accurate but their uncertainty can be wrongly characterized."
+```
+
 ## Explainer
 
 In simple linear regression, you fit a line ŷ = β₀ + β₁x to data by ordinary least squares. The estimated coefficients β̂₀ and β̂₁ come from one particular sample — a different sample would give different values. To make statements about the true population relationship, you need to understand the sampling distribution of β̂₁. The model assumes errors εᵢ = yᵢ - (β₀ + β₁xᵢ) are independent with mean zero and constant variance σ². Under these assumptions, the OLS estimators are linear combinations of the y values. Since the y values are the fixed x values plus normal errors, a linear combination of normal random variables is itself normal. This is why **β̂₁ is normally distributed** with mean β₁ (it is unbiased) and variance σ²/Σ(xᵢ - x̄)².

@@ -30,6 +30,45 @@ Identify which phonological processes in a language are driven by markedness (e.
 - Markedness is not universal immutability; marked structures can surface if high-ranked faithfulness constraints protect them.
 - Marked does not mean rare in an absolute sense; it means marked relative to universal phonotactic preferences.
 
+## Questions
+
+```yaml
+- question: "In Language X, a word-initial vowel always acquires a preceding /n/ in surface forms (e.g., /ata/ → [nata], /ima/ → [nima]). Which constraint ranking best explains this epenthesis process?"
+  type: multiple-choice
+  options:
+    - "MAX >> ONSET (faithfulness dominates, so no epenthesis occurs)"
+    - "ONSET >> DEP (markedness dominates faithfulness, forcing onset insertion)"
+    - "NO-CODA >> MAX (coda avoidance forces deletion of the input vowel)"
+    - "DEP >> ONSET (faithfulness prevents insertion, so syllables lack onsets)"
+  answer: 1
+  explanation: "ONSET is a markedness constraint requiring every syllable to have a consonant onset. DEP is a faithfulness constraint penalizing segments in the output that have no input correspondent (i.e., epenthesis). When ONSET outranks DEP, the grammar tolerates epenthesis (adding /n/) to satisfy the onset requirement — the cost of violating faithfulness is worth it to avoid a marked onsetless syllable. When DEP >> ONSET, faithfulness wins and vowel-initial syllables surface intact. This analysis shows how markedness-faithfulness ranking directly predicts phonological processes."
+
+- question: "Language A freely allows word-final consonants; Language B never allows them, deleting any coda consonant in the input. What is the OT constraint ranking difference between these languages?"
+  type: multiple-choice
+  options:
+    - "Language A: NO-CODA >> MAX; Language B: MAX >> NO-CODA"
+    - "Language A: MAX >> NO-CODA; Language B: NO-CODA >> MAX"
+    - "Language A: ONSET >> DEP; Language B: DEP >> ONSET"
+    - "Both languages have the same ranking; they differ in their underlying representations"
+  answer: 1
+  explanation: "NO-CODA is the markedness constraint penalizing coda consonants; MAX is the faithfulness constraint penalizing deletion (input segments with no output correspondent). When MAX outranks NO-CODA (Language A), faithfulness wins and coda consonants are preserved even though they violate a markedness constraint. When NO-CODA outranks MAX (Language B), the grammar prefers to delete the coda rather than surface a marked structure. This exemplifies OT's core claim: languages differ not in which constraints they have, but in how they rank universal constraints."
+
+- question: "A language can have complex coda clusters (a marked structure) if faithfulness constraints outrank the markedness constraints penalizing them."
+  type: true-false
+  answer: true
+  explanation: "Markedness constraints are never 'turned off' in any language — they are always present and always assign violations. What varies is ranking. If a high-ranked faithfulness constraint (like MAX, penalizing deletion) outranks the markedness constraint against complex codas, then the grammar preserves the input consonant cluster even though it violates phonological preferences. This is why marked structures exist in languages at all: faithfulness is the counterweight that allows marked inputs to surface intact."
+
+- question: "Markedness constraints predict that all languages should converge on the same phonological inventory, since the same universal constraints penalize the same structures everywhere."
+  type: true-false
+  answer: false
+  explanation: "Markedness constraints are universal, but their interaction with faithfulness constraints — which vary in ranking across languages — produces cross-linguistic diversity. If markedness alone determined phonology, all languages would indeed have only CV syllables and unmarked sounds. But faithfulness constraints, ranked differently in different grammars, protect different sets of marked inputs from being repaired. The universality is in the constraint set; the diversity is in the ranking. OT predicts that no language invents completely novel processes — they all use the same constraints — but rankings produce different surface typologies."
+
+- question: "Why do phonological changes in languages almost always move toward less marked structures rather than more marked ones?"
+  type: short-answer
+  answer: "In OT, the grammar is constantly pushing toward unmarked structures via markedness constraints. When sound change occurs, it typically reflects a weakening of a faithfulness constraint — the grammar stops protecting some marked input and instead repairs it toward the unmarked output. Since markedness constraints favor simpler, more universally preferred structures (CV syllables, voiceless codas, etc.), the output after faithfulness weakens is always a less marked form. Moving toward more marked structures would require a markedness constraint to be demoted below faithfulness, which is the direction of borrowing or exceptional forms, not regular change."
+  explanation: "This directionality of change is a core empirical prediction of OT with markedness. Languages simplify toward CV syllables, lose complex clusters, devoice final obstruents — these are not random drifts but gradient pressures exerted by markedness constraints that faithfulness constraints were previously suppressing. The asymmetry explains why similar sound changes appear repeatedly across unrelated languages: they are all responding to the same universal markedness pressures."
+```
+
 ## Explainer
 
 You already know, from phonological features and Optimality Theory, that sounds are not atoms — they have internal structure, and some structures are preferred over others cross-linguistically. **Markedness** is the theoretical framework that formalizes this observation: some phonological structures are **marked** (complex, rare, or avoided) and others are **unmarked** (simple, common, preferred). Markedness constraints are OT constraints that penalize marked structures — they push grammars toward simpler, more universally common phonological patterns.

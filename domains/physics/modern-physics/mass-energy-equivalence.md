@@ -31,6 +31,45 @@ Calculate the energy equivalent of small mass changes and compare to chemical ve
 - c² is just a conversion factor with no physical significance — it expresses the genuine energetic content of rest mass.
 - The formula applies only to nuclear processes — it applies to all energy, including chemical bonds (the effect is just too small to measure chemically).
 
+## Questions
+
+```yaml
+- question: "When a log burns completely, the total mass of the carbon dioxide, water vapor, and ash produced is slightly less than the mass of the original wood plus the oxygen consumed. What accounts for this mass difference?"
+  type: multiple-choice
+  options:
+    - "Mass is always conserved in chemical reactions; this effect has never been measured"
+    - "The missing mass was converted to heat and light energy according to E = mc²"
+    - "The ash is less dense than the original wood, reducing measured mass"
+    - "Oxygen atoms are lighter than carbon atoms, lowering the product mass"
+  answer: 1
+  explanation: "E = mc² applies to all energy-releasing reactions, including chemical ones. When wood burns, chemical bonds rearrange to release energy; that energy comes from a tiny decrease in the rest mass of the system. The mass deficit is about 10⁻¹³ kg per joule — far too small to detect with any ordinary balance — but it is real. Option A is a useful approximation in chemistry but is not exactly true: mass-energy equivalence means mass and energy together are conserved, not mass alone."
+
+- question: "A helium-4 nucleus has less mass than the sum of two free protons and two free neutrons. This mass difference is best described as:"
+  type: multiple-choice
+  options:
+    - "An experimental error — mass must be conserved when particles combine"
+    - "The mass defect, representing binding energy that would be required to disassemble the nucleus into free nucleons"
+    - "The kinetic energy of the nucleons moving inside the nucleus"
+    - "The mass of the electrons that were stripped away when helium was ionized"
+  answer: 1
+  explanation: "The mass defect Δm equals the difference between the sum of free nucleon masses and the actual nuclear mass. By E = mc², this corresponds to the binding energy — the energy that would need to be supplied to pull the nucleus apart. For helium-4, this is about 28.3 MeV. The nucleus is lighter because some mass has been permanently converted into the binding energy that holds it together. Option A treats mass as separately conserved, which special relativity shows is incorrect — it is total energy (including rest mass energy) that is conserved."
+
+- question: "E = mc² applies only to nuclear reactions and has no relevance to ordinary chemical processes."
+  type: true-false
+  answer: false
+  explanation: "E = mc² is a universal relationship between mass and energy that applies to every energy-releasing process, including chemical reactions. When hydrogen and oxygen form water, the products have slightly less rest mass than the reactants. The mass deficit is roughly a million times smaller per atom than in nuclear reactions — far below the precision of any chemical balance — but it is real. The formula is not limited to nuclear physics; nuclear reactions simply make the effect large enough to be striking."
+
+- question: "In pair annihilation, a particle and its antiparticle completely convert their rest mass into energy — the only physical process where total mass-to-energy conversion occurs."
+  type: true-false
+  answer: true
+  explanation: "Pair annihilation — for example, an electron meeting a positron — produces two gamma-ray photons carrying energy exactly equal to 2mc² (the combined rest energy of both particles). This is a case of complete mass-to-energy conversion. In nuclear fission and fusion, only the mass defect (a small fraction of total mass) is converted; the bulk of the nucleon rest mass remains. Pair annihilation is routinely observed in particle accelerators and PET scanners, providing direct experimental confirmation of mass-energy equivalence."
+
+- question: "Why does a nuclear reaction release roughly a million times more energy per atom than a chemical reaction, even though both are governed by E = mc²?"
+  type: short-answer
+  answer: "Both chemical and nuclear reactions release energy as mass defects, but the binding energies involved are on completely different scales. Chemical reactions rearrange electron bonds, with energy changes on the order of a few eV per atom and correspondingly tiny mass defects. Nuclear reactions rearrange or break apart nucleons bound by the strong nuclear force, with binding energies of millions of eV (MeV) per nucleon. The strong force operates at much shorter range and higher energy scale than electromagnetic bonds, so the fractional mass change per reaction is about a million times larger."
+  explanation: "E = mc² doesn't guarantee large energy release — it just says whatever energy is released corresponds to a proportional mass decrease. Nuclear reactions happen to operate at an energy scale ~10⁶ times higher than chemical reactions because the strong nuclear force vastly exceeds the electromagnetic forces governing chemistry."
+```
+
 ## Explainer
 
 From your prerequisite on relativistic momentum and energy, you know that the total energy of a moving particle is E = γmc², where γ = 1/√(1 - v²/c²). When the particle is at rest (v = 0, γ = 1), this reduces to E₀ = mc². This is the **rest energy** — the energy a body possesses simply by virtue of having mass, even when it is completely still. The c² factor is enormous (≈ 9 × 10¹⁶ J/kg), which means even a tiny amount of mass corresponds to a vast amount of energy. One kilogram of mass-energy, if fully released, would yield roughly 9 × 10¹⁶ joules — equivalent to roughly 20 megatons of TNT.

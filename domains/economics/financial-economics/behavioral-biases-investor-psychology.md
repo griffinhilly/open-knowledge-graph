@@ -24,6 +24,45 @@ Investors exhibit systematic biases: loss aversion (fear losses more than gains)
 ## How It's Best Learned
 Document examples of bias-driven trading (e.g., IPO bubbles, market crashes). Compare returns of contrarian strategies (betting against biases) to market indices over long horizons.
 
+## Questions
+
+```yaml
+- question: "An investor holds a stock that has dropped 35% since purchase. Loss aversion predicts the investor will most likely:"
+  type: multiple-choice
+  options:
+    - "Sell immediately to stop further losses — cutting losses is the rational response to bad news"
+    - "Hold the position to avoid realizing the loss psychologically, even if selling is the better financial decision"
+    - "Double down by buying more shares, since the stock is now 'on sale'"
+    - "Consult an advisor before acting, since loss aversion suppresses impulsive behavior"
+  answer: 1
+  explanation: "Loss aversion creates the disposition effect: investors hold losers too long to avoid the psychological pain of realizing a loss. The loss only feels 'real' once it is locked in by selling, so investors hold deteriorating positions hoping for a recovery. This is the *opposite* of tax-optimal behavior — a rational investor should harvest losses for tax benefits. Option A sounds like discipline, but empirically the biased investor does the opposite: they hold losers and sell winners. Option C (doubling down) is also observed but reflects a different mechanism — averaging-down to lower the reference price."
+
+- question: "Studies find that the most active individual investors substantially underperform the least active ones, net of transaction costs. Which behavioral bias most directly explains this?"
+  type: multiple-choice
+  options:
+    - "Loss aversion — active traders set tight stop-losses and exit winning positions too early"
+    - "Anchoring — frequent traders update their reference prices constantly, creating poor entry and exit decisions"
+    - "Overconfidence — traders believe their private information is more valuable and precise than it actually is, leading them to trade excessively"
+    - "Herding — active traders follow the crowd, buying high and selling low with the market"
+  answer: 2
+  explanation: "Overconfidence directly predicts excessive trading: if you believe your information gives you an edge, you trade on it. But in a competitive market, for every trade that makes money, a counterparty loses — and after transaction costs, the average active trader must underperform. Barber and Odean showed this empirically: the highest-turnover quintile underperformed the lowest-turnover quintile by roughly 7% annually. Loss aversion (A) actually discourages some selling — it's a hold bias, not a trading bias. Herding (D) can generate excess volume but is primarily a different mechanism."
+
+- question: "The disposition effect — holding losing stocks and selling winning ones — is the opposite of tax-optimal investing behavior."
+  type: true-false
+  answer: true
+  explanation: "A tax-aware rational investor should harvest losses (sell losers to realize tax deductions) and let winners run (defer capital gains taxes). The disposition effect, driven by loss aversion, systematically reverses this: investors sell winners (locking in gains before they disappear) and hold losers (avoiding the psychological pain of realizing a loss). This means biased investors voluntarily pay more taxes and earn worse risk-adjusted returns than they otherwise would — a double cost of the bias."
+
+- question: "Herding among professional fund managers is primarily driven by superior information cascades — managers observe peers' trades and correctly infer that the crowd has better information."
+  type: true-false
+  answer: false
+  explanation: "While information cascades can theoretically justify rational herding, the dominant mechanism among professional fund managers is *career risk*, not information. A manager who deviates from the benchmark faces professional embarrassment if they underperform; holding the same stocks as peers means you can't be singled out for a bad call. This is intentional herding driven by incentives, not information. It amplifies momentum and can generate bubbles because managers cluster around the benchmark regardless of their private fundamental analysis. The outcome — correlated positions — looks like information-sharing but is actually defensive mimicry."
+
+- question: "Why can both contrarian strategies (buying last year's losers) and momentum strategies (buying last year's winners) earn positive returns, even though they seem to contradict each other?"
+  type: short-answer
+  answer: "The two strategies operate at different time horizons and exploit different biases. Momentum works over short horizons (3–12 months): overconfidence and herding amplify price trends as investors pile into recent winners, creating persistent short-term drift. Contrarian strategies work over long horizons (3–5 years): loss aversion and anchoring cause investors to underreact to bad news and hold losers too long, but eventually prices mean-revert as fundamentals reassert. The biases that generate short-term momentum are different from those that create long-term reversals, so both strategies can simultaneously exploit behavioral inefficiencies at their respective time scales."
+  explanation: "This apparent paradox dissolves once you recognize that behavioral biases operate at different frequencies. The short-term world is dominated by trend-following and overconfidence; the long-term world corrects the errors those biases create. Both strategies require discipline to execute precisely when the biases are strongest — momentum requires buying what has just gone up (feels uncomfortable), while contrarian investing requires buying what everyone is fleeing (even more uncomfortable)."
+```
+
 ## Explainer
 
 From behavioral finance you already know that real investors systematically deviate from the rational expected-utility maximizer assumed in classical finance theory. The four major biases covered here — loss aversion, overconfidence, herding, and anchoring — each have a distinct psychological mechanism, a distinct empirical signature in markets, and different implications for how persistent the resulting pricing errors might be.

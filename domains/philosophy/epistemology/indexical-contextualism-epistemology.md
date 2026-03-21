@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Contextualism treats knowledge ascriptions as context-indexed: the truth value of 'S knows that P' depends on standards of knowledge relevant in the speaker's context, not the subject's context. Knowledge-denials and knowledge-attributions can both be true when different conversational standards are operative, explaining apparent disagreements about knowledge without relativism.
 
+## Questions
+
+```yaml
+- question: "A philosopher in a seminar raises skeptical possibilities about Hannah's car, then says 'Hannah doesn't know her car is in the lot.' Hannah's friend, outside the seminar, says 'Of course Hannah knows where her car is.' According to indexical contextualism, which of the following is correct?"
+  type: multiple-choice
+  options:
+    - "Hannah's friend is simply wrong — the philosopher's higher standards are objectively correct and override ordinary claims"
+    - "Both are making errors because knowledge is an all-or-nothing matter unaffected by conversational context"
+    - "Both utterances can be true simultaneously, because 'knows' picks up different epistemic standards from each speaker's context"
+    - "The dispute is merely verbal and has no substantive content about Hannah's epistemic state"
+  answer: 2
+  explanation: "The indexical contextualist's key move is that 'knows' shifts its standard with the speaker's context, just as 'I' shifts its referent. In the philosophical seminar, high standards are operative; outside it, low standards are operative. Each speaker's utterance is evaluated against their own context — both can be true because they express different propositions. This explains apparent disagreement without ruling anyone wrong and without collapsing into relativism."
+
+- question: "What is the crucial feature that makes indexical contextualism specifically *indexical* rather than merely a form of relativism about knowledge?"
+  type: multiple-choice
+  options:
+    - "Indexical contextualism holds that knowledge claims are always false, since standards vary"
+    - "Indexical contextualism preserves objective truth conditions for each context — the sentence expresses a fixed proposition in each context, with a determinate truth value"
+    - "Indexical contextualism holds that the subject's context, not the speaker's, determines the knowledge standard"
+    - "Indexical contextualism avoids relativism by denying that context affects the meaning of 'knows'"
+  answer: 1
+  explanation: "The indexical model preserves objectivity: in context C1, 'S knows P' expresses the determinate proposition 'S meets standard-1 for P' — which is either true or false. In context C2, it expresses a different proposition — also with a fixed truth value. What varies is which proposition is expressed, not whether propositions have truth values. Simple relativism would say truth itself varies with context; indexical contextualism says which proposition is expressed varies, while each proposition has objective truth conditions."
+
+- question: "On the indexical contextualist view, the truth of 'S knows that P' is determined by the epistemic standards operative in the *speaker's* context, not the subject's context."
+  type: true-false
+  answer: true
+  explanation: "This is the defining structural feature of indexical contextualism. Just as 'I' refers to whoever is speaking (not whoever is being discussed), 'knows' picks up standards from the conversational context of the attributor. When you say 'Hannah knows X,' your context — your current conversational standards — determines whether that attribution is true, not Hannah's situation. This is what enables the dissolution of skeptical puzzles: the skeptic operates in a high-standard context; ordinary speakers operate in a low-standard context."
+
+- question: "Indexical contextualism is a form of relativism because whether 'S knows P' is true depends on who is speaking, making truth relative to individuals."
+  type: true-false
+  answer: false
+  explanation: "Indexical contextualism is specifically designed to avoid relativism. On the indexical model, 'S knows P' expresses a fully determinate proposition in any given context — one with a fixed, objective truth value. What differs across contexts is which proposition gets expressed. Compare: 'I am here' is not relativistic — it expresses a specific, objectively true or false proposition whenever uttered. The truth-conditions are context-indexed, but each indexed proposition is either true or false without further qualification."
+
+- question: "Why does the indexical contextualist locate the relevant epistemic standards in the *speaker's* context rather than the *subject's* context? What problem would arise if it were the subject's context instead?"
+  type: short-answer
+  answer: "If standards were fixed by the subject's context, then raising skeptical possibilities in a seminar would never produce true knowledge-denials — because the subject (Hannah) is not in the seminar and her context remains unchanged. The skeptic's argument would always fail as a conversation-starter, which seems wrong: philosophers can genuinely shift what it takes to count as knowledge by introducing new considerations. Locating standards in the speaker's context also matches the indexical parallel: 'I' refers to the speaker, not the person being discussed."
+  explanation: "Subject-sensitive invariantism (a competitor view) does locate standards partly in the subject's context — specifically in what's at stake for the subject. The debate between these views is active. Contextualism's advantage is that it explains why the same knowledge claim sounds true to Hannah's friend and false to the philosopher, without requiring that Hannah's epistemic situation has actually changed during the seminar."
+```
+
 ## Explainer
 
 You know from your work on **indexicals** that some expressions get their reference fixed by the context of utterance rather than by a fixed meaning. "I" always refers to the speaker; "here" always refers to the location of utterance; "now" always refers to the time of utterance. The expression is constant but its referent shifts with who speaks, where, and when. **Indexical contextualism** applies exactly this model to knowledge ascriptions: "knows" is treated as a kind of indexical whose semantic content — specifically, the standard of justification it invokes — shifts with the context of the person doing the attributing.

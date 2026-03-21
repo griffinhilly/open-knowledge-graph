@@ -29,6 +29,45 @@ Isolate and characterize spliceosome assembly intermediates; measure splicing ki
 ## Common Misconceptions
 - The spliceosome cleaves snRNAs to catalyze splicing; snRNAs are the catalytic engine and intact throughout. - Alternative splicing is rare; it occurs in >90% of human genes.
 
+## Questions
+
+```yaml
+- question: "A researcher observes that a particular cassette exon is included in mRNA from muscle cells but skipped in mRNA from neurons, even though both cell types have identical genomic DNA. What is the most likely explanation?"
+  type: multiple-choice
+  options:
+    - "Muscle cells have a different promoter that produces a longer pre-mRNA including the exon"
+    - "The spliceosome is inactive in neurons for this gene"
+    - "Muscle cells and neurons express different ratios of SR proteins (which promote exon inclusion) and hnRNP proteins (which promote exon skipping), shifting the regulatory tug-of-war at splicing enhancer and silencer sequences"
+    - "Post-translational modification of the protein determines which exon is included"
+  answer: 2
+  explanation: "Alternative splicing is regulated by a competition between splicing enhancers (bound by SR proteins that promote exon inclusion) and splicing silencers (bound by hnRNP proteins that promote exon skipping). Different cell types express different levels of these regulatory proteins, so the outcome of the tug-of-war differs even though the pre-mRNA sequence is identical. This is how one gene produces a muscle-specific isoform and a neuron-specific isoform. The regulatory code is in the RNA sequence; the cell-type specificity comes from which proteins are available to read it."
+
+- question: "What component of the spliceosome actually catalyzes the two transesterification reactions that remove introns and join exons?"
+  type: multiple-choice
+  options:
+    - "The protein components of the snRNPs, particularly the large proteins of U5"
+    - "The RNA components — the snRNAs — making the spliceosome a ribozyme"
+    - "RNA polymerase II, which remains associated with the pre-mRNA throughout splicing"
+    - "Specialized protein endonucleases recruited after the spliceosome assembles"
+  answer: 1
+  explanation: "The spliceosome is a ribozyme — its RNA components, not its protein components, perform the catalysis. After extensive rearrangements displace U1 and U4, the remaining U2 and U6 snRNAs base-pair to form the catalytic core. This makes the spliceosome analogous to other catalytic RNAs like ribozymes, reinforcing the RNA World hypothesis that RNA predates proteins as a catalytic molecule. The many proteins in the spliceosome are important for assembly, fidelity, and regulation, but the chemistry is RNA-driven."
+
+- question: "Alternative splicing is a rare regulatory mechanism that affects only a small fraction of human protein-coding genes."
+  type: true-false
+  answer: false
+  explanation: "Alternative splicing affects more than 90% of human multi-exon genes. This is how approximately 20,000 protein-coding genes produce over 100,000 distinct proteins — alternative splicing dramatically expands proteomic diversity without requiring additional genes. Far from being a rare exception, alternative splicing is the rule for human gene expression. This is why mutations in splice sites or splicing regulatory elements are a significant source of human genetic disease."
+
+- question: "The rate at which RNA polymerase II transcribes through a region can influence which alternative splice sites are recognized and used."
+  type: true-false
+  answer: true
+  explanation: "This is the key consequence of co-transcriptional splicing. Because the spliceosome assembles on the pre-mRNA while Pol II is still elongating, there is a kinetic competition: weak splice sites need time to be recognized before the spliceosome moves on. A slow-transcribing Pol II gives weak sites more time to be recognized, promoting their use; a fast Pol II may transcribe past a weak site before it can be captured, causing it to be skipped. Pol II speed is itself regulated — for example, pausing at exon-intron boundaries can influence splicing outcomes."
+
+- question: "Explain why the coupling of splicing to transcription — via the Pol II CTD recruiting splicing factors — has functional consequences for which splice sites are used."
+  type: short-answer
+  answer: "Because the spliceosome assembles on the pre-mRNA while Pol II is still elongating, there is a kinetic race between splice site recognition and the arrival of the next downstream sequence. Weak splice sites (those with poor matches to the consensus sequence) require more time to be recognized. If Pol II moves slowly, these weak sites have time to be captured; if Pol II moves fast, the emerging transcript may reach the next splice site before the weak one is recognized, causing it to be skipped. The Pol II CTD also physically concentrates splicing factors at the site of transcription, so transcription speed and splicing factor availability jointly determine which alternative splice pattern wins."
+  explanation: "Co-transcriptional splicing turns transcription speed into a splicing regulatory parameter. This is why mutations that alter Pol II pausing or elongation rate can change splicing patterns even when the pre-mRNA sequence is unchanged. The CTD coupling ensures that transcription and splicing are not independent processes — they are mechanistically linked, with the Pol II CTD acting as a scaffold that coordinates which splicing factors are available at which moment in the elongation cycle."
+```
+
 ## Explainer
 
 From your study of RNA splicing mechanisms, you understand that eukaryotic pre-mRNA contains introns that must be removed and exons that must be joined before the mRNA can be translated. The **spliceosome** is the molecular machine that performs this task — and it is one of the most complex and dynamic assemblies in the cell, rivaling the ribosome in size and sophistication.

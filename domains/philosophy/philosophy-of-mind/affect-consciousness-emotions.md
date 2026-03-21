@@ -34,6 +34,45 @@ Examine theories of emotion (appraisal, simulation). Consider whether emotions a
 - Thinking emotions lack representational content.
 - Confusing affective tone with emotional evaluation.
 
+## Questions
+
+```yaml
+- question: "According to appraisal theory, why does fear have the phenomenal character it does?"
+  type: multiple-choice
+  options:
+    - "Because of the physiological cascade — elevated heart rate, adrenaline — that constitutes the fear state"
+    - "Because fear represents the world as threatening, and its phenomenal character follows from this evaluative appraisal"
+    - "Because fear evolved as a survival mechanism and its 'feel' tracks its biological function"
+    - "Because 'fear' is a cultural label applied to free-floating physiological arousal"
+  answer: 1
+  explanation: "Appraisal theories tie emotional phenomenology directly to representational content. Fear feels the way it does because it is a response to an appraised threat — its intentional content (the world is dangerous) determines its phenomenal character. This contrasts with James-Lange theory, which holds that the phenomenal character is constituted by bodily perception rather than a prior cognitive appraisal."
+
+- question: "A person feels intense fear while watching a horror film, knowing the threat is fictional. Appraisal theory would describe this as:"
+  type: multiple-choice
+  options:
+    - "The James-Lange reversal in action — noticing bodily responses and labeling them as fear"
+    - "A straightforward emotional response that requires no special explanation"
+    - "A case of emotional misrepresentation — the appraisal represents a threat that is not actually present"
+    - "Evidence that emotions are purely behavioral dispositions without genuine intentional content"
+  answer: 2
+  explanation: "Appraisal theory predicts fear as a response to perceived threat. A mismatch between reflective belief (no real danger) and affective appraisal (threatening) produces misrepresentational content — the emotion represents something that isn't there, analogously to a perceptual illusion. This case is philosophically important because it shows emotions can have intentional content that is false, just as beliefs can."
+
+- question: "On the James-Lange theory, the experience of fear causes the bodily response (running, elevated heart rate)."
+  type: true-false
+  answer: false
+  explanation: "James-Lange theory inverts the intuitive causal order. We do not run because we are afraid — we notice ourselves running (and experiencing the accompanying physiological cascade) and that perception constitutes the fear. The phenomenal character of fear is constituted by the perception of bodily states, not by a prior cognitive appraisal that then triggers the body."
+
+- question: "Affective tone — a diffuse background sense of wellbeing or unease without a specific intentional object — may present a harder version of the explanatory gap than fully formed emotions do."
+  type: true-false
+  answer: true
+  explanation: "Full emotions have intentional content (they are about something) that can in principle be analyzed functionally. Affective tone — the bare pleasantness or unpleasantness of experience — seems particularly resistant to functional or representational analysis. Why should any physical process feel good rather than merely triggering approach behavior? The valence dimension of affect may be where the gap between physical processes and subjective experience is most difficult to close."
+
+- question: "Explain how emotions involve both phenomenal character and intentionality, and why this combination creates philosophical difficulties that purely cognitive models do not face."
+  type: short-answer
+  answer: "Emotions have phenomenal character — there is something it is like to be afraid or joyful — and are also directed (fear is fear of something, not free-floating). A purely cognitive model can represent threat without any experiential quality; the question is whether emotional phenomenology is fully explained by this representational content (as appraisal theory maintains) or whether there is an additional layer of raw affect not captured by what the emotion represents. This is a version of the hard problem of consciousness specific to valenced, directed experience — combining intentionality with felt quality in a way that resists reduction to either alone."
+  explanation: "The puzzle is not just about having feelings but about why intentional content generates a specific phenomenal character, and whether the two are really one thing or two."
+```
+
 ## Explainer
 
 Emotions seem like the clearest example of conscious experience — fear feels like something, grief has a distinctive phenomenal character, joy colors our perception of everything. Yet when philosophy of mind focuses on consciousness, it usually reaches for perceptual examples: seeing red, experiencing pain. Affective consciousness shows that the problems of consciousness become even more layered when we turn to emotions, because emotions combine at least three distinct features that can come apart: phenomenal character, intentional content, and behavioral disposition.

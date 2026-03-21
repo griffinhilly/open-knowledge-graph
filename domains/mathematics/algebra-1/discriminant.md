@@ -30,6 +30,45 @@ Compute the discriminant for several quadratics, predict the number of solutions
 - Thinking D = 0 means "no solution" instead of "one repeated solution."
 - Confusing "no real solutions" with "no solutions at all" — complex solutions exist but are beyond algebra 1.
 
+## Questions
+
+```yaml
+- question: "A ball is launched upward. Its height in meters at time t is h(t) = −4t² + 16t + 5. An engineer wants to know if the ball ever reaches 25 meters. Setting h(t) = 25 gives 4t² − 16t + 20 = 0. What does the discriminant tell the engineer?"
+  type: multiple-choice
+  options:
+    - "D = (16)² − 4(4)(20) = 256 − 320 = −64; the ball never reaches 25 meters — no real solution exists"
+    - "D = 16² + 4(4)(20) = 576; the ball reaches 25 meters at two times"
+    - "D = (−4)² − 4(16)(20) = −1264; the setup equation must be wrong"
+    - "More information is needed — the discriminant counts solutions but cannot determine if the height is achievable"
+  answer: 0
+  explanation: "Computing D = b² − 4ac = (−16)² − 4(4)(20) = 256 − 320 = −64. Since D < 0, there is no real time when the ball reaches 25 meters. This is the discriminant's practical power: a single calculation settles the existence question without solving the full equation. Option B incorrectly adds instead of subtracting 4ac — a common arithmetic error that produces a positive discriminant and a false positive answer."
+
+- question: "For the quadratic 9x² − 12x + 4 = 0, the discriminant is (−12)² − 4(9)(4) = 144 − 144 = 0. What does this tell us about the solutions?"
+  type: multiple-choice
+  options:
+    - "There are no real solutions — a zero discriminant means no output"
+    - "There are two distinct real solutions, one positive and one negative"
+    - "There is exactly one real solution, a repeated root at x = −b/2a = 2/3"
+    - "There are two complex solutions that cancel each other out"
+  answer: 2
+  explanation: "D = 0 means the ± in the quadratic formula contributes nothing: both solutions collapse to x = −b/2a = 12/18 = 2/3. This is a repeated root, not zero solutions. Geometrically, the parabola's vertex sits exactly on the x-axis and touches it at one point. Option A is the most common error: confusing 'discriminant equals zero' with 'no solution.' Zero solutions corresponds to D < 0, not D = 0."
+
+- question: "If the discriminant of a quadratic is positive but not a perfect square, the quadratic cannot be factored over the integers and the solutions are irrational."
+  type: true-false
+  answer: true
+  explanation: "A perfect-square discriminant (like 9, 25, 100) yields rational solutions — the square root simplifies, and the quadratic factors nicely over the integers. A positive but non-perfect-square discriminant (like 5, 7, 11) produces an irreducible square root, giving irrational solutions. This means integer factoring is impossible, and the quadratic formula is the only path to exact answers. The discriminant thus tells you not just how many solutions exist, but what kind."
+
+- question: "A discriminant of zero means the quadratic equation has no real solution."
+  type: true-false
+  answer: false
+  explanation: "This is the most persistent misconception about the discriminant. D = 0 means exactly one real solution (a repeated root), where the formula gives x = −b/2a. Geometrically, the parabola's vertex touches the x-axis at exactly one point — not zero. 'No real solution' corresponds to D < 0, where the parabola floats above or below the x-axis without intersecting it. Confusing D = 0 with 'no solution' is a very common exam error."
+
+- question: "Explain the geometric meaning of the discriminant. How does each of the three cases (D > 0, D = 0, D < 0) correspond to the graph of y = ax² + bx + c?"
+  type: short-answer
+  answer: "The solutions of ax² + bx + c = 0 are the x-intercepts of y = ax² + bx + c. D > 0 means two distinct real solutions — the parabola crosses the x-axis at two points. D = 0 means one repeated solution — the parabola's vertex touches the x-axis at exactly one point. D < 0 means no real solutions — the parabola is entirely above or entirely below the x-axis and never intersects it."
+  explanation: "The geometric interpretation connects algebra to the graph in a direct way: the discriminant doesn't just predict the number of solutions abstractly, it tells you the visual relationship between the parabola and the x-axis. This also explains why D < 0 produces complex (not real) solutions: to find where a parabola that misses the x-axis 'would' intersect it, you need to extend to complex numbers."
+```
+
 ## Explainer
 
 You already know the quadratic formula: x = (−b ± √(b² − 4ac)) / 2a. The **discriminant** is simply the expression under the square root, D = b² − 4ac. The reason it deserves its own name is that it single-handedly determines the nature of the solutions before you do any division or subtraction. It is a diagnostic tool built into the formula.

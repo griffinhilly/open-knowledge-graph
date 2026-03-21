@@ -29,6 +29,45 @@ Open both a checking and a savings account (many banks and credit unions offer f
 - Money in a savings account grows significantly — standard savings account interest rates are often below 1%, though high-yield savings accounts at online banks can offer substantially more.
 - A debit card and a credit card work the same way — a debit card pulls directly from your checking balance (no borrowing), while a credit card extends a loan that must be repaid, and the two carry very different fraud protections.
 
+## Questions
+
+```yaml
+- question: "A friend says 'I just put it on my debit card.' What happened to their bank account when they made the purchase?"
+  type: multiple-choice
+  options:
+    - "Nothing yet — the amount will be billed at the end of the month"
+    - "The purchase amount was immediately deducted from their checking balance"
+    - "The bank extended them a short-term loan for the amount"
+    - "The amount will be deducted when they next log into mobile banking"
+  answer: 1
+  explanation: "Debit cards pull directly from your checking account balance in real time. Unlike a credit card, which bills you later and extends a loan you must repay, a debit transaction draws from your own money. Options A and C describe how a credit card works — the most common source of confusion between the two."
+
+- question: "Your bank unexpectedly fails with $180,000 in your account. What most likely happens to your money?"
+  type: multiple-choice
+  options:
+    - "You lose your money — deposits are not guaranteed"
+    - "The bank's shareholders are required to pay back depositors"
+    - "FDIC insurance covers your full balance since it is below $250,000"
+    - "You recover your money within 10 years through federal courts"
+  answer: 2
+  explanation: "FDIC (Federal Deposit Insurance Corporation) insures each depositor up to $250,000 per bank. A $180,000 balance is fully covered — you receive the full amount even if the bank fails. This federal guarantee is why bank deposits are categorically safer than keeping cash at home, and why comparing FDIC member banks is important when choosing where to save."
+
+- question: "Keeping a checking account buffer of $100–200 above your expected expenses is unnecessary if you have overdraft protection."
+  type: true-false
+  answer: false
+  explanation: "Even with overdraft protection, banks typically charge $25–35 per overdraft event. Maintaining a buffer prevents these fees from accumulating and is the cheapest, simplest defense. Overdraft protection is a backstop for genuine emergencies, not a substitute for maintaining a cushion."
+
+- question: "FDIC insurance means your money is protected even if the bank completely fails."
+  type: true-false
+  answer: true
+  explanation: "FDIC is a U.S. government guarantee — not a bank promise. Up to $250,000 per depositor per institution is federally backed regardless of what happens to the bank. This is one of the most important protections in personal finance and a core reason why banking your money is fundamentally safer than holding cash."
+
+- question: "Why do financial advisors recommend keeping separate checking and savings accounts rather than using a single account for everything?"
+  type: short-answer
+  answer: "The separation creates functional friction that protects savings. A checking account is a transaction account — money flows through it constantly (income in, expenses out). A savings account is a storage account — money sits there until deliberately moved. Mixing them risks accidentally spending money earmarked for savings, and obscures your true 'available to spend' balance."
+  explanation: "This separation is behavioral as much as financial. When savings are in a separate account, spending them requires a deliberate transfer — an extra step that filters out impulse decisions. It also makes it easier to track whether you're actually saving month to month, since your checking balance reflects only your spending money."
+```
+
 ## Explainer
 
 From your work building a personal budget, you know where your money needs to go each month. A bank account is the infrastructure that makes those flows happen reliably. The key distinction to internalize is functional: a **checking account** is a transaction account — money flows through it constantly (income in, bills and purchases out). A **savings account** is a storage account — money sits there until you deliberately move it. You should not use your savings account for everyday spending, because the separation creates a natural friction that protects your savings from accidental erosion.

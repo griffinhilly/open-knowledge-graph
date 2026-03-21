@@ -31,6 +31,45 @@ Use model membranes (liposomes) to study fluidity and permeability. Observe memb
 ## Common Misconceptions
 The membrane is solid—it is fluid at physiological temperature. Proteins float freely—many are anchored to the cytoskeleton. Cholesterol always reduces fluidity—it actually maintains optimal fluidity across temperature ranges.
 
+## Questions
+
+```yaml
+- question: "A mammalian cell is suddenly cooled to near 4°C. What role does cholesterol play in maintaining membrane function at this temperature?"
+  type: multiple-choice
+  options:
+    - "Cholesterol increases fluidity by displacing phospholipids, creating more space for lipid movement."
+    - "Cholesterol has no effect at low temperatures; the cell relies entirely on unsaturated fatty acids to prevent membrane solidification."
+    - "Cholesterol intercalates between phospholipid tails and disrupts the regular packing that would otherwise cause the membrane to solidify into a gel state."
+    - "Cholesterol reduces fluidity at all temperatures, which actually protects the cell by stabilizing the membrane during cold stress."
+  answer: 2
+  explanation: "Cholesterol acts as a bidirectional fluidity buffer. At physiological temperatures, it slightly reduces fluidity by restricting phospholipid tail movement. But at low temperatures, it disrupts the regular packing of saturated phospholipid tails that would cause the membrane to gel — it prevents solidification. The net effect is to maintain the membrane in its functional liquid-crystalline state across a wider temperature range. This is why animal cells contain up to 50% cholesterol in their membranes. The common claim that 'cholesterol reduces fluidity' is only partially correct."
+
+- question: "A researcher tracks individual membrane proteins with fluorescent tags and finds that some diffuse freely across the cell surface while others are essentially immobile or confined to small domains. What best explains the immobile population?"
+  type: multiple-choice
+  options:
+    - "The immobile proteins are embedded too deeply in the hydrophobic core to move laterally."
+    - "The immobile proteins are tethered to the underlying cytoskeleton (particularly cortical actin), which anchors them in place."
+    - "The immobile proteins have formed covalent bonds with neighboring phospholipids, preventing movement."
+    - "The immobile proteins are located in rigid lipid rafts where the gel phase permanently stops all lateral diffusion."
+  answer: 1
+  explanation: "Many membrane proteins are not free-floating in the lipid sea — they are anchored to the cortical actin cytoskeleton beneath the membrane. These tethers create organized domains, confine proteins to specific membrane regions, and restrict lateral diffusion. This cytoskeletal control is what makes the membrane 'structured enough to be functional' — it allows polarized domains and signaling clusters to exist within the same fluid bilayer. The fluid mosaic model does not imply all proteins diffuse freely; cytoskeletal tethering is a key feature of actual membrane organization."
+
+- question: "Introducing more unsaturated fatty acids into a membrane's phospholipid tails increases membrane fluidity because the double bonds create kinks that prevent tight packing of adjacent lipid tails."
+  type: true-false
+  answer: true
+  explanation: "Double bonds in unsaturated fatty acid tails introduce geometric kinks (cis configuration) that prevent adjacent lipid tails from packing closely together. Looser packing means the tails move more freely, increasing lateral diffusion rates and lowering the temperature at which the membrane transitions to a gel. Bacteria that lack cholesterol use this mechanism to regulate fluidity in response to temperature — increasing unsaturated fatty acid content when cold to prevent membrane solidification."
+
+- question: "Cholesterol reduces membrane fluidity at all temperatures, making it a liability for cells that must function across variable temperature ranges."
+  type: true-false
+  answer: false
+  explanation: "Cholesterol's effect is temperature-dependent: at physiological temperatures it modestly reduces fluidity; at low temperatures it prevents the membrane from solidifying. This buffering effect is precisely why cholesterol maintains the membrane in its functional liquid-crystalline state across a wider temperature range. Rather than being a liability, cholesterol is what allows animal cells to maintain membrane function despite temperature fluctuations — animal cells contain up to 50% membrane cholesterol for this reason."
+
+- question: "Why is membrane fluidity essential for cell function, rather than being simply a structural byproduct of lipid chemistry?"
+  type: short-answer
+  answer: "Fluidity enables three critical functions: (1) membranes can reseal rapidly after puncture because lipids flow back to close gaps; (2) proteins can cluster dynamically at signaling sites, enabling regulated signal transduction; (3) cells can change shape during movement and division, which requires the membrane to flow and redistribute. A rigid, solid membrane could not support any of these processes."
+  explanation: "The fluid mosaic model's central insight is that fluidity is a feature, not a byproduct. Lateral diffusion is fast enough to allow rapid membrane resealing and protein redistribution, but the cytoskeleton provides enough structure to maintain domain organization. The membrane is not a static scaffold but a dynamic platform where protein-protein interactions, receptor clustering, and vesicle fusion all depend on controlled lateral mobility."
+```
+
 ## Explainer
 
 You already know from studying cell membrane structure that the plasma membrane is built on a lipid bilayer, and from amphipathic molecules that phospholipids self-assemble because their hydrophilic heads face water while their hydrophobic tails face each other. The **fluid mosaic model**, proposed by Singer and Nicolson in 1972, goes further: it describes the membrane as a two-dimensional fluid in which lipids and proteins are not locked in place but move laterally, like icebergs drifting in a sea. The "mosaic" refers to the diverse collection of proteins embedded in and attached to this lipid sea — each performing specialized functions in transport, signaling, adhesion, and enzymatic activity.

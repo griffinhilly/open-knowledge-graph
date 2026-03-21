@@ -35,6 +35,45 @@ Look for three types of evidence: (1) what the narrator doesn't notice about the
 - The author controls the unreliability deliberately; what the narrator misses, the author intends us to see.
 - Students sometimes trust unreliable narrators entirely or distrust them entirely; the analytical task is to identify the specific contours of their unreliability.
 
+## Questions
+
+```yaml
+- question: "Stevens, the narrator of *The Remains of the Day*, describes professional events with precision while consistently denying any personal feeling for Miss Kenton — yet records her behavior in meticulous detail. The most accurate characterization of his unreliability is:"
+  type: multiple-choice
+  options:
+    - "Deliberate deception — he knows his feelings but conceals them from the reader to preserve appearances"
+    - "Emotional repression — his narration systematically displaces feeling into professional categories he cannot see past"
+    - "Limited knowledge — he is a child narrator who lacks the cognitive tools to understand adult emotions"
+    - "Reliable narration — his professional focus makes him an objective observer of events"
+  answer: 1
+  explanation: "Stevens cannot acknowledge his own emotions — not because he is hiding them strategically, but because his entire identity is constructed around professional duty in a way that makes personal feeling inadmissible. The unreliability is emotional repression, not deliberate deception (Humbert Humbert's method). Ironically, his precision about Miss Kenton's behavior becomes evidence of his feeling: what Stevens cannot say, the texture of his attention reveals. The author has designed the account so that the narrator's blind spots are visible to the reader."
+
+- question: "A reader finishes *The Tell-Tale Heart* and concludes: 'The narrator is unreliable, so none of the events actually happened — it's all fabricated.' This interpretive move is:"
+  type: multiple-choice
+  options:
+    - "Correct — mental instability means the narrator's entire account should be discarded"
+    - "Incorrect — unreliability means the narrator distorts events in specific, analyzable ways; the task is to identify what is distorted, not dismiss everything"
+    - "Correct — without external corroboration, no claims in the story can be evaluated"
+    - "Incorrect — unreliable narrators are always honest about external events and only distort their interpretations"
+  answer: 1
+  explanation: "Unreliability has a source and a shape, not a global on/off switch. An unreliable narrator distorts reality in specific, patterned ways — through self-deception, limited knowledge, mental distortion, or motivated reasoning. The analytical task is to identify what the narrator cannot or will not see clearly, triangulate from evidence the narrator provides unintentionally, and construct the fuller picture. Blanket dismissal of the narrative ignores the deliberate craft by which the author embeds clues."
+
+- question: "An unreliable narrator can inadvertently supply the reader with evidence against their own account — details they include while focused on something else can reveal the very distortions they cannot see."
+  type: true-false
+  answer: true
+  explanation: "This is one of the central mechanisms of unreliable narration. Because the narrator lacks insight into their own distortions, they supply evidence of those distortions without realizing it. Stevens describes Miss Kenton's reactions with precision he would never apply to something that didn't matter to him. Humbert Humbert's elegantly self-exculpatory prose reveals its defensiveness to an attentive reader. The author has designed the account so that what the narrator cannot say directly, the texture of their attention and their omissions says for them."
+
+- question: "An unreliable narrator is one who deliberately lies to the reader in order to conceal their own wrongdoing."
+  type: true-false
+  answer: false
+  explanation: "While some unreliable narrators do lie deliberately (Humbert Humbert in *Lolita*), many are unreliable due to self-deception, emotional repression, limited cognitive development, or mental distortion — not strategic concealment. Stevens in *The Remains of the Day* is unreliable because he genuinely cannot recognize his own emotions. The governess in *The Turn of the Screw* may be unreliable because her perception is distorted by instability she cannot acknowledge. The analytical method must fit the source of unreliability."
+
+- question: "What is the difference between an unreliable narrator and an author who has made a mistake? How does this distinction change the analytical task for the reader?"
+  type: short-answer
+  answer: "An unreliable narrator's distortions are deliberate authorial choices — the author has designed the narrator to mislead, omit, or misinterpret in specific ways that carry interpretive meaning. The character cannot see clearly; the author can and has planned every blind spot. An authorial mistake is an unintentional inconsistency with no interpretive content. The distinction matters for the analytical task: with an unreliable narrator, every gap, inconsistency, and contradiction is potentially meaningful evidence about the narrator's psychology or self-deception. With an authorial error, there is nothing to interpret."
+  explanation: "The key test is whether the pattern of distortion is coherent and thematically relevant. If the narrator's blind spots consistently cluster around a single emotional truth they cannot face — as Stevens's do around his love for Miss Kenton — that coherence is authorial control, not accident. Random, incoherent errors across multiple dimensions of the story are more likely authorial mistakes. The implied author is always in control; the question is whether the 'errors' serve the author's design."
+```
+
 ## Explainer
 
 From your work on **point of view and narrative perspective**, you understand that every narrator occupies a position — a degree of knowledge, proximity, and reliability. The unreliable narrator takes that last element and makes it a central problem: you cannot take this account at face value. The skill of analyzing unreliability is the skill of reading the gap between what the narrator tells you and what the text, taken as a whole, actually shows.

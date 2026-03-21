@@ -35,6 +35,45 @@ Use receiver operating characteristic (ROC) curves to explore how different cut 
 - Ignoring the context-dependent nature of optimal cut scores; the best cut depends on the relative costs of false positives and negatives.
 - Setting cut scores without reference to a criterion; cut scores should be justified by evidence of validity for the decision being made.
 
+## Questions
+
+```yaml
+- question: "A hospital is screening for a rare but fatal infection using a blood test. The infection affects 1% of the population tested. A colleague argues you should set a high cut score to maximize accuracy (minimize total misclassifications). Why is this reasoning flawed?"
+  type: multiple-choice
+  options:
+    - "A high cut score increases sensitivity, which is what matters most in clinical settings"
+    - "Overall accuracy is dominated by the majority class, so a high cut score that misses most cases can still appear accurate"
+    - "Cut scores should always be set at the mean of the distribution to ensure balance"
+    - "Maximizing accuracy requires lowering the cut score when prevalence is below 50%"
+  answer: 1
+  explanation: "When the condition is rare (1% prevalence), a test that calls everyone negative is 99% accurate — but worthless. 'Overall accuracy' is a misleading metric when base rates are skewed, because correct negatives swamp the total. The relevant question is: what are the relative costs of missing a case (false negative) versus flagging a healthy person (false positive)? For a fatal infection, missing cases is catastrophic, so you want maximum sensitivity — a low cut score — even at the expense of many false positives who will undergo unnecessary follow-up. The cut score decision must be driven by error consequences, not aggregate accuracy."
+
+- question: "A clinician raises the cut score on a depression screening tool from 10 to 15 points. Which of the following best describes what happens?"
+  type: multiple-choice
+  options:
+    - "Sensitivity increases and specificity decreases"
+    - "Both sensitivity and specificity increase as the test becomes more discriminating"
+    - "Specificity increases and sensitivity decreases"
+    - "Positive predictive value falls because more cases are missed"
+  answer: 2
+  explanation: "Raising the cut score means fewer people score above it, so fewer people are flagged as positive. This reduces false positives (improving specificity — fewer healthy people are incorrectly flagged) but also misses more genuine cases (reducing sensitivity — more true cases fall below the new threshold). The ROC curve makes this tradeoff explicit: every cut score occupies exactly one point on the curve, and moving the threshold always trades one type of accuracy for another. You cannot raise both simultaneously unless you improve the underlying test."
+
+- question: "A diagnostic test with 90% sensitivity and 90% specificity will have a positive predictive value of 90% when applied to any population."
+  type: true-false
+  answer: false
+  explanation: "Positive predictive value (PPV) depends not only on sensitivity and specificity but critically on base rate. In a high-prevalence population (e.g., 50% have the condition), a test with 90/90 sensitivity/specificity has a PPV around 90%. In a low-prevalence population (e.g., 1%), the same test has a PPV of roughly 8% — meaning 92% of positives are false alarms. This is because rare conditions produce many more opportunities for false positives than true positives, swamping the calculation. This is why screening programs in general populations often perform far worse in practice than their validation statistics suggest."
+
+- question: "The ROC curve allows test-makers to identify the single optimal cut score that maximizes both sensitivity and specificity simultaneously."
+  type: true-false
+  answer: false
+  explanation: "The ROC curve visualizes the *tradeoff* between sensitivity and specificity across all possible cut scores — it shows precisely that you cannot have both at once. No cut score occupies the upper-left corner (perfect sensitivity AND perfect specificity) unless the test is perfect. The ROC curve helps you see where the tradeoff lives and choose a point on it based on your context, but the choice always involves accepting more of one error type to reduce the other. The 'optimal' point on the curve does not exist until you specify the relative costs of false positives and false negatives in your particular setting."
+
+- question: "Why does the same sensitivity and specificity produce different positive predictive values in different clinical settings?"
+  type: short-answer
+  answer: "PPV is determined by sensitivity, specificity, and base rate together. When a condition is rare, even a highly specific test generates many false positives relative to true positives, driving PPV down. The same test in a high-prevalence population produces far fewer false positives relative to true positives, driving PPV up."
+  explanation: "Bayes' theorem governs this relationship. PPV = (sensitivity × prevalence) / [(sensitivity × prevalence) + (1 − specificity) × (1 − prevalence)]. As prevalence approaches zero, the denominator is dominated by false positives and PPV collapses regardless of how good the test is. This is why the same test used in a specialist referral clinic (high pre-test probability) produces very different clinical meaning than the same test used in a general population screen. Failing to account for base rates is one of the most common errors in clinical decision-making."
+```
+
 ## Explainer
 
 From your study of validity, you know that a test score means something only in relation to what it is supposed to measure and what decisions it is supposed to support. A cut score is the point at which that measurement gets translated into a binary action: pass or fail, clinical or non-clinical, proficient or below-proficient. Every time a number becomes a decision, a **cut score** has been applied — either explicitly or implicitly. The challenge is that the score distribution is continuous while the decisions are categorical, and no cut point is free of error.

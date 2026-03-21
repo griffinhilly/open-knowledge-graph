@@ -33,6 +33,45 @@ Hands-on measurement with actual containers is essential. Fill and pour activiti
 - Students may think a taller, narrower container holds more than a shorter, wider one.
 - Confusing liquid volume (liters) with weight/mass — they are different attributes.
 
+## Questions
+
+```yaml
+- question: "Container A is tall and narrow. Container B is short and wide. Without measuring, which container holds more liquid?"
+  type: multiple-choice
+  options:
+    - "Container A, because it is taller"
+    - "Container B, because it is wider"
+    - "They are equal, because shape does not matter"
+    - "You cannot determine which holds more without measuring"
+  answer: 3
+  explanation: "This is the core insight of liquid volume: you cannot judge how much liquid a container holds just by looking at its shape. A tall, thin vase and a short, wide bowl can hold the exact same number of liters, or either one could hold more. The only way to know is to measure — by reading a graduated scale or pouring and comparing. Judging volume by height alone is the most common error in this topic."
+
+- question: "A student says a tall, thin vase must hold more water than a short, wide bowl because the vase is taller. What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — taller containers always hold more liquid"
+    - "The student is confusing height with weight"
+    - "Height is only one dimension; width and depth also determine how much a container holds, so you must measure to know"
+    - "The student should compare the containers by weight, not height"
+  answer: 2
+  explanation: "Volume depends on all of a container's dimensions — height, width, and depth (or height and diameter for round containers). A very tall but extremely narrow container can hold far less than a short but wide bowl. Because multiple dimensions interact to determine volume, appearance alone — especially height alone — is an unreliable guide. You need to measure."
+
+- question: "A tall, narrow vase and a short, wide bowl can hold the same amount of liquid."
+  type: true-false
+  answer: true
+  explanation: "Volume is determined by the total space inside a container, not by any single dimension like height. Two very differently shaped containers can have identical liquid volume. This is why hands-on pouring experiments — filling one container from another — build intuition that appearance alone cannot give. Shape does not determine volume."
+
+- question: "Two containers that hold the same liquid volume will weigh the same when filled."
+  type: true-false
+  answer: false
+  explanation: "Weight depends on both the volume of the liquid AND what type of liquid it is (its density). Five liters of honey weighs significantly more than 5 liters of water, even though both have identical liquid volume. Liquid volume and weight/mass are distinct attributes. Two containers with the same liquid volume do not necessarily weigh the same if they hold different liquids."
+
+- question: "Why can't you tell how much liquid a container holds just by looking at how tall it is?"
+  type: short-answer
+  answer: "Height is only one dimension. A container's volume depends on all of its dimensions — height, width, and depth (or, for round containers, height and diameter). A very tall but extremely narrow container might hold far less liquid than a short but very wide bowl. Because width and depth also determine how much fits inside, you need to measure the actual volume rather than estimate from height alone."
+  explanation: "This is the same surprising principle that connects to area and perimeter: one dimension does not tell you the whole story. A tall narrow glass and a short wide mug might both hold exactly 500 mL. Building this intuition through hands-on pouring is essential because our visual instinct — 'taller = more' — is unreliable for volume."
+```
+
 ## Explainer
 
 You've already worked with measuring and comparing lengths and weights, which gave you the idea that different attributes (length, heaviness) need their own units. **Liquid volume** is another distinct attribute: it measures how much space the liquid inside a container occupies — not how tall the container is, not how heavy the liquid is, but how much liquid fits inside.

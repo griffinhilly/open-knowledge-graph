@@ -32,6 +32,45 @@ Reconstruct Putnam's Twin Earth scenario in detail: Earth has H2O in lakes and o
 - Assuming externalism makes knowledge of our own thoughts mysterious; we have special access despite externalism.
 - Overlooking that some externalism is local (depends on actual environment) while other versions are historical.
 
+## Questions
+
+```yaml
+- question: "In 1750, Oscar on Earth and Twin-Oscar on Twin Earth are in exactly the same internal psychological states when they use the word 'water.' According to Putnam's externalism, what follows?"
+  type: multiple-choice
+  options:
+    - "Their words refer to the same substance, since meaning is determined by internal states"
+    - "Their words mean different things: Oscar's 'water' refers to H2O, Twin-Oscar's to XYZ"
+    - "Neither can know what their word means until molecular chemistry is discovered"
+    - "They share both narrow and broad content, since the observable properties are identical"
+  answer: 1
+  explanation: "Putnam's key conclusion is that identical internal states do not guarantee identical meaning. Oscar's 'water' refers to H2O because that is what fills the oceans and lakes in his environment; Twin-Oscar's refers to XYZ for the same reason in his. Their broad content (actual referent) differs even though their narrow content (inferential role, observable associations) is the same. This is the central move of externalism: 'meanings just ain't in the head.'"
+
+- question: "What is the primary distinction between broad content and narrow content in the externalist framework?"
+  type: multiple-choice
+  options:
+    - "Broad content is conscious; narrow content is unconscious"
+    - "Broad content is fixed by the external environment and determines truth conditions; narrow content is determined by internal inferential role alone"
+    - "Broad content applies to natural kind terms; narrow content applies only to names"
+    - "Broad content is what a speaker intends; narrow content is what listeners understand"
+  answer: 1
+  explanation: "Broad (wide) content is externally constituted — it tracks the actual referent in the world, fixed by the speaker's causal-historical connection to their environment. It determines the truth conditions of beliefs and utterances. Narrow content is whatever can be determined from internal states alone — the conceptual role a term plays, its inferential connections to other mental states. Oscar and Twin-Oscar share narrow content for 'water' (same inferential role) but differ in broad content (different substances referred to). Externalism claims the philosophically significant notion — the one that fixes truth conditions — is broad."
+
+- question: "According to externalism, two people with identical internal brain states can hold beliefs with different truth conditions."
+  type: true-false
+  answer: true
+  explanation: "This is the core claim of externalism, illustrated by the Twin Earth case. Oscar believes 'water is drinkable' and Twin-Oscar believes 'water is drinkable,' but their beliefs have different truth conditions: Oscar's is true iff H2O is drinkable; Twin-Oscar's is true iff XYZ is drinkable. The environmental differences — not any difference in internal states — account for the difference in content. Externalism thus breaks the assumption that mental content supervenes solely on internal physical states."
+
+- question: "Externalism about mental content implies that people cannot have privileged access to their own thoughts, since they may not know what their words actually refer to."
+  type: true-false
+  answer: false
+  explanation: "Externalists typically defend compatibility between externalism and privileged self-knowledge. Oscar knows he is thinking about water — he has direct access to the fact of his thought. He may not know the molecular structure of water (H2O), but that is knowledge about chemistry, not knowledge about his own mental state. The externalist separates knowing *that* you are thinking about water from knowing the complete nature of water's microstructure. Privileged access concerns the former; externalism concerns the latter. The two do not conflict."
+
+- question: "Why does the Twin Earth thought experiment challenge the internalist view that 'meaning is in the head'?"
+  type: short-answer
+  answer: "Internalism holds that the content of a word or thought is fully determined by the speaker's internal mental states. Twin Earth refutes this: Oscar and Twin-Oscar have identical internal states in 1750 yet their uses of 'water' refer to chemically different substances (H2O vs XYZ). If content were purely internal, their words would mean the same thing. Since they refer to different substances, something external — the actual substance in their respective environments — must be part of what fixes meaning. The environment is partly constitutive of content, not merely a context in which pre-formed internal meanings get expressed."
+  explanation: "The thought experiment's force comes from holding internal states constant while varying the external environment. Any difference in content must then be traced to the environmental difference. This isolates the external contribution to meaning and shows it is ineliminable. The implication for psychology and philosophy of mind is significant: intentional mental states are not purely internal phenomena — they essentially involve the world the agent is embedded in."
+```
+
 ## Explainer
 
 Before externalism, the natural assumption about meaning was **internalist**: the content of your thoughts and words is determined by what is in your head—your concepts, mental representations, and internal states. If two people are in identical internal states, they mean and think about the same things. This assumption feels obvious because from the inside, your thoughts seem fully your own mental business. Externalism challenges this assumption at its foundation, using a case specifically designed to show that identical internal states can be associated with different semantic contents.

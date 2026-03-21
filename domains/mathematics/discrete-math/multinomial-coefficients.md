@@ -34,6 +34,45 @@ Connect to the binomial theorem first as the m=2 special case. Count arrangement
 - Treating the multinomial coefficient as a product of binomial coefficients — this only works in specific decomposition sequences, not in general.
 - Forgetting that all group sizes must sum to n.
 
+## Questions
+
+```yaml
+- question: "The word PEPPER has 6 letters: three P's, two E's, and one R. How many distinct arrangements of these letters are there?"
+  type: multiple-choice
+  options:
+    - "720 (= 6!)"
+    - "60 (= 6! / (3! · 2! · 1!))"
+    - "120 (= 5!)"
+    - "360 (= 6! / 2!)"
+  answer: 1
+  explanation: "The multinomial coefficient corrects for repeated letters by dividing out all permutations among identical elements. With 3 P's, 2 E's, and 1 R, the formula is 6!/(3!·2!·1!) = 720/12 = 60. Option A (720) ignores the repeats entirely and overcounts — it assumes all 6 letters are distinct. Options C and D only account for one type of repetition instead of all."
+
+- question: "In the expansion of (a + b + c)⁴, what is the coefficient of the term a²bc?"
+  type: multiple-choice
+  options:
+    - "4"
+    - "6"
+    - "12"
+    - "24"
+  answer: 2
+  explanation: "The coefficient of a^k₁ b^k₂ c^k₃ in (a+b+c)ⁿ is the multinomial coefficient n!/(k₁!k₂!k₃!). Here n=4, k₁=2, k₂=1, k₃=1, so the coefficient is 4!/(2!·1!·1!) = 24/2 = 12. A common error is to use C(4,2) = 6 (option B), which only accounts for choosing the positions for a but ignores the subsequent distribution of b and c. The multinomial coefficient counts all the ways to assign the four 'slots' to a (2 slots), b (1 slot), and c (1 slot)."
+
+- question: "The binomial theorem is a special case of the multinomial theorem that applies only when all exponents in the expansion are equal."
+  type: true-false
+  answer: false
+  explanation: "The binomial theorem is the m=2 special case of the multinomial theorem — it applies when there are exactly two terms being summed, regardless of the exponents. The multinomial theorem covers (x₁ + x₂ + ⋯ + xₘ)ⁿ for any number of terms m; setting m=2 gives exactly the binomial theorem with the familiar binomial coefficients C(n,k) = n!/(k!(n−k)!). Exponent equality is irrelevant."
+
+- question: "The number of distinct arrangements of a string of n letters, where letter i appears kᵢ times (with k₁ + k₂ + ⋯ + kₘ = n), is exactly the multinomial coefficient n!/(k₁!k₂!⋯kₘ!)."
+  type: true-false
+  answer: true
+  explanation: "Correct. If all n letters were distinct, there would be n! arrangements. But among the arrangements, any permutation of the kᵢ identical copies of letter i produces the same word — so we are overcounting by kᵢ! for each group. Dividing by k₁!k₂!⋯kₘ! corrects all overcounting simultaneously, giving n!/(k₁!⋯kₘ!). This is the core combinatorial meaning of the multinomial coefficient."
+
+- question: "Why does the multinomial coefficient formula divide by each kᵢ! separately rather than, say, by (k₁ + k₂ + ⋯ + kₘ)! or by the product k₁ · k₂ · ⋯ · kₘ? What does each factorial represent?"
+  type: short-answer
+  answer: "Each kᵢ! accounts for the kᵢ! ways of permuting the identical copies of item i among themselves — permutations that produce the same arrangement and must not be counted separately. Since the groups are independent, the total overcounting is the product of all the individual kᵢ! values, so we divide by each factorial independently. Dividing by the sum (k₁+⋯+kₘ)! = n! would over-correct, and dividing by the product of the raw values kᵢ wouldn't fully remove all redundant permutations."
+  explanation: "The factorial kᵢ! appears because the kᵢ identical copies of item i can be rearranged among themselves in kᵢ! ways, all yielding the same outcome. Since these groups of identical objects are independent of each other, the overcounting factors multiply: total overcounting = k₁! × k₂! × ⋯ × kₘ!. Dividing n! by this product gives the exact count of truly distinct arrangements."
+```
+
 ## Explainer
 
 You already know the **binomial coefficient** C(n, r) = n!/(r!(n−r)!) and the **binomial theorem**: (x + y)ⁿ expands into a sum of terms C(n, k) xᵏ yⁿ⁻ᵏ. The multinomial coefficient generalizes both to situations with more than two categories. Suppose you have n distinct objects and want to sort them into m labeled boxes of sizes k₁, k₂, …, kₘ (where the sizes sum to n). The **multinomial coefficient** n!/(k₁! k₂! ⋯ kₘ!) counts the ways to do this. When m = 2, it reduces exactly to C(n, k₁) = n!/(k₁! k₂!) — the familiar binomial coefficient.

@@ -33,6 +33,45 @@ Trace recursive calls for small inputs, build a recurrence tree to visualize, th
 - Misidentifying the non-recursive work term.
 - Assuming all recursive algorithms have the same complexity structure.
 
+## Questions
+
+```yaml
+- question: "An algorithm splits a problem of size n into 3 subproblems of size n/3 and does O(n) work combining them. Using the master theorem with T(n) = aT(n/b) + O(n^d), what is the overall time complexity?"
+  type: multiple-choice
+  options:
+    - "O(n) — the combining work dominates"
+    - "O(n log n) — since log₃(3) = 1 = d, the work is balanced across levels"
+    - "O(n²) — three subproblems causes quadratic growth"
+    - "O(log n) — dividing into thirds accelerates convergence"
+  answer: 1
+  explanation: "Here a = 3, b = 3, d = 1. log₃(3) = 1 = d, so we are in the balanced case of the master theorem, giving O(n^d × log n) = O(n log n). When log_b(a) equals d, the work at each level of the recursion tree sums to the same amount (O(n)), and there are O(log n) levels, producing the O(n log n) result. This is the same case as merge sort — the split ratio and number of subproblems happen to balance. A common mistake is to assume more subproblems always means higher complexity; what matters is whether the recursive work or non-recursive work dominates."
+
+- question: "A student writes a recursive algorithm with the recurrence T(n) = T(n-1) + O(1). A classmate writes one with T(n) = T(n/2) + O(1). Which claim is correct?"
+  type: multiple-choice
+  options:
+    - "Both are O(log n) since both make a single recursive call"
+    - "Both are O(n) since both reduce the problem by a constant factor"
+    - "The first is O(n) and the second is O(log n) — subtracting 1 vs dividing by 2 differs dramatically"
+    - "The first is O(n log n) because n levels each require O(log n) overhead"
+  answer: 2
+  explanation: "Subtracting 1 from n means n levels until the base case — total O(n). Dividing by 2 means log₂(n) levels — total O(log n). This is a critical difference that many students miss because both recurrences involve a 'single recursive call.' The size of the subproblem matters enormously: T(n-1) produces a linear number of calls (think linear search), while T(n/2) produces logarithmically few (think binary search). Always check whether the size reduction is additive (n - constant → O(n) levels) or multiplicative (n/b → O(log n) levels)."
+
+- question: "A recurrence relation for an algorithm must include a base case to be well-defined, but the base case does not affect the asymptotic complexity."
+  type: true-false
+  answer: true
+  explanation: "True, with an important nuance. The base case (typically T(1) = O(1) or T(1) = c) anchors the recursion and is necessary to avoid infinite regress. However, it contributes only a constant to the total work and doesn't change the big-O class — O(1) absorbed into the leading terms of O(n), O(n log n), etc., is negligible. That said, forgetting the base case when writing the recurrence is a common error that can make a correctly set-up recurrence appear ill-defined. The base case matters for correctness of the recurrence formulation, even if it doesn't change the asymptotic result."
+
+- question: "In the recursion tree for merge sort T(n) = 2T(n/2) + O(n), the total work at every level of the tree is O(n), and there are O(log n) levels, giving O(n log n) overall."
+  type: true-false
+  answer: true
+  explanation: "Correct. At the root, the non-recursive work is O(n) (merging two halves). At the next level, there are 2 nodes each doing O(n/2) work — total O(n). At the next level, 4 nodes each doing O(n/4) — still O(n) total. This constant-per-level work holds all the way down. Since the tree has log₂(n) levels (halving n until reaching size 1), the total is O(n) × O(log n) = O(n log n). This is the intuition behind why the balanced case of the master theorem gives O(n^d log n): costs are distributed evenly across levels."
+
+- question: "Why is correctly setting up the recurrence relation — identifying a, b, and the non-recursive work — the most important step in analyzing a recursive algorithm, rather than the choice of solving technique?"
+  type: short-answer
+  answer: "The recurrence is a faithful translation of the algorithm's structure into math. Getting a (number of subproblems), b (size reduction factor), and the cost of non-recursive work right is the analytical judgment — it requires understanding what the algorithm actually does. Once the recurrence is correct, solving it via recursion tree, substitution, or master theorem is largely mechanical. An incorrect recurrence will yield a formally valid but wrong complexity answer regardless of how carefully you apply the master theorem."
+  explanation: "A common pattern is to misidentify the non-recursive work — for example, treating the merge step in merge sort as O(1) instead of O(n), which would falsely suggest O(log n) complexity. Or miscounting subproblems: an algorithm that makes 4 recursive calls on n/2-sized inputs (T(n) = 4T(n/2) + O(n)) is dramatically different from one making 2 calls (merge sort), even though both 'divide by 2.' The solving technique just mechanically extracts the answer once the recurrence correctly encodes the algorithm's recursive structure."
+```
+
 ## Explainer
 
 When you write a recursive algorithm, the code itself tells you what happens at each level — divide the input, do some work, recurse on smaller pieces. But to know the algorithm's overall running time, you need to translate that recursive structure into a mathematical equation and solve it. This equation is a **recurrence relation**: it expresses T(n), the time to solve a problem of size n, in terms of the time to solve smaller subproblems plus the non-recursive work at the current level.

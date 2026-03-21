@@ -28,6 +28,45 @@ Distinguish ischemic ATN (from sepsis, cardiogenic shock) from nephrotoxic ATN (
 ## Common Misconceptions
 ATN is not immediately fatal; renal function is maintained despite oliguria through reduced filtration. Most ATN recovers spontaneously with supportive care and fluid management. The muddy brown casts are not diagnostic of ATN specifically; they indicate tubular damage. Not all ischemic AKI is ATN; mild ischemia may cause prerenal azotemia (reversible on fluid administration).
 
+## Questions
+
+```yaml
+- question: "A hospitalized patient has been hypotensive from sepsis for 6 hours. Urine output drops to 5 mL/hr, creatinine rises, and urinalysis shows muddy brown granular casts with FENa of 3.5%. What is the most likely diagnosis and the key evidence for it?"
+  type: multiple-choice
+  options:
+    - "Prerenal azotemia, because sepsis reduces renal perfusion"
+    - "Prerenal azotemia, because hypotension always precedes the oliguria"
+    - "Acute tubular necrosis, because elevated FENa and muddy brown casts indicate direct tubular damage"
+    - "Acute tubular necrosis, because all septic patients develop ATN"
+  answer: 2
+  explanation: "The combination of muddy brown granular casts (sloughed tubular epithelial cells indicating structural damage) and FENa >2% (damaged tubules unable to reabsorb sodium) distinguishes ATN from prerenal azotemia. In prerenal AKI, intact tubules avidly conserve sodium (FENa <1%) and produce no cellular casts. The hypotension is the cause of the ATN, not evidence against it — prolonged ischemia has crossed the threshold from reversible prerenal AKI to irreversible tubular injury."
+
+- question: "During the maintenance phase of ATN, why might a patient require dialysis even though the original hypotension has been corrected?"
+  type: multiple-choice
+  options:
+    - "Tubular cells are actively dying and releasing toxins that must be cleared"
+    - "Surviving tubular cells are dysfunctional and GFR remains depressed despite restored perfusion"
+    - "The kidneys enter irreversible failure during the maintenance phase"
+    - "Dialysis removes nephrotoxins that continue accumulating in tubular cells"
+  answer: 1
+  explanation: "The maintenance phase is a plateau of dysfunction: the initial injury has occurred, the trigger is removed, but surviving tubular cells — though alive — are not yet functional. They cannot properly reabsorb solutes or concentrate urine, GFR remains depressed, and fluid and electrolyte imbalance may require dialysis support. The critical distinction is that this phase is temporary: it precedes the recovery phase, in which surviving cells regenerate and restore function."
+
+- question: "In prerenal AKI, the fractional excretion of sodium (FENa) is typically greater than 2%, whereas in ATN it is less than 1%."
+  type: true-false
+  answer: false
+  explanation: "This is reversed. In prerenal AKI, intact tubules avidly conserve sodium to restore intravascular volume — FENa is <1%. In ATN, damaged tubular cells cannot perform normal sodium reabsorption, so sodium spills into the urine — FENa rises above 2%. The FENa is a functional readout of tubular integrity: low FENa means tubules are working; high FENa means they are not."
+
+- question: "Most cases of ATN resolve with spontaneous tubular regeneration and near-full recovery of renal function."
+  type: true-false
+  answer: true
+  explanation: "Unlike many organs, the renal tubular epithelium has significant regenerative capacity. Surviving cells dedifferentiate, proliferate, and re-epithelialize damaged segments during the recovery phase. This is why ATN management is primarily supportive — remove the offending agent, restore hemodynamics, bridge with dialysis if needed — and time. Patients with baseline CKD, prolonged ischemia, or severe insults have worse recovery trajectories, but the majority of otherwise healthy patients recover near-baseline function."
+
+- question: "A patient with mild dehydration has elevated creatinine and oliguria that normalizes within 24 hours after IV fluids. A second patient with severe septic shock has similar initial labs but does not improve with fluids. Explain the pathophysiological difference."
+  type: short-answer
+  answer: "The first patient has prerenal azotemia — reduced perfusion causes reversible oliguria, but tubular cells are structurally intact. Restoring perfusion immediately restores function. The second patient has progressed to ischemic ATN — prolonged ATP depletion has killed proximal tubular and thick ascending limb epithelial cells. Fluids cannot restore function to dead cells; recovery requires tubular regeneration, which takes days to weeks. The threshold between reversible prerenal AKI and irreversible ATN is crossed when ischemia is severe and sustained enough to deplete ATP and trigger cell death."
+  explanation: "This distinction drives management: prerenal AKI responds to fluid resuscitation; ATN does not, and aggressive fluid administration in an oliguric ATN patient risks fluid overload. The urine sediment and FENa help distinguish them, but the clinical trajectory — response or non-response to fluids — is itself diagnostic."
+```
+
 ## Explainer
 
 From your study of acute kidney injury, you know that AKI is classified by location: prerenal (reduced perfusion), intrinsic renal (structural damage), and postrenal (obstruction). **Acute tubular necrosis (ATN)** is the most important cause of intrinsic AKI, accounting for the majority of cases seen in hospitalized patients. Understanding it requires zooming into the tubular epithelial cells — the workhorses of the nephron — and asking what happens when they are deprived of energy or poisoned.

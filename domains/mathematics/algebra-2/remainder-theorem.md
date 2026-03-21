@@ -28,6 +28,45 @@ Verify the theorem with examples: divide f(x) by (x - c) using synthetic divisio
 - Evaluating f(-c) instead of f(c) when dividing by (x - c).
 - Thinking the theorem applies to non-polynomial functions.
 
+## Questions
+
+```yaml
+- question: "What is the remainder when f(x) = x³ + 3x² − 2x + 5 is divided by (x − 2)?"
+  type: multiple-choice
+  options:
+    - "21"
+    - "13"
+    - "5"
+    - "0"
+  answer: 0
+  explanation: "By the Remainder Theorem, the remainder equals f(2) = 8 + 12 − 4 + 5 = 21. The most common error is using c = −2 instead of c = 2 when dividing by (x − 2), which gives f(−2) = −8 + 12 + 4 + 5 = 13 — the tempting wrong answer. The divisor (x − c) means c is positive when the sign in the factor is minus."
+
+- question: "When f(x) = x³ + kx² − 4 is divided by (x + 1), the remainder is −7. What is k?"
+  type: multiple-choice
+  options:
+    - "−2"
+    - "2"
+    - "−7"
+    - "3"
+  answer: 0
+  explanation: "Dividing by (x + 1) means c = −1, so the Remainder Theorem gives f(−1) = −7. Substituting: (−1)³ + k(−1)² − 4 = −7 → −1 + k − 4 = −7 → k − 5 = −7 → k = −2. This demonstrates one of the most powerful uses of the theorem: turning remainder information into an equation for unknown coefficients."
+
+- question: "The value of f(3) for any polynomial f(x) can be found by performing synthetic division of f(x) by (x − 3) and reading the remainder."
+  type: true-false
+  answer: true
+  explanation: "This is exactly what the Remainder Theorem guarantees: the remainder when f(x) is divided by (x − c) equals f(c). Synthetic division with c = 3 and reading the final remainder is mathematically identical to substituting x = 3 into f(x). For high-degree polynomials, synthetic division is often computationally faster."
+
+- question: "If the remainder when f(x) is divided by (x − c) equals zero, then c is a coefficient of f(x)."
+  type: true-false
+  answer: false
+  explanation: "A zero remainder means f(c) = 0, making c a *root* of the polynomial — not a coefficient. This zero-remainder case is the Factor Theorem: f(c) = 0 if and only if (x − c) is a factor of f(x). Roots and coefficients are entirely different things; confusing them is a sign of not understanding what the theorem is actually claiming."
+
+- question: "Why does dividing f(x) by (x − c) produce a remainder equal to f(c)? Explain the reasoning from the structure of polynomial division."
+  type: short-answer
+  answer: "Polynomial division gives f(x) = (x − c)·q(x) + r, where r is a constant (since dividing by a degree-1 polynomial leaves a degree-0 remainder). Substituting x = c into both sides: f(c) = (c − c)·q(c) + r = 0 + r = r. The left-hand factor (x − c) vanishes at x = c, leaving only the remainder — which must therefore equal f(c)."
+  explanation: "The key move is substituting x = c into the division equation. The (x − c) factor becomes zero, collapsing the entire quotient term and isolating r on the right side. This algebraic argument is short but deep: it shows that the remainder is not just any number — it is structurally forced to equal the polynomial's value at the division point."
+```
+
 ## Explainer
 
 From polynomial long division and synthetic division, you know how to divide f(x) by a linear factor (x − c) to get a quotient q(x) and a remainder r: f(x) = (x − c)·q(x) + r. Notice that r is a constant — when you divide by a degree-1 polynomial, the remainder is degree 0 (just a number). The **Remainder Theorem** follows immediately: substitute x = c into both sides. The left side gives f(c). The right side gives (c − c)·q(c) + r = 0 + r = r. So f(c) = r. The remainder is not just any number — it is exactly the value of the polynomial at x = c.

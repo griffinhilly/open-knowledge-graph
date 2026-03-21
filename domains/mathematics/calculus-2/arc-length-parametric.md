@@ -28,6 +28,45 @@ Derive from the Cartesian formula by substituting parametric expressions. Comput
 - Using wrong bounds (t bounds, not x bounds).
 - Not verifying that the curve is traversed exactly once over the integration interval.
 
+## Questions
+
+```yaml
+- question: "A student computes the arc length of the parametric curve x = t², y = t³ over t ∈ [1, 3] by setting up ∫₁³ √(x² + y²) dt. What is wrong with this setup?"
+  type: multiple-choice
+  options:
+    - "The bounds should be x = 1 to x = 9, not t = 1 to t = 3"
+    - "The integrand should use the derivatives dx/dt and dy/dt, not the functions x and y themselves"
+    - "The formula should use x² + y² without the square root"
+    - "The formula is correct but only applies when the curve does not self-intersect"
+  answer: 1
+  explanation: "The parametric arc length formula is L = ∫ √((dx/dt)² + (dy/dt)²) dt. The integrand is built from the derivatives of x and y with respect to t, not the values of x and y. Here dx/dt = 2t and dy/dt = 3t², so the correct integrand is √(4t² + 9t⁴). Using x and y directly (√(t⁴ + t⁶)) has no geometric meaning in this context — it does not measure the speed of the parametric path."
+
+- question: "For the unit circle parametrized as x = cos(t), y = sin(t), what happens if you integrate the arc length formula from t = 0 to t = 4π?"
+  type: multiple-choice
+  options:
+    - "You get the circumference 2π, because the circle's total length is fixed regardless of how t is parametrized"
+    - "You get 4π, because the circle is traversed twice and the formula measures total distance traveled by the parameter"
+    - "You get an error — the formula requires that the curve be traversed exactly once, so the integral is undefined"
+    - "You get π, because the formula accounts for retracing and divides by the number of traversals"
+  answer: 1
+  explanation: "The arc length formula measures total path length — the total distance traveled as t moves from the lower to upper bound. If the circle is traversed twice (t from 0 to 4π), the formula gives 4π, not 2π. The parameter t is a traversal clock; the formula doesn't know or care whether you've retraced the same geometric path. This is why checking that a parametrization traces the curve exactly once is essential when you want the geometric length of the curve, not the total path length."
+
+- question: "The parametric arc length formula L = ∫ √((dx/dt)² + (dy/dt)²) dt reduces exactly to the Cartesian arc length formula when the curve is parametrized as x = t, y = f(t)."
+  type: true-false
+  answer: true
+  explanation: "With x = t, y = f(t), we get dx/dt = 1 and dy/dt = f'(t). Substituting into the parametric formula gives ∫ √(1 + (f'(t))²) dt, which is exactly the Cartesian arc length formula ∫ √(1 + (dy/dx)²) dx (with t playing the role of x). This confirms that the parametric formula is a strict generalization: every Cartesian curve can be viewed as a special case of a parametric curve, but parametric curves can represent many things (like circles) that cannot be expressed as single-valued y = f(x)."
+
+- question: "The arc length of a parametric curve always equals the straight-line distance between its starting and ending points."
+  type: true-false
+  answer: false
+  explanation: "Arc length is the total length along the curve, which is always greater than or equal to the straight-line distance between endpoints (by the triangle inequality), with equality only when the curve is a straight line segment. A circle, for example, has endpoints at the same point (after a full traversal), so the straight-line distance is zero, but the arc length is 2πr. A winding or looping curve can have endpoints very close together while having enormous arc length."
+
+- question: "Why must you verify that a parametric curve is traversed exactly once over the integration interval when computing arc length? What goes wrong if the curve retraces itself?"
+  type: short-answer
+  answer: "The arc length formula measures total distance traveled by the parameter, not the geometric length of the curve's image. If the parametrization retraces a portion of the curve, that portion gets counted multiple times in the integral. For example, integrating the unit circle from 0 to 4π gives 4π because the circle is traversed twice, even though the geometric circumference is only 2π. To get the geometric arc length, you must restrict to an interval over which each point on the curve is hit exactly once."
+  explanation: "The parameter t is a clock that records how the curve is traversed, not a label for position on the curve. Two different values of t can produce the same point (x, y) if the curve crosses or retraces itself. The integral sums up infinitesimal path lengths dt at each moment in time — it doesn't subtract anything when the path revisits a location. This distinction matters practically: always sketch or reason about the traversal before setting up bounds."
+```
+
 ## Explainer
 
 From your earlier study of arc length, you know that the length of a Cartesian curve y = f(x) from x = a to x = b is L = ∫_a^b √(1 + (dy/dx)²) dx. The formula comes from the Pythagorean theorem: each infinitesimal piece of the curve is approximately a hypotenuse with horizontal leg dx and vertical leg dy, so its length is √(dx² + dy²). Parametric curves extend this idea naturally.

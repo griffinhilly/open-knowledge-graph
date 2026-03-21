@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Each process has an environment consisting of environment variables, working directory, file descriptors, and resource limits. When a process exits, it returns an exit code (0 for success, non-zero for failure) that parent processes can retrieve via wait(). The parent must reap terminated children to prevent zombie processes from accumulating.
 
+## Questions
+
+```yaml
+- question: "A parent process spawns 100 children that all terminate, but the parent never calls wait(). What happens to the children?"
+  type: multiple-choice
+  options:
+    - "The OS automatically cleans them up when they exit"
+    - "They enter zombie state, holding their exit codes in the process table until the parent calls wait() or exits"
+    - "They become orphans and are immediately adopted and reaped by init"
+    - "The OS forces the parent to call wait() before it can continue executing"
+  answer: 1
+  explanation: "When a child terminates, it enters zombie state: its memory is freed but its process table entry persists to preserve the exit code for the parent. If the parent never calls wait(), 100 zombie entries accumulate in the process table indefinitely. They consume almost no resources beyond their process table slot, but with many children this is a real resource leak. The OS does not proactively reap them while the parent is alive — only when the parent eventually exits will init adopt and reap them."
+
+- question: "A shell script checks '$?' and finds the value 127. What does this most likely indicate?"
+  type: multiple-choice
+  options:
+    - "The command succeeded and processed 127 items"
+    - "The command was not found — the shell could not locate the executable"
+    - "The command was terminated by a signal"
+    - "The command exceeded its memory limit"
+  answer: 1
+  explanation: "By Unix convention, exit code 0 = success, non-zero = failure. Exit code 127 specifically means 'command not found' — the shell searched $PATH and could not locate an executable with that name. Exit code 1 is a general error, 2 is misuse of a shell command, and 128+N indicates the process was killed by signal N. Exit codes encode the reason for failure, not operational metrics like item counts or memory usage."
+
+- question: "When a process exits, its process table entry is immediately freed by the kernel."
+  type: true-false
+  answer: false
+  explanation: "When a process exits, the kernel keeps its process table entry in zombie state. The zombie holds the exit code (and some accounting information) until the parent retrieves it via wait() or waitpid(). Only then is the entry freed (the zombie is 'reaped'). If the kernel freed the entry immediately, the parent would have no way to retrieve the exit status. Zombies have all their memory freed but still occupy a row in the process table."
+
+- question: "A process that exits with code 0 is universally understood to have succeeded."
+  type: true-false
+  answer: true
+  explanation: "Exit code 0 is the universal Unix/POSIX convention for success. This convention is deeply embedded in shell scripting — constructs like &&, ||, and if statements all interpret 0 as success and non-zero as failure. Every standard library and toolchain follows this convention. It is not arbitrary: it allows shell scripts and pipelines to chain commands reliably based on outcome."
+
+- question: "Why must a parent process call wait() after its children terminate, and what happens if it does not?"
+  type: short-answer
+  answer: "The kernel preserves a terminated child's process table entry (zombie state) to hold the exit code until the parent retrieves it via wait(). If the parent never calls wait(), zombie entries accumulate indefinitely. The process table has finite size; exhausting it prevents any new processes from being created. Long-running server processes that spawn children must call wait() (or use a SIGCHLD handler that does so) to avoid this resource leak."
+  explanation: "The zombie state exists because of an inherent race: a child terminates asynchronously and the parent may not be ready to receive its exit status immediately. The kernel acts as intermediary, holding the exit code safely. The design puts responsibility on the parent — a parent that ignores this causes gradual table exhaustion. The init process (PID 1) is special-cased to periodically reap orphaned zombies, which is why children whose parents have already exited do not accumulate permanently."
+```
+
 ## Explainer
 
 From your study of the process concept, you know that a process is more than just running code — it is an execution context with its own address space, register state, and kernel data structures. The **process environment** extends this idea: beyond the code and data in memory, every process carries a collection of settings and resources that shape how it interacts with the system. Understanding what makes up this environment is essential for writing programs that behave correctly across different contexts.

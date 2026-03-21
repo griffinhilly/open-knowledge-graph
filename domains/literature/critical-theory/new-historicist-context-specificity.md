@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 New Historicism insists that literary texts are products of specific historical moments shaped by contingent forces—not universal human nature or timeless truths. Meanings depend on archival, cultural, and material contexts that made them possible. Literature both reflects and shapes its historical moment; understanding requires dense attention to what was knowable, sayable, and possible.
 
+## Questions
+
+```yaml
+- question: "A student reads Shakespeare's Henry V and concludes it demonstrates 'universal themes of leadership and national identity applicable to all cultures.' A New Historicist would most directly object that:"
+  type: multiple-choice
+  options:
+    - "This interpretation correctly identifies the timeless qualities that give Shakespeare enduring relevance"
+    - "The concepts of 'leadership' and 'national identity' in Henry V are specific to Elizabethan political anxieties and cannot be extracted as universal themes"
+    - "The student should read more historical context before attempting thematic analysis"
+    - "National identity is universal but leadership practices differ across cultures and historical periods"
+  answer: 1
+  explanation: "New Historicism's central claim is that meanings are radically local — a text does not tap into universal human experience but into the historically specific categories, power structures, and discursive formations of its moment. 'National identity' in Elizabethan England carried specific valences around Protestant nationalism, dynastic legitimacy, and anxiety about succession that are not the same concept as modern national identity. The New Historicist reads within that specific intersection of conditions, and the strength of the reading is its contextual precision — not its generalizability. The student's interpretation applies present-day categories backwards, which is precisely what New Historicism works to defamiliarize."
+
+- question: "A New Historicist essay about a 17th-century poem opens with a detailed account of a witch trial drawn from court records of the same decade. What is the primary function of this opening anecdote?"
+  type: multiple-choice
+  options:
+    - "To provide historical background information that helps readers situate the poem in its period"
+    - "To demonstrate the critic's archival research and scholarly credentials"
+    - "To open onto the specific cultural logic — the intersection of discursive formations — within which the poem's meanings were intelligible"
+    - "To argue that the poem was directly influenced by or written in response to witch trial proceedings"
+  answer: 2
+  explanation: "In New Historicist methodology, the opening archival anecdote is not background and not an influence argument. The non-literary document (witch trial record) participates in the same circulation of cultural meaning as the literary text. By beginning there, the essay anchors its claims in historical particularity and opens onto the specific configuration of beliefs, anxieties, legal practices, and power relations that made certain meanings possible in that moment. The anecdote is the historical particular that grounds the reading's claim to contextual precision — what Greenblatt borrowed from Geertz as 'thick description.'"
+
+- question: "For New Historicists, the goal of contextual analysis is to recover the 'true' original meaning of a text as its author intended."
+  type: true-false
+  answer: false
+  explanation: "This is an intentionalist or formalist goal, not a New Historicist one. New Historicism does not aim to reconstruct authorial intent or recover a single correct meaning behind the text's surface. Instead, it reconstructs the dense web of social and discursive practices — legal records, sermons, medical texts, court entertainments — within which the text was produced and its meanings were intelligible. The goal is not to get behind the text to the author's mind but to situate the text within the cultural circulation that made it possible. 'Thick description' reconstructs conditions of possibility, not authorial intention."
+
+- question: "The New Historicist commitment to contingency — the idea that past categories were not necessary but could have been otherwise — also implicitly defamiliarizes the present."
+  type: true-false
+  answer: true
+  explanation: "This is one of New Historicism's most important argumentative moves. If past categories (Elizabethan humoral medicine, feudal concepts of sovereignty, early modern gender hierarchies) were contingent products of specific power configurations rather than natural or inevitable, then our own categories are equally contingent and equally historical. Showing that seemingly self-evident past assumptions were constructed defamiliarizes the present — makes our own assumptions visible as historically produced rather than simply true. When Greenblatt recovers specific Elizabethan discourses on royal performance to read Shakespeare, he is also making the reader's assumptions about power and legitimacy strange."
+
+- question: "What does it mean for New Historicism that historical meanings are 'contingent,' and why does this commitment to contingency also defamiliarize the present?"
+  type: short-answer
+  answer: "Contingency means that past configurations of meaning, power, and knowledge were not necessary or inevitable — they emerged from specific accidents, conflicts, and power struggles that could have produced different outcomes. For New Historicism, this means that the categories through which a historical moment organized experience (nature, the body, sovereignty, gender) were products of that specific configuration, not approximations of universal truths. The defamiliarizing move follows logically: if past assumptions were contingent, our own are equally contingent and equally historical. By making past categories appear strange and constructed, New Historicism invites readers to see present-day categories as similarly constructed rather than naturally given."
+  explanation: "This dual function — recovering past specificity while estranging the present — is what distinguishes New Historicism from both antiquarian history (which recovers the past for its own sake) and presentism (which reads the past through present concerns). The tension between these two moves is productive and constitutive of the method."
+```
+
 ## Explainer
 
 From New Historicism you know that literary texts exist in, not above, history — that a play by Shakespeare is not a window onto eternal human nature but a document of Elizabethan England's specific anxieties, power structures, and modes of making meaning. **Context and contingency** are the twin concepts that specify what New Historicism means by historical embeddedness. Context is not background information mentioned in an introduction; it is the dense network of material, cultural, and discursive conditions that made particular thoughts expressable and made certain meanings available while foreclosing others. Contingency is the philosophical stance: these conditions were not necessary or inevitable. They were the product of accidents, power struggles, and particular configurations of interest that could have been otherwise.

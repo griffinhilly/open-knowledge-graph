@@ -32,6 +32,45 @@ Start with verbal-to-symbolic translation: give word descriptions and have stude
 - Omitting necessary parentheses.
 - Confusing "sum of a and b, multiplied by c" with "a plus b multiplied by c" (they mean different things without parentheses).
 
+## Questions
+
+```yaml
+- question: "A student translates 'add 5 and 3, then double the result' as 5 + 3 × 2. What is wrong with this expression?"
+  type: multiple-choice
+  options:
+    - "Nothing — 5 + 3 × 2 = 16, which is correctly double 8"
+    - "By order of operations, 5 + 3 × 2 = 11, not 16 — the student needed to write (5 + 3) × 2"
+    - "The student should have written 2 × 5 + 3 = 13"
+    - "There is no mathematical way to represent 'add first, then multiply'"
+  answer: 1
+  explanation: "Without parentheses, order of operations multiplies first: 5 + (3 × 2) = 5 + 6 = 11. But the verbal description says to add first, then double the result: (5 + 3) × 2 = 8 × 2 = 16. Parentheses are essential to override the default multiplication-first priority. This is exactly the misconception described in the topic: translating word order directly into symbol order without considering operation priority."
+
+- question: "Without calculating either expression, which is larger: 5 × (20 + 3) or 5 × 20 + 3?"
+  type: multiple-choice
+  options:
+    - "They are equal — the distributive property makes them equivalent"
+    - "5 × (20 + 3) is larger — the 5 multiplies the entire sum of 23"
+    - "5 × 20 + 3 is larger — adding 3 at the end increases the result"
+    - "You cannot compare them without calculating both"
+  answer: 1
+  explanation: "In 5 × (20 + 3), the 5 multiplies the full sum 23, giving 115. In 5 × 20 + 3, only 20 is multiplied by 5 (= 100), then 3 is added, giving 103. Recognizing structure — what is inside the parentheses versus outside — lets you compare without full calculation. Option A is wrong: the distributive property says 5 × (20 + 3) = 5 × 20 + 5 × 3, not 5 × 20 + 3."
+
+- question: "The expression (8 + 7) × 2 correctly represents the instruction 'add 8 and 7, then multiply the result by 2.'"
+  type: true-false
+  answer: true
+  explanation: "Parentheses force the addition to happen first: (8 + 7) = 15, then × 2 = 30. Without parentheses, 8 + 7 × 2 would follow order of operations, computing 7 × 2 = 14 first, then 8 + 14 = 22 — a different and incorrect result. The parentheses are not optional; they carry the precise meaning of the verbal instruction."
+
+- question: "The expressions 3 × (4 + 5) and 3 × 4 + 5 are equivalent because multiplication distributes over addition."
+  type: true-false
+  answer: false
+  explanation: "3 × (4 + 5) = 3 × 9 = 27. 3 × 4 + 5 = 12 + 5 = 17. These are NOT equal. The distributive property says 3 × (4 + 5) = 3 × 4 + 3 × 5 = 27 — you must multiply 3 by each term inside the parentheses. Simply dropping the parentheses (getting 3 × 4 + 5) is not distribution; it changes the expression's value entirely."
+
+- question: "Why do parentheses change the meaning of a mathematical expression, and when must they be used when translating a verbal description?"
+  type: short-answer
+  answer: "Parentheses override the default order of operations (multiplication before addition). They must be used whenever a verbal description says to perform an addition or subtraction before a multiplication or division — that is, whenever the intended sequence differs from the order that operations would naturally execute without parentheses."
+  explanation: "This is the bridge between natural language and mathematical notation. English can describe any sequence of operations ('first do this, then that'), but mathematical notation executes in a fixed default order. Parentheses are the tool that encodes the intended sequence. Missing them produces a syntactically valid expression that means something different than what was described."
+```
+
 ## Explainer
 
 You already know the **order of operations** — the rules that say multiplication happens before addition unless parentheses say otherwise. Writing numerical expressions is the flip side of evaluating them: instead of computing an expression someone handed you, you're constructing the expression yourself to capture an intended calculation. The challenge is that English word order and mathematical operator order don't always match.

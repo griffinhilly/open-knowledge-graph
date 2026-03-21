@@ -30,6 +30,45 @@ Identify a research question and design two very different methodological approa
 ## Common Misconceptions
 Triangulation always requires mixed methods (actually, triangulation can occur through multiple operationalizations of constructs within a single method). Disagreement between methods means one is wrong (actually, disagreements can be informative and reveal method-specific insights).
 
+## Questions
+
+```yaml
+- question: "A researcher studying workplace burnout uses a survey (n=500) and exit interviews (n=20). The survey shows high burnout in high-demand jobs; the interviews describe helplessness and exhaustion in the same conditions. What does this represent?"
+  type: multiple-choice
+  options:
+    - "An example of construct validity — both measures tap the same latent variable"
+    - "Methodological triangulation — convergence across independent methods with different strengths strengthens confidence the finding is real"
+    - "Researcher bias — using two methods that both show burnout inflates the apparent effect"
+    - "Data triangulation — multiple data sources from the same participants increase sample size"
+  answer: 1
+  explanation: "This is methodological triangulation: combining a quantitative method (survey, strong on breadth and precision) with a qualitative method (interviews, strong on depth and context). When these independent approaches with different strengths, weaknesses, and potential biases converge on the same conclusion, the probability that both are producing the same artifact is very low — the finding is likely real. Option A confuses triangulation with construct validity, which is about measuring the same construct with different instruments within a method."
+
+- question: "A clinical interview finds elevated depression symptoms in a patient group, while a validated self-report questionnaire shows no significant depression. What is the most productive interpretation under triangulation principles?"
+  type: multiple-choice
+  options:
+    - "The self-report measure is more objective and should be trusted; the interview findings should be discarded"
+    - "The clinical interview is more sensitive and should be trusted; self-report should be discarded"
+    - "The divergence is informative — it may reflect self-report underreporting due to stigma or overestimation by the interview, and warrants investigation"
+    - "Both methods are flawed and a third method should replace them both"
+  answer: 2
+  explanation: "Divergence between methods is NOT a failure of triangulation — it is informative. The naive interpretation is that one method is wrong; the more productive interpretation is that the methods are capturing something different. Here, the discrepancy might reveal that patients underreport on questionnaires due to stigma, or that clinical interviews overweight behavioral indicators. This disagreement generates the next hypothesis. Option A and B both commit the error of treating disagreement as evidence that one method must be discarded."
+
+- question: "Convergent validity is demonstrated when different measures of the same construct correlate highly with each other, supporting the inference that they share a common underlying reality."
+  type: true-false
+  answer: true
+  explanation: "Convergent validity is exactly this: high correlations between theoretically related measures. If three measures of depression — self-report, clinician rating, and behavioral observation — all show the same pattern, we gain confidence that we are measuring depression rather than an artifact of any single method. The multitrait-multimethod matrix was designed precisely to separate construct variance from method variance."
+
+- question: "When two research methods disagree, it means triangulation has failed and one method has produced invalid results."
+  type: true-false
+  answer: false
+  explanation: "This is a misconception about the purpose of triangulation. Divergence between methods is not a failure — it is often the most valuable outcome. Methods diverge because they have different strengths, weaknesses, and access points to a phenomenon. When they disagree, that disagreement itself carries information: it points to method-specific effects, moderating factors, or aspects of the phenomenon that require deeper investigation. The goal of triangulation is deepened understanding, not mechanical consensus."
+
+- question: "Why is convergence across two methods with fundamentally different potential biases more convincing evidence than convergence across two methods that share the same potential biases?"
+  type: short-answer
+  answer: "If two methods share the same potential biases, they could both be producing the same artifact through the same flawed mechanism, making their agreement uninformative. If two methods have fundamentally different weaknesses — for example, one is susceptible to social desirability bias while the other is not, or one captures explicit attitudes while the other measures reaction times — then the probability that both produce the same erroneous finding through completely different mechanisms is very low. Convergence under those conditions is strong evidence that the finding is real rather than methodologically induced."
+  explanation: "This is the core logic of triangulation: independence of methods is what makes convergence meaningful. Two surveys that both use self-report do not triangulate in the strong sense because they share the same vulnerability. A self-report measure and a behavioral measure triangulate because their error structures are largely independent."
+```
+
 ## Explainer
 
 The basic premise of **triangulation** borrows from navigation: if you take a single bearing on a target, you know its direction but not its distance. Take two bearings from different positions, and the intersection gives you a precise location. In research, a single method gives you a finding, but you cannot be sure whether the finding reflects the phenomenon you're studying or an artifact of your method. When two independent methods—with different strengths, weaknesses, and potential biases—converge on the same finding, the probability that both are producing the same artifact through different mechanisms becomes very low. Convergence across methods is therefore strong evidence that you have found something real.

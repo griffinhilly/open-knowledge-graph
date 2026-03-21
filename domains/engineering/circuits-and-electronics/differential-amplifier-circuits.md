@@ -35,6 +35,45 @@ Analyze the circuit by decomposing any pair of input signals into differential a
 - Confusing differential gain with single-ended gain — taking the output from one collector gives half the differential gain and includes a common-mode component; true differential output requires both collectors.
 - Treating the tail current source as a simple resistor in analysis — while a resistor works for basic understanding, it provides poor CMRR and the distinction between resistor and active current source is critical for real designs.
 
+## Questions
+
+```yaml
+- question: "Two differential amplifiers are built with identical transistors and collector resistors. The first uses a tail resistor R_EE = 10 kΩ; the second uses a current mirror with output impedance r_o = 1 MΩ. Which has better CMRR, and why?"
+  type: multiple-choice
+  options:
+    - "The resistor version — resistors are more stable and less sensitive to temperature variation"
+    - "The current mirror version — its much higher tail impedance makes common-mode gain extremely small, dramatically improving CMRR"
+    - "They are identical — CMRR depends only on transistor matching, not the tail element"
+    - "The resistor version — higher resistance increases the differential gain more than it improves CMRR"
+  answer: 1
+  explanation: "CMRR = |A_d / A_cm|. Common-mode gain A_cm ≈ −R_C / (2·R_tail), where R_tail is the impedance of the tail element seen by common-mode signals. A 10 kΩ resistor gives A_cm ≈ −R_C/20kΩ, while a current mirror with r_o = 1 MΩ gives A_cm ≈ −R_C/2MΩ — 100× smaller common-mode gain. Since differential gain A_d = g_m·R_C is the same for both, the current mirror CMRR is 100× (40 dB) higher. This is why every real op-amp uses an active current source as the tail."
+
+- question: "In half-circuit analysis of a differential amplifier driven in pure differential mode, what happens at the shared emitter node?"
+  type: multiple-choice
+  options:
+    - "It rises by v_d/2, adding to the differential output"
+    - "It becomes a virtual ground — the node does not move"
+    - "It oscillates at twice the input frequency"
+    - "It tracks the average of the two inputs (the common-mode voltage)"
+  answer: 1
+  explanation: "By symmetry, differential-mode signals are equal and opposite: one transistor's emitter current increases by exactly the same amount the other decreases. These equal and opposite changes cancel at the shared emitter node, leaving it stationary — a virtual ground. This means the tail current source impedance has no effect on differential gain: each transistor effectively sees a grounded emitter and the gain is simply A_d = g_m·R_C. The virtual ground is the key insight that makes half-circuit analysis work."
+
+- question: "Taking the output from only one collector of a differential pair (single-ended output) gives half the differential voltage gain compared to taking the difference between both collectors."
+  type: true-false
+  answer: true
+  explanation: "True differential output takes V_out = V_C1 − V_C2. Each collector swings ±g_m·R_C·(v_d/2) in opposite directions, so the differential output is g_m·R_C·v_d. A single-ended output takes only one collector's swing, which is g_m·R_C·(v_d/2) — half the magnitude. Additionally, the single-ended output mixes in a common-mode component that the differential output rejects. This is why op-amps use differential output (or level-shift the single-ended signal) for maximum CMRR and gain."
+
+- question: "A differential amplifier with a perfect, infinite-impedance tail current source will have infinite CMRR regardless of transistor mismatches."
+  type: true-false
+  answer: false
+  explanation: "Even with a perfect tail current source (infinite impedance → zero common-mode gain from the tail), real transistors have mismatches: differences in V_BE, current gain β, and transconductance g_m between the two halves. These mismatches allow common-mode signals to produce a differential output component even when the tail is ideal. Practical CMRR is therefore limited to 60–120 dB by device matching, not infinite. Laser trimming and careful layout reduce mismatches but cannot eliminate them entirely."
+
+- question: "Explain why a high-impedance tail current source dramatically improves CMRR compared to a simple resistor, using the half-circuit analysis perspective."
+  type: short-answer
+  answer: "In common-mode analysis, both transistors receive the same signal and both emitter currents try to increase together. The tail element resists this: in the common-mode half-circuit, each transistor sees twice the tail impedance as emitter degeneration. With a resistor R_EE, this degeneration is finite, so common-mode gain A_cm = −R_C / (2R_EE) is nonzero. With a current mirror (output impedance r_o >> R_EE), the emitter degeneration becomes 2r_o — enormous — making A_cm nearly zero. Since CMRR = |A_d / A_cm| and differential gain A_d is unaffected (the virtual ground means the tail plays no role in differential mode), replacing the resistor with a high-impedance current mirror primarily reduces A_cm, which multiplies CMRR by the impedance ratio."
+  explanation: "The asymmetry is the key: the tail impedance appears in the common-mode half-circuit but not in the differential half-circuit (virtual ground). This means you can make the tail as high-impedance as you want to suppress common-mode gain without affecting differential gain at all. A current mirror with r_o = 1 MΩ versus a 10 kΩ resistor improves CMRR by 40 dB — a factor of 100 — which in practice is the difference between a usable precision amplifier and an amplifier dominated by common-mode noise."
+```
+
 ## Explainer
 
 From your study of BJT fundamentals, you know that a transistor's collector current is controlled by its base-emitter voltage: I_C = I_S · exp(V_BE / V_T). The differential pair exploits this exponential relationship with two matched transistors sharing a common emitter node connected to a **tail current source** I_EE. Whatever current the tail source demands, that current splits between the two transistors according to the difference in their base voltages. When both bases are at the same potential, each transistor carries I_EE/2. When one base is slightly higher, more of I_EE steers toward that transistor and less toward the other — the circuit converts a voltage difference into a current imbalance, which collector resistors then convert back into a voltage difference at the outputs.

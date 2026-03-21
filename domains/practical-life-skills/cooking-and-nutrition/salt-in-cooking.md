@@ -29,6 +29,45 @@ Make two batches of the same dish: one where you salt the cooking water or food 
 ## Common Misconceptions
 - Salt only tastes salty and should be added at the very end. - Adding salt early makes food too salty; timing doesn't matter as long as the total amount is correct.
 
+## Questions
+
+```yaml
+- question: "You want to sear a steak with a deep, crispy crust. You have 10 minutes before cooking. What is the best salting strategy?"
+  type: multiple-choice
+  options:
+    - "Salt heavily 10 minutes before — enough time for full penetration"
+    - "Skip salting before cooking; only salt after the sear to avoid drawing out moisture"
+    - "Salt immediately before putting it in the pan — no time for surface moisture to form"
+    - "Salt 10 minutes before and pat the surface dry just before cooking"
+  answer: 2
+  explanation: "10 minutes is the worst window: long enough to draw surface moisture out via osmosis, but too short for that moisture to be reabsorbed. Surface moisture steams the meat instead of searing it, preventing a crust. The two correct approaches are: (1) salt immediately before cooking — no time for moisture to pool — or (2) salt at least 45 minutes ahead so moisture draws out and is reabsorbed back in, carrying dissolved salt into the interior. Option D helps but 10 minutes is still in the danger zone."
+
+- question: "A baker adds a small pinch of salt to a sweet cookie recipe even though the finished cookies shouldn't taste salty. Why?"
+  type: multiple-choice
+  options:
+    - "Salt activates the baking powder, making the cookies rise better"
+    - "Salt suppresses bitterness and amplifies other flavors, making the cookies taste more flavorful without tasting salty"
+    - "Salt preserves the cookies by drawing out water during baking"
+    - "Salt is a tradition with no measurable flavor effect in sweet recipes"
+  answer: 1
+  explanation: "Salt ions interfere with bitter taste receptors and create contrast that makes sweet, savory, and aromatic flavors more vivid. In cookies, a pinch of salt doesn't make them taste salty — it makes them taste more like themselves. Under-salted baked goods often taste flat and one-dimensional. This is why virtually every serious baking recipe includes salt, even in desserts."
+
+- question: "Salting pasta water before cooking seasons the pasta from the inside out, because salt penetrates the pasta as it absorbs water during cooking."
+  type: true-false
+  answer: true
+  explanation: "Salt diffuses into food over time. Pasta absorbs water as it cooks, and dissolved salt travels with that water into the pasta's interior. This produces pasta that is seasoned throughout — a fundamentally different result from tossing cooked, unsalted pasta with a salty sauce, which only coats the outside. The practical implication: pasta water should be salted generously before the pasta goes in, not after."
+
+- question: "As long as you use the same total amount of salt, it doesn't matter when you add it during cooking — the final flavor will be the same."
+  type: true-false
+  answer: false
+  explanation: "Salt's effects are time- and context-dependent. Early salt has time to penetrate and season throughout; late salt stays on the surface. Osmotic water loss differs depending on when salt contacts raw food. Salt added during cooking integrates into sauces and liquids differently than finishing salt added at the table. The total quantity matters, but so does the distribution of that quantity across the cooking process. 'Season in layers' is a real technique, not just preference."
+
+- question: "Why does salting raw vegetables before cooking them sometimes improve the final dish, even though it seems like it would just make them watery?"
+  type: short-answer
+  answer: "Salting draws out water via osmosis, which is often the goal. For cucumbers in a salad, removing water prevents dilution later. For eggplant or zucchini before roasting, water removal concentrates flavor and improves texture by allowing better browning. The key is intent: if unwanted moisture is the problem, pre-salting and draining solves it. The water that is drawn out takes bitterness with it in some vegetables."
+  explanation: "The osmotic process pulls water out of plant cells, which can serve multiple purposes: concentrating flavor, improving texture for sautéing or roasting, and in some cases (eggplant) removing bitter compounds that are water-soluble. A vegetable that releases water into a pan during cooking steams rather than browns — pre-salting and draining avoids this. Context determines whether the water removal is a benefit or a problem."
+```
+
 ## Explainer
 
 From basic seasoning, you know that salt makes food taste better. But salt does several distinct things at once, and understanding each one changes how and when you use it. Salt is not just a flavor — it's a functional ingredient that changes the physical structure of food as it cooks.

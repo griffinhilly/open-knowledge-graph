@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Active learning reduces labeling costs by strategically selecting which examples to label. Uncertainty sampling labels examples the model is uncertain about; diversity sampling selects representative examples. This approach is critical when annotation is expensive, enabling efficient data collection by focusing labeling effort on high-impact examples.
 
+## Questions
+
+```yaml
+- question: "A model trained with uncertainty sampling consistently queries borderline examples between two classes but never improves on a third class that exists in a distant cluster. What is the root cause and the fix?"
+  type: multiple-choice
+  options:
+    - "The model needs a larger architecture to handle three classes simultaneously"
+    - "Uncertainty sampling is myopic — it ignores distant, unvisited regions; diversity sampling addresses this by querying examples far from any already-labeled point"
+    - "The labeling budget is too small; with more labels the model will eventually reach the third cluster through uncertainty sampling"
+    - "The model should switch to unsupervised learning to discover the third cluster"
+  answer: 1
+  explanation: "Uncertainty sampling only queries examples near the current decision boundary. A cluster that the model has never seen labeled examples from will be confidently (but incorrectly) classified as the nearest known class — it doesn't look uncertain, so uncertainty sampling never queries it. Diversity sampling explicitly selects examples that are far from any already-labeled point, ensuring broader coverage of the feature space. The best active learning strategies combine both signals: uncertain AND diverse examples."
+
+- question: "What is the essential difference between active learning and standard supervised learning?"
+  type: multiple-choice
+  options:
+    - "Active learning uses unlabeled data at test time to improve predictions"
+    - "Active learning replaces gradient-based optimization with reinforcement signals from a reward function"
+    - "The model selects which examples to request labels for, rather than passively receiving a fixed pre-labeled dataset"
+    - "Active learning requires more labeled data to achieve the same accuracy as standard supervised learning"
+  answer: 2
+  explanation: "In standard supervised learning the dataset is fixed and the learner has no say in which examples are labeled. Active learning inverts this: the model queries an oracle (typically a human annotator) for labels on the examples it finds most informative. The practical payoff is that active learning achieves the same accuracy with far fewer labeled examples than random selection. Option D is the opposite of active learning's purpose — label efficiency is the entire motivation."
+
+- question: "In uncertainty sampling, the model should preferentially label examples where it is most confident about the correct class label."
+  type: true-false
+  answer: false
+  explanation: "Uncertainty sampling targets the opposite: examples where the model is *least* confident — those near the decision boundary where predicted class probabilities are closest to uniform. Labeling examples the model is already confident about would confirm what it already knows and add little information. Borderline examples, once labeled, can push the decision boundary in the right direction and improve accuracy across an entire region of the feature space."
+
+- question: "Active learning requires a small initial labeled seed set to begin — it cannot start from a completely unlabeled pool."
+  type: true-false
+  answer: true
+  explanation: "An initial labeled seed set is necessary to train even a minimal model, which the active learning loop uses to compute uncertainty scores and identify which unlabeled examples to query. Without any labels, the model has no learned representations and no basis for scoring examples. The seed set can be very small (sometimes just a handful of examples per class), but some starting point is required before the iterative query loop can begin."
+
+- question: "Explain why pure uncertainty sampling can fail in practice and what additional criterion addresses this limitation."
+  type: short-answer
+  answer: "Uncertainty sampling queries examples near the current decision boundary — examples the model finds confusing. If the unlabeled data contains clusters far from any labeled example (perhaps an entirely unseen class), the model will confidently misclassify those examples and never query them, because they don't look uncertain. The strategy gets stuck obsessively sampling a locally confusing region while ignoring large swaths of the data distribution. Diversity sampling addresses this by selecting examples far from any already-labeled point, ensuring coverage of underrepresented regions. Combined strategies — selecting examples that are both uncertain and diverse — produce faster learning curves and more robust models than either criterion alone."
+  explanation: "The failure mode is sometimes called 'query by committee bias' or 'boundary obsession.' A well-designed active learning system treats uncertainty and diversity as complementary objectives: uncertainty ensures the labels are maximally informative given what the model already knows; diversity ensures the model builds a complete picture of the data distribution rather than perfecting a small decision region."
+```
+
 ## Explainer
 
 In standard supervised learning, you assume a fixed labeled dataset and train a model on all of it. Active learning flips this assumption: instead of passively receiving labeled data, the model gets to *choose* which examples it wants labeled next. The motivation is practical — in many real-world settings, unlabeled data is abundant but labeling is expensive. A medical imaging system may have access to millions of X-rays, but getting a radiologist to annotate each one costs time and money. If the model could identify the 500 most informative images to label instead of labeling 10,000 at random, you could achieve the same performance at a fraction of the cost.

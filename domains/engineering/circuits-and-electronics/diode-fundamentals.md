@@ -45,6 +45,45 @@ Plot and interpret the I-V characteristic curve for a real silicon diode, noting
 - Forgetting to verify assumed on/off states after solving — an inconsistent assumption must be corrected by trying another assumption.
 - Confusing Zener breakdown (engineered, controlled, reversible) with avalanche breakdown damage from exceeding the maximum rated current.
 
+## Questions
+
+```yaml
+- question: "A silicon diode is connected in series with a 1 kΩ resistor and a 5 V supply, with the diode forward biased. Using the constant-voltage-drop model, what current flows through the circuit?"
+  type: multiple-choice
+  options:
+    - "5 mA — apply Ohm's law using the full 5 V supply across the 1 kΩ resistor"
+    - "4.3 mA — subtract the 0.7 V diode drop first, leaving 4.3 V across the resistor"
+    - "0.7 mA — the diode drop of 0.7 V divided by 1 kΩ gives the current"
+    - "0 mA — a forward-biased diode blocks current in this configuration"
+  answer: 1
+  explanation: "With 0.7 V dropped across the forward-biased diode, only 4.3 V remains across the resistor: I = 4.3 V / 1 kΩ = 4.3 mA. Option A is the most common error — applying the full supply voltage to the resistor while ignoring the diode drop. The 0.7 V forward voltage matters whenever it is comparable to signal levels; always subtract it from the available voltage before computing current through the rest of the circuit."
+
+- question: "After assuming a diode is OFF (reverse biased) and solving the circuit, a student finds that the voltage across the diode is +1.5 V with positive polarity at the anode. What should the student do next?"
+  type: multiple-choice
+  options:
+    - "Accept the result — a positive anode voltage confirms the diode is reverse biased"
+    - "Reject the assumption and re-analyze assuming the diode is ON, because +1.5 V at the anode would actually forward bias the diode"
+    - "Conclude the diode is in Zener breakdown, since 1.5 V exceeds the forward threshold"
+    - "Average the ON and OFF solutions to find the actual operating point"
+  answer: 1
+  explanation: "The assume-solve-verify cycle is the core methodology for diode circuits. An assumed-OFF diode with +1.5 V at the anode is self-contradictory: a positive anode voltage forward biases the diode, meaning it would actually be ON. The inconsistency invalidates the assumption. The student must restart with the diode assumed ON and verify that the resulting solution (positive current through the diode) is consistent. Option A represents the failure mode of skipping verification."
+
+- question: "A Zener diode operating in its reverse-breakdown region maintains an approximately constant voltage across its terminals over a wide range of currents."
+  type: true-false
+  answer: true
+  explanation: "This is the defining property exploited for voltage regulation. In the Zener breakdown region, large changes in reverse current produce very small changes in the voltage across the diode — the V-I curve is nearly vertical. A Zener in this region acts as a practical voltage reference: whatever current the rest of the circuit demands, the terminal voltage holds at approximately V_Z. This assumes the current stays within the rated range so power dissipation remains acceptable."
+
+- question: "The ideal diode model is more accurate than the constant-voltage-drop model for analyzing circuits with supply voltages around 0.5 V."
+  type: true-false
+  answer: false
+  explanation: "At low supply voltages, the ideal model (zero forward drop) is actually less accurate. The constant-voltage-drop model predicts the diode barely conducts or does not conduct at all when the supply voltage (0.5 V) is less than the 0.7 V forward threshold — which is physically correct. The ideal model incorrectly predicts full conduction and gives a significantly wrong current. The ideal model's approximation is only valid when the supply voltage is large enough that 0.7 V is negligible in comparison (typically at least a few volts)."
+
+- question: "Why must a student verify the assumed on/off state of a diode after solving a diode circuit, and what does it mean if the verification fails?"
+  type: short-answer
+  answer: "A diode's behavior depends on its operating state, but its state in turn depends on the circuit — creating a circular dependency. The analysis breaks this circle by assuming a state, solving the resulting linear circuit, then checking self-consistency: an assumed-OFF diode must have zero or reverse current and forward voltage below ~0.7 V; an assumed-ON diode must have positive (forward) current and ~0.7 V forward drop. If the solution contradicts the assumption, the assumption is wrong and the analysis must be restarted with the opposite state. Skipping verification is the primary source of errors in diode circuit analysis."
+  explanation: "For circuits with multiple diodes, every possible combination of on/off states may need to be checked. The valid solution is the unique one where all assumptions are self-consistent simultaneously — there is always exactly one physically correct operating point."
+```
+
 ## Explainer
 
 You've learned that circuit elements are characterized by their voltage-current relationship. A resistor's I-V relationship is linear: double the voltage, double the current. A diode is fundamentally different — its I-V relationship is exponential and asymmetric, and understanding that asymmetry is the key to understanding everything a diode does.

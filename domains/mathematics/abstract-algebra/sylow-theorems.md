@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 For a finite group G of order pᵏm with gcd(p, m) = 1, Sylow's theorems assert the existence of p-Sylow subgroups of order pᵏ, that all such subgroups are conjugate, and that the number of p-Sylow subgroups divides m and is ≡ 1 (mod p).
 
+## Questions
+
+```yaml
+- question: "A group G has order 15 = 3 · 5. What can the Sylow theorems tell you about the number of Sylow 3-subgroups (n₃)?"
+  type: multiple-choice
+  options:
+    - "n₃ can be 1, 3, or 5, since any of these divide 15"
+    - "n₃ must equal 1, since it must divide 5 and be ≡ 1 mod 3, leaving only n₃ = 1"
+    - "n₃ can be 1 or 5, since both divide 15"
+    - "n₃ is undetermined without knowing the specific group structure"
+  answer: 1
+  explanation: "The Third Sylow Theorem requires n₃ to satisfy two conditions simultaneously: n₃ divides m = 5 (so n₃ ∈ {1, 5}) AND n₃ ≡ 1 mod 3 (so n₃ ∈ {1, 4, 7, ...}). The only value satisfying both is n₃ = 1. Option (a) ignores the mod condition; option (c) checks divisibility but forgets the congruence condition. The two constraints together are what make the theorem powerful."
+
+- question: "There is exactly one Sylow p-subgroup P of a finite group G. Which conclusion follows directly from this fact?"
+  type: multiple-choice
+  options:
+    - "P is the center of G, since unique subgroups are always central"
+    - "P is a normal subgroup of G"
+    - "P is cyclic, since all Sylow subgroups of prime-power order are cyclic"
+    - "P is the only subgroup of G of any order"
+  answer: 1
+  explanation: "By the Second Sylow Theorem, all Sylow p-subgroups are conjugate. If nₚ = 1, the unique subgroup P equals all of its conjugates — gPg⁻¹ = P for every g ∈ G. That is precisely the definition of a normal subgroup. Option (a) is not generally true; a unique Sylow subgroup need not be central. Option (c) is a separate question about the structure of P, not a consequence of uniqueness."
+
+- question: "All Sylow p-subgroups of a finite group are isomorphic to each other."
+  type: true-false
+  answer: true
+  explanation: "By the Second Sylow Theorem, all Sylow p-subgroups are conjugate: if P and Q are both Sylow p-subgroups, then Q = gPg⁻¹ for some g ∈ G. Conjugation is an isomorphism, so all Sylow p-subgroups are isomorphic. This is true regardless of how many there are — even if nₚ > 1, every Sylow p-subgroup has the same structure."
+
+- question: "If nₚ > 1, the Sylow p-subgroups cannot be isomorphic to each other, since they are distinct subgroups."
+  type: true-false
+  answer: false
+  explanation: "Being distinct as subsets of G does not prevent isomorphism as groups. The Second Sylow Theorem says all Sylow p-subgroups are conjugate, and conjugation is an isomorphism. Multiple Sylow p-subgroups can coexist and still be isomorphic — they are different subgroups of G but have the same internal structure."
+
+- question: "Why does nₚ = 1 imply that the unique Sylow p-subgroup is normal in G? Explain using the definition of normality and the Second Sylow Theorem."
+  type: short-answer
+  answer: "A subgroup P is normal in G if gPg⁻¹ = P for every g ∈ G. By the Second Sylow Theorem, any conjugate gPg⁻¹ is itself a Sylow p-subgroup. If nₚ = 1, there is only one Sylow p-subgroup — so gPg⁻¹ must equal P for every g. This is exactly normality. The uniqueness of P forces every conjugate to land back on P itself."
+  explanation: "This argument is elegant because it requires no special properties of P — only the counting argument from the Third Sylow Theorem (which pins down nₚ = 1) combined with the conjugacy result from the Second Sylow Theorem. It is why Sylow analysis is used to find normal subgroups and prove simplicity or non-simplicity of groups."
+```
+
 ## Explainer
 
 You came to the Sylow theorems through the **class equation**, which used conjugacy classes to count elements and extract information about a group's structure. The Sylow theorems push this counting machinery much further — they are the main tool for classifying finite groups and proving that groups of certain orders cannot be simple.

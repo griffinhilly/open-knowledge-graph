@@ -29,6 +29,45 @@ Start from a familiar NP problem (SAT) and construct its complement (UNSAT / TAU
 - co-NP is NOT the complement of NP — it is the class of complements of NP languages. P is contained in both NP and co-NP, so these classes overlap significantly.
 - If P = NP, then NP = co-NP, but NP = co-NP does not necessarily imply P = NP — the relationship is a one-way implication.
 
+## Questions
+
+```yaml
+- question: "Consider the TAUTOLOGY problem: given a Boolean formula, is it true under every possible truth assignment? Which type of certificate does TAUTOLOGY have that is short and efficiently verifiable?"
+  type: multiple-choice
+  options:
+    - "A 'yes' certificate — a single satisfying assignment that proves the formula is always true"
+    - "A 'no' certificate — a single falsifying assignment that proves the formula is not always true"
+    - "Both types — TAUTOLOGY has polynomial-time certificates for both yes and no answers"
+    - "Neither — TAUTOLOGY requires checking exponentially many assignments in both directions"
+  answer: 1
+  explanation: "TAUTOLOGY is the co-NP-complete problem precisely because 'no' answers are easy to verify (one falsifying assignment suffices) while 'yes' answers apparently require checking all 2^n assignments. This is the defining asymmetry of co-NP: problems where 'no' has a short, efficiently verifiable certificate. A 'yes' certificate for TAUTOLOGY would need to certify that *no* falsifying assignment exists — which seems to require exhaustive search and is why TAUTOLOGY is not believed to be in NP (unless NP = co-NP)."
+
+- question: "Which of the following correctly describes the relationship between P, NP, and co-NP?"
+  type: multiple-choice
+  options:
+    - "co-NP is the set of all decision problems NOT in NP; P is in NP but not in co-NP"
+    - "P is contained in both NP and co-NP; co-NP consists of problems whose complements are in NP"
+    - "co-NP = NP by definition, since every problem in NP has a complement"
+    - "co-NP problems are strictly harder than NP problems since they require verifying more assignments"
+  answer: 1
+  explanation: "P is closed under complement (if you can solve a problem in polynomial time, you can solve its complement in polynomial time too), so P ⊆ NP ∩ co-NP — both classes share all of P. co-NP is defined language-by-language: L ∈ co-NP iff the complement of L is in NP. It is NOT the complement of NP as a set; the complement of NP would exclude P, which is clearly wrong. Whether NP = co-NP is open. What we know is that P ⊆ NP ∩ co-NP, and likely NP ≠ co-NP, but we cannot prove it."
+
+- question: "If P = NP, then it follows that NP = co-NP."
+  type: true-false
+  answer: true
+  explanation: "P is closed under complement: if a problem is solvable in polynomial time, its complement is also solvable in polynomial time (just flip the accept/reject). If P = NP, then NP = P, and since P = co-P ⊆ co-NP, and also co-NP ⊆ NP (because NP = P = co-P and then by symmetry), we get NP = co-NP. More directly: if P = NP, every NP problem is solvable in polynomial time, so its complement is also solvable in polynomial time, putting the complement in P ⊆ NP. Hence every NP language has its complement in NP, meaning every NP language is in co-NP, so NP ⊆ co-NP, and symmetrically co-NP ⊆ NP."
+
+- question: "co-NP is the set of decision problems that are not in NP."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about co-NP. co-NP is defined as the class of problems whose *complements* are in NP — it is NOT the complement of the set NP. In fact, P is contained in both NP and co-NP, so the two classes overlap substantially. Problems in P are in both NP and co-NP simultaneously. The 'co-' prefix refers to taking the complement of each *individual language*, not the complement of the entire complexity class."
+
+- question: "Explain the asymmetry between SAT and TAUTOLOGY that makes SAT an NP-complete problem and TAUTOLOGY a co-NP-complete problem."
+  type: short-answer
+  answer: "SAT asks: does a given formula have *at least one* satisfying assignment? A 'yes' certificate is short and easy to verify — just provide one satisfying assignment and check it in polynomial time. But TAUTOLOGY asks: does a formula hold under *every* assignment? A 'no' certificate is short — one falsifying assignment suffices. The difficulty is asymmetric: SAT's 'yes' instances are easy to certify (one witness), and TAUTOLOGY's 'no' instances are easy to certify (one witness). SAT is in NP because yes-answers have short certificates; TAUTOLOGY is in co-NP because its no-answers have short certificates, which means SAT (= complement of TAUTOLOGY) is in NP."
+  explanation: "The relationship is exact: TAUTOLOGY is the complement of SAT. Every formula either has a satisfying assignment (SAT = 'yes', TAUTOLOGY = 'no') or has none (SAT = 'no', TAUTOLOGY = 'yes'). NP is precisely the class where yes-answers have efficient certificates; co-NP is the class where no-answers have efficient certificates. Since SAT ∈ NP, the complement (TAUTOLOGY) is in co-NP by definition — and TAUTOLOGY is co-NP-complete because any co-NP problem reduces to it."
+```
+
 ## Explainer
 
 Start from what you already know about NP: a problem is in NP if "yes" answers have short, efficiently checkable **certificates**. For SAT, a satisfying assignment is the certificate — hand it to a verifier and it can confirm in polynomial time that the assignment makes the formula true. The difficulty is in *finding* such an assignment, not in checking it. NP is the class where yes-answers are easy to verify even if they are hard to find.

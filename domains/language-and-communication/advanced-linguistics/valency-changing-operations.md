@@ -20,6 +20,45 @@ status: draft
 ## Core Idea
 Valency-changing operations like passivization, causativization, and applicatives alter predicate argument structure. Passivization demotes agents and promotes objects; causativization adds external causers; applicatives add beneficiaries. These operations are often expressed morphologically and illuminate the lexical-syntactic structure of predicates, showing that argument structure is not fixed but systematically transformable through dedicated operations.
 
+## Questions
+
+```yaml
+- question: "In Turkish, an intransitive verb meaning 'the ice melted' becomes 'she melted the ice' by adding a causativization suffix. What has changed about the verb's argument structure?"
+  type: multiple-choice
+  options:
+    - "The Theme argument (ice) was replaced by an Agent (she), leaving the total valency unchanged"
+    - "An external Causer (she) was added while the original Theme (ice) was preserved, increasing valency by one"
+    - "The event changed from spontaneous melting to a different event of controlled heating"
+    - "The verb acquired passive morphology, which demoted the original subject to an oblique"
+  answer: 1
+  explanation: "Causativization adds a Causer without replacing any existing argument. The original Theme (ice) remains a participant; a new Causer (she) is added as the external instigator of the event. Valency increases by one. The event described is still melting — the same physical process — now with an added external cause. This is the signature of causativization: valency increase by adding specifically a Causer, not just any participant."
+
+- question: "Passivizing 'The thief broke the window' yields 'The window was broken by the thief.' What happens to the Agent argument?"
+  type: multiple-choice
+  options:
+    - "The Agent is eliminated from the sentence's meaning — in the passive, there is no agent"
+    - "The Agent is promoted to an additional grammatical object alongside the Theme"
+    - "The Agent is demoted from obligatory subject to an optional oblique (the by-phrase), which can be suppressed entirely"
+    - "The Agent and Theme swap positions with no change in their semantic or grammatical prominence"
+  answer: 2
+  explanation: "Passivization demotes — it does not eliminate — the Agent. The Agent moves from obligatory subject position to an optional by-phrase ('by the thief') that can be omitted: 'The window was broken.' The event and its participants remain the same; only the mapping from semantic roles to grammatical positions has changed. The Theme is promoted to subject. This is why passivization reduces apparent valency: the Agent becomes optional, no longer an obligatory argument."
+
+- question: "A valency-changing operation can produce a sentence describing the same event as the base sentence but with a different number of grammatical arguments."
+  type: true-false
+  answer: true
+  explanation: "This is the defining property of valency-changing operations. Passivization produces the same event with the Agent demoted/optional (apparent decrease in valency). Causativization produces the same type of event with an added Causer (valency increase). The event type — breaking, melting, giving — is not changed; what changes is the grammatical projection of participants. Same semantic event, different argument structure configurations."
+
+- question: "When a sentence is passivized, the event being described changes — the passive describes an event in which no agent caused the action."
+  type: true-false
+  answer: false
+  explanation: "'The window was broken by the thief' describes the exact same event as 'The thief broke the window' — the same thief, the same window, the same breaking. Passivization is a structural operation that reorganizes the grammatical projection of participants (who is subject, who is oblique) without changing the underlying semantic event. Even when the by-phrase is omitted ('The window was broken'), there is still an implied agent; the passive merely renders it optional rather than eliminating it from the meaning."
+
+- question: "Explain the two-layer architecture of argument structure and how valency-changing operations work within it."
+  type: short-answer
+  answer: "Argument structure has two layers: (1) the underlying semantic structure — who does what to whom, which participants the event requires — and (2) the grammatically projected structure — which participants are encoded as subject, object, or oblique in the syntax. Valency-changing operations manipulate the mapping between these layers, not the semantic layer itself. Passivization keeps the same participants but reassigns their grammatical roles (Theme → subject, Agent → optional oblique). Causativization adds a new semantic participant (Causer) and maps it to subject. The event stays constant; the grammatical packaging changes."
+  explanation: "This two-layer view predicts that valency-changing operations should be compositional: you can passivize a causative ('The ice was melted by her') because the same architecture applies at each step. It also explains why languages encode these operations morphologically — the verb's morphology signals which valency operation has applied, helping listeners recover which semantic participant maps to each grammatical position. The cross-linguistic prevalence of these operations (passives, causatives, and applicatives appear in unrelated language families) suggests they reflect something deep about how humans conceptualize and grammatically encode events."
+```
+
 ## Explainer
 
 From argument structure and thematic roles, you know that verbs come with a fixed set of participants they require — the verb *give* demands a Giver, a Recipient, and a Given-thing; *break* needs an Agent (optionally) and a Theme. This argument structure is stored in the lexicon as part of the verb's meaning. Valency-changing operations are the grammatical machinery that alters this stored structure in principled ways, either adding, removing, or reorganizing participants without changing the core event being described.

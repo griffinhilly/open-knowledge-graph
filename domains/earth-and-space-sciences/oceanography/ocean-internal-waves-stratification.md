@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Internal waves form at density discontinuities within the ocean (thermoclines and haloclines) and can grow to amplitudes exceeding surface waves. These waves drive vertical mixing and transfer mechanical energy from tides and currents to small-scale turbulence and heat.
 
+## Questions
+
+```yaml
+- question: "Internal waves in the deep ocean can reach amplitudes exceeding 100 meters, far beyond typical surface waves. What primarily explains why such large displacements are possible?"
+  type: multiple-choice
+  options:
+    - "The greater depth of the ocean provides more vertical space for wave oscillation to develop"
+    - "Internal waves carry more energy than surface waves because tidal forcing is stronger than wind forcing"
+    - "The tiny density contrast between ocean layers means the restoring force is weak, allowing large displacements without requiring proportionally large energy"
+    - "Internal waves are not restrained by gravity in the same way surface waves are"
+  answer: 2
+  explanation: "At the ocean surface, the density contrast between air and water is about 800:1, creating a strong restoring force that limits amplitude. At interior pycnoclines, the density difference between layers is less than 1% — a tiny contrast that means very little energy is needed to displace the interface by large amounts. This is the same physics as surface waves but with a vastly weaker restoring force. The large amplitude is a consequence of that weakness, not of available space or energy source strength."
+
+- question: "What is the primary mechanism by which internal waves are generated in the deep ocean?"
+  type: multiple-choice
+  options:
+    - "Wind stress at the surface drives turbulence that propagates downward as internal oscillations"
+    - "Barotropic tidal currents flowing over rough seafloor topography force water columns to oscillate vertically, radiating internal waves"
+    - "Thermohaline circulation creates vertical density instabilities that spontaneously radiate wave energy"
+    - "Solar heating of the surface layer drives thermal expansion that launches waves along the thermocline"
+  answer: 1
+  explanation: "When the barotropic (surface) tide flows horizontally over seafloor ridges, seamounts, or shelf edges, the flow is forced upward and downward over the bumps, generating oscillating vertical displacements in the stratified water column. These launch internal waves — called baroclinic tides — that radiate away from the topography. This conversion of tidal energy accounts for roughly half of all tidal dissipation in the deep ocean. Wind-driven oscillations also generate internal waves but are secondary in the deep-ocean energy budget."
+
+- question: "Internal waves travel more slowly than surface waves because the density contrast at interior ocean boundaries is far smaller than the density contrast between water and air."
+  type: true-false
+  answer: true
+  explanation: "Wave speed depends on the density contrast across the interface: a larger contrast produces a stronger restoring force and faster wave propagation. At the ocean surface, the water-air density ratio is about 1025:1.2 ≈ 800:1 — enormous. At an interior pycnocline, the density difference between adjacent layers may be less than 1 kg/m³ out of ~1025 kg/m³ — a ratio under 0.1%. This tiny contrast produces a weak restoring force, yielding internal wave speeds of only centimeters per second compared to meters per second for surface waves."
+
+- question: "The locations where internal waves are generated and where they eventually break and mix the ocean always coincide, because internal waves lose their energy immediately upon formation at seafloor topography."
+  type: true-false
+  answer: false
+  explanation: "Internal waves can travel hundreds to thousands of kilometers from their generation sites before breaking and dissipating. A wave generated at a mid-ocean ridge may propagate across an entire ocean basin, steepening and eventually breaking in an entirely different region. This spatial decoupling matters for ocean circulation: seafloor topography in one location controls mixing rates far away. It also means that local mixing measurements need not reflect local wave generation — the energy may have originated at a distant source."
+
+- question: "Why is the breaking of internal waves important for the large-scale ocean circulation, and what would happen to deep-ocean mixing if internal waves were absent?"
+  type: short-answer
+  answer: "Internal wave breaking converts organized wave energy into small-scale turbulence, which mixes water across density surfaces — lifting cold, dense deep water upward. This turbulent mixing is essential for closing the thermohaline overturning circulation, which depends on cold bottom water being continuously returned toward the surface. Without internal wave breaking, deep-water mixing rates would be far lower, the overturning circulation would weaken dramatically, and the deep ocean would stagnate."
+  explanation: "The thermohaline circulation is driven partly by surface cooling and sinking at high latitudes, but requires an upward return pathway for dense deep water. Without diapycnal (cross-density-surface) mixing, that deep water has no efficient way to return to the surface. Internal wave breaking is the dominant source of diapycnal mixing in the ocean interior away from boundaries — it provides the mechanical energy needed to lift dense water against gravity. Estimates suggest roughly 2 TW of mixing power is needed to sustain the overturning circulation, and internal wave dissipation supplies much of that."
+```
+
 ## Explainer
 
 From your study of ocean stratification, you know that the ocean is not a uniform fluid — it is layered by density, with warmer, lighter water sitting atop colder, denser water, separated by a sharp transition called the **thermocline** (or **pycnocline** when salinity differences also contribute). Surface waves travel along the boundary between air and water, where the density contrast is enormous. Internal waves obey the same physics but travel along density boundaries *within* the ocean, where the density contrast between layers is much smaller — typically less than 1%. This small density difference has a dramatic consequence: internal waves move slowly (often just centimeters per second compared to meters per second for surface waves) but can achieve enormous amplitudes, sometimes exceeding 100 meters from trough to crest, dwarfing anything seen at the surface.

@@ -19,6 +19,45 @@ status: draft
 ## Core Idea
 Benzodiazepines provide rapid anxiety relief through GABA-A agonism but carry abuse potential and tolerance risk, limiting long-term use. Short-term application with psychotherapy integration is evidence-based practice.
 
+## Questions
+
+```yaml
+- question: "A patient has been taking a benzodiazepine daily for 3 months and reports that the same dose no longer controls their anxiety as well as it used to. A student suggests: 'The drug is probably being eliminated faster now — their liver enzymes have sped up its metabolism.' What is the more accurate pharmacological explanation?"
+  type: multiple-choice
+  options:
+    - "The drug has switched from allosteric modulation to direct GABA-A agonism, which is less effective"
+    - "The patient has developed psychological tolerance only — their expectations have changed, not their neurobiology"
+    - "Repeated enhancement of GABA-A inhibition causes the brain to compensate by downregulating receptor expression and sensitivity — pharmacodynamic tolerance — so the same dose produces less inhibitory effect"
+    - "Short-acting benzodiazepines cannot produce tolerance; only long-acting agents like diazepam cause this effect"
+  answer: 2
+  explanation: "Benzodiazepine tolerance is primarily pharmacodynamic: the brain compensates for enhanced GABA-A activity by reducing receptor density and sensitivity (downregulation). This is distinct from pharmacokinetic tolerance (faster metabolism), which can occur with some drugs but is not the primary mechanism here. The clinical consequence is dose escalation — and with escalating dose comes escalating dependence risk, which is why clinical guidelines recommend limiting benzodiazepine prescriptions to 2–4 weeks."
+
+- question: "Why is benzodiazepine withdrawal potentially medically dangerous in a dependent patient, in a way that discontinuing most other psychiatric medications is not?"
+  type: multiple-choice
+  options:
+    - "Benzodiazepines accumulate in fat tissue and are released suddenly on cessation, causing an overdose-like reaction"
+    - "Stopping benzodiazepines depletes serotonin, triggering a depressive crisis that carries suicide risk"
+    - "Because the CNS has compensated for chronically enhanced GABA inhibition by downregulating inhibitory receptors, abrupt discontinuation leaves the nervous system in a hyperexcitable state that can produce seizures — which can be fatal"
+    - "Benzodiazepine withdrawal causes a dangerous cortisol surge because the drug suppresses the HPA axis"
+  answer: 2
+  explanation: "GABA is the brain's primary inhibitory neurotransmitter. With prolonged benzodiazepine use, the CNS downregulates GABA-A receptors. When the drug is removed, inhibition drops sharply while excitatory systems remain upregulated — producing rebound hyperexcitability. This can progress through anxiety and tremor to seizures, which carry mortality risk if untreated. This distinguishes benzodiazepine withdrawal from most antidepressant discontinuation syndromes, which are uncomfortable but not medically dangerous in this way."
+
+- question: "Benzodiazepines work by directly activating GABA-A receptors — they bind to the GABA site and trigger chloride channel opening independently of GABA."
+  type: true-false
+  answer: false
+  explanation: "Benzodiazepines are positive allosteric modulators, not direct agonists. They bind to a distinct allosteric site on the GABA-A receptor and increase the frequency of chloride channel opening when GABA is also present. Without GABA, benzodiazepines have minimal effect. This is clinically important: the drug amplifies existing inhibitory tone rather than creating it from scratch, which provides a ceiling on their effects and is part of why they are safer in overdose than barbiturates (which do directly activate GABA-A channels)."
+
+- question: "Because benzodiazepines directly target the neurobiological basis of anxiety through GABA-A modulation, they are considered first-line long-term pharmacotherapy for generalized anxiety disorder."
+  type: true-false
+  answer: false
+  explanation: "Despite their effectiveness, benzodiazepines are not first-line for long-term GAD treatment due to tolerance, dependence, and dangerous withdrawal risk. SSRIs and SNRIs are the guideline-recommended first-line pharmacotherapy for chronic anxiety disorders. Buspirone is an alternative for GAD specifically. Benzodiazepines are reserved for short-term or adjunctive use — acute anxiety crises, bridging while waiting for antidepressant onset, preoperative settings — not as the primary ongoing treatment."
+
+- question: "Why are benzodiazepines described as a 'bridge, not a destination' in evidence-based anxiety treatment, and what does the clinical approach use them in conjunction with?"
+  type: short-answer
+  answer: "Benzodiazepines rapidly reduce physiological arousal, which can lower anxiety enough for the patient to engage in psychotherapy — but they do not address the cognitive distortions, avoidance behaviors, or intolerance of uncertainty that maintain anxiety long-term. CBT (cognitive-behavioral therapy) targets these maintaining factors and builds durable coping skills, enabling eventual medication taper. The evidence-based approach uses short-term benzodiazepines to create a therapeutic window in which CBT can take effect, then tapers the medication as the patient develops CBT-based skills."
+  explanation: "The practical logic: benzodiazepine onset is minutes-to-hours; antidepressant onset is 2–6 weeks; CBT effects build over weeks to months. A patient in acute distress cannot wait 6 weeks for an SSRI to work, and cannot engage productively in CBT when overwhelmed by arousal. Benzodiazepines address the immediate problem while the longer-term solutions are established. The risk is that if benzodiazepines continue beyond the bridge, dependence develops and they become a maintaining factor rather than a treatment."
+```
+
 ## Explainer
 
 If you understand GAD, you know that its core feature is chronic, difficult-to-control worry accompanied by persistent physiological arousal — muscle tension, sleep disruption, and a nervous system that can't settle. Benzodiazepines address that arousal state directly and rapidly, which explains both their clinical appeal and their risks. To understand how they work, consider that the brain's primary inhibitory neurotransmitter is **GABA (gamma-aminobutyric acid)**. When GABA binds to GABA-A receptors, chloride ions flow into the neuron, hyperpolarizing it and making it harder to fire. Benzodiazepines don't activate this receptor directly — they bind to an adjacent allosteric site and increase the *frequency* of chloride channel opening when GABA is present. The result is amplified inhibitory signaling throughout the CNS, producing sedation, muscle relaxation, anxiolysis, and anticonvulsant effects.

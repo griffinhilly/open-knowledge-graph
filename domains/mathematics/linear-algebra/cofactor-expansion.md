@@ -33,6 +33,45 @@ Practice expanding along different rows and columns of the same matrix to verify
 - The row chosen for expansion is arbitrary — all choices give the same result, but strategic choices reduce arithmetic.
 - Cofactor expansion is recursive; each minor is itself a determinant that may require further expansion.
 
+## Questions
+
+```yaml
+- question: "You must compute the determinant of a 4×4 matrix. Its second row is [0, 5, 0, 0]. Which expansion strategy minimizes computation?"
+  type: multiple-choice
+  options:
+    - "Expand along row 1, because cofactor expansion always begins with the first row"
+    - "Expand along row 2, because it has three zeros and requires computing only one cofactor"
+    - "Expand along column 1, because columns are always more efficient than rows"
+    - "Expand along the main diagonal"
+  answer: 1
+  explanation: "Any row or column gives the same determinant — the choice is entirely strategic. Row 2 has three zeros, so three of the four terms a₂ⱼ·C₂ⱼ vanish immediately (since a₂ⱼ = 0). Only the j=2 term survives: a₂₂·C₂₂ = 5·C₂₂, reducing the work to computing a single 3×3 determinant. Expanding along row 1 (which has no zeros) requires computing four 3×3 determinants — four times more work. The first option reflects the common misconception that cofactor expansion must start at the top row."
+
+- question: "What is the sign of the (2, 3) cofactor C₂₃ in cofactor expansion?"
+  type: multiple-choice
+  options:
+    - "Positive, because all cofactors in the second row are positive"
+    - "Negative, because (−1)^(2+3) = (−1)^5 = −1"
+    - "Positive, because (−1)^(2×3) = (−1)^6 = +1"
+    - "It depends on the values of the matrix entries"
+  answer: 1
+  explanation: "The sign of the (i,j) cofactor is always (−1)^(i+j), regardless of the matrix entries. For position (2,3): (−1)^(2+3) = (−1)^5 = −1, so C₂₃ = −M₂₃. Option C is the classic error: multiplying i and j rather than adding them. Option D confuses the sign of the cofactor (determined by position) with the value of the minor (determined by the submatrix entries). The sign depends only on the position in the checkerboard pattern."
+
+- question: "Expanding a matrix determinant along different rows or columns can produce different values for the determinant."
+  type: true-false
+  answer: false
+  explanation: "This is a fundamental property of the determinant: cofactor expansion along any row or any column gives the same result. The (−1)^(i+j) sign pattern in the cofactors is precisely what ensures this consistency — it compensates for the different positions of the entries across rows and columns. If different expansions gave different values, the determinant would not be a well-defined function of the matrix. Choosing a different row is purely a computational strategy, not a mathematically different operation."
+
+- question: "The (2,3) cofactor C₂₃ equals (−1)^(2+3) times the determinant of the submatrix formed by deleting row 2 and column 3."
+  type: true-false
+  answer: true
+  explanation: "This is precisely the definition of a cofactor. The (i,j) minor Mᵢⱼ is the determinant of the (n−1)×(n−1) submatrix obtained by deleting row i and column j. The cofactor Cᵢⱼ = (−1)^(i+j) × Mᵢⱼ. For position (2,3), the sign is (−1)^5 = −1, so C₂₃ = −M₂₃. This signed minor is what appears in the cofactor expansion formula det(A) = Σⱼ aᵢⱼ Cᵢⱼ."
+
+- question: "Why is the freedom to expand along any row or column practically useful, not just a mathematical curiosity? What strategy should you always apply before beginning a cofactor expansion?"
+  type: short-answer
+  answer: "Different rows and columns may have different numbers of zeros; expanding along a row or column with many zeros means most terms vanish (aᵢⱼ·Cᵢⱼ = 0 whenever aᵢⱼ = 0), leaving fewer cofactors to actually compute. The strategy is to scan all rows and columns before starting and choose whichever has the most zeros. If no zeros exist, row operations can sometimes create them first. This can reduce a 4×4 expansion from four 3×3 determinants to just one."
+  explanation: "The mathematical guarantee that all expansions give the same value is what licenses this strategic choice. Without it, you would be forced to expand along a fixed row and might face unnecessary arithmetic. The savings grow rapidly with matrix size: a zero in row i of a 5×5 matrix eliminates one 4×4 determinant, each 4×4 term requires four 3×3 determinants, and so on — each zero saved eliminates an exponentially growing subtree of computation."
+```
+
 ## Explainer
 
 From your work with 2×2 and 3×3 determinants, you already know the pattern: det[a b; c d] = ad − bc, and the 3×3 determinant can be computed by expanding along the top row, multiplying each entry by the 2×2 determinant of what remains when that entry's row and column are deleted. Cofactor expansion generalizes this recipe to matrices of any size. The key insight is that determinants are defined **recursively**: a 4×4 determinant is defined in terms of four 3×3 determinants, which are each defined in terms of three 2×2 determinants, and so on down to the base case.

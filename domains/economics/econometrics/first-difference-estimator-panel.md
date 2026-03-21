@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 The first-difference estimator eliminates time-invariant unobserved heterogeneity by taking successive period differences, then running OLS on differenced variables. Simple and intuitive, it loses information and performs poorly with persistent outcomes, motivating alternative estimators.
 
+## Questions
+
+```yaml
+- question: "A researcher has two-period panel data and worries that workers with higher innate ability earn more AND are more likely to get promoted (an omitted variable). The first-difference estimator removes this bias because:"
+  type: multiple-choice
+  options:
+    - "It controls for time-varying confounders by averaging across periods"
+    - "Ability is the same value for the same person in both periods, so it cancels when you subtract period 1 from period 2"
+    - "The differenced equation includes ability as an explicit control variable"
+    - "Taking differences increases sample size, reducing bias from outliers"
+  answer: 1
+  explanation: "The individual fixed effect αᵢ (here, ability) appears identically in both period equations. When you subtract: Yᵢ₂ − Yᵢ₁ = (αᵢ − αᵢ) + β(Xᵢ₂ − Xᵢ₁) + (εᵢ₂ − εᵢ₁). The αᵢ terms cancel exactly — a person's ability does not change between periods. This is within-unit identification: comparing each person to themselves. Note that FD does NOT remove time-varying confounders; those remain in Δεᵢ."
+
+- question: "With T=10 periods and serially uncorrelated errors, which estimator is generally preferred over first-differences?"
+  type: multiple-choice
+  options:
+    - "First-differences, because it creates more observations by using T−1 differences"
+    - "The within (demeaning) estimator, because it uses all T observations and is more efficient"
+    - "Pooled OLS, because panel structure is only needed when errors are correlated"
+    - "First-differences and within are always equivalent with T > 2 periods"
+  answer: 1
+  explanation: "With uncorrelated errors, the within estimator that demeans each unit around its time average uses all T observations per unit and is more statistically efficient than FD, which uses only T−1 differences and discards level information. However, when errors follow a random walk, FD produces white-noise differenced errors while within errors become correlated — reversing the efficiency ranking. The choice depends on the error structure."
+
+- question: "The first-difference estimator eliminates all sources of omitted variable bias, not just bias from time-invariant confounders."
+  type: true-false
+  answer: false
+  explanation: "FD removes bias from time-invariant omitted variables (captured by αᵢ) because they are identical in both periods and cancel in the difference. Time-varying omitted variables — confounders that change between periods and are correlated with ΔX — survive differencing and remain in Δεᵢ. For example, if workers who got training also received simultaneous wage subsidies, that subsidy change is a time-varying confounder FD cannot eliminate."
+
+- question: "In a two-period panel, the first-difference estimator and the within (demeaning) estimator produce numerically identical coefficient estimates."
+  type: true-false
+  answer: true
+  explanation: "With exactly T=2 periods, demeaning a unit around its two-period mean is algebraically equivalent to taking the first difference — both reduce to the same calculation. The equivalence breaks down with T > 2 because FD uses T−1 differences while within demeaning uses all T observations around a unit mean."
+
+- question: "Why does the first-difference estimator become imprecise when the outcome variable is highly persistent (changes very little from period to period)?"
+  type: short-answer
+  answer: "FD identifies β from ΔYᵢ = βΔXᵢ + Δεᵢ — regression of outcome changes on predictor changes. If Y barely moves between periods, most ΔYᵢ values cluster near zero and there is very little variation in the dependent variable to identify β. The signal-to-noise ratio collapses: the small systematic movements in ΔY are swamped by even modest noise in Δε. A highly persistent outcome means the within-unit changes that FD relies on are too small to be reliably measured."
+  explanation: "This structural weakness motivates GMM-based panel estimators like Arellano-Bond, which use lagged levels as instruments for the differenced equation — recovering the level variation that FD discards."
+```
+
 ## Explainer
 
 You already know from your study of panel data that observing the same unit over multiple time periods gives you leverage that cross-sectional data cannot: you can control for stable, unobserved unit-level characteristics by exploiting within-unit variation over time. The **first-difference (FD) estimator** is one specific technique for doing this, and its logic is beautifully transparent: subtract yesterday from today.

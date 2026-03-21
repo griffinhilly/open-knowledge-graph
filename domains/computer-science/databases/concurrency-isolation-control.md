@@ -27,6 +27,45 @@ Trace execution of concurrent transactions at different isolation levels, identi
 ## Common Misconceptions
 Higher isolation levels are not always better—they reduce concurrency. Serializable isolation can bottleneck performance. Most applications use read committed as a pragmatic balance.
 
+## Questions
+
+```yaml
+- question: "A banking application processes transfers between accounts. Two concurrent transactions each read the same account balance, then both subtract the same amount, and both write back their result — causing the balance to only reflect one withdrawal instead of two. Which isolation level is the minimum required to prevent this anomaly?"
+  type: multiple-choice
+  options:
+    - "Read Uncommitted — it prevents all dirty reads which cause this problem"
+    - "Read Committed — it ensures both transactions see committed data before writing"
+    - "Repeatable Read — it ensures a transaction's reads remain stable, preventing the lost update"
+    - "Read Committed is sufficient; the application code should handle this with retry logic instead"
+  answer: 2
+  explanation: "This is a lost update anomaly, which requires at least Repeatable Read to prevent. At Read Committed, both transactions can read the same committed balance, compute their updates independently, and write back — one update is lost. Repeatable Read locks the row after the first read, forcing the second transaction to wait until the first commits. The application-retry answer (D) sidesteps isolation levels but does not address the root cause within the database."
+
+- question: "Which anomaly can still occur at Repeatable Read isolation but is prevented by Serializable?"
+  type: multiple-choice
+  options:
+    - "Dirty read — reading uncommitted data from another transaction"
+    - "Non-repeatable read — a row changes between two reads within the same transaction"
+    - "Phantom read — new rows matching a WHERE clause appear between two scans"
+    - "Lost update — two transactions overwrite each other's changes"
+  answer: 2
+  explanation: "Phantom reads are the anomaly that Repeatable Read cannot prevent but Serializable does. Repeatable Read locks rows you have read, so existing rows cannot change — but it does not prevent other transactions from inserting new rows that match your query's WHERE clause. If you run the same range query twice, new rows may 'appear.' Serializable adds range locks (or predicate locks) to prevent this. Dirty reads and non-repeatable reads are both prevented by Repeatable Read."
+
+- question: "Choosing Serializable isolation is always the safest and best-performing option because it prevents all anomalies."
+  type: true-false
+  answer: false
+  explanation: "Serializable prevents all anomalies but imposes significant performance costs. It forces transactions to execute as if they ran one at a time, which can cause transactions to block waiting for locks, or to abort and retry when conflicts are detected. Under high concurrency, this dramatically reduces throughput. The right isolation level is the *weakest* one that still guarantees your application's correctness — for most read-heavy applications, Read Committed suffices and provides far better concurrency."
+
+- question: "In a database using MVCC (multi-version concurrency control), a read query never blocks a concurrent write to the same row."
+  type: true-false
+  answer: true
+  explanation: "MVCC maintains multiple versions of each row. A read query sees a consistent snapshot from the start of its transaction and reads the version of the row that existed at that snapshot time — it does not compete with a writer for the current version. This is the key advantage of MVCC: readers never block writers and writers never block readers. Only write-write conflicts cause blocking or aborts, which is why MVCC databases like PostgreSQL handle read-heavy workloads so efficiently."
+
+- question: "Why is 'use the highest isolation level always' not good advice for production database applications?"
+  type: short-answer
+  answer: "Higher isolation levels reduce concurrency — they require holding locks longer or aborting conflicting transactions, which causes other transactions to wait or retry. Serializable isolation may be necessary for financial operations requiring full correctness, but for typical web applications (where most operations are reads), it would serialize all access and dramatically reduce throughput. The right choice is the weakest isolation level that still prevents the specific anomalies your application cannot tolerate."
+  explanation: "The core insight is that isolation is a tradeoff, not a one-way scale where 'more is better.' Read Committed is the default in most production databases precisely because it prevents the most dangerous anomaly (dirty reads) while preserving high concurrency. Engineers must understand what anomalies each level prevents and which their application can tolerate, rather than defaulting to the strongest level out of caution."
+```
+
 ## Explainer
 
 You already know from ACID properties that the "I" — isolation — means each transaction should behave as if it were running alone, even when many transactions execute simultaneously. In practice, full isolation is expensive, so databases offer a spectrum of **isolation levels** that trade correctness guarantees for performance. Understanding this spectrum is essential for building applications that are both correct and responsive under concurrent load.

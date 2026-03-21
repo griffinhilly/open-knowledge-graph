@@ -33,6 +33,45 @@ Work through scope ambiguities with multiple quantifiers, computing truth condit
 - Scope is not purely linear left-to-right; surface word order does not determine all scope relations—structural position does.
 - Not all apparent scope ambiguities are genuine; some depend on pragmatic or world-knowledge factors rather than semantic ambiguity.
 
+## Questions
+
+```yaml
+- question: "Consider the sentence 'Every student read some book.' Under the inverse scope reading (some > every), which scenario would make this sentence TRUE while the surface scope reading (every > some) would be FALSE?"
+  type: multiple-choice
+  options:
+    - "Each student read a different book, with no overlap among the books read"
+    - "There is one specific book that every single student read"
+    - "Some students read no books at all"
+    - "Every student read at least two books"
+  answer: 1
+  explanation: "Surface scope (every > some) is true if each student read *some* book — possibly a different one for each student. Inverse scope (some > every) requires *one particular* book that every student read. Scenario B is true under inverse scope (there's a specific book all students read) but false under surface scope only when students DON'T all read the same book. This is why the two readings are genuinely distinct truth conditions, not paraphrases. The inverse scope reading is stronger — it entails the surface scope reading but not vice versa."
+
+- question: "In generalized quantifier theory, what is the semantic type of an expression like 'every linguist'?"
+  type: multiple-choice
+  options:
+    - "An individual of type e, referring to the set of linguists"
+    - "A predicate of type ⟨e,t⟩, true of each individual linguist"
+    - "A function from properties to truth values, of type ⟨⟨e,t⟩,t⟩"
+    - "A second-order predicate that ranges over sets of individuals"
+  answer: 2
+  explanation: "Generalized quantifier theory treats quantifier phrases as functions from properties (type ⟨e,t⟩) to truth values (type t). 'Every linguist' denotes: λP. ∀x[linguist(x) → P(x)]. This function takes any property P and returns true iff every linguist has that property. This type-theoretic treatment is what allows quantifiers to compose uniformly with the rest of the grammar and is the foundation for analyzing scope ambiguity. Option D (second-order predicate) describes the Fregean approach, which generalized quantifier theory supersedes."
+
+- question: "The two scope readings of 'Every student read some book' — every > some and some > every — are merely stylistic paraphrases that express the same truth conditions."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception to avoid. The readings have genuinely different truth conditions. Under every > some (surface): for each student, there exists some book they read (different students may have read different books). Under some > every (inverse): there is one particular book that every student read. These can differ in truth value — surface scope can be true while inverse scope is false (if every student read different books). The readings are logically independent, not paraphrases."
+
+- question: "Scope relationships in natural language sentences are fully determined by surface word order — the leftmost quantifier always takes widest scope."
+  type: true-false
+  answer: false
+  explanation: "Surface word order correlates with scope preferences but does not determine scope. Quantifier Raising (QR) at Logical Form allows quantifiers to move covertly and take scope over elements to their left in surface structure. Scope islands (relative clauses, that-clauses, adjuncts) can prevent expected scope taking by trapping quantifiers inside syntactic boundaries — independent of word order. Left-to-right linearity is a default, not a rule."
+
+- question: "Why can scope not simply be read off from surface word order, and what syntactic mechanism do formal semanticists posit to account for inverse scope readings?"
+  type: short-answer
+  answer: "Surface order reflects where quantifiers appear in the phonological string, but scope is determined at Logical Form (LF), a covert syntactic level. At LF, quantifiers can undergo Quantifier Raising (QR): they move out of their surface position and adjoin higher in the tree, leaving a trace behind. The relative height of two quantifiers at LF — not their surface linear order — determines which takes wider scope. QR is a genuine syntactic operation constrained by the same island conditions that govern overt movement, which is why scope islands (relative clauses, embedded questions) block inverse scope just as they block overt wh-movement."
+  explanation: "The connection between scope islands and movement islands is the strongest evidence that QR is a real syntactic operation. If scope were purely semantic (a pragmatic phenomenon with no syntax), there would be no reason for it to respect the same syntactic boundaries that constrain overt movement. The fact that it does suggests that the grammar computes scope through actual (covert) structural manipulation, not just semantic combination."
+```
+
 ## Explainer
 
 From your study of lambda calculus for linguistics, you can represent the meaning of a sentence as a function application: the meaning of a verb phrase is a function, the meaning of a noun phrase argument is an input, and the result is a truth value or a proposition. From Montague semantics, you know how to compose meanings compositionally: complex expressions are interpreted by combining the interpretations of their parts according to their syntactic structure. From your work on quantifiers and scope, you know that expressions like *every*, *some*, and *no* are not referring expressions (they don't pick out specific individuals) but operators that relate sets. This topic puts those tools together to handle the formal treatment of scope ambiguity — one of the most revealing puzzles in the semantics-syntax interface.

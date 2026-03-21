@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Signals are asynchronous notifications delivered to processes, interrupting their normal execution flow. A process can install signal handlers to respond to specific signals (SIGTERM, SIGUSR1, etc.) or use default behavior (termination, ignoring, core dump). Signal delivery is not guaranteed to be immediate, and blocking signals during critical sections prevents race conditions and data corruption.
 
+## Questions
+
+```yaml
+- question: "A process is in the middle of updating a doubly-linked list when SIGUSR1 arrives. The signal handler also modifies the same list. What is the most likely outcome?"
+  type: multiple-choice
+  options:
+    - "No problem — signal handlers run in a separate thread and cannot interfere with the main process"
+    - "A race condition or data corruption, because the signal interrupts execution at an arbitrary instruction"
+    - "The signal is automatically queued until the linked-list update completes safely"
+    - "The handler waits for the main code to finish the current operation before executing"
+  answer: 1
+  explanation: "Signals interrupt execution at literally any instruction — there is no implicit synchronization. If the main code is halfway through relinking nodes when the handler runs and also modifies the list, the data structure can be left corrupt (e.g., a next pointer updated but prev not yet). The correct fix is to block the signal during the critical section with sigprocmask(), or have the handler only set a flag so the actual list modification happens later in the main loop where it's safe."
+
+- question: "A signal handler needs to trigger complex processing: writing a log file and restarting a service. What is the most correct implementation pattern?"
+  type: multiple-choice
+  options:
+    - "Put all the complex logic directly in the handler for the fastest possible response time"
+    - "Call printf() and system() from within the handler — they are standard library functions"
+    - "Set a global volatile flag in the handler; check and clear it in the main loop where full library access is safe"
+    - "Use a nested signal handler inside the first to process the complex work"
+  answer: 2
+  explanation: "Signal handlers must be async-signal-safe — they can only call a restricted POSIX list of functions (write(), _exit(), and roughly 70 others). printf() and system() are NOT async-signal-safe because they may use internal locks or non-reentrant state. If the signal interrupts the main code while it's inside printf(), and the handler also calls printf(), you get deadlock or corruption. The correct pattern: minimal handler sets a volatile flag; main loop checks the flag at a safe point and performs complex work using the full standard library."
+
+- question: "A signal blocked via sigprocmask() is not discarded — it is held pending and delivered when the mask is lifted."
+  type: true-false
+  answer: true
+  explanation: "Signal masking delays delivery, it does not discard signals. The OS marks a blocked signal as 'pending' and delivers it as soon as the process restores the previous mask. This makes signal masking a correct synchronization tool for protecting critical sections — you defer the interruption to a safe point. Important caveat: standard signals are not queued if the same signal arrives multiple times while blocked (only one delivery occurs); real-time signals (SIGRTMIN and above) are fully queued."
+
+- question: "SIGKILL can be caught by installing a custom signal handler, allowing a process to perform cleanup before exiting."
+  type: true-false
+  answer: false
+  explanation: "SIGKILL (signal 9) is deliberately unblockable and uncatchable — the OS terminates the process directly, bypassing any installed handler. This is by design: it provides a guaranteed last-resort termination that cannot be subverted by a buggy or uncooperative process. SIGTERM (signal 15) is the polite version that *can* be caught and handled, allowing graceful shutdown with cleanup. If you want to intercept shutdown, install a SIGTERM handler — not a SIGKILL handler, which is impossible."
+
+- question: "Why must signal handlers be 'async-signal-safe,' and what does this restriction mean in practice?"
+  type: short-answer
+  answer: "A signal can interrupt the main process at any instruction — including in the middle of a library function like malloc() or printf() that uses internal locks or non-reentrant global state. If the handler calls those same functions, you risk deadlock (trying to acquire a lock already held by the interrupted code) or state corruption (two executions of non-reentrant code sharing data simultaneously). Async-signal-safe functions are those that can be safely re-entered or that use only atomic operations. The POSIX standard lists about 70 safe functions; most of the standard C library is excluded. In practice, this means handlers should do minimal work — set a volatile sig_atomic_t flag — and defer all complex logic to the main loop where the full library is safely available."
+  explanation: "The restriction exists because signals create concurrency within a single thread of control: the handler and main code share address space and can truly execute in conflicting states. Understanding async-signal-safety is the core technical skill for writing correct signal-driven programs."
+```
+
 ## Explainer
 
 You already understand that a process is an isolated unit of execution managed by the OS, and you have some familiarity with how hardware interrupts disrupt the CPU's normal instruction flow. Signals are the software analog of interrupts, but delivered to *processes* rather than to the CPU itself. They are the OS's mechanism for telling a process "something happened that you need to deal with" — a user pressed Ctrl+C, a child process terminated, a timer expired, or another process explicitly sent a notification.

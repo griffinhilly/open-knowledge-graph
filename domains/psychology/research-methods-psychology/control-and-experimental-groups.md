@@ -30,6 +30,45 @@ Critique studies that lack control groups — predict what conclusions cannot va
 - A 'no treatment' control is not always the best baseline — sometimes an 'active control' (a comparison treatment) is more informative.
 - Placebo effects are real psychological phenomena, not just methodological nuisances.
 
+## Questions
+
+```yaml
+- question: "A researcher tests a new antidepressant. After 8 weeks of treatment, 55% of participants report significant improvement. The researcher concludes the drug is effective. What is the most fundamental flaw in this conclusion?"
+  type: multiple-choice
+  options:
+    - "Eight weeks is too short a time period for antidepressants to work"
+    - "The study lacks a control group, so it is impossible to determine whether the improvement exceeds what would occur without the drug"
+    - "The researcher should have used a larger sample size before drawing conclusions"
+    - "Self-reported improvement is not a valid measure of depression"
+  answer: 1
+  explanation: "Without a control group, the 55% improvement rate cannot be attributed to the drug. Depression has a significant spontaneous remission rate — many people improve over 8 weeks regardless of treatment. Participants also experience placebo effects, non-specific therapeutic effects from structured attention, and regression to the mean. A control group provides the counterfactual baseline: what would the improvement rate be without the drug? Only the difference between treatment and control can be attributed to the IV."
+
+- question: "In a clinical trial of a new therapy for anxiety, why would researchers use a placebo control group rather than simply a no-treatment control group?"
+  type: multiple-choice
+  options:
+    - "A placebo group is easier to recruit than a no-treatment group"
+    - "A placebo control isolates the specific therapeutic effect by showing improvement above and beyond what belief, attention, and structured participation alone produce"
+    - "Placebo effects are not real, so the placebo group accurately represents baseline outcomes"
+    - "Regulatory requirements mandate a placebo group for all drug trials"
+  answer: 1
+  explanation: "Placebo effects are genuine psychological and neurological phenomena — belief that one is receiving effective treatment can produce real, measurable improvements. A no-treatment control shows only that the therapy outperforms doing nothing. A placebo control shows that the therapy outperforms the combination of expectation, attention from clinicians, and structured participation — a much stronger test. The placebo group's improvement sets a higher bar; improvement above that bar is the therapy's specific efficacy."
+
+- question: "If a study randomly assigns participants to experimental and control groups, pre-existing differences between participants cannot systematically bias the comparison."
+  type: true-false
+  answer: true
+  explanation: "True. Random assignment distributes pre-existing characteristics (health, motivation, personality, social support) evenly across groups in expectation. No individual participant characteristic can systematically favor one condition. This is why random assignment is the gold standard for causal inference: it makes the control group a valid counterfactual — the best available estimate of what the experimental group would have done without treatment."
+
+- question: "A no-treatment control group is always the most appropriate comparison condition when testing a new medical treatment."
+  type: true-false
+  answer: false
+  explanation: "False. When an effective treatment for the condition already exists, an active control — comparing to the current best practice — is more appropriate both ethically and scientifically. A new antidepressant that outperforms placebo but not existing antidepressants has limited clinical value, and exposing participants in the no-treatment arm to unnecessary suffering is hard to justify. The active control answers the more meaningful clinical question: 'Does this treatment work better than what we already have?'"
+
+- question: "Why is a control group essential to isolating the effect of an independent variable? What alternative explanations does it rule out?"
+  type: short-answer
+  answer: "A control group provides the counterfactual baseline: what would have happened if the treatment had not occurred? Without it, observed changes could be explained by spontaneous remission (conditions that naturally improve over time), placebo effects (belief in treatment produces real improvement), non-specific treatment effects (attention and structure from participation), regression to the mean (extreme initial scores naturally shift toward average), or the simple passage of time. By running a control group through the same study period under identical conditions except for the treatment, researchers can measure how much change occurs without the IV. Only improvement exceeding this baseline can be attributed to the specific treatment."
+  explanation: "The control group makes the comparison explicit rather than implicit. Without it, researchers compare post-treatment scores to pre-treatment scores — an uncontrolled before-after design that confounds treatment effects with all the natural changes that would have happened regardless. The control group holds those background changes constant so the IV's specific contribution becomes visible."
+```
+
 ## Explainer
 
 Experimental research design, which you've already studied, centers on the logic of manipulating an independent variable (IV) while holding everything else constant, then measuring the effect on a dependent variable (DV). The experimental group and control group are the mechanism that makes this logic work in practice. The **experimental group** receives the manipulation — the treatment, intervention, or condition whose effect you want to assess. The **control group** does not receive it (or receives an inert substitute). The difference in outcomes between the two groups, assuming proper random assignment, can be attributed causally to the IV. Without the control group, you have no way to answer the counterfactual question: *what would have happened if the treatment had not occurred?*

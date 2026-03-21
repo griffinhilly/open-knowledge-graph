@@ -30,6 +30,45 @@ Compare a literary text with a film or theatrical adaptation. Analyze what is lo
 ## Common Misconceptions
 That adaptation is inherently inferior to the literary original. The original/adaptation hierarchy reflects literary prestige, not aesthetic value. Adaptation can be genuinely creative, generating new meanings and reaching audiences unavailable to books.
 
+## Questions
+
+```yaml
+- question: "A film adaptation removes the protagonist's extended interior monologue entirely, replacing it with visual behavior and gesture. A fidelity critic calls this a failure. A more theoretically rigorous analysis would focus on:"
+  type: multiple-choice
+  options:
+    - "Whether the film's runtime is proportionate to the length of the novel"
+    - "What the removal reveals about the director's interpretation and what film as a medium can and cannot sustain"
+    - "Whether the novel was well-known enough to justify an adaptation at all"
+    - "How faithfully physical descriptions of characters and settings are reproduced on screen"
+  answer: 1
+  explanation: "Fidelity criticism — judging adaptations by how closely they follow the source — is theoretically weak because it treats every departure as deficiency. A stronger approach treats the transformation as evidence: what does removing the interior monologue reveal about how the director reads the novel, what they consider essential, and what film can and cannot do? Internal monologue is a verbal form with no direct cinematic equivalent — externalizing it through behavior is an interpretive act, not a failure."
+
+- question: "What does the concept of 'affordances' mean in the context of adaptation theory?"
+  type: multiple-choice
+  options:
+    - "The financial resources available to produce an adaptation"
+    - "The legal rights that determine which properties can be adapted"
+    - "The things a particular medium does naturally and easily, versus what it resists or cannot do at all"
+    - "The audience demographics that a medium can reach compared to the source"
+  answer: 2
+  explanation: "Affordances are medium-specific capacities and constraints. Film affords visual composition, performance, simultaneous image and sound, and rapid temporal condensation; it resists interior monologue, figurative prose rhythm, and unreliable narration. A graphic novel affords panel composition, color, and reader-controlled pacing. Understanding affordances explains why adaptation choices are interpretive — the adapter must translate through a fundamentally different set of expressive tools, and those choices themselves carry meaning."
+
+- question: "Judging an adaptation by how faithfully it reproduces the original literary source is the most rigorous critical approach to adaptation studies."
+  type: true-false
+  answer: false
+  explanation: "Fidelity criticism is theoretically weak: it assumes the source has inherent authority over the adaptation; it ignores creative possibilities enabled by the target medium; and it treats every departure as a deficiency rather than an interpretation. A more productive framework asks what the adaptation makes possible or visible that the source could not — what meanings emerge from the specific choices the adapter made in a new medium."
+
+- question: "Scenes added in an adaptation that do not appear in the source text are often the most interpretively revealing moments."
+  type: true-false
+  answer: true
+  explanation: "When an adapter invents a scene not in the source, they cannot rely on the source for guidance — they must generate something from their own reading of the material. That generation is pure interpretation, made visible. What the adapter chooses to add (and how) exposes their reading of the material more directly than any choice about what to preserve from the source."
+
+- question: "Why is it theoretically more productive to ask 'what does this adaptation make possible?' than 'how faithfully does it reproduce the original?'"
+  type: short-answer
+  answer: "The fidelity question treats the source as an authoritative standard, implying that departure is loss. But every medium has different affordances, so a transformation that 'loses' interior monologue may 'gain' the expressive power of performance, music, and visual composition in ways that generate entirely new meanings. Asking 'what does this adaptation make possible?' treats the adapter as a reader and interpreter whose choices reveal an argument about the material. It evaluates adaptations on their own terms — asking whether they successfully exploit their medium's capacities rather than merely measuring distance from the source."
+  explanation: "This reframing is the key move in adaptation theory. It shifts focus from the source to the adaptation as a creative work in its own right, and from loss to gain — from what was sacrificed to what was made possible. This is more productive analytically because it opens up what the adaptation is doing, rather than cataloguing how it deviates."
+```
+
 ## Explainer
 
 Your training in comparative literary analysis has given you a methodology for identifying how meaning shifts across texts through careful comparison. Adaptation theory extends that comparative practice to a new problem: what happens to meaning when not just the story changes, but the entire medium?

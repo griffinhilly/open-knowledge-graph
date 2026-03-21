@@ -45,6 +45,45 @@ Trace the global trajectory of a specific cultural form — hip-hop music, evang
 - Cultural change is not cultural death; cultures have always changed through contact.
 - 'Authentic' culture is often a nostalgic construction; cultural purity is largely mythological.
 
+## Questions
+
+```yaml
+- question: "A Nigerian community widely adopts American hip-hop clothing aesthetics but shows little adoption of American economic institutions or financial practices. Which aspect of Appadurai's framework best explains this pattern?"
+  type: multiple-choice
+  options:
+    - "Cultural imperialism — Western media overwhelms local cultures uniformly across all domains"
+    - "Creolization — the community has synthesized hip-hop into a fully new local form"
+    - "Disjuncture between flows — mediascapes (fashion/imagery) and financescapes (capital/institutions) move at different speeds and in different directions"
+    - "Environmental filtering — the community accepts what is culturally compatible and rejects what is not"
+  answer: 2
+  explanation: "Appadurai's key insight is that globalization is not a single unified process but multiple *disjunct* flows — ethnoscapes, mediascapes, technoscapes, financescapes, and ideoscapes — each moving at its own speed and in its own direction. The Nigerian example illustrates that a mediascape (fashion images, music videos) can flow into a community without the associated financescape. The result is an unpredictable combination that is neither purely 'traditional' nor simply 'Americanized.' Cultural imperialism (option A) predicts uniform uptake across all domains, which the evidence contradicts."
+
+- question: "According to the anthropological evidence on globalization, which statement best characterizes how local populations respond to globally circulating cultural forms?"
+  type: multiple-choice
+  options:
+    - "Local populations are largely passive recipients who absorb global cultural products without significant transformation"
+    - "Local populations actively appropriate, reinterpret, and creolize outside influences, producing cultural hybridity"
+    - "Cultural imperialism prevents meaningful local reinterpretation in economically weaker nations"
+    - "Local populations primarily reject outside influences to preserve cultural authenticity"
+  answer: 1
+  explanation: "Anthropological research consistently documents that local populations are active agents who transform global cultural influences rather than simply absorbing them. Bollywood transforms Hollywood conventions through Indian aesthetic traditions; Korean pop blends American production with East Asian aesthetics. This is creolization — genuine synthesis producing new forms. Option A (passive absorption) is the 'cultural imperialism' worst-case narrative that the evidence contradicts. Option D inverts the pattern. The anthropological finding is that cultural hybridity, not homogenization or resistance, is the typical outcome."
+
+- question: "The idea that globalization produces a single, homogenized 'McDonaldized' world culture is empirically supported by anthropological research."
+  type: true-false
+  answer: false
+  explanation: "The homogenization thesis was the early expectation but anthropological fieldwork has consistently found the opposite: globalization produces hybridity, creolization, and new cultural forms rather than homogenization. The same McDonald's franchise carries different meanings in Beijing, Paris, and Cairo. Hip-hop becomes something new in each country that adopts it. Even when a cultural product circulates globally, it is transformed by each local context. Anthropologists now argue that both cultural imperialism (real power asymmetries in who controls global flows) and cultural hybridity (active local reinterpretation) are simultaneously true."
+
+- question: "The concept of 'authentic' culture implies that cultures have a stable, original form that globalization corrupts or destroys."
+  type: true-false
+  answer: false
+  explanation: "Anthropologists argue that 'authentic' culture is largely a nostalgic construction — cultural purity is mythological. Cultures have always changed through contact, trade, conquest, and migration; the Silk Road, colonial trade networks, and missionary activity represent earlier phases of cultural globalization. What looks 'traditional' today is often itself the product of historical mixing. Claims of authenticity tend to freeze a specific historical moment as the 'real' version of a culture, ignoring that all cultures are continuously evolving. This also means cultural change through globalization is not cultural death — it is the continuation of a process that has always occurred."
+
+- question: "What is the difference between cultural imperialism and cultural hybridity as explanations of globalization, and why do anthropologists argue both can be simultaneously true?"
+  type: short-answer
+  answer: "Cultural imperialism describes the real power asymmetry in global cultural flows: wealthy Western nations control the dominant media industries, technology platforms, and capital flows, giving them disproportionate influence over the images and ideas that circulate globally. Cultural hybridity describes what actually happens at the receiving end: local audiences and creators transform, reinterpret, and synthesize outside influences rather than passively absorbing them. Both are simultaneously true because they operate at different levels — imperialism describes the structural inequality in *who* controls global flows, while hybridity describes the *practice* of local reception and transformation. Power asymmetry doesn't eliminate local agency; it shapes the conditions under which that agency operates."
+  explanation: "The key insight is that the cultural imperialism critique and the hybridity finding are not contradictory — they are answers to different questions. Imperialism asks: who has the power to circulate cultural products globally? Hybridity asks: what do people do with those products when they encounter them? Recognizing both allows for a nuanced analysis that neither celebrates globalization uncritically nor reduces all cultural contact to domination."
+```
+
 ## Explainer
 
 You already know from cross-cultural comparison that cultures differ in systematic ways and that understanding difference requires suspending your own cultural assumptions. Globalization intensifies the analytical challenge: it dramatically accelerates cultural contact, creating conditions where cross-cultural encounters happen not just in face-to-face meetings but through media, markets, and migration at unprecedented scales. The naive expectation was that this acceleration would produce cultural homogenization — a "McDonaldization" of the world into a single consumerist monoculture. Anthropologists found something more complicated.

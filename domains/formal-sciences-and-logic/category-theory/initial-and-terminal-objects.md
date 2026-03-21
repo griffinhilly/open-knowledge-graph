@@ -34,6 +34,45 @@ Identify initial and terminal objects in several categories: Set, Vect_k, Top, p
 - The uniqueness of morphisms is part of the definition, not a consequence—it distinguishes initial/terminal objects from objects that merely have morphisms to everything.
 - A zero object (both initial and terminal) does not exist in every category; Set has no zero object.
 
+## Questions
+
+```yaml
+- question: "In the category Set, why is the empty set the initial object rather than, say, a singleton set?"
+  type: multiple-choice
+  options:
+    - "The empty set has the fewest elements, making it the simplest and therefore canonical"
+    - "For any set X, there is exactly one function ∅ → X (the empty function), satisfying the uniqueness requirement"
+    - "A singleton can also be initial because it has a unique element that maps to any set"
+    - "The empty set is initial because there are no morphisms from any other object to it"
+  answer: 1
+  explanation: "The definition of initial object requires: for every object X, there exists exactly one morphism from the initial object to X. For ∅, this is satisfied vacuously — there is exactly one function from the empty set to any set X (the function with empty domain, which trivially satisfies the function axioms). A singleton {*} fails to be initial: for any set X with more than one element, there are multiple functions {*} → X (one for each element of X). Option D describes neither initial nor terminal objects — it describes objects with no incoming morphisms, which is a different property entirely."
+
+- question: "An object A in a category satisfies: for every object B, there exists at least one morphism A → B. Does this make A an initial object?"
+  type: multiple-choice
+  options:
+    - "Yes — having a morphism to every object is exactly the definition of initial"
+    - "No — the definition requires exactly one morphism to each object, not merely at least one"
+    - "Only if A is also a terminal object (a zero object)"
+    - "Yes, but only in categories where all morphisms are unique"
+  answer: 1
+  explanation: "This is the key misconception the definition is designed to prevent. An initial object requires a *unique* morphism to each object — 'exactly one,' not 'at least one.' The uniqueness is not a consequence; it is part of the definition and is what gives initial objects their universal-property character. An object that merely has at least one morphism to every other object could have many such morphisms, making it non-canonical. The uniqueness ensures that the initial object relates to every other object in a canonical, unambiguous way — which is what makes it categorically meaningful."
+
+- question: "If a category has both an initial object and a terminal object, then those two objects must be isomorphic to each other."
+  type: true-false
+  answer: false
+  explanation: "The category Set is a counterexample: the empty set ∅ is initial, and any singleton {*} is terminal. These are not isomorphic — ∅ has no elements, {*} has one. A zero object (one that is both initial and terminal) does not exist in Set. Zero objects do exist in some categories: in Grp (groups), the trivial group {e} is both initial and terminal. But the existence of separate initial and terminal objects in no way forces them to be isomorphic."
+
+- question: "Any two initial objects in a category are uniquely isomorphic — meaning there is exactly one isomorphism between them."
+  type: true-false
+  answer: true
+  explanation: "This is a theorem proved directly from the definition. If 0 and 0' are both initial, then: by initiality of 0, there is a unique morphism f: 0 → 0'; by initiality of 0', there is a unique morphism g: 0' → 0. The composite g∘f: 0 → 0 is a morphism from 0 to itself, but by initiality of 0, the only such morphism is the identity. So g∘f = id₀, and similarly f∘g = id₀'. This makes f and g an isomorphism, and it's unique because each component was forced to be unique. This is why we speak of 'the' initial object — it is determined up to canonical (unique) isomorphism."
+
+- question: "Why does the definition of an initial object require a *unique* morphism to each object, rather than merely requiring that at least one morphism exists?"
+  type: short-answer
+  answer: "The uniqueness requirement is what gives initial objects their universal-property character and makes them canonical. An object with merely at least one morphism to everything is not distinguished in any meaningful way — many objects might have this property. Uniqueness means the initial object relates to every other object in exactly one way, making it the 'canonical source.' This also makes the proof of uniqueness-up-to-isomorphism work: the isomorphism between two initial objects is forced to be unique because every morphism from each is unique. Without uniqueness, the concept collapses into something much less useful."
+  explanation: "The pattern recurs throughout category theory: universal properties always involve unique morphisms. Products, coproducts, limits, colimits — all are defined by requiring that a certain morphism exists and is *unique*. This uniqueness transforms 'an object with certain morphisms' into 'the canonical object defined by those morphisms,' enabling the proof that such objects are unique up to unique isomorphism. Initial and terminal objects are the simplest examples of this universal pattern."
+```
+
 ## Explainer
 
 From your work with universal properties, you know that categorical objects are characterized not by what they *contain* but by the morphisms they participate in. Initial and terminal objects are the simplest application of this principle — they are defined entirely by the structure of arrows between them and every other object in the category.

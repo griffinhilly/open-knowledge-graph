@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 An element α in F is algebraic over K if it satisfies a polynomial equation with coefficients in K; otherwise it is transcendental. For algebraic α, the minimal polynomial is the monic polynomial of smallest degree with α as root. The degree of α equals the degree of its minimal polynomial.
 
+## Questions
+
+```yaml
+- question: "Consider α = ∛5 (the real cube root of 5). Over ℚ, which of the following is the minimal polynomial of α, and what is [ℚ(α):ℚ]?"
+  type: multiple-choice
+  options:
+    - "x³ − 5 (degree 3), so [ℚ(α):ℚ] = 3"
+    - "x − ∛5 (degree 1), because α is a single specific number"
+    - "x⁶ − 25 (degree 6), obtained by eliminating the cube root algebraically"
+    - "There is no minimal polynomial because ∛5 is irrational"
+  answer: 0
+  explanation: "The minimal polynomial must lie in ℚ[x] (coefficients in ℚ) and have α as a root. x³ − 5 satisfies this: (∛5)³ − 5 = 0, and it is irreducible over ℚ by Eisenstein's criterion with p = 5. Option B is wrong because x − ∛5 has the irrational number ∛5 as a coefficient — it is not in ℚ[x]. Option D confuses irrational with transcendental: ∛5 is irrational but algebraic over ℚ. The degree of the minimal polynomial is 3, giving [ℚ(∛5):ℚ] = 3, meaning ℚ(∛5) is a 3-dimensional ℚ-vector space with basis {1, ∛5, ∛25}."
+
+- question: "A student argues: 'The minimal polynomial of π over ℚ must exist — just compute it from the decimal expansion.' What is the correct response?"
+  type: multiple-choice
+  options:
+    - "The student is right — every real number satisfies some polynomial over ℚ with high enough degree"
+    - "π is transcendental over ℚ: Lindemann proved in 1882 that no nonzero polynomial with rational coefficients has π as a root, so no minimal polynomial exists"
+    - "π is irrational, and all irrational numbers are transcendental, so no minimal polynomial exists"
+    - "The minimal polynomial exists but has infinite degree, which is why it cannot be written down"
+  answer: 1
+  explanation: "Transcendental over ℚ means exactly that no nonzero polynomial in ℚ[x] vanishes at that element — a fact Lindemann proved in 1882 for π. The decimal expansion is irrelevant: what matters is whether any finite polynomial equation with rational coefficients is satisfied. Option C is wrong: being irrational does not imply transcendental. √2 is irrational but algebraic (satisfies x² − 2 = 0). Transcendence is a stronger, harder-to-prove condition that requires ruling out infinitely many polynomial equations simultaneously."
+
+- question: "The minimal polynomial of an algebraic element α over K must be irreducible over K."
+  type: true-false
+  answer: true
+  explanation: "If the minimal polynomial factored as p(x) = q(x)r(x) over K with both factors having strictly smaller degree, then p(α) = 0 implies q(α) = 0 or r(α) = 0. Either factor would be a polynomial in K[x] of smaller degree having α as a root, contradicting the minimality of p. Irreducibility is therefore not an additional assumption — it follows directly from the definition of the minimal polynomial as the lowest-degree polynomial in K[x] that vanishes at α."
+
+- question: "If the minimal polynomial of α over K has degree 3, then [K(α):K] = 9, because the extension contains elements up to degree 3 in both α and α²."
+  type: true-false
+  answer: false
+  explanation: "[K(α):K] equals the degree of the minimal polynomial — here 3, not 9. K(α) has K-basis {1, α, α²} as a vector space (dimension 3). The element α³ can be expressed in terms of {1, α, α²} using the minimal polynomial relation, so no higher powers of α are needed as independent basis elements. There is no squaring of the degree: [K(α):K] = deg(min_K(α)) is a direct equality, and this dimension is exactly the minimum number of K-linear directions needed to describe the extension."
+
+- question: "What does it mean to say the degree of the minimal polynomial measures 'how far' α is from K algebraically? Give a concrete example illustrating two different degrees."
+  type: short-answer
+  answer: "The degree [K(α):K] = deg(min_K(α)) is the dimension of K(α) as a K-vector space — the minimum number of K-linearly independent basis elements needed to reach α from K. A degree-1 minimal polynomial means α ∈ K (no extension). A degree-2 polynomial (e.g., x² − 2 for √2 over ℚ) gives a 2-dimensional extension with basis {1, √2}, so every element of ℚ(√2) looks like a + b√2. A degree-3 polynomial (e.g., x³ − 5 for ∛5 over ℚ) gives a 3-dimensional extension {1, ∛5, ∛25}. Higher degree means more algebraically 'remote' from K."
+  explanation: "The degree is the key invariant that carries through into Galois theory and splitting fields: it measures the 'algebraic complexity' of α relative to K with a single integer. Two algebraic elements with the same minimal polynomial degree are, in a precise sense, equidistant from K, even if they look very different."
+```
+
 ## Explainer
 
 From your study of field extensions, you know that given a base field K and a larger field F, every element α ∈ F sits in some relationship with K. The fundamental question is: does α "live inside" the polynomial world of K, or does it escape it entirely? This is exactly the distinction between **algebraic** and **transcendental** elements.

@@ -33,6 +33,45 @@ Watch or read a dramatic scene, focusing only on when characters enter and exit.
 ## Common Misconceptions
 Not every entrance and exit carries narrative weight; some are functional. But in well-crafted drama, even practical entrances/exits are choreographed to serve the dramatic arc.
 
+## Questions
+
+```yaml
+- question: "A playwright wants to heighten dramatic tension at a critical moment. She has Character A exit just before Character B reveals a secret to Character C. Why is this staging choice effective?"
+  type: multiple-choice
+  options:
+    - "Stage directions conventionally require exits before important revelations"
+    - "A's absence removes someone who might have helped or intervened, changing the power configuration and freeing what can be said in the scene"
+    - "A's exit signals to the audience that the scene is nearly over"
+    - "Entrances are more powerful than exits for building tension, so removing an entrance opportunity here sharpens focus"
+  answer: 1
+  explanation: "Exits are dramatically charged because they reshape the social and informational field on stage. When A leaves, the remaining characters gain freedom to speak, align, or reveal what A's presence had suppressed. The exit controls who knows what — the playwright is operating the gates through which information flows. Option C mistakes exits for scene-endings; option D reverses the premise."
+
+- question: "An analyst tracks who is on stage at every moment of a play using a 'presence map.' What is the primary analytical insight this tool provides?"
+  type: multiple-choice
+  options:
+    - "It measures how many lines each character has relative to their stage time"
+    - "It shows which characters share exclusive scenes (enabling private speech), which relationships are triangulated by a third party, and how power and information flow between scenes"
+    - "It enforces compliance with the playwright's intended staging directions"
+    - "It identifies the protagonist by calculating total time on stage"
+  answer: 1
+  explanation: "The presence map reveals the social geometry of the play at every moment. A two-character scene is structurally private; a third character's entrance triangulates the relationship and constrains what can be said. Information and power move through these configurations. Counting lines or identifying protagonists are separate tasks that don't capture the structural insight the presence map provides."
+
+- question: "In well-crafted drama, an exit is simply the playwright's way of removing a character who is no longer needed in the scene."
+  type: true-false
+  answer: false
+  explanation: "Exits are dramatic events that reshape everything: the power dynamics shift, what characters can say about the departed figure changes, and the emotional temperature of the scene may change fundamentally. Chekhov's exits that occur just before a crisis, or Shakespeare's exits that isolate a character for soliloquy, are active dramatic choices — not housekeeping. Even a 'functional' exit in well-crafted drama tends to be timed to serve the arc."
+
+- question: "A character the audience expects but who keeps not arriving can generate dramatic tension comparable to the tension released by their eventual entrance."
+  type: true-false
+  answer: true
+  explanation: "A withheld entrance exploits the audience's readiness — they are primed for the arrival and that priming sharpens their attention. The anticipatory tension created by a delayed entrance is real and can be more powerful than a surprise entrance, because the audience has been active participants in the wait. Godot's perpetual non-arrival is an extreme case, but the principle operates in any drama that withholds an expected figure."
+
+- question: "Why does an exit often give the remaining characters more dramatic freedom than they had before the character left?"
+  type: short-answer
+  answer: "When a character exits, the social contract of the scene changes: the departed figure can no longer monitor, constrain, or respond to what is said. Information that had to be withheld is now releasable; alliances that were invisible can be stated; secrets, judgments, and plans that would have been suppressed in the absent character's presence can now surface. The exit is the gate through which new dramatic possibilities enter the scene."
+  explanation: "This is the key insight: exits are not subtractions but transformations. The absence of a character is itself a presence — a newly opened space. Analyzing what a character's exit *enables* (and disables) is as important as analyzing what their entrance brought."
+```
+
 ## Explainer
 
 From dramatic structure, you understand that plays are organized into units — acts, scenes, beats — with rising action, turning points, and resolution shaping audience engagement over time. Stage directions tell you what the playwright intends at the physical level of performance. Entrances and exits sit at the intersection of these two frameworks: they are structural events (they divide the play into units) and performative events (they happen in space and time on stage). Understanding their function means reading them as neither merely practical nor purely symbolic, but as precise instruments of dramatic control.

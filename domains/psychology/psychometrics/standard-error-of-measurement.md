@@ -33,6 +33,45 @@ Begin with the conceptual link between reliability and error variance. Practice 
 - Assuming wider confidence intervals are always bad; they accurately reflect measurement precision.
 - Using SEM the same way across the entire score range when different score levels have different precision in IRT-based measures.
 
+## Questions
+
+```yaml
+- question: "A student scores 112 on a cognitive test; her classmate scores 118. The test has SD = 15 and reliability = 0.84. A teacher concludes the classmate is definitively more capable. What is the flaw in this reasoning?"
+  type: multiple-choice
+  options:
+    - "The teacher should have used raw scores rather than standardized scores for this comparison"
+    - "The SEM (≈ 6 points) means the confidence intervals around both scores substantially overlap, making the 6-point difference statistically unreliable as evidence of a true score difference"
+    - "Reliability of 0.84 means the test is too unreliable to use at all"
+    - "The standard deviation of 15 is too large for meaningful individual comparisons"
+  answer: 1
+  explanation: "SEM = 15 × √(1 − 0.84) = 15 × 0.4 = 6 points. The 95% confidence interval around each score is approximately ±11.8 points (1.96 × 6). The student's interval is roughly [100, 124] and the classmate's is [106, 130] — substantially overlapping. A 6-point difference is well within measurement error, so no confident conclusion about true score differences is warranted. Ignoring SEM when comparing individual scores is the most common misuse of test data."
+
+- question: "A test developer increases reliability from 0.81 to 0.96 while keeping the score SD at 12. What happens to the SEM?"
+  type: multiple-choice
+  options:
+    - "SEM increases from 5.2 to 7.3 because higher reliability requires more items, adding measurement variance"
+    - "SEM stays the same because the SD hasn't changed"
+    - "SEM decreases from 5.2 to 2.4 because higher reliability means less error variance"
+    - "SEM is independent of reliability and is determined only by test length"
+  answer: 2
+  explanation: "SEM = SD × √(1 − reliability). At reliability = 0.81: SEM = 12 × √(0.19) ≈ 5.2. At reliability = 0.96: SEM = 12 × √(0.04) = 12 × 0.2 = 2.4. Higher reliability means less error variance, so observed scores cluster more tightly around true scores. The SEM roughly halves when reliability improves from 0.81 to 0.96, substantially narrowing the confidence interval around any individual's score."
+
+- question: "A test with higher reliability than another test always has a smaller standard error of measurement."
+  type: true-false
+  answer: false
+  explanation: "SEM = SD × √(1 − reliability), so both reliability AND the score standard deviation determine SEM. A test with reliability 0.90 and SD = 20 has SEM = 20 × √(0.10) ≈ 6.3. A test with lower reliability 0.80 but SD = 5 has SEM = 5 × √(0.20) ≈ 2.2. The lower-reliability test actually has the smaller SEM here. Both parameters must be considered together; reliability alone does not determine measurement precision in absolute score units."
+
+- question: "For a perfectly reliable test (reliability = 1.0), the SEM equals zero, meaning an observed score equals the true score."
+  type: true-false
+  answer: true
+  explanation: "SEM = SD × √(1 − reliability). When reliability = 1.0: SEM = SD × √(0) = 0. Zero SEM means no measurement error — every administration produces the same score for the same person, and the observed score IS the true score. This is a theoretical ideal: real tests always have some measurement error, so reliability is always less than 1.0 and SEM > 0."
+
+- question: "Why can an individual's observed test score never be treated as their exact 'true score,' and what does the confidence interval around it actually represent?"
+  type: short-answer
+  answer: "Every observed score is a single sample from a distribution of scores the person would receive across many hypothetical retestings — it includes both their stable true ability and random measurement error. Classical test theory models the observed score as true score plus random error, and since error is random and variable, any single observation is an imprecise estimate. The SEM quantifies how wide this uncertainty is in original score units. The confidence interval represents the range that would capture the true score with the specified probability across repeated testings under identical conditions."
+  explanation: "This is the core justification for using confidence intervals in score interpretation rather than treating a point estimate as definitive. If a person took the test 100 times under identical conditions, their scores would vary around their true score — the SEM is approximately the standard deviation of that distribution. The 95% confidence interval is the range that would capture the true score 95% of the time across such retestings."
+```
+
 ## Explainer
 
 From your study of reliability in measurement, you know that no psychological test is perfectly consistent—every observed score contains some **measurement error**. The question is not whether error exists, but how large it is and what it means for interpretation. The **standard error of measurement (SEM)** gives you a direct, interpretable answer: it tells you, in the original score units, how much an individual's observed score is likely to deviate from their hypothetical **true score** (the score they would receive if the test were perfectly reliable and infinitely long). Smaller SEM means more precise measurement; larger SEM means the observed score is a noisier estimate of the true score.

@@ -30,6 +30,45 @@ Analyze works that exploit auditory streaming — Bach's unaccompanied violin pa
 - Treating gestalt principles as absolute rules; they operate probabilistically, and composers can override or subvert them deliberately.
 - Conflating auditory streaming with polyphony; two instruments can create a single perceptual stream, while one instrument can project multiple streams.
 
+## Questions
+
+```yaml
+- question: "A violinist plays alternating high and low notes at high speed in a notated single melodic line. A listener reports hearing two independent melodies rather than one. Which account is correct?"
+  type: multiple-choice
+  options:
+    - "The analyst — the score is the definitive description of the musical structure"
+    - "The listener's perception is an error caused by unfamiliarity with extended technique"
+    - "Both accounts are correct but describe different layers: the score shows one notated line, while Gestalt similarity grouping (similar register = same stream) causes the ear to construct two perceptual streams from one instrument"
+    - "Neither account is correct because streams require separate instruments to form"
+  answer: 2
+  explanation: "This describes auditory stream segregation — the Gestalt principle of similarity operating on register. When notes alternate rapidly between two distinct registers, each register's notes are more similar to each other than to the other register, so the ear tracks them separately, constructing two independent melodic streams. Bach exploited this in unaccompanied violin works to create apparent polyphony from monophony. Notation and perception are separate layers; the score describes what is played, not necessarily what is heard."
+
+- question: "A composer wants two flutes playing simultaneously to be perceived as two independent streams rather than one fused sound. What technique best achieves this?"
+  type: multiple-choice
+  options:
+    - "Have both flutes play the same melody in unison at high volume"
+    - "Write them in contrasting registers with different rhythmic patterns — Gestalt similarity will group each flute's notes separately rather than fusing them"
+    - "Have them play in octaves with the same rhythm"
+    - "Reduce both to very soft dynamics"
+  answer: 1
+  explanation: "Fusing two instruments into a single stream requires maximizing Gestalt similarity — same register, same rhythm, same timbre. To create two independent streams, you need to maximize differences: distinct registers exploit the similarity principle to group each instrument's notes together rather than with the other, while different rhythms reinforce this separation. Unison or octave playing in the same rhythm causes fusion, not separation."
+
+- question: "In a well-notated piece, the phrase boundaries marked by the composer will always correspond to the perceptual boundaries listeners actually experience."
+  type: true-false
+  answer: false
+  explanation: "Notated structure and perceptual grouping are distinct layers that frequently diverge. A notated phrase mark can be overridden by strong Gestalt forces: melodic continuation pulling across the barline, an unresolved harmony keeping the listener's attention 'open', or rhythmic momentum that carries through a rest. Conversely, a sudden change in register, dynamics, or timbre can create a perceptual boundary even without any notated articulation. Treating the score as the definitive account of what is perceived is precisely the misconception Gestalt analysis corrects."
+
+- question: "Gestalt grouping principles in music operate automatically and pre-consciously, before deliberate analytical listening begins."
+  type: true-false
+  answer: true
+  explanation: "Gestalt grouping is a feature of the perceptual system, not of conscious decision-making. Proximity, similarity, continuation, and closure shape what listeners hear as coherent objects before any analytical judgment is applied. This is what makes them powerful compositional tools: composers can design notation that reliably directs perception toward specific groupings because the principles operate universally and automatically. A listener who has never heard of Gestalt psychology will still hear Bach's registral stream segregation as two independent voices."
+
+- question: "Explain why two instruments playing the same pitch content in the same register and rhythm tend to fuse into a single perceptual stream, even though analytically they are two separate voices."
+  type: short-answer
+  answer: "The Gestalt principle of similarity causes sounds sharing features — timbre, register, rhythm, dynamics — to be grouped together perceptually. When two instruments play the same pattern in the same register at the same time, the perceptual system detects no consistent differences between them and has no basis for tracking them as separate objects. They fuse into a single perceptual stream. Individual voice tracking requires persistent differences along at least one Gestalt-relevant dimension; without such differences, the ear combines rather than separates."
+  explanation: "This is why orchestrators cannot simply add a second instrument playing the same line to 'double' a melody while expecting listeners to perceive two distinct voices — they will hear one louder voice. Creating perceived polyphony from multiple instruments requires exploiting similarity, register, timbre, and rhythm differences to keep the streams perceptually separate."
+```
+
 ## Explainer
 
 From your work on melodic phrase structure, you know how melodic contour, rhythm, and cadence delineate phrase boundaries. From texture, you know how simultaneity and density of voices shape musical surface. **Gestalt perception** adds a third layer: the psychological principles by which listeners automatically parse sound into coherent objects, streams, and groups — often before conscious analysis begins. These principles were developed by early 20th-century psychologists studying visual perception, but they apply directly to auditory experience, and understanding them explains why certain compositional techniques work the way they do.

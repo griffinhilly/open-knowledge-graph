@@ -30,6 +30,45 @@ Compare the orthographic depth of two languages by counting how many ways a sing
 - English spelling is not random; most irregularities reflect either historical pronunciation (knight, gnaw), etymological borrowing (psychology, pneumonia), or morphological consistency.
 - Logographic systems do not require memorizing thousands of arbitrary symbols — Chinese characters have systematic phonetic and semantic components that aid recognition, though the system is less transparent than alphabetic scripts.
 
+## Questions
+
+```yaml
+- question: "A spelling reformer proposes that English should spell the /iː/ sound consistently as 'ee' in all words, so 'field' becomes 'feeld,' 'receive' becomes 'receev,' and 'sign' becomes 'sine.' What is the most significant linguistic cost of this reform?"
+  type: multiple-choice
+  options:
+    - "The reform would make English harder to read because readers are used to current spellings"
+    - "The reform would destroy morphological transparency — related words like 'sign/signal' and 'nation/national' would no longer look related, hiding their etymological and grammatical connections"
+    - "The reform is unnecessary because English spelling is already phonetically consistent"
+    - "The reform would disadvantage non-native speakers who have already learned current spellings"
+  answer: 1
+  explanation: "'Sign' and 'signal' share the same Latin root (*signum*) and the same morpheme — the visible 'gn' in both words encodes that relationship even though the 'g' is silent in 'sign.' A purely phonetic spelling ('sine' and 'signal') would sever that visual connection. Deep orthographies preserve morphological transparency at the cost of phonetic transparency: the spelling encodes grammar and etymology rather than current pronunciation. Literate readers who already know the system benefit from these morphological cues for reading comprehension and vocabulary inference. The reformer's proposal solves the phonetic irregularity problem while creating a different, less visible morphological problem."
+
+- question: "Why did Ataturk's 1928 Turkish spelling reform succeed in achieving widespread adoption when English spelling reform proposals over five centuries have repeatedly failed?"
+  type: multiple-choice
+  options:
+    - "Turkish phonology is simpler than English, so a shallow orthography was easier to design"
+    - "Ataturk had absolute political authority to impose the reform by decree, and the simultaneous replacement of the Arabic script severed the population from Ottoman texts overnight; English reform lacks any central authority and would only disadvantage current literate users"
+    - "English speakers are culturally more attached to their spelling than Turkish speakers were"
+    - "The Turkish reform was successful because it occurred before mass literacy; English reform failed because it was attempted after most people had already learned to read"
+  answer: 1
+  explanation: "The Turkish reform succeeded through political authority (Ataturk's state imposed it) and strategic timing: by replacing the entire writing system rather than tweaking existing spellings, the reform was a clean break that simultaneously created a new literate class and severed ties to Ottoman-language texts (a deliberate political goal). English has no equivalent central authority — no government, academy, or institution can impose spelling change. Additionally, English already has a large literate population whose existing knowledge would be devalued by reform, creating resistance. The Turkish case shows that spelling reform is primarily a political problem, not a linguistic one."
+
+- question: "English's 'deep' orthography — with many irregular spellings that don't reflect current pronunciation — is evidence that English spelling failed to standardize properly compared to more regular systems."
+  type: true-false
+  answer: false
+  explanation: "Deep orthography is not a failure — it is the accumulation of linguistic history. English spelling preserves historical pronunciations (the 'k' in 'knight' was once pronounced), etymological origins ('psychology' from Greek, with the silent 'p' as a marker of that heritage), and morphological relationships ('sign/signal,' 'bomb/bombard'). A shallow phonemic spelling would erase this encoded information. The irregularities are not random: most follow discoverable patterns of etymology, borrowing, or historical phonology. Deep orthographies serve literate readers well (once mastered) precisely because they encode more than current sound — they encode meaning."
+
+- question: "A shallow orthography like Finnish, where each letter consistently represents the same sound, makes it easier to decode unfamiliar words aloud than a deep orthography like English."
+  type: true-false
+  answer: true
+  explanation: "In a shallow orthography, the grapheme-to-phoneme correspondence is consistent and nearly one-to-one, so a reader who knows the alphabet can correctly pronounce any word they encounter, even without knowing its meaning. Finnish children learn to decode text much faster than English children for this reason — the rules are simple and reliable. Deep orthographies like English require years of exposure to master the exception patterns. This is why orthographic depth is a genuine pedagogical challenge: teaching reading in English requires much more time on decoding than teaching in Finnish or Spanish, because the rules alone are insufficient."
+
+- question: "Why do linguists argue that English's apparently 'irregular' spellings are actually encoding meaningful information? What kind of information, specifically?"
+  type: short-answer
+  answer: "English spellings encode three main types of information beyond current pronunciation: (1) historical pronunciation — 'knight' was once pronounced with the /k/ and a velar fricative for the 'gh'; (2) etymological origin — 'psychology,' 'pneumonia,' and 'pterodactyl' keep silent letters that mark Greek borrowing, helping specialists recognize root relationships; (3) morphological relationships — 'sign/signal,' 'bomb/bombard,' 'nation/national' share visible spelling despite pronunciation differences, signaling that these words share a morpheme and meaning relationship. These encodings serve literate readers who need to infer meaning and connect related words — a reader who sees 'sign' and 'signal' can infer they are related even without knowing either word's full definition."
+  explanation: "The key insight is that an orthography optimized for phonetic transparency sacrifices these other kinds of information. Morphological transparency is particularly valuable for reading comprehension and vocabulary acquisition: seeing that 'opaque' and 'opacity' share a root helps a reader infer the meaning of one from the other. English's depth is a tradeoff, not a failure — it penalizes beginning readers (who need phonetic decoding) to benefit advanced readers (who benefit from morphological and etymological cues). Literacy researchers distinguish 'word attack' skills (decoding new words phonetically, harder in English) from 'reading comprehension' (potentially aided by morphological transparency in deep systems)."
+```
+
 ## Explainer
 
 You already know from your study of writing systems that different cultures have developed fundamentally different ways of mapping language onto graphic form — alphabets, syllabaries, logographies. Orthography is the layer that sits on top of a writing system: the specific, historically evolved, socially ratified conventions that govern how that system is applied to a particular language. Two languages can use the same script (Roman alphabet) but have wildly different orthographies. Spanish and English both use Roman letters, but reading Spanish aloud from print is almost error-free for a learner; reading English aloud from print requires years of exposure to master the exceptions.

@@ -33,6 +33,45 @@ Measure blood gas parameters (pH, PCO2, HCO3−) in arterial and venous samples 
 ## Common Misconceptions
 Dissolved CO2 is not the major form of CO2 transport; it is less important for bulk transport than bicarbonate, though the PCO2 (which reflects dissolved CO2) is essential for driving the equilibrium.
 
+## Questions
+
+```yaml
+- question: "A patient is hyperventilating. Based on the CO₂ transport and bicarbonate equilibrium, what happens to their blood pH?"
+  type: multiple-choice
+  options:
+    - "Blood pH decreases (more acidic) because hyperventilation produces more CO₂"
+    - "Blood pH increases (more alkaline) because hyperventilation removes CO₂ faster than it is produced, shifting the equilibrium toward less H⁺ production — causing respiratory alkalosis"
+    - "Blood pH stays the same because the bicarbonate buffer system is perfectly compensated"
+    - "Blood pH decreases because hyperventilation depletes plasma bicarbonate"
+  answer: 1
+  explanation: "Hyperventilation removes CO₂ faster than tissues produce it. Because CO₂ + H₂O ↔ HCO₃⁻ + H⁺ is a reversible equilibrium, removing CO₂ drives the reaction leftward — less H⁺ is produced and blood pH rises (respiratory alkalosis). This is why hyperventilating patients feel dizzy (cerebral vasoconstriction in response to low PCO₂) and may experience tingling. The key insight is that breathing rate directly controls blood CO₂ and therefore blood pH through the bicarbonate equilibrium."
+
+- question: "A marathon runner's muscles produce CO₂ at high rates. As hemoglobin releases O₂ to the working muscles and becomes deoxygenated, what happens to CO₂ loading efficiency in those tissue capillaries, based on the Haldane effect?"
+  type: multiple-choice
+  options:
+    - "CO₂ loading decreases because deoxygenated hemoglobin is already carrying O₂ metabolites and is saturated"
+    - "CO₂ loading increases — deoxygenated hemoglobin buffers H⁺ more effectively and binds CO₂ as carbaminohemoglobin more readily, optimizing CO₂ pickup exactly where and when metabolic CO₂ production is highest"
+    - "CO₂ and O₂ compete for the same binding site, so CO₂ can only be loaded after all O₂ has been released"
+    - "The Haldane effect only operates in the pulmonary capillaries during CO₂ unloading, not in tissue capillaries"
+  answer: 1
+  explanation: "The Haldane effect is the elegant coupling of O₂ unloading with CO₂ loading: deoxygenated hemoglobin has greater affinity for H⁺ (better buffering of the H⁺ produced when CO₂ → HCO₃⁻) and for CO₂ directly (forming carbaminohemoglobin). At the tissues where metabolic demand is highest, hemoglobin is releasing O₂ and becoming deoxy-Hb — which simultaneously configures it to be the best possible CO₂ carrier. The system is self-optimizing: greater O₂ demand means more deoxyHb, means more efficient CO₂ removal."
+
+- question: "Most carbon dioxide is transported in the blood dissolved as CO₂ gas, just as the majority of oxygen is transported dissolved in plasma."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception about CO₂ transport. Approximately 80% of CO₂ travels as bicarbonate (HCO₃⁻) in plasma, ~5–10% as dissolved gas, and ~5–10% as carbaminohemoglobin. The contrast with O₂ is instructive: O₂ relies heavily on hemoglobin binding (~98%), while CO₂ relies primarily on chemical conversion to bicarbonate. Dissolved CO₂ (measured as PCO₂) is important for driving the equilibrium and triggering chemoreceptor feedback, but it is not the major transport form by quantity."
+
+- question: "The Haldane effect means that the same hemoglobin molecule that releases O₂ at the tissues simultaneously becomes a better carrier of CO₂ — a coupling that makes CO₂ pickup more efficient exactly where metabolic demand is highest."
+  type: true-false
+  answer: true
+  explanation: "This bidirectional coupling is one of the most elegant features of respiratory physiology. At active tissues: O₂ release → Hb becomes deoxygenated → better H⁺ buffering + better carbaminohemoglobin formation → more efficient CO₂ loading. In the lungs: O₂ binding → oxyhemoglobin releases H⁺ and CO₂ → bicarbonate converts back to CO₂ → exhaled. O₂ delivery and CO₂ removal are not two parallel processes but one coupled mechanism, each facilitating the other."
+
+- question: "Explain the chloride shift and why it is necessary for the bicarbonate transport system to function without disrupting red blood cell electrical balance."
+  type: short-answer
+  answer: "When CO₂ is converted to HCO₃⁻ inside red blood cells, the bicarbonate must exit into the plasma for bulk transport. If HCO₃⁻ left the cell without a counter-ion entering, the cell interior would become electrically positive (H⁺ remains inside, negative charge leaves). To maintain electrical neutrality, a Cl⁻/HCO₃⁻ antiporter swaps one bicarbonate out for one chloride ion in. Without this exchange, the electrochemical gradient would halt HCO₃⁻ export and CO₂ transport would fail."
+  explanation: "The chloride shift is a measurable signature of CO₂ loading: venous blood red cells contain more Cl⁻ and less HCO₃⁻ than arterial blood red cells. The reverse shift occurs in the pulmonary capillaries as HCO₃⁻ re-enters and Cl⁻ exits. This is sometimes called the Hamburger phenomenon. It illustrates that efficient CO₂ transport requires not just the chemistry of carbonic anhydrase but also coordinated membrane transport to move products across the red cell membrane without disrupting ionic balance."
+```
+
 ## Explainer
 
 From your study of gas exchange, you know that CO₂ diffuses from metabolically active tissues into the blood along its partial pressure gradient. But CO₂ cannot simply dissolve in plasma and ride to the lungs — at the rate tissues produce it (~200 mL/min), dissolved gas alone would be woefully insufficient. The blood solves this transport problem by converting most CO₂ into **bicarbonate** (HCO₃⁻), a far more soluble form that can be carried in much higher concentrations. This conversion happens almost entirely inside red blood cells, where the enzyme **carbonic anhydrase** accelerates the reaction CO₂ + H₂O → H₂CO₃ → HCO₃⁻ + H⁺ by a factor of about 5,000 compared to the uncatalyzed rate.

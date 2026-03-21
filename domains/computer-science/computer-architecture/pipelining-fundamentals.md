@@ -33,6 +33,45 @@ Draw a pipeline timing diagram for a 5-stage pipeline executing 8 instructions. 
 - Pipelining does not speed up individual instructions; it speeds up the throughput of many instructions executing in parallel.
 - A deeper pipeline does not always mean more performance; each stage boundary adds pipeline register latency and increases exposure to hazard penalties.
 
+## Questions
+
+```yaml
+- question: "A 5-stage pipelined processor and a non-pipelined processor each execute the same single instruction. Assuming no hazards, which processor takes longer to complete that one instruction?"
+  type: multiple-choice
+  options:
+    - "The non-pipelined processor — it must complete the full 5-stage path sequentially"
+    - "The pipelined processor — each stage boundary adds pipeline register overhead, making the total latency slightly longer"
+    - "They take exactly the same time — pipelining only affects throughput, leaving latency unchanged"
+    - "The pipelined processor is always faster for a single instruction because its clock frequency is higher"
+  answer: 1
+  explanation: "Pipelining adds pipeline register overhead at each stage boundary — the registers that hold intermediate values consume additional time. So a single instruction takes slightly *longer* on a pipelined processor than a non-pipelined one. Pipelining's benefit is entirely in throughput: many instructions executing simultaneously. For a single instruction in isolation, pipelining is a slight disadvantage. Option C is nearly correct — pipelining does not improve individual instruction latency — but the strictly accurate answer is that pipelined latency is marginally worse, not equal."
+
+- question: "A processor designer considers deepening the pipeline from 5 stages to 15 stages to allow a higher clock speed. Which statement best captures the trade-off?"
+  type: multiple-choice
+  options:
+    - "A deeper pipeline is always better — more stages means a faster clock and proportionally higher throughput"
+    - "A deeper pipeline increases throughput by 3× because 15 stages is 3× deeper than 5 stages"
+    - "A deeper pipeline enables a faster clock but increases hazard penalties, since each stall flushes more pipeline work"
+    - "A deeper pipeline decreases throughput because each instruction takes more clock cycles to complete"
+  answer: 2
+  explanation: "Deeper pipelines allow a faster clock (each stage does less work per cycle), but they amplify the cost of hazards. In a 5-stage pipeline, a data hazard stall might waste 2 cycles; in a 15-stage pipeline, the same dependency might waste 6–8 cycles. Branch mispredictions also flush more in-flight work. Net performance depends on whether the clock speedup outpaces the increased hazard penalty — which is not guaranteed, as Intel's Pentium 4 (31 stages) demonstrated with diminishing returns."
+
+- question: "Pipelining reduces the time (latency) required to execute each individual instruction."
+  type: true-false
+  answer: false
+  explanation: "Pipelining does not reduce — and actually slightly increases — individual instruction latency, because pipeline register overhead is added at each stage boundary. Pipelining's benefit is entirely in throughput: by overlapping execution of many instructions, one instruction completes per clock cycle after the pipeline fills. The laundry analogy makes this clear: each individual load still takes 90 minutes (latency unchanged); the improvement is finishing one load every 30 minutes instead of every 90 (throughput tripled)."
+
+- question: "RISC architectures are better suited to pipelining than CISC architectures partly because their fixed-length instructions make the fetch stage predictable and their uniform formats simplify decoding."
+  type: true-false
+  answer: true
+  explanation: "Fixed-length instruction encoding means the fetch stage always knows exactly how many bytes to read for the next instruction — no variable-width parsing required. Uniform instruction formats mean register specifiers are always in the same bit positions, making the decode stage simple and fast. These properties allow pipeline stages to do a consistently-sized amount of work, which is essential for keeping stages balanced. CISC architectures like x86, with instructions ranging from 1 to 15 bytes, require complex pre-decode logic just to find instruction boundaries."
+
+- question: "Using the laundry analogy, explain why pipelining improves throughput but not latency."
+  type: short-answer
+  answer: "Each load still goes through wash (30 min), dry (30 min), and fold (30 min) — 90 minutes total per load. Pipelining doesn't make any single load finish faster; it starts the next load as soon as the previous one moves to the next stage. After the pipeline fills, you complete one load every 30 minutes (the bottleneck stage time) instead of every 90. Throughput triples, but each load tracked from start to finish still takes 90 minutes. Latency per load is unchanged; throughput is dramatically improved."
+  explanation: "In CPU terms: each instruction still passes through all 5 stages and takes the same total path time. Pipelining adds nothing to individual instruction speed — it ensures different stages work on different instructions simultaneously. This distinction matters because pipelining does not help with single-instruction latency (relevant in dependency chains) and explains why it is a throughput optimization, not a latency optimization."
+```
+
 ## Explainer
 
 You already understand the CPU datapath — the hardware that fetches an instruction, decodes it, executes it through the ALU, accesses memory if needed, and writes the result back to a register. In a simple non-pipelined processor, these five steps happen sequentially for each instruction: the entire datapath sits idle while one stage does its work, then the next stage takes over. Pipelining eliminates this waste by letting different instructions occupy different stages simultaneously, like an assembly line in a factory.

@@ -35,6 +35,45 @@ Plot the LJ potential and identify the equilibrium separation (r_min = 2^(1/6)σ
 - Thinking the r⁻¹² repulsion term has a physical origin; it is chosen for computational convenience, not because repulsion follows a 12th-power law (e.g., exponential functions are more accurate).
 - Confusing ε (well depth, positive) with the total interaction energy (which is negative at the minimum of the potential).
 
+## Questions
+
+```yaml
+- question: "A molecule pair has an LJ potential with σ = 3.4 Å. At what separation distance does the potential energy reach its minimum (equilibrium) value?"
+  type: multiple-choice
+  options:
+    - "r = σ = 3.4 Å, because σ is defined as the equilibrium separation"
+    - "r = 2^(1/6) × σ ≈ 3.82 Å, just beyond the zero-crossing"
+    - "r = 2σ = 6.8 Å, where the long-range attraction is strongest"
+    - "r = σ/2 = 1.7 Å, inside the repulsive core"
+  answer: 1
+  explanation: "σ is the collision diameter — the distance at which the LJ potential crosses zero (repulsion and attraction exactly balance). The actual minimum occurs slightly farther out, at r_min = 2^(1/6)σ ≈ 1.12σ. This is a common confusion: σ is a zero-crossing, not an equilibrium. The well depth ε (positive) is the magnitude of the potential at r_min, and the potential energy there is −ε."
+
+- question: "Why is the r⁻¹² repulsion term used in the Lennard-Jones potential rather than an exponential function, even though the exponential is physically more accurate?"
+  type: multiple-choice
+  options:
+    - "Quantum mechanics rigorously derives a 12th-power repulsion from Pauli exclusion between electron clouds"
+    - "Experimental data for noble gases precisely fit a 12th-power law at short range"
+    - "The exponent 12 is the square of 6, making the repulsion term the square of the attractive term and drastically simplifying computation"
+    - "An exponential function cannot produce the steep repulsive wall observed in molecular collisions"
+  answer: 2
+  explanation: "The r⁻¹² choice is computational convenience, not physical rigor. Because (σ/r)¹² = [(σ/r)⁶]², the repulsive term can be computed by squaring an already-computed quantity — halving the number of expensive power operations in molecular simulation. Exponential repulsion (the Buckingham potential) is physically more accurate but harder to compute. The key insight is that the r⁻¹² exponent has no deep theoretical justification; it was chosen to make the math tractable."
+
+- question: "The second virial coefficient B(T) is negative at low temperatures for gases modeled by the Lennard-Jones potential."
+  type: true-false
+  answer: true
+  explanation: "At low temperatures, kT is small relative to the well depth ε, so thermal energy cannot overcome the attractive part of the potential. Molecules spend more time near each other than a purely repulsive gas would, making the gas more compressible than ideal. This corresponds to negative B(T). At high temperatures, kT >> ε, the attraction becomes negligible, and the hard repulsive core dominates — B(T) becomes positive. This temperature dependence is what makes B(T) measurements across a range of T so useful for simultaneously fitting both ε and σ."
+
+- question: "The parameter ε in the Lennard-Jones potential represents the total potential energy of two molecules at their equilibrium separation."
+  type: true-false
+  answer: false
+  explanation: "ε (positive) is the depth of the energy well — the magnitude of the minimum potential energy. The actual potential energy at the minimum is −ε (negative, since it represents attraction). The sign matters: the well depth ε tells you how strongly the molecules attract each other, but the potential energy there is −ε. Confusing ε with the total energy leads to sign errors when calculating thermodynamic quantities from the pair potential."
+
+- question: "Why does the second virial coefficient B(T) provide an experimental route to determining the Lennard-Jones parameters ε and σ? What is the physical logic connecting a macroscopic PVT measurement to a microscopic pair potential?"
+  type: short-answer
+  answer: "B(T) = −2πN_A∫[exp(−u(r)/kT)−1]r²dr. This integral directly encodes how much two molecules deviate from independent (ideal) behavior due to their pairwise interaction. At each temperature, B(T) is a single number derived from PVT data. Because the LJ potential has two parameters (ε, σ) and B(T) depends on temperature, measuring B across a range of temperatures gives a curve whose shape and magnitude can only be matched by specific values of ε and σ. The bridge is statistical mechanics: the Mayer f-function exp(−u/kT)−1 weights the interaction energy by Boltzmann factors, connecting the microscopic energy landscape to the macroscopic equation of state."
+  explanation: "The key insight is that PVT deviations from ideality encode pair interaction information. Ideal gas molecules don't interact; real gas deviations are caused by interactions. B(T) captures the pairwise contribution. Because the LJ potential changes shape with ε and σ, different parameter choices produce differently shaped B(T) curves. Fitting experimental B(T) data constrains both parameters simultaneously — turning PVT measurements taken with a pressure gauge into knowledge about molecular interaction strength and size."
+```
+
 ## Explainer
 
 From intermolecular forces, you know qualitatively that molecules attract at long range (London dispersion, dipole-dipole) and repel at short range (electron cloud overlap). **Intermolecular potential models** translate these qualitative ideas into mathematical functions that predict the exact energy of interaction at any separation distance r. Having an equation instead of a hand-waving description is what makes it possible to calculate real physical properties — gas viscosities, boiling points, crystal structures — from molecular parameters.

@@ -35,6 +35,45 @@ Start by understanding the 12-bar blues progression as the foundational structur
 - Jazz was not invented by a single person or in a single moment — it emerged from a confluence of traditions over decades.
 - Blues is both a genre and a pervasive aesthetic that infuses jazz; they are related but distinct musical traditions with different structural logics.
 
+## Questions
+
+```yaml
+- question: "A musician moves to Chicago in 1920 and records music that sounds like what we call jazz today. Which description BEST explains what made that music 'jazz'?"
+  type: multiple-choice
+  options:
+    - "It was invented in New Orleans and simply brought north by this musician"
+    - "It synthesized blues tonality and collective improvisation with ragtime's rhythmic sophistication and European harmonic language"
+    - "It was created when African American musicians copied European concert hall traditions and added rhythm"
+    - "It was defined by exclusive use of the 12-bar blues form"
+  answer: 1
+  explanation: "Jazz wasn't invented by one person or reducible to one element. It emerged from a convergence: the blues contributed call-and-response, the 12-bar form, and blue notes; ragtime contributed syncopation and urban sophistication; European church and brass band traditions contributed harmonic language. This synthesis — not any single element — is what defines jazz."
+
+- question: "When historians say blues 'influenced' jazz, they primarily mean that blues provided:"
+  type: multiple-choice
+  options:
+    - "The venues and social networks in which jazz musicians first performed"
+    - "Specific structural and sonic elements — 12-bar form, call-and-response, blue notes — that became foundational to jazz's sound"
+    - "A set of lyrics that jazz musicians adapted into instrumental melodies"
+    - "A practice of improvisation that jazz borrowed from blues singers"
+  answer: 1
+  explanation: "Blues influence on jazz was structural and sonic, not merely social or emotional. The 12-bar form gave performers a shared harmonic platform for improvisation. Call-and-response shaped melodic phrasing. Blue notes — the flattened third, fifth, and seventh — gave jazz its characteristic tonal color. These are specific musical inheritances, not vague 'influences.'"
+
+- question: "Blue notes in jazz refer to the flattened third, fifth, and seventh scale degrees, which bend away from the standard European scale and create jazz's characteristic tonal quality."
+  type: true-false
+  answer: true
+  explanation: "This is correct. Blue notes are specific pitches — departures from the tempered European scale — that create the 'dirty' or expressive tonal quality distinguishing jazz from classical music. They are the sonic signature linking blues to jazz and persist through every subsequent jazz style."
+
+- question: "The first jazz recordings were made by African American musicians from New Orleans, giving Black artists commercial recognition for the music they created."
+  type: true-false
+  answer: false
+  explanation: "The 1917 Victor recording by the Original Dixieland Jass Band — widely cited as the first jazz record — was made by a white group. This is a documented example of Black musical innovation being commercially exploited by white intermediaries who gained fame and profit that the originators did not. The commercialization of jazz frequently involved this pattern."
+
+- question: "Why was New Orleans specifically — rather than any other American city — the birthplace of jazz?"
+  type: short-answer
+  answer: "New Orleans had a unique social geography: free Black communities, creole musicians trained in classical European traditions, and a culture of cultural mixing absent elsewhere. Its commercial venues (Storyville dance halls, funeral processions) demanded professional, versatile musicians who had to synthesize multiple traditions. This combination of social conditions, musical diversity, and economic pressure created the environment for jazz's synthesis that didn't exist in the same form anywhere else."
+  explanation: "The explanation is not just 'there were musicians there' — it is that the specific social and economic conditions of New Orleans created both the raw material (diverse musical traditions) and the demand pressure (versatile commercial musicians) that forced synthesis. The Great Migration then carried this synthesis northward and spread it nationally through recordings."
+```
+
 ## Explainer
 
 Jazz did not appear suddenly — it grew out of a dense web of African American musical traditions converging in one city at one historical moment. The two most important roots were the **blues** and **ragtime**. Blues originated as a vocal tradition, built around the emotional practice of **call-and-response** (a melody "asks" a phrase, a response "answers" it — a pattern inherited from African work songs and field hollers) and the harmonic framework of the **12-bar blues**. You already know about chord progressions; the 12-bar blues is a specific, highly stable pattern: four bars on the I chord, two bars on IV, two on I, two on V, two on I. That repetition gave performers a shared platform for improvisation — you always knew where you were in the form.

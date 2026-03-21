@@ -36,6 +36,45 @@ Read the Second Treatise of Government (1689), focusing on Chapters 2, 5, and 19
 - The labor theory of property includes provisos (the Lockean proviso: 'enough and as good left for others') that Locke himself invokes inconsistently.
 - Locke's natural rights are not the same as legal rights — they are pre-political moral claims.
 
+## Questions
+
+```yaml
+- question: "A student argues: 'Locke's natural rights theory means rights come from government — without the state, there are no rights, only power.' What does this get wrong about Locke?"
+  type: multiple-choice
+  options:
+    - "Nothing — Locke holds that natural rights are codified and created by the state"
+    - "Locke's entire argument is that natural rights are pre-political moral claims that exist prior to government; the state's role is to protect rights that already exist, not create them"
+    - "Locke agrees rights come from government but argues they should precede positive law"
+    - "Locke grounds rights in social consensus, not pre-political nature"
+  answer: 1
+  explanation: "The student has reversed Locke's foundational claim. For Locke, natural rights to life, liberty, and property exist in the state of nature, prior to any political authority, grounded in natural law and God's creation. Government is established second, and its only legitimate purpose is to protect pre-existing rights. A government that violates those rights forfeits its authority. Option A describes a positivist view of rights (like Austin's or Bentham's) that Locke explicitly rejects — the whole point of 'natural' rights is that they are independent of political institutions."
+
+- question: "Under Locke's labor theory of property, which scenario most clearly satisfies the conditions for a legitimate initial property claim?"
+  type: multiple-choice
+  options:
+    - "A person inherits fertile land from wealthy parents"
+    - "A government issues a land grant to a noble in exchange for military service"
+    - "A person clears, tills, and farms previously unowned land while leaving enough and as good for others"
+    - "A corporation purchases land from someone who acquired it through conquest generations ago"
+  answer: 2
+  explanation: "Locke's labor theory requires: (1) mixing one's own labor with (2) genuinely unowned natural resources while (3) satisfying the Lockean proviso — leaving 'enough and as good' for others. Clearing and farming unowned land satisfies all three. Inheritance (A) involves no labor by the claimant. Government grants (B) derive from political authority, not natural right. Chains of transfer involving conquest (D) violate the initial-acquisition conditions — which is why critics note that virtually no modern property title survives strict Lockean scrutiny."
+
+- question: "Locke's 'consent of the governed' means that citizens must directly vote on every law through direct democracy."
+  type: true-false
+  answer: false
+  explanation: "Locke's consent operates primarily through representative institutions — people consent to the political system through participation in or acceptance of representative government, not through direct votes on every law. This is a common conflation of Lockean consent with direct democracy. Locke also distinguishes express from tacit consent, acknowledging that most political authority rests on the latter. The key requirement is not direct participation but that government operate through legitimate representative structures that protect natural rights."
+
+- question: "For Locke, a government that taxes citizens without representation through legitimate institutions violates the natural right to property and forfeits its authority."
+  type: true-false
+  answer: true
+  explanation: "Locke argued that taxation without consent constitutes taking property without agreement — a violation of the natural right to property that government exists to protect. When government acts as a violator of rights rather than their protector, it forfeits its legitimacy, and the right of revolution is activated. This principle directly shaped the American revolutionary slogan 'no taxation without representation,' which is an explicit application of Lockean theory to British colonial policy."
+
+- question: "Why, in Locke's framework, does the right of revolution not give the people license to overthrow government for any reason they dislike? What specifically triggers it?"
+  type: short-answer
+  answer: "For Locke, the right of revolution is specifically triggered when government violates the natural rights it was established to protect — life, liberty, and property. People entered political society to gain reliable enforcement of pre-existing rights; when government becomes the violator of those same rights, it has dissolved the social contract by acting outside its legitimate authority. This is a restoration mechanism, not a general power of override. The right of revolution does not mean the majority can remove unpopular governments for policy disagreements; it means government has committed the specific betrayal of acting against the natural rights that justify its existence in the first place."
+  explanation: "This limit on revolution is what distinguishes Locke from Hobbes (who denies a right of revolution) and from anarchist or majoritarian views. Locke is permissive about revolution under rights violations but quite restrictive about what counts as a legitimate trigger."
+```
+
 ## Explainer
 
 You already know the social contract tradition: political authority is legitimate not because rulers have divine sanction, but because free individuals consented (at least hypothetically) to form a political community. Locke builds on this framework but adds a crucial pre-political foundation: **natural rights** — moral claims to life, liberty, and property that individuals possess independently of any government, in virtue of being rational persons created by God.

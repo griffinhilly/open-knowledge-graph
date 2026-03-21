@@ -31,6 +31,45 @@ Cook the same creamy sauce two ways—one with no acid and one with lemon juice 
 ## Common Misconceptions
 - Acid is only for sour or acidic-tasting dishes. - Adding acid late in cooking is the same as adding it early; timing doesn't change how acid works.
 
+## Questions
+
+```yaml
+- question: "A cook adds a squeeze of lemon to a rich cream sauce and notices it immediately tastes brighter and less heavy. A friend says 'that just added a lemon flavor note.' Which explanation better captures what happened chemically?"
+  type: multiple-choice
+  options:
+    - "The citric acid dissolved fat molecules, making the sauce physically lighter"
+    - "Acid suppressed bitterness receptors and stimulated salivation, clearing fat from the palate and sharpening flavor perception"
+    - "Heat from the sauce neutralized the acid, releasing volatile aroma compounds"
+    - "The lemon juice lowered the salt content, making the other flavors more distinct"
+  answer: 1
+  explanation: "Acid 'brightens' flavor through two mechanisms: it suppresses bitterness receptors (reducing muddy or flat notes) and stimulates salivation, which physically clears the palate-coating film of fat so each bite tastes fresher. The friend's explanation — 'added lemon flavor' — misses the point entirely. Acid used as a finishing tool is not primarily about tasting lemon; it's about restructuring how the other flavors register on the palate."
+
+- question: "You're making a slow-simmered minestrone with cannellini beans and want the beans to hold their shape through an hour of cooking. When should you add the tomatoes (which are acidic)?"
+  type: multiple-choice
+  options:
+    - "Never — tomatoes must be kept separate to avoid toughening the beans permanently"
+    - "Near the end, because acid added early denatures bean proteins and causes them to fall apart"
+    - "At the beginning, because acid stabilizes pectin in plant cell walls and slows softening"
+    - "It doesn't matter — acid has no measurable effect on legume texture"
+  answer: 2
+  explanation: "Pectin — the structural polymer in plant cell walls — is stabilized by acid and broken down by alkaline conditions. Adding tomatoes early keeps the beans' cell walls intact longer, slowing the softening process and helping them hold their shape through long cooking. This is the opposite of the common misconception: people assume acid 'breaks things down,' but with legumes, acid is actually the preserving agent. The caveat is that extreme acidity for very long periods can eventually have other effects, but for typical cooking, early acid = firmer beans."
+
+- question: "Ceviche 'cooks' raw fish purely by flavor absorption — the lime juice marinates the fish without changing its protein structure."
+  type: true-false
+  answer: false
+  explanation: "Ceviche works precisely because acid does change the protein structure. Lime juice causes protein denaturation — the same unfolding and re-folding of protein chains that happens with heat. This is why ceviche fish becomes opaque and firm, exactly as heat-cooked fish does. The texture change is a direct chemical consequence of acid acting on proteins. The misconception that it's 'just flavoring' misses the functional chemistry entirely."
+
+- question: "The brightening effect of acid in a savory dish is partly due to acid's ability to suppress bitterness perception."
+  type: true-false
+  answer: true
+  explanation: "Yes. One of acid's flavor mechanisms is the suppression of bitterness receptors, which reduces the muddy or flat quality in dishes where bitter compounds are present. This is separate from (and additive to) its fat-clearing effect via salivation stimulation. Together, these mechanisms explain why a small amount of acid can transform a flat-tasting dish — not by adding sourness, but by chemically reorganizing how other flavors are perceived."
+
+- question: "A chef claims 'acid is only for sour dishes.' Name two other functions acid performs in cooking and explain why the timing of acid addition matters."
+  type: short-answer
+  answer: "Acid brightens flavor by suppressing bitterness and cutting through fat (useful in any rich dish, not just sour ones), and it slows protein denaturation, keeping cooked proteins tender longer. Timing matters because the mechanism differs by ingredient: add acid early to legumes to stabilize pectin and keep them firm; add acid late to green vegetables to preserve chlorophyll color; add acid to proteins carefully, because premature denaturation can toughen delicate fish or meat before the rest of the dish is ready."
+  explanation: "The core misconception is that acid = sour taste. In skilled cooking, acid functions as a structural and perceptual tool used in dishes of all flavor profiles. A braise, a butter sauce, a roast chicken — none of these are 'sour dishes,' but all benefit from judicious acid. The timing principle reflects that acid's effects on pectin, proteins, and pigments happen at different rates and with different consequences, requiring strategic placement in the cooking sequence."
+```
+
 ## Explainer
 
 From your work with seasoning and flavor basics, you know that seasoning a dish means adjusting its taste — balancing salt, fat, sweetness, and bitterness to bring the dish into harmony. Acid is the fifth balancing tool, and it works differently from the others. While salt amplifies existing flavors and fat carries aroma, **acids** (compounds that donate hydrogen ions — citric acid in lemon juice, acetic acid in vinegar, tartaric acid in wine) interact directly with the chemistry of flavor perception and cooking in several distinct ways.

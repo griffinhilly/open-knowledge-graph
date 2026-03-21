@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Oceanography integrates physics, chemistry, biology, and geology to understand ocean processes and their influence on Earth's climate, weather, and life. The discipline examines phenomena ranging from surface waves to deep-sea trenches and explains how oceans regulate planetary heat and nutrient cycles.
 
+## Questions
+
+```yaml
+- question: "A marine scientist observes unexpectedly high fish productivity in a particular ocean region. To fully explain this, which combination of knowledge does she need?"
+  type: multiple-choice
+  options:
+    - "Only biological oceanography, since fish are living organisms"
+    - "Only physical and biological oceanography, since currents carry nutrients and fish need food"
+    - "Physical, chemical, and biological oceanography, because currents drive upwelling, nutrients enable phytoplankton, and phytoplankton supports fish"
+    - "Only chemical oceanography, since nutrient concentrations determine productivity"
+  answer: 2
+  explanation: "Explaining high fish productivity requires all three perspectives: physical oceanography explains why upwelling currents bring deep water to the surface; chemical oceanography explains the nutrient supply and dissolved oxygen conditions; and biological oceanography explains how phytoplankton and food webs convert those nutrients into fish biomass. Geological oceanography also contributes (e.g., seafloor topography steering upwelling). This integrative requirement is the defining feature of oceanography as a discipline."
+
+- question: "Why do coastal cities generally have milder climates — smaller swings between summer and winter temperatures — than cities at the same latitude located deep inland?"
+  type: multiple-choice
+  options:
+    - "Coastal cities receive more solar radiation because they are exposed to the sky from more angles"
+    - "The ocean's large thermal mass absorbs summer heat and releases it in winter, moderating temperature extremes"
+    - "Winds from the ocean are always warm and prevent extreme cold"
+    - "Coastal cities are at lower elevations than inland cities, where temperatures are more extreme"
+  answer: 1
+  explanation: "The ocean has enormous thermal inertia — its massive volume absorbs or releases large amounts of heat with relatively small temperature changes. In summer, coastal ocean water absorbs heat, keeping coastal temperatures lower; in winter, the ocean releases stored heat, keeping coastal temperatures warmer. Inland cities lack this thermal buffer and swing to greater extremes. This thermal inertia also explains why Earth's climate responds to forcing on decade-to-century timescales rather than days."
+
+- question: "The ocean's thermal inertia means that Earth's climate can change significantly over very short timescales, such as weeks or months."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true. The ocean's thermal inertia — its enormous capacity to absorb and store heat — is precisely why Earth's climate responds to forcing on long timescales (decades to centuries), not short ones. The ocean acts as a massive heat buffer, smoothing out rapid changes. This is a key reason why global warming from greenhouse gases unfolds over many decades rather than years."
+
+- question: "Oceanography's four sub-disciplines — physical, chemical, biological, and geological — are best understood as interconnected perspectives on a single coupled system, not as isolated specialties."
+  type: true-false
+  answer: true
+  explanation: "This integrative character defines oceanography and distinguishes it from simply applying physics, chemistry, biology, or geology independently to marine settings. A change in wind patterns (physics) alters nutrient upwelling (chemistry), which shifts phytoplankton structure (biology), which changes carbon flux to the seafloor (geology). These cascading linkages are not exceptions — they are the rule in oceanographic systems."
+
+- question: "Why is 'thermal inertia' an important concept for understanding both ocean climate regulation and why climate change unfolds slowly?"
+  type: short-answer
+  answer: "Thermal inertia refers to the ocean's enormous capacity to absorb or release large amounts of heat with only small temperature changes. Because the ocean contains approximately 97% of Earth's water and covers 71% of its surface, it dominates Earth's heat budget. When solar energy increases, the ocean absorbs much of it without heating rapidly; when conditions cool, the ocean releases stored heat. This buffers Earth's temperature against rapid swings. The same property means that when humans increase greenhouse gas concentrations, the ocean absorbs much of the added heat gradually — the full climate response takes decades to centuries to fully emerge."
+  explanation: "Thermal inertia is why both short-term (seasonal) and long-term (climate change) temperature signals are moderated by the ocean. Without this buffer, Earth's climate would be far more volatile. Understanding thermal inertia is essential to interpreting both regional climate patterns (coastal vs. inland) and global climate dynamics."
+```
+
 ## Explainer
 
 Oceanography is the scientific study of the ocean in all its dimensions — physical, chemical, biological, and geological. What makes it distinctive as a discipline is that these four branches are not isolated specialties but deeply interconnected perspectives on a single, coupled system. A question as simple as "why are some parts of the ocean more productive than others?" requires understanding wind-driven circulation (physics), nutrient supply and dissolved gas chemistry (chemistry), phytoplankton ecology (biology), and seafloor topography that steers currents (geology). This integrative character is what defines oceanography and what makes it challenging.

@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Productive disagreement follows structural patterns: clear initial positions, taking turns, responding to actual rather than strawmanned claims, and allowing adjustment of views based on arguments. Understanding dialogue structure helps us engage in reasoning with others rather than merely attacking positions.
 
+## Questions
+
+```yaml
+- question: "During a debate, a participant summarizes their opponent's argument in simplified form and then refutes that simplified version, declaring victory. What structural failure has occurred?"
+  type: multiple-choice
+  options:
+    - "Ad hominem — attacking the person rather than the argument"
+    - "Strawmanning — misrepresenting the opponent's position and defeating the misrepresentation"
+    - "Red herring — changing the subject to avoid the original question"
+    - "Circular reasoning — using the conclusion as a premise in the refutation"
+  answer: 1
+  explanation: "Strawmanning occurs when a participant misrepresents the opponent's position (typically by simplifying or distorting it) and then defeats the misrepresentation. The structural failure is that they are arguing against a phantom opponent, not the actual claim. The principle of charity requires engaging with the strongest version of the opponent's argument. Strawmanning ends productive dialogue because the actual disagreement is never addressed — both parties can 'win' against strawmen while the real question remains untouched."
+
+- question: "What most distinguishes productive dialogue from a mere exchange of competing speeches?"
+  type: multiple-choice
+  options:
+    - "Productive dialogue involves more participants and a neutral moderator to keep order"
+    - "Each turn in productive dialogue responds to what was actually said in the prior turn, not to a prepared position"
+    - "Productive dialogue always reaches consensus, whereas competing speeches may not"
+    - "Productive dialogue occurs only in formal settings with agreed-upon rules of procedure"
+  answer: 1
+  explanation: "The structural requirement that distinguishes genuine dialogue from parallel monologues is that each turn must respond to the actual content of the prior turn — not to a prepared speech or an imagined version of the opponent's position. Dialogue tracks something real: the actual claims in play. An exchange where participants deliver pre-formed speeches without genuinely responding to each other produces noise, not inquiry. Consensus is not required (option C), and formality is not the criterion (option D)."
+
+- question: "In a well-structured debate, maintaining your opening position against all objections is a sign of intellectual integrity and argumentative strength."
+  type: true-false
+  answer: false
+  explanation: "This reverses the point of productive dialogue. Debate in the productive sense is cooperative inquiry, not a competition to defend a fixed position. A rational participant should update their position when confronted with a genuinely compelling argument — that is the point of the exercise. Refusing to revise in the face of strong objections is not integrity; it is rigidity. The positions that survive genuine scrutiny are provisionally accepted; those that do not should be revised or abandoned."
+
+- question: "The principle of charity requires interpreting an opponent's argument in its strongest form before responding."
+  type: true-false
+  answer: true
+  explanation: "The principle of charity is a foundational norm of productive dialogue: before responding, check whether you are engaging with what your interlocutor actually meant — their strongest, most coherent version — not what is easiest to refute. This prevents strawmanning and ensures that the dialogue actually engages with real disagreements rather than phantom ones. Arguments that survive charitable engagement are genuinely stronger than those that don't, because they've been tested against the best available opposition."
+
+- question: "Why is openness to revising your position a strength rather than a weakness in productive dialogue?"
+  type: short-answer
+  answer: "Productive dialogue is cooperative inquiry, not a competition to maintain a predetermined conclusion. If an argument is genuinely compelling — if the reasoning presented is stronger than what you brought — then the rational response is to update your position. Refusing to revise when confronted with good arguments means your position is tracking something other than truth or evidence (pride, prior commitment, social identity). Openness to revision is what makes dialogue a truth-seeking activity rather than a performance."
+  explanation: "This connects to a broader epistemological commitment: beliefs should be held in proportion to the evidence for them, and evidence can change. A participant who enters dialogue genuinely open to revision is more likely to leave with better-justified beliefs than one who enters committed to defending their starting point. The structure of dialogue — clear positions, genuine responses, openness to revision — is designed so that the positions surviving at the end are those that withstood the most rigorous scrutiny, not merely the most stubborn advocacy."
+```
+
 ## Explainer
 
 You already know what an argument is: a set of premises offered in support of a conclusion. And you know from the principle of charity that good reasoning requires interpreting opponents' arguments in their strongest form. Dialogue extends these ideas from a single argument into an *exchange* — a structured back-and-forth in which two or more parties develop, challenge, and revise positions over time. Understanding dialogue structure is the difference between argumentation that makes progress and argumentation that merely produces more noise.

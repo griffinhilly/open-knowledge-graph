@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 A set of formulas is consistent if there exists an interpretation satisfying all of them simultaneously; it is inconsistent if no such interpretation exists. Consistency is essential for logical systems—an inconsistent set of axioms allows deriving any formula, making the system useless for sound reasoning.
 
+## Questions
+
+```yaml
+- question: "A new formal axiomatic theory is shown to be inconsistent. What follows about the theorems provable in that system?"
+  type: multiple-choice
+  options:
+    - "Some theorems are unprovable — the system has gaps"
+    - "The system is incomplete but may still be useful for some purposes"
+    - "Every formula is provable in the system, including both a statement and its negation"
+    - "The system proves no theorems, because the axioms cancel each other out"
+  answer: 2
+  explanation: "By the principle of explosion (ex falso quodlibet), from any contradiction you can derive any formula whatsoever. An inconsistent system does not prove nothing — it proves everything. Both P and ¬P are theorems. This makes the system useless for distinguishing truth from falsehood. Option A describes incompleteness, which is a different property entirely."
+
+- question: "Is the set {P → Q, ¬Q, P} consistent?"
+  type: multiple-choice
+  options:
+    - "Yes — no individual formula in the set is itself a contradiction"
+    - "No — there is no interpretation that satisfies all three formulas simultaneously"
+    - "Yes — interpretations where P → Q is false satisfy the remaining formulas"
+    - "It depends on whether P and Q are logically independent"
+  answer: 1
+  explanation: "If P is true and ¬Q is true (Q false), then P → Q is false (a true antecedent with a false consequent). If P is false, P is not satisfied. No row in the combined truth table makes all three formulas true — the set is inconsistent. Option A is the key misconception: inconsistency is a property of the set as a whole, not of any individual member."
+
+- question: "A set of formulas can be inconsistent even if none of the individual formulas in the set is itself a contradiction."
+  type: true-false
+  answer: true
+  explanation: "Inconsistency is a collective property: the formulas together impose contradictory demands on an interpretation, even though each individual formula is satisfiable. {P → Q, P, ¬Q} is inconsistent, yet P → Q is satisfiable (make P false), P is satisfiable (make P true), and ¬Q is satisfiable (make Q false). The incompatibility only emerges when you try to satisfy all three simultaneously."
+
+- question: "An inconsistent theory is useless because it can prove no theorems."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true: an inconsistent theory proves too MANY theorems — in fact, every formula is provable from a contradiction (the principle of explosion). The theory is useless because it proves everything, including contradictions, making it impossible to rely on for sound reasoning. A theory that says everything says nothing meaningful."
+
+- question: "Why is consistency considered the minimum requirement for a formal theory, rather than merely a desirable property?"
+  type: short-answer
+  answer: "Because of explosion (ex falso quodlibet): from any inconsistency, every formula is derivable — including both a statement and its negation. A theory that proves everything cannot distinguish true claims from false ones. Consistency is therefore not a bonus feature — it is the precondition for the theory to make any meaningful claims at all. An inconsistent axiom system is not a weak theory; it is no theory."
+  explanation: "This is why foundational crises in mathematics (Russell's paradox, Hilbert's program) centered on consistency: if the axioms of arithmetic or set theory were inconsistent, all mathematical reasoning built on them would be worthless. Gödel's incompleteness theorems showed that consistency of a sufficiently powerful system cannot be proved within that system itself — but consistency remains the first requirement, even if unprovable internally."
+```
+
 ## Explainer
 
 You already know that a formula is **satisfiable** if some interpretation makes it true, and **unsatisfiable** (a contradiction) if none does. **Consistency** extends this idea from single formulas to sets: a set Σ of formulas is consistent if there is at least one interpretation that satisfies every formula in Σ simultaneously. It is **inconsistent** if no such interpretation exists — the formulas collectively impose contradictory demands on the world.

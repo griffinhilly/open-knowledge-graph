@@ -26,6 +26,45 @@ Compare elemental abundances across terrestrial planets. Use partition coefficie
 - Geochemical cycles are independent across planets; they are coupled—volcanic outgassing responds to interior cooling rates.
 - Element distributions are static; they change over planetary evolution as cooling rates and outgassing patterns shift.
 
+## Questions
+
+```yaml
+- question: "A planet has completely cooled — its interior is no longer hot enough to drive volcanism. Which statement best describes the fate of its geochemical cycles?"
+  type: multiple-choice
+  options:
+    - "Cycles continue uninterrupted via surface weathering alone"
+    - "Geochemical cycling effectively halts because volcanism is the primary engine redistributing elements between interior reservoirs and the surface"
+    - "Weathering accelerates to compensate for the lost volcanic input, maintaining the same cycling rate"
+    - "The crust-to-mantle cycle is unaffected because element partitioning depends on gravity rather than heat"
+  answer: 1
+  explanation: "Volcanism drives the redistribution of incompatible and volatile elements from the mantle to the crust and atmosphere (outgassing). Once the interior cools and volcanism stops, this primary engine shuts down. Surface weathering can still operate but it cannot return volatiles to the interior without subduction, and it cannot regenerate the volcanic outputs that replenish the atmosphere. Mars is the canonical example: as its interior cooled and volcanism waned, volatile outgassing slowed dramatically and its atmosphere thinned."
+
+- question: "Platinum-group metals (PGMs) are extremely rare in Earth's crust despite being present in the solar system at moderate abundances. What is the primary reason?"
+  type: multiple-choice
+  options:
+    - "PGMs were destroyed by heat during the early solar system before Earth formed"
+    - "Being siderophile (iron-loving) elements, they partitioned preferentially into Earth's metallic core during differentiation"
+    - "Weathering dissolved them from the crust into the deep ocean billions of years ago"
+    - "They are incompatible elements that never concentrated in any single reservoir"
+  answer: 1
+  explanation: "Siderophile elements have a chemical affinity for metallic iron and preferentially partitioned into the iron core during planetary differentiation. This is why the platinum-group metals — despite being astrophysically present — are depleted in the mantle and crust. The contrast with lithophile elements (which concentrate in the silicate crust) illustrates how chemical affinity, not just abundance, controls where elements end up. The study of siderophile depletion patterns in Earth's mantle is actually one way geochemists infer the conditions of core formation."
+
+- question: "On a planet without plate tectonics, volcanic outgassing transfers volatiles from the mantle to the atmosphere in essentially one direction only."
+  type: true-false
+  answer: true
+  explanation: "On a one-plate planet like Mars or Venus, there is no subduction to return crustal and atmospheric material back into the mantle. Volcanism can still deliver volatiles upward, but without the return path that subduction provides on Earth, the transfer is largely one-directional. Over time, the mantle progressively loses its volatiles to the crust and atmosphere without replenishment — contributing to Mars's declining volcanic activity and atmospheric thinning over geological time."
+
+- question: "Earth's long-term atmospheric CO₂ levels are controlled primarily by the balance between volcanic outgassing and biological photosynthesis, with silicate weathering playing only a minor role."
+  type: true-false
+  answer: false
+  explanation: "Silicate weathering is actually the dominant long-term CO₂ regulator on Earth. Chemical weathering of silicate rocks consumes atmospheric CO₂ and delivers dissolved ions (including Ca²⁺) to the ocean, where they are buried as carbonate sediments — effectively locking up CO₂ for millions of years. This weathering-carbonate cycle is the primary thermostat that has kept Earth's climate habitable over geological time. The comparison with Venus (which lacks liquid water and therefore this weathering feedback) helps explain Venus's runaway CO₂ greenhouse: without weathering to remove it, volcanic CO₂ accumulates indefinitely."
+
+- question: "Why does the presence or absence of plate tectonics fundamentally change the nature of a planet's geochemical cycles? What does subduction make possible that a one-plate planet cannot achieve?"
+  type: short-answer
+  answer: "Plate tectonics enables bidirectional cycling: subduction carries crustal material, sediments, and volatiles back into the mantle, closing the loop. On a one-plate planet, volcanism can transfer elements from interior to surface/atmosphere, but there is no return pathway. Subduction specifically makes the long-term carbon cycle possible (returning carbonate sediments to the mantle, where CO₂ is eventually re-released via volcanism) and recycles water and other volatiles back into the mantle. Without subduction, the system runs down: the mantle depletes in volatiles, volcanism wanes, and the atmosphere receives no new volcanic input."
+  explanation: "This distinction between one-way and cyclic geochemical processes is the key to understanding why Earth's volatile budget has been maintained over 4 billion years while Mars has progressively lost its volatiles. Earth's cycles are driven by the engine of plate tectonics keeping material circulating between the interior and surface; Mars's cycles are more like a leaking bucket."
+```
+
 ## Explainer
 
 From your study of planetary differentiation, you know that early in a terrestrial planet's history, heat from accretion and radioactive decay melts the interior, allowing dense metallic iron to sink toward the center and lighter silicates to float upward. This one-time separation creates the fundamental layered structure — core, mantle, crust — but it is not the end of the story. **Geochemical cycles** are the ongoing processes that continue to redistribute elements between these reservoirs over the lifetime of a planet, and comparing these cycles across worlds reveals how planetary size and thermal history control a planet's chemical evolution.

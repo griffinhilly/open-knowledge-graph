@@ -28,6 +28,45 @@ Predict parsing preferences for ambiguous sentences and test with reading-time e
 - Parsing preferences are not hard constraints; they bias initial analysis but can be overcome by strong cues.
 - Working memory limitations are not absolute; they vary by individual and interact with linguistic factors.
 
+## Questions
+
+```yaml
+- question: "Consider two sentences: (A) 'The reporter who attacked the senator resigned.' (B) 'The reporter that the senator attacked resigned.' Both are grammatical. Research consistently shows sentence (A) is processed faster. What is the primary reason?"
+  type: multiple-choice
+  options:
+    - "Sentence (A) uses 'who' while (B) uses 'that,' and 'who' is a simpler relative pronoun."
+    - "Sentence (A) is a subject relative clause where the dependency is shorter and more frequent; sentence (B) is an object relative clause with a longer dependency and an intervening noun phrase."
+    - "Sentence (B) is grammatically marked as passive voice, which always increases processing difficulty."
+    - "Sentence (A) follows late closure more strictly, while (B) violates it, causing a reanalysis penalty."
+  answer: 1
+  explanation: "This is the classic subject-relative vs. object-relative asymmetry. In (A), 'reporter' is the subject of the relative clause ('reporter attacked senator') — short dependency, frequent structure. In (B), 'reporter' is the object of 'attacked' while 'senator' intervenes as subject — a longer dependency that must be held in working memory while more material is processed. The difficulty is driven by dependency distance and structural frequency, not the relative pronoun used or voice."
+
+- question: "Which principle best explains why a parser initially analyzes 'The horse raced past the barn fell' as meaning the horse raced past the barn, rather than recognizing it as a passive reduced relative clause?"
+  type: multiple-choice
+  options:
+    - "The parser applies minimal attachment, preferring 'raced' as the main verb requiring no additional syntactic structure."
+    - "The parser applies late closure, attaching 'barn' to the most recently opened noun phrase."
+    - "The parser has insufficient working memory to track the subject 'horse' while processing 'raced.'"
+    - "The parser expects passive voice to be marked overtly, and reduced relatives violate this expectation."
+  answer: 0
+  explanation: "Minimal attachment drives the initial misanalysis: the parser attaches 'raced' as the main verb (the simplest structure, requiring the fewest syntactic nodes) rather than as the beginning of a reduced relative clause. The reduced relative clause analysis requires opening an additional S-node for the embedded clause, which minimal attachment avoids unless forced. When 'fell' arrives, it cannot be the main verb because 'raced' already filled that role — the parser must revise, producing the garden-path effect."
+
+- question: "Object relative clauses are harder to process than subject relative clauses because they are grammatically incorrect in standard English."
+  type: true-false
+  answer: false
+  explanation: "Both subject and object relative clauses are grammatically well-formed. The difficulty is a processing phenomenon, not a grammaticality judgment. Object relative clauses are harder because they create a longer dependency distance — the relativized element is in object position, separated from the head noun by an intervening subject NP — and are less frequent in natural language. The parser experiences measurable reading-time increases and higher error rates, but not because they violate grammar."
+
+- question: "Center-embedded sentences like 'The reporter that the senator that the lobbyist attacked accused ran' are difficult to process because maintaining multiple open dependencies simultaneously exhausts working memory."
+  type: true-false
+  answer: true
+  explanation: "Center-embedding stacks relative clauses inside each other, forcing the parser to hold multiple incomplete dependencies open simultaneously: 'reporter' waits for its verb ('ran'), 'senator' waits for its verb ('accused'), and 'lobbyist attacked' must be resolved — all before any of the main clause verbs arrive. Working memory capacity limits how many open dependencies can be maintained. Native speakers typically fail to process more than two levels of center-embedding, demonstrating that grammatical competence does not predict processing ease."
+
+- question: "Why does dependency distance predict parsing difficulty better than sentence length alone?"
+  type: short-answer
+  answer: "Sentence length doesn't capture what actually strains the parsing system: the burden of holding an open, unresolved dependency in working memory while processing intervening material. A long sentence where each dependency is quickly resolved is easy; a short sentence where a single dependency spans many intervening words is hard. Dependency distance measures the actual memory load — how many words must be processed between an element and the word it depends on. Long-distance dependencies are hard because they force the parser to maintain incomplete structures in memory for longer."
+  explanation: "This is why the subject/object relative clause asymmetry is such a clean demonstration: both sentence types have very similar lengths, but their dependency structures differ — subject relatives resolve the dependency quickly, object relatives stretch it across an intervening noun phrase. The processing cost maps onto the dependency structure, not the surface length. This also explains why scrambled or topicalized constructions in flexible word-order languages create processing costs without adding words."
+```
+
 ## Explainer
 
 From your psycholinguistics background and work with garden-path sentences, you know that parsing is not a neutral process of recovering structure — the parser has preferences, and those preferences create predictable patterns of difficulty. The study of parsing preferences and computational complexity maps those patterns systematically: why are some sentences easy to understand even when they are long, while others are difficult even when they are short?

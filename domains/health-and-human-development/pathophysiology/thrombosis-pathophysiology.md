@@ -33,6 +33,45 @@ Examine how each component of the triad contributes to clot formation: cardiac a
 ## Common Misconceptions
 Not all thrombi are occlusive—some are mural and do not obstruct flow initially. The hypercoagulable state is not inherent to platelets; it involves altered coagulation cascade balance.
 
+## Questions
+
+```yaml
+- question: "A 68-year-old patient with atrial fibrillation develops an embolic stroke from a clot that formed in the left atrium. Based on Virchow's triad, which arm is the primary driver, and what is the preferred therapeutic approach?"
+  type: multiple-choice
+  options:
+    - "Vessel wall injury — atrial fibrillation directly damages the atrial endothelium, exposing collagen; antiplatelets are first-line"
+    - "Stasis — ineffective atrial contractions cause blood to pool, allowing the coagulation cascade to proceed; anticoagulants are first-line"
+    - "Hypercoagulability — the electrical dysfunction of atrial fibrillation increases tissue factor expression systemically; antifibrinolytics are preferred"
+    - "All three arms operate simultaneously in atrial fibrillation, so combination antiplatelet plus anticoagulant therapy is always required"
+  answer: 1
+  explanation: "Atrial fibrillation causes irregular, ineffective atrial contractions that allow blood to pool (especially in the left atrial appendage), disrupting laminar shear forces that normally sweep activated clotting factors away. This stasis allows the coagulation cascade to run to completion, forming a fibrin-rich red thrombus. Because the mechanism is stasis-driven and fibrin-rich, anticoagulants (which block the cascade) — not antiplatelets (which target platelet aggregation) — are standard therapy for AF-related stroke prevention. This is a direct clinical application of distinguishing Virchow's triad arms."
+
+- question: "Compared to a thrombus formed at a ruptured atherosclerotic plaque in a coronary artery, a deep vein thrombosis (DVT) in the leg would be expected to:"
+  type: multiple-choice
+  options:
+    - "Be richer in platelets and respond better to antiplatelet therapy like aspirin"
+    - "Be richer in fibrin and red blood cells, and respond better to anticoagulant therapy"
+    - "Have identical composition regardless of location, since clotting factors are the same throughout the body"
+    - "Dissolve spontaneously because venous pressure is lower than arterial pressure"
+  answer: 1
+  explanation: "DVT is primarily driven by stasis, which allows the coagulation cascade to proceed, producing a fibrin mesh that traps red blood cells — a 'red thrombus.' Arterial thrombosis at a plaque rupture site is primarily driven by vessel wall injury, which directly activates platelets via exposed collagen, producing a platelet-rich 'white thrombus.' This distinction has direct therapeutic implications: anticoagulants (heparin, warfarin, direct oral anticoagulants) are highly effective against fibrin-rich red clots; antiplatelet agents (aspirin, clopidogrel) are the mainstay for platelet-rich white clots."
+
+- question: "All three components of Virchow's triad must be present simultaneously for thrombosis to occur."
+  type: true-false
+  answer: false
+  explanation: "Each arm of Virchow's triad is independently sufficient to promote thrombosis. Vessel wall injury alone (as in atherosclerotic plaque rupture) can trigger acute arterial thrombosis. Stasis alone (as in prolonged immobility or AF) can trigger DVT or atrial thrombus. Hypercoagulability alone (as in Factor V Leiden mutation) increases thrombotic risk without vascular damage or stasis. However, risk is multiplicative when multiple arms combine — a patient with Factor V Leiden who takes oral contraceptives faces 30–50× baseline risk because two arms interact synergistically."
+
+- question: "Anticoagulant medications (such as heparin) are the first-line treatment for the acute platelet-rich thrombus that forms during coronary artery plaque rupture."
+  type: true-false
+  answer: false
+  explanation: "Acute coronary plaque rupture produces a platelet-rich white thrombus driven by vessel wall injury — exposed collagen and tissue factor directly activate platelet adhesion and aggregation. The mainstay of acute treatment is antiplatelet therapy (aspirin to block thromboxane A2 synthesis, P2Y12 inhibitors like clopidogrel to block ADP-driven aggregation). Anticoagulants target the coagulation cascade and are more effective against fibrin-rich red thrombi (DVT, AF-related clots). Misapplying the wrong drug class because of misidentifying the mechanism is clinically consequential."
+
+- question: "Why does the same Virchow's triad framework predict that arterial and venous thrombi will have different compositions and respond to different treatments?"
+  type: short-answer
+  answer: "The dominant arm of Virchow's triad operating in each vascular bed determines clot composition. Arterial thrombi typically result from vessel wall injury (plaque rupture), which exposes subendothelial collagen and tissue factor, directly activating platelet adhesion and the extrinsic coagulation pathway at the injury site. The result is a platelet-rich white thrombus amenable to antiplatelet therapy. Venous thrombi typically result from stasis, which allows circulating coagulation factors to accumulate and react in the absence of normal shear-mediated clearance, producing a fibrin-rich red thrombus with entrapped erythrocytes — amenable to anticoagulant therapy. Matching treatment to the operative mechanism of Virchow's triad is the practical application of understanding clot pathophysiology."
+  explanation: "Virchow's triad is not just a risk factor list — it is a mechanistic framework that predicts clot type, location, and appropriate therapy. Students who memorize the three arms without connecting them to mechanism and treatment have missed the framework's clinical utility."
+```
+
 ## Explainer
 
 **Virchow's triad** is one of medicine's most enduring frameworks because it elegantly maps three completely different pathological processes onto a single outcome: clot formation where it should not occur. From your hemostasis prerequisites, you know that coagulation is normally a carefully balanced system — platelets adhere to exposed subendothelial collagen, the coagulation cascade amplifies and stabilizes the clot with fibrin, and natural anticoagulants (antithrombin, protein C/S, TFPI) limit the response to the injury site. Thrombosis is what happens when one or more components of this balance tip in favor of clot formation inappropriately.

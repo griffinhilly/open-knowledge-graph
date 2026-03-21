@@ -29,6 +29,45 @@ Identify an antagonist whose motivations you understand without approval. Analyz
 ## Common Misconceptions
 That moral ambiguity is pessimism; that readers require a clear villain; that complex characters are less entertaining; that ambiguity is only for literary fiction.
 
+## Questions
+
+```yaml
+- question: "A reader argues that Walter White in Breaking Bad is simply a villain who 'went bad,' and that understanding his motivations is just sympathizing with evil. A reading informed by the concept of moral ambiguity would respond that:"
+  type: multiple-choice
+  options:
+    - "The show endorses Walter White's choices by making him sympathetic — moral ambiguity requires the author to avoid judgment."
+    - "Understanding Walter White's motivations — pride, fear of mortality, resentment — implicates the audience in his transformation and prevents the comfortable distance of simple condemnation."
+    - "Walter White is actually not morally ambiguous because his later actions are clearly evil, which eliminates ambiguity."
+    - "Complex antagonists must never be condemned — moral ambiguity means all judgments are suspended."
+  answer: 1
+  explanation: "The central effect of moral ambiguity is not sympathy for wrong actions but the prevention of comfortable distance. When an antagonist's logic is comprehensible — built from recognizably human desires — the reader cannot simply dismiss them as a monster and feel resolved. The discomfort of understanding someone doing terrible things is more morally demanding than the relief of condemnation. Option 0 misidentifies sympathy with endorsement. Options 2 and 3 represent opposite misreadings: that unambiguous evil precludes complexity, and that complexity requires suspending all judgment."
+
+- question: "Javert in Les Misérables is considered morally complex (rather than simply villainous) because:"
+  type: multiple-choice
+  options:
+    - "He is secretly sympathetic to Valjean and is internally torn between duty and mercy throughout the novel."
+    - "His relentless pursuit follows from a coherent philosophical commitment to law as moral order — his complaint against Valjean is not wrong, even though his worldview has no room for mercy or growth."
+    - "His motivation is personal vengeance against Valjean, which readers can understand through his traumatic backstory."
+    - "He is presented as evil but redeemed at the end, giving him a complexity arc."
+  answer: 1
+  explanation: "Javert's complexity comes not from hidden sympathy or personal history but from legitimate coherence: his position is philosophically defensible even if wrong in practice. A world governed by strict law and impartial enforcement is a recognizable moral vision; Javert is its sincere embodiment. His tragedy is not that he is secretly good but that his worldview is rigid — it cannot accommodate mercy or the possibility of genuine transformation. This is the first mechanism of complex antagonists: legitimate grievance. The reader can follow his logic step by step without approving of where it leads."
+
+- question: "Depicting a morally complex world where good and evil are mixed is not the same as claiming that goodness is meaningless — moral ambiguity can be more morally serious than simple villain-hero structures."
+  type: true-false
+  answer: true
+  explanation: "Moral ambiguity is sometimes equated with nihilism or pessimism — the view that nothing matters. But complexity is actually more morally demanding than simple structures. When a story refuses to let readers off the hook with easy condemnation, it forces genuine moral engagement: the reader must sit with understanding someone doing terrible things, must distinguish comprehensibility from endorsement, and must ask what conditions and motivations made this possible. Simple villain-hero structures allow readers to project all evil outward; moral ambiguity prevents that projection."
+
+- question: "Moral ambiguity in fiction primarily serves an aesthetic function — making stories more realistic — but does not produce a different kind of moral engagement than stories with clearly good heroes and evil villains."
+  type: true-false
+  answer: false
+  explanation: "Moral ambiguity produces a qualitatively different kind of moral engagement, not just a more realistic one. Simple villain-hero structures allow readers to condemn evil from a comfortable distance, reinforcing the sense that they are unlike the villain. Complex antagonists with comprehensible logic prevent this distancing move — they force readers to recognize the human desires and conditions that drive destructive behavior. When Atticus Finch's racial compromises are revealed, the discomfort is specifically moral: it forces a reckoning with how we construct heroes and what heroism means among flawed actors. This is not aesthetics; it is moral work."
+
+- question: "Why does understanding a morally complex antagonist's logic require more from the reader than condemning a straightforwardly evil villain? What kind of moral work does this create?"
+  type: short-answer
+  answer: "Condemning a pure villain is cognitively and emotionally simple — the reader's moral judgment is confirmed, evil is identified as external and unlike the reader, and the story resolves. Understanding a morally complex antagonist requires the reader to follow a chain of reasoning they may find disturbing, to recognize motivations (pride, fear, resentment, grievance) that are recognizably human, and to hold simultaneously the judgments 'this is wrong' and 'I understand how they got here.' This dual holding is the moral work: it prevents the comfortable projection of all evil outward and forces the reader to confront the human conditions that produce destructive behavior. In doing so, complex antagonists ask readers to think rather than just react."
+  explanation: "The key distinction is between moral judgment (this is wrong) and moral distance (and therefore I am nothing like this). Moral ambiguity preserves the first while disrupting the second. This is why it is more morally serious — it requires the reader to do genuine ethical thinking rather than simply sorting characters into the approved and condemned."
+```
+
 ## Explainer
 
 Building on your understanding of character motivation, moral ambiguity is what happens when those motivations are humanly understandable but ethically indefensible — or when they sit in territory where "indefensible" itself becomes contested. A purely evil villain needs no motivation beyond malice; a morally complex antagonist has a logic that a reasonable person could follow, even if they arrive at destructive conclusions. This distinction changes the reader's relationship to the character entirely.

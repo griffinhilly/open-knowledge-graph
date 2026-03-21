@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Heidegger's phenomenological approach examined how artworks disclose truths about Being through their materiality and form. Art is not representation or expression but an event in which truth comes to presence through the struggle between 'earth' (resistant material, concealment, mystery) and 'world' (intelligibility, cultural meaning, revelation). Art lets Being show itself unconcealed.
 
+## Questions
+
+```yaml
+- question: "An art historian analyzes a Greek temple by carefully measuring its proportions, identifying the Doric column style, and explaining how its geometry embodies classical mathematical ratios. From Heidegger's perspective, what is fundamentally missing from this analysis?"
+  type: multiple-choice
+  options:
+    - "Historical context — Heidegger requires knowledge of who commissioned the temple and why"
+    - "The work's disclosure function — formal analysis attends to surface properties but cannot grasp the temple as an event that opens up a world of cultural meaning and truth"
+    - "Aesthetic pleasure — Heidegger argues that artworks must be experienced emotionally before they can be analyzed intellectually"
+    - "Biographical interpretation — Heidegger insists that understanding art requires reconstructing the artist's original intention"
+  answer: 1
+  explanation: "For Heidegger, formal analysis of proportions and style treats the artwork as an object with measurable properties, but misses what he considers essential: the artwork as an event of truth-disclosure. The Greek temple does not merely exhibit geometric ratios — it opens a world in which gods, humans, and community have their place, disclosing what was sacred and meaningful for ancient Greek existence. Heidegger explicitly distinguishes this from both formal aesthetics and biographical or historical contextualization (options A and D), and his account is not primarily about emotional response (option C)."
+
+- question: "In Heidegger's account of the artwork, what does 'earth' refer to?"
+  type: multiple-choice
+  options:
+    - "The natural landscape depicted or represented in the artwork"
+    - "The cultural and historical context in which the artwork was created"
+    - "The resistant, self-concealing materiality of the artwork that withdraws from full rational comprehension"
+    - "The physical ground or foundation on which the artwork rests — the literal earth supporting a temple"
+  answer: 2
+  explanation: "For Heidegger, 'earth' is the dimension of the artwork that resists being fully reduced to meaning, concept, or explanation. It is the weight of stone that no description exhausts, the color of a painting that cannot be captured in words, the density of matter that remains mysterious and inexhaustible. Earth is not landscape (option A), not historical context (option B), and not literally the ground (option D). It is the dimension of concealment and resistance that stands in productive tension with 'world' — the framework of cultural intelligibility — and this tension is what makes truth-disclosure possible in the artwork."
+
+- question: "For Heidegger, an artwork's primary function is to represent or express the artist's lived experience or inner vision."
+  type: true-false
+  answer: false
+  explanation: "Heidegger explicitly rejects both representation and expression as adequate accounts of art. Art is not a copy or image of something pre-existing (representation), nor a vehicle for externalizing the artist's inner states (expression). These are the dominant pre-Heideggerian accounts he is arguing against. For Heidegger, art is an event — a happening in which truth comes to presence for the first time. The artwork doesn't represent a world that already exists; it brings a world into being. Van Gogh's painting of peasant shoes doesn't express Van Gogh's feelings or represent boots — it discloses the world of peasant toil."
+
+- question: "Heidegger's concept of 'aletheia' implies that truth, in its most fundamental sense, is the event of things becoming unconcealed — coming into the open from hiddenness."
+  type: true-false
+  answer: true
+  explanation: "Heidegger argues that the ordinary philosophical notion of truth as correctness (a statement matching a fact) is derivative. Before we can make true or false statements about things, those things must first show up for us, must come out of concealment into intelligibility. This more fundamental event — unconcealment, from the Greek 'aletheia' — is what he calls primordial truth. Art is significant in Heidegger's philosophy precisely because it is one of the primary sites where this kind of truth-as-unconcealment happens: artworks let new aspects of reality show up that were previously hidden."
+
+- question: "What is the 'strife' between earth and world in Heidegger's account of the artwork, and why does he argue that this tension — rather than its resolution — is what makes art capable of disclosing truth?"
+  type: short-answer
+  answer: "World is the dimension of intelligibility and cultural meaning — the framework in which things have significance, gods have their place, and human existence makes sense. Earth is the dimension of resistant materiality and concealment — the aspect of the artwork that cannot be fully exhausted by any interpretation or description. The artwork holds these in tension: it opens a world of meaning while simultaneously asserting a material density that resists being fully captured in that meaning. This tension matters because if earth dissolved entirely into world (pure transparency), the work would be a mere diagram; if world dissolved into earth (pure opacity), it would be meaningless matter. The productive strife keeps both alive, and it is in this strife that truth happens — new aspects of reality come into the open precisely because they emerge from the resistant background of concealment."
+  explanation: "This is Heidegger's most original contribution to aesthetics: the idea that artworks work not by resolving ambiguity but by holding opposing forces in productive tension. A painting does not 'explain' peasant life — it opens it, while the paint remains irreducibly material. The temple does not 'define' Greek sacred space — it discloses it, while the stone remains stubbornly heavy and weathered. It is this irreducibility of the material to the conceptual, held in tension with the work's meaningful opening, that gives art its capacity to show what no proposition can state."
+```
+
 ## Explainer
 
 From your introduction to aesthetics, you know that theories of art typically ask what makes something beautiful, what counts as art, or how artworks produce their effects. Heidegger's approach is radically different: he asks what art *does* — not as entertainment or decoration, but as a way of disclosing truth. For Heidegger, art is not a luxury or a cultural ornament. It is one of the fundamental ways that human beings encounter reality.

@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Phylogenetic inference reconstructs evolutionary relationships among organisms using genetic or morphological data. Core approaches (parsimony, likelihood, Bayesian) differ in assumptions and computational costs but share the goal of finding the tree topology and branch lengths best supported by data.
 
+## Questions
+
+```yaml
+- question: "A parsimony analysis groups two distantly related lineages together, but molecular clock data suggests they diverged very early and evolved rapidly. What artifact likely caused this error?"
+  type: multiple-choice
+  options:
+    - "The parsimony tree was rooted incorrectly, reversing the direction of evolution"
+    - "Long-branch attraction: the two lineages independently accumulated the same mutations by chance, making them resemble each other"
+    - "Insufficient taxon sampling caused the algorithm to undercount substitutions in both lineages"
+    - "The parsimony model assigned too high a cost to transversions relative to transitions"
+  answer: 1
+  explanation: "Long-branch attraction is the characteristic failure mode of parsimony when lineages evolve rapidly. On a long branch, multiple substitutions can occur at the same site — including reversals and parallel changes. Two fast-evolving lineages can independently converge on the same nucleotide at many positions, making parsimony group them together as apparent 'relatives' even if they are not. Parsimony cannot account for this because it counts the minimum number of changes, ignoring the possibility of multiple hits at the same site."
+
+- question: "Why is maximum likelihood less susceptible to long-branch attraction than parsimony?"
+  type: multiple-choice
+  options:
+    - "Maximum likelihood searches a larger number of tree topologies and therefore finds the globally optimal solution"
+    - "The evolutionary model explicitly accounts for the probability of multiple substitutions occurring at the same site"
+    - "Maximum likelihood assigns lower weight to fast-evolving lineages, reducing their influence on tree topology"
+    - "It uses bootstrapping to filter out long-branch taxa before constructing the tree"
+  answer: 1
+  explanation: "Maximum likelihood calculates the probability of the observed data given each tree and a substitution model. Models like GTR+Γ explicitly allow for the possibility that multiple substitutions have occurred at a single site (including reversals and parallel changes) — a phenomenon parsimony simply ignores by counting only the minimum changes. By modeling the full stochastic process, ML can recognize that two long-branch taxa sharing a character state are more likely doing so by convergence than by shared ancestry."
+
+- question: "Bayesian phylogenetic inference produces a single best tree, just like maximum likelihood, but uses prior probability distributions over model parameters."
+  type: true-false
+  answer: false
+  explanation: "Bayesian inference produces a distribution over trees, not a single tree. MCMC sampling explores tree space and the output is a posterior probability distribution across many possible topologies. The proportion of sampled trees supporting a given grouping (clade) is its posterior probability — a natural measure of confidence. This is fundamentally different from maximum likelihood, which returns the single tree that maximizes the probability of the observed data."
+
+- question: "The parsimony criterion for tree selection makes no assumptions about the underlying model of sequence evolution."
+  type: true-false
+  answer: true
+  explanation: "Parsimony is model-free in the sense that it does not specify substitution rates, transition/transversion biases, or rate variation among sites — it simply counts the minimum number of mutations required. This is both a strength (no incorrect model assumptions) and a weakness (it implicitly assumes that all changes are equally likely and that multiple substitutions at the same site are negligible — an assumption violated when evolution is rapid). Being assumption-light is not the same as being assumption-free."
+
+- question: "Why is the sheer number of possible tree topologies a fundamental challenge for phylogenetic inference, and how do computational methods address it?"
+  type: short-answer
+  answer: "The number of possible unrooted tree topologies grows super-exponentially with the number of taxa: 3 trees for 4 taxa, 15 for 5, over 34 million for 10, and astronomically more for hundreds of taxa. Exhaustive evaluation of every topology is computationally impossible beyond a handful of taxa. Methods address this by using heuristic search algorithms (hill-climbing, branch swapping, simulated annealing) that explore promising regions of tree space without evaluating all possibilities, and Bayesian methods use MCMC to sample proportionally from the posterior distribution of trees."
+  explanation: "The combinatorial explosion of tree space is why phylogenetics is computationally expensive and why exact algorithms are limited to small datasets. Practically, this means that for large datasets, methods are not guaranteed to find the globally optimal tree — they find the best tree among those explored. This is why multiple search strategies, adequate MCMC run lengths, and convergence diagnostics are important in practice."
+```
+
 ## Explainer
 
 From your introduction to phylogenetics, you understand that evolutionary relationships can be represented as branching trees and that shared derived characters (synapomorphies) provide evidence for grouping organisms. Phylogenetic inference is the set of methods that takes raw data — typically aligned DNA or protein sequences — and determines which tree best explains the observed patterns of similarity and difference. The challenge is that for even modest numbers of species, the number of possible tree topologies is astronomically large (15 possible unrooted trees for 5 taxa, over 34 million for 10), so methods must be both principled and computationally efficient.

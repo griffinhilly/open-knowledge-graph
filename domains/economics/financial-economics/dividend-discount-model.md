@@ -34,6 +34,45 @@ Apply the Gordon Growth Model to a stable dividend-paying utility or consumer st
 - The DDM cannot be applied naively to companies that pay no dividends — the model must be adapted to use free cash flow to equity instead.
 - Assuming constant dividend growth forever is unrealistic for most firms; the choice of terminal growth rate in multi-stage models dominates the resulting valuation.
 
+## Questions
+
+```yaml
+- question: "A stable company pays a $4 annual dividend. The required return is 10% and dividends are expected to grow at 6% perpetually, so the stock is currently priced at $100. If the required return rises to 12% while growth stays at 6%, the new price is:"
+  type: multiple-choice
+  options:
+    - "$80 — price falls modestly because the discount rate rose slightly"
+    - "$66.67 — price falls significantly because the spread (r−g) doubled from 4% to 6%"
+    - "$50 — price falls by half because the required return doubled from 6%"
+    - "$133 — price rises because higher required returns attract more investors"
+  answer: 1
+  explanation: "P₀ = D₁/(r−g). Original: $4/(0.10−0.06) = $4/0.04 = $100. New: $4/(0.12−0.06) = $4/0.06 = $66.67. The spread (r−g) doubled from 4% to 6%, cutting the price by one-third — a dramatic change from just a 2-percentage-point rise in interest rates. This illustrates the model's core insight: stock prices are extremely sensitive to the spread, not just to absolute levels. Option A underestimates the sensitivity; option C incorrectly uses the full required return as the denominator."
+
+- question: "In a two-stage DDM for a fast-growing company, an analyst finds that years 1–5 of high-growth dividends are worth $15 per share today, and the terminal value discounted to today is $85. What does this imply about the valuation?"
+  type: multiple-choice
+  options:
+    - "The model is reliable because both stages contribute substantially, providing a check on each other"
+    - "The valuation is dominated by the terminal value, making it highly sensitive to the assumed long-run growth rate"
+    - "The high-growth phase is being underestimated — early dividends should contribute more than 15% of value"
+    - "The terminal growth rate is implausibly high, since terminal values above $50 are unusual"
+  answer: 1
+  explanation: "Terminal value represents 85% of total estimated value — which is typical, often ranging from 70–90%. This is the critical insight about multi-stage DDMs: the far-future stable-growth assumptions dominate the output. A small change in the terminal growth rate (say from 3% to 4%) can swing the terminal value by 30–50%, completely swamping the carefully estimated near-term dividends. This is not a flaw in the model — it reflects the genuine difficulty of forecasting far-future cash flows — but it demands humility about any single-number stock valuation."
+
+- question: "According to the Gordon Growth Model, rising interest rates cause stock prices to rise because investors earn higher returns."
+  type: true-false
+  answer: false
+  explanation: "Rising interest rates raise the required return r, which is in the denominator of P₀ = D₁/(r−g). A larger denominator means a lower price. Higher interest rates make stocks less valuable by widening the spread, not more. This is why equity markets typically fall when central banks raise rates. The confusion arises from conflating 'investors earn higher returns on bonds' with 'stocks become more valuable' — in fact, stocks must reprice lower to offer competitive expected returns relative to now-higher bond yields."
+
+- question: "The assumed terminal growth rate in a multi-stage DDM is the single most important input, often accounting for 70–90% of the estimated stock value."
+  type: true-false
+  answer: true
+  explanation: "Because the terminal value captures all cash flows beyond the explicit forecast period — in perpetuity — and is discounted back only once, it dominates the valuation. A company might have carefully estimated dividends for five years, but if the terminal growth rate assumption changes by even 1 percentage point, the terminal value changes substantially, easily overwhelming the near-term dividends. This is why the terminal growth rate deserves more analytical scrutiny than any other model input."
+
+- question: "Why are stock prices so sensitive to small changes in interest rates, according to the logic of the dividend discount model?"
+  type: short-answer
+  answer: "Stock price in the Gordon Growth Model depends on the spread (r−g), not on r alone. Because the spread is typically small (4–6 percentage points), even a 1-point change in r represents a 20–25% change in the denominator, producing a proportionally large change in price. For example, if r=9% and g=5%, the spread is 4% and a $4 dividend implies a $100 stock. If r rises to 10%, the spread is 5% and the same dividend implies only $80 — a 20% drop from a 1-point rate move."
+  explanation: "The mathematical intuition is that the denominator (r−g) is the key lever and it is usually small. Small absolute changes in a small number produce large percentage changes. This is intrinsic to the perpetuity formula and explains why central bank policy announcements move equity markets so dramatically — even expected rate changes are priced in immediately because their effect on the spread is large relative to the spread's current size."
+```
+
 ## Explainer
 
 From your annuities and perpetuities work, you know how to value an infinite stream of cash flows that grows at a constant rate: PV = C/(r−g). The **dividend discount model** applies that formula directly to stocks by treating dividends as the stream of cash flows and asking: what should an investor pay today for ownership of those future payments?

@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Conditional Cash Transfers (CCTs)—payments to poor households conditioned on health checkups, school attendance, or vaccinations—combine income support with incentives for human capital investment. Programs in Mexico, Brazil, and Peru show modest positive impacts on schooling and health. However, long-run development effects remain uncertain.
 
+## Questions
+
+```yaml
+- question: "A policymaker argues that since CCTs only work because of the cash component, the conditionality is unnecessary bureaucracy. What is the strongest counterargument from CCT theory?"
+  type: multiple-choice
+  options:
+    - "Conditions raise the per-payment amount, so recipients get more money under CCTs than unconditional transfers"
+    - "Conditions serve as a commitment device and nudge, addressing barriers beyond income — such as heavy discounting, underestimated returns to education, or social norms — that may prevent optimal investment even with sufficient cash"
+    - "Without conditions, poor families would spend all cash on consumption goods rather than food"
+    - "Conditions are required by international aid organizations and cannot be removed"
+  answer: 1
+  explanation: "The rationale for conditionality rests on a specific diagnosis: if poverty alone explains underinvestment in human capital, unconditional cash would suffice. But CCT designers argue that other barriers — present bias, underestimation of education's long-run returns, or gender norms keeping girls out of school — also contribute. Conditions act as a commitment mechanism channeling behavior toward investments families might intend but fail to make. The debate is empirical: whether these non-income barriers are real and large enough to justify the administrative burden of monitoring conditions."
+
+- question: "Evaluations of Mexico's Progresa program find significant increases in school enrollment but only modest improvements in actual learning outcomes. What does this reveal about the limits of CCTs?"
+  type: multiple-choice
+  options:
+    - "Children in CCT areas are attending school less frequently than reported"
+    - "CCT conditionality is too strict, causing stress that harms learning"
+    - "Demand-side incentives alone cannot improve human capital if supply-side institutions — school quality, teacher availability — are inadequate"
+    - "The cash payments are too small to meaningfully change household behavior"
+  answer: 2
+  explanation: "This is the key limitation of the CCT model: you can incentivize attendance (demand side), but if the school provides poor instruction, attendance without learning follows. CCTs address the household's decision to send children to school, not the quality of what they receive when there. Supply-side investments in teacher training, curriculum, and infrastructure are complements, not substitutes, to demand-side incentives. This distinction shapes how development economists evaluate whether CCTs produce lasting human capital gains."
+
+- question: "CCT programs tend to build more political support for redistribution than unconditional cash transfers, because taxpayers are more willing to fund programs where recipients meet requirements."
+  type: true-false
+  answer: true
+  explanation: "This is one of the pragmatic arguments for conditionality that goes beyond economics: conditionality makes transfers more politically sustainable. The requirement that recipients 'do something' — keep children in school, attend health clinics — maps onto widespread intuitions about reciprocity and deservingness. Whether this is normatively justified is debated, but empirically CCT programs like Brazil's Bolsa Família have commanded broader political support than equivalent unconditional programs."
+
+- question: "Evidence from CCT programs like Progresa and Bolsa Família shows strong, consistent long-run development effects: children of CCT recipients earn significantly more as adults."
+  type: true-false
+  answer: false
+  explanation: "The long-run development question remains genuinely open. Short-run results are consistent — enrollment rises, clinic visits increase, child nutrition improves. But whether these translate into substantially higher adult earnings or country-level income convergence is still being studied. The gap between short-run behavioral change and long-run human capital accumulation (which requires quality education, not just attendance) means CCTs may be necessary but not sufficient for lasting development."
+
+- question: "What is the core logic of conditionality in a CCT program, and what debate does it raise about how to best help poor households?"
+  type: short-answer
+  answer: "Conditionality rests on the premise that barriers beyond income — present bias, underestimated returns to schooling, social norms — prevent poor households from making optimal investments even with extra cash. By requiring specific behaviors (school attendance, health checkups), conditions act as a commitment device addressing these non-monetary barriers. The debate is whether these barriers are real and large enough to justify the paternalism and administrative burden of monitoring, or whether the poor would make equally good choices with unconditional transfers."
+  explanation: "This question cuts to the heart of development economics: do poor households make systematically suboptimal decisions that justify structured incentives, or do they face primarily budget constraints that cash alone would fix? The answer has both empirical and normative dimensions — it involves both what actually works and what respects household autonomy."
+```
+
 ## Explainer
 
 From your study of poverty traps, you know that poor households face a cruel paradox: the investments most likely to lift them out of poverty — educating children, getting preventive healthcare — are exactly the ones they cannot afford because they are poor. **Conditional Cash Transfers (CCTs)** attack both sides of this problem simultaneously. They provide direct income support (easing the budget constraint) while requiring specific behaviors — typically school enrollment, regular health checkups, or vaccinations — as a condition of receiving the payment. The conditionality is what distinguishes CCTs from simple cash grants.

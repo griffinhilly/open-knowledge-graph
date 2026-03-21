@@ -32,6 +32,45 @@ Derive material indices for several common design scenarios (light stiff panel, 
 - Ashby charts do not give a single answer — they identify a shortlist of candidate material families (metals, polymers, ceramics, composites) that must then be narrowed by detailed property data and practical considerations.
 - Cost is not a material property but a market variable — materials selection must account for processing cost, not just raw material cost, because a cheap material that requires expensive fabrication may not be economical.
 
+## Questions
+
+```yaml
+- question: "An engineer needs to design a light, stiff panel (minimize mass, must not deflect beyond a limit). An Ashby chart shows wood outperforms aluminum for this application. She rejects wood because 'aluminum is obviously better for structural applications.' What error is she making?"
+  type: multiple-choice
+  options:
+    - "She is using the wrong material index formula for a panel geometry"
+    - "She is confusing the objective (minimize mass) with the constraint (maximum deflection)"
+    - "She is selecting based on familiarity rather than the quantified performance metric for this function and objective"
+    - "She should be comparing cost-per-unit-stiffness rather than the stiffness-to-density ratio"
+  answer: 2
+  explanation: "The material index E^(1/2)/ρ for a light stiff panel actually favors wood over many metals because wood's stiffness-to-density ratio is exceptional along the grain. Her error is exactly the pitfall the Ashby methodology prevents: selecting based on conventional wisdom rather than deriving the index from the design equations and reading what the chart shows. Counterintuitive results — wood over aluminum, foams over steel — are the value the systematic method adds."
+
+- question: "A design team calculates a material index and finds that polymer foams outperform steel for a specific application. What must be true?"
+  type: multiple-choice
+  options:
+    - "The application has relaxed safety requirements, since foams are rarely used structurally"
+    - "The material index for this specific function and objective favors foams over steel"
+    - "There is an error in the derivation, since steel universally outperforms polymer foams"
+    - "The application prioritizes high strength-to-weight ratio, where foams are known to excel"
+  answer: 1
+  explanation: "The 'best' material has no meaning without specifying the function, objective, and constraints. For energy absorption, thermal insulation, or buoyancy applications, the correctly derived material index can favor foams or polymers over steel. 'Steel is stronger' is not a valid rejection — the relevant question is whether strength, or stiffness/density, or cost/weight, is the actual index for this application. The methodology's power is precisely that it can reveal counterintuitive answers."
+
+- question: "The same material can be excellent for one design application and poor for another, because the material index changes depending on the function and objective."
+  type: true-false
+  answer: true
+  explanation: "The material index is derived from the governing physical equations for a specific function and objective. A light stiff beam requires maximizing E^(1/2)/ρ; a light strong beam requires maximizing σ_y^(2/3)/ρ; a minimum-cost pressure vessel requires a different index still. Materials that rank highly on one index may rank poorly on another. Steel excels in some applications and is outperformed by wood, ceramics, or composites in others — which is exactly why systematic derivation of indices is necessary."
+
+- question: "On an Ashby chart, adding more hard constraints to a design problem always narrows the candidates down to a single optimal material."
+  type: true-false
+  answer: false
+  explanation: "Hard constraints eliminate materials that fail non-negotiable limits (temperature, corrosion, cost ceiling), reducing the candidate field to a shortlist of material families. But the Ashby methodology typically produces a shortlist, not a single answer — further narrowing requires detailed property data, processing cost, and availability analysis. When two performance objectives conflict (light AND cheap), no single material maximizes both; a Pareto front of non-dominated solutions results, and the choice among them depends on trade-off preferences."
+
+- question: "Why is the material index not an arbitrary performance ranking but a quantity derived from the physics of the design? Give an example of how the index changes when the objective changes."
+  type: short-answer
+  answer: "The material index emerges from the design equations by eliminating geometric free variables. For a beam of minimum mass with a stiffness constraint, the deflection equation and mass equation combine so that the material's contribution factors out as E^(1/2)/ρ — maximize this to get minimum mass at fixed stiffness. If the objective changes to minimum mass at fixed strength, the strength equation replaces the stiffness equation and the index becomes σ_y^(2/3)/ρ. The index changes because the governing physical equation changes, making it derivable rather than a judgment call."
+  explanation: "This derivability is what separates materials selection from intuition or familiarity. By making the performance criterion a mathematical consequence of the design requirement, the Ashby methodology turns material selection into a quantifiable optimization — one that can reveal counterintuitive answers (wood over aluminum for stiff panels) that no amount of engineering experience would reliably produce."
+```
+
 ## Explainer
 
 You have spent the materials science sequence learning *what* properties materials have — stress-strain curves, elastic moduli, fracture toughness, yield strengths. This topic teaches *how to use* those properties to make rational design decisions. The Ashby methodology is not a lookup table; it is a framework for converting a design problem into a mathematical ranking criterion, then using property charts to identify which material families satisfy that criterion best.

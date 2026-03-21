@@ -37,6 +37,45 @@ Trace the spread of a specific cultural practice — agriculture, Islam, or a mu
 - Hierarchical and contagious diffusion are not mutually exclusive; most real-world cultural diffusion combines both mechanisms.
 - The existence of a hearth does not imply that the originating culture is superior; many important innovations had multiple independent origins (independent invention).
 
+## Questions
+
+```yaml
+- question: "A new luxury fashion trend originating in Paris appears in New York, Tokyo, and Milan simultaneously, weeks before spreading to mid-sized French cities and rural areas. This pattern is best explained by:"
+  type: multiple-choice
+  options:
+    - "Contagious diffusion — geographic proximity to Paris drives the spread outward in rings"
+    - "Relocation diffusion — fashion designers migrating to global cities carry the trend with them"
+    - "Hierarchical diffusion — the trend moves through nodes at the top of the global cultural hierarchy before filtering downward"
+    - "Stimulus diffusion — each city adapts the trend into a locally distinct version"
+  answer: 2
+  explanation: "Hierarchical diffusion follows social or urban networks rather than geographic proximity. Paris, New York, Tokyo, and Milan are nodes at the top of the global fashion hierarchy, so the trend reaches them before nearby rural areas of France. The relevant 'adjacency' is social, not geographic — this is what distinguishes hierarchical from contagious diffusion, where proximity in space determines adoption order."
+
+- question: "East Asian societies developed writing systems after contact with China, but created entirely new scripts (Korean hangul, Japanese kana) rather than adopting Chinese characters. This is an example of:"
+  type: multiple-choice
+  options:
+    - "Contagious diffusion — geographic proximity to China enabled gradual adoption of writing"
+    - "Relocation diffusion — Chinese scribes migrating to Korea and Japan introduced the concept"
+    - "Hierarchical diffusion — China was the dominant cultural center and spread writing downward"
+    - "Stimulus diffusion — the idea of writing diffused but was locally reinvented into new forms"
+  answer: 3
+  explanation: "In stimulus diffusion, the specific cultural trait is not adopted, but the underlying idea inspires a local innovation. Chinese characters did not diffuse wholesale — but the stimulus of writing as a concept did, prompting Korea and Japan to develop their own scripts suited to their languages. This is fundamentally different from simple adoption (relocation or contagious) or rejection."
+
+- question: "Contagious diffusion always spreads faster than hierarchical diffusion because it requires no social connections — only geographic proximity."
+  type: true-false
+  answer: false
+  explanation: "Speed depends heavily on context. In the modern era, hierarchical diffusion through dense social networks — media, internet, global travel — can be nearly instantaneous, spreading a trend from one global city to another before it reaches rural areas nearby. Contagious diffusion is constrained by geographic distance, which can be slow. The claim mistakes a general tendency for a universal rule."
+
+- question: "The existence of a culture hearth implies that a cultural trait has a single point of origin, but this does not mean the originating culture is superior or that independent invention elsewhere is impossible."
+  type: true-false
+  answer: true
+  explanation: "Many important innovations had multiple independent origins — agriculture arose separately in the Fertile Crescent, Mesoamerica, the Yellow River valley, and other hearths. Identifying a hearth describes spatial history, not cultural hierarchy. Independent invention is a genuine alternative explanation for cultural similarities between distant societies, which is why geographers must distinguish diffusion from convergent independent invention before drawing conclusions about cultural influence."
+
+- question: "A rural town is geographically closer to a major city than most mid-sized suburbs, yet it consistently adopts new cultural trends much later than those suburbs. How would a geographer explain this?"
+  type: short-answer
+  answer: "Using hierarchical diffusion — the relevant 'distance' is social and economic, not geographic. The mid-sized suburbs are better integrated into the social networks that drive trend adoption: they have higher media consumption, more commuting ties to the city, and greater economic integration. The rural town's geographic proximity is irrelevant if it occupies a peripheral position in the social hierarchy. Hierarchical diffusion follows the structure of influence networks, not physical distance maps."
+  explanation: "This distinction between geographic and social adjacency is the key conceptual payoff of understanding diffusion types. Many apparent paradoxes in cultural geography — why places near cultural centers adopt new practices slowly — resolve when you identify the correct type of diffusion operating and the structure of the relevant network."
+```
+
 ## Explainer
 
 Every cultural practice you encounter today—your language, your food, your music, the calendar you use—arrived through a process of **diffusion**: spreading from a point of origin across space and time. Understanding diffusion means understanding how cultures change without people needing to reinvent everything from scratch. It connects your knowledge of culture as a shared meaning-system to geography's core interest in spatial patterns.

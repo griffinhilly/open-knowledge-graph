@@ -34,6 +34,45 @@ Use hemodynamic parameters (MAP, cardiac output, SVR) to classify shock type. Un
 ## Common Misconceptions
 Hypotension is a late sign of shock—tissue hypoperfusion can occur with normal blood pressure. Lactate normalization does not indicate recovery; persistent elevation predicts mortality despite apparent clinical improvement.
 
+## Questions
+
+```yaml
+- question: "A patient presents with heart rate of 118 bpm, normal blood pressure, cool clammy skin, and a serum lactate of 4.2 mmol/L (normal <2). Which of the following best describes this patient's status?"
+  type: multiple-choice
+  options:
+    - "Not in shock — blood pressure is normal, so tissue perfusion is adequate"
+    - "In compensated shock — compensatory mechanisms are maintaining blood pressure despite inadequate tissue perfusion"
+    - "In decompensated shock — falling blood pressure confirms shock has progressed beyond compensation"
+    - "In irreversible shock — elevated lactate indicates organ failure has begun"
+  answer: 1
+  explanation: "This is the critical insight of shock physiology: hypotension is a late sign. This patient shows all the signs of compensated shock — tachycardia (sympathetic activation), cool skin (vasoconstriction diverting flow to core), and most tellingly, elevated lactate indicating cells are performing anaerobic glycolysis because oxygen delivery is insufficient. Blood pressure is maintained by baroreceptor-driven compensation, not because perfusion is adequate. Waiting for hypotension to diagnose shock is dangerous; lactate is the more sensitive marker."
+
+- question: "In septic shock, cardiac output is often initially elevated. Yet patients are critically hypoperfused. What explains this paradox?"
+  type: multiple-choice
+  options:
+    - "The heart is beating faster but ejecting less blood per stroke due to septic myocardial depression"
+    - "Massive vasodilation collapses systemic vascular resistance, so MAP falls even with elevated cardiac output; capillary leak also causes functional hypovolemia"
+    - "Peripheral tissues consume oxygen abnormally slowly in sepsis, creating a mismatch between delivery and uptake"
+    - "Elevated cardiac output in sepsis is a measurement artifact caused by fever-related tachycardia"
+  answer: 1
+  explanation: "Septic shock is distributive, not pump failure. Bacterial toxins and inflammatory mediators (especially nitric oxide) cause widespread vasodilation, dropping systemic vascular resistance dramatically. Since MAP = cardiac output × SVR, even high cardiac output cannot maintain MAP when SVR has collapsed. Additionally, capillary leak from increased permeability moves plasma into the interstitium, causing 'relative hypovolemia' — the heart has little effective preload despite pumping rapidly. This hemodynamic signature (high CO, low SVR, low MAP) distinguishes sepsis from cardiogenic shock (low CO, high SVR, high filling pressures)."
+
+- question: "A patient in early septic shock can have a normal blood pressure while simultaneously having critically inadequate tissue perfusion."
+  type: true-false
+  answer: true
+  explanation: "True. This is the most dangerous misconception in shock management. Baroreceptor-driven sympathetic activation maintains blood pressure by increasing heart rate, vasoconstriction, and releasing catecholamines — mechanisms that can preserve MAP even while total tissue oxygen delivery is falling. Meanwhile, lactate rises as tissues shift to anaerobic metabolism, signaling cellular oxygen debt. Relying on blood pressure alone to diagnose or monitor shock misses the compensated phase, during which intervention is most effective."
+
+- question: "Normalizing a patient's blood pressure is sufficient evidence that shock has been successfully treated and tissues are being adequately perfused."
+  type: true-false
+  answer: false
+  explanation: "False. Blood pressure normalization is necessary but not sufficient. Compensatory vasoconstriction can restore MAP while microcirculatory maldistribution persists — blood is being delivered to the macrovasculature but not necessarily to the tissues that need it. Modern resuscitation targets lactate clearance (returning lactate to <2 mmol/L) because it directly measures whether cells have adequate oxygen. A patient whose blood pressure is restored but whose lactate remains elevated is still in occult shock and at high risk for organ failure."
+
+- question: "Why is lactate elevated in shock, and why does lactate clearance — rather than blood pressure normalization — serve as the modern target of resuscitation?"
+  type: short-answer
+  answer: "Lactate rises because inadequate oxygen delivery forces cells to switch from aerobic to anaerobic glycolysis, which produces lactate as a byproduct. Blood pressure can be normalized by compensatory vasoconstriction while cellular oxygen debt persists; lactate directly reflects whether mitochondria have enough oxygen to function. Lactate clearance confirms that oxygen is reaching cells, not just that blood pressure is restored."
+  explanation: "This distinction — between macrocirculatory normalization and actual tissue oxygenation — is the central insight of modern shock management. MAP = CO × SVR, and both elements can be manipulated pharmacologically to restore blood pressure without addressing the underlying deficit. Lactate serves as a biochemical readout of mitochondrial oxygen availability: if it clears, oxygen is reaching cells; if it persists, the cellular energy crisis continues regardless of blood pressure."
+```
+
 ## Explainer
 
 From your study of cardiac output and blood pressure regulation, you know that tissue perfusion depends on two things: an adequate driving pressure (mean arterial pressure, MAP = cardiac output × systemic vascular resistance) and vessels that can distribute flow to where it is needed. **Shock** is the state in which this delivery system fails to meet the oxygen demands of the tissues — not simply low blood pressure, but inadequate cellular oxygenation. The four major types of shock represent four different mechanisms of failure in this delivery system, and understanding each requires asking: which part of the equation broke?

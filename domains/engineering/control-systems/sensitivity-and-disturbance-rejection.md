@@ -34,6 +34,45 @@ Plot S(jω) and T(jω) for a simple feedback system as the controller gain varie
 - The sensitivity function S(s) is not the same as the closed-loop transfer function T(s) — S relates disturbances to output while T relates reference inputs to output, and they play complementary roles in the design.
 - The waterbed effect is not just a theoretical curiosity — it means that control design is fundamentally about distributing sensitivity across frequency, not eliminating it, and aggressive disturbance rejection in one band always comes at the cost of amplification elsewhere.
 
+## Questions
+
+```yaml
+- question: "An engineer increases controller gain tenfold, successfully reducing |S(jω)| from 0.3 to 0.05 at low frequencies, improving disturbance rejection there. What is the expected consequence near the crossover frequency?"
+  type: multiple-choice
+  options:
+    - "|S(jω)| also decreases near crossover, providing uniform improvement across all frequencies"
+    - "The system becomes unconditionally stable because higher gain improves phase margin"
+    - "|S(jω)| peaks above 1 near the crossover frequency, meaning disturbances in that band are actually amplified by feedback"
+    - "|T(jω)| decreases near crossover, providing better noise rejection at those frequencies"
+  answer: 2
+  explanation: "This is the S + T = 1 constraint made concrete. Reducing |S| at low frequencies by increasing gain improves disturbance rejection there, but the gain must eventually roll off at high frequencies to maintain stability. This rolloff forces |S| to peak above 1 somewhere near the crossover frequency — the region where the loop gain transitions from large to small. At those frequencies, |S| > 1 means feedback is actually amplifying disturbances rather than rejecting them. Making the loop gain very large at low frequencies therefore creates a sensitivity peak at crossover, not uniform improvement. Good design minimizes this peak (the sensitivity peak M_s) rather than ignoring it."
+
+- question: "Bode's integral theorem — the 'waterbed effect' — states that for a stabilizable system, the integral of log|S(jω)| over all frequencies is constrained. What does this imply for control design?"
+  type: multiple-choice
+  options:
+    - "Aggressive disturbance rejection in one frequency band necessarily creates sensitivity amplification in another band — sensitivity cannot be eliminated, only redistributed"
+    - "Increasing bandwidth always increases the sensitivity peak, making high-bandwidth designs inherently dangerous for any plant"
+    - "Plants with right-half-plane zeros are easier to control because they offer more design freedom in shaping the sensitivity function"
+    - "The waterbed effect applies only to unstable plants; stable plants can achieve arbitrarily low sensitivity at all frequencies simultaneously"
+  answer: 0
+  explanation: "Bode's integral theorem formalizes the fundamental design tradeoff. For systems with sufficient high-frequency roll-off, the integral of log|S(jω)| over all frequencies equals zero (or is positive if the plant has right-half-plane poles, making the constraint even tighter). This means the 'area' under the log-sensitivity curve is fixed — pushing it down in one frequency range forces it up elsewhere, like pressing on a waterbed. The implication for design is that sensitivity cannot be eliminated; it can only be redistributed. Clever design allocates unavoidable amplification to frequency bands where it causes least harm."
+
+- question: "Since S(s) + T(s) = 1 exactly at every frequency, a control engineer can make both |S(jω)| and |T(jω)| small simultaneously at any frequency of interest by choosing an appropriate controller."
+  type: true-false
+  answer: false
+  explanation: "S + T = 1 is an algebraic identity that holds at every value of s — it is a constraint, not a goal. If |S(jω)| is made small at a frequency (say 0.1), then |T(jω)| must be close to 1 there, and vice versa. There is no controller that can make both magnitudes simultaneously small at the same frequency; the identity prevents it. This is why disturbance rejection (requiring small |S|) and noise rejection (requiring small |T|) are fundamentally conflicting goals at any given frequency, and why the crossover frequency — where the transition from large to small loop gain occurs — is the key design parameter."
+
+- question: "The sensitivity function S(s) = 1/(1 + GC) measures how plant output disturbances propagate to the output: |S(jω)| < 1 means feedback reduces the disturbance, while |S(jω)| > 1 means feedback amplifies it at that frequency."
+  type: true-false
+  answer: true
+  explanation: "|S(jω)| is the disturbance survival rate at frequency ω. If a 1 Hz disturbance enters the plant output and |S(j2π)| = 0.1, feedback reduces it to 10% of its original amplitude — 90% rejection. If |S(jω)| = 2, feedback doubles the disturbance amplitude at that frequency. This amplification occurs near the crossover frequency when gain is too aggressive at lower frequencies. The sensitivity function is therefore a frequency-resolved map of the feedback system's disturbance-handling capability, and its peak value M_s is both a disturbance amplification limit and a robustness measure."
+
+- question: "Why does the constraint S(s) + T(s) = 1 mean that control system design is fundamentally about distributing sensitivity rather than eliminating it?"
+  type: short-answer
+  answer: "S + T = 1 is an algebraic identity holding at every frequency: whatever fraction of sensitivity is not in S is in T. Making |S| small at a frequency forces |T| large there, and vice versa. This means there is no controller that achieves low sensitivity simultaneously at all frequencies — the total is conserved. Control design is therefore a choice of where to place sensitivity: small |S| at low frequencies (to reject process disturbances) forces large |T| there (more noise passes through), while small |T| at high frequencies (to reject sensor noise) forces large |S| there. The waterbed effect tightens this further for plants with right-half-plane poles or zeros: even redistribution is constrained by the plant's unstable features. Good design chooses where the unavoidable sensitivity peaks are placed, not whether they exist."
+  explanation: "This perspective reframes control design from 'minimize error' to 'allocate sensitivity wisely.' The crossover frequency is the primary knob: moving it up extends low-frequency disturbance rejection but brings the sensitivity peak to higher frequencies where it may interact with noise or model uncertainty. The sensitivity peak M_s is a measure of how tightly the Nyquist curve approaches the −1 point — a smaller M_s means more robustness to plant uncertainty. The design goal is a smooth, well-conditioned crossover with M_s controlled to an acceptable level, allocating the unavoidable sensitivity budget to the least harmful frequency band."
+```
+
 ## Explainer
 
 The sensitivity function emerges naturally from what you already know about feedback. Recall that in a closed-loop system the output depends on both the reference signal and any disturbances or noise that enter the plant. From your study of transfer functions and feedback fundamentals, you know that the closed-loop transfer function from reference to output is T(s) = GC/(1+GC). The **sensitivity function** S(s) = 1/(1+GC) describes something different: how disturbances injected at the plant output survive to appear at the output. If you notice that the denominator 1+GC is identical in both functions, you can immediately see why S + T = 1 — it is an algebraic identity, not an approximation, holding at every value of s.

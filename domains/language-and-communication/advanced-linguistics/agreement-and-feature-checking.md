@@ -27,6 +27,45 @@ Map agreement patterns across diverse languages; study cases where agreement bre
 ## Common Misconceptions
 Agreement is not just copying information; it is driven by checked features and reflects deep syntactic relationships, not mere surface pattern-matching.
 
+## Questions
+
+```yaml
+- question: "A speaker says 'The key to the cabinets are on the table,' agreeing the verb with 'cabinets' rather than 'key.' In feature-checking terms, this error is best explained as:"
+  type: multiple-choice
+  options:
+    - "The speaker correctly checking T's uninterpretable feature against the closest DP bearing an interpretable number feature"
+    - "A processing failure in which the nearby plural noun 'cabinets' interferes with feature checking against the head noun 'key'"
+    - "Evidence that plural verbs carry interpretable number features in English"
+    - "The derivation crashing and being rescued by the adjacent plural feature"
+  answer: 1
+  explanation: "This is 'agreement attraction' — a well-documented production error. In feature-checking theory, T's uninterpretable number feature should be checked against the interpretable number feature on the subject 'key' (singular). The error occurs because 'cabinets,' though inside a PP modifying the head noun, is the closest overt plural during processing, and its interpretable [plural] feature interferes with the correct checking operation. This shows feature checking is not purely syntactic — it is also a real-time cognitive process subject to interference."
+
+- question: "What happens to uninterpretable features after successful feature checking in the Minimalist framework?"
+  type: multiple-choice
+  options:
+    - "They are transferred from the verb to the noun phrase, which then expresses the shared feature"
+    - "They are deleted, allowing the derivation to proceed to the phonological and semantic interfaces"
+    - "They are retained on the verb and interpreted compositionally at the semantic interface"
+    - "They trigger a second round of Merge to create additional agreement morphology"
+  answer: 1
+  explanation: "Uninterpretable features must be deleted before the derivation reaches the interfaces — they would appear as uninterpretable material at the Logical Form interface, causing the derivation to crash. Feature checking licenses this deletion: when an uninterpretable feature is matched against a corresponding interpretable feature, it is eliminated. This is why grammaticality correlates with feature matching: unmatched uninterpretable features cannot be deleted, and undeleted uninterpretable features cause interface failure."
+
+- question: "The verb's agreement morpheme in 'The boy runs' has an interpretable number feature, because singular agreement conveys the meaning that the subject is singular."
+  type: true-false
+  answer: false
+  explanation: "Only the noun's number feature is interpretable — there really is one boy in 'The boy runs,' and that singularity is part of the noun's semantic content. The verb's agreement morpheme is uninterpretable: 'runs' adds no new information about number that isn't already conveyed by 'boy.' The verb's agreement feature exists purely to be checked against the noun's interpretable feature and then deleted. This asymmetry — interpretable on nouns, uninterpretable on verbs — is what makes agreement a feature-checking operation rather than simple semantic co-reference."
+
+- question: "In the Minimalist framework, the subject DP moving to [Spec,TP] creates the structural configuration needed for its features to be checked against the Tense head."
+  type: true-false
+  answer: true
+  explanation: "Feature-checking relations require local structural relationships — typically a specifier-head or head-complement configuration. The subject raises to [Spec,TP] not primarily for semantic reasons but to satisfy feature-checking requirements: T carries uninterpretable phi-features (person, number) that can only be matched and deleted when a DP with interpretable phi-features occupies the appropriate structural position. Movement is thus driven by the need to establish checking configurations."
+
+- question: "What is the difference between an interpretable and an uninterpretable feature in the Minimalist framework, and why must uninterpretable features be checked and deleted before the derivation reaches the interfaces?"
+  type: short-answer
+  answer: "An interpretable feature contributes semantic content: the plural feature on 'boys' is interpretable because it means there are multiple boys. An uninterpretable feature is a purely grammatical marker with no independent semantic content: the plural agreement morpheme on a verb simply mirrors the noun's number without adding new meaning. At the Logical Form interface, only interpretable features can be processed — uninterpretable features are semantically vacuous and would cause the derivation to crash if they survived. Feature checking is the mechanism that eliminates them: by entering a checking relation with a matching interpretable feature, the uninterpretable feature is licensed for deletion."
+  explanation: "This asymmetry is what makes agreement non-trivial in the Minimalist framework. It reframes agreement not as 'copying information' (a surface description) but as a derivational necessity: the grammar forces a checking relation between elements because uninterpretable features must be eliminated for the output to be interpretable at the interfaces. The grammaticality of a sentence turns on whether all uninterpretable features can find checking partners."
+```
+
 ## Explainer
 
 From the Minimalist Program, you already know that syntactic derivations operate by assembling structures through operations like **Merge** and **Move**, and that morphemes — from your morphology prerequisite — are the minimal meaning-bearing units that surface as affixes and free forms. Agreement is the phenomenon that links these two domains: it is the mechanism by which morphosyntactic information is shared between different elements in a sentence, and feature-checking theory is the Minimalist explanation for *how* that sharing is constrained and enforced.

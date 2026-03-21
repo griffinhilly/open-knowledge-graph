@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Figure-ground separation is how humans distinguish foreground (figure) from background (ground). Strong contrast, edge definition, and size differences strengthen figure-ground clarity. Ambiguous or reversible figure-ground can create visual intrigue but risks confusing users if unintentional.
 
+## Questions
+
+```yaml
+- question: "A UI designer creates a button using the same background color as the page, with only a thin outline to differentiate it. Users report difficulty identifying the button as a clickable element. What is the most direct explanation?"
+  type: multiple-choice
+  options:
+    - "The button is positioned incorrectly on the screen"
+    - "Insufficient contrast between the button (figure) and the page (ground) weakens figure-ground separation, making it hard for the visual system to assign figure status to the button"
+    - "Users are unfamiliar with outline-style button conventions"
+    - "The button outline creates visual ambiguity that makes the design more interesting"
+  answer: 1
+  explanation: "The visual system uses contrast as a primary cue to assign figure status. When figure and ground have nearly the same color or value, the perceptual system cannot cleanly separate them — the button fails to 'pop' as an object. In functional design, unclear figure-ground separation is a failure of basic usability: if users must spend cognitive effort deciding what is foreground and what is background, the design has not done its job."
+
+- question: "Rubin's vase — which alternates between being seen as a white vase and two black faces — demonstrates which key principle about figure-ground perception?"
+  type: multiple-choice
+  options:
+    - "Figure-ground perception is determined solely by color contrast"
+    - "Humans are biologically programmed to see faces over objects whenever possible"
+    - "Figure-ground separation is constructed by the viewer's perceptual system based on visual cues, not inherent in the image itself"
+    - "Ambiguous figure-ground is always a design error that should be corrected"
+  answer: 2
+  explanation: "Rubin's vase has a fixed physical image — the same pixels, the same contrast, the same edges. Yet it produces two different perceptual experiences depending on which region your brain assigns as figure. This proves that figure-ground separation is not given by the image but is actively constructed by your perceptual system applying its cues (smaller region = figure, enclosed region = figure, etc.). When two interpretations are equally supported by the cues, the system flips between them."
+
+- question: "In the FedEx logo, the white space between the 'E' and 'x' that forms a forward-pointing arrow is an example of deliberate ambiguous figure-ground used as a design strategy."
+  type: true-false
+  answer: true
+  explanation: "The FedEx logo is a classic example of intentional figure-ground reversal: what reads as the background (white space) simultaneously forms a meaningful figure (an arrow) for attentive viewers. This is deliberate — it rewards closer attention and communicates 'forward motion' without making it the primary reading. Using ambiguous figure-ground as a design strategy works when the primary reading is clear and the secondary reading adds meaning, not confusion."
+
+- question: "Smaller regions in a visual composition tend to be perceived as background (ground) rather than as figure."
+  type: true-false
+  answer: false
+  explanation: "Smaller regions tend to be perceived as figure, not ground. This is one of the key cues the visual system uses: a small shape surrounded by a larger field is more likely to be treated as an object against a background. The FedEx arrow works partly because the white space between letters is a relatively small, enclosed region — both factors push it toward figure status in a secondary reading."
+
+- question: "A designer argues that ambiguous figure-ground is always a design flaw. How would you respond? When is it a flaw, and when is it a strength?"
+  type: short-answer
+  answer: "Ambiguous figure-ground is a flaw in functional design — interfaces, signage, data visualization — where the user needs to immediately understand what is foreground and what is background to take action. Confusion here costs cognitive effort and leads to errors. But in artistic and identity design (logos, posters, editorial illustration), deliberate ambiguity can be a strength: it rewards attention, creates visual intrigue, and allows a design to carry two meanings simultaneously. The FedEx arrow and the World Wildlife Fund panda are examples where the dual reading adds value rather than confusion. The key question is always whether the primary reading is clear; ambiguity in the secondary layer enriches, while ambiguity in the primary layer fails."
+  explanation: "The underlying principle is that figure-ground ambiguity should always be a deliberate choice, not an accident. Designers working in functional contexts should test whether users immediately perceive the correct figure-ground hierarchy. Designers working in expressive contexts can exploit ambiguity as a feature — as long as the primary hierarchy remains legible."
+```
+
 ## Explainer
 
 You have already studied positive and negative space — the idea that the "empty" areas of a composition are not truly empty but actively shape the elements around them. **Figure-ground relationship** takes this further by asking a perceptual question: when you look at a design, how does your brain decide what is the object (figure) and what is the background (ground)? This is not a trivial question. Your visual system makes this decision instantly and automatically, but the mechanisms behind it are what designers manipulate to create clarity, hierarchy, or deliberate ambiguity.

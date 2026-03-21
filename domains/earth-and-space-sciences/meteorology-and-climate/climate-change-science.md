@@ -38,6 +38,45 @@ Work through the detection-attribution framework: compare observed warming to mo
 - The scientific consensus on human-caused warming (>97% of actively publishing climate scientists) is not the same as political consensus.
 - Short-term weather extremes cannot individually be attributed to climate change, but their frequency and intensity distributions shift with a warmer climate.
 
+## Questions
+
+```yaml
+- question: "Scientists run climate model simulations using only natural forcings (solar and volcanic). These simulations track observed temperatures well through about 1950 but then diverge sharply, failing to capture subsequent warming. What does this demonstrate?"
+  type: multiple-choice
+  options:
+    - "Climate models are reliable before 1950 but become inaccurate as the atmosphere grows more complex"
+    - "Solar activity increased sharply after 1950, causing the models to fail"
+    - "Natural forcing factors alone cannot explain post-1950 warming; anthropogenic greenhouse gas emissions are required to reproduce the observed trend"
+    - "The temperature record before 1950 must be incorrect, artificially constraining the models"
+  answer: 2
+  explanation: "This is the detection-attribution framework at its core. When natural-only model runs match observations through 1950 then diverge, it means natural factors (solar cycles, volcanic eruptions) were sufficient to explain earlier climate variation but are insufficient to explain recent warming. Only when human emissions are added do models reproduce the observed trend. This result has been replicated across dozens of independent modeling centers, making it one of the strongest lines of evidence for anthropogenic forcing."
+
+- question: "The apparent 'hiatus' in surface warming from roughly 1998–2013 is best explained by:"
+  type: multiple-choice
+  options:
+    - "A genuine pause in greenhouse warming caused by temporary reductions in global CO₂ emissions"
+    - "Systematic errors in the satellite temperature record that underreported surface warming"
+    - "Natural variability (a La Niña-dominated period) temporarily diverting excess energy into the deep ocean while the overall energy imbalance continued"
+    - "An increase in stratospheric aerosols from major volcanic eruptions that offset greenhouse warming"
+  answer: 2
+  explanation: "The apparent slowdown in surface warming was largely explained by a period of La Niña-dominated Pacific Decadal Oscillation conditions, which routed excess heat into the deep ocean rather than the surface. Global ocean heat content continued to rise throughout this period, confirming that the energy imbalance persisted. This illustrates the critical distinction between natural variability (redistributing energy) and the forced trend from greenhouse gases (adding energy to the system). The 'hiatus' was noise superimposed on an ongoing signal."
+
+- question: "If a region experiences several consecutive unusually cold winters, this provides meaningful evidence against the long-term global warming trend."
+  type: true-false
+  answer: false
+  explanation: "Climate change describes a global mean trend; regional weather and short-term variability can diverge dramatically from that trend. Cold winters in one region may reflect jet stream behavior (itself influenced by Arctic amplification), natural oscillations, or simple statistical noise. The global warming trend is measured over decades and across the entire Earth's surface and oceans — a few cold seasons in one region are entirely consistent with a warming planet. Confusing local weather with global climate is one of the most common misconceptions about climate science."
+
+- question: "Simultaneous tropospheric warming and stratospheric cooling is a spatial fingerprint that distinguishes greenhouse gas forcing from solar brightening, because increased solar output would warm both layers rather than producing this pattern."
+  type: true-false
+  answer: true
+  explanation: "This is one of the most powerful diagnostic fingerprints in climate attribution. Increased solar output would warm the entire atmosphere from the top down. Greenhouse forcing, by contrast, traps outgoing longwave radiation in the troposphere, warming it, while the stratosphere loses energy because less radiation reaches it from below. The observed simultaneous tropospheric warming and stratospheric cooling matches the greenhouse model and cannot be explained by solar brightening alone. This spatial pattern is one reason scientists are confident the current warming is greenhouse-driven."
+
+- question: "Why do scientists use multiple independent lines of evidence (temperature records, ocean heat content, sea level rise, cryosphere retreat, species range shifts) rather than relying solely on thermometer readings to establish that climate change is occurring?"
+  type: short-answer
+  answer: "Multiple independent lines of evidence provide convergent proof that is far more robust than any single measurement could be. A single instrument record could be affected by local biases, urban heat islands, or data quality issues. But when ocean heat content, sea level rise, glacier retreat on every continent, shifts in species ranges, and satellite data all show the same directional trend, the probability that they are all artifacts of error is negligibly small. Convergence across physically independent measurement systems tells the same story from different angles, ruling out single-system explanations and building the strongest possible scientific case."
+  explanation: "This is the logic of consilience — when multiple independent methods converge on the same conclusion, confidence in that conclusion grows multiplicatively. Each line of evidence also has different potential error modes: satellite records have different biases than surface thermometers; biological records have different limitations than physical oceanography. When they all agree, the common explanation (warming) is far more credible than any alternative that would require coordinated failure across all independent systems simultaneously."
+```
+
 ## Explainer
 
 From your study of the greenhouse effect, you understand the basic mechanism: certain gases trap outgoing longwave radiation and warm the surface. From paleoclimatology, you know that Earth's climate has shifted dramatically over geologic time in response to orbital cycles, volcanic activity, and changes in atmospheric composition. Climate change science brings these threads together by asking a precise question: is the warming observed over the past century consistent with natural variability, or does it require a human explanation?

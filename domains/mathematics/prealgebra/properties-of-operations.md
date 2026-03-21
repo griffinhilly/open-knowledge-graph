@@ -30,6 +30,45 @@ Use numerical examples to verify each property, then show how they apply in alge
 - Confusing commutative (order) with associative (grouping).
 - Not seeing the relevance of these "obvious" rules — emphasize that they justify algebraic manipulation.
 
+## Questions
+
+```yaml
+- question: "A student claims subtraction is commutative and writes: 10 − 3 = 3 − 10. Which response best explains the error?"
+  type: multiple-choice
+  options:
+    - "The student is correct — the commutative property applies to all four operations"
+    - "The commutative property applies only to multiplication, not addition or subtraction"
+    - "The commutative property applies to addition and multiplication but not subtraction; 10 − 3 = 7 while 3 − 10 = −7"
+    - "The student should use the associative property instead, which does apply to subtraction"
+  answer: 2
+  explanation: "The commutative property (a + b = b + a, ab = ba) holds for addition and multiplication only. Subtraction is not commutative: 10 − 3 = 7, but 3 − 10 = −7. Division is not commutative either: 8 ÷ 4 ≠ 4 ÷ 8. The associative property also fails for subtraction: (8 − 3) − 2 = 3, but 8 − (3 − 2) = 7. These are genuine constraints, not technicalities — they determine when algebraic rearrangements are legal."
+
+- question: "Which property directly justifies the step x + 0 = x when simplifying an algebraic expression?"
+  type: multiple-choice
+  options:
+    - "Commutative property of addition"
+    - "Associative property of addition"
+    - "Additive identity property"
+    - "Additive inverse property"
+  answer: 2
+  explanation: "The additive identity property states a + 0 = a — adding zero leaves a number unchanged; 0 is the 'do-nothing' element for addition. The additive inverse property is different: it states a + (−a) = 0, meaning a number and its opposite sum to zero. Both are used in equation-solving, but they are not the same: identity involves the neutral element (0), inverse involves the opposite (−a)."
+
+- question: "The associative property states that (a + b) + c = a + (b + c), so the same regrouping rule holds for subtraction: (a − b) − c = a − (b − c)."
+  type: true-false
+  answer: false
+  explanation: "The associative property does not extend to subtraction. A counterexample: (10 − 4) − 2 = 4, but 10 − (4 − 2) = 8. Regrouping changes the result. Only addition and multiplication are associative. This is why converting subtraction to addition of a negative (a − b = a + (−b)) is a useful algebraic move — it lets you freely apply both commutative and associative properties, which are not available for raw subtraction."
+
+- question: "The additive inverse of any number a is −a, and their sum equals zero — the additive identity."
+  type: true-false
+  answer: true
+  explanation: "By definition, a + (−a) = 0. This is what makes equations solvable: to isolate x in x + 5 = 12, add the additive inverse of 5 (which is −5) to both sides. The result is x + 5 + (−5) = 12 + (−5). The inverse property gives x + 0 = 7, and the identity property gives x = 7. Together, inverse and identity are the machinery behind every equation-solving step — not tricks, but named properties doing specific work."
+
+- question: "Why do mathematicians bother naming properties like 'commutative' and 'associative'? What would a student lose by treating algebra as a set of procedures without understanding these properties?"
+  type: short-answer
+  answer: "The properties are the justification for every algebraic manipulation — they explain why each step is legal, not just what to do. Without them, students follow memorized procedures and fail when problems change form. With them, students know when rearranging is valid (addition: yes; subtraction: no) and can adapt to new situations. Named properties also reveal limits: knowing commutativity fails for subtraction prevents incorrect rearrangements. And the properties extend beyond numbers — they describe how vectors, matrices, and functions behave — making them foundational across all of mathematics."
+  explanation: "The meta-insight is that algebra is not a collection of tricks but a system governed by precise rules. A student who understands the rules can derive procedures; a student who only knows procedures is helpless when the format changes."
+```
+
 ## Explainer
 
 When you first learned to add and multiply integers, you followed rules that felt natural: 3 + 5 is the same as 5 + 3, and you can add numbers in any order without changing the result. The properties of operations give these intuitions precise names and extend them into powerful tools for manipulating any algebraic expression.

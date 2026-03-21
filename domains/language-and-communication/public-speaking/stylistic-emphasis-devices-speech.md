@@ -29,6 +29,45 @@ Identify an important claim in a speech and rewrite it three ways: (1) straightf
 ## Common Misconceptions
 - Rhetorical devices are ornamental and distract from meaning. - Overuse of devices is inevitable and makes speech seem artificial. - Certain devices are effective only in poetry and writing, not in speech.
 
+## Questions
+
+```yaml
+- question: "Churchill's 'We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields' uses anaphora effectively not primarily as ornamentation but because:"
+  type: multiple-choice
+  options:
+    - "The repeated phrase is easier to write and memorize during speech preparation"
+    - "The pattern creates expectation in live listeners, reducing cognitive load and organizing the sequence into a comprehensible structure"
+    - "Anaphora signals that each item is equally important, preventing audiences from ranking the clauses"
+    - "Repetition compensates for the absence of visual aids in wartime radio broadcasts"
+  answer: 1
+  explanation: "Patterned language exploits the temporal, linear nature of live listening. A listener who hears 'We shall fight on...' repeated anticipates the pattern before the next iteration arrives — the anticipated structure reduces the cognitive work of parsing each new clause and organizes the whole sequence as a coherent list. This is a processing aid, not mere ornamentation. The pattern becomes a cognitive scaffold that lets listeners follow a more complex argument than they could track without it."
+
+- question: "A speech coach advises a student to use alliteration throughout every major section of a 20-minute speech to maximize audience retention. What flaw does this advice contain?"
+  type: multiple-choice
+  options:
+    - "Alliteration only works in poetry and formal ceremonial speeches, not persuasive ones"
+    - "Overuse of rhetorical devices numbs the audience to their effect, undermining the emphasis they are supposed to create"
+    - "Alliteration is only effective as a closing device, not throughout a speech"
+    - "Modern audiences find alliteration too archaic and formal for contemporary public speaking"
+  answer: 1
+  explanation: "Rhetorical devices create emphasis by contrast — they stand out against ordinary language. If every section uses alliteration, none of them stand out; the device stops signaling 'this is important.' The advice mistakes more = better when the mechanism requires selective use. The craft is reserving devices for claims that deserve emphasis. Overuse produces what the explainer calls 'numbing the audience to their effect' — the pattern becomes expected and loses its function."
+
+- question: "Rhetorical patterns like anaphora and parallelism reduce cognitive load in live listening by creating expectations that help audiences organize incoming information."
+  type: true-false
+  answer: true
+  explanation: "Spoken language is linear and time-locked — listeners cannot slow down or re-read. Patterned language addresses this processing challenge directly: once a pattern is established, the audience anticipates the next iteration before it arrives. That anticipation is not mere aesthetic pleasure; it is a processing mechanism that lets listeners track more complex arguments. The pattern provides a cognitive scaffold that organizes incoming speech as it arrives."
+
+- question: "Rhetorical devices like anaphora and parallelism are more effective in written texts than in speeches because readers can slow down to appreciate the patterns."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true. Written texts can be re-read and processed at the reader's own pace, so patterned language is less necessary as a processing aid. In speech, where language is linear, time-locked, and heard only once, patterns become essential cognitive scaffolds. The sonic qualities of language — rhythm, alliteration, the acoustic texture of repeated phrases — are also directly perceptible in delivery in ways reading only partially captures. These devices were developed in oral rhetorical traditions precisely because they work particularly well in live speaking contexts."
+
+- question: "Why does patterned language work particularly well in speech compared to writing? What feature of live listening makes rhetorical devices more than mere ornamentation?"
+  type: short-answer
+  answer: "Speech is linear and time-locked: listeners hear words once, in sequence, and must construct meaning as sound fades. They cannot slow down, re-read, or pause. Patterned language — anaphora, parallelism, alliteration — creates expectations that reduce cognitive load: once a pattern is established, the audience anticipates the next element before it arrives. This anticipation organizes incoming information and aids retention. The pattern is a processing scaffold, not decoration. Writing allows re-reading, so patterns are less essential as comprehension aids."
+  explanation: "This distinction between the processing demands of speech and writing is the foundation of why oral rhetoric has always made heavy use of formal patterning. From ancient oral traditions to Churchill and King, rhetorical devices served comprehension and memory in contexts where there was no text to return to."
+```
+
 ## Explainer
 
 You already know **repetition devices** — anaphora, epistrophe, and their variants — and the structural balance of **antithesis** and **chiasmus**. These gave you a toolkit of named patterns. This topic asks why those patterns work, and how to deploy them purposefully rather than decoratively. The answer lies in how speech is processed differently from written text, and how patterned language exploits the acoustic and cognitive properties of live listening.

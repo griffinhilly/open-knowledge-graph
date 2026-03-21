@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Political decisions affecting all must be justifiable in terms all reasonable citizens could accept, not on controversial comprehensive doctrines. Rawls argues public reason constrains legitimate justifications: sectarian religion or perfectionist visions are illegitimate; reasons grounded in shared constitutional essentials are required. This doctrine respects reasonable pluralism while maintaining political stability.
 
+## Questions
+
+```yaml
+- question: "A lawmaker argues for a policy because the Qur'an commands it. A critic says this violates public reason. The lawmaker responds: 'Secular humanists justify policies based on their comprehensive worldview too — why is my reason different?' How should a Rawlsian respond?"
+  type: multiple-choice
+  options:
+    - "The critic is right: religious reasons are always excluded from public political justification, but secular reasons are not"
+    - "The Rawlsian agrees with the lawmaker: public reason applies symmetrically to all comprehensive doctrines — secular perfectionism and religious scripture are equally excluded when they rest on premises that reasonable citizens do not all share"
+    - "Public reason only applies to judges and officials, not to elected legislators"
+    - "Both reasons are acceptable under public reason, which requires only sincerity, not neutral justification"
+  answer: 1
+  explanation: "Public reason is not a bias toward secular over religious reasoning. It excludes all comprehensive doctrines — religious and secular alike — when those doctrines are not shared by all reasonable citizens. A secular perfectionist who argues for policy based on a contested vision of human flourishing is equally in violation. What matters is whether a reason is political (grounded in shared constitutional values: basic rights, equal opportunity, fair terms of cooperation) or comprehensive (grounded in a broader worldview that reasonable people do not all share). The lawmaker is right that secular comprehensive reasons face the same constraint."
+
+- question: "A senator advocates against a proposed law in a newspaper op-ed using explicitly religious grounds, then tells her colleagues: 'This law also violates equal basic liberty — a public reason.' Under Rawls's wide view of public reason, is her conduct appropriate?"
+  type: multiple-choice
+  options:
+    - "No — any introduction of religious reasoning into public political discourse violates public reason"
+    - "Yes — the wide view allows comprehensive doctrines in public debate, provided the citizen is ultimately willing to offer public reasons in support (the proviso)"
+    - "Yes — public reason applies only to official state action, not to citizens engaging in public discourse"
+    - "No — the proviso requires that public reasons be stated first, before any comprehensive reasoning"
+  answer: 1
+  explanation: "Rawls's wide view allows citizens to bring comprehensive doctrines — including religious reasons — into public political discussion, subject to the proviso: they should be willing, in due course, to offer public reasons sufficient to support the same political conclusion. The senator satisfies this by also articulating the equal-liberty justification. The wide view does not require a purely secular public square; it requires that coercive political decisions ultimately be supportable on terms all reasonable citizens could accept."
+
+- question: "Under Rawls's public reason framework, citizens who vote based on religious conviction are acting improperly if they cannot articulate a non-religious justification for their vote."
+  type: true-false
+  answer: false
+  explanation: "This overstates the requirement. Rawls's wide view allows citizens to act on comprehensive convictions, including religious ones, provided they are in principle willing to offer public reasons when the occasion demands. The ideal of public reason is a duty of civic respect — when advocating for coercive laws affecting all, citizens should be prepared to justify their positions in terms others could reasonably accept — not a qualification gate that disqualifies religious voters from participating in democratic life."
+
+- question: "Rawls holds that the public reason requirement applies more stringently to constitutional essentials — basic rights and the structure of political institutions — than to ordinary day-to-day legislation."
+  type: true-false
+  answer: true
+  explanation: "Rawls explicitly distinguishes constitutional essentials (basic rights, the structure of political institutions, fair equal opportunity) from ordinary legislation (tax rates, zoning, infrastructure). Public reason applies most stringently to the former because these features of the basic structure most deeply affect every citizen's life prospects and are hardest to revise. On constitutional essentials, only reasons that all reasonable citizens could accept are appropriate. Ordinary legislation allows more flexibility."
+
+- question: "Why doesn't public reason simply mean 'secular reason'? What is the actual distinction Rawls draws between reasons that qualify as public and reasons that are excluded?"
+  type: short-answer
+  answer: "Rawls distinguishes political reasons from comprehensive reasons — not religious from secular. Political reasons are grounded in values that all reasonable citizens share as participants in the constitutional order: basic rights, equal opportunity, fair terms of cooperation. Comprehensive reasons are grounded in broader worldviews — religious or secular — that reasonable people in a pluralist society do not all share. A secular perfectionist who appeals to a contested vision of human flourishing faces the same exclusion as a religious citizen appealing to scripture. What qualifies a reason as public is whether citizens with different comprehensive doctrines could each accept it from within their own worldview — not whether it is secular."
+  explanation: "Rawls's response to the 'secular bias' objection is that liberal political values (freedom, equality, reciprocity) are not themselves a comprehensive secular doctrine. They represent an overlapping consensus — each comprehensive doctrine, religious or secular, has its own internal reasons to affirm these political values. Public reason appeals to that shared ground, not to any particular comprehensive worldview."
+```
+
 ## Explainer
 
 From your prerequisite on **public reason**, you understand the basic Rawlsian idea: in a pluralistic democracy, coercive political decisions must be justifiable on terms that all reasonable citizens could accept. Now the question is what this constraint actually *requires* — how it disciplines political argument, where it applies, and why it is controversial.

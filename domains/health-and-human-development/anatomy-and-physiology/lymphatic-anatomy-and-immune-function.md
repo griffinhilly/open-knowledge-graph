@@ -36,6 +36,45 @@ Map the lymphatic drainage routes and identify which lymph node groups drain whi
 - Lymph nodes do not produce red blood cells — the spleen does not either in adults (except in disease states); both are immune surveillance organs.
 - Lymphatic vessels have no pump equivalent to the heart; flow depends entirely on skeletal muscle contraction, respiratory pressure changes, and smooth muscle in larger lymphatic walls.
 
+## Questions
+
+```yaml
+- question: "A patient develops severe lymphedema in their arm following a mastectomy that included removal of axillary lymph nodes. What is the direct cause of the swelling?"
+  type: multiple-choice
+  options:
+    - "The removed nodes are no longer producing proteins that maintain osmotic balance in the arm"
+    - "Disrupted lymphatic drainage prevents interstitial fluid from being returned to circulation, so it accumulates in the tissue"
+    - "The immune system can no longer fight infection in the arm, causing inflammatory fluid buildup"
+    - "Loss of lymph nodes reduces blood flow to the arm, causing fluid to leak from blood vessels"
+  answer: 1
+  explanation: "Lymphatic capillaries collect the ~3 L/day of plasma that seeps from blood capillaries into interstitial space. When lymphatic drainage is disrupted — whether by surgery, tumor blockage, or infection — this fluid cannot return to circulation and accumulates as edema. The misconception in option A confuses lymph nodes (immune surveillance organs) with glands that produce osmotic proteins; they do neither."
+
+- question: "After a pathogen enters the foot, where does clonal selection and proliferation of antigen-specific lymphocytes most likely occur?"
+  type: multiple-choice
+  options:
+    - "In the bone marrow, where B lymphocytes are produced and can immediately respond to antigen"
+    - "In the thymus, which activates mature T cells when infection signals reach it"
+    - "In the inguinal lymph nodes, which drain the lower limb and house T and B cells awaiting antigen encounter"
+    - "In circulating blood, where lymphocytes patrol for antigen and activate upon contact"
+  answer: 2
+  explanation: "The inguinal lymph nodes are secondary lymphoid organs strategically positioned to intercept antigen draining from the lower limbs. Resident dendritic cells sample lymph as it percolates through, and antigen-specific T and B cells in the node undergo clonal selection and expansion. The thymus (option B) and bone marrow (option A) are primary lymphoid organs — sites of lymphocyte development and education, not antigen encounter. Lymphocyte activation primarily occurs in lymphoid tissue, not free-floating in blood (option D)."
+
+- question: "Lymph flows without a dedicated pump equivalent to the heart."
+  type: true-false
+  answer: true
+  explanation: "Lymph flow depends entirely on skeletal muscle contractions during movement, pressure changes during breathing, and smooth muscle contractions in larger lymphatic walls — not a dedicated pump. This is why immobility (bed rest, paralysis) leads to lymphedema: without the mechanical forces that drive lymph through the vessels, interstitial fluid accumulates. This also explains why exercise is therapeutic for lymphedema patients."
+
+- question: "The thymus is where both T and B lymphocytes undergo positive and negative selection to eliminate cells that would attack the body's own tissues."
+  type: true-false
+  answer: false
+  explanation: "Only T lymphocytes mature in the thymus, where positive selection (keeping cells that can recognize self-MHC) and negative selection (eliminating self-reactive cells) occur. B lymphocytes mature and undergo central tolerance selection in the bone marrow. The thymus and bone marrow are the two primary lymphoid organs, each dedicated to educating a different lymphocyte lineage."
+
+- question: "Why do lymph nodes swell during an active infection, and what does this swelling indicate about the immune response?"
+  type: short-answer
+  answer: "Lymph nodes swell because lymphocytes within them — particularly T cells in the deep cortex and B cells in the follicles — are proliferating and differentiating in response to antigen delivered by draining lymph. The enlargement reflects active clonal expansion: many new immune cells are being produced to match the scale of the threat."
+  explanation: "Swollen lymph nodes are clinically valuable because their anatomical location identifies the source of infection — cervical nodes implicate head and neck structures, axillary nodes implicate arm or breast, inguinal nodes implicate lower limb. The swelling is not a sign of a failing immune system but of one actively mounting an adaptive response. Nodes that remain enlarged long after infection may indicate persistent antigen (chronic infection, malignancy) or a primary lymphoid malignancy."
+```
+
 ## Explainer
 
 You already understand how the innate and adaptive immune responses work as immunological processes — the cellular players, signaling cascades, and outcomes. What this topic adds is the anatomical infrastructure that makes those responses possible: the physical plumbing and organs that collect antigen, house immune cells, and route the response to the right locations. Without this infrastructure, immune cells could not efficiently encounter foreign material, and the adaptive response would be far too slow and spatially diffuse to protect you.

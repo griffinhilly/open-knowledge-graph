@@ -36,6 +36,45 @@ Demonstrate SQL injection on a vulnerable test query using `' OR '1'='1` to bypa
 - Granting broad privileges for convenience is a major security risk; application database users should only have SELECT/INSERT/UPDATE on the tables they need.
 - Encryption at rest does not protect against SQL injection — it only protects the physical storage media from theft or unauthorized OS-level access.
 
+## Questions
+
+```yaml
+- question: "An application builds login queries by concatenating user input into SQL strings. A developer proposes fixing a SQL injection vulnerability by adding code that strips single quotes from all user inputs before concatenation. Is this an adequate fix?"
+  type: multiple-choice
+  options:
+    - "Yes — removing single quotes makes it impossible to inject SQL syntax"
+    - "No — string sanitization is fragile and error-prone; parameterized queries are the correct defense"
+    - "Yes — if combined with input length limits and quote stripping, sanitization is sufficient"
+    - "No — the real fix is to encrypt all user input before storing it in the database"
+  answer: 1
+  explanation: "String sanitization is tempting because it seems to neutralize the dangerous character. But injection attacks use many characters and encoding tricks beyond single quotes — double dashes for comments, semicolons for statement separators, encoded unicode variants. Any filter will miss edge cases. Parameterized queries (prepared statements) solve the problem at a structural level: the SQL code is sent to the database engine separately from the data value, so the input is never parsed as SQL — it's always treated as a literal string. Option A is the classic wrong answer: developers who choose this route end up in an endless arms race against new injection techniques."
+
+- question: "In which scenario does encryption at rest correctly provide protection?"
+  type: multiple-choice
+  options:
+    - "Preventing a SQL injection attack that reads user passwords directly from the database via the application interface"
+    - "Protecting database contents if an attacker gains physical access to the server's storage media"
+    - "Preventing an attacker from intercepting query results traveling over the network"
+    - "Restricting which application users can read sensitive columns like salaries"
+  answer: 1
+  explanation: "Encryption at rest protects data files on disk — if someone steals the physical server or gains OS-level file access, they cannot read the raw database files without the decryption key. It does nothing against SQL injection (the attacker uses the legitimate database interface, receiving decrypted data as normal). Option C describes TLS/SSL (encryption in transit). Option D describes column-level GRANT/REVOKE or views. Each security layer addresses a distinct attack surface; none of them substitute for the others."
+
+- question: "A database user who has been granted only SELECT permission on specific tables cannot issue DELETE statements on those tables, even if they are authenticated and connected to the database."
+  type: true-false
+  answer: true
+  explanation: "This is the correct behavior of SQL authorization. GRANT and REVOKE control what operations a user may perform, independently of whether they can connect. A user with SELECT-only access will receive a permission error if they attempt DELETE, INSERT, or UPDATE. This is the principle of least privilege in action: even if an account is compromised, the attacker is limited to read operations and cannot modify or destroy data."
+
+- question: "Parameterized queries prevent SQL injection by sanitizing user input — detecting and escaping dangerous characters before they are inserted into the query string."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception about how parameterized queries work. They do not sanitize or escape anything. Instead, they separate the SQL code structure from the data values entirely: the query template (e.g., 'SELECT * FROM users WHERE username = ?') is compiled by the database engine first, establishing what operations are allowed. The user input is then bound as a parameter — a data value, never parsed as code. There is no injection because the execution plan is already set before the data arrives. String escaping, by contrast, does attempt to neutralize characters in the query string itself, which is why it can be circumvented."
+
+- question: "Explain why parameterized queries solve SQL injection at a more fundamental level than string escaping, and why the distinction matters for security."
+  type: short-answer
+  answer: "String escaping tries to make malicious input harmless by transforming it before inserting it into a SQL string — but the input and the SQL code are still mixed together in one string that the database engine parses. Any escaping scheme can potentially be bypassed by new encoding tricks or edge cases. Parameterized queries work differently: the SQL structure is compiled into an execution plan before any user data arrives. The user input is then supplied as a typed data value that fills a placeholder — the engine never parses it as code. Injection is structurally impossible because there is no longer a moment when user data and SQL syntax share the same parse context."
+  explanation: "The deeper principle is code-data separation. SQL injection exists because developers treat SQL as a string-formatting problem — inserting data into a code template. Parameterized queries reframe it as a code-data separation problem. Once you separate them, you don't need to worry about escaping any particular character set; you've eliminated the attack surface entirely. This is also why ORMs, stored procedures, and prepared statements all prevent injection even though they work differently: they all enforce the same structural separation."
+```
+
 ## Explainer
 
 You already know how to write SQL SELECT queries and understand that databases store structured data that many users and applications access. Database security addresses three layers of protection: verifying who is connecting (**authentication**), controlling what they can do (**authorization**), and defending against attacks that exploit the interface between application code and the database.

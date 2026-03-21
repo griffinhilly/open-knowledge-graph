@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Vapor-compression cycles (evaporator, compressor, condenser, throttle valve) deliver cooling by compressing refrigerant vapor, enabling condensation at elevated pressure, then expanding to low pressure for evaporation. Coefficient of performance COP = Q_c/W_in depends on evaporator and condenser temperatures; real systems achieve 40-70% of Carnot COP due to compressor inefficiency and pressure drops.
 
+## Questions
+
+```yaml
+- question: "A refrigerator maintains a cold space at 4°C (277 K) against a 35°C (308 K) ambient environment. What is the theoretical maximum (Carnot) COP?"
+  type: multiple-choice
+  options:
+    - "308/277 ≈ 1.11 — the ratio of hot to cold absolute temperatures"
+    - "277/31 ≈ 8.9 — the cold temperature divided by the temperature difference"
+    - "31/277 ≈ 0.11 — the temperature difference divided by the cold temperature"
+    - "(308 − 277)/308 ≈ 0.10 — analogous to the Carnot heat engine efficiency"
+  answer: 1
+  explanation: "Carnot COP for a refrigerator = T_L / (T_H − T_L) = 277 / (308 − 277) = 277/31 ≈ 8.9. This means an ideal refrigerator could deliver 8.9 units of cooling per unit of work input. Option A gives the Carnot heat engine efficiency formula, applied incorrectly. Option C inverts the Carnot COP formula. Option D is the Carnot heat engine efficiency — a completely different metric for a different cycle direction."
+
+- question: "An engineer adds subcooling to a vapor-compression system — cooling the liquid refrigerant further past state 3 before it reaches the throttle valve. Why does this improve COP?"
+  type: multiple-choice
+  options:
+    - "It lowers the compressor inlet temperature, reducing the work the compressor must do"
+    - "It increases the enthalpy drop across the evaporator (more cooling per unit mass of refrigerant circulated) without increasing compressor work"
+    - "It raises the condensing pressure, reducing the pressure ratio across the compressor"
+    - "It converts liquid to vapor before the throttle valve, recovering expansion work"
+  answer: 1
+  explanation: "Subcooling reduces the enthalpy at state 3 (h_3 decreases). Since the throttle is isenthalpic (h_4 = h_3), h_4 also decreases. The cooling effect is q_L = h_1 − h_4, so a lower h_4 increases q_L. Compressor work (h_2 − h_1) is unchanged because subcooling occurs after the compressor. COP = q_L/w_compressor therefore improves. The compressor inlet (state 1) is unaffected by subcooling — that state is determined by the evaporator, not the condenser."
+
+- question: "The coefficient of performance of a refrigerator must always be less than 1 because delivering more cooling than the electrical work input would violate conservation of energy."
+  type: true-false
+  answer: false
+  explanation: "COP can greatly exceed 1 — typical household refrigerators have COP of 2 to 4, and the Carnot limit can approach 9 or higher for mild temperature differences. Energy is conserved because the system moves heat, not converts it. The energy balance is: W (work in) + Q_c (heat from cold space) = Q_H (heat rejected to hot environment). COP = Q_c/W, and since Q_c can be much larger than W, COP >> 1 is perfectly consistent with the first law. Confusing COP with heat engine efficiency is the common error — efficiency of a heat engine must be less than 1, but COP of a refrigerator or heat pump has no such constraint."
+
+- question: "The throttle (expansion) valve in a vapor-compression cycle is an isenthalpic device — enthalpy is conserved across it, not entropy."
+  type: true-false
+  answer: true
+  explanation: "The throttle valve is a highly irreversible device: the refrigerant passes through a restriction, pressure drops dramatically, and entropy increases (irreversibility). Enthalpy, however, is conserved (h_4 = h_3) because the process is adiabatic and no work is done. This contrasts with an isentropic turbine, where entropy is conserved and enthalpy drops as work is extracted. A turbine would recover expansion work but is impractical for refrigeration (two-phase flow, small size, cost); the simpler throttle valve trades work recovery for mechanical simplicity."
+
+- question: "Why does COP decrease as the temperature difference between the cold space and the hot environment increases, and what does this imply for practical refrigerator and heat pump design?"
+  type: short-answer
+  answer: "Carnot COP = T_L / (T_H − T_L). As the temperature difference grows, the denominator increases and COP falls — more work is required per unit of cooling or heating delivered. A freezer at −20°C against 30°C ambient (ΔT = 50 K) has much lower Carnot COP than a refrigerator at +4°C against the same ambient (ΔT = 26 K). Practically, this means: (1) systems should minimize unnecessary temperature lifts — don't cool a space colder than needed; (2) subcooling and superheating help by narrowing the effective temperature range over which heat exchange occurs; and (3) condensers should be kept as cool as possible (e.g., by using ambient air efficiently) to reduce T_H."
+  explanation: "This also explains why geothermal heat pumps outperform air-source heat pumps in cold climates: ground temperature is more stable (smaller ΔT) than air temperature in winter, so the ground-source system operates at a higher COP year-round."
+```
+
 ## Explainer
 
 The vapor-compression refrigeration cycle is the Rankine cycle run backward — instead of using heat to produce work, you use work to move heat from a cold space to a warm one. You already understand vapor-compression refrigeration at a conceptual level from your prerequisite. Here the goal is to master the state-by-state thermodynamic analysis so you can compute exactly how much cooling a given system delivers and how efficiently it does so.

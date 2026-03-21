@@ -33,6 +33,45 @@ Work through the paradox slowly: write out both cases of the biconditional R ∈
 - The resolution is not to ban self-reference entirely, but to prevent set-formation from quantifying over all sets at once.
 - Russell's own solution (type theory) is one approach; Zermelo's separation axiom is the one adopted in standard set theory.
 
+## Questions
+
+```yaml
+- question: "A student argues: 'Russell's paradox just shows sets can't contain themselves. If we add an axiom that no set is a member of itself, the paradox is resolved.' What is wrong with this response?"
+  type: multiple-choice
+  options:
+    - "It is correct — forbidding self-membership is exactly how ZFC resolves the paradox"
+    - "The anti-self-membership rule would make R = {x : x ∉ x} the universal set of all sets, and forming it still requires unrestricted comprehension, which leads to other paradoxes"
+    - "The response fails because self-membership is required by the axiom of extensionality"
+    - "Forbidding self-membership would make all mathematical induction impossible"
+  answer: 1
+  explanation: "Forbidding self-membership doesn't fix the problem because the root cause is unrestricted comprehension — the ability to form a set from any predicate ranging over *all* objects. If no set is a member of itself, then x ∉ x is universally true, so R = {x : x ∉ x} becomes the 'set of all sets.' But forming such a set still requires unrestricted comprehension, and the 'set of all sets' leads to Cantor's paradox. ZFC's actual fix — the axiom of separation — restricts comprehension to subsets of already-existing sets, preventing R from being formed in the first place."
+
+- question: "Which of the following best describes what Russell's paradox actually establishes?"
+  type: multiple-choice
+  options:
+    - "It shows that self-referential definitions are always meaningless and should be excluded from mathematics"
+    - "It is a formal proof that naive set theory's axiom of unrestricted comprehension is inconsistent — any system containing it can prove every statement"
+    - "It shows that infinite sets create contradictions, motivating a finitist approach to mathematics"
+    - "It proves that the membership relation ∈ cannot be well-defined for all sets"
+  answer: 1
+  explanation: "Russell's paradox is not a philosophical puzzle or an anomaly to be worked around — it is a formal proof of inconsistency. Naive set theory with unrestricted comprehension derives R ∈ R ↔ R ∉ R, a contradiction. In classical logic, a contradiction entails everything (ex falso quodlibet), so the system proves every statement and is mathematically worthless. The paradox doesn't merely suggest revising set theory; it proves revision is *required*. Option A overstates the lesson — self-reference can be handled consistently (e.g., in ZFC) if the axioms are restricted appropriately."
+
+- question: "Zermelo's axiom of separation resolves Russell's paradox by allowing sets to be formed only as subsets of already-existing sets, so that no predicate can range over all sets simultaneously."
+  type: true-false
+  answer: true
+  explanation: "This is the core of the fix. Unrestricted comprehension says: for any predicate P, {x : P(x)} exists. Separation says: given an existing set A and a predicate P, {x ∈ A : P(x)} exists. To form R = {x : x ∉ x}, you would need an existing set containing all sets — but no such set exists in ZFC (a direct consequence of the axiom of foundation and the non-existence of a universal set). The predicate x ∉ x is fine; the problem was always applying it to 'all objects everywhere' rather than to the elements of a specific set."
+
+- question: "Russell's type theory and Zermelo's axiom of separation are equally prominent as foundations for contemporary mathematics, and mathematicians today use both interchangeably."
+  type: true-false
+  answer: false
+  explanation: "ZFC (Zermelo-Fraenkel set theory with the axiom of choice), which incorporates the axiom of separation, is the standard foundation of contemporary mathematics. Russell's type theory was historically important as one of the first systematic responses to the paradox, but it is not the basis of mainstream mathematical practice today. Type theory has seen renewed interest in logic, computer science, and proof assistants (like Coq and Lean), but the claim that mathematicians use both 'interchangeably' is false."
+
+- question: "Explain in your own words why unrestricted comprehension — 'for any predicate P, there exists a set {x : P(x)}' — leads to a contradiction. What specific feature makes it dangerous?"
+  type: short-answer
+  answer: "The dangerous feature is that unrestricted comprehension allows predicates to range over all objects simultaneously, including the very set being defined. When you form R = {x : x ∉ x}, the predicate x ∉ x is applied to R itself — and asking 'is R ∈ R?' forces a contradiction. The self-referential loop is enabled by the 'all objects' quantification: nothing prevents R from being included in its own domain. Zermelo's fix closes this loop by requiring that any new set be carved from an already-existing set, which means R would need an existing set of all sets to draw from — and no such set is allowed."
+  explanation: "The key insight is that the paradox is not about self-reference per se but about unrestricted quantification. In ZFC, a predicate like 'x ∉ x' is still well-formed — you can ask whether any specific set is a member of itself. What you cannot do is collect all such sets into a new set by ranging over the entire universe. The Burali-Forti paradox (involving ordinals) and Cantor's paradox (involving the power set of the universal set) arise from the same root cause: unrestricted comprehension applied to the universe of all sets."
+```
+
 ## Explainer
 
 To appreciate Russell's paradox, start with **naive set theory**'s most powerful feature — its unrestricted comprehension principle: for any predicate P(x), there exists a set containing exactly the objects that satisfy P. This seems innocent. We can form the set of all prime numbers, the set of all red things, the set of all sets with exactly three members. Naive set theory promises a set for any property you can describe.

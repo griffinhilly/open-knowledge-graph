@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Target-specific code generation adapts generic optimization and code generation to particular ISA details: choice of addressing modes, use of special-purpose registers, instruction selection tradeoffs, and platform-specific optimizations like branch hints and cache-aware scheduling.
 
+## Questions
+
+```yaml
+- question: "A compiler emits `x * 10` as a single multiply instruction on one architecture, but on another replaces it with `(x << 3) + (x << 1)` because multiplication is slow. This transformation is an example of:"
+  type: multiple-choice
+  options:
+    - "Dead code elimination"
+    - "Strength reduction tuned to target ISA characteristics"
+    - "Register coalescing to reduce memory traffic"
+    - "Instruction scheduling for out-of-order execution"
+  answer: 1
+  explanation: "Strength reduction replaces an expensive operation with cheaper equivalents that produce the same result. On an architecture where multiply is 5 cycles and shift/add is 1 cycle, two shifts and an add (3 cycles total) beats one multiply. Crucially, this optimization only makes sense for a specific target — on an architecture where multiply is fast, the transformation would be a pessimization. This is why target-specific code generation is necessary rather than relying on a single generic backend."
+
+- question: "Which of the following optimizations requires knowledge of the microarchitecture beyond what the ISA specification states?"
+  type: multiple-choice
+  options:
+    - "Using the LEA instruction for arithmetic on x86, since LEA is listed in the ISA"
+    - "Aligning data to cache line boundaries and structuring loops to minimize cache misses"
+    - "Selecting which addressing modes are available on the target architecture"
+    - "Assigning values to the available general-purpose registers"
+  answer: 1
+  explanation: "Cache line size, cache hierarchy, and the cost of cache misses are microarchitectural properties not specified by the ISA. The ISA defines what instructions exist and what they do semantically; it says nothing about how fast they run or how memory subsystem behavior affects performance. Branch predictor characteristics, pipeline depth, and cache sizes are all microarchitectural details that compilers must know to generate code that runs efficiently — not just correctly."
+
+- question: "Once a compiler knows a target's instruction set architecture, it has all the information needed to generate maximally optimized code for that platform."
+  type: true-false
+  answer: false
+  explanation: "The ISA tells you what instructions are available and their semantics, but not how fast they run. Microarchitectural properties — pipeline depth, branch predictor behavior, cache line sizes, instruction latencies and throughputs — are not part of the ISA contract and vary between implementations of the same ISA. Two chips both implementing x86-64 can have very different optimal code due to microarchitectural differences. This is why compilers like GCC and LLVM maintain per-processor machine description files beyond just per-ISA specifications."
+
+- question: "The purpose of maintaining detailed machine description files (e.g., in GCC or LLVM) for each supported architecture is to separate target-specific knowledge from the generic optimization infrastructure."
+  type: true-false
+  answer: true
+  explanation: "Production compilers separate machine-independent optimizations (e.g., inlining, loop transformations, CSE) from machine-specific backends. Machine description files encode ISA details, instruction latencies, register constraints, and addressing modes in a structured form that the compiler's code generator can query. This separation allows the same generic optimizations to apply across all targets while enabling precise target-specific tuning without rewriting the optimizer from scratch."
+
+- question: "Why might two architectures with nearly identical instruction sets produce significantly different optimal code for the same high-level program?"
+  type: short-answer
+  answer: "Even if two architectures support the same instructions, their microarchitectural properties can differ substantially: pipeline depth, instruction latencies and throughputs, branch predictor design, cache sizes and line widths, and register file organization. These differences change which instruction sequences are fastest. For example, one processor may have a fast multiplier while another benefits from strength reduction; one may predict branch-not-taken while another uses a different default. Optimal code is not just about using the right instructions — it is about exploiting the specific timing and resource characteristics of the underlying hardware."
+  explanation: "This is why processor-specific compiler flags exist (e.g., -march=native in GCC): generating code tuned for one specific processor model, rather than a whole ISA family, can yield measurable speedups by exploiting the microarchitectural details of that processor. The ISA defines portability; the microarchitecture determines performance."
+```
+
 ## Explainer
 
 You already understand code generation — translating intermediate representation into machine instructions — and instruction set architecture — the contract between software and hardware that defines available instructions, registers, and addressing modes. **Target-specific code generation** is where these two concerns collide: the compiler must map its abstract operations onto the concrete capabilities of a particular processor, exploiting its strengths and working around its limitations.

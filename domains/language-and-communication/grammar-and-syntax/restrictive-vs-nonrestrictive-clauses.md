@@ -26,6 +26,45 @@ Test whether the clause is essential by removing it. If removing it changes the 
 - Not using commas for nonrestrictive clauses (causing ambiguity or changing meaning).
 - Thinking all relative clauses are the same (the distinction changes both meaning and punctuation).
 
+## Questions
+
+```yaml
+- question: "A school announcement reads: 'Students who failed the exam must retake it.' What does this sentence imply?"
+  type: multiple-choice
+  options:
+    - "All students must retake the exam"
+    - "Only students who failed must retake it — implying some students did not fail"
+    - "The clause 'who failed the exam' is extra information; all students must retake it regardless"
+    - "The sentence is ambiguous and could mean either interpretation"
+  answer: 1
+  explanation: "The clause 'who failed the exam' is restrictive — no commas, so it identifies which students must retake it, narrowing the noun from 'all students' to 'the subset who failed.' This implies some students did not fail (otherwise the clause would be needlessly identifying). If all students had failed, the announcement would read: 'Students, who failed the exam, must retake it' — a nonrestrictive clause noting that fact about all students."
+
+- question: "What is the most reliable test for whether a relative clause is restrictive or nonrestrictive?"
+  type: multiple-choice
+  options:
+    - "Check whether the relative pronoun is 'who' (nonrestrictive) or 'that' (restrictive)"
+    - "Remove the clause and see whether the noun's identity is still clear without it"
+    - "Count the length of the clause — longer clauses tend to be nonrestrictive"
+    - "Check whether the sentence is about a person (nonrestrictive) or a thing (restrictive)"
+  answer: 1
+  explanation: "The remove-and-test method is the most reliable diagnostic. If you remove the clause and the noun's reference is still clear — you still know exactly which person or thing is meant — the clause is nonrestrictive (add commas). If removing the clause leaves the noun without clear identity ('which student?' 'which car?'), the clause is restrictive (no commas). The 'who/that' heuristic is a useful shortcut but has exceptions and doesn't reveal the underlying logic."
+
+- question: "The sentence 'The doctors who volunteered were praised' implies that only some doctors volunteered."
+  type: true-false
+  answer: true
+  explanation: "The restrictive clause 'who volunteered' distinguishes a subset of doctors (those who volunteered) from others. If all doctors had volunteered, the clause would be needlessly identifying — you would say 'The doctors, who volunteered, were praised' (nonrestrictive, with commas), noting it as an additional fact about all doctors. The absence of commas signals that the clause is identifying which doctors, implying others exist who did not volunteer."
+
+- question: "Whether to use commas around a relative clause is a stylistic preference that doesn't affect the sentence's factual meaning."
+  type: true-false
+  answer: false
+  explanation: "Comma placement is not stylistic — it determines meaning. 'The professors who supported the proposal were rewarded' (no commas, restrictive) claims only some professors supported it. 'The professors, who supported the proposal, were rewarded' (commas, nonrestrictive) claims all professors supported it. These are two different factual claims. Using or omitting commas incorrectly doesn't just look wrong — it says something different."
+
+- question: "Why does the presence or absence of commas around a relative clause change the factual meaning of the sentence rather than just its style?"
+  type: short-answer
+  answer: "Commas signal whether the clause is essential to identifying the noun (restrictive, no commas) or merely supplemental (nonrestrictive, with commas). Restrictive clauses narrow down which member of a larger group is meant — implying other members exist who don't fit the description. Nonrestrictive clauses assume the noun is already fully identified — implying no such narrowing. Same words, different commas, different factual claims about who or what belongs to the described group."
+  explanation: "The classic example: 'professors who supported the proposal' vs. 'professors, who supported the proposal' makes different claims about how many professors supported it. The comma choice is doing real logical work — encoding whether the clause is part of the noun's definition or a separate comment about an already-identified noun."
+```
+
 ## Explainer
 
 You have learned how relative clauses work: they modify nouns, are introduced by relative pronouns, and add information about the noun they follow. Now consider a critical question those lessons left open: when does a relative clause identify *which* noun you mean, and when does it merely provide additional information about a noun already identified? This distinction — between **restrictive** and **nonrestrictive** relative clauses — determines both meaning and punctuation.

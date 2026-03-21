@@ -31,6 +31,45 @@ Plot the Southern Oscillation Index (SOI) or ENSO index over time; examine compo
 ## Common Misconceptions
 - Thinking ENSO and NAO cause weather; they are large-scale patterns that modulate probabilities of regional weather anomalies. - Confusing causes and effects in coupled ocean-atmosphere systems.
 
+## Questions
+
+```yaml
+- question: "During a strong El Niño event, southeastern Alaska experiences warmer-than-average winters while Indonesia experiences drought. Neither region is in the tropical Pacific where sea surface temperatures have changed. What explains these remote effects?"
+  type: multiple-choice
+  options:
+    - "El Niño warms the global ocean uniformly, raising temperatures everywhere including Alaska"
+    - "Teleconnections: the tropical Pacific anomaly shifts the position of the jet stream and other large-scale circulation patterns, altering the probability of warm vs. cold and wet vs. dry conditions in distant regions"
+    - "El Niño shifts Earth's rotational axis slightly, redistributing atmospheric mass toward the tropics and altering polar circulation"
+    - "Increased tropical evaporation during El Niño adds moisture to the global atmosphere, causing anomalous precipitation in all mid-latitude regions"
+  answer: 1
+  explanation: "Teleconnections are the mechanism by which a tropical ocean anomaly influences distant weather. The shifted rainfall center in El Niño alters where latent heat is released into the atmosphere, modifying the position and strength of the jet stream. This steers storm tracks in ways that can warm Alaska, dry out Indonesia, and suppress Atlantic hurricanes — all simultaneously. The key is that ENSO doesn't directly move air or moisture to these regions; it reorganizes the atmospheric circulation patterns that determine what weather those regions receive."
+
+- question: "What prevents the Bjerknes positive feedback loop in ENSO from locking the system permanently into El Niño conditions?"
+  type: multiple-choice
+  options:
+    - "The global thermohaline circulation gradually transports warm surface water from the tropical Pacific to higher latitudes, cooling the anomaly"
+    - "Subsurface ocean wave dynamics — Kelvin and Rossby waves crossing the Pacific basin — change thermocline depth and ocean heat content in ways that eventually reverse the surface temperature anomaly"
+    - "Increased solar radiation during El Niño warm phases heats the upper atmosphere, which cools the surface through increased longwave emission"
+    - "CO₂ emissions disrupt the feedback mechanism after approximately five years by acidifying the ocean surface"
+  answer: 1
+  explanation: "Bjerknes feedback is a positive feedback — warm eastern Pacific weakens trade winds, which allows further warming. Left alone, it would drive the system to an extreme state and keep it there. The reversal mechanism is subsurface wave dynamics: the shifted wind stress patterns drive Kelvin waves along the equatorial Pacific thermocline that eventually bring cold subsurface water to the surface, re-establishing the east-west temperature contrast that drives trade winds. This negative feedback from ocean memory creates the oscillation. The 3–5 year ENSO period reflects the time these ocean waves take to cross the Pacific basin."
+
+- question: "Climate oscillations like ENSO do not directly cause specific weather events; instead they shift the statistical probability of regional weather anomalies over seasonal to interannual timescales."
+  type: true-false
+  answer: true
+  explanation: "This is the key distinction between climate oscillations and weather causation. An El Niño event does not cause any specific storm, drought, or flood — it changes the atmospheric circulation patterns that make certain weather outcomes more or less likely. A region influenced by El Niño might experience drought 70% of El Niño years but still get heavy rainfall in the others. This is the basis for probabilistic seasonal climate forecasts: ENSO phase shifts the odds, not the certainty, of regional weather outcomes."
+
+- question: "The North Atlantic Oscillation (NAO) is a tropical ocean-atmosphere coupling mechanism similar to ENSO, driven by sea surface temperature anomalies warming the subtropical North Atlantic."
+  type: true-false
+  answer: false
+  explanation: "The NAO is fundamentally different from ENSO in its mechanism and location. ENSO is an ocean-atmosphere coupled mode driven by Bjerknes feedback in the tropical Pacific. The NAO is primarily an atmospheric mode — it describes variability in the pressure difference between the Icelandic Low and the Azores High, which affects the strength and position of westerlies over the North Atlantic. While NAO interacts with ocean temperatures, it is not driven by a tropical SST anomaly feedback loop. Its variability is less regular than ENSO's and harder to predict seasonally."
+
+- question: "Explain what a 'teleconnection' is and why an El Niño event in the tropical Pacific can alter rainfall patterns in regions as distant as East Africa or the southern United States."
+  type: short-answer
+  answer: "A teleconnection is a statistical relationship between climate anomalies in geographically distant regions, linked by atmospheric circulation patterns. El Niño shifts where deep convection and latent heat release occur in the tropics — specifically moving it from the western Pacific toward the central and eastern Pacific. This tropical heating anomaly drives Rossby wave trains that propagate into the mid-latitudes, displacing the jet stream from its normal position. The shifted jet stream then steers weather systems differently: wetter conditions in some regions (southern US), drier in others (East Africa, Indonesia), warmer or cooler in still others. The tropical forcing reorganizes the global atmospheric wave pattern, creating coherent anomalies thousands of kilometers away."
+  explanation: "Teleconnections are the physical basis for seasonal climate forecasting. Because ENSO phase can be predicted months in advance from ocean heat content observations, and because ENSO's teleconnections are relatively consistent, forecast centers can issue probabilistic outlooks for distant regions. The skill of these forecasts is highest where the teleconnection is strongest and most consistent — e.g., the southern US in winter during El Niño events."
+```
+
 ## Explainer
 
 From your study of ocean-atmosphere interactions and the El Niño-Southern Oscillation, you know that the tropical Pacific ocean and the atmosphere above it form a coupled system where changes in sea surface temperature alter wind patterns, which in turn alter ocean currents and temperatures. **Climate oscillations** generalize this idea: the climate system contains several semi-regular modes of variability, each involving coupled feedbacks between ocean and atmosphere that swing back and forth between distinct phases on timescales of years to decades.

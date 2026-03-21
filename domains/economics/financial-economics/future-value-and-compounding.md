@@ -33,6 +33,45 @@ Compare simple interest vs. compound interest over 30-year horizons to see the d
 - Daily vs. monthly compounding makes little practical difference compared to the effect of the interest rate itself — students overweight compounding frequency.
 - Forgetting taxes and fees when projecting future wealth leads to significant over-optimism in retirement planning.
 
+## Questions
+
+```yaml
+- question: "You invest $1,000 at 8% annual compound interest. According to the Rule of 72, approximately how many years does it take for the investment to double?"
+  type: multiple-choice
+  options:
+    - "8 years — equal to the interest rate"
+    - "9 years — divide 72 by the interest rate"
+    - "72 years — the rule directly gives the doubling time"
+    - "12 years — divide the interest rate into 100"
+  answer: 1
+  explanation: "The Rule of 72 states: divide 72 by the annual interest rate (as a percentage) to approximate doubling time in years. At 8%, that's 72 ÷ 8 = 9 years. This is a remarkably accurate approximation: the exact doubling time is ln(2)/ln(1.08) ≈ 9.006 years. The rule works because ln(2) ≈ 0.693 and the approximation 72/r ≈ ln(2)/(r/100) holds well for rates between roughly 2% and 20%."
+
+- question: "Investor A earns 8% simple interest for 30 years on $1,000. Investor B earns 8% compound interest for 30 years on $1,000. A student predicts the difference will be modest — 'only a few hundred dollars from the interest-on-interest effect.' What is the actual outcome?"
+  type: multiple-choice
+  options:
+    - "The student is correct — after 30 years the difference is less than $500"
+    - "Investor A ends with about $3,400; Investor B ends with about $10,063 — compounding makes Investor B nearly three times richer"
+    - "Both investors end with the same amount because they earn the same annual rate"
+    - "Investor A ends with more because simple interest avoids compounding risk"
+  answer: 1
+  explanation: "Simple interest on $1,000 at 8% earns $80/year, totaling $1,000 + 30×$80 = $3,400. Compound interest grows as $1,000 × (1.08)^30 ≈ $10,063. The gap of ~$6,663 is entirely due to reinvesting interest — by year 30, each year's compounding operates on a much larger base. The 'only a few hundred dollars' intuition is calibrated to linear growth; it catastrophically underestimates exponential accumulation over long horizons."
+
+- question: "Increasing the compounding frequency from monthly to daily has a larger effect on final wealth than increasing the annual interest rate by even half a percentage point."
+  type: true-false
+  answer: false
+  explanation: "Compounding frequency has a surprisingly small practical effect. Going from monthly to daily compounding on a 6% rate for 30 years changes the effective annual yield from about 6.168% to 6.183% — a difference of 0.015 percentage points. Increasing the rate from 6% to 6.5% would raise the effective yield by a full 0.5 percentage points. The rate itself dominates; frequency is a second-order effect. This is the key misconception identified in the topic — students tend to overweight compounding frequency relative to the rate."
+
+- question: "In compound interest, you earn returns not only on your original principal but also on the accumulated interest from prior periods."
+  type: true-false
+  answer: true
+  explanation: "This is the defining mechanism of compounding. After year 1 you have PV(1+r); in year 2 you earn r on the entire PV(1+r), not just PV. Each period's interest becomes part of the base for the next period's calculation, causing wealth to grow as PV(1+r)^t — an exponential function of time. It is this 'interest on interest' that produces dramatically different long-run outcomes compared to simple interest, which only earns r × PV each period regardless of accumulated gains."
+
+- question: "Why does compound interest produce dramatically more wealth over long time horizons than simple interest at the same annual rate? Explain the mechanism, not just the formula."
+  type: short-answer
+  answer: "With simple interest, you earn the same dollar amount each year (r × original principal), so wealth grows linearly. With compound interest, each year's interest is added to the principal before the next year's interest is calculated — you earn returns on your returns. Early on the difference is small, but as accumulated interest grows, each subsequent year's interest payment is larger in absolute terms than the last. Over 30 years the exponential growth compounds these annual increases, producing a dramatically larger final sum. The key insight is that the later years contribute far more absolute dollars than the early years, even at the same rate — because the base is so much larger."
+  explanation: "This is why starting to invest early matters so much more than investing slightly more later. Each additional year of compounding is worth more in absolute dollar terms than all previous years combined, once the principal is large enough. The Rule of 72 captures this: at 8%, money doubles every ~9 years, so a 36-year head start means roughly 4 doublings — a 16x multiplier — before the late starter begins."
+```
+
 ## Explainer
 
 The time value of money — your prerequisite — establishes that a dollar today is worth more than a dollar tomorrow because today's dollar can be invested to earn a return. Future value makes this concrete: it answers the question "if I invest PV dollars today at annual rate r, what will it be worth in t years?" The answer, FV = PV × (1+r)ᵗ, follows directly from the structure of compounding. After year 1, you have PV(1+r). After year 2, you earn r on the entire PV(1+r), giving PV(1+r)². The (1+r)ᵗ factor accumulates these multiplications, and its exponential shape — familiar from your work on geometric sequences — is what makes long time horizons so consequential.

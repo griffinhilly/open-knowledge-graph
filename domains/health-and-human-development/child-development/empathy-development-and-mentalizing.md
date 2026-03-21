@@ -32,6 +32,45 @@ Observe empathic responding in naturalistic social situations; examine how perso
 ## Common Misconceptions
 Empathy and sympathy are equivalent. Empathy involves understanding and vicariously experiencing another's emotion; sympathy is concern for another's welfare without necessarily sharing their emotional experience.
 
+## Questions
+
+```yaml
+- question: "A researcher studies individuals who can accurately describe another person's emotional state and predict their behavior, but show no concern for others' distress and no personal distress when others are hurt. Which profile best characterizes this pattern?"
+  type: multiple-choice
+  options:
+    - "Impaired cognitive empathy with intact affective empathy"
+    - "Intact cognitive empathy with impaired affective empathy"
+    - "Complete absence of empathic capacity across both systems"
+    - "Heightened emotional contagion with impaired mentalizing"
+  answer: 1
+  explanation: "This describes the psychopathy profile. Cognitive empathy (mentalizing — modeling others' mental states and predicting behavior) is preserved, while affective empathy (resonating with or caring about others' distress) is impaired. Option A describes a reversed pattern, closer to some presentations of autism spectrum disorder. Option C is incorrect because the person retains clear cognitive modeling ability. The dissociation between these two capacities is one of the strongest arguments that they are separate systems."
+
+- question: "A 3-month-old infant begins crying when another infant nearby cries. What does this behavior most likely demonstrate?"
+  type: multiple-choice
+  options:
+    - "Theory of mind — the infant is modeling the other infant's distress"
+    - "Affective empathy — the infant has a distinct representation of the other's emotional state"
+    - "Emotional contagion — automatic spread of emotional arousal without representing the other's inner life"
+    - "Cognitive empathy — the infant understands the cause of the other's distress"
+  answer: 2
+  explanation: "At 3 months, theory of mind has not developed — infants cannot yet represent others' beliefs or desires. This is emotional contagion: the nervous system responds to emotional cues automatically, producing matching distress. It is not affective empathy in the full developmental sense, which requires representing the other's state as distinct from one's own. Contagion is a pre-cognitive, reflexive mechanism present from birth, not a form of mentalizing."
+
+- question: "Because cognitive empathy requires explicit reasoning about mental states, it develops earlier in childhood than affective empathy."
+  type: true-false
+  answer: false
+  explanation: "Affective empathy develops earlier. Emotional contagion — the earliest precursor to affective empathy — is present from birth. Other-directed affective empathy develops as theory of mind emerges around ages 3–5. Cognitive empathy (explicit mentalizing and perspective-taking) develops more slowly and continues maturing through adolescence. The intuition that 'cognitive' things are foundational reverses the actual developmental sequence."
+
+- question: "A child can demonstrate emotional contagion before they have developed the ability to pass a false-belief task."
+  type: true-false
+  answer: true
+  explanation: "Emotional contagion — automatic matching of emotional states — is present from birth (e.g., reactive crying in newborns). False-belief tasks probe theory of mind, which typically does not emerge until around ages 3–5. This temporal gap confirms that emotional contagion does not require explicit mental-state representation; it operates through a more basic mechanism that precedes the cognitive scaffolding required for genuine mentalizing."
+
+- question: "Psychopathy and autism spectrum disorder have been described as a 'double dissociation' of empathy. What does this mean, and why does it matter for understanding empathy?"
+  type: short-answer
+  answer: "In psychopathy, affective empathy is impaired while cognitive empathy is relatively intact — individuals can model others' minds but feel no resonance with their distress. In ASD, the pattern tends to reverse: genuine affective resonance coexists with difficulty in explicit mentalizing. Because each component can be disrupted while the other remains intact, the double dissociation demonstrates that affective and cognitive empathy are separable systems, not two aspects of a single capacity."
+  explanation: "A double dissociation is one of the strongest forms of evidence in cognitive science for distinguishing two systems. If A could be disrupted while B was intact, that would show they are separable. If A and B can each be selectively impaired — which is what the psychopathy/ASD comparison shows — the case is far stronger. This finding has implications for interventions: training cognitive empathy will not automatically improve affective empathy, and vice versa."
+```
+
 ## Explainer
 
 You already know from your study of theory of mind and emotion recognition that children progressively develop the ability to attribute mental states — beliefs, desires, intentions — to other people. Empathy builds directly on this foundation but adds an emotional dimension: it is not just knowing that another person feels sad, but having some resonance with that sadness yourself. Understanding the development of empathy means tracking how purely reflexive emotional contagion matures into a sophisticated capacity to both share and understand other minds.

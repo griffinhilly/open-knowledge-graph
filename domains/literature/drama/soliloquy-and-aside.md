@@ -37,6 +37,45 @@ Perform or read aloud a soliloquy and experiment with its delivery — to whom i
 - Soliloquy does not mean the character is lying or performing — it is conventionally the character's most truthful speech, though unreliable soliloquists do exist (e.g., Iago).
 - 'Monologue' and 'soliloquy' are often used interchangeably, but technically a monologue is a long speech addressed to other characters present on stage, while a soliloquy is spoken alone.
 
+## Questions
+
+```yaml
+- question: "Iago's plotting speeches in Othello are delivered as soliloquies. A student argues: 'Because these are soliloquies, we can trust that Iago is being completely honest about his true intentions.' What is the most precise response?"
+  type: multiple-choice
+  options:
+    - "The claim is correct — theatrical convention guarantees all soliloquies are truthful"
+    - "The claim is correct — Shakespeare never writes an unreliable soliloquist"
+    - "The claim is too simple — while soliloquy conventionally signals truth, unreliable soliloquists exist, and Iago may be performing even when alone"
+    - "The claim is wrong — soliloquies are the least reliable form of dramatic speech"
+  answer: 2
+  explanation: "The theatrical convention is that soliloquy represents a character's most truthful speech, since they are alone and speaking directly to the audience. However, this is a convention, not an absolute rule. Iago complicates it: he is such a practiced deceiver that he may be performing even in solitude, which is part of what makes him so unsettling. The correct position is that soliloquy conventionally claims honesty but literary judgment is required to assess whether it delivers it — not that it is always reliable or always unreliable."
+
+- question: "Which statement correctly distinguishes a soliloquy from a monologue?"
+  type: multiple-choice
+  options:
+    - "A soliloquy is a short remark directed at the audience; a monologue is a solo speech while alone on stage"
+    - "A monologue is a long speech addressed to other characters who are present on stage; a soliloquy is an extended speech delivered by a character who is alone"
+    - "A soliloquy is always in verse; a monologue is always in prose"
+    - "A monologue reveals inner thoughts; a soliloquy is addressed to another character"
+  answer: 1
+  explanation: "Technically, a monologue is a long speech addressed to other characters who are present on stage — the speaker is not alone. A soliloquy is an extended speech delivered by a character who is alone, voicing inner thoughts as if to themselves or directly to the audience. The terms are often used interchangeably in casual speech, but the theatrical distinction matters: a monologue is an interpersonal communication event; a soliloquy is an access point into interior life."
+
+- question: "Both the aside and the soliloquy give the audience privileged information that other characters on stage cannot access."
+  type: true-false
+  answer: true
+  explanation: "Both devices exploit the audience's unique position as observers outside the fictional world. In an aside, a character speaks briefly while others are present — convention dictates those others cannot hear it. In a soliloquy, the character is alone and speaks directly to the audience. In both cases, the audience knows something the other characters do not, creating dramatic irony and pulling the audience into active engagement with the character's hidden perspective."
+
+- question: "A soliloquy is a long speech that one character delivers to another character who is present and listening on stage."
+  type: true-false
+  answer: false
+  explanation: "That describes a monologue. A soliloquy is specifically a speech delivered by a character who is alone — either literally alone on stage or in a mode the theatrical convention marks as private thought. The defining feature is interiority: the character is thinking aloud or addressing the audience directly, not communicating with another character in the fictional world of the play. Confusion between the two terms collapses an important distinction about dramatic information."
+
+- question: "Why did modern realist drama largely abandon the soliloquy in favor of subtext, and what does this shift reveal about changing assumptions regarding the self?"
+  type: short-answer
+  answer: "Realism demands behavior that is plausible in ordinary life — real people do not stop to address the audience — so the soliloquy's theatrical convention became incompatible with the illusion of naturalism. More deeply, the shift reflects a philosophical change about self-knowledge: Shakespeare's characters seem to know their own minds and can articulate inner states fully. Modern drama often presents characters opaque even to themselves, whose inner lives leak out through silences, deflections, and contradictions rather than direct confession."
+  explanation: "Subtext — what is not said — carries the weight that soliloquy once carried explicitly. A pause in Pinter or a deflected question in Chekhov can communicate as much as a Hamlet soliloquy, but through indirection. The disappearance of soliloquy marks a shift in what drama assumes about the self: from a model where interiority is accessible and articulable, to one where the self is fragmentary and partially hidden even from the person who has it."
+```
+
 ## Explainer
 
 Drama faces a problem that prose fiction solves easily: how do you show what a character is thinking? A novelist can simply write "she thought" and enter a character's mind. But on stage, with actors and an audience sharing physical space, the only events are what is said and done aloud. The **soliloquy** is drama's solution — a theatrical convention in which a character speaks their private thoughts directly to the audience. You already know from theatrical conventions that drama operates through agreed-upon rules, and the soliloquy is one of the most powerful of them: everyone in the theater accepts that a speaking character is alone with their thoughts, even if they are standing in the middle of a crowd scene.

@@ -41,6 +41,45 @@ Work through a diverse set of series and explicitly state which test you would t
 - Using only one favorite test for all series.
 - Forgetting to check for absolute convergence before declaring conditional convergence.
 
+## Questions
+
+```yaml
+- question: "A student encounters the series Σ (n! / nⁿ). Which test should they reach for first after checking the divergence test, and why?"
+  type: multiple-choice
+  options:
+    - "The integral test, because it works for positive decreasing functions"
+    - "The ratio test, because n! in the numerator makes the ratio aₙ₊₁/aₙ simplify cleanly"
+    - "The comparison test, since n! grows faster than nⁿ for large n"
+    - "The root test, because the nth root of n! is easy to evaluate"
+  answer: 1
+  explanation: "The ratio test is designed for series where factorials or exponentials appear, because taking aₙ₊₁/aₙ causes those terms to cancel nicely. For n!/nⁿ, the ratio becomes [(n+1)!/(n+1)^(n+1)] / [n!/nⁿ] = (n/(n+1))ⁿ → 1/e < 1, confirming convergence. The integral test (option A) would be extremely difficult to apply here. Reading the algebraic structure — factorial present — immediately points to the ratio test."
+
+- question: "A student uses the alternating series test to prove that Σ ((-1)ⁿ/√n) converges, then concludes the convergence is absolute. What error has been made?"
+  type: multiple-choice
+  options:
+    - "No error — if the alternating series test proves convergence, convergence is absolute"
+    - "The alternating series test cannot be applied here because √n is not an integer"
+    - "The alternating series test only establishes conditional convergence; absolute convergence requires testing Σ |aₙ| = Σ 1/√n separately, which is a divergent p-series (p = 1/2)"
+    - "The student should have used the ratio test instead, which directly determines absolute convergence"
+  answer: 2
+  explanation: "The alternating series test only guarantees conditional convergence — the original series with alternating signs converges, but nothing is said about convergence of the absolute values. Σ 1/√n is a p-series with p = 1/2 < 1, which diverges. So Σ ((-1)ⁿ/√n) is conditionally convergent but NOT absolutely convergent. This matters: conditionally convergent series can be rearranged to sum to any value (Riemann rearrangement theorem), while absolutely convergent ones cannot."
+
+- question: "The divergence test should always be the first test applied to any series, regardless of structure."
+  type: true-false
+  answer: true
+  explanation: "The divergence test costs almost nothing — just evaluate limₙ→∞ aₙ — and immediately resolves any series whose terms don't approach zero. If the limit is nonzero, the series diverges and no further analysis is needed. If the limit is zero, the test is inconclusive and you move on. Given this asymmetry (instant conclusion vs. no cost), always applying it first is the correct strategic discipline."
+
+- question: "If the ratio test yields L = 1, the series definitely converges."
+  type: true-false
+  answer: false
+  explanation: "When the ratio test yields L = 1, the test is inconclusive — it gives no information about convergence or divergence. Both the harmonic series Σ 1/n (diverges) and Σ 1/n² (converges) yield L = 1 under the ratio test. In this case you must switch tests — typically limit comparison with a p-series for rational-function terms."
+
+- question: "Why does recognizing a series' algebraic structure matter for choosing a convergence test — why not just try tests in a fixed order every time?"
+  type: short-answer
+  answer: "Different tests exploit specific algebraic structures: factorials and exponentials make the ratio test's cancellation work; nth powers collapse under the root test; rational functions compare naturally to p-series. Applying tests randomly leads to intractable calculations — trying the integral test on a factorial series is essentially impossible. Reading the structure of aₙ first directs you to the test where the algebra simplifies."
+  explanation: "Strategic test selection is not just faster — it is often the difference between a solvable and an unsolvable computation. The tests were designed to exploit specific features, so matching the test to the algebraic form is a mathematical insight, not just a time-saving habit."
+```
+
 ## Explainer
 
 You've now learned seven or more individual convergence tests — divergence test, integral test, comparison test, limit comparison test, alternating series test, ratio test, and root test — plus you can recognize geometric and p-series on sight. The challenge is no longer "how does each test work?" but "which test do I try first?" Developing a strategic decision process is the difference between spending two minutes on a problem and spending twenty.

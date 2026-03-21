@@ -28,6 +28,45 @@ Implement vector clock logic and trace scenarios with concurrent writes and mess
 ## Common Misconceptions
 Vector clocks require clock synchronization; they can totally order all events; they are necessary for all distributed algorithms.
 
+## Questions
+
+```yaml
+- question: "Process P1 has vector clock [3, 1, 2] at event A. Process P2 has vector clock [1, 3, 2] at event B. What is the causal relationship between A and B?"
+  type: multiple-choice
+  options:
+    - "A happened before B, because P1 has the highest single entry"
+    - "B happened before A, because P2's second entry is larger"
+    - "A and B are concurrent — neither caused the other"
+    - "The relationship cannot be determined without knowing the full message history"
+  answer: 2
+  explanation: "To compare vector clocks, every entry must be compared element-wise. A = [3,1,2] and B = [1,3,2]: A has a larger first entry (3 > 1) but B has a larger second entry (3 > 1). Since neither vector is element-wise ≤ the other, the vectors are incomparable — A and B are concurrent. This is the key power of vector clocks over Lamport clocks: concurrent events get incomparable vectors, making concurrency detectable. The misconception is thinking that a single dominant entry determines ordering."
+
+- question: "Process P receives a message carrying vector [4, 2, 1] and P's current vector is [1, 3, 0]. What is P's vector clock immediately after receiving the message (P is the first process in the vector)?"
+  type: multiple-choice
+  options:
+    - "[5, 5, 1] — add the two vectors element-wise, then increment"
+    - "[5, 3, 1] — take element-wise maximum, then increment P's own entry"
+    - "[4, 3, 1] — take element-wise maximum only, with no increment"
+    - "[4, 2, 1] — replace P's vector with the sender's"
+  answer: 1
+  explanation: "The update rule on message receipt is: (1) take the element-wise maximum of your current vector and the received vector, giving [max(1,4), max(3,2), max(0,1)] = [4, 3, 1], then (2) increment your own entry (P is process 1, first position), yielding [5, 3, 1]. Option C forgets the self-increment, which records that a new event (message receipt) just occurred at P. The element-wise max merges the causal histories of both parties; the self-increment marks the new local event."
+
+- question: "If event A has a smaller Lamport timestamp than event B, then A happened before B in the distributed system."
+  type: true-false
+  answer: false
+  explanation: "This is the fundamental limitation of Lamport clocks. The theorem only guarantees: if A happened before B, then timestamp(A) < timestamp(B). The converse does not hold — a smaller timestamp means A did not observe B, but A and B could be concurrent events whose counters happened to produce an ordered comparison. Vector clocks fix exactly this: A happened before B if and only if A's vector is element-wise ≤ B's (with at least one strict inequality). Lamport clocks can order events but cannot detect concurrency."
+
+- question: "Two events with incomparable vector clocks are concurrent, meaning no causal chain — no sequence of events and messages — connects them."
+  type: true-false
+  answer: true
+  explanation: "Incomparable vector clocks precisely formalize concurrency in the happened-before model. If A's vector is not ≤ B's and B's is not ≤ A's, then A's process had no causal information about B when A occurred, and vice versa. No message chain connects them. This is why distributed databases like Dynamo use vector clocks (or version vectors) to detect genuine conflicts: if two updates have comparable clocks, one supersedes the other; if incomparable, both matter and a merge or conflict resolution is needed."
+
+- question: "Why do vector clocks require one integer entry per process, rather than a single integer like Lamport clocks?"
+  type: short-answer
+  answer: "Each entry tracks how much of a specific process's event history is causally known at this event. With a single integer, all causal ancestry is collapsed into one number, so you can order events but lose information about which processes' histories are reflected. With per-process entries, comparing two events reveals exactly which process histories each one has observed. If they disagree — each knowing more about one process than the other — the events must be concurrent. The per-process structure is what makes concurrency detection possible, not just ordering."
+  explanation: "Lamport clocks conflate all causality into one number. Vector clocks preserve directional structure: entry i records how many events from process i are in the causal past of this event. Two events that have incomparable knowledge of each other's processes' histories (each knowing more about some process than the other) are concurrent — and vector clocks make this detectable in O(n) comparisons."
+```
+
 ## Explainer
 
 From your study of logical clocks (Lamport clocks), you know that distributed systems can assign timestamps to events without relying on synchronized physical clocks. Lamport clocks give you a useful property: if event A happened before event B, then A's timestamp is less than B's. But the converse is not true — if A's timestamp is less than B's, you cannot conclude that A actually caused B. They might be completely independent events that happened to get ordered by the counter. **Vector clocks** solve this limitation by making causality detection precise in both directions.

@@ -32,6 +32,45 @@ On a cold, windy day, slowly move a lit incense stick around the perimeter of ea
 - Window film makes windows look bad and is hard to remove — modern heat-shrink film is nearly invisible once applied and peels off cleanly in spring without damaging frames or glass.
 - Caulking the inside of a window is sufficient — exterior caulk is equally critical because wind-driven rain can penetrate gaps that indoor caulk cannot protect against, and interior-only sealing can trap moisture inside the wall cavity.
 
+## Questions
+
+```yaml
+- question: "A homeowner notices her windows feel cold to the touch and she can see condensation forming on the glass on winter nights, but a draft test with an incense stick shows no smoke deflection. What is the primary problem and best initial fix?"
+  type: multiple-choice
+  options:
+    - "Air infiltration through the sash edges — install new weatherstripping"
+    - "Conductive heat loss through the glass — apply heat-shrink window film or install interior storm inserts"
+    - "Missing exterior caulk at the frame-to-wall joint — re-caulk the exterior"
+    - "Sill plate gaps — seal with rope caulk at the base of the frame"
+  answer: 1
+  explanation: "Cold glass and condensation without any draft indicate conductive heat loss, not air infiltration. The glass itself is a poor insulator; heat radiates from the warm room through the pane to the cold outside. Since the draft test showed no air movement, weatherstripping and caulk would not help. Heat-shrink film or storm inserts create a dead-air buffer that dramatically reduces conductive loss — the same principle as a double-pane window's gas fill. This is the common mistake: buying weatherstripping for a conduction problem."
+
+- question: "Which of the following correctly describes where to apply weatherstripping versus caulk on a double-hung window?"
+  type: multiple-choice
+  options:
+    - "Weatherstripping on the frame-to-wall joint; caulk on the sash edges"
+    - "Caulk on the sash edges; weatherstripping on the frame-to-wall joint"
+    - "Weatherstripping on the sash edges where they compress against the frame; caulk on the fixed frame-to-wall joint"
+    - "Both weatherstripping and caulk can be used interchangeably anywhere on the window"
+  answer: 2
+  explanation: "The distinction is between moving and fixed surfaces. Weatherstripping goes on operable parts — the sash edges that slide or close against the frame — because it is designed to be compressed and rebound repeatedly. Caulk goes on fixed joints — where the frame meets the surrounding wall — because it is a rigid seal suited to surfaces that never move. Applying caulk to operable sashes seals them shut; applying weatherstripping to fixed joints provides a poor, gap-prone seal."
+
+- question: "Sealing air leaks from inside a window is sufficient — exterior caulking is optional and mainly cosmetic."
+  type: true-false
+  answer: false
+  explanation: "Exterior caulk is equally critical and serves a different function. Wind-driven rain can penetrate gaps that interior caulk cannot reach or protect. More importantly, interior-only sealing can trap moisture inside the wall cavity — water vapor that would otherwise escape outward becomes trapped and can cause rot, mold, or structural damage. The exterior joint where the frame meets siding or masonry must be sealed to prevent both water intrusion and wind-driven infiltration."
+
+- question: "Heat-shrink window film works by creating a dead-air space between the room and the cold glass, insulating through the same principle as a double-pane window."
+  type: true-false
+  answer: true
+  explanation: "The film is attached a few inches in front of the glass and shrunk taut with a hair dryer. The trapped air layer between film and glass acts as an insulating buffer — still air is a poor conductor of heat, so the room air doesn't directly contact the cold glass surface. This is the same principle behind double-pane windows (which use argon or krypton gas between panes for even better insulation). The film typically reduces conductive heat loss by 35–50% through single-pane windows at a fraction of the cost of replacement."
+
+- question: "Explain why diagnosing the type of heat loss (air infiltration vs. conductive loss) matters before deciding how to weatherize a window."
+  type: short-answer
+  answer: "Air infiltration and conductive heat loss require completely different fixes. Air infiltration — drafts entering through gaps — is addressed with weatherstripping on moving sashes and caulk on fixed joints. Conductive heat loss — heat radiating through the glass itself — is addressed with window film or storm inserts that create an insulating air buffer. Applying the wrong fix wastes money and leaves the actual problem unaddressed. A homeowner who buys weatherstripping for a conduction problem will see no improvement in comfort or energy bills."
+  explanation: "The diagnosis step transforms general knowledge into effective action. A draft test (incense stick or tissue paper on a cold windy day) detects air infiltration; cold glass and condensation signal conductive loss. Many windows have both problems and need both fixes, but identifying which is dominant determines where to start and what materials to buy."
+```
+
 ## Explainer
 
 You already know how to apply caulk and weatherstripping. Window weatherization puts those skills to work on the most energy-lossy part of a typical home's envelope. Understanding why windows lose so much energy helps you choose the right fix. There are two distinct problems: **air infiltration** (drafts — cold outside air physically entering through gaps) and **conductive heat loss** (heat radiating through the glass itself from the warm inside to the cold outside). Weatherstripping and caulk address air infiltration; window film and storm windows address conductive loss. Confusing these two mechanisms leads to money spent on the wrong solution.

@@ -32,6 +32,45 @@ Start by marking the conclusion of simple arguments with 'therefore' or 'so' as 
 ## Common Misconceptions
 The first sentence is always the premise (some arguments place the conclusion first). Not all reasons stated are premises of a single argument; some may introduce background or side points. A premise is not just any true statement, but one that a speaker is actually using to support the conclusion.
 
+## Questions
+
+```yaml
+- question: "A student reads: 'You should invest in index funds. Research shows they consistently outperform actively managed funds over the long term, and their fees are significantly lower.' What is the conclusion of this argument?"
+  type: multiple-choice
+  options:
+    - "Research shows index funds outperform actively managed funds"
+    - "Index fund fees are significantly lower"
+    - "You should invest in index funds"
+    - "There is no conclusion — this is just a set of facts"
+  answer: 2
+  explanation: "The conclusion is the claim the speaker is trying to get you to believe — 'you should invest in index funds.' The other two statements are premises: reasons offered in support of this recommendation. Note that the conclusion appears first in this argument, not last. A common mistake is assuming the first sentence is always a premise and the conclusion comes at the end. The position of the conclusion is irrelevant; what matters is what the speaker is ultimately trying to establish."
+
+- question: "A speaker says: 'Driving is dangerous in winter. Statistics show accidents spike during ice storms. Furthermore, reaction time is reduced in cold temperatures, so you should always reduce your speed on winter roads.' Which element is best characterized as background context rather than a direct premise?"
+  type: multiple-choice
+  options:
+    - "'You should always reduce your speed on winter roads'"
+    - "'Statistics show accidents spike during ice storms'"
+    - "'Reaction time is reduced in cold temperatures'"
+    - "'Driving is dangerous in winter'"
+  answer: 3
+  explanation: "'Driving is dangerous in winter' is a general background claim that motivates the argument but is not itself offered as a reason for the conclusion. The conclusion is 'you should reduce your speed on winter roads.' The direct premises are the statistics about accidents and the claim about reduced reaction time — these are the specific reasons cited to support that recommendation. Background claims provide context, but a premise must be doing argumentative work: it must be offered as a specific reason for the conclusion."
+
+- question: "In an argument, the same sentence can function as a premise in one argument and a conclusion in a different argument."
+  type: true-false
+  answer: true
+  explanation: "A sentence's role as premise or conclusion is not intrinsic to the sentence itself — it depends on its function in a particular argument. 'Index funds outperform managed funds' could be the conclusion of an argument presenting research evidence, and simultaneously a premise in a separate argument for an investment recommendation. Understanding premise and conclusion is about recognizing argumentative roles, not labeling sentences as inherently one or the other."
+
+- question: "The conclusion of an argument is always the last sentence stated."
+  type: true-false
+  answer: false
+  explanation: "This is one of the most common misconceptions in argument analysis. Conclusions frequently appear first (thesis statements, editorial headlines, advice columns), in the middle, or last. Position is a stylistic choice, not a logical one. Indicator words — 'therefore,' 'thus,' 'because,' 'since' — are more reliable guides than position. The defining question is always: what is this person ultimately trying to convince me of? That claim is the conclusion, regardless of where it appears."
+
+- question: "Why can't every statement in an argumentative passage automatically count as a premise?"
+  type: short-answer
+  answer: "A premise must specifically be a claim offered as a reason to support the conclusion. Argumentative passages also contain background context, examples, elaborations, and restatements that are relevant to the topic but are not doing the work of supporting the conclusion. Only statements the speaker intends as reasons for the conclusion qualify as premises."
+  explanation: "This distinction matters for argument analysis because counting every statement as a premise inflates the argument and obscures its actual logical structure. A background claim like 'driving is dangerous in winter' is related to an argument about winter driving speed, but if the speaker doesn't use it as a reason for the conclusion, it isn't a premise. Identifying what is actually doing argumentative work — what the speaker is offering as evidence or justification — is the core skill of premise identification."
+```
+
 ## Explainer
 
 Every argument, no matter how simple or complex, has the same skeleton: one or more **premises** — claims offered as reasons — and a **conclusion** — the claim those reasons are meant to support. This structure is not just a convention of logic textbooks; it reflects something deep about how rational persuasion works. When someone tries to convince you of something, they are, implicitly or explicitly, offering reasons for a target belief. Identifying the premises and conclusion is how you expose that structure for examination.

@@ -30,6 +30,45 @@ Implement loop detection using DFS and build a loop nest tree. Identify irreduci
 ## Common Misconceptions
 All loops have a single entry point (irreducible loops have multiple entries). Loop nesting depth determines optimization opportunity (depth is one factor; size and iteration count matter too).
 
+## Questions
+
+```yaml
+- question: "In a control-flow graph, a back edge runs from node L to node H. What structural condition on H and L makes this a natural loop back edge?"
+  type: multiple-choice
+  options:
+    - "L must dominate H — control must always flow through L before H"
+    - "H must dominate L — control must always flow through H before L"
+    - "H and L must be in the same strongly connected component with no other entries"
+    - "L must be the only predecessor of H in the CFG"
+  answer: 1
+  explanation: "A back edge is defined as an edge from L to H where H dominates L — meaning every path from the CFG entry to L passes through H. H is the loop header: it is the single required entry point. The dominance requirement is what makes it a 'natural' loop; without it, the loop would be irreducible (multiple entries). Option A has the relationship reversed: it is H that dominates L, not the other way around."
+
+- question: "A nested loop has an outer loop running 100 iterations and an inner loop running 10 iterations per outer iteration. Which loop should be the primary target for optimization, and why?"
+  type: multiple-choice
+  options:
+    - "The outer loop, because it controls when the inner loop executes"
+    - "The inner loop, because a single operation moved out of it saves 1,000 executions, not just 100"
+    - "Both equally — nesting depth alone determines optimization priority"
+    - "Neither — compilers optimize loops based only on instruction count, not iteration count"
+  answer: 1
+  explanation: "The inner loop executes 100 × 10 = 1,000 times total, while the outer loop header executes only 100 times. Moving a loop-invariant computation out of the inner loop saves 999 redundant executions; moving it out of only the outer loop saves 99. This is why compilers prioritize innermost loops: they represent the highest iteration density, and any savings there multiplies across all outer iterations. Nesting depth is a proxy, but iteration count and operation cost are the real drivers."
+
+- question: "Every loop in a well-formed program has exactly one entry point (header), making all loops natural loops."
+  type: true-false
+  answer: false
+  explanation: "Irreducible loops, which arise from unstructured control flow such as 'goto' statements or certain hand-written assembly patterns, have multiple entry points. Control can reach the loop body through more than one block, so no single header dominates all loop nodes. These are not natural loops. Compilers handle irreducible loops by either transforming them via node splitting or conservatively skipping optimizations on them."
+
+- question: "Loop-invariant code motion — moving computations whose operands don't change within a loop to just before the loop — can only be safely applied after loop detection has identified the loop's header and body."
+  type: true-false
+  answer: true
+  explanation: "To hoist an expression out of a loop, the compiler must know (1) what constitutes the loop body, (2) that the expression is computed on every execution path through the body, and (3) that it is safe to execute it earlier. All three require knowing the loop structure: its header, back edges, and body nodes. Without loop detection, the compiler cannot identify which code is 'inside' the loop or where to place the hoisted computation."
+
+- question: "What makes an irreducible loop challenging for compiler optimization, and how do compilers typically handle it?"
+  type: short-answer
+  answer: "An irreducible loop has multiple entry points — no single header dominates all nodes in the loop. This breaks the assumption underlying most loop analyses: that there is one place to check loop-invariant properties and one 'pre-header' where hoisted code can be placed. Without a unique entry, induction variable detection, invariant code motion, and vectorization all become unsafe or ambiguous. Compilers typically respond either by converting the irreducible loop into a reducible one via node splitting (duplicating a shared node to give each entry path its own copy) or by skipping loop-specific optimizations on those regions entirely."
+  explanation: "Irreducibility is rare in code generated from structured high-level languages, which is why most programmers never encounter it directly. But it matters at the compiler level because even a single irreducible region can block optimization of surrounding code."
+```
+
 ## Explainer
 
 You already know how to build a **control-flow graph** (CFG) where each node is a basic block and edges represent branches. You also understand data dependence — which statements read values produced by others. Loop detection takes these foundations and asks a structural question: which regions of the CFG execute repeatedly, and what are their properties?

@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Traditional history focused on elites, statesmen, and military leaders. History from below reverses perspective, recovering the experiences, agency, and voices of workers, peasants, enslaved people, and subordinated groups. Developed by British social historians like E.P. Thompson, this approach asks: How did ordinary people shape history? What can archives tell us about those usually silent?
 
+## Questions
+
+```yaml
+- question: "A historian studying 18th-century grain riots finds that the only surviving sources are court records and merchant complaints — both produced by institutions hostile to the rioters. A student argues this means the rioters' perspectives are simply unrecoverable. How would a practitioner of history from below respond?"
+  type: multiple-choice
+  options:
+    - "The student is right; history from below requires sources produced directly by ordinary people"
+    - "Court and merchant records can be read against the grain to reveal rioters' values, grievances, and agency despite being hostile sources"
+    - "Quantitative data like price records are preferable to qualitative court records for recovering popular experience"
+    - "The 18th century predates the emergence of history from below as a methodology, so different standards apply"
+  answer: 1
+  explanation: "Reading 'against the grain' is the core methodological move of history from below. Archives made by institutions to control, punish, or tax ordinary people still encode information about those people's actions and values — if read critically. Court records reveal what rioters said in their defense; merchant complaints reveal what norms crowds invoked. E.P. Thompson's concept of the moral economy came precisely from this kind of institutional record. Option A misunderstands the approach: direct sources would be ideal but their absence is the methodological challenge, not a dead end."
+
+- question: "E.P. Thompson's concept of the 'moral economy' was significant because it demonstrated that 18th-century grain riots were:"
+  type: multiple-choice
+  options:
+    - "Primarily driven by individual economic desperation and the immediate threat of starvation"
+    - "Principled acts grounded in a coherent normative framework about fair exchange and communal obligation"
+    - "Inevitable products of class structure, explained entirely by workers' objective economic position"
+    - "Unrelated to the specific conditions of industrial capitalism"
+  answer: 1
+  explanation: "Thompson showed rioters were not irrational mobs acting on hunger alone — they were appealing to shared norms about fair prices, just wages, and what landlords and merchants owed the community. This 'moral economy' was a coherent normative framework that had to be understood on its own terms. Option C is what Thompson was arguing *against*: structural Marxism reduced class action to objective economic position, while Thompson insisted on the role of consciousness, experience, and agency. Option A reduces the complexity to desperation; Thompson's point was that even desperate action followed principled normative logic."
+
+- question: "Early practitioners of history from below sometimes replicated blind spots in their own work — for instance, centering the male industrial working class while leaving women and colonized subjects marginalized within the subordinated."
+  type: true-false
+  answer: true
+  explanation: "This self-critique is now a recognized strength of the approach. Feminist historians pointed out that 'below' is not a single position but a layered hierarchy, and that the founding texts of history from below (mostly written by white British men in the 1960s) focused on male industrial workers while neglecting women's experiences within those same communities. Contemporary history from below is attentive to intersections of class, gender, race, and colonialism in ways the original texts were not."
+
+- question: "History from below holds that ordinary people's perspectives can only be recovered when they left direct testimony in their own words, such as diaries, letters, or oral histories."
+  type: true-false
+  answer: false
+  explanation: "If direct testimony were required, history from below would be nearly impossible for most subordinated groups throughout history — enslaved people, medieval peasants, and others left almost no direct records. The methodology was developed precisely to work around this absence. Historians read hostile archives against the grain, analyze spatial practices and material culture, interpret legal records of resistance, and attend to what actions reveal about inner lives. The absence of direct testimony is the problem the methodology addresses, not a reason to abandon inquiry."
+
+- question: "What does it mean to read an archive 'against the grain,' and why is this approach necessary for history from below?"
+  type: short-answer
+  answer: "Reading against the grain means using records produced by institutions for their own purposes (taxation, prosecution, control) as evidence for the lives and perspectives of the people those institutions were targeting. Traditional archives were made by elites and record ordinary people only at moments of conflict with institutional power. To read against the grain is to ask: what do these hostile or indifferent records reveal about the values, experiences, and agency of the people being documented — not what the institution wanted to show, but what leaked through despite its purposes?"
+  explanation: "This is methodologically necessary because most subordinated groups left no direct documentary record. A court prosecution aimed at punishing a poacher reveals something about customary rights the poacher believed in; a vagrancy record reveals patterns of mobility that can speak to economic conditions and survival strategies. The skill of history from below is extracting this embedded evidence without taking the institutional framing at face value."
+```
+
 ## Explainer
 
 Your work in historiography philosophy and social history gives you two essential contexts for understanding history from below: a sense of how different interpretive frameworks shape what counts as historical evidence, and familiarity with the structural forces — class, economy, demography — that social historians brought to the foreground. History from below combines these strands with a political commitment: the insistence that ordinary people are not merely passive objects of historical forces, but active agents whose experiences, choices, and resistance shaped outcomes.

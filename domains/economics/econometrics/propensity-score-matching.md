@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Propensity score matching (PSM) estimates the probability of treatment given covariates, then matches treated and untreated units with similar propensity scores. This balances pre-treatment characteristics, reducing selection bias when unconfoundedness (no unmeasured confounders) holds.
 
+## Questions
+
+```yaml
+- question: "A researcher uses propensity score matching to study a job training program's effect on earnings. After matching, treated and untreated units have very similar observed characteristics (age, education, prior earnings). Can she now conclude her treatment effect estimate is unbiased?"
+  type: multiple-choice
+  options:
+    - "Yes — matching on the propensity score controls for all sources of selection bias in observational data"
+    - "Not necessarily — PSM removes bias from observed covariates, but unobserved confounders such as motivation or ability can still bias the estimate"
+    - "Yes, but only if she used caliper matching rather than nearest-neighbor matching to avoid bad matches"
+    - "Not yet — she also needs to verify that the propensity model has a high pseudo-R² to confirm the model captures selection correctly"
+  answer: 1
+  explanation: "PSM's validity rests on the unconfoundedness assumption: treatment assignment is independent of potential outcomes conditional on observed covariates X. If there is any unmeasured variable that affects both who gets treated and what their outcome would be — like motivation in a job training study — PSM does not remove that source of bias. Covariate balance in the matched sample confirms that observed variables are balanced; it says nothing about unobserved ones. This is PSM's fundamental limitation."
+
+- question: "The Rosenbaum-Rubin theorem justifies using a single propensity score e(X) rather than matching on all covariates simultaneously. What does this theorem actually say?"
+  type: multiple-choice
+  options:
+    - "Logistic regression always provides a more accurate propensity estimate than matching on individual covariates"
+    - "If unconfoundedness holds conditional on covariates X, it also holds conditional on just the scalar propensity score P(D=1|X), so matching on one number is sufficient"
+    - "The propensity score is a sufficient statistic for estimating the treatment effect itself, not just for balancing covariates"
+    - "Matching on more covariates always improves balance, so the propensity score is only a computational convenience"
+  answer: 1
+  explanation: "Rosenbaum and Rubin (1983) proved a dimensionality reduction result: if (Y(0), Y(1)) ⊥ D | X (unconfoundedness), then (Y(0), Y(1)) ⊥ D | e(X). The propensity score inherits the balancing property of the full covariate vector. This is why you can collapse 20 covariates into one number without losing the theoretical guarantee — provided unconfoundedness holds. The propensity score is not a sufficient statistic for the treatment effect itself."
+
+- question: "Propensity score matching can eliminate all sources of selection bias — including bias from unmeasured confounders — as long as the propensity model includes many observed covariates."
+  type: true-false
+  answer: false
+  explanation: "PSM only addresses selection bias from observed covariates. If an unobserved variable (e.g., innate ability, social connections, health status) affects both who gets treated and what the outcome would be, PSM cannot remove that bias regardless of how rich the observed covariate set is. This is not a limitation of any specific implementation — it is a fundamental constraint of all matching methods on observational data."
+
+- question: "After propensity score matching, checking covariate balance in the matched sample is more informative than evaluating the propensity model's statistical fit (e.g., pseudo-R² or AUC)."
+  type: true-false
+  answer: true
+  explanation: "The goal of PSM is covariate balance in the matched sample, not a well-fitting model. A propensity model can have good predictive performance yet leave substantial imbalance after matching (e.g., if it mispredicts for certain subgroups). Conversely, even a misspecified model might achieve good balance by chance. Balance must be directly checked using standardized mean differences or distributional comparisons before and after matching."
+
+- question: "What does the 'common support' assumption require in propensity score matching, and what goes wrong when it is violated?"
+  type: short-answer
+  answer: "Common support requires that for every value of the propensity score observed among treated units, there are also untreated units with the same (or similar) score. When violated — when treated units have propensity scores in a range with no control units — matching either extrapolates (finds the 'closest' but still very different control) or forces researchers to discard treated units with no valid match, changing the estimand."
+  explanation: "Without common support, matching is making comparisons that are not empirically grounded — you are asking 'what would this high-probability-of-treatment unit have looked like as a control?' when there are no comparable controls in the data. This produces estimates that depend heavily on the functional form of the propensity model rather than actual observed comparisons. Visualizing the distribution of propensity scores for treated and control groups reveals overlap; trimming or restricting to the region of common support limits the analysis to defensible comparisons."
+```
+
 ## Explainer
 
 The core problem of causal inference — which you've studied — is that the units who receive a treatment and those who don't are often systematically different in ways that also affect the outcome. This is **selection bias**: people who take a job training program may be more motivated; firms that adopt a new technology may already be more productive. A naive comparison of treated and untreated outcomes conflates the treatment effect with these pre-existing differences. Randomized experiments solve this by construction, but observational data requires a different approach. Propensity score matching is one of the most widely used tools for doing so.

@@ -37,6 +37,45 @@ Read a short story twice: first for experience, then analytically to identify wh
 - 'Short' refers to scope and compression, not necessarily word count; some short stories are 15,000 words.
 - Not every short story needs a twist or surprise ending; many end on implication or ambiguity.
 
+## Questions
+
+```yaml
+- question: "What most fundamentally distinguishes a short story from a short novel, architecturally?"
+  type: multiple-choice
+  options:
+    - "Word count — a short story is under 7,500 words by industry convention"
+    - "Character count — a short story focuses on one protagonist while a novel can have many"
+    - "Structure — a short story requires all narrative elements (character, setting, theme, conflict) to operate simultaneously rather than sequentially"
+    - "Perspective — a short story must use first-person narration to achieve compression"
+  answer: 2
+  explanation: "The defining architectural difference is simultaneity vs. sequence. A novel can develop character in dedicated chapters, then introduce setting, then build to theme — these can be layered over hundreds of pages. A short story has no such luxury: character must be revealed through the same sentence that establishes setting, which must also advance conflict, which must also register theme. Every element must carry multiple loads at once. This is why a short story is not simply a smaller novel — it is a different structure, not just smaller scale."
+
+- question: "A reader finishes a Raymond Carver story and says: 'The ending feels incomplete — it doesn't explain what the confrontation meant or how the characters felt about each other afterward.' What does this reaction most likely reflect?"
+  type: multiple-choice
+  options:
+    - "A weak ending that fails to resolve the story's central conflict"
+    - "A misunderstanding of how short story endings work — the ambiguity and implication are the ending, and interpretation is the reader's task"
+    - "A difference in genre preference — Carver's minimalism suits literary readers but not general audiences"
+    - "An incomplete draft that was published prematurely"
+  answer: 1
+  explanation: "Carver's endings are deliberately non-interpretive: the story presents the incident and stops, trusting the reader to complete the meaning. This is not incompleteness — it is a formal choice that treats readers as active meaning-makers rather than passive recipients. The reader's sense of 'what happened' and 'what it meant' IS the story's payoff. The misconception is expecting a short story to resolve its tensions explicitly, the way a scene in a TV drama might close. In the short story tradition, implication and restraint are tools of precision, not avoidance."
+
+- question: "In a short story, the opening sentence typically carries more structural weight than the opening sentence of a novel."
+  type: true-false
+  answer: true
+  explanation: "Because the short story has no room for gradual setup, the opening sentence must do an unusual amount of work immediately: establish tone, signal the kind of world we're entering, introduce conflict at a micro level, and engage the reader's attention — all at once. A novel can warm up over several paragraphs or pages before the essential conflict is introduced. The short story's economy of means applies especially to the opening, which is why the first sentences of canonical short stories (Kafka, Chekhov, O'Connor, Carver) are so often studied in isolation."
+
+- question: "A short story is essentially a condensed novel — the same narrative architecture scaled down to fit a shorter form."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception the topic addresses. A short story has a fundamentally different architecture — not smaller, but different in kind. A novel can have multiple rising actions, subplots, extended falling action, and dedicated passages for exposition, description, or transition. A short story typically has one arc, no digression, and elements that must operate simultaneously rather than sequentially. Trying to write a short story as a miniature novel produces a piece that feels rushed and underdeveloped, because the scaffolding is wrong for the structure."
+
+- question: "What does 'economy of means' mean in the context of the short story, and how does it change the function of individual sentences?"
+  type: short-answer
+  answer: "Economy of means means that every narrative element — character, setting, conflict, theme — must do multiple jobs simultaneously rather than having dedicated space. In a short story, a sentence describing a character's kitchen is not just background: it must also reveal character, establish tone, and advance conflict. There is no room for passages that serve only one purpose. This makes every sentence more load-bearing than in a novel, and it changes how readers must engage: nothing is decorative, so everything must be read as potentially significant."
+  explanation: "The practical consequence of economy of means is that short story craft focuses on selection more than invention. The writer's most important skill is choosing which details to include and which to leave out — the omitted material creates the implication and resonance that gives the story depth beyond its surface incident. Hemingway's 'iceberg theory' names this explicitly: the reader feels the weight of what's beneath the surface, even if they only see the tip. This is why rereading a short story analytically, asking 'what did the author NOT include?' is one of the most productive reading practices."
+```
+
 ## Explainer
 
 The short story's defining constraint is not length — it is **economy of means**. You've already studied plot structure, which in a novel can unfold through multiple rising actions, subplots, and extended falling action. In a short story, there is usually only one arc, and it must do everything at once. Character, setting, conflict, and theme cannot be developed sequentially; they must be embedded in the same sentences simultaneously. When Chekhov opens a story with a man walking through a field, the field is not background — it is character, atmosphere, and theme all at once.

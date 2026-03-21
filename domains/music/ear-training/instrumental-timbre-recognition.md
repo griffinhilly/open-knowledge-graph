@@ -30,6 +30,45 @@ Listen to isolated single instruments playing the same melodic passage in differ
 - Thinking timbre is static for each instrument; it varies significantly with register, dynamic, and articulation.
 - Confusing similar instruments (e.g., oboe and English horn, trumpet and French horn) without paying attention to registration context.
 
+## Questions
+
+```yaml
+- question: "You hear a solo woodwind passage in a middle register with a dark, slightly melancholy tone — reedy like an oboe, but lower-pitched and rounder. Which instrument is most likely playing?"
+  type: multiple-choice
+  options:
+    - "Oboe, in its lower register where it naturally sounds darker"
+    - "English horn, a lower-pitched relative of the oboe with a characteristically darker timbre"
+    - "Bassoon, playing in its upper register"
+    - "Clarinet in its chalumeau register, which mimics reed instruments"
+  answer: 1
+  explanation: "The English horn is a lower-pitched oboe pitched a fifth below the standard oboe, with a distinctively darker, more melancholy timbre in its middle range. The oboe is brighter and more penetrating. This comparison illustrates the core challenge of timbre recognition: closely related instruments (same family, similar mechanism) can sound similar in some registers. Identifying by register and tonal color together — not just family membership — is what produces reliable recognition."
+
+- question: "What is the primary physical source of the timbral difference between a violin and a clarinet playing the same pitch at the same loudness?"
+  type: multiple-choice
+  options:
+    - "The violin is louder in its upper partials because it is a larger instrument"
+    - "The clarinet's cylindrical bore suppresses even-numbered harmonics, producing a different overtone mixture than the violin's rich harmonic blend"
+    - "The difference is mainly psychological — listeners associate visual images of the instruments with different sounds"
+    - "The difference arises from the different physical size of the instruments, not their acoustic structure"
+  answer: 1
+  explanation: "Timbre is determined by the specific mixture of overtones (harmonics) above the fundamental pitch, plus attack and decay characteristics. The clarinet's cylindrical bore produces a standing wave that suppresses even-numbered harmonics, giving its low register (chalumeau) a hollow, cool quality. The violin's bowed string creates a continuous excitation with a rich, full harmonic spectrum. Size alone doesn't explain timbre — a piccolo and a flute differ in size but share the same overtone structure."
+
+- question: "A French horn playing at full volume sounds nearly identical to a trumpet playing at full volume, since both are brass instruments with similar ranges."
+  type: true-false
+  answer: false
+  explanation: "Although both are brass instruments, the horn and trumpet have distinctly different timbres even at the same dynamic level. The horn has a rounder, warmer, and less brilliant sound, while the trumpet cuts through with more edge and projection. These differences arise from different bore geometries (horn has a wider, more conical bore; trumpet is more cylindrical), mouthpiece shape, and the instrument's acoustic resonance characteristics. At loud volumes the contrast actually becomes more audible, not less."
+
+- question: "To reliably identify an instrument by ear, you need to learn how its timbre changes across different registers, not just its characteristic sound in the middle range."
+  type: true-false
+  answer: true
+  explanation: "This is the core practical lesson of timbre recognition training. Many instruments sound quite different across registers — the flute is airy and breathy in its lowest octave but clear and pure at the top; a horn played softly in its low register sounds quite different from a horn at forte in its middle range. Many identification errors arise from matching only the middle-register 'textbook' sound. Learning instruments register by register, and at different dynamics, produces reliable recognition in real orchestral textures."
+
+- question: "Why might a listener initially confuse a French horn with a trumpet, and what should they listen for to distinguish the two?"
+  type: short-answer
+  answer: "Both are brass instruments and can overlap in pitch range, so in a full orchestral texture they can blend. To distinguish them, listen for tonal quality: the horn is rounder, warmer, and less brilliant — it 'recedes' into the texture — while the trumpet has more edge, brightness, and projection. The horn also tends to have a more sustained, melding quality; the trumpet cuts through with greater definition. Listening at different dynamics helps: the contrast becomes sharper at loud passages where the trumpet's brilliance is most distinctive."
+  explanation: "Confusion between similar instruments is a diagnostic sign that the listener is identifying by family ('brass') rather than by specific timbre. The resolution requires more fine-grained perceptual categories: within the brass family, bore geometry and mouthpiece shape create meaningfully different overtone profiles. Training involves deliberately placing these instruments side-by-side and naming the specific quality difference — not just 'one is brighter' but characterizing the exact nature of the brightness difference."
+```
+
 ## Explainer
 
 From your study of orchestration ranges and timbres, you know that each instrument family occupies a characteristic pitch range and has a describable sound quality. Timbre recognition by ear converts that intellectual knowledge into perceptual fluency: rather than recalling that the oboe has a reedy, penetrating quality, you hear it instantly the moment it enters an orchestral texture. This is a skill that develops through focused, active listening — not through reading descriptions, but through repeatedly hearing, predicting, and verifying.

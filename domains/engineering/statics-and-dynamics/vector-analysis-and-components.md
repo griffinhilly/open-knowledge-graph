@@ -34,6 +34,45 @@ Practice decomposing forces in both 2D and 3D coordinate systems, using angles o
 - Assuming 2D methods apply directly to 3D without accounting for all coordinate directions.
 - Misinterpreting the angle between a force and a reference axis.
 
+## Questions
+
+```yaml
+- question: "A 100 N force acts at 30° above the positive x-axis. What are its x and y components?"
+  type: multiple-choice
+  options:
+    - "Fₓ = 100 sin 30° = 50 N, Fᵧ = 100 cos 30° ≈ 86.6 N"
+    - "Fₓ = 100 cos 30° ≈ 86.6 N, Fᵧ = 100 sin 30° = 50 N"
+    - "Fₓ = 100 N, Fᵧ = 100 N — the force acts equally in both directions"
+    - "Fₓ = 50 N, Fᵧ = 50 N — the 30° angle splits the force evenly"
+  answer: 1
+  explanation: "The component along the reference axis uses cosine; the component perpendicular to it uses sine. For a force at angle θ from the x-axis: Fₓ = F cos θ and Fᵧ = F sin θ. Here, cos 30° ≈ 0.866 and sin 30° = 0.5. The most common error is swapping sine and cosine — remember that cosine gives the 'adjacent' component (along the reference direction) and sine gives the 'opposite' component."
+
+- question: "Two forces act on a particle: F₁ = 60 N in the positive x-direction and F₂ = 80 N in the positive y-direction. What is the magnitude of the resultant force?"
+  type: multiple-choice
+  options:
+    - "140 N — add the two forces directly"
+    - "20 N — the y-force partially cancels the x-force"
+    - "100 N — calculated as √(60² + 80²)"
+    - "70 N — the average magnitude of the two forces"
+  answer: 2
+  explanation: "Forces cannot be added as scalars unless they act along the same line. The resultant magnitude is found using the Pythagorean theorem on the components: R = √(Rₓ² + Rᵧ²) = √(60² + 80²) = √(3600 + 6400) = √10000 = 100 N. Option A (140 N) is the scalar sum — correct only if both forces pointed the same direction. The 60-80-100 values form a classic 3-4-5 right triangle scaled by 20."
+
+- question: "When finding the resultant of multiple forces in the same plane, you can add all x-components and all y-components independently, then combine them to find the resultant's magnitude and direction."
+  type: true-false
+  answer: true
+  explanation: "This is the core principle of component analysis. Because x and y are orthogonal (perpendicular) axes, components along one axis do not affect the other. Any number of force vectors can be resolved into their x and y components, the components summed algebraically within each axis, and the resultant found from those sums. This converts a geometric vector-addition problem into straightforward scalar arithmetic."
+
+- question: "A scalar component of a vector along an axis is itself a vector quantity, possessing both magnitude and the direction of the original vector's projection."
+  type: true-false
+  answer: false
+  explanation: "Components are signed scalars — numbers with a positive or negative sign indicating direction along the axis — not vectors. Fₓ = +86.6 N means the component points in the positive x-direction; Fₓ = −86.6 N means it points in the negative x-direction. The confusion arises because we sometimes write 'the x-component vector' Fₓ î, which IS a vector, but Fₓ alone (the scalar coefficient) is just a signed number."
+
+- question: "Why is component decomposition the standard method for force analysis in statics rather than graphical tip-to-tail vector addition?"
+  type: short-answer
+  answer: "Graphical addition requires geometric construction and becomes impractical with many forces or in 3D. Component decomposition converts vector arithmetic into independent scalar arithmetic along each axis: add all x-components, add all y-components (and z-components in 3D), then combine the sums. This method scales cleanly to any number of forces in any number of dimensions and connects directly to the algebraic operations used in equilibrium equations, dot products, and cross products — which are the workhorses of statics and dynamics."
+  explanation: "The practical value is that orthogonality makes axes independent. Once forces are decomposed, there is no geometric construction to draw — just organized addition of signed numbers. The resultant emerges from algebra rather than from accurate drafting, which is both faster and exact."
+```
+
 ## Explainer
 
 You already know from your prerequisite that a vector in ℝⁿ has both magnitude and direction, and that vectors can be added geometrically by placing them tip-to-tail. In engineering statics and dynamics, almost every quantity of interest — force, velocity, acceleration, displacement — is a vector, and the central challenge is performing arithmetic on vectors that point in different directions. **Component analysis** is the systematic method that converts vector arithmetic into ordinary scalar arithmetic.

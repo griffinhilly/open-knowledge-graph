@@ -31,6 +31,45 @@ Translate between verbal and symbolic forms. Practice with concrete examples sho
 - Confusing the order of quantifiers (∀∃ vs. ∃∀ have different meanings).
 - Thinking quantifiers distribute over all logical connectives (they don't always).
 
+## Questions
+
+```yaml
+- question: "Which of the following has a definite truth value?"
+  type: multiple-choice
+  options:
+    - "The predicate P(x): x > 5, with x a free variable"
+    - "∀x, x > 5, quantifying over all integers"
+    - "∃x, x² > 0, quantifying over all integers"
+    - "Both B and C"
+  answer: 3
+  explanation: "A predicate with a free variable like 'x > 5' is neither true nor false — it's waiting for a specific value of x. Once a quantifier binds the variable, it becomes a statement with a definite truth value. ∀x, x > 5 over the integers is false (x = 3 is a counterexample). ∃x, x² > 0 is true (x = 1 works). Both B and C have definite truth values; the unquantified predicate in A does not."
+
+- question: "Consider both statements over the integers: (A) ∀x ∃y, y > x and (B) ∃y ∀x, y > x. Which are true?"
+  type: multiple-choice
+  options:
+    - "Both A and B are true"
+    - "Both A and B are false"
+    - "Only A is true — for any integer x there is always a larger y, but no single integer exceeds all integers"
+    - "Only B is true — the largest integer exceeds all others"
+  answer: 2
+  explanation: "∀x ∃y, y > x says: for every x I give you, you can find some y larger than it — just take y = x + 1. This is true. ∃y ∀x, y > x says: there is one fixed y that is simultaneously larger than every integer. This is false — no integer is larger than all integers. The crucial difference is that in A, y can depend on x; in B, one y must work for all x at once. Swapping the quantifiers changes the meaning entirely."
+
+- question: "The expression 'x > 5' has no truth value until a specific value is substituted for x or a quantifier binds the variable."
+  type: true-false
+  answer: true
+  explanation: "This is the fundamental distinction between predicates and statements. 'x > 5' is a predicate — a sentence with a free variable. Without knowing what x is, the expression cannot be evaluated as true or false. It becomes a statement only through substitution (plug in x = 7 → true, x = 3 → false) or through quantification (∀x, x > 5 → false; ∃x, x > 5 → true). Treating a predicate as if it had a truth value is a common and consequential error in proof-writing."
+
+- question: "The negation of ∀x, P(x) is ∀x, ¬P(x) — to deny that all x have property P, we say all x lack property P."
+  type: true-false
+  answer: false
+  explanation: "The negation of ∀x, P(x) is ∃x, ¬P(x) — there exists at least one x that lacks property P. To disprove a universal claim, you only need one counterexample. Saying 'all x lack property P' (∀x, ¬P(x)) is a much stronger claim that asserts a universal negative rather than merely denying the universal positive. This negation rule is one of the most important in proof-writing."
+
+- question: "Explain why ∀x ∃y, y > x and ∃y ∀x, y > x make different claims, using the integers as your domain."
+  type: short-answer
+  answer: "The first says: for each x you choose, I can find some y larger than it — y is allowed to depend on x (e.g., y = x + 1 always works). The second says: there is one fixed y that is larger than every x simultaneously. No such integer exists — for any candidate y, the integer y itself is not less than y. So A is true and B is false."
+  explanation: "This captures the key insight about quantifier order: ∀∃ means 'for each input, a suitable witness exists' (the witness can be tailored to the input); ∃∀ means 'one universal witness exists for all inputs simultaneously.' These are profoundly different claims. The same swap appears in analysis: the definition of pointwise continuity (∀ε ∀x ∃δ) versus uniform continuity (∀ε ∃δ ∀x) — the order of ∃δ and ∀x changes the meaning entirely."
+```
+
 ## Explainer
 
 A **predicate** is a sentence with a variable hole in it. "x > 5" is a predicate: plug in x = 7 and you get a true statement; plug in x = 3 and you get a false one. With a free variable, the predicate itself is neither true nor false — it is a function waiting for input. This is the key distinction between a predicate and a statement. From your work with truth values and statements, you know that statements have definite truth values. Predicates only become statements when their variables are bound — either by substitution or by quantifiers.

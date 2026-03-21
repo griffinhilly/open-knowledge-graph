@@ -32,6 +32,45 @@ Compute f'', find where it is zero or undefined, and build a sign chart. Identif
 - Confusing concavity with increasing/decreasing.
 - Believing inflection points are always where f'' = 0 (they can occur where f'' is undefined).
 
+## Questions
+
+```yaml
+- question: "A student computes f''(0) = 0 for f(x) = x⁴ and concludes that x = 0 is an inflection point. What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "f''(0) is not actually zero for x⁴; the student computed the derivative incorrectly"
+    - "f''(c) = 0 is necessary but not sufficient — concavity must actually change sign at that point"
+    - "Inflection points can only occur where f is neither increasing nor decreasing"
+    - "x = 0 is a local minimum, and local minima cannot be inflection points"
+  answer: 1
+  explanation: "For f(x) = x⁴: f'(x) = 4x³, f''(x) = 12x². So f''(0) = 0, but f''(x) = 12x² ≥ 0 for all x — it never changes sign. The function is concave up on both sides of x = 0, so no concavity change occurs and x = 0 is not an inflection point. An inflection point requires that f'' changes sign (from positive to negative or vice versa), not merely that f'' = 0. This is the single most common error in concavity analysis."
+
+- question: "A function is decreasing and concave up on an interval. This means the function is:"
+  type: multiple-choice
+  options:
+    - "Decreasing at an accelerating rate — getting more negative faster"
+    - "Decreasing at a decelerating rate — the slope is negative but becoming less negative"
+    - "Impossible — a function cannot be both decreasing and concave up simultaneously"
+    - "Approaching a horizontal asymptote from above"
+  answer: 1
+  explanation: "Concave up means f'' > 0, so the slope f' is increasing. If the function is also decreasing, then f' is negative but increasing — becoming less negative over the interval. The function is falling, but slowing down as it falls. Think of a ball rolling into a valley: it's moving downward (decreasing) but the rate of decrease is diminishing (concave up) as it approaches the bottom. Concavity and increasing/decreasing are completely independent properties — all four combinations are possible."
+
+- question: "If f''(c) = 0, then the function f has an inflection point at x = c."
+  type: true-false
+  answer: false
+  explanation: "f''(c) = 0 is a necessary condition for an inflection point at a smooth function, but not sufficient. The function f(x) = x⁴ is the standard counterexample: f''(0) = 0, but f'' = 12x² is non-negative everywhere, so concavity never changes and x = 0 is not an inflection point. An inflection point requires that f'' changes sign at c — not merely that it equals zero there. Always build a sign chart for f'' around the candidate point before concluding an inflection point exists."
+
+- question: "A function can be simultaneously decreasing and concave up on an interval."
+  type: true-false
+  answer: true
+  explanation: "Yes — concavity and the direction of change are independent. Concave up means f'' > 0 (slope is increasing). Decreasing means f' < 0 (slope is negative). A function with f' < 0 and f'' > 0 has a negative slope that is becoming less negative — it's falling but decelerating. The bottom of a parabola like f(x) = x² − 4 near x = −2 illustrates this: the function is decreasing to the left of its vertex and concave up throughout. This independence is why you need both f' and f'' to fully characterize a curve's shape."
+
+- question: "What is the key requirement for an inflection point, and why is f''(c) = 0 alone not sufficient to guarantee one?"
+  type: short-answer
+  answer: "An inflection point requires that the concavity actually changes sign at c — f'' must go from positive to negative or negative to positive as x passes through c. f''(c) = 0 is necessary (for smooth functions) because a sign change requires the function to pass through zero, but it is not sufficient because f'' can equal zero without changing sign (as in x⁴ at x = 0). To confirm an inflection point, you must verify that f'' has opposite signs on either side of c."
+  explanation: "The distinction is between f'' touching zero and f'' crossing zero. A function like 12x² touches zero at x = 0 but remains non-negative on both sides — no sign change, no concavity change, no inflection point. A function like f(x) = x³ has f''(x) = 6x, which is negative for x < 0 and positive for x > 0: it crosses zero, producing a genuine inflection point at x = 0. The practical lesson is always to build a sign chart for f'' rather than relying solely on where f'' = 0."
+```
+
 ## Explainer
 
 You already know how to use the first derivative to find where a function increases or decreases and to locate local extrema via the first derivative test. The second derivative adds a new dimension: it tells you not just the direction the function is moving, but whether that motion is accelerating or decelerating. Imagine driving: f(x) is your position, f′(x) is your speed, and f″(x) is your acceleration. A positive acceleration means you're speeding up; a negative acceleration means you're slowing down. Concavity is the geometric version of this acceleration story.

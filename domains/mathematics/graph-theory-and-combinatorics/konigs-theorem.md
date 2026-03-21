@@ -25,6 +25,45 @@ Work through small bipartite graphs, computing maximum matchings and minimum cov
 ## Common Misconceptions
 This equality holds ONLY for bipartite graphs; in general graphs, matching size can be strictly less than vertex cover size.
 
+## Questions
+
+```yaml
+- question: "In the Petersen graph (a non-bipartite graph), the maximum matching has size 5 but the minimum vertex cover has size 6. What does this demonstrate?"
+  type: multiple-choice
+  options:
+    - "König's Theorem was applied incorrectly — the maximum matching must be recalculated"
+    - "The Petersen graph has a structural error in its construction"
+    - "König's Theorem applies only to bipartite graphs; the equality between maximum matching and minimum vertex cover fails in general graphs"
+    - "A larger matching could be found with a different augmenting-path algorithm"
+  answer: 2
+  explanation: "König's Theorem is a bipartite-only result. In any graph, the minimum vertex cover is at least as large as the maximum matching (each matched edge needs at least one cover vertex). In bipartite graphs, equality holds. In general graphs, odd cycles prevent this equality — the Petersen graph is the canonical counterexample with matching size 5 and cover size 6. This gap confirms the bipartite condition is essential, not incidental."
+
+- question: "In a bipartite graph where the maximum matching has size 7, what is the minimum number of vertices needed to cover every edge?"
+  type: multiple-choice
+  options:
+    - "It cannot be determined without knowing the total number of vertices"
+    - "14 vertices — one for each endpoint of each matched edge"
+    - "7 vertices, by König's Theorem"
+    - "At least 7, but possibly more depending on graph structure"
+  answer: 2
+  explanation: "König's Theorem states that in a bipartite graph, maximum matching size = minimum vertex cover size. If the maximum matching has size 7, then the minimum vertex cover also has size exactly 7. Option D would be correct for general graphs, where the minimum cover can exceed the maximum matching. The theorem provides the exact equality for bipartite graphs."
+
+- question: "In any graph (bipartite or not), the minimum vertex cover size is at least as large as the maximum matching size."
+  type: true-false
+  answer: true
+  explanation: "This lower bound holds universally. In any matching, the matched edges share no endpoints, so each matched edge requires at least one distinct vertex in any cover. Therefore the cover must contain at least as many vertices as there are matched edges. König's Theorem says this lower bound is achieved exactly in bipartite graphs — the maximum matching and minimum vertex cover have the same size — but the inequality holds for all graphs."
+
+- question: "König's Theorem states that maximum matching equals minimum vertex cover in all graphs."
+  type: true-false
+  answer: false
+  explanation: "This equality holds only for bipartite graphs. In general (non-bipartite) graphs, odd cycles cause the matching size to be strictly less than the minimum vertex cover. The Petersen graph provides a concrete counterexample: maximum matching size 5, minimum vertex cover size 6. The bipartite condition is necessary for the min-max equality to hold."
+
+- question: "Why is König's Theorem described as a 'min-max duality,' and what makes this surprising?"
+  type: short-answer
+  answer: "A min-max duality means the maximum value of one optimization objective equals the minimum value of a different, apparently opposite objective. Maximum matching aims to select as many non-overlapping edges as possible; minimum vertex cover aims to select as few vertices as possible while touching every edge. These seem like unrelated problems pulling in opposite directions — one maximizing, one minimizing, one operating on edges, one on vertices. What is surprising is that in bipartite graphs, these two problems yield exactly the same optimal value. This reflects a deep combinatorial structure analogous to LP duality: the primal and dual problems are equivalent, with no gap between them."
+  explanation: "This duality is not obvious from the problem definitions. The fact that 'how many independent edges can you pack?' and 'how few vertices can you use to touch everything?' give the same answer in bipartite graphs is the content of the theorem. It enables efficient algorithms: solving one problem automatically solves the other. The failure in general graphs (due to odd cycles) further demonstrates that the equality is a structural property of bipartiteness, not a universal combinatorial coincidence."
+```
+
 ## Explainer
 
 You've studied Hall's Marriage Theorem, which tells you when a perfect matching exists in a bipartite graph: every subset S on one side must have at least |S| neighbors. König's Theorem deepens this insight into a duality: in a bipartite graph, the size of the **maximum matching** always equals the size of the **minimum vertex cover**. These are two different optimization problems that turn out to have the same answer — a surprising and powerful equivalence.

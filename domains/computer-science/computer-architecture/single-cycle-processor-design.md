@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 A single-cycle processor completes one instruction per clock cycle: fetch, decode, execute, memory access, and writeback all happen in a single clock period. The clock period must accommodate the longest critical path through all stages. This design is simple and has no pipeline hazards, but the slow clock limits performance.
 
+## Questions
+
+```yaml
+- question: "A single-cycle processor supports three instruction types with these critical path delays: R-type = 600ps, branch = 500ps, load word = 800ps. What must the clock period be, and what is the CPI?"
+  type: multiple-choice
+  options:
+    - "633ps clock period, CPI = 1 (weighted average of the three)"
+    - "800ps clock period, CPI = 1"
+    - "600ps clock period, CPI varies by instruction type"
+    - "800ps clock period, CPI = 1.3 (averaged over instruction types)"
+  answer: 1
+  explanation: "In a single-cycle design, the clock period must accommodate the longest critical path so that every instruction can complete in one cycle. That means 800ps — set by the load word instruction. Every instruction, including the 500ps branch, must wait this full period. CPI is always exactly 1 for single-cycle: by definition, each instruction completes in one clock cycle. Option A is wrong because clock period cannot be averaged — the slowest instruction dictates the period. Option D is wrong because CPI is not averaged; it is structurally 1."
+
+- question: "Why is the single-cycle processor rarely used in real systems despite its simplicity?"
+  type: multiple-choice
+  options:
+    - "Its CPI is too high — many instructions require 3–5 cycles"
+    - "It requires complex pipeline hazard detection logic that adds overhead"
+    - "The clock must run at the speed of the slowest instruction, so faster instructions waste most of their clock period"
+    - "It cannot support load and store instructions because they require two memory accesses"
+  answer: 2
+  explanation: "The fundamental problem is that the clock period is forced to match the critical path of the slowest instruction (typically load word, traversing 5 datapath stages). An ADD instruction that could finish in 600ps must wait the full 800ps clock period. This wasted time multiplies across every simple instruction. Multi-cycle designs and pipelining both exist specifically to reclaim this wasted time. Options A and B describe problems with *other* designs (pipelined processors have CPI > 1 due to hazards; single-cycle has no pipeline). Option D is false — single-cycle processors handle load/store in one clock cycle."
+
+- question: "In a single-cycle processor, an ADD instruction and a LOAD instruction both take exactly one clock cycle to complete, even though ADD uses fewer datapath stages."
+  type: true-false
+  answer: true
+  explanation: "This is the defining characteristic of a single-cycle processor — CPI = 1 for every instruction, regardless of complexity. ADD may use fewer stages (no data memory access), but the clock period is set by the slowest instruction (LOAD). ADD finishes its work early and then 'idles' until the clock ticks. This is the waste that motivates multi-cycle and pipelined designs, where ADD would get a shorter cycle or where multiple instructions overlap."
+
+- question: "In a single-cycle processor, reducing the number of instructions in a program directly reduces execution time, regardless of which instruction types are used."
+  type: true-false
+  answer: false
+  explanation: "While fewer instructions generally help, the relationship is not that simple. Execution time = instruction count × CPI × clock period. In a single-cycle processor, CPI = 1 and the clock period is fixed at the critical path delay (e.g., 800ps). If you reduce the count but replace simple instructions with complex ones (e.g., more load words), the clock period doesn't change — the 800ps is already set by load. However, if a redesign could eliminate the slowest instruction type entirely, the critical path would shorten and the clock could run faster, reducing execution time beyond the instruction count reduction."
+
+- question: "Why is CPI always exactly 1 in a single-cycle processor, and what is the fundamental performance cost of this design choice?"
+  type: short-answer
+  answer: "CPI = 1 because the entire datapath is combinational — signals propagate from instruction fetch through register write-back in one continuous path, and the clock triggers exactly once per instruction. The performance cost is that the clock period must equal the delay of the slowest instruction (typically load word). Every simpler instruction, no matter how fast it could finish, must wait for this long clock period. The processor spends most of its time on simple instructions that do not need data memory access, yet all are penalized equally by the slow clock required by the rare load/store instructions."
+  explanation: "This is why multi-cycle designs split instructions into variable-length phases (each taking one short cycle) and why pipelines overlap multiple instructions. Both approaches reclaim the time wasted by the single-cycle design's uniformly long clock period. CPI = 1 is conceptually simple but operationally wasteful."
+```
+
 ## Explainer
 
 You know from studying the CPU datapath that executing an instruction requires several operations: fetching the instruction from memory, decoding which operation to perform and which registers to use, executing the computation in the ALU, potentially accessing data memory, and writing the result back to a register. A **single-cycle processor** performs all of these operations in one clock cycle — signals ripple through the entire datapath from instruction memory to register write-back before the clock ticks again.

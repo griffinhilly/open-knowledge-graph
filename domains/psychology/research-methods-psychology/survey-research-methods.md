@@ -39,6 +39,45 @@ Critique a poorly designed survey — identify leading questions, double-barrele
 - More questions do not make a survey more valid; poorly worded items reduce validity regardless of length.
 - Self-report data is not inherently unreliable — its quality depends on question design and the construct being measured.
 
+## Questions
+
+```yaml
+- question: "A survey asks: 'Given the well-documented health benefits of regular exercise, how many times per week do you work out?' This question is an example of:"
+  type: multiple-choice
+  options:
+    - "Social desirability bias — it implies an admirable behavior respondents feel pressured to report"
+    - "A leading question — it embeds an assumption ('well-documented benefits') that will inflate reported exercise frequency"
+    - "Acquiescence bias — respondents will tend to agree with the embedded premise regardless of their behavior"
+    - "A double-barreled item — it asks about both frequency and type of exercise simultaneously"
+  answer: 1
+  explanation: "The phrase 'well-documented health benefits' presupposes both that exercise is beneficial and that respondents should be exercising. This framing makes respondents more likely to overreport exercise frequency to align with the embedded assumption. Leading questions do not measure the true construct — they measure the construct contaminated by the question's framing."
+
+- question: "A researcher asks about general life satisfaction at the end of a long section about recent personal setbacks and regrets. Compared to placing the life satisfaction question first, this order will likely:"
+  type: multiple-choice
+  options:
+    - "Have no effect, since life satisfaction is a stable trait unaffected by question order"
+    - "Produce lower satisfaction ratings, because the preceding questions prime negative thoughts that are still cognitively accessible"
+    - "Produce higher satisfaction ratings, because participants feel relief and contrast their hardships against their baseline"
+    - "Produce more honest responses, since participants are in a more reflective and introspective state"
+  answer: 1
+  explanation: "This is a question order effect driven by the availability heuristic: the preceding questions about setbacks make negative experiences cognitively accessible, so they are disproportionately weighted when assessing overall life satisfaction. Survey responses are not retrieved from a stable mental file — they are constructed in the moment from whatever is most accessible. Randomizing question order within sections is a practical defense against the worst of these effects."
+
+- question: "A question about general happiness placed after several questions about recent disappointments will tend to produce lower happiness ratings than the same question placed at the beginning of the survey."
+  type: true-false
+  answer: true
+  explanation: "Question order effects are well-documented and operate through priming and the availability heuristic. Questions that activate negative affect or make negative memories cognitively salient raise the weight of those experiences in subsequent judgments. This is not random noise — it is a predictable psychological mechanism that must be controlled for in survey design."
+
+- question: "Adding more questions to a survey increases its validity by providing more data points about the construct being measured."
+  type: true-false
+  answer: false
+  explanation: "Validity is about whether questions accurately measure the intended construct, not about quantity. Poorly worded items — leading questions, double-barreled items, ambiguous phrasing — reduce validity regardless of how many items are included. A short survey of well-designed questions is more valid than a long survey contaminated by bias. Length can improve reliability (by averaging over more observations) but does not guarantee validity."
+
+- question: "What is acquiescence bias, and how does including reverse-keyed items in a Likert-scale survey help detect and correct for it?"
+  type: short-answer
+  answer: "Acquiescence bias is the tendency to agree with survey items regardless of content — respondents systematically lean toward 'agree' or 'strongly agree' independent of what the item says. Reverse-keyed items state the opposite of the measured construct, so a high scorer on the trait should *disagree* with them. If a respondent agrees with both regular and reverse-keyed items equally, that pattern flags acquiescence. Researchers can identify affected respondents and correct scores accordingly."
+  explanation: "Acquiescence bias is particularly problematic for agree/disagree and true/false formats. If all items on a scale point the same direction, there is no way to distinguish genuine agreement from systematic acquiescence. Reverse-keyed items create an internal consistency check and allow researchers to separate authentic responses from response style artifacts."
+```
+
 ## Explainer
 
 Surveys are the workhorse of descriptive research in psychology because they let you collect self-reported data from many people quickly and cheaply. But the speed and scale that make surveys attractive also make them treacherous: poor question design systematically biases responses, and those biases are invisible in the final dataset unless you know what to look for. Your prerequisite in descriptive research methods gives you the framework; your work on operational definitions tells you why precise question wording matters; and your background in sampling helps you think about who is actually answering your questions.

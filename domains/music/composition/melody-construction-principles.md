@@ -36,6 +36,45 @@ Analyze melodies from the standard repertoire across styles (Bach, Mozart, Schub
 - Larger leaps are inherently more difficult to sing; context (tempo, surrounding intervals, register) determines singability more than leap size.
 - Unique pitches and constant variation ensure memorability; repetition and motivic reuse are fundamental to coherence and listener retention.
 
+## Questions
+
+```yaml
+- question: "A student composes a 16-bar melody with no repeated pitch patterns, constant eighth-note motion, and no rests or sustained tones. Why is this melody likely to feel unsatisfying?"
+  type: multiple-choice
+  options:
+    - "It lacks sufficient harmonic variety to support the listener's interest"
+    - "Constant motion without rests, sustained tones, or motivic repetition undermines phrase clarity and listener coherence"
+    - "The rhythm is too uniform — 16 bars of eighth notes requires at least one meter change"
+    - "Sixteen bars is too long without a modulation to another key"
+  answer: 1
+  explanation: "Constant motion prevents the melody from breathing or landing anywhere. Rests and sustained tones create points of arrival and expectation — without them, the phrase never 'gets somewhere.' And without motivic repetition, there is nothing for the listener to track or remember: each moment is equally novel, which paradoxically undermines memorability. Strong melodies use activity strategically, not continuously."
+
+- question: "A melody leaps upward from C to A (a major sixth). Following classical melody construction principles, what should typically come next?"
+  type: multiple-choice
+  options:
+    - "Another upward leap to continue the energy and forward motion"
+    - "A rest to mark the high arrival point before continuing"
+    - "Stepwise motion descending from A"
+    - "A return to C to balance the upward motion symmetrically"
+  answer: 2
+  explanation: "The classical principle is to follow a large leap with stepwise motion in the opposite direction. A leap upward creates energy; the stepwise descent releases it gradually and is both vocally comfortable and dramatically satisfying. This is not an arbitrary rule — it reflects tonal gravity (high pitches want to fall) and vocal physics (a large leap leaves the voice at an extreme from which it naturally descends by step). Returning immediately to C would be too abrupt; another upward leap would accumulate tension without release."
+
+- question: "A well-constructed melody typically places its climactic pitch roughly two-thirds of the way through the phrase, not at the beginning or end."
+  type: true-false
+  answer: true
+  explanation: "Placing the climax at the beginning leaves nowhere to go — the melody peaks immediately and then falls away without buildup. Placing it at the very end feels anticlimactic because there is no post-climax resolution or descent. Two-thirds of the way through allows for a buildup, a dramatic peak, and a brief resolution before the phrase closes — the shape of a natural arc with both rise and fall."
+
+- question: "Writing a memorable melody requires constant variation; using the same motive more than twice weakens the overall effect by becoming repetitive."
+  type: true-false
+  answer: false
+  explanation: "Motivic repetition is fundamental to melodic coherence, not an enemy of it. The listener needs recurring material to track and recognize — that is what makes a melody feel like a musical statement rather than a sequence of notes. Beethoven's Fifth opens with the same four-note motive repeated immediately. Schubert song themes are often built from a single short gesture deployed throughout. The skill is not avoiding repetition but using repetition with variation — maintaining recognizability while providing fresh perspective."
+
+- question: "Why do rests and sustained tones strengthen a melody rather than weaken it? What role do they play in phrasing and listener expectation?"
+  type: short-answer
+  answer: "Rests create expectation by briefly withholding the melody — the listener's attention sharpens in the silence. Sustained tones create points of arrival, signaling that the phrase has gotten somewhere and allowing the listener to absorb the moment before moving on. Together, they give the melody breathing room and phrase structure. Without them, constant motion creates agitation rather than expressiveness, and the phrase never lands anywhere memorable."
+  explanation: "The analogy to speech is useful: effective speakers use pauses for emphasis. A sustained tone functions like a period or comma — it marks syntactic boundaries and gives the listener time to process. The most emotionally powerful moments in melody are often the held notes, not the busy passages. Treating rests as 'emptiness' rather than compositional material is a common beginner error."
+```
+
 ## Explainer
 
 Every melody you have ever remembered shared a hidden structure: a short idea that gets repeated, varied, and eventually answered. Your study of phrase structure already revealed the antecedent–consequent pairing at the phrase level. **Melody construction** zooms in to the level of the **motive** — the smallest recognizable unit, often just two to four notes. The opening four notes of Beethoven's Fifth Symphony, the first three notes of "Happy Birthday," the turn figure in Mozart's 40th — these are all motives that the composer deploys, transforms, and returns to throughout the piece. A melody without a motive is just a sequence of notes; a melody with one is a musical argument.

@@ -30,6 +30,45 @@ Study Turing reductions as oracle computations: problem A is Turing-reducible to
 ## Common Misconceptions
 - Confusing Turing equivalence with many-one equivalence. Turing is more permissive and captures relative computability more fully.
 
+## Questions
+
+```yaml
+- question: "A student argues: 'All undecidable problems are equally hard — they're all beyond the reach of any Turing machine, so talking about degrees of difficulty among them is meaningless.' Which observation most directly refutes this claim?"
+  type: multiple-choice
+  options:
+    - "All undecidable problems reduce to the Halting Problem via many-one reductions, proving they are equivalent"
+    - "There exist pairs of undecidable problems at incomparable Turing degrees: neither can be solved using the other as an oracle, demonstrating genuinely different levels of computational hardness"
+    - "Undecidable problems are by definition harder than all decidable problems, which forms the only meaningful distinction"
+    - "Turing machines cannot make any progress on undecidable problems, so comparing them is indeed meaningless"
+  answer: 1
+  explanation: "The existence of incomparable Turing degrees — undecidable problems A and B where A ≰_T B and B ≰_T A — directly refutes the claim that all undecidable problems are equally hard. Such problems have genuinely different computational content: solving one gives you no ability to solve the other, even with oracle access. The degree structure is a rich partial order with incomparable elements, not just a two-tier 'decidable vs. undecidable' division. This was established by Friedberg and Muchnik's priority argument in 1956."
+
+- question: "Problem A can be solved using an oracle for Problem B (A ≤_T B), and Problem B can be solved using an oracle for Problem A (B ≤_T A). Neither A nor B is decidable. What can we conclude?"
+  type: multiple-choice
+  options:
+    - "A is strictly harder than B because it was listed as needing an oracle for B"
+    - "A and B are in the same Turing degree — they are computationally interchangeable as oracle resources"
+    - "A many-one reduces to B, which implies B many-one reduces to A"
+    - "Both A and B are in Turing degree 0, the degree of all decidable languages"
+  answer: 1
+  explanation: "Turing equivalence (A ≡_T B) holds when A ≤_T B and B ≤_T A. Problems in the same Turing degree are computationally interchangeable in the sense that an oracle for one can simulate an oracle for the other. This does not imply that A many-one reduces to B (option C): Turing reductions are more general than many-one reductions. Degree 0 (option D) is the degree of decidable problems — a Turing oracle is unnecessary for them, and the problem statement says neither A nor B is decidable."
+
+- question: "The Halting Problem has a strictly higher Turing degree than any decidable language — no decidable problem can serve as an oracle sufficient to decide the Halting Problem."
+  type: true-false
+  answer: true
+  explanation: "This is the fundamental result separating degree 0 (decidable problems) from degree 0' (the degree of the Halting Problem). A decidable oracle provides no computational power beyond what a plain Turing machine already has — you can already solve it without the oracle. So decidable oracles cannot help with the Halting Problem. This establishes 0 < 0' in the degree ordering: there is a strict hierarchy, and the Halting Problem sits strictly above all decidable problems. The jump operator A → A' formalizes this, always producing a degree strictly above A."
+
+- question: "A Turing reduction from A to B is strictly more restrictive than a many-one reduction from A to B: Turing reductions impose stronger conditions on how B is used."
+  type: true-false
+  answer: false
+  explanation: "This has the relationship backwards. Many-one reductions are *more restrictive* (a special case of Turing reductions): they require a single computable function f such that x ∈ A iff f(x) ∈ B, using the oracle exactly once and returning its answer directly. Turing reductions are *more permissive*: the oracle may be queried multiple times, on adaptive inputs depending on previous answers, with arbitrary computation between queries. Every many-one reduction is automatically a Turing reduction, but not vice versa. Turing degrees are therefore coarser than many-one degree classes: problems that are many-one inequivalent may be Turing equivalent."
+
+- question: "Explain the difference between a many-one reduction and a Turing reduction, and why Turing degrees capture a richer notion of relative computability than the many-one degree structure."
+  type: short-answer
+  answer: "A many-one reduction from A to B is a computable function f such that x ∈ A iff f(x) ∈ B — the oracle for B is consulted exactly once, on a transformed input, and its yes/no answer is returned directly. A Turing reduction models oracle computation: a Turing machine can query an oracle for B on any input, any number of times, in any order, using previous answers to determine future queries. The Turing reduction is strictly more permissive. Two problems that are not many-one equivalent can still be Turing equivalent if each is computable relative to the other through repeated, adaptive oracle calls. This makes Turing degrees coarser — they capture what a problem *contains* as computational information, regardless of how that information is encoded or accessed. The many-one degree structure distinguishes problems by their syntactic reducibility; Turing degrees distinguish them by their intrinsic computational content."
+  explanation: "The richer structure of Turing degrees reveals the internal architecture of the undecidable. For example, the complement of the Halting Problem is not many-one equivalent to the Halting Problem (one is c.e., the other is not), but they are Turing equivalent — each reduces to the other. Turing degrees collapse this distinction and ask only: what oracle power does this problem provide? This is why Turing degrees, not many-one degrees, are the natural unit of 'degree of unsolvability' — they measure computational content independently of representation."
+```
+
 ## Explainer
 
 You already know that some languages are undecidable — the Halting Problem is the canonical example — and that many-one reductions let you compare the hardness of problems by showing one reduces to another. Turing degrees extend this into a full landscape of *relative* uncomputability. The key idea is to ask not "is this problem decidable?" but "what does it take to decide this problem?" Two problems at the same Turing degree are interchangeable computational resources; problems at different degrees represent genuinely different levels of information.

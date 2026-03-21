@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Critical periods are developmental windows during which experience has disproportionate effects on circuit development. During critical periods, activity-dependent plasticity is elevated and experience refines or eliminates synaptic connections. Critical periods close when GABAergic inhibition matures, perineuronal nets stabilize synapses, and plasticity declines. Closing involves biological mechanisms that can be experimentally reversed, suggesting the mature brain retains potential for renewed plasticity under appropriate conditions.
 
+## Questions
+
+```yaml
+- question: "A kitten's right eye is sutured shut from birth to 3 months (within the critical period), then reopened. At 1 year of age, what would you expect to observe in its visual cortex?"
+  type: multiple-choice
+  options:
+    - "Normal binocular representation — adult neural plasticity compensates for early deprivation"
+    - "Permanent loss of visual cortex territory for the right eye, dominated by the open eye, even after reopening"
+    - "Temporary vision deficits that gradually recover over 6–12 months as adult plasticity takes over"
+    - "Blindness in the left eye, because the cortex that expanded to serve it can no longer handle binocular input"
+  answer: 1
+  explanation: "This is the classic ocular dominance plasticity experiment. Monocular deprivation during the critical period causes neurons that would have served the deprived eye to be permanently captured by the open eye. Reopening the eye after the critical period closes does not restore cortical representation — the window for that circuit reorganization has passed. The plasticity is near-irreversible because GABAergic maturation and perineuronal net formation have stabilized the expanded connections of the non-deprived eye."
+
+- question: "Which biological event most directly triggers the closure of a critical period in the visual cortex?"
+  type: multiple-choice
+  options:
+    - "Loss of myelin in the optic nerve, reducing signal transmission speed"
+    - "Maturation of fast-spiking GABAergic inhibitory interneurons and formation of perineuronal nets around synapses"
+    - "A reduction in overall cerebral metabolic rate as the brain reaches adult size"
+    - "Completion of myelination in the corpus callosum connecting the two visual cortices"
+  answer: 1
+  explanation: "Critical period closure is primarily driven by maturation of parvalbumin-positive GABAergic interneurons, which ramp up inhibition and constrain plasticity, and by formation of perineuronal nets (PNNs) — specialized extracellular matrix structures that physically ensheath synapses and restrict structural remodeling. These two mechanisms work together to stabilize the circuit. This understanding matters because both can be experimentally manipulated: reducing GABAergic tone or enzymatically degrading PNNs in adult animals can reopen critical-period-like plasticity."
+
+- question: "Critical period closure is biologically absolute — once a critical period ends, no known experimental manipulation can restore the elevated plasticity of that window."
+  type: true-false
+  answer: false
+  explanation: "Critical period closure is more like a locked gate than a sealed wall — the lock can be picked. Dark-rearing after the critical period, pharmacological reduction of GABAergic inhibition, enzymatic degradation of perineuronal nets, and administration of neurotrophins like BDNF have all been shown to reopen plasticity windows in adult animals. In humans, immersive sensory experience, certain pharmacological interventions, and intensive rehabilitation after injury can partially recapitulate the heightened plasticity of critical periods. This finding has profound implications for treating amblyopia, supporting second-language acquisition, and designing stroke rehabilitation."
+
+- question: "The critical period for the visual cortex closes earlier in childhood than the critical period for language acquisition."
+  type: true-false
+  answer: true
+  explanation: "Different neural systems have critical periods on different timescales. The visual cortex critical period in humans closes in early childhood (roughly by age 7–8 for monocular deprivation effects), while language-relevant circuits remain plastic considerably longer — second languages can be acquired with near-native proficiency into adolescence, and some aspects of language learning extend into the late teens or early twenties. Prefrontal circuits underlying executive function continue refining well into the mid-twenties. The sequence of critical period closures broadly tracks the posterior-to-anterior maturation of the cortex."
+
+- question: "Why is a critical period qualitatively different from ordinary adult neuroplasticity, rather than simply a period of greater plasticity?"
+  type: short-answer
+  answer: "During a critical period, experience does not merely modify an existing circuit — it determines how the circuit is built in the first place. The difference is not just quantitative (more change) but structural: during critical periods, synaptic connections are actively competing, and the outcome of that competition becomes the permanent architecture of the circuit. Outside critical periods, adult plasticity can strengthen or weaken existing connections but generally cannot restructure the large-scale organization that was laid down developmentally. The same deprivation that causes permanent cortical reorganization during the critical period produces almost no lasting change in an adult."
+  explanation: "The canonical demonstration is ocular dominance plasticity: brief monocular deprivation during the critical period permanently reallocates cortical columns between eyes, but the same deprivation in an adult causes only minor, reversible changes. Critical periods are not just windows of 'more learning' — they are windows in which experience sculpts the circuit topology that all subsequent learning operates on."
+```
+
 ## Explainer
 
 From your prerequisite study of neuroplasticity, you know the general principle that neural circuits can be modified by experience throughout life. Critical periods are a more specific and powerful version of this: developmental windows during which experience does not merely modify existing circuits but actually determines how those circuits are built in the first place. The difference is quantitative but dramatic — the same exposure that would produce only modest changes in an adult brain may produce permanent, large-scale circuit restructuring in a child whose relevant system is in its critical period.

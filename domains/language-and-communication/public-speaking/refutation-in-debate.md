@@ -35,6 +35,45 @@ Practice 'line-by-line' rebuttal: take a complete opposing speech and write a re
 - Conceding minor points to win major ones is strategic, not weak — selectively concede to concentrate firepower.
 - Repeating your own argument louder is not a response to a direct attack on that argument.
 
+## Questions
+
+```yaml
+- question: "An opponent directly attacks your central argument with new evidence. You respond by restating your original claim more forcefully and adding another statistic that supports it. Is this effective refutation?"
+  type: multiple-choice
+  options:
+    - "Yes — adding more evidence strengthens your position against the attack"
+    - "No — you must directly engage the opponent's attack, not simply extend your own argument"
+    - "Yes — restating with greater emphasis signals confidence and persuades judges"
+    - "No — you should concede the argument entirely and move on"
+  answer: 1
+  explanation: "Repeating or extending your own argument does not constitute refutation. Refutation requires engaging the opponent's specific attack — identifying what is wrong with their evidence, reasoning, or the claim's relevance. The TEAR structure exists precisely to prevent the common error of talking past the opponent: you must tag their argument, attack it, analyze the flaw, then re-establish your position. Extending your own claim without addressing theirs leaves their attack unanswered."
+
+- question: "Which component of the TEAR structure is the one that actually demonstrates *why* the argument fails?"
+  type: multiple-choice
+  options:
+    - "Tag — naming the argument you are attacking"
+    - "Extend — stating the attack you are making"
+    - "Analyze — explaining why the attack undermines the argument"
+    - "Re-establish — returning to the implication for the round"
+  answer: 2
+  explanation: "The Analyze step is the intellectual core of refutation. Tagging names the target; Extending states the attack; but Analyze provides the reasoning that makes the attack stick — why the evidence is unrepresentative, why the inference doesn't follow, why the conceded point doesn't matter. Without this step, the refutation is an assertion, not an argument. Re-establish then leverages that completed refutation back into the larger debate."
+
+- question: "Choosing to concede a minor argument during rebuttal signals weakness and should be avoided whenever possible."
+  type: true-false
+  answer: false
+  explanation: "Strategic concession is a sign of sophistication, not weakness. Debaters have limited time and finite audience attention. Conceding a weak argument to concentrate firepower on a strong one is resource allocation — it avoids spreading impact thin and signals intellectual honesty, which builds credibility with judges. The debater who fights every point equally often dilutes their impact across too many arguments. Selective concession, done strategically, is a feature of advanced refutation."
+
+- question: "An evidence attack challenges the inferential link between a piece of evidence and the conclusion it is supposed to support."
+  type: true-false
+  answer: false
+  explanation: "That describes a *reasoning* attack — one that challenges whether the conclusion actually follows from the evidence. An evidence attack challenges the quality, credibility, recency, or representativeness of the source data itself (e.g., 'the study is from 1987 and is unrepresentative'). The three types of attack target three different components of an argument: evidence attacks target the data, reasoning attacks target the inferential step, and relevance attacks concede the argument might be true but argue it doesn't affect the core question."
+
+- question: "Why is simply dismissing an opponent's argument ('That's just wrong') not the same as refuting it?"
+  type: short-answer
+  answer: "Dismissal asserts that an argument is incorrect without demonstrating why. Refutation requires showing what is wrong — whether the evidence is unreliable, the reasoning is fallacious, or the claim is irrelevant — and explaining why that flaw undermines the argument. Dismissal gives the judge no reason to disbelieve the opponent's point; refutation provides that reason."
+  explanation: "The distinction matters because debate judges evaluate the reasoning presented, not the confidence with which claims are made. An opponent who has made a supported argument is not rebutted by being told they are wrong — the support remains standing. Refutation must engage the support: attack the source, challenge the inference, or argue the conceded point doesn't affect the outcome. This is also why repeating your own argument louder fails: it doesn't engage the opponent's reasoning at all."
+```
+
 ## Explainer
 
 You understand debate structure — how rounds are organized, what constructive and rebuttal speeches are for — and you know what a counterargument looks like from your work with argument and rebuttal. **Refutation** is the technique that makes those structures work: it is the specific act of engaging an opponent's argument and demonstrating why it should not stand. Without refutation, debate becomes two parallel monologues. With it, the exchange becomes an actual test of ideas, which is the entire point of the format.

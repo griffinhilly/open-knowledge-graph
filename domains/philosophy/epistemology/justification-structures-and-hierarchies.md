@@ -28,6 +28,45 @@ status: draft
 ## Core Idea
 Justification can be modeled as a partial order or directed graph on a set of beliefs. Foundationalism imposes a hierarchy with foundational beliefs at the base; coherentism allows cycles and mutual support; infinitist allows infinite chains. Formal analysis reveals trade-offs: foundationalism explains epistemic grounds but struggles with the isolation objection; coherentism allows mutual support but can justify falsehoods; infinitism avoids regress but seems epistemically idle.
 
+## Questions
+
+```yaml
+- question: "Modeled as directed graphs, the key structural difference between foundationalism and coherentism is:"
+  type: multiple-choice
+  options:
+    - "Foundationalism has more beliefs (nodes) than coherentism, making it a richer theory"
+    - "Foundationalism produces a directed acyclic graph with privileged foundational nodes (no incoming edges); coherentism removes the acyclic constraint and allows cycles of mutual support"
+    - "Coherentism is always preferable because it avoids the isolation problem that undermines foundationalism"
+    - "Foundationalism allows infinite justificatory chains; coherentism does not"
+  answer: 1
+  explanation: "The graph-theoretic model makes the difference precise. In foundationalism, justification flows in one direction only — from foundational beliefs (which have no incoming justificatory edges) upward through derived beliefs. No cycles are allowed. In coherentism, B can justify A while A also contributes to justifying B; the network has no privileged nodes and justification is a property of the whole web rather than something transmitted from special sources. This structural difference has deep consequences: foundationalism provides groundedness at the cost of the isolation objection; coherentism provides mutual support at the cost of potentially bootstrapping coherent fictions."
+
+- question: "A philosopher reasons: 'I believe P because Q supports it; Q because R supports it; and R because P supports it.' This pattern of justification exemplifies:"
+  type: multiple-choice
+  options:
+    - "Foundationalism, with P as the self-justifying foundational belief"
+    - "Infinitism, with an infinite chain of reasons extending backward"
+    - "Coherentism, in which cycles of mutual support are a permissible and characteristic feature of justification"
+    - "A straightforward logical fallacy with no connection to any recognized epistemological theory"
+  answer: 2
+  explanation: "A cycle — P supports R supports Q supports P — is the defining structural feature of coherentism's directed graph model. In coherentism, justification is not transmitted from a ground floor but emerges from the mutual fit of beliefs within a network. Cycles are not only permissible but expected. This is precisely what distinguishes coherentism from foundationalism (no cycles allowed) and infinitism (no cycles, but chains extend infinitely). Note that coherentists do not claim such cycles are vicious — they argue the whole system's coherence provides justification that no single link in the chain could provide alone."
+
+- question: "Infinitism avoids both the arbitrariness of foundationalism (picking a foundation) and the circularity of coherentism (cycles), at the cost of leaving justification perpetually incomplete."
+  type: true-false
+  answer: true
+  explanation: "This accurately describes the trade-offs Peter Klein's infinitism navigates. By allowing infinite non-repeating chains of justification, infinitism sidesteps the regress problem: there is always another reason available, so neither an arbitrary stopping point (foundationalism) nor a circle (coherentism) is required. The cost is that no belief seems fully justified — you can always demand one more reason. Klein responds that what matters is that the infinite chain of reasons exists and is accessible in principle, not that all reasons are consciously traversed. But critics find this unsatisfying as an account of actual epistemic practice."
+
+- question: "The isolation objection is directed at coherentism, claiming that internally coherent networks of beliefs could still be completely disconnected from external reality."
+  type: true-false
+  answer: false
+  explanation: "The isolation objection is directed at foundationalism, not coherentism. The worry is that a foundational architecture might produce beliefs that are well-grounded within the system — tracing correctly back to foundational beliefs — but the whole system could be cut off from the external world. The *analogous* objection to coherentism is different: that cycles of mutual support might bootstrap justification for a completely fictional belief system, since internal coherence doesn't guarantee contact with truth. Both theories face structural objections, but they are different objections."
+
+- question: "Compare the three structural responses to the justification regress problem. What unique trade-off does each make between groundedness, coherence, and completeness?"
+  type: short-answer
+  answer: "Foundationalism (DAG structure) prioritizes groundedness: by terminating chains at self-justifying foundational beliefs, it ensures every belief has an ultimate anchor. It trades away coherence (foundational beliefs don't need external support) and faces the isolation objection. Coherentism (cycles allowed) prioritizes coherence: beliefs justify each other mutually, and the system as a whole is what has justificatory status. It trades away groundedness (no privileged anchors) and faces the bootstrapping objection. Infinitism (infinite chains) avoids the arbitrariness and circularity of the others, but trades away completeness — justification is perpetually in progress and never fully achieved."
+  explanation: "The formal analysis reveals that each theory is a different answer to the same structural question: how do you terminate, cycle, or extend the justificatory graph? Each choice optimizes one dimension of epistemic value while sacrificing another. Real epistemic systems arguably blend all three: perceptual reports function as near-foundational anchors, most beliefs support each other coherentistically, and some inferential chains extend very far. The models are idealizations, but they make the trade-offs explicit in a way that purely verbal argument obscures."
+```
+
 ## Explainer
 
 You already know the regress problem: if every justified belief must be justified by another belief, justification either regresses infinitely, cycles back on itself, or terminates at something unjustified. The three main theories — foundationalism, coherentism, and infinitism — are three different structural responses to this problem. A powerful way to understand the differences is to model them geometrically, using the framework of directed graphs that your logic background gives you.

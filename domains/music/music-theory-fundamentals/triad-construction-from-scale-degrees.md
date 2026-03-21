@@ -33,6 +33,45 @@ Build all seven triads in a major key on staff paper. Play them on an instrument
 ## Common Misconceptions
 Students sometimes forget that triads use non-consecutive pitches (skipping every other scale degree). Another error: applying major-key triad qualities to minor keys without accounting for the different interval structure.
 
+## Questions
+
+```yaml
+- question: "What type of triad is built on scale degree 2 (D) of C major, and how do you determine this without memorizing a chart?"
+  type: multiple-choice
+  options:
+    - "Major — the second scale degree always produces a major triad"
+    - "Minor — counting semitones gives D to F (3 semitones) then F to A (4 semitones), a minor triad"
+    - "Diminished — the second scale degree is adjacent to the leading tone"
+    - "Augmented — the raised fourth gives the third an extra semitone"
+  answer: 1
+  explanation: "To identify the triad on D in C major, take the diatonic notes D–F–A. Count semitones: D to F is 3 semitones (minor third), F to A is 4 semitones (major third). Minor third stacked below major third = minor triad. The skill is derivation from interval counting, not memorization. This is the ii chord of C major — always minor in any major key, for the same structural reason."
+
+- question: "In natural minor, the chord built on scale degree 5 is minor rather than major. Why does this matter for harmony?"
+  type: multiple-choice
+  options:
+    - "It doesn't matter — the fifth scale degree sounds the same regardless of chord quality"
+    - "A minor v chord lacks the leading tone, weakening the dominant-to-tonic resolution that defines functional harmony"
+    - "A minor v chord is easier to play on instruments, which is why natural minor is preferred"
+    - "The fifth scale degree must be major by definition — natural minor raises it automatically"
+  answer: 1
+  explanation: "Functional harmony depends on the leading tone — the note a half step below the tonic — creating strong upward pull into the tonic. In natural minor, scale degree 7 is a whole step below the tonic (the subtonic), not a half step. The natural v chord contains no leading tone and produces a much weaker dominant-to-tonic pull. When composers want a strong authentic cadence in a minor key, they raise scale degree 7, creating harmonic minor and a major V chord. This is why harmonic minor exists."
+
+- question: "In a major key, the triad built on scale degree 7 (the leading tone) is diminished."
+  type: true-false
+  answer: true
+  explanation: "Build the triad on B in C major: B–D–F. B to D is a minor third (3 semitones), D to F is a minor third (3 semitones). Two stacked minor thirds = diminished triad. This holds in every major key because the seventh scale degree's position — one semitone below the tonic — means the intervals above it always stack two minor thirds. No memorization required; the interval structure of the major scale forces this result."
+
+- question: "Every diatonic triad in a major key is either major or minor."
+  type: true-false
+  answer: false
+  explanation: "The triad built on scale degree 7 (the leading tone) is diminished — neither major nor minor. A diminished triad consists of two stacked minor thirds, producing a tritone between root and fifth rather than a perfect fifth. In C major, B–D–F is the diminished triad (vii°). This matters in practice: the vii° chord functions differently from major and minor triads and is typically treated as an incomplete dominant seventh chord."
+
+- question: "Describe the process for determining the quality of any diatonic triad without referring to a memorized chart."
+  type: short-answer
+  answer: "Identify the root (the scale degree), take the note a third above it in the scale (skip one scale degree), then take the note a fifth above the root (skip another). Count the semitones from root to third, and from third to fifth. If the lower interval is 4 semitones (major third) and the upper is 3 (minor third), the triad is major. If 3 then 4, it is minor. If 3 then 3, it is diminished. The quality is a direct consequence of the scale's interval pattern, not something to memorize separately."
+  explanation: "This derivation approach is both more durable and deeper than memorization: understanding why vii° is always diminished in major keys connects to the structure of the major scale itself. A student who can derive triad quality from interval counting will never confuse major-key and minor-key triad patterns, because they understand the underlying mechanism."
+```
+
 ## Explainer
 
 A **triad** is a three-note chord built by stacking intervals of a third — that is, by taking every other note of a scale. From your work with major and minor scale construction and interval quality counting, you have all the tools needed to build and identify every triad in a key. The key insight is that when you stack thirds using only the notes of a given scale, the resulting triads inherit the scale's interval structure, which means different scale degrees produce triads of different qualities.

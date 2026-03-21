@@ -31,6 +31,45 @@ Study grading systems in cervical (Pap smear), esophageal, and colonic dysplasia
 ## Common Misconceptions
 Dysplasia is not cancer—it is a pre-cancerous change. Not all dysplasia progresses; low-grade dysplasia may regress if the inciting stimulus is removed. High-grade dysplasia has substantial malignant potential.
 
+## Questions
+
+```yaml
+- question: "A 35-year-old woman's cervical biopsy shows high-grade dysplasia (CIN 3). Her physician recommends immediate ablation. Her friend with low-grade dysplasia (CIN 1) is told to return in 6 months for surveillance. What is the correct explanation for this different management?"
+  type: multiple-choice
+  options:
+    - "High-grade dysplasia has already penetrated the basement membrane, making it invasive carcinoma requiring treatment"
+    - "High-grade dysplasia has accumulated sufficient mutations that it rarely regresses and has a high risk of progression; low-grade dysplasia may still regress if the inciting stimulus is removed"
+    - "Low-grade dysplasia is normal tissue variation; only high-grade represents true pathology"
+    - "The Pap smear cannot reliably distinguish CIN 1 from normal, so surveillance is precautionary"
+  answer: 1
+  explanation: "The critical distinction is mutational burden and regression potential. Low-grade dysplasia (CIN 1) has fewer accumulated mutations and may regress — especially if HPV infection resolves — because the clone has not yet become self-sustaining. High-grade dysplasia (CIN 3) carries more mutations (particularly TP53 and chromosomal stability genes), rarely regresses, and has a high probability of progressing to invasive carcinoma. Importantly, even CIN 3 has NOT yet penetrated the basement membrane — that is what would make it invasive. The first option describes the wrong threshold."
+
+- question: "What single histological event defines the transition from carcinoma in situ (high-grade dysplasia confined to the epithelium) to invasive carcinoma?"
+  type: multiple-choice
+  options:
+    - "The nuclear-to-cytoplasmic ratio exceeds 1:1"
+    - "Mitotic figures appear in the upper epithelial layers"
+    - "Neoplastic cells penetrate through the basement membrane into the underlying stroma"
+    - "The inciting stimulus (e.g., HPV or H. pylori) is no longer detectable"
+  answer: 2
+  explanation: "The basement membrane is the critical anatomical threshold. All of the histological features (nuclear pleomorphism, increased N:C ratio, abnormal mitoses) may be present in carcinoma in situ, which is still treatable by local excision. Once neoplastic cells penetrate the basement membrane, they gain access to lymphatics and blood vessels, acquire the capacity for metastasis, and require staging rather than simple excision. This is not merely semantic — it defines clinical management, prognosis, and curability."
+
+- question: "All dysplasia is irreversible: once dysplastic changes appear, progression to invasive cancer is inevitable if the lesion is left untreated."
+  type: true-false
+  answer: false
+  explanation: "Low-grade dysplasia may regress, particularly if the inciting stimulus (HPV infection, H. pylori, chronic acid reflux) is removed. The clone has not yet accumulated sufficient mutations to be self-sustaining. Irreversibility and high progression risk are features of high-grade dysplasia, not of dysplasia as a category. This is why dysplasia grade drives clinical management: active surveillance for low-grade (which may normalize), intervention for high-grade (which rarely does)."
+
+- question: "Dysplastic cells can be recognized histologically by nuclear enlargement, increased nuclear-to-cytoplasmic ratio, and disruption of the normal differentiation gradient — but the basement membrane remains intact, distinguishing dysplasia from invasive carcinoma."
+  type: true-false
+  answer: true
+  explanation: "This is the defining feature of the pre-invasive state. All the cellular changes of malignancy — nuclear abnormalities, loss of differentiation, abnormal mitoses — may be present, but as long as the basement membrane is intact, the lesion has not yet acquired the invasive phenotype. The basement membrane marks the boundary between carcinoma in situ (treatable, curable) and invasive carcinoma (requiring staging and systemic assessment). Screening programs target exactly this pre-invasive window."
+
+- question: "Why is the basement membrane so significant in pathological staging of a dysplastic lesion? What changes when it is breached, and why does this matter clinically?"
+  type: short-answer
+  answer: "The basement membrane is the anatomical barrier separating the epithelium from the stroma containing lymphatics and blood vessels. Before penetration, even high-grade dysplasia or carcinoma in situ is local — treatable by excision with curative intent. Penetration marks acquisition of new cellular capabilities: secretion of matrix metalloproteinases to degrade the ECM, resistance to anoikis (apoptosis from loss of cell-matrix contact), and access to the vascular and lymphatic channels that enable metastasis. Clinically, a pre-invasive lesion caught on Pap smear or biopsy is curable with local treatment; invasive carcinoma requires staging — assessment of lymph node involvement, depth of invasion, and potential spread — because the tumor has gained the machinery for distant dissemination."
+  explanation: "The basement membrane breach is not merely a microscopic observation — it represents a functional state change in the tumor. The pre-invasive window (from dysplasia through CIS) is the target of all cervical, colorectal, and esophageal screening programs because catching lesions here means catching them before they can spread."
+```
+
 ## Explainer
 
 From carcinogenesis, you already know that cancer requires the accumulation of multiple genetic hits over time — mutations in oncogenes, tumor suppressor genes, and DNA repair pathways that progressively unlock proliferative autonomy, evasion of apoptosis, and genomic instability. Dysplasia is what that process looks like under the microscope before the final threshold is crossed. It is not an all-or-nothing state but a continuum, and understanding where a lesion sits on that continuum drives clinical decision-making in cervical screening, colonoscopy, and Barrett's esophagus surveillance.

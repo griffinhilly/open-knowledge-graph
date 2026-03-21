@@ -27,6 +27,45 @@ Draw memory diagrams showing variables as boxes with names and values. Watch how
 - Variables are labels (they are locations with values, not just names).
 - Memory is unlimited (it's finite and must be managed).
 
+## Questions
+
+```yaml
+- question: "After the following three lines execute, what is the value of x?\n\nx = 5\nx = x + 3\nx = x * 2"
+  type: multiple-choice
+  options:
+    - "16"
+    - "5"
+    - "26"
+    - "10"
+  answer: 0
+  explanation: "Assignment executes in order and replaces the current value each time. After x = 5, x holds 5. After x = x + 3, x holds 8 (5 + 3). After x = x * 2, x holds 16 (8 × 2). Option B (5) reflects the misconception that only the first assignment 'sticks.' Option D (10) comes from applying only the last operation to the original value (5 × 2). Each assignment overwrites the previous value — the variable holds exactly one value at any given moment."
+
+- question: "Which statement best describes what a variable is in a computer program?"
+  type: multiple-choice
+  options:
+    - "A named location in memory where a value can be stored and changed"
+    - "A permanent label attached to a specific value that travels with it"
+    - "A mathematical symbol representing an unknown, like in an algebra equation"
+    - "A formula that computes a result each time it is evaluated"
+  answer: 0
+  explanation: "A variable is a named memory slot — it has a fixed location but a changeable value. Option B inverts the relationship: the name stays fixed while the value changes. Option C reflects the algebra metaphor, where 'x' represents an unknown to solve for; in programming, x is a container you fill. Option D describes a function. The key property is mutability: the same name can hold different values at different points during execution."
+
+- question: "When you write `name = 'Alice'` and then `name = 'Bob'`, the program stores both values and you can access either one later."
+  type: true-false
+  answer: false
+  explanation: "Assignment replaces the current value at the memory location. After the second statement, 'Alice' is overwritten and gone — only 'Bob' remains under `name`. Variables hold one value at a time. The old value is not preserved anywhere unless you explicitly stored it in a separate variable first."
+
+- question: "The order in which assignment statements appear in a program can change the final value of a variable."
+  type: true-false
+  answer: true
+  explanation: "Since each assignment reads the current value and then overwrites it, sequence matters. `x = 5` followed by `x = x * 2` gives 10, but writing `x = x * 2` before `x = 5` would fail (x has no value yet) or produce a different result. Order of execution is fundamental to how programs accumulate state — this is why reading code line by line, in order, is the right mental model."
+
+- question: "A student writes `score = 0` at the start of a program, then later writes `score = 100`. They expect the program to remember that the score was once 0. What actually happens, and why does this matter?"
+  type: short-answer
+  answer: "The memory location named `score` is overwritten with 100; the value 0 is gone permanently. Variables hold exactly one value at a time, and assignment always replaces whatever was there before. If the student needs both values, they must store them in separate variables (e.g., `initial_score = 0` and `score = 100`). This matters because forgetting that assignment is destructive leads to bugs where expected values silently disappear."
+  explanation: "This is the core mutation model of variables: the name stays bound to the same location, but the contents of that location change. Every assignment operation is a write that clobbers whatever was stored before. Programmers who treat variables as accumulators of history — rather than single current values — misunderstand the memory model and produce incorrect programs."
+```
+
 ## Explainer
 
 Before you can understand how programs work, you need a mental model of where data actually lives while a program runs. A computer's **memory** (RAM) is a vast array of numbered slots, each capable of holding a small piece of data. Think of it as a giant wall of post office boxes: each box has a unique address (a number), and each box holds some contents. When your program stores the number 42, that value is placed into one of these slots, and the computer remembers which slot it used.

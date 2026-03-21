@@ -29,6 +29,45 @@ Take a written argument (e.g., an essay paragraph) and adapt it for oral deliver
 ## Common Misconceptions
 - Oral and written arguments should be structured identically. - Repetition in oral argument is redundant. - Audience intelligence determines understanding; argument structure is secondary.
 
+## Questions
+
+```yaml
+- question: "A speaker delivers a 10-minute argument with five main points, each with three subpoints, without using signposting phrases. Why is this structure likely to fail with a live audience?"
+  type: multiple-choice
+  options:
+    - "Five main points exceeds the recommended maximum of three for any speech"
+    - "Working memory holds roughly 4–7 units at a time; new information arrives before earlier points consolidate, causing listeners to lose the structure"
+    - "Without signposting, audiences assume the speech has no structure and stop paying attention"
+    - "Subpoints are appropriate for written essays but confuse oral audiences regardless of signposting"
+  answer: 1
+  explanation: "The problem is cognitive architecture, not a stylistic rule. Working memory holds approximately 4–7 chunks of information simultaneously. In a dense oral argument, new points arrive before earlier ones have consolidated — the earliest information begins to fade. Unlike readers, listeners cannot go back. The result is that the audience loses the argumentative structure while hearing perfectly well. This is why oral arguments require structural simplicity (fewer main claims) and explicit signposting that tells listeners how to categorize incoming information. The failure is inevitable regardless of audience intelligence."
+
+- question: "A speaker ends a 20-minute persuasive talk by restating the three main claims she made at the beginning. An audience member thinks this is lazy and repetitive. Who has the better grasp of oral communication principles?"
+  type: multiple-choice
+  options:
+    - "The audience member — repetition is redundant and wastes the limited time available for new content"
+    - "The speaker — the final restatement consolidates the argument into long-term memory using a working-memory strategy, not mere repetition"
+    - "Both are right — repetition is necessary for simple audiences but unnecessary for educated listeners"
+    - "The audience member — if the argument was clear the first time, restating it signals distrust of the audience"
+  answer: 1
+  explanation: "The audience member's intuition comes from written communication, where repetition IS redundant because readers can re-read. In oral delivery, the final restatement is not experienced as redundant by listeners — it is experienced as reinforcement and consolidation. The classic structure (tell them what you'll say, say it, tell them what you said) is a working-memory strategy: the opening primes categorization, the body delivers content, the close consolidates into long-term memory. The claim that repeats at the end is the one most likely to be remembered an hour later."
+
+- question: "Announcing a main claim before arguing it ('My second point is that...') helps the audience categorize and organize incoming information."
+  type: true-false
+  answer: true
+  explanation: "Signposting serves as a mental filing instruction: it tells the audience which category to place the upcoming information into before it arrives. Without this priming, listeners must simultaneously process the content and figure out its structural role — a double cognitive load that reduces comprehension. When a speaker says 'My second reason is...', listeners already have a slot prepared for the content, and they can focus their attention on understanding the argument rather than puzzling out where it fits in the overall structure."
+
+- question: "Repetition in oral argument is redundant because listeners experience the same key claim twice, which wastes persuasive time that could be used for new supporting evidence."
+  type: true-false
+  answer: false
+  explanation: "This confuses the experience of reading with the experience of listening. Readers retain what they read and encounter repetition as redundancy. Oral audiences are processing in real time with no ability to review, and working memory fades quickly. In this context, repetition is structural scaffolding: the first statement introduces the claim, elaboration builds it, and restatement consolidates it. Audiences typically do not experience deliberate oral repetition as boring redundancy — they experience it as reinforcement. The mistake of avoiding repetition in a speech often results in audiences who never properly encode the central argument."
+
+- question: "Why must oral arguments be structurally simpler and more explicitly signposted than their written equivalents, even when the audience is equally intelligent?"
+  type: short-answer
+  answer: "Oral and written arguments place fundamentally different cognitive demands on their audiences. Readers control pace — they can re-read, flip back, and see structure visually through paragraph breaks, headings, and numbered lists. Listeners have none of these affordances. Oral argument exists only in the moment and in fading working-memory traces. Working memory holds roughly 4–7 units at a time; without consolidation, earlier points are displaced by new ones. Structural simplicity (fewer main claims) reduces the working-memory load. Explicit signposting gives listeners real-time filing instructions, reducing the cognitive work of imposing structure on incoming information. These are adaptations to cognitive architecture, not to intelligence — the same constraint applies to everyone."
+  explanation: "The key insight is that oral argumentation is a different cognitive task than reading, not just a spoken version of writing. A written argument transferred directly to oral delivery typically fails not because of content problems but because it was designed for a medium with different affordances. Adapting for oral delivery requires re-engineering structure for working-memory constraints."
+```
+
 ## Explainer
 
 You've learned from **persuasive speech design** how to construct arguments that are logically sound and rhetorically effective. The challenge this topic addresses is different: how do you deliver those arguments in real time, to listeners who cannot pause, reread, or consult a visual outline? The answer requires understanding a fundamental difference between reading and listening — the role of **working memory**.

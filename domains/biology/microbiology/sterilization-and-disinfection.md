@@ -37,6 +37,45 @@ The D-value concept — time required to reduce viable population by 90% (1 log)
 - UV radiation cannot sterilize solid objects or liquids — it is surface-only and cannot penetrate most materials.
 - Efficacy spectra of disinfectants vary enormously; a product that kills bacteria may be ineffective against endospores, mycobacteria, or non-enveloped viruses.
 
+## Questions
+
+```yaml
+- question: "A hospital instrument has been treated with 70% ethanol. Which statement most accurately describes its microbial status?"
+  type: multiple-choice
+  options:
+    - "It is sterile because ethanol kills all microorganisms on contact"
+    - "It has a reduced microbial load but is not sterile because endospores likely survive"
+    - "It is safe for surgery because all vegetative bacteria have been eliminated"
+    - "It is partially sterile — the ethanol achieved a high but not complete level of sterility"
+  answer: 1
+  explanation: "Ethanol is an effective disinfectant against vegetative bacteria and enveloped viruses, but it evaporates before penetrating the protective spore coat of bacterial endospores. Disinfection reduces microbial load to a safe level for a given purpose but does not achieve sterility. Option D reflects a critical misconception: sterility is absolute, a binary state — 'partially sterile' is not meaningful. An instrument used invasively requires true sterilization (autoclave or equivalent), not disinfection."
+
+- question: "A food processing facility runs an autoclave at 121°C. The target endospore has a D₁₂₁ value of 1.5 minutes. A 10-minute cycle starting with 10⁶ spores achieves approximately how many log reductions?"
+  type: multiple-choice
+  options:
+    - "About 6.7 log reductions (10 min ÷ 1.5 min per log)"
+    - "10 log reductions, because the cycle runs for 10 minutes"
+    - "1 log reduction, because only one D-value has elapsed"
+    - "15 log reductions, because 121°C is the standard sterilization temperature"
+  answer: 0
+  explanation: "The D-value is the time required to reduce the population by 90% (1 log₁₀). Dividing total exposure time by D-value gives log reductions: 10 ÷ 1.5 ≈ 6.7 log reductions, reducing 10⁶ to roughly 10⁻⁰·⁷ — meaning the probability of even one survivor is less than 1 in 5. Option B confuses minutes with log reductions; option D is not how D-value math works. This calculation is the practical core of sterilization validation."
+
+- question: "Sterility is a relative term — a 'highly sterile' surface has fewer viable microorganisms than a 'less sterile' one."
+  type: true-false
+  answer: false
+  explanation: "Sterility is an absolute, binary state. A surface is either sterile (no viable microorganisms, including endospores) or it is not sterile. There are no degrees of sterility. The Sterility Assurance Level (SAL) describes the probability that a single unit remains non-sterile after a process — e.g., SAL 10⁻⁶ means a 1-in-a-million chance — but even this framing shows sterility is binary per unit. 'Highly sterile' is not a valid phrase; 'low bioburden' or 'well-disinfected' are the correct terms for reduced but non-zero contamination."
+
+- question: "UV radiation is an effective sterilization method for both exposed surfaces and liquids because it destroys microbial DNA."
+  type: true-false
+  answer: false
+  explanation: "UV radiation does damage microbial DNA by inducing pyrimidine dimers, but it cannot penetrate most materials — it is surface-only and cannot sterilize liquids or any interior surface. UV is used for decontaminating air and exposed flat surfaces such as biosafety cabinet interiors, but it cannot sterilize opaque liquids or items not in direct line-of-sight. Filtration, not UV, is the method of choice for sterilizing heat-sensitive liquids like serum or antibiotic solutions."
+
+- question: "Explain why the temperature that pasteurizes milk is completely inadequate for sterilizing canned low-acid vegetables, and what this reveals about the concept of sterilization."
+  type: short-answer
+  answer: "Pasteurization (typically 72°C for 15 seconds) targets vegetative pathogens like Salmonella, which have very short D-values at that temperature. Low-acid canned vegetables must eliminate Clostridium botulinum endospores, which have D-values measured in minutes at 121°C — they are vastly more heat-resistant than vegetative cells. Sterilization is defined by the most resistant organism present: endospores set the bar, requiring sustained high-temperature processing that would destroy milk."
+  explanation: "The D-value framework makes this gap quantitative. Vegetative pathogens die quickly at moderate heat; endospores require temperatures above 100°C held for extended times. The required SAL for canned goods targeting C. botulinum spores demands conditions that are simply not needed for milk, where the relevant pathogens are all vegetative. This is why the same 'kill microbes' goal requires completely different processes depending on what organisms must be eliminated."
+```
+
 ## Explainer
 
 From your study of bacterial cell structure, you know that microbial cells depend on intact membranes, functional proteins, and organized nucleic acids to survive and reproduce. Sterilization and disinfection exploit these vulnerabilities, but they differ in a critical way: **sterilization** destroys all forms of microbial life — including the remarkably resilient endospores you encountered when studying bacterial growth — while **disinfection** merely reduces microbial numbers to a level considered safe for a given purpose. A third category, **antisepsis**, applies antimicrobial agents specifically to living tissue, such as a surgeon scrubbing hands with chlorhexidine before an operation. Keeping these three terms distinct is the foundation of the entire subject.

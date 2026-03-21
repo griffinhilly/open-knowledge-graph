@@ -33,6 +33,45 @@ Listen to contrasting examples of recitative and aria within the same work to un
 - Opera did not 'replace' other musical forms — instrumental music flourished simultaneously throughout the Baroque.
 - The castrato voice type was central to Baroque opera but largely disappeared after the 18th century; modern performances use countertenors as approximations.
 
+## Questions
+
+```yaml
+- question: "A character in a Baroque opera has just received devastating news. The libretto then shows the character alone on stage for an extended musical number. Based on the conventions of the era, what type of music would you most likely hear?"
+  type: multiple-choice
+  options:
+    - "Recitative, because the character needs to convey information quickly"
+    - "An aria, because this is the moment to dwell in and express a single emotional state"
+    - "A duet, because important moments required two voices"
+    - "Instrumental music only, as singers were not used in emotional moments"
+  answer: 1
+  explanation: "The aria is the Baroque convention for emotional concentration — it stops the dramatic clock so a character can fully inhabit one feeling. Recitative is used for narrative action and dialogue, advancing the plot swiftly. The scenario described (character alone, extended number) is exactly the context for a da capo aria. The functional split between recitative (action) and aria (emotion/reflection) is the fundamental structural principle of Baroque opera."
+
+- question: "What primarily motivated Handel to develop the English oratorio as a major form in London, rather than continuing to produce Italian opera seria?"
+  type: multiple-choice
+  options:
+    - "He found sacred subjects more personally interesting than mythological ones"
+    - "The oratorio format allowed him to use the orchestra without singers"
+    - "Unstable operatic patronage and resistant London audiences made Italian opera financially precarious; oratorio reached a broader paying public"
+    - "The Church of England required composers to produce sacred works for public performance"
+  answer: 2
+  explanation: "Handel's turn to oratorio was driven substantially by institutional and economic factors. Italian opera in London was expensive, dependent on elite patronage, and facing growing audience resistance to its conventions. Oratorios performed in public concert halls during Lent — when theaters were closed — reached a broader middle-class paying audience and proved far more financially stable. The elevated role of the chorus in oratorio (marginal in opera seria) was also well-suited to English choral culture."
+
+- question: "The Florentine Camerata founded opera around 1600 as a deliberate attempt to recreate ancient Greek dramatic practice."
+  type: true-false
+  answer: true
+  explanation: "Opera was not an organic development — it was an intellectual project. The Camerata, a circle of humanists and musicians in Florence, believed ancient Greek theater had used music to enhance dramatic speech in ways Renaissance polyphony had obscured. They developed monody (solo song with continuo) as their solution. This humanist origin is why early opera prioritized text clarity and single-voice delivery over elaborate polyphonic texture."
+
+- question: "In the da capo aria form, the B section (middle section) is repeated with ornamentation after the A section concludes."
+  type: true-false
+  answer: false
+  explanation: "In da capo form, it is the A section that returns — 'da capo' literally means 'from the head' (i.e., from the beginning). The structure is A–B–A, where the final A is sung again from the start. This repeat of the A section was the opportunity for singers to add elaborate improvised ornamentation, demonstrating their virtuosity. The B section provides contrast but does not return."
+
+- question: "Why did the Florentine Camerata reject Renaissance polyphony in favor of monody for their new dramatic music, and what problem were they trying to solve?"
+  type: short-answer
+  answer: "The Camerata believed that Renaissance polyphony — multiple voices singing different text simultaneously — made the words incomprehensible and blurred emotional expression by generalizing it across many voices. They wanted music that could move an individual audience member through clear, emotionally direct declamation of text. Monody (a single voice with harmonic continuo support) solved this by keeping the text audible and allowing the melodic line to follow the natural rhythm and emphasis of speech. Their goal was recovering what they imagined as ancient Greek music's power to directly affect the emotions through words."
+  explanation: "This rejection of polyphony for dramatic purposes is foundational to Western opera's entire history. The tension between textual clarity and musical elaboration that the Camerata identified never fully resolved — it was simply institutionalized as the recitative/aria split that structured Baroque opera for a century."
+```
+
 ## Explainer
 
 From your study of Baroque music overview, you know the general characteristics of the era — the basso continuo texture, the emergence of tonality as an organizing principle, the affections doctrine that linked musical gestures to specific emotional states. Opera and oratorio are where these principles were applied most ambitiously, in works that attempted to sustain dramatic narrative across hours of music. Understanding these forms means understanding both an aesthetic experiment and the institutional and social machinery that made large-scale public musical drama possible.

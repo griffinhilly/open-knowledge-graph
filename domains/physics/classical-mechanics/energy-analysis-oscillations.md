@@ -27,6 +27,45 @@ In simple harmonic motion, kinetic and potential energy continuously exchange, w
 ## How It's Best Learned
 Plot kinetic, potential, and total energy vs. time and position. Verify that maximum kinetic energy equals maximum potential energy. Relate amplitude to total energy.
 
+## Questions
+
+```yaml
+- question: "A mass on a spring oscillates with amplitude A. The amplitude is then doubled to 2A with the same spring and mass. What happens to the total mechanical energy?"
+  type: multiple-choice
+  options:
+    - "It doubles, since energy is proportional to amplitude"
+    - "It stays the same, since energy depends only on the spring constant and mass"
+    - "It quadruples, since total energy E = ½kA² is proportional to A²"
+    - "It halves, since the energy is spread over a longer oscillation path"
+  answer: 2
+  explanation: "Total energy in SHM is E = ½kA², so it scales as the square of amplitude. Doubling the amplitude multiplies energy by 2² = 4. This squared relationship is important: a seemingly small increase in amplitude represents a large increase in energy. Option A (doubling) is the common error from assuming a linear relationship. Options B and D are simply wrong — energy is not conserved when you externally change the amplitude, and path length is irrelevant."
+
+- question: "At what position in its oscillation does a spring-mass system have maximum kinetic energy?"
+  type: multiple-choice
+  options:
+    - "At the turning points (x = ±A), where the spring stores maximum elastic potential energy"
+    - "At the equilibrium position (x = 0), where the spring is relaxed and all energy is kinetic"
+    - "Halfway between the turning point and equilibrium, where energy is equally divided"
+    - "At the same position as maximum potential energy, since they peak together"
+  answer: 1
+  explanation: "At x = 0 (equilibrium), the spring has zero deformation, so PE = ½kx² = 0. All the energy must be kinetic: KE = E = ½kA². This is also where the mass moves fastest (v_max = Aω). At the turning points (x = ±A), v = 0, so KE = 0 and all energy is potential. Kinetic and potential energy are perfectly out of phase — they trade off completely, never peaking at the same time. Option D is directly wrong."
+
+- question: "The kinetic energy KE(t) and potential energy PE(t) in simple harmonic motion each oscillate at twice the frequency of the displacement x(t)."
+  type: true-false
+  answer: true
+  explanation: "Since x(t) = A cos(ωt), we get PE = ½kA²cos²(ωt) and KE = ½kA²sin²(ωt). Both cos²(ωt) and sin²(ωt) oscillate at frequency 2ω — squaring doubles the frequency. This means energy reaches its maximum (kinetic at equilibrium, potential at turning points) twice per displacement cycle. Displacement has one amplitude maximum per cycle; energy has two. This factor-of-two relationship is a precise mathematical consequence of the squared relationship between energy and displacement."
+
+- question: "In simple harmonic motion, the total mechanical energy is maximum at the turning points (x = ±A) and minimum at equilibrium (x = 0)."
+  type: true-false
+  answer: false
+  explanation: "Total mechanical energy in SHM is CONSTANT — it neither increases nor decreases. E = ½kA² at every point in the motion. What changes between the turning points and equilibrium is the distribution of energy between kinetic and potential forms, not the total. At turning points, all energy is potential; at equilibrium, all energy is kinetic; everywhere else, the sum PE + KE = E is the same constant value."
+
+- question: "A damped oscillator's amplitude decreases by 30% due to friction (from A to 0.70A). By what fraction does the total energy decrease, and why?"
+  type: short-answer
+  answer: "The total energy decreases to (0.70)² = 0.49 of its original value — a reduction of about 51%. Since E = ½kA², energy is proportional to the square of amplitude. A 30% decrease in amplitude produces a 51% decrease in energy, not a 30% decrease. This squared relationship means energy always falls faster than amplitude when damping is present."
+  explanation: "This result has a practical consequence: when monitoring a damped system, a small decrease in the observable amplitude corresponds to a much larger fractional loss of energy. Engineers and physicists use this relationship to infer energy dissipation rates from amplitude measurements. It's also why amplitude is sometimes called 'the energy parameter' — it encodes the system's energy through this precise squared relationship, so knowing one immediately tells you the other."
+```
+
 ## Explainer
 
 You already know **simple harmonic motion**: a restoring force proportional to displacement (F = −kx) produces sinusoidal oscillations described by x(t) = A cos(ωt + φ), with angular frequency ω = √(k/m) and period T = 2π/ω. You also know **conservation of energy**: in the absence of non-conservative forces, the total mechanical energy of a system is constant. Energy analysis in oscillating systems is what you get when you apply conservation of energy to the specific case of SHM — and the result reveals the oscillation from a completely different angle.

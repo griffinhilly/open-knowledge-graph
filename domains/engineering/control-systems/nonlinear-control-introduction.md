@@ -32,6 +32,45 @@ Simulate the Van der Pol oscillator and the pendulum with friction as canonical 
 - Limit cycles are not the same as underdamped oscillations in linear systems — linear oscillations decay to zero or grow without bound, while a limit cycle is a self-sustaining oscillation at a fixed amplitude that persists indefinitely and attracts neighboring trajectories.
 - The describing function method is an approximation that assumes the nonlinearity's higher harmonics are filtered out by the linear plant (the "filtering hypothesis") — it can miss limit cycles or predict spurious ones when the plant does not sufficiently attenuate harmonics, so its predictions should always be verified by simulation.
 
+## Questions
+
+```yaml
+- question: "A Van der Pol oscillator is started with a very large initial amplitude — far above its limit cycle. What does the phase portrait predict will happen?"
+  type: multiple-choice
+  options:
+    - "The oscillation will grow without bound because the initial energy is large"
+    - "The system will settle at the large initial amplitude and oscillate there indefinitely"
+    - "The trajectory will spiral inward and converge to the stable limit cycle at a fixed amplitude"
+    - "The system will decay to zero because the large amplitude dissipates all energy"
+  answer: 2
+  explanation: "A stable limit cycle attracts nearby trajectories from both inside and outside. The Van der Pol oscillator's nonlinear damping acts as positive damping (energy injection) at small amplitudes and negative damping (energy dissipation) at large amplitudes. Starting above the limit cycle, the large-amplitude positive damping pulls the trajectory inward toward the limit cycle. Starting below, negative damping pushes it outward. The self-sustaining oscillation at fixed amplitude is precisely what distinguishes limit cycles from anything a linear system can produce."
+
+- question: "The describing function method predicts a limit cycle will occur when:"
+  type: multiple-choice
+  options:
+    - "The Jacobian of the system at the equilibrium point has eigenvalues with positive real parts"
+    - "The Nyquist plot of the linear part G(jω) intersects the curve −1/N(A) in the complex plane"
+    - "The phase margin of the linearized system falls below zero degrees"
+    - "The nonlinearity's gain exceeds unity at the operating frequency"
+  answer: 1
+  explanation: "The describing function method predicts a limit cycle at the intersection of G(jω) and −1/N(A), analogous to the Nyquist criterion for linear systems. The intersection point predicts both the frequency ω (from where on G(jω) the intersection occurs) and the amplitude A (from the corresponding value on the −1/N(A) curve). The Jacobian approach (option A) gives local stability information about equilibrium points but cannot predict limit cycles, which are global phenomena."
+
+- question: "Jacobian linearization is an invalid technique for nonlinear systems because it fundamentally misrepresents system behavior."
+  type: true-false
+  answer: false
+  explanation: "This is the common misconception directly identified in the topic. Linearization is locally valid near an equilibrium point — if the Jacobian's eigenvalues have negative real parts, the equilibrium is locally asymptotically stable, and linear control design methods apply in a neighborhood of that operating point. The limitation is scope, not validity: the linearized model cannot predict global behavior, limit cycles, or behavior at large amplitudes far from the operating point. Practical control design almost always uses linearized models."
+
+- question: "A stable limit cycle attracts trajectories from both inside and outside the closed orbit in the phase plane."
+  type: true-false
+  answer: true
+  explanation: "This is the defining property that distinguishes a stable limit cycle from linear oscillations. In a linear underdamped system, trajectories near a center orbit at constant amplitude — they neither converge nor diverge. A stable limit cycle in a nonlinear system has neighboring trajectories spiraling toward it from both directions: initial conditions inside the orbit spiral outward to the cycle, and initial conditions outside spiral inward. The fixed amplitude is self-sustaining and globally attractive within its basin."
+
+- question: "Why can a linear system never produce a stable limit cycle, and what property of nonlinear systems makes limit cycles possible?"
+  type: short-answer
+  answer: "Linear systems obey superposition, which constrains their behavior: equilibria are unique, and oscillations either decay, grow without bound, or maintain constant amplitude (in the underdamped case with purely imaginary eigenvalues — a center). A center is not a limit cycle because nearby trajectories are also centers at different amplitudes; none attract neighbors. A stable limit cycle requires amplitude-dependent damping — a mechanism that injects energy at small amplitudes and dissipates it at large amplitudes, so any initial condition is pulled toward the one amplitude where these effects balance. This amplitude-dependent behavior requires nonlinearity; superposition-satisfying linear systems cannot implement it."
+  explanation: "The Van der Pol oscillator is the canonical example: its damping term changes sign depending on amplitude, creating the self-correcting mechanism. This shows why phase plane analysis is necessary for nonlinear systems — the phase portrait reveals global behavior including limit cycles, separatrices, and multiple equilibria that linear analysis is structurally unable to capture."
+```
+
 ## Explainer
 
 Every linear analysis tool you have learned — transfer functions, root locus, Bode plots — rests on **superposition**: the response to a scaled or summed input is the same scaling or sum of the individual responses. This property makes linear systems analytically tractable; the entire frequency-domain machinery exists because of it. **Nonlinear systems** break superposition. A pendulum with large-angle swings, a motor that saturates, a pneumatic valve with backlash — none of these can be captured by a single transfer function valid across all operating conditions. The same system can have qualitatively different behaviors at different amplitudes, making linear predictions misleading or flat-out wrong.

@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 The gradient ∇f = ⟨∂f/∂x, ∂f/∂y⟩ (or ⟨∂f/∂x, ∂f/∂y, ∂f/∂z⟩ in 3D) points in the direction of steepest ascent. Its magnitude |∇f| is the rate of steepest ascent. The gradient is always perpendicular to level curves.
 
+## Questions
+
+```yaml
+- question: "The gradient of a function f at a point is ∇f = ⟨3, 4⟩. What is the directional derivative of f in the direction of the unit vector û = ⟨1, 0⟩?"
+  type: multiple-choice
+  options:
+    - "5 (the magnitude of ∇f)"
+    - "3 (the dot product ∇f · û)"
+    - "4 (the component of ∇f perpendicular to û)"
+    - "0 (because û is not the gradient direction)"
+  answer: 1
+  explanation: "The directional derivative in direction û is D_û f = ∇f · û. With ∇f = ⟨3, 4⟩ and û = ⟨1, 0⟩, the dot product is 3·1 + 4·0 = 3. This is the partial derivative ∂f/∂x, confirming that the gradient formula D_û f = ∇f · û generalizes partial derivatives to any direction. The magnitude |∇f| = 5 is the rate of steepest ascent — what you'd get in the gradient's own direction — but the rate in the x-direction alone is just 3."
+
+- question: "A hiker is walking along a contour line (constant elevation) on a hillside. What is the directional derivative of the elevation function in the direction of her travel?"
+  type: multiple-choice
+  options:
+    - "It equals |∇f|, the rate of steepest ascent at that point"
+    - "It is undefined because she is not moving in the gradient direction"
+    - "It equals 0, because she is not gaining or losing elevation"
+    - "It equals −|∇f|, because moving along a contour is the same as moving against the gradient"
+  answer: 2
+  explanation: "A contour line is a level curve of f — the elevation function is constant along it. If elevation doesn't change, the rate of change of elevation in her direction of travel is 0. This is the geometric content of the key fact: ∇f is always perpendicular to level curves. Moving along a level curve means moving perpendicular to ∇f, and D_û f = ∇f · û = |∇f| cos(π/2) = 0 because the angle between her direction and ∇f is 90°."
+
+- question: "The gradient vector ∇f at a point is always perpendicular (orthogonal) to the level curve of f passing through that point."
+  type: true-false
+  answer: true
+  explanation: "This is one of the two key geometric facts about the gradient. Intuitively: if you're moving along a level curve, your elevation doesn't change — the directional derivative is 0. For D_û f = ∇f · û = 0 to hold for all tangent directions û to the level curve, ∇f must be orthogonal to all such tangent vectors, i.e., orthogonal to the level curve itself. This perpendicularity is also the foundation of the gradient ascent algorithm used in machine learning."
+
+- question: "The direction of steepest descent of a function f is the direction of the gradient vector ∇f."
+  type: true-false
+  answer: false
+  explanation: "The gradient ∇f points in the direction of steepest *ascent* — the direction in which f increases fastest. The direction of steepest descent is the *negative* gradient: −∇f. The rate of change in direction û is D_û f = |∇f| cos α, where α is the angle between û and ∇f. This is maximized (steepest ascent) when α = 0 (same direction as ∇f) and minimized (steepest descent) when α = π (opposite direction, giving −|∇f|)."
+
+- question: "Explain how the single gradient vector ∇f at a point encodes the rate of change of f in every possible direction, not just along the coordinate axes."
+  type: short-answer
+  answer: "The directional derivative in any unit direction û is given by D_û f = ∇f · û = |∇f| cos α, where α is the angle between û and ∇f. This formula takes just one vector — the gradient — and produces the rate of change in any direction by taking a dot product. When û aligns with ∇f (α = 0), the rate is |∇f| (maximum). When û is perpendicular to ∇f (α = π/2), the rate is 0 (moving along a level curve). When û opposes ∇f (α = π), the rate is −|∇f| (steepest descent). The partial derivatives ∂f/∂x and ∂f/∂y are just the special cases û = ⟨1,0⟩ and û = ⟨0,1⟩."
+  explanation: "This is why the gradient is described as a 'master key' for local rate-of-change information. Before the gradient, knowing the rate of change in every direction seemed to require infinitely many calculations. The gradient collapses this to a single vector computation: compute ∇f once, then use a dot product to extract the rate in any direction. This is also why the gradient is fundamental to optimization algorithms — knowing ∇f tells you exactly which direction to move to increase or decrease f most rapidly."
+```
+
 ## Explainer
 
 Your prerequisite work gave you partial derivatives: ∂f/∂x measures the rate of change in the x-direction, ∂f/∂y in the y-direction. But these are only two directions out of infinitely many. The **gradient** ∇f = ⟨∂f/∂x, ∂f/∂y⟩ packages these partial derivatives into a single vector, and the payoff is extraordinary: this one vector encodes the rate of change in every direction at once. Knowing ∇f at a point tells you everything about how f changes locally, not just along the coordinate axes.

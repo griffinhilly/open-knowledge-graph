@@ -35,6 +35,45 @@ Start from the inverting amplifier and replace either R_in or R_f with an impeda
 - Setting the passband gain arbitrarily high without considering the gain-bandwidth product — a first-order active filter with 40 dB passband gain and a 10 kHz cutoff requires an op-amp GBW of at least 1 MHz, and the roll-off will deviate from ideal well before that.
 - Believing first-order active filters have sharper roll-off than first-order passive filters — both roll off at -20 dB/decade; the active version adds gain and buffering but does not change the filter order or roll-off rate.
 
+## Questions
+
+```yaml
+- question: "An inverting active low-pass filter has passband gain = -Rf/Rin and cutoff frequency fc = 1/(2πRfC). An engineer wants to double the passband gain without changing the cutoff frequency. What should she do?"
+  type: multiple-choice
+  options:
+    - "Halve Rin while keeping Rf and C unchanged — gain doubles, cutoff is unaffected since Rf and C don't change"
+    - "Double Rf while keeping all other components unchanged — gain doubles and cutoff shifts proportionally"
+    - "Double C while keeping Rf and Rin unchanged — the capacitor controls both gain and cutoff equally"
+    - "Double both Rf and Rin proportionally — this maintains the gain ratio while adjusting for higher frequency"
+  answer: 0
+  explanation: "Passband gain = Rf/Rin; cutoff fc = 1/(2πRfC). To double gain, double the ratio Rf/Rin. To keep cutoff fixed, keep Rf and C unchanged. Therefore halve Rin: new gain = Rf/(Rin/2) = 2Rf/Rin. Option 1 (doubling Rf only) changes both gain and cutoff simultaneously. This demonstrates the key advantage of active filters: gain (set by resistor ratio) and cutoff (set by Rf × C) are independently adjustable through separate components."
+
+- question: "A first-order active low-pass filter and a first-order passive RC low-pass filter are both designed with a cutoff frequency of 1 kHz. How do their roll-off rates above 1 kHz compare?"
+  type: multiple-choice
+  options:
+    - "Both roll off at -20 dB/decade — the active version adds passband gain and buffering but does not change the filter order or roll-off rate"
+    - "The active filter rolls off at -40 dB/decade, because the op-amp adds an additional pole to the transfer function"
+    - "The active filter rolls off at -20 dB/decade; the passive rolls off at -10 dB/decade due to loading effects"
+    - "The active filter maintains flat gain at all frequencies; only the passive version has a roll-off region"
+  answer: 0
+  explanation: "Roll-off rate is determined by filter ORDER — a first-order filter always rolls off at -20 dB/decade, regardless of whether it is active or passive. The op-amp does NOT add a pole in a first-order active filter; it provides gain and isolation. Option 1 (op-amp adds a pole, -40 dB/decade) is the most tempting misconception — active does not mean sharper. To get steeper roll-off, you need a higher-order filter design."
+
+- question: "A first-order active high-pass filter has a steeper roll-off below the cutoff frequency than an equivalent first-order passive RC high-pass filter."
+  type: true-false
+  answer: false
+  explanation: "Both are first-order filters and both roll off at exactly -20 dB/decade below the cutoff frequency. Adding an op-amp adds passband gain and prevents loading effects when cascaded, but it does not change the filter order. Roll-off slope is governed by the number of poles in the transfer function, not by whether the circuit is active or passive."
+
+- question: "The gain-bandwidth product (GBW) of an op-amp limits the practical performance of active filters at high frequencies."
+  type: true-false
+  answer: true
+  explanation: "An op-amp's open-loop gain drops at high frequencies. For a filter with passband gain A and cutoff frequency fc, the op-amp must supply gain × bandwidth = A × fc. If this product exceeds the op-amp's GBW, the op-amp's own rolloff will interfere with the designed filter response. For example, a 40 dB gain (100×) filter with a 10 kHz cutoff requires GBW ≥ 1 MHz. At very high frequencies, passive filters are often preferred precisely because they have no power supply or bandwidth limitations."
+
+- question: "What is the fundamental capability that active filters have over passive RC filters, and what circuit property of the op-amp makes this possible?"
+  type: short-answer
+  answer: "Active filters can provide passband gain greater than unity — passive filters can only attenuate (maximum passband gain is 0 dB). The op-amp's near-zero output impedance also prevents loading effects when stages are cascaded, enabling each stage to be designed independently. These two properties — gain and isolation — are unavailable in passive designs and make active filters essential when signal amplification and multistage filtering are needed simultaneously."
+  explanation: "The near-infinite input impedance and near-zero output impedance of the op-amp solve both problems passive filters face: inability to amplify and sensitivity to loading. When cascading two passive RC stages, the second stage loads the first, shifting the cutoff frequency. Active stages are perfectly isolated: the op-amp output drives the next stage from zero impedance, so the second stage has no effect on the first."
+```
+
 ## Explainer
 
 From your study of passive filters, you know that an RC low-pass filter attenuates signals above a cutoff frequency f_c = 1/(2πRC) at a rate of -20 dB/decade, while passing lower frequencies. The limitation is fundamental: a passive filter can only attenuate — it cannot amplify. Its passband gain is at most 0 dB (unity), and when you cascade two passive RC stages to improve roll-off, the second stage loads the first, shifting the cutoff frequency in a way that's hard to predict without careful analysis. From your study of op-amps, you know the op-amp has near-infinite input impedance and near-zero output impedance — properties that directly solve both of these problems.

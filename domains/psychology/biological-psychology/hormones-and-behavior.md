@@ -35,6 +35,45 @@ Trace the HPA axis cascade (stressor → CRH from hypothalamus → ACTH from pit
 - Testosterone does not straightforwardly 'cause' aggression; its effects are highly context-dependent and bidirectional (winning a competition raises testosterone).
 - Oxytocin is not simply a 'love hormone'; it increases in-group bonding but can increase out-group hostility, suggesting its function is social vigilance broadly, not unconditional trust.
 
+## Questions
+
+```yaml
+- question: "A male athlete wins a competitive match and his testosterone levels rise. He then becomes more aggressive in the next round. Which interpretation best fits the bidirectional model of hormones and behavior?"
+  type: multiple-choice
+  options:
+    - "Testosterone caused the aggression: the win simply revealed his underlying high-testosterone personality"
+    - "The win caused a testosterone rise (behavior → hormone), which then increased competitive aggression (hormone → behavior)"
+    - "Aggression is fixed by organizational effects and testosterone merely activates a pre-set level"
+    - "Testosterone is irrelevant; only the psychological experience of winning matters"
+  answer: 1
+  explanation: "The bidirectional model holds that causation runs both ways: the brain regulates hormone release, and hormones feed back to alter behavior. Winning a competition reliably raises testosterone (behavior causes hormone change), and elevated testosterone then increases competitive motivation and aggression in subsequent encounters (hormone causes behavior change). This cycle illustrates why simple claims like 'testosterone causes aggression' miss the bidirectionality — context and social outcomes are also inputs, not just outputs."
+
+- question: "A study gives participants intranasal oxytocin and finds they show increased generosity toward in-group members but increased hostility toward a perceived out-group. Which conclusion best fits these findings?"
+  type: multiple-choice
+  options:
+    - "Oxytocin is unreliable as a 'love hormone' because the study was poorly designed"
+    - "Oxytocin promotes social bonding unconditionally, and hostility toward the out-group is a separate mechanism"
+    - "Oxytocin heightens social salience and motivates group-relevant norms, producing prosocial behavior within groups and potentially hostile behavior toward perceived threats"
+    - "The out-group hostility reflects cortisol, not oxytocin, since oxytocin only promotes trust"
+  answer: 2
+  explanation: "The 'love hormone' framing predicts unconditional prosocial effects, which these results contradict. The accurate model is that oxytocin heightens social salience and the motivation to maintain group norms — producing trust and generosity within the in-group and defensive vigilance (potentially hostility) toward out-groups. This is a well-replicated pattern. Oxytocin doesn't make people universally trusting; it amplifies the distinction between us and them."
+
+- question: "Testosterone directly and consistently causes aggression in humans — higher testosterone reliably predicts more aggressive behavior."
+  type: true-false
+  answer: false
+  explanation: "The relationship between testosterone and aggression is highly context-dependent and bidirectional. Testosterone levels rise after wins and fall after losses (the 'winner effect'), meaning aggressive outcomes influence testosterone as much as testosterone influences behavior. Studies find weak and inconsistent direct relationships between baseline testosterone and aggression across situations. The same testosterone level can produce dominance, competitive motivation, risk-taking, or assertiveness depending on context — not just aggression."
+
+- question: "Chronic elevation of cortisol can impair the hippocampal mechanisms that normally regulate the HPA stress response."
+  type: true-false
+  answer: true
+  explanation: "The HPA axis is normally self-limiting through negative feedback: cortisol feeds back to the hippocampus and hypothalamus to suppress further CRH and ACTH release. But chronically elevated cortisol degrades hippocampal neurons — the very cells providing this feedback inhibition. This creates a vicious cycle: less hippocampal regulation → more cortisol → less hippocampal regulation. This mechanism explains why chronic stress leads to progressively dysregulated stress responses and is one pathway linking chronic stress to memory impairment and depression."
+
+- question: "Why is describing oxytocin as the 'love hormone' an oversimplification that can be misleading?"
+  type: short-answer
+  answer: "Oxytocin promotes prosocial behavior within social groups — trust, generosity, mother-infant bonding — which supports the 'love' framing. However, the same oxytocin release that increases in-group cooperation can increase defensive aggression toward perceived out-group members. Oxytocin's function is better described as heightening social salience and motivating group-relevant behavior broadly. The 'love hormone' label implies unconditional prosociality, but the effect is conditional on group membership. Calling it a love hormone also conflates different social relationships (romantic, parental, group solidarity) that may involve different receptor populations and circuits."
+  explanation: "This is a recurring theme in neuroendocrinology: hormones rarely have single, simple behavioral functions. Their effects depend on context, receptor distribution, prior social experience, and interacting systems. The oxytocin case is a model example of why simplistic hormone-behavior narratives mislead both scientists and the public."
+```
+
 ## Explainer
 
 The relationship between hormones and behavior is best understood as a two-way street: the brain commands hormone release, and hormones in turn reshape brain activity and behavior. You already know from the HPA axis that a stressor activates the hypothalamus, which signals the pituitary via **corticotropin-releasing hormone (CRH)**, which signals the adrenal cortex via **ACTH**, which releases **cortisol**. The crucial addition here is the feedback loop: cortisol feeds back to the hippocampus and hypothalamus to suppress further HPA activation. This negative feedback is why the stress response is normally self-limiting. Acute cortisol release is adaptive — it mobilizes glucose, suppresses non-urgent processes, and sharpens attention — but chronic elevation degrades the very hippocampal neurons that regulate the feedback, leading to runaway stress reactivity and memory impairment.

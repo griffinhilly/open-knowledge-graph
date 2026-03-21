@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Taxes significantly reduce investment returns; strategic tax-efficiency includes maximizing tax-advantaged accounts (401k, IRA, HSA), tax-loss harvesting to offset gains, and placing tax-inefficient investments in sheltered accounts. Strategic account placement can save tens of thousands over a lifetime of investing.
 
+## Questions
+
+```yaml
+- question: "An investor holds both bonds (generating interest income) and a broad stock index fund in their portfolio. They have both a taxable brokerage account and a traditional IRA. Which asset location strategy minimizes their annual tax burden?"
+  type: multiple-choice
+  options:
+    - "Put the index fund in the IRA and bonds in the taxable account, since stocks grow faster and need more tax protection"
+    - "Put the bonds in the IRA and the index fund in the taxable account, since bond interest is taxed at ordinary income rates"
+    - "Split both assets evenly between accounts to diversify the tax treatment"
+    - "Put everything in the taxable account to maintain flexibility to sell without penalty"
+  answer: 1
+  explanation: "Asset location is about placing tax-inefficient assets in sheltered accounts. Bonds generate interest income taxed annually at ordinary income rates (the highest marginal rates) — this is 'tax-inefficient' because you pay tax on distributions every year regardless of whether you sell. A broad stock index fund generates minimal annual distributions and only realizes capital gains when you sell — it is 'tax-efficient' and loses little to the taxable environment. Putting bonds in the IRA shields their interest from current taxation. The common misconception in option A — that your fastest-growing asset deserves the most shelter — confuses expected growth rate with annual tax drag."
+
+- question: "An investor sells a mutual fund at a $4,000 loss for tax-loss harvesting purposes. She wants to stay invested in the same asset class. Which action violates the wash-sale rule?"
+  type: multiple-choice
+  options:
+    - "Immediately buying a different fund from a different company that tracks the same index"
+    - "Waiting 31 days and then repurchasing the exact fund she sold"
+    - "Immediately repurchasing the exact same fund she just sold"
+    - "Buying a similar (but not identical) ETF from a different provider right away"
+  answer: 2
+  explanation: "The wash-sale rule disallows a capital loss if you repurchase the 'same or substantially identical' security within 30 days before or after the sale. Repurchasing the exact same fund immediately (option C) triggers the wash-sale rule and disallows the $4,000 loss. Options A and D — buying a different fund covering the same asset class — are the standard workaround: you stay exposed to the market while harvesting the loss. Option B (waiting 31 days) also avoids the wash sale, but leaves you out of the market during that period. The key insight is that 'substantially identical' does not mean 'similar asset class' — you can switch between two S&P 500 ETFs from different providers."
+
+- question: "Bonds are more tax-inefficient than broad stock index funds when held in a taxable brokerage account."
+  type: true-false
+  answer: true
+  explanation: "True. Bond interest is taxed as ordinary income in the year it is received, at whatever your marginal tax rate happens to be (potentially 22–37% for many investors). A broad stock index fund, by contrast, rarely distributes capital gains, and any gains are only realized and taxed when you sell — and then often at the lower long-term capital gains rate (0–20%). This annual tax drag on bonds, compounded over decades, significantly erodes their returns in taxable accounts. Holding bonds in a tax-deferred account (traditional IRA or 401k) eliminates this drag."
+
+- question: "After tax-loss harvesting a losing position, you must stay entirely out of that asset class for 30 days to avoid the wash-sale rule."
+  type: true-false
+  answer: false
+  explanation: "False — this is the most common misconception about tax-loss harvesting. The wash-sale rule only prohibits repurchasing the same or 'substantially identical' security. You can immediately buy a different fund covering the same asset class and stay fully invested. For example, selling a Vanguard S&P 500 index fund and immediately buying a Fidelity S&P 500 index fund avoids the wash sale while keeping your stock market exposure unchanged. The 30-day rule applies to that specific security, not the asset class. Staying out of the market for 30 days is one option, but it exposes you to opportunity cost — missing the market during a recovery."
+
+- question: "What is 'asset location,' and why does it generate more after-tax wealth than simply holding the same portfolio in a single account type?"
+  type: short-answer
+  answer: "Asset location is the strategy of placing each investment in the account type where its tax treatment is most favorable. Tax-inefficient assets — those that generate ordinary income or frequent taxable distributions (bonds, high-dividend stocks, actively managed funds) — go in tax-sheltered accounts (traditional IRA, 401k, HSA) where distributions are not taxed annually. Tax-efficient assets — those that generate little current income and defer gains until sale (index funds, growth stocks) — go in taxable accounts where annual tax drag is minimal. By matching each asset's tax character to the right account, you prevent high-tax distributions from eroding compounding, which produces significantly more wealth over long horizons than ignoring account placement."
+  explanation: "The insight is that two portfolios with identical holdings and identical total account balances can produce very different after-tax outcomes depending purely on which assets are in which account. This is a 'free lunch' in the sense that it requires no change in investment risk or return — only deliberate placement decisions."
+```
+
 ## Explainer
 
 Taxes are the largest controllable expense in a long-term investment portfolio. Every dollar paid in taxes is a dollar removed from compounding — and because compounding is exponential, dollars lost early in a long investment horizon are disproportionately costly. A $10,000 tax bill at age 35, had it instead remained invested, might represent $80,000 less at retirement at a 7% return over 30 years. Tax-efficient investing does not require exotic strategies; it requires using the accounts and rules that already exist in a deliberate order.

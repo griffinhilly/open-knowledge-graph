@@ -35,6 +35,45 @@ Perform the "splash test" on your deck: pour a cup of water on the surface. If t
 - Composite decking is maintenance-free — composite resists rot and insects but still requires regular cleaning to prevent mold and mildew growth, and it can stain, scratch, and fade over time.
 - A deck that looks solid on top is structurally sound — the ledger board (where the deck attaches to the house), joists, and post bases are where structural failures originate, and they are hidden from casual surface inspection.
 
+## Questions
+
+```yaml
+- question: "You inspect your deck and the surface boards look solid, feel firm underfoot, and show no visible rot. What should you do next before concluding the deck is structurally safe?"
+  type: multiple-choice
+  options:
+    - "Nothing — if the surface boards are solid, the deck is safe"
+    - "Apply a fresh coat of sealant to maintain protection"
+    - "Probe the ledger board, joists, and post bases with an awl to check for hidden rot"
+    - "Pressure wash the surface to reveal any soft spots"
+  answer: 2
+  explanation: "Surface appearance is an unreliable indicator of structural integrity. The components that fail most consequentially — the ledger board (where the deck attaches to the house), joists, and post bases — are hidden beneath the decking surface. A deck with rotted structural members can collapse without any visible warning on top. The awl test is the correct diagnostic: press the pointed tip firmly into suspect structural wood. Healthy wood resists; rotted wood accepts the point easily. Option D (pressure washing) would actually damage the wood by eroding soft grain."
+
+- question: "You pour a cup of water on your wood deck and watch it soak in and darken the wood within 3 seconds. The correct response is to:"
+  type: multiple-choice
+  options:
+    - "Apply sealant immediately to stop further water infiltration"
+    - "Clean the deck first with a deck-specific cleaner, then reseal once dry"
+    - "Pressure wash the deck to open the grain, then apply sealant"
+    - "Wait until fall to combine this with seasonal maintenance"
+  answer: 1
+  explanation: "The splash test tells you the sealant is exhausted — water is entering the wood freely. But you cannot reseal a dirty deck; sealant applied over mold, mildew, or gray oxidation will peel. The correct sequence is: clean with a deck-specific cleaner (not bleach, which damages wood fibers), allow to dry completely, then reseal. Option A skips the essential cleaning step. Option C is wrong because high-pressure washing erodes the soft grain between growth rings, leaving a rough, weakened surface that wears out faster than one cleaned with a brush and deck cleaner."
+
+- question: "Composite decking requires the same annual cleaning and resealing schedule as wood decking."
+  type: true-false
+  answer: false
+  explanation: "False. Composite decking resists rot and insects and does not need sealing or staining the way wood does. However, it is not maintenance-free — it still requires regular cleaning to prevent mold and mildew growth, and it can stain, scratch, and fade over time. The maintenance profile is different: composite needs cleaning but not the protective sealant regimen that wood requires. The misconception that composite is entirely maintenance-free leads to neglected decks that develop permanent staining and surface degradation."
+
+- question: "Cracks in a concrete patio are primarily a cosmetic problem that do not need immediate attention."
+  type: true-false
+  answer: false
+  explanation: "False. Cracks in concrete patios should be sealed because water enters cracks and, when it freezes, expands by about 9% — a process called freeze-thaw cycling that progressively widens the crack each winter. What starts as a hairline crack becomes a structural problem over several seasons if left unsealed. Sealing cracks promptly is preventive maintenance that stops a small problem from compounding. Similarly, missing jointing sand between pavers allows them to shift and creates trip hazards — these are safety concerns, not just cosmetic ones."
+
+- question: "Why should you probe a wood deck's structural members with an awl rather than relying on visual inspection, and what does the test tell you?"
+  type: short-answer
+  answer: "Visual inspection can only reveal surface conditions; structural rot in joists, ledger boards, and post bases typically begins from the inside or underside and is invisible from above. An awl pressed firmly into wood that resists the point indicates sound wood; wood that accepts the point easily indicates rot that has compromised its structural fiber. This matters because rotted structural members can fail suddenly under load even when the deck surface looks fine."
+  explanation: "The awl test works because rot degrades the cellular structure of wood, making it soft and crumbly before it shows visible external signs. A ledger board — the horizontal member bolted to the house — is especially critical: if it fails, the entire deck can pull away from the house. The awl gives you information that neither your eyes nor your feet can provide, which is why it is the standard diagnostic tool for structural deck inspection."
+```
+
 ## Explainer
 
 A deck is an outdoor wooden structure, and wood has a fundamental relationship with moisture: it absorbs water, swells, and when it dries out incompletely, it begins to rot. The entire maintenance program for a wood deck is essentially a strategy for managing that moisture relationship. Your knowledge of seasonal home maintenance gives you the framework — decks need attention in spring (post-winter inspection and cleaning) and fall (before rain and freeze season) — but the underlying principle is that wood exposed to weather will deteriorate without a protective barrier, and once rot takes hold, it spreads.

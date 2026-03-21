@@ -32,6 +32,45 @@ Trace a deposit through banking system: central bank bond purchase injects base.
 - Forgetting money multiplier is unstable.
 - Treating reserve requirements as only constraint on lending.
 
+## Questions
+
+```yaml
+- question: "The Federal Reserve buys $100 billion in government bonds. The required reserve ratio is 10%. A student predicts M2 will increase by exactly $1 trillion. What is wrong with this prediction?"
+  type: multiple-choice
+  options:
+    - "The student used the wrong formula — the multiplier is the reserve ratio itself, not its inverse"
+    - "The textbook formula gives a theoretical maximum; real multipliers are lower because banks hold excess reserves and households hold cash"
+    - "The prediction is correct — the money multiplier is a stable, reliable relationship"
+    - "The prediction is too low; modern banking multipliers are much higher than 10"
+  answer: 1
+  explanation: "The formula 1 / reserve ratio gives a theoretical maximum that assumes banks lend out every dollar of excess reserves and all money flows back as deposits. In practice, banks hold excess reserves (especially when lending is risky or interest rates are near zero) and households hold some money as cash that doesn't recirculate as deposits. The 2008 crisis demonstrated this dramatically: the Fed expanded its balance sheet by trillions, but M2 grew far more modestly because banks parked the reserves at the Fed."
+
+- question: "Which of the following does a central bank most directly control?"
+  type: multiple-choice
+  options:
+    - "M2 — the broad money supply including deposits"
+    - "The total volume of loans extended by commercial banks"
+    - "The monetary base: currency in circulation plus bank reserves"
+    - "Consumer spending and the velocity of money"
+  answer: 2
+  explanation: "The central bank controls the monetary base directly through open market operations — buying securities credits bank reserve accounts; selling debits them. Broader money supply (M1, M2), loan volumes, and consumer behavior are downstream effects that depend on how banks and households respond. The central bank controls the raw material of money creation, not the multiplication process itself. This is why the Fed's control over money supply is indirect and less reliable than its control over the base."
+
+- question: "The monetary base and the money supply (M2) are two names for the same quantity."
+  type: true-false
+  answer: false
+  explanation: "The monetary base (M0) is currency in circulation plus bank reserves held at the central bank — what the central bank directly creates. M2 is substantially larger because banks multiply the base through deposit creation (lending turns deposits into new deposits elsewhere). In normal times, M2 is several times larger than the base. The ratio between them is the money multiplier, which is variable and not fixed."
+
+- question: "Higher reserve requirements always produce a smaller money supply because they directly constrain how much banks can lend."
+  type: true-false
+  answer: false
+  explanation: "Reserve requirements are one potential constraint on lending, but often not the binding one. Capital requirements, regulatory risk weights, available creditworthy borrowers, and banks' own risk assessments all limit lending independently of reserve ratios. After 2008, U.S. banks voluntarily held reserves far above the legal minimum — the binding constraint was economic (depressed loan demand, risk aversion, the attractiveness of earning interest by parking reserves at the Fed), not regulatory. Reserve requirements can be binding in theory but often aren't in practice."
+
+- question: "Why did the Federal Reserve's massive bond purchases after 2008 not produce the large increase in broad money supply that a simple multiplier model would predict?"
+  type: short-answer
+  answer: "The bond purchases credited bank reserve accounts, expanding the monetary base dramatically. But the textbook multiplier assumes banks lend out all excess reserves, triggering a chain of deposit creation. After 2008, banks instead held massive excess reserves: borrowers were over-leveraged and credit demand was depressed, the Fed began paying interest on reserves (making it attractive to park cash at the Fed rather than lend), and risk aversion was high. Without the lending step, the multiplication chain never activated. The base expanded; the effective multiplier collapsed."
+  explanation: "This episode is the most important empirical lesson about the monetary base / money supply relationship: the central bank controls the price and quantity of base money, but whether those reserves become loans depends on the incentives and decisions of banks and borrowers. Monetary policy works primarily through changing incentives, not through mechanical multiplication. The multiplier is a useful conceptual tool but a poor quantitative forecast."
+```
+
 ## Explainer
 
 You already know how money creation works through the banking system: banks take deposits and lend out most of them, and those loans become deposits elsewhere, which are lent out again, creating a chain of new money. The **monetary base** (sometimes called "high-powered money" or M0) is the foundation of this process — it is the currency in circulation plus the reserves that banks hold at the central bank. The monetary base is what the central bank controls directly, primarily through open market operations.

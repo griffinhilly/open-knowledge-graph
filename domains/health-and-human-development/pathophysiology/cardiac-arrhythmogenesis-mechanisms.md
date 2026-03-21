@@ -30,6 +30,45 @@ Use action potential diagrams showing early (during repolarization) and delayed 
 ## Common Misconceptions
 Automaticity does not require abnormal ion channels—any cell capable of reaching threshold can generate an ectopic rhythm. Reentry requires both unidirectional block AND slow conduction; fast conduction throughout the circuit prevents reentry. Long QT syndrome increases risk of torsade de pointes, not standard VT.
 
+## Questions
+
+```yaml
+- question: "A patient's reentrant circuit has two pathways with fast and nearly equal conduction velocities, and neither pathway has unidirectional block. What will most likely happen to the electrical wavefront?"
+  type: multiple-choice
+  options:
+    - "The circuit will sustain itself indefinitely, producing a tachyarrhythmia"
+    - "The wavefront will traverse both pathways and collide in the middle, extinguishing the circuit"
+    - "The faster pathway will develop unidirectional block, enabling reentry"
+    - "The wavefront will conduct only down the slower pathway, creating a bradyarrhythmia"
+  answer: 1
+  explanation: "Reentry requires two conditions: unidirectional block in one pathway AND slow conduction in the other. Without these, wavefronts traveling down both pathways simultaneously will meet and collide — each wavefront encounters refractory tissue (the other wavefront's wake) and cannot continue. This collision-and-extinction is normal cardiac conduction. Reentry is only possible when these conditions break down specifically: one pathway blocks forward conduction, and the other is slow enough that the blocked pathway recovers before the circling wavefront arrives."
+
+- question: "A patient with congenital long QT syndrome develops a polymorphic ventricular tachycardia that appears to 'twist' around the baseline on the ECG. Which arrhythmia mechanism is most directly responsible?"
+  type: multiple-choice
+  options:
+    - "Delayed after-depolarizations from sarcoplasmic reticulum calcium overload"
+    - "Abnormal automaticity in partially depolarized ventricular myocytes"
+    - "Early after-depolarizations during prolonged phase 2/3 of the action potential"
+    - "Reentry around a fixed anatomic scar"
+  answer: 2
+  explanation: "This is torsades de pointes, the characteristic arrhythmia of long QT syndrome. EADs occur when repolarization is prolonged — as in long QT — and L-type calcium channels recover and reactivate before the action potential fully repolarizes, creating a secondary upstroke. DADs (option A) occur after repolarization is complete and are associated with calcium overload from digoxin toxicity or catecholamine excess. The common misconception is that long QT causes standard monomorphic VT — it specifically predisposes to torsades via EADs."
+
+- question: "Delayed after-depolarizations (DADs) are generated after repolarization is complete, driven by spontaneous calcium release from the sarcoplasmic reticulum activating the sodium-calcium exchanger."
+  type: true-false
+  answer: true
+  explanation: "DADs arise after the action potential has fully repolarized. When sarcoplasmic calcium is overloaded (as in digoxin toxicity or excess catecholamines), the SR releases calcium spontaneously through ryanodine receptors. The NCX expels this calcium while importing sodium, generating a net inward current that can depolarize the cell to threshold — triggering an ectopic beat. This is distinct from EADs, which interrupt the action potential mid-repolarization."
+
+- question: "Long QT syndrome increases risk of standard monomorphic ventricular tachycardia."
+  type: true-false
+  answer: false
+  explanation: "Long QT syndrome predisposes specifically to torsades de pointes — a polymorphic VT that twists around the isoelectric baseline — via early after-depolarizations. Standard monomorphic VT is more typically associated with reentry around fixed anatomic scars (e.g., post-MI fibrosis). Understanding the specific arrhythmia mechanism matters clinically because treatment differs: QT-prolonging drugs worsen torsades, while antiarrhythmics targeting the reentry circuit address monomorphic VT."
+
+- question: "Why does reentry require both unidirectional block AND slow conduction — why isn't either condition alone sufficient to sustain a reentrant circuit?"
+  type: short-answer
+  answer: "Unidirectional block alone is not enough because if conduction in the alternate pathway is fast, the circling wavefront arrives at the blocked pathway before it has recovered its excitability — it encounters refractory tissue and dies. Slow conduction alone is not enough because without unidirectional block, wavefronts traveling both directions will meet and extinguish. Both conditions must coexist: the block forces the wavefront to take the detour through the slow pathway, and the slow conduction gives the blocked pathway time to recover and become excitable again by the time the wavefront returns from behind. This timing window is what sustains the circuit indefinitely."
+  explanation: "The reentry circuit is essentially a timing problem: the wavefront must arrive at the recovered pathway just as it becomes excitable again. Unidirectional block creates the directional asymmetry that forces the detour; slow conduction creates the time delay that allows recovery. Remove either and the circuit either self-terminates or never starts. This understanding explains why antiarrhythmic drugs that slow conduction or prolong refractoriness can interrupt reentry from two different directions."
+```
+
 ## Explainer
 
 Your understanding of the cardiac action potential is the foundation for everything here. Normal cardiac rhythm depends on the SA node acting as the dominant pacemaker because it depolarizes faster than any other cardiac tissue — its slope of phase 4 spontaneous depolarization is steepest. Arrhythmias arise when this hierarchy breaks down. The three mechanisms — abnormal automaticity, triggered activity, and reentry — are distinct failure modes of cardiac electrical architecture.

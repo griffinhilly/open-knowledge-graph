@@ -22,6 +22,45 @@ In a Vickrey auction, the highest bidder wins but pays the second-highest bid. T
 ## How It's Best Learned
 Analyze bidder payoffs graphically. Show that truthful bid maximizes utility for any bid distribution. Compare revenue with first-price auctions.
 
+## Questions
+
+```yaml
+- question: "You value a painting at $600. In a Vickrey auction, you bid $800. The highest competing bid turns out to be $750. What is your payoff?"
+  type: multiple-choice
+  options:
+    - "+$600, because you won the item you wanted"
+    - "-$150, because you pay $750 for something worth $600 to you"
+    - "+$50, because your surplus is $800 minus $750"
+    - "$0, because overbidding in a Vickrey auction is always a dominant strategy"
+  answer: 1
+  explanation: "You win and pay the second-highest bid ($750), but the item is only worth $600 to you—a loss of $150. This is precisely the risk of overbidding: you occasionally win at a price above your true value, which is never worth it. A truthful bid of $600 would have lost this auction (to the $750 bidder), but that outcome is correct—winning at $750 when your value is $600 destroys $150 of surplus."
+
+- question: "Why does truthful bidding eliminate the strategic complexity that bidders face in first-price auctions?"
+  type: multiple-choice
+  options:
+    - "In second-price auctions, all bidders observe each other's valuations before submitting bids"
+    - "Your optimal bid depends only on your own valuation, not on competitors' distributions or strategies"
+    - "The auctioneer enforces truthful revelation through binding contracts before the auction starts"
+    - "Second-price auctions have fewer participants, so strategic calculation is unnecessary"
+  answer: 1
+  explanation: "In a first-price auction, optimal bidding requires shading your bid below your value—and how much to shade depends on beliefs about competitors' valuations and strategies. In a second-price auction, truthful bidding is dominant regardless of what others do. Your payoff-maximizing bid is simply your own value. The payment rule renders competitors' information irrelevant to your bidding decision."
+
+- question: "In a Vickrey auction, a bidder who knows their valuation exactly has no incentive to deviate from bidding that valuation, regardless of what other bidders do."
+  type: true-false
+  answer: true
+  explanation: "This is what 'weakly dominant strategy' means: truth-telling is at least as good as any other bid for every possible configuration of competing bids. No information about competitors—whether you have it or not—can make a non-truthful bid better. This property is exceptional; most auction formats require you to form beliefs about competitors to bid optimally."
+
+- question: "Under standard assumptions, a seller earns higher expected revenue from a Vickrey auction than from a first-price sealed-bid auction, because bidders in first-price auctions shade their bids downward."
+  type: true-false
+  answer: false
+  explanation: "The revenue equivalence theorem shows that both auction formats yield identical expected revenue under standard assumptions (risk-neutral bidders, independent private values, symmetric equilibrium). In first-price auctions, bidders shade their bids but pay what they bid; in Vickrey auctions, bidders bid truthfully but pay the second-highest bid. These effects exactly cancel in expectation."
+
+- question: "Why is bidding below your true valuation also a mistake in a Vickrey auction, even though it seems to protect you from overpaying?"
+  type: short-answer
+  answer: "Bidding below your value risks losing auctions you should win. If a competing bid falls between your true value and your understated bid, you lose even though winning would have been profitable—since you would have paid the competitor's lower bid. The Vickrey payment rule already protects you from overpaying: you always pay someone else's bid, not your own, so there is nothing to gain by understating your value and much to lose by missing profitable wins."
+  explanation: "The dominant strategy proof covers both directions: bidding above value introduces the risk of winning at a loss, while bidding below value introduces the risk of missing a profitable win. Only truthful bidding avoids both failure modes simultaneously, for every possible realization of competing bids."
+```
+
 ## Explainer
 
 From your study of auction theory, you know that auction design is about setting rules that determine who wins and what they pay. In a **second-price sealed-bid auction** (also called a **Vickrey auction**), each bidder submits a single sealed bid without seeing others' bids. The highest bidder wins the item, but — and this is the crucial twist — they pay the *second*-highest bid, not their own. This payment rule, which seems counterintuitive at first, produces a remarkably clean strategic result.

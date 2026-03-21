@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Plasmids are small, circular, self-replicating DNA molecules carrying genes for antibiotic resistance, virulence factors, and metabolic capabilities. Horizontal gene transfer occurs through conjugation (direct transfer via pili), transformation (uptake of naked DNA), and transduction (transfer via bacteriophages). These mechanisms allow rapid spread of adaptive traits across species barriers, especially under antibiotic selection.
 
+## Questions
+
+```yaml
+- question: "Hospital surveillance detects that a new MRSA strain has appeared in a patient with no known prior MRSA exposure, who was hospitalized near patients carrying a plasmid-borne methicillin resistance gene (mecA). What is the most likely route of acquisition?"
+  type: multiple-choice
+  options:
+    - "The patient's S. aureus underwent spontaneous chromosomal mutation to develop methicillin resistance during hospitalization"
+    - "The patient's immune system became tolerant to methicillin resistance factors after prolonged exposure"
+    - "Conjugation transferred the resistance plasmid from another patient's bacterial strain to the patient's own S. aureus in a single cell-to-cell contact event"
+    - "A bacteriophage evolved spontaneously in the patient's gut and transduced resistance genes between strains"
+  answer: 2
+  explanation: "This is a classic conjugation scenario. Conjugation requires only cell-to-cell contact between bacteria, which occurs readily in hospital environments where patients carry mixed bacterial flora. A plasmid encoding mecA (methicillin resistance) can be transferred from a donor strain to a recipient in a single conjugation event — there is no waiting for mutation. This is exactly why antibiotic resistance spreads so rapidly in clinical settings: the time scale of HGT is hours to days, not the generations required for chromosomal mutation and selection."
+
+- question: "Two plasmids belonging to the same incompatibility group are introduced into the same bacterial cell. What will happen over subsequent generations?"
+  type: multiple-choice
+  options:
+    - "Both plasmids coexist stably, doubling the cell's resistance to the relevant antibiotics"
+    - "The plasmids fuse into a single larger plasmid carrying all resistance genes from both"
+    - "One plasmid is progressively lost over generations because plasmids of the same incompatibility group share replication machinery and cannot both be stably maintained"
+    - "The cell becomes non-viable because two replicons competing for resources cause replication collapse"
+  answer: 2
+  explanation: "Incompatibility groups are defined by the origin of replication (ori): plasmids in the same group share the same replication machinery. When two such plasmids are present, they compete for the same replication factors and cannot be independently regulated for copy number. As the cell divides, the plasmids are randomly partitioned, and without a mechanism to ensure equal representation of both, one will be lost by random drift over generations. This principle is important for plasmid biology — if you want to maintain two plasmids in the same cell, they must be from different incompatibility groups."
+
+- question: "Horizontal gene transfer can deliver entire functional gene cassettes — including multiple antibiotic resistance genes simultaneously — to a new bacterium in a single event, even across species boundaries."
+  type: true-false
+  answer: true
+  explanation: "This is the key distinction between HGT and vertical inheritance through mutation. A single conjugation event can transfer a plasmid carrying resistance genes for β-lactams, aminoglycosides, and fluoroquinolones simultaneously — instantly converting a susceptible bacterium into a multidrug-resistant one. This can occur across species (e.g., from E. coli to Klebsiella) because conjugation and transformation don't require the organisms to be closely related. The clinical consequence is that multidrug resistance can emerge in a single step rather than through sequential accumulation of individual mutations."
+
+- question: "Transformation, like conjugation, requires direct cell-to-cell contact — naturally competent bacteria must touch the donor cell to take up DNA through specialized surface structures."
+  type: true-false
+  answer: false
+  explanation: "Transformation and conjugation are mechanistically very different. Conjugation requires direct cell-to-cell contact via a pilus and mating channel. Transformation is the uptake of free, naked DNA from the environment — DNA released when bacteria lyse and die. Naturally competent bacteria have surface-bound DNA-binding proteins and import machinery that scavenge extracellular DNA directly from solution; no donor cell contact is needed. This is why transformation can spread genes from dead bacteria to living ones, and why transformation occurs in environments where bacteria lyse (soil, biofilms, etc.) even without living donors nearby."
+
+- question: "Why does antibiotic selection pressure accelerate resistance spread through horizontal gene transfer rather than simply eliminating all bacteria, and what feature of plasmid biology makes this spread clinically dangerous?"
+  type: short-answer
+  answer: "Antibiotic selection kills susceptible bacteria but spares any bacterium that acquires a resistance plasmid — even if acquired mid-treatment. Because conjugation and transformation can transfer resistance faster than antibiotics kill cells, selection enriches for resistant strains rather than eliminating the population. The clinical danger of plasmids specifically is that a single plasmid can carry multiple resistance genes simultaneously (multidrug resistance), can replicate autonomously and be transferred at high frequency, and can spread across species — meaning a resistance gene appearing in one species can rapidly disseminate through the entire hospital microbial ecosystem."
+  explanation: "This is why the antibiotic resistance crisis is fundamentally an evolutionary and ecological problem, not just a matter of using the right drug. Selection pressure doesn't prevent HGT — it fuels it by creating a fitness advantage for any cell that acquires resistance. And because plasmids replicate independently and can carry many resistance genes at once, a single HGT event can create a bacterium resistant to multiple antibiotic classes. Hospital surveillance of resistance plasmids (tracking which incompatibility groups carry which genes, and which species harbor them) is now a critical component of infection control."
+```
+
 ## Explainer
 
 You already understand DNA structure and bacterial conjugation as a mechanism of plasmid transfer. Now we can build a broader picture: plasmids and horizontal gene transfer (HGT) represent a fundamentally different mode of inheritance from the vertical parent-to-offspring transmission you studied in classical genetics. While vertical inheritance changes genomes slowly through mutation and selection over generations, HGT can deliver entire functional gene cassettes — for antibiotic resistance, toxin production, or novel metabolism — in a single event, even across species boundaries.

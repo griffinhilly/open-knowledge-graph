@@ -31,6 +31,45 @@ Use chromosomal diagrams or FISH images to visualize each type of rearrangement.
 - Not recognizing that balanced rearrangements (e.g., balanced translocations) may have no phenotype but cause unbalanced gametes and subfertility.
 - Thinking chromosomal aberrations are always large when submicroscopic deletions and duplications cause genomic disorders.
 
+## Questions
+
+```yaml
+- question: "A couple experiences repeated miscarriages. Chromosomal analysis shows one partner carries a 'balanced reciprocal translocation' — all genetic material is present, just rearranged between two chromosomes. The carrier is completely healthy. What explains the pregnancy losses?"
+  type: multiple-choice
+  options:
+    - "The translocation disrupts essential genes in the carrier, which are transmitted in a non-functional form to embryos"
+    - "During meiosis, the rearranged chromosomes must pair as a quadrivalent, and many resulting gametes receive unbalanced combinations of chromosomal segments — partial duplications or deletions — producing inviable embryos"
+    - "Balanced translocations trigger an immunological response that causes the mother's body to reject embryos"
+    - "The translocation prevents normal fertilization because sperm carrying the rearranged chromosomes cannot penetrate the egg"
+  answer: 1
+  explanation: "A balanced translocation carrier has all chromosomal material in normal amounts — just rearranged — which is why they are phenotypically normal. The problem emerges at meiosis: the two rearranged and two normal chromosomes must form a cross-shaped quadrivalent structure to pair homologous regions. Of the possible segregation patterns from this quadrivalent, only one produces balanced gametes (one rearranged + one normal). The other configurations yield gametes with duplications of some regions and deletions of others — unbalanced combinations that typically cause embryonic lethality, explaining the recurrent miscarriages."
+
+- question: "A student assumes all chromosomal aberrations are deleterious because they disrupt genome structure. Which example best refutes this assumption?"
+  type: multiple-choice
+  options:
+    - "Large deletions removing essential gene clusters are always lethal in homozygous form"
+    - "Pericentric inversions always cause infertility because of inversion loop formation"
+    - "Chromosomal inversions can suppress recombination and lock together co-adapted allele combinations that are maintained by natural selection; gene duplications have been a primary driver of evolutionary innovation by providing raw material for new gene functions"
+    - "Submicroscopic deletions are too small to cause clinical phenotypes"
+  answer: 2
+  explanation: "The assumption that all aberrations are harmful is wrong in two important ways. Inversions suppress recombination in the inverted region, which can preserve favorable haplotypes — inversions segregating in populations are often under positive selection precisely because they maintain beneficial combinations. Gene duplications, while sometimes causing dosage effects, are a major source of new genetic material: a duplicated gene can diverge and acquire a new function while the original maintains the ancestral one. Evolutionary genomics is full of examples of how duplications powered adaptation."
+
+- question: "A person carrying a balanced chromosomal translocation will always show at least some clinical symptoms, even mild ones, because chromosome rearrangements inevitably disrupt gene expression."
+  type: true-false
+  answer: false
+  explanation: "Balanced translocation carriers typically have entirely normal phenotypes because all genetic material is present in the correct amounts — nothing is missing or duplicated. The disruption only becomes apparent at reproduction, when meiosis produces unbalanced gametes. This is why balanced translocations are often discovered incidentally (during prenatal testing or infertility workups) rather than from the carrier's own symptoms. The carrier themselves may live a completely normal life with no indication of the rearrangement."
+
+- question: "A deletion on one chromosome can cause a recessive phenotype to appear in an individual who carries only a single copy of the recessive allele, on the intact homologous chromosome."
+  type: true-false
+  answer: true
+  explanation: "This phenomenon is called pseudodominance. Normally a recessive allele on one chromosome is masked by the dominant allele on the other. If the dominant allele's chromosome carries a deletion that removes the dominant allele, the recessive allele on the intact chromosome is now unmasked — it is hemizygous, with no dominant allele to hide it. This manifests as a recessive phenotype despite the individual having only one recessive allele, which 'looks like' dominant inheritance — hence 'pseudodominance.'"
+
+- question: "Explain why a person carrying a balanced chromosomal translocation may be completely phenotypically normal yet have severely reduced fertility and a high risk of producing chromosomally abnormal offspring."
+  type: short-answer
+  answer: "A balanced translocation carrier has all chromosomal material in the right amounts — two copies of every genetic region — just distributed differently between chromosomes. This explains normal phenotype: no genes are missing or duplicated. The problem is reproductive: during meiosis, the two rearranged and two normal chromosomes must pair as a four-way quadrivalent to achieve homologous pairing. Segregation from this quadrivalent usually produces gametes with unbalanced chromosomal content — some regions present in extra copies, others missing. Most unbalanced gametes produce inviable embryos (causing miscarriage) or chromosomally abnormal liveborns. Only a minority of segregation outcomes yield balanced gametes, reducing effective fertility."
+  explanation: "This is the core insight about balanced rearrangements: phenotype and reproductive fitness are decoupled. The carrier's soma is genetically balanced; the problem is meiotic — the mechanics of how rearranged chromosomes must pair and segregate. Understanding this decoupling is clinically important: a person discovered to carry a balanced translocation during a fertility evaluation needs genetic counseling about their reproductive risks, not treatment for a disease they don't have."
+```
+
 ## Explainer
 
 From the chromosomal theory of inheritance, you know that genes reside on chromosomes and that chromosomes are transmitted faithfully during cell division. But chromosomes are physical structures — long DNA molecules packaged with proteins — and physical structures can break. When chromosomes break and rejoin incorrectly, the result is a **structural chromosomal aberration**. There are four major types, each with distinct consequences: deletions, duplications, inversions, and translocations.

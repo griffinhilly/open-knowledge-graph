@@ -34,6 +34,45 @@ Draw the two-step E1 mechanism in full and compare the energy diagram directly w
 - Increasing temperature favors elimination (E1 and E2) over substitution (SN1 and SN2) for entropic reasons.
 - E1 does not require a strong base — even the solvent can act as the base that removes the beta proton.
 
+## Questions
+
+```yaml
+- question: "A chemist reacts a tertiary alkyl bromide in ethanol/water (polar protic) with a weak base at 80°C, expecting mostly SN1 substitution product. The isolated mixture contains substantial alkene. What best explains the alkene formation?"
+  type: multiple-choice
+  options:
+    - "The high temperature caused thermal decomposition of the substrate before substitution could occur"
+    - "E1 and SN1 share the same carbocation intermediate and always compete; elevated temperature shifts the product ratio toward elimination"
+    - "The polar protic solvent promotes E2 by organizing water molecules to abstract beta protons"
+    - "The weak base becomes a strong base at elevated temperature, switching the mechanism to E2"
+  answer: 1
+  explanation: "Once a carbocation forms, it sits at a fork in the road: nucleophilic capture gives SN1 product, proton removal from a beta carbon gives E1 product. These two pathways are inseparable because they share the same intermediate. Elevated temperature favors elimination because forming two product molecules (alkene + conjugate acid of base) increases entropy (ΔS > 0), making the elimination pathway increasingly thermodynamically favorable. You cannot suppress E1 by running SN1 conditions — you can only shift the ratio."
+
+- question: "What is the rate-determining step of E1 elimination, and what does this imply about the rate law?"
+  type: multiple-choice
+  options:
+    - "Removal of the beta proton by a base; the rate law is second-order: rate = k[substrate][base]"
+    - "Formation of the alkene pi bond; the rate law depends on pi-bond stability"
+    - "Ionization of the substrate to form a carbocation; the rate law is first-order: rate = k[substrate]"
+    - "Attack of a nucleophile on the carbocation; the rate law is second-order: rate = k[carbocation][nucleophile]"
+  answer: 2
+  explanation: "E1 shares its rate-determining step with SN1: the substrate ionizes to form a carbocation, and this step is slow because it involves C–X bond breaking without nucleophilic assistance. Since only the substrate participates in the slow step, the rate law is first-order — rate = k[substrate] — and is independent of base concentration. The subsequent fast step (proton removal by any available base, including solvent) does not appear in the rate law."
+
+- question: "E1 elimination requires a strong base to remove the beta proton from the carbocation intermediate."
+  type: true-false
+  answer: false
+  explanation: "The rate-determining step of E1 is carbocation formation, not proton removal. The second step — beta proton abstraction — is fast and exothermic, and even a weak base (including the solvent itself) has sufficient basicity to remove a proton from a carbocation, which is highly acidic. This is in sharp contrast to E2, which does require a strong base because base participation is part of the rate-determining concerted step. In E1, the base strength affects the product ratio slightly but is not required to be strong."
+
+- question: "When an E1 reaction can produce multiple regioisomeric alkenes, the more substituted alkene is typically the major product."
+  type: true-false
+  answer: true
+  explanation: "E1 follows Zaitsev's rule: removal of the beta proton from the more substituted carbon gives the more substituted (and more thermodynamically stable) alkene. Because E1 proceeds through a carbocation intermediate, the system can equilibrate toward the thermodynamic product without the geometric constraints (anti-periplanar requirement) that sometimes lead E2 toward the Hofmann product. The more substituted alkene is stabilized by hyperconjugation — the same effect that stabilizes more substituted carbocations."
+
+- question: "Why is it impossible to obtain pure SN1 product (with no E1 byproduct) from a tertiary substrate under typical SN1 conditions, no matter how carefully conditions are controlled?"
+  type: short-answer
+  answer: "E1 and SN1 are mechanistically inseparable because they share the same carbocation intermediate. Once the leaving group departs and the carbocation forms, two pathways are simultaneously available: nucleophilic capture (SN1) and beta-proton removal (E1). There is no way to prevent the base/solvent from abstracting beta protons from a carbocation — every carbocation has adjacent C–H bonds, and abstraction is fast and thermodynamically favorable. Controlling conditions (weak nucleophile, low temperature) can shift the ratio heavily toward SN1, but cannot reduce E1 to exactly zero."
+  explanation: "This is a fundamental consequence of the shared intermediate: competition between pathways is inherent, not a controllable side reaction. This is one reason why synthetic chemists often prefer E2 over E1 when they want clean elimination — E2 can be controlled with strong base and appropriate substrate geometry, whereas E1 always drags SN1 along as an inseparable companion."
+```
+
 ## Explainer
 
 If you understand the SN1 mechanism, you already understand the first and rate-determining step of E1: the leaving group departs on its own to form a carbocation intermediate. The rate law is first-order — rate = k[substrate] — because only the substrate is involved in the slow step. What distinguishes E1 from SN1 is what happens next. In SN1, a nucleophile attacks the carbocation carbon. In E1, a base removes a **beta proton** (a hydrogen on a carbon adjacent to the positive carbon), and the electrons from that C–H bond form the new pi bond of an alkene. The carbocation is the common fork in the road: it can either capture a nucleophile (SN1) or lose a proton (E1).

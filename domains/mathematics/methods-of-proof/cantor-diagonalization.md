@@ -31,6 +31,45 @@ Work through the argument step by step with a concrete table of decimal expansio
 - Worrying about decimal ambiguity (e.g., 0.999… = 1.000…) — this is handled by using digits 1 and 2 only, avoiding nines and zeros.
 - Assuming the argument only works for real numbers — it generalizes to any power set.
 
+## Questions
+
+```yaml
+- question: "In Cantor's diagonalization argument, why is it guaranteed that the constructed number d is not equal to rₙ for any n?"
+  type: multiple-choice
+  options:
+    - "Because d is irrational and all listed numbers are rational"
+    - "Because d was constructed to differ from rₙ specifically in its nth decimal digit"
+    - "Because d has a different number of digits than any rₙ"
+    - "Because d lies outside the interval [0,1]"
+  answer: 1
+  explanation: "The construction is the key: d's nth digit is chosen to differ from the nth digit of rₙ specifically. So d ≠ r₁ (differs in digit 1), d ≠ r₂ (differs in digit 2), and in general d ≠ rₙ (differs in digit n). The diagonal structure ensures that every element of the supposed complete list is ruled out at a different, designated position — this is what makes the argument work."
+
+- question: "A skeptic says: 'The diagonalization argument only shows one number is missing. Just add d to the list and now it's complete.' What is the correct response?"
+  type: multiple-choice
+  options:
+    - "The argument fails if you extend the list — diagonalization only works for finite lists"
+    - "The new list also contains a missing element, constructible by the same diagonalization procedure applied to the new list"
+    - "d cannot be added to the list because it is not a real number"
+    - "The argument actually shows infinitely many numbers are missing, so adding one doesn't help"
+  answer: 1
+  explanation: "The argument is a proof by contradiction about any supposed complete list — not just one particular list. If you add d to get a new list r₁, r₂, …, rₙ, d, rₙ₊₁, …, the same diagonalization procedure applied to this new list produces yet another number d' not on the new list. No matter how you extend or rearrange the list, the construction always finds a missing element. This is why it proves uncountability, not just the absence of a specific number."
+
+- question: "The diagonalization argument works by finding a specific real number that was accidentally omitted from the list."
+  type: true-false
+  answer: false
+  explanation: "The argument constructs a number guaranteed to be missing — it does not find a pre-existing omission. Starting from any supposed complete list, it systematically builds d to differ from every listed element at a specific position. The number d depends on the list itself; it is deliberately engineered to escape the list, not discovered independently. This constructive aspect is what makes the proof so powerful and general."
+
+- question: "Cantor's diagonalization argument generalizes beyond real numbers: for any set A, the power set P(A) has strictly larger cardinality than A."
+  type: true-false
+  answer: true
+  explanation: "The generalization is exact. Given any function f: A → P(A), define a set D = {a ∈ A : a ∉ f(a)} — this is the diagonal construction in set-theoretic form. D differs from f(a) for every a ∈ A (since a ∈ D iff a ∉ f(a)), so D is not in the range of f, meaning f cannot be surjective. No bijection between A and P(A) can exist. Applying this to ℕ, P(ℕ), P(P(ℕ)), … produces an infinite hierarchy of distinct infinities."
+
+- question: "Why does the diagonalization argument specifically use the diagonal positions (a₁₁, a₂₂, a₃₃, …) rather than some other selection of positions from the list?"
+  type: short-answer
+  answer: "The diagonal positions are the unique choice that allows one construction to simultaneously target every element on the list. By using position n to target rₙ, the construction ensures d ≠ rₙ for every n using a single, unified rule. Any other selection would fail to cover all elements: if you used position 1 to differ from every rₙ, you could only guarantee d ≠ r₁. The diagonal is the clever design that makes the argument simultaneous rather than sequential."
+  explanation: "This is why 'diagonalization' is such a distinctive technique — it is not just proof by contradiction, but a specific geometric insight about how to construct a single object that escapes an entire infinite list at once. Understanding this shows why the same idea appears in Gödel's incompleteness proof and the halting problem: the diagonal construction is a general tool for building self-referential objects that escape any enumeration."
+```
+
 ## Explainer
 
 From cardinality and countability, you know that two sets have the same cardinality when there exists a bijection between them, and that a set is **countable** when it can be placed in bijection with the natural numbers ℕ — equivalently, when its elements can be listed in a sequence r₁, r₂, r₃, …. Cantor's diagonalization argument proves that the real numbers in [0,1] cannot be listed this way. The proof proceeds by contradiction and by construction: assume you *have* a complete list, then construct a number that isn't on it.

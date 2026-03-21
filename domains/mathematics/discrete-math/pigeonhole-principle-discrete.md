@@ -19,6 +19,45 @@ status: draft
 ## Core Idea
 The pigeonhole principle states: if n+1 items are placed into n boxes, at least one box must contain two items. More generally, if m items are placed into n boxes with m > n, at least one box contains ⌈m/n⌉ items. This simple principle has powerful existence proofs in combinatorics and graph theory.
 
+## Questions
+
+```yaml
+- question: "A mathematician wants to prove that among any 10 people, at least two must have been born in the same season (spring, summer, fall, winter). Which correctly identifies the pigeons and holes in a pigeonhole argument?"
+  type: multiple-choice
+  options:
+    - "Pigeons = 4 seasons, Holes = 10 people; at least one person must contain multiple seasons"
+    - "Pigeons = 10 people, Holes = 4 seasons; since 10 > 4, some season contains at least two people"
+    - "Pigeons = 10 birthdays, Holes = 365 days; some day must contain multiple birthdays"
+    - "Pigeons = 4 seasons, Holes = 4 seasons; a perfect one-to-one matching is possible"
+  answer: 1
+  explanation: "The items being distributed are the pigeons; the categories they fall into are the holes. The 10 people are assigned to 4 seasons, so people are pigeons and seasons are holes. Since 10 > 4, the basic pigeonhole principle guarantees at least one season contains ⌈10/4⌉ = 3 people. Option A inverts the roles — seasons cannot contain people. Option C switches to a different (and much weaker) argument about days."
+
+- question: "A proof concludes: 'Among any 13 people, two must share a birth month.' Which of the following correctly describes what the pigeonhole principle has established?"
+  type: multiple-choice
+  options:
+    - "It identifies exactly which two people in any group of 13 share a birth month"
+    - "It proves that at least one pair must share a birth month, without specifying which pair"
+    - "It proves that most months will be shared in any group of 13 people"
+    - "It requires knowing each person's birth month before the conclusion can be drawn"
+  answer: 1
+  explanation: "The pigeonhole principle is an existence proof — it proves that a matching pair must exist without constructing a specific example or identifying which pair it is. With 13 people and 12 months, some month must contain at least two people, but we don't know which month or which people without additional information. This is both the strength and the characteristic feature: guaranteed existence with no enumeration required."
+
+- question: "The pigeonhole principle can only be applied when the number of pigeons exceeds the number of holes by exactly 1."
+  type: true-false
+  answer: false
+  explanation: "The basic form handles n+1 pigeons in n holes (guaranteeing at least one hole has 2). The generalized form handles any m pigeons in n holes where m > n, guaranteeing at least one hole contains ⌈m/n⌉ pigeons. For example, 25 students in 7 grade categories guarantees at least ⌈25/7⌉ = 4 students share a grade. The principle is not limited to the minimal case."
+
+- question: "The most intellectually demanding part of applying the pigeonhole principle is usually identifying the right objects to serve as pigeons and holes — not the arithmetic once the identification is made."
+  type: true-false
+  answer: true
+  explanation: "Once you correctly identify 'these m things are being sorted into n categories with m > n,' the principle applies immediately and the conclusion is automatic. The hard work is creative: choosing which partition of objects reveals the pigeonhole structure. In the proof that any n+1 integers from {1,...,2n} contain two consecutive ones, the key insight is partitioning into pairs {1,2},{3,4},...,{2n-1,2n} — after that, the argument is one line."
+
+- question: "Explain why the pigeonhole principle is called an 'existence proof,' and why this style of reasoning is useful when constructing an explicit example would be difficult."
+  type: short-answer
+  answer: "An existence proof establishes that something must exist without producing a specific example. The pigeonhole principle says 'some box must contain at least two items' based purely on the count of items and boxes — it doesn't tell you which box or which items. This is powerful when explicit construction is hard: proving that among 13 people some two share a birth month doesn't require interviewing anyone; counting suffices. This style appears throughout combinatorics where counting relationships guarantees structural properties without enumeration."
+  explanation: "Existence proofs are a fundamental proof technique in discrete mathematics. The pigeonhole principle is perhaps the purest example: the conclusion (some pair shares a category) follows from pure counting, independent of any knowledge about which specific assignment is made. The practical skill is learning to recognize when a problem secretly has a 'too many objects for too few categories' structure — at which point the hard work is already done."
+```
+
 ## Explainer
 
 The pigeonhole principle sounds almost too obvious to be useful: if you have 13 socks in 12 drawers, at least one drawer holds 2 socks. The power comes from recognizing when a seemingly hard problem secretly has this structure hiding inside it. The art of applying the pigeonhole principle is identifying the right "pigeons" (objects being distributed) and the right "holes" (categories they fall into).

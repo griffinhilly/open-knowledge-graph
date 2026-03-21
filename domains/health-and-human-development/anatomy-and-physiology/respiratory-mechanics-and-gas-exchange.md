@@ -36,6 +36,45 @@ Measure your own lung volumes and capacities using spirometry. Trace air pathway
 - Thinking the diaphragm pulls air into the lungs; actually it creates a negative pressure gradient that air flows down.
 - Assuming equal ventilation to all lung regions; gravity and pleural pressure gradients create regional differences.
 
+## Questions
+
+```yaml
+- question: "A patient has emphysema, where the elastic tissue of the lung parenchyma is destroyed. What is the primary consequence for breathing mechanics?"
+  type: multiple-choice
+  options:
+    - "Inspiration becomes extremely difficult because the lungs are too stiff to expand"
+    - "Expiration becomes difficult because passive elastic recoil is lost, requiring active muscular effort to exhale"
+    - "Airway resistance increases dramatically because the destroyed tissue narrows the bronchioles"
+    - "Gas exchange improves because the thinner alveolar walls reduce diffusion distance"
+  answer: 1
+  explanation: "Elastic recoil drives passive expiration. In emphysema, destruction of elastic tissue means the lungs no longer recoil inward after inspiration, so the patient must actively use expiratory muscles to exhale — this is why emphysema patients often purse their lips and lean forward. Option A describes pulmonary fibrosis (stiff lungs), not emphysema. Emphysema actually makes inflation easy; it's expiration that suffers."
+
+- question: "Bronchospasm reduces an airway's radius by half. By approximately what factor does resistance in that airway increase?"
+  type: multiple-choice
+  options:
+    - "2-fold — resistance increases proportionally to the reduction in radius"
+    - "4-fold — resistance scales with the square of the radius"
+    - "8-fold — resistance scales with the cube of the radius"
+    - "16-fold — resistance is inversely proportional to the fourth power of the radius"
+  answer: 3
+  explanation: "Poiseuille's Law states resistance ∝ 1/r⁴. Halving the radius means the new resistance = 1/(0.5)⁴ = 1/0.0625 = 16 times the original. This fourth-power relationship explains why even modest bronchospasm during an asthma attack dramatically increases the work of breathing — a 30% reduction in radius more than quadruples resistance. The linear, squared, and cubed options represent common misconceptions about the r⁴ relationship."
+
+- question: "During quiet breathing at rest, expiration is an active process that requires contraction of the abdominal and internal intercostal muscles."
+  type: true-false
+  answer: false
+  explanation: "Quiet expiration is entirely passive. At rest, the diaphragm simply relaxes, and the elastic recoil of the lungs and chest wall compresses alveolar volume, raising alveolar pressure above atmospheric. Air flows out down the resulting pressure gradient with no muscular effort. Active expiration only occurs during exercise or forced breathing when faster or more complete exhalation is required."
+
+- question: "In pulmonary fibrosis, lung compliance is reduced, which means more muscular work is required for each breath."
+  type: true-false
+  answer: true
+  explanation: "Compliance is the volume change per unit pressure change (ΔV/ΔP). Reduced compliance means the lungs are stiffer — a larger pressure change is needed to achieve the same volume change. This requires greater diaphragm and accessory muscle effort on each inspiration. Patients with pulmonary fibrosis typically breathe with a pattern of rapid, shallow breaths, as each deep breath is prohibitively effortful."
+
+- question: "Why does halving an airway's diameter increase its resistance by 16-fold rather than 2-fold, and what does this mean clinically for conditions like asthma?"
+  type: short-answer
+  answer: "Airway resistance follows Poiseuille's Law: resistance is inversely proportional to the fourth power of the radius (R ∝ 1/r⁴). Halving the radius means resistance increases by (1/0.5)⁴ = 16-fold. Clinically, this means that even modest bronchospasm in asthma — perhaps reducing airway diameter by 20–30% — produces a disproportionately large increase in resistance and breathing work, explaining why asthma attacks can become life-threatening rapidly and why bronchodilators that restore even partial airway diameter have dramatic therapeutic effects."
+  explanation: "The key insight is the nonlinearity. A linear relationship would mean diameter halved = resistance doubled. The r⁴ relationship amplifies small anatomical changes into enormous physiological consequences. This also explains why total airway resistance is actually highest in large central airways (absolute resistance) rather than the terminal bronchioles — even though individual small airways have high resistance, they exist in large numbers and act in parallel, reducing their collective contribution."
+```
+
 ## Explainer
 
 You already know the anatomy of the respiratory tract and that ventilation moves air in and out. This topic explains the *mechanics* — the physical forces that make breathing work — and the *chemistry* of how gases actually cross from air into blood. Both depend on gradients: pressure gradients for bulk airflow, and partial pressure gradients for diffusion.

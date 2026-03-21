@@ -36,6 +36,45 @@ Plot triadic progressions on a Tonnetz diagram and measure voice-leading distanc
 ## Common Misconceptions
 - Treating Tonnetz as prescriptive; efficient voice leading is not always desirable or chosen by composers. - Confusing proximity on the Tonnetz with musical syntax; spatial proximity does not imply functional relationship. - Overlooking that Tonnetz analysis applies mainly to triadic harmony and neo-Riemannian contexts.
 
+## Questions
+
+```yaml
+- question: "On the Tonnetz, C major and A♭ major are only two transformation steps apart. What does this tell us about their relationship?"
+  type: multiple-choice
+  options:
+    - "They have a standard diatonic functional relationship"
+    - "They share common tones and require small voice movements, even though they lack a diatonic functional relationship"
+    - "They belong to the same tonal center and key area"
+    - "They are enharmonically equivalent triads"
+  answer: 1
+  explanation: "Tonnetz proximity describes voice-leading efficiency, not functional harmony. C major and A♭ major share the pitch class C (and with enharmonic spelling, E♭), and only one voice moves by semitone. The progression is characteristic of Romantic chromatic mediant writing precisely because smooth voice leading disguises the functional distance. Confusing Tonnetz proximity with functional relationship is the central misconception to avoid."
+
+- question: "Why do the P (parallel), L (leading-tone exchange), and R (relative) transformations each preserve exactly two common tones between the source and target triad?"
+  type: multiple-choice
+  options:
+    - "Because they operate within the same diatonic scale, sharing scale tones"
+    - "Because each corresponds to flipping a Tonnetz triangle across a shared edge, where the two endpoints of the edge are the two retained pitch classes"
+    - "Because all reversible transformations preserve two common tones by definition"
+    - "Because triads within the same key always share exactly two pitch classes"
+  answer: 1
+  explanation: "On the Tonnetz, each triangle (triad) shares an edge with adjacent triangles. That shared edge represents two pitch classes — the common tones. The P, L, R operations are precisely the flips across these edges: one voice moves (by semitone or whole tone) while the two endpoints of the shared edge remain. This geometric picture directly explains the common-tone structure of each transformation."
+
+- question: "A Tonnetz path of minimal length (fewest P/L/R steps) between two triads always corresponds to the most voice-leading-efficient progression between them."
+  type: true-false
+  answer: true
+  explanation: "This is the parsimony principle. Each P, L, R step preserves two common tones and moves at most one voice by a small interval. The shortest path through the Tonnetz accumulates the least total voice movement, making it the most parsimonious route between the two triads. This equivalence between Tonnetz distance and voice-leading efficiency is the central insight of neo-Riemannian theory."
+
+- question: "Because the Tonnetz encodes voice-leading efficiency, composers who navigate it with minimal steps are necessarily following the syntax of functional harmony."
+  type: true-false
+  answer: false
+  explanation: "Tonnetz proximity describes geometric proximity in voice-leading space, not functional harmonic syntax. A chain of chromatic mediant progressions can traverse remote regions of the Tonnetz with impeccably smooth voice leading while completely bypassing the dominant-tonic progressions that define functional grammar. Efficient Tonnetz paths and functional harmonic syntax are independent dimensions of musical structure."
+
+- question: "Explain why the Tonnetz can reveal voice-leading proximity between two triads that seem 'harmonically distant' in traditional tonal theory."
+  type: short-answer
+  answer: "Traditional tonal theory measures harmonic distance by diatonic relationships — how far two chords are from a shared tonal center or diatonic scale. The Tonnetz instead measures voice-leading efficiency: how much the individual voices must move. Two triads can be adjacent on the Tonnetz (sharing common tones, requiring small voice movements) even if they have no diatonic functional connection. Chromatic mediants are the paradigm: C major to A♭ major involves moving only one voice by semitone despite lacking a standard functional relationship, explaining the characteristic smoothness of such progressions in Romantic music."
+  explanation: "The Tonnetz makes visible a geometric logic in voice leading that is orthogonal to functional syntax — it reveals structure that functional theory cannot capture."
+```
+
 ## Explainer
 
 From your study of **Tonnetz pitch space** and **neo-Riemannian operations** (P, L, R), you know the Tonnetz as a hexagonal lattice where each node is a pitch class, and each triangle represents a major or minor triad. Adjacent triangles share an edge, which means they share two common tones — and the **P, L, R transformations** are exactly the moves that flip between adjacent triangles. The key insight for *navigation* is that every sequence of triadic transformations traces a *path* through this lattice, and the length of the path — measured in number of transformation steps or common tones lost — is a precise measure of **voice-leading efficiency**.

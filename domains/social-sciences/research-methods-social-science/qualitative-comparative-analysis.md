@@ -28,6 +28,45 @@ Create a data matrix for QCA, identify necessary and sufficient conditions, anal
 - Fuzzy membership scores are objective
 - High coverage and consistency guarantee causal validity
 
+## Questions
+
+```yaml
+- question: "A QCA analysis finds that 'strong civil society AND absence of a veto-playing military' together form a sufficient condition for democratic consolidation, but neither condition alone predicts the outcome. A regression analysis of the same data finds positive, significant coefficients for both variables. Which statement best captures the distinctive contribution of the QCA finding?"
+  type: multiple-choice
+  options:
+    - "The regression result is more trustworthy because it simultaneously controls for both variables and accounts for their individual effects"
+    - "The QCA result reveals that the two conditions must occur together — their combination produces the outcome even if neither alone predicts it, which regression cannot show"
+    - "Both methods reach the same conclusion, just using different language for the same underlying causal claim"
+    - "QCA shows the conditions are necessary, while regression shows they are sufficient — the two methods are therefore complementary but not contradictory"
+  answer: 1
+  explanation: "QCA's configurational logic identifies which *combinations* of conditions produce outcomes — an INUS structure where neither condition alone is sufficient, but together they are. Regression estimates average independent effects, which cannot reveal that two variables only 'work' in combination. The QCA finding is not translatable into regression language: a significant coefficient for civil society does not tell you that it matters only when the military is absent."
+
+- question: "In building a crisp-set QCA truth table, a researcher finds that two cases share the same configuration of conditions but have different outcomes — one shows democratic consolidation, the other does not. What is the methodologically appropriate response?"
+  type: multiple-choice
+  options:
+    - "Average the two outcomes and assign a value of 0.5 to that truth table row"
+    - "Randomly assign one case to each outcome to maintain balance across the table"
+    - "Mark the row as contradictory, then return to the cases to search for a differentiating condition that was omitted from the analysis"
+    - "Drop both cases as methodological outliers and proceed with the remaining cases"
+  answer: 2
+  explanation: "Contradictions in a truth table — same configuration, different outcomes — signal either measurement error or an omitted condition that differentiates the cases. The correct response is to use the contradiction as a diagnostic: which condition, if added or recoded, would distinguish the two cases? QCA treats contradictions as substantively informative rather than as noise to be discarded. Averaging or randomizing outcomes would obscure the analytical information the contradiction contains."
+
+- question: "In QCA, a necessary condition for an outcome must be present every time the outcome occurs, but its presence alone does not guarantee the outcome will occur."
+  type: true-false
+  answer: true
+  explanation: "Necessity means: no outcome without this condition — whenever you observe the outcome, you also observe the condition. But a necessary condition can be present in many cases that do not show the outcome, which is why it is not sufficient. For example, oxygen is necessary for fire but does not by itself cause fire. This asymmetry between necessity and sufficiency is fundamental to QCA's logic and distinguishes it from symmetric regression relationships."
+
+- question: "High QCA solution coverage guarantees that the identified causal pathway is valid, because it shows the pathway explains most observed instances of the outcome."
+  type: true-false
+  answer: false
+  explanation: "Coverage measures how much of the observed outcome a solution pathway accounts for — a high-coverage pathway appears in many cases where the outcome occurs. But coverage says nothing about whether the relationship is causally valid. A pathway can have high coverage and low consistency, meaning the condition is often present when the outcome occurs but also present when it does not — which would indicate correlation without sufficient-condition logic. Both consistency and coverage must be reported and interpreted together."
+
+- question: "How does QCA's configurational logic differ from regression analysis, and what kind of causal question is QCA uniquely suited to answer?"
+  type: short-answer
+  answer: "Regression estimates the average independent effect of each variable holding others constant — a net, additive causal claim. QCA examines which combinations of conditions are sufficient or necessary for an outcome, treating cases as bundles of conditions rather than as observations on independent variables. QCA is uniquely suited to questions where causation is combinatorial: where no single factor alone produces the outcome, where multiple different pathways can each be sufficient, and where small-N case comparison is the evidence base."
+  explanation: "The key distinction is between average effects (regression) and set-theoretic relationships (QCA). If the research question is 'what is the average effect of X?' regression is appropriate. If the question is 'what combination of conditions, present or absent, reliably produces this outcome?' QCA is appropriate. QCA also handles equifinality — the idea that different causal combinations can lead to the same outcome — which regression cannot easily model."
+```
+
 ## Explainer
 
 Your prerequisite in case study design introduced you to the logic of learning from small numbers of cases by examining them in depth and comparing across them systematically. **Qualitative Comparative Analysis** (QCA) sits at the boundary between case-based and variable-based reasoning: it retains the idea that cases are configurations — bundles of conditions that must be understood as wholes — while introducing a formal, systematic procedure for comparing them across a medium-N set (typically 10–50 cases). Think of it as a way to bring the rigor of comparative logic to the kind of question that motivates case study work: why did some countries democratize and others not? Why did some social movements succeed while others failed?

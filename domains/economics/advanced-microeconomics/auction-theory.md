@@ -30,6 +30,45 @@ status: draft
 ## Core Idea
 Auction theory analyzes mechanisms for selling goods to bidders with private valuations. Key results include the revenue equivalence theorem (many auctions yield same expected revenue under symmetry) and the optimal auction design (Myerson auction). Auctions are canonical applications of mechanism design with incomplete information.
 
+## Questions
+
+```yaml
+- question: "A seller holds an English ascending auction and earns $500 in expected revenue. They consider switching to a first-price sealed-bid auction with identical bidders and valuations. Under standard assumptions, what should the seller expect?"
+  type: multiple-choice
+  options:
+    - "Higher revenue — in first-price auctions bidders cannot observe rivals' bids, so they bid closer to their true values"
+    - "Lower revenue — bidders shade their bids below true values in first-price auctions, reducing what the seller receives"
+    - "The same expected revenue — both formats are covered by the revenue equivalence theorem under symmetric IPV and risk-neutral bidders"
+    - "Revenue depends entirely on the number of bidders, not the auction format"
+  answer: 2
+  explanation: "The revenue equivalence theorem states that under symmetric independent private values, risk-neutral bidders, and a common prior distribution, all standard auction formats generate the same expected revenue. Although bidders shade their bids in a first-price auction (bidding below their true value to earn positive surplus), they bid more aggressively than they would in a second-price auction, and these effects exactly cancel. If revenues differ across formats in practice, it signals a violation of the assumptions — e.g., risk-averse bidders (who overbid in first-price to reduce uncertainty) or correlated valuations."
+
+- question: "In a Myerson optimal auction, the seller refuses to sell to a bidder who values the item at $30 even when no other bidder is present. Why might this be revenue-maximizing?"
+  type: multiple-choice
+  options:
+    - "The Myerson auction prioritizes fairness and requires multiple bidders to function"
+    - "Setting a reserve price above $30 means the seller is simply irrational — selling always beats not selling"
+    - "If the bidder's virtual valuation is negative (due to the information rent markup), allocating to them would cost the seller more in expected information rents than it gains"
+    - "The seller is legally required to set a minimum price equal to production cost"
+  answer: 2
+  explanation: "Virtual valuation = true value − (information rent markup based on the type distribution). For bidders with low valuations and a distribution that places significant probability mass below their value, the virtual valuation can be negative. Selling to such bidders is inefficient for the seller: the information rent they must be given (to prevent high-type bidders from mimicking low types) exceeds their contribution. A reserve price that excludes them raises expected revenue despite sometimes resulting in no sale. This is the central tension: the allocation that maximizes revenue differs from the allocation that maximizes social surplus."
+
+- question: "In a second-price sealed-bid auction, truthful bidding (submitting your true valuation) is a dominant strategy — optimal regardless of what other bidders do."
+  type: true-false
+  answer: true
+  explanation: "In a second-price auction, you pay the second-highest bid, not your own. If you bid your true value v: if you win (your bid is highest), you pay the second-highest bid, which is less than v, earning positive surplus. If you lose, you pay nothing. Bidding above v risks winning when the second price exceeds v (negative surplus). Bidding below v risks losing to a bid between your reduced bid and v, when you would have profited by winning. Neither deviation improves your expected outcome — truthful bidding weakly dominates all alternatives, and this holds regardless of what others bid."
+
+- question: "The revenue equivalence theorem implies that sellers should be indifferent among all auction formats regardless of bidders' risk preferences and the correlation structure of their valuations."
+  type: true-false
+  answer: false
+  explanation: "Revenue equivalence holds only under specific assumptions: symmetric bidders, independent private values, risk-neutral bidders, and common prior distribution. If bidders are risk-averse, first-price auctions tend to generate higher revenue (risk-averse bidders overbid to reduce the uncertainty of losing). If valuations are correlated (a common scenario when bidders have overlapping information), ascending auctions tend to generate more revenue than sealed-bid formats. Revenue equivalence tells you the conditions under which format doesn't matter; it also tells you exactly which violations will make it matter."
+
+- question: "Why does maximizing revenue in an auction sometimes require allocating the good inefficiently — and what insight does this reveal about mechanism design?"
+  type: short-answer
+  answer: "Revenue maximization requires allocating to the bidder with the highest virtual valuation, not the highest true valuation. Virtual valuation subtracts an information rent markup reflecting the seller's uncertainty about the bidder's type. For low-valuation bidders, this markup can exceed their true value, making their virtual valuation negative — so the seller earns more by withholding the good than by selling to them. The efficient allocation (give it to whoever values it most) ignores this rent; the revenue-maximizing allocation accounts for it. The gap between the two reveals that extracting information from privately-informed buyers is not free — it requires distorting the allocation."
+  explanation: "This is a microcosm of the broader mechanism design lesson: when agents have private information, any mechanism that elicits truthful reporting must grant them information rents (surplus from revealing their type). Mechanisms that extract more rent from high-value types must compensate low-value types — or exclude them. The revenue-optimal mechanism optimally trades off these information costs against the gains from trade, and the result is a reserve price that excludes some potential buyers even when trade would be mutually beneficial."
+```
+
 ## Explainer
 
 An auction is a game where a seller allocates a good to one of several buyers, each of whom privately knows how much the good is worth to them. From your study of game theory, you know how to analyze strategic interaction; from mechanism design, you know the seller can shape the rules to influence outcomes. Auction theory applies both toolkits to a specific, economically important setting: how should goods be sold when the seller does not know buyers' valuations?

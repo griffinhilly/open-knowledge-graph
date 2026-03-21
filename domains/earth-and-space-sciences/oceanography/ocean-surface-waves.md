@@ -35,6 +35,45 @@ Distinguish between deep-water waves (period determines speed) and shallow-water
 - Water in a wave doesn't travel horizontally — individual water particles move in circular or elliptical orbits, returning near their starting point.
 - Wave height and wavelength are independent; a wave with a long wavelength is not necessarily tall.
 
+## Questions
+
+```yaml
+- question: "A surfer watches a wave pass beneath them. How does the water where the surfer floats actually move?"
+  type: multiple-choice
+  options:
+    - "The water moves forward continuously, carrying the surfer toward shore"
+    - "The water moves in a roughly circular orbit, returning near its starting position after the wave passes"
+    - "The water moves up and down vertically with no horizontal component"
+    - "The water is stationary; only the wave shape moves through it"
+  answer: 1
+  explanation: "Water particles in a surface wave move in circular orbits — they trace a nearly closed loop as the wave passes, ending up close to where they started. This is the key distinction between the wave (which carries energy) and the water (which doesn't travel with it). Option A describes a current, not a wave. Option C oversimplifies — there is a horizontal component to orbital motion. Option D is energetically in the right direction but wrong about particle motion."
+
+- question: "A powerful storm in the North Pacific generates large waves. An oceanographer monitoring buoys along the California coast notices that the first waves to arrive from the storm have 18-second periods, followed days later by 10-second waves. Why do longer-period waves arrive first?"
+  type: multiple-choice
+  options:
+    - "Longer-period waves are generated first by the storm's initial gusts"
+    - "Longer-period waves have faster phase speeds in deep water and outrun shorter-period waves"
+    - "Longer-period waves lose less energy to friction and therefore survive the journey better"
+    - "Wind direction preferentially sends longer-period waves toward shore"
+  answer: 1
+  explanation: "In deep water, wave speed is proportional to wave period — longer-period waves travel faster. This property (dispersion) causes the wave field leaving a storm to sort itself: the fastest (longest-period) waves lead the pack, arriving at distant shores days before the slower short-period waves. This is why distant swell arrives with long periods first, shortening progressively over the following days. Energy loss (option C) is real but is not the cause of the period sorting."
+
+- question: "As ocean waves approach a shallow shoreline, they slow down and their wavelength decreases, but their energy is approximately conserved — causing the wave to steepen."
+  type: true-false
+  answer: true
+  explanation: "This is correct. As deep-water waves enter shallow water (depth less than half the wavelength), the seafloor begins to interfere with the circular orbital motion of water particles. The wave slows and its wavelength shortens, but energy is approximately conserved — which forces wave height to increase to compensate. This energy concentration is why breaking waves can be powerful even from modest offshore swells."
+
+- question: "In ocean surface waves, water molecules travel horizontally with the wave, progressively moving from the generation area toward shore."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about waves. Water particles in a wave undergo circular (or elliptical near the seafloor) orbital motion, returning near their starting position after each wave passes. It is the wave pattern — a disturbance carrying energy — that moves across the ocean, not the water itself. Net water transport over thousands of kilometers occurs in currents, not waves."
+
+- question: "What is 'dispersion' in the context of ocean surface waves, and what observable consequence does it have when swell from a distant storm arrives at a coastline?"
+  type: short-answer
+  answer: "Dispersion means that wave speed in deep water depends on wavelength (or equivalently, period) — longer waves travel faster. As a result, a storm generates waves at many periods simultaneously, but they arrive at a distant shore sorted by speed: longest-period waves arrive first, followed over hours or days by progressively shorter-period waves."
+  explanation: "Dispersion transforms a chaotic storm sea into the clean, organized swell that surfers and sailors recognize. Without dispersion (if all wave periods traveled at the same speed), the confused sea would arrive as a jumbled mess. Instead, the sorting by speed creates a predictable arrival sequence that oceanographers use to trace swell back to its generating storm and estimate storm characteristics from thousands of kilometers away."
+```
+
 ## Explainer
 
 You already know from your study of wave properties that waves carry energy through a medium without permanently displacing the medium itself, and that waves are described by wavelength, frequency, amplitude, and speed. Ocean surface waves are a powerful application of these concepts — they are among the most energetic wave phenomena on Earth, and understanding them requires connecting your general wave knowledge to the specific physics of wind, water, and gravity.

@@ -28,6 +28,45 @@ Review your own portfolio and identify positions with unrealized losses. Compare
 ## Common Misconceptions
 Tax efficiency only matters for wealthy investors; you should never sell a losing position; all capital gains are taxed at the same rate; tax-loss harvesting is only for active traders.
 
+## Questions
+
+```yaml
+- question: "An investor sells Stock A for a $10,000 gain and Stock B for a $7,000 loss in the same tax year. What is their net taxable capital gain?"
+  type: multiple-choice
+  options:
+    - "The full $10,000 is taxable — losses from other investments cannot offset gains"
+    - "$3,000 — the harvested loss reduces the recognized gain"
+    - "The full $7,000 loss is carried forward but does not affect this year's gain"
+    - "$0 — gains and losses cancel each other out completely"
+  answer: 1
+  explanation: "Tax-loss harvesting lets you net losses against gains. The $7,000 loss directly offsets the $10,000 gain, leaving $3,000 of taxable gain. Option A is wrong: losses can offset gains in the same year. Option D is wrong: you only had $7,000 of losses against $10,000 of gains, so $3,000 remains taxable. If losses exceed gains, up to $3,000 of excess losses can offset ordinary income, with any remainder carried forward."
+
+- question: "An investor sells Stock C at a loss and immediately repurchases identical shares the next day to maintain market exposure. What is the tax outcome?"
+  type: multiple-choice
+  options:
+    - "The loss is fully deductible because the sale was genuine and the repurchase was a separate transaction"
+    - "The loss is partially deductible, proportionally reduced by the repurchase"
+    - "The loss is disallowed by the wash sale rule because the investor bought back the same security within 30 days"
+    - "The investor can deduct the loss but must also recognize a gain on the repurchase"
+  answer: 2
+  explanation: "The wash sale rule disallows a tax loss if you buy back the same or 'substantially identical' security within 30 days before or after the sale. The key insight is that tax-loss harvesting requires substituting a *similar but not identical* investment — like a different S&P 500 index fund — to maintain market exposure while still validating the loss. The common misconception is that any sale-and-repurchase qualifies; the IRS specifically closes this loophole."
+
+- question: "Tax-loss harvesting permanently eliminates the taxes owed on the losses you harvest."
+  type: true-false
+  answer: false
+  explanation: "Tax-loss harvesting *defers* taxes, it does not eliminate them. When you sell a losing position and buy a replacement, your cost basis in the replacement is lower. When you eventually sell the replacement at a gain, that gain will be larger — and taxable. The benefit is that you delay taxes, allowing the deferred amount to keep compounding. The deferral has real value (a dollar compounding now beats a dollar paid later), but it is not the same as permanent elimination."
+
+- question: "A long-term capital gain is taxed at a lower rate than a short-term capital gain for most U.S. investors."
+  type: true-false
+  answer: true
+  explanation: "Short-term gains (assets held less than one year) are taxed as ordinary income — the same rate as wages, potentially 22–37%. Long-term gains (held more than one year) receive preferential rates of 0%, 15%, or 20% for most investors. The difference can be dramatic: a $10,000 gain taxed at 24% costs $2,400; the same gain taxed at 15% costs $1,500. Simply waiting past the one-year mark before selling a profitable position is one of the most reliable tax-efficiency moves available."
+
+- question: "Why does placing bonds inside a tax-advantaged account (like a 401k or IRA) rather than a taxable brokerage account improve after-tax returns?"
+  type: short-answer
+  answer: "Bonds generate regular interest income, which is taxed as ordinary income each year in a taxable account. By holding bonds inside a tax-advantaged account, that interest compounds without annual taxation — either tax-deferred (traditional accounts) or tax-free on growth (Roth accounts). Tax-efficient assets like broad index funds generate little income and realize gains only when sold, so they waste less of the tax shelter. Placing the most tax-inefficient assets where they are fully shielded maximizes the value of the account's protection."
+  explanation: "This is the 'asset location' principle — the *type of account* matters as much as *what you hold*. Investors often focus only on what they buy and ignore where they hold it. Tax-inefficient assets (bonds, REITs, actively managed funds with high turnover) produce the most annual taxable events; shielding them inside tax-advantaged wrappers provides the greatest benefit. Index funds, with low turnover and deferred gains, waste comparatively little of a taxable account's flexibility."
+```
+
 ## Explainer
 
 From your work on tax filing, you know that the government taxes different types of income differently. Investment returns are no exception — and because investments can grow for decades, even small differences in tax treatment compound into large differences in final wealth. **Tax-efficient investing** means making deliberate choices about *what* to hold, *where* to hold it, and *when* to sell, with the goal of minimizing the taxes owed on your investment returns.

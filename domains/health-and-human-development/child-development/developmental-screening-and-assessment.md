@@ -42,6 +42,45 @@ Administer and score a standardized screening tool (e.g., ASQ) across hypothetic
 - 'Wait and see' for speech or developmental delays frequently delays intervention beyond the most effective window.
 - Screening tools normed on one population can produce misleading results when applied to culturally different groups without appropriate validation.
 
+## Questions
+
+```yaml
+- question: "A 22-month-old scores below the ASQ cutoff in the communication and personal-social domains. The pediatrician's most appropriate next step is to:"
+  type: multiple-choice
+  options:
+    - "Diagnose language delay and initiate speech therapy based on the screening result"
+    - "Reassure the parents that development varies widely and repeat the screening at 24 months"
+    - "Refer the child for comprehensive multidisciplinary evaluation to determine whether a disorder is present"
+    - "Administer the M-CHAT-R at this visit to confirm the finding before making any referral"
+  answer: 2
+  explanation: "A failed screening result is not a diagnosis — it identifies children who warrant further evaluation. The correct response is referral for comprehensive assessment by a multidisciplinary team (psychologist, speech-language pathologist, occupational therapist), which can actually diagnose a disorder and determine eligibility for services. Option B ('wait and see') is the most dangerous misconception in developmental surveillance: delays in referral push intervention beyond the period of maximum brain plasticity, significantly worsening outcomes."
+
+- question: "A community health program serves a high-volume, low-resource population with very limited evaluation capacity. When selecting a developmental screening tool, which property should this program prioritize?"
+  type: multiple-choice
+  options:
+    - "High sensitivity, to ensure no child with a delay is missed"
+    - "High specificity, to reduce false positives and avoid overwhelming the referral pipeline"
+    - "Brief completion time, to maximize the number of children who can be screened per visit"
+    - "Cultural adaptation, to ensure the tool is valid across the program's diverse population"
+  answer: 1
+  explanation: "Sensitivity and specificity involve a tradeoff: high sensitivity catches more true cases but generates more false positives; high specificity generates fewer false positives but may miss some true cases. A program with limited evaluation capacity must prioritize specificity — sending many false-positive referrals would overwhelm the diagnostic pipeline and delay evaluation of children who genuinely need it. By contrast, a research study seeking complete case ascertainment might favor sensitivity. The choice depends on context, not on one property being universally superior."
+
+- question: "A child who fails the M-CHAT-R screening at 18 months has been diagnosed with autism spectrum disorder."
+  type: true-false
+  answer: false
+  explanation: "Screening tools are not diagnostic instruments. The M-CHAT-R identifies children at elevated risk who warrant further evaluation — it generates a referral, not a diagnosis. Many children who fail the M-CHAT-R will not receive an ASD diagnosis after comprehensive evaluation (false positives). Adding a structured follow-up interview to the M-CHAT-R dramatically improves specificity without much sensitivity loss, but even then, comprehensive multidisciplinary evaluation is required before any diagnosis is made."
+
+- question: "A child growing up in a bilingual household may score below the ASQ cutoff for communication even without a true developmental delay."
+  type: true-false
+  answer: true
+  explanation: "Standardized screening tools are normed on specific populations. A bilingual child may acquire vocabulary more slowly in each language individually while total vocabulary across both languages is within normal range — a pattern the ASQ communication items, which assess language without accounting for bilingualism, can misidentify as a delay. Providers must interpret screening results in cultural and linguistic context, supplementing standardized scores with clinical observation and parental report, and should actively seek culturally and linguistically adapted tools when available."
+
+- question: "Why is 'wait and see' generally contraindicated when a parent or provider raises concerns about a child's language or developmental progress?"
+  type: short-answer
+  answer: "The first three years of life represent a period of maximum brain plasticity, when early intensive intervention produces significantly better outcomes than equivalent intervention starting after age 5. Delays in referral reduce the time available within this window. Screening is specifically designed to identify children before concerns become obvious (e.g., before speech delay is unmistakable at age 3), enabling earlier access to services. The cost of a false positive referral — an unnecessary evaluation — is far lower than the cost of a false negative — missing the window for high-impact intervention."
+  explanation: "The research basis for early identification is that neurological development is most responsive to intervention during the first three years. Parental concern is itself a valid and sensitive signal: parents often notice subtle differences before standardized tools can detect them. The 'wait and see' response systematically delays children who are already behind, compounding the gap. AAP guidelines explicitly recommend prompt referral rather than watchful waiting when concerns arise, reflecting both the research base and the asymmetry between the costs of under- versus over-referral."
+```
+
 ## Explainer
 
 Your study of Piaget's stages, infant motor development, and language acquisition gave you a map of what children typically do and when. Developmental screening is the population-level system for detecting when a child is significantly off that map — early enough that intervention can still reshape the trajectory. The critical insight is that screening sits between informal observation and diagnosis: it is systematic, standardized, and brief, but it is not sufficient to confirm a disorder. It answers the question "does this child warrant a closer look?" not "what is wrong with this child?"

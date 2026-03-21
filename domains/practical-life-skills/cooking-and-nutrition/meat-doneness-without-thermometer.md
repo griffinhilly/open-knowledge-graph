@@ -34,6 +34,45 @@ Cook several proteins to known temperatures using a thermometer, then practice t
 - Pressing meat tests only the surface (touching different areas and depths provides information about internal doneness)
 - The touch test is unreliable (practiced cooks can assess temperature within 5°F using touch and visual cues)
 
+## Questions
+
+```yaml
+- question: "You are grilling a steak to medium doneness. The touch test currently feels like medium-rare. What should you do?"
+  type: multiple-choice
+  options:
+    - "Keep cooking until the touch test clearly reads medium, then serve immediately"
+    - "Pull the steak now — carryover cooking during the rest will bring it to medium"
+    - "Use tongs to press the steak firmly to speed up internal heat transfer"
+    - "Slice the steak open to confirm interior color before removing from heat"
+  answer: 1
+  explanation: "Carryover cooking means the hot exterior continues transferring heat to the cooler interior after the steak leaves the flame. Experienced cooks deliberately undershoot by one doneness level, knowing the rest will finish the job. If you wait until the touch test reads medium on the grill, the steak will arrive as medium-well after resting. Option D (slicing open) releases juices and interrupts the cook."
+
+- question: "A home cook cuts into a steak and sees red liquid. They conclude it is undercooked and return it to the heat. What misunderstanding does this reveal?"
+  type: multiple-choice
+  options:
+    - "Red juices always indicate undercooking — the cook is correct to be concerned"
+    - "Red liquid is myoglobin (a protein pigment), not blood — red juices can appear at properly cooked, safe temperatures"
+    - "Red juices indicate the meat was previously frozen and has excess moisture"
+    - "The red color comes from the grill surface, not the meat itself"
+  answer: 1
+  explanation: "Myoglobin — an oxygen-storing protein in muscle tissue — gives meat and its juices their red color. Blood is largely drained during slaughter; the red liquid in raw or rare steak is myoglobin dissolved in water. Red or pink juices indicate the interior is in the rare-to-medium-rare temperature range, which is safe for whole-muscle beef. The cook's error is the classic chain: 'red = blood, blood = undercooked.' Both links are wrong. Clear juices appear when myoglobin has fully denatured."
+
+- question: "The red liquid that runs from a rare steak is blood that has not been fully cooked off."
+  type: true-false
+  answer: false
+  explanation: "Blood is largely drained from meat during commercial slaughter. The red liquid from raw or rare steak is myoglobin — a protein pigment found in muscle tissue — dissolved in the meat's natural moisture. As the meat heats and myoglobin denatures, the liquid turns clear. This is why 'bloody' is a misnomer for rare steak: what looks like blood is a protein pigment, and its color indicates temperature range, not contamination or safety risk."
+
+- question: "Experienced cooks can reliably assess meat doneness through touch, achieving accuracy comparable to a thermometer for practical purposes."
+  type: true-false
+  answer: true
+  explanation: "The touch test is reliable precisely because muscle tissue firms in a predictable, physiologically consistent way as proteins denature with heat — the same chemistry the thermometer measures. The hand calibration (pressing different fingers to the thumb base creates reference resistance levels matching doneness stages) provides a repeatable physical comparison. With practice and repeated verification against a thermometer, trained cooks can assess temperature within approximately 5°F — sufficient for reliable doneness judgment."
+
+- question: "Why does carryover cooking happen, and why must cooks account for it even when assessing doneness by feel or visual cues?"
+  type: short-answer
+  answer: "Carryover cooking occurs because the hot exterior of a piece of meat has more thermal energy than the cooler interior. After the heat source is removed, that energy continues flowing inward until temperatures equalize during the rest. A steak that registers medium-rare by touch at the moment of removal will reach medium after a five-minute rest. Cooks must account for this by deliberately pulling the meat one doneness level below the target — any assessment method must anticipate where the meat will end up, not just where it reads at the moment of removal."
+  explanation: "Carryover also explains why resting matters: it allows the temperature gradient between crust and center to equalize, producing more evenly cooked meat throughout — not just redistributed juices, as is often claimed. The undershoot strategy and the rest period are two responses to the same underlying physics. Ignoring carryover is one of the most common causes of overcooked meat, especially for thicker cuts where the interior-exterior temperature difference is large."
+```
+
 ## Explainer
 
 From meat-and-protein-doneness, you know the temperature ranges that define each level of doneness — rare beef at around 52–55°C, medium at 63°C, well-done above 71°C — and the underlying chemistry: collagen melting, myoglobin denaturing, and muscle fibers contracting as heat denatures their proteins. Assessing doneness without a thermometer means reading the physical changes that these temperatures produce — changes in texture, resistance, color, and juice behavior. These cues are reliable because they are caused by the same protein chemistry that the thermometer measures.

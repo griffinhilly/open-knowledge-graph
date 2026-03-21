@@ -30,6 +30,45 @@ Start with the historical data scatter plot of unemployment changes versus GDP g
 ## Common Misconceptions
 - The relationship is mechanically precise rather than an empirical regularity that varies. - Okun's Law implies causation (unemployment causes low growth) rather than showing they move together. - The law holds perfectly during all types of recessions, when actually it weakens during financial crises.
 
+## Questions
+
+```yaml
+- question: "Okun's Law states that for every 1 percentage point rise in unemployment above the natural rate, GDP falls roughly 2-3% below potential. Why is the coefficient 2-3 rather than 1?"
+  type: multiple-choice
+  options:
+    - "GDP is measured in dollars while unemployment is measured in percentages, creating a scaling difference"
+    - "Firms reduce hours, hoard labor, and workers exit the labor force, so employment falls by less than output falls"
+    - "The natural rate of unemployment is around 2-3%, so the coefficient reflects the baseline level"
+    - "GDP includes investment and government spending, not just labor, so labor's share is a fraction of GDP"
+  answer: 1
+  explanation: "The coefficient exceeds 1 because multiple mechanisms create a wedge between output changes and unemployment changes. When output falls: (1) firms cut hours before laying off workers, so employment declines less than output; (2) some discouraged workers exit the labor force rather than registering as unemployed; and (3) firms hoard labor during mild downturns, accepting lower productivity rather than incurring layoff and rehiring costs. All three mechanisms mean a 1% output drop translates into less than a 1% rise in unemployment — which equivalently means a 1% unemployment rise corresponds to more than a 1% output drop."
+
+- question: "According to Okun's Law, an economy needs GDP growth above its potential growth rate (roughly 2-3% for the U.S.) just to prevent unemployment from rising. Why?"
+  type: multiple-choice
+  options:
+    - "GDP above potential generates inflation, which reduces the real wage and makes hiring cheaper"
+    - "The natural rate of unemployment rises automatically each year, requiring above-trend growth to offset it"
+    - "Productivity growth and labor force growth continuously expand labor supply, so trend growth only keeps pace, not reduces unemployment"
+    - "Government spending multipliers only activate when growth exceeds potential"
+  answer: 2
+  explanation: "Even at trend growth, productivity improves and new workers enter the labor force — so the economy must produce more output each year just to employ the same fraction of a growing, more productive workforce. If GDP grows at exactly its potential rate, unemployment remains constant: the new output precisely absorbs the new labor supply. Only when growth *exceeds* potential can firms hire from the pool of unemployed, reducing the unemployment rate. This is why recoveries that grow 'at trend' are often called jobless — trend growth is not enough to reduce unemployment."
+
+- question: "Okun's Law is a structural economic law that holds with predictable precision across all types of recessions and countries."
+  type: true-false
+  answer: false
+  explanation: "False. Okun's Law is an empirical regularity — a rule of thumb that holds approximately on average but varies across countries and economic conditions. Countries with rigid labor markets (strong employment protection) tend to have lower Okun coefficients because firms adjust via hours and wages rather than layoffs. During financial crises, the unemployment response has sometimes been larger than the coefficient predicts. 'Jobless recoveries' show output growing at trend while unemployment remains elevated, violating the law's predictions. Treating it as a precise structural law leads to poor policy analysis."
+
+- question: "Rising unemployment causes GDP to fall — this is the causal mechanism that Okun's Law describes."
+  type: true-false
+  answer: false
+  explanation: "False. Okun's Law describes a statistical *correlation* — unemployment and GDP move together — but does not establish the direction of causation. Both are driven by the underlying business cycle: when aggregate demand falls, firms produce less *and* lay off workers simultaneously. It's not that unemployment causes low growth or that low growth causes unemployment in any simple chain; they are joint outcomes of macroeconomic conditions. This is a critical distinction for policy: a policy that reduces unemployment without addressing the underlying output gap will not mechanically restore growth."
+
+- question: "Why does Okun's Law predict that unemployment changes less than output changes (in percentage terms), rather than tracking GDP changes one-for-one?"
+  type: short-answer
+  answer: "Because firms adjust to falling output through multiple channels that buffer employment: they reduce worker hours before cutting headcount, they hoard labor during mild downturns to avoid rehiring costs, and some workers exit the labor force entirely when conditions worsen rather than registering as unemployed. Each mechanism absorbs some of the output shock without it showing up as unemployment, creating a wedge that makes the Okun coefficient greater than 1."
+  explanation: "Understanding this buffering is crucial for labor market policy. If the economy contracts by 3% and policymakers expect unemployment to rise by only 1 percentage point (using a coefficient of 3), they should also expect hidden labor market deterioration: more involuntary part-time workers, more discouraged workers no longer counted in the unemployment rate, and more workers producing below their potential. The headline unemployment number understates the full labor market impact of an output decline."
+```
+
 ## Explainer
 
 From your study of GDP measurement, you know that real GDP captures the economy's total output, and from unemployment measurement, you know that the unemployment rate tracks the share of the labor force actively seeking work but unable to find it. These two concepts are obviously connected — a thriving economy needs workers — but the *quantitative* relationship between them is not obvious from first principles. Arthur Okun's empirical discovery in 1962 was that this relationship is remarkably stable: for every 1 percentage point that the unemployment rate rises *above its natural rate*, real GDP falls roughly 2-3% *below its potential*. This is **Okun's Law** — a rule of thumb, not a theorem, but one of the most useful empirical regularities in macroeconomics.

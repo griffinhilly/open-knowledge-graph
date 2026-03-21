@@ -30,6 +30,45 @@ Record or observe bilingual conversations and identify points of code-switching,
 - Bilingual children do not experience language delay — they may have smaller vocabularies in each individual language but comparable or larger total vocabulary across both.
 - Language attrition is not language loss; attrited features can often be reactivated with renewed exposure, suggesting the underlying competence persists.
 
+## Questions
+
+```yaml
+- question: "A bilingual speaker switches from English to Spanish mid-sentence: 'I need to hablar with you about something importante.' A monolingual observer concludes the speaker lacks full proficiency in either language. This conclusion is:"
+  type: multiple-choice
+  options:
+    - "Correct — mixing languages indicates incomplete acquisition of at least one"
+    - "Incorrect — code-switching follows grammatical rules and requires high competence in both languages"
+    - "Partly correct — the speaker likely has high English proficiency but weaker Spanish"
+    - "Correct only if the switch occurs within a single clause rather than between sentences"
+  answer: 1
+  explanation: "Intrasentential code-switching (within a sentence) is actually the most demanding form of bilingual behavior. It requires the speaker to obey the grammatical rules of both languages simultaneously and to execute switches at grammatically permitted boundaries. The Matrix Language Frame model explains that one language provides the structural skeleton while the other contributes embedded elements — a system that collapses if either language is insufficiently mastered. The monolingual observer's intuition reverses the truth."
+
+- question: "According to Myers-Scotton's Matrix Language Frame model, what determines which language 'controls' an intrasentential code-switch?"
+  type: multiple-choice
+  options:
+    - "Whichever language the speaker has higher overall proficiency in"
+    - "The language that provides the grammatical skeleton, morphology, and phrase structure rules"
+    - "Whichever language contributes more content words to the utterance"
+    - "The language the conversation began in"
+  answer: 1
+  explanation: "The MLF model proposes that one language (the matrix language) provides the morphosyntactic frame — the inflectional morphology, function words, and phrase structure rules. The other language (the embedded language) contributes content items (nouns, verbs) within that frame, but must conform to the matrix language's structure. This is why code-switches respect grammatical constraints: the switch never violates the matrix language's morphology."
+
+- question: "Bilingual children typically show delayed language development compared to monolingual children because they must learn two systems simultaneously."
+  type: true-false
+  answer: false
+  explanation: "This is one of the most persistent myths about bilingualism. Bilingual children may have smaller vocabularies in each individual language than same-age monolinguals in that language, but their total vocabulary across both languages is comparable to or larger than monolingual peers. Overall language development milestones — first words, grammatical complexity, discourse competence — follow the same timelines. The appearance of delay in one language dissolves when both languages are counted."
+
+- question: "Language attrition — the erosion of a language through reduced use — can often be reversed with renewed exposure to that language."
+  type: true-false
+  answer: true
+  explanation: "Attrited features tend to re-emerge with renewed exposure, suggesting the underlying competence persists in a weakened or suppressed state rather than being deleted. This is especially true for core grammar, which is more resistant to attrition than phonology or low-frequency vocabulary. The 'use it or lose it' description is accurate, but so is 'reactivation' — attrition is gradient and reversible rather than a one-way door."
+
+- question: "Why does code-switching require high competence in both languages rather than indicating deficiency in either?"
+  type: short-answer
+  answer: "To code-switch fluently, a speaker must simultaneously monitor two grammatical systems, apply the correct morphology from the matrix language, select appropriate switch points (typically major constituent boundaries that preserve both languages' structure), and manage the social pragmatics of switching. Errors that violate either language's grammar essentially do not occur naturally among competent bilinguals. This dual-system control demands more linguistic knowledge, not less — beginners with partial competence cannot do it."
+  explanation: "The misconception persists because mixing feels like losing control to a monolingual observer. In reality, the regulation of when and how to switch is itself a sophisticated competence. Research consistently shows that code-switching frequency correlates with higher proficiency in both languages, not lower. Unskilled speakers cannot switch fluidly — they get stuck or produce ungrammatical blends."
+```
+
 ## Explainer
 
 Your introduction to sociolinguistics established that language use is socially situated — speakers vary their language systematically according to who they're talking to, what register the situation calls for, and what social identity they wish to project. Multilingualism extends this insight into a new dimension: when a speaker controls two or more languages, each language becomes a resource in its own right, and the choice of *which language* to use carries social meaning just as dialect choice does within a single language. The global reality is that the monolingual speaker is the demographic exception, not the norm. Most of the world's communicators navigate multiple languages daily.

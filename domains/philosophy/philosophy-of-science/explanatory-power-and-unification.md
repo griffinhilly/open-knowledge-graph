@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Beyond logical confirmation, scientists value theories for their explanatory power—their ability to explain diverse phenomena and reveal underlying unity. Explanatory power is treated as a virtue in theory choice: other things equal, a more unified theory is preferred. This raises philosophical questions: Is explanatory power merely a psychological preference, or does it track truth? Can we distinguish genuine unification from mere appearance? How does explanatory power relate to empirical adequacy?
 
+## Questions
+
+```yaml
+- question: "Two theories, T₁ and T₂, each explain one phenomenon. A philosopher proposes T₃ = 'T₁ and T₂', which explains both phenomena. Is T₃ genuinely more unified than T₁ or T₂?"
+  type: multiple-choice
+  options:
+    - "Yes — T₃ covers more phenomena with a single theory"
+    - "Yes — a theory that explains more phenomena is always more unified by definition"
+    - "No — T₃ merely concatenates two independent theories and uses two separate patterns of explanation; genuine unification requires the same principles to account for both phenomena"
+    - "No — T₃ is more unified only if it also makes new predictions beyond T₁ and T₂"
+  answer: 2
+  explanation: "Genuine unification requires more than covering more phenomena — it requires that the same explanatory principles, applied uniformly, account for diverse observations. T₃ = 'T₁ and T₂' simply concatenates two independent frameworks. On Kitcher's argument-pattern account, T₃ uses two separate patterns for the two phenomena; a truly unified theory uses one pattern for both, revealing that the phenomena are not independent at all. Newton's mechanics unifies because the same inverse-square law derives both planetary orbits and terrestrial gravity — not because someone concatenated Kepler's laws with Galileo's. Mere conjunction is a bookkeeping operation, not genuine theoretical unification."
+
+- question: "Van Fraassen argues that when scientists prefer a more unified theory over an empirically equivalent rival, this preference is:"
+  type: multiple-choice
+  options:
+    - "Fully rationally justified because unification tracks real structural features of the world"
+    - "A pragmatic or cognitive preference that does not constitute additional evidence that the theory is true"
+    - "Evidence that the more unified theory has been better confirmed by the data"
+    - "A violation of scientific rationality that should be replaced by pure evidential reasoning"
+  answer: 1
+  explanation: "Van Fraassen's constructive empiricism sharply distinguishes 'loveliness' (explanatory virtue, including unification) from 'likeliness' (probability of truth). He argues that unification is a feature we bring to science for pragmatic and cognitive reasons — it helps organize knowledge and generate predictions — but it provides no additional evidential support beyond what the data directly confirm. When two theories fit all the same data equally well, preferring the more unified one reflects a preference for cognitive economy, not a belief that the theory is more likely to be true. Explanatory realists (option A) disagree, arguing unification is truth-conducive. This is the central IBE debate."
+
+- question: "A theory that unifies two previously separate explanations automatically has stronger empirical confirmation than either of the original theories, because it explains more."
+  type: true-false
+  answer: false
+  explanation: "Empirical confirmation depends on the relationship between the theory and the evidence — specifically, on whether evidence raises the theory's probability (Bayesian) or whether the theory makes risky predictions that survive testing (Popperian). A unified theory that explains the same evidence as two separate theories is not automatically better confirmed by that evidence. The unification is an additional virtue — explanatory power — but whether this virtue constitutes additional evidential support is precisely the disputed question in the IBE debate. Van Fraassen denies it does; explanatory realists say it does. Simply explaining more doesn't resolve the question."
+
+- question: "Scientists sometimes prefer a more unified theory over an empirically equivalent rival, suggesting that explanatory virtues function as epistemic tiebreakers in theory choice."
+  type: true-false
+  answer: true
+  explanation: "When two theories fit all available data equally well, scientists routinely prefer the more unified, simpler, or more explanatorily powerful one. This is documented in historical cases — Newton's mechanics was preferred to separate empirical generalizations for gravity and motion, even before it made dramatically new predictions. The question is whether this preference is epistemically rational (does unification provide evidence?) or merely pragmatic (does unification aid cognition without tracking truth?). The practice itself is clear: explanatory virtues do function as tiebreakers. The philosophical debate is about whether this practice is justified."
+
+- question: "What is the core disagreement between explanatory realists and instrumentalists (like van Fraassen) about whether explanatory power provides evidence that a theory is true?"
+  type: short-answer
+  answer: "Explanatory realists argue that when a theory genuinely unifies diverse phenomena, this is evidence that the theory has latched onto real structure in the world — Newton's unified framework suggests gravity really is one phenomenon, not many separate regularities. The unity of the explanation is a sign of underlying ontological unity. Instrumentalists like van Fraassen deny this: unification is a feature of our representation of the world, not the world itself. A unified theory is useful because it's cognitively economical and makes broad predictions, but this utility does not make the theory more likely to be true. 'Loveliness' and 'likeliness' are distinct, and conflating them is the error behind inference to the best explanation."
+  explanation: "The debate hinges on whether explanatory virtues are truth-conducive. The realist says: the best explanation of why unified theories are empirically successful is that they track real structure — therefore we have inductive grounds for trusting unification as a guide to truth. Van Fraassen's response is sometimes called the 'bad lot' objection to IBE: we have no guarantee that the true theory is among the theories we have considered, so picking the 'best' explanation from our current options does not reliably lead to truth. The debate is unresolved and connects to deep questions about scientific realism."
+```
+
 ## Explainer
 
 You already know the **unification model of explanation**: on this view (developed by Friedman and Kitcher), a theory explains by reducing the number of independent phenomena we must accept as brute facts, showing how diverse observations follow from a single set of patterns or principles. You also know **confirmation theory**: evidence confirms hypotheses when it raises their probability (Bayesian) or survives attempts at falsification (Popperian). Explanatory power is distinct from both but interacts with both in theory choice.

@@ -44,6 +44,45 @@ Compare the design tradeoffs between refractors and reflectors, then explore how
 - Magnification is not the primary purpose of an astronomical telescope — light-gathering power and angular resolution are far more important.
 - The Hubble Space Telescope's advantage is not its mirror size but its location above Earth's turbulent, blurring atmosphere.
 
+## Questions
+
+```yaml
+- question: "Two amateur astronomers debate which telescope is better for viewing faint distant galaxies. One argues for the model with 400× maximum magnification; the other for the model with the larger 200mm aperture. Which telescope is better suited for this task, and why?"
+  type: multiple-choice
+  options:
+    - "The high-magnification telescope, because larger magnification makes faint objects easier to see"
+    - "The larger-aperture telescope, because it collects more light and has finer angular resolution"
+    - "The high-magnification telescope, because magnification increases apparent brightness"
+    - "They are equivalent — magnification and aperture contribute equally to astronomical imaging"
+  answer: 1
+  explanation: "For faint objects, light-gathering power is what matters — and that scales with aperture area (πD²/4). A larger aperture collects more photons per second and resolves finer angular detail. Magnification alone cannot help: magnifying a faint, diffraction-limited image just makes a larger, equally faint image. This is one of the most common misconceptions about telescopes — manufacturers advertise magnification because it sounds impressive, but professional astronomers care about aperture and resolution."
+
+- question: "A radio telescope operating at 21 cm wavelength and an optical telescope operating at 500 nm both have 10-meter apertures. Which achieves better angular resolution?"
+  type: multiple-choice
+  options:
+    - "The radio telescope, because longer wavelengths penetrate clouds and interstellar dust better"
+    - "The optical telescope, because shorter wavelength gives finer angular resolution per the Rayleigh criterion θ ≈ 1.22λ/D"
+    - "They are identical in resolution because both share the same aperture diameter"
+    - "The radio telescope, because it can observe continuously without atmospheric seeing effects"
+  answer: 1
+  explanation: "The Rayleigh criterion θ ≈ 1.22λ/D shows that resolution is proportional to wavelength divided by aperture. At 21 cm (= 0.21 m), the radio telescope's theoretical resolution is 0.21/10 ≈ 0.021 rad — roughly 1.2°. The optical telescope at 500 nm (= 5×10⁻⁷ m) achieves 5×10⁻⁷/10 = 5×10⁻⁸ rad — about 0.01 arcseconds, over 400,000× finer. This is why radio telescopes require enormous dishes or interferometric arrays to achieve resolution comparable to optical telescopes."
+
+- question: "The primary advantage of the Hubble Space Telescope over ground-based telescopes of comparable aperture is its much larger mirror size."
+  type: true-false
+  answer: false
+  explanation: "Hubble's primary mirror is 2.4 meters — modest by modern standards. Many ground-based telescopes have 8–10 meter mirrors. Hubble's decisive advantage is its location above Earth's atmosphere, which eliminates 'seeing' — the blurring caused by turbulent atmospheric cells that limits ground-based optical resolution to about 1 arcsecond regardless of mirror size. Above the atmosphere, Hubble operates at its diffraction limit (~0.05 arcseconds), which cannot be achieved on the ground without adaptive optics."
+
+- question: "Interferometric arrays like the Event Horizon Telescope achieve angular resolution equivalent to a single dish whose diameter equals the maximum baseline between the array's component antennas."
+  type: true-false
+  answer: true
+  explanation: "Interferometry combines signals from widely separated antennas, measuring the correlations (fringes) between them. The angular resolution of the synthesized aperture equals that of a single dish as large as the longest baseline. The Event Horizon Telescope links antennas across Earth's entire diameter (~12,700 km), achieving sub-microarcsecond resolution at millimeter wavelengths — enough to resolve the shadow of the black hole at the center of M87 at 55 million light-years distance."
+
+- question: "Why do radio telescopes need to be far larger than optical telescopes to achieve comparable angular resolution, and how does interferometry address this challenge?"
+  type: short-answer
+  answer: "Angular resolution scales as θ ≈ 1.22λ/D. Radio wavelengths (centimeters to meters) are roughly 100,000–1,000,000 times longer than visible light wavelengths (~500 nm). To achieve the same resolution as a 1-meter optical telescope, a radio telescope at 21 cm would need D ≈ 0.21/(500×10⁻⁹) × 1 m ≈ 420 km — clearly impractical as a single dish. Interferometry solves this by spreading multiple antennas over a large area and correlating their signals, synthesizing the resolving power of a dish as large as the maximum antenna separation (baseline), without needing to fill the entire aperture with collecting surface."
+  explanation: "The trade-off is that interferometric arrays have far less total collecting area than a filled dish of the same diameter, so they are less sensitive to faint extended emission. But for resolving compact sources — black holes, quasars, masers — they achieve resolutions impossible with any single dish. The VLA (36 km baseline), VLBI arrays (continental baselines), and the EHT (Earth-diameter baseline) represent successive steps in this direction."
+```
+
 ## Explainer
 
 You already understand that electromagnetic radiation spans a vast spectrum — from radio waves with wavelengths of meters to gamma rays at fractions of a nanometer — and that astronomical objects emit across this entire range. A telescope is fundamentally a device for collecting as much of that radiation as possible and bringing it to a focus where it can be analyzed. The two core properties that determine a telescope's capability are its **light-gathering power** (proportional to the area of its aperture) and its **angular resolution** (the smallest angular separation it can distinguish between two sources). Magnification, despite popular belief, is secondary — making a faint, blurry image larger just gives you a larger faint, blurry image.

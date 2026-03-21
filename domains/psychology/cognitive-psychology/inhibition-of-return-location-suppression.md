@@ -30,6 +30,45 @@ Measure reaction times to targets at previously attended vs. new locations as a 
 - Assuming attention simply moves to new locations; inhibition shows attention also leaves marks on previous locations.
 - Confusing inhibition-of-return with fatigue or reduced processing resources; it's location-specific, not general.
 
+## Questions
+
+```yaml
+- question: "A peripheral cue flashes in the left visual field, drawing attention there. 150ms later, a target appears at the same cued location. How should reaction time to this target compare to a target at an uncued location?"
+  type: multiple-choice
+  options:
+    - "Slower — the previously attended location is already being suppressed by IOR"
+    - "Faster — the cue has primed attention at that location"
+    - "No difference — spatial priming effects take at least 400ms to emerge"
+    - "Slower — visual adaptation to the cue reduces sensitivity there"
+  answer: 1
+  explanation: "At 150ms post-cue, the visual system is still in the attentional facilitation window (roughly 0–200ms), where the previously cued location shows enhanced processing. IOR — the suppression — emerges later, beyond approximately 300–400ms, after attention has disengaged and shifted elsewhere. Option A reflects the common misconception that IOR begins immediately; in fact, facilitation always precedes inhibition."
+
+- question: "Patients with right parietal damage no longer show slower responses at previously attended locations in their left visual field. What does this finding most directly support?"
+  type: multiple-choice
+  options:
+    - "That IOR is caused by photoreceptor fatigue local to the attended region"
+    - "That parietal cortex is part of the mechanism underlying IOR's spatial suppression"
+    - "That IOR requires conscious awareness, which these patients lack"
+    - "That IOR is a peripheral rather than central attentional phenomenon"
+  answer: 1
+  explanation: "Disrupted IOR following right parietal damage directly implicates parietal cortex in the suppression mechanism — the same circuitry that mediates spatial orienting and spatial representation. This also rules out photoreceptor fatigue (a peripheral, receptor-level effect) and consciousness (IOR operates outside awareness in unimpaired participants). The clinical finding links IOR to the broader dorsal attention network."
+
+- question: "Inhibition of return serves an adaptive foraging function by tagging previously visited locations, biasing attention toward unexplored areas of the visual scene."
+  type: true-false
+  answer: true
+  explanation: "This is the core functional logic of IOR. A visual forager scanning for food or predators would waste time rescanning already-checked locations. IOR provides an implicit 'visited recently' spatial tag that suppresses those locations, systematically biasing attention outward toward new, unexplored regions. This foraging account explains the evolutionary rationale for what is otherwise a counterintuitive reversal of attentional facilitation."
+
+- question: "Inhibition of return reflects a general depletion of attentional resources following a cue, which slows responses across all locations in the visual field."
+  type: true-false
+  answer: false
+  explanation: "IOR is location-specific, not a global resource-depletion effect. Responses at new, never-attended locations are unimpaired — or faster. The inhibition tags the previously attended spatial position specifically, leaving the rest of the visual field unaffected. Confusing IOR with resource fatigue is one of the listed Common Misconceptions: fatigue would impair all subsequent detection, whereas IOR suppresses only the specific prior location."
+
+- question: "Why do researchers describe inhibition of return as an 'implicit spatial memory' rather than simply saying attention has moved elsewhere?"
+  type: short-answer
+  answer: "Because previously attended locations are not merely neutral — they are actively suppressed, making responses there slower than at entirely new locations that were never attended. This suppression persists for hundreds of milliseconds and follows locations across eye movements, functioning as a spatial record of where attention has been."
+  explanation: "If IOR were just 'attention moved elsewhere,' previously cued and new locations would be equally fast after attention leaves. The fact that previously cued locations are reliably slower than fresh locations reveals an active inhibitory trace — not the absence of attention but a positive suppression. This transforms the model of attention from a spotlight that selects present targets into a dynamic system that tracks and suppresses its own prior history."
+```
+
 ## Explainer
 
 From your study of selective attention, you know that the visual system enhances processing at attended locations — orienting a spotlight of attention toward a location speeds detection and discrimination of stimuli appearing there. From spatial attention research, you know this orienting is supported by parietal cortex and the superior colliculus, and that it can be driven reflexively by sudden-onset stimuli or voluntarily by goals. **Inhibition of return (IOR)** describes what happens after attention leaves a location: rather than simply becoming neutral again, the previously attended position becomes transiently *suppressed*, making responses to targets there slower than responses to entirely new locations. Attention doesn't just move toward; it leaves an inhibitory footprint behind.

@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Children's ability to distinguish how something appears from what it really is—tested through appearance-versus-reality tasks and conservation tasks—develops gradually during the preoperational and concrete operational stages. Mastery reflects understanding of object permanence, reversibility of operations, and the independence of properties from perceptual transformations.
 
+## Questions
+
+```yaml
+- question: "A 3-year-old is shown a sponge painted to look like a rock. When asked 'What does this look like?' she says 'a rock.' When asked 'What is it really?' she also says 'a rock.' What best explains her response?"
+  type: multiple-choice
+  options:
+    - "She has not seen enough rocks to know the difference"
+    - "She is deliberately giving the same answer to both questions to be consistent"
+    - "She cannot simultaneously hold two representations of the same object — appearance and reality — in mind"
+    - "She lacks sufficient vocabulary to explain that it is a sponge"
+  answer: 2
+  explanation: "This is the phenomenon of phenomenism: the child reports reality as whatever appears most salient. The failure is not perceptual or linguistic — it is cognitive. Preoperational children cannot maintain dual representation of the same object (it looks like X AND it really is Y). This is exactly the same limitation that causes conservation failure: the child is captured by the dominant perceptual feature and cannot mentally override it with a different representation."
+
+- question: "A preoperational child watches water poured from a short wide glass into a tall narrow glass and says there is now 'more water.' What is the most accurate explanation?"
+  type: multiple-choice
+  options:
+    - "The child is confused about the physical properties of water"
+    - "The child centers attention on one perceptual dimension (height) and cannot simultaneously consider that the glass is also narrower"
+    - "The child has not yet learned to count accurately"
+    - "The child is testing whether the experimenter will correct them"
+  answer: 1
+  explanation: "Conservation failure reflects two related cognitive limitations: centration (focusing on only one dimension — height — while ignoring width) and inability to mentally reverse the transformation to recover the original state. The child has accurate perception but lacks the operational ability to coordinate multiple dimensions simultaneously and to perform mental operations on representations. This is not a knowledge gap but a structural cognitive limitation of the preoperational stage."
+
+- question: "Conservation failure and appearance-versus-reality task failure stem from the same underlying cognitive limitation: the inability to simultaneously maintain two representations of a situation."
+  type: true-false
+  answer: true
+  explanation: "Both tasks require the child to hold two representations at once: in conservation, the current appearance (taller column) AND the pre-transformation state (same amount); in appearance-versus-reality, 'looks like a rock' AND 'really is a sponge.' The shared cognitive limitation is the inability to decentrate and mentally operate on representations rather than being captured by immediate perception. This is why both competencies emerge together in the transition to concrete operations."
+
+- question: "A child who fails conservation tasks is confused about the actual amount of liquid — they genuinely believe more water appeared during the pouring."
+  type: true-false
+  answer: false
+  explanation: "The child's perception is accurate — they correctly perceive the height difference. The failure is not about perception or genuine beliefs about water creation; it is a cognitive inability to mentally override the most salient perceptual feature (height) with the logical operation of reversibility. The child cannot think 'I could pour it back and get the same level,' which would reveal the constant quantity. Conservation failure is an operational limitation, not a perceptual error."
+
+- question: "How does the acquisition of reversibility explain why conservation competence and appearance-versus-reality competence emerge at the same developmental stage?"
+  type: short-answer
+  answer: "Reversibility is the ability to mentally undo a transformation — to imagine pouring the water back, or trace the sponge back to before it was painted. Both conservation and appearance-versus-reality tasks require this: to recognize that the water quantity is unchanged, a child must mentally reverse the pour; to recognize that the sponge is really a sponge despite looking like a rock, a child must represent both the current appearance and the original object. Without reversibility, the child is locked in the present perceptual state. Once reversibility is acquired, the child can simultaneously represent past and present states — enabling both competencies."
+  explanation: "The deeper point is that these are not two separate cognitive achievements learned independently, but two expressions of the same underlying shift: from perception-bound, single-representation thinking to operational, dual-representation thinking. This is why Piaget treated them as markers of the same stage transition rather than unrelated milestones."
+```
+
 ## Explainer
 
 From your study of conservation, you already know the classic demonstration: pour water from a short, wide glass into a tall, narrow one, and a preoperational child insists there is now "more water" because the level is higher. What you are seeing is not confusion about quantity — the child has perfectly accurate perceptual information. The problem is that the child cannot yet separate what something *looks like* from what it *really is*. This **appearance-versus-reality distinction** is the cognitive achievement that conservation tasks actually measure underneath the surface.

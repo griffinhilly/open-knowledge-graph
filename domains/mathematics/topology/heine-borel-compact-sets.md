@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 In ℝⁿ with standard topology, a set is compact iff it is closed and bounded. This theorem does not generalize to all metric spaces (e.g., [0,∞) is closed but not compact), showing that compactness is truly a topological concept, not merely about boundedness.
 
+## Questions
+
+```yaml
+- question: "Consider the closed unit ball B = {f ∈ C([0,1]) : ‖f‖∞ ≤ 1} in the space of continuous functions with the supremum norm. Is B compact?"
+  type: multiple-choice
+  options:
+    - "Yes — it is closed and bounded, so Heine-Borel applies"
+    - "Yes — all closed and bounded sets in metric spaces are compact"
+    - "No — Heine-Borel only applies to ℝⁿ, and B has no convergent subsequences for all sequences in it"
+    - "No — B is not bounded in the sup norm"
+  answer: 2
+  explanation: "This is the central counterexample. C([0,1]) with the sup norm is an infinite-dimensional space, and Heine-Borel does NOT apply there. B is closed and bounded, yet it fails to be compact — one can construct sequences of continuous functions in B (e.g., fₙ(x) = sin(nπx)) with no uniformly convergent subsequence. Compactness is a topological property, not a geometric one, and 'closed and bounded' characterizes it only in finite-dimensional Euclidean space."
+
+- question: "Which of the following subsets of ℝ is compact?"
+  type: multiple-choice
+  options:
+    - "(0, 1) — bounded but not closed"
+    - "[0, ∞) — closed but not bounded"
+    - "ℤ — closed but not bounded"
+    - "[−3, 7] — closed and bounded"
+  answer: 3
+  explanation: "By Heine-Borel, a subset of ℝ is compact iff it is both closed and bounded. [−3, 7] satisfies both conditions. (0,1) fails closure (limit point 0 is absent). [0,∞) fails boundedness. ℤ is closed but unbounded — every open cover {(n−0.1, n+0.1)} has no finite subcover. Only option D satisfies both required conditions."
+
+- question: "Every closed and bounded subset of a metric space is compact."
+  type: true-false
+  answer: false
+  explanation: "This is false in general metric spaces. Heine-Borel is a theorem specific to ℝⁿ with its standard topology. In infinite-dimensional normed spaces (like C([0,1])), or even in some metric spaces on countable sets, you can have closed and bounded sets that fail to be compact. The theorem's scope is a crucial part of its content — over-generalizing it is a common and consequential error."
+
+- question: "The open interval (0, 1) in ℝ fails to be compact because it is not closed, even though it is bounded."
+  type: true-false
+  answer: true
+  explanation: "Correct. (0,1) is bounded but not closed — it is missing its limit points 0 and 1. Concretely, the open cover {(1/n, 1) : n ≥ 2} has no finite subcover, because any finite subcollection leaves a neighborhood of 0 uncovered. Closedness is necessary for compactness in ℝⁿ because it ensures limit points (the 'endpoints' where sequences might escape) are included in the set."
+
+- question: "Why does 'closed and bounded' guarantee compactness in ℝⁿ but not in general metric spaces? What property of ℝⁿ makes the theorem work?"
+  type: short-answer
+  answer: "In ℝⁿ, bounded sets can always be enclosed in a finite closed box (via the Bolzano-Weierstrass theorem, every bounded sequence has a convergent subsequence), and closed subsets of compact sets are compact. These properties hold because ℝⁿ is finite-dimensional. In infinite-dimensional spaces, boundedness no longer forces sequential compactness — you can have bounded sequences with no convergent subsequence — so the two geometric conditions are no longer sufficient for the topological property."
+  explanation: "The key is finite-dimensionality. In ℝⁿ, Bolzano-Weierstrass guarantees that bounded sequences have convergent subsequences, tying sequential compactness to boundedness. Closedness then ensures the limit is in the set. In infinite dimensions, neither connection holds, so compactness must be verified directly from the open-cover definition or other topological criteria."
+```
+
 ## Explainer
 
 You already know the abstract definition of compactness: a space is compact if every open cover has a finite subcover. That definition is powerful but opaque — given an arbitrary set in ℝⁿ, checking every possible open cover is infeasible. The **Heine-Borel Theorem** replaces this with a concrete geometric test: in ℝⁿ with its standard topology, a set K is compact if and only if it is **closed** and **bounded**. Closed means K contains all its limit points. Bounded means K fits inside some ball of finite radius. Both conditions are straightforward to verify.

@@ -30,6 +30,45 @@ Draw and label parts of a circle. Emphasize that a circle is a set of points (a 
 - Not recognizing that every diameter is a chord but not every chord is a diameter.
 - Confusing chord and secant (a chord is a segment; a secant is a line).
 
+## Questions
+
+```yaml
+- question: "Which of the following statements about the diameter of a circle is correct?"
+  type: multiple-choice
+  options:
+    - "The diameter is any chord with both endpoints on the circle"
+    - "The diameter is the longest possible chord and must pass through the center"
+    - "The diameter equals twice the radius only when the circle is centered at the origin"
+    - "The diameter is a segment from the center to any point on the circle"
+  answer: 1
+  explanation: "The diameter is uniquely defined as the chord that passes through the center — this makes it the longest possible chord, since any chord that doesn't pass through the center is shorter. Option A incorrectly describes all chords, not just diameters. Option C is wrong because d = 2r is true for every circle regardless of position. Option D describes the radius, not the diameter."
+
+- question: "A chord is drawn in a circle that does not pass through the center. Which statement must be true about this chord?"
+  type: multiple-choice
+  options:
+    - "It is equal in length to the radius"
+    - "It divides the circle into two equal arcs"
+    - "It is shorter than the diameter"
+    - "It is the same as a secant"
+  answer: 2
+  explanation: "The diameter is the longest possible chord because it stretches across the widest point of the circle (through the center). Any chord that doesn't pass through the center is shorter. Option B is false — only a diameter divides a circle into two equal halves. Option D confuses chord (a segment with endpoints on the circle) with secant (a line that extends through those points infinitely)."
+
+- question: "The equation (x − 3)² + (y + 2)² = 25 represents a circle with center (3, −2) and radius 5."
+  type: true-false
+  answer: true
+  explanation: "The standard form of a circle is (x − h)² + (y − k)² = r², where (h, k) is the center and r is the radius. Here h = 3, k = −2 (note the sign flip: y + 2 = y − (−2)), and r² = 25, so r = 5. This equation is the distance formula in disguise: it says every point (x, y) on the circle is exactly 5 units from (3, −2)."
+
+- question: "A circle is the set of all points inside and on a boundary curve that are equidistant from a center point."
+  type: true-false
+  answer: false
+  explanation: "A circle is only the boundary curve — the set of points at exactly r units from the center. The filled-in region (including the interior) is called a disk, not a circle. This distinction matters in geometry: circle theorems apply to the curve, and equations like (x−h)² + (y−k)² = r² describe the boundary only. A common error is treating 'circle' and 'disk' interchangeably."
+
+- question: "Explain why the diameter is always the longest chord in a circle."
+  type: short-answer
+  answer: "The diameter passes through the center — it connects two points on opposite sides of the circle with the center in between. Any other chord must 'miss' the center, meaning its two endpoints are not as far apart as possible. By the equidistance definition, every point on the circle is exactly r units from the center; a chord's length is maximized when the center lies on the chord, giving length 2r. Any chord that doesn't go through the center subtends a shorter distance."
+  explanation: "This follows directly from the definition: if the center is on the chord, the chord consists of two radii laid end-to-end, giving total length 2r. If the center is not on the chord, the chord is like the base of a triangle whose other two sides are radii — and the third side of a triangle is always shorter than the sum of the other two sides (triangle inequality), confirming the chord is shorter than 2r."
+```
+
 ## Explainer
 
 A **circle** is defined by a single idea: equidistance. Pick a center point and a positive distance r. The circle is the set of all points in the plane that are exactly r units from the center — not closer, not farther. This makes a circle fundamentally different from a filled-in region (which is called a **disk**). The circle is the boundary curve alone.

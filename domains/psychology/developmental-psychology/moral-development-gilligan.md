@@ -31,6 +31,45 @@ Compare responses to the Heinz dilemma coded for justice vs. care orientation. R
 - Gilligan did not claim women are more moral — she claimed they use a different but equally valid framework.
 - The care/justice distinction is not strictly gendered; both orientations appear in individuals of all genders.
 
+## Questions
+
+```yaml
+- question: "Kohlberg's developmental model consistently scores women lower than men on moral maturity. According to Gilligan, the most accurate explanation is:"
+  type: multiple-choice
+  options:
+    - "Women develop moral reasoning more slowly due to cultural socialization patterns"
+    - "The scoring rubric was constructed from male-only samples and elevated justice reasoning as the developmental endpoint, making care-oriented responses appear less mature"
+    - "Women's lower scores reflect genuine cognitive differences in abstract reasoning ability"
+    - "Care-oriented reasoning is genuinely less developed than justice reasoning, regardless of gender"
+  answer: 1
+  explanation: "Gilligan's central methodological critique is that Kohlberg's model was derived almost entirely from studies of boys and men, which means justice-oriented reasoning was baked in as the definition of moral maturity. When women reasoned differently — emphasizing relationships, context, and harm — the rubric scored this as developmental arrest rather than a different valid framework. This is not a claim about women's cognitive capacity; it is a critique of sample bias shaping theory."
+
+- question: "Both a justice-oriented and a care-oriented reasoner conclude that Heinz should steal the drug to save his wife. What does this demonstrate about the two frameworks?"
+  type: multiple-choice
+  options:
+    - "Both frameworks are logically equivalent and will always reach the same conclusion in real dilemmas"
+    - "The care framework is simply less rigorous and arrives at correct answers by luck"
+    - "The same conclusion can be reached through fundamentally different moral reasoning paths, and the frameworks diverge on other types of dilemmas"
+    - "Care reasoning is a shortcut form of justice reasoning that skips the abstract principles"
+  answer: 2
+  explanation: "The Heinz dilemma is a case where both frameworks converge, but for different reasons: justice says life outweighs property rights; care says the husband's relational responsibility to his wife overrides the rule against stealing. The frameworks diverge sharply on dilemmas involving loyalty versus fairness, or personal relationship obligations versus impartial duties. Convergence on one dilemma should not be mistaken for equivalence of the frameworks."
+
+- question: "Gilligan argued that women are morally superior to men because they use an ethics of care rather than an impersonal justice framework."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misreading of Gilligan. She explicitly argued that care and justice orientations are different but equally valid moral frameworks — neither is superior. Her claim was that Kohlberg's theory failed to recognize care reasoning as a mature moral framework, not that care reasoning is better. She also noted that both orientations appear in individuals of all genders."
+
+- question: "According to research following Gilligan, the same individual may use justice reasoning for impersonal policy dilemmas and care reasoning for personal relationship dilemmas."
+  type: true-false
+  answer: true
+  explanation: "This finding is important because it shows the care/justice distinction is not a fixed personality trait or gendered characteristic — it is context-sensitive. Impersonal, abstract dilemmas (should society punish crime uniformly?) tend to elicit justice reasoning; personal dilemmas (should I report a friend's wrongdoing?) tend to elicit care reasoning. This context-sensitivity supports Gilligan's point that both frameworks are available to moral reasoners and serve different purposes."
+
+- question: "What methodological critique did Gilligan make of Kohlberg's theory, and why does it matter beyond the specific question of gender differences in moral reasoning?"
+  type: short-answer
+  answer: "Gilligan's methodological critique is that the sample used to build a theory determines what the theory treats as normal and mature. Kohlberg studied only boys and men, so justice-oriented reasoning became the implicit standard for moral development. When women reasoned differently, the theory classified their responses as less mature rather than recognizing them as reflecting a different but valid framework. The broader implication is that any developmental theory built on a non-representative sample risks encoding that sample's patterns as universal endpoints. This applies across developmental psychology: theories of cognition, identity, language, and social reasoning built on narrow populations (often white, Western, educated, male) may systematically misclassify responses that deviate from the sample as deficient rather than different."
+  explanation: "Gilligan's work is foundational to feminist philosophy of science and developmental psychology precisely because it demonstrates how sample bias does not just affect statistical validity — it shapes what counts as the standard, the endpoint, and the definition of maturity or competence. This is why her critique has lasted even as the empirical question of gender differences in care vs. justice reasoning has become more nuanced."
+```
+
 ## Explainer
 
 To understand Gilligan, you first need to see what she was reacting to. Kohlberg's model — which you've already studied — placed abstract reasoning about universal rights and principles at the top of moral development. Stage 6 thinkers invoke rules like "justice requires impartiality" and apply them without exception. This framework was derived almost entirely from studies of boys and men. When Gilligan interviewed women about moral dilemmas in the 1970s, she noticed they weren't reasoning poorly by Kohlberg's standards — they were reasoning *differently*. They kept bringing in relationships, context, and consequences for real people. Under Kohlberg's scoring rubric, this looked like stuck development. Gilligan argued it was a different voice, not a deficient one.

@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Polar protic solvents (H₂O, ROH, RCOOH) form hydrogen bonds, solvating anions and reducing their nucleophilicity. Polar aprotic solvents (DMSO, DMF, acetonitrile) dissolve ionic compounds but cannot hydrogen-bond, leaving nucleophiles more reactive. Aprotic solvents strongly enhance SN2 reactivity and are used in ionic synthesis reactions. The choice of solvent dramatically affects reaction outcome.
 
+## Questions
+
+```yaml
+- question: "A chemist wants to maximize the rate of an SN2 reaction between sodium iodide (NaI) and an alkyl chloride. Which solvent choice would give the fastest reaction?"
+  type: multiple-choice
+  options:
+    - "Water — NaI dissolves well and ionic reactions are fastest in aqueous solution"
+    - "Methanol — the protic environment stabilizes both the nucleophile and leaving group"
+    - "DMSO — polar aprotic solvents leave the iodide nucleophile unsolvated and highly reactive"
+    - "Hexane — a nonpolar solvent ensures no solvation effects interfere"
+  answer: 2
+  explanation: "DMSO is polar enough to dissolve NaI and separate the ion pair, but its hydrogens are bonded to carbon and cannot donate hydrogen bonds to the iodide anion. This leaves I⁻ 'naked' and highly reactive. Water and methanol would form hydrogen-bond cages around I⁻, stabilizing it and slowing attack. Hexane cannot dissolve ionic NaI at all."
+
+- question: "In polar protic solvents, the nucleophilicity order of halides is I⁻ > Br⁻ > Cl⁻ > F⁻, which is the opposite of their basicity order. What explains this reversal?"
+  type: multiple-choice
+  options:
+    - "Larger halides are intrinsically better nucleophiles regardless of solvent"
+    - "Smaller, more charge-dense halides are more tightly solvated by hydrogen bonds, reducing their effective reactivity"
+    - "Fluoride forms stronger covalent bonds with carbon, making it a poorer nucleophile"
+    - "Iodide has d-orbitals available for bonding that smaller halides lack"
+  answer: 1
+  explanation: "In polar protic solvents, each halide anion is surrounded by a cage of hydrogen bonds. Fluoride, being small and highly charge-dense, holds this cage most tightly — desolvation is most energetically costly, and F⁻ reacts most slowly. Iodide is large and diffuse, solvated least tightly, and reacts fastest. In aprotic solvents where no H-bond cage forms, the order reverts to what basicity predicts: F⁻ > Cl⁻ > Br⁻ > I⁻."
+
+- question: "Polar aprotic solvents accelerate SN2 reactions by forming hydrogen bonds to the transition state, stabilizing the developing negative charge."
+  type: true-false
+  answer: false
+  explanation: "This reverses the mechanism. Polar aprotic solvents (DMSO, DMF, acetonitrile) have no O–H or N–H bonds to donate hydrogen bonds. Their accelerating effect comes from what they do NOT do: they cannot solvate the nucleophilic anion, leaving it unsolvated and reactive. The anion does not need to shed a hydrogen-bond cage before attacking, so activation energy is lower. Hydrogen bonding to the transition state is a feature of protic solvents, which actually slow SN2 reactions."
+
+- question: "A fluoride ion is a stronger nucleophile in DMSO than in water."
+  type: true-false
+  answer: true
+  explanation: "In water, F⁻ is surrounded by a tight hydrogen-bond solvation shell that it must partially shed before attacking an electrophile. This desolvation cost is high because F⁻ is small and highly electronegative. In DMSO, no such cage forms around the anion, so F⁻ attacks at full strength. This is why the nucleophilicity order reverses between protic and aprotic media: in DMSO, F⁻ is the most nucleophilic halide, not the least."
+
+- question: "Why does switching from methanol to DMSO reverse the nucleophilicity order of halide ions, and what does this tell us about the relationship between nucleophilicity and basicity?"
+  type: short-answer
+  answer: "In methanol, O–H groups form hydrogen bonds around halide anions. Smaller, more charge-dense halides (F⁻) are solvated more tightly, raising their effective activation energy and making them weaker nucleophiles. In DMSO, no H-bond cage forms around anions, so they attack without a solvation penalty — and the intrinsic basicity order governs reactivity: F⁻ > Cl⁻ > Br⁻ > I⁻. This shows that nucleophilicity and basicity align in aprotic media, but diverge in protic media due to differential solvation of anions."
+  explanation: "Solvation is what separates nucleophilicity from basicity in practice. Basicity measures thermodynamic affinity for a proton; nucleophilicity measures kinetic ability to attack carbon. In protic solvents, differential solvation dominates and larger, more polarizable anions win because their charge is more diffuse. Remove the solvation effect, and the harder, more electron-dense bases are also the better nucleophiles."
+```
+
 ## Explainer
 
 From your study of intermolecular forces, you know that hydrogen bonding is among the strongest non-covalent interactions — occurring when a hydrogen attached to an electronegative atom (O, N, F) interacts with a lone pair on another electronegative atom. This single property divides the solvent world into two camps that behave very differently in organic reactions. **Polar protic solvents** like water, methanol, and acetic acid have O–H or N–H bonds that can donate hydrogen bonds. **Polar aprotic solvents** like DMSO, DMF, and acetone are polar enough to dissolve ionic compounds, but they lack those donor hydrogen atoms — their hydrogens are bonded only to carbon, which is not electronegative enough to form strong hydrogen bonds.

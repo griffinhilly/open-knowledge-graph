@@ -28,6 +28,45 @@ Read passages from the Book of the Dead alongside images of mummy cases and tomb
 ## Common Misconceptions
 Egyptians buried people with treasures for use in the afterlife as if the afterlife were identical to earthly life—the afterlife was conceptualized as a different realm with different physics. All Egyptians mummified their dead—only the wealthy had elaborate mummification; poorer people had simpler preservation methods.
 
+## Questions
+
+```yaml
+- question: "In Egyptian belief, what was the primary purpose of placing food and drink offerings in and near tombs?"
+  type: multiple-choice
+  options:
+    - "To symbolize the deceased's social status and demonstrate their wealth to the gods"
+    - "To nourish the ka — the vital life-force that survived death and required continued sustenance"
+    - "To feed the ba during its nighttime journey through the underworld alongside Ra"
+    - "To appease Ammit so that it would not devour the heart during the weighing ceremony"
+  answer: 1
+  explanation: "Tomb offerings were functional maintenance for the ka — the vital life-force or double created at birth and surviving death, which required ongoing nourishment to continue existing. Without food and drink offerings, the ka would weaken. This is why tomb inscriptions request offerings and why priests were employed to maintain the offering cult across generations. The ba (option C) was more associated with the deceased's individual personality and its mobility between the tomb and living world; it did not require the same feeding. Ammit (option D) was not transactable — it was the consequence of moral failure, not an agent to be bribed."
+
+- question: "A Middle Kingdom noble is buried with Coffin Texts inscribed inside the coffin lid. Compared to Old Kingdom practice, what does this represent?"
+  type: multiple-choice
+  options:
+    - "A decline in afterlife belief — coffin texts are simplified versions of royal pyramid texts reflecting reduced religious investment"
+    - "A democratization of afterlife access — protective texts once restricted to royal burial chambers are now available to non-royal elites"
+    - "A cosmological shift — Middle Kingdom Egyptians rejected the solar journey and adopted an exclusively Osiris-centered afterlife"
+    - "An administrative reform — coffin texts were state-mandated documents recording lifetime achievements"
+  answer: 1
+  explanation: "The spread of Coffin Texts in the Middle Kingdom represents progressive democratization of afterlife technology: spells and texts that once protected only the pharaoh inside pyramid chambers were now inscribed on the coffins of non-royal elites. This trajectory continued in the New Kingdom when the Book of the Dead was available as purchasable papyrus scrolls. The underlying cosmology remained consistent — the democratization was about who could participate in it, not a change in beliefs. This is not decline (option A) but expansion of access."
+
+- question: "The Egyptian concept of the soul was equivalent to what Western traditions call the soul — a single spiritual entity that survives bodily death."
+  type: true-false
+  answer: false
+  explanation: "Egyptian personhood was far more complex than a simple soul-body duality. Egyptians distinguished at least three major non-physical components: the ka (vital life-force requiring ongoing nourishment, tethered to the tomb), the ba (individual personality able to travel between the tomb and living world, depicted as a human-headed bird), and the akh (the glorified, transfigured form of a successfully judged deceased, integrated with the stars and Ra). Mummification preserved the body as an anchor for these components. Collapsing these distinctions into a single 'soul' misrepresents Egyptian cosmology and obscures why tomb maintenance was not merely ceremonial."
+
+- question: "In Egyptian cosmology, the ultimate 'true death' occurred when the physical body was destroyed — as long as the mummy remained intact, the deceased's existence in the afterlife was assured."
+  type: true-false
+  answer: false
+  explanation: "Physical preservation was necessary but not sufficient. The ultimate death in Egyptian cosmology was failing the heart-weighing ceremony: if Ammit devoured the heart of a person whose character was found wanting, that person suffered complete annihilation — the extinction of all their non-physical components, which was considered far worse than physical death. A person whose heart balanced the feather of Ma'at became the akh and joined the company of Ra. The mummy preserved the body as an anchor for the journey, but the moral judgment determined whether any afterlife was possible at all."
+
+- question: "Explain how the heart-weighing ceremony in Egyptian belief functioned as both a moral framework and a social institution."
+  type: short-answer
+  answer: "The weighing of the heart against the feather of Ma'at made ethical behavior essential to cosmic survival: a heart heavy with wrongdoing would be devoured by Ammit, resulting in total annihilation. This framed morality not as social obligation but as a cosmological necessity, incentivizing virtuous behavior throughout life. As a social institution, the system reflected and reinforced hierarchy: elaborate afterlife preparations (mummification, the Book of the Dead, tomb construction) required resources, so wealthier people had better 'equipment' for navigating judgment. The democratization from Pyramid Texts (royalty only) to Coffin Texts (elites) to the Book of the Dead (any family that could afford it) shows how access to afterlife technology tracked social position across three millennia."
+  explanation: "This is why the study of Egyptian mortuary practice cannot be separated from Egyptian social history. The afterlife cosmology was not politically neutral — it both expressed and naturalized the social order by making cosmic favor and earthly privilege look like the same phenomenon, visible in who received which level of preparation and protection."
+```
+
 ## Explainer
 
 Egyptian cosmology cannot be understood in isolation from the Nile, which you've already studied. The annual flood cycle — predictable, life-giving, transformative — gave Egyptians an experiential model for death and rebirth. The sun that set in the west and rose again in the east, the inundation that submerged the land and receded to reveal fertile soil, the seed that appeared dead and germinated into grain: these were not metaphors tacked on to religion but the literal pattern from which Egyptian theology was constructed. Death was not an ending but a transformation into a different mode of existence requiring careful preparation and ongoing ritual support.

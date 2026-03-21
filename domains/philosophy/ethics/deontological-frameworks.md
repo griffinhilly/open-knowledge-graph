@@ -25,6 +25,45 @@ Deontological ethics evaluates actions by their conformity to duties, rights, an
 ## How It's Best Learned
 Test deontological reasoning on the trolley problem: if deontology forbids actively killing one to save five, examine what principle justifies the rule and whether it holds in variants.
 
+## Questions
+
+```yaml
+- question: "In the bridge variant of the trolley problem, you can push a large bystander off a bridge to stop the trolley and save five people. A consequentialist says this is permissible because five lives outweigh one. How would most deontologists respond?"
+  type: multiple-choice
+  options:
+    - "They would agree — five lives saved is always better than one life saved"
+    - "They would forbid it because the bystander has more rights than the five people on the track"
+    - "They would forbid it because pushing the bystander uses them as a mere means, violating their status as an end in themselves"
+    - "They would permit it only if the bystander consented in advance"
+  answer: 2
+  explanation: "The deontological objection is not about numbers or consent but about the structure of the action: pushing the bystander treats them as a tool to save others — a mere means — which violates their inherent dignity as a person. Pulling the lever redirects an existing threat without instrumentalizing anyone. The Kantian principle is: never treat humanity merely as a means but always also as an end. Even a beneficial outcome does not make using a person this way morally permissible under deontology."
+
+- question: "Kant argues that lying is morally wrong. What is the core deontological reason?"
+  type: multiple-choice
+  options:
+    - "Lying usually produces bad consequences, which makes it wrong on balance"
+    - "The maxim permitting lying cannot be universalized without contradiction — it would destroy the institution that makes lying effective"
+    - "Lying makes the liar feel guilty, which is a form of self-harm"
+    - "Lying violates the rights of the listener by giving them false information they didn't consent to"
+  answer: 1
+  explanation: "Kant's categorical imperative asks whether your action's underlying maxim could be universalized. If everyone lied whenever convenient, the institution of truthful communication — which is what makes lying effective in the first place — would collapse. The maxim self-destructs when universalized, which is the deontological mark of a forbidden action. This reasoning does not depend on lies usually having bad consequences (option A is a consequentialist argument); it depends on the logical structure of the maxim itself."
+
+- question: "Deontological ethics can forbid an action even when performing it would produce better outcomes than not performing it."
+  type: true-false
+  answer: true
+  explanation: "This is the defining feature of deontology. Executing an innocent person to prevent riots, harvesting one person's organs to save five — these are prohibited by deontological constraints even when the numbers favor them. Deontologists argue that there are moral constraints on action that hold regardless of consequences. This captures the intuition that some acts are monstrous in themselves, not just because of what they produce."
+
+- question: "Deontological frameworks evaluate the moral status of an action primarily by the outcomes it is likely to produce."
+  type: true-false
+  answer: false
+  explanation: "This describes consequentialism, not deontology. Deontology evaluates actions by what they are — by their conformity to duties, rights, and rules — independent of consequences. The contrast is explicit in the topic: consequentialism says the moral status of an action is entirely determined by outcomes; deontology says some actions are right or wrong because of what the actions *are*, not what they produce."
+
+- question: "What does it mean to use someone as a 'mere means,' and why does Kantian deontology prohibit this even when the action produces good outcomes?"
+  type: short-answer
+  answer: "Using someone as a mere means treats them as a tool for achieving your goals rather than as a person with their own ends and dignity. Kant's principle is that persons must always be treated also as ends in themselves, never only instrumentally. Even if using a person produces good outcomes for others, it violates their inherent worth as a rational agent — a violation that no amount of beneficial consequence can justify under deontological ethics."
+  explanation: "The force of this principle is that it blocks outcome-based reasoning from overriding individual rights. The organ harvesting case is the clearest example: killing one healthy person to distribute organs to five dying patients maximizes lives saved, but treats the one as a resource for others. Deontologists say this is monstrous regardless of the math, and that our moral intuition here is reliable, not squeamish."
+```
+
 ## Explainer
 
 You've already distinguished **normative** questions (what should we do?) from **metaethical** ones (what makes something right or wrong in the first place?). Deontological frameworks are a family of answers to the normative question — but they share a common structure that sets them apart from the other major family, consequentialism. The key difference is this: **consequentialism** says the moral status of an action is entirely determined by its outcomes; **deontology** says some actions are right or wrong *independent* of their consequences, because of what the actions *are* rather than what they produce.

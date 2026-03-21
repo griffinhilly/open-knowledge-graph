@@ -41,6 +41,45 @@ Set up a laser pointer shining through a double-slit card onto a wall. Measure f
 - The double-slit pattern is not simply two overlapping single-slit images; it arises from wave interference between the two coherent sources.
 - Central bright fringe is the zeroth order (m=0), not the first order.
 
+## Questions
+
+```yaml
+- question: "In Young's experiment, slit separation d is doubled while screen distance L and wavelength λ remain unchanged. What happens to the fringe spacing?"
+  type: multiple-choice
+  options:
+    - "It doubles — wider slits spread light further apart"
+    - "It halves — the path-difference geometry changes more rapidly with angle"
+    - "It stays the same — fringe spacing depends only on wavelength"
+    - "It quadruples — the effect of d is squared in the formula"
+  answer: 1
+  explanation: "Fringe spacing Δy ≈ λL/d. Doubling d while holding λ and L constant halves Δy. The intuition: wider slit separation means the path difference dsinθ reaches one full wavelength at a smaller angle, squeezing the bright fringes closer together. Option A reverses the relationship, and options C and D misread the formula."
+
+- question: "Newton's corpuscular theory predicted that passing light through two slits would produce two bright bands on the screen. Young instead observed alternating bright and dark bands. Why is this a decisive argument for the wave nature of light?"
+  type: multiple-choice
+  options:
+    - "Particles travel in straight lines and would miss the screen at the dark regions"
+    - "Waves can cancel — two waves arriving out of phase produce zero amplitude, but two particles cannot cancel each other"
+    - "The bright bands are brighter than a single slit would produce, proving energy is being added"
+    - "The dark bands occur exactly where no light hits, proving light bends around corners"
+  answer: 1
+  explanation: "The dark fringes are the decisive evidence. If light were corpuscular, two streams of particles can only add — you would see two bright bands or a uniform glow, never a region darker than either slit alone. The existence of dark bands (destructive interference) is only possible if light has a wave nature: waves arriving exactly out of phase (half-integer path difference) cancel via superposition. Particles simply cannot cancel each other."
+
+- question: "Bright fringes in Young's double-slit experiment occur where the path difference from the two slits equals an integer multiple of the wavelength."
+  type: true-false
+  answer: true
+  explanation: "This is the constructive interference condition: d sinθ = mλ (m = 0, ±1, ±2, …). When both waves travel the same total distance (or differ by exactly one, two, … wavelengths), they arrive perfectly in phase — crest meets crest, trough meets trough — and their amplitudes add to produce a bright fringe."
+
+- question: "Dark fringes in Young's experiment appear because light from one slit is physically blocked from reaching those regions of the screen by the other slit."
+  type: true-false
+  answer: false
+  explanation: "Dark fringes are not caused by blocking — both slits are open, and light from each slit reaches every part of the screen. Dark fringes arise from destructive interference: when the path difference is a half-integer number of wavelengths (m + ½)λ, the two waves arrive exactly out of phase and their amplitudes cancel. This is wave superposition, not obstruction. The misconception misidentifies a diffraction effect as a geometric shadow effect."
+
+- question: "Why do dark fringes appear in Young's experiment, and what does their existence prove about the nature of light?"
+  type: short-answer
+  answer: "Dark fringes appear because light from the two slits travels different distances to reach points off-center on the screen. Where this path difference is a half-integer number of wavelengths, the waves arrive 180° out of phase and cancel. This cancellation — two sources of light combining to produce darkness — is only possible if light is a wave. Particles cannot cancel; they can only add. The dark fringes are therefore direct physical evidence that light undergoes wave superposition."
+  explanation: "The key distinction is between additive and cancellation behavior. Particle models always predict at least as much intensity with two sources as with one. The fact that adding a second slit can make certain regions darker is the fingerprint of wave interference and cannot be explained by any particle model."
+```
+
 ## Explainer
 
 From your study of wave interference, you know that two waves overlapping in space either reinforce or cancel depending on whether they arrive **in phase** or **out of phase**. Young's double-slit experiment is nothing more than a precise geometric arrangement that converts this superposition principle into a visible spatial pattern. The two slits act as two coherent sources of light — like two speakers emitting the same frequency — and at every point on the screen the two waves arrive having traveled slightly different distances. That difference in travel distance, the **path difference**, determines whether the waves arrive in phase (bright fringe) or out of phase (dark fringe).

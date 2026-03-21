@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 Galaxies enrich themselves with heavy elements through successive generations of star formation and stellar feedback. Elements heavier than helium are created in stars (via fusion and neutron capture) and dispersed when stars explode as supernovae, enriching the interstellar medium. Measuring metallicity patterns across stellar populations reveals a galaxy's star formation history and the timescales of chemical enrichment.
 
+## Questions
+
+```yaml
+- question: "An astronomer observes two stars with identical iron abundances ([Fe/H] = −1.0) but very different alpha-element-to-iron ratios: one has high [α/Fe], the other low. What does the high-[α/Fe] star's chemical signature most likely indicate about its formation history?"
+  type: multiple-choice
+  options:
+    - "It formed recently from gas already enriched by Type Ia supernovae, which produce alpha elements efficiently"
+    - "It formed early in the galaxy's history, before the delayed Type Ia supernovae had time to contribute iron and lower the α/Fe ratio"
+    - "It formed in a region with no Type Ia supernova activity at all, making alpha elements the only available enrichment source"
+    - "The α/Fe ratio reflects only the star's initial mass, not when or where it formed"
+  answer: 1
+  explanation: "Core-collapse supernovae from short-lived massive stars produce alpha elements (O, Mg, Si) promptly after a burst of star formation. Type Ia supernovae — which produce most of the iron-peak elements — detonate with a delay of hundreds of millions to billions of years. A star that formed early, before Type Ia SNe had time to contribute, inherits gas enriched in alpha elements but not yet iron-boosted by Type Ia events, producing high [α/Fe]. The high [α/Fe] at a given [Fe/H] is thus a fingerprint of early, rapid star formation."
+
+- question: "Why does [Fe/H] — the iron-to-hydrogen abundance ratio — serve as a chemical clock for stellar age in a galaxy?"
+  type: multiple-choice
+  options:
+    - "Stars accumulate iron through nuclear burning over their lifetimes, so their surface iron abundance increases as they age"
+    - "The universe began metal-free; successive generations of stars synthesize and disperse heavy elements, so stars that formed later inherited the accumulated enrichment of all previous generations"
+    - "Iron is the most thermodynamically stable nucleus, so it is preferentially produced at every stage of galactic evolution regardless of stellar mass"
+    - "Metal-rich stars are systematically more luminous and therefore appear photometrically younger in surveys"
+  answer: 1
+  explanation: "The Big Bang produced almost exclusively hydrogen and helium. The first stars (Population III) formed from this near-pristine material and seeded the ISM with metals when they died. Each subsequent stellar generation inherited a more metal-rich ISM. A star's [Fe/H] therefore encodes the cumulative enrichment history of the gas it formed from — low [Fe/H] stars are ancient, high [Fe/H] stars are recent. This is why stellar chemical abundances are sometimes called 'chemical tags' that identify a star's birth environment and epoch."
+
+- question: "Gold and uranium in the solar system were primarily produced by rapid neutron capture (r-process) in violent events like neutron star mergers, not by the ordinary hydrogen and helium burning that powers stars on the main sequence."
+  type: true-false
+  answer: true
+  explanation: "Elements heavier than iron cannot be produced by fusion (which releases energy only up to iron). The r-process — rapid neutron capture under extreme neutron flux — builds the heaviest nuclei including gold (Au), platinum (Pt), and uranium (U). This process requires neutron-rich environments found in neutron star mergers (confirmed by the gravitational wave event GW170817) and possibly certain rare core-collapse supernovae. Main-sequence hydrogen burning produces only helium, making it irrelevant to heavy element synthesis."
+
+- question: "Because Type Ia supernovae are the dominant iron producers, iron abundance in a galaxy begins rising immediately after the first generation of massive stars explodes."
+  type: true-false
+  answer: false
+  explanation: "Type Ia supernovae require a delay of ~100 million to several billion years to detonate — they arise from white dwarfs in binary systems that must accrete or merge over long timescales. The immediate post-starburst enrichment comes from core-collapse supernovae of short-lived massive stars, which produce alpha elements but relatively little iron. Iron-peak enrichment from Type Ia SNe accumulates substantially later, which is why early-universe stars have high [α/Fe] ratios. The 'delay time distribution' of Type Ia SNe is central to interpreting galaxy chemical evolution patterns."
+
+- question: "How does the 'knee' in a plot of [α/Fe] versus [Fe/H] encode a galaxy's early star formation rate?"
+  type: short-answer
+  answer: "Before the knee, alpha elements from core-collapse supernovae dominate enrichment, keeping [α/Fe] high. The knee marks the metallicity at which Type Ia supernovae begin contributing enough iron to lower [α/Fe]. If a galaxy formed stars very rapidly early on, it reached high metallicity before Type Ia SNe became important — so the knee appears at relatively high [Fe/H]. A galaxy that formed stars slowly accumulated metals gradually, and Type Ia contributions began while [Fe/H] was still low, placing the knee at lower metallicity. The knee position therefore directly encodes how rapidly the early ISM was enriched, reflecting the early star formation rate."
+  explanation: "This is one of the most powerful diagnostics in galactic archaeology: measuring [α/Fe] at different metallicities across a galaxy's stellar population constrains the star formation history without needing age measurements directly. Surveys like APOGEE use exactly this approach to compare the chemical evolution of the Milky Way's disk, bulge, and halo."
+```
+
 ## Explainer
 
 From your study of stellar nucleosynthesis, you know that stars forge elements heavier than hydrogen and helium through nuclear fusion in their cores — helium burning produces carbon and oxygen, and successive burning stages in massive stars build elements up to iron. But a single star's contribution is just one episode in a much longer story. **Chemical evolution** is the cumulative process by which an entire galaxy's supply of heavy elements — collectively called **metals** in astronomical parlance — increases over cosmic time as generation after generation of stars lives, synthesizes new elements, and dies.

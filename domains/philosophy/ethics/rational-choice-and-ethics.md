@@ -31,6 +31,45 @@ Model an ethical scenario as a rational choice problem: identify agents, outcome
 ## Common Misconceptions
 Assuming rationality guarantees morality. Treating preference satisfaction as the only rational goal. Confusing rational egoism with rational choice—they're not identical.
 
+## Questions
+
+```yaml
+- question: "An investor consistently and coherently maximizes his own financial gain, caring nothing about the welfare of others affected by his decisions. Under standard rational choice theory, is this agent irrational?"
+  type: multiple-choice
+  options:
+    - "Yes — genuine rationality requires impartial concern for all affected parties"
+    - "Yes — rational agents must weigh long-term reputational costs, which include others' welfare"
+    - "No — rational choice theory only requires consistent preference ordering, not any particular content of preferences"
+    - "No — but only because rationality is instrumentally identical to morality in the long run"
+  answer: 2
+  explanation: "Rational choice theory's formal requirements are consistency (transitivity, completeness) and maximization of expected utility — not any specific content of preferences. An agent whose preferences are entirely self-regarding satisfies these requirements just as well as an altruistic one. This is the central tension: rationality, formally defined, does not entail morality. Option D describes a separate argument (that morality is instrumentally rational) — but that is a conclusion that must be argued for, not a feature of the formal framework."
+
+- question: "According to contractualism in the Scanlonian tradition, what role does rationality play in generating moral principles?"
+  type: multiple-choice
+  options:
+    - "Rationality requires maximizing total preference satisfaction across all agents"
+    - "Rationality provides the procedure — principles are those no one could reasonably reject — even if it doesn't dictate their content"
+    - "Rationality determines which outcomes are intrinsically valuable, from which moral rules are derived"
+    - "Rationality is irrelevant to morality, which is grounded in sentiment rather than reason"
+  answer: 1
+  explanation: "For Scanlon, morality consists of principles that rational agents could not reasonably reject under conditions of fairness. Rationality here is procedural, not substantive: it governs how agreement is reached (consistency, non-arbitrariness), but the content of moral principles emerges from the outcome of the procedure. This contrasts with consequentialist approaches that use rationality to directly calculate optimal outcomes. The 'reasonable rejection' criterion is doing normative work that rationality alone cannot supply."
+
+- question: "Preference utilitarianism and hedonic utilitarianism are equivalent because both maximize utility."
+  type: true-false
+  answer: false
+  explanation: "Though both are consequentialist theories that maximize utility, they differ in what 'utility' means. Hedonic utilitarianism equates utility with pleasure and absence of pain — a fixed psychological measure. Preference utilitarianism equates utility with preference satisfaction — what agents actually want, regardless of whether it produces pleasure. An agent might prefer a challenging life over a comfortable one; preference utilitarianism respects that preference, while hedonic utilitarianism would favor the more pleasant life."
+
+- question: "In rational choice theory, it is possible for an agent's utility function to assign positive weight to the welfare of others."
+  type: true-false
+  answer: true
+  explanation: "Rational choice theory places no constraints on the content of preferences — only on their formal structure (consistency, transitivity, completeness). An agent whose utility increases when others flourish is fully accommodated by the framework. Altruism and moral concern can all be represented as preferences within a utility function. This means 'rationality requires self-interest' is false — rational egoism is one coherent position, but not the only one."
+
+- question: "Why can't we simply derive morality from rationality using rational choice theory, even if rational agents can have other-regarding preferences?"
+  type: short-answer
+  answer: "Because rational choice theory permits both self-regarding and other-regarding preferences without privileging either. Rational egoism — consistently maximizing one's own interests — satisfies every formal requirement of rationality. The framework can represent moral preferences, but it cannot tell you which preferences you ought to have. To get from rationality to morality, you need an additional argument: that morality is instrumentally rational, that genuine rationality constitutively includes concern for others, or that the two normative domains must be related by a substantive philosophical argument."
+  explanation: "This is the 'gap' that preference utilitarianism and contractualism attempt to bridge in different ways. Preference utilitarianism widens the utility function to include all affected parties; contractualism uses the rationality of fair agreement. Neither strategy is uncontested, which is why the relationship between rationality and morality remains a central open question in metaethics."
+```
+
 ## Explainer
 
 The connection between rationality and morality is one of the oldest puzzles in practical philosophy. You already know from normative ethics that different theories — consequentialism, deontology, virtue ethics — give different accounts of what we ought to do. Rational choice theory adds a sharper question: is there a formal framework, grounded in preference and utility, that can unify moral reasoning? The core claim is that a rational agent has a consistent ordering of preferences, and **utility** is simply a mathematical representation of those preferences. Nothing in this framework requires preferences to be selfish — an agent can rationally prefer that others flourish, that principles be honored, or that suffering be minimized.

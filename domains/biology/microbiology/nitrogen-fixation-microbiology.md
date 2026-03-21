@@ -38,6 +38,45 @@ Draw the complete nitrogen cycle as a flow diagram assigning specific microbial 
 - Nitrogenase is extremely oxygen-sensitive, which is why nitrogen fixers evolved elaborate O₂-exclusion mechanisms: heterocysts in cyanobacteria, leghemoglobin scavenging O₂ in Rhizobium nodules.
 - Denitrification is not decomposition — it is a specific anaerobic respiratory process using nitrate or nitrite as terminal electron acceptors.
 
+## Questions
+
+```yaml
+- question: "A cyanobacterium that fixes nitrogen while also performing oxygenic photosynthesis faces a fundamental biochemical conflict. How do filamentous cyanobacteria solve this?"
+  type: multiple-choice
+  options:
+    - "They only photosynthesize during the day and only fix nitrogen at night, separating the processes temporally"
+    - "They differentiate specialized heterocyst cells that lack photosystem II (so produce no O₂) and are supplied with fixed carbon from neighboring vegetative cells"
+    - "They produce an enzyme that detoxifies oxygen before it can reach nitrogenase"
+    - "They reduce their photosynthetic rate below the level that would produce dangerous oxygen concentrations"
+  answer: 1
+  explanation: "Heterocysts solve the oxygen paradox structurally. They have thick walls that limit O₂ diffusion, they lack photosystem II (eliminating the source of O₂ from water splitting), and they are metabolically specialized for N₂ fixation. Fixed nitrogen (as glutamine) flows to adjacent vegetative cells through narrow channels, and fixed carbon (as sucrose) flows back to fuel the ATP-intensive nitrogenase reaction. This cellular division of labor within a single filament is a remarkable example of prokaryotic differentiation."
+
+- question: "Leguminous plants can thrive in nitrogen-poor soils. A farmer rotates soybeans with corn. Why does the corn that follows soybeans often need less nitrogen fertilizer?"
+  type: multiple-choice
+  options:
+    - "Soybeans excrete nitrogen compounds from their roots, directly fertilizing the soil"
+    - "The Rhizobium bacteria in soybean nodules fix atmospheric N₂ and release fixed nitrogen into the soil when nodules decompose after harvest"
+    - "Soybeans absorb excess nitrate from the soil, which is mineralized and becomes available after the crop is plowed under"
+    - "Corn absorbs Rhizobium bacteria from the soil left by soybeans and forms its own nitrogen-fixing associations"
+  answer: 1
+  explanation: "Rhizobium inside soybean nodules fix N₂ and share fixed nitrogen with the plant. When the soybean crop senesces and nodules decompose, the fixed nitrogen re-enters the soil as ammonium and organic nitrogen, enriching the soil for the next crop. This is the biochemical basis of the centuries-old agricultural practice of legume rotation. Corn cannot form Rhizobium symbioses — it would need external fertilizer in a monoculture system."
+
+- question: "Nitrogenase is irreversibly destroyed by oxygen, yet many nitrogen-fixing bacteria are strict aerobes. This is a contradiction — aerobic organisms cannot fix nitrogen."
+  type: true-false
+  answer: false
+  explanation: "Several aerobic bacteria fix nitrogen successfully by protecting nitrogenase from O₂. Azotobacter maintains such a high respiratory rate that O₂ is consumed faster than it can diffuse in, creating an anoxic cytoplasmic environment. Rhizobium in root nodules is protected by leghemoglobin, which buffers O₂ at very low concentrations — high enough to support bacteroid respiration for ATP production but low enough to prevent nitrogenase inactivation. The contradiction is real, but biology evolved elegant solutions to it."
+
+- question: "Denitrification is essentially the same process as decomposition — both break down nitrogen-containing organic compounds and release gases."
+  type: true-false
+  answer: false
+  explanation: "Denitrification is anaerobic respiration using nitrate (NO₃⁻) or nitrite (NO₂⁻) as terminal electron acceptors, reducing them stepwise to N₂ gas. It does not involve breaking down organic nitrogen compounds. Decomposition (ammonification) is the process of mineralizing organic nitrogen — from proteins, nucleic acids, etc. — back to ammonium (NH₄⁺). These are distinct steps in the nitrogen cycle: decomposition releases ammonium, nitrification oxidizes ammonium to nitrate, and denitrification reduces nitrate back to N₂. Conflating them obscures how the cycle closes."
+
+- question: "Why does the nitrogenase reaction require 16 ATP per N₂ fixed, and what does this energy cost reveal about nitrogen's role in the biosphere?"
+  type: short-answer
+  answer: "N₂ has a triple bond (945 kJ/mol) — one of the strongest bonds in biology. Breaking it requires transferring 8 electrons and 8 protons, which is thermodynamically demanding. Nitrogenase uses 16 ATP to drive this electron transfer, hydrolyzing 2 ATP per electron. This enormous energy cost means nitrogen fixation is only worthwhile in nitrogen-limited environments. It also explains why virtually all reactive nitrogen in the biosphere passes through nitrogen-fixing prokaryotes: no other organism evolved the capacity to pay this energetic price. Plants and animals must acquire nitrogen from their environment, ultimately traceable to microbial fixation."
+  explanation: "The ATP cost also explains why legume-Rhizobium symbioses evolved: the plant provides photosynthate (energy currency) to the bacteroid in exchange for fixed nitrogen. Both partners are essentially paying an energy cost that neither could easily bear alone — the plant has the solar energy but not the nitrogenase; the free-living bacterium has nitrogenase but limited energy. The symbiosis pools resources to make the reaction economically viable."
+```
+
 ## Explainer
 
 From your study of bacterial metabolism, you know that bacteria harvest energy by shuttling electrons from donors to acceptors through redox reactions. Nitrogen fixation is one of the most energetically demanding metabolic processes in all of biology, and understanding why reveals its global importance. Atmospheric nitrogen (N₂) is the most abundant gas in Earth's atmosphere — roughly 78% — yet it is biologically inert because the two nitrogen atoms are held together by an extraordinarily strong **triple bond** (945 kJ/mol). No plant, no animal, and no fungus can break this bond. Only certain prokaryotes carrying the **nitrogenase** enzyme complex can reduce N₂ to ammonium (NH₄⁺), the biologically usable form. This means that virtually all nitrogen in every protein, nucleic acid, and chlorophyll molecule in the biosphere ultimately passed through a nitrogen-fixing prokaryote.

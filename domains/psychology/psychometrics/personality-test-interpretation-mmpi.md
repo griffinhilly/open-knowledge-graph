@@ -31,6 +31,45 @@ Work with MMPI-2 profiles from actual clinical cases, paying attention to validi
 - Assuming MMPI-2 is a diagnostic instrument that directly diagnoses conditions; it measures traits and symptom patterns that support clinical judgment.
 - Overlooking the importance of the K-correction and how it affects scale elevations for defensive or overcorrecting individuals.
 
+## Questions
+
+```yaml
+- question: "A clinician receives an MMPI-2 profile where the F scale T-score is 118 and Scale 2 (Depression) is elevated at T = 81. What is the correct first conclusion?"
+  type: multiple-choice
+  options:
+    - "The patient has severe depression; Scale 2 at T = 81 confirms a major depressive episode"
+    - "The F scale elevation indicates the profile is likely invalid; clinical scale elevations cannot be interpreted as reflecting the patient's actual psychology"
+    - "The K-correction must be applied to deflate both scores before interpretation can proceed"
+    - "The 2-7 code type interpretation applies because Scale 2 is most elevated"
+  answer: 1
+  explanation: "The first and non-negotiable step in MMPI-2 interpretation is the validity scales — and an F scale above T = 100 typically renders clinical scales uninterpretable. The F scale measures endorsement of items rarely endorsed by normative samples; extreme elevation suggests random responding, severe disorganization, or deliberate exaggeration (malingering). Without validity, Scale 2 elevations cannot be attributed to the patient's actual psychological state — they reflect the response artifact. The common error is jumping to clinical scale interpretation without this prerequisite check, which risks interpreting noise as signal."
+
+- question: "What is a 'code type' in MMPI-2 interpretation, and why is it the preferred unit of interpretation rather than individual scale elevations?"
+  type: multiple-choice
+  options:
+    - "A code type is the highest validity scale score; it tells the clinician whether to trust the clinical profile"
+    - "A code type averages all clinical scale T-scores into a single summary index"
+    - "A code type is a two- or three-digit combination of the most elevated clinical scales, grounded in decades of empirical correlates research linking characteristic profile patterns to clinical presentations"
+    - "A code type is the DSM diagnosis that corresponds to each scale, allowing the MMPI-2 to function as a diagnostic instrument"
+  answer: 2
+  explanation: "Code types are the fundamental unit of MMPI-2 interpretation because decades of actuarial research have characterized what patients with particular elevation patterns (e.g., 2-7: Scales 2 and 7 most elevated) look like clinically — their symptom picture, typical treatment response, and prognosis. A single elevated scale tells you little; the pattern of elevations together creates a recognizable clinical fingerprint. This is why the MMPI-2 is described as profile-based: meaning emerges from configuration, not from isolated scores."
+
+- question: "The MMPI-2 is a diagnostic instrument — a clinician can use elevated scale scores to directly assign DSM diagnoses."
+  type: true-false
+  answer: false
+  explanation: "This is the most critical misconception about the MMPI-2. It is a measure of traits, symptom patterns, and response tendencies — not a diagnostic instrument. Elevated scales indicate psychological trait configurations and symptom clusters that inform clinical judgment; they do not map one-to-one onto DSM diagnoses. Clinical diagnosis requires integrating MMPI-2 findings with interview data, history, behavioral observations, collateral information, and presenting context. The MMPI-2 provides structured measurement signal; the clinician provides the diagnostic interpretation."
+
+- question: "An MMPI-2 profile with identical scale elevations may require different clinical interpretations depending on the referral question and the context in which the profile was obtained."
+  type: true-false
+  answer: true
+  explanation: "Context is essential to MMPI-2 interpretation. An elevated Scale 4 (Psychopathic Deviate) in a forensic pre-sentencing evaluation carries different implications than the same elevation in a voluntary outpatient therapy intake. Demographic factors (age, gender, cultural background), clinical setting, and the specific referral question all modulate the meaning of profile patterns. Two identical profiles can generate meaningfully different clinical formulations — which is why MMPI-2 interpretation requires clinical judgment that integrates the measurement signal with contextual information."
+
+- question: "Why must validity scales be evaluated before clinical scales in MMPI-2 interpretation, and what happens if this step is omitted?"
+  type: short-answer
+  answer: "Validity scales assess response style — whether the person responded in a way that allows clinical scales to reflect their actual psychological functioning. Extreme F-scale elevation suggests random responding, deliberate exaggeration, or severe disorganization; extreme L or K elevation suggests defensive self-presentation. If validity scales indicate an invalid profile, clinical scale elevations do not reflect the person's traits or symptoms — they reflect the response artifact. Skipping validity evaluation means interpreting noise as signal, which can produce false diagnostic impressions and inappropriate clinical decisions. This is why the validity-first rule is the logical prerequisite for all MMPI-2 interpretation."
+  explanation: "The validity scales solve a fundamental psychometric problem: self-report instruments can be distorted by how the person approaches the test, independent of their actual psychology. The F scale catches one direction of distortion (over-reporting), the L and K scales catch the other (under-reporting or defensiveness). An invalid profile is not just unreliable — it is actively misleading, potentially pointing in the opposite direction from clinical reality. This is why checking validity is not a formality but the necessary first move in any competent MMPI-2 interpretation."
+```
+
 ## Explainer
 
 From your work on test score interpretation frameworks, you know that raw scores become meaningful only through the interpretive frame you apply to them — whether norm-referenced, criterion-referenced, or profile-based. The MMPI-2 is the canonical example of **profile-based interpretation**: no single scale elevation tells you much; the pattern of elevations across scales, evaluated against norms and validity indicators, is the unit of meaning.

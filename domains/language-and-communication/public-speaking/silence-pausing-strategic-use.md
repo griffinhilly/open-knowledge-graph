@@ -29,6 +29,45 @@ Select three key claims from a speech and place a 2-3 second pause before each c
 ## Common Misconceptions
 - Silence is awkward for the speaker and indicates incompetence. - Pauses should be filled with filler words to indicate thinking. - Effective speakers minimize pause time to convey efficiency.
 
+## Questions
+
+```yaml
+- question: "A speaker is about to deliver the most important line of her speech. She pauses for two seconds before speaking it. Audience members report the line felt especially powerful. What best explains this effect?"
+  type: multiple-choice
+  options:
+    - "The hesitation signaled she had temporarily forgotten her place, creating suspense"
+    - "The pause primed the audience's attention so the line landed into a moment of heightened focus"
+    - "The silence gave the audience time to predict what she would say, making the line feel familiar"
+    - "Longer pauses always increase dramatic impact regardless of where they are placed"
+  answer: 1
+  explanation: "A pause immediately before a key statement creates expectation — the audience notices the speaker has stopped, attention sharpens, and the statement arrives into that heightened state. This is emphasis through anticipation, not accidental hesitation. Option A reflects the common misconception that silence signals incompetence; option D is wrong because poorly placed pauses (e.g., mid-sentence) are disruptive, not dramatic."
+
+- question: "A nervous speaker fills every brief gap with 'um' or 'uh.' What is the primary rhetorical cost of this habit?"
+  type: multiple-choice
+  options:
+    - "It makes the speech longer and therefore more fatiguing to listen to"
+    - "It prevents pauses from signaling confidence and robs the audience of processing time after key points"
+    - "It reduces credibility because audiences notice and count the filler words consciously"
+    - "It creates emphasis around key points by punctuating them with audible markers"
+  answer: 1
+  explanation: "Filler words eliminate the functional pauses that serve the audience — processing time and emphasis — while simultaneously signaling that the speaker is uncomfortable with silence. Option C overstates the conscious awareness most audiences have of filler words; the real damage is structural: the speech loses its rhetorical rhythm. Option D is exactly backwards — fillers diffuse emphasis rather than create it."
+
+- question: "An audience will perceive a two-second deliberate silence as awkward and assume the speaker has lost their place."
+  type: true-false
+  answer: false
+  explanation: "The experience of silence is asymmetric: the speaker feels exposed and fears judgment, but the audience reads silence from the outside. A speaker who pauses, maintains eye contact, and waits is perceived as deliberate and in control — the opposite of incompetent. The discomfort belongs to the speaker's internal state, not to what the audience observes. Nervous speakers fill silence because of how it feels, not because it helps the audience."
+
+- question: "Placing a pause immediately before a key phrase increases its impact by creating a moment of heightened audience attention."
+  type: true-false
+  answer: true
+  explanation: "This is the mechanism of emphasis through anticipation. When the speech stops, the audience registers the break and attention sharpens involuntarily — the brain expects something significant to follow. The key phrase then arrives into that prepared state rather than into a continuous stream of words. This is why comedians pause before punchlines and orators pause before climactic declarations: the pause is part of the delivery, not a gap in it."
+
+- question: "Why is deliberate silence often perceived as a sign of confidence by the audience, even though it feels uncomfortable to the speaker?"
+  type: short-answer
+  answer: "Because audiences read silence from the outside: a speaker who pauses and waits, rather than rushing to fill the gap, appears to be choosing each word deliberately — someone in control of the speech rather than desperate to sustain it. The speaker's internal discomfort (fear of appearing unprepared) does not register to the audience, who have no access to that internal state. What they observe is composure."
+  explanation: "This asymmetry is the key insight. The speaker fears the silence because it feels like losing control; the audience interprets the same silence as mastery. Practicing deliberate pauses in low-stakes situations is how speakers recalibrate their internal experience of silence from 'failure' to 'tool,' which is a prerequisite for using it strategically under pressure."
+```
+
 ## Explainer
 
 From spoken pacing and rhythm, you know that delivery speed is a variable — skilled speakers vary their pace to create contrast and emphasis. From vocal delivery techniques, you know that volume, pitch, and articulation all contribute to how the audience experiences a speech. **Strategic silence** operates at the boundary between sound and no sound — it is the absence of voice used as a rhetorical instrument. Most beginning speakers experience silence as failure: the moment when the speech has stopped working. Skilled speakers experience it as the moment when the speech is doing some of its most important work.

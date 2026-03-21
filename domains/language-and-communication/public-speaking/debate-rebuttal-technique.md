@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Effective rebuttal requires three steps: accurately representing the opponent's argument, identifying its logical or evidential weakness, and presenting a compelling counter-argument with supporting evidence. Rebuttals that acknowledge the opposing view before dismantling it appear more intellectually honest and persuasive.
 
+## Questions
+
+```yaml
+- question: "A debater responds to her opponent's argument about climate policy by attacking a simplified version that ignores several key qualifications her opponent actually made. This technique is called:"
+  type: multiple-choice
+  options:
+    - "A counter-argument — she is offering an alternative position"
+    - "The straw man fallacy — she is attacking a weaker, distorted version of the argument rather than the real claim"
+    - "Accurate representation — summarizing is necessary to make long arguments manageable"
+    - "A logical rebuttal — she is demonstrating the argument's internal inconsistency"
+  answer: 1
+  explanation: "The straw man fallacy involves misrepresenting an opponent's argument in a weaker or easier-to-attack form, then refuting the distorted version. Experienced judges and audiences recognize this immediately — and the opponent's next speech can simply say 'that's not what I argued.' Accurate representation, even of a strong argument, is strategically and ethically necessary for effective rebuttal."
+
+- question: "An opponent argues: 'Studies show teenagers who play violent video games are more likely to exhibit aggressive behavior.' The most complete rebuttal strategy is:"
+  type: multiple-choice
+  options:
+    - "Deny the claim outright and move on to your own constructive arguments"
+    - "Acknowledge the claim accurately, then attack the quality of the evidence (causation vs. correlation, methodological flaws), and offer contradicting evidence or a superior explanation"
+    - "Point out that some teenagers who play violent games are not aggressive, disproving the general claim"
+    - "Argue that video games have cognitive benefits, which outweighs any aggression concern"
+  answer: 1
+  explanation: "A complete rebuttal follows three steps: accurately represent the argument, locate its specific vulnerability (here, the evidence conflates correlation with causation and may have methodological problems), and offer a counter-argument with evidence. Simply denying the claim or changing the subject leaves the original argument standing in the judge's mind. The cognitive-benefits argument is irrelevant to the specific claim about aggression."
+
+- question: "Accurately and charitably restating an opponent's argument before refuting it makes your rebuttal more persuasive, even though it means engaging with the argument at its strongest."
+  type: true-false
+  answer: true
+  explanation: "Charitable representation signals genuine intellectual engagement, which builds credibility with judges and audiences. It also prevents the opponent from deflecting your rebuttal with 'that's not what I said.' Counterintuitively, engaging with the strongest version of an argument and refuting it is more impressive — and more persuasive — than attacking a weakened version. It shows you can win on the strongest possible terms."
+
+- question: "A rebuttal is complete once you have identified and named the weakness in your opponent's argument."
+  type: true-false
+  answer: false
+  explanation: "Identifying a weakness is necessary but not sufficient. A complete rebuttal has three parts: accurately represent the argument, attack its vulnerability, and provide a counter-argument — something for the audience to believe instead. Simply saying 'this argument is flawed' or 'the evidence is weak' leaves the audience without an alternative. The full unit is: acknowledge, attack, rebuild."
+
+- question: "Why does it matter to identify the *type* of weakness in an opponent's argument (logical invalidity vs. insufficient evidence vs. irrelevance) before delivering your rebuttal?"
+  type: short-answer
+  answer: "Different types of weakness require different types of response. A logically invalid argument fails even if its premises are true — the rebuttal demonstrates the invalid inference. An empirically unsupported argument requires contradicting evidence or showing the existing evidence is insufficient. An irrelevant argument requires showing it does not bear on the resolution. Using the wrong type of attack leaves the actual weakness unaddressed and gives the opponent an easy response."
+  explanation: "Precise diagnosis prevents rebuttals that miss the mark. If you attack the logic of an empirical claim, or dispute the evidence of a logical point, the opponent can simply respond 'that's not the basis of my argument.' Naming the correct type of weakness makes the rebuttal focused, hard to deflect, and far more effective."
+```
+
 ## Explainer
 
 From your work on debate format and counterargument basics, you know the structure of a formal debate and the concept that every claim can be challenged. A **rebuttal** is the active execution of that challenge — not just observing that a counterargument exists, but constructing and delivering it effectively under the time pressure of a live round. The core of rebuttal technique is a three-step discipline: accurately represent the argument, locate its vulnerability, and answer it with superior evidence or logic.

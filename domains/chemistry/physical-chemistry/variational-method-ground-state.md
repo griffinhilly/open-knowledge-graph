@@ -27,6 +27,45 @@ The variational principle states that for any trial wave function, the calculate
 ## How It's Best Learned
 Use simple trial functions (e.g., exponential with adjustable decay constant) for hydrogen-like systems; minimize energy with respect to parameters and compare with exact solutions. Understand why this approach always works.
 
+## Questions
+
+```yaml
+- question: "A student computes the energy of trial wave function ψ_A and gets −13.2 eV. A second student uses a different trial function ψ_B and gets −13.8 eV. The true ground state energy is −13.6 eV. What can you conclude?"
+  type: multiple-choice
+  options:
+    - "ψ_B violates the variational principle because its energy is below the true ground state"
+    - "ψ_A is the better approximation because it is closer to zero"
+    - "ψ_B is the better approximation because it gives a lower energy, even though it is below the true value"
+    - "Neither result is valid; both should be recomputed with larger basis sets"
+  answer: 2
+  explanation: "The variational principle guarantees that for any trial wave function, the calculated energy is ≥ E₀. Here E₀ = −13.6 eV, so any valid result must be at or above −13.6 eV. ψ_A gives −13.2 eV (above E₀, valid upper bound) and ψ_B gives −13.8 eV — which is BELOW the true ground state energy. This means either ψ_B is not properly normalized, or a computational error occurred. Option C would be correct only if both results were valid upper bounds; since −13.8 eV is below the true energy, ψ_B has violated the theorem. The lower result is not automatically better — it signals an error."
+
+- question: "A researcher adds a second adjustable parameter to a trial wave function and re-minimizes the energy. How does this affect the result?"
+  type: multiple-choice
+  options:
+    - "It may raise or lower the energy — adding parameters makes the result less predictable"
+    - "It will leave the energy unchanged, since one parameter is already sufficient"
+    - "It can only lower (or maintain) the energy, since a more flexible function can always do at least as well"
+    - "It will raise the energy, because more parameters introduce additional approximation error"
+  answer: 2
+  explanation: "A two-parameter trial function includes all one-parameter trial functions as special cases (by setting the new parameter to a fixed value). Therefore, the best two-parameter energy is at least as low as the best one-parameter energy — it can only improve or stay the same. This is the logic behind systematic improvement in computational chemistry: Hartree-Fock → configuration interaction → full CI, each step adding flexibility and driving the energy closer to the exact value. Adding parameters never makes the variational result worse."
+
+- question: "The variational principle guarantees that optimizing a trial wave function will eventually yield the exact ground state energy if enough parameters are added."
+  type: true-false
+  answer: true
+  explanation: "If the trial wave function form is flexible enough — in the limit, a complete basis set of functions — then optimization will converge to the exact ground state energy and wave function. This is the conceptual basis of full configuration interaction (FCI), which uses a complete many-electron basis and gives the exact result within the chosen one-electron basis. In practice, the exact limit is only approached asymptotically, but the principle guarantees that more flexibility always yields a lower (better) energy."
+
+- question: "The variational method can determine the exact energy of excited states just as reliably as it determines the ground state energy."
+  type: true-false
+  answer: false
+  explanation: "The standard variational principle only guarantees an upper bound to the GROUND STATE energy. For excited states, an unconstrained trial function will simply collapse toward the ground state during optimization. Excited states require special treatment: either enforcing orthogonality to all lower states (which is hard in practice) or using variational methods specifically designed for excited states (like the linear variation method applied within a constrained subspace). This limitation is a significant reason why ground-state methods like Hartree-Fock and DFT dominated computational chemistry before excited-state extensions were developed."
+
+- question: "Why does the variational principle transform the quantum mechanical problem from an unsolvable differential equation into an optimization problem, and why is this useful?"
+  type: short-answer
+  answer: "The variational principle shows that the energy of any trial wave function is always ≥ the true ground state energy, with equality only when the trial function is exact. This means you can parameterize a trial function, compute the energy as a function of those parameters, and minimize it — without ever solving the Schrödinger equation. The minimum energy found is the best approximation available with that functional form. This is useful because optimization problems (find the minimum of E(α, β, ...)) are computationally tractable even when the differential equation is not."
+  explanation: "The key insight is that 'lower energy = better approximation' is not just a heuristic — it is a mathematical guarantee. This converts an impossible analytical problem (solving the many-electron Schrödinger equation) into a tractable numerical one (minimizing a function). Virtually all of computational quantum chemistry — Hartree-Fock, DFT, coupled cluster — rests on this foundation."
+```
+
 ## Explainer
 
 From your quantum chemistry foundations, you know that the Schrödinger equation gives exact solutions only for a handful of simple systems — the hydrogen atom, the harmonic oscillator, the particle in a box. For virtually every real molecule, the equation cannot be solved exactly because electron-electron repulsion makes the mathematics intractable. The variational method provides a rigorous way to get approximate answers that are guaranteed to be useful: you guess a wave function, compute the energy, and know with certainty that your answer is an upper bound to the true ground state energy.

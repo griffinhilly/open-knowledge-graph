@@ -31,6 +31,45 @@ Compare two implementations of the same procedure that vary systematically (diff
 ## Common Misconceptions
 Standardization only matters when using objective measures (actually, it matters equally for subjective measures and behavioral observations). Perfect standardization is always possible (actually, some variability is inevitable and researchers must decide what degree of standardization is feasible).
 
+## Questions
+
+```yaml
+- question: "Two experimenters run the same cognitive performance study. Experimenter A reads instructions verbatim from a script. Experimenter B paraphrases instructions naturally and answers participants' clarifying questions. Compared to A, Experimenter B's data will likely:"
+  type: multiple-choice
+  options:
+    - "Show higher internal validity, because natural communication improves participant comprehension"
+    - "Be equivalent, as long as both experimenters convey the task clearly"
+    - "Contain additional unsystematic and potentially systematic error from inconsistent measurement conditions"
+    - "Show lower variance, because participants with clarified instructions perform more consistently"
+  answer: 2
+  explanation: "Experimenter B is introducing procedural variation: different participants receive different instructions, potentially in different words, with different elaborations. This creates inconsistent measurement conditions — participants have not experienced the same procedure. The variation introduces error: some may be unsystematic (random differences in how B phrases things) and some systematic (B may consistently clarify in a way that hints at expected responses). Both reduce the study's reliability and complicate interpretation. Standardization exists precisely to prevent this."
+
+- question: "A research team fails to replicate an original study. The original had no procedural manual; the replication team reconstructed procedures from the methods section. The failure to replicate is most likely attributable to:"
+  type: multiple-choice
+  options:
+    - "Sampling error alone — the replication team drew participants from a different population"
+    - "Procedural drift — undocumented variation between the original and replication procedures"
+    - "Statistical Type II error — the replication was underpowered to detect the original effect"
+    - "Demand characteristics — replication participants knew the expected findings in advance"
+  answer: 1
+  explanation: "When an original study lacks a procedural manual, the methods section necessarily omits many implementation details: exact wording of instructions, environmental conditions, experimenter behavior, timing, order effects. The replication team must make judgment calls for all unspecified details. These seemingly small decisions can systematically alter participant experience and outcomes. Procedural drift — the accumulation of undocumented differences between the original and replication — is one of the most commonly identified contributors to replication failures in psychology."
+
+- question: "A procedural manual functions as a measurement instrument because it operationalizes the conditions under which data are collected, enabling multiple experimenters to administer identical procedures."
+  type: true-false
+  answer: true
+  explanation: "A procedural manual is not merely documentation — it defines what 'the study' means in concrete, behavioral terms. It specifies what participants experience, in what order, with what instructions, in what environment. Without this specification, 'the study' is underspecified: different experimenters implement different studies while thinking they are implementing the same one. In this sense the manual is as much a measurement instrument as the questionnaire or behavioral coding scheme — it controls the conditions that determine what the data mean."
+
+- question: "Standardization is primarily important for studies using objective measures like reaction time; for subjective self-report measures, standardization of procedures has little effect on reliability."
+  type: true-false
+  answer: false
+  explanation: "This is one of the misconceptions explicitly noted in the topic: standardization matters equally for subjective and objective measures. Self-report scores are heavily influenced by context — the instructions given, the experimenter's demeanor, the order of questions, the physical environment, whether participants feel observed. Two participants completing the same questionnaire under subtly different conditions (different instructions, different experimenter tone) may respond differently due to the conditions, not the underlying construct. Standardization controls these contextual influences regardless of whether the measure is objective or subjective."
+
+- question: "Explain the connection between standardization and reliability. Why does inconsistent procedure reduce reliability, and what does that mean for a study's ability to detect true effects?"
+  type: short-answer
+  answer: "Reliability is consistency of measurement — the degree to which the same construct, measured under equivalent conditions, yields the same score. Standardization creates equivalent conditions across participants. When procedures vary (different experimenters behave differently, different instructions are given, environments differ), the measurement conditions are no longer equivalent, so scores vary not only because participants differ on the construct but also because they experienced different measurement processes. This additional variance is error — it is not about the construct being studied. Higher error variance reduces statistical power, making it harder to detect real effects. It also makes scores less comparable across participants, undermining the study's ability to draw valid conclusions."
+  explanation: "The chain is: inconsistent procedure → inconsistent conditions → additional score variance → reduced reliability → reduced power. A study that cannot detect its effect reliably cannot contribute meaningfully to cumulative knowledge. Standardization is not perfectionism — it is the operational requirement for producing data that mean what they are supposed to mean."
+```
+
 ## Explainer
 
 You have already learned that **reliability** — the consistency of a measurement — is a prerequisite for validity. Standardization and procedural fidelity are the mechanisms that produce reliability in practice. If reliability is the property you want, standardization is how you create the conditions for it. The connection is direct: inconsistent procedures introduce inconsistent measurement, and inconsistency in measurement undermines your ability to detect real effects, compare scores across participants, or replicate findings.

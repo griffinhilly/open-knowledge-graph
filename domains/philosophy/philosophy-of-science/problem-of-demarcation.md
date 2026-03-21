@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 The demarcation problem asks: by what criterion can we distinguish scientific claims from non-scientific ones? This question is crucial for deciding what deserves inclusion in science curricula, research funding, and educational standards, yet no universally accepted answer exists despite centuries of effort.
 
+## Questions
+
+```yaml
+- question: "A critic argues that general relativity is not scientific because spacetime curvature cannot be directly observed with the naked eye. How does Popper's falsificationism respond to this argument?"
+  type: multiple-choice
+  options:
+    - "The critic is correct — falsificationism requires that all theoretical entities be directly observable"
+    - "Falsificationism agrees that unobservable entities make theories unfalsifiable and therefore unscientific"
+    - "The argument fails — general relativity makes precise predictions (like Mercury's orbital precession) that could in principle be wrong, satisfying the falsifiability criterion regardless of whether spacetime is directly visible"
+    - "The argument is valid under verificationism but invalid under falsificationism, and verificationism is the preferred demarcation criterion"
+  answer: 2
+  explanation: "Falsificationism does not require direct observability of theoretical entities — it requires that the theory make predictions that could in principle be false. General relativity predicts Mercury's orbital precession to within 43 arc-seconds per century, the bending of light around the sun, and gravitational time dilation — all of which could conceivably have come out differently. The theory sticks its neck out. The critic is importing a verificationist assumption (direct observability) into a falsificationist framework."
+
+- question: "Why does logical positivism's verificationism fail as a demarcation criterion for science?"
+  type: multiple-choice
+  options:
+    - "It is too permissive — it admits pseudosciences like astrology as meaningful and scientific"
+    - "Universal scientific laws like 'all copper conducts electricity' cannot be conclusively verified, since testing every instance is impossible — the criterion excludes much of science itself"
+    - "It relies on falsifiability, making it circular"
+    - "It cannot distinguish between the natural sciences and mathematics"
+  answer: 1
+  explanation: "Verificationism's fatal flaw is self-undermining: the universal generalizations at the heart of science ('all metals expand when heated,' 'the speed of light is constant') cannot be verified in principle because they make claims about all instances, past and future. Verification would require examining every piece of copper ever to exist. The criterion is too strong — it excludes the very laws it was designed to demarcate as scientific."
+
+- question: "Popper's falsificationism holds that a claim is scientific if and only if it is possible to find evidence that confirms it."
+  type: true-false
+  answer: false
+  explanation: "Falsificationism is about refutability, not confirmability. A claim is scientific if there is some possible observation that would show it to be false — if it rules out something. 'Tomorrow it will rain or it won't' cannot be falsified and is therefore scientifically empty, even though it can trivially be 'confirmed' by any weather. Confirmation was the logical positivists' criterion; Popper inverted the logic precisely because confirmation alone cannot demarcate science."
+
+- question: "According to the demarcation discussion, a discipline that rarely makes bold testable predictions might still qualify as scientific if it exhibits other markers such as intersubjective reproducibility, mechanism-based explanation, and progressive development."
+  type: true-false
+  answer: true
+  explanation: "The key insight is that demarcation is gradient, not binary. No single criterion is both necessary and sufficient. Disciplines fall on a spectrum defined by multiple markers: testability, falsifiability, reproducibility, progressive development, and mechanism-based explanation. A field that is weak on one marker but strong on others may still be recognizably scientific. Pseudosciences are recognizable because they fail multiple markers simultaneously, not because they fail one definitively."
+
+- question: "Why is demarcation best understood as a gradient rather than a binary distinction between 'science' and 'non-science'?"
+  type: short-answer
+  answer: "No single criterion successfully separates all genuine science from all pseudoscience. Verificationism excludes universal laws; falsificationism can be gamed with auxiliary hypotheses (Lakatos's point); Feyerabend argues no rule has been consistently followed even in great scientific advances. Disciplines exhibit more or fewer of multiple scientific markers — testability, bold predictions, progressive development, reproducibility, mechanism-based explanation. Pseudosciences like astrology or homeopathy fail several simultaneously; mainstream sciences exhibit most. The difference is one of degree across multiple dimensions, not a clean binary."
+  explanation: "This gradient picture explains why demarcation remains practically useful even without a knock-down criterion: courts, regulatory agencies, and funding bodies can assess whether a discipline exhibits enough markers of scientific inquiry to deserve scientific standing, without needing a single rule that perfectly classifies every case."
+```
+
 ## Explainer
 
 Your introduction to philosophy of science established that science is a distinctive form of inquiry — but *how* distinctive, and where does it end? The demarcation problem is the attempt to answer that question precisely. It matters not just philosophically but practically: courts adjudicate whether creationism is science, regulatory agencies evaluate whether homeopathy deserves the same evidentiary standard as pharmacology, and funding bodies decide which research programs to support. Each of these decisions implicitly applies a demarcation criterion.

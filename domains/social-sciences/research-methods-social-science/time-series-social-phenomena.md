@@ -34,6 +34,45 @@ Analyze aggregate time series data (crime, unemployment, attitudes), test for st
 - Autocorrelation is a problem rather than a feature
 - Interrupted time series requires random assignment
 
+## Questions
+
+```yaml
+- question: "A regression model predicting monthly crime rates from economic indicators produces very significant results with implausibly narrow confidence intervals. A time series expert suspects the standard errors are wrong. What is the most likely cause?"
+  type: multiple-choice
+  options:
+    - "The sample size is too large, inflating the degrees of freedom"
+    - "Serial autocorrelation was ignored — treating time-ordered observations as independent artificially deflates standard errors"
+    - "The economic predictors are too strongly correlated with each other (multicollinearity)"
+    - "The regression was estimated without a constant term"
+  answer: 1
+  explanation: "When time series data are analyzed with OLS as if observations were independent, autocorrelated errors cause standard errors to be underestimated — sometimes drastically. This produces t-statistics that are too large, p-values too small, and confidence intervals too narrow, giving false confidence in relationships that may be spurious or much weaker than they appear. Crime rates this month are correlated with last month's crime rates because underlying conditions persist — this is not a nuisance but a structural feature that must be modeled explicitly."
+
+- question: "A policy analyst wants to assess whether a state's new gun law reduced homicide rates. Random assignment to treatment is impossible. Which design provides the strongest causal evidence?"
+  type: multiple-choice
+  options:
+    - "A cross-sectional regression comparing states that passed the law to those that did not, controlling for demographics"
+    - "A simple before-after comparison of the state's homicide rate in the year before and after the law"
+    - "An interrupted time series analysis using many pre-law observations to model the counterfactual trend, then comparing post-law outcomes to that projected trajectory"
+    - "A survey asking law enforcement officers whether they believe the law reduced homicides"
+  answer: 2
+  explanation: "Interrupted time series (ITS) is one of the strongest quasi-experimental designs for policy evaluation without random assignment. By modeling the pre-intervention trend over many time points, ITS estimates what would have happened absent the policy (the counterfactual). A law's causal effect shows up as an abrupt change in level and/or slope after its implementation. The simple before-after comparison (option B) is much weaker — it cannot distinguish a policy effect from pre-existing trends, regression to the mean, or seasonal effects. Cross-sectional comparisons (option A) have severe confounding problems."
+
+- question: "Autocorrelation in a social time series is always a statistical problem that must be eliminated before meaningful analysis can proceed."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about autocorrelation. It is not merely a nuisance — it reflects real persistence in social processes. Unemployment this month is correlated with last month's because economic conditions change gradually; crime rates persist because their social determinants persist. ARIMA models treat autocorrelation as substantive structure to be modeled and understood, not just corrected. The problem is not autocorrelation itself but failing to account for it — which leads to incorrect standard errors and spurious inference."
+
+- question: "A non-stationary time series — one with a unit root or drifting mean — should typically be differenced before fitting an ARIMA model."
+  type: true-false
+  answer: true
+  explanation: "Non-stationarity means the statistical properties of the series change over time, making standard modeling unreliable. A series with a unit root (like many economic levels) can drift without bound, and regressing two such series on each other often produces spurious correlations. First-differencing (working with period-to-period changes rather than levels) typically converts a non-stationary series to a stationary one. The 'I' in ARIMA stands for 'integrated,' reflecting the number of differences needed. The Augmented Dickey-Fuller test checks for unit roots as a diagnostic step before modeling."
+
+- question: "Why does interrupted time series analysis not require random assignment to make causal claims about a policy intervention, and what is its main threat to validity?"
+  type: short-answer
+  answer: "ITS constructs the counterfactual using the pre-intervention trend itself: many observations before the policy establish what the trajectory would have continued to look like absent the intervention. Any departure from that projected trend after implementation is attributed to the policy. Random assignment is unnecessary because the comparison group is the same unit's own prior trajectory. The main threat to validity is concurrent history effects — other events (economic shocks, parallel policy changes, cultural shifts) may have coincided with the intervention, making it difficult to isolate the policy's specific effect from other simultaneous changes."
+  explanation: "The strength of ITS comes from using many pre-intervention time points to estimate a stable baseline trend. The more pre-intervention data, the better the counterfactual is estimated and the more confidently departures can be detected. Replicating the ITS across multiple jurisdictions that implemented the policy at different times strengthens causal inference further — if the break consistently appears at the intervention point across many units, coincidental concurrent history becomes an increasingly implausible explanation."
+```
+
 ## Explainer
 
 In your prerequisite work with regression, each observation was treated as independent — the error terms were assumed uncorrelated across cases. With social time series data, this assumption breaks down immediately. Crime rates, unemployment, public opinion, and institutional budgets all exhibit **autocorrelation**: this year's value is correlated with last year's because underlying conditions persist over time. Treating autocorrelated data as independent observations leads to artificially small standard errors, false confidence, and spurious findings. Time series methods are the toolkit for handling data where observations are ordered in time and each observation is not independent of its neighbors.

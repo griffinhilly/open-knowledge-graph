@@ -32,6 +32,45 @@ Prove basic reflection: for any formula φ, there exists α such that φ is true
 - Confusing reflection with the Löwenheim-Skolem theorem (related but distinct).
 - Assuming the full reflection principle (that V is indescribable) is provable in ZFC (it is not).
 
+## Questions
+
+```yaml
+- question: "A mathematician claims that ZFC requires an additional axiom beyond replacement and infinity to prove the basic reflection principle (for any formula φ, there exists α such that φ holds in V iff it holds in V_α). Is this claim correct?"
+  type: multiple-choice
+  options:
+    - "Yes — basic reflection is independent of ZFC and requires an extra axiom, like a large cardinal assumption"
+    - "No — basic reflection is provable in ZFC itself using replacement and the ordinal structure of V"
+    - "Yes — but only for Σ₁ formulas; full reflection requires large cardinals"
+    - "No — but only because ZFC is inconsistent, so it proves everything"
+  answer: 1
+  explanation: "Basic reflection is a theorem of ZFC, not an additional axiom. Using replacement and the fact that V is indexed by all ordinals, one can show that for any first-order formula, there are cofinally many V_α stages that are elementary submodels for that formula. The extra-axiom confusion arises because *stronger* reflection (indescribability, implying large cardinals) is not provable in ZFC — but basic reflection is a consequence of existing axioms."
+
+- question: "How does the Löwenheim-Skolem theorem differ from the reflection principle?"
+  type: multiple-choice
+  options:
+    - "Löwenheim-Skolem produces transitive submodels; reflection produces arbitrary countable ones"
+    - "Reflection produces transitive V_α submodels cofinally often; Löwenheim-Skolem produces countable elementary substructures from any first-order theory"
+    - "Löwenheim-Skolem is a set-theoretic result; reflection is a purely logical one"
+    - "Both theorems are equivalent — they produce the same elementary submodels"
+  answer: 1
+  explanation: "Löwenheim-Skolem is a purely logical result: given any first-order theory with an infinite model, there is a countable elementary substructure — but that substructure may be non-transitive, with 'fake' membership relations. Reflection is set-theoretic: it uses the ordinal structure of the cumulative hierarchy to produce genuine V_α's, which are transitive — their ∈-relation is the real one. Transitive models are far more useful for set-theoretic arguments precisely because elements are honest sets with intact membership."
+
+- question: "The full reflection principle — asserting that V is 'indescribable,' so every property of V reflects to some cardinal — is provable in ZFC."
+  type: true-false
+  answer: false
+  explanation: "Basic reflection (for any formula, some V_α reflects it) is provable in ZFC, but the *full* reflection principle — claiming V is so large it cannot be distinguished from some set-sized initial segment by any property whatsoever — is not provable in ZFC. This stronger claim implies the existence of large cardinals (strongly inaccessible, measurable, supercompact), which are not derivable from ZFC alone. This is the sense in which the large cardinal hierarchy represents ascending strengths of reflection beyond what ZFC can guarantee."
+
+- question: "The reflection principle in ZFC produces transitive models, and this transitivity makes them more valuable for set-theoretic arguments than the countable substructures given by Löwenheim-Skolem."
+  type: true-false
+  answer: true
+  explanation: "Transitivity means that if a set x is in the model M, then all elements of x are also in M, and the ∈-relation in M is the real ∈-relation of V. In a transitive model, being an ordinal, cardinal, or well-ordering means the same thing as in V. In a non-transitive Löwenheim-Skolem substructure, the model may 'think' it has an uncountable set that is actually countable from outside — the membership relation is not genuine. Transitivity is essential for translating set-theoretic arguments from V_α back to V."
+
+- question: "Explain why reflection principles are described as 'the engine that drives the large cardinal hierarchy' — what is the relationship between reflection and large cardinals?"
+  type: short-answer
+  answer: "Each step up the large cardinal hierarchy corresponds to a stronger reflection principle. Strongly inaccessible cardinals reflect first-order properties of V; measurable cardinals reflect second-order properties; supercompact cardinals reflect even more complex structural features. Each large cardinal axiom asserts that some form of reflection holds at a specific cardinal κ — that κ 'mirrors' the universe V in a sufficiently complete way. This is why large cardinals cannot be proved from ZFC: each asserts that V is so vast it reflects itself downward in ways that the existing axioms cannot derive."
+  explanation: "The connection is deep: ZFC proves basic reflection 'for free,' but each new large cardinal axiom adds a new reflection strength. The hierarchy is not arbitrary — it is the systematic exploration of how completely V can mirror itself in set-sized fragments. Consistency strength relationships between large cardinal axioms also follow: if one axiom implies another, it is because the stronger reflection principle it asserts entails the weaker one."
+```
+
 ## Explainer
 
 To understand reflection, start with what you already know about the cumulative hierarchy: V is built by iterating the power set operation through all ordinal stages, so V = ∪{V_α : α ∈ Ord}. Each V_α is a set — a bounded, surveyable fragment of the entire universe. The key question reflection asks is: how much of what is true in V is already "visible" inside some V_α? The **reflection principle** answers that any statement true in V was already true in some initial segment.

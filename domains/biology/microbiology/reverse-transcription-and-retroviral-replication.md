@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Retroviruses (including HIV) carry reverse transcriptase, which synthesizes DNA from their RNA genome, integrating as a provirus into the host chromosome. This process enables persistent infection and latency. Reverse transcriptase errors generate viral diversity, driving immune escape and drug resistance—a major challenge in antiviral therapy.
 
+## Questions
+
+```yaml
+- question: "A patient with HIV is on combination antiretroviral therapy and has an undetectable viral load for 3 years. Treatment is stopped. Within weeks, HIV replication resumes. What explains this rapid viral rebound?"
+  type: multiple-choice
+  options:
+    - "HIV mutated during treatment to become resistant to all drugs used"
+    - "Proviral DNA integrated into host cell chromosomes persists silently through cell division, and reactivates when therapy stops"
+    - "Antiretroviral drugs suppress HIV replication but cannot prevent reinfection from other individuals"
+    - "Reverse transcriptase generates new viral RNA even when DNA synthesis is blocked"
+  answer: 1
+  explanation: "The latent reservoir is the fundamental obstacle to HIV cure. After reverse transcription and integration, the proviral DNA becomes part of the host genome. In resting CD4+ T cells, the provirus is transcriptionally silent — no viral proteins are produced, making these cells invisible to the immune system and untouched by antiretroviral drugs (which target active replication steps). These latently infected cells persist for decades through normal cell division. When ART is stopped, stochastic activation of these cells restarts replication from the reservoir. Eradicating this latent reservoir is the central challenge in HIV cure research."
+
+- question: "Why does HIV monotherapy (single-drug treatment) reliably fail, while triple-combination antiretroviral therapy achieves durable viral suppression?"
+  type: multiple-choice
+  options:
+    - "Individual drugs are less potent, but three drugs together achieve sufficient concentration to kill HIV"
+    - "HIV replicates so rapidly and RT makes so many errors that a resistant mutant to any single drug arises within the pre-existing viral population; simultaneous resistance to three drugs targeting different steps is vanishingly unlikely"
+    - "Triple therapy overwhelms the immune system, preventing any viral replication regardless of resistance"
+    - "Monotherapy allows latent reservoirs to expand; combination therapy depletes them"
+  answer: 1
+  explanation: "With HIV generating ~10⁹–10¹⁰ new virions per day and RT making approximately one error per genome per replication cycle, the quasi-species contains pre-existing variants resistant to any individual drug. Monotherapy applies selective pressure that allows resistant variants to dominate within weeks. The key insight is probabilistic: the probability of a single virion carrying resistance mutations to three drugs simultaneously — each mutation arising at a frequency of ~10⁻⁵ — is roughly 10⁻¹⁵, far below the number of virions produced even in a month. Combination therapy exploits this mathematical reality: resistance to each drug exists, but simultaneous resistance to all three is effectively impossible to pre-exist in the population."
+
+- question: "Reverse transcriptase lacks 3′-to-5′ exonuclease proofreading activity, which is why HIV has a mutation rate approximately 10,000-fold higher than host cell DNA polymerases."
+  type: true-false
+  answer: true
+  explanation: "Host DNA polymerases have a built-in proofreading mechanism: a 3′-to-5′ exonuclease activity that detects and excises misincorporated nucleotides before replication continues. Reverse transcriptase lacks this activity, so errors are not corrected. The resulting mutation rate of approximately 10⁻⁵ per base per cycle — compared to ~10⁻⁹ for host DNA polymerases — means that each round of HIV replication introduces roughly one new mutation per genome. In a large, rapidly replicating population, this generates a diverse swarm of variants (quasispecies) that can include pre-existing resistance mutations and immune escape variants."
+
+- question: "Once HIV DNA is integrated as a provirus into the host cell genome, it can no longer be replicated because the host cell's transcription machinery does not recognize viral promoters."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true. The integrated provirus is transcribed by the host cell's RNA polymerase II, using viral promoter sequences in the long terminal repeats (LTRs) that recruit host transcription factors. The host cell treats the provirus like any other gene — it is replicated faithfully during cell division and transcribed whenever the appropriate transcription factors (including NF-κB, which is activated in immune stimulation) are present. This is precisely why HIV is so difficult to eliminate: latently infected cells carrying silent provirus are treated as normal cells by the immune system, survive indefinitely, and can reactivate to produce virus."
+
+- question: "Explain how reverse transcriptase's lack of proofreading contributes to HIV drug resistance, and why this makes combination therapy necessary."
+  type: short-answer
+  answer: "Reverse transcriptase produces approximately one mutation per genome per replication cycle. With billions of new virions generated daily, the viral population contains a vast diversity of variants — a quasispecies — in which rare resistance mutations to any individual drug pre-exist before treatment begins. When a patient receives a single drug, all wild-type virions are suppressed but resistant variants are not, and they rapidly dominate. Combination therapy (targeting three different viral proteins simultaneously, e.g., reverse transcriptase, protease, and integrase) raises the bar: a virion would need to pre-exist with resistance to all three drugs simultaneously. Given mutation rates of ~10⁻⁵ per base, the probability of this occurring is negligibly small in any realistic viral population — so the entire quasispecies is suppressed."
+  explanation: "This same logic applies to other rapidly mutating viruses and to cancer treatment (where combination chemotherapy exploits similar probabilistic reasoning). The key insight is that error-prone replication is not merely a problem for the virus — it is a property that determines the entire strategic logic of treatment: single-target strategies will always fail, because the diverse quasispecies contains pre-existing resistance. Only combinatorial strategies that require multiple simultaneous mutations can achieve durable suppression."
+```
+
 ## Explainer
 
 You already know that reverse transcriptase can synthesize DNA from an RNA template — the enzymatic reversal of the normal flow of genetic information. In retroviral replication, this enzyme is not just a biochemical curiosity; it is the central engine of a lifecycle strategy that allows viruses like HIV to persist indefinitely inside a host's genome. Understanding how this works means following the virus from entry through integration and back out again.

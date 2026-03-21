@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 The two-body problem can be reduced to a one-body problem using the reduced mass μ = m₁m₂/(m₁+m₂). The relative motion evolves as if a single particle of mass μ moves in the central force, while the center of mass moves uniformly.
 
+## Questions
+
+```yaml
+- question: "Why does describing a two-body system using center-of-mass (R) and relative (r) coordinates simplify the equations of motion?"
+  type: multiple-choice
+  options:
+    - "Because these coordinates are easier to measure experimentally than individual positions"
+    - "Because the transformation exactly decouples two coupled equations into two independent ones: R evolves trivially, and r evolves as a one-body problem with reduced mass μ"
+    - "Because the center of mass always lies at the midpoint between the two bodies, simplifying the geometry"
+    - "Because it eliminates the need to know the individual masses — only their sum matters"
+  answer: 1
+  explanation: "The change of variables (r₁, r₂) → (R, r) exactly decouples the system. In an isolated system, R moves at constant velocity (trivial). The relative coordinate r obeys an equation identical to a one-body problem: a particle of mass μ = m₁m₂/(m₁+m₂) subject to the mutual force. This decoupling is not an approximation — it is exact. Without it, you must solve two coupled differential equations simultaneously, which is much harder. With it, you inherit all the one-body results (Kepler orbits, conservation laws, etc.) exactly."
+
+- question: "Two equal masses m₁ = m₂ = m orbit each other. What is the reduced mass of this system?"
+  type: multiple-choice
+  options:
+    - "μ = 2m, since both bodies contribute equally to the relative motion"
+    - "μ = m, since the masses are equal"
+    - "μ = m/2, since the reduced mass formula gives m·m/(m+m)"
+    - "μ = m/√2, the geometric mean correction for equal-mass systems"
+  answer: 2
+  explanation: "μ = m₁m₂/(m₁+m₂) = m·m/(m+m) = m²/(2m) = m/2. The reduced mass is always less than or equal to the smaller individual mass. For equal masses, it is exactly half. This makes physical sense: both bodies participate equally in the relative motion, so the effective inertia for the relative coordinate is shared between them. Only in the limit m₂ → ∞ does μ → m₁, recovering the one-body idealization where the light body orbits a stationary heavy one."
+
+- question: "The reduced mass μ = m₁m₂/(m₁+m₂) is an approximation that becomes exact only when one body is much more massive than the other."
+  type: true-false
+  answer: false
+  explanation: "The reduced mass is an exact quantity — the change of variables to center-of-mass and relative coordinates is an exact transformation, valid for any mass ratio. The limiting form μ ≈ m₁ when m₂ ≫ m₁ is an approximation derived from the exact formula, not the formula itself. Using μ in the one-body equivalent problem gives results that are mathematically identical to solving the full two-body system, not approximately equal."
+
+- question: "The total kinetic energy of a two-body system can be split exactly into center-of-mass kinetic energy (½MV²) plus relative kinetic energy (½μṙ²), with no cross terms."
+  type: true-false
+  answer: true
+  explanation: "This clean energy decomposition is one of the key payoffs of the center-of-mass/relative coordinate transformation. T = ½MV² + ½μṙ² is exact — there are no coupling or cross terms between R and r motions. This is consistent with the decoupling of the equations of motion: the two degrees of freedom are truly independent, and energy separates accordingly. The decomposition applies to any two-body system with central forces, not just gravitational problems."
+
+- question: "Explain why the reduced mass transformation allows the two-body problem to be solved exactly, while the three-body problem generally cannot be solved analytically."
+  type: short-answer
+  answer: "The two-body problem has a special structure: the single interaction between bodies 1 and 2 is fully captured by one relative coordinate r = r₁ − r₂, and one center-of-mass coordinate R that evolves independently. These two sets of coordinates decouple exactly, reducing two coupled equations into two independent ones. With three bodies, there are three pairwise interactions, and no single change of variables can simultaneously decouple all of them. The system of three coupled equations remains irreducibly coupled, leading to chaotic behavior (sensitive dependence on initial conditions) that makes general analytical solutions impossible."
+  explanation: "The decoupling is unique to the two-body case. For N ≥ 3, the center of mass still separates out (giving trivial motion), but the remaining N−1 relative degrees of freedom remain coupled through multiple pairwise interaction terms. The three-body problem was shown to be non-integrable in general (by Poincaré in the 1890s), and this failure traces directly to the impossibility of decoupling that the two-body reduced mass achieves."
+```
+
 ## Explainer
 
 From **center-of-mass motion** you know that a system's center of mass moves as though all external force acts on a single point with total mass M = m₁ + m₂. And from work in **polar coordinates** you can describe a particle's position and velocity in the plane without Cartesian coordinates. Reduced mass combines these ideas to make two mutually interacting bodies mathematically equivalent to one body orbiting a fixed point.

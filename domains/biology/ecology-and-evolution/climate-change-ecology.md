@@ -35,6 +35,45 @@ Analyze long-term phenological datasets showing advancing spring events. Map pro
 - Organisms cannot simply 'adapt' to rapid climate change through evolution — evolutionary responses require many generations, while climate change is occurring over decades.
 - Range shifts do not guarantee species persistence — new ranges may lack suitable food, shelter, or biotic partners.
 
+## Questions
+
+```yaml
+- question: "A migratory bird times its breeding season to coincide with peak caterpillar abundance, which is temperature-cued locally. Climate warming advances caterpillar emergence by 3 weeks, but the bird's migration timing is controlled by day length at its distant wintering grounds. What ecological consequence does this most directly illustrate?"
+  type: multiple-choice
+  options:
+    - "Range contraction, as the bird must shift poleward to track its prey"
+    - "A phenological mismatch that reduces reproductive success because birds arrive after peak food availability"
+    - "Coevolutionary pressure that will rapidly synchronize bird and caterpillar timing through natural selection"
+    - "A positive feedback, because declining bird populations reduce caterpillar predation and allow caterpillar populations to grow"
+  answer: 1
+  explanation: "This is a classic phenological mismatch: two species whose life cycles were historically synchronized are de-coupled because they respond to different climate cues. The caterpillar emergence (temperature-cued) advances rapidly with warming, while migration timing (day-length-cued at distant wintering grounds) does not track local temperature changes. Birds arrive after peak caterpillar abundance, reducing food availability during chick-rearing and lowering reproductive success. Option C overestimates evolutionary response speed — evolutionary adaptation requires many generations and cannot keep pace with climate change occurring over decades."
+
+- question: "As Arctic permafrost thaws, frozen organic matter decomposes and releases CO₂ and methane. This represents:"
+  type: multiple-choice
+  options:
+    - "A negative feedback that will slow warming by absorbing excess carbon from the atmosphere"
+    - "A neutral process offset by carbon absorbed by newly exposed Arctic plant growth"
+    - "A positive feedback that can accelerate warming beyond initial projections by adding more greenhouse gases to the atmosphere"
+    - "An example of ecosystem services, where decomposition benefits global agriculture through nutrient release"
+  answer: 2
+  explanation: "Permafrost thaw is a positive feedback: warming → thaw → decomposition → more CO₂/methane release → additional warming → more thaw. Positive feedbacks amplify the initial disturbance. This is why permafrost feedbacks are a major concern in climate projections — the Arctic stores an estimated 1.5 trillion tons of organic carbon, and significant thaw could add greenhouse gases at rates exceeding current human emissions. Option A gets the direction wrong: a negative feedback would dampen the initial signal. Permafrost thaw adds to it."
+
+- question: "Climate change will benefit some species by opening new habitat through range shifts, so range shifts generally represent successful ecological adaptation to warming."
+  type: true-false
+  answer: false
+  explanation: "Range shifts do not guarantee persistence. Species shift at different rates — mobile animals move faster than plants, plants faster than soil organisms — so community composition is reshuffled rather than maintained intact. A species that colonizes a new area may find it lacks suitable food, the right mycorrhizal fungi, appropriate nesting substrates, or the biotic partners it co-evolved with. Habitat fragmentation may block migration corridors entirely. Climate change also interacts with existing stressors (habitat loss, invasive species) that can make new ranges inhospitable. A range shift is an opportunity, not a guarantee of success."
+
+- question: "Climate change poses a qualitatively greater ecological threat than past periods of natural warming because modern warming is occurring over decades rather than millennia."
+  type: true-false
+  answer: true
+  explanation: "Speed is the key ecological variable. Earth has been warmer before, and species have shifted ranges over long time periods. But evolutionary adaptation requires many generations; range shifts require connected habitat and time to establish. Current warming at ~0.2°C per decade is roughly 10-100x faster than past natural climate transitions. Most species cannot evolve adaptations on this timescale, and habitat fragmentation blocks migration routes. This speed, combined with simultaneous threats from habitat loss and overexploitation, is what makes contemporary climate change a severe and qualitatively distinctive biodiversity threat."
+
+- question: "Why are phenological mismatches considered particularly damaging, rather than simply another form of habitat change that species can adapt to by shifting range?"
+  type: short-answer
+  answer: "Phenological mismatches sever ecological relationships — the timing dependencies between co-evolved species that underpin food webs and mutualisms. A range shift might allow a species to track its temperature preference, but cannot fix mismatches caused by different species responding to different climate cues. A bird that successfully shifts its range northward may still arrive after peak caterpillar abundance if caterpillar timing responds to local temperature while bird migration responds to day length elsewhere. The damage is relational and cascades through food webs: disrupting one timed interaction affects multiple dependent species above and below in the trophic chain."
+  explanation: "The core issue is that ecological communities are held together partly by temporal synchrony — organisms evolved to be in the right place at the right time relative to each other. Climate change can decouple these timings in ways that no individual species can adapt to by moving alone, because the problem lies in the relationship between species, not just the individual species' responses."
+```
+
 ## Explainer
 
 From your understanding of biogeochemical cycles, you know that carbon, nitrogen, and other elements move between the atmosphere, oceans, soils, and living organisms in interconnected loops. Climate change is fundamentally a disruption of the carbon cycle: burning fossil fuels and clearing forests transfers carbon that was stored in geological and biological reservoirs into the atmosphere as CO₂, trapping heat and altering the energy balance of the planet. The ecological consequences cascade through every level of biological organization.

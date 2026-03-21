@@ -31,6 +31,45 @@ Study specific examples of how different historiographical schools interpret the
 ## Common Misconceptions
 - Thinking sources 'speak for themselves' without interpretive work; rigorous interpretation is constrained by evidence and logic. - Confusing interpretation with pure subjective opinion; interpretations can be better or worse grounded.
 
+## Questions
+
+```yaml
+- question: "Two historians analyze the same 16th-century witchcraft trial record. One concludes it reveals patterns of village land conflict; the other concludes it shows contested boundaries between secular and ecclesiastical courts. Neither claim contradicts the other. What does this best illustrate?"
+  type: multiple-choice
+  options:
+    - "One interpretation must be wrong, since a source can only have one correct meaning"
+    - "Different theoretical frameworks ask different questions of the same evidence, producing complementary interpretations that foreground different aspects"
+    - "The source is ambiguous and therefore cannot be reliably interpreted by either historian"
+    - "Historians are free to project any meaning onto sources, since interpretation is subjective"
+  answer: 1
+  explanation: "This scenario illustrates that historical interpretation is framework-dependent: what you find depends partly on what questions you bring. A social historian focused on land conflict and a legal historian focused on jurisdictional boundaries are both asking legitimate questions the same document can answer. Their conclusions are complementary, not contradictory — they highlight different dimensions of the same historical moment. This does not mean interpretations are unlimited: both claims must still be traceable to textual evidence. Frameworks that produce claims unsupported by the document are bad interpretations, not just different ones."
+
+- question: "What distinguishes a well-grounded historical interpretation from mere speculation?"
+  type: multiple-choice
+  options:
+    - "A well-grounded interpretation uses only primary sources; speculation relies on secondary sources"
+    - "A well-grounded interpretation agrees with the scholarly consensus; speculation challenges it"
+    - "A well-grounded interpretation makes inferential steps explicit and traceable to specific evidence; speculation applies generalizations to individual cases without evidential grounding in the specific document"
+    - "A well-grounded interpretation avoids theoretical frameworks, reading sources neutrally and objectively"
+  answer: 2
+  explanation: "The key distinction is evidential accountability and explicit reasoning. A good interpretation traces each claim to specific evidence and makes the logical steps connecting evidence to conclusion visible — allowing other historians to locate exactly where they agree or disagree. Speculation applies general assumptions to individual cases without grounding in the specific document: 'the accused was probably innocent because most accused witches were innocent' applies a population statistic without examining what this record actually shows. Good interpretation and consensus are independent: groundbreaking work often challenges consensus but does so with well-evidenced, explicit argument."
+
+- question: "Historical sources 'speak for themselves' — a careful reader can extract their meaning directly without imposing interpretive frameworks or assumptions."
+  type: true-false
+  answer: false
+  explanation: "Sources do not come labeled with their significance. To interpret a 13th-century Latin chronicle, you need technical skills (medieval Latin, scribal conventions) just to know what the text says, and then theoretical frameworks to determine what it means — socially, politically, culturally. What questions you ask, what counts as relevant, and how you connect evidence to argument are always present whether acknowledged or not. Pretending to have no framework typically means using an unexamined one. What distinguishes professional interpretation is the explicit, disciplined management of these frameworks, not their absence."
+
+- question: "Making inferential steps explicit — showing how evidence connects to interpretive conclusions — allows other historians to identify exactly where they agree or disagree, enabling historical knowledge to accumulate through focused debate."
+  type: true-false
+  answer: true
+  explanation: "Historical knowledge advances not through a single interpreter getting it definitively right, but through a scholarly community interrogating each other's arguments. When an interpreter states 'I conclude X because source Y says Z, which I connect to context C via reasoning R,' the argument can be examined at every step. Other historians can agree with some steps and dispute others, producing focused, productive debate. Unexplicated interpretation — asserting a conclusion without showing the reasoning — blocks this cumulative process and cannot be systematically evaluated or refined."
+
+- question: "Why is it important for historians to acknowledge the theoretical frameworks they bring to interpretation, rather than attempting to read sources 'neutrally'?"
+  type: short-answer
+  answer: "Theoretical frameworks are unavoidable in interpretation — they determine what questions are asked, what counts as relevant evidence, and how connections are drawn between evidence and meaning. Pretending to have no framework does not eliminate it; it just leaves it unexamined and uncontrolled. An unexamined framework operates implicitly, importing assumptions without the historian or reader being aware of them. By explicitly acknowledging a Marxist, cultural, legal, or postcolonial framework, a historian enables readers to understand what aspects of the source are being foregrounded, allows criticism of the framework's suitability, and facilitates comparison with interpretations grounded in different frameworks."
+  explanation: "Claiming to read sources 'objectively' without a framework has historically produced invisible ideological commitments dressed as neutral description. The professional standard is not neutrality but transparency: name your framework, justify its application, show your evidence, make your reasoning explicit. Theoretical awareness is intellectual honesty about the conditions of interpretation, not bias."
+```
+
 ## Explainer
 
 You've studied historiography, what history is, and source criticism — now you're equipped to understand what historical interpretation actually involves as a disciplined practice. The trap for beginners is thinking interpretation means either "reading the text carefully" (too passive) or "expressing your personal take" (too unconstrained). Professional historical interpretation is neither. It is an active, structured act of constructing meaning from evidence that is simultaneously constrained by the evidence and shaped by the interpreter's theoretical commitments, training, and historical position.

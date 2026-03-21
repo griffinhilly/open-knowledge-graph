@@ -32,6 +32,45 @@ Collect step response data from a simulated plant with known parameters, then ap
 - The apparent dead time from a step response is not always true time delay — it can be an artifact of higher-order dynamics (multiple poles close together create an S-shaped response that mimics delay), and the distinction matters for controller design.
 - Collecting more data does not automatically improve the model — if the input signal lacks frequency content in a particular band, no amount of data will reveal the plant's dynamics in that band. Input design (choosing the right excitation signal) is as important as the estimation algorithm.
 
+## Questions
+
+```yaml
+- question: "An engineer collects 10,000 data points from a chemical reactor using a step input, fits a FOPDT model, and achieves an excellent fit. However, a PID controller designed from this model performs poorly on the actual plant at a higher flow rate. What is the most likely cause?"
+  type: multiple-choice
+  options:
+    - "The dataset was too small — collecting more step response data would have fixed the problem"
+    - "FOPDT models are inherently inadequate for chemical processes and should never be used"
+    - "The model was identified at one operating point and may not be valid at a different one; nonlinear systems require multiple local models or nonlinear identification methods"
+    - "Step response identification is incompatible with PID controller design"
+  answer: 2
+  explanation: "System identification always produces a model that is valid near the conditions under which data was collected. If the plant is nonlinear, a FOPDT model identified at one operating point approximates the linearized dynamics there — but at a different operating point (different flow rate, temperature, composition), the process gain K, time constant τ, and dead time L may all shift. The solution is either to identify multiple local FOPDT models across the operating range (gain scheduling) or to use nonlinear identification techniques. More data from the same operating point cannot reveal behavior at a different one."
+
+- question: "A step test on a heat exchanger produces an S-shaped output response with an apparent dead time of 3 seconds. A subsequent frequency sweep on the same exchanger reveals no true transport delay in the transfer function — just multiple closely spaced poles. What best explains the discrepancy?"
+  type: multiple-choice
+  options:
+    - "The frequency sweep is inaccurate at low frequencies and should not be trusted"
+    - "The apparent dead time from the step test is an artifact of multiple slow poles creating an S-shaped response that mimics transport delay; true dead time would appear in the frequency response as a linear phase lag increasing with frequency"
+    - "Step tests always overestimate dead time due to measurement noise near t = 0"
+    - "True dead time only appears in step responses, not in frequency response measurements"
+  answer: 1
+  explanation: "True transport delay (e.g., from fluid flowing through a pipe) appears in the frequency response as a phase lag that increases linearly with frequency: ∠G(jω) = −Lω for delay L. A cluster of multiple poles spaced closely together produces an S-shaped step response that looks like dead time — the output barely moves for a period before accelerating — but does not produce the characteristic linear phase increase. The distinction matters for controller design: true delay limits achievable bandwidth in a specific way, while apparent delay from high-order dynamics may respond differently to certain control strategies."
+
+- question: "Collecting more input-output data from a process will always improve the accuracy of an identified model, regardless of what input signal was used."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception in system identification. Estimation algorithms can only extract information about dynamics that were actually excited by the input signal. If the input (e.g., a single step) contains little energy at high frequencies, the identified model will be unreliable in that frequency band no matter how many data points are collected — you're just collecting more observations of the same uninformative experiment. Input design — choosing a signal with sufficient energy across all frequencies of interest — is as important as the estimation algorithm itself. PRBS signals are widely used precisely because they spread energy broadly across a tunable frequency range."
+
+- question: "The FOPDT parameter τ represents the time required for the output to reach 63.2% of its final steady-state change, measured from the end of the apparent dead time L."
+  type: true-false
+  answer: true
+  explanation: "For a first-order system G(s) = K/(τs+1), the step response follows y(t) = K(1 − e^{−t/τ}). At t = τ, the output has reached 1 − e^{−1} ≈ 63.2% of its final value. The graphical identification method extends this to FOPDT models: you identify the end of the apparent dead time (where the output first begins to respond meaningfully), then measure τ as the additional time for the output to climb 63.2% of the way to its new steady state. This 63.2% rule is a direct consequence of the first-order exponential response formula."
+
+- question: "Why is the design of the excitation signal as important as the choice of estimation algorithm in system identification? What happens if this principle is violated?"
+  type: short-answer
+  answer: "An identification algorithm can only extract information about dynamics that are present in the measured data — and data only contains information about frequency bands where the input had significant energy. If the excitation signal lacks energy in some frequency range, the plant's behavior in that range is never observed, and no estimation algorithm can recover it regardless of how sophisticated it is or how many data points are collected. The result is a model that appears to fit the calibration data well but fails to predict the plant's response to inputs with energy in the unexcited bands. In practice, a poor excitation signal (e.g., a single step for a plant with fast resonant modes) can produce an identified model with the correct low-frequency behavior but completely wrong high-frequency dynamics — exactly the kind of mismatch that causes controller instability."
+  explanation: "The intuition is informational: the data is the source of evidence, and evidence only exists where the input probed the plant. A step input has a broad theoretical spectrum but its high-frequency energy is small and rapidly overwhelmed by noise. Sinusoidal sweeps are information-rich at the swept frequency but slow. PRBS signals represent an engineering compromise: flat spectrum over a designed frequency range, easy to generate, safe for plants. Checking whether the excitation was adequate is part of model validation."
+```
+
 ## Explainer
 
 Every control design technique you have learned — PID tuning, pole placement, root locus — begins with a transfer function G(s) that describes the plant. In practice, that transfer function is rarely handed to you. **System identification** is the process of building that model from data: you apply a known input, measure the output, and infer the mathematical relationship between them. It is the experimental counterpart to theoretical modeling.

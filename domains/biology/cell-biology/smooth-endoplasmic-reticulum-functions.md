@@ -29,6 +29,45 @@ Compare SER abundance and enzyme content across cell types; measure calcium rele
 ## Common Misconceptions
 - SER is absent in most cells; it's present in varying amounts. - Only Ca²⁺ is stored in SER; it also stores lipid precursors and signaling molecules.
 
+## Questions
+
+```yaml
+- question: "A hepatocyte (liver cell) is chronically exposed to a drug metabolized by cytochrome P450 enzymes. After several weeks of exposure, cellular analysis reveals dramatically more smooth ER than in unexposed control cells, and the patient requires a higher drug dose for the same therapeutic effect. Which explanation best accounts for both observations?"
+  type: multiple-choice
+  options:
+    - "The extra SER is synthesizing additional membrane lipids to repair drug-induced membrane damage, which also modifies drug receptor sensitivity"
+    - "Chronic drug exposure stimulates SER proliferation to produce more P450 enzymes, which metabolize the drug faster, requiring higher doses to achieve the same plasma concentration"
+    - "The drug is triggering excess calcium release from SER stores, and the compensatory calcium pump upregulation increases overall SER mass"
+    - "Ribosomes have relocated to the SER surface in response to drug exposure, converting smooth ER to rough ER for drug-neutralizing protein synthesis"
+  answer: 1
+  explanation: "This is the cellular basis of metabolic drug tolerance. Cytochrome P450 enzymes embedded in the SER are the liver's detoxification machinery. Chronic substrate exposure signals the cell to build more SER — more detoxification capacity. The same drug is now metabolized faster, so blood levels drop more quickly and the pharmacological effect is reduced. Higher doses are needed to overcome this accelerated clearance. This proliferation is reversible: SER mass decreases if the drug is withdrawn."
+
+- question: "Which pair of cell types would you predict to have the most abundant smooth ER, and why?"
+  type: multiple-choice
+  options:
+    - "Neurons and red blood cells — because they have the highest energy demand and require the most metabolic activity"
+    - "Adrenal cortex cells and skeletal muscle cells — because both require extensive lipid/steroid synthesis and rapid calcium regulation respectively"
+    - "Pancreatic acinar cells and plasma B cells — because both produce large quantities of secreted proteins"
+    - "Epithelial cells and fibroblasts — because they undergo frequent cell division and need constant membrane synthesis"
+  answer: 1
+  explanation: "Adrenal cortex cells synthesize steroid hormones (cortisol, aldosterone) using the SER's lipid synthesis enzymes — they have among the most abundant SER of any cell type. Skeletal (and cardiac) muscle cells have a specialized SER called the sarcoplasmic reticulum that occupies an enormous fraction of cell volume to store and rapidly release calcium for contraction. Options C and D describe cells with abundant rough ER (protein synthesis) — the SER is structurally distinct and functionally independent."
+
+- question: "The sarcoplasmic reticulum in muscle cells is a specialized form of smooth ER that stores calcium at concentrations far higher than the cytoplasm, enabling rapid Ca²⁺ release to trigger contraction."
+  type: true-false
+  answer: true
+  explanation: "The sarcoplasmic reticulum (SR) is indeed a specialized SER — it lacks ribosomes and is dedicated to calcium storage and release rather than lipid synthesis or detoxification. The SR sequesters Ca²⁺ at concentrations 1,000–10,000 times higher than resting cytoplasm. Upon nerve stimulation, Ca²⁺ channels open and Ca²⁺ floods the cytoplasm within milliseconds, initiating the troponin-tropomyosin cascade that enables myosin-actin cross-bridge cycling. SERCA pumps then actively return Ca²⁺ to the SR for relaxation."
+
+- question: "The smooth ER is absent in most cell types, present only in specialized cells like hepatocytes and steroid-producing cells."
+  type: true-false
+  answer: false
+  explanation: "SER is present in all eukaryotic cells, but its abundance varies enormously based on cell function. Every cell that produces new membranes (which is all of them) requires some SER for lipid synthesis. Cells with specialized lipid, calcium, or detoxification roles simply have far more SER than average. The misconception that SER is rare likely stems from the fact that it is less visually prominent in typical tissue sections compared to cells with specialized SER-dependent functions."
+
+- question: "Why does chronic alcohol or drug exposure cause measurable proliferation of the smooth ER in liver cells, and how does this cellular adaptation explain drug tolerance?"
+  type: short-answer
+  answer: "Chronic exposure to drugs or alcohol increases the demand for cytochrome P450-mediated detoxification. In response, hepatocytes upregulate SER production to accommodate more P450 enzymes — the same way any organelle expands when its function is in high demand. With more P450 enzymes, the liver metabolizes the drug more quickly, reducing peak blood levels and shortening the duration of effect. This means higher doses are needed to achieve the same pharmacological effect, which is the cellular mechanism underlying metabolic drug tolerance."
+  explanation: "The liver's adaptive SER proliferation is a well-documented example of organelle biogenesis in response to functional demand. It also has clinical implications: a patient who drinks heavily will metabolize other drugs faster than a non-drinker, potentially requiring dose adjustments. Conversely, when the drug or alcohol is withdrawn, the excess SER gradually breaks down (a process called autophagy of organelles, or reticulophagy), explaining why tolerance decreases over abstinence."
+```
+
 ## Explainer
 
 You already know that the endoplasmic reticulum is a continuous membrane network extending from the nuclear envelope, and that its rough portion (studded with ribosomes) handles protein synthesis and folding. The **smooth endoplasmic reticulum (SER)** is the other half of this system — the portion without ribosomes — and its functions are entirely different. Rather than making proteins, the SER specializes in making lipids, storing calcium, and detoxifying foreign chemicals.

@@ -34,6 +34,45 @@ Metabolic syndrome is a cluster of interrelated risk factors — abdominal obesi
 - Obesity is simply the result of insufficient willpower; it is a multifactorial chronic disease influenced by genetics, gut microbiome, endocrine function, food environment, and socioeconomic factors.
 - Normal weight individuals cannot have metabolic syndrome; 'metabolically obese normal weight' individuals with excess visceral fat have equivalent cardiometabolic risk.
 
+## Questions
+
+```yaml
+- question: "Two patients have identical BMIs (28, overweight range). Patient A stores most excess fat viscerally (around organs); Patient B stores it subcutaneously (under the skin). Which best describes their relative metabolic risk?"
+  type: multiple-choice
+  options:
+    - "Patient B is at higher risk because subcutaneous fat is more metabolically active"
+    - "Both patients have identical risk — BMI is the primary determinant of metabolic syndrome risk"
+    - "Patient A is at higher risk because visceral fat releases free fatty acids directly into portal circulation, promoting insulin resistance, hypertriglyceridemia, and inflammation"
+    - "Risk cannot be compared without knowing their dietary patterns and family history"
+  answer: 2
+  explanation: "Fat distribution, not just total fat, is the critical variable in metabolic syndrome. Visceral adipose tissue drains directly into the portal vein, so free fatty acids released from visceral fat go straight to the liver — driving hepatic triglyceride production, VLDL secretion, reduced HDL, and insulin resistance. Subcutaneous fat releases fatty acids into the systemic circulation at much lower hepatic concentrations. This is why waist circumference (a proxy for visceral adiposity) predicts metabolic syndrome better than BMI alone."
+
+- question: "A patient with obesity achieves 7% total body weight loss through diet and exercise. Metabolic labs show dramatic improvements: triglycerides down 35%, fasting glucose normalized, HDL up 20%. Why is the metabolic benefit so disproportionate to the modest weight loss?"
+  type: multiple-choice
+  options:
+    - "A 7% weight loss is actually large in absolute terms — metabolic benefits are always proportional to total weight lost"
+    - "Visceral fat is metabolically labile and preferentially lost with caloric restriction and exercise, so even modest total weight loss substantially reduces the visceral fat driving insulin resistance"
+    - "Lifestyle changes directly lower triglycerides through increased muscle metabolism, independent of the fat that is lost"
+    - "The dietary changes must have specifically eliminated saturated fat, which directly caused the triglyceride reduction"
+  answer: 1
+  explanation: "Visceral fat is more responsive to negative energy balance than subcutaneous fat — it is preferentially mobilized with caloric restriction and exercise. A 5–10% reduction in total body weight disproportionately reduces visceral fat specifically, directly lowering portal free fatty acid flux to the liver. This improves all downstream metabolic markers: triglycerides fall, HDL rises, insulin sensitivity improves, and blood pressure often normalizes. This is why clinical goals focus on achievable 5–10% weight loss rather than reaching ideal body weight."
+
+- question: "A person with normal body weight can have metabolic syndrome if they carry excess visceral fat despite appearing lean by standard weight criteria."
+  type: true-false
+  answer: true
+  explanation: "The 'metabolically obese normal weight' (MONW) phenotype is clinically real and important. Individuals who are normal weight by BMI but carry disproportionate visceral fat can fulfill criteria for metabolic syndrome: insulin resistance, hypertriglyceridemia, low HDL, and elevated fasting glucose. BMI cannot distinguish between visceral and subcutaneous fat distribution. MONW individuals have cardiometabolic risk equivalent to those with obesity who carry similar visceral fat burdens."
+
+- question: "Metabolic syndrome is primarily caused by excess dietary fat intake, so reducing dietary fat is the most evidence-based dietary intervention for reversing it."
+  type: true-false
+  answer: false
+  explanation: "The evidence most strongly implicates ultra-processed foods, added sugars, and refined carbohydrates in metabolic syndrome, independent of total calories. Fructose in particular drives hepatic de novo lipogenesis, directly contributing to elevated triglycerides and fatty liver disease. Dietary fiber depletion removes the anti-inflammatory protection provided by gut microbiome short-chain fatty acid production. Dietary fat per se is not the primary driver; overall dietary pattern — particularly refined carbohydrate and processed food load — matters more than fat restriction alone."
+
+- question: "Why does the location of fat storage (visceral vs. subcutaneous) matter more than the total amount of fat for predicting metabolic disease risk?"
+  type: short-answer
+  answer: "Visceral fat drains directly into the portal circulation, delivering high concentrations of free fatty acids to the liver. The liver responds by overproducing triglycerides and VLDL, reducing HDL, and developing insulin resistance. Visceral fat also secretes pro-inflammatory cytokines (TNF-α, IL-6) that impair insulin signaling throughout the body. Subcutaneous fat releases fatty acids into the systemic circulation at much lower hepatic concentrations and is less pro-inflammatory. Two people with the same total fat mass can have dramatically different metabolic risk depending entirely on where that fat is distributed."
+  explanation: "This mechanism — portal fatty acid delivery driving hepatic insulin resistance and dyslipidemia — explains why all the criteria of metabolic syndrome cluster together: each component (hypertriglyceridemia, low HDL, hypertension, hyperglycemia) is a downstream consequence of visceral fat biology, not an independent risk factor. It also explains why waist circumference is a more clinically informative measurement than BMI for metabolic risk assessment."
+```
+
 ## Explainer
 
 You already understand energy balance — that body weight reflects the cumulative difference between calories consumed and calories expended. But energy balance alone doesn't explain why some people with excess body fat develop diabetes and heart disease while others do not, or why the same caloric surplus creates different metabolic damage depending on where fat is stored. The answer lies in the biology of **visceral adipose tissue** and how it disrupts the hormonal systems you studied when learning about endocrine glands. Fat stored around the organs (visceral fat) behaves very differently from fat stored subcutaneously under the skin, and that difference is the core of metabolic syndrome.

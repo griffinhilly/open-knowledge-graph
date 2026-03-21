@@ -35,6 +35,45 @@ Use thermodynamic diagrams to visually identify the area between parcel trajecto
 ## Common Misconceptions
 - High CAPE guarantees severe weather; instability is necessary but not sufficient—organized storms also require wind shear and moisture. - Low CAPE means no convection; weak convection can occur in stable air if lifted far enough, as occurs in orographic forcing.
 
+## Questions
+
+```yaml
+- question: "A morning radiosonde sounding shows CAPE = 3500 J/kg and CIN = 8 J/kg. What convective environment does this represent, and what should a forecaster expect?"
+  type: multiple-choice
+  options:
+    - "High instability with a weak cap — convection will fire easily and could be explosive if moisture is available"
+    - "High instability with a strong cap — severe storms are unlikely without exceptional forcing to break the inhibition"
+    - "Stable air — the low CIN prevents any organized convection despite the large CAPE value"
+    - "Moderate instability typical of ordinary afternoon convection with limited severe potential"
+  answer: 0
+  explanation: "CAPE measures the buoyant energy available once a parcel reaches its Level of Free Convection; CIN measures the energy barrier that must be overcome to get there. Very high CAPE (3500 J/kg) with very low CIN (8 J/kg) means the atmosphere is both energetically primed and barely inhibited — a 'loaded spring with a weak latch.' Convection is likely to fire early and can be explosive. This is distinct from a high-CAPE, high-CIN environment where the cap suppresses development unless strong forcing (a front, dryline) punches through."
+
+- question: "A forecaster sees CAPE = 4500 J/kg and CIN = 350 J/kg in the morning sounding. A dryline is forecast to move through the area in the afternoon. What is the most likely convective outcome?"
+  type: multiple-choice
+  options:
+    - "Widespread convection throughout the day, since the very high CAPE value dominates the forecast"
+    - "No significant convection, because the high CIN will prevent any parcel from reaching its Level of Free Convection"
+    - "Potential for intense, explosive storm development if the dryline provides sufficient lift to break through the inhibition"
+    - "Ordinary afternoon convection as surface heating gradually erodes the CIN by midday"
+  answer: 2
+  explanation: "High-CAPE, high-CIN environments are the classic severe weather setup. The cap suppresses widespread development (preventing ordinary convection from dissipating the instability), allowing CAPE to remain high. If a strong dynamical trigger like a dryline provides enough forced lift to punch through CIN, the stored energy releases explosively. This is why the most violent convective outbreaks often occur after a morning with suppressed skies — the cap did its job until the trigger arrived. Option A misses the cap; option B ignores the trigger; option D underestimates what happens when intense forcing meets exceptional instability."
+
+- question: "High CAPE values are sufficient to guarantee severe thunderstorm development in a region."
+  type: true-false
+  answer: false
+  explanation: "CAPE is necessary but not sufficient for severe convection. Organized severe storms also require wind shear (to give storms rotation and persistence), adequate moisture (as fuel for updrafts), and a triggering mechanism (to initiate convection against inhibition). An environment with enormous CAPE but no shear produces pulse thunderstorms that dissipate quickly; an environment with great shear but low CAPE produces organized but weak storms. Forecasters must assess all ingredients together — CAPE, CIN, shear, moisture, and lift — to evaluate severe weather potential."
+
+- question: "The Lifted Index is negative when the lifted parcel is warmer than the surrounding environment at 500 hPa, indicating atmospheric instability."
+  type: true-false
+  answer: true
+  explanation: "The Lifted Index (LI) is defined as T_environment − T_parcel at 500 hPa. If the lifted parcel is warmer than its surroundings (T_parcel > T_environment), the parcel is positively buoyant — unstable — and the LI is negative. The more negative the LI, the greater the instability: values of −6 or below indicate strong instability. This sign convention trips up students who expect a positive number to mean unstable; remember that a negative LI means the parcel is warmer (lighter) than the environment, which drives upward acceleration."
+
+- question: "Explain the physical meaning of CAPE and CIN as a pair, and describe what happens in a high-CAPE, high-CIN environment when a strong triggering mechanism arrives."
+  type: short-answer
+  answer: "CAPE (Convective Available Potential Energy) is the total buoyant energy available to an air parcel between its Level of Free Convection and the Equilibrium Level — the area on a thermodynamic diagram where the parcel is warmer than the environment. CIN (Convective Inhibition) is the energy that must be supplied to lift a parcel to its LFC — the area where the parcel is cooler than the environment. Think of CAPE as the energy stored in a compressed spring and CIN as the latch holding it. In a high-CAPE, high-CIN environment, the atmosphere is a loaded spring with a strong latch: convection is suppressed while instability builds all morning. When a strong trigger (dryline, front) provides enough forced lift to overcome CIN, the latch releases and the stored CAPE is converted to intense updrafts — producing explosive, potentially severe convection."
+  explanation: "The cap (CIN) serves an organizing function: by suppressing widespread weak convection, it allows CAPE to accumulate to high values and ensures that when storms do form, they tap into a large energy reservoir. This is why forecasters actively watch for CIN erosion in high-CAPE environments: the transition from capped to uncapped — especially with strong wind shear present — is the canonical setup for significant tornado and large hail events in the central United States."
+```
+
 ## Explainer
 
 You already understand that atmospheric stability depends on whether a lifted air parcel ends up warmer or cooler than its surroundings, and that adiabatic lapse rates set the cooling rate for rising parcels. Convective instability indices take this qualitative understanding and turn it into numbers that forecasters use every day to predict whether — and how violently — thunderstorms will develop.

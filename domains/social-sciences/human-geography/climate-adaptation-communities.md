@@ -31,6 +31,45 @@ Survey case studies across different climate hazards — coastal flooding, droug
 - Adaptation is not simply a technical or engineering problem; social cohesion, political representation, and resource access determine which communities can adapt effectively.
 - "Resilience" can obscure power dynamics: asking marginalized communities to be resilient can shift responsibility away from structural causes and toward individual endurance.
 
+## Questions
+
+```yaml
+- question: "A low-lying coastal community facing saltwater intrusion drills deeper wells to access fresh groundwater. Fifteen years later, the aquifer is severely depleted and neighboring communities also lose access to groundwater. This situation best illustrates:"
+  type: multiple-choice
+  options:
+    - "Successful adaptation that produced unforeseen side effects requiring further technical fixes"
+    - "Maladaptation — a locally rational short-term response that created larger, longer-run vulnerabilities"
+    - "An adaptation deficit caused by lack of resources for proper infrastructure"
+    - "Climate injustice, because richer communities could afford better solutions"
+  answer: 1
+  explanation: "Maladaptation occurs when a response to climate stress that is rational in the short-term and local scale creates larger vulnerabilities over time or across space. Drilling deeper wells is rational for the individual community facing immediate saltwater intrusion, but if it depletes a shared aquifer, it transfers and amplifies the problem for others and for future generations. Effective adaptation requires thinking across scales and timescales — balancing immediate relief against long-run sustainability — which the well-drilling strategy failed to do."
+
+- question: "Why do the communities facing the most severe climate adaptation challenges often have the largest 'adaptation deficits'?"
+  type: multiple-choice
+  options:
+    - "Poorer communities emit more greenhouse gases, which worsens local climate impacts"
+    - "Communities contributing least to emissions — often in the Global South — face severe impacts with fewest resources, institutions, or political influence to respond"
+    - "Tropical and coastal geographies are inherently less suited to climate-resilient infrastructure"
+    - "Adaptation deficits are caused by cultural resistance to technological innovation"
+  answer: 1
+  explanation: "The adaptation deficit describes the gap between adaptive need and adaptive capacity. The communities most vulnerable to climate impacts — small island nations, Sahel farming communities, informal coastal settlements in the Global South — are often those that have contributed least to global emissions but face the steepest adaptation challenges. They lack the fiscal resources to harden infrastructure, the institutional infrastructure to coordinate responses, and the political leverage to attract international support. Climate change thus compounds existing geographic and economic inequalities rather than affecting all places equally."
+
+- question: "Community resilience to climate shocks depends not only on physical infrastructure but also on social factors like trust networks, collective action capacity, and cultural knowledge of historical climate variability."
+  type: true-false
+  answer: true
+  explanation: "Bangladesh illustrates this directly: cyclone mortality has fallen dramatically not just because of better storm barriers but because of community-based early warning systems and the social infrastructure to act on them. Resilience is produced through social processes — trust that enables coordination, leadership that can organize responses, cultural practices that encode knowledge of past variability — and these can be supported or undermined by policy. Physical infrastructure without social cohesion may fail when it is needed most; social cohesion without infrastructure may be insufficient for the largest shocks."
+
+- question: "Framing climate response as 'building community resilience' is always empowering because it centers local agency and capacity rather than external dependency."
+  type: true-false
+  answer: false
+  explanation: "Resilience framing can obscure power dynamics and shift responsibility in problematic ways. Asking already-marginalized communities to be resilient — to absorb disturbance and keep functioning — can divert attention from the structural causes of their vulnerability and from the responsibility of high-emitting nations and industries. It places the burden of response on those who bear least responsibility for the problem. The justice argument is precisely that resilience-building, while valuable, cannot substitute for addressing the structural inequalities and emissions that generate climate risk in the first place."
+
+- question: "Explain why locally rational short-term adaptation strategies can become forms of maladaptation, and what kind of thinking is required to avoid this outcome."
+  type: short-answer
+  answer: "A locally rational response optimizes for the immediate problem from the perspective of a single community at a single point in time. But climate systems and human systems are interconnected across space and time: a response that works locally may shift the burden elsewhere (seawalls accelerating erosion in neighboring areas), deplete shared resources (aquifer drawdown), or reduce future options (locking in infrastructure suited to past not future climate). Avoiding maladaptation requires systems thinking — tracing effects across scales and timescales — and governance mechanisms that coordinate across communities rather than optimizing locally."
+  explanation: "The key insight is that 'adaptation' is not self-evidently good — it depends on what it adapts to and what it leaves vulnerable. Short-term relief and long-run sustainability can conflict, and local optimization can impose costs on others or on the future. This parallels the distinction between mitigation (addressing causes) and adaptation (responding to symptoms): purely reactive responses can lock in trajectories that increase long-run vulnerability if they don't account for dynamic climate projections and systemic interdependencies."
+```
+
 ## Explainer
 
 You have already studied how climate migration and environmental hazards displace and stress communities. **Climate adaptation** takes up the other side of the response question: when people cannot or do not move, how do they modify their practices, infrastructure, and social arrangements to remain viable in a changing environment? Adaptation is not a single thing — it ranges from seawalls and drought-resistant crops to seasonal migration calendars, early warning networks, and changes in land tenure — and whether it succeeds depends as much on social and political conditions as on technical ingenuity.

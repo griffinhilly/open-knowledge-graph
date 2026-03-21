@@ -45,6 +45,45 @@ Begin with Hall's encoding/decoding essay and trace the three reading positions 
 - Encoding/decoding does not mean meanings are infinitely free; the text sets conditions for preferred readings that most readers follow most of the time.
 - Cultural studies is not anti-literary; it contextualizes literary texts rather than abandoning close reading.
 
+## Questions
+
+```yaml
+- question: "A working-class viewer watches a news broadcast that frames trade unions as disruptive to the economy. She understands the program's argument but modifies it in light of her own experience as a union member, accepting some points while rejecting others. What reading position is she taking?"
+  type: multiple-choice
+  options:
+    - "Dominant-hegemonic — she accepts the text's preferred meaning as encoded"
+    - "Negotiated — she accepts the broad framework but qualifies it from her own social position"
+    - "Oppositional — she decodes the text from a fundamentally different ideological position"
+    - "Encoding — she is producing rather than receiving the message"
+  answer: 1
+  explanation: "A negotiated reading accepts the dominant framework in general but modifies or contests specific applications based on the reader's own experience and position. The viewer understands what the program is arguing and doesn't wholly reject its premises — she negotiates. An oppositional reading would refuse the preferred meaning entirely and decode from a fundamentally different position (e.g., seeing the broadcast itself as an instrument of class power). The dominant-hegemonic reading accepts the preferred meaning without modification."
+
+- question: "Cultural studies argues that canonical literature should be abandoned in favor of popular culture. What is wrong with this characterization?"
+  type: multiple-choice
+  options:
+    - "It is essentially correct — cultural studies does prioritize popular culture over literary texts"
+    - "Cultural studies does not abandon evaluation; it treats the criteria by which value is assigned as themselves cultural and political objects of analysis"
+    - "Cultural studies holds that all texts are equally valuable and that aesthetic judgment is irrelevant"
+    - "Cultural studies focuses exclusively on mass media and ignores literary texts entirely"
+  answer: 1
+  explanation: "Cultural studies dissolved the boundary between high and low culture not by declaring all texts equally valuable but by insisting that the criteria by which value is assigned — aesthetic autonomy, universality, formal complexity — are not neutral judgments. They are cultural and historical constructions that serve particular interests, and therefore proper objects of critical analysis. This opens the question of canon formation in both directions: why are some texts elevated, and what is lost by excluding others? Literary close reading remains part of the toolkit."
+
+- question: "According to Hall's encoding/decoding model, the text's preferred meaning is fixed and stable, and different readings simply reflect readers' failure to understand the text correctly."
+  type: true-false
+  answer: false
+  explanation: "Hall's model insists that decoding is not a passive reception of a stable meaning — it is an active production of meaning from a specific social position. The text encodes a preferred reading (the dominant-hegemonic position), but readers can and regularly do take negotiated or oppositional positions. These are not misreadings; they are structural outcomes of the reader's relationship to the dominant code. The text sets conditions for preferred readings, but those conditions do not determine all readings."
+
+- question: "Cultural studies holds that the criteria by which texts are elevated to canonical status — formal complexity, aesthetic autonomy, universality — are cultural and historical constructions rather than neutral aesthetic judgments."
+  type: true-false
+  answer: true
+  explanation: "This is one of cultural studies' core methodological moves. By treating the canon's selection criteria as objects of analysis rather than givens, cultural studies asks: what interests are served by these standards? Who is assumed as the ideal reader? What texts and voices are excluded by these definitions of value? This does not collapse into relativism — it redirects critical attention toward the politics of aesthetic judgment itself."
+
+- question: "How does Hall's encoding/decoding model change the way we understand the relationship between a text's meaning and its audience?"
+  type: short-answer
+  answer: "Hall's model shows that meaning is not simply transmitted from producer to audience — it is produced at two distinct moments (encoding and decoding) that are not symmetrical. Audiences do not passively receive the meaning the text was designed to convey; they actively decode from their own social positions, which can produce dominant, negotiated, or oppositional readings. This makes the audience an active site of meaning production, not just a destination for messages."
+  explanation: "Before Hall, communication was often modeled as a message passing intact from sender to receiver. Hall's insight was that encoding (production) and decoding (reception) happen under different conditions and involve different codes — so the 'same' text is not experienced identically across different readers. This has practical implications: the fact that a text was designed to produce a certain reading does not mean it will. Audience research, resistance studies, and fan culture studies all draw on this framework."
+```
+
 ## Explainer
 
 Your prerequisites in Marxist criticism and ideological analysis gave you tools for reading texts as products of material conditions and as bearers of ideological content. Cultural studies inherits those tools but widens the field dramatically. The Birmingham Centre for Contemporary Cultural Studies (CCCS), founded in 1964, began asking: why should critics attend only to canonical literature? If ideology operates through culture broadly — through newspapers, advertisements, television, youth subcultures, music — then restricting critical attention to the literary canon is itself an ideological choice. Raymond Williams's foundational argument was that **culture** is not the preserve of elite art but is "ordinary": the shared meanings, practices, and forms through which a society lives.

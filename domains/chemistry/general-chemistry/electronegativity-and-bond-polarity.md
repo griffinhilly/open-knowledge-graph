@@ -30,6 +30,44 @@ Compare electronegativities from a periodic table to classify bonds and predict 
 ## Common Misconceptions
 Confusing electronegativity with electron affinity; thinking all C-H bonds are identical regardless of context.
 
+## Questions
+
+```yaml
+- question: "Consider a C–O bond (C electronegativity: 2.5, O: 3.5, ΔEN = 1.0) and an N–N bond (ΔEN = 0). Which statement correctly classifies these bonds?"
+  type: multiple-choice
+  options:
+    - "Both are nonpolar covalent because both involve only nonmetal atoms"
+    - "C–O is polar covalent with partial negative charge on oxygen; N–N is nonpolar covalent"
+    - "C–O is ionic because oxygen has high electronegativity"
+    - "N–N is slightly polar because nitrogen's lone pairs create an asymmetric electron distribution"
+  answer: 1
+  explanation: "Bond polarity depends on the electronegativity difference between bonded atoms, not on the identity of the elements as metals or nonmetals. C and O are both nonmetals, but their ΔEN of 1.0 is large enough to create a meaningfully polar bond — the shared electrons are pulled toward the more electronegative oxygen, creating δ– on O and δ+ on C. N–N bonds two identical atoms (ΔEN = 0), so electrons are shared equally: nonpolar covalent. The misconception in option A — that 'nonmetal + nonmetal = nonpolar' — is one of the most common errors in bond classification."
+
+- question: "H–F has ΔEN = 1.9 and H–Cl has ΔEN = 0.9. A student claims H–Cl is more polar because chlorine is a larger atom with more electrons, creating stronger London dispersion interactions. Why is this reasoning incorrect?"
+  type: multiple-choice
+  options:
+    - "It is correct — larger atoms always form more polar bonds"
+    - "London dispersion forces are intermolecular, not intramolecular — they do not determine bond polarity. Bond polarity is determined by electronegativity difference, so H–F (ΔEN = 1.9) is more polar"
+    - "Both bonds are equally polar because they both involve hydrogen bonded to a halogen"
+    - "Polarity depends on bond length, not electronegativity, and H–Cl is longer than H–F"
+  answer: 1
+  explanation: "London dispersion forces are attractions between temporary dipoles in different molecules — they describe intermolecular interactions, not the polarity of a covalent bond within a molecule. Bond polarity is determined entirely by electronegativity difference: how unequally the bonded atoms attract the shared electrons. Fluorine (EN = 4.0) is the most electronegative element; the H–F ΔEN of 1.9 produces a highly polar bond with significant δ– on F and δ+ on H. H–Cl (ΔEN = 0.9) is polar, but less so. Atomic size affects London dispersion forces (more electrons = stronger dispersion), but this is independent of bond polarity."
+
+- question: "The classification of bonds as 'nonpolar covalent,' 'polar covalent,' and 'ionic' represents three fundamentally distinct types of bonding with sharp boundaries between them."
+  type: true-false
+  answer: false
+  explanation: "Bond polarity exists on a continuous spectrum, and the cutoffs used to label bonds (e.g., ΔEN < 0.4 for nonpolar, ΔEN > 1.7 for ionic) are approximate guidelines, not sharp physical boundaries. As ΔEN increases, electron density shifts more and more toward the electronegative atom — from equal sharing to slight asymmetry to nearly complete transfer — without any discontinuous jump. Most ionic compounds retain partial covalent character, and many 'covalent' compounds have partial ionic character. The labels are useful shorthand for a continuous underlying variable."
+
+- question: "Electronegativity and electron affinity are different names for the same atomic property and follow identical periodic trends."
+  type: true-false
+  answer: false
+  explanation: "They are related but distinct properties. Electron affinity measures the energy change when an isolated, gas-phase atom gains one electron — it is a property of the free atom under specific conditions. Electronegativity measures an atom's ability to attract shared bonding electrons within a covalent bond — it is a property of the atom in the context of a bond. Both generally increase up and to the right on the periodic table (more protons, smaller radius, tighter electron hold), but they are not numerically identical, differ in units and measurement, and can rank elements differently. Confusing them leads to incorrect reasoning about bonding in molecules."
+
+- question: "Why does the polarity of a covalent bond matter for predicting how a molecule will behave chemically and physically?"
+  type: short-answer
+  answer: "A polar bond creates partial charges — δ+ on the less electronegative atom and δ– on the more electronegative one. These partial charges make specific atoms in the molecule susceptible to attack: nucleophiles (electron-rich species) are attracted to δ+ centers, and electrophiles (electron-poor species) are attracted to δ– centers. For example, the polar C=O bond in a carbonyl group makes the carbon a nucleophilic target, directing reactivity in addition and substitution reactions. Physically, polar bonds allow molecules to participate in dipole–dipole interactions and hydrogen bonding (when H is bonded to F, O, or N), dramatically raising boiling points and increasing solubility in polar solvents like water. Bond polarity is therefore not just a bookkeeping property — it is the primary driver of where and how a molecule reacts."
+```
+
 ## Explainer
 
 From periodic trends, you know that atomic properties change systematically across periods and down groups. **Electronegativity** is one of the most consequential of these trends: it measures how strongly an atom attracts the electrons in a covalent bond toward itself. On the Pauling scale, fluorine is the most electronegative element (4.0), and electronegativity generally increases going up and to the right on the periodic table — the same direction as ionization energy, and for the same fundamental reason: smaller atoms with more protons hold their electrons more tightly.

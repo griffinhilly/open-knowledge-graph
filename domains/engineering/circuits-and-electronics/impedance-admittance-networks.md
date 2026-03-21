@@ -32,6 +32,45 @@ Calculate impedance values for RC, RL, and RLC circuits at several frequencies. 
 ## Common Misconceptions
 Students often forget that impedance is frequency-dependent, unlike resistance. Some mistakenly add impedances as if they were purely real numbers, ignoring the reactive component and resulting phase shifts.
 
+## Questions
+
+```yaml
+- question: "A circuit has three identical admittances Y₁ = Y₂ = Y₃ = 0.1 + j0.2 S connected in parallel. What is the total admittance?"
+  type: multiple-choice
+  options:
+    - "You must convert each to impedance, combine using the reciprocal formula, then convert back"
+    - "Y_total = 0.3 + j0.6 S — parallel admittances add directly"
+    - "Y_total = 0.033 + j0.067 S — parallel admittances average"
+    - "Y_total = 10 − j5 Ω — parallel elements require the impedance domain"
+  answer: 1
+  explanation: "One of the main motivations for admittance is exactly this: parallel admittances add directly, just as series impedances add directly. Y_total = Y₁ + Y₂ + Y₃ = 0.3 + j0.6 S. Option A describes the impedance approach, which works but requires extra steps. The admittance approach is cleaner for parallel circuits."
+
+- question: "An inductor L has reactance X_L = +jωL. What is its susceptance?"
+  type: multiple-choice
+  options:
+    - "B_L = +jωL — susceptance equals reactance for inductive elements"
+    - "B_L = +1/(ωL) — susceptance is the magnitude of the reciprocal"
+    - "B_L = −1/(ωL) — susceptance and reactance have opposite signs"
+    - "B_L = −jωL — susceptance is the negative imaginary part of impedance"
+  answer: 2
+  explanation: "For an inductor, Z = jωL, so Y = 1/Z = 1/(jωL) = −j/(ωL). The susceptance (imaginary part of admittance) is B_L = −1/(ωL), which is negative — opposite in sign to the positive reactance X_L = +ωL. A capacitor has negative reactance but positive susceptance. Always derive susceptance from Y = 1/Z rather than assuming it matches the sign of reactance."
+
+- question: "For parallel circuit elements, using admittances instead of impedances simplifies the calculation because parallel admittances add directly."
+  type: true-false
+  answer: true
+  explanation: "True. This is the primary motivation for introducing admittance. In the impedance domain, parallel elements require 1/Z_total = 1/Z₁ + 1/Z₂ + ... — a cumbersome sum of reciprocals. In the admittance domain, Y_total = Y₁ + Y₂ + ... — a simple sum. The symmetry is complete: series circuits are natural in the impedance domain; parallel circuits are natural in the admittance domain."
+
+- question: "An element's susceptance and reactance always have the same algebraic sign."
+  type: true-false
+  answer: false
+  explanation: "False. Susceptance and reactance have opposite signs for the same element. An inductor has positive reactance (+ωL) but negative susceptance (−1/(ωL)). A capacitor has negative reactance (−1/(ωC)) but positive susceptance (+ωC). This follows from Y = 1/Z: taking the reciprocal of a purely imaginary number flips its sign. Forgetting this sign flip is one of the most common errors when switching between impedance and admittance representations."
+
+- question: "Why might an engineer choose to analyze a mixed series-parallel AC network partly in the impedance domain and partly in the admittance domain, rather than committing to one representation throughout?"
+  type: short-answer
+  answer: "Series sub-circuits are most efficiently analyzed in the impedance domain (series impedances add), while parallel sub-circuits are most efficiently analyzed in the admittance domain (parallel admittances add). In a mixed network, switching representations at the boundary between series and parallel sections keeps the algebra simpler and reduces errors from repeatedly computing reciprocals."
+  explanation: "The power of the dual representation is this flexibility. Neither domain is universally superior — the choice depends on circuit topology at each stage. Skilled analysis involves recognizing which domain makes each step easier and converting between them as needed, rather than forcing a complex mixed network into a single representation."
+```
+
 ## Explainer
 
 From phasor algebra, you know that **impedance** Z is the complex-valued generalization of resistance: Z = R + jX, where R is resistance and X is reactance. Impedances combine in circuits just as resistances do in DC circuits — series impedances add, parallel impedances combine via the reciprocal formula. **Admittance** Y = 1/Z is simply the reciprocal of impedance, and it plays a symmetric role. Just as resistance is the opposition to current flow, admittance is the *ease* of current flow. Its real part is **conductance** G and its imaginary part is **susceptance** B: Y = G + jB.

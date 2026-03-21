@@ -34,6 +34,45 @@ Estimate beta by regressing monthly stock returns on index returns over a 5-year
 - A highly volatile stock with low correlation to the market can have low beta — volatility and systematic risk are distinct concepts.
 - Beta estimated from historical data is unstable and sensitive to the chosen time window and market proxy, making forward-looking beta a source of significant estimation error.
 
+## Questions
+
+```yaml
+- question: "A biotech stock has extremely high daily price volatility because its value depends on clinical trial outcomes uncorrelated with the economic cycle. What would you expect its beta to be?"
+  type: multiple-choice
+  options:
+    - "Very high (beta > 2) because the stock is very risky"
+    - "Close to zero, because low correlation to the market produces low beta regardless of total volatility"
+    - "Equal to 1, because all stocks must track the market over time"
+    - "Negative, because the stock falls when the market rises"
+  answer: 1
+  explanation: "Beta = Cov(rᵢ, rₘ) / Var(rₘ). If the stock's returns are uncorrelated with the market, Cov(rᵢ, rₘ) ≈ 0, so beta ≈ 0 — despite extremely high total volatility. This is the critical distinction between systematic and idiosyncratic risk. The biotech stock is risky in total, but its risk is firm-specific and diversifiable. A diversified portfolio holder can neutralize this risk, so the market offers no additional return for bearing it."
+
+- question: "Why might a high-volatility stock earn a lower expected return than a lower-volatility stock in an efficient market?"
+  type: multiple-choice
+  options:
+    - "Because high-volatility stocks are more liquid and thus command lower premiums"
+    - "Because the market misprices high-volatility stocks, creating arbitrage opportunities"
+    - "Because the high-volatility stock's risk may be mostly idiosyncratic and diversifiable, leaving little systematic risk to be rewarded"
+    - "Because investors prefer volatile stocks for upside potential and bid up their prices"
+  answer: 2
+  explanation: "If a stock's volatility comes from firm-specific events uncorrelated with the market, that volatility is idiosyncratic and can be eliminated by holding the stock in a diversified portfolio. Since investors can costlessly diversify it away, the market offers no additional return for bearing it. A stock with lower total volatility but higher beta commands a higher required return because its systematic risk cannot be diversified away. Required return is determined by beta, not raw volatility."
+
+- question: "A highly volatile stock with low correlation to the market can have low beta."
+  type: true-false
+  answer: true
+  explanation: "True — this is one of the most important distinctions in finance. Beta = Cov(rᵢ, rₘ) / Var(rₘ), which depends on correlation with the market, not on total volatility. A stock whose price swings wildly due to firm-specific events (drug trials, patent disputes) can have near-zero beta if those swings are uncorrelated with market movements. High idiosyncratic volatility does not imply high systematic risk."
+
+- question: "A stock with beta = 1.5 is expected to rise about 15% when the overall market rises 10%."
+  type: true-false
+  answer: true
+  explanation: "True. Beta measures sensitivity to market movements: a beta of 1.5 means the stock's returns are expected to move 1.5 times the market's returns. A 10% market gain corresponds to approximately a 15% expected gain; a 10% market decline corresponds to approximately a 15% expected decline. This amplification is why high-beta stocks are considered more exposed to market risk — they swing further in both directions."
+
+- question: "Explain why only systematic risk should command a risk premium in an efficient market, while idiosyncratic risk earns no additional expected return."
+  type: short-answer
+  answer: "Idiosyncratic risk is firm-specific and uncorrelated across stocks. By holding a diversified portfolio, investors eliminate this risk at virtually no cost — losses in one stock are offset by gains in others. Because investors can freely eliminate idiosyncratic risk, competition bids away any excess return it might offer. Systematic risk affects all stocks simultaneously and cannot be diversified away, so investors must bear it to participate in markets at all — they rationally demand compensation proportional to beta."
+  explanation: "The logic: what you can eliminate at no cost, you won't be compensated for; what you cannot eliminate, you must be compensated for. Diversification renders idiosyncratic risk irrelevant for pricing, leaving beta — the undiversifiable component — as the sole driver of expected returns in the CAPM framework. This is why beta, not total volatility (standard deviation), is the relevant risk measure for a diversified investor."
+```
+
 ## Explainer
 
 From portfolio diversification, you know that combining assets reduces risk — but not all risk goes away. Idiosyncratic risks (a company's CEO resigns, a product fails a safety test, a competitor wins a key contract) wash out when you hold many stocks, because these events are uncorrelated across firms. What cannot be diversified away is **systematic risk**: the risk that moves the whole market at once — recessions, interest rate spikes, geopolitical crises. Every stock is exposed to this background noise, and the question beta answers is: *how exposed?*

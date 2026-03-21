@@ -20,6 +20,45 @@ status: draft
 ## Core Idea
 The somatic nervous system carries motor commands to skeletal muscles and sensory input from skin and joints. The autonomic nervous system (sympathetic and parasympathetic divisions) innervates visceral organs. Sympathetic fibers emerge from the thoracolumbar spinal cord and promote 'fight-or-flight' responses. Parasympathetic fibers emerge from the brainstem and sacral cord and promote 'rest-and-digest' responses.
 
+## Questions
+
+```yaml
+- question: "A patient is given a drug that blocks muscarinic acetylcholine receptors. Which of the following best describes the primary effect on the heart?"
+  type: multiple-choice
+  options:
+    - "Heart rate decreases, because the drug blocks sympathetic input to the heart"
+    - "Heart rate increases, because parasympathetic slowing of the heart is blocked"
+    - "Heart rate is unaffected, because cardiac muscle is controlled by the somatic system"
+    - "Heart rate decreases, because blocking muscarinic receptors enhances sympathetic tone"
+  answer: 1
+  explanation: "The parasympathetic division slows heart rate using acetylcholine acting on muscarinic receptors. Blocking those receptors removes parasympathetic braking, so heart rate rises. The sympathetic division uses norepinephrine at the heart (not muscarinic ACh), so it is unaffected by this drug. This is why atropine — a muscarinic blocker — is used clinically to raise heart rate."
+
+- question: "Which structural feature best distinguishes the autonomic nervous system from the somatic motor pathway?"
+  type: multiple-choice
+  options:
+    - "The autonomic system uses acetylcholine while the somatic system uses norepinephrine"
+    - "The autonomic system uses a two-neuron chain (preganglionic and postganglionic) rather than a single motor neuron"
+    - "The autonomic system originates in the cerebral cortex while the somatic system originates in the spinal cord"
+    - "The autonomic system innervates skeletal muscle while the somatic system innervates smooth muscle"
+  answer: 1
+  explanation: "The defining structural difference is the two-neuron chain of the ANS: a preganglionic neuron runs from the CNS to a peripheral ganglion, where it synapses onto a postganglionic neuron that reaches the target organ. The somatic motor system uses a single lower motor neuron running unbroken from the ventral horn to skeletal muscle. The other options are either reversed or simply false."
+
+- question: "The autonomic nervous system communicates with target organs via a single motor neuron originating in the spinal cord."
+  type: true-false
+  answer: false
+  explanation: "This describes the somatic nervous system, not the autonomic. The ANS uses a two-neuron chain: a preganglionic neuron originating in the CNS synapses in a peripheral ganglion, and a postganglionic neuron then travels to the target organ. This two-neuron architecture is a defining feature that distinguishes the ANS from the somatic motor pathway."
+
+- question: "Parasympathetic preganglionic neurons originate in the brainstem and the sacral spinal cord (S2–S4), giving rise to the term 'craniosacral outflow.'"
+  type: true-false
+  answer: true
+  explanation: "The parasympathetic division is correctly described as 'craniosacral': preganglionic neurons arise from cranial nerve nuclei in the brainstem (CN III, VII, IX, X) and from the sacral cord at S2–S4. By contrast, sympathetic preganglionic neurons arise from the thoracolumbar cord (T1–L2), producing the 'thoracolumbar outflow.'"
+
+- question: "Why does the sympathetic division use norepinephrine at most target organs while the parasympathetic uses acetylcholine, and what is the notable exception in sympathetic innervation?"
+  type: short-answer
+  answer: "The two divisions use different postganglionic neurotransmitters as a matter of evolutionary differentiation: sympathetic postganglionic neurons release norepinephrine onto adrenergic receptors; parasympathetic postganglionic neurons release acetylcholine onto muscarinic receptors. The exception is sweat glands — although innervated by the sympathetic division, they receive acetylcholine (acting on muscarinic receptors), not norepinephrine."
+  explanation: "This exception matters clinically: blocking muscarinic receptors (e.g., with atropine) inhibits sweating despite sweating being a sympathetic function. The broader principle is that neurotransmitter identity alone does not determine which division is acting — you must also know the receptor type and target organ."
+```
+
 ## Explainer
 
 From your study of the spinal cord and peripheral nerves, you know that spinal nerves arise from the cord via dorsal (sensory) and ventral (motor) roots, and that peripheral nerves carry both afferent signals from the body to the CNS and efferent signals back out. The peripheral nervous system divides into two fundamental streams based on what those efferent signals control: the **somatic nervous system**, which governs voluntary movement, and the **autonomic nervous system (ANS)**, which governs the involuntary control of internal organs. Understanding this division is really about understanding two different kinds of motor output: one that reaches skeletal muscle through a single motor neuron, and one that reaches smooth muscle, cardiac muscle, and glands through a two-neuron chain.

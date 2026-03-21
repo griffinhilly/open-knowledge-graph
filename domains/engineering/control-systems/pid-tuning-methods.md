@@ -32,6 +32,45 @@ Apply each tuning method to the same simulated plant (e.g., a first-order-plus-d
 - The ultimate gain method requires the plant to be brought to the verge of instability, which is dangerous or impossible for some processes (e.g., chemical reactors, thermal systems with long time constants) — relay auto-tuning provides the same information safely by limiting oscillation amplitude.
 - Model-based tuning methods (IMC, lambda tuning) are not inherently superior to empirical methods — they depend on the accuracy of the identified plant model, and a poor FOPDT fit can produce worse results than Ziegler-Nichols on the actual plant.
 
+## Questions
+
+```yaml
+- question: "An engineer applies Ziegler-Nichols tuning to a temperature control loop. The resulting closed-loop response shows large overshoots and several oscillation cycles before settling. The engineer concludes the tuning is incorrect. Is this conclusion right?"
+  type: multiple-choice
+  options:
+    - "Yes — properly applied Z-N tuning should produce a critically damped, non-oscillatory response"
+    - "No — Z-N tuning is designed for quarter-decay-ratio response, meaning the system should overshoot and oscillate; this behavior is expected and the gains are a starting point for further detuning, not a finished design"
+    - "Yes — the oscillatory response means the plant model (L and T) was identified incorrectly"
+    - "No — the oscillatory response indicates the derivative term is too small and should be increased"
+  answer: 1
+  explanation: "Ziegler-Nichols tuning explicitly targets quarter-decay-ratio (QDR) response: the output overshoots, and each successive oscillation is 25% of the amplitude of the previous one. This is intentionally aggressive — fast response but visibly oscillatory. Z-N was designed in the 1940s for process control applications where fast return to setpoint was valued over smooth response. For most modern applications (especially in the presence of measurement noise or actuator wear), the Z-N gains are used as a starting point and then detuned by 20-50%. The engineer's behavior is correct: recognizing the aggressiveness and refining from there."
+
+- question: "A process engineer wants to find the ultimate gain K_u for a chemical reactor using the classical Ziegler-Nichols closed-loop method. A safety officer objects. What is the valid concern, and what is the standard alternative?"
+  type: multiple-choice
+  options:
+    - "The concern is that increasing gain reduces stability margins; the alternative is Cohen-Coon open-loop tuning"
+    - "The concern is that driving the reactor to sustained oscillations at K_u risks instability and potential runaway; relay auto-tuning induces the same limit cycle information safely by limiting oscillation amplitude"
+    - "The concern is that the closed-loop method doesn't work for nonlinear processes like reactors; IMC tuning should be used instead"
+    - "There is no valid safety concern — the method requires only monitoring the output, not changing operating conditions"
+  answer: 1
+  explanation: "The ultimate gain method drives the closed-loop system to the verge of instability — exactly the condition to be avoided in a chemical reactor where runaway reactions, thermal runaways, or pressure excursions could result. Relay auto-tuning solves this by replacing the PID controller with a relay (on-off controller) that deliberately limits the output oscillation to ±d around the setpoint. The describing function approximation then extracts K_u and P_u from the resulting bounded limit cycle without requiring true instability. This is why industrial 'auto-tune' buttons implement relay auto-tuning — it provides the same tuning information safely."
+
+- question: "Ziegler-Nichols tuning formulas produce a finished, production-ready controller design for most industrial processes."
+  type: true-false
+  answer: false
+  explanation: "Z-N tuning is designed for quarter-decay-ratio response, which is more aggressive than most modern industrial applications require. The resulting controller typically produces 25%+ overshoot per cycle, which is unacceptable for processes with product quality constraints, actuator wear concerns, or setpoints near safety limits. The standard practice is to treat Z-N gains as an initial estimate and detune by 20-50% — reducing Kp and adjusting Ti and Td — to achieve a less oscillatory response. Z-N's real value is getting you into the right ballpark quickly; finishing the design requires process-specific judgment."
+
+- question: "IMC (Internal Model Control) tuning is superior to Ziegler-Nichols because it is model-based and therefore always produces a more accurate controller design."
+  type: true-false
+  answer: false
+  explanation: "IMC tuning depends entirely on the accuracy of the identified plant model (typically a first-order-plus-dead-time, FOPDT, approximation). If the FOPDT model poorly captures the real plant dynamics — for example, for processes with significant nonlinearity, higher-order dynamics, or multiple time constants — the IMC-derived controller may perform worse than Z-N on the actual plant. IMC's advantage is not unconditional accuracy but transparency: the single tuning parameter λ (desired closed-loop time constant) provides a directly interpretable performance-robustness tradeoff. Z-N may outperform IMC when the plant model is poor. Model quality is the limiting factor."
+
+- question: "Explain the fundamental tradeoff that all PID tuning methods must navigate, and describe how IMC tuning makes this tradeoff explicit and interpretable for the engineer."
+  type: short-answer
+  answer: "Every PID tuning method balances performance (fast disturbance rejection, tight setpoint tracking, small steady-state error) against robustness (stability under plant variations, model uncertainty, and noise). Tight tuning achieves fast response but has little tolerance for plant changes — if process dynamics shift due to wear, temperature, or load variation, an aggressive controller can go unstable. Loose tuning is stable across plant variations but responds sluggishly. IMC tuning makes this tradeoff explicit through a single parameter: λ, the desired closed-loop time constant. Small λ → fast, aggressive response; large λ → slow, robust response. The engineer directly specifies the tradeoff in interpretable physical units (time constant) rather than adjusting abstract gains Kp, Ki, Kd and inferring the effect."
+  explanation: "This directness is IMC's key practical advantage over Z-N and Cohen-Coon, which produce gains through fixed formulas whose performance implications are indirect. When operating requirements are well-defined (e.g., 'recover within 5 minutes'), the engineer can compute the required λ directly. Z-N and Cohen-Coon are preferred when the plant model is uncertain or unreliable, since they characterize the actual plant empirically rather than relying on a fitted model."
+```
+
 ## Explainer
 
 You already know how a PID controller works: the proportional term responds to the current error, the integral term accumulates past error to eliminate steady-state offset, and the derivative term anticipates future error by reacting to its rate of change. What you may not yet have is a principled way to select the three gains Kp, Ki, and Kd. Trial-and-error on a real plant is slow, risky, and hard to reproduce. Tuning methods replace guesswork with a procedure: measure something about the plant, then apply a formula.

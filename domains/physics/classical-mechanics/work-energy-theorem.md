@@ -34,6 +34,45 @@ Apply the theorem to problems where forces are known and final speed is sought: 
 - Using only some forces when computing net work — all forces, including friction and normal force, must be included.
 - Confusing the work-energy theorem (uses net work) with conservation of energy (separates conservative and nonconservative work).
 
+## Questions
+
+```yaml
+- question: "A book slides across a table. Three forces act on it: gravity (downward), normal force (upward), and friction (backward). Which forces contribute nonzero work to W_net?"
+  type: multiple-choice
+  options:
+    - "Only friction, since it's the only force that changes the book's speed"
+    - "Gravity and friction — normal force contributes nothing to W_net"
+    - "All three forces contribute to W_net"
+    - "Only friction and normal force; gravity cancels since the book stays on the table"
+  answer: 0
+  explanation: "For horizontal motion, both gravity and the normal force are perpendicular to the displacement (cos 90° = 0), so both do zero work. Only friction — acting opposite to displacement — does nonzero (negative) work. So W_net = W_friction alone for this scenario. This is a common misconception trap: W_net includes all forces, but many forces happen to be perpendicular to motion and thus contribute zero. Identifying which forces actually do work requires checking the angle between each force and the displacement."
+
+- question: "The work-energy theorem W_net = ΔKE is best understood as:"
+  type: multiple-choice
+  options:
+    - "A new postulate independent of Newton's laws"
+    - "Newton's second law (F = ma) integrated over displacement rather than time"
+    - "A special case that only applies when no friction is present"
+    - "The statement that total mechanical energy is conserved"
+  answer: 1
+  explanation: "The work-energy theorem is not a separate law — it is derived from F_net = ma. Using the chain rule to write a = v(dv/ds) and integrating both sides over displacement gives ∫F_net ds = ΔKE. It is Newton's second law rewritten in energy terms. This is why it holds whenever F = ma holds, including when friction is present. Option D (energy conservation) is a different, stronger claim that requires separating conservative and nonconservative forces."
+
+- question: "The normal force acting on an object moving across a flat surface does zero work, regardless of how large the normal force is."
+  type: true-false
+  answer: true
+  explanation: "Work is W = F·d·cos θ, where θ is the angle between force and displacement. The normal force is always perpendicular to the surface and therefore perpendicular to the direction of motion (θ = 90°, cos 90° = 0). No matter how large the normal force, it contributes nothing to W_net. This is why pressing down harder on a sliding book doesn't directly change its speed through the work-energy theorem — though it does increase the friction force magnitude, which does negative work."
+
+- question: "The work-energy theorem W_net = ΔKE fails to apply when friction acts, because friction dissipates energy and violates energy conservation."
+  type: true-false
+  answer: false
+  explanation: "The work-energy theorem holds for all forces, including friction. W_net is the total work done by every force, including the negative work done by friction. When friction acts, W_net < 0 and kinetic energy decreases — the theorem correctly accounts for this. The work-energy theorem does NOT require energy conservation; it is more primitive than energy conservation. Energy conservation is a separate (stronger) statement that splits W_net into conservative and nonconservative components."
+
+- question: "Why must you include ALL forces — not just the 'main' applied force — when computing W_net in the work-energy theorem?"
+  type: short-answer
+  answer: "Because ΔKE equals the total work done by every force on the object. W_net is defined as the sum of work contributions from all forces. The theorem derives from F_net = ma, where F_net is the vector sum of all forces. Omitting any force makes W_net incorrect, and the predicted ΔKE will be wrong. For instance, ignoring friction's negative work overestimates the final speed."
+  explanation: "A complete free-body diagram is the essential first step. Every force on the diagram must have its work calculated (W = Fd cos θ), and these are summed to get W_net. Only then does W_net = ΔKE give the correct final kinetic energy. Forces perpendicular to motion contribute zero, but you must check each force — you cannot assume which ones matter without computing the angle."
+```
+
 ## Explainer
 
 You already know that **work** is W = F · d = Fd cosθ for a constant force, and that the **dot product** generalizes this to vectors at arbitrary angles. You also know that **kinetic energy** is KE = ½mv². The work-energy theorem is the mathematical bridge connecting these two quantities, and its derivation reveals why the bridge exists: both work and kinetic energy originate from the same equation — Newton's second law.

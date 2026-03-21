@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Cooking food in a pan with oil over heat creates browning and flavor development. Children learn to control heat, handle hot oil safely, and recognize when vegetables and proteins are cooked through.
 
+## Questions
+
+```yaml
+- question: "A cook places a large batch of mushrooms in a small pan over high heat. Instead of browning, they turn grey and soft and release a lot of liquid. What went wrong?"
+  type: multiple-choice
+  options:
+    - "The heat was too high, burning the mushrooms before they could brown"
+    - "The pan was overcrowded: released moisture couldn't evaporate, keeping the surface below 100°C and preventing the Maillard reaction"
+    - "Mushrooms require slow, low-heat cooking and never brown at high heat"
+    - "The cook should have added the oil after the mushrooms, not before"
+  answer: 1
+  explanation: "When food is overcrowded in a pan, the moisture that food releases accumulates as steam. As long as water is present, the surface temperature is capped near 100°C — far below the ~140°C threshold for the Maillard reaction. The food steams rather than sears. The fix is cooking in smaller batches so moisture evaporates quickly and the surface can climb to browning temperature. This is why 'don't overcrowd the pan' is one of the most repeated rules in cooking."
+
+- question: "A cook wants to achieve a hard sear on steak over very high heat. Which fat is the best choice?"
+  type: multiple-choice
+  options:
+    - "Extra-virgin olive oil — it adds the most flavor and is the default high-quality cooking oil"
+    - "Butter — it is the traditional choice for searing and adds rich flavor"
+    - "Avocado oil or refined vegetable oil — they have high smoke points and can handle searing temperatures"
+    - "Any oil works for a 2-minute sear since the cooking time is too short for smoke points to matter"
+  answer: 2
+  explanation: "Searing requires a very hot pan, and that heat must exceed the fat's smoke point before browning can begin. Extra-virgin olive oil and butter have low smoke points and will burn, producing bitter off-flavors and smoke before the pan reaches searing temperature. High-smoke-point refined oils (avocado, grapeseed, refined vegetable) can handle the required heat. Butter's exceptional flavor can be added as a finishing element near the end of cooking, after the temperature drops."
+
+- question: "Patting meat dry before placing it in a hot pan helps achieve a better browned crust."
+  type: true-false
+  answer: true
+  explanation: "Surface moisture is the primary obstacle to browning. As long as water is present on the food's surface, the surface temperature stays near 100°C (water's boiling point), far below the ~140°C needed for the Maillard reaction. Removing surface moisture by patting dry eliminates this barrier, allowing the surface to reach browning temperature almost immediately upon contact with the hot pan. This is one of the highest-leverage habits in pan cooking."
+
+- question: "Adding a small amount of water to a sauté pan helps speed up browning by creating a humid, hot environment around the food."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true. Water caps the surface temperature at 100°C (its boiling point), which is far below the ~140°C threshold for the Maillard reaction. Adding water — or failing to evaporate the water already in wet food — steams the food rather than browning it. Browning only begins once all surface moisture has evaporated. A humid environment actively prevents the Maillard reaction."
+
+- question: "Explain why an overcrowded pan produces grey, steamed food rather than browning, using what you know about the Maillard reaction."
+  type: short-answer
+  answer: "The Maillard reaction — which creates browning and flavor — requires the food's surface to reach approximately 140°C. Water boils at 100°C, and as long as surface moisture is present, the surface temperature cannot exceed that limit. When a pan is overcrowded, released moisture from the food accumulates as steam around the food rather than evaporating into the air. The food is effectively steaming at 100°C, which prevents the surface from reaching Maillard temperatures. Only by cooking in smaller batches does the moisture evaporate quickly enough for the surface to climb into browning range."
+  explanation: "This is the central physical insight of sautéing: moisture is the enemy of browning. Everything else — drying food beforehand, using a hot pan, not overcrowding — is downstream of this principle. Understanding it lets you diagnose why food steams instead of browns and fix it, rather than just following a rule without knowing why."
+```
+
 ## Explainer
 
 Sautéing is one of the most fundamental cooking techniques because it gives you direct, responsive control over heat at high temperatures. The basic setup — hot pan, oil, food — looks deceptively simple, but real understanding of what's happening at the surface of the pan makes you a better cook than any recipe can.

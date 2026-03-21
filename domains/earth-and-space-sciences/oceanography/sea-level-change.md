@@ -35,6 +35,45 @@ Decompose observed sea-level rise using altimetry data: partition thermal expans
 - Melting sea ice does not raise sea level — it is already floating and displacing its mass.
 - Sea-level rise is not uniform globally — regional variations due to gravity, ocean dynamics, and land motion can be 2–3× the global mean in some locations.
 
+## Questions
+
+```yaml
+- question: "Arctic sea ice melts completely over one summer. What is the direct effect on global mean sea level?"
+  type: multiple-choice
+  options:
+    - "Sea level rises significantly because a large volume of ice has entered the ocean"
+    - "Sea level is unaffected because floating ice already displaces its own mass"
+    - "Sea level falls slightly because meltwater is less dense than seawater"
+    - "Sea level rises modestly due to the freshwater input changing ocean density"
+  answer: 1
+  explanation: "Floating sea ice already displaces a volume of water equal to its own mass (Archimedes' principle). When it melts, it simply fills the space it was already displacing — no net change in sea level. Only land ice (glaciers, ice sheets on bedrock) adds mass to the ocean when it melts. This is the single most common misconception in sea-level discussions."
+
+- question: "A coastal city observes local sea-level rise of 8 mm/year while the global mean is 3.7 mm/year. Which factor best explains this discrepancy?"
+  type: multiple-choice
+  options:
+    - "The city is closer to melting Arctic glaciers, which raises local sea level more"
+    - "Ocean circulation anomalies and land subsidence can produce local rates well above the global mean"
+    - "Satellite altimetry overestimates global mean sea level and the city's measurement is more accurate"
+    - "Thermal expansion affects tropical coasts more than polar coasts"
+  answer: 1
+  explanation: "Sea-level change is not globally uniform. Local relative sea level is modified by land motion (subsidence from groundwater extraction, sediment compaction, tectonics), regional ocean circulation patterns, and the gravity fingerprint of changing ice sheets. Cities like Jakarta and New Orleans experience rates several times the global mean primarily due to land sinking. Counterintuitively, areas near melting ice sheets can actually experience sea-level *fall* because the ice's gravitational pull on the ocean weakens."
+
+- question: "Seawater warms due to absorbed greenhouse gas heat. Even if no ice melts at all, this warming alone raises sea level."
+  type: true-false
+  answer: true
+  explanation: "This is the thermosteric component: warmer water is less dense and therefore occupies more volume, raising the sea surface. The upper 700 meters of the ocean have absorbed the vast majority of excess heat, producing measurable steric expansion. Roughly one-third of observed sea-level rise since the 1990s comes from this thermal expansion alone — no ice melting required."
+
+- question: "Sea-level rise projections for the 21st century show that all coastal locations worldwide will experience roughly the same amount of rise as the global mean."
+  type: true-false
+  answer: false
+  explanation: "Regional sea-level change can deviate substantially from the global mean — by factors of 2–3× in some locations. The reasons include: gravity effects (as Greenland loses mass, its gravitational pull weakens, causing sea level to fall near Greenland but rise more elsewhere), ocean circulation changes, and vertical land motion (uplift or subsidence). This means a global mean of, say, 0.5 m could translate to 0.1 m in some places and over 1 m in others."
+
+- question: "Why does melting land ice raise sea level while melting sea ice does not? What physical principle governs the difference?"
+  type: short-answer
+  answer: "Sea ice is already floating in the ocean and displacing a volume of water equal to its own mass (Archimedes' principle), so when it melts it simply fills the space it occupied — no net addition to ocean volume. Land ice (glaciers, ice sheets) is sitting on bedrock above sea level; when it melts, that water flows into the ocean as a new mass addition, raising sea level."
+  explanation: "The key distinction is whether the ice is already in the ocean or on land. A floating object in equilibrium displaces its own weight in fluid — melting it changes the phase but not the displaced volume. Land ice, however, represents water that has been removed from the ocean cycle and stored on continents; returning it to the ocean raises total ocean volume. This is why GRACE satellite gravity measurements track land ice loss separately and why it matters so much for projections."
+```
+
 ## Explainer
 
 From your prerequisites in climate science and marine heat content, you know that the ocean absorbs the vast majority of excess heat trapped by greenhouse gases and that this stored heat has enormous thermal inertia. Sea-level change is one of the most direct physical consequences of that heat absorption. The mechanism is straightforward: when water warms, it expands. This **thermosteric component** accounts for roughly one-third of observed sea-level rise since the 1990s. No ice needs to melt — simply heating the existing ocean volume raises its surface. The effect is strongest in the upper 700 meters where most warming has occurred, but deep-ocean warming increasingly contributes as heat penetrates downward over decades.

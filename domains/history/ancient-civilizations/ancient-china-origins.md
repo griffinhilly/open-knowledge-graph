@@ -34,6 +34,45 @@ Oracle bone inscriptions make excellent primary source exercises: they record di
 - 'Chinese civilization' is not monolithic; the Shang and Zhou were ethnically and culturally distinct from later dynasties.
 - The Mandate of Heaven was a Zhou political innovation used to justify their overthrow of the Shang—it was political theory, not ancient tradition.
 
+## Questions
+
+```yaml
+- question: "The Zhou Dynasty overthrew the Shang and needed to justify their seizure of power. Their solution was the Mandate of Heaven. What did this doctrine accomplish politically?"
+  type: multiple-choice
+  options:
+    - "It established that all Chinese dynasties were divinely eternal and could not be overthrown"
+    - "It reframed the Zhou conquest as Heaven's judgment against a corrupt Shang king, making rebellion into righteous order-restoration"
+    - "It gave the Zhou king direct priestly authority over religious ceremonies, replacing Shang diviners"
+    - "It claimed the Zhou were direct descendants of the Shang royal line and therefore legitimate heirs"
+  answer: 1
+  explanation: "The Mandate of Heaven solved a specific legitimacy problem: the Zhou had conquered a dynasty with divine sanction. By arguing that Heaven grants rule to the virtuous and withdraws it from the corrupt, the Zhou could present their conquest not as rebellion but as Heaven's own verdict against the depraved last Shang king. This doctrine simultaneously justified the Zhou takeover, established a moral framework for legitimate rule, and provided a template for explaining every subsequent dynastic change — any conqueror could claim Heaven had transferred its mandate."
+
+- question: "Oracle bone inscriptions from the Shang Dynasty are particularly valuable as historical sources for which reason?"
+  type: multiple-choice
+  options:
+    - "They contain narrative histories of Shang military campaigns written by court historians"
+    - "They record direct royal queries and sometimes outcomes, offering unmediated access to royal concerns rather than later retrospective accounts"
+    - "They were written in classical Chinese identical to the language used by Confucius and later historians"
+    - "They were discovered in such large quantities that historians can reconstruct the complete Shang legal code"
+  answer: 1
+  explanation: "Oracle bones are extraordinary precisely because they are not polished retrospective narratives — they are direct records of Shang kings consulting divinity about specific, immediate concerns: military campaigns, agricultural forecasts, the king's health. This immediacy is rare in ancient history. Most ancient sources are written well after the fact, shaped by the concerns of later audiences. Oracle bones give historians a window into royal anxiety and aspiration in the moment. They are also the earliest Chinese writing, making them foundational for understanding the origins of Chinese script."
+
+- question: "The Mandate of Heaven was an ancient Chinese religious tradition that predated both the Shang and Zhou dynasties."
+  type: true-false
+  answer: false
+  explanation: "The Mandate of Heaven was a Zhou political innovation, invented specifically to justify the Zhou overthrow of the Shang. The Shang claimed divine sanction through their own ritual practices (including oracle bone divination). When the Zhou needed to explain why they could legitimately replace a divinely sanctioned dynasty, they created the Mandate of Heaven doctrine. Framing it as ancient tradition was part of its rhetorical power — but it was, in fact, a new political theory."
+
+- question: "The political fragmentation of the Warring States period had a negative effect on Chinese intellectual life, suppressing the philosophical creativity of the era."
+  type: true-false
+  answer: false
+  explanation: "This gets the relationship backwards. The political fragmentation of the Warring States period actually generated enormous philosophical creativity. Competing states created intense demand for advisors offering practical wisdom on governance, diplomacy, and statecraft. This 'intellectual market' is what produced Confucianism, Daoism, and Legalism. The Zhou era is simultaneously China's greatest political fragmentation and its greatest philosophical creativity — a pattern that echoes in other civilizations. Political crisis and intellectual flourishing were causally linked, not opposed."
+
+- question: "Why was the Mandate of Heaven a more powerful political doctrine than simply claiming 'we won the war, therefore we rule'? What did it add that made it useful for centuries of subsequent Chinese dynasties?"
+  type: short-answer
+  answer: "Victory in war alone only explains why the current ruler holds power — it does not explain why that is legitimate or what would make it illegitimate. The Mandate of Heaven added a moral framework: Heaven grants rule to the virtuous and withdraws it from the corrupt. This meant any future conqueror could also claim Heaven's mandate (justifying their own takeover), while rulers were incentivized to govern virtuously (lest they appear to be losing Heaven's favor). The doctrine also provided a theoretical explanation for natural disasters and social disorder as signs of Heaven's displeasure, giving political meaning to otherwise random events. Every subsequent Chinese dynasty that replaced its predecessor could invoke the same template."
+  explanation: "The doctrine's durability came from its structural generalizability — it could justify any successful transfer of power while condemning any predecessor as corrupt. It also provided a feedback mechanism linking governance quality to political stability in the public imagination, which served both rulers (who could cite it as motivation for good rule) and subjects (who could use it to frame resistance against tyranny as Heaven's will)."
+```
+
 ## Explainer
 
 You've learned to use periodization as an organizing tool — dividing history into phases with identifiable characteristics and transition points. China's Shang and Zhou dynasties are foundational periods that established patterns of political organization, writing, and philosophical thought that persisted for over three millennia. But appreciating them requires resisting a natural assumption: that "ancient Chinese civilization" was always essentially what China became. The Shang were not proto-Han Chinese ruling over a unified China — they were one of several competing regional powers in the North China Plain, distinguished by their material culture, religious practices, and eventually their writing system.

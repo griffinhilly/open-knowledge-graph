@@ -32,6 +32,45 @@ Compare literary canons across countries and time periods. Which authors appear 
 ## Common Misconceptions
 That expanding the canon is an objective good. While canon expansion can challenge dominance, it risks co-opting or depoliticizing texts, absorbing critique into the system. Canon formation itself may be the problem.
 
+## Questions
+
+```yaml
+- question: "A university expands its world literature curriculum to include more authors from Africa, Asia, and Latin America. A critic argues this reform, while valuable, does not fundamentally challenge the logic of canon formation. What would most strongly support this critique?"
+  type: multiple-choice
+  options:
+    - "Adding too many different literary traditions will overwhelm students and dilute deep study"
+    - "Non-Western literary traditions have less historical depth than European ones"
+    - "The criteria for what counts as 'excellent literature' remain intact — the same gatekeeping logic is applied to a new group of texts, leaving the underlying assumptions about literary merit unchanged"
+    - "Curriculum changes are too slow to reflect real shifts in literary culture"
+  answer: 2
+  explanation: "The critical insight about canon expansion is that including new texts within an existing evaluative framework can absorb and neutralize critique. If 'universality,' 'formal complexity,' and 'literary excellence' remain defined by historically specific (and often Eurocentric) standards, adding Toni Morrison to a curriculum that retains those standards doesn't challenge the system — it just applies the same logic more broadly."
+
+- question: "Which factor most directly explains why texts by white European men dominated historical Western literary canons?"
+  type: multiple-choice
+  options:
+    - "These works were objectively superior by universal aesthetic standards that transcend culture"
+    - "European literary traditions are older and therefore had more time to develop excellence"
+    - "Gatekeeping decisions — which texts get published, kept in print, anthologized, and assigned — were made by people who found texts legible and valuable within their own cultural frameworks"
+    - "Non-Western literary traditions lacked written forms until the modern period"
+  answer: 2
+  explanation: "Canon formation is a social process: publishers, professors, anthologists, and curriculum committees each make decisions that favor texts already legible within their own aesthetic frameworks. This is not a conspiracy but a structural dynamic — people tend to canonize what they can evaluate and what resonates with their existing criteria. Option A assumes the very thing canon theory questions: that objective literary merit determines canonization."
+
+- question: "A text enters the literary canon primarily through recognition of its intrinsic literary merit by critics and scholars who evaluate it on objective aesthetic grounds."
+  type: true-false
+  answer: false
+  explanation: "This is the dominant misconception canon theory dismantles. Canon entry is a compound social process: a publisher keeps the text in print, a professor assigns it, an anthologist includes it, a critic writes an essay that others cite, a curriculum committee selects it for standardized syllabi. Each step is a gatekeeping decision made by a person with a particular institutional position, cultural background, and set of values. 'Intrinsic merit' turns out to be 'merit as judged within a historically specific evaluative framework.'"
+
+- question: "Different historical periods can canonize different texts from the same literary era, depending on the evaluative criteria dominant in each period."
+  type: true-false
+  answer: true
+  explanation: "The Victorian period valued moral seriousness and national identity; mid-20th-century American academia prized formal complexity and irony. The same body of, say, 18th-century literature looks very different under each set of criteria — some texts get elevated, others dismissed. This historical variability is itself evidence that canonization reflects the values of the canonizers, not the fixed properties of the texts."
+
+- question: "Why might simply adding more diverse authors to an existing literary canon fail to challenge the power structures embedded in canon formation?"
+  type: short-answer
+  answer: "If the criteria for literary 'excellence' remain unchanged — developed within specific historical and often colonial contexts — then expanding the membership of the canon just applies the same gatekeeping logic to new texts. The institutional structure of authority (who decides, by what standards, for what purposes) is preserved even as the demographics of included authors shift. The most fundamental critique targets not who is in the canon but why canons of authoritative texts exist at all and who benefits from them."
+  explanation: "This is sometimes called 'liberal inclusion' — it appears progressive while leaving the underlying hierarchy intact. True challenges to canon formation question the standards of evaluation themselves and the institutional power to declare certain texts foundational."
+```
+
 ## Explainer
 
 From your work with literary criticism and new historicism, you know that texts do not exist in a vacuum — they are produced within historical conditions that shape what gets written and how it is read. Canon formation is where that insight becomes institutional. The **literary canon** is the set of texts a culture treats as foundational: the ones taught in schools, anthologized, translated, celebrated, and used to define literary excellence. From inside the canon, it can feel like a simple list of the best books. From outside it, the process of selection is far more visible — and far more political.

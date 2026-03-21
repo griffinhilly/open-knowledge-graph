@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 Critical theory examines how literature reflects, contests, and produces meaning within power structures, ideologies, and social systems. It moves beyond analyzing what texts say to investigating how they work ideologically and culturally. The field encompasses Marxist, psychoanalytic, feminist, postcolonial, and post-structuralist approaches to understanding literary texts as sites of cultural struggle.
 
+## Questions
+
+```yaml
+- question: "A student reads a 19th-century novel and asks: 'What is the author trying to say about human nature?' A critical theorist would characterize this question as:"
+  type: multiple-choice
+  options:
+    - "The right starting point — recovering authorial intent is the core task of literary analysis"
+    - "A question that itself embeds assumptions worth examining — about authors having recoverable intentions and texts having unified meanings"
+    - "Irrelevant — critical theory ignores the text entirely in favor of social context"
+    - "Correct but incomplete — the theorist would simply add a political reading on top of the interpretive one"
+  answer: 1
+  explanation: "Critical theory begins by questioning the questions we normally ask about literature. The assumption that authors have intentions we can recover, and that texts have unified meanings, are themselves ideological positions worth examining. A critical theorist doesn't just add political analysis on top (option D) — they interrogate the interpretive framework itself. Nor do they ignore the text (option C); the most powerful critical readings attend closely to textual detail while asking how it operates ideologically."
+
+- question: "A Marxist literary critic reads a Victorian novel. Which activity best describes their approach?"
+  type: multiple-choice
+  options:
+    - "Summarizing the class dynamics depicted in the plot to show the author was aware of inequality"
+    - "Examining how the novel's form and content naturalize bourgeois social relations and what gets made invisible in the process"
+    - "Arguing the novel is aesthetically inferior because it fails to challenge capitalist ideology"
+    - "Comparing the author's biography to the text to explain why class appears as a theme"
+  answer: 1
+  explanation: "A Marxist critical reading examines how the text works ideologically — how it naturalizes or contests capitalist social relations, how the novel as a genre developed alongside bourgeois culture, and what perspectives get excluded or made invisible. This is distinct from summarizing plot-level class content (option A) or biographical explanation (option D). Critical theory treats the text as a window onto the ideological systems producing it, not just a story with social themes."
+
+- question: "Critical theory deepens reading by multiplying the questions you can ask about a text, rather than replacing aesthetic attention with political suspicion."
+  type: true-false
+  answer: true
+  explanation: "The explainer explicitly makes this point: critical theory initially feels like it attacks the pleasure of reading, but the fuller picture is the opposite. Asking 'whose perspective does this naturalize?' or 'what is structurally excluded?' adds a dimension rather than replacing attention to form and language. The most powerful critical readings show how textual detail and ideological structure illuminate each other."
+
+- question: "The major theoretical schools — Marxism, psychoanalysis, feminism, postcolonialism — are essentially competing frameworks where a reader picks whichever matches their political commitments."
+  type: true-false
+  answer: false
+  explanation: "Each school illuminates different dimensions of literary meaning, and each has a genealogy rooted in specific intellectual and political history. Understanding why a framework emerged is inseparable from understanding what it does. The schools are not interchangeable preferences — they are tools designed to ask different questions, and understanding their origins is part of understanding their methods."
+
+- question: "What is the fundamental shift in object of analysis that distinguishes critical theory from traditional literary criticism?"
+  type: short-answer
+  answer: "Traditional literary criticism analyzes a text to illuminate its meaning, characters, structure, and themes. Critical theory shifts the object of analysis to the ideological systems that produce both the text and our ways of reading it. Instead of asking 'what does this text mean?' critical theory asks 'what assumptions about meaning, authorship, and value does this reading practice embed, and what purposes do those assumptions serve?'"
+  explanation: "This shift turns the lens from the text itself onto the frameworks we bring to reading — assumptions about authorship, intention, aesthetic value, and meaning that we usually treat as neutral but that critical theory treats as historically and ideologically produced. This is why critical theory can simultaneously produce sharper readings of individual texts and challenge the criteria by which we evaluate them."
+```
+
 ## Explainer
 
 Most people come to literature through a question: "What does this story mean? Is it good? What is the author trying to say?" Critical theory begins by questioning those questions. It asks instead: why do we read texts this way? What assumptions are baked into the idea that texts have unified meanings, that authors have intentions we can recover, that "good literature" is a stable and universal category? **Critical theory** is the practice of making those assumptions visible — and examining what purposes they serve.

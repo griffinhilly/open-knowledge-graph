@@ -30,6 +30,45 @@ Study anesthesia's neural effects using electrophysiology and imaging. Examine s
 ## Common Misconceptions
 Consciousness is localized to one brain region / anesthetics work by depressing the whole brain equally / consciousness is uniquely human / the binding problem has a simple solution.
 
+## Questions
+
+```yaml
+- question: "A patient under general anesthesia shows normal activity in their primary visual cortex when shown a flashing light, but reports no conscious perception when later awakened. Which explanation is most consistent with global workspace theory?"
+  type: multiple-choice
+  options:
+    - "The primary visual cortex is the seat of visual consciousness, so its activity should have produced awareness — something else must be wrong"
+    - "The anesthetic damaged the visual cortex, preventing full processing of the stimulus"
+    - "The visual signal was processed locally but not broadcast widely to frontal and parietal regions, so it never entered conscious awareness"
+    - "Consciousness requires the thalamus to be completely inactive, and the thalamus was undamaged in this patient"
+  answer: 2
+  explanation: "Global workspace theory holds that information becomes conscious only when it is broadcast widely across a long-range network (frontal, parietal, thalamic regions). Local processing in primary visual cortex without global broadcast means the signal stays 'in one office' without reaching the intercom — processing occurs but no awareness results. This finding is exactly what GWT predicts and has been confirmed in studies of anesthesia and inattentional blindness."
+
+- question: "What does the 'binding problem' refer to in the neuroscience of consciousness?"
+  type: multiple-choice
+  options:
+    - "The difficulty of measuring neural activity non-invasively in a living, moving subject"
+    - "How diverse features processed in separate brain regions come together into a single, unified experience"
+    - "The challenge of explaining how individual memories are stored across distributed synaptic connections"
+    - "How the brain links causes to effects during sequential reasoning tasks"
+  answer: 1
+  explanation: "Your visual cortex processes color and shape in different subregions; your auditory cortex handles sound; your memory systems draw on the past. The binding problem asks: how do all these separate processes cohere into the single unified 'scene' you experience right now? No one region receives all this information and combines it — the integration must be a dynamic, network-level phenomenon. It remains partially unsolved because we lack a complete account of how distributed processing generates unified phenomenal experience."
+
+- question: "General anesthetics work by uniformly suppressing all neural activity across the brain, equivalent to cutting the power to an entire building."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception. Modern anesthetics selectively disrupt thalamocortical coupling and long-range corticocortical communication while leaving many local circuits intact — primary sensory cortices continue to respond to stimuli under anesthesia, and local processing continues in many regions. The 'lights go out' not because all power is cut, but because the intercom (the global broadcast network) is severed. This selectivity is what distinguishes surgical anesthesia from brain death."
+
+- question: "According to global workspace theory, what makes working memory in prefrontal and parietal cortex a plausible neural correlate of conscious experience is that these systems actively maintain and broadcast information to widespread brain regions."
+  type: true-false
+  answer: true
+  explanation: "GWT proposes that consciousness corresponds to the global workspace — the network of frontal and parietal regions that can hold information 'online' and distribute it widely to other systems. Working memory is precisely this kind of active, broadly accessible maintenance. Evidence supports this: disrupting prefrontal activity (through TMS, lesions, or anesthesia) reduces conscious access to information without necessarily destroying sensory processing itself."
+
+- question: "Why does the absence of a single 'consciousness center' in the brain support global workspace theory rather than challenge it?"
+  type: short-answer
+  answer: "Global workspace theory predicts that consciousness should NOT be localized to any single region, because it is a network property — the broadcast capacity of a distributed system — not a location. If there were one region whose destruction reliably eliminated all awareness, that would actually support localization theories and challenge GWT. The fact that different lesions produce different deficits in awareness, and that consciousness is disrupted by severing long-range connections rather than eliminating specific areas, is precisely what GWT predicts."
+  explanation: "This insight reframes what initially looks like a weakness of neuroscience (no 'consciousness seat' found) as a confirmation of the best available theory. The analogy is apt: a public address system has no single 'sound location' — its broadcast property is distributed across the network. Damaging the transmitters or cutting the wiring to specific rooms disrupts the broadcast in different ways, but no single room *is* the PA system."
+```
+
 ## Explainer
 
 From your study of brain structure and functional localization, you already know that different regions handle different jobs — visual processing in occipital cortex, language in temporal-frontal networks, motor planning in frontal cortex. This creates a puzzle: if perception, memory, and action are distributed across dozens of separate regions, how do they come together into a single, unified experience right now? That is the **binding problem**, and it is the deepest question in the neuroscience of consciousness.

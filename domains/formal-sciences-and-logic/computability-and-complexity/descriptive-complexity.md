@@ -29,6 +29,45 @@ Start with Fagin's theorem: express graph 3-colorability in existential second-o
 - Descriptive complexity does not give a new way to separate complexity classes — the logical characterizations are equivalences, so separating P from NP via this route would require separating the corresponding logics, which is equally hard.
 - The results typically require ordered structures (a built-in linear order on the universe); without order, the correspondence between logic and complexity breaks down for some classes.
 
+## Questions
+
+```yaml
+- question: "Fagin's theorem says NP is exactly the class of properties expressible in existential second-order logic (ESO). In ESO, you existentially quantify over relations. What does this correspond to in NP computation?"
+  type: multiple-choice
+  options:
+    - "The deterministic verification step that checks whether a given certificate is valid"
+    - "The nondeterministic guess — the witness structure that NP computation existentially produces before verifying"
+    - "The polynomial time bound on the verification procedure"
+    - "The encoding of the input as a finite relational structure"
+  answer: 1
+  explanation: "In NP, a machine nondeterministically guesses a certificate (e.g., a coloring, a Hamiltonian path, a satisfying assignment) and then verifies it in polynomial time. In ESO, you existentially quantify over relations — you say 'there exist relations R₁, R₂, ... such that [first-order condition holds].' The existentially quantified relations are the certificate. The first-order condition is the verifier. For 3-colorability, the guessed relations are the three color sets; the first-order check verifies no edge is monochromatic. This direct correspondence — guess = existential quantification, verify = first-order check — is the content of Fagin's theorem."
+
+- question: "A researcher hopes that Fagin's theorem gives a new, simpler route to proving P ≠ NP: just exhibit a property in ESO (NP) that cannot be expressed in LFP (P). Why is this hope misguided?"
+  type: multiple-choice
+  options:
+    - "Because ESO and LFP are actually equal in expressive power, so no such property exists"
+    - "Because separating ESO from LFP on ordered structures is precisely equivalent in difficulty to separating P from NP — the logical route provides no shortcut"
+    - "Because descriptive complexity results only characterize problems over unordered structures"
+    - "Because LFP cannot express any NP problem, so the comparison is vacuous"
+  answer: 1
+  explanation: "The logical characterizations are equivalences: ESO = NP and LFP = P (on ordered structures). Separating ESO from LFP would be a valid proof of P ≠ NP. But this is not a simplification — the logical and computational versions of the question are equally hard. Proving ESO ⊃ LFP in terms of expressive power requires exactly the same insights as proving P ≠ NP by machine-based arguments. Descriptive complexity gives a new lens on the problem, not a new handhold for climbing it."
+
+- question: "Fagin's theorem shows that NP can be characterized entirely in terms of logical expressibility, without any reference to Turing machines or time bounds."
+  type: true-false
+  answer: true
+  explanation: "This is the foundational result of descriptive complexity. Fagin's theorem (1974) proves that a property of finite structures is in NP if and only if it is expressible in existential second-order logic. The definition mentions no machines, no time steps, no resource bounds — only the logical vocabulary needed to describe the property. This machine-free characterization reveals that computational complexity has a deep logical dimension: NP is not just 'what nondeterministic machines solve in polynomial time' but 'what can be existentially described in second-order logic.'"
+
+- question: "The correspondence between logical expressibility and computational complexity holds for all finite structures, regardless of whether a linear order on the universe is assumed."
+  type: true-false
+  answer: false
+  explanation: "The result that LFP (least fixed-point logic) captures P requires ordered structures — a built-in linear order on the domain. Without ordering, a machine can use position indices (time step → position in the order) to simulate computation, but a logical formula over an unordered structure cannot count or simulate indexed operations. Some correspondences break down without order: for example, there are graph properties in P (like checking if a graph is connected) that are not definable in LFP over unordered structures because LFP cannot count. Fagin's theorem (ESO = NP) is more robust to this issue, but ordering is still crucial for the full hierarchy of characterizations."
+
+- question: "In Fagin's theorem, why does existential quantification over relations in ESO correspond naturally to the nondeterministic guess in NP? Give a concrete example."
+  type: short-answer
+  answer: "In NP, a nondeterministic machine guesses a witness structure — a certificate — and then verifies it in polynomial time. In ESO, you write 'there exist relations R₁, ..., Rₖ such that [first-order property holds].' The existentially quantified relations are the certificate; the first-order property is the verifier. The natural pairing is: nondeterministic guess = existential quantification over the witness; polynomial-time verification = first-order check (which corresponds to bounded quantification over the input). For 3-colorability: in ESO, you write 'there exist sets R, G, B such that every vertex is in exactly one set AND for every edge (u,v), u and v are not both in the same color set.' The sets R, G, B are the color assignment (the guess); the conditions on them are the polynomial-time check. Every NP problem follows this ESO pattern."
+  explanation: "The power of Fagin's theorem is that it makes explicit what was implicit in NP: the nondeterministic 'guess' is exactly the existential quantification over a relational structure, and the 'verify' step is a first-order (polynomial-time checkable) condition. This reframes NP as a logical concept rather than a machine-based one."
+```
+
 ## Explainer
 
 You already know that NP is the class of problems solvable in polynomial time on a nondeterministic machine — equivalently, problems where a solution can be *verified* in polynomial time. Descriptive complexity asks a completely different question: can we characterize NP not by how fast we can solve it, but by *what logical language is powerful enough to express its properties*? The answer, given by Fagin's theorem in 1974, is yes. **Existential second-order logic (ESO)** — where you can existentially quantify over relations in addition to individuals — captures NP exactly. This is a machine-free, purely logical characterization of a computational complexity class.

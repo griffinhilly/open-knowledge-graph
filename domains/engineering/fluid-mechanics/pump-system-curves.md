@@ -31,6 +31,45 @@ Plot a pump curve and a system curve on the same H-Q axes and identify the opera
 - NPSH_available decreasing below NPSH_required does not immediately destroy the pump. It causes cavitation — vapor bubble formation and collapse — which initially reduces performance (head and flow drop) and over time causes erosion damage to impeller surfaces.
 - Running a pump at shut-off (zero flow, maximum head) or at run-out (maximum flow, near-zero head) are both damaging. At shut-off, all energy goes to heating the fluid; at run-out, NPSH margin vanishes and structural loads increase. Pumps should operate near their best efficiency point (BEP).
 
+## Questions
+
+```yaml
+- question: "An operator partially closes a valve downstream of a centrifugal pump. What happens to the pump curve, the system curve, and the operating point?"
+  type: multiple-choice
+  options:
+    - "The pump curve shifts upward (pump works harder against the closed valve), system curve unchanged, operating point moves to higher flow and head"
+    - "The pump curve is unchanged; the system curve steepens (more friction loss at any Q); the operating point shifts to lower flow and higher head"
+    - "The pump curve steepens; the system curve steepens; the operating point moves to higher flow and lower head"
+    - "Both curves shift upward proportionally; the operating point remains at the same flow rate but higher head"
+  answer: 1
+  explanation: "Throttling a valve does NOT change the pump curve — the pump's head-flow characteristic depends on impeller speed and geometry, not on downstream conditions. Closing a valve increases resistance in the system, increasing the coefficient k in H_sys = H_static + kQ². This steepens the system curve (more head required at any given flow rate). The new intersection of the unchanged pump curve with the steeper system curve is at a lower flow rate and higher head. This is a common misconception: operators often think they are 'making the pump work harder,' but they are actually causing it to operate at a different point on its existing curve."
+
+- question: "A pump is drawing water from a reservoir with a suction lift of 5 meters. The operator raises the pump installation height, increasing the suction lift to 8 meters. All else equal, what happens to NPSH_available?"
+  type: multiple-choice
+  options:
+    - "NPSH_available increases because the pump inlet velocity must be higher to draw fluid upward"
+    - "NPSH_available is unchanged because NPSH depends only on the fluid's vapor pressure"
+    - "NPSH_available decreases because the static pressure at the pump inlet falls as suction lift increases"
+    - "NPSH_available decreases only if the fluid temperature also increases"
+  answer: 2
+  explanation: "NPSH_available = (P_inlet − P_vapor)/(ρg) + V²/(2g). P_inlet = P_atm − ρg·z_suction, where z_suction is the vertical distance the fluid must be lifted. As suction lift increases, P_inlet decreases, so NPSH_available decreases. If NPSH_available falls below NPSH_required (the manufacturer's minimum), cavitation begins: the fluid boils at the impeller inlet, forming vapor bubbles that collapse violently, eroding the impeller. This is why suction lift is strictly limited, and why hot fluids (high vapor pressure) or high altitudes (low atmospheric pressure) further reduce the margin."
+
+- question: "Throttling a control valve downstream of a centrifugal pump changes the pump's operating characteristic curve, shifting its head-flow relationship."
+  type: true-false
+  answer: false
+  explanation: "Throttling a valve changes the SYSTEM curve, not the pump curve. The pump curve is determined by the pump's impeller geometry and rotational speed — it is a physical property of the pump hardware. The system curve describes what the piping network demands. Throttling adds resistance to the system, steepening the system curve (more head required at any given flow). The operating point — the intersection of pump and system curves — moves to lower flow and higher head, but the pump is still operating on the same pump curve. Only changing impeller speed, impeller diameter, or using a different pump can shift the pump curve."
+
+- question: "Two identical centrifugal pumps operating in parallel (with both pumping into the same discharge header) will together deliver approximately twice the flow rate at the same head as a single pump."
+  type: true-false
+  answer: true
+  explanation: "Parallel operation adds the pumps' flows at each head value — the combined pump curve is constructed by doubling the flow at every head. This is correct because each pump still produces the same head (determined by impeller speed and geometry), but both contribute flow. The actual operating point depends on where this doubled-flow curve intersects the system curve, which typically results in somewhat less than double the flow (because higher flow increases system friction losses, moving up the steepened system curve). In series operation, the combined curve is constructed by adding heads at each flow value, which increases head at the same flow — appropriate for high-head, lower-flow applications."
+
+- question: "Explain why you cannot independently choose both the flow rate and the head in a centrifugal pump system once the pump and piping system are fixed. What determines the actual operating condition?"
+  type: short-answer
+  answer: "The operating point is determined by physics, not choice. The pump curve — the head the pump supplies at each flow rate — is fixed by impeller speed and geometry. The system curve — the head the system demands at each flow rate — is fixed by static head and pipe resistance. The fluid settles at the flow rate where supply exactly equals demand (the intersection). If flow were above the intersection, the system would demand more head than the pump provides and flow would slow; if below, the pump would push harder than needed and flow would speed up. This self-correcting behavior locks the system to the intersection. To change flow, you must change one of the curves — by throttling (steepening system curve), changing pump speed (shifting pump curve), or modifying the piping."
+  explanation: "The key insight is that the operating point is an emergent consequence of two physical constraints interacting, not a free parameter. This is why engineers must size pumps carefully: you cannot simply buy a 'bigger' pump to get more flow, because a more powerful pump on the same system curve will move the operating point along the system curve, giving more flow but also more head than needed. Proper pump selection requires matching the pump curve to the system curve so that their intersection falls near the pump's best efficiency point (BEP), where the pump operates most efficiently and reliably."
+```
+
 ## Explainer
 
 From your work on pipe system losses, you know that moving fluid through a network requires overcoming two kinds of resistance: static head (the elevation and pressure difference between source and destination) and dynamic head losses (the friction and minor losses that grow with flow rate). Together these define what the *system* demands from a pump at any given flow rate. From your introduction to hydraulic machinery, you have a sense of how a centrifugal pump works — an impeller spins, imparting kinetic energy to the fluid, which is converted to pressure in the volute. The **pump curve** captures that capability: it plots the head H the pump delivers against the volumetric flow rate Q. Centrifugal pump curves are characteristically drooping — high head at low flow, decreasing head as flow increases. This shape reflects the physics: at zero flow, all the impeller energy goes to pressure; as flow increases, friction and incidence losses mount.

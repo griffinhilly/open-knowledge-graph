@@ -27,6 +27,45 @@ Compare your intuitive estimate of a risk (e.g., terrorism, shark attacks, heart
 - Assuming the availability heuristic only affects uneducated people — experts in fields like medicine and law are also susceptible when making quick judgments.
 - Thinking the solution is to ignore intuition entirely; the goal is to recognize when ease of recall is a poor proxy for frequency and supplement with data.
 
+## Questions
+
+```yaml
+- question: "After watching a week of television news featuring dramatic coverage of house fires, a person estimates that house fires are a leading cause of accidental death, surpassing falls. In reality, falls kill far more people. What best explains this misjudgment?"
+  type: multiple-choice
+  options:
+    - "The person has a rare phobia of fire that distorts their risk perception"
+    - "News coverage of fires is a reliable indicator of their relative frequency and danger"
+    - "Vivid, dramatic media coverage made house fires highly salient in memory, inflating their perceived frequency via the availability heuristic"
+    - "The person is applying the representativeness heuristic, matching fires to a prototype of dangerous events"
+  answer: 2
+  explanation: "The availability heuristic leads people to estimate frequency based on how easily examples come to mind. Dramatic media coverage of fires makes them highly salient — easily recalled — regardless of their actual statistical frequency. Falls, which kill far more people, receive little media coverage because individual falls are mundane. The mechanism: recall ease is used as a proxy for frequency, but recall ease is corrupted by vividness and media exposure, not just actual occurrence rates."
+
+- question: "An expert physician reads vivid case studies about a rare tropical disease. Afterward, when seeing patients with ambiguous symptoms, she diagnoses this disease more frequently than the base rate would justify. This demonstrates:"
+  type: multiple-choice
+  options:
+    - "Experts are immune to the availability heuristic within their domain of expertise"
+    - "The availability heuristic only distorts judgment about rare diseases, not common ones"
+    - "Vividness of case studies increases the salience of rare conditions, making the availability heuristic affect expert judgment"
+    - "The physician is applying Bayesian reasoning correctly by updating on recent evidence from case studies"
+  answer: 2
+  explanation: "The availability heuristic affects experts and novices alike. Vivid case studies make a rare diagnosis highly salient — easily recalled — inflating its perceived prevalence in the physician's judgment. This is not Bayesian updating (option D) because the case studies don't represent a valid sample of the population the physician is treating; they are memorable but unrepresentative. The corrective is to supplement vivid cases with base-rate data about how frequently the disease actually appears."
+
+- question: "The availability heuristic is a reliable mental shortcut in all situations — ease of recall always tracks actual frequency."
+  type: true-false
+  answer: false
+  explanation: "The availability heuristic is roughly reliable when recall ease genuinely tracks frequency — when things that happen often leave stronger memory traces because of repeated exposure. It fails systematically when recall ease is inflated by factors unrelated to frequency: vividness, emotional intensity, media coverage, and recency. These make certain events highly salient regardless of how often they actually occur. The heuristic is not universally unreliable — it's specifically unreliable when recall ease and actual frequency diverge."
+
+- question: "After a major earthquake, people typically purchase earthquake insurance at elevated rates, then gradually stop renewing it as time passes — even though the underlying seismic risk has not changed. This pattern is consistent with the availability heuristic's recency effect."
+  type: true-false
+  answer: true
+  explanation: "The earthquake is a recent, vivid event that makes the risk of earthquakes highly available in memory. As time passes and the event recedes, availability declines — fewer examples spring to mind — so the perceived probability drops and insurance renewal falls. The actual seismic risk (based on geology and fault lines) has not changed. This illustrates how recency, independent of actual probability change, drives availability-based probability judgments."
+
+- question: "What is the specific mechanism of the availability heuristic, and why does it produce systematic errors for dramatic events while being roughly accurate for mundane ones?"
+  type: short-answer
+  answer: "The mechanism is using recall ease as evidence of frequency: if examples come to mind easily, the event is judged as common; if they come with effort, it's judged as rare. For mundane events, recall ease roughly tracks frequency — things that happen often leave more memory traces. But recall ease is also inflated by vividness, recency, and media exposure, which are independent of frequency. Dramatic events get outsized media coverage and generate vivid memories, making them highly available even though they're statistically rare. This inverts the heuristic: the most memorable events are often the rarest, causing systematic overestimation of low-probability dramatic risks."
+  explanation: "The corrective is not to ignore intuition but to ask: 'Is my recall of this event influenced by vividness or media coverage rather than actual frequency?' When the answer is yes — when something is memorable because it is dramatic, not because it is common — supplement availability-based intuition with base-rate statistics. The goal is calibration: using the heuristic where it's reliable and overriding it with data where it's not."
+```
+
 ## Explainer
 
 From your work on cognitive biases, you know that the human mind uses mental shortcuts — **heuristics** — to make judgments quickly without doing exhaustive analysis. These shortcuts work well most of the time, but they create predictable, systematic errors when the conditions that make them reliable break down. The availability heuristic is one of the most influential and well-studied of these shortcuts: we estimate how likely or frequent something is by asking how easily examples spring to mind. If examples come easily, we judge the thing as common; if they come with effort, we judge it as rare.

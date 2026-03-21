@@ -29,6 +29,45 @@ Trace child development: how does role-play build the self? How do children inte
 ## Common Misconceptions
 Mead isn't saying society simply determines the self—people actively interpret and modify social expectations through interaction.
 
+## Questions
+
+```yaml
+- question: "A child is about to grab a toy from another child. Before doing so, she pauses, imagines what her teacher would think, and puts the toy back. Which Meadean concept best explains this moment of self-regulation?"
+  type: multiple-choice
+  options:
+    - "The 'I' — the spontaneous, unsocialized acting self responding to the situation"
+    - "The generalized other — the internalized social standpoint checking the impulse to grab"
+    - "Role-taking — the child imaginatively taking the toy-owner's perspective"
+    - "Symbolic interactionism — the child decoding the social meaning of the toy exchange"
+  answer: 1
+  explanation: "The child is not imagining a specific person's reaction (that would be role-taking in Mead's developmental sense) but rather invoking the teacher as a representative of the broader social standard — 'what would count as acceptable behavior here?' That generalized standpoint is what Mead calls the generalized other: the internalized attitude of the community as a whole. The 'I' is the initial impulse to grab; the 'me' is the socialized self that monitors from the generalized other's standpoint. The pause and withdrawal represent the 'me' checking the 'I'."
+
+- question: "What does Mead mean by 'role-taking,' and why does he consider it constitutive of the self rather than just a social skill?"
+  type: multiple-choice
+  options:
+    - "Performing social roles (doctor, student) by following their behavioral scripts — the more roles you perform, the more developed your self"
+    - "Imaginatively taking another's perspective to anticipate their response — the capacity that allows you to view yourself as an object and thus have a self at all"
+    - "Conforming to the expectations of social roles, which gradually shapes personal identity"
+    - "Using language to negotiate shared meanings in interaction — role-taking is what makes conversation possible"
+  answer: 1
+  explanation: "For Mead, role-taking is the ability to imaginatively occupy another's perspective — to see yourself and the situation as the other sees it. This is not just a conversational skill; it is the mechanism by which the self emerges. To have a self is to be able to take yourself as an object of your own awareness — to observe yourself from outside. But this requires a perspective outside your own immediate experience, which is only possible through the imagined perspectives of others. Language provides shared symbols that carry the same meaning for speaker and listener, enabling this imaginative perspective-taking. The self is not a pre-social entity that later learns social skills; it is constituted by social interaction."
+
+- question: "According to Mead, the self is not present at birth but develops through social interaction — specifically through the capacity to take the perspective of others."
+  type: true-false
+  answer: true
+  explanation: "True. This is Mead's central claim and his departure from views that treat the self as a pre-social biological given. The self — specifically, the capacity to be an object to oneself, to have self-awareness — requires the ability to take another's perspective on oneself. This capacity develops through social interaction, particularly through language, which provides shared symbols that allow imaginative perspective-taking. A being that could not take others' perspectives would have experiences and impulses but not a self in Mead's sense — it could not monitor itself from a social standpoint."
+
+- question: "Mead's theory implies that the self is essentially determined by society — individuals simply internalize and enact whatever social expectations they have absorbed."
+  type: true-false
+  answer: false
+  explanation: "False — and this is the most common misreading of Mead. His theory preserves agency through the 'I': the spontaneous, novel, unsocialized aspect of the self that responds to situations before the 'me's social monitoring kicks in. The 'I' introduces creativity and unpredictability into social life; people do not mechanically execute the generalized other's scripts. The self is the ongoing conversation between the 'I' and the 'me,' and that conversation is creative — individuals interpret, resist, and reinterpret social expectations throughout life. Social determination and individual agency are both real in Mead's framework; neither eliminates the other."
+
+- question: "What is the 'generalized other,' and how does its internalization enable organized social life without requiring constant external enforcement?"
+  type: short-answer
+  answer: "The generalized other is the internalized attitude of the social community as a whole — not a specific person's perspective but the abstracted standpoint of 'what we expect here.' When individuals internalize the generalized other, they carry social norms inside themselves, evaluating their own behavior against shared standards without needing external monitoring. This solves the problem of social order: rather than requiring a police officer to enforce every norm, individuals self-regulate by taking the community's standpoint on their own behavior. Social coordination becomes possible because individuals share not just rules but a way of monitoring themselves through those rules."
+  explanation: "Mead's answer to social order is psychological internalization rather than external enforcement. This contrasts with Hobbesian views that require a sovereign to compel compliance. Mead explains how the rules get inside people — through the developmental process of role-taking that builds the 'me' — and why following them feels like authenticity rather than compliance: the generalized other has become part of the self, not an external constraint on it."
+```
+
 ## Explainer
 
 Your prerequisite in symbolic interactionism established that meaning is not fixed but created and sustained through social interaction — that symbols, gestures, and language allow humans to coordinate action by sharing interpretations. Mead's project extends this insight to a deeper question: how does having a *self* — the capacity to be aware of oneself as an object, to have a perspective on one's own thoughts and actions — arise in the first place? His answer is that mind and self are not biological givens but social achievements, built through the same symbolic processes that enable interaction.

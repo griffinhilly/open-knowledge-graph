@@ -31,6 +31,45 @@ Calculate PAR for multiple risk factors in the same disease (e.g., smoking, obes
 - Relative risk directly predicts population impact; high relative risk for rare exposures has minimal PAR.
 - PAR assumes elimination of exposure is feasible; in practice, PAR estimates represent upper bounds on preventable disease.
 
+## Questions
+
+```yaml
+- question: "A genetic variant multiplies lung cancer risk 50-fold (RR = 50) but is carried by only 0.2% of the population. A smoking-cessation campaign targets a risk factor with RR = 3 that affects 30% of the population. Using PAR% = p(RR−1) / [p(RR−1) + 1], which intervention would prevent more cancer cases?"
+  type: multiple-choice
+  options:
+    - "Genetic screening — the 50-fold relative risk clearly dominates"
+    - "The smoking-cessation campaign — high prevalence means smoking's PAR far exceeds the genetic variant's"
+    - "They are equal because PAR is determined solely by relative risk"
+    - "Genetic screening — rare, severe risk factors always take priority in public health"
+  answer: 1
+  explanation: "Genetic variant: PAR ≈ 0.002 × 49 / (0.002 × 49 + 1) ≈ 9%. Smoking: PAR ≈ 0.30 × 2 / (0.30 × 2 + 1) ≈ 37.5%. Despite the dramatically higher relative risk, the genetic variant's tiny prevalence limits its population impact. Smoking's moderate risk applied to a large population prevents far more cases in absolute terms. This is the core lesson: PAR depends on both RR and prevalence, and high RR alone does not determine population impact."
+
+- question: "A study reports smoking PAR for cardiovascular disease = 35%, physical inactivity PAR = 25%, and hypertension PAR = 20%. A student concludes that eliminating all three risk factors would prevent 80% of cardiovascular cases. What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "PAR values can sum above 100%, making the calculation technically valid"
+    - "Risk factors co-occur and their effects overlap, so individual PARs cannot simply be added"
+    - "PAR measures individual risk, not population burden, so it cannot be summed across groups"
+    - "The student forgot to weight each PAR by the intervention's effectiveness"
+  answer: 1
+  explanation: "PARs for different risk factors in the same disease do not add linearly because the same patient may simultaneously be a smoker, physically inactive, and hypertensive. That patient appears in all three PAR estimates. Summing them double- or triple-counts overlapping cases. The actual preventable burden from eliminating all three is bounded by 100% and is less than the arithmetic sum of individual PARs. PARs are best used for *ranking* risk factors' relative contributions, not for summing."
+
+- question: "A risk factor with a very high relative risk (e.g., RR = 100) always has a larger population attributable risk than a risk factor with a moderate relative risk (e.g., RR = 5)."
+  type: true-false
+  answer: false
+  explanation: "This is exactly the misconception PAR is designed to correct. PAR depends on both relative risk AND exposure prevalence. A risk factor with RR = 100 but prevalence 0.01% has a tiny PAR — almost no one is exposed, so eliminating it prevents almost no cases. A risk factor with RR = 5 affecting 40% of the population has a large PAR — the moderate individual risk is multiplied across a huge exposed group. Prevalence and relative risk together determine population impact."
+
+- question: "Population attributable risk represents an upper bound on preventable disease burden, not a prediction of what any specific intervention will actually achieve."
+  type: true-false
+  answer: true
+  explanation: "PAR assumes complete elimination of the exposure — a theoretical ideal. Real-world interventions rarely achieve 100% reduction in a risk factor across an entire population. Smoking rates, dietary patterns, and physical activity are shaped by environment, culture, economics, and psychology, and change slowly and incompletely in response to policy. PAR therefore sets a ceiling on what is theoretically preventable, not a forecast of any particular intervention's outcome. Its power is comparative: ranking which risk factors offer the greatest return on intervention investment."
+
+- question: "Explain why two risk factors with very different relative risks might have similar population attributable risks."
+  type: short-answer
+  answer: "PAR depends on both the relative risk (strength of the association) and the prevalence of the exposure in the population. A high-RR risk factor that is very rare contributes little to overall disease burden because few people are exposed. A moderate-RR risk factor that is very common contributes substantially because that modest individual risk is multiplied across a large proportion of the population. When the lower-RR factor has sufficiently higher prevalence, its PAR can equal or exceed that of the rarer but stronger risk factor."
+  explanation: "The formula PAR% = p(RR−1) / [p(RR−1) + 1] makes this explicit: the numerator involves both p and (RR−1). A small p × large (RR−1) can equal a large p × small (RR−1). This is why public health interventions targeting common, moderately-sized risks often prevent more disease than targeting rare, large risks."
+```
+
 ## Explainer
 
 You already know how to calculate **relative risk (RR)** from cohort data: it measures the strength of association between an exposure and a disease at the individual level. An exposed person is RR times more likely to develop disease than an unexposed person. **Population attributable risk (PAR)** asks a different — and for policy purposes more important — question: if we eliminated this exposure from the entire population, how much disease would disappear?

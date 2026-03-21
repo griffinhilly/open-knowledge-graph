@@ -34,6 +34,45 @@ Use Newman projections to identify the anti-periplanar conformer required for E2
 - Anti-periplanar means exactly 180°, not loosely 'on opposite sides'; violating this geometry prevents the concerted mechanism.
 - In cyclohexane systems, the H and leaving group must both be axial (diaxial) for anti-periplanar geometry to be achievable.
 
+## Questions
+
+```yaml
+- question: "A chemist switches from KOH/ethanol to potassium tert-butoxide (t-BuOK) in tert-butanol when treating a secondary alkyl bromide. What change in products should be expected?"
+  type: multiple-choice
+  options:
+    - "More SN2 product, because t-BuOK is a stronger base and therefore also a stronger nucleophile"
+    - "More E2 product with the more substituted (Zaitsev) alkene, because stronger bases always favor Zaitsev elimination"
+    - "More E2 product with the less substituted (Hofmann) alkene, because t-BuOK's bulk prevents it from accessing the more hindered beta hydrogens"
+    - "No change; the identity of the leaving group, not the base, determines the E2/SN2 ratio"
+  answer: 2
+  explanation: "t-BuOK is bulky and a poor nucleophile — it cannot easily perform the backside attack required for SN2. It functions instead as a base. Its steric bulk also steers it to the less hindered beta hydrogen, giving the Hofmann (less substituted) alkene rather than the Zaitsev product. The critical misconception in option 0 is that base strength and nucleophilicity are distinct properties. t-BuOK is a strong base and a weak nucleophile, and that combination predictably shifts reactions toward elimination."
+
+- question: "In a cyclohexane ring system, the leaving group currently occupies an equatorial position. A student attempts E2 elimination. What must occur first?"
+  type: multiple-choice
+  options:
+    - "A ring flip must place the leaving group in the axial position, establishing the required anti-periplanar (trans-diaxial) arrangement with an axial beta hydrogen"
+    - "The reaction cannot proceed — E2 requires free rotation around C–C bonds and is incompatible with ring systems"
+    - "A sufficiently strong base can force E2 regardless of geometry by providing enough activation energy to overcome the geometric constraint"
+    - "The leaving group must first ionize to form a planar carbocation before elimination can occur"
+  answer: 0
+  explanation: "E2 requires the leaving group and abstracted hydrogen to be anti-periplanar (180°). In cyclohexane, this geometry is only achievable when both substituents are axial and on opposite faces of the ring (trans-diaxial). An equatorial leaving group cannot achieve this without a ring flip. If the ring flip is unfavorable (e.g., it places a large substituent axially), E2 can be significantly hindered. Options 1 and 2 misunderstand the mechanism: E2 is a strict geometric requirement, not a threshold to overcome with more energy."
+
+- question: "The anti-periplanar requirement in E2 elimination means the beta hydrogen and the leaving group must be positioned on the same face of the molecule, close together so the base can remove them simultaneously."
+  type: true-false
+  answer: false
+  explanation: "This reverses the geometry. Anti-periplanar means 180° apart — they must be on opposite faces of the C–C bond. In Newman projection terms, 'anti' is a 180° dihedral angle (staggered, directly across from each other), not a 0° dihedral (eclipsed, same side). This geometry is required so that the developing p orbitals from the breaking C–H and C–X bonds point toward each other and can overlap to form the new pi bond. The syn-periplanar geometry (0°, same face) does not allow this overlap and is generally not productive for E2."
+
+- question: "Bulky bases like potassium tert-butoxide favor elimination over substitution because they are excellent nucleophiles, making them more efficient at attacking the carbon bearing the leaving group."
+  type: true-false
+  answer: false
+  explanation: "Exactly backwards. Bulky bases favor E2 over SN2 precisely because they are poor nucleophiles — their steric bulk blocks the approach required for backside attack in SN2. They function well as bases, abstracting protons from beta carbons, but poorly as nucleophiles attacking alpha carbons. The practical takeaway: base strength and nucleophilicity can be uncoupled by steric effects. t-BuOK is strong (high pKa of conjugate acid) but poor as a nucleophile, and choosing it deliberately steers reactions toward elimination."
+
+- question: "Explain why E2 elimination in cyclohexane systems requires the hydrogen and leaving group to be in trans-diaxial positions rather than simply being on opposite sides of the ring in any configuration."
+  type: short-answer
+  answer: "E2 requires exact anti-periplanar geometry (180° dihedral angle between C–H and C–LG bonds). In cyclohexane, only trans-diaxial substituents satisfy this constraint — they point in opposite directions along the C–C bond axis. Substituents that are equatorial, or axial on the same face (cis-diaxial), cannot achieve 180° alignment. Since E2 is concerted, the geometry must be correct before the reaction begins; there is no opportunity for geometric reorganization during the transition state."
+  explanation: "Newman projections along the C–C bond in question make this explicit: only the anti conformation (180° between H and LG) positions the developing p orbitals to overlap into a pi bond. In cyclohexane, axial bonds on opposite faces of the ring are the only bonds in the anti arrangement with respect to each other. This is why the reaction is sensitive to stereochemistry: trans-diaxial substrates react readily, while substrates locked in the wrong conformation react slowly or not at all under E2 conditions."
+```
+
 ## Explainer
 
 You already know the SN2 mechanism: a nucleophile attacks a carbon bearing a leaving group in a single concerted step, inverting stereochemistry. The **E2 reaction** is the elimination counterpart — also concerted and bimolecular, but instead of substitution, it forms a **double bond**. A strong base abstracts a proton from the beta carbon (the carbon adjacent to the one bearing the leaving group) at the same time the leaving group departs. In one simultaneous motion, the C–H bond breaks, the C–X bond breaks, and a new pi bond forms between the alpha and beta carbons. There is no intermediate — this is a single transition state.

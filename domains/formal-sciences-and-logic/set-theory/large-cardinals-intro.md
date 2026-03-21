@@ -31,6 +31,45 @@ Begin with inaccessible cardinals: verify that if κ is inaccessible then V_κ s
 - Large cardinals are not just 'very big numbers' — their defining property is logical strength (what new theorems they allow), not mere size.
 - The large cardinal hierarchy is not strictly linear in every detail, but the main levels (inaccessible < Mahlo < measurable < supercompact < ...) are well-ordered by consistency strength.
 
+## Questions
+
+```yaml
+- question: "Why can ZFC not prove the existence of an inaccessible cardinal, assuming ZFC is consistent?"
+  type: multiple-choice
+  options:
+    - "Inaccessible cardinals are too large to be defined within ZFC's language"
+    - "The axiom of choice forbids inaccessible cardinals from existing"
+    - "If an inaccessible cardinal κ exists, then V_κ models ZFC, so ZFC + 'inaccessibles exist' proves Con(ZFC) — which ZFC cannot do by Gödel's second incompleteness theorem"
+    - "Inaccessible cardinals require additional axioms about class-sized structures"
+  answer: 2
+  explanation: "This is the central reason large cardinal axioms transcend ZFC. If κ is inaccessible, the cumulative hierarchy up to stage κ (denoted V_κ) satisfies every ZFC axiom — so κ's existence provides a model of ZFC inside your universe. By Gödel's second incompleteness theorem, if ZFC is consistent it cannot prove its own consistency. But ZFC + 'an inaccessible exists' does prove Con(ZFC). Therefore, plain ZFC cannot prove the inaccessible exists without proving its own consistency — which it cannot do."
+
+- question: "What properties distinguish an inaccessible cardinal κ from a large cardinal like ℵ_ω that ZFC can prove exists?"
+  type: multiple-choice
+  options:
+    - "κ must be the first uncountable cardinal"
+    - "κ must be the cardinality of some set whose existence cannot be stated in ZFC"
+    - "κ is both regular (not expressible as a union of fewer-than-κ smaller sets) and a strong limit (2^λ < κ for all λ < κ), while ℵ_ω fails regularity"
+    - "κ must be larger than every ordinal definable by a formula with parameters"
+  answer: 2
+  explanation: "ℵ_ω is a countable union ℵ₀ ∪ ℵ₁ ∪ ℵ₂ ∪ ... of sets each smaller than ℵ_ω — so it fails regularity. An inaccessible cardinal κ cannot be reached 'from below' by either of ZFC's main closure operations: taking unions of fewer than κ smaller sets (regularity) or taking power sets of smaller cardinals (strong limit). Together these make V_κ a natural model of ZFC. ℵ_ω's existence follows from ZFC's axiom of replacement; inaccessibles' existence does not."
+
+- question: "Large cardinals are called 'large' primarily because they are very large cardinal numbers — far bigger than ℵ_ω or other infinite cardinals provable from ZFC."
+  type: true-false
+  answer: false
+  explanation: "False — large cardinals are defined by structural and logical properties, not by raw size. What makes a cardinal 'large' in the set-theoretic sense is its consistency strength: its existence implies Con(ZFC), something ZFC alone cannot establish. Many ZFC-provable cardinals are size-wise enormous (ℵ_{ω₁}, ℵ_{ω·ω}, ...) yet are not large cardinals. An inaccessible cardinal is 'large' because its existence gives a model of ZFC inside the universe — a logical richness property, not a size threshold."
+
+- question: "ZFC + 'there exists a measurable cardinal' is strictly stronger in consistency strength than ZFC + 'there exists an inaccessible cardinal.'"
+  type: true-false
+  answer: true
+  explanation: "True — the large cardinal hierarchy is well-ordered by consistency strength: inaccessible < Mahlo < measurable < ... (and further up). A measurable cardinal carries a κ-complete non-principal ultrafilter that allows constructing an elementary embedding j: V → M, which implies the existence of many inaccessible and Mahlo cardinals below it. So ZFC + measurable proves Con(ZFC + inaccessible), but not vice versa. Each level of the hierarchy strictly outpowers all levels below it — this is the precise meaning of 'higher consistency strength.'"
+
+- question: "What does it mean for one large cardinal axiom to have 'greater consistency strength' than another? Why does this concept matter for mathematics beyond set theory?"
+  type: short-answer
+  answer: "A theory T₁ has greater consistency strength than T₂ if T₁ proves Con(T₂) but T₂ does not prove Con(T₁). For large cardinals: ZFC + measurable proves Con(ZFC + inaccessible) but not vice versa, so measurable is strictly stronger. This matters beyond set theory because when a theorem in analysis, combinatorics, or algebra requires a large cardinal axiom of level X to prove, that tells us the theorem's exact logical price — how much additional assumption is needed beyond ZFC. Large cardinals serve as a calibration scale: they let mathematicians quantify the logical strength of theorems that would otherwise seem to require incomparable axioms."
+  explanation: "The large cardinal hierarchy's near-linearity is itself a deep theorem — it is not obvious that consistency strength should be well-ordered, but it turns out that virtually all natural mathematical statements are comparable in this scale. This gives set theory a central role as the 'thermometer' measuring the logical temperature of all of mathematics."
+```
+
 ## Explainer
 
 From infinite cardinals, you know that ℵ₀ < ℵ₁ < ℵ₂ < ... is just the beginning of a vast hierarchy of infinite sizes. And from the continuum hypothesis, you know that ZFC leaves the size of ℝ undetermined — neither CH nor ¬CH is provable from ZFC alone. Large cardinal axioms push this logic further: they assert the existence of cardinals so structurally rich that ZFC itself cannot prove they exist. The reason is profound — each large cardinal axiom implies Con(ZFC), and by Gödel's second incompleteness theorem, ZFC cannot prove its own consistency. So if κ is an inaccessible cardinal, ZFC + "κ exists" strictly outpowers plain ZFC.

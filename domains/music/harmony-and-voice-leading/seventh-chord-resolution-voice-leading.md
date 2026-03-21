@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 The seventh of a seventh chord must resolve down by step, and the tritone between the third and seventh of a dominant seventh requires specific resolution. The bass note independently follows harmonic function, while upper voices resolve their dissonant intervals. This creates the characteristic voice-leading sound of seventh chords.
 
+## Questions
+
+```yaml
+- question: "A ii7 chord in C major (D-F-A-C) resolves to V (G-B-D). The seventh of ii7 is C (scale degree 1). Where does this voice go in the resolution?"
+  type: multiple-choice
+  options:
+    - "It rises by step to D, doubling the root of the V chord"
+    - "It falls by step to B, the third of the V chord"
+    - "It stays on C as a common tone, since C is in both chords"
+    - "It can resolve freely in either direction depending on the soprano line"
+  answer: 1
+  explanation: "The seventh of any seventh chord must resolve downward by step. C (scale degree 1) falls by step to B (scale degree 7, the leading tone), which is the third of V. The tempting wrong answer is option C: although C is in the key of C major, it is NOT a common tone between ii7 and V (which contains G, B, D) — the seventh must resolve rather than remain. Option A would be an upward resolution of the seventh, which violates the fundamental rule."
+
+- question: "A student writes a V7→I progression but resolves the seventh of V7 (scale degree 4, F in C major) upward by step to G. What voice-leading rule is violated?"
+  type: multiple-choice
+  options:
+    - "The leading tone must resolve upward to tonic"
+    - "The seventh of the chord must resolve downward by step"
+    - "No parallel fifths are allowed between any two voices"
+    - "The bass must move by fourth or fifth at all cadences"
+  answer: 1
+  explanation: "The seventh of a seventh chord must resolve downward by step — this is the fundamental rule of seventh-chord voice leading. F (scale degree 4) must fall to E (scale degree 3), the third of the I chord. Resolving the seventh upward to G violates this obligatory direction. The acoustic rationale: the seventh sits above the root with a natural downward tendency; resolving it upward fights this tendency and weakens the harmonic arrival."
+
+- question: "The dominant seventh chord (V7) is special because it is the only seventh chord in tonal music that contains a dissonant interval."
+  type: true-false
+  answer: false
+  explanation: "All seventh chords contain a dissonant seventh interval between their root and seventh — that's what makes them seventh chords. V7 is special not because it's the only dissonant seventh chord but because it additionally contains a tritone between its third (the leading tone, scale degree 7) and its seventh (scale degree 4). This double dissonance — the seventh and the tritone resolving simultaneously — is why V7→I sounds so conclusive. Non-dominant seventh chords are also dissonant; they simply lack the extra tritone urgency."
+
+- question: "In a V7→I resolution, both the leading tone and the seventh of the chord have specific obligatory resolution directions."
+  type: true-false
+  answer: true
+  explanation: "Yes — this is what makes V7→I structurally compelling. The leading tone (scale degree 7, the third of V7) must rise by half step to tonic; the seventh (scale degree 4) must fall by step to scale degree 3. These two resolutions happen simultaneously, releasing the tritone tension by both voices moving inward toward each other. The bass follows harmonic function (root of V to root of I), while these two upper voices resolve their specific dissonances — all together producing the characteristic cadential sound."
+
+- question: "Why must the seventh of a seventh chord resolve downward rather than upward, and does this rule apply only to dominant seventh chords or to all seventh chords?"
+  type: short-answer
+  answer: "The seventh is an acoustically restless interval — it sits a step below the octave of the root, and its natural tendency is to collapse by step downward to a more consonant position in the resolution chord. Resolving it downward moves toward the nearest consonant chord tone; resolving it upward skips over consonant tones and weakens the harmonic arrival. This rule applies to all seventh chords, not just V7: whether it is ii7, IV7, viio7, or any other, the voice carrying the seventh must resolve down by step."
+  explanation: "The rule's universality is important: ii7→V, IV7→I, viio7→I all require the seventh to resolve downward. V7 is the most prominent case because of its structural role and the added tritone, but the seventh-resolution rule is a general principle of tonal voice leading. Understanding it as universal — dissonance resolves in the direction of least resistance, which for the seventh is downward — gives you the framework to handle any seventh chord correctly, not just the dominant."
+```
+
 ## Explainer
 
 You already know how to build seventh chords and understand basic voice-leading principles. From your prerequisite work on the dominant seventh, you know that V7 has a specific resolution pattern. This topic generalizes that knowledge: every seventh chord creates dissonance — a seventh interval between its root and seventh — and dissonance in tonal music is governed by a simple principle: it must resolve, and resolution means moving in the direction that relieves the tension.

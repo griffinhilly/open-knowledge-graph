@@ -28,6 +28,45 @@ Trace the autophagy cascade from initiation through phagophore formation and lys
 ## Common Misconceptions
 Autophagy is not always protective—excessive autophagy can be lethal. The relationship between autophagy and apoptosis is complex; often both are activated simultaneously in response to cellular stress.
 
+## Questions
+
+```yaml
+- question: "A patient with Parkinson's disease has severely impaired mitophagy. The most direct cellular consequence of this defect is:"
+  type: multiple-choice
+  options:
+    - "Failure to replicate mitochondria during cell division, reducing total mitochondrial number"
+    - "Accumulation of dysfunctional mitochondria that generate excess reactive oxygen species"
+    - "Overproduction of ATP, causing cytotoxic energy surplus in neurons"
+    - "Accelerated apoptosis because mitophagy normally suppresses the intrinsic apoptotic pathway"
+  answer: 1
+  explanation: "Mitophagy is the selective autophagy pathway that identifies and degrades damaged mitochondria — specifically those that have lost their membrane potential and are tagged with ubiquitin. When mitophagy is impaired, dysfunctional mitochondria accumulate rather than being cleared. These damaged mitochondria generate excess reactive oxygen species (ROS) rather than clean ATP, contributing to the oxidative stress and neuronal death seen in Parkinson's disease. The accumulation of alpha-synuclein Lewy bodies is a parallel proteostasis failure."
+
+- question: "A researcher finds that inhibiting autophagy in an established solid tumor makes it significantly more sensitive to chemotherapy. This result suggests that autophagy's role in this tumor is:"
+  type: multiple-choice
+  options:
+    - "Promoting apoptosis — autophagy was helping the tumor die, and inhibiting it prolongs tumor survival"
+    - "A survival mechanism — autophagy was recycling cellular components to sustain the tumor through chemotherapy-induced nutrient stress"
+    - "Producing excess ROS that protected tumor cells from drug-induced oxidative damage"
+    - "Degrading the chemotherapy drug before it could reach its nuclear target"
+  answer: 1
+  explanation: "In established tumors under metabolic stress — nutrient deprivation, hypoxia, or chemotherapy — cancer cells frequently upregulate autophagy to recycle amino acids, lipids, and sugars from their own cytoplasm. This provides an alternative nutrient source when external supply is cut off, conferring chemoresistance. Inhibiting this survival autophagy removes the resistance mechanism, re-sensitizing the tumor. This is the opposite of autophagy's role in neurodegeneration, where impaired autophagy causes disease — illustrating the pathway's context-dependent duality."
+
+- question: "Autophagy is always a cytoprotective process — it prevents cell death by removing damaged proteins and organelles."
+  type: true-false
+  answer: false
+  explanation: "While basal autophagy is generally protective — clearing misfolded proteins and damaged organelles that would otherwise accumulate — excessive autophagy can trigger autophagic cell death (type II programmed cell death). Additionally, in established tumors, autophagy can be a survival advantage rather than a protective mechanism in the conventional sense. The relationship between autophagy, survival, and death is context-dependent; the same pathway can be cytoprotective or cytodestructive depending on the cell type, stressor, and degree of activation."
+
+- question: "mTOR inhibition promotes autophagy because active mTOR normally phosphorylates and suppresses the proteins that initiate the autophagy cascade."
+  type: true-false
+  answer: true
+  explanation: "mTOR (mechanistic target of rapamycin) is the master negative regulator of autophagy. When nutrients are abundant, mTOR is active and phosphorylates ULK1 (and other autophagy-initiating proteins), keeping the pathway suppressed. When nutrients are scarce — starvation, amino acid deprivation, hypoxia — mTOR is inhibited, releasing the brake and allowing the autophagy initiation complex to assemble and launch phagophore formation. Rapamycin inhibits mTOR and is widely used experimentally to induce autophagy."
+
+- question: "Explain why autophagy plays opposite roles in neurodegeneration versus established cancer, and what determines which direction it tips."
+  type: short-answer
+  answer: "In neurodegeneration, autophagy is impaired — the pathway fails to clear toxic protein aggregates (amyloid-beta, alpha-synuclein, polyglutamine repeats), so they accumulate and damage neurons. Restoring autophagy would be therapeutic. In established tumors, autophagy is often functional or upregulated — cancer cells under metabolic stress use it as a nutrient-recycling survival mechanism, conferring resistance to chemotherapy. The direction depends on two factors: (1) whether autophagy is functional or defective, and (2) whether the cellular context makes recycling a liability (healthy neuron that doesn't need it) or a survival advantage (tumor under starvation/drug stress)."
+  explanation: "This duality is why autophagy is a challenging therapeutic target. In neurodegenerative disease, you want to enhance autophagy to clear aggregates. In cancer, you may want to inhibit autophagy to sensitize tumors to treatment. The same drug could be therapeutic in one context and harmful in another, requiring a precise understanding of which direction the autophagy imbalance is tipping in a given disease state."
+```
+
 ## Explainer
 
 From your cell biology foundation, you know that cells are not static factories—they are continuously synthesizing and degrading proteins, replacing worn organelles, and managing quality control of their own internal machinery. Autophagy (from the Greek for "self-eating") is one of the cell's two major protein degradation systems, alongside the ubiquitin-proteasome system. While the proteasome handles small, short-lived proteins one at a time, autophagy is a bulk degradation pathway capable of engulfing entire organelles, large protein aggregates, and intracellular pathogens. Think of the proteasome as recycling individual bottles, and autophagy as the system that handles furniture and appliances.

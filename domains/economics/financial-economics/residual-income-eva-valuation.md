@@ -24,6 +24,45 @@ Residual income (net income − equity charge) captures value creation beyond th
 ## How It's Best Learned
 Calculate EVA for a company and compare to its market premium (market cap − book value). Use residual income projections to value high-growth and mature firms.
 
+## Questions
+
+```yaml
+- question: "A company reports $10 million in net income. Its book equity is $100 million and its cost of equity (from CAPM) is 12%. Which statement best describes the economic value created for shareholders that year?"
+  type: multiple-choice
+  options:
+    - "The company created $10 million in value because it is profitable"
+    - "The company destroyed $2 million in economic value, because net income of $10M falls short of the $12M equity charge shareholders required"
+    - "Value creation cannot be assessed from net income and cost of equity alone — you also need the market price"
+    - "The company created $10 million in value and also has a residual income surplus of $2 million above requirements"
+  answer: 1
+  explanation: "Residual income = Net Income − (cost of equity × book equity) = $10M − (0.12 × $100M) = $10M − $12M = −$2M. Despite reporting positive net income, the firm earned less than shareholders required to compensate for risk. They would have been better off investing $100M elsewhere at the required 12% return. Positive accounting profit is not sufficient for value creation — you must earn more than the cost of the capital deployed. This is the central insight of residual income analysis."
+
+- question: "A firm's stock trades at exactly book value — its price-to-book ratio is 1.0. What does the residual income valuation model say about market expectations for this firm?"
+  type: multiple-choice
+  options:
+    - "The market expects the firm to become unprofitable within a few years"
+    - "The market expects the firm to earn exactly its cost of equity capital — generating zero residual income indefinitely, so no premium or discount beyond book value is warranted"
+    - "The firm is undervalued because any profitable firm should trade above book value"
+    - "The market expects the firm to pay out all earnings as dividends, leaving no retained earnings to grow book value"
+  answer: 1
+  explanation: "The residual income model says V₀ = B₀ + PV(future residual income). If V₀ = B₀ (P/B = 1), then PV(future residual income) = 0, meaning markets expect the firm to earn exactly its cost of equity — no more, no less — forever. A firm trading below book value is priced for negative residual income (it will earn less than its equity cost); above book value, for positive residual income. The entire market premium over book value is explained by expected future economic profits."
+
+- question: "A company can report positive net income every year and still destroy shareholder value over the long run."
+  type: true-false
+  answer: true
+  explanation: "True. If a firm consistently earns 8% on equity when its cost of equity is 12%, it reports positive accounting earnings but destroys economic value year after year — shareholders would have been better off putting that capital elsewhere. Residual income captures this: RI = NI − (rₑ × Book Equity) is negative whenever return on equity falls below the required rate. Positive net income is a necessary but not sufficient condition for value creation."
+
+- question: "EVA (Economic Value Added) uses the cost of equity as its hurdle rate, whereas residual income uses the WACC — making EVA the equity-focused measure and residual income the whole-firm measure."
+  type: true-false
+  answer: false
+  explanation: "False — the relationship is reversed. Residual income = Net Income − (rₑ × Book Equity) and is computed from the equity perspective, using only the equity cost. EVA = NOPAT − (WACC × Invested Capital), where WACC incorporates both debt and equity costs weighted by capital structure, and NOPAT is the pre-financing operating profit. EVA is therefore the whole-firm measure; residual income in its standard definition is the equity-only measure."
+
+- question: "Why does the residual income model anchor intrinsic value to book equity plus the present value of future residual incomes, rather than simply discounting future earnings or dividends?"
+  type: short-answer
+  answer: "Book equity represents the capital already invested in the firm — it is observable and provides a concrete starting point. The question for valuation is not what the firm earns in absolute terms, but how much it earns in excess of what investors could earn elsewhere on that same capital. Residual income isolates this excess: RI = NI − (rₑ × Book Equity). By anchoring to book value, the model accounts for the starting capital base and asks only whether the firm earns above or below its cost of equity going forward. Every dollar of market premium above book value must be justified by positive expected future residual income, making the model especially useful for firms with volatile dividends or negative near-term free cash flows."
+  explanation: "This makes the residual income model particularly robust for financial firms (where DCF is awkward due to the nature of cash flows) and growth companies with no dividends. It decomposes the market premium by identifying which years and business segments are expected to earn above-normal returns, providing diagnostic insight unavailable from simpler valuation approaches."
+```
+
 ## Explainer
 
 From your study of stock valuation fundamentals and the CAPM, you know that equity has a cost. Equity investors bear risk and expect compensation — the required return on equity (rₑ) from the CAPM is not free money; it is the minimum return shareholders demand before they would have been better off investing elsewhere. A firm that reports positive net income has not necessarily created value for its shareholders. If net income is $5 million but equity investors required $7 million to compensate for risk, the firm has actually destroyed $2 million in economic value. **Residual income** makes this explicit: RI = Net Income − (rₑ × Book Equity). It is what remains after charging earnings for the cost of the capital that generated them.

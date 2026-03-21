@@ -31,6 +31,45 @@ Compare three workers: one with an abusive boss, one with a kind boss who could 
 - Pettit's republicanism is not anti-government; it holds that well-designed law and institutions are constitutive of freedom, not threats to it.
 - Non-domination does not require eliminating all power asymmetries — only those that are arbitrary (unchecked, unaccountable, discretionary).
 
+## Questions
+
+```yaml
+- question: "A kind CEO has never once interfered with an employee's work, gives them complete autonomy, and genuinely supports their decisions. According to Pettit's republican theory, this employee is:"
+  type: multiple-choice
+  options:
+    - "Fully free — no interference has occurred, satisfying the only condition that matters for freedom"
+    - "Dominated — the CEO could interfere at their discretion at any moment, and the employee must orient their behavior to maintain the CEO's goodwill"
+    - "Positively free — they have the capacity for self-governance in their work"
+    - "Free from domination — benevolent power that is never exercised does not constitute domination"
+  answer: 1
+  explanation: "Pettit's key insight is that domination is constituted by the availability of arbitrary power, not by its exercise. Even a perfectly kind master who never interferes still dominates, because the power to interfere remains at their discretion. The employee must monitor the CEO's moods, avoid giving offense, and adjust behavior to preserve goodwill — even when nothing has happened. This dependency on another's will is itself a form of unfreedom. Non-interference without structural constraints on that power is not enough for republican freedom."
+
+- question: "A law prohibiting assault limits your options — you cannot attack people freely. In Pettit's framework, this law:"
+  type: multiple-choice
+  options:
+    - "Dominates you, since any constraint on your choices counts as an exercise of power over you"
+    - "Dominates you only if you happen to want to assault someone"
+    - "Does not dominate you — it is a publicly justifiable constraint, applied equally, subject to contestation and appeal, making it non-arbitrary interference"
+    - "Is neutral with respect to domination — laws only affect domination when enforced selectively"
+  answer: 2
+  explanation: "The republican distinction is between arbitrary and non-arbitrary interference. Arbitrary power is exercised at the holder's discretion without tracking the interests or judgments of those subject to it. A law that applies equally, must give publicly justifiable reasons, can be contested, and is subject to appeal is non-arbitrary — even when it interferes. Well-designed laws do not dominate even though they constrain; they protect against domination by making power accountable. This is why republicans see properly structured law as constitutive of freedom, not a threat to it."
+
+- question: "Pettit's republican non-domination is equivalent to Berlin's positive liberty — both require more than mere non-interference and demand a richer form of self-governance."
+  type: true-false
+  answer: false
+  explanation: "Non-domination is a third concept distinct from both negative and positive liberty. Positive liberty requires self-mastery, rational self-governance, and the capacity to be the author of one's own life — an internal condition. Non-domination requires the absence of arbitrary power over you — an external, structural condition. You can be non-dominated without being self-mastered, and self-mastered while still dominated (e.g., a Stoic who remains serene under a benevolent despot). Pettit is explicit that his concept is not positive liberty and does not require any form of self-realization."
+
+- question: "In Pettit's republican framework, a well-designed legal and constitutional system is constitutive of freedom — it creates and protects freedom rather than threatening it."
+  type: true-false
+  answer: true
+  explanation: "This is a key implication distinguishing republicanism from classical liberalism. Negative-liberty liberals treat law as an inherent restriction on freedom (every rule is a fence). Republicans see well-designed law as constitutive of freedom: constitutional constraints on power, independent courts, rule of law, and contestatory institutions transform arbitrary power into non-arbitrary power. Without them, freedom collapses to dependency on the goodwill of the powerful. The laws protecting an employee from arbitrary dismissal don't limit their freedom — they are partly what their freedom consists of."
+
+- question: "Why is the employee with a 'kind boss who never interferes' not genuinely free in the republican sense? What exactly is missing?"
+  type: short-answer
+  answer: "What is missing is protection from arbitrary power — not non-interference itself, but a guarantee that the power to interfere is structurally constrained. Worker 2's freedom depends entirely on the boss's continued goodwill. The boss could fire, demote, or micromanage at any time, for any reason, with no recourse. The employee must monitor the boss's moods, adjust behavior to please them, and never feel fully secure in their position — a relationship of dependency that constitutes unfreedom even when nothing bad is happening. Republican freedom requires that power over you be non-arbitrary: constrained by rules, subject to appeal, required to track your interests and give justifiable reasons."
+  explanation: "The contrast with Pettit's third worker (protected by employment law) makes this concrete. Worker 3 faces a power that is structurally constrained: the employer cannot fire them for arbitrary reasons, must follow procedures, and is subject to legal challenge. Worker 3 does not need to maintain the employer's goodwill — they can rely on the rules. This structural security is what republican freedom consists of. Worker 2 has the appearance of freedom (no interference) without its substance (no protection from arbitrary power)."
+```
+
 ## Explainer
 
 From your study of negative and positive liberty, you know Isaiah Berlin's influential distinction. **Negative liberty** is freedom from interference — you are free to the extent that no one is actively blocking your choices. **Positive liberty** is freedom to govern yourself — you are free when you are the author of your own life, capable of rational self-direction. Classical liberalism champions negative liberty; the tradition of civic republicanism, Pettit argues, champions a third concept that neither Berlin's category captures: **non-domination**.

@@ -28,6 +28,45 @@ Compare tautologies (p ∨ ¬p) with contingencies (p ∧ ¬q) that can be eithe
 - Treating a frequently-true statement as a tautology when it could be false in some cases.
 - Confusing contradictions with statements that are merely false in specific cases.
 
+## Questions
+
+```yaml
+- question: "In a proof by contradiction, you assume ¬Q and derive a contradiction. What exactly does deriving a contradiction establish?"
+  type: multiple-choice
+  options:
+    - "That ¬Q is false in some cases, so Q is probably true"
+    - "That the logical system itself contains an inconsistency"
+    - "That ¬Q cannot possibly be true under any truth assignment, so Q must be true"
+    - "That Q is a tautology — true under all interpretations of its component variables"
+  answer: 2
+  explanation: "A contradiction is false under every possible truth assignment — it cannot be true. If valid logical steps from assumption ¬Q lead to a contradiction, then ¬Q cannot be true in any world where logic holds. The inference is: if ¬Q were true, the contradiction would have to be true (since each step was valid); but the contradiction cannot be true; therefore ¬Q cannot be true. This is a deductive certainty, not a probabilistic claim. Option D is wrong: Q need not be a tautology — it just must be true in the specific context at hand."
+
+- question: "Which of the following is a tautology?"
+  type: multiple-choice
+  options:
+    - "p → q"
+    - "p ∨ q"
+    - "p → (q → p)"
+    - "¬p → q"
+  answer: 2
+  explanation: "p → (q → p) is true under every truth assignment. If p is true, then q → p is true (p is the consequent and it's true), so the whole statement is true. If p is false, the antecedent of the outer conditional is false, making the whole statement true regardless of q. Options A and D are contingencies — false when antecedent is true and consequent false. Option B is false when both p and q are false. Only C is always true."
+
+- question: "The statement 'The sun is either currently shining or it is not currently shining' is a tautology."
+  type: true-false
+  answer: true
+  explanation: "This is an instance of p ∨ ¬p — the law of excluded middle — which is always true regardless of the actual weather. A tautology is true by its logical structure alone, not because of contingent facts. Whether it's sunny or cloudy today is irrelevant; the statement's truth is guaranteed by its form."
+
+- question: "Any statement that has been observed to be true in every case examined so far is a tautology."
+  type: true-false
+  answer: false
+  explanation: "A tautology must be true under every logically possible truth assignment, not just every empirically observed case. 'All swans are white' was observed to be true in Europe for centuries — but it was a contingency, not a tautology, because non-white swans were possible (and turned out to exist). Tautologies are true by virtue of logical structure; a contingency can be consistently false under some assignment even if you've never witnessed that assignment."
+
+- question: "Why does deriving a contradiction from an assumption prove that the assumption is false? What property of contradictions makes proof by contradiction work?"
+  type: short-answer
+  answer: "A contradiction is false under every possible truth assignment — there is no possible world where it is true. If valid logical steps from assumption A lead to a contradiction, then A cannot be true in any world where logic holds: if A were true, the contradiction would have to be true (each step was valid); but contradictions are impossible; therefore A is impossible. The contradiction functions as a logical impossibility — a destination that proves the journey to it was impossible."
+  explanation: "This distinguishes proof by contradiction from merely finding a false or surprising conclusion. A surprising conclusion is still possible; a contradiction (R ∧ ¬R) violates the basic law of non-contradiction. Reaching it under valid inference condemns the premise that set you on that path — which is why the method is a deductive proof, not an argument by implausibility."
+```
+
 ## Explainer
 
 Every logical statement lives somewhere on a spectrum between always-true and always-false. From your truth table work, you know that a compound statement can be true under some truth assignments and false under others — these are called **contingencies** and they're the typical case. But at the extremes are two special cases: **tautologies** are true under every possible truth assignment, and **contradictions** are false under every possible truth assignment. These are not just statements that happen to be true or false — they're true or false as a matter of logical structure alone, independent of any facts about the world.

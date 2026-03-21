@@ -38,6 +38,45 @@ Master the hybrid-π small-signal model. For each configuration, systematically 
 - Forgetting to short bypass capacitors during small-signal analysis — an un-bypassed emitter resistor dramatically reduces voltage gain.
 - Dismissing the emitter follower as useless because its voltage gain is less than 1 — its low output impedance is essential for impedance matching and current delivery.
 
+## Questions
+
+```yaml
+- question: "A high-impedance microphone (~10 kΩ output impedance) needs to drive a low-impedance cable (50 Ω). Directly connecting them would severely load the microphone and attenuate the signal. Which BJT configuration is best suited for this interface?"
+  type: multiple-choice
+  options:
+    - "Common-emitter, because its high voltage gain amplifies the weak microphone signal before it reaches the cable"
+    - "Common-collector (emitter follower), because its high input impedance does not load the microphone and its low output impedance can drive the 50 Ω cable efficiently"
+    - "Common-base, because its low input impedance matches the microphone's high output impedance"
+    - "Common-emitter with a large bypass capacitor to eliminate the impedance mismatch"
+  answer: 1
+  explanation: "This is the emitter follower's defining use case: impedance transformation without inversion. Its input impedance (~(β+1)×R_E) is very high and does not load the source. Its output impedance (~1/g_m, typically tens of ohms) is very low and can drive a 50 Ω cable with minimal voltage drop. Voltage gain is ≈1, preserving signal amplitude. The common-emitter (option 0) has only moderate input impedance and would still load the microphone; it also inverts phase unnecessarily for this application."
+
+- question: "In a common-emitter amplifier, the emitter resistor R_E is present but not bypassed with a capacitor. Compared to a fully bypassed version, what happens to the voltage gain?"
+  type: multiple-choice
+  options:
+    - "Voltage gain increases because R_E stabilizes the Q-point, allowing larger undistorted signal swings"
+    - "Voltage gain decreases dramatically because R_E appears in the AC signal path, reducing gain to approximately −R_C/R_E when g_m·R_E >> 1"
+    - "Voltage gain is unaffected because R_E only influences DC bias, not AC signals"
+    - "Voltage gain increases because un-bypassed R_E raises input impedance, drawing more signal current into the base"
+  answer: 1
+  explanation: "When the emitter resistor is un-bypassed, it appears in the small-signal equivalent: A_v ≈ −g_m·R_C / (1 + g_m·R_E) ≈ −R_C/R_E when g_m·R_E >> 1. This can reduce gain from hundreds (bypassed) to single digits (un-bypassed). Option 2 reflects the most common error — R_E sees AC signal current through the emitter, so it absolutely affects AC gain. Shorting R_E with a bypass capacitor removes it from the AC path while preserving its DC biasing role."
+
+- question: "The common-collector amplifier is rarely useful in practice because its voltage gain is less than 1 and it provides no voltage amplification."
+  type: true-false
+  answer: false
+  explanation: "The emitter follower's near-unity voltage gain is paired with current gain and dramatic impedance transformation that make it indispensable. Output impedance is very low (~1/g_m, typically 25–50 Ω) and input impedance is very high — these properties allow it to buffer a high-impedance source and drive a low-impedance load without voltage divider losses. Many multi-stage amplifiers use a common-emitter stage for voltage gain followed by an emitter follower output stage to deliver current to a load. Dismissing it because voltage gain ≈ 1 misses what the configuration actually provides."
+
+- question: "The three BJT amplifier configurations are defined by which terminal is connected to AC ground, not simply by where the input signal is applied."
+  type: true-false
+  answer: true
+  explanation: "The naming convention 'common-X' means terminal X is the shared AC reference between input and output paths — i.e., it is connected to AC ground. In common-emitter, the emitter is grounded (often through a bypass capacitor); in common-collector, the collector is at AC ground; in common-base, the base is at AC ground. The signal input and output points follow from this topology. Understanding the grounding arrangement is more fundamental than memorizing which terminal 'receives the input,' and it directly determines the gain and impedance characteristics."
+
+- question: "Why is small-signal analysis performed separately from DC bias analysis, and what does 'setting DC sources to zero' mean in practice?"
+  type: short-answer
+  answer: "Small-signal analysis models the BJT's linear behavior for small AC variations around the DC operating point (Q-point). The DC bias circuit sets where the transistor operates; the hybrid-π small-signal model is only valid as a linear approximation near that point. Setting DC sources to zero means shorting all DC voltage sources (replacing V_CC with wire) and opening all DC current sources, because they don't contribute to AC signal variations. Large bypass capacitors are also treated as short circuits since they present negligible impedance at signal frequencies. The remaining circuit is the pure AC equivalent."
+  explanation: "Mixing large-signal and small-signal quantities is the most common analysis error. The total collector voltage is V_C = V_CC + v_c — a DC term plus a small AC variation — and they cannot be combined in a single gain equation. Keeping them separate through superposition is the key discipline: first solve for DC bias (transistor operating point), then replace the transistor with its small-signal model and solve for AC gain and impedances."
+```
+
 ## Explainer
 
 From your study of BJT fundamentals, you know that a bipolar transistor is a current-controlled device: a small base current i_B controls a much larger collector current i_C = β·i_B, with β typically between 50 and 300. You also know from Thévenin/Norton equivalents how to reduce complex networks to simple equivalent circuits. Small-signal amplifier analysis combines these two ideas: replace the transistor with a linear equivalent model (valid for small AC signals around the DC operating point), then use standard circuit analysis to find gain and impedances.

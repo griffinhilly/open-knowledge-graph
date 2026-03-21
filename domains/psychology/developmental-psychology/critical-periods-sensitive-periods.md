@@ -36,6 +36,45 @@ Compare case studies: Genie (language deprivation), children with congenital cat
 - Not all skills have equally rigid critical periods; language has a sensitive period, not a strict critical period for all aspects.
 - Sensitive periods do not end abruptly — plasticity declines gradually.
 
+## Questions
+
+```yaml
+- question: "A child is born with a cataract in one eye. Corrective surgery is delayed until age 8. What outcome would developmental neuroscience predict for vision in that eye?"
+  type: multiple-choice
+  options:
+    - "Full recovery of normal visual acuity — the brain is plastic throughout childhood"
+    - "Likely permanent impairment of visual acuity in that eye, despite the corrected optics"
+    - "No impairment — the other eye compensated, and the visual system will reallocate normally after surgery"
+    - "Better-than-normal vision, because the eye was protected from overstimulation during development"
+  answer: 1
+  explanation: "The visual cortex has a critical period in early life when patterned input is required to develop normal acuity. Without visual input during this window, the cortex reallocates the territory devoted to that eye to the open eye — through competitive synaptic pruning. By age 8, this reorganization is largely complete. The surgery restores optical clarity but cannot undo the cortical rewiring that occurred during the missed window. The optics are fixed; the brain is not."
+
+- question: "A child is adopted at age 6 from severe language deprivation, compared to one adopted at age 1 from similar conditions. What would research on language development predict about their long-term outcomes?"
+  type: multiple-choice
+  options:
+    - "No difference — with good schooling and language exposure, both will achieve native-like proficiency"
+    - "The child adopted at age 6 will likely have more persistent grammatical deficits, as more of the sensitive period has elapsed"
+    - "The child adopted at age 6 will recover faster because older children are more efficient learners"
+    - "Both will have similar outcomes because sensitive periods only apply to second language acquisition, not first"
+  answer: 1
+  explanation: "Language acquisition has a sensitive period extending through middle childhood. Children deprived of language input until age 6 have lost part of this window. Research consistently shows earlier intervention leads to better grammatical outcomes — though vocabulary continues improving. Grammatical structure has an earlier and steeper cutoff than vocabulary, consistent with some aspects of language being closer to a strict critical period. The child adopted at age 6 will likely retain some persistent grammatical deficits."
+
+- question: "The defining difference between a critical period and a sensitive period is that a critical period requires appropriate input during a specific window — without it, the relevant capacity fails to develop properly and cannot be fully recovered later."
+  type: true-false
+  answer: true
+  explanation: "This is the precise definitional distinction. Critical periods are strict: the relevant neural circuits are actively wired and pruned based on incoming experience during the window. Without appropriate input, those circuits are repurposed or pruned away, making deficits largely permanent. Sensitive periods are softer: experience during the window has outsized effects, but the window is not a hard biological cutoff and some plasticity remains afterward."
+
+- question: "Because critical periods depend on neuroplasticity, they demonstrate that the brain remains equally plastic for that system throughout the lifespan."
+  type: true-false
+  answer: false
+  explanation: "This reverses the logic. Critical periods exist precisely because plasticity for a given system is HIGH during the window and then NARROWS afterward. Hubel and Wiesel's work showed the visual cortex is highly plastic during the critical period and much less so after it closes. Critical periods are evidence for declining, time-limited plasticity — not for constant lifelong plasticity. The 'critical' nature of the period is defined by the narrowing of plasticity that follows."
+
+- question: "What is the 'use it or lose it' mechanism that underlies critical periods, and why does it make early deprivation difficult to reverse later?"
+  type: short-answer
+  answer: "During critical periods, neural circuits are shaped by competitive synaptic pruning: connections that receive input are strengthened; those that receive little input are weakened and eliminated. Cortical territory is allocated to active inputs at the expense of inactive ones. Once this pruning is complete, the circuits are largely fixed. If appropriate input never arrived, the cortical territory was repurposed — reallocated to other inputs. Later experience must compete against already-established circuits rather than simply filling vacant territory, making reversal very difficult."
+  explanation: "This question targets the mechanistic basis of critical periods, not just their descriptive features. Understanding that 'use it or lose it' is about competitive allocation of cortical real estate — not just passive decay — explains why restoration of the missing input after the period often fails to restore normal function. The architecture has already been reorganized around the input that was present."
+```
+
 ## Explainer
 
 To understand critical and sensitive periods, start with what you already know about **neuroplasticity** — the brain's capacity to reorganize itself in response to experience. Plasticity is not constant across the lifespan. It peaks in early development and then narrows, and the narrowing is not uniform: different systems have different windows. A **critical period** is the extreme end of this narrowing — a time window so important that, without the right input during it, the system simply fails to wire up correctly and the deficit becomes largely permanent. A **sensitive period** is a softer version: experience during it has outsized developmental impact, but the window is not a hard cutoff.

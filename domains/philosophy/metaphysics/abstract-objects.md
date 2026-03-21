@@ -31,6 +31,45 @@ Read Benacerraf's 'Mathematical Truth' for the core dilemma, then compare Quine'
 - Abstract objects are not mental objects — Platonists do not claim numbers exist in our minds but that they exist independently of any mind.
 - Nominalism is not the view that mathematics is false; most nominalists accept mathematical truths but deny they require abstract ontology.
 
+## Questions
+
+```yaml
+- question: "According to the indispensability argument (Quine-Putnam), why should we believe abstract objects like numbers exist?"
+  type: multiple-choice
+  options:
+    - "Numbers appear as ideal forms in Platonic heaven, accessible through rational intuition"
+    - "Our best scientific theories quantify over numbers as indispensably as over electrons; if we accept those theories, intellectual honesty requires accepting the entities they posit"
+    - "Mathematical truths feel necessarily true, and necessity implies existence"
+    - "We can visualize mathematical structures mentally, and whatever we can clearly conceive must exist"
+  answer: 1
+  explanation: "The indispensability argument is an inference-to-the-best-explanation move: physics uses functions, numbers, and sets; if we accept that physics accurately describes reality, we are already committed to the existence of whatever the theory quantifies over. This is not an appeal to intuition or necessity — it is the same criterion we use to accept electrons. The argument's force is that rejecting abstract objects while accepting physics requires explaining why numbers are different from electrons as theoretical posits."
+
+- question: "A student claims: 'Nominalists must think mathematics is mostly false, since they deny numbers exist.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — nominalists do reject most standard mathematical truths"
+    - "Nominalists deny that statements like '7 is prime' require abstract objects to be true; most nominalists accept mathematical truths but dispute the ontological commitment, not the truth value"
+    - "The student is right that nominalism leads to mathematical skepticism, but this is acceptable for nominalists"
+    - "Nominalism concerns properties and relations only, not numbers or sets"
+  answer: 1
+  explanation: "This is the most common misconception about nominalism. Most nominalists are mathematical fictionalists or structuralists: they accept that '7 is prime' is in some sense correct while denying it obliges us to posit a causally inert object called '7.' Hartry Field, for example, argues physics can be done without mathematical ontology — mathematics is a useful fiction. Nominalism is an ontological thesis, not a thesis about which sentences are useful or provable."
+
+- question: "Platonism holds that abstract objects like numbers exist independently of all minds — they would exist even if no humans or other minds had ever existed."
+  type: true-false
+  answer: true
+  explanation: "Mind-independence is central to Platonism (as opposed to idealism or psychologism, which would locate numbers in minds). Platonists hold that 7 was prime before anyone counted and will remain prime after the last mind is gone. This is what makes mathematics feel like discovery rather than invention — the truths are 'out there' waiting to be found. It is also what generates the epistemological problem: if numbers are mind-independent and causally inert, how did we come to know about them?"
+
+- question: "Benacerraf's dilemma is a decisive refutation of Platonism: once you accept that abstract objects are causally inert, there is no available account of how we know them."
+  type: true-false
+  answer: false
+  explanation: "Benacerraf's dilemma poses a genuine challenge, not a decisive refutation. It sharpens the problem of mathematical knowledge under Platonism, but Platonists have responses: perhaps knowledge doesn't always require causal contact (we know logical truths without causal contact with logical facts); perhaps mathematical intuition is a faculty that warrants belief without causal mechanism; perhaps the epistemological standard for abstract objects should differ from that for physical objects. The dilemma establishes that Platonism has an epistemological cost, not that Platonism is false."
+
+- question: "Why is Benacerraf's dilemma considered a 'dilemma' rather than a simple objection to Platonism? What are the two horns, and why is each problematic?"
+  type: short-answer
+  answer: "One horn: if abstract objects exist (Platonism), they are causally inert — knowledge of them cannot arise through causal contact. But standard epistemology ties knowledge to causal connection with its objects. So how can we know abstract truths? Other horn: if knowledge requires causal contact, abstract objects either cannot be known (undermining mathematics) or must be causally potent (contradicting their abstractness). Any position must sacrifice either the standard causal theory of knowledge or abstract ontology."
+  explanation: "The dilemma is genuine because both horns are costly. Accepting the Platonist horn requires explaining how knowledge can exist without causal grounding — a departure from how we account for ordinary perceptual knowledge. Accepting the nominalist horn requires paraphrasing all of mathematics away from abstract reference, which Field's program attempts but with great technical difficulty. Neither escape is free, which is why the philosophy of mathematics remains a live field."
+```
+
 ## Explainer
 
 From your study of universals and particulars you know that some things in the world — properties, relations, kinds — seem to be shared across many individual objects. Abstract objects raise a harder version of that question: what about entities that don't seem to be located in or around concrete objects at all? The number 7 is not located under your chair or above the moon. The proposition that snow is white is not somewhere in space. The set of all prime numbers is not a thing you can bump into. **Abstract objects** — if they exist — are non-spatial, non-temporal, and causally inert. This puts them in a radically different ontological category from anything in your perceptual experience.

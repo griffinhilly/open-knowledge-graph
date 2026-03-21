@@ -29,6 +29,45 @@ Measure sound intensity with a decibel meter at various distances from a speaker
 - All waves lose energy equally; energy loss depends on the medium and distance.
 - Intensity is proportional to amplitude; it's proportional to amplitude squared.
 
+## Questions
+
+```yaml
+- question: "A speaker produces sound at a certain amplitude. If the amplitude is doubled, what happens to the intensity?"
+  type: multiple-choice
+  options:
+    - "Intensity doubles — amplitude and intensity are proportional"
+    - "Intensity increases by a factor of three — the relationship is slightly superlinear"
+    - "Intensity quadruples — intensity scales with the square of amplitude"
+    - "Intensity increases by a factor of eight — amplitude affects both energy and frequency"
+  answer: 2
+  explanation: "Intensity is proportional to amplitude squared (I ∝ A²). Doubling A gives (2A)² = 4A², so intensity quadruples. This quadratic relationship is counterintuitive but follows from the physics of simple harmonic motion: particles in a wave store both kinetic and potential energy, and both scale with A². Option A — the most tempting wrong answer — treats the relationship as linear, confusing a doubling of amplitude with a doubling of intensity."
+
+- question: "A light bulb radiates energy uniformly in all directions. You move from 5 meters away to 10 meters away. How does the intensity of light at your new position compare to your original position?"
+  type: multiple-choice
+  options:
+    - "Intensity halves — it is inversely proportional to distance"
+    - "Intensity drops to one-quarter — it follows an inverse square law"
+    - "Intensity stays the same — only the amplitude decreases, not the intensity"
+    - "Intensity drops to one-eighth — both amplitude and area effects compound"
+  answer: 1
+  explanation: "For a point source radiating in three dimensions, the wavefront area grows as 4πr², so the same total power is spread over 4 times the area when distance doubles. Intensity (power per unit area) therefore drops to one-quarter — the inverse square law: I ∝ 1/r². This is a separate effect from the I ∝ A² relationship: the inverse square law describes how intensity changes with distance from a source; I ∝ A² describes how intensity depends on the amplitude of the wave itself."
+
+- question: "If a wave's amplitude is tripled, its intensity increases by a factor of nine."
+  type: true-false
+  answer: true
+  explanation: "Since I ∝ A², tripling the amplitude means intensity scales as (3A)² = 9A² — a ninefold increase. This is a direct application of the quadratic relationship. The factor is A², so multiplying A by any value n multiplies intensity by n²."
+
+- question: "Doubling the amplitude of a wave doubles the energy it carries per unit area."
+  type: true-false
+  answer: false
+  explanation: "Doubling amplitude quadruples intensity (energy per unit area per unit time), not doubles it, because I ∝ A². This is the most common misconception about wave energy — students often assume a linear relationship because many physical quantities scale proportionally. The quadratic relationship means small changes in amplitude produce large changes in energy, which is why a shout carries dramatically more energy than a whisper."
+
+- question: "Why does wave energy scale with the square of amplitude rather than proportionally with amplitude? What is the physical reason for this quadratic relationship?"
+  type: short-answer
+  answer: "Particles in a wave undergo simple harmonic motion, storing both kinetic energy (½mv²) and potential energy (½kx²). Both forms of energy depend on the square of their respective quantities — velocity (which scales with amplitude) and displacement (which is amplitude). When you double the amplitude, maximum velocity doubles and maximum displacement doubles, so both kinetic and potential energy quadruple. The total energy, being the sum of two terms that each scale with A², therefore scales as A²."
+  explanation: "The key is that energy in simple harmonic motion has two contributions — kinetic and potential — and both scale quadratically. This is why the I ∝ A² law applies across all wave types: mechanical waves, electromagnetic waves, and sound. Understanding this prevents the common error of treating amplitude as directly proportional to energy."
+```
+
 ## Explainer
 
 You already know that a wave is a disturbance that travels through a medium, carrying energy without permanently transporting matter. The **amplitude** of a wave measures how large that disturbance gets — the maximum displacement of any particle from its resting position. Think of shaking a rope: a gentle flick produces a small ripple, while a vigorous snap sends a large wave down the rope. That difference in disturbance size is amplitude, and it directly reflects how much energy you put into the wave.

@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Mitral regurgitation causes leftward displacement of the diastolic pressure-volume curve; the left atrium and ventricle dilate to accommodate the regurgitant volume. Eccentric hypertrophy and progressive chamber enlargement eventually exhaust compensatory mechanisms, leading to systolic dysfunction and pulmonary congestion.
 
+## Questions
+
+```yaml
+- question: "A patient with severe chronic mitral regurgitation has an echocardiographic ejection fraction of 62%. Which interpretation is most accurate?"
+  type: multiple-choice
+  options:
+    - "The EF is normal, indicating well-preserved left ventricular function"
+    - "The EF is mildly reduced, indicating moderate systolic dysfunction"
+    - "The EF may indicate early decompensation, since it should be hyperdynamic in compensated MR"
+    - "The EF is irrelevant in MR; only end-diastolic volume matters"
+  answer: 2
+  explanation: "In compensated MR, the EF is often 65–75% because the ventricle ejects into the low-resistance left atrium, reducing afterload and inflating the apparent EF. An EF of 62% — normal in a healthy heart — may represent early myocardial decompensation in a patient with severe MR, where a truly compensated ventricle should be generating a supranormal EF. Option A reflects the common misconception of applying standard EF thresholds without accounting for the altered loading conditions in MR."
+
+- question: "Why does chronic mitral regurgitation produce eccentric rather than concentric left ventricular hypertrophy?"
+  type: multiple-choice
+  options:
+    - "Because regurgitation increases afterload, forcing the wall to thicken to generate higher pressure"
+    - "Because volume overload dilates the chamber; sarcomeres are added in series to accommodate greater end-diastolic volume at normal filling pressure"
+    - "Because the regurgitant jet directly damages the myocardial wall, causing fibrosis and thinning"
+    - "Because eccentric hypertrophy reduces stroke volume to compensate for the regurgitant fraction"
+  answer: 1
+  explanation: "Eccentric hypertrophy (sarcomeres added in series, chamber dilation) is the response to chronic volume overload — the chamber enlarges to accommodate extra volume without excessive pressure rise. Concentric hypertrophy (sarcomeres added in parallel, wall thickening) is the response to pressure overload, as in aortic stenosis or hypertension. Option A confuses MR with a pressure-overload lesion; in MR, afterload is actually reduced by the regurgitant pathway."
+
+- question: "In compensated mitral regurgitation, the left ventricular ejection fraction is often higher than normal because part of the stroke volume is ejected into the low-resistance left atrium."
+  type: true-false
+  answer: true
+  explanation: "The MR regurgitant orifice provides an alternative, low-resistance outlet during systole, reducing the total afterload on the ventricle compared to a healthy heart ejecting only against the systemic vascular resistance. This afterload reduction inflates the EF, making it appear supranormal. This is why clinicians apply a higher EF threshold (e.g., EF < 60% warrants intervention) when evaluating MR patients."
+
+- question: "Surgery for mitral regurgitation should be timed by the onset of symptoms, because symptoms reliably signal the beginning of irreversible myocardial dysfunction."
+  type: true-false
+  answer: false
+  explanation: "Symptoms in MR often lag behind echocardiographic evidence of myocardial dysfunction by months to years. By the time dyspnea or other symptoms appear, the ventricle may already have sustained irreversible myocardial fibrosis and contractile loss. This is why serial echocardiographic surveillance — tracking end-systolic diameter and EF trends over time — is essential for catching the inflection point before symptom onset, which is too late to prevent permanent damage."
+
+- question: "Why does an elevated ejection fraction in a patient with severe mitral regurgitation not provide the same reassurance it would in a patient without valvular disease?"
+  type: short-answer
+  answer: "In MR, the ejection fraction is elevated in part because the ventricle ejects into the low-resistance left atrium as well as the aorta, artificially reducing afterload. This makes the EF appear higher than the underlying myocardial contractile function warrants. An EF of 65% in a healthy heart reflects strong contractility; the same EF in severe MR may mean the myocardium is already beginning to fail — the ventricle that should be generating 70–75% EF given its preload advantage is instead generating only 65%. The EF threshold for intervention in MR is therefore set higher than in non-valvular disease."
+  explanation: "This is a clinically dangerous misconception: reassured by a 'normal' EF, clinicians may delay surgery until the window for myocardial recovery has closed. End-systolic diameter >40 mm is used as an adjunct trigger precisely because it is less susceptible to the loading-condition confound that inflates EF in MR."
+```
+
 ## Explainer
 
 From the cardiac cycle, you know that the mitral valve opens during diastole to allow blood to fill the left ventricle from the left atrium, and snaps shut at the onset of systole so that ventricular contraction drives blood forward through the aortic valve. In **mitral regurgitation (MR)**, the valve fails to close competently: with each systolic contraction, a fraction of the stroke volume leaks backward into the left atrium instead of being ejected forward. This seemingly simple mechanical failure sets off a chain of compensatory responses that, over years, remodel both chambers and eventually cause them to fail.

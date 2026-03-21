@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Enthalpy of humid air per unit mass of dry air: h = h_da + ω*h_g, where ω is humidity ratio (kg water / kg dry air) and h_g is saturated vapor enthalpy. Entropy calculations account for the low partial pressure of water vapor. Psychrometric processes like adiabatic saturation and evaporative cooling relate wet-bulb temperature to mixture state.
 
+## Questions
+
+```yaml
+- question: "An HVAC engineer is analyzing a humidification process where steam is injected into a duct at constant temperature. Why is enthalpy expressed per kilogram of dry air rather than per kilogram of total mixture?"
+  type: multiple-choice
+  options:
+    - "Dry air enthalpy is always larger, so it gives more convenient numerical values"
+    - "The total mixture mass changes as water vapor is added, but dry air mass is conserved, making it the natural accounting basis"
+    - "The water vapor enthalpy is negligible compared to dry air enthalpy and can be ignored"
+    - "Psychrometric charts are defined on a per-mole basis, and dry air has a simpler molar mass"
+  answer: 1
+  explanation: "In psychrometric processes, water vapor is added or removed while dry air mass stays constant. If you normalized by total mixture mass, the reference unit itself would change during humidification (the denominator grows as vapor is added), making energy balances confusing. Using dry air as the reference mass is like using a fixed accounting unit — it simplifies all energy calculations because the baseline never changes. Every term in h = h_da + ω·h_g is per kg of that fixed dry air mass."
+
+- question: "At typical atmospheric conditions, the enthalpy of water vapor in humid air is evaluated using steam tables at the mixture temperature. This is valid because:"
+  type: multiple-choice
+  options:
+    - "Water vapor in air behaves as a saturated liquid at low concentrations"
+    - "The total pressure of the air-vapor mixture is always equal to the saturation pressure of water"
+    - "At the low partial pressures of water vapor in air, it behaves nearly as an ideal gas and its enthalpy depends on temperature alone"
+    - "The psychrometric chart assumes all humidity is in liquid form until the dew point is reached"
+  answer: 2
+  explanation: "Water vapor in atmospheric air exists at very low partial pressure (typically well below 0.1 atm) — far below its saturation pressure at typical temperatures. At such low pressures, vapor behavior closely approximates an ideal gas, for which enthalpy depends only on temperature, not pressure. This allows us to look up h_g from steam tables at the mixture temperature and use that value regardless of the actual partial pressure of the vapor in the mixture."
+
+- question: "In a humidification process, adding water vapor to dry air always increases the total entropy of the mixture, consistent with the second law of thermodynamics."
+  type: true-false
+  answer: true
+  explanation: "Water vapor in air exists at a partial pressure well below its saturation pressure — lower pressure always corresponds to higher specific entropy at fixed temperature (from the relation ds = -dP/T at constant T). When vapor is added to air, it enters a low-pressure environment where its entropy is high. The mixing process is irreversible — the vapor expands and mixes — and the combined system's entropy increases. This is consistent with the second law and explains why evaporative cooling and humidification are irreversible processes."
+
+- question: "The wet-bulb temperature and dew point temperature represent the same thermodynamic state variable, just measured by different instruments."
+  type: true-false
+  answer: false
+  explanation: "These are distinct state variables that convey different information. The dew point is the temperature to which air must be cooled (at constant pressure and humidity ratio) before condensation begins — it is a direct measure of the vapor partial pressure and humidity ratio. The wet-bulb temperature is the equilibrium temperature of a water-wetted surface exposed to the air — it depends on the adiabatic saturation process and is related to the enthalpy of the air-vapor mixture. Both are read from a psychrometric chart but along different lines and represent different physical quantities."
+
+- question: "Why is dry air — rather than total humid air mass — used as the reference mass in psychrometric enthalpy calculations, and why does this simplify HVAC energy balances?"
+  type: short-answer
+  answer: "Dry air mass is conserved in essentially all psychrometric processes: when you heat, cool, humidify, dehumidify, or mix airstreams, the dry air mass stays constant while water vapor mass changes. If enthalpy were expressed per kilogram of total mixture, the reference unit would change every time moisture is added or removed, complicating energy balances. By anchoring all properties to a fixed mass of dry air, the energy balance for any process reduces to tracking changes in h = h_da + ω·h_g: the h_da term accounts for sensible heat changes, and the ω·h_g term accounts for the latent heat of added or removed vapor."
+  explanation: "This choice of reference unit is analogous to using solvent mass rather than solution mass in solution thermodynamics — the solvent is the conserved component, so it provides a stable accounting baseline. In practice, it means that for any psychrometric process, you compute the enthalpy change per kg dry air at inlet and outlet states, multiply by the dry air mass flow rate, and get the total energy transfer directly — without needing to track changing mixture masses."
+```
+
 ## Explainer
 
 From psychrometric analysis, you already know the key state variables: **humidity ratio** ω (kg water vapor per kg dry air), **relative humidity** φ = p_v / p_sat(T), and how to locate states on the psychrometric chart. Now you need to compute actual thermodynamic properties — enthalpy h and entropy s — so that you can apply the first and second laws to HVAC processes and calculate real energy requirements.

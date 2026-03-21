@@ -45,6 +45,45 @@ Build a personal monthly budget spreadsheet from scratch: input categories, ente
 - A formula referencing another cell updates automatically when that cell changes; you do not need to re-enter it.
 - Formatting (bold, color) is cosmetic and does not affect calculations.
 
+## Questions
+
+```yaml
+- question: "A spreadsheet template has a tax rate in cell B1. The formula =A5*B1 is in cell C5 to calculate tax on a purchase. You copy this formula down to cells C6 through C20 to apply it to 15 more purchases. What will cell C6 contain?"
+  type: multiple-choice
+  options:
+    - "=A5*B1 — the formula copies exactly as written"
+    - "=A6*B2 — both references shift down one row"
+    - "=A6*B1 — the row reference for A shifts, but B1 also shifts to B2, breaking the tax rate link"
+    - "=A6*B1 — only if B1 is written as $B$1; otherwise it shifts to =A6*B2"
+  answer: 3
+  explanation: "This is the core trap with relative references. When you copy a formula down one row, ALL relative references shift down by one row. So =A5*B1 becomes =A6*B2 in C6 — which points to the wrong cell for the tax rate. To fix this, the tax rate reference must be absolute: =A5*$B$1. Then copying produces =A6*$B$1 in C6, correctly pointing to the tax rate in B1 every time."
+
+- question: "You enter the value 1500 in cell D3 and format it in red bold text. Another cell contains the formula =D3*2. If you change D3's formatting to green italic (but don't change the value), what does the formula cell now display?"
+  type: multiple-choice
+  options:
+    - "3000 — formatting is cosmetic and only affects appearance, not value"
+    - "An error — changing formatting can break formulas that reference the cell"
+    - "0 — the formatting change clears the underlying numeric value"
+    - "1500 — the formula re-reads the original unformatted value"
+  answer: 0
+  explanation: "Formatting (bold, color, italic, number display format) is purely cosmetic and has no effect on the value stored in a cell or on any formula referencing it. The formula =D3*2 reads the number 1500 and returns 3000 regardless of how D3 is visually presented. This is one of the most common misconceptions for new spreadsheet users who conflate the appearance of a cell with its underlying data."
+
+- question: "If you change the value in a cell that other cells reference in their formulas, those other cells automatically recalculate without any additional action."
+  type: true-false
+  answer: true
+  explanation: "This automatic recalculation is the defining feature of spreadsheet formulas. When you type =A1+A2 in A3 and later change the value in A1, A3 immediately updates to reflect the new sum. This is what makes spreadsheets 'live models' rather than static tables — you build the logic once and the outputs update as inputs change. (In very large spreadsheets, auto-calculation can sometimes be disabled for performance, but the default behavior is always automatic.)"
+
+- question: "A spreadsheet is a suitable replacement for a relational database when managing thousands of customer records that multiple team members need to edit simultaneously."
+  type: true-false
+  answer: false
+  explanation: "Spreadsheets are not databases. They lack referential integrity (no enforced relationships between data), degrade in performance and reliability at large scale, and are highly error-prone when multiple people edit simultaneously (no transaction control or conflict resolution). They also make it easy to accidentally overwrite or corrupt data with no audit trail. For multi-user, large-scale, or mission-critical data, a relational database is appropriate. Spreadsheets excel at personal analysis, small datasets, and calculations — not as shared data stores."
+
+- question: "What is the difference between a relative and an absolute cell reference, and why does that distinction matter when you copy a formula?"
+  type: short-answer
+  answer: "A relative reference (e.g., A1) shifts to match the new position when the formula is copied — paste it one row down and it becomes A2. An absolute reference (e.g., $A$1) remains fixed regardless of where the formula is copied. The distinction matters because some values should follow the formula (row-by-row data) and others should always point to one fixed cell (like a tax rate or conversion factor). Using the wrong type when copying produces formulas that reference the wrong cells."
+  explanation: "The classic example is a budget template: each row's subtotal formula should use a relative row reference so it sums that row's data, but a reference to a shared overhead rate cell should be absolute so every row's formula correctly points to the same rate. Mixing these up is one of the most common spreadsheet errors in real-world use."
+```
+
 ## Explainer
 
 A spreadsheet is organized around a simple idea you already know from math: variables and expressions. Each cell is a named location — A1, B3, C12 — that can hold a value or a formula. A formula is just an expression that uses cell addresses as its variables. When you type `=A1+A2` in cell A3, you are saying "let A3 equal the sum of whatever is in A1 and A2." When A1 changes, A3 recalculates automatically. This chain of automatic recalculation is what makes spreadsheets powerful — you build a model once, then update the inputs and watch all dependent values refresh instantly.

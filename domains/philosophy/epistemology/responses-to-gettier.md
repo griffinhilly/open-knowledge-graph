@@ -33,6 +33,45 @@ For each proposed fourth condition, construct a case that satisfies JTB plus tha
 - The failure of multiple responses to Gettier does not show that knowledge is unanalyzable, only that the conditions so far proposed are insufficient.
 - The causal theory of knowledge is a response to Gettier, not a general epistemological theory about all knowledge.
 
+## Questions
+
+```yaml
+- question: "Henry drives through Fake Barn County and correctly perceives a real barn with no false beliefs in his reasoning chain. The no-false-lemmas condition says this counts as knowledge. But intuitively, Henry does not know. What does this reveal?"
+  type: multiple-choice
+  options:
+    - "The no-false-lemmas condition is correct — Henry really does know, and the intuition is mistaken"
+    - "The no-false-lemmas condition is incomplete: Gettier-style epistemic luck can arise without any false intermediate beliefs"
+    - "Henry lacks knowledge because he has not verified the barn sufficiently carefully"
+    - "The causal theory correctly handles this case, showing that the no-false-lemmas condition is redundant"
+  answer: 1
+  explanation: "The Fake Barn case is a 'direct Gettier case' — it involves no false lemmas at all. Henry's perception is functioning normally, he has no false intermediate beliefs, and yet his true belief that there is a barn is epistemically lucky: if he had looked at any of the nearby facades, he would have formed a false belief. The no-false-lemmas condition cannot exclude this kind of luck. This counterexample motivates looking beyond the reasoning chain to the broader epistemic environment."
+
+- question: "Goldman's 1967 causal theory requires that the fact that p causally produce the belief that p. This handles perceptual knowledge well but faces a serious problem for mathematical knowledge. The best explanation of that problem is:"
+  type: multiple-choice
+  options:
+    - "Mathematical reasoning is too complex for simple causal accounts to capture"
+    - "Abstract mathematical facts do not enter into causal relations, yet we clearly know mathematical truths — so either the theory denies obvious knowledge or it requires a strained notion of 'causal connection'"
+    - "The causal theory was designed only for perceptual knowledge and was never intended to cover mathematics"
+    - "Mathematical beliefs are often false and therefore cannot be causally produced by the corresponding facts"
+  answer: 1
+  explanation: "The problem is fundamental, not technical. The number 7 is prime — but the primality of 7 does not cause anything. Abstract objects are causally inert. Yet we know mathematical truths. If the causal theory is taken literally, it implies we cannot know mathematics (implausible) or it must be extended to cover non-causal 'appropriate connections' (which threatens to make the theory so flexible it no longer rules out anything). This limitation reveals the causal theory as a partial response rather than a general solution."
+
+- question: "The repeated failure of proposed fourth conditions for knowledge — no-false-lemmas, causal theory, defeasibility — proves that knowledge cannot be analyzed into simpler necessary and sufficient conditions."
+  type: true-false
+  answer: false
+  explanation: "The failures show only that the proposed conditions are insufficient, not that no correct analysis exists. It is logically possible that the right set of conditions has not yet been found. However, the pattern of failures — each fix generating its own counterexamples — led many epistemologists to suspect the analysis project itself is misguided, perhaps because 'knowledge' is a family-resemblance concept that resists the kind of sharp definition the project seeks. Suspicion is not proof, and the distinction matters philosophically."
+
+- question: "Defeasibility theories handle the Fake Barn County case correctly, because the truth 'most barn-shaped structures in this area are facades' would defeat Henry's justification if he learned it."
+  type: true-false
+  answer: true
+  explanation: "This is one of defeasibility theory's genuine successes. The lurking true proposition — that the environment is filled with facade barns — would, if added to Henry's evidence, undermine his justification for believing there is a real barn. Defeasibility rightly identifies this as knowledge-defeating. The theory runs into trouble elsewhere (with 'misleading defeaters' like Grabit's lying mother), but the Fake Barn case is one where defeasibility gives the intuitively correct verdict."
+
+- question: "Why did the string of failed responses to Gettier lead many epistemologists to abandon the analysis project and turn instead to reliabilism or virtue epistemology?"
+  type: short-answer
+  answer: "Each proposed fix (no-false-lemmas, causal theory, defeasibility) captured something real about Gettier cases but generated its own counterexamples. The pattern suggested that 'knowledge' may not be decomposable into a short list of individually necessary and jointly sufficient conditions — it may resist definition the way family-resemblance concepts do. Reliabilism and virtue epistemology escape this by shifting the question from 'what conditions must be met?' to 'what kind of cognitive process or character reliably produces true beliefs?' — abandoning the hope of a definitional analysis in favor of a process-based or character-based account."
+  explanation: "The dialectical lesson is as important as any particular theory: when every proposed condition faces a new counterexample, that is evidence not just that the condition is wrong, but possibly that the framing — seeking necessary and sufficient conditions — is the wrong framing. Reliabilism (Goldman's later view) and virtue epistemology (Sosa, Zagzebski) represent a philosophical reorientation away from analysis toward explanation of what makes knowledge-producing cognition distinctive."
+```
+
 ## Explainer
 
 From your study of Gettier problems, you know that justified true belief is not sufficient for knowledge. Gettier's 1963 counterexamples showed that a belief can be justified and true and yet fail to be knowledge because the justification and the truth are connected only accidentally — through luck. The immediate philosophical reaction was to look for a **fourth condition** to add to the JTB analysis that would rule out Gettier cases while preserving all genuine cases of knowledge. The history of these responses is a case study in philosophical dialectic: each proposed fix is plausible, but each is either too weak (it still admits some Gettier-like cases) or too strong (it excludes cases that do seem like knowledge). Understanding why each response fails is as important as understanding the response itself.

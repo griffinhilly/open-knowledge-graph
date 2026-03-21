@@ -32,6 +32,45 @@ Draw K₄ without crossings to see planarity, then try and fail with K₅ and K�
 - Concluding a graph is non-planar because one particular drawing has crossings — what matters is whether any crossing-free drawing exists.
 - Forgetting to count the outer unbounded region as a face when applying Euler's formula.
 
+## Questions
+
+```yaml
+- question: "A student draws graph G in a particular way and produces 3 edge crossings. She concludes that G is non-planar. Is her reasoning valid?"
+  type: multiple-choice
+  options:
+    - "Yes — any drawing with crossings is sufficient evidence of non-planarity"
+    - "No — a graph is non-planar only if every possible drawing has crossings; one bad drawing proves nothing"
+    - "Yes — three crossings exceeds the planarity threshold"
+    - "No — only Kuratowski's theorem can establish non-planarity"
+  answer: 1
+  explanation: "Planarity is an existential property: a graph is planar if *some* crossing-free drawing exists. The fact that one particular drawing has crossings says nothing about whether a better drawing is possible. K₄ looks tangled in a naive square drawing but can be redrawn as a triangle with one interior vertex — no crossings. To prove non-planarity you must show that no crossing-free drawing exists, which is done via Euler's formula inequality (E > 3V − 6) or Kuratowski's theorem, not by exhibiting one bad drawing."
+
+- question: "A connected planar graph has V = 7 vertices and E = 11 edges. How many faces does it have?"
+  type: multiple-choice
+  options:
+    - "4"
+    - "5"
+    - "6"
+    - "7"
+  answer: 2
+  explanation: "Euler's formula for connected planar graphs states V − E + F = 2. Substituting: 7 − 11 + F = 2, so F = 6. This counts all faces, including the unbounded outer region surrounding the entire drawing. Forgetting to count the outer face is the most common error when applying this formula — it always counts as one face regardless of how large it is."
+
+- question: "A graph is non-planar if and only if it contains K₅ or K₃,₃ as a subgraph (not just a subdivision)."
+  type: true-false
+  answer: false
+  explanation: "Kuratowski's theorem requires a *subdivision* of K₅ or K₃,₃, not the graphs themselves. A subdivision replaces each edge with a path through new degree-2 vertices. A graph can be non-planar while containing neither K₅ nor K₃,₃ as literal subgraphs — but it will always contain a subdivision of one of them. The distinction matters: subdivisions introduce extra vertices along edges, so the obstruction graphs can appear in disguised form."
+
+- question: "When Euler's formula V − E + F = 2 is applied to a planar graph drawn without crossings, the large unbounded region surrounding the entire drawing counts as one of the F faces."
+  type: true-false
+  answer: true
+  explanation: "The outer unbounded region is always counted as one face in Euler's formula. This is why a triangle (V=3, E=3) has F=2: one triangular face inside, plus the outer face. Students who forget this will compute F = 1 for a triangle and get V − E + F = 2, apparently satisfied — but only by luck of having undercounted F by exactly 1. For the formula to give consistent results across all planar graphs, the outer face must always be included."
+
+- question: "Explain how the inequality E ≤ 3V − 6 is derived from Euler's formula, and how it can prove a graph is non-planar without examining any specific drawing."
+  type: short-answer
+  answer: "In any planar graph, every face is bounded by at least 3 edges, and each edge borders at most 2 faces, so 3F ≤ 2E, giving F ≤ 2E/3. Substituting into V − E + F = 2 yields V − E + 2E/3 ≥ 2, which rearranges to E ≤ 3V − 6. If a graph violates this bound (E > 3V − 6), no planar drawing can exist — regardless of how cleverly you try to draw it."
+  explanation: "The power of this approach is that it derives a necessary condition for planarity purely from counting, bypassing the need to reason about specific drawings. For K₅: V=5, so 3V−6=9, but E=10 > 9 — immediate contradiction. For K₃,₃: V=6, so 3V−6=12, but E=9 ≤ 12, so this bound alone doesn't rule out K₃,₃ (a tighter bound using the absence of triangles is needed). The inequality is a quick first test; Kuratowski's theorem provides the complete characterization."
+```
+
 ## Explainer
 
 A graph is **planar** if it can be drawn in the plane with no two edges crossing. Notice the careful phrasing: it is not that a specific drawing is crossing-free, but that *some* drawing exists with no crossings. K₄ (four vertices, every pair connected) looks tangled when drawn naively, but it can be redrawn with one vertex inside a triangle — no crossings. That's enough to make it planar. The question is always existential: does any valid embedding exist?

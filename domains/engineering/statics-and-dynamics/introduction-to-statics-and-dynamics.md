@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Statics is the study of objects in equilibrium under the action of forces and moments, with zero acceleration. Dynamics extends this to accelerated motion, examining how forces cause changes in motion through Newton's laws. Together, these form the foundation of mechanical engineering analysis, applicable to machines, structures, and systems.
 
+## Questions
+
+```yaml
+- question: "A structural engineer analyzes a loaded highway bridge. The bridge is stationary and its components carry large forces. Which approach applies?"
+  type: multiple-choice
+  options:
+    - "Dynamics, because large forces are acting on the structure"
+    - "Statics, because the bridge has zero acceleration and all forces must be in equilibrium"
+    - "Kinematics, because the positions and shapes of members must be determined"
+    - "Both statics and dynamics, because gravity is a dynamic force"
+  answer: 1
+  explanation: "The deciding criterion is acceleration, not the magnitude of forces. A stationary bridge has zero acceleration, so ΣF = ma = 0 — statics applies. Large forces are irrelevant to which approach is used; what matters is whether those forces are balanced. This is a common confusion: 'forces are acting' does not imply dynamics is needed."
+
+- question: "Newton's second law states ΣF = ma. How does the statics equilibrium condition ΣF = 0 relate to this?"
+  type: multiple-choice
+  options:
+    - "Statics is an independent law that applies only to structures; Newton's second law governs moving objects"
+    - "Statics is the special case of Newton's second law when acceleration is zero, so ma = 0"
+    - "Statics uses ΣM = 0 instead of Newton's second law, which only applies in dynamics"
+    - "Newton's second law requires velocity, which statics problems don't involve"
+  answer: 1
+  explanation: "Statics is not a separate physics — it is Newton's second law with a = 0. When an object has zero acceleration, ΣF = ma = m(0) = 0. Statics is dynamics in the special case where the net force and net moment are both zero. This unification is the key conceptual insight: both fields use the same underlying framework; they just ask different questions."
+
+- question: "Statics is a special case of dynamics where the acceleration of the object is zero."
+  type: true-false
+  answer: true
+  explanation: "Yes — statics is exactly the case where ΣF = ma simplifies to ΣF = 0 because a = 0. Both fields are rooted in Newton's laws. Understanding statics as a limiting case of dynamics, rather than a separate subject, builds the right conceptual foundation for engineering mechanics."
+
+- question: "Dynamics analysis is required any time forces act on an object, even if the object is not moving."
+  type: true-false
+  answer: false
+  explanation: "Dynamics is required when acceleration is non-zero — when forces are unbalanced. A stationary object under large forces can be analyzed entirely with statics, because its acceleration is zero. The presence of forces alone doesn't trigger dynamics; unbalanced forces (net force ≠ 0) do."
+
+- question: "What is the difference between kinematics and kinetics within dynamics, and why does this distinction matter in engineering?"
+  type: short-answer
+  answer: "Kinematics describes how objects move — position, velocity, and acceleration — without considering the forces that cause the motion. Kinetics connects forces to motion using Newton's second law, explaining why an object accelerates the way it does. The distinction matters because engineering problems often require both: first use kinematics to specify the desired motion (e.g., how fast a robot arm must move), then use kinetics to determine what forces and torques are required to produce that motion. Conflating the two leads to circular reasoning — you need to separate 'what is moving' from 'what causes it to move.'"
+  explanation: "This separation of description from causation is a general engineering habit of mind. Kinematics is about geometry and time; kinetics adds forces and mass. Most dynamics problems involve setting up kinematics first, then applying Newton's laws in the kinetics phase."
+```
+
 ## Explainer
 
 Every object you encounter is either staying put or changing its motion. A bridge stands still; a car accelerates; a spinning turbine blade moves at constant speed. **Statics** handles the first case: objects with no acceleration, where every force and moment is perfectly balanced. **Dynamics** handles the rest: situations where forces are unbalanced and something is speeding up, slowing down, or changing direction. Both fields are applications of the same underlying physics — Newton's laws — but they ask different questions and use different solution strategies.

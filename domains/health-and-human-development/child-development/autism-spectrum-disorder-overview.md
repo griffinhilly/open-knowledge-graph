@@ -35,6 +35,45 @@ Analyze early developmental video footage annotated for ASD-related behaviors (j
 - ASD is not a result of 'refrigerator mothers' or emotionally cold parenting — it is neurodevelopmental with strong genetic contributions.
 - Autism is not a single condition with uniform presentation; 'high-functioning' and 'low-functioning' labels are increasingly discouraged for masking the heterogeneity of support needs.
 
+## Questions
+
+```yaml
+- question: "A 3-year-old rarely makes eye contact and has intense interest in trains, but forms a strong attachment to his parents, uses some words, and becomes very distressed when routines change. Which best describes this presentation?"
+  type: multiple-choice
+  options:
+    - "This does not suggest ASD because the child has strong parental attachment"
+    - "This is consistent with ASD — the profile includes both social-communication differences and restricted/repetitive behaviors regardless of attachment"
+    - "ASD cannot be diagnosed until school age when social demands increase sufficiently"
+    - "The intense interest in trains is the defining feature of ASD, making this a straightforward diagnosis"
+  answer: 1
+  explanation: "ASD does not mean absence of attachment. Children with ASD often form deep bonds with caregivers; what differs is the *form* of social communication (joint attention, eye contact, reciprocity), not the presence of emotional connection. Option A reflects the 'refrigerator mother' misconception — a thoroughly refuted idea. Both clusters (social-communication differences AND restricted/repetitive behaviors) must be present, as they are here."
+
+- question: "ASD prevalence in the US rose from approximately 1 in 150 (early 2000s) to 1 in 36 (CDC 2023). What best explains this rise?"
+  type: multiple-choice
+  options:
+    - "Vaccines and environmental toxins introduced during this period caused a true increase in ASD incidence"
+    - "Expanded diagnostic criteria, increased awareness, and improved screening largely account for the increase"
+    - "Refrigerator parenting became more common as two-income households increased"
+    - "Accumulated genetic mutations in the population drove a true biological increase in incidence"
+  answer: 1
+  explanation: "The 2013 DSM-5 consolidated Asperger syndrome and PDD-NOS into a single ASD spectrum diagnosis, expanding who qualifies. Increased awareness and reduced stigma also brought more people to evaluation. True incidence change cannot be fully ruled out but does not account for most of the trend. The vaccine hypothesis originated in a fraudulent, retracted 1998 study and has been definitively refuted by population studies involving millions of children."
+
+- question: "Children with ASD can form strong emotional attachments to their caregivers, even though their social communication differs from neurotypical patterns."
+  type: true-false
+  answer: true
+  explanation: "ASD affects the *form* of attachment behaviors — how social communication is initiated and reciprocated — not the presence of attachment itself. Reduced joint attention or atypical eye contact are differences in social communication style, not evidence of emotional disconnection. Many children with ASD are deeply attached to their caregivers."
+
+- question: "Stimming (self-stimulatory behavior) in autism is best understood as random, purposeless motor behavior that should be eliminated through behavioral training."
+  type: true-false
+  answer: false
+  explanation: "Stimming typically serves a regulatory function — managing sensory input or emotional arousal. It is not random. Current understanding holds that suppressing stimming without addressing the underlying regulatory need is counterproductive and potentially harmful. Interventions should focus on understanding the function the behavior serves, not reflexive elimination."
+
+- question: "Why is 'autism spectrum disorder' called a *spectrum*, and what does that imply about labels like 'high-functioning' or 'low-functioning'?"
+  type: short-answer
+  answer: "'Spectrum' refers to the heterogeneity of presentations — ASD encompasses individuals with very different profiles of verbal ability, support needs, communication styles, and co-occurring conditions, all unified by the social-communication profile and restricted/repetitive behaviors. 'High-functioning' and 'low-functioning' are increasingly discouraged because they flatten this complexity: a person with strong verbal skills may have profound support needs in daily life, and these labels obscure what kinds of support are actually needed rather than clarifying them."
+  explanation: "The key insight is that 'spectrum' means heterogeneity, not a single linear scale from mild to severe. The DSM-5-TR captures this by describing ASD as a single diagnosis with specifiers for severity and support needs in each domain, rather than separate subtypes. Understanding the spectrum means recognizing that two people with ASD may present very differently while sharing the core profile."
+```
+
 ## Explainer
 
 From your study of developmental screening, language acquisition, and attachment theory, you have the conceptual prerequisites to understand what makes ASD distinctive — and why "spectrum" is the accurate term. ASD is not defined by a single impairment but by a profile: persistent differences in **social communication and interaction** combined with **restricted, repetitive patterns of behavior or interests (RRBs)**. Both clusters must be present from early development, though they may not become clinically apparent until social demands exceed a child's compensatory capacities.

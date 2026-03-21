@@ -30,6 +30,45 @@ Consider cases of higher-order defeat: learning that your reasoning method gives
 - Assuming all higher-order doubt is rational.
 - Confusing higher-order evidence with meta-level reasoning about beliefs.
 
+## Questions
+
+```yaml
+- question: "You complete a complex mental calculation and feel fairly confident. A reliable statistician then informs you that people fail this type of calculation 70% of the time. What has the statistician's information done to your epistemic justification?"
+  type: multiple-choice
+  options:
+    - "Provided a rebutting defeater — you now have positive reason to believe your answer is wrong"
+    - "Provided an undercutting defeater — it undermines confidence in your calculation without telling you the specific answer is wrong"
+    - "Had no epistemic effect — the mathematical facts haven't changed, so your justification is intact"
+    - "Provided new first-order evidence about arithmetic that requires you to recalculate"
+  answer: 1
+  explanation: "A rebutting defeater (A) would give you positive reason to believe the opposite — 'your answer is X' would be a rebutting defeater, but the statistician isn't saying that. A rebutting defeater changes the balance of evidence about the conclusion. The statistician's information is an undercutting defeater: it doesn't say your answer is wrong; it says the process that generated your belief is unreliable. Option C misses the point entirely — higher-order evidence operates on your relationship to the evidence, not on the evidence itself. Option D conflates first-order and higher-order evidence."
+
+- question: "A climate scientist and an unqualified blogger reach opposing conclusions about sea-level projections. The conciliationist position holds that the scientist should..."
+  type: multiple-choice
+  options:
+    - "Maintain her view completely — her expertise makes her a superior evidence-evaluator whose judgment outweighs peer disagreement"
+    - "Dismiss the blogger's view since he is not a genuine epistemic peer and peer disagreement is the only case requiring conciliation"
+    - "Reduce her confidence somewhat — anyone engaging the evidence and reaching a different conclusion provides higher-order evidence that she may be missing something"
+    - "Switch fully to the blogger's view — disagreement means one party must be completely wrong"
+  answer: 2
+  explanation: "The steadfast view (A) holds that sufficiently strong first-order evidence permits maintaining your position. Option B introduces the 'epistemic peer' qualification — conciliationists debate whether this restricts the requirement, but the strict conciliationist position applies broadly. The conciliationist core claim (C) is that any disagreement from someone engaging the evidence, regardless of their expertise level, is higher-order evidence that you should update on. Option D goes too far — conciliationism requires updating, not capitulating. This question illustrates why the debate matters: the same facts support different conclusions depending on whether you weight first-order evidence or your meta-assessment of reliability."
+
+- question: "Higher-order evidence is simply very important first-order evidence — it is evidence about the world that happens to have especially strong implications for a belief."
+  type: true-false
+  answer: false
+  explanation: "Higher-order evidence is evidence at a different level, not evidence of a stronger kind. First-order evidence is evidence about the world — data, observations, arguments about the topic itself. Higher-order evidence is evidence about your evidence or your reasoning process: that your information source is unreliable, that experts disagree, that you were intoxicated when you formed the belief. It doesn't change what the world is like; it changes what your evidence is worth. This categorical distinction is what makes higher-order evidence philosophically distinctive — it operates on the relationship between you and your evidence, not on the evidence itself."
+
+- question: "An undercutting defeater can reduce your justification for a belief even if it gives you no positive reason to think the belief is false."
+  type: true-false
+  answer: true
+  explanation: "This is precisely what distinguishes undercutting from rebutting defeaters. A rebutting defeater gives you evidence for the negation of your belief — it says 'not-p.' An undercutting defeater removes the support for your belief without providing contrary evidence — it says 'your evidence for p is no good,' while staying neutral on whether p is actually true. Learning that a witness was bribed doesn't give you evidence about what actually happened (rebutting); it removes the justificatory force of their testimony (undercutting). Higher-order evidence typically works as an undercutting defeater."
+
+- question: "How does learning that you are mildly intoxicated serve as higher-order evidence about a conclusion you just reasoned to, and why is this different from simply receiving new evidence against that conclusion?"
+  type: short-answer
+  answer: "Learning you are intoxicated is evidence about your belief-forming process, not about the conclusion itself. It doesn't tell you the conclusion is wrong; it tells you the cognitive process that produced the conclusion is operating below its normal reliability. This is higher-order evidence: it operates on the relationship between you and your evidence, not on the evidence. By contrast, new first-order evidence against the conclusion would give you a positive reason to believe the opposite — a fact or argument that directly contradicts what you concluded. The intoxication case is an undercutting defeater (undermines the justification without providing contrary evidence); new counter-evidence would be a rebutting defeater (provides reason to believe the opposite). Rationality requires responding to both types, but they work through different mechanisms."
+  explanation: "The distinction matters because it affects what rational response is required. Against rebutting evidence, you must weigh competing considerations about the world. Against undercutting higher-order evidence, you must recalibrate your confidence in your own reliability — a meta-level revision that doesn't require engaging with new facts about the subject matter itself."
+```
+
 ## Explainer
 
 Your Bayesian framework gives you a way to model how evidence updates beliefs: new evidence e raises the probability of hypothesis h when P(h|e) > P(h). That is **first-order evidence** — evidence about the world. **Higher-order evidence** is different in kind: it is evidence *about your own evidence or your reasoning process itself*. Learning that a trusted expert has been caught fabricating data doesn't change the data you read from them — but it changes what that data is worth. Learning that you are mildly intoxicated doesn't change the argument you just constructed — but it changes how much you should trust the conclusion you reached.

@@ -33,6 +33,45 @@ Analyze a dramatic scene by identifying each character's objective. Ask: What do
 ## Common Misconceptions
 An objective is not the same as a plot point. A character might want something (objective) that the plot prevents them from getting. Also, objectives can change scene-to-scene or even moment-to-moment.
 
+## Questions
+
+```yaml
+- question: "An actor is told to play 'feeling desperate for affection.' Their acting coach rejects this and asks them to reformulate it as an objective. Which reformulation is correct?"
+  type: multiple-choice
+  options:
+    - "I want to feel loved and accepted by this person"
+    - "I want to make this person show me that they care about me"
+    - "I want to experience emotional warmth in this scene"
+    - "I want to convey desperation to the audience"
+  answer: 1
+  explanation: "An objective must be active and transitive — directed at another person as a goal. 'Feel loved' describes a desired internal state, not an action; it generates nothing playable. 'Make this person show me they care' is transitive (it reaches toward the other character) and active (it drives tactical choices). Options A and C are internal states; option D is aimed at the audience rather than the scene partner — both are unplayable as objectives."
+
+- question: "Two characters argue about money. Character A wants to convince B to return the money; Character B wants to make A admit the debt was never owed. What does the objective framework predict about this scene?"
+  type: multiple-choice
+  options:
+    - "The scene will be static unless a plot event interrupts it"
+    - "Only one character's objective can drive the scene at a time"
+    - "Dramatic tension arises directly from the incompatible objectives"
+    - "The characters must share at least one objective for the scene to work"
+  answer: 2
+  explanation: "Conflicting objectives are the engine of dramatic conflict — when two characters each want something incompatible, the scene generates tension through the logic of their pursuit, not because of external events. Neither character is 'wrong'; both are pursuing legitimate wants. This is the structural insight of the objective framework: you don't need plot intervention to create drama — you need incompatible objectives."
+
+- question: "A character's objective is to make the other person confess their guilt. When flattery fails, the character switches to anger. This means the character has changed their objective."
+  type: true-false
+  answer: false
+  explanation: "Switching from flattery to anger is a change of *tactic*, not objective. The objective — making the other person confess — stays constant throughout the scene. Tactics are the different approaches a character tries to achieve the same goal. When a tactic fails, good acting means adjusting tactics, not abandoning the objective. Objectives are stable within a scene; tactics are flexible and responsive."
+
+- question: "A character's super-objective can shape how they pursue even small, moment-to-moment scene objectives."
+  type: true-false
+  answer: true
+  explanation: "Scene objectives connect to the super-objective — the overriding goal that governs the character's entire arc. Each scene objective is either a particular expression of or a stepping stone toward the larger want. A character whose super-objective is 'to prove I am worthy of love' will pursue even mundane scene objectives in ways colored by that larger hunger. Mapping this connection gives you the skeletal architecture of a character's dramatic journey."
+
+- question: "Why must an objective be formulated as an active verb directed at another person rather than as a feeling or emotional state the character wants to experience?"
+  type: short-answer
+  answer: "An emotional state ('feel respected,' 'feel loved') is internal and produces no action — you can't rehearse or perform 'feeling.' An active transitive objective ('make him admit he was wrong,' 'force her to trust me') reaches toward another person and generates a concrete sequence of tactics, adjustments, and responses. The transitive quality is what makes scenes move: every moment becomes an attempt to change the other person's behavior or belief."
+  explanation: "This is the core of the Stanislavski system: acting is doing, not feeling. Feelings emerge from the pursuit of objectives — when you genuinely try to achieve something against resistance, the emotions arise naturally. Starting with a feeling state produces generalized, unfocused performance. Starting with a transitive objective produces specific, motivated action from which authentic feeling flows."
+```
+
 ## Explainer
 
 You already understand that characters exist within **given circumstances** — the physical, historical, relational, and emotional conditions that define their situation before the action begins — and that **character motivation** explains why a character acts as they do. The concept of **objective** is how these abstract frameworks become concrete and playable: an objective is the specific goal a character is pursuing right now, in this scene, with this other person. It transforms motivation from background context into live dramatic action.

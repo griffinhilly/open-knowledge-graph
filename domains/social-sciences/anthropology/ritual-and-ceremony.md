@@ -36,6 +36,45 @@ Analyze a familiar ritual (graduation, wedding, religious confirmation) using va
 - Ritual efficacy is social and psychological, not necessarily supernatural, even for participants who believe otherwise.
 - Liminality describes a structural position, not merely a feeling of ambiguity.
 
+## Questions
+
+```yaml
+- question: "Military basic training strips recruits of civilian clothing and identity, subjects them to an ambiguous period where they are treated as neither civilian nor soldier, then formally inducts them as soldiers. Which phase of van Gennep's tripartite structure does the induction ceremony represent?"
+  type: multiple-choice
+  options:
+    - "Separation — removing them from their prior social status"
+    - "Liminality — a threshold state where they belong to neither category"
+    - "Reincorporation — restoring them to society with a new identity"
+    - "Communitas — the egalitarian solidarity formed among participants"
+  answer: 2
+  explanation: "The scenario describes all three phases, but the induction ceremony is specifically the reincorporation (or aggregation) phase — the moment when participants are formally reintegrated into society with a new, recognized social identity. Separation occurred when recruits were stripped of civilian identity; the ambiguous training period is liminality; the induction ceremony completes the transformation by publicly conferring the status of 'soldier.' Communitas (option D) is not a structural phase but an experience that arises during the liminal phase."
+
+- question: "An ordination ceremony in a church does not merely celebrate a person who has already become a priest. According to ritual theory, what does the ceremony actually do?"
+  type: multiple-choice
+  options:
+    - "It publicly announces a spiritual change that occurred privately beforehand"
+    - "It constitutes the person as a priest — the ceremony itself is what makes them one in a socially recognized sense"
+    - "It symbolically represents a transformation that is essentially psychological and internal"
+    - "It marks the completion of training, which is when the real transformation occurred"
+  answer: 1
+  explanation: "This is the performative function of ritual: the ceremony does not reflect an already-existing transformation but produces it. Before the ordination, the person is not socially or legally a priest; after it, they are. The same logic applies to marriages, graduations, and legal verdicts — the ritual act constitutes the new status. Options A and C both suggest the ceremony is secondary to some prior real change; option D locates the transformation in training rather than in the ritual itself. Ritual theory insists the ceremony is causally efficacious, not merely commemorative."
+
+- question: "Liminality, as theorized by van Gennep and Turner, describes primarily a psychological feeling of confusion and in-between-ness experienced by ritual participants."
+  type: true-false
+  answer: false
+  explanation: "Liminality is a structural concept, not primarily a psychological one. It describes the social position of a person who has been separated from their prior status but has not yet been reincorporated into a new one — they are structurally 'betwixt and between' recognized social categories. The experience may well involve subjective feelings of ambiguity, but that is a consequence of the structural position, not the definition. Turner's contribution was to examine what happens in this structural position — particularly the emergence of communitas — rather than just its emotional texture."
+
+- question: "Secular modern societies, like industrialized Western nations, participate in rituals just as extensively as pre-modern or traditional societies."
+  type: true-false
+  answer: true
+  explanation: "Ritual is not confined to 'primitive' or explicitly religious contexts. Graduations, legal trials, state inaugurations, sporting championships, military ceremonies, corporate onboarding, and even birthday parties follow prescribed, symbolic forms that transform or affirm social identities. Anthropologists have documented that the structural features van Gennep identified — separation, liminality, reincorporation — appear in these contexts just as in more overtly religious rites. The misconception that ritual belongs only to 'traditional' societies reflects ethnocentrism: the assumption that modernity has transcended something pre-modern societies depend on."
+
+- question: "What does it mean to say that rituals are 'performative' rather than merely 'reflective' of social reality?"
+  type: short-answer
+  answer: "A performative ritual creates or constitutes a new social reality through the act of performance — it does not celebrate or reflect a transformation that occurred separately. The ceremony itself is what produces the change."
+  explanation: "Philosophers of language (J.L. Austin) distinguished between constative utterances (statements that describe reality) and performative utterances (statements that do something). 'I now pronounce you married' is not a description — it is an action that makes a marriage. Rituals are social performatives: a graduation ceremony transforms a student into a graduate; a verdict transforms a defendant into a convicted or acquitted person; an ordination creates a priest. The social status is produced by the ritual, not merely announced by it. This is why skipping the ritual matters even when all the 'real' prerequisites (completing coursework, finishing training) are met — without the ritual, the social transformation is incomplete."
+```
+
 ## Explainer
 
 From your anthropology overview, you understand that culture is not just a collection of beliefs and practices but a system that organizes social life and gives it meaning. Ritual is one of the most powerful mechanisms culture uses to do that work. What makes ritual different from ordinary behavior is its formalized, prescribed character — participants follow a script, use special objects, occupy special spaces, and perform actions whose meaning is not exhausted by their literal content. Shaking hands is polite behavior; swearing an oath on a sacred text is a ritual. The same physical gesture means something entirely different in a ritual frame.

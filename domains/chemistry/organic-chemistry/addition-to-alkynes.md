@@ -34,6 +34,45 @@ Compare each alkyne reaction with its alkene analogue side by side to see what s
 - Lindlar hydrogenation gives cis (syn addition), while Na/NH3 gives trans (anti addition); these are not interchangeable.
 - Alkynes are slightly less reactive than alkenes toward electrophilic addition because the vinyl cation intermediate is less stable than a typical carbocation, despite alkynes being more electron-rich.
 
+## Questions
+
+```yaml
+- question: "Acid-catalyzed hydration of 1-pentyne (using HgSO4/H2SO4) produces which carbonyl compound?"
+  type: multiple-choice
+  options:
+    - "Pentan-1-al — water adds to the terminal carbon following Markovnikov's rule"
+    - "Pentan-2-one — water adds to the internal carbon, forming an enol that tautomerizes to a ketone"
+    - "Pentan-1-ol — the triple bond is fully reduced to a primary alcohol"
+    - "Pentan-2-ol — Markovnikov addition gives a secondary alcohol directly"
+  answer: 1
+  explanation: "Markovnikov's rule places the OH on the more substituted (internal) carbon, giving a vinyl alcohol (enol) at C2. Enols are unstable and spontaneously tautomerize to the more stable keto form — a methyl ketone (pentan-2-one). Option A (aldehyde) is the most tempting wrong answer: it would require anti-Markovnikov addition (OH on C1), which requires hydroboration-oxidation, not acid catalysis."
+
+- question: "A chemist adds exactly one equivalent of HBr to 2-butyne under Markovnikov conditions. What is the primary product?"
+  type: multiple-choice
+  options:
+    - "2,2-dibromobutane — both bromines add to the same carbon"
+    - "2-bromobutane — HBr adds across the triple bond giving an alkane product"
+    - "2-bromo-2-butene — HBr adds once across the triple bond giving a vinyl halide"
+    - "meso-2,3-dibromobutane — anti addition of two bromines occurs"
+  answer: 2
+  explanation: "One equivalent of HBr adds once across one of the two pi bonds, converting the alkyne to a vinyl halide (an alkene bearing a halogen). The triple bond has two pi bonds available; controlled addition of one equivalent stops at the alkene stage. Option A (geminal dihalide) would require two equivalents of HBr. Option D would require Br2, not HBr."
+
+- question: "Lindlar catalyst and sodium in liquid ammonia (Na/NH3) both partially hydrogenate alkynes to alkenes and produce the same stereochemical outcome."
+  type: true-false
+  answer: false
+  explanation: "These reagents produce opposite stereochemistry. Lindlar catalyst (poisoned Pd) delivers both hydrogen atoms to the same face of the triple bond (syn addition), giving the cis-alkene. Na/NH3 (dissolving-metal reduction) proceeds through a radical anion mechanism that delivers hydrogens from opposite faces (anti addition), giving the trans-alkene. Having both options available from the same alkyne is a powerful synthetic tool."
+
+- question: "Alkynes are less reactive than alkenes toward electrophilic addition reactions, despite containing more pi electrons."
+  type: true-false
+  answer: true
+  explanation: "This is counterintuitive but correct. The intermediate in electrophilic addition to an alkyne is a vinyl cation — a carbocation on an sp-hybridized carbon. sp carbons hold their electrons more tightly than sp2 carbons, making vinyl cations less stable than typical secondary or tertiary carbocations formed during alkene additions. The less stable intermediate raises the activation energy, slowing the reaction despite alkynes being formally more electron-rich."
+
+- question: "Why does Markovnikov hydration of a terminal alkyne give a ketone, while anti-Markovnikov hydration (hydroboration-oxidation) of the same terminal alkyne gives an aldehyde?"
+  type: short-answer
+  answer: "Markovnikov addition places OH on the internal carbon (C2), producing an enol with the double bond between C1 and C2. This enol tautomerizes to a methyl ketone (carbonyl at C2). Anti-Markovnikov addition places OH on the terminal carbon (C1), producing an enol with the double bond between C1 and C2 but OH at C1. Tautomerization gives an aldehyde (carbonyl at C1). The regiochemistry of the initial water addition — which carbon gets the OH — determines the position of the carbonyl after tautomerization."
+  explanation: "Both pathways proceed through an enol intermediate that tautomerizes to a carbonyl compound. The difference is purely regiochemical: the position of OH in the enol becomes the position of the C=O in the product. Markovnikov rules and hydroboration-oxidation are thus complementary tools that give the chemist complete control over whether the terminal alkyne becomes a methyl ketone or an aldehyde."
+```
+
 ## Explainer
 
 If you understand electrophilic addition to alkenes, you already know the basic playbook: an electron-rich pi bond attacks an electrophile, forming a new sigma bond and a carbocation intermediate, which is then captured by a nucleophile. Alkynes follow the same logic but with a twist — they have **two pi bonds** available for reaction instead of one. This means every addition reaction you learned for alkenes can happen twice on an alkyne, and the real skill is controlling whether you stop at one addition or go all the way to two.

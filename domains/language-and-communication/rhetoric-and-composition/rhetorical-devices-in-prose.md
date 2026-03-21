@@ -34,6 +34,45 @@ Annotate a well-known speech (King's "I Have a Dream," Obama's "A More Perfect U
 - Rhetorical devices are decorative flourishes that belong only in speeches and literary writing; they appear throughout effective academic, journalistic, and professional prose whenever a writer wants to create emphasis or memorability.
 - Using many devices makes writing more persuasive; overuse produces purple prose that calls attention to technique rather than argument, undermining credibility.
 
+## Questions
+
+```yaml
+- question: "A student writing a persuasive essay deploys anaphora in the opening, antithesis in the second paragraph, chiasmus in the third, and two rhetorical questions in the conclusion. What is the most likely effect on the reader?"
+  type: multiple-choice
+  options:
+    - "The essay will be maximally persuasive because each device reinforces the argument from a different angle"
+    - "The devices will compete for the reader's attention, calling focus to technique rather than argument and undermining credibility"
+    - "Only the chiasmus will register, since it is the most structurally distinctive device"
+    - "Readers will interpret the variety as evidence of the writer's mastery and find the argument more authoritative"
+  answer: 1
+  explanation: "Overuse produces purple prose — writing that calls attention to its own technique rather than serving the argument. When devices crowd a passage, readers sense ornamental intent and feel manipulated rather than persuaded. The misconception is that accumulating devices amplifies persuasion; the reality is that one well-placed device carries more weight than five competing for attention."
+
+- question: "In Kennedy's 'Ask not what your country can do for you — ask what you can do for your country,' the primary device at work is:"
+  type: multiple-choice
+  options:
+    - "Anaphora — the word 'ask' is repeated to build momentum across both clauses"
+    - "Antithesis — contrasting obligations are juxtaposed in a balanced grammatical structure"
+    - "Chiasmus — the grammatical elements of the first clause are mirrored and reversed in the second"
+    - "Parallelism — the two clauses share matching grammatical structure for equal emphasis"
+  answer: 2
+  explanation: "This is the canonical chiasmus example (A-B / B-A): 'what your country can do for you' becomes 'what you can do for your country' with subject and object inverted. The reversal creates a sense of completion and inevitability — the sentence feels finished in a way that lodges it in memory. Antithesis and parallelism are present as well, but chiasmus names the specific reversal that makes this sentence work."
+
+- question: "Parallelism creates emphasis partly because it fulfills the reader's expectation that structurally equivalent ideas will receive structurally equivalent grammar."
+  type: true-false
+  answer: true
+  explanation: "This is exactly right. Parallelism exploits the pattern-seeking nature of the human mind: once a structural pattern is established, the reader expects continuation. When the writer delivers it — three prepositional phrases, three adjectives, three clauses — the fulfillment of expectation creates a subtle satisfaction that drives the point home. The pleasure of pattern-recognition is part of what makes parallelism feel emphatic rather than repetitive."
+
+- question: "Using multiple rhetorical devices in close proximity amplifies persuasive effect because each device engages the reader's pattern-recognition from a different angle."
+  type: true-false
+  answer: false
+  explanation: "This is the primary misconception about rhetorical devices. Overuse produces purple prose — writing that calls attention to its technique rather than its argument. Multiple devices competing in the same passage make the structure feel ornamental and manipulative. Each device is most powerful when deployed sparingly and purposefully; the contrast between plain prose and a single well-chosen device creates the emphasis. Quantity reduces impact rather than increasing it."
+
+- question: "Explain why a rhetorical question can be more persuasive than a direct assertion making the same claim — and what condition makes the strategy backfire."
+  type: short-answer
+  answer: "A rhetorical question pulls the reader into an act of agreement by making them mentally supply the answer. Rather than receiving the conclusion passively, the reader reaches it through their own reasoning — and conclusions we reach ourselves feel more compelling than ones told to us. The strategy backfires when the question's implied answer isn't actually obvious to the reader, or when the reader disagrees with its premise: in those cases, the device reads as manipulation rather than persuasion, because the pretense of a 'question' highlights that the writer is trying to steer rather than argue."
+  explanation: "The key mechanism is reader involvement: rhetorical questions recruit the reader's reasoning apparatus. 'If not now, when?' is more powerful than 'We must act now' because the reader, by mentally answering 'now,' participates in reaching the conclusion. Transparency is the risk — if the question feels loaded or the reader sees through the device, the implied agreement collapses and the writer loses credibility."
+```
+
 ## Explainer
 
 Rhetorical devices exploit something fundamental about how human minds process language: we are pattern-seeking creatures who find pleasure and memorability in structure. When you read "Ask not what your country can do for you — ask what you can do for your country," the reversal locks into memory partly because the grammatical structure creates a satisfying closure. That reversal is **chiasmus** — an A-B, B-A mirroring where the second clause inverts the elements of the first. The device makes the sentence feel complete, inevitable, finished. You've encountered the emotional and argumentative dimensions of persuasion; now you're learning the structural mechanics that make language stick.

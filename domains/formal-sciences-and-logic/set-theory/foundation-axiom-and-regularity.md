@@ -32,6 +32,45 @@ Show that foundation rules out x ∈ x (take {x} as the nonempty set; if x ∈ x
 - Assuming foundation is 'obvious' (historically, it was debated and is independent of other axioms).
 - Confusing the no-cycle consequence with the axiom itself; the axiom is stronger.
 
+## Questions
+
+```yaml
+- question: "A set theorist wants to prove in ZFC that the set x defined by x = {x} cannot exist. Using the axiom of foundation, which argument correctly rules it out?"
+  type: multiple-choice
+  options:
+    - "Such a set would be too large, violating the axiom of power sets"
+    - "Consider {x}: its only element is x. Since x ∈ x, we have x ∈ {x} and x is not ∈-minimal in {x}, contradicting foundation"
+    - "The set x would require infinitely many elements, violating the axiom of infinity"
+    - "Self-membership is ruled out by the axiom of extensionality, not foundation"
+  answer: 1
+  explanation: "The proof applies foundation to the singleton {x}. Foundation requires every nonempty set to have an ∈-minimal element m such that m ∩ {x} = ∅. The only element of {x} is x itself. But if x ∈ x (as assumed), then x ∈ {x} ∩ x ≠ ∅, so x is not ∈-minimal in {x} — contradiction. This argument generalizes to rule out any finite membership cycle x₀ ∈ x₁ ∈ ··· ∈ x₀: the set of cycle members would have no ∈-minimal element."
+
+- question: "The axiom of foundation is equivalent to which positive statement about the set-theoretic universe?"
+  type: multiple-choice
+  options:
+    - "Every set can be well-ordered by some relation"
+    - "Every set is finite or countably infinite"
+    - "Every set appears in some level Vα of the cumulative hierarchy V = ⋃_α Vα"
+    - "Every set has a unique complement within the universal set"
+  answer: 2
+  explanation: "Foundation is not merely a prohibition — it has positive content: every set belongs to the cumulative hierarchy. Defining V₀ = ∅, Vα+1 = 𝒫(Vα), and Vλ = ⋃_{α<λ} Vα for limit ordinals, foundation is equivalent to saying V = ⋃_α Vα contains all sets. This guarantees a well-defined rank function ρ(x) for every set, turning structural induction on sets into transfinite induction on ordinals."
+
+- question: "The axiom of foundation can be derived from the other ZFC axioms (extensionality, pairing, union, power set, infinity, separation, replacement, and choice)."
+  type: true-false
+  answer: false
+  explanation: "Foundation is independent of the other ZFC axioms: ZFC without foundation — and even ZFC with the negation of foundation — is consistent if ZFC is consistent. Non-well-founded set theories (such as those using Peter Aczel's Anti-Foundation Axiom) are mathematically coherent and useful for modeling circular processes in computer science and category theory. Foundation is a choice about which set-theoretic universe to inhabit, not a theorem derivable from more basic principles."
+
+- question: "The axiom of foundation rules out infinite descending ∈-chains of the form ··· ∈ x₂ ∈ x₁ ∈ x₀, not just finite membership cycles."
+  type: true-false
+  answer: true
+  explanation: "Foundation rules out both. For finite cycles: a set containing the cycle members would have no ∈-minimal element. For infinite descending chains: the set {x₀, x₁, x₂, ...} (if it exists) would also have no ∈-minimal element — every member xₙ has xₙ₊₁ ∈ xₙ ∩ {x₀, x₁, ...}, so no element is minimal. Foundation's requirement that every nonempty set have an ∈-minimal element simultaneously forbids both pathologies. This is what 'well-founded' means: no infinite descending chains in the membership relation."
+
+- question: "Why does the axiom of foundation play almost no role in ordinary mathematics (number theory, analysis, algebra) despite being a fundamental axiom of ZFC?"
+  type: short-answer
+  answer: "Foundation is an axiom about the boundaries of the set-theoretic universe — it rules out pathological self-membership and infinite descending membership chains. But the objects of ordinary mathematics (integers, real numbers, groups, functions) are all constructed in ways that are already well-founded by design. No standard construction in analysis or algebra produces sets that contain themselves or membership cycles. Foundation only becomes relevant when the question is 'what can a set look like in the most general sense?' — a question that arises in set theory itself but rarely in the disciplines that use set theory as a foundation."
+  explanation: "This is why foundation is often listed last among ZFC axioms and gets little attention in analysis or algebra courses. Its role is to prevent certain paradoxical corner cases from existing, but those corner cases never arise when doing standard mathematics. Foundation matters for set-theorists studying the structure of the universe V, and it matters negatively when one wants to build non-well-founded models — but for everyday mathematics, it is invisible."
+```
+
 ## Explainer
 
 From your work on **well-founded relations** and the **axiom of regularity**, you know that a relation R on a set is well-founded if every nonempty subset has an R-minimal element — an element with no predecessors under R. The axiom of foundation applies this concept to the membership relation ∈ itself: it asserts that ∈ is well-founded on the universe of all sets. Every nonempty set A contains an element x such that no member of x belongs to A, i.e., x ∩ A = ∅. That element x is ∈-minimal in A.

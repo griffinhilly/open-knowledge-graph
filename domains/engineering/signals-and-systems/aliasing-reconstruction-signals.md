@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Aliasing occurs when sampling violates the Nyquist criterion, causing high-frequency components to 'fold back' into the passband as spurious low-frequency signals. Anti-aliasing filters remove high frequencies before sampling; reconstruction filters (interpolation) convert discrete signals back to continuous form while suppressing alias images.
 
+## Questions
+
+```yaml
+- question: "A 1100 Hz sine wave is sampled at 2000 Hz (Nyquist limit = 1000 Hz). What appears in the sampled output?"
+  type: multiple-choice
+  options:
+    - "A clean 1100 Hz tone at reduced amplitude, since the sampler partially captures frequencies above the Nyquist limit"
+    - "No signal at all — frequencies above the Nyquist limit are excluded from the sampled representation"
+    - "A spurious 900 Hz tone that is indistinguishable from a genuine 900 Hz signal in the sampled data"
+    - "The original 1100 Hz tone plus a 900 Hz alias, both present simultaneously in the output"
+  answer: 2
+  explanation: "A frequency above the Nyquist limit folds back around f_N = f_s/2. The 1100 Hz tone is 100 Hz above f_N = 1000 Hz, so it folds to 1000 − 100 = 900 Hz. The sampled data contains a 900 Hz sinusoid — indistinguishable from a genuine 900 Hz signal. Option B is a common misconception: sampling does not exclude out-of-band frequencies, it corrupts them into aliases. Option D would require both frequencies to be present in the original signal; here only 1100 Hz is present, and it entirely aliases to 900 Hz."
+
+- question: "Why is it useless to apply a lowpass anti-aliasing filter after sampling rather than before?"
+  type: multiple-choice
+  options:
+    - "Digital filters cannot achieve the sharp rolloff needed to separate aliased components from genuine signal components"
+    - "Once a high-frequency component aliases into the sampled data as a lower-frequency signal, it is indistinguishable from a genuine signal at that frequency and cannot be removed"
+    - "Post-sampling filters introduce phase distortion that corrupts the amplitude information in the original signal"
+    - "The anti-aliasing filter must be analog because digital filters operate only on integer sample indices"
+  answer: 1
+  explanation: "Aliasing is irreversible. A 1100 Hz tone sampled at 2000 Hz appears as 900 Hz in the sampled data. The sampled sequence has no memory of whether its 900 Hz content came from a genuine 900 Hz source or from a folded 1100 Hz tone — the damage is baked in. A post-sampling filter cannot distinguish the alias from real signal; removing it would also remove any genuine 900 Hz content. The anti-aliasing filter must operate on the analog signal before the sampler ever sees it, eliminating the offending frequencies before they can fold."
+
+- question: "Aliasing is irreversible: once a signal component above the Nyquist frequency has been sampled, the alias it creates cannot be separated from genuine low-frequency content in the sampled data."
+  type: true-false
+  answer: true
+  explanation: "This is the fundamental asymmetry of aliasing: prevention is possible, correction is not. The alias and the genuine signal at the same frequency produce identical sample sequences — there is no mathematical operation on the sampled data that can distinguish them. This is why the anti-aliasing filter is placed before the ADC, not after. In practical data acquisition, discovering an unexpected spectral component requires checking whether it could be an alias (by varying f_s and observing whether the component shifts in frequency) before concluding it is genuine."
+
+- question: "Increasing the sampling rate always eliminates aliasing, regardless of the signal's frequency content."
+  type: true-false
+  answer: false
+  explanation: "Increasing f_s raises the Nyquist limit (f_N = f_s/2) and thus the range of frequencies that can be faithfully captured. But if the signal still contains components above the new Nyquist limit, aliasing still occurs. The requirement is that f_s exceed twice the maximum frequency present in the signal before sampling. Without an anti-aliasing filter, no sampling rate is 'safe' for a signal with unbounded frequency content. The filter and the sampling rate together determine aliasing behavior; neither alone is sufficient."
+
+- question: "Explain why oversampling (sampling well above the Nyquist rate) simplifies anti-aliasing filter design, and what tradeoff this involves."
+  type: short-answer
+  answer: "Oversampling increases the gap between the signal's highest frequency and the Nyquist limit, creating a wide transition band where the anti-aliasing filter can roll off gradually. A Nyquist-rate system requires a near-brick-wall filter (steep rolloff just above f_max), which demands a high-order analog filter with associated cost, phase distortion, and complexity. Oversampling relaxes this to a gentle rolloff over a wide frequency range, allowing simple, low-order analog filters. The tradeoff is storage and processing cost: sampling at 192 kHz instead of 44.1 kHz for audio produces over four times as much data per second, which must be stored, transmitted, and processed."
+  explanation: "Oversampling is widely used in modern ADC design for exactly this reason. Many high-quality converters use sigma-delta architecture, which oversample by a large factor (e.g., 256×), apply simple analog anti-aliasing, and then use digital decimation filters to reduce the sample rate to the target. The digital filter can achieve much sharper rolloff and better phase behavior than an equivalent analog filter, so the combined system outperforms a direct-Nyquist-rate design while using simpler analog components — a clean example of trading digital computation for analog simplicity."
+```
+
 ## Explainer
 
 From the Nyquist theorem, you know that a signal sampled at rate f_s can faithfully represent frequencies up to f_s/2. But the theorem's statement is also a warning: what happens when a component above f_s/2 is present at sampling time? It does not disappear. It reappears at a different, lower frequency — a **ghost signal** that was never in the original content. A 1100 Hz tone sampled at 2000 Hz does not cause a blank; it appears as a 900 Hz tone. That spurious tone is an alias, and once it is sampled in, it is indistinguishable from a genuine 900 Hz signal. The damage is irreversible.

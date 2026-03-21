@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Cells adhere to each other and the extracellular matrix through adhesion molecules: cadherins mediate calcium-dependent, homophilic cell-cell contacts and are critical for tissue integrity; integrins are heterodimeric receptors that bind matrix proteins (collagen, fibronectin, laminin) and couple the matrix to the cytoskeleton. Adhesion is not passive; signals from the matrix (through integrins) and cell-cell contacts (through cadherins) regulate gene expression, cell survival, and proliferation. Loss of adhesion is a hallmark of metastatic cancer; restoration of adhesion is a goal of therapeutic intervention.
 
+## Questions
+
+```yaml
+- question: "A circulating white blood cell is normally non-adhesive in the bloodstream, but rapidly becomes adhesive and latches onto an inflamed vessel wall. Which mechanism best explains this switch?"
+  type: multiple-choice
+  options:
+    - "Inside-out integrin signaling — intracellular signals change integrin conformation from a low-affinity to a high-affinity state"
+    - "Outside-in integrin signaling — matrix proteins on the vessel wall bind integrins and trigger intracellular adhesion cascades"
+    - "E-cadherin upregulation — the white blood cell expresses E-cadherin that binds matching E-cadherin on the endothelium"
+    - "Calcium influx — elevated intracellular calcium activates cadherin bonds between the cell and the vessel wall"
+  answer: 0
+  explanation: "Inside-out signaling is the mechanism by which intracellular signals change an integrin's conformation from a bent, low-affinity state to an extended, high-affinity state — enabling rapid on-demand adhesion to extracellular ligands. This is exactly how leukocytes become adhesive during inflammation. Outside-in signaling (option B) runs in the opposite direction: matrix binding triggers intracellular cascades. Cadherins mediate cell-cell adhesion, not immune cell adhesion to blood vessel walls, and their activation requires calcium but not conformational switching in the same way."
+
+- question: "A researcher uses EDTA (a calcium chelator) to dissociate an epithelial tissue into single cells. What is the most direct molecular explanation?"
+  type: multiple-choice
+  options:
+    - "Cadherin-mediated adhesion requires calcium; removing it causes cadherin bonds between cells to fall apart"
+    - "Integrins require calcium to bind collagen and fibronectin; removing it breaks all cell-matrix contacts"
+    - "Calcium powers mitochondrial ATP synthesis; removing it depletes energy and stops all active adhesion processes"
+    - "Calcium stabilizes the lipid bilayer; removing it causes plasma membranes to dissolve"
+  answer: 0
+  explanation: "Cadherins are calcium-dependent — their extracellular domains require calcium ions to fold into the correct conformation for homophilic binding. Remove calcium and cadherin bonds collapse immediately, which is why EDTA (which chelates calcium) is the standard lab method for dissociating epithelial tissues. While integrins are also affected by calcium removal, the primary mechanism for disrupting epithelial cell-cell contacts specifically is cadherin inactivation."
+
+- question: "Cell adhesion molecules serve only a structural role — holding cells together like molecular glue — without influencing cell behavior or fate."
+  type: true-false
+  answer: false
+  explanation: "Adhesion molecules are active signaling receptors. Integrins, when bound to matrix proteins, activate focal adhesion kinase (FAK) and downstream cascades that regulate cell survival, proliferation, and gene expression. Cells deprived of matrix contact often die by apoptosis (anoikis) precisely because they lose these survival signals. Cadherins similarly signal through catenins that intersect with Wnt signaling pathways. Adhesion does not just hold cells in place — it tells them where they are and whether they should live, divide, or differentiate."
+
+- question: "Downregulation of E-cadherin in epithelial tumor cells is associated with increased invasiveness and metastatic potential."
+  type: true-false
+  answer: true
+  explanation: "E-cadherin maintains the adhesive bonds between epithelial cells, organizing them into coherent sheets. When tumor cells downregulate E-cadherin — often through epithelial-mesenchymal transition (EMT) — they lose these connections, acquire a more migratory phenotype, and can invade surrounding tissue and enter the bloodstream to seed distant metastases. E-cadherin is sometimes called a 'suppressor of invasion' for this reason, and its loss is one of the hallmarks of metastatic cancer."
+
+- question: "Explain why 'outside-in' integrin signaling is important beyond simply maintaining physical attachment to the extracellular matrix."
+  type: short-answer
+  answer: "Outside-in signaling links the state of the extracellular environment to intracellular decisions about survival, proliferation, and gene expression. When integrins bind matrix proteins, they activate focal adhesion kinase (FAK) and downstream cascades that function as survival signals — cells lacking matrix contact often undergo apoptosis (anoikis). This means adhesion is not just an anchor: it is a sensor that informs the cell whether it is in the correct tissue context. Different matrix compositions trigger different signaling outputs, which is why cells behave differently in different extracellular environments."
+  explanation: "The bidirectionality of integrin signaling makes adhesion a two-way communication channel between cell and environment. Inside-out signaling allows cells to rapidly modulate their grip on the matrix in response to internal signals (as in leukocyte activation). Outside-in signaling allows the matrix to instruct the cell about its context. Together, these mechanisms mean that the physical connection between a cell and its surroundings is inseparable from the biochemical information flowing across that connection."
+```
+
 ## Explainer
 
 From your understanding of cell migration, you know that cells interact physically with their surroundings through integrin-based focal adhesions and cytoskeletal dynamics. Cell adhesion builds on this concept: rather than just enabling movement, adhesion molecules create the stable connections that hold tissues together and allow cells to communicate with their neighbors and the extracellular matrix. Without adhesion, a tissue would be nothing more than a bag of loose cells.

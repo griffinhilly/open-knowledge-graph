@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Revealed preference theory infers consumer preferences from observed choices without assuming a specific utility function. If bundle A is chosen when bundle B is affordable, A is revealed preferred to B. The WARP (Weak Axiom of Revealed Preference) ensures consistency; SARP (Strong Axiom) is necessary and sufficient for preferences to be rationalizable by a well-behaved utility function.
 
+## Questions
+
+```yaml
+- question: "A consumer buys bundle A = (3 apples, 2 oranges) when bundle B = (2 apples, 4 oranges) is also affordable. Later, at different prices, bundle B is chosen when bundle A is also affordable. Which axiom is violated?"
+  type: multiple-choice
+  options:
+    - "SARP but not WARP — this is an indirect cycle, not a direct reversal"
+    - "WARP (and therefore SARP) — A was directly revealed preferred to B, yet B was then directly revealed preferred to A"
+    - "Neither axiom — preferences are allowed to change when relative prices change"
+    - "SARP only — WARP permits reversals when prices are sufficiently different"
+  answer: 1
+  explanation: "WARP says: if A is directly revealed preferred to B (chosen when B was affordable), then B must never be directly revealed preferred to A (chosen when A is affordable). Both observations show direct choices when the alternative was affordable — making this a direct pairwise reversal, which violates WARP. Since SARP extends WARP to chains, SARP is also violated."
+
+- question: "What is the key methodological advantage of revealed preference analysis over classical demand analysis that assumes a specific utility function?"
+  type: multiple-choice
+  options:
+    - "Revealed preference allows utility functions to be estimated with less data"
+    - "Revealed preference is nonparametric — it tests rationality and recovers preference information without imposing a functional form on the utility function"
+    - "Revealed preference can predict behavior in markets that have not yet been observed"
+    - "Revealed preference eliminates the need for budget constraints in the analysis"
+  answer: 1
+  explanation: "Classical analysis assumes a utility form (Cobb-Douglas, CES, etc.) and estimates parameters. Revealed preference imposes no functional form. It tests only whether observed choices are consistent with SOME rational preference ordering. If the data satisfy SARP, a well-behaved utility function must exist — but you never need to specify what it looks like. This makes the approach more general and more empirically honest."
+
+- question: "If a consumer's choices satisfy the Weak Axiom of Revealed Preference (WARP), their behavior can always be rationalized by a well-behaved utility function."
+  type: true-false
+  answer: false
+  explanation: "WARP is necessary but not sufficient for rationalizability. It only rules out direct pairwise preference reversals, but longer cycles (A preferred to B, B preferred to C, C preferred to A through a chain of direct choices) are still possible. The Strong Axiom of Revealed Preference (SARP) — which rules out all preference cycles through any chain of comparisons — is necessary and sufficient for the existence of a well-behaved utility function."
+
+- question: "Revealed preference theory starts with observed choices and infers what the consumer's preferences must be, without needing to assume the form of the utility function."
+  type: true-false
+  answer: true
+  explanation: "This is the defining methodological feature of revealed preference theory. Samuelson's insight was that consumer behavior is observable but preferences are not — so theory should be grounded in observations. By checking whether choice data satisfy SARP, one can determine if a rational preference ordering exists without ever writing down a utility function."
+
+- question: "How does revealed preference theory 'flip' the logic of standard consumer theory, and what makes this reversal powerful?"
+  type: short-answer
+  answer: "Standard consumer theory assumes preferences (specifies a utility function) and deduces what choices the consumer will make. Revealed preference inverts this: it starts from observed price-quantity choices and asks whether those choices are consistent with some rational preference ordering. The power is methodological — you can test rationality directly from market data without assuming a functional form. If the data satisfy SARP, you know a well-behaved utility function must exist that rationalizes the behavior; if not, you can measure the severity of violations."
+  explanation: "The reversal matters because utility functions are unobservable mental constructs, while choices are directly measurable. Grounding consumer theory in observable behavior rather than assumed preferences makes it testable and falsifiable — a significant step toward empirical economics."
+```
+
 ## Explainer
 
 From consumer theory and utility, you know the standard approach: assume a consumer has a utility function, derive demand by maximizing utility subject to a budget constraint, and use the resulting demand functions to predict behavior. Revealed preference theory flips this logic entirely. Instead of starting with preferences and deducing choices, it starts with **observed choices** and asks: are these choices *consistent* with some rational preference ordering? This approach, pioneered by Paul Samuelson, puts consumer theory on a purely empirical foundation — no need to assume that utility functions exist or that consumers consciously maximize anything.

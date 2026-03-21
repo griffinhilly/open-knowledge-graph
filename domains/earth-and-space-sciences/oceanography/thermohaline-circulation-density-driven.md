@@ -35,6 +35,45 @@ Use global ocean maps showing salinity and temperature anomalies; trace the path
 ## Common Misconceptions
 Students often think the circulation is fast everywhere (it is slow in deep ocean); some confuse this with surface wind-driven gyres.
 
+## Questions
+
+```yaml
+- question: "Massive melting of the Greenland ice sheet adds large volumes of fresh water to the North Atlantic. What is the most direct consequence for thermohaline circulation?"
+  type: multiple-choice
+  options:
+    - "Surface winds weaken, slowing the wind-driven gyres that power the conveyor belt"
+    - "Freshwater dilutes surface salinity, reducing density and suppressing deep-water formation"
+    - "Warmer meltwater heats the surface layer, accelerating upwelling and speeding circulation"
+    - "Increased precipitation raises sea level, which increases pressure and deepens sinking zones"
+  answer: 1
+  explanation: "Thermohaline circulation is density-driven: water sinks only when it becomes dense enough through cooling and increased salinity. Freshwater input lowers surface salinity, reducing density even if temperatures stay the same. This inhibits or prevents the deep-water formation that drives the circulation. Options A and C confuse wind-driven surface gyres (a separate system) with thermohaline circulation; option D misapplies pressure concepts to the wrong mechanism."
+
+- question: "Why do the North Atlantic and Antarctic regions, specifically, generate the deep water masses that drive thermohaline circulation?"
+  type: multiple-choice
+  options:
+    - "These regions receive the most solar radiation, which heats water enough to increase its density"
+    - "Strong surface winds mechanically push surface water downward at these latitudes"
+    - "Cold temperatures and evaporation simultaneously increase density through reduced temperature and elevated salinity"
+    - "These regions are shallow, so surface water naturally sinks to the ocean floor"
+  answer: 2
+  explanation: "Density in seawater increases with both lower temperature and higher salinity. At high latitudes like the North Atlantic and Antarctic, intense cooling reduces temperature, and evaporation concentrates salt — both effects working together to maximize density. This double density increase is what drives sinking. Solar heating (option A) would decrease density. Surface winds drive separate, shallower gyre circulation (option B). Ocean depth (option D) is irrelevant to density-driven sinking."
+
+- question: "The thermohaline circulation moves water through the deep ocean on timescales of centuries to millennia, not days or years."
+  type: true-false
+  answer: true
+  explanation: "A water parcel that sinks in the North Atlantic may take 500 to 1,000 years to complete a full circuit back to the surface. Deep-ocean flow velocities are on the order of centimeters per second — vastly slower than surface ocean currents or wind-driven gyres. This long timescale has major implications: deep ocean water is essentially isolated from the atmosphere on human timescales, and disruptions to the circulation have very long-lasting effects."
+
+- question: "The thermohaline circulation and wind-driven surface gyres are both driven by the same mechanism — surface winds — operating at different depths."
+  type: true-false
+  answer: false
+  explanation: "These are fundamentally different systems driven by different forces. Wind-driven gyres are powered by atmospheric circulation transferring momentum to the ocean surface — they are shallow, fast, and respond quickly to changes in wind patterns. Thermohaline circulation is density-driven: powered by differences in temperature and salinity that determine where water is dense enough to sink. The confusion between these two systems is a common misconception. They co-exist and interact, but their driving mechanisms are distinct."
+
+- question: "Why do both cooling AND evaporation contribute to deep-water formation at high latitudes, and what happens if only one of these processes operates?"
+  type: short-answer
+  answer: "Seawater density increases with both lower temperature and higher salinity. Cooling reduces temperature (increasing density); evaporation removes fresh water as vapor, concentrating salt (also increasing density). Both processes reinforce each other at high latitudes. If only cooling occurred without salinity increase, the density gain might not be sufficient to produce sinking; if only evaporation occurred in warm water, the salinity increase might still leave water less dense than cold deep water. The two effects together are what makes high-latitude surface water dense enough to overcome the stable stratification of the deep ocean and sink."
+  explanation: "This question probes whether students understand that thermohaline circulation requires both thermal and haline effects — not just one. The combination produces water dense enough to sink through the stratified deep ocean. It also explains why the term 'thermohaline' encodes both contributors, and why climate projections of reduced salinity (from ice melt) are so concerning: removing one of the two density-increasing processes can shift the system past a tipping point."
+```
+
 ## Explainer
 
 You already know that ocean water density depends on temperature and salinity — cold, salty water is denser than warm, fresh water — and that density differences create the stratified layers you studied in ocean thermal structure. **Thermohaline circulation** is what happens when those density differences become large enough to drive water movement on a global scale. The name itself encodes the two controls: "thermo" (temperature) and "haline" (salt). Where surface water becomes sufficiently cold and salty, it grows dense enough to sink from the surface to the deep ocean floor, setting a planetary-scale conveyor belt in motion.

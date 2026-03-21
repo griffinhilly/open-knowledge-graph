@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Random signals (noise, stochastic processes) are characterized by their autocorrelation R(τ) = E[x(t)x(t+τ)] and power spectral density S(f) = FT{R(τ)}. White noise has flat PSD; colored noise has frequency-dependent power. These tools enable analysis of systems driven by noise and filtering of noisy signals.
 
+## Questions
+
+```yaml
+- question: "The autocorrelation R(τ) of a random signal decays to zero very slowly as the lag τ increases. What does this tell you about the signal?"
+  type: multiple-choice
+  options:
+    - "The signal has very little power — most of its energy is concentrated near τ = 0"
+    - "The signal has long memory — its current value is a good predictor of values far in the future"
+    - "The signal is white noise — it is uncorrelated at all nonzero lags by definition"
+    - "The signal must be periodic, because periodic signals maintain correlation across all lags"
+  answer: 1
+  explanation: "R(τ) measures how correlated the signal is with a time-shifted version of itself. When R(τ) decays slowly, the signal retains predictive power over long time intervals — it has 'memory.' Ocean waves, speech, and economic time series tend to have slowly decaying autocorrelation. Option C has it exactly backwards: white noise has R(τ) = δ(τ), meaning it decorrelates instantly at any nonzero lag. Option D confuses periodicity with correlation: periodic signals do maintain correlation at multiples of the period, but slowly-decaying correlation doesn't imply periodicity."
+
+- question: "A random signal has a power spectral density S(f) that is concentrated almost entirely at frequencies below 10 Hz. You pass it through a bandpass filter that passes only 50–100 Hz. What can you say about the output?"
+  type: multiple-choice
+  options:
+    - "The output power is roughly the same as the input — filters don't change total power"
+    - "The output has very little power — almost all signal power was in frequencies the filter removed"
+    - "The output is now white noise — filtering always whitens a signal's spectrum"
+    - "The output PSD is S_out(f) = S_in(f) / |H(f)|², which amplifies the remaining components"
+  answer: 1
+  explanation: "The output PSD is S_out(f) = |H(f)|² · S_in(f). Since S_in(f) is near zero in the 50–100 Hz band, and the filter passes only that band, the output has very little power — the filter transmits almost none of the input signal's energy. This is a direct application of the key result: you can predict output noise statistics from input PSD without knowing the actual waveform. Option D has the formula inverted (it should be multiplication, not division, and the filter reduces rather than amplifies here)."
+
+- question: "White noise has a flat power spectral density, which implies its autocorrelation is zero at all nonzero lags."
+  type: true-false
+  answer: true
+  explanation: "By the Wiener-Khinchin theorem, R(τ) and S(f) are a Fourier transform pair. A constant (flat) S(f) corresponds to R(τ) = δ(τ) — a delta function at τ = 0 and zero everywhere else. This means white noise is completely uncorrelated with itself at any nonzero time delay, which is consistent with its perfectly random (memoryless) character. The signal's value right now tells you nothing about its value an instant later."
+
+- question: "If you know the power spectral density of a random input signal and the frequency response of a linear system, you can predict the exact output waveform of the system."
+  type: true-false
+  answer: false
+  explanation: "Knowing S_in(f) and H(f) lets you compute S_out(f) = |H(f)|² · S_in(f) — but this only predicts the *statistical properties* of the output, not the actual waveform. The actual output remains random and unpredictable sample-by-sample. PSD analysis tells you where power is distributed across frequencies and what the average power is; it cannot tell you what value the signal will take at time t = 5.3 s. This is the fundamental difference between random and deterministic signal analysis."
+
+- question: "Why is the power spectral density (PSD) preferred over the Fourier transform for characterizing random signals? What makes direct Fourier analysis problematic for random processes?"
+  type: short-answer
+  answer: "Random signals don't have a well-defined Fourier transform because they are not absolutely integrable and their individual realizations differ unpredictably. Taking the Fourier transform of one specific realization gives you that realization's spectrum, not a stable characteristic of the process. The PSD instead characterizes the signal's *statistical* frequency content — the average power distribution that is stable and repeatable across realizations. Via the Wiener-Khinchin theorem, the PSD is defined as the Fourier transform of the autocorrelation R(τ), which is a deterministic function of the signal's statistics and can be reliably estimated."
+  explanation: "This connects to why autocorrelation is the central tool: it converts an unpredictable random process into a stable, deterministic function (R(τ)) that captures the signal's average statistical structure. The PSD is then the frequency-domain image of that structure — predictable even when the waveform itself is not."
+```
+
 ## Explainer
 
 Deterministic signals can be described exactly by a formula — you know what the signal will be at every future time. Random signals cannot. Thermal noise in a resistor, acoustic vibrations in a room, and radio interference are all unpredictable sample-by-sample, yet they have stable *statistical structure* that repeats on average. The challenge is to characterize that structure without knowing the actual waveform.

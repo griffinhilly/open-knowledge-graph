@@ -29,6 +29,45 @@ Use definitions directly to prove properties. For example, f(x) = 2x on ℝ is b
 ## Common Misconceptions
 - Confusing 'onto' (surjective) with 'one-to-one' (injective). - Thinking a function must be defined by a formula; what matters is the assignment rule. - Assuming bijections exist only between finite sets (false; bijections exist between infinite sets of equal cardinality).
 
+## Questions
+
+```yaml
+- question: "The function f: ℝ → ℝ defined by f(x) = x² is neither injective nor surjective. If we restrict the domain and codomain to [0, ∞) → [0, ∞), what changes?"
+  type: multiple-choice
+  options:
+    - "It becomes injective but not surjective — negative outputs are excluded but the function is still many-to-one for some inputs"
+    - "It becomes surjective but not injective — the codomain now matches the range, but two inputs can still share an output"
+    - "It becomes bijective — distinct non-negative inputs produce distinct outputs, and every non-negative real has a square root"
+    - "It remains neither — the formula f(x) = x² is fundamentally non-bijective regardless of domain"
+  answer: 2
+  explanation: "On all of ℝ, f(x) = x² fails injectivity (3 and -3 both map to 9) and surjectivity (negative numbers have no preimage). Restricting to [0,∞) → [0,∞) fixes both: non-negative inputs are all distinct after squaring (injectivity), and every non-negative real number b has a square root √b in the domain (surjectivity). This illustrates that injectivity and surjectivity are properties of a function together with its domain and codomain — changing either can change the classification."
+
+- question: "What does exhibiting a bijection between two infinite sets prove about those sets?"
+  type: multiple-choice
+  options:
+    - "That the two sets are identical — they contain exactly the same elements"
+    - "That the two sets have the same cardinality — the same 'size' in a precise mathematical sense"
+    - "That one set is a subset of the other"
+    - "Nothing useful — bijections only apply to finite sets where elements can be counted"
+  answer: 1
+  explanation: "A bijection is a perfect one-to-one correspondence: every element of A pairs with exactly one element of B, and vice versa. This is the formal definition of 'same size' for sets — two sets have the same cardinality if and only if there exists a bijection between them. For finite sets this matches ordinary counting. For infinite sets it produces surprising results: f(n) = 2n is a bijection from ℕ to the even naturals, proving they have the same cardinality even though the evens seem like 'half' of the naturals."
+
+- question: "The function f(n) = 2n from the natural numbers ℕ to the even natural numbers is a bijection, which proves that the even natural numbers and all natural numbers have the same cardinality."
+  type: true-false
+  answer: true
+  explanation: "f(n) = 2n is injective (if 2m = 2n then m = n) and surjective onto the even naturals (every even number 2k equals f(k)). So it is a bijection. The existence of this bijection means ℕ and the even naturals are equinumerous — they have the same cardinality, both ℵ₀. This seems paradoxical because the evens are a proper subset of ℕ, yet they're the 'same size.' This counterintuitive result is a defining feature of infinite sets and one of the reasons bijection-based cardinality is so important in set theory."
+
+- question: "Whether a function is surjective depends only on its defining formula, not on what codomain is specified."
+  type: true-false
+  answer: false
+  explanation: "Surjectivity requires that every element of the codomain is the image of some element in the domain. The codomain is part of the definition of the function — change it and you can change whether the function is surjective. f(x) = x² with codomain ℝ is not surjective (negative numbers are never outputs). The same formula with codomain [0,∞) is surjective (every non-negative real is a square). A function's classification as surjective, injective, or bijective always depends on both its domain and its codomain, not the formula alone."
+
+- question: "Explain in your own words why a bijection between sets A and B is called a 'same size' certificate: why does the existence of a bijection prove the sets have the same number of elements?"
+  type: short-answer
+  answer: "A bijection pairs each element of A with exactly one element of B, and each element of B with exactly one element of A — no element is left unmatched on either side. This is exactly what 'same number' means: you can count them together simultaneously. For finite sets, this matches ordinary counting. For infinite sets, bijections extend the idea of 'same size' to cases where we can't literally count: if you can establish a perfect pairing, the sets are equinumerous by definition, regardless of how the elements are described."
+  explanation: "This is why Cantor's bijection-based cardinality theory is so powerful. It lets us compare the sizes of infinite sets without counting. Two sets have the same cardinality if and only if a bijection exists between them. Sets with no bijection to ℕ (like ℝ) are 'uncountably infinite' and strictly larger. The bijection is the formal machinery that makes 'same size' precise and computable for any sets, finite or infinite."
+```
+
 ## Explainer
 
 You already know that a **function** assigns to each element of a domain exactly one element of a codomain. The three classifications — injection, surjection, bijection — are about two different ways a function can "behave well" with respect to that assignment. Think of a function as an arrow diagram: each element on the left points to exactly one element on the right. The question is what patterns those arrows can form.

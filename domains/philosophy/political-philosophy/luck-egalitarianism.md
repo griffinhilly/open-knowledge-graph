@@ -32,6 +32,45 @@ Trace the logic from Rawls (morally arbitrary factors should not determine life 
 - It does not claim all inequalities from choice are acceptable regardless of severity; many luck egalitarians incorporate sufficiency thresholds.
 - The brute/option luck distinction is harder to draw cleanly than it first appears — many choices are shaped by unchosen circumstances (e.g., risk tolerance shaped by upbringing).
 
+## Questions
+
+```yaml
+- question: "An uninsured motorcyclist, fully aware of the risks, chooses to ride without a helmet and suffers a serious crash. Under strict luck egalitarianism, what would the state be most justified in doing?"
+  type: multiple-choice
+  options:
+    - "Providing full medical care regardless of the cause of the accident, since all citizens deserve basic welfare"
+    - "Requiring the motorcyclist to bear full costs, since the crash resulted from option luck — a deliberate, informed gamble — and luck egalitarianism holds people responsible for the consequences of their voluntary choices"
+    - "Providing care only after verifying that the motorcyclist was acting under financial or social pressure that reduced the voluntariness of the choice"
+    - "Refusing care only if the motorcyclist had been warned by a physician — otherwise the choice was not sufficiently informed"
+  answer: 1
+  explanation: "This is the case Anderson uses to critique luck egalitarianism. Strict luck egalitarianism holds that inequalities resulting from option luck — deliberate gambles undertaken with awareness of the risks — need not be corrected. The motorcyclist knew the risk, chose to ride uninsured and without a helmet, and therefore bears responsibility for the outcome. Anderson's critique is that this response treats citizens as deserving or undeserving based on their choices in a way that is demeaning — the state must investigate and judge before providing aid — and it can abandon people in desperate need."
+
+- question: "Elizabeth Anderson's 'democratic egalitarianism' differs from luck egalitarianism primarily in that it:"
+  type: multiple-choice
+  options:
+    - "Denies that luck plays any causal role in distributional outcomes and focuses solely on individual responsibility"
+    - "Holds that equality should eliminate oppressive social hierarchies and enable citizens to relate as equals, rather than neutralizing the effects of brute luck on distributions"
+    - "Supports more redistribution than luck egalitarianism because it extends compensation to option luck outcomes as well"
+    - "Accepts the brute/option luck distinction but applies it symmetrically — compensating for both kinds of luck equally"
+  answer: 1
+  explanation: "Anderson's key move is to reframe the question. Luck egalitarianism asks: 'What did each person get, and was it deserved?' Anderson asks: 'How do people relate to each other — as equals or as superiors and inferiors?' On her view, egalitarianism is fundamentally about relational justice: eliminating oppression, domination, and demeaning social hierarchies. Neutralizing brute luck is at best instrumentally useful for this goal; it is not the core aim. The luck egalitarian framework, by requiring the state to sort citizens into responsible and irresponsible, creates exactly the kind of hierarchical relationship Anderson thinks equality should eliminate."
+
+- question: "Luck egalitarianism is essentially the same as Rawls's theory of justice, since both hold that morally arbitrary factors should not determine life prospects."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception noted explicitly in the literature. Rawls deliberately avoided making personal responsibility the basis of just distribution — his difference principle does not ask whether inequalities reflect people's choices. Luck egalitarianism (Dworkin, Cohen) draws on Rawls's intuition that morally arbitrary factors shouldn't determine prospects, but sharpens it into a brute/option luck distinction that Rawls himself rejected. Rawls was skeptical that any such distinction could be drawn cleanly enough to ground a theory of justice."
+
+- question: "The brute/option luck distinction is philosophically difficult to apply in practice because many choices are themselves shaped by unchosen circumstances such as upbringing, risk tolerance, and available alternatives."
+  type: true-false
+  answer: true
+  explanation: "Cohen recognized this problem explicitly. If your 'choice' to take a low-wage job was constrained by poverty, lack of education (itself unchosen), or a risk tolerance shaped by childhood circumstances, it may not be the kind of genuinely free choice that generates responsibility. The brute/option line is porous: most significant life choices are made under conditions shaped by unchosen factors. This is not merely a practical difficulty; it tracks a deep moral question about how far individual responsibility can legitimately extend."
+
+- question: "According to Anderson's critique, why is luck egalitarianism's framework for determining who deserves compensation potentially demeaning to the very people it aims to help?"
+  type: short-answer
+  answer: "Luck egalitarianism requires the state to investigate whether a person's disadvantage resulted from brute luck (unchosen) or option luck (voluntary choice) before providing assistance. This puts the state in the role of judging citizens — sorting them into the deserving and the undeserving, the responsible and the irresponsible. Anderson argues this is humiliating: it treats citizens as suspects who must prove their victimhood rather than as equals entitled to solidarity. It also threatens to abandon people in desperate need if their situation can be traced to their own choices, regardless of whether those choices were genuinely free."
+  explanation: "Anderson's deeper point is that luck egalitarianism misidentifies the problem equality is supposed to solve. The problem is not that some people ended up with less because of bad luck — it is that some people are dominated, oppressed, or treated as social inferiors. A theory that focuses on compensating luck inevitably generates the kind of paternalistic state judgment that egalitarianism should be working against. Her alternative — democratic egalitarianism — aims at equal standing between citizens, which does not require investigating the causes of each person's circumstances."
+```
+
 ## Explainer
 
 Your prerequisites give you the background: you know from distributive justice that a central question in political philosophy is how advantages and disadvantages should be distributed across society, and from egalitarianism that many theorists hold that unequal distributions of well-being or resources require justification. Luck egalitarianism offers a specific and influential answer to *when* inequality is unjust: when it stems from circumstances beyond a person's control.

@@ -32,6 +32,45 @@ Trace case studies: the adoption of horses by Great Plains Indians, the spread o
 - Traditional societies are unchanging; all societies continually innovate and borrow.
 - Culture change is unidirectional toward modernization; societies selectively adopt and adapt changes in ways that maintain cultural meaning.
 
+## Questions
+
+```yaml
+- question: "When the Great Plains peoples acquired horses from Spanish colonists and then reorganized their entire social structure around equestrian practices, this is best described as:"
+  type: multiple-choice
+  options:
+    - "Innovation — they independently invented equestrian culture in response to new conditions"
+    - "Diffusion with active adaptation — they adopted an external element but thoroughly reworked their society around it"
+    - "Primary innovation — they discovered an entirely new principle for organizing society"
+    - "Cultural replacement — their original culture was displaced by Spanish practices"
+  answer: 1
+  explanation: "Diffusion is the adoption of elements from other societies, but the Great Plains example shows that diffusion is never mere copying. The peoples acquired the horse through contact, then reworked their entire social organization, warfare patterns, and subsistence strategies around it — creating something distinctly their own. 'Cultural replacement' misreads the outcome: the original culture was transformed and amplified, not displaced. Active adaptation is what distinguishes real diffusion from passive borrowing."
+
+- question: "Sequoyah's creation of the Cherokee syllabary in the 1820s is best classified as:"
+  type: multiple-choice
+  options:
+    - "Simple diffusion — he copied the principle of European alphabetic writing"
+    - "Stimulus diffusion — inspired by the existence of writing, he independently invented a new system without copying any specific script"
+    - "Primary innovation — he discovered the concept of writing without any external influence"
+    - "Secondary innovation — he applied the known Latin alphabet structure to Cherokee sounds"
+  answer: 1
+  explanation: "Stimulus diffusion is when a society learns of an idea from another culture and then independently develops its own version. Sequoyah knew that written language existed among Europeans but had no knowledge of specific scripts. He invented the Cherokee syllabary from scratch — with no borrowed characters — after learning the concept of writing was possible. This is not simple diffusion (no specific forms were copied) and not pure innovation (the concept came from external contact). Stimulus diffusion transmits the possibility, not the form."
+
+- question: "Traditional societies experienced little or no cultural change before contact with modern industrialized cultures."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception the topic addresses. All human societies continuously innovate and borrow from neighbors — cultural change is a universal, ongoing feature of human social life, not a modern invention. The archaeological and historical record shows that pre-contact societies were in constant flux: trading, borrowing, adapting, and innovating. The myth of 'unchanging traditional societies' projects a static, outsider perspective onto dynamic communities."
+
+- question: "Syncretism produces a hybrid culture that is less authentic than either of its source traditions."
+  type: true-false
+  answer: false
+  explanation: "Syncretism — the blending of two cultural traditions into a new hybrid — produces something with its own internal logic and authenticity. Latin American Catholicism, which integrated indigenous religious practices and calendar into Christian forms, is not a diluted version of either tradition; it is a fully functional cultural system with its own coherent meanings. The concept of 'authenticity' applied to cultures typically reflects a static, essentialist view that ignores the universal role of borrowing and adaptation in all human history."
+
+- question: "What is the difference between simple diffusion and stimulus diffusion, and why does the distinction matter for understanding cultural change?"
+  type: short-answer
+  answer: "Simple diffusion is the direct adoption of a specific cultural element from another society — borrowing a practice, tool, or belief in recognizable form. Stimulus diffusion is when contact transmits only the concept or possibility of something, prompting the receiving society to independently develop its own version. The distinction matters because it shows that external contact can inspire change without determining its form — the receiving culture retains creative agency rather than merely copying."
+  explanation: "The distinction corrects the picture of diffusion as passive borrowing. When Sequoyah created the syllabary, he was stimulated by the idea of writing but invented the entire system independently. This shows how contact can catalyze innovation without imposing specific forms, which helps explain why cultural diversity persists even amid widespread diffusion. It also challenges the notion that cultural change from contact is inherently homogenizing."
+```
+
 ## Explainer
 
 From your prerequisite study of the culture concept, you know that culture is a learned, shared system of meanings, practices, and values transmitted across generations. The key word here is *transmitted* — but transmission implies a source. Where do new cultural content and practices come from, and why do some spread while others fade? Cultural change addresses exactly this question, and it turns out that change is not the exception to cultural stability but an ongoing feature of every human society.

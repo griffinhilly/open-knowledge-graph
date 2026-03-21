@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Substituents on benzene rings direct incoming electrophiles to specific positions: electron-donating groups (alkyl, -OH, -OR, -NR₂) are ortho/para-directing and activating; electron-withdrawing groups (halogens are ortho/para-directing but deactivating; -CN, -NO₂, -C(=O)R are meta-directing and deactivating). Directing effects arise from stabilization of the carbocation intermediate by electron donation or destabilization by electron withdrawal.
 
+## Questions
+
+```yaml
+- question: "A chemist wants to nitrate chlorobenzene. Which products will predominate, and why?"
+  type: multiple-choice
+  options:
+    - "Mostly meta-nitration, because chlorine deactivates the ring through electron withdrawal"
+    - "Mostly ortho- and para-nitration, because chlorine's lone pairs stabilize the intermediate at those positions through resonance despite its inductive deactivation"
+    - "An equal mixture of ortho, meta, and para products, because deactivation makes all positions equally reactive"
+    - "No reaction, because halogens block electrophilic aromatic substitution entirely"
+  answer: 1
+  explanation: "Chlorine is inductively withdrawing (electronegative), which deactivates the ring overall — the reaction is slower than benzene. However, chlorine's lone pairs can donate into the ring by resonance when the positive charge in the arenium ion intermediate is adjacent (ortho or para positions). This resonance stabilization of the ortho/para intermediates overrides the inductive effect for directing purposes, making chlorine an ortho/para director despite being deactivating. The common error is assuming deactivating means meta-directing — only groups that withdraw by resonance (like -NO₂, -CN, -COR) are meta directors."
+
+- question: "Why does the nitro group (-NO₂) direct electrophiles to the meta position rather than ortho or para?"
+  type: multiple-choice
+  options:
+    - "The meta position is made electron-rich by the nitro group's inductive donation to that carbon"
+    - "When the electrophile attacks ortho or para, the positive charge in the arenium ion lands on the carbon bearing the nitro group, which intensifies the charge; meta attack avoids this worst-case arrangement"
+    - "The nitro group donates lone pairs to stabilize the meta intermediate specifically"
+    - "Meta is thermodynamically more stable due to reduced steric strain near the nitro group"
+  answer: 1
+  explanation: "Meta direction is not about making meta electron-rich — it is about meta being the least destabilized option. The nitro group withdraws electron density from the ring through resonance and induction. When an electrophile attacks ortho or para, the resulting positive charge in the arenium ion falls on the carbon directly bearing the -NO₂ group, an extremely unfavorable arrangement because the withdrawing substituent intensifies the positive charge. Attack at meta places the positive charge on other carbons, avoiding direct destabilization. So the meta product dominates not because meta is activated but because ortho and para are more deactivated."
+
+- question: "Halogens are meta directors in EAS because they are strongly electron-withdrawing, just like nitro groups."
+  type: true-false
+  answer: false
+  explanation: "This is a very common misconception. Halogens are deactivating (overall electron withdrawal by induction) but ortho/para directors — the opposite of meta directors. The key is that halogens, unlike -NO₂, have lone pairs that can donate into the ring by resonance when the arenium ion has a positive charge adjacent to the halogen (ortho and para attack). This resonance stabilization of the ortho/para intermediates makes those positions kinetically preferred despite the ring being deactivated overall. Only substituents that withdraw through resonance (carbonyl, cyano, nitro) are meta directors."
+
+- question: "Electron-donating groups such as -OH and -NH₂ are ortho/para directors because they increase overall electron density on the ring, making ortho and para positions react faster than meta."
+  type: true-false
+  answer: true
+  explanation: "Exactly right. Electron-donating groups like -OH and -NH₂ have lone pairs that donate into the ring by resonance. When an electrophile attacks the ortho or para position, one resonance structure of the arenium ion places the positive charge on the carbon bearing the substituent, and the lone pair on the heteroatom directly stabilizes this structure by electron donation. This selective stabilization of the ortho/para intermediates lowers their energy and increases the reaction rate at those positions. These groups are also activating because they raise the overall electron density of the ring."
+
+- question: "Explain why the -NO₂ group directs to meta while the -NH₂ group directs to ortho/para. Use the stability of the carbocation intermediate to justify your answer."
+  type: short-answer
+  answer: "The directing effect is controlled by which intermediate is more stable. When an electrophile attacks the ortho or para position of aniline (-NH₂), the arenium ion intermediate has a resonance structure where the positive charge sits on the carbon bonded to nitrogen. The nitrogen lone pair can donate directly into the ring to stabilize this positive charge — a highly favorable resonance contribution that lowers the intermediate's energy. This stabilization does not occur for meta attack (the positive charge never lands on the nitrogen-bearing carbon), so ortho/para is preferred. For nitrobenzene (-NO₂), the opposite happens: the nitro group withdraws electrons through resonance. Attack at ortho or para places the positive charge on the carbon bearing -NO₂, which intensifies rather than stabilizes the charge. Meta attack avoids this penalty, making it the least unfavorable option."
+  explanation: "The core principle is that directing effects are entirely determined by differential stabilization of the arenium ion intermediate, not by static electron density maps. Activating groups stabilize certain intermediates; deactivating groups destabilize certain intermediates. The position whose intermediate is most (or least) destabilized determines where the product forms."
+```
+
 ## Explainer
 
 You already understand the core mechanism of electrophilic aromatic substitution (EAS): an electrophile attacks the π system of benzene, forming a carbocation intermediate (the arenium ion or sigma complex), and then a proton is lost to restore aromaticity. On an unsubstituted benzene ring, all six positions are equivalent, so the electrophile can attack anywhere. But when a substituent is already on the ring, the six positions are no longer equivalent — and the substituent determines which positions the next electrophile prefers. This is the **directing effect**.

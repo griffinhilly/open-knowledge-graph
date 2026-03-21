@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Flowing water sculpts planetary surfaces through channel incision, valley formation, delta deposition, and sediment transport. Ancient fluvial evidence on Mars—deltas, alluvial fans, valley networks—indicates sustained liquid water in the past. Comparing fluvial systems across planets reveals how climate, gravity, atmospheric pressure, and substrate properties control erosion rates and landform morphology.
 
+## Questions
+
+```yaml
+- question: "Mars has a fan delta visible from orbit in Jezero Crater. What does this landform most directly indicate about Mars's past conditions?"
+  type: multiple-choice
+  options:
+    - "Wind-driven erosion was more powerful on ancient Mars than today"
+    - "Sustained liquid water once flowed on the Martian surface"
+    - "Mars had a larger moon causing stronger tidal forces in the past"
+    - "The crater was formed by a meteorite that vaporized ancient ice"
+  answer: 1
+  explanation: "A fan delta requires a river carrying sediment to deposit material where it enters a standing body of water — it is a landform that cannot form without sustained liquid flow. The Jezero delta's preserved sedimentary layers record changing water levels over time, making it direct evidence of past surface water. Wind erosion creates entirely different morphologies (yardangs, dunes), and impact events produce radially symmetric ejecta blankets, not fan-shaped deposits at channel mouths."
+
+- question: "Martian river channels tend to be wider and shallower than terrestrial channels with comparable discharge. What is the best explanation for this difference?"
+  type: multiple-choice
+  options:
+    - "Martian rocks are softer than Earth rocks, so channels erode laterally more easily"
+    - "Mars has no vegetation to stabilize channel banks, allowing lateral erosion"
+    - "Lower Martian gravity means water flows more slowly for a given slope, requiring a wider channel for the same discharge"
+    - "Mars's thin atmosphere reduces evaporation, increasing discharge compared to similar Earth rivers"
+  answer: 2
+  explanation: "Gravity directly controls flow velocity for a given slope: lower gravity means lower acceleration, so water flowing down a slope on Mars moves more slowly than on Earth. To carry the same discharge (volume per unit time = velocity × cross-sectional area) at lower velocity, the channel must compensate with greater cross-sectional area — producing wider and/or shallower channels. This illustrates how planetary conditions quantitatively affect fluvial morphology even when the underlying physics is identical."
+
+- question: "Titan's river channels were carved by liquid methane rather than liquid water, but the basic landform types (channels, deltas) are similar. This shows that the specific fluid is more important than the underlying physics of fluvial erosion."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true: the similarity of landforms across fluids (water on Earth, methane on Titan) demonstrates that the underlying physics — liquid flows downhill, erodes substrate, transports sediment, deposits where velocity drops — is the controlling principle, not the specific fluid. The fluid's properties (viscosity, density) and substrate properties (ice vs. silicate rock) cause quantitative differences in channel morphology, but the same categories of landforms appear because the same physical processes operate."
+
+- question: "Branching valley networks on ancient Martian terrain, with their dendritic patterns, prove that Mars once had rainfall because only rainfall can produce such drainage shapes."
+  type: true-false
+  answer: false
+  explanation: "Branching valley networks resemble terrestrial drainage patterns, but the same morphology can result from either rainfall (surface runoff) or groundwater sapping (subsurface water emerging at the surface). Discriminating between these mechanisms requires additional evidence: sapping-formed valleys typically have U-shaped cross-sections and blunt terminations, while rainfall-fed networks tend to have V-shaped valleys and more uniform drainage density. Current Mars research considers both mechanisms viable for different valley systems, so valley networks alone do not prove rainfall."
+
+- question: "Why do planetary scientists use features like the Jezero fan delta as evidence for past habitability rather than simply as evidence of past water?"
+  type: short-answer
+  answer: "Liquid water is a necessary condition for life as we know it — all known life requires liquid water as a solvent for biochemical reactions. A fan delta requires not just water but sustained, flowing water over extended periods, implying a warm enough climate for liquid water to be stable at the surface. This persistent liquid water environment could have supported microbial life. The preserved sedimentary layers also represent a record of past chemistry that might preserve biosignatures. So the delta is evidence for habitability (conditions capable of supporting life) rather than mere transient water presence."
+  explanation: "Liquid water is not sufficient for life, but it is a necessary precondition. The Jezero delta implies prolonged liquid water at the surface — not a brief impact melt or temporary flooding — which means a past climate with temperature and pressure sufficient for stable surface water. That sustained environment is what makes it relevant to habitability, not just hydrology."
+```
+
 ## Explainer
 
 From your study of weathering and erosion, you know that rock at a planetary surface is broken down by physical and chemical processes, and that the resulting sediment is transported downhill by gravity-assisted agents — water, wind, and ice. **Fluvial processes** are the subset driven specifically by flowing liquid water, and they are among the most powerful landscape-sculpting forces known. On Earth, rivers carve valleys, build deltas, and redistribute billions of tons of sediment annually. But fluvial geomorphology becomes even more revealing when applied comparatively across planetary surfaces, where different conditions produce different outcomes from the same basic physics.

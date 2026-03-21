@@ -29,6 +29,45 @@ Take a well-written paragraph and annotate every cohesive tie — mark each pron
 - Coherence is not solely a property of the text; it depends equally on the reader's background knowledge and ability to draw appropriate inferences.
 - Overusing conjunctive markers (moreover, furthermore, in addition) does not improve coherence and can actually make prose feel mechanical rather than unified.
 
+## Questions
+
+```yaml
+- question: "Consider these two sentences: 'The picnic was ruined. The ants arrived.' What concept best explains why readers find this passage meaningful despite lacking any conjunctions or pronouns?"
+  type: multiple-choice
+  options:
+    - "Lexical cohesion — 'picnic' and 'ants' belong to the same semantic field"
+    - "Coherence — readers infer a causal connection using world knowledge about ants at picnics"
+    - "Ellipsis — the missing conjunction is recoverable from context"
+    - "Reference chains — 'the ants' refer back to an implied entity introduced by 'picnic'"
+  answer: 1
+  explanation: "This example is the classic demonstration that coherence does not require surface cohesion devices. There is no conjunction, no pronoun, no explicit tie — yet readers immediately understand that the ants caused the ruination, because world knowledge tells us ants spoil outdoor food events. This inferencing is coherence at work. Lexical cohesion (option A) is wrong because mere semantic relatedness doesn't create the causal logic; ellipsis (option C) applies to omitted grammatical material, not implied propositions."
+
+- question: "A student adds 'moreover,' 'furthermore,' and 'in addition' between every sentence in their essay to improve cohesion. What is the most likely result?"
+  type: multiple-choice
+  options:
+    - "The essay becomes more coherent because the logical relationships are made explicit"
+    - "Cohesion improves but coherence may actually decrease, as mechanical connectors substitute for genuine logical flow"
+    - "Both cohesion and coherence improve because conjunctive relations are the primary mechanism of both"
+    - "The essay becomes harder to read only because the added words increase sentence length"
+  answer: 1
+  explanation: "Overusing additive conjunctive markers ('moreover,' 'furthermore') creates the appearance of cohesion without generating coherence. If the underlying propositions don't actually follow logically from one another, connectors just highlight the incoherence rather than repair it. True coherence comes from a logically sequenced argument, not from decorating incoherent sentences with conjunctions. A common writing error is treating connectors as a substitute for reasoning rather than a signal of reasoning that is already there."
+
+- question: "A text can be cohesive — containing pronouns, conjunctions, and lexical repetition — without being coherent."
+  type: true-false
+  answer: true
+  explanation: "Cohesion is a surface property of the text; coherence is a conceptual property that depends on meaningful logical connections between propositions. Consider: 'The dog is large. However, the economy declined.' The conjunction 'however' creates a cohesive tie, but no logical relationship connects the two ideas — the text is cohesive but incoherent. This distinction shows that linguistic glue alone cannot produce a unified text; the underlying ideas must be genuinely related."
+
+- question: "Coherence is a property of the text itself, independent of who reads it."
+  type: true-false
+  answer: false
+  explanation: "Coherence depends equally on the reader and the text. Because coherence is built through inference — filling gaps with world knowledge and background assumptions — the same text can be coherent to one reader and incoherent to another. A medical journal article is coherent to a physician who can bridge the inferential gaps, but incoherent to a reader without that knowledge. This is why audience awareness matters in writing: you must calibrate how much inferential work you expect readers to do based on their likely background knowledge."
+
+- question: "Explain the difference between cohesion and coherence, and give an example that illustrates why a text can have one without the other."
+  type: short-answer
+  answer: "Cohesion refers to explicit surface-level linguistic ties that connect sentences: pronouns pointing back to referents, conjunctions marking logical relations, repeated or related words maintaining a topic thread. Coherence refers to the conceptual unity of the text — whether the ideas connect meaningfully using world knowledge and inference. A text can be cohesive without being coherent: 'The stock market crashed. However, dogs enjoy parks.' The conjunction ties the sentences superficially but no meaningful relationship exists. Conversely, 'The picnic was ruined. The ants arrived.' has no cohesion devices but is perfectly coherent through inference."
+  explanation: "The distinction matters practically: many writers try to fix incoherent prose by adding more connectors, when the real problem is that the ideas themselves don't follow logically. Identifying whether a passage fails due to missing cohesion (fixable by adding explicit ties) or missing coherence (requires rewriting the logic) is a fundamental diagnostic skill."
+```
+
 ## Explainer
 
 From your study of discourse analysis, you know that language operates above the sentence level — that meaning emerges from how sentences relate to one another across a text. **Cohesion** and **coherence** are the two central mechanisms that make this work, and they operate at different levels. Understanding both — and the difference between them — unlocks a systematic way to analyze and improve any piece of writing.

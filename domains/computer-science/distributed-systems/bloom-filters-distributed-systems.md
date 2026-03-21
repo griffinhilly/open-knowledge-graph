@@ -29,6 +29,45 @@ Implement a simple Bloom filter (bit array + hash functions). Observe false posi
 - Bloom filters have no false negatives; they can incorrectly report membership (false positive).
 - Bloom filters are always smaller than the data; as false positive rates must go to zero, the bit array grows; they are small for small target false positive rates.
 
+## Questions
+
+```yaml
+- question: "A Bloom filter is queried for key X and returns 'NOT IN SET.' What can you conclude with certainty?"
+  type: multiple-choice
+  options:
+    - "Key X is probably not in the set, but there is a small chance it is (false negative)"
+    - "Key X is definitely not in the set — this answer is guaranteed to be correct"
+    - "Key X is definitely not in the set on this node, but may exist on other replicas"
+    - "Nothing certain — the result depends on how many hash functions were used"
+  answer: 1
+  explanation: "The fundamental asymmetry of Bloom filters: 'NOT IN SET' is a definitive answer. If any of the k hash positions for key X maps to a 0 bit, then X was never added to the filter (adding X would have set all k bits to 1). There are zero false negatives — a 'not present' result is always correct. This is what makes Bloom filters useful: you can definitively rule out membership and avoid unnecessary lookups. In contrast, 'IN SET' is only probabilistic — all k bits being 1 might be coincidental (a false positive), set by other elements' insertions."
+
+- question: "A distributed database uses Bloom filters to coordinate anti-entropy between replicas. Node A sends its Bloom filter to Node B. Node B queries the filter for 10,000 keys it holds and finds that 150 are reported as 'IN SET' on Node A. How should Node B interpret this result?"
+  type: multiple-choice
+  options:
+    - "Node B should send all 10,000 keys to Node A because Bloom filter 'IN SET' answers are unreliable"
+    - "Node B should send the remaining ~9,850 keys (those reported 'NOT IN SET' on A) because these are definitely missing from A; the 150 'IN SET' keys are probably present on A but may include some false positives"
+    - "Node B should request Node A send its full key list, because the Bloom filter cannot identify which specific keys are missing"
+    - "Node B should ignore the result — Bloom filters are only useful for caching, not for replication protocols"
+  answer: 1
+  explanation: "This is precisely how Bloom filters are used in anti-entropy protocols. 'NOT IN SET' results (the ~9,850 keys) are guaranteed correct — those keys are definitely absent from Node A and must be sent for synchronization. 'IN SET' results (the 150 keys) are probably present on Node A but could include false positives — keys that happen to hash to all-set bits. Those false positives will trigger unnecessary data transfer (sending data A already has), but that is a small, tolerable cost. The critical efficiency gain is that Node B avoids sending thousands of keys it knows Node A already has, based on the reliable 'NOT IN SET' guarantees."
+
+- question: "A Bloom filter can definitively confirm that an element IS in the set — if all k hash positions return 1, the element was definitely added."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about Bloom filters. A positive result ('all k bits are set') only means the element is *probably* in the set — it cannot be confirmed definitively. Those k bits could have been set by the insertions of other elements; this is a false positive. The only definitive answer a Bloom filter can give is a *negative* one: if any bit is 0, the element was definitely never added. The positive direction is always probabilistic, and the false positive rate is determined by the filter's parameters (bit array size m, number of hash functions k, and number of inserted elements n)."
+
+- question: "You can delete an element from a standard Bloom filter by setting its k hash-position bits back to 0, since those bits were originally set during insertion."
+  type: true-false
+  answer: false
+  explanation: "This would corrupt the filter. Each bit in the array may have been set to 1 by multiple different elements (hash collisions). Clearing the bits for element X might clear bits that are also needed to correctly report membership for element Y. After the deletion, queries for Y could incorrectly return 'NOT IN SET' (a false negative), violating the Bloom filter's no-false-negatives guarantee. Standard Bloom filters are append-only for this reason. The counting Bloom filter variant addresses this by storing a counter per bit position instead of a single bit — decrementing the count on deletion — but this uses significantly more memory."
+
+- question: "Why can't you delete elements from a standard Bloom filter, and what variant addresses this limitation? What tradeoff does the variant introduce?"
+  type: short-answer
+  answer: "Deletion is impossible in a standard Bloom filter because bits are shared: when you insert element X, you set k bits, but those same bit positions may also have been set by other elements Y and Z. If you clear X's bits to 'delete' it, you may clear bits that Y and Z also depend on, causing future queries for Y or Z to return false negatives — incorrectly reporting them as absent. The standard filter's no-false-negatives guarantee would be broken. The counting Bloom filter replaces each bit with a small integer counter (typically 4 bits). Insertion increments the k counters; deletion decrements them. A position is treated as 'set' if its counter is > 0. The tradeoff: counting filters use 4× or more memory per position compared to a single bit, because each counter needs multiple bits. This makes the space advantage of Bloom filters less dramatic when deletions are needed."
+  explanation: "The inability to delete is a fundamental consequence of the data structure's design — its space efficiency comes from sharing bit positions across many elements, but sharing creates aliasing that prevents reversal. Understanding this limitation is essential for choosing the right data structure: use a standard Bloom filter when elements are only added (set membership over an append-only corpus), and use a counting variant when deletions are needed and the extra memory cost is acceptable."
+```
+
 ## Explainer
 
 From your work with distributed hash tables, you know that nodes in a distributed system each hold a subset of the data, and coordination between nodes often requires answering a deceptively simple question: "does node B have key X?" The naive approach — send the key to node B and wait for a lookup response — works but is expensive at scale. If you need to check thousands of keys across dozens of nodes, the network traffic and latency add up fast. **Bloom filters** solve this by letting each node summarize its entire key set in a compact data structure that can be transmitted cheaply and queried locally.

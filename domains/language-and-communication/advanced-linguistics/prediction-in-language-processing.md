@@ -19,6 +19,45 @@ status: draft
 ## Core Idea
 Language comprehension is actively predictive: comprehenders anticipate upcoming content based on semantic and syntactic constraints. When reading 'The detective examined the evidence,' readers predictively activate typical continuations. Eye-tracking and neuroimaging show that failed predictions ('The detective examined the... potatoes') cause processing difficulty, demonstrating that comprehension proceeds through prediction and confirmation, not purely reactive analysis.
 
+## Questions
+
+```yaml
+- question: "In a visual world eye-tracking experiment, participants look at a display of objects while hearing 'Pick up the can...' Their eyes move toward the candle before the word is completed. What does this demonstrate?"
+  type: multiple-choice
+  options:
+    - "Comprehension is sequential — listeners wait for full words before processing meaning"
+    - "Prediction operates on partial phonological input, activating candidates before a word is identified"
+    - "Listeners guess randomly based on visual salience, not linguistic prediction"
+    - "The brain processes syntax before semantics in online comprehension"
+  answer: 1
+  explanation: "Anticipatory eye movements to phonologically consistent objects before a word is completed demonstrate that the comprehension system activates multiple candidates based on partial input — not just after word recognition is complete. This is a signature of predictive processing: the system is running ahead of the input, committing to likely interpretations before they are confirmed. Option A describes a sequential bottom-up model inconsistent with this finding."
+
+- question: "A perfectly grammatical sentence ends with a semantically unexpected word ('The detective examined the potatoes'). The N400 amplitude for 'potatoes' is larger than for 'evidence'. What does this pattern reveal?"
+  type: multiple-choice
+  options:
+    - "The brain flags 'potatoes' as ungrammatical and generates an error signal"
+    - "The brain had pre-activated semantically likely continuations; the unexpected word requires revising a prior prediction"
+    - "The N400 reflects the number of syllables in a word, which is greater for 'potatoes'"
+    - "The finding shows that syntactic and semantic processing are completely independent"
+  answer: 1
+  explanation: "The sentence is grammatically correct, so the N400 cannot be a grammaticality signal. The N400 scales with the violation of semantic expectation — the degree to which the word conflicts with what was pre-activated. The brain already committed to likely continuations (evidence, witness, clues) before 'potatoes' arrived. The large N400 reflects the cost of updating a prior prediction. This is the key evidence that comprehension involves continuous prediction, not reactive word-by-word analysis."
+
+- question: "The N400 is an all-or-nothing signal that fires only when a word is semantically anomalous or ungrammatical."
+  type: true-false
+  answer: false
+  explanation: "The N400 is a graded signal, not binary. Its amplitude is inversely proportional to the predictability of a word in context — even highly predictable, perfectly acceptable words produce a smaller N400 than moderately unexpected but acceptable words. This grading shows that the brain is continuously tracking probability distributions over upcoming words, not just detecting errors. If it were binary, all acceptable words would produce no N400 at all."
+
+- question: "Language comprehension involves active prediction: the brain pre-activates likely upcoming words based on syntactic, semantic, and discourse constraints before those words arrive."
+  type: true-false
+  answer: true
+  explanation: "This is the central claim of the predictive processing account of language comprehension, supported by N400 amplitude patterns, visual world eye-tracking, and reading time data. The evidence consistently shows that unexpected words — even when grammatical — cost extra processing time and produce larger neural responses, demonstrating that predictions were made and must be revised. Comprehension is not merely reactive integration of each word as it arrives."
+
+- question: "How does the N400 EEG component provide evidence that language comprehension is predictive rather than purely reactive? What specific feature of the N400 response is key?"
+  type: short-answer
+  answer: "The N400 amplitude is inversely graded by how predictable a word is in context — not just whether the word is semantically anomalous. Highly predictable words produce smaller N400s; moderately unexpected but acceptable words produce larger ones. If comprehension were purely reactive, all acceptable words should produce the same response. The grading shows the brain pre-activates candidates and shows less neural effort when predictions are confirmed, more when they must be revised."
+  explanation: "The graded nature of the N400 is what distinguishes prediction from mere anomaly detection. An anomaly detector would fire only for violations; a predictor generates a continuous probability distribution and signals surprise proportional to how unexpected the input was. The N400's gradient across a range of predictability values is direct evidence for the latter model."
+```
+
 ## Explainer
 
 From your study of working memory and sentence comprehension, you know that processing language in real time requires holding incomplete structures in memory while integrating new words. Prediction in language processing builds directly on this: rather than passively holding open slots until they are filled, the comprehension system actively generates expectations about what will come next. Comprehension, on this view, is not a purely bottom-up process (reading each word and integrating it) but a **predictive coding** process in which incoming input is checked against prior expectations.

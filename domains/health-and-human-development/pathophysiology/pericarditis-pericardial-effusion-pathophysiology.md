@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Pericardial inflammation from viral infection, autoimmunity, or uremia causes fibrinous pericarditis and serous effusion. Large or rapidly accumulating effusions restrict ventricular filling, causing equalization of diastolic pressures and shock (tamponade). Constrictive pericarditis from chronic inflammation impairs diastolic function.
 
+## Questions
+
+```yaml
+- question: "Patient A accumulates 800 mL of pericardial fluid over 8 weeks. Patient B accumulates 200 mL over 2 hours. Which patient is more likely to develop cardiac tamponade?"
+  type: multiple-choice
+  options:
+    - "Patient A — larger total volume exerts more compressive force on the heart"
+    - "Patient B — the pericardium cannot stretch rapidly, so even a small rapid accumulation sharply raises intrapericardial pressure"
+    - "Both equally — tamponade depends only on total fluid volume"
+    - "Neither — tamponade only occurs with hemorrhagic effusions, not inflammatory ones"
+  answer: 1
+  explanation: "The rate of accumulation is the critical variable, not the absolute volume. The parietal pericardium is tough and inextensible in the short term, but it can gradually stretch over weeks, accommodating over 1,000 mL without hemodynamic compromise. When fluid accumulates rapidly — even 150–200 mL — the pericardium has no time to adapt, and intrapericardial pressure rises sharply, compressing all four chambers. Patient A's slow accumulation allows pericardial compliance to increase; Patient B's rapid accumulation overwhelms it. This is why trauma and aortic dissection cause tamponade so quickly."
+
+- question: "What is the hemodynamic hallmark of cardiac tamponade that defines it as a form of obstructive shock?"
+  type: multiple-choice
+  options:
+    - "Isolated right heart failure with preserved left ventricular systolic function"
+    - "Equalization of diastolic filling pressures across all four cardiac chambers"
+    - "Loss of systolic contractile function due to pericardial compression of the myocardium"
+    - "Selective pulmonary hypertension due to compressed pulmonary veins"
+  answer: 1
+  explanation: "Rising intrapericardial pressure compresses all four chambers during diastole simultaneously. When right atrial, right ventricular diastolic, and pulmonary capillary wedge pressures all converge at the same elevated level, none of the chambers can fill adequately — not because the heart can't contract, but because it can't expand against external pressure. This equalization of diastolic pressures is the hemodynamic signature of tamponade. Cardiac output collapses, triggering compensatory tachycardia, and the result is obstructive shock: Beck's triad (hypotension, distended neck veins, muffled heart sounds)."
+
+- question: "A patient presents with pleuritic chest pain that worsens when lying flat and improves when leaning forward. Their ECG shows diffuse ST elevation in a saddle-shaped pattern across multiple leads. This presentation is most consistent with acute myocardial infarction."
+  type: true-false
+  answer: false
+  explanation: "This presentation is classic acute pericarditis, not MI. Focal, territory-specific ST elevation in a coronary distribution suggests MI; diffuse saddle-shaped ST elevation across multiple leads reflects widespread pericardial inflammation. The positional pain pattern is also characteristic: lying flat increases pericardial surface contact, worsening the friction rub; leaning forward reduces it. Myocardial infarction typically presents with exertional or rest chest pain unaffected by posture, and ST elevation confined to leads corresponding to the culprit artery territory."
+
+- question: "In cardiac tamponade, immediate pericardiocentesis restores cardiac output by reducing intrapericardial pressure and allowing ventricular diastolic filling to resume."
+  type: true-false
+  answer: true
+  explanation: "Tamponade is a mechanical, pressure-driven problem: elevated intrapericardial pressure prevents the ventricles from filling during diastole. Draining even a small amount of fluid can cause a dramatic drop in intrapericardial pressure because the pressure-volume relationship in the pericardium is steep — once you move off the steep part of the curve, pressure falls substantially with small volume reductions. This is why pericardiocentesis produces rapid hemodynamic improvement and is the definitive immediate treatment. No pharmacological intervention can address the mechanical obstruction."
+
+- question: "Explain why the rate of pericardial fluid accumulation matters more than total volume in determining whether cardiac tamponade develops."
+  type: short-answer
+  answer: "The pericardium is a two-layered fibrous sac with a tough, relatively inextensible outer layer. When fluid accumulates slowly over weeks, the pericardium has time to stretch and remodel, increasing its compliance — allowing it to accommodate over 1,000 mL without significant pressure rise. When fluid accumulates rapidly over hours, the pericardium cannot adapt, so its pressure-volume curve is steep: each additional milliliter produces a disproportionate rise in intrapericardial pressure. This elevated pressure compresses all four chambers during diastole, equalizing filling pressures and collapsing cardiac output. The same final volume that is well-tolerated when accumulated slowly becomes fatal when accumulated rapidly."
+  explanation: "This question tests understanding of the pericardial compliance concept — the same principle that explains why trauma-related tamponade (rapid hemorrhage) is immediately life-threatening, while malignant effusions (accumulating over weeks) may reach enormous volumes before causing symptoms. Clinicians learn to look not just at effusion size on imaging but at signs of hemodynamic compromise to determine urgency."
+```
+
 ## Explainer
 
 Your study of cardiac anatomy established that the pericardium is a two-layered fibrous sac surrounding the heart, normally containing only 15–50 mL of lubricating fluid. Its inner layer (visceral pericardium) is adherent to the epicardium; its outer layer (parietal pericardium) is tough and inextensible. This anatomical detail is the key to understanding every pericardial disease: the rigid outer layer means any pressure increase within the pericardial space is transmitted directly to the cardiac chambers, compressing them from outside.

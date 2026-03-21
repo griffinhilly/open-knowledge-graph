@@ -31,3 +31,42 @@ Begin with a concrete bias you can verify in yourself — try the anchoring effe
 - Knowing about biases does not automatically correct them — debiasing requires deliberate, practiced techniques, not just awareness.
 - This is not a claim that humans can become perfectly rational — it is the more modest claim that we can be systematically less wrong.
 - Self-correction does not mean second-guessing every thought — it means having calibrated confidence about when to trust intuition and when to override it.
+
+## Questions
+
+```yaml
+- question: "A researcher learns in detail about the anchoring effect — the tendency to be disproportionately influenced by the first number encountered. Which outcome is most consistent with this framework?"
+  type: multiple-choice
+  options:
+    - "They will no longer be anchored, since awareness eliminates the bias"
+    - "They may still be anchored unless they use deliberate debiasing techniques like generating estimates from multiple starting points"
+    - "Awareness guarantees partial but not complete correction of anchoring"
+    - "They will anchor less because the bias relies on unconscious processing that awareness disrupts"
+  answer: 1
+  explanation: "The core claim of this framework is that knowing about a bias does not automatically correct it — debiasing requires deliberate, practiced techniques. The researcher's intellectual awareness creates the possibility of correction but does not deliver it. Option A states the common misconception directly. Option C introduces a partial-correction idea not supported by the framework. Option D is plausible-sounding but incorrect — awareness alone does not reliably reduce bias even when the bias operates through unconscious channels."
+
+- question: "Which of the following best captures the goal of rationality training as described in this framework?"
+  type: multiple-choice
+  options:
+    - "To eliminate cognitive biases by replacing intuitive thinking with systematic analytical reasoning"
+    - "To develop calibrated confidence about when to trust intuition and when to override it"
+    - "To identify which biases affect you most so you can restructure your life to avoid those situations"
+    - "To achieve a state of consistent, unbiased reasoning across all domains"
+  answer: 1
+  explanation: "The goal is calibrated judgment, not the elimination of intuition or the pursuit of perfect rationality. The framework explicitly rejects both extremes: it doesn't claim humans can become perfectly rational (option D) or that intuition should always be overridden (option A). Option C (situational avoidance) is also insufficient — you can't restructure your life around your biases. The genuine goal is developing the meta-skill of knowing when your intuitions are trustworthy and when they should be checked."
+
+- question: "Knowing about a cognitive bias is necessary but not sufficient to reliably correct for it."
+  type: true-false
+  answer: true
+  explanation: "This is the central empirical claim of the framework. Awareness is the prerequisite — you can only correct for biases you know about. But knowledge creates only the opportunity for correction; the actual correction requires deliberate techniques practiced until they become reliable. Studies of debiasing confirm this: simply informing people about the availability heuristic or confirmation bias does not reliably change their behavior. Correction requires building procedural habits, not just acquiring declarative knowledge."
+
+- question: "The claim that rationality is 'trainable' means that dedicated practice can make a person's reasoning completely unbiased."
+  type: true-false
+  answer: false
+  explanation: "The framework makes a more modest claim: that knowing about systematic errors, combined with deliberate practice, can make you measurably less wrong — not perfectly rational. Claiming complete debiasing would be empirically unsupported. Cognitive biases are often features of fast heuristic systems that remain active even in trained reasoners; what changes is the frequency with which trained thinkers notice the bias activating and apply a corrective check. 'Systematically less wrong' is achievable; 'perfectly unbiased' is not."
+
+- question: "Why does knowing about a cognitive bias not automatically prevent it from affecting your reasoning? What is the gap between knowing about a bias and actually correcting for it, and how is that gap bridged?"
+  type: short-answer
+  answer: "Knowing about a bias is declarative knowledge — you can state its definition and recognize it in described examples. But avoiding the bias in live situations requires procedural habits: techniques practiced until they trigger automatically in the relevant context. The gap is between knowing that anchoring exists and actually generating estimates from multiple starting points when making real decisions under time pressure. The gap is bridged through deliberate practice — repeatedly catching yourself mid-bias and applying the corrective technique until it becomes a reliable part of how you reason."
+  explanation: "This distinction between declarative and procedural knowledge is why rationality training is non-trivial. A student who scores 100% on a test about the availability heuristic may still vastly overestimate the risk of plane crashes (from vivid news coverage) when making actual decisions. The knowledge hasn't been converted into a behavioral habit. The 'lens sees its flaws' metaphor captures this: the lens of cognition can recognize its own distortions, but recognition alone doesn't reshape the glass — that takes practice."
+```

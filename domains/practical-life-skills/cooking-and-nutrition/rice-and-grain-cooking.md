@@ -33,6 +33,45 @@ Master plain white rice first using the absorption method, adjusting the water r
 - Lifting the lid to check rice is fine — releasing steam during the absorption method disrupts the cooking environment and can result in undercooked or unevenly cooked grains.
 - Brown rice is just white rice that takes longer — brown rice retains the bran and germ layers, which affect not only cooking time but also water absorption, texture, and nutritional content.
 
+## Questions
+
+```yaml
+- question: "Brown rice requires more water and a longer cooking time than long-grain white rice. What is the primary reason?"
+  type: multiple-choice
+  options:
+    - "Brown rice has larger grains that take longer to hydrate"
+    - "Brown rice retains the bran and germ layers, which act as a barrier slowing water penetration"
+    - "Brown rice has a higher starch content that requires more water to gelatinize"
+    - "Brown rice and white rice need the same water ratio — you just cook brown rice longer"
+  answer: 1
+  explanation: "The bran layer — the fiber-rich outer coating left intact on brown rice — slows the absorption of water into the starchy interior. This is why both more water (1:2.5 vs 1:1.5) and more time (45 min vs 15–18 min) are needed. It is not simply a matter of grain size or starch content. Option D is the most common misconception: using the same ratio for brown rice will produce underdone, hard results even with extra time."
+
+- question: "Midway through cooking rice with the absorption method, you lift the lid and see the rice looks underdone but nearly all the water is gone. What is the most likely result?"
+  type: multiple-choice
+  options:
+    - "The rice will finish cooking fine from the residual heat in the pot"
+    - "The rice will be overcooked because removing the lid accelerated evaporation"
+    - "The rice will be unevenly cooked — lifting the lid released the steam that was finishing the top layer"
+    - "No effect — the lid is only for heat retention, not for cooking"
+  answer: 2
+  explanation: "The steam trapped inside the pot cooks the top layer of rice. Lifting the lid releases that steam, disrupting the controlled cooking environment and leaving the top layer undercooked or unevenly done. The absorption method relies on a closed system where all moisture — both liquid water and steam — stays in the pot. This is why the rule exists to leave the lid alone once the simmer starts."
+
+- question: "Brown rice can be cooked using the same water ratio as white rice as long as you increase the cooking time to compensate."
+  type: true-false
+  answer: false
+  explanation: "False. The bran layer on brown rice requires more water, not just more time. If you use a 1:1.5 ratio with brown rice and cook it longer, the water will be absorbed or evaporated before the grain is fully cooked, resulting in undercooked, hard rice. Brown rice requires approximately a 1:2.5 ratio to have enough water available throughout the full cooking process."
+
+- question: "The 5–10 minute resting period off heat after cooking rice serves a genuine functional purpose, not just a waiting step."
+  type: true-false
+  answer: true
+  explanation: "True. After the heat is turned off, residual steam trapped under the lid continues to finish cooking the top layer of rice. The rest period also allows the starch to firm up slightly, so grains separate cleanly when fluffed rather than clumping together. Skipping the rest and fluffing immediately often produces mushier, stickier rice."
+
+- question: "Why does the absorption method require you to measure the water ratio precisely before cooking begins, unlike boiling pasta where you use excess water and drain it?"
+  type: short-answer
+  answer: "In the absorption method, all the water added to the pot gets absorbed by the grain and converted to steam — none is drained off. If the ratio is wrong, you cannot correct it mid-cook: too little water means undercooked grain; too much means mushy grain. With pasta, excess water gives you a buffer because you drain whatever isn't absorbed."
+  explanation: "This distinction captures the fundamental difference between the two methods. The absorption method is a closed system with no correction mechanism: all the water you add is the water the grain gets. Getting it right from the start is essential, which is why different grains require learning their specific ratios rather than just using one universal amount."
+```
+
 ## Explainer
 
 Cooking rice and grains is essentially controlled hydration: you're introducing a precise amount of water into dense, dry starch granules and applying heat to gelatinize them into a tender, cooked state. The **absorption method** — measuring a fixed ratio of grain to water, bringing to a boil, then reducing to a low simmer with the lid on — works because all the water you add gets absorbed and converted to steam, with none wasted. This is different from the pasta method, where you use a large excess of water and drain it off. The absorption method requires you to get the ratio right from the start, which is why ratios are the foundational skill.

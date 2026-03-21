@@ -33,6 +33,45 @@ Map opioid receptor distribution in pain-processing vs reward circuits using aut
 ## Common Misconceptions
 All opioid receptors do not produce equal analgesia and reward; δ-agonists are analgesic but not addictive like μ-agonists. Tolerance reflects receptor changes, not increased drug elimination.
 
+## Questions
+
+```yaml
+- question: "A pharmaceutical company develops a highly selective δ-opioid receptor agonist. Compared to morphine (a μ-agonist), this compound would be expected to:"
+  type: multiple-choice
+  options:
+    - "Produce stronger analgesia with higher addiction potential due to greater receptor selectivity"
+    - "Produce no analgesia but significant euphoria, since δ-receptors are concentrated in reward circuits"
+    - "Produce meaningful analgesia with substantially lower addiction potential than morphine"
+    - "Produce analgesia with dysphoric side effects similar to κ-agonists"
+  answer: 2
+  explanation: "δ-opioid receptors contribute to analgesia, particularly in chronic pain, but their distribution in reward circuits (especially the nucleus accumbens) is sparser than μ-receptors. This pharmacological dissociation — analgesic effect without strong euphoria — is precisely why δ-agonists have been a major focus of drug development aimed at producing effective analgesics without the high addiction liability of μ-agonists like morphine."
+
+- question: "Why do μ-opioid agonists like morphine produce both analgesia and euphoria from a single systemic dose?"
+  type: multiple-choice
+  options:
+    - "Morphine activates different receptor classes in different tissues — opioid receptors for pain, dopamine receptors for euphoria"
+    - "Pain relief itself produces pleasant feelings as a secondary psychological response to no longer suffering"
+    - "μ-receptors are concentrated in both brainstem pain-inhibitory circuits and the nucleus accumbens reward circuit, so the same receptor type drives both effects"
+    - "Euphoria is caused by dopamine release from a circuit entirely independent of the opioid receptor system"
+  answer: 2
+  explanation: "The key anatomical fact is that μ-opioid receptors are densely expressed in two functionally distinct brain regions: the periaqueductal gray and rostral ventromedial medulla (descending pain inhibition → analgesia) and the nucleus accumbens (reward circuit → euphoria). Systemic administration activates both populations simultaneously with the same drug via the same molecular mechanism (Gi-coupled inhibition). This co-localization is why it has been so difficult to develop effective analgesics that capture μ-mediated pain relief without μ-mediated reward."
+
+- question: "Tolerance to opioid analgesia develops mainly because the liver becomes increasingly efficient at metabolizing opioids, requiring higher doses to maintain the same blood concentration."
+  type: true-false
+  answer: false
+  explanation: "Opioid tolerance is primarily a receptor-level phenomenon, not a pharmacokinetic one. Repeated μ-receptor activation leads to phosphorylation of the receptor by GRK kinases, reducing its coupling efficiency to Gi. With continued exposure, β-arrestin mediates receptor internalization, removing receptors from the cell surface. The result is fewer functional μ-receptors and reduced signaling per unit of drug — even when blood concentrations are unchanged. Pharmacokinetic tolerance (increased metabolism) can develop but is a secondary contributor."
+
+- question: "κ-opioid receptors produce analgesia through the same Gi-coupled mechanism as μ and δ receptors, yet activation of κ-receptors causes dysphoria rather than euphoria."
+  type: true-false
+  answer: true
+  explanation: "All three opioid receptor subtypes (μ, δ, κ) are Gi-coupled: they open K⁺ channels (hyperpolarization) and close Ca²⁺ channels (reduced neurotransmitter release), suppressing nociceptive transmission. The difference in behavioral outcome is purely anatomical. κ-receptors are concentrated in stress- and aversion-related circuits, particularly the amygdala, rather than the nucleus accumbens reward circuit. Activating the κ system produces effective analgesia but also an aversive, dysphoric experience — which is why κ-agonists are not drugs of abuse despite their pain-relieving properties."
+
+- question: "How does the anatomical distribution of μ-opioid receptors explain why clinical opioids have both therapeutic value and high addiction potential?"
+  type: short-answer
+  answer: "μ-receptors are expressed in both the PAG/RVM (descending pain inhibition → analgesia) and the nucleus accumbens (reward circuit → euphoria and reinforcement). Any μ-agonist that reaches the brain activates both populations simultaneously, producing pain relief and reward through the same receptor subtype in different locations."
+  explanation: "This anatomical overlap is the pharmacological root of the opioid crisis: there is no dose of a systemic μ-agonist that selectively targets only the analgesic circuits. Efforts to solve this have focused on developing biased agonists (compounds that preferentially activate the G-protein pathway over β-arrestin), δ-selective agonists, or peripheral-acting opioids (targeting opioid receptors outside the CNS). Understanding that addiction liability and analgesic efficacy both flow from the same receptor type in different locations clarifies why separating them has been so pharmacologically challenging."
+```
+
 ## Explainer
 
 You already know that pain signals travel from nociceptors through the spinal cord to the thalamus and cortex, and that this pathway relies on chemical signaling at each relay. Opioids work by interrupting that relay — but they do not act uniformly everywhere. The three main **opioid receptor subtypes** (μ, δ, and κ) are all **G-protein-coupled receptors** coupled to Gi proteins, which you know inhibit adenylate cyclase and reduce cAMP. The downstream consequences are consistent regardless of subtype: K⁺ channels open (hyperpolarizing the cell), Ca²⁺ channels close (reducing neurotransmitter release), and the neuron becomes less likely to fire and less likely to drive the next cell in the pain pathway. Same molecular mechanism — different behavioral outcomes because of where each receptor is concentrated.

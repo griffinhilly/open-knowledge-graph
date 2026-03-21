@@ -33,6 +33,45 @@ Compare the slope of an adiabat versus an isotherm on a PV diagram — the adiab
 - Adiabatic does not mean isothermal — in adiabatic compression the temperature increases; in adiabatic expansion it decreases.
 - Adiabatic processes are only reversible if quasi-static; a rapid free expansion is adiabatic but irreversible.
 
+## Questions
+
+```yaml
+- question: "A piston rapidly compresses an ideal gas with no heat exchanged with the surroundings. What happens to the temperature of the gas?"
+  type: multiple-choice
+  options:
+    - "It stays constant — an adiabatic process means no temperature change"
+    - "It decreases — compression always cools a gas"
+    - "It increases — since Q = 0, all work done on the gas increases its internal energy and therefore its temperature"
+    - "It depends on the piston speed — temperature only changes in fast compressions"
+  answer: 2
+  explanation: "The key relation is ΔU = −W (from the first law with Q = 0). Work done on the gas (positive W on the gas) increases internal energy. For an ideal gas, internal energy is U = nCᵥT, so rising internal energy means rising temperature. The common misconception is confusing adiabatic with isothermal — isothermal processes keep temperature constant by allowing heat to flow; adiabatic processes allow no heat flow, so the temperature must change to accommodate energy changes from work."
+
+- question: "On a PV diagram, compare an adiabatic expansion and an isothermal expansion starting from the same state. Which curve falls more steeply as volume increases?"
+  type: multiple-choice
+  options:
+    - "The isotherm — constant temperature means pressure drops faster with volume"
+    - "The adiabat — because γ > 1, the slope magnitude |dP/dV| = γP/V exceeds the isotherm slope P/V"
+    - "They trace the same path — adiabatic and isothermal processes are equivalent at high speeds"
+    - "The adiabat is shallower — gas cooling during expansion reduces pressure less than temperature alone would predict"
+  answer: 1
+  explanation: "On an isotherm (constant T), P = nRT/V so the slope is dP/dV = −P/V. On an adiabat, the slope is dP/dV = −γP/V, steeper by the factor γ > 1. The physical reason: during adiabatic expansion, the gas does work and cools (temperature drops), which reduces pressure by more than the volume increase alone would. The cooling effect adds to the pressure drop, making the adiabat fall faster. This is why the adiabat and isotherm through the same point always cross at that point, with the adiabat steeper."
+
+- question: "An adiabatic process is the same as an isothermal process — both maintain constant conditions by preventing heat from entering or leaving the system."
+  type: true-false
+  answer: false
+  explanation: "These are entirely different processes. Adiabatic means Q = 0 — no heat transfer — but temperature is free to change as a consequence of work. Isothermal means constant temperature — but to maintain constant temperature while work is done, heat must flow in or out. An isothermal compression requires the gas to expel heat to keep T constant; an adiabatic compression allows no heat to flow, so the temperature rises instead. The two processes are thermodynamically opposite in how they handle temperature versus heat exchange."
+
+- question: "During adiabatic compression of an ideal gas, the temperature increases because all work done on the gas is converted into internal energy."
+  type: true-false
+  answer: true
+  explanation: "This follows directly from the first law with Q = 0: ΔU = −W, meaning any work done on the gas (which contributes negative W in the convention ΔU = Q − W) shows up entirely as increased internal energy. For an ideal gas, internal energy depends only on temperature, so rising internal energy means rising temperature. This is why diesel engines achieve ignition without a spark — the adiabatic compression of air raises the temperature high enough to ignite fuel spontaneously."
+
+- question: "Why does adiabatic compression heat a gas while isothermal compression does not, even though both processes increase the pressure on the gas?"
+  type: short-answer
+  answer: "In isothermal compression, the temperature is held constant by allowing heat to flow out of the gas as it is compressed — the work done on the gas is immediately exported as heat, so internal energy and temperature stay the same. In adiabatic compression, no heat can escape. All the work done on the gas must appear as increased internal energy, and for an ideal gas, increased internal energy means increased temperature. The difference comes down to what happens to the energy from the work: in isothermal, it leaves as heat; in adiabatic, it stays in the gas and raises its temperature."
+  explanation: "The first law makes this precise: ΔU = Q − W. Set Q = 0 (adiabatic) and you get ΔU = −W — work done on gas raises internal energy. Set ΔU = 0 (isothermal, since internal energy of an ideal gas depends only on T) and you get Q = W — heat must flow out equal to the work done on the gas. The two constraints are simply different choices about which term in the first law you hold fixed."
+```
+
 ## Explainer
 
 You already know the first law of thermodynamics: ΔU = Q − W. An **adiabatic process** is defined by a single constraint: Q = 0. No heat flows in or out. This immediately means that every joule of work done on the gas shows up as increased internal energy, and every joule the gas does as work comes at the expense of its internal energy: ΔU = −W. The challenge is figuring out what this implies for pressure, volume, and temperature simultaneously — and that requires knowing how the internal energy of an ideal gas depends on temperature.

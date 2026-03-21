@@ -31,6 +31,45 @@ Use a diagnostic assessment to identify gaps from prealgebra. Practice problems 
 - Distributing incorrectly with negative signs outside parentheses.
 - Treating different variables as like terms (3x + 2y cannot be simplified further).
 
+## Questions
+
+```yaml
+- question: "A student is given the expression 3x + 2y − x + 5 and told to 'solve for x.' What is the fundamental problem with this instruction?"
+  type: multiple-choice
+  options:
+    - "There is no problem — the student should isolate x on one side of the expression"
+    - "The problem has no solution because there are two variables, which is not allowed in Algebra 1"
+    - "'Solving' does not apply to expressions — expressions are simplified, not solved; solving requires an equation with an equals sign"
+    - "The student must first apply the distributive property before any other steps"
+  answer: 2
+  explanation: "This is the core distinction: expressions are simplified (rewritten in equivalent form with fewer terms), while equations are solved (a value of the variable is found that makes both sides equal). An expression like 3x + 2y − x + 5 has no equals sign, so it cannot be 'solved.' It can be simplified to 2x + 2y + 5. The right action depends entirely on which type of mathematical object you're working with."
+
+- question: "A student simplifies 4x + 3y − x and writes 6xy as the answer. Which error did they make?"
+  type: multiple-choice
+  options:
+    - "They forgot to apply the distributive property before combining terms"
+    - "They treated 4x and 3y as like terms and combined them — but unlike terms cannot be combined"
+    - "They applied the wrong order of operations, adding before subtracting"
+    - "They dropped the negative sign when subtracting the final x term"
+  answer: 1
+  explanation: "Like terms must have identical variable parts — same variables, same exponents. The terms 4x and 3y have different variables (x vs. y), so they are unlike terms and cannot be combined. The correct simplification is 4x − x + 3y = 3x + 3y. Writing 6xy confuses addition (which preserves the variable parts) with multiplication (which would produce xy). This is one of the most persistent errors in early algebra."
+
+- question: "The expression 5a − 3b + 2a can be correctly simplified to 7a − 3b."
+  type: true-false
+  answer: true
+  explanation: "5a and 2a are like terms — they share the same variable (a) with the same exponent (1). Combining them: 5a + 2a = 7a. The term −3b has a different variable and cannot be combined with the a-terms. The simplified form is 7a − 3b. This is a straightforward application of combining like terms."
+
+- question: "Distributing the negative sign in −(2x − 4) gives −2x − 4."
+  type: true-false
+  answer: false
+  explanation: "The negative multiplies every term inside the parentheses. −(2x − 4) = −1 · 2x + (−1) · (−4) = −2x + 4. The second term's sign flips because negative times negative equals positive. Writing −2x − 4 is the most common error when distributing negatives. The correct result is −2x + 4."
+
+- question: "Why can't you 'solve' the expression 3x + 7? What operation applies to it instead, and what additional information would you need to find a specific numerical value for x?"
+  type: short-answer
+  answer: "An expression has no equals sign, so there is no constraint pinning down the value of x. You can simplify an expression — rewrite it in a cleaner or shorter equivalent form — but 'solving' requires an equation. To find a specific value for x, you would need either an equation (e.g., 3x + 7 = 22, which you can solve to get x = 5) or a specific value to substitute for x (e.g., if x = 4, then 3(4) + 7 = 19)."
+  explanation: "The expression vs. equation distinction determines which algebraic operations are even meaningful. Confusing them leads to nonsense: 'solving' an expression, or trying to 'simplify' an equation without maintaining the equality. Every algebra problem starts with identifying what you have — expression or equation — because that determines what you do with it."
+```
+
 ## Explainer
 
 An **expression** is a mathematical phrase built from numbers, variables, and operations — but with no equals sign. It has a value (which may depend on the variables), but it cannot be "solved." The right word is **simplified**: rewriting it in an equivalent form with fewer terms or a cleaner structure. Contrast this with an **equation**, which has an equals sign and can be solved for a variable. This distinction matters every time you encounter a new problem: your first move is always to ask, "Is this an expression to simplify, or an equation to solve?"

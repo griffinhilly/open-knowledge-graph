@@ -31,6 +31,45 @@ Compare Hartree-Fock, MP2, and CCSD(T) calculations for a series of molecules (c
 ## Common Misconceptions
 - Thinking CCSD(T) is ab initio 'exact'; it is still an approximation that neglects higher excitations. - Assuming larger basis sets always improve CC results; basis set incompleteness and missing physics (relativity, QED) also matter.
 
+## Questions
+
+```yaml
+- question: "In which situation is Møller-Plesset perturbation theory (MP2) most likely to give poor or even divergent results?"
+  type: multiple-choice
+  options:
+    - "For large molecules where N⁵ computational scaling makes the calculation prohibitively expensive."
+    - "For molecules where the Hartree-Fock reference is qualitatively wrong, such as stretched bonds, diradicals, or transition metal systems with strong static correlation."
+    - "For closed-shell organic molecules near their equilibrium geometry, where correlation energy is small."
+    - "When using a large basis set, because larger bases amplify errors in the MP expansion."
+  answer: 1
+  explanation: "MP perturbation theory treats electron correlation as a small correction on top of a Hartree-Fock reference. This assumption only holds when HF gives a qualitatively correct description of the electronic structure. For stretched bonds or diradicals, HF is a poor starting point — it may not even correctly describe which electrons occupy which orbitals — and the perturbative expansion can diverge or give wildly wrong results. Coupled Cluster is more robust in these situations because its exponential ansatz better captures the multi-reference character."
+
+- question: "What is the key advantage of Coupled Cluster theory's exponential ansatz (e^T|Φ₀⟩) compared to simply truncating an expansion at single and double excitations?"
+  type: multiple-choice
+  options:
+    - "It guarantees that the computed energy is an upper bound to the true ground state energy (variational principle)."
+    - "It automatically includes higher-order excitation effects through products of lower excitations (disconnected clusters), even when triples and quadruples are not explicitly parameterized."
+    - "It eliminates the need for a basis set by working directly in the complete basis set limit."
+    - "It reduces the computational scaling from N⁶ to N⁴ by avoiding explicit three- and four-body terms."
+  answer: 1
+  explanation: "The exponential operator e^T, when expanded as a Taylor series, generates products of cluster operators — T₁T₁, T₂T₁, T₂T₂, etc. These 'disconnected' products represent higher excitations implicitly. For example, CCSD includes single and double excitations explicitly, but via the exponential, also captures a subset of quadruple excitations as products of two doubles. This is fundamentally different from a linear CI expansion truncated at doubles (CISD), which misses these products entirely. It is the reason CC converges much more rapidly than CI, and why CCSD(T) achieves such high accuracy despite not explicitly including full triples."
+
+- question: "CCSD(T) is called the 'gold standard' of single-reference quantum chemistry because it gives the exact electronic energy for well-behaved molecules."
+  type: true-false
+  answer: false
+  explanation: "CCSD(T) is highly accurate but not exact. It explicitly includes only single and double excitations, with triples treated perturbatively — quadruples, quintuples, and higher excitations are neglected. It also requires a finite basis set (introducing basis set incompleteness error), and relativistic effects and QED corrections are typically ignored. 'Gold standard' means it achieves chemical accuracy (~1 kcal/mol) for most closed-shell, near-equilibrium systems — an excellent approximation, but still an approximation. Exact solutions (full CI in the complete basis set limit) remain computationally intractable for all but the smallest systems."
+
+- question: "Hartree-Fock theory typically captures over 99% of the total electronic energy of a molecule, yet post-HF methods are still essential for accurate chemistry."
+  type: true-false
+  answer: true
+  explanation: "This apparent paradox is the central motivating fact of post-HF theory. While HF captures ~99% of the total energy, the missing ~1% — the correlation energy — is precisely the part that governs chemical accuracy: bond energies, reaction barriers, relative conformational energies, and intermolecular interactions. For a molecule with a total energy of thousands of atomic units, 1% is still a chemically huge number. HF is qualitatively useful but quantitatively unreliable for thermochemistry without correlation corrections."
+
+- question: "Why does Hartree-Fock theory fail to capture electron correlation energy, and why does recovering this missing fraction matter for chemical predictions?"
+  type: short-answer
+  answer: "HF treats each electron as moving in the averaged field of all other electrons (mean-field approximation), giving each electron its own orbital. This means the instantaneous positions of electrons are uncorrelated — when electron A is on the left side of a molecule, the HF wavefunction doesn't adjust electron B's position to be on the right. In reality, electrons repel each other and their motions are correlated (they avoid each other instantaneously). The energy difference between HF and the true energy is the correlation energy. It matters because it governs bond dissociation energies, activation barriers, and non-covalent interactions — precisely the quantities needed to understand and predict chemical reactivity."
+  explanation: "The mean-field approximation is powerful and computationally tractable, but it systematically ignores the dynamic 'dance' of electrons avoiding each other. Post-HF methods recover this missing energy either perturbatively (MP2) or through a more complete treatment of the many-electron wavefunction (CC). The correlation energy per electron-pair is relatively small, but chemical questions often turn on energy differences of 1–10 kcal/mol — exactly the scale of correlation corrections — making high-accuracy methods indispensable for quantitative predictions."
+```
+
 ## Explainer
 
 You already know that Hartree-Fock theory gives each electron its own orbital and treats electron-electron repulsion in an averaged way. This mean-field picture captures most of the total energy — typically 99% or more — but the missing fraction, called the **electron correlation energy**, is precisely the part that governs chemical accuracy for bond energies, reaction barriers, and molecular properties. Post-Hartree-Fock methods exist to recover that missing correlation energy systematically.

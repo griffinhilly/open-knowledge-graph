@@ -35,6 +35,45 @@ Present classic base-rate problems (like the lawyer-engineer task) where base-ra
 - Assuming base rates are automatically integrated; they require explicit attention and representation.
 - Treating base-rate neglect as universal; presentation format, education, and explicit frequency training can increase integration.
 
+## Questions
+
+```yaml
+- question: "A test for a disease affecting 1 in 1,000 people is 95% sensitive and 95% specific. A patient tests positive, and their doctor concludes there is roughly a 95% chance the patient has the disease. What error is the doctor making?"
+  type: multiple-choice
+  options:
+    - "Ignoring the low base rate — with 1-in-1,000 prevalence, far more false positives than true positives occur, making the true probability much lower than 95%"
+    - "Confusing sensitivity with specificity, which would actually increase the estimated probability"
+    - "Overestimating the test's accuracy by relying on the manufacturer's claim"
+    - "Applying Bayes' theorem incorrectly by counting the base rate twice"
+  answer: 0
+  explanation: "The doctor is substituting the test's accuracy (95%) for the probability of disease given a positive result. With a 1-in-1,000 base rate in a population of 100,000: roughly 95 true positives but ~4,995 false positives, giving a positive predictive value of only about 2%. The test's accuracy is high, but the rarity of the disease means false positives dominate. Base-rate neglect here leads to severe overestimation of disease probability — and potentially harmful over-treatment."
+
+- question: "In the classic lawyer-engineer study, participants are told a group is 70% engineers and 30% lawyers, then read a brief description of Tom: methodical, enjoys logic puzzles, has few friends. Most estimate ~85% probability Tom is an engineer. What does this demonstrate about base-rate integration?"
+  type: multiple-choice
+  options:
+    - "People over-rely on the description's resemblance to an 'engineer type,' effectively ignoring the 70% prior probability"
+    - "People correctly weight both the description and the base rate, producing a well-calibrated estimate"
+    - "People understand that the description is more informative than the base rate in this case"
+    - "The 85% estimate is normatively correct because the description is highly diagnostic"
+  answer: 0
+  explanation: "If participants integrated the base rate correctly, the description would update the 70% prior upward — but modestly, depending on how much more likely the description is given 'engineer' vs. 'lawyer.' Pushing the estimate to 85%+ shows the base rate has been nearly ignored. People substitute the question 'How much does Tom resemble an engineer?' for 'What is the probability Tom is an engineer?' — a representativeness substitution that systematically discards the prior."
+
+- question: "Presenting base-rate information as natural frequencies (e.g., '5 out of 100 people') rather than percentages (e.g., '5% of people') improves base-rate integration in probabilistic reasoning."
+  type: true-false
+  answer: true
+  explanation: "Research consistently shows that frequency formats dramatically improve base-rate integration. When the base rate is embedded in a natural frequency format, it is easier to process and harder to ignore. This appears to reflect how our reasoning systems evolved — we track repeated discrete events better than abstract probabilities. The practical implication: communicating risk as frequencies is not just a stylistic preference but a measurable intervention that improves reasoning in patients, clinicians, and the general public."
+
+- question: "Base-rate neglect is an unavoidable feature of human cognition that cannot be meaningfully reduced by training or by changing how information is presented."
+  type: true-false
+  answer: false
+  explanation: "False. Base-rate neglect varies substantially with presentation format and training. Natural frequency formats restore near-Bayesian performance in many tasks where percentage formats produce severe neglect. Explicit training in probabilistic reasoning and Bayesian updating also increases integration. The bias reflects a mismatch between presentation format and the representational formats our intuitive systems handle well — change the format, and the 'unavoidable' bias largely disappears."
+
+- question: "Why does a highly accurate diagnostic test still produce many false positives when used to screen a general population for a rare condition?"
+  type: short-answer
+  answer: "Because the base rate (prior probability) of the condition is so low, even a small false-positive rate generates a large absolute number of false alarms. With a 1-in-1,000 base rate and 95% accuracy in a population of 100,000: about 95 true positives but ~4,995 false positives — so only about 2% of positive tests are true positives. High accuracy means the test reliably distinguishes sick from healthy given known disease status, but positive predictive value (probability of disease given a positive result) depends critically on how rare the disease is."
+  explanation: "This is the key practical consequence of base-rate neglect. Ignoring the prior probability leads to massive overestimation of disease probability after a positive test. This is why population-wide screening for rare conditions requires careful consideration of false-positive rates and subsequent harm — not just test accuracy in isolation."
+```
+
 ## Explainer
 
 From your prerequisites on heuristics and cognitive biases, you know that human judgment under uncertainty relies heavily on mental shortcuts — representativeness, availability, and anchoring — rather than formal probability calculations. Base-rate neglect is one of the most studied consequences of the **representativeness heuristic**: when asked to judge probability, people substitute the question "How much does this case resemble a member of category X?" for the question "How probable is category X given all available evidence?" The resemblance question is easier to answer, but it systematically ignores crucial statistical information.

@@ -31,6 +31,45 @@ Study examples of admissible heuristics like Manhattan distance for grid puzzles
 ## Common Misconceptions
 A faster heuristic is always better (domination matters: h1 dominates h2 if h1(s) ≥ h2(s) for all s). Optimality requires admissibility, not just consistency.
 
+## Questions
+
+```yaml
+- question: "You implement A* for the 8-puzzle using h(n) = 2 × Manhattan distance (doubling all heuristic estimates). Compared to standard Manhattan distance, what changes?"
+  type: multiple-choice
+  options:
+    - "A* runs faster and still finds the optimal solution, because the stronger heuristic guides it more aggressively"
+    - "A* finds the optimal solution but explores more nodes, since the inflated estimates push it toward greedy behavior"
+    - "A* may no longer find the optimal solution, because doubling Manhattan distance can overestimate the true cost"
+    - "A* behaves identically, since both heuristics produce the same relative ordering among states"
+  answer: 2
+  explanation: "Admissibility requires that h(n) never overestimate the true cost. Standard Manhattan distance satisfies this: each tile needs at least as many moves as its Manhattan distance. But 2 × Manhattan distance can exceed the true remaining cost (a tile 2 moves away can't take fewer than 2 moves, but 2 × 2 = 4 exceeds 2). With an inadmissible heuristic, A* may dismiss the optimal path by making it look more expensive than it is, and find a suboptimal solution instead. This is why the admissibility condition is precise: even a small overestimate breaks the guarantee."
+
+- question: "For the 8-puzzle, Manhattan distance (h₂) dominates misplaced tiles (h₁), meaning h₂(n) ≥ h₁(n) for every state n. What practical consequence does this domination have for A*?"
+  type: multiple-choice
+  options:
+    - "A* with h₂ always expands fewer nodes than A* with h₁, because the tighter lower bound prunes more of the search space"
+    - "A* with h₂ is slower per node because computing Manhattan distance takes more time than counting misplaced tiles"
+    - "A* with h₁ terminates faster on average because it expands nodes more freely without tight bounds"
+    - "Both heuristics lead A* to expand exactly the same set of nodes, just in a different order"
+  answer: 0
+  explanation: "A dominating heuristic provides tighter guidance: if h₂(n) ≥ h₁(n) for all n, then A* with h₂ will not expand any node that A* with h₁ does not also expand — and it may expand strictly fewer. Intuitively, h₂ is closer to the true remaining cost, so A* can reject unpromising paths earlier. Any node A* with h₂ skips as unpromising is also skipped by h₂-A*, but not necessarily vice versa. This is why seeking the most informative admissible heuristic always pays off in reduced node expansions."
+
+- question: "A consistent (monotone) heuristic is always admissible, but an admissible heuristic is not necessarily consistent."
+  type: true-false
+  answer: true
+  explanation: "Consistency (h(n) ≤ cost(n,n') + h(n') for all edges) implies admissibility because the triangle inequality prevents any node from having an inflated estimate — you can prove by induction that a consistent heuristic never overestimates. The reverse does not hold: you can construct admissible heuristics that violate the triangle inequality for specific edges. However, such counterexamples are rare in practice, and most well-designed admissible heuristics (like Manhattan distance) are also consistent."
+
+- question: "Setting h(n) = 0 for all states is inadmissible because it never provides any useful estimate, making it impossible for A* to find the optimal solution."
+  type: true-false
+  answer: false
+  explanation: "h(n) = 0 is perfectly admissible — it never overestimates (it never estimates anything at all). Admissibility only requires h(n) ≤ true cost; zero satisfies this for any nonneg cost. With h = 0, A* degenerates to Dijkstra's algorithm and still finds the optimal solution. It's a terrible heuristic in the sense of efficiency (it provides no guidance), but it is valid and correct. Confusing 'informative' with 'admissible' is a common error."
+
+- question: "What is the relaxation technique for designing heuristics, and why does it always produce an admissible heuristic?"
+  type: short-answer
+  answer: "Relaxation removes one or more constraints from the original problem to create an easier version, then uses the exact optimal cost of that easier version as h(n). Because the relaxed problem has fewer restrictions, any solution to the original problem is automatically a solution to the relaxed problem. Therefore the optimal cost of the relaxed problem is at most the optimal cost of the real problem — the heuristic never overestimates, guaranteeing admissibility."
+  explanation: "Manhattan distance for the 8-puzzle is the canonical example: it solves the relaxed problem where tiles can slide through each other. In the real problem, tiles block each other, so the true cost is at least as large as Manhattan distance. The power of relaxation is that it gives a systematic recipe: take your problem, identify constraints, remove some of them, and solve exactly. Any solution to the original satisfies all constraints including the ones you removed, so it's also valid in the relaxed problem. The relaxed optimal cost therefore lower-bounds the real optimal cost."
+```
+
 ## Explainer
 
 From your study of A* search, you know that A* evaluates nodes using f(n) = g(n) + h(n), where g(n) is the cost so far and h(n) is the heuristic estimate of the remaining cost to the goal. The entire performance of A* — whether it finds the optimal solution quickly or degenerates into exhaustive search — hinges on the quality of h(n). A heuristic function is your way of injecting problem-specific knowledge into a general search algorithm, telling it which directions look promising without actually exploring them.

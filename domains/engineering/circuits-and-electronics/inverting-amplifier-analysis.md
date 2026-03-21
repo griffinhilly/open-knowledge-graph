@@ -35,6 +35,45 @@ Derive the gain formula from first principles using the virtual ground and virtu
 - Believing virtual ground means the inverting node is physically connected to ground — it is held at ground potential by the feedback loop, but current flows through R_f to the output, not to ground.
 - Ignoring the gain-bandwidth product constraint — an inverting amplifier with gain of -100 using an op-amp with GBW of 1 MHz has a usable bandwidth of only 10 kHz.
 
+## Questions
+
+```yaml
+- question: "You design an inverting amplifier with Rin = 1 kΩ and Rf = 100 kΩ to achieve a gain of −100. The signal source has an output impedance of 500 kΩ. What is the primary problem with this design?"
+  type: multiple-choice
+  options:
+    - "The gain magnitude exceeds 50, so the virtual ground assumption no longer holds"
+    - "The input impedance of the amplifier is only 1 kΩ — this heavily loads the high-impedance source, causing a large voltage drop across the source impedance and attenuating the signal before it reaches the amplifier"
+    - "Negative feedback becomes unstable when the gain magnitude exceeds 10"
+    - "Virtual ground cannot be maintained at gains above 10 using a single op-amp stage"
+  answer: 1
+  explanation: "The inverting amplifier's input impedance equals Rin — not infinity. A source with 500 kΩ output impedance driving a 1 kΩ load loses nearly all its signal to the source resistance: the signal reaching the amplifier input is only 1/(1+500) ≈ 0.2% of the original. High-gain inverting designs require small Rin (to keep Rf manageable), which creates a tension: high gain demands small Rin, but small Rin loads high-impedance sources. This is the fundamental practical penalty of the inverting configuration."
+
+- question: "In an ideal inverting amplifier, why does all of the input current (Iin = Vin / Rin) flow through Rf rather than into the op-amp input terminal?"
+  type: multiple-choice
+  options:
+    - "The op-amp's input terminal provides a low-impedance path to ground, steering current through Rf"
+    - "Current splits between Rf and the op-amp input in proportion to their impedances, but the op-amp input impedance is so high that the split is nearly 100% into Rf"
+    - "By the virtual open rule, no current enters the op-amp input terminal — so Kirchhoff's current law at the inverting node forces all input current through Rf"
+    - "The feedback loop redirects input current away from the op-amp terminal and into Rf to maintain gain accuracy"
+  answer: 2
+  explanation: "The virtual open rule states that no current enters the op-amp's input terminals (infinite input impedance in the ideal model). At the inverting node (at virtual ground, 0 V), KCL applies: current in through Rin must equal current out. With zero current entering the op-amp terminal, all of Iin = Vin/Rin must flow through Rf. This forces V_out = 0 − Iin × Rf = −(Rf/Rin) × Vin. The gain is not set by the op-amp — it falls directly from Ohm's Law applied to the two resistors."
+
+- question: "In an ideal inverting amplifier, the closed-loop gain depends only on the ratio of the external resistors Rf and Rin, not on the op-amp's open-loop gain."
+  type: true-false
+  answer: true
+  explanation: "True. This is the profound benefit of negative feedback. The op-amp's open-loop gain AOL appears in the exact expression for closed-loop gain, but as AOL → ∞ the expression reduces to Av = −Rf/Rin exactly. As long as AOL is large (which is the case for all practical op-amps in their bandwidth), the gain is determined entirely by the external resistor ratio — which can be set with precision resistors. The op-amp's job is simply to provide enough gain that the feedback loop enforces virtual ground; the exact value of AOL doesn't matter."
+
+- question: "The inverting terminal of an inverting amplifier is at virtual ground, meaning it is physically connected to the 0 V supply rail through the feedback network."
+  type: true-false
+  answer: false
+  explanation: "False. Virtual ground is a voltage condition, not a physical connection. The inverting terminal is connected only to the junction of Rin and Rf — there is no wire to ground at that node. Negative feedback continuously adjusts the output voltage to drive the differential input toward zero, holding the inverting terminal at approximately 0 V without any direct connection to ground. Current from the input flows through Rin, then through Rf to the output — not to ground. Confusing virtual ground with physical ground leads to the error of thinking input current drains to ground rather than flowing through Rf."
+
+- question: "Explain why the gain of an inverting amplifier is determined by the resistor ratio Rf/Rin rather than by the op-amp's properties, and what this implies about practical design."
+  type: short-answer
+  answer: "Negative feedback drives the differential input of the op-amp toward zero (virtual short), which enforces virtual ground at the inverting terminal. With the inverting node held at 0 V, Ohm's Law completely determines the circuit behavior: input current = Vin/Rin, and since all of it flows through Rf (by the virtual open rule), V_out = −Vin × Rf/Rin. The op-amp's only role is to provide sufficient open-loop gain that the feedback loop can enforce virtual ground — its exact gain value doesn't appear in the result. This means gain accuracy depends on resistor precision, not op-amp specifications, so designers use precision resistors (0.01–0.1% tolerance) to set gain and tolerate wide variation in op-amp open-loop gain."
+  explanation: "This insight reveals a key advantage of negative feedback circuits generally: they trade op-amp performance uncertainty for passive component precision. High-quality resistors are stable, cheap, and well-characterized; op-amp open-loop gain varies widely with temperature, supply voltage, and unit-to-unit manufacturing differences. By making gain depend on the ratio of two passive components rather than on the active device, the inverting amplifier topology produces reliable, reproducible results across manufacturing and environmental variations."
+```
+
 ## Explainer
 
 From your work on op-amp fundamentals, you know the two golden rules that make ideal op-amp analysis tractable: no current enters the input terminals (virtual open), and negative feedback drives the differential input voltage to zero (virtual short, or in this circuit, **virtual ground**). The inverting amplifier is the circuit where these rules produce a result that initially seems paradoxical: the inverting input is held at 0 V even though it is not physically connected to ground.

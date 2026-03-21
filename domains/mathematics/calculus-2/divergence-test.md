@@ -29,6 +29,45 @@ Apply as the first check for any series: if the terms do not approach zero, stop
 - Skipping this test and jumping to more complex tests when a simple limit would show divergence.
 - Confusing this test with the comparison test or limit comparison test.
 
+## Questions
+
+```yaml
+- question: "A student evaluates a series and finds that the terms a_n approach 0 as n → ∞. What can they conclude using the Divergence Test?"
+  type: multiple-choice
+  options:
+    - "The series converges, since the terms go to zero"
+    - "The series diverges, since vanishing terms cause partial sums to stabilize"
+    - "Nothing — the Divergence Test is inconclusive when a_n → 0; further analysis is required"
+    - "The series converges absolutely"
+  answer: 2
+  explanation: "This is the central trap of the Divergence Test. a_n → 0 is NECESSARY but not sufficient for convergence. The harmonic series Σ 1/n has terms going to zero yet diverges. The Divergence Test can only prove divergence (when a_n does not approach 0); it cannot prove convergence. When a_n → 0, you must use another test."
+
+- question: "What does the Divergence Test conclude about the series Σ n/(2n + 1)?"
+  type: multiple-choice
+  options:
+    - "The series converges because n/(2n+1) < 1 for all n"
+    - "The series diverges because lim n/(2n+1) = 1/2 ≠ 0"
+    - "The series diverges because 1/2 < 1"
+    - "The test is inconclusive because the terms are bounded"
+  answer: 1
+  explanation: "As n → ∞, n/(2n+1) → 1/2 ≠ 0. Since the terms do not approach zero, the Divergence Test immediately confirms divergence — no further analysis needed. Option A confuses boundedness of terms with convergence of the series. Option D is wrong for the same reason: being bounded does not make the Divergence Test inconclusive; it is inconclusive only when a_n → 0."
+
+- question: "The Divergence Test can be used to confirm that a series converges."
+  type: true-false
+  answer: false
+  explanation: "The Divergence Test is strictly one-directional: it can only prove divergence. If a_n does not approach 0, the series diverges. If a_n → 0, the test says nothing — you cannot conclude convergence. To prove convergence, you need a different test (integral test, comparison test, ratio test, etc.)."
+
+- question: "The harmonic series Σ 1/n diverges even though its terms approach zero."
+  type: true-false
+  answer: true
+  explanation: "This is the definitive counterexample to the misconception that a_n → 0 implies convergence. The harmonic series Σ 1/n diverges (shown by the integral test or Cauchy condensation), yet 1/n → 0. It is famous precisely because it violates naive intuition — terms can vanish without the sum stabilizing."
+
+- question: "Why is it not enough for a series to have terms approaching zero in order to conclude that the series converges? Give an example that illustrates your answer."
+  type: short-answer
+  answer: "Terms approaching zero is necessary but not sufficient for convergence. The partial sums must stabilize, which requires the terms to decrease fast enough — and a_n → 0 alone does not guarantee this. The harmonic series Σ 1/n is the classic example: 1/n → 0, yet the series diverges because the terms shrink too slowly. Terms like 1/n² decrease fast enough (series converges); terms like 1/n do not."
+  explanation: "The Divergence Test tells you only what is ruled out (divergence is certain when a_n ↛ 0), not what is established. Convergence requires a separate positive argument. Keeping the harmonic series in mind as the standard counterexample helps prevent the 'vanishing terms ⟹ convergence' fallacy."
+```
+
 ## Explainer
 
 Before testing whether a series converges, ask the simplest possible question: are the terms even going to zero? If they aren't, there is no hope of the series converging — you can't add up infinitely many chunks of positive size and get a finite total. This is the **Divergence Test** (also called the nth-term test): if lim(n→∞) aₙ ≠ 0, the series diverges. Full stop. No further analysis needed.

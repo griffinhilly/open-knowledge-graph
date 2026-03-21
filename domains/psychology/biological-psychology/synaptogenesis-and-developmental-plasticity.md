@@ -32,6 +32,45 @@ Compare synaptic density across development using electron microscopy, correlati
 ## Common Misconceptions
 Critical periods are not absolute—plasticity continues into adulthood, though at reduced magnitude. Closing critical periods with myelination is adaptive; it stabilizes learned behaviors and prevents further rewriting by new experiences.
 
+## Questions
+
+```yaml
+- question: "During a mouse's critical period for visual development, the left eye is kept closed for two weeks while the right eye remains open. Electrophysiology later shows that cortical neurons respond much more strongly to the right eye. What best explains this outcome?"
+  type: multiple-choice
+  options:
+    - "The closed eye's photoreceptors were damaged by deprivation, reducing the signal sent to cortex"
+    - "Experience-dependent synaptic pruning during the critical period eliminated synapses serving the inactive eye, since those synapses lost the Hebbian competition for cortical territory to the active eye"
+    - "Myelination preferentially strengthened the open eye's pathway because myelin forms only around active axons"
+    - "The closed eye's cortical columns were overproduced after birth and required more pruning than the open eye's"
+  answer: 1
+  explanation: "The visual cortex initially receives input from both eyes with roughly equal synaptic strength. During the critical period, the active (open) eye's synapses are repeatedly co-activated with cortical neurons — they fire together and wire together (Hebbian competition). The inactive (closed) eye's synapses are not co-activated, lose the competition, and are pruned by microglia. The result is that the open eye's cortical representation expands at the closed eye's expense. This is the canonical demonstration of experience-dependent pruning during a critical period."
+
+- question: "The closure of a critical period through increased parvalbumin interneuron activity and perineuronal net formation is best understood as which of the following?"
+  type: multiple-choice
+  options:
+    - "A developmental failure that limits the brain's long-term learning potential"
+    - "An adaptive process that stabilizes optimized circuits and prevents experience from continuously overwriting what has been learned"
+    - "A pathological outcome of abnormal development that can always be reversed with pharmacological intervention"
+    - "A compensation for the loss of excess synapses during pruning, which must be counteracted to restore full plasticity"
+  answer: 1
+  explanation: "Critical period closure is adaptive. By the end of the critical period, the brain has sculpted circuits matched to the organism's particular environment. Maintaining infant-level plasticity indefinitely would be destabilizing — every new experience could overwrite previously learned patterns. Parvalbumin interneurons increase inhibitory tone (constraining excitatory plasticity), perineuronal nets physically stabilize synapses, and myelination reduces the temporal precision needed for Hebbian coincidence detection. Together, these commit the brain to its optimized configuration."
+
+- question: "Synaptic pruning during early development is experience-dependent: synapses that are repeatedly co-activated by experience survive, while synapses that are inactive or poorly synchronized are eliminated."
+  type: true-false
+  answer: true
+  explanation: "This is the Hebbian principle applied to developmental pruning. After the initial overproduction of synapses, a competition ensues in which active, co-activated synapses are strengthened and retained, while inactive ones are tagged for removal by microglia. This experience-dependent selection is how the brain optimizes its circuits for the organism's specific environment — explaining why early enrichment benefits brain development and why early deprivation can produce permanent deficits."
+
+- question: "The closure of critical periods represents a brain impairment, because the adult brain can no longer reorganize its circuits to the same extent as the infant brain."
+  type: true-false
+  answer: false
+  explanation: "Critical period closure is not impairment but adaptation. A brain as plastic as an infant's throughout life would be unstable — every new experience could overwrite previously learned skills and knowledge. Closure stabilizes circuits that have been optimized for the organism's environment, committing to an efficient configuration rather than remaining perpetually undecided. Adults retain significant plasticity (learning, memory, recovery from some injuries), but it operates within the stable architecture established during the critical period."
+
+- question: "Why does visual deprivation during the critical period have permanent effects on vision, while the same deprivation in adulthood typically has minimal lasting impact?"
+  type: short-answer
+  answer: "During the critical period, visual cortex circuits are still in a phase of experience-dependent competition: active synapses strengthen and inactive ones are pruned, leading to permanent reorganization of cortical maps. Depriving one eye of input during this window means its synapses lose the Hebbian competition and are pruned; the other eye's synapses expand to fill the territory. After the critical period closes — through increased inhibitory tone (parvalbumin interneurons), perineuronal net formation, and myelination — circuits are stabilized and no longer undergo the same large-scale structural reorganization. The same deprivation in adulthood produces temporary functional changes but not the permanent loss of cortical territory, because the structural plasticity mechanisms for large-scale rewiring are no longer active."
+  explanation: "The critical period is defined precisely by this contrast: maximal experience-dependence during the window, reduced structural plasticity after closure. This is why early intervention for conditions like amblyopia works only during the critical period — after closure, forced use of the weaker eye no longer triggers the competitive pruning and synaptic strengthening needed to restore normal cortical representation."
+```
+
 ## Explainer
 
 You already know from synaptic transmission that neurons communicate via precisely structured connections — the synapse — involving neurotransmitter release, receptor binding, and postsynaptic potentials. You also know from critical periods that there are developmental windows when experience exerts disproportionate influence on developing systems. **Synaptogenesis** is the process of building those synaptic connections in the first place, and understanding it means understanding how the brain prepares itself for the experience that will ultimately shape it.

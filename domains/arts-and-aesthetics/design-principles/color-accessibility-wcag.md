@@ -31,6 +31,45 @@ Use contrast checking tools (WebAIM Contrast Checker, WAVE) to test color pairs.
 - High contrast always makes design ugly; many stunning designs meet WCAG AA or AAA standards.
 - Accessibility is a separate design phase; it should be integrated from the start.
 
+## Questions
+
+```yaml
+- question: "A form uses red outlines for required fields and gray outlines for optional ones. A user with red-green color blindness sees both as nearly identical gray outlines. What does WCAG require the designer to do?"
+  type: multiple-choice
+  options:
+    - "Replace color entirely with text labels ('Required' / 'Optional') and remove the color coding"
+    - "Add a supplementary visual cue — such as an asterisk (*) for required fields — so color is not the sole indicator of the distinction"
+    - "Increase the red's contrast ratio to at least 7:1 against the background to meet WCAG AAA"
+    - "Remove gray outlines and use only the red, relying on color-blind users to ask for assistance"
+  answer: 1
+  explanation: "WCAG requires that color never be the SOLE means of conveying information — it does not prohibit using color. The solution is to add a second visual channel (asterisk, icon, text label, or shape) alongside the color so the information survives when the color channel fails. Contrast ratio is a separate WCAG requirement about text legibility, not about distinguishing categorical states."
+
+- question: "Which text-background combination most likely FAILS WCAG AA contrast requirements for normal body text?"
+  type: multiple-choice
+  options:
+    - "Black text on white background"
+    - "Dark navy (#1a2b5c) on light gray (#f0f0f0)"
+    - "Light gray text (#b0b0b0) on white background"
+    - "White text on dark blue background (#003399)"
+  answer: 2
+  explanation: "Light gray text on a white background is a very common accessibility failure. Both colors have high luminance, so their contrast ratio is typically well below the 4.5:1 required for normal text. The other combinations all involve high luminance contrast between foreground and background. The critical point is that contrast ratio is calculated from luminance — not from how perceptually distinct the hues appear."
+
+- question: "WCAG AA requires a minimum contrast ratio of 4.5:1 for normal-sized text and a lower threshold of 3:1 for large text (18pt or larger, or 14pt bold)."
+  type: true-false
+  answer: true
+  explanation: "These are the correct WCAG AA thresholds. The rationale for the lower threshold for large text is that larger type is more legible at lower contrast — the added size compensates. WCAG AAA raises the bar further: 7:1 for normal text and 4.5:1 for large text. These ratios are calculated from the relative luminance formula, not from subjective perception."
+
+- question: "If two colors look clearly different to a designer with normal color vision, they automatically meet WCAG contrast requirements for text."
+  type: true-false
+  answer: false
+  explanation: "WCAG contrast ratios are calculated from the mathematical relative luminance of the two colors — not from how visually distinct they appear to any individual. Two colors can look strikingly different in hue (e.g., bright red vs. bright green) yet have nearly identical luminance values, failing the 4.5:1 contrast requirement. A designer's subjective perception of color difference is not a reliable guide to accessibility compliance."
+
+- question: "Why is it insufficient to simply make colors 'look different' when designing for color accessibility, even when they appear clearly distinct to you?"
+  type: short-answer
+  answer: "Two separate problems make subjective perception unreliable. First, roughly 8% of men have color blindness — colors that look obviously different to most people (red vs. green) may be nearly indistinguishable to them. Second, 'looking different' doesn't capture luminance contrast, which determines readability under low vision, aging eyes, bright-sunlight screen conditions, and low-quality displays. WCAG's contrast ratio measures the luminance difference objectively, predicting accessibility across the range of users and viewing conditions — not just what one designer sees on one calibrated monitor."
+  explanation: "This is why WCAG uses a mathematical formula rather than a perceptual test. The formula approximates the human visual system's sensitivity to lightness differences, which is the physical basis of readability. Hue differences are secondary; luminance contrast is primary."
+```
+
 ## Explainer
 
 From your work on accessibility in design, you know that inclusive design means building for the full range of human ability from the start, not retrofitting later. Color accessibility applies this principle to one of design's most powerful tools — and one of its most common failure points. Roughly 8% of men and 0.5% of women have some form of color vision deficiency, most commonly **red-green color blindness** (deuteranopia and protanopia). If your design relies on color alone to distinguish a warning from a success state — red vs. green — a significant portion of your users will see those states as nearly identical.

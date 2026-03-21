@@ -32,6 +32,45 @@ Measure water pressure at different depths in a column using pressure gauges or 
 - Pressure in a fluid only acts downward (pressure acts in all directions equally).
 - Different fluids at the same depth have the same pressure (pressure depends on fluid density; heavier fluids have higher pressure at the same depth).
 
+## Questions
+
+```yaml
+- question: "Container A is a narrow cylinder with diameter 2 cm filled with water to a depth of 3 m. Container B is a swimming pool 25 m wide filled with water to the same 3 m depth. What is the pressure at the bottom of each container?"
+  type: multiple-choice
+  options:
+    - "Container B has much higher pressure because it contains far more water pushing down"
+    - "Container A has higher pressure because the narrow column concentrates the weight"
+    - "Both containers have the same pressure at the bottom, because pressure depends only on depth and fluid density"
+    - "The pressures are equal only if the containers are at the same atmospheric pressure"
+  answer: 2
+  explanation: "This is the hydrostatic paradox: P = P₀ + ρgh depends only on fluid density ρ, gravitational acceleration g, and vertical depth h — not on the container's volume, cross-sectional area, or shape. Both containers have the same ρ (water), the same g, and the same h (3 m). The additional weight of water in the pool is supported by the pool's sloped or flat sidewalls, not transmitted to the bottom. This result surprises most students but follows directly from the force balance that derives the hydrostatic equation."
+
+- question: "A vertical dam wall holds back water to a depth of 20 m. At what depth below the water surface is the hydrostatic pressure on the dam wall greatest, and why?"
+  type: multiple-choice
+  options:
+    - "At the top of the dam (0 m depth), where the water exerts the most direct force"
+    - "At mid-depth (10 m), where the pressure is averaged over the wall"
+    - "At the base (20 m depth), because pressure increases linearly with depth and is maximum there"
+    - "Pressure is uniform across the dam face because the water is static"
+  answer: 2
+  explanation: "From P = P₀ + ρgh, pressure increases linearly with depth h. At 20 m depth, the gauge pressure is ρgh = 1000 × 9.81 × 20 ≈ 196 kPa, which is approximately twice the pressure at 10 m. Pressure is maximum at the base, not uniform. This is why dam walls are typically thicker at the base — the structure must resist a greater hydrostatic force there. Computing the net force on the dam requires integrating the linearly varying pressure over the entire submerged face."
+
+- question: "A U-tube manometer measures the pressure difference between two points using only the height difference of the fluid columns in the two arms, regardless of the tube's diameter."
+  type: true-false
+  answer: true
+  explanation: "The hydrostatic equation P = P₀ + ρgh shows that pressure in a static fluid column depends only on the vertical height of fluid above it, not on the tube's cross-sectional area or diameter. A thin U-tube and a wide U-tube filled with the same fluid to the same height have the same pressure at every depth. This is precisely what makes manometers practical: you need only measure the fluid height difference, not the tube geometry, to determine a pressure difference."
+
+- question: "Hydrostatic pressure acts primarily downward on surfaces below the fluid, since it is caused by the weight of fluid pressing down."
+  type: true-false
+  answer: false
+  explanation: "Pressure in a static fluid is isotropic — it acts equally in all directions at any given point. This follows from Pascal's principle: if pressure were not equal in all directions, a fluid element would experience a net force and accelerate, violating the assumption of static equilibrium. A horizontal floor at depth h experiences pressure P₀ + ρgh pushing upward; a vertical wall at the same depth experiences the same pressure pushing horizontally; a ceiling would experience it pushing downward. The direction of the pressure force on a surface is always perpendicular to (normal to) that surface, regardless of the surface's orientation."
+
+- question: "Explain why the hydrostatic pressure at a given depth does not depend on the total volume or shape of the fluid container, even though containers with more fluid have more total weight pressing down."
+  type: short-answer
+  answer: "The hydrostatic equation P = P₀ + ρgh is derived from a force balance on a thin horizontal slab of fluid: the pressure difference between the top and bottom of the slab must exactly support the slab's weight. This local force balance depends only on the fluid density and the height of the slab, not on what's happening elsewhere in the container. When the container is wider, the sidewalls — whether sloped, curved, or vertical — bear the additional weight of extra fluid through normal forces; this weight is not transmitted to the bottom. The result is that only the vertical column of fluid directly above any point determines the pressure at that point."
+  explanation: "The key is that the hydrostatic derivation is local — it applies to a differential element of fluid and integrates upward, accumulating the weight of each successive layer. Container geometry affects where walls can support weight but not the vertical pressure gradient dP/dh = ρg. This locality is also why different fluids stacked in layers can be analyzed independently, and why density (not total mass) is the relevant fluid property."
+```
+
 ## Explainer
 
 You already know that pressure is force per unit area, and that in a static fluid, pressure at a point is isotropic — it acts equally in all directions. This follows from Pascal's principle: if it didn't, a tiny fluid element would accelerate in the direction of the pressure imbalance, and the fluid wouldn't be static. The question then is: how does pressure change from point to point in a motionless fluid? The answer follows from a simple force balance on a column of fluid.

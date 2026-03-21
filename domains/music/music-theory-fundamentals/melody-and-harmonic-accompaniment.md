@@ -27,6 +27,45 @@ Take a simple melody and harmonize it using progressions learned in earlier unit
 ## Common Misconceptions
 A melody does not have to move in large leaps; the most memorable melodies often move stepwise with occasional leaps. The accompaniment should enhance, not compete with, the melody.
 
+## Questions
+
+```yaml
+- question: "A student writes an accompaniment to a fast, florid melody in 16th notes by changing chords on every quarter beat. A teacher marks this as problematic. What is the most likely issue?"
+  type: multiple-choice
+  options:
+    - "Chords must always change on downbeats only, making quarter-beat changes technically incorrect"
+    - "Fast harmonic rhythm under a fast melody creates clutter — the melody's rapid motion already implies the harmony, and frequent chord changes compete with rather than support the foreground voice"
+    - "16th-note melodies should have no harmonic accompaniment at all"
+    - "The teacher is simply wrong — more frequent chord changes add harmonic richness to fast passages"
+  answer: 1
+  explanation: "Harmonic rhythm must be calibrated to the melody's activity. Fast, active melodies typically sit better over slower harmonic rhythm — the melody's own motion creates sufficient forward energy, and rapid chord changes fragment the listener's attention. When a fast passage rushes through chord tones and passing tones, the harmony is already implied; spelling it out on every beat turns the accompaniment into a distraction rather than a support. The judgment is not about a rule but about balance: accompaniment should provide a stable harmonic floor that the melody floats above."
+
+- question: "A student writes a homophonic accompaniment to a folk melody but adds an inner voice with the same rhythmic energy and melodic interest as the main melody. What problem does this create?"
+  type: multiple-choice
+  options:
+    - "Nothing — two melodically active voices create rich counterpoint"
+    - "The accompaniment competes with the melody for the listener's attention, undermining the homophonic texture where one voice should clearly lead and others should support"
+    - "This creates polyphony, which is technically a more sophisticated texture than homophony"
+    - "The inner voice should simply be moved to a higher register to avoid the conflict"
+  answer: 1
+  explanation: "In homophonic texture, the melody is the foreground and the accompaniment is the background. If an inner voice has equal rhythmic and melodic energy, the listener cannot tell which to follow — the texture becomes muddled rather than clear. Background voices should be rhythmically and melodically subordinate: moving more slowly, using chord tones, and avoiding distinctive melodic contours that draw the ear away from the main line. The accompaniment's job is to make the melody sound inevitable, not to compete with it."
+
+- question: "In a homophonic texture, the listener's primary attention is drawn to a single melodic line, with accompanying voices providing harmonic support in a subordinate role."
+  type: true-false
+  answer: true
+  explanation: "Homophony is defined by this figure-ground relationship: one melody in the foreground (the figure) and chordal or arpeggiated accompaniment in the background (the ground). This is the prevailing texture in Western popular music, folk music, and much Classical-period music. The accompanimnet supplies harmonic context and rhythmic motion, but it is organized specifically to not draw attention away from the main melodic line. When this balance is achieved, the texture feels natural and singable."
+
+- question: "The Alberti bass pattern — where the left hand arpeggios through chord tones in a low-high-middle-high pattern — violates standard voice-leading rules and is generally considered poor compositional practice."
+  type: true-false
+  answer: false
+  explanation: "The Alberti bass is a well-established and highly functional accompaniment pattern used extensively by Haydn, Mozart, and Beethoven, among others. It does not violate voice-leading rules; it is simply an arpeggiated rather than block-chord realization of the harmony. Its purpose is to keep the accompaniment rhythmically active while filling the harmonic space — providing forward motion and clarity without competing with the melody. It is considered idiomatic Classical-period texture, not a violation."
+
+- question: "What is harmonic rhythm, and why does a fast, ornate melody typically call for slower harmonic rhythm rather than faster harmonic changes?"
+  type: short-answer
+  answer: "Harmonic rhythm is the rate at which the underlying chords change. A fast, ornate melody already contains rapid note-to-note motion that creates forward momentum and implies harmonic movement through its chord tones and passing tones. Adding fast harmonic changes beneath it compounds this density, making the texture feel frantic and obscuring the melody's line. Slower harmonic rhythm provides a stable foundation that the fast melody can move across freely — the contrast between the melody's fast surface motion and the accompaniment's slower harmonic changes creates clarity and allows the listener to track the melody as the primary voice."
+  explanation: "The inverse relationship — fast melody → slow harmony, slow melody → potentially faster harmony — is a general principle of textural balance. Ceremonial or lyrical melodies with long, sustained notes can accommodate more frequent harmonic changes because the harmonic interest compensates for the melodic simplicity. The goal in both cases is that the combined texture feels neither cluttered nor static."
+```
+
 ## Explainer
 
 From your work on **voice leading** and **harmonic progressions**, you know how individual voices connect smoothly and how chord sequences create a sense of direction. Now we zoom out to the larger relationship between those elements: **melody** as the foreground voice the listener follows, and **harmonic accompaniment** as the background that gives it meaning and momentum. Think of melody as a figure and harmony as its ground — the melody only fully makes sense when we hear what harmonies support it.

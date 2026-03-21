@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Viral capsids are icosahedral or helical protein shells composed of many copies of one or a few protein types. The capsid protects the viral genome and determines virion shape and stability. Assembly is often spontaneous in vitro for simple viruses but assisted by scaffolding proteins and enzymatic maturation processes in cells.
 
+## Questions
+
+```yaml
+- question: "A researcher purifies tobacco mosaic virus coat protein and mixes it with TMV RNA in a test tube. She observes that infectious virus-like particles form spontaneously, without any added cellular machinery. This result most directly demonstrates:"
+  type: multiple-choice
+  options:
+    - "That cells are unnecessary for any step of viral replication, including genome copying"
+    - "That all the information needed for capsid assembly is encoded in the shapes and interactions of the protein and nucleic acid components themselves"
+    - "That viral scaffolding proteins are contaminating the purified coat protein preparation"
+    - "That helical capsids are intrinsically more stable than icosahedral capsids"
+  answer: 1
+  explanation: "TMV in vitro assembly is a landmark demonstration that the assembly information resides entirely in the components — no external cellular machinery is needed to tell the protein where to go. The protein subunits and RNA carry complementary surfaces that guide self-assembly through non-covalent interactions. This does not mean cells are unnecessary for replication overall (option A is wrong — genome copying requires cellular and viral machinery), nor does it say anything about relative stability of capsid geometries. It specifically shows that assembly is encoded in the molecules themselves."
+
+- question: "HIV protease inhibitor drugs block viral infectivity by preventing proteolytic cleavage of the Gag polyprotein after budding. This works because:"
+  type: multiple-choice
+  options:
+    - "Uncleaved Gag coats the viral envelope and blocks the glycoproteins needed for cell entry"
+    - "Gag cleavage releases free viral RNA that would otherwise be destroyed in the immature particle"
+    - "Proteolytic cleavage is required to rearrange the immature spherical Gag lattice into the mature conical capsid that is competent for infectivity"
+    - "Intact Gag prevents reverse transcriptase from entering the virus particle during budding"
+  answer: 2
+  explanation: "HIV's immature capsid is a spherical lattice of uncleaved Gag polyproteins. After budding, the viral protease cleaves Gag into its component domains (matrix, capsid, nucleocapsid), which rearrange into the characteristic conical mature capsid. This maturation is required for infectivity — particles with uncleaved Gag are non-infectious even though they contain all the viral components. Protease inhibitors block this cleavage step, producing particles that look complete but cannot infect cells. This illustrates that the capsid is not passive packaging but a dynamic structure whose rearrangement is functionally required."
+
+- question: "Icosahedral capsids are favored by many viruses because icosahedral symmetry allows the largest internal volume for a given amount of protein, and the arrangement of subunits follows strict mathematical rules described by the triangulation number."
+  type: true-false
+  answer: true
+  explanation: "Icosahedral symmetry is geometrically optimal for enclosing maximum volume with a given surface area, which is why it recurs across viruses as different as parvoviruses and adenoviruses. The triangulation number (T) describes how many protein subunits the icosahedron uses: T=1 requires 60 subunits (the minimum), while larger T values allow hundreds or thousands of subunits in multiples of 60. This mathematical framework explains why viral capsids are not arbitrary shapes — they follow specific symmetry rules dictated by the geometry of icosahedral packing."
+
+- question: "Scaffolding proteins are permanent structural components of mature viral capsids — they remain in the final particle to maintain its structural integrity."
+  type: true-false
+  answer: false
+  explanation: "Scaffolding proteins are temporary guides that assist assembly and are removed — either degraded by proteases or expelled through openings in the capsid — before the mature particle is complete. They are analogous to construction scaffolding: essential during building but absent from the finished structure. Many bacteriophages (e.g., T4, P22) and herpesviruses use scaffolding proteins this way. Their removal is often coupled to a conformational change that locks the capsid into its mature, stable form — a process called procapsid-to-capsid expansion."
+
+- question: "Why can't the capsid of a large, complex virus simply use 60 identical protein subunits like the minimum icosahedron? What architectural solution do large viruses use to build bigger capsids without requiring many different protein types?"
+  type: short-answer
+  answer: "The minimum icosahedral capsid uses exactly 60 copies of one protein arranged in perfect 5-fold, 3-fold, and 2-fold symmetry. To enclose a larger genome, a larger capsid is needed, but 60 copies of a bigger protein would violate the symmetry constraints. The solution is the triangulation number (T): by dividing each triangular face of the icosahedron into smaller triangles, viruses can place more subunits on each face (60×T total) while maintaining quasi-equivalence — subunits occupy slightly different local environments but are still made from the same protein type. This allows adenovirus, for instance, to build a T=25 capsid from 1,500 copies of the same protein, encoding a large shell with minimal genetic investment."
+  explanation: "The quasi-equivalence principle (Caspar and Klug) is the key insight: strict equivalence (all 60 subunits in identical environments) is impossible for larger capsids, but quasi-equivalence (subunits in similar but not identical environments) is achievable with one or a few protein types. This is why the T-number matters — it tells you how many distinct local environments exist in the capsid and how many subunits total are required. The genetic economy is enormous: a single capsid protein gene can encode a shell of thousands of subunits."
+```
+
 ## Explainer
 
 From your study of the viral replication cycle, you know that new virions must be assembled from freshly synthesized components before they can exit the host cell. The capsid — the protein shell that surrounds and protects the viral genome — is the structural core of this assembly process. Understanding capsid architecture explains how viruses solve a fundamental engineering problem: building a container large enough to hold a genome from the smallest possible number of distinct protein parts.

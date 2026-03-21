@@ -34,6 +34,45 @@ Diagram the pre-mRNA and trace each processing event in order. Work through an e
 - Prokaryotes do not perform RNA splicing because their genes lack introns — this is a eukaryote-specific process.
 - Introns are not 'junk'; many contain regulatory sequences and non-coding RNA genes.
 
+## Questions
+
+```yaml
+- question: "The human genome contains approximately 20,000 protein-coding genes, yet the human proteome contains far more than 20,000 distinct proteins. Which RNA processing mechanism best explains this discrepancy?"
+  type: multiple-choice
+  options:
+    - "The 5' cap adds molecular variants to each mRNA, producing different protein start sites"
+    - "Alternative splicing can include or exclude different exons from the same pre-mRNA, producing multiple distinct protein isoforms from a single gene"
+    - "Poly-A tail length variation changes mRNA stability and therefore the relative abundance of each protein"
+    - "RNA editing changes specific nucleotides after transcription, generating extensive sequence diversity"
+  answer: 1
+  explanation: "Alternative splicing is the dominant mechanism. Over 90% of human multi-exon genes undergo alternative splicing, and combinatorial inclusion or exclusion of exons can generate dozens or hundreds of distinct mRNA variants from one gene. The Drosophila Dscam gene can theoretically produce over 38,000 variants from a single locus. While RNA editing (option 3) does contribute some diversity, it is far less widespread and impactful than alternative splicing in explaining the proteome-to-genome complexity ratio."
+
+- question: "What would most likely happen to a eukaryotic mRNA if its 5' cap were removed immediately after transcription?"
+  type: multiple-choice
+  options:
+    - "Translation would be faster because ribosomes could access the start codon more easily without the cap in the way"
+    - "The mRNA would be rapidly degraded by 5'→3' exonucleases and translation initiation would fail"
+    - "Splicing could not occur because the spliceosome requires the cap to identify the correct pre-mRNA"
+    - "The poly-A tail would compensate, and the mRNA would function normally"
+  answer: 1
+  explanation: "The 5' cap serves two critical functions: protecting the mRNA's 5' end from exonuclease degradation, and serving as the recognition signal for the ribosomal initiation complex (via the cap-binding protein eIF4E). Without the cap, the mRNA is vulnerable to rapid 5'→3' degradation and ribosomes cannot efficiently initiate translation. The poly-A tail (option 3) protects the 3' end but cannot compensate for loss of 5' protection or the ribosome-binding function that the cap provides."
+
+- question: "The same pre-mRNA can give rise to proteins with different functions in different cell types through alternative splicing."
+  type: true-false
+  answer: true
+  explanation: "Alternative splicing allows cell-type-specific regulation of which exons are included in mature mRNA. SR proteins that promote exon inclusion and hnRNPs that cause exon skipping are themselves differentially expressed across tissues, creating a tissue-specific splicing code. A gene might produce a membrane-bound isoform in neurons (by including an exon encoding a transmembrane domain) and a soluble isoform in liver cells (by excluding that exon) — two functionally distinct proteins from one gene."
+
+- question: "Prokaryotic genes contain introns that are removed by the spliceosome, just like eukaryotic genes."
+  type: true-false
+  answer: false
+  explanation: "Prokaryotic genes generally lack introns — their protein-coding sequences are continuous. This is why prokaryotes do not require an RNA processing pipeline and can begin translating an mRNA while it is still being transcribed. Spliceosome-mediated splicing is exclusively eukaryotic and evolved alongside the intron-containing genome organization of eukaryotes. (Rare self-splicing introns exist in some prokaryotes and eukaryotic organelles, but these are fundamentally different from spliceosomal splicing.)"
+
+- question: "How does alternative splicing allow the human proteome to be far more complex than the ~20,000 protein-coding genes in the genome, and what machinery controls which isoforms are produced in different cells?"
+  type: short-answer
+  answer: "Alternative splicing produces multiple distinct mRNA variants from a single gene by including or excluding different combinations of exons. A gene with several exons can generate many functionally distinct proteins through combinatorial exon selection. Over 90% of human multi-exon genes are alternatively spliced. The choice of which splice sites to use is regulated by splicing factors: SR proteins bind enhancer sequences to promote exon inclusion, while hnRNPs bind silencer sequences to cause exon skipping. Because these regulators are differentially expressed across cell types and developmental stages, different tissues produce different isoform profiles from the same gene."
+  explanation: "This makes the spliceosome a major layer of gene regulation. Mutations that disrupt splice sites or splicing regulatory sequences can cause disease by shifting the isoform balance — several cancers involve mutations in spliceosome components or splicing regulators, underscoring that splicing is not a mere housekeeping step but a critical control point in gene expression."
+```
+
 ## Explainer
 
 From your study of transcription, you know that RNA polymerase reads a DNA template and synthesizes an RNA copy. In prokaryotes, that transcript is essentially ready to be translated — ribosomes can even begin translating the mRNA while it is still being transcribed. Eukaryotes, however, insert an entire processing pipeline between transcription and translation. The initial transcript, called **pre-mRNA**, must be modified in three major ways before it can leave the nucleus: capping, polyadenylation, and splicing.

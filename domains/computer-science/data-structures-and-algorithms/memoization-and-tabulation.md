@@ -34,6 +34,45 @@ Implement both approaches for the same 2-3 canonical problems: Fibonacci, coin c
 - Memoization does not change the recursion structure; if the recursion is wrong, caching it will not fix correctness.
 - Bottom-up tabulation often allows significant space optimization (e.g., reducing a 2D DP table to two 1D arrays) that is harder to apply to memoization.
 
+## Questions
+
+```yaml
+- question: "You need to solve a DP problem where the full subproblem space has 10,000 entries, but computing the final answer only requires visiting about 200 of them. Which implementation strategy has a clear practical advantage here?"
+  type: multiple-choice
+  options:
+    - "Tabulation — iterating in a fixed order is always faster than recursion"
+    - "Memoization — it computes only the subproblems actually needed, avoiding the other 9,800"
+    - "Both are equivalent; tabulation skips unneeded subproblems automatically"
+    - "Neither; the optimal approach is to reformulate the recurrence to eliminate unused subproblems"
+  answer: 1
+  explanation: "Memoization's defining advantage is lazy evaluation — it only computes subproblems that are reachable from the original query. Tabulation fills the entire table in a fixed order, so it pays the cost of all 10,000 entries regardless. For sparse subproblem spaces, memoization is the better choice. Tabulation is preferred when the entire table will be needed anyway, or when space optimization matters."
+
+- question: "You have a correct recursive solution for longest common subsequence using memoization. You now want to reduce space from O(mn) to O(n). Which approach makes this optimization straightforward, and why?"
+  type: multiple-choice
+  options:
+    - "Memoization — you can evict cache entries once they are no longer reachable"
+    - "Tabulation — because you control the iteration order, you can see that each row depends only on the previous row and discard completed rows"
+    - "Both approaches; space optimization is symmetric between them"
+    - "Neither; reducing LCS space below O(mn) requires a completely different algorithm"
+  answer: 1
+  explanation: "Tabulation's space optimization relies on recognizing that the fill order makes old rows unreachable once the next row is computed. Since you write the loop yourself, you can replace the full 2D table with two 1D arrays — the current row and the previous row. Memoization stores results in a hash map or full array indexed by both parameters, making it much harder to identify and discard obsolete entries, because the recursion order is determined at runtime."
+
+- question: "Memoizing a recursive function that has a bug in its base case will produce correct results once the base case is reached for the first time and cached."
+  type: true-false
+  answer: false
+  explanation: "Memoization does not fix correctness — it only eliminates redundant computation. If the recursive logic or base cases are wrong, caching those wrong answers will propagate the error to every subproblem that depends on them. A buggy recursive solution becomes a buggy memoized solution. This is an important practical point: verify your recursion is correct on small inputs before adding memoization."
+
+- question: "Tabulation can often use less memory than memoization for problems where every subproblem is needed, because tabulation avoids call stack overhead."
+  type: true-false
+  answer: true
+  explanation: "When all subproblems will be computed anyway, memoization still pays call-stack overhead — each recursive call adds a stack frame, and for problems with O(n) or O(mn) subproblems, this overhead adds up. In languages with shallow stack limits (e.g., Python's default ~1000 frame limit), memoization can even throw a stack overflow for large inputs that tabulation handles without issue. Tabulation uses iteration rather than recursion, so memory is limited to the DP table itself."
+
+- question: "Why does tabulation enable space optimizations (like reducing a 2D DP table to two 1D arrays) that are difficult to apply to memoization?"
+  type: short-answer
+  answer: "Tabulation fills entries in an explicit, controlled order that you write as a loop. This lets you reason statically about which previous entries are still needed: if each row only depends on the previous row, you can discard completed rows as you go. Memoization uses recursion with an implicit and runtime-determined call order, so it is hard to know statically when a cached entry will never be needed again — and a hash map cannot be easily scanned for pruneable entries without re-analyzing the recursion structure."
+  explanation: "The key difference is control: in tabulation, the programmer dictates the order, making data lifetime analysis straightforward. In memoization, the runtime determines which subproblems are solved and in what order, making lifecycle analysis much harder. This is why tabulation is the preferred choice in production systems where memory budgets are tight."
+```
+
 ## Explainer
 
 Dynamic programming solves problems by reusing solutions to overlapping subproblems, but the way you organize that reuse leads to two fundamentally different implementation strategies. **Memoization** (top-down) starts from the original problem and recurses downward, caching each subproblem's result the first time it is computed. **Tabulation** (bottom-up) starts from the smallest base cases and iteratively builds up to the answer. Both eliminate redundant computation, but they differ in control flow, memory usage, and practical tradeoffs.

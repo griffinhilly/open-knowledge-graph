@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Neural language models use deep learning to assign probabilities to word sequences. The transformer architecture, based on attention mechanisms, processes sequences in parallel by computing weighted combinations of all positions' representations. Large language models trained on billions of words achieve remarkable performance on generation and comprehension tasks, raising questions about the relationship between statistical pattern-matching and human linguistic knowledge.
 
+## Questions
+
+```yaml
+- question: "A transformer model, trained only on next-token prediction with no explicit grammatical rules, correctly handles subject-verb agreement across long embedded relative clauses in sentence types that appear rarely in its training data. What would this finding most strongly suggest?"
+  type: multiple-choice
+  options:
+    - "The model has memorized the specific sentences from training data"
+    - "Statistical pattern-matching over sufficient data can produce some degree of structural generalization, challenging the claim that LLMs purely match surface patterns"
+    - "The model has an innate grammatical faculty equivalent to Universal Grammar"
+    - "Long-distance dependencies are not actually processed by the attention mechanism"
+  answer: 1
+  explanation: "If the model handles novel structural patterns it rarely saw, this pushes back on the 'mere pattern-matching' critique and suggests the statistical objective induces something resembling structural generalization. It does not prove the model has innate grammar (it learned from data, not innateness), nor does it prove it fully understands structure. This is exactly the kind of evidence that makes the debate productive — it shows LLMs do more than memorize surface patterns, without definitively resolving whether they internalize grammar the way humans do."
+
+- question: "What problem with earlier sequential neural architectures does the transformer's attention mechanism directly solve?"
+  type: multiple-choice
+  options:
+    - "Sequential models could not be parallelized during training, making them impossible to scale"
+    - "Information from early in a sequence could fade out before the end, making long-range dependencies hard to capture; attention allows direct connections between any two positions"
+    - "Sequential models could not process sentences longer than about 20 words"
+    - "Attention allows the model to access external knowledge bases that sequential models could not"
+  answer: 1
+  explanation: "In sequential (RNN/LSTM) architectures, information about word position 1 must be threaded through every subsequent step to reach position 50 — it can effectively decay or be overwritten along the way. The attention mechanism bypasses this: every position computes a weighted combination of all other positions simultaneously. This makes it possible to connect 'knew' directly to 'lawyer' in 'The lawyer who the journalist interviewed knew the senator' without the intervening clause degrading the connection. Parallelization during training is also a benefit, but the conceptual advance is the direct position-to-position connection."
+
+- question: "Large language models are trained on next-token prediction — they learn to predict which word comes next — without being given explicit rules about grammar or meaning."
+  type: true-false
+  answer: true
+  explanation: "This is correct and is what makes LLMs remarkable. The training objective is purely statistical: given the preceding text, assign probabilities to all possible next tokens. No parse trees, no semantic rules, no explicit syntactic categories are provided. Yet from this objective alone, over sufficient data and parameters, LLMs develop representations that support grammatical sentences, stylistic register, factual knowledge, and cross-lingual translation. Whether this statistical learning captures the same kind of knowledge as human grammatical competence is the central open question."
+
+- question: "LLMs' strong performance on language benchmarks demonstrates that human language acquisition does not require innate grammatical knowledge, definitively settling the debate over Universal Grammar."
+  type: true-false
+  answer: false
+  explanation: "The debate remains unresolved. LLMs acquire language behavior from vastly more input than any child — hundreds of billions of words versus perhaps a few million in childhood — so they cannot straightforwardly demonstrate that statistical learning is sufficient given normal human input. Critics also argue that LLMs fail on systematic structural tests in ways that suggest they lack genuine grammatical knowledge. LLMs are the best-performing systems on benchmarks, which is relevant evidence, but 'best performance' on current tests does not settle the deeper theoretical question about what kind of knowledge underlies human language acquisition."
+
+- question: "Why does the transformer's attention mechanism give it an advantage over step-by-step sequential processing for understanding language? Give an example of a sentence type where this advantage is particularly important."
+  type: short-answer
+  answer: "In sequential architectures, information propagates one step at a time, so connecting a verb to its subject across a long embedded clause requires the model to maintain that information through every intervening word — it can fade or be overwritten. The attention mechanism allows any position to directly attend to any other position in a single step, regardless of distance. Example: in 'The lawyer who the journalist interviewed knew the senator,' the model must connect 'knew' to 'lawyer' as subject-verb pair, skipping over the embedded relative clause 'who the journalist interviewed.' With attention, the model can directly weight 'lawyer' highly when processing 'knew'; with sequential processing, the relationship must survive being threaded through five intervening words."
+  explanation: "Long-distance dependencies are a classic challenge for sequential architectures — often called the 'vanishing gradient' problem at its extreme. Attention's parallel structure sidesteps this by making distance in the sequence irrelevant to the directness of the connection, which is why transformers outperform sequential models on language tasks that require integrating information across long spans."
+```
+
 ## Explainer
 
 You've already studied compositional semantics — the principle that the meaning of a complex expression is built systematically from the meanings of its parts according to grammatical rules — and formal grammars that specify the structural rules languages follow. Neural language models take a radically different approach to the same problem: rather than encoding explicit rules about meaning or structure, they learn statistical patterns from enormous quantities of text and use those patterns to predict what comes next. The contrast between these two approaches — rule-based versus statistical — is one of the most productive tensions in contemporary linguistics.

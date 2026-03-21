@@ -29,6 +29,45 @@ Work through the abstract and social versions of the Wason selection task and co
 - Poor performance on abstract logic tasks does not mean people are irrational — it reveals that human reasoning is adapted for pragmatic real-world inference.
 - Belief bias (accepting logically invalid conclusions that match prior beliefs) reflects the interaction of stored knowledge with inferential processes, not a general failure of logical competence.
 
+## Questions
+
+```yaml
+- question: "You are shown four cards: E, K, 4, 7. The rule is 'If there is a vowel on one side, there is an even number on the other.' Which cards must you turn over to test whether the rule is violated?"
+  type: multiple-choice
+  options:
+    - "E and 4 — check the vowel and confirm the even number"
+    - "E and 7 — check the vowel card and the non-even card"
+    - "E only — only the vowel card can violate the rule"
+    - "All four cards — the rule must be tested exhaustively"
+  answer: 1
+  explanation: "You must turn E (to verify it has an even number on the back — testing modus ponens) and 7 (to verify it does not have a vowel on the back — testing modus tollens: if not-even, then not-vowel). Turning 4 cannot falsify the rule; a vowel or consonant behind 4 is equally consistent with it. This is the abstract Wason selection task — most people select E and 4, which confirms rather than tests the rule. The error rate exceeds 75% in typical samples, revealing how difficult modus tollens is to apply in abstract form."
+
+- question: "Participants evaluate the argument: 'All politicians are liars. This person is a liar. Therefore, this person is a politician.' They rate it as logically valid. What does this illustrate?"
+  type: multiple-choice
+  options:
+    - "Modus tollens reasoning applied correctly to a social context"
+    - "Belief bias — the believable conclusion leads people to accept an invalid argument"
+    - "The content effect — familiar social content improves logical performance"
+    - "Domain-general logical competence operating on social material"
+  answer: 1
+  explanation: "The argument commits the fallacy of affirming the consequent (not modus ponens or tollens), so it is logically invalid — the premises don't guarantee the conclusion. But if the conclusion aligns with prior beliefs, people tend to accept it anyway. This is belief bias: stored knowledge about the world interferes with purely formal evaluation. It shows reasoning is not cleanly separable from memory and prior knowledge. Options C and D describe real phenomena but are not illustrated by accepting an invalid argument with a believable conclusion."
+
+- question: "Poor performance on the abstract Wason selection task shows that humans lack the cognitive capacity for modus tollens reasoning."
+  type: true-false
+  answer: false
+  explanation: "The content effect disproves this. When the same logical structure is embedded in a social contract or deontic rule — 'If a person is drinking beer, they must be over 18' — most people select correctly. People can perform modus tollens; they just don't deploy it reliably on abstract, content-free problems. The issue is not capacity but the absence of the pragmatic schemas that normally guide reasoning in real-world contexts."
+
+- question: "The dramatic improvement in Wason selection task performance when abstract rules are replaced with social contract rules suggests that human reasoning relies on domain-specific schemas rather than a domain-general logical engine."
+  type: true-false
+  answer: true
+  explanation: "This is the central theoretical implication of the content effect. If humans possessed a domain-general logical module, performance would be equally high (or equally poor) across all logically equivalent problems. Instead, performance is tied to content: social contract rules (detecting cheaters) and precautionary rules (detecting hazard violations) trigger near-correct performance while abstract rules do not. This supports the view that reasoning is built around specialized schemas that evolved to handle recurring pragmatic situations in social life."
+
+- question: "Why does performance on the Wason selection task improve dramatically when the abstract rule is replaced with a social contract, and what does this tell us about human reasoning?"
+  type: short-answer
+  answer: "Social contract rules activate specialized cognitive schemas for detecting cheating — if you take the benefit, you must pay the cost. These schemas are structurally equivalent to conditional logic but are retrieved by content match, not abstract logical structure. This shows that human reasoning is not a domain-general logical engine but is adapted for pragmatic real-world inference, deploying formal logic selectively when it matches familiar patterns."
+  explanation: "The critical insight is that logical competence and logical performance are separate. People can reason validly when the right schema is triggered, but abstract problems stripped of pragmatic content don't trigger anything — leaving performance near chance. This has broad implications: it means improving reasoning requires not just teaching logic rules but building intuitions tied to concrete content domains."
+```
+
 ## Explainer
 
 Deductive reasoning asks: given that certain premises are true, what must follow? Unlike induction (inferring probable generalizations from evidence) or problem-solving heuristics you have already studied, deduction deals in **necessity** — a valid argument guarantees its conclusion if its premises are true, regardless of content. The two core forms studied in cognitive psychology are **syllogistic reasoning** (All A are B; all B are C; therefore all A are C) and **conditional reasoning** (If P then Q). Conditional reasoning has two valid inference forms: *modus ponens* (P is true, therefore Q) and *modus tollens* (Q is false, therefore P is false). In formal logic these are equivalent in validity, but psychologically they are dramatically different in difficulty: modus ponens is nearly universally endorsed correctly; modus tollens errors are the norm.

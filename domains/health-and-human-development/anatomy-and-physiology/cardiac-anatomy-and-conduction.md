@@ -38,6 +38,45 @@ Trace the path of a single action potential through the conduction system and ma
 - The heart is not purely left-sided — it sits in the mediastinum with the apex tilted left but the base toward the right.
 - The AV valves do not open 'actively'; they are pushed open and closed passively by pressure differentials.
 
+## Questions
+
+```yaml
+- question: "Why does the AV node deliberately slow conduction before passing the impulse to the ventricles?"
+  type: multiple-choice
+  options:
+    - "To prevent the ventricles from receiving too many electrical impulses per minute"
+    - "To allow the atria time to finish contracting and push blood into the ventricles before ventricular contraction begins"
+    - "Because the AV node is smaller than the SA node and physically conducts more slowly as a structural limitation"
+    - "To allow the semilunar valves time to open before ventricular depolarization reaches them"
+  answer: 1
+  explanation: "The AV node delay (~0.1 seconds) is functionally critical: it gives the atria time to complete their contraction and deliver their final 'top-off' of blood into the ventricles before ventricular systole begins. If conduction were instantaneous, atria and ventricles would contract simultaneously, and atrial contraction would add little to ventricular filling. The fibrous skeleton forces all conduction through the AV node, making this delay non-bypassable — a design feature, not a limitation."
+
+- question: "A patient's ECG shows a prolonged PR interval (0.28 s, normal < 0.20 s). This most likely indicates a problem at which anatomical location?"
+  type: multiple-choice
+  options:
+    - "SA node — it is firing too slowly, lengthening the time between beats"
+    - "AV node — conduction through it is delayed, prolonging the time from atrial to ventricular depolarization"
+    - "Purkinje fibers — they are distributing ventricular depolarization too slowly"
+    - "Ventricular myocardium — hypertrophy is slowing the spread of depolarization through the walls"
+  answer: 1
+  explanation: "The PR interval measures the time from the start of atrial depolarization (start of P wave) to the start of ventricular depolarization (start of QRS) — this interval spans the AV node delay. A prolonged PR interval means conduction through the AV node is slowed (first-degree AV block). SA node firing rate affects beat frequency, not the PR interval. A Purkinje problem would widen the QRS complex. This illustrates the diagnostic power of ECG anatomy: each interval maps to a specific structure."
+
+- question: "The P wave on an ECG represents ventricular depolarization spreading rapidly through the Purkinje fiber network."
+  type: true-false
+  answer: false
+  explanation: "The P wave represents atrial depolarization spreading from the SA node across the atrial muscle. Ventricular depolarization via the Purkinje network produces the QRS complex — its sharp, brief morphology reflects how efficiently the Purkinje system distributes the signal simultaneously across the ventricular walls. A wider-than-normal QRS indicates slower ventricular depolarization (e.g., bundle branch block), showing the direct relationship between conduction anatomy and ECG morphology."
+
+- question: "The QRS complex is normally very brief because ventricular depolarization happens almost simultaneously throughout the ventricular walls, driven by the Purkinje fiber system."
+  type: true-false
+  answer: true
+  explanation: "The Purkinje fiber network distributes depolarization rapidly and simultaneously to the entire endocardial surface of both ventricles. This near-simultaneous activation is what produces a brief, sharp QRS complex. When bundle branches are blocked, depolarization must spread cell-to-cell more slowly through ventricular muscle, producing a broader QRS. The width of the QRS is a direct ECG marker of how efficiently the Purkinje system distributes the impulse."
+
+- question: "Explain why the heart beats in a coordinated sequence — atria first, then ventricles — and what structural feature enforces this timing."
+  type: short-answer
+  answer: "The fibrous skeleton of connective tissue electrically insulates the atria from the ventricles everywhere except the AV node. This forces all electrical conduction through the AV node, which introduces a deliberate ~0.1-second delay. The SA node fires first, spreading depolarization through the atria via gap junctions (P wave). The signal reaches the AV node, which delays before passing it down the bundle of His, bundle branches, and Purkinje fibers for rapid ventricular activation (QRS complex). This sequential architecture ensures atria contract first to fill ventricles, then ventricles contract to eject blood."
+  explanation: "Without the insulating fibrous skeleton, depolarization could spread directly from atria to ventricles at any point, causing simultaneous contraction and defeating the purpose of separate chambers. The AV node is not merely a relay — it is the only gap in an otherwise insulating wall, and the delay it imposes is an essential functional feature."
+```
+
 ## Explainer
 
 Your prerequisite in cardiac electrophysiology established how individual cardiac muscle cells generate action potentials with a prolonged plateau phase that prevents tetanus and ensures a full mechanical contraction before the cell can be restimulated. Now the question is: how does a heart composed of billions of such cells beat in coordinated sequence rather than as a chaotic, independent riot of depolarizations? The answer is architectural — the heart is wired with a specialized **conduction system** that functions simultaneously as a pacemaker, a relay station with a deliberate delay, and a rapid distribution network.

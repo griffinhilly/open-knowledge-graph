@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Dirichlet L-functions L(s, χ) = Σ χ(n)/n^s generalize the Riemann zeta function for Dirichlet characters χ. They satisfy functional equations and have Euler products, enabling study of primes in arithmetic progressions and other structured subsets of integers.
 
+## Questions
+
+```yaml
+- question: "To prove there are infinitely many primes congruent to 1 mod 5, Dirichlet needed to establish a key analytic fact about the L-functions for characters mod 5. What is that fact?"
+  type: multiple-choice
+  options:
+    - "Each L(s, χ) has a simple pole at s = 1, just like the Riemann zeta function"
+    - "L(1, χ) ≠ 0 for every non-principal character χ mod 5"
+    - "The Euler product for L(s, χ) converges for all complex s"
+    - "Each L(s, χ) satisfies the Riemann Hypothesis"
+  answer: 1
+  explanation: "The proof uses a logarithmic sum over primes: the sum of χ(p)/p over primes p diverges if L(1, χ) = 0. By orthogonality of characters, summing over all characters mod q isolates the contribution from primes in the specific residue class a mod q. If any L(1, χ) = 0 for a non-principal χ, the sum collapses and fails to diverge, contradicting the known divergence of the sum over primes in any valid residue class. So non-vanishing of L(1, χ) is not just helpful — it is the precise analytic input the proof requires."
+
+- question: "A Dirichlet L-function L(s, χ) has an Euler product factored over primes because of a specific property of the character χ. Which property is responsible?"
+  type: multiple-choice
+  options:
+    - "χ is periodic mod q"
+    - "χ takes values that are roots of unity"
+    - "χ is completely multiplicative: χ(mn) = χ(m)χ(n) for all m, n"
+    - "χ vanishes on integers sharing a common factor with q"
+  answer: 2
+  explanation: "The Euler product for L(s, χ) = Σ χ(n)/n^s exists precisely because χ is completely multiplicative. When χ(mn) = χ(m)χ(n) always, the Dirichlet series factors prime by prime, giving L(s, χ) = Π_p (1 − χ(p)p^{-s})^{-1}, just as ζ(s) factors when a(n) = 1. Periodicity ensures the character is determined by residues mod q, and vanishing on integers sharing a factor with q is necessary for the character to be well-defined, but neither of these gives the Euler product — complete multiplicativity does."
+
+- question: "The Generalized Riemann Hypothesis (GRH) asserts that all non-trivial zeros of any Dirichlet L-function L(s, χ) lie on the critical line Re(s) = 1/2."
+  type: true-false
+  answer: true
+  explanation: "GRH directly extends the Riemann Hypothesis — which concerns ζ(s) — to all Dirichlet L-functions. Just as the Riemann Hypothesis asserts that the non-trivial zeros of ζ(s) lie on Re(s) = 1/2, GRH makes the same assertion for each L(s, χ). Most sharp estimates in analytic number theory about primes in arithmetic progressions — error terms, explicit bounds — would become dramatically better if GRH were proved. It remains one of the central open problems in mathematics."
+
+- question: "Dirichlet's proof that every arithmetic progression a, a+q, a+2q, … with gcd(a, q) = 1 contains infinitely many primes can be completed using only the algebraic properties of Dirichlet characters, without any complex analysis."
+  type: true-false
+  answer: false
+  explanation: "The algebraic structure — character orthogonality, Euler products — sets up the machinery, but the critical step is showing L(1, χ) ≠ 0 for all non-principal characters, and this requires complex analysis. The principal character's L-function has a pole at s = 1 (it behaves like ζ(s) with finitely many factors removed), and non-vanishing of the non-principal L-functions at s = 1 is a genuinely analytic result. Elementary proofs of special cases exist, but Dirichlet's general theorem requires analysis."
+
+- question: "Explain why character orthogonality is the key mechanism that allows Dirichlet L-functions to 'isolate' primes in a specific residue class, and why non-vanishing of L(1, χ) is the crucial step in the proof."
+  type: short-answer
+  answer: "The orthogonality of Dirichlet characters mod q means that the sum Σ_χ χ(a)^{-1} χ(n) over all characters is φ(q) if n ≡ a (mod q) and gcd(n, q) = 1, and 0 otherwise. This acts as an indicator function for the residue class. When you sum log L(s, χ) over all characters and apply orthogonality, the contributions from primes not in the target class cancel, and only primes ≡ a (mod q) survive — their contribution diverges as s → 1⁺. If any L(1, χ) = 0 for a non-principal χ, that term would collapse rather than diverge, destroying the argument. So L(1, χ) ≠ 0 is not a technical detail but the analytic foundation the entire selection mechanism rests on."
+  explanation: "The deep insight is that L-functions provide a 'lens' that can focus on structured subsets of primes by encoding residue information in the character. The Euler product connects this to primes directly, and the analytic behavior at s = 1 controls whether the lens successfully sees infinitely many primes in the target class."
+```
+
 ## Explainer
 
 From the Riemann zeta function you already know that ζ(s) = Σ 1/n^s encodes deep arithmetic information, particularly about primes, via its Euler product ζ(s) = Π (1 − p^−s)^−1. A **Dirichlet series** is any series of the form Σ a(n)/n^s, and the zeta function is simply the case where a(n) = 1 for all n. The key insight of analytic number theory is to replace the constant sequence 1 with a richer arithmetic function — one that "sees" structure in the integers that 1 cannot detect.

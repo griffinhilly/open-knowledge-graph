@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 The k-th moment of X is μₖ = E[Xᵏ], which exists if E[|X|ᵏ] < ∞. Variance Var(X) = E[(X - E[X])²] measures spread; higher central moments μₖ = E[(X - E[X])ᵏ] capture skewness (k=3) and kurtosis (k=4). Hölder's inequality and Jensen's inequality are key tools relating moments.
 
+## Questions
+
+```yaml
+- question: "X follows a Cauchy distribution. A student claims 'the variance of X is infinite.' What is the more precise statement?"
+  type: multiple-choice
+  options:
+    - "Var(X) = ∞, but E[X] = 0 exists as a finite number"
+    - "The variance is undefined because E[X] itself does not exist — the Cauchy distribution has no finite moments of any order"
+    - "Var(X) is undefined only because the fourth moment diverges, not the second"
+    - "Var(X) = ∞ exists as an extended real number; higher moments are finite"
+  answer: 1
+  explanation: "The Cauchy distribution has no finite moments of any order — not even the first. E[|X|^k] = ∞ for all k ≥ 1. Saying 'variance is infinite' is imprecise because variance is defined as E[(X−E[X])²], which requires E[X] to exist first. Since E[X] doesn't exist for the Cauchy distribution, Var(X) is not just 'infinite' but genuinely undefined. This illustrates why the condition E[|X|^k] < ∞ is not a technicality — it's a genuine existence requirement."
+
+- question: "Jensen's inequality states that for a convex function φ, φ(E[X]) ≤ E[φ(X)]. Which of the following is a direct application of this to prove Var(X) ≥ 0?"
+  type: multiple-choice
+  options:
+    - "Apply φ(t) = |t| (convex): |E[X]| ≤ E[|X|], which implies variance is non-negative"
+    - "Apply φ(t) = t² (convex): (E[X])² ≤ E[X²], so E[X²] − (E[X])² ≥ 0, which is Var(X)"
+    - "Apply φ(t) = e^t (convex): E[e^X] ≥ e^{E[X]}, which bounds the variance from below"
+    - "Apply φ(t) = −t (linear): E[−X] = −E[X], proving symmetry, hence variance ≥ 0"
+  answer: 1
+  explanation: "Taking φ(t) = t², which is convex, Jensen gives (E[X])² ≤ E[X²]. Since Var(X) = E[X²] − (E[X])², this immediately gives Var(X) ≥ 0, with equality iff X is almost surely constant. This is a clean measure-theoretic proof that requires no algebra beyond the inequality itself. The other options don't directly yield the result."
+
+- question: "If E[|X|⁴] < ∞, then E[|X|²] < ∞ as well."
+  type: true-false
+  answer: true
+  explanation: "On probability spaces, Lᵏ spaces are nested: Lᵏ ⊆ Lʲ for k > j. This follows from Hölder's inequality applied with an indicator function: if E[|X|⁴] < ∞, then X ∈ L⁴, and since the probability measure is finite (total measure 1), L⁴ ⊆ L². Informally: a higher moment being finite forces all lower moments to also be finite. This is a genuinely useful fact — if you can bound a high moment, you get the lower moments for free."
+
+- question: "Two distinct probability distributions that have identical moments of all orders must be the same distribution."
+  type: true-false
+  answer: false
+  explanation: "This is false — the moment problem is not always determinate. There exist pairs of distinct distributions with identical moments of all orders; the log-normal distribution and certain modifications provide classic counterexamples. A distribution is uniquely determined by its moments only when Carleman's condition is satisfied: ∑ₖ μ₂ₖ^(−1/(2k)) = ∞. Distributions with heavy tails (like the log-normal) may violate this, making the moment sequence insufficient to characterize them uniquely."
+
+- question: "Why does positive skewness (γ₁ > 0) indicate a heavy right tail, given that skewness is the third standardized central moment E[(X − μ)³]/σ³?"
+  type: short-answer
+  answer: "The cube function preserves sign: (x − μ)³ is large and positive when x is far above the mean, and large and negative when x is far below. If the distribution has a heavy right tail, large positive deviations occur more frequently or more extremely than large negative deviations, making E[(X − μ)³] > 0. The standardization by σ³ makes the measure dimensionless. Negative skewness (left-tail heavy) similarly makes E[(X − μ)³] < 0 because extreme negative deviations dominate."
+  explanation: "The key is that cubing (unlike squaring) preserves the sign of the deviation, so E[(X−μ)³] reflects the net asymmetry in the distribution's tails. A symmetric distribution like the normal has E[(X−μ)³] = 0 because positive and negative deviations cancel. Skewness ≠ 0 tells you which tail is heavier, and its magnitude tells you how strongly asymmetric the distribution is — information that the mean and variance alone cannot convey."
+```
+
 ## Explainer
 
 From measure-theoretic expectation, you know that E[X] = ∫ X dP is a Lebesgue integral with respect to the probability measure P. The k-th **moment** E[Xᵏ] is simply the integral of the function Xᵏ — that is, ∫ Xᵏ dP. The central question is always existence: when is this integral finite? The answer is the condition E[|X|ᵏ] < ∞, which is exactly the statement that Xᵏ is integrable, or equivalently that X ∈ Lᵏ(Ω, ℱ, P). The Lᵏ spaces you may know from functional analysis appear here as the natural home for random variables with finite k-th moments. Existence of higher moments is genuinely restrictive: X ~ Cauchy has no finite first moment; X ~ t_ν has finite moments only up to order ν − 1.

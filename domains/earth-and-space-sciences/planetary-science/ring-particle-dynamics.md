@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Ring particles undergo inelastic collisions that dissipate orbital energy, causing the system to settle into increasingly thin, flat configurations. Collective particle behavior—wake structures, density waves, and wake torques—drives dynamical evolution. The balance between collisional damping and shear heating maintains ring geometry and explains observed ring morphologies.
 
+## Questions
+
+```yaml
+- question: "Saturn's main rings span 280,000 km in diameter yet are only 10–30 meters thick. What physical process most directly explains this extraordinary flatness?"
+  type: multiple-choice
+  options:
+    - "Gravitational compression by Saturn flattens the ring plane over time"
+    - "Inelastic collisions dissipate random and out-of-plane velocity components while conserving angular momentum"
+    - "Solar radiation pressure pushes particles toward the equatorial plane"
+    - "Keplerian shear stretches the ring radially while leaving vertical extent unchanged"
+  answer: 1
+  explanation: "Inelastic collisions are the flattening mechanism. They remove kinetic energy associated with random motions (including vertical oscillations) as heat, while angular momentum is conserved. This preferentially damps out-of-plane motion, driving the ring toward an extremely thin, flat configuration. Gravity does keep particles in orbit, but it is collisional dissipation that creates the astonishing thickness-to-diameter ratio."
+
+- question: "In a densely populated ring region with high optical depth, what collective structure forms as a result of mutual self-gravity among particles?"
+  type: multiple-choice
+  options:
+    - "Stable circular vortices analogous to Jupiter's Great Red Spot"
+    - "Permanent radial spokes aligned with Saturn's magnetic field"
+    - "Transient elongated self-gravity wakes that continuously form, shear, and dissolve"
+    - "Concentric density rings separated by permanent gaps"
+  answer: 2
+  explanation: "At high optical depth, particles clump under mutual gravitational attraction into self-gravity wakes — tilted, elongated aggregates tens of meters across. Keplerian shear continuously stretches and disrupts these clumps, so they are transient rather than permanent. These wakes explain the azimuthal brightness asymmetry observed in Saturn's A and B rings. Spokes and vortices are different phenomena with different origins."
+
+- question: "Shear heating from Keplerian differential rotation acts as a continuous energy source that opposes collisional cooling, maintaining an equilibrium velocity dispersion in planetary rings."
+  type: true-false
+  answer: true
+  explanation: "This balance is what determines ring thickness and optical depth. Collisional damping removes random kinetic energy; Keplerian shear (inner particles orbiting faster than outer ones) continuously generates relative velocities, re-introducing kinetic energy. The equilibrium between these two processes sets the particle velocity dispersion — analogous to a 'temperature' — which in turn determines the ring's vertical scale height."
+
+- question: "Inelastic collisions between ring particles conserve both kinetic energy and angular momentum."
+  type: true-false
+  answer: false
+  explanation: "Inelastic collisions conserve angular momentum but NOT kinetic energy — that is precisely what 'inelastic' means. Kinetic energy is dissipated as heat or deformation during impact. It is this energy loss that drives the ring toward a flatter configuration. If collisions were perfectly elastic, there would be no energy dissipation and no flattening tendency."
+
+- question: "What are density waves in planetary rings, what causes them, and what can be measured from them?"
+  type: short-answer
+  answer: "Density waves are tightly wound spiral patterns in ring surface density excited at orbital resonance locations with nearby moons. Where a ring particle's orbital frequency is a simple ratio of a moon's orbital frequency, the moon's repeated gravitational tugs organize particles into coherent density patterns. These waves propagate outward, transporting angular momentum. Their observed wavelengths yield the local surface mass density of the ring, and their damping rates reveal the ring's effective viscosity."
+  explanation: "Density waves are a remarkable example of how satellite-ring gravitational coupling encodes detailed information about ring structure. The spiral wave pattern is directly analogous to spiral density waves in galactic disks. Because the wave dispersion relation links wavelength to surface density, high-resolution observations of density waves in Saturn's rings have provided some of the most precise measurements of ring mass ever made."
+```
+
 ## Explainer
 
 From your study of planetary ring systems, you know that rings are vast collections of particles—ice chunks, rocky debris, and dust—orbiting a planet within its Roche limit, where tidal forces prevent the material from coalescing into a moon. But a ring is not a static structure. It is a dynamic system where every particle interacts with its neighbors through collisions and gravity, and understanding these interactions explains why rings look the way they do.

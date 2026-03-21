@@ -35,6 +35,45 @@ Study the hierarchy theorem proofs to understand how resource bounds create prop
 - Confusing 'properly contained' with 'strictly separated by a provable gap.' Hierarchy theorems use resource separation, not problem difficulty.
 - Assuming all inclusions are proven. P ⊆ NP is known; P = NP is open.
 
+## Questions
+
+```yaml
+- question: "A student argues: 'The Time Hierarchy Theorem proves P ≠ NP, because it shows that giving a machine more time strictly increases what it can compute.' What is the flaw in this reasoning?"
+  type: multiple-choice
+  options:
+    - "The Hierarchy Theorem does not show that more time helps — it proves time and space are equivalent"
+    - "The Hierarchy Theorem proves proper nesting only when the time bound grows super-polynomially, but P and NP differ by at most a polynomial factor — a gap the diagonal argument cannot exploit"
+    - "P and NP are not separated because the theorem only applies to space complexity, not time complexity"
+    - "The reasoning is correct; the Hierarchy Theorem does prove P ≠ NP, though the formal proof has not been accepted"
+  answer: 1
+  explanation: "The Time Hierarchy Theorem proves DTIME(f(n)) ⊊ DTIME(g(n)) when g grows sufficiently faster than f — specifically, when the ratio g/f grows without bound. This gives P ⊊ EXPTIME (exponential is super-polynomially larger than polynomial). But P vs NP asks whether polynomial solvability equals polynomial verifiability — both sides of the question are polynomial classes. The diagonalizing machine constructed in the hierarchy proof must itself run in polynomial time, placing it inside P and defeating the construction. Known barriers (relativization, natural proofs, algebrization) formally explain why standard diagonal arguments cannot resolve P vs NP."
+
+- question: "A new problem Q is discovered that can be solved using at most O(n³) space but has no known algorithm faster than exponential time. What can be correctly concluded?"
+  type: multiple-choice
+  options:
+    - "Q is in P, because polynomial space implies polynomial time — the inclusions run in that direction"
+    - "Q is in PSPACE and therefore also in EXPTIME; whether Q is also in P or NP is unknown"
+    - "Q is in EXPTIME and therefore cannot be in PSPACE, since PSPACE and EXPTIME are disjoint"
+    - "Q is NP-complete by definition, since it has no known polynomial-time solution"
+  answer: 1
+  explanation: "The inclusions go: P ⊆ NP ⊆ PSPACE ⊆ EXPTIME. A problem solvable in polynomial space is automatically in PSPACE, and since PSPACE ⊆ EXPTIME, it is also in EXPTIME — consistent with having no known polynomial-time algorithm. Whether Q is also in P or NP is a separate question. NP-completeness is a specific property (every NP problem reduces to Q in polynomial time) that must be proven, not inferred from the absence of a fast algorithm. PSPACE and EXPTIME are not disjoint; PSPACE is a subset of EXPTIME."
+
+- question: "The fact that P ⊆ NP is a proven theorem, but whether this inclusion is proper (P ⊊ NP, meaning there are problems in NP not in P) remains one of the most famous unsolved problems in mathematics."
+  type: true-false
+  answer: true
+  explanation: "P ⊆ NP is trivial: any problem solvable in polynomial time can certainly be verified in polynomial time (just solve it and check). But whether NP contains problems that are genuinely harder to solve than to verify — i.e., whether P ⊊ NP — is the P vs NP question, one of the Millennium Prize Problems. The Hierarchy Theorem gives us P ⊊ EXPTIME, but the gap between P and NP is only polynomial, placing it outside the theorem's reach."
+
+- question: "The Time Hierarchy Theorem proves P ≠ NP by showing there exist problems solvable in O(n²) time that cannot be solved in O(n) time."
+  type: true-false
+  answer: false
+  explanation: "The Time Hierarchy Theorem does show DTIME(n) ⊊ DTIME(n²) — a proper nesting within polynomial classes. But this proves only that linear and quadratic time are different, not that P ≠ NP. P vs NP is about whether *polynomial* time (all polynomials together) is different from *nondeterministic polynomial* verifiability. Both classes contain all polynomial-time computations, so showing linear ≠ quadratic within P says nothing about the P/NP boundary. The theorem's most significant separation is P ⊊ EXPTIME, not anything about NP."
+
+- question: "What does the Time Hierarchy Theorem actually prove, and why is it insufficient to resolve P vs. NP?"
+  type: short-answer
+  answer: "The Time Hierarchy Theorem proves that DTIME(f(n)) is properly contained in DTIME(g(n)) when g grows sufficiently faster than f — for example, DTIME(n) ⊊ DTIME(n²) and, more significantly, P ⊊ EXPTIME. The proof is a diagonal argument: construct a machine M that on input ⟨T⟩ simulates machine T on ⟨T⟩ for the allowed time, then outputs the opposite. M is guaranteed to differ from every machine running within the tighter time bound, so it computes something genuinely new. This fails for P vs NP because any machine M that runs in polynomial time is itself inside P — making it a member of the class it was supposed to separate from NP. The diagonal construction collapses. Known barriers (relativization, natural proofs, algebrization) formalize exactly why every standard proof technique hits this wall for P vs NP."
+  explanation: "Understanding why the theorem fails to resolve P vs NP is as important as understanding what it proves. It highlights that the P vs NP question has a fundamentally different structure — the two classes are separated by only a polynomial factor in resource, not a super-polynomial one, and that polynomial gap is exactly what makes the question hard."
+```
+
 ## Explainer
 
 You already know how to measure time and space complexity: a problem's time complexity is roughly how many steps the best algorithm takes as input grows, expressed in big-O notation, and you've studied formal resource bounds like DTIME(f(n)) and DSPACE(f(n)). **Complexity classes** are simply the collections of all decision problems solvable within some bound. **P** is the class of problems solvable in polynomial time — O(n^k) for some fixed k. **NP** is the class solvable in polynomial time on a nondeterministic Turing machine, equivalently, the class of problems whose solutions can be *verified* in polynomial time. Sorting is in P; given a proposed Hamiltonian cycle, you can check it in polynomial time, so the Hamiltonian cycle problem is in NP.

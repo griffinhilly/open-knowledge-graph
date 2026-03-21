@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Drama operates through shared conventions—agreed-upon codes between performers and audience about how theatrical space and action will be understood. These range from the fourth wall to soliloquies, from realistic settings to symbolic abstraction. Understanding conventions allows writers and performers to play with or deliberately violate them for meaningful effect.
 
+## Questions
+
+```yaml
+- question: "A Brechtian production has actors directly address the audience mid-scene and interrupt the fiction with commentary. The effect of this technique depends critically on:"
+  type: multiple-choice
+  options:
+    - "The actors having been trained in a non-naturalistic physical performance tradition"
+    - "The audience having previously internalized the naturalistic fourth-wall convention, so its violation is perceptible and produces alienation"
+    - "The play being performed in a proscenium theatre that physically enforces the fourth wall"
+    - "The audience being entirely unfamiliar with theatrical conventions so they are open to any form"
+  answer: 1
+  explanation: "Violating a convention is only meaningful against the background of the contract that preceded it. If the audience has internalized the naturalistic fourth wall — the expectation that actors perform as if they do not know they are being watched — then breaking it is a deliberate disruption that produces Brecht's intended Verfremdungseffekt (alienation effect). An audience with no prior exposure to the fourth wall convention would experience no disruption, because there is no established expectation to violate. The convention's violation is the meaning; the violation requires the convention."
+
+- question: "An audience member fluent in naturalistic television drama watches a Kabuki performance for the first time and finds the stylized movement codes confusing and opaque. The best explanation is:"
+  type: multiple-choice
+  options:
+    - "Kabuki is objectively more complex than naturalistic drama and inherently more difficult to understand"
+    - "The audience member has not learned the visual grammar and codes that the Kabuki audience contract requires for fluent reception"
+    - "The performers failed to execute the conventional movement codes correctly"
+    - "Theatrical conventions are universal, so any performance should be accessible to any audience"
+  answer: 1
+  explanation: "Theatrical conventions are not universal properties of performance — they are learned, culturally situated codes that require an educated audience to function. Kabuki's stylized movements communicate emotion, character type, and narrative through a precise visual grammar that must be learned, just as a naturalistic audience learns that actors 'not seeing' them is a convention rather than a literal fact. The audience's confusion reflects the absence of the contract, not a failure of the performance or an objective difficulty in the form."
+
+- question: "The fourth wall is a natural feature of theatrical performance — it is inherent to what drama is, not a convention that audiences must learn."
+  type: true-false
+  answer: false
+  explanation: "The fourth wall is a deeply internalized convention of naturalistic theatre, not an innate property of performance. Ancient Greek theatre, Elizabethan drama, Brechtian theatre, and most non-Western forms do not observe it. What makes the fourth wall feel 'natural' to contemporary Western audiences is the thoroughness with which it has been reinforced by realistic television and film — but its invisibility as a convention is itself evidence of how successfully conventions can be internalized. Brecht's innovations were designed precisely to make this 'natural' convention visible as a convention."
+
+- question: "A playwright who deliberately refuses to resolve a play's central conflict can only produce a meaningful effect if the audience expected that resolution would be delivered."
+  type: true-false
+  answer: true
+  explanation: "Violating a convention derives its force entirely from the audience's expectation that the convention will be fulfilled. If the audience has no expectation of resolution — because they have no exposure to the conventional plot structures that normally deliver it — then refusing resolution produces nothing: there is no established contract to break. The meaning of violation is always relative to the expectation it disappoints. This is why a dramatist must understand which contract their audience is operating under before deciding to violate it."
+
+- question: "Why is it analytically important to understand dramatic conventions as 'contracts' rather than as natural or inherent properties of theatrical performance?"
+  type: short-answer
+  answer: "Understanding conventions as contracts reveals that they are historically and culturally specific agreements — not inherent to what theatre is. This matters for two reasons. First, it explains cross-cultural reception: what is transparent to one audience (the soliloquy, the aside, the fourth wall) may be opaque or bizarre to another that hasn't learned the contract. Second, it gives writers and directors a creative tool: conventions can be exploited, strained, parodied, or refused — but only if you know what contract your audience is operating under and what they expect to happen next. Violation is only legible against a background of expectation; you cannot meaningfully break a contract the audience doesn't know exists."
+  explanation: "The practical implication for craft: before deciding to subvert a convention, you must ensure your audience knows the convention you are subverting. Brecht's alienation effects work for audiences trained on naturalism; they are lost on audiences who have never learned the naturalistic contract. Understanding the audience contract is thus the prerequisite for any deliberate manipulation of theatrical form."
+```
+
 ## Explainer
 
 Your work on theatrical conventions introduced you to specific practices — the aside, the soliloquy, the proscenium stage, the blackout. Now the task is to understand why those conventions exist and what enables them to function. The short answer is that conventions work because audiences have learned to accept them. But that acceptance is not instinctive; it is learned and historically situated. An audience that is unfamiliar with the convention of a soliloquy will find it bizarre that a character addresses no one in particular for several minutes while other characters supposedly cannot hear. An audience that has grown up with that convention accepts it as naturally as a film viewer accepts the cut from one location to another. Conventions are theatrical **contracts** — implicit agreements between makers and audiences about the rules of the game being played.

@@ -31,6 +31,45 @@ Collect frequency estimates for words, events, or other stimuli with known objec
 - Assuming people accurately track objective frequency; subjective familiarity is a poor proxy for frequency.
 - Treating all frequency judgments as equal; estimates vary dramatically based on how recently or vividly items were encountered.
 
+## Questions
+
+```yaml
+- question: "After a week of intense news coverage about plane crashes, a survey finds that people dramatically overestimate the annual number of aviation deaths compared to car accident deaths. What best explains this?"
+  type: multiple-choice
+  options:
+    - "People carefully track aviation news but not car accident news, giving them more accurate data on planes"
+    - "Aviation deaths are genuinely more frequent than car accident deaths but underreported normally"
+    - "Vivid, recent media coverage increases the subjective familiarity of aviation disasters, which the mind interprets as evidence of high frequency"
+    - "People rationally update their frequency estimates when new information becomes available"
+  answer: 2
+  explanation: "This is the availability heuristic operating on frequency judgment. The intense coverage makes aviation disasters highly accessible in memory — easy to retrieve, vivid, and recent — and that fluency of retrieval gets misread as a signal that aviation deaths are common. In reality, driving is far more dangerous per mile traveled. Option D sounds reasonable but misidentifies the mechanism: people are not doing rational Bayesian updating from news data; they are misinterpreting their own ease of recall."
+
+- question: "A researcher asks participants to vividly imagine picking up a coffee cup several times. A week later, the same participants are asked whether they actually picked up a coffee cup during that session. Compared to a control group that did no imagining, these participants are more likely to falsely remember picking up the cup. What does this demonstrate about frequency estimation?"
+  type: multiple-choice
+  options:
+    - "Imagination impairs memory by interfering with encoding of real events"
+    - "Imagining an action creates a memory trace that later contributes to subjective familiarity, inflating frequency estimates"
+    - "Participants are deliberately lying about what they remember due to demand characteristics"
+    - "Frequency estimates are accurate but only for recent events, and imagination creates false recency cues"
+  answer: 1
+  explanation: "This is the imagination inflation effect. Vividly imagining an action generates a weak memory trace similar to the trace left by actually performing the action. When participants later judge whether they performed the action, the subjective familiarity from imagining contributes to a sense of 'I've been here before' — and frequency estimates increase. The crucial point: the brain cannot fully distinguish the source of familiarity signals, which is why imagining something can make it feel remembered."
+
+- question: "Imagining an event vividly — even knowing you are only imagining it — can later increase your estimate of how often that event has actually occurred."
+  type: true-false
+  answer: true
+  explanation: "True. This is the imagination inflation effect. Vivid imagination creates a memory trace similar to the trace from real experience. Later, when your familiarity system detects this trace, it cannot fully attribute it to imagination versus real occurrence. The result is inflated frequency estimates. This is why eyewitness testimony can be corrupted by post-event suggestions and why therapy techniques that encourage vivid imagining of possible past events carry risks of creating false memories."
+
+- question: "People who consume very little news media will have less accurate frequency estimates for rare events like plane crashes than people who follow the news closely, because they lack information."
+  type: true-false
+  answer: false
+  explanation: "False — and this reverses the actual pattern. Heavy news consumers systematically overestimate the frequency of dramatic, rare events like plane crashes, violent crime, and shark attacks, because the news environment is saturated with these vivid but statistically rare events. Low news consumers may actually have frequency estimates closer to statistical reality for such events. The problem is not lack of information but that the information environment is not representative: media selects for high-availability content, so using news-derived familiarity as a frequency proxy produces predictably inflated estimates for dramatic rare events."
+
+- question: "Why is subjective familiarity a poor proxy for objective frequency, and what kinds of factors make it especially unreliable?"
+  type: short-answer
+  answer: "Subjective familiarity reflects how easily an item comes to mind — retrieval fluency — which is shaped by recency, vividness, media exposure, and even imagination. None of these factors are proportional to actual frequency. Something encountered once yesterday can feel more familiar than something encountered ten times over the past year. Because frequency estimation uses familiarity as a shortcut, it systematically overestimates recently encountered, emotionally vivid, or media-saturated events and underestimates undramatic, infrequent, or personally unencountered events."
+  explanation: "The key insight is that the mind doesn't maintain an accurate tally — it uses a heuristic, and heuristics are efficient but biased. Familiarity is influenced by everything that affects memory retrieval strength (recency, emotionality, repetition in any form), not just objective frequency. The practical implication is that accurate frequency judgment requires a metacognitive correction: you must recognize that your sense of 'this feels common' reflects the distortions of your information environment, not the base rates of the world."
+```
+
 ## Explainer
 
 From your prerequisite work on metacognition, you know that people not only think but also monitor and evaluate their own thinking. From your study of cognitive biases under uncertainty, you understand that the mind uses shortcuts — heuristics — that are efficient but systematically biased. Frequency estimation is where these two threads meet: it is a metacognitive act (judging something about your own mental experience) that relies heavily on heuristics rather than accurate record-keeping.

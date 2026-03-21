@@ -20,6 +20,45 @@ status: draft
 ## Core Idea
 Firms can increase joint profit by colluding to reduce output and raise prices. However, each firm has incentive to cheat (produce above quota). In infinitely repeated games, collusion is sustainable via trigger strategies: deviators face permanent retaliation. Stability requires that the present value of cooperation exceeds the one-time deviation gain. Discount rates and market concentration determine collusion sustainability.
 
+## Questions
+
+```yaml
+- question: "OPEC member countries have agreed to limit oil production. One member's oil minister privately considers pumping more than its quota. In a one-shot interaction, the individually rational choice is:"
+  type: multiple-choice
+  options:
+    - "Honor the quota — all members benefit from the high cartel price"
+    - "Pump more — at the elevated cartel price, extra output is profitable and the deviation is individually rational"
+    - "Reduce output below quota to signal loyalty and secure a larger future share"
+    - "Pump more only if the oil price is above the long-run competitive equilibrium"
+  answer: 1
+  explanation: "This is the prisoner's dilemma at the heart of cartel theory. When all other firms are holding output down, the price is high — making it privately rational to increase one's own output and sell more units at that high price. The cheater free-rides on partners' restraint. In a one-shot game, this defection is the Nash equilibrium regardless of how high joint profits would be under cooperation. Cartel stability requires repeated interaction."
+
+- question: "A cartel has been stable for years. An antitrust authority announces it will aggressively prosecute price-fixing, significantly raising the expected penalty for participating firms. The most likely effect on cartel stability is:"
+  type: multiple-choice
+  options:
+    - "Firms cooperate more tightly to avoid individual exposure by staying within the cartel"
+    - "The cartel destabilizes because prosecution risk effectively lowers the discount factor, making future collusive profits less valuable relative to the one-time deviation gain"
+    - "The cartel becomes more transparent, making it easier to monitor and punish cheating"
+    - "Firms reduce output further to hide the cartel agreement from regulators"
+  answer: 1
+  explanation: "The discount factor δ captures not just time preference but also the probability that the repeated game continues. Antitrust enforcement increases the probability that the game ends (through prosecution), which reduces the effective δ. When δ falls below the threshold needed to sustain collusion, the present value of future cooperative profits no longer exceeds the one-shot deviation gain, and the cartel collapses. This is precisely why antitrust enforcement targets collusion: it makes cartels harder to sustain by altering the game's continuation probability."
+
+- question: "In a one-shot prisoner's dilemma, firms can sustain collusion if the joint profits from cooperation are sufficiently large."
+  type: true-false
+  answer: false
+  explanation: "The size of joint profits is irrelevant in a one-shot game. With no future interaction, there is no threat of punishment for defection. Each firm's dominant strategy is to produce its best-response quantity regardless of what others do, resulting in the Cournot-Nash equilibrium. The cooperative outcome, though jointly superior, is not achievable without the credible threat of future punishment — which requires repeated interaction."
+
+- question: "A grim trigger strategy supports collusion by making defection costly: a single deviation triggers permanent reversion to Cournot-Nash equilibrium, eliminating all future collusive profits."
+  type: true-false
+  answer: true
+  explanation: "The grim trigger is the harshest sustainable punishment: cooperate until anyone defects, then revert to Nash forever. This maximizes the cost of defection (the loss of all future collusive surplus) and therefore minimizes the discount factor needed to sustain cooperation. The key is that the punishment is credible — reverting to Nash is itself a Nash equilibrium, so no firm needs to sacrifice to carry it out."
+
+- question: "Why does the discount factor δ play a central role in determining whether collusion is sustainable, and what factors besides time preference affect its value in practice?"
+  type: short-answer
+  answer: "The discount factor determines how much a firm values future profits relative to present ones. Collusion requires that the present value of future cooperative profits (a stream discounted by δ) exceeds the one-time gain from defection. A high δ makes the future valuable enough that firms prefer cooperation. Beyond pure time preference, δ is also affected by the probability the game continues: regulatory crackdowns, potential market entry by outsiders, or volatile demand can all end the repeated game, effectively lowering δ and destabilizing the cartel even if firms are individually patient."
+  explanation: "This is the key insight: δ is not just about impatience but about the continuation probability of the game. Antitrust enforcement, market entry threats, and volatile demand all reduce the effective δ, making collusion harder to sustain. This explains why antitrust policy focuses on detection and punishment rather than just prohibition."
+```
+
 ## Explainer
 
 From your study of Cournot competition, you know that oligopolistic firms choosing quantities independently produce more total output and earn lower profits than a monopolist would. Each firm ignores the negative externality its production imposes on rivals' revenues. A **cartel** is an agreement among competitors to restrict output and raise the market price toward the monopoly level, splitting the resulting higher profits among members. OPEC's oil production quotas are the classic real-world example: member countries agree to pump less oil than they individually would, keeping the price elevated.

@@ -34,6 +34,45 @@ Sketch the loading diagram as a geometric shape (rectangle for uniform, triangle
 - Using the equivalent resultant to find internal forces at a cut section, where only the portion of the distributed load on one side of the cut should be included.
 - Confusing force per unit length (w, in N/m) with total force (F, in N) — units must be tracked carefully.
 
+## Questions
+
+```yaml
+- question: "A beam carries a triangular distributed load: zero intensity at the left end, 10 kN/m at the right end, over a 6 m span. Where does the equivalent resultant force act?"
+  type: multiple-choice
+  options:
+    - "3 m from the left end (midpoint of the span)"
+    - "2 m from the left end (one-third from the lighter/zero end)"
+    - "4 m from the left end (two-thirds from the lighter/zero end)"
+    - "6 m from the left end (at the point of maximum load intensity)"
+  answer: 2
+  explanation: "The resultant acts at the centroid of the triangular loading area. For a triangle with zero intensity at the left and maximum at the right, the centroid is at 2/3 of the span from the zero end: 2/3 × 6 = 4 m from the left. Option A — the midpoint — is the classic error and is only correct for a uniform (rectangular) load distribution."
+
+- question: "You correctly computed support reactions for a beam using the equivalent resultant of a distributed load. Now you need the shear force at a cross-section 1.5 m from the left support. Which approach is valid?"
+  type: multiple-choice
+  options:
+    - "Use the equivalent resultant directly — it produces identical equilibrium to the distributed load everywhere"
+    - "Isolate the beam segment from the left support to the cut, and integrate only the distributed load acting on that 1.5 m segment"
+    - "Average the distributed load intensity over the full beam and multiply by the cut distance"
+    - "The equivalent resultant cannot be used for reactions either; only the actual distributed load is valid"
+  answer: 1
+  explanation: "The equivalence between a distributed load and its resultant holds only for computing global support reactions using full-beam equilibrium. For internal forces at a cross-section, you must isolate one segment and apply only the distributed load on that segment, placed at its own local centroid. Using the global resultant is incorrect because its location is relative to the full beam — once you make a cut, the resultant may be on the wrong side or at an incorrect distance from the cut."
+
+- question: "For a uniformly distributed load of constant intensity w₀ over a span L, the equivalent resultant force acts at the midpoint of the loaded span."
+  type: true-false
+  answer: true
+  explanation: "A uniform load produces a rectangular loading diagram. The centroid of a rectangle is at its geometric center — the midpoint of the base, corresponding to L/2 from either end. This is the one common case where the midpoint coincidence holds. For any non-uniform distribution, the resultant shifts toward the region of higher intensity, and the centroid formula ∫x·w(x)dx / ∫w(x)dx must be applied."
+
+- question: "The equivalent resultant of a distributed load can be used to find internal shear forces and bending moments at any cross-section of the beam, as long as the reactions were computed correctly."
+  type: true-false
+  answer: false
+  explanation: "The equivalence holds only for external equilibrium — support reactions and overall force/moment balance. For internal calculations at a cross-section, you must use the actual distributed load on the isolated segment. The global resultant lumps all force at a single point whose position relative to the cut may be incorrect, producing wrong internal force values. This is the most important limitation of the equivalent resultant concept."
+
+- question: "Why must the equivalent resultant of a distributed load act at the centroid of the loading diagram, rather than at some other characteristic point like the midpoint of the span?"
+  type: short-answer
+  answer: "The resultant must be statically equivalent to the original distribution — same total force and same moment about any point. The moment of the original loading about a reference is ∫x·w(x)dx. For a single resultant force F_R = ∫w(x)dx to produce this same moment, it must act at x̄ = ∫x·w(x)dx / ∫w(x)dx, which is the centroid of the loading area. Only for a uniform load does this centroid happen to equal the span midpoint."
+  explanation: "This follows directly from the moment-equivalence requirement for equivalent force systems. The centroid is not an arbitrary convention — it is the unique location that preserves both the magnitude and the moment of the distributed load, making the replacement statically exact for equilibrium purposes."
+```
+
 ## Explainer
 
 From your work with support reactions, you know how to find the unknown forces and moments at beam supports when concentrated point loads and couples are applied. Distributed loads extend this problem: instead of a force at a single point, you now have a **force per unit length** w(x) (measured in N/m or lb/ft) spread continuously along the beam. The total load applied over a segment is the integral — or, geometrically, the area under the w(x) diagram. For a 4-meter beam with a uniform load of 10 N/m, the total force is simply 10 × 4 = 40 N. For a triangularly varying load, you compute the area of the triangle instead.

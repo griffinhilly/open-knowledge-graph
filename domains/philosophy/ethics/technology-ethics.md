@@ -32,6 +32,45 @@ Read Floridi's The Ethics of Artificial Intelligence for a systematic overview, 
 - Technology ethics is not merely about preventing sci-fi catastrophes; the most pressing issues involve existing technologies—hiring algorithms, content moderation, surveillance infrastructure—that affect millions of people now.
 - The claim that algorithms are "objective" because they are mathematical is false; algorithms encode the values, biases, and choices of their designers and the training data they learn from.
 
+## Questions
+
+```yaml
+- question: "A company defends its hiring algorithm by saying: 'It's purely mathematical — it just identifies patterns in résumé data without human bias.' An applicant finds it rates women lower on average. What is the most fundamental problem with the company's defense?"
+  type: multiple-choice
+  options:
+    - "The algorithm is clearly malfunctioning and contains a programming error that needs to be debugged"
+    - "Algorithms can only be biased if a human deliberately programs discriminatory rules into them"
+    - "The algorithm may faithfully reflect patterns in biased historical data, encoding past discrimination into automated decisions"
+    - "Mathematical systems are objective by definition, so the disparity must reflect real differences in qualification"
+  answer: 2
+  explanation: "This is the core misconception the field addresses: mathematical operations on biased data produce biased outputs. The algorithm may not be malfunctioning — it may be doing exactly what it was designed to do (find patterns in historical hiring data). But if historical hiring reflected gender discrimination, the algorithm learns those patterns and perpetuates them. 'Mathematical' does not mean 'neutral'; the choice of training data, features, and objective function all encode values. Option D is the 'objectivity fallacy' that technology ethics explicitly rejects."
+
+- question: "The 'responsibility gap' in technology ethics refers to:"
+  type: multiple-choice
+  options:
+    - "The gap between what technology companies promise users and what they actually deliver"
+    - "The difficulty of assigning moral accountability when an autonomous system causes harm, given that no single person intended or fully designed the harmful outcome"
+    - "The difference in ethical standards between tech companies and regulated industries like medicine or finance"
+    - "The regulatory lag between when new technologies are deployed and when laws catch up"
+  answer: 1
+  explanation: "The responsibility gap is a structural problem in moral philosophy: traditional moral responsibility requires a causal agent with intentions and knowledge. When a distributed development pipeline produces an autonomous system that causes harm, no single person intended the outcome, designed the specific failure, or had full knowledge of what would happen — yet harm was caused. Assigning responsibility upstream to design choices, or creating new legal categories of liability, are two proposed responses. The gap is genuine because standard frameworks require an identifiable intentional agent."
+
+- question: "An algorithm that operates with complete mathematical consistency and no deliberate human intervention during execution is ethically neutral."
+  type: true-false
+  answer: false
+  explanation: "Mathematical consistency does not produce ethical neutrality. Algorithms encode choices made at every step of their design: what data is collected, how variables are defined, what objective function is optimized, which populations are represented in training data. A rigorous algorithm trained to optimize for 'employee retention' using data from a culture that discriminated will produce discriminatory outputs consistently and mathematically. Ethics enters through design choices, not execution logic."
+
+- question: "Technology ethics is primarily a forward-looking field concerned with preventing catastrophic risks from hypothetical future AI systems."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about the field. The most pressing technology ethics issues involve currently deployed systems affecting millions of people today: predictive policing algorithms, content moderation, facial recognition, hiring and lending decisions, and persuasive design in social media. These systems are already causing measurable harms along racial, gender, and socioeconomic lines. Working technology ethicists explicitly reject the 'sci-fi catastrophe' framing as a distraction from present, urgent harms."
+
+- question: "Why does the aggregation of individually innocuous data points create a distinctive privacy problem that traditional moral frameworks weren't designed to handle?"
+  type: short-answer
+  answer: "Traditional privacy analysis considered disclosures one at a time — a medical record is sensitive, a location trace might be innocuous. But combining a location history, purchase record, search history, and social connections can reveal far more about a person than any single source: health conditions, political views, relationship patterns, financial vulnerabilities, and daily movements. The person never consented to disclosing this composite portrait because no single disclosure seemed significant. This aggregation problem has no good precedent in pre-digital ethics, where information lived in separate places and combining it required substantial human effort."
+  explanation: "The moral issue is that aggregation produces emergent knowledge about persons that was never individually disclosed. Autonomy-based theories of privacy ground the right in self-determination — controlling what others know about you. Aggregation violates this without any single act of disclosure feeling like a violation, which strains traditional consent and disclosure frameworks that evaluate each disclosure individually."
+```
+
 ## Explainer
 
 From your work in applied ethics, you know how to pick up a moral framework — consequentialism, deontology, virtue ethics — and apply it to a real-world problem. Technology ethics uses exactly that skill, but the domain introduces distinctive structural features that strain standard analyses. Technology is not just a new subject matter; it creates new kinds of moral agents, new distributions of power, and new forms of harm that existing frameworks were not designed to handle.

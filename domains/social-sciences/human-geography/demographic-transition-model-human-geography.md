@@ -46,6 +46,45 @@ Plot countries on the DTM using current UN demographic data and explain the mech
 - Stage 2 rapid population growth reflects a temporary lag between mortality and fertility decline, not a permanent condition.
 - Fertility decline is not simply caused by wealth; education, women's empowerment, and access to family planning are more proximate drivers.
 
+## Questions
+
+```yaml
+- question: "A country has just achieved clean water, sewage treatment, and widespread vaccination, dropping its death rate from 35 to 15 per 1,000. Its birth rate remains at 38 per 1,000. According to the DTM, what is most likely happening and why?"
+  type: multiple-choice
+  options:
+    - "The country is in Stage 1 because both rates are still relatively high"
+    - "The country is entering Stage 2 and will experience rapid population growth as death rates and birth rates respond to different causal forces on different timescales"
+    - "The country will move immediately to Stage 3 as lower mortality makes large families unnecessary"
+    - "The country is in Stage 4 because death rates are now controlled through technology"
+  answer: 1
+  explanation: "This country has just entered Stage 2. Death rates fall quickly through public health interventions — technology-driven changes that can be implemented in years. But birth rates reflect deeply embedded cultural norms, family economics, and old-mortality-calibrated preferences that change only across generations. This lag between fast-falling death rates and slow-falling birth rates is the defining feature of Stage 2, and it produces the natural increase that drives population explosion. Moving to Stage 3 requires urbanization, expanded education (especially for women), and shifting family-size aspirations — none of which follows automatically from lower mortality."
+
+- question: "Sub-Saharan African countries have not followed the DTM's Stage 3 fertility transition as quickly as their falling mortality rates would predict. What is the most sociologically grounded explanation?"
+  type: multiple-choice
+  options:
+    - "The DTM is fundamentally flawed and should be abandoned as a framework"
+    - "Where children provide labor, old-age security, and social insurance systems are weak, the economic logic of high fertility persists beyond what income growth alone would change"
+    - "African governments have failed to implement the necessary economic modernization policies"
+    - "The DTM only applies to countries that industrialized in the 19th century, making it irrelevant for later developers"
+  answer: 1
+  explanation: "The DTM was derived from Western European experience where specific conditions drove fertility decline: urbanization made children economically costly, women's economic autonomy expanded, and social security systems reduced dependence on children in old age. Where land-based livelihoods remain central, formal social insurance is weak, and women's economic autonomy is constrained, the economic logic of high fertility remains intact. This is the model's key limitation: it describes one historical path, not a universal mechanism. Fertility decline requires more than rising income — it requires the specific social transformations that change the value of children."
+
+- question: "The rapid population growth that occurs in Stage 2 of the DTM is a temporary condition produced by a lag between two trends, not a stable or permanent feature of that stage."
+  type: true-false
+  answer: true
+  explanation: "Stage 2 growth is inherently transitional. It is produced by the gap between fast-falling death rates (driven by medical/sanitation technology) and still-high birth rates (shaped by deep social norms). Stage 2 ends when social changes eventually bring birth rates down too, entering Stage 3. The population explosion is not a stable equilibrium but a surge produced by asymmetric timing of two different causal processes. The 'population bomb' rhetoric of the 1960s mistook this transitional dynamic for a permanent condition."
+
+- question: "Economic growth — specifically rising incomes — is the primary and most direct cause of fertility decline in Stage 3 of the DTM."
+  type: true-false
+  answer: false
+  explanation: "Income growth correlates with fertility decline but is not the most direct cause. The proximate drivers are urbanization (which shifts children from economic assets to costs), expansion of women's education (raising the opportunity cost of childrearing and shifting bargaining power), and access to contraception (allowing preferences to be actualized). Rich countries can maintain high fertility if these other factors don't change, and rapid fertility decline can occur in relatively poor countries if girls' education expands quickly. The misconception that 'wealth automatically reduces fertility' oversimplifies what is fundamentally a social transformation, not merely an income effect."
+
+- question: "Explain why Stage 2 of the DTM produces rapid population growth, using the different causal mechanisms that make death rates and birth rates respond at different speeds."
+  type: short-answer
+  answer: "Death rates fall quickly because mortality reduction is driven by technological interventions — vaccines, clean water, sanitation — that can be implemented within years. Birth rates remain high because they reflect deeply embedded cultural norms and family-size preferences calibrated to old mortality environments, which change only across generations. This lag widens the gap between births and deaths (natural increase), producing rapid population growth until social transformation eventually brings birth rates down."
+  explanation: "The asymmetry is causal, not coincidental: you can import a vaccine or build a water treatment plant in years, but you cannot quickly change how many children parents want or the economic conditions that shape those preferences. This is why Stage 2 population growth is not a policy failure — it is an inherent consequence of the sequencing of development, where life-saving technology diffuses faster than the social transformations (urbanization, education, women's autonomy) that eventually reduce fertility."
+```
+
 ## Explainer
 
 You already understand that populations are not evenly distributed — density varies with geography, resources, and history. The Demographic Transition Model (DTM) asks a different question: how do populations *change over time*, and what drives that change? First articulated by Frank Notestein in 1945, the model describes the historical experience of Western Europe as it industrialized. The core observation is simple: death rates fall before birth rates do, creating a period of rapid natural increase that eventually stabilizes once birth rates catch up. From this observation, the model extracts a four-stage description of how societies move from high-mortality/high-fertility equilibrium to low-mortality/low-fertility equilibrium.

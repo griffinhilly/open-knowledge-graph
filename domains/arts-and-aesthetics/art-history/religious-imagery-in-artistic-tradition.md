@@ -28,6 +28,45 @@ Learn the attributes and stories of major saints to recognize them in paintings.
 ## Common Misconceptions
 - Assuming religious art aims primarily at realism rather than spiritual expression. - Thinking iconographic meanings are universal rather than culturally and historically specific. - Overlooking non-Western religious art traditions as equally sophisticated and meaningful.
 
+## Questions
+
+```yaml
+- question: "In a medieval altarpiece, a figure holds a set of keys. What does this most likely indicate, and why can we be confident in this interpretation?"
+  type: multiple-choice
+  options:
+    - "The figure is a locksmith — keys indicate their profession in realistic portraiture"
+    - "The figure is Saint Peter — keys are his established iconographic attribute based on Matthew 16:19"
+    - "The keys are a decorative motif with no specific meaning — interpretation is purely subjective"
+    - "The figure is a church official — keys symbolize institutional authority generally"
+  answer: 1
+  explanation: "Iconographic attributes in Western Christian art are codified conventions, not open interpretations. Keys are specifically associated with Saint Peter, based on Christ's words granting him 'the keys of the kingdom of heaven' (Matthew 16:19). Medieval audiences could 'read' this immediately, much as we read text. Option A mistakes iconographic convention for realistic representation — medieval religious art was not primarily realist. Option D conflates a specific personal attribute with a general symbol. This is why learning saints' attributes is essential to religious art interpretation."
+
+- question: "Masaccio's use of linear perspective in 'The Trinity' to place the crucifixion in a believable architectural space was primarily:"
+  type: multiple-choice
+  options:
+    - "A technical demonstration with no theological implications"
+    - "A theological statement that the divine entered the real world, contrasting with Byzantine timeless gold backgrounds"
+    - "An error in judgment that later Renaissance artists corrected"
+    - "A secular rejection of religious subject matter in favor of architectural interest"
+  answer: 1
+  explanation: "Renaissance religious art did not simply adopt perspective for technical reasons — the representational choice carried theological meaning. Placing the crucifixion in a convincing architectural space (our world, with measurable depth and real light) expressed a humanist theology that God's sacrifice occurred in human history, in a real place, not in the timeless golden realm of Byzantine icons. Byzantine gold backgrounds intentionally removed sacred figures from ordinary space and time. Choosing perspective over gold was a theological argument, not merely an aesthetic preference."
+
+- question: "Byzantine icons used gold backgrounds primarily for decorative purposes, as gold was expensive and conveyed prestige."
+  type: true-false
+  answer: false
+  explanation: "False. Gold backgrounds in Byzantine icons carried specific theological meaning: they represented divine light and signified that the sacred figures existed outside ordinary time and space. The icon was not a picture of a historical scene but a point of contact with the divine — gold created a sacred realm distinct from the earthly world. This is why switching from gold to naturalistic landscape backgrounds (as Renaissance artists did) was theologically significant, not merely aesthetic. Understanding this distinction is essential to reading the shift from medieval to Renaissance religious art correctly."
+
+- question: "Islamic sacred art avoids figural representation primarily because Muslim artists lacked the technical skill to produce figurative work."
+  type: true-false
+  answer: false
+  explanation: "False. Islamic artists were highly technically skilled — secular Islamic art often features figural representation. The avoidance of figurative imagery in sacred contexts (mosques, religious manuscripts) reflects theological reasoning: representing living beings could be seen as competing with divine creation, and the focus on geometric pattern and calligraphy was understood as a path to the divine through mathematical order and sacred text. This is an equally sophisticated iconographic system with a different logic, not an absence of capability. Assuming Western conventions are universal is the misconception this corrects."
+
+- question: "Why did Protestant Reformers destroy religious images in churches, and how did Catholic Counter-Reformation art respond to the same theological controversy?"
+  type: short-answer
+  answer: "Reformers like Calvin and Zwingli considered religious images potentially idolatrous — they believed worshippers might venerate the image itself rather than the divine it depicted, violating the commandment against graven images. Catholic Counter-Reformation art responded by intensifying emotional and sensory engagement rather than restraining it, using dramatic lighting, swirling movement, and ecstatic imagery (as in Bernini's Ecstasy of Saint Teresa) to make mystical experience physically compelling and reinforce the legitimacy of visual devotion."
+  explanation: "This conflict shows that religious imagery is never just about faith — it is always also about power and the control of visual culture. Both sides understood that images shape belief and community identity. The Protestant iconoclasm and Catholic Baroque response demonstrate that changes in religious art reflect changes in theology, politics, and authority, not just aesthetic fashion. Understanding this context is what separates art-historical interpretation from mere visual description."
+```
+
 ## Explainer
 
 If you have studied iconography — the systematic interpretation of symbols and motifs in art — then you already have the essential toolkit for approaching religious imagery. Religious art is where iconographic analysis matters most, because for centuries the primary purpose of visual art was to communicate sacred narratives and theological ideas to audiences that often could not read. A medieval altarpiece was not decoration; it was theology made visible, and every element within it carried specific, codified meaning.

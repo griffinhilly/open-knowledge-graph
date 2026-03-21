@@ -31,6 +31,45 @@ Draw the direct form I and II signal flow graphs for a 2nd-order IIR filter. Com
 - Confusing direct form I and II error propagation.
 - Not recognizing why transversal is used despite requiring more multipliers.
 
+## Questions
+
+```yaml
+- question: "A DSP engineer implements a Direct Form II IIR filter on a fixed-point processor. During testing, the output clips severely even though the input signal is small and well within range. What is the most likely cause?"
+  type: multiple-choice
+  options:
+    - "The filter's poles are outside the unit circle, making it unstable for small inputs"
+    - "The internal state variable (the summing node before the delay line) can accumulate large values even when the input and output are small, causing fixed-point overflow"
+    - "The filter has too many taps, saturating the multiply-accumulate hardware even at low input levels"
+    - "The input signal was not downsampled before entering the filter, causing aliasing artifacts"
+  answer: 1
+  explanation: "This is the classic Direct Form II overflow problem. In DF-II, the delay line stores intermediate states that can grow large even when the input is small — a phenomenon not present in Direct Form I, which processes the feedforward and feedback sections separately. On fixed-point hardware with limited word length, these large internal values exceed the representable range and clip. Engineers targeting fixed-point DSP often prefer DF-I or transposed structures to avoid this problem."
+
+- question: "A transversal (tapped-delay-line) FIR filter is guaranteed to be stable for any choice of tap coefficients. What structural property ensures this?"
+  type: multiple-choice
+  options:
+    - "Its coefficients are always normalized so their sum equals one, preventing gain greater than unity"
+    - "The delay line acts as a natural low-pass filter, limiting energy accumulation in the internal states"
+    - "There is no feedback — the output is a finite weighted sum of present and past inputs only, so bounded inputs always produce bounded outputs"
+    - "Symmetry of coefficients constrains the poles to lie on the real axis within the unit circle"
+  answer: 2
+  explanation: "BIBO (bounded-input, bounded-output) stability for FIR filters follows directly from the absence of feedback. The output y[n] = Σ bₖ·x[n−k] is a finite sum of bounded inputs — no matter how the coefficients are chosen, a bounded input can only produce a bounded output. Coefficient symmetry gives linear phase but is unrelated to stability. The contrast with IIR filters is critical: IIR filters have poles (feedback) and can become unstable if pole locations are not carefully controlled."
+
+- question: "Direct Form I and Direct Form II implement the same transfer function and are mathematically equivalent in exact arithmetic, but they differ in how quantization errors propagate, making the choice of structure practically important in fixed-point hardware."
+  type: true-false
+  answer: true
+  explanation: "Both forms realize the same input-output transfer function H(z) = B(z)/A(z) — any difference in output is due to finite-precision arithmetic, not the mathematics. In exact arithmetic they are identical. In fixed-point implementation, however, the order in which multiplications and additions occur differs, and the internal signal levels differ significantly. DF-II's shared delay line can overflow; DF-I's separate sections avoid this. The choice of realization structure is an implementation decision, not a mathematical one."
+
+- question: "FIR filters are preferred over IIR filters when computational resources are limited, because the transversal (tapped-delay-line) structure requires fewer multiplications per output sample than an equivalent IIR direct form."
+  type: true-false
+  answer: false
+  explanation: "FIR filters typically require far MORE multiplications per output sample than IIR filters of comparable selectivity. Achieving a sharp frequency response with an FIR filter often requires hundreds or thousands of taps, each requiring a multiplication. An IIR filter with a small number of poles and zeros can achieve similar selectivity with many fewer operations. FIR filters are chosen for guaranteed stability and linear phase (when coefficients are symmetric), not for computational efficiency."
+
+- question: "What is the key structural difference between Direct Form I and Direct Form II for an Nth-order IIR filter, and why does this difference matter in practical implementation?"
+  type: short-answer
+  answer: "Direct Form I processes the feedforward section (numerator, zeros) and feedback section (denominator, poles) sequentially using two separate delay banks, requiring 2N delay elements total. Direct Form II merges these delay banks into a single shared delay line by swapping the order of the sections, reducing delays to N (the canonical minimum). In exact arithmetic they are identical. In fixed-point implementation, DF-II's shared state variable can grow large and overflow even for small inputs and outputs, because it accumulates intermediate values from both sections. DF-I avoids this because each section processes independently with bounded intermediate signals."
+  explanation: "The practical significance is highest in low-word-length DSP (embedded audio, hearing aids, FPGA implementations) where overflow is a real concern. Engineers must choose between DF-I's overflow resistance and DF-II's memory efficiency. Transposed Direct Form II is another option that combines the memory efficiency of DF-II with better overflow behavior — the transpose of the signal flow graph re-routes internal signals in a way that reduces peak internal values."
+```
+
 ## Explainer
 
 From your prerequisite on cascade filter realization structures, you know that a given transfer function H(z) can be implemented in multiple mathematically equivalent ways — same input-output relationship, but different internal signal routing, number of delay elements, and numerical behavior. **Direct form** realizations implement H(z) directly from its difference equation, without factoring it into second-order sections. Understanding them requires seeing how the transfer function's numerator and denominator relate to physical signal flow.

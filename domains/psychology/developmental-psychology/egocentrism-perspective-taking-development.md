@@ -34,6 +34,45 @@ Conduct or view classic Piagetian three-mountains task with children of differen
 ## Common Misconceptions
 Egocentrism is not selfishness or lack of empathy; it's cognitive inability to mentally represent others' viewpoints. It declines gradually across childhood, not disappearing at a stage boundary; adult egocentrism persists in some contexts.
 
+## Questions
+
+```yaml
+- question: "A 4-year-old calls her grandmother on the phone and points at a toy she wants, saying 'I want that one!' — not realizing her grandmother cannot see where she is pointing. This behavior BEST illustrates:"
+  type: multiple-choice
+  options:
+    - "Selfishness — the child is prioritizing her own desires over her grandmother's understanding"
+    - "Egocentrism — the child cannot mentally represent that her grandmother has a different perceptual perspective and lacks information she takes for granted"
+    - "A failure of object permanence typical of the sensorimotor stage"
+    - "False-belief understanding — the child knows her grandmother cannot see but tests her reaction"
+  answer: 1
+  explanation: "Egocentrism in Piaget's sense is not selfishness — it is a cognitive failure of perspective-taking. The child assumes her grandmother shares her own visual and informational perspective without being able to mentally simulate what someone in a different situation would actually know or perceive. This is a representational limitation, not a motivational one. Option A is the classic misconception — egocentrism is often confused with selfishness."
+
+- question: "An experienced surgeon forgets to explain to a patient what 'tissue planes' means, assuming this is common knowledge. This is best described as:"
+  type: multiple-choice
+  options:
+    - "Arrogance — the surgeon should know patients lack medical training"
+    - "The curse of knowledge — a form of adult egocentrism where expertise makes it difficult to represent a novice's information state"
+    - "Evidence that egocentrism is a permanent trait of domain experts"
+    - "A failure of long-term memory retrieval, not a perspective-taking failure"
+  answer: 1
+  explanation: "The curse of knowledge is a real-world manifestation of adult egocentrism: once you know something deeply, it becomes cognitively difficult to reconstruct what it was like not to know it. The surgeon is anchoring on their own knowledge state and insufficiently adjusting for the patient's. This shows that egocentrism does not disappear at a developmental stage boundary — it persists in predictable adult contexts, especially under high cognitive load or emotional investment."
+
+- question: "Egocentrism, as Piaget defined it, refers to a child's selfishness and preference for their own desires over others' needs."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about Piagetian egocentrism. Egocentrism is a cognitive limitation — the inability to mentally represent another person's point of view — not a moral failing or motivational preference. An egocentric child is not choosing to ignore others; they genuinely cannot conceptually separate their own perspective from what they assume others see, know, or believe."
+
+- question: "Egocentrism declines gradually across development rather than disappearing completely at the transition from the preoperational to the concrete operational stage."
+  type: true-false
+  answer: true
+  explanation: "Cognitive decentration and perspective-taking develop along multiple dimensions — spatial, emotional, and epistemic — on different trajectories. Even in adults, egocentrism re-emerges in contexts involving cognitive load, emotional investment, or domain expertise. The developmental story is a gradual shift from pervasive egocentrism toward contextually managed perspective-taking, not a discrete stage transition."
+
+- question: "What is the key difference between egocentrism as Piaget defined it and ordinary selfishness, and why does this distinction matter for understanding child development?"
+  type: short-answer
+  answer: "Egocentrism is a cognitive limitation — the inability to mentally represent that another person has a different perspective, knowledge state, or perceptual experience. Selfishness is a motivational orientation — prioritizing one's own interests over others'. An egocentric child failing the three-mountains task is not choosing to give the wrong answer; they genuinely cannot construct a mental model of what the doll 'sees' from a different position. The distinction matters because it changes the developmental intervention: egocentric failures require building representational capacity (theory of mind, cognitive decentration), not moral instruction."
+  explanation: "Piaget demonstrated egocentrism with the three-mountains task, where children describe the view from their own position rather than the doll's. This is not stubbornness or selfishness — it reflects a genuinely absent cognitive capacity. Recognizing egocentrism as cognitive rather than moral reshapes both how we understand child development and how we respond to egocentric behavior."
+```
+
 ## Explainer
 
 **Egocentrism**, in Piaget's sense, is not a moral failing—it is a cognitive limitation of early childhood in which the child cannot separate their own perspective from the perspectives of others. From your study of the preoperational stage, you know that children aged roughly 2 to 7 have not yet achieved full cognitive decentration—the ability to mentally hold multiple viewpoints simultaneously. Egocentrism is one consequence of this: a young child simply assumes that what they see, hear, believe, or know is what everyone else sees, hears, believes, or knows. It is a failure of mental representation, not of caring.

@@ -28,6 +28,45 @@ Practice converting written bibliographic entries into smooth oral citations, th
 - Citing "a study" without naming the source or institution provides almost no credibility boost — specificity is what makes citations persuasive.
 - Over-citation is rarely the problem; most student speakers dramatically under-cite, undermining their credibility without realizing it.
 
+## Questions
+
+```yaml
+- question: "A student is giving a speech about climate change. Compare these two attribution approaches: (A) 'Studies show that global temperatures are rising.' (B) 'According to climate scientist Dr. Michael Mann of Penn State University, writing in Nature Climate Change last year, global temperatures have risen more than 1°C since pre-industrial levels.' Which better serves the speaker's credibility, and why?"
+  type: multiple-choice
+  options:
+    - "Version A — it is concise and keeps the speech moving without distracting the audience with excessive detail"
+    - "Version B — naming the expert, institution, publication, and date makes the claim specific and checkable, transferring the source's authority to the speaker"
+    - "Both are equally credible — what matters is the content of the claim, not how it is attributed"
+    - "Version A — live audiences find detailed citations tedious and disengage when speakers slow down to attribute sources"
+  answer: 1
+  explanation: "Specificity is the mechanism of ethos transfer. 'Studies show' transfers almost nothing — the audience cannot evaluate who conducted the studies, how rigorous they were, or whether the claim is current. Version B transfers significant authority by naming a specific expert, a specific credentialed institution, a specific reputable publication, and a specific timeframe. The audience cannot verify it in the moment, but the specificity signals the claim is real and checkable — which is exactly what builds credibility."
+
+- question: "A speaker is citing a peer-reviewed medical study in a live speech. Which elements are most essential to include for the audience to evaluate the source's credibility?"
+  type: multiple-choice
+  options:
+    - "The full APA citation including DOI, page numbers, volume, and issue number"
+    - "The author's credentials, the institution or publication name, and the approximate date of publication"
+    - "Only the author's last name and the year — audiences don't need more than that"
+    - "The study's title and the journal's impact factor score"
+  answer: 1
+  explanation: "Oral citations must be selective: the audience cannot pause or look up details, so you provide what lets them evaluate the source's credibility in real time. For a peer-reviewed study, credentials (who conducted it), institutional affiliation (where), and publication/date (what and when) are the key signals. Full APA format is for written work; DOIs and page numbers are useless to a live listener. Impact factors are meaningful to academics but not general audiences."
+
+- question: "A speech attribution that says 'According to a recent study, screen time affects children's sleep' provides almost no credibility boost to the speaker's claim."
+  type: true-false
+  answer: true
+  explanation: "Vague citations signal uncertainty and may actually undermine credibility by suggesting the speaker is uncertain whether the study exists or is checkable. The explainer states directly: 'Citing a study without naming the source or institution provides almost no credibility boost — specificity is what makes citations persuasive.' The audience's inability to mentally evaluate 'a recent study' means the attribution does no ethos work."
+
+- question: "Most student speakers over-cite — they interrupt the speech's flow too frequently with source attributions — and should reduce citation frequency to improve fluency."
+  type: true-false
+  answer: false
+  explanation: "This is the opposite of the actual pattern. The explainer states explicitly: 'Over-citation is rarely the problem; most student speakers dramatically under-cite, undermining their credibility without realizing it.' A speech full of unattributed factual claims makes the speaker sound like they are asserting rather than arguing — the fastest way to lose a skeptical audience. Speakers should cite every factual claim they did not derive themselves, which in a well-evidenced speech means several times per main point."
+
+- question: "What does 'ethos transfer' mean in the context of oral citation, and why is specificity the key mechanism that makes it work?"
+  type: short-answer
+  answer: "Ethos transfer is the process by which a speaker's credibility is boosted by attributing claims to credible sources — some of the source's authority flows to the speaker. Specificity makes this work because it signals the citation is real and checkable: a named expert at a named institution in a named publication in a specific year allows the audience to mentally evaluate the source's authority and plausibility. Vague attributions ('experts say') fail because they give the audience nothing to evaluate — there is no specific authority to transfer."
+  explanation: "The mechanism is essentially borrowed credibility: the speaker cannot personally be an expert on everything, but by accurately citing experts who are, they align themselves with those sources' authority. The specificity requirement exists because a checkable citation implicitly vouches for itself — if the details are real and verifiable, the speaker is demonstrating integrity as well as knowledge. Vague citations undermine both dimensions: the audience cannot assess the source, and the vagueness raises doubt about whether the speaker even knows what study they are citing."
+```
+
 ## Explainer
 
 You've studied how evidence functions in speeches — how statistics, expert testimony, examples, and narratives support claims and make arguments credible. Oral citation technique is the skill of actually delivering that evidence attribution in a way that sounds natural, builds speaker credibility, and gives the audience enough information to evaluate the source. It is the spoken equivalent of an in-text citation, but it operates under completely different constraints: the audience cannot pause, re-read, or look up a footnote. Everything must land in real time.

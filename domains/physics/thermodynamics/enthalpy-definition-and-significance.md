@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Enthalpy (H = U + PV) combines internal energy with flow work. It is the appropriate state function for processes at constant pressure, where the heat absorbed equals the enthalpy change: Q_p = ΔH. Enthalpy is particularly useful in engineering for open systems like compressors and turbines.
 
+## Questions
+
+```yaml
+- question: "A chemist burns methane in an open flame at atmospheric pressure and measures 890 kJ/mol of heat released. A second chemist burns the same amount in a sealed bomb calorimeter (constant volume) and measures 883 kJ/mol. Why do these differ, and which value is ΔH_combustion?"
+  type: multiple-choice
+  options:
+    - "The bomb calorimeter is more accurate; both should be reported as ΔH_combustion"
+    - "The open flame value (890 kJ/mol) is ΔH — it includes the PΔV expansion work done against the atmosphere, while the bomb calorimeter measures ΔU at constant volume"
+    - "The bomb calorimeter measures ΔH; the open flame value is distorted by convective heat loss to the surroundings"
+    - "The values measure the same quantity — the difference is experimental error from the two setups"
+  answer: 1
+  explanation: "At constant pressure (open flame), Q_p = ΔH — the heat released includes both the change in internal energy and the expansion work done against the atmosphere (PΔV). At constant volume (bomb calorimeter), no expansion work occurs and Q_v = ΔU. Since combustion produces gas, volume increases, and PΔV > 0, so |ΔH| > |ΔU|. ΔH_combustion refers to the constant-pressure measurement, which is what 'heat of combustion' means in standard thermochemistry tables."
+
+- question: "An engineer writing a steady-state energy balance for a steam turbine should use which energy quantity for the steam entering and leaving, and why?"
+  type: multiple-choice
+  options:
+    - "Internal energy U, because it accounts for all the thermal and kinetic energy stored in the steam"
+    - "Either U or H — the PV term is a constant that cancels in the energy balance"
+    - "Enthalpy H, because flowing steam carries both internal energy and the flow work (PV) needed to push it through the inlet and outlet against the prevailing pressure"
+    - "Internal energy U, because turbines operate at constant volume"
+  answer: 2
+  explanation: "In open systems with flowing fluids, the energy carried by each mass element includes its internal energy U plus the work done to push it into (or pull it out of) the control volume — the flow work PV. Enthalpy H = U + PV automatically captures both. This is why all steady-flow energy balances (turbines, compressors, nozzles, heat exchangers) use H rather than U. Turbines do not operate at constant volume — they are open systems with continuous flow."
+
+- question: "Enthalpy is a useful thermodynamic quantity only in chemistry; engineers working with machines and flow systems should use internal energy instead."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true for open systems. Engineers use enthalpy routinely for steady-flow devices because the PV flow-work term is physically significant whenever fluid enters or exits a control volume. Turbines, compressors, pumps, nozzles, and heat exchangers are all analyzed using enthalpy. Internal energy is more natural for closed systems where no mass crosses the boundary (e.g., a piston-cylinder with a sealed piston)."
+
+- question: "For a chemical reaction conducted at constant pressure, the heat released or absorbed by the reaction equals the change in enthalpy — no separate calculation of expansion work against the atmosphere is needed."
+  type: true-false
+  answer: true
+  explanation: "This is the defining practical utility of enthalpy: Q_p = ΔH. The derivation is Q_p = ΔU + PΔV (first law at constant pressure), and since H = U + PV, ΔH = ΔU + PΔV = Q_p. The PΔV work is already built into ΔH, so measuring the heat at constant pressure directly gives ΔH. This is why standard enthalpies of formation and reaction are tabulated — constant-pressure calorimetry is the universal lab method."
+
+- question: "What is the physical meaning of the PV term in H = U + PV, and why does it make enthalpy more natural than internal energy for most chemical reactions?"
+  type: short-answer
+  answer: "The PV term represents flow work — the energy required to push a quantity of fluid into or out of a region against the ambient pressure. In an open container at atmospheric pressure, any gas-producing reaction must push the atmosphere back (doing PΔV work), which is energy that leaves the system as work rather than heat. Internal energy U tracks total stored energy, but not this unavoidable atmospheric work. Enthalpy builds in PΔV so that Q_p = ΔH directly, without a separate expansion-work correction. Since most lab chemistry happens at constant pressure, H is the more practical currency."
+  explanation: "The heuristic is simple: choose U when volume is fixed (no expansion work), choose H when pressure is fixed (expansion work is automatic). Both are state functions, so Hess's law applies to both — but for constant-pressure processes, enthalpy is the one that equals the directly measurable heat."
+```
+
 ## Explainer
 
 From internal energy and the first law, you know that the energy change of a closed system is ΔU = Q − W, where W = PΔV for a simple expansion against a constant pressure. If you do a reaction or process at constant volume (a sealed bomb calorimeter, say), no expansion work is done and all the heat appears as ΔU. But most chemistry and much engineering happens at constant pressure — in open containers, in the atmosphere. At constant pressure, some of the energy released by a reaction goes into pushing the atmosphere back (PΔV work), and that work is not available as heat. **Enthalpy** H = U + PV is defined precisely to keep track of this.

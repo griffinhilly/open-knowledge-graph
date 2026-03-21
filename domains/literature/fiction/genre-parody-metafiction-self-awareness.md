@@ -27,6 +27,45 @@ Read a genre-aware narrative and identify moments where conventions are acknowle
 ## Common Misconceptions
 That metafiction is inherently superior to straightforward storytelling; that parody necessarily mocks; that self-awareness requires postmodern complexity; that genre writers avoid these techniques.
 
+## Questions
+
+```yaml
+- question: "Jane Austen's Northanger Abbey parodies Gothic fiction. What best describes how this parody functions?"
+  type: multiple-choice
+  options:
+    - "It argues that Gothic fiction is inferior to realist novels and that readers who enjoy it are naive"
+    - "It uses exaggeration of Gothic conventions to expose how the genre works and why readers find it psychologically compelling — making the conventions visible as conventions"
+    - "It shows that Gothic fiction's conventions are so powerful that even a parody must ultimately follow them"
+    - "It creates a hybrid genre by blending Gothic atmosphere with realistic social observation"
+  answer: 1
+  explanation: "Parody is not the same as mockery or dismissal. The richest parodies reveal something true about the genre they imitate — the conventions exist, they carry ideological or psychological weight, and they are conventions rather than inevitable features of storytelling. Northanger Abbey doesn't argue that Gothic fiction is bad; it reveals the psychological function Gothic romance serves for its readers (escapism, heightened feeling, vicarious danger) by exaggerating its conventions until their arbitrariness becomes legible. A parody that only says 'look how ridiculous this is' tends to be thin."
+
+- question: "A horror film's characters openly discuss the rules of the horror genre while those same rules are playing out around them. What is the key analytical question this self-awareness raises?"
+  type: multiple-choice
+  options:
+    - "Whether the film qualifies as horror or comedy given its self-referential content"
+    - "Whether the filmmaker intended the self-awareness as parody, metafiction, or straightforward genre work"
+    - "What the self-awareness *does* — whether it deepens engagement with the subject or substitutes cleverness for substance"
+    - "Whether audiences who know horror conventions will enjoy the film differently than audiences who don't"
+  answer: 2
+  explanation: "The key evaluative question for any self-aware technique is functional: does it do something? Self-awareness that creates layered tension, reveals something about genre ideology, or enriches meaning is doing work. Self-awareness that merely signals the filmmaker's sophistication — 'we know this is a genre, aren't we clever' — substitutes cleverness for substance. The critic's job is to ask whether the frame-crossing adds to the story or replaces it."
+
+- question: "Metafiction is inherently superior to conventional storytelling because it acknowledges the constructed nature of fiction while conventional fiction deceives readers into believing fiction is real."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception, listed explicitly as one to resist. Self-awareness does not automatically make fiction better — it is a technique, and like any technique it succeeds or fails depending on execution and purpose. Metafiction can be profoundly illuminating or merely self-indulgent. Conventional storytelling that maintains the fictional frame can achieve effects that constant frame-breaking prevents. The constructed nature of fiction is not a secret that metafiction heroically reveals; it is background knowledge most sophisticated readers carry. What matters is what a given technique accomplishes."
+
+- question: "Parody can function as critical analysis — revealing the ideological assumptions and psychological mechanisms embedded in genre conventions — rather than as simple mockery."
+  type: true-false
+  answer: true
+  explanation: "This is one of the most important points about parody as a literary mode. By amplifying conventions to comic or critical extremes, parody makes visible what straightforward genre work naturalizes. It can expose the gender politics embedded in romance conventions, the ideological assumptions of the thriller's hero, or the psychological function Gothic fiction serves. Done well, parody is a form of criticism that operates through exaggeration rather than argument — and often more vividly than discursive analysis could."
+
+- question: "What distinguishes effective genre self-awareness from mere cleverness, and how should a critic evaluate whether metafictional techniques are working?"
+  type: short-answer
+  answer: "Effective self-awareness does something beyond signaling that the author knows it's fiction. It uses the reader's genre knowledge as an active ingredient — to create layered irony, expose the ideology of conventions, generate tension from the gap between expectation and execution, or make the act of storytelling itself a meaningful subject. The evaluative question is always: what does the self-awareness accomplish that couldn't be achieved without it? If removing the metafictional frame would leave the story intact and equally meaningful, the self-awareness is decorative. If removing it would collapse the story's central meaning or effect, it is doing genuine work."
+  explanation: "This applies across all modes: parody, metafiction, and genre self-awareness all risk the same failure — substituting formal cleverness for engagement with actual human concerns. The best examples of each mode (Tristram Shandy, Northanger Abbey, Scream) use their self-awareness to deepen rather than deflect the story's engagement with its subject."
+```
+
 ## Explainer
 
 From your study of genre conventions, you know that genres establish a **reader contract**: an implicit set of promises about what kind of story this will be and how it will behave. The techniques in this topic — parody, metafiction, and self-awareness — all work by manipulating that contract. They require a reader who knows the genre well enough to notice when conventions are being exaggerated, honored ironically, or deliberately broken.

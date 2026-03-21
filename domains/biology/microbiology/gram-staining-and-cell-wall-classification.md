@@ -30,6 +30,44 @@ Perform Gram staining on pure cultures and observe under oil-immersion microscop
 ## Common Misconceptions
 Gram staining is not a phylogenetic classification—it reflects cell wall structure, not evolutionary relationships. Some bacteria are Gram-variable and cannot be reliably classified this way.
 
+## Questions
+
+```yaml
+- question: "In the Gram staining procedure, what happens differently to Gram-positive and Gram-negative bacteria during the alcohol decolorization step?"
+  type: multiple-choice
+  options:
+    - "Alcohol kills Gram-negative bacteria, preventing them from taking up the safranin counterstain"
+    - "Alcohol tightens the thick Gram-positive peptidoglycan, trapping CV-I complexes; in Gram-negatives it dissolves the outer membrane, releasing CV-I complexes through the thin peptidoglycan"
+    - "Alcohol dehydrates all bacteria equally; the color difference emerges only during the safranin counterstaining step"
+    - "Alcohol denatures outer membrane proteins in Gram-negative bacteria, opening channels that allow CV-I complexes to escape"
+  answer: 1
+  explanation: "The decolorization step is the critical discriminating step. In Gram-positive bacteria, the thick peptidoglycan layer (20–80 nm) is dehydrated and tightened by alcohol, trapping the large crystal violet–iodine (CV-I) complexes inside. In Gram-negative bacteria, alcohol dissolves the lipid-rich outer membrane — the physical barrier that had been retaining the CV-I complexes — leaving only the thin peptidoglycan (1–3 nm) through which the complexes readily escape. The cells then appear colorless until the safranin counterstain makes them pink. The crystal violet and iodine steps are the same for both types; the decolorization reveals the structural difference."
+
+- question: "A clinician receives a Gram stain result from a patient's blood culture: the organisms are Gram-negative rods. How does this result immediately shape antibiotic selection before culture sensitivity data are available?"
+  type: multiple-choice
+  options:
+    - "It has no immediate impact — antibiotic selection requires culture results and Gram staining is only confirmatory"
+    - "It suggests the bacteria have an outer membrane permeability barrier that excludes many antibiotics like vancomycin, and contain LPS endotoxin that can cause septic shock, narrowing effective antibiotic options"
+    - "It indicates the bacteria are antibiotic resistant and alternative non-antibiotic therapies should be considered"
+    - "It means the bacteria are more dangerous and require combination therapy with antivirals in addition to antibiotics"
+  answer: 1
+  explanation: "The Gram stain result is immediately actionable. Gram-negative bacteria have an outer membrane that excludes large or hydrophilic antibiotics (vancomycin is ineffective; many penicillins are less effective). This narrows choices toward antibiotics with gram-negative coverage (fluoroquinolones, third-generation cephalosporins, carbapenems). The presence of LPS in the outer membrane also predicts endotoxin-mediated inflammatory risk if bacteria are rapidly lysed. Within minutes of receiving a clinical specimen, the clinician has structural information that guides empiric therapy before the 24–72 hours needed for culture results."
+
+- question: "Gram staining provides a phylogenetic classification of bacteria — organisms that stain Gram-positive are more closely related to each other than to Gram-negative organisms."
+  type: true-false
+  answer: false
+  explanation: "This is an explicit misconception that must be corrected. Gram staining classifies bacteria by cell wall structure, not evolutionary relationships. Gram-positive and Gram-negative bacteria are not monophyletic groups in the phylogenetic sense — many Gram-negative bacteria are more closely related to certain Gram-positive bacteria than to other Gram-negatives. The staining result reflects a shared structural feature (thick peptidoglycan with no outer membrane vs. thin peptidoglycan with an outer membrane) that can evolve independently. Phylogenetic classification of bacteria requires molecular methods (16S rRNA sequencing, whole-genome approaches), not Gram staining."
+
+- question: "Mycobacterium tuberculosis, which causes tuberculosis, would stain Gram-positive because it has no outer membrane surrounding its peptidoglycan layer."
+  type: true-false
+  answer: false
+  explanation: "M. tuberculosis has an unusual cell wall dominated by mycolic acids — very long-chain fatty acids that form a waxy, hydrophobic coat. This wall does not take up crystal violet well under normal Gram staining conditions and cannot be reliably classified as Gram-positive or Gram-negative. It is considered Gram-indeterminate and requires acid-fast staining (Ziehl-Neelsen or Kinyoun), which exploits the waxy mycolic acid layer's resistance to decolorization with acid-alcohol. This is one of the important exceptions that reveals the limits of the Gram stain as a universal classification tool."
+
+- question: "Why does the Gram stain result have clinical significance that extends far beyond the color of the bacteria on the slide?"
+  type: short-answer
+  answer: "The Gram stain reveals cell wall structure, which is a proxy for a wide range of clinically important properties. Gram-positive bacteria, with their exposed thick peptidoglycan, are typically susceptible to cell wall-targeting antibiotics (penicillins, cephalosporins, vancomycin) and to lysozyme. Gram-negative bacteria, with their outer membrane, gain a permeability barrier that excludes many antibiotics and detergents, requiring different drug choices. The outer membrane also contains lipopolysaccharide (LPS, endotoxin), which stimulates powerful innate immune responses and can cause septic shock when bacteria are rapidly killed. Knowing whether a pathogen is Gram-positive or Gram-negative immediately narrows antibiotic selection and predicts potential complications — actionable information available within minutes from a clinical specimen, hours before culture sensitivity results. This combination of speed and clinical relevance explains why the Gram stain, developed in 1884, remains the most universally performed first test in diagnostic microbiology."
+```
+
 ## Explainer
 
 You already know from studying bacterial cell wall architecture that bacteria build their walls from **peptidoglycan** — a mesh of sugar chains cross-linked by short peptides. The critical insight for Gram staining is that bacteria differ enormously in how much peptidoglycan they have and what else surrounds it. The Gram stain exploits this structural difference to divide bacteria into two broad categories using a procedure that takes only minutes and requires only a light microscope.

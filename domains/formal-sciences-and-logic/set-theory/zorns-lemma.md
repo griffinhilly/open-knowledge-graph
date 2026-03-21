@@ -35,6 +35,45 @@ Memorize the precise statement: every chain has an upper bound (not necessarily 
 - Maximal does not mean maximum: a maximal element m satisfies 'm ≤ x implies m = x', but there may be incomparable maximal elements.
 - Zorn's lemma does not assert that the maximal element is unique.
 
+## Questions
+
+```yaml
+- question: "You want to use Zorn's lemma to prove that every vector space has a basis. You form the poset P of all linearly independent subsets, ordered by inclusion. What must you verify to apply Zorn's lemma?"
+  type: multiple-choice
+  options:
+    - "That P has a maximum element — a linearly independent set containing all others"
+    - "That every linearly independent set can be extended by at least one vector"
+    - "That every chain of linearly independent sets has an upper bound in P — verified by showing the union of any chain is still linearly independent"
+    - "That P is finite, since infinite posets require the well-ordering theorem instead"
+  answer: 2
+  explanation: "Zorn's lemma requires: (1) P is non-empty, and (2) every chain in P has an upper bound in P. For the vector space basis proof: P is non-empty (any single nonzero vector is a linearly independent set). For a chain of linearly independent sets C₁ ⊆ C₂ ⊆ ..., their union is also linearly independent (any finite subset of the union lies in some Cₙ, which is linearly independent). So the union serves as an upper bound in P. Zorn's lemma then gives a maximal element — a maximal linearly independent set — and maximality forces it to span the space (otherwise you could add another vector)."
+
+- question: "Consider the poset of proper subsets of {1, 2, 3} ordered by inclusion. Which of the following is a MAXIMAL element but NOT a maximum of the poset?"
+  type: multiple-choice
+  options:
+    - "{1, 2, 3} itself"
+    - "{1}"
+    - "{1, 2}"
+    - "∅"
+  answer: 2
+  explanation: "{1, 2} is maximal: no proper subset of {1, 2, 3} strictly contains {1, 2} (you would need to add element 3, but {1, 2, 3} is not a proper subset). Yet {1, 2} is not a maximum: it does not contain {1, 3} or {2, 3}, so it is not above every element of P. The same is true of {1, 3} and {2, 3} — there are three maximal elements, none of which is a maximum. This is the canonical illustration of the maximal-vs-maximum distinction that Zorn's lemma's conclusion requires you to understand precisely."
+
+- question: "Zorn's lemma guarantees a unique maximal element whenever every chain in the poset has an upper bound."
+  type: true-false
+  answer: false
+  explanation: "Zorn's lemma guarantees at least one maximal element — it says nothing about uniqueness. A poset can have many maximal elements that are pairwise incomparable. In a ring, there are typically infinitely many maximal ideals. In the vector space basis example, different Zorn applications from different starting points can yield different bases. The lemma's power is existence, not uniqueness. Uniqueness, when it holds, must be proved by separate arguments."
+
+- question: "In Zorn's lemma, the upper bound for a chain C must itself be a member of the chain C."
+  type: true-false
+  answer: false
+  explanation: "This is a critical precision error. The upper bound u must be in P (the whole poset) and must satisfy c ≤ u for all c ∈ C — but u need not be in C itself. In the vector space example, the union of a chain of linearly independent sets is an upper bound that is typically not a member of the chain (the chain consists of individual sets, and their union is usually strictly larger than any of them). Requiring the upper bound to be in the chain would be asking for a maximum of the chain, which is a strictly stronger condition."
+
+- question: "Explain the difference between a 'maximal element' and a 'maximum element' of a poset, and why Zorn's lemma only guarantees the former."
+  type: short-answer
+  answer: "A maximum of P is an element m* satisfying x ≤ m* for every x ∈ P — it dominates everything, and there can be at most one. A maximal element m satisfies: if m ≤ x then m = x — nothing in P is strictly above it, but there may be many such elements that are incomparable to each other. Zorn's lemma only guarantees a maximal element because the chain condition (every chain has an upper bound) does not force all elements of P to be comparable. Multiple maximal elements can coexist as long as they are pairwise incomparable. In algebra, existence of one maximal element is typically all that is needed."
+  explanation: "The maximal/maximum distinction is the most common source of confusion when first applying Zorn's lemma. A ring with a maximal ideal does not have THE maximal ideal — it has at least one. A vector space basis is maximal linearly independent, not maximum (there can be many bases). Understanding this prevents the error of treating Zorn's conclusion as stronger than it is."
+```
+
 ## Explainer
 
 You already know what a **partial order** is: a relation ≤ on a set P that is reflexive, antisymmetric, and transitive, but where some elements may be incomparable. You also know the **axiom of choice** in its set-theoretic form: for any collection of non-empty sets, there exists a function that selects one element from each. Zorn's lemma is neither of these things — it is a theorem equivalent to the axiom of choice, but formulated in the language of partial orders where it is far easier to apply.

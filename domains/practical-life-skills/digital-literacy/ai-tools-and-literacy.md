@@ -30,6 +30,45 @@ Ask an AI assistant a factual question about a topic you know well and verify it
 - A confident, detailed AI response is not more likely to be correct than a hedged one; the model's certainty in its tone has no relationship to the accuracy of its content.
 - AI tools are not replacing the need to learn — they are most useful to people who already know enough to evaluate and refine the output, making foundational knowledge more important, not less.
 
+## Questions
+
+```yaml
+- question: "You ask an AI assistant a factual question about a historical event. It responds with a detailed, confident answer that includes specific dates, names, and a citation. What does this tell you about whether the information is accurate?"
+  type: multiple-choice
+  options:
+    - "The detail and citation indicate the AI has retrieved this from a reliable source"
+    - "The confident tone suggests the AI's training data strongly supported this answer"
+    - "Almost nothing — fluency, detail, and expressed confidence are not reliable signals of accuracy"
+    - "The specificity of the dates and names means they are likely correct, even if the citation needs verification"
+  answer: 2
+  explanation: "AI assistants generate text by predicting statistically likely responses — they do not retrieve information or look things up. A confident, detailed answer with citations can be entirely fabricated (hallucinated). The model's tone has no relationship to the accuracy of the content. Citations in particular are frequently invented — plausible-sounding but nonexistent. Every specific factual claim requires independent verification regardless of how convincingly it was stated."
+
+- question: "A student submits a history essay written entirely by an AI assistant. The essay is well-structured and passes plagiarism detection software. What is the primary ethical problem with this?"
+  type: multiple-choice
+  options:
+    - "The essay may contain factual errors that the student didn't catch"
+    - "Plagiarism detection failure means the student might get away with it, creating unfairness"
+    - "The student is misrepresenting AI-generated work as their own, regardless of any technical policy"
+    - "AI tools are unreliable for historical topics, so the essay is likely low quality"
+  answer: 2
+  explanation: "The core ethical issue is misrepresentation — passing off AI-generated work as one's own — which is problematic independent of whether a policy explicitly forbids it or whether a detector can catch it. Passing plagiarism detection doesn't make the misrepresentation acceptable. The other options identify real concerns (factual accuracy, unfairness) but miss the primary ethical dimension, which is about honesty and attribution of intellectual work."
+
+- question: "An AI assistant that expresses uncertainty ('I'm not sure, but...') is less likely to be correct than one that states the same information confidently."
+  type: true-false
+  answer: false
+  explanation: "A model's expressed certainty has no reliable relationship to factual accuracy. AI systems are trained to produce fluent, helpful-sounding text — confident tone is a feature of the statistical output, not a signal of knowledge. In fact, a model hedging may simply reflect that hedging language appeared frequently in similar training contexts. Treat all AI factual claims with the same critical scrutiny regardless of how confidently or tentatively they are stated."
+
+- question: "A person with deep subject-matter expertise is better positioned to benefit from AI writing tools than a complete novice in the same field."
+  type: true-false
+  answer: true
+  explanation: "The key insight about AI literacy is that these tools are most useful to people who already know enough to evaluate, catch errors in, and refine the output. An expert can immediately spot hallucinations, off-target framings, and missing nuances, turning AI output into a useful first draft. A novice cannot evaluate what the AI produces and may confidently repeat errors they have no way to detect. This is why AI tools amplify existing knowledge rather than replacing the need to build it — foundational expertise becomes more valuable, not less."
+
+- question: "Why can an AI assistant produce a grammatically correct, detailed, and confidently stated answer that is factually false?"
+  type: short-answer
+  answer: "Because AI assistants generate text by predicting statistically likely word sequences given their training data — they do not retrieve facts or reason about truth. The model optimizes for producing text that looks like a plausible, well-formed response to the prompt, not for accuracy. A hallucinated answer looks identical to a correct one because both emerge from the same process: pattern matching against what a good answer would look like. Confidence in tone reflects stylistic patterns from training, not epistemic certainty about content."
+  explanation: "This is the fundamental design difference between a search engine (which retrieves existing documents) and a language model (which generates new text). Understanding this mechanism — statistical prediction, not knowledge retrieval — is what motivates the practice of always verifying factual AI outputs against reliable sources, regardless of how convincing the response appears."
+```
+
 ## Explainer
 
 From your study of online information evaluation, you've learned to look for authorship, evidence, and corroboration before trusting a source. AI tools require those same skills — plus a new layer of caution. An AI assistant does not retrieve information from a database or look things up: it **generates** text by predicting, word by word, what a plausible response would look like given everything it was trained on. This is why the outputs are often grammatically polished, contextually relevant, and completely wrong: the model is optimizing for text that patterns like a good answer, not for accuracy. The term **hallucination** describes responses where the AI states false information confidently — invented citations, incorrect dates, nonexistent laws, fabricated statistics. These failures look identical to correct responses; confidence of tone is not a signal of accuracy.

@@ -26,6 +26,45 @@ The Zhou Dynasty (1046–256 BCE) introduced the concept of the Mandate of Heave
 ## How It's Best Learned
 Compare the Mandate of Heaven to Egyptian pharaonic divinity and Mesopotamian divine kingship to see how different cultures legitimized rulership. Study how later dynasties invoked the Mandate to justify rebellion against their predecessors.
 
+## Questions
+
+```yaml
+- question: "A successful rebel overthrows a Zhou dynasty ruler and establishes a new dynasty. According to the Mandate of Heaven doctrine, what does this success demonstrate?"
+  type: multiple-choice
+  options:
+    - "The rebel was of noble birth and therefore had a hereditary right to rule"
+    - "Heaven had withdrawn its mandate from the previous ruler due to moral failure, validating the rebellion retroactively"
+    - "The rebel's military strength proved his divine appointment before the uprising began"
+    - "The Mandate was transferred through a formal ritual ceremony from the old dynasty to the new"
+  answer: 1
+  explanation: "The Mandate of Heaven operates retroactively: a successful uprising is taken as proof that Heaven had already withdrawn its mandate from the deposed ruler. The rebel does not need noble birth — the doctrine explicitly breaks the link to hereditary legitimacy — nor any prior divine appointment. The outcome itself (success) is the evidence of Heaven's favor. This circular logic is what made the doctrine so durable: it could account for any political outcome by framing it as Heaven's moral judgment."
+
+- question: "What was the key political innovation of the Mandate of Heaven compared to Shang divine kingship?"
+  type: multiple-choice
+  options:
+    - "It introduced democracy by requiring popular consent for rulers to maintain their mandate"
+    - "It made legitimacy conditional on virtuous governance rather than hereditary bloodline, allowing for justified dynastic change"
+    - "It established a priestly class to interpret Heaven's will and certify rulers independently"
+    - "It eliminated religion from politics by replacing supernatural claims with purely military authority"
+  answer: 1
+  explanation: "Shang kings derived authority from hereditary descent and ritual efficacy — the bloodline itself was sacred. The Zhou doctrine broke this: any sufficiently virtuous ruler could receive Heaven's mandate, and any sufficiently corrupt ruler could lose it regardless of lineage. This conditionality introduced an ethical dimension — the ruler was accountable to a moral standard. It did not introduce democracy (the standard remained in elite hands) nor eliminate religion (Heaven remained a moral force), but it restructured the relationship between bloodline and authority fundamentally."
+
+- question: "The Mandate of Heaven doctrine made it impossible to justify rebellion against a reigning emperor, since the emperor always held Heaven's favor by definition."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true: the Mandate doctrine provided the primary vocabulary for *justifying* rebellion. If a ruler was tyrannical or incompetent, Heaven would withdraw the mandate — and a successful rebellion was retroactive proof that it had been withdrawn. Far from blocking rebellion, the doctrine legitimized it under the right moral conditions. This is why the Zhou used it to justify their conquest of the Shang, and why every subsequent Chinese dynasty used it to explain their predecessors' fall and their own rise."
+
+- question: "Unlike European divine right of kings, the Mandate of Heaven held that rulers could lose their divine sanction through immoral or incompetent governance."
+  type: true-false
+  answer: true
+  explanation: "European divine right (in its classic form) held that kings were appointed by God and accountable only to God — rebellion was by definition sacrilegious. The Mandate of Heaven was explicitly conditional: Heaven grants authority to virtuous rulers and withdraws it from corrupt ones. Signs of withdrawal — natural disasters, famines, successful rebellions — were visible and interpretable. The conditionality is the doctrine's revolutionary feature: it built an ethical accountability structure into the concept of political legitimacy, making virtue a requirement, not merely a desirable quality."
+
+- question: "Why was the retroactive nature of the Mandate of Heaven — that success proves Heaven's favor — politically self-sealing, and what were its long-term implications for Chinese political culture?"
+  type: short-answer
+  answer: "The doctrine is unfalsifiable in a useful way: if a rebellion succeeds, it proves Heaven had withdrawn the mandate from the old ruler; if it fails, it proves the ruler still held it. No outcome can contradict the framework. This made it an extraordinarily durable legitimating ideology — every dynastic transition could be explained by it. Long-term, it embedded an ethical vocabulary into Chinese political culture: rulers were expected to govern virtuously, their failures were moral failures, and political change was framed as moral correction rather than mere power transfer."
+  explanation: "The self-sealing quality also meant the doctrine could survive indefinitely even as the Zhou themselves lost real power during the Warring States period — the Zhou king nominally retained the mandate even as actual authority dissipated. This conceptual framework became the ancestor of Confucian governance theory, shaping how Chinese political culture discussed the relationship between virtue, Heaven, and political authority for over two thousand years."
+```
+
 ## Explainer
 
 From your study of the Shang Dynasty, you know that Chinese rulers claimed authority through ritual connection to ancestors and supernatural forces — the Shang king communicated with divine powers through oracle bone divination. The Zhou, when they overthrew the Shang around 1046 BCE, faced a legitimation problem: how do you justify deposing the divinely-sanctioned ruling house? Their answer was the **Mandate of Heaven** (*Tianming*), one of the most consequential political ideas in human history.

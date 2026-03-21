@@ -29,6 +29,45 @@ Study the four cardinal features and their mechanisms. Understand selective (alb
 ## Common Misconceptions
 Nephrotic range proteinuria is not synonymous with nephrotic syndrome—hypoalbuminemia and edema must be present. Lipiduria is pathognomonic, not a cause of nephrotic syndrome.
 
+## Questions
+
+```yaml
+- question: "A patient with nephrotic syndrome has massive pitting edema. The primary mechanism producing the edema is:"
+  type: multiple-choice
+  options:
+    - "Direct toxicity of urinary proteins accumulating in interstitial tissue"
+    - "Reduced plasma oncotic pressure from hypoalbuminemia, causing fluid to shift from the vasculature into interstitial space"
+    - "Increased capillary hydrostatic pressure from acute renal failure and fluid overload"
+    - "Lymphatic obstruction caused by lipid deposition in lymph nodes"
+  answer: 1
+  explanation: "Albumin is the principal determinant of plasma oncotic pressure — the osmotic force that holds fluid in capillaries. In nephrotic syndrome, massive proteinuria depletes plasma albumin, oncotic pressure falls, and fluid shifts into interstitial spaces. This is Starling's law in pathology: when oncotic pressure drops, the balance of forces favors fluid moving out of capillaries. Hydrostatic pressure and lymphatic obstruction are not the primary drivers. The RAAS and ADH are secondarily activated by falling intravascular volume, which worsens the edema further."
+
+- question: "Why are patients with nephrotic syndrome at significantly elevated risk for deep vein thrombosis and pulmonary embolism?"
+  type: multiple-choice
+  options:
+    - "Platelet counts rise compensatorily as the bone marrow responds to hypoalbuminemia"
+    - "Small anticoagulant proteins (antithrombin III, protein C, protein S) are lost in the urine while the liver overproduces pro-coagulant proteins, creating a hypercoagulable state"
+    - "Edema compresses deep veins mechanically, promoting stasis and clotting"
+    - "Hyperlipidemia directly activates the coagulation cascade through lipid-platelet interactions"
+  answer: 1
+  explanation: "The damaged glomerular barrier allows small proteins to pass into the urine — including the anticoagulant proteins antithrombin III, protein C, and protein S. Simultaneously, the liver's non-selective compensatory response ramps up synthesis of all proteins, including pro-coagulant factors like fibrinogen and factors V and VIII. This double imbalance — losing anticoagulants while gaining pro-coagulants — creates a hypercoagulable state. The most dramatic complication is renal vein thrombosis, which can further worsen nephropathy. The physical exam must assess for asymmetric leg swelling even when bilateral edema is present."
+
+- question: "Nephrotic syndrome is defined by proteinuria greater than 3.5 g/day alone; once this threshold is crossed, the diagnosis is established."
+  type: true-false
+  answer: false
+  explanation: "Nephrotic range proteinuria (>3.5 g/day) is necessary but not sufficient for the diagnosis of nephrotic syndrome. The full syndrome requires hypoalbuminemia and edema in addition to massive proteinuria. Patients may have nephrotic-range proteinuria from various causes without the full syndrome developing — particularly if hepatic synthetic function keeps up partially. This distinction matters clinically because it guides management decisions and prognosis assessment."
+
+- question: "In minimal change disease, primarily albumin is lost in the urine because the glomerular filtration barrier's charge selectivity is preferentially disrupted rather than its size selectivity."
+  type: true-false
+  answer: true
+  explanation: "In minimal change disease, the podocyte foot process architecture collapses (effacement), disrupting the charge barrier created by the negatively charged GBM and podocyte glycocalyx. Albumin is a medium-sized, negatively charged protein that normally is excluded by charge repulsion. When the charge barrier fails, albumin leaks through even though size exclusion may be relatively preserved — hence 'selective' proteinuria (primarily albumin, not immunoglobulins). In more severe glomerulopathies, both charge and size barriers fail, producing non-selective proteinuria with larger molecules."
+
+- question: "Trace the two-step causal chain from podocyte damage in nephrotic syndrome to hyperlipidemia."
+  type: short-answer
+  answer: "Podocyte damage → massive proteinuria → hypoalbuminemia. The liver detects low albumin and responds by non-selectively upregulating protein synthesis, including lipoproteins (VLDL, LDL). Simultaneously, lipase enzymes needed for lipoprotein clearance are lost in the urine, so lipoproteins accumulate. Result: hyperlipidemia."
+  explanation: "The key insight is that the liver's compensatory response to hypoalbuminemia is non-selective — it cannot synthesize 'just albumin.' The ramp-up in synthetic machinery produces all proteins, including lipoproteins. The concurrent loss of lipolytic enzymes through the damaged filtration barrier impairs clearance. This combination — increased production plus decreased clearance — is the mechanism of nephrotic hyperlipidemia. Lipiduria (oval fat bodies, Maltese crosses under polarized light) is the downstream urinary manifestation and is pathognomonic for the syndrome."
+```
+
 ## Explainer
 
 Your study of the glomerular filtration barrier established that the glomerulus is not a passive sieve — it selectively restricts passage of large and negatively charged molecules, keeping albumin and other plasma proteins in the circulation through both size exclusion and charge repulsion. Nephrotic syndrome is what happens when that selective barrier fails catastrophically: proteins flood into the filtrate, and the downstream consequences cascade through every organ system.

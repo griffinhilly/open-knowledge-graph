@@ -29,6 +29,45 @@ Practice logging into different types of accounts and resetting passwords safely
 ## Common Misconceptions
 - You can use the same password everywhere (unique passwords are safer). - Recovery questions aren't important (they're essential for regaining access). - Logging in from different devices is suspicious (legitimate use often spans devices).
 
+## Questions
+
+```yaml
+- question: "You receive an email from your bank asking you to verify your account through an included link. The linked page looks identical to your bank's website and has a padlock icon. What is the MOST important security check before entering your password?"
+  type: multiple-choice
+  options:
+    - "Confirm the padlock icon is visible — this proves the connection is secure and the site is legitimate"
+    - "Look for spelling errors or unusual formatting on the page"
+    - "Check the actual domain name in the browser address bar"
+    - "Call your bank to confirm they sent the email before doing anything"
+  answer: 2
+  explanation: "The padlock icon confirms the connection is encrypted, not that the site is legitimate — phishing sites can and do use HTTPS. Visual appearance can be perfectly cloned. The only reliable check is the actual domain name: a phishing page might use 'bank-secure.login.com' or 'paypa1.com' (number 1 instead of letter L). Always examine the exact domain in the address bar before typing credentials, especially when you arrived via a link in an email."
+
+- question: "When is the best time to set up account recovery options such as a backup email address, phone number, or recovery codes?"
+  type: multiple-choice
+  options:
+    - "After your first failed login attempt, as a precaution"
+    - "When you first create the account, before you ever need them"
+    - "Immediately after being locked out of the account"
+    - "Only when the service specifically requires it during setup"
+  answer: 1
+  explanation: "Recovery options are the path back into an account when your primary credentials fail. Setting them up after a lockout is like buying a spare key after locking yourself out — too late. You need recovery mechanisms in place and accessible before an emergency arises. Setting them up at account creation also ensures your recovery email is current and that you remember which address you registered."
+
+- question: "A padlock icon in the browser address bar guarantees that you are on the authentic, legitimate website."
+  type: true-false
+  answer: false
+  explanation: "The padlock (HTTPS) only means the connection between your browser and the server is encrypted — it says nothing about whether the server belongs to who it claims to be. Phishing sites routinely use HTTPS. The actual security check is the domain name itself: 'paypal.com' versus 'paypal.secure-login.net'. Always read the full domain, not just the padlock."
+
+- question: "Receiving a lockout notification you did not trigger can be an early warning that someone else is attempting to access your account."
+  type: true-false
+  answer: true
+  explanation: "Lockouts occur after a threshold of failed login attempts. If you receive a notification about repeated failed attempts that you did not make, it likely means someone else is trying to guess your password. This is a prompt to change your password, review your recovery options, and check whether any linked accounts use the same credentials."
+
+- question: "Why is it more important to check the URL carefully than to check whether a login page looks visually identical to the real website?"
+  type: short-answer
+  answer: "Phishing attacks work by cloning the visual appearance of legitimate websites — the layout, logo, colors, and wording can be copied perfectly at no cost. What cannot be faked is the actual domain name, which is controlled by DNS registration authorities. Visual appearance is completely under the attacker's control; the domain name is not. Checking the domain catches the attack at the one point where imitation is impossible; checking appearance gives the attacker home-field advantage."
+  explanation: "This is why phishing succeeds: our natural instinct is to judge by appearance ('it looks like my bank's website'), but appearance is exactly what attackers can replicate. Training yourself to check the address bar first — before looking at anything else on the page — is the single most effective behavioral defense against login-page phishing."
+```
+
 ## Explainer
 
 You already understand from password security why strong, unique passwords matter. Account login is where that knowledge meets everyday practice. When you navigate to a website and type your credentials, a few important things are happening behind the scenes. A legitimate site sends your password over an **encrypted connection** (look for "https://" and the padlock icon in the browser address bar — this is the basic signal that the connection is secure and your password is not readable in transit). The site then checks your password against a stored (and ideally hashed) version on its servers. If they match, you are authenticated and let in.

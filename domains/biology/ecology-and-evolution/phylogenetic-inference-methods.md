@@ -33,6 +33,45 @@ status: draft
 ## Core Idea
 Phylogenetic trees are reconstructed using methods that make different assumptions: maximum parsimony finds trees requiring fewest changes; distance methods cluster species by overall similarity; maximum likelihood finds the tree most probable under a specified evolutionary model. Each method has strengths and limitations, and disagreement between methods can highlight data limitations. Modern phylogenetics integrates multiple methods and data types for robust inference.
 
+## Questions
+
+```yaml
+- question: "Two rapidly evolving lineages — one from birds, one from lizards — have independently accumulated many convergent mutations in a gene. A maximum parsimony analysis groups them as sister taxa. Why is this result likely an artifact?"
+  type: multiple-choice
+  options:
+    - "Parsimony never makes errors with molecular data — only morphological data misleads it"
+    - "Long-branch attraction: parsimony interprets convergently accumulated similarity as shared common ancestry, incorrectly grouping fast-evolving lineages together"
+    - "Parsimony correctly identifies them as closely related, because similarity always reflects shared ancestry"
+    - "Distance methods would make the same error, confirming the grouping is likely correct"
+  answer: 1
+  explanation: "Long-branch attraction is a systematic failure mode of maximum parsimony when lineages evolve at very different rates. Rapidly evolving lineages independently accumulate many convergent mutations (homoplasy). Parsimony, which minimizes total changes, interprets shared similarity as evidence of common ancestry — but this similarity is convergent, not inherited from a recent common ancestor. Maximum likelihood methods can correct for this by explicitly modeling substitution probabilities at different rates, detecting that the apparent synapomorphy is more likely due to convergence than to shared ancestry."
+
+- question: "A researcher runs parsimony, neighbor-joining, and maximum likelihood on the same dataset. Parsimony and neighbor-joining agree, but maximum likelihood gives a different tree. What should the researcher conclude?"
+  type: multiple-choice
+  options:
+    - "The maximum likelihood tree is wrong because two independent methods agree against it"
+    - "The maximum likelihood tree is certainly correct because it uses the most rigorous statistical model"
+    - "The conflict should trigger further investigation — testing model fit, checking for rate variation, or gathering more data — rather than automatically accepting the majority result"
+    - "The three trees should be averaged to produce the best consensus estimate"
+  answer: 2
+  explanation: "Method agreement indicates robustness, but method conflict does not resolve which is correct by counting votes. Parsimony and neighbor-joining can share failure modes — both can be sensitive to rate variation and long-branch attraction — and may go wrong together under conditions that favor those biases. Maximum likelihood under an appropriate model generally outperforms both, but model misspecification can bias it. The correct response to disagreement is investigation: model selection testing, simulation, or gathering more characters. Phylogenetic practice treats method conflict as a signal that the data have limitations requiring further study."
+
+- question: "Distance-based phylogenetic methods cluster species by pairwise evolutionary distances computed from character data, discarding information about which specific character changes occurred."
+  type: true-false
+  answer: true
+  explanation: "This accurately describes both the strength and limitation of distance methods. They collapse the full character matrix into a single pairwise distance for each species pair (typically the fraction of differing sites, corrected for multiple substitutions), then apply clustering algorithms like neighbor-joining. Advantages include computational speed for large datasets. The limitation is information loss: two very different patterns of change can produce identical distances, discarding phylogenetic signal that parsimony and likelihood methods retain by examining individual characters."
+
+- question: "Bayesian phylogenetics produces a single best-supported tree, just like maximum likelihood, and is distinguished only by being computationally more efficient."
+  type: true-false
+  answer: false
+  explanation: "Bayesian phylogenetics differs fundamentally from maximum likelihood in both output and computation. Rather than returning a single tree that maximizes the likelihood, Bayesian inference samples from the posterior distribution of trees using MCMC — producing a set of sampled trees summarized as a consensus with posterior probability support values at each node, directly quantifying uncertainty. Maximum likelihood reports bootstrap support, a resampling measure, not a true probability. Computationally, Bayesian methods are typically more demanding than ML, not more efficient."
+
+- question: "Why do modern phylogenetic studies typically run multiple inference methods rather than selecting the 'best' one, and what do they look for in the results?"
+  type: short-answer
+  answer: "Each method makes different assumptions and has characteristic failure modes: parsimony fails under long-branch attraction and rate variation; distance methods lose information by collapsing characters to pairwise numbers; ML and Bayesian methods can be misled by incorrect substitution models. No single method is universally optimal. By running multiple methods, researchers use convergence as a confidence signal: a node supported by parsimony, distance, and ML/Bayesian methods is considered robustly inferred, because independent approaches with different assumptions reach the same conclusion. Disagreements flag nodes where data are insufficient, rates are heterogeneous, or model assumptions may be violated — guiding decisions about whether to gather more data or refine the analysis."
+  explanation: "The multi-method approach applies triangulation: convergence of independent evidence justifies confidence; divergence signals where inference is fragile and further investigation is needed."
+```
+
 ## Explainer
 
 From cladistics and systematics, you know that phylogenetic trees represent hypotheses about evolutionary relationships — branching diagrams showing which species share more recent common ancestors. The challenge is that we cannot directly observe the past: we must *infer* the tree from data available today, whether morphological characters or DNA sequences. Phylogenetic inference methods are the statistical and algorithmic tools that take a matrix of character data and produce the best-supported tree. The three major approaches — parsimony, distance, and likelihood — differ fundamentally in how they define "best."

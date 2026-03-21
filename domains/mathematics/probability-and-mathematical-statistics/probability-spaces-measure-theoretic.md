@@ -31,6 +31,45 @@ Review the axioms of probability first. Then see how sigma-algebras enable handl
 ## Common Misconceptions
 - Thinking the axioms alone guarantee countable additivity; countable additivity must be stated explicitly. - Confusing the sample space with the event space; ℱ ⊆ P(Ω). - Assuming any partition of Ω generates a sigma-algebra.
 
+## Questions
+
+```yaml
+- question: "Why can't we assign probabilities to ALL subsets of ℝ when defining a continuous probability distribution?"
+  type: multiple-choice
+  options:
+    - "Because ℝ is uncountably infinite, individual subsets are too large to measure"
+    - "Because non-measurable sets exist (e.g., Vitali sets) that cannot be consistently assigned a probability"
+    - "Because the axioms of probability only allow finite sample spaces"
+    - "Because probability must sum to 1, and infinitely many subsets would each receive zero probability"
+  answer: 1
+  explanation: "Vitali sets and similar constructions show that if you try to assign a translation-invariant measure (like Lebesgue measure or a uniform probability) to ALL subsets of ℝ, you reach a contradiction. These non-measurable sets cannot be consistently assigned a probability value. The sigma-algebra ℱ solves this by restricting attention to the 'Borel-measurable' subsets, which include all open intervals, closed sets, and countable combinations thereof, while excluding the paradoxical sets."
+
+- question: "A student claims that finite additivity is sufficient for probability theory on continuous spaces because 'you can just add up infinitely many zeros.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — finite additivity is equivalent to countable additivity for probability measures"
+    - "Finite additivity permits inconsistencies when summing over countably infinite collections; countable additivity must be stated explicitly"
+    - "The student is correct that a sum of zeros can equal any value; the error is in the 'infinite' part"
+    - "Probability theory doesn't apply to continuous spaces at all, so the argument is moot"
+  answer: 1
+  explanation: "Finite additivity only guarantees that P(A ∪ B) = P(A) + P(B) for finitely many disjoint events. It says nothing about infinite collections. For continuous distributions, we need P([a,b]) = ∫ᵃᵇ f(x)dx to be consistent with the axioms, which requires countable additivity — the ability to take limits of sums. Without it, even basic results like P(ℝ) = 1 cannot be proved from the behavior on individual points. Countable additivity is an independent axiom, not derivable from finite additivity."
+
+- question: "In a probability space (Ω, ℱ, P), every subset of Ω is an event to which P assigns a probability."
+  type: true-false
+  answer: false
+  explanation: "Only subsets of Ω that belong to the sigma-algebra ℱ are events. ℱ is a carefully chosen subcollection of P(Ω) — the set of all subsets — that excludes non-measurable sets. This is a critical distinction: you cannot ask 'what is the probability of this subset?' unless that subset is in ℱ. The entire purpose of the sigma-algebra component is to restrict which subsets count as legitimate events."
+
+- question: "Countable additivity (σ-additivity) is strictly stronger than finite additivity, in the sense that countable additivity implies finite additivity but not vice versa."
+  type: true-false
+  answer: true
+  explanation: "Countable additivity states that P(∪ₙAₙ) = ΣₙP(Aₙ) for any countable collection of disjoint events — this includes finite collections as a special case (by setting all but finitely many Aₙ to ∅). So countable additivity implies finite additivity. The converse fails: there exist finitely additive set functions on algebras that are not countably additive. This is why countable additivity must be stated as an explicit axiom — it is not derivable from the other axioms."
+
+- question: "Why is the sigma-algebra ℱ a necessary component of the probability space triple (Ω, ℱ, P), rather than simply using all subsets of Ω as events?"
+  type: short-answer
+  answer: "Non-measurable sets exist — subsets of Ω that cannot be consistently assigned a probability without producing contradictions. The sigma-algebra restricts attention to measurable subsets: those closed under complementation and countable unions, which can be assigned probabilities consistently. On continuous spaces like ℝ, using all subsets leads to paradoxes (Vitali sets, Banach-Tarski). ℱ is the collection of sets we CAN measure, and the probability measure P is only defined on that collection."
+  explanation: "This is the foundational reason the measure-theoretic framework exists. The axioms of probability look simple — non-negativity, total probability 1, additivity — but on infinite spaces they require a domain restriction to be consistent. The sigma-algebra formalizes 'which questions can we ask?' Random variables are then defined as measurable functions from (Ω, ℱ) to (ℝ, Borel sets) — functions that are compatible with the measurable structure on both sides."
+```
+
 ## Explainer
 
 You have worked with the probability axioms — probabilities are non-negative, the total probability is 1, and probabilities of disjoint events add. These axioms work well for finite or countably infinite sample spaces. But for a continuous sample space like a randomly chosen real number in [0, 1], new problems arise: there are uncountably many outcomes, single points have probability zero, and naive notions of "event" run into paradoxes (not all subsets of ℝ can be consistently assigned probabilities). The measure-theoretic framework resolves these problems by rebuilding probability on a rigorous foundation. Its central object is the **probability space**, a triple (Ω, ℱ, P).

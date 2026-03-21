@@ -30,6 +30,45 @@ Compare how different languages categorize time, space, kinship, color, or causa
 - Assuming that because language influences thought, it rigidly determines thought.
 - Overlooking that translation, multilingualism, and language change demonstrate flexibility.
 
+## Questions
+
+```yaml
+- question: "Research shows that speakers of Guugu Yimithirr, which uses only cardinal directions (north/south/east/west) rather than egocentric terms (left/right), maintain precise directional awareness even in unfamiliar indoor spaces. A colleague concludes: 'This proves people can only think spatially using the categories their language encodes.' What is wrong with this conclusion?"
+  type: multiple-choice
+  options:
+    - "The study is invalid because spatial reasoning is entirely pre-linguistic and unaffected by language"
+    - "The conclusion conflates linguistic relativity with linguistic determinism — the finding shows habitual cognitive tendencies, not the impossibility of other spatial thinking"
+    - "Cardinal direction users could still think egocentrically if they tried, so the finding supports determinism anyway"
+    - "The conclusion is correct — the evidence for strong linguistic determinism is robust"
+  answer: 1
+  explanation: "The finding is genuine evidence for linguistic relativity (weak form): the grammatical habit of encoding absolute directions trains a different, highly developed spatial attention. But this doesn't mean egocentric spatial thinking is impossible for these speakers — it means absolute-direction thinking has been made automatic and dominant by linguistic practice. Determinism would require that other modes of spatial reasoning are cognitively unavailable, which the evidence does not show. Bilinguals navigating two spatial systems are the clearest counterevidence to determinism."
+
+- question: "A language has a single term covering both blue and green. What does linguistic relativity predict about speakers of this language when tested on color discrimination tasks?"
+  type: multiple-choice
+  options:
+    - "They will be physically unable to perceive any difference between blue and green"
+    - "They will be measurably slower to distinguish blue from green in certain tasks, though they can perceive the physical difference"
+    - "They will perform identically to speakers of languages with separate terms, because color perception is entirely biological"
+    - "They will spontaneously invent new color terms during the task to compensate"
+  answer: 1
+  explanation: "Linguistic relativity predicts a cognitive tendency, not a cognitive ceiling. The physical capacity to discriminate colors is shared across humans; what differs is the automaticity of the distinction. When a language doesn't grammatically mark a boundary between blue and green, that distinction is less cognitively 'primed,' leading to measurable differences in speed and accuracy on tasks requiring that specific discrimination. The speakers can see the difference — the question is how easily and automatically they make it."
+
+- question: "Linguistic determinism — the view that language rigidly controls and limits what its speakers can think — is well-supported by modern cognitive and anthropological research."
+  type: true-false
+  answer: false
+  explanation: "Linguistic determinism (the strong Sapir-Whorf hypothesis) is largely rejected. The evidence against it is substantial: people successfully learn new languages with very different categorical structures, bilinguals navigate multiple systems, humans engage in non-linguistic thought (music, spatial reasoning, motor skills), and language itself changes when communities need new categories. What the evidence does support is linguistic relativity — the weaker claim that habitual grammatical categories create cognitive tendencies without making other categorizations impossible."
+
+- question: "The fact that bilinguals can operate fluently in two languages with very different categorical structures is evidence against strong linguistic determinism."
+  type: true-false
+  answer: true
+  explanation: "If language rigidly determined thought such that different linguistic categories produced cognitively incommensurable worldviews, bilinguals would face irresolvable cognitive conflict. Instead, they navigate both systems fluidly, demonstrating that linguistic categories shape cognitive habits and automatic tendencies without erecting impenetrable cognitive walls. Translation, language change, and the coining of new terms all make the same point: human cognition is more flexible than linguistic determinism allows."
+
+- question: "What is the difference between linguistic determinism and linguistic relativity, and which has stronger empirical support? Use at least one concrete example to illustrate the difference in what each predicts."
+  type: short-answer
+  answer: "Linguistic determinism (strong Sapir-Whorf) holds that language rigidly controls thought, making speakers of different languages cognitively incommensurable. Linguistic relativity (weak Sapir-Whorf) holds that the habitual categories encoded in a language influence how speakers routinely perceive and categorize experience, creating measurable tendencies without making alternative categorizations impossible. Linguistic relativity has empirical support: speakers of languages with a single blue-green term are measurably slower to distinguish those colors in some tasks, but they can perceive the difference. This shows influence, not determination. Determinism is unsupported: bilinguals easily learn new categorical systems, and speakers can coin new words when reality demands them."
+  explanation: "The key distinction is between 'influences' and 'determines.' Linguistic relativity treats language as a set of cognitive lenses that make some distinctions easy and automatic — but lenses can be changed, and multiple sets can be used. Determinism treats language as a cage, which the evidence consistently fails to support."
+```
+
 ## Explainer
 
 Your prerequisite work on language and culture established that language is a cultural system — a structured set of shared conventions for encoding and communicating meaning. The Sapir-Whorf hypothesis pushes further: it asks whether the particular structure of your language doesn't just *reflect* your culture's categories but actively *shapes* what you perceive and think. This is one of anthropology's most debated and empirically nuanced ideas, so it's worth distinguishing two very different claims nested within it.

@@ -31,6 +31,45 @@ Compare and contrast persuasion effectiveness in real-world advertisements: anal
 ## Common Misconceptions
 Students often assume peripheral route persuasion is always ineffective; in fact, it can be highly effective in contexts where individuals lack motivation or ability to scrutinize messages.
 
+## Questions
+
+```yaml
+- question: "A public health agency wants to produce lasting reductions in smoking behavior. They are choosing between two campaigns: (A) a celebrity-endorsed ad featuring aspirational imagery, or (B) a personalized brief with detailed health data tailored to individual risk profiles. Which does the ELM predict will be more effective for durable behavior change?"
+  type: multiple-choice
+  options:
+    - "Option A — celebrities reach larger audiences and engagement is higher with emotional content"
+    - "Option B — central route processing produces attitude change anchored to reasons, which is durable and predictive of behavior"
+    - "Option A — peripheral cues are more effective than rational arguments for health behavior because people resist direct persuasion"
+    - "Neither — the ELM predicts attitude change but not behavior change specifically"
+  answer: 1
+  explanation: "The ELM predicts that only central route processing produces durable, behavior-predictive attitude change. Celebrity endorsements work through peripheral cues (attractiveness, liking, social proof) — the attitude change produced is fragile: it fades over time and collapses when new peripheral cues point the other direction. For lasting health behavior change, engaging the central route is the right strategy: make arguments personally relevant, ensure the audience has both motivation and ability to process them carefully."
+
+- question: "A consumer switched car brands after their favorite racing driver stopped endorsing the old brand. Which ELM concept best explains this reversal?"
+  type: multiple-choice
+  options:
+    - "The consumer underwent central route processing and discovered new evidence against the old brand"
+    - "The consumer's peripheral route attitude change was fragile and reversed when the peripheral cue (celebrity endorsement) changed"
+    - "The consumer's resistance to persuasion increased after the endorsement ended"
+    - "The consumer's attitude was strong and durable, but situational pressure caused the switch"
+  answer: 1
+  explanation: "Peripheral route attitude changes are fragile precisely because they are not anchored to reasons about the product itself — they are anchored to surface cues. When a celebrity switches endorsements, the cue that produced the attitude change disappears, and the attitude collapses. This contrasts with central route attitude change: if a consumer switched because of careful evaluation of safety records and fuel efficiency, that attitude would be resistant to a celebrity switching brands."
+
+- question: "Peripheral route persuasion is generally ineffective because people who process information superficially are not meaningfully influenced by what they see or hear."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception. Peripheral route persuasion can be highly effective in the short term, especially in low-involvement contexts where motivation or ability to scrutinize messages is limited. Advertising, product endorsements, and political messaging routinely exploit peripheral cues to shift attitudes and behavior. The limitation of peripheral route persuasion is not effectiveness per se but durability: the attitude changes produced are fragile and susceptible to decay and counter-persuasion."
+
+- question: "The same persuasive message can produce central route processing in one person and peripheral route processing in another, depending on that person's motivation and ability to scrutinize the arguments."
+  type: true-false
+  answer: true
+  explanation: "This is a key feature of the ELM: the route taken is not a property of the message itself but of the interaction between the message and the receiver's state. A highly motivated expert reads a policy argument carefully and updates her attitudes based on argument quality (central route). A distracted person who happens to see the same argument while multitasking may use only peripheral cues — the speaker's appearance, the number of points made, social consensus cues. The same words, different processing."
+
+- question: "A political campaign uses celebrity endorsements to promote a long-term climate policy initiative. What does the ELM predict about the durability of any attitude change produced, and what strategy would better achieve lasting public support?"
+  type: short-answer
+  answer: "The ELM predicts that celebrity endorsements work through the peripheral route, producing attitude changes that are fragile and likely to fade over time or collapse when new peripheral cues appear (e.g., when the celebrity is involved in a scandal or endorses an opposing position). For lasting attitude change on a complex policy issue, the campaign should engage the central route: present substantive arguments, make the issue personally relevant to audiences, reduce cognitive load to ensure people can process carefully, and give audiences enough information to evaluate the evidence themselves."
+  explanation: "The durability asymmetry is the core practical implication of the ELM. Celebrity endorsements may boost short-term polling numbers but provide a weak foundation for the sustained public support needed for long-term policy. The trade-off is that central route campaigns are harder to execute — they require motivated, able audiences and high-quality arguments. But the resulting attitude change is anchored to reasons that survive counter-persuasion, whereas peripheral cue-based change is borrowed against the continued availability of those cues."
+```
+
 ## Explainer
 
 You know from studying attitude formation that attitudes are evaluative dispositions — learned tendencies to respond favorably or unfavorably to objects, people, issues, or ideas. Persuasion research asks: under what conditions do attitudes change, and why? The **Elaboration Likelihood Model (ELM)** provides a parsimonious answer: it depends on *how much* a person is mentally processing the persuasive message, and *what* they are using to evaluate it.

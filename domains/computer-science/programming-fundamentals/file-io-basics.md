@@ -34,6 +34,45 @@ Write a program that saves a to-do list to a file and reads it back on the next 
 - Opening in write ('w') mode when intending to add to existing content — 'w' truncates the file.
 - Assuming file.read() returns numbers — all file content is text and must be converted.
 
+## Questions
+
+```yaml
+- question: "A file named 'data.txt' contains the text 'Hello World'. A program opens it with open('data.txt', 'w') and writes 'Goodbye'. What does the file contain after the program finishes?"
+  type: multiple-choice
+  options:
+    - "'Hello WorldGoodbye' — the new content is appended to the existing content"
+    - "'Goodbye\nHello World' — the new content is prepended"
+    - "'Goodbye' — opening in 'w' mode erases the file before any writing occurs"
+    - "An error is raised because the file already exists"
+  answer: 2
+  explanation: "Opening a file in 'w' (write) mode truncates the file immediately — the existing contents are destroyed the moment open() is called, before a single character is written. This happens even if the program crashes before writing anything. 'Hello World' is gone and 'Goodbye' is all that remains. This is one of the most dangerous pitfalls in file I/O. To add content without erasing, use 'a' (append) mode. To read and rewrite selectively, read the file first, modify in memory, then write back."
+
+- question: "A file contains the line '42'. After reading it with line = f.readline(), a student writes result = line + 10. What happens?"
+  type: multiple-choice
+  options:
+    - "result is the integer 52"
+    - "result is the string '4210'"
+    - "A TypeError is raised — you cannot add a string and an integer"
+    - "result is '42\\n10' — the newline from readline is included"
+  answer: 2
+  explanation: "All file content is read as strings — f.readline() returns '42\\n' (with a trailing newline), not the integer 42. Attempting to add a string and an integer raises a TypeError. To do arithmetic, you must explicitly convert: result = int(line.strip()) + 10. This type conversion step is always required when reading numeric data from files, user input, or network responses — they all arrive as text. Forgetting this produces TypeErrors or, in languages with implicit coercion, silent concatenation bugs like '4210'."
+
+- question: "Using a context manager (with open(...) as f:) guarantees that the file is closed even if an exception occurs inside the with block."
+  type: true-false
+  answer: true
+  explanation: "This is the primary purpose of the context manager pattern for files. The with statement calls f.__exit__() when the block ends, whether normally or due to an exception. f.__exit__() calls f.close(), which flushes the write buffer and releases the file handle. Without a context manager, an exception before f.close() would leave the file open and potentially lose buffered data. The context manager is not just a stylistic preference — it is the safe, standard way to guarantee proper cleanup."
+
+- question: "Forgetting to close a file after writing is a minor stylistic issue; all written data will be saved correctly as long as the write() calls completed without error."
+  type: true-false
+  answer: false
+  explanation: "This is a dangerous misconception. When you write to a file, data is often held in a memory buffer before being flushed to disk. If the program ends abnormally, or if the file is not explicitly closed (which triggers a flush), buffered data can be lost — even if write() returned no error. The buffer-to-disk flush only happens when close() is called (or flush() is called explicitly). This is why unclosed files can result in truncated output or missing data. The context manager pattern prevents this by guaranteeing close() is always called."
+
+- question: "Explain the difference between opening a file in 'w' mode versus 'a' mode. Why is confusing these two modes particularly dangerous?"
+  type: short-answer
+  answer: "'w' (write) mode truncates the file immediately on open — any existing content is destroyed before you write a single byte. 'a' (append) mode opens the file and positions the write pointer at the end, so new content is added after existing content. Confusing them is dangerous because the data loss from 'w' mode is immediate and silent: no error is raised, and by the time you realize the mistake, the original content is gone. There is no 'undo' — the file is overwritten at the OS level."
+  explanation: "A common scenario: a developer means to log to an existing log file but uses 'w' instead of 'a', silently erasing weeks of logs on the next program run. The distinction matters most when working with files that accumulate data over time (logs, journals, databases). A safe workflow when unsure: read the file first, modify in memory, then write back — or use 'a' when the intent is to add, never to replace. Some programs even back up files before writing to avoid this class of error entirely."
+```
+
 ## Explainer
 
 From basic input/output, you know how to get data from the user (`input()`) and display results (`print()`). But that interaction vanishes the moment the program ends — nothing is saved. If you want a program's data to survive between runs, you need to write it to a **file** on disk. File I/O extends the input/output model you already know: instead of reading from the keyboard and writing to the screen, you read from and write to named files in the file system.

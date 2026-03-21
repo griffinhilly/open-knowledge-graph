@@ -31,6 +31,45 @@ Track development of grasp types and reaching accuracy across infancy; understan
 ## Common Misconceptions
 Fine motor control is purely about finger strength. It actually requires neural maturation, sensory integration, visual coordination, and feedback working together.
 
+## Questions
+
+```yaml
+- question: "A 9-month-old can reliably grab large toys but cannot yet pick up a small cereal piece between fingertip and thumb. The most accurate developmental explanation is:"
+  type: multiple-choice
+  options:
+    - "The child has not had enough practice with large-object grasping to generalize the skill to smaller objects"
+    - "Corticospinal tract myelination enabling fractionated, independent finger control is still maturing, so the pincer grasp is not yet available"
+    - "The child lacks shoulder girdle stability, which prevents any fine distal work"
+    - "Visual acuity is insufficient to guide accurate finger placement on small objects"
+  answer: 1
+  explanation: "Pincer grasp emerges around 9–10 months as the corticospinal tract — the direct cortex-to-spinal-neuron pathway — becomes sufficiently myelinated to exert fast, fractionated control over individual fingertip movements. Before this myelination is complete, the cortex simply cannot send precise enough signals for tip-to-tip pinching. Option C is wrong because the proximal-to-distal rule means shoulder stability develops first and is already in place by the time reaching emerges around 4 months."
+
+- question: "An occupational therapist working with a 4-year-old who has poor pencil control recommends core and shoulder stability exercises before fine finger work. A parent objects: 'Shouldn't we just practice pencil gripping?' The therapist's approach is:"
+  type: multiple-choice
+  options:
+    - "Misguided — finger weakness is the primary barrier to pencil control, so direct finger exercises should come first"
+    - "Correct — the proximal-to-distal rule means stable shoulder and wrist control must precede effective distal finger work"
+    - "Misguided — visual-motor integration training, not proximal strength, is the gating factor for pencil control"
+    - "Correct, but only because the child is too young for fine motor exercises"
+  answer: 1
+  explanation: "Fine motor development follows a proximal-to-distal hierarchy: shoulder girdle stability enables wrist control, which enables finger independence. Jumping to finger exercises before the proximal foundation is solid produces poor outcomes because the distal system cannot function effectively without the stable base above it. This is why occupational therapists address core and shoulder stability as a prerequisite — the hierarchy runs from core to fingertip."
+
+- question: "Fine motor control is primarily a matter of finger strength; once the muscles are strong enough, skilled manipulation follows automatically."
+  type: true-false
+  answer: false
+  explanation: "Finger strength is neither necessary nor sufficient for skilled fine motor control. Skilled manipulation requires myelination of the corticospinal tract (enabling cortical command over individual finger movements), visual-motor integration (calibrating reach and grip with visual feedback), and tactile sensorimotor learning (modulating grip force based on surface and object properties). Children with full muscle strength but disrupted sensory feedback or incomplete myelination still lack fine motor precision."
+
+- question: "Myelination of the corticospinal tract is necessary but not sufficient for skilled fine motor control — sensorimotor practice is also required to complete calibration of grip force and coordination."
+  type: true-false
+  answer: true
+  explanation: "Myelination 'opens the window' by enabling the cortex to send fast, fractionated signals to individual finger muscles. But calibration of how much force to apply, how to anticipate slipping objects, and how to adjust grip in real time requires sensorimotor experience — dropping slippery things, crushing soft ones, correcting errors repeatedly. The explainer captures this as: 'myelination opens the window; sensorimotor experience completes the calibration.'"
+
+- question: "Why does fine motor development follow a proximal-to-distal sequence, and what does this principle mean for early intervention when a child shows delayed fine motor skills?"
+  type: short-answer
+  answer: "The proximal-to-distal sequence reflects the order of myelination and neural maturation: pathways controlling the shoulder and gross arm movements mature before those controlling the wrist and fingers. Stable proximal segments (core, shoulder) are a physical prerequisite for controlled distal movement — you cannot direct precise finger work from an unstable base. For intervention, this means that if a child shows delayed pencil grip or object manipulation, the first step is assessing core and shoulder stability rather than jumping to finger exercises, because addressing the proximal foundation is what enables distal skill to emerge."
+  explanation: "The hierarchy runs from core to fingertip, both neurologically (myelination proceeds proximal to distal) and mechanically (distal control requires a stable proximal base). Interventions that skip proximal stability and go straight to fine finger work treat the symptom rather than the root cause."
+```
+
 ## Explainer
 
 From your study of myelination and brain maturation, you know that the speed and precision of neural signaling depends on myelin sheathing of axons, and that myelination follows a predictable developmental trajectory — proceeding from proximal to distal and from gross motor pathways to fine motor ones. Fine motor control is one of the last systems to fully myelinate precisely because the **corticospinal tract** — the direct pathway from motor cortex to spinal motor neurons — requires complete myelination before the cortex can exert the fast, fractionated control over individual finger movements that fine manipulation demands. The motor cortex is the command center; myelination is the high-speed cable.

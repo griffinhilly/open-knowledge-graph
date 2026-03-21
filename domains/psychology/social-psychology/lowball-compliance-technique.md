@@ -32,6 +32,45 @@ Analyze how lowball differs fundamentally from foot-in-the-door: lowball require
 ## Common Misconceptions
 Students assume lowball works primarily because people hate wasting effort already invested (sunk cost fallacy); actually, the cognitive dissonance from maintaining a public commitment in the face of new information is the primary driver, with sunk costs playing a secondary role.
 
+## Questions
+
+```yaml
+- question: "A car dealership quotes you an excellent price. You mentally picture owning the car, tell your friends, and rearrange your weekend to pick it up. At the dealership, the salesperson 'discovers' a mandatory $1,500 documentation fee not mentioned earlier. Research predicts most buyers will:"
+  type: multiple-choice
+  options:
+    - "Walk away — the changed terms invalidate the original agreement"
+    - "Request that the fee be waived as compensation for the deception"
+    - "Proceed with the purchase despite the worse terms"
+    - "Consult a consumer protection authority before proceeding"
+  answer: 2
+  explanation: "The lowball technique predicts continued compliance because the buyer has already formed a genuine commitment — they have begun mentally inhabiting the future state (the car, the plans) and made the decision a part of their self-narrative. Reversing course now requires experiencing the dissonance of undoing that commitment, which most people resolve by proceeding. The key is that the decision itself creates lock-in, not merely the time spent at the dealership."
+
+- question: "The primary psychological mechanism driving compliance in the lowball technique — more than sunk costs — is:"
+  type: multiple-choice
+  options:
+    - "Social proof: others who have received similar deals accepted the revised terms"
+    - "Reciprocity: the initial attractive offer creates a felt obligation to proceed"
+    - "Cognitive dissonance: reversing a genuine prior commitment creates inconsistency"
+    - "Authority: the salesperson's expertise makes the fee seem legitimate"
+  answer: 2
+  explanation: "Cognitive dissonance is the primary driver: once a genuine commitment has been made ('yes, I'll take it'), reversing the decision means accepting inconsistency between your prior self-definition and your current action. Proceeding under worse terms feels less costly than undoing a decision already woven into your plans and identity. Cialdini's research showed compliance remains high even when minimal effort has been invested in the deal — what matters is the decision itself, not the sunk costs flowing from it."
+
+- question: "The lowball technique works primarily because people hate abandoning effort they have already invested in a deal (the sunk cost fallacy)."
+  type: true-false
+  answer: false
+  explanation: "Sunk costs play a secondary role. The primary mechanism is commitment-based cognitive dissonance — the prior decision creates psychological lock-in independent of how much effort was expended. Cialdini et al. demonstrated that lowball compliance stays high even when the person has taken very few preparatory actions. What matters is that a genuine 'yes' was made, not the costs flowing from it. Sunk costs amplify the effect but are not the core driver."
+
+- question: "The lowball technique and the foot-in-the-door technique both exploit prior commitment as a lever for later compliance, though through different mechanisms."
+  type: true-false
+  answer: true
+  explanation: "Both techniques leverage prior commitment, but differently. Foot-in-the-door uses two separate requests: a small initial compliance establishes a self-image ('I'm the kind of person who helps'), and a larger follow-up request exploits that identity. Lowball involves a single deal that gets revised after a genuine commitment is formed — there is no separate second request, just changed terms to an existing agreement. Foot-in-the-door modifies self-image; lowball exploits commitment-dissonance from a decision already made."
+
+- question: "What makes the lowball technique distinct from foot-in-the-door, and why does commitment — rather than sunk costs — explain its effectiveness?"
+  type: short-answer
+  answer: "Foot-in-the-door uses two separate requests: a small one that alters self-image, then a larger one exploiting that new identity. Lowball is a single deal revised after genuine commitment forms — no second request, just changed terms. Commitment is the operative mechanism because the decision itself (not the effort invested) creates dissonance: to reverse means undoing a prior self-definition. Cialdini's research confirmed this: even when preparatory effort was minimal, lowball compliance remained high, ruling out sunk costs as the primary driver."
+  explanation: "This distinction matters practically: foot-in-the-door depends on time between requests and a separate, escalated ask. Lowball depends on securing genuine commitment before full disclosure — timing the revelation of costs after the psychological lock-in has occurred. Both illuminate how the architecture of influence often operates through commitment rather than through content of the request itself."
+```
+
 ## Explainer
 
 The **lowball technique** exploits the gap between the moment of commitment and the moment of full information disclosure. The sequence is: secure a genuine "yes" to an attractive initial offer, then — after the commitment has been formed — reveal that the offer comes with additional costs, changes, or conditions. The target now faces a choice between backing out of a commitment they already made and proceeding under worse terms than originally presented. Most people proceed. Understanding *why* they do requires drawing on both your **cognitive dissonance** and **social influence** prerequisites.

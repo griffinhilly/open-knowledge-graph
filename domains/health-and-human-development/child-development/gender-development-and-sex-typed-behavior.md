@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Gender development encompasses biological sex (chromosomal and gonadal), gender identity (internal sense of being male, female, or non-binary), and gender roles (culturally-defined expectations and behaviors). Infants show few behavioral sex differences; from ages 2–3 years, children develop categorical gender knowledge and increasingly display sex-typed toy and activity preferences through observation, direct reinforcement, and self-socialization. Prenatal hormonal influences (androgens), cognitive development (gender stability and consistency acquired by age 6), and intense cultural socialization all contribute to individual variation in gender-typed behavior and identity expression. Understanding gender development requires integrating biological, cognitive, and sociocultural perspectives.
 
+## Questions
+
+```yaml
+- question: "Girls with congenital adrenal hyperplasia (CAH), who were exposed to elevated androgens prenatally, show on average more male-typical toy preferences. What is the most accurate interpretation of this finding?"
+  type: multiple-choice
+  options:
+    - "Prenatal hormones determine gender identity, making socialization secondary"
+    - "Biology contributes meaningfully to gender-typed behavior without fully determining it"
+    - "CAH girls are biologically male in some respects, explaining their preferences"
+    - "This finding confirms that toy preferences are purely culturally learned"
+  answer: 1
+  explanation: "CAH research provides evidence that prenatal androgens shift average preferences — but 'shift' and 'determine' are very different claims. CAH girls show a distribution of preferences that overlaps substantially with non-CAH girls; the finding establishes biological contribution without locking in outcomes. Options A and C overstate the biological determinism the evidence actually supports. Option D is backwards — this finding challenges pure social learning accounts."
+
+- question: "A 4-year-old girl knows she is a girl and believes she will always be a girl, but also thinks that wearing her brother's clothes and playing with trucks would make her a boy. Which developmental milestone has she NOT yet achieved?"
+  type: multiple-choice
+  options:
+    - "Gender labeling"
+    - "Gender stability"
+    - "Gender consistency"
+    - "Self-socialization"
+  answer: 2
+  explanation: "Gender consistency is the understanding that gender is stable across superficial changes in appearance or behavior — you remain female even if you wear male clothing. This child has gender labeling (she knows she's a girl) and some gender stability (she believes she'll always be a girl over time), but not consistency across situational transformations. Achieving gender consistency around ages 5–6 typically intensifies sex-typed behavior as children more rigidly police gender norms."
+
+- question: "Sex-typed toy and activity preferences emerge in children as young as 18–24 months, before they can reliably articulate gender categories."
+  type: true-false
+  answer: true
+  explanation: "This early emergence is one of the key pieces of evidence for prenatal biological contributions to gender-typed behavior. If sex-typed preferences required first developing gender labels and self-socialization, they should not appear before that cognitive milestone. The fact that preferences emerge earlier suggests that prenatal hormonal influences and very early social learning interact from the start, predating explicit gender cognition."
+
+- question: "Gender identity is ultimately determined by biological sex — the chromosomal and hormonal patterns that develop prenatally."
+  type: true-false
+  answer: false
+  explanation: "Biological sex, gender identity, and gender roles are separable dimensions that usually align but can diverge. Transgender individuals provide clear evidence: their gender identity does not match their biological sex, demonstrating these are not the same thing. The multifactorial model — prenatal hormones, temperament, cognitive development, family context, cultural environment — produces a broad distribution of gender expression, not a simple biological determination."
+
+- question: "Why does acquiring a gender label (around ages 2–3) intensify sex-typed behavior, even though the child's biology hasn't changed at that moment?"
+  type: short-answer
+  answer: "Once children label themselves as 'boy' or 'girl,' they engage in self-socialization: they preferentially attend to and imitate same-gender models, actively seek information about what 'people like me' do, and adjust their behavior to match. The label activates a cognitive schema that channels attention and behavior. This self-directed process reinforces sex-typed preferences independent of direct reinforcement from adults."
+  explanation: "This is the key insight of the cognitive-developmental account: children are not passive recipients of socialization but active agents who, once they have a categorical identity, work to conform their behavior to it. The biological substrate creates differential sensitivity; the label activates the self-socialization process that shapes behavior within that space."
+```
+
 ## Explainer
 
 From your study of Erikson's psychosocial stages, you know that early childhood is a period of intense identity formation and social role exploration. Gender development is one of the most prominent threads running through this period — children arrive in a world that immediately begins encoding them with gender-specific information, and they are active participants in processing it. Understanding how this unfolds requires holding three analytical levels simultaneously: biological contributions, the child's own cognitive constructions, and the pervasive shaping force of socialization.

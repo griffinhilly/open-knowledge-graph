@@ -27,6 +27,45 @@ Apply the Hausman test to a panel dataset, interpret the test result, and explai
 - Random effects does not mean the effects are random in a colloquial sense — it is a modeling assumption about the distribution of unit heterogeneity.
 - The Hausman test rejects the null when RE is inconsistent, but a failure to reject does not guarantee RE is correct — it may just be low-powered.
 
+## Questions
+
+```yaml
+- question: "A researcher studies wages with panel data and includes education as a regressor. More able workers tend to both earn more and get more education. Should the researcher use fixed or random effects, and why?"
+  type: multiple-choice
+  options:
+    - "Random effects — education is correlated with wages, which is expected and not a problem"
+    - "Fixed effects — individual ability (an unobserved unit characteristic) is likely correlated with education, violating the RE assumption and making RE inconsistent"
+    - "Random effects — the Hausman test will confirm RE is consistent whenever education is included as a regressor"
+    - "Fixed effects — because only FE can estimate the effect of education, which RE cannot"
+  answer: 1
+  explanation: "Individual ability is an unobserved unit-level characteristic (α_i). If more able workers get more education, then α_i (ability) is correlated with the education regressor — directly violating the RE assumption that α_i is uncorrelated with all regressors. RE would be inconsistent, absorbing ability into the error term that correlates with education, producing bias analogous to omitted variable bias in OLS. FE differences away α_i and remains consistent. Option D is wrong: FE cannot estimate time-invariant variables like gender, but education often does vary within-person over time."
+
+- question: "The Hausman test produces a statistically significant result (rejecting the null). What does this imply?"
+  type: multiple-choice
+  options:
+    - "Random effects is more efficient than fixed effects and should be preferred"
+    - "The random effects assumption is violated — α_i is likely correlated with the regressors — and fixed effects should be preferred"
+    - "Both estimators are biased and the model should be re-specified"
+    - "The panel has too few time periods for random effects to be valid"
+  answer: 1
+  explanation: "Under the null hypothesis, both FE and RE are consistent but RE is more efficient — they should produce similar estimates. Under the alternative, RE is inconsistent (biased) because α_i correlates with regressors, while FE remains consistent. A significant divergence between the two estimates signals that RE is picking up correlated heterogeneity. Rejection means the RE assumption likely fails and FE is the correct choice. The test does not imply that both are biased."
+
+- question: "Random effects models can estimate the coefficients of time-invariant variables (like country legal system or a person's gender), whereas fixed effects models cannot."
+  type: true-false
+  answer: true
+  explanation: "Fixed effects works by absorbing unit-specific constants — any variable that doesn't change within a unit over time gets absorbed along with α_i and cannot be separately identified. Random effects treats α_i as part of the error term, leaving time-invariant regressors as separate covariates that can be estimated. This is a genuine practical advantage of RE: many important variables (legal origins, geographic features, demographic characteristics) don't vary within units over time."
+
+- question: "Failing to reject the null in the Hausman test proves that the random effects assumption holds and RE is the correct estimator."
+  type: true-false
+  answer: false
+  explanation: "A failure to reject does not prove RE is correctly specified — the test may simply be underpowered. The Hausman test detects large systematic divergences between FE and RE; subtle violations of the RE assumption may not produce a statistically significant test statistic. The test only tells you whether the data show strong evidence against RE; absence of evidence is not evidence of absence. As the literature notes, failure to reject may mean low power, not correct specification."
+
+- question: "Explain in economic terms why the assumption that α_i is uncorrelated with the regressors is often implausible when studying people or firms."
+  type: short-answer
+  answer: "α_i captures stable, unobserved characteristics of each unit — ability, motivation, firm culture, management quality. These are often precisely the factors that drive observable choices: more able workers get more education, more motivated workers work longer hours, better-managed firms invest more. If unobservables and covariates co-evolve through individual decisions, α_i and the regressors are correlated, violating the RE assumption."
+  explanation: "The RE assumption essentially requires that unit-level unobservables are as good as randomly assigned with respect to the covariates — ruling out selection effects. Most economic decisions involve agents acting on private information (their own ability, preferences, circumstances), which is precisely what α_i captures. Since people and firms choose their covariates partly based on their unobservables, the independence assumption fails in most economic applications. This is why FE, which makes no such assumption, is generally preferred when unobserved heterogeneity is a concern."
+```
+
 ## Explainer
 
 You already know fixed effects (FE) models, which handle unit heterogeneity by absorbing α_i — the stable, unobserved characteristics of each unit — as unit-specific constants that get differenced away. FE is consistent regardless of whether those unobserved characteristics are correlated with your regressors, and that is its great virtue. Its great cost is that it discards all between-unit variation and cannot estimate coefficients on time-invariant variables (like a country's legal system or a person's gender). The **random effects model** is the alternative that attempts to recover that lost efficiency and information, at the price of an additional assumption.

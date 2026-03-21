@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Lucas's model emphasizes human capital accumulation through education and learning-by-doing as the primary engine of growth alongside physical capital. The model features time allocation decisions between work and human capital development, where countries and individuals investing more in education achieve higher productivity and growth. Calibrated versions explain a substantial portion of cross-country income differences and suggest education policy is crucial for long-run development.
 
+## Questions
+
+```yaml
+- question: "Two otherwise identical countries differ only in that Country A devotes a slightly higher fraction of worker time to education. After several decades, what does the Lucas model predict about their income levels?"
+  type: multiple-choice
+  options:
+    - "The countries converge, because capital flows from rich to poor countries until productivity equalizes"
+    - "The gap narrows over time as diminishing returns eventually slow Country A's human capital growth"
+    - "The income gap widens continuously, because human capital growth is compounding and proportional to the existing stock"
+    - "The gap disappears as technology diffuses freely between countries"
+  answer: 2
+  explanation: "The Lucas model predicts persistent and widening divergence. Because h̊ = δ(1−u)h, the growth rate of human capital is proportional to h — a country with a small initial advantage accumulates faster in absolute terms every period. Small differences in educational time allocation compound over generations into enormous income gaps. This is why the model shifted development thinking toward education policy as a determinant of long-run prosperity."
+
+- question: "What mathematical property of the human capital accumulation equation h̊ = δ(1−u)h is responsible for generating sustained long-run growth, in contrast to physical capital in the Solow model?"
+  type: multiple-choice
+  options:
+    - "The equation features diminishing returns to h, which stabilize growth at a positive long-run rate"
+    - "The parameter δ grows exogenously over time, providing a technological push similar to Solow's TFP"
+    - "The growth rate of h is linear in h itself — constant returns in human capital production — so there is no natural force slowing accumulation"
+    - "Workers can always increase (1−u) without limit, providing an inexhaustible supply of study time"
+  answer: 2
+  explanation: "The key is constant returns: doubling h doubles the rate at which h grows. In the Solow model, physical capital investment faces diminishing returns (each additional unit of capital produces less output), so growth eventually stalls absent exogenous TFP growth. Lucas's linear human capital equation sidesteps this by making the accumulation technology itself scale with the existing stock, sustaining indefinite growth without requiring an exogenous engine."
+
+- question: "The Lucas model implies that the social return to education exceeds the private return, providing a theoretical rationale for government subsidies to schooling."
+  type: true-false
+  answer: true
+  explanation: "The model includes an external effect: average human capital in the workforce raises everyone's productivity, not just those who invested in education. Because individual workers cannot capture this spillover benefit, private incentives undervalue education relative to its social contribution. The gap between social and private returns is the standard economic justification for public subsidies — individuals under-invest when they cannot internalize the full return."
+
+- question: "In the Lucas model, human capital accumulation eventually experiences diminishing returns, causing long-run growth to approach zero — just as physical capital does in the Solow model."
+  type: true-false
+  answer: false
+  explanation: "This is the central distinction the Lucas model makes relative to Solow. The human capital accumulation equation h̊ = δ(1−u)h has constant (not diminishing) returns in h: the larger your human capital stock, the faster it grows in absolute terms. There is no natural tendency for this process to slow down, which is why endogenous growth models like Lucas's can generate perpetual growth without relying on exogenous technological progress."
+
+- question: "Why does the Lucas model predict larger and more persistent income differences across countries than the Solow model would suggest for similarly endowed economies?"
+  type: short-answer
+  answer: "In the Solow model, diminishing returns to physical capital cause poorer countries to grow faster and eventually converge toward richer ones. The Lucas model replaces this with constant-returns human capital accumulation: a country that devotes even slightly more time to education grows its human capital proportionally faster each period. Because the growth rate of h depends on h itself, small initial differences compound continuously — a country that is slightly ahead today is even further ahead tomorrow, with no convergence force. This produces permanently diverging income levels from nearly identical starting conditions."
+  explanation: "The Solow model has a built-in equalization mechanism (diminishing returns create conditional convergence). The Lucas model has no such mechanism for human capital — the rich get richer, not because of market failure, but because the technology of human capital production is fundamentally different from physical capital. This insight redirected development economics toward understanding why some countries systematically under-invest in education."
+```
+
 ## Explainer
 
 From endogenous growth theory, you know the central puzzle that motivated this literature: the Solow model predicts that long-run growth comes only from exogenous technological progress, which the model does not explain. Endogenous growth models make growth an outcome of deliberate choices within the model. Robert Lucas's 1988 human capital model does this by treating **education and skill acquisition** as a form of investment that, like physical capital investment, responds to incentives and accumulates over time — but with a crucial difference that generates sustained growth.

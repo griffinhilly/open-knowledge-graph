@@ -37,6 +37,45 @@ Complete a full 16-square Punnett grid for a dihybrid cross and tally the phenot
 - Students sometimes apply the 9:3:3:1 ratio even when genes are linked, where it does not apply.
 - Each locus still segregates 3:1 on its own; the 9:3:3:1 ratio is the product of two independent 3:1 ratios.
 
+## Questions
+
+```yaml
+- question: "A dihybrid cross (AaBb × AaBb) yields 160 offspring. You observe 90 with both dominant traits, 30 with only the first dominant, 30 with only the second dominant, and 10 with both recessive. What does this most likely indicate?"
+  type: multiple-choice
+  options:
+    - "The genes are linked on the same chromosome"
+    - "The genes show epistasis, with one suppressing the other"
+    - "The genes assort independently, consistent with being on different chromosomes"
+    - "The 9:3:3:1 ratio indicates complete dominance at only one locus"
+  answer: 2
+  explanation: "The 9:3:3:1 ratio is the expected outcome when two genes assort independently. Fitting this ratio (90:30:30:10 ≈ 9:3:3:1) is evidence that the genes are on different chromosomes and do not interact. Linkage would compress the ratio toward a modified pattern favoring parental combinations; epistasis would produce altered ratios like 9:7, 12:3:1, or 9:3:4."
+
+- question: "A trihybrid cross (AaBbCc × AaBbCc) is performed. What fraction of offspring will show all three dominant phenotypes?"
+  type: multiple-choice
+  options:
+    - "1/4"
+    - "9/16"
+    - "27/64"
+    - "3/4"
+  answer: 2
+  explanation: "Each locus independently contributes a 3/4 probability of showing the dominant phenotype (from Aa × Aa). With three independent loci, multiply: 3/4 × 3/4 × 3/4 = 27/64. This is the power of the forked-line method — it makes the multiplicative logic of independent assortment explicit without drawing a 64-square Punnett grid. The total number of offspring categories is 4³ = 64."
+
+- question: "The 9:3:3:1 phenotypic ratio from a dihybrid cross is the product of two independent 3:1 monohybrid ratios."
+  type: true-false
+  answer: true
+  explanation: "This is the mathematical heart of independent assortment. Each locus produces a 3/4 dominant : 1/4 recessive ratio independently. Multiplying gives 9/16 (both dominant), 3/16 (first dominant, second recessive), 3/16 (first recessive, second dominant), and 1/16 (both recessive) — the 9:3:3:1 ratio. The forked-line method makes this multiplication explicit and scales easily to trihybrid or higher crosses."
+
+- question: "A heterozygous dihybrid parent (AaBb) produces only two types of gametes: AB and ab."
+  type: true-false
+  answer: false
+  explanation: "Independent assortment means alleles at different loci segregate independently during meiosis. An AaBb parent produces four equally probable gamete types: AB, Ab, aB, and ab (each at 1/4 probability). The idea that only the parental combinations (AB and ab) are transmitted confuses independent assortment with linkage. Linkage would favor parental combinations, but independent assortment produces all four types equally."
+
+- question: "What does it mean to say the 9:3:3:1 ratio serves as a 'null hypothesis' in genetics? What biological conclusion can you draw when observed offspring ratios deviate significantly from it?"
+  type: short-answer
+  answer: "The 9:3:3:1 ratio is what you expect when two genes assort independently with complete dominance — it represents the no-interaction baseline. Treating it as a null hypothesis means: fitting this ratio is evidence of no linkage and no gene interaction. Significant deviation is a signal that something biologically interesting is occurring. A ratio compressed toward 3:1 for combined classes suggests genetic linkage — the genes travel together more often because they are physically close on the same chromosome. Modified ratios like 9:7 or 12:3:1 suggest epistasis — one gene's alleles affect the expression of the other gene."
+  explanation: "This is why mastering the expected ratio is the prerequisite for all advanced genetics: you must know what no-interaction looks like before you can recognize and interpret interactions. The specific form of the deviation itself tells you the nature of the relationship between the two genes."
+```
+
 ## Explainer
 
 You already know from Mendelian genetics that a monohybrid cross between two heterozygotes (Aa × Aa) produces a 3:1 phenotypic ratio — three dominant to one recessive. A **dihybrid cross** asks what happens when you track two genes at the same time. The key insight from Mendel's **law of independent assortment** is that alleles at different loci segregate into gametes independently of each other, provided the genes are on different chromosomes (or far apart on the same chromosome). This means you can treat each gene separately and then multiply the results.

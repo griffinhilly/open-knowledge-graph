@@ -29,6 +29,45 @@ Practice with a partner who deliberately asks the most uncomfortable questions i
 - Deflecting every difficult question destroys trust; the skill is knowing which questions deserve direct answers and which are genuinely bad-faith traps.
 - Remaining calm does not mean remaining passive — a composed speaker can be firm, even forceful, without losing composure.
 
+## Questions
+
+```yaml
+- question: "During a Q&A session, an audience member asks: 'When did you stop ignoring your constituents' concerns?' The speaker immediately begins defending her recent policy actions. What has she done wrong?"
+  type: multiple-choice
+  options:
+    - "She failed to maintain eye contact while answering"
+    - "She should have refused to answer hostile questions entirely"
+    - "By answering without first rejecting the premise, she tacitly accepted that she had been ignoring constituents"
+    - "Her response was too brief to be credible"
+  answer: 2
+  explanation: "This is a loaded question — it embeds a false premise ('you stopped ignoring constituents,' implying she was ignoring them). Answering without rejecting that premise means the audience hears a defense built on an accepted accusation. The correct technique is explicit premise rejection first: 'I'd challenge the assumption in your question — I have consistently engaged with constituent concerns, and here's how...' Skipping the rejection and going straight to the substantive answer inadvertently legitimizes the false premise in the audience's mind."
+
+- question: "A speaker receives a genuinely stumping question during Q&A — something she doesn't know the answer to. What is the best approach?"
+  type: multiple-choice
+  options:
+    - "Bluff confidently — audiences generally cannot distinguish fabricated from genuine answers"
+    - "Deflect to a related topic she does know well to avoid revealing the gap"
+    - "Give a partial answer and pivot to a new topic before the questioner realizes it was incomplete"
+    - "Honestly acknowledge not knowing and offer to follow up after the session"
+  answer: 3
+  explanation: "Audiences can detect fabricated answers more easily than speakers assume, and a visible bluff destroys credibility when spotted. 'I don't have that data in front of me — I'll follow up' is not weakness; it builds the trust that amplifies the speaker's authority on the questions she does answer confidently. The broader audience is watching character, not just content. A speaker who admits the limits of her knowledge is more credible than one who visibly bluffs or deflects every gap."
+
+- question: "During Q&A, the speaker's primary audience is the individual questioner, not the rest of the room."
+  type: true-false
+  answer: false
+  explanation: "The broader audience — everyone watching the exchange — is the real audience during Q&A. The individual questioner may be hostile or acting in bad faith; the rest of the room is evaluating the speaker's character under pressure. A speaker who answers a rude question with respectful firmness wins the room even if the hostile questioner remains unsatisfied. This is why how you treat difficult questioners matters as much as what you say — the audience is making character judgments based on the speaker's composure and fairness."
+
+- question: "A speaker who concedes minor points when answering hostile questions signals weakness and loses credibility with the audience."
+  type: true-false
+  answer: false
+  explanation: "Conceding minor points builds credibility, not weakness. When a speaker acknowledges what is legitimate in a challenge — 'That's a fair concern, and I'll address it directly' — the audience sees intellectual honesty and confidence. This makes the speaker's defense of the major points more persuasive, because the audience trusts that she is engaging honestly rather than reflexively defending everything. The speaker who refuses to concede anything plausible-sounding comes across as evasive. Composure includes the confidence to acknowledge what is true in criticism."
+
+- question: "Why does explicitly rejecting the premise of a loaded question matter, even when the speaker can address the underlying concern substantively?"
+  type: short-answer
+  answer: "If a speaker answers a loaded question without rejecting its false premise, she implicitly accepts it. The audience hears the answer within the frame the questioner set — a frame that may be false or unfair. For example, answering 'When did you stop ignoring voters?' with a list of recent policy actions implies the stopping was real; it leaves the accusation intact while only defending the 'stopping.' Premise rejection ('I'd challenge the assumption — I haven't been ignoring voters') resets the frame before the substantive response. This matters because audiences process answers within the framing they have already accepted. Failing to reject the premise cedes that frame to the questioner."
+  explanation: "The core insight is that framing determines interpretation. Substance without frame-correction can reinforce a false frame. This is why premise rejection must come first — before any substantive content — to ensure the answer is heard on the speaker's terms, not the questioner's."
+```
+
 ## Explainer
 
 From your work with Q&A management, you know the basics of managing audience questions — how to invite them, buy time to think, and structure a clear response. **Handling difficult questions** extends that foundation to adversarial territory: what happens when the question itself is a weapon. Hostile questioners, loaded premises, off-topic ambushes, and genuinely stumping questions all require not just a content response but a composure response. The audience is watching both what you say and how you behave under pressure — and the second observation usually matters more.

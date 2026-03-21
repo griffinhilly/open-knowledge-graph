@@ -30,6 +30,45 @@ Sleep and circadian rhythms profoundly influence child development across biolog
 ## How It's Best Learned
 Review sleep physiology (EEG patterns, sleep stages) and their developmental changes. Examine literature on sleep's role in memory consolidation, synaptic pruning, and emotional regulation. Study outcomes of sleep deprivation experiments and naturalistic variation in children's sleep.
 
+## Questions
+
+```yaml
+- question: "A 7-year-old is referred for possible ADHD after teachers report he is unusually impulsive and hyperactive during afternoon classes. His parents say he sleeps only about 7 hours per night. What should be considered first?"
+  type: multiple-choice
+  options:
+    - "Stimulant medication, because the symptoms are consistent with ADHD"
+    - "Behavioral therapy, since hyperactivity is a learned response to classroom structure"
+    - "Correcting the sleep deficit, since sleep-deprived children often present with ADHD-like hyperactivity"
+    - "Ruling out dietary causes before considering sleep, since sugar and processed foods are common triggers"
+  answer: 2
+  explanation: "Sleep-deprived children characteristically present as hyperactive and impulsive rather than drowsy — a counterintuitive finding explained by the prefrontal cortex's exceptional sensitivity to sleep loss. The PFC provides top-down inhibitory control over the amygdala and impulse responses; when it is impaired by insufficient sleep, children lose behavioral regulation and appear hyperactive. Many cases of apparent ADHD in children resolve substantially when sleep is corrected. Misattributing the symptoms to ADHD leads to medication rather than addressing the root cause."
+
+- question: "Why do newborns spend approximately 50% of their sleep time in active sleep (the developmental precursor to REM), compared to only 20–25% in adults?"
+  type: multiple-choice
+  options:
+    - "Because newborns are exhausted from birth and need more restorative deep sleep, which early development classifies as REM"
+    - "Because active sleep drives synaptogenesis and early neural circuit refinement, providing internal stimulation when external experience is limited"
+    - "Because the circadian system is immature and cannot yet organize slow-wave sleep properly"
+    - "Because REM sleep is the default state of the brain, and NREM develops only as the cortex matures"
+  answer: 1
+  explanation: "The high proportion of REM (active sleep) in newborns is not a quirk of immaturity — it is functionally significant. During active sleep, the brain generates spontaneous activations that drive synaptogenesis and early circuit refinement. A newborn cannot yet learn enough from the external world to supply all the stimulation neural development requires, so REM sleep provides it internally. As cortical circuits mature and external experience accumulates, REM percentage declines and slow-wave sleep deepens — the architecture shifts to match the brain's changing developmental needs."
+
+- question: "A newborn's failure to sleep through the night is primarily caused by an immature, undeveloped circadian system rather than by hunger or discomfort."
+  type: true-false
+  answer: true
+  explanation: "This is correct. The newborn's suprachiasmatic nucleus (SCN) is structurally present but functionally immature — it cannot yet generate a stable circadian rhythm or entrain to the external light-dark cycle. Melatonin secretion in newborns is negligible and poorly rhythmic. The result is sleep distributed in short bouts across the full 24-hour period, without systematic night preference. This changes as the SCN matures over the first 8–12 weeks. Hunger plays a role in night waking, but the underlying failure to consolidate sleep into the night is primarily a circadian maturation issue."
+
+- question: "Growth hormone deficiency — not sleep deficiency — is the primary reason that chronically sleep-restricted children show impaired physical growth."
+  type: true-false
+  answer: false
+  explanation: "The causal direction is reversed. Growth hormone is secreted predominantly during slow-wave (deep NREM) sleep in pulsatile bursts. When children are chronically sleep-restricted, they get less slow-wave sleep, and growth hormone secretion is correspondingly reduced. This impairs physical growth independently of nutritional intake. Sleep restriction IS the cause of reduced growth hormone — not a consequence of growth hormone deficiency. This is why adequate sleep is a biological requirement for normal development, not merely a lifestyle recommendation."
+
+- question: "Why does the prefrontal cortex's vulnerability to sleep deprivation cause sleep-deprived children to appear hyperactive rather than sleepy?"
+  type: short-answer
+  answer: "The prefrontal cortex (PFC) provides top-down inhibitory control over subcortical structures, including the amygdala and impulse-generating circuits. It is among the brain regions most sensitive to sleep loss. When the PFC is impaired by insufficient sleep, its regulatory brake on impulsive and emotional responses weakens, so children become hyperactive, impulsive, and emotionally reactive — classic symptoms of dysregulated behavior. The sleepiness exists but manifests as disinhibition rather than drowsiness, because the cortical structures that suppress impulsive behavior fail before the child appears overtly tired."
+  explanation: "Understanding this requires seeing the PFC not as a 'thinking organ' but as a control system. Its job includes suppressing inappropriate responses, maintaining attention, and regulating emotional reactivity. When sleep-deprived, the PFC cannot perform this job well, and subcortical impulse systems run with reduced inhibition. This is why sleep deprivation in children mimics ADHD — both involve PFC dysregulation, though from different causes. Clinically, this means hyperactivity in children warrants sleep history evaluation before diagnostic conclusions are drawn."
+```
+
 ## Explainer
 
 From your study of circadian rhythm, you know the basic machinery: the **suprachiasmatic nucleus (SCN)** in the hypothalamus functions as the master clock, entraining to the environmental light-dark cycle and driving melatonin secretion from the pineal gland each evening to signal darkness and initiate sleep. But this system does not arrive ready-made at birth. In the fetus, the SCN is structurally present but functionally immature — it lacks the sensitivity to light that will later entrain it. Instead, the fetus receives its circadian signal vicariously: maternal melatonin crosses the placenta, coupling fetal physiology to the external light-dark cycle through the mother's system. At birth, that coupling is severed — and the newborn must build its own circadian organization from scratch.

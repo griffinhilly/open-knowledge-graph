@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Weathering rates vary dramatically among planets based on atmospheric composition, temperature, humidity, and surface gravity. Earth's rapid chemical weathering contrasts with Mars's dominance of physical weathering and Venus's extremely limited surface processes, illustrating how planetary conditions control landscape evolution and geochemical cycling.
 
+## Questions
+
+```yaml
+- question: "Venus has a surface pressure 90 times Earth's and temperatures around 460°C. Why does Venus experience almost no chemical weathering despite these extreme conditions?"
+  type: multiple-choice
+  options:
+    - "The extreme temperature destroys all atmospheric acids before they can react with surface rocks"
+    - "Venus lacks liquid water, which is the primary agent driving chemical weathering reactions"
+    - "The thick CO₂ atmosphere shields the surface from solar radiation needed to drive reactions"
+    - "Volcanic resurfacing constantly buries weathered material before it can accumulate"
+  answer: 1
+  explanation: "Liquid water is the master variable controlling chemical weathering. Despite extreme temperature and pressure, Venus has almost no water, so aqueous reactions (dissolving silicates, carbonate formation) are negligible. Some slow gas-solid reactions occur, but they are minor. The misconception is that high temperature should accelerate chemical reactions — temperature matters, but without water as the reaction medium, chemical weathering nearly halts."
+
+- question: "Mars's red iron oxide minerals and clay-bearing rocks were produced by chemical weathering. What does their current widespread presence tell us about Mars's history?"
+  type: multiple-choice
+  options:
+    - "Chemical weathering is ongoing today, just slower than on Earth"
+    - "These minerals formed when Mars had liquid water in its early history and record a now-ceased process"
+    - "Wind-driven dust storms provide enough moisture to sustain slow chemical reactions"
+    - "Thermal cycling at the poles produces enough freeze-thaw action to create iron oxides"
+  answer: 1
+  explanation: "The iron oxides and clay minerals on Mars are geochemical fossils — they formed billions of years ago when Mars had liquid water and active chemical weathering. Once Mars lost its atmosphere and surface water, chemical weathering essentially ceased. Today, only physical weathering (thermal cracking, aeolian abrasion) operates. The minerals persist because Mars's frozen, dry conditions preserve ancient surface records with remarkable fidelity."
+
+- question: "Liquid water is the primary driver of chemical weathering on Earth, and its absence explains the low chemical weathering rates on both Mars and Venus."
+  type: true-false
+  answer: true
+  explanation: "This is the central insight of comparative planetary weathering. Earth's position in the habitable zone with stable liquid water creates powerful chemical weathering via carbonic acid dissolution, mineral hydrolysis, and carbonate-silicate cycling. Mars lost its water and atmosphere, leaving only physical weathering. Venus, despite extreme heat and pressure, has negligible water and thus negligible chemical weathering. The comparison across three planets confirms liquid water as the master variable."
+
+- question: "Because Venus has higher surface temperatures than Earth, chemical reaction rates on Venus's surface should be faster than on Earth."
+  type: true-false
+  answer: false
+  explanation: "Temperature does accelerate reaction kinetics, but chemical weathering on planetary surfaces is dominated by aqueous reactions that require liquid water as a solvent and reactant. Venus lacks water entirely. Higher temperature with no water produces gas-solid reactions that are far slower than Earth's water-mediated weathering. The absence of water overrides any temperature advantage — demonstrating that water availability, not temperature, is the controlling factor."
+
+- question: "Why is liquid water described as the 'master variable' controlling weathering rates across the solar system, rather than temperature or atmospheric pressure?"
+  type: short-answer
+  answer: "Liquid water drives chemical weathering by acting as both a solvent and a reactant: it dissolves CO₂ to form carbonic acid, hydrolyzes silicate minerals, and enables carbonate formation. Without it, only slow gas-solid reactions and physical processes operate. Temperature and pressure alone (as on Venus) are insufficient — Venus has extreme heat and pressure but almost no weathering. Mars had weathering when water was present but nearly stopped when water was lost. Earth's dynamic weathering engine depends on water, not just favorable temperatures."
+  explanation: "The comparison across Earth, Mars, and Venus provides a natural experiment. The variable that most cleanly predicts weathering intensity is water availability. Remove water (Venus, modern Mars) and chemical weathering drops to near-zero regardless of other conditions. The carbonate-silicate cycle that regulates Earth's climate and recycles carbon is entirely water-dependent. This makes water availability the single most important planetary property for surface geochemistry."
+```
+
 ## Explainer
 
 From your study of regolith formation and weathering processes on Earth, you know that rocks break down through two broad mechanisms: **physical weathering** (fracturing without changing chemistry) and **chemical weathering** (dissolving or transforming minerals through reactions with water, acids, and atmospheric gases). On Earth, both operate vigorously — water seeps into cracks and freezes, shattering rock, while carbonic acid in rainfall dissolves silicates and carbonates. The comparative planetary perspective asks: what happens to these processes when you radically change the atmosphere, temperature, and available water?

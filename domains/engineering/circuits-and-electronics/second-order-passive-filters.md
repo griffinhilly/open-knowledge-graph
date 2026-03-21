@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Second-order filters built from RLC circuits provide -40 dB/decade rolloff and can exhibit resonance peaks or dips depending on damping. The quality factor Q controls the sharpness; low Q gives smooth response while high Q causes peaking. Series and parallel RLC configurations yield different filter characteristics (e.g., series RLC is notch, parallel RLC is peaking).
 
+## Questions
+
+```yaml
+- question: "An engineer needs a second-order low-pass filter with a maximally flat passband and no resonance peak. Which Q value achieves this, and what is this condition called?"
+  type: multiple-choice
+  options:
+    - "Q >> 1 — higher Q gives a sharper rolloff and a flatter passband"
+    - "Q = 1/√2 ≈ 0.707 — this is the Butterworth condition for maximally flat response"
+    - "Q = 1 — unity Q guarantees no peaking by definition"
+    - "Q = 0 — no resonance factor means no possibility of peaking"
+  answer: 1
+  explanation: "Q = 1/√2 (equivalently, damping ratio ζ = 1/√2) produces the Butterworth response: maximally flat in the passband with no amplitude peak before rolloff, and the −3 dB point falls exactly at ω₀. For Q > 1/√2, the magnitude rises above 0 dB near resonance before falling — the filter is peaking. For Q < 1/√2, the response is overdamped: no peak, but the rolloff begins before ω₀. The Butterworth condition is the boundary between these regimes and is widely used as a default design target."
+
+- question: "In a series RLC circuit driven by a voltage source, which output configuration produces a notch (band-reject) filter?"
+  type: multiple-choice
+  options:
+    - "Taking the output across the resistor R"
+    - "Taking the output across the capacitor C alone"
+    - "Taking the output across the series combination of L and C together"
+    - "Taking the output across the inductor L alone"
+  answer: 2
+  explanation: "At resonance, a series LC combination has impedances that cancel: the inductive reactance jωL equals and opposes the capacitive reactance 1/jωC in magnitude. The net impedance of the series LC is zero at ω₀, making it a short circuit. Therefore no voltage appears across the LC pair at resonance — the output is zero (deep notch) while passing frequencies above and below resonance normally. This is distinct from taking the output across R (bandpass) or across C alone (low-pass)."
+
+- question: "A second-order passive RLC filter with Q > 1/√2 can produce output voltages near resonance that exceed the source voltage, even though no active amplifying elements are present."
+  type: true-false
+  answer: true
+  explanation: "Passive resonance allows voltage magnification across individual reactive components (L or C), even though the total energy in the circuit is conserved. At resonance in a series RLC, the voltage across the capacitor (or inductor) can be Q times the source voltage — this is sometimes called the 'Q-factor voltage magnification.' A high-Q circuit with Q = 10 can produce 10× the source voltage across the capacitor at resonance. This is not a violation of energy conservation; energy oscillates between L and C, with only small losses through R each cycle."
+
+- question: "Taking the output across the resistor in a series RLC circuit produces a low-pass filter response."
+  type: true-false
+  answer: false
+  explanation: "Output across R in a series RLC gives a bandpass response — at DC (ω = 0), the capacitor blocks and no current flows, so no voltage appears across R. At very high frequencies, the inductor blocks and again no current flows. Current (and therefore voltage across R) is maximum at resonance, where the reactive impedances cancel. For a low-pass response, take the output across C (its impedance is high at low frequencies, allowing voltage to develop there). For a high-pass response, take the output across L."
+
+- question: "Explain why the quality factor Q determines both the sharpness of a second-order filter's rolloff and whether a resonance peak appears in the passband."
+  type: short-answer
+  answer: "Q = ω₀/(R/L) for a series RLC, representing the ratio of energy stored to energy dissipated per radian of oscillation. High Q means little energy is lost each cycle, so the circuit can sustain oscillations near resonance — producing a sharp frequency selectivity and a large amplitude peak before rolloff. In filter terms: high Q creates a tall, narrow resonance peak and a steep transition band. Low Q means heavy damping (energy dissipates quickly), suppressing oscillation — the response rolls off smoothly without any peak. The Butterworth condition Q = 1/√2 is the precise boundary where peaking just disappears while maximizing rolloff steepness."
+  explanation: "The same Q governs the time-domain transient: high Q → underdamped ringing; low Q → overdamped sluggish return. The frequency-domain peak and time-domain ringing are two manifestations of the same underlying physics — a system that stores energy relative to its losses will both oscillate in time and selectively amplify near its natural frequency in steady state."
+```
+
 ## Explainer
 
 From your work with first-order RC and RL filters, you know that a single reactive element produces a -20 dB/decade rolloff above (or below) the cutoff frequency. A second-order filter adds a second reactive element — making it an RLC circuit — and something qualitatively new happens. The rolloff steepens to **-40 dB/decade**, meaning the filter cuts twice as sharply. But the bigger change is that the circuit now has a natural resonance frequency where energy can oscillate between the inductor and capacitor, producing behavior impossible with a single reactive element.

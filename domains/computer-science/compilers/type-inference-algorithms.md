@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Type inference algorithms automatically determine types of expressions without explicit annotations. Constraint-based inference generates type equations from the program, then solves them. The unification algorithm finds a most general solution to these constraints. Modern languages use type inference to reduce annotation burden while retaining compile-time type safety.
 
+## Questions
+
+```yaml
+- question: "When type inference infers that `fun x -> x` has type `α → α`, why doesn't it infer the more specific type `int → int`?"
+  type: multiple-choice
+  options:
+    - "The inference algorithm only infers types for expressions applied to integer arguments it has already seen"
+    - "The algorithm finds the most general unifier — if no constraint forces α to be int, it leaves α as a free type variable, yielding a polymorphic type"
+    - "The algorithm cannot infer numeric types and defaults to generic type variables for all primitives"
+    - "The identity function is a special case hard-coded as polymorphic in the type system"
+  answer: 1
+  explanation: "Type inference generates constraints from the program's structure and solves them via unification. For `fun x -> x`, the only constraint is that input and output must have the same type — nothing forces that type to be int. Unification finds the most general unifier: rather than specializing unnecessarily, it leaves α free, producing a polymorphic type α → α. If the function were instead `fun x -> x + 1`, the addition would constrain α = int and the inferred type would be int → int."
+
+- question: "During constraint generation for a function application `f(a)`, what constraint does the compiler produce?"
+  type: multiple-choice
+  options:
+    - "The types of f and a must be equal"
+    - "The type of f must be a function type α → β, where α equals the type of a, and β is a fresh type variable for the result"
+    - "The type of a must be a subtype of the domain type expected by f"
+    - "f must have a concrete, fully-known function type at compile time"
+  answer: 1
+  explanation: "For a function application `f(a)`, the compiler generates a constraint that the type of `f` must be a function from the type of `a` to some result type. Since the result type is unknown, it is represented as a fresh type variable — a placeholder to be filled in later by unification. This constraint, combined with others, will determine whether `f` is applied correctly and what result type the application has."
+
+- question: "Type inference eliminates compile-time type safety, because without explicit annotations the compiler cannot fully verify that types are used correctly."
+  type: true-false
+  answer: false
+  explanation: "Type inference maintains full compile-time type safety — it does not skip type checking, it performs it automatically. The constraint-generation and unification process produces the same type information that explicit annotations would provide. If a type mismatch exists (e.g., passing a string to a function expecting an integer), unification finds contradictory constraints and the compiler reports a type error. Inference reduces programmer burden without weakening the type-safety guarantee."
+
+- question: "The 'occurs check' in type inference catches situations where solving constraints would require a type variable to equal a type expression that contains that same variable."
+  type: true-false
+  answer: true
+  explanation: "Without the occurs check, unification could attempt to satisfy a constraint like α = list(α), producing an infinite type with no finite representation. The occurs check adds a verification step: before substituting α ↦ T, it verifies that α does not appear in T. If it does, unification fails with a type error. Most practical type systems include this check; some (like certain Prolog implementations) omit it for performance, at the cost of allowing potentially unsound infinite types."
+
+- question: "Describe the two main phases of type inference and explain what role unification plays in the second phase."
+  type: short-answer
+  answer: "Phase 1 is constraint generation: the compiler walks the abstract syntax tree and, for each construct, produces type equations relating the types of its parts using fresh type variables as placeholders for unknowns. Phase 2 is constraint solving: the unification algorithm takes the collected constraints and finds a most general unifier — a substitution mapping type variables to types that simultaneously satisfies all constraints. Unification detects type errors (contradictory constraints like α = int and α = string) and leaves variables free when constraints don't force them to a specific type, yielding polymorphic types automatically."
+  explanation: "The key insight is that type inference transforms a typing problem into a constraint-satisfaction problem and solves it algebraically. Unification is not guessing — it finds the unique most general solution to the constraint system, explaining why polymorphism emerges naturally rather than requiring special-case rules."
+```
+
 ## Explainer
 
 You already know that type systems classify expressions to prevent certain classes of errors, and that the unification algorithm can find substitutions that make two symbolic expressions identical. Type inference connects these ideas: instead of requiring the programmer to annotate every variable and expression with a type, the compiler generates **type constraints** from the program's structure and then uses unification to solve them automatically.

@@ -31,6 +31,45 @@ Identify hazards in a simple instruction sequence and trace how forwarding elimi
 ## Common Misconceptions
 Not all data dependencies cause hazards—only those that cross pipeline stages. Forwarding can eliminate many hazards without stalling.
 
+## Questions
+
+```yaml
+- question: "Consider the sequence: ADD R1, R2, R3 followed immediately by SUB R4, R1, R5. In a 5-stage pipeline with full data forwarding, how many stall cycles does the processor insert?"
+  type: multiple-choice
+  options:
+    - "2 stall cycles — ADD must complete write-back before SUB can read R1"
+    - "1 stall cycle — the result needs one extra cycle to propagate"
+    - "0 stall cycles — forwarding routes ADD's ALU output directly to SUB's ALU input"
+    - "It depends on whether the operands are in cache"
+  answer: 2
+  explanation: "With data forwarding, the result of ADD is available at the ALU output before it is written to the register file. The hardware routes this value directly to SUB's execute stage input — eliminating the stall entirely. Without forwarding, SUB would read the stale value of R1. This is the core purpose of forwarding: converting what would be a 2-cycle stall into a 0-cycle stall for most RAW hazards."
+
+- question: "Consider the sequence: LOAD R1, [address] followed immediately by ADD R4, R1, R5. With a full forwarding network, how many stall cycles are needed?"
+  type: multiple-choice
+  options:
+    - "0 — forwarding eliminates all data hazards"
+    - "1 — the load result is not available until after memory access, one stage later than ALU results"
+    - "2 — load instructions always require two extra cycles"
+    - "3 — the pipeline must fully drain before continuing"
+  answer: 1
+  explanation: "This is a load-use hazard. Unlike an ALU instruction whose result is available at the end of the execute stage, a LOAD instruction's result is not available until the end of the memory access stage — one cycle later. Even with forwarding, the ADD instruction would need the value before it is ready. The processor must insert one stall (bubble) cycle to let the load complete memory access before ADD can proceed. This is the one case where forwarding cannot eliminate the stall."
+
+- question: "Not every data dependency between adjacent instructions in a pipeline causes a hazard — only dependencies where the dependent instruction needs a result before it has been written."
+  type: true-false
+  answer: true
+  explanation: "A data dependency only becomes a hazard if the pipeline stages overlap in a way that causes the dependent instruction to read a value before the producing instruction has written it. With forwarding, many RAW dependencies are resolved without any stall. Additionally, instructions far enough apart in the sequence may naturally avoid hazards because the producer has already written back by the time the consumer reads. Not every dependency is a hazard — the stage timing determines whether a conflict actually occurs."
+
+- question: "Data forwarding eliminates all data hazards in a pipelined processor."
+  type: true-false
+  answer: false
+  explanation: "Forwarding eliminates most RAW (read-after-write) hazards but not all. The load-use hazard is the classic exception: a LOAD instruction's result is not available until after the memory stage, so a dependent instruction that follows immediately needs to stall for one cycle regardless of forwarding. Additionally, forwarding cannot help with structural hazards (competing for the same hardware resource simultaneously) or control hazards (branches)."
+
+- question: "Why does a control hazard occur in a pipelined processor, and what is the fundamental difficulty in resolving it compared to data hazards?"
+  type: short-answer
+  answer: "A control hazard occurs because the processor fetches instructions after a branch before knowing whether the branch is taken. By the time the branch outcome is determined (at the execute stage), one or more instructions have been fetched and partially executed — if the branch is taken, those instructions are wrong and must be flushed. Unlike data hazards, where forwarding can supply the needed value, control hazards require knowing the future: which instruction to fetch next is unknown until the branch resolves. Solutions involve accepting the flush penalty, static prediction (assume not-taken), or dynamic branch prediction."
+  explanation: "Data hazards are about value availability — forwarding solves them by routing data early. Control hazards are about instruction flow — there is no equivalent of 'forwarding' because the needed information (branch direction) does not exist yet when the fetch decision must be made. This is why branch prediction is a probabilistic strategy rather than a deterministic fix, and why mispredictions are expensive."
+```
+
 ## Explainer
 
 From your study of instruction pipelining, you know that a pipelined processor overlaps the execution of multiple instructions — while one instruction is being executed, the next is being decoded, and the one after that is being fetched. This overlap is what gives pipelines their throughput advantage. But it also creates a fundamental problem: what happens when one instruction depends on the result of another instruction that has not finished yet? These situations are called **hazards**, and they fall into two main categories.

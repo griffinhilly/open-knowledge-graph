@@ -32,6 +32,45 @@ Examine a concrete case — e.g., whether Sikh students should be exempt from sc
 - It is not opposed to integration; it argues that integration succeeds better when minority cultures are respected rather than forced to assimilate.
 - The debate is not about whether diversity exists but about what institutional accommodations justice requires in response to it.
 
+## Questions
+
+```yaml
+- question: "Kymlicka argues that liberal states should protect minority cultures because:"
+  type: multiple-choice
+  options:
+    - "Cultural diversity is intrinsically valuable and states have a duty to preserve all existing cultures"
+    - "Majority cultures have historically oppressed minorities and reparations are owed"
+    - "Individual autonomy — liberalism's own core value — requires a secure cultural context that provides meaningful options for choice"
+    - "Group solidarity is more fundamental than individual freedom, so cultures have rights that override individual rights"
+  answer: 2
+  explanation: "Kymlicka's key move is internal criticism: he argues for group rights from liberal premises, not by rejecting liberalism. The argument is that autonomous choice requires a 'societal culture' that makes options intelligible — you choose among career paths, life plans, and relationships that your culture renders meaningful. Threatening a minority culture shrinks that menu of meaningful options. Since liberals care about autonomy, they must protect the cultural structures that enable it. This is not a communitarian rejection of individualism; it is a liberal argument that individual rights alone are insufficient for minority members whose cultural context is vulnerable."
+
+- question: "A religious community seeks a legal exemption allowing it to prevent female members from obtaining secular education outside the community. Under Kymlicka's framework, this request:"
+  type: multiple-choice
+  options:
+    - "Should be granted as an external protection that defends the community's cultural survival"
+    - "Should be granted because cultural rights trump individual rights within a community"
+    - "Should be denied because it is an internal restriction that subordinates the autonomy of individual members to group conformity"
+    - "Falls outside Kymlicka's framework since he does not address intra-community rules"
+  answer: 2
+  explanation: "Kymlicka's crucial distinction is between external protections (defending a minority culture from majority society — justified) and internal restrictions (using group power to enforce conformity on members — unjustified). Restricting women's access to secular education is an internal restriction: it subordinates the autonomy of individual women to the group's interest in cultural preservation. This is precisely the limit Kymlicka sets on group rights. Liberalism can protect a group's external existence while refusing to let that group oppress its own members. The exemption would trade individual autonomy for cultural survival — an unacceptable trade on Kymlicka's view."
+
+- question: "Kymlicka's argument for group-differentiated rights requires rejecting the liberal commitment to individual rights as the foundation of justice."
+  type: true-false
+  answer: false
+  explanation: "Kymlicka explicitly argues from liberal premises — this is the strategy of internal criticism. He accepts that individual autonomy is foundational and uses it as his premise: because autonomous choice requires a cultural context, protecting minority cultures is a liberal requirement. He does not trade individual rights for group rights; rather, he argues that individual rights are insufficient to protect the conditions for autonomous choice for minority members. The liberal who rejects group rights must explain why individual rights adequately protect minority members' cultural context — Kymlicka argues they cannot."
+
+- question: "Kymlicka defends external protections (defending a minority culture against majority society) while opposing internal restrictions (enforcing conformity on group members), and this distinction is central to his argument."
+  type: true-false
+  answer: true
+  explanation: "The external/internal distinction is the linchpin of Kymlicka's position. It allows him to say: Québec can pass French-language laws (external protection), but no community can prevent a woman from choosing her own religion or education (internal restriction). Without this distinction, multicultural rights would be potentially illiberal — protecting cultures that oppress their own members. With it, Kymlicka can defend group rights as consistent with liberalism by showing they extend, rather than compromise, individual autonomy at the level of the cultural community."
+
+- question: "What is Taylor's 'politics of recognition,' and how does it differ from Kymlicka's autonomy-based argument for multiculturalism?"
+  type: short-answer
+  answer: "Taylor's politics of recognition argues that human identity is partly formed through being recognized — seen and acknowledged — by others, and that systematic misrecognition (being treated as inferior, deviant, or invisible) inflicts genuine psychological harm. Liberal states that claim neutrality while failing to publicly acknowledge minority cultures are not actually neutral: they implicitly treat the majority culture as the default. True equality requires active recognition of cultural distinctness, not merely toleration. Kymlicka's argument is different in kind: it is about enabling autonomous choice by protecting cultural context. Kymlicka focuses on what culture provides for individuals (meaningful options); Taylor focuses on what public acknowledgment provides for identity (dignity, self-respect). A Kymlickan might support a cultural exemption to protect choices; a Taylorian might support it to affirm that the culture is worthy of public respect."
+  explanation: "The Kymlicka/Taylor contrast is a live debate within multicultural theory. Kymlicka's approach is more compatible with standard liberal individualism — culture is instrumentally valuable for autonomy. Taylor's is more communitarian in flavor — recognition and identity are not reducible to individual utility. They can agree on many policy conclusions while disagreeing about why those conclusions are required by justice."
+```
+
 ## Explainer
 
 Your prerequisite in political liberalism gave you the standard liberal framework: the state should be neutral between competing conceptions of the good, protect individual rights, and ensure fair procedures. Multiculturalism begins by accepting this liberal framework but argues that it systematically disadvantages cultural minorities — and that correcting this disadvantage requires going beyond individual rights to **group-differentiated rights**. The challenge is to show that this expansion is required by liberalism's own commitments, not a departure from them.

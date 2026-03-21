@@ -28,6 +28,45 @@ Classify fallacies by category (formal, equivocation, ad hominem, etc.) and lear
 ## Common Misconceptions
 All appeals to authority are fallacious (expert testimony is justified when expertise is genuine). All ad hominem arguments fail (attacking someone's character can be relevant if character affects reliability). Finding one fallacy makes an entire argument worthless (arguments can have fallacious steps yet reach true conclusions). Informal fallacies are as rigorous as formal logical errors (some informal fallacies are context-dependent and admit exceptions).
 
+## Questions
+
+```yaml
+- question: "During a debate, someone argues: 'Don't trust Professor Chen's climate research — she drives a gas-powered car, so she's a hypocrite.' This argument is:"
+  type: multiple-choice
+  options:
+    - "A legitimate ad hominem — it identifies a relevant inconsistency between her beliefs and her behavior."
+    - "A valid critique — personal character always bears on the credibility of scientific claims."
+    - "A fallacious ad hominem — behavioral inconsistency is irrelevant to the accuracy of the scientific data, so the character attack fails to undermine the argument."
+    - "Not an ad hominem at all — it is a legitimate appeal to consistency."
+  answer: 2
+  explanation: "An ad hominem only becomes a fallacy when the character attack is irrelevant to the logical force of the argument. Whether Professor Chen drives an SUV says nothing about the accuracy of her climate data — data stands or falls on its own merits. Contrast this with 'don't trust her testimony about the accident because she's the defendant's wife,' where bias is directly relevant to evidentiary value. The crucial test: does the personal attack bear on the quality of the reasoning or evidence? If not, it's a fallacy."
+
+- question: "You identify a strawman in a politician's speech, but the surrounding argument makes valid points supported by strong evidence. The best conclusion is:"
+  type: multiple-choice
+  options:
+    - "The entire argument is worthless — a single fallacy invalidates everything built around it."
+    - "The strawman invalidates the politician's credibility but leaves the argument intact."
+    - "Only the specific inferential step containing the strawman fails; the rest of the argument must be evaluated independently on its own merits."
+    - "Strawmen are informal fallacies and therefore not genuine logical errors, so the argument is unaffected."
+  answer: 2
+  explanation: "Arguments can contain fallacious steps while reaching true conclusions or making valid points elsewhere. Finding a fallacy tells you that one specific inference fails — not that the whole argument collapses. This is a critical nuance: 'This argument contains a strawman, therefore everything it concludes is false' is itself a reasoning error. The correct move is to identify which step fails and evaluate the rest independently."
+
+- question: "Whether an appeal to authority constitutes a fallacy depends on whether the authority's expertise is genuine and directly relevant to the claim being made."
+  type: true-false
+  answer: true
+  explanation: "Not all appeals to authority are fallacious. If a claim falls within someone's genuine area of expertise, citing their view is a legitimate epistemic shortcut — this is how non-specialists appropriately rely on scientific consensus. The fallacy arises when the authority's expertise is irrelevant (a celebrity endorsing a medical treatment), fabricated, or when the authority is cited to shut down legitimate debate. Context determines whether the appeal is legitimate or fallacious."
+
+- question: "Labeling an argument with the correct fallacy name is sufficient for a thorough critique — once you have identified that a step is a slippery slope or a strawman, the analysis is complete."
+  type: true-false
+  answer: false
+  explanation: "Naming a fallacy is a starting point, not the analysis itself. 'This is a slippery slope fallacy' is incomplete. The full critique must explain *why* this specific instance fails: what causal mechanism is missing, why the intermediate cases are disanalogous, or why the conclusion doesn't follow. Without this specificity, you have labeled without analyzing — you have not actually demonstrated that the argument fails or why the conclusion shouldn't be accepted."
+
+- question: "Why is it not sufficient to identify a fallacy by name alone? What must a thorough fallacy critique include?"
+  type: short-answer
+  answer: "A fallacy name describes a pattern of reasoning error, not a specific failure in the argument at hand. A thorough critique must identify which specific inferential step fails, explain why the premises don't support the conclusion in this case, and — for informal fallacies — address why context doesn't rescue the move. For example, 'this is a slippery slope because no causal mechanism links these steps, and the intermediate cases are disanalogous' is analysis; 'this is a slippery slope' is a label."
+  explanation: "This requirement follows from the context-dependence of informal fallacies. What counts as an ad hominem or an appeal to authority depends on whether the personal or authority consideration is actually relevant in context. The name alone doesn't settle this — only engaging with the specific argument does. Running the three-check method (structural validity → evidential adequacy → hidden work in premises) forces this specificity."
+```
+
 ## Explainer
 
 Knowing the catalog of informal fallacies from your prerequisite work is necessary but not sufficient for detecting them in real arguments. Real arguments don't announce themselves as *ad hominem* or *strawman* — they appear in dense prose, political speeches, and social media threads, woven together with legitimate reasoning. **Fallacy detection** is the applied skill of recognizing which argumentative moves fail, and why, in context.

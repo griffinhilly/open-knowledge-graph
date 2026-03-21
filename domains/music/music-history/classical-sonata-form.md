@@ -36,6 +36,45 @@ Use a score or annotated listening guide to track the formal sections in a Mozar
 - 'Sonata form' is not the same as 'a sonata' — sonata form is a structural procedure used in many genres, while a sonata is a multi-movement work.
 - The second theme is not defined by being 'slower and lyrical' — what defines it formally is its key relationship to the first theme.
 
+## Questions
+
+```yaml
+- question: "A student describes sonata form as follows: 'The exposition presents two themes; the development explores them; the recapitulation brings them both back — the second theme in the dominant key again, just like the exposition.' What is the critical error in this description?"
+  type: multiple-choice
+  options:
+    - "The exposition presents themes in the tonic, not in different keys"
+    - "The development does not use exposition material — it introduces new themes"
+    - "In the recapitulation, the second theme returns in the TONIC, not the dominant — this tonal resolution is the entire structural point of sonata form"
+    - "The recapitulation omits the second theme group in most Classical works"
+  answer: 2
+  explanation: "This is the most important misconception about sonata form. The structural drama depends entirely on the tonal tension created by the second theme appearing in the dominant in the exposition, and its resolution when it returns in the tonic in the recapitulation. Restating the second theme in the dominant again would mean the tonal argument was never resolved — the form would be dramatically incomplete."
+
+- question: "What primarily distinguishes the development section of sonata form from the exposition?"
+  type: multiple-choice
+  options:
+    - "The development introduces entirely new themes not heard in the exposition"
+    - "The development presents both themes simultaneously for the first time"
+    - "The development fragments and transforms exposition material through rapid modulation, creating maximum harmonic instability"
+    - "The development restates the entire exposition in the subdominant key"
+  answer: 2
+  explanation: "The development is characterized by harmonic instability and motivic fragmentation — familiar material heard in unfamiliar tonal contexts, pushed through a series of temporary key areas. It does not introduce new themes (A) or combine them simultaneously (B). Option D confuses the development with the recapitulation's tonal logic. The development's job is to create tension; the recapitulation's is to resolve it."
+
+- question: "The second theme group in sonata form is formally defined by its contrasting lyrical character relative to the first theme group."
+  type: true-false
+  answer: false
+  explanation: "Character contrast is a common feature but is NOT the formal definition. The second theme group is defined by its KEY: it appears in the dominant (in major-key movements) in the exposition, and returns in the TONIC in the recapitulation. A second theme group can be vigorous rather than lyrical and still fulfill its formal function perfectly. Defining it by character rather than key is the most common misconception about sonata form."
+
+- question: "The 'double return' in the recapitulation refers to the simultaneous return of the first theme and the home key, and this moment is structurally significant because it resolves the tonal tension that has been accumulating since the exposition's modulation."
+  type: true-false
+  answer: true
+  explanation: "The double return is structurally climactic precisely because both dimensions — theme and tonal center — return at once. The exposition established the home key, then moved away from it. The development destabilized it further. The recapitulation's arrival is the resolution of this tonal journey. Analysts describe it as one of the most powerful structural gestures in Western music because it satisfies expectations on two levels simultaneously."
+
+- question: "Why is sonata form described as a 'tonal drama' rather than simply a 'thematic form,' and what makes the recapitulation the resolution of that drama?"
+  type: short-answer
+  answer: "Sonata form is a tonal drama because its narrative is fundamentally about key relationships, not just themes. The exposition creates tension by moving from the home key to the dominant; the development maximizes that tension by pushing through multiple unstable key areas; the recapitulation resolves it by returning both the themes and the home key. The structural 'argument' is tonal: departure, conflict, homecoming. If you track only themes and miss the keys, you miss the form's logic entirely."
+  explanation: "The recapitulation resolves the drama because it brings the second theme back in the tonic — the key that was left behind in the exposition. The entire arc of modulation and harmonic tension is undone in a single structural gesture. This is why sonata form was so dominant in the Classical period: it provides a template for musical narratives with clear departure, development, and return."
+```
+
 ## Explainer
 
 From your Classical period overview, you know that the Classical aesthetic valued clarity, balance, and formal proportion. Sonata form is the structural embodiment of those values — a three-part architecture that creates tension through tonal displacement and resolves it through a return home. Understanding it requires tracking two things simultaneously: **thematic content** (what is being played) and **tonal location** (what key it is in). Most early mistakes in following sonata form come from tracking only one of these.

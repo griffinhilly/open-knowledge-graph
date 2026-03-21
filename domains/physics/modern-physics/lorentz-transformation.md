@@ -40,6 +40,45 @@ Verify that the transformation preserves the invariant interval algebraically. R
 - The Lorentz transformation is just a coordinate change with no physical meaning — it encodes genuine physical differences in what events are simultaneous.
 - t′ depends only on t — the mixing of space and time (t′ depends on x) is precisely the non-Galilean content.
 
+## Questions
+
+```yaml
+- question: "Two firecrackers explode simultaneously (same t) but at different locations x₁ and x₂ in frame S. What does the Lorentz transformation predict about these events in frame S′, moving at velocity v relative to S?"
+  type: multiple-choice
+  options:
+    - "They are simultaneous in S′ as well, since simultaneity is a physical fact independent of reference frame"
+    - "They are generally not simultaneous in S′, because t′ = γ(t − vx/c²) depends on x as well as t"
+    - "They are not simultaneous in S′ only if v > 0.5c"
+    - "They are not simultaneous in S′ only if the events are causally connected"
+  answer: 1
+  explanation: "The key non-Galilean feature is that t′ depends on both t and x. For two events with equal t but different x, the t′ values differ: t′₁ = γ(t − vx₁/c²) ≠ γ(t − vx₂/c²) = t′₂ unless x₁ = x₂. This is relativity of simultaneity — a direct physical consequence of the x-term in the time transformation. In the Galilean transformation, t′ = t for all events regardless of position, so simultaneity is absolute. The Lorentz transformation replaces this with frame-dependent simultaneity at all nonzero velocities."
+
+- question: "A student applies t′ = γt to compute the time interval between two events at locations x₁ = 0 and x₂ = 100 m in frame S. What error has the student made?"
+  type: multiple-choice
+  options:
+    - "No error — t′ = γt is the correct Lorentz time transformation"
+    - "The student dropped the vx/c² term: the full transformation is t′ = γ(t − vx/c²), and setting x = 0 is only valid when both events occur at the same location in S"
+    - "The student should have used the inverse transformation t = γ(t′ + vx′/c²) instead"
+    - "The error is using γ rather than 1/γ for time dilation"
+  answer: 1
+  explanation: "The simplified formula t′ = γt is valid only when x = 0 — that is, when both events occur at the same spatial location in frame S (like two ticks of a clock at rest in S). For events at different locations, the full form t′ = γ(t − vx/c²) must be used, and the x-dependent term is the relativity-of-simultaneity correction. Applying the simplified formula to spatially separated events conflates time dilation (a clock-rate effect) with the full Lorentz transformation and gives a wrong answer. This is one of the most common errors in special relativity calculations."
+
+- question: "The Lorentz transformation predicts that the spacetime interval s² = c²t² − x² takes the same numerical value in all inertial frames."
+  type: true-false
+  answer: true
+  explanation: "The invariant interval is the spacetime analog of Euclidean distance: just as r² = x² + y² is unchanged by spatial rotations, s² = c²t² − x² is unchanged by Lorentz transformations. This is verifiable by direct substitution of the transformation equations. The invariance means that while individual coordinates (t, x) are frame-dependent, their combination s² is an objective, frame-independent property of any pair of events. The minus sign (unlike the plus sign in Euclidean distance) is what gives spacetime its hyperbolic geometry and prevents motion faster than light."
+
+- question: "In the Lorentz transformation, the time coordinate in one frame depends only on the time coordinate in the other frame, not on spatial position."
+  type: true-false
+  answer: false
+  explanation: "This is precisely the common misconception to avoid. The Lorentz time transformation is t′ = γ(t − vx/c²), which explicitly includes the spatial position x. This mixing of space into the time coordinate — absent in the Galilean t′ = t — is the mathematical expression of relativity of simultaneity. Two events at the same time but different locations in S are NOT at the same time in S′. The vx/c² term is not a small correction; it is the central non-Newtonian content of special relativity."
+
+- question: "Why is the fact that t′ depends on x in the Lorentz transformation a genuine physical statement and not merely a mathematical coordinate convention?"
+  type: short-answer
+  answer: "In Newtonian mechanics, t′ = t: all observers agree on when events happen, regardless of where they are. The Lorentz transformation replaces this with t′ = γ(t − vx/c²): the time of an event in frame S′ depends on both its time and its location in frame S. Two events at the same t but different x have different t′ — they are not simultaneous in S′. This is not a convention about how we label events; it is a physical disagreement between inertial observers about which events happened at the same time. Experiments confirm this: moving clocks lose synchronization in ways that depend on their spatial separation, not just their relative velocity. Relativity of simultaneity has measurable consequences in particle physics and GPS timing corrections."
+  explanation: "The contrast with Galilean relativity is the key. The Galilean transformation also changes spatial coordinates between frames, but time is untouched — every observer agrees on the time order and simultaneity of events. The Lorentz transformation breaks this by coupling time to space, producing a fundamentally different causal structure. The invariance of the spacetime interval (rather than time alone or distance alone) is the new invariant that replaces Newtonian absolute time."
+```
+
 ## Explainer
 
 You already know two relativistic effects from direct analysis: moving clocks run slow (time dilation) and moving rulers contract (length contraction). The Lorentz transformation is not a new piece of physics — it is the single transformation that contains both results and generates all other relativistic kinematic effects from one unified formula. Think of it as the master equation of special relativity kinematics.

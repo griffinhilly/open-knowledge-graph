@@ -29,6 +29,45 @@ Relate conditionals to everyday reasoning: 'If it rains, the ground is wet' is f
 - Assuming p → q is true whenever q is true, regardless of p.
 - Confusing 'if' with 'if and only if'.
 
+## Questions
+
+```yaml
+- question: "Let p = 'it is raining' and q = 'the ground is wet.' In which scenario is the conditional p → q FALSE?"
+  type: multiple-choice
+  options:
+    - "It is not raining, and the ground is dry"
+    - "It is not raining, but the ground is wet (sprinklers ran)"
+    - "It is raining, and the ground is wet"
+    - "It is raining, but the ground is dry (covered by a tarp)"
+  answer: 3
+  explanation: "A conditional p → q is false in exactly one case: when the hypothesis p is true and the conclusion q is false. If it is raining (p = T) but the ground is dry (q = F), the promise 'if it rains, the ground gets wet' has been broken — that's the only failure. All other combinations are true: when p is false (not raining), the conditional is vacuously true regardless of q, because the promise was never put to the test."
+
+- question: "The statement 'A number n is even if and only if n is divisible by 2' (n is even ↔ n is divisible by 2) is true. What does this biconditional require that a one-way conditional would not?"
+  type: multiple-choice
+  options:
+    - "It requires that all even numbers are large"
+    - "It requires that both directions hold: even → divisible by 2, AND divisible by 2 → even"
+    - "It requires that the statement is true for all integers, not just positive ones"
+    - "It requires that no counter-example exists in a finite range"
+  answer: 1
+  explanation: "A biconditional p ↔ q is the conjunction of two conditionals: (p → q) AND (q → p). The one-way conditional 'if n is even, then n is divisible by 2' only requires the forward direction. The biconditional additionally asserts 'if n is divisible by 2, then n is even,' making the two properties interchangeable — they are the same condition expressed differently. In mathematical definitions, 'if and only if' signals that you have both a sufficient AND a necessary condition."
+
+- question: "The conditional p → q is false whenever q is false, regardless of the truth value of p."
+  type: true-false
+  answer: false
+  explanation: "This is one of the most common misconceptions about conditionals. p → q is false only when p is TRUE and q is FALSE. When p is false, the conditional is vacuously true, even if q is also false. For example, 'if 2 is odd, then 2 is prime' has p = F and q = T — the conditional is true, vacuously. 'If 2 is odd, then 2 is even' has p = F and q = F — also vacuously true. The only false row is (T, F)."
+
+- question: "The contrapositive of p → q (which is ¬q → ¬p) is logically equivalent to the original conditional."
+  type: true-false
+  answer: true
+  explanation: "Logical equivalence means identical truth tables. You can verify: p → q is false only when (T, F); ¬q → ¬p is false only when ¬q = T and ¬p = F, i.e., q = F and p = T — the same row. This equivalence is the foundation of contrapositive proof: instead of assuming p and proving q, you assume ¬q and prove ¬p, arriving at the same logical conclusion. The converse (q → p) is NOT equivalent to p → q — that's a separate, independent claim."
+
+- question: "Why is a conditional with a false hypothesis considered true (vacuously true)? What is the logical rationale for this convention?"
+  type: short-answer
+  answer: "A conditional p → q is a promise that whenever p is true, q will also be true. If p never occurs (is false), the promise is never tested — it cannot be called a lie. Treating 'untested promise' as true is the natural convention: the speaker has not violated any commitment. Formally, this also enables universal statements like 'for all primes p > 2, p is odd' to be meaningful — we're not checking each prime individually, just confirming the pattern holds whenever the hypothesis applies. Defining false-antecedent conditionals as false would break mathematical induction and universal quantification."
+  explanation: "The key intuition is asymmetry: a conditional can only be FALSIFIED by a case where the hypothesis is true but the conclusion fails. If the hypothesis is never satisfied, there is no opportunity for falsification. This connects to the material conditional's role in classical logic: it is the weakest connective that makes modus ponens valid. Vacuous truth is a consequence of that minimality — we want 'if p then q' to convey only that p's truth guarantees q's truth, nothing more."
+```
+
 ## Explainer
 
 From your work with logical connectives, you know that AND, OR, and NOT have truth tables that match ordinary language fairly closely. The **conditional** p → q (read "if p then q") is the connective that tends to trip people up, because its truth table diverges from everyday intuition in one row. Let's build it from scratch. If p is true and q is true — it rained and the ground is wet — then "if it rains, the ground is wet" looks true. If p is true and q is false — it rained but the ground is dry — then the conditional is clearly *false*; the promised relationship failed. Those two cases are uncontroversial.

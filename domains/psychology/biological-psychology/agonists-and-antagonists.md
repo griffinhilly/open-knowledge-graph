@@ -38,6 +38,45 @@ Match each mechanism type to a real drug with important clinical consequences: a
 - Antagonists are not inactive — blocking a receptor has real effects, especially when endogenous tone is high.
 - 'Blocking' a receptor sounds purely negative, but antagonists are often therapeutic (antipsychotics blocking dopamine D2 receptors in schizophrenia treatment).
 
+## Questions
+
+```yaml
+- question: "A researcher gives naloxone (an opioid receptor antagonist) to two subjects: one who just took a large dose of heroin, and one who has taken no drugs. What is the expected difference in effects?"
+  type: multiple-choice
+  options:
+    - "Both will show similar effects — naloxone actively suppresses opioid receptor activity in all cases"
+    - "Both will show minimal effects — naloxone is inert and only displaces molecules already bound"
+    - "The heroin user will recover from respiratory depression; the drug-free subject will show minimal observable effect"
+    - "The drug-free subject will feel mild analgesia from residual endorphin suppression; the heroin user will show no change"
+  answer: 2
+  explanation: "An antagonist's effect is entirely context-dependent: it blocks the receptor but does nothing to the effector pathway itself. The heroin user has massive exogenous opioid agonist activation, so displacing it with naloxone reverses overdose dramatically. The drug-free subject has only low endogenous opioid tone, so blocking those receptors produces minimal noticeable effect. Option A reflects the misconception that antagonists are 'active' in the sense of having an intrinsic effect on the pathway — they are only active insofar as they prevent agonist access."
+
+- question: "Buprenorphine, a partial agonist at opioid receptors, is preferred over full agonists in some addiction treatment contexts because:"
+  type: multiple-choice
+  options:
+    - "It has lower receptor affinity and therefore clears the body faster"
+    - "Its ceiling effect means that taking more does not produce proportionally greater respiratory depression, reducing overdose risk"
+    - "It fully blocks opioid receptors, preventing any feeling of reward from the drug"
+    - "It converts from agonist to antagonist at high doses, actively reversing opioid effects"
+  answer: 1
+  explanation: "A partial agonist has lower intrinsic efficacy than a full agonist — it activates the receptor to a submaximal level even when all receptors are occupied. This ceiling effect is clinically crucial: additional doses beyond a certain level add no further respiratory depression, while a full agonist continues to increase respiratory depression with dose. Option C is incorrect — buprenorphine is not an antagonist; it produces some opioid effect. Option D confuses buprenorphine with the rare concept of a molecule that switches mechanism with dose."
+
+- question: "An antagonist produces effects opposite to the agonist it blocks — for example, a dopamine antagonist actively suppresses dopamine-driven pleasure."
+  type: true-false
+  answer: false
+  explanation: "This confuses antagonists with inverse agonists. An antagonist blocks receptor activation but produces no direct effect on the pathway; its consequence depends entirely on how much endogenous or exogenous agonist is present. If dopamine was producing elevated mood, a dopamine antagonist will reduce that elevation — but only because it removed agonist-driven signaling, not because it actively suppressed pleasure. An inverse agonist is the correct term for something that actively produces the opposite of the agonist's effect by stabilizing the receptor's inactive conformation."
+
+- question: "A drug that increases synaptic serotonin by blocking its reuptake transporter (like SSRIs) is an indirect agonist because it does not bind serotonin receptors itself."
+  type: true-false
+  answer: true
+  explanation: "Indirect mechanisms achieve pharmacological effects without binding the receptor directly — they act upstream to increase neurotransmitter availability. SSRIs block the serotonin transporter (SERT), preventing reuptake and increasing serotonin concentration in the synapse, which leads to greater receptor activation. Since the drug itself does not bind serotonin receptors, it is indirect. The distinction matters because a direct agonist would compete with endogenous serotonin for receptor binding, whereas an indirect agonist simply increases the transmitter available to activate receptors through normal binding."
+
+- question: "Why does naloxone rapidly reverse an opioid overdose in a patient who has taken heroin, yet produce almost no observable effect in a person who has not taken any opioids?"
+  type: short-answer
+  answer: "Naloxone is an opioid receptor antagonist: it binds opioid receptors without activating them and blocks access for any agonist. Its effect depends entirely on how much agonist is present. In an overdose patient, exogenous opioids are massively activating opioid receptors (causing respiratory depression); naloxone displaces them with higher-affinity binding, rapidly removing this activation. In a drug-free person, only low levels of endogenous endorphins are present, so blocking those receptors changes very little — there is almost no active agonist to block."
+  explanation: "The key concept is that antagonists do not activate or inhibit the effector pathway themselves — they simply occupy the receptor binding site. All observed effects flow from preventing agonist access. High agonist load means dramatic effects when the antagonist displaces it; low agonist load means minimal effects."
+```
+
 ## Explainer
 
 From your prerequisites in receptor signaling and synaptic transmission, you understand that neurons communicate by releasing **neurotransmitters** — chemical messengers that diffuse across the synapse and bind to receptors on the postsynaptic cell. Receptor binding is a molecular lock-and-key interaction: the molecule's shape must fit the receptor's binding site, and binding triggers either a conformational change in an ion channel or a G-protein signaling cascade that produces the downstream effect. Drugs that influence behavior and physiology do so primarily by interfering with this system — and the agonist/antagonist distinction is the most fundamental classification in pharmacology because it describes what a drug does once it binds.

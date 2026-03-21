@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Quantifiers (all, some, none) specify how many class members have a property. Understanding logical relationships between quantified statements is crucial: 'All A are B' differs logically from 'Some A are B.' Mistakes with quantifiers lead to invalid inferences. From 'Some students passed,' we cannot conclude 'All students passed.'
 
+## Questions
+
+```yaml
+- question: "A study finds that some professional athletes use performance-enhancing drugs. A journalist writes the headline: 'Professional athletes use performance-enhancing drugs.' What quantifier error does the headline commit?"
+  type: multiple-choice
+  options:
+    - "Illicit conversion — the subject and predicate have been switched"
+    - "Overgeneralization — omitting 'some' implies a universal claim, making a conclusion with greater scope than the evidence warrants"
+    - "False dilemma — the headline suggests only two options exist"
+    - "No error — omitting a quantifier is standard journalistic practice that preserves the original meaning"
+  answer: 1
+  explanation: "Dropping 'some' produces a de facto universal claim: 'Professional athletes use drugs' implies all or most do. This is overgeneralization — the conclusion has greater quantifier scope than the evidence supports. The evidence warrants only 'Some professional athletes use performance-enhancing drugs.' This is one of the most common quantifier errors in public discourse."
+
+- question: "From the premise 'All senators are politicians,' what can we validly conclude?"
+  type: multiple-choice
+  options:
+    - "Nothing — universal statements don't imply particular ones"
+    - "Some senators are politicians — the universal entails the particular, assuming the class is non-empty"
+    - "Some politicians are senators — the subject and predicate can be freely swapped"
+    - "No non-senators are politicians — the contrapositive follows automatically"
+  answer: 1
+  explanation: "From 'All A are B' we can validly conclude 'Some A are B,' provided A is non-empty — the particular is weaker than the universal, so the universal implies it. What is NOT valid is the reverse: from 'Some A are B' you cannot conclude 'All A are B.' Option C is the error of illicit conversion: 'All senators are politicians' does NOT entail 'All politicians are senators.'"
+
+- question: "In formal logic, 'Some A are B' is compatible with 'All A are B' — the word 'some' means at least one, not 'only some.'"
+  type: true-false
+  answer: true
+  explanation: "Logically, 'some' sets a floor (at least one), not a ceiling. If all A are B, then certainly some A are B. The two statements are compatible. In everyday speech 'some' often pragmatically implies 'not all,' but in formal logic no such implication holds. This matters for evaluating arguments: 'Some students passed' does not conflict with 'All students passed' — it is consistent with it."
+
+- question: "'All A are B' and 'No A are B' are contradictories — exactly one must be true."
+  type: true-false
+  answer: false
+  explanation: "'All A are B' and 'No A are B' are contraries, not contradictories. Contraries cannot both be true but can both be false: if some A are B and some are not, both universal claims are false simultaneously. Contradictories (such as 'All A are B' and 'Some A are not B') cannot both be true AND cannot both be false — exactly one must hold. The distinction between contrary and contradictory is essential for valid inference."
+
+- question: "Why can we not move from 'Some A are B' to 'All A are B' in logical reasoning?"
+  type: short-answer
+  answer: "'Some A are B' tells us only that at least one member of A has property B — it gives no information about the remaining members. Moving to 'All A are B' would claim that every member of A has property B, a scope the particular premise does not support. The conclusion reaches beyond the evidence: we observed a subset and generalized to the whole class, which is the fallacy of overgeneralization."
+  explanation: "Formally: 'Some A are B' is existential (∃x(Ax ∧ Bx)), while 'All A are B' is universal (∀x(Ax → Bx)). An existential statement never entails a universal — no finite number of confirming instances proves a universal claim."
+```
+
 ## Explainer
 
 From your study of arguments, premises, and conclusions, you know that the validity of an inference depends on the *logical form* of its statements — not just the content. **Quantifiers** are the terms that specify logical scope: how much of a class a claim applies to. Getting quantifiers right is not pedantic hair-splitting; it is the foundation of categorical reasoning, where whole argument structures turn on whether a claim says *all*, *some*, or *none*.

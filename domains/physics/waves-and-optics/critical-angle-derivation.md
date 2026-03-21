@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 When light travels from a denser to less dense medium, total internal reflection occurs when the incident angle exceeds the critical angle θc = arcsin(n₂/n₁). At this angle, the refracted ray would be 90°; beyond it, all light reflects. This phenomenon is essential for fiber optics and optical waveguides.
 
+## Questions
+
+```yaml
+- question: "A glass fiber (n = 1.5) is submerged in water (n = 1.33) instead of air (n = 1.0). Compared to air-clad fiber, the critical angle for total internal reflection is:"
+  type: multiple-choice
+  options:
+    - "Smaller — the index contrast is less, so TIR requires a smaller incident angle"
+    - "Larger — the index contrast is less, so the critical angle increases"
+    - "The same — the critical angle depends only on the core index, not the cladding"
+    - "Undefined — TIR cannot occur between glass and water"
+  answer: 1
+  explanation: "The critical angle is θc = arcsin(n₂/n₁). With air cladding: arcsin(1.0/1.5) ≈ 41.8°. With water cladding: arcsin(1.33/1.5) ≈ 62.5°. A larger critical angle means light must hit the interface at a steeper angle to achieve TIR, making it harder to confine. The index *contrast* (n₁ − n₂) determines how tightly light is trapped — lower contrast means a larger critical angle and a narrower acceptance cone for the fiber."
+
+- question: "A diver shines a flashlight upward from underwater toward the surface. As the diver tilts the beam from straight-up toward horizontal, what happens at the critical angle?"
+  type: multiple-choice
+  options:
+    - "The light refracts into the air at 90° to the normal, skimming along the water surface"
+    - "The light reflects back down and also refracts straight up through the surface at 0°"
+    - "The light stops traveling and is absorbed at the interface"
+    - "Nothing special happens; the light continues refracting normally"
+  answer: 0
+  explanation: "At exactly the critical angle, the refracted ray would be at θ₂ = 90° — traveling along the interface rather than into the air. This is the boundary condition from which the formula is derived: setting θ₂ = 90° in Snell's law gives n₁ sin θc = n₂ sin 90° = n₂. Beyond this angle, sin θ₂ would need to exceed 1, which is impossible — so no refracted ray exists and all light reflects back into the water."
+
+- question: "Total internal reflection can occur when light travels from air into glass."
+  type: true-false
+  answer: false
+  explanation: "TIR requires traveling from a denser medium (higher n) to a less dense one (lower n). Going from air (n ≈ 1.0) into glass (n ≈ 1.5), the refracted ray bends *toward* the normal — θ₂ < θ₁. No matter how steep the incident angle, refraction still occurs. The critical angle formula θc = arcsin(n₂/n₁) only yields a valid angle when n₂ < n₁; otherwise arcsin gives a value greater than 1, which has no solution — meaning TIR is impossible in that direction."
+
+- question: "The critical angle is the minimum angle of incidence at which total internal reflection occurs."
+  type: true-false
+  answer: false
+  explanation: "The critical angle is the *minimum* angle at which TIR occurs only in the sense that TIR happens at angles *equal to or greater than* θc. Below the critical angle, light partially refracts and partially reflects. At the critical angle and above, all light reflects internally. So the critical angle is a lower threshold — TIR occurs for all angles ≥ θc, not just at the critical angle itself."
+
+- question: "Why does Snell's law 'have no solution' for the refracted angle when the incident angle exceeds the critical angle? What does this mean physically?"
+  type: short-answer
+  answer: "Snell's law requires sin θ₂ = (n₁/n₂) sin θ₁. When n₁ > n₂ and θ₁ > θc, the product (n₁/n₂) sin θ₁ exceeds 1. Since sin of any real angle cannot exceed 1, there is no real angle θ₂ that satisfies the equation. Physically, this means there is no direction the refracted ray could travel — geometry prohibits any transmitted ray from existing, so all light reflects back into the denser medium."
+  explanation: "This is the key insight: TIR is not a mysterious special phenomenon but simply the consequence of refraction becoming geometrically impossible. The mathematics breaks down because you would need the refracted ray to travel at an angle whose sine exceeds 1. Nature's response is total reflection. Understanding this as 'refraction forbidden → reflection required' is more powerful than memorizing the formula, because it explains why the transition at θc is sharp and complete."
+```
+
 ## Explainer
 
 The critical angle derivation is a direct consequence of Snell's law pushed to its logical limit. Recall Snell's law from your prerequisite work: n₁ sin θ₁ = n₂ sin θ₂. When light moves from a denser medium (higher n₁, like glass) into a less dense one (lower n₂, like air), the refracted ray bends away from the normal — θ₂ > θ₁. As you increase the incident angle θ₁, the refracted angle θ₂ grows faster. The question is: what happens when θ₂ tries to reach 90°?

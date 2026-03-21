@@ -33,6 +33,45 @@ Start by reading empirical economics papers before mastering all the math — se
 - Correlation in regression output does not imply causation; econometrics exists precisely because causation is hard to establish.
 - Econometrics is not just applied statistics — the economic model guiding variable selection is as important as the estimation technique.
 
+## Questions
+
+```yaml
+- question: "A researcher observes that cities with more police officers have higher crime rates, and concludes that policing causes crime. What is the most likely econometric problem?"
+  type: multiple-choice
+  options:
+    - "Omitted variable bias — a third variable causes both police presence and crime independently"
+    - "Reverse causation — high crime rates cause governments to deploy more police"
+    - "Measurement error — crime statistics are underreported in cities with more police"
+    - "Simultaneity bias — both police and crime are driven by city population size"
+  answer: 1
+  explanation: "This is reverse causation: police are deployed in response to crime, so crime drives police presence, not the other way around. A simple regression of crime on police conflates causal direction. Omitted variable bias would require a third variable causing both independently (option A is plausible but secondary here). The key diagnostic question is always: does X cause Y, Y cause X, or both — and the deployment pattern strongly suggests Y → X."
+
+- question: "A student regresses quantity demanded on price using market data collected over time. The positive correlation she observes means the demand curve slopes upward."
+  type: multiple-choice
+  options:
+    - "True — if quantity increases with price in the data, the demand curve must be upward-sloping"
+    - "False — the positive correlation reflects simultaneous demand shifts, not movement along the demand curve; it estimates neither slope"
+    - "False — the student should use a logarithmic regression, which would reveal the true negative slope"
+    - "True — market data averages across supply and demand movements, giving an unbiased estimate of the demand slope"
+  answer: 1
+  explanation: "Market data reflects equilibrium price-quantity pairs shaped by both supply and demand shifts simultaneously. Summer ice cream data shows high prices and high quantities — both driven by demand, not a supply curve. Running a regression on these points estimates neither the demand slope nor the supply slope; it estimates the path of equilibrium points across shifting curves. This is the simultaneity problem: the variables are jointly determined, and simple regression cannot disentangle the causal structure."
+
+- question: "Omitted variable bias occurs whenever a variable that affects the outcome Y is left out of the regression model."
+  type: true-false
+  answer: false
+  explanation: "Omitted variable bias requires the omitted variable to be correlated with BOTH the included regressor X and the outcome Y. If it correlates with Y but not X, it increases the error variance but doesn't bias the coefficient on X. Only when both conditions hold does the omitted variable's effect 'bleed into' the X coefficient. This distinction is critical: not every missing control creates bias — only those correlated with the regressors you're already including."
+
+- question: "Econometrics is best understood as statistics applied to economic data, with the same goals and methods as other applied statistics."
+  type: true-false
+  answer: false
+  explanation: "Econometrics differs from general applied statistics in its preoccupation with causal identification from observational data. Economic variables are jointly determined — prices and quantities respond to the same underlying forces — so correlation analysis cannot establish causal effects. Econometrics develops specific tools (instrumental variables, natural experiments, regression discontinuity) to find variation that is as-good-as-random, enabling causal inference where experiments are typically impossible. The economic model driving variable selection is as important as the estimation technique."
+
+- question: "What does it mean for an econometric strategy to 'identify' a causal effect, and why is identification the central challenge of the discipline?"
+  type: short-answer
+  answer: "Identification means finding a source of variation in the regressor X that is plausibly unrelated to the error term — variation that behaves as-if-randomly assigned, even though it wasn't. This matters because economic variables are jointly determined: prices, wages, and quantities all respond to the same underlying forces, making endogeneity the default rather than the exception. Without a valid identification strategy, regression coefficients measure correlations, not causal effects. Identification strategies include natural experiments, instrumental variables, and regression discontinuity designs."
+  explanation: "The core challenge is that in observational data, people and firms make choices that reflect their unobservable characteristics — ability, ambition, risk tolerance. These unobservables correlate with both the treatment (education, job training) and the outcome (wages), biasing naive estimates. Identification is the art of finding variation that is genuinely exogenous: variation in X that happened 'by accident,' unrelated to anything else affecting Y."
+```
+
 ## Explainer
 
 From your work with scatterplots and correlation, you can compute how strongly two variables move together. Econometrics asks the harder question: does one cause the other? The frustrating answer is that a correlation coefficient tells you nothing about this. Two variables can correlate strongly for three entirely different reasons: X causes Y, Y causes X, or some third variable Z causes both. Econometrics is the discipline that developed tools to tell these apart when you cannot run a controlled experiment — which, in economics, is almost always.

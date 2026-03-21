@@ -26,6 +26,45 @@ Test with concrete examples: 'If even, then divisible by 2' versus its converse,
 - Treating the converse as equivalent to the original (a very common error).
 - Thinking the inverse is equivalent to the original or contrapositive.
 
+## Questions
+
+```yaml
+- question: "The statement 'If a function is differentiable at a point, then it is continuous there' is true. Which of the following is logically equivalent to this statement?"
+  type: multiple-choice
+  options:
+    - "If a function is continuous at a point, then it is differentiable there"
+    - "If a function is not differentiable at a point, then it is not continuous there"
+    - "If a function is not continuous at a point, then it is not differentiable there"
+    - "If a function is not continuous at a point, then it is differentiable there"
+  answer: 2
+  explanation: "The contrapositive of p → q is ¬q → ¬p, and it is the only one of the four forms logically equivalent to the original. Here p = 'differentiable' and q = 'continuous,' so the contrapositive is 'If not continuous, then not differentiable' — option C. Option A is the converse (q → p), which is famously false (|x| is continuous but not differentiable at 0). Option B is the inverse (¬p → ¬q), which is also false. Only the contrapositive preserves the truth value."
+
+- question: "A student argues: 'We know that if it rains, the ground gets wet. Right now the ground is wet — so it must have rained.' What logical error is this?"
+  type: multiple-choice
+  options:
+    - "Denying the antecedent: concluding ¬q from ¬p"
+    - "Affirming the consequent: treating the converse as equivalent to the original"
+    - "Applying the contrapositive: concluding ¬p from ¬q"
+    - "No error — the argument is valid because rain implies wet ground"
+  answer: 1
+  explanation: "This is affirming the consequent: the student has the conditional 'p → q' (rain → wet) and observes q (wet), then concludes p (rain). This treats the converse 'q → p' as equivalent to the original — a classic logical error. The ground could be wet from a sprinkler, a spilled drink, or any other cause. Wet ground does not entail rain; only the absence of wet ground entails the absence of rain (the valid contrapositive direction)."
+
+- question: "The converse and the inverse of a conditional statement are logically equivalent to each other."
+  type: true-false
+  answer: true
+  explanation: "There are only two distinct logical forms among the four: the original (p → q) and its contrapositive (¬q → ¬p) are equivalent; the converse (q → p) and the inverse (¬p → ¬q) are equivalent to each other. The converse and inverse are not equivalent to the original. So when the original is true, the contrapositive is true, but the converse and inverse may be true or false — and whatever truth value the converse has, the inverse shares it."
+
+- question: "If a conditional p → q is true, its converse q → p must also be true."
+  type: true-false
+  answer: false
+  explanation: "This is the most common error in conditional logic. The converse is not logically equivalent to the original. A conditional and its converse can have different truth values. The example from the topic is conclusive: 'If a function is differentiable, it is continuous' is true; the converse 'If a function is continuous, it is differentiable' is false (|x| at 0 is a counterexample). Only the contrapositive is guaranteed to have the same truth value as the original."
+
+- question: "Why is affirming the converse a logical error? Give a concrete mathematical or everyday example."
+  type: short-answer
+  answer: "Affirming the converse mistakes q → p for p → q. The converse is not logically equivalent to the original conditional. A concrete example: 'If n is even, then n is divisible by 2' is true. The converse is 'If n is divisible by 2, then n is even' — which happens to also be true in this case, but that's a coincidence. A case where it fails: 'If it rains, the ground is wet' (true), but the converse 'If the ground is wet, it rained' is false — the ground could be wet for other reasons."
+  explanation: "The error matters in mathematics because many important theorems are one-directional. 'Differentiable implies continuous' is true; 'continuous implies differentiable' is false. Using the converse of a theorem as if it were proven generates false conclusions. The discipline of asking 'is this the original, the converse, the contrapositive, or the inverse?' before applying a conditional prevents this entire class of proof error."
+```
+
 ## Explainer
 
 You already know proof by contrapositive: to prove p → q, you instead prove ¬q → ¬p, because these two statements are logically equivalent. Now it is worth mapping all four forms a conditional can take, so you can recognize which transformations preserve truth and which do not. Start with the conditional **p → q**: "If p, then q." There are exactly three related forms: the **contrapositive** (¬q → ¬p), the **converse** (q → p), and the **inverse** (¬p → ¬q).

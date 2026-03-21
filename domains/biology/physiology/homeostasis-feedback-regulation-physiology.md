@@ -32,6 +32,45 @@ Study specific examples: blood glucose regulation, body temperature control, and
 ## Common Misconceptions
 Thinking homeostasis means internal conditions never change—it actually means they fluctuate around a setpoint. Confusing positive feedback (rare, occurs during parturition and blood clotting) with the more common negative feedback.
 
+## Questions
+
+```yaml
+- question: "During a fever, a person shivers and blood vessels in the skin constrict, raising body temperature above the normal 37°C. Which best describes this in terms of homeostasis?"
+  type: multiple-choice
+  options:
+    - "Positive feedback disrupting homeostasis, because the temperature is rising rather than returning to 37°C"
+    - "A failure of the hypothalamic thermostat, because it is generating heat instead of reducing it"
+    - "Negative feedback operating normally around a raised setpoint, because pyrogens have shifted the target temperature higher"
+    - "Absence of homeostasis, because the body is not maintaining a stable temperature"
+  answer: 2
+  explanation: "Fever is not a failure of homeostasis — it is homeostasis functioning correctly around a new, higher setpoint. Pyrogens (e.g., bacterial products, cytokines) act on the hypothalamus to raise the setpoint from 37°C to, say, 39°C. The body then uses negative feedback mechanisms (shivering, vasoconstriction) to drive temperature *up* toward the new target. Once the new setpoint is reached, these mechanisms stop. The temperature is being regulated — just to a different target. Option A is the misconception: homeostasis is not defined by the specific setpoint value, but by the regulation around a setpoint."
+
+- question: "Which component of a negative feedback loop compares the detected value of a variable to the setpoint and initiates the corrective response?"
+  type: multiple-choice
+  options:
+    - "The sensor (receptor), which detects the current variable value and reports it to the effector"
+    - "The effector, which carries out the corrective action and reports back to the sensor"
+    - "The integrating center, which receives the sensory signal and determines whether and how to respond"
+    - "The setpoint itself, which automatically activates corrective mechanisms when crossed"
+  answer: 2
+  explanation: "The three-component loop is: sensor (detects current value) → integrating center (compares to setpoint, decides on response) → effector (carries out correction). The integrating center — often the hypothalamus, brainstem, or an endocrine gland — is the decision-making node. It receives the sensory signal, compares it to the setpoint, and generates an output signal to the appropriate effectors. Option A is the most common confusion: the sensor detects, but it does not compare or decide — that is the integrating center's role."
+
+- question: "Homeostasis maintains physiological variables at fixed, invariable setpoints — the body's goal is to keep each variable at exactly one constant value."
+  type: true-false
+  answer: false
+  explanation: "Physiological setpoints can be adjusted. The hypothalamic temperature setpoint rises during fever. Blood pressure setpoints shift upward during exercise to support cardiac output. Appetite setpoints change with hormonal state (leptin, ghrelin). Setpoint adjustment is a feature, not a flaw — it allows the body to match its regulatory targets to current demands rather than rigidly defending a single value regardless of context. Homeostasis means regulation *around* a setpoint, which can itself be a moving target."
+
+- question: "In negative feedback, the corrective response triggered by a deviation from setpoint acts in the opposite direction to the deviation, tending to restore the variable toward the setpoint."
+  type: true-false
+  answer: true
+  explanation: "This is the defining feature of negative feedback: the response opposes (negates) the deviation. Blood glucose rises → insulin released → glucose uptake increases → glucose falls back toward setpoint. Blood pressure falls → baroreceptor reflex increases heart rate and vasoconstriction → pressure rises back toward setpoint. 'Negative' refers to this opposing relationship between deviation and response, not to any harmful quality. Positive feedback, by contrast, amplifies the deviation — rare in physiology and reserved for situations requiring runaway completion (parturition, blood clotting)."
+
+- question: "Why is 'homeostasis means internal conditions never change' a misconception? What does homeostasis actually achieve?"
+  type: short-answer
+  answer: "Homeostasis does not eliminate variation — it constrains it. Physiological variables like blood glucose, blood pressure, and body temperature fluctuate constantly as the body responds to meals, exercise, sleep, and stress. What homeostasis achieves is keeping those fluctuations within a tolerable range around a setpoint. The variable deviates, sensors detect the deviation, and effectors drive it back — but 'back' means toward the setpoint, not to a fixed point. Variables oscillate around the setpoint rather than sitting at it. Additionally, the setpoints themselves are adjustable: the body does not defend one static equilibrium but adapts its regulatory targets to match current physiological demands."
+  explanation: "A better metaphor than a thermostat is a thermostat with a dial that the body can turn. During fever, exercise, or sleep, the dial is repositioned. The negative feedback loop still operates — it just operates around a different target. This flexibility is what makes homeostasis a dynamic, adaptive process rather than a rigid steady state."
+```
+
 ## Explainer
 
 You already understand from your study of homeostasis and feedback that living systems maintain internal stability through control loops. Now we examine how this principle scales up from a general concept to the organizing framework of human physiology — how the body coordinates multiple organ systems to keep variables like temperature, blood glucose, pH, and blood pressure within narrow ranges despite constantly changing conditions.

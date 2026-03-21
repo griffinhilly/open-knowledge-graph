@@ -29,6 +29,45 @@ Write while loops that process data until a condition changes. Ensure loop guard
 - While loops always exit (an incorrect guard can cause infinite loops).
 - While and for loops are equivalent (they have different strengths; for is clearer for counted loops, while for condition-based).
 
+## Questions
+
+```yaml
+- question: "What does the following code print?\n\n    count = 5\n    while count < 3:\n        print(count)\n        count += 1"
+  type: multiple-choice
+  options:
+    - "It prints 5, 6, 7 and then stops when count reaches some limit"
+    - "It prints nothing — the condition is false before the loop begins"
+    - "It runs forever because count keeps increasing away from 3"
+    - "It prints 5 exactly once and then exits"
+  answer: 1
+  explanation: "A while loop is a pre-test loop: the condition is evaluated before the body executes. Here, count = 5 and the condition is count < 3, which is immediately false (5 is not less than 3). Because the condition fails on the very first check, the body never runs at all — the loop executes zero times. This distinguishes while loops from do-while loops, which always run at least once."
+
+- question: "A programmer wants to find the first multiple of 7 greater than 50. They write:\n\n    n = 0\n    while n <= 50:\n        n += 7\n\nWhat is the value of n after the loop exits?"
+  type: multiple-choice
+  options:
+    - "49 — the last multiple of 7 that is not greater than 50"
+    - "50 — the loop stops when n reaches 50"
+    - "56 — the loop exits when n first exceeds 50"
+    - "7 — the loop runs only once"
+  answer: 2
+  explanation: "Tracing the loop: n goes 0, 7, 14, 21, 28, 35, 42, 49, then adds 7 to get 56. At n = 49, the condition 49 <= 50 is true, so the loop body runs once more, making n = 56. Now 56 <= 50 is false, so the loop exits. The key is that the condition is checked after each update — the loop doesn't stop the moment n exceeds 50, but after the body has already run."
+
+- question: "A while loop is guaranteed to execute its body at least once."
+  type: true-false
+  answer: false
+  explanation: "This is the defining characteristic of a pre-test loop: the condition is evaluated before the body runs. If the condition is false initially, the body is skipped entirely and the loop executes zero times. This is an intentional design feature — it lets while loops safely guard against executing when they should not. Do-while loops (in languages like C or Java) guarantee at least one execution, but standard while loops do not."
+
+- question: "An infinite loop can occur if the variable that the while loop's condition depends on is never updated inside the loop body."
+  type: true-false
+  answer: true
+  explanation: "For a while loop to terminate, something must change each iteration that moves the condition toward becoming false. If the condition checks x < 10 but the body never changes x, the condition will always be true and the loop runs forever. Even subtler bugs arise when the update moves in the wrong direction (e.g., the condition checks x < 10 but the body decrements x, moving it further away from 10). Building the habit of asking 'what changes each iteration?' prevents this entire class of bugs."
+
+- question: "What question should you ask yourself about any while loop to verify it will eventually terminate, and why is that the right question?"
+  type: short-answer
+  answer: "Ask: 'What changes each iteration, and does that change bring the condition closer to being false?' This is the right question because a while loop terminates only when its condition becomes false. If nothing in the loop body affects the variables the condition depends on — or if the change moves them in the wrong direction — the condition never becomes false and the loop runs forever. Identifying the 'progress variable' and confirming it moves toward termination is the core safety check for any while loop."
+  explanation: "This is an informal version of the loop invariant principle. Beyond just avoiding infinite loops, this question helps you reason about correctness: the loop will exit with the right result only if each iteration makes meaningful progress toward the goal and the condition accurately captures 'we're done.' When debugging a while loop that runs longer than expected, the first thing to check is whether the update is actually happening and in the right direction."
+```
+
 ## Explainer
 
 From your understanding of program structure and flow, you know that code normally executes sequentially — one statement after another, top to bottom. A **while loop** introduces controlled repetition by combining a condition test with a jump backward. The structure is simple: evaluate a boolean condition, execute the body if the condition is true, then return to the condition and evaluate again. This cycle continues until the condition evaluates to false, at which point the program resumes with the statement after the loop.

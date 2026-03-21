@@ -29,6 +29,45 @@ Use heat capacity data to integrate S(T) from 0 K to any temperature. Compare ca
 - Confusing the third law with energy conservation (first law).
 - Assuming non-perfect crystals have exactly zero entropy at 0 K (residual entropy can exist).
 
+## Questions
+
+```yaml
+- question: "Carbon monoxide (CO) has measurable residual entropy even in a highly purified crystalline sample cooled to near absolute zero. What is the reason?"
+  type: multiple-choice
+  options:
+    - "The sample has not quite reached true absolute zero, so some thermal entropy remains"
+    - "Impurities in the crystal prevent perfect ordering, raising W above 1"
+    - "CO and OC orientations in the crystal lattice are energetically nearly equivalent, leaving multiple frozen-in arrangements at 0 K"
+    - "The third law does not apply to molecular compounds, only to monatomic solids"
+  answer: 2
+  explanation: "CO and OC have nearly identical lattice energies, so both orientations coexist throughout the crystal even at 0 K — the disordered arrangement becomes kinetically trapped. This means W > 1, so S = k ln(W) > 0. This is genuine residual entropy, not a measurement artifact. The third law sets S = 0 only for perfect crystals (W = 1); imperfect crystals retain residual entropy. Option B is wrong because the residual entropy is intrinsic to CO's molecular symmetry, not extrinsic impurities."
+
+- question: "Before the third law was established, thermochemists working with only the first and second laws could calculate:"
+  type: multiple-choice
+  options:
+    - "Absolute entropy values at any temperature, as long as heat capacity data were available"
+    - "Only entropy differences between two states, not the absolute entropy of either"
+    - "Neither entropy values nor entropy differences"
+    - "Absolute entropy only at room temperature, not at other temperatures"
+  answer: 1
+  explanation: "The second law gives ΔS = Q_rev/T — a change. Without a reference zero, you can know that going from state A to state B increases entropy by 20 J/mol·K, but you cannot say what the entropy is at either state in absolute terms. The third law provides the reference: S = 0 for a perfect crystal at 0 K. This allows integration of Cₚ/T data from 0 K upward to yield true absolute molar entropies — the S° values tabulated in thermochemistry references."
+
+- question: "The entropy of any solid is exactly zero at absolute zero, regardless of its crystal structure or molecular composition."
+  type: true-false
+  answer: false
+  explanation: "The third law applies only to perfect crystals. Solids with frozen-in orientational or positional disorder — like CO, ice (which has hydrogen-bond disorder), or NO — retain residual entropy at 0 K because their disordered arrangements are energetically equivalent and kinetically trapped. For these materials, W > 1 at 0 K, so S = k ln(W) > 0. The qualifier 'perfect crystal' is not a footnote — it is the entire condition."
+
+- question: "Absolute entropy is calculated by integrating Cₚ/T rather than Cₚ itself because the same quantity of heat generates more entropy at low temperatures than at high temperatures."
+  type: true-false
+  answer: true
+  explanation: "Entropy measures how energy is distributed among accessible microstates. At low temperatures, few microstates are available, so adding heat opens up a large fraction of new states relative to those already occupied — a large entropy increase per joule. At high temperatures, the same joule of heat is spread across many already-accessible states, making a smaller relative contribution. Dividing by T captures this: dS = dQ_rev/T, so the integrand Cₚ/T correctly weights the contribution of each increment of heating by the temperature at which it occurs."
+
+- question: "Why does the third law require a 'perfect crystal' as its reference state, and what distinguishes a material with residual entropy from one with zero entropy at 0 K?"
+  type: short-answer
+  answer: "A perfect crystal has exactly one possible microstate at 0 K — every atom is in its unique designated position with no ambiguity — so W = 1 and S = k ln(1) = 0. A material with residual entropy has multiple energetically equivalent arrangements that become frozen in as the temperature drops, so W > 1 and S > 0 even at absolute zero. The distinction is whether the system can relax into a unique ground state (perfect crystal) or whether disorder is trapped (residual entropy)."
+  explanation: "This question tests whether students understand S = k ln(W) well enough to apply it beyond the textbook example. Students who memorize 'S = 0 at 0 K' without grasping the microstate argument will fail to understand why CO, ice, and similar molecules are exceptions — and why the third law says anything meaningful at all."
+```
+
 ## Explainer
 
 From your study of entropy, you learned that entropy is a measure of disorder — or more precisely, from statistical mechanics, a measure of the number of ways a system can be arranged at the microscopic level. The statistical definition, S = k ln(W), where W is the number of accessible microstates, is the key to understanding why the third law works. Ask yourself: what does a perfect crystal at absolute zero look like microscopically? Every atom is locked into exactly one position, with exactly one allowed configuration. That means W = 1, so S = k ln(1) = k × 0 = 0. The third law is not an empirical observation tacked on — it follows directly from statistical mechanics when you take the system to its most ordered possible state.

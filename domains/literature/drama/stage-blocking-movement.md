@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Blocking—the precise movement and positioning of actors on stage—is not merely technical staging but a form of visual language that communicates power dynamics, emotional states, relationships, and meaning. Every movement must serve the drama. Distance between characters, the direction they face, and their vertical positioning all convey information that dialogue cannot.
 
+## Questions
+
+```yaml
+- question: "During a reconciliation scene, a character says 'I forgive you completely' while slowly walking toward the opposite exit. What does the blocking communicate that the spoken words do not?"
+  type: multiple-choice
+  options:
+    - "That the character is leaving for an unrelated reason and the blocking is merely logistical"
+    - "That the director made an error in staging this scene and the blocking should be corrected"
+    - "That the verbal forgiveness is complete and the blocking reinforces emotional closure"
+    - "That despite the verbal forgiveness, the physical retreat reveals doubt, unresolved feelings, or insincerity — the spatial text contradicts the verbal text"
+  answer: 3
+  explanation: "This is the core insight about blocking as a second text. The body communicates independently of words — approach signals openness; retreat signals emotional distance or unresolved tension. When the spatial and verbal texts diverge (saying one thing while doing another), the divergence itself becomes the most significant information in the scene. Audiences read bodies as reliably as words, often more so."
+
+- question: "A director argues: 'Blocking is just about making sure actors don't bump into each other and everyone faces the audience. It's a technical necessity, not an artistic choice.' What does this view fundamentally miss?"
+  type: multiple-choice
+  options:
+    - "Nothing — blocking is primarily technical; artistic choices are made through lighting and dialogue only"
+    - "Blocking encodes power dynamics, relationships, and emotional states through proximity, level, and facing direction — it is a form of visual language that carries meaning equal to dialogue"
+    - "Blocking is artistic only in naturalistic theatre; in non-realistic styles it is indeed purely functional"
+    - "Blocking only matters when the playwright has written detailed stage directions into the script"
+  answer: 1
+  explanation: "Blocking is not logistical packaging around the 'real' content of dialogue — it is itself content. Distance between characters communicates intimacy or threat; who stands while others sit conveys dominance; which direction characters face signals attention, avoidance, or conflict. These are not arbitrary conventions; they exploit the perceptual instincts audiences bring to any scene involving bodies in space. Directors make blocking choices precisely because they know the audience reads spatial relationships as language."
+
+- question: "An actor who moves upstage can gain visual dominance over other characters by forcing them to turn away from the audience, which makes those other characters appear backgrounded in the scene."
+  type: true-false
+  answer: true
+  explanation: "This is one of the core conventions of stage blocking. When an actor moves upstage (toward the back), other characters naturally turn to face them — which means those characters turn their backs partially or fully to the audience, reducing their visual presence. This is where the term 'upstaging' comes from: a character who moves upstage can steal focal emphasis even without speaking. Directors use this strategically to manage power dynamics and visual hierarchy."
+
+- question: "Because blocking is a directorial tool, the stage directions written into a published play text represent the definitive, only legitimate interpretation of how actors should move in performance."
+  type: true-false
+  answer: false
+  explanation: "Stage directions in published plays often preserve one particular production's choices — sometimes the playwright's original intentions, sometimes a famous revival's staging. But directors and actors constantly reinterpret blocking, treating the published directions as one valid authorial choice among many rather than as fixed instructions. Part of reading a performance text analytically is asking: what would *different* blocking do to this moment? The written text is a script, not a straitjacket."
+
+- question: "Why is blocking described as a 'second text' in a theatrical performance, and what happens when it diverges from the spoken dialogue?"
+  type: short-answer
+  answer: "Blocking is a 'second text' because it communicates meaning independently of words — through the spatial relationships of bodies, the direction characters face, their proximity, and their movement. When the spatial text diverges from the verbal text (a character says 'I trust you' while physically retreating), the divergence creates the most powerful theatrical information: revealing what cannot be said, contradicting what is being said, or exposing the gap between stated and felt reality."
+  explanation: "Theatre operates on two simultaneous channels of meaning: the linguistic and the spatial/physical. An audience trained to read both simultaneously experiences a richer, more complex scene than one who only hears the words. The director and actors 'write' the spatial text in real time — making it equally authored, equally intentional, and equally worthy of critical analysis as the playwright's verbal text."
+```
+
 ## Explainer
 
 Think of the stage as a map of relationships. From your study of stagecraft and mise-en-scène, you already know that spatial composition shapes how an audience reads a scene. **Blocking** makes that composition dynamic — it is mise-en-scène in motion. Every time a director says "cross to the window here," that move has been chosen because it says something specific that the words alone do not say.

@@ -31,6 +31,45 @@ Study specific sacred sites (Mecca, Jerusalem, Varanasi, Santiago de Compostela,
 - Treating sacred places as timeless; sacred geographies are constantly contested and remade.
 - Ignoring how pilgrimage creates both community and commercialization.
 
+## Questions
+
+```yaml
+- question: "A student argues that Jerusalem's religious significance is fixed and timeless, permanently established by the historical events that took place there. What does sacred landscape geography suggest is incomplete about this view?"
+  type: multiple-choice
+  options:
+    - "Sacred significance must be continuously activated through ritual practice and is subject to ongoing contestation — it is produced and remade rather than simply preserved"
+    - "The student is correct; founding events permanently establish sacred significance that persists independently of subsequent practice"
+    - "Sacred significance is purely subjective — Jerusalem is not 'really' sacred to anyone, only perceived as such"
+    - "Physical geography primarily determines sacred status, making the historical narrative secondary"
+  answer: 0
+  explanation: "Sacred geographies are not timeless essences preserved unchanged from founding events. They require ongoing human practice — ritual, prayer, pilgrimage, investment — to sustain their significance, and they are subject to constant contestation by different communities who claim them. What counts as sacred, who has legitimate access, and what the site means are actively negotiated over time. The founding events are important, but significance is continuously remade through practice — not simply inherited."
+
+- question: "Hajj brings two to three million Muslims to Mecca annually — a city located in a harsh desert environment that would otherwise be geographically peripheral. What does this illustrate about the spatial logic of pilgrimage?"
+  type: multiple-choice
+  options:
+    - "Pilgrimage inverts ordinary spatial logic — places become geographically central through religious significance rather than material or economic endowments"
+    - "Mecca was already a significant trade hub, and pilgrimage simply reinforced existing geographic centrality"
+    - "Religious geography always aligns with political geography — the most sacred places are also the most powerful politically"
+    - "The concentration of pilgrims at Mecca reflects efficient religious market competition selecting for the best spiritual offerings"
+  answer: 0
+  explanation: "In ordinary geographic analysis, movement follows economic opportunity and social infrastructure. Pilgrimage inverts this: Mecca's centrality in global Islamic geography is produced entirely by religious significance, not by material endowment. The physical environment is harsh and the city would be peripheral by any non-religious measure. Pilgrimage networks create their own spatial logic where 'center' means spiritual significance — producing massive flows of people and wealth toward places that are otherwise marginal."
+
+- question: "Sacred sites typically generate both communal equality among pilgrims (communitas) and intense commercial activity — these two dynamics coexist at pilgrimage centers rather than canceling each other out."
+  type: true-false
+  answer: true
+  explanation: "True. Victor Turner's concept of communitas describes the temporary community of equals that pilgrimage can produce — pilgrims stripped of everyday status markers, wearing identical dress (as in Hajj), sharing hardships, united by shared purpose. But the same sacred site simultaneously generates an enormous hospitality economy: hostels, guides, relic traders, souvenir industries, food vendors. The tension between the spiritual ideal of communitas and the commercial reality of pilgrimage economies is a central feature of sacred geographies, not an anomaly."
+
+- question: "Sacred landscapes derive their religious significance primarily from inherent features of their physical geography — mountains, rivers, and special terrain that possess spiritual power independent of human practice and belief."
+  type: true-false
+  answer: false
+  explanation: "False. Physical features like mountains, rivers, and caves are often religiously significant, but their sacredness is not inherent — it is produced through human practice and interpretation. The same mountain can be spiritually neutral in one cultural context and profoundly sacred in another. What makes a landscape sacred is the conjunction of physical place with founding events, divine presence, and sustained human practice — pilgrimage, prayer, ritual, and investment. Sacred significance is socially produced and continuously maintained, not inherent in terrain."
+
+- question: "Why does control over access to a sacred site often become a source of political power, rather than remaining purely a religious matter?"
+  type: short-answer
+  answer: "Sacred sites concentrate the spiritual economy of an entire religious community in one location — controlling access means controlling who can fulfill religious obligations, claim religious legitimacy, and extract economic value from the hospitality industries that pilgrimage generates. Control of the Kaaba gives its custodians authority over a central symbol of global Islam and over Mecca's vast pilgrimage economy. Control of Jerusalem has been a casus belli across three millennia. Political and religious authority reinforce each other when physical control of a sacred site confers both."
+  explanation: "This connection between sacred geography and political power explains why sacred sites are so frequently contested — not just between religious traditions but between states, factions, and local interests. The religious significance is real, but it generates tangible political and economic stakes that make control of these sites strategically valuable independent of personal belief."
+```
+
 ## Explainer
 
 From cultural landscape, you know that landscapes are not simply physical terrain — they are produced through human practice, invested with meaning, and shaped by the values and social relations of the communities that inhabit them. **Sacred landscapes** are the most intensively meaning-laden version of this: certain places become the focal points of collective religious attention, attracting devotion, pilgrimage, and material investment across centuries and millennia.

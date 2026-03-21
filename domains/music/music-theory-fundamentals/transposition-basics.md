@@ -31,6 +31,45 @@ Transpose simple melodies and progressions by hand, moving each pitch by the req
 ## Common Misconceptions
 Transposition changes music's character (it doesn't if done correctly). Forgetting to transpose key signatures along with notes. Miscalculating the transposition interval.
 
+## Questions
+
+```yaml
+- question: "A melody in C major is transposed up a perfect fifth. What key is it now in, and what has changed?"
+  type: multiple-choice
+  options:
+    - "G major; every note moved up a perfect fifth, and the key signature now has one sharp"
+    - "G major; only the melody's starting note moved — the remaining notes stayed in C major"
+    - "F major; a perfect fifth down from C is F, so the melody moved down by the complementary interval"
+    - "D major; transposing up a perfect fifth from C passes through G and lands on D"
+  answer: 0
+  explanation: "Transposing up a perfect fifth moves every note up a perfect fifth: C→G, D→A, E→B, F→C, G→D, A→E, B→F#. The resulting collection of pitches is exactly G major. The key signature changes to one sharp accordingly. Option B describes the common error of only moving one note. Option C confuses 'up a fifth' with 'a fifth down from C.' Option D misunderstands what 'up a perfect fifth' means — from C, a perfect fifth up is G."
+
+- question: "A composer writes a melody for B-flat trumpet. When the player reads a written C, the trumpet sounds a B-flat. If the composer wants the trumpet to sound the pitch G, what written note should appear in the trumpet part?"
+  type: multiple-choice
+  options:
+    - "G — the composer writes the sounding pitch directly"
+    - "F — transposing down a major second from G"
+    - "A — transposing up a major second from G"
+    - "B-flat — always write the tonic of the instrument's key"
+  answer: 2
+  explanation: "B-flat trumpet sounds a major second lower than written. To produce the sounding pitch G, the composer must write a note a major second higher: A. This is the transposing instrument logic — you compensate for the instrument's built-in transposition by writing in the opposite direction. Option A ignores the transposition entirely. Option B transposes in the wrong direction. Option D confuses 'B-flat instrument' with 'always write B-flat.'"
+
+- question: "Transposition preserves all interval relationships in a piece — every melodic step, skip, and leap remains exactly the same after transposition."
+  type: true-false
+  answer: true
+  explanation: "This is the defining property of transposition: every note moves by the same interval, so every relationship between notes remains identical. A major third that was C–E becomes G–B (still a major third) when transposed up a fifth. The melody sounds the same shape; only its location in pitch space has changed. This preservation of interval relationships is precisely why transposition works for accommodating different vocal ranges — the song sounds identical, just higher or lower."
+
+- question: "Transposing a piece to a different key changes its emotional character and expressive quality, even when performed at the same tempo."
+  type: true-false
+  answer: false
+  explanation: "Transposition, done correctly, does not change a piece's character. Because all intervals are preserved, the relationships between notes — and therefore the emotional and expressive qualities that arise from those relationships — remain identical. The piece sounds the same but higher or lower. This is one of the listed misconceptions for this topic. Some historical theorists attributed emotional qualities to specific keys ('D major sounds triumphant'), but this is not a systematic property of transposition and does not reflect how tonal relationships work."
+
+- question: "Why must every note in a piece — melody, harmony, bass line, and accompaniment — be transposed by the same interval? What goes wrong if even one voice is transposed differently?"
+  type: short-answer
+  answer: "Transposition works because it preserves all interval relationships by moving everything uniformly. If even one voice moves by a different interval, the relationships between that voice and all others change — creating new intervals, potentially dissonant or harmonically wrong ones, that weren't in the original. The harmonic structure (which chords appear and how they relate) depends entirely on the intervals between voices; any inconsistency destroys those relationships."
+  explanation: "The most common error is transposing the melody correctly but failing to update the key signature, or correctly transposing most notes but mishandling accidentals. Both errors introduce notes that belong to the original key but not the new one, corrupting the harmonic context. Consistent transposition is an all-or-nothing operation: the whole system shifts together, or the piece breaks."
+```
+
 ## Explainer
 
 From your study of major scales, you know that every major scale has the same internal interval pattern — whole, whole, half, whole, whole, whole, half — regardless of its starting pitch. C major and G major sound "the same" in terms of their internal relationships; they just start in different places. **Transposition** exploits this fact: moving a piece to a new key is possible because the relationships between pitches stay the same even as the absolute pitches change. What transposition preserves is the pattern; what it changes is the register.

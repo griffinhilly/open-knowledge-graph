@@ -33,6 +33,45 @@ Read the Pentagon Papers alongside Vietnamese perspectives (available in transla
 - The Vietnamese communists were not simply Soviet or Chinese proxies; they had their own nationalist agenda and sometimes conflicted with both patrons.
 - The antiwar movement did not 'stab soldiers in the back'; opposition grew from a complex mix of moral objection, casualty shock, and evidence of government deception.
 
+## Questions
+
+```yaml
+- question: "General Westmoreland's attrition strategy assumed that killing enough enemy fighters would break North Vietnam's will to fight. Why did this strategy fail?"
+  type: multiple-choice
+  options:
+    - "The US military lacked sufficient firepower and technology to inflict the necessary casualties"
+    - "North Vietnamese conventional forces outmaneuvered US troops on the battlefield"
+    - "North Vietnam could absorb far greater casualties than the US political system could sustain, because they viewed the conflict as an existential nationalist struggle"
+    - "Congress cut off military funding before attrition could take effect"
+  answer: 2
+  explanation: "The US possessed overwhelming conventional military superiority and inflicted catastrophic casualties on North Vietnamese forces. The asymmetry was not military but political: North Vietnam absorbed over 1 million military deaths and continued fighting, while US public support collapsed at 58,000 American dead. North Vietnam was defending its homeland against what it understood as foreign occupation — a fight with no acceptable alternative outcome. The US was engaged in a limited war of choice, making political will the decisive variable. Attrition strategy assumes both sides have similar pain thresholds; here they did not."
+
+- question: "What was the primary source of strength for Ho Chi Minh's independence movement, according to the historical analysis in this topic?"
+  type: multiple-choice
+  options:
+    - "Military and financial support from the Soviet Union and China, which supplied the material basis for resistance"
+    - "Vietnamese anti-colonial nationalism — decades of resistance to French rule — which gave the movement popular legitimacy that transcended Cold War alignment"
+    - "The military superiority of guerrilla tactics in jungle terrain over conventional US forces"
+    - "The weakness of the South Vietnamese government, which failed to develop any military capability"
+  answer: 1
+  explanation: "Ho Chi Minh was both a communist and a nationalist, and for the Vietnamese population that had endured 80 years of French colonial rule, the nationalist dimension was primary. Ho had invoked the American Declaration of Independence in Vietnam's own 1945 declaration. Soviet and Chinese support was real but secondary — Ho's movement had won against the French before US escalation and did not depend on Cold War patrons for its legitimacy. US policymakers' failure to recognize this nationalist dimension, and their insistence on seeing Vietnam primarily as a Soviet Cold War proxy, was their central miscalculation."
+
+- question: "The United States was defeated militarily in Vietnam — North Vietnamese and Viet Cong forces outfought American troops on the battlefield."
+  type: true-false
+  answer: false
+  explanation: "The US was not defeated in conventional military terms. American forces won virtually every major engagement and inflicted enormously disproportionate casualties. The failure was political: the US could not defeat the underlying nationalist movement that sustained North Vietnamese and NLF fighting capacity, and it was defending a South Vietnamese government that never developed the popular legitimacy needed to motivate its own population. The war was lost because the political conditions for success — a South Vietnamese state with genuine popular support — never existed, not because US soldiers lost battles."
+
+- question: "American policymakers' failure to recognize the anti-colonial nationalist dimension of the Vietnamese independence movement was a central cause of US strategic failure."
+  type: true-false
+  answer: true
+  explanation: "Viewing Vietnam almost exclusively through the Cold War lens — treating Ho Chi Minh as a Soviet-directed communist rather than primarily a nationalist — led to systematic strategic errors. It produced support for the French reimposition of colonial rule after WWII (when Ho had initially appealed to the US for support), then support for an artificial South Vietnamese state that lacked popular legitimacy. Had policymakers taken the decolonization frame seriously, they might have recognized that the US was positioning itself as the successor colonial power in Vietnamese eyes — and that this framing would make winning the political war essentially impossible."
+
+- question: "Why did the US strategy of attrition fail against North Vietnam, and how does the concept of political will explain an outcome that pure military analysis cannot?"
+  type: short-answer
+  answer: "Attrition strategy assumes that inflicting enough casualties will exhaust the enemy's willingness or ability to fight. It works when both sides have comparable political tolerance for losses. In Vietnam, this symmetry did not exist. For North Vietnam, the war was an existential struggle for national independence against what was understood as foreign occupation — a cause worth unlimited sacrifice. For the United States, it was a limited war to contain communism in a distant country, with no vital national interest directly at stake. As American casualties mounted and public support eroded, the political cost of continuing exceeded any strategic benefit. Military power could destroy forces but could not change this asymmetry in political will. The US won battles and lost the war because the decisive contest was never about military outcomes — it was about who had the greater stake and could sustain commitment longer."
+  explanation: "This lesson — that military superiority cannot substitute for political legitimacy and matching political will — was one of the most important strategic lessons of the 20th century. It had to be relearned in subsequent decades. The 'Vietnam Syndrome' reflected a hard-won understanding that wars are ultimately decided by political factors, not military ones alone."
+```
+
 ## Explainer
 
 The Vietnam War becomes comprehensible when you hold two frames simultaneously — the Cold War frame and the decolonization frame — and recognize that American policymakers committed the fatal error of seeing only the first. From your study of Cold War origins, you know that US strategy after 1947 was organized around **containment**: stopping the spread of Soviet-aligned communism by defending the periphery. The **domino theory** formalized this into a spatial anxiety — if Vietnam fell, Thailand, Malaysia, and Indonesia would follow, one by one. Every decision about Vietnam from Eisenhower through Nixon was filtered through this lens.

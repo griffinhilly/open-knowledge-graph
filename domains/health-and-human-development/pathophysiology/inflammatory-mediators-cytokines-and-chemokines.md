@@ -31,6 +31,45 @@ Map the cytokine networks in acute inflammation—how macrophages secrete TNF-α
 ## Common Misconceptions
 Cytokines are not produced only by immune cells—fibroblasts, endothelial cells, and stromal cells also produce them. Some cytokines are pro-inflammatory in some contexts and anti-inflammatory in others (IL-6 in acute vs. chronic inflammation).
 
+## Questions
+
+```yaml
+- question: "A tissue-resident macrophage detects bacterial lipopolysaccharide and activates. What are the first cytokines released, and what is their primary local effect?"
+  type: multiple-choice
+  options:
+    - "IL-10 and TGF-β, which immediately suppress the response to prevent collateral tissue damage"
+    - "TNF-α and IL-1β, which act on nearby endothelial cells to upregulate adhesion molecules enabling neutrophil recruitment"
+    - "CXCL8 and CCL2, which directly lyse bacteria by generating toxic concentration gradients"
+    - "IL-6 and IL-4, which stimulate B cell activation and immediate antibody production"
+  answer: 1
+  explanation: "Upon detecting danger signals, macrophages immediately release TNF-α and IL-1β. These cytokines act on nearby vascular endothelial cells, upregulating adhesion molecules (selectins, ICAM-1) that slow circulating neutrophils and allow them to adhere — the first step in recruitment to the infection site. IL-10 (option A) is an anti-inflammatory cytokine that comes later during resolution. Chemokines CXCL8 and CCL2 (option C) provide directional guidance but work downstream of the initial cytokine alarm."
+
+- question: "Neutrophils must migrate from the bloodstream through vessel walls to the site of infection. What specific role do chemokines like CXCL8 play that distinguishes them from cytokines like TNF-α?"
+  type: multiple-choice
+  options:
+    - "Chemokines activate neutrophils to produce reactive oxygen species at the infection site"
+    - "Chemokines upregulate adhesion molecules on endothelial cells that slow circulating neutrophils"
+    - "Chemokines create a concentration gradient from the infection site that neutrophils follow via chemotaxis to reach the correct location"
+    - "Chemokines stimulate bone marrow to produce and release additional neutrophils into circulation"
+  answer: 2
+  explanation: "Chemokines like CXCL8 (IL-8) are secreted at the infection site and diffuse through tissue and vessel walls, establishing a concentration gradient. Neutrophils bearing CXCR2 receptors detect this gradient and migrate toward increasing concentration — chemotaxis. This positional 'follow the trail' function is what distinguishes chemokines from cytokines. TNF-α and IL-1β are the 'raise the alarm' signals that activate endothelial cells and prepare neutrophils for transmigration; chemokines provide the directional coordinates."
+
+- question: "Inflammation resolves passively once pathogens are cleared, because pro-inflammatory cytokines simply stop being produced when macrophages no longer detect danger signals."
+  type: true-false
+  answer: false
+  explanation: "Resolution is an active process requiring specific anti-inflammatory mediators, not merely the absence of pro-inflammatory stimuli. IL-10, produced by regulatory T cells and alternatively activated macrophages, actively suppresses macrophage activation and inhibits TNF-α and IL-1β production. Specialized pro-resolving lipid mediators (lipoxins, resolvins, protectins) actively terminate inflammation and promote tissue repair. When this active resolution program fails — as in rheumatoid arthritis or inflammatory bowel disease — the same cytokines that are protective acutely become chronically elevated and drive tissue destruction."
+
+- question: "IL-6 can act as both a pro-inflammatory and anti-inflammatory mediator depending on whether the inflammation is acute and time-limited or chronic and sustained."
+  type: true-false
+  answer: true
+  explanation: "In acute inflammation, IL-6's stimulation of acute-phase protein synthesis (CRP, fibrinogen) and fever is adaptive and resolves when the stimulus is cleared. In chronic low-grade inflammation (obesity, rheumatoid arthritis, aging), sustained IL-6 elevation drives pathology: insulin resistance, synovial cartilage degradation, elevated cardiovascular risk. The molecule and mechanism are the same; what changes is the temporal context. This context-dependence is why targeting IL-6 signaling with tocilizumab (anti-IL-6 receptor antibody) is effective in rheumatoid arthritis — the chronic pathological signal is interrupted without necessarily impairing the acute protective response."
+
+- question: "What is the functional distinction between cytokines and chemokines in the inflammatory response, and why are both necessary for effective immune cell recruitment?"
+  type: short-answer
+  answer: "Cytokines (TNF-α, IL-1β, IL-6) are alarm and amplification signals that activate target cells broadly, regulate vascular permeability, trigger systemic responses (fever, acute-phase proteins), and prepare immune cells for action. They answer 'should an inflammatory response be mounted here?' Chemokines (CXCL8, CCL2) are positional signals that create concentration gradients immune cells follow via chemotaxis to reach the precise site of damage or infection. They answer 'where exactly should immune cells go?' Both are necessary: raising an alarm without directing responders to a location would fail to concentrate immune activity; a directional gradient without prior cell activation and vascular preparation would also be insufficient to mount an effective response."
+  explanation: "The analogy is emergency sirens (cytokines: mobilize) vs. GPS coordinates (chemokines: navigate). Understanding both functions as distinct, sequential, and complementary is key to understanding how the spatially precise recruitment of immune cells is orchestrated — and why disrupting either class of mediators has immunosuppressive consequences."
+```
+
 ## Explainer
 
 From your prerequisite on cytokines and chemokines, you have a foundation: these are small signaling proteins that allow immune cells to communicate. Now we can focus on how they orchestrate the inflammatory response in a structured, sequential way — and what goes wrong when that orchestration breaks down. The inflammatory response is not a single alarm bell; it is a coordinated program with a beginning, a middle, and a resolution phase, each governed by specific mediators.

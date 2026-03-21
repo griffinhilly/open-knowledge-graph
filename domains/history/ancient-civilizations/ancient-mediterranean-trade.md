@@ -37,6 +37,45 @@ The Uluburun shipwreck (c. 1300 BCE), excavated off Turkey's coast, provides an 
 - Ancient trade was not barter-based; sophisticated credit instruments, contracts, and money economies operated throughout the ancient Mediterranean.
 - Phoenicians are often overlooked in favor of Greeks and Romans, but their commercial networks were foundational and historically prior.
 
+## Questions
+
+```yaml
+- question: "A student argues that ancient Mediterranean commerce was severely limited because traders had to physically barter goods for other goods at each port, making long-distance trade impractical. What is wrong with this view?"
+  type: multiple-choice
+  options:
+    - "Barter was used in some regions but not others — Greeks used money while others bartered"
+    - "Ancient Mediterranean traders operated sophisticated money economies with currencies, credit instruments, and commercial contracts — not barter systems"
+    - "The claim is correct for the pre-Roman period but not for the imperial period"
+    - "Barter was used but was not a limitation — it was actually more efficient than money for bulk commodity trade"
+  answer: 1
+  explanation: "One of the key misconceptions the topic flags is that ancient trade was barter-based. In fact, sophisticated financial infrastructure — coined money, credit arrangements, maritime loans, commercial contracts, and guild structures — operated throughout the ancient Mediterranean world from at least the Archaic Greek period. The Phoenicians, Greeks, and Romans all operated money economies. Assuming 'ancient' means 'primitive financial systems' misreads the historical record."
+
+- question: "Ancient Mediterranean cities grew largest near good harbors rather than at inland road intersections. What is the most historically accurate explanation for this pattern?"
+  type: multiple-choice
+  options:
+    - "Overland trade routes were too dangerous from banditry to support large cities"
+    - "Ancient road-building technology was too primitive for commerce over long distances"
+    - "Sea transport was roughly 50 times cheaper per ton-mile than overland carriage, making coastal harbors the logical economic centers of the ancient world"
+    - "Mediterranean cities grew near harbors for military defense, not commercial reasons"
+  answer: 2
+  explanation: "Ancient engineers calculated this cost differential explicitly. Moving grain by ox-cart cost roughly 50 times more per ton-mile than by ship. This enormous cost advantage made the Mediterranean Sea not just a body of water but an economic infrastructure — a shared highway that allowed surplus goods to flow across vast distances at a cost that made the exchanges profitable. Cities, which require the import of food and raw materials, naturally grew largest where this cheap transport network was accessible."
+
+- question: "The Phoenicians established Mediterranean-wide commercial networks before Greek colonization, making their commercial role historically prior even if less commonly discussed in Western curricula."
+  type: true-false
+  answer: true
+  explanation: "The Phoenicians built the first Mediterranean-wide commercial network, planting colonies and trading posts from Lebanon to the Atlantic coast of Iberia before the peak of Greek colonization. Carthage, Phoenicia's most powerful colony, controlled western Mediterranean commercial lanes for centuries. The Uluburun shipwreck (c. 1300 BCE) demonstrates that Bronze Age commercial integration predates even the Phoenician peak. Greek and Roman commercial networks built on Phoenician foundations, and the Common Misconceptions section explicitly flags Phoenician underrepresentation in typical historical education."
+
+- question: "Ancient Mediterranean long-distance trade consisted primarily of luxury goods for elite consumption; bulk commodities like grain were not traded over significant distances because transport costs made it unviable."
+  type: true-false
+  answer: false
+  explanation: "By the imperial Roman period, the annona — Rome's state grain supply — drew wheat from Egypt, North Africa, and Sicily to feed a city of over a million people. This was bulk commodity trade at an extraordinary scale. The key to its viability was precisely the cost advantage of sea transport: grain that would have been prohibitively expensive to move 500 miles overland could be shipped across the entire Mediterranean relatively cheaply. Roman suppression of piracy and investment in port infrastructure further lowered transaction costs for bulk trade."
+
+- question: "Why did the geography of the Mediterranean Sea make it the economic core of the ancient Western world, and what distinctive contribution did Rome add to earlier Phoenician and Greek commercial networks?"
+  type: short-answer
+  answer: "The Mediterranean's calm summer sailing conditions, absence of major mid-ocean passages, and dense network of harbors made ship transport roughly 50 times cheaper per ton-mile than overland carriage. This cost differential made coastal trade economically viable for bulk commodities, not just luxuries, and caused cities to grow largest near good harbors. Phoenicians established the first Mediterranean-wide commercial network and planted colonies including Carthage. Greeks extended this through apoikiai (colonies) creating a commercial diaspora. Rome's distinctive addition was transforming commercial networks into a managed system: suppressing piracy (which lowered risk premiums), organizing the annona grain supply bureaucratically, and providing the security that allowed Mediterranean trade integration to reach a scale some historians compare to early modern globalization."
+  explanation: "The key insight is that the Mediterranean was a technology — an economic infrastructure that made certain kinds of integration possible. Each successive civilization built on what came before: Phoenician routes → Greek colonial diaspora → Roman managed system. Understanding this cumulative structure, rather than treating each civilization in isolation, is the sophisticated reading of ancient Mediterranean trade."
+```
+
 ## Explainer
 
 The Mediterranean is not just a body of water — in antiquity it was a technology. Its relatively predictable summer winds, lack of severe mid-ocean passage, and dense network of harbors and islands made ship-borne transport orders of magnitude cheaper than overland carriage. Ancient engineers calculated this explicitly: moving grain by ox-cart cost roughly 50 times more per ton-mile than by ship. This cost differential is why the Mediterranean's shores became the economic core of the ancient Western world, why cities grew largest near good harbors, and why every major power in the region invested heavily in naval capacity and port infrastructure. Understanding Mediterranean trade means understanding that the sea was not a barrier between civilizations — it was their shared highway.

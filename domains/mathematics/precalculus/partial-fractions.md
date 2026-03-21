@@ -28,6 +28,45 @@ Start with distinct linear factors (easiest case), then progress to repeated lin
 - Missing repeated factor terms: (x - 1)^2 requires both A/(x - 1) and B/(x - 1)^2.
 - Using A/(x^2 + 1) instead of (Ax + B)/(x^2 + 1) for irreducible quadratic factors.
 
+## Questions
+
+```yaml
+- question: "You need to decompose (3x + 1) / ((x + 2)(x² + 9)) into partial fractions. What is the correct form to set up?"
+  type: multiple-choice
+  options:
+    - "A/(x + 2) + B/(x² + 9)"
+    - "A/(x + 2) + (Bx + C)/(x² + 9)"
+    - "A/(x + 2) + B/(x² + 9) + C/(x² + 9)²"
+    - "A/(x + 2) + B/x + C/9"
+  answer: 1
+  explanation: "An irreducible quadratic factor (x² + 9) requires a linear numerator (Bx + C), not a constant. This is because there are two degrees of freedom — the factor is degree 2, so a constant numerator cannot match both the coefficient and derivative constraints. Option A is the most common error: using A/(x² + 9) with a constant numerator. Options C and D are structurally wrong — C treats the quadratic as a repeated factor, D factors the constant incorrectly."
+
+- question: "Before decomposing (x³ + 5x) / (x² − 4) into partial fractions, what must you do first — and why?"
+  type: multiple-choice
+  options:
+    - "Factor the denominator as (x − 2)(x + 2) and immediately set up A/(x − 2) + B/(x + 2)"
+    - "Perform polynomial long division, because the numerator degree (3) is not less than the denominator degree (2)"
+    - "Cancel common factors between numerator and denominator"
+    - "Set the denominator equal to zero to find the roots"
+  answer: 1
+  explanation: "Partial fraction decomposition only works on *proper* rational functions — those where the numerator degree is strictly less than the denominator degree. Here, degree 3 ≥ degree 2, so the fraction is improper. Long division produces a polynomial quotient plus a proper remainder fraction; you then decompose only the remainder. Skipping this step and jumping to A/(x−2) + B/(x+2) is the most common error and produces an incorrect decomposition."
+
+- question: "The factor (x − 3)² in the denominator requires only one partial fraction term: B/(x − 3)²."
+  type: true-false
+  answer: false
+  explanation: "A repeated linear factor (x − 3)² requires *two* terms: A/(x − 3) + B/(x − 3)². One term for each power up to the multiplicity. Using only B/(x − 3)² cannot account for the full structure of the original numerator — you'd be missing a degree of freedom. The general rule: (x − r)^k contributes k separate terms, from power 1 up through power k."
+
+- question: "Partial fraction decomposition can only be applied after the rational expression has been converted into a proper fraction (numerator degree < denominator degree)."
+  type: true-false
+  answer: true
+  explanation: "This is a prerequisite that is often overlooked. Partial fractions require the fraction to be proper because the decomposition is based on the denominator's factors — and those factors only account for a polynomial of the same degree as the denominator. If the numerator is larger, there is a polynomial portion that no sum of proper partial fractions can represent. Long division extracts that polynomial first, leaving a proper remainder to decompose."
+
+- question: "Why does an irreducible quadratic factor like (x² + 4) require a linear numerator (Ax + B) in its partial fraction term, rather than a constant A?"
+  type: short-answer
+  answer: "Because a degree-2 denominator factor introduces two independent degrees of freedom that the numerator must match. A constant numerator has only one free parameter, which is insufficient to satisfy the polynomial identity that results from clearing denominators. A linear numerator Ax + B provides two parameters (A and B), giving enough flexibility to correctly match both the even and odd coefficient constraints across the entire identity."
+  explanation: "Think of it this way: when you clear the denominator and equate coefficients, a quadratic factor generates two equations (one for each power of x up to degree 1 in the numerator). One free parameter (constant) can only satisfy one equation; two free parameters (linear) can satisfy two. This is why the technique is consistent: the number of unknowns always matches the number of equations when you set up the form correctly."
+```
+
 ## Explainer
 
 Partial fraction decomposition is the **reverse of adding fractions**. When you add 2/(x + 1) + 3/(x − 2), you find a common denominator and combine: [2(x − 2) + 3(x + 1)] / [(x + 1)(x − 2)] = (5x − 1) / [(x + 1)(x − 2)]. Partial fractions does this backward — given (5x − 1) / [(x + 1)(x − 2)], recover the simpler pieces 2/(x + 1) and 3/(x − 2). The technique works because every proper rational function with a factorable denominator can be decomposed this way, and the decomposition is unique.

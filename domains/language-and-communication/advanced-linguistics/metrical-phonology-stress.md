@@ -27,6 +27,45 @@ Map stress patterns in languages with fixed (Finnish, French) and bounded-variab
 ## Common Misconceptions
 Stress is not purely acoustic prominence; metrically weak syllables can be acoustically prominent if carrying other prosodic features (tone, duration).
 
+## Questions
+
+```yaml
+- question: "English 'above' carries stress on the second syllable (a-BOVE). Which metrical foot type and directionality best accounts for this pattern?"
+  type: multiple-choice
+  options:
+    - "A trochee (strong-weak) built from the left edge of the word"
+    - "An iamb (weak-strong) built from the left edge of the word"
+    - "A trochee built from the right edge of the word"
+    - "Fixed stress assigned to the initial syllable regardless of foot structure"
+  answer: 1
+  explanation: "An iamb groups syllables as weak-strong, producing stress on the second element. Building it from the left gives the pattern (σ-STRESS) that places stress on 'BOVE.' A trochee from the left would yield (STRESS-σ), predicting stress on 'a-,' which is wrong. Finnish exemplifies that left-anchored trochee pattern (always first syllable). The foot type parameter — iambic vs. trochaic — is what distinguishes languages like English from languages like Finnish."
+
+- question: "A language places primary stress on the first syllable of every word, regardless of syllable weight or word length. Which metrical characterization fits this pattern?"
+  type: multiple-choice
+  options:
+    - "An iambic foot with right-to-left directionality"
+    - "A trochaic foot with left-to-right directionality"
+    - "A quantity-sensitive system that always promotes the heaviest syllable"
+    - "An unbounded stress system with no consistent foot type"
+  answer: 1
+  explanation: "Building a trochee (strong-weak) starting from the left edge of the word always produces a foot whose strong node is the leftmost syllable — exactly what this language does. This is the Finnish pattern. Iambs from the right would predict final stress. Quantity-sensitive systems produce variable stress depending on syllable weight. The power of metrical parameters is that two choices — foot type and directionality — jointly predict which syllable bears stress across a huge range of languages."
+
+- question: "In metrical phonology, a syllable occupying a metrically weak position within a foot cannot be acoustically prominent."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception flagged in the topic: metrical strength and acoustic prominence are not the same thing. A syllable in a weak metrical position can carry a lexical tone, be lengthened, or bear contrastive stress — all of which make it acoustically salient — without being the head of its foot. Metrical structure determines prominence *within the stress system*, but other prosodic features (tone, duration, emphasis) can render a weak syllable acoustically striking. The two dimensions are real but dissociable."
+
+- question: "Stress placement in English depends partly on whether syllables are heavy (containing long vowels or codas) or light, making English a quantity-sensitive stress system."
+  type: true-false
+  answer: true
+  explanation: "Unlike Finnish (fixed initial stress regardless of syllable content), English stress is sensitive to syllable weight. Heavy syllables tend to attract stress — compare 'aróma' (heavy penultimate) with 'édit' (light penultimate). The quantity-sensitivity parameter means you cannot predict English stress from position alone; you also need to know the weight profile of each syllable. This is why English stress seems irregular compared to languages with pure positional stress, and why metrical theory needs both the foot-type parameter and the quantity-sensitivity parameter to handle it."
+
+- question: "Why do metrical phonologists argue that stress 'emerges from hierarchical structure' rather than being directly assigned to syllables?"
+  type: short-answer
+  answer: "Stress is relational: a syllable is stressed because it is the strong node of its foot, and the foot's head is the strong node of the prosodic word. This hierarchical account explains why words have primary stress, secondary stress, and unstressed syllables — they reflect distinct levels in the nested structure (syllable → foot → prosodic word → phonological phrase), not three separate kinds of marking applied independently. It also captures cross-linguistic variation economically: two parameters (foot type: trochee vs. iamb; directionality: left vs. right) predict a large portion of the world's stress patterns without needing language-specific rules for each language."
+  explanation: "The hierarchical view has explanatory advantages over direct assignment. If stress were simply listed for each syllable independently, you would need separate stipulations for primary vs. secondary stress and could not explain why their relationship is systematic. The tree structure makes the relationships formal and predictable: primary stress is always the prosodic word's head, secondary stress marks subsidiary foot heads, and unstressed syllables are weak nodes at the foot level. This architecture also connects naturally to Optimality Theory, where ranked ALIGN and PARSE constraints determine which hierarchical structure wins."
+```
+
 ## Explainer
 
 From your work on suprasegmental phonology you know that stress is a property of syllables — a marking of relative prominence within a prosodic domain — and that it interacts with tone, length, and rhythm. From constraint ranking (OT) you know that phonological patterns can be analyzed as the optimal satisfaction of competing constraints. Metrical phonology adds a crucial structural layer: stress is not just assigned to individual syllables arbitrarily, but emerges from **grouping syllables into hierarchical constituents** called feet.

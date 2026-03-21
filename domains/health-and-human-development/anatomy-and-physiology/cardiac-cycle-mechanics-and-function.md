@@ -39,6 +39,45 @@ Trace the cardiac cycle on a pressure-volume diagram while listening to actual h
 - Thinking the heart pumps continuously; actually it relaxes longer than it contracts.
 - Assuming all coronary blood flow occurs during systole; most occurs during diastole when ventricular pressure drops.
 
+## Questions
+
+```yaml
+- question: "During isovolumetric contraction, the ventricle is squeezing but no blood is ejected. Why?"
+  type: multiple-choice
+  options:
+    - "The heart muscle hasn't generated enough force yet to overcome friction in the aorta"
+    - "All valves are closed because ventricular pressure hasn't yet exceeded aortic pressure"
+    - "The AV valves stay open to equalize pressure between atria and ventricles"
+    - "Blood is being routed to the coronary arteries first before systemic ejection"
+  answer: 1
+  explanation: "During isovolumetric contraction, ventricular pressure is rising but hasn't yet exceeded aortic pressure, so the aortic valve stays shut. The AV valves are already closed (ventricular pressure exceeds atrial). With all valves closed, volume is constant — no ejection can occur. The phase ends the moment ventricular pressure surpasses aortic pressure and the aortic valve snaps open."
+
+- question: "A patient exercises vigorously, increasing venous return to the heart. According to the Frank-Starling law, what happens to stroke volume, and why?"
+  type: multiple-choice
+  options:
+    - "Stroke volume decreases because the ventricle is overstretched and loses efficiency"
+    - "Stroke volume stays the same; only heart rate changes with exercise"
+    - "Stroke volume increases because greater end-diastolic volume stretches sarcomeres toward their optimal length, enabling stronger contraction"
+    - "Stroke volume increases, but only because sympathetic nervous system activation raises contractility"
+  answer: 2
+  explanation: "The Frank-Starling law is an intrinsic property of cardiac muscle: increased preload (end-diastolic volume) stretches sarcomeres toward the optimal overlap length between actin and myosin filaments, enhancing calcium sensitivity and enabling stronger contraction. This happens automatically, without neural input. Option D is a common misconception — sympathetic activation also increases stroke volume, but the Frank-Starling mechanism operates independently and is what's being invoked here."
+
+- question: "Most coronary blood flow to the left ventricle occurs during diastole, not systole."
+  type: true-false
+  answer: true
+  explanation: "During systole, the contracting left ventricular muscle compresses the intramural coronary vessels, greatly increasing vascular resistance and restricting blood flow. During diastole, the muscle relaxes and coronary perfusion pressure (aortic pressure minus ventricular pressure) is highest. This is clinically significant: conditions that shorten diastole (such as very high heart rates) or elevate diastolic ventricular pressure can compromise coronary perfusion."
+
+- question: "On a pressure-volume (PV) loop, an increase in cardiac contractility would shift the loop leftward with no change in the loop's width."
+  type: true-false
+  answer: false
+  explanation: "Increased contractility steepens the end-systolic pressure-volume relationship (ESPVR) line. This allows the ventricle to eject to a smaller end-systolic volume at the same or greater pressure, making the loop taller and wider — greater stroke volume (the loop's width) and greater stroke work (its area). A purely leftward shift with unchanged width would indicate decreased end-diastolic volume (reduced preload), not increased contractility."
+
+- question: "Explain in your own words why the Frank-Starling mechanism causes a ventricle receiving more blood to pump more blood out, without any change in nerve signals."
+  type: short-answer
+  answer: "Increased venous return fills the ventricle to a larger end-diastolic volume (EDV), stretching the ventricular muscle fibers. This stretch brings sarcomeres closer to their optimal length, where actin and myosin overlap maximally. At optimal length, more cross-bridges can form and troponin becomes more sensitive to calcium, enabling a stronger contraction and larger stroke volume. The mechanism is purely mechanical and intrinsic to the cardiac muscle — it operates on every beat to match right and left ventricular output."
+  explanation: "The key is connecting preload → sarcomere length → cross-bridge overlap → contractile force. Many students know 'stretch increases contraction' but cannot explain the molecular basis (optimal filament overlap and calcium sensitivity). The Frank-Starling law is an automatic beat-by-beat equalizer that keeps the two ventricles in sync and adjusts output when posture, activity, or blood volume changes — no neural or hormonal intervention required."
+```
+
 ## Explainer
 
 The cardiac cycle is a pressure-management system. From your study of hemodynamics, you know that blood flows down pressure gradients—from high pressure to low—and that valves enforce one-way flow. The heart exploits this by generating pressure changes that sequentially open and close four valves, shuttling blood through the pulmonary and systemic circuits. The cycle has four phases, and the key to understanding each is asking: what are the relative pressures on either side of each valve?

@@ -33,6 +33,45 @@ Given a filter specification, compute the required order using Butterworth or Ch
 - Confusing passband ripple with stopband ripple.
 - Not accounting for the order-complexity relationship.
 
+## Questions
+
+```yaml
+- question: "An engineer specifies a lowpass filter with ωp = 1 kHz, ωs = 1.1 kHz, and 60 dB stopband attenuation. After building it, she realizes the stopband edge can be relaxed to ωs = 2 kHz. What is the most significant consequence?"
+  type: multiple-choice
+  options:
+    - "The passband ripple will increase because the filter has less design freedom"
+    - "The required filter order will decrease significantly, reducing hardware cost and complexity"
+    - "The stopband attenuation will automatically improve beyond 60 dB"
+    - "The filter will no longer be realizable as a Butterworth design"
+  answer: 1
+  explanation: "The transition band (gap between ωp and ωs) is the key constraint on filter order. Widening the transition band from 100 Hz to 1000 Hz (a 10× relaxation) dramatically reduces the required order, because the filter no longer needs to transition as steeply. Filter order is the primary driver of hardware and computational cost — fewer poles means fewer reactive elements in analog design or fewer multiplications per sample in digital DSP. Passband ripple is a separate specification unaffected by where the stopband edge sits."
+
+- question: "Which filter type achieves the lowest order for a given set of passband ripple, stopband attenuation, and transition bandwidth specifications?"
+  type: multiple-choice
+  options:
+    - "Butterworth, because its maximally flat response avoids wasting order on ripple compensation"
+    - "Chebyshev Type I, because equiripple passband allows a sharper rolloff for the same order"
+    - "Elliptic, because allowing ripple in both passband and stopband achieves the steepest possible transition for any given order"
+    - "Bessel, because its linear phase response minimizes group delay distortion"
+  answer: 2
+  explanation: "Elliptic filters achieve the minimum possible order for any given combination of passband ripple, stopband attenuation, and transition bandwidth. By permitting equiripple in both the passband and stopband, they squeeze maximum sharpness from every pole. Butterworth (option A) actually requires the most poles among these types — its maximally flat passband costs extra order. Chebyshev improves over Butterworth but not as much as elliptic. Bessel (option D) trades sharpness for linear phase and requires even more poles for equivalent attenuation."
+
+- question: "A filter that passes frequencies below 1 kHz with 0.5 dB ripple and attenuates all frequencies above 1.05 kHz by 80 dB can be realized with a 4th-order Butterworth filter."
+  type: true-false
+  answer: false
+  explanation: "This specification is extraordinarily demanding: a transition band of only 50 Hz combined with 80 dB stopband attenuation. A 4th-order Butterworth has gentle rolloff — it can barely achieve 80 dB attenuation over a full decade above the cutoff. With a transition band of only 5% of the passband edge frequency, the required Butterworth order would be in the dozens. Only high-order elliptic filters could approach these specs with reasonable order."
+
+- question: "Passband ripple and stopband ripple are both present in Butterworth filters."
+  type: true-false
+  answer: false
+  explanation: "Butterworth filters are defined by their maximally flat passband — there is no ripple in either the passband or the stopband. The magnitude response monotonically decreases from DC to infinity. This flatness is achieved at the cost of needing higher order compared to Chebyshev or elliptic filters for the same transition bandwidth. Chebyshev Type I filters have equiripple in the passband but monotone stopband. Chebyshev Type II have equiripple in the stopband. Elliptic filters have equiripple in both."
+
+- question: "Explain the fundamental trade-off in filter design: why can't you simultaneously achieve a narrow transition band, low filter order, and zero passband ripple?"
+  type: short-answer
+  answer: "The steepness of a filter's transition from passband to stopband is governed by the mathematical properties of its transfer function — specifically, the location and density of its poles and zeros. More poles (higher order) provide more degrees of freedom to shape a steep transition. If you demand a narrow transition band (steep rolloff), you mathematically require more poles. Allowing passband ripple (as in Chebyshev filters) is one way to use available poles more efficiently — the ripple buys extra steepness. Constraining ripple to zero (Butterworth) forces all poles to work on flatness rather than sharpness, requiring more poles for the same transition bandwidth."
+  explanation: "This is ultimately a consequence of Fourier analysis: a perfectly sharp filter (brick-wall response) requires infinite order. Every practical filter is an approximation that trades one parameter against another, and filter design is the art of choosing which tradeoffs best match the application's priorities — passband fidelity, stopband rejection, hardware cost, or phase response."
+```
+
 ## Explainer
 
 From Bode plots, you already have a visual language for filter behavior: a magnitude plot that shows how much gain (or attenuation) a filter applies at each frequency. A lowpass filter has high gain at low frequencies and falls off at higher frequencies. But a Bode sketch is qualitative — it shows the shape without specifying how precisely a filter must perform. Filter specifications translate that qualitative shape into a set of quantitative requirements that a designer must meet. Once specifications are written, filter design becomes a well-defined optimization problem.

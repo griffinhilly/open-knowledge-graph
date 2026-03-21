@@ -41,6 +41,45 @@ Apply Weber's model to explain the historical location of steel mills in the Ruh
 - Agglomeration economies explain clustering but not the initial location choice; path dependence and historical accident also matter.
 - Deindustrialization in the Global North does not mean the end of manufacturing globally; it reflects a spatial redistribution of production to lower-wage regions.
 
+## Questions
+
+```yaml
+- question: "A steel mill requires 4 tons of iron ore and coal to produce 1 ton of finished steel. According to Weber's least-cost theory, where should this mill locate?"
+  type: multiple-choice
+  options:
+    - "Near the final market, because delivering finished steel to customers is always the largest cost"
+    - "Near the raw material source, because it must transport far more weight before processing than after"
+    - "At the geographic midpoint between raw materials and the market"
+    - "Near a low-wage labor pool, since labor costs dominate heavy manufacturing"
+  answer: 1
+  explanation: "Weber's material index (raw material weight / finished product weight) is 4 for steel — highly material-oriented. It is far cheaper to process the ore near where it is mined than to ship 4 tons of raw material to market only to produce 1 ton of output. Pittsburgh's location near Appalachian coal and Great Lakes iron ore is the classic example. A market-oriented location would only make sense for industries with a material index near 1 (where little weight is lost in processing), like jewelry manufacturing."
+
+- question: "Deindustrialization in the United States and Britain during the late 20th century is best understood as:"
+  type: multiple-choice
+  options:
+    - "The global decline of manufacturing output due to automation replacing factory workers"
+    - "A spatial redistribution of production to lower-wage regions, with global manufacturing output actually increasing substantially"
+    - "The permanent collapse of industrial production caused by excessive environmental regulation"
+    - "A temporary recession in manufacturing that was reversed by the 1990s technology boom"
+  answer: 1
+  explanation: "Deindustrialization in the Global North was not global manufacturing decline — it was a geographic relocation. As containerization lowered transport costs and wage differentials between countries widened, firms fragmented production: labor-intensive assembly moved to export processing zones in China, Vietnam, Mexico, and Bangladesh, while design and R&D remained in high-wage regions. Global manufacturing output rose significantly through this period. This is a critical misconception to avoid: the rust belt experience reflects spatial redistribution, not absolute decline."
+
+- question: "According to Weber's least-cost theory, a profit-maximizing firm will always locate at the point that minimizes transportation costs, regardless of labor cost differences between locations."
+  type: true-false
+  answer: false
+  explanation: "Weber's model explicitly allows firms to deviate from the minimum-transport-cost location when labor savings outweigh additional transport costs incurred by moving toward a cheap-labor site. He formalized this with isodapanes — lines of equal total transport cost — showing that a firm will cross them only if labor savings exceed the extra transport cost. This is why textile mills historically migrated from New England to the American South, and later to East Asia: each move toward cheaper labor was economically rational even though it increased transport costs."
+
+- question: "Silicon Valley's geographic concentration of technology firms is primarily explained by its proximity to raw material inputs and low transportation costs for finished products."
+  type: true-false
+  answer: false
+  explanation: "Tech firms are footloose industries — their products are high-value relative to weight, so transportation costs are negligible in location decisions. Silicon Valley's clustering is driven by agglomeration economies: knowledge spillovers among firms, access to a deep pool of specialized talent, proximity to Stanford and UC Berkeley, and venture capital networks. Path-dependent clustering began with early firms attracting talent, which attracted more firms. This is why even supposedly 'placeless' industries are highly spatially concentrated — but the driving force is knowledge and talent agglomeration, not Weber's transportation calculus."
+
+- question: "What is Weber's 'material index,' and why does it predict different location choices for steel mills versus jewelry manufacturers?"
+  type: short-answer
+  answer: "The material index is the ratio of the weight of raw materials used to the weight of the finished product. Steel has a high material index (several tons of ore and coal per ton of steel), making it material-oriented: the mill locates near raw material sources because shipping bulk materials to a distant factory is far more expensive than shipping finished steel to market. Jewelry has a low material index (finished product weighs nearly as much as the raw gold or gems), making it market-oriented: since little weight is lost in production, the firm minimizes outbound shipping by locating near customers."
+  explanation: "The material index essentially asks: is it cheaper to move the factory to the materials, or to move the materials to the factory? A high index means the factory should go to the materials; a low index means materials are shipped to where customers are. This simple ratio captures a huge amount of the historical geography of industrial location, from Pittsburgh steel to New York garment districts."
+```
+
 ## Explainer
 
 From economic geography fundamentals, you know that the distribution of economic activity across space is not random — geography shapes production costs, market access, and firm behavior. Industrial location theory formalizes this intuition by asking a precise question: given the location of raw materials, markets, and labor, where should a rational profit-maximizing firm locate its factory?

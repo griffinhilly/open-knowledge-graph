@@ -42,6 +42,45 @@ Compare multiple translations of the same passage or poem to see how choices div
 - That you cannot read literature in translation 'properly'.
 - That all translations are equally valid or that major differences don't matter.
 
+## Questions
+
+```yaml
+- question: "A student says she cannot do meaningful comparative analysis of Dostoevsky because she doesn't read Russian. What is the most accurate response from a comparative literature perspective?"
+  type: multiple-choice
+  options:
+    - "She is correct — comparative analysis requires access to the original language."
+    - "She can still analyze Dostoevsky by reading multiple translations, treating each as an interpretation and using the divergences between them as critical data."
+    - "She should pick one authoritative modern translation and treat it as equivalent to the original."
+    - "Translation is neutral transmission of meaning, so any translation is equivalent to reading the original."
+  answer: 1
+  explanation: "The premise of reading literatures in translation is that legitimate comparative analysis is possible without the original language, by treating translations as critical documents. Where two competent translations diverge marks exactly where the text is doing something language-specific — and those divergences are analytically valuable. Option A reflects the misconception that 'proper' reading requires the original. Option D restates the transparent-window fallacy directly."
+
+- question: "A scholar notices that a 1920 translation of Chekhov reads like Victorian English prose, while a 2015 translation feels naturalistic and contemporary. What does this most likely reflect?"
+  type: multiple-choice
+  options:
+    - "The 2015 translator made fewer errors — translations improve as scholarship advances."
+    - "The 2015 translation is necessarily more faithful to Chekhov's original Russian."
+    - "Each translation embeds the cultural context and translation philosophy of its era — neither is simply more 'accurate.'"
+    - "Chekhov's prose style changed between the publication dates of the two translations' source texts."
+  answer: 2
+  explanation: "Translations are cultural documents as much as linguistic ones. A 1920 translator worked within different expectations about literary prose, different audiences, and a different philosophy of what fluent translation should sound like. Neither translation is simply 'better' — each reveals different aspects of the source and is shaped by its own historical moment. This is why the translator, date, and cultural context of a translation are critical data for comparative analysis."
+
+- question: "The gap between two translations of the same passage — where they diverge most sharply — is more analytically useful than either translation alone."
+  type: true-false
+  answer: true
+  explanation: "When two competent translators make different choices for the same passage, the divergence marks exactly where the source text is doing something language-specific: a pun that depends on homophony, a culturally-embedded idiom, a rhythm that requires different accentual patterns, or an ambiguity that each translator resolved differently. That site of divergence is evidence about the source text's literary features — what it is doing that resists transfer — which makes it more analytically rich than either translation in isolation."
+
+- question: "A domesticating translation, because it reads fluently in the target language, is less accurate and less suitable for serious literary analysis than a foreignizing translation."
+  type: true-false
+  answer: false
+  explanation: "Fluency in the target language is a feature of a deliberate translation strategy (domestication, in Venuti's terminology), not evidence of inaccuracy. A domesticating translation makes choices to prioritize target-language naturalness and accessibility; a foreignizing translation preserves the cultural texture and grammatical strangeness of the source. Neither is simply 'more accurate' — they reveal different aspects of the source text and create different reading experiences. Both are suitable for analysis, as long as the analyst understands the translator's choices."
+
+- question: "Why is comparing multiple translations of the same passage a form of close reading, rather than simply a way to check which translation is 'correct'?"
+  type: short-answer
+  answer: "Comparing translations is close reading because the differences between translations reveal what each translator prioritized and what they sacrificed — and those choices are evidence about what the source text is doing. Where translations converge (usually narrative event, character) shows what is readily transferable; where they diverge (usually tone, rhythm, wordplay, cultural resonance) shows where the text is doing something language-specific. Both translations can be 'accurate' while creating very different reading experiences. The comparison illuminates the source text's literary features as much as it describes the translators' decisions."
+  explanation: "The comparative literature scholar is not searching for the one true translation behind all others but investigating how literary meaning is transformed as texts travel across languages. This transformation is itself literary data. Treating translations as candidates for 'correctness' misses the point — the comparison is the analysis."
+```
+
 ## Explainer
 
 You've already learned that translation is an act of interpretation, not a neutral transfer of meaning between languages — and that Benjamin's theory asks translation to reveal what the original couldn't say in its own language, not merely to reproduce its surface. The comparative literary method adds a practical question: since most comparative literature is read in translation, how do you work with translated texts responsibly? The answer begins with understanding what is and isn't preserved in translation, and how to use multiple translations as a critical tool.

@@ -38,6 +38,45 @@ Trace the Revolution through its distinct phases from constitutional reform (178
 - The Revolution was not simply caused by mass poverty — France was not the poorest country in Europe. Relative deprivation, political exclusion of the bourgeoisie, and the delegitimization of aristocratic privilege were crucial causes.
 - 'Liberty, equality, fraternity' did not initially extend to women, enslaved people in the colonies, or religious minorities in any consistent way.
 
+## Questions
+
+```yaml
+- question: "France in the 1780s was not the poorest country in Europe, yet revolution broke out there rather than in poorer nations. Which combination of factors best explains why France specifically became the site of revolution?"
+  type: multiple-choice
+  options:
+    - "French peasants were uniquely impoverished compared to peasants in neighboring countries"
+    - "France had the weakest monarchy in Europe, making it the most vulnerable to popular uprising"
+    - "Fiscal collapse from war debt, the political exclusion of the bourgeoisie from the three-estate system, and the availability of Enlightenment ideological alternatives converged specifically in France"
+    - "The American Revolution provided a direct military model that French soldiers brought home from fighting in North America"
+  answer: 2
+  explanation: "The Revolution was not caused by extreme poverty — France was not Europe's most desperate country. The key was a convergence: fiscal bankruptcy from war debt that the nobles refused to help solve; a structural system (the Estates-General) that gave the Third Estate (97% of the population) little effective political voice; and Enlightenment philosophy that provided a competing source of legitimacy (the people, not the king) that the bourgeoisie had absorbed. This combination — fiscal crisis meeting political exclusion meeting ideological alternative — is what made France explosive."
+
+- question: "The Committee of Public Safety during the Terror justified executing thousands as 'enemies of the people' resisting the general will. Which idea, extended to a dangerous extreme, made this logic possible?"
+  type: multiple-choice
+  options:
+    - "Absolute monarchy — the Committee was exercising unchecked royal prerogative in a new form"
+    - "The social contract's claim that political legitimacy derives from the sovereign people, which implies that those who oppose the people's will are enemies of legitimate authority"
+    - "Enlightenment arguments for religious toleration, which were repurposed to target enemies of secular governance"
+    - "The Declaration of the Rights of Man's guarantee of individual liberty, applied only to patriotic citizens"
+  answer: 1
+  explanation: "The social contract had a dangerous internal corollary: if the people are sovereign, then opponents of the people's will can be framed as enemies of the sovereign — and enemies of sovereignty have historically been subject to state violence. Robespierre was not departing from revolutionary principle when he justified the Terror; he was following a logic internal to popular sovereignty taken to its extreme. The Revolution thus shows how the same idea that produces liberation (the people are sovereign, not the king) can produce terror (those who resist the people's will are traitors to the sovereign)."
+
+- question: "The French Revolution was primarily caused by mass poverty — the French people could no longer afford food and rose up in desperation."
+  type: true-false
+  answer: false
+  explanation: "France was not the poorest country in Europe in the 1780s, and absolute starvation was not the primary cause of the Revolution. The more important factors were fiscal crisis from war debt, the structural exclusion of the bourgeoisie from political power, and Enlightenment ideology providing an alternative basis for legitimacy. Relative deprivation — the sense that one deserves political rights one is denied — was more revolutionary than absolute poverty. The bourgeoisie had wealth but no power; this combination, not peasant destitution, drove the political demands of 1789."
+
+- question: "Napoleon's coup in 1799 effectively ended the French Revolution's ideological influence, containing its ideas within France and preventing them from reshaping politics elsewhere in Europe."
+  type: true-false
+  answer: false
+  explanation: "Napoleon's campaigns did the opposite — they exported revolutionary ideals across Europe. Wherever French armies went, they brought the Napoleonic Code, the idea of citizenship over subjecthood, and the model of a nation organized around popular sovereignty rather than dynastic legitimacy. The revolutionary ideals of liberty, equality, and fraternity, and the template of the nation-state as the primary political unit, permanently altered European and world politics. The Revolution's influence was amplified, not contained, by Napoleon's empire."
+
+- question: "How did the revolutionary principle of popular sovereignty — which began as a democratic argument against royal absolutism — contribute to enabling the Reign of Terror?"
+  type: short-answer
+  answer: "Popular sovereignty holds that political authority derives from the people, not from the monarch. This was liberating as an argument against the king: if the king's authority is illegitimate, the people can and should replace it. But the idea contains a dangerous corollary: if the people are sovereign, then those who resist the people's will can be framed as enemies of the sovereign — traitors to the legitimate political order. Robespierre and the Committee of Public Safety used this logic to justify executing anyone labeled an 'enemy of the people' or a counter-revolutionary. The same principle that delegitimized the king's arbitrary power was used to authorize a different form of arbitrary violence, now in the name of the people rather than the crown."
+  explanation: "This is the Revolution's central historical lesson about political philosophy: abstract principles of legitimacy don't automatically produce benign outcomes. The principle that 'the people are sovereign' tells you where authority comes from but not how to protect individuals from the majority, or from whoever claims to speak for the majority. Constitutional limits, individual rights, and rule of law are required to prevent popular sovereignty from collapsing into mob rule or elite terror exercised in the people's name."
+```
+
 ## Explainer
 
 From your study of absolutism, you know that the French monarchy had claimed near-total authority over French political life by the eighteenth century. From the Enlightenment, you know that philosophers were questioning the basis of that authority — Locke's natural rights, Rousseau's general will, Montesquieu's separation of powers were all in wide circulation by 1789. The French Revolution is the collision between those ideas and a political system that could not adapt fast enough. But ideas alone don't make revolutions — the immediate trigger was fiscal collapse. France was essentially bankrupt after supporting the American Revolution, and Louis XVI's attempt to tax the nobility to cover the deficit was refused. The nobles demanded the convening of the **Estates-General**, a representative body that hadn't met since 1614, and in doing so inadvertently cracked open the absolute monarchy.

@@ -35,6 +35,45 @@ Compute GCDs first by prime factorization to build intuition, then learn the Euc
 - Assuming gcd(a,b) must be prime — it can be any positive integer.
 - Not knowing that Bezout coefficients x, y may be negative integers.
 
+## Questions
+
+```yaml
+- question: "Two integers a and b satisfy gcd(a, b) = 6. According to Bézout's identity, which of the following is guaranteed to exist?"
+  type: multiple-choice
+  options:
+    - "Positive integers x and y such that ax + by = 6"
+    - "Integers x and y (which may be negative or zero) such that ax + by = 6"
+    - "A prime number p such that p divides both a and b"
+    - "Integers x and y such that ax + by = 1"
+  answer: 1
+  explanation: "Bézout's identity guarantees integers x and y (not necessarily positive) such that ax + by = gcd(a, b). Since gcd(a, b) = 6, we get ax + by = 6 for some integers x, y that may be negative. Option A is wrong because Bézout coefficients can be negative — this is a common misconception. Option C is wrong because gcd(a, b) = 6 means the greatest common divisor is 6, which is not prime; the pair might not share any prime factor with multiplicity that makes a prime divide both. Option D would require gcd(a, b) = 1, but gcd = 6 here."
+
+- question: "What is the correct interpretation of 'a and b are coprime'?"
+  type: multiple-choice
+  options:
+    - "Both a and b are prime numbers"
+    - "Neither a nor b has any prime factors"
+    - "gcd(a, b) = 1 — the only positive integer dividing both is 1"
+    - "a divides b or b divides a"
+  answer: 2
+  explanation: "Coprime (also called relatively prime) means the two integers share no common factors other than 1, i.e., gcd(a, b) = 1. This does not require either number to be prime itself — for example, 8 and 9 are coprime (gcd = 1) even though neither is prime. Coprimality is crucial because Bézout's identity, applied when gcd = 1, guarantees an integer x such that ax ≡ 1 (mod b) — i.e., a has a multiplicative inverse modulo b. This is the foundation of modular arithmetic and public-key cryptography."
+
+- question: "The Bézout coefficients x and y in the equation ax + by = gcd(a, b) are always positive integers."
+  type: true-false
+  answer: false
+  explanation: "Bézout coefficients are integers that may be positive, negative, or zero — this surprises many students who expect coefficients in a sum to be positive. For example, gcd(12, 18) = 6, and the Bézout representation is 12·(−1) + 18·1 = 6, where x = −1. In general, if (x₀, y₀) is one solution, then infinitely many solutions exist by adjusting with multiples of b/gcd and a/gcd, and both positive and negative coefficients are possible. Finding the specific coefficients requires the extended Euclidean algorithm."
+
+- question: "If gcd(a, m) = 1, then there exists an integer x such that ax ≡ 1 (mod m) — meaning a has a multiplicative inverse modulo m."
+  type: true-false
+  answer: true
+  explanation: "This follows directly from Bézout's identity: if gcd(a, m) = 1, then there exist integers x, y such that ax + my = 1. Reducing this equation modulo m gives ax ≡ 1 (mod m), so x is the multiplicative inverse of a modulo m. This is the key result that makes modular arithmetic work for cryptographic applications — in RSA encryption, for instance, the decryption key is computed as a modular inverse. The requirement that gcd(a, m) = 1 is essential: if gcd(a, m) > 1, no such inverse exists."
+
+- question: "Explain why Bézout's identity is described as elevating the GCD from 'an arithmetic curiosity to an algebraic tool.'"
+  type: short-answer
+  answer: "Before Bézout's identity, the GCD is just a number — the largest common divisor of a and b. Bézout's identity reveals that this number can be expressed as a linear combination ax + by of the original integers, making it accessible through algebraic operations. This unlocks a chain of applications: it proves that if gcd(a, m) = 1, then a has a multiplicative inverse mod m (essential for modular arithmetic), and it provides the constructive method (extended Euclidean algorithm) for finding that inverse. The GCD stops being a static property and becomes a lever for solving equations and building cryptographic systems."
+  explanation: "The phrase 'algebraic tool' points to the shift from description to manipulation. Knowing that gcd(12, 18) = 6 describes a relationship; knowing that 12·(−1) + 18·1 = 6 gives you something to work with algebraically. The extended form makes the GCD actionable in proofs and algorithms in a way that the simple definition does not."
+```
+
 ## Explainer
 
 From your study of prime and composite numbers, you know that every integer greater than 1 factors uniquely into primes. Divisibility formalizes a related relationship: **a divides b** (written a | b) means b is an exact multiple of a — there exists a whole number k such that b = ak, with no remainder. Saying 6 | 42 is saying 42 = 6 × 7. If the division leaves a remainder, divisibility fails: 6 does not divide 43. This simple "exact fit" idea is the foundation of everything in number theory.

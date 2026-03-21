@@ -31,6 +31,45 @@ Use a slinky to produce both types by hand. Contrast how a transverse wave on a 
 - Sound is often mistakenly imagined as a transverse wave because of textbook diagrams showing a sinusoidal pressure curve — the curve represents pressure variation, not particle displacement perpendicular to travel.
 - Students sometimes think longitudinal waves cannot have wavelength or frequency; they have both.
 
+## Questions
+
+```yaml
+- question: "A textbook shows a sinusoidal curve labeled 'sound wave' with crests and troughs. A student concludes that sound is a transverse wave because the diagram shows up-and-down oscillation. What is wrong?"
+  type: multiple-choice
+  options:
+    - "Sound waves do not have crests and troughs — only transverse waves exhibit that pattern"
+    - "The sinusoidal curve represents pressure variation along the wave's path, not perpendicular displacement of air molecules, which actually oscillate parallel to the direction of travel"
+    - "Sound waves cannot be accurately represented by sinusoidal functions"
+    - "The student is correct — all waves depicted with sinusoidal curves are transverse"
+  answer: 1
+  explanation: "This is the most common misconception about sound waves, explicitly identified in the Common Misconceptions section. The sinusoidal diagram of a sound wave plots pressure (a scalar) versus position — high points mean compressed air, low points mean rarefied air. The air molecules themselves are not moving up and down; they oscillate back and forth along the direction the wave travels. The curve shape looks identical to a transverse wave diagram, but it represents a completely different physical quantity."
+
+- question: "Why can transverse waves be polarized, but longitudinal waves cannot?"
+  type: multiple-choice
+  options:
+    - "Longitudinal waves travel faster than transverse waves, which prevents polarization"
+    - "Transverse waves can only travel through solids, where the crystal structure enables polarization"
+    - "Transverse waves oscillate perpendicular to propagation, leaving a choice of which perpendicular direction to select; longitudinal waves oscillate along the propagation axis, leaving no such choice"
+    - "Only electromagnetic waves can be polarized; mechanical transverse waves cannot be polarized"
+  answer: 2
+  explanation: "Polarization is about selecting a specific orientation of oscillation from among possible orientations. For transverse waves, the oscillation is perpendicular to propagation — and 'perpendicular' in three dimensions defines a whole plane of possible directions. A polarizer selects one direction within that plane. For longitudinal waves, the oscillation must be along the propagation axis — there is only one axis, no choice to make, and therefore nothing to polarize. This is why light (transverse electromagnetic wave) can be polarized but sound (longitudinal) cannot."
+
+- question: "In a longitudinal wave, the medium oscillates back and forth along the same axis the wave travels, producing alternating regions of compression and rarefaction."
+  type: true-false
+  answer: true
+  explanation: "This is the defining characteristic of longitudinal waves. Sound in air is the primary example: air molecules are pushed together (compression) and pulled apart (rarefaction) in the same direction the sound travels. A slinky demonstrates this vividly — a push at one end sends compression and rarefaction along the coil's length, with each coil moving forward and backward along the same axis as the traveling pulse."
+
+- question: "Longitudinal waves do not have wavelength or frequency — those properties only apply to transverse waves."
+  type: true-false
+  answer: false
+  explanation: "Both wave types share all fundamental wave properties: wavelength, frequency, period, amplitude, and wave speed. Wavelength in a longitudinal wave is the distance between successive compressions (or successive rarefactions). Frequency is the number of compression-rarefaction cycles per second. The distinction between transverse and longitudinal is about the direction of oscillation relative to propagation, not about whether basic wave properties apply."
+
+- question: "When a sinusoidal pressure graph of a sound wave shows a 'peak,' what is physically happening to the air molecules at that location?"
+  type: short-answer
+  answer: "At a pressure peak, the air molecules are compressed — pushed closer together than their equilibrium spacing. The peak represents a region of higher-than-normal air density and pressure. The molecules are oscillating back and forth along the wave's direction of travel, and at that location they are in the dense, compressed phase of their oscillation. The sinusoidal curve does not represent molecules moving 'up' — it represents a scalar quantity (pressure) that happens to vary sinusoidally in space. The trough of the same curve represents rarefaction: molecules spread farther apart, lower pressure."
+  explanation: "This question targets the core confusion identified in the Common Misconceptions section. The key insight is distinguishing what the y-axis of a wave diagram represents. For a transverse wave on a string, y-axis displacement directly shows where each point on the string physically is. For a longitudinal wave, a sinusoidal plot of pressure represents a physical phenomenon that looks identical in graph form but involves parallel oscillation — the geometry of the real motion is completely different from the shape of the curve."
+```
+
 ## Explainer
 
 From your introduction to wave properties, you already know that waves transfer energy through a medium without permanently displacing it — the medium oscillates and returns. What distinguishes transverse from longitudinal waves is the *direction* of that oscillation relative to the direction the wave travels.

@@ -32,6 +32,45 @@ Examine how polarization differs from groupthink—polarization involves movemen
 ## Common Misconceptions
 Students think groups always make more conservative decisions than individuals; actually, groups polarize toward whichever direction the majority initially leans, producing riskier or more extreme decisions than individual members would make alone.
 
+## Questions
+
+```yaml
+- question: "A group of cautious investors — most individually preferring low-risk portfolios — meets to discuss strategy. After extended discussion, what does group polarization theory predict about their collective decision?"
+  type: multiple-choice
+  options:
+    - "Their decision will be riskier than the average individual preference, because groups shift toward risk"
+    - "Their decision will be more cautious than the average individual preference, because the majority's lean gets amplified"
+    - "Their decision will closely reflect the average of individual preferences, since group deliberation averages out extremes"
+    - "The outcome is unpredictable because polarization only applies to already extreme groups"
+  answer: 1
+  explanation: "The risky shift was initially misnamed — groups don't shift toward risk specifically; they shift toward whichever direction the majority already leans. A group of cautious investors will become MORE cautious after discussion, not less, because the persuasive arguments heard will skew toward caution and social comparison will reinforce going slightly further in the already-favored direction. Option A confuses the original, now-discredited 'risky shift' with the broader group polarization finding. Options C and D both misunderstand the mechanism: deliberation amplifies, it does not average."
+
+- question: "In an online forum of like-minded users, views become more extreme over time even though no one is silenced or pressured. Which mechanism best explains this?"
+  type: multiple-choice
+  options:
+    - "Normative influence — users want to appear more committed than average to the group's position"
+    - "Persuasive arguments — the pool of arguments circulated is skewed toward the prevailing view, producing genuine belief updating"
+    - "Groupthink — minority dissent has been suppressed, eliminating corrective perspectives"
+    - "Both normative influence and persuasive arguments operate simultaneously, so neither alone is sufficient"
+  answer: 1
+  explanation: "The key condition here is 'no one is silenced or pressured,' which rules out groupthink (option C) and pure normative pressure as the primary mechanism. Persuasive arguments theory (informational influence) explains polarization without any social pressure: members hear arguments they hadn't considered, but those arguments are systematically biased toward the prevailing view. Each novel pro-group argument shifts individual beliefs slightly, and the aggregate is a more extreme group position. Option D is technically also true, but option B most directly addresses the 'without social pressure' condition in the scenario. Option A is the normative mechanism and would still operate, but B is the better answer given the scenario constraints."
+
+- question: "Group polarization can occur even when no one in the group is deliberately suppressing dissenting views."
+  type: true-false
+  answer: true
+  explanation: "This is precisely what distinguishes group polarization from groupthink. Groupthink requires active suppression of dissent — social pressure closes off minority views. Group polarization operates through a different mechanism: the pool of arguments available within the group is already skewed before discussion begins, so even genuine, open discussion surfaces a biased sample of reasons. Each member updates on the novel arguments they hear (which are predominantly in the prevailing direction), producing individual shifts that aggregate to group polarization. No silencing required."
+
+- question: "Groups always make riskier decisions than individuals because group discussion dilutes personal caution."
+  type: true-false
+  answer: false
+  explanation: "This was the original 'risky shift' hypothesis, and it was wrong. Groups shift toward whichever direction the majority already leans — riskier if the group leans risky, more cautious if the group leans cautious. The general principle is polarization toward the prevailing pole, not a universal drift toward risk. The risky shift was observed in specific experimental contexts where groups happened to lean toward risk; subsequent research showed the symmetric effect when groups leaned toward caution. 'Risky shift' was a misnomer for the broader phenomenon."
+
+- question: "Why is it important to distinguish group polarization from groupthink, even though both produce problematic group decisions?"
+  type: short-answer
+  answer: "Because the mechanisms are different and the interventions required are different. Groupthink requires suppression of dissent — the group enforces consensus by silencing minority voices, and the solution is to protect and encourage dissent. Group polarization does not require suppression; it can occur in open, good-faith discussion when the argument pool is already skewed. The solution for polarization is not simply allowing dissent — it requires introducing substantively different arguments or perspectives that break the homogeneity of the argument pool. Misdiagnosing polarization as groupthink leads to ineffective interventions."
+  explanation: "The distinction also matters for understanding modern phenomena like online echo chambers. In echo chambers, no one is necessarily silenced — everyone can speak freely. But the distribution of arguments encountered is skewed by algorithmic curation and self-selection toward like-minded voices. Group polarization theory, not groupthink, explains why exposure to this biased argument sample shifts beliefs toward extremes even without any social pressure or suppression."
+```
+
 ## Explainer
 
 From your study of group dynamics, you know that groups exert powerful influences on individual behavior. From normative versus informational influence, you know that people conform both to gain approval (normative) and because they genuinely update their beliefs based on what others know (informational). Group polarization is what happens when these two forces combine in a group that already leans in one direction — they amplify that lean, pushing the group's collective position further toward the extreme than any individual member held before discussion began.

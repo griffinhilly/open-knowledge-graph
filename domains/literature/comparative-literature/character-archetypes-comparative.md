@@ -30,6 +30,45 @@ Trace how a character archetype (hero or trickster) appears in texts from at lea
 ## Common Misconceptions
 Archetypes are not universal; they are culturally constructed patterns that recur. Identifying an archetypal pattern should not reduce the specificity of an individual character. A character may work as both a culturally specific individual and an instance of a broader pattern.
 
+## Questions
+
+```yaml
+- question: "A student compares Achilles and Sun Wukong and concludes: 'Both are hero archetypes following the monomyth pattern — this shows that heroism is a universal human value.' A professor says the analysis is incomplete. Which response best captures the professor's critique?"
+  type: multiple-choice
+  options:
+    - "The student should have used Jungian rather than Campbellian archetypal theory to make the comparison valid"
+    - "Identifying the shared archetypal pattern is where comparative analysis begins, not where it ends — the differences in what heroism means, what it demands, and what it achieves in each tradition are the comparative insight"
+    - "Achilles and Sun Wukong cannot be compared because they come from different cultural traditions with no historical contact"
+    - "The monomyth pattern applies only to Western heroic literature and should not be used for Chinese texts"
+  answer: 1
+  explanation: "The methodological error is treating the archetypal identification as the conclusion. Saying 'both are monomyth heroes' is the beginning of a comparative question, not its answer. The valuable analysis lies in the differences: Achilles's heroism is inseparable from destructive rage and the tension between glory and mortality; Sun Wukong's heroism requires his trickster rebellion to be tamed before it can be channeled. These differences reveal what each tradition values, fears, and demands of its heroes. The archetype is the frame that makes meaningful comparison possible; the cultural specificity is the content."
+
+- question: "The Trickster archetype appears in West African (Anansi), Norse (Loki), and Greek (Hermes) traditions. What makes a comparative reading analytically valuable rather than reductive?"
+  type: multiple-choice
+  options:
+    - "Demonstrating that all trickster figures are essentially the same character expressed through different cultural costumes"
+    - "Using the shared structural features (cunning, transgression, boundary-crossing) to set up a comparison that then reveals how each tradition assigns different moral weight to trickery depending on its social context"
+    - "Listing the trickster's attributes in each tradition and ranking them by degree of cunning or transgression"
+    - "Arguing that one cultural tradition's trickster is more authentic or original than the others"
+  answer: 1
+  explanation: "Anansi's cunning is explicitly a survival strategy for the powerless against the powerful — cunning as resistance. Loki's cunning is ultimately destructive to his community — cunning as threat. Hermes's trickery is recuperated into divine function — cunning as cosmic mechanism. The 'same' structural features carry radically different moral weight. A comparative reading that stopped at 'all three use cunning and transgression' would miss the reason comparison is valuable: the differences reveal each tradition's values, social concerns, and anxieties about power and transgression."
+
+- question: "A character can simultaneously function as a culturally specific individual and as an instance of a broader archetypal pattern, without one reading reducing the other."
+  type: true-false
+  answer: true
+  explanation: "This is the methodological balance comparative archetype analysis requires. Achilles is both a hero archetype (following recognizable patterns of martial excellence, mortality, and glory) and a culturally specific figure whose destructive rage, his relationship to Patroclus, and his choice between a long life and a glorious death reflect specifically Greek values and epic conventions. The two readings are complementary: the archetypal frame makes comparison across traditions possible; the cultural specificity is what each tradition contributes to that frame."
+
+- question: "Archetypes are universal in the sense that they appear identically across all cultures — the surface differences between a Greek hero and a West African trickster are superficial variations on a fixed underlying pattern."
+  type: true-false
+  answer: false
+  explanation: "This is the reductive reading that comparative archetype analysis specifically resists. Archetypes are culturally constructed recurring patterns, not fixed essences with universal content. The differences are not superficial — they reveal what each culture values, fears, and imagines as possible. Anansi's cunning as survival against power and Loki's cunning as community threat are not variations on the same moral lesson; they encode genuinely different relationships between cleverness, power, and social belonging. Reducing them to 'the trickster' loses this analytical content."
+
+- question: "Why does the comparative method use archetypes as a starting point rather than a conclusion, and what does the comparison reveal that identifying the archetype alone cannot?"
+  type: short-answer
+  answer: "Archetypes establish that a meaningful comparison is possible — that Achilles and Gilgamesh are both 'heroes' gives us a common frame across traditions. But the value of the comparison lies in the differences the frame reveals: why is Achilles's heroism about glory and rage while Gilgamesh's is about friendship and acceptance of mortality? These differences reveal what each tradition values, what it imagines as the costs and achievements of extraordinary human action. Identifying the archetype alone cannot reveal this because it treats difference as noise rather than signal. The comparison's purpose is to illuminate cultural specificity through structured juxtaposition."
+  explanation: "The archetype functions as a controlled variable: holding 'hero' constant, we can isolate what varies — the values embodied, the price demanded, the relationship to the community, the outcome. Without the shared frame, we cannot know what to compare. Without the cultural specificity, we cannot know what the comparison tells us. Comparative archetype analysis requires both moves, in sequence."
+```
+
 ## Explainer
 
 Your prerequisite in archetypal criticism introduced the concept of recurring character patterns — the hero, the trickster, the wise elder, the scapegoat — and the theoretical frameworks (Jung, Campbell, Frye) that explain their recurrence. Your work on characterization methods gave you the tools to analyze how individual characters are constructed: through action, dialogue, description, contrast. The comparative move combines both: you use those archetypal categories across traditions not to flatten characters into instances of a universal pattern, but to see precisely where and how each tradition inflects the pattern differently.

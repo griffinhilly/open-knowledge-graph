@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 RBC theory models business cycles as efficient responses to exogenous technology shocks in competitive markets with flexible prices, rational expectations, and perfectly functioning financial markets. Persistent technology shocks drive both output and employment fluctuations through intertemporal substitution and income effects on labor supply, with no involuntary unemployment in equilibrium. RBC models minimize a role for monetary policy in stabilization and predict that output fluctuations reflect optimal responses to real fundamentals rather than nominal frictions.
 
+## Questions
+
+```yaml
+- question: "According to RBC theory, why does a negative technology shock cause employment to fall, given that labor markets are competitive and workers are not involuntarily unemployed?"
+  type: multiple-choice
+  options:
+    - "Firms cannot afford to pay workers when productivity falls, so they must lay them off involuntarily"
+    - "Financial market disruptions during downturns reduce firms' access to credit, forcing them to cut payroll"
+    - "Workers rationally choose to work less during periods of low productivity because real wages are temporarily low — working now has a lower return than waiting for wages to recover"
+    - "The government reduces labor subsidies during recessions, raising the effective cost of hiring"
+  answer: 2
+  explanation: "RBC models produce employment fluctuations through intertemporal substitution of labor: workers choose when to work by comparing current real wages to expected future real wages. During a negative technology shock, real wages fall temporarily. Rational workers substitute leisure now (work less) for work later (when wages recover), just as consumers intertemporally substitute consumption. This is voluntary adjustment, not layoffs. There is no involuntary unemployment in the model. The mechanism is subtle — it looks like a recession from outside, but RBC says it is optimal behavior, which is why the welfare implications are so controversial."
+
+- question: "A country enters a recession. An economist trained in RBC theory proposes no fiscal stimulus. Her most consistent justification would be:"
+  type: multiple-choice
+  options:
+    - "Fiscal multipliers are positive but too small to justify the debt"
+    - "Monetary policy is more effective than fiscal policy for demand stabilization"
+    - "The recession represents the economy's efficient optimal response to a real shock; stimulus would move the economy away from its Pareto-efficient path"
+    - "Tax cuts are preferable to government spending as a stimulus tool"
+  answer: 2
+  explanation: "The RBC welfare implication is its most provocative feature: because markets are competitive, prices are fully flexible, and agents have rational expectations, the equilibrium is Pareto efficient. A recession caused by a negative technology shock is the optimal response — workers should work less when productivity is low, firms should invest less when returns are low. Stabilization policy would push the economy away from this efficient equilibrium, not toward it. Options A, B, and D all accept that stabilization might be beneficial in principle; only C reflects the RBC view that stabilization is actively counterproductive."
+
+- question: "In RBC models, recessions occur because market failures, sticky prices, or monopoly power prevent the economy from reaching its efficient equilibrium."
+  type: true-false
+  answer: false
+  explanation: "False — this is precisely what RBC theory denies. RBC models assume perfectly competitive markets, fully flexible prices, and rational expectations. There are no frictions, no nominal rigidities, and no market failures. Recessions occur because technology shocks reduce the economy's productive capacity, and the efficient response is to produce and employ less. This is what makes RBC theory distinct from Keynesian models: not that recessions happen, but that they represent efficient equilibria rather than departures from efficiency. New Keynesian models later added the nominal frictions and imperfections that RBC excludes."
+
+- question: "RBC theory established the DSGE modeling framework that subsequent New Keynesian models adopt, even though those models reject RBC's assumption of perfectly flexible prices."
+  type: true-false
+  answer: true
+  explanation: "True. RBC's lasting methodological contribution is the DSGE (dynamic stochastic general equilibrium) framework: a model with rational expectations, explicit microfoundations (households maximizing utility, firms maximizing profits), and stochastic shocks that drive fluctuations. New Keynesian models keep this entire structure but add nominal rigidities (sticky prices and wages) and imperfect competition. Understanding RBC is therefore prerequisite to understanding New Keynesian economics — every subsequent macro model is defined by which RBC assumptions it relaxes. The framework survived even as the policy conclusions were heavily qualified."
+
+- question: "What is the key welfare implication of RBC theory's claim that recessions are efficient responses to technology shocks, and why does this make government stabilization policy unnecessary in an RBC framework?"
+  type: short-answer
+  answer: "If recessions are Pareto-efficient equilibria — the best possible allocation given the actual state of technology — then there is nothing for policy to fix. Stabilization policy (fiscal spending, monetary easing) would move the economy away from its efficient equilibrium by inducing workers to work more, firms to invest more, or consumers to spend more than is optimal given the current productivity level. In an RBC world, the recession is not a problem to be solved but a rational adjustment to a real constraint. This stands in stark contrast to Keynesian views, where recessions involve involuntary unemployment and demand shortfalls that policy can correct."
+  explanation: "The policy implication follows directly from the efficiency claim. If the equilibrium is Pareto efficient, any government intervention that moves output above the equilibrium level is welfare-reducing — it forces workers to work more than they would voluntarily choose at the current real wage, or distorts investment decisions. RBC economists therefore argue that stabilization policy is not just unnecessary but actively harmful. This conclusion is highly controversial and is the main reason New Keynesian economists added nominal frictions: to restore a role for policy by creating a gap between the actual and efficient equilibria."
+```
+
 ## Explainer
 
 From the Solow growth model, you already understand how an economy's output depends on capital, labor, and technology, and how the economy converges toward a steady state. Real Business Cycle theory takes that same production-function framework and asks a different question: what if the fluctuations we observe in GDP, employment, and investment are not failures of the market but *optimal responses* to changes in technology? Where Solow treats technology as a smooth trend, RBC introduces **technology shocks** — random, persistent changes in total factor productivity — as the primary driver of business cycles.

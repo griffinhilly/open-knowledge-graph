@@ -30,6 +30,45 @@ Start by solving 2x2 systems as review, then extend to 3x3. Use Gaussian elimina
 - Thinking three equations always have a unique solution (they can be inconsistent or dependent).
 - Not checking the solution in all three original equations.
 
+## Questions
+
+```yaml
+- question: "While solving a 3×3 linear system by elimination, you correctly reduce to two equations in x and y, then derive the equation 0 = 5. What does this mean?"
+  type: multiple-choice
+  options:
+    - "The system is inconsistent — there is no point where all three planes intersect"
+    - "You made an arithmetic error — a valid system always yields a solvable equation at this stage"
+    - "The system has infinitely many solutions — 0 = 5 indicates the planes coincide"
+    - "You need to switch to substitution to proceed"
+  answer: 0
+  explanation: "A contradiction like 0 = 5 is a meaningful algebraic signal, not an error. It means the three planes have no common intersection — the system is inconsistent. Geometrically, the planes may intersect each other pairwise in lines but never all three at one point (like the three faces of a triangular prism). If instead you reached 0 = 0, that would indicate infinitely many solutions (a dependent system). Only an equation with a variable term yields a unique value for that variable."
+
+- question: "A system of three linear equations in three variables has a unique solution. What does this mean geometrically?"
+  type: multiple-choice
+  options:
+    - "All three planes intersect at exactly one point in three-dimensional space"
+    - "The three planes are all parallel to each other"
+    - "Two of the planes are parallel and the third crosses both"
+    - "All three planes are identical — they occupy the same region of space"
+  answer: 0
+  explanation: "Each equation in three variables defines a plane. A unique solution means there is exactly one point (x, y, z) satisfying all three equations simultaneously — one point all three planes share. Options B and C describe configurations with no solution (inconsistent). Option D describes infinitely many solutions (dependent). The geometry of three planes in 3D offers exactly these outcomes: one point, a line or plane of overlap, or no overlap."
+
+- question: "A system of three linear equations in three variables always has exactly one solution, since three equations should uniquely determine three unknowns."
+  type: true-false
+  answer: false
+  explanation: "Three equations and three unknowns do not guarantee a unique solution. The system can be inconsistent (no solution — the planes have no common intersection point) or dependent (infinitely many solutions — the planes share a line or are identical). The algebraic signals during elimination reveal which case applies: a contradiction (0 = 5) means inconsistent; a tautology (0 = 0) means dependent. Assuming uniqueness without checking leads to incorrect conclusions."
+
+- question: "If reducing a 3×3 system by elimination produces the equation 0 = 0, the system has infinitely many solutions."
+  type: true-false
+  answer: true
+  explanation: "0 = 0 is a tautology — always true and carrying no information about the variables. This means the equations are not fully independent: one is a linear combination of the others, so they do not together constrain the solution to a single point. Geometrically, the planes share more than a point — they intersect in a line or one plane contains another. Infinitely many points on that shared object satisfy all three equations."
+
+- question: "Describe the two-stage process for solving a 3×3 linear system by elimination. Why must you eliminate the same variable from two different pairs of equations in the first stage, rather than just one pair?"
+  type: short-answer
+  answer: "In the first stage, choose one variable (say z) and eliminate it from two different pairs of equations — for example, equations 1 & 2, then equations 1 & 3. Each elimination produces one equation in only x and y, giving a 2×2 system. In the second stage, solve that 2×2 system for x and y, then substitute back into any original equation to find z. You must use two different pairs because a single elimination only removes z from one pair, giving you just one equation in x and y — not enough to solve for two unknowns."
+  explanation: "The strategy is staged reduction: each stage reduces the number of variables per equation by 1. With 3 variables, you need two independent eliminations in the first stage to produce two independent equations in 2 variables. Using the same pair twice would yield two copies of the same equation — not two independent constraints — leaving the 2×2 system unsolvable. Independence of the derived equations is as important as the mechanics of elimination."
+```
+
 ## Explainer
 
 You already know how to solve a two-equation system in two unknowns. Each equation defines a line, and the solution is the intersection point. Now extend that geometric picture one dimension: three equations in three variables (x, y, z) each define a **plane** in three-dimensional space. The solution to the system is whatever geometric object all three planes share — most often a single point (x, y, z), but sometimes a line, sometimes all of space (if the planes are identical), and sometimes nothing (if the planes are inconsistent).

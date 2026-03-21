@@ -33,6 +33,45 @@ Use protractors to measure and verify angle relationships. Draw intersecting lin
 - Thinking adjacent angles are always supplementary (they are only supplementary if they form a straight line).
 - Assuming vertical angles are "next to each other" when they are actually across from each other.
 
+## Questions
+
+```yaml
+- question: "Two vertical angles at an intersection are labeled (5x − 8)° and (3x + 14)°. What is the measure of each angle?"
+  type: multiple-choice
+  options:
+    - "89° — because vertical angles are supplementary: (5x−8) + (3x+14) = 180"
+    - "47° — because vertical angles are equal: 5x−8 = 3x+14, giving x = 11"
+    - "55° — because vertical angles together equal 110° (half the full rotation)"
+    - "22° — because vertical angles are complementary: (5x−8) + (3x+14) = 90"
+  answer: 1
+  explanation: "Vertical angles are equal to each other, not supplementary. Set 5x − 8 = 3x + 14: subtract 3x to get 2x − 8 = 14, add 8 to get 2x = 22, so x = 11. Each angle measures 5(11) − 8 = 47°. Check: 3(11) + 14 = 47°. ✓ Option A shows the most common error — treating vertical angles as supplementary instead of equal."
+
+- question: "One angle formed by two intersecting lines measures 130°. What is the measure of an adjacent angle at the same intersection?"
+  type: multiple-choice
+  options:
+    - "130° — adjacent angles at an intersection are always equal to each other"
+    - "50° — adjacent angles at an intersection are supplementary, summing to 180°"
+    - "65° — adjacent angles split the remaining degrees equally"
+    - "230° — together the two angles make a full rotation of 360°"
+  answer: 1
+  explanation: "Adjacent angles formed at an intersection lie on a straight line together, making them supplementary: they sum to 180°. So 180° − 130° = 50°. The 130° angle's vertical angle (directly across) is also 130°, but the angles next to it (adjacent) are each 50°. Option A is the common confusion between vertical angles (equal) and adjacent angles (supplementary) — they are different relationships at the same intersection."
+
+- question: "Vertical angles are the two angles at an intersection that share a side (a common ray)."
+  type: true-false
+  answer: false
+  explanation: "Vertical angles share only the vertex — the intersection point — not a side. They are the angles directly across from each other, formed on opposite sides of the intersection. Angles that share a side are adjacent angles. The misconception is thinking 'vertical' means 'side by side,' but in geometry, vertical angles are the non-adjacent pair that are equal in measure."
+
+- question: "If two angles are both supplementary to the same angle, then the two angles must be equal to each other."
+  type: true-false
+  answer: true
+  explanation: "If angle A is supplementary to angle C, then A = 180° − C. If angle B is also supplementary to angle C, then B = 180° − C. Since A and B both equal 180° − C, they equal each other. This follows directly from the definition of supplementary angles and properties of equality. The same logic applies to complementary angles: two angles both complementary to the same angle are also equal to each other."
+
+- question: "Explain why vertical angles must always be equal. Use the supplementary angle relationship in your explanation."
+  type: short-answer
+  answer: "When two lines intersect, they form four angles. Take any angle — call it angle A with measure x°. The angle adjacent to A (sharing a side, forming a straight line with A) is supplementary to A, so it measures 180° − x°. The angle directly across from A (the vertical angle) is also adjacent to the 180° − x° angle. Since it's supplementary to that angle, it measures 180° − (180° − x°) = x°. So the vertical angle equals x° — the same as angle A. Vertical angles are equal because they are each the supplement of the same adjacent angle."
+  explanation: "This proof uses a chain of supplementary relationships: A and its neighbor are supplementary, and A's vertical angle and that same neighbor are also supplementary. Two angles supplementary to the same angle must be equal to each other. This is the logical structure behind the vertical angles theorem."
+```
+
 ## Explainer
 
 You already know how to add and subtract integers, and how to solve a one-step equation like x + 65 = 180. Angle relationships are exactly the context where those skills become useful in geometry. The core idea is that certain pairs of angles have a fixed sum or a fixed equality, which turns every angle problem into an equation you already know how to solve.

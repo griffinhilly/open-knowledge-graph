@@ -36,6 +36,45 @@ Build a library of benchmark series (geometric, p-series). Practice bounding ser
 - Forgetting that both series must have non-negative terms.
 - Choosing a comparison series that is not actually larger or smaller as needed.
 
+## Questions
+
+```yaml
+- question: "You know Σ 1/n (the harmonic series) diverges. You find a series whose terms satisfy 0 ≤ aₙ ≤ 1/n for all n. What can the direct comparison test conclude about Σaₙ?"
+  type: multiple-choice
+  options:
+    - "Σaₙ diverges, because it is bounded above by a divergent series"
+    - "Σaₙ converges, because its terms are smaller than the harmonic series terms"
+    - "Nothing — bounding a series above by a divergent series gives no information about convergence or divergence"
+    - "Σaₙ diverges if its terms are positive; converges if some terms equal zero"
+  answer: 2
+  explanation: "Being bounded above by a divergent series is logically uninformative. The comparison test only works in two 'tight' directions: (1) if 0 ≤ aₙ ≤ bₙ and Σbₙ converges, then Σaₙ converges; (2) if 0 ≤ aₙ ≤ bₙ and Σaₙ diverges, then Σbₙ diverges. The condition here — bounded above by a divergent series — fits neither. As concrete evidence: aₙ = 1/n² satisfies aₙ ≤ 1/n but Σ 1/n² converges; aₙ = 1/(2n) also satisfies aₙ ≤ 1/n but Σ 1/(2n) diverges. The test cannot distinguish them."
+
+- question: "To show that Σ 1/(n² + 5n) converges using the direct comparison test, which approach is valid?"
+  type: multiple-choice
+  options:
+    - "Compare to Σ 1/n: since 1/(n² + 5n) < 1/n and Σ 1/n diverges, Σ 1/(n² + 5n) must converge"
+    - "Compare to Σ 1/n²: since n² + 5n > n² we have 1/(n² + 5n) < 1/n², and Σ 1/n² converges (p-series, p = 2)"
+    - "Compare to Σ 1/n³: since 1/(n² + 5n) > 1/n³, Σ 1/(n² + 5n) must diverge"
+    - "Compare to Σ 1/(5n): since n² + 5n < 5n for small n, the terms are eventually bounded below by 1/(5n)"
+  answer: 1
+  explanation: "Since n² + 5n > n² for all n ≥ 1, we have 1/(n² + 5n) < 1/n², establishing 0 ≤ 1/(n² + 5n) ≤ 1/n². Since Σ 1/n² converges (p-series with p = 2 > 1), the comparison test concludes Σ 1/(n² + 5n) converges. Option A is the classic error: bounding above by a divergent series proves nothing. Option C has the inequality backwards and draws the wrong conclusion. The valid move is always: bounded above by something convergent → convergent."
+
+- question: "If 0 ≤ aₙ ≤ bₙ for all n and Σaₙ diverges, then Σbₙ must also diverge."
+  type: true-false
+  answer: true
+  explanation: "True. This is one of the two valid moves of the comparison test. If the smaller series Σaₙ diverges — its partial sums grow without bound — then Σbₙ, whose partial sums are always at least as large (since bₙ ≥ aₙ ≥ 0), must also grow without bound. Intuitively: if even the smaller quantity is infinite, the larger one certainly is too."
+
+- question: "If 0 ≤ aₙ ≤ bₙ for all n and Σbₙ diverges, then Σaₙ must also diverge."
+  type: true-false
+  answer: false
+  explanation: "False. This is the most common error with the comparison test. Being bounded above by a divergent series tells you nothing. The smaller series can converge or diverge. Counterexample: 0 ≤ 1/n² ≤ 1/n for all n ≥ 1, and Σ 1/n diverges, yet Σ 1/n² converges (p = 2 > 1). The only valid upper-bound move is: bounded above by a *convergent* series → convergence. The valid lower-bound move is: bounded below by a *divergent* series → divergence. The other two combinations are logically useless."
+
+- question: "Explain in your own words why only two of the four possible comparison directions yield valid conclusions, and identify which two are useless."
+  type: short-answer
+  answer: "The valid directions are: (1) if 0 ≤ aₙ ≤ bₙ and Σbₙ converges, then Σaₙ converges — partial sums of aₙ are bounded above by those of bₙ, and a bounded increasing sequence converges; (2) if 0 ≤ aₙ ≤ bₙ and Σaₙ diverges, then Σbₙ diverges — partial sums of bₙ exceed those of aₙ, which blow up. The two useless directions are: bounded above by a divergent series (being smaller than something infinite doesn't prevent convergence), and bounded below by a convergent series (being larger than something finite doesn't prevent divergence)."
+  explanation: "A useful analogy: if a small pile of rocks keeps growing forever, a larger pile certainly does too (valid). If a large pile is finite, the smaller one must be too (valid). But knowing the large pile grows forever tells you nothing about the small one, and knowing the small pile is finite tells you nothing about the large one. The comparison test encodes exactly these two monotone implications and nothing more."
+```
+
 ## Explainer
 
 You have built up a library of series whose convergence behavior you know exactly: **geometric series** Σ rⁿ converges when |r| < 1 and diverges otherwise; **p-series** Σ 1/nᵖ converges for p > 1 and diverges for p ≤ 1. The comparison test lets you leverage this library to analyze new, more complex series. The idea is simple: if you can trap a new series between two benchmarks whose behavior you know, you inherit their conclusions.

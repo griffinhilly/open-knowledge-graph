@@ -32,6 +32,45 @@ Begin with small graphs and try to find vertex covers by hand. Then reduce 3-SAT
 - Vertex cover becomes easy if we allow approximation (approximation is hard too, by PCP).
 - All NP-complete problems reduce to vertex cover (only true for problems NP-hard via specific reductions).
 
+## Questions
+
+```yaml
+- question: "You are running the O(2^k · n) branching algorithm on a graph and pick an uncovered edge (u, v). You branch: include u (recurse with k−1) or include v (recurse with k−1). A student proposes a third branch: include neither u nor v and skip this edge. Why is this branch invalid?"
+  type: multiple-choice
+  options:
+    - "It would make the algorithm exponential in n rather than just in k"
+    - "Every vertex cover must contain at least one endpoint of every edge, so skipping an uncovered edge guarantees an incomplete cover"
+    - "The third branch is only invalid when both u and v have degree greater than k"
+    - "Skipping edges is allowed but produces an approximation, not an exact solution"
+  answer: 1
+  explanation: "The definition of vertex cover requires that every edge has at least one endpoint in the cover. If you skip edge (u, v), neither endpoint is guaranteed to be included, and that edge remains uncovered. The two-branch structure is exhaustive precisely because one of {u, v} MUST be in any valid vertex cover — there is no third option."
+
+- question: "In the kernelization algorithm for vertex cover, why must every vertex of degree greater than k be included in the cover?"
+  type: multiple-choice
+  options:
+    - "High-degree vertices appear in clause gadgets from the 3-SAT reduction, making them mandatory"
+    - "If such a vertex is omitted, each of its more-than-k neighbors must be included to cover its incident edges, which already exceeds the budget of k vertices"
+    - "High-degree vertices form independent sets that must all be covered"
+    - "The greedy approximation always selects high-degree vertices first"
+  answer: 1
+  explanation: "If a vertex v has degree > k and you omit it from the cover, then every one of its neighbors must be included (to cover each edge incident to v). That alone requires more than k vertices — exceeding the budget before covering any other edges. So v must be in the cover. This structural observation allows kernelization to reduce the graph: include all degree > k vertices, decrement k accordingly, and if more than k² edges remain afterward, the answer is 'no.'"
+
+- question: "The complement of a vertex cover in a graph is always an independent set."
+  type: true-false
+  answer: true
+  explanation: "A set S is a vertex cover iff every edge has at least one endpoint in S. This means no edge can have both endpoints outside S — which is exactly the definition of the complement V \\ S being an independent set (no two vertices in it are adjacent). This duality is not just a curiosity: it means finding a minimum vertex cover is equivalent to finding a maximum independent set, and both are NP-hard."
+
+- question: "Since vertex cover is NP-complete, no polynomial-time algorithm can achieve any constant-factor approximation for it."
+  type: true-false
+  answer: false
+  explanation: "A simple 2-approximation exists: select any uncovered edge and add BOTH its endpoints to the cover; repeat until all edges are covered. This always produces a cover of size at most twice the optimum. The hardness of approximation is more subtle: under the Unique Games Conjecture it cannot be approximated below 2 − ε, but this is not unconditionally proven. By contrast, SET COVER has a tight ln|U| inapproximability bound under standard assumptions — the file's misconception may conflate these two distinct results."
+
+- question: "Why does the NP-completeness proof for vertex cover require two distinct types of gadgets (variable gadgets and clause gadgets) in the reduction from 3-SAT?"
+  type: short-answer
+  answer: "Variable gadgets encode the truth-assignment constraint: each variable must be assigned true or false (both endpoints of the variable edge exist; the cover must pick exactly one, encoding the assignment). Clause gadgets encode the satisfiability constraint: each clause must be satisfied by at least one literal. The two gadget types serve logically different roles — variables create forced binary XOR-like choices while clauses create OR-like structural connections linking those choices to satisfiability. A single gadget type could not simultaneously encode both constraints."
+  explanation: "The reduction works only because both constraints are independently captured. Variable edges force a binary choice (true/false), and clause triangles with connections to literal vertices force at least one satisfied literal per clause. The cover size n + 2m is calibrated so that exactly the right variable choices and clause completions are needed — this tight accounting requires the two-gadget structure."
+```
+
 ## Explainer
 
 A **vertex cover** of a graph is a set S of vertices such that every edge has at least one endpoint in S. Think of it as a guard-placement problem: you want to station guards at vertices so that every corridor (edge) is watched by at least one guard. The decision version asks: does graph G have a vertex cover of size at most k? From your work on NP-completeness and 3-SAT, you understand the framework — this problem is NP-complete, meaning it is in NP and every NP problem reduces to it in polynomial time.

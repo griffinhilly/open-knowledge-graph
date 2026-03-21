@@ -39,6 +39,45 @@ Map the spatial distribution of race and class in a specific city using census d
 - Urban problems (crime, poverty) are not inherent to city life but reflect how cities concentrate and make visible inequalities produced elsewhere.
 - Gentrification is not simply neighborhood improvement; it typically involves the displacement of lower-income residents and cultural erasure.
 
+## Questions
+
+```yaml
+- question: "Georg Simmel's 'blasé attitude' in urban residents is best understood as:"
+  type: multiple-choice
+  options:
+    - "A cultural deficiency — urban people have lost the authentic social bonds of rural community"
+    - "A rational psychological adaptation to intense urban stimulation that would overwhelm anyone who engaged fully with every encounter"
+    - "A product of economic inequality — only wealthy urbanites develop detachment because they can afford to ignore others"
+    - "A temporary phase urbanites move through before re-establishing close community ties"
+  answer: 1
+  explanation: "Simmel's argument is sociological explanation, not moral criticism. The blasé attitude is a protective mechanism: the density, pace, and constant encounters of city life produce stimulation overload. Emotional detachment is the psyche's rational response. It also enables the impersonal money economy cities depend on — transactions between strangers proceed without personal knowledge or trust. Understanding this as adaptation rather than deficiency reframes 'cold urban people' as people doing what any organism does under overwhelming stimulation."
+
+- question: "A researcher finds that two people with identical education, skills, and work history have significantly different employment outcomes depending on which neighborhood they grew up in. The most sociologically complete explanation is:"
+  type: multiple-choice
+  options:
+    - "Individual motivation and attitudes differ by neighborhood, so the outcomes reflect personal choice"
+    - "Neighborhood effects operate through school quality, peer networks, employment contacts, and institutional resources that vary by location independently of individual characteristics"
+    - "The finding must reflect measurement error, since individual characteristics should determine outcomes"
+    - "Neighborhoods reflect the average choices of their residents, so neighborhood differences simply summarize individual differences"
+  answer: 1
+  explanation: "This is the core concept of neighborhood effects: context shapes life chances independently of individual characteristics. High-poverty segregated neighborhoods produce unequal outcomes through multiple mechanisms — underfunded schools, weaker employment networks, more intense policing, environmental exposure differences. The same person has different life chances in different neighborhood contexts, demonstrating that place-based inequality is real and not reducible to individual attributes."
+
+- question: "High poverty rates in urban neighborhoods are primarily caused by city life itself — density and anonymity create conditions that generate poverty."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception. Urban poverty is not caused by city life; cities concentrate and make visible inequalities produced by broader structural forces: deindustrialization, racial discrimination in lending (redlining) and housing (restrictive covenants), capital disinvestment, and labor market restructuring. The Chicago School's ecological model was criticized precisely for treating neighborhood change as an impersonal natural process, obscuring the deliberate policy choices and power exercises that shaped urban inequality."
+
+- question: "Gentrification primarily benefits urban neighborhoods by increasing property values, improving services, and reducing crime, with displacement being a minor side effect."
+  type: true-false
+  answer: false
+  explanation: "This framing embeds the key misconception. Gentrification's benefits (improved physical conditions, new amenities, increased tax revenue) flow primarily to property owners and incoming higher-income residents. The costs — displacement of lower-income residents, destruction of social networks, loss of cultural institutions, rising rents — are borne by long-term community members who have the least power to resist. The sociological question is: who captures the gains and who bears the costs? 'Neighborhood improvement' language conceals this distributional inequality."
+
+- question: "Explain why the Chicago School's ecological model of urban zones was both productive and ultimately limited as a framework for understanding urban inequality."
+  type: short-answer
+  answer: "The ecological model was productive because it organized systematic empirical research around spatial patterns, introducing ethnography and demographic mapping to analyze how neighborhoods change through 'invasion and succession.' It demonstrated that urban structure has patterns worth studying scientifically. It was limited because it treated these processes as impersonal natural forces, when they were actually produced by deliberate decisions: redlining excluded minorities from mortgage credit, restrictive covenants legally prohibited sales to them, highway construction deliberately destroyed minority neighborhoods. The model naturalized political and economic inequality rather than revealing its causes."
+  explanation: "The limitation is theoretical, not empirical: the model described patterns without asking who produced them and who benefited. Contemporary urban sociology uses political economy and stratification theory to analyze the power relationships that create spatial inequality — asking 'who decides?' rather than 'what pattern emerges?'"
+```
+
 ## Explainer
 
 Your prerequisites in social stratification and social structure give you the conceptual tools to approach what follows. Cities are not merely large concentrations of people — they are spatial concentrations of social inequality, distinctive forms of social interaction, and the most visible expression of how economic structures shape everyday life. Urban sociology applies the stratification concepts you already know to the specific material and spatial conditions that cities create, asking how living arrangements, neighborhood contexts, and urban form both reflect and reproduce inequality.

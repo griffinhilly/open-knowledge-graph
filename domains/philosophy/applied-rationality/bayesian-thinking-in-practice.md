@@ -33,3 +33,42 @@ Start with low-stakes predictions: estimate the probability of everyday events (
 - Bayesian thinking does not require precise numerical calculations for every belief — rough directional updates are often sufficient and more realistic.
 - Being Bayesian does not mean being wishy-washy — strong evidence warrants strong updates and confident beliefs.
 - Bayesian reasoning is not just for scientific hypotheses — it applies to everyday decisions like which route to take or whether to trust a claim.
+
+## Questions
+
+```yaml
+- question: "A rare disease affects 1 in 1,000 people. A diagnostic test has a 95% sensitivity and a 5% false-positive rate. You test positive. What is the approximately correct Bayesian interpretation?"
+  type: multiple-choice
+  options:
+    - "The probability you have the disease is much less than 95%, because the low base rate means most positive tests are false positives"
+    - "You have a 95% chance of having the disease, since the test is 95% accurate"
+    - "You have a 50% chance, since a binary test produces roughly equal odds"
+    - "The base rate is irrelevant once you have a positive test result"
+  answer: 0
+  explanation: "Bayesian reasoning requires incorporating the prior (base rate). Of 1,000 people tested: about 1 true case (detected 95% of the time) and about 50 false positives (5% of 999 non-cases). So approximately 51 people test positive, of whom only 1 is a true case — roughly a 2% probability of disease despite a positive test. Option B is classic base rate neglect: treating test accuracy as equivalent to post-test probability ignores the prior. The low base rate dominates because it generates far more false positives than true positives."
+
+- question: "You are 70% confident a restaurant will be good based on a trusted friend's recommendation. You then read five highly critical online reviews from strangers. Which response is most consistent with Bayesian reasoning?"
+  type: multiple-choice
+  options:
+    - "Reduce your confidence meaningfully — the reviews are evidence whose weight depends on how much more likely they are given a bad restaurant versus a good one"
+    - "Stay at 70% — a trusted personal recommendation outweighs anonymous online reviews"
+    - "Drop to near 0% — five critical reviews are overwhelming evidence against the restaurant"
+    - "Defer updating until you find a more authoritative source to resolve the conflict"
+  answer: 0
+  explanation: "Bayesian updating means treating new evidence as shifting your estimate proportional to the likelihood ratio — how much more probable these reviews are given 'bad restaurant' versus 'good restaurant'. The reviews should reduce confidence, but by how much depends on how diagnostic they are. Staying at 70% (option B) is anchoring — refusing to update. Dropping to near 0% (option C) overweights five reviews. Deferring entirely (option D) is refusing to update at all. Practical Bayesian thinking makes a directional update without waiting for perfect information."
+
+- question: "Practical Bayesian reasoning requires calculating explicit numerical probabilities for each update; working with rough likelihood ratios ('this evidence is about three times more likely under my hypothesis') is not genuinely Bayesian."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception about what it means to reason Bayesianly. The core skill is proportioning belief to evidence and actually updating — and this can be done with approximate reasoning. Thinking 'this evidence is about 3× more likely under my hypothesis than not, so I should update moderately toward it' is valid Bayesian practice. The formal mathematics is a precise implementation of the principle, not a prerequisite for applying it. What distinguishes Bayesian from non-Bayesian reasoning is the habit of updating, not the use of exact calculations."
+
+- question: "A well-calibrated Bayesian thinker should maintain perpetual uncertainty on most questions, since new evidence can always arrive that changes things."
+  type: true-false
+  answer: false
+  explanation: "Being Bayesian does not mean being perpetually uncertain or wishy-washy. When evidence is strong, Bayesian updating produces strong, confident beliefs — often above 99% probability. Calibration is the goal: a Bayesian thinker should be as confident as the evidence warrants, neither under-updating (staying uncertain when evidence is compelling) nor over-updating (jumping to certainty on weak evidence). Strong evidence warrants confident beliefs. Perpetual hedging on well-supported conclusions is miscalibration, not epistemic virtue."
+
+- question: "What does it mean to 'treat beliefs as probabilities,' and why does this framing make it easier to actually update your beliefs when new evidence arrives?"
+  type: short-answer
+  answer: "Treating a belief as a probability means assigning it a specific degree of credence — '70% confident this is true' rather than simply 'I believe this.' This framing makes updating explicit and systematic: when evidence arrives, you ask how much more likely that evidence is given the hypothesis versus not (the likelihood ratio), and shift your estimate accordingly. Without numerical encoding, beliefs tend to feel binary and we resist revising them. With probability assignments, the question shifts from 'is this true?' to 'how does this evidence change my estimate?' — a question that has a tractable, directional answer even without precise calculation."
+  explanation: "The probability framing also enables calibration tracking: if you regularly say you're '80% confident' about things, you should be right roughly 80% of the time when you say that. Keeping track reveals systematic biases — overconfidence in domains where you have little expertise, or underconfidence in domains where you have relevant evidence. This feedback loop is how Bayesian thinkers improve their reasoning over time, converting Bayesian thinking from an abstract principle into an empirically testable epistemic practice."
+```

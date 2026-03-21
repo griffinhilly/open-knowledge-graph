@@ -31,6 +31,45 @@ Examine your own habitus: how do your tastes, speech, manners reflect your socia
 ## Common Misconceptions
 Habitus isn't a rigid programming—it's a flexible repertoire of practices people improvise with in specific situations.
 
+## Questions
+
+```yaml
+- question: "A first-generation university student from a working-class background performs well academically but persistently feels out of place, self-conscious about their manner of speaking, and uncomfortable at faculty dinners. According to Bourdieu, the best explanation for this experience is:"
+  type: multiple-choice
+  options:
+    - "The student has not worked hard enough to adopt the norms of the new environment"
+    - "The student's habitus, formed in different social conditions, mismatches the field of the elite institution, producing discomfort rather than the smooth navigation of those who fit"
+    - "The student lacks specific cultural knowledge (art history, classical music) needed to succeed socially"
+    - "The institution is consciously discriminating against the student based on class background"
+  answer: 1
+  explanation: "Bourdieu's key insight is that mismatch between habitus and field produces felt discomfort — a sense of being an impostor — even when objective performance is strong. The habitus developed in working-class conditions does not automatically equip someone to navigate elite institutional fields with ease. Option A misidentifies habitus as a deficit that effort can fix; option C conflates habitus with cultural capital (a related but distinct concept); option D requires explicit intentionality that Bourdieu's framework specifically explains away."
+
+- question: "A sociologist observes that children of professionals disproportionately choose professional careers, while children of manual workers disproportionately enter trades — without any apparent family pressure. Bourdieu would explain this pattern primarily as:"
+  type: multiple-choice
+  options:
+    - "Rational calculation: people assess returns and pursue fields where they have the best chance"
+    - "Genetic inheritance of ability: professional families pass cognitive traits to children"
+    - "Habitus producing a sense of what possibilities are 'for people like us,' making some paths feel natural and others foreign before any conscious deliberation"
+    - "Social networks: professionals simply have more contacts in professional fields"
+  answer: 2
+  explanation: "The critical point is that habitus operates before conscious calculation. Choices that reproduce class position feel obvious, natural, and unchosen — not like strategic decisions. This is how inequality reproduces without explicit coercion or deliberate planning. Option A describes rational choice theory; option B is biological determinism; option D (social networks) is a real mechanism but operates at a different level than habitus."
+
+- question: "According to Bourdieu, the choices people make that reproduce their class position are primarily the result of conscious strategic planning aimed at staying within their social class."
+  type: true-false
+  answer: false
+  explanation: "The opposite is Bourdieu's point. Habitus makes class-reproducing choices feel natural, obvious, and unchosen — not like class strategy. A person from a working-class background who feels that elite universities 'aren't for them' is not consciously calculating that they should stay in their class; their habitus shapes their sense of what is desirable and possible before deliberation begins. This is precisely what makes habitus such a powerful mechanism of reproduction: it operates beneath the level of conscious intention."
+
+- question: "Habitus can lead people to avoid social fields that feel foreign or uncomfortable, even without consciously recognizing this as a class-based decision."
+  type: true-false
+  answer: true
+  explanation: "This is exactly Bourdieu's account of how habitus perpetuates inequality. When a social field feels uncomfortable, awkward, or 'not for me,' that felt sense is the mismatch between habitus and field — but it registers as personal preference or temperament, not as a class mechanism. People pursue fields that feel natural (because their habitus fits) and avoid those where they would feel like fish out of water, without necessarily identifying this pattern as structurally determined."
+
+- question: "Explain how Bourdieu's concept of habitus allows social inequality to reproduce itself without explicit discrimination or coercion."
+  type: short-answer
+  answer: "Habitus is a system of internalized dispositions — tastes, bodily habits, speech patterns, expectations — acquired through socialization in a given class position. These dispositions make choices that reproduce class position feel natural and unchosen: a working-class child 'naturally' gravitates toward certain careers, schools, and cultural practices not because they are told to, but because their habitus makes those feel like the right fit. Meanwhile, choices that would involve class mobility feel foreign, uncomfortable, or presumptuous. Because the mechanism is felt rather than enforced, it operates invisibly, without any individual or institution needing to actively discriminate."
+  explanation: "Bourdieu's key contribution is showing that inequality reproduces through the subjective experience of 'this is who I am and where I belong' — not just through structural barriers. The habitus of privilege is simultaneously an advantage in elite fields (ease, confidence, 'natural' cultural taste) and a filter that steers privileged people toward those fields. The same logic operates in reverse for those from disadvantaged backgrounds."
+```
+
 ## Explainer
 
 Your exposure to structural functionalism and conflict theory gave you two competing pictures of how society works. Functionalism sees society as a system of interdependent parts that sustain collective order; conflict theory emphasizes power, domination, and the reproduction of inequality. Bourdieu's concept of habitus is remarkable precisely because it tries to hold both insights simultaneously — and to show how they operate through individual bodies and dispositions rather than through impersonal structures or explicit coercion.

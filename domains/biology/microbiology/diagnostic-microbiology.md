@@ -41,6 +41,45 @@ Work through the diagnostic algorithm for pneumonia: specimen collection (sputum
 - Antibody-based tests cannot detect active infections during the serological window (first 1–2 weeks post-infection before seroconversion).
 - Sensitivity and specificity are fixed properties of a test; positive and negative predictive values are not — they change with population prevalence and must be recalculated for each clinical context.
 
+## Questions
+
+```yaml
+- question: "A rapid antigen test has 95% sensitivity and 95% specificity. It is used to screen a population where disease prevalence is 1%. A patient tests positive. Approximately what is the positive predictive value?"
+  type: multiple-choice
+  options:
+    - "95% — high sensitivity and specificity guarantee the result is reliable"
+    - "50% — the result is essentially a coin flip"
+    - "16% — most positive results in this setting are false positives"
+    - "75% — high sensitivity partially compensates for low prevalence"
+  answer: 2
+  explanation: "At 1% prevalence, applying Bayes' theorem: out of 10,000 people, 100 have the disease (true positives ≈ 95) and 9,900 don't (false positives ≈ 495). PPV = 95/(95+495) ≈ 16%. This means even a highly accurate test produces mostly false positives in a low-prevalence population. This is the critical insight: sensitivity and specificity are fixed test properties, but PPV depends on prevalence. Option A — the most common misconception — conflates test accuracy with predictive value."
+
+- question: "A patient is suspected of having pulmonary tuberculosis. Sputum culture on standard blood agar after 24 hours shows no growth. The most appropriate clinical interpretation is:"
+  type: multiple-choice
+  options:
+    - "The patient does not have tuberculosis — bacterial culture is the gold standard and a negative result rules it out"
+    - "Repeat the standard blood agar culture for an additional 48 hours before concluding it is negative"
+    - "A negative standard culture does not rule out TB; Mycobacterium tuberculosis requires specialized media and weeks of incubation, and PCR may be needed for rapid detection"
+    - "Perform IgM serology immediately, since a negative culture means no antibodies have been produced yet"
+  answer: 2
+  explanation: "M. tuberculosis grows extremely slowly — typical culture takes 2–6 weeks on Löwenstein-Jensen or MGIT media. Standard blood agar after 24 hours will always be negative for TB. This illustrates the key misconception: a negative culture result only rules out pathogens that the specific culture conditions would detect. Some organisms (slow-growing, fastidious, or truly unculturable) require alternative methods. IgM serology (option D) would also be unreliable in the first weeks due to the serological window."
+
+- question: "Sensitivity and specificity are fixed properties of a diagnostic test, but positive and negative predictive values change depending on the disease prevalence in the population being tested."
+  type: true-false
+  answer: true
+  explanation: "Sensitivity (true positive rate) and specificity (true negative rate) are intrinsic properties of the test determined during validation studies. They do not change with population. Positive predictive value (PPV) and negative predictive value (NPV) incorporate prevalence via Bayes' theorem: PPV = (sensitivity × prevalence) / [(sensitivity × prevalence) + (1−specificity)(1−prevalence)]. The same test that has PPV = 86% at 25% prevalence has PPV = 16% at 1% prevalence. This is why clinical context — determining the pre-test probability — is essential to interpreting any diagnostic result."
+
+- question: "An IgM antibody test for a newly emerged pathogen can reliably rule out active infection in a patient who was first exposed 5 days ago, since the immune system responds within days."
+  type: true-false
+  answer: false
+  explanation: "The serological window is the period (typically 1–2 weeks after infection) before the adaptive immune response generates detectable antibody levels. A patient exposed 5 days ago will almost certainly have a negative IgM test regardless of whether they are infected, because seroconversion has not yet occurred. A negative antibody test during the serological window is a false negative, not evidence against infection. Direct detection methods (culture, PCR, antigen tests) are needed for early-window diagnosis."
+
+- question: "Explain why a highly sensitive and specific test can still produce mostly false positives in a real clinical scenario. What determines whether a positive result from this test is trustworthy?"
+  type: short-answer
+  answer: "The trustworthiness of a positive test result is determined by the positive predictive value, which depends on disease prevalence (or more precisely, the pre-test probability). Even a test with 99% sensitivity and 99% specificity will have a PPV of only about 50% when disease prevalence is 1% — because the rare true positives are swamped by false positives from the large negative population. A positive result is most trustworthy when prevalence is high (e.g., testing symptomatic patients with strong clinical suspicion) and least trustworthy when screening asymptomatic low-risk individuals. This is why blanket screening programs for rare conditions with imperfect tests generate many false positive diagnoses."
+  explanation: "This Bayesian reasoning is one of the most practically important and counterintuitive insights in all of medicine. It explains why many positive screening results lead to unnecessary follow-up testing, patient anxiety, and over-treatment. The solution is not just better tests but better deployment of tests: use high-sensitivity tests for high-pretest-probability patients, use high-specificity tests to confirm positives identified by sensitive screening, and always recalculate predictive values for the specific clinical context."
+```
+
 ## Explainer
 
 You already understand how bacteria grow and reproduce in culture, how PCR amplifies specific DNA sequences, and the basics of the adaptive immune response (including antibody production). Diagnostic microbiology is where all of these concepts converge into a practical question: a patient is sick — what is causing the infection, and how do we find out?

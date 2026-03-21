@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Kinetic methods measure reaction rate to determine analyte concentration, exploiting zero-order or pseudo-first-order kinetics in the presence of excess reagent. Applications include enzyme assays and catalytic methods for metal ion determination.
 
+## Questions
+
+```yaml
+- question: "A clinical lab measures ALT enzyme activity in patient serum by adding substrate in 100-fold excess and monitoring absorbance change over 1 minute. Why is the large excess of substrate necessary for this measurement to work?"
+  type: multiple-choice
+  options:
+    - "To ensure the reaction goes to completion, so all enzyme molecules are fully consumed"
+    - "To create pseudo-first-order conditions where the rate depends only on enzyme concentration, not substrate concentration"
+    - "To prevent enzyme denaturation at high temperatures during the assay"
+    - "To increase the molar absorptivity of the product for better sensitivity"
+  answer: 1
+  explanation: "With substrate in large excess, [substrate] remains essentially constant throughout the measurement, simplifying the rate law to rate = k'[enzyme], where k' = k[substrate]. The rate is now directly proportional to enzyme concentration — the analyte. This is the pseudo-first-order strategy central to all kinetic methods. Option A describes an equilibrium method (wrong paradigm); the method measures rate, not endpoint. Options C and D are irrelevant to the kinetic measurement principle."
+
+- question: "A catalytic method determines trace iron by monitoring how fast an indicator reaction proceeds. At 1 ppb Fe³⁺, the indicator reaction turns over 10,000 times per second. At 2 ppb Fe³⁺, the turnover rate is 20,000 per second. What key property of catalytic methods does this illustrate?"
+  type: multiple-choice
+  options:
+    - "Each iron atom can catalyze multiple turnovers, amplifying a trace concentration into a detectable rate signal"
+    - "Iron reacts stoichiometrically with the indicator, so doubling concentration doubles the amount consumed"
+    - "The reaction reaches equilibrium faster at higher iron concentrations"
+    - "Higher concentrations require longer measurement times to maintain linearity"
+  answer: 0
+  explanation: "The power of catalytic methods lies in signal amplification: a single metal ion catalyst turns over many substrate molecules, so even sub-ppb concentrations generate measurable rates. This is why catalytic methods achieve far lower detection limits than direct spectrophotometric methods, where each analyte molecule contributes only one unit of signal. The linear doubling of rate with concentration confirms that iron is acting as a catalyst, not a stoichiometric reagent — the iron is not consumed, only the indicator substrate is."
+
+- question: "Kinetic methods in analytical chemistry must wait for the reaction to reach equilibrium before recording the measurement."
+  type: true-false
+  answer: false
+  explanation: "This is the fundamental distinction between kinetic and equilibrium methods. Kinetic methods deliberately measure BEFORE equilibrium — typically in the first seconds or minutes of the reaction using the initial rate. Measuring early, when concentrations have barely changed from starting values, ensures the rate is proportional to the initial analyte concentration. Waiting for equilibrium would destroy this proportionality; measuring at the endpoint is exactly what equilibrium methods (like spectrophotometry at completion) do."
+
+- question: "In a properly designed kinetic method, doubling the initial analyte concentration should approximately double the measured initial rate."
+  type: true-false
+  answer: true
+  explanation: "Under pseudo-first-order conditions (excess reagent), the rate law simplifies to rate = k'[analyte]. This is a linear relationship: doubling [analyte] doubles the rate. This linearity is what makes kinetic methods quantitatively useful — you can construct a calibration curve of rate vs. concentration and use it to determine unknown concentrations. Linearity depends on maintaining pseudo-first-order conditions throughout the measurement window."
+
+- question: "What is the analytical advantage of measuring the initial rate of a reaction rather than waiting for completion, and what experimental condition makes this measurement valid?"
+  type: short-answer
+  answer: "Measuring the initial rate is advantageous because the rate at t≈0 is directly proportional to the initial analyte concentration before significant consumption of reactants. The measurement is valid when the reagent is present in large excess (pseudo-first-order conditions), so the rate depends only on analyte concentration — not on the varying reagent concentration."
+  explanation: "Equilibrium methods measure total product formed, which loses kinetic information. Initial rate methods measure the slope of the signal-time curve at the start, when [analyte] ≈ [analyte]₀. This is valid only if the reagent is in large excess: otherwise the rate depends on both [analyte] and [reagent], both of which change over time, making the rate-concentration relationship nonlinear and analytically unusable. The pseudo-first-order simplification is the key enabling condition."
+```
+
 ## Explainer
 
 Most of the analytical methods you have studied so far — titrations, spectrophotometry, chromatography — are **equilibrium methods**: you wait for a reaction to go to completion or a separation to finish, then measure the final result. Kinetic methods take a fundamentally different approach. Instead of measuring *how much* product forms at the end, they measure *how fast* the reaction proceeds. The rate of a reaction depends on the concentration of reactants, so measuring the rate gives you the concentration — often faster and with greater selectivity than waiting for equilibrium.

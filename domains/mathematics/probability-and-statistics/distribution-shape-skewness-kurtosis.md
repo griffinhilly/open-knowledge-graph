@@ -28,6 +28,45 @@ Examine histograms and identify visual skewness and kurtosis. Calculate sample s
 ## Common Misconceptions
 Thinking skewness measures departure from normality (it measures asymmetry specifically). Confusing positive skew direction (right tail, not left). Using sample skewness as a formal test for normality without appropriate context.
 
+## Questions
+
+```yaml
+- question: "A dataset of household incomes shows mean = $85,000 and median = $60,000. Which best describes the shape of this distribution?"
+  type: multiple-choice
+  options:
+    - "Symmetric — mean and median are both valid measures of center"
+    - "Negatively skewed — the median is lower than the mean"
+    - "Positively skewed — extreme high incomes pull the mean above the median"
+    - "Leptokurtic — the gap between mean and median indicates heavy tails"
+  answer: 2
+  explanation: "When extreme high values pull the mean above the median, the distribution is positively skewed (right-skewed) — the long tail stretches rightward. Income is a classic example: most households earn moderate amounts, but a small number of very high earners pull the mean upward while the median stays near the typical value. Option B names the relationship correctly (median < mean) but labels it backwards — that ordering IS positive skew. Option D confuses skewness with kurtosis."
+
+- question: "Kurtosis primarily measures which property of a distribution?"
+  type: multiple-choice
+  options:
+    - "The degree of asymmetry — how far the peak is shifted left or right"
+    - "How peaked the distribution is — the height of the central peak"
+    - "The heaviness of the tails — how often extreme values occur"
+    - "The spread of the distribution relative to its mean"
+  answer: 2
+  explanation: "Kurtosis measures tail weight — how much of the distribution's variance comes from extreme values, relative to a normal distribution. High kurtosis (leptokurtic) means heavier tails and more frequent extreme events, not necessarily a taller peak. The 'peakedness' interpretation is the most common misconception. Asymmetry is measured by skewness, not kurtosis. Spread is measured by standard deviation or IQR."
+
+- question: "In a positively skewed distribution, the mean is greater than the median."
+  type: true-false
+  answer: true
+  explanation: "Positive skew means a long right tail — a few extreme high values. These extreme values drag the mean upward (since the mean uses all values) while the median (the middle value) is much less affected. The result is mean > median > mode in a right-skewed distribution. This relationship between mean and median is one of the most reliable practical indicators of skew direction when examining summary statistics."
+
+- question: "A leptokurtic distribution (high kurtosis) is characterized primarily by a tall, narrow peak at the center."
+  type: true-false
+  answer: false
+  explanation: "Kurtosis primarily measures tail heaviness, not peak height. A leptokurtic distribution has heavier tails than a normal distribution — extreme events occur more frequently than the normal model predicts. The central peak may appear taller as a visual consequence (since probability mass shifted to the tails must come from somewhere), but this is secondary. Financial return distributions are leptokurtic because they produce more crashes and booms than a normal distribution would predict, which is a statement about tails, not peaks."
+
+- question: "Why do the mean and standard deviation alone fail to fully describe a distribution, and what do skewness and kurtosis add?"
+  type: short-answer
+  answer: "Two distributions can have identical means and variances but completely different shapes. Skewness captures asymmetry — which tail is longer and by how much — which determines whether the mean is a reliable center summary. Kurtosis captures tail heaviness — how often extreme values occur — which determines whether variance-based methods like t-tests and confidence intervals are reliable. Together they reveal shape characteristics that determine whether standard statistical tools are appropriate for the data."
+  explanation: "This is the practical motivation for shape descriptors: before applying any parametric method, you need to know not just where the distribution is centered and how spread out it is, but whether it is symmetric and whether its tails are well-behaved. Strong skewness may call for a median-based analysis or a log transformation; high kurtosis may invalidate p-values computed under the normal assumption."
+```
+
 ## Explainer
 
 From your study of descriptive statistics, you know that a distribution can be summarized by its center (mean, median) and spread (standard deviation, IQR). But two distributions can have identical means and variances and still look completely different. **Skewness** and **kurtosis** are the shape descriptors that capture what the mean and standard deviation miss — asymmetry and tail behavior.

@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 When a spinning gyroscope experiences a torque perpendicular to its angular momentum, it does not simply fall but precesses—the angular momentum vector rotates at a constant angular velocity Ω = τ/L, perpendicular to both τ and L.
 
+## Questions
+
+```yaml
+- question: "A student holds a spinning bicycle wheel by its axle horizontally. When they release one end, instead of the axle tilting downward as expected, it slowly rotates horizontally. The student thinks gravity must not be acting on the spinning wheel. What is the correct explanation?"
+  type: multiple-choice
+  options:
+    - "Gravity is acting, but the spinning motion generates an upward force that cancels it"
+    - "Gravity generates a torque that changes the direction of the angular momentum vector rather than its magnitude — the spin axis rotates (precesses) horizontally rather than tilting down"
+    - "The wheel is spinning too fast for gravity to deflect it during the brief observation period"
+    - "Conservation of angular momentum prevents any change in the wheel's orientation"
+  answer: 1
+  explanation: "Gravity does act on the wheel and creates a real torque. But that torque acts on a large angular momentum vector L: τ = dL/dt means the torque changes the direction of L, not its magnitude. Adding a small horizontal increment dL perpendicular to a large L rotates L slightly rather than toppling it. This produces horizontal precession of the spin axis rather than the expected downward fall. The key is that torque changes the direction of angular momentum, not just its magnitude."
+
+- question: "Which change would cause a spinning gyroscope under constant gravitational torque to precess more slowly?"
+  type: multiple-choice
+  options:
+    - "Increasing the torque by moving the center of mass farther from the pivot"
+    - "Decreasing the angular momentum by spinning the gyroscope more slowly"
+    - "Increasing the angular momentum by spinning the gyroscope faster"
+    - "Tilting the spin axis farther from the vertical"
+  answer: 2
+  explanation: "The precession rate is Ω = τ/L. Larger angular momentum L means smaller Ω — the gyroscope precesses more slowly. This is counterintuitive: a faster spin makes the gyroscope more stable (slower precession), not more volatile. A slower-spinning top precesses faster and tumbles sooner. Options A and B both increase precession speed. This inverse relationship between spin speed and precession rate follows directly from the vector equation."
+
+- question: "When gravity applies a torque to a spinning gyroscope, the direction of precession is perpendicular to both the torque vector and the angular momentum vector."
+  type: true-false
+  answer: true
+  explanation: "From the vector equation τ = dL/dt, the change dL = τ dt is parallel to τ. Adding dL to L (which is perpendicular to τ) rotates L in the plane containing L and τ — perpendicular to both. The precession axis is along τ (for a gravitationally loaded gyroscope, τ is horizontal, so the precession axis is vertical). This perpendicularity is the heart of why gyroscopes precess instead of falling."
+
+- question: "A slower-spinning gyroscope precesses more slowly than a faster-spinning one under the same gravitational torque, because it has less angular momentum to 'resist' the torque."
+  type: true-false
+  answer: false
+  explanation: "This reverses the correct relationship. The precession rate is Ω = τ/L: smaller L (slower spin) gives larger Ω (faster precession). A slow-spinning top precesses rapidly and quickly becomes unstable. A fast-spinning top precesses slowly and maintains its orientation well. The 'resistance' intuition is misleading — gyroscopic stability increases with spin speed, but that stability manifests as slower precession, not less precession."
+
+- question: "In your own words, explain why a spinning gyroscope precesses instead of simply falling when one end of its axle is released under gravity. What is the key vector relationship involved?"
+  type: short-answer
+  answer: "Because torque equals the rate of change of angular momentum (τ = dL/dt), and the torque from gravity is perpendicular to the large angular momentum L. A perpendicular increment dL = τ dt rotates L slightly without changing its magnitude — the spin axis sweeps horizontally instead of tilting down. If there were no spin (L = 0), the torque would simply cause rotation (falling). With large L, the torque only slowly rotates the direction of L, producing precession at rate Ω = τ/L."
+  explanation: "The key insight is treating angular momentum as a vector and applying τ = dL/dt carefully. The torque does not simply 'fight' gravity — it acts at right angles to L, and right-angle changes to a vector change its direction, not its magnitude. This is geometrically identical to centripetal acceleration changing velocity direction without changing speed. Mastery means predicting the precession direction using the right-hand rule and computing Ω = τ/L."
+```
+
 ## Explainer
 
 Gyroscopic precession is one of the most visually surprising consequences of angular momentum — and intuition built on translational mechanics almost always gives the wrong answer. To understand it, you need to apply what you already know about torque and angular momentum as *vectors*, not just scalars.

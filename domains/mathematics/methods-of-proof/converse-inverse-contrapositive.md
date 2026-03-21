@@ -31,6 +31,45 @@ Use truth tables to verify that contrapositive is equivalent while converse and 
 - Assuming the converse of a true statement is true.
 - Forgetting that contrapositive is logically equivalent to the original.
 
+## Questions
+
+```yaml
+- question: "Given P → Q ('If it rains, the ground gets wet'), which of the following is logically equivalent to the original conditional?"
+  type: multiple-choice
+  options:
+    - "Q → P (If the ground is wet, it rained)"
+    - "¬P → ¬Q (If it didn't rain, the ground isn't wet)"
+    - "¬Q → ¬P (If the ground isn't wet, it didn't rain)"
+    - "¬P → Q (If it didn't rain, the ground is still wet)"
+  answer: 2
+  explanation: "The contrapositive ¬Q → ¬P is the only form logically equivalent to P → Q — they have identical truth values under every assignment. Option A is the converse and option B is the inverse; these are equivalent to each other but not to the original. The contrapositive merely reverses and negates both sides simultaneously, which preserves the logical content exactly."
+
+- question: "A mathematician wants to prove 'If n² is even, then n is even' but finds it easier to work with the negation of the conclusion. Which substitution is logically valid?"
+  type: multiple-choice
+  options:
+    - "Prove 'If n is even, then n² is even' — the converse, which is equivalent"
+    - "Prove 'If n is odd, then n² is odd' — the contrapositive, which is equivalent"
+    - "Prove 'If n² is odd, then n is even' — by negating only the hypothesis"
+    - "Either the converse or the contrapositive — both are equivalent to the original"
+  answer: 1
+  explanation: "The contrapositive ('If n is odd, then n² is odd') is logically equivalent to the original, so proving it proves the original. This is a direct application of proof by contrapositive. The converse ('If n is even, then n² is even') is actually true here, but that's a coincidence of this particular statement — it is not equivalent in general. Option D is wrong because the converse is not equivalent to the original."
+
+- question: "The converse and contrapositive of a conditional statement are logically equivalent to each other."
+  type: true-false
+  answer: false
+  explanation: "The contrapositive (¬Q → ¬P) is logically equivalent to the original (P → Q). The converse (Q → P) is logically equivalent to the inverse (¬P → ¬Q). Converse and contrapositive are NOT equivalent to each other — they are equivalent to different things. Confusing these is one of the most common sources of invalid proofs."
+
+- question: "If P → Q is false, then its contrapositive ¬Q → ¬P must also be false."
+  type: true-false
+  answer: true
+  explanation: "The contrapositive is logically equivalent to the original — they have the same truth value in every possible scenario. If P → Q is false (P is true but Q is false), then substituting into the contrapositive: Q is false so ¬Q is true, and P is true so ¬P is false — making ¬Q → ¬P also false. They are not just 'related'; they are the same logical statement written differently."
+
+- question: "Why is substituting the contrapositive valid in a proof, while substituting the converse is not?"
+  type: short-answer
+  answer: "The contrapositive (¬Q → ¬P) is logically equivalent to the original (P → Q) — they are true under exactly the same conditions. Proving one proves the other. The converse (Q → P) makes a different claim about the world; it may be true when the original is false, or false when the original is true. Substituting the converse would prove a different statement, not the one you set out to prove."
+  explanation: "Logical equivalence is the key concept: two statements are equivalent if they always have the same truth value, regardless of what P and Q mean. Truth tables confirm that P → Q and ¬Q → ¬P share a truth column; P → Q and Q → P do not. This equivalence is what licenses the substitution in proof by contrapositive — you are not making an assumption, you are exploiting an identity."
+```
+
 ## Explainer
 
 You've learned that a **conditional statement** P → Q ("if P, then Q") is the backbone of mathematical reasoning. Now you need to handle three related but distinct statements built from the same P and Q — and critically, understand which ones are logically equivalent to the original. Confusing these is one of the most common sources of invalid proofs, so getting this right is foundational to everything that follows.

@@ -30,6 +30,45 @@ Trace paths on a water phase diagram: heating at 1 atm crosses the melting point
 - The boiling point is not fixed — it depends on pressure; at high altitude (lower pressure) water boils below 100°C.
 - The critical point is not the same as the triple point; beyond the critical point you can convert liquid to gas continuously without crossing a phase boundary.
 
+## Questions
+
+```yaml
+- question: "You start with water vapor at very high temperature and gradually increase pressure while keeping the temperature constant above the critical temperature. Which of the following correctly describes what happens?"
+  type: multiple-choice
+  options:
+    - "The vapor crosses the liquid-vapor boundary and becomes liquid"
+    - "The vapor undergoes a sharp phase transition to supercritical fluid"
+    - "The vapor continuously densifies into a supercritical fluid with no distinct phase transition"
+    - "The vapor cannot be compressed above the critical temperature"
+  answer: 2
+  explanation: "Above the critical temperature, the liquid-vapor boundary no longer exists — it ends at the critical point. Increasing pressure continuously densifies the fluid without any sharp transition or latent heat. This 'going around' the critical point is a key feature of supercritical fluids: you can move between gas-like and liquid-like densities continuously. Option A is wrong because the liquid-vapor boundary only exists below the critical temperature."
+
+- question: "Why does increasing pressure cause ice to melt, a behavior opposite to almost all other solids?"
+  type: multiple-choice
+  options:
+    - "Water has an unusually high latent heat of fusion, so pressure supplies the needed energy"
+    - "Ice is less dense than liquid water, so the solid-liquid boundary has a negative slope"
+    - "The triple point of water is below atmospheric pressure, forcing melting at high pressure"
+    - "Ice has stronger hydrogen bonds than liquid water, which are broken by pressure"
+  answer: 1
+  explanation: "The Clausius-Clapeyron equation dP/dT = L / (TΔv) governs the slope of phase boundaries. For the solid-liquid transition, Δv = v_liquid − v_solid. For most substances, solids are denser than liquids (Δv > 0), giving a positive slope. But for water, ice is less dense than liquid water (Δv < 0), so the slope is negative — increasing pressure pushes the boundary leftward (toward lower temperature), meaning ice melts under increased pressure at constant temperature. This negative slope is what makes ice skating and pressure-induced melting possible."
+
+- question: "The critical point and the triple point of a substance occur at the same pressure and temperature."
+  type: true-false
+  answer: false
+  explanation: "These are entirely different features of a phase diagram. The triple point is the unique P-T coordinate where all three phases (solid, liquid, vapor) coexist in equilibrium — for water it is at 273.16 K and 0.006 atm. The critical point marks where the liquid-vapor boundary terminates; above it, the substance is a supercritical fluid. For water the critical point is at 647 K and 218 atm. They cannot coincide because the triple point is at the intersection of three phase boundaries, while the critical point is the endpoint of one."
+
+- question: "At pressures below the triple point of a substance, heating a solid will cause it to sublimate directly to vapor without passing through a liquid phase."
+  type: true-false
+  answer: true
+  explanation: "The triple point is the minimum pressure at which the liquid phase can exist. Below this pressure, the liquid-vapor boundary does not exist — the phase diagram goes directly from solid to vapor. Heating a solid at such low pressures causes sublimation (solid → vapor), bypassing the liquid phase entirely. This is exactly how freeze-drying works: food is frozen and placed in a vacuum below water's triple-point pressure (0.006 atm), so the ice sublimes rather than melting."
+
+- question: "Why is water's phase diagram considered anomalous compared to most other substances, and what physical property of water causes this anomaly?"
+  type: short-answer
+  answer: "For most substances, the solid is denser than the liquid, so the solid-liquid boundary has a positive slope — increasing pressure favors the denser solid phase. Water is anomalous because ice is less dense than liquid water (due to hydrogen bonding creating an open crystalline lattice). This means Δv for melting is negative, flipping the Clausius-Clapeyron slope to negative: the solid-liquid line tilts to the left. Practical consequence: ice melts under pressure rather than solidifying."
+  explanation: "The anomaly has significant physical consequences beyond phase diagrams — it's why ice floats (insulating aquatic life beneath frozen surfaces), why glaciers flow, and why pipes burst when water freezes. The underlying cause is hydrogen bonding: when water freezes, molecules lock into a hexagonal lattice that is actually more open (lower density) than the disordered arrangement in liquid water."
+```
+
 ## Explainer
 
 From phase transitions and latent heat, you know that matter can exist in different phases — solid, liquid, gas — and that crossing between them requires an exchange of energy (latent heat) at a fixed temperature and pressure. A **phase diagram** is the map that tells you which phase is stable at any given combination of pressure P and temperature T. Reading this map is a fundamental skill for anyone working with materials, fluids, or thermodynamics.

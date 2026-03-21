@@ -27,6 +27,45 @@ Examine how scientific knowledge feeds back into social practices (e.g., psychol
 ## Common Misconceptions
 - Reflexivity is the same as self-awareness or introspection. - Traditional societies have no reflexive elements. - Reflexivity automatically leads to progress or better outcomes.
 
+## Questions
+
+```yaml
+- question: "A government publishes research showing that social media use causes depression in teenagers. In response, many teenagers reduce social media use, which changes the relationship between social media and depression measured in subsequent studies. Giddens would call this:"
+  type: multiple-choice
+  options:
+    - "A methodological artifact — the original study was invalid because it failed to control for this feedback"
+    - "An example of the double hermeneutic: social science knowledge enters social life and alters the very practices it was studying, making the original findings partially obsolete"
+    - "An instance of moral panic, where media coverage distorts genuine scientific findings"
+    - "Evidence that social science cannot produce reliable knowledge about human behavior"
+  answer: 1
+  explanation: "The double hermeneutic is Giddens' name for this reflexive feedback loop: social science does not merely describe social life from outside — its findings circulate back into social practice, altering the phenomena they were designed to describe. The teenagers who changed their behavior because of the research are incorporating expert knowledge into their practices, which then modifies the social phenomenon. This is not a methodological error but a structural feature of social knowledge. Options A and D treat it as a problem of validity; option C introduces a different theoretical concept."
+
+- question: "What distinguishes 'manufactured uncertainty' in late modernity from pre-modern risk and danger?"
+  type: multiple-choice
+  options:
+    - "Pre-modern risks were more severe; manufactured uncertainty refers to lesser risks that feel worse due to media amplification"
+    - "Manufactured uncertainty involves risks that experts disagree about; pre-modern risks were well understood by local communities"
+    - "Pre-modern risks were largely external natural events (floods, disease) independent of human systems; manufactured uncertainty is produced by the same modern systems (technology, finance, climate) that define modernity itself"
+    - "Manufactured uncertainty is a term for financial market volatility; pre-modern risk refers to ecological and agricultural hazards"
+  answer: 2
+  explanation: "Giddens' point is not about the severity of risk but about its *origin*. Pre-modern risks — floods, crop failure, disease — occurred largely independently of human knowledge and planning. Manufactured uncertainty is created by the systems that constitute late modernity: nuclear technology, financial instruments, biotechnology, industrial modification of climate. These risks are products of the expert systems themselves. And crucially, expert knowledge about them is contested and provisional — the reflexive awareness that today's best knowledge may be overturned tomorrow is itself destabilizing. Options A, B, and D miss this structural point about risk origin."
+
+- question: "According to Giddens, reflexivity in late modernity is institutionalized not just at the individual level but also in organizations, expert systems, and social institutions that continuously monitor and revise their practices."
+  type: true-false
+  answer: true
+  explanation: "Giddens explicitly distinguishes individual reflexivity (the self as a reflexive project) from institutional reflexivity (organizations, expert systems, governments continuously monitoring feedback and revising their operations). Science, medicine, economics, and law are all reflexive institutions: they generate knowledge about themselves and the systems they study, and use that knowledge to revise their own practices. This is why Giddens says reflexivity is constitutive of modernity at every level, not merely a trait of particularly self-aware individuals."
+
+- question: "Traditional societies were entirely unreflexive — individuals simply followed inherited custom without any monitoring or revision of social practices."
+  type: true-false
+  answer: false
+  explanation: "Giddens does not claim traditional societies were unreflexive — he acknowledges that all competent social actors monitor and adjust their practices. What distinguishes late modernity is the *institutionalization and intensification* of reflexivity: the proliferation of expert systems that produce and circulate knowledge about social life at every level, and the weakening of traditional anchors that previously provided stable frameworks for action. Traditional societies had reflexive elements; what they lacked was the reflexive *loop* of expert knowledge systematically feeding back into and destabilizing the practices it describes."
+
+- question: "What is the 'double hermeneutic' and why does it make social science fundamentally different from natural science as a knowledge-producing enterprise?"
+  type: short-answer
+  answer: "The double hermeneutic refers to the two-way interpretive relationship between social science and its subject matter. Natural science studies objects (particles, cells, ecosystems) that do not read the findings and change their behavior accordingly. Social science studies subjects — people, institutions, organizations — who do. When economists publish findings about inflation expectations, those findings enter the calculations of the very actors whose expectations the model was describing, potentially changing the phenomenon. This means social science knowledge is always partially provisional: valid findings can become invalid because they alter the practices they describe. The social world is not a stable object waiting to be discovered; it is co-constituted by the knowledge produced about it."
+  explanation: "The implication for social science methodology is significant: replication failures in social science are not always methodological failures — they can be evidence of the double hermeneutic at work. The world changed because knowledge about it circulated. This is a structural feature Giddens sees as distinctive to social knowledge, not a defect to be engineered away."
+```
+
 ## Explainer
 
 Your prerequisite — agency-structure duality (Giddens' structuration theory) — established the foundational insight that social structures are not external constraints on agents but are simultaneously the medium and the outcome of social action. Agents draw on structural rules and resources to act, and in doing so reproduce or occasionally transform those structures. Reflexivity and late modernity builds on this foundation to ask: what happens to the relationship between agency and structure when knowledge about social life proliferates, circulates widely, and feeds back into the very practices it describes? The answer transforms Giddens' synchronic framework into a theory of historical change.

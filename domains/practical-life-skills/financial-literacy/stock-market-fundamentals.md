@@ -40,6 +40,45 @@ Look up a company you know well, read its income statement and balance sheet, ca
 - Stock investing is equivalent to gambling; gambling is a zero-sum game while equity investing is ownership in productive enterprises that create wealth over time.
 - Individual stock picking by amateurs consistently beats index funds; decades of data show the opposite for the vast majority of active investors.
 
+## Questions
+
+```yaml
+- question: "A company reports quarterly earnings that are 15% above analyst expectations. Its stock price immediately jumps 8%. Which of the following best explains this price movement?"
+  type: multiple-choice
+  options:
+    - "The P/E ratio automatically recalculates upward whenever earnings increase"
+    - "Regulations require institutional investors to buy when earnings beat forecasts"
+    - "The stronger-than-expected earnings cause the market to revise its estimate of the company's future cash flows upward, and those higher expected future earnings are discounted to a higher present value"
+    - "Dividends are contractually required to increase when earnings beat expectations, making the stock more attractive"
+  answer: 2
+  explanation: "Stock prices reflect the market's current estimate of discounted future cash flows. Beating earnings expectations signals that the company is performing better than predicted — investors revise their growth forecasts upward, which increases the present value of all future cash flows, and the stock price rises to reflect this new estimate. The key insight is that it's the surprise (beating expectations) that moves prices, not the absolute level of earnings. A company growing 20% but expected to grow 30% can see its stock fall on 'good' results."
+
+- question: "Why is it difficult for individual investors to consistently outperform the stock market by selecting individual stocks?"
+  type: multiple-choice
+  options:
+    - "Individual investors are legally restricted from trading the highest-performing stocks"
+    - "Stock market prices already incorporate all publicly available information, analyzed by thousands of professionals with sophisticated tools — leaving individual investors with no informational edge"
+    - "The stock market is a zero-sum game, so no strategy can reliably win more than it loses"
+    - "Individual investors cannot afford enough shares to benefit from diversification"
+  answer: 1
+  explanation: "Market prices are set by millions of informed participants — professional analysts with massive research budgets, algorithmic traders with millisecond reaction times, and institutional investors with access to expert networks. All publicly available information is already reflected in the price. An amateur investor reading the same news everyone else reads is not learning anything the market hasn't already priced in. Consistent outperformance would require a systematic informational or analytical edge that most individual investors simply do not possess."
+
+- question: "Owning a stock represents fractional ownership in a company, making equity investing fundamentally different from gambling."
+  type: true-false
+  answer: true
+  explanation: "True. Gambling is zero-sum: for every winner there is an equal loser, and no new value is created. A stock represents a real ownership stake in a company that employs people, builds products, and generates revenues. As the company creates value over time, stockholders' claims on that value grow. The economy and productive enterprises tend to expand over long periods, which is why broad equity markets have historically appreciated over time — something impossible in a zero-sum game."
+
+- question: "A stock with a high P/E ratio is always overvalued and should be avoided."
+  type: true-false
+  answer: false
+  explanation: "False. A high P/E ratio means investors are paying more per dollar of current earnings, which typically reflects expectations of high future growth. If a company is growing rapidly, investors rationally pay a premium for today's modest earnings because they expect future earnings to be much larger. Whether a stock is 'overvalued' depends on whether actual future growth justifies the premium — context and comparison to peers matter enormously. A low P/E on a declining company may be more expensive in the long run than a high P/E on a fast-growing one."
+
+- question: "Explain why a company's stock price can fall sharply on the day it announces positive earnings growth."
+  type: short-answer
+  answer: "Stock prices reflect expectations about future cash flows, not current results in isolation. If the market had already priced in 25% earnings growth and the company reports 15% growth, the 'positive' result is still a negative surprise — the market revises its future cash flow estimates downward and the price falls. The relevant comparison is always earnings versus what was already expected and priced in, not earnings versus the prior year. A good result relative to history can be a bad result relative to market expectations."
+  explanation: "This is why earnings season produces counter-intuitive price moves — companies with great results see their stock fall while companies with mediocre results see it rise, depending on how results compare to expectations. Markets are forward-looking: the price today already contains investors' forecasts of tomorrow."
+```
+
 ## Explainer
 
 When a company needs capital to grow — to build a factory, hire engineers, expand internationally — it can sell ownership stakes to outside investors. A **stock** (or **share**) represents one of those stakes: fractional ownership of the company's assets and future earnings. If you own 0.001% of a company, you have a proportional claim on that slice of everything it owns and produces. This is fundamentally different from lending money (which bonds represent) or gambling: you own a piece of a real enterprise, and as that enterprise creates value, your stake appreciates.

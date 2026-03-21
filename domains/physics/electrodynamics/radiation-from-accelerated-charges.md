@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Accelerated charges radiate electromagnetic waves. Lienard-Wiechert fields separate into velocity-dependent (near) and acceleration-dependent (far) components. The far field is the radiation field proportional to 1/r, responsible for energy transport.
 
+## Questions
+
+```yaml
+- question: "A proton moves in a straight line at constant velocity 0.99c. Does it radiate electromagnetic energy?"
+  type: multiple-choice
+  options:
+    - "Yes — at relativistic speed its fields become highly concentrated, releasing radiation"
+    - "No — only acceleration produces radiation; constant velocity, regardless of speed, produces no radiation field"
+    - "Yes — the velocity field increases as the proton approaches an observer, so energy is radiated"
+    - "No — but only because 0.99c is below the threshold at which radiation begins"
+  answer: 1
+  explanation: "Radiation is caused by acceleration, not velocity. A charge in uniform motion — even at 0.99c — has only a velocity field that falls as 1/r² and carries no net energy to infinity. The radiation field ∝ 1/r only appears when the charge accelerates. This is why synchrotron radiation requires bending magnets (which accelerate electrons centripetally) rather than just high speed alone. There is no velocity threshold — the dividing line is zero versus nonzero acceleration."
+
+- question: "A non-relativistic electron undergoes simple harmonic motion. At the moment of maximum displacement (momentarily at rest), does it radiate?"
+  type: multiple-choice
+  options:
+    - "No — it is at rest, so it behaves like a stationary charge and produces no radiation"
+    - "Yes — at maximum displacement the restoring force (and thus acceleration) is largest, so it radiates most strongly"
+    - "Yes — but only because the radiation is a delayed effect of its prior motion"
+    - "No — it only radiates when it is moving, so radiation is maximum at the equilibrium position"
+  answer: 1
+  explanation: "Radiation depends on acceleration, not velocity. At maximum displacement in SHM, velocity is zero but acceleration is maximum (the restoring force F = −kx is largest there). Since radiation power is proportional to acceleration squared, maximum displacement is the moment of peak radiation. At the equilibrium position, velocity is maximum but acceleration is zero — no radiation at that instant. This perfectly illustrates why acceleration, not speed, is the operative quantity."
+
+- question: "The near (velocity) field of a moving charge also decreases as 1/r and therefore carries a finite amount of energy to infinity."
+  type: true-false
+  answer: false
+  explanation: "The near field decreases as 1/r², not 1/r. The Poynting vector (energy flux) is proportional to E × B, so for the near field it goes as 1/r⁴. Integrating over a sphere of radius r gives power ∝ r² × (1/r⁴) = 1/r² → 0 as r → ∞. The near field carries zero net energy to infinity — it's reactive energy oscillating near the charge. Only the radiation field, with 1/r dependence, produces a Poynting vector ∝ 1/r² that integrates to a constant nonzero power over any sphere."
+
+- question: "At relativistic speeds, radiation from an accelerated charge is distributed uniformly in all directions, just as in the non-relativistic case."
+  type: true-false
+  answer: false
+  explanation: "In the non-relativistic case, radiation follows a sin²θ pattern (a donut around the acceleration axis). At relativistic speeds, the radiation is concentrated strongly in the forward direction — relativistic beaming. This is why synchrotron light sources produce tightly collimated beams: relativistic electrons emit radiation mostly forward along their direction of motion. The beaming effect intensifies with increasing speed and is a direct consequence of the relativistic Liénard-Wiechert fields."
+
+- question: "Explain why the 1/r dependence of the radiation field, as opposed to the 1/r² dependence of the near field, is physically significant for energy transport."
+  type: short-answer
+  answer: "Energy flux (Poynting vector) is proportional to E × B. For a field component going as 1/r, the Poynting vector goes as 1/r². Integrating over a spherical surface of radius r gives total power ∝ r² × (1/r²) = constant, independent of r. Energy flows outward at the same rate through any sphere, no matter how large — it escapes to infinity permanently. For the near field (1/r²), the Poynting vector goes as 1/r⁴, integrating to 1/r² → 0 as r → ∞. Near-field energy never escapes; it oscillates reactively near the charge."
+  explanation: "This is the precise reason why acceleration is necessary for radiation: only the acceleration-dependent 1/r field produces an outward energy flux that doesn't vanish at large distances. The near field is energy that's 'borrowed' from and returned to the source — never permanently radiated away."
+```
+
 ## Explainer
 
 From the Liénard-Wiechert potentials, you can compute the exact electric and magnetic fields of a moving point charge — at any position, at any instant, accounting for the fact that the fields propagate at c rather than instantaneously. When you do this for a charge in arbitrary motion, the resulting field splits into two qualitatively different pieces. The **velocity field** (or near field) looks like a distorted Coulomb field: it points from the charge's *current* position (corrected for retardation), falls off as 1/r², and carries no net energy to infinity. The **acceleration field** (or far field or radiation field) is proportional to the acceleration, falls off as 1/r, and is the one responsible for electromagnetic radiation.

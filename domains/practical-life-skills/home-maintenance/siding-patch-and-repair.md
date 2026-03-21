@@ -30,6 +30,45 @@ Identify the siding type on your home; practice repair techniques appropriate to
 - 'All siding damage requires full-wall replacement' (small damages can be patched or replaced locally).
 - 'Caulk permanently repairs all siding' (caulk works for small cracks; larger damage requires material-specific repairs).
 
+## Questions
+
+```yaml
+- question: "A homeowner discovers a cracked and buckled vinyl siding panel. The correct technique for replacing just that panel is:"
+  type: multiple-choice
+  options:
+    - "Apply color-matched vinyl caulk to seal the crack and repaint the panel"
+    - "Use a zip tool to unlock the panel above the damaged one, then slide out the damaged panel and replace it"
+    - "Nail a wood patch board over the damaged area and caulk the edges"
+    - "Sand the panel surface and apply exterior filler to restore the profile"
+  answer: 1
+  explanation: "Vinyl siding interlocks in horizontal panels that lock together at their edges. To replace a damaged panel, you must unlock the panel above it using a zip tool — a hooked tool that slides along the locking edge to release it — which allows the damaged panel to be removed and replaced. Caulk (option A) only works for small punctures, not panel-level damage, and vinyl cannot be effectively repainted to fix structural damage. Nailing over it (option C) traps moisture and is not a valid repair for this material."
+
+- question: "A homeowner repairs rotted wood siding by replacing the damaged board and repainting it. Three years later, the same section rots again. What most likely went wrong?"
+  type: multiple-choice
+  options:
+    - "They used the wrong wood species — exterior siding requires pressure-treated lumber only"
+    - "They failed to address the moisture source that caused the original rot"
+    - "They painted over the repair too quickly, trapping moisture in the new wood"
+    - "Wood siding in this condition requires full-wall replacement rather than section repair"
+  answer: 1
+  explanation: "The key principle in wood rot repair is that fixing damaged material without addressing the moisture source just restarts the clock. If the rot was caused by a failed paint seam, a cracked caulk joint, or bad flashing, water continues entering through the same path and re-rots the new material. Identifying and fixing the water entry point is as critical as replacing the wood itself. Option C is a real secondary concern but not the primary cause of recurrence when a moisture pathway remains open."
+
+- question: "When repairing fiber-cement siding, all field-cut edges must be primed before installation."
+  type: true-false
+  answer: true
+  explanation: "Fiber-cement siding leaves the factory with protective finish coating on its face and back surfaces. Field cuts — cuts made on-site during repair — expose the raw cement composite at the edges, which is vulnerable to moisture absorption. Unprimed cut edges will absorb water, causing swelling, paint failure, and structural damage over time. This is a non-optional step that distinguishes a durable repair from one that will fail within a few years."
+
+- question: "Caulk is an effective permanent repair for any size crack or hole in any type of exterior siding material."
+  type: true-false
+  answer: false
+  explanation: "Caulk is appropriate only for small cracks and joint gaps. For larger damage — significant holes, rotted sections, or shattered panels — caulk cannot provide structural repair or proper weatherproofing. The correct repair approach depends on both the size of the damage and the material: vinyl requires panel replacement, wood requires wood replacement or epoxy treatment, and fiber-cement requires section cutting and replacement. Caulk applied to damage beyond its scope will crack, shrink, or allow water penetration."
+
+- question: "Why is identifying the siding material the essential first step before attempting any repair, and what can happen if this step is skipped?"
+  type: short-answer
+  answer: "Different siding materials require fundamentally different repair techniques. Vinyl repairs use zip tools and replacement panels. Wood repairs use epoxy consolidants or wood replacement plus moisture-source fixes. Fiber-cement repairs require carbide-tipped blades and edge priming. Using the wrong technique for the wrong material produces repairs that fail quickly or create new problems — for example, applying caulk to a cracked vinyl panel instead of replacing it, or using a standard saw blade on fiber-cement (which rapidly dulls it and can crack the panel)."
+  explanation: "Material properties determine the correct repair approach. Vinyl interlocks and must be released from the top down. Wood absorbs moisture and requires addressing the moisture source. Fiber-cement is brittle and rapidly dulls standard blades. A homeowner who skips identification and applies a generic approach risks using the wrong tool, adhesive, or process — producing a repair that appears acceptable but fails under weathering, sometimes faster than no repair at all."
+```
+
 ## Explainer
 
 Siding serves two functions: it defines your home's exterior appearance, and it forms the primary weather barrier protecting the structural wall assembly behind it. When siding is damaged — cracked, holed, rotted, or missing — water can penetrate to the sheathing, insulation, and framing beneath. Most siding damage is locally repairable without replacing entire wall sections, but the correct repair approach depends entirely on the siding material. Starting with material identification is not optional; the wrong technique for the wrong material produces repairs that fail quickly or create new problems.

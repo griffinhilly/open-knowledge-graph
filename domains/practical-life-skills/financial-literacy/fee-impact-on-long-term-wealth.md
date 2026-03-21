@@ -34,6 +34,45 @@ Use a fee impact calculator (Vanguard has a free online tool) to model the diffe
 ## Common Misconceptions
 Small percentage fees don't matter ('It's only 0.5%'); 'you get what you pay for' in investing (low-cost index funds perform well); fee transparency means you already know your true cost.
 
+## Questions
+
+```yaml
+- question: "Two investors each put $100,000 into portfolios earning 7% gross annually for 30 years. Investor A pays 0.1% in fees; Investor B pays 1.1% in fees. Roughly how much less does Investor B end up with?"
+  type: multiple-choice
+  options:
+    - "About $10,000 — fees are a small fixed cost on the original investment"
+    - "About $30,000 — fees reduce annual returns by roughly 1% each year"
+    - "About $200,000–$270,000 — fee drag compounds against Investor B at the same exponential rate as growth"
+    - "About $3,000 — fees only matter if you are paying them on gains, not principal"
+  answer: 2
+  explanation: "Fee drag compounds in reverse at the same exponential rate as growth. A 1% difference in net annual return grows from a minor year-to-year gap into a massive terminal wealth difference over 30 years. At 6.9% net, $100k grows to roughly $740k. At 5.9% net, it grows to roughly $470k — a gap of ~$270k, which is nearly triple the original investment, lost entirely to costs rather than to the market."
+
+- question: "An investor checks her annual statement and sees her fund returned 5.8% last year. She concludes she knows her full cost of investing. What is wrong with this conclusion?"
+  type: multiple-choice
+  options:
+    - "Nothing — the stated return is net of all fees, so 5.8% is the correct all-in figure"
+    - "The stated return is already net of fund expense ratios, so she would need to separately check advisory fees she pays directly"
+    - "Fund expense ratios are deducted before the reported return, so the 5.8% figure already has the expense ratio subtracted — but she may not know what gross return was or what she actually paid in fees"
+    - "Returns are always reported gross; she must manually subtract fees herself"
+  answer: 2
+  explanation: "This is the key point about fee invisibility. Fund expense ratios are deducted from returns before the performance number is calculated and reported. The investor sees 5.8% but never sees the 0.8% (or whatever the expense ratio is) that was silently removed before that number was computed. She therefore has no direct line-of-sight to the dollar cost of fund fees. She would need to look up the fund's expense ratio separately to understand her true gross return and actual fee cost."
+
+- question: "A 1% annual fee sounds small, but over a 30-year investment horizon it can reduce ending wealth by 25–30% compared to a 0.1% fee portfolio with identical gross returns."
+  type: true-false
+  answer: true
+  explanation: "This is the core empirical claim of the topic. Because fees compound against you at the same exponential rate that returns compound for you, a 0.9 percentage point fee difference becomes enormous over time. The math: $100k at 6.9% net for 30 years ≈ $750k; at 6.0% net for 30 years ≈ $574k. That's roughly $176k difference, or about 23% of the low-fee ending balance — well within the 25–30% range cited. The effect grows with time horizon and initial investment size."
+
+- question: "Actively managed mutual funds that charge higher fees typically outperform low-cost index funds over long periods because skilled managers earn back their fees through superior stock selection."
+  type: true-false
+  answer: false
+  explanation: "This is the 'you get what you pay for' misconception. Decades of research (including Morningstar's data and S&P's SPIVA reports) consistently show that the majority of actively managed funds underperform their benchmark index after fees over 10–20 year periods. Higher fees are not offset by superior returns on average — they are a guaranteed drag, while outperformance is uncertain. The practical implication: for most investors, low-cost index funds are the dominant strategy precisely because they eliminate the fee disadvantage without relying on manager skill."
+
+- question: "Why does compounding make a small annual fee percentage so destructive to long-term wealth? Explain the mechanism."
+  type: short-answer
+  answer: "Fees reduce your net return each year. The lower net return then compounds on a smaller base the following year, and so on — the shortfall from fees compounds at the same exponential rate as growth itself. It is not merely that you lose 1% of your balance each year; you lose 1% of a growing balance, and the missed growth on that lost 1% also fails to compound. Over 30 years this creates a gap that dwarfs the total fees paid in any single year."
+  explanation: "The key is that compounding is symmetric: it amplifies gains and amplifies losses (or drags) equally. A 1% annual fee on a $100k portfolio costs $1,000 in year one, but it also means you have $1,000 less compounding for the next 29 years. The opportunity cost of lost compounding vastly exceeds the nominal annual fee. This is why the dollar impact of fees is so much larger than multiplying the fee rate by the years — it is exponential, not linear."
+```
+
 ## Explainer
 
 From your study of compound interest, you know that returns compound exponentially over time — a small difference in annual return becomes a massive difference in ending balance over decades. What the fee impact lesson adds is the recognition that fees work as negative compounding: every percentage point you pay in annual fees is a percentage point subtracted from your return, compounding against you at the same exponential rate that growth compounds for you. The mathematics of compounding is symmetric — it works just as powerfully in reverse.

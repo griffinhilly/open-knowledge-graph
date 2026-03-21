@@ -31,6 +31,45 @@ Compare paths between two states: different heating/cooling paths that yield the
 - Confusing the symbol U (state function) with Q or W (path functions).
 - Assuming all thermodynamic properties are state functions.
 
+## Questions
+
+```yaml
+- question: "A gas is taken from state A to state B via two different paths: path 1 is an isothermal expansion; path 2 is an adiabatic expansion followed by isochoric (constant-volume) heating. Which quantities are necessarily equal for both paths?"
+  type: multiple-choice
+  options:
+    - "Q and W — both are determined only by the endpoints"
+    - "ΔU only — internal energy depends only on the initial and final states"
+    - "Q only — heat exchanged is path-independent"
+    - "ΔU, Q, and W — all thermodynamic quantities are path-independent"
+  answer: 1
+  explanation: "Internal energy U is a state function: ΔU depends only on the initial and final states, not on the path taken between them. Heat Q and work W, however, are path functions — they differ depending on how the process proceeds. The First Law (ΔU = Q − W) guarantees that even though Q and W are different along each path, their difference ΔU is the same. This is exactly what distinguishes state functions from path functions."
+
+- question: "Which of the following is NOT a state function?"
+  type: multiple-choice
+  options:
+    - "Entropy (S)"
+    - "Work done during an isothermal expansion (W)"
+    - "Enthalpy (H = U + PV)"
+    - "Temperature (T)"
+  answer: 1
+  explanation: "Work W is a path function, not a state function. The work done during an isothermal expansion depends on the specific path (e.g., reversible expansion vs. expansion against a fixed external pressure gives different W). You cannot say 'the work content of this gas' because work has no definite value at a state — only during a process. Entropy, enthalpy, and temperature are all state functions: their values are uniquely determined by the equilibrium state of the system."
+
+- question: "Heat Q is a state function because it contributes to the internal energy of a system through the First Law ΔU = Q − W."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about state functions. Q contributing to ΔU does not make Q a state function — it makes ΔU a state function (specifically, it means ΔU = Q − W where the difference Q − W is path-independent even though Q and W individually are not). Heat is a process quantity: it describes energy transfer during a process, not a property stored in a state. A system does not 'have' a certain amount of heat; it has internal energy, temperature, and entropy — all state functions."
+
+- question: "Because entropy is a state function, you can calculate ΔS for an irreversible process by constructing a reversible path between the same endpoints and integrating dS along that path."
+  type: true-false
+  answer: true
+  explanation: "This is the practical power of state functions. For an irreversible process, dS = đQ_rev/T cannot be directly applied (since the process isn't reversible). But because S is a state function, ΔS depends only on the endpoints. You are free to choose any convenient path between those endpoints — including a hypothetical reversible path — and integrate dS = dQ_rev/T along it. The result is the same ΔS regardless of which actual irreversible path occurred. This technique underlies most entropy calculations in thermodynamics."
+
+- question: "Explain why heat (Q) is a path function rather than a state function, and describe what practical consequence this distinction has for thermodynamic calculations."
+  type: short-answer
+  answer: "Heat is a path function because it measures energy transfer across the system boundary during a specific process — it is not a property stored in the system at a state. Two processes connecting the same initial and final states can involve completely different amounts of heat (and work), as long as their difference Q − W = ΔU is the same. The practical consequence: you cannot look up Q in a table for a given state, and you cannot calculate Q for an irreversible process using only state variables at the endpoints. You must know the specific path. In contrast, state functions like ΔU and ΔH can be calculated via any convenient hypothetical path — even physically unrealizable ones — making them far easier to tabulate and use in calculations."
+  explanation: "This distinction underlies Hess's law, entropy calculations, and the entire framework of thermodynamic potentials. State functions are powerful precisely because they free you from tracking every step of a process — you only need the endpoints. Path functions require process-level information, making them harder to use for predictive calculations."
+```
+
 ## Explainer
 
 From your study of thermodynamic processes, you learned to describe what happens to a gas along specific paths: isothermal, adiabatic, isobaric, and isochoric. Each process traces a different curve on the P-V diagram between two states. Now step back from the paths and ask: what is special about the endpoints themselves? Two states are connected by infinitely many different paths — you could heat the gas at constant pressure, then cool it at constant volume to reach the same final (P, V, T). The heat transferred Q and work done W differ along each path. But the internal energy change ΔU = Q − W is the same regardless of path. Internal energy U is a **state function** — it depends only on which state the system is in, not on the history of how it got there.

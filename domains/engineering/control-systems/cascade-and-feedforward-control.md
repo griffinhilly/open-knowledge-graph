@@ -32,6 +32,45 @@ Simulate a heat exchanger or tank-level process with a measurable disturbance (e
 - Feedforward control cannot work alone in practice because it provides zero correction for unmeasured disturbances, model uncertainty, and sensor drift — it is a complement to feedback, not a replacement.
 - The inner loop in a cascade must be tuned first with the outer loop open; tuning both loops simultaneously couples their dynamics and typically leads to oscillatory or unstable behavior.
 
+## Questions
+
+```yaml
+- question: "A heat exchanger uses single-loop PID control on outlet temperature. A sudden drop in steam supply pressure reduces steam flow, cooling the outlet. How does adding a cascade inner loop on steam flow change the disturbance response?"
+  type: multiple-choice
+  options:
+    - "Cascade provides no improvement for this disturbance because the pressure drop occurs upstream of both loops"
+    - "Both control structures respond identically — rejection quality is determined by tuning, not architecture"
+    - "The cascade inner loop detects the steam flow deviation immediately and corrects it before it propagates to the temperature; single-loop control waits for the temperature to drop first"
+    - "Cascade worsens the response because two controllers working simultaneously create oscillatory behavior"
+  answer: 2
+  explanation: "This is the core advantage of cascade control: disturbances entering the inner process are rejected at the inner loop level, before they can propagate to the primary output. The inner flow loop detects the steam flow deviation caused by the pressure drop and immediately adjusts the valve to restore flow — often correcting the disturbance entirely before the temperature sensor registers any change. Single-loop temperature control can only react after temperature has already moved."
+
+- question: "A feedforward controller reduces outlet deviation from a measured disturbance by 85%, but a small residual error persists. An engineer proposes removing the feedback controller since feedforward handles most of the disturbance. Why is this a poor idea?"
+  type: multiple-choice
+  options:
+    - "Feedforward and feedback controllers cannot operate simultaneously without causing instability"
+    - "Feedforward can only handle step disturbances; removing feedback leaves the system unable to reject ramp inputs"
+    - "Feedforward requires exact model knowledge and provides zero correction for unmeasured disturbances, model errors, and sensor drift — feedback is essential to handle all these residuals"
+    - "The 85% improvement disappears without feedback because feedforward uses the feedback signal to compute its correction"
+  answer: 2
+  explanation: "Feedforward control is inherently open-loop: it applies a precomputed correction based on a process model, with no direct measurement of whether the correction worked. Perfect feedforward cancellation is impossible in practice (model uncertainty, unmeasured disturbances, nonlinearities). The remaining 15% error — and any future disturbances not measured or captured by the model — can only be handled by feedback. Feedforward and feedback are complementary: feedforward handles the known, predictable disturbance fast; feedback corrects the unpredictable residual."
+
+- question: "In a cascade control architecture, the inner (secondary) loop should be tuned first, with the outer (primary) loop left in manual, before the outer loop is tuned."
+  type: true-false
+  answer: true
+  explanation: "This tuning sequence is essential because the outer controller is designed to work with the inner loop already closed and functioning. When the outer loop is tuned, it treats the inner loop as an approximately instantaneous, unity-gain element — but only if the inner loop is already performing correctly. Tuning both loops simultaneously couples their dynamics, making independent adjustment impossible and typically producing oscillatory or unstable behavior."
+
+- question: "Feedforward control can function as a standalone control strategy, independently maintaining setpoint against all disturbances and model variations."
+  type: true-false
+  answer: false
+  explanation: "Feedforward control cannot replace feedback — it can only complement it. Feedforward applies a precomputed correction for a specific, measured disturbance based on a process model. It provides zero correction for unmeasured disturbances, model errors, slow parameter drift, and setpoint changes. Feedback is essential for all these cases. The combination is powerful precisely because each handles what the other cannot: feedforward eliminates the lag for known disturbances; feedback corrects all residuals."
+
+- question: "What fundamental limitation of single-loop feedback control do cascade and feedforward architectures each address, and how does each approach solve the problem differently?"
+  type: short-answer
+  answer: "Feedback control's fundamental limitation is that it is reactive — it only corrects error after the disturbance has already affected the output, introducing an unavoidable correction lag. Cascade control addresses this by intercepting disturbances earlier in the process chain: an inner loop around a fast intermediate variable rejects disturbances before they propagate to the primary output. Feedforward takes a completely different approach: it measures the disturbance upstream before it affects the output and applies a pre-emptive correction, eliminating the lag entirely for known, measurable disturbances."
+  explanation: "The distinction matters for choosing the right architecture. Cascade is appropriate when disturbances enter partway through the process and an intermediate variable can be measured and controlled quickly. Feedforward is appropriate when the disturbance can be measured upstream before it reaches the output and a process model is available. Combined architectures use both: feedforward handles the known, predictable disturbance; cascade or feedback corrects the residual."
+```
+
 ## Explainer
 
 Standard PID feedback control responds to error — it waits for a disturbance to push the controlled variable away from setpoint, then corrects. The fundamental limitation is that correction always lags behind the disturbance: by the time the controller acts, the output has already moved. Cascade control and feedforward control are two structurally different strategies for dealing with this lag, and understanding each requires seeing clearly what the single-loop feedback structure cannot do.

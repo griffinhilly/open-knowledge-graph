@@ -18,6 +18,45 @@ status: draft
 ## Core Idea
 Synchronous counters use a common clock for all flip-flops and apply combinational logic to compute next states. All bits update simultaneously, avoiding ripple delays and glitches of asynchronous designs.
 
+## Questions
+
+```yaml
+- question: "A 4-bit ripple counter and a 4-bit synchronous counter are both clocked at the same frequency. Which statement best describes the key difference in their outputs?"
+  type: multiple-choice
+  options:
+    - "The ripple counter updates faster because it needs no combinational logic between stages"
+    - "The synchronous counter's outputs are all valid simultaneously; the ripple counter's outputs settle one stage at a time, causing transient glitches"
+    - "Both counters produce identical outputs because they use the same flip-flops"
+    - "The ripple counter is more reliable because its simpler design is less prone to errors"
+  answer: 1
+  explanation: "In a ripple counter, each flip-flop's output clocks the next stage, so state changes cascade — bit 1 can't update until bit 0 has settled, then bit 2 waits for bit 1, and so on. This creates transient glitch states where intermediate counts appear briefly. A synchronous counter applies a common clock to all flip-flops and precomputes every next state with combinational logic, so all bits transition together on the same clock edge. Option A is the classic misconception: ripple counters are simpler in logic but slower and glitch-prone, not faster."
+
+- question: "In a synchronous binary up-counter, which combinational logic expression correctly determines when bit 2 (Q2) should toggle on the next clock edge?"
+  type: multiple-choice
+  options:
+    - "Q2 toggles whenever the clock rises"
+    - "Q2 toggles when Q1 is currently 1, regardless of Q0"
+    - "Q2 toggles when both Q0 and Q1 are currently 1"
+    - "Q2 toggles when Q0 is 1, regardless of Q1"
+  answer: 2
+  explanation: "In a binary counter, bit 2 (the 4s place) should toggle only when the lower two bits represent 3 (binary 11) — i.e., when both Q0 and Q1 are 1. This means the carry from those two bits propagates to Q2. The combinational logic J/K or T input for Q2 is Q0 AND Q1. All three flip-flops then update on the same clock edge, implementing the correct increment without any ripple delay."
+
+- question: "In a synchronous counter, all flip-flops share a common clock and update simultaneously on each clock edge."
+  type: true-false
+  answer: true
+  explanation: "This is the defining feature of synchronous design. All flip-flops receive the same clock signal and change state at the same clock edge. Combinational logic precomputes each flip-flop's next state during the period between clock edges, so when the edge arrives, all outputs transition together. This eliminates the cascading propagation delay inherent in asynchronous (ripple) designs."
+
+- question: "A synchronous counter is slower than a ripple counter at high frequencies because every flip-flop must wait for the combinational logic to settle before the clock edge."
+  type: true-false
+  answer: false
+  explanation: "This reverses the actual tradeoff. The combinational logic in a synchronous counter runs in parallel during the time between clock edges — it does not introduce delays that reduce clock frequency beyond its own propagation time. A ripple counter, by contrast, is the slow one: its maximum clock frequency is limited by the total cascading delay through all stages. A synchronous counter's delay is determined by the deepest combinational path (typically a carry chain), but this is independent of — and usually less than — the full ripple delay."
+
+- question: "Explain why a synchronous counter avoids the glitch problem that affects ripple counters, and why this matters for digital systems."
+  type: short-answer
+  answer: "In a ripple counter, each flip-flop's output is the clock for the next stage, so state changes propagate sequentially — intermediate, incorrect count values appear briefly as the signal ripples through. A synchronous counter eliminates this by clocking all flip-flops from the same source; combinational logic precomputes every next state, and all outputs change simultaneously on the clock edge, producing only valid states."
+  explanation: "The glitch-free property is critical when a counter's output feeds other synchronous circuits. If intermediate glitch states occur, downstream logic may sample them on the clock edge and latch incorrect values — a catastrophic failure in a CPU's program counter or a memory address generator. Synchronous design ensures that by the next clock edge, all combinational paths have settled to their correct values. This is why synchronous counters dominate in real digital systems despite requiring slightly more combinational logic than their ripple counterparts."
+```
+
 ## Explainer
 
 You already know how master-slave flip-flops work — they capture input on one clock edge and hold it stable until the next. A **synchronous counter** connects multiple flip-flops to the same clock signal and uses combinational logic between them to determine each flip-flop's next state. The key word is "synchronous": every flip-flop transitions at the same instant, driven by the same clock edge. This eliminates the cascading delays that plague asynchronous (ripple) counters, where each flip-flop's output must propagate to the next before it can change.

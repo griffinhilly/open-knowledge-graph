@@ -28,6 +28,45 @@ Identify allomorphic variants of a morpheme across contexts, determine whether c
 - Allomorphy is not always rule-based; some allomorphic relationships are lexically specified or reflect historical sound change.
 - The same surface alternation might be phonological in one language and morphological in another.
 
+## Questions
+
+```yaml
+- question: "An English speaker correctly produces 'dogs' [dɒgz], 'cats' [kæts], and 'buses' [bʌsɪz] without being explicitly taught these forms. A linguist analyzing these plural forms should conclude:"
+  type: multiple-choice
+  options:
+    - "These are three distinct plural morphemes with slightly different grammatical meanings"
+    - "These are three allomorphs of a single plural morpheme, with the choice conditioned by the phonological environment of the stem — voiced non-sibilant → [z], voiceless non-sibilant → [s], sibilant → [əz]"
+    - "These forms must be stored individually as lexical entries because the variation is unpredictable"
+    - "These are morphologically-conditioned allomorphs, like man/men, that require lexical class specifications"
+  answer: 1
+  explanation: "The distribution of [z], [s], and [əz] is entirely predictable from the phonological environment of the stem — it is phonologically-conditioned allomorphy. Positing three separate morphemes misses the generalization that they are in complementary distribution and their distribution follows from the phonology of the language. A single underlying form plus a phonological rule (or set of constraints) explains the three forms with less machinery than three separate entries. Native speakers extend this pattern automatically to novel words (e.g., 'blicks' → [blɪks]), proving the rule is productive."
+
+- question: "Which of the following is the clearest example of suppletive allomorphy?"
+  type: multiple-choice
+  options:
+    - "The English plural alternation: [z] in 'dogs,' [s] in 'cats,' [əz] in 'buses'"
+    - "The English present/past alternation in 'go' / 'went'"
+    - "The [f]/[v] alternation in 'leaf' / 'leaves'"
+    - "The vowel change in 'sing' / 'sang'"
+  answer: 1
+  explanation: "'Go' and 'went' are the canonical example of suppletive allomorphy: the past tense form is historically from an entirely different verb (*wend*), and no phonological rule derives 'went' from 'go.' The relationship must be stored as an arbitrary lexical pairing. By contrast, the plural alternation ([z]/[s]/[əz]) follows a productive phonological rule; 'leaf/leaves' reflects a semi-regular morphological class; 'sing/sang' follows an ablaut pattern shared by other strong verbs. Suppletive allomorphs are the residue that cannot be derived by rule — pure lexical accidents of history."
+
+- question: "Suppletive allomorphs like 'go/went' and 'good/better/best' must be stored as separate lexical entries in the grammar because no productive phonological or morphological rule can derive one form from the other."
+  type: true-false
+  answer: true
+  explanation: "Correct. The goal of morphophonological analysis is to reduce surface alternations to a single underlying form plus rules wherever possible. When no rule captures the alternation — because the relationship is historically arbitrary — the grammar has no choice but to list the forms separately. Suppletive forms are identified by the diagnostic that native speakers do not extend them to new words: you cannot form the plural of a new noun using vowel change (*'mouses' → [maɪs]?), and children must learn 'went' explicitly rather than deriving it from 'go.'"
+
+- question: "Because [z], [s], and [əz] are three different surface forms, they represent three separate plural morphemes in the grammar of English."
+  type: true-false
+  answer: false
+  explanation: "This is the key mistake in analyzing allomorphy. Having different surface forms does not imply different underlying morphemes. The three forms are in complementary distribution (each appears in a distinct, non-overlapping environment) and collectively cover all plural contexts — the hallmark of allomorphs of a single morpheme. Positing three morphemes makes the grammar redundant: it lists three entries where one plus a rule would suffice, and it fails to capture the generalization that all three mark plurality. Morpheme identity is determined by function and distribution, not surface form."
+
+- question: "Why do linguists prefer to analyze the English plural [z/s/əz] as one morpheme with phonologically-conditioned allomorphs rather than as three separate morphemes? What analytical principle motivates this choice?"
+  type: short-answer
+  answer: "The three-morpheme analysis duplicates information: it lists three separate entries that all mean 'plural,' without explaining why they appear in mutually exclusive environments. The one-morpheme analysis captures the generalization that the alternation is entirely predictable from the phonological context of the stem — voiced non-sibilant, voiceless non-sibilant, sibilant — using a single rule rather than arbitrary listing. The guiding principle is economy: prefer the analysis that captures alternations as productive rules over one that treats them as coincidental. Suppletive allomorphs are the exceptions that cannot be derived by rule; phonologically-conditioned allomorphs are the norm that reveals the language's phonological grammar."
+  explanation: "This is the core methodological principle of morphophonology: reduce surface complexity to underlying simplicity through rules. The morpheme inventory should be as small as possible while still accounting for the data."
+```
+
 ## Explainer
 
 From your study of morpheme types and morphological structure, you know that words are built from smaller meaningful units — morphemes — and that these units combine in systematic ways. Allomorphy is what happens when the same morpheme shows up in different phonological shapes depending on context. The key conceptual move is distinguishing the **morpheme** (the abstract unit of meaning) from the **morph** (the actual phonological form). A single morpheme can have multiple morphs — those are its allomorphs.

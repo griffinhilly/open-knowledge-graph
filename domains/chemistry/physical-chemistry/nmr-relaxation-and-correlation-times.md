@@ -30,6 +30,45 @@ Measure T1 and T2 for ¹H NMR resonances using inversion recovery and CPMG seque
 ## Common Misconceptions
 - Confusing T1 (spin-lattice, energy dissipation) with T2 (spin-spin, phase coherence); T2 ≤ T1 always, and they reflect different physical processes. - Assuming longer T1 always indicates slower dynamics; T1 has a minimum at a specific correlation time (T1 vs τc is non-monotonic).
 
+## Questions
+
+```yaml
+- question: "A small organic molecule in solution has a very short correlation time (τc ≈ 10⁻¹² s). You increase the viscosity of the solvent dramatically, slowing molecular tumbling (τc now ≈ 10⁻⁸ s). What happens to T₁?"
+  type: multiple-choice
+  options:
+    - "T₁ decreases monotonically, because slower motion always increases spin-lattice relaxation"
+    - "T₁ first decreases to a minimum then increases, because T₁ vs τc is non-monotonic"
+    - "T₁ increases monotonically, because slower motion gives spins more time to relax"
+    - "T₁ is unchanged, because T₁ depends only on the magnetic field strength"
+  answer: 1
+  explanation: "T₁ has a minimum when ω₀τc ≈ 1 — when the tumbling rate matches the Larmor frequency and energy transfer is maximally efficient. Starting from very fast tumbling (short τc, small molecule), increasing viscosity first moves τc toward this resonance condition, decreasing T₁. Once past the minimum (when τc > 1/ω₀, as for large proteins), further slowing increases T₁ again. This non-monotonic behavior is the key insight; it means you cannot simply say 'slower motion = faster or slower relaxation' without knowing where on the curve you are."
+
+- question: "Why is T₂ always less than or equal to T₁, and why does the inequality become dramatic for large proteins?"
+  type: multiple-choice
+  options:
+    - "T₂ ≤ T₁ because T₂ only depends on fast motions near the Larmor frequency, while T₁ is sensitive to all motions"
+    - "T₂ ≤ T₁ because T₂ is sensitive to both fast and slow motions, while T₁ is primarily sensitive to motions near the Larmor frequency"
+    - "T₂ ≤ T₁ because large proteins have fewer hydrogen atoms, reducing dipolar coupling"
+    - "T₂ ≤ T₁ because phase coherence decays faster than the spin population can recover"
+  answer: 1
+  explanation: "T₁ requires energy exchange between spins and the lattice, which demands fluctuating fields at the Larmor frequency ω₀ — so only fast motions (short τc) drive T₁ efficiently. T₂ is damaged by any process that causes spins to dephase, including slow low-frequency motions that create persistent local field variations. For small rapidly-tumbling molecules, both types of motions average effectively and T₁ ≈ T₂. For large, slowly-tumbling proteins, slow motions destroy phase coherence quickly (short T₂) while T₁ becomes long because motions are too slow to efficiently transfer energy at ω₀. The large T₁/T₂ ratio is a signature of macromolecular systems."
+
+- question: "A longer T₁ relaxation time always indicates slower molecular motion (larger correlation time)."
+  type: true-false
+  answer: false
+  explanation: "Because T₁ vs τc is non-monotonic with a minimum at ω₀τc ≈ 1, a long T₁ is consistent with either very fast tumbling (small τc, well below the minimum) or very slow tumbling (large τc, beyond the minimum). Small molecules in low-viscosity solution often have long T₁ because they tumble far faster than needed for optimal energy transfer. Without additional information (e.g., measurements at multiple field strengths), you cannot determine whether long T₁ means fast or slow motion — this is a common source of misinterpretation."
+
+- question: "The spectral density function J(ω) quantifies motional power at each frequency. For a slowly tumbling protein, J(0) is large while J(ω₀) is small."
+  type: true-false
+  answer: true
+  explanation: "The spectral density J(ω) = 2τc/(1 + ω²τc²) is essentially a Lorentzian. For slow tumbling (large τc), the Lorentzian is narrow and concentrated at low frequencies, so J(0) is large but J(ω₀) and J(2ω₀) are small (since ω₀τc ≫ 1 and the denominator is large). This explains why T₂ is short for proteins (T₂ depends on J(0), which is large, driving fast dephasing) while T₁ is long (T₁ depends on J(ω₀) and J(2ω₀), which are small, giving slow spin-lattice relaxation)."
+
+- question: "Explain physically why measuring NMR relaxation at multiple magnetic field strengths provides more information about molecular dynamics than a single-field measurement."
+  type: short-answer
+  answer: "T₁ depends on spectral density at the Larmor frequency ω₀, which scales with field strength. Measurements at different fields probe J(ω) at different frequencies, effectively sampling the spectral density function at multiple points. This allows you to distinguish between motions on different timescales, separate internal motions from overall tumbling, and fit models to extract τc values and order parameters — none of which is possible from a single-field measurement alone."
+  explanation: "The spectral density function encodes the full distribution of molecular motions. A single T₁ or T₂ measurement gives only one number — one sample of J(ω) at one frequency. Multi-field relaxation measurements provide multiple constraints on the same underlying dynamic model, enabling proper extraction of correlation times and the separation of fast local fluctuations from slow global tumbling. This is the basis of 'model-free' analysis and field-dependent NMR studies of protein dynamics."
+```
+
 ## Explainer
 
 From NMR quantum theory, you know that nuclear spins in a magnetic field occupy quantized energy levels and that radiofrequency pulses can perturb this system away from equilibrium. Relaxation is the process by which the spin system returns to equilibrium after such a perturbation, and it contains a wealth of information about molecular dynamics because it is driven by molecular motion itself.

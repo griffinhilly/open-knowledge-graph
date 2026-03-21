@@ -30,6 +30,45 @@ Compare formal analysis of abstract and representational artworks; notice how fo
 ## Common Misconceptions
 - Bell claims all art should be abstract; he claims significant form appears in representation too, but formalism privileges it. - Formalism ignores context and meaning; it argues that form itself constitutes aesthetic meaning.
 
+## Questions
+
+```yaml
+- question: "A viewer says Cézanne's paintings of apples are aesthetically valuable because viewers recognize and feel affection for the depicted fruit. How would Bell's theory respond?"
+  type: multiple-choice
+  options:
+    - "Bell would agree — recognizable subject matter enhances the significant form by grounding it in everyday experience"
+    - "Bell would say the apples are aesthetically irrelevant — what matters is the orchestration of volumes, edges, and color planes, not what those forms depict"
+    - "Bell would reject the paintings entirely, since any representational content undermines formalist value"
+    - "Bell would partially agree, since familiar subjects make it easier to perceive significant form"
+  answer: 1
+  explanation: "Bell does not forbid representation — Cézanne's apples are still apples — but representation is irrelevant to aesthetic value. The painting's value lies in the arrangement of visual elements, not the apple-ness of its subject. The common misconception is that Bell demands abstraction; he demands attention to form, which can be present in representational work. The depicted content is simply beside the point aesthetically."
+
+- question: "An art critic argues that abstract paintings are aesthetically deficient because they lack recognizable subject matter to emotionally engage the viewer. Bell's theory would:"
+  type: multiple-choice
+  options:
+    - "Support this claim — representation provides the narrative context needed to trigger genuine aesthetic emotion"
+    - "Directly refute it — for Bell, shedding representation is a purification that lets art pursue significant form without the distraction of depicted subjects"
+    - "Partially agree — Bell thinks some representational anchor is necessary to orient the viewer's formal perception"
+    - "Dismiss the question — Bell's theory does not distinguish abstract from representational art at all"
+  answer: 1
+  explanation: "Bell's theory provided the theoretical justification for abstract art precisely by arguing that representation is not what generates aesthetic value. If significant form is what matters, then abstract art — which removes the 'distraction' of recognizable subjects — can pursue formal relationships more directly. The critic's claim assumes the opposite of Bell's core insight."
+
+- question: "According to Bell, asking 'What story does this painting tell?' is irrelevant to its aesthetic evaluation."
+  type: true-false
+  answer: true
+  explanation: "Bell's formalism holds that aesthetic value lies entirely in significant form — the arrangement of lines, colors, and volumes — not in narrative, moral content, or historical reference. Asking what story a painting tells is a legitimate art-historical or literary question, but it tells you nothing about whether the work has aesthetic value under Bell's framework. The aesthetic emotion responds to form, not content."
+
+- question: "Bell argues that all great art must be abstract because representation inevitably dilutes significant form."
+  type: true-false
+  answer: false
+  explanation: "This is a common misreading of Bell. He argues that significant form is the common property of all great art — including representational art from Byzantine mosaics to Cézanne. Representation is not forbidden; it is simply aesthetically neutral. What matters is whether the visual arrangement provokes the aesthetic emotion. Bell's theory supports abstract art by showing that representation is unnecessary, not by claiming it is harmful."
+
+- question: "What is the 'circularity problem' in Bell's theory of significant form, and why do critics consider it a serious weakness?"
+  type: short-answer
+  answer: "Bell defines significant form as 'the form that provokes aesthetic emotion' and defines aesthetic emotion as 'the response to significant form.' Each term is defined in terms of the other, creating a circular definition that cannot be applied independently. You cannot identify significant form without already knowing what triggers aesthetic emotion, and you cannot identify aesthetic emotion without already knowing what significant form is."
+  explanation: "This circularity means Bell's theory cannot make predictions or be tested against cases — any arrangement that triggers the relevant emotion gets retrospectively labeled 'significant form.' Despite this weakness, critics acknowledge that Bell sharpened a genuine insight: formal properties carry expressive weight independent of what a work depicts."
+```
+
 ## Explainer
 
 You already understand that artworks consist of both form and content, and that the "art for art's sake" tradition insists art needs no external justification. Clive Bell takes this formalist thread and pulls it to a radical conclusion: the only thing that matters aesthetically is what he calls **significant form** — the particular combinations of lines, colors, shapes, and spatial relationships that provoke a distinctive emotional response. Not the story a painting tells, not the moral it teaches, not the historical figure it depicts — just the arrangement of visual elements on the surface.

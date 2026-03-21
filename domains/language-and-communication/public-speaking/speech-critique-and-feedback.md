@@ -35,6 +35,45 @@ Practice giving feedback before receiving it — evaluating others builds an ana
 - 'I liked it' is not feedback; 'Your opening story immediately established stakes for the audience' is.
 - The speaker's intention is irrelevant to the feedback — what matters is the audience's actual experience.
 
+## Questions
+
+```yaml
+- question: "You've just watched a classmate's speech. One observer says: 'Your delivery was great overall.' Another says: 'In your third main point, you read directly from your notes for about 20 seconds and your eye contact dropped to zero — right when you were making your most important claim.' Which is more useful feedback?"
+  type: multiple-choice
+  options:
+    - "The first — general praise boosts confidence without overwhelming the speaker with detail"
+    - "The second — it identifies a specific behavior, its location in the speech, and its consequence for the audience"
+    - "Both are equally valid; different feedback styles suit different speakers"
+    - "Neither — effective feedback should always focus exclusively on what to change, not what worked"
+  answer: 1
+  explanation: "Effective feedback requires specificity: a location, a behavior, and a consequence. 'Great delivery' gives the speaker nothing to replicate or change. The second observation has all three components. Option A reflects the common misconception that praise is primarily motivational; specific positive feedback is equally instructive — it tells the speaker what to keep doing and why it works."
+
+- question: "After a speech, the speaker explains: 'My third point was hard to follow because I had to restructure it at the last minute.' How should this explanation affect your written feedback about that point?"
+  type: multiple-choice
+  options:
+    - "Soften the critique — the speaker already knows about the problem and had an external cause"
+    - "Include the explanation as context so readers understand the performance wasn't representative"
+    - "It shouldn't change the feedback — the audience's confusion is what needs to be addressed regardless of the cause"
+    - "Focus feedback on the preparation process rather than the performance itself"
+  answer: 2
+  explanation: "The speaker's intention is irrelevant to feedback. What matters is the audience's actual experience. If listeners were confused, that confusion is the data point — it doesn't become less real because the speaker had a last-minute restructuring. The feedback goal is to diagnose what the audience experienced and give the speaker information to improve the next performance."
+
+- question: "A piece of feedback that says 'Your speech was engaging throughout' is just as useful as feedback that says 'You made consistent eye contact during your opening story, which helped establish trust before your first main point.'"
+  type: true-false
+  answer: false
+  explanation: "Vague feedback — even when positive — gives the speaker nothing to replicate or build on. 'Engaging throughout' doesn't identify what behavior produced the engagement or what a better version of any moment would look like. The second statement identifies a specific behavior (consistent eye contact), a location (opening story), and a consequence (established trust). This is the difference between a verdict and a diagnosis."
+
+- question: "Separating observation ('your pauses were very short') from interpretation ('I think you were nervous') and prescription ('try a two-second pause after each major claim') makes feedback more actionable."
+  type: true-false
+  answer: true
+  explanation: "When feedback conflates all three into a single judgment, the speaker can only accept or reject the whole package. Keeping them separate allows the speaker to verify the observation, evaluate whether the interpretation is accurate, and decide whether to accept the prescription — a far more productive process. A speaker can agree 'yes, my pauses were short' while disagreeing about the cause, and still act on the prescription."
+
+- question: "Why is 'your delivery needs work' nearly useless as feedback, even if it accurately describes the speech?"
+  type: short-answer
+  answer: "It lacks specificity: no location, no identified behavior, and no consequence. The speaker cannot determine what they are currently doing, what a better version would look like, or what to practice. Effective feedback requires all three: where it happened, what the behavior was, and what impact it had on the audience."
+  explanation: "Vague feedback fails because improvement requires a specific target. 'Delivery needs work' tells the speaker something was wrong but not what — leaving them to guess. Specific feedback ('you dropped eye contact during the statistics in the second point, which undermined your authority at the key moment') gives a concrete image of the problem and a clear place to focus practice. The same principle applies to positive feedback: 'good job' is not instructive; 'your pause before the main claim created real emphasis' is."
+```
+
 ## Explainer
 
 Effective speech critique requires an analytical framework and a willingness to separate observation from evaluation. You've studied vocal delivery, nonverbal communication, speech structure, and revision — and critique is the process that ties these together: using each domain of knowledge to generate specific, actionable observations about a particular performance, then communicating those observations in a way the speaker can actually use. The goal is not to render a verdict but to give the speaker a diagnosis of the audience's experience.

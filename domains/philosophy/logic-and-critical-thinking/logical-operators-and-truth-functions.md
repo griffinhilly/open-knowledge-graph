@@ -29,6 +29,45 @@ Begin with simple two-proposition examples and truth tables for each operator. S
 ## Common Misconceptions
 Confusing English 'or' (often exclusive: 'you can have cake or ice cream') with logical OR (inclusive: at least one is true). Misplacing negation scope: 'not all birds fly' means 'some birds don't fly,' not 'no birds fly.'
 
+## Questions
+
+```yaml
+- question: "A doctor says: 'The patient has disease A or disease B.' Tests confirm the patient has disease A. Based on logical OR alone, what can the doctor conclude about disease B?"
+  type: multiple-choice
+  options:
+    - "Disease B is ruled out — once one disjunct is confirmed, the other is excluded"
+    - "Disease B cannot be ruled out — logical OR allows both conditions to be true simultaneously"
+    - "Disease B is ruled out — 'or' in a medical context always means exactly one condition"
+    - "Nothing can be concluded about disease B without more clinical information"
+  answer: 1
+  explanation: "Logical OR (P ∨ Q) is inclusive: it is true when at least one disjunct is true, including when both are true. P ∨ Q is false only when both P and Q are false. Confirming P makes P ∨ Q true, but says nothing about whether Q is true or false. This diverges from everyday English 'or,' which often implies exclusivity. In medical and scientific reasoning, treating OR as exclusive leads to missed diagnoses — both conditions can coexist."
+
+- question: "The statement 'Not all politicians are corrupt' is equivalent to which of the following?"
+  type: multiple-choice
+  options:
+    - "No politicians are corrupt"
+    - "All politicians are not corrupt"
+    - "At least one politician is not corrupt"
+    - "Most politicians are not corrupt"
+  answer: 2
+  explanation: "Negation applies to the quantifier 'all,' not to 'corrupt.' 'Not all X are Y' means 'there exists at least one X that is not Y' — the negation of a universal claim is an existential claim. This is entirely compatible with most politicians being corrupt. 'No politicians are corrupt' (option A) and 'All politicians are not corrupt' (option B) both assert universal non-corruption, which is a much stronger claim. Option D adds a quantitative judgment ('most') not implied by the original statement."
+
+- question: "The statement 'P AND Q' is false whenever P is false, regardless of Q's truth value."
+  type: true-false
+  answer: true
+  explanation: "True. Conjunction (P ∧ Q) requires both parts to be true. If P is false, the compound sentence is false no matter what Q is — there is no truth value of Q that rescues a false P. This can be verified in the truth table: both rows where P = F yield P ∧ Q = F. This 'unanimous agreement' requirement is what makes AND a strong claim."
+
+- question: "Logical OR works the same way as everyday English 'or' — exactly one of the two options must be true for the statement to be true."
+  type: true-false
+  answer: false
+  explanation: "False. Logical OR is inclusive: P ∨ Q is true when at least one of P or Q is true, including when both are true. It is false only when both are false. Everyday English 'or' is often exclusive (implying exactly one alternative), but this meaning is not built into logical OR. The distinction matters: 'you can have cake or ice cream' in everyday speech often implies not both, but in formal logic, a disjunction is satisfied even when both options hold."
+
+- question: "A programmer writes the condition: 'The file is valid if it contains a number OR a letter.' A user submits a file containing both a number and a letter. Using the logical definition of OR, is the file valid? Explain why."
+  type: short-answer
+  answer: "Yes, the file is valid. Logical OR (disjunction) is true when at least one condition holds, and it is also true when both hold. Since the file contains a number AND a letter, both disjuncts are true — but that is more than sufficient for the OR to be satisfied. The file would only be invalid if it contained neither a number nor a letter."
+  explanation: "This is the practical consequence of inclusive OR. If the programmer intended exclusive OR (exactly one but not both), they would need to add an explicit exclusion condition. Many bugs in software arise from programmers who assume OR is exclusive when the language's logical OR is inclusive. The truth table entry for 'T OR T' is T — both conditions being satisfied is always sufficient."
+```
+
 ## Explainer
 
 From propositional logic, you know that propositions are the basic units—statements that are either true or false. Logical operators are the tools we use to build more complex statements from simpler ones. But unlike natural language connectives ("and," "or," "not"), logical operators have perfectly precise, fixed meanings defined entirely by their **truth tables**—tables that specify the output truth value for every possible combination of input truth values.

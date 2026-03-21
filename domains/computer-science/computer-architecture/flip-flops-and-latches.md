@@ -34,6 +34,45 @@ Build an SR latch from NOR gates and observe its feedback behavior. Compare a D 
 - Latches are not broken flip-flops — they are intentionally level-sensitive and used in specific contexts, but edge-triggered flip-flops are preferred for synchronous design.
 - The clock does not directly hold the stored value; the feedback loop within the flip-flop maintains state between clock edges.
 
+## Questions
+
+```yaml
+- question: "A D latch has its enable signal held high for 100 nanoseconds while the D input toggles between 0 and 1 multiple times. What does the output Q do during this period?"
+  type: multiple-choice
+  options:
+    - "Q remains at the value captured when enable first went high"
+    - "Q changes only at the end of the enable pulse, capturing the final D value"
+    - "Q continuously tracks the D input — the latch is transparent while enable is high"
+    - "Q enters an indeterminate state because D is changing"
+  answer: 2
+  explanation: "A latch is level-sensitive: while enable is high, the output Q continuously follows the D input — this is called being 'transparent.' This is the fundamental distinction from a flip-flop. A D flip-flop would capture D only at the rising (or falling) clock edge and hold it regardless of subsequent D changes. The transparency of latches is what makes them problematic in synchronous design: signals can 'race' through multiple latches in a single clock phase."
+
+- question: "A D flip-flop's D input changes value 10 nanoseconds before the rising clock edge and remains stable for 5 nanoseconds after. The setup time is 8 ns and hold time is 3 ns. What happens?"
+  type: multiple-choice
+  options:
+    - "The flip-flop correctly captures the new D value — both setup and hold times are satisfied"
+    - "The flip-flop enters metastability — the setup time requirement is violated"
+    - "The flip-flop captures the old D value — data that arrives that late cannot be captured"
+    - "The flip-flop enters metastability — the hold time requirement is violated"
+  answer: 0
+  explanation: "Setup time requires D to be stable for 8 ns before the clock edge — D changed 10 ns before the edge, so it has been stable for 10 ns (satisfied). Hold time requires D to remain stable 3 ns after the clock edge — it stays stable 5 ns after (satisfied). Both constraints are met, so the flip-flop correctly captures the new D value. Metastability only occurs when D changes too close to or during the clock edge, violating setup or hold time."
+
+- question: "The clock signal in a synchronous circuit is what maintains the stored bit value in a flip-flop between clock edges."
+  type: true-false
+  answer: false
+  explanation: "The bit value is maintained by the internal feedback loop, not by the clock. Between clock edges, the clock may be low, but the stored value is held by the cross-coupled feedback in the circuit — the same mechanism as the SR latch. The clock's role is to control WHEN a new value is captured. Once captured, the feedback loop holds the value independently of what the clock is doing."
+
+- question: "Edge-triggered flip-flops are preferred over level-sensitive latches for synchronous digital design."
+  type: true-false
+  answer: true
+  explanation: "Edge triggering gives precise, predictable state changes synchronized to a single moment per clock cycle. Level-sensitive latches are 'transparent' whenever enable is high, creating windows where signals can race through multiple stages unexpectedly. Synchronous design requires that all state changes happen at known, coordinated moments so that timing analysis is tractable. Flip-flops, by sampling exactly at the clock edge, make timing analysis well-defined: signals must be stable within the setup/hold window, and propagation delays are bounded by the clock period."
+
+- question: "Explain how the feedback structure inside a flip-flop allows it to maintain a stored value indefinitely between clock edges."
+  type: short-answer
+  answer: "The flip-flop contains a cross-coupled feedback loop (inherited from the SR latch) where the output of each gate feeds back into the input of the other. This creates two stable states: Q=1,Q̄=0 and Q=0,Q̄=1. Once the circuit settles into one state, the feedback reinforces itself — each gate's output keeps the other gate in a consistent state. This self-reinforcing loop persists regardless of what happens at the data input or clock, holding the bit until the next active clock edge causes the circuit to capture a new value."
+  explanation: "Feedback is what distinguishes sequential circuits from combinational ones. In a combinational circuit, outputs are functions of current inputs only. In a bistable flip-flop, the feedback loop is the storage mechanism: it creates memory that persists even when inputs change. The clock edge momentarily connects the data input to the feedback loop, updating the stored value, then the loop closes again to hold the new state. This also explains why setup/hold times matter: if D changes during the capture window, the feedback loop receives inconsistent inputs and can enter a metastable state between 0 and 1."
+```
+
 ## Explainer
 
 From your work with logic gates, you know that combinational circuits produce outputs determined entirely by their current inputs — change the inputs, the outputs change. But a computer needs **memory**: circuits that hold a value even after the input that produced it is gone. Flip-flops and latches are the simplest circuits that achieve this, and they do it through a single powerful idea — **feedback**.

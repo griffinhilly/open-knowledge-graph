@@ -28,6 +28,45 @@ The F-test evaluates whether a set of coefficients is jointly statistically sign
 - Individually insignificant coefficients can be jointly significant — this matters when regressors are correlated.
 - The overall F-test rejecting the null does not mean every individual variable matters, only that the model as a whole has predictive content.
 
+## Questions
+
+```yaml
+- question: "You run a regression predicting annual salary using years_of_education and years_of_experience. Both variables are highly correlated and both have individually insignificant t-statistics (p > 0.10). What should you conclude?"
+  type: multiple-choice
+  options:
+    - "Drop both variables — individually insignificant coefficients mean the variables add no explanatory power"
+    - "Drop the less significant variable and re-run; the remaining variable may become significant"
+    - "Run an F-test first — correlated variables can be jointly significant even when individually insignificant"
+    - "Both variables are statistically redundant, so keep only their average as a single predictor"
+  answer: 2
+  explanation: "When regressors are correlated (multicollinear), OLS inflates individual standard errors — each variable appears insignificant not because it lacks explanatory power, but because the model can't attribute the shared variance to one variable versus the other. The F-test evaluates whether the two variables jointly reduce unexplained variance. A high F-statistic with insignificant individual t-statistics is the signature pattern of multicollinearity. Dropping both based only on t-tests would discard genuine predictive content."
+
+- question: "The F-statistic for overall model significance equals (RSS_restricted − RSS_unrestricted)/q ÷ RSS_unrestricted/(n−k−1). What does the term q represent in this formula?"
+  type: multiple-choice
+  options:
+    - "The number of observations in the sample"
+    - "The number of restrictions being tested — here, the number of slope coefficients jointly set to zero"
+    - "The ratio of explained to unexplained variance in the full model"
+    - "The degrees of freedom penalty for each additional regressor"
+  answer: 1
+  explanation: "q is the number of restrictions imposed under the null hypothesis. For the overall F-test, the null sets all slope coefficients to zero, so q equals the number of slope coefficients (k). For a partial F-test of a subset of variables, q equals how many you're testing. The F-distribution requires two degree-of-freedom parameters — (q, n−k−1) — because both the number of restrictions and the full model's residual degrees of freedom affect the reference distribution."
+
+- question: "If all individual slope coefficients in a regression have p-values above 0.05, the overall F-test for joint significance will also fail to reject the null hypothesis."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception the F-test corrects. Under multicollinearity, individual t-tests have inflated standard errors that mask each coefficient's contribution. But the F-test evaluates the joint reduction in unexplained variance, which can be substantial even when no single variable looks significant on its own. A model can have a highly significant overall F-statistic alongside uniformly insignificant individual t-statistics — a pattern that tells you the variables together matter but their individual contributions can't be separately identified given the correlation structure."
+
+- question: "When testing a single linear restriction (q = 1), the F-statistic equals the square of the corresponding t-statistic."
+  type: true-false
+  answer: true
+  explanation: "This is a direct mathematical relationship: F(1, df) = t²(df). It serves as a useful sanity check — if you run an F-test on a single coefficient and compare it to the t-test for that same coefficient, you should get F = t². The two tests give identical p-values for a single restriction. This connection also helps build intuition: the F-test is a generalization of the t-test to multiple simultaneous restrictions, collapsing to the familiar t-test when only one restriction is being tested."
+
+- question: "Why can't you simply run multiple t-tests — one for each coefficient — to determine whether a set of variables is jointly significant?"
+  type: short-answer
+  answer: "Running multiple t-tests inflates the Type I error rate. If each test has a 5% false positive rate, the probability of at least one false rejection across k independent tests is 1 − 0.95^k, which grows rapidly with k. The F-test controls this by testing all restrictions simultaneously under a single null hypothesis, maintaining a correct overall false positive rate. Additionally, individual t-tests cannot detect the case where correlated variables are jointly but not individually significant — the F-test is designed specifically for this."
+  explanation: "This is why the F-test exists: it is not redundant with the set of individual t-tests but answers a different question. The question 'is at least one of these variables significant?' answered by scanning t-tests has uncontrolled error. The question 'do these variables jointly explain variance beyond what would be expected by chance?' is what the F-test answers cleanly."
+```
+
 ## Explainer
 
 Suppose you estimate a regression with ten explanatory variables and find that seven of them have t-statistics below 2 — individually, they appear statistically insignificant. Should you conclude the model has no explanatory power and drop all seven? Not necessarily. From your hypothesis testing background, you know that each t-test has a false positive rate (Type I error). If you run ten separate tests, each at the 5% level, the probability that at least one falsely rejects the null is much higher than 5%. The F-test solves the complementary problem: it tests whether variables are collectively significant in a single, unified null hypothesis.

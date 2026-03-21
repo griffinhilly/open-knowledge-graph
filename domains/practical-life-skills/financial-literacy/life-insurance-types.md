@@ -32,6 +32,45 @@ Calculate the actual financial gap your family would face: total outstanding deb
 - Whole life is a good investment because it builds cash value; the internal rate of return on whole life cash value is typically 1-3%, and early surrender charges can make accessing that value expensive — separate investing almost always outperforms.
 - You cannot get life insurance if you have health problems; many conditions are insurable at higher premiums (rated policies), and guaranteed-issue policies exist, though at reduced coverage amounts and higher cost.
 
+## Questions
+
+```yaml
+- question: "A 28-year-old professional has no spouse, no children, and no one who depends on their income. Their financial advisor recommends they buy life insurance immediately. How should they evaluate this advice?"
+  type: multiple-choice
+  options:
+    - "Accept it — life insurance is a universal need since death is unpredictable"
+    - "Decline — life insurance is an income-replacement tool and without dependents, there is no income to replace"
+    - "Buy whole life for the investment component, since they don't need the death benefit"
+    - "Buy a small term policy as a precaution even without dependents"
+  answer: 1
+  explanation: "Life insurance exists to replace the income that dependents would lose if you died. Without anyone depending on your income, there is no financial gap to fill. The misconception that everyone needs life insurance treats it as a universal product rather than a targeted solution for income replacement. Whole life as an investment (option C) is also inadvisable — the internal rate of return on cash value is typically 1-3%, far below what separate investing achieves."
+
+- question: "Why can a 30-year-old typically buy $500,000 in 20-year term life coverage for $20-30 per month, while an equivalent whole life policy might cost $200-400 per month?"
+  type: multiple-choice
+  options:
+    - "Term policies pay lower death benefits than advertised"
+    - "Term insurance companies take on more risk than whole life insurers"
+    - "Term premiums cover only the mortality risk; whole life premiums fund both the death benefit and a cash value savings component"
+    - "Whole life premiums are set high to discourage cancellation"
+  answer: 2
+  explanation: "Term life is cheap because it is pure insurance — the premium covers only the actuarial cost of dying during the policy period. No cash accumulates; if you outlive the term, nothing is returned. Whole life premiums fund both the death benefit and a savings component (the cash value), making them fundamentally a bundled insurance-plus-investment product. The cost difference illustrates exactly why 'buy term and invest the difference' can outperform whole life: separating the insurance function (cheap term) from the savings function (low-cost index funds) optimizes each independently."
+
+- question: "The 'buy term and invest the difference' strategy assumes that the premium savings from choosing term over whole life, when invested, will typically outperform the cash value growth of whole life insurance."
+  type: true-false
+  answer: true
+  explanation: "This is exactly correct. Whole life cash value typically grows at 1-3% annually (the guaranteed crediting rate), and early surrender charges further reduce accessible returns. The premium difference between whole life and equivalent term coverage — invested in low-cost diversified index funds over 20-30 years — will almost always produce significantly higher wealth. This is the core argument behind recommending term insurance for most people."
+
+- question: "Everyone needs life insurance because death is unpredictable and a death benefit always provides value to the policyholder's estate."
+  type: true-false
+  answer: false
+  explanation: "Life insurance is an income-replacement tool, not a universal financial product. If no one depends on your income — no children, no spouse, no dependents — there is no financial gap for a death benefit to fill. While a death benefit does go to named beneficiaries, the question is whether the ongoing premium cost is worth that transfer given no surviving dependents need income replacement. For people without dependents, the premium money is typically better deployed elsewhere. The estate-planning framing (option above) can be a legitimate use case for high-net-worth individuals, but for most people the primary question is: who depends on my income?"
+
+- question: "How should a person calculate how much life insurance they actually need, and why is a simple rule of thumb like 'ten times your salary' unreliable?"
+  type: short-answer
+  answer: "The needs-based approach calculates the actual financial gap: sum outstanding debts (mortgage, loans), years of income replacement needed (until children are independent or partner can sustain themselves), future obligations (college costs, etc.), then subtract existing savings and assets. The result is the coverage needed. 'Ten times salary' is unreliable because it ignores individual circumstances — a person with no debt and substantial savings needs far less than one with a large mortgage and young children, even if both earn the same salary."
+  explanation: "The rule-of-thumb approach produces either over-insurance (wasteful premiums) or under-insurance (insufficient protection). The needs-based calculation is more accurate because life insurance is solving a specific problem: keeping your dependents financially whole. That problem has a specific size that depends on your actual debts, obligations, and existing resources — not your salary alone."
+```
+
 ## Explainer
 
 From your study of insurance principles, you understand the core mechanism: a large pool of people each pay small premiums, and that pooled money pays out to the few who suffer the insured loss. Life insurance applies this to the financial consequences of death — specifically, the loss of income that dependents would face. The first question is always whether anyone depends on your income to meet their financial needs. If the answer is no, life insurance has little value; it is not a savings vehicle or a status product — it is an income-replacement tool.

@@ -19,6 +19,45 @@ status: draft
 ## Core Idea
 Every non-negative integer can be expressed as a sum of four squares. While the sum-of-two-squares theorem characterizes which numbers require four squares, Lagrange's result guarantees that four always suffice, contrasting sharply with two-square representations.
 
+## Questions
+
+```yaml
+- question: "Which of the following integers CANNOT be expressed as a sum of two perfect squares?"
+  type: multiple-choice
+  options:
+    - "5"
+    - "25"
+    - "3"
+    - "13"
+  answer: 2
+  explanation: "By the sum-of-two-squares theorem, a number is a sum of two squares iff every prime factor of the form 4k+3 appears to an even power. The number 3 is itself a prime of the form 4k+3 (k=0) appearing to an odd power, so it cannot be expressed as a sum of two squares. Lagrange's theorem guarantees it can be expressed as four: 3 = 1² + 1² + 1² + 0²."
+
+- question: "In the proof of Lagrange's theorem, what role does the Euler four-square identity play?"
+  type: multiple-choice
+  options:
+    - "It directly proves that every prime is a sum of four squares"
+    - "It shows that a product of two sums of four squares is itself a sum of four squares, so the result extends from primes to all integers"
+    - "It establishes that the number of four-square representations grows with the integer"
+    - "It proves that the descent argument terminates at m = 1"
+  answer: 1
+  explanation: "The Euler four-square identity shows that the set of integers expressible as sums of four squares is closed under multiplication. Since every positive integer factors into primes, it suffices to prove the result for primes — the identity then propagates it to all integers via prime factorization. The identity itself does not prove the prime case; that requires the pigeonhole and descent arguments."
+
+- question: "Every integer that cannot be expressed as a sum of three squares also cannot be expressed as a sum of four squares."
+  type: true-false
+  answer: false
+  explanation: "Integers of the form 4ᵃ(8b+7) cannot be expressed as a sum of three squares, but Lagrange's theorem guarantees every non-negative integer can be expressed as a sum of four squares — with no exceptions. The passage from three to four squares closes the remaining gap entirely."
+
+- question: "The proof that every prime p is a sum of four squares uses a descent argument that starts from a multiple mp expressible as a sum of four squares (with m < p) and reduces m until reaching 1."
+  type: true-false
+  answer: true
+  explanation: "A pigeonhole counting argument shows that a² + b² + 1 ≡ 0 (mod p) for some a, b, giving mp = a² + b² + 0² + 1² for some m < p. The descent then reduces m step by step, using the Euler identity at each stage, until m = 1, at which point p itself is expressed as a sum of four squares."
+
+- question: "Why does it suffice, in proving Lagrange's four-square theorem, to prove only that every prime can be expressed as a sum of four squares?"
+  type: short-answer
+  answer: "Because the Euler four-square identity shows that a product of two integers each expressible as sums of four squares is itself expressible as a sum of four squares. Since every positive integer has a prime factorization, establishing the result for primes and applying the identity inductively extends it to all positive integers."
+  explanation: "The multiplicative closure provided by the Euler identity is what allows a proof about primes to become a universal theorem. Without it, the prime case would not obviously generalize."
+```
+
 ## Explainer
 
 The question "which integers are sums of squares?" has a satisfying but incomplete answer for two squares, and a complete answer for four. A number is a sum of two squares if and only if every prime of the form 4k + 3 appears to an even power in its factorization — so 5 = 1² + 2² works, but 3 does not (and cannot). Many integers simply cannot be written as a sum of two squares. Three squares handle more cases, but still fail for numbers of the form 4ᵃ(8b + 7). **Lagrange's four-square theorem** closes the door entirely: four squares always suffice, no matter the integer.

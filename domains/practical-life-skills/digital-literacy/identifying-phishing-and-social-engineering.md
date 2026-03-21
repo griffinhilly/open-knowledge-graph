@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Phishing emails impersonate trusted organizations to trick you into clicking malicious links or revealing credentials. Red flags include artificial urgency, mismatched sender addresses, generic greetings, spelling errors, and any requests for passwords or sensitive financial information.
 
+## Questions
+
+```yaml
+- question: "You receive an email with the display name 'PayPal Security Team' warning that your account has been locked. The From field shows: PayPal Security Team <support@paypa1-alerts.com>. Which signal is the most reliable indicator that this is phishing?"
+  type: multiple-choice
+  options:
+    - "The urgent tone about your account being locked"
+    - "The domain 'paypa1-alerts.com' does not match PayPal's actual domain"
+    - "The email includes a link to click to restore access"
+    - "The message arrived unsolicited without you contacting PayPal first"
+  answer: 1
+  explanation: "The domain is the most technically reliable indicator. Display names are trivially spoofed — any sender can put any name in that field. But the actual domain in the From address (paypa1-alerts.com — note the digit '1' replacing the letter 'l') is not PayPal's real domain. Urgency and unsolicited arrival are also warning signs, but they are psychological signals that could appear in legitimate communications (fraud alerts, for example). A mismatched or typosquatted domain is a nearly definitive technical signal."
+
+- question: "You receive a suspicious email claiming your bank account was compromised. The email includes a toll-free phone number to call immediately. What is the safest response?"
+  type: multiple-choice
+  options:
+    - "Call the number in the email — it is safer than clicking a link"
+    - "Reply to the email asking for proof of identity before calling"
+    - "Go directly to your bank's official website and find the support number there, then call that number"
+    - "Forward the email to your bank's email address listed in the suspicious message"
+  answer: 2
+  explanation: "Attackers include fake phone numbers and email addresses in phishing messages — calling or replying via the contact info in the message connects you to the attacker, not your bank. The only safe verification path is through an independent channel you locate yourself: type your bank's URL directly into a browser, or call the number on the back of your physical bank card. Never use links, phone numbers, or email addresses provided in the suspicious message itself."
+
+- question: "A phishing email that addresses you by your real name (e.g., 'Dear Griffin') is probably legitimate, since attackers only know your email address and use generic greetings."
+  type: true-false
+  answer: false
+  explanation: "False. Data breaches regularly expose names, email addresses, and other personal information. Attackers can purchase or obtain breach databases and craft personalized messages using your real name — a technique called 'spear phishing.' A personalized greeting makes a message feel more trustworthy, but it is not evidence of legitimacy. Always evaluate the sender domain and any links independently, regardless of how personalized the greeting appears."
+
+- question: "The artificial urgency in phishing messages — 'Your account will be suspended in 24 hours!' — is deliberately designed to prevent you from pausing to verify the message's legitimacy."
+  type: true-false
+  answer: true
+  explanation: "True. This is the core psychological mechanism of social engineering. Urgency bypasses deliberate reasoning: when you feel you must act immediately, you are less likely to stop and verify independently. Legitimate institutions rarely demand action within hours on security matters, and they never ask for your password or full account credentials via email. Any message that creates extreme time pressure around sensitive information should be treated as a red flag, not as a reason to act faster."
+
+- question: "Why does the display name in an email's 'From' field provide almost no security value, and what should you examine instead?"
+  type: short-answer
+  answer: "The display name is arbitrary — any sender can set it to any text, including 'PayPal Security Team' or 'Your Bank.' It requires no verification and can be changed trivially. What matters is the actual email address (specifically the domain after the @), which is harder to fake and must be inspected for typosquatting, extra words, or character substitutions. For SMS and social media messages where there is no visible domain to inspect, context and independent verification become even more critical."
+  explanation: "Email protocols separate the display name (cosmetic) from the actual sending address (functional). Attackers exploit this separation: the envelope shows whatever name builds trust, while the actual origin domain reveals the deception. Checking the domain defeats the most common spoofing technique. When in doubt, verify through an independent channel — navigate to the organization's official site yourself rather than using any contact information in the suspicious message."
+```
+
 ## Explainer
 
 You've already studied phishing as a category of online threat. Now the focus sharpens to recognition: what specific signals, in real messages, distinguish a legitimate communication from an attack? **Social engineering** is the broader discipline — manipulating people psychologically rather than technically to gain access or information. Phishing is social engineering delivered through electronic communication (email, SMS, voice calls, even social media messages). The attack works not by breaking cryptography but by exploiting human psychology: trust, urgency, fear, and authority.

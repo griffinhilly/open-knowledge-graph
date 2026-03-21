@@ -31,6 +31,45 @@ Assign a dominant cell type to each healing phase: hemostasis (platelets) → in
 - Scar tissue is structurally different from the original dermis: it contains parallel rather than basket-weave collagen, lacks hair follicles and sweat glands, and has altered mechanical properties.
 - Neutrophils are short-lived (hours to days at the injury site) and must be replaced by longer-lived macrophages to sustain the response.
 
+## Questions
+
+```yaml
+- question: "A patient with a significant laceration takes high-dose NSAIDs (prostaglandin synthesis inhibitors) continuously throughout the healing period. What is the most likely consequence?"
+  type: multiple-choice
+  options:
+    - "Faster healing, because reducing inflammation prevents tissue damage from immune cells"
+    - "No significant effect, because NSAIDs only affect fever and systemic pain"
+    - "Impaired healing, because prostaglandins and the inflammatory response are required to recruit the cells that drive repair"
+    - "Faster initial healing but permanent impairment of the final remodeling phase"
+  answer: 2
+  explanation: "Inflammation is not incidental to wound healing — it triggers the entire repair sequence. Prostaglandins contribute to vasodilation and vascular permeability that deliver immune cells to the wound. Macrophages recruited during inflammation release growth factors that signal the transition to the proliferative phase. Suppressing inflammation aggressively can delay neutrophil and macrophage recruitment, stall the proliferative phase, and ultimately slow healing. Option A is the dangerous misconception that inflammation is purely harmful."
+
+- question: "Three days after a skin laceration, which cell type should be most dominant at the injury site?"
+  type: multiple-choice
+  options:
+    - "Platelets, which continue forming the clot for days after injury"
+    - "Neutrophils, the primary immune cells throughout the entire healing response"
+    - "Macrophages, which have replaced the initial neutrophil infiltrate"
+    - "Fibroblasts, which begin laying down collagen immediately after injury"
+  answer: 2
+  explanation: "Wound healing follows a strict temporal sequence. Neutrophils arrive first (within hours) and dominate for 24–48 hours, clearing bacteria and debris. By day 2–3, neutrophil numbers decline and macrophages take over. Macrophages persist longer, continue phagocytosis, and critically, release growth factors that initiate the proliferative phase. Platelets are relevant only in the hemostasis phase (minutes to hours). Fibroblasts don't arrive until the proliferative phase, which begins several days after injury."
+
+- question: "Scar tissue, even after the full remodeling phase is complete, has reduced tensile strength compared to the original unwounded skin, typically reaching only about 80% of normal."
+  type: true-false
+  answer: true
+  explanation: "Despite months of remodeling in which disorganized collagen is broken down and replaced, scar tissue never fully recapitulates the original dermal architecture. Original dermis has a basket-weave pattern of collagen fibers running in multiple directions, distributing mechanical stress efficiently. Scar tissue has parallel-oriented collagen bundles that are weaker under multidirectional stress. Scars also lack hair follicles and sweat glands. The ~80% tensile strength reflects this permanent architectural difference."
+
+- question: "Inflammation is a pathological response to injury that delays healing and should be suppressed as quickly as possible to promote recovery."
+  type: true-false
+  answer: false
+  explanation: "This is a common and consequential misconception. Inflammation is a carefully regulated protective response essential for healing. It delivers neutrophils to kill pathogens, recruits macrophages that bridge the transition to the proliferative phase, and establishes the vascular permeability needed for immune and repair cells to reach the wound. Suppressing inflammation too aggressively — as with high-dose corticosteroids — impairs pathogen clearance, delays macrophage-driven signaling, and can stall healing entirely. The goal is resolution of inflammation, not its elimination."
+
+- question: "Why are macrophages described as the critical bridge between the inflammatory and proliferative phases of wound healing? What would happen if macrophages were absent?"
+  type: short-answer
+  answer: "Macrophages perform two essential bridging functions: they complete the clean-up begun by neutrophils (phagocytosing debris and dead neutrophils), and they secrete growth factors — including VEGF, PDGF, and TGF-β — that signal fibroblasts and endothelial cells to begin the proliferative phase. Without macrophages, the wound cannot transition from destruction to rebuilding. Experimental depletion of macrophages results in wounds stuck in the inflammatory phase, with impaired granulation tissue formation, reduced angiogenesis, and severely delayed closure."
+  explanation: "The macrophage's dual role is the key insight: it is both a continuation of the innate immune response (phagocytosis) and the initiator of the repair program (growth factor release). Macrophages evolve through functional states during healing — early inflammatory (M1-like) macrophages clear debris, while later repair (M2-like) macrophages promote tissue remodeling. Disturbances to this transition (as in chronic wounds or diabetic ulcers) result in macrophages stuck in the inflammatory state unable to initiate repair."
+```
+
 ## Explainer
 
 When tissue is damaged — a cut, a burn, an invading bacterium — the innate immune response you have already studied provides the initial defense. Inflammation is the orchestrated local version of that response, and understanding it means understanding a carefully timed sequence of cellular events, each phase setting the stage for the next. The process begins within seconds of injury. Damaged cells release chemical alarms — **histamine** from mast cells, **prostaglandins** from injured membranes, and cytokines like interleukin-1 and tumor necrosis factor. These mediators cause local arterioles to dilate and capillary walls to become more permeable. The result is the classic signs you can observe directly: redness and warmth from increased blood flow, swelling from plasma leaking into the interstitial space, and pain from prostaglandins and bradykinin sensitizing local nerve endings.

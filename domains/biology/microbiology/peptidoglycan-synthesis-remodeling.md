@@ -29,6 +29,45 @@ Draw the complete biosynthetic pathway from UDP-NAG/NAM through to cross-linked 
 ## Common Misconceptions
 Peptidoglycan synthesis happens only at cell division—in fact, bacteria continuously remodel their walls during growth. The process is highly regulated and vulnerable to antibiotic attack at multiple steps.
 
+## Questions
+
+```yaml
+- question: "Bacteria treated with penicillin often continue growing briefly before lysing. The most likely explanation is:"
+  type: multiple-choice
+  options:
+    - "Penicillin is slow to penetrate the cell wall and requires time to reach effective intracellular concentrations"
+    - "Autolysins continue remodeling (degrading) the existing wall while new cross-linked material cannot be added, progressively weakening the sacculus until osmotic pressure causes lysis"
+    - "Bacteria gradually exhaust their UDP-NAG/NAM precursor pools, which eventually halts growth and triggers autolysis"
+    - "Penicillin only kills bacteria during active cell division, so cells between divisions survive temporarily"
+  answer: 1
+  explanation: "When transpeptidases are blocked by beta-lactams, new peptidoglycan cannot be cross-linked. But autolysins — which continuously cleave existing bonds to make room for wall expansion — keep running unimpeded. Growth creates demand for new wall material; autolysins keep removing existing cross-links; without new cross-linking to replace what is degraded, the wall progressively weakens. When turgor pressure eventually overwhelms the remaining structure, the cell lyses. This 'unbalanced' remodeling (hydrolysis without synthesis) is the mechanism of beta-lactam bactericidal killing."
+
+- question: "Lipid II is described as the critical peptidoglycan building block because:"
+  type: multiple-choice
+  options:
+    - "It is the enzyme that cross-links adjacent glycan chains in the periplasm"
+    - "It is the complete disaccharide-pentapeptide monomer anchored to a membrane lipid carrier, ready to be flipped across the inner membrane and polymerized"
+    - "It activates transpeptidase activity at the division septum"
+    - "It is the precursor from which both UDP-NAG and UDP-NAM are synthesized"
+  answer: 1
+  explanation: "Lipid II (undecaprenyl-PP-NAM-pentapeptide-NAG) is the fully assembled monomeric unit — disaccharide plus peptide stem — anchored in the inner membrane and ready for export. Its flipping across the membrane by MurJ delivers building material to the periplasmic side where transglycosylases polymerize the sugars into glycan chains and transpeptidases cross-link the peptide stems. Lipid II is not an enzyme (ruling out A and C) and is the assembled product of the NAG/NAM precursor pathway, not their precursor."
+
+- question: "Bacteria only synthesize new peptidoglycan during cell division; between divisions the cell wall is a static, stable structure."
+  type: true-false
+  answer: false
+  explanation: "This is a core misconception. Bacteria continuously remodel their walls throughout growth — not just at division. As the cell increases in volume, the sacculus must expand, requiring continuous insertion of new peptidoglycan units through coordinated autolytic degradation and new synthesis. Cell division adds the challenge of septum formation, but ongoing wall remodeling occurs throughout the cell cycle. A static wall model would predict that growth is impossible without division, which is incorrect."
+
+- question: "Inhibiting autolysins — the enzymes that degrade existing peptidoglycan bonds — would protect bacteria from lysis and enhance their survival."
+  type: true-false
+  answer: false
+  explanation: "This misses the essential role of autolysins. Autolysins are required for normal wall remodeling and growth: they create gaps in the existing mesh where new material is inserted. Without autolysin activity, the cell wall cannot expand, cell growth and division would stop, and the bacterium could not maintain itself. Paradoxically, excessive autolysin activity (unbalanced by synthesis) is what kills bacteria treated with beta-lactams. The cell requires a precise balance between hydrolysis and synthesis — not the absence of either."
+
+- question: "What is the 'submarine renovation' problem in bacterial cell wall biology, and why does it require coordinated synthesis and hydrolysis rather than simple replacement?"
+  type: short-answer
+  answer: "The bacterium's cell wall must bear enormous turgor pressure (5–25 atmospheres) at all times to prevent osmotic lysis. Unlike a structure that can be taken down and rebuilt, the cell wall cannot be disassembled — even brief loss of integrity would be lethal. But the cell must also grow and divide, which requires expanding the sacculus. The solution is coordinated remodeling: autolysins selectively cleave specific bonds in the existing mesh, creating controlled gaps where new Lipid II units can be inserted and cross-linked by transpeptidases. New synthesis fills the gap before structural integrity is lost. This balance — hydrolysis creating space, synthesis filling it — allows growth without ever compromising the load-bearing function of the wall."
+  explanation: "The analogy to submarine renovation illustrates why timing and spatial coordination matter. Random or excessive autolysis without matching synthesis, or synthesis without autolysis to create insertion points, are both incompatible with viability. This is why antibiotics targeting transpeptidases (beta-lactams) or any step that disrupts the synthesis side of the balance are effective — the autolysins keep running and eventually dissolve what remains of the wall."
+```
+
 ## Explainer
 
 From your study of bacterial cell wall architecture, you know that peptidoglycan is the mesh-like polymer that gives bacterial cells their shape and protects them from osmotic lysis. The internal turgor pressure of a bacterium can reach 5–25 atmospheres — comparable to the pressure inside a car tire — so the cell wall must be extraordinarily strong. But here is the engineering challenge: the bacterium must also grow and divide, which means it must continuously expand and remodel this load-bearing structure without ever compromising its integrity. It is like renovating a submarine while it is underwater.

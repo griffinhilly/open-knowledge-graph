@@ -28,6 +28,45 @@ Relate molecular kinetic energy directly to temperature using equipartition theo
 - Confusing internal energy with heat; internal energy is a state property, heat is a transfer mechanism.
 - Thinking internal energy depends on pressure or volume alone; for ideal gases it depends only on T.
 
+## Questions
+
+```yaml
+- question: "An ideal gas is heated from 300 K to 400 K via two different processes: one at constant volume and one at constant pressure. Which statement about internal energy is correct?"
+  type: multiple-choice
+  options:
+    - "The constant-pressure process stores more internal energy, because more heat was transferred"
+    - "Both processes increase the gas's internal energy by the same amount, because ΔU depends only on ΔT"
+    - "The constant-volume process stores more internal energy, because no energy is lost as work"
+    - "Internal energy increases more in whichever process supplies more heat"
+  answer: 1
+  explanation: "For an ideal gas, internal energy depends only on temperature. Since both processes start and end at the same temperatures (300 K → 400 K), ΔU is identical. The constant-pressure process does require more heat — some of that heat goes into doing work (expanding against the atmosphere) — but the change in stored internal energy is the same. This is the state function property: ΔU is path-independent."
+
+- question: "A monatomic ideal gas is heated from 300 K to 500 K, then cooled back to 300 K along a different path. What is the net ΔU for the complete cycle?"
+  type: multiple-choice
+  options:
+    - "Positive, because energy was added during the heating phase"
+    - "Negative, because some energy escaped as heat during cooling"
+    - "Zero, because internal energy is a state function and the gas returned to its original state"
+    - "Indeterminate without knowing the specific heat path taken"
+  answer: 2
+  explanation: "Internal energy is a state function — it depends only on the current thermodynamic state (temperature, for an ideal gas), not on the path. After a complete cycle, the gas is back at 300 K, its original state, so U is exactly what it started as: ΔU = 0. This contrasts with heat Q and work W, which are path-dependent and will generally not be zero for the individual legs — but their difference ΔU = Q − W is path-independent."
+
+- question: "For an ideal gas, the change in internal energy is the same whether the gas is heated at constant volume or at constant pressure, as long as the temperature change is the same."
+  type: true-false
+  answer: true
+  explanation: "Yes — because internal energy is a state function that depends only on temperature for an ideal gas. Both processes begin and end at the same temperature, so ΔU is identical. The processes differ in how much heat Q is required (more at constant pressure) and how much work W is done (zero at constant volume), but ΔU = Q − W is the same for both."
+
+- question: "When a gas absorbs 100 J of heat, its internal energy increases by exactly 100 J."
+  type: true-false
+  answer: false
+  explanation: "Only if no work is done (constant volume). The first law states ΔU = Q − W. If the gas expands while being heated, it does positive work W on its surroundings, so ΔU = 100 J − W < 100 J. Heat Q is not 'stored' in the gas — it is energy in transit across the boundary. What is stored is internal energy, and that depends on both the heat added and the work done."
+
+- question: "Explain the key difference between heat and internal energy, and why the first law of thermodynamics captures this distinction."
+  type: short-answer
+  answer: "Internal energy U is a state function — it is stored in the microscopic kinetic (and potential) energy of molecules and depends only on the system's current thermodynamic state. Heat Q is not stored; it is energy in transit — a mode of energy transfer across a system boundary. The first law, ΔU = Q − W, says that a system's stored energy changes by the amount of heat absorbed minus the work done. The same ΔU can result from many different combinations of Q and W, but U itself is uniquely determined by the state."
+  explanation: "The confusion of heat with internal energy is one of the most persistent errors in thermodynamics. Heat is a process quantity — it only exists during a transfer event. You cannot say a system 'contains heat.' You can say it contains internal energy, which changes when heat flows in or out or when work is done. Grasping this distinction is essential for correctly applying the first law."
+```
+
 ## Explainer
 
 From your study of kinetic energy, you know that a moving object has energy (1/2)mv². Now scale that idea to an entire gas: a container holding 10²³ molecules, each jittering at hundreds of meters per second. **Internal energy** U is the sum of all those microscopic kinetic energies, plus any potential energy stored in the interactions between molecules. It is the "hidden" mechanical energy of matter — hidden because we cannot track individual molecules, but real enough to heat your hand on a warm object.

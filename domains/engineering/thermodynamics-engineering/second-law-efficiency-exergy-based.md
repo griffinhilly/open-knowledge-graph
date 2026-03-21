@@ -22,6 +22,40 @@ status: draft
 ## Core Idea
 Second law efficiency η_II = useful exergy output / exergy input quantifies how closely a device approaches reversibility. Unlike first law efficiency, it accounts for availability destruction. For power cycles: η_II = W_net / (Ex_fuel input). Values typically 40-60% for thermal power plants; improvements require reducing heat transfer irreversibility and incomplete expansion/compression.
 
+## Questions
+
+```yaml
+- question: "A gas furnace delivers 95% of the fuel's chemical energy to a building as heat (η_I = 95%). What can you conclude about its second-law efficiency?"
+  type: multiple-choice
+  options:
+    - "η_II ≈ 95% — first and second law efficiencies are nearly equal for heating applications"
+    - "η_II is approximately 100% minus heat losses, so also about 95%"
+    - "η_II is far below η_I — burning fuel at ~2000°C to heat a room at 22°C wastes most of the available work potential"
+    - "η_II cannot be determined without knowing the Carnot efficiency of the boiler"
+  answer: 2
+  explanation: "First-law efficiency measures energy retention; second-law efficiency measures how much of the available work potential (exergy) is actually used for the purpose. Fuel combustion at ~2000°C has enormous exergy. Delivering that energy as low-grade heat at 22°C destroys nearly all of it by transferring heat across a massive temperature gradient. The second-law efficiency — exergy of heat delivered divided by chemical exergy of fuel — might be only 4–5%. The furnace 'wastes' 95% of the fuel's quality from a second-law perspective, even though it 'wastes' only 5% from a first-law perspective. This is the defining contrast between the two metrics."
+
+- question: "A combined-cycle power plant uses hot turbine exhaust to generate additional steam for a Rankine cycle. This primarily improves second-law efficiency by reducing heat transfer across large temperature differences."
+  type: true-false
+  answer: true
+  explanation: "In a simple gas turbine, exhaust at ~600°C is vented to the atmosphere — that exergy is lost. The combined cycle routes this exhaust through a heat recovery steam generator (HRSG), where the steam is raised at a temperature close to the exhaust temperature. This reduces the ΔT across which heat transfer occurs, thereby reducing exergy destruction. By cascading two cycles to 'step down' the temperature in stages, the combined cycle extracts work at each stage before the temperature drops too far, achieving first-law efficiency ~60% and second-law efficiency ~55–58% — far above a simple cycle."
+
+- question: "A process retains 100% of input energy (no heat loss to surroundings), so it must have a second-law efficiency of 100%."
+  type: true-false
+  answer: false
+  explanation: "Energy conservation (η_I = 100%) is compatible with significant exergy destruction. For example, mixing two fluids at different temperatures conserves energy perfectly — the total enthalpy is unchanged — but the mixing is irreversible and destroys exergy proportional to the entropy generated. Similarly, heat transfer across any finite temperature difference conserves energy but destroys exergy. Second-law efficiency measures performance relative to a reversible ideal, not relative to energy retention. A lossless but irreversible process can have η_II much less than 1."
+
+- question: "Second-law efficiency of 1 (100%) would require a fully reversible process."
+  type: true-false
+  answer: true
+  explanation: "η_II = (useful exergy output)/(exergy input) = 1 when all input exergy is converted to useful output — no exergy is destroyed. Exergy destruction equals T₀ × Ṡ_gen by Gouy-Stodola theorem, so zero exergy destruction requires zero entropy generation. Zero entropy generation is the definition of a reversible process. Real processes always destroy some exergy through heat transfer across finite ΔT, friction, mixing, and incomplete reactions, so η_II < 1 in practice. The reversible limit provides the thermodynamic ceiling against which actual performance is judged."
+
+- question: "Why does burning fuel at high temperature to heat a low-temperature room represent severe thermodynamic waste, even if no heat escapes to the environment?"
+  type: short-answer
+  answer: "The waste is not in the energy itself but in its quality — its capacity to do work. Chemical fuels carry high-grade exergy: their energy is available at very high temperature (~2000°C for combustion) and could in principle drive a heat engine operating between that temperature and the environment, extracting large amounts of work. Delivering this energy directly as room-temperature heat transfers the quantity of energy but destroys its quality. The Carnot efficiency between 2000°C and 22°C is about 87%, meaning 87% of the fuel's exergy could theoretically be converted to work before the remaining heat is delivered at room temperature. By skipping the work extraction entirely, the furnace destroys that 87% permanently — it is exergy destruction caused by heat transfer across an enormous temperature gradient."
+  explanation: "This is why heat pumps are thermodynamically superior to resistance heaters even though both deliver heat to a room. A heat pump uses work (high-grade energy) to move heat from cold to warm, delivering 3–5 units of heat per unit of electrical work (COP = 3–5). An electric resistance heater converts work to heat at 1:1. The heat pump uses exergy efficiently; the resistance heater throws it away. The furnace is even worse: it destroys chemical exergy worth far more than any electrical work to produce low-grade heat."
+```
+
 ## Explainer
 
 From your exergy balance studies, you know that every real process destroys exergy in proportion to entropy generated: Ẋ_destroyed = T₀ · Ṡ_gen. Exergy destruction represents permanently lost work potential — once exergy is destroyed, no engineering improvement can recover it. First-law efficiency measures energy retention; **second-law efficiency** measures how much of the available work potential you actually convert to useful output.

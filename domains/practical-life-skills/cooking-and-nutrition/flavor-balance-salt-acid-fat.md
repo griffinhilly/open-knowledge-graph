@@ -34,6 +34,45 @@ Make the same simple sauce four times—once with proper balance, once over-salt
 ## Common Misconceptions
 - You can judge saltiness before tasting (your taste buds adapt during cooking; you need to taste to judge). - Adding salt at the end is better than during cooking (salt dissolves and distributes during cooking, so you taste it better). - Acid is optional and only for fancy cooking (acid is fundamental; even a squeeze of lemon transforms simple dishes).
 
+## Questions
+
+```yaml
+- question: "You forgot to salt your pasta water before boiling. To compensate, you plan to salt the pasta heavily right before serving. Compared to salting the water beforehand, what is the likely result?"
+  type: multiple-choice
+  options:
+    - "The pasta will taste the same — salt is salt regardless of when it's added"
+    - "The pasta will taste saltier because surface salt is more concentrated and hits the taste buds directly"
+    - "The pasta will taste less evenly seasoned — salt dissolved in boiling water seasons the pasta throughout, while surface salt sits only on the outside"
+    - "Salting at the end is better practice because it gives you more precise control over the final flavor"
+  answer: 2
+  explanation: "Salt added to cooking water dissolves and penetrates the pasta during cooking, seasoning it from the inside. Salt sprinkled at the end sits only on the surface, creating uneven seasoning. Option D reflects the common misconception that 'later is better'; in fact, salt added during cooking integrates into the food and tastes more balanced even when the same total amount is used."
+
+- question: "A rich beef braise tastes good but feels overwhelming — each bite coats your palate and the dish feels heavy and cloying. What adjustment is most likely to fix it?"
+  type: multiple-choice
+  options:
+    - "Add more fat — butter will round out the flavors and make the richness feel more intentional"
+    - "Add more salt — the heaviness comes from under-seasoning rather than excess richness"
+    - "Add acid — a splash of red wine vinegar or a squeeze of lemon will cut through the richness and make the dish feel lighter"
+    - "Cook it longer — more heat will evaporate the excess fat and reduce the heaviness"
+  answer: 2
+  explanation: "Heaviness and cloyingness indicate too much fat without a counterbalancing acid. Acid stimulates salivation and provides contrast on the palate, cutting through richness. Salt would only amplify existing flavors without addressing the heaviness; more fat would compound the problem. This illustrates the key principle: the four levers interact, so fixing a problem in one element often requires adjusting a different one."
+
+- question: "You can reliably judge how much salt a dish needs by tracking how much you have already added, without tasting."
+  type: true-false
+  answer: false
+  explanation: "Taste buds adapt during cooking — your perception of saltiness shifts as you taste repeatedly. Additionally, salt interacts differently with different ingredients, heat levels, and moisture content, so the same quantity produces different perceived results in different preparations. There is no substitute for tasting at multiple stages. The only reliable measurement is your palate in the moment."
+
+- question: "Acid added at the beginning of cooking and acid added at the very end produce different flavor effects in a dish."
+  type: true-false
+  answer: true
+  explanation: "Acid added early cooks off and mellows significantly — volatile acids evaporate with heat and the remaining acidity integrates into the background, becoming rounder and less sharp. Acid added at the end (lemon juice, a splash of vinegar after removing from heat) stays bright and forward, providing immediate contrast. Knowing this difference lets you choose the right timing: mellowed background complexity vs. bright top-note freshness."
+
+- question: "A finished dish is oversalted. What options do you have to correct it, and why do they work based on how salt, acid, and fat interact?"
+  type: short-answer
+  answer: "You can add acid (lemon juice, vinegar), which distracts from saltiness by providing a competing flavor stimulus. You can add fat (butter, cream, olive oil), which coats the palate and reduces the intensity of perceived saltiness. You can dilute the dish with more unsalted ingredients. There is no way to remove salt once added, so all corrections are partial — they reduce perceived saltiness rather than reversing it."
+  explanation: "This is the clearest demonstration that the four elements are interactive levers rather than independent additions. Salt's perceived intensity is modulated by acid (which competes for attention on the palate) and fat (which physically coats taste receptors). Understanding this interaction is what allows a skilled cook to diagnose and adjust flavor problems rather than simply following a recipe mechanically."
+```
+
 ## Explainer
 
 You already know how to control heat on the stovetop and understand basic seasoning. Now you're learning to think about flavor as a system with four levers you can push and pull: salt, acid, fat, and heat. Mastering these doesn't require new recipes — it requires developing a vocabulary for diagnosing what a dish is missing and knowing which lever to reach for.

@@ -24,6 +24,45 @@ In an accelerating reference frame, fictitious forces (inertial forces) appear: 
 ## How It's Best Learned
 Analyze simple systems in rotating and linearly accelerating frames. Compare results to the inertial frame to see how fictitious forces simplify the analysis.
 
+## Questions
+
+```yaml
+- question: "You stand on a scale in an elevator accelerating upward at 3 m/s². The scale reads more than your true weight. From the perspective of an inertial observer outside, what explains the extra reading?"
+  type: multiple-choice
+  options:
+    - "A fictitious downward force pushes you harder against the scale while accelerating"
+    - "The normal force from the scale exceeds your weight (mg) because N − mg = ma, providing the net upward force needed for your acceleration"
+    - "The gravitational force increases when you accelerate upward"
+    - "In an accelerating frame, Newton's second law requires an additional downward force of magnitude ma"
+  answer: 1
+  explanation: "From an inertial (outside) frame, Newton's second law is straightforward: you are accelerating upward, so the net force must be upward. N − mg = ma gives N = m(g + a). The scale reads N, which exceeds your weight. No fictitious force is needed or valid in an inertial frame — the fictitious force (a downward pseudo-force of ma) appears only in the accelerating elevator frame, where it accounts for why you feel 'heavier' without apparent cause. Applying fictitious forces in an inertial frame (options A and D) is the classic error."
+
+- question: "A ball rests on the floor of a rotating space station. An astronaut inside says the ball is in equilibrium — centrifugal force outward balances the normal force. An inertial observer outside disagrees. What does the outside observer see?"
+  type: multiple-choice
+  options:
+    - "The ball moving in a straight line, confirming no forces act on it"
+    - "The floor continuously exerting an inward centripetal force on the ball, keeping it in circular motion — no centrifugal force exists in this frame"
+    - "Both centrifugal and centripetal forces acting on the ball"
+    - "The same centrifugal force the astronaut describes, just named differently"
+  answer: 1
+  explanation: "From the inertial frame, the ball moves in a circle, which requires a net inward (centripetal) force provided by the normal force from the floor. There is no centrifugal force in the inertial frame. The centrifugal force appears only in the rotating frame, where it makes Newton's second law work: from the astronaut's perspective, the ball is stationary, so the outward centrifugal force and inward normal force sum to zero (equilibrium). Both descriptions are internally consistent — they describe the same physics from different frames."
+
+- question: "Fictitious forces are called 'fictitious' because they have no real physical effects — objects in non-inertial frames don't actually experience them."
+  type: true-false
+  answer: false
+  explanation: "Fictitious forces are 'fictitious' in that they have no physical source and no Newton's third law reaction partner — they arise from the acceleration of the reference frame, not from any real interaction. But within that frame, their effects are completely real: a person in an accelerating car really does feel pressed into the seat, Coriolis deflection really does drive hurricane rotation, and centrifuges really do separate substances by apparent centrifugal force. The qualifier 'fictitious' refers to their origin, not to whether their effects can be measured."
+
+- question: "The Coriolis force acts on all objects in a rotating frame, regardless of whether those objects are moving within the frame."
+  type: true-false
+  answer: false
+  explanation: "The Coriolis force acts only on objects that are *moving* within the rotating frame. Its formula is −2m(ω × v), where v is the object's velocity in the rotating frame — if v = 0, the Coriolis force is zero. An object stationary in the rotating frame experiences centrifugal force (if off-axis) but no Coriolis force. The Coriolis force is a velocity-dependent fictitious force, which is why it deflects moving air masses (winds and ocean currents) but does not affect objects stationary in the rotating frame."
+
+- question: "Why are fictitious forces described as having 'no Newton's third law partner,' and what does this tell us about their physical nature?"
+  type: short-answer
+  answer: "Real forces always come in pairs: if A exerts a force on B, then B exerts an equal and opposite force on A (Newton's third law). Fictitious forces have no such pair because they are not caused by any physical object interacting with you — they arise because your reference frame is accelerating. The centrifugal force pushing you outward on a merry-go-round has no source that you are pushing back against. This tells us their nature: they are coordinate artifacts, corrections added to Newton's second law when the coordinate system itself is accelerating."
+  explanation: "This distinction matters for knowing when to apply fictitious forces: only inside an accelerating (non-inertial) frame. In an inertial frame, Newton's second law holds in its standard form with no fictitious forces. In a non-inertial frame, you add the appropriate fictitious forces to restore the form of F = ma. The same physical event described correctly in either frame gives identical observable predictions — the choice of frame is a matter of mathematical convenience, not physical reality."
+```
+
 ## Explainer
 
 From your study of Newton's second law, you know the foundational principle: **F = ma**, where *F* is the net real force on an object, *m* its mass, and *a* its acceleration measured in an **inertial frame** — a frame moving at constant velocity or at rest. This qualifier matters enormously. When you apply Newton's laws inside an accelerating car, a spinning merry-go-round, or the rotating Earth, the equations break down unless you account for the acceleration of the frame itself.

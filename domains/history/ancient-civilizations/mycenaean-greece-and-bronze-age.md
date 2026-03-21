@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Mycenaean civilization (c. 1600–1100 BCE) was mainland Greece's first advanced society, heavily influenced by and eventually dominating Minoan Crete. Mycenaean palaces were fortified, militaristic centers (unlike Minoan), ruled by warrior-kings. Evidence from Linear B tablets reveals a bureaucratic palace economy and social hierarchy. The Trojan War, immortalized in Homer's epics, likely reflects Mycenaean warfare. Mycenaean collapse around 1100 BCE, possibly due to invasions and climate change, led to Greece's Dark Ages.
 
+## Questions
+
+```yaml
+- question: "Linear B tablets have been crucial to understanding Mycenaean civilization primarily because they:"
+  type: multiple-choice
+  options:
+    - "Described Mycenaean religious mythology and the origins of the Olympian gods"
+    - "Provided the first written account of the Trojan War from the Greek perspective"
+    - "Preserved administrative palace records in the oldest known form of Greek writing, revealing the palace economy's structure"
+    - "Showed that Mycenaean and Minoan civilizations shared the same language and administrative system"
+  answer: 2
+  explanation: "Linear B tablets are mundane palace records — inventories of grain, livestock, bronze, cloth, labor, and land — accidentally fired and preserved when palace archives burned during the collapse. Deciphered by Michael Ventris in 1952, they revealed that Mycenaeans wrote an early form of Greek (the oldest attested Greek writing) and organized their economy through a centralized palace redistribution system. They don't describe mythology or the Trojan War (that comes from later oral tradition in Homer) and don't show a shared language with the Minoans — Linear A (Minoan) remains undeciphered and is not Greek."
+
+- question: "Mycenaean citadels like Mycenae and Tiryns are architecturally distinct from Minoan palatial complexes like Knossos. What does this architectural difference suggest about each civilization?"
+  type: multiple-choice
+  options:
+    - "Mycenaean palaces contain more elaborate frescoes and artistic decoration, suggesting greater cultural sophistication"
+    - "Mycenaean citadels are heavily fortified with Cyclopean walls while Minoan palaces are unfortified, suggesting Mycenaean society was more militarized and organized around warfare"
+    - "Mycenaean palaces are larger than Minoan complexes, reflecting a larger population and greater agricultural surplus"
+    - "Minoan palaces were restricted to the elite, while Mycenaean citadels were open public markets, reflecting different economic systems"
+  answer: 1
+  explanation: "The contrast between unfortified Minoan palaces and massively fortified Mycenaean citadels (with Cyclopean limestone walls several meters thick) is one of the clearest material distinctions between the two civilizations. Minoan palaces appear to have been open administrative and economic centers with no visible military architecture. Mycenaean citadels are defensive strongholds with controlled entrances, designed for the protection of a warrior-king and his court. This architectural difference is direct evidence of different social priorities: Minoan commercial maritime society vs. Mycenaean militaristic palace society."
+
+- question: "Classical Greek civilization — the Greece of city-states, democracy, and philosophy — was a direct continuation of Mycenaean palatial society after a period of recovery."
+  type: true-false
+  answer: false
+  explanation: "The collapse of Mycenaean civilization around 1100 BCE was total: palaces burned, Linear B writing ceased, long-distance trade networks contracted, and population declined. What followed was the Greek Dark Ages (c. 1100–800 BCE) — a period of reduced complexity with no writing, smaller communities, and no palatial institutions. The Greece that emerged after the Dark Ages — Archaic and Classical Greece — was a new social formation. It had only legendary memories of the Mycenaean era (preserved in Homer's epics). Democracy, the polis, alphabetic writing, and the philosophical tradition were all post-Dark Age developments with no institutional continuity from Mycenaean palace culture."
+
+- question: "Linear B, the writing system used by Mycenaean Greeks, has not yet been deciphered and remains one of the unsolved mysteries of ancient languages."
+  type: true-false
+  answer: false
+  explanation: "Linear B was deciphered by British architect Michael Ventris in 1952, revealing it to be an early form of Greek. This was a landmark discovery — it pushed the known history of the Greek language back by several centuries and proved that the Mycenaeans were Greek-speakers. The still-undeciphered script is Linear A, used by the Minoans on Crete, which predates Linear B and appears to represent a different, non-Greek language."
+
+- question: "What does the palace economy described in the Linear B tablets reveal about how Mycenaean society was organized, and how does this differ from the social organization of later classical Greek city-states?"
+  type: short-answer
+  answer: "The Linear B tablets reveal a highly centralized redistributive palace economy: the palace collected grain, livestock, textiles, and bronze from surrounding territories, stored them centrally, and distributed rations to palace-dependent workers, craftsmen, and military personnel. Society was organized hierarchically around the wanax (king) and subordinate administrators who managed land and labor allocations. This is a managed administrative economy — more similar to other Bronze Age palace societies (Egypt, Hatti, Mesopotamia) than to anything in later Greece. Classical Greek city-states, by contrast, were politically decentralized, had independent citizen farmers, civic institutions (assemblies, councils, courts), and market economies not organized around palace redistribution. The discontinuity is total: the Dark Ages wiped out the palatial institutions and their administrative traditions."
+  explanation: "The key insight is the discontinuity: Mycenaean Greece was a Bronze Age palace civilization structurally similar to its Near Eastern contemporaries, not a proto-version of the later polis-based civilization. The collapse and Dark Ages reset Greek society entirely."
+```
+
 ## Explainer
 
 From Minoan civilization, you know that Bronze Age Crete developed a sophisticated maritime culture centered on unfortified palatial complexes — Knossos, Phaistos, Akrotiri — that served as economic redistribution hubs without obvious militarization. The Minoans wrote in **Linear A**, still undeciphered, and their art emphasizes flowing natural forms, athletic ritual, and maritime imagery. **Mycenaean Greece** emerges partly *from* this Minoan foundation — the mainland Greeks absorbed Minoan artistic conventions, trade networks, and administrative practices — but then developed in a strikingly different direction. Where Minoan palaces were open and unfortified, Mycenaean citadels at Mycenae, Tiryns, and Pylos are defined by massive **Cyclopean walls** (named by later Greeks who assumed only Cyclopes could have moved such stones) and heavily defended entrances. This architectural difference is a material record of a different social order.

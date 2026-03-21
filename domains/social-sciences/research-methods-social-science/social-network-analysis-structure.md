@@ -38,6 +38,45 @@ Construct network datasets from relational data, calculate centrality measures a
 - Clustering automatically reveals communities
 - Network effects cannot be causal without randomization
 
+## Questions
+
+```yaml
+- question: "A company has Employee A with 20 direct contacts and Employee B with only 8 contacts. Yet B consistently learns news from different departments before A does. Which centrality concept best explains B's informational advantage?"
+  type: multiple-choice
+  options:
+    - "B must have higher eigenvector centrality because B's few contacts are each highly connected to important people"
+    - "B has high betweenness centrality — B sits on the shortest paths between otherwise disconnected groups, making B an information broker across the network"
+    - "B has higher degree centrality than A when weighted by connection quality rather than quantity"
+    - "B has lower closeness centrality, which paradoxically means information reaches B faster"
+  answer: 1
+  explanation: "This is the classic betweenness centrality scenario. A node with high betweenness lies on many shortest paths between other pairs of nodes — it is a structural bridge or broker. Even with few direct connections, a broker hears information from multiple disconnected clusters before anyone else does, because all information passing between those clusters must route through the broker. B's advantage is structural (positional), not attributional (more contacts). Degree centrality would favor A; eigenvector centrality would depend on the quality of connections; closeness centrality would indicate how quickly B can reach others — but betweenness directly explains information brokerage."
+
+- question: "Granovetter's 'strength of weak ties' finding — that people find jobs through acquaintances more often than close friends — is best explained by which network mechanism?"
+  type: multiple-choice
+  options:
+    - "Weak ties involve less social obligation, so acquaintances help more freely with job referrals"
+    - "Close friends are more focused on their own job searches and less willing to help"
+    - "Weak ties tend to bridge different social clusters, so they carry non-redundant information about job openings that your close-tie cluster (who already know the same people you do) cannot provide"
+    - "Acquaintances have more formal professional connections than close friends who are typically in the same social context"
+  answer: 2
+  explanation: "The network explanation of Granovetter's finding is structural, not motivational. Your close friends are likely drawn from the same social cluster as you — same school, workplace, or neighborhood. Because you all know the same people, they tend to know about the same job openings. Your weak ties (acquaintances) are more likely to span different clusters — different industries, cities, or social contexts. These cross-cluster bridges carry information your strong-tie cluster doesn't have. The 'strength' of weak ties is their structural position bridging different parts of the network, not their relational strength."
+
+- question: "Betweenness centrality can be high for a node with relatively few direct connections, because betweenness measures not how many connections a node has but whether it lies on the shortest paths between other pairs of nodes."
+  type: true-false
+  answer: true
+  explanation: "This captures the key insight that distinguishes betweenness from degree centrality. A node with only 3 connections could have maximum betweenness if those 3 connections each link to otherwise isolated clusters — every path between those clusters must pass through the node. Conversely, a node with many connections could have low betweenness if all its neighbors are already densely interconnected (and can route around it). This is why betweenness captures 'brokerage' or 'gatekeeping' power rather than simply 'popularity.'"
+
+- question: "Standard regression can be applied to network edges directly — treating each edge as an independent observation — to test whether structural features like triangles or reciprocity appear more often than expected by chance."
+  type: true-false
+  answer: false
+  explanation: "Network data fundamentally violates the independence assumption of standard regression. Whether the edge A→B exists is correlated with whether A→C and B→C exist (transitivity), whether B→A exists (reciprocity), and so on throughout the network. Applying standard regression treats edges as independent when they are structurally interdependent. Exponential random graph models (ERGMs) address this by modeling the probability of the entire observed network as a function of local structural patterns, properly accounting for the dependence structure. Using standard regression on network data produces biased standard errors and unreliable inference."
+
+- question: "Why is social position a structural rather than individual property, and what does this mean for studying outcomes like career success or access to information?"
+  type: short-answer
+  answer: "Social position is structural because it describes where an individual sits within a web of relationships — their pattern of connections to others and to others' connections — not just their personal attributes. Two people with identical skills, education, and personality can face radically different opportunities depending on whether they occupy a central, brokering position or a peripheral, redundant one. This means studying outcomes like career success requires measuring relational data (who is connected to whom) rather than just individual-level attributes. Network position shapes what information you receive, which opportunities you hear about, and whether others can bypass you — none of which is visible from individual-level data alone."
+  explanation: "The fundamental premise of social network analysis is that social structure has independent causal power over outcomes. This challenges methodological individualism — the default assumption in much social science that outcomes are explained by individual attributes. A sociology of careers informed by SNA would look at whether someone bridges different professional clusters, not just their credentials. A public health study informed by SNA would map information diffusion paths, not just individual risk factors. The relational, structural view reveals mechanisms that individual-level analysis misses entirely."
+```
+
 ## Explainer
 
 From graph theory, you already have the mathematical vocabulary: nodes, edges, adjacency matrices, degree sequences, connected components. Social network analysis takes those tools and applies them to a specific empirical question: how does the structure of social relationships shape individual and collective outcomes? The key insight is that social position is not just a property of an individual — it is a property of their location in a network. Two people with identical individual attributes can face vastly different opportunities and constraints depending on where they sit in the web of connections around them.

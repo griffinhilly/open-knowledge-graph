@@ -34,6 +34,45 @@ Work through a complete tensile test dataset: convert raw load-displacement to b
 - The 0.2% offset yield strength is a convention, not a physical threshold — plastic deformation begins before this point, but in small amounts that are difficult to detect reliably.
 - Percent elongation depends on gauge length — a longer gauge length gives a lower elongation value for the same material, so gauge length must always be reported with the measurement.
 
+## Questions
+
+```yaml
+- question: "On an engineering stress-strain curve, the engineering stress drops sharply after the Ultimate Tensile Strength (UTS). What is actually happening to the material at this point?"
+  type: multiple-choice
+  options:
+    - "Atomic bonds are progressively breaking, reducing the material's intrinsic strength"
+    - "Elastic springback is reducing the load registered by the load cell"
+    - "Plastic deformation has localized into a neck — the cross-sectional area in the neck shrinks faster than the material's flow stress rises, so the measured load drops even though the material is still work hardening"
+    - "Strain rate effects cause the material to thermally soften at high total strains"
+  answer: 2
+  explanation: "The drop in engineering stress after UTS is a geometric artifact, not a material weakening. The material continues to work harden — its true flow stress keeps rising right up to fracture. But once necking begins, the cross-sectional area in the neck decreases rapidly. Engineering stress uses the original area A₀, so σ_e = F/A₀ falls even as true stress σ_t = F/A_inst continues to rise. The true stress-strain curve never drops; the engineering curve does. This is the central misconception the topic warns against."
+
+- question: "A materials engineer applies the 0.2% offset method to a stress-strain curve for an aluminum alloy and reports a yield strength of 270 MPa. What does this value represent?"
+  type: multiple-choice
+  options:
+    - "The stress at which ALL elastic deformation transitions instantaneously to plastic deformation"
+    - "The stress corresponding to exactly 0.2% total strain on the curve"
+    - "The stress at the intersection of the stress-strain curve with a line parallel to the initial elastic slope, offset 0.2% along the strain axis"
+    - "The average flow stress across the entire plastic region up to fracture"
+  answer: 2
+  explanation: "The 0.2% offset method draws a line with the same slope as the initial elastic modulus, but starting from a strain of 0.002 (0.2%). Where this line intersects the actual stress-strain curve is defined as the yield strength. Option A is wrong because plastic deformation begins gradually well before this point — the 0.2% offset is a convention for materials with no sharp yield point, not a physical boundary. Option B confuses total strain with the offset construction."
+
+- question: "The drop in engineering stress after the UTS indicates that the material has become weaker than it was at the yield point — its internal resistance to deformation has decreased."
+  type: true-false
+  answer: false
+  explanation: "The material is NOT weaker — it is still work hardening. The true stress continues to rise until fracture. The engineering stress drops because the engineering formulation divides force by the original area A₀, which no longer represents the actual cross-section once a neck forms. The localized area reduction in the neck is so rapid that load F decreases even as true stress F/A_inst increases. Designing based on the engineering stress drop as a material weakening would misrepresent the actual behavior."
+
+- question: "True stress and true strain use the instantaneous cross-sectional area and gauge length during the test, making them more physically accurate than engineering stress and strain at large plastic deformations."
+  type: true-false
+  answer: true
+  explanation: "Engineering stress and strain are convenient — you measure original dimensions A₀ and L₀ once — but they become inaccurate at large strains because the specimen geometry changes significantly. True stress σ_t = F/A_inst and true strain ε_t = ln(L/L₀) use the actual current dimensions, giving a monotonically rising curve that reflects the material's actual work-hardening behavior without the geometric distortion. Before necking, the two formulations are related by σ_t = σ_e(1+ε_e) and ε_t = ln(1+ε_e) and track each other closely."
+
+- question: "Why does engineering stress diverge from true stress after necking begins, and what does this imply about which measure to use when modeling large-deformation processes like metal forming or crash simulation?"
+  type: short-answer
+  answer: "Engineering stress divides applied force by the original cross-sectional area A₀. Once necking begins, deformation localizes and the actual area in the neck decreases rapidly. The load F falls because the neck cannot sustain increasing load, but the material in the neck is still being strengthened by work hardening. Dividing a falling load by a fixed A₀ produces a falling engineering stress, giving the false impression of material softening. True stress divides by the actual instantaneous area A_inst, revealing the continuing rise in flow stress. For large-deformation applications (metal forming, crash analysis, finite element simulations), true stress and true strain must be used because the constitutive models describe material behavior at the local, instantaneous level — engineering stress would produce systematically incorrect predictions of forces, springback, and failure onset."
+  explanation: "The practical implication: tensile test data must be converted from engineering to true stress-strain before being input into material models for FEA. The conversion σ_t = σ_e(1+ε_e) and ε_t = ln(1+ε_e) is valid only up to the UTS (onset of necking); beyond that point, the non-uniform deformation in the neck requires more sophisticated methods (e.g., Bridgman correction) to extract true material behavior."
+```
+
 ## Explainer
 
 The tensile test stretches a standardized specimen until it breaks, recording force and displacement throughout. From the stress-strain behavior you studied as a prerequisite, you already know what the curve looks like: an initial linear elastic region, a yield point where permanent plastic deformation begins, a region of work hardening where the material gets stronger as it deforms, and eventually fracture. The tensile test is simply the experimental apparatus that generates this data — but extracting reliable, meaningful material properties from raw load-displacement output requires understanding why there are two different stress-strain formulations, and which one to use for which purpose.

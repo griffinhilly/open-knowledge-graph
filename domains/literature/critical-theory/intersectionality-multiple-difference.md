@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Intersectionality (Crenshaw, Black feminist theory) argues that social categories like race, gender, sexuality, and class do not operate independently but intersect and mutually constitute one another. Literary texts represent these intersections; characters' experiences are always shaped by simultaneous, interlocking systems of oppression and privilege.
 
+## Questions
+
+```yaml
+- question: "A court dismisses a discrimination case because the employer hires women (all white) and hires Black workers (all men), concluding there is no race discrimination and no gender discrimination. Which statement best explains why this analysis fails?"
+  type: multiple-choice
+  options:
+    - "The court applied the wrong legal standard for employment discrimination claims."
+    - "Analyzing race and gender separately can make discrimination against Black women invisible, since their disadvantage exists specifically at the intersection of both categories."
+    - "The employer should be held to a higher standard for both race and gender independently before any case is dismissed."
+    - "Discrimination claims require proof that every member of a protected group was harmed."
+  answer: 1
+  explanation: "This is Crenshaw's DeGraffenreid case. The court's single-axis framework could not see discrimination against Black women *as Black women*, because it only checked each category in isolation. When race and gender are analyzed separately, the specific disadvantage produced at their intersection becomes invisible — a finding only possible through intersectional analysis. The other options address legal technicalities or procedural standards, missing the structural point."
+
+- question: "A feminist movement focuses exclusively on advancing women's workplace equality, but consistently centers the experiences of professional white women. An intersectional critique would argue:"
+  type: multiple-choice
+  options:
+    - "The movement should expand to include men as well, to address all workplace inequality."
+    - "Single-axis frameworks misrepresent the situation of women whose disadvantages are shaped by race, class, and gender simultaneously — not gender alone."
+    - "The movement needs a separate parallel initiative focused on racial justice, running alongside the gender-equity work."
+    - "Workplace inequality affects all women equally, so centering one group is strategically efficient."
+  answer: 1
+  explanation: "The intersectional critique is not that gender justice should be abandoned or supplemented with a separate racial-justice track — it's that single-axis analysis structurally misrepresents the situation of women of color by treating one dimension as if it operates independently. Option C is close but wrong: running separate initiatives is still a single-axis approach. The insight is that the categories mutually constitute each other and cannot be cleanly separated."
+
+- question: "In intersectional analysis, the combination of race and gender can produce forms of disadvantage that are not captured by analyzing either category alone."
+  type: true-false
+  answer: true
+  explanation: "This is the core claim. The DeGraffenreid case illustrates it directly: Black women faced a form of hiring discrimination that was invisible to frameworks that checked race and gender independently. Some forms of oppression are produced specifically at the intersection of categories and only become visible when those categories are analyzed simultaneously."
+
+- question: "Intersectionality argues that race, gender, and class operate in additive ways — each independently contributing its own quantity of disadvantage to an individual's situation."
+  type: true-false
+  answer: false
+  explanation: "Intersectionality explicitly rejects the additive model. The argument is not that a Black woman faces 'race-disadvantage + gender-disadvantage' as separable quantities, but that race and gender *mutually constitute* one another — the combination produces qualitatively different experiences that no single-axis addition can capture. The additive model was the dominant framework that intersectionality was developed to critique."
+
+- question: "Why did the court's single-axis analysis in DeGraffenreid v. General Motors fail to detect the discrimination experienced by Black women, and what does this reveal about single-axis approaches more generally?"
+  type: short-answer
+  answer: "The court found no discrimination against 'women' (white women were hired) and no discrimination against 'Black workers' (Black men were hired), so it concluded no discrimination occurred. But this missed discrimination against Black women *as Black women* — a form of disadvantage produced at the intersection of both categories simultaneously. Single-axis frameworks can only detect discrimination when it affects an entire category uniformly; they are structurally blind to forms of oppression that emerge specifically where multiple categories intersect."
+  explanation: "This reveals that the problem is not a matter of adding more categories to the checklist — it's that categories are not independent variables. The intersection can create its own specific structure of disadvantage that neither category alone predicts. Intersectional analysis was developed precisely to make these invisible situations visible."
+```
+
 ## Explainer
 
 Your study of gender performativity gave you a model for understanding gender not as a fixed property of persons but as a set of practices, norms, and repetitions that produce the *appearance* of a stable identity. Your study of ideology and hegemony gave you tools for understanding how social power works through culture and consciousness, not only through direct coercion. Intersectionality extends and complicates both frameworks: it insists that gender, race, class, sexuality, and other axes of difference cannot be analyzed in isolation, because they shape each other in ways that no single-axis framework can capture.

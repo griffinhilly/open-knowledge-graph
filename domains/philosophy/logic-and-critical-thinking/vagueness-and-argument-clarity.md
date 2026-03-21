@@ -27,6 +27,45 @@ Examine sorites-style problems ('One grain of sand isn't a heap, and adding one 
 ## Common Misconceptions
 Thinking vagueness is a flaw that must be eliminated (sometimes it's useful or unavoidable). Confusing vagueness with ambiguity (ambiguous terms have multiple meanings; vague terms have fuzzy boundaries).
 
+## Questions
+
+```yaml
+- question: "Consider the argument: 'Anyone wealthy enough to afford private counsel gets better legal outcomes. Harrison is wealthy enough. Therefore, Harrison will get a better outcome.' Suppose 'wealthy enough' is vague and Harrison's finances are borderline. What is the argument's logical status?"
+  type: multiple-choice
+  options:
+    - "The argument is unsound because the first premise is false"
+    - "The argument is valid and sound — the form is correct and both premises seem true"
+    - "The argument form is valid, but the second premise is indeterminate — 'wealthy enough' doesn't clearly apply to a borderline case, so the argument fails to establish its conclusion"
+    - "The argument is invalid because vague terms cannot appear in valid arguments"
+  answer: 2
+  explanation: "This is the key diagnostic insight about vagueness and argument clarity. A valid argument form (modus ponens here) does not rescue an argument from vagueness in its premises. The second premise is not false — it is indeterminate, because Harrison is borderline with respect to the vague predicate 'wealthy enough.' An indeterminate premise cannot support a definite conclusion. The argument neither clearly succeeds nor clearly fails, which is exactly the problem vagueness creates for otherwise valid argument forms."
+
+- question: "What is the difference between a vague term and an ambiguous term?"
+  type: multiple-choice
+  options:
+    - "Vague terms are unclear in meaning; ambiguous terms are clear in meaning but hard to pronounce"
+    - "Vague terms have fuzzy boundaries (no sharp cutoff for application); ambiguous terms have multiple distinct meanings"
+    - "Vague terms appear only in natural language; ambiguous terms appear in both natural and formal languages"
+    - "Vague terms are less precise than ambiguous terms, so ambiguity is a more serious problem in arguments"
+  answer: 1
+  explanation: "'Tall' is vague: it has a single, clear meaning but no sharp threshold — there are clear cases (7 feet is tall), clear non-cases (5 feet is not tall), and borderline cases in between. 'Bank' is ambiguous: it has two entirely distinct meanings (financial institution and riverbank), each with its own clear extension. The difference matters for argument analysis because the remedy is different: ambiguity requires specifying which meaning is intended; vagueness requires acknowledging borderline cases and assessing whether the argument needs the predicate to apply clearly."
+
+- question: "A valid argument can fail to establish its conclusion if one of its premises involves a vague term applied to a borderline case."
+  type: true-false
+  answer: true
+  explanation: "Validity guarantees that if the premises are true, the conclusion must be true. But if a premise is indeterminate — neither clearly true nor clearly false because a vague predicate applies to a borderline case — validity provides no guarantee. The indeterminate premise cannot carry the weight the argument puts on it. The argument is technically valid (the logical form is fine) but practically toothless because the key premise lacks a definite truth value in the relevant case."
+
+- question: "Vagueness is a defect that should always be eliminated from language and argument, since it prevents precise reasoning."
+  type: true-false
+  answer: false
+  explanation: "Vagueness is often unavoidable and sometimes useful. Many important predicates — 'tall,' 'bald,' 'heap,' 'adult,' 'reasonable,' 'significant' — resist sharp definition because the phenomena they describe are genuinely continuous or context-dependent. Forcing artificial precision (a person is 'bald' if they have fewer than 243 hairs) often misrepresents reality. The skill is not eliminating vagueness but diagnosing when an argument's force depends on a vague term applying clearly to a borderline case — and flagging that as a weak point rather than pretending the borderline is sharp."
+
+- question: "What does the sorites paradox reveal about how vagueness can undermine chains of apparently valid reasoning?"
+  type: short-answer
+  answer: "The sorites paradox shows that vague predicates, when embedded in valid-seeming inductive arguments, can generate absurd conclusions from seemingly innocuous premises. The structure is: one grain of sand is not a heap; adding one grain never makes a non-heap into a heap; therefore no amount of sand is a heap. Each step looks valid, but the conclusion contradicts obvious fact. The paradox reveals that the tolerance principle ('one grain makes no difference') — which sounds compelling for each individual step — cannot be consistently applied through a chain of hundreds of steps. Valid-looking argument forms can be subverted by vagueness in ways that aren't obvious until the cumulative conclusion is inspected. For argument analysis, this means that chains of reasoning involving vague predicates require scrutiny at the level of the whole chain, not just each individual step."
+  explanation: "The sorites paradox is not just a curiosity — it shows that vagueness is logically deep. It forces a choice among unsatisfying options: accept a sharp but arbitrary cutoff (epistemicism), accept that some propositions lack truth values (many-valued logic), or reject the tolerance premise as false when iterated. For practical argument analysis, the lesson is to watch for sorites-style reasoning and flag it when encountered, because it can make invalid conclusions look inevitable."
+```
+
 ## Explainer
 
 From your work on vagueness and borderline cases, you know that vague predicates like "tall" or "heap" have no precise threshold—there are clear cases on both ends and a fuzzy middle where nothing settles whether the predicate applies. Now the question is: what does this mean for arguments? Vagueness isn't merely a curiosity about language; it directly affects whether arguments work.

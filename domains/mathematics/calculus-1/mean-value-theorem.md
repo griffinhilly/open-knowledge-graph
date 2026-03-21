@@ -35,6 +35,45 @@ Interpret geometrically: there is a tangent line parallel to the secant line thr
 - Confusing MVT with IVT (MVT is about derivatives, IVT is about function values).
 - Believing there is exactly one c (there may be multiple).
 
+## Questions
+
+```yaml
+- question: "Let f(x) = |x| on the interval [-1, 1]. A student claims the MVT applies because f is continuous and the average rate of change from -1 to 1 is (f(1)-f(-1))/(1-(-1)) = 0, so there must exist c where f'(c) = 0. What is wrong?"
+  type: multiple-choice
+  options:
+    - "Nothing — f is continuous on [-1,1], so MVT applies and the conclusion is correct"
+    - "The error is in computing the average rate of change; f(-1) ≠ f(1)"
+    - "f is not differentiable at x = 0, violating the differentiability hypothesis on the open interval (-1, 1), so MVT does not apply"
+    - "MVT only applies to strictly increasing or decreasing functions"
+  answer: 2
+  explanation: "The MVT requires both continuity on the closed interval [a,b] AND differentiability on the open interval (a,b). While f(x) = |x| is continuous everywhere, it fails to be differentiable at x = 0, which lies in the open interval (-1, 1). A single point of non-differentiability is enough to invalidate the theorem. And indeed, the conclusion fails: |x| has no point with f'(c) = 0 — the derivative is +1 for x > 0 and -1 for x < 0. Checking hypotheses is not a formality."
+
+- question: "Which of the following is the most important use of the MVT in theoretical calculus?"
+  type: multiple-choice
+  options:
+    - "Finding the exact value of c where the instantaneous rate equals the average rate"
+    - "Computing definite integrals by finding average values of functions"
+    - "Proving that if f'(x) = 0 for all x on an interval, then f is constant on that interval"
+    - "Determining the slope of the tangent line at a given point without using limits"
+  answer: 2
+  explanation: "The MVT's main power is as a proof tool, not a computational one. The corollary that zero derivative implies constant function is the theorem's most load-bearing application: it underpins the uniqueness part of antiderivative theory, justifies the First Derivative Test for increasing/decreasing behavior, and is a key step in proving L'Hôpital's Rule. Finding the actual value of c (option A) is rarely the point — the theorem usually just guarantees c exists, which is sufficient for the proofs that follow."
+
+- question: "The MVT guarantees that there is exactly one point c in (a, b) where the instantaneous rate of change equals the average rate of change."
+  type: true-false
+  answer: false
+  explanation: "False — the MVT guarantees at least one such point c, not exactly one. A function can have many points where the tangent is parallel to the secant, especially if it oscillates. For example, f(x) = sin(x) on [0, 4π] has the same endpoint values (both 0), and horizontal tangents occur at x = π/2, 3π/2, 5π/2, and 7π/2 — four points, not one. The theorem is an existence result, not a uniqueness result."
+
+- question: "The Mean Value Theorem and the Intermediate Value Theorem are essentially the same result applied to different contexts."
+  type: true-false
+  answer: false
+  explanation: "False — they address completely different properties of functions. The IVT says: if f is continuous on [a,b] and k is between f(a) and f(b), then f takes the value k somewhere in (a,b). It concerns function values. The MVT says: if f is continuous on [a,b] and differentiable on (a,b), then f'(c) equals the average rate of change for some c. It concerns derivatives. They share the continuity hypothesis but prove different things about different aspects of the function."
+
+- question: "A car travels 120 miles in exactly 2 hours. Using the MVT, what can you conclude, and what hypotheses are needed for the conclusion to hold?"
+  type: short-answer
+  answer: "The MVT guarantees that at some moment during the 2-hour trip, the car's instantaneous speed was exactly 60 mph — the average rate of change of position. The hypotheses needed are: (1) the position function f(t) is continuous on [0, 2] (the car doesn't teleport) and (2) f is differentiable on (0, 2) (the car has a well-defined instantaneous velocity at every interior moment). The theorem does not say when during the trip the speedometer read 60, nor that it happened only once — only that it must have happened at least once."
+  explanation: "This is the 'speedometer theorem' intuition that makes MVT memorable. The average speed over any interval must be achieved as an instantaneous speed at some point. The hypotheses are physical reasonableness conditions — continuity rules out teleportation, differentiability rules out infinite acceleration. Both are realistic for a car."
+```
+
 ## Explainer
 
 The Mean Value Theorem says something intuitively obvious but mathematically powerful: if you drive 60 miles in 1 hour, your speedometer must have read exactly 60 mph at some moment during the trip. The average rate of change was 60 mph; the theorem guarantees that the instantaneous rate of change equaled that average at least once. From your study of derivatives, you know that f'(c) is the instantaneous rate of change at c, and (f(b) − f(a))/(b − a) is the average rate of change over [a, b]. The MVT says these two values must coincide somewhere inside.

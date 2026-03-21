@@ -36,6 +36,45 @@ Work bottom-up: brainstem controls survival, thalamus routes information, basal 
 - The cerebellum does not only coordinate movement; it contributes to timing, language, and cognition.
 - The thalamus is not a passive relay; it gates and modulates what reaches the cortex depending on attentional state.
 
+## Questions
+
+```yaml
+- question: "A patient's thalamus is damaged in a way that disrupts its gating function but leaves sensory relay intact. What symptom would best reveal this impairment?"
+  type: multiple-choice
+  options:
+    - "Loss of vision in one eye, since the lateral geniculate nucleus can no longer forward visual signals"
+    - "Inability to filter out irrelevant stimuli during sleep — the patient is woken by minor noises that wouldn't normally reach consciousness"
+    - "Complete loss of touch sensation on the opposite side of the body"
+    - "Inability to form new motor habits, since the thalamus controls habit learning"
+  answer: 1
+  explanation: "The thalamus actively gates sensory information, not just relays it — during sleep, thalamocortical circuits produce sleep spindles that block irrelevant signals from reaching the cortex. Disrupting gating while leaving relay intact would most specifically impair this filtering function. The common misconception is that the thalamus is a passive relay station; it is not — attentional state modulates which signals get through."
+
+- question: "A patient develops difficulty initiating voluntary movements and a resting tremor, but involuntary choreiform movements are absent. Which subcortical structure is most likely affected, and why?"
+  type: multiple-choice
+  options:
+    - "The cerebellum, because it corrects timing errors in ongoing movements"
+    - "The substantia nigra of the basal ganglia, because dopamine depletion weakens the suppression of competing movements while also making desired movements harder to initiate — the Parkinson's pattern"
+    - "The striatum of the basal ganglia, because striatal neuron loss disinhibits unwanted actions — the Huntington's pattern"
+    - "The medulla, because cardiac and respiratory centers are disrupted"
+  answer: 1
+  explanation: "Dopamine loss in the substantia nigra (Parkinson's disease) impairs the basal ganglia's action-selection mechanism: the 'winning' action cannot be adequately amplified and competing actions are not suppressed, producing tremor and initiation difficulty. Choreiform movements (involuntary dancing-like motions) characterize Huntington's disease, caused by striatal neuron death. The distinction maps directly onto the basal ganglia's role in running a competition among possible actions."
+
+- question: "Damage to the brainstem is more immediately life-threatening than equivalent damage to the cerebral cortex."
+  type: true-false
+  answer: true
+  explanation: "The brainstem (midbrain, pons, medulla) contains the cardiac and respiratory centers that regulate heartbeat and breathing automatically, as well as the reticular activating system that maintains arousal. Damage here can cause coma or death. The cortex handles higher functions — perception, language, reasoning — whose loss is profoundly disabling but not immediately fatal. This reflects the evolutionary hierarchy: brainstem structures are oldest and control the most essential functions."
+
+- question: "The cerebellum's only function is to coordinate motor movements; it plays no role in cognitive functions."
+  type: true-false
+  answer: false
+  explanation: "The cerebellum contributes to timing and precision across multiple domains, not just motor coordination. Research has extended its role to cognitive timing, language processing, and even emotional regulation. The cerebellum compares intended and actual outputs and issues correction signals — a computational role applicable far beyond motor control. Assuming it is purely a motor structure misses that the same timing and error-correction mechanism applies to cognitive tasks."
+
+- question: "Why is the basal ganglia's function better described as 'action selection' than 'movement execution,' and how does this framing explain both Parkinson's and Huntington's diseases?"
+  type: short-answer
+  answer: "The basal ganglia run a competition among possible actions, amplifying the winning action while suppressing all others. They do not directly produce movement — that is the motor cortex's job. In Parkinson's, dopamine loss weakens both the amplification of desired actions and the suppression of competing ones, making movement initiation difficult. In Huntington's, striatal neuron death eliminates the suppression of unwanted actions, causing involuntary choreiform movements. Both diseases are disorders of selection, not execution."
+  explanation: "The action-selection framing is more accurate than 'movement execution' because the basal ganglia influence which action gets initiated, not the mechanical details of carrying it out. This explains why Parkinson's patients know what they want to do but cannot start, and why Huntington's patients cannot stop unwanted movements — both are selection failures."
+```
+
 ## Explainer
 
 From your study of brain lobes and cortical functions, you've built a map of the cortex — the outer surface that handles perception, language, and reasoning. But the cortex doesn't operate in isolation. Beneath it lies a set of older, evolutionarily conserved structures that handle functions so fundamental that damage to them is often immediately life-threatening or profoundly disabling. Understanding subcortical structures means understanding the brain's infrastructure, not just its highest-level processing.

@@ -32,6 +32,45 @@ Compare historical development paths using different metrics: South Korea vs. Ni
 ## Common Misconceptions
 Development and GDP growth are synonymous. Many countries grow GDP faster than health or educational outcomes; others achieve high human development with modest income growth.
 
+## Questions
+
+```yaml
+- question: "Equatorial Guinea and Costa Rica have at times had similar GDP per capita, yet Costa Rica has near-universal literacy, life expectancy above 80, and universal healthcare, while Equatorial Guinea has had far worse outcomes on all these measures. What does this best illustrate about GDP per capita?"
+  type: multiple-choice
+  options:
+    - "GDP per capita accurately reflects development — the two countries are equally developed by any meaningful standard"
+    - "GDP per capita is biased toward oil-exporting countries and systematically overstates their income"
+    - "GDP per capita measures aggregate output but cannot capture whether output is distributed in ways that translate into human well-being, freedom, or capabilities"
+    - "GDP per capita reflects development accurately only in democracies — Equatorial Guinea's authoritarianism invalidates its GDP data"
+  answer: 2
+  explanation: "GDP per capita measures the total value of goods and services produced per person — not who benefits from that output, how it is distributed, or whether it translates into health, education, or freedom. Equatorial Guinea's oil revenues inflate aggregate output without reaching most citizens through public services or broadly shared income. Costa Rica's smaller GDP is more effectively channeled into public health and education systems. The comparison illustrates Sen's core argument: income is a means to development, not development itself. GDP cannot distinguish between these two realities."
+
+- question: "A country's GDP per capita doubles over 20 years. A development economist insists this does not necessarily mean the country has 'developed.' Which scenario would best support her position?"
+  type: multiple-choice
+  options:
+    - "The country's GDP growth rate was volatile, with recession years interspersed with high-growth years"
+    - "Life expectancy fell, literacy stagnated, and all income gains accrued to the top 1% while median living standards barely changed"
+    - "Other countries in the region grew faster during the same period"
+    - "Nominal GDP grew faster than real GDP, suggesting inflation rather than real output growth"
+  answer: 1
+  explanation: "The economist's argument is that development means expanding human capabilities and well-being, not just aggregate output. If GDP doubles but all gains go to a narrow elite while health outcomes deteriorate and most citizens lack educational access, the country has grown economically but not developed in the meaningful sense. Options A, C, and D identify problems with the GDP data or comparative growth rates, but neither challenges the equation of GDP growth with development. Option B directly shows that economic growth and human development have come apart — which is the core insight."
+
+- question: "Under Amartya Sen's capabilities approach, a country with high average incomes could still be considered underdeveloped if those incomes do not translate into real freedoms and opportunities."
+  type: true-false
+  answer: true
+  explanation: "Sen defines development as the expansion of substantive human freedoms — the real opportunities people have to be healthy, educated, politically active, and socially included. High income that does not enable these freedoms (due to political repression, gender discrimination, lack of public services, or extreme inequality) constitutes underdevelopment under the capabilities framework. This is why Gulf states with very high GDP per capita may nonetheless rank poorly on certain development dimensions, while countries like Cuba or Kerala achieve high human development outcomes despite modest incomes."
+
+- question: "Because GDP growth increases the total resources available for investment in health and education, higher GDP per capita always leads to better human development outcomes if given enough time."
+  type: true-false
+  answer: false
+  explanation: "The comparison between Equatorial Guinea (high income, poor human development) and Kerala, India (modest income, excellent human development outcomes) directly falsifies this claim. Growth creates resources but does not automatically deploy them into health, education, or the institutions that protect freedoms. Whether growth translates into human development depends on deliberate public investment decisions, governance quality, distributional outcomes, and social structures. Growth is neither necessary nor sufficient for human development — it is one potentially useful input among several."
+
+- question: "Why does the choice between GDP per capita and a multidimensional measure like the HDI matter for policy, not just for academic measurement debates?"
+  type: short-answer
+  answer: "The measurement you choose defines what counts as success and what policies are prioritized. If development equals GDP growth, the natural policy prescription is to maximize investment and market openness and trust that growth 'trickles down' to human outcomes. If development means expanding capabilities, then policy must directly invest in health systems, education, and institutions that protect freedoms — even when these do not immediately maximize GDP. Countries look very different depending on which lens is applied: a country can show rapid GDP growth while health and education stagnate, and vice versa. Aid allocation, policy evaluation, and international development goals all depend on which metric defines success."
+  explanation: "The HDI was explicitly designed to shift policy attention: by forcing income, health, and education into a single composite, it created political pressure to improve dimensions that pure GDP rankings ignored. The same logic drives the Multidimensional Poverty Index — by measuring deprivations across health, education, and living standards simultaneously, it identifies clusters of disadvantage that household income surveys miss, directing targeted policy responses. Measurement shapes incentives, which shapes outcomes."
+```
+
 ## Explainer
 
 From your study of GDP and national income accounting, you know how economists measure the total output of an economy. GDP per capita — total output divided by population — is the most widely used proxy for a country's standard of living. But development economics begins with a fundamental challenge to this proxy: is a country "developed" simply because it produces a lot of output per person? The answer, increasingly, is no — and the reasons why reshape how economists think about progress.

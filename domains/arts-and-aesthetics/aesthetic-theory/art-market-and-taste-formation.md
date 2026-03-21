@@ -28,6 +28,45 @@ status: draft
 ## Core Idea
 The art market—galleries, auctions, collectors, speculators—shapes aesthetic judgment and cultural value. Economic forces such as scarcity, speculation, and investment intertwine with aesthetic evaluation, raising the question of whether taste can be autonomous from market mechanisms.
 
+## Questions
+
+```yaml
+- question: "A painting previously dismissed by critics sells for a record $90 million at auction. Critics subsequently begin writing about its 'previously underappreciated formal sophistication.' This pattern best illustrates:"
+  type: multiple-choice
+  options:
+    - "How critics use auction results as empirical data to correct their prior aesthetic errors"
+    - "That authentic aesthetic value requires time and the right economic context to become visible"
+    - "How market price functions as a taste signal, causing aesthetic perception to follow economic valuation"
+    - "The institutional artworld's natural ability to reach consensus on important works through diverse channels"
+  answer: 2
+  explanation: "This scenario illustrates taste formation through market signaling: a high price creates evidence of value, which reshapes critical discourse, which attracts more collectors, which sustains or increases the price. The influence runs from market to taste, not from independent aesthetic judgment to market. Options A and B represent the story the art market encourages — that price discovers pre-existing value — but the pattern of critics updating their views specifically after a price event suggests the causal arrow runs in the other direction."
+
+- question: "Why does scarcity function differently in the art market than in ordinary commodity markets?"
+  type: multiple-choice
+  options:
+    - "Art scarcity is artificial and maintained by dealers, while commodity scarcity reflects real supply constraints"
+    - "In art, scarcity operates through the concept of authenticity — the value of a work depends on its being the unique original, not merely on limited supply"
+    - "Commodity scarcity affects price more reliably than art scarcity because commodity buyers make rational decisions"
+    - "Art scarcity only matters for contemporary works; historical masterpieces are valued solely for provenance"
+  answer: 1
+  explanation: "Art scarcity is not just about limited supply — it is about authentic singularity. A perfect forgery that is physically indistinguishable from the original collapses in value not because it looks different but because it lacks the authentic causal connection to the artist. The market thus enforces and rewards the philosophical concepts of authenticity and originality as economic facts. This connection — between philosophical questions about identity and authenticity on one hand, and market mechanics on the other — is distinctive to art and luxury goods."
+
+- question: "Gallery representation functions as a credentialing mechanism that combines aesthetic endorsement with market power, creating real economic and reputational consequences for an artist."
+  type: true-false
+  answer: true
+  explanation: "This is accurate. A gallery's decision to represent an artist is not merely curatorial — it is a market intervention. It certifies the artist's work as worth serious attention, signals to collectors and museums that the work is a viable acquisition, and can trigger a self-reinforcing cycle of increased prices, critical attention, and institutional inclusion. The gallery's aesthetic judgment and its market leverage are inseparable; this is one way institutional power and economic power merge in the artworld."
+
+- question: "The art market operates as a neutral price-discovery mechanism that reveals pre-existing aesthetic value, similar to how commodity markets reveal the true price of wheat or oil."
+  type: true-false
+  answer: false
+  explanation: "Unlike commodity markets where buyers have relatively fixed, independent preferences, the art market actively shapes the aesthetic preferences it appears to be satisfying. High prices signal value, which changes how people perceive the work aesthetically, which generates more buying interest, which sustains prices. The market does not simply reveal pre-existing value — it manufactures value and then disguises the manufacture as discovery. Critical discourse, institutional exhibition choices, and collector prestige all feed into this loop, making it very difficult to identify where aesthetic judgment ends and market influence begins."
+
+- question: "How does the feedback loop between market price and aesthetic judgment undermine the possibility of fully autonomous taste in the art world?"
+  type: short-answer
+  answer: "If high prices change how people perceive and evaluate artworks, then market activity shapes the very aesthetic standards used to evaluate that market. The art you encounter is pre-selected by galleries motivated by profit; critical discourse is shaped by collectors who fund publications and museums; and your own sense of which works are 'important' tends to track what is expensive. Each of these channels means that economic valuation and aesthetic judgment continuously influence each other, making it nearly impossible to identify an aesthetic response that is entirely free from market conditioning."
+  explanation: "This does not mean aesthetic judgment is entirely determined by markets — people do form genuine responses to artworks. But recognizing the market's role in taste formation is a prerequisite for critical practice that does not simply ratify economic power. The question of whether autonomous taste is possible under market conditions is one of the deepest problems in the sociology of culture."
+```
+
 ## Explainer
 
 You already understand how institutional power shapes what counts as art and how aesthetic judgment involves claims about taste that go beyond mere personal preference. The art market brings these two forces together in a way that creates deep complications for both. When a painting sells for $100 million at auction, something happens to how people see it — and that shift reveals how economic forces and aesthetic evaluation are entangled in ways that most aesthetic theory struggles to address.

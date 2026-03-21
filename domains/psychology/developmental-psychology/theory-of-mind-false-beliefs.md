@@ -32,6 +32,45 @@ Administer false-belief tasks (Sally-Anne, unexpected contents, diverse beliefs)
 ## Common Misconceptions
 False-belief understanding is not all-or-nothing; partial understanding emerges earlier in implicit (preferential looking) tasks before explicit (verbal) responses. Development continues across the preschool years and into early school age; it is not achieved suddenly at age 4.
 
+## Questions
+
+```yaml
+- question: "In the Sally-Anne task, a 3-year-old consistently points to the box (where the marble actually is) when asked where Sally will look. What is the best explanation for this response?"
+  type: multiple-choice
+  options:
+    - "The child doesn't understand the question and is guessing randomly"
+    - "The child knows where Sally thinks the marble is but chooses to answer with the real location"
+    - "The child cannot inhibit their own knowledge of reality to reason from Sally's false belief"
+    - "The child lacks the language to distinguish 'where is it' from 'where will Sally look'"
+  answer: 2
+  explanation: "The 3-year-old's failure is not one of attention, language, or intelligence — they are answering the only question they are cognitively able to ask, which is 'where is the marble?' Their own knowledge of reality overwrites the attempt to model Sally's perspective. This is the key insight: they lack metarepresentational capacity — the ability to represent someone else's representation of the world while simultaneously knowing that representation is false. Option D is tempting but wrong; verbal simplifications of the task do not resolve the developmental difference."
+
+- question: "Infants as young as 15 months show false-belief sensitivity in preferential-looking studies, yet most children fail verbal false-belief tasks until age 4–5. What does this pattern most likely indicate?"
+  type: multiple-choice
+  options:
+    - "The preferential-looking studies have a methodological flaw that produces false positives"
+    - "Theory of mind development is not about age but about language acquisition"
+    - "An implicit precursor to theory of mind exists early but the capacity to deploy it explicitly develops gradually across the preschool years"
+    - "False-belief understanding is fully present by 15 months but children deliberately give wrong answers on verbal tasks"
+  answer: 2
+  explanation: "The dissociation between implicit (looking) and explicit (verbal) measures reveals that theory of mind is not all-or-nothing. A precursor system — possibly sensitivity to agent expectations — operates early but below the level of conscious, verbalizable reasoning. The age-4 transition marks when children can use this understanding explicitly to answer direct questions and make deliberate inferences. Development is a gradual building of representational capacity, not a sudden switch. This also explains why the 'false-belief ability' emerges slowly rather than appearing overnight."
+
+- question: "A child who fails the Sally-Anne task must not understand what the experimenter is asking them."
+  type: true-false
+  answer: false
+  explanation: "This reverses the correct interpretation. Children who fail the task typically understand the question perfectly well — they just cannot reason from Sally's perspective. They answer with the actual location of the marble because their own knowledge of reality is cognitively dominant: they cannot simultaneously hold the true state of the world AND Sally's false belief, then set aside their own knowledge to answer from hers. The failure is a representational limitation, not a comprehension failure."
+
+- question: "False-belief understanding is a necessary prerequisite for the ability to intentionally deceive another person."
+  type: true-false
+  answer: true
+  explanation: "Deception requires you to create a false belief in someone else's mind. To do this, you must be able to model what the other person currently believes, recognize that you could cause them to believe something false, and act in a way designed to exploit that gap between their belief and reality. All of this requires theory of mind. Indeed, children typically begin to engage in deliberate deception at around the same age they pass false-belief tasks — not coincidentally, but because both depend on the same underlying metarepresentational capacity."
+
+- question: "Why is the core capacity tested by false-belief tasks called 'metarepresentation,' and why is this capacity necessary to predict Sally's behavior correctly?"
+  type: short-answer
+  answer: "Metarepresentation means representing a representation — thinking about a thought or belief rather than directly representing the world. To predict that Sally will look in the basket, a child must hold a representation of Sally's mental state (her belief that the marble is still there) while simultaneously knowing that belief is false. This requires holding a 'representation of a representation' — the child's model of Sally's model of the world. Without this capacity, children can only represent the world directly; they cannot step inside Sally's perspective while keeping their own knowledge separate."
+  explanation: "This is what makes false-belief tasks such a precise diagnostic for theory of mind. It is not enough to know where Sally was or what she saw — you must construct a model of her mental state as distinct from yours, and use *her* model (not yours) to generate a prediction. The difficulty for 3-year-olds is not conceptual confusion; it is that their representational system is not yet capable of that kind of second-order embedding."
+```
+
 ## Explainer
 
 From your prior work in developmental psychology, you know that cognitive development follows a trajectory from concrete, perception-bound thinking toward increasingly abstract, representational thought. Theory of mind is one of the most striking demonstrations of that trajectory: young children are not simply less knowledgeable than adults — they represent the social world using a fundamentally different framework, one that lacks a crucial distinction between how things *are* and how things *appear to someone*.

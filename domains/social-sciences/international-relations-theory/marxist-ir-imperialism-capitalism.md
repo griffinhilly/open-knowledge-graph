@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Marxist IR scholars argue that imperialism and great-power conflict arise from capitalist competition for markets, resources, and investment opportunities. The structure of global capitalism, with its requirement for constant accumulation, drives states to expand and exploit peripheral regions. International hierarchy reflects capitalist relations of production.
 
+## Questions
+
+```yaml
+- question: "A realist IR theorist argues that US interventions in Latin America during the Cold War were driven by the need to balance Soviet power. A Marxist IR scholar offers an alternative explanation. Which response best captures the Marxist account?"
+  type: multiple-choice
+  options:
+    - "The US was fulfilling a humanitarian responsibility to protect democratic governance in the region"
+    - "The interventions primarily served to suppress labor movements and protect foreign investment conditions, acting on behalf of capitalist class interests rather than national security"
+    - "US leaders were reacting rationally to Soviet provocations, confirming the security dilemma thesis"
+    - "The pattern is best explained by liberal institutionalism — the US was enforcing international norms"
+  answer: 1
+  explanation: "Marxist IR argues that states function as instruments of capital accumulation, and international interventions systematically serve capital interests. US interventions repeatedly targeted leftist governments threatening to nationalize foreign-owned industries, impose labor regulations, or restrict profit repatriation — regardless of actual Soviet involvement. The pattern is explicable if states act for capitalist class interests; it is puzzling if states are simply balancing power. The Marxist account is not that realists are wrong about power, but that they misidentify whose power is being maximized."
+
+- question: "According to Wallerstein's world-systems theory, the economic underdevelopment of peripheral countries is best explained by:"
+  type: multiple-choice
+  options:
+    - "A pre-modern condition of low capital accumulation that development programs can gradually remedy"
+    - "Geographic and climatic factors that make tropical regions less productive than temperate ones"
+    - "How peripheral regions were incorporated into global capitalism through colonial extraction, producing underdevelopment as a structural outcome rather than a starting point"
+    - "Cultural factors that reduce the effectiveness of institutions in peripheral countries"
+  answer: 2
+  explanation: "Wallerstein's central revisionist claim is that underdevelopment is produced, not inherited. The Democratic Republic of Congo is not poor because it started behind — it was made poor through Belgian colonial extraction, Cold War client-state relationships, and structural adjustment programs that prioritized debt repayment over domestic investment. This reframes the question entirely: instead of asking 'why didn't they develop?' the world-systems approach asks 'what specific historical processes generated this pattern?' The answer: incorporation into global capitalism on unfavorable terms."
+
+- question: "Lenin argued that World War I resulted primarily from miscalculation and competing national security interests — the classic security dilemma between great powers."
+  type: true-false
+  answer: false
+  explanation: "Lenin explicitly rejected security dilemma accounts of WWI. His argument in *Imperialism, the Highest Stage of Capitalism* was that the war expressed inter-imperialist rivalry — capitalist great powers competing for access to the same peripheral markets, investment zones, and sources of raw materials. The war was not a tragic accident of misperception but a structural consequence of mature capitalism's need to export surplus capital. States went to war for markets, not for security — which is what Marxist IR means by treating capitalism as the fundamental determinant of great-power behavior."
+
+- question: "World-systems theory places some countries in a 'semi-periphery' that simultaneously experiences dynamics of both core and peripheral status within the capitalist world-system."
+  type: true-false
+  answer: true
+  explanation: "Wallerstein's three-tier model includes the semi-periphery as an intermediate zone: countries like Brazil, India, or South Korea that extract value from peripheral regions while simultaneously being exploited by core countries. The semi-periphery serves a political stabilizing function — it prevents the world-system from polarizing into a simple core-periphery binary that might generate more intense anti-systemic resistance. The visibility of upward mobility into the semi-periphery also lends the system a degree of legitimacy."
+
+- question: "Why does Lenin's theory of imperialism argue that mature capitalist economies are structurally compelled to expand into peripheral regions? What economic dynamic makes this expansion necessary?"
+  type: short-answer
+  answer: "In mature capitalist economies, profits accumulate faster than domestic investment opportunities can absorb them — creating a surplus capital problem where investing at home would drive down returns. Capitalists are structurally pushed to export capital to peripheral regions where labor is cheap, resources abundant, and local states offer weak resistance. Banks, corporations, and home governments cooperate to secure the political and military conditions for these investments. This expansion is not a choice but a structural necessity: without peripheral outlets, surplus capital sits idle and domestic profit rates fall."
+  explanation: "Lenin's argument is important because it shifts the explanation of imperialism from individual greed or political ambition to structural economic necessity. You don't need imperialist leaders; you need a capitalist system that generates surplus capital. The logic also explains why imperialism tends toward monopoly (competing firms merge to control peripheral markets) and why banks and industrial capital fuse into 'finance capital' that jointly drives expansion. Reforming imperial policy without transforming the underlying economic system will fail — the structural pressure to expand will reassert itself."
+```
+
 ## Explainer
 
 Your prerequisite in international political economy introduced the idea that the global economy's structure shapes political outcomes. Marxist IR theory takes this further: it argues that global capitalism is not merely one factor among many but the *fundamental* determinant of why states relate to each other as they do and why some states dominate others. Where realists see states competing for power and liberals see states cooperating through institutions, Marxists see states acting as instruments of capital accumulation — and international hierarchy as the expression of capitalist class relations at a global scale.

@@ -38,6 +38,45 @@ Analyze a short Webern piece by locating the tone row and its transformations. T
 - The twelve-tone technique does not guarantee that all pitches sound equally prominent — performers still shape emphasis through dynamics, duration, and register.
 - Berg's music often sounds more 'tonal' because he constructed rows with tonal subsets; twelve-tone technique does not require sounding harsh or inaccessible.
 
+## Questions
+
+```yaml
+- question: "A student listens to Berg's Violin Concerto and declares 'This cannot be twelve-tone music because it sounds tonal and emotionally continuous with Romanticism.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "The student is correct — twelve-tone technique always produces harsh, atonal sound"
+    - "Berg deliberately constructed rows with embedded tonal subsets, showing that twelve-tone technique does not require sounding harsh or inaccessible"
+    - "The Violin Concerto is not twelve-tone — Berg abandoned serialism for this work"
+    - "Twelve-tone music can sound tonal only if the composer also uses key signatures"
+  answer: 1
+  explanation: "Berg was less doctrinaire than Schoenberg or Webern. He constructed rows with tonal subsets — fourths, triads — so that tonal memory haunts his twelve-tone music while the technique is still rigorously applied. The misconception is that twelve-tone = atonal-sounding. The technique governs pitch-class organization, not emotional character or surface sound."
+
+- question: "What is the primary purpose of the four transformations (P, I, R, RI) of a tone row in twelve-tone composition?"
+  type: multiple-choice
+  options:
+    - "To guarantee that the music sounds like traditional tonal harmony"
+    - "To generate variety while deriving all pitch content from a single pre-compositional choice"
+    - "To replace dynamics and rhythm with pitch organization"
+    - "To ensure each pitch sounds exactly the same number of times in the final piece"
+  answer: 1
+  explanation: "The four transformations — original, inversion, retrograde, retrograde-inversion — each startable on any of 12 pitch classes (yielding 48 versions) provide the composer with varied material while maintaining the constraint that all pitch content derives from one pre-compositional row. This is how the technique solves the problem atonality created: coherent structure without tonal hierarchy."
+
+- question: "Total serialism — extending the row principle to rhythm, dynamics, and timbre — produced music experienced as more expressively controlled and perceptually organized than basic twelve-tone works."
+  type: true-false
+  answer: false
+  explanation: "Total serialism, despite being rigorously organized on paper, was often experienced as chaos in performance. When all parameters are serialized simultaneously, no element functions expressively in any conventional sense. The reaction against total serialism in the 1960s and 70s was partly a recognition that compositional logic on paper and perceptible musical sense are not the same thing."
+
+- question: "Using a tone row ensures that all twelve pitch classes sound equally prominent in the final composition."
+  type: true-false
+  answer: false
+  explanation: "The row ensures equal treatment in the pre-compositional structure — no pitch class is repeated before all twelve have appeared — but performers still shape emphasis through dynamics, duration, register, and articulation. The technique controls pitch-class sequence, not perceptual prominence. This is explicitly named as a common misconception: the twelve-tone technique does not guarantee equal audible emphasis."
+
+- question: "Why did Schoenberg feel a compositional system was necessary after fully abandoning tonality, and what problem was the twelve-tone technique designed to solve?"
+  type: short-answer
+  answer: "Late Romantic composers had expanded chromaticism until tonal hierarchy collapsed entirely, leaving no structural principle to organize musical form. Purely atonal music risked sounding arbitrary — random note successions with no organizing logic. The twelve-tone technique provided a substitute: by deriving all pitch content from a single ordered row and its transformations, composers could generate coherent, non-random material without reinstating the tonal hierarchy they had abandoned."
+  explanation: "The key insight is that atonality created a structural vacuum — it dismantled the organizing principle of Western music without replacing it. The twelve-tone technique was Schoenberg's answer to this vacuum: a pre-compositional system that generates all material from one source (the row), ensuring internal coherence while maintaining the equal treatment of all twelve pitch classes that atonality sought."
+```
+
 ## Explainer
 
 To understand why Schoenberg invented the twelve-tone technique, you need to follow the logic of harmonic expansion that you encountered in early-20th-century modernism. Late Romantic composers kept adding more chromatic pitches, stranger chords, and longer delays of resolution until the distinction between consonance and dissonance became functionally meaningless. Schoenberg's early atonal works — *Pierrot Lunaire*, the piano pieces Op. 11 — dissolved tonal hierarchy entirely. But atonality created a new problem: without tonal structure to organize form, how do you prevent music from becoming arbitrary noise? The twelve-tone technique was Schoenberg's answer: a compositional system that generates coherent material from a single pre-compositional choice.

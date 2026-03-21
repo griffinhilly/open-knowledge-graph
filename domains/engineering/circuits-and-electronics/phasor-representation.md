@@ -40,6 +40,45 @@ Convert several sinusoids to phasors and back. Verify using Euler's formula: e^(
 - Applying phasors to transient analysis — phasors yield only the sinusoidal steady-state response.
 - Confusing the phasor angle with frequency — the phasor angle is phase, while ω is a fixed parameter of the analysis.
 
+## Questions
+
+```yaml
+- question: "A sinusoidal source has been driving an RC circuit for a very long time. A student wants to find the current amplitude and phase. Which approach is appropriate?"
+  type: multiple-choice
+  options:
+    - "Solve the full differential equation including both transient and steady-state terms"
+    - "Phasor analysis — the transient has decayed and only the sinusoidal steady-state response remains"
+    - "Phasor analysis combined with Laplace transforms to capture the complete response"
+    - "DC analysis using the source's peak voltage as a constant"
+  answer: 1
+  explanation: "After a circuit has run for a long time, transients (the natural response driven by initial energy storage) have decayed to zero. What remains is exactly the sinusoidal steady-state response — which phasors are designed to compute. There is no need for a full differential equation or Laplace analysis. Option A is correct in general but unnecessary here. Options C and D are incorrect: Laplace is needed for the complete response including transients; DC analysis ignores reactance entirely."
+
+- question: "Why does phasor analysis convert differential equations into algebraic equations?"
+  type: multiple-choice
+  options:
+    - "Phasors average over time, so the time derivative vanishes"
+    - "In steady state, voltages and currents are constant, so their derivatives are zero"
+    - "Differentiation in the time domain corresponds to multiplication by jω in the phasor domain"
+    - "Complex numbers encode phase information, eliminating the need to solve for initial conditions"
+  answer: 2
+  explanation: "The algebraic key is that d/dt[Re{V·e^(jωt)}] = Re{jω·V·e^(jωt)}. Differentiation in time maps to multiplication by jω on the phasor. This means the voltage-current relationship for a capacitor (i = C·dv/dt) becomes I = jωC·V in the phasor domain — an algebraic equation. Similarly, inductors become V = jωL·I. Every reactive element gets an impedance Z = V/I, and the entire DC analysis toolkit (Kirchhoff's laws, superposition, Thevenin) applies directly. Options A and B are wrong: phasors don't average over time, and in sinusoidal steady state, voltages are not constant — they oscillate."
+
+- question: "Phasor analysis gives the complete response of a circuit, capturing both the transient behavior immediately after switching and the long-term steady-state behavior."
+  type: true-false
+  answer: false
+  explanation: "Phasors yield only the sinusoidal steady-state (particular) solution — the response after all transients have decayed. The complete response is the sum of the particular solution (phasor) and the homogeneous solution (natural response, which decays over time). Immediately after a source is switched on, energy stored in capacitors and inductors drives transient currents that are not captured by phasors. Using a phasor solution to describe circuit behavior right after switching is a consequential error."
+
+- question: "A capacitor with impedance 1/(jωC) presents lower opposition to current at higher frequencies, behaving more like a short circuit as frequency increases."
+  type: true-false
+  answer: true
+  explanation: "The magnitude of the capacitor's impedance is |Z_C| = 1/(ωC). As frequency ω increases, this magnitude decreases toward zero — a short circuit. Intuitively, a capacitor blocks DC (ω = 0, infinite impedance) but passes high-frequency signals easily. This frequency-dependent behavior is why capacitors are used in filters: they block low frequencies and pass high ones. The dual behavior holds for inductors: Z_L = jωL increases with frequency, so inductors short low frequencies and block high ones."
+
+- question: "A student analyzes an RC circuit with a phasor method immediately after a switch is closed at t = 0. What is wrong with this approach, and under what conditions would phasor analysis give correct results?"
+  type: short-answer
+  answer: "Phasors describe only the sinusoidal steady-state response — the behavior after all transients have decayed. Immediately after the switch closes, the capacitor has an initial voltage (or zero charge) that drives a transient current governed by the circuit's time constant τ = RC. This transient is the homogeneous solution to the circuit's differential equation and is not captured by phasors. Phasor analysis gives correct results only after t >> τ, when the transient has decayed to negligible amplitude and the circuit's response is dominated by the forced sinusoidal response."
+  explanation: "The complete response is: v(t) = v_transient(t) + v_steady-state(t). Phasors compute only the second term. For many engineering applications — power systems at 60 Hz operating in steady state, audio circuits processing continuous signals — the transient is brief and phasors are sufficient. But for circuits that switch on and off repeatedly, or for precise timing applications, the transient response must be computed separately."
+```
+
 ## Explainer
 
 The problem phasors solve is fundamental: circuits containing capacitors and inductors obey differential equations. Apply a sinusoidal voltage to an RC circuit and the current doesn't follow the voltage instantaneously — it leads or lags depending on the elements and frequency. Solving these differential equations from scratch for every circuit is technically correct but operationally tedious. Phasors provide a systematic shortcut that converts the entire problem into complex algebra, exploiting the mathematical structure of sinusoids.

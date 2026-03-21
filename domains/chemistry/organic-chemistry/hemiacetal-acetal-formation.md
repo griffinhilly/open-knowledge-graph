@@ -34,6 +34,45 @@ Draw the complete acid-catalyzed mechanism: protonation of carbonyl oxygen, nucl
 - Acetals are not stable under all conditions — they hydrolyze readily in aqueous acid, which is precisely why they work as protecting groups (easy to install, easy to remove).
 - Base does not catalyze acetal formation; the mechanism requires protonation to generate the oxocarbenium ion leaving group.
 
+## Questions
+
+```yaml
+- question: "A chemist wants to protect an aldehyde during a strongly basic reaction. She converts it to an acetal first. Which property of acetals makes this strategy work?"
+  type: multiple-choice
+  options:
+    - "Acetals are stable under basic and neutral conditions but revert to the carbonyl under aqueous acid"
+    - "Acetals are permanently stable and require harsh oxidizing conditions to remove"
+    - "Acetals are stable under both acidic and basic conditions, making them universally inert"
+    - "Acetals are more reactive than aldehydes toward nucleophiles, so they react first"
+  answer: 0
+  explanation: "The key property is selective stability: acetals survive basic conditions intact but hydrolyze readily when treated with dilute aqueous acid. This switchable stability is what makes them useful protecting groups — install with acid and alcohol, carry out base-sensitive chemistry elsewhere, then remove with aqueous acid. Option C is wrong because acetals are NOT stable under acidic aqueous conditions — that is the whole point of their reversibility."
+
+- question: "Why does acetal formation require acid catalysis but cannot be achieved under basic conditions?"
+  type: multiple-choice
+  options:
+    - "Base deprotonates the alcohol, making it a worse nucleophile for attacking the carbonyl"
+    - "Acid is needed to protonate the hemiacetal OH, generating water as a leaving group to form the oxocarbenium ion"
+    - "Base causes the alcohol to oxidize rather than add to the carbonyl"
+    - "Acid increases the nucleophilicity of the alcohol oxygen by protonating the carbonyl"
+  answer: 1
+  explanation: "The critical step that requires acid is the conversion of the hemiacetal to an acetal. The hemiacetal's –OH must be protonated to make it a water leaving group, generating the resonance-stabilized oxocarbenium ion that the second alcohol can attack. Base cannot perform this protonation — hydroxide has no way to create a good leaving group at that carbon. Option D is partially right (protonating the carbonyl does activate it for the first step) but misses the essential step that is uniquely impossible under basic conditions."
+
+- question: "Acetals are stable under basic and neutral aqueous conditions."
+  type: true-false
+  answer: true
+  explanation: "This is correct and is precisely what makes acetals useful as protecting groups. The acetal's C(OR)₂ arrangement lacks a leaving group accessible to base or neutral conditions — there is no way to regenerate the oxocarbenium ion without acid-assisted protonation. Acidic aqueous conditions, however, readily hydrolyze acetals by protonating the OR group, generating a leaving group, and reversing the formation mechanism."
+
+- question: "Open-chain hemiacetals of simple aldehydes are typically stable and isolable at room temperature."
+  type: true-false
+  answer: false
+  explanation: "Open-chain hemiacetals are usually in unfavorable equilibrium — the carbonyl form is predominant for most simple aldehydes and ketones. Stable hemiacetals are the exception, not the rule. The well-known examples of stable hemiacetals are cyclic: when a hydroxyl group and a carbonyl in the same molecule can form a five- or six-membered ring (as in glucose), the ring closure is thermodynamically favorable. The ring entropy benefit and strain-free geometry tip the equilibrium toward the cyclic hemiacetal form."
+
+- question: "Why do sugars like glucose exist predominantly in ring forms rather than as open-chain aldehydes, even though hemiacetal formation is usually unfavorable?"
+  type: short-answer
+  answer: "Intramolecular hemiacetal formation is thermodynamically favored when it produces a five- or six-membered ring. In glucose, the C5 hydroxyl is positioned to attack the C1 aldehyde, forming a six-membered pyranose ring. The ring closure gains stability from the preferred ring geometry (five- and six-membered rings are nearly strain-free) and avoids the translational entropy cost of bringing two separate molecules together. This is why glucose is >99% in the cyclic hemiacetal form rather than the open-chain aldehyde form under physiological conditions."
+  explanation: "This connects hemiacetal chemistry directly to biochemistry. The thermodynamic stability of cyclic hemiacetals in sugars is a special case driven by ring geometry — it does not contradict the general rule that open-chain hemiacetals are disfavored. The anomeric carbon in a sugar ring (C1 in glucose) is simply the hemiacetal carbon, and the two anomers (α and β) are the two diastereomers differing in the configuration at that carbon."
+```
+
 ## Explainer
 
 From nucleophilic addition to carbonyls, you know that the carbonyl carbon is electrophilic and can be attacked by nucleophiles. Hemiacetal and acetal formation is a specific case of this reaction where the nucleophile is an **alcohol**. The oxygen lone pair of the alcohol attacks the carbonyl carbon, and after a proton transfer, you get a **hemiacetal** — a carbon bearing both an –OH group and an –OR group. This first step is conceptually straightforward: it is just another nucleophilic addition, analogous to hydride or cyanide addition, but with a weaker nucleophile that typically needs acid catalysis to proceed efficiently.

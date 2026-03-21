@@ -33,6 +33,45 @@ Build a savings timeline: pick a target home price, calculate three scenarios (3
 - PMI lasts the entire life of the loan; for conventional loans, PMI can be removed once you reach 20% equity (by paying down the loan or through home appreciation), and it automatically terminates at 22% equity.
 - Closing costs are negotiable and can be reduced to near zero; while some fees are negotiable (lender origination fees, title company selection), many are fixed by law or regulation — the key is getting a Loan Estimate early so there are no surprises.
 
+## Questions
+
+```yaml
+- question: "A buyer puts 15% down on a $300,000 home and is required to pay PMI. Which best describes what PMI is and who benefits from it?"
+  type: multiple-choice
+  options:
+    - "Insurance that protects the buyer if they lose their job and cannot make payments"
+    - "A government fee that subsidizes lower down payments for first-time buyers"
+    - "Insurance paid by the buyer that compensates the lender if the buyer defaults"
+    - "A temporary loan surcharge that covers the remaining 5% of the purchase price"
+  answer: 2
+  explanation: "PMI (private mortgage insurance) protects the lender, not the buyer. The buyer pays the premiums, but if the buyer defaults, it is the lender who receives the payout. This is why PMI is a pure cost to the buyer — you pay for coverage you do not benefit from. Option A describes the buyer's mistaken assumption; the correct framing is that lenders require PMI to offset their higher risk when buyers have less than 20% equity."
+
+- question: "A buyer is purchasing a $280,000 home with a 5% down payment. Closing costs are estimated at 3% of the purchase price. How much liquid cash must the buyer have available at closing?"
+  type: multiple-choice
+  options:
+    - "$14,000 — just the down payment"
+    - "$8,400 — just the closing costs"
+    - "$22,400 — the down payment plus closing costs"
+    - "$56,000 — enough to reach 20% equity and avoid PMI"
+  answer: 2
+  explanation: "The buyer needs both the down payment AND closing costs as liquid cash at closing. Down payment: 5% × $280,000 = $14,000. Closing costs: 3% × $280,000 = $8,400. Total: $22,400. The most common mistake first-time buyers make is saving only for the down payment and being surprised by closing costs at the table. Option A represents that mistake."
+
+- question: "A buyer who puts down less than 20% on a conventional loan will generally be required to pay PMI until their equity reaches 20%."
+  type: true-false
+  answer: true
+  explanation: "This is correct. PMI is triggered when a borrower has less than 20% equity at origination. For conventional loans, PMI can be removed when the borrower reaches 20% equity through payments or home appreciation, and it automatically terminates at 22% equity by law. FHA loans follow different rules and may require mortgage insurance for the life of the loan depending on the down payment amount."
+
+- question: "Closing costs on a home purchase are primarily negotiable and can typically be reduced to near zero with a skilled buyer's agent."
+  type: true-false
+  answer: false
+  explanation: "While some closing costs are negotiable — such as lender origination fees and title company selection — many are fixed by law or regulation. Appraisal fees, recording fees, transfer taxes, and prepaid property taxes are largely non-negotiable. Total closing costs reliably fall in the 2–5% range regardless of negotiation. The key is getting a Loan Estimate early so there are no surprises, not expecting to eliminate these costs entirely."
+
+- question: "Why is the 20% down payment threshold financially significant, even though buyers are not legally required to put that much down?"
+  type: short-answer
+  answer: "Putting 20% down eliminates the PMI requirement, which saves 0.5–1% of the loan amount annually — a pure cost that benefits only the lender. It also reduces the loan principal (and thus total interest paid over the life of the loan) and gives the buyer immediate 20% equity, reducing exposure to being underwater if home values fall. The threshold is not a legal requirement but the point at which lenders no longer consider the loan high-risk."
+  explanation: "The 20% figure is often misunderstood as a rule rather than a financial optimization threshold. Many loan programs (FHA at 3.5%, conventional at 3%, VA at 0%) allow far less. The tradeoff is PMI cost vs. the opportunity cost of waiting to save 20% — in high-cost markets, saving years of rent to reach 20% may cost more than PMI would have."
+```
+
 ## Explainer
 
 From your study of mortgages, you know that a home purchase involves a lender financing most of the purchase price while you pay interest over time. The **down payment** is the portion of the purchase price you pay upfront in cash — the part the lender does *not* finance. If a home costs $300,000 and you put $30,000 down (10%), the lender provides a $270,000 mortgage. Your down payment percentage has two major consequences: it determines your loan size (and thus your monthly payment and total interest paid), and it determines whether you owe **PMI** (private mortgage insurance).

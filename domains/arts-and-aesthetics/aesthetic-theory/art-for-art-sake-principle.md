@@ -31,6 +31,45 @@ Study late 19th-century aestheticism and modernist manifestos that defend artist
 ## Common Misconceptions
 - Art for art's sake means art has no meaning or truth; it means art's meaning and truth are internal to formal structure, not determined by external reference. - It advocates indifference to social context; rather, it refuses moral judgment as the criterion of aesthetic value.
 
+## Questions
+
+```yaml
+- question: "A Victorian critic argues that a novel should be condemned because it depicts moral corruption without delivering a lesson or punishment. An 'art for art's sake' advocate would most likely respond:"
+  type: multiple-choice
+  options:
+    - "The novel is indeed flawed — art's ability to instruct is what distinguishes it from mere entertainment"
+    - "Moral judgment is the wrong criterion for aesthetic evaluation; the question is whether the novel succeeds formally and aesthetically, not whether it is morally edifying"
+    - "Depicting immorality is acceptable in art only when it ultimately serves a social purpose or cautionary function"
+    - "Art should avoid morally troubling content in order to preserve aesthetic purity and focus"
+  answer: 1
+  explanation: "The 'art for art's sake' principle holds that artworks have no obligation to serve moral, political, or didactic purposes — aesthetic value is intrinsic to formal properties and sensory experience, not earned by delivering lessons. Asking whether a novel is morally improving is, in this view, a category error: it applies an external criterion to a domain governed by its own internal standards. The aestheticist would evaluate the novel on its formal execution — language, structure, sensory precision — not on its moral posture. Options A and C both accept that art has an instrumental function; option D misunderstands 'aesthetic purity' as a content restriction rather than a criterion of evaluation."
+
+- question: "What was the most significant consequence of the 'art for art's sake' principle for the development of visual art in the early 20th century?"
+  type: multiple-choice
+  options:
+    - "It required artists to focus exclusively on beautiful natural subjects, such as landscapes and portraiture"
+    - "It established narrative and moral allegory as the highest forms of artistic expression"
+    - "It liberated artists to treat formal properties — color, structure, line, composition — as subjects in themselves, independent of representation, directly enabling abstract and non-representational art"
+    - "It restricted art to purely sensory effects, ruling out conceptual or intellectual content"
+  answer: 2
+  explanation: "Once artists accepted that art needed no external justification — no moral lesson, no narrative subject, no social function — they were free to investigate the properties of their medium for their own sake. If form is the proper subject of art, then color relationships, geometric structure, and spatial organization can be explored without being 'about' anything external. This logic runs directly from aestheticism through Whistler's tonal harmonies to Mondrian's grids, Kandinsky's abstractions, and Mallarmé's sound-driven poetry. The 'art for art's sake' movement gave this experimental project its philosophical permission — not by restricting content but by freeing artists from the obligation to have content in the traditional sense."
+
+- question: "According to the 'art for art's sake' principle, a work of art that contains no moral message or social commentary has no meaning and cannot be genuinely interpreted."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misunderstanding of the principle. 'Art for art's sake' holds that art's meaning is internal to its formal structure — the relationships between elements, the sensory organization, the internal coherence — not determined by external reference to moral lessons or social messages. A symphony has meaning in the relationships between its themes and its development of musical tension and resolution; an abstract painting has meaning in its color relationships and compositional dynamics. Denying art's obligation to moral instruction is not the same as denying that art has meaning. The aestheticists were deeply engaged with the interpretation and appreciation of form — they were not advocating meaninglessness."
+
+- question: "Critics from Marxist, feminist, and postcolonial traditions have argued that 'art for art's sake' is itself a politically charged position — not a neutral stance — because the ability to declare art free from social purpose reflects a position of social privilege."
+  type: true-false
+  answer: true
+  explanation: "This is one of the most important critical responses to aestheticism. The declaration that art owes nothing to social utility is most readily made by those whose material needs are already secured and who are not subject to the harms that 'pure' art can reinforce. An artist who can be 'indifferent' to politics is typically one whose identity is not threatened by the cultural status quo. Moreover, claiming that art transcends ideology can function as a shield for work that reproduces harmful power structures under the cover of aesthetic disinterest. These critics do not necessarily argue that art must be propaganda — but they insist that the boundary between aesthetic and political value is not natural or neutral, and that pretending otherwise is itself a political act."
+
+- question: "How do critics from Marxist or postcolonial traditions challenge the 'art for art's sake' principle? Why do they argue that the claim of aesthetic autonomy is itself a political position rather than a neutral stance?"
+  type: short-answer
+  answer: "These critics argue that declaring art free from social obligation is not a politically neutral move but a position made possible by — and reinforcing of — existing social hierarchies. The artist who can afford aesthetic disinterest is typically one whose class position, race, or gender is not threatened by the culture that 'pure' art reproduces. Furthermore, calling a work 'purely aesthetic' can insulate it from criticism of the ideologies it embeds — art that naturalizes inequality or excludes certain groups can claim immunity from critique under the banner of formal excellence. The political challenge is thus: aesthetic autonomy is a historically situated claim, not a universal truth, and recognizing this does not reduce art to propaganda but forces honest acknowledgment that aesthetic judgments are made from particular social positions."
+  explanation: "The deeper philosophical point is that the art/politics distinction is itself produced and maintained within specific historical contexts. Aestheticism emerged in Victorian England partly as resistance to middle-class utilitarian values — itself a class-inflected position. Postcolonial critics add that 'universal' aesthetic standards have historically been European standards elevated to the status of objective criteria, marginalizing non-Western art forms. Understanding these critiques does not require abandoning the concept of aesthetic value — but it does require holding it more carefully and less universally."
+```
+
 ## Explainer
 
 Your study of the form-content relationship in aesthetics showed that artworks can be analyzed along two axes — what they present (content, subject matter, message) and how they present it (form, structure, sensory organization). Your understanding of Kant's concept of disinterested aesthetic judgment established that aesthetic experience involves attending to an object for its own sake, without ulterior motives of practical use or moral instruction. The **art for art's sake** principle takes these ideas to their logical conclusion: if aesthetic experience is genuinely disinterested, and if form is a legitimate source of aesthetic value in its own right, then art needs no external justification whatsoever.

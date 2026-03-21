@@ -31,6 +31,45 @@ Show that T-algebras for the list monad on Set are exactly monoids. Verify the T
 - Not every algebra over a free algebra; free algebras are T(A) with structure map μ_A, but there are many non-free T-algebras.
 - The Kleisli composition (Kleisli triple) is not ordinary composition; the bind operation encodes how effects compose.
 
+## Questions
+
+```yaml
+- question: "T-algebras for the list monad on Set correspond to which mathematical structure?"
+  type: multiple-choice
+  options:
+    - "Groups, because lists encode a binary operation with both multiplication and inverse operations"
+    - "Monoids, because the unit axiom gives identity and the associativity axiom gives an associative operation generalized to arbitrary arities"
+    - "Lattices, because the ordering structure on lists induces a partial order on the algebra"
+    - "Vector spaces, because lists can be summed and scalar-multiplied to produce any element of A"
+  answer: 1
+  explanation: "For the list monad, T(A) = List(A), η_A maps each element to its singleton list, and μ_A concatenates a list of lists. A T-algebra structure map α: List(A) → A evaluates any finite list of A-elements to a single element. The unit axiom (α ∘ η_A = id_A) requires α([a]) = a — a singleton evaluates to its element — which is the identity law. The associativity axiom requires that flattening a nested list before applying α gives the same result as applying α twice, which is precisely the associativity of the monoid operation extended to all arities. So list-monad T-algebras on Set are exactly monoids: the monad encodes the equational theory of monoids, and T-algebras are its models."
+
+- question: "A morphism f: A → B between T-algebras (A, α) and (B, β) is an algebra homomorphism if and only if:"
+  type: multiple-choice
+  options:
+    - "f is an isomorphism in C satisfying f ∘ f⁻¹ = id_B and f⁻¹ ∘ f = id_A"
+    - "f commutes with the T-action on both algebras: f ∘ α = β ∘ T(f)"
+    - "f is a natural transformation between the functors represented by A and B in C"
+    - "The image of f is closed under the structure map β, making f(A) a sub-algebra of (B, β)"
+  answer: 1
+  explanation: "An algebra homomorphism must respect the T-algebra structure: applying the A-structure map and then f gives the same result as applying T to f and then the B-structure map. In equations: f ∘ α = β ∘ T(f). This is the standard homomorphism condition for any algebraic structure expressed categorically. For example, a monoid homomorphism must satisfy f(a · b) = f(a) · f(b) and f(e_A) = e_B; the T-algebra condition is the monad-theoretic generalization of exactly this requirement, ensuring f preserves the T-action on both sides."
+
+- question: "The Eilenberg-Moore category C^T and the Kleisli category C_T for the same monad T are generally equivalent as categories — they contain the same information organized differently."
+  type: true-false
+  answer: false
+  explanation: "This is listed as a common misconception. The Eilenberg-Moore and Kleisli categories sit at opposite extremes of the canonical factorization of the monad's adjunction, not at equivalent intermediate positions. C_T (Kleisli) gives the minimal factorization: its objects are C-objects and morphisms are T-computations (computations with effects tracked by T). C^T (Eilenberg-Moore) gives the maximal factorization: its objects are all T-algebras, including non-free ones. For the list monad, C_T captures computations returning lists, while C^T captures all monoids — categorically very different structures. They would only be equivalent in degenerate cases."
+
+- question: "The free T-algebra on an object A is the pair (T(A), μ_A), where the structure map is the monad multiplication applied at A."
+  type: true-false
+  answer: true
+  explanation: "This is the canonical free algebra construction. Applying T to A gives T(A) — the object of 'formal expressions' over A in the monad's language. The multiplication μ_A: T(T(A)) → T(A) serves as the structure map, and it satisfies both T-algebra axioms because the monad laws (unit and associativity of μ) are precisely the T-algebra axioms applied to the free case. For the list monad, the free T-algebra on a set A is List(A) with structure map 'concatenate a list of lists' — this is the free monoid on A. The free-forgetful adjunction between C and C^T encodes the syntax-semantics duality: the left adjoint builds free algebras (syntax), and the unit η is the inclusion of generators into their free algebra."
+
+- question: "Explain, using the list monad example, what the unit axiom and associativity axiom of a T-algebra require, and why together they amount to the definition of a monoid."
+  type: short-answer
+  answer: "For the list monad on Set, a T-algebra is a set A with a map α: List(A) → A that evaluates any finite list of A-elements to a single A-element. The unit axiom says α ∘ η_A = id_A, where η_A(a) = [a]: evaluating a singleton list returns the element unchanged — this is the identity law. The associativity axiom says α ∘ μ_A = α ∘ T(α): evaluating a nested list of lists gives the same result whether you first flatten (concatenate inner lists via μ_A) and evaluate once, or evaluate the inner lists first and then evaluate the outer list. This is exactly the associativity of the binary operation extended to all arities. Together, identity and associativity define a monoid. The monad encodes the equational theory of monoids in its structure, and T-algebras are the models of that theory."
+  explanation: "This connection illustrates the general principle: every monad encodes an equational theory, and its T-algebras are the models in the model-theoretic sense. The list monad encodes monoids; the free vector space monad over a field k encodes k-vector spaces; the powerset monad encodes complete join-semilattices. The Eilenberg-Moore category is the 'category of models,' making T-algebras a categorical generalization of model theory."
+```
+
 ## Explainer
 
 From your study of monads, you know that a monad (T, η, μ) on a category C packages a unit η: Id → T and a multiplication μ: T² → T satisfying coherence laws that look like a monoid in the category of endofunctors. A natural question is: what does it mean for an object to "be acted on" by T coherently? This is precisely what a **T-algebra** captures — it is the structure that says "T can deposit its contents into this object in a compatible way."

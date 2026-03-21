@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 For a nonlinear system dx/dt = f(x) near equilibrium x*, compute the Jacobian J = ∂f/∂x at x*. The linearized system dx/dt ≈ J(x - x*) determines local behavior. If all eigenvalues of J have non-zero real parts, the nonlinear stability matches the linear prediction (Hartman-Grobman theorem). Linearization provides local information when global analysis is infeasible.
 
+## Questions
+
+```yaml
+- question: "You linearize a nonlinear system at an equilibrium and find the Jacobian has eigenvalues λ = ±2i (purely imaginary). You conclude the equilibrium is a center. What does the Hartman-Grobman theorem say about this conclusion?"
+  type: multiple-choice
+  options:
+    - "The theorem confirms your conclusion: purely imaginary eigenvalues always produce a center in both the linear and nonlinear system"
+    - "The theorem is silent here: purely imaginary eigenvalues make the equilibrium non-hyperbolic, so the theorem does not apply and higher-order terms must determine actual stability"
+    - "The theorem says the equilibrium is unstable, because imaginary eigenvalues indicate oscillatory growth"
+    - "The theorem guarantees the conclusion is correct only if the system is two-dimensional"
+  answer: 1
+  explanation: "Hartman-Grobman applies only to hyperbolic equilibria — those where all eigenvalues of the Jacobian have non-zero real parts. Purely imaginary eigenvalues have zero real part, so the equilibrium is non-hyperbolic and the theorem gives no guarantee. A linear center can correspond to a nonlinear center, spiral, or even a node depending on higher-order terms. This is a critical limitation: you cannot trust the linearization at centers."
+
+- question: "What is the Jacobian matrix J = ∂f/∂x, and why is it the correct tool for linearizing a nonlinear system ẋ = f(x) near an equilibrium x*?"
+  type: multiple-choice
+  options:
+    - "The Jacobian is the Hessian matrix of second derivatives, capturing curvature of f near x*"
+    - "The Jacobian is the matrix of partial derivatives ∂fᵢ/∂xⱼ evaluated at x*; it is the best linear approximation of f near x*, analogous to the derivative for single-variable functions"
+    - "The Jacobian is the matrix whose eigenvalues are the natural frequencies of the system, valid globally"
+    - "The Jacobian is only applicable when f is a polynomial function; for other functions, a different linearization tool is needed"
+  answer: 1
+  explanation: "The Jacobian is the multivariable generalization of the derivative: just as f(x) ≈ f(x*) + f'(x*)(x − x*) for a scalar function, the Taylor expansion of a vector field gives f(x) ≈ f(x*) + J(x − x*). Since f(x*) = 0 at an equilibrium, this reduces the nonlinear system to ẋ ≈ J·u, where u = x − x*. The Jacobian is valid only locally near x*, not globally."
+
+- question: "If the Jacobian of a nonlinear system at an equilibrium has eigenvalues with negative real parts, the equilibrium is definitely a stable spiral or node in the original nonlinear system."
+  type: true-false
+  answer: false
+  explanation: "This is almost right but misses the hyperbolicity condition. Negative real parts guarantee the linearization predicts stability, but Hartman-Grobman requires that the real parts be strictly non-zero (not merely negative). If all eigenvalues have strictly negative real parts, the equilibrium IS hyperbolic and the nonlinear system is indeed locally stable — but the conclusion follows from hyperbolicity, not merely from negativity. The statement as written would be false if one eigenvalue had real part exactly 0, even if others were negative."
+
+- question: "Linearization of a nonlinear system gives valid stability information only locally, near the specific equilibrium where the Jacobian was computed."
+  type: true-false
+  answer: true
+  explanation: "This is the fundamental limitation of linearization. The Jacobian is derived from a first-order Taylor expansion of f around x*, so it approximates f accurately only when x is close to x*. For behavior far from the equilibrium — large-amplitude oscillations, trajectories near other equilibria, global attractors — the linearization says nothing. Global analysis requires other tools (Lyapunov functions, phase plane analysis, numerical simulation)."
+
+- question: "What does it mean for an equilibrium to be 'hyperbolic,' and why is hyperbolicity the condition required for the Hartman-Grobman theorem to guarantee that the linearization correctly predicts qualitative behavior?"
+  type: short-answer
+  answer: "An equilibrium is hyperbolic if all eigenvalues of the Jacobian J have strictly non-zero real parts — none lie on the imaginary axis. Hyperbolicity guarantees that the linearization is 'structurally stable': small perturbations (including the higher-order terms that make f nonlinear) cannot qualitatively change the phase portrait near x*. When eigenvalues have zero real part (as with centers or degenerate cases), even tiny nonlinear terms can tip the system from stable to unstable or change the topology entirely. Hartman-Grobman needs hyperbolicity precisely because non-hyperbolic cases sit at a boundary where qualitative behavior is structurally fragile."
+  explanation: "The practical upshot: trust the linearization when eigenvalues have clear positive or negative real parts (saddles, spirals, nodes). Be suspicious when real parts are zero. Centers (±iω) require Lyapunov methods or higher-order analysis to resolve stability. Zero eigenvalues indicate bifurcations, where the system's behavior changes qualitatively as parameters vary."
+```
+
 ## Explainer
 
 From your work on stability classification, you know how to fully analyze a linear system ẋ = Ax: find eigenvalues of A, determine whether their real parts are positive, negative, or zero, and classify the equilibrium at the origin as a stable node, unstable node, saddle, spiral, or center. For a nonlinear system ẋ = f(x), the same classification is not directly available — f is not a matrix, and eigenvalues of a nonlinear system are not defined. Linearization closes this gap by approximating f with the best linear approximation near an equilibrium.

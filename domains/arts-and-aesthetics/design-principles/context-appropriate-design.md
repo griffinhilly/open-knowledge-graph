@@ -29,6 +29,45 @@ Effective design adapts to its context: print vs. digital, mobile vs. desktop, h
 ## How It's Best Learned
 Choose one design concept and adapt it for three different contexts (e.g., desktop website, mobile app, print poster). Document how typography, layout, interaction, and imagery change to serve each medium effectively.
 
+## Questions
+
+```yaml
+- question: "A designer creates a desktop website, then produces a mobile version by proportionally scaling all text, images, and buttons down. What fundamental aspect of context-appropriate design has she overlooked?"
+  type: multiple-choice
+  options:
+    - "She should have changed the color palette for better outdoor visibility on mobile screens"
+    - "Mobile context requires rethinking which information and interactions are essential, not just resizing what exists"
+    - "She should have replaced the typeface with one specifically designed for small screens"
+    - "Proportional scaling is technically correct; only the grid system needs to change"
+  answer: 1
+  explanation: "Scaling is not rethinking. Mobile users have fragmented attention, imprecise touch input, smaller screens, and often lower bandwidth — conditions that change what information and functionality are truly essential. An interaction that works on desktop (hover states, right-click menus, precise cursor targeting) may not exist at all on mobile. The designer needs to ask what the user actually needs to accomplish on a phone in a real-world situation, not just 'how small can I make this?'"
+
+- question: "A public-space kiosk interface is being designed. Which design principle is most critical compared to a typical desktop application?"
+  type: multiple-choice
+  options:
+    - "Using rich visual metaphors to make the interface appear sophisticated and modern"
+    - "Designing for a user who has never seen the interface before and may walk away in seconds if confused"
+    - "Implementing keyboard shortcuts and context menus for experienced users"
+    - "Maximizing information density so every option is visible on the first screen"
+  answer: 1
+  explanation: "A kiosk user is a stranger to the interface, operating in a public environment with minimal commitment — they will abandon the task the moment it feels unclear. This demands large touch targets, minimal required steps, instantly obvious affordances, and zero reliance on learned conventions. Desktop applications can assume a motivated user who will invest time in learning the interface; a kiosk cannot. Options A and D both make the interface harder to parse on first encounter; option C assumes knowledge the user doesn't have."
+
+- question: "A highway road sign typeface like Highway Gothic is designed specifically for legibility at speed and distance — functional requirements that cannot be met simply by enlarging a standard text typeface."
+  type: true-false
+  answer: true
+  explanation: "Correct. Legibility at 65 mph from 300 feet imposes constraints that standard typefaces were not designed for: wide letter spacing, carefully tested character distinctiveness (especially for easily confused letters like I, l, 1), and specific stroke weights optimized for retroreflective sign material. These are not matters of aesthetic preference — they are functional requirements derived from the specific context of use. Standard typefaces enlarged to signage size often fail these requirements because their design assumed close-range reading."
+
+- question: "Responsive design — adapting a layout to different screen sizes — is sufficient to make a design fully context-appropriate across all devices and environments."
+  type: true-false
+  answer: false
+  explanation: "Responsive design addresses screen size and layout, but context-appropriate design is much broader. It also requires accounting for: input method (mouse vs. touch vs. voice), available attention (focused desk work vs. crowded subway), bandwidth (high-speed WiFi vs. 2G mobile), accessibility needs, ambient conditions (bright sunlight vs. dim indoor), and the user's emotional state and purpose. A responsive design can be pixel-perfect on a mobile screen and still be completely inappropriate for its context of use."
+
+- question: "Why should designers 'design for the worst realistic case' rather than for ideal conditions, and what does 'worst realistic case' actually mean in practice?"
+  type: short-answer
+  answer: "Designing for ideal conditions (calm user, excellent lighting, fast internet, high-resolution display) produces designs that fail for users in non-ideal but common conditions. 'Worst realistic case' means the range of conditions that actually occur in practice: a cracked phone screen in bright sunlight, an elderly user unfamiliar with gestures, a 2G connection in a rural area. A design that works in these conditions will also work under ideal conditions — but the reverse is not true."
+  explanation: "This principle is fundamentally about inclusivity and robustness. The users who are excluded by designs optimized for ideal conditions are often already marginalized — older users, users in developing countries, users with accessibility needs. Designing for the realistic range of conditions is not a trade-off against quality; it is what quality means for a design that will be used by real people in the real world. The constraint of the difficult case is what makes design genuinely functional rather than merely attractive."
+```
+
 ## Explainer
 
 From your study of designing for medium and context, you understand that print and digital have fundamentally different constraints — resolution, color models, interactivity, and physical dimensions all differ. **Context-appropriate design** takes this a step further by recognizing that even within a single medium, the specific situation of use changes what works. A mobile banking app used on a crowded subway requires different design decisions than a desktop analytics dashboard used in a quiet office, even though both are "digital." The context includes not just the device but the environment, the user's state of mind, the available attention, and the stakes of getting it wrong.

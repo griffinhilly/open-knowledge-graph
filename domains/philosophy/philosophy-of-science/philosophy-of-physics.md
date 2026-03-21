@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Physics raises fundamental philosophical questions about the nature of space, time, causality, and reality. Quantum mechanics poses interpretive challenges about wave function, measurement, locality, and entanglement. Relativity transforms understanding of space and time: are they fundamental or emergent? Do all moments exist equally (eternalism) or is the present special (presentism)? Thermodynamics raises questions about time's asymmetry. Philosophy of physics illustrates how scientific discoveries drive philosophical inquiry.
 
+## Questions
+
+```yaml
+- question: "Bell's theorem, together with experimental results, rules out which class of theories?"
+  type: multiple-choice
+  options:
+    - "Theories in which the wave function collapses during measurement"
+    - "Theories in which quantum particles have definite states before measurement (local hidden-variable theories)"
+    - "Theories in which the speed of light is the maximum speed of information transfer"
+    - "Theories that deny the existence of quantum entanglement"
+  answer: 1
+  explanation: "Bell's theorem proves mathematically that no local hidden-variable theory can reproduce all the statistical predictions of quantum mechanics. A local hidden-variable theory would say: particles have definite but unknown properties before measurement, and no influence travels faster than light. Experiments (Aspect et al., and subsequent loophole-free tests) have confirmed the quantum predictions and violated Bell's inequalities, ruling out this entire class of theories. This forces a choice: accept nonlocality, accept many worlds, or accept that quantum mechanics doesn't describe a single definite reality."
+
+- question: "The second law of thermodynamics (entropy increases toward the future) is philosophically puzzling because:"
+  type: multiple-choice
+  options:
+    - "It contradicts quantum mechanics, which says entropy is always conserved"
+    - "The fundamental laws of physics are nearly time-symmetric, so the asymmetry of entropy increase needs a separate explanation"
+    - "Entropy is only a statistical concept and cannot apply to individual particles"
+    - "It implies the universe will eventually reach a state of maximum order"
+  answer: 1
+  explanation: "The fundamental equations of physics (Newton's laws, quantum mechanics, electromagnetism) are nearly time-symmetric — run particle collisions backward and they still obey the laws. Yet heat flows in only one direction, eggs break but don't reassemble, and entropy increases toward the future but not the past. This irreversibility cannot be derived from time-symmetric fundamental laws alone — it requires positing a special low-entropy initial condition for the universe. Why the universe started in such an unusual state is a deep philosophical and cosmological puzzle, not resolved by the physics itself."
+
+- question: "Special relativity's relativity of simultaneity creates a genuine tension with the philosophical position called presentism."
+  type: true-false
+  answer: true
+  explanation: "Presentism holds that only the present moment exists — past and future are not real. But special relativity shows that which events count as 'simultaneous' (and hence 'present') depends on the observer's reference frame. Two events that are simultaneous for one observer are non-simultaneous for another in relative motion. If the present is frame-relative, there is no observer-independent 'now' that could define what exists. This makes it very difficult to maintain that 'the present' picks out a unique, real slice of reality, as presentism requires."
+
+- question: "The Copenhagen interpretation of quantum mechanics holds that the wave function gives a complete description of quantum reality, and measurement causes a physical collapse of the wave function."
+  type: true-false
+  answer: false
+  explanation: "Copenhagen is often mischaracterized this way. The standard Copenhagen interpretation is notably quiet about what the wave function represents physically — it treats the wave function as a calculational tool for predicting measurement outcomes, not as a literal description of physical reality. It also avoids specifying what triggers 'collapse' or what happens between measurements. This instrumentalism is part of why Copenhagen avoids committing to a picture of quantum reality, and why many physicists and philosophers find it philosophically unsatisfying despite its predictive success."
+
+- question: "Why does the measurement problem in quantum mechanics count as a genuinely philosophical problem, and not just an unsolved physics problem awaiting a technical fix?"
+  type: short-answer
+  answer: "The measurement problem is philosophical because different solutions (Copenhagen, many-worlds, pilot-wave, collapse theories) are not distinguishable by experiment — they all reproduce the same quantum predictions. The disagreement is about what the wave function represents and what reality is like between measurements. These are questions about interpretation and ontology, not just about finding a better equation. A purely technical fix would be a new physical law; the measurement problem requires deciding what quantum mechanics says about reality, which is a philosophical question."
+  explanation: "Physics tells us the Schrödinger equation evolves the wave function deterministically, but measurement seems to select one outcome from a superposition. Whether this 'collapse' is a real physical process, an illusion created by branching worlds, or something else entirely cannot be resolved by doing more experiments — all interpretations agree on the predictions. This is the hallmark of a philosophical rather than empirical dispute: the evidence underdetermines which picture of reality is correct."
+```
+
 ## Explainer
 
 Your foundation in philosophy of science prepared you to ask not just what science discovers, but what those discoveries mean. Philosophy of physics takes this question to its deepest level: the theories of physics that best describe nature — quantum mechanics and relativity — turn out to resist straightforward interpretation. Understanding them mathematically is one thing; understanding what they *say about reality* is another, and that second task is irreducibly philosophical.

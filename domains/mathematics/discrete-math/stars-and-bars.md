@@ -32,6 +32,45 @@ Draw literal stars and bars diagrams: 'ooo|o|oo' represents 3 in bin 1, 1 in bin
 - Forgetting that n−1 bars, not n bars, are needed to create n bins.
 - Not recognizing that 'non-negative integer solutions to a sum' problems are stars-and-bars in disguise.
 
+## Questions
+
+```yaml
+- question: "How many non-negative integer solutions does x₁ + x₂ + x₃ = 7 have?"
+  type: multiple-choice
+  options:
+    - "C(7, 3) = 35"
+    - "C(7, 2) = 21"
+    - "C(9, 2) = 36"
+    - "C(10, 3) = 120"
+  answer: 2
+  explanation: "This is a stars-and-bars problem: distributing 7 identical objects (k=7) into 3 bins (n=3). The formula is C(n+k−1, k) = C(3+7−1, 7) = C(9, 7) = C(9, 2) = 36. Option A, C(7,3), is the number of ways to choose 3 items from 7 without repetition — a completely different question. Option B omits accounting for the extra n−1 positions for the bars. Option D overcounts by treating the objects as distinct."
+
+- question: "In how many ways can 5 identical cookies be distributed among 4 children if every child must receive at least 1 cookie?"
+  type: multiple-choice
+  options:
+    - "C(8, 5) = 56 — apply stars-and-bars directly with k=5 and n=4"
+    - "C(4, 1) = 4 — substitute yᵢ = xᵢ − 1 to absorb the minimum, leaving 1 cookie to distribute freely"
+    - "C(5, 4) = 5"
+    - "C(8, 4) = 70"
+  answer: 1
+  explanation: "When each child must get at least 1, give each child 1 cookie first, leaving 5 − 4 = 1 cookie to distribute without constraint. Now apply stars-and-bars: C(4 + 1 − 1, 1) = C(4, 1) = 4. Option A ignores the 'at least 1' constraint entirely, giving the unconstrained answer. The substitution yᵢ = xᵢ − 1 transforms lower-bound constraints into unconstrained problems — a technique that generalizes to any minimum value."
+
+- question: "Stars-and-bars requires n − 1 bars (not n bars) to divide k stars into n groups."
+  type: true-false
+  answer: true
+  explanation: "Think physically: one cut divides a line into 2 pieces, two cuts into 3 pieces. In general, n−1 dividers create n sections. This is why the total number of symbols is k stars + (n−1) bars = k+n−1, and why we choose which k of those k+n−1 positions hold stars — giving C(k+n−1, k). A common error is using n bars, which would create n+1 bins rather than n."
+
+- question: "The number of ways to choose 4 items from a menu of 6 options (with repetition allowed, order irrelevant) is C(6, 4) = 15."
+  type: true-false
+  answer: false
+  explanation: "Choosing with repetition uses stars-and-bars: C(n+k−1, k) = C(6+4−1, 4) = C(9, 4) = 126. C(6, 4) = 15 counts selections without repetition — where you cannot pick the same item twice. Whenever repetition is allowed and order doesn't matter, you need stars-and-bars, not standard combinations. The much larger answer (126 vs 15) reflects the additional freedom to repeat items."
+
+- question: "Explain why n − 1 bars are needed to create n bins in the stars-and-bars model, and why the total arrangement count is C(n+k−1, k)."
+  type: short-answer
+  answer: "Each bar is a divider between adjacent bins. Just as 1 fence post divides a line into 2 segments, n−1 dividers create exactly n sections. With k stars and n−1 bars, there are k+(n−1) = k+n−1 total symbols. Every distinct arrangement is determined by which k of those k+n−1 positions hold stars (the rest are bars), giving C(k+n−1, k) arrangements — each corresponding to exactly one distribution."
+  explanation: "The bijection is what makes stars-and-bars so powerful: it transforms an open-ended distribution problem into a combinations problem you already know how to count. The derivation also explains why recognizing 'sum = k, non-negative integers' as stars-and-bars works — each variable xᵢ counts the stars in bin i, and the sum constraint is automatically satisfied by the fixed total of k stars."
+```
+
 ## Explainer
 
 You already know **combinations**: C(n, k) counts the ways to choose k distinct items from n, where order doesn't matter. That formula assumes you can't pick the same item twice. Stars and bars extends this to the case where repetition is allowed — you can pick any item as many times as you like. The trick is finding a clever bijection that reduces this new problem to a combinations problem you already know how to solve.

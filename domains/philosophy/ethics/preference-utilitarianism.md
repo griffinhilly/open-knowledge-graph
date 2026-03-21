@@ -33,6 +33,45 @@ Read Hare's Moral Thinking (especially the two-level theory) alongside Singer's 
 - Preference utilitarianism does not endorse satisfying any preference whatsoever; most versions exclude preferences based on misinformation or preferences that are themselves about frustrating others' preferences.
 - The shift from pleasure to preferences is not merely terminological; it changes which beings count morally (anything with preferences, not just anything that feels pleasure) and how we measure value.
 
+## Questions
+
+```yaml
+- question: "What is the key advantage of preference utilitarianism over hedonistic utilitarianism for measuring welfare?"
+  type: multiple-choice
+  options:
+    - "Preference utilitarianism is more intuitive because everyone knows what they prefer"
+    - "Preferences can sometimes be observed through behavior and choice (revealed preference), providing an empirical foothold that introspective reports of pleasure lack"
+    - "Preference utilitarianism is more impartial because it counts animals equally with humans"
+    - "Preference utilitarianism avoids aggregation problems because preferences cannot be compared across individuals"
+  answer: 1
+  explanation: "The measurement problem is a central motivation for the shift from hedonism to preference satisfaction. Pleasure is subjective and arguably impossible to compare across individuals. Preferences, by contrast, can be inferred from choices — the revealed preference approach, familiar from welfare economics. If you consistently choose X over Y when both are available, that's behavioral evidence of your preference. This empirical foothold gives preference utilitarianism a practical advantage over hedonism's reliance on introspective reports. Option D is wrong: aggregation remains a genuine challenge for preference utilitarianism."
+
+- question: "Adaptive preferences pose a problem for preference utilitarianism because:"
+  type: multiple-choice
+  options:
+    - "Adaptive preferences are too strong and difficult to override in ethical calculations"
+    - "People with adaptive preferences are unable to articulate what they prefer"
+    - "Preferences shaped by oppression or deprivation may be satisfied without genuinely benefiting the person, suggesting raw preference-satisfaction isn't the right target"
+    - "Adaptive preferences always conflict with the preferences of others, making aggregation impossible"
+  answer: 2
+  explanation: "A person conditioned to prefer subordination or constrained options has adapted their preferences to what is available. Satisfying these preferences doesn't obviously benefit them in the way the theory intends — they might prefer very different things if circumstances were better. This challenges preference utilitarianism's core claim that satisfying preferences produces moral value. Most preference utilitarians respond by restricting to 'informed' or 'rational' preferences, but this move reintroduces the measurement problem by requiring an external standard of preference quality."
+
+- question: "Preference utilitarianism and hedonistic utilitarianism differ only terminologically — both ultimately aim to promote the same thing: wellbeing."
+  type: true-false
+  answer: false
+  explanation: "The shift from pleasure to preferences is not merely terminological — it changes the theory in substantive ways. First, it changes WHICH beings count morally: anything with preferences deserves consideration, not just anything capable of pleasure (though the overlap is large for animals). Second, it changes HOW we measure moral value: through revealed preferences and behavioral choices rather than introspective happiness reports. Third, it changes what counts as a good outcome: in some cases, satisfying preferences diverges sharply from maximizing pleasure — a person may prefer a harder, more meaningful life over a more pleasurable but shallower one."
+
+- question: "Preference utilitarianism extends moral consideration to non-human animals that have preferences, even if this is not explicitly endorsed by classical hedonistic utilitarianism."
+  type: true-false
+  answer: true
+  explanation: "This is one of the most practically significant implications of the preference framework. Singer's extension of preference utilitarianism to animals follows directly from the theory's logic: if moral consideration flows from having preferences (rather than from rationality or language), then any being with preferences deserves to have them counted. A mouse that prefers not to suffer has interests that matter. While Bentham's hedonism also extended to animals capable of pleasure and pain, preference utilitarianism makes the extension structurally cleaner by grounding it in preference-having rather than sentience alone."
+
+- question: "What is the problem of adaptive preferences, and why does it challenge the core claim of preference utilitarianism?"
+  type: short-answer
+  answer: "Adaptive preferences are preferences shaped by oppressive, depriving, or severely constrained circumstances. A person raised under conditions of oppression may come to genuinely prefer subordinate roles or limited options — preferences adapted to what is available rather than to what would be good for them under better conditions. The problem challenges preference utilitarianism because its core claim is that satisfying preferences produces moral value. But satisfying an adaptive preference doesn't obviously benefit the person as the theory intends. This suggests raw preference-satisfaction isn't sufficient as a moral target. The standard response — restricting to 'informed' or 'rational' preferences — reintroduces a measurement problem and requires an external standard of what counts as a well-formed preference, complicating the theory's clean consequentialist structure."
+  explanation: "The adaptive preferences problem is one of the most serious internal challenges to preference utilitarianism because it attacks the currency of the theory, not just an application of it. If the metric itself (preference-satisfaction) can track something morally irrelevant or actively harmful, the theory needs supplementation. This is why understanding the problem — not just naming it — matters for evaluating the theory's scope and limits."
+```
+
 ## Explainer
 
 You already know that classical utilitarianism identifies the right action as the one that produces the most happiness or pleasure — maximizing the balance of pleasure over pain across all affected beings. Preference utilitarianism keeps the core utilitarian structure (aggregate welfare across all affected parties, choose the maximizing action) but replaces the currency. Instead of asking "how much pleasure results?", it asks: **"whose preferences are satisfied or frustrated, and to what degree?"** A preference, in this context, is any pro-attitude — a desire, want, or interest that a being has about how things go.

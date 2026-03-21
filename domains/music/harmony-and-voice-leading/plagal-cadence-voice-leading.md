@@ -26,3 +26,42 @@ The plagal cadence (IV-I) provides a gentler conclusion than V-I and has more fl
 
 ## How It's Best Learned
 Compare authentic and plagal cadence voice leading side by side to hear the different characters and recognize which resolution tendencies are unique to V-I versus those that apply generally.
+
+## Questions
+
+```yaml
+- question: "A student analyzing a plagal cadence (IV–I) applies the same voice-leading rules as an authentic cadence (V–I), expecting scale degree 7 to resolve up to 1 and scale degree 2 to resolve down to 1. What is the fundamental misunderstanding?"
+  type: multiple-choice
+  options:
+    - "Plagal cadences are always in minor keys, where different resolution rules apply than in major"
+    - "The IV chord contains no leading tone or active tendency tones demanding specific resolution directions — its characteristic sound comes from the harmonic progression itself"
+    - "IV–I uses the same tendency tones as V–I, but they resolve in the opposite direction"
+    - "Plagal cadences only occur in instrumental music where voice-leading conventions do not apply"
+  answer: 1
+  explanation: "The strong resolution rules in V–I are driven by the leading tone (scale degree 7 must resolve up to 1) and the chord seventh in dominant seventh chords (scale degree 2 resolves down to 1). The IV chord contains scale degrees 4, 6, and 1 — none of these carry analogous directional obligations. Voice leading from IV to I is flexible: common tones can be held, voices can move by step in various directions. The 'Amen' quality of IV–I comes from the harmonic relationship itself, not from the resolution of specific tendency tones."
+
+- question: "What is the most musically distinctive characteristic of the plagal cadence compared to the authentic cadence?"
+  type: multiple-choice
+  options:
+    - "The plagal cadence uses a stronger leading-tone resolution than the authentic cadence"
+    - "The plagal cadence provides a gentler, settling quality of repose rather than the decisive resolution of V–I"
+    - "The plagal cadence creates more harmonic tension because IV is further from I than V is"
+    - "The plagal cadence is only effective when preceded by a perfect authentic cadence"
+  answer: 1
+  explanation: "The plagal cadence (IV–I) has a gentler, more settled quality compared to the decisive finality of V–I. The dominant creates active harmonic tension that urgently pushes toward resolution; the subdominant simply moves home from a different direction. The 'Amen' quality of the plagal cadence is one of deepening repose, not of tension released. Both land on I, but the approach and emotional character differ markedly."
+
+- question: "In a plagal cadence, voice leading is more flexible than in an authentic cadence because IV contains no leading tone that demands a specific resolution direction."
+  type: true-false
+  answer: true
+  explanation: "This is the central difference in voice-leading conventions between IV–I and V–I. In V–I, the leading tone (scale degree 7) must resolve up to the tonic (scale degree 1), and scale degree 2 typically resolves down to 1 — these are near-mandatory in strict four-voice writing. In IV–I, none of the chord tones carry analogous directional obligations. All voices can move to tonic chord tones by step or common tone in multiple ways, giving considerably more flexibility."
+
+- question: "The plagal cadence achieves its characteristic 'Amen' sound primarily through the resolution of specific tendency tones — similar to how V–I achieves its quality through leading-tone resolution."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception about plagal cadence voice leading. The 'Amen' sound of IV–I is not driven by specific tendency tone resolutions — it comes from the harmonic relationship between the subdominant and tonic chords. Unlike V–I, there is no leading tone in IV urgently requiring upward resolution, and no dissonant seventh requiring downward resolution. The characteristic quality is built into the harmonic progression itself, which is precisely why plagal cadence voice-leading conventions are more flexible."
+
+- question: "Why does the plagal cadence have more flexible voice-leading conventions than the authentic cadence? Name the specific tendency tones present in V–I that are absent in IV–I."
+  type: short-answer
+  answer: "The authentic cadence V–I contains two strong tendency tones: the leading tone (scale degree 7) which must resolve up to the tonic (scale degree 1), and in dominant seventh chords, scale degree 2 which resolves down to 1. These create directional obligations — in strict four-voice writing the leading tone must resolve upward and the seventh must resolve downward. The IV chord contains scale degrees 4, 6, and 1. None of these are leading tones or active chord sevenths, so they carry no comparable directional obligations. As a result, all voices in IV–I can move to their target tones in the most convenient direction — by step, by common tone, or by leap — without violating voice-leading norms."
+  explanation: "The key insight is that the force of voice-leading conventions in authentic cadences comes from the specific interval functions of the leading tone and chord seventh. The plagal cadence lacks these — its quality comes from the harmonic motion, not from melodic urgency. Recognizing this frees students from mechanically applying V–I rules to IV–I."
+```

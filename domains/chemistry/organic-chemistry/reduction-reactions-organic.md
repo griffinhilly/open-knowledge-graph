@@ -31,6 +31,45 @@ Build a selectivity table: rows are functional groups (aldehyde, ketone, ester, 
 - Catalytic hydrogenation is a syn addition (both hydrogens add to the same face of the double bond); this stereospecificity matters in cyclic systems.
 - LiAlH4 reacts violently with water and must be used in anhydrous ether; aqueous workup is added only after the reaction is complete.
 
+## Questions
+
+```yaml
+- question: "A molecule contains both a ketone and an ester. You want to reduce only the ketone to an alcohol while leaving the ester intact. Which reagent should you use?"
+  type: multiple-choice
+  options:
+    - "LiAlH4 — it is the most powerful reducing agent and will cleanly reduce the ketone"
+    - "NaBH4 — it reduces aldehydes and ketones but is too weak to reduce esters"
+    - "H2/Pd — catalytic hydrogenation selectively reduces ketones over esters"
+    - "Either LiAlH4 or NaBH4 will work, since both reduce ketones"
+  answer: 1
+  explanation: "NaBH4 is selective — it reduces aldehydes and ketones but leaves esters untouched because the ester carbonyl carbon is less electrophilic due to resonance stabilization from the alkoxy oxygen. LiAlH4 would reduce both the ketone AND the ester, destroying selectivity. H2/Pd reduces C=C double bonds, not isolated carbonyls under mild conditions. The key skill in synthesis is matching reagent capability to what must survive, not just what must react."
+
+- question: "Catalytic hydrogenation (H2/Pd) adds two hydrogens across an alkene in a cyclic system. What does 'syn addition' mean for the stereochemical outcome?"
+  type: multiple-choice
+  options:
+    - "Both hydrogens add to opposite faces of the double bond, giving a trans product"
+    - "Both hydrogens add to the same face of the double bond simultaneously"
+    - "Only one hydrogen adds at a time, proceeding through a radical intermediate"
+    - "Syn addition means the reaction is reversible — hydrogens can be removed under the same conditions"
+  answer: 1
+  explanation: "Syn addition means both hydrogens are delivered to the same face (same side) of the pi bond simultaneously, as they adsorb together onto the metal catalyst surface. In cyclic systems this produces cis-substituted products from cis-accessible substrates. Anti addition (opposite faces) is a different mechanism seen in reactions like bromine addition to alkenes. The stereochemical outcome of catalytic hydrogenation is not random — syn delivery is a mechanistic consequence of the surface adsorption process."
+
+- question: "NaBH4 can be used in methanol or ethanol as the reaction solvent."
+  type: true-false
+  answer: true
+  explanation: "Unlike LiAlH4, NaBH4 is mild enough to tolerate protic solvents like methanol and ethanol. It reacts slowly with water/alcohols compared to its rate of ketone/aldehyde reduction, making aqueous or alcoholic conditions practical. LiAlH4 reacts violently with protic solvents and requires strictly anhydrous ether (THF, Et2O). This difference in experimental handling is a practical consequence of the difference in hydride-donating strength."
+
+- question: "LiAlH4 is impractical for reducing esters because the reaction is too slow — that is why NaBH4 is preferred when possible."
+  type: true-false
+  answer: false
+  explanation: "LiAlH4 does reduce esters (to primary alcohols) and does so vigorously, not slowly. The reason to prefer NaBH4 when it suffices is not speed — it is selectivity. If a molecule contains both an ester and a ketone, LiAlH4 attacks both, destroying the functional group you wanted to preserve. NaBH4 is preferred for its chemoselectivity. LiAlH4's limitation is over-reduction and incompatibility with protic solvents, not insufficient reactivity with esters."
+
+- question: "A target molecule contains an alkene and a ketone. You need to saturate the alkene without touching the ketone. Identify the correct reagent and explain the selectivity principle."
+  type: short-answer
+  answer: "H2/Pd (catalytic hydrogenation) selectively reduces the alkene to an alkane while leaving the ketone intact under mild conditions."
+  explanation: "H2/Pd operates through surface adsorption at C=C pi bonds and does not reduce isolated ketone carbonyls under mild conditions. NaBH4 would do the opposite: reduce the ketone and leave the alkene untouched. This is orthogonal selectivity — H2/Pd and NaBH4 target different functional group classes, allowing a chemist to choose which group to reduce. Synthesis planning depends on this 'selectivity table' logic: identify every functional group present, decide which must react and which must survive, then choose the reagent whose selectivity profile matches."
+```
+
 ## Explainer
 
 From your work on carbonyl chemistry, you know that the C=O double bond is polarized — carbon is electrophilic and oxygen is nucleophilic. **Reduction** in organic chemistry exploits this polarity by delivering a hydride ion (H⁻) to the electrophilic carbonyl carbon, breaking the pi bond and forming a new C–H bond. The oxygen picks up a proton during aqueous workup, yielding an alcohol. This is the conceptual reverse of oxidation: you are climbing down the oxidation-state ladder, decreasing the number of bonds between carbon and oxygen.

@@ -31,6 +31,45 @@ Compare canonical colonial texts with postcolonial counter-narratives and rewrit
 ## Common Misconceptions
 Orientalism is not limited to geographic 'the East' but describes a broader structure of representation that governed all colonial relationships and continues to structure global inequalities.
 
+## Questions
+
+```yaml
+- question: "A student argues that Said's Orientalism critiques European scholars for having factually wrong beliefs about the Middle East, and that better, more accurate scholarship would resolve the problem. Why does this miss Said's central argument?"
+  type: multiple-choice
+  options:
+    - "Said's critique focuses only on fictional literature, not scholarly writing"
+    - "Said argues the Orient was not a pre-existing reality that Europeans got wrong — it was a discursive construct they produced through writing; the problem is not accuracy but the power relationship built into the knowledge production itself"
+    - "Said believed orientalist scholarship was largely accurate; his critique was about how that knowledge was politically used, not its content"
+    - "Said's argument applies specifically to 20th-century journalism, not historical scholarship"
+  answer: 1
+  explanation: "Said's key move, drawing on Foucault, is to argue that 'the Orient' was not a place awaiting accurate description but an object *produced* by European discourse. Scholars, novelists, and administrators were not describing a pre-existing reality — they were creating it. Better accuracy would not fix this because the problem is structural: knowledge production and colonial power are inseparable. Producing the Orient as a knowable, categorizable object made it available for European governance."
+
+- question: "Chinua Achebe's Things Fall Apart depicts Igbo society from the inside, refusing the missionary-colonial perspective. In Said's framework, what makes this a postcolonial counter-narrative rather than simply a novel set in Africa?"
+  type: multiple-choice
+  options:
+    - "It qualifies as postcolonial because it was published after the formal end of British rule in Nigeria"
+    - "It contests the representational structure of colonial discourse by depicting colonized subjects as full agents with their own interior life, denying the colonial gaze its authority to define them as background or chaos"
+    - "It is postcolonial because Achebe personally experienced colonial rule and writes from lived experience"
+    - "It qualifies as postcolonial because it depicts resistance and rebellion against British authority"
+  answer: 1
+  explanation: "For Said, postcolonial counter-narratives do not just add diverse settings — they change *who constructs the image of whom*. Colonial texts like Kipling's or Conrad's placed African and Asian societies as objects of European observation; the colonized were background, mystery, or problem. Achebe's novel refuses this structure by narrating Igbo life from inside its own logic and value system. This is a representational intervention: it exposes the colonial gaze as partial and interested, not neutral or universal."
+
+- question: "Said argues that European literary texts such as novels by Kipling and Conrad are innocent bystanders to colonialism — reflecting colonial attitudes they found in society without actively producing or reinforcing them."
+  type: true-false
+  answer: false
+  explanation: "Said's argument is precisely the opposite. He insists that canonical texts are not passive reflections but active participants in producing colonial knowledge. When a British novel treats Indian characters as atmospheric background and Indian society as chaos awaiting order, it is not merely reflecting colonial attitudes — it is reproducing them, making them legible and acceptable to readers who may never encounter colonized peoples directly. Literature is a site of ideological production, not a mirror."
+
+- question: "Postcolonial counter-narratives contest colonial representations not merely by adding diverse characters or settings, but by changing who has the power to construct the image of whom."
+  type: true-false
+  answer: true
+  explanation: "This is the structural core of Said's representational critique. The problem with orientalism is not that Europeans had wrong facts but that they occupied the position of knower while colonized peoples occupied the position of known object. Postcolonial works like Wide Sargasso Sea (giving Bertha Mason a voice and history) or Things Fall Apart (narrating Igbo life from inside) don't just diversify content — they shift the representational power relationship by placing formerly-objectified perspectives at the center."
+
+- question: "Why does Said argue that the discursive construction of 'the Orient' served colonial power, rather than simply reflecting European ignorance or cultural bias?"
+  type: short-answer
+  answer: "Because constructing the Orient as backward, irrational, exotic, and in need of governance made colonial domination appear natural, necessary, and even benevolent rather than what it was — an act of political and economic domination. Following Foucault's insight that knowledge and power are inseparable, Said shows that producing the Orient as an object of European knowledge also made it available as an object of European governance. The discourse created the colonial object; the colonial object justified the colonial project. This is not ignorance (which could be corrected) but a structured relationship in which representation itself is a form of power."
+  explanation: "The key distinction is between error (which can be corrected by better scholarship) and structural power (which persists regardless of accuracy). Said argues that orientalist texts were not just wrong — they were doing something: creating a subordinated other whose characteristics justified domination. Even sympathetic or 'accurate' European texts about colonized peoples could participate in this structure by occupying the position of knower and rendering colonized societies as objects of knowledge rather than subjects of history."
+```
+
 ## Explainer
 
 From your study of ideology, hegemony, and power, you understand that dominant ideas do not simply describe the world — they shape it in ways that serve particular interests while appearing natural or neutral. You also understand from your work on discourse and knowledge-power that what can be said, thought, and known within a given system is structured by the discursive rules of that system. Edward Said's *Orientalism* (1978) applies these frameworks to the relationship between European colonialism and literary-cultural representation. His central argument is that "the Orient" is not a place but a **discursive construct**: a body of texts, images, and ideas produced by Europeans that served to define the East as exotic, backward, irrational, and feminine — and Europe, by contrast, as modern, rational, and masculine.

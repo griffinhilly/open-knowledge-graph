@@ -35,6 +35,45 @@ Understand the relationship between type and token identity. Use examples of mul
 - Thinking token identity implies strict type identity.
 - Confusing token identity with mere correlation.
 
+## Questions
+
+```yaml
+- question: "An octopus feels pain when injured, involving nociceptors quite different from human C-fibers. Token-identity theory handles this by saying:"
+  type: multiple-choice
+  options:
+    - "Octopus pain is not a real mental state because it is not physically identical to human C-fiber firing"
+    - "Each individual pain event — human or octopus — is identical to some neural event in that creature, without any single physical type needing to correspond to 'pain'"
+    - "This shows that mental states are fundamentally non-physical and cannot be reduced to brain states"
+    - "Type-identity theory is correct after all — we just need a broader definition of 'C-fiber firing'"
+  answer: 1
+  explanation: "Token-identity theory makes identity claims about particular events, not kinds. Your pain at 3pm is identical to some neural event in your brain; the octopus's pain is identical to some neural event in its nervous system. There is no requirement that both be the same physical type. This is precisely the advantage over type-identity theory, which would have to claim that all pain tokens are the same physical kind — a claim refuted by multiple realizability."
+
+- question: "Donald Davidson's anomalous monism is a version of token-identity theory. What does 'anomalous' mean in this context?"
+  type: multiple-choice
+  options:
+    - "Mental events are exceptional in that they have no physical correlates"
+    - "There are no lawlike regularities mapping mental type descriptions to physical type descriptions"
+    - "Mental events are causally anomalous — they cause physical events without following physical laws"
+    - "The theory is unusual in rejecting both physicalism and dualism simultaneously"
+  answer: 1
+  explanation: "Davidson's 'anomalous monism' combines two claims: (1) monism — every mental event token is identical to some physical event token; (2) anomalism — mental descriptions cannot be systematically reduced to physical descriptions via lawlike bridge principles. Mental events are 'anomalous' in the technical sense: there are no strict laws governing mental kinds as such. You can describe every event fully in physical terms, and mental descriptions ('belief', 'desire') are true redescriptions of those same events — but no bridge law maps mental types to physical types."
+
+- question: "Token-identity theory implies that there is a lawlike, systematic mapping from mental types (like 'pain' or 'belief') to physical types (like 'C-fiber firing')."
+  type: true-false
+  answer: false
+  explanation: "This is precisely what token-identity theory denies — it is the key distinction from type-identity theory. Type-identity theory claims mental types = physical types. Token-identity theory only claims that each individual mental event token = some physical event token, while explicitly allowing different tokens of the same mental type to correspond to different physical types. Davidson's anomalous monism goes further: mental descriptions are not reducible to physical descriptions via any lawlike regularities."
+
+- question: "On token-identity theory, a particular mental event — say, John's belief that it will rain at 3pm — is numerically identical to some particular physical (neural) event occurring in John's brain at that time."
+  type: true-false
+  answer: true
+  explanation: "This is the core claim of token-identity theory: identity at the level of tokens (particular events), not types (kinds). John's belief-at-3pm is not merely correlated with some neural event — it IS that neural event, described under a different vocabulary. This preserves physicalist monism: there are no mental events 'over and above' physical events. The identity claim is about this particular event, not about beliefs in general as a type."
+
+- question: "Explain the 'mental causation problem' that token-identity theory faces, even given that every mental event token is identical to a physical event token."
+  type: short-answer
+  answer: "If mental event tokens are identical to physical event tokens, then causation is always implemented at the physical level. When we say 'John's belief caused him to reach for an umbrella,' the question arises: is 'belief' doing genuine causal work, or is the full causal story told in physical terms — with 'belief' being merely a redescription? If the latter, mental properties seem causally epiphenomenal, riding along on physical causation without adding explanatory content."
+  explanation: "Davidson's response was that mental descriptions are indispensable for prediction and rationalization, even if causation is always physically implemented. But this is contested: if the causal work is entirely physical, mental vocabulary seems explanatorily redundant. The problem does not arise for type-identity theory, where mental types directly correspond to physical types — there, mental properties are just physical properties described at a different level. Token-identity theory buys multiple realizability at the price of making the causal relevance of mental descriptions harder to secure."
+```
+
 ## Explainer
 
 To understand token-identity theory, you need to hold two things you have already learned in productive tension. From identity theory, you know the basic physicalist move: mental states *are* brain states — pain is C-fiber firing, belief is some neural configuration. From multiple realizability, you know the most powerful objection: the same mental state can be physically realized in radically different ways across different organisms, making any one-to-one mapping between mental and physical types implausible.

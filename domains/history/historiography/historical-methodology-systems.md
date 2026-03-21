@@ -28,6 +28,45 @@ status: draft
 ## Core Idea
 Systematic historical methodology transforms curiosity into rigorous knowledge: formulating researchable questions, locating and assessing sources, synthesizing evidence, constructing arguments, and subjecting conclusions to scholarly scrutiny. Different scales of history (biography, microhistory, national history, global history) require adapted methodological approaches, yet all share commitment to evidence-based reasoning and transparent acknowledgment of sources and logic.
 
+## Questions
+
+```yaml
+- question: "A historian wants to study the French Revolution. Which question best meets the standards of rigorous historical methodology?"
+  type: multiple-choice
+  options:
+    - "What caused the French Revolution? (broad synthesis question)"
+    - "How did grain supply management in Paris between 1787–1789 shape popular mobilization in the capital?"
+    - "What did Marie Antoinette eat for breakfast on July 14, 1789?"
+    - "Was the French Revolution a good thing for France?"
+  answer: 1
+  explanation: "Option 0 is too broad for original research — it is appropriate for textbook synthesis but cannot be answered by a single archive. Option 2 is unanswerable and trivial. Option 3 is normative, not historical. Option 1 is correctly scoped: it names a specific time range, connects available archival sources (rationing records, government correspondence, market registers) to a historically significant question, and is neither so narrow it tells us nothing nor so broad it cannot be answered."
+
+- question: "A historian studying colonial subjects' responses to taxation uses only colonial administrative records as sources. What is the main methodological problem?"
+  type: multiple-choice
+  options:
+    - "Colonial records are inherently unreliable due to bureaucratic error and are therefore inadmissible as evidence"
+    - "Administrative records are secondary sources and cannot serve as primary evidence"
+    - "Relying solely on administrative records filters colonial subjects through the colonizer's categories, systematically misrepresenting their experience and perspectives"
+    - "The historian violates citation norms because colonial records are not peer-reviewed"
+  answer: 2
+  explanation: "The problem is not source type or reliability per se, but representativeness and interpretive lens. Colonial administrative records recorded subjects as administrators saw them — they systematically exclude subjects' own voices, motivations, and categories of meaning. A methodologically sound approach seeks alternative source types (petitions, oral traditions, local records, material culture) that can triangulate around the archive's silences. Source diversity is a substantive methodological commitment, not mere thoroughness."
+
+- question: "Good historical methodology requires explicitly acknowledging alternative interpretations that the evidence does not fully settle."
+  type: true-false
+  answer: true
+  explanation: "Proportionality is a core standard of historical argument: conclusions must not overreach what the sources can bear. When evidence is ambiguous or incomplete — as it almost always is — a rigorous historian identifies what is and is not settled, steelmans competing interpretations, and is explicit about the limits of the argument. Presenting an argument as settled when it is contested is a methodological failure, not a sign of conviction. This transparency is what distinguishes historical scholarship from advocacy."
+
+- question: "Footnotes and citations serve primarily a cosmetic academic function — they signal scholarly credibility but are not essential to the historical argument itself."
+  type: true-false
+  answer: false
+  explanation: "Citations are the transparency mechanism of historical argument. They allow other scholars to locate the same sources, check the historian's readings, identify omissions, and trace the reasoning from evidence to inference. Without citations, a historical claim is an unsupported assertion — readers have no way to evaluate the argument independently. This is what separates historical knowledge from opinion: the citation apparatus makes the argument auditable. It is one of the most important methodological standards in the discipline."
+
+- question: "Why is question formulation described as 'arguably the most consequential methodological step' in historical research?"
+  type: short-answer
+  answer: "The question determines everything that follows: what archives are relevant, what counts as evidence, what causal factors are worth investigating, whose experiences should be centered, and what form the argument will take. A poorly scoped question either cannot be answered with available evidence (too broad) or answers something trivial (too narrow). The question also embeds assumptions about historical significance — what matters and why. Getting it wrong means investing research effort in a dead end; getting it right makes all subsequent methodological choices coherent and productive."
+  explanation: "This connects to the explainer's point that a good historical question is simultaneously researchable, significant, and appropriately scoped. These three criteria interact: changing the scope changes what counts as significant, and what is researchable constrains what can be significant. Question formulation is not a preliminary formality but an ongoing intellectual commitment that shapes the entire research process."
+```
+
 ## Explainer
 
 From your work with historiography, archival research, and source criticism, you have developed three foundational competencies: you understand that historiography is a discipline with its own intellectual history and contested interpretive schools; you know how to locate, read, and evaluate primary sources in archives; and you can assess the reliability, bias, and evidentiary value of individual documents. Historical methodology synthesizes these skills into a systematic account of how historians actually produce knowledge — from the first question through to the published argument. Understanding that system is what transforms a collection of reading skills into a research practice.

@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Gender history treats gender (as opposed to 'women's history') as a fundamental analytical category that reveals how power, labor, and social structures are organized across all domains of history. Gender historians analyze not only women's experiences but how gendered categories themselves—masculinity, femininity, sexuality—are historically constructed and how gender systems intersect with race, class, and nation.
 
+## Questions
+
+```yaml
+- question: "A historian studying 18th-century European military culture argues that because armies were entirely male, gender is irrelevant to analyzing how military authority was constructed. A gender historian would most likely respond that:"
+  type: multiple-choice
+  options:
+    - "Women were actually present in most historical armies, so gender is empirically relevant"
+    - "The very construction of military authority as masculine is itself a gender phenomenon — the all-male character of armies is part of what needs explaining"
+    - "Gender history only applies to women's experiences and is not relevant to male-dominated institutions"
+    - "Military history is outside the scope of social history and therefore beyond gender history's purview"
+  answer: 1
+  explanation: "This is the core move of gender history: even domains that look gender-neutral because only one gender participates are often organized around gendered categories. The all-male army was not a natural fact — it required defining military virtue, courage, and authority as inherently masculine. Understanding how that construction worked is central to understanding how military institutions functioned. Option C describes the older 'women's history' approach that gender history explicitly moves beyond."
+
+- question: "What is the primary conceptual difference between 'women's history' and 'gender history' as articulated by historians like Joan Scott?"
+  type: multiple-choice
+  options:
+    - "Women's history uses quantitative methods while gender history uses qualitative ones"
+    - "Women's history recovers women's experiences within existing analytical frameworks; gender history treats gender itself as an analytical category revealing power structures across all domains of history"
+    - "Women's history covers the modern period while gender history covers the pre-modern period"
+    - "Women's history is descriptive while gender history is normative and political"
+  answer: 1
+  explanation: "Women's history restored women's experiences to the historical record — important corrective work. But it left the analytical categories of mainstream history intact: political, military, and economic history continued to be organized around male actors. Gender history goes further by arguing that even those male-dominated domains were themselves gendered, and that 'gender' is a way of signifying power relationships that operates everywhere, not just where women appear."
+
+- question: "Gender historians argue that masculinity and femininity are stable biological essences that take different cultural forms across historical periods."
+  type: true-false
+  answer: false
+  explanation: "Gender historians argue the opposite: that masculinity and femininity are historically constructed, not natural essences. The evidence is direct — gender norms of 17th-century European courts, 18th-century middle-class households, and 20th-century industrial societies differ substantially. They changed over time and were contested within any given society. The social constructionist position does not deny that bodies exist; it argues that what a society does with sex difference — the roles, virtues, and prohibitions attached to it — is a historical product, not a biological given."
+
+- question: "Intersectionality, as used in gender history, holds that the experiences of people with multiple marginalized identities cannot be fully understood by analyzing each dimension separately and combining the results."
+  type: true-false
+  answer: true
+  explanation: "This is exactly the point of intersectionality, developed by Kimberlé Crenshaw and adopted into historical work. The experience of an enslaved Black woman was shaped simultaneously by gender, race, and legal status in ways that were not simply additive. Analyzing 'women's experiences' generally and 'Black experiences' generally and adding them produces a distorted picture — the specific oppressions at the intersection were qualitatively different. Intersectional analysis requires holding multiple axes in view simultaneously."
+
+- question: "Why do gender historians argue that traditionally 'male-dominated' domains like politics, law, and war need to be analyzed through gender, even when women were largely absent from those domains?"
+  type: short-answer
+  answer: "Gender historians argue that the very organization of these domains was built around gendered categories. Political authority was constructed as masculine; property law assumed a male owner; military culture defined heroic virtue in gender-specific terms. These arrangements actively relied on gendered constructions to define what counted as legitimate authority, capability, or citizenship. To understand how these institutions worked, you have to understand how they used gender to organize power — not just note that women were absent."
+  explanation: "Joan Scott's insight was that gender is a 'primary way of signifying relationships of power' — it operates even in institutions where only one gender formally participates. Treating 'maleness' as a neutral default rather than as itself a culturally constructed position obscures how power actually functioned in these institutions."
+```
+
 ## Explainer
 
 Your prerequisite in social history established the framework: history is not only the story of states, armies, and great men, but of the structures and everyday experiences that shaped the lives of ordinary people. Gender history extends that project by asking a more radical question — not just "where are the women?" but "how has gender itself organized historical experience across all domains, including those that seem to have nothing to do with gender?"

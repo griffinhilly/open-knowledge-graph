@@ -31,6 +31,45 @@ Correlate hemodynamic measurements (pulmonary capillary wedge pressure) with cli
 ## Common Misconceptions
 Cardiogenic edema is not just increased pressure; the capillary is intact, so edema fluid has low protein content, distinguishing it from ARDS.
 
+## Questions
+
+```yaml
+- question: "A patient with acute left ventricular failure develops pulmonary edema. The physician administers aggressive diuretics to reduce preload. What is the hemodynamic rationale for this treatment?"
+  type: multiple-choice
+  options:
+    - "Diuretics lower plasma oncotic pressure, directly rebalancing Starling forces in the pulmonary capillaries"
+    - "Diuretics reduce circulating blood volume, lowering left atrial pressure and thus pulmonary capillary hydrostatic pressure"
+    - "Diuretics repair the damaged capillary endothelium, stopping protein leakage into the alveoli"
+    - "Diuretics dilate the bronchioles, improving ventilation to fluid-filled alveoli"
+  answer: 1
+  explanation: "The fundamental problem in cardiogenic pulmonary edema is elevated left atrial pressure → elevated pulmonary capillary hydrostatic pressure → Starling force imbalance favoring fluid efflux. Diuretics reduce circulating volume, decreasing venous return (preload), which lowers left atrial pressure and in turn reduces pulmonary capillary hydrostatic pressure — re-establishing the normal balance. Options A and C are incorrect: diuretics do not raise oncotic pressure, and the capillary endothelium is intact in cardiogenic edema."
+
+- question: "The edema fluid in cardiogenic pulmonary edema has low protein content (transudate). Which mechanism explains this?"
+  type: multiple-choice
+  options:
+    - "The lymphatic system selectively removes proteins from the edema fluid before it accumulates in the alveoli"
+    - "Left ventricular failure reduces hepatic protein synthesis, depleting plasma proteins and thus the fluid that leaks"
+    - "The pulmonary capillary endothelium remains structurally intact; elevated hydrostatic pressure forces fluid out but cannot drive large protein molecules through an intact membrane"
+    - "Alveolar macrophages actively phagocytose proteins from the edema fluid as it forms"
+  answer: 2
+  explanation: "In cardiogenic pulmonary edema, the injury is hemodynamic — elevated pressure, not capillary damage. The intact endothelium acts as a selective barrier: water and small solutes are pushed out when hydrostatic pressure exceeds oncotic pressure, but large protein molecules cannot cross an intact barrier. This produces protein-poor transudative fluid. In ARDS, direct endothelial injury makes capillaries permeable to proteins, producing high-protein exudative fluid — a clinically critical distinction."
+
+- question: "In cardiogenic pulmonary edema, orthopnea (breathlessness when lying flat) occurs because the supine position redistributes blood from the peripheral venous system into the pulmonary circulation, worsening pulmonary capillary hydrostatic pressure."
+  type: true-false
+  answer: true
+  explanation: "When a patient lies flat, gravity no longer pools blood in the lower extremities. Venous return increases, raising left atrial pressure further in an already failing left ventricle, which worsens pulmonary capillary hydrostatic pressure and accelerates fluid transudation into the lung. Patients learn to sleep propped up on multiple pillows to maintain gravity-dependent pooling in the legs and reduce pulmonary congestion."
+
+- question: "Cardiogenic pulmonary edema and acute respiratory distress syndrome (ARDS) both produce high-protein (exudative) alveolar fluid because both result from elevated pulmonary capillary hydrostatic pressure."
+  type: true-false
+  answer: false
+  explanation: "Only ARDS produces high-protein exudative fluid. ARDS involves direct injury to the alveolar-capillary membrane, making capillaries permeable to proteins. Cardiogenic pulmonary edema results from elevated hydrostatic pressure through an intact capillary membrane, producing low-protein transudative fluid. Furthermore, ARDS is not caused by elevated hydrostatic pressure — pulmonary capillary wedge pressure is often normal in ARDS. This distinction is vital both diagnostically and therapeutically."
+
+- question: "Why would aggressive diuresis effectively treat cardiogenic pulmonary edema but fail to adequately treat ARDS?"
+  type: short-answer
+  answer: "Cardiogenic pulmonary edema is caused by elevated hydrostatic pressure from a failing left ventricle, which can be reduced by lowering circulating volume with diuretics — the problem is pressure, not a broken barrier. In ARDS, the problem is structural damage to the alveolar-capillary membrane, making capillaries leaky to protein regardless of hydrostatic pressure. Reducing blood volume with diuretics cannot repair a damaged capillary. ARDS requires lung-protective ventilation and treatment of the underlying cause."
+  explanation: "The therapeutic difference follows directly from the pathophysiology: cardiogenic edema is a pressure problem in an intact system (fix = lower pressure); ARDS is a permeability problem in a damaged system (fix = repair the cause and support breathing). Treating ARDS with aggressive diuresis can cause dangerous hypotension without meaningfully reducing alveolar protein-rich fluid."
+```
+
 ## Explainer
 
 To understand cardiogenic pulmonary edema, build from what you know about heart failure. In left-sided heart failure, the left ventricle fails to eject blood efficiently — either because it cannot contract forcefully enough (systolic failure) or cannot relax and fill properly (diastolic failure). The consequence is a traffic jam: blood backs up from the left ventricle into the left atrium, and from the left atrium into the pulmonary veins and capillaries. **Left atrial pressure** rises, and since the pulmonary capillaries drain into the left atrium, pulmonary capillary hydrostatic pressure rises with it.

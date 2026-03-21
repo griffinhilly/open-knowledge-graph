@@ -30,6 +30,45 @@ Create two compositions of the same objects or shapes—one symmetrical, one asy
 ## Common Misconceptions
 Symmetry is always more beautiful or skillful. Perfect symmetry is the only way to achieve balance. Asymmetrical compositions are harder to balance successfully.
 
+## Questions
+
+```yaml
+- question: "A design student believes a composition can only be balanced if it is symmetrical — identical elements on both sides of a central axis. Which example best demonstrates this belief is wrong?"
+  type: multiple-choice
+  options:
+    - "A perfectly centered doorway flanked by identical columns on each side"
+    - "A composition where a large, pale shape on the left is balanced by a small, dark, detailed element placed far to the right — different elements carrying equivalent visual weight"
+    - "A mandala with identical petals radiating symmetrically from a center point"
+    - "A portrait where the face is centered and both halves are exact mirror images"
+  answer: 1
+  explanation: "Asymmetrical balance achieves equilibrium without mirroring by relying on the principle that different elements can carry equivalent visual weight through their size, color, value, texture, or position. A large pale element and a small dark element can balance like a heavy child and a light child on a seesaw — at different distances from the fulcrum. The other options all illustrate symmetry, which automatically guarantees balance but is not the only path to it."
+
+- question: "A composition uses radial balance. What is the primary visual effect of this choice?"
+  type: multiple-choice
+  options:
+    - "The eye enters at the top left and moves in a Z-pattern, typical of text-based layouts"
+    - "The center becomes the dominant focal point, with the eye traveling outward along radiating elements and then circling back"
+    - "Elements on opposite sides cancel each other's visual weight, producing a neutral overall effect"
+    - "The composition achieves maximum tension by distributing weight evenly while avoiding any clear focal point"
+  answer: 1
+  explanation: "Radial balance organizes elements around a central point, radiating outward like spokes of a wheel. The center becomes dominant because all radiating lines lead back to it, making it the unavoidable focal point. The eye naturally travels outward along the radiating paths before circling back — a movement pattern different from both symmetrical (stable, resolved) and asymmetrical (exploratory, dynamic) compositions."
+
+- question: "Symmetrical compositions are always more visually skilled and aesthetically superior to asymmetrical ones because symmetry requires precise matching of elements."
+  type: true-false
+  answer: false
+  explanation: "Symmetry is not inherently superior — it produces formal, stable, and authoritative effects but can feel static and unrewarding to explore once the mirror pattern is perceived. Asymmetrical balance can be more dynamic and intellectually engaging because the viewer must actively perceive how different elements relate. The Core Idea states both approaches 'are effective'; the choice depends on communicative intent. Asymmetrical balance is actually the dominant mode in most contemporary design and fine art."
+
+- question: "An asymmetrical composition can achieve balance because a small, dark element placed far from the center can carry equivalent visual weight to a large, light element placed close to the center."
+  type: true-false
+  answer: true
+  explanation: "This is the seesaw principle applied to visual composition. Darkness, saturation, texture, and isolation all amplify visual weight independently of size. Distance from the compositional center amplifies the effect of any given weight. So a small element with high value contrast, placed near the edge, can counterbalance a large but light element near the center — producing equilibrium without symmetry. This is why the explainer uses the seesaw analogy explicitly."
+
+- question: "Explain the key difference between symmetry and balance, and describe how asymmetrical balance works in practice."
+  type: short-answer
+  answer: "Symmetry is a structural property — elements are mirrored across an axis. Balance is a perceptual property — the composition feels visually resolved, as if it would not tip over. Symmetry guarantees balance because mirrored elements have equal weight by definition, but balance can be achieved without symmetry. Asymmetrical balance works by distributing different elements whose combined visual weights (determined by size, value, saturation, texture, isolation, and position) produce equilibrium. A small dark shape far from center can balance a large pale shape near center because their total visual pull — weight times distance — is equivalent."
+  explanation: "The distinction matters for practical design: symmetry is a technique that automatically produces balance, but it constrains composition to mirroring. Understanding that balance is the goal (not symmetry) frees designers to use asymmetrical arrangements that are more dynamic and interesting while still being visually resolved. Recognizing when a composition feels 'balanced' vs. merely 'symmetrical' is a key perceptual skill."
+```
+
 ## Explainer
 
 From your study of shape and space interaction, you understand that shapes carry visual weight and that their placement within a frame creates spatial relationships. Balance is what happens when those weights and relationships feel resolved — when nothing in the composition seems about to topple or slide off the edge. The three main strategies for achieving balance each produce a distinct emotional character, and learning to deploy them deliberately is one of the most important compositional skills you can develop.

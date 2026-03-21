@@ -33,6 +33,45 @@ Categorize each problem by what is known and unknown, then select the equation t
 - Sign errors when choosing a coordinate system: consistently define positive direction at the start of each problem.
 - Confusing x for displacement vs. position when using x = v₀t + ½at².
 
+## Questions
+
+```yaml
+- question: "A ball is thrown upward at 20 m/s. Using a = −9.8 m/s², which kinematic equation most directly gives the maximum height (without first solving for time)?"
+  type: multiple-choice
+  options:
+    - "v = v₀ + at (this equation has no displacement term)"
+    - "x = x₀ + v₀t + ½at² (this requires knowing time first)"
+    - "v² = v₀² + 2aΔx (relates v, v₀, a, and displacement without needing time)"
+    - "x = x₀ + ½(v₀ + v)t (this requires knowing both final velocity and time)"
+  answer: 2
+  explanation: "At maximum height, v = 0. The equation v² = v₀² + 2aΔx contains exactly the quantities we know (v₀ = 20, v = 0, a = −9.8) and the one we want (Δx), with time absent entirely. Solving: 0 = 400 + 2(−9.8)Δx → Δx ≈ 20.4 m. This equation-selection strategy — identify what you know, what you want, and which equation contains exactly those — is the core practical skill."
+
+- question: "A car accelerates from rest to 30 m/s, then brakes to a stop. Why can't you find the total distance with a single kinematic equation?"
+  type: multiple-choice
+  options:
+    - "Kinematic equations only apply when the initial velocity is zero"
+    - "The acceleration is not constant throughout — braking has a different acceleration than the initial accelerating phase"
+    - "The final velocity is zero, making the equations undefined"
+    - "Kinematic equations require the direction of motion to remain the same"
+  answer: 1
+  explanation: "Kinematic equations are valid ONLY when acceleration is constant throughout the entire interval. A car that first accelerates then brakes has two distinct constant-acceleration phases (with different values of a). You must solve each phase separately and chain the results: the final position and velocity of phase 1 become the initial conditions for phase 2. Applying one equation across both phases would assume a single constant acceleration that doesn't exist."
+
+- question: "The four kinematic equations are independent physical laws that must each be memorized separately, because they describe different aspects of motion."
+  type: true-false
+  answer: false
+  explanation: "The four equations are four algebraic rearrangements of the same underlying situation — constant acceleration — all derivable by integrating a = constant. Starting with v = v₀ + at and using average velocity × time gives x = x₀ + v₀t + ½at². Eliminating t between these two gives v² = v₀² + 2aΔx. The fourth combines average velocity with time. They are the same physics expressed in forms that make different quantities easy to isolate."
+
+- question: "In a kinematic problem where 'upward' is defined as the positive direction, an object in free fall should be assigned a negative value for acceleration."
+  type: true-false
+  answer: true
+  explanation: "Sign convention is not a physical fact — it is a bookkeeping choice. Once you define upward as positive, gravity points downward, so a = −9.8 m/s². The kinematic equations are algebraically neutral about direction; they produce correct results as long as signs are applied consistently throughout the problem. Many errors arise not from wrong equations but from inconsistent sign choices — switching the positive direction midway through a problem."
+
+- question: "Why is it important to select the right kinematic equation before solving, rather than using whichever one comes to mind first?"
+  type: short-answer
+  answer: "Each kinematic equation involves four of the five kinematic quantities (x₀, x, v₀, v, a, t). A given problem specifies three knowns and one unknown. The correct equation is the one that contains exactly those three knowns plus the unknown — with the fifth quantity absent, so you can solve in one step. Choosing the wrong equation forces you to first solve for an unneeded intermediate quantity, adding steps and opportunities for error. Equation selection is the primary strategy, not algebra."
+  explanation: "For example, if you know v₀, a, and Δx but not t, the equation v² = v₀² + 2aΔx is the tool — it omits t entirely. Using v = v₀ + at instead requires first solving for t using another equation, doubling the work. Identifying what's known and unknown before touching algebra is the hallmark of efficient problem-solving in kinematics."
+```
+
 ## Explainer
 
 From your study of 1D kinematics, you know the basic concepts: **position** (where something is), **velocity** (how fast position changes), and **acceleration** (how fast velocity changes). The kinematic equations for constant acceleration are what you get when you work out, algebraically, exactly what happens to position and velocity when acceleration is held constant throughout the motion.

@@ -32,6 +32,45 @@ Examine a seemingly objective moral claim ('slavery is wrong') and ask: would th
 ## Common Misconceptions
 Equating realism with dogmatism or antirealism with nihilism. Assuming realism requires certainty or infallibility in moral knowledge. Treating the divide as purely binary when positions like constructivism occupy middle ground.
 
+## Questions
+
+```yaml
+- question: "A philosopher says: 'When we say \"slavery is wrong,\" we are not stating a fact — we are expressing a deeply negative attitude toward slavery. The sentence has no truth value.' This position is best classified as which metaethical view?"
+  type: multiple-choice
+  options:
+    - "Moral realism — the philosopher correctly identifies that moral claims track objective facts"
+    - "Error theory — the philosopher holds that moral claims purport to state facts but all are false"
+    - "Non-cognitivism / expressivism — moral claims express attitudes rather than stating facts"
+    - "Moral relativism — the philosopher holds that slavery is wrong relative to our culture"
+  answer: 2
+  explanation: "Non-cognitivism (including expressivism) holds that moral claims do not purport to state facts at all — they express attitudes, prescriptions, or emotional responses. Error theory (option B) agrees that moral claims *look* like fact-statements but holds they are all false, not that they merely express attitudes. Relativism (option D) holds moral facts exist but only relative to a culture. Realism (option A) holds moral claims state objective facts. The key marker here is 'no truth value' — only non-cognitivism makes this move."
+
+- question: "A moral realist asserts: 'Torturing children for fun would be wrong even if every human being on Earth approved of it.' What is the most philosophically precise antirealist response?"
+  type: multiple-choice
+  options:
+    - "The realist is clearly correct — this intuition proves moral facts are mind-independent"
+    - "An error theorist accepts the sentence's logical form but says it is false, since no mind-independent moral facts exist to make it true"
+    - "An expressivist agrees with the realist because both sides hold that 'torture is wrong' has a truth value"
+    - "A relativist agrees with the realist because all cultures agree that torturing children is wrong"
+  answer: 1
+  explanation: "An error theorist (like J.L. Mackie) accepts that moral sentences *purport* to state facts and are the right *kind* of claim to be true or false — but argues they are all false because the mind-independent moral facts they require don't exist. So the error theorist says the realist's sentence has the right logical form but is false. An expressivist (option C) would deny the sentence has a truth value at all, reinterpreting it as expressing an attitude. Option D is incorrect because relativism makes moral facts culture-relative, which means they'd be true 'for us' but not universally."
+
+- question: "Antirealism in ethics entails moral nihilism — the view that nothing is right or wrong and that moral discourse is simply mistaken and pointless."
+  type: true-false
+  answer: false
+  explanation: "This is one of the core misconceptions the topic explicitly warns against. Antirealism is a thesis about the *metaphysical status* of moral facts (they don't exist mind-independently), not a practical conclusion that morality is meaningless or that anything goes. Expressivists hold that moral discourse serves important functions — expressing attitudes, coordinating behavior, reinforcing norms — even without objective facts. Relativists hold that moral facts exist (relative to cultures). Only error theory implies moral claims are all false, but even error theorists can maintain that moral discourse has practical value or that we should adopt an 'as if' moral stance."
+
+- question: "The Frege-Geach problem poses a genuine challenge for non-cognitivism because logical connectives seem to require that moral sentences have truth conditions."
+  type: true-false
+  answer: true
+  explanation: "The Frege-Geach problem (also called the embedding problem) is the most serious technical challenge to expressivism. Consider: 'If murder is wrong, then hiring a murderer is wrong.' In this conditional, 'murder is wrong' appears in a context where it cannot be expressing disapproval — it is embedded in an if-clause. But if the sentence in the conditional doesn't express disapproval, and the same sentence standing alone expresses disapproval, then the two uses of 'murder is wrong' seem to mean different things — which breaks logical inference. Truth-conditional semantics handles this naturally; pure expressivist semantics struggles to explain why moral sentences can serve as premises and conclusions in valid arguments."
+
+- question: "What is the distinction between moral realism and moral dogmatism? Can a moral realist be fallibilist about moral knowledge?"
+  type: short-answer
+  answer: "Moral realism is a metaphysical thesis: moral facts exist independently of minds and cultures. Moral dogmatism is an epistemological stance: the claim that we know moral truths with certainty and our moral beliefs cannot be wrong. These are independent claims. A realist can hold that moral facts exist while acknowledging that human moral cognition is fallible — we might be systematically mistaken about some moral truths, just as scientists were mistaken about the ether while physical facts existed independently of them. Fallibilist realism is not only coherent but arguably more plausible than dogmatic realism."
+  explanation: "Conflating realism with dogmatism is a common mistake that leads people to reject realism because they recognize human moral fallibility and disagreement. But realism does not require that moral facts are easy to access or that we access them reliably. The parallel to science is instructive: scientific realism holds that electrons exist mind-independently, but this doesn't mean scientists can never be wrong about electrons. Similarly, a moral realist can acknowledge the history of moral error (slavery was once widely accepted) as evidence of moral progress — genuine discovery — rather than mere attitude change. This is why the realist/antirealist debate is genuinely difficult: both views have sophisticated fallibilist versions."
+```
+
 ## Explainer
 
 From your study of metaethics, you know that metaethics asks not "what should I do?" but "what kind of thing are moral claims?" The realism/antirealism debate is the deepest divide within metaethics — it concerns whether moral reality exists independently of the minds that think about it. A **moral realist** holds that when someone says "slavery is wrong," they are stating a fact that is true (or false) regardless of whether any person, culture, or society believes it. The wrongness is out there in the world, not projected onto it. An **antirealist** denies this: moral claims are not objective facts, but expressions of attitude, social agreement, cultural convention, or something else mind-dependent.

@@ -32,6 +32,45 @@ Trace digestion of a fatty meal through all three secretory phases: sight of foo
 - Gastric acid secretion begins before food reaches the stomach (cephalic phase) via vagal reflex — parietal cells do not wait for food to arrive.
 - The ENS can coordinate peristalsis even if all extrinsic nerve connections are severed, demonstrating its functional independence.
 
+## Questions
+
+```yaml
+- question: "A medical student is studying a patient who experiences nausea, cramping, and delayed gastric emptying during a period of intense psychological stress. What is the most likely physiological mechanism?"
+  type: multiple-choice
+  options:
+    - "Parasympathetic (vagal) overdrive causing excessive gut contractions"
+    - "Sympathetic activation suppressing GI motility by inhibiting the enteric nervous system and constricting splanchnic blood flow"
+    - "CCK release from duodenal stress receptors slowing gastric motility"
+    - "Failure of the migrating motor complex to initiate during waking hours"
+  answer: 1
+  explanation: "Sympathetic activation ('fight or flight') actively suppresses gut function — it inhibits motility, reduces secretion, and constricts splanchnic blood vessels to redirect resources to skeletal muscle and the brain. This is the opposite of the parasympathetic 'rest and digest' mode. Stress-induced GI symptoms are a direct consequence of the autonomic balance shifting toward sympathetic dominance. The vagus (parasympathetic) promotes gut function; stress suppresses it."
+
+- question: "When does gastric acid secretion begin relative to food arriving in the stomach?"
+  type: multiple-choice
+  options:
+    - "Only after food reaches the stomach and distends its walls"
+    - "Before food reaches the stomach — the sight, smell, or thought of food triggers vagal reflexes that start acid secretion"
+    - "Only when protein fragments contact parietal cells directly"
+    - "After the intestinal phase begins, triggered by CCK from the duodenum"
+  answer: 1
+  explanation: "This is the cephalic phase: anticipatory vagal reflexes stimulate gastric acid and enzyme secretion before food arrives. The brain prepares the stomach for the incoming meal. Parietal cells do not wait for food to physically arrive. Once food does arrive, the gastric phase (distension + protein → gastrin) amplifies what the cephalic phase started. Understanding the three-phase sequence is key: cephalic (anticipatory) → gastric (food in stomach) → intestinal (chyme in duodenum)."
+
+- question: "The enteric nervous system can coordinate basic peristalsis even if all connections to the brain and spinal cord are severed."
+  type: true-false
+  answer: true
+  explanation: "The ENS — sometimes called the 'gut brain' — is a semi-autonomous network of 200–600 million neurons embedded in the gut wall. It contains sensory neurons, interneurons, and motor neurons capable of independently coordinating peristalsis in response to luminal distension. This functional independence is demonstrated by transplanted intestinal segments retaining peristaltic function despite no extrinsic innervation. The brain and autonomic nervous system modulate the ENS but are not required for basic motility."
+
+- question: "Peristalsis and segmentation both move food aborally (toward the anus) through the GI tract; they differ in whether they are driven by circular or longitudinal muscle."
+  type: true-false
+  answer: false
+  explanation: "Peristalsis is propulsive — it moves food forward (aborally) through a coordinated wave of contraction behind the bolus and relaxation ahead. Segmentation, by contrast, is rhythmic non-propagating contraction that chops and mixes luminal contents *without net forward movement*. Segmentation maximizes contact between nutrients and the absorptive mucosa. The distinction is not which muscle layer is used but whether the contractions propagate (peristalsis) or occur in place without net displacement (segmentation)."
+
+- question: "Explain the functional difference between peristalsis and segmentation, and why both are necessary for effective digestion and absorption."
+  type: short-answer
+  answer: "Peristalsis is a propagating wave — circular muscle contracts behind food and relaxes ahead, generating net forward movement along the gut. Segmentation is non-propagating rhythmic contraction that mixes luminal contents with digestive enzymes and exposes nutrients to the absorptive surface without propelling them forward. Both are needed: peristalsis moves the meal from stomach to colon in a reasonable time, while segmentation ensures thorough mixing and maximizes the surface area contact necessary for absorption."
+  explanation: "Without peristalsis, food would stagnate. Without segmentation, nutrients would pass through in a poorly mixed bolus with limited contact with the mucosa, resulting in poor absorption. The gut alternates between these modes depending on the local content and neural signals. The migrating motor complex adds a third mode — a powerful sweeping contraction between meals that clears residual debris, demonstrating that the gut's motility program is context-sensitive, not just a constant forward push."
+```
+
 ## Explainer
 
 From your overview of the digestive system, you know the GI tract is a long muscular tube with specialized regions for mechanical and chemical breakdown of food. What this topic reveals is the sophisticated control system that coordinates when, where, and how that tube moves and secretes. The gut does not simply push food along like a conveyor belt — it has two fundamentally different types of movement, each serving a distinct purpose, and its secretory activity is orchestrated across three overlapping phases that anticipate and respond to the meal.

@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Each antibiotic class targets specific bacterial molecules: cell wall transpeptidases (β-lactams), ribosomal rRNA/proteins (aminoglycosides, tetracyclines), DNA gyrase (fluoroquinolones). Bacteria develop resistance through target mutation, enzymatic inactivation (β-lactamase), efflux pump upregulation, or permeability reduction. New antibiotic strategies include modified drugs overcoming existing resistance, novel chemical classes, combination therapy, and immunotherapy targeting pathogens rather than growth inhibition.
 
+## Questions
+
+```yaml
+- question: "β-lactam antibiotics like penicillin are highly toxic to bacteria but relatively harmless to human cells. What structural feature of bacteria makes this selectivity possible?"
+  type: multiple-choice
+  options:
+    - "Bacteria have 70S ribosomes while humans have 80S ribosomes, making bacterial ribosomes the selective target"
+    - "Bacteria synthesize peptidoglycan cell walls using transpeptidases — a structure completely absent in human cells"
+    - "Bacteria lack mitochondria and therefore cannot metabolize β-lactams before they reach the cell wall"
+    - "Human cells express β-lactamase enzymes that inactivate the drug before it can cause harm"
+  answer: 1
+  explanation: "The key principle of antibiotic selectivity is exploiting molecular differences between bacterial and human cells. β-lactams inhibit transpeptidases involved in peptidoglycan cross-linking — but human cells have no peptidoglycan whatsoever. This makes the target bacteria-specific by definition. Option A correctly explains why aminoglycosides and tetracyclines are selective (ribosome structure difference), not β-lactams. Option D inverts the biology: β-lactamase is a bacterial resistance enzyme, not a human defense mechanism."
+
+- question: "A clinical E. coli isolate is resistant to β-lactams, tetracyclines, and fluoroquinolones simultaneously. These three drug classes are chemically unrelated. What is the most likely explanation for this multidrug resistance?"
+  type: multiple-choice
+  options:
+    - "The bacterium has simultaneously mutated the active site of every antibiotic target"
+    - "The bacterium has acquired broad-spectrum efflux pumps that export multiple drug classes, possibly combined with reduced outer membrane permeability"
+    - "The bacterium developed resistance to one drug class, which confers cross-resistance to all other drug classes"
+    - "The bacterium is overproducing its target enzymes to overwhelm the drugs"
+  answer: 1
+  explanation: "Multidrug resistance spanning chemically unrelated classes (β-ring structures, polyketides, quinolones) is most parsimoniously explained by broad-spectrum efflux pumps like AcrAB-TolC in E. coli, which can expel structurally diverse drugs, combined with porin loss that restricts drug entry. Simultaneous target mutations (A) would require independent mutations in multiple unrelated genes — statistically improbable. Cross-resistance (C) typically occurs within related drug scaffolds, not across chemically distinct classes. Target amplification (D) is not a well-established resistance mechanism for these drug classes."
+
+- question: "The ideal antibiotic target is a bacterial structure or enzyme that is essential for bacterial survival and is either absent in human cells or structurally different enough to allow selective inhibition."
+  type: true-false
+  answer: true
+  explanation: "This is the core principle of selective toxicity that governs antibiotic target selection. Peptidoglycan synthesis is absent in humans (β-lactams); bacterial 70S ribosomes differ from human 80S ribosomes in ways that allow selective binding by aminoglycosides and macrolides; folate synthesis enzymes are absent in humans who obtain folate from diet (sulfonamides, trimethoprim). Without selective toxicity, the drug would harm the patient as much as the pathogen. Finding new bacterial-specific essential targets is the central challenge of novel antibiotic development."
+
+- question: "Combination antibiotic therapy primarily works by using two drugs that attack the same bacterial target, thereby delivering a higher effective dose to that single vulnerable point."
+  type: true-false
+  answer: false
+  explanation: "The logic of combination therapy is to attack multiple different targets simultaneously, requiring bacteria to evolve resistance to several independent mechanisms at once — an exponentially less probable event. If two drugs hit the same target, a single resistance mutation confers resistance to both simultaneously. Attacking two different targets means the bacterium must independently acquire resistance to each, which requires concurrent mutations or resistance gene acquisitions in the same cell. This also underlies multi-drug regimens for tuberculosis and HIV, where any single drug rapidly selects resistant mutants but combinations of three or more drugs are curative."
+
+- question: "Explain why β-lactamase inhibitors like clavulanate are co-administered with β-lactam antibiotics. What resistance mechanism do they address, and how do they work?"
+  type: short-answer
+  answer: "β-lactamases are bacterial enzymes that hydrolyze the β-lactam ring, inactivating the antibiotic before it reaches its transpeptidase target. Many resistant bacteria secrete β-lactamases that neutralize standard β-lactams. β-lactamase inhibitors like clavulanate bind to the β-lactamase active site with high affinity, blocking its enzymatic activity. When co-administered with a β-lactam (e.g., amoxicillin-clavulanate), the inhibitor neutralizes the β-lactamase, protecting the active antibiotic so it can reach and inhibit its transpeptidase target. The inhibitor acts as a 'shield' that sacrifices itself to inactivate the resistance enzyme, extending the useful life of proven β-lactam scaffolds against enzymatic inactivation resistance."
+  explanation: "This strategy is analogous to using a protease inhibitor to protect a peptide drug from degradation. The principle generalizes: wherever an enzyme-based resistance mechanism exists, a co-administered inhibitor of that enzyme can potentially rescue the antibiotic. The development of newer β-lactamase inhibitors (avibactam, relebactam) addresses extended-spectrum and carbapenem-hydrolyzing β-lactamases that clavulanate cannot block."
+```
+
 ## Explainer
 
 You already understand how individual antibiotic classes work and how bacteria evolve resistance mechanisms. This topic brings those two threads together: understanding why specific targets are chosen for drug development, why resistance to each target evolves in predictable ways, and what strategies exist to stay ahead of the resistance problem. Think of it as an evolutionary arms race where each side's moves constrain the other's options.

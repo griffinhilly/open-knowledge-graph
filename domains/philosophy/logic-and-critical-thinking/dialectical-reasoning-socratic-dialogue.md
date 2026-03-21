@@ -30,6 +30,45 @@ Study Platonic dialogues, especially the Euthyphro or Meno. Practice Socratic qu
 ## Common Misconceptions
 Confusing dialectic with debate or rhetorical combat. Thinking Socratic questioning is just asking questions (it requires skill in exposing contradictions and guiding thinking). Assuming dialogue always reaches consensus.
 
+## Questions
+
+```yaml
+- question: "After an extended Socratic dialogue about the nature of courage, two participants find they cannot produce a definition that survives all objections and reach no consensus. This outcome is best described as:"
+  type: multiple-choice
+  options:
+    - "A failure of the dialectical method — genuine dialogue should always produce a defensible shared conclusion"
+    - "A rhetorical victory for whoever raised the most effective objections"
+    - "Aporia — an intellectually honest recognition that the question is harder than it appeared, which is itself genuine epistemic progress"
+    - "Evidence that Socratic dialogue is less rigorous than formal debate for reaching conclusions"
+  answer: 2
+  explanation: "Aporia — an impasse in which no satisfying answer is found — is not a failure in Socratic dialectic; it is one of its most important possible outcomes. Knowing that you do not have a defensible answer to a question, and understanding *why* each proposed answer failed, puts you in a far better epistemic position than confident ignorance. Many Platonic dialogues end in aporia deliberately. The Socratic claim to 'know nothing' is the honest result of applying this method to one's own beliefs."
+
+- question: "In dialectical reasoning, why is engaging with the strongest version of an opposing argument (the principle of charity) methodologically essential rather than merely polite?"
+  type: multiple-choice
+  options:
+    - "It is a courtesy to the interlocutor that can be waived when the opposing view is clearly mistaken or poorly argued"
+    - "It is required by formal debate rules but not strictly necessary in informal Socratic dialogue"
+    - "Testing your view against a weakened opponent provides no evidential value — only surviving the strongest objection tells you something about whether your position is actually defensible"
+    - "It helps maintain a collegial atmosphere, which makes participants more willing to update their views"
+  answer: 2
+  explanation: "The purpose of dialectic is truth, not victory. If you construct a strawman of the opposing view and defeat it, you have learned nothing about whether your own position is correct — you have only shown that your view is better than a weakened version of something else. The evidential value of surviving objection depends entirely on the strength of the objection. This is why the principle of charity is constitutive of dialectical method, not optional: weakening objections defeats the purpose of the inquiry."
+
+- question: "Aporia — ending a dialectical inquiry at an impasse where no satisfying answer has been reached — is a legitimate and epistemically valuable outcome of Socratic dialogue."
+  type: true-false
+  answer: true
+  explanation: "Aporia is not mere failure to agree; it is the discovery that a question is harder and more complex than naive confidence assumed. Beginning a dialogue thinking you understand what justice is and ending it knowing that you do not — and knowing specifically where your previous definition broke down — represents genuine intellectual progress. Socrates treated this as the beginning of real inquiry, not its end. Many Platonic dialogues, including the Euthyphro and Meno, end in exactly this state."
+
+- question: "Dialectical reasoning and debate are essentially the same practice, differing only in their formality — both aim to produce the strongest possible argument for one's position."
+  type: true-false
+  answer: false
+  explanation: "They differ fundamentally in goal and criterion of success. In debate, you are committed to a position and success means defeating the opposing position — rhetoric, consistency, and winning matter. In dialectic, you are committed to truth and success means developing a position that survives the strongest possible objections — even if that means abandoning or radically revising your starting view. Debate treats an objection as something to overcome; dialectic treats an objection as a tool for testing and refining. This is why the principle of charity is essential in dialectic but often irrelevant (or even counterproductive) in debate."
+
+- question: "What is elenchus in the Socratic method, and how is Socrates's famous claim to 'know nothing' connected to the dialectical method rather than being false modesty?"
+  type: short-answer
+  answer: "Elenchus is Socratic refutation: the process of exposing contradictions in an interlocutor's stated beliefs by deriving implications, applying definitions to counterexamples, and showing the position is internally inconsistent or insufficiently general. Socrates's claim to know nothing is the honest result of applying this method to his own beliefs: every definition he tests fails under elenchus, including his own. He is not being modest — he has genuinely discovered that he lacks the kind of systematic, defensible knowledge his interlocutors initially claimed to have. The claim is the output of the method turned inward."
+  explanation: "The connection is important: Socrates doesn't claim to know nothing as a rhetorical pose. He claims it because every time he rigorously tests a belief through dialectic — asking for a definition, deriving its implications, finding counterexamples — he finds the belief inadequate. This applies to his own beliefs as much as others'. The irony is that this intellectual honesty about ignorance (knowing that he doesn't know) is precisely what Socrates takes to be a kind of wisdom: it motivates continued inquiry rather than closing it off."
+```
+
 ## Explainer
 
 You already know the Socratic method as a questioning technique — asking someone to define their terms, then testing whether they can sustain that definition across cases. **Dialectical reasoning** is the broader framework that gives this questioning its philosophical purpose. The word comes from the Greek *dialektike*, the art of conversation, but in its philosophical sense it means something more specific: developing understanding through structured tension between opposing positions. The key insight is that objections are not obstacles to thinking — they are the engine of it.

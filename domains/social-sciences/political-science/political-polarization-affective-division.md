@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Political polarization combines ideological sorting (alignment of multiple policy positions along a single dimension) with affective polarization (emotional hostility toward opposing partisans). Modern polarization is driven by media fragmentation enabling selective exposure, geographic sorting of ideologically similar voters, and elite incentives to emphasize partisan conflict. High polarization raises the stakes of electoral competition, reduces legislative compromise, and can destabilize democratic institutions when partisan antagonism becomes existential rather than over policy disagreement.
 
+## Questions
+
+```yaml
+- question: "A political scientist argues that increasing polarization is primarily about citizens holding more extreme policy views. What does research on affective polarization suggest is incomplete about this picture?"
+  type: multiple-choice
+  options:
+    - "The more dramatic trend is increasing emotional hostility toward out-partisans — citizens dislike each other far more even without proportionally more extreme policy differences"
+    - "The political scientist is correct; policy extremism is the primary driver of democratic instability in polarized systems"
+    - "Affective hostility is simply an automatic byproduct of policy disagreement and disappears when policy issues are resolved"
+    - "Polarization has not actually increased; it only appears that way due to media framing and measurement artifacts"
+  answer: 0
+  explanation: "Research shows that while ideological sorting has occurred, the more dramatic and consequential shift is in affective polarization — the emotional hostility, distrust, and contempt that partisans feel toward out-party members as people. Survey data indicates that citizens' actual policy views have not moved as far apart as elite rhetoric suggests, but hostility toward out-partisans has increased dramatically. The focus on policy disagreement misses the more dangerous trend: the conflict is increasingly about identity and group antagonism, not policy substance."
+
+- question: "Two democracies have citizens with similar levels of policy disagreement. In Country A, citizens view opponents as holding wrong but legitimate views; in Country B, citizens view opponents as corrupt and existentially threatening. What does affective polarization research predict?"
+  type: multiple-choice
+  options:
+    - "Country B faces greater democratic instability — affective polarization erodes the mutual tolerance needed for peaceful power transfer, even when policy disagreement is similar"
+    - "Both countries face equal instability since policy disagreement is the root cause of democratic breakdown"
+    - "Country A faces greater instability because moderate disagreement produces more political apathy and low turnout"
+    - "Country B is more stable because high-stakes competition increases voter mobilization and democratic engagement"
+  answer: 0
+  explanation: "Affective polarization threatens democracy not through policy gridlock but by undermining mutual tolerance — the acceptance that political opponents have a legitimate right to govern if they win. When opponents are viewed as corrupt or existentially dangerous rather than wrong, losing an election feels catastrophic rather than normal. This erodes the willingness to accept electoral outcomes peacefully. Country B's hostility is dangerous precisely because it converts routine electoral competition into a perceived fight for survival."
+
+- question: "Geographic sorting — where people increasingly live near others with similar political views — contributes to affective polarization by reducing the interpersonal contact that could moderate partisan hostility."
+  type: true-false
+  answer: true
+  explanation: "True. When people live in politically homogeneous communities, they rarely have direct interpersonal relationships with members of the opposing party. This means their image of the 'other side' is formed primarily through media representations, which tend to emphasize extreme and antagonistic figures. Interpersonal contact with actual out-partisans — who are typically less extreme than media representations — is one of the forces that moderates hostility. Geographic sorting removes this moderating force and reinforces perceptions of the opposing party as uniformly threatening or extreme."
+
+- question: "The primary threat that affective polarization poses to democracy is policy gridlock — the inability of polarized legislatures to pass legislation and govern effectively."
+  type: true-false
+  answer: false
+  explanation: "False. While policy gridlock is a real consequence, it is not the primary threat. The deeper danger is to democratic norms of mutual tolerance and institutional restraint — the willingness to accept electoral defeat and the refusal to use institutional power to destroy opponents. When affective polarization reaches the point where the opposing party is viewed as existentially threatening, the incentive to circumvent democratic rules in order to prevent their victory becomes compelling. Democratic breakdown happens not through gridlock but through the collapse of the norms that make electoral competition peaceful."
+
+- question: "Why might increasing affective polarization threaten democratic stability even if citizens' actual policy positions have not moved to the extremes?"
+  type: short-answer
+  answer: "Affective polarization is about identity and group hostility, not policy substance — and democratic stability depends on norms that are threatened by identity conflict more than policy disagreement. Democracy requires that losers accept defeat and winners exercise restraint — norms of mutual tolerance and institutional forbearance. When opponents are viewed not as wrong but as corrupt, immoral, or existentially dangerous, these norms come under pressure: losing feels catastrophic rather than routine, and the temptation to violate democratic rules to prevent the 'dangerous' opponent from winning grows. Policy disagreement can be managed through normal democratic processes. It is the identity threat — 'these people are bad and dangerous' — that makes peaceful power transfer feel unacceptable."
+  explanation: "This is why researchers distinguish ideological polarization (policy) from affective polarization (hostility). The second is more predictive of democratic stress because it attacks the social preconditions for democracy — the ability to view opponents as legitimate participants in a shared political system — rather than just making policy compromise difficult."
+```
+
 ## Explainer
 
 From your prerequisite on political ideology, you understand that ideologies are coherent (or at least partially coherent) packages of beliefs about how society should be organized — connecting values, policy preferences, and visions of justice into a worldview. From your work on public opinion formation, you understand that individuals do not form their political views in isolation: they are shaped by social networks, media exposure, elite cueing, and identity. Polarization is what happens when these processes interact with political structures in ways that push ideologies apart and deepen the emotional stakes of partisan conflict.

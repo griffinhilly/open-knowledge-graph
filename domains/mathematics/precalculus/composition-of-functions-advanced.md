@@ -29,6 +29,45 @@ Start by evaluating compositions at specific numbers: find f(g(2)) step by step.
 - Assuming f(g(x)) = g(f(x)): composition is generally not commutative.
 - Forgetting domain restrictions inherited from the inner function.
 
+## Questions
+
+```yaml
+- question: "Let f(x) = x² and g(x) = x + 3. A student claims f(g(x)) = g(f(x)) because 'the same two functions are involved either way.' What is the correct evaluation of each at x = 2?"
+  type: multiple-choice
+  options:
+    - "f(g(2)) = 25, g(f(2)) = 25 — they are equal at x = 2"
+    - "f(g(2)) = 25, g(f(2)) = 7 — they differ because composition is not commutative"
+    - "f(g(2)) = 10, g(f(2)) = 10 — composition is commutative for polynomials"
+    - "f(g(2)) = 7, g(f(2)) = 25 — the inner function always produces the larger result"
+  answer: 1
+  explanation: "f(g(2)) = f(5) = 25; g(f(2)) = g(4) = 7. The student's claim is wrong — composition is generally NOT commutative. The inner function executes first, and swapping which function is 'inner' changes the computation entirely. Always track the order carefully: f(g(x)) means apply g first, then f to whatever g produced."
+
+- question: "Let g(x) = √x and f(x) = 1/(x − 4). What values must be excluded from the domain of f(g(x))?"
+  type: multiple-choice
+  options:
+    - "Only x = 4, because f is undefined there"
+    - "Only x < 0, because g is undefined for negative inputs"
+    - "x < 0 and x = 4, because both sources of restriction apply"
+    - "x < 0 and x = 16, because g(x) = 4 when x = 16, making f undefined"
+  answer: 3
+  explanation: "The domain of f(g(x)) has two sources of restriction: (1) g(x) = √x requires x ≥ 0; (2) f(u) = 1/(u − 4) is undefined when u = 4, and g(x) = 4 only when x = 16. So x = 16 must also be excluded. The trap in option B is forgetting to check whether the inner function's output lands in a gap in the outer function's domain — both sources of trouble must be caught."
+
+- question: "For f(x) = x² and g(x) = x + 1, the composition f(g(x)) equals x² + 2x + 1."
+  type: true-false
+  answer: true
+  explanation: "f(g(x)) = f(x + 1) = (x + 1)² = x² + 2x + 1. This is correct. The inner function g produces (x + 1), and the outer function f squares whatever it receives. Note that g(f(x)) = g(x²) = x² + 1 — a completely different function — which illustrates why knowing the order of composition matters."
+
+- question: "If f(g(x)) is defined at x = 3, then g(f(x)) is necessarily defined at x = 3 as well."
+  type: true-false
+  answer: false
+  explanation: "The two compositions can have entirely different domains. f(g(x)) requires x to be in the domain of g and g(x) to be in the domain of f. g(f(x)) requires x to be in the domain of f and f(x) to be in the domain of g — a completely separate set of conditions. A value that satisfies the first pair of conditions need not satisfy the second pair."
+
+- question: "Why does mastering function composition matter for calculus, and what specific skill should you practice now to prepare for it?"
+  type: short-answer
+  answer: "The chain rule — the most-used differentiation rule — says that if h(x) = f(g(x)), then h'(x) = f'(g(x)) · g'(x). To apply it, you must identify which part of a complex expression is the 'outer' function f and which is the 'inner' function g. For example, in h(x) = sin(x²), f(u) = sin(u) is outer and g(x) = x² is inner. The skill to practice now is decomposition: given a complicated expression, name its layers."
+  explanation: "Function composition is the conceptual engine behind the chain rule. Students who struggle with the chain rule in calculus almost always struggle because they can't identify which function is inside which — they treat the whole expression as a single flat object. Practicing decomposition (given h, find f and g such that h = f ∘ g) directly trains the skill the chain rule demands."
+```
+
 ## Explainer
 
 **Function composition** is how you build complex processes out of simpler ones by chaining them together. You already know from function notation that a function f takes an input x and produces an output f(x). Composition simply says: take the output of one function and feed it as the input to another. Written (f ∘ g)(x) = f(g(x)), you first apply g, then apply f to whatever g produced. Think of it as a two-stage pipeline: input → g → g(x) → f → f(g(x)).

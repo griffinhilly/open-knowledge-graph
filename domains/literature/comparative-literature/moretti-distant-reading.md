@@ -30,6 +30,45 @@ Engage with Moretti's visualizations (charts of novel form evolution, maps of wo
 ## Common Misconceptions
 That Moretti dismisses close reading or treats literature as mere data. He's arguing that close and distant reading are complementary—that panoramic views of literary systems can generate new hypotheses for interpretive reading.
 
+## Questions
+
+```yaml
+- question: "Moretti argues that close reading alone is insufficient for understanding literary history. What is his central reason?"
+  type: multiple-choice
+  options:
+    - "Individual texts are too complex and ambiguous to yield reliable interpretations"
+    - "The canonical sample that close reading draws from is so small relative to total literary production that it may be systematically misleading about how literature actually works and changes"
+    - "Digital tools have made textual interpretation obsolete"
+    - "Canonical texts are chosen based on cultural prestige rather than literary innovation, so they misrepresent literary form"
+  answer: 1
+  explanation: "Moretti's argument is fundamentally about sample size and sampling bias. The Western literary canon represents roughly two hundred texts discussed seriously; but the nineteenth-century novel alone ran to thousands of titles per decade per country. A critic who has read every canonical novel has read an extraordinarily small and non-random slice. Structural patterns that appear and disappear across the full population may be invisible in the canonical sample — or worse, the canon may create a false picture of what literature 'does.' This is why counting matters: it reaches what close reading cannot."
+
+- question: "Using distant reading, a literary historian discovers that the cliffhanger chapter ending peaked in British fiction in the 1860s–1880s and then rapidly disappeared. What is the appropriate methodological next step?"
+  type: multiple-choice
+  options:
+    - "Use computational tools to identify additional formal patterns in the same period"
+    - "Dismiss the finding since quantitative patterns have no bearing on literary meaning"
+    - "Use close reading, cultural context, and institutional analysis to explain why this pattern arose and why it disappeared"
+    - "Compare a French corpus to determine whether the pattern is culturally specific before drawing conclusions"
+  answer: 2
+  explanation: "This is Moretti's own position on the relationship between the two methods. Distant reading finds the pattern — the what and the when. Explaining why a formal feature peaks and recedes requires the cultural, institutional, and interpretive work that only close reading and contextual analysis can provide. The graph poses the question; the historical explanation answers it. Option D might be useful supplementary work but is not the core next step. Option A mistakes pattern-finding for explanation."
+
+- question: "Moretti argues that distant reading should replace close reading, since individual text analysis is inevitably subjective and unscalable."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about Moretti's project, and he explicitly addresses it. Distant reading and close reading are complementary, not competing. Distant reading reveals large-scale patterns that generate hypotheses for interpretive work; close reading explains those patterns by returning to texts with new questions in hand. Moretti is not arguing that literature should be treated as mere data — he is arguing that panoramic statistical views of literary systems should inform which questions we bring to individual texts."
+
+- question: "From Moretti's perspective, studying the literary canon alone may give a systematically misleading picture of literary history because the canon represents a tiny and non-random sample of total literary production."
+  type: true-false
+  answer: true
+  explanation: "This is the empirical foundation of Moretti's argument. If the texts that survive critical attention are selected for reasons (cultural prestige, perceived quality, national identity) unrelated to the structural patterns that actually drove literary change, then a history based on those texts will misattribute causes and miss the dominant forms. Genre waves, formal conventions, and circulation patterns that shaped what readers encountered across a century may be entirely absent from the hundred 'great works' discussed in literary history."
+
+- question: "What does Moretti mean when he says that some questions about literature 'cannot be answered by reading more carefully — they require counting'? Give an example of such a question."
+  type: short-answer
+  answer: "Moretti means that some questions are inherently about populations and distributions, not about the meaning of individual texts. For example: 'What fraction of nineteenth-century British novels were written by women, and how did that fraction change decade by decade?' or 'Did first-person confessional narrators peak in one genre before spreading to others?' These questions have definite answers, but the answers require data about thousands of texts — titles, dates, genres, authorship, publication figures. No amount of careful reading of Dickens or Eliot or Hardy will tell you about the novels that were not selected for the canon. The only way to answer population-level questions is with population-level data."
+  explanation: "The point is not that quantitative questions are more important than interpretive ones, but that they are a different kind of question requiring a different method. Moretti's contribution is to show that literary history has been asking only the questions that close reading can answer, and thereby missing the questions about system-level patterns that reveal how literature actually functions as a social institution."
+```
+
 ## Explainer
 
 You've been trained in comparative literary analysis — the careful work of reading texts closely, comparing authors, noticing how different writers handle shared problems. Moretti's provocation is direct: that method, however well executed, can only ever account for a tiny fraction of what has been written. The Western literary canon represents roughly two hundred texts discussed seriously across critical history. But the novel alone, in the nineteenth century, was produced in thousands of titles per decade per country. Close reading's sample is so small it may be systematically misleading about what literature actually does and how it changes.

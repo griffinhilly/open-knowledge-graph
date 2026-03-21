@@ -29,6 +29,45 @@ Examine Vp/Vs values from well logs and compare them to core samples and laborat
 ## Common Misconceptions
 Vp/Vs uniquely determines rock type (multiple lithologies can have identical ratios). The ratio is constant across all rock types (it varies significantly with composition, porosity, and fluids).
 
+## Questions
+
+```yaml
+- question: "A seismic survey reveals a sandstone reservoir zone with Vp/Vs = 1.55. Laboratory measurements on dry sandstone cores from the same formation give Vp/Vs ≈ 1.65–1.70. What does the anomalously low ratio most likely indicate?"
+  type: multiple-choice
+  options:
+    - "Water saturation — water increases both Vp and Vs proportionally, reducing their ratio"
+    - "Gas saturation — gas dramatically reduces Vp (gas is highly compressible) while Vs is nearly unchanged, lowering the ratio below the dry-rock value"
+    - "Higher clay content — clay-rich rocks consistently have lower Vp/Vs than clean sandstone"
+    - "Greater burial depth — increased confining pressure reduces the Vp/Vs ratio"
+  answer: 1
+  explanation: "Gas is highly compressible, so saturating the rock with gas sharply lowers Vp by reducing the effective bulk modulus. Meanwhile, S-waves depend only on the shear modulus of the rock frame, not on the pore fluid (gas contributes no shear strength), so Vs stays nearly the same. The result is a Vp/Vs ratio that falls below the dry-rock value. Water saturation does the opposite — water increases the bulk modulus (and therefore Vp) while Vs is barely affected, pushing Vp/Vs above the dry value."
+
+- question: "Two identical sandstone cores are measured in the lab — one at the confining pressure equivalent to 1 km depth, the other at 4 km depth. What would you expect for their Vp/Vs ratios?"
+  type: multiple-choice
+  options:
+    - "The deeper sample has much higher Vp/Vs because pressure increases Vp more than Vs"
+    - "The shallower sample has higher Vp/Vs because near-surface rocks contain more pore fluid"
+    - "Both samples have similar Vp/Vs because pressure increases both Vp and Vs at comparable rates, so the effect largely cancels in the ratio"
+    - "The deeper sample has lower Vp/Vs because compaction at depth reduces porosity and disproportionately affects P-wave velocity"
+  answer: 2
+  explanation: "Both Vp and Vs increase with confining pressure at similar rates because pressure closes cracks and stiffens the rock frame — affecting both wave types. Because the pressure effect applies similarly to both velocities, their ratio stays relatively stable. This is the key diagnostic advantage of Vp/Vs over individual velocities: by taking the ratio, you cancel out the dominant pressure effect and isolate the signal from fluid content and lithology. A Vp/Vs anomaly at depth almost certainly reflects composition or fluids, not just burial depth."
+
+- question: "A water-saturated rock will have a higher Vp/Vs ratio than the same rock when dry, because water increases Vp while leaving Vs nearly unchanged."
+  type: true-false
+  answer: true
+  explanation: "Water has a bulk modulus (~2.2 GPa) that adds to the rock frame's resistance to compression, increasing Vp. Water has zero shear modulus — it cannot resist shear deformation — so it contributes nothing to Vs. The result is a higher Vp with nearly the same Vs, meaning Vp/Vs rises. For typical sandstones, dry Vp/Vs ≈ 1.6–1.7 and water-saturated Vp/Vs ≈ 1.9–2.1. Gas saturation does the opposite, reducing Vp/Vs below the dry value."
+
+- question: "Because Vp/Vs is relatively independent of pressure, knowing a formation's Vp/Vs ratio uniquely identifies its lithology."
+  type: true-false
+  answer: false
+  explanation: "Vp/Vs cancels out the pressure effect but does NOT uniquely determine lithology. Multiple rock types can have overlapping or identical Vp/Vs values. For example, some shales and carbonates can have similar ratios despite being completely different lithologies. Porosity, clay content, cementation, and fluid saturation all shift the ratio, and their effects can partially offset each other. Vp/Vs is a powerful diagnostic indicator — especially for fluid detection — but it must be interpreted alongside other information such as absolute velocities, impedance, and geological context."
+
+- question: "Explain why the Vp/Vs ratio is a more useful indicator of pore fluid content than either Vp or Vs measured individually."
+  type: short-answer
+  answer: "P-wave velocity (Vp) increases with both burial depth (pressure closes cracks, stiffening the rock) and water saturation. If you observe a high Vp, you cannot tell whether it is because the rock is deep or because it is water-saturated. S-wave velocity (Vs) is similarly affected by pressure. The ratio Vp/Vs cancels out the pressure effect because both velocities respond to pressure at similar rates. What remains in the ratio is the differential response to fluids: water raises Vp (adds bulk modulus) but barely changes Vs (no shear strength), pushing Vp/Vs up. Gas lowers Vp (high compressibility) but barely changes Vs, pushing Vp/Vs down. The ratio isolates the fluid signal from the confounding depth/pressure signal."
+  explanation: "This is why seismic interpreters use Vp/Vs (or equivalently, Poisson's ratio derived from it) for fluid discrimination rather than plotting Vp alone. In a depth-varying subsurface, absolute velocities change with pressure even in uniform rock. The ratio corrects for this, making anomalies in Vp/Vs strong candidates for fluid or lithology changes rather than depth effects."
+```
+
 ## Explainer
 
 From your study of P- and S-wave body waves, you know that these two wave types travel at different speeds determined by different elastic properties of the rock. **P-waves** depend on both the bulk modulus (resistance to compression) and shear modulus, while **S-waves** depend only on the shear modulus. The **Vp/Vs ratio** exploits this difference: because P- and S-waves respond differently to changes in rock properties, their ratio isolates information that neither velocity alone can provide.

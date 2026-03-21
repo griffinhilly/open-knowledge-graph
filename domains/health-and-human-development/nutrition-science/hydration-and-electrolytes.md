@@ -31,6 +31,45 @@ Water constitutes approximately 60% of adult body weight and is essential for th
 - Eight glasses of water per day is a universal requirement; water needs vary by body size, activity, climate, and dietary composition.
 - Thirst is always a reliable hydration indicator; elderly individuals have diminished thirst sensation and are at elevated risk of dehydration.
 
+## Questions
+
+```yaml
+- question: "An endurance runner finishes a 5-hour race. She drank large amounts of plain water throughout and now presents with headache, confusion, and nausea. The most likely diagnosis is:"
+  type: multiple-choice
+  options:
+    - "Severe dehydration — she did not drink enough water to replace sweat losses"
+    - "Hyponatremia — excessive plain water intake diluted plasma sodium, causing brain cell swelling"
+    - "Heat exhaustion from inadequate cooling, unrelated to her hydration choices"
+    - "Caffeine withdrawal from avoiding energy drinks during the race"
+  answer: 1
+  explanation: "The scenario describes exercise-associated hyponatremia: replacing large sweat losses with plain water, without sodium, dilutes plasma sodium below the safe range (~135 mEq/L). As plasma osmolality falls, ADH is suppressed and excess water is excreted — but over many hours of continuous drinking, plasma sodium continues to fall. The brain cells swell in response to the osmotic gradient (water moves into cells as extracellular osmolality drops), causing the neurological symptoms of headache, confusion, and in severe cases, seizure and death. The misconception is that symptoms after endurance exercise always indicate dehydration; over-hydration with plain water produces its own distinct and serious syndrome."
+
+- question: "Why do oral rehydration solutions (ORS) include sodium alongside water and glucose, rather than simply providing water and glucose for energy?"
+  type: multiple-choice
+  options:
+    - "Sodium improves the taste of ORS, encouraging people to drink more during illness"
+    - "Sodium is needed to maintain plasma osmolality and the osmotic drive to retain water; glucose enhances sodium absorption via the SGLT1 cotransporter, so the combination restores plasma volume more effectively than water alone"
+    - "Sodium prevents glucose from being too rapidly absorbed, slowing the energy spike and preventing hyperglycemia"
+    - "ORS sodium replaces potassium lost in diarrhea; the two electrolytes are interchangeable in the gut"
+  answer: 1
+  explanation: "Sodium is the dominant cation of extracellular fluid and the primary determinant of plasma osmolality. Replacing fluid losses with plain water lowers plasma sodium and osmolality, which suppresses ADH — removing the hormonal signal to retain water — and the kidneys excrete the replacement fluid before it can restore plasma volume. Adding sodium maintains osmolality and the drive for water retention. The SGLT1 glucose-sodium cotransporter in the intestinal epithelium couples glucose absorption to sodium uptake, so glucose in ORS accelerates sodium (and therefore water) absorption even in a damaged gut. This is why ORS is so effective: it exploits an intact absorption mechanism that persists even during diarrheal illness."
+
+- question: "During endurance exercise, thirst is a reliable real-time indicator of hydration status, and athletes should drink water whenever they feel thirsty to maintain optimal performance."
+  type: true-false
+  answer: false
+  explanation: "Thirst is a lagging indicator of dehydration. By the time significant thirst is felt, physiological dehydration has usually already begun impairing performance — plasma volume has fallen, cardiac output has decreased, and thermoregulation is compromised. The threshold for triggering thirst (roughly 1–2% body weight water deficit) is the same threshold at which cognitive and physical performance begin to decline. For athletes in hot environments or during prolonged exercise, relying on thirst alone means always being slightly behind. Scheduled fluid intake (proactive hydration) rather than reactive thirst-driven drinking is the practical recommendation for maintaining optimal performance and safety."
+
+- question: "Replacing large sweat losses with plain water can lower blood sodium concentration because the replacement fluid lacks the sodium needed to maintain plasma osmolality."
+  type: true-false
+  answer: true
+  explanation: "Sweat contains sodium (roughly 0.5–1.5 g/L). Replacing sweat volume with sodium-free water creates a net dilution of plasma: you restore the water volume but not the electrolytes. As plasma sodium falls, osmolality drops, ADH release is suppressed (reducing the drive to retain water), and the kidneys begin excreting the dilute fluid — but not fast enough to prevent plasma sodium from continuing to fall if intake outpaces excretion. In endurance events lasting more than 4–6 hours, cumulative dilution can reach dangerous levels (hyponatremia: sodium < 135 mEq/L). Adding sodium to replacement fluids — through sports drinks, salt tablets, or electrolyte solutions — prevents this dilution by maintaining the osmotic balance."
+
+- question: "Explain why drinking large amounts of plain water during a long endurance event can be dangerous, even when the athlete is genuinely losing fluids through sweat."
+  type: short-answer
+  answer: "Sweat is a dilute salt solution — it contains sodium, potassium, and chloride, not just water. When plain water replaces sweat volume, the water is restored but the electrolytes are not, progressively diluting plasma sodium concentration. As plasma osmolality falls below normal (~285–295 mOsm/kg), ADH secretion is suppressed, which normally would cause the kidneys to excrete excess water. But in endurance athletes who keep drinking, intake can outpace renal excretion, and plasma sodium continues to fall. Below ~135 mEq/L (hyponatremia), the osmotic gradient drives water into cells including brain cells. The skull cannot accommodate brain swelling, so intracranial pressure rises, causing headache, confusion, and in severe cases, brainstem herniation and death. The danger is compounded by the fact that early hyponatremia symptoms (nausea, bloating) resemble mild dehydration, potentially prompting more water intake."
+  explanation: "The key insight is that hydration is not just about water volume — it is about maintaining the correct osmotic balance between intracellular and extracellular compartments. This requires replacing both water and the electrolytes lost with it. For exercise lasting more than about 2 hours, or whenever sweat losses are large, electrolyte replacement alongside fluid becomes physiologically necessary, not just performance-enhancing."
+```
+
 ## Explainer
 
 From your study of fluid balance and electrolytes, you know that body water is distributed across compartments — **intracellular fluid (ICF)** and **extracellular fluid (ECF)** (plasma plus interstitial fluid) — and that **osmotic gradients** determine how water moves between them. From renal anatomy, you know that the kidney regulates water volume via antidiuretic hormone (ADH) and sodium balance via the renin-angiotensin-aldosterone system. Practical hydration and electrolyte nutrition are the downstream consequence of those physiological mechanisms encountering the challenges of exercise, heat, illness, and diet.

@@ -25,6 +25,45 @@ Historiography—how historians understand and write history—is not uniform. D
 ## How It's Best Learned
 Read brief excerpts from historians representing different schools. Notice what questions each prioritizes, what sources they use, what they consider 'good evidence,' and what patterns they see. Discuss why the same historical period produces such different interpretations.
 
+## Questions
+
+```yaml
+- question: "Carlo Ginzburg's The Cheese and the Worms reconstructs the idiosyncratic cosmology of a single sixteenth-century Italian miller using Inquisition trial records. Which historiographical school does this best exemplify?"
+  type: multiple-choice
+  options:
+    - "Marxist historiography, because it centers the experience of a working-class laborer"
+    - "Postcolonial historiography, because it recovers a voice suppressed by a dominant institution"
+    - "Microhistory, because it uses a single small-scale case to illuminate broader historical questions"
+    - "Annales school historiography, because it emphasizes long-term structures over individual events"
+  answer: 2
+  explanation: "Ginzburg's work is the paradigmatic example of microhistory: the choice to zoom to the smallest scale — one man, one set of records — and use that particularity to crack open questions about popular cosmology, the reach of elite culture, and how ordinary people in early modern Europe understood their world. The key microhistorical move is that the small case is chosen precisely because its particularity illuminates something larger. It is not social history (which recovers aggregate patterns) or Annales (which emphasizes long-term geography and structure)."
+
+- question: "Postcolonial historiography's central intervention in the field was to add non-European topics to an otherwise unchanged historical framework. What is a more accurate description of its challenge to existing historiography?"
+  type: multiple-choice
+  options:
+    - "It added chapters on African, Asian, and Latin American history to existing world history textbooks"
+    - "It argued that European history had been treated as the universal template against which all other societies were measured — embedding colonial assumptions into the structure of historical inquiry itself"
+    - "It focused exclusively on recovering the political histories of formerly colonized nations after independence"
+    - "It challenged Western historians to use oral rather than written sources when studying non-Western societies"
+  answer: 1
+  explanation: "Postcolonial historiography — developed by scholars like Dipesh Chakrabarty — made a structural critique, not an additive one. The problem wasn't merely that non-European topics were underrepresented; it was that European history had been made into the norm, the standard trajectory against which all others were measured and found 'backward' or 'transitional.' This provincial standard was invisible to Western historians because it was assumed, not argued. Postcolonial historians exposed these embedded assumptions and challenged historians to see their own frameworks as culturally specific rather than universal."
+
+- question: "Historians from different schools — say, a Marxist and a postcolonial historian — can produce substantially different interpretations of the same historical period."
+  type: true-false
+  answer: true
+  explanation: "True — this is one of the core lessons of studying historiographical schools. Historians don't simply 'find' facts: they select questions, choose sources, and frame interpretations within broader assumptions about what drives history and whose experiences matter. A Marxist historian of colonial Africa focuses on economic extraction and class formation; a postcolonial historian focuses on cultural domination, indigenous perspectives, and how colonial archives suppress certain voices. The same archive, the same period, different questions, different histories. Recognizing this is not relativism — it is understanding how historical knowledge is produced."
+
+- question: "Marxist historiography reduces all historical explanation to class conflict, leaving no room for religious, cultural, or contingent factors in historical causation."
+  type: true-false
+  answer: false
+  explanation: "False — this is a caricature of Marxist historiography, though one that some critics advance. Sophisticated Marxist historians incorporate ideology, culture, and contingency as real historical forces; the Marxist claim is that material conditions and class relations are primary or structurally determinative, not that everything else is irrelevant. Historians like E.P. Thompson gave extensive attention to culture, experience, and consciousness in working-class formation. Even if one rejects the Marxist framework, the actual practice of Marxist historiography is more nuanced than 'everything is class conflict.'"
+
+- question: "Why does identifying which historiographical school a historian belongs to help you evaluate their argument more effectively?"
+  type: short-answer
+  answer: "A historiographical school is a set of assumptions about what drives historical change, whose experiences count as evidence, what sources are valued, and what questions are worth asking. Knowing a historian's school lets you evaluate their argument on its own terms: you can ask whether they applied their framework consistently, whether the evidence they chose is appropriate to their questions, and what their framework might have caused them to miss. Without this context, you might reject a Marxist analysis for 'ignoring culture' without realizing it was never trying to explain culture — it was explaining economic structure. The school defines the terms of the argument."
+  explanation: "This is the difference between external critique (judging a historian by standards they don't accept) and internal critique (judging a historian by whether they succeeded on their own terms). Both are valid, but internal critique is often more productive because it engages the actual claim. It also reveals the limits of each school: what it illuminates and what it systematically cannot see. A postcolonial historian misses class dynamics that a Marxist would catch; a microhistorian's single case may not generalize; an Annales historian's long-term structures may miss the contingent event that changed everything."
+```
+
 ## Explainer
 
 From your introduction to historiography, you know that historians do not simply "find" facts — they select, interpret, and frame evidence within broader assumptions about what history is and what it is for. **Historiographical schools** are traditions that share a set of those assumptions: about what forces drive historical change, whose experiences matter, what counts as evidence, and what questions are worth asking. Recognizing which school a historian belongs to is not a labeling exercise; it is the key to reading their work critically.

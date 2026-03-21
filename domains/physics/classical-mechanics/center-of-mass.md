@@ -38,6 +38,45 @@ Compute CM positions for simple discrete systems (two masses on a rod) and verif
 - Thinking the CM must be located inside the object: for a ring or hollow shell, the CM lies at the geometric center where there is no material.
 - Confusing the CM (weighted by mass) with the geometric centroid (weighted by volume) when density is nonuniform.
 
+## Questions
+
+```yaml
+- question: "An astronaut floating in space throws a wrench from one hand to the other. Ignoring all external forces, what happens to the center of mass of the (astronaut + wrench) system?"
+  type: multiple-choice
+  options:
+    - "It shifts toward the astronaut's body, since she is much heavier than the wrench"
+    - "It remains stationary — internal forces between astronaut and wrench cannot change the CM's motion"
+    - "It accelerates in the direction the wrench is thrown"
+    - "It moves toward the point where the total momentum is zero"
+  answer: 1
+  explanation: "With no external forces, F_net = 0, so the CM acceleration is zero — the CM stays put (or moves at constant velocity if it was already moving). The throw is an internal interaction: the astronaut pushes the wrench, and the wrench pushes back equally on the astronaut. These internal forces cancel in pairs when summing across the whole system. The individual pieces (astronaut, wrench) each move, but the mass-weighted average position — the CM — does not change. This is a direct consequence of Newton's third law applied to the internal force pairs."
+
+- question: "An artillery shell explodes into three fragments mid-flight. Ignoring air resistance after the explosion, what can you say about the center of mass of the three fragments?"
+  type: multiple-choice
+  options:
+    - "The CM stops because kinetic energy is converted to heat and sound in the explosion"
+    - "The CM follows a new trajectory determined by the largest fragment's momentum"
+    - "The CM continues along the same parabolic trajectory the intact shell was following, because the explosion forces are internal to the system"
+    - "The CM cannot be tracked after the explosion since the fragments are no longer a single rigid object"
+  answer: 2
+  explanation: "The explosion is an internal event — the forces driving the fragments apart are interactions between parts of the system, so they cancel when computing net external force. The only external force acting is gravity, which was already determining the parabolic trajectory of the intact shell. After the explosion, gravity acts on each fragment, and the net external force on the system is still just the total weight M·g downward. So F_net = M·a_cm is unchanged, and the CM parabola continues exactly as before. This is one of the most elegant applications of CM dynamics."
+
+- question: "The center of mass of a solid object must always be located at a point inside the object where there is physical material."
+  type: true-false
+  answer: false
+  explanation: "For objects with holes or curved geometry, the CM can lie outside the physical material. The classic example is a ring: its CM is at the geometric center of the ring, where there is no material at all. Similarly, a hollow spherical shell has its CM at its center (empty space). The CM is a mathematical weighted average of mass distribution, not a physical point of the object. This matters for dynamics: a spinning ring rotates around its geometric center (the CM in free space), even though no part of the ring is actually there."
+
+- question: "If the net external force on a system of particles is zero, the center of mass moves at constant velocity — which is equivalent to conservation of total momentum."
+  type: true-false
+  answer: true
+  explanation: "F_net = M·a_cm, so if F_net = 0 then a_cm = 0, meaning the CM moves at constant velocity v_cm. Total momentum is p_total = M·v_cm, so constant v_cm means constant p_total. These are two ways of expressing the same physical fact: with no external forces, the total momentum of the system is conserved. This is why CM dynamics and momentum conservation are not separate principles — they are the same principle viewed from different angles."
+
+- question: "Why do internal forces between parts of a system not affect the center of mass's acceleration, even when those internal forces are very large?"
+  type: short-answer
+  answer: "By Newton's third law, every internal force has an equal and opposite reaction within the system. If particle A exerts force F on particle B, then B exerts −F on A. When you sum all forces across all particles to find the net force on the system, every action-reaction pair cancels exactly. What remains is only the sum of external forces — forces exerted on the system by the outside world. So F_net(external) = M·a_cm, and the CM responds only to external influences, regardless of how large the internal forces are."
+  explanation: "This is what makes the CM such a powerful simplification. A baseball's molecular bonds exert enormous forces on each other internally, yet none of that affects the CM trajectory. An exploding bomb has massive internal forces, yet the CM continues its original path. The CM 'ignores' all internal complexity and responds only to what the outside world does. This is why you can treat complex objects as point masses for translational dynamics."
+```
+
 ## Explainer
 
 The center of mass is the single most useful simplification in the mechanics of multi-part systems. When you have a complex object — a rigid body, a collection of particles, a system of interacting masses — you often don't need to track every individual part. From your prerequisite in **Newton's second law**, you know that F = ma for a single particle. The center-of-mass theorem extends this: **F_net = M · a_cm**, where F_net is the total *external* force, M is the total mass, and a_cm is the acceleration of the center of mass. Every internal force — the molecular bonds holding a baseball together, the mutual gravitational attraction between Earth and Moon — cancels out in pairs by Newton's third law. Only what the *outside* does to the system matters for CM motion.

@@ -30,6 +30,45 @@ Build on students' existing knowledge of slope-intercept form by rewriting y = m
 - Thinking f(x) means "f times x" instead of "the output of function f at input x."
 - Believing the domain of a linear function must be restricted to integers or positive numbers, when in pure math it is all real numbers unless otherwise stated.
 
+## Questions
+
+```yaml
+- question: "A student writes: 'f(3) = 2x + 1 evaluated at x = 3.' Their answer is f(3) = 7. What is wrong with their reasoning, if anything?"
+  type: multiple-choice
+  options:
+    - "Nothing is wrong — f(3) = 7 is correct"
+    - "They used the wrong formula; you must substitute before writing f(3)"
+    - "f(3) means f multiplied by 3, so the answer should be 3f, not 7"
+    - "The domain of f(x) = 2x + 1 does not include x = 3"
+  answer: 0
+  explanation: "The reasoning is valid and the answer is correct. f(3) is precisely the question 'what does this function return when the input is 3?' — substituting x = 3 into 2x + 1 gives 7. The common confusion is option C: thinking f(x) means f *times* x. In function notation, f(x) is not multiplication — it means 'the output of function f at input x.' The notation exists specifically to make this input-output relationship explicit."
+
+- question: "A scenario: a phone plan charges $30/month plus $0.10 per text message. Let f(x) = 0.10x + 30, where x is number of texts. A student says 'the domain of this function is all real numbers.' Are they correct?"
+  type: multiple-choice
+  options:
+    - "Yes — as a mathematical function, f(x) = 0.10x + 30 accepts any real number"
+    - "No — the domain must be restricted to positive integers since you can't send a negative or fractional text"
+    - "No — the domain must be restricted to values that make f(x) positive"
+    - "Yes — but only because the slope is positive"
+  answer: 1
+  explanation: "In this context, the student is wrong. The real-world scenario restricts the domain: x must be a non-negative integer (you can't send −5 texts or 2.7 texts). The *mathematical* function f(x) = 0.10x + 30 has all real numbers as its domain, but context can and does restrict it. This distinction — between the pure mathematical domain and the contextually constrained domain — is a key skill in linear functions. The answer is B: the context forces a restriction to whole numbers ≥ 0."
+
+- question: "For a non-zero linear function f(x) = mx + b, the range is always a proper subset of the real numbers."
+  type: true-false
+  answer: false
+  explanation: "False. For f(x) = mx + b with m ≠ 0, the range is *all* real numbers. As x takes every real number value, mx + b hits every real number — the output grows without bound as x increases or decreases. The range is only restricted if m = 0 (a horizontal line), in which case the range is the single value {b}, or if the context restricts the domain. The common misconception is thinking range must be limited the way it is for quadratics or other non-linear functions."
+
+- question: "The equation y = 3x + 5 and the equation f(x) = 3x + 5 represent fundamentally the same mathematical object."
+  type: true-false
+  answer: true
+  explanation: "True — they describe the same relationship. Function notation f(x) = 3x + 5 is simply a rewriting of y = 3x + 5 that makes the input-output structure explicit. The variable y is replaced by f(x) to emphasize that 'y is the output of function f when x is the input.' Both have the same slope (3), the same y-intercept (5), and the same graph. The advantage of function notation is practical: f(3) asks a specific question, whereas 'let x = 3 in y = 3x + 5' is more cumbersome and doesn't generalize as cleanly to comparing multiple functions."
+
+- question: "Why does the slope of a linear function represent a 'constant rate of change,' and why does that constancy matter?"
+  type: short-answer
+  answer: "For every 1-unit increase in input x, the output increases by exactly m — the slope — no matter where on the domain you are. This is what makes the function linear: the rate never accelerates or decelerates. It matters because it allows prediction from any point: if you know the slope and one output, you can compute any other output without needing to re-examine the function."
+  explanation: "The constancy distinguishes linear functions from all others. In a quadratic, the rate of change itself changes (it speeds up or slows down). In a linear function, the ratio (change in output)/(change in input) is identical at every point. This means real-world linear models — cost per unit, speed at constant velocity, temperature conversion — allow exact prediction without knowing where you 'started.' The slope is the entire story of how the output responds to the input."
+```
+
 ## Explainer
 
 You already know how to graph y = mx + b and interpret the slope as rise over run. The shift to **function notation** — writing f(x) = mx + b instead of y = mx + b — is not just cosmetic. It turns the equation into a machine: you feed in any value of x, and the machine returns exactly one output. Writing f(3) = 2(3) + 1 = 7 makes the input-output relationship explicit in a way that "let x = 3" does not. The notation f(3) asks a specific question: "what does this function return when the input is 3?" The answer is a number, 7, not a new equation.

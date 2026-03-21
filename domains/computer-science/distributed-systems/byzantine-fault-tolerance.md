@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Byzantine fault tolerance (BFT) handles nodes that fail arbitrarily, including lying to different nodes. Consensus among n nodes tolerating f Byzantine failures requires n > 3f. Practical BFT (PBFT) uses a primary and backups, with request phases (pre-prepare, prepare, commit) coordinated by the primary; backups ensure agreement before committing.
 
+## Questions
+
+```yaml
+- question: "A distributed system has 10 nodes. What is the maximum number of Byzantine failures it can tolerate while still achieving consensus?"
+  type: multiple-choice
+  options:
+    - "4 — because 10 > 3×4 = 12 is false, but 10 > 3×3 = 9 is true"
+    - "5 — a simple majority of 10 nodes means half can be faulty"
+    - "3 — because n > 3f requires f < 10/3 ≈ 3.33, so f ≤ 3"
+    - "2 — because safety requires at least 3× the faults to be honest nodes"
+  answer: 2
+  explanation: "The bound n > 3f means f < n/3. With n = 10, f < 3.33, so the maximum is f = 3. With f = 3, n = 10 > 3×3 = 9. Option B reflects the crash fault tolerance threshold (n > 2f), not BFT. Option A confuses the direction of the inequality. The one-third bound is a proven lower bound — it is not a design choice but a mathematical consequence of the Byzantine Generals Problem."
+
+- question: "An engineering team is building an internal distributed database for a company's own servers. Some nodes occasionally crash. Which fault tolerance model is most appropriate, and why?"
+  type: multiple-choice
+  options:
+    - "Byzantine fault tolerance — because any production system should use the strongest possible guarantees"
+    - "Crash fault tolerance (e.g., Raft or Paxos) — because the nodes are trusted and only crash failures are expected"
+    - "Byzantine fault tolerance — because crashed nodes can send conflicting messages before stopping"
+    - "No fault tolerance is needed — internal servers can be considered reliable"
+  answer: 1
+  explanation: "BFT is necessary when nodes may be actively malicious or send different messages to different peers — scenarios that arise when nodes are controlled by different, potentially adversarial parties (e.g., blockchain networks). In an internal corporate system, nodes are trusted and only crash failures (stop-and-stay-down) are expected. Crash fault tolerance (Raft, Paxos) handles this at O(n) message complexity, whereas BFT costs O(n²) per round. Choosing BFT for an internal system would impose massive overhead without providing real benefit."
+
+- question: "A node that crashes and stops responding is an example of a Byzantine failure."
+  type: true-false
+  answer: false
+  explanation: "A node that crashes and stops responding is a crash failure — the simplest and most benign failure mode. Byzantine failures are qualitatively different: a Byzantine node can continue operating but behave arbitrarily, sending different messages to different peers, lying about its state, or actively trying to undermine consensus. The key distinction is that crash failures simply remove a node from participation, while Byzantine failures add a potentially deceptive participant. This is why BFT requires a stricter threshold (n > 3f) than crash fault tolerance (n > 2f)."
+
+- question: "A system with 4 nodes using PBFT can tolerate 1 Byzantine failure, because 4 > 3×1."
+  type: true-false
+  answer: true
+  explanation: "With n = 4 and f = 1, n > 3f gives 4 > 3, which is satisfied. This is the smallest possible BFT system — one Byzantine failure tolerated with the minimum viable node count. In PBFT, consensus requires 2f + 1 = 3 matching prepare and commit messages, and the client waits for f + 1 = 2 matching replies. With 4 nodes, 1 can be Byzantine without preventing the 3 honest nodes from reaching agreement."
+
+- question: "Why does tolerating Byzantine failures require more than two-thirds of nodes to be honest, while crash fault tolerance only requires a simple majority?"
+  type: short-answer
+  answer: "A Byzantine node can actively deceive by sending 'attack' to some nodes and 'retreat' to others, creating confusion rather than simply disappearing. To outvote conflicting messages, honest nodes need enough of a majority that even after removing the f potentially faulty nodes' votes AND accounting for f conflicting messages injected by Byzantine nodes, a clear honest majority still remains. With n = 3f, the math doesn't work — honest nodes cannot distinguish a Byzantine node from an honest node that received different information. At n = 3f + 1, the honest supermajority is just sufficient to unmask the deception. Crash failures, in contrast, simply remove nodes, so only a simple majority of remaining nodes is needed."
+  explanation: "The intuition is that Byzantine failures add noise rather than subtract participants. The 2/3 honest threshold is a proven impossibility result — no BFT protocol can tolerate f Byzantine failures with fewer than 3f + 1 total nodes, regardless of how clever the protocol design is."
+```
+
 ## Explainer
 
 From your study of failure models, you know that crash failures are relatively benign — a node either works correctly or stops responding. **Byzantine failures** are far worse: a faulty node can behave arbitrarily, sending different messages to different peers, lying about its state, or even actively trying to sabotage the system. The name comes from the **Byzantine Generals Problem**, a thought experiment: imagine several generals surrounding a city, communicating by messenger, who must agree on whether to attack or retreat. Some generals are traitors who may send contradictory messages. The question is: can the loyal generals still reach agreement? The answer is yes, but only if fewer than one-third of the generals are traitors.

@@ -30,3 +30,42 @@ Practice with the classic medical diagnosis example: a test with 99% sensitivity
 
 - A high likelihood ratio does not mean the hypothesis is probably true — it depends on the prior. A likelihood ratio of 100 applied to a prior of 1 in a million still yields a tiny posterior.
 - Likelihood ratios are not the same as the probability of the hypothesis given the evidence — that is the posterior, which combines the ratio with the prior.
+
+## Questions
+
+```yaml
+- question: "A test for a rare disease has 95% sensitivity and a 10% false positive rate (LR ≈ 9.5). The disease affects 1% of the population. A patient tests positive. What is the approximate posterior probability the patient has the disease?"
+  type: multiple-choice
+  options:
+    - "About 95%, because the test is highly sensitive"
+    - "About 86%, because the LR of 9.5 means strong evidence and the prior is close enough to 1%"
+    - "About 8.7%, because the low prior (1%) dominates despite the moderate LR"
+    - "About 50%, because a positive test makes the hypothesis and its negation equally likely"
+  answer: 2
+  explanation: "Prior odds = 0.01/0.99 ≈ 1:99. Posterior odds = LR × prior odds = 9.5 × (1/99) ≈ 9.5/99. Posterior probability ≈ 9.5/(9.5 + 99) ≈ 8.7%. Despite a reasonably good test, the extremely low base rate dilutes the update dramatically. This is the core lesson: a high likelihood ratio does not guarantee a high posterior — the prior matters enormously. A test that is 95% sensitive sounds impressive until you realize it's being applied to a disease that affects only 1 in 100 people."
+
+- question: "A new blood marker is found in cancer patients 55% of the time and in healthy people 50% of the time, giving a likelihood ratio of 55/50 = 1.1. A clinician says the marker 'provides useful evidence — a positive result makes cancer 10% more likely.' What is the key error in this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — a 10% likelihood ratio boost is a clinically meaningful update"
+    - "The clinician confused the likelihood ratio with a probability boost; LR = 1.1 means the evidence is nearly uninformative because the marker is barely more expected under cancer than without it"
+    - "The LR should be computed as 50/55 (the reciprocal) for a positive result"
+    - "The marker cannot be useful because it appears in healthy people at all"
+  answer: 1
+  explanation: "A likelihood ratio of 1.1 means the marker is only 10% more expected if the patient has cancer than if they don't — barely above 'equally expected either way.' In log-odds, this is log(1.1) ≈ 0.04 units, a negligible shift. The clinician's '10% more likely' confuses a 10% ratio boost with a 10 percentage-point change in posterior probability — completely different things. For a marker to substantially move beliefs, the LR must be substantially above 1 (or below 1 for evidence against). Near-1 LRs are near-zero evidence."
+
+- question: "A likelihood ratio of 100 applied to a prior probability of 1 in 10,000 yields a posterior probability of approximately 1%."
+  type: true-false
+  answer: true
+  explanation: "Prior odds = 1:9,999 ≈ 1:10,000. Posterior odds = 100 × (1/10,000) = 1/100. Posterior probability = 1/(1+100) ≈ 0.99% ≈ 1%. Even a very strong LR of 100 barely moves the needle when the prior is sufficiently small. The absolute change in probability depends on where you start: moving from 1-in-10,000 to ~1-in-100 is a large relative change (100×) but still a tiny absolute probability. Base rates matter as much as likelihood ratios."
+
+- question: "A likelihood ratio of 20 means there is approximately a 95% probability that the hypothesis is true."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about likelihood ratios. The posterior probability depends on BOTH the likelihood ratio AND the prior. A LR of 20 means the evidence is 20 times more likely under the hypothesis than under its negation — but the posterior probability is LR × prior odds / (LR × prior odds + 1). With prior odds of 1:1, a LR of 20 gives posterior probability 20/21 ≈ 95%. But with prior odds of 1:100, the same LR gives 20/120 ≈ 17%. The LR is not a probability; it's a multiplier applied to the prior odds."
+
+- question: "Explain why thinking in log-odds makes it easier to combine multiple independent pieces of evidence when updating beliefs."
+  type: short-answer
+  answer: "In probability form, combining independent pieces of evidence requires multiplying likelihood ratios and re-normalizing — a messy process involving fractions. In log-odds form, each piece of independent evidence becomes an additive term: log-odds(posterior) = log-odds(prior) + log(LR₁) + log(LR₂) + .... Each log likelihood ratio is simply added to a running total, like accumulating points. This makes it easy to see how many weak pieces of evidence compound, how opposing evidence cancels, and when an update is negligible (log-LR near 0). The additive structure also makes it clear that strong priors require strong evidence to overcome."
+  explanation: "The log-odds representation mirrors how odds multiply in the standard Bayes update: posterior odds = prior odds × LR₁ × LR₂ × .... Taking logarithms converts products to sums. This is not just computational convenience — it reflects the genuine additive structure of evidential weight and makes the relationship between evidence strength (log-LR) and belief shift immediately legible."
+```

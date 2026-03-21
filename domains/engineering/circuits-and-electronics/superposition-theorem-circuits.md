@@ -34,6 +34,45 @@ Apply superposition to circuits with two or three sources and verify by comparin
 - Applying superposition to power, which is quadratic and nonlinear — powers from individual source contributions do not add to give total power.
 - Forgetting to restore the circuit to its full topology between sub-analyses.
 
+## Questions
+
+```yaml
+- question: "A circuit contains two independent voltage sources and one dependent current source. When applying superposition, how many sub-circuits do you analyze, and how is the dependent source treated?"
+  type: multiple-choice
+  options:
+    - "Three sub-circuits — one per source, including the dependent source, which is deactivated in the other two"
+    - "Two sub-circuits — one per independent source; the dependent source is deactivated in each"
+    - "Two sub-circuits — one per independent source; the dependent source remains active in both"
+    - "One sub-circuit — superposition only applies when all sources are independent"
+  answer: 2
+  explanation: "Superposition deactivates independent sources one at a time — here, two sub-circuits. The dependent source is never deactivated because it models a real physical coupling (its output is controlled by a circuit variable). Deactivating it would eliminate the gain mechanism it represents, giving wrong answers. Option B is the most tempting wrong answer: it correctly counts two sub-circuits but incorrectly treats the dependent source like an independent one."
+
+- question: "Applying superposition, you find that source A contributes 3 W to a resistor and source B contributes 4 W. What is the total power dissipated by the resistor?"
+  type: multiple-choice
+  options:
+    - "7 W — power contributions add just like voltage and current contributions"
+    - "1 W — the contributions partially cancel"
+    - "Cannot be determined from this information; total power must be computed from the combined voltage or current after superposition"
+    - "25 W — power adds in quadrature (3² + 4² = 25)"
+  answer: 2
+  explanation: "Power is P = V²/R — a nonlinear (quadratic) function of voltage. Superposition only applies to linear quantities (voltages and currents). The total power is (V_A + V_B)²/R = V_A²/R + 2V_A·V_B/R + V_B²/R, which includes a cross-term 2V_A·V_B/R that vanishes only when the contributions are orthogonal. To find total power, compute the combined voltage (or current) first, then calculate power from that combined quantity."
+
+- question: "When applying superposition, dependent sources should be deactivated (set to zero) in each sub-circuit, just like independent sources."
+  type: true-false
+  answer: false
+  explanation: "Only independent sources are deactivated. Dependent sources model physical couplings — transistor gain, op-amp behavior — whose output depends on a circuit variable. Deactivating them would remove the coupling entirely and produce incorrect results. The rule is: independent sources go off one at a time; dependent sources stay on always."
+
+- question: "Superposition can be used to calculate the total voltage across any element in a linear circuit with multiple independent sources."
+  type: true-false
+  answer: true
+  explanation: "Kirchhoff's voltage and current laws are linear equations in voltages and currents. Linearity means responses from independent sources add without interaction (for voltages and currents). So the total voltage across any element equals the algebraic sum of the contributions from each source acting alone — this is exactly what superposition states. The key constraint is linearity: superposition only applies to linear circuits."
+
+- question: "Why does superposition apply to voltages and currents in a linear circuit, but not to power dissipation?"
+  type: short-answer
+  answer: "Superposition follows from linearity: KVL and KCL are linear equations, so solutions from multiple sources add independently. Power, however, is P = V²/R — a quadratic (nonlinear) function of voltage. Squaring a sum introduces cross-terms: (V₁ + V₂)²/R = V₁²/R + 2V₁V₂/R + V₂²/R. The cross-term 2V₁V₂/R is missed if you add the individual powers, making the sum incorrect. Total power must always be computed from the combined voltage or current after superposition, never by summing partial powers."
+  explanation: "A practical consequence: in amplifier analysis, you can superpose the signal component and the DC bias to find total voltages and currents. But to find total power dissipated (e.g., for thermal design), you must use the combined waveform — which includes the signal-bias interaction term that superposing powers would miss."
+```
+
 ## Explainer
 
 From your study of node voltage and mesh current methods, you know how to solve circuits with multiple sources by assembling and solving a system of linear equations. Superposition offers an alternative route grounded in the same mathematics: because Kirchhoff's laws are linear in voltages and currents, responses from multiple sources add independently. Instead of solving everything at once, you decompose the problem into simpler sub-circuits — one source active at a time — and sum the results.

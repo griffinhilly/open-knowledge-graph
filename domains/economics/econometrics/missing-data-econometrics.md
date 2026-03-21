@@ -22,6 +22,45 @@ Missing data can be missing completely at random (MCAR), missing at random (MAR)
 ## How It's Best Learned
 Examine patterns of missing data. Use listwise deletion as a baseline, then try multiple imputation or IPW to see if conclusions change.
 
+## Questions
+
+```yaml
+- question: "A clinical trial studies a new antidepressant. Patients experiencing severe side effects are significantly more likely to drop out before the final measurement. The missing outcome data is best classified as:"
+  type: multiple-choice
+  options:
+    - "MCAR — dropout is essentially random because we cannot predict exactly who will drop out"
+    - "MAR — dropout depends on observed side effect severity, so missingness is 'at random' conditional on that variable"
+    - "MNAR — the probability of being missing depends on the unobserved outcome itself (the very outcome we're trying to measure drives dropout)"
+    - "Listwise-deletable — because the dropout mechanism is known, complete-case analysis is valid"
+  answer: 2
+  explanation: "This is MNAR: patients doing worst (most side effects, least treatment benefit) are most likely to drop out, so the probability of missingness depends directly on the missing outcome value. MCAR requires missingness to be unrelated to all variables — clearly violated here. MAR (option B) would hold only if side effect severity were fully captured in observed covariates and the missing outcomes were representative conditional on those covariates — but if non-response to treatment itself drives dropout, observed covariates cannot account for it. Under MNAR, complete-case analysis and standard imputation are both invalid without modeling the dropout mechanism."
+
+- question: "A researcher uses multiple imputation to handle missing income data in a household survey. Under which mechanism does multiple imputation produce valid estimates?"
+  type: multiple-choice
+  options:
+    - "MCAR only — imputation is unnecessary under MCAR and invalid under MAR and MNAR"
+    - "MAR — multiple imputation uses observed variables to model and fill in missing values, which is valid when missingness depends only on observed variables"
+    - "MNAR only — imputation models the missingness process, which is only necessary when data is missing not at random"
+    - "All three mechanisms — multiple imputation produces unbiased estimates regardless of the missing data mechanism"
+  answer: 1
+  explanation: "Multiple imputation is designed for the MAR setting: it builds a model from observed data to predict missing values, draws multiple imputed datasets, estimates the model of interest on each, and combines results using Rubin's rules. Under MAR, observed variables contain enough information to make the imputation valid. Under MCAR, it also works (though listwise deletion would too). Under MNAR, imputation that ignores the missingness mechanism is biased — you would need a selection model with explicit identifying assumptions. Multiple imputation assumes MAR; it does not fix MNAR."
+
+- question: "Under the MCAR mechanism, listwise deletion (dropping all observations with missing values) produces an unbiased but smaller sample."
+  type: true-false
+  answer: true
+  explanation: "MCAR means the probability of being missing is completely independent of all variables, observed and unobserved. Under MCAR, the complete cases are a simple random subsample of the full sample — not systematically different from the missing cases on any relevant dimension. Listwise deletion therefore produces unbiased estimates; the only cost is reduced sample size (and thus wider confidence intervals). Under MAR or MNAR, the complete cases are a biased subsample, and listwise deletion produces biased estimates."
+
+- question: "If missing data is classified as MAR (Missing at Random), no statistical adjustment is needed because the data is, by definition, randomly missing."
+  type: true-false
+  answer: false
+  explanation: "'Missing at Random' is a technical term that does NOT mean randomly missing in the colloquial sense. MAR means that, conditional on observed variables, missingness is unrelated to the unobserved values — but unconditionally, missingness may still correlate with observed covariates. For example, older respondents may be less likely to report income, so the complete cases are not a representative sample of the full population. Methods like multiple imputation or inverse-probability weighting are still needed. MCAR — not MAR — is the mechanism closest to 'randomly missing' in the everyday sense."
+
+- question: "Why is MNAR considered the most analytically dangerous missing data mechanism, and what distinguishes it from MAR in terms of what statistical methods can achieve?"
+  type: short-answer
+  answer: "MNAR is dangerous because missingness depends on the missing value itself — meaning absent data is systematically different from observed data in ways unmeasurable from what you have. Under MAR, observed variables predict missingness and imputation or inverse-probability weighting can produce valid estimates. Under MNAR, even complete knowledge of observed covariates leaves you unable to determine how different the missing values are from observed ones. Standard methods like multiple imputation assume MAR and produce biased results if applied to MNAR data. The only solutions are collecting the missing data through follow-up or building a selection model with identifying assumptions that cannot be tested from the data alone."
+  explanation: "The practical implication is that under MNAR, researchers must report sensitivity analyses showing how conclusions change under different assumptions about the missingness. No result can be presented as clean and unbiased. This is why study design emphasizes minimizing attrition — preventing MNAR is far easier than correcting for it after the fact."
+```
+
 ## Explainer
 
 Missing data is not just an inconvenience — it is a selection problem. When observations drop out of your dataset, the remaining sample may no longer be representative of the population you care about. Whether this matters depends entirely on *why* the data are missing, which is what the three standard mechanisms capture. Think of the missingness mechanism as a treatment assignment rule: what determined whether each observation's data was observed or not?

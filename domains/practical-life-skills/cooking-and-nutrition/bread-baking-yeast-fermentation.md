@@ -33,6 +33,45 @@ Start with a simple no-knead bread recipe that uses a long overnight fermentatio
 - Dough should double in size during every rise — the visual doubling rule is a rough guide; the poke test (pressing the dough and observing how quickly it springs back) is a more reliable indicator of readiness.
 - More yeast means faster, better bread — excess yeast produces rapid but shallow fermentation with less flavor development and can result in an overly yeasty, alcoholic taste.
 
+## Questions
+
+```yaml
+- question: "A baker wants richer, more complex flavor in their bread. Which adjustment is most effective?"
+  type: multiple-choice
+  options:
+    - "Add more yeast to increase CO₂ production and fermentation activity"
+    - "Knead the dough longer to develop a tighter, stronger gluten network"
+    - "Use a longer, cooler fermentation — such as overnight cold retardation — to allow more enzyme activity"
+    - "Increase oven temperature to develop a thicker crust through caramelization"
+  answer: 2
+  explanation: "Flavor in bread is built during fermentation through enzyme activity, not through yeast quantity or kneading. Slow, cool fermentation (cold retardation) gives enzymes time to break down starches and proteins into complex flavor compounds. More yeast actually produces faster but shallower fermentation with less flavor, and can result in an overly yeasty taste. Kneading affects texture (gluten structure), not flavor chemistry."
+
+- question: "A recipe says 'wait until the dough doubles in size.' A baker waits for the visual doubling but the bread comes out dense and gummy. What is the most likely explanation?"
+  type: multiple-choice
+  options:
+    - "The dough was underproofed — doubling in size always indicates complete fermentation"
+    - "The oven was too cool — the gluten network collapses if the oven isn't hot enough at the start"
+    - "Doubling is a rough visual guideline, not a reliable endpoint — the dough may have been overproofed, exhausting the yeast before baking"
+    - "Not enough yeast was used — more yeast would have made the dough double faster and more completely"
+  answer: 2
+  explanation: "Doubling in size is a heuristic, not a precise indicator of proper proofing. A dough can look doubled but be overproofed — the yeast has consumed most available sugars and the gluten network is weakening from CO₂ saturation. Overproofed bread collapses in the oven and bakes dense. The poke test (how quickly the indentation springs back) is more reliable: full spring-back = underproofed, slow partial spring-back = properly proofed, no spring-back = overproofed."
+
+- question: "Fermentation in bread baking serves two distinct purposes: it produces CO₂ to leaven the dough AND builds complex flavor compounds through enzyme activity."
+  type: true-false
+  answer: true
+  explanation: "Both are correct. Yeast produces CO₂ during fermentation, which inflates the gluten network and causes the dough to rise. But during the same period, enzymes in the flour break down starches and proteins into flavor compounds that don't exist in raw dough. Long, slow fermentation prioritizes flavor development; short, fast fermentation prioritizes rise. This is why cold-retarded doughs taste more complex than quickly-fermented ones at identical ingredient ratios."
+
+- question: "You can only develop strong gluten structure in bread dough by kneading it thoroughly — resting without kneading produces insufficient gluten development."
+  type: true-false
+  answer: false
+  explanation: "Gluten development requires wheat proteins (glutenin and gliadin) to hydrate and bond — this can happen through time and water alone, without mechanical kneading. No-knead bread methods rely on long fermentation at higher hydration levels to develop the gluten network. Kneading accelerates the process but is not the only path. The windowpane test (stretching dough thin enough to see light through) confirms sufficient gluten development regardless of how it was achieved."
+
+- question: "Explain why using more yeast than a recipe calls for tends to produce blander, less flavorful bread rather than better bread."
+  type: short-answer
+  answer: "Flavor in bread develops during fermentation through enzyme activity — a slow process that builds complex compounds over time. When excess yeast is added, fermentation races through the available sugars quickly, leaving less time for these flavor-building enzymes to work. The rapid fermentation produces adequate CO₂ for rising but cuts short the flavor development phase. Additionally, excess yeast can produce an overly yeasty or alcoholic taste from its own metabolic byproducts. More yeast means faster fermentation, not deeper flavor."
+  explanation: "This counters the intuition that 'more yeast = more fermentation = better bread.' Flavor and rise are separate outcomes of fermentation, controlled by time and temperature rather than yeast quantity. Professional bakers often use minimal yeast (even a fraction of a teaspoon) for long overnight ferments specifically to maximize flavor development."
+```
+
 ## Explainer
 
 From baking basics, you've learned how heat transforms ingredients — how fats melt, sugars caramelize, and proteins set. Bread baking uses all of those processes, but it adds a living organism to the equation. **Yeast** is a single-celled fungus that feeds on simple sugars, and its metabolic byproducts — carbon dioxide and ethanol — do most of the work that makes bread light, chewy, and flavorful. Understanding yeast behavior is understanding why bread recipes are written the way they are.

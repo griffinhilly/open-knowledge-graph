@@ -34,6 +34,45 @@ Derive the isothermal work integral from W = ∫P dV with P = nRT/V. Evaluate fo
 - Isothermal does not mean no heat exchange — isothermal processes require continuous heat exchange to maintain constant temperature.
 - Real processes are not truly isothermal unless done infinitely slowly with a perfect heat reservoir.
 
+## Questions
+
+```yaml
+- question: "An ideal gas expands isothermally at 300 K. Which statement correctly describes the energy flow?"
+  type: multiple-choice
+  options:
+    - "No heat flows in or out — the constant temperature means the thermal energy is unchanged"
+    - "Heat flows into the gas from the reservoir, supplying the energy for the work done by the expanding gas"
+    - "The internal energy increases because the gas now occupies a larger volume"
+    - "The gas does work on the surroundings and its temperature drops, requiring external heating only to compensate"
+  answer: 1
+  explanation: "For an ideal gas, internal energy U depends only on temperature. Since T is constant (isothermal), ΔU = 0. The first law then gives Q = W: every joule of work the gas does on its surroundings must be supplied as heat from the reservoir. The most common misconception — option A — confuses 'temperature stays constant' with 'no heat flows.' The reservoir continuously supplies heat precisely to keep the temperature from dropping as the gas does work."
+
+- question: "On a PV diagram, what shape does an isothermal process trace for an ideal gas, and why?"
+  type: multiple-choice
+  options:
+    - "A horizontal line, because pressure is held constant during an isothermal process"
+    - "A vertical line, because volume doesn't change at constant temperature"
+    - "A hyperbola, because PV = nRT = constant means P and V vary inversely"
+    - "A straight line with negative slope, because pressure decreases as volume increases"
+  answer: 2
+  explanation: "The ideal gas law PV = nRT. With T fixed, PV = constant, which is the equation of a hyperbola (P = C/V). As volume increases, pressure decreases, but their product stays the same. A horizontal line would be an isobaric (constant pressure) process; a vertical line would be an isochoric (constant volume) process. The hyperbolic isotherm is distinct from both."
+
+- question: "An isothermal process requires the system to be thermally isolated from its surroundings to prevent heat exchange from changing the temperature."
+  type: true-false
+  answer: false
+  explanation: "False — this is the opposite of what is required. An isothermal process demands continuous thermal contact with a heat reservoir. When the gas expands and does work, heat must flow in from the reservoir to prevent the temperature from dropping. If the system were thermally isolated (adiabatic), temperature would fall during expansion. Thermal isolation is the definition of an adiabatic process, not an isothermal one."
+
+- question: "For an ideal gas in an isothermal expansion, the magnitude of heat absorbed by the gas equals the magnitude of work done by the gas."
+  type: true-false
+  answer: true
+  explanation: "True. For an ideal gas, ΔU = 0 in any isothermal process because internal energy depends only on temperature (T = constant). The first law ΔU = Q − W then gives 0 = Q − W, so Q = W. Every joule of work output is matched by a joule of heat input from the reservoir. This makes isothermal processes perfectly efficient at converting heat to work within the process — though the Carnot efficiency limits apply to any full cycle."
+
+- question: "Why doesn't the temperature of an ideal gas drop when it expands isothermally and does work on the surroundings? What prevents the cooling?"
+  type: short-answer
+  answer: "In a free expansion (no contact with a reservoir), the temperature of an ideal gas actually stays constant too — because ideal gas internal energy depends only on T, not volume. But in a quasi-static isothermal process against external pressure, the gas does real work, which would normally lower the kinetic energy of molecules and cool the gas. A heat reservoir in thermal contact continuously supplies heat Q = W to replace that energy, maintaining constant temperature. Without the reservoir, the process cannot be truly isothermal."
+  explanation: "This question targets the distinction between 'isothermal' as a constraint maintained by a reservoir versus the accidental constancy of ideal gas internal energy. The reservoir is essential for quasi-static isothermal processes that do net work. In a Joule free expansion (into vacuum), no work is done, no heat flows, and T stays constant for an ideal gas regardless — but that process is irreversible and not quasi-static."
+```
+
 ## Explainer
 
 You already know that thermodynamic processes are constrained by which state variables are held fixed. An **isothermal process** holds temperature T constant throughout. For an ideal gas, this single constraint has a powerful consequence via the ideal gas law: if T is fixed, then PV = nRT = constant, so pressure and volume move in inverse proportion along a **hyperbola** on the PV diagram. As you expand the gas, pressure drops; as you compress, pressure rises — always staying on the same isotherm.

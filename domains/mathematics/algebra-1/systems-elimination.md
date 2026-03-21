@@ -31,6 +31,45 @@ Start with systems where one variable naturally cancels when added. Then practic
 - Multiplying only one term of an equation instead of every term.
 - Forgetting to substitute back to find the second variable.
 
+## Questions
+
+```yaml
+- question: "You are solving 2x + 5y = 14 and 4x − 3y = 2 by elimination. A student multiplies only the x-term of the first equation by 2, writing 4x + 5y = 14. What went wrong?"
+  type: multiple-choice
+  options:
+    - "They should have multiplied by 3, not 2"
+    - "They only multiplied one term — the equation is no longer equivalent to the original"
+    - "They should have multiplied the second equation instead"
+    - "Nothing went wrong — the x terms now cancel when you subtract"
+  answer: 1
+  explanation: "To produce an equivalent equation, every term on both sides must be multiplied by the same constant. Multiplying only the x-term changes the equation's solution set — 4x + 5y = 14 is a different equation from the original 2x + 5y = 14. This is the most common procedural error in elimination."
+
+- question: "To solve 3x + 2y = 8 and 6x + 5y = 17 by eliminating x, which is the correct first step?"
+  type: multiple-choice
+  options:
+    - "Add the equations as-is"
+    - "Subtract the equations as-is"
+    - "Multiply the first equation by 2, then subtract from the second"
+    - "Multiply the second equation by 2, then add to the first"
+  answer: 2
+  explanation: "The x coefficients are 3 and 6 — doubling the first equation gives 6x + 4y = 16. Subtracting from 6x + 5y = 17 eliminates x and gives y = 1. Simply adding or subtracting as-is doesn't eliminate any variable because neither pair of coefficients is equal or opposite. Option D would double the second to get 12x, which doesn't match the first equation's 3x."
+
+- question: "Adding two equations in a valid system always produces a true equation satisfied by the same solution."
+  type: true-false
+  answer: true
+  explanation: "This is the logical foundation of elimination. If a point (x, y) satisfies both equations, it satisfies their sum — because you are adding equal quantities to equal quantities. The resulting equation is guaranteed to have the same solution, which is why adding opposite-coefficient equations validly eliminates a variable."
+
+- question: "In the elimination method, multiplying one term of an equation by a constant creates an equivalent equation."
+  type: true-false
+  answer: false
+  explanation: "An equivalent equation requires multiplying every term on both sides by the same constant. Multiplying only one term changes the equation's solution set — it becomes a different equation. For example, 2x + 3y = 10 becomes 4x + 3y = 10 if only 2x is doubled, which is no longer the same line."
+
+- question: "Why does multiplying an entire equation by a nonzero constant not change its solution set?"
+  type: short-answer
+  answer: "Multiplying both sides of an equation by the same nonzero constant preserves equality. Every solution of the original satisfies the scaled version (substituting the solution into the scaled equation still balances), and dividing the scaled equation back by the constant recovers the original. The two equations describe the same line."
+  explanation: "This is why elimination works: scaling an equation is a reversible operation that preserves all solutions. It lets you manufacture whatever coefficients you need to create a zero without changing which points satisfy the system."
+```
+
 ## Explainer
 
 From graphing systems, you know that the solution to a system of two equations is the point where the two lines intersect — it satisfies both equations simultaneously. Elimination gives you an algebraic way to find that point without drawing anything. The core idea is simple: if you add two true equations together, the result is also a true equation. If the coefficients of one variable happen to be opposites in the two equations, adding them makes that variable disappear, leaving you with one equation in one unknown you already know how to solve.

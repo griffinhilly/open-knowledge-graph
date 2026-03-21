@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Myelin insulation reduces capacitive loss; action potentials regenerate only at Nodes of Ranvier. Depolarization 'jumps' between nodes. ~50× faster than unmyelinated (~50 m/s).
 
+## Questions
+
+```yaml
+- question: "A student argues: 'Myelinated axons conduct faster because myelin stimulates voltage-gated channels to open faster along the whole axon.' What is wrong with this explanation?"
+  type: multiple-choice
+  options:
+    - "Nothing — myelin does increase channel opening rates throughout the axon"
+    - "Myelin actually prevents action potentials from firing in myelinated segments; current flows passively through internodes and regenerates only at Nodes of Ranvier"
+    - "The action potential fires at the same rate but has higher amplitude in myelinated axons"
+    - "Myelinated axons are faster because ion channels in the internodes open more slowly, storing energy between nodes"
+  answer: 1
+  explanation: "Myelin electrically insulates the internode — there are virtually no voltage-gated channels there, and no action potentials fire in that region. Instead, depolarizing current from one node flows passively through the low-loss insulated internode to the next node, where it triggers a fresh action potential. The 'jumping' is passive current flow, not active channel opening. Speed comes from the near-instantaneous passive spread through insulated internodes, with the bottleneck only at node-to-node regeneration."
+
+- question: "Multiple sclerosis demyelinates CNS axons. Which explanation best accounts for the resulting slowed or blocked nerve conduction?"
+  type: multiple-choice
+  options:
+    - "Demyelination increases the number of Nodes of Ranvier, causing signal loss at too many regeneration points"
+    - "Without myelin, axons lose their ATP supply from oligodendrocytes and action potentials fail energetically"
+    - "Without myelin insulation, membrane capacitance increases and resistance decreases, so passive current decays before reaching the next node"
+    - "Demyelination causes the Na⁺/K⁺ ATPase to reverse, collapsing the concentration gradients"
+  answer: 2
+  explanation: "Myelin's electrical role is to increase membrane resistance (reducing current leak) and decrease membrane capacitance (reducing charge needed to change voltage). When myelin is lost, current leaks out of the now-exposed internode, the capacitance load increases, and the passive depolarization decays before it reaches the next node with sufficient strength to trigger an action potential. Conduction either slows dramatically or blocks entirely — the saltatory mechanism requires intact insulation between nodes."
+
+- question: "Saltatory conduction is more energy-efficient than continuous conduction because ion exchange (and the Na⁺/K⁺ ATPase work needed to restore gradients) occurs only at Nodes of Ranvier, which occupy less than 1% of the axon surface area."
+  type: true-false
+  answer: true
+  explanation: "In continuous conduction, every stretch of membrane undergoes ion flux during each action potential, requiring the Na⁺/K⁺ ATPase to restore gradients across the entire surface. In saltatory conduction, the internode is insulated — no ions cross it — so ATPase work is confined to the nodes. Because nodes are tiny relative to the total axon length, the metabolic cost per action potential is dramatically lower. This efficiency is one reason vertebrates evolved myelination rather than the squid's strategy of simply using enormous-diameter axons."
+
+- question: "Increasing axon diameter is the only evolutionary strategy available to speed up action potential conduction, which is why both myelinated vertebrate axons and the squid giant axon achieve fast conduction through large diameter."
+  type: true-false
+  answer: false
+  explanation: "There are two distinct strategies for fast conduction: (1) increasing axon diameter, which reduces internal resistance and speeds continuous conduction — the squid uses this, reaching ~25 m/s with a ~1 mm diameter axon; and (2) myelination, which enables saltatory conduction, achieving 50–120 m/s in axons with diameters of only 1–20 µm. Vertebrates evolved the myelination strategy, achieving comparable or greater speeds at far smaller diameters and metabolic cost. The two strategies are alternatives, not equivalents."
+
+- question: "Why does myelin increase conduction velocity? Explain in terms of the axon's cable properties."
+  type: short-answer
+  answer: "Myelin increases membrane resistance and decreases membrane capacitance in the internodal region. High resistance means very little depolarizing current leaks out through the internode membrane, so the current can travel farther along the axon interior without decaying. Low capacitance means less charge is needed to change the internode's voltage, so the passive current spreads quickly. The combined effect is that current originating at one node flows through the insulated internode nearly instantaneously and arrives at the next node with enough amplitude to trigger a fresh action potential. The signal jumps node-to-node (saltatory conduction) rather than engaging every patch of membrane sequentially, which is much slower."
+  explanation: "The cable analogy is useful here: a bare wire in a conducting medium loses current to the surrounding fluid at every point; an insulated wire loses almost none. Myelin is the insulation. The physical consequences — increased resistance, decreased capacitance — are what make passive current spread fast and far, enabling the saltatory mechanism."
+```
+
 ## Explainer
 
 You have already seen how action potentials propagate along unmyelinated axons: depolarization at one point opens voltage-gated Na+ channels in the adjacent membrane, and the signal creeps forward in a continuous wave. This works, but it is slow — the current must charge every segment of membrane sequentially, and the axon's internal resistance bleeds current away over distance. **Myelination** solves this problem by fundamentally changing the electrical properties of the axon, and understanding why requires thinking about the axon as a cable with specific physical parameters.

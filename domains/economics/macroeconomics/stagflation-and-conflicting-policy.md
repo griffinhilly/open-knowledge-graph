@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Stagflation—the simultaneous occurrence of high inflation and high unemployment—creates a policy dilemma: expansionary policy reduces unemployment but raises inflation, while contractionary policy reduces inflation but increases unemployment. Successfully managing stagflation requires either eliminating the supply shock, shifting expectations (credibility of inflation targeting), or accepting a difficult tradeoff in the near term.
 
+## Questions
+
+```yaml
+- question: "A negative oil supply shock hits the economy, pushing inflation to 8% and unemployment to 9%. The central bank responds with expansionary monetary policy to reduce unemployment. According to the expectations-augmented Phillips curve framework, what is the most likely consequence?"
+  type: multiple-choice
+  options:
+    - "Both unemployment and inflation fall as aggregate demand is restored"
+    - "Unemployment falls in the short run, but inflation rises further and expectations may become entrenched at a higher level"
+    - "Inflation falls because the expanded money supply dilutes the price impact of the oil shock"
+    - "The policy has no effect because supply shocks are immune to demand-side interventions"
+  answer: 1
+  explanation: "Expansionary policy can reduce unemployment by boosting aggregate demand, but it does so by validating the higher price level. Firms and workers observing persistently high inflation update their expectations upward, shifting the Phillips curve further outward. This is exactly what happened in the 1970s: accommodating the supply shock kept unemployment lower in the short run but entrenched inflation expectations, producing a wage-price spiral. Option A is wrong because the supply shock has not been removed — only demand has been boosted, which helps unemployment but worsens the inflation dimension."
+
+- question: "What makes stagflation uniquely difficult to address compared to a standard recession or a standard inflation episode?"
+  type: multiple-choice
+  options:
+    - "Stagflation occurs so rarely that policymakers lack experience with the appropriate tools"
+    - "Both fiscal and monetary policy become ineffective during stagflation due to liquidity traps"
+    - "Each available policy instrument improves one problem (inflation or unemployment) while worsening the other, so there is no instrument that addresses both simultaneously"
+    - "Stagflation can only be resolved by eliminating the supply shock, which is outside policymakers' control"
+  answer: 2
+  explanation: "In a standard recession, expansionary policy is unambiguously appropriate. In a standard inflation episode, contractionary policy is appropriate. Stagflation moves the Phillips curve outward — higher inflation and higher unemployment coexist. Expansionary policy reduces unemployment but raises inflation; contractionary policy reduces inflation but deepens the recession. There is a genuine instrument-problem: no single demand-side tool addresses both symptoms. While eliminating the supply shock helps, the policy dilemma exists even if the shock is permanent."
+
+- question: "A central bank with a strong track record of meeting its inflation target faces a lower sacrifice ratio (less unemployment per point of inflation reduction) than a central bank with a weak track record."
+  type: true-false
+  answer: true
+  explanation: "The sacrifice ratio measures the cumulative unemployment cost of reducing inflation by one percentage point. When a central bank has credibility — demonstrated commitment to an inflation target — firms and workers set wages and prices based on the expected low inflation, and the short-run Phillips curve shifts inward without requiring a prolonged recession. Low sacrifice ratios are the payoff of credibility built over time, which is why central bank independence, transparency, and consistent communication are policy priorities. The Volcker disinflation had a high sacrifice ratio partly because credibility had to be established from scratch."
+
+- question: "During stagflation, contractionary monetary policy is the dominant policy tool because tightening reduces both unemployment and inflation simultaneously."
+  type: true-false
+  answer: false
+  explanation: "This is exactly the misconception stagflation exposes. Contractionary policy reduces inflation by cooling aggregate demand, but it does so at the cost of higher unemployment — it deepens the recessionary dimension of stagflation. There is no tool that reduces both simultaneously when the economy faces a negative supply shock. The Volcker disinflation of 1979–82 chose contractionary policy to fight inflation, and it worked — but it produced the deepest US recession since the Great Depression. The policy tradeoff, not a free lunch, is the defining feature of stagflation."
+
+- question: "Why does stagflation create a 'policy dilemma' that a normal recession or normal inflation episode does not, and how does central bank credibility help resolve it over time?"
+  type: short-answer
+  answer: "In a normal recession, expansionary policy is clearly appropriate — it reduces unemployment without raising inflation above target. In a normal inflation episode, contractionary policy is clearly appropriate — it reduces inflation. Stagflation arises from a negative supply shock that shifts the short-run aggregate supply curve leftward, simultaneously raising prices and reducing output. This moves the economy to a point where both inflation and unemployment are elevated, and the Phillips curve has shifted outward. Any demand-side response trades off: expansionary policy helps unemployment but worsens inflation; contractionary policy helps inflation but worsens unemployment. Credibility resolves the long-run dilemma by anchoring expectations: if firms and workers believe inflation will return to target, they set wages and prices accordingly, and the Phillips curve shifts back inward without requiring a protracted recession."
+  explanation: "This explains why modern central banks invest so heavily in communication and institutional independence — the expectation of policy is itself a policy tool. A credible central bank can achieve disinflation with less unemployment (lower sacrifice ratio) because expectations do part of the adjustment work. Without credibility, a central bank must impose deep recession to 'prove' its commitment, as the Volcker Fed demonstrated."
+```
+
 ## Explainer
 
 To understand why stagflation is so politically painful, recall what you learned about supply-side shocks. A negative supply shock — say, a sudden doubling of oil prices — does two things at once: it raises production costs across the economy (pushing inflation up) and it reduces the capacity to produce output (pushing unemployment up). On the aggregate supply-aggregate demand diagram, the short-run aggregate supply curve shifts leftward, landing the economy at a point with both higher prices and lower output. This is the stagflation corner: the two standard macroeconomic ills occurring simultaneously.

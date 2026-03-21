@@ -25,6 +25,45 @@ Play a C major scale starting from each degree (C, D, E, F, G, A, B) and listen 
 ## Common Misconceptions
 Modes are not separate scales; they are rotations of the major scale. Each mode inherits the same pitches as its parent major scale but with a different tonal center.
 
+## Questions
+
+```yaml
+- question: "A musician plays D–E–F–G–A–B–C–D and says 'I'm playing D Dorian.' A second musician plays C–D–E–F–G–A–B–C and says 'I'm playing C Ionian.' Are they using the same pitches?"
+  type: multiple-choice
+  options:
+    - "No — Dorian has a different pitch collection than Ionian"
+    - "Yes — they are the same seven pitches, just starting on different notes with different tonal centers"
+    - "No — Dorian has a raised sixth compared to Ionian, so the pitches differ"
+    - "Yes — but only if both are explicitly notated in the key of C major"
+  answer: 1
+  explanation: "D Dorian uses exactly the pitches of C major (no sharps or flats), with D as the tonal center. All seven diatonic modes on the white keys are rotations of C major — same pitches, different 'home.' The confusion in Option C is that Dorian has a raised sixth relative to D natural minor, not relative to the parent major scale. Option A represents the core misconception this topic corrects."
+
+- question: "A composer wants a major-sounding scale with a flatted seventh — the characteristic sound of blues and rock. Which mode should they use?"
+  type: multiple-choice
+  options:
+    - "Lydian — it has a raised fourth and a bright, dreamy quality"
+    - "Mixolydian — it is a major scale with a lowered seventh"
+    - "Dorian — it has a minor third and a characteristically raised sixth"
+    - "Ionian — it is the standard major scale and includes all chord tones"
+  answer: 1
+  explanation: "Mixolydian (mode V) is a major scale with a ♭7 — it preserves the major third while the seventh is lowered by a half step. This is the modal basis of blues and rock: the tonic chord becomes a dominant seventh, creating the characteristic blues sound. Lydian (Option A) has a ♯4, not a ♭7 — it's bright and dreamy. Dorian (Option C) has a minor third, giving it a minor-flavored quality."
+
+- question: "Dorian mode requires a different set of pitches than the major scale it is derived from."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception about modes. D Dorian uses exactly the same pitches as C major — C, D, E, F, G, A, B. No new pitches are introduced; the mode is a rotation. Every diatonic mode shares all seven pitches with its parent major scale. The only thing that changes is which pitch is treated as the tonal center."
+
+- question: "Mixolydian mode sounds major-flavored despite differing from the Ionian mode by only one note."
+  type: true-false
+  answer: true
+  explanation: "Mixolydian has a major third above its root, so it retains the major quality of Ionian. The only difference is the lowered seventh — a single half-step alteration. This small change is enough to create the characteristic blues/rock quality while preserving overall brightness. Each mode's distinctive personality often hinges on a single 'signature note': Mixolydian's ♭7, Lydian's ♯4, Dorian's raised sixth, Phrygian's ♭2."
+
+- question: "Why can the same seven pitches produce fundamentally different emotional qualities depending on which note is treated as the tonal center?"
+  type: short-answer
+  answer: "The emotional quality of a mode comes from the intervals between the root (home note) and all other scale degrees — particularly the third (major or minor) and the characteristic interval that defines the mode's personality. When you shift the tonal center, all those interval relationships change, even though the raw pitches remain identical. D Dorian and C Ionian share the same pitches, but Dorian's interval pattern from D (minor third, raised sixth relative to natural minor) produces a completely different emotional profile than Ionian's intervals from C."
+  explanation: "This is why modes cannot be understood as 'different scales' — they are the same scale heard through different gravitational centers. The pitches are the same; what changes is the hierarchy of tension and resolution among those pitches."
+```
+
 ## Explainer
 
 You already know the major scale as a specific pattern of whole steps and half steps: W-W-H-W-W-W-H. From your study of major scales, you understand that this pattern can start on any pitch and will always produce the same characteristic sound — the familiar "do-re-mi" quality. Modes ask a simple question: what happens if you keep the same seven pitches but treat a different one as home? The C major scale uses C-D-E-F-G-A-B. If you play those same notes but start and end on D — treating D as your tonal center — you are playing D **Dorian**, not C major, even though the pitches are identical. The mode names (Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, Locrian) label which scale degree of a major scale is acting as the tonic.

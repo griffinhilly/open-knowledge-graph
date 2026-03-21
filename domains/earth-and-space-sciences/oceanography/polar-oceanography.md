@@ -36,6 +36,45 @@ Trace the process of sea ice formation and brine rejection to dense water format
 - Arctic sea ice loss does not directly raise sea level — it is already floating.
 - The Arctic and Antarctic are not symmetrical: the Arctic is an ocean surrounded by land; Antarctica is a continent surrounded by ocean, leading to very different oceanographic behavior.
 
+## Questions
+
+```yaml
+- question: "The Arctic has lost roughly 40% of its summer sea ice extent since satellite observations began. What effect does this have on global sea level?"
+  type: multiple-choice
+  options:
+    - "Sea level rises significantly because the melted ice adds large volumes of fresh water to the ocean"
+    - "Sea level does not change measurably because floating ice already displaces water equal to its own mass"
+    - "Sea level falls slightly because the dense brine water beneath the ice is no longer being displaced downward"
+    - "Sea level rises only if the ice was resting on the seafloor rather than floating freely"
+  answer: 1
+  explanation: "Archimedes' principle: a floating object displaces water equal to its own weight. When that ice melts, the liquid water it produces occupies exactly the same volume as the water it previously displaced — no net change in sea level. This is a critical distinction: only ice grounded on land (Greenland ice sheet, Antarctic ice sheet, glaciers) adds new water to the ocean when it melts and raises sea level. Option A is the most common public misconception about Arctic sea ice loss."
+
+- question: "Which process is primarily responsible for the formation of Antarctic Bottom Water — the densest, deepest water mass in the global ocean?"
+  type: multiple-choice
+  options:
+    - "Warming of surface water at the equator drives a pressure gradient that pushes cold polar water downward"
+    - "Brine rejection during sea ice formation on the Antarctic continental shelf increases water density, triggering convective sinking"
+    - "Freshwater input from melting glaciers reduces surface density, driving cold ambient water to sink by comparison"
+    - "Wind-driven upwelling brings old deep water to the surface where it cools further and becomes negatively buoyant"
+  answer: 1
+  explanation: "When seawater freezes on the Antarctic continental shelf, the ice crystal lattice excludes salt, ejecting brine into the water below. This dramatically increases the salinity — and therefore the density — of subsurface water. Combined with near-freezing temperatures, this produces water dense enough to cascade off the continental shelf to the ocean floor, becoming Antarctic Bottom Water. Option C has the mechanism backwards: fresh meltwater dilutes density and inhibits sinking, which is why Greenland melt is a concern for North Atlantic Deep Water formation."
+
+- question: "The Arctic and Antarctic polar regions are experiencing similar oceanographic changes under climate warming because both are losing sea ice at comparable rates."
+  type: true-false
+  answer: false
+  explanation: "False. The Arctic and Antarctic are geographically opposite — the Arctic is an ocean basin enclosed by continents; Antarctica is a continent surrounded by the open Southern Ocean with the powerful Antarctic Circumpolar Current isolating it thermally. Arctic summer sea ice has declined roughly 40% since 1979 and is warming 2–4× faster than the global average. Antarctic sea ice trends are more variable, complex, and regionally mixed. Different mechanisms, boundary conditions, and feedbacks operate at each pole, producing very different responses to the same global warming."
+
+- question: "The ice-albedo feedback is a positive feedback: as sea ice melts, darker ocean surface absorbs more solar radiation, which warms the ocean, which melts more ice."
+  type: true-false
+  answer: true
+  explanation: "True. This is the primary driver of Arctic amplification. Sea ice reflects 50–70% of solar radiation (high albedo); open ocean absorbs over 90% (low albedo). As warming melts ice, dark ocean is exposed, absorbing more heat, which warms the water further, melting more ice — a self-reinforcing cycle. This positive feedback amplifies warming locally well beyond the global average, explaining why the Arctic is warming 2–4 times faster than the rest of the planet."
+
+- question: "Explain how brine rejection during sea ice formation drives deep ocean circulation, rather than simply increasing the salinity of surface water."
+  type: short-answer
+  answer: "When seawater freezes, salt is expelled into the water just below the ice. This locally raises salinity and density, creating a gravitational instability: dense, cold, salty water now sits above lighter water beneath it. The heavy surface water sinks convectively, descending through the water column until it reaches water of the same density. This sinking initiates the thermohaline overturning circulation — the dense water spreads along the ocean floor as Antarctic Bottom Water or North Atlantic Deep Water, ventilating the deep ocean. Without brine rejection, the surface water would remain too light to sink, and the deep overturning circulation that carries heat and nutrients globally would weaken or fail."
+  explanation: "The key is that density is the driver, not salinity alone. Cold temperature and high salinity together create water dense enough to overcome the stratification of the water column. The mechanism is analogous to convection in the atmosphere: dense cold air sinks, light warm air rises. In the ocean, brine-enriched surface water plays the role of cold air. This is why polar oceans — not warm tropical oceans — are the 'pump' driving global thermohaline circulation."
+```
+
 ## Explainer
 
 From your study of thermohaline circulation, you know that the ocean's deep overturning is driven by density differences created by temperature and salinity variations. Polar oceans are where this process actually happens — they are the engine rooms of the global conveyor belt. The key mechanism is deceptively simple: when seawater freezes, the ice that forms is nearly fresh, which means the salt that was dissolved in that water gets left behind in the surrounding liquid. This process, called **brine rejection**, dramatically increases the salinity — and therefore the density — of the water just beneath the forming ice. That dense, cold, salty water sinks, sometimes all the way to the ocean floor, initiating the deep circulation that ventilates the entire global ocean.

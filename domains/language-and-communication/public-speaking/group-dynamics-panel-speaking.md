@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Panel discussions require managing unequal speaking time, avoiding interruptions, building on others' points, and maintaining coherence across multiple speakers. Effective panelists listen actively, respect turn-taking, and contribute without dominating.
 
+## Questions
+
+```yaml
+- question: "An audience evaluates a panel where all five panelists made strong individual points but never acknowledged or built on each other's contributions. The audience's most likely criticism is:"
+  type: multiple-choice
+  options:
+    - "Preparation — the panelists clearly did not research each other's positions beforehand"
+    - "Coherence — without connecting contributions, the panel became a series of disconnected mini-presentations rather than a collective conversation"
+    - "Conciseness — each panelist spoke for too long, leaving no time for interaction"
+    - "Conflict avoidance — the audience expected more open disagreement between panelists"
+  answer: 1
+  explanation: "Coherence is a group-level property that each panelist can either reinforce or undermine. When panelists treat their turns as solo presentations with no reference to what came before, the audience experiences fragmentation — a series of talks wearing the format of a discussion. Building on others' points is the primary mechanism for creating coherence. Individual quality is necessary but not sufficient; the relationship between contributions is what makes a panel a conversation rather than a symposium with shared staging."
+
+- question: "During a panel, one panelist has spoken for about 70% of the time. As a co-panelist, your most effective response when you get the floor is:"
+  type: multiple-choice
+  options:
+    - "Interrupt the dominant panelist mid-sentence to redistribute speaking time immediately"
+    - "Say nothing and wait for the moderator to correct the imbalance — redistributing time is not a co-panelist's role"
+    - "Acknowledge the dominant panelist's point, add your own contribution, and then explicitly invite a quieter panelist's perspective before yielding"
+    - "Extend your own speaking time to compensate and restore overall balance"
+  answer: 2
+  explanation: "Option C uses the floor productively on three levels: you acknowledge rather than ignore the dominant speaker (preserving collaborative tone), you add substantive content, and you actively redistribute the floor to an underheard voice. This is more effective than waiting passively for the moderator (who may not intervene) or extending your own dominance to compensate. It also signals to the audience that you are listening and managing the group process — a mark of an experienced panelist."
+
+- question: "Respectful disagreement between panelists is a weakness in panel discussions because it creates audience discomfort and undermines the panel's authority."
+  type: true-false
+  answer: false
+  explanation: "Respectful, substantive disagreement is one of the most valuable things a panel can produce. Audiences attend panels specifically to hear different perspectives interact — a panel where all participants agree completely provides little beyond what any solo talk could offer. The critical qualifier is 'respectful': disagreement aimed at advancing thinking ('I'd push back on that — in my experience...') is productive, while disagreement aimed at performing dominance damages the collaborative dynamic. The goal is intellectual engagement, not conflict avoidance."
+
+- question: "A panelist who explicitly acknowledges and extends a co-panelist's contribution will typically be evaluated more positively by audiences than one who makes equally strong but independent points."
+  type: true-false
+  answer: true
+  explanation: "Audience research on panel discussions consistently shows that panelists who make each other look good receive higher evaluations than those who compete for attention or ignore their colleagues. This is because audiences experience a panel as collaborative inquiry — they are watching a group think together, not a series of individuals perform. Explicit acknowledgment ('what Maria said connects to something I've observed in practice...') signals both intellectual engagement and the generosity that audiences interpret as competence and confidence."
+
+- question: "What distinguishes an 'excellent' panelist from a merely 'competent' one? What specific behavior captures this distinction?"
+  type: short-answer
+  answer: "A competent panelist delivers good individual contributions — they are prepared, articulate, and on-topic. An excellent panelist does all of that while actively constructing a collective conversation: they listen closely enough to genuinely engage with co-panelists' points, explicitly acknowledge and build on what others said, invite quieter voices in when possible, and manage their own contribution in relation to the group dynamic. The specific behavior that most captures this is building on others' contributions — not just adding their own point, but connecting it to the ongoing conversation."
+  explanation: "The distinction maps onto the difference between performance (solo) and participation (collaborative). Excellent panelists understand that their job is not to deliver the best individual talk but to make the best panel — and those are different goals. Building on contributions requires genuine listening, not just waiting to speak. Panelists who visibly engage with what others say — nodding, leaning in, threading back to prior points — signal presence and intellectual generosity that audiences consistently recognize and reward."
+```
+
 ## Explainer
 
 Panel speaking differs from solo presenting in a fundamental way: you are not the only voice shaping the audience's experience. You share the stage with people who may have different expertise, different communication styles, and different amounts of confidence or aggression. Your effectiveness depends not just on what you say, but on how you participate in a collective conversation — and that requires understanding how groups naturally behave when multiple speakers compete for attention.

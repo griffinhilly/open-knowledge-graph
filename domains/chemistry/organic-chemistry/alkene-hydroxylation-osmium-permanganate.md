@@ -33,6 +33,45 @@ Draw the cyclic ester intermediate formation and hydrolysis. Predict the stereoc
 - Assuming KMnO₄ always cleaves the diol; conditions (temperature, concentration) determine whether the diol is formed or cleaved.
 - Forgetting that OsO₄ is catalytic and requires a co-oxidant to complete the catalytic cycle.
 
+## Questions
+
+```yaml
+- question: "A chemist needs to convert cyclopentene to its cis-1,2-diol. Which statement correctly explains why OsO₄ with NMO produces the cis product?"
+  type: multiple-choice
+  options:
+    - "OsO₄ adds the two OH groups stepwise, with the second OH approaching from the same face by coincidence"
+    - "OsO₄ forms a cyclic osmate ester with both alkene carbons simultaneously, forcing both oxygens onto the same face"
+    - "OsO₄ performs anti addition, and ring geometry converts this to an apparent cis product"
+    - "NMO directs both oxygens to the same face after OsO₄ activates the double bond"
+  answer: 1
+  explanation: "The syn selectivity of OsO₄ is a direct consequence of mechanism: a concerted [3+2] cycloaddition forms a five-membered osmate ester in which both C–O bonds form on the same face simultaneously. Hydrolysis of the ring delivers both –OH groups to the same face — syn addition. Neither OsO₄ nor NMO have separate directing roles; the cyclic intermediate itself enforces the stereochemical outcome."
+
+- question: "A student treats an alkene with KMnO₄ expecting to isolate the vicinal diol. Instead, carboxylic acid products are found. What condition most likely caused this?"
+  type: multiple-choice
+  options:
+    - "The reaction was run at 0°C, making KMnO₄ too reactive"
+    - "Excess KMnO₄ was used with heating in acidic or concentrated conditions"
+    - "KMnO₄ was used without a co-oxidant, stopping the reaction before diol formation"
+    - "The alkene was internally disubstituted, which prevents diol formation with KMnO₄"
+  answer: 1
+  explanation: "Cold, dilute KMnO₄ gives syn dihydroxylation via a cyclic manganate ester — the diol-forming condition. Hot, acidic, or concentrated KMnO₄ is a much more powerful oxidant and cleaves the C–C bond of the diol, giving carboxylic acids (from internal alkenes) or CO₂ (from terminal =CH₂). KMnO₄ does not need a co-oxidant because it is stoichiometric, not catalytic."
+
+- question: "The cyclic ester intermediate in OsO₄ hydroxylation guarantees syn addition, not anti addition."
+  type: true-false
+  answer: true
+  explanation: "The five-membered osmate ester forms by a concerted [3+2] cycloaddition in which both C–O bonds form simultaneously on the same face of the π bond. Because the ring constrains both oxygens to the same face until hydrolysis, anti stereochemistry is geometrically impossible. Anti dihydroxylation requires a completely different pathway — such as epoxidation followed by base- or acid-catalyzed ring opening."
+
+- question: "OsO₄ and cold, dilute KMnO₄ deliver opposite stereochemical outcomes in alkene hydroxylation."
+  type: true-false
+  answer: false
+  explanation: "Both OsO₄ and cold, dilute KMnO₄ give syn addition. Both operate through analogous cyclic ester intermediates — an osmate ester and a manganate ester respectively — that force both –OH groups onto the same face. The key differences are not stereochemical: OsO₄ is catalytic (requires a co-oxidant like NMO), highly selective, and expensive/toxic; KMnO₄ is stoichiometric and cheaper but far less selective under forcing conditions."
+
+- question: "Why must OsO₄ be used with a co-oxidant such as NMO, and what happens to OsO₄ during the catalytic cycle?"
+  type: short-answer
+  answer: "After OsO₄ forms the osmate ester with the alkene, hydrolysis releases the diol but reduces osmium from Os(VIII) to Os(VI). Os(VI) cannot react with another alkene. The co-oxidant (NMO or H₂O₂) reoxidizes osmium back to Os(VIII), regenerating active OsO₄ and completing the catalytic cycle. Without a co-oxidant, only one equivalent of alkene reacts per osmium atom."
+  explanation: "This matters practically because OsO₄ is both extremely expensive and highly toxic (volatile, damaging to mucous membranes). Catalytic use — typically a few mol% with a cheap, safe co-oxidant — makes the reaction economically viable and reduces handling hazard. Understanding the catalytic cycle clarifies why both OsO₄ loading and co-oxidant equivalents are specified in reaction protocols."
+```
+
 ## Explainer
 
 You know from electrophilic addition that the electron-rich π bond of an alkene can react with electrophiles. Hydroxylation is a specific type of addition where two hydroxyl groups (–OH) are delivered across the double bond, converting the alkene into a **vicinal diol** (a 1,2-diol — two adjacent carbons each bearing an –OH). The two classic reagents for this transformation — OsO₄ and KMnO₄ — both accomplish syn addition, meaning both –OH groups end up on the *same face* of what was the double bond. Understanding why requires looking at the mechanism.

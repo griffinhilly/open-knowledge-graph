@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 New Keynesian models combine RBC foundations (agents optimize, rational expectations) with market frictions (sticky prices, monopolistic competition). This framework explains why monetary policy is non-neutral and demand shocks affect output and employment, even with forward-looking agents.
 
+## Questions
+
+```yaml
+- question: "The central bank unexpectedly increases the money supply. In the New Keynesian model, what happens to real output in the short run?"
+  type: multiple-choice
+  options:
+    - "Nothing — rational agents anticipate the inflation and fully adjust prices immediately, leaving real output unchanged"
+    - "Real output rises temporarily because sticky prices prevent full price adjustment, so the monetary expansion lowers real interest rates and stimulates demand"
+    - "Real output rises permanently because the demand expansion permanently shifts the production frontier"
+    - "Real output falls because higher expected inflation discourages investment"
+  answer: 1
+  explanation: "The tempting wrong answer is option 0 — that rational expectations alone neutralize monetary policy, which is the RBC result. NK models keep rational expectations but add Calvo pricing: only a fraction of firms can reset prices each period. Even if agents know money supply increased, firms already locked into old prices cannot immediately raise them, so real interest rates fall and output rises. Over time, as more firms reset, prices fully adjust and output returns to its natural level. Rational expectations and monetary non-neutrality coexist because of price stickiness."
+
+- question: "What is the central role of monopolistic competition in the New Keynesian framework?"
+  type: multiple-choice
+  options:
+    - "It ensures firms are passive price-takers, making supply-side analysis tractable"
+    - "It allows firms to set prices as a markup over marginal cost, making price-setting behavior and therefore price stickiness meaningful"
+    - "It eliminates the need for sticky prices by giving each firm enough market power to resist price changes"
+    - "It provides an alternative to price stickiness as the sole source of monetary non-neutrality"
+  answer: 1
+  explanation: "In perfect competition, firms are price-takers — there is nothing to be sticky. Monopolistic competition gives each firm a downward-sloping demand curve and the ability to set its own price. This is the prerequisite for Calvo pricing: if firms cannot choose their prices, the concept of a firm being 'unable to reset' is meaningless. Without some market power, the transmission mechanism linking monetary policy to output breaks down entirely."
+
+- question: "The New Keynesian model predicts that monetary policy has permanent effects on real output."
+  type: true-false
+  answer: false
+  explanation: "NK models assign monetary policy only short-run real effects. Because prices are sticky, a monetary expansion temporarily lowers real interest rates and raises output. But as firms gradually reset prices — a process that plays out over several quarters — the price level fully adjusts and output returns to its natural level determined by supply-side factors. Permanent output effects would require a structural change to productive capacity, not a demand-side monetary intervention. Money is neutral in the NK long run."
+
+- question: "Price stickiness and rational expectations can coexist in a single macroeconomic model."
+  type: true-false
+  answer: true
+  explanation: "This is the central innovation of the New Keynesian framework. Before NK models, many economists assumed rational expectations implied monetary policy could not have real effects — if agents fully anticipated a money supply increase, prices would jump immediately and nothing real would change. NK models showed this logic fails: even with fully rational agents, if only a fraction of firms can reset prices each period (Calvo pricing), a nominal expansion still affects real output. Rational expectations and nominal rigidities are conceptually independent."
+
+- question: "Why does monetary policy have real effects in the New Keynesian model even though agents have rational expectations?"
+  type: short-answer
+  answer: "Because prices are sticky — only a fraction of firms can adjust their prices each period (Calvo pricing). Even if agents correctly anticipate a money supply increase, firms already locked into old nominal prices cannot immediately raise them. The result is lower real interest rates and higher real aggregate demand, temporarily raising output above its natural level. The non-neutrality comes from price stickiness, not from agents being surprised or fooled. Over time, as more firms reset prices, the price level fully adjusts and the real effects dissipate."
+  explanation: "This is the key conceptual achievement of New Keynesian economics: reconciling rigorous microfoundations (rational, optimizing agents) with the empirical observation that monetary policy moves real variables. The source of non-neutrality is firmly on the supply side of price adjustment — how frequently firms can reset prices — not on agents' information or expectations."
+```
+
 ## Explainer
 
 If you have studied real business cycle (RBC) theory, you know its central claim: business cycles can be explained by technology shocks propagated through the optimizing decisions of rational agents, with no role for monetary policy or demand-side forces. And from your work on the Phillips curve, you know the empirical regularity linking inflation and unemployment. The **New Keynesian framework** was built to reconcile these two traditions — keeping the rigorous microfoundations of RBC theory while restoring a meaningful role for monetary policy and demand.

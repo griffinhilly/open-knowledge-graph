@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Learning induces synaptic plasticity that strengthens or weakens connections between neurons based on experience. Long-term potentiation (LTP) increases synaptic strength through NMDA receptor calcium influx and postsynaptic changes, while long-term depression weakens synapses. Learning also recruits new neurons into circuits, expands cortical maps, and promotes dendritic spine formation. These cellular mechanisms explain how neurons change to represent learned associations, supporting new perceptual, motor, and cognitive abilities.
 
+## Questions
+
+```yaml
+- question: "A rat learns that pressing lever A delivers food but lever B never does. Over time, synapses connecting 'lever B' activity to the reward circuit weaken. Which mechanism is primarily responsible for this weakening?"
+  type: multiple-choice
+  options:
+    - "LTP at the lever-B synapse, which paradoxically reduces sensitivity through receptor saturation"
+    - "LTD, caused by repeated presynaptic activation without corresponding postsynaptic firing at the lever-B synapse"
+    - "Cortical map contraction, which physically removes the lever-B representation"
+    - "NMDA receptor downregulation globally across all active synapses"
+  answer: 1
+  explanation: "When lever B is pressed (presynaptic activity) but no reward follows and the postsynaptic reward neuron does not fire, the coincidence condition for full NMDA receptor activation is not met. The moderate Ca²⁺ influx activates phosphatases rather than kinases, removing AMPA receptors from the synapse — this is LTD. LTD is the pruning mechanism that eliminates predictively irrelevant synaptic connections, ensuring only associations that reliably predict outcomes are strengthened."
+
+- question: "During LTP induction, why must both the presynaptic and postsynaptic cells be active at nearly the same time?"
+  type: multiple-choice
+  options:
+    - "Simultaneous activity is needed to activate adenylyl cyclase in the presynaptic terminal"
+    - "NMDA receptors require both glutamate binding (signaling presynaptic activity) and postsynaptic depolarization (removing Mg²⁺ block) to pass calcium"
+    - "Only presynaptic activity is required; postsynaptic activity is needed only for LTD"
+    - "Simultaneous activity triggers retrograde endocannabinoid signaling that opens postsynaptic AMPA receptors"
+  answer: 1
+  explanation: "NMDA receptors are coincidence detectors: glutamate from the presynaptic neuron binds the receptor, but the channel stays blocked by Mg²⁺ unless the postsynaptic membrane is sufficiently depolarized. When both cells are active simultaneously, the Mg²⁺ block is relieved and Ca²⁺ floods in. This Ca²⁺ influx activates CaMKII, leading to phosphorylation of existing AMPA receptors and trafficking of new ones into the synapse — strengthening the connection. This is the molecular implementation of Hebbian plasticity."
+
+- question: "Cortical maps representing body regions are fixed after early childhood and cannot be reorganized by adult experience."
+  type: true-false
+  answer: false
+  explanation: "Cortical maps remain experience-dependent throughout adulthood. Studies of expert Braille readers show enlarged cortical representation of reading fingers compared to non-readers. Conversely, if a finger is amputated, the cortical area previously devoted to it is gradually invaded by representations of adjacent fingers. This adult map plasticity is driven by the same LTP/LTD mechanisms that govern synaptic plasticity — sustained use of a body region drives LTP at relevant connections, expanding that region's cortical territory."
+
+- question: "LTD removes AMPA receptors from synapses that are activated without coincident postsynaptic firing."
+  type: true-false
+  answer: true
+  explanation: "When a synapse is activated (glutamate released, NMDA receptor partially engaged) but the postsynaptic cell doesn't depolarize enough to fully relieve the Mg²⁺ block, only a moderate Ca²⁺ influx occurs. This lower calcium signal activates phosphatases rather than kinases, which dephosphorylate AMPA receptors and trigger their internalization. The synapse is weakened. This is the mechanistic basis for LTD and explains why predictively irrelevant synaptic connections are pruned during learning."
+
+- question: "Why is LTD just as important as LTP for learning, and what would happen to learning if only LTP could occur?"
+  type: short-answer
+  answer: "LTP strengthens associations that co-occur, but without LTD, all activated synapses would eventually saturate — every connection would become maximally strong and the network would lose its ability to discriminate between different patterns. LTD provides selectivity: it prunes synapses that are active but not predictively correlated with outcomes, ensuring that only meaningful associations are preserved. A brain that only potentiated would progressively lose specificity, storing noise as readily as signal."
+  explanation: "LTD is the pruning mechanism that gives the learning process its specificity. The interplay between LTP (strengthen co-active pathways) and LTD (weaken inconsistently active pathways) is what allows neural circuits to refine their representations. Without LTD, learning would be like writing on a whiteboard where you can only add text but never erase — the board quickly becomes unreadable."
+```
+
 ## Explainer
 
 Neuroplasticity — your prerequisite concept — is the brain's general capacity to change in response to experience. But "the brain can change" is a very broad claim. Experience-dependent plasticity makes it specific: it describes *what changes*, *why it changes*, and *how those changes support learning*. The key bridge between the two concepts is **long-term potentiation (LTP)**, the synaptic mechanism that converts experience into durable structural change.

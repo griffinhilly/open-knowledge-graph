@@ -34,6 +34,45 @@ Develop a complete HPLC method for a pharmaceutical formulation including method
 ## Common Misconceptions
 Assuming higher resolution always improves quantitation (can actually reduce peak height and signal). Thinking method works for all concentrations without verifying linearity range.
 
+## Questions
+
+```yaml
+- question: "An analyst extends a gradient to dramatically improve resolution between two closely eluting peaks. What quantitative consequence might this produce?"
+  type: multiple-choice
+  options:
+    - "Better quantitation in all cases, since baseline resolution eliminates peak overlap bias"
+    - "Potentially worse quantitation — very long gradients broaden peaks, reducing peak height and signal-to-noise, which can decrease quantitative precision"
+    - "No effect on quantitation, since peak area is conserved regardless of peak width"
+    - "Improved linearity range, since wider peaks are easier to integrate accurately"
+  answer: 1
+  explanation: "The misconception is that more resolution is always better for quantitation. While adequate resolution is necessary to prevent peak overlap bias, pushing resolution beyond baseline (Rs ≥ 2.0) via very long gradients or highly retentive conditions broadens peaks. A broader peak has lower height and can decrease signal-to-noise, reducing the ability to detect and accurately quantify low-concentration analytes. Optimization balances sufficient resolution against peak shape."
+
+- question: "A pharmaceutical analyst is quantifying an active ingredient whose recovery from tablet extraction varies between 85–95% across preparations. Which calibration approach best corrects for this variability?"
+  type: multiple-choice
+  options:
+    - "External standard calibration, since it directly relates peak area to known concentrations in a standard solution"
+    - "Internal standard calibration, because adding a structurally similar compound to every sample and plotting the area ratio corrects for variable recovery and injection volume differences"
+    - "Standard addition, because it eliminates the need for a calibration curve entirely"
+    - "Single-point calibration at the expected concentration, since the variability is small enough to ignore"
+  answer: 1
+  explanation: "Variable recovery means the amount of analyte reaching the detector is not consistently proportional to the original sample concentration. Internal standard calibration corrects for this: because the internal standard undergoes the same extraction and injection as the analyte, the area ratio (analyte/internal standard) remains accurate even when absolute recovery varies. External standard calibration assumes consistent recovery and injection volume, making it vulnerable to exactly this type of variability."
+
+- question: "System suitability testing must be passed before unknown samples are analyzed in a validated HPLC method."
+  type: true-false
+  answer: true
+  explanation: "System suitability testing verifies that the instrument is performing acceptably on the day of analysis — checking injection repeatability, tailing factor, theoretical plate count, and resolution between critical peak pairs. These tests catch instrument problems (degrading column, air bubble, leaking valve) before they corrupt results. Pharmacopeial methods (USP, EP) require system suitability criteria to be met before results are considered reportable, not just during method development."
+
+- question: "A calibration curve verified to be linear from 10–100 µg/mL can be safely extrapolated to quantify samples at 150 µg/mL without additional verification."
+  type: true-false
+  answer: false
+  explanation: "Quantitation outside the verified linearity range is unreliable. Detector response can become nonlinear at higher concentrations (detector saturation, stray light effects in UV detection) or curve downward due to matrix effects. Method validation establishes the linear range; samples falling outside that range should either be diluted back into range or the linearity range should be re-established and validated for the new concentration."
+
+- question: "Why is internal standard calibration preferred over external standard calibration when sample preparation recovery is variable, and what properties should the internal standard have?"
+  type: short-answer
+  answer: "Internal standard calibration adds a known amount of a reference compound to every sample before sample preparation. Because the internal standard undergoes identical extraction, cleanup, and injection steps as the analyte, the area ratio (analyte peak area / internal standard peak area) remains proportional to the original analyte concentration even when absolute recovery varies. The ideal internal standard is structurally similar to the analyte (similar polarity, ionization, and recovery) but chromatographically resolved from it and absent from real samples."
+  explanation: "External standard calibration assumes constant recovery and injection volume — assumptions violated by variable extraction or injection drift over a long sequence. Internal standard calibration makes the measurement self-normalizing against those sources of variation, which is why it is the preferred approach in regulated pharmaceutical testing."
+```
+
 ## Explainer
 
 You already understand how HPLC separates compounds based on differential interaction with the stationary and mobile phases, and how calibration curves convert detector response to concentration. Quantitative HPLC builds on these foundations by demanding a level of rigor in method development and validation that separates a number from a defensible result. The goal is not just to get a peak — it is to ensure that peak area or height accurately and reproducibly reflects the analyte concentration in your original sample.

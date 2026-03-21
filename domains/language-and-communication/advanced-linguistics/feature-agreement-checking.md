@@ -30,6 +30,45 @@ Trace agreement relations in subject-verb agreement and object agreement, identi
 - Agreement is not merely a morphological marking; it is a syntactic operation driven by interpretability on the semantic and phonological interfaces.
 - Not all matching relations are instances of Agree; some may be allomorphy or post-syntactic processes.
 
+## Questions
+
+```yaml
+- question: "In the sentence 'The cats walk,' which syntactic element acts as the probe in the Agree operation, and which acts as the goal?"
+  type: multiple-choice
+  options:
+    - "The verb 'walk' is the probe; 'the cats' is the goal — the verb searches upward for phi-features to copy"
+    - "T (the Tense head, which hosts agreement morphology) is the probe; the DP 'the cats' is the goal — T searches its c-command domain for interpretable phi-features"
+    - "The subject 'the cats' is the probe; T is the goal — the subject's interpretable features attract the functional head"
+    - "Both T and the verb serve as probes simultaneously — agreement is a symmetric relation"
+  answer: 1
+  explanation: "In minimalist syntax, T (Tense) carries uninterpretable phi-features (person, number) that must be valued and deleted. It is the probe and searches its c-command domain for a goal with matching interpretable phi-features. The subject DP 'the cats' has interpretable number (plural) and person (third) features — it is the goal. The Agree operation values T's uninterpretable features from the goal and deletes them. The morphological agreement on the verb ('walk' not 'walks' for plural) is the surface reflex of this operation. Agree is asymmetric and directional — probes search, goals are found."
+
+- question: "A language has no overt verbal agreement morphology — verbs never change form based on subject number or person. According to the minimalist Agree framework, what does this most likely imply?"
+  type: multiple-choice
+  options:
+    - "The language has no syntactic agreement at all and features are never checked"
+    - "The language may still have Agree operations, but the phi-features on T may be absent or the uninterpretable features may be deleted without any morphological spell-out"
+    - "Subjects in this language must always be adjacent to the verb, since Agree requires strict adjacency"
+    - "This language cannot be analyzed within the minimalist program"
+  answer: 1
+  explanation: "Morphological realization is distinct from the syntactic Agree operation. A language without agreement morphology may still perform Agree internally — features are valued and deleted without any overt phonological consequence, or those features simply are not part of that language's functional vocabulary. Chinese, for example, lacks agreement morphology but remains analyzable within minimalism. Overt agreement morphology is one possible surface reflex of Agree, not its definition. Option C is wrong: Agree is bounded by c-command and locality conditions, not adjacency."
+
+- question: "In the minimalist framework, uninterpretable features must be valued and deleted before transfer to the semantic interface because they contribute nothing to meaning."
+  type: true-false
+  answer: true
+  explanation: "This is the core motivation for Agree. Interpretable features (like number on a noun) contribute to semantic interpretation — they encode whether one or many entities are being discussed. Uninterpretable features (like number on a verb) are purely morphological: a verb being 'singular' has no semantic content. If uninterpretable features reach the semantic interface, the derivation crashes because the interface cannot interpret them. This 'full interpretation' requirement is why feature valuation and deletion are syntactically obligatory — agreement is not stylistic but driven by survival to the interfaces."
+
+- question: "Syntactic movement in the minimalist program is triggered by the need to satisfy phrase structure rules, independently of feature-checking requirements."
+  type: true-false
+  answer: false
+  explanation: "In the minimalist program, movement is feature-driven: an element moves only because a feature must be checked that cannot be valued in situ due to locality constraints. When a probe cannot reach its goal within its c-command domain, the goal must move to a position where Agree can apply. There are no movement rules for their own sake — every displacement has a feature-theoretic motivation. This is what unifies wh-movement, subject raising, object shift, and other transformations under a single mechanism (Agree + feature requirements), replacing the earlier stipulated movement rules of GB theory."
+
+- question: "Explain the distinction between interpretable and uninterpretable features, and why this distinction explains why agreement is obligatory rather than optional in languages that have it."
+  type: short-answer
+  answer: "Interpretable features contribute to meaning at the semantic interface (e.g., plural on a noun encodes multiplicity). Uninterpretable features have no semantic content (e.g., plural on a verb does not characterize the event) and cannot survive to the semantic interface without crashing the derivation. Because the Agree operation that values and deletes uninterpretable features must complete successfully, agreement is obligatory in any language whose functional heads carry such features."
+  explanation: "This reframes agreement from a descriptive morphological pattern to a computationally necessary operation. Languages that 'have agreement' have uninterpretable phi-features on functional heads like T; those features must be valued by Agree or the derivation fails at the semantic interface. Languages without agreement morphology either lack those uninterpretable features or have them with no phonological spell-out. The minimalist insight is that the morphological surface pattern (verb changes form) is secondary — the primary phenomenon is the feature-checking requirement, and morphology is just how some languages make it visible."
+```
+
 ## Explainer
 
 From your study of Merge and the Minimalist Program, you know that syntactic derivations build structure by combining elements according to strict principles, and that the interfaces with phonology and semantics drive what must be computed. Feature agreement sits at the heart of this architecture: it is the mechanism by which elements at a distance "communicate" in the grammar, ensuring that morphological markers on one element reflect properties of another. The classic example is subject-verb agreement in English — the verb *walks* rather than *walk* reflects that its subject is third-person singular. But how does the verb "know" what its subject is, given that they are in different structural positions? In minimalist syntax, the answer is the **Agree** operation.

@@ -34,6 +34,45 @@ Study well-written proofs and identify the hypothesis, conclusion, and steps of 
 - Skipping steps and claiming something is 'obvious'.
 - Using the conclusion somewhere in the proof (begging the question).
 
+## Questions
+
+```yaml
+- question: "In a direct proof that 'if n is even, then n² is even,' a student writes: 'Let n = 2k. Then n² = 4k² = 2(2k²), which has the form 2m and is therefore even.' Which step is the crucial move that makes this a proof?"
+  type: multiple-choice
+  options:
+    - "Squaring n to get 4k², since this introduces the algebraic structure needed"
+    - "Writing n = 2k, because this unpacks the hypothesis into usable algebraic form"
+    - "Noting that 4k² = 2(2k²), since this is where the conclusion is established"
+    - "Concluding that n² is even, since this names the result"
+  answer: 1
+  explanation: "The key move is unpacking the hypothesis: writing 'n is even' as 'n = 2k for some integer k.' This transforms an abstract property into a concrete algebraic object that can be manipulated. Everything that follows — squaring, factoring, recognizing the form 2m — is routine algebra. Direct proof works by finding the algebraic machinery hidden inside the hypothesis; that unpacking step is where the proof actually begins."
+
+- question: "A student attempting to prove 'if n² is even, then n is even' writes: 'Assume n² is even. Since n² is even, n must be even, so n is even.' What logical error did the student commit?"
+  type: multiple-choice
+  options:
+    - "Assuming the hypothesis — the student should not assume anything in a direct proof"
+    - "Begging the question — the student used the conclusion ('n is even') as a step in the argument"
+    - "Circular reasoning — the student repeated the hypothesis instead of using it"
+    - "A valid proof — the step 'n must be even' follows directly from 'n² is even'"
+  answer: 1
+  explanation: "The step 'since n² is even, n must be even' is precisely the conclusion the student is supposed to prove — not a logical step that follows from anything established so far. This is begging the question (petitio principii): assuming the conclusion as part of the argument for the conclusion. Assuming the hypothesis (H) is correct and not circular; the error is assuming P (the conclusion) in order to prove P. Notably, this particular theorem is hard to prove by direct method — contrapositive ('if n is odd, then n² is odd') works more cleanly."
+
+- question: "In a direct proof of 'if H then P,' assuming H at the start of the proof is a form of circular reasoning."
+  type: true-false
+  answer: false
+  explanation: "Assuming H is exactly what the conditional statement licenses you to do — you are not claiming H is universally true, but showing what follows under the assumption that H holds. Circular reasoning would be using P (the conclusion) somewhere in the argument to establish P. Assuming the hypothesis is the starting point of every direct proof; using the conclusion is the error. The distinction is between 'assume H to prove P' (correct) and 'assume P to prove P' (circular)."
+
+- question: "Direct proof is the most effective method for every conditional statement of the form 'if H then P.'"
+  type: true-false
+  answer: false
+  explanation: "Direct proof works well when the hypothesis, when unpacked, contains the algebraic or logical machinery needed to produce the conclusion. When the hypothesis and conclusion feel 'far apart' — when reasoning forward from H doesn't naturally lead to P — an indirect method (proof by contrapositive or proof by contradiction) is usually cleaner. For example, 'if n² is even then n is even' is awkward by direct proof but elegant by contrapositive. Choosing the right proof strategy is itself a mathematical skill."
+
+- question: "What is the difference between 'assuming the hypothesis' and 'begging the question,' and why does only one of them make a direct proof invalid?"
+  type: short-answer
+  answer: "Assuming the hypothesis means taking H as given at the start and reasoning forward to show P follows — this is exactly what proving 'if H then P' requires. Begging the question means using P (the conclusion) as a step in the argument for P — sneaking in what you're trying to prove as if it were already established. Only the second is logically invalid: a proof of 'if H then P' is supposed to show that P follows from H, so using P before it's been established makes the argument circular. Assuming H doesn't make the proof circular because H and P are different statements."
+  explanation: "The key is which statement you're assuming. You are licensed to assume H because that's the hypothesis of the conditional you're proving — you're not proving H is always true. But you haven't established P yet, so you cannot use P as a reason for P. Direct proof is essentially an exercise in following the logical implications of H step by step until P emerges — any step that relies on P before that emergence is circular."
+```
+
 ## Explainer
 
 Most mathematical theorems have the form "if H, then P" — a conditional statement. You've seen this in your study of conditional implication: the claim is not that H or P is unconditionally true, but that P follows from H. **Direct proof** is the method of taking that conditional seriously: assume H is true, then reason forward step by step until you reach P. Every step must be a valid logical inference — substitution, algebraic manipulation, applying a known theorem, or an application of modus ponens.

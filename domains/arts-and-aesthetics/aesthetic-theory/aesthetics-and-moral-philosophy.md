@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 The relationship between beauty and goodness, and between aesthetic and moral judgment, remains contested across philosophical traditions. Some argue aesthetic experience refines moral sensibility; others deny any intrinsic moral value to artworks. This explores whether aesthetics and ethics are fundamentally intertwined or separate domains.
 
+## Questions
+
+```yaml
+- question: "Leni Riefenstahl's Triumph of the Will (1935) is widely regarded as cinematically masterful — innovative in technique, compelling in form — while serving as Nazi propaganda celebrating Hitler. An aesthetic autonomist would evaluate this film by saying:"
+  type: multiple-choice
+  options:
+    - "The film's moral repugnance renders it aesthetically worthless, since beauty and goodness are unified"
+    - "Its aesthetic merit and its moral status are independent — it can be cinematically brilliant while remaining morally heinous, and both judgments can coexist without contradiction"
+    - "Because we cannot separate art from its social context, the film's propaganda function is itself an aesthetic flaw"
+    - "Aesthetic evaluation is impossible for politically engaged art, which should be judged only by its effects"
+  answer: 1
+  explanation: "Aesthetic autonomism holds that aesthetic value and moral value are independent domains. A work's formal and expressive qualities — composition, rhythm, emotional power, technical innovation — can be evaluated on their own terms. On this view, Riefenstahl's film is both cinematically brilliant and morally repugnant, and these judgments do not contradict each other. The autonomist would resist using moral condemnation to override aesthetic assessment, arguing that doing so corrupts art criticism by turning it into moral policing. The opposite view — that moral flaws necessarily undermine aesthetic value — is the claim of ethicism and moralism."
+
+- question: "Which position holds that moral features of an artwork can sometimes be aesthetically relevant — deepening a work's power when handled with moral insight, or constituting an aesthetic flaw when handled with moral obtuseness — without claiming that moral virtue alone determines aesthetic value?"
+  type: multiple-choice
+  options:
+    - "Aesthetic autonomism — moral features are entirely irrelevant to aesthetic judgment"
+    - "The ancient kalokagathia view — beauty and goodness are always unified"
+    - "Moderate moralism — moral features are sometimes aesthetically relevant, but aesthetic value is not reducible to moral value"
+    - "Ethicism — the ethical dimension of a work is always aesthetically relevant"
+  answer: 2
+  explanation: "Moderate moralism occupies a middle ground between autonomism (full independence) and ethicism (moral dimensions always matter). It holds that moral insight can deepen aesthetic power — a novel that illuminates suffering with genuine moral complexity is aesthetically richer for it — and that moral obtuseness can constitute an aesthetic flaw. But it does not collapse aesthetic judgment into moral judgment: formally brilliant, morally dubious works can still be aesthetically valuable, and morally exemplary but formally weak works can still be aesthetically poor. Ethicism goes further, claiming the ethical is always aesthetically relevant; moderate moralism says 'sometimes.'"
+
+- question: "Aesthetic autonomism holds that morally virtuous artworks are aesthetically superior to morally problematic ones, since aesthetic excellence requires ethical integrity."
+  type: true-false
+  answer: false
+  explanation: "This statement describes the opposite of autonomism — it sounds like a version of ethicism or the ancient kalokagathia tradition. Aesthetic autonomism holds that aesthetic value and moral value are independent: a morally repugnant work can be aesthetically brilliant, and a morally virtuous work can be aesthetically dull. The autonomist explicitly denies that moral virtue is a necessary or sufficient condition for aesthetic excellence. If you find yourself saying 'this is a great film but a bad movie,' or 'this novel is beautifully written but morally bankrupt,' you are reasoning within an autonomist framework."
+
+- question: "The debate between aesthetic autonomism and moral positions on art has practical implications for real decisions about censorship, arts funding, and how to handle 'problematic' artworks in educational settings."
+  type: true-false
+  answer: true
+  explanation: "The philosophical debate is not merely academic — it maps directly onto practical controversies. If you are an autonomist, you resist removing artworks from curricula on moral grounds because aesthetic and moral value are independent. If you are an ethicist, you think moral problems with an artwork are necessarily aesthetic problems too, justifying different institutional responses. Questions about whether to separate the art from the artist, whether public funds should support morally controversial work, and what role art should play in moral education all turn on which position you adopt in this debate."
+
+- question: "Can an artwork be both aesthetically excellent and morally repugnant? Identify and explain at least two philosophical positions that give different answers to this question."
+  type: short-answer
+  answer: "Aesthetic autonomism says yes: aesthetic and moral value are independent domains, so a work like Riefenstahl's propaganda films can be cinematically masterful while remaining morally heinous — both judgments are accurate and neither negates the other. Ethicism says no (or nearly so): the ethical dimension of a work is always aesthetically relevant, so deep moral failure constitutes an aesthetic flaw and genuine aesthetic excellence requires moral integrity. Moderate moralism takes a middle position: moral features sometimes affect aesthetic value, but not always — a morally repugnant work might still have great aesthetic value through its formal and expressive qualities, even if its moral failures are real."
+  explanation: "The disagreement turns on whether aesthetic and moral value are two separate scales (autonomism), two scales that sometimes interact (moderate moralism), or fundamentally intertwined (ethicism/kalokagathia). Real cases like Riefenstahl's films, Ezra Pound's poetry, or Wagner's operas make this debate concrete — they are the cases that push philosophers to articulate exactly what they think aesthetic and moral evaluation are each tracking."
+```
+
 ## Explainer
 
 Your introduction to aesthetics and philosophy of art established that aesthetic experience involves a distinctive kind of attention and judgment — we respond to artworks not merely as useful objects but as things that engage our perception, emotion, and imagination. Your understanding of art's definition and ontology showed that determining what counts as art is itself a philosophical problem. Now a deeper question emerges: does the aesthetic domain have anything to do with the moral domain, or are they fundamentally separate territories of human value?

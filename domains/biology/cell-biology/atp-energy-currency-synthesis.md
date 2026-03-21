@@ -29,6 +29,45 @@ Calculate free energy released by ATP hydrolysis and compare to typical cellular
 ## Common Misconceptions
 ATP is made once during respiration—it is continuously synthesized and used. All ATP comes from mitochondria—cytoplasmic glycolysis produces ATP. ATP is the only energy currency—GTP, UTP, and CTP are also used.
 
+## Questions
+
+```yaml
+- question: "A metabolic poison causes the ATP/ADP ratio in a cell to fall from its normal 10:1 to approximately 1:1. What is the most direct consequence of this change?"
+  type: multiple-choice
+  options:
+    - "ATP synthesis stops completely because ADP becomes saturating"
+    - "The free energy released per ATP hydrolysis decreases, reducing the cell's capacity to drive endergonic reactions"
+    - "The cell switches exclusively to substrate-level phosphorylation"
+    - "Mitochondria dissolve because they are no longer needed"
+  answer: 1
+  explanation: "The actual free energy available from ATP hydrolysis depends on the ATP/ADP ratio — not just the standard free energy of -30.5 kJ/mol. At a 10:1 ratio, the actual free energy is closer to -50-55 kJ/mol because the reaction is far from equilibrium. As the ratio drops toward 1:1, the reaction approaches equilibrium and releases much less usable energy. This is why the cell actively maintains a high ATP/ADP ratio: it's not about having more ATP molecules, it's about keeping the hydrolysis reaction thermodynamically favorable."
+
+- question: "How does oxidative phosphorylation compare to glycolysis in terms of ATP yield per glucose molecule?"
+  type: multiple-choice
+  options:
+    - "They produce equal ATP — about 15 each"
+    - "Glycolysis produces more ATP — about 36 vs. 2 from oxidative phosphorylation"
+    - "Oxidative phosphorylation produces far more — about 30–32 vs. 2 from glycolysis"
+    - "Both produce 2 ATP; the rest is released as heat"
+  answer: 2
+  explanation: "Glycolysis (substrate-level phosphorylation) yields only 2 net ATP per glucose. Oxidative phosphorylation, driven by the electron transport chain and the proton gradient across the mitochondrial inner membrane, produces approximately 30–32 ATP per glucose. The vast majority of a cell's ATP comes from oxidative phosphorylation, which is why aerobic organisms can sustain far more energy-intensive activities than anaerobes relying solely on glycolysis."
+
+- question: "The human body stores several kilograms of ATP as an energy reserve to sustain activity during periods of high demand."
+  type: true-false
+  answer: false
+  explanation: "The body contains only about 250 grams of ATP at any moment — less than a cup of sugar. The body does not store large ATP reserves; instead, it continuously synthesizes and hydrolyzes ATP at a remarkable rate, cycling through 40–70 kg of ATP per day at rest. The strategy is rapid turnover, not storage. This is analogous to a power plant that generates electricity continuously on demand rather than storing it in giant batteries. ATP synthesis must constantly keep pace with ATP consumption."
+
+- question: "Oxidative phosphorylation requires the establishment of a proton electrochemical gradient across the inner mitochondrial membrane to drive ATP synthesis."
+  type: true-false
+  answer: true
+  explanation: "The electron transport chain pumps protons (H⁺) from the mitochondrial matrix into the intermembrane space, creating both a pH gradient and an electrical potential across the inner membrane. ATP synthase then uses the flow of protons back down this electrochemical gradient — through its membrane-spanning channel — to drive the mechanical rotation of its rotor, which catalyzes ADP + Pᵢ → ATP. Uncoupling proteins or poisons that dissipate this gradient (like cyanide, which blocks the electron transport chain) halt ATP synthesis."
+
+- question: "Why does the cell maintain a high ATP/ADP ratio rather than simply storing large quantities of ATP as an energy reserve?"
+  type: short-answer
+  answer: "The high ATP/ADP ratio is what makes ATP hydrolysis thermodynamically powerful. The free energy released by ATP hydrolysis is not fixed at -30.5 kJ/mol — it depends on how far the reaction is from equilibrium, which is set by the ATP/ADP ratio. At a 10:1 ratio, the reaction is far from equilibrium and releases ~50-55 kJ/mol, enough to drive most cellular work. If ATP and ADP were at equal concentrations (ratio 1:1, near equilibrium), ATP hydrolysis would release far less usable energy. Storing large amounts of ATP would also reduce this ratio if ADP accumulated, undermining the thermodynamic driving force. Rapid turnover while maintaining the ratio is more efficient than bulk storage."
+  explanation: "This insight separates a surface understanding of ATP ('it stores energy') from a true thermodynamic understanding ('its energetic value depends on its concentration ratio with ADP')."
+```
+
 ## Explainer
 
 You already understand that ATP hydrolysis releases free energy and that cells synthesize ATP through multiple pathways. Now step back and consider the bigger picture: why does life use ATP as its universal energy currency in the first place, and what makes this system so effective?

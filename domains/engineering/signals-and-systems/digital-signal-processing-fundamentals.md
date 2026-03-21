@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Digital signal processing applies mathematical operations to discrete-time signals using digital hardware or software. It encompasses filtering, spectral estimation, modulation, and audio/image processing. DSP is enabled by fast sampling rates, the FFT algorithm, and efficient computational structures.
 
+## Questions
+
+```yaml
+- question: "An engineer digitizes a biomedical signal and later discovers that the anti-aliasing filter's cutoff was set too high, allowing some frequency content above the Nyquist frequency to be sampled. She now wants to remove the aliased components digitally. Which outcome is correct?"
+  type: multiple-choice
+  options:
+    - "She can apply a digital low-pass filter to remove the aliased components, since they appear as high-frequency content"
+    - "She can identify and remove aliased components using the FFT, which reveals their original pre-alias frequencies"
+    - "The aliased components folded into the signal band and are mathematically indistinguishable from legitimate signal — they cannot be removed digitally"
+    - "She can re-sample the signal at a higher rate to recover the original frequency content"
+  answer: 2
+  explanation: "Aliasing is irreversible. When a frequency above Nyquist is sampled, it folds into the signal band at a different frequency: a tone at f_s/2 + Δ appears as a tone at f_s/2 − Δ inside the valid spectrum. Once sampled, the aliased component and any legitimate signal at that folded frequency are identical in the digital record — there is no information to distinguish them. A digital filter cannot remove aliasing without also removing legitimate signal at the same frequency. This is precisely why the anti-aliasing filter *must* precede the ADC: aliasing cannot be undone afterward. Options A and B describe operations that would remove legitimate signal along with the alias, or are simply not possible."
+
+- question: "For a 1024-point DFT, the FFT algorithm reduces the number of multiply-accumulate operations from roughly 1,000,000 to roughly 10,000. Why does this matter for practical DSP systems?"
+  type: multiple-choice
+  options:
+    - "It allows DSP systems to use lower-precision arithmetic without compromising accuracy"
+    - "It makes real-time spectral analysis, audio compression, and OFDM communication feasible on affordable hardware with acceptable power and latency"
+    - "It reduces the memory required to store the signal, enabling longer recording windows"
+    - "It allows the FFT to be computed in analog hardware rather than requiring a digital processor"
+  answer: 1
+  explanation: "The 100× reduction in operations directly translates to 100× reduction in power consumption, latency, and hardware cost for spectral computation. Without the FFT, computing the spectrum of a 1024-point block in real time would require either vastly more expensive hardware or would introduce unacceptable delay. This is not theoretical — it is why MP3/AAC audio compression, Wi-Fi, LTE, 5G (all using OFDM), and medical imaging are practical on consumer devices. The FFT didn't just make DSP faster; it made the entire modern telecommunications and media infrastructure computationally feasible. Options A, C, and D describe unrelated properties."
+
+- question: "Digital filters are less flexible than analog filters because their frequency response characteristics are fixed in hardware and cannot be changed without replacing components."
+  type: true-false
+  answer: false
+  explanation: "This is precisely the opposite of one of DSP's core advantages. A digital filter is an algorithm — changing its frequency response requires only updating software coefficients, not touching any hardware. The same DSP processor that demodulates a radio signal can implement a voice-cancellation algorithm by loading new code. Analog filters, by contrast, are physical circuits whose characteristics are determined by component values (capacitors, resistors, inductors) and drift with temperature and aging. The separability of algorithm from hardware is the fundamental advantage of DSP over analog processing."
+
+- question: "The anti-aliasing filter must be applied before the ADC because frequency content above Nyquist, once sampled, folds into the signal band and cannot be removed by subsequent digital processing."
+  type: true-false
+  answer: true
+  explanation: "This is the non-negotiable requirement of the ADC front-end. The anti-aliasing filter is an analog low-pass filter with a cutoff at or below f_s/2 (the Nyquist frequency). It removes frequency content that would alias before sampling occurs. Once aliasing has occurred in the ADC, the folded components are indistinguishable from legitimate signal at the same frequencies. No downstream digital filter can know which components are valid and which are aliases. This is why the analog boundary (anti-alias → ADC → ... → DAC → reconstruction) is fixed and mandatory, even though the digital processing between them is completely flexible."
+
+- question: "Why is the programmability of the digital processing stage (between ADC and DAC) the central architectural advantage of DSP systems over analog processing systems?"
+  type: short-answer
+  answer: "In an analog system, the signal processing function is implemented in physical components — the circuit topology and component values determine the filter characteristics, and changing them requires physically modifying the hardware. In a DSP system, the analog-to-digital and digital-to-analog boundaries are fixed, but the digital processing between them is entirely a matter of software. The same hardware can implement any processing function — filtering, modulation, compression, noise cancellation — simply by loading different code. This separates physical constraints from functional capabilities, enabling reprogrammable, upgradeable, and multipurpose signal processing that analog systems cannot achieve without hardware replacement."
+  explanation: "This principle is why smartphones, radios, medical devices, and audio equipment can receive software updates that change their signal processing behavior. The hardware (ADC, DAC, processor) stays constant; the algorithm changes. In analog systems, this separation doesn't exist — the circuit *is* the algorithm. DSP also offers precision and repeatability: a digital algorithm produces exactly the same result every time, while analog components drift and age."
+```
+
 ## Explainer
 
 From your study of the DFT and FFT, you know how to transform a discrete-time signal into its frequency-domain representation and back. From your work on aliasing and reconstruction, you understand that a continuous signal must be sampled above twice its highest frequency to avoid aliasing, and that recovery requires a low-pass reconstruction filter. These two concepts — the sampling theorem and spectral analysis — are the twin foundations of digital signal processing. DSP is the discipline of performing useful signal manipulation computationally: filtering, detecting, transforming, compressing, and modulating signals after they have been converted to sequences of numbers by an analog-to-digital converter.

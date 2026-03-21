@@ -30,6 +30,45 @@ Build truth tables; test short-circuit behavior (print statements in conditions 
 ## Common Misconceptions
 That && and || have the same precedence (! > && > ||); confusing && (and) with || (or) under negation (De Morgan's laws).
 
+## Questions
+
+```yaml
+- question: "A login system grants access if: isAdmin || isManager && isVerified. When isAdmin = true, isManager = true, isVerified = false — is access granted?"
+  type: multiple-choice
+  options:
+    - "Yes — because AND binds before OR, this is isAdmin || (isManager && isVerified) = true || false = true"
+    - "No — all three variables must be checked together before any OR can be applied"
+    - "No — because OR binds before AND, this is (isAdmin || isManager) && isVerified = true && false = false"
+    - "Yes — any single true operand makes the whole OR expression true regardless of other operators"
+  answer: 0
+  explanation: "AND binds tighter than OR (precedence: ! > && > ||), so the expression is parsed as isAdmin || (isManager && isVerified). isManager && isVerified = true && false = false. isAdmin || false = true || false = true — access is granted. Option C shows the misconception of treating OR as higher precedence, which would give (true || true) && false = false — a completely different result that would deny an administrator."
+
+- question: "Which expression is logically equivalent to !(isLoggedIn && hasPermission)?"
+  type: multiple-choice
+  options:
+    - "!isLoggedIn && !hasPermission"
+    - "!isLoggedIn || !hasPermission"
+    - "isLoggedIn || hasPermission"
+    - "!(isLoggedIn || hasPermission)"
+  answer: 1
+  explanation: "By De Morgan's first law: !(A && B) = !A || !B. Negating an AND produces an OR of the negations. Option A is the most common mistake — distributing NOT into AND without flipping the operator. Test it: if isLoggedIn = true and hasPermission = false, then !(true && false) = !false = true. Option A gives !true && !false = false && true = false — wrong."
+
+- question: "In the expression a && b, if a evaluates to true, b is always evaluated."
+  type: true-false
+  answer: true
+  explanation: "Short-circuit evaluation only SKIPS the second operand when it cannot change the outcome. For &&, if a is false, the result is definitely false — b can be skipped. But if a is true, the result depends entirely on b, so b must be evaluated. The mirror situation applies to ||: if a is true, b is skipped; if a is false, b must be evaluated."
+
+- question: "The expression !(a || b) is equivalent to !a && !b."
+  type: true-false
+  answer: true
+  explanation: "This is De Morgan's second law: !(A OR B) means neither A nor B is true — i.e., both are false, i.e., !A AND !B. The law is true. Contrast with the first law: !(a && b) = !a || !b, where negation of AND produces OR. The pattern is: negate the connective AND flip the operator (AND↔OR) when distributing NOT."
+
+- question: "Why does short-circuit evaluation matter in practice? Give an example where it prevents a runtime error."
+  type: short-answer
+  answer: "Short-circuit evaluation prevents unnecessary evaluation of operands whose result cannot change the outcome. The canonical example: list != null && list.length > 0. If list is null, evaluating list.length would throw a NullPointerException. Because && short-circuits, when list != null is false, list.length is never evaluated and the crash is avoided. Without short-circuiting, both operands would always be evaluated, making this pattern unsafe."
+  explanation: "Short-circuiting is not merely an optimization — it is a programming idiom that enables safe guard expressions. The same pattern appears in database access (db != null && db.isConnected()), type checks (obj instanceof Foo && ((Foo)obj).method()), and many other contexts where the second condition is only meaningful when the first is satisfied."
+```
+
 ## Explainer
 
 You already know that boolean values are either true or false, and that comparison operators produce booleans. Logical operators let you combine those booleans into more complex conditions. The three fundamental logical operators — **AND** (`&&`), **OR** (`||`), and **NOT** (`!`) — correspond directly to their everyday English meanings, but with precise, unambiguous definitions that eliminate the vagueness of natural language.

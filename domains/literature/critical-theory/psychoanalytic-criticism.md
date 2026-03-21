@@ -36,6 +36,45 @@ Apply Freudian and Lacanian approaches to the same text sequentially and compare
 - 'The unconscious' in Lacan is structured like a language, not a biological reservoir of drives—this makes it directly relevant to literary language.
 - Not everything in a text is a phallic or sexual symbol; psychoanalytic criticism is most powerful when applied to recurrent patterns, gaps, and compulsive repetitions in texts.
 
+## Questions
+
+```yaml
+- question: "Which of the following best represents a psychoanalytic critical approach to a novel?"
+  type: multiple-choice
+  options:
+    - "Diagnosing the protagonist with borderline personality disorder based on their behavior patterns"
+    - "Cataloguing every symbol in the text and matching each to Freud's inventory of sexual imagery"
+    - "Analyzing why the narrative compulsively returns to a scene the protagonist claims to have forgotten, and what that repetition reveals about what the text cannot say directly"
+    - "Applying psychoanalytic theory only to texts written during Freud's lifetime"
+  answer: 2
+  explanation: "Psychoanalytic criticism's power lies in structural analysis — identifying compulsive repetitions, gaps, and narrative returns that reveal the text's 'symptoms.' Option C describes this correctly: it asks what a formal feature (compulsive return) tells us about the text's unconscious logic. Option A is explicitly rejected in the field — treating fictional characters as clinical patients flattens the analysis. Option B is the reductive stereotype of psychoanalytic criticism; it is most powerful when applied to patterns and structural logic, not mechanical symbol-matching."
+
+- question: "In Lacanian psychoanalytic criticism, the claim that 'the unconscious is structured like a language' is significant because:"
+  type: multiple-choice
+  options:
+    - "It means the unconscious can be decoded using standard grammatical analysis"
+    - "It connects unconscious processes directly to literary language — condensation and displacement operate in both, making the unconscious accessible through close reading"
+    - "It confirms that Freud's biological drive theory was correct but needed linguistic translation"
+    - "It means only texts that explicitly discuss language are suitable for Lacanian analysis"
+  answer: 1
+  explanation: "Lacan's claim is that the unconscious operates through the same mechanisms as language — condensation (multiple meanings compressed into one figure) and displacement (emotional charge transferred to a substitute). This is not metaphor; it means the unconscious is literally constituted by linguistic-like operations. For literary criticism, this is transformative: the mechanisms Freud identified in dreams are the same mechanisms at work in figurative language, symbolism, and narrative structure. Close reading of a text is therefore a legitimate — not analogical — form of access to unconscious content."
+
+- question: "Psychoanalytic criticism is most illuminating when applied to recurring patterns, gaps, and structural repetitions in a text rather than to explicit character statements or authorial intent."
+  type: true-false
+  answer: true
+  explanation: "This is the methodological core of the approach. The explicit layer of a text — what characters say, what the narrator states, what the author consciously intended — is precisely where unconscious content does NOT appear directly. The unconscious works through indirection: what is avoided, what keeps returning, what is displaced onto a symbol. A recurring motif, an inexplicable narrative digression, a theme the text approaches and flinches from — these formal features are the text's symptoms, and they carry more psychoanalytic weight than direct statements."
+
+- question: "A psychoanalytic reading of a novel primarily involves diagnosing fictional characters with clinical psychological disorders based on their behavior."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about psychoanalytic criticism. Diagnosing fictional characters as if they were real patients ('Hamlet has an Oedipus complex') is considered a weak and methodologically confused application of the approach. Characters are not people; they are textual constructs. The stronger application focuses on the text's structural logic: what patterns of repetition, displacement, and absence operate throughout? What does the text's narrative machinery reveal about what it cannot articulate? The character is a vehicle for analyzing the text's deeper logic, not a patient in need of diagnosis."
+
+- question: "Explain the metaphor of the text as 'dreamwork.' What does it mean to say condensation and displacement operate in literary language, and how does this change what a psychoanalytic critic looks for?"
+  type: short-answer
+  answer: "In dreamwork, unconscious content cannot surface directly — it is processed through condensation (multiple meanings compressed into a single image or figure) and displacement (emotional charge transferred from its actual object onto a substitute that can pass the censor). A literary text operates analogously: a recurring symbol is not chosen consciously to encode a meaning; it appears because it is doing unconscious work, compressing multiple meanings and carrying charge the text cannot address directly. This changes what the critic looks for: instead of decoding explicit meanings, the critic attends to compression (what multiple meanings does this image carry at once?) and displacement (what is the real object of this text's attention, and what is standing in for it?)."
+  explanation: "The dreamwork metaphor reframes literary analysis from decoding to symptom-reading. The critic's question shifts from 'what does this mean?' to 'what is this doing that the text cannot do more directly?' This opens up analysis of figurative language, narrative compulsions, and structural gaps that would be invisible to approaches that focus only on explicit content."
+```
+
 ## Explainer
 
 You already know how to read characters for motivation and development — tracking what drives them, how they change, what their choices reveal. Psychoanalytic criticism extends that work by asking what a character's (or text's) behavior reveals that they cannot or will not say directly. The fundamental premise is borrowed from Freud: mental life is not transparent to itself. What a person consciously believes and intends is only part of the story. The **unconscious** contains desires, conflicts, and memories that have been **repressed** — pushed below the threshold of awareness because they are too threatening, too forbidden, or too painful — but which return, distorted, in dreams, slips of the tongue, symptoms, and symbolic behavior.

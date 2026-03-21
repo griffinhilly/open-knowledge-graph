@@ -20,6 +20,45 @@ status: draft
 ## Core Idea
 Optimality Theory posits that languages are systems of ranked, violable constraints. Phonological patterns emerge from constraint conflict resolution: the optimal output best satisfies the hierarchy, even if lower-ranked constraints are violated. This approach unifies cross-linguistic patterns (e.g., consonants prefer onset position) while capturing language-specific variation through constraint ranking, moving phonology from rules to optimization.
 
+## Questions
+
+```yaml
+- question: "In Language X, NOCODA outranks faithfulness, so the underlying form /kat/ surfaces as [ka] (final consonant deleted). In Language Y, faithfulness outranks NOCODA, so /kat/ surfaces as [kat]. What does this demonstrate about Optimality Theory?"
+  type: multiple-choice
+  options:
+    - "Language X has fewer phonological constraints than Language Y"
+    - "The same universal constraints, ranked differently, produce different surface phonological patterns"
+    - "Language X's faithfulness constraints are weaker because they apply to fewer sounds"
+    - "The underlying form /kat/ must be different in each language to produce different outputs"
+  answer: 1
+  explanation: "Both languages share the same universal constraints — NOCODA and faithfulness — but rank them differently. In Language X, NOCODA dominates, forcing deletion of the coda consonant (violating faithfulness). In Language Y, faithfulness dominates, preserving the consonant (violating NOCODA). Different rankings of the same universal constraints produce different grammars. This is the core mechanism by which OT explains both cross-linguistic universals and language-specific variation."
+
+- question: "In Optimality Theory, which candidate wins the constraint evaluation tableau?"
+  type: multiple-choice
+  options:
+    - "The candidate that violates the fewest constraints in total"
+    - "The candidate with the shortest output form"
+    - "The candidate that best satisfies the constraint hierarchy by avoiding violations of the highest-ranked violated constraint relative to all competitors"
+    - "The candidate that satisfies all markedness constraints, even at the cost of faithfulness"
+  answer: 2
+  explanation: "OT is not about minimizing total violations — this is the most seductive misconception. A candidate that violates five low-ranked constraints beats one that violates a single high-ranked constraint. The winner is the candidate whose critical (deciding) constraint violation is lower-ranked than any competitor's critical violation. Constraint RANKING, not constraint COUNT, determines the winner. A student who thinks OT is about 'fewest violations' has missed the entire architecture."
+
+- question: "In Optimality Theory, every candidate output — including the winning (optimal) output — typically violates at least some constraints."
+  type: true-false
+  answer: true
+  explanation: "Constraints are inherently violable in OT — this is the framework's defining departure from rule-based phonology. The optimal output is not one that satisfies all constraints simultaneously; it is the one that best satisfies the ranked hierarchy relative to all competitors. In practice, the winner typically violates some lower-ranked constraints to satisfy higher-ranked ones. Perfect constraint satisfaction is usually impossible because markedness and faithfulness constraints inherently conflict."
+
+- question: "Languages differ phonologically because each language has a different set of phonological constraints."
+  type: true-false
+  answer: false
+  explanation: "In OT, all languages share the same universal inventory of constraints (Con) — the same markedness and faithfulness constraints exist in every language's grammar. What differs across languages is how those constraints are RANKED. Language-specific phonological patterns emerge from language-specific rankings of universal constraints, not from different constraints existing in different languages. This is why OT is called a 'universal grammar' theory — the constraints are universal, the rankings are learned."
+
+- question: "What does it mean for a constraint to be 'violable' in Optimality Theory, and how does this differ from a phonological rule in earlier frameworks?"
+  type: short-answer
+  answer: "A violable constraint is one that can be overridden when a higher-ranked constraint demands it. In OT, no constraint is absolute — any constraint can be violated by the optimal output if satisfying it would require violating a more highly ranked constraint. In rule-based phonology, rules either apply or don't: they are exceptionless within their domain and cannot be 'outranked.' OT replaces deterministic rule application with ranked competition among candidates, where violations are not errors but the expected cost of satisfying higher priorities."
+  explanation: "This question targets the deepest conceptual shift in OT. Rule-based thinking treats constraints as non-negotiable triggers; OT treats them as ranked preferences. Grasping this shift is what allows students to understand why OT can generate complex cross-linguistic patterns from a single universal constraint set rather than requiring language-specific rule inventories."
+```
+
 ## Explainer
 
 From your study of phonological systems, you know that languages are not random collections of sounds — they have systematic patterns. Some syllable structures are preferred over others; certain sound sequences recur across unrelated languages; sounds change predictably in specific environments. Earlier phonological theory explained these patterns with **rules**: ordered instructions that transform one representation into another. Optimality Theory (OT), developed by Prince and Smolensky in the early 1990s, proposes a fundamentally different architecture: instead of rules that apply sequentially, there are **constraints** — and instead of derivations, there is optimization.

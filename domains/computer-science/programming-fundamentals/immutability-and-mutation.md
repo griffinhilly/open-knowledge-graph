@@ -27,6 +27,45 @@ Attempt to modify immutable objects and observe errors; modify mutable collectio
 ## Common Misconceptions
 That all data is mutable (strings are often immutable); that immutable data is inefficient (it can enable optimizations); that immutability means the variable can't change (the variable can reference a new object).
 
+## Questions
+
+```yaml
+- question: "In Python, the following code runs: name = 'Alice'; greeting = name; name = name.upper(). What is the value of greeting after these three lines?"
+  type: multiple-choice
+  options:
+    - "'ALICE' — greeting follows name because they reference the same object"
+    - "'Alice' — strings are immutable, so name.upper() created a new string and name was reassigned to it; greeting still points to the original"
+    - "None — the original string was garbage collected when name was reassigned"
+    - "'alice' — upper() modifies the string in place and greeting reflects the change"
+  answer: 1
+  explanation: "Strings are immutable in Python. name.upper() does not alter 'Alice' — it creates a new string 'ALICE' and name is reassigned to point to this new object. greeting was set to point to the original 'Alice' string, and since that string object was never modified (it can't be), greeting still sees 'Alice'. This demonstrates the critical distinction: variable reassignment changes what a variable points to, but the original string object remains unchanged and accessible through any other variable that still references it."
+
+- question: "Two functions both hold a reference to the same list scores = [85, 90, 72]. Function A passes scores to function B. Function B sorts the list in place using scores.sort(). After B returns, what does function A's reference to scores contain?"
+  type: multiple-choice
+  options:
+    - "[85, 90, 72] — function B received a copy of the list, so the original is unchanged"
+    - "[72, 85, 90] — both references point to the same mutable object, so the sort is visible everywhere"
+    - "An error — you cannot sort a list that was passed as a parameter"
+    - "[85, 90, 72] — sort() on a function parameter creates a local sorted copy"
+  answer: 1
+  explanation: "Lists are mutable, and Python passes object references, not copies. When function B receives scores, it receives a reference to the *same list object*. Calling scores.sort() modifies that object in place — the same object that function A's variable also points to. Function A's reference now sees [72, 85, 90]. This is the classic mutation side effect: code far from the original definition can alter shared data in ways the caller doesn't expect. The fix is to either pass a copy (sorted(scores) returns a new list) or use immutable data structures."
+
+- question: "When a programming language says strings are immutable, it means you cannot reassign a variable that holds a string to a different string."
+  type: true-false
+  answer: false
+  explanation: "Immutability applies to the *object*, not the *variable*. A variable is just a name that refers to an object; reassigning the variable (name = 'Bob') simply makes it point to a different object — neither the old string nor the variable binding is 'locked.' What immutability prevents is modifying the contents of the string object itself: there is no operation like name[0] = 'b' that changes a character inside an existing string (in Python this raises a TypeError). The distinction between the container (variable) and the contents (object) is fundamental."
+
+- question: "If a mutable list is passed to a function and that function modifies it in place, the caller's variable reflects the change without the function needing to return anything."
+  type: true-false
+  answer: true
+  explanation: "This is a direct consequence of mutation with shared references. The caller's variable and the function's parameter both point to the same underlying list object. Any in-place modification (append, sort, item assignment) is visible through both references. This behavior is intentional in many contexts (avoiding copies of large data), but it can surprise programmers who expect functions to be side-effect-free. Understanding this is why 'pass-by-object-reference' semantics matters for reasoning about program behavior."
+
+- question: "What is the difference between reassigning a variable and mutating the object it points to? Why does this distinction matter for reasoning about program correctness?"
+  type: short-answer
+  answer: "Reassigning a variable changes which object the variable refers to — the original object is untouched and any other variables pointing to it still see the original value. Mutating an object changes the object itself — every variable that references that object now sees the new value. The distinction matters because mutation creates hidden dependencies: two parts of a program sharing a mutable object can interfere with each other, producing bugs that are hard to trace. Immutable objects eliminate this risk — since no one can change the data, a shared reference is always safe."
+  explanation: "Many subtle bugs — accidental list modification through aliasing, unexpected behavior when objects are passed to functions — arise from confusing these two operations. Recognizing which operations create new objects (immutable behavior or explicit copies) versus which modify existing ones (mutation) is fundamental to reasoning about correctness and safety in programs."
+```
+
 ## Explainer
 
 Now that you understand how to access and modify elements in collections, it is time to examine a deeper question: should data be changeable at all? **Mutation** means altering data in place — changing an array element from 5 to 10, for example. The original value is gone, replaced by the new one. **Immutability** means data cannot be changed after creation. When you need a different value, you create a new piece of data rather than modifying the existing one.

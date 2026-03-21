@@ -28,6 +28,45 @@ Go through your device settings and look at notification permissions for differe
 ## Common Misconceptions
 - Disabling notifications means you'll miss important information (you can choose which ones to keep). - All notifications are equally urgent (prioritize by app and type). - Notifications always happen in real-time (some can be batched or delayed).
 
+## Questions
+
+```yaml
+- question: "A friend says: 'I turned off every single notification on my phone so I wouldn't miss anything important — now I have to check everything manually.' What's the fundamental problem with this approach?"
+  type: multiple-choice
+  options:
+    - "Turning off all notifications is technically impossible on most devices"
+    - "It confuses the problem — the goal is selective control, not blanket silence, so important alerts no longer reach them"
+    - "Manual checking is always more reliable than notifications, so this is actually good practice"
+    - "Their device's battery will drain faster without notifications running"
+  answer: 1
+  explanation: "The goal of notification management is selective control: keeping the alerts that matter while silencing the ones that don't. Disabling all notifications to avoid distraction defeats the purpose — now important security alerts, messages from key contacts, and calendar reminders are also silenced. The insight is that you can choose *which* apps get notification access and *how* they can notify you, creating a tiered system rather than choosing between all-on and all-off."
+
+- question: "You want to protect your focused work hours without missing messages from close family. Which notification strategy best achieves both goals?"
+  type: multiple-choice
+  options:
+    - "Turn off all notifications permanently and check apps on a schedule"
+    - "Enable all notifications but mute your phone's volume"
+    - "Use Do Not Disturb with exceptions for specific contacts, silencing everything else"
+    - "Uninstall apps that send non-urgent notifications"
+  answer: 2
+  explanation: "Do Not Disturb with contact exceptions is precisely designed for this scenario: it enforces quiet time for focus while carving out exceptions for high-priority people. Turning off all notifications (A) would miss the important messages too. Muting volume (B) only suppresses sound but still allows screen-interrupting banners. Uninstalling apps (D) is a drastic measure when a simple settings change suffices."
+
+- question: "Disabling notifications from an app means you will miss all alerts and updates from that app."
+  type: true-false
+  answer: false
+  explanation: "Disabling notifications means the app won't interrupt you proactively — but you can still open the app at any time and see all its content. You only miss alerts if you never check the app. Many people find that checking apps intentionally (pull-based) is preferable to being interrupted by them (push-based) for low-priority apps. Additionally, on most devices you can choose between notification types: banners, sounds, badges, or tray entries — so you can keep a silent badge without disruptive alerts."
+
+- question: "Most devices allow you to set scheduled quiet hours during which only certain contacts or apps can still send notifications."
+  type: true-false
+  answer: true
+  explanation: "This is exactly what 'Do Not Disturb' or 'Focus Mode' does on modern smartphones and computers. You define quiet hours (e.g., 11pm–7am, or during work blocks), and most apps are silenced — but you can configure exceptions for specific contacts (emergency calls from family) or apps (alarm clocks, critical security alerts). This tiered approach is more effective than simply muting your phone because it's automatic and allows genuine emergencies through."
+
+- question: "Why does building a tiered notification system — high-priority alerts always on, medium-priority in a tray, low-priority off — improve focus more effectively than simply silencing your phone?"
+  type: short-answer
+  answer: "Silencing the phone is a blunt tool that requires a decision every time: do I check it now, or am I missing something important? A tiered system removes that anxious uncertainty. High-priority alerts still arrive immediately, so you know that if your phone is silent, nothing truly urgent is happening. You can work without the background worry that you're missing something critical, and you no longer need to check compulsively."
+  explanation: "The psychological insight is that distraction isn't just about the interruptions that happen — it's also about the interruptions you're waiting for. When all notifications are off, your attention is partly consumed by wondering what you're missing. A tiered system resolves this: you've deliberately decided which things will reach you, so silence means safety, not ignorance. This is the core reason notification management improves focus beyond simply reducing noise."
+```
+
 ## Explainer
 
 Think of your phone or computer as a workplace with a door. Every app you've installed has been given a key to knock on that door whenever it wants your attention. When you first install most apps, the default setting is "knock anytime" — which is why a freshly set-up phone can feel like a constant interruption. Managing notifications means deciding which apps get that key and when they're allowed to use it.

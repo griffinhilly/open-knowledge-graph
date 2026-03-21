@@ -36,6 +36,45 @@ Begin by writing strict two-voice first-species counterpoint, then progressively
 - Free counterpoint does not mean ignoring dissonance treatment — it means the rules are applied more flexibly, not abandoned.
 - Good counterpoint in two voices creates the harmonic implication of full chords through careful interval selection, without needing a third voice to complete the harmony.
 
+## Questions
+
+```yaml
+- question: "A student learning free counterpoint writes a two-voice passage where dissonances appear freely on any beat without preparation or resolution, reasoning that 'free counterpoint has no rules about dissonance.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — free counterpoint has no dissonance restrictions"
+    - "Free counterpoint still requires dissonances to be prepared and resolved, just with more flexibility than strict species"
+    - "Free counterpoint allows dissonances only on weak beats"
+    - "Free counterpoint requires all intervals to be consonant"
+  answer: 1
+  explanation: "Free counterpoint internalizes the rules of species counterpoint rather than discarding them. Dissonances still require careful treatment — preparation by a consonance and stepwise resolution — but the rhythmic and melodic context is more flexible than in strict first through fourth species. The distinction is between abandoning rules (wrong) and applying them with musical intelligence (correct). Unresolved or unprepared dissonances produce clashing, incoherent results regardless of whether the style is 'free.'"
+
+- question: "In a fugue, the subject (main theme) ascends by a fifth, then steps down by a third. A composer writes a countersubject (the melody played against the answer) that also ascends prominently. Which contrapuntal principle is most violated?"
+  type: multiple-choice
+  options:
+    - "The rule against parallel fifths"
+    - "The preference for contrary and oblique motion to maintain voice independence"
+    - "The requirement that the countersubject must use augmentation"
+    - "The prohibition against melodic leaps larger than a sixth"
+  answer: 1
+  explanation: "When both voices move in the same direction simultaneously, they lose their sense of independence — the listener perceives them as a single unit rather than two distinct melodic lines. Contrary motion (one voice ascending while the other descends) and oblique motion (one voice moving while the other holds) are the primary tools for maintaining the separation between voices that gives counterpoint its characteristic texture. This principle does not disappear in free counterpoint or fugal writing."
+
+- question: "A composer who applies 'stretto' in a fugue overlaps entries of the subject before the previous voice has finished stating it."
+  type: true-false
+  answer: true
+  explanation: "Stretto is exactly this technique: a new voice enters with the subject before the previous voice has completed it, creating a compressed, overlapping effect. It generates tension and urgency because the subject is crowded against itself. Stretto is one of the standard contrapuntal transformations alongside inversion (flipping intervals), augmentation (lengthening note values), and diminution (shortening them)."
+
+- question: "In two-voice counterpoint, a third voice is required to complete the harmonic implication of full chords."
+  type: true-false
+  answer: false
+  explanation: "One of the misconceptions the topic addresses directly: skilled two-voice counterpoint creates the convincing harmonic implication of full chords through careful selection of consonant intervals at structurally important moments. A third and a fifth above a bass implies a root-position triad; a third and a sixth implies first inversion. Bach's two-part inventions demonstrate that rich harmonic content is achievable with only two voices when intervals are chosen deliberately."
+
+- question: "What distinguishes free counterpoint from strict species counterpoint, and what principle remains constant in both?"
+  type: short-answer
+  answer: "Free counterpoint allows greater rhythmic variety, expressive flexibility, and fewer rigid constraints on dissonance placement compared to strict species exercises. What remains constant is the underlying principle: voices must be melodically independent (achieved primarily through contrary and oblique motion), dissonances must be treated with care (prepared and resolved, even if more flexibly), and interval choices must imply coherent harmony. Free counterpoint has internalized the rules rather than abandoned them."
+  explanation: "The analogy from the topic is apt: species counterpoint is like grammatical drills in a new language, while free counterpoint is actual prose writing. The grammar doesn't vanish — it recedes into the background as the composer focuses on expression. A piece of free counterpoint that ignores dissonance treatment or uses parallel perfect intervals will sound wrong for the same reasons a strict exercise would fail."
+```
+
 ## Explainer
 
 From your work in species counterpoint, you know the rules that govern how two voices interact: consonant intervals on strong beats, dissonances treated as passing tones or neighbor tones, and a strong preference for contrary and oblique motion to keep the voices feeling independent. Contrapuntal composition takes those rules out of the exercise context and puts them to expressive work. **Free counterpoint** doesn't abandon those principles — it internalizes them well enough to bend them purposefully. The difference is like moving from writing grammatically correct sentences in a language class to actually writing prose: the grammar doesn't disappear, but it recedes into the background as you focus on meaning.

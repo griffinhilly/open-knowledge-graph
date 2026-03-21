@@ -30,6 +30,45 @@ Peer relationships progress developmentally from parallel play (toddlerhood) thr
 ## How It's Best Learned
 Observe peer play across age groups in naturalistic settings. Examine peer nomination and sociometric data to understand social status (popular, rejected, neglected, controversial). Read longitudinal studies linking childhood peer relationships to adult outcomes.
 
+## Questions
+
+```yaml
+- question: "A 9-year-old receives many 'like most' nominations AND many 'like least' nominations from peers. What sociometric status does this child have?"
+  type: multiple-choice
+  options:
+    - "Popular — high positive nominations indicate popularity"
+    - "Rejected — any significant negative nominations indicate rejection"
+    - "Controversial — high numbers of both positive and negative nominations"
+    - "Neglected — mixed signals indicate the peer group is ambivalent"
+  answer: 2
+  explanation: "Sociometric categories are defined by the pattern of both positive and negative nominations. 'Controversial' children receive many of both — they are liked by some peers and disliked by others. 'Rejected' children receive few positive and many negative nominations. 'Popular' children receive many positive and few negative. 'Neglected' children receive few of either. Conflating 'controversial' with 'rejected' misses an important distinction: controversial children are socially visible and often influential, even if polarizing."
+
+- question: "Research on temperamentally shy children and peer relationships suggests that:"
+  type: multiple-choice
+  options:
+    - "Shy children consistently develop fewer peer skills and are at higher risk for rejection than average"
+    - "Shyness is a protective factor because it prevents the aggressive behaviors that lead to rejection"
+    - "Shy children may struggle with group peer entry but can build strong one-on-one friendships with support"
+    - "Temperament determines social outcomes, so intervention for shy children has little effect"
+  answer: 2
+  explanation: "The Explainer distinguishes between social competence in group entry situations (where shy children struggle) and dyadic friendship quality (where they can succeed). Temperament shapes but does not determine social outcomes. The match between a child's behavioral tendencies and situational demands matters most — a shy child may thrive in one-on-one contexts while struggling in large group play. This distinction shows why 'shyness' is not equivalent to 'social incompetence.'"
+
+- question: "A child who scores low on sociometric peer acceptance but has one stable, close mutual friendship is at the same long-term risk for social and mental health problems as a child with no friendships and low peer acceptance."
+  type: true-false
+  answer: false
+  explanation: "Even one stable, reciprocal friendship buffers children against many risks associated with low peer acceptance. Friendship quality is a distinct variable from sociometric status — you can be unpopular in the wider peer group but still derive protection from a single close friendship. The two dimensions (acceptance by the group, quality of specific friendships) independently predict outcomes."
+
+- question: "The aggressive-rejected subtype of peer status is a stronger predictor of long-term negative outcomes than the neglected status."
+  type: true-false
+  answer: true
+  explanation: "Rejected status — and especially the aggressive-rejected subtype — is the strongest childhood predictor of school dropout, delinquency, and adult mental health difficulties. Neglected children, who receive few nominations of either type, are less visible to the peer group but are not actively disliked; their long-term trajectory is better than that of rejected children. The distinction matters for identifying children who most need intervention."
+
+- question: "Why does interacting with peers require qualitatively different social skills than interacting with adults, even for children who are socially capable in adult-led settings?"
+  type: short-answer
+  answer: "Peers are social equals with their own goals, power, and feelings, so children must negotiate, compromise, and adjust mutually — skills that adult-led interactions rarely require in the same way. Adults typically accommodate children and guide interactions; peers do not. Competence with adults therefore does not guarantee peer competence."
+  explanation: "This distinction explains why social competence is context-specific: emotion regulation, perspective-taking, and behavioral control must be exercised differently when interacting with someone who has equal (not greater) power and competing (not complementary) goals. A child who performs well in teacher-directed settings may lack the negotiation and conflict-resolution skills that peer interaction demands."
+```
+
 ## Explainer
 
 Your earlier study of preschool social-cognitive development established that children around ages 3–5 are developing theory of mind — the ability to understand that others have different beliefs, desires, and perspectives than their own. Peer relationships are where this capacity gets tested and refined in real time. Interacting with peers is fundamentally different from interacting with adults: peers are social equals with their own goals, feelings, and power, so negotiation, compromise, and mutual adjustment become necessary in ways that adult-led interactions rarely require.

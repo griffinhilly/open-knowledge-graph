@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 If T is an unbiased estimator of θ and S is a sufficient statistic, then φ = E[T|S] is unbiased for θ and Var(φ) ≤ Var(T). This theorem shows how to improve unbiased estimators by conditioning on sufficient statistics. Combined with completeness, it yields UMVUEs.
 
+## Questions
+
+```yaml
+- question: "You have an unbiased estimator T of the mean μ of a normal distribution, and S = X̄ is the sufficient statistic. After Rao-Blackwellization, φ = E[T | X̄]. Which claim about φ is correct?"
+  type: multiple-choice
+  options:
+    - "φ is biased because conditioning on S changes the expected value of T"
+    - "φ has higher variance than T because averaging over the conditioning introduces extra randomness"
+    - "φ is unbiased with variance ≤ Var(T); if T = X₁, then φ = X̄ with variance σ²/n instead of σ²"
+    - "φ equals T with probability one, so the theorem has no content in this case"
+  answer: 2
+  explanation: "The law of total expectation preserves unbiasedness: E[φ] = E[E[T|S]] = E[T] = μ. The variance decomposition Var(T) = Var(E[T|S]) + E[Var(T|S)] shows variance can only decrease or stay the same — the extra term E[Var(T|S)] is the noise in T irrelevant to θ. In the normal example, E[X₁ | X̄] = X̄, reducing variance from σ² to σ²/n. Option A mistakes the law of total expectation; option B reverses the variance inequality."
+
+- question: "What role does the sufficient statistic play in the Rao-Blackwell argument?"
+  type: multiple-choice
+  options:
+    - "It provides a lower bound on the variance of any unbiased estimator"
+    - "It captures all parameter information in the data, so conditioning on it removes noise irrelevant to θ without losing signal"
+    - "It automatically guarantees the conditioned estimator will be the UMVUE without any additional assumptions"
+    - "It replaces the unknown parameter θ with a known quantity, enabling exact variance calculations"
+  answer: 1
+  explanation: "Sufficiency means the conditional distribution of the data given S does not depend on θ — S has already extracted all the θ-relevant information. So conditioning T on S averages away the part of T's variability that is unrelated to θ (the 'bad variance'), while keeping the part that tracks θ (the 'good variance'). Option C is wrong: completeness of S is additionally required for the result to be the UMVUE (Lehmann-Scheffé theorem)."
+
+- question: "If T is an unbiased estimator and S is a sufficient statistic, then E[T|S] has variance no greater than Var(T)."
+  type: true-false
+  answer: true
+  explanation: "This follows directly from the variance decomposition: Var(T) = Var(E[T|S]) + E[Var(T|S)]. Since E[Var(T|S)] ≥ 0, we have Var(E[T|S]) ≤ Var(T). Equality holds when T is already a function of S — when no irrelevant noise exists to remove. This is the core guarantee of the Rao-Blackwell theorem."
+
+- question: "The Rao-Blackwell theorem guarantees that conditioning any unbiased estimator on a sufficient statistic always produces the UMVUE."
+  type: true-false
+  answer: false
+  explanation: "Rao-Blackwellization guarantees an improvement (or no change) in variance, but the result is the UMVUE only when the sufficient statistic is also complete. The Lehmann-Scheffé theorem provides the extra step: if the sufficient statistic is complete, then any unbiased function of it is the unique UMVUE. Without completeness, the conditioned estimator may be improvable further, and multiple different unbiased functions of S with different variances could exist."
+
+- question: "Explain intuitively why conditioning an unbiased estimator T on a sufficient statistic S reduces variance."
+  type: short-answer
+  answer: "Any estimator T has two kinds of variability: fluctuations that carry information about θ (captured by S) and random noise unrelated to θ. Since S extracts all the θ-relevant information, E[T|S] averages away the irrelevant noise while preserving the signal. The variance decomposition makes this precise: Var(T) = Var(E[T|S]) + E[Var(T|S)], where E[Var(T|S)] is the 'wasted variance' not connected to θ. Conditioning eliminates this term."
+  explanation: "The intuition is that T is doing two jobs: tracking θ and varying randomly for reasons unrelated to θ. A sufficient statistic has already done the first job optimally. Conditioning T on S extracts only what T knows about θ, discarding the rest. The result is an estimator with the same expected value but smaller variance — the same signal with less noise."
+```
+
 ## Explainer
 
 You've studied **sufficient statistics** — statistics S(X) that capture all the information in the data about the parameter θ, in the sense that the conditional distribution of the data given S does not depend on θ. You've also studied **conditional expectation** — E[T|S], the expected value of T after averaging over everything not captured by S. The Rao-Blackwell theorem puts these together: if you start with any unbiased estimator T and condition it on a sufficient statistic S, you get a new estimator that is at least as good, and often better.

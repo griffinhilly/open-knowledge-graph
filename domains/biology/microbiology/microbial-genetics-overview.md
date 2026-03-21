@@ -32,6 +32,45 @@ Start with the structural differences — one circular chromosome vs. eukaryotic
 - Assuming operons exist in eukaryotes — operon-style gene regulation is almost exclusively prokaryotic.
 - Believing CRISPR was invented by scientists — it's a naturally occurring bacterial defense system that was adapted as a laboratory tool.
 
+## Questions
+
+```yaml
+- question: "A new antibiotic is introduced to a hospital ward. Within three weeks, resistant strains of a pathogen appear — in bacteria that had never previously encountered the antibiotic. What is the most likely explanation?"
+  type: multiple-choice
+  options:
+    - "Rapid point mutations in individual bacteria selected by the new antibiotic"
+    - "The antibiotic activated dormant resistance genes already present in all bacteria"
+    - "Horizontal gene transfer of resistance plasmids from other bacterial species already carrying resistance"
+    - "Vertical inheritance of rare pre-existing resistant clones that rapidly outcompeted sensitive strains"
+  answer: 2
+  explanation: "Horizontal gene transfer (HGT) — particularly conjugation — allows resistance plasmids to transfer across species boundaries. A bacterium that acquired a resistance gene from a completely unrelated species (which had been exposed to the antibiotic elsewhere) can pass that gene to the pathogen without any direct antibiotic exposure. This is why resistance can appear suddenly in populations that have never faced the selective pressure. While point mutations and clonal selection also occur, they cannot explain resistance appearing in bacteria that never encountered the antibiotic unless resistance was already present via HGT from another source."
+
+- question: "Which of the following regulatory features is characteristic of prokaryotic gene expression but largely absent in eukaryotes?"
+  type: multiple-choice
+  options:
+    - "Post-translational protein modification"
+    - "Operon-based coordinate regulation, where functionally related genes share a single promoter"
+    - "Enhancer-dependent long-range transcriptional activation"
+    - "Alternative mRNA splicing to generate multiple proteins from one gene"
+  answer: 1
+  explanation: "Operons — clusters of functionally related genes under a single promoter that are transcribed as one polycistronic mRNA — are a hallmark of prokaryotic gene regulation. The lac operon is the textbook example. In eukaryotes, genes are transcribed individually, with complex enhancer networks and post-transcriptional processing (including splicing) allowing independent regulation of each gene. The other options (post-translational modification, enhancers, alternative splicing) are eukaryotic features."
+
+- question: "A bacterium can acquire antibiotic resistance genes from a different bacterial species that is not its direct ancestor."
+  type: true-false
+  answer: true
+  explanation: "This is the defining consequence of horizontal gene transfer — DNA moves laterally across lineages, not just vertically from parent to offspring. Conjugation transfers plasmids between live cells; transduction packages and delivers DNA via bacteriophages; transformation allows uptake of environmental DNA from dead cells of any species. Resistance genes carried on broad-host-range plasmids can move between very distantly related bacterial species. This is fundamentally different from the vertical-only inheritance of eukaryotes and makes bacterial evolution extraordinarily rapid."
+
+- question: "CRISPR-Cas9 was invented by scientists as a molecular biology tool — it does not exist naturally in bacteria."
+  type: true-false
+  answer: false
+  explanation: "CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) and associated Cas proteins form a naturally occurring adaptive immune system in many bacteria and archaea. Bacteria capture short sequences from viral DNA that has infected them and store these sequences between CRISPR repeats. On subsequent infection, the cell transcribes guide RNA from these stored sequences, which directs the Cas nuclease to cut the matching viral DNA. Scientists Jennifer Doudna, Emmanuelle Charpentier, and colleagues recognized this natural system could be repurposed as a programmable gene-editing tool — for which they received the 2020 Nobel Prize. The tool was discovered, not invented from scratch."
+
+- question: "Why can a bacterial pathogen develop resistance to an antibiotic it has never been exposed to, and which mechanism of genetic transfer makes this possible?"
+  type: short-answer
+  answer: "Bacteria acquire resistance through horizontal gene transfer (HGT) — the movement of DNA between cells regardless of ancestry. A bacterium can pick up a plasmid carrying resistance genes from another species via conjugation (direct cell-to-cell transfer through a pilus) or transformation (uptake of free DNA released by dead cells). Because resistance plasmids can cross species barriers, a pathogen that has never encountered an antibiotic can receive resistance genes from an environmental bacterium, a commensal species, or another pathogen that had prior exposure. The pathogen then has resistance before any selection pressure is applied."
+  explanation: "This is why antibiotic stewardship matters across entire ecosystems, not just clinical settings. Resistance genes in agricultural bacteria, soil bacteria, and environmental water reservoirs form a global 'resistome' that pathogens can tap into via HGT. Understanding HGT explains why resistance can appear seemingly out of nowhere — it was already present elsewhere in the microbial community and traveled horizontally."
+```
+
 ## Explainer
 
 You know from your study of DNA structure and replication that all living organisms store genetic information in double-stranded DNA and copy it faithfully during cell division. Bacteria do the same, but the organization of their genetic material differs from eukaryotes in ways that have profound consequences for how they evolve, adapt, and — most importantly for medicine — acquire new capabilities like antibiotic resistance.

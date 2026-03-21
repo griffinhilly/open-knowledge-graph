@@ -32,6 +32,45 @@ Study humorous and satirical writing to see hyperbole and understatement at work
 - Understatement is just the opposite of hyperbole; understatement creates different effects through different mechanisms.
 - These techniques are only for creative or informal writing; they appear in persuasive and formal writing to create specific effects.
 
+## Questions
+
+```yaml
+- question: "A student reads 'I've been waiting for a million years' in a text message and argues this is bad writing because the claim is literally false. What is wrong with this critique?"
+  type: multiple-choice
+  options:
+    - "It fails to recognize that any exaggeration weakens an argument's credibility"
+    - "Hyperbole works precisely because the reader recognizes the deliberate exaggeration; the 'falseness' is the mechanism of the technique, not a flaw"
+    - "The claim might actually be true in context, so no critique is warranted"
+    - "Understatement would be more appropriate here and should replace the hyperbole"
+  answer: 1
+  explanation: "Hyperbole depends on the reader's recognition that the statement is deliberately distorted. The student's critique assumes that literal falseness is a defect — but it is the point. 'A million years' communicates emotional intensity precisely because it cannot be true. If the audience decodes the exaggeration correctly, the effect succeeds. The critique only holds if the audience takes the claim literally, which is when hyperbole fails."
+
+- question: "A writer describes a catastrophic earthquake that killed thousands as 'quite damaging.' The audience had no prior knowledge of the actual scale of the disaster. What effect does this understatement most likely produce?"
+  type: multiple-choice
+  options:
+    - "Devastating irony, because readers are forced to supply the missing intensity"
+    - "Indifference or poor reporting, because the gap between language and reality is not recognized"
+    - "Heightened emotional impact through the contrast between restraint and horror"
+    - "Wit and self-deprecating humor characteristic of British understatement"
+  answer: 1
+  explanation: "Understatement requires the audience to recognize the gap between what is said and what is true. Without prior knowledge of the scale of destruction, the audience has no baseline — 'quite damaging' reads as an accurate, understated description, not a deliberate minimization. The ironic or devastating effect only activates when the listener can mentally supply the true scale. Understatement that isn't recognized as such reads as indifference."
+
+- question: "Hyperbole and understatement are opposite techniques and therefore create opposite rhetorical effects."
+  type: true-false
+  answer: false
+  explanation: "While they pull in opposite directions — exaggeration vs. downplaying — both techniques share the same underlying mechanism: the reader's active recognition that the statement is deliberately distorted from literal truth. Both create meaning through the gap between what is said and what is meant. The 'effects' depend on context, audience, and the surrounding prose; the techniques are not simply inverses of each other."
+
+- question: "A piece of hyperbole that is taken literally by the audience has failed to achieve its intended rhetorical purpose."
+  type: true-false
+  answer: true
+  explanation: "Hyperbole's effect depends entirely on the reader recognizing it as deliberate exaggeration. If taken literally, the distortion does not generate emotional resonance or humor — the reader may be alarmed, confused, or misinformed instead. Swift's 'A Modest Proposal' fails as satire for any reader who takes it as a genuine policy recommendation. The recognition of the gap is not incidental; it is the source of the effect."
+
+- question: "Why do both hyperbole and understatement require the audience's active participation to work, and what happens when that participation fails?"
+  type: short-answer
+  answer: "Both techniques create their effects through the gap between the literal statement and the intended meaning. The reader must recognize that the statement is deliberately distorted — either exaggerated beyond truth or understated below it — and reconstruct the intended meaning from that distortion. Without this active decoding, hyperbole reads as sincere overstatement (alarming or absurd) and understatement reads as indifference or ignorance. The technique only functions when the audience is in on the game."
+  explanation: "This is the fundamental shared mechanism of both devices, which makes them structurally similar despite pointing in opposite directions. Both are forms of 'deviated assertion' — the writer says something they and the reader both know is not meant at face value. When the audience misses the cue, the communication breaks down entirely: the rhetorical effect collapses into its literal reading."
+```
+
 ## Explainer
 
 **Hyperbole** and **understatement** are mirror-image techniques: both create effects by deliberately misrepresenting the scale of something, but they pull in opposite directions. Hyperbole exaggerates beyond what is literally true; understatement says less than what is true. The two share a deeper mechanism: both work only because the reader recognizes the distortion. "I've told you a million times" lands because you know the speaker hasn't literally said it a million times — the exaggeration is a marker of emotional intensity, not a factual report. The reader decodes the deviation from literal truth and finds the emotional content embedded in the exaggeration.

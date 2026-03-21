@@ -28,6 +28,45 @@ Two structures M and N are elementarily equivalent (M ≡ N) if they satisfy the
 ## How It's Best Learned
 Show that (Q, <) and (R, <) are not isomorphic but are elementarily equivalent by describing the back-and-forth method at a high level.
 
+## Questions
+
+```yaml
+- question: "The ordered set of rationals (ℚ, <) and the ordered set of reals (ℝ, <) have different cardinalities. Which of the following is correct?"
+  type: multiple-choice
+  options:
+    - "They are not elementarily equivalent because they are not isomorphic"
+    - "They are elementarily equivalent because every first-order sentence true in one is true in the other"
+    - "They are elementarily equivalent only with respect to sentences involving the ordering relation"
+    - "They cannot be compared by elementary equivalence because one is countable and the other is not"
+  answer: 1
+  explanation: "(ℚ, <) and (ℝ, <) are the canonical example of structures that are elementarily equivalent but not isomorphic. Both are dense linear orders without endpoints, and every first-order sentence expressible in the language of orders holds in both or neither. Cardinality is not a first-order expressible property — no single first-order sentence can say 'this structure has exactly ℵ₁ elements.' Option A is the classic misconception: elementary equivalence does not require isomorphism, only agreement on all first-order sentences."
+
+- question: "Which of the following properties can NEVER be expressed by a single first-order sentence?"
+  type: multiple-choice
+  options:
+    - "Between any two elements there exists another element"
+    - "The structure has no smallest element"
+    - "The structure has uncountably many elements"
+    - "Every element has a successor"
+  answer: 2
+  explanation: "Cardinality above ℵ₀ is not first-order expressible. You can write first-order sentences saying 'there are at least n elements' for any fixed n, but there is no single first-order sentence that says 'there are uncountably many elements' — this would require quantification over sets or infinite conjunctions. Options A, B, and D are all first-order expressible: A is '∀x∀y(x < y → ∃z(x < z ∧ z < y))', B is '∀x∃y(y < x)', and D depends on the specific language but is expressible. This illustrates the limited expressive power of first-order logic that elementary equivalence captures."
+
+- question: "If M and N are models of the same complete theory T, then M ≡ N."
+  type: true-false
+  answer: true
+  explanation: "By definition, a complete theory T is a maximal consistent set of sentences — for every sentence φ, either φ ∈ T or ¬φ ∈ T. If both M and N are models of T, they satisfy exactly the sentences in T (and no sentences not in T, since T is complete). Therefore Th(M) = T = Th(N), which is exactly the definition of M ≡ N. This is the connection between elementary equivalence and complete theories: all models of a complete theory are elementarily equivalent."
+
+- question: "Two structures that are elementarily equivalent must be isomorphic."
+  type: true-false
+  answer: false
+  explanation: "Elementary equivalence is strictly weaker than isomorphism. Isomorphism requires a bijection preserving all structure; elementary equivalence only requires agreement on all first-order sentences. The counterexample is immediate: (ℚ, <) and (ℝ, <) are elementarily equivalent — no first-order sentence distinguishes them — but they cannot be isomorphic because ℚ is countable and ℝ is uncountable, and no bijection between them preserves the ordering. Isomorphic structures are always elementarily equivalent, but the converse fails."
+
+- question: "Why can two structures be elementarily equivalent without being isomorphic? What does this reveal about first-order logic?"
+  type: short-answer
+  answer: "First-order logic has limited expressive power — it cannot express properties like cardinality, completeness (in the order-theoretic sense), or other 'global' structural features. Two structures can agree on every first-order sentence while differing in ways first-order logic cannot detect. This reveals that first-order logic is too weak to pin down a structure up to isomorphism unless additional constraints (like compactness and cardinality) are imposed. Elementary equivalence is the precise equivalence relation that captures exactly what first-order logic can and cannot distinguish."
+  explanation: "This is the central lesson of elementary equivalence. The Löwenheim–Skolem theorem further confirms it: any first-order theory with an infinite model has models of every infinite cardinality. So no first-order theory can have exactly one infinite model up to isomorphism. Elementary equivalence is not a defect — it is the right tool for asking 'what does first-order logic see?' and for calibrating which results transfer between structures and which do not."
+```
+
 ## Explainer
 
 You already know that two structures can be **isomorphic** — that is, there is a bijection between their domains that perfectly preserves all relations, functions, and constants. Isomorphic structures are entirely interchangeable: every property of one holds for the other. **Elementary equivalence** is a strictly weaker notion. Two structures M and N are elementarily equivalent, written M ≡ N, if they satisfy exactly the same first-order sentences — the same complete theory. They might not be isomorphic, might have different cardinalities, might even "look different" in many ways, but no first-order formula can tell them apart.

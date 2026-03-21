@@ -30,6 +30,45 @@ Examine how legal systems define crime and enforce punishment. Consider whose be
 ## Common Misconceptions
 - All order is based on coercion and no consensual agreement ever exists. - Coercion always feels oppressive and is obvious to those experiencing it. - Power relations are unchanging rather than contested and unstable.
 
+## Questions
+
+```yaml
+- question: "A student argues: 'If there is no obvious violence or coercion, a social arrangement must be based on genuine consensus — you cannot call it domination if people voluntarily comply.' What does conflict theory's concept of hegemony suggest is wrong about this reasoning?"
+  type: multiple-choice
+  options:
+    - "Hegemony operates precisely when dominated groups accept dominant arrangements as natural or inevitable — voluntary compliance can be evidence that domination is working most effectively, not that it is absent"
+    - "The student is correct; domination is only meaningful when it involves direct coercion and visible force"
+    - "Consensus can only exist in societies without any structural inequality, so any consensus in an unequal society is by definition false"
+    - "Gramsci's hegemony theory only applies to capitalist societies and cannot be extended to other forms of social organization"
+  answer: 0
+  explanation: "This is the key insight of hegemony theory. The absence of visible coercion does not mean the absence of domination — it may mean that domination has achieved its most effective form. When dominated groups internalize the legitimacy of arrangements that disadvantage them, accept them as natural or inevitable, and actively participate in reproducing them, force is unnecessary. The student's error is equating domination with direct coercion; the most durable domination operates through consent, not force."
+
+- question: "In an economy where workers who are paid poverty wages consistently blame themselves rather than their employers or economic structures, feeling shame rather than collective grievance, which concept does Gramsci's framework describe?"
+  type: multiple-choice
+  options:
+    - "Hegemony — dominant ideology is reproduced partly through the consent and participation of dominated groups, without requiring constant direct coercion"
+    - "A functional meritocracy where internalized self-blame accurately reflects the workers' actual contribution and effort"
+    - "False consciousness in the strict Marxist sense, requiring deliberate ideological manipulation by a ruling class"
+    - "Cultural individualism, which is distinct from questions of power and has no necessary relationship to domination"
+  answer: 0
+  explanation: "Gramsci's hegemony is distinct from the classical Marxist concept of false consciousness, which implies deliberate manipulation. Hegemony describes a more diffuse process: dominant ideas become 'common sense' — workers blame themselves not because elites are secretly programming them, but because the dominant cultural framework makes individual responsibility the natural explanation for economic outcomes. The result is ideologically functional for those at the top, reproduced through normal cultural processes rather than conspiracy."
+
+- question: "According to conflict theory, legal systems reflect accumulated decisions about whose interests matter — they do not simply enforce universal, neutral rules that apply equally to everyone."
+  type: true-false
+  answer: true
+  explanation: "True. Conflict theorists argue that law is not neutral: it embeds definitions of property, legitimate behavior, and harm that reflect historical power relations. The classic example: wage theft (failing to pay workers legally owed compensation) harms workers far more than petty theft does, yet is rarely prosecuted criminally. What counts as a 'crime' and what counts as normal business practice are not natural categories — they are definitions shaped by those with the power to write, fund, and enforce law."
+
+- question: "Weber's concept of 'legitimate domination' implies that when people voluntarily obey an authority they view as rightful, they are no longer truly being dominated — voluntary compliance cancels out the power differential."
+  type: true-false
+  answer: false
+  explanation: "False. Weber's point is almost the opposite: legitimacy makes domination more effective, not less real. When subjects consider authority rightful and obey voluntarily, the dominant party exercises power without expending resources on enforcement. The power differential is real — legitimate authority still determines outcomes, distributes resources, and punishes deviation. Legitimacy is the mechanism through which power becomes durable and efficient, not a condition that dissolves power. This is consistent with hegemony theory: the most effective domination is the kind that does not feel like domination."
+
+- question: "Why is hegemonic domination considered more durable and effective than direct coercion, even though it requires less visible force?"
+  type: short-answer
+  answer: "Direct coercion is costly and unstable: it requires constant expenditure of resources on enforcement, generates visible resistance and resentment, and can be overwhelmed if enough people refuse to comply. Hegemony operates by making dominant arrangements appear natural, inevitable, or legitimate — removing the motivation to resist rather than suppressing resistance after it arises. When dominated groups actively participate in reproducing their own disadvantage (accepting low wages as fair, blaming themselves for poverty, viewing existing property arrangements as natural), the dominant group does not need to spend resources on enforcement. Domination that has been internalized is also harder to challenge: resistance requires not just organizing against force but first recognizing arrangements that feel natural as domination — a more difficult cognitive and political task."
+  explanation: "This is why Gramsci argued that transformative change required ideological struggle — changing the 'common sense' of a society — not just political or economic struggle. Hegemony persists through education, media, cultural institutions, and everyday practice. Contesting it requires producing alternative frameworks that make the naturalized appear contingent and the inevitable appear changeable."
+```
+
 ## Explainer
 
 Your prerequisite work on conflict theory established that society is organized around competing interests and structured inequality. Coercion and domination are the mechanisms through which those with power maintain their advantages — not just through direct force, but through the institutional architecture of social life itself. Understanding this requires distinguishing between coercion that is obviously violent and coercion that operates through rules, norms, and structures that appear neutral.

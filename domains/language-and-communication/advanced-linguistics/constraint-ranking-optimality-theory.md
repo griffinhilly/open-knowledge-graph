@@ -30,6 +30,45 @@ Construct OT tableaux for sets of candidate outputs, ranking constraints to sele
 - Constraint ranking is not fixed across a language; some constraints may be unranked or probabilistically ranked.
 - Not all differences between languages require different constraint inventories; ranking differences suffice.
 
+## Questions
+
+```yaml
+- question: "Language A always deletes word-final consonants; Language B always preserves them. An OT analyst claims both languages possess the same constraints NOCODA and MAX-IO. How can opposite outputs arise from the same two constraints?"
+  type: multiple-choice
+  options:
+    - "Language A has NOCODA but lacks MAX-IO; Language B has MAX-IO but lacks NOCODA"
+    - "In Language A, NOCODA outranks MAX-IO, so coda deletion is preferred; in Language B, MAX-IO outranks NOCODA, so consonants are preserved even at the cost of a coda violation"
+    - "Language A applies NOCODA only in word-final position as a phonological rule; Language B's rule is different"
+    - "The constraints are the same but Language B applies them only to stressed syllables"
+  answer: 1
+  explanation: "This is the central explanatory mechanism of OT: the same universal constraint inventory produces different phonological systems through different rankings. NOCODA (prefer no coda consonants) and MAX-IO (preserve input segments) conflict when an input has a coda. Which constraint wins depends on ranking. Language A prioritizes surface syllable well-formedness over faithfulness to the input; Language B does the opposite. No language-specific rules are needed — only a language-specific ranking order."
+
+- question: "In an OT tableau, how is the winning candidate selected from a set of competitors?"
+  type: multiple-choice
+  options:
+    - "The candidate with the fewest total constraint violations across all constraints wins"
+    - "The candidate with no higher-ranked constraint violated more than any competing candidate wins — a single fatal violation of a top-ranked constraint eliminates a candidate regardless of how few lower-ranked violations it has"
+    - "Candidates are scored on a weighted sum of violations; the highest score wins"
+    - "All constraints must be satisfied; if no candidate satisfies all constraints, the input is ungrammatical"
+  answer: 1
+  explanation: "OT uses winner-take-all evaluation at each constraint level, not a sum of violations. Higher-ranked constraints take absolute priority. If candidate A violates a constraint ranked above any constraint that candidate B violates, B wins — even if A has fewer total violations overall. This is why the tableau procedure works column by column from left (highest ranked) to right: a candidate can be eliminated by a single fatal violation at the top, regardless of its performance on lower-ranked constraints."
+
+- question: "Two languages can exhibit entirely different phonological processes while sharing an identical inventory of universal constraints, if their constraint rankings differ."
+  type: true-false
+  answer: true
+  explanation: "This is OT's core prediction about cross-linguistic variation. English and Japanese have dramatically different syllable structures — English tolerates complex onsets and codas; Japanese strongly prefers open CV syllables and inserts epenthetic vowels. In OT terms, they share the same constraints (ONSET, NOCODA, MAX-IO, DEP-IO, etc.) but rank them differently. Japanese ranks syllable-structure markedness constraints very high; English ranks faithfulness constraints higher. The factorial typology claim holds that all possible human phonological systems are predicted by the set of possible rankings of a universal constraint set."
+
+- question: "In Optimality Theory, a language that deletes consonants has a 'delete' rule that a language preserving those consonants lacks."
+  type: true-false
+  answer: false
+  explanation: "OT replaces language-specific rules with language-specific constraint rankings. Both languages possess the same constraints — including MAX-IO (don't delete) and whatever markedness constraint motivates deletion. The language that deletes has simply ranked the markedness constraint above MAX-IO; the language that preserves has the reverse ranking. No language-specific deletion rule is required or posited. This is what makes OT a theory of linguistic typology: variation comes from ranking differences, not from different grammars being built from different primitive operations."
+
+- question: "Why does OT predict that the set of possible human phonological systems corresponds to the set of possible rankings of a universal constraint inventory, rather than requiring separate rule inventories for each language?"
+  type: short-answer
+  answer: "Because the same finite set of constraints, ranked in different orders, generates different outputs from the same inputs without language-specific rules. Each ranking is a grammar; each possible ranking of n constraints is a possible human language. This means OT's typological predictions are generated mathematically — by permuting rankings — rather than by stipulating different rules for each language. The theory explains why cross-linguistic variation is bounded (only outputs achievable by some ranking of the universal set are possible) and why languages differ systematically rather than arbitrarily."
+  explanation: "This is OT's boldest theoretical claim, called factorial typology. If there are n constraints, there are n! possible total rankings, each predicting a different phonological system. Researchers test the theory by checking whether observed cross-linguistic patterns are a subset of the predicted typological space. Languages outside the predicted set would falsify OT. This makes the theory empirically testable in a way that language-specific rule systems are not."
+```
+
 ## Explainer
 
 Constraint ranking is the engine that makes Optimality Theory (OT) work. Recall from your introduction to OT: the framework proposes that phonological systems are governed by universal **constraints** — requirements like ONSET (syllables should have onsets), NOCODA (syllables should not have codas), and MAX-IO (don't delete input segments). The key insight of constraint ranking is that these constraints are never all satisfied simultaneously in real languages; they conflict, and how they're ranked determines which conflicts get resolved which way.

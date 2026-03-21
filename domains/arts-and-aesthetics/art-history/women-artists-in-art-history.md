@@ -33,6 +33,45 @@ Research a specific woman artist across different historical periods and note ho
 - Assuming women had equal opportunities but simply chose not to pursue art; systemic barriers were deliberate and pervasive.
 - Treating women artists as exceptional 'accomplishments' rather than normal participants in art-making.
 
+## Questions
+
+```yaml
+- question: "Linda Nochlin's 1971 essay asked 'Why have there been no great women artists?' What was her central answer?"
+  type: multiple-choice
+  options:
+    - "Women lacked the innate competitive drive that produces artistic greatness"
+    - "Women chose domesticity over artistic careers throughout most of history"
+    - "The entire system of artistic training, patronage, and reputation-building was designed to exclude women — the question reveals a flawed premise"
+    - "Women produced great art but in private media that were later lost"
+  answer: 2
+  explanation: "Nochlin's answer was structural, not biological or personal. Her point was that 'greatness' was defined and recognized through institutions — academies, guilds, major commissions — that excluded women by design. The absence of recognized 'great women artists' reflects the exclusion system, not a deficiency in women. This reframing — from individual failure to institutional barrier — is the foundational move of feminist art history."
+
+- question: "Women artists in the Renaissance and Baroque periods were frequently barred from life drawing classes. What was the most significant consequence of this exclusion for their careers?"
+  type: multiple-choice
+  options:
+    - "They were forced to paint only landscapes, which required working outdoors"
+    - "They were channeled into 'lesser' genres like still life and portraiture — then criticized for not producing history paintings that required exactly the training they were denied"
+    - "They had to self-teach anatomy through books, which made their work technically weaker"
+    - "They could not work in oil paint, which was taught exclusively in life drawing classes"
+  answer: 1
+  explanation: "Life drawing — study of the nude human figure — was considered the foundation of history painting, the most prestigious genre. By barring women from life drawing on grounds of modesty, institutions ensured they couldn't produce history paintings, then used the absence of women in this genre as evidence of lesser artistic ability. The circular logic: women are excluded from X's training, then judged inferior for not doing X."
+
+- question: "Women artists like Sofonisba Anguissola and Artemisia Gentileschi were obscure figures unknown in their own time, only recently discovered by modern feminist scholars."
+  type: true-false
+  answer: false
+  explanation: "Many women artists were famous and successful in their own lifetimes. Anguissola was a court painter to the King of Spain; Gentileschi was internationally celebrated for her Baroque paintings; Vigée Le Brun was Marie Antoinette's portraitist and one of the most commercially successful painters of her era; Bonheur received the Grand Cross of the Légion d'honneur. The question is not why they were unknown — they weren't — but why they were systematically written out of art historical narratives afterward."
+
+- question: "Recovering women artists from art history requires not only restoring individual names to the record but also questioning the criteria by which artistic greatness was defined."
+  type: true-false
+  answer: true
+  explanation: "Feminist art historians recognized that simply adding women's names to existing canons left the canon's assumptions intact. Why was history painting ranked above portraiture? Why were oil paintings valued over textiles and embroidery — media in which women consistently worked? The canon itself was shaped by the same patriarchal structures that excluded women from training. Recovering women artists means rethinking what counts as art, what counts as skill, and whose contributions the discipline considers worth preserving."
+
+- question: "Why does recovering women's place in art history require more than simply adding overlooked names to existing art historical narratives?"
+  type: short-answer
+  answer: "Existing art historical narratives were built around criteria — genre hierarchies, media preferences, institutional recognition — that were themselves products of the same exclusionary system. History painting ranked above still life and portraiture (media women were channeled into); oil painting valued above textiles and embroidery (media women consistently worked in). Adding women's names to these hierarchies leaves the hierarchies themselves unchallenged. A complete recovery requires questioning why certain art forms were deemed 'greater,' recognizing that these rankings reflected who controlled artistic institutions, not neutral aesthetic judgments."
+  explanation: "The deeper issue is that the canon's definition of 'greatness' was constructed by and for those who had access to academic training, major commissions, and institutional recognition — precisely the resources women were denied. Inserting women into this frame accepts the frame's terms. Feminist art history argues the frame itself must be interrogated."
+```
+
 ## Explainer
 
 In 1971, the art historian Linda Nochlin asked a question that reshaped the discipline: "Why have there been no great women artists?" Her answer was not that women lacked talent — it was that the entire system of artistic training, patronage, and reputation-building was designed to exclude them. Understanding women's place in art history requires holding two things simultaneously: the remarkable achievements of individual women who worked within or around these barriers, and the **structural mechanisms** that ensured most women never got the chance to try.

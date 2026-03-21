@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Processors use finite state machines to orchestrate instruction execution. The FSM state represents the current execution phase (fetch, decode, execute, etc.), and transitions are triggered by clock edges and conditions (branch taken, hazard detected). The FSM generates control signals that steer data and instruction flow.
 
+## Questions
+
+```yaml
+- question: "In a multi-cycle processor FSM, what determines which execute state the machine transitions to after the decode state?"
+  type: multiple-choice
+  options:
+    - "The current value of the program counter"
+    - "The result of the previous ALU operation"
+    - "The opcode bits of the current instruction, which identify the instruction type"
+    - "The clock frequency and cycle time"
+  answer: 2
+  explanation: "In the decode state, the FSM reads the opcode to determine what type of instruction is being processed. Different instruction types require different execution paths — R-type arithmetic, load/store, and branch instructions each need different control signals and memory operations. The opcode is the FSM input that selects the correct next state. The program counter affects what instruction was fetched, but the opcode determines how that instruction is processed."
+
+- question: "Why is the processor's control unit best described as a finite state machine rather than a simple lookup table?"
+  type: multiple-choice
+  options:
+    - "Because FSMs require fewer transistors to implement in hardware"
+    - "Because the next control state depends on both the current state AND runtime inputs (like opcode bits and ALU flags), not just a fixed mapping from current state alone"
+    - "Because lookup tables cannot store enough entries to cover all possible instructions"
+    - "Because FSMs guarantee faster clock cycles than lookup-based approaches"
+  answer: 1
+  explanation: "A lookup table maps a fixed current state to a fixed next state. An FSM transitions based on both the current state AND inputs observed at runtime. In processor control, the branch-execute state transitions differently depending on whether the ALU zero flag is set — this conditional branching on runtime data is the defining feature of a true FSM. The same current state can lead to different next states based on what the hardware observes, giving the processor its ability to handle different instruction types and runtime conditions."
+
+- question: "Each state in the processor control FSM corresponds to one phase of instruction execution and asserts a specific set of control signals for that phase."
+  type: true-false
+  answer: true
+  explanation: "This is the direct application of FSM structure to processor design. Each state (fetch, decode, execute, memory-access, write-back) corresponds to exactly one clock cycle and one execution phase. In that state, the FSM drives specific control signals — 'read from instruction memory,' 'write to register file,' 'ALU operation = add' — that steer data through the datapath. This one-to-one correspondence between states and execution phases is what makes the design systematic and verifiable."
+
+- question: "In a multi-cycle processor, every instruction follows exactly the same sequence of FSM states from fetch through write-back."
+  type: true-false
+  answer: false
+  explanation: "Instructions diverge after the decode state. R-type arithmetic instructions need an ALU-execute state; load instructions need address computation, then a memory-read state, then write-back; store instructions do not need write-back; branch instructions resolve the comparison in an execute state and conditionally update the program counter. The FSM handles all these different paths within one control structure — different instruction types follow different state sequences, which is precisely the advantage of the FSM design."
+
+- question: "Explain how the FSM model of processor control allows a single fixed datapath to execute instructions of many different types."
+  type: short-answer
+  answer: "The datapath (ALU, register file, memory) is wired statically — it doesn't change. The FSM generates different control signals in each state, selecting which datapath elements are active and how data flows through them. After decode, the FSM branches to instruction-type-specific execute states, each asserting the correct control signals for that instruction. The datapath is effectively reconfigured each cycle by the FSM's control outputs, without any hardware change."
+  explanation: "The key insight is that flexibility comes from control, not from changing the hardware. The FSM is the 'decision-making layer' that maps the current execution phase and runtime conditions onto the control signals the datapath needs. This separation — fixed datapath, flexible control — is a fundamental architectural principle. It also makes the design verifiable: you can enumerate all FSM states and confirm each generates correct control signals, rather than reasoning about ad hoc combinational logic."
+```
+
 ## Explainer
 
 You already understand finite state machines as abstract models with states, transitions, inputs, and outputs, and you know that synchronous logic uses clock edges to coordinate when state changes happen. In processor design, these two ideas combine directly: the processor's control unit is implemented as an FSM where each state corresponds to a phase of instruction execution, and the clock signal drives the machine from one state to the next.

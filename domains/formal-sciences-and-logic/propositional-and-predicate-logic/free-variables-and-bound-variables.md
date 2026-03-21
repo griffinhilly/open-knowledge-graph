@@ -30,6 +30,45 @@ Visually mark quantifier scopes in complex formulas. Identify which variable occ
 ## Common Misconceptions
 Thinking a formula with free variables is incomplete or invalid. Confusing variable name with binding status. Not recognizing that free variables parameterize a family of formulas.
 
+## Questions
+
+```yaml
+- question: "In the formula ∀x (P(x, y) → ∃x Q(x, z)), which variables are free?"
+  type: multiple-choice
+  options:
+    - "x only — it appears in both quantifiers"
+    - "y and z — they appear without a binding quantifier in this formula"
+    - "y only — z is implicitly bound by the inner ∃x"
+    - "No variables are free — all variables are bound by some quantifier"
+  answer: 1
+  explanation: "A variable is free if it appears outside the scope of any quantifier that binds it. In this formula: x is bound by both ∀x and ∃x (the inner ∃x rebinds x within its scope). The variable y appears in P(x, y) — it falls within ∀x's scope, but ∀x only binds x, not y. Similarly, z appears in Q(x, z) within ∃x's scope, but ∃x only binds x. Neither y nor z has a quantifier in this formula. They are both free. The formula is an open formula whose truth value depends on the values assigned to y and z."
+
+- question: "A logician substitutes the term y for the variable x in the formula ∀y (x < y), producing ∀y (y < y). What has gone wrong?"
+  type: multiple-choice
+  options:
+    - "The substitution is invalid because x was already bound by ∀x"
+    - "Variable capture: the free variable y became accidentally bound by ∀y, changing the formula's meaning"
+    - "The resulting formula ∀y (y < y) is logically equivalent to the original, so no error occurred"
+    - "The substitution should have used a fresh variable name, but the resulting meaning is still the same"
+  answer: 1
+  explanation: "This is the variable capture problem — one of the main syntactic dangers in predicate logic. Before substitution, x was free in ∀y (x < y) and y was free in the term being substituted. After substituting y for x, the previously free y became trapped inside the scope of ∀y, turning it from a free parameter into a bound variable. The original formula (for a specific value of x) says 'every y is greater than x'; the result ∀y (y < y) says 'every element is less than itself,' which is false in any standard ordering. The correct procedure is to first rename the bound variable: ∀y becomes ∀z, giving ∀z (x < z), then substitute to get ∀z (y < z)."
+
+- question: "Bound variables can be renamed throughout their scope without changing the formula's meaning — ∀x P(x) and ∀z P(z) express the same proposition."
+  type: true-false
+  answer: true
+  explanation: "True. This is alpha-equivalence: bound variables are 'dummy variables' — their names are arbitrary labels with no semantic significance. The quantifier ∀x P(x) says 'for every element in the domain, P holds of it.' The name x is just a placeholder referring to the element the quantifier ranges over. Renaming x to z throughout (replacing ∀x with ∀z and every bound occurrence of x with z) produces an identical claim. This is analogous to the fact that ∫₀¹ x² dx and ∫₀¹ t² dt are the same integral — the variable name is a dummy."
+
+- question: "A formula with free variables is incomplete or invalid — it cannot be meaningfully evaluated until all variables are bound by quantifiers."
+  type: true-false
+  answer: false
+  explanation: "False. Open formulas (formulas with free variables) are perfectly well-formed and meaningful — they are predicates or conditions that may be satisfied by particular assignments of values to free variables. The formula x > 5 is an open formula; it is true when x = 7 and false when x = 3. Free variables parameterize a family of claims. An open formula becomes a sentence (with a definite truth value) only when all free variables are either bound by quantifiers or assigned specific values, but the open formula itself is valid and useful — it is how predicates are defined in predicate logic."
+
+- question: "Why does a sentence (a formula with no free variables) have a definite truth value in a given structure, while an open formula does not?"
+  type: short-answer
+  answer: "A sentence's truth value depends only on the structure (the domain and the interpretation of relation symbols), because every variable occurrence is controlled by a quantifier that ranges over the domain — no external assignment is needed. An open formula contains free variables that refer to unspecified elements of the domain. Without knowing what values those free variables take, the formula's truth cannot be determined. The same open formula P(x) might be true for some elements and false for others. To get a truth value, you must either quantify the free variables (turning the formula into a sentence) or provide a specific variable assignment."
+  explanation: "This distinction is foundational for semantics in predicate logic. Sentences are claims about structures; open formulas are predicates that characterize subsets of domains. When we say 'x > 5 defines a predicate,' we mean: for each value of x, the predicate is either satisfied or not. Quantifiers convert predicates into sentences: ∀x (x > 5) is a sentence (false if the domain is all integers, true if the domain is {6, 7, 8, ...}). The free-variable / bound-variable distinction is what separates 'a property something might have' from 'a claim that is true or false.'"
+```
+
 ## Explainer
 
 From your study of quantifier semantics, you know that ∀x φ(x) means "φ holds for every element x in the domain," and ∃x φ(x) means "φ holds for at least one element." Both quantifiers *bind* the variable x: once you write ∀x or ∃x, any subsequent occurrence of x inside the scope of that quantifier refers to the quantifier's element, not to any external assignment. A variable occurrence is **bound** if it falls within the scope of a matching quantifier, and **free** if it does not.

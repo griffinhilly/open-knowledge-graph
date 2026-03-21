@@ -33,6 +33,45 @@ Read a neoclassical play (Corneille, Racine, or Molière) and trace how the unit
 ## Common Misconceptions
 The three unities are not Aristotle's invention but later interpretation of his Poetics. Also, neoclassical plays are not rigid or lifeless—their constraints enable extraordinary psychological and linguistic subtlety.
 
+## Questions
+
+```yaml
+- question: "In Racine's Phèdre, the unity of place confines all action to a single palace. What is the PRIMARY dramatic effect of this constraint?"
+  type: multiple-choice
+  options:
+    - "It reduces the cost and complexity of staging the production"
+    - "It forces all conflict into psychological and linguistic channels, intensifying dramatic pressure"
+    - "It demonstrates that Racine lacked imagination for more complex staging"
+    - "It reflects the audience's preference for simple, realistic settings"
+  answer: 1
+  explanation: "The unity of place is not merely a rule obeyed but a generative constraint: when characters cannot leave, escape into action, or find relief through subplot, the drama must become entirely psychological and linguistic. Phèdre cannot go anywhere — so everything must be confronted through language. The constraint intensifies the drama rather than limiting it. This is the key insight: neoclassical rules are not lifeless restrictions but structural tools."
+
+- question: "A playwright argues that the three unities of neoclassical drama were Aristotle's explicit prescriptions for all drama. A theater historian corrects them. What is the accurate account?"
+  type: multiple-choice
+  options:
+    - "Aristotle prescribed all three unities equally in the Poetics"
+    - "Aristotle mentioned unity of action but the three unities as rules were codified by Renaissance scholars interpreting his text"
+    - "The three unities originated with Molière and were retroactively attributed to Aristotle"
+    - "Aristotle rejected the unities entirely, and neoclassicists invented them independently"
+  answer: 1
+  explanation: "Aristotle observed in the Poetics that the best tragedies tend to have unified action and tend toward compressed time — he was describing what he saw in great works. Renaissance and neoclassical scholars systematized these observations into prescriptive rules. The unity of place is barely mentioned in Aristotle at all. Understanding this distinction matters: the neoclassicists were extending and codifying Aristotle, not simply transcribing him."
+
+- question: "Neoclassical formal constraints like the unities and decorum could actually intensify dramatic effect rather than dilute it."
+  type: true-false
+  answer: true
+  explanation: "This is the central insight of neoclassical form. When setting cannot change and time is compressed, the drama must live entirely in language and psychology. Racine's Phèdre cycles through approximately one day in one palace — and delivers some of the most psychologically intense drama in European literature. The constraint focuses energy rather than dissipating it."
+
+- question: "The Romantic rejection of neoclassical unities was simply a rejection of discipline and structure in favor of formlessness."
+  type: true-false
+  answer: false
+  explanation: "The Romantic revolt — exemplified by Hugo's preface to Cromwell — substituted a different theory of dramatic truth, not an absence of theory. Romantics argued that historical and psychological realism required freedom of time and place, and that mixing comic and tragic modes better captured human complexity. They were replacing one formal framework with another, not abandoning form entirely. The argument only makes sense against the neoclassical framework it opposes."
+
+- question: "Why did neoclassical playwrights treat the three unities and decorum as essential to drama, and what did Romantic dramatists find unsatisfactory about that view?"
+  type: short-answer
+  answer: "Neoclassicists believed that art should reconnect with classical authority (Aristotle, Horace) to restore dignity to drama; the unities concentrated dramatic action and decorum linked social order to artistic form. Romantic dramatists argued that historical and psychological realism demanded freedom of time and place — that human experience was too complex and irregular to fit into a single day and location — and that mixing tragic and comic modes was more truthful than separating them."
+  explanation: "The debate is not rules vs. no rules but competing theories of what drama is for. Neoclassicists valued compression, moral clarity, and classical authority; Romantics valued historical breadth, emotional authenticity, and the irregularity of nature. Both positions are internally coherent — understanding both is what allows you to read either tradition well."
+```
+
 ## Explainer
 
 The Aristotelian unities you know from your prerequisites describe what Aristotle actually observed in great tragedies: that plots work best as unified wholes, and that compressed time and focused location heighten dramatic intensity. Neoclassical drama takes these observations and systematizes them into prescriptive rules. The **three unities** — unity of action (one central plot, no subplots), unity of time (the play's action takes place within a single day), and unity of place (the action occurs in a single location) — were codified by Renaissance scholars interpreting Aristotle and became the governing framework for European theatrical production from roughly 1600 to 1800. Understanding why this happened, and what the rules make possible, is more instructive than memorizing the rules themselves.

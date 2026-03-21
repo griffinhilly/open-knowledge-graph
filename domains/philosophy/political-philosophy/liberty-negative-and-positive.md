@@ -34,6 +34,45 @@ Read Berlin's essay directly. Then test each concept against a policy case: does
 - Berlin does not simply endorse negative liberty; he identifies both as genuine values in tension.
 - The distinction between negative and positive liberty is philosophically contested — MacCallum argues it may be artificial.
 
+## Questions
+
+```yaml
+- question: "A critic argues that poverty 'restricts people's freedom' in the same way that a locked gate does. A committed negative-liberty theorist would most likely respond:"
+  type: multiple-choice
+  options:
+    - "Poverty does restrict freedom, but the state has no practical ability to remedy it"
+    - "Poverty restricts positive liberty only, and positive liberty is not a legitimate form of freedom"
+    - "Freedom means only the absence of deliberate interference by other agents; poverty is an unfortunate circumstance, not a coercion — so it does not restrict freedom in the relevant sense"
+    - "This is correct — poverty must be eliminated before genuine freedom is possible"
+  answer: 2
+  explanation: "On the negative-liberty view, freedom is restricted only when another agent deliberately interferes with your actions. Poverty, on this account, is a bad circumstance — perhaps unjust — but not an act of coercion. No one is locking the gate. The negative-liberty theorist can coherently say that a person living in poverty is free (no one is stopping them) even if they have very few real options. This is not heartlessness but a deliberate definitional choice about what 'freedom' means."
+
+- question: "Gerald MacCallum argued that all liberty claims share the form 'X is free from Y to do Z' (agent, constraint, goal). His main point was:"
+  type: multiple-choice
+  options:
+    - "A liberty claim is only valid if all three elements are stated explicitly"
+    - "There is only one correct concept of liberty — the triadic form subsumes all others"
+    - "The negative/positive distinction collapses into disagreements about what counts as a constraint and what counts as a relevant goal — not two fundamentally different definitions of freedom"
+    - "Liberty is always relative to the political system in which it is claimed and cannot be defined universally"
+  answer: 2
+  explanation: "MacCallum's critique is that Berlin's two-concept framework creates a false dichotomy. Once you make the triadic structure explicit, apparent disagreements between negative and positive theorists are really disagreements about which constraints matter morally (only deliberate coercion? or also incapacity, poverty, ignorance?) and what goals count (any choice? or only authentically self-directed ones?). The real debate is about underlying political values, not about two distinct kinds of freedom."
+
+- question: "Berlin argues that positive liberty is inherently more dangerous than negative liberty because appeals to 'real' or 'higher' freedom can be used to justify imposing choices on people."
+  type: true-false
+  answer: true
+  explanation: "This is Berlin's central political warning. When positive liberty is reformulated as 'real' self-realization or freedom from 'false consciousness,' authorities can claim to liberate people from irrational desires or ideological distortion — which licenses overriding individual choices 'for their own freedom.' Authoritarian regimes have historically used this logic. Berlin is not saying positive liberty is wrong as a concept, but that it carries a distinctive risk of becoming a tool for domination when taken to extremes."
+
+- question: "Negative liberty and positive liberty describe different points on the same scale — a person with negative liberty has less freedom than one with positive liberty."
+  type: true-false
+  answer: false
+  explanation: "They describe two different conceptions of what freedom IS, not two amounts of the same thing. Negative liberty is freedom from external interference; positive liberty is the effective capacity for self-directed action. These can come apart: a billionaire may have extensive negative liberty (no one interferes with them) while lacking positive liberty in some domain (e.g., gripped by addiction they cannot overcome). A prisoner with elaborate mental freedom might have rich positive liberty while having almost none of the negative kind. The concepts target different questions about the nature of freedom."
+
+- question: "How can two people disagree about whether poverty 'restricts freedom' and both be making coherent philosophical claims? What underlying disagreement explains this?"
+  type: short-answer
+  answer: "They are working with different conceptions of what freedom is. A negative-liberty theorist holds that freedom means the absence of deliberate interference by other agents — poverty is an unfortunate circumstance but not a restriction of freedom unless someone is actively preventing you from earning income. A positive-liberty theorist holds that freedom means effective capacity for self-direction — a person crushed by poverty cannot pursue their goals and is genuinely unfree, regardless of whether anyone deliberately blocked them. The disagreement is not about facts but about what should count as a 'constraint' on liberty."
+  explanation: "Making this conceptual structure explicit is the first step toward productive disagreement. Once both sides articulate which definition of freedom they are using, the debate shifts from 'does poverty restrict freedom?' (where both sides talk past each other) to 'which conception of freedom should we use, and why?' — a clearer and more tractable philosophical question."
+```
+
 ## Explainer
 
 Isaiah Berlin's 1958 essay "Two Concepts of Liberty" is one of the most influential texts in twentieth-century political philosophy, and its distinction repays careful unpacking. From your study of Lockean natural rights you know the tradition of individual liberties against state interference — the freedom to own property, speak, and worship without government intrusion. **Negative liberty** is the precise philosophical formulation of this intuition: you are free to the extent that no other agent deliberately interferes with your actions. Freedom is the absence of external obstacles imposed by persons.

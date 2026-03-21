@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Virtual addresses are translated to physical addresses via page tables stored in memory. Each virtual address is split into a virtual page number (looked up in the page table) and an offset (unchanged in translation). Multi-level page tables reduce memory overhead. Translation adds latency; the TLB (translation lookaside buffer) caches recent translations to hide this cost.
 
+## Questions
+
+```yaml
+- question: "On a system with 4 KB pages (12-bit offset), what are the two components of a 32-bit virtual address 0x00A01B3C?"
+  type: multiple-choice
+  options:
+    - "Virtual page number = 0x00A01B3C (all bits); offset = determined at runtime"
+    - "Virtual page number = 0x00A01 (upper 20 bits); offset = 0xB3C (lower 12 bits)"
+    - "Virtual page number = 0x00A (upper 12 bits); offset = 0x01B3C (lower 20 bits)"
+    - "Virtual page number = 0xB3C (lower 12 bits); offset = 0x00A01 (upper 20 bits)"
+  answer: 1
+  explanation: "With 4 KB = 2¹² bytes per page, the page offset is 12 bits (the low bits), and all remaining high bits form the virtual page number. For 0x00A01B3C: low 12 bits = 0xB3C (the offset within the page), upper 20 bits = 0x00A01 (the VPN used to index the page table). The offset is always preserved unchanged through translation — it identifies the same byte position within whatever physical frame the VPN maps to."
+
+- question: "A 64-bit address space with 4 KB pages would need a flat single-level page table with roughly 2⁵² entries. Why do multi-level page tables solve this problem?"
+  type: multiple-choice
+  options:
+    - "Multi-level page tables use smaller page sizes, reducing the total number of entries required"
+    - "Only the second-level tables corresponding to address regions the process actually uses need to be allocated, leaving most of the address space without a table"
+    - "Multi-level tables compress entries using variable-length encoding"
+    - "Multiple processes share page table entries, dividing the total memory cost among them"
+  answer: 1
+  explanation: "The key insight is sparse allocation. A flat page table must preallocate entries for the entire address space. A multi-level table uses a directory at the first level — if a region of the address space is unused, the corresponding directory entry is null and no second-level table is ever allocated. Since most programs use only a tiny fraction of a 64-bit address space, this saves enormous amounts of memory."
+
+- question: "The page offset portion of a virtual address passes through address translation unchanged and becomes the same offset in the physical address."
+  type: true-false
+  answer: true
+  explanation: "Translation only changes the virtual page number to a physical frame number — the offset within the page stays identical. This works because pages and frames are the same size: if a byte is at position 0xB3C within virtual page N, it is at position 0xB3C within whatever physical frame N maps to. The page-frame mapping changes which 'page' the byte lives in, but not where within that page it sits."
+
+- question: "A TLB miss means the requested page is not in physical memory and must be loaded from disk."
+  type: true-false
+  answer: false
+  explanation: "A TLB miss means the address translation (VPN → PFN mapping) is not currently cached in the TLB. The hardware or OS must look up the page table in memory to find the mapping — the page itself may well be in physical memory. A page fault occurs when the page table entry's valid bit is 0, meaning the page is not in RAM at all and must be fetched from disk. TLB miss = cached translation unavailable; page fault = page not in physical memory."
+
+- question: "What is the purpose of the TLB, and why does it make address translation practical given that it would otherwise require an extra memory access on every instruction?"
+  type: short-answer
+  answer: "The TLB is a small, fast hardware cache for recently used VPN-to-PFN mappings. Without it, every memory access would require one or more additional memory accesses to traverse the page table, doubling or tripling memory latency. The TLB works because programs exhibit strong locality — they access the same pages repeatedly, keeping TLB hit rates above 99%. In the common case, translation adds essentially no latency."
+  explanation: "The TLB exploits temporal locality: if you accessed a page once, you will very likely access it again soon. On a TLB hit, translation is done in hardware in a single fast lookup. On a TLB miss, the hardware walks the page table — slow but rare. This is why virtual memory is practical despite the conceptual overhead of address translation on every memory reference."
+```
+
 ## Explainer
 
 From your study of paging and segmentation, you know that virtual memory gives each process the illusion of its own large, contiguous address space, even though physical memory is smaller and shared. The mechanism that maintains this illusion is **address translation** — the hardware converts every virtual address the program uses into a physical address that points to actual RAM. This translation happens on every single memory access, so it must be fast and correct.

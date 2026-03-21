@@ -34,6 +34,45 @@ Trace heating curves (temperature vs heat added) to see how temperature plateaus
 - Boiling point is not a fixed property of a substance — it depends on external pressure. Water boils below 100°C at high altitude because atmospheric pressure is lower.
 - During a phase transition, added heat does not raise temperature. Students often expect temperature to rise continuously; the plateaus on heating curves reflect energy going into overcoming intermolecular forces.
 
+## Questions
+
+```yaml
+- question: "A pot of water is heated steadily at sea level. The temperature reaches 100°C and then stops rising for several minutes despite continued heating. Which explanation is correct?"
+  type: multiple-choice
+  options:
+    - "The stove cannot deliver enough energy to raise water above 100°C"
+    - "Added energy is increasing the kinetic energy of water molecules uniformly"
+    - "Added energy is being used to overcome intermolecular attractions during vaporization, not to increase kinetic energy"
+    - "Water reaches maximum molecular speed at 100°C and cannot absorb more energy"
+  answer: 2
+  explanation: "During a phase transition, added energy breaks intermolecular forces (here, hydrogen bonds) rather than increasing molecular kinetic energy — and temperature is a measure of kinetic energy. Until all the liquid has vaporized, all added energy goes into the heat of vaporization (40.7 kJ/mol for water), and the temperature stays constant. Students who expect continuous temperature rise have conflated 'adding heat' with 'raising temperature' — the two are not equivalent during phase transitions."
+
+- question: "A mountaineer at high altitude (atmospheric pressure ~0.5 atm) wants to boil water for sterilization. Compared to sea level, the water will:"
+  type: multiple-choice
+  options:
+    - "Boil at exactly 100°C because that is water's fixed boiling point"
+    - "Boil at a higher temperature because reduced pressure means more energy is needed"
+    - "Boil at a lower temperature because reduced pressure lowers the liquid-gas phase boundary"
+    - "Not boil because pressure below 1 atm prevents vaporization"
+  answer: 2
+  explanation: "Boiling point is the temperature at which vapor pressure equals external pressure — not a fixed property of water. At lower atmospheric pressure, vapor pressure equals external pressure at a lower temperature. On the phase diagram, moving to a lower pressure crosses the liquid-gas boundary at a lower temperature. Water boils at roughly 80°C at high altitude — a practical concern since this temperature may be insufficient for some sterilization purposes."
+
+- question: "During a phase transition such as melting, adding heat to the system causes the temperature to rise continuously."
+  type: true-false
+  answer: false
+  explanation: "Temperature remains constant throughout a phase transition because all added energy is consumed breaking intermolecular forces (heat of fusion, heat of vaporization) rather than increasing molecular kinetic energy. Temperature only resumes rising once the phase transition is complete. Heating curves display this as a flat plateau — the distinctive signature of a phase change occurring at constant temperature."
+
+- question: "Water's phase diagram has an unusual negative slope on its solid-liquid boundary, meaning that applying pressure to ice at 0°C can cause it to melt."
+  type: true-false
+  answer: true
+  explanation: "Ice is less dense than liquid water — an unusual property. At a phase boundary, pressure favors the denser phase. Since liquid water is denser than ice, increasing pressure shifts the equilibrium toward liquid — hence the negative slope of the solid-liquid line in water's phase diagram. For nearly all other substances, the solid is denser and the slope is positive. This anomaly is why ice floats and why lakes freeze from the top down, enabling aquatic life to survive under ice."
+
+- question: "Why does temperature remain constant during a phase transition even when heat is continuously added to the system?"
+  type: short-answer
+  answer: "Temperature is a measure of the average kinetic energy of molecules. During a phase transition, added energy is not increasing kinetic energy — it is being used to overcome the intermolecular forces holding molecules in their current arrangement (breaking crystal lattice bonds during melting, completely separating molecules during vaporization). Until all molecules have completed the transition, energy input goes into molecular separation, not molecular speed. Only after the transition is complete does further heat input raise the temperature again."
+  explanation: "The key is distinguishing between thermal energy (total) and temperature (kinetic component only). A phase transition converts heat into potential energy stored in the separated molecular arrangement. This is why ΔH_vap for water (40.7 kJ/mol) is much larger than ΔH_fus (6.01 kJ/mol) — complete molecular separation requires far more energy than merely disrupting the lattice, and all of it goes into the transition at constant temperature."
+```
+
 ## Explainer
 
 From thermochemistry, you know that enthalpy changes track heat flow, and from intermolecular forces, you know that molecules attract each other through dipole-dipole interactions, hydrogen bonds, and London dispersion forces. Phase changes are what happen when thermal energy either overwhelms these intermolecular attractions or loses the battle against them. Melting, boiling, and sublimation are endothermic because energy must be absorbed to pull molecules apart; freezing, condensation, and deposition are exothermic because energy is released as molecules settle into closer, more ordered arrangements.

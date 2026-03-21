@@ -25,6 +25,45 @@ Classify variables from real datasets. Create frequency tables for categorical d
 ## Common Misconceptions
 Thinking all numerical data is quantitative (zip codes are categorical). Treating categorical data as numerical (averaging color codes). Not recognizing that the same attribute can be measured as either categorical or quantitative.
 
+## Questions
+
+```yaml
+- question: "A researcher records each survey participant's phone area code (e.g., 212, 415, 617) to indicate which city they live in. What type of data is this?"
+  type: multiple-choice
+  options:
+    - "Quantitative discrete, because area codes are whole numbers"
+    - "Quantitative continuous, because you could interpolate between area codes"
+    - "Categorical, because arithmetic on area codes produces no meaningful result"
+    - "Ordinal, because higher area codes correspond to more populated regions"
+  answer: 2
+  explanation: "Despite being numbers, area codes are labels for geographic regions — not amounts of anything. The 'average area code' is meaningless. The test for quantitative data is whether arithmetic produces a meaningful result; here it does not. This is the central insight: looking like a number does not make something quantitative."
+
+- question: "A doctor records patient pain level two ways: Method A uses labels (mild/moderate/severe); Method B has patients report an exact 0–10 scale value. How do these variables differ in data type?"
+  type: multiple-choice
+  options:
+    - "Method A is categorical (ordinal); Method B is quantitative — the 0–10 scale supports arithmetic"
+    - "Both are categorical, because both measure the same underlying attribute"
+    - "Both are quantitative, because both can be placed in order"
+    - "Method A is nominal; Method B is ordinal — neither is truly quantitative"
+  answer: 0
+  explanation: "Same concept, two measurement approaches — two different data types. Method A's labels have order but no meaningful arithmetic (the gap between 'mild' and 'moderate' is not measured). Method B's numeric scale supports computing differences and averages. The attribute being measured doesn't determine the data type; the measurement scale does."
+
+- question: "Zip codes are categorical data even though they are composed entirely of digits."
+  type: true-false
+  answer: true
+  explanation: "Yes — zip codes are labels for geographic zones, not measurements of quantity. Averaging them (e.g., 10001 and 90210 averaging to 50106) produces a meaningless result. Numbers are categorical whenever arithmetic on them produces nonsense. Other examples: jersey numbers, telephone numbers, Social Security numbers, and 1/2/3 coded survey responses."
+
+- question: "Any variable that can be placed in ascending order is quantitative data."
+  type: true-false
+  answer: false
+  explanation: "Ordinal data can be ordered but is still categorical — it does not support arithmetic. Letter grades (A > B > C), pain levels (mild < moderate < severe), and Likert scale responses (disagree/neutral/agree) all have natural order without meaningful numeric differences between levels. Quantitative data requires not just ordering but meaningful arithmetic — differences and averages must make sense."
+
+- question: "A classmate reports: 'I computed the average zip code of our survey respondents — it's 52,317. This tells us something about the typical location.' What is wrong with this claim, and what analysis would be appropriate instead?"
+  type: short-answer
+  answer: "Averaging zip codes is meaningless because zip codes are categorical labels, not quantities. The numeric value has no arithmetic meaning — the 'average' of two geographic labels is not a geographic location. An appropriate analysis would use counts and proportions: a frequency table or bar chart showing how many respondents came from each zip code or region."
+  explanation: "This is the central trap of data types. The moment you perform arithmetic on a categorical variable, you've committed a category error. For categorical data, the right summaries are counts, proportions, and modes — not means or standard deviations. Recognizing this is the first filter in any data analysis workflow."
+```
+
 ## Explainer
 
 Every dataset is made up of variables, and before you can analyze any variable you need to know what kind of data it is. The most fundamental split is between **categorical data** — which places each observation into a named group — and **quantitative data** — which records a number that represents a measured or counted amount. This distinction is not cosmetic; it determines which graphs are appropriate, which summary statistics are meaningful, and which statistical tests apply.

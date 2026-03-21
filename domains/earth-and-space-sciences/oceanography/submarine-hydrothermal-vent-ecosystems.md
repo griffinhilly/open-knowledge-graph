@@ -33,6 +33,45 @@ Study thermal, chemical, and biological gradients around active vents. Examine p
 ## Common Misconceptions
 Vent ecosystems are not isolated; larvae, organic matter, and water exchange with surrounding ocean. Chemosynthetic bacteria use multiple energy sources (not only H₂S; also H₂ and methane). Temperature at the vent orifice is not uniform; organisms experience steep gradients over centimeter scales.
 
+## Questions
+
+```yaml
+- question: "What makes hydrothermal vent ecosystems fundamentally different from virtually all other ecosystems on Earth?"
+  type: multiple-choice
+  options:
+    - "They exist at much higher pressures than surface ecosystems, requiring organisms to evolve pressure resistance"
+    - "They are based on chemosynthesis rather than photosynthesis, making them entirely independent of solar energy"
+    - "They are the only ecosystems where animals lack digestive systems"
+    - "They exist below the photic zone, so organisms must rely on organic matter sinking from the surface"
+  answer: 1
+  explanation: "The key discovery was not just that organisms live in extreme conditions — it was that an entire complex food web operates without any connection to sunlight. Before 1977, biologists assumed all ecosystems ultimately depended on photosynthesis for primary production. Hydrothermal vents broke this assumption: chemosynthetic bacteria oxidize H₂S, H₂, and CH₄ from vent fluid to fix carbon, exactly as photosynthesis does at the surface but using chemical energy instead of light. Option D describes a different deep-sea ecosystem (abyssal plains that DO depend on surface photosynthesis via marine snow) — vent ecosystems are not dependent on surface productivity at all."
+
+- question: "The giant tube worm Riftia pachyptila has no mouth, gut, or anus — it cannot eat. How does it obtain the organic carbon it needs to survive?"
+  type: multiple-choice
+  options:
+    - "It absorbs dissolved organic compounds directly through its skin from the surrounding seawater"
+    - "It hosts chemosynthetic bacteria in a specialized internal organ (trophosome), supplying them with H₂S and O₂ through its blood and receiving fixed organic carbon in return"
+    - "It captures free-living chemosynthetic bacteria from the water column by filtering vent fluid"
+    - "It relies on geochemical reactions in the vent fluid that directly synthesize usable organic molecules without biological mediation"
+  answer: 1
+  explanation: "Riftia is one of the most striking examples of endosymbiosis in nature. The trophosome is a specialized organ densely packed with chemosynthetic bacteria (about 10 billion per gram of tissue). The worm's blood contains a specialized hemoglobin that binds both oxygen and hydrogen sulfide simultaneously without them reacting — it delivers each to the bacteria, which oxidize sulfide with oxygen to capture energy and fix CO₂ into organic carbon. The worm absorbs the carbon compounds the bacteria produce. This division of labor is so complete that the worm has entirely lost its digestive system over evolutionary time."
+
+- question: "Chemosynthetic bacteria at hydrothermal vents play the same ecological role as photosynthetic organisms in surface ecosystems — they are the primary producers that fix inorganic carbon into organic matter."
+  type: true-false
+  answer: true
+  explanation: "True. Ecological role is defined by function, not mechanism. Primary producers are organisms that fix inorganic carbon (CO₂) into organic matter using an energy source, forming the base of the food web. At the surface, photosynthetic organisms use solar energy for this. At vents, chemosynthetic bacteria and archaea use chemical energy from oxidizing H₂S, H₂, or CH₄. Both create the organic carbon that all other organisms in their respective ecosystems consume, directly or indirectly. Tube worms, crabs, and mollusks at vents are heterotrophs consuming the organic carbon fixed by the chemosynthetic primary producers, just as herbivores and animals at the surface consume photosynthetic production."
+
+- question: "Hydrothermal vent ecosystems are biologically isolated from the rest of the ocean; organisms that evolve there cannot survive in surrounding deep-sea habitats and never exchange individuals with other vent sites."
+  type: true-false
+  answer: false
+  explanation: "False. Vent ecosystems are not isolated — they must exchange larvae with other vent sites to survive, because individual vents are transient on geological timescales (active for decades to centuries before magma shifts and the vent dies). Tube worms, crabs, and other vent organisms release larvae into the water column that must disperse through the deep ocean to colonize new vents when old ones go inactive. Vent biology is therefore both an extremophile story and a dispersal ecology story. Additionally, organic matter and water mix between vent plumes and the surrounding ocean, creating chemically enriched halos that support some organisms beyond the immediate vent field."
+
+- question: "Why are hydrothermal vent ecosystems considered one of the most significant biological discoveries of the 20th century? What long-standing assumption about life did their discovery challenge?"
+  type: short-answer
+  answer: "Before the first vent ecosystem was discovered in 1977, it was assumed that all life on Earth ultimately depended on solar energy through photosynthesis. Even deep-sea communities were sustained by organic matter (marine snow) sinking from sunlit surface waters. Vent ecosystems shattered this assumption: here were rich, complex food webs — hundreds of species, dense biomass — operating in total darkness at the ocean floor, completely independent of photosynthesis. The primary energy source was geochemical: bacterial oxidation of reduced chemicals from Earth's interior. This demonstrated that life does not require sunlight, only a chemical energy gradient, which has profound implications for the origin of life (hydrothermal vents are a leading candidate for where life began) and for the possibility of life on other worlds with subsurface oceans (Europa, Enceladus) where sunlight never penetrates but hydrothermal activity may exist."
+  explanation: "The discovery revealed that the biosphere is not synonymous with the sunlit biosphere. It expanded our concept of habitability beyond surface conditions and opened entirely new research programs in astrobiology. The endosymbiotic relationships found at vents (like Riftia) also demonstrated remarkable evolutionary solutions to the challenge of coupling geological energy to biological metabolism."
+```
+
 ## Explainer
 
 From your study of chemosynthesis, you know that certain microorganisms can derive energy from chemical reactions rather than sunlight. From mid-ocean ridge dynamics, you know that tectonic plates spread apart at ridges, creating new seafloor where magma rises close to the surface. Hydrothermal vent ecosystems sit at the intersection of these two ideas: the geological energy of spreading ridges creates the chemical conditions that chemosynthetic life exploits.

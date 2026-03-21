@@ -32,6 +32,45 @@ Build a simple telescope using two lenses in a cardboard tube; measure the angul
 - Magnification and resolution are distinct; a telescope can magnify greatly but still not resolve two close stars if the aperture is too small.
 - The eyepiece of a microscope does not form a real image on the retina directly; it acts as a magnifier of the intermediate real image.
 
+## Questions
+
+```yaml
+- question: "Telescope A has an objective focal length of 1000 mm and an eyepiece focal length of 10 mm. Telescope B has an objective focal length of 500 mm and the same eyepiece. Both observe two closely spaced stars. Which telescope resolves the stars better, and why?"
+  type: multiple-choice
+  options:
+    - "Telescope A, because its longer focal length gives higher angular magnification"
+    - "Neither — magnification and resolution are the same property and increase together"
+    - "It depends entirely on which telescope has the larger objective aperture, not on the focal lengths"
+    - "Telescope B, because shorter focal lengths produce sharper images"
+  answer: 2
+  explanation: "Resolution is diffraction-limited and depends on *aperture diameter*, not focal length or magnification. The Rayleigh criterion gives minimum resolvable angle ∝ λ/D, where D is the aperture diameter. A longer focal length gives higher magnification (M = f_obj/f_eye = 100× vs. 50×) but if both telescopes have the same aperture, they resolve the same minimum angular separation. 'Empty magnification' is the term for magnifying beyond what resolution supports — you get a bigger but blurrier image."
+
+- question: "A compound microscope has an objective lens with magnification M_obj = 40× and an eyepiece with magnification M_eye = 10×. What is the total magnification, and what physical arrangement makes this possible?"
+  type: multiple-choice
+  options:
+    - "50× total, because the magnifications add; both lenses are close together"
+    - "400× total, because the magnifications multiply; the objective forms a real intermediate image that the eyepiece then magnifies"
+    - "400× total, because the magnifications multiply; both lenses are at the same focal point"
+    - "40× total, because only the objective contributes to resolving fine detail"
+  answer: 1
+  explanation: "Total magnification in a compound microscope is multiplicative: M_total = M_obj × M_eye = 40 × 10 = 400×. This multiplicative effect requires a physical separation: the objective lens (very short focal length, placed just past its focal point from the specimen) forms a real, inverted, enlarged intermediate image inside the microscope tube. That intermediate image acts as a new object for the eyepiece, which magnifies it again as a simple magnifier. The long tube length is necessary to place the intermediate image at the correct location."
+
+- question: "A larger objective aperture on a telescope improves its ability to resolve two closely spaced stars."
+  type: true-false
+  answer: true
+  explanation: "Angular resolution is diffraction-limited by the aperture diameter D. The minimum resolvable angle is approximately θ_min = 1.22 λ/D (Rayleigh criterion). Larger D means smaller θ_min, meaning finer angular detail can be distinguished. This is why the world's largest telescopes — from Hubble to ground-based giants — have enormous primary mirrors: aperture is what determines resolving power, independent of how much magnification is applied."
+
+- question: "Increasing the magnification of a telescope always improves its ability to resolve two closely spaced stars."
+  type: true-false
+  answer: false
+  explanation: "Magnification and resolution are independent properties. Resolution is set by aperture diameter (diffraction limit), not by magnification. Once you reach the diffraction limit, increasing magnification only makes the blurry disk larger — 'empty magnification.' Two stars that are closer together than θ_min = 1.22λ/D cannot be resolved regardless of how much the image is magnified. The only way to improve resolution is to increase the aperture."
+
+- question: "Explain why magnification and resolution are distinct properties of an optical instrument, and what physical factor sets the limit for each."
+  type: short-answer
+  answer: "Magnification measures how much larger an image appears compared to the unaided eye — it is a ratio of angles or sizes and is set by the focal lengths of the lenses (M = f_obj/f_eye for a telescope). Resolution measures the smallest angular or spatial separation that can be distinguished as two separate features; it is set by diffraction at the aperture and scales as λ/D (aperture diameter D). A telescope can magnify a pair of stars to appear large yet still show them as a single blurred point if the aperture is too small to resolve them. Increasing magnification without increasing aperture yields empty magnification: a bigger but not sharper image."
+  explanation: "The distinction matters practically: astronomers wanting to study binary stars or planetary surface detail need large apertures, not merely high magnification eyepieces. Conversely, a bright but isolated object like the moon can be usefully studied with high magnification even from a modest aperture, since the limit is not resolution but contrast and brightness. Understanding that these are independent design parameters is essential for choosing or designing instruments for specific observational goals."
+```
+
 ## Explainer
 
 You've worked through the thin lens equation and lens combinations — the geometry of how a single lens bends rays and where images form. Optical instruments take that foundation and engineer multi-lens systems for specific purposes: magnifying small nearby objects, resolving fine detail, or gathering light from astronomical distances. In each case, the design logic follows directly from the ray optics you already know.

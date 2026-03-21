@@ -21,6 +21,44 @@ status: draft
 ## Core Idea
 Advanced generating function techniques include singularity analysis (extracting asymptotics from singularities), bivariate generating functions (for counting with parameters), transfer matrices (for restricted structures), and Lagrange inversion (for implicit sequences). These tools convert counting into analytic problems, yielding precise asymptotics for combinatorial sequences.
 
+## Questions
+
+```yaml
+- question: "The generating function A(x) for a combinatorial sequence has a dominant singularity at x = 1/3 that is a simple pole. What can you immediately conclude about the asymptotic behavior of aₙ?"
+  type: multiple-choice
+  options:
+    - "aₙ ~ C · nⁿ for some constant C"
+    - "aₙ ~ C · 3ⁿ for some constant C"
+    - "aₙ ~ C · (1/3)ⁿ for some constant C"
+    - "Without knowing the residue you cannot determine the exponential growth rate"
+  answer: 1
+  explanation: "A simple pole at x = r means the coefficients grow like C · (1/r)ⁿ. With r = 1/3, we get exponential growth at rate 3ⁿ. Note that (1/3)ⁿ (option C) confuses the *location* of the singularity with the *growth rate* — the radius r is the reciprocal of the exponential base. The residue affects the constant C but not the base of exponential growth."
+
+- question: "The Catalan numbers satisfy C(x) = 1 + x·C(x)². You want the explicit formula for the nth Catalan number. Which technique is designed for this situation?"
+  type: multiple-choice
+  options:
+    - "Singularity analysis — extract asymptotics from the dominant singularity of C(x)"
+    - "Bivariate generating functions — Catalan numbers have a hidden two-parameter structure"
+    - "Lagrange inversion — the defining equation is implicit and cannot be solved by direct algebra"
+    - "Transfer matrices — Catalan numbers count sequences built from valid local transitions"
+  answer: 2
+  explanation: "Lagrange inversion is precisely for sequences defined implicitly by T(x) = x·φ(T(x)). Rewriting C(x) = 1 + x·C(x)² in this form, the formula extracts [xⁿ]C(x) = (1/(n+1))C(2n,n) directly without solving the quadratic. Singularity analysis (option A) gives asymptotics but not the exact formula. Transfer matrices (option D) apply to counting valid transitions in sequences — a different combinatorial structure. Bivariate GFs (option B) track two parameters, not relevant here."
+
+- question: "The exponential growth rate of a combinatorial sequence aₙ is entirely determined by the location of the dominant singularity of its generating function, regardless of the type of singularity."
+  type: true-false
+  answer: true
+  explanation: "The exponential growth rate — the base α in aₙ ~ C·αⁿ — equals 1/r where r is the distance from the origin to the dominant singularity (the singularity closest to the origin). The *type* of singularity (pole, algebraic branch point, logarithmic) does not change α; it determines the polynomial correction factor (whether aₙ ~ C·αⁿ, or C·n^k·αⁿ, etc.). So location determines exponential base; type determines the subexponential refinement."
+
+- question: "Setting y = 1 in a bivariate generating function F(x, y) = Σ aₙ,ₖ xⁿ yᵏ gives the expected value of k for objects of size n."
+  type: true-false
+  answer: false
+  explanation: "Setting y = 1 gives F(x, 1) = Σₙ (Σₖ aₙ,ₖ) xⁿ — the ordinary generating function for the total count of objects of size n, summed over all values of the parameter k. It recovers the counting GF, not the expected value. To extract the expected value of k for size-n objects, you differentiate: (∂F/∂y)|_{y=1} gives the GF for the total weight Σₖ k·aₙ,ₖ, and dividing by the count recovers the mean."
+
+- question: "Why does the dominant singularity of a generating function control the asymptotic behavior of its coefficients? What is the analytic reason this connection exists?"
+  type: short-answer
+  answer: "A power series Σ aₙ xⁿ converges inside a disk of radius r around the origin — the radius of convergence — and the boundary of this disk is exactly where the function fails to be analytic (a singularity). The coefficients aₙ must grow at rate ~(1/r)ⁿ to produce a series whose radius is exactly r: if the coefficients grew faster, the radius would shrink; slower, and the radius would expand. The singularity is the constraint forcing this growth rate. The type of singularity refines the picture: a pole forces a clean geometric series form; a branch point of the form (1-x/r)^α introduces polynomial corrections through the binomial series expansion."
+```
+
 ## Explainer
 
 You already know that a generating function encodes a sequence a₀, a₁, a₂, ... as the power series A(x) = Σ aₙ xⁿ, and that algebraic manipulations on A(x) correspond to combinatorial operations on the sequence. Advanced techniques extend this further: instead of just finding closed forms for aₙ, you now extract *asymptotic behavior* — how aₙ grows as n → ∞ — by analyzing A(x) as a complex function.

@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Set A is a subset of B (A ⊆ B) if every element of A is in B; A is a proper subset (A ⊂ B) if A ⊆ B and A ≠ B. These relations form a partial order on sets and establish a hierarchy of containment. Note that ∅ ⊆ A for every set A.
 
+## Questions
+
+```yaml
+- question: "Let A = {1, 2} and B = {1, 2, 3}. Which of the following correctly describes the relationship between A and B?"
+  type: multiple-choice
+  options:
+    - "A ⊂ B and A ⊆ B are both true"
+    - "A ⊆ B is true but A ⊂ B is false, because A and B share elements"
+    - "A ⊂ B is true but A ⊆ B is false, because A is strictly smaller"
+    - "Neither relation holds because A and B are different sets"
+  answer: 0
+  explanation: "Every element of A (1 and 2) is in B, so A ⊆ B is true. Additionally, B contains 3, which is not in A, so A ≠ B — making A ⊂ B (proper subset) also true. Proper subset (⊂) implies subset (⊆), just as strict less-than (<) implies less-than-or-equal (≤). Option B confuses 'sharing elements' with equality; option C misreads the implication direction — A ⊂ B guarantees A ⊆ B, not the other way around."
+
+- question: "Is ∅ ⊆ ∅ true? Is ∅ ⊂ ∅ true?"
+  type: multiple-choice
+  options:
+    - "Both are true — the empty set is a subset and proper subset of itself"
+    - "∅ ⊆ ∅ is true, but ∅ ⊂ ∅ is false — the empty set is not a proper subset of itself"
+    - "Both are false — the empty set has no elements, so no subset relations hold"
+    - "∅ ⊂ ∅ is true, but ∅ ⊆ ∅ is false — only proper containment applies to equal sets"
+  answer: 1
+  explanation: "A ⊆ A is true for any set A (every element of A is trivially in A), so ∅ ⊆ ∅ is true. But A ⊂ A requires A ≠ A, which is never true — a set cannot be a proper subset of itself, just as no number satisfies n < n. So ∅ ⊂ ∅ is false. This mirrors the number analogy: 5 ≤ 5 is true, but 5 < 5 is false. The empty set is a proper subset of every NON-EMPTY set, but not of itself."
+
+- question: "For any set A, the empty set ∅ is a subset of A."
+  type: true-false
+  answer: true
+  explanation: "The definition of A ⊆ B is: for every x, if x ∈ A then x ∈ B. To show ∅ ⊄ A, you would need to exhibit an element of ∅ that is not in A — but ∅ has no elements, so no such counterexample exists. The subset condition is vacuously satisfied. This is not a technicality; it is the definition working as intended. The empty set belongs to the power set of every set precisely because of this vacuous inclusion."
+
+- question: "The empty set is a proper subset of every set."
+  type: true-false
+  answer: false
+  explanation: "∅ is a proper subset of every NON-EMPTY set, but NOT of ∅ itself. The proper subset relation requires A ⊆ B AND A ≠ B. While ∅ ⊆ ∅ is true (vacuously), ∅ = ∅ is also true, so the second condition A ≠ B fails. Therefore ∅ ⊄ ∅ as a proper subset. The claim 'every set' is one element too many — ∅ itself is the exception. This subtle error trips up many students who correctly remember that ∅ is always a subset but incorrectly extend this to 'proper subset of every set.'"
+
+- question: "Explain why the empty set is a subset of every set, using only the definition of subset."
+  type: short-answer
+  answer: "The definition of A ⊆ B is: for every element x, if x ∈ A then x ∈ B. To show ∅ ⊆ B for any set B, we must check: for every x in ∅, x ∈ B. Since ∅ contains no elements, there is nothing to check — the condition holds vacuously. There is no element of ∅ that could fail to be in B, so the definition is satisfied."
+  explanation: "Vacuous truth is often counterintuitive but is consistent with classical logic: a universal statement 'for all x in A, P(x)' is true when A is empty, because there are no witnesses to falsify it. This is not a loophole or exception — it is the definition of subset working correctly. The practical consequence is that ∅ appears in the power set of every set, and any proof involving 'pick an arbitrary element of A' automatically handles the empty set case without extra work, since no element needs to be chosen."
+```
+
 ## Explainer
 
 You already know that set membership (∈) asks a yes-or-no question about a single element: is 3 ∈ {1, 2, 3}? The **subset relation** (⊆) lifts that question up one level and asks it about an entire set at once: is every member of A also a member of B? Think of it as a universal membership test applied collectively. If A = {2, 4} and B = {1, 2, 3, 4, 5}, then A ⊆ B because each element of A — namely 2 and 4 — passes the ∈ B test. Not one element is left out.

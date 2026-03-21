@@ -30,6 +30,45 @@ Walk the exterior of your home and identify your siding type, then locate one ar
 - All siding can be pressure-washed safely — high pressure damages vinyl (forcing water behind panels), splinters wood siding, and can crack fiber cement; a garden hose or soft-wash system is safer for most materials.
 - Matching replacement siding color is straightforward — UV exposure fades existing siding significantly within a few years, so new panels of the same original color will stand out until they weather to match.
 
+## Questions
+
+```yaml
+- question: "A homeowner discovers a crack in a vinyl siding panel and fills it with exterior caulk. The crack is no longer visible. What is the problem with this repair?"
+  type: multiple-choice
+  options:
+    - "The caulk color will not match after one season of UV exposure"
+    - "Caulk bridges the crack cosmetically but can trap moisture behind the panel, accelerating rot or warping of the sheathing"
+    - "Caulk is not UV-resistant and will degrade within a year, reopening the crack"
+    - "There is no problem — exterior caulk is a standard long-term repair for cracked vinyl siding"
+  answer: 1
+  explanation: "The Core Idea is explicit: caulk 'bridges the crack cosmetically but does not restore structural integrity, and it traps moisture behind the damaged piece, accelerating rot or warping.' The explainer reinforces this: 'caulk behind a broken panel holds moisture against the sheathing rather than letting it drain, which is worse than the original crack.' Siding is designed to let incidental water drain freely; sealing a damaged section in place defeats this drainage mechanism."
+
+- question: "Why is maintaining the correct overlap so critical across all three siding types — vinyl, wood, and fiber cement?"
+  type: multiple-choice
+  options:
+    - "Because the overlap carries structural load and prevents wind from peeling panels off the framing"
+    - "Because siding is a rainscreen system — the overlap creates a path for water to shed outward away from the weather barrier, which is the true waterproofing layer"
+    - "Because building codes require matching overlap for aesthetic consistency with surrounding panels"
+    - "Because misaligned overlap creates thermal bridging that reduces insulation value"
+  answer: 1
+  explanation: "Siding is explicitly described as a 'rainscreen system where water is expected to sometimes get behind the outermost layer.' The weather barrier (housewrap or felt paper) does the waterproofing; siding sheds most water before it reaches the barrier. The overlap is what creates the outward-shedding path. Any deviation — a gap at the ends, wrong exposure distance, or a caulked-in-place damaged piece — can redirect water inward rather than outward."
+
+- question: "The weather barrier (housewrap or felt paper) behind siding, not the siding itself, is the primary waterproofing layer in a properly constructed wall."
+  type: true-false
+  answer: true
+  explanation: "The explainer states this directly: 'The weather barrier (housewrap or felt paper behind the siding) is the true waterproofing layer. Siding's job is to shed most water and protect the barrier from UV degradation.' This is the design logic that explains why caulking over damaged siding is counterproductive — a caulked panel holds moisture against the barrier rather than letting it drain past the barrier's surface."
+
+- question: "Vinyl, wood, and fiber cement siding can all be repaired using the same technique because all three rely on the same overlap-and-nail attachment method."
+  type: true-false
+  answer: false
+  explanation: "Each material has a distinct repair method. Vinyl uses interlocking locking channels removed and replaced with a zip tool — no nails are exposed. Wood is face-nailed; damaged boards must be split out without disturbing adjacent boards, and replacement boards must replicate the exact exposure distance. Fiber cement uses hidden fasteners, requires carbide-tipped cutting tools due to its density, and generates silica dust requiring respiratory protection. Using the wrong technique for the material can compromise the weather seal or damage adjacent panels."
+
+- question: "Why is caulking over a crack in siding often worse than leaving the crack unrepaired, and what does this reveal about how siding is designed to manage water?"
+  type: short-answer
+  answer: "Caulk seals the damaged panel in place rather than letting water drain outward. Siding is a rainscreen system — it expects some water to penetrate the outermost layer and sheds it through the overlap geometry. A cracked panel with an open crack allows water to drain past. A caulked crack traps water behind the damaged piece, holding moisture against the sheathing and weather barrier where it accelerates rot and deterioration. The correct repair is replacing the damaged panel to restore the overlap-based drainage path."
+  explanation: "Understanding siding as a rainscreen (not a waterproof seal) reframes the whole repair logic. The goal is not to seal every potential entry point but to ensure water that enters can exit. Caulk is appropriate for sealing joints between siding and trim (window frames, corners) where drainage is not expected — but it is the wrong tool for mid-panel cracks where drainage is the designed mechanism."
+```
+
 ## Explainer
 
 From your prerequisite work on DIY decisions and basic hand tools, you know how to assess whether a repair is within your skill range and what tools are needed to execute it. Siding repair applies those frameworks to a specific problem: your home's exterior cladding is damaged, water has a potential entry point, and you need to decide how to address it. The answer depends almost entirely on the siding material, because each type has a distinct mechanism for attachment and weather resistance.

@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Condition codes (stored in the processor status register) indicate the outcome of ALU operations: zero flag (result is zero), negative flag (sign bit set), overflow flag (signed arithmetic overflow), and carry flag (unsigned overflow). Conditional branch instructions test these flags to alter control flow. Some flags are set only on certain instruction types.
 
+## Questions
+
+```yaml
+- question: "A programmer writes CMP R1, R2 followed by BLT target (branch if less than, signed). The branch is taken. What can we conclude?"
+  type: multiple-choice
+  options:
+    - "R1 is numerically smaller than R2 in unsigned binary representation"
+    - "R1 is less than R2 in signed (two's complement) interpretation, based on the N and V flags set by the subtraction R1 − R2"
+    - "The zero flag was set to 1 because R1 and R2 are equal"
+    - "R2 − R1 produced a carry out from the most significant bit, setting the carry flag"
+  answer: 1
+  explanation: "BLT (branch if less than, signed) checks a combination of the negative flag (N) and the overflow flag (V) to detect signed less-than after a subtraction. CMP computes R1 − R2 and sets flags but discards the result. The branch being taken tells us R1 < R2 in signed arithmetic. This is distinct from unsigned comparison (which uses the carry flag) — the subtlety is that the same binary subtraction is interpreted differently for signed vs unsigned comparison."
+
+- question: "Why does the CMP instruction compute a subtraction but discard the numerical result, storing nothing in any general-purpose register?"
+  type: multiple-choice
+  options:
+    - "CMP is more efficient than SUB because it skips the register write-back stage in the pipeline"
+    - "For conditional branching, only the flags (zero, negative, carry, overflow) matter — the numerical difference itself is not needed, so discarding it avoids consuming a destination register"
+    - "CMP uses the carry flag while SUB uses the overflow flag, making them fundamentally different operations"
+    - "The difference is stored implicitly in the status register rather than truly discarded"
+  answer: 1
+  explanation: "The entire purpose of CMP is to set flags for a subsequent branch instruction. Whether R1 = R2, R1 > R2, or R1 < R2 is encoded completely in the flags — you don't need the number (R1 − R2) itself. Discarding the difference frees the programmer from needing a spare register to hold a temporary value they'll never use. This is a design choice that makes assembly code cleaner."
+
+- question: "A single CMP instruction sets all four status flags simultaneously, so subsequent branch instructions (BEQ, BLT, BGT, BVS) can each check the result of the same comparison."
+  type: true-false
+  answer: true
+  explanation: "The CMP/comparison instruction performs a subtraction that updates all relevant flags (Z, N, C, V) at once. Multiple conditional branch instructions can then test whichever flag combination is relevant — BEQ tests Z=1, BLT tests N≠V, BCS tests C=1, and so on. This means one comparison sets up multiple possible branch outcomes without any repeated computation."
+
+- question: "On all processor architectures, every instruction automatically updates all four status flags (zero, negative, carry, overflow) as a side effect of execution."
+  type: true-false
+  answer: false
+  explanation: "Flag update behavior is architecture-dependent. On x86, most arithmetic and logical instructions set flags, but moves and loads do not. On ARM, flags are only updated when the instruction explicitly includes an 'S' suffix (e.g., ADDS vs ADD). This means flags can retain their values across multiple instructions, and programmers must carefully track which instruction most recently set the flags being tested — a common source of bugs in assembly programming."
+
+- question: "Explain the difference between the carry flag and the overflow flag, and give an example of when you would care about each."
+  type: short-answer
+  answer: "The carry flag signals unsigned overflow: a carry out of the most significant bit during addition, or a borrow during subtraction, indicating the result exceeded the unsigned range. The overflow flag signals signed overflow: the carry into and out of the MSB differ, meaning two same-sign values produced an opposite-sign result. Care about carry when adding unsigned integers (e.g., 255 + 1 in 8-bit unsigned). Care about overflow when adding signed integers (e.g., 127 + 1 in 8-bit two's complement produces −128)."
+  explanation: "The distinction matters because the same bit pattern can represent different values depending on whether you treat it as signed or unsigned. After an 8-bit addition of 0xFF + 0x01: the carry flag is set (unsigned result 256 exceeds 8 bits), but the overflow flag is not (in signed interpretation, −1 + 1 = 0, which is correct). Conversely, 0x7F + 0x01 in signed arithmetic sets the overflow flag (127 + 1 = −128, wrong sign) but not the carry flag in isolation."
+```
+
 ## Explainer
 
 From your study of ALU design, you know that the arithmetic logic unit produces a numerical result for every operation. But a result alone is not enough — the processor also needs to know *what kind* of result it was. Did the subtraction produce zero? Did the addition overflow? These questions are answered by **status flags**, single-bit indicators that the ALU sets automatically as a side effect of each operation. They are collected in a special register called the **processor status register** (PSR), sometimes called the flags register or condition code register.

@@ -35,6 +35,45 @@ Read J.L. Mackie's 'The Subjectivity of Values' for the strongest anti-realist c
 - Moral realism does not require that moral facts be supernatural; naturalist realists think they reduce to natural facts.
 - Disagreement about ethics does not automatically refute realism, since people disagree about empirical facts too.
 
+## Questions
+
+```yaml
+- question: "A moral naturalist argues that 'what is good' just means 'what promotes wellbeing.' G.E. Moore's open question argument challenges this by pointing out:"
+  type: multiple-choice
+  options:
+    - "Wellbeing cannot be measured objectively, so the definition fails empirically"
+    - "One can coherently ask 'but does promoting wellbeing actually make something good?' — suggesting 'good' cannot be identical to any natural property"
+    - "Naturalism commits the fallacy of deriving 'ought' from 'is'"
+    - "Moral facts must be supernatural, so natural properties are automatically inadequate"
+  answer: 1
+  explanation: "Moore's open question argument: for any proposed natural definition of 'good' (wellbeing, pleasure, evolutionary fitness), you can always coherently ask 'but is X actually good?' without contradiction. This suggests 'good' is not analytically identical to any natural property — the question would be closed (trivially true or false) if it were. Moore concluded 'good' is a simple, indefinable non-natural property. Note that option D is a common misconception: moral realism does not require supernatural facts — naturalistic realists specifically hold that moral properties reduce to natural ones."
+
+- question: "Mackie's queerness argument against moral realism claims that moral facts, if they existed, would be:"
+  type: multiple-choice
+  options:
+    - "Epistemologically inaccessible because we have no sensory organ for detecting them"
+    - "Metaphysically strange entities unlike anything in our ordinary ontology — intrinsically motivating properties that demand action just by being known"
+    - "Logically contradictory because moral claims are both true and false depending on cultural context"
+    - "Reducible to natural properties, which would make realism trivially true"
+  answer: 1
+  explanation: "Mackie's queerness argument has two parts: metaphysical (moral facts would be sui generis, unlike anything in our ordinary ontological categories) and epistemological (we have no account of how we could detect them). The most distinctive part is that moral facts would be intrinsically motivating — knowing that X is wrong would by itself give you reason to avoid X, independently of your desires. Mackie thought nothing in our ordinary ontology works this way. Moral realists respond by either denying that moral facts must be intrinsically motivating (externalism) or arguing that the queerness is no worse than mathematics."
+
+- question: "Widespread cross-cultural disagreement about moral questions — the fact that different societies reach different moral conclusions — proves that moral realism is false."
+  type: true-false
+  answer: false
+  explanation: "This inference does not follow. People disagree about empirical questions too — historical facts, scientific theories, medical diagnoses — without this proving there are no mind-independent facts in those domains. Disagreement shows that at least some people are wrong, but realism holds that there is a fact of the matter about which views are correct. The realist can explain moral disagreement through cognitive bias, limited information, motivated reasoning, or incomplete moral knowledge — the same explanations we give for persistent empirical disagreement. Disagreement is evidence for anti-realism only if we already assume there are no procedures for resolving moral disputes, which begs the question."
+
+- question: "A moral naturalist — someone who holds that moral properties reduce to natural, empirically describable properties — can consistently be a moral realist."
+  type: true-false
+  answer: true
+  explanation: "Yes — naturalistic moral realism is one of the major variants of moral realism. It holds that moral properties like 'goodness' or 'wrongness' just are natural properties (e.g., wellbeing-promoting properties, or properties that rational agents would endorse under ideal conditions). Since natural facts are mind-independent, naturalistic moral realism satisfies the metaphysical thesis of moral realism. The view does face Moore's open question argument, but that is an internal challenge to the position, not a reason to classify it as anti-realist. The common misconception is that realism requires supernatural or non-natural properties."
+
+- question: "What are the three distinct theses of moral realism, and why is it important to keep them separate when evaluating arguments for and against the view?"
+  type: short-answer
+  answer: "The semantic thesis holds that moral claims are truth-apt — they express genuine propositions that can be true or false, not just feelings. The metaphysical thesis holds that the truth conditions of moral claims are satisfied mind-independently — moral facts exist regardless of what anyone believes or desires. The epistemological thesis holds that we can have knowledge of these mind-independent moral facts. Keeping them separate matters because arguments can target each independently: expressivism attacks the semantic thesis; Mackie's error theory accepts the semantic thesis but denies the metaphysical one; the queerness argument primarily targets epistemology and metaphysics. A response to one challenge does not answer the others."
+  explanation: "For example, a realist might successfully defend the semantic thesis against expressivism (moral claims ARE truth-apt) while still facing serious challenges to the metaphysical thesis (WHERE are these mind-independent moral facts?). Or someone might accept the metaphysical thesis but struggle with the epistemological one (HOW do we know moral facts that are non-natural?). Bundling the three theses makes it impossible to locate exactly where disagreements lie. Many apparent debates about moral realism are actually people arguing past each other because one person is attacking the metaphysical thesis while another is defending the semantic one."
+```
+
 ## Explainer
 
 Moral realism is best understood by contrasting it with the alternatives from metaethics. When you say "slavery is wrong," what kind of claim are you making? Three main options: (1) you're expressing a feeling — expressivism; (2) you're making a claim that is systematically false because no moral facts exist — error theory; or (3) you're making a claim that can be straightforwardly true or false about mind-independent facts — moral realism. Moral realism takes moral discourse at face value: moral sentences are genuine assertions, and some of them are true.

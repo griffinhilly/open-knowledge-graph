@@ -33,6 +33,45 @@ Study detailed historical case studies: Ptolemaic to Copernican astronomy, Newto
 - All scientific change is revolutionary; there is no continuity.
 - Paradigm shifts occur instantly without transition periods.
 
+## Questions
+
+```yaml
+- question: "A critic argues: 'Kuhn showed that scientists choose paradigms for social or political reasons rather than based on evidence — paradigm choice is irrational.' Based on Kuhn's actual position, this claim is:"
+  type: multiple-choice
+  options:
+    - "Correct — Kuhn argued that paradigm choice is entirely determined by the consensus of the scientific community, not by evidence"
+    - "A misreading — Kuhn acknowledged that new paradigms typically solve more problems and yield better predictions, even if no paradigm-neutral comparison is possible"
+    - "Partially correct — Kuhn argued that initial paradigm adoption is irrational but later refinement is rational"
+    - "Correct, but only for the transition between paradigms; normal science within a paradigm is rational"
+  answer: 1
+  explanation: "Kuhn explicitly distanced himself from the charge of irrationalism. He argued that incommensurability — the absence of a paradigm-neutral vantage point — does not mean paradigm choice is arbitrary. Scientists have good reasons to prefer a new paradigm: it typically solves more problems, generates more precise predictions, and opens new research avenues. What Kuhn denied was that these reasons constitute a logically coercive proof that compels acceptance. The choice involves judgment, not just algorithm — but judgment exercised by trained scientists is not the same as arbitrary preference."
+
+- question: "What primarily distinguishes 'normal science' from 'revolutionary science' in Kuhn's framework?"
+  type: multiple-choice
+  options:
+    - "Normal science tests the paradigm's core assumptions through rigorous experiments; revolutionary science applies the paradigm to new domains"
+    - "Normal science solves puzzles within an accepted framework without questioning its foundations; revolutionary science involves crisis and paradigm replacement"
+    - "Normal science is practiced by established senior scientists; revolutionary science is carried out by outsiders who are not committed to the existing paradigm"
+    - "Normal science advances knowledge gradually in small steps; revolutionary science advances it in large leaps later confirmed by normal science"
+  answer: 1
+  explanation: "For Kuhn, the crucial feature of normal science is that it is not testing the paradigm — it takes the paradigm for granted and uses it to extend knowledge within its domain. A Newtonian physicist applies Newton's laws to new problems; she does not treat the laws themselves as hypotheses under test. This is why Popper's falsificationism, which Kuhn was explicitly responding to, seemed to Kuhn to misdescribe what scientists actually do most of the time. Revolutionary science, by contrast, involves practitioners questioning the very foundations that normal science presupposes — a much rarer and more disruptive event."
+
+- question: "On Kuhn's view, a single powerful anomaly — an experiment whose result the paradigm cannot explain — is sufficient to trigger a scientific revolution."
+  type: true-false
+  answer: false
+  explanation: "Kuhn explicitly argued against this. Every paradigm has anomalies — unresolved puzzles that resist the paradigm's methods. The scientific community does not abandon a paradigm simply because an anomaly exists; they set it aside and continue puzzle-solving. Only when anomalies proliferate, resist repeated attempts at resolution, and touch the core commitments of the paradigm does crisis develop. Even then, a paradigm is not abandoned until a viable alternative is available — scientists do not give up a map just because it has errors; they need a better map. A single anomaly is therefore rarely sufficient."
+
+- question: "Kuhn's concept of incommensurability implies that scientists working in different paradigms cannot communicate meaningfully with each other about their theories."
+  type: true-false
+  answer: false
+  explanation: "Incommensurability means that paradigms cannot be straightforwardly compared on a single neutral standard — key terms shift meaning, the problems worth solving change, and what counts as a satisfactory explanation differs. But this does not prevent communication altogether. Scientists can learn each other's paradigm (Kuhn compared it to learning a second language), translate between them partially, and identify where they differ. Incommensurability makes paradigm comparison difficult and judgment-laden, not impossible. Kuhn was describing an epistemological challenge, not a breakdown of scientific dialogue."
+
+- question: "What does Kuhn mean by 'incommensurability' between paradigms, and does it imply that paradigm choice is irrational?"
+  type: short-answer
+  answer: "Incommensurability means there is no paradigm-neutral standard by which two paradigms can be compared directly. Key terms shift meaning across paradigms (e.g., 'mass' means something different in Newtonian and Einsteinian physics), the problems each paradigm takes as central may differ, and what counts as a satisfactory solution changes. However, incommensurability does not imply irrationality — it means that paradigm choice requires judgment rather than algorithmic proof. Scientists can still rationally prefer a new paradigm because it solves more problems, makes more precise predictions, or opens new research avenues, even without a neutral measuring stick."
+  explanation: "Kuhn's critics (especially Lakatos and Popper) charged that incommensurability made science look like a sociology of belief rather than a rational enterprise. Kuhn's response was that rationality does not require a paradigm-neutral foundation — it requires good judgment, shared training, and the ability to recognize which framework handles the evidence better. The distinction between 'requires neutral foundation' and 'requires rational judgment' is the crux. Incommensurability is a claim about the structure of scientific change, not a claim that scientists are irrational."
+```
+
 ## Explainer
 
 From your introduction to philosophy of science, you are familiar with the received view: science advances by accumulating confirmed facts, eliminating false hypotheses, and converging on truth through careful observation and reasoning. Thomas Kuhn's *The Structure of Scientific Revolutions* (1962) challenged this picture so fundamentally that it changed how historians, philosophers, and scientists themselves think about what science does.

@@ -35,6 +35,45 @@ Practice converting between a statement and its negation. Use concrete examples 
 - Thinking ¬(∃x P(x)) is equivalent to ¬∃x ¬P(x).
 - Forgetting that negation flips the quantifier type.
 
+## Questions
+
+```yaml
+- question: "Which of the following correctly states the negation of 'Every student in the class passed the exam'?"
+  type: multiple-choice
+  options:
+    - "Every student in the class failed the exam"
+    - "No student in the class passed the exam"
+    - "At least one student in the class did not pass the exam"
+    - "Most students in the class did not pass the exam"
+  answer: 2
+  explanation: "The original statement is ∀x P(x). Its negation is ∃x ¬P(x) — 'there exists at least one student who did not pass.' Option A ('every student failed') is ∀x ¬P(x), which is far stronger than the negation requires: it says everyone fails, when even a single failure suffices to make the original claim false. Option B is equivalent to option A. Negation flips the quantifier from ∀ to ∃ AND negates the predicate — it does not simply negate the predicate while leaving the quantifier unchanged."
+
+- question: "What is the correct negation of the statement ∀x ∃y (x + y = 0)?"
+  type: multiple-choice
+  options:
+    - "∃x ∀y (x + y = 0)"
+    - "∀x ∃y ¬(x + y = 0)"
+    - "∃x ∀y (x + y ≠ 0)"
+    - "∀x ∀y (x + y ≠ 0)"
+  answer: 2
+  explanation: "Apply the negation rule from outside in: ¬∀x becomes ∃x, then ¬∃y becomes ∀y, and finally the predicate is negated: (x + y = 0) becomes (x + y ≠ 0). Result: ∃x ∀y (x + y ≠ 0). Option A flips only the first quantifier but leaves ∃y unchanged. Option B negates only the predicate without flipping ∃y. Option D negates the predicate but flips neither quantifier. Each quantifier must be flipped in turn as the negation pushes inward."
+
+- question: "The negation of 'There exists a prime number greater than 10' is 'All prime numbers are at most 10.'"
+  type: true-false
+  answer: true
+  explanation: "The original statement is ∃x P(x). Its negation is ∀x ¬P(x). 'There exists a prime > 10' negates to 'for all numbers that are prime, they are ≤ 10' — i.e., all prime numbers are at most 10. The quantifier correctly flips from ∃ to ∀ and the predicate is negated."
+
+- question: "The negation of 'All mathematicians are brilliant' is 'No mathematicians are brilliant.'"
+  type: true-false
+  answer: false
+  explanation: "¬(∀x P(x)) ≡ ∃x ¬P(x) — the negation is 'there exists at least one mathematician who is not brilliant.' 'No mathematicians are brilliant' is ∀x ¬P(x), which makes the much stronger claim that every single mathematician fails the property. This is the most common error: applying ¬ only to the predicate while leaving the ∀ unchanged. Negation must flip the quantifier from ∀ to ∃."
+
+- question: "Explain why the negation of 'All S are P' is not 'All S are not-P', and state the correct negation."
+  type: short-answer
+  answer: "The negation of a universal claim requires only one counterexample. 'All S are P' (∀x P(x)) is false whenever even a single S fails to be P. So its negation is 'There exists at least one S that is not P' (∃x ¬P(x)). 'All S are not-P' (∀x ¬P(x)) asserts that every element fails — a much stronger claim that is neither required nor implied by the original being false. Negation flips the quantifier (∀ to ∃) AND negates the predicate; it does not simply negate the predicate."
+  explanation: "A useful test: if even one S is P, the original claim is false, but 'all S are not-P' is also false. So 'all S are not-P' cannot be the negation of 'all S are P.' A statement and its negation must have opposite truth values in every case."
+```
+
 ## Explainer
 
 From your study of universal and existential quantifiers, you know that ∀x P(x) claims P holds for every element in the domain, while ∃x P(x) claims P holds for at least one element. Negating these statements requires more care than just placing a ¬ in front: you need to understand what it means for the original claim to be *false*, and the answer is not symmetric.

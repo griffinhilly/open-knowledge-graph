@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Many viruses acquire a lipid bilayer envelope by budding through host cell membranes, retaining host lipids while inserting viral glycoproteins that mediate cell attachment and entry. The envelope is fragile and sensitive to detergents and drying, which is why enveloped viruses are more sensitive to environmental stress than naked viruses.
 
+## Questions
+
+```yaml
+- question: "Why does washing hands with soap effectively inactivate enveloped viruses like influenza but not non-enveloped viruses like norovirus?"
+  type: multiple-choice
+  options:
+    - "Soap raises the pH to a level that denatures influenza proteins but not norovirus proteins"
+    - "Soap is a detergent that dissolves lipid bilayers — enveloped viruses lose their envelope and cannot attach to or enter cells; the protein capsid of non-enveloped viruses is unaffected by detergents"
+    - "Soap prevents viral replication by blocking RNA polymerase in enveloped viruses only"
+    - "Soap neutralizes the glycoproteins of enveloped viruses but cannot reach the capsid proteins of non-enveloped viruses"
+  answer: 1
+  explanation: "This is a direct consequence of the envelope's lipid bilayer composition. Soap is an amphipathic detergent that disrupts lipid membranes by forming micelles that extract lipid molecules — destroying the envelope. Without an intact envelope, the viral glycoproteins cannot orient properly and the virus cannot attach to or fuse with host cell membranes. Non-enveloped viruses have only a protein capsid, which detergents cannot dissolve. This difference explains not just hand-washing efficacy but the broader pattern: enveloped viruses are far more environmentally fragile than naked viruses."
+
+- question: "Vaccines against enveloped viruses (influenza, SARS-CoV-2, HIV) target surface glycoproteins rather than envelope lipids. What is the immunological reason for this strategy?"
+  type: multiple-choice
+  options:
+    - "Glycoproteins are easier to manufacture than lipids for vaccine production"
+    - "The envelope lipids are derived from the host cell membrane and therefore appear as 'self' to the immune system, which cannot generate a strong immune response against them; viral glycoproteins are foreign and are the primary targets for neutralizing antibodies"
+    - "Lipids mutate too rapidly to serve as stable vaccine targets"
+    - "Antibodies cannot physically access the lipid bilayer because it is buried under the glycoproteins"
+  answer: 1
+  explanation: "Because viral envelopes are stolen from host cell membranes during budding, their lipid composition resembles the host's own membranes. The immune system has tolerance mechanisms that prevent strong responses against self-lipids — otherwise autoimmune lipid attacks would be constant. Viral glycoproteins, however, are encoded by the viral genome and are foreign: the immune system can recognize and generate neutralizing antibodies against them. This is why all approved vaccines for enveloped viruses target glycoprotein antigens (hemagglutinin for flu, spike protein for SARS-CoV-2)."
+
+- question: "A viral envelope is synthesized directly by the virus using its own lipid-synthesizing machinery, then assembled around the nucleocapsid before the virus is released from the cell."
+  type: true-false
+  answer: false
+  explanation: "Viruses do not synthesize their own lipid bilayer. The envelope is acquired by a process called budding: the assembled nucleocapsid pushes through a host cell membrane (plasma membrane, ER, or Golgi) and pinches off, taking a patch of host membrane with it. The resulting envelope has the lipid composition of the host cell, not a virus-specific lipid composition. Viruses do encode and insert their own glycoproteins into the host membrane before budding, which is what makes the envelope distinctly viral on its surface, but the lipid scaffold itself is stolen from the host."
+
+- question: "Because the envelope lipids are derived from the host cell, the immune system cannot easily distinguish them as foreign, making viral glycoproteins the primary targets for neutralizing antibodies."
+  type: true-false
+  answer: true
+  explanation: "This is the key immunological consequence of the envelope's host-derived lipid composition. Self-tolerance mechanisms prevent the immune system from mounting strong antibody responses against host-like lipid structures. Viral glycoproteins, being encoded by the viral genome and processed through the host secretory pathway with virus-specific amino acid sequences, are recognized as non-self. Neutralizing antibodies that bind to glycoproteins can block receptor binding or membrane fusion, preventing infection. Antigenic drift and shift — mutations in glycoprotein sequences — are the main mechanisms by which viruses like influenza evade pre-existing immunity."
+
+- question: "Explain how a virus acquires its envelope and why this process has consequences for immune recognition of the virus."
+  type: short-answer
+  answer: "Viruses acquire their envelope through budding: viral nucleocapsid assembles near a host cell membrane, and virus-encoded glycoproteins are synthesized by host ribosomes, processed through the secretory pathway, and inserted into the host membrane. The assembled nucleocapsid then pushes through this modified membrane and pinches off, taking a patch of host lipid bilayer — studded with viral glycoproteins — as its envelope. The immune consequence is that the envelope has two distinct molecular identities: the lipid bilayer looks like 'self' (host-derived, ignored by immune tolerance), while the glycoproteins are foreign (virus-encoded, targeted by neutralizing antibodies). This means immune responses to enveloped viruses are focused on glycoproteins, and viral escape through glycoprotein mutation (antigenic variation) is the primary immune evasion mechanism."
+  explanation: "The budding mechanism explains multiple features simultaneously: why enveloped viruses are fragile (lipid bilayer disrupted by detergent/desiccation), why their lipid composition reflects the host, why glycoproteins are the vaccine targets, and why antigenic drift is the dominant evasion strategy. All of these are consequences of the same structural fact: a stolen lipid scaffold carrying virus-encoded surface proteins."
+```
+
 ## Explainer
 
 You already know that the capsid provides the basic protein shell protecting a virus's genetic material. Many viruses, however, wrap an additional layer around the capsid — a **lipid bilayer envelope** stolen directly from the host cell. This envelope is not encoded by the virus from scratch; instead, it is acquired during a process called **budding**, in which the assembled nucleocapsid pushes through a host membrane (plasma membrane, endoplasmic reticulum, or Golgi) and pinches off, taking a patch of membrane with it. The lipid composition of the envelope therefore reflects the host cell's membrane, which is why your background in membrane lipids and lipoproteins is directly relevant here.

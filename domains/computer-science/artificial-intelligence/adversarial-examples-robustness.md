@@ -31,6 +31,45 @@ Adversarial examples are inputs crafted to fool neural networks, sometimes by ad
 ## How It's Best Learned
 Generate adversarial examples using FGSM and PGD attacks on an image classifier, then implement adversarial training and observe robustness improvements and accuracy tradeoffs.
 
+## Questions
+
+```yaml
+- question: "A neural network achieves 98% accuracy on a held-out test set. A researcher then applies FGSM to 100 of those correctly classified images and finds the network misclassifies 85 of them. What does this demonstrate?"
+  type: multiple-choice
+  options:
+    - "The test set was too small to give a reliable accuracy estimate"
+    - "High test accuracy does not guarantee robustness — the model is brittle against adversarial perturbations"
+    - "FGSM produces unrealistic inputs that no real attacker would generate"
+    - "The network needs more training epochs to generalize properly"
+  answer: 1
+  explanation: "This is the core lesson: test accuracy and adversarial robustness measure different properties. The 98% test accuracy reflects how the model performs on natural inputs drawn from the data distribution. Adversarial inputs are specifically crafted to exploit the model's decision boundaries, revealing that high accuracy can coexist with extreme brittleness. A model can be both state-of-the-art on benchmarks and trivially fooled by imperceptible perturbations."
+
+- question: "Why can adding a tiny perturbation of magnitude ε to each dimension of a high-dimensional input reliably fool a neural network, even when no single perturbed pixel is noticeable?"
+  type: multiple-choice
+  options:
+    - "Because the perturbation shifts the input into a different data distribution that the model has never seen"
+    - "Because the perturbations accumulate: the total effect on the output can be as large as ε × d, where d is the input dimensionality"
+    - "Because neural networks only process a small subset of input dimensions at a time"
+    - "Because ε-perturbations happen to target the most important pixels as identified by the gradient"
+  answer: 1
+  explanation: "The insight behind FGSM is that neural networks behave approximately linearly in high-dimensional spaces. A perturbation of ε per dimension looks tiny locally, but across d ≈ 150,000 dimensions (a typical image), the cumulative dot product with the model's gradient can reach ε × d — a potentially large effect on the output logits. This is why the attack works even when no individual perturbation is perceptible: the damage accumulates across the whole input vector."
+
+- question: "Adversarially trained models typically achieve lower accuracy on clean, unperturbed test images than models trained without adversarial examples."
+  type: true-false
+  answer: true
+  explanation: "This is the robustness-accuracy tradeoff, and it appears to be fundamental rather than a solvable engineering challenge. Adversarial training forces the model to rely on more robust, semantically meaningful features — but those features may not be as predictive as the brittle statistical patterns in pixel values that a standard model learns. The result is a consistent drop of several percentage points on clean accuracy, reflecting a genuine tension between performance on natural inputs and resistance to adversarial perturbations."
+
+- question: "An adversarial perturbation must be visible to the human eye in order to reliably fool a state-of-the-art neural network classifier."
+  type: true-false
+  answer: false
+  explanation: "The alarming finding is that highly effective adversarial perturbations can be imperceptible — invisible to human observers yet reliably causing misclassification. FGSM and PGD construct perturbations bounded in the L∞ or L2 norm to keep changes small per pixel while maximizing the effect on model outputs. The gap between human perception and model perception is precisely what makes adversarial examples so consequential for safety-critical applications."
+
+- question: "Explain why high-dimensional input spaces make neural networks particularly vulnerable to adversarial perturbations, even when those perturbations are small in any single dimension."
+  type: short-answer
+  answer: "Neural networks behave approximately linearly in high-dimensional spaces. A perturbation of ε per input dimension may be imperceptible, but when the network computes the dot product of this perturbation with its weight vectors across all d dimensions, the total contribution can be as large as ε × d. For images with ~150,000 dimensions, this is enormous. FGSM exploits this by choosing the perturbation direction that maximizes this dot product — adding ε in the direction of the sign of the gradient of the loss with respect to each input pixel. The problem is not a bug that better training can fully fix; it reflects a structural property of high-dimensional geometry."
+  explanation: "The key is the distinction between local and global effects. Each perturbation is tiny locally (below human perceptual threshold), but the model's output is a function of all dimensions simultaneously. Accumulation across many dimensions converts a small perturbation into a large change in the output. This is also why robustness doesn't come for free: making a model robust requires it to learn features that are genuinely invariant to these perturbations, which conflicts with maximizing accuracy on clean data."
+```
+
 ## Explainer
 
 From supervised learning, you know that neural networks learn to map inputs to outputs by finding patterns in training data. A well-trained image classifier might achieve 95% accuracy on test images — but what happens if you take a correctly classified image of a panda and add a tiny, carefully computed perturbation that is invisible to the human eye? The network confidently classifies it as a gibbon. This perturbed input is an **adversarial example**, and its existence reveals something fundamental about how neural networks represent the world.

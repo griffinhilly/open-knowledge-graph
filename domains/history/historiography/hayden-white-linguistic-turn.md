@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Hayden White's *Metahistory* (1973) argued that historical narratives are not neutral representations of the past but constructed narratives shaped by implicit narrative structures (romance, tragedy, comedy, satire) and ideological commitments. White demonstrated that historians make meaning through narrative form itself, forcing a reckoning with how history is 'emplotted' and the active role of historical writing in creating historical meaning.
 
+## Questions
+
+```yaml
+- question: "Two historians, both using the same documented facts about the Bolshevik Revolution, produce radically different accounts. One portrays it as a tragedy of idealism corrupted by power; the other as a heroic uprising that established a new social order. According to Hayden White, what best explains this difference?"
+  type: multiple-choice
+  options:
+    - "One historian has made factual errors — accurate use of the evidence would produce the same narrative"
+    - "The historians have different emplotments — they organized the same facts into different narrative forms that carry different meanings independent of factual accuracy"
+    - "One historian is politically biased while the other is objective — good historical method eliminates emplotment choices"
+    - "The facts themselves are ambiguous, so the difference reflects genuine uncertainty in the historical record"
+  answer: 1
+  explanation: "White's central argument is that emplotment — the choice of narrative form — is prior to the evidence. The same facts can be organized into tragedy, romance, comedy, or satire, and the choice of form shapes what the story means. This is not about factual error or bias in the pejorative sense — both historians may be using the same accurate facts. The difference lies in the narrative structure imposed on them. Option A assumes that correct evidence produces one correct story; option C conflates White's formal analysis with simple bias critique; option D addresses evidential uncertainty, which is a separate problem."
+
+- question: "White argued that emplotment is 'prior to the evidence.' What does this mean?"
+  type: multiple-choice
+  options:
+    - "Historians must gather all evidence before writing, so evidence comes before narrative in time"
+    - "The narrative form a historian chooses cannot be derived from or required by the historical facts — the same facts are compatible with multiple incompatible narrative structures"
+    - "Historians who choose the wrong narrative form will find the evidence fails to support their argument"
+    - "Emotional and ideological commitments precede evidence-gathering in the psychology of individual historians"
+  answer: 1
+  explanation: "White's claim is logical, not primarily psychological. He is not saying historians emotionally commit before looking at evidence (though he notes ideological influences); he is saying that the relationship between facts and narrative form is one of underdetermination. No set of historical facts compels one emplotment rather than another — a tragic account of the French Revolution is no more or less 'supported' by the evidence than a romantic or satirical one. The choice of form goes beyond what the evidence requires, which is why different historians can use the same facts and produce narratives with incompatible meanings."
+
+- question: "Hayden White claimed that historical narratives are fictions and therefore cannot be meaningfully distinguished from novels."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misreading of White. He did not claim history IS fiction — he claimed history shares narrative strategies with literature (emplotment, rhetorical tropes, ideological commitments) that historians had not examined. Historical writing is constrained by evidence in ways novels are not. White's point was that form shapes meaning even in evidence-constrained writing, not that evidence is irrelevant. He explicitly rejected the conflation of history with fiction that his critics attributed to him."
+
+- question: "A reader following White's approach should attend not only to the explicit argument and evidence in a historical text, but also to the narrative structure the historian has chosen, since that structure encodes meaning independently of the stated argument."
+  type: true-false
+  answer: true
+  explanation: "This is precisely White's practical implication. If the same events can be emplotted as tragedy or romance, the historian's choice reveals their interpretive orientation — what they find significant, what they consider the key forces, what resolution they think the period achieved. Reading 'against the grain' of the narrative form can expose assumptions that the explicit argument never states. Asking 'what emplotment has been used here, and what would the story look like under a different form?' is the critical practice White's work enabled."
+
+- question: "What is 'emplotment' in White's sense, and why does he claim it is irreducible to simply 'reporting what happened'?"
+  type: short-answer
+  answer: "Emplotment is the act of organizing historical events into a coherent narrative structure — romance, tragedy, comedy, or satire — that gives them a particular meaning and direction. White claims it is irreducible to reporting because narrative structure is not contained in the historical events themselves. Events do not come pre-packaged with beginnings, middles, and endings; no set of facts dictates whether the story is a triumph or a fall. The historian imposes this structure, and two historians using the same facts can produce narratives with fundamentally different meanings depending on which narrative form they choose."
+  explanation: "The philosophical point is that meaning in narrative arises from form as much as from content. A list of facts has no narrative meaning; organizing them into a story requires choices that go beyond the facts — choices about who the protagonist is, what the key turning point was, whether the ending is resolution or catastrophe. White's contribution was showing that historians make these choices constantly, and that those choices reflect moral and political commitments even when the historian believes they are simply following the evidence."
+```
+
 ## Explainer
 
 From your study of historiography and historical narrative, you know that historians don't just discover facts — they organize them into stories with beginnings, middles, and ends. Hayden White's central insight was that this organizational act is not neutral. When a historian chooses to tell the story of the French Revolution as a tragedy, a triumph, a descent into chaos, or a necessary rupture, they are making a formal choice about narrative structure — and that formal choice shapes what the story *means*, independent of the accuracy of the individual facts assembled within it.

@@ -31,6 +31,45 @@ Research the publication and critical reception history of a now-canonical work 
 ## Common Misconceptions
 Canon formation is not a conspiracy, though power relations are real. It results from complex interactions between market forces, institutions, social movements, and taste. Recognizing the canon as constructed does not negate its value—it means the value is contingent and contested.
 
+## Questions
+
+```yaml
+- question: "A student argues: 'Shakespeare is in the canon because his plays are simply the greatest literature ever written — the judgment is based on aesthetic quality alone, not institutional power.' How would a canon formation scholar respond?"
+  type: multiple-choice
+  options:
+    - "The scholar would agree: aesthetic quality is the primary driver of canonical status, and Shakespeare's quality is genuinely exceptional"
+    - "The scholar would note that Shakespeare's canonical status was consolidated through centuries of critical attention, university curricula, and cultural investment — and that these institutional forces shaped what counts as 'quality' as much as any intrinsic property of the plays"
+    - "The scholar would argue that Shakespeare should be removed from the canon because his work reflects patriarchal and colonial ideology"
+    - "The scholar would distinguish Shakespeare's quality (real and independent) from his canonical status (historical), treating them as entirely separate questions"
+  answer: 1
+  explanation: "Canon formation scholars do not deny Shakespeare has literary merit — but they argue that the judgment of merit is not separable from the historical conditions that produced it. Shakespeare's status was not settled in 1600; it was constructed over centuries through waves of critical commentary, theatrical revivals, university adoption, and cultural canonization. Those institutions shaped what features of literature are valued — the very criteria of 'quality.' The point is not 'Shakespeare is overrated' but 'our judgment of Shakespeare is a historical achievement, not an eternal truth.' Quality and canonization are entangled, not independent."
+
+- question: "The Canon Wars of the 1980s–1990s in literary studies primarily challenged:"
+  type: multiple-choice
+  options:
+    - "The idea that any texts should be taught in universities, in favor of purely theoretical approaches"
+    - "The specific choice of which authors were included, while accepting that a stable, value-neutral canon was possible in principle"
+    - "The premise of the canonical list itself — that literary value can be separated from the historical conditions that produced both the text and the judgment of its value"
+    - "The quality of translations of non-Western texts, arguing that better translations were the path to a more inclusive canon"
+  answer: 2
+  explanation: "The Canon Wars were deeper than a debate about adding diverse texts to an existing list. They challenged whether 'the canon' as a concept — a stable, authoritative list of great literature — was coherent without reference to power and history. New Historicism argued that literary value is historically contingent. Feminist criticism showed that women writers had been systematically excluded and recovered many who had been forgotten. Postcolonial criticism demonstrated the Eurocentrism embedded in the organizing categories. The challenge was to the legitimacy of the canonical premise, not just its current membership."
+
+- question: "Recognizing that the Western literary canon was shaped by racial, gender, and institutional biases means that canonical works like Shakespeare and Austen have no genuine literary value — their prestige is purely ideological."
+  type: true-false
+  answer: false
+  explanation: "This is the most important misconception to correct. Identifying how the canon was formed does not automatically negate the value of canonical works — it contextualizes and complicates that value. A work can have real literary richness AND have been elevated partly for ideological reasons; these are not mutually exclusive. Understanding formation means reading both the text and its reception with critical awareness, not dismissing the text. The value becomes contingent and contested rather than absolute — which is a more accurate description of how literary value works, not a denial of value."
+
+- question: "A work can be absent from the Western literary canon not because of its literary quality but because the institutions with canonical authority systematically overlooked or devalued its tradition."
+  type: true-false
+  answer: true
+  explanation: "This is the core empirical claim of canon formation theory, supported by historical evidence. The recovery of women writers by feminist critics — finding writers like Zora Neale Hurston or Kate Chopin who had been 'lost' despite their quality — demonstrated that exclusion was not a judgment on literary merit but a product of who controlled canonical institutions. The Harlem Renaissance was marginalized in mid-century curricula not because of its quality but because its tradition was not valued by predominantly white, male gatekeepers. Quality and institutional judgment are distinct, and one can fail to track the other."
+
+- question: "How does understanding the process of canon formation change the way a critical reader engages with a canonical text? And with a non-canonical text?"
+  type: short-answer
+  answer: "For a canonical text, understanding formation adds a layer of inquiry: you read it for its literary qualities AND you ask why it has been a site of sustained cultural investment — what it has been made to mean across different historical periods, whose interests its canonization has served, and what ideological work its elevation has done. For a non-canonical text, understanding formation means you don't automatically defer to its exclusion as evidence of lesser value — instead, you ask why it was excluded, whose interests were served by that exclusion, and what the work might offer that canonical judgment overlooked. The critical reader treats both inclusion and exclusion as historical facts requiring explanation rather than neutral aesthetic verdicts."
+  explanation: "The constructivist position does not produce nihilism about literary value — it produces a more historically aware form of reading. The difference is between 'Shakespeare is great because he always was' (ahistorical) and 'Shakespeare has been made great through specific historical processes, and his greatness is partly constituted by those processes' (historicist). The second position allows you to appreciate canonical works while also questioning which aspects have been canonized and why — and to recover or appreciate non-canonical works on their own terms rather than through the lens of what the canon has valued."
+```
+
 ## Explainer
 
 From your study of literary criticism, you already know that reading practices are not neutral—New Historicism asks you to locate texts in their social and political contexts rather than treating them as timeless monuments. Canon formation applies that same skepticism to a prior question: which texts get studied at all? The canon is not the set of all great literature; it is a historically contingent list assembled, maintained, and contested by specific institutions with specific interests.

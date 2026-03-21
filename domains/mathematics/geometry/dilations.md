@@ -34,6 +34,45 @@ Draw a figure and its dilation from a center point using rays and a scale factor
 - Assuming dilations are always centered at the origin.
 - Confusing dilation (changes size) with translation (changes position).
 
+## Questions
+
+```yaml
+- question: "Triangle ABC is dilated by scale factor k = −2 from the origin. Which statement correctly describes the image?"
+  type: multiple-choice
+  options:
+    - "The image is congruent to the original — a scale factor of 2 means equal-sized figures"
+    - "The image is twice as large and appears rotated 180° around the origin"
+    - "The image is half as large and reflected over the x-axis"
+    - "The image is congruent and reflected, since the negative sign creates a reflection without size change"
+  answer: 1
+  explanation: "A negative scale factor combines scaling and reflection through the center. |k| = 2 doubles each point's distance from the origin, so the image is twice as large — similar to, not congruent with, the original. The negative sign places every image point on the opposite side of O from its preimage, producing a 180° rotation effect. Option 0 confuses magnitude with congruence. Option 2 has the size backwards (|−2| = 2, not 1/2). Option 3 incorrectly claims congruence."
+
+- question: "Point P is 5 units from the center of dilation. After a dilation with k = 3/4, how far is P' from the center, and what happened to the angle measure at P?"
+  type: multiple-choice
+  options:
+    - "P' is 15/4 units from center; the angle at P decreased proportionally"
+    - "P' is 15/4 units from center; the angle at P is unchanged"
+    - "P' is 20/3 units from center; the angle at P is unchanged"
+    - "P' is 20/3 units from center; the angle at P increased proportionally"
+  answer: 1
+  explanation: "Distance from the center scales by |k|: 5 × 3/4 = 15/4. But dilations preserve ALL angle measures — this is the defining property that makes the image similar to the preimage. The common misconception is that scaling changes angles proportionally; it does not. Angles are invariant under dilation precisely because both coordinate axes scale by the same factor k, keeping the ratio that determines any angle constant."
+
+- question: "A dilation always changes the position of a figure in the plane."
+  type: true-false
+  answer: false
+  explanation: "When k = 1, every point P maps to P' such that OP' = 1 · OP — meaning P' = P for every point. The figure is unchanged in position and size. So a dilation with k = 1 is the identity transformation. A dilation also does not change the position of any point that lies at the center of dilation (it maps to itself for any k). 'Always changes position' is too strong a claim."
+
+- question: "After a dilation, the sides of the image figure are parallel to the corresponding sides of the preimage."
+  type: true-false
+  answer: true
+  explanation: "Dilations preserve angle measures. Since the angle each side makes with any reference direction is an angle measure, corresponding sides maintain the same orientation — they are parallel (or collinear if the center lies on the side). This is a consequence of the uniform scaling of both coordinate axes: the direction of each side (rise over run) is unchanged by k."
+
+- question: "Why does a dilation produce a similar figure rather than a congruent one, and under what condition would the image be congruent to the preimage?"
+  type: short-answer
+  answer: "A dilation scales all distances from the center by |k|, changing the figure's size while preserving all angle measures. Equal angles and proportional sides is the definition of similarity, not congruence. The image is congruent only when |k| = 1 — either k = 1 (identity, no change) or k = −1 (a point reflection through the center that preserves distances while reflecting through the center)."
+  explanation: "The key distinction is that congruence requires preserving distances AND angles, while similarity only requires preserving angles (distances may scale). A dilation with |k| ≠ 1 specifically changes the scale, which is why it produces similarity. This is why dilations are the 'missing transformation' in the similarity story: rigid motions give congruence; rigid motions plus dilation give the full family of similarity transformations."
+```
+
 ## Explainer
 
 You already know that similar triangles have equal angles and proportional sides — one is a scaled version of the other. A **dilation** is the transformation that makes this precise: it's the exact geometric operation that produces similarity. Given a **center of dilation** O and a **scale factor** k, every point P moves to a new point P' such that O, P, and P' are collinear, and OP' = k · OP. The point travels along the ray from O through P, stopping at k times its original distance from O. When k = 2, every point doubles its distance from O; the figure doubles in size but keeps its exact shape.

@@ -31,6 +31,45 @@ Take one vegetable — broccoli is ideal — and cook it four ways: roast, steam
 - Raw vegetables are always more nutritious — cooking increases the bioavailability of certain nutrients; for example, cooked tomatoes release significantly more lycopene than raw ones.
 - All vegetables should be cooked the same amount of time — dense vegetables like carrots need far longer than tender ones like spinach; adding them to the pan at different times ensures everything finishes together.
 
+## Questions
+
+```yaml
+- question: "You want to serve bright green, crisp-tender green beans in a cold salad. Which cooking method best achieves this?"
+  type: multiple-choice
+  options:
+    - "Roasting at 400°F until caramelized edges appear"
+    - "Steaming until fully tender"
+    - "Blanching followed immediately by an ice bath"
+    - "Sautéing in butter until softened"
+  answer: 2
+  explanation: "Blanching (brief boiling) sets the vivid green color and crisp-tender texture, then the ice bath immediately stops cooking before the beans over-soften. This two-stage process is specifically designed for green vegetables that will be served cold or at room temperature. Roasting would dry and brown them; full steaming would make them too soft; sautéing adds fat and heat inappropriate for a cold salad."
+
+- question: "A friend argues: 'Raw broccoli is always healthier than cooked broccoli because cooking destroys vitamins.' Which response is most accurate?"
+  type: multiple-choice
+  options:
+    - "Correct — raw vegetables always retain more nutritional value than cooked ones"
+    - "Cooking always destroys more nutrients than it creates, so raw is systematically better"
+    - "It depends on the nutrient and method — cooking can increase bioavailability of some nutrients"
+    - "Only boiling destroys nutrients; steaming and roasting preserve them perfectly"
+  answer: 2
+  explanation: "The 'raw is always better' claim is a common misconception. Cooking increases the bioavailability of certain nutrients — cooked tomatoes, for instance, release significantly more lycopene than raw ones. The method matters enormously: steaming preserves water-soluble vitamins better than boiling because the vegetables don't contact water, while boiling leaches vitamins C and folate into the cooking water. The correct answer requires understanding both the nutrient and the cooking medium."
+
+- question: "Steaming preserves more water-soluble vitamins than boiling because the vegetables never contact the cooking water."
+  type: true-false
+  answer: true
+  explanation: "Water-soluble vitamins like vitamin C and folate leach directly into water. In boiling, the vegetables are submerged in water and those vitamins leave the vegetable and enter the cooking liquid (which is usually discarded). Steaming keeps vegetables above the water in a saturated steam environment — they cook without direct water contact, so water-soluble vitamins stay in the vegetable. This is the primary nutritional advantage of steaming over boiling."
+
+- question: "When roasting vegetables, crowding them together on the pan is acceptable as long as they are coated with oil."
+  type: true-false
+  answer: false
+  explanation: "Crowding is one of the most common roasting mistakes. When vegetables are packed together, they trap moisture released during cooking and essentially steam in each other's vapor rather than roasting. The result is pale, soft vegetables instead of caramelized, crispy ones. Oil helps with browning, but only if the vegetables have enough space and hot dry air circulating around them. A spaced-out single layer is essential."
+
+- question: "Why does cutting vegetables to uniform size matter specifically for roasting, and what goes wrong when pieces vary significantly in size?"
+  type: short-answer
+  answer: "Uniform cutting ensures all pieces reach doneness at the same time. Smaller pieces will over-caramelize or burn while larger ones are still raw in the center. Roasting relies on even heat penetration through a similar thickness and surface area across all pieces simultaneously. Uneven cuts mean you cannot set a single roasting time that works for every piece."
+  explanation: "This is a practical application of understanding how heat transfer works: smaller surface area-to-volume ratio means more time needed to cook through. Since you can't pull individual pieces from the oven at different times when they're all on the same tray, uniformity at the prep stage is the control mechanism for uniformity at the cooking stage."
+```
+
 ## Explainer
 
 Every cooking method for vegetables does the same fundamental thing — applying heat to break down cell walls and cook starches — but the medium that carries that heat (dry air, steam, fat, water) produces radically different results. Understanding *why* each method works gives you the ability to choose intelligently rather than just following recipe instructions, and to adapt when you don't have the exact setup a recipe calls for.

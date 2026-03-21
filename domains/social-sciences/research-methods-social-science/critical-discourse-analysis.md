@@ -30,6 +30,45 @@ Apply CDA to media representations of a marginalized group, analyze policy docum
 - CDA assumes all discourse is oppressive
 - CDA cannot be systematic or replicable
 
+## Questions
+
+```yaml
+- question: "A news outlet consistently describes worker strikes as 'militant disruption' while describing management-imposed pay freezes as 'fiscal discipline.' A CDA analyst would primarily identify this pattern as an example of what?"
+  type: multiple-choice
+  options:
+    - "Biased reporting that should be corrected to neutral language"
+    - "Naturalization — asymmetric framing that presents one side's power as normal background and the other's as deviant"
+    - "Discursive practice analysis — focusing on how the text is distributed across media channels"
+    - "Social practice level analysis — examining how industrial relations are structured institutionally"
+  answer: 1
+  explanation: "This is a textbook example of naturalization: language that presents a contingent power asymmetry (capital's authority vs. labor's resistance) as natural or common-sense. The asymmetric word choice (militant vs. disciplined) encodes a judgment that worker action is abnormal while management action is neutral. CDA makes this visible by asking what the framing would look like if the power relations were reversed. Option B (biased reporting) describes the phenomenon but misses the CDA framing — CDA's goal is to expose ideological function, not just label bias."
+
+- question: "What distinguishes Critical Discourse Analysis from ordinary content analysis or political commentary on texts?"
+  type: multiple-choice
+  options:
+    - "CDA only analyzes spoken language, while content analysis covers written texts"
+    - "CDA links systematic textual analysis to social power structures through a layered framework, with transparent normative commitments"
+    - "CDA claims to be value-neutral, while political commentary is explicitly partisan"
+    - "CDA focuses exclusively on the social practice level, ignoring grammatical features of texts"
+  answer: 1
+  explanation: "CDA combines systematic textual analysis (grammatical patterns, word choice, metaphor counts) with analysis of discursive practice (production and circulation of texts) and social practice (power structures and ideological formations). Unlike mere political commentary, CDA builds an evidence-anchored argument connecting observable textual features to social consequences. Unlike value-neutral content analysis, CDA is transparent about its normative commitments — it aims to expose and challenge relations of domination while showing its interpretive moves clearly enough for others to evaluate them."
+
+- question: "CDA assumes that all language use reproduces oppression and serves dominant power interests."
+  type: true-false
+  answer: false
+  explanation: "This is one of the listed common misconceptions about CDA. CDA treats discourse as a site of *struggle* — language can reproduce inequality but also resist it. Dominated groups use language to challenge power, subvert dominant frames, and articulate counter-narratives. CDA analyzes both how language entrenches power and how it can be used to contest it. Assuming all discourse is oppressive would actually undermine CDA's political project, which depends on the possibility of critical, emancipatory discourse."
+
+- question: "Naturalization in CDA refers to how language presents historically contingent power arrangements as obvious, inevitable, or common-sense."
+  type: true-false
+  answer: true
+  explanation: "Naturalization is the core concept distinguishing CDA from ordinary textual criticism. Power arrangements are always historically produced and contingent — they came into being and could be otherwise — but hegemonic discourse presents them as natural facts. When policy documents describe market competition as 'natural' or welfare recipients as inherently 'dependent,' they are naturalizing a particular social order. CDA's analytic task is precisely to de-naturalize: to show the historical and political construction of what appears obvious, thereby opening it to challenge."
+
+- question: "What is 'naturalization' in CDA, and why is exposing it the central analytic task rather than simply identifying 'biased' language?"
+  type: short-answer
+  answer: "Naturalization is the process by which language presents historically produced, contingent power arrangements as inevitable, neutral, or common-sense — making them appear to be facts of nature rather than outcomes of social struggle. Identifying 'bias' merely notes that a text favors one side; exposing naturalization shows how the text makes that favoritism invisible by embedding it in seemingly neutral framing. CDA's goal is not just to point out unfairness but to demonstrate the mechanism by which discourse reproduces power: by encoding particular social relations as the unquestioned background against which events are interpreted."
+  explanation: "The distinction matters analytically because 'bias' suggests a correctable deviation from neutral reporting, implying neutral language is possible. CDA holds that all language positions subjects and encodes assumptions about normalcy — the question is always whose assumptions are treated as the default. Naturalization analysis makes this structuring function visible, which is why it is the analytic core rather than a peripheral concern."
+```
+
 ## Explainer
 
 From your work on Foucauldian discourse analysis, you understand that discourse is not merely language — it is a system of knowledge-power that determines what can be said, by whom, and with what authority. **Critical Discourse Analysis (CDA)** builds on this foundation but adds an explicitly political dimension: it treats language as a site of struggle over meaning, asking not just what discourses exist but who benefits from them and whose interests they serve. Where Foucauldian analysis tends to map the architecture of discourse across historical time, CDA focuses on concrete texts — a news article, a policy document, a speech — and reads them for the ideological work they do.

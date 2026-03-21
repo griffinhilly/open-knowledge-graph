@@ -30,6 +30,45 @@ Practice each operation separately, then mix them. For multiplication, emphasize
 - Thinking (a + bi)^2 = a^2 + b^2 (it is a^2 + 2abi - b^2).
 - Confusing |a + bi| with a + b.
 
+## Questions
+
+```yaml
+- question: "What is the result of (2 + 3i)(1 − i)?"
+  type: multiple-choice
+  options:
+    - "5 + i"
+    - "2 − 2i"
+    - "2 + i"
+    - "−1 + 5i"
+  answer: 0
+  explanation: "Using FOIL: (2 + 3i)(1 − i) = 2 − 2i + 3i − 3i². Replacing i² with −1 gives 2 − 2i + 3i + 3 = 5 + i. Option B is the classic error of leaving i² unreplaced — if a student treats i² as just i, the last term becomes −3i and they get 2 − 2i. The substitution i² = −1 is the single rule that makes complex multiplication work; skipping it produces a result that still contains i², which is not simplified."
+
+- question: "What is (3 + i) ÷ (1 + 2i)?"
+  type: multiple-choice
+  options:
+    - "1 − i"
+    - "3 − i"
+    - "(1 + 7i)/5"
+    - "(5 − 5i)/3"
+  answer: 0
+  explanation: "Multiply numerator and denominator by the conjugate (1 − 2i): numerator = (3 + i)(1 − 2i) = 3 − 6i + i − 2i² = 3 − 5i + 2 = 5 − 5i; denominator = 1² + 2² = 5. Result: (5 − 5i)/5 = 1 − i. Option C results from multiplying by (1 + 2i)/(1 + 2i) instead of the conjugate — the imaginary terms in the denominator add rather than cancel, so the denominator remains complex."
+
+- question: "The product of any complex number and its conjugate is always a real number."
+  type: true-false
+  answer: true
+  explanation: "(a + bi)(a − bi) = a² − (bi)² = a² − b²i² = a² + b². The imaginary parts cancel exactly because the conjugate has the opposite sign on the imaginary component. This is the difference-of-squares pattern applied to complex numbers, and it is precisely why multiplying by the conjugate is the standard strategy for dividing complex numbers."
+
+- question: "The modulus of 3 + 4i is 7."
+  type: true-false
+  answer: false
+  explanation: "The modulus |a + bi| = √(a² + b²), not a + b. For 3 + 4i: |3 + 4i| = √(9 + 16) = √25 = 5. The common error is adding the real and imaginary parts directly (3 + 4 = 7), but the modulus is the Pythagorean distance from the origin to the point (3, 4) in the complex plane — the two components are legs of a right triangle, and the modulus is the hypotenuse."
+
+- question: "Why does multiplying both the numerator and denominator of a complex fraction by the conjugate of the denominator allow you to simplify the result?"
+  type: short-answer
+  answer: "Multiplying a complex number by its conjugate eliminates the imaginary part: (a + bi)(a − bi) = a² + b², a real number. Applying this to the denominator converts the divisor from a complex number to a real number, making ordinary division straightforward. Multiplying both numerator and denominator by the same expression preserves the value of the fraction (you are multiplying by 1 in the form conjugate/conjugate), so only the form changes."
+  explanation: "The key is the identity (a + bi)(a − bi) = a² + b². Once the denominator is real, you can divide the numerator's real and imaginary parts separately by that real number. This is not a trick but a direct application of the difference-of-squares pattern, which guarantees that the cross terms (involving i) always cancel when you multiply conjugate pairs."
+```
+
 ## Explainer
 
 Complex arithmetic follows exactly the same rules as polynomial arithmetic over the reals — the only difference is the single reduction rule i² = -1. Once you internalize that, complex arithmetic stops feeling special and starts feeling routine. Think of a + bi as a polynomial in i of degree 1, and every operation you learned for polynomials applies directly, with one extra simplification step at the end.

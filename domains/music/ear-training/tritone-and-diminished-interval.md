@@ -32,6 +32,45 @@ Sing a tritone (B to F in C major) and listen to its isolated, unsettling qualit
 - The tritone doesn't appear in common diatonic music (it forms the core of the dominant seventh chord, one of the most common harmonic structures).
 - All diminished intervals sound identical (diminished thirds and fourths/fifths each have distinctive qualities).
 
+## Questions
+
+```yaml
+- question: "In C major, the G7 chord contains a tritone. Which two notes form it, and what happens in the resolution to C major?"
+  type: multiple-choice
+  options:
+    - "G and D; they move by step outward to F and E"
+    - "B and F; B resolves up by half step to C, and F resolves down by half step to E"
+    - "G and F; G stays on G while F moves down to E"
+    - "B and F; both resolve to the same note, C"
+  answer: 1
+  explanation: "The tritone in G7 is between B (the third of G7, functioning as leading tone in C major) and F (the seventh of G7). These two notes resolve in opposite directions by half step — B moves up to C, F moves down to E — contracting inward toward the third and root of C major. This contrary half-step motion is precisely what makes the dominant seventh so strongly directed toward the tonic, and learning to hear it is the key to understanding dominant function."
+
+- question: "A student says: 'I won't hear many tritones in Baroque music because composers avoided that dissonance.' What is wrong with this claim?"
+  type: multiple-choice
+  options:
+    - "Baroque composers embraced all dissonance and never avoided any interval"
+    - "The tritone is the defining interval of the dominant seventh chord, one of the most common harmonies — Baroque music is saturated with tritones"
+    - "Tritones only appear in unaccompanied Baroque melodies, not in harmonized music"
+    - "The tritone was considered a consonance in the Baroque period"
+  answer: 1
+  explanation: "This is the most common misconception about the tritone: that its dissonance caused composers to avoid it. In fact, the dominant seventh chord (V7) — which contains a tritone between its third and seventh — is one of the most ubiquitous harmonies in all tonal music precisely because its tension resolves so compellingly to the tonic. Baroque composers exploited this constantly. The tritone's 'dissonance' is functional: it creates the tension that drives harmonic motion."
+
+- question: "The augmented fourth (e.g., C up to F#) and the diminished fifth (e.g., C up to Gb) sound different from each other because they are distinct interval qualities."
+  type: true-false
+  answer: false
+  explanation: "Both span exactly 6 semitones — they are enharmonically equivalent. On any equal-tempered instrument, they are acoustically identical. They differ in spelling (which affects how they are notated within a harmonic context and how they resolve) but not in sound. A student who expects them to sound different on the piano will be confused; the difference between augmented fourth and diminished fifth is harmonic context and notation, not pitch content."
+
+- question: "The tritone's distinctive restless quality comes partly from its position: it divides the octave exactly in half, giving it a symmetry that makes it point equally in two directions."
+  type: true-false
+  answer: true
+  explanation: "The tritone is 6 semitones — exactly halfway between unison (0) and octave (12). This symmetry means there is no acoustic pull toward either note being a 'root' or resting point; the interval could resolve in two directions with equal logic. In tonal music, key context and chord function supply the directional resolution the interval alone lacks, which is why the tritone sounds expectant and unresolved rather than merely harsh."
+
+- question: "Why is the tritone central to understanding dominant function in tonal music?"
+  type: short-answer
+  answer: "The dominant seventh chord (V7) contains a tritone between its third (the leading tone) and its seventh. These two notes are under opposing tension: the leading tone pulls upward by half step toward the tonic, while the chordal seventh pulls downward by half step. When they both resolve simultaneously — by contrary motion — they create the tonic chord's root and third. The tritone's inherent instability and the resolving tendency of both its notes give V7 its powerful, almost inevitable pull toward I."
+  explanation: "The connection between the tritone interval and dominant function is the core insight of this topic. Students often memorize that V7 resolves to I without understanding why. The answer is the tritone: two notes under tension that resolve by contrary half-step motion, contracting inward. Once you hear the tritone as the engine of V7 → I motion — and can identify it in both melodic and harmonic contexts — you have internalized harmonic function at a structural level."
+```
+
 ## Explainer
 
 You already know how to identify intervals by ear and understand the difference between perfect, major, minor, augmented, and diminished qualities. The **tritone** is the single most distinctive interval in Western music: six semitones wide, it sits exactly halfway between the unison and the octave. Because it divides the octave perfectly in half, it has a uniquely ambiguous, floating quality — unlike a perfect fifth (which sounds stable and rooted) or a minor second (which sounds harsh and clashing), the tritone sounds restless and suspended, pointed in two directions at once.

@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Dopamine neurons in the ventral tegmental area and substantia nigra encode reward prediction errors and motivation. The mesolimbic pathway (VTA to nucleus accumbens) drives reward-seeking; the mesocortical pathway (VTA to prefrontal cortex) supports goal-directed decision-making. Dopamine doesn't directly code pleasure but rather incentive salience—the 'wanting' for rewarding stimuli. This system is hijacked by drugs of abuse, creating addiction.
 
+## Questions
+
+```yaml
+- question: "A rat's dopamine neurons are recorded while it learns that a tone reliably predicts food. After many training trials, which firing pattern is observed when the tone sounds and when food arrives?"
+  type: multiple-choice
+  options:
+    - "Dopamine neurons fire strongly at food delivery throughout training, because food is pleasurable"
+    - "Dopamine neurons shift their response to fire at the tone and no longer burst when food arrives, because the reward is now fully predicted"
+    - "Dopamine neurons stop firing entirely once the association is learned, since updating is complete"
+    - "Dopamine neurons fire equally at both the tone and food delivery, encoding the full reward sequence"
+  answer: 1
+  explanation: "This is the classic Schultz reward prediction error finding. Early in training, dopamine neurons fire at food delivery (unexpected reward). As learning proceeds, the response shifts backward to the predictive cue (the tone) — the earliest reliable signal of reward. Simultaneously, the response to food delivery disappears, because the reward is now fully predicted and the prediction error is zero. Dopamine encodes the discrepancy between expected and actual outcomes, not pleasure itself. A predicted reward produces no dopamine burst even though the hedonic experience still occurs."
+
+- question: "A person in addiction treatment reports intense cravings for a drug whose subjective high has become much weaker after years of use. Which aspect of dopamine neuroscience best explains this paradox?"
+  type: multiple-choice
+  options:
+    - "Their dopamine system has been destroyed by drug use, and they crave the drug to restore normal dopamine baseline"
+    - "Wanting (dopamine-mediated incentive salience) and liking (opioid-mediated hedonic pleasure) can be dissociated — the motivational system remains strongly trained toward drug cues even as hedonic response diminishes"
+    - "The mesocortical pathway has been suppressed, eliminating the ability to find reward in other activities"
+    - "Repeated drug use causes dopamine neurons to require ever-larger doses to fire, directly causing escalating craving"
+  answer: 1
+  explanation: "The wanting/liking dissociation is the key. 'Wanting' — incentive salience, the motivational pull — is dopamine-dependent and centered in the mesolimbic pathway (VTA → nucleus accumbens). 'Liking' — hedonic pleasure — depends more on opioid and endocannabinoid systems within the nucleus accumbens. Drugs of abuse massively amplify dopamine signaling, training the mesolimbic system with exaggerated prediction errors. Drug-associated cues become powerful dopamine triggers for wanting even as tolerance reduces hedonic response. The motivational system is working exactly as designed — it has simply been trained by pharmacologically amplified signals to treat drug cues as the highest-priority stimuli."
+
+- question: "Dopamine neurons encode pleasure directly — they fire more when an experience is more pleasurable and less when it is less pleasurable."
+  type: true-false
+  answer: false
+  explanation: "This is the most pervasive misconception about dopamine. Dopamine neurons encode reward prediction errors — the discrepancy between expected and actual reward — not pleasure. A fully predicted reward produces no dopamine burst even though the hedonic experience still occurs. An unexpected reward triggers dopamine firing even if small. Actual pleasure is mediated primarily by opioid and endocannabinoid systems within the nucleus accumbens. Dopamine is the 'wanting' signal (incentive salience); the 'liking' signal (hedonic value) is a separate system. The two can be dissociated pharmacologically and behaviorally."
+
+- question: "The mesolimbic dopamine pathway (VTA → nucleus accumbens) and the mesocortical pathway (VTA → prefrontal cortex) originate from the same brain region but serve functionally distinct roles in reward-related behavior."
+  type: true-false
+  answer: true
+  explanation: "Both pathways arise from dopamine neurons in the ventral tegmental area (VTA) but project to different destinations and serve distinct functions. The mesolimbic pathway (VTA → nucleus accumbens) drives approach behavior and reinforcement learning — it stamps in 'do more of this' associations and generates the motivational pull toward rewards. The mesocortical pathway (VTA → prefrontal cortex) supports working memory, planning, and goal-directed decision-making. Disrupting each produces different clinical pictures: mesolimbic disruption impairs motivation and reinforcement; mesocortical disruption impairs executive function and planning."
+
+- question: "What is a reward prediction error (RPE), and why is it a more accurate description of what dopamine neurons encode than 'how rewarding the experience was'?"
+  type: short-answer
+  answer: "A reward prediction error is the difference between the reward actually received and the reward that was expected. Dopamine neurons fire in bursts when reward exceeds expectations (positive RPE), dip below baseline when expected reward fails to arrive (negative RPE), and show no change when reward exactly matches prediction (zero RPE). This is not the same as encoding reward magnitude: a predicted large reward produces no dopamine change at delivery, while an unexpected small reward produces a burst. The RPE framework shows dopamine is a learning signal — 'update your world model in this direction and by this amount' — not a pleasure signal."
+  explanation: "The RPE framework reveals dopamine as implementing a form of temporal difference learning — an algorithm for updating predictions based on discrepancies between expected and actual outcomes. This is why drugs that artificially flood the nucleus accumbens with dopamine are powerfully addictive: they generate large, context-free prediction errors that train the motivational system with no connection to genuinely beneficial outcomes, producing the intense, maladaptive wanting that characterizes addiction even after the hedonic response has diminished."
+```
+
 ## Explainer
 
 You already know that dopamine is a neuromodulator released in reward contexts. The key insight here is *what* dopamine actually encodes — not pleasure itself, but the discrepancy between what you expected and what you got. This is the **reward prediction error (RPE)**. When something good happens unexpectedly, dopamine neurons in the **ventral tegmental area (VTA)** fire in a burst. When something expected to be rewarding fails to materialize, dopamine dips below baseline. If everything goes exactly as predicted, dopamine does not change at all. This is not the language of pleasure — it is the language of learning: "update your model of the world."

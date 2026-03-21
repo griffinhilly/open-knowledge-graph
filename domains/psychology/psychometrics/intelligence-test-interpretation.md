@@ -30,6 +30,45 @@ Intelligence tests (Wechsler scales, Stanford-Binet, etc.) yield overall composi
 ## How It's Best Learned
 Score actual intelligence tests and compute composite scores, index scores, and subtest analyses. Practice identifying scatter patterns that are statistically significant and clinically meaningful. Compare profiles across different ability levels to understand how pathological patterns differ from normal variation.
 
+## Questions
+
+```yaml
+- question: "A practitioner administering a Wechsler instrument notices a 7-point difference between a child's Verbal Comprehension and Working Memory index scores. What is the most appropriate interpretation?"
+  type: multiple-choice
+  options:
+    - "It indicates a clinically significant strength in verbal comprehension relative to working memory"
+    - "It likely falls within measurement error and should not be interpreted as a meaningful cognitive difference"
+    - "It confirms a language-based processing advantage that should be reported as a clinical finding"
+    - "The Full Scale IQ should be discarded since the index scores differ"
+  answer: 1
+  explanation: "Subtests and index scores have imperfect reliability, so any two scores from the same battery will differ somewhat by chance. A 7-point difference typically falls within normal measurement error for Wechsler instruments. Clinicians use pre-calculated tables of reliable change differences — derived from each instrument's reliability coefficients — to determine whether an observed discrepancy exceeds chance variation at a given confidence level. Over-interpreting small differences is one of the most common interpretation errors and leads to false diagnoses."
+
+- question: "A child from an under-resourced educational environment scores 22 points lower on Verbal Comprehension than on Fluid Reasoning. A competent interpreter should consider which explanation first?"
+  type: multiple-choice
+  options:
+    - "A specific language-based learning disability is present and should be diagnosed"
+    - "Fluid Reasoning is not a valid construct for this population"
+    - "The discrepancy likely reflects differential educational opportunity and cultural loading rather than a clinical deficit"
+    - "The Full Scale IQ average of the two scores is what matters, not the index discrepancy"
+  answer: 2
+  explanation: "Cultural loading varies systematically by subtest: vocabulary and general knowledge items are highly sensitive to cultural and educational opportunity, while fluid reasoning items are somewhat less so. A large verbal-fluid discrepancy in a child from an under-resourced background may simply reflect that schooling has developed certain verbal skills less thoroughly — not a neurological deficit. Context is integral to interpretation; the score must be read against the full background of the child's history and circumstances."
+
+- question: "The Full Scale IQ is the most reliable score an intelligence battery produces because it aggregates across the broadest sample of cognitive operations, increasing its stability compared to individual subtests."
+  type: true-false
+  answer: true
+  explanation: "Reliability increases with test length — more items sampling more operations averages out item-level noise. The FSIQ or equivalent composite is therefore more stable across repeated testings and more predictive of real-world outcomes than any individual subtest or index score. When nothing else about a profile can be confidently interpreted, the composite is the most defensible anchor."
+
+- question: "When a client's test score contradicts extensive behavioral observations and functional evidence from real-world settings, a competent interpreter should trust the test score as the more objective measure."
+  type: true-false
+  answer: false
+  explanation: "Context and ecological validity are integral to interpretation, not supplementary caveats. A score reflects performance on one occasion under specific conditions. A client who is anxious, sleep-deprived, or from a cultural background that values caution over speed may produce scores that do not reflect maximum ability. A score that contradicts everything known about how a person actually functions deserves scrutiny, not blind acceptance. Test scores and broader contextual evidence must be interpreted together."
+
+- question: "Why is the Full Scale IQ more useful as an interpretive anchor than individual subtest scores, and when should a practitioner look beyond it to index or subtest profiles?"
+  type: short-answer
+  answer: "The FSIQ is more reliable because it aggregates across a broader sample of cognitive operations, averaging out the measurement error inherent in any individual subtest. It is also the most predictive of real-world outcomes. However, FSIQ aggregation can mask clinically significant variability: a child with strong verbal abilities but severely impaired processing speed may have an average FSIQ that obscures a specific learning profile with real educational implications. Index and subtest profiles become informative when discrepancies exceed statistical noise thresholds — verified against reliable change tables — and are consistent with the client's functional presentation outside the test room."
+  explanation: "This captures the core clinical tension: the composite is most defensible statistically but potentially least informative clinically. Profile analysis is powerful precisely when the composite-level interpretation would mislead treatment planning."
+```
+
 ## Explainer
 
 From intelligence test construction, you know how subtests are designed to load on latent factors, how items are calibrated, and how composite scores are derived by aggregating across component subscales. Score interpretation is the applied downstream skill: given an actual test profile, what does it tell you about this individual's cognitive abilities, and what are the limits of those inferences? The answer requires combining your understanding of standard scores, normal distributions, and the reliability principles that determine when observed differences are real.

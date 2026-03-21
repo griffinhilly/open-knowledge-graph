@@ -26,6 +26,45 @@ A premise is relevant if it provides genuine evidence for the conclusion. Releva
 ## How It's Best Learned
 Ask: 'Does this premise actually address the conclusion being argued?' For instance, 'The CEO says the product is good because she's intelligent' doesn't show the product is good. Identify what issue is being debated, then check if premises address it.
 
+## Questions
+
+```yaml
+- question: "A critic argues: 'The senator's climate bill should be rejected because the senator was convicted of tax fraud in 2015.' Even if the conviction is true, why is this premise problematic as a reason to reject the bill?"
+  type: multiple-choice
+  options:
+    - "The premise is false — the conviction doesn't actually exist"
+    - "The premise attacks the person rather than the merits of the bill, making it irrelevant to whether the bill's policy is sound"
+    - "The premise is relevant but insufficient — you'd need more evidence about the senator's character"
+    - "The premise commits a false dichotomy by suggesting only this senator could support such a bill"
+  answer: 1
+  explanation: "This is an ad hominem fallacy of relevance. The conclusion is about the bill's policy merits; the premise is about the senator's character. Even a true premise about a person's past wrongdoing doesn't tell us whether the legislation is good or bad. The bill's value depends on its actual policy effects, not on who sponsors it. Relevance requires that the premise actually bear on the question at issue — and the question here is the bill, not the senator."
+
+- question: "An opponent argues: 'Professor Chen, a Nobel laureate in physics, says that the proposed economic policy is fundamentally flawed.' Why might this appeal to authority be considered a relevance problem?"
+  type: multiple-choice
+  options:
+    - "Professor Chen is too famous to be objective about economic policy"
+    - "Nobel laureates are prohibited from commenting on topics outside their field"
+    - "Expertise in physics does not constitute relevant expertise for evaluating economic policy"
+    - "This is not a relevance problem — any distinguished expert's opinion strengthens an argument"
+  answer: 2
+  explanation: "Relevance in appeals to authority requires domain-specific expertise. A Nobel Prize in physics is evidence of exceptional competence in physics — it does not transfer to economics. The conclusion is about economic policy; the premise supplies evidence from a domain not connected to that conclusion. The diagnostic question is: would this premise still support the conclusion if we held everything else fixed? No — replacing 'Nobel laureate in physics' with 'brilliant physicist' gives equally weak support. What matters is whether the expertise is in the right domain."
+
+- question: "A premise can be completely true and still be irrelevant to the conclusion it is offered to support."
+  type: true-false
+  answer: true
+  explanation: "Truth and relevance are independent properties. A premise is true if it accurately describes the world; it is relevant if it actually bears on the question being argued. The statement 'The senator has red hair' might be entirely true but provides zero evidence for or against any policy position. Ad hominem attacks are often factually accurate — the arguer really did behave badly — yet they are irrelevant to whether the argument being made is sound. Confusing truth with relevance is one of the most common errors in informal argument evaluation."
+
+- question: "If a premise is irrelevant to a conclusion, pointing out the irrelevance automatically defeats the conclusion and shows it must be false."
+  type: true-false
+  answer: false
+  explanation: "Irrelevance of a premise defeats that premise as support for the conclusion — it does not establish that the conclusion is false. The conclusion might be true, but for entirely different reasons. If someone argues 'X is true because Y' and Y is irrelevant to X, we have shown that this particular argument fails. But X might still be true based on other evidence. Identifying a relevance fallacy clears away bad support; it doesn't settle the underlying question."
+
+- question: "Why is clearly identifying the 'question at issue' the essential first step in evaluating whether a premise is relevant to a conclusion?"
+  type: short-answer
+  answer: "Relevance is always relative to a specific question — a premise is relevant if it provides evidence about that particular dispute, not just something in the neighborhood. Without first isolating what is actually being debated, you cannot judge whether a premise addresses it or changes the subject. Premises that shift focus to the arguer's motives, emotional associations, or unrelated consequences can feel like engagement while actually dodging the question. The question at issue serves as the anchor for every relevance judgment."
+  explanation: "This is why the same premise can be relevant in one context and irrelevant in another. 'This scientist has a financial conflict of interest' is irrelevant when evaluating the logical validity of their argument, but relevant when evaluating whether to trust their reported observations. The question at issue determines which kind of evidence is appropriate. Mastering relevance evaluation means resisting the pull of emotionally compelling or true-but-misdirected premises and asking: does this actually address what we're debating?"
+```
+
 ## Explainer
 
 From your study of argument structure — premises, conclusions, and the inferential connection between them — you know that a good argument provides reasons *for* its conclusion. But "providing a reason" is not just a formal requirement; it is a substantive one. A premise can be entirely true and yet provide zero support for a particular conclusion. **Relevance** is the property a premise has when it actually bears on the question being argued.

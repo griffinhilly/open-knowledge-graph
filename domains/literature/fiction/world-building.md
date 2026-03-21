@@ -35,6 +35,45 @@ Map the world-building in a fantasy or science fiction novel at three levels: ph
 - World-building is not only for fantasy and science fiction; historical fiction and even realism involves constructing the 'rules' of a time and place.
 - Consistent internal logic matters more than resemblance to reality.
 
+## Questions
+
+```yaml
+- question: "A fantasy novelist spent weeks designing the political history of an empire that appears in the final novel only as subtle background — a family name carrying old political meaning, architecture reflecting a past regime. A reader senses the world is deep without being told why. This illustrates:"
+  type: multiple-choice
+  options:
+    - "A missed opportunity — important history should be explained directly to orient the reader"
+    - "The iceberg principle — the unseen depth of the author's research creates texture in what is visible, without requiring exposition"
+    - "Foreshadowing — the background details will be explained later in the plot"
+    - "Poor craft — relevant history should be stated clearly, not implied through details"
+  answer: 1
+  explanation: "The iceberg principle holds that most world-building should remain beneath the surface. The author's research never surfaces as direct explanation — but it gives visible scenes a density and texture that readers perceive as believability. Characters who know where they come from behave with a groundedness readers can feel. Direct exposition of the political history would slow the narrative and feel like an encyclopedia; embedded detail does the work more effectively because it doesn't announce itself as explanation."
+
+- question: "A writer pauses the narrative for four pages to explain the economic system of a fantasy city before the protagonist arrives. This is most likely an example of:"
+  type: multiple-choice
+  options:
+    - "Effective world-building that respects the reader's need for context before entering a new setting"
+    - "The iceberg principle — showing the author's deep knowledge of the world"
+    - "World-building subordinating story to encyclopedia — over-explanation that slows the narrative and signals authorial insecurity"
+    - "Necessary exposition that distinguishes professional fantasy writing from amateur work"
+  answer: 2
+  explanation: "More world-building on the page is not better — it is often worse. When narrative stops for encyclopedic entries, story is being subordinated to the world. The master technique is embedding: reveal economic systems through a transaction the character makes, what they can afford, how they speak about wealth. Readers don't need to be told the rules; they learn them through immersive experience. Stopping to explain signals the author hasn't trusted the world to speak for itself."
+
+- question: "The most effective world-building in speculative fiction reveals all of the author's research directly, so readers can fully appreciate the depth and consistency of the fictional world."
+  type: true-false
+  answer: false
+  explanation: "Effective world-building operates on the iceberg principle — the vast majority of the author's constructed knowledge should not appear directly on the page. Direct exposition of research slows narrative, undercuts immersion, and signals insecurity. The visible one-tenth of the iceberg feels real because of the nine-tenths beneath it; showing all ten-tenths destroys the effect. The craft goal is a world that feels inevitable and coherent, not one that is thoroughly documented."
+
+- question: "In world-building, internal logical consistency matters more than faithfulness to real-world physics, history, or biology."
+  type: true-false
+  answer: true
+  explanation: "Readers don't need a fictional world to follow real-world rules — they need it to follow its own rules consistently. A world with faster-than-light travel is perfectly credible if its rules apply consistently throughout the narrative. A magic system that works differently in chapter one than in chapter eight destroys reader trust regardless of how 'realistic' the magic is. The reader's implicit contract is not with reality but with the logic of this particular world. Inconsistency breaks the fictional dream; internally consistent departures from reality do not."
+
+- question: "What does the 'iceberg principle' mean in world-building, and why does the unseen portion matter even if readers never directly encounter it?"
+  type: short-answer
+  answer: "The iceberg principle holds that an author should know vastly more about their fictional world than ever appears in the text — history, geography, economics, cultural norms — but show only the visible tip that directly serves the story. The unseen portion matters because it creates texture in what is visible: characters who inhabit a fully constructed world behave with a groundedness readers perceive as authenticity, even without being able to say why. Specific details carry weight because they belong to a coherent system. Without the unseen foundation, visible details feel arbitrary and the world seems invented moment-to-moment rather than discovered."
+  explanation: "The unseen nine-tenths does not appear as exposition — it appears as the quality of what does appear. A market transaction feels real when the author understands the currency system, the class dynamics, and the political context even if none of that is stated. A character's hesitation at a border crossing resonates when the author knows the border's colonial history even if the character never thinks about it explicitly. Depth shows; it doesn't have to be explained."
+```
+
 ## Explainer
 
 You already know that setting creates atmosphere and that conflict emerges from the tensions between characters and their environment. World-building is the systematic extension of those skills: instead of locating a story within an existing reality, the author constructs the reality itself. This shifts the writer's responsibility dramatically. In realistic fiction, much is inherited — readers know how gravity, economies, social hierarchies, and biological processes work, and the author can rely on that shared knowledge. In speculative fiction, none of those defaults can be assumed. The author must decide which rules of consensus reality to keep, which to alter, and how the alterations cascade through every other element of the world.

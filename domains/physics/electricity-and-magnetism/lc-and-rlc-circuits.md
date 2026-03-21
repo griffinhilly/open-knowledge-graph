@@ -40,6 +40,45 @@ Exploit the mechanical analogy: L ↔ mass (inertia), C ↔ compliance (inverse 
 - In an ideal LC circuit, energy oscillates between electric (capacitor) and magnetic (inductor) forms — total energy is conserved.
 - The quality factor Q in circuits is different from charge Q — context determines meaning.
 
+## Questions
+
+```yaml
+- question: "In an ideal LC circuit undergoing oscillation, at the moment when the capacitor is fully charged (at maximum voltage), which statement best describes the energy state?"
+  type: multiple-choice
+  options:
+    - "All energy is stored as magnetic field energy in the inductor; current is at its peak"
+    - "All energy is stored as electric field energy in the capacitor; current through the inductor is instantaneously zero"
+    - "Energy is split equally between the capacitor and inductor at all times"
+    - "Total energy is zero because no external source is driving the circuit"
+  answer: 1
+  explanation: "When the capacitor is at maximum charge, all energy is stored as electric potential energy (U_C = Q²/2C is maximum). At this moment current is instantaneously zero, so the inductor stores no magnetic energy (U_L = ½LI² = 0). This is exactly analogous to a spring at maximum displacement: all energy is potential, and the mass (inductor / current) is momentarily stopped. As the capacitor begins to discharge, current builds in the inductor and energy transfers from electric to magnetic form."
+
+- question: "A radio receiver uses a tunable LC circuit to select stations. When ω₀ = 1/√(LC) is adjusted to match a broadcast frequency, why is that station's signal selected over others?"
+  type: multiple-choice
+  options:
+    - "At resonance the circuit's impedance is infinite, blocking all other frequencies"
+    - "At resonance, inductive and capacitive reactances cancel, leaving only resistance; impedance is minimized and the circuit draws maximum current at that frequency"
+    - "At resonance the circuit converts the electromagnetic signal to a DC voltage that can be amplified"
+    - "At resonance the quality factor Q drops to zero, eliminating frequency selectivity"
+  answer: 1
+  explanation: "At resonance, X_L = ω₀L equals X_C = 1/(ω₀C), so the reactive components cancel and total impedance is minimized (purely resistive). The signal at that frequency drives maximum current. At other frequencies, the reactances do not cancel, impedance is higher, and far less current flows. A higher Q factor means a sharper, more selective resonance peak — better discrimination between adjacent stations."
+
+- question: "In an ideal LC circuit, total electromagnetic energy is conserved; energy oscillates between the electric field of the capacitor and the magnetic field of the inductor."
+  type: true-false
+  answer: true
+  explanation: "With no resistance there is no dissipation mechanism. As the capacitor discharges it drives current through the inductor, which stores energy magnetically. As current decreases, the inductor's collapsing field drives charge back onto the capacitor. The total energy U = Q²/(2C) + LI²/2 remains constant throughout, oscillating between its two forms — a direct electrical analog of a frictionless spring-mass system."
+
+- question: "Adding more resistance to an RLC circuit increases its quality factor Q, producing a sharper and more selective resonance."
+  type: true-false
+  answer: false
+  explanation: "Quality factor Q = ω₀L/R: increasing R decreases Q. A higher Q means more oscillation cycles before energy dissipates (longer ring-down) and a narrower resonance peak — better frequency selectivity. More resistance means more energy lost per cycle, a broader flatter peak, and worse frequency discrimination. High-Q components (low-loss inductors and capacitors) are prized precisely because they minimize resistance relative to reactive impedance."
+
+- question: "Describe the mechanical analogy for an LC circuit: what circuit element corresponds to mass, what corresponds to the spring, and what corresponds to displacement? Use the analogy to explain why increasing L or C lowers the resonance frequency."
+  type: short-answer
+  answer: "The inductor L corresponds to mass (inertia — it resists changes in current). The capacitor C corresponds to the spring's compliance (inverse stiffness — it stores potential energy proportional to charge squared). Charge Q corresponds to displacement. The resonance frequency ω₀ = 1/√(LC) parallels ω₀ = √(k/m) in mechanics. A larger inductance (more 'inertia') slows the oscillation. A larger capacitance (more 'compliance,' softer 'spring') also slows it."
+  explanation: "The analogy is mathematically exact: L d²Q/dt² + Q/C = 0 is identical in form to m d²x/dt² + kx = 0, with L ↔ m, 1/C ↔ k, and Q ↔ x. This mapping lets you transfer all of simple harmonic motion's insights — energy conservation, phase relationships, resonance behavior — directly to LC circuits without re-deriving them from scratch."
+```
+
 ## Explainer
 
 From your study of RC and RL circuits, you know that each alone shows only exponential decay: a capacitor discharges through a resistor with time constant τ = RC; an inductor's current decays through a resistor with τ = L/R. When you combine a capacitor and an inductor without resistance, something qualitatively different happens. Instead of settling toward zero, energy bounces back and forth between the two elements indefinitely. This is **electromagnetic oscillation**, and it is the electrical counterpart of the mechanical oscillation you studied in simple harmonic motion.

@@ -31,6 +31,45 @@ Study why the question is hard to resolve: both directions require proving a low
 - Assuming NP-hard problems have no fast algorithms in practice — heuristics, approximations, and special-case algorithms often work well even if worst-case hardness holds.
 - Conflating P ≠ NP with 'cryptography is secure' — this logical implication exists, but a proof of P ≠ NP wouldn't directly yield secure cryptographic constructions.
 
+## Questions
+
+```yaml
+- question: "A researcher announces a proof that P = NP. Which of the following would be a direct consequence if the proof is correct?"
+  type: multiple-choice
+  options:
+    - "Public-key cryptographic systems such as RSA would no longer be provably secure, since integer factorization would be solvable in polynomial time"
+    - "Boolean satisfiability (SAT) would be proved to have no polynomial-time algorithm"
+    - "NP-complete problems would be reclassified as outside the NP complexity class"
+    - "The Turing machine model would be invalidated as a foundation for complexity theory"
+  answer: 0
+  explanation: "If P = NP, every problem whose solution can be verified in polynomial time can also be solved in polynomial time. Integer factorization (which underlies RSA) is in NP — solutions can be verified easily — so it would have a polynomial-time algorithm, breaking RSA and most public-key cryptography. Option 1 reverses the consequence of P = NP versus P ≠ NP (SAT would gain a fast algorithm, not be proved to lack one)."
+
+- question: "Which statement correctly captures the relationship between the complexity classes P and NP?"
+  type: multiple-choice
+  options:
+    - "P is the class of problems solvable in polynomial time; NP is the class where a proposed solution can be verified in polynomial time — every P problem is in NP, but NP may contain problems not in P"
+    - "P problems are computationally easy; NP problems are impossible to solve efficiently on any computer"
+    - "P and NP are the same class — this has been proved, which is why the Millennium Prize remains unclaimed"
+    - "P problems are solvable on deterministic machines; NP problems require quantum computers or nondeterministic hardware"
+  answer: 0
+  explanation: "NP stands for 'nondeterministic polynomial time' — the class of problems where a yes-certificate can be VERIFIED in polynomial time. P ⊆ NP always: if you can solve something quickly, you can verify it quickly. Whether NP ⊆ P (i.e., P = NP) is the open question. Options 2, 3, and 4 contain common misconceptions: NP does not mean 'impossible,' P = NP has NOT been proved, and NP is not about hardware type."
+
+- question: "Computer scientists have proved that P ≠ NP, establishing that verification is fundamentally easier than solving for certain problems."
+  type: true-false
+  answer: false
+  explanation: "P ≠ NP is the most famous open problem in computer science and remains UNPROVED. Most researchers believe P ≠ NP, and there is strong intuitive and empirical evidence for this belief, but no proof exists. It is one of the seven Millennium Prize Problems with a $1 million prize. This misconception — confusing widely-held belief with established fact — is one of the most important to correct."
+
+- question: "If P ≠ NP were proved, it would establish that NP-hard problems have no efficient algorithms in any practical context."
+  type: true-false
+  answer: false
+  explanation: "P ≠ NP establishes worst-case hardness — that no polynomial-time algorithm solves all instances of NP-hard problems. It says nothing about practical performance on typical instances. Heuristics, approximation algorithms, and special-case algorithms often work extremely well in practice even for NP-hard problems (e.g., modern SAT solvers handle millions of variables routinely). Worst-case hardness and practical difficulty are different things."
+
+- question: "Why is proving P ≠ NP considered extraordinarily difficult, even though most researchers believe it to be true and have believed so for decades?"
+  type: short-answer
+  answer: "Proving P ≠ NP requires establishing a lower bound — showing that no possible algorithm, however cleverly designed, can solve certain problems in polynomial time. Lower bounds are notoriously hard to prove in complexity theory. Worse, barrier results (relativization, natural proofs, algebrization) show that most known proof techniques are fundamentally incapable of resolving the question — entire families of approaches have been ruled out. The problem requires mathematical machinery that doesn't yet exist."
+  explanation: "The barrier results are particularly striking: they don't just say we haven't found a proof, they prove that certain systematic approaches CANNOT yield a proof. This rules out most of the toolkit that worked for other major results in complexity theory. The P vs. NP problem sits at the boundary of current mathematical understanding in a deep way."
+```
+
 ## Explainer
 
 From your study of nondeterministic complexity, you know that the class **NP** consists of decision problems where a "yes" answer can be *verified* in polynomial time given a suitable certificate. The class **P** consists of problems that can be *solved* in polynomial time. Every problem in P is also in NP — if you can solve it quickly, you can certainly verify a solution quickly. The P vs. NP question asks whether the reverse is also true: can every efficiently verifiable problem also be efficiently solved?

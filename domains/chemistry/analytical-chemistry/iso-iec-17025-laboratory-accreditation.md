@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 ISO/IEC 17025 is the international standard specifying requirements for laboratory competence in testing and calibration, covering management systems, technical competence, equipment calibration, personnel training, method validation, quality assurance, and proficiency testing. Accreditation to ISO 17025 by national accrediting bodies provides third-party independent verification that laboratory results are reliable, metrologically traceable to SI units, and suitable for regulatory, contractual, and liability decision-making.
 
+## Questions
+
+```yaml
+- question: "A laboratory is ISO/IEC 17025 accredited for measuring lead in drinking water by ICP-MS. A client asks the lab to analyze pesticide residues in food using the same instruments. Which statement best describes the accreditation status of the pesticide analysis?"
+  type: multiple-choice
+  options:
+    - "The analysis is covered because the lab is accredited and the instruments are the same"
+    - "The analysis is covered if the lab uses a validated method"
+    - "The analysis is not covered because accreditation is granted for a defined scope of specific methods and matrices"
+    - "The analysis is covered as long as the client signs a contract with the lab"
+  answer: 2
+  explanation: "ISO/IEC 17025 accreditation is scope-specific — it covers exactly the methods and matrices listed in the accreditation certificate, not everything the laboratory does. Using the same instruments for a different analyte or matrix falls outside that scope. A common misconception is that accreditation is a blanket endorsement of the laboratory; in reality, it verifies competence for particular, defined activities."
+
+- question: "A laboratory reports that a water sample contains 15.3 μg/L of lead, traceable to NIST SRM 3128. This traceability means:"
+  type: multiple-choice
+  options:
+    - "The result was verified by NIST independently"
+    - "The calibration chain links the measurement through documented steps back to an SI-recognized reference standard"
+    - "The sample was prepared by NIST and sent to the laboratory for analysis"
+    - "The method was approved by NIST for regulatory use"
+  answer: 1
+  explanation: "Metrological traceability means there is an unbroken chain of calibrations connecting the laboratory's result back to a recognized reference — ultimately to SI units. Using NIST-certified reference materials establishes that link. Traceability does not mean NIST verified the specific result or approved the method; it means the number carries a defined meaning that is reproducible and comparable across laboratories."
+
+- question: "ISO/IEC 17025 accreditation covers all test methods a laboratory performs, not just those listed in the accreditation scope."
+  type: true-false
+  answer: false
+  explanation: "Accreditation is strictly scope-limited. Accrediting bodies grant approval for specific test methods on specific sample matrices, as listed in the laboratory's scope of accreditation. Tests performed outside this scope are not covered by accreditation, even if the laboratory's general quality system is strong."
+
+- question: "ISO/IEC 17025 requires that every measurement result be accompanied by an estimate of measurement uncertainty."
+  type: true-false
+  answer: true
+  explanation: "Measurement uncertainty is a core technical requirement of ISO/IEC 17025. A result without an uncertainty estimate cannot be fully interpreted — it is unclear how confident anyone should be in the number. The standard requires laboratories to have procedures for estimating uncertainty and to report it alongside results, especially for calibration work and testing with regulatory or contractual significance."
+
+- question: "What is metrological traceability, and why is it central to ISO/IEC 17025 accreditation?"
+  type: short-answer
+  answer: "Metrological traceability is the property of a measurement result that it can be linked through an unbroken chain of calibrations, each with stated uncertainties, to a recognized reference — ultimately to SI units. It matters for accreditation because it ensures that a laboratory's measurements have a defined meaning that is reproducible and comparable across laboratories and over time. Without traceability, a number reported by one laboratory cannot be meaningfully compared to the same measurement made elsewhere."
+  explanation: "Traceability is what makes a measurement credible to parties outside the lab — regulators, clients, courts. A laboratory that can document its entire calibration chain demonstrates that its '15.3 μg/L' result means the same thing as another accredited lab's '15.3 μg/L' result. This comparability is why ISO 17025 exists: to provide confidence that different laboratories produce interchangeable, defensible results."
+```
+
 ## Explainer
 
 From your work with quality control and quality assurance, you understand that analytical laboratories need systematic approaches to ensure their results are reliable — control charts, reference materials, proficiency testing, and documented procedures. From method validation, you know how to demonstrate that a specific analytical method performs within defined specifications. **ISO/IEC 17025** is the international framework that pulls all of these elements together into a single, auditable standard for laboratory competence. When a laboratory achieves accreditation to ISO 17025, it means an independent third party has verified that the laboratory has the technical competence, management systems, and quality infrastructure to produce reliable results.

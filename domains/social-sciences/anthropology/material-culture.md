@@ -36,6 +36,45 @@ Choose a single object (a smartphone, a wedding ring, a sports trophy) and trace
 - Technologically simpler does not mean cognitively simpler; stone tool manufacture requires sophisticated planning and skill.
 - Museum collections of material culture carry political histories of collection that shape what we know about past societies.
 
+## Questions
+
+```yaml
+- question: "A piece of kente cloth is woven in Ghana, sold to a tourist, displayed in a European museum, and later returned to its community of origin. According to Appadurai's framework, what best describes this object?"
+  type: multiple-choice
+  options:
+    - "The cloth's meaning is fixed by its original function as a cultural textile"
+    - "The cloth has a social biography — its meaning transforms as it moves through different social contexts"
+    - "The cloth lost its cultural meaning when it became a commodity"
+    - "The cloth's significance is determined entirely by its material properties"
+  answer: 1
+  explanation: "Appadurai's 'social life of things' argues that objects accumulate different meanings at each stage of their trajectories — from use object to commodity, tourist souvenir, heritage artifact, and repatriated cultural property. None of these meanings is more 'true' than the others; they reflect the social contexts through which the object moves. Option A (fixed original meaning) is exactly what Appadurai's framework rejects. Option C mistakes commodification for terminal loss of meaning — it is one stage in a biography, not an ending."
+
+- question: "A student argues that studying ancient stone tools tells us about knapping technique but not about social organization. From a material culture perspective, what is wrong with this view?"
+  type: multiple-choice
+  options:
+    - "Nothing — archaeology studies physical evidence and anthropology studies social organization; they are entirely separate"
+    - "Material analysis and social interpretation are complementary; objects encode social relationships and knowledge transmission, not just technique"
+    - "The student is correct that physical objects cannot speak to social organization"
+    - "Social organization can only be studied through written records, not physical objects"
+  answer: 1
+  explanation: "Stone tool manufacture requires sophisticated planning and skill transmission — evidence of craft knowledge communities, apprenticeship relationships, social status tied to expertise, and networks of raw material exchange. Material culture studies insists that objects are not culturally neutral: their physical properties constrain but do not exhaust their social meaning. The two approaches are complementary — archaeological analysis reveals what was done; material culture interpretation asks what that doing meant in its social context."
+
+- question: "Material culture refers only to objects used in everyday practical life, not to symbolic or ritual objects."
+  type: true-false
+  answer: false
+  explanation: "Material culture encompasses all physical objects people create and use — utilitarian tools, symbolic objects, ritual items, architectural spaces, clothing, food. The distinction between 'practical' and 'symbolic' is analytically unstable: a wedding ring is simultaneously ornamental, symbolic, and practically significant in social navigation. Material culture studies specifically argues against treating some objects as 'mere' function and others as 'true' culture — all objects encode values, relationships, and identities."
+
+- question: "The colonial origins of museum collections are relevant to material culture analysis because they affect which objects were preserved and whose interpretations of those objects became authoritative."
+  type: true-false
+  answer: true
+  explanation: "Museum collections were largely assembled through colonial-era transactions involving coercion, unauthorized sales, or outright seizure. The 'archive' of world material culture in Western institutions reflects colonial power relations rather than a neutral sample of human creativity. How objects were categorized (as 'art' vs. 'artifact', 'religion' vs. 'superstition') and whose accounts of their meaning were recorded shaped dominant interpretations. Contemporary repatriation debates are fundamentally debates about who controls material culture's meaning."
+
+- question: "What does Appadurai mean by the 'social life of things,' and why does following the object matter more than starting from its original meaning?"
+  type: short-answer
+  answer: "Appadurai argues that objects have biographies — they move through different social contexts and accumulate different meanings at each stage. Rather than assuming one 'true' meaning set at creation, we trace the commodity path: how the object was produced, exchanged, used, and eventually discarded or preserved. Starting from original meaning privileges one moment in the object's life and ignores the social processes that transformed it. Following the object exposes how value, meaning, and identity are constructed and reconstructed through social action."
+  explanation: "The social life framework is a methodological move: instead of asking 'what does this object mean?', ask 'what is this object doing at each moment, for whom?' This shifts analysis from static symbolism to dynamic social process, and makes visible how objects outlast the intentions of their makers and serve purposes their creators never imagined."
+```
+
 ## Explainer
 
 From your study of the culture concept, you know that culture encompasses shared meanings, practices, and values — but culture does not float free of the physical world. **Material culture** is the domain of anthropology that insists on taking *stuff* seriously: the tools, clothing, buildings, food, art, and technologies through which people live their lives. Objects are not mere byproducts of culture; they are participants in it. A wedding ring does not just symbolize marriage — it performs the bond, makes it visible, and structures daily behavior. A smartphone does not just communicate — it reorganizes how attention, memory, and social obligation work.

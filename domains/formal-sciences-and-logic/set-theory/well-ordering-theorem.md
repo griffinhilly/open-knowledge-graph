@@ -38,6 +38,45 @@ Study both directions of the equivalence: AC implies well-ordering (use a choice
 - A well-ordering of ℝ cannot be exhibited explicitly — it exists non-constructively but no specific example can be written down.
 - The usual order ≤ on ℝ is NOT a well-order: the open interval (0,1) has no least element under the usual order.
 
+## Questions
+
+```yaml
+- question: "Is the usual ordering ≤ on the real numbers a well-ordering?"
+  type: multiple-choice
+  options:
+    - "Yes — every non-empty set of reals has an infimum, which serves as its least element"
+    - "No — the open interval (0, 1) contains no smallest element under the usual ordering"
+    - "Yes — the reals are linearly ordered, and all linear orders are well-orders"
+    - "No — the reals are uncountable, and well-orderings only exist for countable sets"
+  answer: 1
+  explanation: "A well-order requires that every non-empty subset has a *least element* (a minimum, not just an infimum). The open interval (0, 1) has an infimum of 0, but 0 is not in the set — and there is no smallest element inside (0, 1) itself. The well-ordering theorem asserts a *different* ordering on ℝ that is a well-order, but no one can write it down explicitly."
+
+- question: "A student claims: 'The well-ordering theorem is weaker than the Axiom of Choice because it is a theorem derived from AC, not an axiom itself.' This claim is:"
+  type: multiple-choice
+  options:
+    - "Correct — the well-ordering theorem is a consequence of AC but cannot imply AC in return"
+    - "Incorrect — over ZF set theory, the well-ordering theorem and the Axiom of Choice are mutually derivable and therefore logically equivalent"
+    - "Incorrect — the well-ordering theorem is actually stronger than AC because it imposes more structure"
+    - "Correct — the well-ordering theorem is provable from ZF without any choice principle"
+  answer: 1
+  explanation: "The well-ordering theorem (Zermelo, 1904) and the Axiom of Choice are equivalent over ZF: each implies the other. The forward direction (AC → well-ordering) uses a choice function to build the well-ordering by transfinite recursion. The reverse (well-ordering → AC) uses the well-ordering to define a choice function directly. Calling one 'weaker' misrepresents their relationship."
+
+- question: "Any proof that every set can be well-ordered must use the Axiom of Choice (or an equivalent principle), because well-orderings of uncountable sets cannot be explicitly constructed."
+  type: true-false
+  answer: true
+  explanation: "The well-ordering construction proceeds by transfinite recursion, making infinitely many simultaneous choices — one per step. Without AC, there is no guarantee those choices can all be made. This is not merely a limitation of known proof techniques: it is a genuine independence result. In ZF without AC, the well-ordering of ℝ cannot be proved."
+
+- question: "The well-ordering theorem tells us exactly how to construct a well-ordering of the real numbers."
+  type: true-false
+  answer: false
+  explanation: "The theorem asserts existence only — it does not and cannot provide an explicit construction. In fact, no specific well-ordering of ℝ can ever be written down. The construction via transfinite recursion and AC is entirely non-constructive: it tells you that choices can be made, not what they are. This non-constructive character is philosophically significant and was one reason the theorem was controversial when Zermelo published it."
+
+- question: "Explain how, given a well-ordering of a collection of non-empty sets, you can construct a choice function — and why this shows the well-ordering theorem implies the Axiom of Choice."
+  type: short-answer
+  answer: "Given a collection of non-empty sets {Aᵢ}, well-order their union. Then define f(Aᵢ) = the least element of Aᵢ under that well-ordering. Since each Aᵢ is non-empty and the well-ordering gives every non-empty subset a least element, f is well-defined on every set in the collection. This is exactly a choice function, so the Axiom of Choice holds."
+  explanation: "This is the reverse direction of the equivalence. The key point is that a well-ordering supplies a canonical selection rule — 'take the minimum' — which automatically defines a choice function for any collection of subsets of the well-ordered set. The equivalence shows that AC and the well-ordering theorem are two expressions of the same structural fact about sets."
+```
+
 ## Explainer
 
 The **well-ordering theorem** is one of the most surprising results in all of mathematics: every set — no matter how large or "continuous" — can be equipped with an ordering in which every non-empty subset has a least element. For the natural numbers this is obvious (their usual order already works), but for the real numbers it is deeply non-constructive: no explicit well-ordering of ℝ can ever be written down, yet the theorem asserts one exists.

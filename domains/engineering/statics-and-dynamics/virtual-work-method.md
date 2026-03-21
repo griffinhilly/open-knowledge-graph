@@ -32,6 +32,45 @@ Start with single-DOF mechanisms (toggle clamps, scissors lifts, linkages) where
 - Confusing virtual displacement with actual displacement — virtual displacements are hypothetical and infinitesimal, not real motions.
 - Applying the method to systems with friction without including the friction force's virtual work — friction forces are not constraint forces and do nonzero virtual work.
 
+## Questions
+
+```yaml
+- question: "You want to find the screw force needed to hold a scissors jack in equilibrium using virtual work. A classmate sets up the equation including pin reactions at every joint. What mistake has the classmate made?"
+  type: multiple-choice
+  options:
+    - "Pin reactions should be included because they contribute to static equilibrium"
+    - "Pin reactions are constraint forces that do zero virtual work, so including them adds unknowns with no way to solve for them — defeating the purpose of the method"
+    - "The classmate should include only pin reactions and omit the screw force, which is internal"
+    - "Virtual work cannot be applied to mechanisms that contain pin joints"
+  answer: 1
+  explanation: "The entire power of the virtual work method is that constraint forces (pin reactions, smooth surface normals) do zero virtual work and therefore vanish from the equation automatically. When you impose a compatible virtual displacement, each pin exerts equal and opposite forces on its two connected bodies, and those bodies move identically at the pin — the works cancel exactly. Including pin reactions reintroduces exactly the unknowns the method was designed to eliminate."
+
+- question: "A single-degree-of-freedom linkage has gravity acting on two links and a spring attached to one link. Using virtual work, how many equations do you write and how many unknowns can you solve for in one step?"
+  type: multiple-choice
+  options:
+    - "Two equations (one per active force) allowing solution for two unknowns"
+    - "One equation relating all active force virtual works to zero, allowing solution for one unknown"
+    - "As many equations as there are links, since each link contributes one equilibrium condition"
+    - "Virtual work cannot be applied when springs are present — only conservative gravity forces are allowed"
+  answer: 1
+  explanation: "For a single-DOF system, one generalized coordinate q fully describes the configuration. All active force displacements are expressed in terms of δq. The virtual work equation ΣF·δr = 0 factors as (expression)·δq = 0. Since δq is arbitrary and nonzero, the expression in parentheses must equal zero — one equation for one unknown. Springs are active forces (they store and release potential energy) and are fully compatible with the virtual work method."
+
+- question: "Friction forces must be included in the virtual work equation, unlike pin reactions, because friction forces are active forces that do nonzero virtual work."
+  type: true-false
+  answer: true
+  explanation: "Constraint forces (pins, smooth surface normals) act perpendicular to allowable motion or at points that cannot move in the constrained direction — their virtual work is exactly zero. Friction is different: it acts along the contact surface (tangential), and the contact point does move tangentially in a virtual displacement. Therefore friction does nonzero virtual work and must be explicitly included. Omitting friction from the virtual work equation — treating it like a constraint force — is a common error that yields wrong equilibrium conditions."
+
+- question: "A virtual displacement in the principle of virtual work is a small actual motion that the system briefly undergoes during the analysis."
+  type: true-false
+  answer: false
+  explanation: "A virtual displacement is a hypothetical, imagined, infinitesimally small motion — a geometric probe — consistent with the system's constraints. It is not an actual motion occurring in time. The system is in equilibrium (not moving), and the virtual displacement is a mathematical device to test whether the force configuration is consistent with equilibrium. This distinction is essential: the system does not 'undergo' the virtual displacement; you imagine it in order to apply the equilibrium condition δU = 0."
+
+- question: "Explain the key reason the principle of virtual work is more convenient than free-body diagram analysis for multi-body mechanisms, and what makes this possible."
+  type: short-answer
+  answer: "Virtual work eliminates constraint forces (pin reactions, normal forces at smooth contacts) from the analysis because they do zero virtual work — their contributions cancel exactly when a compatible virtual displacement is imposed. In FBD analysis of a multi-link mechanism, every joint introduces unknown reaction components that must all be solved simultaneously. Virtual work bypasses all of these, collapsing the entire problem to a single scalar equation in one unknown."
+  explanation: "The mechanism: constraint forces act perpendicular to the direction of virtual motion, or act at points that cannot move — so F·δr = 0 for each constraint force. They vanish algebraically without needing to be found. What remains is a single equation involving only the active forces (applied loads, gravity, springs) and the single unknown of interest. What would require ΣF=0 and ΣM=0 for each link (a large linear system) becomes one scalar equation. This is particularly powerful for mechanisms with many links and many internal pins."
+```
+
 ## Explainer
 
 In equilibrium analysis using free-body diagrams, you cut a body apart, expose all reaction forces, and write ΣF = 0 and ΣM = 0. This works well for a single body. But for a mechanism with multiple connected links — a scissors jack, a toggle clamp, a robotic arm — every pin connecting one link to another introduces unknown reaction components, and the system of equations grows quickly. The **principle of virtual work** offers a completely different strategy: instead of exposing the internal reactions and solving for them, you make the system move an infinitesimal imaginary amount and ask how much work would be done. If the system is in equilibrium, the answer must be zero.

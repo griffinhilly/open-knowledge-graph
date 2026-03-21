@@ -32,6 +32,45 @@ Begin by sketching streamlines, pathlines, and streaklines for a simple unsteady
 - Dye injection and smoke visualization show streaklines, not streamlines. This distinction matters in unsteady flows like vortex shedding, where the smoke pattern can look very different from the instantaneous streamline pattern.
 - PIV measures the velocity of tracer particles, not the fluid itself. The assumption that particles faithfully follow the flow (Stokes number << 1) must be verified, especially in high-speed or multiphase flows where particle inertia can cause the particles to deviate from fluid streamlines.
 
+## Questions
+
+```yaml
+- question: "A researcher continuously injects dye at a fixed point just upstream of a cylinder in a water tunnel where vortex shedding is occurring. The dye traces a complex, time-varying pattern. What does this pattern represent?"
+  type: multiple-choice
+  options:
+    - "Streamlines — the instantaneous direction of the velocity field throughout the flow at this moment"
+    - "Pathlines — the trajectory of a single dye particle released from the injection point"
+    - "Streaklines — the current locations of all dye particles that have passed through the injection point"
+    - "Isovorticity contours — lines connecting points of equal rotational velocity in the wake"
+  answer: 2
+  explanation: "Dye injection at a fixed point produces a streakline: the locus of all dye particles that have passed through that point, wherever they now are. In unsteady flow like vortex shedding, these particles followed different velocity fields as the flow evolved, so they are now scattered along complex, time-varying paths. The streakline does NOT show the instantaneous velocity direction (that would be a streamline, constructed from the current velocity snapshot) and does not trace any single particle's journey (that would be a pathline). Only in steady flow do all three coincide."
+
+- question: "A PIV system captures two images of neutrally buoyant tracer particles separated by 50 microseconds. Cross-correlation of interrogation windows yields a two-dimensional velocity map. What is the critical assumption required for this map to accurately represent the actual fluid velocity field?"
+  type: multiple-choice
+  options:
+    - "The flow must be steady between the two image captures so that the velocity field does not change"
+    - "The tracer particles must be large enough to be clearly resolved in each frame at the given magnification"
+    - "The tracer particles must have a Stokes number much less than 1, so their inertia is negligible and they faithfully follow the fluid motion"
+    - "The laser sheet must be thinner than the Kolmogorov length scale of the smallest turbulent eddies"
+  answer: 2
+  explanation: "PIV measures where particles moved, not where fluid moved. These are the same only if particles follow the fluid — a condition quantified by the Stokes number (St = particle response time / flow timescale). When St << 1, particle inertia is negligible and particles track fluid streamlines faithfully. When St approaches or exceeds 1, particles deviate from the fluid path — they centrifuge out of vortex cores, lag through accelerating flows, and misrepresent the fluid velocity. Particle size, density, and flow acceleration all affect Stokes number, and incorrect particle selection is a documented source of systematic PIV error."
+
+- question: "In a perfectly steady flow, where the velocity field is unchanging in time, streamlines, pathlines, and streaklines all coincide and are equivalent representations of the flow."
+  type: true-false
+  answer: true
+  explanation: "Steady flow means the velocity at every point is constant in time. A streamline (instantaneous tangent to velocity) is the same at every moment. A pathline (where a particle actually travels) follows the velocity field, which never changes — so the particle always moves in the same direction at each location and traces exactly the same curve as the streamline. A streakline (all particles passing through a point) also traces that same path because every particle followed the same velocity field. Equivalence of all three is the defining feature of steady flow and disappears the moment the velocity field varies with time."
+
+- question: "Schlieren imaging reveals flow structure by tracking the positions of small tracer particles seeded into the flow field, making it similar in principle to PIV but using optical rather than laser illumination."
+  type: true-false
+  answer: false
+  explanation: "Schlieren and shadowgraph methods work on a completely different principle: they detect spatial gradients of refractive index, which in gases are caused by density gradients from temperature, pressure, or composition variations. Light passing through a density gradient is bent; schlieren optics convert this bending into intensity variations visible on a screen, revealing shocks, heat plumes, and mixing layers without introducing any physical tracers. This is their key advantage for high-speed and combustion flows where adding particles would disturb the flow or be impractical. PIV is the technique that requires tracer particles; schlieren needs none."
+
+- question: "A smoke wire is placed in an unsteady, oscillating airflow. Explain why the resulting smoke pattern does NOT show the instantaneous streamline pattern of the flow."
+  type: short-answer
+  answer: "A smoke wire releases smoke continuously from a fixed line, producing a streakline: the current positions of all smoke particles ever released from that wire. In unsteady flow, the velocity field changes over time, so particles released at different moments followed different velocity fields and are now at different positions. The visible smoke pattern encodes the accumulated history of where all those particles have traveled under time-varying conditions — not a snapshot of the current velocity direction at each point. A streamline is constructed by integrating the instantaneous velocity field at a single moment and cannot be directly seen in a smoke experiment when flow is unsteady."
+  explanation: "The distinction matters practically: in unsteady flow visualization, researchers often mistake complex smoke patterns for the instantaneous flow structure. But a streakline encodes history, not the present. During vortex shedding behind a cylinder, the streakline from an upstream wire may show a wide, wavy pattern reflecting vortices already shed and moved downstream, while the instantaneous streamlines near the cylinder show the current vortex just forming. Confusing them leads to misinterpretation of the flow dynamics. Instantaneous streamlines can only be obtained by methods that capture the velocity field at a single instant, such as PIV or very short-exposure particle photography."
+```
+
 ## Explainer
 
 From fluid kinematics you know that a velocity field V(x, y, z, t) assigns a velocity vector to every point in space and time. Flow visualization is the art of making that abstract field tangible — of turning equations into pictures. The three fundamental line types are each different "questions" you can ask of the velocity field. A **streamline** answers: "Where does the velocity vector point at this instant?" It is constructed by integrating the velocity field at a single snapshot in time, so it is an instantaneous portrait of the flow structure. A **pathline** answers: "Where did this specific fluid particle actually travel?" It tracks one particle through time, like a GPS trace. A **streakline** answers: "Where are all the particles that passed through this location?" It is what you see when you continuously inject dye at a fixed point — all the marked particles visible at this moment, wherever they have traveled.

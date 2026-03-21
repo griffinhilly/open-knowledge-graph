@@ -37,6 +37,45 @@ Follow the beta-oxidation cycle step-by-step, calculating ATP yield per fatty ac
 - Ketone bodies are toxic; they are normal, efficient fuels produced during fasting and metabolic health.
 - All fatty acids are oxidized at the same rate; chain length, degree of saturation, and metabolic state all influence oxidation rates.
 
+## Questions
+
+```yaml
+- question: "A person following a very low-carbohydrate diet begins producing elevated ketone bodies after several days, even though they are consuming adequate fat and protein. What is the primary biochemical reason acetyl-CoA is diverted into ketone synthesis rather than the citric acid cycle?"
+  type: multiple-choice
+  options:
+    - "Beta-oxidation becomes faster without competing glucose metabolism, flooding the mitochondria"
+    - "Oxaloacetate is diverted to gluconeogenesis, leaving insufficient OAA to condense with acetyl-CoA and enter the citric acid cycle"
+    - "Fatty acid oxidation inherently produces more acetyl-CoA per unit time than the citric acid cycle can ever handle"
+    - "Low insulin levels directly activate ketone synthesis enzymes, bypassing normal acetyl-CoA routing"
+  answer: 1
+  explanation: "The OAA bottleneck is the key insight. During carbohydrate restriction, OAA is requisitioned for gluconeogenesis (to maintain blood glucose). Without sufficient OAA to accept acetyl-CoA at the citrate synthase step, the citric acid cycle cannot absorb the acetyl-CoA produced by beta-oxidation. The liver therefore diverts excess acetyl-CoA into ketogenesis. Option D is partially true (insulin suppression plays a role) but describes the hormonal context, not the primary biochemical bottleneck that actually routes acetyl-CoA to ketones."
+
+- question: "Insulin suppresses ketogenesis through which primary mechanism?"
+  type: multiple-choice
+  options:
+    - "It directly inhibits HMG-CoA synthase, the committed step of ketone body synthesis"
+    - "It stimulates malonyl-CoA production, which inhibits carnitine palmitoyltransferase-I (CPT-I) and prevents fatty acids from entering the mitochondria"
+    - "It accelerates the citric acid cycle, consuming all available acetyl-CoA before it can accumulate"
+    - "It promotes glycolysis, which competes with beta-oxidation for the same mitochondrial enzymes"
+  answer: 1
+  explanation: "Insulin stimulates malonyl-CoA synthesis (the first committed step of fatty acid synthesis). Malonyl-CoA is an allosteric inhibitor of CPT-I, the transporter that carries long-chain fatty acyl groups across the inner mitochondrial membrane. By blocking CPT-I, insulin prevents fatty acids from entering the mitochondria in the first place — cutting off the fuel supply for both beta-oxidation and ketogenesis simultaneously. When insulin falls (during fasting or carbohydrate restriction), this brake is released and the full lipolysis → beta-oxidation → ketogenesis axis is unleashed."
+
+- question: "During prolonged fasting, the brain can derive the majority of its energy from ketone bodies, substantially reducing the gluconeogenic demand on muscle protein."
+  type: true-false
+  answer: true
+  explanation: "This is physiologically accurate and represents an important adaptive role of ketogenesis. After several days of fasting, the brain can derive up to 70% of its energy from beta-hydroxybutyrate and acetoacetate. Since the brain cannot use fatty acids directly, it would otherwise require continuous glucose production (via gluconeogenesis from amino acids — i.e., muscle breakdown). Ketones are a brain-accessible alternative that spares muscle protein. This is why prolonged fasting does not cause catastrophic protein loss as quickly as one might predict."
+
+- question: "Ketone body production indicates incomplete or pathological fat oxidation; under normal circumstances, fatty acids are always fully oxidized to CO₂ and water."
+  type: true-false
+  answer: false
+  explanation: "Ketogenesis is a normal, adaptive metabolic process during fasting, prolonged exercise, or carbohydrate restriction — not a sign of metabolic failure. Ketone bodies (acetoacetate, beta-hydroxybutyrate) are efficient, water-soluble fuels exported from the liver and used by peripheral tissues. The pathological form is diabetic ketoacidosis (DKA), which involves extreme, unregulated ketone overproduction due to absent insulin. But physiological ketosis is a healthy adaptation. The misconception that 'fats must burn to CO₂ or something is wrong' confuses the two."
+
+- question: "Explain why the old aphorism 'fats burn in the flame of carbohydrate' is biochemically accurate. What is the specific metabolic role of oxaloacetate that makes carbohydrate availability critical for fat oxidation?"
+  type: short-answer
+  answer: "Oxaloacetate (OAA) is required by citrate synthase to condense with acetyl-CoA and enter the citric acid cycle. OAA is replenished largely from carbohydrate metabolism (via pyruvate carboxylase and other anaplerotic reactions). When carbohydrates are absent, OAA is depleted and diverted to gluconeogenesis. Without sufficient OAA, acetyl-CoA from beta-oxidation cannot enter the cycle and backs up — being diverted to ketone bodies instead. So carbohydrate availability (via OAA) is literally what keeps the 'flame' burning; without it, fat oxidation stalls at acetyl-CoA and ketones accumulate."
+  explanation: "This is the mechanistic basis of the aphorism. The citric acid cycle is not just the last stage of carbohydrate metabolism — it is the only pathway that can fully oxidize acetyl-CoA to CO₂. Without OAA, the cycle cannot turn. Carbohydrate restriction depletes OAA (by diverting it to gluconeogenesis), which is why low-carb diets inevitably produce ketosis regardless of total caloric intake from fat."
+```
+
 ## Explainer
 
 From your prerequisite on fatty acid structure, you know that long-chain fatty acids are highly reduced hydrocarbon chains storing considerably more energy per gram than carbohydrates. From your glucose metabolism prerequisite, you know that **acetyl-CoA** is the metabolic hub where multiple fuel sources converge to enter the citric acid cycle. **Beta-oxidation** is the enzymatic machinery that bridges fatty acids to this hub — it systematically dismantles fatty acid chains two carbons at a time, operating in the mitochondrial matrix, and produces acetyl-CoA alongside reduced electron carriers.

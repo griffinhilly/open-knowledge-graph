@@ -32,6 +32,45 @@ Compare pairs of states with similar formal institutions but different implement
 - A strong bureaucracy is not the same as a large bureaucracy; quality, professionalism, and internal discipline matter more than headcount.
 - Democratic accountability and bureaucratic autonomy are not opposites: well-functioning democracies require both — politicians set direction, professionals implement it without subordinating every decision to political loyalty.
 
+## Questions
+
+```yaml
+- question: "Two countries pass identical environmental regulations. Country A has a small agency staffed by meritocratically recruited professionals with tenure security. Country B has a large agency staffed primarily through political appointments. What do the concepts in this topic most strongly predict?"
+  type: multiple-choice
+  options:
+    - "Country A achieves better enforcement because smaller agencies are more agile and efficient"
+    - "Country A achieves better enforcement because professional insulation from political pressure produces consistent rule application regardless of who is regulated"
+    - "Country B achieves better outcomes because political appointees are directly accountable to elected officials and thus to the public"
+    - "Both countries achieve similar outcomes because the underlying law is identical"
+  answer: 1
+  explanation: "This illustrates the core distinction between de jure and de facto capacity. Country A's meritocratic, tenured officials have the skills, incentives, and independence to apply the law consistently — they don't need to please political patrons. Country B's politically appointed staff face contrary incentives: apply the law rigorously against a connected polluter and risk dismissal. Size is irrelevant; the critical variables are professional competence, insulation, and internal discipline. East Asian developmental states — small, elite, insulated bureaucracies — routinely outperformed large patronage-based administrations on every governance metric."
+
+- question: "A new consumer protection agency, over time, begins consistently siding with the industry it was created to regulate, hiring former industry executives and relaxing enforcement standards. This scenario most directly illustrates:"
+  type: multiple-choice
+  options:
+    - "Bureaucratic autonomy functioning as designed — the agency is now expert enough to understand the industry's legitimate needs"
+    - "The principal-agent problem producing regulatory capture — the agent's interests have shifted toward the regulated industry rather than the principal's public interest goals"
+    - "Democratic accountability working correctly — the agency is responding to political pressure from industry representatives"
+    - "Meritocratic failure — the agency hired the wrong professionals who happen to agree with industry positions"
+  answer: 1
+  explanation: "Regulatory capture is the canonical example of the principal-agent problem in bureaucracy. The politician (principal) delegates to the agency (agent) but cannot perfectly monitor what the agent does. Over time, agents develop interests — career prospects, relationships with regulated parties — that diverge from the principal's goals. The agency comes to serve the regulated industry rather than the public interest. This is a predictable structural consequence of the information asymmetry between principals and agents in bureaucratic delegation, not simply a matter of individuals making bad choices."
+
+- question: "A state with a written constitution, comprehensive laws, and multiple regulatory agencies has demonstrated high state capacity."
+  type: true-false
+  answer: false
+  explanation: "This conflates de jure with de facto capacity. Formal institutions describe what a state is legally empowered to do; state capacity describes what it can actually accomplish. Many states have elaborate formal institutions that operate poorly in practice because the implementing bureaucracy lacks meritocratic recruitment, professional culture, or insulation from corruption. The gap between what laws say and what governments actually deliver is precisely what the concept of state capacity is designed to measure. Formal authority without implementation capacity is constitutional theater."
+
+- question: "Bureaucratic autonomy from political pressure and democratic accountability are inherently in tension — more of one necessarily means less of the other."
+  type: true-false
+  answer: false
+  explanation: "Well-functioning democracies require both, operating at different levels. Democratic accountability applies at the level of policy direction: elected politicians set priorities and are held accountable for outcomes. Bureaucratic autonomy applies at the level of implementation: professional civil servants apply the law consistently without subordinating every decision to political loyalty. The problem arises when the levels are conflated — politicians attempting to control individual implementation decisions (undermining meritocracy) or bureaucrats setting policy direction (undermining accountability). Sweden and Singapore maintain this distinction successfully; patronage states collapse it at the implementation level."
+
+- question: "Why can two countries with similar formal institutions — identical constitutional designs, similar legal frameworks — achieve vastly different governance outcomes, and what explains the gap?"
+  type: short-answer
+  answer: "Formal institutions specify what a government is authorized to do; bureaucratic quality determines whether it can actually do it. The gap reflects whether the implementing bureaucracy is staffed by meritocratically recruited, tenured professionals with internal discipline — or by patronage appointees with loyalty-based incentives. Even identical laws produce different outcomes when implemented by bureaucracies with different levels of competence, independence, and resistance to corruption."
+  explanation: "The South Korea vs. Philippines case illustrates this directly: both had presidential systems with similar constitutional designs, but South Korea's economic bureaucracy was meritocratic, insulated, and coherent; the Philippines' was largely patronage-based. Development outcomes diverged dramatically, tracking closely with this bureaucratic difference. Formal institutions are necessary but insufficient — the machinery that operates within them determines governance outcomes. This is why institutional transplants (importing Western legal frameworks to developing countries) so often fail: the formal shell arrives without the organizational culture that made the original effective."
+```
+
 ## Explainer
 
 Your prerequisite work on executive branch systems taught you how political authority is formally organized — presidents, cabinets, ministers, departments. **Bureaucracy** is the machinery that sits below those formal structures and does the actual work of governing: collecting taxes, delivering social services, enforcing regulations, maintaining roads, processing permits, and executing the thousands of daily tasks that constitute a functioning state. The study of bureaucracy is the study of the gap between policy on paper and policy in practice.

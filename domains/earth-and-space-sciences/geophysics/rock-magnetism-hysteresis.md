@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Magnetization in rocks arises from ferromagnetic and antiferromagnetic minerals with magnetic domains. Hysteresis curves (magnetization vs. field) reveal domain size, saturation magnetization, and coercivity; these properties vary with mineralogy, grain size, and temperature.
 
+## Questions
+
+```yaml
+- question: "Two rock samples both contain magnetite. Sample A has Mᵣ/Mₛ ≈ 0.48 and a broad, square hysteresis loop. Sample B has Mᵣ/Mₛ ≈ 0.05 and a thin, narrow loop. Which sample is a more reliable recorder of ancient magnetic field directions, and why?"
+  type: multiple-choice
+  options:
+    - "Sample B, because low remanent magnetization means less contamination from secondary magnetic overprinting"
+    - "Sample A, because high Mᵣ/Mₛ indicates single-domain grains with high coercivity that resist remagnetization"
+    - "Sample B, because narrow hysteresis loops indicate purer mineral chemistry with fewer impurities"
+    - "Sample A, because broad loops indicate large multi-domain grains with more total magnetic material"
+  answer: 1
+  explanation: "High Mᵣ/Mₛ (≈0.5) is the signature of single-domain behavior: the entire grain is uniformly magnetized, domain-wall movement is impossible, and high coercivity means a large reverse field is needed to flip the magnetization. This makes single-domain grains resistant to later overprinting and capable of preserving paleomagnetic signals for billions of years. Multi-domain grains (low Mᵣ/Mₛ, thin loops) have easily displaced domain walls and low coercivity — their magnetization is easily reset by later fields, making them unreliable paleomagnetic recorders."
+
+- question: "What is the physical meaning of COERCIVITY (Hc) on a rock magnetism hysteresis curve?"
+  type: multiple-choice
+  options:
+    - "The maximum magnetization a sample achieves when all magnetic moments are aligned by a strong applied field"
+    - "The magnetization remaining in a sample after an applied field is reduced to zero"
+    - "The magnitude of the reverse field required to reduce the net magnetization of the sample to zero"
+    - "The temperature at which a ferromagnetic mineral loses its magnetic order entirely"
+  answer: 2
+  explanation: "Coercivity is the reverse field intensity needed to cancel out the net magnetization — it measures resistance to demagnetization. High coercivity means a strong opposing field is required to flip the magnetic moments, indicating a stable, hard magnetic material. This is directly relevant to paleomagnetics: high-coercivity minerals retain their magnetization against later ambient fields (which are typically much weaker than Hc for good recorder minerals like fine-grained magnetite or hematite)."
+
+- question: "A magnetite grain smaller than approximately 80 nm is classified as single-domain because its entire volume is magnetized uniformly in one direction, making domain-wall formation energetically unfavorable."
+  type: true-false
+  answer: true
+  explanation: "Domain walls have an energy cost (exchange energy and magnetostatic energy). For small grains, the energy cost of forming a domain wall exceeds the magnetostatic energy saved by splitting into multiple domains. Below the critical single-domain size (~80 nm for magnetite), the grain is more stable as a uniformly magnetized unit — a single domain. These grains have the highest Mᵣ/Mₛ, the highest coercivity, and are the most stable paleomagnetic recorders."
+
+- question: "Multi-domain magnetite grains are better paleomagnetic recorders than single-domain grains because they contain more total magnetic material and therefore produce a stronger magnetic signal."
+  type: true-false
+  answer: false
+  explanation: "Despite their larger size and greater total magnetic material, multi-domain grains are poor paleomagnetic recorders. Their many magnetic domains are oriented in different directions and largely cancel each other, resulting in a low net remanent magnetization (low Mᵣ/Mₛ). More importantly, their low coercivity means domain walls move easily in response to later ambient fields, allowing the original remanence to be overprinted. Single-domain grains, though tiny, each carry a stable, high-coercivity magnetization aligned with the ancient field — making them far superior recorders despite their smaller individual moments."
+
+- question: "Explain why the ratio Mᵣ/Mₛ distinguishes single-domain from multi-domain grains, and what a high ratio tells you about a rock's reliability as a paleomagnetic recorder."
+  type: short-answer
+  answer: "In a single-domain grain, the entire grain is uniformly magnetized — there are no domain walls to move, so when the external field is removed, the grain retains nearly half of its saturation magnetization (Mᵣ/Mₛ ≈ 0.5). In a multi-domain grain, domain walls rearrange freely when the field is removed, allowing domains to partially cancel, leaving only a small fraction of Mₛ as remanence (low Mᵣ/Mₛ). High Mᵣ/Mₛ therefore signals single-domain behavior, high coercivity, and resistance to later field overprinting — all the properties needed for stable, long-lived paleomagnetic recording."
+  explanation: "The hysteresis loop shape is the primary field test for whether a rock sample is worth pursuing for paleomagnetic study. A thin, narrow loop (low Mᵣ/Mₛ, low Hc) condemns the sample as an unreliable recorder before any expensive demagnetization experiments are undertaken."
+```
+
 ## Explainer
 
 From your study of Earth's magnetic dipole field and paleomagnetism, you know that certain rocks record the direction of the ambient magnetic field at the time they formed. Rock magnetism explains *how* this recording happens at the mineral scale — and the **hysteresis loop** is the central diagnostic tool for understanding the magnetic behavior of those minerals.

@@ -32,6 +32,45 @@ Distinguish deserving outcomes from equality of opportunity. Examine whether com
 - Meritocracy does not automatically justify all inequalities resulting from market competition.
 - Desert requires that someone morally deserves something; not all unequal distributions reflect what people deserve.
 
+## Questions
+
+```yaml
+- question: "A philosopher argues that even highly successful people who 'worked hard' do not fully deserve their rewards because their capacity for hard work was shaped by natural dispositions and social environments they did not choose. This argument is associated with:"
+  type: multiple-choice
+  options:
+    - "Rawls's critique of meritocracy as luck-contaminated"
+    - "Libertarianism, which holds that market outcomes are always just"
+    - "Pure egalitarianism, which rejects all unequal outcomes"
+    - "Utilitarianism, which evaluates outcomes by aggregate welfare"
+  answer: 0
+  explanation: "Rawls pressed this point forcefully: even effort and hard work depend on natural dispositions and formative environments that are distributed by luck. This doesn't mean all rewards are unjust, but it undermines the meritocratic claim that winners simply 'deserve' what they earn. Libertarianism (B) would say market earnings are deserved by definition. Pure egalitarianism (C) focuses on equalization regardless of choice. Utilitarianism (D) focuses on aggregate welfare, not desert."
+
+- question: "Someone born with exceptional natural intelligence earns a large salary using that ability. Which response best captures the meritocracy critic's concern?"
+  type: multiple-choice
+  options:
+    - "They earned their salary through legitimate work, so they deserve it fully — natural talent is part of who they are"
+    - "They may have earned their salary in a transactional sense, but their intelligence was unchosen, so their rewards are partly luck-derived rather than purely deserved"
+    - "They should be taxed to zero since their intelligence is unearned"
+    - "Natural intelligence doesn't actually differ between people, so no one 'deserves' more than anyone else"
+  answer: 1
+  explanation: "The critic's point is subtle: desert requires that the morally relevant factor be genuinely the agent's own — the result of genuine choice, not arbitrary fortune. Natural intelligence is not chosen. The critic doesn't deny that the person earned their salary in a market sense; they question whether market earnings track moral desert when the inputs (intelligence, family, opportunity) were unchosen. Option A conflates 'being part of who you are' with 'being deserved' — that conflation is exactly what the critic challenges."
+
+- question: "Meritocracy guarantees that market outcomes reflect what people morally deserve, because markets reward contribution and effort."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception the topic addresses. Even if markets reward contribution and effort, those contributions and that effort depend on unchosen factors: innate talent, family upbringing, cultural capital, the historical moment that determines which skills are valued. Desert, in the moral sense, requires that the reward flow from genuine choice — not from brute luck. Market outcomes mix desert and luck in proportions we cannot cleanly separate, which is why meritocratic distributions don't automatically satisfy desert-based justice."
+
+- question: "A person's capacity for sustained effort and disciplined hard work can itself be influenced by natural temperament and social environments they did not choose."
+  type: true-false
+  answer: true
+  explanation: "This is Rawls's sharpest point against meritocracy: not just talent but effort — the very thing that seems most 'earned' — depends on dispositions like conscientiousness, delay of gratification, and resilience, which are distributed partly by genetic temperament and partly by upbringing. Someone raised in an environment that cultivates discipline has a different starting point than someone who was not. If even effort is luck-contaminated, the meritocratic case for pure market distributions is deeply weakened."
+
+- question: "What is the difference between 'earning' a reward in a market sense and 'deserving' it in a moral sense, and why does this distinction matter for evaluating meritocratic justice?"
+  type: short-answer
+  answer: "Earning in a market sense means receiving compensation for a productive contribution — a transactional exchange. Deserving in a moral sense means being entitled to something in virtue of your own genuine choice or agency — not merely having received it. The distinction matters because market earnings reflect both genuine agency (choices one made) and unchosen inputs (innate talent, social advantages, historical luck). If desert requires genuine choice, then market earnings only partially satisfy the desert criterion: the portion attributable to unchosen factors cannot be 'deserved' in the full moral sense. Meritocracy conflates market earning with moral desert, which critics argue is a philosophical mistake."
+  explanation: "This distinction is the philosophical crux of the topic. Students often assume that if someone earned something through work, they automatically deserve it morally. But desert is a stronger claim: it requires that the basis for the reward be something the person is genuinely responsible for. If your success depended substantially on a lottery of birth — intelligence, family, opportunity — then you have earned it in the transactional sense but not fully deserved it in the moral sense. Luck egalitarianism (the builds-toward topic) draws this distinction explicitly to determine what distributions justice requires."
+```
+
 ## Explainer
 
 You've studied **distributive justice** — the principles governing how benefits and burdens should be allocated — and the concept of **justice as fairness**. Merit-based distribution is the most intuitively popular answer in many societies: people should receive rewards proportional to what they contribute, how hard they work, and how much talent they exercise. An employee who works harder should earn more; an entrepreneur who creates value should profit from it. The merit principle aligns with both ordinary moral intuition and market outcomes.

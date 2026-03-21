@@ -28,6 +28,45 @@ Moral hazard arises when an agent's actions are unobservable to the principal. T
 ## How It's Best Learned
 Analyze a simple principal-agent model with continuous effort. Solve for optimal contract. Compare to full-information benchmark to see efficiency loss from hidden action.
 
+## Questions
+
+```yaml
+- question: "An insurance company observes that customers with comprehensive car insurance (zero deductible) have 30% more at-fault accidents than customers with high-deductible policies. Assuming customers were randomly assigned to these plans, this pattern is most likely explained by:"
+  type: multiple-choice
+  options:
+    - "Adverse selection — risky drivers systematically choose comprehensive coverage to hide their type from insurers"
+    - "Moral hazard — once insured against accident costs, drivers have less financial incentive to drive carefully"
+    - "A principal-agent problem with symmetric information — the insurer can observe driving behavior directly"
+    - "Selection bias — the insurance company enrolled riskier customers into the comprehensive plan"
+  answer: 1
+  explanation: "This is the textbook moral hazard example: once the financial consequence of an accident is borne by the insurer (hidden action occurs after contracting), policyholders have reduced incentive to take precautions. Note that option (a) — adverse selection — is a related but distinct concept. Adverse selection involves hidden *type* before contracting (risky drivers self-selecting into comprehensive plans). Moral hazard involves hidden *action* after contracting (policyholders changing their behavior because they are insured). The random assignment in this question's setup eliminates selection, leaving moral hazard as the explanation."
+
+- question: "A principal wants to motivate a risk-averse agent to exert high effort on a task where outcomes are partially determined by luck. The fundamental design challenge is:"
+  type: multiple-choice
+  options:
+    - "Ensuring the agent's hourly wage is high enough to attract talent in a competitive labor market"
+    - "Balancing incentive provision against risk-sharing — high-powered pay-for-performance motivates effort but imposes uncontrollable income risk on the risk-averse agent"
+    - "Minimizing monitoring costs so the principal can verify agent effort directly"
+    - "Timing bonus payments to coincide with high-output periods to maximize the signaling effect"
+  answer: 1
+  explanation: "The core tradeoff in moral hazard theory: to incentivize unobservable effort, the agent's pay must be sensitive to outcomes (performance pay). But outcomes are partly random, so this sensitivity loads the risk-averse agent with income variance they don't control. A fully risk-averse agent optimally wants a flat salary (full insurance), but a flat salary provides zero incentive to work. The optimal contract sits between these extremes — some pay-for-performance to motivate effort, enough base pay to reduce risk exposure to an acceptable level. This tradeoff cannot be eliminated as long as effort is hidden."
+
+- question: "Paying an agent a flat salary (the same regardless of outcomes) is the optimal contract whenever the agent is risk-averse, because it protects them from uncontrollable income variation."
+  type: true-false
+  answer: false
+  explanation: "A flat salary is optimal from a pure risk-sharing perspective — it fully insures the risk-averse agent. But with hidden actions, a flat salary eliminates incentives entirely: if pay is independent of outcomes, the agent prefers to exert minimal effort (which reduces their private cost of effort). The optimal contract with moral hazard always involves some pay-for-performance, even for highly risk-averse agents — enough to motivate effort, though less than the full residual claim that would be optimal for a risk-neutral agent."
+
+- question: "The term 'moral hazard' specifically refers to situations where agents behave dishonestly or unethically because their compensation structure incentivizes deception."
+  type: true-false
+  answer: false
+  explanation: "Despite its name, moral hazard has nothing to do with ethics or dishonesty. The term originated in the insurance industry and simply describes the tendency to change behavior when the costs of certain actions are shifted to others — shirking, taking excessive risk, or reducing precautions. The agent is not deceiving anyone; they are rationally responding to changed incentives. 'Moral' is historical and misleading. What matters economically is that the action is hidden (unobservable), not whether it is morally wrong."
+
+- question: "What is the 'efficiency loss' from moral hazard, and why can it not be fully eliminated through better contract design?"
+  type: short-answer
+  answer: "The efficiency loss is the gap between the first-best outcome (achievable when effort is observable) and the second-best outcome under hidden actions. When effort is observable, the principal can pay directly for effort — no risk tradeoff is needed. With hidden actions, the contract can only condition on outcomes (mixing effort and luck). To motivate effort, the agent must bear outcome risk; compensating a risk-averse agent for that risk requires a 'risk premium' — extra expected pay to accept income volatility. This deadweight cost is the efficiency loss. It cannot be eliminated as long as (1) effort is unobservable and (2) outcomes are noisy — because tying pay more tightly to outcomes both reduces efficiency loss from shirking and increases the risk premium required."
+  explanation: "Moral hazard theory predicts that hidden action always produces a strictly worse outcome than observable effort. Policy responses — deductibles in insurance, performance bonuses in employment, equity stakes for executives — reduce but cannot eliminate this loss. The efficiency cost is the fundamental price of information asymmetry."
+```
+
 ## Explainer
 
 From the principal-agent model, you know the basic setup: one party (the principal) delegates a task to another (the agent), and their interests may not align. **Moral hazard** is the specific problem that arises when the agent's *actions* are hidden — the principal can observe the outcome but cannot verify whether the agent worked hard, cut corners, or took excessive risks. The term originally comes from insurance, where it described the tendency of insured people to be less careful, but the concept applies wherever effort or behavior is unobservable.

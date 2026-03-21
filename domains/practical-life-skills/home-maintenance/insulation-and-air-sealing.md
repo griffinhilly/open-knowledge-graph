@@ -35,6 +35,45 @@ Before adding insulation, conduct an air-sealing pass: use canned spray foam to 
 - Fiberglass batts are a poor insulation choice — properly installed fiberglass batts (no compression, no gaps, vapor retarder facing the correct direction) perform close to their rated R-value; the problem is that poor installation is extremely common.
 - Spray foam insulation makes ventilation unnecessary — spray foam creates a tight envelope, which makes mechanical ventilation (like an HRV or ERV) more important, not less, to maintain indoor air quality and prevent moisture buildup.
 
+## Questions
+
+```yaml
+- question: "A homeowner's attic has R-19 fiberglass batts and high heating bills. A contractor recommends upgrading to R-38 batts. What should the homeowner do FIRST?"
+  type: multiple-choice
+  options:
+    - "Install the R-38 batts immediately — doubling R-value will cut heat loss in half"
+    - "Inspect for and seal air leaks around plumbing penetrations, electrical boxes, and ductwork before adding insulation"
+    - "Replace all fiberglass with closed-cell spray foam for maximum performance"
+    - "Add a second vapor barrier beneath the existing batts"
+  answer: 1
+  explanation: "Air leaks allow warm air to bypass insulation entirely through convection. Doubling R-value in a leaky envelope produces diminishing returns — the heat escaping through gaps is unaffected by additional insulation on either side. Sealing penetrations first ensures the insulation you add (or already have) is actually doing its job. This is why building scientists say: 'seal, then insulate.'"
+
+- question: "A wall is framed with 2x6 studs 16 inches on center and filled with R-19 fiberglass batts. Why does its real-world thermal performance fall significantly short of R-19?"
+  type: multiple-choice
+  options:
+    - "Fiberglass batts degrade rapidly due to moisture and lose R-value within a few years"
+    - "Wood studs conduct heat at roughly R-1 per inch and interrupt the insulation layer every 16 inches, reducing the effective R-value of the full wall assembly"
+    - "R-19 is a nominal rating that only applies in laboratory conditions, not real installations"
+    - "The vapor barrier on the batts blocks heat flow in the wrong direction during winter"
+  answer: 1
+  explanation: "Thermal bridging through framing members is the gap between rated and actual R-value. About 25% of a typical stud wall is wood framing, which conducts heat at ~R-1 per inch — far worse than R-3 per inch for fiberglass. In practice, a nominally R-19 wall may perform at R-14 or R-15 system-wide. The solution in high-performance construction is continuous exterior insulation that breaks the thermal bridge at each stud."
+
+- question: "Sealing air leaks around plumbing penetrations and electrical boxes provides more energy savings in a leaky home than simply increasing the insulation's R-value."
+  type: true-false
+  answer: true
+  explanation: "In a home with significant air leaks, warm conditioned air escapes through gaps regardless of the R-value of the insulation flanking those gaps. Air carries heat by convection, which bypasses insulation's resistance to conduction entirely. Air sealing addresses the actual escape route; adding more insulation leaves the escape route open. The practical test: an incense stick near penetrations on a windy day reveals leaks that visual inspection misses entirely."
+
+- question: "Because spray foam creates such a tight building envelope, homes insulated with spray foam no longer need mechanical ventilation systems like HRVs or ERVs."
+  type: true-false
+  answer: false
+  explanation: "This reverses the logic. Spray foam creates a tight envelope, which eliminates natural infiltration of fresh outdoor air — making mechanical ventilation MORE important, not less. Without it, indoor air quality deteriorates and moisture can accumulate, leading to mold. Heat Recovery Ventilators (HRVs) and Energy Recovery Ventilators (ERVs) provide controlled fresh-air exchange while recovering most of the energy from the outgoing air."
+
+- question: "Explain why doubling the R-value of attic insulation in a home with significant air leaks might produce only modest reductions in energy bills."
+  type: short-answer
+  answer: "Insulation resists heat transfer by conduction through solid materials. Air leaks allow heat to escape by convection — warm air physically moving through gaps in the building envelope. Convection bypasses insulation entirely, so the insulation's R-value is irrelevant to that portion of heat loss. Doubling R-value reduces the conductive heat loss through the insulated assembly, but the convective loss through gaps remains unchanged. If a large fraction of total heat loss comes from air leakage, the savings from better insulation are proportionally small."
+  explanation: "The key insight is that R-value only addresses one of the three heat transfer mechanisms (conduction). Air leaks exploit a completely different mechanism (convection) that insulation cannot address. A leaky envelope is like wearing a thick wool sweater with a large unzipped opening — the wool doesn't help where the gap is. Sealing the gap (air sealing) addresses the mechanism; adding more wool (higher R-value) does not."
+```
+
 ## Explainer
 
 From your study of attic ventilation and caulking, you understand two complementary strategies: managing how air moves through the building assembly and sealing the gaps that allow uncontrolled air movement. Insulation and air sealing are the systematic application of both strategies across the entire building envelope — the shell that separates conditioned interior space from the unconditioned outdoors. Getting this right is one of the highest-leverage improvements you can make to a home's energy performance.

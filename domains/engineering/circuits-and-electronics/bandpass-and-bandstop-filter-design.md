@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Bandpass filters allow frequencies within a passband while rejecting others; the passband width and center frequency are set by component values. Bandstop (notch) filters do the opposite. Practical designs cascade first-order and second-order stages to achieve the desired attenuation slope and selectivity. The resonance characteristics of RLC circuits are exploited to create sharp transitions.
 
+## Questions
+
+```yaml
+- question: "An engineer cascades a low-pass filter (10 kHz cutoff) in series with a high-pass filter (1 kHz cutoff). What is the resulting filter characteristic?"
+  type: multiple-choice
+  options:
+    - "A bandstop response — frequencies between 1 and 10 kHz are blocked"
+    - "A bandpass response — only frequencies between 1 and 10 kHz pass both stages"
+    - "A low-pass response — the high-pass stage is dominated by the low-pass stage"
+    - "No signal passes — the two filters cancel each other out"
+  answer: 1
+  explanation: "In series (cascade), a signal must pass both filters to reach the output. The low-pass stage passes everything below 10 kHz; the high-pass stage passes everything above 1 kHz. Only frequencies satisfying both conditions — between 1 kHz and 10 kHz — make it through both stages. This is a bandpass filter. For this to work, the low-pass cutoff must be above the high-pass cutoff; if they were reversed, no frequency would satisfy both conditions simultaneously."
+
+- question: "An RLC bandpass filter is redesigned with resistance reduced by a factor of 10 while L and C remain unchanged. How does the filter's frequency response change?"
+  type: multiple-choice
+  options:
+    - "The center frequency ω₀ decreases because lower resistance means lower energy dissipation"
+    - "The bandwidth increases because lower resistance means less signal attenuation across the passband"
+    - "The Q factor increases and the passband narrows, producing a more selective filter"
+    - "The filter transitions from a bandpass to a bandstop response"
+  answer: 2
+  explanation: "The quality factor Q = ω₀L/R (for a series RLC). Reducing R by 10× increases Q by 10×. Since bandwidth BW = ω₀/Q, higher Q means narrower bandwidth — the filter becomes more selective, passing a tighter range of frequencies around the center frequency ω₀. Center frequency ω₀ = 1/√(LC) is unaffected by R. Option B has it backwards: lower resistance reduces losses but narrows, not widens, the passband — because the resonant peak becomes sharper."
+
+- question: "To build a bandstop (notch) filter from separate low-pass and high-pass filter stages, the two stages are connected in series (one after the other)."
+  type: true-false
+  answer: false
+  explanation: "For a bandstop filter, the low-pass and high-pass stages are connected in parallel: both receive the same input, and their outputs are summed. Signals low enough to pass the low-pass stage, or high enough to pass the high-pass stage, appear at the output. Signals in the notch band fail both tests and are rejected. Series connection produces the opposite behavior (bandpass), because a signal must satisfy both conditions simultaneously. Parallel lets either condition suffice."
+
+- question: "Adding a second identical second-order stage in cascade with an existing second-order bandpass filter increases the roll-off rate from 40 dB/decade to 80 dB/decade beyond the cutoff."
+  type: true-false
+  answer: true
+  explanation: "Each second-order filter section contributes 2 poles, adding 40 dB/decade of roll-off (20 dB/decade per pole). Cascading two second-order sections gives 4 poles and 80 dB/decade of attenuation slope. This is why higher-order filters (Butterworth, Chebyshev, elliptic) are built by cascading first- and second-order stages: each stage stacks attenuation, giving sharper transitions between passband and stopband."
+
+- question: "When cascading a low-pass and a high-pass filter to form a bandpass filter, why must the low-pass cutoff frequency be set higher than the high-pass cutoff frequency?"
+  type: short-answer
+  answer: "In a series cascade, a signal must pass through both filters to reach the output. The bandpass region is the intersection of what each filter allows: frequencies below the low-pass cutoff AND above the high-pass cutoff. If the low-pass cutoff is lower than the high-pass cutoff, these two regions do not overlap — no frequency satisfies both conditions simultaneously, and no signal passes. The passband only exists when the low-pass cutoff exceeds the high-pass cutoff, creating an overlapping region between them."
+  explanation: "This is the fundamental design constraint for cascaded bandpass filters. The bandwidth is (f_LP_cutoff − f_HP_cutoff), so the separation between the two cutoffs directly sets the passband width. Narrowing this gap narrows the passband; swapping the relationship (LP cutoff < HP cutoff) eliminates the passband entirely."
+```
+
 ## Explainer
 
 You already know that a **low-pass filter** passes low frequencies and blocks high ones, while a **high-pass filter** does the opposite. A **bandpass filter** targets a specific frequency range — passing everything in between and rejecting both low and high extremes. The most intuitive way to build one is to cascade a low-pass and a high-pass filter in series: the low-pass sets the upper edge of the passband, the high-pass sets the lower edge, and only frequencies satisfying both conditions get through. For this to work, the low-pass cutoff must be above the high-pass cutoff; otherwise the regions overlap and nothing passes.

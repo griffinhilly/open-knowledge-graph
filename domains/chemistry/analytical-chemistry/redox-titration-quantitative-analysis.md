@@ -33,6 +33,45 @@ Perform multiple redox titrations using different titrants (permanganate, iodine
 ## Common Misconceptions
 Assuming permanganate indicator stability across all storage conditions (it decomposes; use fresh solutions). Thinking iodine titrations must be done immediately without considering complex kinetics.
 
+## Questions
+
+```yaml
+- question: "A chemist standardizes a KMnO₄ solution against sodium oxalate before each use. Why is this standardization necessary, unlike many other titrants?"
+  type: multiple-choice
+  options:
+    - "KMnO₄ cannot be directly weighed because it reacts with air"
+    - "KMnO₄ slowly decomposes due to light, MnO₂, and trace organics, so its concentration drifts over time"
+    - "KMnO₄ reacts with glass containers, requiring fresh preparation each day"
+    - "Sodium oxalate enhances the indicator color change, making the endpoint sharper"
+  answer: 1
+  explanation: "Permanganate is not a primary standard because it slowly decomposes — catalyzed by MnO₂ (a reduction product that accumulates), light, and trace organic contaminants in the water. This drift in concentration means you cannot rely on a weighed-out mass to calculate molarity; standardization against a stable primary standard like sodium oxalate is required before each analytical run. The other options describe real issues with other titrants but not the specific problem with permanganate stability."
+
+- question: "In an iodometric determination of dissolved oxygen in water, you add excess KI to the sample, then titrate with sodium thiosulfate to a starch endpoint. What does the amount of thiosulfate consumed directly measure?"
+  type: multiple-choice
+  options:
+    - "The dissolved oxygen concentration directly"
+    - "The amount of I⁻ remaining unreacted in solution"
+    - "The amount of I₂ liberated when dissolved oxygen oxidized the iodide"
+    - "The concentration of MnO₂ formed as a reaction intermediate"
+  answer: 2
+  explanation: "Iodometry is an indirect back-titration: dissolved oxygen oxidizes excess iodide to liberate a stoichiometric amount of iodine (I₂). It is this liberated iodine that you titrate with thiosulfate, not the analyte itself. The thiosulfate consumption tells you how much I₂ was present, and stoichiometry traces back to the original oxygen concentration. This indirect approach is used because many oxidizing analytes react cleanly with iodide but not directly with thiosulfate, and because the starch-iodine endpoint is highly sensitive."
+
+- question: "Potassium permanganate acts as its own indicator in redox titrations conducted in acidic solution."
+  type: true-false
+  answer: true
+  explanation: "In acidic solution, MnO₄⁻ (deep purple) is reduced to Mn²⁺ (colorless). During the titration, excess analyte consumes each drop of permanganate, keeping the solution colorless. As soon as all analyte is consumed, the next drop of permanganate has nothing to react with and the solution turns persistently pale pink. This self-indicating property eliminates the need for a separate indicator dye — a practical advantage that makes permanganate particularly convenient for routine quantitative work."
+
+- question: "In iodometric titration, the analyte is titrated directly with sodium thiosulfate without any intermediate step."
+  type: true-false
+  answer: false
+  explanation: "Iodometry is an indirect (back-titration) method. The analyte first reacts with excess iodide (I⁻) to liberate iodine (I₂) — the analyte is never titrated directly. Thiosulfate then titrates the liberated I₂, with the starch-I₂ blue complex disappearing at the endpoint. The analyte concentration is calculated from the thiosulfate consumed, through stoichiometric relationships involving I₂. This indirection is the defining feature of iodometric analysis and is why it works for analytes that react poorly with conventional titrants."
+
+- question: "Why is cerium(IV) sometimes preferred over permanganate for demanding quantitative redox titrations, even though permanganate is more widely used?"
+  type: short-answer
+  answer: "Cerium(IV) in sulfuric acid is stable for months without decomposition, whereas permanganate slowly decomposes and requires standardization before each use. Cerium(IV) also undergoes a clean one-electron transfer to Ce³⁺, giving sharp, well-defined stoichiometry, while permanganate can produce different reduction products under different conditions. For the highest accuracy work, this stability and clean stoichiometry give cerium(IV) an edge."
+  explanation: "The practical hierarchy is: permanganate for routine work (convenient self-indicating, cheap, handles many analytes), iodometry for analytes that oxidize iodide efficiently, and cerium(IV) where maximum precision and long-term solution stability are required. Knowing which system to select — and why — is the applied skill this topic develops."
+```
+
 ## Explainer
 
 You already understand the fundamentals of redox titration: a titrant that gains electrons (oxidizing agent) reacts with an analyte that loses electrons (reducing agent), or vice versa, and the equivalence point occurs when the stoichiometric amount of titrant has been added. From the Nernst equation, you know that the electrode potential of the solution shifts as the ratio of oxidized to reduced species changes during the titration. Quantitative redox titration extends these principles to a toolkit of specific titrant-analyte systems, each chosen for its particular strengths and limitations.

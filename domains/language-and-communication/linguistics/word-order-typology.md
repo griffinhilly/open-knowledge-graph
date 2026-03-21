@@ -32,6 +32,45 @@ Examine parallel translations of the same sentences across SOV, SVO, and VSO lan
 - SVO is not the "natural" or default order for human language; SOV is actually the most common type cross-linguistically, and all six logical orderings are attested.
 - Free word order does not mean anything goes — languages with flexible constituent order use morphological case, agreement, and prosody to mark grammatical relations that English encodes positionally.
 
+## Questions
+
+```yaml
+- question: "A linguist claims that SVO is the most common word order across the world's languages. Is this correct?"
+  type: multiple-choice
+  options:
+    - "Yes — English, French, and Mandarin are all SVO, making it the globally dominant pattern"
+    - "No — SOV is actually the most common type, accounting for roughly 45% of languages versus SVO's 40%"
+    - "No — VSO is the most common type because it places the verb first, which speeds processing"
+    - "Yes — SVO is favored because it most closely mirrors the logical structure of predicate calculus"
+  answer: 1
+  explanation: "SOV is the most common word order cross-linguistically, accounting for roughly 45% of languages (Japanese, Turkish, Hindi, Korean, Amharic, and many others). SVO comes second at around 40% (English, Mandarin, French, Swahili). The perception that SVO is 'default' or 'most natural' is a bias toward familiar European languages — English, French, Spanish, and other widely studied languages are SVO, making it seem dominant. But the actual cross-linguistic count favors SOV. All six logical orderings are attested, though VOS, OVS, and OVS are rare."
+
+- question: "A language has postpositions (e.g., 'Tokyo ni' meaning 'in Tokyo'), genitive-before-noun order, and relative clauses that precede the noun. What basic word order does Greenberg's typology predict for this language?"
+  type: multiple-choice
+  options:
+    - "SVO, because European SVO languages like English show similar patterns in noun phrases"
+    - "SOV, because head-final phrase structure across all phrase types is the signature of verb-final languages"
+    - "VSO, because placing constituents before heads is characteristic of verb-initial languages"
+    - "The word order cannot be predicted from phrasal properties alone"
+  answer: 1
+  explanation: "Greenberg's implicational universals reveal that SOV languages are head-final across all phrase types: the verb appears at the end of the clause, the postposition follows its noun phrase complement ('Tokyo ni' = 'Tokyo in'), genitives precede nouns, relative clauses precede the noun they modify. This clustering is captured by the head-directionality parameter: head-final languages place the head after its complement throughout the grammar. All of these properties co-occurring strongly predicts SOV. It is not deterministic but the correlation is strong enough to be a useful diagnostic."
+
+- question: "Languages with 'free word order,' like Russian or Warlpiri, allow any arrangement of subject, object, and verb without any meaning difference."
+  type: true-false
+  answer: false
+  explanation: "Free word order languages do not allow arbitrary rearrangement without meaning difference — they use different word orders for pragmatic purposes: marking topic, focus, given vs. new information, and emphasis. 'John saw Mary' and 'Mary John saw' in Russian are not synonymous; they differ in information structure (which element is topic, which is focus). What Russian lacks is the positional encoding of grammatical roles that English requires — because case suffixes on nouns mark who is subject and who is object, the word order is freed from that duty. Free word order means pragmatically flexible order with morphological case doing the grammatical work."
+
+- question: "The head-directionality parameter predicts that an SVO language will have prepositions, noun-genitive order (e.g., 'the book of John'), and postnominal relative clauses."
+  type: true-false
+  answer: true
+  explanation: "This is one of Greenberg's key implicational universals. SVO languages tend to be head-initial: the verb (head of VP) precedes the object; prepositions precede their noun phrase complements; nouns precede genitives ('the book of John' rather than 'John's book'); relative clauses follow the noun they modify. English exemplifies this: prepositions ('in the box'), some postnominal genitives ('the book of John'), and postnominal relative clauses ('the book that I read'). The head-directionality parameter captures why these properties cluster — they all reflect the same underlying directionality in phrase structure."
+
+- question: "Explain why a language with rich morphological case marking can have 'free' word order, whereas English must use rigid word order to communicate the same information."
+  type: short-answer
+  answer: "Every language must communicate who is doing what to whom. English uses word position to encode grammatical roles: the noun before the verb is the subject, the noun after the verb is the object. Swapping positions changes the meaning. Languages with morphological case mark the grammatical role directly on each noun via suffixes or other inflections — subject gets nominative case, object gets accusative — so the noun carries its role with it regardless of position. This frees word order for pragmatic work: marking what is already known (topic) versus new (focus), expressing emphasis, or adjusting for discourse context."
+  explanation: "This is why 'free word order' is misleading — the grammar is not less constrained, just constrained differently. English encodes grammatical relations syntactically (positionally); case-rich languages encode them morphologically (inflectionally). The result is the same communicative content with different formal strategies. Understanding this tradeoff between positional and morphological encoding is the key to understanding why word order patterns vary cross-linguistically and what 'free order' actually means."
+```
+
 ## Explainer
 
 You already know from syntactic structure that sentences have hierarchical constituent organization, and from linguistic typology that languages vary systematically in their structural properties. Word order typology asks: across the world's languages, how do they arrange the core arguments of a sentence, and what other structural properties cluster with that choice? The answer turns out to be far more constrained than chance would predict.

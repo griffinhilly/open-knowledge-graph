@@ -31,6 +31,45 @@ Present syllogisms varying in logical validity (valid, invalid) and conclusion p
 - Assuming people are capable of pure logical reasoning separate from content; belief bias shows content affects evaluation automatically.
 - Treating belief bias as a correctable error through instruction; the bias is robust and even logically trained individuals show it on new content.
 
+## Questions
+
+```yaml
+- question: "A researcher presents two syllogisms. Syllogism A is logically invalid but has a conclusion most people believe (e.g., 'Therefore, some unhealthy foods are tasty'). Syllogism B is logically valid but has a conclusion most people find implausible (e.g., 'Therefore, some doctors are not intelligent'). According to belief bias research, which outcome is most likely?"
+  type: multiple-choice
+  options:
+    - "People accept Syllogism B and reject Syllogism A, because they focus on logical form when instructed"
+    - "People accept both at equal rates, since logical training equates performance across syllogism types"
+    - "People more often accept Syllogism A than Syllogism B — believable conclusions win over logical form"
+    - "People reject both, because they are generally skeptical of formal syllogistic arguments"
+  answer: 2
+  explanation: "Belief bias predicts a specific interaction: people accept invalid arguments with believable conclusions at elevated rates, and reject valid arguments with unbelievable conclusions at elevated rates. When logical form and semantic plausibility conflict, plausibility frequently wins. Options A and B would only be true if reasoners could reliably suppress the automatic plausibility check — research shows they cannot, even when instructed."
+
+- question: "Which of the following best explains why belief bias persists even in people with formal logic training?"
+  type: multiple-choice
+  options:
+    - "Logic training is generally ineffective because formal logic is too abstract for real-world arguments"
+    - "People with logic training overconfidently accept all syllogisms without carefully evaluating them"
+    - "The automatic plausibility check runs before deliberate logical evaluation and is difficult to suppress"
+    - "Formal logic training focuses only on syntax, leaving semantic evaluation entirely unaddressed"
+  answer: 2
+  explanation: "Two processes compete in syllogistic reasoning: a fast, automatic plausibility judgment (does this conclusion make sense?) and a slower, effortful structural analysis (does the conclusion follow from the premises?). The automatic process fires first and creates a strong initial evaluation. Even logically trained people must work against this default response — training helps, but rarely eliminates the bias for novel content where beliefs are strongly held."
+
+- question: "Belief bias predicts that people are more likely to accept a logically invalid argument if its conclusion matches their prior beliefs than if the conclusion contradicts those beliefs."
+  type: true-false
+  answer: true
+  explanation: "This is the core empirical finding. Argument endorsement rates are driven by an interaction of logical validity and conclusion believability. Invalid arguments with believable conclusions are accepted at substantially higher rates than invalid arguments with unbelievable conclusions. The conclusion's plausibility contaminates what should be a purely formal evaluation of whether premises entail the conclusion."
+
+- question: "Instructing participants to evaluate only the logical form of an argument — explicitly ignoring the believability of the conclusion — reliably eliminates belief bias."
+  type: true-false
+  answer: false
+  explanation: "Research consistently shows that explicit instructions to focus on logic reduce but do not eliminate belief bias. The automatic plausibility evaluation runs whether or not participants intend it to — it is not fully under conscious control. This is one of the key findings: belief bias is not simply a misunderstanding of what 'valid' means. People can know the definition and still have their evaluations influenced by conclusion believability, because the content-based judgment precedes and competes with the formal one."
+
+- question: "Why do people show belief bias even when they know what logical validity means and are explicitly asked to focus only on whether the conclusion follows from the premises?"
+  type: short-answer
+  answer: "Because evaluating semantic plausibility is an automatic, fast process that runs before and alongside deliberate logical analysis. Even when someone intends to focus on form, the plausibility heuristic produces an initial judgment that is difficult to suppress. Logical analysis requires effortful attention to abstract structure, and the conflict between the two competing processes means that even trained reasoners must actively work against their automatic response — which is why the bias is robust rather than easily corrected by instruction alone."
+  explanation: "The dual-process account is the key: System 1 (fast, automatic) assesses plausibility; System 2 (slow, effortful) evaluates logical structure. They don't operate sequentially — they compete. When the plausibility assessment strongly favors a conclusion, System 2 must override it, which requires effort and is often incomplete. The implication is that the arguments you find most compelling deserve the most scrutiny, because feelings of logical force may be tracking semantic attractiveness rather than deductive validity."
+```
+
 ## Explainer
 
 You know from deductive reasoning that a **valid argument** is one where, if the premises are true, the conclusion must follow necessarily — validity is a structural property of the argument's form, independent of whether the premises or conclusion are actually true. This distinction between validity and truth is foundational to formal logic. But research on belief bias reveals a fundamental tension: human reasoning is not form-processing detached from content. We bring semantic knowledge and prior beliefs to every argument we evaluate, and these beliefs compete with logical evaluation in ways that produce systematic, predictable errors.

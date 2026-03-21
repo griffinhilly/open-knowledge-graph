@@ -26,6 +26,45 @@ Orchestration techniques evolved gradually from Baroque doubled lines to Classic
 ## How It's Best Learned
 Compare orchestration in works by Haydn, Berlioz, and Debussy, analyzing how each composer made different decisions about instrumental doubling and textural layering. Study Berlioz's Treatise on Orchestration as primary documentation of Romantic orchestral thinking.
 
+## Questions
+
+```yaml
+- question: "A Baroque composer is writing for orchestra. Based on the historical trajectory described, how would they most likely treat the winds and brass?"
+  type: multiple-choice
+  options:
+    - "As a coloristic palette, systematically blended to create new sonic effects unavailable from strings alone"
+    - "Primarily to double string lines at different octaves and fill out harmonic support"
+    - "As solo voices carrying the main melodic argument while strings provide accompaniment"
+    - "Reserved for climactic moments only, kept silent otherwise to maximize dramatic contrast"
+  answer: 1
+  explanation: "In the Baroque era, the orchestra was a vehicle for counterpoint and harmonic structure — winds and brass typically doubled string lines or added weight to harmonies. Timbre was rarely the compositional point in itself. The 'palette' metaphor came much later with Berlioz. The Baroque orchestra worked like a 'printing press' reproducing compositional architecture, not a painter's brush."
+
+- question: "Which best describes the historical significance of Berlioz's Treatise on Orchestration?"
+  type: multiple-choice
+  options:
+    - "It codified the Classical division of labor among strings, winds, and brass that Haydn had established"
+    - "It systematically catalogued for the first time how different instrument combinations produce qualitatively new timbral colors, treating the orchestra as a painter's palette"
+    - "It introduced the new instruments (piccolo, tuba, English horn) that expanded the Romantic orchestra"
+    - "It argued that timbre should be subordinated to melodic clarity, as a reaction against Romantic excess"
+  answer: 1
+  explanation: "Berlioz's Treatise was a landmark because it systematized a new way of thinking: cataloguing what each instrument could do alone and what emerged from various blendings. This was not a refinement of existing practice but a conceptual shift — treating the sonic personality of each instrument as compositional material in its own right, not merely a means of delivering pre-existing harmonic-melodic content."
+
+- question: "By the time of Debussy, orchestration had become a primary structural element of the music rather than a decorative coating applied to pre-existing harmonic and melodic content."
+  type: true-false
+  answer: true
+  explanation: "The Explainer states this directly: 'orchestration has become a primary structural element, not a coating applied to pre-existing music. The sound itself *is* the meaning.' In the Baroque, the orchestra reproduced a compositional architecture conceived independently; in Debussy, the timbral choices are inseparable from the musical idea itself — you cannot separate what is said from the color in which it is said."
+
+- question: "Mozart's interest in the clarinet's distinctive chalumeau register represents a Romantic-era shift toward treating timbre as a primary expressive tool equal to melody and harmony."
+  type: true-false
+  answer: false
+  explanation: "Mozart's fascination with the clarinet was an early, *growing* interest in timbral personality within the Classical period. The Explainer describes it as showing 'an early, growing interest in the expressive personality of individual timbres,' but orchestration in the Classical era still remained an important yet secondary parameter. The full shift — timbre as a primary tool equal to melody and harmony — came with the Romantic era and specifically with Berlioz and Wagner."
+
+- question: "What does it mean to say that Wagner used timbre to carry 'dramatic and emotional information' in his music dramas? How does this differ from Classical orchestration practice?"
+  type: short-answer
+  answer: "In Wagner's orchestral writing, the blend of instruments communicates dramatic meaning directly — particular timbral combinations became associated with characters, emotions, and ideas through leitmotif technique. The specific sonic texture at any moment is inseparable from the dramatic content. In Classical practice, orchestration served structural roles: strings carried melody, winds provided harmonic support, brass marked cadences. The timbral choices were functional and logical, but not themselves bearers of dramatic meaning independent of melody and harmony."
+  explanation: "The key contrast is between timbre as a means (Classical) versus timbre as a medium (Romantic/Wagner). In Haydn or Mozart, the same musical idea could plausibly be orchestrated differently with relatively little expressive loss. In Wagner's continuous orchestral web, the specific sonic blend is part of the meaning — replacing the orchestration would change not just the color but the emotional and dramatic content. This is what the Explainer means by timbre carrying 'dramatic and emotional information as much as melody or text.'"
+```
+
 ## Explainer
 
 You've studied the Romantic period — an era of expansive symphonies, sweeping emotional range, and the belief that music could embody the full landscape of human experience. What that overview may not have traced is *how* the Romantic orchestra arrived at its capacities: through roughly two centuries of gradual instrument addition, refinement, and a fundamental shift in how composers thought about **timbre** — the characteristic sound-color of each instrument.

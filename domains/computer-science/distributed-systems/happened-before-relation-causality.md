@@ -33,6 +33,45 @@ Draw message diagrams with labeled events and identify the partial order. Use La
 - Happened-before is the same as physical time ordering; it depends only on communication and local computation, not wall-clock time.
 - If two events are not ordered by →, one must be reordered to fix 'bugs'; actually, concurrent events can remain unordered.
 
+## Questions
+
+```yaml
+- question: "Process P sends a message to process Q (event A → event B). Separately, process R independently writes to its own variable (event C), exchanging no messages with P or Q. What is the relationship between B and C?"
+  type: multiple-choice
+  options:
+    - "C happened before B because C completed before B in wall-clock time"
+    - "B happened before C because message receipt establishes a causal chain that extends to all other events"
+    - "B and C are concurrent — neither could have caused the other, so neither happened-before holds"
+    - "The relationship is unknown until Lamport timestamps are assigned and compared"
+  answer: 2
+  explanation: "Happened-before is defined only through local ordering, message exchange, and transitivity. There is no message between Q and R, and no shared local process. Therefore neither B→C nor C→B holds. They are concurrent (B ‖ C) — this is not an unknown ordering but a genuine absence of causal connection. Option D reflects the common misconception that Lamport timestamps *determine* causality; in fact, they only provide a consistent total ordering that does not reveal whether concurrent events are truly causally related."
+
+- question: "Process P has Lamport timestamp L(A) = 5 and process Q has L(B) = 7. What can you conclude about the causal relationship between A and B?"
+  type: multiple-choice
+  options:
+    - "A happened before B, because 5 < 7 guarantees causal precedence"
+    - "A and B are definitely concurrent, because Lamport timestamps are only equal for causally related events"
+    - "L(A) < L(B) is consistent with A→B, but A and B might also be concurrent — the timestamp alone is insufficient"
+    - "B happened before A, because the receiving process always has a higher timestamp"
+  answer: 2
+  explanation: "Lamport timestamps satisfy the implication: if A→B then L(A) < L(B). But the converse is false: L(A) < L(B) does not imply A→B. Two concurrent events can have any timestamp ordering depending on the algorithm's tie-breaking rules. To determine actual causality, you need vector clocks: V(A) < V(B) if and only if A→B. Lamport timestamps give a consistent total order but cannot distinguish 'A causally preceded B' from 'A and B were concurrent and happened to get these timestamps.'"
+
+- question: "Two events are concurrent in the happened-before relation if and only if neither event could have causally influenced the other — it is not a matter of unknown ordering."
+  type: true-false
+  answer: true
+  explanation: "Concurrency (A ‖ B) means that no chain of local ordering and message exchange connects A to B in either direction. This is a definitive causal statement, not ignorance. Two users editing different documents on different continents are genuinely causally independent — the system need not and should not impose an order between their writes. This distinction matters for distributed system design: concurrent events can be linearized in any order without violating causal consistency, which enables parallelism that a total order would unnecessarily restrict."
+
+- question: "If Lamport timestamp L(A) < L(B), then event A causally preceded event B."
+  type: true-false
+  answer: false
+  explanation: "Lamport's clock is consistent with happened-before in one direction only: A→B implies L(A) < L(B). The converse fails — L(A) < L(B) could reflect concurrent events that happened to receive these timestamps due to the algorithm's rules (e.g., process P has a lower clock value than Q regardless of communication). Vector clocks are needed for the biconditional: V(A) < V(B) if and only if A→B. This is the fundamental limitation of Lamport timestamps and the reason vector clocks were invented."
+
+- question: "Why is the happened-before relation a partial order rather than a total order, and what would be wrong with artificially imposing a total order on all events in a distributed system?"
+  type: short-answer
+  answer: "Happened-before is a partial order because concurrent events — those with no causal connection through local sequencing or message exchange — have no meaningful ordering relationship between them. Imposing a total order would assert a causal precedence that does not exist and cannot be established by the communication pattern. In practice, this forces unnecessary coordination: concurrent operations that could proceed in parallel must now wait for a globally agreed ordering, introducing latency and bottlenecks. Total ordering (e.g., via total-order broadcast or consensus protocols) is appropriate when applications require serializable operations, but it is expensive. For causal consistency alone, the partial order is sufficient and far more efficient."
+  explanation: "This is why distributed databases choose their consistency model carefully: causal consistency (respecting →) is weaker than linearizability (total order in real time) and allows much higher availability and lower latency. Using a stronger model than the application actually requires wastes coordination resources."
+```
+
 ## Explainer
 
 From your work with Lamport timestamps and vector clocks, you have the tools to assign logical timestamps to events. The **happened-before relation** is the conceptual framework that gives those tools their meaning. Defined by Leslie Lamport in 1978, it captures the idea of **potential causality** in a distributed system: event A happened before event B (written A → B) if A could have influenced B. This is a precise, formal replacement for the intuitive but unreliable notion of "A occurred earlier than B in real time."

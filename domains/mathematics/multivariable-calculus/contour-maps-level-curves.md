@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 A level curve of f(x, y) is a curve where f(x, y) = c for constant c. Contour maps show families of level curves, like topographic maps where each contour represents constant elevation. Level curves are perpendicular to the gradient.
 
+## Questions
+
+```yaml
+- question: "On a contour map of f(x, y), you are at a point between the level curves labeled f = 4 and f = 6. Contours to your east are closely spaced; contours to your north are widely spaced. In which direction does f increase most rapidly from your position?"
+  type: multiple-choice
+  options:
+    - "North, because widely spaced contours indicate gradual change and the gradient favors that direction"
+    - "East, because closely spaced contours indicate rapid change, and the gradient points perpendicular to them toward higher values"
+    - "Along the level curve, because moving parallel to the contour preserves the maximum gradient"
+    - "Upward out of the plane, because contour maps do not encode direction in the xy-plane"
+  answer: 1
+  explanation: "Closely spaced contours indicate that the function changes rapidly over a short distance — a steep slope. The gradient points perpendicular to the level curves toward higher values. Since contours are closely packed to the east, the function changes fastest in the east-west direction, and east is toward the higher values. Option C describes a direction of zero change (along the level curve), not maximum change."
+
+- question: "Two hikers study a topographic map. Hiker A says the gradient points along the contour lines. Hiker B says the gradient points perpendicular to the contour lines, toward higher elevation. Who is correct?"
+  type: multiple-choice
+  options:
+    - "Hiker A — the gradient indicates the direction of travel along constant elevation"
+    - "Hiker B — the gradient is perpendicular to level curves and points in the direction of steepest ascent"
+    - "Both — the gradient has components both along and perpendicular to the contours"
+    - "Neither — the gradient is a scalar, not a direction"
+  answer: 1
+  explanation: "Hiker B is correct. The gradient ∇f at a point points in the direction of maximum increase of f and is perpendicular (orthogonal) to the level curve through that point. Moving along a level curve means f doesn't change, so the directional derivative in that direction is zero. The gradient, pointing in the direction of maximum increase, must be orthogonal to every direction of zero change — it cannot have any component along the level curve."
+
+- question: "The gradient vector at a point on a contour map is parallel to the level curve passing through that point."
+  type: true-false
+  answer: false
+  explanation: "The gradient is perpendicular to the level curve, not parallel to it. Moving along a level curve means the function value stays constant, so the directional derivative in that direction is zero. The gradient points in the direction of maximum increase, which must be orthogonal to all directions of zero change. A gradient parallel to a level curve would mean the function's maximum rate of change is in a direction where f doesn't change — a contradiction."
+
+- question: "Walking along a level curve of f(x, y) keeps the value of f constant throughout the walk."
+  type: true-false
+  answer: true
+  explanation: "By definition, a level curve is the set of all points (x, y) where f(x, y) = c for a fixed constant c. Any path that stays on this curve maintains the same function value. This is exactly why level curves are useful: they map out the 'terrain' of a function by showing where it is constant, analogous to contour lines on a topographic map showing constant elevation."
+
+- question: "Why must the gradient vector ∇f be perpendicular to the level curve of f at every point?"
+  type: short-answer
+  answer: "The gradient points in the direction of maximum rate of increase of f. A level curve is the set of points where f is constant — moving along the level curve produces zero change in f, so the directional derivative in any direction tangent to the level curve is zero. Since the gradient is the direction of maximum increase, it cannot have any component in a direction of zero change — it must be entirely orthogonal to the level curve."
+  explanation: "This perpendicularity is one of the most important geometric facts in multivariable calculus. It connects the algebraic gradient to the geometric level curve in a precise way, and it underlies the formula for finding normal vectors to implicitly defined surfaces: the gradient of F(x,y,z) at a point on the surface F=c gives a vector normal to that surface. Building this geometric intuition now makes directional derivatives, the gradient, and tangent planes all follow naturally."
+```
+
 ## Explainer
 
 A multivariable function f(x, y) takes pairs of inputs to a single output — a surface hovering over the xy-plane when you graph it in 3D. But a 3D graph is hard to work with directly. A **contour map** (also called a level curve diagram) solves this by slicing the surface horizontally at different heights c and projecting the slices down to the xy-plane. Each slice gives you a curve in the plane along which the function is constantly equal to c — a **level curve** f(x, y) = c.

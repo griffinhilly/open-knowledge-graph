@@ -36,6 +36,45 @@ Implement a PID controller in simulation on a second-order plant and manually tu
 - Derivative action amplifies high-frequency noise; the practical implementation uses a filtered derivative (D term with first-order low-pass filter), not pure differentiation.
 - PID may not be suitable for plants with large time delays or non-minimum-phase behavior — model-based controllers or Smith predictors are preferred in such cases.
 
+## Questions
+
+```yaml
+- question: "A temperature controller uses only proportional control (Kp only, no I or D). After a step change in setpoint, the system settles. What behavior should you expect at steady state?"
+  type: multiple-choice
+  options:
+    - "The output oscillates indefinitely around the setpoint at constant amplitude"
+    - "The output reaches exactly the setpoint with zero steady-state error"
+    - "The output stabilizes at a value slightly offset from the setpoint — a persistent steady-state error"
+    - "The output overshoots and then drifts toward the setpoint over a very long time"
+  answer: 2
+  explanation: "P-only control almost always leaves a steady-state error. At steady state, the error is constant, so the proportional term produces a fixed control output. If the plant requires a nonzero input to maintain its output at setpoint, then error must remain nonzero to sustain that input. Only by increasing Kp can you reduce the error — but not eliminate it — and high Kp risks instability. The integral term is needed to drive steady-state error to zero."
+
+- question: "A PID controller's actuator saturates at its maximum value during a large setpoint change. While saturated, the integral term keeps accumulating error. When the actuator finally comes out of saturation, what happens?"
+  type: multiple-choice
+  options:
+    - "The controller instantly drives to the correct setpoint because all that accumulated error becomes useful"
+    - "Integrator windup causes a large overshoot — the swollen integral drives the output well past the setpoint before it can be corrected"
+    - "The proportional term compensates for the accumulated integral, preventing overshoot"
+    - "The derivative term detects the rapid change and brakes effectively, preventing windup effects"
+  answer: 1
+  explanation: "Integrator windup occurs when the actuator is saturated and cannot respond to control commands, but the integral term continues summing error as if it could. When saturation ends, the controller has a massively inflated integral that drives the output far past the setpoint before the integral can be 'unwound.' Anti-windup schemes conditionally stop integrating during saturation to prevent this. This is one of the most important practical issues in real PID implementations."
+
+- question: "Adding derivative action to a PID controller always improves closed-loop performance by predicting future error and allowing earlier corrective action."
+  type: true-false
+  answer: false
+  explanation: "Derivative action amplifies high-frequency noise — differentiation multiplies noise power proportionally to frequency squared. Pure derivative action is almost never implemented in practice; a filtered derivative (D term in series with a first-order low-pass filter) is standard. Furthermore, on plants with large time delays or noisy sensors, derivative action can degrade rather than improve performance. It is a useful tool when sensor noise is manageable, not a universally beneficial addition."
+
+- question: "Integral action eliminates steady-state error because it is mathematically equivalent to adding a pole at the origin in the open-loop transfer function, making the closed-loop system Type 1."
+  type: true-false
+  answer: true
+  explanation: "The integral of error ∫e(t)dt has a Laplace transform of E(s)/s — dividing by s is equivalent to adding a pole at s = 0 (the origin) in the open-loop transfer function. A Type 1 system (one pole at the origin) has zero steady-state error for a step input by the final value theorem. This is why integral action unconditionally eliminates steady-state error for constant setpoints — it is a structural property of the loop, not just an empirical tuning effect."
+
+- question: "Why does proportional-only control almost always leave a steady-state error, and what does the integral term do — mechanically — to eliminate it?"
+  type: short-answer
+  answer: "P-only control requires nonzero error to generate nonzero control output. At steady state, the plant needs a fixed input to hold its output — so error must remain nonzero to produce that input. The integral term accumulates error over time: as long as any error persists, the integral grows, continuously increasing control effort. This continues until the error is driven to exactly zero, at which point the accumulated integral holds the control effort at the required steady-state level without needing any ongoing error signal."
+  explanation: "The key insight is that the integral 'remembers' past errors — it can maintain a control output even when current error is zero, because the history of errors is encoded in its accumulated value. This is exactly what P-only control lacks: a mechanism to sustain control effort without sustained error."
+```
+
 ## Explainer
 
 You've studied steady-state error analysis, which tells you how much a feedback system misses its target in the long run, and second-order step response, which characterizes overshoot, damping, and settling. PID control is the standard tool for shaping both simultaneously. The acronym stands for **Proportional-Integral-Derivative**, and each term addresses a distinct aspect of control performance.

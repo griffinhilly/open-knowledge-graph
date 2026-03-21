@@ -29,6 +29,45 @@ E.P. Thompson's 'The Making of the English Working Class' pioneered social histo
 ## How It's Best Learned
 Read Thompson's methodology sections explaining his approach to sources, then compare how later historians adopted, adapted, or critiqued his methods.
 
+## Questions
+
+```yaml
+- question: "E.P. Thompson's central argument about working-class formation is that:"
+  type: multiple-choice
+  options:
+    - "Industrial capitalism automatically created a working class with predictable political consciousness determined by economic position"
+    - "The English working class was made through collective struggle, shared experience, and developing self-consciousness — not simply created by industrial structures"
+    - "Working-class consciousness can only be recovered from documents workers themselves produced"
+    - "Class is purely a cultural category that operates independently of economic conditions"
+  answer: 1
+  explanation: "Thompson's key move was to shift from class as structure (determined by economic position, a Marxist orthodoxy) to class as agency — a relationship that people make through their lived experience and collective action. In his famous preface to The Making of the English Working Class, he insists the class was present at its own making. This means historians must attend to self-understanding, culture, and struggle, not just economic position. Options A and D represent the two poles Thompson was arguing against."
+
+- question: "A historian studying 18th-century food riots uses magistrates' depositions and arrest records as their primary sources. According to Thompson's methodology, the value of these hostile official documents is that:"
+  type: multiple-choice
+  options:
+    - "Magistrates were neutral observers whose professional duty required objective reporting"
+    - "Read against the grain, official surveillance records provide evidence of the crowd's existence, targets, and collective logic even through a hostile filter"
+    - "Legal records are more reliable than participant memoirs for establishing the sequence of historical events"
+    - "Magistrates had more direct access to working people than other elite sources"
+  answer: 1
+  explanation: "Thompson's method of reading 'against the grain' is essential to history from below. Fragmentary sources — produced by institutions surveilling or suppressing non-elite activity — can be turned inside out: a magistrate's report written to justify arrests reveals that a crowd acted, had specific targets, and followed recognizable patterns. The hostility of the source doesn't disqualify it; it just means the historian must read for what the document inadvertently reveals rather than what it intends to say. This is what makes Thompson's approach methodologically distinctive, not just politically sympathetic."
+
+- question: "Thompson argued that workers' political consciousness could be directly read off from their objective economic position within industrial capitalism."
+  type: true-false
+  answer: false
+  explanation: "This is the orthodox Marxist structuralist position that Thompson explicitly rejected. His concept of 'experience' — the way people interpret and live their material conditions through their cultural frameworks, religious traditions, and community histories — was introduced precisely to explain why workers in similar economic positions could have very different political consciousnesses. Two workers in the same factory might respond very differently based on their Methodism, their prior craft traditions, or their local community solidarities. Experience mediates between economic structure and political consciousness."
+
+- question: "Thompson's concept of 'moral economy' refers to a shared set of normative expectations about fair prices and proper economic conduct that could animate collective actions like bread riots."
+  type: true-false
+  answer: true
+  explanation: "Moral economy is one of Thompson's most influential concepts. When crowds forced millers to sell grain at a 'just price' during a shortage, Thompson argued they were not acting irrationally or criminally — they were enforcing customary norms about what constituted legitimate economic behavior. These norms predated market capitalism and provided a principled, collective framework for action. Understanding this requires historians to take popular culture seriously as a site of historical logic rather than dismissing collective action as irrational mob behavior."
+
+- question: "What does it mean to read a historical source 'against the grain,' and why is this technique necessary for recovering non-elite history?"
+  type: short-answer
+  answer: "Reading against the grain means treating a document not for what it intends to say, but for what it inadvertently reveals about the people or events it is surveilling, suppressing, or judging. A magistrate's report written to prosecute rioters unintentionally documents that a crowd existed, what they targeted, and how they organized. Because non-elite groups rarely produced their own archives and are most visible in records made by hostile institutions — courts, churches, employers, governments — historians cannot rely on sources that speak directly for working people. Reading against the grain extracts evidence of agency and self-understanding from documents designed to control or explain away that very agency."
+  explanation: "This is the central methodological innovation of history from below. The fragmentary survival of non-elite traces is not random — it is shaped by which institutions had the power and motive to record. That means the records are often hostile. Thompson showed that this hostility doesn't make the sources useless; it just requires a different interpretive stance. The technique has been adopted across social, labor, feminist, and postcolonial historiography wherever historians work with sources produced by people other than those they are studying."
+```
+
 ## Explainer
 
 You already know from your work in Marxist historiography that class analysis focuses on economic position within structures of production. Thompson accepted that foundation but fundamentally reoriented it. His central argument in *The Making of the English Working Class* (1963) is captured in the preface: class is not a structure or a category, but a relationship that happens when people "live their own history." The English working class was not *created* by industrialization—it was *made* by working people themselves through their collective struggles, shared experiences, and developing self-consciousness. The distinction between class as structure and class as **agency** runs through everything Thompson did.

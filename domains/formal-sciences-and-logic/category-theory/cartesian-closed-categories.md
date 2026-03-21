@@ -33,6 +33,45 @@ Study Set (exponential = function space), Top (topological exponential objects a
 ## Common Misconceptions
 Not every category with finite products is cartesian closed; the exponential object must exist and satisfy the adjunction. In Top, the naive exponential (all continuous functions with pointwise operations) may fail to be in the category unless carefully chosen. Cartesian closed structure depends on the underlying monoidal structure.
 
+## Questions
+
+```yaml
+- question: "The adjunction Hom(A × B, C) ≅ Hom(A, C^B) in a cartesian closed category captures which familiar programming concept?"
+  type: multiple-choice
+  options:
+    - "Pattern matching — decomposing a product type into its components"
+    - "Currying — converting a function of two arguments into a function that takes one argument and returns a function"
+    - "Polymorphism — a single function operating on multiple types"
+    - "Memoization — caching function results to avoid recomputation"
+  answer: 1
+  explanation: "The adjunction says: a morphism from A × B to C (a function taking a pair as input) corresponds naturally and bijectively to a morphism from A to C^B (a function that takes one argument and returns a function from B to C). This is exactly currying. In Haskell, curry :: ((a,b) -> c) -> a -> b -> c; uncurry :: (a -> b -> c) -> (a,b) -> c. The CCC adjunction is the categorical version: the isomorphism is natural (respects composition), invertible (uncurrying exists), and universal (works for all A, B, C). The evaluation morphism ev: C^B × B → C is the categorical analog of function application."
+
+- question: "The category Grp of groups and group homomorphisms is not cartesian closed. What is the core reason?"
+  type: multiple-choice
+  options:
+    - "Groups do not have a terminal object, which is required for cartesian closure"
+    - "The binary product of two groups does not exist in Grp"
+    - "The set of group homomorphisms from A to B cannot be given a natural group structure, so no exponential object exists"
+    - "Grp is a closed category but not a cartesian one because the tensor product is not the categorical product"
+  answer: 2
+  explanation: "Grp does have a terminal object (the trivial group) and binary products (direct products A × B). What it lacks is exponential objects. The exponential B^A should represent 'the object of all morphisms from A to B' — in Set this is the function set with composition. In Grp, the set of group homomorphisms Hom(A, B) does not carry a natural group structure: the pointwise product of two homomorphisms (f·g)(x) = f(x)·g(x) is only a homomorphism when B is abelian. For non-abelian B, Hom(A, B) cannot be made into a group naturally, so the exponential fails to exist. This shows that cartesian closure is a strong condition that fails even in well-behaved algebraic categories."
+
+- question: "Every cartesian closed category must have all finite products, including a terminal object."
+  type: true-false
+  answer: true
+  explanation: "By definition, a CCC requires: (1) a terminal object 1 (the empty product), (2) all binary products A × B (and hence all finite products by iteration), and (3) exponential objects B^A for every pair A, B satisfying the adjunction Hom(C × A, B) ≅ Hom(C, B^A). The terminal object and binary products give the 'cartesian' part; the exponentials give the 'closed' part. The terminal object plays the role of the unit for the monoidal structure, and the product is the tensor. You cannot have cartesian closed structure without the cartesian structure (products) as its foundation."
+
+- question: "A category that has all finite products automatically also has all exponential objects, making it cartesian closed."
+  type: true-false
+  answer: false
+  explanation: "Having finite products is necessary but not sufficient for cartesian closure. The exponential B^A must exist as a specific object satisfying the adjunction Hom(C × A, B) ≅ Hom(C, B^A) naturally in all three variables. Many categories have products but fail to be cartesian closed because the required exponential objects do not exist. Examples: Grp has products but no exponentials (for non-abelian groups). Top (all topological spaces) has products but is not cartesian closed with the pointwise topology on function spaces — you need to restrict to compactly generated spaces. Checking cartesian closure requires explicitly verifying the representability of Hom(− × A, B) as a functor."
+
+- question: "What is the Curry-Howard-Lambek correspondence, and what three structures does it connect?"
+  type: short-answer
+  answer: "The Curry-Howard-Lambek correspondence is a three-way equivalence between: (1) types and terms of simply-typed lambda calculus, (2) propositions and proofs in intuitionistic propositional logic, and (3) objects and morphisms in cartesian closed categories. Under this correspondence, function types (A → B) correspond to exponential objects (B^A) and to logical implication (A ⊃ B); lambda abstraction corresponds to currying (the CCC adjunction); function application corresponds to the evaluation morphism; and products correspond to logical conjunction and the type-theoretic product."
+  explanation: "The significance is that three apparently different disciplines — programming language theory, proof theory, and abstract algebra — are secretly the same subject, expressed in different notation. A program that type-checks is simultaneously a valid proof and a well-defined morphism in a CCC. This means insights transfer freely: type-theoretic constructions like dependent types correspond to more expressive categories (locally cartesian closed categories, toposes), and categorical constructions suggest new programming language features. The correspondence is the foundation of proof assistants like Coq and Agda, where writing a program and proving a theorem are literally the same activity."
+```
+
 ## Explainer
 
 You already know that a category with finite products has a monoidal structure where the tensor product is the categorical product A × B and the unit is the terminal object 1. A **cartesian closed category (CCC)** adds one more ingredient: for every pair of objects A and B, there is an **exponential object** B^A (also written [A, B] or A ⇒ B) that internalizes the notion of "the object of morphisms from A to B." In Set, this exponential is literally the set of all functions from A to B. The cartesian closed condition is the requirement that this exponential behaves correctly with respect to products.

@@ -34,6 +34,45 @@ Compare the aims and outcomes of the Haitian, American, and French Revolutions s
 - The Haitian Revolution was not simply a rebellion — it was a sophisticated military and political struggle that defeated three European colonial powers.
 - Haiti's subsequent poverty is not a legacy of the revolution itself but of the crushing indemnity France demanded for recognition of independence and the international economic isolation imposed by slaveholding states.
 
+## Questions
+
+```yaml
+- question: "France abolished slavery in its colonies in 1794, during the height of the Haitian Revolution. What was the primary reason?"
+  type: multiple-choice
+  options:
+    - "The French National Convention had always intended to extend the Declaration of the Rights of Man to enslaved people"
+    - "The British pressured France to abolish slavery as a condition of peace negotiations"
+    - "Toussaint Louverture's forces were fighting alongside Spain, and France needed to reclaim their military alliance by offering freedom"
+    - "The plantation economy had already collapsed due to the revolt, making abolition economically costless"
+  answer: 2
+  explanation: "France's 1794 abolition was driven primarily by military calculation: Toussaint and his forces had aligned with Spain, France's enemy, after the Spanish offered freedom to enslaved fighters. By abolishing slavery, the French Convention hoped to win Toussaint's army back to their side — a strategic move, not a principled one. This context matters for understanding why Napoleon reversed abolition in 1802 when circumstances changed."
+
+- question: "Which factor best explains Haiti's persistent poverty and underdevelopment in the 19th and 20th centuries?"
+  type: multiple-choice
+  options:
+    - "The revolution's violence permanently destroyed Haiti's agricultural infrastructure and institutional capacity"
+    - "The newly independent Haitian state was too internally divided to establish effective governance"
+    - "France extracted a massive indemnity as the price of diplomatic recognition, and slaveholding nations isolated Haiti economically and diplomatically for decades"
+    - "The plantation crop system was incompatible with free labor, making export-driven growth impossible after independence"
+  answer: 2
+  explanation: "France demanded an indemnity equivalent to Haiti's entire annual revenue — to compensate former enslavers for their 'lost property' — as the price of diplomatic recognition. Haiti paid this debt for over a century, diverting resources from development. Simultaneously, the United States refused diplomatic recognition until 1862, and other slaveholding powers maintained economic isolation to prevent Haiti from serving as an inspiring example. This external punishment, not the revolution itself, is the primary structural explanation for Haiti's poverty."
+
+- question: "The Haitian Revolution was primarily a spontaneous rebellion by enslaved people, not a sophisticated political and military campaign."
+  type: true-false
+  answer: false
+  explanation: "The Haitian Revolution was a complex, multi-decade military and political struggle that simultaneously fought France, Spain, and Britain — three European colonial powers — and navigated shifting alliances among enslaved Africans, gens de couleur libres, and white colonists. Leaders like Toussaint Louverture were skilled strategists who read Enlightenment texts, negotiated with European powers, and built disciplined armies. Dismissing it as a 'spontaneous rebellion' is part of the deliberate historical suppression that slaveholding societies imposed on its memory."
+
+- question: "The Haitian Revolution represents a more radical fulfillment of Enlightenment principles of liberty and equality than either the American or French Revolutions, both of which explicitly excluded enslaved people from those principles."
+  type: true-false
+  answer: true
+  explanation: "The American Revolution preserved slavery and the French Revolution's universalist language stopped at the colonial color line until military necessity forced the issue. Haiti's revolution extended liberty, equality, and national sovereignty to a people who had been legally classified as property — actually applying principles that the other revolutions proclaimed but refused to universalize. This is why the revolution was so threatening to slaveholding societies: it took Enlightenment language at face value."
+
+- question: "Why was the Haitian Revolution so threatening to slaveholding societies across the Americas, and how did those societies respond to limit its influence?"
+  type: short-answer
+  answer: "The Haitian Revolution demonstrated that enslaved people could successfully revolt, defeat European armies, and establish an independent nation — a direct refutation of the ideological foundations of slavery. Slaveholding societies in the United States, Cuba, Brazil, and elsewhere feared this example would inspire their own enslaved populations to revolt. Their response was multifaceted: the U.S. refused diplomatic recognition until 1862; France demanded a punishing indemnity as the price of recognition; and slaveholding elites deliberately suppressed the revolution in historical memory, keeping it out of newspapers, textbooks, and public discourse. The suppression was ideological work, not mere ignorance."
+  explanation: "Understanding the suppression itself is part of understanding the revolution's historical significance. The absence of the Haitian Revolution from Western historical memory for generations is not an oversight — it is evidence of how threatening its example was. This connects to broader questions about how history is constructed and whose stories get told."
+```
+
 ## Explainer
 
 From your study of the colonial plantation economy, you know that Saint-Domingue was the most productive plantation colony in the world by the late 18th century — its sugar and coffee wealth built on the forced labor of hundreds of thousands of enslaved Africans under extraordinarily brutal conditions. The Haitian Revolution is what happens when those conditions intersect with a crisis of colonial authority and the ideas of an age of revolution.

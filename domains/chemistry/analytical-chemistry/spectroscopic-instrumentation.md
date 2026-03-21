@@ -37,6 +37,45 @@ Disassemble (or examine a cutaway diagram of) a UV-Vis spectrophotometer, trace 
 - A narrower monochromator slit width does not always give better results; it improves spectral resolution but reduces light throughput and S/N, so the optimal slit width balances resolution against noise for the specific measurement.
 - Array detectors (CCD, photodiode array) do not inherently have better sensitivity than PMTs; their advantage is multichannel capability, while PMTs typically offer superior sensitivity for single-wavelength measurements.
 
+## Questions
+
+```yaml
+- question: "An analyst needs to resolve two spectral peaks separated by only 0.5 nm. They narrow the monochromator exit slit to improve resolution. What is the expected trade-off?"
+  type: multiple-choice
+  options:
+    - "Resolution improves and signal strength increases, because less stray light reaches the detector"
+    - "Resolution improves but signal-to-noise ratio decreases, because less light passes through to the detector"
+    - "Resolution improves and signal-to-noise is unchanged, because the detector amplifies the reduced signal proportionally"
+    - "Resolution does not change — only the detector type determines spectral resolution"
+  answer: 1
+  explanation: "The exit slit of a monochromator acts as a bandpass filter: narrowing it restricts the wavelength range reaching the sample and detector, improving spectral resolution (closer peaks can be distinguished). However, a narrower slit also reduces total photon throughput — fewer photons reach the detector. Since photon shot noise does not decrease proportionally, the signal-to-noise ratio worsens. The optimal slit width balances these competing demands. Option C is wrong: detectors amplify the signal and noise together, so amplification cannot recover a poor S/N."
+
+- question: "A researcher wants to monitor a fast reaction by recording a complete UV-Vis spectrum (200–800 nm) every 100 milliseconds. Which instrument configuration is most suitable?"
+  type: multiple-choice
+  options:
+    - "A scanning monochromator with a PMT, stepping through wavelengths sequentially at maximum speed"
+    - "A polychromator with a CCD array detector, capturing all wavelengths simultaneously in a single acquisition"
+    - "A narrow-slit monochromator with a single photodiode, monitoring the peak wavelength of the analyte"
+    - "A hollow-cathode lamp with a PMT, measuring elemental emission at characteristic lines"
+  answer: 1
+  explanation: "A polychromator disperses light across an array detector (CCD or photodiode array), capturing the entire spectrum in a single integration — no mechanical scanning required. This is the only configuration capable of recording a full spectrum in milliseconds. A scanning monochromator with a PMT measures one wavelength at a time and must step through the range sequentially, making full-spectrum acquisition far too slow for fast kinetics. Hollow-cathode lamps (option D) are used in atomic absorption spectroscopy for element-specific single-wavelength measurements, not broadband spectral recording."
+
+- question: "A charge-coupled device (CCD) array detector is inherently more sensitive than a photomultiplier tube (PMT) for single-wavelength absorbance measurements."
+  type: true-false
+  answer: false
+  explanation: "PMTs typically offer superior sensitivity for single-wavelength measurements. A PMT amplifies the signal from each incoming photon through a cascade of dynodes, achieving very high gain and extremely low noise for single-channel detection. A CCD is an array of pixels that share the light across many channels simultaneously — its advantage is multichannel capability (full spectrum at once), not per-pixel sensitivity. When only one wavelength is needed, a PMT usually outperforms a CCD. The choice is not about which is 'better' in the abstract, but which capability matches the measurement need."
+
+- question: "In a monochromator, the diffraction grating separates white light into its component wavelengths, and the exit slit width determines the spectral bandwidth — the range of wavelengths that reach the sample."
+  type: true-false
+  answer: true
+  explanation: "This accurately describes monochromator operation. The diffraction grating is the dispersive element: it reflects light at different angles depending on wavelength, spreading white light into a spectrum at the focal plane. The exit slit is positioned at that focal plane, and its width selects how broad a band of wavelengths passes through. A wider slit passes a broader band (more light, lower resolution); a narrower slit passes a narrower band (less light, higher resolution). This is the fundamental operating principle of a monochromator."
+
+- question: "Why is there a fundamental trade-off between spectral resolution and signal-to-noise ratio when adjusting the slit width of a monochromator, and what determines the optimal slit width?"
+  type: short-answer
+  answer: "Spectral resolution depends on how narrow a wavelength band the monochromator passes to the detector: a narrower slit excludes wavelengths closer to the target wavelength, allowing more closely spaced peaks to be resolved. However, a narrower slit also transmits fewer photons, reducing the signal. Since photon shot noise scales as the square root of signal intensity while signal scales linearly, reducing photon throughput worsens S/N. The optimal slit width is the widest setting that still resolves the spectral features of interest — beyond that point, widening the slit gains signal without sacrificing needed resolution."
+  explanation: "This trade-off is inherent to any bandpass-limited measurement: you cannot simultaneously maximize both resolution (narrow band) and signal strength (wide band). Practical optimization requires knowing whether the measurement is resolution-limited (peaks too close to resolve) or noise-limited (signal too weak to detect reliably), then setting the slit width to address the binding constraint."
+```
+
 ## Explainer
 
 You already know from Beer's Law that absorbance depends on path length, concentration, and molar absorptivity at a specific wavelength. But how does an instrument actually isolate that wavelength, pass light through your sample, and turn what comes out into a number? Every spectrophotometer is built from the same four building blocks arranged in sequence: a **light source** that produces a broad range of wavelengths, a **wavelength selector** that narrows the beam to the wavelength you care about, a **sample holder** where the light passes through your analyte, and a **detector** that converts transmitted light into an electrical signal proportional to intensity.

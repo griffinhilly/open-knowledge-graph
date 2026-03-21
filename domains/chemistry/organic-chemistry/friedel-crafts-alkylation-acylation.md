@@ -32,6 +32,45 @@ Draw the carbocation and acylium ion formation, then the attack on the benzene r
 - Assuming Friedel-Crafts alkylation with primary alkyl halides gives the primary substitution product; rearrangement to more stable carbocations occurs.
 - Forgetting that the initial FC product (with an alkyl or acyl group) is more activated toward further substitution, leading to over-alkylation unless controlled carefully.
 
+## Questions
+
+```yaml
+- question: "A chemist reacts benzene with 1-chloropropane and AlCl₃. What is the major product?"
+  type: multiple-choice
+  options:
+    - "n-propylbenzene, from direct attachment of the n-propyl group"
+    - "Isopropylbenzene (cumene), from rearrangement of the primary carbocation to a secondary one"
+    - "No reaction — primary alkyl halides cannot generate carbocations"
+    - "Dipropylbenzene, due to over-alkylation"
+  answer: 1
+  explanation: "1-Chloropropane + AlCl₃ generates a primary carbocation, which rapidly rearranges via a 1,2-hydride shift to the more stable secondary carbocation (isopropyl cation). This rearranged electrophile then attacks benzene, giving isopropylbenzene as the major product — not the n-propyl product the reagent structure might suggest. This is the central practical limitation of Friedel-Crafts alkylation with primary alkyl halides."
+
+- question: "A chemist needs to add an n-butyl group to benzene without rearrangement. Which strategy is best?"
+  type: multiple-choice
+  options:
+    - "Use 1-chlorobutane with excess AlCl₃ to drive the reaction before rearrangement occurs"
+    - "Use butanoyl chloride with AlCl₃ (acylation), then reduce the ketone to a methylene group"
+    - "Use 2-chlorobutane instead, since secondary carbocations are more stable and won't rearrange further"
+    - "Perform the alkylation at low temperature to suppress rearrangement"
+  answer: 1
+  explanation: "Acylation with butanoyl chloride generates the resonance-stabilized acylium ion, which does not rearrange, giving a phenyl ketone with the correct four-carbon chain. The ketone is then reduced to a CH₂ group using Clemmensen or Wolff-Kishner reduction, yielding the straight-chain n-butylbenzene. This two-step acylation-reduction sequence is the standard workaround for the carbocation rearrangement problem in alkylation."
+
+- question: "In Friedel-Crafts acylation, the acylium ion does not rearrange because it is resonance-stabilized across the carbon-oxygen bond."
+  type: true-false
+  answer: true
+  explanation: "The acylium ion R–C≡O⁺ is stabilized by resonance: the positive charge is delocalized between the carbonyl carbon and the oxygen. This stability means the ion has no thermodynamic driving force to rearrange to a different structure. In contrast, a primary carbocation in alkylation has no comparable stabilization and rapidly shifts toward a more stable secondary or tertiary ion via hydride or methyl migration."
+
+- question: "If only one equivalent of alkyl halide is used in a Friedel-Crafts alkylation, over-alkylation is not a concern because stoichiometry limits the reaction to one substitution."
+  type: true-false
+  answer: false
+  explanation: "Stoichiometry does not prevent over-alkylation. The alkyl group attached in the first substitution is electron-donating, making the monoalkylated ring more reactive toward electrophilic attack than the original benzene. The product is therefore a better substrate for the second alkylation than the starting material, and it will react preferentially even when alkyl halide is limiting. To get primarily monoalkylation, excess benzene (as solvent) is typically used to dilute the more reactive product — not a stoichiometric limit on the reagent."
+
+- question: "Why does Friedel-Crafts reaction fail on strongly deactivated aromatic rings such as nitrobenzene, even with excess Lewis acid catalyst?"
+  type: short-answer
+  answer: "Strongly deactivating groups like –NO₂ withdraw electron density from the ring, making it electron-poor. Electrophilic aromatic substitution requires the ring to act as a nucleophile and attack the electrophile. When the ring lacks sufficient electron density, it cannot effectively attack the carbocation or acylium ion, so no substitution occurs. The ring simply is not nucleophilic enough to form the required σ-complex intermediate."
+  explanation: "This reflects a general rule: EAS requires an electron-rich aromatic ring. Deactivating meta-directors withdraw electron density through induction and resonance, lowering the ring's HOMO energy and reducing its reactivity. Friedel-Crafts reactions are among the most sensitive to deactivation because the carbocation/acylium electrophiles require significant nucleophilic attack to form the sigma complex. Amino-substituted rings fail for a different reason — the amine coordinates to AlCl₃, poisoning the catalyst."
+```
+
 ## Explainer
 
 Friedel-Crafts reactions are the primary way to attach carbon groups directly to a benzene ring, and they follow the general electrophilic aromatic substitution mechanism you already know: generate an electrophile, let the electron-rich aromatic ring attack it to form a σ-complex, then lose a proton to restore aromaticity. What distinguishes the two Friedel-Crafts variants is how the electrophile is generated and the practical complications that follow.

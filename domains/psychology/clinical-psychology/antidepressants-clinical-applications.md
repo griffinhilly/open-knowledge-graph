@@ -19,6 +19,45 @@ status: draft
 ## Core Idea
 Antidepressants increase synaptic monoamine availability through various mechanisms. SSRIs and SNRIs are first-line agents; other classes are used for treatment-resistant cases or specific comorbidities.
 
+## Questions
+
+```yaml
+- question: "SSRIs block the serotonin transporter within hours of the first dose, yet patients typically don't experience clinical improvement for 2–4 weeks. What is the most complete explanation for this delay?"
+  type: multiple-choice
+  options:
+    - "SSRIs require weeks to fully saturate the serotonin transporter and achieve meaningful blockade"
+    - "The acute synaptic effect is the trigger, but therapeutic benefit depends on downstream neuroplastic changes — BDNF upregulation, hippocampal neurogenesis, HPA normalization — that accumulate over weeks"
+    - "Patients don't notice improvement earlier because the placebo effect requires several weeks to develop"
+    - "The first weeks are required for the liver to metabolize the drug into its active therapeutic form"
+  answer: 1
+  explanation: "SERT blockade is nearly immediate, but increased synaptic serotonin alone is not therapeutic. The weeks-long delay reflects the time needed for downstream adaptive changes: increased BDNF expression promotes hippocampal neurogenesis, and normalization of the HPA (stress) axis requires sustained exposure. The acute synaptic effect triggers a cascade; the neuroplastic reorganization is the actual treatment. This is why the simple 'monoamine deficiency' model is incomplete — it explains the mechanism of action but not the mechanism of therapy."
+
+- question: "A patient presents with depression characterized primarily by fatigue, poor concentration, and chronic pain — with little complaint of low mood or anhedonia. Which antidepressant would be most rationally targeted to this symptom profile?"
+  type: multiple-choice
+  options:
+    - "SSRI — serotonin is the primary neurotransmitter in all depressive presentations"
+    - "SNRI — noradrenergic enhancement specifically targets fatigue, concentration difficulties, and pain comorbidities"
+    - "MAOI — broadest mechanism ensures coverage of all symptom types"
+    - "Mirtazapine — its sedating effect helps address fatigue"
+  answer: 1
+  explanation: "SNRIs block both SERT and NET (norepinephrine transporter), and norepinephrine enhancement has particular efficacy for fatigue, cognitive symptoms, and pain. When the presenting picture is dominated by these noradrenergic symptoms rather than classic anhedonia and low mood, an SNRI rationally targets the relevant neurotransmitter system. Option D confuses sedation (useful for insomnia) with energy restoration. Medication selection means matching the drug's mechanism to the patient's symptom profile — not applying one formula to all depressions."
+
+- question: "The 2–4 week delay before antidepressant benefit suggests that simply increasing synaptic serotonin concentration is not the complete mechanism of antidepressant action."
+  type: true-false
+  answer: true
+  explanation: "If more serotonin in the synapse were the direct cause of clinical improvement, benefit would follow SERT blockade within hours or days. The weeks-long lag forces revision of the simple monoamine hypothesis. The current model holds that serotonin increase is the trigger for downstream neuroplastic changes — BDNF, neurogenesis, HPA normalization — and these adaptations, not the acute serotonin increase itself, are what produce clinical recovery."
+
+- question: "SSRIs are considered second-line agents for major depressive disorder because their side effect burden is higher than that of tricyclic antidepressants."
+  type: true-false
+  answer: false
+  explanation: "SSRIs are first-line agents precisely because their side effect profile is *more tolerable* than tricyclics. TCAs have anticholinergic effects, cause cardiac conduction abnormalities, and are dangerous in overdose — a significant risk in depressed patients. MAOIs require strict dietary restrictions due to tyramine interactions. SSRIs are safer, better tolerated, and have demonstrated efficacy — which is why they are first-line. TCAs and MAOIs remain options for treatment-resistant cases or when specific comorbidities make them preferable."
+
+- question: "Why is the 2–4 week lag before antidepressant benefit clinically important, and what does it imply about the true mechanism of action?"
+  type: short-answer
+  answer: "Clinically, the lag requires explicit patient counseling: patients must continue the medication through the initial weeks when they feel no benefit, since early discontinuation is a major cause of treatment failure. Mechanistically, the lag reveals that the simple monoamine hypothesis is incomplete. SERT blockade is immediate but insufficient; the therapeutic effect depends on downstream neuroplastic changes — BDNF upregulation, hippocampal neurogenesis, HPA normalization — that take weeks to accumulate. The acute synaptic effect is the trigger; neuroplastic reorganization is the actual treatment."
+  explanation: "This distinction between trigger and therapeutic mechanism has practical implications beyond counseling. It explains why antidepressant dosing and duration matter: the neuroplastic changes require sustained exposure, not just acute synaptic effect. It also explains why response takes similar time across different antidepressant classes despite different primary mechanisms — the common downstream pathway (neuroplasticity) is the rate-limiting step."
+```
+
 ## Explainer
 
 You already understand from the DSM-5 framework that major depressive disorder is diagnosed based on a constellation of symptoms—depressed mood, anhedonia, sleep disturbances, cognitive impairment—meeting specified duration and severity thresholds. Antidepressants don't target a single brain deficit but push multiple neurobiological systems in ways that, over weeks, shift the clinical picture. Understanding the mechanisms helps explain both why these drugs work and why they take so long to work.

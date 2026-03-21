@@ -28,6 +28,44 @@ Compare behavioral learning curves with synaptic plasticity timecourse. Study pr
 ## Common Misconceptions
 Learning only happens in prefrontal cortex / synaptic plasticity is the complete story of learning / all learning requires NMDA receptors / memory consolidation is fast.
 
+## Questions
+
+```yaml
+- question: "A drug that blocks protein synthesis is administered to a rat immediately after it learns a maze. What would you predict about its memory?"
+  type: multiple-choice
+  options:
+    - "Both short-term and long-term memory would be abolished, since protein synthesis underlies all memory"
+    - "Long-term memory would be abolished, but short-term memory would be preserved"
+    - "Short-term memory would be abolished, but long-term memory would be preserved"
+    - "Neither form of memory would be affected, since protein synthesis is not required for memory storage"
+  answer: 1
+  explanation: "The two-phase model of memory consolidation reveals that early (short-term) memory relies on rapid phosphorylation of existing proteins and AMPA receptor insertion into synapses — no new proteins needed. Late (long-term) memory requires structural changes: spine growth, new receptor scaffold construction, and dendritic remodeling. These structural changes can only occur if new proteins are synthesized in the hours after learning. Blocking protein synthesis prevents the late phase while leaving the early phase intact — a classic dissociation that proved the two stages are mechanistically distinct."
+
+- question: "During fear conditioning, a presynaptic neuron in the amygdala fires repeatedly while its postsynaptic target is simultaneously active. Which sequence of molecular events is most likely to follow over the next several hours?"
+  type: multiple-choice
+  options:
+    - "The synapse weakens through long-term depression as the neuron becomes fatigued from repeated activation"
+    - "Calcium influx through NMDA receptors activates CaMKII, which inserts AMPA receptors; CREB then drives gene expression leading to spine growth"
+    - "NMDA receptors are permanently blocked to prevent overstimulation of the postsynaptic neuron"
+    - "The neuron migrates toward neighboring circuits to distribute the memory trace across a wider area"
+  answer: 1
+  explanation: "Hebbian coincidence detection works through NMDA receptors: they open only when the presynaptic cell releases glutamate AND the postsynaptic membrane is already depolarized. This coincidence allows calcium to enter, activating CaMKII, which rapidly phosphorylates and inserts AMPA receptors (early, fast phase). Over hours, calcium signaling activates CREB, which switches on immediate early genes (Arc, c-fos) whose protein products cause spines to grow larger and new spines to sprout — the structural basis of stable long-term memory."
+
+- question: "Memory consolidation is fast — the molecular changes required for a stable long-term memory are complete within seconds to minutes of a learning event."
+  type: true-false
+  answer: false
+  explanation: "Consolidation is slow and extends over hours. Short-term memory is fast (seconds to minutes: phosphorylation, AMPA receptor insertion). But long-term memory requires new protein synthesis for structural changes — spine growth, receptor scaffold assembly, new synaptic connections. Protein synthesis itself takes time, and the window of vulnerability (during which protein synthesis inhibitors can block long-term memory) extends for hours after the learning event. This extended consolidation window is why a concussion shortly after a traumatic event can cause retrograde amnesia for just that event."
+
+- question: "CREB activation following repeated synaptic activity is crucial for long-term memory because it initiates gene transcription that produces the proteins needed for structural synaptic remodeling."
+  type: true-false
+  answer: true
+  explanation: "CREB (cAMP response element-binding protein) is a transcription factor that acts as a molecular switch between early and late LTP. When phosphorylated by PKA or CaMKIV, it binds to CRE promoter elements and activates immediate early genes like Arc and c-fos. These gene products in turn drive the physical remodeling of synapses — spine enlargement, new spine growth, changes in postsynaptic density — that transforms a transient synaptic strengthening into a stable memory trace lasting days to years."
+
+- question: "Why does blocking protein synthesis prevent long-term but not short-term memory, and what does this reveal about the architecture of memory consolidation?"
+  type: short-answer
+  answer: "Short-term memory is encoded by rapid post-translational modification of existing proteins (CaMKII phosphorylation, AMPA receptor insertion into the synapse) and does not require new protein synthesis. Long-term memory requires structural remodeling — growing dendritic spines, building new receptor scaffolds, altering the postsynaptic density — which depends on proteins that must be freshly manufactured. Blocking protein synthesis leaves the fast early phase intact but prevents the late structural phase from occurring. This reveals that memory consolidation has two mechanistically distinct stages: a fast, fragile early phase and a slow, protein-synthesis-dependent late phase that produces the stable physical changes underlying durable memory."
+```
+
 ## Explainer
 
 The phrase "neurons that fire together wire together" — **Hebbian learning** — captures the core logic of how experience changes the brain. From your study of synaptic plasticity, you know that long-term potentiation (LTP) strengthens synapses when pre- and postsynaptic neurons activate coincidentally. What this topic adds is the molecular story of *how* that strengthening becomes permanent and *what biological machinery* encodes it as a lasting memory trace.

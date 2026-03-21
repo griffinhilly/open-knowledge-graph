@@ -32,6 +32,45 @@ Walk through your living space and estimate the replacement cost of everything y
 - Homeowners insurance covers flood and earthquake damage; standard policies exclude both, requiring separate flood insurance (through NFIP or private insurers) and earthquake policies.
 - You only need enough coverage for what you paid for your home; you need enough to rebuild the structure at current construction costs, which can differ significantly from the purchase price or market value.
 
+## Questions
+
+```yaml
+- question: "Your apartment is burglarized. Your 4-year-old laptop (originally $1,200) and TV (originally $900) are stolen. Your renters insurance policy covers personal property at 'actual cash value.' What will the insurer most likely pay?"
+  type: multiple-choice
+  options:
+    - "The current cost to buy comparable replacement items today"
+    - "The original purchase price of each item"
+    - "The depreciated current market value of each item — likely far below the original purchase price"
+    - "Nothing, because renters insurance covers liability but not personal property theft"
+  answer: 2
+  explanation: "Actual cash value (ACV) deducts depreciation from the payout. A 4-year-old laptop that cost $1,200 might have a current market value of $300–$400 under ACV — the insurer pays that, not $1,200. Option 0 describes replacement cost coverage, which pays what it costs to buy a comparable item today. The premium difference between ACV and replacement cost policies is usually modest, but the payout difference after a major loss can be thousands of dollars. This is the most consequential policy decision in personal property coverage."
+
+- question: "A major storm brings flooding that damages the interior of your home. You have a standard homeowners policy. Which statement correctly describes your flood coverage?"
+  type: multiple-choice
+  options:
+    - "You are covered because homeowners insurance covers all weather-related damage"
+    - "Flood damage is excluded from standard homeowners policies and requires a separate flood insurance policy"
+    - "You are covered up to your dwelling limit minus your deductible, as with any other structural damage"
+    - "You are covered only if the flood originated from a burst pipe, not from rising exterior water"
+  answer: 1
+  explanation: "Flood damage is a standard exclusion in homeowners insurance — not buried fine print but a genuine product-category distinction. Separate flood insurance is available through the federal National Flood Insurance Program (NFIP) or private insurers. Similarly, earthquake damage is excluded and requires its own policy. Many homeowners discover these exclusions only when filing a claim, which is why understanding policy scope before a loss is critical. Options 0 and 2 reflect the common misconception that homeowners insurance covers all natural disasters."
+
+- question: "A renters insurance policy can pay for your legal defense and damages if a guest injures themselves in your apartment and sues you."
+  type: true-false
+  answer: true
+  explanation: "This is the personal liability component of renters insurance — one of its most valuable and most overlooked features. Liability coverage protects you if someone is injured on your property or if you accidentally damage someone else's property. For most renters policies, liability limits of $100,000–$300,000 are standard. This protection exists regardless of how modest your belongings are, making renters insurance valuable even for people who own very little."
+
+- question: "Renters insurance is primarily valuable for people with expensive belongings; if your possessions have modest total value, coverage offers little benefit."
+  type: true-false
+  answer: false
+  explanation: "This misses two key points. First, most people dramatically underestimate the replacement cost of their belongings — furniture, clothing, kitchenware, electronics, and books can easily total $20,000–$50,000 even in a modest apartment. Second, and more importantly, the personal liability component of renters insurance is valuable regardless of what you own. A single lawsuit from an injured guest could cost far more than the total value of your possessions. Renters insurance often costs under $20/month precisely because the insurer is covering both property and liability risk across many policyholders."
+
+- question: "Two renters lose identical belongings in a fire — $30,000 in replacement value. One receives $28,000; the other receives $11,000. Both had the same coverage limit. Explain the most likely reason for the difference."
+  type: short-answer
+  answer: "The first renter had a replacement cost policy, which pays the current cost to replace each item with a comparable one today. The second had an actual cash value (ACV) policy, which deducts depreciation from every item's payout. For belongings that are several years old — furniture, electronics, appliances — depreciation can reduce payouts to a fraction of replacement cost. The ACV policyholder thought they were insured for their belongings but received significantly less than needed to replace them."
+  explanation: "The replacement cost vs. ACV distinction is the single most consequential policy decision in personal property insurance. Insurers offer both because ACV policies have lower premiums — they pay out less at claim time. The practical lesson: always ask whether a personal property policy pays replacement cost or ACV, and factor in the premium difference when choosing. For most people, the small premium increase for replacement cost coverage is worth it."
+```
+
 ## Explainer
 
 From your study of insurance principles, you already know the core idea: you pay a small, predictable premium to transfer the risk of a large, unpredictable loss to an insurer. Homeowners and renters insurance applies that framework to where you live. But the details matter enormously here — the difference between having the right coverage and thinking you have coverage can cost tens of thousands of dollars when you actually need to file a claim.

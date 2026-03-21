@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 The DTFT X(e^(jω)) = Σ x[n]e^(-jωn) is the Fourier transform of a discrete-time signal, relating discrete-time signals to periodic continuous frequency responses. Unlike the Z-transform (valid on the unit circle), the DTFT is defined only for |z|=1.
 
+## Questions
+
+```yaml
+- question: "A discrete-time system has poles at z = 0.5 and z = 1.5. Can its DTFT be computed?"
+  type: multiple-choice
+  options:
+    - "Yes — the DTFT is always defined for any discrete-time system by evaluating X(z) at z = e^(jω)"
+    - "No — the pole at z = 1.5 places it outside the unit circle, so the ROC of the Z-transform excludes the unit circle and the DTFT does not exist"
+    - "Yes — the DTFT averages the contributions of stable and unstable poles, converging to a finite result"
+    - "No — the DTFT cannot be computed for systems with more than one pole, regardless of their location"
+  answer: 1
+  explanation: "The DTFT is the Z-transform evaluated on the unit circle |z| = 1. For this evaluation to be valid, the unit circle must lie inside the Z-transform's region of convergence (ROC). A pole at z = 1.5 means the ROC is |z| > 1.5 (for a causal system), which does not include the unit circle. Physically, this corresponds to an unstable system whose impulse response grows without bound — no frequency-domain representation exists via the DTFT. The pole at z = 0.5 alone would give ROC |z| > 0.5, which includes the unit circle and allows the DTFT."
+
+- question: "What is the fundamental reason why the DTFT X(e^(jω)) is exactly periodic with period 2π in ω?"
+  type: multiple-choice
+  options:
+    - "Digital frequency must be normalized to fit within a bounded range, so periodicity is a mathematical convention"
+    - "Multiplying a discrete sequence x[n] by e^(j(ω+2π)n) produces exactly the same result as multiplying by e^(jωn), because e^(j2πn) = 1 for all integers n"
+    - "The Z-transform is defined on a circle, making all evaluations naturally periodic in the angular variable"
+    - "The DFT (which approximates the DTFT) is computed over N discrete points, introducing periodicity as a numerical artifact"
+  answer: 1
+  explanation: "The 2π-periodicity is not a convention or approximation — it is an exact algebraic identity. For any integer n, e^(j2πn) = cos(2πn) + j·sin(2πn) = 1. Therefore e^(j(ω+2π)n) = e^(jωn)·e^(j2πn) = e^(jωn)·1 = e^(jωn). Substituting into the DTFT sum, X(e^(j(ω+2π)}) = Σx[n]e^(-j(ω+2π)n) = Σx[n]e^(-jωn) = X(e^(jω)). The periodicity is baked into integer-indexed sampling: a discrete-time signal simply cannot distinguish frequencies that differ by 2π."
+
+- question: "The DTFT of any stable discrete-time system (all poles strictly inside the unit circle) always exists and is a continuous, periodic function of digital frequency ω."
+  type: true-false
+  answer: true
+  explanation: "For a stable system, all poles are inside the unit circle, which means the ROC of the Z-transform includes the unit circle. Evaluating X(z) on the unit circle (z = e^(jω)) is therefore valid, and the result X(e^(jω)) exists for all ω. It is continuous in ω (since the sum defining the DTFT is a sum of continuous functions of ω) and exactly 2π-periodic. This is the theoretical foundation for frequency-domain analysis of stable digital filters."
+
+- question: "The 2π-periodicity of the DTFT is a limitation of discrete sampling that can be overcome by using a higher sampling rate, which extends the usable frequency range beyond 2π radians."
+  type: true-false
+  answer: false
+  explanation: "The 2π-periodicity is a fundamental, exact property of discrete-time representation — not a limitation of the sampling rate. Every discrete-time system has a DTFT that is 2π-periodic, regardless of sampling rate. Increasing the sampling rate f_s changes the mapping between analog frequency Ω and digital frequency ω = 2πΩ/f_s (allowing higher analog frequencies to be represented before aliasing), but the digital DTFT itself remains 2π-periodic with exactly the same structure. The periodicity reflects the irreducible ambiguity of integer-indexed sequences: samples alone cannot distinguish frequencies that differ by integer multiples of the sampling rate."
+
+- question: "Explain how the 2π-periodicity of the DTFT is the frequency-domain expression of aliasing in sampled signals."
+  type: short-answer
+  answer: "When a continuous signal is sampled at rate f_s, any continuous frequency Ω and any frequency Ω + k·f_s (for integer k) produce identical sample sequences — they are aliased together and cannot be distinguished from the samples alone. In the digital frequency domain, these aliased frequencies map to the same digital frequency ω = 2πΩ/f_s. Aliasing is not a defect that appears only when the sampling rate is too low — it is structurally built into the discrete representation: the samples carry no information that distinguishes ω from ω + 2π. The DTFT's 2π-periodicity directly expresses this: X(e^(jω)) = X(e^(j(ω+2π)}) exactly, because both evaluate the spectrum of the same sample sequence at frequencies that are by definition indistinguishable."
+  explanation: "The Nyquist theorem tells us how to avoid aliasing of the desired signal, but the periodicity is always present in the DTFT regardless. It is not a problem to be solved but a property to be understood when designing and analyzing discrete-time systems."
+```
+
 ## Explainer
 
 You already know two Fourier tools: the continuous-time Fourier transform (CTFT), which decomposes a continuous signal x(t) into complex exponentials e^(jΩt) over all real frequencies Ω, and the Z-transform, which maps a discrete sequence x[n] to a function X(z) of a complex variable z. The **DTFT** bridges these — it is the Fourier transform for discrete-time signals, and it turns out to be the Z-transform evaluated on a specific contour in the z-plane.

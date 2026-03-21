@@ -30,6 +30,45 @@ Calculate herd immunity thresholds for five different diseases with varying R₀
 ## Common Misconceptions
 Thinking high R₀ diseases need uniform vaccination across all populations—actual immunity patterns vary spatially and immunity requirements differ by setting.
 
+## Questions
+
+```yaml
+- question: "Measles has R₀ ≈ 15 and polio has R₀ ≈ 5. What vaccination thresholds are required for herd immunity against each, and what does the difference reveal?"
+  type: multiple-choice
+  options:
+    - "Measles: ~50%, Polio: ~20%; the threshold is proportional to R₀"
+    - "Measles: ~93%, Polio: ~80%; more transmissible diseases require dramatically higher coverage"
+    - "Measles: ~93%, Polio: ~80%; the gap is small because both are vaccine-preventable"
+    - "Both require ~95% because public health programs target a uniform high standard"
+  answer: 1
+  explanation: "Using p = 1 − 1/R₀: measles threshold = 1 − 1/15 ≈ 93%; polio threshold = 1 − 1/5 = 80%. The formula reveals why transmissibility matters so much: a small increase in R₀ requires a dramatically larger coverage increase near the top. The gap between 80% and 93% coverage seems modest, but in large populations it represents millions of unvaccinated individuals — and for measles, those 7% unvaccinated are enough to sustain chains of transmission if clustered."
+
+- question: "A country achieves 95% vaccination coverage against measles (R₀ ≈ 15, threshold ≈ 93%), yet a localized outbreak occurs in one region. What is the most likely explanation?"
+  type: multiple-choice
+  options:
+    - "The vaccine has lost effectiveness due to a new measles variant that evades immunity"
+    - "The 95% national average masks local clustering of unvaccinated individuals whose effective coverage falls below the threshold"
+    - "Measles requires 100% coverage because the R₀ formula underestimates its true transmissibility"
+    - "Herd immunity only works for diseases with R₀ below 10; measles is too transmissible to be controlled this way"
+  answer: 1
+  explanation: "The herd immunity threshold formula assumes uniform mixing — that immune and susceptible individuals are randomly distributed. In reality, vaccine-hesitant communities cluster geographically and socially. A community with 60% coverage against measles has a local effective R of 15 × 0.4 = 6 — well above 1, sustaining an outbreak even when the national average exceeds the threshold. Surveillance must track sub-population heterogeneity, not just national averages."
+
+- question: "Herd immunity from vaccination primarily benefits the vaccinated individuals by reducing their risk of exposure."
+  type: true-false
+  answer: false
+  explanation: "This gets the ethical logic backwards. Vaccinated individuals are directly protected by their own immunity — herd immunity is the additional protection that the vaccinated extend to those who cannot be vaccinated: infants too young for the vaccine series, immunocompromised individuals for whom vaccination is contraindicated, and the small fraction for whom vaccines fail to generate protective immunity. Herd immunity is not a benefit for those who chose vaccination; it is a public good created by that choice, protecting the most vulnerable members of the community."
+
+- question: "As a disease's R₀ increases, the vaccination threshold increases proportionally — a disease with R₀ = 10 needs twice the coverage of one with R₀ = 5."
+  type: true-false
+  answer: false
+  explanation: "The relationship is not proportional because of the formula p = 1 − 1/R₀. For R₀ = 5: threshold = 80%. For R₀ = 10: threshold = 90%. The ratio of thresholds (90/80 = 1.125) is far less than the ratio of R₀ values (10/5 = 2). The threshold converges toward 100% asymptotically as R₀ increases — doubling R₀ does not double the threshold, but it does shrink the margin for error at already high coverage levels."
+
+- question: "Why does average national vaccination coverage above the herd immunity threshold not guarantee that no outbreaks will occur? What does this imply for surveillance?"
+  type: short-answer
+  answer: "The herd immunity threshold formula assumes random, uniform mixing throughout the population. When vaccination coverage is spatially or socially clustered — as it is when vaccine hesitancy concentrates in specific communities — the local effective R within unvaccinated clusters can far exceed 1 even when the national average is above the threshold. An unvaccinated community of 40% within a nationally 95%-vaccinated country can sustain transmission entirely within itself. This implies that surveillance must track sub-population coverage and identify clusters of under-vaccination, not just monitor national-average statistics."
+  explanation: "The practical consequence is that outbreak investigation focuses on geographic and demographic clustering of susceptibles, not national coverage trends. Reaching the 'hard-to-reach' unvaccinated communities is disproportionately important for outbreak prevention because those communities create the local transmission networks where R > 1."
+```
+
 ## Explainer
 
 From your study of the basic reproduction number, you know that R₀ measures how many secondary infections a single case generates in a fully susceptible population. An epidemic grows when R₀ > 1 and dies out when R₀ < 1. **Herd immunity** is the state where enough of the population is immune — through vaccination or prior infection — that the *effective* reproduction number drops below 1, even though many individuals remain unprotected. The formula connecting R₀ to the vaccination threshold follows directly from this logic: if a fraction *p* of the population is immune, the effective R is R₀ × (1 − p). Setting this equal to 1 and solving gives **p = 1 − 1/R₀**. For measles, with R₀ ≈ 15, this yields a threshold of approximately 93%. For COVID-19, with original variant R₀ ≈ 2.5, the threshold is around 60%.

@@ -31,6 +31,45 @@ Study the long exact sequence as a degenerate spectral sequence. Compute homolog
 ## Common Misconceptions
 Spectral sequences compute the associated graded of the target, not the target directly; loss of information via filtration requires care. Differentials on higher pages depend on previous pages non-trivially; simply knowing early pages does not determine the full sequence. Convergence is a separate condition and can fail if the filtration is non-bounded or degenerates.
 
+## Questions
+
+```yaml
+- question: "A mathematician computes the Serre spectral sequence for a fibration and determines all E^∞ terms. To find the actual homology groups H_n of the total space, what additional step may be required?"
+  type: multiple-choice
+  options:
+    - "Nothing — the E^∞ terms directly give the homology groups H_n for each degree n"
+    - "Solving extension problems — the E^∞ terms give the associated graded, and multiple non-isomorphic groups may have the same associated graded"
+    - "Computing one more page of differentials, since E^∞ is one page before convergence"
+    - "Applying the universal coefficient theorem to convert from one coefficient ring to another"
+  answer: 1
+  explanation: "Convergence gives you E^∞_{p,q} as the associated graded pieces of a filtration on H_{p+q}. Knowing the associated graded is not the same as knowing the group: for example, ℤ/4 and ℤ/2 ⊕ ℤ/2 have the same associated graded (ℤ/2 in each filtration level) but are non-isomorphic groups. This is the extension problem. The only case where it is automatic is when working over a field — then every short exact sequence of vector spaces splits and the associated graded uniquely determines the group."
+
+- question: "On the r-th page of a spectral sequence, the differential d^r maps E_{p,q}^r to which bidegree?"
+  type: multiple-choice
+  options:
+    - "E_{p+1, q}^r — shifts filtration degree by +1"
+    - "E_{p-r, q+r-1}^r — shifts filtration degree by -r and total degree by +1 overall"
+    - "E_{p, q-1}^r — shifts the complementary degree by -1"
+    - "E_{p+r, q-r+1}^r — shifts filtration degree by +r"
+  answer: 1
+  explanation: "The differential d^r on the r-th page has bidegree (-r, r-1), mapping E_{p,q}^r → E_{p-r, q+r-1}^r. The total degree p+q shifts by -r + (r-1) = -1, consistent with differentials on a chain complex lowering degree by 1. As r increases, differentials reach farther across the page. The E^{r+1} page is the homology of d^r: E^{r+1}_{p,q} = ker(d^r at (p,q)) / im(d^r from (p+r, q-r+1))."
+
+- question: "Once all E^∞ terms of a spectral sequence are known, the actual homology groups H_n are uniquely determined regardless of coefficient ring."
+  type: true-false
+  answer: false
+  explanation: "E^∞ terms give the associated graded of the filtration on H_n, but extension problems may arise: multiple non-isomorphic groups can have the same associated graded. Over a field (like ℤ/2 or ℚ), every short exact sequence of vector spaces splits, so the associated graded uniquely determines the homology groups. Over ℤ, extension problems are common — this is why topology courses often introduce spectral sequences over field coefficients first, where computations are fully algorithmic."
+
+- question: "Working with field coefficients (such as ℤ/2 or ℚ) eliminates extension problems in spectral sequence computations, making the E^∞ page sufficient to read off the homology groups."
+  type: true-false
+  answer: true
+  explanation: "Over a field, every short exact sequence 0 → A → B → C → 0 of vector spaces splits: B ≅ A ⊕ C. This means the filtration on H_n always splits as a direct sum of its associated graded pieces E^∞_{p,q} with p+q = n. There is no ambiguity in assembling the homology group from the associated graded — you just take the direct sum. This is why field coefficients make spectral sequence computations cleaner and why most introductory examples use ℤ/2 or ℚ."
+
+- question: "Explain the role of a filtration in a spectral sequence — why does the filtration make the homology computation tractable, and what information does it cause you to lose?"
+  type: short-answer
+  answer: "A filtration breaks a chain complex into nested layers, and the spectral sequence computes homology of the associated graded (the successive quotients F_pC / F_{p-1}C) rather than the whole complex at once. Each 'slice' is simpler to analyze, and the spectral sequence systematically tracks how slice-level homology assembles into the full answer through the pages of differentials. The information lost is: the filtration only determines the associated graded of H_*(C), not H_*(C) itself. To recover the actual homology from the associated graded, you must solve extension problems — determining which group has the given graded pieces. Over a field, all extensions are trivial (everything splits), so nothing is lost."
+  explanation: "This is the fundamental trade-off in spectral sequence theory: the filtration makes a hard computation tractable by breaking it into layers, but the price is that you may lose information about how those layers assemble, requiring additional work (extension problems) to complete the answer."
+```
+
 ## Explainer
 
 From your prerequisites, you know that a chain complex (C_*, d) has homology groups H_n(C) measuring cycles that are not boundaries, and that exact sequences encode algebraic relationships between homology groups of different spaces. Spectral sequences generalize both: they are a systematic machine for computing homology of a complex when the complex has additional structure — a **filtration** — that lets you attack the computation in layers rather than all at once.

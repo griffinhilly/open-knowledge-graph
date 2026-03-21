@@ -36,6 +36,45 @@ Develop a 'story bank' of 5–10 personal narratives and practice shaping each t
 - Good storytellers do not tell everything; ruthless selection of detail is what creates immersion.
 - Spontaneous-seeming stories are usually the most prepared — the art is rehearsing until the story sounds discovered in the telling.
 
+## Questions
+
+```yaml
+- question: "A speaker opens with a touching story about her grandmother learning to read at age 70. The story is vivid, specific, and moving. But the speech is about corporate cybersecurity policy. What is the most likely outcome?"
+  type: multiple-choice
+  options:
+    - "The story succeeds because emotional engagement transfers across topics"
+    - "The story fails because audiences can't follow emotional content before technical material"
+    - "The story feels disconnected unless the speaker explicitly bridges it to the cybersecurity argument"
+    - "The story works if it's short enough — under 60 seconds any story is an acceptable opener"
+  answer: 2
+  explanation: "The most common storytelling failure is the disconnected story — a well-told narrative whose connection to the speech's argument is never made explicit. No matter how moving the story, audiences cannot infer a connection the speaker doesn't state. Emotional engagement (option A) doesn't automatically transfer; it needs to be directed toward the argument through an explicit spoken bridge."
+
+- question: "Which of the following uses of a story in a speech best illustrates the 'functional, not decorative' principle?"
+  type: multiple-choice
+  options:
+    - "A speaker tells a funny personal anecdote during a climate policy speech to relieve audience tension"
+    - "A speaker tells a specific story about one family losing their home to flooding, followed by: 'This is what a 1.5-degree warming world looks like for real people'"
+    - "A speaker opens with a story to show they have personal experience with the topic, establishing credibility"
+    - "A speaker tells a story at the end of the speech so the audience leaves with an emotional impression"
+  answer: 1
+  explanation: "Option B demonstrates the functional principle: the story serves as a case example that gives flesh and specificity to an abstract claim, and the speaker immediately provides the explicit 'so what' bridge. Option A (tension relief) is decorative — the story serves the speaker's comfort, not the speech's argument. Options C and D are weakly functional but don't show the deliberate story-plus-explicit-argumentative-link pairing the topic describes."
+
+- question: "A story that sounds spontaneous and discovered in the telling is usually less prepared than a story that sounds polished and rehearsed."
+  type: true-false
+  answer: false
+  explanation: "This is a core misconception the topic directly addresses: spontaneous-seeming stories are typically the most prepared. The art of oral storytelling is rehearsing until the story sounds discovered — which requires knowing the material so well that the speaker can make it feel fresh rather than recited. A story that actually is spontaneous usually lacks the compression, the right details, and the clean arc that produce immersion."
+
+- question: "A personal story in a speech is inherently relevant because it demonstrates the speaker's authentic experience with the topic."
+  type: true-false
+  answer: false
+  explanation: "Authenticity and relevance are different things. A personal story is relevant only if it illuminates a larger truth the speech is making — only if it does specific rhetorical work. A personal story that doesn't connect to the speech's argument is self-indulgence regardless of how authentic it is. The 'so what' must be explicit: the audience needs to understand not just that the speaker had this experience, but what it demonstrates about the speech's central claim."
+
+- question: "Why must a speaker explicitly state the connection between a story and the speech's argument, rather than letting the audience infer it?"
+  type: short-answer
+  answer: "Audiences process stories as simulated experience — they are briefly inside the narrative, not evaluating arguments. That cognitive state creates emotional response, but it doesn't automatically generate the correct argumentative inference. The speaker must make the transition explicit: moving from narrative back to argument, showing what the story was about beyond its emotional effect. Without this bridge, even a perfectly told story leaves audiences moved but unsure what to do with that feeling."
+  explanation: "The key phrase from the topic: 'The speaker's job is to move the audience from feeling to understanding what they just felt was about.' Stories activate empathy and reduce counterarguing, but those effects only serve the speech if the audience knows what argument they've just been moved to accept. The explicit bridge — 'that's what's at stake,' 'that's what this policy would change' — converts emotional response into argumentative agreement."
+```
+
 ## Explainer
 
 You've studied pathos — the use of emotional appeals in speech — and you know from narrative writing how stories are structured with character, conflict, and resolution. Storytelling in public speaking sits at the intersection of those two skills: it is the deployment of narrative structure to create the emotional impact that data and argument alone cannot reliably produce. The reason this works is cognitive: when we hear a story, our brains process it as simulated experience rather than information to be evaluated. We don't just receive a story; we briefly inhabit it. This is why a single well-told anecdote often outlasts an entire speech in an audience's memory.

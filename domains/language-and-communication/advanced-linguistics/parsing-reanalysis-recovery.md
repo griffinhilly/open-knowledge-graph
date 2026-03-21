@@ -27,6 +27,45 @@ Examine garden-path sentences and use eye-tracking to identify parsing difficult
 ## Common Misconceptions
 Garden-path effects are not mere linguistic puzzles but windows into real-time parsing mechanisms; they reveal systematic biases in how the parser commits to structure.
 
+## Questions
+
+```yaml
+- question: "Many readers initially parse 'The old man the boats' by treating 'old' as an adjective. Eye-tracking shows processing difficulty at 'the boats.' This demonstrates:"
+  type: multiple-choice
+  options:
+    - "Readers have a general preference for adjectives regardless of syntactic context"
+    - "The parser made an early probabilistic commitment to the most frequent structure (old = adjective modifying man) and must reanalyze when 'the boats' makes that structure impossible — incurring measurable processing cost"
+    - "The sentence is grammatically ambiguous and therefore cannot be parsed at all"
+    - "Working memory limitations prevent readers from tracking nouns across clause boundaries"
+  answer: 1
+  explanation: "The garden-path effect reveals that the parser is serial and commitment-based: it adopts the single most probable interpretation at each word and commits to it. Since 'old' overwhelmingly precedes a noun as an adjective in English, the parser makes that commitment. When 'the boats' arrives and makes the earlier structure impossible, the parser must reanalyze — treating 'man' as the verb and 'the old' as its subject. The processing cost (slowdown, regressive eye movements) is the signature of reanalysis work."
+
+- question: "Readers recover from the garden-path significantly faster in 'The evidence examined by the lawyer was damning' than in 'The horse raced past the barn fell.' The most likely explanation is:"
+  type: multiple-choice
+  options:
+    - "The first sentence is syntactically simpler — it contains fewer embedded clauses"
+    - "Legal vocabulary is more familiar to most educated readers than equestrian vocabulary"
+    - "Semantic plausibility provides an early recovery cue in the first sentence: since evidence cannot examine anything, the reduced-relative interpretation is strongly signaled before the disambiguation point, pre-cueing reanalysis"
+    - "The second sentence contains unusually low-frequency vocabulary that slows processing independently"
+  answer: 2
+  explanation: "This finding demonstrates that semantic plausibility aids reanalysis. In 'The evidence examined…,' the semantics — evidence is not an agent capable of examining — signal before the end of the sentence that the reduced-relative parse ('evidence that was examined') must be correct, easing the revision. In 'The horse raced…,' both interpretations are semantically plausible (horses race and are raced), so no semantic cue aids recovery, and reanalysis depends entirely on structural revision at 'fell.'"
+
+- question: "Readers with higher working memory capacity recover more successfully from garden-path sentences, supporting the claim that reanalysis requires holding the failed parse in memory while constructing a corrected one."
+  type: true-false
+  answer: true
+  explanation: "Working memory capacity is one of the strongest individual-differences predictors of garden-path recovery. This is evidence that reanalysis is not a simple look-up but an active, resource-demanding process: the parser must retain the failed structure (to know what needs to be revised), identify where the structural error occurred, and rebuild a new representation — all while new words continue to arrive. Higher working memory allows more cognitive resources to be allocated to this simultaneous holding and rebuilding."
+
+- question: "Garden-path effects occur because the parser simultaneously evaluates all possible syntactic parses and becomes confused when multiple interpretations are equally probable."
+  type: true-false
+  answer: false
+  explanation: "This describes the parallel parsing hypothesis, which garden-path effects actually argue against. If the parser held all possible parses simultaneously, there would be no garden-path effect — the correct parse would always be active and available when disambiguating information arrived. The fact that readers show processing difficulty specifically at the disambiguation point, and require active reanalysis, is evidence for a serial, commitment-based parser that adopts a single interpretation early and pays a cost when it turns out to be wrong."
+
+- question: "Why are garden-path sentences considered windows into real-time parsing mechanisms rather than mere linguistic curiosities? What specific architectural claim about parsing do they support?"
+  type: short-answer
+  answer: "Garden-path effects reveal that the parser processes sentences incrementally and serially, committing to the single most probable structural interpretation as each word arrives rather than waiting for full sentence context or entertaining multiple possibilities simultaneously. The commitment reflects systematic probabilistic biases: the parser prefers simple active clauses, attaches modifiers early, and acts on statistical regularities of the language. When these commitments turn out to be wrong, the processing cost is measurable and visible in eye-tracking data (regressive saccades, increased fixation times at the disambiguation point). The systematic nature of which sentences cause difficulty — and which contextual factors (semantic plausibility, working memory) aid recovery — reveals the architecture of the parsing system itself, not just surface properties of individual sentences."
+  explanation: "This is why psycholinguists design garden-path studies deliberately: they use the errors and recovery patterns to reverse-engineer the normal parsing process. The failures are diagnostic in a way that successful, ambiguous comprehension cannot be."
+```
+
 ## Explainer
 
 From your study of garden-path sentences, you know that the human parser does not wait for a complete sentence before building syntactic structure — it processes words incrementally, committing to a structural interpretation as each word arrives. And from prediction in language processing, you know that the parser actively anticipates upcoming words based on prior context, probabilistic knowledge of the language, and real-world plausibility. Parsing, reanalysis, and garden-path recovery is where these two threads converge: what happens when incremental commitment and predictive processing lead the parser somewhere wrong?

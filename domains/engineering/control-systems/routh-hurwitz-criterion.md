@@ -37,6 +37,45 @@ Build Routh arrays by hand for polynomials of degree 2 through 5, deliberately g
 - A row of all zeros indicates roots on the imaginary axis (or origin), not necessarily instability — the auxiliary polynomial reveals the actual root locations.
 - The criterion tests the characteristic polynomial of the closed-loop system, not the open-loop denominator alone.
 
+## Questions
+
+```yaml
+- question: "A control system has the characteristic polynomial s³ + 6s² + 11s + 6. All coefficients are positive. A student concludes the system must be stable. Is the student correct, and why or why not?"
+  type: multiple-choice
+  options:
+    - "Yes — positive coefficients guarantee all roots are in the left half-plane for any degree polynomial"
+    - "No — positive coefficients are necessary but not sufficient for degree ≥ 3; the Routh array must be constructed to confirm stability"
+    - "No — a third-order system with all positive coefficients always has at least one right-half-plane root"
+    - "Yes for this specific polynomial, but not in general — degree-3 systems are a special exception where positive coefficients are sufficient"
+  answer: 1
+  explanation: "All positive coefficients is a necessary condition for stability (any negative or zero coefficient immediately implies an unstable root), but it is not sufficient for polynomials of degree 3 or higher. A degree-4 polynomial like s⁴ + s³ + 2s² + s + 1 has all positive coefficients yet is unstable. The Routh array must be completed and the first column checked for sign changes. For this specific polynomial (s³ + 6s² + 11s + 6 = (s+1)(s+2)(s+3)), it happens to be stable, but the student cannot know that from coefficients alone without building the array."
+
+- question: "While constructing a Routh array, you find that the first-column entry in row 3 is zero, but the row contains other nonzero entries. What is the correct next step?"
+  type: multiple-choice
+  options:
+    - "Declare the system unstable immediately — any zero in the first column means there is a right-half-plane pole"
+    - "Substitute a small positive number ε for the zero, complete the array symbolically, and count sign changes as ε → 0⁺"
+    - "Replace the zero row with the derivative of the auxiliary polynomial formed from the row above"
+    - "Declare the system marginally stable — a zero in the first column (with remaining nonzero entries) always corresponds to a purely imaginary root"
+  answer: 1
+  explanation: "A zero in the first column (with other nonzero entries in the same row) requires the ε substitution. You cannot directly divide by zero in the next row calculation, so replace the first-column zero with ε > 0, complete the array, then examine the sign of the resulting expressions as ε → 0⁺. If sign changes occur in the limit, there are right-half-plane roots. The auxiliary polynomial method (option C) is used when an ENTIRE row is zero, which indicates a different special case — symmetric root distribution. Options A and D are wrong: a first-column zero is ambiguous without completing the array."
+
+- question: "A polynomial with all positive coefficients is guaranteed to be a stable characteristic polynomial — meaning all its roots have negative real parts."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception when first learning Routh-Hurwitz. Positive coefficients are necessary for stability (a negative or missing coefficient immediately implies instability) but are not sufficient for degree 3 or higher. The classic counterexample is s⁴ + s³ + 2s² + s + 1, which has all positive coefficients but contains right-half-plane roots (verifiable by the Routh array). The Routh-Hurwitz criterion exists precisely because the coefficient sign test is insufficient — you need the full array to determine whether the more subtle stability conditions are satisfied."
+
+- question: "An all-zero row appearing in the Routh array during a gain-sweep problem typically means the system has become marginally stable at that gain value — meaning the closed-loop poles are on the imaginary axis."
+  type: true-false
+  answer: true
+  explanation: "An all-zero row means the characteristic polynomial has a symmetric factor — roots that are symmetric about the origin. During a gain sweep, this most commonly means the roots that started in the left half-plane have migrated to the imaginary axis at the critical gain value. The auxiliary polynomial (formed from the row above the zero row) can be solved to find the exact imaginary-axis root locations and the corresponding critical gain. This is, in fact, a useful feature: the all-zero row condition gives you the stability boundary directly, telling you the exact gain at which the system transitions from stable to unstable."
+
+- question: "What is the Routh-Hurwitz criterion actually counting, and why is this especially useful when designing systems with a free gain parameter K?"
+  type: short-answer
+  answer: "The number of sign changes in the first column of the completed Routh array equals the number of closed-loop poles in the right half of the s-plane (unstable poles). For stability, you need zero sign changes — all first-column entries must share the same sign. When the characteristic polynomial contains a symbolic gain K, the first-column entries become algebraic expressions in K. Setting the condition 'all entries positive' yields a system of inequalities whose solution is the stability range for K — a closed-form answer. This avoids numerically solving for poles at every candidate K value."
+  explanation: "This is the practical payoff that makes Routh-Hurwitz a design tool, not just an analysis tool. A designer asked 'for what values of K is this closed-loop system stable?' can write the characteristic polynomial with K symbolic, build the Routh array, express the first-column entries as functions of K, and solve the resulting inequalities. The answer is exact and algebraic. Root locus gives similar information graphically, but Routh-Hurwitz gives it analytically — particularly useful for verifying stability bounds when the polynomial degree is high or when exact pole locations are not needed."
+```
+
 ## Explainer
 
 You know from the characteristic equation that closed-loop stability requires all roots of the characteristic polynomial to lie in the left half of the s-plane. For a first-order polynomial s + a, stability just means a > 0. For a second-order polynomial s² + bs + c, it means b > 0 and c > 0. But for higher-order polynomials, "all coefficients positive" is necessary but not sufficient — a fifth-degree polynomial can have all positive coefficients and still have right-half-plane roots. The **Routh-Hurwitz criterion** provides a complete, systematic answer for any degree polynomial without factoring.

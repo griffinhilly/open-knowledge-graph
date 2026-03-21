@@ -33,6 +33,45 @@ Start with unit cubes: physically build rectangular prisms and count cubes to ve
 - Confusing surface area and volume formulas.
 - Using the slant height of a triangular prism instead of the prism's height (the distance between the triangular bases).
 
+## Questions
+
+```yaml
+- question: "A triangular prism has triangular faces with base 4 cm and height 3 cm, and the prism is 10 cm long. What is its volume?"
+  type: multiple-choice
+  options:
+    - "120 cm³"
+    - "60 cm³"
+    - "40 cm³"
+    - "30 cm³"
+  answer: 1
+  explanation: "First compute the base area: B = (1/2)(4)(3) = 6 cm². Then multiply by the prism's height (the length between the two triangular faces): V = 6 × 10 = 60 cm³. The most common error is computing 4 × 3 × 10 = 120 cm³, which forgets the 1/2 in the triangle's area formula. The second most common error is using only one dimension of the triangle instead of computing its area first."
+
+- question: "A student calculates the volume of a rectangular prism with dimensions 5 cm × 4 cm × 3 cm as '5 × 4 = 20 cm².' What is wrong, and what is the correct volume?"
+  type: multiple-choice
+  options:
+    - "The student used the wrong formula; they should have added all dimensions: 5 + 4 + 3 = 12 cm³"
+    - "The student only used two of the three dimensions and got a surface area instead of a volume; the correct volume is 5 × 4 × 3 = 60 cm³"
+    - "The student got the right number but the wrong units; the answer should be 20 cm³"
+    - "The student should have used V = (1/2)Bh since all prisms use that formula"
+  answer: 1
+  explanation: "The student computed the base area (B = 5 × 4 = 20 cm²) but forgot to multiply by the height (h = 3 cm). The correct volume is V = Bh = 20 × 3 = 60 cm³. The units also reveal the error: cm² is an area unit, not a volume unit. Volume must be in cubic units (cm³). The formula V = lwh requires all three dimensions."
+
+- question: "The 'height' of a triangular prism and the 'height' of its triangular base are the same measurement."
+  type: true-false
+  answer: false
+  explanation: "False — this is one of the most common errors with triangular prisms. The triangular base has its own internal height: the perpendicular distance from the base of the triangle to its opposite vertex (used in the area formula ½bh). The prism's height is a completely different measurement: the perpendicular distance between the two triangular faces (the length of the prism). You need both values separately: B = (1/2)(base of triangle)(height of triangle), then V = B × (height of prism)."
+
+- question: "If a prism's dimensions are all measured in centimeters, its volume must be expressed in cubic centimeters (cm³)."
+  type: true-false
+  answer: true
+  explanation: "True. Volume is computed by multiplying three lengths together: B (in cm²) × h (in cm) = cm² × cm = cm³. This makes physical sense — volume counts how many unit cubes fit inside, and each unit cube is 1 cm × 1 cm × 1 cm = 1 cm³. If your answer comes out in cm² or cm, you missed a dimension in your calculation. Always check units as a built-in error detector."
+
+- question: "Why does the formula V = Bh work for all prisms, regardless of the shape of the base?"
+  type: short-answer
+  answer: "Any prism has the same cross-sectional shape throughout its entire length. You can think of the volume as stacking the base shape repeatedly to the given height — like stacking identical sheets of paper. The total volume is just the area of that shape (B) times how many layers tall it is (h). The base shape doesn't matter; the logic of 'stacking a flat area' is universal."
+  explanation: "This is the key conceptual generalization. Whether the base is a rectangle, triangle, hexagon, or any other shape, V = Bh applies because a prism is defined as a solid with a constant cross-section. This same logic extends to cylinders, where B = πr². Understanding why the formula works — not just that it works — lets you apply it to unfamiliar cases without memorizing separate formulas."
+```
+
 ## Explainer
 
 You already know how to find the **area of a rectangle** (length × width) and the **area of a triangle** (½ × base × height). Volume extends that 2D thinking into 3D by asking: what if we stacked that flat shape upward? The formula V = Bh — base area times height — captures exactly this idea. B is the area of the flat cross-section (the "face" that gets stacked), and h is how tall the stack is.

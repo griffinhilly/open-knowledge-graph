@@ -32,6 +32,45 @@ Study creation myths and cosmological models from diverse traditions: Judeo-Chri
 - Cosmologies in non-Western societies are primitive, irrational, or false; they are logically coherent systems adapted to their cultural and environmental contexts.
 - Cosmology is purely intellectual; it guides ethical behavior, ritual practice, and social organization.
 
+## Questions
+
+```yaml
+- question: "A society whose cosmology holds that deceased ancestors remain active participants in daily affairs would most likely differ from a society whose cosmology holds that the dead depart permanently in which of the following ways?"
+  type: multiple-choice
+  options:
+    - "Only in ceremonial and funeral practices, with no effect on economic or political life"
+    - "In how kinship, land use, agricultural decisions, and dispute resolution are organized and justified"
+    - "Primarily in artwork and storytelling, since cosmology is an aesthetic rather than practical system"
+    - "Only during periods of religious revival, since cosmological beliefs are generally dormant in daily life"
+  answer: 1
+  explanation: "Cosmologies are not merely intellectual frameworks — they organize practical behavior. A cosmology where ancestors are active participants means land use may require ancestral consent, agricultural decisions may be timed to ancestral cycles, kinship structures may be explained by ancestral relationships, and disputes may be resolved by appealing to ancestral precedent. Cosmological commitments about what exists and who matters permeate economic, political, and social institutions. Option A is the classic misconception — treating cosmology as purely ceremonial rather than practically organizing."
+
+- question: "When an anthropologist compares Aztec cosmology (requiring blood sacrifice to sustain the sun) with 17th-century European Christian cosmology, what is the primary analytical goal of the comparison?"
+  type: multiple-choice
+  options:
+    - "To determine which cosmology is more scientifically accurate about the actual origin of the universe"
+    - "To identify which cosmology produces more stable and just social arrangements"
+    - "To understand the internal logic of each system and how it generates different obligations, authorities, and practices"
+    - "To show that non-Western cosmologies are more elaborate than their European counterparts"
+  answer: 2
+  explanation: "The anthropological comparison of cosmologies is not a ranking exercise — it is an exercise in understanding how different answers to fundamental questions ('what is the world?') generate different systems of meaning, obligation, and authority. The Aztec cosmology's claim that the sun requires human blood produces real obligations and rituals just as coherent within their framework as Christian cosmology's claims about stewardship and redemption. The goal is understanding internal logic on each system's own terms, not evaluating proximity to scientific truth."
+
+- question: "Modern secular beliefs — that nature is a resource to be managed, that individuals are the primary unit of moral concern, that history progresses — are cosmological commitments even though they are rarely labeled as such."
+  type: true-false
+  answer: true
+  explanation: "One of anthropology's defamiliarizing contributions is showing that apparently 'commonsense' assumptions in modern secular societies are cosmological claims about what exists, what matters, and how the world works. The belief that nature is a manageable resource rather than a living entity with moral standing is a cosmological position, not a neutral fact. Every society, including secular ones, operates within a cosmological framework, and that framework shapes practical behavior, institutions, and ethics."
+
+- question: "Cosmological myths are primarily abstract philosophical speculations that remain separate from a culture's practical behaviors and social organization."
+  type: true-false
+  answer: false
+  explanation: "Cosmologies are precisely not merely abstract — they are embedded in daily life and organize it. Creation myths establish who has authority, what obligations exist toward the land and the dead, which social hierarchies are legitimate, and what risks require ritual management. The Andean Pachamama concept entails actual obligations toward the land; Dreamtime narratives organize both geography and kinship. Cosmological myths are typically the most sacred precisely because challenging them threatens the entire scaffolding of meaning that organizes social life."
+
+- question: "Why is comparing cosmologies across cultures not the same as ranking cultures by how close their cosmologies are to scientific truth?"
+  type: short-answer
+  answer: "Different cosmologies offer answers to questions that science alone cannot settle — what obligations exist between humans and nature, what gives social hierarchy its legitimacy, what happens after death. Each cosmological system has an internal logic that generates coherent obligations, rituals, and social structures within its own terms. Ranking by proximity to scientific cosmology would evaluate cosmologies on criteria they were never designed to satisfy, missing their actual function: to organize moral life, social authority, and human meaning. The anthropological method is to understand each system on its own terms before evaluating it."
+  explanation: "This connects to cultural relativism, which distinguishes methodological relativism (understanding a system on its own terms) from moral relativism (holding that all practices are equally good). Comparing cosmologies analytically does not require endorsing every practice they justify — it requires understanding how the cosmological framework generates those practices before any evaluation."
+```
+
 ## Explainer
 
 A **cosmology** is a culture's comprehensive account of what exists, how it came to be, and how its parts are ordered. But cosmology is not philosophy reserved for specialists — it is embedded in everyday life. You have already encountered the culture concept, which taught you that humans do not encounter the world raw; they encounter it through meaning systems. Cosmology is the deepest layer of those meaning systems: it tells people what the world fundamentally is, which in turn tells them how to live in it. A society whose cosmology holds that ancestors remain active participants in daily affairs will organize kinship, agriculture, and dispute resolution very differently from one whose cosmology holds that the dead depart permanently.

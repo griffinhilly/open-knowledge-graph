@@ -29,6 +29,45 @@ Try dual-task experiments such as tapping while reading and note when interferen
 - Multitasking usually means rapid task-switching, not true simultaneous processing.
 - Practice does not eliminate resource demands entirely; it reduces them, and novel demands can reinstate interference.
 
+## Questions
+
+```yaml
+- question: "A surgeon performing a delicate procedure is listening to music with sung lyrics. According to multiple-resource theory, which change would MOST reduce dual-task interference?"
+  type: multiple-choice
+  options:
+    - "Switching to instrumental music without lyrics"
+    - "Playing the music at lower volume"
+    - "Asking an assistant to narrate the surgical field aloud"
+    - "Slowing the pace of the surgical movements"
+  answer: 0
+  explanation: "Multiple-resource theory predicts that tasks sharing the same processing modality and code interfere most. Lyrics involve auditory-verbal processing, which competes with the cognitive-verbal demands of surgical decision-making. Switching to instrumental music removes the verbal processing component, reducing within-code competition. Option C would *increase* interference by adding auditory-verbal input. Volume (option B) does not change the resource conflict — it just makes the verbal stimulus quieter. Option D changes physical pace but not the cognitive resource overlap."
+
+- question: "An expert driver is navigating a familiar highway while having a complex conversation. A child suddenly runs into the road ahead. What does research on divided attention predict?"
+  type: multiple-choice
+  options:
+    - "No disruption — expertise permanently eliminates dual-task interference for driving"
+    - "The expert handles both tasks equally well because automaticity is fully task-general"
+    - "Controlled attention is reinstated for the novel hazard, likely disrupting the conversation"
+    - "The conversation degrades driving performance to novice levels immediately"
+  answer: 2
+  explanation: "Automaticity is task-specific and fragile under novel demands. Routine driving on a familiar highway has become automatic (low resource demand), allowing the conversation to proceed. But an unexpected hazard reactivates controlled attention — the driver must suddenly devote cognitive resources to the novel, high-stakes situation. This interrupts the conversation, which was competing for the same controlled processing capacity. This is why automated driving tasks are still not safe with full inattention: the automatic mode cannot handle genuinely unexpected events."
+
+- question: "What people commonly call 'multitasking' typically involves rapid sequential switching between tasks rather than genuine simultaneous processing of multiple demanding tasks."
+  type: true-false
+  answer: true
+  explanation: "True. Research consistently shows that the human cognitive system has a central bottleneck that prevents truly parallel processing of two demanding tasks at the same time. What feels like multitasking is interleaving — rapidly alternating attention between tasks, with a switching cost each time. The illusion of simultaneity arises because the switching is fast, but performance on both tasks suffers compared to doing them separately. Only tasks with different resource demands (per multiple-resource theory) or tasks that have become automatic can be performed concurrently without significant cost."
+
+- question: "Extensive practice eventually eliminates all attentional resource demands for a skilled task, making it completely immune to dual-task interference under any conditions."
+  type: true-false
+  answer: false
+  explanation: "False. Practice *reduces* resource demands and can make a task largely automatic, but automaticity is task-specific and not absolute. Novel or unusually demanding versions of even a practiced task can reinstate controlled processing and interference. An expert typist can converse while typing familiar text, but novel or error-prone typing conditions reintroduce attentional demands. The common misconception — 'I've practiced enough that I can do this on autopilot no matter what' — underestimates how situational automaticity really is."
+
+- question: "Why does the distinction between single-resource and multiple-resource models of attention matter practically? Describe a situation where the two models make different predictions."
+  type: short-answer
+  answer: "Single-resource theory predicts any two tasks will interfere whenever total demand exceeds a fixed capacity. Multiple-resource theory predicts that cross-modal, cross-code tasks can be performed simultaneously with minimal cost — they draw from separate pools. A concrete case: listening to the radio (auditory-verbal) while driving (visual-spatial + manual). Single-resource theory predicts significant interference. Multiple-resource theory predicts low interference because the tasks use different resource dimensions. Research generally supports the multiple-resource prediction here, unlike driving while reading, which heavily overlaps on the visual-spatial dimension."
+  explanation: "The practical importance is enormous for interface design, training, and safety. If attention were a single undifferentiated pool, all task combinations would be equally dangerous. Multiple-resource theory lets designers minimize overlap: verbal warnings pair better with visual displays than additional visual alerts; manual controls pair better with voice feedback than with visual readouts requiring the same visual-spatial resources the operator is already using. The model translates into design principles that reduce real-world errors."
+```
+
 ## Explainer
 
 From your study of selective attention, you know that the cognitive system has filters and bottlenecks that limit what information reaches conscious processing. **Divided attention** takes the complementary question: when you must process two things *simultaneously*, what determines how well you can do it? The answer turns out to depend on what resources the two tasks require and whether they can be drawn from separate pools.

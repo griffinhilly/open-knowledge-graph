@@ -38,6 +38,45 @@ Group planets by zone (terrestrial vs. jovian) and compare key properties: mass,
 - Pluto's reclassification as a dwarf planet reflects a precise gravitational definition, not an arbitrary demotion — it shares its orbital neighborhood with many Kuiper Belt objects.
 - The asteroid belt is mostly empty space; spacecraft traverse it routinely without collisions.
 
+## Questions
+
+```yaml
+- question: "Why are the outer planets (Jupiter, Saturn, Uranus, Neptune) so much more massive than the inner planets?"
+  type: multiple-choice
+  options:
+    - "They formed earlier, giving them more time to accumulate mass from the same material"
+    - "The Sun's radiation pushed lighter volatile materials outward, depositing them at larger orbital radii"
+    - "Beyond the frost line, ices could condense alongside rock and metal, providing far more solid material for planetary cores to grow massive enough to capture nebular gas"
+    - "They are farther from the Sun, where gravitational attraction from the Sun is weaker and allows more material to accumulate"
+  answer: 2
+  explanation: "The frost line (roughly between Mars and Jupiter) is the key. Close to the Sun, temperatures were too high for volatile compounds (water, methane, ammonia) to solidify, so only rock and metal could form the inner planets. Beyond the frost line, ices could condense, dramatically increasing available solid material. Giant cores formed and then gravitationally captured hydrogen and helium from the surrounding nebula. The other options misidentify the mechanism — gravitational attraction weakens with distance (ruling out D), and the Sun's radiation drives material outward but doesn't deposit it at specific orbital radii (ruling out B)."
+
+- question: "What does the near-perfect coplanarity of planetary orbits tell us about the solar system's origin?"
+  type: multiple-choice
+  options:
+    - "It is a gravitational coincidence — the Sun's gravity constrains all planets to the same plane over time"
+    - "It reflects formation from a single rotating disk of gas and dust, with angular momentum conservation keeping all material in the same plane"
+    - "It shows that planets migrate inward from the Oort Cloud, which is disk-shaped"
+    - "It is an observational artifact — planetary orbits are actually inclined at various angles"
+  answer: 1
+  explanation: "Coplanarity is a direct consequence of formation from a rotating protoplanetary disk. As the original gas cloud collapsed, it spun up and flattened into a disk due to conservation of angular momentum — a basic physics principle. Planets formed within this disk and inherited its plane. This is a prediction of planetary formation theory, not a coincidence. The Oort Cloud (option C) is actually spherical, not disk-shaped, and is thought to be the source of long-period comets."
+
+- question: "The asteroid belt between Mars and Jupiter is mostly empty space, and spacecraft have crossed it without difficulty."
+  type: true-false
+  answer: true
+  explanation: "Despite science fiction depictions of a dense, treacherous field of boulders, the asteroid belt is overwhelmingly empty. The total mass of all asteroid belt objects combined is less than 4% of the Moon's mass, spread across an enormous volume. Spacecraft missions — including Pioneer, Voyager, and New Horizons — have crossed the asteroid belt routinely without hazard. The misconception comes from dramatic visual representations, not from data."
+
+- question: "The Oort Cloud, like the Kuiper Belt, is disk-shaped and lies just beyond the orbit of Neptune."
+  type: true-false
+  answer: false
+  explanation: "The Kuiper Belt is disk-shaped and extends from about 30 to 55 AU beyond Neptune. The Oort Cloud is fundamentally different in both shape and location: it is thought to be a roughly spherical shell extending from about 2,000 to perhaps 100,000 AU — potentially halfway to the nearest star. These two structures are distinct: the Kuiper Belt is a disk of relatively nearby icy bodies, while the Oort Cloud is a distant spherical reservoir thought to be the source of long-period comets."
+
+- question: "Explain why the frost line is the key to understanding why inner and outer planets are so compositionally different."
+  type: short-answer
+  answer: "Close to the young Sun, temperatures were too high for ices (water, methane, ammonia) to condense into solids. Only refractory materials — rock and metal — could survive, so the inner planets formed small and rocky. Beyond the frost line, ices could solidify, vastly increasing the available solid material. Large cores accumulated, then gravitationally captured hydrogen and helium from the nebula, becoming gas or ice giants. The thermal gradient set by the Sun determined what each planet could be made of."
+  explanation: "The frost line connects the physics of condensation temperatures to the compositional structure of the solar system. Rather than just memorizing which planets are rocky and which are giant, understanding the frost line lets you derive the pattern from first principles: temperature decreases with orbital distance, which determines which compounds can condense, which determines what each planet is built from. The same principle applies to exoplanetary systems."
+```
+
 ## Explainer
 
 You already know from Kepler's laws that planets orbit the Sun in ellipses with the Sun at one focus, and that orbital period increases with distance. From Newton's law of gravitation, you know the force holding these orbits together weakens with the square of the distance. The structure of the solar system is the physical result of these laws playing out across an enormous range of scales, from Mercury's tight 88-day orbit to Neptune's leisurely 165-year circuit.

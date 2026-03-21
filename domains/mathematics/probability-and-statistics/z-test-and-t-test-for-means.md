@@ -30,6 +30,45 @@ Compute z and t statistics from data. Use tables or software to find p-values. C
 ## Common Misconceptions
 Using z-test when σ is unknown. Confusing degrees of freedom in t-distribution. Thinking larger t values have larger p-values (opposite is true). Misapplying tests without checking normality assumptions for small samples.
 
+## Questions
+
+```yaml
+- question: "A researcher tests whether a new drug reduces blood pressure using 12 patients. She doesn't know the population standard deviation, so she estimates it as s = 8.3 from her sample. Which test should she use, and why?"
+  type: multiple-choice
+  options:
+    - "Z-test, because her sample size is large enough to assume approximate normality."
+    - "Z-test, because estimating σ from a sample is standard practice and does not change the test."
+    - "T-test, because σ is unknown and using s in its place introduces additional uncertainty that the heavier-tailed t-distribution accounts for."
+    - "Either test is equally valid for this problem; the choice makes no difference in practice."
+  answer: 2
+  explanation: "The key distinction: the z-test requires knowing the true population standard deviation σ. When you substitute the sample standard deviation s, you introduce a second layer of randomness — s itself varies from sample to sample. This extra uncertainty is captured by the t-distribution's heavier tails. Option A conflates normality (a sampling distribution assumption) with knowledge of σ; those are separate requirements. Option D is wrong because for small n, the two tests give meaningfully different critical values."
+
+- question: "A researcher computes t = 3.5 on one hypothesis test and t = 1.2 on another (both two-sided, same degrees of freedom). Compared to t = 1.2, the p-value for t = 3.5 is:"
+  type: multiple-choice
+  options:
+    - "Larger — a higher t-value indicates more spread in the sampling distribution."
+    - "Smaller — a t-statistic farther from zero is less likely under the null hypothesis, so the tail probability is smaller."
+    - "The same — degrees of freedom determine the p-value, not the magnitude of t."
+    - "Cannot be determined without knowing the hypothesized population mean."
+  answer: 1
+  explanation: "A larger absolute t-value means the sample result sits farther from the null hypothesis value in units of standard error. The probability of observing a result that extreme (or more extreme) under H₀ is therefore smaller — a smaller p-value, not a larger one. This is one of the most common beginner errors: students assume a bigger test statistic means a bigger p-value. The direction is opposite."
+
+- question: "As sample size n increases, the t-distribution approaches the standard normal distribution, which is why z-tests and t-tests produce nearly identical results for large samples."
+  type: true-false
+  answer: true
+  explanation: "The t-distribution has heavier tails because s is an imprecise estimate of σ for small samples. As n grows, s stabilizes and converges toward σ — the extra uncertainty shrinks. The t-distribution with n−1 degrees of freedom approaches the standard normal as n → ∞. By n ≈ 30, the two distributions are nearly indistinguishable, which is why large-sample z-tests are defensible even when σ is technically unknown."
+
+- question: "The z-test is the appropriate default for testing a population mean whenever the sample size exceeds 30, because the Central Limit Theorem guarantees normality of the sample mean."
+  type: true-false
+  answer: false
+  explanation: "The Central Limit Theorem justifies approximate normality of x̄ — but the z-test also requires knowing σ, which is almost never the case in real data. The t-test is the correct default: it handles unknown σ properly, and for large n it gives essentially the same answer as the z-test anyway (since the t-distribution converges to normal). Choosing z over t when σ is unknown is a common but avoidable error."
+
+- question: "Why does the t-distribution have heavier tails than the standard normal, and what does this imply about the critical values needed for a t-test versus a z-test at the same significance level?"
+  type: short-answer
+  answer: "The t-distribution has heavier tails because using s instead of σ introduces a second source of randomness — s is itself a random variable that varies from sample to sample. This extra variability in the denominator of the test statistic makes extreme values more probable than they would be under the standard normal. As a consequence, the critical values for a t-test are larger in magnitude than for a z-test at the same α: the t-test demands a more extreme sample result before rejecting H₀, appropriately accounting for the additional uncertainty."
+  explanation: "For example, at α = 0.05 two-sided with 10 degrees of freedom, the t critical value is ±2.228, compared to ±1.96 for the z-test. With more degrees of freedom (larger n), the t critical value approaches 1.96 as the two distributions converge. The heavier tails are a feature, not a bug — they prevent false rejections caused by using an imprecise estimate of spread."
+```
+
 ## Explainer
 
 You already know the core logic of hypothesis testing: assume the null hypothesis is true, compute how far your sample result is from what the null predicts, and ask how likely such a deviation is by chance. You also know how to convert raw values to **z-scores** using the standard normal distribution. The z-test and t-test both apply that exact logic to sample means — the only real difference is what you know about the population's variability.

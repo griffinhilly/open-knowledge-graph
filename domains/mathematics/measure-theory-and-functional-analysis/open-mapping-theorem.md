@@ -19,6 +19,45 @@ status: draft
 ## Core Idea
 The open mapping theorem states that a continuous surjective linear operator between Banach spaces is open (maps open sets to open sets). This deep result relies on the Baire category theorem and implies the bounded inverse theorem.
 
+## Questions
+
+```yaml
+- question: "A continuous surjective linear operator T: X → Y is given, where X is a Banach space and Y is only a normed space (not complete). Which conclusion is guaranteed by the open mapping theorem?"
+  type: multiple-choice
+  options:
+    - "T maps open sets to open sets, since T is continuous and surjective"
+    - "T maps open sets to open sets only if T is also injective"
+    - "The theorem does not apply — both spaces must be Banach for the conclusion to hold"
+    - "T maps open sets to open sets, but T⁻¹ may not be continuous"
+  answer: 2
+  explanation: "The open mapping theorem requires *both* domain and codomain to be Banach spaces. If Y is not complete, the Baire category theorem argument breaks down and counterexamples exist. Option A is the tempting error — continuity plus surjectivity feel sufficient, but completeness is the hidden engine of the proof."
+
+- question: "Suppose T: X → Y is a continuous bijective linear operator between Banach spaces. What does the bounded inverse theorem (a corollary of the open mapping theorem) guarantee?"
+  type: multiple-choice
+  options:
+    - "T⁻¹ exists but may be unbounded"
+    - "T⁻¹ is continuous (bounded) automatically"
+    - "T⁻¹ is continuous only if T is also an isometry"
+    - "T⁻¹ is continuous only in finite dimensions"
+  answer: 1
+  explanation: "The bounded inverse theorem says a continuous bijection between Banach spaces automatically has a continuous inverse. Since T is open (by the open mapping theorem), T sends open sets to open sets, which is precisely what continuity of T⁻¹ means. In finite dimensions this is trivial; in infinite dimensions it requires the full force of completeness and is genuinely surprising."
+
+- question: "In infinite-dimensional Banach spaces, a continuous bijective linear operator is automatically a homeomorphism."
+  type: true-false
+  answer: true
+  explanation: "This is the bounded inverse theorem, a direct corollary of the open mapping theorem. A continuous bijection T: X → Y between Banach spaces has a continuous inverse T⁻¹. The proof uses surjectivity to apply the open mapping theorem, which gives T maps open sets to open sets — precisely continuity of T⁻¹."
+
+- question: "The open mapping theorem applies to any continuous surjective linear map between normed spaces — completeness is a convenience, not a necessity."
+  type: true-false
+  answer: false
+  explanation: "Completeness is essential. The proof fundamentally uses the Baire category theorem, which holds for complete metric spaces. Without completeness, continuous surjective linear maps between normed spaces exist that are not open. The Banach space assumption on both domain and codomain cannot be dropped."
+
+- question: "Why does surjectivity, combined with completeness of both spaces, force a continuous linear operator to be an open map? What is the key mechanism in the proof?"
+  type: short-answer
+  answer: "The key mechanism is the Baire category theorem applied to the surjection. Since T is surjective, Y is covered by scaled images of unit balls in X. The Baire category theorem (requiring completeness of Y) guarantees some image ball has nonempty interior. Linearity then propagates this to every ball around the origin, showing T maps every open ball to a set with nonempty interior — which is exactly what openness means."
+  explanation: "The proof has two steps: use Baire to get nonempty interior of a ball image, then use linearity to extend this globally. Both require completeness (for Baire), surjectivity (to cover Y), and linearity (to propagate local openness). All three hypotheses are doing real work."
+```
+
 ## Explainer
 
 An **open mapping** is a function that sends open sets to open sets. Continuous functions go in the other direction — they pull open sets back to open sets — so openness and continuity are distinct properties. For general nonlinear functions, there is no reason to expect both: a continuous function can easily collapse an open interval to a single point (not open). The open mapping theorem says that for continuous *linear* operators between *Banach spaces*, surjectivity alone forces the map to be open. This is a remarkable structural rigidity.

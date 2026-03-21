@@ -31,6 +31,45 @@ Construct machines that decide versus semi-decide simple languages (e.g., palind
 - Treating 'semi-decidable' as 'almost decidable' (the gap is absolute: a machine cannot bound the time before giving up).
 - Confusing co-RE with the complement of a language (co-RE is the complement in the recursion-theoretic hierarchy).
 
+## Questions
+
+```yaml
+- question: "What does it mean to say the halting problem is semi-decidable?"
+  type: multiple-choice
+  options:
+    - "There exists a Turing machine that always halts and correctly answers 'yes' or 'no' for every input"
+    - "There exists a Turing machine that halts and accepts whenever a program halts on its input, but may run forever when the program does not halt"
+    - "The halting problem can be decided in exponential time but not polynomial time"
+    - "The halting problem is almost decidable — a small fraction of inputs cannot be determined"
+  answer: 1
+  explanation: "Semi-decidable means there is a TM that accepts every member of the language (here: every (program, input) pair where the program halts) but may run forever on non-members. For the halting problem: simulate the given program. If it halts, output 'yes' and halt. If it runs forever, your simulator also runs forever — never producing a 'no.' You can confirm halting but cannot confirm non-halting. Option A describes decidability. Option C confuses decidability with computational complexity. Option D misrepresents the gap as quantitative — it is absolute."
+
+- question: "A language L is recursively enumerable (RE). Its complement L̄ is also recursively enumerable. What can we conclude?"
+  type: multiple-choice
+  options:
+    - "L is undecidable, because two RE machines cannot decide a language"
+    - "L is decidable, because we can run both machines in parallel and one will always halt with the correct answer"
+    - "L is in co-RE but not necessarily in RE"
+    - "Nothing — knowing both L and L̄ are RE tells us only that L is semidecidable in both directions"
+  answer: 1
+  explanation: "If both L and L̄ are RE, dovetail two TMs: M₁ that semi-decides L and M₂ that semi-decides L̄. For any input x, either x ∈ L or x ∈ L̄ — one of the two machines will eventually halt and accept. Run both in parallel (alternating steps); whichever accepts first gives the decision. This constructs a TM that always halts with the correct yes/no answer — a decider. Decidability equals RE ∩ co-RE, and having both L ∈ RE and L̄ ∈ RE (which means L ∈ co-RE) is exactly that intersection."
+
+- question: "If a language L is decidable, then its complement L̄ is also decidable."
+  type: true-false
+  answer: true
+  explanation: "If TM M decides L (always halts, accepts on L-members, rejects on non-members), construct M̄ by swapping the accept and reject states. M̄ accepts exactly the inputs M rejects — which are the non-members of L, i.e., the members of L̄. M̄ always halts (because M always halts) and correctly decides L̄. Decidability is closed under complementation. This contrasts with semi-decidability: the halting problem is RE but its complement (non-halting) is not RE, so RE is not closed under complementation."
+
+- question: "A semi-decidable language can be made decidable by adding a timeout: if the Turing machine does not halt within some fixed number of steps, output 'no.'"
+  type: true-false
+  answer: false
+  explanation: "This is the most tempting misconception about semi-decidability. Adding a timeout creates a TM that always halts, but it no longer correctly decides the language — it incorrectly rejects inputs that would have been accepted after more steps. The gap between semi-decidable and decidable is absolute: no finite timeout can serve as a correct 'no' witness, because for any timeout value T, there are programs that halt after T+1 steps. You cannot know in advance how long to wait, and no bound works for all inputs simultaneously."
+
+- question: "Explain why the gap between semi-decidable and decidable is 'absolute' — why can't a semi-decision procedure be converted into a decision procedure by limiting computation time?"
+  type: short-answer
+  answer: "A semi-decision procedure has an asymmetry: it can produce 'yes' witnesses (accepting) but never produces 'no' witnesses — it just runs forever on non-members. To convert it to a decider, you'd need a finite time after which you can safely output 'no.' But for the halting problem, programs can take arbitrarily long to halt: for any timeout T you choose, there exist programs that halt on step T+1. Stopping at T and outputting 'no' would incorrectly reject those programs. There is no computable function that bounds the runtime of all halting programs, so no timeout is correct for all inputs. The gap is absolute because 'may run forever on non-members' cannot be made finite by a computable bound."
+  explanation: "The reason this fails is that the set of programs that halt within T steps grows as T grows, but is never the complete set of halting programs. Deciding membership in the halting problem would require knowing, for an arbitrary program, whether it eventually halts — which is exactly the undecidable question you started with. Any timeout-based approach simply relocates the problem rather than solving it."
+```
+
 ## Explainer
 
 You already know what a Turing machine is and that the halting problem cannot be solved — no TM can decide, for every input, whether an arbitrary program halts. Build on that foundation by asking a more refined question: what kinds of problems can a Turing machine *partially* solve? The answer carves computational problems into two fundamental classes. A language L is **decidable** (also called recursive) if there exists a TM that always halts and correctly answers "yes" or "no" for every input. A language is **semi-decidable** (also called recursively enumerable, or RE) if there exists a TM that halts and accepts on every input in L, but may run forever on inputs not in L. The machine can confirm membership but cannot always confirm non-membership.

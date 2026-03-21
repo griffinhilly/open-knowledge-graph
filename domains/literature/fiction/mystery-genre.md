@@ -34,6 +34,45 @@ Read a mystery novel once for pleasure, then re-read the first quarter to identi
 - The detective's superior intelligence is a genre convention, not a realistic representation of investigation.
 - Noir and hard-boiled fiction are related to mystery but differ in emphasis: they focus on moral ambiguity and atmosphere over puzzle-solving.
 
+## Questions
+
+```yaml
+- question: "A mystery novel ends with the detective revealing that the killer is a character the reader has never met, who was mentioned only in passing and whose motives are explained for the first time in the final chapter. According to the conventions of classic mystery fiction, this ending:"
+  type: multiple-choice
+  options:
+    - "Is a sophisticated example of the genre's use of surprise and revelation"
+    - "Violates the fair play rule — the clues necessary to solve the puzzle were not available to the reader"
+    - "Is acceptable because detective fiction has no formal rules about what information must be shared"
+    - "Demonstrates the noir approach to mystery, which emphasizes revelation over puzzle-solving"
+  answer: 1
+  explanation: "The 'fair play' rule, central to the Golden Age tradition (Agatha Christie, Dorothy Sayers), holds that the reader must have access to all the information needed to solve the puzzle before the detective reveals the answer. Introducing a new character or motive at the revelation is considered a craft failure — the author has cheated. Mystery is one of the few genres where readers actively grade the ending on its structural fairness. Option D is incorrect: noir de-emphasizes fair puzzle-solving but does not license introducing solutions from nowhere."
+
+- question: "What distinguishes the mystery genre's narrative structure from most other fiction?"
+  type: multiple-choice
+  options:
+    - "Mystery plots move forward through action; other genres move backward through exposition"
+    - "In mystery, the central 'plot' is a reconstruction of the past, not a sequence of present events — the narrative purpose is discovering what already happened"
+    - "Mystery relies on character development as its primary engine, while other genres use external conflict"
+    - "Mystery is the only genre with a protagonist who faces genuine intellectual challenge"
+  answer: 1
+  explanation: "In most narratives, plot drives forward — characters pursue goals, obstacles arise, events unfold in sequence. In mystery, the central 'plot' is actually backward-facing: a crime has already occurred, and the narrative is structured around reconstructing what happened. The reader experiences forward motion through investigation, but the object of investigation is a fixed past event. This inversion — from 'what will happen?' to 'what did happen?' — is the genre's defining structural feature, which drives the information management techniques (clue planting, red herrings, revelation timing) that make mystery distinctive."
+
+- question: "Mystery fiction is fundamentally a genre of epistemology — it dramatizes how we construct knowledge from evidence."
+  type: true-false
+  answer: true
+  explanation: "The mystery genre is built around an epistemological problem: who knows what, when, and how. The central conflict is cognitive, not physical. The detective must distinguish appearance from reality, organize contradictory evidence, and resist false conclusions. The genre idealizes a particular kind of rationality — systematic, patient, evidence-grounded — and dramatizes its triumph over chaos. The reader undergoes a parallel epistemological process: given the same clues as the detective, can they construct the correct explanation? The genre's moral is essentially epistemological: careful, rigorous reasoning can reveal truth."
+
+- question: "Noir fiction is essentially a darker version of classic mystery, with the same emphasis on fair-play puzzle-solving but with a more cynical tone."
+  type: true-false
+  answer: false
+  explanation: "Noir differs from classic mystery not just in tone but in its fundamental epistemological premise. Classic mystery (the Golden Age whodunit) is optimistic: careful reasoning reveals truth, justice prevails, order is restored. Noir is pessimistic: the detective's investigation often confirms corruption rather than dispelling it; knowledge of the truth does not necessarily lead to justice; the world is already morally compromised. Noir also typically abandons the fair-play puzzle structure in favor of atmosphere and moral ambiguity. They share surface features (investigation, a detective figure) but differ in their implicit claims about what knowledge and rationality can achieve."
+
+- question: "What is the 'information architecture' of a mystery novel, and why is managing it the genre's primary craft challenge?"
+  type: short-answer
+  answer: "The information architecture is the deliberate structure of what the reader knows and when — which clues are revealed, when they are revealed, and which misleading details (red herrings) are deployed to misdirect. The craft challenge is that the author must plant real clues that are genuinely discoverable before the revelation (satisfying the fair play rule) while simultaneously making them easy to overlook on first reading. The same detail must function as 'incidental' on first pass and 'obvious' on re-reading — which requires precise control of how the reader's attention is directed."
+  explanation: "Mystery is unusual among narrative genres in requiring two coherent readings simultaneously: a first-reading experience of genuine uncertainty and misdirection, and a second-reading experience where the planted clues are suddenly obvious. Building this double structure — hidden in plain sight — is what makes mystery writing technically demanding. The author must understand not just what happened, but how to make the evidence available while controlling the reader's interpretation of it."
+```
+
 ## Explainer
 
 You already understand narrative conflict — the engine that drives a story forward — and plot structure, which organizes conflict into meaningful sequence. The mystery genre is a highly formalized application of both. Its central conflict is epistemological: someone knows something that other characters (and the reader) do not. The plot is structured not around what happens but around the gradual process of discovering what already happened. This distinction is fundamental. In most narratives, plot moves forward; in mystery, the "plot" that matters is actually a reconstruction of the past.

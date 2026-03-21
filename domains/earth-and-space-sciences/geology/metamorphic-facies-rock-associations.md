@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Metamorphic facies are groups of rock types with the same mineral assemblages in equilibrium over a range of PT conditions. Systematic facies classification (zeolite, prehnite-pumpellyite, greenschist, amphibolite, granulite, blueschist, eclogite) reflects different geothermal gradients and tectonic regimes; facies associations reveal the thermal and pressure structure of orogens.
 
+## Questions
+
+```yaml
+- question: "A geologist finds a metabasalt containing glaucophane (blue amphibole) and lawsonite in an ancient mountain belt. What tectonic setting does this mineral assemblage most strongly indicate?"
+  type: multiple-choice
+  options:
+    - "Continental collision with high heat flow, producing granulite-facies conditions"
+    - "Subduction of cold oceanic crust to great depths with relatively little heating"
+    - "Low-grade burial metamorphism in a passive margin sedimentary basin"
+    - "Crustal anatexis near a volcanic arc, where temperatures exceeded 700°C"
+  answer: 1
+  explanation: "Glaucophane and lawsonite are the defining minerals of blueschist facies, which forms at high pressure but anomalously low temperature — conditions that only occur when cold material is subducted faster than it can thermally equilibrate. Continental collision zones and arcs involve higher geothermal gradients (more heat per unit depth), producing greenschist, amphibolite, or granulite assemblages instead. Finding blueschist in an ancient orogen is strong evidence of a former subduction zone."
+
+- question: "What is the most important difference between amphibolite facies and granulite facies conditions?"
+  type: multiple-choice
+  options:
+    - "Granulite facies forms at higher pressure but the same temperature as amphibolite"
+    - "Amphibolite facies contains anhydrous pyroxenes; granulite facies contains hydrous hornblende"
+    - "Granulite facies forms at higher temperatures (>700°C) where hydrous minerals break down and anhydrous phases like pyroxene dominate"
+    - "The two facies are interchangeable; the difference is only in bulk rock composition, not PT conditions"
+  answer: 2
+  explanation: "Amphibolite facies is characterized by hornblende (a hydrous amphibole) and plagioclase as the dominant mafic assemblage. Granulite facies forms at higher temperatures (typically >700°C) where even hydrous minerals dehydrate and break down, leaving anhydrous assemblages of pyroxene and garnet. The key diagnostic is water content: granulites are 'dry' rocks formed at extreme temperatures. Confusing the two leads to incorrect PT path reconstruction."
+
+- question: "Finding eclogite in an ancient mountain belt indicates that those rocks were once subducted to depths exceeding approximately 45 km."
+  type: true-false
+  answer: true
+  explanation: "Eclogite facies represents extreme pressure conditions where plagioclase — stable in virtually all other crustal settings — becomes unstable and is replaced by the dense assemblage of garnet plus omphacite (Na-rich clinopyroxene). The pressures required correspond to depths of 45 km or more. Because eclogite is denser than typical crustal rock, it sinks and is rarely preserved; finding exhumed eclogite is a remarkable record of deep subduction and subsequent return to the surface."
+
+- question: "Two rocks from the same ancient orogen that contain different metamorphic mineral assemblages must have formed at different times."
+  type: true-false
+  answer: false
+  explanation: "Rocks in the same orogen can record different PT conditions because they originated at different structural depths or experienced different PT paths — not necessarily different times. A rock from the deep core of a collision zone may reach eclogite or granulite conditions while a shallower rock simultaneously records greenschist facies. Spatial variation in PT conditions across an orogen is normal and expected; the facies distribution maps the thermal and pressure structure, not the temporal sequence."
+
+- question: "Why are blueschist-facies rocks considered diagnostic of ancient subduction zones rather than continental collision or other high-pressure settings?"
+  type: short-answer
+  answer: "Blueschist facies requires high pressure combined with low temperature — a geothermal gradient much colder than normal continental crust. In subduction zones, cold oceanic lithosphere is dragged to great depths at rates fast enough that the slab remains relatively cold; it reaches high pressures without equilibrating to the ambient temperature of the surrounding mantle. Continental collision and arc environments have higher heat flow, which produces elevated temperatures at any given depth, shifting the equilibrium assemblage toward greenschist, amphibolite, or granulite rather than blueschist. The combination of high P and low T is the subduction zone's unique signature."
+  explanation: "The key is the geothermal gradient — the rate at which temperature increases with depth. Subduction zones have anomalously cold gradients (low T/high P) because cold oceanic material descends faster than heat can diffuse into it. Normal continental geotherms are warmer per unit depth, producing a different facies series. This is why the facies associations in an orogen allow geologists to reconstruct the tectonic regime that produced them."
+```
+
 ## Explainer
 
 From your study of metamorphic grade and pressure-temperature paths, you know that increasing temperature and pressure transform minerals into new assemblages that are stable under the new conditions. The **metamorphic facies** concept organizes this complexity into a practical classification: rocks that equilibrated under similar PT conditions share the same mineral assemblage, regardless of where on Earth they formed. If you find a metabasalt containing chlorite, actinolite, and albite, it belongs to the **greenschist facies** — and you immediately know it formed at roughly 300-500°C and moderate pressures, whether it comes from the Scottish Highlands or the Japanese Alps.

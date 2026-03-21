@@ -31,6 +31,45 @@ Calculate DALYs for multiple disease conditions using GBD methods; review GBD re
 ## Common Misconceptions
 Higher DALY burden means a disease is inherently 'worse' (reflects both severity and frequency). Disability weights are objectively measured rather than value-laden.
 
+## Questions
+
+```yaml
+- question: "A disease kills 10,000 children aged 2 per year. A second disease disables 5 million adults for 20 years at a disability weight of 0.05. Which component of the DALY formula primarily captures each disease's burden?"
+  type: multiple-choice
+  options:
+    - "Both diseases are captured equally by YLL, since both cause harm over time"
+    - "The childhood disease contributes mainly to YLL; the adult disability disease contributes mainly to YLD"
+    - "The childhood disease contributes mainly to YLD because children live with the disease briefly before dying"
+    - "Both contribute equally to YLD because disability weights are assigned to all health states"
+  answer: 1
+  explanation: "YLL (Years of Life Lost) counts premature deaths multiplied by remaining life expectancy — dying at age 2 means losing roughly 70+ potential life-years per death, giving a huge YLL. YLD (Years Lived with Disability) = prevalence × disability weight × duration. The adult disability disease has 5 million cases × 0.05 × 20 years = 5 million YLD but no YLL if it is non-lethal. This example illustrates why DALYs can reveal that chronic non-lethal conditions impose large burdens invisible to mortality-only statistics."
+
+- question: "Which of the following best describes how disability weights are determined in DALY calculations?"
+  type: multiple-choice
+  options:
+    - "They are derived from physiological measurements of functional impairment, independent of cultural context"
+    - "They are derived from population surveys asking people to compare hypothetical health states, embedding social value judgments"
+    - "They are set by international law and standardized identically across all countries"
+    - "They are calculated from mortality rates of each condition to reflect disease severity objectively"
+  answer: 1
+  explanation: "Disability weights come from surveys in which respondents compare pairs of health states and rate their relative severity. This makes the weights inherently value-laden: they reflect what surveyed populations think about the relative worth of different health states, not objective physiological measurements. Advocacy communities for people living with disabilities have contested weights that imply their lives are worth substantially less — pointing out that survey respondents imagining a condition may rate it more severely than people who actually live with it."
+
+- question: "A disease that rarely causes death but affects millions of people for decades can have a higher total DALY burden than a rapidly fatal disease that kills fewer people."
+  type: true-false
+  answer: true
+  explanation: "True. DALYs = YLL + YLD, and YLD = prevalence × disability weight × duration. A condition affecting 10 million people with disability weight 0.3 for 30 years generates 90 million YLD regardless of its mortality. Mental health disorders and musculoskeletal conditions score heavily on DALYs for exactly this reason — they were underrepresented in frameworks that tracked only death, and the DALY framework helped elevate them as global health priorities."
+
+- question: "Disability weights in DALY calculations are objective biological measurements that do not reflect value judgments about the relative worth of different lives."
+  type: true-false
+  answer: false
+  explanation: "False. Disability weights are derived from population surveys asking people to compare hypothetical health states — an inherently normative exercise. Historical GBD methods also used age-weighting (treating life-years in young adults as more valuable than those in the elderly or very young) and time-discounting (treating future life-years as less valuable than present ones), both of which embed contestable ethical assumptions. More recent GBD iterations have modified or removed these features following criticism, but the disability weights themselves remain value-laden."
+
+- question: "Why might disability advocacy communities object to the disability weights assigned to certain conditions in DALY calculations?"
+  type: short-answer
+  answer: "Advocacy communities often argue that disability weights reflect the imagined perspective of non-disabled survey respondents rather than the actual lived experience of people with those conditions. Respondents imagining, say, blindness or paraplegia may rate those states as far more severe than people who actually live with them — who adapt, develop compensatory skills, and report higher quality of life than outsiders predict. A disability weight close to 1 (equivalent to death) implies that living with the condition is almost as bad as dying, which many disabled people strongly contest. This matters practically because high disability weights inflate DALY burden estimates, potentially directing health resources toward cure or prevention rather than accommodation and social support."
+  explanation: "The deeper issue is that disability weights operationalize a theory of well-being based on functional normalcy relative to an idealized baseline of perfect health. This framework can systematically devalue lives that deviate from that baseline, even when the people living those lives do not consider them worse. The methodological critique is that weights should ideally be derived from people who have adapted to living with a condition, not from people imagining it from the outside."
+```
+
 ## Explainer
 
 From your study of disease frequency measures and the global burden of disease, you know that mortality statistics — death rates, years of life lost — capture only part of the picture. Two diseases that kill at the same rate can have vastly different impacts on quality of life in the years before death, and a disease that rarely kills but chronically disables millions may impose a larger societal burden than a rapidly lethal but rare condition. **Disability-Adjusted Life Years (DALYs)** were designed to create a single metric that integrates both premature death and non-fatal health loss, enabling comparison across completely different disease types.

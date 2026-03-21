@@ -29,6 +29,45 @@ Start with a corded drill — the most universally useful power tool — and pra
 - Power tools are inherently more dangerous than hand tools; with proper technique and PPE the risk is manageable.
 - 'A dull blade is safer' — dull blades require more force and are more likely to bind or kick back.
 
+## Questions
+
+```yaml
+- question: "You're cutting a board with a circular saw. The board rests on two sawhorses with the intended cut positioned in the middle, so both ends of the board are supported. What hazard does this create?"
+  type: multiple-choice
+  options:
+    - "The cut will be uneven because the supports are spaced too far apart"
+    - "As the cut deepens, the board will sag and pinch the blade, which can cause violent kickback toward the operator"
+    - "No hazard — supporting both sides is the safest possible setup"
+    - "The board may fall after the cut and injure someone below"
+  answer: 1
+  explanation: "When both sides of a cut are supported, the offcut cannot fall freely. As the cut deepens, gravity pulls the board down, closing on the blade. The blade binds, and the saw can kick back violently toward the operator. Safe setup: support the side that stays fixed and let the offcut hang free or fall clear so nothing can squeeze the blade during the cut."
+
+- question: "Which statement about blade sharpness is correct?"
+  type: multiple-choice
+  options:
+    - "A dull blade is safer because it cuts more slowly and the operator has more time to react"
+    - "A sharp blade is safer because it cuts cleanly, requires less force, and is less likely to bind"
+    - "Blade sharpness affects cut quality but has no significant effect on safety"
+    - "Sharper blades are more dangerous because they move through material faster and give less reaction time"
+  answer: 1
+  explanation: "This is counterintuitive but critical. A dull blade drags rather than cuts — it requires more operator force to push through, is more likely to catch and bind in the material, and produces unpredictable kickback. A sharp blade slices cleanly with minimal force, reduces binding risk, and gives the operator more control. Dull blades are more dangerous, not less."
+
+- question: "Before drilling into a wall, floor, or ceiling, you should scan for hidden electrical wires and plumbing using a stud finder or combination detector."
+  type: true-false
+  answer: true
+  explanation: "Walls conceal electrical wiring and sometimes plumbing that is invisible from the surface. Drilling into a live wire can cause electric shock or start a fire; hitting a water pipe causes flooding. A detector takes seconds to use and prevents accidents that are serious, expensive, and completely avoidable. When in doubt about what's inside a wall, also turn off the relevant circuit breaker before drilling."
+
+- question: "Using a dull blade is safer than a sharp one because it cuts more slowly, giving the operator more time to react to problems."
+  type: true-false
+  answer: false
+  explanation: "Dull blades are more dangerous. They require more force to push through material, making binding and kickback more likely. They also generate more heat and can crack or shatter. A sharp blade cuts cleanly and predictably with minimal force — predictability is what makes power tools controllable and safe. The 'dull = slow = safe' logic is a persistent myth that causes accidents."
+
+- question: "Why is securing the workpiece before cutting or drilling the most important safety step when using power tools?"
+  type: short-answer
+  answer: "A workpiece that shifts or binds during a cut becomes unpredictable — the tool can grab it, the blade can bind and kick back, and neither the cut nor any resulting injury is controllable. A clamped, stable workpiece ensures the tool does exactly what you intend."
+  explanation: "Power tools are safe when they do controlled work. The motor applies force in a fixed direction — but if the material moves unexpectedly, that force redirects unpredictably. A spinning drill bit that grabs an unsecured piece of wood can wrench your wrist or throw the wood. A circular saw that binds in pinched material can reverse violently. Securing the workpiece is what converts a potentially dangerous tool into a predictable one."
+```
+
 ## Explainer
 
 From your work with hand tools, you understand the basic principle: a controlled tool does controlled work. Power tools extend that principle by adding a motor — and that motor changes the risk profile in a specific way. A hand saw requires continuous effort and can be stopped instantly by releasing pressure; a circular saw blade spins at 5,000 RPM and cannot stop instantly. The energy stored in that spinning blade is what makes power tools so much faster and also what makes them require a different category of respect.

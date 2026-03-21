@@ -28,6 +28,45 @@ A directory is a special file that maps filenames to file identifiers (inode num
 - Hard links cannot span file systems because inode numbers are only unique within one filesystem.
 - Deleting a file with multiple hard links only removes one directory entry; the file persists until all hard links are deleted and the link count reaches zero.
 
+## Questions
+
+```yaml
+- question: "A Unix file /home/alice/project.txt has a link count of 2. Alice runs 'rm /home/alice/project.txt'. What happens to the file's data on disk?"
+  type: multiple-choice
+  options:
+    - "The file data is immediately deleted because rm removes files"
+    - "The data is moved to a trash folder and deleted after 30 days"
+    - "The file data persists because a second hard link still points to the same inode; only this directory entry is removed and the link count drops to 1"
+    - "The file data is corrupted because removing one hard link damages the shared inode"
+  answer: 2
+  explanation: "rm removes a directory entry and decrements the inode's link count. Since the link count drops from 2 to 1 (still positive), the file system does not deallocate the inode or its data blocks. The file remains fully accessible through the second hard link. Data is only reclaimed when the link count reaches zero — meaning all directory entries pointing to that inode have been removed."
+
+- question: "A user tries to create a hard link on filesystem A pointing to a file on a mounted external drive (filesystem B). The OS refuses. Why?"
+  type: multiple-choice
+  options:
+    - "Hard links can only be created by root for security reasons"
+    - "Hard links cannot span file systems because inode numbers are only unique within a single file system; the reference would be meaningless on the other device"
+    - "Hard links are not supported on external drives, only on the main partition"
+    - "The OS refuses because cross-filesystem hard links would create cycles in the directory tree"
+  answer: 1
+  explanation: "A hard link stores an inode number. Inode numbers are indices into a specific file system's inode table — inode 12345 on filesystem A refers to a completely different (or nonexistent) file than inode 12345 on filesystem B. A cross-filesystem hard link would be nonsensical. Symbolic links sidestep this problem by storing a path string rather than an inode number; the OS re-resolves the path at access time, so the target can live anywhere."
+
+- question: "Moving a file to a different directory within the same file system is instantaneous regardless of file size, because the operation only updates directory entries without touching the file's data blocks."
+  type: true-false
+  answer: true
+  explanation: "A same-filesystem move is implemented as a rename: the OS removes the directory entry in the source directory and creates one in the destination directory, both referencing the same inode. No data is read or written; only the two directory files are modified. This is why moving a 50 GB file across folders on the same drive is instant, while copying it — which must allocate new data blocks and duplicate all content — takes proportional time."
+
+- question: "Creating a hard link to a file produces a second copy of the file's data blocks, similar to the cp command."
+  type: true-false
+  answer: false
+  explanation: "A hard link creates only a new directory entry pointing to the existing inode. No data is duplicated. Both names resolve to the same inode, which points to the same data blocks on disk. Running 'ls -i' on both names will show the same inode number. Only the cp command allocates a new inode and copies data blocks. Hard links use negligible disk space and are created instantaneously — they are name aliases, not copies."
+
+- question: "Explain what causes a symbolic link to 'dangle,' and why this cannot happen with a hard link pointing to the same target file."
+  type: short-answer
+  answer: "A symbolic link stores its target as a path string. If the target file is deleted or moved, the OS can no longer resolve that path — the symlink dangles, pointing at nothing. A hard link stores a direct reference to the inode. As long as any hard link exists, the inode's link count is at least 1, so the file system will not deallocate the inode or its data. The data can only be deleted when every hard link has been removed and the link count reaches zero."
+  explanation: "A hard link is part of the file's identity — it keeps the file alive by contributing to the link count. A symbolic link is external to the file — deleting the target file does not update or invalidate the symlink. This asymmetry also explains why hard links cannot reference directories in most Unix implementations: allowing them could create cycles in the directory graph, breaking path-resolution algorithms that assume an acyclic hierarchy."
+```
+
 ## Explainer
 
 From your study of file system concepts, you know that a file system provides persistent, named storage — it gives structure to raw disk blocks so that users and programs can create, find, and organize files. **Directory structures** are the organizational layer that maps human-readable names to the underlying file data, and **path resolution** is the algorithm the OS uses to navigate that structure.

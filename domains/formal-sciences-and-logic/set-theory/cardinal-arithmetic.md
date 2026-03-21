@@ -35,6 +35,45 @@ Prove κ + κ = κ and κ · κ = κ for infinite cardinals (using well-ordering
 - Cardinal and ordinal arithmetic are completely different: ω + ω > ω as ordinals, but ℵ₀ + ℵ₀ = ℵ₀ as cardinals.
 - The equation 2^ℵ₀ = ℵ₁ is the continuum hypothesis, an independent statement, not a theorem provable in ZFC.
 
+## Questions
+
+```yaml
+- question: "What is ℵ₀ + ℵ₁?"
+  type: multiple-choice
+  options:
+    - "Undefined — you cannot add cardinals of different sizes"
+    - "ℵ₁, by the absorption rule: κ + λ = max(κ, λ) for infinite cardinals"
+    - "ℵ₂, since you move up one level in the cardinal hierarchy"
+    - "2ℵ₀, since you are doubling the smaller infinity"
+  answer: 1
+  explanation: "For infinite cardinals κ ≥ λ, cardinal addition satisfies κ + λ = max(κ, λ) = κ. Since ℵ₁ > ℵ₀, we have ℵ₀ + ℵ₁ = ℵ₁. Infinite cardinal addition absorbs the smaller cardinal completely — this follows (under AC) from the ability to exhibit an explicit bijection between ℵ₁ ⊔ ℵ₀ and ℵ₁ by interleaving the countably many extra elements into the already-uncountable ℵ₁."
+
+- question: "A student argues: 'ω + ω > ω as ordinals, so ℵ₀ + ℵ₀ > ℵ₀ as cardinals, since ω and ℵ₀ name the same set.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — ordinal and cardinal arithmetic agree on the natural numbers"
+    - "ω and ℵ₀ name different sets; ω is finite and ℵ₀ is infinite"
+    - "Ordinal and cardinal arithmetic are different operations: ω + ω compares well-ordered types while ℵ₀ + ℵ₀ asks only whether a bijection exists between ℕ ⊔ ℕ and ℕ"
+    - "ω + ω = ω in ordinal arithmetic, so the premise is false"
+  answer: 2
+  explanation: "ω and ℵ₀ name the same underlying set (ℕ) but represent different mathematical structures. ω is ℕ viewed as a well-ordered type, and ordinal addition is sensitive to order: ω + ω is a well-order where you count through one copy of ℕ then start again, producing a strictly longer well-order. Cardinal addition asks only whether a bijection exists between ℕ ⊔ ℕ and ℕ — which it does (map evens to one copy, odds to the other). Cardinality ignores order; ordinality preserves it."
+
+- question: "Since ℵ₀ + ℵ₀ = ℵ₀ and ℵ₀ · ℵ₀ = ℵ₀, it follows that 2^ℵ₀ = ℵ₀ as well."
+  type: true-false
+  answer: false
+  explanation: "Cardinal exponentiation behaves fundamentally differently from addition and multiplication. Cantor's theorem proves that for any set A, |P(A)| > |A| — the power set is always strictly larger. Since 2^ℵ₀ = |P(ℕ)|, we have 2^ℵ₀ > ℵ₀. The absorption rule that collapses addition and multiplication does NOT apply to exponentiation. This is the crucial asymmetry: infinite cardinal addition and multiplication are trivial, but exponentiation is genuinely nontrivial."
+
+- question: "The continuum hypothesis — that 2^ℵ₀ = ℵ₁ — was proven true by Kurt Gödel."
+  type: true-false
+  answer: false
+  explanation: "Gödel proved that the continuum hypothesis (CH) cannot be disproved from ZFC — it is consistent with ZFC. Later, Paul Cohen proved that CH also cannot be proved from ZFC. Together, these results show CH is independent of ZFC: neither a theorem nor a refutable claim within standard set theory. There are models of ZFC where 2^ℵ₀ = ℵ₁, and models where 2^ℵ₀ = ℵ₂₃₇. Gödel established consistency, not truth."
+
+- question: "Why does infinite cardinal addition collapse (κ + λ = max(κ, λ)) while cardinal exponentiation does not, and what does this reveal about the structure of infinite sets?"
+  type: short-answer
+  answer: "Cardinal addition κ + λ asks whether we can biject κ ⊔ λ back to max(κ, λ). For infinite κ ≥ λ, we can — use AC to well-order κ, then interleave the λ elements into it. Infinity absorbs the addition. Exponentiation κ^λ counts functions from λ to κ. For 2^ℵ₀, this is the set of all binary sequences on ℕ — equivalently all subsets of ℕ. Cantor's diagonal argument shows no injection from P(ℕ) into ℕ exists, so the two cardinalities are genuinely different. Exponentiation generates new structure through combinatorial enumeration that cannot be bijected away."
+  explanation: "This asymmetry is mathematically deep: it explains why the continuum hypothesis is non-trivial and why ZFC is 'incomplete' with respect to cardinal arithmetic. Infinite addition and multiplication are fully determined by ZFC; exponentiation opens a space of genuine independence where additional axioms would be needed to pin down the answer."
+```
+
 ## Explainer
 
 You know from infinite cardinal numbers that cardinals measure the "size" of sets, and Cantor's theorem guarantees infinitely many distinct infinite cardinals: ℵ₀ < ℵ₁ < ℵ₂ < ... You also know that two sets have the same cardinality exactly when a bijection between them exists. Cardinal arithmetic extends this framework by defining operations on cardinalities. The definitions are natural — but the behavior of infinite cardinals is shockingly different from finite arithmetic.

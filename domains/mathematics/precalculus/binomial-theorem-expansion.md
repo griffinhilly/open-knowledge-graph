@@ -27,6 +27,45 @@ Start with small cases (n = 2, 3, 4) by hand to see the pattern. Introduce Pasca
 - Sign errors when b is negative: (-b)^k alternates sign.
 - Confusing C(n,k) with permutations P(n,k).
 
+## Questions
+
+```yaml
+- question: "What is the coefficient of x^3 in the expansion of (x + 2)^5?"
+  type: multiple-choice
+  options:
+    - "10"
+    - "40"
+    - "80"
+    - "20"
+  answer: 1
+  explanation: "The term with x^3 requires n - k = 3, so k = 2. The term is C(5,2)·x^3·2^2 = 10·4 = 40. Option A (10) is the error of using only C(5,2) and forgetting to raise the coefficient 2 to the power k. Option C (80) comes from incorrectly setting k = 3 — as if 'x^3 means k = 3' — which actually gives the x^2 term. Always solve for k from n - k = desired exponent."
+
+- question: "What is the coefficient of y^3 in the expansion of (1 − y)^4?"
+  type: multiple-choice
+  options:
+    - "4"
+    - "−4"
+    - "6"
+    - "−6"
+  answer: 1
+  explanation: "Here a = 1, b = −y, n = 4, and k = 3. The term is C(4,3)·1^1·(−y)^3 = 4·(−1)^3·y^3 = −4y^3. The coefficient is −4. Option A (4) is the classic sign error — forgetting that (−y)^3 = −y^3. Option C and D involve using k = 2 by mistake. In any expansion of (a − b)^n, you must treat the full (−b) as the second term, so (−b)^k carries a sign of (−1)^k."
+
+- question: "In the expansion of (a − b)^n, the terms alternate in sign because (−b)^k is negative for odd k and positive for even k."
+  type: true-false
+  answer: true
+  explanation: "This is exactly correct. When you substitute −b for the second term, each term becomes C(n,k)·a^(n−k)·(−b)^k = C(n,k)·(−1)^k·a^(n−k)·b^k. Since (−1)^k = +1 for even k and −1 for odd k, the signs alternate: the k=0 term is positive, k=1 negative, k=2 positive, and so on."
+
+- question: "The binomial coefficient C(n,k) equals the permutation P(n,k) = n!/(n−k)!, since both count the number of ways to choose k items from n."
+  type: true-false
+  answer: false
+  explanation: "P(n,k) counts ordered selections; C(n,k) = n!/(k!(n−k)!) counts unordered selections. C(n,k) = P(n,k) / k! because each unordered group of k items can be arranged in k! different orders. In the binomial expansion, we want to count how many factors we pick b from — the order of the factors doesn't matter — so combinations C(n,k) are correct, not permutations."
+
+- question: "Explain, in terms of multiplying out the n factors of (a + b)^n, why the coefficient of a^(n−k)·b^k is C(n,k)."
+  type: short-answer
+  answer: "When you distribute (a + b)^n, you choose one term — either a or b — from each of the n factors. To produce the monomial a^(n−k)·b^k, you must choose b from exactly k of the n factors (and a from the rest). The number of ways to choose which k factors contribute a b is C(n,k) = n!/(k!(n−k)!). Every such selection yields the same product, so C(n,k) identical terms combine into the coefficient C(n,k)·a^(n−k)·b^k."
+  explanation: "This combinatorial argument is the conceptual heart of the theorem — the algebra is just collecting these choices. It also explains why C(n,k) appears in Pascal's triangle: the recursive identity C(n,k) = C(n−1,k−1) + C(n−1,k) says either the last factor contributes a b (C(n−1,k−1) ways to fill the rest) or it contributes an a (C(n−1,k) ways to fill the rest)."
+```
+
 ## Explainer
 
 The Binomial Theorem answers a question you have probably approached by hand: what is (a + b)³, or (a + b)⁵? When you expand (a + b)(a + b)(a + b) by distributing, you pick one term from each factor — either a or b — and multiply. The final sum collects all possible products of n such choices. The **binomial coefficient** C(n, k) = n!/(k!(n-k)!) counts the number of ways to pick exactly k b's (and therefore n-k a's) from n factors. That count is the coefficient of a^(n-k)·b^k in the expansion.

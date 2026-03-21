@@ -32,6 +32,45 @@ Construct the first few ordinals explicitly and verify the successor operation n
 - Confusing the element relation (∈) with the order relation (<) on ordinals; they coincide for ordinals.
 - Overlooking that every finite ordinal is well-founded and transitive.
 
+## Questions
+
+```yaml
+- question: "In the von Neumann construction, what is the set representing the natural number 3?"
+  type: multiple-choice
+  options:
+    - "3 = {3} — the set whose only element is the symbol 3"
+    - "3 = {1, 2, 3} — the set listing the numbers from 1 to 3"
+    - "3 = {0, 1, 2} = {∅, {∅}, {∅, {∅}}} — the set of all ordinals smaller than 3"
+    - "3 = ∅ ∪ ∅ ∪ ∅ — three applications of the empty set operation"
+  answer: 2
+  explanation: "In the von Neumann construction, each natural number n is defined as the set of all natural numbers smaller than it: 0 = ∅, 1 = {0}, 2 = {0, 1}, 3 = {0, 1, 2}. Crucially, the elements are themselves sets: 0 = ∅, 1 = {∅}, 2 = {∅, {∅}}, so 3 = {∅, {∅}, {∅, {∅}}}. The key insight is that each number encodes its own predecessors — it is its own 'history.'"
+
+- question: "In the von Neumann construction, how do you verify that 2 < 4?"
+  type: multiple-choice
+  options:
+    - "Count symbols to confirm '2' precedes '4' in the standard sequence"
+    - "Check that the set 2 has fewer elements than the set 4"
+    - "Check that 2 ∈ 4 — that the set {0, 1} is a member of the set {0, 1, 2, 3}"
+    - "Apply the successor function twice to 2 and confirm you reach 4"
+  answer: 2
+  explanation: "In the von Neumann construction, the less-than ordering coincides exactly with set membership: m < n if and only if m ∈ n. Since 4 = {0, 1, 2, 3}, and 2 = {0, 1}, we verify 2 < 4 by checking that {0, 1} ∈ {0, 1, 2, 3} — which is true, since 2 is listed as an element of 4. This identification of '<' with '∈' is not a convention but a theorem: it follows from the transitive and well-founded structure of von Neumann ordinals."
+
+- question: "The natural number 4 in the von Neumann construction is a set containing exactly 4 elements."
+  type: true-false
+  answer: true
+  explanation: "4 = {0, 1, 2, 3}, which contains exactly 4 elements (0, 1, 2, and 3). More generally, the von Neumann ordinal n contains exactly n elements — this is not a coincidence but a structural feature. The cardinality of the set n equals n as a number. This is one reason the construction is elegant: the 'size' of the set encoding n is n itself."
+
+- question: "The successor of a natural number n in the von Neumann construction is the set n ∪ {n+1}."
+  type: true-false
+  answer: false
+  explanation: "The correct successor operation is s(n) = n ∪ {n} — you take the set n and add n itself as a new element. For example, s(2) = {0, 1} ∪ {2} = {0, 1, 2} = 3. The successor is NOT n ∪ {n+1}, which would be circular (it uses n+1 before defining it). The operation n ∪ {n} is self-referential in the good sense: n is a set, and you form a new set by adding that set as its own new member."
+
+- question: "Why does the identification of the '<' ordering with the '∈' membership relation make the von Neumann construction of natural numbers elegant and useful?"
+  type: short-answer
+  answer: "It unifies two concepts — numerical order and set-theoretic containment — into a single relation, so you don't need to separately define '<' on top of set theory. Checking whether m < n reduces to checking m ∈ n, which is a purely set-theoretic operation. This also means that the structure of each ordinal (which sets are its members) directly encodes its position in the ordering, with no auxiliary definitions required."
+  explanation: "The beauty is that the entire ordered structure of ℕ emerges from the membership relation alone, which is the only primitive relation in set theory (besides equality). There is no separate '<' axiom or ordering defined from scratch — it falls out automatically. This makes the construction genuinely foundational: arithmetic, order, and induction all reduce to facts about set membership and the successor operation n ∪ {n}, using nothing beyond the axioms of set theory."
+```
+
 ## Explainer
 
 You know from naive set theory that sets can contain other sets, and from von Neumann ordinals that each ordinal is defined as the set of all smaller ordinals. The construction that identifies natural numbers with finite von Neumann ordinals takes this recursive idea seriously from the ground up, giving arithmetic a purely set-theoretic foundation with no new primitives.

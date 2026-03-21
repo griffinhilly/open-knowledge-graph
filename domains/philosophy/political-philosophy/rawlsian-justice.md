@@ -33,6 +33,45 @@ Read A Theory of Justice Part I and the later revisions in Justice as Fairness: 
 - Fair equality of opportunity is stronger than formal opportunity (no legal barriers) — it requires compensating for social contingencies.
 - The lexical priority of liberty over distribution is a defining feature often missed: Rawls would not trade basic rights for better economic distribution.
 
+## Questions
+
+```yaml
+- question: "A policymaker proposes restricting freedom of the press in order to redistribute wealth more aggressively and raise the living standard of the poorest citizens. Would Rawls endorse this trade-off?"
+  type: multiple-choice
+  options:
+    - "Yes — the Difference Principle requires maximizing the position of the least advantaged, even at the cost of some liberties"
+    - "Yes — behind the veil of ignorance, rational agents would accept this trade-off if the economic gain is large enough"
+    - "No — the lexical priority of the First Principle means basic liberties cannot be sacrificed for economic gains, regardless of the benefit"
+    - "No — Rawls requires strict equality of both liberty and economic outcome"
+  answer: 2
+  explanation: "Rawls's two principles are lexically ordered: the First Principle (equal basic liberties) takes absolute precedence over the Second Principle (economic distribution). No trade-off between liberty and economic gain is permitted — a more equal or prosperous distribution can never justify restricting freedom of conscience, speech, or political participation. This lexical priority is one of Rawls's most distinctive and controversial commitments, putting him at odds with utilitarian frameworks that would permit such trade-offs if the aggregate welfare gain is sufficient."
+
+- question: "Under the Difference Principle, which of the following economic arrangements would Rawls consider just?"
+  type: multiple-choice
+  options:
+    - "Strict equality of income, since any inequality gives some people an unfair advantage"
+    - "A meritocratic system where talented individuals keep all the economic benefits their talents generate"
+    - "An inequality that raises average national income but leaves the poorest members slightly worse off than under equality"
+    - "An inequality in which higher physician salaries attract talented people into medicine, improving healthcare for the poorest members of society"
+  answer: 3
+  explanation: "The Difference Principle permits inequalities only if they benefit the least advantaged group. Option D fits: the inequality (higher physician pay) produces an outcome (better healthcare access for the worst-off) that improves their position. Option B is wrong because Rawls rejects the idea that natural talents generate moral entitlement to their full fruits — talent is morally arbitrary. Option C is explicitly ruled out by the Difference Principle, which maximizes the floor, not the average. Option A is wrong because Rawls does not demand equal outcomes — only that inequalities serve the worst-off."
+
+- question: "Rawls's theory of justice requires that all citizens have equal economic outcomes."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misreading of Rawls. He explicitly permits inequalities — the Difference Principle is not an equality principle but a maximin principle: maximize the minimum. Economic inequalities are just when they make the least advantaged as well-off as possible, which often means allowing incentive structures that generate inequality while raising everyone's floor. What Rawls demands is not equal outcomes but that the distribution pass the test of benefiting the worst-off group."
+
+- question: "According to Rawls, being born with exceptional natural talent does not give you a moral entitlement to keep all the economic benefits that talent generates."
+  type: true-false
+  answer: true
+  explanation: "This is a central commitment of Rawls's theory: the distribution of natural talents is morally arbitrary — you did not earn your intelligence, physical gifts, or the fortunate circumstances of your birth. Because these advantages are undeserved, they do not ground a moral claim to their full fruits. The Difference Principle is precisely the mechanism for ensuring that the naturally gifted share the returns of their arbitrary advantages in ways that benefit everyone, particularly the least advantaged. This is the point Nozick's libertarian critique attacks most directly."
+
+- question: "Explain the concept of 'lexical priority' in Rawls's two principles and why it matters for evaluating trade-offs between liberty and economic equality."
+  type: short-answer
+  answer: "Lexical priority means the principles are ranked in strict order: the First Principle (equal basic liberties) must be fully satisfied before the Second Principle (economic distribution) comes into play. No amount of economic benefit can justify violating basic liberties. This differs from most other frameworks — including utilitarianism — which allow trade-offs between any values based on net outcomes. For Rawls, if a policy would restrict freedom of conscience but produce a dramatically more equal distribution of wealth, it is still unjust, because basic liberties occupy a category that cannot be exchanged for goods in another category."
+  explanation: "The lexical structure reflects Rawls's view that basic liberties protect the foundations of self-respect and the capacity for a self-directed life, which are preconditions for pursuing any conception of the good. These are so fundamental that no economic compensation is adequate. The ordering thus reflects a theory of what matters most to rational agents behind the veil of ignorance — not knowing your place in society, you want your fundamental liberties guaranteed before worrying about your economic position."
+```
+
 ## Explainer
 
 Your prerequisite study of the **original position** established Rawls's method: rational agents choosing principles of justice from behind a **veil of ignorance**, stripped of knowledge of their natural talents, social class, and conception of the good. This device is designed to produce principles that are genuinely impartial — no one can rig the rules to favor the position they happen to occupy. The two principles are what Rawls argues would be chosen from that position, and understanding *why* he thinks rational agents would choose them is as important as knowing what the principles say.

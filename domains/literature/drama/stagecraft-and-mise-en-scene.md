@@ -34,6 +34,45 @@ Study photographs or recordings of multiple productions of the same play (e.g., 
 - Stagecraft is not merely decoration — it is meaning-making at the same level as dialogue and plot structure.
 - A bare stage does not mean an absence of stagecraft; minimalist staging is itself a deliberate aesthetic and interpretive choice.
 
+## Questions
+
+```yaml
+- question: "A production review states: 'The bare stage stripped away all the stagecraft, leaving only the text.' What is wrong with this description?"
+  type: multiple-choice
+  options:
+    - "The review is correct — a bare stage means no stagecraft was used"
+    - "A bare stage is itself a stagecraft choice — minimalism communicates meaning as actively as an elaborate set"
+    - "Stagecraft only refers to set design, so lighting and costumes might still be present"
+    - "Bare-stage productions are never authentic to a playwright's intentions"
+  answer: 1
+  explanation: "The central insight of this topic is that there is no neutral staging. Minimalism is a deliberate aesthetic and interpretive choice — it strips visual noise to force attention onto language and the body, or signals a Brechtian refusal of illusionism. Calling a bare stage 'no stagecraft' confuses the absence of elaborate production elements with the absence of meaning-making, which is the core misconception this topic attacks."
+
+- question: "Two productions of the same play differ only in lighting — one uses warm amber tones throughout, the other uses cold blue-white light. A student claims this is 'a purely technical difference with no effect on interpretation.' Why is this wrong?"
+  type: multiple-choice
+  options:
+    - "Lighting affects audience comfort, which indirectly changes how they receive the play"
+    - "Lighting is part of mise-en-scène and actively shapes how audiences interpret mood, character, and theme — it is meaning-making, not mere illumination"
+    - "The playwright specified the lighting, so any deviation changes the play's meaning"
+    - "Only blocking and set design carry interpretive weight; lighting is functional"
+  answer: 1
+  explanation: "Stagecraft is not decoration — it is argument. Lighting creates mood, directs attention, and signals emotional register. Cold blue-white light communicates harshness, isolation, or clinical detachment; warm amber suggests intimacy, warmth, or nostalgia. These are interpretive claims about the characters and themes. Treating lighting as 'merely technical' repeats the core misconception this topic is designed to correct."
+
+- question: "In mise-en-scène, a character's position on stage — even before they speak — can communicate something to the audience about their status or centrality."
+  type: true-false
+  answer: true
+  explanation: "This is exactly the point: a character placed downstage-center in a bright spotlight is being visually argued as central and exposed before a single word is spoken. Upstage placement, partial concealment by set pieces, or peripheral lighting all communicate subordination or constraint. Mise-en-scène is a visual grammar where position, light, and space are the vocabulary."
+
+- question: "A minimal or bare stage production has less interpretive impact than a fully designed set, because there is less visual information for the audience to process."
+  type: true-false
+  answer: false
+  explanation: "Minimalist staging does not reduce interpretive impact — it redirects it. Removing a realistic set removes one set of claims and substitutes another: that the essential elements are the actors and the language, or that illusionism is being deliberately refused. Beckett's spare staging is among the most interpretively charged in theatre history. Equating 'less visual material' with 'less meaning' is the misconception this topic directly addresses."
+
+- question: "Why is it a mistake to say that a minimalist production 'avoids' stagecraft? What does this reveal about the nature of theatrical meaning-making?"
+  type: short-answer
+  answer: "Minimalism is itself a deliberate staging choice that makes claims about the play — stripping visual noise forces attention to language and the body, denies the audience illusionistic absorption, and may signal specific theatrical traditions like Brechtian estrangement. There is no neutral staging. Every decision, including the decision to have 'no apparent choice,' is an interpretation of the text and a set of claims about what matters."
+  explanation: "The key insight is that staging choices cannot be escaped — they can only be made consciously or unconsciously. A director who uses a bare stage has made a choice just as deliberate as one who builds an elaborate realistic set. Understanding this is what separates a reader who treats staging as background from one who treats it as meaning."
+```
+
 ## Explainer
 
 You already know that theatre operates through **theatrical conventions** — the shared understandings between performers and audience about how a play works. Stagecraft is what fills that agreed-upon space with meaning. Every time an audience enters a theatre, they encounter a world before anyone speaks: the set tells them where and when they are, or deliberately refuses to. The lighting tells them what time of day it is, or creates mood through color and intensity. Costumes signal class, period, and character. These elements are not background — they are arguments about the play.

@@ -36,6 +36,45 @@ Compare the conquest of the Aztecs and Incas to understand what made each possib
 - The conquests were not simply Spanish armies defeating Indigenous armies — disease, internal divisions among Indigenous peoples, and Indigenous allies were often decisive factors.
 - Spanish colonial society was more racially mixed and socially fluid than the rigid caste system suggests, though racial hierarchy was real and consequential.
 
+## Questions
+
+```yaml
+- question: "Hernán Cortés conquered the Aztec Empire with roughly 500 Spanish soldiers. Which factor was MOST decisive in making this possible?"
+  type: multiple-choice
+  options:
+    - "Spanish firearms, which the Aztecs had never encountered and could not counter"
+    - "Superior Spanish military discipline and tactical formations"
+    - "Epidemic disease, internal Aztec political divisions, and Indigenous allies who joined the Spanish coalition"
+    - "The Aztec practice of ritual warfare, which limited their willingness to kill opponents outright"
+  answer: 2
+  explanation: "No single factor explains the conquest, but the combination of epidemic disease (which killed enormous portions of the population before and during the campaign), Indigenous alliances (many peoples subjugated by the Aztecs saw the Spanish as liberators), and internal Aztec divisions was more decisive than Spanish military technology alone. Cortés was not commanding a Spanish army — he was leading a coalition force. Spanish firearms were few, often misfired, and not decisive in pitched battle. The conquest was a political and epidemiological event as much as a military one."
+
+- question: "Silver from Potosí flooded European markets in the 16th century, contributing to the Price Revolution. What economic mechanism explains how more silver causes prices to rise?"
+  type: multiple-choice
+  options:
+    - "Spanish military dominance allowed Spain to dictate higher prices throughout European trade networks"
+    - "Increasing the money supply without a proportional increase in goods causes each unit of money to buy less — inflation"
+    - "European merchants raised prices to profit from Spain's new wealth, knowing Spanish buyers could pay more"
+    - "Potosí silver replaced gold as the monetary standard, deflating gold's value and raising commodity prices"
+  answer: 1
+  explanation: "This is the quantity theory of money in early modern action: more money chasing roughly the same quantity of goods means each unit of money buys less — prices rise. Potosí alone may have produced half the world's silver between 1545 and 1800. As this silver spread through European trade, it expanded the money supply dramatically without a matching expansion of production. The result was sustained inflation that disrupted wages, rents, and trade across Europe for over a century."
+
+- question: "The encomienda system granted colonists the right to demand labor and tribute from Indigenous communities, while theoretically obligating them to provide Christian instruction — a gap between theory and brutal practice that Bartolomé de las Casas publicly attacked."
+  type: true-false
+  answer: true
+  explanation: "The encomienda's legal fiction — that labor extraction was compensation for Christianization and 'civilization' — was the ideological cover for a system of coerced labor that killed enormous numbers of Indigenous people. Las Casas's critique was radical for its time: he argued that Indigenous peoples had natural rights that the encomienda violated, and his advocacy contributed to the New Laws of 1542, which attempted (with limited success) to restrict the system. The gap between the system's stated purpose and its actual effects is a defining feature of colonial ideology."
+
+- question: "Creoles — people of Spanish descent born in the Americas — were excluded from all significant positions of authority in the Spanish colonial system and had no pathway to political influence."
+  type: true-false
+  answer: false
+  explanation: "The racial hierarchy was real but not as absolute as the formal caste system implied. Creoles held substantial local power — as landowners, merchants, church officials, and local administrators. What they were largely excluded from were the highest crown-appointed offices (viceroys, audiencia judges, bishops), which were reserved for Peninsulares. This specific exclusion from top offices, not from power altogether, was the grievance that later fueled Creole-led independence movements in the early 19th century."
+
+- question: "Why is it historically misleading to describe the Spanish conquests of the Aztec and Inca empires as 'Spanish armies defeating Indigenous armies'?"
+  type: short-answer
+  answer: "The framing erases the Indigenous dimensions that made the conquests possible. Epidemic disease — spreading ahead of Spanish armies — had already devastated populations before major battles. Both the Aztec and Inca empires had subjugated other peoples who saw the Spanish as useful allies against their imperial overlords; Cortés's force at Tenochtitlan included tens of thousands of Indigenous allies from Tlaxcala and other polities. Internal political divisions within both empires (the Inca were in the middle of a civil war when Pizarro arrived) were also decisive. The conquests were the result of Indigenous coalitions, demographic catastrophe, and Spanish opportunism — not simply technological military superiority."
+  explanation: "The importance of this reframing goes beyond historical accuracy: it restores Indigenous peoples from passive victims to historical actors with their own agendas. The Tlaxcalans allied with Cortés because it served their interests to destroy Aztec imperial power. That alliance shaped the entire subsequent colonial arrangement. Understanding this makes the colonialism that followed more explicable — it was built on existing Indigenous political structures and grievances, not imposed on a blank slate."
+```
+
 ## Explainer
 
 From the Age of Exploration, you know that Columbus's 1492 voyage initiated sustained contact between Europe and the Americas. What followed in the next fifty years was the most dramatic conquest in recorded history: a handful of Spanish expeditions, operating with minimal royal support, dismantled two of the largest empires in the Western Hemisphere. Hernán Cortés entered the Aztec capital Tenochtitlan in 1519 with roughly 500 soldiers; Francisco Pizarro captured the Inca emperor Atahualpa in 1532 with fewer than 200. The question of how this was possible matters as much as the fact that it happened. The answers are multiple and interacting: **epidemic disease** killed perhaps 50–90% of Indigenous populations within decades of contact, collapsing the demographic base of defense; Spanish **military technology** (horses, steel, firearms) provided tactical advantages; and critically, both the Aztec and Inca empires had recently suffered internal divisions and had subjugated peoples who were willing to ally with the Spanish against their imperial overlords. The conquest was not Spaniards defeating Indigenous peoples — it was Spaniards leading coalitions of Indigenous peoples against other Indigenous peoples.

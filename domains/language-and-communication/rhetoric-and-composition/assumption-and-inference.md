@@ -33,6 +33,45 @@ Practice asking "Why is that true?" after each claim in an argument to uncover a
 - All readers share the same assumptions; different audiences may reject different assumptions.
 - Once you identify an assumption, the argument is refuted; an assumption could still be true and the argument valid.
 
+## Questions
+
+```yaml
+- question: "An editorial argues: 'This candidate speaks plainly and avoids jargon; therefore, voters will find her more trustworthy than her opponent.' Using the what-if test, which of the following is the most load-bearing assumption?"
+  type: multiple-choice
+  options:
+    - "Voters prefer candidates who speak plainly and avoid jargon"
+    - "Politicians who use jargon are being deliberately dishonest"
+    - "The editorial was written for a general, non-specialist audience"
+    - "Candidates have fixed and unchangeable communication styles"
+  answer: 0
+  explanation: "The load-bearing assumption is the one whose falsity collapses the conclusion. If voters don't prefer plain speech — if they trust the jargon-using candidate more, or are indifferent — then the argument's conclusion that the plain-speaking candidate will be seen as more trustworthy falls apart entirely. Options B and D are related assumptions but are not directly load-bearing on the specific conclusion drawn about voter trust."
+
+- question: "A student analyzes an argument and announces: 'I found a hidden assumption, so the argument is refuted.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — identifying a hidden assumption always constitutes a successful refutation"
+    - "Arguments can only be refuted by attacking their explicit premises, not their assumptions"
+    - "Identifying an assumption exposes a vulnerability, but refutation requires showing the assumption is actually false — the assumption might still be well-supported or obviously true"
+    - "Only formal deductive arguments can be refuted; informal arguments must be accepted as stated"
+  answer: 2
+  explanation: "The misconception is that finding an assumption is the same as refuting the argument. Identifying an assumption merely shows what the argument needs to be true. The argument is undermined only when the assumption is shown to be false or unacceptable to the audience. A load-bearing assumption that happens to be well-supported leaves the argument standing."
+
+- question: "A 'load-bearing' assumption is one that, if shown to be false, causes the argument's conclusion to collapse entirely."
+  type: true-false
+  answer: true
+  explanation: "This is the definition from the what-if test: substitute 'false' for the assumption and ask whether the argument survives. If it collapses, the assumption is load-bearing (structural). If the argument survives with modifications, the assumption is incidental. This distinction determines where to focus when challenging or defending an argument."
+
+- question: "Different audiences tend to reject the same set of assumptions, which is why a well-constructed argument works equally well for all readers."
+  type: true-false
+  answer: false
+  explanation: "Assumptions are always audience-relative. Authors leave unstated the premises they expect their intended audience to share without challenge. A medical researcher assumes peers accept standard statistical thresholds; a political op-ed assumes readers value certain liberties. When you read outside your own community, hidden assumptions become visible precisely because you don't share them. Different audiences may reject entirely different assumptions in the same argument."
+
+- question: "How does the what-if test distinguish a load-bearing assumption from an incidental one, and why does this distinction matter for responding to an argument?"
+  type: short-answer
+  answer: "The what-if test asks: if this assumption is false, does the argument's conclusion fall apart? A load-bearing assumption is one whose falsity collapses the conclusion; an incidental assumption is one whose falsity leaves the core argument standing with at most minor modifications. The distinction matters because attacking an incidental assumption wastes effort — the argument survives unchanged. Attacking a load-bearing assumption is decisive: if you can show the structural assumption is false or unacceptable to the audience, the whole argument fails. In your own writing, locating your load-bearing assumptions tells you what you must explicitly defend."
+  explanation: "This is the practical payoff of assumption analysis. Surface-level claims are easy to dispute but rarely decisive; structural assumptions are the argument's real vulnerabilities. The what-if test gives a systematic method for distinguishing them rather than attacking assumptions randomly."
+```
+
 ## Explainer
 
 Every argument carries a hidden freight of unstated premises. Your study of logos and logical reasoning focused on what is explicitly stated—the premises and conclusions laid out in a deductive or inductive chain. But real arguments rarely state everything they need in order to be valid. When someone argues "this policy will boost the economy, so we should adopt it," they are assuming that boosting the economy is the most important criterion, that the economic model predicting growth is reliable, and that no negative side effects outweigh the benefit. None of these appear in the argument. They are the silent scaffolding holding it up.

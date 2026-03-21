@@ -36,6 +36,45 @@ Read a passage of stream-of-consciousness prose aloud to feel how it moves diffe
 - 'Interior monologue' and 'stream of consciousness' are sometimes used interchangeably but technically differ in degree of formal control.
 - The technique does not imply an unreliable narrator, though the two often co-occur.
 
+## Questions
+
+```yaml
+- question: "A reader encounters a passage that shifts without transition from a character noticing a red coat in a shop window, to a childhood memory of her mother, to a half-formed thought about regret — all in the same sentence. The reader thinks: 'this is disorganized writing.' What does understanding stream-of-consciousness technique reveal?"
+  type: multiple-choice
+  options:
+    - "The reader is right — skilled prose always provides clear transitions between ideas"
+    - "The apparent disorder is authorial negligence that editing would correct"
+    - "The sequence deliberately enacts the character's associative mental movement — the 'disorganization' is crafted form mimicking how the mind actually moves from perception to memory to emotion"
+    - "Stream-of-consciousness passages are intentionally confusing to signal an unreliable narrator"
+  answer: 2
+  explanation: "Stream-of-consciousness technique uses syntactic and structural 'disorder' to replicate the non-sequential, associative movement of actual thought. The confusion a reader feels is the intended aesthetic effect — the form enacts the mental state. Once you ask 'what mental state does this syntax produce?' rather than 'why isn't this organized?', the technique opens up. The passage is carefully crafted — the associations are chosen for emotional and thematic resonance, not scattered randomly."
+
+- question: "What is the key difference between a narrator who says 'She thought about her mother and felt a wave of sadness' versus a stream-of-consciousness rendering of the same moment?"
+  type: multiple-choice
+  options:
+    - "The stream-of-consciousness version reveals more factual information about the character's history"
+    - "The first version uses omniscient perspective while stream-of-consciousness always uses first person"
+    - "The first version reports consciousness from outside, while stream-of-consciousness renders its movement from within — presenting impressions and associations as they arise, without editorial shaping"
+    - "Stream-of-consciousness always uses present tense while conventional narration uses past tense"
+  answer: 2
+  explanation: "The core distinction is between narrating consciousness (telling us about mental experience from an external vantage point) versus rendering consciousness (replicating its movement from within). The conventional version summarizes a mental state; stream-of-consciousness enacts it — the reader experiences the thought process rather than receiving a report about it. This is the technique's defining epistemological commitment: interiority is best represented by replicating its movement, not describing it."
+
+- question: "Stream-of-consciousness narration makes an epistemological claim: that consciousness is the primary locus of human experience, and that conventional narrative syntax falsifies experience by imposing an orderliness the mind does not actually have."
+  type: true-false
+  answer: true
+  explanation: "The technique is not merely stylistic but makes a substantive claim about the nature of experience and how it can be truthfully represented. By abandoning conventional sentence structure, chronological order, and editorial shaping, stream-of-consciousness asserts that the mind's actual movement — associative, non-linear, fragmentary — is more truthful to experience than the tidy arrangements of conventional narration. This is its parallel to Impressionist painting: differently truthful, not less truthful."
+
+- question: "A stream-of-consciousness narrator is by definition unreliable, because the technique's subjective interiority distorts the representation of events."
+  type: true-false
+  answer: false
+  explanation: "Stream of consciousness and narrative unreliability are independent qualities that often co-occur but do not require each other. Stream-of-consciousness renders a character's actual perceptions and mental movements faithfully — it is 'unreliable' only in the trivial sense that all close-perspective narration is subjective. Narrative unreliability specifically means the narrator's account contradicts itself or the implied truth of events in ways the reader can detect. These qualities can coexist (Benjy in Faulkner's The Sound and the Fury) or not (Woolf's Clarissa Dalloway is stream-of-consciousness but not meaningfully unreliable)."
+
+- question: "Why is 'what mental state does this syntax enact?' a better interpretive question for stream-of-consciousness passages than 'what information is this passage conveying'?"
+  type: short-answer
+  answer: "Because stream-of-consciousness form is expressive rather than primarily informational — its primary function is to render the quality and movement of a mental state, not to transmit facts efficiently. The fragmentation, associative leaps, and broken syntax are themselves the content: they enact anxiety, grief, distraction, or desire. Asking 'what information is being conveyed?' treats the form as packaging, which misses the point. Once you ask 'what state of mind would produce this particular sequence of impressions?', the technique becomes legible — you are reading the consciousness, not decoding propositions."
+  explanation: "This is why stream-of-consciousness demands active reading rather than passive reception. The reader must hold the syntax as expressive form — feeling its movement as a mental state — rather than summarizing what happens. The form IS what happens."
+```
+
 ## Explainer
 
 You've studied point of view as the perspective that determines what the narrator knows and how they know it. Stream of consciousness takes close interiority to its logical extreme: the narrative doesn't just report what a character thinks, it replicates the *movement* of thought itself. The key distinction is between a narrator who reports consciousness ("I thought about my mother, and felt a wave of sadness") and a technique that renders consciousness — presenting the sequence of impressions, memories, associations, and sensations as they arise, without editorial shaping.

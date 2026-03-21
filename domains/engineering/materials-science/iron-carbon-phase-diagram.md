@@ -37,6 +37,45 @@ Trace cooling paths for hypoeutectoid, eutectoid, and hypereutectoid composition
 - Martensite does not appear on the equilibrium Fe-Fe₃C diagram — it forms only during rapid (non-equilibrium) quenching.
 - Cast iron is not simply 'rusty' or degraded steel; it is a distinct class of alloys with different phase behavior and properties.
 
+## Questions
+
+```yaml
+- question: "An engineer rapidly quenches a 1.0 wt% C steel from the austenite region and obtains an extremely hard microstructure. A colleague argues this must be wrong because martensite doesn't appear on the Fe-Fe₃C phase diagram. Who is correct, and why?"
+  type: multiple-choice
+  options:
+    - "The colleague is correct — only phases shown on the equilibrium diagram can form, so martensite is impossible in any steel"
+    - "The engineer is correct — martensite forms during rapid quenching when carbon cannot diffuse and the FCC austenite lattice shears to BCT; it is a non-equilibrium phase that does not appear on the equilibrium diagram"
+    - "Neither — rapid quenching of any steel composition always produces pearlite, regardless of cooling rate"
+    - "The colleague is correct — martensite only forms in cast irons (above 2.14 wt% C), not in steels"
+  answer: 1
+  explanation: "The Fe-Fe₃C diagram shows equilibrium phases — what forms when cooling is slow enough for diffusion to reach completion. Martensite is a non-equilibrium phase that forms only when austenite is quenched faster than carbon can diffuse. The FCC lattice undergoes a diffusionless shear transformation to a body-centered tetragonal (BCT) structure with carbon atoms trapped in interstitial sites. Because the phase diagram only records equilibrium, martensite is absent — but this makes it no less real. Understanding that the diagram represents one end-member of a rate-dependent process is essential for applying it to real engineering."
+
+- question: "A hypoeutectoid steel (0.4 wt% C) is slowly cooled from the austenite region through 727°C. What is the expected final microstructure?"
+  type: multiple-choice
+  options:
+    - "Pure pearlite — all steel compositions transform entirely to pearlite at 727°C"
+    - "Pure ferrite — the carbon content is below the eutectoid so no pearlite forms"
+    - "Proeutectoid ferrite plus pearlite — ferrite forms first at austenite grain boundaries, enriching the remaining austenite in carbon until it reaches 0.76 wt% C and transforms to pearlite"
+    - "A mixture of cementite and retained austenite, with no ferrite or pearlite"
+  answer: 2
+  explanation: "Only the eutectoid composition (0.76 wt% C) transforms entirely to pearlite. A hypoeutectoid steel first enters the two-phase austenite + ferrite region on cooling: proeutectoid ferrite forms at grain boundaries and the remaining austenite becomes progressively richer in carbon. By the time 727°C is reached, the remaining austenite has exactly the eutectoid composition (0.76 wt% C) and transforms fully to pearlite. The result is proeutectoid ferrite (formed above 727°C) plus pearlite (formed at 727°C). The lever rule applied just above 727°C predicts the relative fractions."
+
+- question: "Austenite (FCC iron) can dissolve significantly more carbon than ferrite (BCC iron) at the same temperature because the FCC crystal structure has larger interstitial sites."
+  type: true-false
+  answer: true
+  explanation: "This is the key structural reason behind the eutectoid transformation. BCC ferrite has only very small interstitial sites (tetrahedral and octahedral), giving a maximum carbon solubility of about 0.02 wt% at room temperature. FCC austenite has larger octahedral interstitial sites, accommodating up to 2.14 wt% C at 1148°C. When austenite transforms to ferrite on cooling, it can no longer hold the dissolved carbon, forcing carbon to precipitate as cementite (Fe₃C). The solubility difference is the thermodynamic driver of all steel microstructure development."
+
+- question: "Martensite is the equilibrium phase that forms when steel is slowly cooled from the austenite region through the eutectoid temperature."
+  type: true-false
+  answer: false
+  explanation: "Martensite is a non-equilibrium phase that forms only during rapid (non-equilibrium) quenching. Slow cooling through the eutectoid temperature produces equilibrium phases: ferrite and cementite, arranged as pearlite (for eutectoid composition) or as proeutectoid ferrite/cementite plus pearlite (for hypo/hypereutectoid compositions). Martensite does not appear on the equilibrium Fe-Fe₃C phase diagram at all. This is a critical distinction — the diagram applies to slow (equilibrium) cooling, and deliberate departures from equilibrium (quenching, tempering) are what allow engineers to produce martensite and tune steel properties."
+
+- question: "Why does martensite have such extreme hardness compared to the equilibrium phases (ferrite and pearlite) formed by slow cooling of the same steel?"
+  type: short-answer
+  answer: "When austenite is quenched rapidly, carbon atoms cannot diffuse out to form cementite. Instead, the FCC iron lattice undergoes a diffusionless shear to a body-centered tetragonal (BCT) structure with carbon atoms trapped in interstitial sites. These trapped carbon atoms severely distort the BCT lattice, creating internal stress fields that block dislocation motion. Since plastic deformation requires dislocations to move, blocking them makes the material very hard and resistant to deformation. Hardness scales with carbon content — more trapped carbon means more lattice distortion and more dislocation pinning. Ferrite and pearlite are softer because carbon has had time to partition into cementite, leaving the iron lattice relatively undistorted and free for dislocation motion."
+  explanation: "The mechanism — dislocation pinning by trapped interstitial atoms — is a general hardening principle in materials science. Martensite is the extreme case where a phase transformation traps the solute atom before it can escape. Tempering releases some of this trapped carbon through controlled diffusion, recovering ductility at the cost of some hardness — the engineer's fundamental trade-off."
+```
+
 ## Explainer
 
 From your prerequisites in binary phase diagrams and the lever rule, you already know how to read a two-component phase diagram: locate your alloy composition, identify which phase region it falls in, read phase compositions from the boundaries using tie-lines, and calculate phase fractions with the lever rule. The iron-carbon diagram applies exactly these skills to the most technologically important binary system in history — every structural beam, automobile, and surgical tool depends on the phase relationships between iron and carbon.

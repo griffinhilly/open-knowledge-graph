@@ -37,6 +37,45 @@ Study both the syntactic characterization (quantifier alternation depth) and the
 - The arithmetical hierarchy is not the polynomial hierarchy from complexity theory — the former concerns computability and definability, the latter concerns polynomial-time computation.
 - Σₙ and Πₙ are not disjoint; their intersection Δₙ contains problems definable both ways, and Δ₁ equals exactly the class of decidable sets.
 
+## Questions
+
+```yaml
+- question: "The totality problem — determining whether a Turing machine M_e halts on *every* input — is Π₂-complete. Which quantifier structure explains why it cannot be Π₁?"
+  type: multiple-choice
+  options:
+    - "It requires a single universal quantifier over inputs: ∀x (M_e halts on x), which is exactly the Π₁ form"
+    - "It requires alternating quantifiers: ∀x ∃c (c is a halting computation of M_e on x) — a ∀∃ structure that goes one level beyond Π₁"
+    - "It is undecidable, and all undecidable problems sit at the Π₁ level"
+    - "Totality is co-RE because its complement (some input causes non-halting) is RE"
+  answer: 1
+  explanation: "To say M_e halts on every input x, you must say: for every input x, there exists a halting computation c witnessing it. The quantifier structure is ∀x ∃c P(e, x, c) for computable P — this is a ∀∃ form, which is Π₂ (a universal quantifier block followed by an existential block). A Π₁ statement has only a single universal quantifier block with a decidable predicate inside. Totality cannot be expressed in Π₁ form because the inner condition 'M_e halts on x' already requires an existential quantifier — making the full statement go one level higher."
+
+- question: "Which class in the arithmetical hierarchy corresponds exactly to the decidable (recursive) sets?"
+  type: multiple-choice
+  options:
+    - "Σ₁ — all recursively enumerable sets are decidable"
+    - "Π₁ — co-RE sets are all decidable"
+    - "Δ₁ — the intersection of Σ₁ and Π₁, containing sets that are both RE and co-RE"
+    - "Σ₂ ∩ Π₂ — decidability requires two levels of quantifier alternation to establish"
+  answer: 2
+  explanation: "Δ₁ = Σ₁ ∩ Π₁ is exactly the class of decidable sets. This follows directly from the theorem you know: a language is decidable if and only if both it and its complement are RE. Σ₁ = RE and Π₁ = co-RE (complements of RE sets), so their intersection is the class of sets that are both RE and co-RE — precisely the decidable sets. A Σ₁ set that is not also Π₁ (like the halting problem) is RE but not decidable."
+
+- question: "The halting problem is Σ₁-complete because membership can be witnessed by a single finite computation that halts — expressible with one existential quantifier block."
+  type: true-false
+  answer: true
+  explanation: "To say 'Turing machine M_e halts on input x,' you say: there exists a finite computation sequence c that witnesses M_e running on x and reaching a halting state — ∃c P(e, x, c) for decidable P. This is the Σ₁ form (one existential block). The halting problem is also Σ₁-complete, meaning every Σ₁ set reduces to it. This connects the logical characterization (quantifier depth) to the computability characterization (RE = Σ₁) directly."
+
+- question: "The arithmetical hierarchy and the polynomial hierarchy from computational complexity theory are essentially the same classification system applied at different scales — both measure problem difficulty by alternating quantifier blocks."
+  type: true-false
+  answer: false
+  explanation: "Despite the structural parallel, these are fundamentally different hierarchies. The arithmetical hierarchy classifies sets by definability in first-order arithmetic and computability difficulty — it concerns what a Turing machine can compute, with no resource bounds. Δ₁ = decidable (in any amount of time). The polynomial hierarchy classifies problems by polynomial-time computation resources — P, NP, co-NP, etc. Σₙᵖ corresponds to nondeterministic polynomial-time with n − 1 alternating quantifiers. The arithmetical hierarchy is 'above' the polynomial hierarchy in the sense that every polynomial-time problem is decidable (Δ₁), but decidable sets include problems that take exponential or worse time. The two hierarchies share structural form but differ entirely in the resource model."
+
+- question: "Why does Δ₁ equal exactly the class of decidable sets, and what does this tell you about the relationship between a language and its complement?"
+  type: short-answer
+  answer: "A set is in Δ₁ if it is both Σ₁ (RE) and Π₁ (co-RE). A language is decidable if and only if both it and its complement are RE: if L is RE, a TM accepts members; if the complement is also RE, another TM accepts non-members. Running both in parallel gives a decider — it always halts, accepting via one machine or the other. Conversely, if L is decidable, its complement is also decidable, hence RE. So Δ₁ = RE ∩ co-RE = decidable. This tells you that non-decidability arises precisely when a language is RE but its complement is not — when you can confirm membership but not non-membership. The halting problem is the canonical example: you can recognize when a TM halts (RE), but you cannot recognize when it runs forever (not co-RE)."
+  explanation: "This equivalence is the bridge between the syntactic characterization (quantifier alternation in Δ₁) and the computational one (parallel TM simulation). Understanding it solidifies why the hierarchy's base level is so natural: decidability is exactly the condition that both you and an adversary can recognize your respective membership problems."
+```
+
 ## Explainer
 
 You already know that RE languages (Σ₁) are those accepted by a Turing machine that may loop on non-members, and co-RE (Π₁) are their complements — languages where membership can be disproved by a halting TM. The arithmetical hierarchy generalizes this by asking: how many alternating blocks of quantifiers does it take to *define* a set of natural numbers in the language of arithmetic?

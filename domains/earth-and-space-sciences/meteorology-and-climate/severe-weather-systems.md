@@ -39,6 +39,45 @@ Compare the energy sources of extratropical versus tropical cyclones: mid-latitu
 - Opening windows during a tornado does not help equalize pressure and wastes time that should be spent taking shelter.
 - Hurricane categories (Saffir-Simpson scale) measure only wind speed — they do not capture storm surge, flooding, or overall destructive potential.
 
+## Questions
+
+```yaml
+- question: "A meteorologist is forecasting Atlantic hurricane activity for a season with strong El Niño conditions. She predicts below-normal hurricane activity. What is the most likely physical reason?"
+  type: multiple-choice
+  options:
+    - "El Niño warms Atlantic sea surface temperatures below the 26°C threshold needed for hurricane formation"
+    - "El Niño increases upper-level wind shear over the Atlantic, which disrupts the vertical alignment of tropical cyclones and weakens them"
+    - "El Niño shifts the Intertropical Convergence Zone equatorward, reducing Coriolis deflection at typical hurricane latitudes"
+    - "El Niño reduces moisture availability in the tropical Atlantic by diverting moisture toward the Pacific"
+  answer: 1
+  explanation: "Tropical cyclones are destroyed by vertical wind shear — it tilts and ventilates the warm core that powers the storm. Strong El Niño conditions increase upper-level westerly winds over the Atlantic, raising wind shear and suppressing hurricane formation and intensification. This is why Atlantic hurricane forecasts closely monitor ENSO state. El Niño does not typically cool Atlantic SSTs below the formation threshold, and Coriolis is sufficiently strong throughout the hurricane belt regardless of ENSO phase."
+
+- question: "What most directly causes the updraft of a supercell thunderstorm to rotate, forming a mesocyclone?"
+  type: multiple-choice
+  options:
+    - "The Coriolis effect deflecting the rising column of warm, moist air into a spiral at storm scale"
+    - "Vertical wind shear — the change in wind speed and direction with altitude — that tilts and rotates the updraft"
+    - "The collision between a warm Gulf air mass and a cold polar air mass along a frontal boundary"
+    - "Extreme surface heating that creates such strong instability that the updraft becomes self-sustaining and rotates spontaneously"
+  answer: 1
+  explanation: "Vertical wind shear is the key ingredient that distinguishes supercells from ordinary thunderstorms. When winds at the surface blow from one direction and upper-level winds blow from a different direction (and at higher speed), horizontal spin is introduced into the atmosphere. The thunderstorm's updraft tilts this horizontal spin into the vertical, creating the rotating column called a mesocyclone. The Coriolis effect operates at synoptic scale (hundreds to thousands of km) and is far too weak to matter at the scale of an individual thunderstorm (~10 km). Frontal boundaries can trigger thunderstorms but don't by themselves create rotation."
+
+- question: "Tropical cyclones weaken rapidly after making landfall primarily because they lose access to the warm ocean water that provides their energy source."
+  type: true-false
+  answer: true
+  explanation: "Tropical cyclones are powered by latent heat from evaporation of warm ocean water. When the storm moves over land, this moisture source is cut off and the evaporative feedback loop breaks down. Additionally, friction with the land surface disrupts the low-level inflow, and the boundary layer becomes cooler and drier. The combination of lost energy input and increased friction causes rapid weakening — a process called 'land decay.' This is why Gulf Coast landfalls often produce devastating storm surge but relatively short-lived high winds inland."
+
+- question: "Opening windows in a building during a tornado helps equalize the pressure difference and reduces the risk of structural damage from the storm."
+  type: true-false
+  answer: false
+  explanation: "This is a dangerous myth. Tornadoes damage buildings primarily through wind forces and flying debris, not through a pressure differential that 'implodes' the structure. Opening windows provides no meaningful protection and — critically — wastes time that should be used getting to shelter. The pressure drop inside a tornado is real but small compared to the dynamic wind loading. In a tornado, every second matters: take shelter immediately in the lowest floor interior room away from windows, without stopping to open them."
+
+- question: "Why do supercell thunderstorms require vertical wind shear to maintain their structure, while tropical cyclones are weakened and destroyed by the same wind shear?"
+  type: short-answer
+  answer: "In a supercell, wind shear tilts the updraft so that precipitation falls away from the updraft core rather than falling back through it and cutting off the storm. This tilt also introduces rotation, creating the mesocyclone that sustains the storm. Without shear, the updraft is vertical, precipitation falls into it, and the storm collapses into an ordinary thunderstorm. In a tropical cyclone, the energy mechanism is entirely different: a vertically aligned warm core above the eye must accumulate latent heat to sustain the inflow and pressure drop at the surface. Wind shear tilts this warm core and ventilates heat away from the storm's axis, breaking the feedback loop between ocean evaporation, convection, and surface pressure. The two systems use opposite relationships with shear because their energy sources and organizational structures are fundamentally different."
+  explanation: "This contrast — shear needed vs. shear destructive — is the clearest way to see that supercells and tropical cyclones are completely different classes of storm despite both appearing as rotating systems on weather maps."
+```
+
 ## Explainer
 
 You already understand thunderstorms as convective systems driven by instability and moisture, and you know that the Coriolis effect deflects moving air on a rotating Earth. You also know that global atmospheric circulation creates large-scale wind patterns and temperature contrasts. Severe weather systems emerge when these ingredients combine in specific, powerful ways — the result is concentrated atmospheric violence on scales ranging from a few hundred meters (tornadoes) to over a thousand kilometers (hurricanes).

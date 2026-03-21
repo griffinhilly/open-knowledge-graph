@@ -38,6 +38,45 @@ Start with a purely resistive AC circuit, then add a capacitor and inductor sepa
 - RMS values, not peak values, determine average power delivered.
 - Household '120V AC' refers to the RMS voltage; the peak is 120√2 ≈ 170V.
 
+## Questions
+
+```yaml
+- question: "A household outlet in the United States is rated at 120 V. An engineer needs to calculate the average power dissipated by a 10-ohm resistor connected to this outlet. Which voltage should she use in P = V²/R?"
+  type: multiple-choice
+  options:
+    - "85 V — divide 120 V by √2 to get the RMS value first"
+    - "120 V — this is already the RMS voltage; use it directly"
+    - "170 V — multiply by √2 to find the peak voltage before calculating power"
+    - "60 V — use half the peak voltage for average power calculations"
+  answer: 1
+  explanation: "The 120 V rating of a household outlet is already the RMS voltage — not the peak. RMS values are defined precisely so that average power calculations use the standard P = V²/R formula, identical to DC. The peak voltage is actually 120√2 ≈ 170 V. Using P = V_rms²/R = 120²/10 = 1440 W gives the correct average power. The common mistake is thinking 120 V is the peak and trying to convert it downward."
+
+- question: "In a purely capacitive AC circuit, how does the phase of the current compare to the phase of the voltage across the capacitor?"
+  type: multiple-choice
+  options:
+    - "Current and voltage are in phase — they reach their peak values simultaneously"
+    - "Current leads voltage by 90° — current reaches its peak before voltage does"
+    - "Voltage leads current by 90° — voltage peaks before the current does"
+    - "Current and voltage are 180° out of phase — they peak at opposite moments"
+  answer: 1
+  explanation: "For a capacitor, current I = C · dV/dt. When voltage is at its peak, dV/dt = 0 and current is zero; when voltage is crossing zero (changing fastest), current is at its maximum. This 90° offset means current peaks before voltage — current leads voltage. An inductor has the opposite relationship: voltage leads current by 90°. Memory aid: in a Capacitor, Current leads (ICE); in an inductor, Voltage leads (ELI)."
+
+- question: "In a purely resistive AC circuit, current and voltage reach their peak values at the same instant."
+  type: true-false
+  answer: true
+  explanation: "Ohm's law V = IR applies instantaneously in a resistive circuit. When voltage is at its peak, I = V/R is also at its peak. When voltage crosses zero, so does the current. There is no storage mechanism (no capacitor or inductor) to shift the timing. Resistors are in-phase elements — they are the AC reference against which phase leads and lags for capacitors and inductors are measured."
+
+- question: "The peak voltage of a standard 120 V AC outlet is 120 V."
+  type: true-false
+  answer: false
+  explanation: "The 120 V rating is the RMS (root-mean-square) voltage, not the peak. The peak voltage is V₀ = V_rms × √2 = 120√2 ≈ 170 V. RMS values are used for ratings because they correspond directly to power-delivering capability — a 120 V RMS AC supply delivers the same average heating power as a 120 V DC supply. The peak is higher but does not represent steady power delivery."
+
+- question: "Why do we use RMS values rather than peak values when calculating the average power delivered by an AC source to a resistive load?"
+  type: short-answer
+  answer: "Because average power depends on the time average of V(t)·I(t) over a full cycle, not the peak values. For a sinusoidal voltage, the instantaneous power oscillates; its time average is V₀²/(2R). The RMS voltage is defined as V_rms = V₀/√2, which makes V_rms²/R = V₀²/(2R) — matching the time-averaged power exactly. This is why P_avg = V_rms²/R works with the standard DC formula."
+  explanation: "Peak values overstate the power — a sinusoid spends most of its time below its peak. The RMS value is the DC-equivalent voltage that delivers the same average power. It is computed as the square root of the mean of the squared voltage, which for a pure sinusoid yields V₀/√2. This is why all AC appliances are rated in RMS and why power calculations use the same familiar formulas as for DC."
+```
+
 ## Explainer
 
 In your study of RLC circuits, you saw how a circuit containing resistance, inductance, and capacitance can oscillate like a mechanical spring-mass system. AC circuits extend this insight: instead of a one-time kick that produces decaying oscillations, an AC source continuously drives the circuit at a chosen frequency ω. The source voltage V(t) = V₀ sin(ωt) is the same sinusoidal function you know from trigonometry — it simply oscillates between +V₀ and −V₀, completing ω/(2π) full cycles per second.

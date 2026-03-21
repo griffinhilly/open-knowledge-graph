@@ -34,6 +34,45 @@ Start with Hooke's law (F = kx) as the simplest variable-force example. Then tac
 - Incorrect setup of pumping problems (wrong distance or wrong slice volume).
 - Forgetting unit conversions (force in Newtons, distance in meters for SI).
 
+## Questions
+
+```yaml
+- question: "A spring with k = 200 N/m is already stretched 0.1 m from its natural length. How much work is required to stretch it an additional 0.2 m (to 0.3 m total displacement)?"
+  type: multiple-choice
+  options:
+    - "W = 200 × 0.2 = 40 J (constant-force formula using spring constant × extra distance)"
+    - "W = ∫₀.₁^{0.3} 200x dx = [100x²]₀.₁^{0.3} = 9 − 1 = 8 J"
+    - "W = ½ × 200 × 0.3² = 9 J (using only the final displacement)"
+    - "W = 200 × 0.3 = 60 J (maximum force times total displacement)"
+  answer: 1
+  explanation: "The spring force F = 200x varies with displacement, so the constant-force formula fails. Work is W = ∫_{0.1}^{0.3} 200x dx = [100x²]_{0.1}^{0.3} = 100(0.09) − 100(0.01) = 9 − 1 = 8 J. Option C uses only the final position and ignores where the stretching started. Option D applies the maximum force over the entire interval, overestimating. Only the definite integral correctly accounts for the force varying throughout the displacement."
+
+- question: "In a pumping problem, why does the work integral for a thin horizontal slice of water at height y include a factor of (H − y), where H is the height of the tank's outlet?"
+  type: multiple-choice
+  options:
+    - "It represents the weight of all the water above that slice pressing down on it"
+    - "It represents the distance that particular slice must travel to reach the outlet at the top"
+    - "It is a pressure correction factor for the depth of the slice"
+    - "It converts the slice's volume into a force value"
+  answer: 1
+  explanation: "(H − y) is the distance a slice at height y must travel to reach the top. Work = force × distance, and the distance is not constant across slices: a slice near the bottom (small y) must travel almost H, while one near the top travels nearly zero. The integral automatically sums these varying contributions. The weight of the slice provides the force; (H − y) provides the displacement for that specific slice."
+
+- question: "In a pumping problem, a slice of water located near the top of a full tank requires less work to pump out than a slice of equal volume located near the bottom."
+  type: true-false
+  answer: true
+  explanation: "Work = force × distance. Both slices have the same weight (same volume, same density), so the force component is equal. The difference is entirely in the distance: a near-top slice travels nearly zero to reach the outlet, while a near-bottom slice must travel almost the full tank height. This is why the factor (H − y) in the integral is small for upper slices and large for lower ones."
+
+- question: "For a spring being stretched from rest (x = 0) to position x = d, the exact work done equals W = kd × d = kd², where kd is the spring force at the final position."
+  type: true-false
+  answer: false
+  explanation: "Using the final force kd as if it acted over the entire displacement overestimates the work, because the spring force starts at zero and increases linearly. The correct answer is W = ∫₀ᵈ kx dx = ½kd² — exactly half of kd². The constant-force formula with the maximum force treats the spring as if it always exerted its peak resistance, which it only reaches at the very end of the stretch."
+
+- question: "Explain why the constant-force formula W = F·d fails when force varies, and describe the key step in the integral approach that handles varying force correctly."
+  type: short-answer
+  answer: "W = F·d assumes force is the same at every point along the path. When force varies, applying a single value to the whole displacement mixes different force magnitudes and gives the wrong answer. The integral approach slices the displacement into infinitesimal pieces dx, approximates force as constant within each tiny slice (dW ≈ F(x)·dx), and sums all contributions via the definite integral. This makes the calculation exact rather than approximate."
+  explanation: "The key move is the universal integral strategy: slice into pieces where the approximation is valid in the limit, then integrate to get the exact total. The constant-force formula W = F·d is just the special case where the integral collapses to F·(b − a) because F is truly constant."
+```
+
 ## Explainer
 
 From physics, you know that work equals force times distance — but only when force is constant. When force varies along the path, that formula breaks down. The fix is the same strategy behind every definite integral you've computed: slice the problem into tiny pieces where the quantity you care about is approximately constant, set up the contribution from one slice, and sum over all slices via the Fundamental Theorem of Calculus.

@@ -35,6 +35,45 @@ Solve carbonate equilibrium equations for seawater with known alkalinity, temper
 ## Common Misconceptions
 The ocean is not becoming acidic (pH > 8.1); it is becoming less basic. Also, buffering capacity is finite; once critical thresholds are crossed, large pH changes occur per unit CO₂. Surface and deep waters have very different buffering capacities.
 
+## Questions
+
+```yaml
+- question: "As atmospheric CO₂ continues to rise and the ocean absorbs more of it, what happens to the ocean's capacity to buffer further CO₂ additions?"
+  type: multiple-choice
+  options:
+    - "It stays effectively constant — the ocean is large enough that buffering capacity is not meaningfully depleted"
+    - "It increases — dissolved CO₂ generates more bicarbonate, which enhances future buffering"
+    - "It decreases — each CO₂ molecule absorbed consumes carbonate ions, leaving fewer to neutralize future additions"
+    - "It fluctuates seasonally but returns to the same average capacity each year"
+  answer: 2
+  explanation: "This is the Revelle factor in action. Buffering works because carbonate ions (CO₃²⁻) react with added CO₂ and water to form bicarbonate, neutralizing the acid. But every CO₂ molecule absorbed consumes carbonate ions. As CO₃²⁻ concentration falls, fewer neutralizing ions remain for the next addition — each subsequent unit of CO₂ causes a proportionally larger pH drop than the one before. The buffer weakens precisely as it is used. This self-undermining property is why ocean acidification accelerates rather than reaching a stable plateau."
+
+- question: "When seawater's carbonate saturation state (Ω) drops below 1.0, what is the immediate chemical consequence?"
+  type: multiple-choice
+  options:
+    - "Ocean pH falls below 7.0, making the water genuinely acidic"
+    - "Calcium carbonate (CaCO₃) structures become thermodynamically unstable and begin to dissolve, even though pH remains above 7"
+    - "Calcifying organisms immediately stop secreting shells because the reaction becomes endothermic"
+    - "CO₂ outgasses from the ocean surface to restore carbonate equilibrium"
+  answer: 1
+  explanation: "The saturation state Ω = [Ca²⁺][CO₃²⁻] / K_sp compares actual ion concentrations to the equilibrium solubility product. When Ω < 1, the ion product is below the equilibrium threshold — CaCO₃ is thermodynamically driven to dissolve. This happens while ocean pH remains above 8.0 — the water is still alkaline by any conventional definition. Shells and coral skeletons can dissolve in seawater that is 'acidic' only relative to its preindustrial baseline, not in the absolute sense. This is why 'ocean acidification' describes a trend, not an endpoint where the ocean becomes acid."
+
+- question: "Ocean 'acidification' is a misleading term because the ocean's pH remains above 7 and is therefore still alkaline, not acidic."
+  type: true-false
+  answer: true
+  explanation: "This statement is literally true as a fact about current pH values — average surface ocean pH is around 8.1, well above the neutral point of 7.0. The term 'acidification' refers to the direction of change (becoming more acidic, i.e., lower pH) not the endpoint. Scientists use it because it accurately describes the chemical trend and its consequences for carbonate chemistry. Whether the terminology is 'misleading' is a semantic debate, but the underlying chemistry is clear: pH is decreasing and carbonate ion concentrations are falling, threatening calcifying organisms even while the water remains alkaline."
+
+- question: "The ocean's carbonate buffer system can absorb unlimited CO₂ without significant long-term changes to pH, as long as additions occur gradually enough."
+  type: true-false
+  answer: false
+  explanation: "The carbonate buffer is finite. Each CO₂ molecule absorbed consumes carbonate ions that cannot be instantly replenished. The Revelle factor quantifies this: as CO₃²⁻ concentration falls, the buffering efficiency drops and each additional CO₂ causes a larger pH decrease. Even gradual CO₂ addition depletes the buffer over time — rate does not remove the finite capacity limit. Deep-water replenishment of carbonate from sediment dissolution occurs on millennial timescales, far slower than current anthropogenic emissions."
+
+- question: "Explain why each additional unit of CO₂ absorbed by the ocean causes a proportionally larger pH drop than the previous unit. What does this imply about the trajectory of ocean acidification?"
+  type: short-answer
+  answer: "Buffering works by consuming carbonate ions (CO₃²⁻) to neutralize added CO₂: CO₂ + CO₃²⁻ + H₂O → 2 HCO₃⁻. Each absorption event reduces the pool of available CO₃²⁻. With fewer carbonate ions remaining, the next addition of CO₂ finds less buffer to resist it, producing a larger pH drop. This is the Revelle factor: the ocean's buffering efficiency is not constant but declines as buffering capacity is consumed. The implication is that ocean acidification is not linear — it accelerates. Early emissions were partially masked by strong buffering; future emissions under depleted carbonate conditions will drive progressively faster pH changes per unit CO₂."
+  explanation: "This self-undermining buffer dynamic is why ocean acidification is considered a threshold concern rather than a gradual, proportional problem. Carbonate-sensitive ecosystems like coral reefs may encounter conditions where saturation states fall below critical thresholds within decades, triggering dissolution and bleaching events that compound other stressors."
+```
+
 ## Explainer
 
 From acid-base chemistry, you understand how acids donate protons and buffers resist pH changes. From chemical equilibrium, you know how to write equilibrium expressions and understand Le Chatelier's principle. The ocean carbonate system is where these concepts meet Earth's climate in a way that has enormous consequences for marine life and the global carbon cycle.

@@ -31,6 +31,45 @@ status: draft
 ## Core Idea
 Tidal heating dissipates orbital energy within moon interiors through friction, generating internal heat that sustains volcanism and melts subsurface oceans. Heating intensity depends on orbital eccentricity, satellite mass, and orbital period; moons like Io, Europa, and Enceladus demonstrate extreme tidal activity.
 
+## Questions
+
+```yaml
+- question: "A moon orbits very close to its planet in a perfectly circular orbit. A student claims this moon must experience extreme tidal heating because tidal forces scale as the inverse cube of distance. What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Tidal forces do not scale with distance, so proximity is irrelevant"
+    - "Tidal heating requires orbital eccentricity; without it, the tidal bulge is static and no energy is dissipated as heat"
+    - "Only moons larger than Earth's Moon can experience tidal heating"
+    - "Tidal heating requires a resonance with another moon and cannot occur without one"
+  answer: 1
+  explanation: "The student confuses tidal force strength with tidal heating. While tidal forces are indeed stronger at smaller distances, heating requires the tidal bulge to continuously deform as the distance changes. A circular orbit keeps the planet-moon distance constant, so the bulge is fixed in orientation and does no repeated flexing. It is eccentricity — the variation in distance over each orbit — that causes the interior to flex and dissipate energy as heat. Proximity amplifies heating for eccentric orbits, but eccentricity is the necessary condition."
+
+- question: "Io's orbital eccentricity is maintained by a gravitational resonance with Europa and Ganymede, despite Io losing enormous amounts of energy to tidal heating. Why is this resonance necessary for Io's volcanism to persist?"
+  type: multiple-choice
+  options:
+    - "The resonance provides a direct energy source that supplements tidal heating"
+    - "Without the resonance, tidal friction would circularize Io's orbit over time, eliminating the eccentricity that drives heating"
+    - "The resonance prevents Europa and Ganymede from absorbing Io's tidal heat"
+    - "The resonance keeps Io at a constant orbital distance, maximizing tidal force strength"
+  answer: 1
+  explanation: "Tidal friction converts orbital kinetic energy into heat, and as a by-product it tends to circularize orbits — pulling the orbiting body toward a circular path. Left alone, Io's orbit would circularize and tidal heating would shut off. The Laplace resonance with Europa and Ganymede continuously perturbs Io's orbit, pumping eccentricity back in at the same rate tidal dissipation removes it. The resonance is thus the engine that keeps the fuel (eccentricity) continuously replenished, sustaining Io's extreme volcanism indefinitely."
+
+- question: "Europa and Enceladus are considered leading candidates for hosting extraterrestrial life even though they orbit far from the Sun, outside the traditional 'habitable zone.'"
+  type: true-false
+  answer: true
+  explanation: "The traditional habitable zone defines the orbital distance at which stellar radiation can maintain liquid water on a surface. Tidal heating extends this concept dramatically: Europa and Enceladus receive enough tidal energy to maintain subsurface liquid water oceans despite being far from the Sun. This means the habitable zone is not solely a function of stellar distance — orbital architecture and tidal dissipation can sustain liquid water environments anywhere in a planetary system, fundamentally broadening the search for life."
+
+- question: "If Io's orbital eccentricity were suddenly reduced to zero, tidal heating would decrease significantly but would never reach zero because Io is so close to Jupiter."
+  type: true-false
+  answer: false
+  explanation: "Zero eccentricity means a perfectly circular orbit, which means the planet-moon distance never changes. With constant distance, the tidal bulge remains static relative to the moon's surface, and there is no repeated flexing. No flexing means no frictional energy dissipation. Tidal heating would drop to zero — not merely decrease. The proximity to Jupiter amplifies heating for eccentric orbits, but eccentricity is the necessary condition for any heating to occur at all. A circular orbit at any distance produces zero tidal heating."
+
+- question: "Why does a moon in a perfectly circular orbit experience no tidal heating, even if it is orbiting very close to a massive planet?"
+  type: short-answer
+  answer: "In a circular orbit, the distance between the moon and planet is constant throughout each orbit. The tidal bulge raised by the planet therefore maintains a fixed orientation and does not change in size or position. Since the bulge never needs to deform or shift, no internal flexing occurs, and no frictional heat is generated. Tidal heating requires the bulge to repeatedly grow, shrink, and migrate as the moon's distance from the planet oscillates over each eccentric orbit — this continuous deformation is what converts orbital energy into internal heat."
+  explanation: "The analogy from the text is apt: bending a paperclip once does nothing noticeable, but repeatedly flexing it back and forth heats and eventually breaks it. Proximity determines how large the tidal bulge is, but only eccentricity determines whether that bulge is constantly deforming. A big, static bulge dissipates nothing; a small, repeatedly deforming bulge generates heat."
+```
+
 ## Explainer
 
 From your study of tides and orbital mechanics, you know that gravitational interactions between two bodies raise tidal bulges — elongations of the body toward and away from the source of the gravitational gradient. For a moon in a perfectly circular orbit, these bulges would remain fixed in orientation relative to the planet, and no energy would be dissipated. But real moons have **eccentric orbits**, meaning the planet-moon distance varies throughout each orbit. As the moon moves closer to and farther from the planet, the tidal bulge continuously grows, shrinks, and shifts position. The interior of the moon must physically deform to follow this changing tidal force, and that repeated flexing — like bending a paperclip back and forth — converts orbital energy into **frictional heat** within the moon's interior.

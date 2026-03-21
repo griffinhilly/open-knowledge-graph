@@ -31,6 +31,45 @@ Image dendritic spines using two-photon microscopy before and after LTP inductio
 - Spine enlargement is merely cosmetic; enlargement increases surface area for receptors, stabilizes the synapse, and provides metabolic support.
 - All spines are equally plastic; mushroom-shaped spines are more stable and plastic than thin spines, with distinct roles in learning.
 
+## Questions
+
+```yaml
+- question: "During LTP, a dendritic spine at a potentiated synapse enlarges from a thin to a mushroom shape. A student concludes this is a structural side-effect with no functional impact on synaptic transmission. What does the evidence show instead?"
+  type: multiple-choice
+  options:
+    - "The student is correct — spine morphology is epiphenomenal and does not affect the strength of synaptic transmission"
+    - "Spine enlargement increases the surface area available for AMPA receptor insertion, reduces the electrical resistance of the synapse, and provides more scaffolding for signaling molecules — all of which strengthen and stabilize the synapse"
+    - "Spine enlargement primarily functions to increase calcium compartmentalization within the spine, which inhibits further potentiation and prevents runaway LTP"
+    - "The mushroom shape increases the length of the spine neck, which filters high-frequency signals and improves temporal selectivity"
+  answer: 1
+  explanation: "Spine enlargement is functionally consequential, not cosmetic. The expanded head accommodates more AMPA receptors in the postsynaptic membrane, directly increasing the postsynaptic response to glutamate. The larger head has lower electrical resistance, making it more electrically efficient. The expanded postsynaptic density provides more docking sites for scaffolding and signaling proteins. The wider spine neck reduces electrical filtering between spine head and dendrite. Together, these changes translate the initial electrical LTP event into a lasting structural enhancement of synaptic efficacy."
+
+- question: "What is the primary intracellular mechanism that drives spine head enlargement during LTP induction?"
+  type: multiple-choice
+  options:
+    - "Microtubule polymerization extends into the spine and pushes the membrane outward, forming the enlarged mushroom head"
+    - "Actin polymerization, triggered by CaMKII activation downstream of NMDA receptor-mediated calcium influx, pushes the spine membrane outward"
+    - "AMPA receptor insertion directly inflates the postsynaptic membrane by increasing its lipid bilayer area"
+    - "Myosin motors transport membrane-bound organelles into the spine, physically expanding its volume"
+  answer: 1
+  explanation: "Dendritic spines are unusually actin-rich compartments — they contain almost no microtubules. When Ca²⁺ enters through NMDA receptors during LTP induction, it activates CaMKII (calcium/calmodulin-dependent protein kinase II), which phosphorylates actin regulatory proteins and triggers rapid actin polymerization. The growing actin filaments push against the spine membrane, causing the characteristic expansion. This process begins within minutes of stimulation. The actin cytoskeleton also provides the scaffolding that retains newly inserted AMPA receptors at the expanded postsynaptic density."
+
+- question: "Long-term depression (LTD) causes spine shrinkage and retraction, and this pruning process is essential for normal brain development and circuit refinement."
+  type: true-false
+  answer: true
+  explanation: "Correct. Bidirectional structural plasticity — LTP enlarges spines, LTD shrinks and eliminates them — is essential for circuit refinement. During development, spine density peaks in early childhood and then declines through adolescence as weaker connections are pruned and stronger ones stabilized. Without pruning, synapses would accumulate without bound, degrading the signal-to-noise ratio of neural computation. This is not merely theoretical: excessive spine density is found in autism spectrum disorder, and excessive pruning has been linked to schizophrenia, illustrating that both too much and too little structural plasticity produces pathology."
+
+- question: "Thin dendritic spines are the most stable and functionally potent type of spine, representing mature synaptic connections strengthened by repeated activation."
+  type: true-false
+  answer: false
+  explanation: "This is backwards. Mushroom spines — with their large, bulbous heads and stable morphology — represent mature, strengthened synaptic connections and are sometimes called 'memory spines.' Thin spines are highly motile, appear and disappear frequently, and are thought to be 'learning spines' that sample potential synaptic partners and are susceptible to either stabilization (into mushroom spines via LTP) or elimination (via LTD). When LTP occurs at a thin spine, it tends to convert it into a mushroom spine — the structural transition that marks synaptic strengthening."
+
+- question: "Explain why spine enlargement during LTP is described as 'not merely cosmetic,' and what functional consequences follow from the increased spine volume and surface area."
+  type: short-answer
+  answer: "Spine enlargement increases the physical surface area of the postsynaptic density, allowing more AMPA receptors to be inserted and anchored. A larger spine head also has lower electrical resistance, reducing signal attenuation between the synapse and the dendrite. The expanded volume accommodates more signaling proteins and scaffolding molecules that stabilize the potentiated state. These changes together mean the enlarged spine transmits stronger, more reliable postsynaptic currents in response to presynaptic glutamate release."
+  explanation: "The functional consequences extend to the spine neck as well. A wider neck reduces the electrical and biochemical isolation of the spine from the parent dendrite — which is a tradeoff. In thin spines, the narrow neck compartmentalizes calcium and prevents potentiation signals from spreading to neighboring spines. In mushroom spines, the wider neck allows the potentiated synapse to integrate more effectively with the dendrite's computational state. This architectural shift from compartmentalized (thin) to integrated (mushroom) reflects the transition from a 'sampling' to a 'consolidated' synaptic state."
+```
+
 ## Explainer
 
 You already know that NMDA receptors act as coincidence detectors, opening only when the postsynaptic membrane is depolarized while glutamate is bound, and that the resulting calcium influx triggers long-term potentiation. But LTP is not just an electrical or chemical change — it has a physical, structural counterpart. The tiny protrusions on dendrites where most excitatory synapses sit, called **dendritic spines**, actually grow larger and change shape when a synapse is potentiated. This structural plasticity is what converts a transient electrical event into a lasting architectural modification of the brain.

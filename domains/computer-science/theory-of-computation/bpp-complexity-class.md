@@ -20,6 +20,45 @@ status: draft
 ## Core Idea
 BPP is the class of languages decided by a probabilistic PTM in polynomial time with two-sided error at most 1/3 (amplifiable to any ε > 0 via repetition). BPP trivially contains P. It is widely believed (but unproven) that BPP ⊆ NP and BPP ⊆ P with high probability, though NP ⊆ BPP would cause PH to collapse, suggesting BPP is 'small' relative to NP. BPP captures practical randomized algorithms where error probability is controllable and output distribution matters.
 
+## Questions
+
+```yaml
+- question: "A randomized algorithm for polynomial identity testing has error probability 1/4 on any single run. A colleague claims this algorithm cannot be in BPP because 1/4 > 1/3. Who is correct?"
+  type: multiple-choice
+  options:
+    - "The colleague is correct — BPP requires error probability at most exactly 1/3, and 1/4 is strictly greater than 1/3"
+    - "Neither is correct — BPP only applies to zero-error (Las Vegas) algorithms"
+    - "The algorithm's designer is correct — any error bound strictly less than 1/2 defines the same BPP class via error amplification, so 1/4 is acceptable"
+    - "Both are partially correct — the algorithm is in a class between BPP and RP"
+  answer: 2
+  explanation: "The colleague has the inequality backwards (1/4 < 1/3, not greater), but more fundamentally, the specific error threshold doesn't matter. BPP error amplification shows that *any* constant error probability strictly less than 1/2 defines the same class: by running the algorithm k times and taking the majority vote, the error probability drops exponentially in k. An algorithm with error 1/4 is easily amplified to error 1/100 or 2^(-n) while remaining polynomial time. The 1/3 in the definition is conventional, not special."
+
+- question: "Most complexity theorists believe BPP = P. What is the strongest evidence supporting this conjecture?"
+  type: multiple-choice
+  options:
+    - "Every known BPP algorithm has eventually been converted to an equivalent deterministic polynomial algorithm"
+    - "Under plausible circuit complexity assumptions (specifically, that strong one-way functions exist), pseudorandom generators can simulate BPP algorithms deterministically in polynomial time"
+    - "The polynomial hierarchy would collapse if BPP ≠ P, which is a known impossibility"
+    - "No problem has ever been proven to require randomness — all BPP algorithms are already deterministic in disguise"
+  answer: 1
+  explanation: "The derandomization agenda is the main theoretical evidence: complexity theorists have shown that if sufficiently hard functions exist (which circuit lower bound assumptions assert), then pseudorandom generators can be built that fool BPP algorithms, enabling deterministic polynomial simulation. The AKS primality algorithm is a concrete example — Miller-Rabin was in BPP for decades before AKS proved primality is in P. Option C is wrong because BPP ≠ P is not known to be impossible; option A is an overstatement (not *every* BPP algorithm has a known deterministic counterpart)."
+
+- question: "Running a BPP algorithm 100 times and taking the majority vote increases the total error probability because there are 100 independent opportunities to make a mistake."
+  type: true-false
+  answer: false
+  explanation: "This is exactly backwards. For error amplification to fail, a majority of the 100 runs must give the wrong answer — but each run independently errs with probability at most 1/3 < 1/2. By the Chernoff bound, the probability that more than 50 of 100 independent runs err falls exponentially with the number of runs. The result is an error probability far smaller than the original 1/3 — not larger. This exponential decrease is the mathematical content of BPP's error amplification property."
+
+- question: "Every problem in P is also in BPP because a deterministic algorithm is a special case of a probabilistic algorithm with error probability zero."
+  type: true-false
+  answer: true
+  explanation: "P ⊆ BPP is trivially true: a deterministic polynomial algorithm never flips coins and always produces the correct answer, achieving error probability exactly 0. Since 0 ≤ 1/3, it meets the BPP definition. The interesting and open question is the reverse direction — whether BPP ⊆ P (i.e., whether randomness ever provides a genuine advantage for decision problems)."
+
+- question: "Why doesn't the specific choice of 1/3 as the error bound in BPP's definition matter for which problems belong to the class?"
+  type: short-answer
+  answer: "The 1/3 threshold is conventional, not fundamental. What matters is that the error is strictly less than 1/2 — there is a gap between the success probability and random guessing. Any constant error bound ε with 0 < ε < 1/2 defines the same class because of error amplification: run the algorithm k times independently and take the majority vote. By the Chernoff bound, the probability that a majority of runs errs decreases exponentially in k. So an algorithm with error 1/4 can be amplified to error 1/100 or 2^(-n) using polynomially many (O(n) for any polynomial error target) repetitions, which keeps the total runtime polynomial. Since any threshold below 1/2 can be amplified to any other threshold below 1/2, all such thresholds characterize the same set of languages."
+  explanation: "This amplification argument is what separates BPP from RP (one-sided error < 1/2) and ZPP (zero error, expected polynomial time). The two-sided error in BPP can be amplified just like one-sided error, making the specific threshold irrelevant as long as it's bounded away from 1/2."
+```
+
 ## Explainer
 
 You already know that P captures problems solvable efficiently by deterministic machines, and that probabilistic Turing machines extend the deterministic model by allowing random coin flips during computation. **BPP** (Bounded-error Probabilistic Polynomial time) is the complexity class that asks: what can we solve efficiently if we allow randomness, provided we keep errors under control? Specifically, a language L is in BPP if there exists a probabilistic Turing machine that runs in polynomial time and, for every input, gives the correct answer with probability at least 2/3. The machine can err on both sides — it might say "yes" when the answer is "no," or "no" when the answer is "yes" — but each type of error occurs with probability at most 1/3.

@@ -38,6 +38,45 @@ Implement the merge function first in isolation, then build the recursive mergeS
 - Bottom-up (iterative) merge sort avoids recursion overhead and is used in many standard library implementations (e.g., Python's Timsort).
 - Merge sort's stability is a significant practical advantage when sorting records by multiple keys.
 
+## Questions
+
+```yaml
+- question: "A developer sorts customer records first alphabetically by last name, then applies a second sort by account tier (Gold/Silver/Bronze). She needs customers with the same tier to remain in alphabetical order after the second sort. Which property of merge sort makes this reliable?"
+  type: multiple-choice
+  options:
+    - "Its O(n log n) guaranteed time complexity in all cases"
+    - "Its ability to sort linked lists without auxiliary space"
+    - "Its stability — equal elements preserve their relative order from the previous sort"
+    - "Its external sort capability for large datasets"
+  answer: 2
+  explanation: "Stability is the key property here. After sorting alphabetically, a stable sort by tier will leave same-tier customers in their existing (alphabetical) order, because stability guarantees that equal elements (same tier) don't swap relative to each other. An unstable sort could scramble the alphabetical order within each tier. This is why stability matters when sorting by multiple criteria sequentially."
+
+- question: "A developer benchmarks merge sort and quicksort on random arrays and finds quicksort is consistently faster in practice. What does merge sort still offer that might justify choosing it?"
+  type: multiple-choice
+  options:
+    - "Better average-case time complexity — merge sort's O(n log n) beats quicksort's average"
+    - "Lower memory usage — merge sort runs in O(1) auxiliary space"
+    - "Guaranteed O(n log n) worst-case performance and stability, regardless of input order"
+    - "Faster performance on nearly-sorted arrays due to its adaptive design"
+  answer: 2
+  explanation: "Quicksort's average case is indeed faster in practice (smaller constants), but it has an O(n²) worst case on certain inputs like already-sorted data with naive pivot selection. Merge sort guarantees O(n log n) in all cases — best, average, and worst — because the split-and-merge structure doesn't depend on input order. Additionally, merge sort is stable while quicksort is not. These guarantees justify merge sort in applications requiring predictable performance or stable ordering."
+
+- question: "Merge sort's time complexity degrades to O(n²) on already-sorted or reverse-sorted input, similar to naive quicksort."
+  type: true-false
+  answer: false
+  explanation: "Merge sort always runs in O(n log n) regardless of input order — it has this guarantee for best, average, and worst cases. The divide-and-conquer structure is fixed: always split in half, always merge. Input order doesn't affect the number of levels (always log n) or the total work per level (always O(n) across all merges at that level). Quicksort degrades on sorted input because pivot selection produces maximally unbalanced splits; merge sort's splits are always balanced by design."
+
+- question: "Merge sort can be implemented without any auxiliary space if the input data is stored in a linked list rather than an array."
+  type: true-false
+  answer: true
+  explanation: "For arrays, the merge step requires a temporary buffer to hold the merged result while reading from both halves — O(n) auxiliary space. For linked lists, merging can be done in-place by relinking next pointers: compare the front elements of two sorted lists, take the smaller one, advance that list's pointer, and repeat. No extra memory is needed because the nodes themselves store the data; you just rewire their connections. This is one of the few cases where linked lists have a genuine advantage over arrays."
+
+- question: "Explain why merge sort's total work across all levels of recursion is O(n log n) rather than O(n²)."
+  type: short-answer
+  answer: "At every level of the recursion tree, the total merge work is O(n): the n elements are partitioned into subproblems that collectively span all n elements, with each element participating in exactly one merge at each level. At the bottom: n single-element merges costing O(n) total. At each successive level: fewer but larger merges, still costing O(n) total. The tree has log₂ n levels because each split halves the array. Total work = O(n) per level × log n levels = O(n log n)."
+  explanation: "The key insight is that work per level stays constant at O(n). There is no level where work compounds. This contrasts with an O(n²) algorithm where work at each step is proportional to the remaining problem size. The formal analysis uses the recurrence T(n) = 2T(n/2) + O(n), which the master theorem resolves to O(n log n). The recursion tree visualization — drawing all subproblems as a binary tree and summing work at each level — makes the O(n) per-level structure visually obvious."
+```
+
 ## Explainer
 
 You already understand divide-and-conquer: break a problem into smaller subproblems, solve each recursively, and combine the results. Merge sort is the textbook application of this strategy to sorting. The key insight is that merging two already-sorted arrays into one sorted array is easy and fast — you just compare the front elements of each array and take the smaller one, repeating until both are exhausted. If you can produce sorted halves, combining them is an O(n) operation.

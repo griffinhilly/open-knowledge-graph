@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Formal typology catalogs systematic cross-linguistic variation and explains it through formal constraints and parameters. Languages cluster by word order, case systems, and argument marking, yet all languages encode agency, tense, and aspect. Formal analysis reveals deep structural similarities beneath surface diversity: constraints permit only certain features to co-occur, limiting the space of possible human languages.
 
+## Questions
+
+```yaml
+- question: "A linguist discovers a language with VSO word order (verb first, then subject, then object). Based on formal typological parameters, what other feature would you most expect to find?"
+  type: multiple-choice
+  options:
+    - "Postpositions (e.g., 'the house from') rather than prepositions ('from the house')"
+    - "Prepositions (e.g., 'from the house') rather than postpositions"
+    - "SOV word order in subordinate clauses, since most languages use mixed orders across clause types"
+    - "An absence of case morphology, since VSO languages express grammatical relations through word order alone"
+  answer: 1
+  explanation: "VSO order is head-initial: the verb (head of the clause) precedes its subject and object complements. The head-directionality parameter predicts that head-initial languages consistently place heads before complements across grammatical categories — including prepositional phrases, where the preposition (head) precedes the noun phrase it governs. Greenberg's universals confirm this: if a language has VSO order, it almost invariably has prepositions rather than postpositions. Option A (postpositions) is the head-final prediction — the opposite setting. Option C is wrong because the head-directionality parameter cascades consistently across all phrase types within a language, not just main clauses."
+
+- question: "Why does formal typology claim that the actual space of human language variation is far smaller than the logically possible space?"
+  type: multiple-choice
+  options:
+    - "Because the human vocal tract can only produce a limited range of sounds, constraining which phonological contrasts are possible"
+    - "Because formal parameters link clusters of grammatical properties, so setting one parameter excludes combinations that would require inconsistent settings"
+    - "Because all languages descend from a common ancestral proto-language that imposed its original structure on its descendants"
+    - "Because language contact over millennia has gradually erased structural differences between geographically neighboring languages"
+  answer: 1
+  explanation: "The logical space of possible languages is vast — you can imagine any combination of word orders, case systems, and argument-marking strategies. But actual languages don't distribute randomly across this space; they cluster around parameter settings that make consistent predictions across many properties simultaneously. A language cannot easily be VSO (head-initial) for main clauses but use postpositions (head-final) for noun phrases, because both derive from the same head-directionality setting. Formal typology explains the gaps — the logically possible but unattested language types — as ruled out by formal constraints, not historical accident. Option A concerns phonology, not the syntactic/morphological variation that typological parameters address."
+
+- question: "The head-directionality parameter predicts that a head-final language will tend to have postpositions rather than prepositions, because postpositions place the head after its complement."
+  type: true-false
+  answer: true
+  explanation: "Head-final languages place grammatical heads after their complements across all phrase types. In a verb phrase, the verb follows its objects (SOV order). In an adpositional phrase, the adposition follows the noun phrase it governs — making it a postposition ('the house from') rather than a preposition ('from the house'). This is precisely the kind of cross-category prediction that makes the parameter concept powerful: a single binary setting cascades through the grammar, linking word order, adposition type, and other structural features. Japanese (head-final: SOV + postpositions) and English (head-initial: SVO + prepositions) illustrate the predicted correlation."
+
+- question: "Typological implicational universals state that all human languages share every grammatical property, leaving no room for cross-linguistic variation."
+  type: true-false
+  answer: false
+  explanation: "Implicational universals take the conditional form 'if a language has property X, then it also has property Y' — not 'all languages have property X.' They constrain variation without eliminating it. For example: 'if a language has VSO order, it has prepositions' doesn't say all languages are VSO or that all languages have prepositions. It says that the combination VSO + postpositions is ruled out. The universals mark which combinations don't occur in human languages, carving out the attested portion of the logically possible space. Languages still vary freely within the constraints — the universals describe the boundaries, not the content."
+
+- question: "Explain what a typological implicational universal is, and how the existence of such universals supports the view that human language variation is constrained by formal grammatical principles rather than being arbitrary."
+  type: short-answer
+  answer: "A typological implicational universal is a cross-linguistic generalization of the form 'if a language has property X, it also has property Y,' where the relationship holds across virtually all known languages. For example, Greenberg's Universal 4: if a language has VSO order, it almost always has prepositions. These universals constrain the typological space — the set of logically possible language types — by ruling out certain property combinations. If language variation were arbitrary, we'd expect all logically possible combinations to appear roughly equally. Instead, we find systematic gaps (VSO + postpositions is vanishingly rare) and systematic correlations. This pattern is best explained by formal principles — parameters or constraints — that link grammatical properties, making some combinations coherent and others internally inconsistent."
+  explanation: "The formal explanation is stronger than a frequency-based one: it's not just that VSO + postpositions is rare, it's that the head-directionality parameter predicts it should be absent because it would require inconsistent settings within the same grammar. The universals thus become evidence for an abstract grammatical architecture shared by all human languages — one that varies in parameter settings but not in the formal principles governing how those settings interact."
+```
+
 ## Explainer
 
 From your prerequisite work in linguistic typology, you already know that languages vary enormously on the surface — different word orders, different sounds, different ways of marking tense and possession — and yet these variations are not random. Certain patterns appear universally or near-universally; others are strongly correlated. **Formal linguistic typology** moves beyond cataloging these patterns to explaining them: why do languages cluster in the ways they do, and what principled constraints rule out the patterns that never appear?

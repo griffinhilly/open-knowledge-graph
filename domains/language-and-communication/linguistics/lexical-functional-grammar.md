@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Lexical-Functional Grammar (LFG) represents sentences using two parallel structures: c-structure (constituent trees) and f-structure (attribute-value matrices). This allows elegant treatment of long-distance dependencies and languages with flexible word order while maintaining linear constituency.
 
+## Questions
+
+```yaml
+- question: "In LFG, the sentence 'Who did you say Maria saw?' poses a challenge because 'who' appears at the beginning but semantically functions as the object of 'saw.' How does LFG resolve this without moving 'who' in the tree?"
+  type: multiple-choice
+  options:
+    - "LFG generates a second c-structure where 'who' appears in object position, and unification selects the correct one"
+    - "'Who' in c-structure shares its f-structure value with the OBJ position in the embedded clause's f-structure"
+    - "LFG uses a movement trace in c-structure, annotated with a coindex linking back to 'who'"
+    - "F-structure ignores linear order, so the displacement is irrelevant — 'who' is simply assigned OBJ in f-structure without further mechanism"
+  answer: 1
+  explanation: "LFG's insight is that long-distance dependencies are resolved through f-structure sharing: the displaced element at the front of the sentence and the semantic position it occupies (object of 'saw') are linked to the same f-structure value. The c-structure correctly shows 'who' at the top, but unification propagates its f-structure specification down through the embedded clause until it fills the OBJ slot. No movement, no traces — the two levels work in parallel and the shared value bridges the gap."
+
+- question: "Why did linguists develop LFG's two-level c-structure/f-structure architecture rather than enriching the c-structure alone?"
+  type: multiple-choice
+  options:
+    - "C-structure is insufficient to represent tense and agreement features, which require a separate level"
+    - "C-structure captures visible linear order but cannot elegantly represent grammatical relations that can surface in different positions across languages"
+    - "F-structure was developed to represent semantic meaning, which c-structure cannot encode"
+    - "LFG separates the levels because unification requires a feature matrix format that trees cannot provide"
+  answer: 1
+  explanation: "The core motivation is that grammatical relations (subject, object) are relatively stable across a language's paraphrases and cross-linguistic equivalents, while surface word order varies. In English 'Maria saw the book' and in an SOV language with object-first order, the subject and object relations are the same — but the c-structure positions differ. Encoding grammatical relations directly in c-structure (via fixed positions) cannot handle this variation without cumbersome additional mechanisms. F-structure captures what is functionally constant; c-structure captures what varies on the surface."
+
+- question: "In LFG, the f-structure for 'Maria saw the book' and its Japanese equivalent (with different word order) would be different, because word order is part of what f-structure represents."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception the two-level architecture is designed to avoid. F-structure represents grammatical functions (SUBJ, OBJ, TENSE, PRED) and their values — not word order. The f-structure for 'Maria saw the book' and a Japanese equivalent with object-first order would be identical: {SUBJ: [PRED: 'Maria'], OBJ: [PRED: 'book'], TENSE: PAST, PRED: 'see⟨SUBJ, OBJ⟩'}. C-structure captures the differing surface word orders; f-structure captures the shared grammatical relations. That is precisely the point of the separation."
+
+- question: "Unification-based constraint satisfaction in LFG means that a sentence is grammatical if and only if its f-structure equations can all be satisfied simultaneously."
+  type: true-false
+  answer: true
+  explanation: "This is LFG's formal definition of grammaticality. Annotations on c-structure nodes specify equations that the f-structure must satisfy. Unification then checks whether all those equations can be merged into a coherent attribute-value matrix without contradiction. If they can — the sentence is grammatical. If any two equations conflict (e.g., a word is specified as both nominative and accusative), unification fails and the sentence is ungrammatical. Grammaticality becomes a provable property of a formal system rather than relying solely on native-speaker intuition."
+
+- question: "What work does f-structure do that c-structure cannot, and why does LFG need both levels rather than just enriching c-structure with more features?"
+  type: short-answer
+  answer: "C-structure captures what is visible on the surface: linear word order and phrase-level constituency. F-structure captures grammatical relations (SUBJ, OBJ, TENSE) independently of where they appear in the surface string. C-structure cannot elegantly handle two problems: long-distance dependencies (where a constituent's surface position differs from its grammatical role position) and cross-linguistic word-order freedom (where the same grammatical relations surface in different positions in different languages or constructions). Enriching c-structure to handle these cases requires adding complex movement rules or position-based feature proliferation. F-structure provides a clean, position-independent level where these relations are stated directly, with unification linking the two levels."
+  explanation: "The two-level separation is a design choice: keep the surface representation simple (c-structure handles only what is observable), and let f-structure handle the invariant grammatical relations. This modularity is what allows LFG to cover typologically diverse languages without language-specific c-structure hacks."
+```
+
 ## Explainer
 
 You have learned about **unification** — the mechanism by which two feature structures are merged into one, failing if their values conflict. And from constituent trees, you know how to represent the phrase-level structure of a sentence hierarchically. Lexical-Functional Grammar puts these tools to work in parallel: every sentence receives two simultaneous structural descriptions, and both must be well-formed. Understanding why linguists developed this two-level architecture requires seeing what a single-level description cannot handle.

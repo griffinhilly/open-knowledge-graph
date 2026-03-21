@@ -33,6 +33,45 @@ Compare all three devices: which has lowest cost, lowest pressure loss, highest 
 - The theoretical (ideal) flow rate overestimates actual flow; C_d < 1 corrects for vena contracta and friction effects.
 - Venturi and orifice meters measure volumetric flow rate indirectly through pressure difference, not directly.
 
+## Questions
+
+```yaml
+- question: "An engineer places a Pitot tube at the centerline of a circular pipe and uses the measured pressure to compute V = √(2ΔP/ρ), then multiplies by the pipe cross-section area to get flow rate Q. What is the primary error in this procedure?"
+  type: multiple-choice
+  options:
+    - "The Pitot tube formula requires the discharge coefficient C_d to be applied before computing velocity"
+    - "The Pitot tube measures velocity at one point; because velocity varies across the cross-section (lower near the walls), a single centerline measurement overestimates the cross-sectional average velocity and thus overestimates flow rate"
+    - "A Pitot tube measures static pressure, not stagnation pressure, so the formula V = √(2ΔP/ρ) is inapplicable"
+    - "The Pitot tube is only valid in open channels; in pipes the static port is obstructed"
+  answer: 1
+  explanation: "A Pitot tube measures the local velocity at the specific point where it is positioned. In a pipe, velocity is highest at the centerline and falls to zero at the wall (no-slip condition). Using the centerline velocity as a proxy for average velocity overestimates Q. The correct approach is a Pitot traverse — measuring velocity at multiple radial positions across the cross-section and integrating the velocity profile to find the true average. The engineer should either perform the traverse or use a venturi/orifice meter that inherently measures total flow rate."
+
+- question: "A venturi meter and an orifice plate are installed in the same pipeline with identical throat-to-pipe area ratios. For the same volumetric flow rate, how do their permanent pressure losses compare?"
+  type: multiple-choice
+  options:
+    - "Both produce identical permanent pressure losses because they have the same area ratio and thus the same Bernoulli pressure drop"
+    - "The venturi has far lower permanent pressure loss because its gradual expansion recovers most of the kinetic energy; the orifice plate's abrupt geometry creates large separation and permanent energy dissipation"
+    - "The orifice plate has lower permanent pressure loss because its sharp edge reduces contact area with the fluid"
+    - "The venturi has higher permanent pressure loss because the longer throat creates more wall friction"
+  answer: 1
+  explanation: "Both devices produce similar measured pressure drops (the differential ΔP used to compute flow rate). However, permanent pressure loss — energy that cannot be recovered — differs dramatically. The venturi's gradual expansion converts most of the kinetic energy at the throat back into pressure, so permanent loss is small (a few percent of ΔP). The orifice plate's abrupt geometry causes massive flow separation and turbulent dissipation downstream, so permanent loss is a large fraction of ΔP (about 60-80% for a typical orifice). This energy difference has real operating costs in large industrial pipelines."
+
+- question: "A Pitot tube measures the static pressure of the flowing fluid at the point where it is inserted."
+  type: true-false
+  answer: false
+  explanation: "A forward-facing Pitot tube brings the flow to rest (stagnates it) at its opening, measuring stagnation pressure P_stag = P_static + ½ρV². This is always greater than static pressure by the dynamic pressure ½ρV². Static pressure is measured separately through a port perpendicular to the flow, where no stagnation occurs. The velocity is extracted from the difference: V = √(2(P_stag − P_static)/ρ). Confusing the two pressure taps leads to a velocity reading of zero — one of the most common Pitot tube errors in practice."
+
+- question: "The theoretical flow rate calculated from the ideal Bernoulli-continuity equation overestimates the actual flow through a venturi or orifice meter, which is why the discharge coefficient C_d is always less than 1."
+  type: true-false
+  answer: true
+  explanation: "The ideal Bernoulli derivation assumes no viscous losses, a uniform velocity profile, and exact geometric areas. Real flows experience wall friction, non-uniform velocity profiles, and — in the case of the orifice — a vena contracta where the actual minimum flow area is smaller than the physical hole area. All of these effects reduce actual flow below the ideal prediction. The discharge coefficient C_d (typically 0.98 for well-designed venturis, 0.61 for orifices) is an empirical correction factor that brings the theoretical formula into agreement with measured flow rates."
+
+- question: "Explain what stagnation pressure is and why a Pitot tube measures it rather than static pressure, then describe what additional measurement is needed to extract flow velocity."
+  type: short-answer
+  answer: "Stagnation pressure is the pressure that would be measured if the fluid were brought to rest isentropically — it equals static pressure plus dynamic pressure (½ρV²). A Pitot tube faces directly into the flow, so the moving fluid decelerates to zero velocity at the tube opening; all kinetic energy converts to pressure according to Bernoulli's equation, producing the stagnation pressure. To extract velocity, you also need static pressure, measured through a port oriented perpendicular to the flow where the fluid is not decelerated. The velocity follows from V = √(2(P_stag − P_static)/ρ), where the difference is the dynamic pressure."
+  explanation: "The Pitot tube is essentially a kinetic-energy-to-pressure converter: it turns the invisible kinetic energy of the moving fluid into a measurable pressure surplus. The static port provides the baseline, and the difference gives the dynamic pressure. In a Pitot-static tube (the standard aircraft airspeed indicator), both pressures are measured by the same probe: the forward-facing hole for stagnation, and side holes for static. Without both measurements, you cannot separate the two contributions to stagnation pressure."
+```
+
 ## Explainer
 
 You already know Bernoulli's equation: along a streamline, pressure drops when velocity increases, and vice versa. You also know continuity: for an incompressible fluid in a pipe, A₁V₁ = A₂V₂, so a narrower section means higher velocity. Flow measurement devices exploit both of these principles simultaneously. The core idea is that you force the fluid through a constriction, which guarantees a velocity increase; that velocity increase produces a predictable pressure drop; and that pressure drop is easy to measure. From the measured pressure drop, you work backwards to find the velocity and then the volumetric flow rate.

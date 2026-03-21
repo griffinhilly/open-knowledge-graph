@@ -27,6 +27,45 @@ Portfolio insurance uses options or dynamic rebalancing to establish a floor on 
 ## How It's Best Learned
 Compare the costs and outcomes of put protection versus dynamic rebalancing strategies under different market scenarios.
 
+## Questions
+
+```yaml
+- question: "What is the primary cost borne by an investor who protects a portfolio using a protective put?"
+  type: multiple-choice
+  options:
+    - "The investor must sell stocks when prices fall, locking in losses to fund the hedge"
+    - "The option premium is paid upfront and is lost entirely if the portfolio does not fall below the strike price"
+    - "Transaction costs from continuous rebalancing accumulate and erode returns over time"
+    - "The investor forfeits all upside gains above the strike price in exchange for downside protection"
+  answer: 1
+  explanation: "A protective put involves purchasing a put option — the cost is the option premium paid upfront. If the portfolio stays above the strike price (i.e., the bad outcome never occurs), the put expires worthless and the premium is entirely lost, exactly like an insurance policy whose payout is never triggered. The investor keeps all upside gains above the strike, minus the premium. This is the clearest difference from dynamic rebalancing: protective puts have a known, bounded upfront cost; dynamic strategies have uncertain costs that depend on how many times rebalancing occurs."
+
+- question: "In October 1987, many large institutions simultaneously received signals from their dynamic portfolio insurance programs to sell stocks. What was the systemic consequence?"
+  type: multiple-choice
+  options:
+    - "The coordinated selling stabilized prices, because supply and demand quickly found a new equilibrium"
+    - "The selling pressure accelerated the decline, triggering more sell signals, creating a feedback loop that amplified the crash"
+    - "The strategy worked as intended — institutions successfully exited stocks at the floor price before the worst of the decline"
+    - "Regulators intervened quickly, preventing the feedback loop from developing into a broader crash"
+  answer: 1
+  explanation: "Dynamic portfolio insurance assumes continuous liquid markets, allowing constant rebalancing at fair prices. When many institutions hold identical strategies and receive the same signal (prices falling → sell stocks), their collective selling pressure depresses prices further, generating more sell signals. This is a positive feedback loop: the hedge strategy itself becomes a driver of the decline it was designed to protect against. The promised floors were breached because the strategies could not rebalance at reasonable prices once liquidity evaporated. This is the paradigmatic example of how individually rational strategies can generate collectively irrational outcomes."
+
+- question: "After a major market crash, the cost of buying put options for portfolio protection typically decreases, because the market has already fallen and further downside risk is lower."
+  type: true-false
+  answer: false
+  explanation: "This is the procyclical cost problem. After a crash, implied volatility spikes dramatically — the VIX often surges to extreme levels. Since option prices increase with volatility, put options are most expensive exactly when demand for protection is highest: after or during a crash. An investor who delayed buying insurance until prices fell will face premium costs that may be several times higher than pre-crash levels. This is one motivation for dynamic rebalancing strategies, which have no upfront premium, but as 1987 demonstrated, those strategies carry their own severe risks in stressed markets."
+
+- question: "A hedging strategy that eliminates downside risk for an individual investor does not necessarily eliminate that risk for the financial system as a whole."
+  type: true-false
+  answer: true
+  explanation: "This is the central systemic insight of the portfolio insurance case. A protective put genuinely transfers risk from the buyer to the option seller — risk is redistributed, not destroyed. Dynamic portfolio insurance is subtler: it appears to create a floor without requiring a seller, but this is an illusion that depends on liquidity. When many institutions simultaneously try to rebalance the same way, they are all on the same side of the market — no one is absorbing the aggregate risk. The system as a whole cannot insure itself against a broad market decline. Individual hedging strategies that work in isolation can fail catastrophically when adopted at scale, a key concept in systemic risk analysis."
+
+- question: "Explain why a hedging strategy that works perfectly for an individual investor may fail to protect the broader market, using the 1987 crash as an example."
+  type: short-answer
+  answer: "A protective put works for the individual because risk is genuinely transferred to the option seller — the aggregate risk in the system is unchanged, just redistributed. Dynamic rebalancing appears to replicate this without a seller, but it relies on finding other market participants willing to absorb the trades. When many institutions adopt the same strategy, they all simultaneously sell stocks in falling markets, creating selling pressure that drives prices lower, which triggers more sell orders — a self-reinforcing feedback loop. In 1987, this prevented institutions from rebalancing at reasonable prices, breaking the floors the strategy was supposed to provide. The strategy works for one participant assuming others don't; when everyone uses it, the assumption fails."
+  explanation: "This is the difference between individual and systemic risk management. A strategy's effectiveness depends on implicit assumptions about market liquidity and the behavior of other participants. When those assumptions break down — because the strategy is too widely adopted — the hedge fails precisely when it is needed most. This is why portfolio insurance is a central case study in systemic risk and macroprudential regulation."
+```
+
 ## Explainer
 
 From your prerequisite on option strategies, you know the payoff structure of a **protective put**: hold the underlying asset and purchase a put option with strike price K. If the asset falls below K at expiration, the put pays K minus the asset value, establishing a floor on portfolio value. If the asset rises, you keep all the upside minus the put premium. This is the purest form of portfolio insurance — you pay a known, upfront cost to truncate the left tail of the return distribution. The analogy to insurance is exact: the premium is certain and paid immediately; the payout is contingent on a bad outcome; the option seller (insurer) absorbs the risk you've shed.

@@ -31,6 +31,45 @@ Verify put-call parity with real option quotes on the same underlying and strike
 - Put-call parity holds for American options (it only holds exactly for European options; Americans have additional value from early exercise).
 - The parity relationship is always perfectly observed (transaction costs, bid-ask spreads, and dividend timing create small deviations).
 
+## Questions
+
+```yaml
+- question: "You observe that C − P > S − PV(K) for a European option pair with the same strike and expiration. What is the correct arbitrage response?"
+  type: multiple-choice
+  options:
+    - "Buy the call and sell the put — the call is underpriced relative to the put"
+    - "Sell the call, buy the put, buy the stock, and borrow PV(K) — sell the expensive portfolio, buy the cheap one"
+    - "Do nothing — small deviations from parity are always within the no-arbitrage band"
+    - "Buy the put and sell the call — the put is underpriced"
+  answer: 1
+  explanation: "If C − P > S − PV(K), then C + PV(K) > S + P: Portfolio A (call + bond) costs more than Portfolio B (stock + put), but both have identical payoffs. The arbitrage is to sell the expensive portfolio A (sell the call, borrow PV(K)) and buy the cheap portfolio B (buy the stock, buy the put). This locks in a riskless profit equal to the parity gap. Competition among arbitrageurs drives prices back toward equality."
+
+- question: "Why does put-call parity hold exactly for European options but only approximately for American options?"
+  type: multiple-choice
+  options:
+    - "American options have larger bid-ask spreads, introducing pricing errors"
+    - "European options can be exercised at any time; American options can only be exercised at expiration"
+    - "American put options may have value from early exercise that is not captured by the European parity formula"
+    - "Put-call parity applies equally to both — the distinction is only theoretical"
+  answer: 2
+  explanation: "American options can be exercised before expiration. An American put may be worth exercising early — particularly when the stock has fallen sharply and the time value of waiting is costly. This early-exercise premium adds value to the American put beyond what European parity predicts, breaking the equality. The no-arbitrage portfolios underlying parity assume the option is held to expiration; early exercise invalidates that assumption. Note also that option B has the direction of European vs. American backwards — European options can only be exercised at expiration."
+
+- question: "If two portfolios produce identical cash flows in every possible future state, they must have the same price today."
+  type: true-false
+  answer: true
+  explanation: "This is the law of one price — the foundation of no-arbitrage pricing. If the portfolios had different prices, you could buy the cheaper one and sell the more expensive one, earning a riskless profit today with zero net future obligation. Such an arbitrage opportunity cannot persist in a rational market. Put-call parity is derived directly from this principle: Portfolio A (call + bond) and Portfolio B (stock + put) both pay max(S_T, K) at expiration, so they must cost the same to construct today."
+
+- question: "Put-call parity implies that a call and a put with the same strike and expiration must have the same price."
+  type: true-false
+  answer: false
+  explanation: "Put-call parity states C − P = S − PV(K), not C = P. Calls and puts have equal prices only in the special case where S = PV(K) — roughly when the stock price equals the discounted strike, which can occur for at-the-money options with very short time to expiration. In general, a call (which profits from price increases) and a put (which profits from price decreases) have different prices. Parity constrains their relationship, not their equality."
+
+- question: "Explain the no-arbitrage logic behind put-call parity: why must C − P equal S − PV(K)?"
+  type: short-answer
+  answer: "Construct two portfolios: (A) buy a call + invest PV(K) in risk-free bonds; (B) buy the stock + buy a put. Portfolio A pays max(S_T, K) at expiration in all states: if S_T > K, exercise the call; if S_T ≤ K, the bond pays K. Portfolio B also pays max(S_T, K): if S_T > K, hold the stock; if S_T ≤ K, exercise the put. Identical payoffs in all states require identical prices: C + PV(K) = S + P, which rearranges to C − P = S − PV(K)."
+  explanation: "The derivation requires no assumptions about how stock prices move — only the no-arbitrage condition. This makes put-call parity a model-free result. Any deviation from parity reveals an explicit arbitrage: buy the cheap portfolio, sell the expensive one, and collect a riskless profit at construction. The parity relationship also enables synthetic replication: knowing any three of {C, P, S, PV(K)}, you can determine the fourth."
+```
+
 ## Explainer
 
 You've spent time with options payoff diagrams and the basics of how puts and calls work. Put-call parity makes a striking claim: knowing the price of a call option, the stock price, the strike price, and the risk-free rate, you can determine exactly what the put option must be worth — no assumptions about return distributions needed. The relationship C - P = S - PV(K) holds by **no-arbitrage**: if two portfolios have identical payoffs in every possible future state, they must have the same price today. If they didn't, you could buy the cheap one and sell the expensive one, locking in a riskless profit.

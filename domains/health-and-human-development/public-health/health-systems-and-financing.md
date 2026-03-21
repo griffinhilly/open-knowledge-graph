@@ -35,6 +35,45 @@ Compare the financing and coverage structures of three health systems (e.g., UK 
 - Spending more on health does not guarantee better outcomes; governance, equity, and primary care emphasis matter as much as expenditure level.
 - Primary health care is not the same as primary care (a delivery tier); it is a comprehensive philosophy prioritizing community-based, preventive, and equitable services.
 
+## Questions
+
+```yaml
+- question: "Country A has a single-payer national health service. Country B uses a regulated multi-payer insurance system with government subsidies for the poor. Which statement best describes universal health coverage?"
+  type: multiple-choice
+  options:
+    - "Only Country A has UHC, because UHC requires a single government-run system"
+    - "Only Country B has UHC, because competition improves coverage quality"
+    - "Either country could have UHC — UHC is a goal about access and financial protection, not a specific financing design"
+    - "Neither country has UHC unless out-of-pocket payments are completely eliminated"
+  answer: 2
+  explanation: "UHC is a goal — that all people receive needed services without financial hardship — not a blueprint for system design. Many countries achieve it through diverse mechanisms: the UK through general taxation, Germany through social health insurance, some countries through regulated private markets with subsidies. What matters is whether the three UHC dimensions are met (population covered, services included, costs protected), not which financing model is used."
+
+- question: "Country X spends twice as much per capita on health as Country Y, yet Country Y has better population health outcomes. According to the WHO building blocks framework, which explanation is most likely?"
+  type: multiple-choice
+  options:
+    - "Country Y must have a single-payer system, which is inherently more efficient"
+    - "Country X's high spending is offset by its larger population"
+    - "Country Y likely has better governance, stronger primary care emphasis, and more equitable service distribution"
+    - "Country X must have higher rates of chronic disease, requiring more spending per outcome"
+  answer: 2
+  explanation: "One of the key misconceptions in health systems is that spending level determines outcomes. The WHO building blocks framework shows that governance, workforce distribution, information systems, and how services are delivered matter as much as expenditure. Countries with strong primary care orientation, good governance, and equitable distribution consistently outperform higher-spending systems that are fragmented, tertiary-care-heavy, or poorly governed. Rwanda and Thailand, for example, have achieved strong UHC outcomes at relatively low expenditure levels."
+
+- question: "Universal health coverage requires a government-run, single-payer health system."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception. UHC is a coverage goal, not a system design. It can be achieved through general taxation (UK), social health insurance (Germany, Japan), community-based insurance (Rwanda), or regulated multi-payer systems. What matters is whether all people can access needed services without financial catastrophe — the financing mechanism is a policy choice, not a definitional requirement."
+
+- question: "Out-of-pocket health payments are the primary mechanism driving medical impoverishment globally because they concentrate costs on individuals who are sick and often economically vulnerable."
+  type: true-false
+  answer: true
+  explanation: "Unlike taxation or social insurance — which spread financial risk across the entire population regardless of health status — out-of-pocket payments require the sick person to pay at the moment of need. A single hospitalization can wipe out a family's savings in settings without financial protection. This is particularly devastating in low-income countries where most health spending IS out-of-pocket. Eliminating catastrophic out-of-pocket expenditure is the central practical challenge in achieving UHC."
+
+- question: "What are the three dimensions the WHO uses to measure universal health coverage, and why can a country with high population coverage still fail to achieve UHC?"
+  type: short-answer
+  answer: "The three dimensions are: (1) population breadth — what share of the population is covered; (2) service breadth — what range of services is included in the benefit package; and (3) financial depth — what proportion of costs are covered (versus paid out-of-pocket). A country can cover most of its population nominally but still fail UHC if the benefit package excludes essential services, or if high deductibles and copayments cause financial hardship even for covered individuals."
+  explanation: "The three-dimensional 'UHC cube' reveals why simple population coverage statistics are misleading. The United States historically had near-universal nominal coverage for elderly and poor populations (Medicare/Medicaid) yet millions faced catastrophic costs due to gaps in service coverage and cost-sharing. Measuring only population coverage misses the depth and breadth dimensions that determine whether coverage is genuinely protective."
+```
+
 ## Explainer
 
 A health system is not just a collection of hospitals and clinics — it is the entire organized effort of a society to produce health. From your background in social determinants of health, you understand that most inputs to population health (housing, nutrition, education, income) lie outside the formal health system. But the health system is the part deliberately designed to manage illness and prevent disease, and understanding how it is structured and financed explains much of the variation in health outcomes between countries with similar disease burdens and similar wealth.

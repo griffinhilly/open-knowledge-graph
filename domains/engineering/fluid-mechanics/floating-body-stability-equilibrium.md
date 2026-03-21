@@ -28,6 +28,45 @@ Float objects of different shapes in water and gently tilt them. Observe how nar
 - A floating body is stable if the center of buoyancy is above the center of gravity (stability depends on the metacenter being above the center of gravity, not the center of buoyancy).
 - All floating objects have the same stability (stability depends on geometry and weight distribution, not on the fluid density alone).
 
+## Questions
+
+```yaml
+- question: "A narrow cylindrical buoy floats vertically with its center of buoyancy (B) located below its center of gravity (G). What can be correctly concluded about its stability?"
+  type: multiple-choice
+  options:
+    - "It is definitely unstable — buoyancy must act above gravity for a floating body to be stable"
+    - "It may still be stable if the metacenter (M) is located above the center of gravity (G)"
+    - "It is definitely stable — all floating objects in equilibrium are stable by definition"
+    - "It is neutrally stable — B and G being on the same vertical line means the body is in balance"
+  answer: 1
+  explanation: "The most common misconception is that B must be above G for stability. This is only true for fully submerged bodies. For floating bodies, B can be below G and the body can still be stable — as long as the metacenter M lies above G. When the body tilts, B shifts toward the submerged side, and the line of action of the buoyant force rises to intersect the original centerline at M. If M is above G, this creates a restoring moment. Narrow cylinders often have B below G; their stability depends on whether BM (= I/V) is large enough to raise M above G."
+
+- question: "A ship designer wants to increase a vessel's metacentric height (GM) to improve stability. Which modification most directly achieves this?"
+  type: multiple-choice
+  options:
+    - "Raising heavy machinery from the keel to the upper deck to elevate the center of gravity"
+    - "Widening the hull at the waterline to increase the second moment of the waterplane area"
+    - "Replacing dense steel plating with lighter aluminum to reduce total displacement"
+    - "Increasing the vessel's draft by adding ballast, which lowers the center of buoyancy"
+  answer: 1
+  explanation: "GM = KB + BM − KG. BM = I/V, where I is the second moment of the waterplane area about the longitudinal axis and V is displaced volume. Widening the hull dramatically increases I (which scales as the cube of half-width), raising BM and therefore M. This is the dominant geometric effect in ship stability — flat-bottomed barges are stable precisely because their wide waterplane creates a large I. Option A raises G, which decreases GM. Options C and D have secondary effects but do not directly target the largest term in BM."
+
+- question: "For a floating body, achieving stable equilibrium requires that the metacenter (M) lie above the center of gravity (G), not merely that the center of buoyancy (B) lie above G."
+  type: true-false
+  answer: true
+  explanation: "This is the core principle. For fully submerged bodies (submarines, balloons), B must be above G — there is no shift of B when the body tilts, so no metacenter. For floating bodies, B shifts when the body tilts, and the metacenter M defines where the resulting buoyant force acts. Stability requires M above G (positive metacentric height GM > 0), regardless of the relative positions of B and G in equilibrium. A body with B below G can be perfectly stable if BM is large enough to raise M above G."
+
+- question: "A floating body that is in equilibrium — meaning the buoyant force exactly equals its weight — is necessarily in stable equilibrium."
+  type: true-false
+  answer: false
+  explanation: "Equilibrium and stability are distinct conditions. Equilibrium simply means net force and net moment are zero. Stability asks what happens when the body is perturbed. A pencil balanced vertically on its tip is in equilibrium but unstable. A floating body is in unstable equilibrium when the metacenter M is below G (negative GM): any tilt creates a capsizing moment that increases the tilt rather than restoring it. Equilibrium is necessary but not sufficient for stability."
+
+- question: "Explain why a wide flat-bottomed barge is more stable than a narrow upright log of the same weight, using the concept of how the center of buoyancy moves when each body is tilted."
+  type: short-answer
+  answer: "When the barge tilts, its wide bottom means the submerged volume shifts dramatically toward the lower side — the center of buoyancy (B) moves far in the direction of tilt. The line of action of the buoyant force then intersects the original vertical axis at a metacenter (M) high above the center of gravity (G), creating a strong restoring couple that rights the barge. The narrow log, when tilted, shifts very little submerged volume — B moves only slightly, placing M close to B and possibly below G. If G is also elevated (e.g., dense wood floating mostly above water), GM becomes negative and the log is unstable. The key is that wide waterplane area shifts B far on tilt, raising M."
+  explanation: "This is captured in the formula BM = I/V, where I is the second moment of the waterplane area. For a rectangle of width w, I scales as w³. Doubling the width multiplies BM by 8, raising M substantially. Ship designers exploit this by preferring wide, low hull forms, and use ballast to lower G when wide hulls aren't possible (e.g., sailing yacht keels)."
+```
+
 ## Explainer
 
 From Archimedes' principle, you know that a floating body is in equilibrium when the upward buoyant force equals the body's weight — the body sinks until it displaces a volume of fluid whose weight matches its own. But equilibrium and stability are different questions. A pencil balanced on its tip is in equilibrium; it is not stable. Understanding floating body stability requires tracking two centers: where the body's mass is concentrated, and where the displaced fluid's volume is concentrated.

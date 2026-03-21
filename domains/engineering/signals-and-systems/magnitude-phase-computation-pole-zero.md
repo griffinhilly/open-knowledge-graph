@@ -31,6 +31,45 @@ Plot a simple pole-zero diagram and measure distances and angles to points along
 - Confusing which direction (pole or zero) multiplies vs divides magnitude.
 - Using distances rather than complex magnitudes.
 
+## Questions
+
+```yaml
+- question: "A system has a complex-conjugate pole pair at s = −0.05 ± j20. What does the magnitude response look like near ω = 20 rad/s?"
+  type: multiple-choice
+  options:
+    - "A deep notch at ω = 20, because poles suppress the response at frequencies near their imaginary parts"
+    - "A sharp resonant peak near ω = 20, because the pole pair is very close to the imaginary axis and the distance from the poles to jω becomes very small there"
+    - "No notable feature — poles not on the imaginary axis cannot create peaks or notches in the frequency response"
+    - "A gradual roll-off beginning at ω = 20, unrelated to the specific pole location"
+  answer: 1
+  explanation: "The magnitude is the product of zero distances divided by the product of pole distances. As ω approaches 20, the evaluation point j·20 comes very close to the pole at −0.05 + j20 (the real part −0.05 is tiny). The distance from that pole to j·20 approaches 0.05 — nearly zero — making the denominator very small and the magnitude very large. The closer poles sit to the imaginary axis (the smaller σ in s = −σ ± jω_d), the sharper and higher the resonant peak. This is the geometric explanation for why lightly-damped systems exhibit sharp resonances."
+
+- question: "A transfer function has a zero at s = j8 (exactly on the imaginary axis). What happens to the magnitude response at ω = 8 rad/s?"
+  type: multiple-choice
+  options:
+    - "The magnitude reaches a local maximum because zeros reinforce signals at their frequency"
+    - "The magnitude is undefined because evaluating H(jω) at a zero creates division by zero"
+    - "The magnitude drops to exactly zero, because the distance from the zero at j8 to the evaluation point j8 is zero, making the numerator vanish"
+    - "The magnitude decreases slightly but remains positive — zeros only affect the phase, not the magnitude"
+  answer: 2
+  explanation: "The numerator factor (jω − z_k) evaluated at ω = 8 with zero z_k = j8 is (j8 − j8) = 0. The magnitude is |K| × (product of zero distances) / (product of pole distances); when one zero distance is exactly zero, the entire numerator product is zero, so |H(j8)| = 0. This is a perfect null — the system completely rejects the frequency ω = 8 rad/s. This is exactly how notch filters are designed: place a pair of complex-conjugate zeros on the imaginary axis at the frequency to be blocked. The distinction from option D is critical: zeros on the imaginary axis affect both magnitude (creating nulls) and phase."
+
+- question: "The magnitude response |H(jω)| equals |K| times the product of distances from all zeros to the point jω, divided by the product of distances from all poles to jω."
+  type: true-false
+  answer: true
+  explanation: "This follows directly from the factored form H(s) = K·∏(s − z_k)/∏(s − p_i). Substituting s = jω, each factor (jω − z_k) is a complex number whose magnitude is the Euclidean distance from the zero z_k to the point jω on the imaginary axis. The magnitude of a product equals the product of magnitudes, so |H(jω)| = |K| × ∏|jω − z_k| / ∏|jω − p_i| — exactly the product of zero distances over the product of pole distances. This geometric interpretation converts frequency response computation into a distance measurement problem, enabling rapid sketching by inspection."
+
+- question: "A zero located at s = j·ω₀ on the imaginary axis causes a peak in the magnitude response at frequency ω₀, because the zero contributes energy at that exact frequency."
+  type: true-false
+  answer: false
+  explanation: "A zero on the imaginary axis at s = jω₀ causes the magnitude to drop to exactly zero at ω = ω₀ — a complete null, not a peak. The zero sits in the numerator; when jω reaches the zero's location, the numerator distance goes to zero, and so does the entire magnitude. Peaks are caused by poles close to the imaginary axis (the denominator becomes small). The confusion between poles and zeros causing peaks vs. nulls is the most common error in applying the geometric interpretation. Remember: zeros ↔ nulls (numerator → zero), poles ↔ peaks (denominator → zero)."
+
+- question: "A system has a single real pole at s = −3 and a single real zero at s = −30 (no other poles or zeros, gain K = 1). Using the geometric distance interpretation, describe the qualitative shape of the magnitude response from ω = 0 to ω → ∞."
+  type: short-answer
+  answer: "At ω = 0: distance from pole (−3) to j0 is 3; distance from zero (−30) to j0 is 30; so |H(0)| = 30/3 = 10. As ω increases: both distances grow, but the pole at −3 is much closer to the imaginary axis than the zero at −30. Near ω ≈ 3, the pole distance is roughly at its minimum (distance ≈ √(3² + ω²) − 3 is small), causing a gradual roll-off in the ratio. The zero at −30 contributes a gradually increasing numerator distance that begins to counteract the pole's effect as ω approaches 30. For ω >> 30: both distances grow approximately as ω, and their ratio approaches 1. The overall shape is a low-pass response that starts at magnitude 10 at DC, rolls off as the pole's effect dominates at intermediate frequencies, then levels out toward 1 at very high frequencies as the zero's compensating effect kicks in."
+  explanation: "This intuition — poles close to the imaginary axis dominate the response near their frequency, zeros far away contribute slowly — is the foundation for Bode plot approximations. Real poles at s = −σ 'turn on' their effect at ω ≈ σ; zeros do the same. The geometric interpretation makes visible why a pole at −3 causes an effect at much lower frequencies than a zero at −30."
+```
+
 ## Explainer
 
 From pole-zero plots and stability analysis you know that the poles and zeros of a transfer function H(s) encode all of its behavior — poles at s = p_k where the system resonates or decays, zeros at s = z_k where the output is suppressed. To evaluate the **frequency response**, you substitute s = jω (moving along the imaginary axis) for each frequency ω and compute H(jω). The geometric interpretation turns this algebraic substitution into a visual exercise: the magnitude and phase at any frequency ω are fully determined by the distances and angles from each pole and zero to the evaluation point jω on the imaginary axis.

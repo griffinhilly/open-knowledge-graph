@@ -32,6 +32,45 @@ Practice translating coefficient estimates into plain-language economic statemen
 - A coefficient of 0.05 in a log-level regression means a 5 percentage point change, not a 5% change — the distinction matters for large effects.
 - Standardized beta coefficients answer a different question than raw coefficients; mixing them up leads to incorrect comparisons.
 
+## Questions
+
+```yaml
+- question: "A researcher runs a log-level regression of log(wages) on years of education and finds β₁ = 0.12. What is the correct interpretation?"
+  type: multiple-choice
+  options:
+    - "Each additional year of education increases wages by $0.12"
+    - "Each additional year of education is associated with approximately a 12% increase in wages, holding other factors constant"
+    - "Each 1% increase in education is associated with a 12% increase in wages"
+    - "Each additional year of education increases wages by 12 percentage points"
+  answer: 1
+  explanation: "In a log-level model (log Y on X), the coefficient gives the approximate percentage change in Y per unit increase in X — not a dollar change, not a percentage-point change, and not an elasticity. The '100 × β₁' rule applies: 100 × 0.12 = 12% per year of schooling. Option A describes a level-level coefficient. Option C describes a log-log (elasticity) interpretation. Option D confuses percentage change with percentage-point change — a critical distinction when effects are large."
+
+- question: "Two models both show β₁ = 0.05. Model A has log(price) on log(quantity). Model B has log(price) on quantity in units. How do the interpretations differ?"
+  type: multiple-choice
+  options:
+    - "Both say a 1-unit increase in X raises log(price) by 5%"
+    - "Model A says a 1% increase in quantity is associated with a 5% change in price (elasticity); Model B says a 1-unit increase in quantity is associated with approximately a 5% change in price"
+    - "Model A says a 5% change in quantity raises price by 5 percentage points; Model B says a 1-unit change raises price by 5%"
+    - "There is no difference — the same coefficient value always has the same interpretation"
+  answer: 1
+  explanation: "Functional form determines interpretation. In a log-log model (both variables in logs), β₁ is an elasticity: a 1% change in X is associated with a β₁% change in Y. In a log-level model (log Y, X in levels), β₁ gives the approximate percentage change in Y per one-unit change in X. Even though both coefficients equal 0.05, they measure completely different things. Reading them interchangeably would produce incorrect economic conclusions."
+
+- question: "A coefficient of 0.08 in a log-level regression means wages rise by 8 percentage points for a one-unit increase in the regressor."
+  type: true-false
+  answer: false
+  explanation: "In a log-level model, the coefficient gives an approximate percentage change, not a percentage-point change. The two are different concepts: a percentage change is relative to the starting level (wages rise by 8% of their current value), while a percentage-point change is an absolute change in a rate. The distinction matters most for large effects — a 0.30 coefficient does not mean wages rise by 30 percentage points; it means wages rise by approximately 30% from their baseline level, which in dollar terms depends on starting wages."
+
+- question: "In a multiple regression, every coefficient must be interpreted as a ceteris paribus effect — the change in Y associated with a one-unit change in that regressor while all other regressors are held constant."
+  type: true-false
+  answer: true
+  explanation: "The ceteris paribus qualifier is not optional — it is what distinguishes a regression coefficient from a simple correlation. A raw correlation between education and wages conflates the effect of education with the effects of ability, family background, and other correlated variables. The regression coefficient isolates the education effect by holding the other included variables constant. Dropping the qualifier means you are misrepresenting what the coefficient actually estimates."
+
+- question: "Why does the interpretation of a regression coefficient change fundamentally depending on whether the outcome variable Y is in levels or in logs? What does the log transformation change about what the coefficient measures?"
+  type: short-answer
+  answer: "In a level-level model, the coefficient measures an absolute change: β₁ units of Y per unit of X. When Y is log-transformed, the coefficient instead measures a proportional change: approximately 100β₁ percent change in Y per unit of X. This is because a one-unit change in log(Y) corresponds to a percentage change in Y itself — log differences are approximately proportional differences for small changes. The log transformation shifts the model from measuring 'how many more dollars' to 'how many more percent,' which is often more economically natural for variables that grow multiplicatively, like wages or prices."
+  explanation: "The key insight is that the coefficient always measures the relationship between the transformed variables, and log(Y) is a different variable than Y. The choice of transformation is a substantive modeling decision about what kind of relationship you believe exists — additive (level) or multiplicative (log) — and it determines what your estimates mean."
+```
+
 ## Explainer
 
 You already know that a multiple regression coefficient captures the relationship between one regressor and the outcome after holding all other regressors constant — the **ceteris paribus** effect. Now the question is: what units is that effect expressed in? The answer depends entirely on how you have transformed your variables, and getting this wrong turns a correct regression into a meaningless number.

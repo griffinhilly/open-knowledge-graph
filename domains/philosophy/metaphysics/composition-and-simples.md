@@ -31,6 +31,45 @@ Read van Inwagen's Material Beings chapters 2-4 for the Special Composition Ques
 - Mereological nihilism does not deny that there are arrangements of matter where we see chairs; it denies that those arrangements constitute a single composite object over and above the simples.
 - Universalism does not treat every arbitrary collection as a natural kind — it simply says the mereological sum exists, not that it is interesting or unified.
 
+## Questions
+
+```yaml
+- question: "According to mereological nihilism, when you sit in a chair, what exactly exists?"
+  type: multiple-choice
+  options:
+    - "Nothing — nihilism denies that matter exists in the region occupied by the chair"
+    - "A single unified object with chair-like properties, just described differently than ordinary talk suggests"
+    - "Mereological simples arranged chair-wise, but no single composite object called 'the chair'"
+    - "An infinite regress of parts, each of which is also a composite"
+  answer: 2
+  explanation: "Mereological nihilism does not deny that matter exists in chair-shaped arrangements — it denies that those arrangements constitute a single composite object over and above the simples. The simples are there, arranged in ways that produce chair-like causal powers and appearances. But there is no further 'chair' entity that has these simples as its parts. This is the key distinction: nihilism is revisionary about objects, not about matter. 'There is a chair' is strictly false, but 'there are simples arranged chair-wise' is true."
+
+- question: "Van Inwagen's answer to the Special Composition Question holds that composition occurs when and only when the activity of some parts constitutes a life. Which of the following does his view classify as a genuine composite object?"
+  type: multiple-choice
+  options:
+    - "A table, because its parts are causally unified into a stable structure"
+    - "A pile of sand, because all its grains are co-located and mutually supporting"
+    - "A ship, because its parts are deliberately assembled and functionally integrated"
+    - "A living organism, because its parts are integrated by biological processes"
+  answer: 3
+  explanation: "Van Inwagen's life-based criterion admits exactly one category of genuine composites: organisms. A table's parts are not engaged in mutual life-sustaining processes — they are just spatially arranged. A ship, however engineered, lacks the biological integration that van Inwagen identifies as the mark of genuine composition. Only organisms, whose parts constitute a life, qualify. This is why van Inwagen can deny that tables and ships exist as genuine objects while insisting that persons do — preserving what matters for his broader project on personal identity."
+
+- question: "According to mereological universalism, your left shoe and the Eiffel Tower compose a genuine mereological sum — there is an object that has exactly these two things as its parts."
+  type: true-false
+  answer: true
+  explanation: "True — this is precisely the kind of consequence universalism embraces (and critics find absurd). Universalism holds that any collection of objects whatsoever composes a mereological sum. The scattered, causally unrelated shoe-Tower sum exists just as much as a hammer does. The universalist response to the apparent absurdity is that these 'junk' sums are ontologically harmless: they have no causal powers beyond their parts, no natural boundaries, and no interesting unified properties. The world contains them but is not thereby burdened."
+
+- question: "Mereological nihilism denies that matter exists in arrangements that have the appearance of chairs and tables — according to nihilism, there is simply nothing where we think a chair is."
+  type: true-false
+  answer: false
+  explanation: "False — this is the most common misreading of nihilism. Mereological nihilism fully accepts that simples exist arranged in chair-like, table-like, and person-like ways. It denies that these arrangements constitute a single composite object over and above the simples. So when you see a 'chair,' nihilism says there are simples arranged chair-wise — the simples are real, their arrangement is real, the causal powers are real. What doesn't exist is a further thing called 'the chair' that has these simples as parts."
+
+- question: "What is 'atomless gunk,' and why is it a challenge for mereological theories that posit simples as the fundamental level of composition?"
+  type: short-answer
+  answer: "Atomless gunk is matter such that every part has further proper parts — there is no bottom level of partless simples, just division all the way down. It is a challenge because many mereological theories (especially nihilism) ground their account in simples: the basic building blocks from which everything else is composed (or 'arranged'). If gunk is metaphysically possible, then the entire framework of 'compose from simples' may not describe the actual structure of matter. There would be no simples to serve as the fundamental ontological level, undermining theories that rely on them."
+  explanation: "The possibility of gunk shows that 'simples' is not a logically necessary feature of the world — it is a substantive metaphysical assumption. Physics gives some support to concern here: quarks may have internal structure, and quantum field theory suggests no clean picture of point-like partless particles. If physics leaves room for gunk, then the question of simples is not just philosophical word-play but connects to genuine uncertainty about the deep structure of reality."
+```
+
 ## Explainer
 
 From mereology basics you know the fundamental framework: objects can stand in part-whole relations, and we can ask formal questions about overlap, proper parts, and mereological sums. Now the question becomes substantive rather than formal: when, if ever, do some objects actually compose a further object? This is the **Special Composition Question**, and the answers philosophers have given range from the radical to the commonsensical.

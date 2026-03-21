@@ -37,6 +37,45 @@ Practice finding Thevenin equivalents using all three methods: (1) open-circuit 
 - Confusing which terminal pair the equivalent is referenced to.
 - Assuming the Thevenin equivalent preserves internal branch voltages and currents — only the external terminal behavior is preserved.
 
+## Questions
+
+```yaml
+- question: "An engineer finds the Thevenin equivalent of a complex amplifier circuit (V_th = 6V, R_th = 100Ω) and uses it to correctly predict the load voltage. She then uses the same Thevenin model to find the voltage drop across a specific internal resistor deep inside the original amplifier. What is wrong with this approach?"
+  type: multiple-choice
+  options:
+    - "Nothing — the Thevenin equivalent is an exact model that preserves all internal voltages and currents"
+    - "The Thevenin equivalent only applies when the load resistance equals R_th"
+    - "The Thevenin equivalent preserves only the external terminal behavior — internal branch voltages and currents cannot be recovered from the two-element model"
+    - "The Thevenin voltage must be recalculated for each internal node before it can be used"
+  answer: 2
+  explanation: "The Thevenin theorem guarantees equivalence at the terminals: any load you connect will see the same voltage and current as if the full network were present. But the two-element model (V_th in series with R_th) has no internal branches — the complex internal structure is compressed into a single resistance. You cannot use the Thevenin model to find what is happening inside the original network. If you need internal branch quantities, you must return to the full circuit analysis. The Thevenin equivalent is a terminal model, not a full internal model."
+
+- question: "A circuit contains a voltage-controlled current source (a dependent source) plus some independent resistors and an independent voltage source. To find R_th, a student deactivates the independent voltage source (replaces it with a short) and the dependent source (replaces it with an open), then measures resistance at the terminals. Why is this incorrect?"
+  type: multiple-choice
+  options:
+    - "Independent voltage sources should be replaced with opens, not shorts"
+    - "Dependent sources cannot be deactivated — they respond to circuit variables and their effect on terminal impedance must be captured by applying a test source with all independent sources deactivated"
+    - "You must leave the independent source active when finding R_th for circuits with dependent sources"
+    - "R_th does not exist for circuits that contain dependent sources"
+  answer: 1
+  explanation: "Dependent sources are not independent inputs — they are internal feedback mechanisms whose value depends on some other circuit variable (a voltage or current elsewhere in the network). Setting them to zero removes the feedback and fundamentally changes the effective impedance of the circuit. The correct method is the test-source approach: deactivate all *independent* sources only, then apply a test voltage V_test at the terminals and find the resulting current I_test (or vice versa). The dependent source responds to V_test through the circuit, and R_th = V_test/I_test automatically captures its contribution."
+
+- question: "When a load resistance equals the Thevenin resistance (R_load = R_th), maximum power is delivered to the load — and at this optimal point, 100% of the Thevenin source's available power reaches the load."
+  type: true-false
+  answer: false
+  explanation: "At the maximum power transfer condition (R_load = R_th), exactly half the total power is dissipated in the load and half in R_th. The load power is V_th²/(4R_th) and the total power drawn from the source is V_th²/(2R_th), so efficiency is exactly 50%. This surprises students who expect 'maximum power transfer' to mean maximum efficiency. The condition maximizes the power delivered to the load, not the fraction of total power that reaches it. Maximum efficiency (approaching 100%) occurs when R_load >> R_th, but then very little current flows and very little power is transferred at all."
+
+- question: "A Thevenin equivalent and its Norton equivalent representation contain the same R_th, and the two are related by V_th = I_N × R_th."
+  type: true-false
+  answer: true
+  explanation: "This relationship — V_th = I_N × R_th — is called source transformation, and it allows free conversion between the two forms. Both equivalents represent the same network behavior at the terminals. R_th appears in both because it captures the same internal impedance regardless of whether you express the source as a voltage (Thevenin) or a current (Norton). In practice, you find whichever is easier to calculate — often V_th = open-circuit voltage and I_N = short-circuit current — and then use the relationship to find the third quantity without additional computation."
+
+- question: "Why does deactivating a dependent source when finding R_th give an incorrect result, and what does the test-source method do differently that makes it correct?"
+  type: short-answer
+  answer: "A dependent source produces a voltage or current that is a function of some other variable in the circuit. Deactivating it sets it to zero permanently, which removes internal feedback and changes the effective impedance the terminals 'see.' The test-source method keeps dependent sources active: you apply a known test signal at the terminals, let the dependent source respond as it normally would, and measure the result. R_th = V_test/I_test then captures the actual impedance including all feedback effects."
+  explanation: "Concretely: suppose a circuit has a dependent current source equal to 3 times the current in a certain branch. When you apply a test voltage, current flows in that branch, and the dependent source adds 3 times that current elsewhere in the network — changing how much total current the test voltage drives. This changes the effective resistance. If you had set the dependent source to zero, you would have computed the resistance of the network without its feedback, which is a different (and wrong) number. The test-source method is the only approach that correctly handles all linear networks, with or without dependent sources."
+```
+
 ## Explainer
 
 You've already learned node-voltage and mesh-current methods — systematic techniques for solving circuits with many branches. Thevenin and Norton equivalents give you a complementary tool that addresses a different question: not "what is happening everywhere in this circuit?" but "what does this circuit look like to whatever is connected at these two terminals?" The power of the theorem is that any linear circuit, no matter how complicated — dozens of resistors, multiple sources — can be reduced to two elements as far as an external load is concerned.

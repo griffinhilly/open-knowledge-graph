@@ -31,6 +31,45 @@ Draw chair structures with axial and equatorial bonds clearly marked. Flip the c
 ## Common Misconceptions
 Axial and equatorial are FIXED labels—they flip positions during ring flip, but axial bonds stay parallel to the ring axis. All substituents prefer equatorial equally—some bulky groups (t-Bu, Ph) prefer equatorial more strongly than smaller ones (Me, Cl). Cyclic enantiomers cannot exist from chair flipping alone (enantiomers remain enantiomers).
 
+## Questions
+
+```yaml
+- question: "Methylcyclohexane exists in two chair conformations. At room temperature, which statement best describes the equilibrium?"
+  type: multiple-choice
+  options:
+    - "The conformer with methyl axial is preferred because axial bonds point away from the ring"
+    - "The conformer with methyl equatorial is preferred by about 95:5 due to 1,3-diaxial strain"
+    - "Both conformers are equally populated because ring flipping is rapid"
+    - "The conformer with methyl axial is preferred because equatorial bonds are more crowded near the ring equator"
+  answer: 1
+  explanation: "The axial methyl group experiences steric repulsion from the axial hydrogens on the carbons two positions away (1,3-diaxial interactions), costing about 7.6 kJ/mol. This energy penalty shifts the equilibrium to favor the equatorial conformer by roughly 95:5 at room temperature. The equatorial position points the methyl group away from the ring framework, minimizing steric clash. Axial bonds are not 'away from the ring' — they point straight up or down, into the same spatial region as other axial substituents."
+
+- question: "A cyclohexane ring with an axial bond pointing upward undergoes a ring flip. What is the new orientation of that bond?"
+  type: multiple-choice
+  options:
+    - "Still axial and pointing upward, since axial bonds are fixed by the carbon's geometry"
+    - "Equatorial and pointing slightly downward, since all axial bonds become equatorial after a ring flip"
+    - "Axial and pointing downward, since the bond direction reverses but remains axial"
+    - "The bond is destroyed and reformed in the new conformation"
+  answer: 1
+  explanation: "A ring flip inverts the entire chair: the carbon that was 'up' swings down and vice versa. Every bond that was axial becomes equatorial, and every equatorial bond becomes axial. So a bond that was axial-up becomes equatorial after the flip. This is the core geometric consequence of the ring flip — axial and equatorial labels are not permanently assigned to a bond; they describe its current orientation in the current conformation."
+
+- question: "Performing a ring flip on a chair conformation of cyclohexane converts it into a boat conformation."
+  type: true-false
+  answer: false
+  explanation: "A ring flip converts one chair into another chair — not a boat. The motion involves swinging one 'end' carbon through the plane of the other four carbons, producing a new chair where all axial and equatorial assignments are swapped. The boat is a distinct, higher-energy conformation reached by a different geometric distortion. Confusing ring flip with boat formation is a common error because both involve moving carbons, but they produce fundamentally different structures."
+
+- question: "A tert-butyl group on cyclohexane effectively locks the ring into the conformation with tert-butyl equatorial because the axial alternative involves prohibitively large 1,3-diaxial interactions."
+  type: true-false
+  answer: true
+  explanation: "The tert-butyl group is so large (three methyl groups on a central carbon) that its 1,3-diaxial strain in the axial position exceeds 20 kJ/mol — far larger than the ~7.6 kJ/mol for methyl. This energy penalty is large enough that essentially all molecules exist in the equatorial conformer at room temperature. Chemists exploit this 'conformational locking' deliberately — attaching a tert-butyl group forces other substituents into defined axial or equatorial positions, making the conformation useful for studying reaction stereochemistry."
+
+- question: "Why does a larger substituent favor the equatorial position more strongly than a smaller substituent, and what specific interaction is responsible?"
+  type: short-answer
+  answer: "Larger substituents experience greater 1,3-diaxial steric repulsion when axial. An axial substituent points toward the axial hydrogens on carbons two positions away; the closer those atoms are and the larger the substituent's van der Waals radius, the greater the repulsion. Bigger groups have larger steric profiles and clash more severely with the 1,3-axial hydrogens, raising the axial conformer's energy more and driving the equilibrium more strongly toward equatorial."
+  explanation: "The relevant interaction is 1,3-diaxial strain, analogous to a gauche interaction in Newman projections. The axial position places a substituent directly over the ring in a region that is geometrically close to axial substituents on alternating carbons. Small groups like fluorine barely interact; large groups like tert-butyl are so close to the opposing axial H atoms that their electron clouds repel strongly. This is quantified by A-values (the free energy cost of placing a group axially), which increase with group size."
+```
+
 ## Explainer
 
 From conformational analysis of alkanes, you know that rotation around C–C bonds creates different spatial arrangements (conformations) with different energies, and that staggered conformations are more stable than eclipsed ones. From ring strain, you know that cyclopropane and cyclobutane are strained because their bond angles deviate from the ideal tetrahedral 109.5°. Cyclohexane escapes this problem entirely by puckering into the **chair conformation**, where all C–C–C bond angles are very close to 109.5° and all adjacent C–H bonds are perfectly staggered. The chair is not flat — it looks like a lounge chair viewed from the side, with four carbons forming a plane and one carbon tipped up, another tipped down.

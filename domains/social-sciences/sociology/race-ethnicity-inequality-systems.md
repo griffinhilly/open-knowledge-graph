@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Race and ethnicity are socially constructed categories shaped by power and history, not biological realities. Racial and ethnic inequality persists through institutional discrimination, prejudice, and structural barriers that concentrate opportunity and disadvantage across generations.
 
+## Questions
+
+```yaml
+- question: "In the mid-20th century, federal housing policies explicitly excluded Black families from subsidized mortgages. Today no such explicit exclusion exists, yet racial wealth gaps remain large. The sociological concept that best explains the persistence of these gaps is:"
+  type: multiple-choice
+  options:
+    - "Individual prejudice — racist attitudes among current housing and lending agents explain ongoing disparities"
+    - "Cultural differences — varying attitudes toward homeownership and savings across racial groups"
+    - "Structural racism — past institutional discrimination compounds forward through inherited wealth and residential segregation"
+    - "Social construction — the category of race itself produces economic disadvantage"
+  answer: 2
+  explanation: "Structural racism names the mechanism by which historical policies — redlining, exclusionary zoning, unequal school funding tied to property taxes — produce racially unequal outcomes that persist long after the explicit policies end. Wealth built through homeownership compounds across generations; residential segregation shapes school quality and social networks. The compounding of past disadvantage does not require ongoing prejudice to continue producing unequal outcomes — the institutional arrangements carry it forward."
+
+- question: "Audit studies present identical resumes to employers, varying only a name that signals racial identity. Black-sounding names consistently receive fewer callbacks. This evidence most directly demonstrates:"
+  type: multiple-choice
+  options:
+    - "That educational gaps between racial groups explain differential employment outcomes"
+    - "Institutional discrimination operating independently of the applicant's qualifications"
+    - "That individual attitudes toward race have not improved since the civil rights movement"
+    - "That racial categories reflect real group differences that employers correctly identify"
+  answer: 1
+  explanation: "Audit studies control for qualifications by holding them constant — the resumes are identical except for names. Differential callback rates therefore cannot be attributed to education or experience gaps. The finding demonstrates discrimination at the point of selection, operating on the basis of racial identity signaled by name. This is institutional discrimination: it operates through a hiring process that produces racially unequal outcomes regardless of whether individual employers hold consciously racist attitudes."
+
+- question: "Because race is socially constructed — not a biological reality — racial categories have no real material consequences for people's lives."
+  type: true-false
+  answer: false
+  explanation: "This is a critical misunderstanding of what 'socially constructed' means. It does not mean imaginary or inconsequential — it means the categories are created and maintained by social processes rather than derived from biology. The material consequences of racial categories (wealth gaps, incarceration rates, health disparities) are profoundly real. The point of the social construction argument is that these categories are historically variable and politically contestable, not that their effects are illusory. Socially constructed categories can and do produce concrete material harm."
+
+- question: "Declining rates of explicitly racist attitudes in survey data over recent decades are sufficient evidence that structural racial inequality is diminishing at a comparable rate."
+  type: true-false
+  answer: false
+  explanation: "Attitudinal and structural change operate on different timescales through different mechanisms. Racial wealth gaps, incarceration disparities, and health inequalities have proven far more persistent than shifts in survey attitudes because they are reproduced through institutional arrangements that operate regardless of individual intent. A person can participate in structurally unequal systems — lending institutions, housing markets, hiring processes — without consciously discriminatory attitudes. Attitude change is necessary but not sufficient for structural change, which requires changing the institutional arrangements that reproduce unequal outcomes."
+
+- question: "Why do sociologists emphasize structural rather than individual explanations of persistent racial inequality?"
+  type: short-answer
+  answer: "Structural explanations focus on institutions, policies, and economic arrangements that reproduce racially unequal outcomes independently of individual intentions. Historical discrimination created compounding disadvantages — in wealth, housing, education, and criminal justice — that transmit forward through institutional inertia even after explicit discrimination ends. Purely attitudinal explanations cannot account for why racial gaps in wealth and health persist even as explicitly racist attitudes decline in surveys. Structural analysis shows that solving racial inequality requires changing institutional arrangements, not only changing individual minds."
+  explanation: "The key insight is the distinction between prejudice (an individual attitude) and discrimination (an action or outcome). Institutional discrimination can occur without prejudice — hiring algorithms that use zip code as a proxy, lending policies that require certain credit histories, school funding systems tied to property taxes — all produce racially unequal outcomes through facially neutral criteria applied to populations whose starting positions were shaped by explicitly unequal history. Structural analysis makes visible the mechanisms that attitudinal analysis leaves unexplained."
+```
+
 ## Explainer
 
 Your work on social stratification established that life chances — income, health, education, safety — are distributed unequally across social positions. Race and ethnicity are among the most powerful axes along which this distribution is organized, and understanding why requires grappling with both what these categories *are* and how inequality is *reproduced* through them. The first step is distinguishing race from ethnicity and from biology.

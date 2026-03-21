@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Line integrals ∫_C f ds (scalar) or ∫_C F · dr (vector) integrate along curves. The scalar version sums f weighted by arc length; the vector version computes work done by F along a path C. Both depend on the parametrization's orientation.
 
+## Questions
+
+```yaml
+- question: "A wire lies along a curve C and has a variable linear density ρ(x,y) at each point. Which integral gives the total mass of the wire?"
+  type: multiple-choice
+  options:
+    - "∫_C ρ · dr (the vector line integral of ρ along C)"
+    - "∫_C ρ ds (the scalar line integral of ρ with respect to arc length)"
+    - "∫_C F · dr where F is a force field equal to ρ"
+    - "The ordinary integral ∫_a^b ρ(t) dt over the parameter interval"
+  answer: 1
+  explanation: "The scalar line integral ∫_C ρ ds is exactly the right tool: it multiplies the density at each point by the arc-length element ds, accumulating the total mass. Option A is a vector integral that computes work (requires a dot product), which doesn't apply to a scalar density. Option D omits the |r′(t)| factor that converts the parameter increment to arc length — without it, you're not measuring along the actual curve."
+
+- question: "You traverse curve C from point A to point B and compute both ∫_C f ds and ∫_C F · dr. You then reverse direction and traverse C from B to A. What happens to each integral?"
+  type: multiple-choice
+  options:
+    - "Both integrals are negated"
+    - "Both integrals remain unchanged"
+    - "The scalar integral is negated; the vector integral is unchanged"
+    - "The vector integral is negated; the scalar integral is unchanged"
+  answer: 3
+  explanation: "Reversing orientation reverses the direction vector r′(t), which negates the dot product F · r′(t), so ∫_C F · dr changes sign. But the scalar integral uses |r′(t)| (the speed, always positive), so reversing orientation doesn't change ds — the scalar integral is unchanged. This asymmetry reflects the physics: a force that aids motion one way opposes it the other way, but a physical property like mass is the same regardless of which direction you measure the wire."
+
+- question: "The vector line integral ∫_C F · dr measures the component of F perpendicular to the path, integrated over arc length."
+  type: true-false
+  answer: false
+  explanation: "This is backwards. The dot product F · dr = F · r′(t) dt extracts the component of F *parallel* to (along) the direction of motion. A force perpendicular to the path does zero work — precisely because F · r′ = 0 when they are orthogonal. The scalar line integral ∫_C f ds integrates a quantity weighted by arc length, but that's a different operation entirely from projecting onto the perpendicular."
+
+- question: "Reversing the orientation of a curve C negates both the scalar and vector line integrals over C."
+  type: true-false
+  answer: false
+  explanation: "Only the vector line integral changes sign under orientation reversal. The scalar integral ∫_C f ds uses ds = |r′(t)| dt, which is always non-negative (it measures arc length), so reversing direction doesn't affect it. The vector integral ∫_C F · dr uses dr = r′(t) dt, which flips sign when the direction of traversal is reversed, so the integral negates."
+
+- question: "When computing a vector line integral ∫_C F · dr via parametrization r(t), why does the factor r′(t) appear in the integrand rather than |r′(t)|?"
+  type: short-answer
+  answer: "The factor r′(t) dt = dr is the infinitesimal displacement vector along the curve, which encodes both the length of the tiny piece and its direction. The dot product F · r′(t) extracts how much F aligns with the direction of motion — this is work (force times displacement in the direction of motion). For the scalar integral, we only care about arc length (how long the piece is), so we use the speed |r′(t)|, which discards direction. Using r′(t) instead of |r′(t)| in the vector integral is what makes orientation matter: when you reverse the path, r′ flips sign, so the dot product changes sign."
+  explanation: "The distinction between r′(t) and |r′(t)| encodes the entire difference between the two types of line integrals. Scalar integrals accumulate quantities along a curve without caring about direction; vector integrals measure directional alignment between a field and a path, which is inherently orientation-dependent."
+```
+
 ## Explainer
 
 Ordinary integrals accumulate a quantity along a straight line segment (the x-axis). Line integrals do the same thing along an arbitrary curve in space. The curve is the domain of integration, and you need a way to measure "how much" of that curve passes through each point. That is the role of **arc length** from your prerequisites: the scalar ds is an infinitesimal piece of arc length, telling you how long a tiny piece of the curve is.

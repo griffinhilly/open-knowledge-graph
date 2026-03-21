@@ -40,6 +40,45 @@ Make doughs at different hydration levels (60%, 65%, 70%) and observe difference
 - Gluten development requires lots of kneading (modern techniques use time and folding for development)
 - All doughs develop gluten the same way (enriched doughs with fat and sugar develop differently)
 
+## Questions
+
+```yaml
+- question: "A baker wants a chewy artisan loaf with an open crumb but prefers not to knead the dough aggressively. Which approach will most likely produce well-developed gluten?"
+  type: multiple-choice
+  options:
+    - "Add extra flour to stiffen the dough so it holds its shape without kneading"
+    - "Add butter to help the protein strands bond more tightly"
+    - "Mix until just combined, then let the dough rest 45–60 minutes with periodic stretch-and-fold during fermentation"
+    - "Use higher heat during baking to compensate for underdeveloped gluten"
+  answer: 2
+  explanation: "Gluten develops through two mechanisms: mechanical work (kneading) and time. During a rest period (autolyse), the proteins glutenin and gliadin hydrate and begin forming bonds on their own. Periodic stretch-and-fold gently extends the network. This produces excellent gluten without aggressive kneading. Adding butter (option B) would actually interrupt gluten formation by coating the protein strands — fat in enriched doughs produces tender, not chewy, bread."
+
+- question: "A recipe uses 400g of flour and 280g of water. What is the dough's hydration percentage, and how would you describe this dough?"
+  type: multiple-choice
+  options:
+    - "60% hydration — a stiff, easy-to-shape dough"
+    - "65% hydration — a moderately firm dough typical of sandwich bread"
+    - "70% hydration — a slack, slightly sticky dough that produces a more open crumb"
+    - "80% hydration — a very wet dough requiring specialized shaping techniques"
+  answer: 2
+  explanation: "Hydration = water weight ÷ flour weight × 100 = 280 ÷ 400 × 100 = 70%. At 70%, the dough is noticeably softer and stickier than lower-hydration doughs but still workable with floured hands. It will produce a more open, airy crumb than a 60% dough. The key is that hydration is always calculated by weight, not volume — this precision is what makes baker's percentages reliable."
+
+- question: "Gluten can develop in dough without any kneading, given enough resting time after mixing."
+  type: true-false
+  answer: true
+  explanation: "This is the principle behind autolyse and no-knead techniques. Once water is added to flour, the proteins glutenin and gliadin begin hydrating and forming bonds spontaneously. A resting period of 30–60 minutes (or a long overnight fermentation) allows substantial gluten development without mechanical work. Many modern artisan bread recipes exploit this, requiring only periodic gentle folds rather than traditional 8–10 minute kneading."
+
+- question: "A higher hydration dough (80%+) will always produce better bread than a lower hydration dough (65%)."
+  type: true-false
+  answer: false
+  explanation: "Higher hydration can produce a more open, airy crumb, but it is not universally better. Very wet doughs (80%+) are difficult to shape — they spread rather than hold their form and require specialized techniques like baking in a covered vessel or loaf pan. A 65% dough is often easier to handle and perfectly appropriate for sandwich loaves, rolls, and many other breads. The 'better' hydration depends entirely on the desired outcome and the baker's skill level."
+
+- question: "Explain why adding fat (like butter or olive oil) to a bread dough tends to make the final bread tender rather than chewy."
+  type: short-answer
+  answer: "Fat molecules coat the gluten strands and interrupt their ability to bond into a strong, cohesive network. In a standard lean dough, glutenin and gliadin proteins bond freely into long, extensible gluten strands that create chewiness and trap gas. When fat is present, it physically coats these strands, preventing them from cross-linking as strongly. The result is a weaker, shorter gluten network that produces tender crumb rather than chewy texture — which is why enriched doughs like brioche and croissants are soft and delicate, not chewy like baguettes."
+  explanation: "This also explains why enriched doughs need more kneading time relative to their gluten development: the fat slows bonding. The baker's goal in enriched doughs is a tender structure with enough gluten to hold shape during baking, not the maximum chewiness sought in artisan loaves."
+```
+
 ## Explainer
 
 **Hydration** in baking is expressed as a percentage: water weight divided by flour weight, times 100. You already know how to measure ingredients by weight — that precision matters here because small differences in water content produce big differences in dough behavior. A 60% hydration dough (60g water per 100g flour) is stiff and easy to shape; a 75% hydration dough is slack and sticky but will produce bread with a more open, airy crumb. Bakers talk about hydration constantly because it is the single variable that most controls dough handling and final texture.

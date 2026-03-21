@@ -34,6 +34,45 @@ Trace current paths through the bridge rectifier during each half-cycle, marking
 - Assuming a larger filter capacitor is always better — while it reduces ripple, it also increases the peak diode current (since the capacitor charges only near the voltage peak in a narrow pulse), potentially exceeding the diode's surge current rating.
 - Confusing PIV ratings between topologies — the PIV for a bridge rectifier diode is V_peak, but for a center-tapped full-wave rectifier it is 2*V_peak, a common source of design errors.
 
+## Questions
+
+```yaml
+- question: "You replace a half-wave rectifier with a full-wave bridge rectifier, keeping the same filter capacitor, load resistance, and input voltage. What happens to the ripple voltage?"
+  type: multiple-choice
+  options:
+    - "It doubles, because four diodes introduce more losses"
+    - "It halves, because the ripple frequency doubles and the capacitor discharges for half as long between pulses"
+    - "It stays the same, because the capacitor size and load are unchanged"
+    - "It increases by a factor of four, because the bridge rectifier introduces two diode drops instead of one"
+  answer: 1
+  explanation: "The ripple formula V_ripple ≈ I_load / (f_ripple × C) shows that ripple is inversely proportional to ripple frequency. A half-wave rectifier produces pulses at the line frequency (60 Hz); a full-wave bridge uses both half-cycles, doubling the ripple frequency (120 Hz). With twice the frequency, the capacitor discharges for only half as long between charge pulses, cutting ripple in half. The number of diodes affects only the output peak voltage (−1.4 V for the bridge), not the ripple frequency."
+
+- question: "In a full-wave bridge rectifier, the input peak voltage is 20 V. What is the minimum peak inverse voltage (PIV) rating required for each diode?"
+  type: multiple-choice
+  options:
+    - "10 V — the two conducting diodes each share the peak voltage"
+    - "20 V — each reverse-biased diode must withstand the full input peak"
+    - "40 V — the bridge doubles the PIV compared to a half-wave rectifier"
+    - "18.6 V — the PIV equals V_peak minus the two conducting diode drops"
+  answer: 1
+  explanation: "In a bridge rectifier, when two diodes are conducting, the two reverse-biased diodes each see approximately V_peak across them (with a small correction for conducting diode drops). So the PIV rating must be at least V_peak = 20 V. This is often confused with the center-tapped full-wave rectifier topology, where each diode must withstand 2×V_peak = 40 V — a common design error when mixing topologies. The bridge rectifier's V_peak PIV requirement is actually one of its advantages over the center-tapped design."
+
+- question: "Using a larger filter capacitor always reduces ripple voltage with no engineering drawbacks."
+  type: true-false
+  answer: false
+  explanation: "A larger capacitor does reduce ripple (V_ripple ≈ I_load / f × C), but it creates a significant drawback: the capacitor charges only during the brief interval when the rectified voltage exceeds the capacitor voltage (near the peak). A larger capacitor requires a larger charge per cycle delivered in a narrower pulse, producing higher peak diode currents. If the peak current exceeds the diode's surge current rating, the diode can fail. Large capacitors also cause higher inrush current at turn-on. Diode selection and capacitor sizing must be designed together."
+
+- question: "In a full-wave bridge rectifier, the maximum output voltage (before filtering) equals the transformer secondary peak voltage minus approximately 1.4 V due to two forward-biased diode drops in the current path."
+  type: true-false
+  answer: true
+  explanation: "In a bridge rectifier, current always flows through exactly two diodes simultaneously: one on the positive rail and one on the negative rail (or their counterparts during the other half-cycle). Each silicon diode drops approximately 0.7 V when forward-biased, so the combined drop is 2 × 0.7 V = 1.4 V. For a 20 V peak secondary, the output peak is approximately 18.6 V. This 1.4 V loss is negligible for a 100 V supply but significant for a 5 V or 3.3 V supply — a key design consideration for low-voltage applications."
+
+- question: "Explain why the ripple voltage formula V_ripple ≈ I_load / (f_ripple × C) predicts that a full-wave rectifier produces half the ripple of a half-wave rectifier when the capacitor and load are identical."
+  type: short-answer
+  answer: "The formula shows ripple is inversely proportional to ripple frequency. A half-wave rectifier passes only the positive half-cycles, producing one pulse per AC cycle (f_ripple = line frequency, e.g., 60 Hz). The capacitor must sustain the load for a full cycle between pulses. A full-wave bridge rectifier redirects both half-cycles, producing two pulses per AC cycle (f_ripple = 2 × line frequency = 120 Hz). The capacitor only discharges for half a cycle between pulses, so it sags half as much. Doubling frequency halves ripple with no change to C or I_load."
+  explanation: "Physically: the capacitor discharges through the load between rectifier pulses. The longer the gap between pulses, the more it discharges. Full-wave halves this gap, halving the discharge and thus halving the ripple. This is why full-wave rectification is strongly preferred in practice — you get half the ripple for the same cost in capacitance, or equivalently, the same ripple with half the capacitor."
+```
+
 ## Explainer
 
 From your study of diode circuit applications, you know the diode's essential property: it allows current to flow in one direction (forward-biased, approximately 0.7 V drop) and blocks it in the other direction (reverse-biased). From capacitor and inductor energy storage, you know that a capacitor stores charge and resists rapid voltage changes — it acts as a reservoir. Power supply rectification combines these two concepts to solve a fundamental problem: AC power from the wall is a sinusoid that swings positive and negative at 50 or 60 Hz, but nearly all electronic circuits require a stable, positive DC voltage. The conversion proceeds through three stages: transformation, rectification, and filtering.

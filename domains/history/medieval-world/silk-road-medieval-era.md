@@ -34,6 +34,45 @@ Mapping the overlapping spread of Buddhism, Islam, and paper-making technology a
 - The Silk Road was not a single road but a network of overland and maritime routes; by the medieval period, sea routes were often more important for bulk goods.
 - Silk was one commodity among many — horses, glassware, spices, paper, cotton, and slaves were all major trade goods.
 
+## Questions
+
+```yaml
+- question: "The Pax Mongolica produced a peak in Silk Road trade primarily because:"
+  type: multiple-choice
+  options:
+    - "The Mongols paved roads and constructed caravanserais (inns) along the entire route"
+    - "Mongol rule unified much of the route under a single political authority, collapsing the political risk of long-distance travel"
+    - "The Mongols eliminated maritime trade routes, forcing all commerce overland"
+    - "Mongol currency reform standardized exchange rates across Central Asia"
+  answer: 1
+  explanation: "The Pax Mongolica's key contribution was political unification: for the first time, a traveler could cross from China to Persia without crossing a hostile border or navigating rival taxation regimes. The cost of political risk — bandits backed by rival states, arbitrary tariffs, hostile border crossings — temporarily collapsed. This is why Marco Polo's journey became possible when it had not been before. The Mongols did invest in some infrastructure, but the primary mechanism was political security, not road construction."
+
+- question: "Which of the following best illustrates the 'double nature of connectivity' that the Silk Road exemplifies?"
+  type: multiple-choice
+  options:
+    - "Trade in silk and trade in horses used the same overland routes simultaneously"
+    - "The same infrastructure that spread Buddhism, paper technology, and luxury goods also transmitted the Black Death westward"
+    - "Marco Polo traveled east while Ibn Battuta traveled west on the same network in the same era"
+    - "Tang Dynasty China controlled both the eastern terminus and the Central Asian oasis cities"
+  answer: 1
+  explanation: "The Silk Road carried knowledge, religion, technology, and luxury goods — and simultaneously carried Yersinia pestis, the bacterium causing the Black Death, which traveled from Central Asia to Crimea by the 1340s and then entered Europe via sea trade. The same connectivity that enriched civilizations also propagated catastrophic pathogens. This double nature — enriching and lethal through the same channels — is one of the Silk Road's most important historical lessons about how interconnected systems work."
+
+- question: "The Silk Road was a single, well-defined overland road running from China to Rome, used continuously throughout the medieval period."
+  type: true-false
+  answer: false
+  explanation: "The 'Silk Road' was never a single road — it was a shifting network of overland and maritime routes connecting East Asia, Central Asia, South Asia, the Middle East, and Europe. By the medieval period, sea routes were often more important than overland paths for bulk goods. The network contracted and expanded with political conditions: it flourished under the Tang and during the Pax Mongolica, and contracted when political instability raised travel costs. The name 'Silk Road' was coined by a 19th-century German geographer, not by medieval travelers."
+
+- question: "Silk was only one of many goods traded along the Silk Road; horses, paper, spices, glassware, and slaves were also major commodities."
+  type: true-false
+  answer: true
+  explanation: "Despite its name, the Silk Road's most consequential medieval cargoes included paper (carrying Chinese papermaking technology westward to the Islamic world and eventually Europe), gunpowder, horses (Central Asian horses were highly prized by Chinese and other armies), spices, glassware, cotton, and human slaves. Silk was important but not uniquely so. The name reflects how silk was viewed by European observers, not a comprehensive inventory of what actually moved along the routes."
+
+- question: "What do the Tang Dynasty's control of Central Asian oases and the Pax Mongolica have in common that explains why each produced a peak in Silk Road activity?"
+  type: short-answer
+  answer: "Both created conditions of political security along the trade routes. The Tang invested militarily and administratively in oasis cities like Samarkand and Kashgar, making the corridors safe and reliable. The Mongol empire unified much of the route under a single authority, eliminating hostile borders and reducing arbitrary taxation. In both cases, the fundamental mechanism was the same: reducing the political risk and transaction costs of long-distance travel. When merchants and ambassadors could move without fear of bandits, border extortion, or hostile states, trade flourished."
+  explanation: "This pattern — trade expanding when political security rises and contracting when it falls — is a recurring theme in world history. The Silk Road is an especially vivid illustration because its two medieval peaks were separated by centuries of relative contraction, and both peaks were driven by political consolidation rather than by new goods or new technologies. The infrastructure of exchange existed; what varied was the political environment that made using it safe or dangerous."
+```
+
 ## Explainer
 
 From your foundational study of the Silk Road trade network you know that this was never a single road — it was a system of overlapping routes connecting East Asia, Central Asia, South Asia, the Middle East, and Europe. The medieval period produced two distinct high points for this system, each driven by a different political mechanism, and understanding why each flourished tells you something fundamental about how long-distance trade works: it requires not just goods worth exchanging, but safety along the way.

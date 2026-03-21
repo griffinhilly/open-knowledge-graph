@@ -30,6 +30,45 @@ Study phenomenological accounts of temporal consciousness (Husserl, Heidegger). 
 - Thinking temporal experience is incompatible with B-theory.
 - Confusing phenomenal time with physical time.
 
+## Questions
+
+```yaml
+- question: "You listen to a melody and hear it as a flowing sequence of notes rather than a series of disconnected sound events. Which aspect of temporal consciousness best explains this?"
+  type: multiple-choice
+  options:
+    - "Memory retrieval — you remember the previous notes and compare them to the current one"
+    - "The specious present, which spans a short interval and holds retention of the just-past and protention of the imminent within a single moment of awareness"
+    - "Physical time flow, which carries past moments forward into present awareness"
+    - "Top-down attention, which actively binds separate perceptual events into a unified sequence"
+  answer: 1
+  explanation: "The specious present is the felt window of 'now' that spans a short interval (roughly 2-3 seconds). Within this window, the just-past note is held in retention — not memory in the ordinary sense, but a living presence of the just-elapsed — and the coming note is anticipated in protention. This gives experience its temporal flow without requiring either literal memory retrieval (which would feel like recollection, not presence) or physical time flow. Option A describes episodic memory, which is phenomenologically different — you know you are remembering, whereas retention feels like hearing the flow directly."
+
+- question: "A physicist committed to B-theory argues that past, present, and future all equally exist, and there is no privileged 'now' that moves through time. How should this affect our account of temporal consciousness?"
+  type: multiple-choice
+  options:
+    - "B-theory eliminates temporal consciousness — if time doesn't flow, the experience of flow must be discarded as illusory"
+    - "B-theory is incompatible with temporal consciousness and must be rejected on phenomenological grounds"
+    - "B-theory and temporal consciousness are compatible — the phenomenal flow of time can be a structural feature of experience without requiring physical time to literally flow"
+    - "B-theory entails that all moments of consciousness exist simultaneously, making the sequential structure of experience incoherent"
+  answer: 2
+  explanation: "Temporal consciousness is compatible with B-theory. The phenomenal quality of flow — the felt rushing of the present — is a feature of how experience is structured, not necessarily a detection of a real physical process called 'time flowing.' Just as the phenomenal redness of red is not identical to any physical property (700nm wavelength), the felt flow of time need not map onto a physical river of time. B-theory says all moments are equally real; it doesn't say experience at each moment lacks temporal structure. What remains hard is explaining why experience has this temporal shape — which is the hard problem applied to time."
+
+- question: "The specious present is a short-term memory store — it holds recent experiences for a few seconds so they can be compared to current input."
+  type: true-false
+  answer: false
+  explanation: "This is a common conflation. Short-term memory is a cognitive storage system that can be deliberately accessed and queried. The specious present is a phenomenological concept: the felt window of 'now' that makes experience temporally extended without requiring retrieval. Husserl distinguished retention (the living awareness of the just-elapsed, which is part of present experience) from recollection (memory in the ordinary sense, which involves turning attention to the past). Retention feels like present experience; memory feels like looking backward. The specious present operates at the level of phenomenal structure, not memory architecture."
+
+- question: "The experience of temporal flow provides direct phenomenological evidence that time physically flows from past to future."
+  type: true-false
+  answer: false
+  explanation: "Phenomenal flow is a feature of experience, not a measurement instrument for physical time. The argument that 'time flows because it feels like it flows' commits the same error as arguing 'objects are colored because they look colored' — phenomenal qualities are real features of experience, but they don't straightforwardly reveal the fundamental physical nature of the world. B-theorists argue that the experience of flow is a real feature of experience at each spacetime location without committing to a metaphysical river of time. Distinguishing phenomenal time from physical time is crucial: they are related but not identical."
+
+- question: "Explain why the experience of temporal flow poses a version of the hard problem of consciousness, even if we fully accept B-theory and deny that time physically flows."
+  type: short-answer
+  answer: "Even if we grant B-theory — that there is no physical time flow — we still need to explain why experience has the structural character it does: why it seems to flow, why it holds retention and protention, why there is a specious present rather than experience of isolated moments. This is a hard problem because no purely physical or functional account obviously explains why there should be a felt quality of temporal flow at all. Just as explaining the neural correlates of color perception doesn't explain why there is something it is like to see red, explaining the neural mechanisms of temporal integration doesn't explain why time experience feels flowing rather than static."
+  explanation: "The hard problem applied to time is particularly pointed because even people who think temporal flow is an illusion (because B-theory is true) still need to explain why we have that illusion — why experience is structured temporally at all. A functionalist might say the temporal structure of experience reflects the temporal structure of neural processing. But the hard problem asks why any temporal processing structure should produce phenomenal flow rather than nothing. This is the same explanatory gap that arises for qualia generally, now targeting the temporal dimension of experience specifically."
+```
+
 ## Explainer
 
 From your work on phenomenal consciousness, you know that experience has qualitative character — there is something it is like to see red, feel pain, or hear music. Now add a dimension: experience is not just colored, it is *temporally* structured. We don't just perceive individual moments; we perceive change, motion, melody, and duration. This temporal character is not tacked onto experience from the outside — it seems to be built into the very fabric of conscious awareness. The question is: how?

@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Antigen presentation pathways process antigens into peptides and load them onto MHC molecules. The MHC-I pathway (proteasomal degradation) handles intracellular antigens; the MHC-II pathway (endosomal degradation) handles exogenous antigens. Cross-presentation allows dendritic cells to present exogenous antigens on MHC-I, linking innate and adaptive responses.
 
+## Questions
+
+```yaml
+- question: "A cell is actively infected by a virus, and viral proteins are being synthesized in the cytoplasm. Which pathway will present viral peptides to T cells, and which T cell type will be activated?"
+  type: multiple-choice
+  options:
+    - "MHC-II pathway via endosomal degradation, activating CD4+ helper T cells"
+    - "MHC-I pathway via proteasomal degradation and TAP transport, activating CD8+ cytotoxic T cells"
+    - "Both MHC-I and MHC-II pathways present the same viral peptides with equal efficiency"
+    - "MHC-I pathway presents to CD4+ T cells because viral infection activates helper responses first"
+  answer: 1
+  explanation: "The MHC-I pathway is dedicated to sampling intracellular proteins. Viral proteins made in the cytoplasm are ubiquitinated, degraded by the proteasome into 8–10 aa peptides, shuttled into the ER by TAP, loaded onto MHC-I, and trafficked to the cell surface for CD8+ cytotoxic T cell recognition. The MHC-II pathway handles exogenous antigens captured by endocytosis. Option D confuses MHC class with T cell subset — MHC-I presents to CD8+ (not CD4+) T cells."
+
+- question: "A dendritic cell phagocytoses apoptotic tumor cells and successfully presents tumor-derived peptides to naïve CD8+ T cells via MHC-I, even though the tumor proteins were captured from outside the cell. This process is called:"
+  type: multiple-choice
+  options:
+    - "Classical MHC-I presentation — dendritic cells are professional APCs and always use MHC-I"
+    - "Cross-presentation — exogenous antigens are routed into the MHC-I pathway by specialized dendritic cells"
+    - "MHC-II restricted presentation — CD8+ T cells can use MHC-II in inflammatory conditions"
+    - "Invariant chain processing — the CLIP exchange mechanism allows antigen rerouting"
+  answer: 1
+  explanation: "Cross-presentation is the capacity of certain dendritic cells to take exogenous antigens and route them into the MHC-I pathway (normally reserved for intracellular antigens). This is the exception to the rule that MHC-I only presents endogenous peptides. It is immunologically critical for priming CD8+ T cell responses against viruses that infect tissue cells which are poor at activating T cells directly."
+
+- question: "The invariant chain (Ii) associated with newly synthesized MHC-II molecules serves to protect the peptide-binding groove from loading ER-resident peptides before the MHC-II complex reaches the endosomal compartment."
+  type: true-false
+  answer: true
+  explanation: "The invariant chain physically blocks the MHC-II peptide-binding groove in the ER, preventing premature loading of peptides present in the ER (which are the domain of MHC-I). The MHC-II/Ii complex travels through the Golgi and fuses with endosomes, where cathepsins cleave the invariant chain, leaving only the CLIP fragment. HLA-DM then facilitates CLIP exchange for antigenic peptides from the degraded extracellular proteins. This ensures MHC-II only presents exogenous antigen."
+
+- question: "MHC class I molecules are expressed only on professional antigen-presenting cells (dendritic cells, macrophages, and B cells), because only these cells need to present intracellular antigens to T cells."
+  type: true-false
+  answer: false
+  explanation: "MHC-I is expressed on virtually all nucleated cells in the body — not just professional APCs. This makes biological sense: any cell can become infected by a virus, and the immune system needs to detect infection anywhere it occurs. CD8+ cytotoxic T cells patrol and kill any infected cell displaying foreign peptides on MHC-I. Professional APCs constitutively express both MHC-I and MHC-II; most other nucleated cells express MHC-I but little or no MHC-II."
+
+- question: "Why is cross-presentation immunologically essential? What gap would exist in the adaptive immune response if dendritic cells could only present exogenous antigens on MHC-II?"
+  type: short-answer
+  answer: "Without cross-presentation, naïve CD8+ cytotoxic T cells could only be primed if a virus directly infected a professional antigen-presenting cell capable of activating T cells. Many viruses infect tissue cells (muscle, epithelium, neurons) that express MHC-I but are poor at providing T cell costimulation. Cross-presentation allows dendritic cells to capture viral material from those infected tissue cells and present it on MHC-I with full costimulatory capacity, priming an effective CD8+ cytotoxic response. Without it, the immune system would fail to mount cytotoxic responses against many viruses and tumors."
+  explanation: "Cross-presentation bridges the innate and adaptive immune responses: innate sentinels (dendritic cells) capture extracellular danger signals, but use them to activate the arm of adaptive immunity (CD8+ T cells) normally reserved for intracellular threats. This is why cross-presentation is especially important in cancer immunology and vaccine design — tumor antigens are often extracellular, yet a CD8+ response is needed to kill tumor cells."
+```
+
 ## Explainer
 
 From your study of MHC structure and function, you know that MHC molecules display peptide fragments on the cell surface for T cell recognition. But MHC molecules do not simply grab whole proteins and show them — there are elaborate intracellular processing pathways that chop proteins into peptides and load them onto the correct MHC class. The **antigen processing and presentation pathways** are the machinery that converts raw protein antigens into the peptide-MHC complexes that T cells actually see. Understanding these pathways explains why CD8+ T cells detect infections inside cells while CD4+ T cells respond to threats captured from outside.

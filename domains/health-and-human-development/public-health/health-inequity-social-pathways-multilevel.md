@@ -30,6 +30,45 @@ Map multiple pathways from a social determinant (poverty, discrimination, educat
 ## Common Misconceptions
 Treating health disparities as purely behavioral—structural and environmental factors often dominate individual behavior in shaping health outcomes.
 
+## Questions
+
+```yaml
+- question: "A public health program gives gym memberships to low-income residents in a neighborhood with high cardiovascular disease rates. After two years, health outcomes show minimal improvement despite high gym attendance. What most likely explains this?"
+  type: multiple-choice
+  options:
+    - "Exercise is ineffective for cardiovascular disease prevention in low-income populations"
+    - "The program addressed a single pathway (physical activity) while structural causes like housing instability, food access, and chronic stress remained unchanged"
+    - "Low-income residents lack the health literacy to use gym memberships effectively"
+    - "Cardiovascular disease is primarily genetic and cannot be meaningfully reduced through behavioral interventions"
+  answer: 1
+  explanation: "This scenario illustrates why single-factor interventions have limited impact when health disparities arise from multiple interacting structural pathways. Gym memberships address physical activity but not material deprivation (food access, housing), psychosocial stress (economic precarity, discrimination), or environmental exposures (pollution, neighborhood violence). These pathways interact multiplicatively — someone experiencing poverty, chronic stress, and environmental hazards simultaneously does not have simply the sum of three risks; the pathways compound through shared biological mechanisms. Effective intervention must address structural conditions, not just individual behaviors."
+
+- question: "Research shows that Black Americans experience earlier biological aging than white Americans of similar socioeconomic status. Which explanation best fits the multilevel pathways framework?"
+  type: multiple-choice
+  options:
+    - "Genetic differences account for differential aging rates between racial groups"
+    - "Lower average income in Black communities explains the gap, so SES fully mediates the association"
+    - "Chronic exposure to racism activates the HPA axis and inflammatory pathways, accelerating biological aging independently of socioeconomic status"
+    - "Healthcare disparities cause more untreated disease in Black Americans, which manifests as apparent biological aging"
+  answer: 2
+  explanation: "The weathering hypothesis proposes that chronic stress from racism constitutes a distinct, independent pathway to biological aging — not merely a proxy for poverty. Black Americans at similar socioeconomic levels still show earlier biological aging (measured by telomere length, allostatic load, and epigenetic clocks), suggesting racism operates as its own stressor, activating the HPA axis and chronic inflammation over time. This is the key multilevel insight: race is not just correlated with poverty — discrimination is an independent biological stressor with its own mechanistic pathway to health outcomes."
+
+- question: "Health disparities can be adequately explained by individual health behaviors — people in lower socioeconomic groups make different choices about diet, exercise, and tobacco use, and these choices account for most of the health gap."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception the multilevel framework addresses. Structural and environmental factors often dominate and determine individual behavior rather than the reverse. Neighborhood food deserts are not choices — they are measurable geographic constraints on dietary options. Housing instability, environmental pollution, and neighborhood violence are not behaviors but conditions imposed on communities. Furthermore, even when behavioral differences are measured, controlling for structural factors substantially reduces or eliminates them. Framing health disparities as behavioral obscures the structural causes and leads to ineffective, victim-blaming interventions."
+
+- question: "Multilevel analyses of health inequity consider individual, household, neighborhood, institutional, and policy-level factors because these factors interact multiplicatively, not just additively."
+  type: true-false
+  answer: true
+  explanation: "This is correct and captures the core methodological insight. A person experiencing poverty alone has a certain elevated risk; a person experiencing poverty and neighborhood pollution has a higher risk; a person experiencing poverty, pollution, and chronic discrimination does not have simply the sum of three risks — the pathways compound through shared biological mechanisms (e.g., chronic HPA axis activation, systemic inflammation). This multiplicative interaction means that addressing one factor while leaving others unchanged produces little benefit — the effect of any single intervention is dampened by the ongoing burden of the remaining pathways."
+
+- question: "Why do single-factor public health interventions typically show limited impact on health disparities, even when the targeted factor is genuinely harmful?"
+  type: short-answer
+  answer: "Health disparities arise from multiple interacting structural pathways — material deprivation, psychosocial stress, health behavior constraints, and healthcare access — that operate simultaneously and compound through shared biological mechanisms. When an intervention addresses one pathway (e.g., providing health education), the remaining pathways continue driving health disadvantage. The compounding is multiplicative rather than additive, so removing one factor does not produce a proportional reduction in risk. Effective reduction of disparities requires addressing structural conditions — housing, economic security, environmental exposures, discrimination — not just proximal individual behaviors."
+  explanation: "This is the practical implication of the multilevel framework. It's not that behavioral interventions have no effect — they do — but their effect is limited when the structural context remains unchanged. Someone who improves their diet but continues to live in an unsafe neighborhood, hold an unstable job, and experience chronic discrimination continues to face the other pathways operating in full. The framework redirects public health focus toward policy-level structural interventions (housing law, zoning, employment discrimination enforcement, healthcare financing) as the levers capable of addressing root causes."
+```
+
 ## Explainer
 
 Your epidemiology prerequisites gave you the tools to measure health disparities—you can compute rates, relative risks, and compare outcomes across population groups. This topic asks the harder causal question: *why* do these disparities exist, and at what levels of social organization do the causes operate? The social determinants framework insists that the most powerful determinants of health are upstream of individual behavior—they are the conditions in which people are born, grow, work, and age.

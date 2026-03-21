@@ -32,6 +32,45 @@ Sketch the Otto cycle on a P-V diagram. Derive the efficiency formula. Compare t
 - Confusing compression ratio with expansion ratio.
 - Assuming all four strokes occur at constant volume (they do not—intake and exhaust are at atmospheric pressure).
 
+## Questions
+
+```yaml
+- question: "According to the Otto cycle efficiency formula η = 1 − 1/r^(γ−1), which change would most directly increase the thermal efficiency of an ideal engine?"
+  type: multiple-choice
+  options:
+    - "Using more fuel per cycle to add more heat Q_in"
+    - "Increasing the compression ratio r"
+    - "Using a monatomic gas (lower γ) as the working fluid"
+    - "Lengthening the time of the power stroke"
+  answer: 1
+  explanation: "The efficiency formula contains only r (compression ratio) and γ (heat capacity ratio) as variables — Q_in does not appear. Higher r increases η because the gas is compressed more before the power stroke, making it hotter and higher-pressure at combustion, so it extracts more work per unit of heat added. Option A is a common misconception: adding more heat increases both W_net and Q_in proportionally for an ideal cycle, leaving η unchanged. Option C is wrong: lower γ decreases the exponent, reducing efficiency. The cycle's duration doesn't affect ideal efficiency."
+
+- question: "Why does high-octane premium gasoline allow a car engine to achieve higher efficiency than regular gasoline?"
+  type: multiple-choice
+  options:
+    - "It contains more chemical energy per liter, producing more heat per combustion cycle"
+    - "It resists premature ignition (knock), allowing the engine to operate at a higher compression ratio"
+    - "It burns more slowly, extending the power stroke duration"
+    - "It reduces friction in the cylinder walls, lowering mechanical losses"
+  answer: 1
+  explanation: "Premium fuel's value is not more energy content but a higher resistance to autoignition. At high compression ratios, the fuel-air mixture reaches temperatures that can ignite it prematurely before the spark fires — engine knock. This premature detonation damages the engine and wastes the power stroke. High-octane fuel tolerates higher compression without knock, allowing the engine to run at a higher r, which directly increases η via the efficiency formula. Option A is a common misconception; octane rating is not a measure of energy content."
+
+- question: "The power stroke in the Otto cycle is an isothermal (constant-temperature) expansion."
+  type: true-false
+  answer: false
+  explanation: "The power stroke (step C→D in the Otto cycle) is an *adiabatic* expansion — no heat is exchanged with the surroundings during this rapid process. Temperature and pressure both drop as the gas does work pushing the piston down. An isothermal process requires constant temperature, which would require continuous heat addition to compensate for the work done — the opposite of what happens in an adiabatic expansion. Confusing these two is a common error when first learning thermodynamic cycles."
+
+- question: "Increasing the compression ratio indefinitely would always increase Otto cycle efficiency in a real engine."
+  type: true-false
+  answer: false
+  explanation: "While the formula η = 1 − 1/r^(γ−1) increases monotonically with r in the ideal case, real engines face a critical constraint: above a certain compression ratio, the fuel-air mixture autoignites from compression heat before the spark fires (engine knock). Knock causes premature, uncontrolled combustion that delivers force at the wrong moment and damages the engine. High-octane fuel raises the knock threshold but cannot eliminate it entirely. Real efficiency is therefore limited by fuel properties, not just thermodynamics."
+
+- question: "Why does higher compression ratio increase the efficiency of the Otto cycle, according to the thermodynamic analysis?"
+  type: short-answer
+  answer: "Higher compression ratio means the gas is more compressed (smaller volume, higher temperature and pressure) before combustion. When the same amount of heat Q_in is added at this higher temperature, the gas expands from a higher-energy state during the power stroke, doing more work before the exhaust temperature is reached. The waste heat Q_out is therefore a smaller fraction of Q_in, so η = 1 − Q_out/Q_in is higher."
+  explanation: "The mathematical expression of this is η = 1 − 1/r^(γ−1): as r increases, 1/r^(γ−1) decreases, so η increases toward 1. The physical interpretation is that more compression before combustion 'pre-loads' the gas thermodynamically, and the longer adiabatic expansion from a higher starting point extracts more work. The exhaust gas leaves at a lower temperature relative to the peak temperature, meaning less energy is wasted."
+```
+
 ## Explainer
 
 From thermodynamic processes, you know how ideal gases behave under different constraints: isothermal (constant temperature), isobaric (constant pressure), isochoric (constant volume), and adiabatic (no heat exchange). The Otto cycle chains four of these processes together to model what happens inside a gasoline engine — not perfectly (real engines are messier), but accurately enough to explain why compression ratio matters and why there's a fundamental limit to engine efficiency.

@@ -31,6 +31,45 @@ Start by measuring δ18O in shells from a sediment core collected across known t
 ## Common Misconceptions
 - Assuming δ18O is temperature alone; salinity and ice-volume effects confound the signal in marine records. - Forgetting that δ18O in ice reflects precipitation composition, not directly air temperature above the ice sheet.
 
+## Questions
+
+```yaml
+- question: "A paleoclimatologist analyzes δ18O in benthic foraminifera from a deep-sea core and finds values 1.2‰ higher during a certain interval than in adjacent layers. What can she conclude?"
+  type: multiple-choice
+  options:
+    - "Ocean bottom water was approximately 6°C cooler during that interval"
+    - "Either the water was colder, or more continental ice existed (or both) — δ18O alone cannot separate these two effects"
+    - "Global sea level was higher because more water was stored in the ocean"
+    - "The foraminifera were living shallower in the water column during that interval"
+  answer: 1
+  explanation: "This is the central interpretive challenge of oxygen isotope paleothermometry. Higher δ18O in marine carbonates reflects two distinct signals: (1) colder water temperature (which increases fractionation into the shell), and (2) higher ice volume on land (which depletes the ocean of ¹⁶O, raising seawater δ18O). A 1.2‰ shift is comparable in magnitude to the full glacial-interglacial ice-volume effect (~1‰) and could also represent a temperature change of ~6°C — or any combination. The temperature signal cannot be extracted from δ18O alone without an independent proxy for seawater composition or ice volume."
+
+- question: "Why do ice cores from Greenland and Antarctica show more negative δ18O values during cold periods?"
+  type: multiple-choice
+  options:
+    - "Cold temperatures cause ice to preferentially incorporate ¹⁶O through a biological fractionation process"
+    - "During cold periods, air masses travel further poleward and lose more ¹⁸O-rich moisture through Rayleigh distillation before precipitation falls"
+    - "Sea ice formation sequesters ¹⁸O in the ocean, depleting it from atmospheric moisture"
+    - "Cold periods have lower evaporation rates, so precipitation contains a higher proportion of ¹⁶O"
+  answer: 1
+  explanation: "Rayleigh distillation is the mechanism. As an air mass cools during its poleward trajectory, water vapor condenses and falls as precipitation. Each condensation step preferentially removes ¹⁸O (heavier molecules condense more readily), leaving the remaining vapor progressively more ¹⁶O-enriched. By the time moisture reaches polar regions, the remaining vapor (and the ice it forms) is strongly depleted in ¹⁸O. Colder periods mean more cooling and more condensation steps en route — amplifying the depletion. The sensitivity is roughly 0.6–0.7‰ per °C in Greenland, making ice-core δ18O a powerful temperature proxy."
+
+- question: "Higher δ18O values in a marine carbonate record unambiguously indicate that ocean temperatures were cooler when those shells formed."
+  type: true-false
+  answer: false
+  explanation: "This is the most important misconception in oxygen isotope paleothermometry. Higher δ18O in marine carbonates reflects both cooler temperatures AND higher ice volume on land (the ice-volume effect). During glacial periods, continental ice sheets preferentially store ¹⁶O-rich water, leaving the ocean enriched in ¹⁸O — a signal of approximately 1‰ that is independent of temperature. A record of rising δ18O could reflect cooling, glacial expansion, or a combination. Disentangling these requires additional proxies such as Mg/Ca ratios in the same foraminifera."
+
+- question: "The δ18O of seawater is not constant through geological time — it changes because continental ice sheets preferentially store ¹⁶O-rich water, enriching the ocean in ¹⁸O during glacials."
+  type: true-false
+  answer: true
+  explanation: "This is the ice-volume effect: when ¹⁶O-rich water evaporates from the ocean, travels poleward, precipitates as snow, and is locked in growing ice sheets, it is removed from the ocean-atmosphere water cycle. The ocean's ¹⁶O budget decreases, raising its δ18O by roughly 1‰ at full glacial maximum. Organisms growing shells during a glacial period incorporate more ¹⁸O partly because of this elevated seawater δ18O — not only because the water is cold. This effect must be subtracted to isolate the temperature signal."
+
+- question: "Why can't a single δ18O measurement from a fossil foraminiferal shell give a definitive paleotemperature, and how do paleoclimatologists address this limitation?"
+  type: short-answer
+  answer: "A foraminiferal δ18O value reflects both the temperature of the water in which the shell grew and the isotopic composition of that water at the time — which itself depends on global ice volume. These two signals have similar magnitudes (~0.2‰/°C for temperature; ~1‰ total for glacial-interglacial ice volume), making it impossible to partition the two from δ18O alone. Paleoclimatologists address this with independent proxies: Mg/Ca ratios in the same foraminiferal shells record temperature only (because Mg substitution for Ca is controlled by temperature but not ice volume), allowing researchers to subtract the temperature component and infer the seawater δ18O residual, which reflects ice volume. Comparing benthic and planktonic foraminifera from the same core can also help, since they record different water masses and depths."
+  explanation: "This two-signal problem is why oxygen isotope paleothermometry requires a multi-proxy approach in practice. The Mg/Ca + δ18O combination has become standard for separating temperature from ice-volume signals in marine sediment records, enabling reconstruction of both past sea-surface temperatures and past sea levels from the same material."
+```
+
 ## Explainer
 
 Oxygen comes in several stable isotopes, but two dominate in nature: **oxygen-16** (ⁱ⁶O, with 8 protons and 8 neutrons) and **oxygen-18** (¹⁸O, with 8 protons and 10 neutrons). Because ¹⁸O is heavier, water molecules containing it behave slightly differently during physical processes like evaporation and condensation — they evaporate less readily and condense more easily than molecules with ¹⁶O. This mass-dependent difference, called **isotopic fractionation**, is the physical foundation of oxygen isotope paleothermometry. The ratio of ¹⁸O to ¹⁶O, expressed as **δ¹⁸O** (the deviation from a standard in parts per thousand), turns out to be systematically related to temperature, making it one of the most widely used paleoclimate proxies.

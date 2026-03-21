@@ -29,6 +29,45 @@ Galileo Galilei advanced the Scientific Revolution by insisting on direct empiri
 ## How It's Best Learned
 Read Galileo's Dialogue Concerning the Two Chief World Systems to understand his rhetorical methods and evidence. Consider what made his observational evidence compelling despite existing theoretical commitments.
 
+## Questions
+
+```yaml
+- question: "What was Galileo's most significant methodological contribution to natural philosophy?"
+  type: multiple-choice
+  options:
+    - "He proved heliocentrism mathematically, without relying on empirical observation"
+    - "He combined direct empirical observation, mathematical description, and controlled experiment as the new basis for knowledge about nature"
+    - "He applied classical Greek logic more rigorously than his Aristotelian predecessors"
+    - "He demonstrated that the Church's authority did not extend to questions of natural philosophy"
+  answer: 1
+  explanation: "Galileo's innovation was methodological, not merely empirical. He didn't just collect more observations — he established a new standard for what counts as evidence: direct measurement, mathematical expression of regularities, and controlled experimental testing. This replaced both the scholastic method (argument from authoritative texts) and pure rationalism (deduction from first principles). Option D is historically significant but describes a consequence, not his methodological contribution."
+
+- question: "Galileo's telescopic observation of Jupiter's moons in 1609–1610 challenged Aristotelian cosmology primarily because:"
+  type: multiple-choice
+  options:
+    - "The four moons' orbital periods contradicted the mathematical predictions of Ptolemaic epicycles"
+    - "They demonstrated that not everything in the heavens orbited the Earth, undermining the geocentric model's central claim"
+    - "They showed Jupiter was larger than Earth, which Aristotle had claimed was impossible"
+    - "Their orbital speeds violated Aristotle's principle that celestial motion must be perfectly uniform"
+  answer: 1
+  explanation: "The existence of moons orbiting Jupiter directly refuted a foundational claim of Aristotelian cosmology: that all celestial objects orbit the Earth. If Jupiter has its own satellites, the Earth cannot be the unique center of all heavenly motion. This was a specific, observable anomaly that the received theory could not accommodate. Option A is plausible but incorrect — Galileo was not primarily checking Ptolemaic mathematical predictions; he was generating anomalies for the entire geocentric framework."
+
+- question: "Galileo's conflict with the Inquisition was primarily a personal dispute stemming from his confrontational style, rather than a substantive clash over epistemology and institutional authority."
+  type: true-false
+  answer: false
+  explanation: "While Galileo's personality contributed to the timing and severity of his trial, the underlying conflict was epistemological: who has authority to determine what is true about the natural world — Church doctrine or empirical observation? If observation could override theological cosmology, religious authority over natural knowledge was vulnerable. The Inquisition grasped this implication. The personal dimension was real, but the stakes were institutional and philosophical."
+
+- question: "Galileo's method differed from pure rationalism in that he insisted natural phenomena must be understood through measurement and experiment, not derived solely from reason or logical argument."
+  type: true-false
+  answer: true
+  explanation: "Pure rationalism holds that reliable knowledge of nature can be derived from reason and first principles without relying on the senses. Galileo's approach was empirical: nature itself, accessed through observation and measurement, is the authority. He demonstrated laws of motion not by deriving them philosophically but by measuring falling bodies and pendulums. This is the defining contrast with both scholastic argument from texts and Cartesian-style derivation from pure reason."
+
+- question: "How did the scholastic method of natural philosophy differ from Galileo's approach, and why was Galileo's method a threat to established authority?"
+  type: short-answer
+  answer: "The scholastic method derived conclusions about nature from authoritative texts (Aristotle, Church doctrine) through syllogistic logic. Galileo insisted that nature itself — accessed through measurement, controlled experiment, and mathematical description — was the ultimate authority. This was threatening because it implied any claim about the natural world, including those embedded in Church teaching, was in principle revisable if observation contradicted it. By making empirical evidence the arbiter, Galileo implicitly claimed that observation could override doctrine."
+  explanation: "The Inquisition understood this implication clearly. If Galileo's method was accepted as the valid route to natural knowledge, theological authority over cosmology became vulnerable wherever observation conflicted with scripture. The trial was not primarily about whether the Earth moved — it was about whose epistemic standard governed answers to such questions."
+```
+
 ## Explainer
 
 You already know that the **Copernican model** placed the Sun at the center of the solar system — a mathematical improvement on Ptolemy that nonetheless lacked decisive observational proof. For most of the sixteenth century, heliocentrism remained a hypothesis: mathematically convenient but philosophically uncertain, and opposed by both Aristotelian natural philosophy and Church teaching. What Galileo contributed was not just additional evidence for Copernicus — he transformed what counted as evidence in natural philosophy, and in doing so changed the rules of the game.

@@ -30,6 +30,45 @@ Trace how a state's identity shifted over time (e.g., post-WWII Germany, post-Co
 ## Common Misconceptions
 Constructivism is not idealism; it uses rigorous social ontology. Ideas matter, but material capabilities also matter—it's about how they're interpreted through identity. Constructivism doesn't deny material constraints.
 
+## Questions
+
+```yaml
+- question: "After German reunification in 1990, material constraints on German power were substantially reduced — yet Germany maintained its multilateralist, Europe-integrated foreign policy. A constructivist explanation emphasizes:"
+  type: multiple-choice
+  options:
+    - "Continued material weakness relative to France and the United Kingdom"
+    - "US hegemonic pressure compelling German compliance with Western norms"
+    - "Germany's transformed identity — a new understanding of what Germany was — which redefined what Germany wanted"
+    - "The logic of collective action preventing any single state from defecting from cooperation"
+  answer: 2
+  explanation: "If material constraint were the full explanation, we would expect German behavior to shift when constraints were lifted. It did not — and constructivists argue this is because the identity change was real. German elites and publics genuinely reinterpreted what Germany was (a peaceful, post-nationalist European partner), and this identity defined new interests. Material conditions created the space for identity change, but the identity did the explanatory work. Options A and B are realist/liberal explanations that predict behavior would change when material circumstances change — which they did not."
+
+- question: "Which statement best captures the constructivist claim about the relationship between identity and interests?"
+  type: multiple-choice
+  options:
+    - "States pursue interests defined by material capabilities; identity is a byproduct of power position"
+    - "Interests are fixed by geography and history; identities vary but do not affect core policy"
+    - "Identities are socially constituted through interaction and constitute state interests — states cannot know what they want until they know what they are"
+    - "States have fixed security interests but flexible identities that adjust to achieve them more efficiently"
+  answer: 2
+  explanation: "The constructivist claim is constitutive, not merely causal: identity does not just 'influence' interests, it defines them. A state that understands itself as a revolutionary power has fundamentally different interests from one that understands itself as a status-quo trading nation — even with identical material capabilities. This inverts the realist assumption that interests (security, power) are prior to and independent of identity. Options A and D are realist; option B grants identity variation but denies its significance."
+
+- question: "Constructivism holds that material capabilities and physical constraints play no role in international politics; only shared ideas and identities matter."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misreading of constructivism, and the Explainer addresses it directly. Constructivism does not deny material constraints; it insists that material capabilities only matter through the interpretive lens of identity. A nuclear weapon in the hands of a state understood as a friend carries different implications than in the hands of a state understood as an adversary — the material fact is the same, but its meaning is different. Constructivism is a theory of how meaning is constituted, not a claim that material factors are irrelevant."
+
+- question: "According to constructivism, anarchy — the absence of a world government — does not by itself determine how states will behave, because the meaning of anarchy depends on the identities and norms states bring to their interactions."
+  type: true-false
+  answer: true
+  explanation: "This is Wendt's famous formulation: 'anarchy is what states make of it.' The structural fact that there is no global sovereign does not determine whether states will treat each other as competitors (Hobbesian anarchy), rivals who follow rules (Lockean anarchy), or friends (Kantian culture). The same structural condition produces different behavioral patterns depending on the identities and shared understandings that have been constituted through interaction. States in the European Union operate under the same formal anarchy as states during the Thirty Years' War, yet their behavioral expectations are entirely different."
+
+- question: "Explain the constructivist claim that identities 'constitute' interests rather than merely 'influencing' them. What does this distinction mean, and why does it matter for explaining state behavior?"
+  type: short-answer
+  answer: "To say identity 'constitutes' interests means that interests are not logically prior to identity — they are defined by it. A state first needs to know what it is before it can determine what it wants. A state that identifies as a revolutionary power has fundamentally different interests than one that identifies as a satisfied status-quo power, even if their capabilities are identical. 'Influence' would mean that a prior set of interests is modified at the margins by identity; 'constitute' means identity generates the interests in the first place. This matters because it makes state interests variable in a way realism cannot explain: as identities change through interaction and norm diffusion, interests change — not just behavior."
+  explanation: "The distinction is about ontological priority. Realism assumes interests (security, survival, power) are fixed inputs; the task of IR theory is to show how states pursue those interests. Constructivism challenges this by making interests the output of an identity process. This matters empirically: it explains why states sometimes act against their apparent material interests (pursuing costly multilateralism, accepting constraints on sovereignty) when their identity demands it. It also opens a research program focused on how identities form and change — through interaction, norm diffusion, and domestic politics — as a driver of international outcomes."
+```
+
 ## Explainer
 
 You have already worked through Wendt's foundational constructivist arguments: that anarchy is not a structural given with fixed behavioral implications, but a social condition whose meaning is produced through the practices and interactions of states. Now we push into the deeper claim that drives constructivism: the relationship between **identity** and **interests**. This relationship is what most sharply separates constructivism from realism and liberalism as theories of international politics.

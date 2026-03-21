@@ -27,6 +27,45 @@ Practice COALESCE with multiple columns to provide default values, and use NULLI
 ## Common Misconceptions
 COALESCE is not the same as ISNULL/IFNULL—it evaluates multiple columns sequentially. NULLIF only compares two values; use CASE for complex NULL logic.
 
+## Questions
+
+```yaml
+- question: "A query calculates revenue per unit with the expression `revenue / units_sold`. When units_sold is 0, the query crashes. Which expression fixes this while preserving NULL to signal the undefined result?"
+  type: multiple-choice
+  options:
+    - "CASE WHEN units_sold = 0 THEN 0 ELSE revenue / units_sold END"
+    - "revenue / NULLIF(units_sold, 0)"
+    - "COALESCE(revenue / units_sold, 0)"
+    - "ISNULL(units_sold, 1)"
+  answer: 1
+  explanation: "NULLIF(units_sold, 0) converts zero to NULL, making the division result NULL rather than causing a divide-by-zero error. This is the idiomatic use case for NULLIF. Option A uses 0 as the fallback, which is semantically wrong — dividing by zero is undefined, not zero. Option C uses COALESCE around the division, but the division still crashes before COALESCE can catch anything. Option D uses ISNULL which is database-specific and only handles NULL, not zero."
+
+- question: "A customer table has three phone columns: mobile_phone, home_phone, work_phone. Many customers have only one or two. You want a single 'best contact number' column returning whichever is available, or 'No contact' if all are NULL. Which expression is correct?"
+  type: multiple-choice
+  options:
+    - "ISNULL(mobile_phone, home_phone)"
+    - "COALESCE(mobile_phone, home_phone, work_phone, 'No contact')"
+    - "NULLIF(mobile_phone, home_phone)"
+    - "CASE WHEN mobile_phone IS NOT NULL THEN mobile_phone WHEN home_phone IS NOT NULL THEN home_phone ELSE work_phone END"
+  answer: 1
+  explanation: "COALESCE accepts any number of arguments and returns the first non-NULL value. Option B elegantly handles all three columns plus a literal fallback in one expression. Option A only checks two columns. Option C uses NULLIF, which does something entirely different (returning NULL when two values are equal). Option D is a valid CASE statement but verbose, and it drops work_phone in the final ELSE — illustrating why COALESCE is cleaner for fallback chains."
+
+- question: "COALESCE(a, b) and NULLIF(a, b) are inverses: COALESCE handles the case where a IS NULL, and NULLIF handles the case where a IS NOT NULL."
+  type: true-false
+  answer: false
+  explanation: "This is a seductive framing, but the functions are not inverses and don't work symmetrically. COALESCE(a, b) returns b when a is NULL and a otherwise — it handles a missing-value fallback. NULLIF(a, b) returns NULL when a EQUALS b (not when a is NULL) and returns a otherwise — it converts a specific value to NULL. The natural pairing is: use NULLIF to normalize bad data into proper NULLs, then use COALESCE to substitute defaults where NULLs appear. They complement each other in a pipeline, not as strict inverses."
+
+- question: "COALESCE can accept more than two arguments and evaluates them in order, returning the first non-NULL value found."
+  type: true-false
+  answer: true
+  explanation: "Unlike ISNULL or NVL (which are database-specific and accept exactly two arguments), COALESCE is SQL-standard and accepts an arbitrary number of arguments. It evaluates each in sequence and returns the first non-NULL. This makes it more versatile: COALESCE(col1, col2, col3, 'default') handles a multi-column fallback chain without nested function calls. The sequential evaluation also means you can combine columns and literals in any order."
+
+- question: "Explain how COALESCE and NULLIF work together in data cleaning pipelines, giving a concrete example."
+  type: short-answer
+  answer: "NULLIF normalizes sentinel or placeholder values into proper NULLs; COALESCE then substitutes meaningful defaults where NULLs appear. For example: COALESCE(NULLIF(middle_name, ''), 'N/A') first converts empty strings to NULL (because some systems store missing names as '' rather than NULL), then replaces the NULL with 'N/A' for display. Without NULLIF, an empty string would satisfy COALESCE and appear as '' in results. Without COALESCE, the NULL from NULLIF would propagate. Together they give precise control over missing data."
+  explanation: "The workflow is: (1) use NULLIF to convert dirty or sentinel values into proper NULLs so aggregate functions and comparisons handle them consistently; (2) use COALESCE at the output stage to substitute user-facing defaults. This separates concerns cleanly: normalization happens internally, presentation happens externally. The alternative — nested CASE WHEN expressions — achieves the same result but is far more verbose and harder to read at a glance."
+```
+
 ## Explainer
 
 From your work with SELECT basics, you know that NULL represents missing or unknown data — and that NULL behaves strangely in comparisons (NULL = NULL is not true, it is NULL). In real-world databases, NULL values appear constantly: a customer has no middle name, an order has no shipping date yet, a sensor reading was not recorded. **COALESCE** and **NULLIF** are the two essential functions for handling these gaps cleanly in your queries.

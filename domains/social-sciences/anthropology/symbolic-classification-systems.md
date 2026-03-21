@@ -31,6 +31,45 @@ Study Douglas on purity and danger, Lévi-Strauss on the raw and cooked, and eth
 - Classification systems reflect natural reality; they are cultural constructions that highlight some distinctions while erasing others.
 - Symbolic beliefs in non-Western societies are superstition; they are coherent systems with social and psychological functions.
 
+## Questions
+
+```yaml
+- question: "An anthropologist observes that a community strictly prohibits eating a particular animal that is nutritious, plentiful, and poses no known health risk. The best anthropological explanation is:"
+  type: multiple-choice
+  options:
+    - "The community lacks the nutritional knowledge to recognize the animal as food"
+    - "The prohibition is irrational superstition with no systematic explanation"
+    - "The animal violates the community's classification system, making it a categorical transgressor rather than an empirical danger"
+    - "The prohibition originally evolved to prevent disease and has been retained culturally even after the risk passed"
+  answer: 2
+  explanation: "Mary Douglas argued that pollution prohibitions defend categorical order, not empirical risk. The Levitical prohibition on shellfish and certain animals is her key example: these animals are 'abominations' not because they are dangerous but because they don't fit neatly into the categorical scheme (sea creatures should have fins and scales; they don't). The disgust response enforces the boundary. Options A and B treat non-Western systems as deficient or irrational; option D reduces symbolic logic to evolutionary function-tracking."
+
+- question: "Mary Douglas's concept of 'matter out of place' implies that what we experience as dirt or pollution is fundamentally:"
+  type: multiple-choice
+  options:
+    - "A biological disgust response that evolved to detect pathogenic material"
+    - "A culturally variable reaction to anything that violates a categorical system, regardless of actual danger"
+    - "A universal response specific to bodily fluids and waste products"
+    - "A learned response to objects associated with death or disease in a particular community's history"
+  answer: 1
+  explanation: "Douglas's insight is that dirt is not a fixed substance — it is *relational*. Shoes are not dirty in themselves; they are dirty on a kitchen table because they belong outside. Blood is not polluting in a surgical context but may be ritually dangerous in another. The definition of pollution is 'matter that has crossed a categorical boundary.' This is culturally variable because different cultures draw different categorical lines, but all cultures have pollution beliefs that cluster around the same logic: category transgression."
+
+- question: "For Lévi-Strauss, the raw/cooked distinction in culinary practice maps onto the broader nature/culture distinction, making food preparation a symbolic act and not merely a culinary one."
+  type: true-false
+  answer: true
+  explanation: "Lévi-Strauss argued that human thought is organized by binary oppositions, and that the raw/cooked pair is a cognitive vehicle for thinking about nature versus culture. Cooked food has been transformed by human activity; raw food remains in its natural state. The elaborate ways cultures cook — roasting versus boiling, who may cook, what may be combined — are not just practical choices but symbolic statements about cultural categories. This is the method of structural anthropology: surface practices reveal underlying logical structures."
+
+- question: "Because symbolic classification systems vary enormously across cultures, they are arbitrary and have no predictable cross-cultural patterns."
+  type: true-false
+  answer: false
+  explanation: "While the *content* of classification systems varies, the *structure* is patterned. Douglas showed that pollution beliefs reliably cluster around categorical ambiguity — things that cross between life and death, human and animal, inside and outside the body. Lévi-Strauss showed that binary oppositions (nature/culture, raw/cooked, high/low) recur across very different societies. Cultural variability operates within a constrained space of structural possibilities. Anthropology's contribution is showing that variation is systematic, not random."
+
+- question: "Why, according to Douglas, does violating a classification system produce feelings of danger or disgust even when no physical harm results?"
+  type: short-answer
+  answer: "Pollution anxiety is a social enforcement mechanism for categorical boundaries. When an entity crosses between categories — the living and the dead, the human and the animal, the sacred and the profane — it threatens the entire ordering system that a culture uses to make sense of reality. The visceral disgust response motivates avoidance and reinforces the boundary, protecting the categorical structure. The danger is symbolic, not empirical: what is threatened is the integrity of the classification system itself."
+  explanation: "This explanation shifts the question from 'is this object actually dangerous?' to 'what does treating it as dangerous accomplish?' The answer: it maintains social and conceptual order. Douglas's framework explains why the emotional intensity of taboo responses is often disproportionate to any actual harm — the feeling is real but its object is the categorical system, not a physical risk."
+```
+
 ## Explainer
 
 Humans do not experience the world as an undifferentiated flow of sensation. We divide it into categories: day and night, edible and inedible, ours and theirs, sacred and ordinary. This categorizing process is universal, but the categories themselves are cultural. From your understanding of culture and myth, you know that symbols do not simply reflect reality — they help constitute it. **Symbolic classification systems** are the structured grids of categories through which a culture filters experience, and they are the focus of some of anthropology's most important theoretical work.

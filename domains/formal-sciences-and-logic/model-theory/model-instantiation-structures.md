@@ -35,6 +35,45 @@ Work through explicit examples: the group (Z, +) as a model of the group signatu
 ## Common Misconceptions
 A structure is not an abstract syntax tree—it is a concrete assignment. Distinct structures can satisfy the same theory but differ in their interpretations of function/relation symbols.
 
+## Questions
+
+```yaml
+- question: "Consider the sentence ∀x∀y(x·y = y·x) in the group signature. In which of the following structures is this sentence FALSE?"
+  type: multiple-choice
+  options:
+    - "(ℤ, +, 0) — the integers under addition"
+    - "(ℝ, ×, 1) — the nonzero real numbers under multiplication"
+    - "(GL₂(ℝ), ×, I) — invertible 2×2 real matrices under matrix multiplication"
+    - "(ℤ/2ℤ, +, 0) — integers mod 2 under addition"
+  answer: 2
+  explanation: "Matrix multiplication is not commutative: AB ≠ BA in general for 2×2 invertible matrices. So ∀x∀y(x·y = y·x) is false in (GL₂(ℝ), ×, I). The integers under addition and nonzero reals under multiplication are both commutative, so the sentence is true there. This illustrates the key point: the same sentence can have different truth values in different structures over the same signature. Truth is always relative to a specific interpretation."
+
+- question: "Two structures M and M' both instantiate the same group signature and both satisfy all the group axioms. What can we conclude?"
+  type: multiple-choice
+  options:
+    - "M and M' are isomorphic — they have the same structure up to renaming of elements"
+    - "M and M' are identical — the same theory uniquely determines a structure"
+    - "M and M' may be completely different structures with different properties, despite sharing the same theory"
+    - "Any sentence true in M must also be true in M', and vice versa"
+  answer: 2
+  explanation: "Satisfying the same base theory (the group axioms) is a very weak constraint — it does not uniquely determine a structure. (ℤ, +, 0) and (ℝ*, ×, 1) both satisfy the group axioms but differ in cardinality, commutativity, divisibility, and many other properties. They are not isomorphic. Option D is wrong because sentences like ∀x∀y(x·y = y·x) are true in (ℤ, +, 0) but false in non-abelian groups, while both satisfy the group axioms."
+
+- question: "In model theory, a sentence's truth value is determined by the specific structure in which it is evaluated, not by the signature alone."
+  type: true-false
+  answer: true
+  explanation: "True. A signature is only syntactic scaffolding — a list of symbols with arities, carrying no mathematical content. A sentence like ∀x(f(x) = x) might be true in one structure (where f is the identity function) and false in another (where f is squaring). Only when you commit to a specific structure — assigning concrete mathematical objects to each symbol over a specified domain — does a sentence receive a truth value. Satisfaction is always relative to a particular interpretation."
+
+- question: "Specifying a signature is sufficient to determine the mathematical content of a model — the structure and its signature are the same thing."
+  type: true-false
+  answer: false
+  explanation: "False. The signature is just a list of symbols and arities — it has no mathematical content. A structure is a concrete interpretation that assigns each symbol to an actual mathematical object (an element, function, or relation) over a specified domain. Countless distinct structures can share the same signature. Every group is an instantiation of the group signature, but there are infinitely many non-isomorphic groups. The signature gives the vocabulary; the structure fills in the meaning."
+
+- question: "What does it mean to say that model instantiation is 'the bridge between logic and mathematics'?"
+  type: short-answer
+  answer: "Logic operates on syntactic symbols — formulas, terms, sentences — without intrinsic meaning. Mathematics operates on concrete objects — numbers, sets, functions, groups. Model instantiation is the process of assigning mathematical objects to logical symbols, turning a syntactic signature into a mathematical structure. Through this assignment, logical sentences acquire truth values and mathematical structures become amenable to logical analysis. Without instantiation, logic and mathematics remain separate: one formal but contentless, the other concrete but pre-formal."
+  explanation: "This bridge is what makes model theory powerful: it allows logical tools (compactness, Löwenheim–Skolem, definability) to be applied to mathematical structures, and allows mathematical constructions (ultraproducts, elementary extensions) to be used to study logical languages. The interplay is productive precisely because instantiation makes the connection explicit and controllable."
+```
+
 ## Explainer
 
 You have already studied signatures and satisfaction at an abstract level. **Model instantiation** is the process of making this abstract machinery concrete: given a signature σ (a list of constant, function, and relation symbols), you choose an actual mathematical object — a set, a group, a graph, the integers — and specify what each symbol in σ means within that object. The result is a **σ-structure** M, also called a **realization** of σ.

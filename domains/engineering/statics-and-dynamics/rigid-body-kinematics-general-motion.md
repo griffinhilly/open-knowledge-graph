@@ -34,6 +34,45 @@ Master the relative velocity equation first using problems with rolling wheels, 
 - Omitting the centripetal term omega^2 * r_{B/A} in the relative acceleration equation, even when alpha = 0.
 - Assuming a rolling wheel's contact point has zero acceleration — it has zero velocity at the contact point, but its acceleration is nonzero (directed toward the center).
 
+## Questions
+
+```yaml
+- question: "A wheel rolls without slipping at constant angular velocity (α = 0). A student claims that since α = 0, there is no relative acceleration between the contact point and the wheel's center. Is this correct?"
+  type: multiple-choice
+  options:
+    - "Yes — if α = 0, the tangential acceleration term vanishes and no relative acceleration exists"
+    - "No — the centripetal term ω²r_{B/A} is nonzero whenever ω ≠ 0, giving the contact point acceleration directed toward the wheel's center even when α = 0"
+    - "Yes — the contact point has zero velocity, so it must also have zero acceleration"
+    - "No — but only because friction at the contact point introduces an upward reaction acceleration"
+  answer: 1
+  explanation: "The relative acceleration equation is a_B = a_A + α × r_{B/A} − ω² r_{B/A}. The last term, the centripetal acceleration, depends on ω, not α. Even with α = 0 (constant angular speed), if ω ≠ 0 the centripetal term is nonzero and points from B toward A — from the contact point toward the wheel's center. This is a common and critical mistake: students see α = 0 and conclude acceleration is zero, forgetting that centripetal acceleration exists for any rotating body with nonzero angular velocity. The contact point of a rolling wheel has zero instantaneous velocity but nonzero acceleration (ω²R toward the center)."
+
+- question: "Where is the instantaneous center of zero velocity (IC) for a wheel rolling without slipping on a flat surface?"
+  type: multiple-choice
+  options:
+    - "At the center of the wheel"
+    - "At the highest point on the wheel"
+    - "At the contact point between the wheel and the ground"
+    - "At a point infinitely far ahead in the direction of travel"
+  answer: 2
+  explanation: "For a rolling wheel, the contact point has zero velocity at that instant (rolling without slipping means the contact point is momentarily at rest). The IC is defined as the point of zero velocity, so it lies at the contact point. Every other point on the wheel moves with velocity proportional to its distance from the IC and in a direction perpendicular to the line from it to the IC. The top of the wheel moves fastest (farthest from IC) and the center moves at an intermediate speed. This is why the IC method is so useful for rolling wheels — the IC is physically meaningful and easy to locate."
+
+- question: "The angular velocity ω in the relative velocity equation v_B = v_A + ω × r_{B/A} is a property of the entire rigid body — every pair of points shares the same ω at any given instant."
+  type: true-false
+  answer: true
+  explanation: "Angular velocity describes how the body rotates as a whole. It is not a property of any particular point — it is a property of the rigid body at that instant. Every pair of points on the body rotates relative to each other with the same angular velocity ω. This is what 'rigid body' means: no deformation, so all points maintain fixed distances from each other, which requires a single, uniform angular velocity. This fact makes the relative velocity equation powerful: ω appears once and applies regardless of which two points you analyze."
+
+- question: "The instantaneous center of zero velocity can be used for both velocity and acceleration analysis because it captures the body's complete kinematic state at that instant."
+  type: true-false
+  answer: false
+  explanation: "The IC is an instantaneous property: it gives zero velocity at one specific moment, but it is itself accelerating and its location changes from instant to instant. Acceleration analysis requires a fixed reference point whose acceleration you know — the IC does not qualify. The relative acceleration equation a_B = a_A + α × r_{B/A} − ω²r_{B/A} must be used for acceleration, not the IC shortcut. This is one of the most common errors in rigid body dynamics: students use the IC to find velocities (correct) and then try to use it for accelerations (incorrect)."
+
+- question: "Why must you include the centripetal acceleration term ω²r_{B/A} in the relative acceleration equation even when the angular acceleration α is zero?"
+  type: short-answer
+  answer: "The centripetal acceleration term arises from the change in direction of the rotating position vector r_{B/A}, not from any change in angular speed. Even when the body spins at constant ω (α = 0), point B is undergoing circular motion relative to point A — its velocity direction is continuously changing, which is itself an acceleration. This centripetal acceleration always points from B toward A (inward along r_{B/A}) with magnitude ω²|r_{B/A}|. Setting α = 0 removes only the tangential (α × r) term; it has no effect on the centripetal term. Omitting ω²r_{B/A} when α = 0 is incorrect and leads to significant errors in any problem with nonzero angular velocity."
+  explanation: "This is the central conceptual mistake in rigid body acceleration problems. Students correctly associate α with angular acceleration and assume α = 0 means 'no acceleration effects.' But centripetal acceleration is not about changing angular speed — it's about changing velocity direction due to rotation at any speed. A body spinning at perfectly constant ω still requires centripetal acceleration for every point on it. The rolling wheel contact point example makes this concrete: zero velocity but ω²R of centripetal acceleration toward the center."
+```
+
 ## Explainer
 
 From your study of rigid body rotation, you know that when a body rotates about a fixed axis, every point traces a circular arc and you can find velocities using v = omega × r. **General planar motion** removes the fixed-axis constraint: the body can translate and rotate simultaneously. Think of a connecting rod in an engine, a ladder sliding off a wall, or a wheel rolling down a ramp — the rotation axis is itself moving. The key insight is that you can always decompose general motion into a translation of any reference point plus a rotation about that point.

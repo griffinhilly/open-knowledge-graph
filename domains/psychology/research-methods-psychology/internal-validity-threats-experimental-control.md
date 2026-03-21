@@ -33,6 +33,45 @@ Study classic examples where internal validity is compromised (e.g., the Hawthor
 ## Common Misconceptions
 Internal validity means the study is well-designed overall (actually, it specifically means causal conclusions are justified). A study with perfect internal validity automatically has high external validity (actually, gains in control often reduce generalizability).
 
+## Questions
+
+```yaml
+- question: "A researcher tests a new reading intervention by enrolling only students who scored in the bottom 10% on a reading assessment. After 6 weeks of intervention, their average score rises significantly. Which threat to internal validity is the most plausible alternative explanation?"
+  type: multiple-choice
+  options:
+    - "History — a news event changed reading habits during the study"
+    - "Instrumentation — the scoring rubric changed between assessments"
+    - "Regression to the mean — extreme scorers tend to move toward average on retest regardless of intervention"
+    - "Selection bias — the groups differed at baseline"
+  answer: 2
+  explanation: "Regression to the mean is the most plausible threat here. Students selected precisely because they scored at an extreme (the bottom 10%) are partly selected for measurement error that pushed them to that extreme. On retest, their scores will tend to move toward the population mean regardless of any intervention. Without a control group of equally low-scoring students who received no intervention, the researcher cannot distinguish genuine treatment effects from this statistical artifact."
+
+- question: "A study with highly controlled laboratory conditions finds a large, statistically significant effect of a new therapy on anxiety. A critic notes the study has excellent internal validity. What should NOT be concluded from this?"
+  type: multiple-choice
+  options:
+    - "The study provides evidence for a causal link between the therapy and anxiety reduction"
+    - "The observed effect is unlikely to be explained by maturation or testing effects"
+    - "The findings will generalize well to anxious people in real clinical settings"
+    - "Random assignment was probably used to control for selection bias"
+  answer: 2
+  explanation: "Internal validity is specifically about whether the causal inference within the study is justified — not whether findings generalize. High internal validity often requires tight laboratory control that reduces ecological authenticity: artificial settings, homogeneous samples, carefully screened participants. These controls that strengthen internal validity are precisely what can limit external validity (generalizability to real populations and contexts). The two are frequently in tension."
+
+- question: "A study can have high internal validity but low external validity."
+  type: true-false
+  answer: true
+  explanation: "This is a fundamental and often-overlooked distinction. Internal validity asks: was the causal inference within this study justified? External validity asks: do these findings generalize to other people, settings, and times? Highly controlled laboratory experiments often maximize internal validity by eliminating confounds, but the artificial conditions — screened participants, controlled environments, experimenter observation — reduce how well the findings transfer to messy real-world contexts."
+
+- question: "Random assignment to conditions eliminates all threats to internal validity in an experiment."
+  type: true-false
+  answer: false
+  explanation: "Random assignment is the most powerful tool for addressing selection bias — it distributes known and unknown individual differences equally across conditions at baseline. But it does not eliminate every threat. History (an external event affecting both groups differently), testing effects (sensitization from the pretest), and instrumentation (changes in measurement procedures between assessments) can still operate even with random assignment. Each threat requires its own design solution."
+
+- question: "What does it mean for a study to have high internal validity, and why might achieving it require trade-offs?"
+  type: short-answer
+  answer: "High internal validity means the study provides strong evidence that the independent variable caused the observed change in the dependent variable — all plausible alternative explanations have been ruled out. Achieving it typically requires tight experimental control: random assignment, standardized procedures, control groups, and laboratory settings. These controls often introduce trade-offs with external validity: the more artificial and controlled the setting, the less it may resemble the real-world contexts to which we want to generalize."
+  explanation: "Internal validity is specific: it is about causal inference, not general study quality. A well-designed study can still have low internal validity if its design fails to rule out key alternative explanations. And a study can have high internal validity while being narrow in applicability. The skill is diagnosing which threats are plausible in a given design and evaluating whether the study's controls actually address them."
+```
+
 ## Explainer
 
 From your study of experimental research design, you know that the logic of experimentation is to manipulate one variable while holding everything else constant, then attribute any resulting change in the outcome to the manipulation. **Internal validity** is the formal name for the degree to which that inference is justified — whether the observed change in the dependent variable was truly caused by the independent variable and nothing else. Every threat to internal validity is a specific alternative explanation: a plausible reason why the outcome might have changed even if the manipulation had no effect.

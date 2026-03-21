@@ -29,6 +29,45 @@ Select a brand or concept and list its personality traits (sophisticated, playfu
 - Visual personality is subjective; while interpretations vary, consistent patterns exist in how people perceive visual tone.
 - Personality can be added later; it must be considered from the beginning of the design process.
 
+## Questions
+
+```yaml
+- question: "A designer creating a visual identity for a cybersecurity firm chooses playful rounded typography and bright primary colors because they are visually appealing. What is the core problem?"
+  type: multiple-choice
+  options:
+    - "Playful typography is technically less readable in professional contexts"
+    - "The visual choices contradict the personality traits the brand needs to communicate — authority, precision, trustworthiness"
+    - "The design will be confused with consumer brands, undermining distinctiveness"
+    - "Primary colors are too bold for digital applications and cause readability issues"
+  answer: 1
+  explanation: "The core problem is a mismatch between visual personality and brand values. Playful rounded typography and bright primary colors communicate friendliness and informality — the opposite of what a cybersecurity firm needs. Personal aesthetic appeal is irrelevant if the design sends the wrong emotional signal. Personality traits (authoritative, precise, vigilant) must be defined first; every visual decision is then evaluated through that filter, not through the designer's preferences."
+
+- question: "Which best explains why emotional tone cannot simply be added to a design after it is otherwise complete?"
+  type: multiple-choice
+  options:
+    - "Color — which carries most of the personality — must be specified early in the process before it can be applied"
+    - "Every design decision — grid, spacing, typography, imagery — carries expressive weight; changing personality requires reconsidering every decision"
+    - "Clients become attached to the original design and resist late-stage personality changes"
+    - "Typography is finalized early in production workflows and cannot be changed without rebuilding the design"
+  answer: 1
+  explanation: "Visual personality is not a layer — it is embedded in every decision the designer made. The grid proportions, the weight of whitespace, the typeface style, the photography approach, the icon geometry — all of these communicate emotional tone. Adding personality 'at the end' means revisiting hundreds of individual decisions, each of which already says something. This is why personality must be defined before visual exploration begins: it is the filter through which all those decisions are made."
+
+- question: "Because emotional responses to visual design vary between individuals and cultures, designers cannot reliably predict how a target audience will perceive a design's personality."
+  type: true-false
+  answer: false
+  explanation: "While individual variation exists, substantial patterns in how people perceive visual tone are consistent enough to design with professionally. Sharp angles reliably feel more aggressive than soft curves; geometric sans-serifs reliably feel more modern than humanist serifs; cool palettes reliably feel more clinical than warm ones. These are tendencies, not laws — context always matters — but the patterns are reliable enough that brand identity work, advertising, and packaging design all exploit them systematically and successfully."
+
+- question: "A design with individually strong visual choices can still feel inauthentic or off if those choices don't all point toward the same personality traits."
+  type: true-false
+  answer: true
+  explanation: "Coherence is what turns individual choices into a personality. A playful typeface combined with cold corporate colors and rigid grid spacing sends mixed signals — the viewer senses something is wrong without necessarily being able to articulate it. Authentic visual personality requires all elements — typography, color, spacing, imagery, icon style, animation behavior — to reinforce the same traits. A technically excellent but internally inconsistent design communicates confusion, not character."
+
+- question: "Why should a designer define personality traits in words before making any visual decisions, rather than starting with visual exploration and refining toward a personality?"
+  type: short-answer
+  answer: "Defining personality traits in words first creates a decision filter — a standard against which every visual choice can be evaluated. Does this typeface feel authoritative? Does this palette feel warm? Without a verbal definition, visual exploration defaults to what the designer finds personally appealing, which may not align with the brand's values. The word list externalizes the standard and makes it available to both the designer and the client for evaluation."
+  explanation: "This is a discipline issue, not just a process preference. Visual instinct is powerful but self-referential — designers tend toward aesthetics they already favor. Anchoring decisions to a verbal personality definition prevents the design from becoming an expression of the designer's taste instead of the brand's identity. It also enables clear client communication: a rejected typeface choice can be explained by pointing to the personality criteria rather than defending a personal preference."
+```
+
 ## Explainer
 
 Every design communicates an emotional tone whether the designer intends it or not. A stark black-and-white layout with a geometric sans-serif typeface and generous whitespace says "modern, serious, premium" even before you read a single word. A hand-lettered script with warm colors and textured paper says "personal, artisanal, approachable." These responses are not arbitrary — they draw on deeply embedded cultural associations between visual forms and emotional qualities. Understanding and controlling this **visual personality** is what separates intentional design from accidental communication.

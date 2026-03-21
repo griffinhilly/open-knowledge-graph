@@ -29,6 +29,45 @@ Track fluorescently-tagged secretory cargo through the TGN; use inhibitors of re
 ## Common Misconceptions
 - The TGN is synonymous with the Golgi; it's a specialized compartment with distinct enzymes and transport machinery. - All secretory proteins follow the same route; some use direct plasma membrane targeting while others traverse early endosomes.
 
+## Questions
+
+```yaml
+- question: "A researcher uses gene editing to disable the enzyme that adds mannose-6-phosphate tags to lysosomal hydrolases. What would she observe about the hydrolases in these cells?"
+  type: multiple-choice
+  options:
+    - "Hydrolases would accumulate in the ER because they cannot complete N-glycosylation without the M6P tag"
+    - "Hydrolases would be secreted out of the cell via the constitutive secretory pathway"
+    - "Hydrolases would be degraded in the Golgi because the TGN cannot package untagged cargo"
+    - "Hydrolases would accumulate in the trans-Golgi network, blocking all vesicle trafficking"
+  answer: 1
+  explanation: "Without the M6P tag, lysosomal hydrolases cannot be recognized by M6P receptors at the TGN and are not sorted into the lysosome-directed vesicles. Instead, they enter the default constitutive secretory pathway and are released into the extracellular space. This is exactly what occurs in I-cell disease (mucolipidosis II): lysosomal enzymes are found in the blood and urine rather than in lysosomes, and undigested material accumulates inside cells with swollen, dysfunctional lysosomes."
+
+- question: "An ER-resident chaperone is accidentally swept forward into the Golgi by anterograde transport. Which molecular mechanism ensures its retrieval?"
+  type: multiple-choice
+  options:
+    - "The protein's large size prevents it from being packaged into small Golgi vesicles, so it passively diffuses back"
+    - "KDEL receptors in the Golgi recognize the C-terminal KDEL sequence and package the protein into COPI-coated retrograde vesicles"
+    - "Mannose-6-phosphate receptors in the TGN detect the chaperone's glycans and route it back to the ER"
+    - "The ER's translocon machinery actively reaches into the Golgi to pull mislocalized proteins back"
+  answer: 1
+  explanation: "ER-resident soluble proteins carry a C-terminal KDEL tetrapeptide (Lys-Asp-Glu-Leu). Golgi membranes contain KDEL receptors that recognize this sequence and capture escaped ER proteins, packaging them into COPI-coated vesicles for retrograde transport back to the ER. Once the protein returns to the ER's neutral pH, the KDEL receptor releases it (KDEL binding is pH-dependent, with higher affinity at the Golgi's slightly acidic pH). This retrieval system maintains the distinct molecular identity of each secretory compartment."
+
+- question: "Constitutive secretion is a specialized pathway used only by professional secretory cells (like pancreatic acinar cells) that continuously produce large amounts of a specific exported protein."
+  type: true-false
+  answer: false
+  explanation: "Constitutive secretion is the *default* pathway in all cells — proteins without any special sorting signal are continuously packaged and delivered to the plasma membrane or released extracellularly. It requires no special signal, no triggering event, and no storage step. Regulated secretion is the specialized pathway: it is restricted to cells with secretory granules (neurons, endocrine cells, exocrine glands) and requires an external signal (such as calcium influx) to trigger fusion and release."
+
+- question: "Mannose-6-phosphate receptors release their lysosomal cargo in the acidic environment of late endosomes and are then recycled back to the TGN for reuse."
+  type: true-false
+  answer: true
+  explanation: "The M6P sorting cycle is pH-dependent. M6P receptors bind hydrolases in the TGN at near-neutral pH and release them in the acidic late endosome (pH ~5.5), where the phosphate group is also removed from the mannose. The receptor is then recycled in retrograde vesicles back to the TGN. This recycling allows a relatively small number of receptors to sort large amounts of hydrolase over time."
+
+- question: "Why must lysosomal hydrolases be sequestered within lysosomes rather than released into the cytoplasm, and what disease illustrates what happens when the targeting mechanism fails?"
+  type: short-answer
+  answer: "Lysosomal hydrolases are digestive enzymes — proteases, lipases, nucleases, and glycosidases — that break down all major classes of biological molecules. Releasing them into the cytoplasm would destroy cellular structures and trigger cell death. I-cell disease (mucolipidosis II) results from deficiency of the enzyme that adds the M6P tag: hydrolases are routed to the default secretory pathway and released extracellularly instead of reaching lysosomes. Without functional hydrolases, undigested macromolecules accumulate in swollen lysosomes, causing severe lysosomal storage disease."
+  explanation: "The M6P system is a landmark example of how cells use molecular tags to solve the sorting problem: how does a protein know where to go in a cell with dozens of distinct compartments? The answer is a combinatorial code of signals (KDEL, M6P, dilysine, signal anchors) recognized by specific receptors at the appropriate sorting station. Disrupting any one tag reveals its essential function by misrouting the tagged cargo."
+```
+
 ## Explainer
 
 From your study of the ER and Golgi apparatus, you know that proteins travel through the secretory pathway in a cis-to-trans direction, acquiring modifications like glycosylation along the way. From protein trafficking, you understand that vesicles bud from one compartment and fuse with the next, carrying cargo forward. The **trans-Golgi network (TGN)** is where this forward journey reaches a critical decision point: proteins that have been processed through the Golgi stack must now be sorted and shipped to their correct final destinations. Think of the TGN as a distribution center — everything arrives on the same conveyor belt, but leaves on different trucks heading to different addresses.

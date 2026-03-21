@@ -29,6 +29,45 @@ Visual balance—whether symmetrical, asymmetrical, or radial—creates a sense 
 ## How It's Best Learned
 Sketch three layouts for the same content: one symmetrical, one asymmetrical, one radial. Compare the emotional tone and focus of each. Discuss which balance approach serves the content and audience best.
 
+## Questions
+
+```yaml
+- question: "A designer wants to balance a large, light-gray rectangle that dominates the left side of a layout. Which single element placed on the right side would most effectively achieve visual equilibrium?"
+  type: multiple-choice
+  options:
+    - "A large, light-gray rectangle of nearly the same size as the left element"
+    - "A small, bright-red, highly detailed icon with ample white space surrounding it"
+    - "A medium-gray rectangle slightly smaller than the left one"
+    - "Several small, light-colored shapes distributed across the right side"
+  answer: 1
+  explanation: "Visual weight is not determined by size alone. A small element can carry substantial visual weight when multiple weight factors compound: warm colors (red) advance and feel heavier than cool or neutral ones; high complexity commands disproportionate attention; isolation within white space gives an element emphasis. Option B combines color warmth, complexity, and isolation to produce significant visual weight in a small package — illustrating the core insight that asymmetrical balance works through unequal elements, not matched ones."
+
+- question: "A design layout feels like it is 'tipping' to one side, even though the elements on both sides are similar in size. Which factor is most likely causing the imbalance?"
+  type: multiple-choice
+  options:
+    - "One side uses a sans-serif typeface while the other uses a serif typeface, creating unequal weight"
+    - "The heavier-feeling side likely has darker values, warmer colors, higher texture complexity, or elements positioned near the frame edge — any of which add visual weight beyond raw size"
+    - "Visual weight is always proportional to physical size; if sizes are equal, the design cannot feel imbalanced"
+    - "The problem is color quantity — the side with more colors always feels heavier regardless of their characteristics"
+  answer: 1
+  explanation: "Visual weight depends on a cluster of factors beyond size: darker values carry more weight than lighter ones; warm colors advance and feel heavier than cool colors at the same value; high texture or complexity increases weight; isolation amplifies weight; and elements near the edges or corners feel heavier than centered ones because they create tension against the frame. A layout with similar-sized elements can still be significantly imbalanced if these other variables are unequal."
+
+- question: "Asymmetrical balance achieves visual equilibrium without placing equal visual weights on both sides of a central axis."
+  type: true-false
+  answer: true
+  explanation: "This is the defining characteristic of asymmetrical balance. Like a seesaw where a heavy person sits closer to the center and a lighter person sits farther out, asymmetrical composition balances through the interaction of unequal elements — different sizes, colors, complexities, and positions. The equilibrium is there, but the viewer must actively discover it rather than recognizing it instantly, which is why asymmetrical balance feels dynamic rather than static."
+
+- question: "A perfectly balanced composition always communicates more effectively than one with deliberate visual tension or imbalance."
+  type: true-false
+  answer: false
+  explanation: "Balance is a design tool, not a universal rule. Sometimes the goal is tension, unease, dramatic emphasis, or urgency — effects that equilibrium actually undermines. Horror film posters, avant-garde editorial layouts, and designs meant to unsettle the viewer deliberately break balance to produce a specific emotional response. The key skill is knowing what equilibrium feels like so that when you break it, you break it intentionally and purposefully. Mechanical balance-following is no substitute for understanding what a composition is supposed to communicate."
+
+- question: "Why might a small, warm-colored element in a corner feel visually 'heavier' than its physical size suggests, even when surrounded by much larger neutral elements?"
+  type: short-answer
+  answer: "Multiple visual weight factors compound simultaneously: warm colors advance and feel heavier than cool or neutral ones; corner placement creates tension against the frame; isolation within open space amplifies an element's presence. When these factors stack — warm color + corner position + isolation — a small element can command more visual attention than its size implies, pulling the composition toward that corner and creating an imbalance that cannot be solved simply by making the element smaller."
+  explanation: "This illustrates why diagnosing balance problems requires examining all weight variables, not just comparing sizes. A beginner's instinct is to resize elements to achieve balance, but the actual fix might be a color shift, a position adjustment, or adding counterweight elements elsewhere. Understanding the full roster of visual weight factors — value, temperature, complexity, texture, isolation, position — is what allows designers to diagnose why a layout 'feels off' and choose the right correction."
+```
+
 ## Explainer
 
 You already understand the three fundamental types of balance — symmetrical, asymmetrical, and radial — and you have worked with the concept of visual weight. Now the question becomes: how do you use these tools to create compositions that feel *resolved*? **Visual equilibrium** is the state where no part of a design feels like it is pulling the viewer's attention involuntarily or making the composition feel like it might "tip over." This is not about making everything static — it is about ensuring that whatever dynamism exists in your design is intentional rather than accidental.

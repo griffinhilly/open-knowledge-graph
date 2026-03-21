@@ -31,6 +31,45 @@ Study the major hominin species and their fossil evidence—Lucy (Australopithec
 - Assuming fossil evidence is complete; the record is sparse and biased toward certain environments.
 - Conflating biological evolution with cultural progress or technological inevitability.
 
+## Questions
+
+```yaml
+- question: "Australopithecus afarensis ('Lucy') walked upright but had a brain roughly one-third the size of a modern human's. What does this fact most directly challenge?"
+  type: multiple-choice
+  options:
+    - "The idea that hominins ever lived in Africa"
+    - "The claim that bipedalism evolved as a consequence of increasing brain size and intelligence"
+    - "The fossil record's reliability as evidence of evolutionary history"
+    - "The idea that humans and chimpanzees share a common ancestor"
+  answer: 1
+  explanation: "Bipedalism in Lucy predates significant brain expansion by millions of years. If bipedalism evolved because early hominins 'needed' upright walking to use their large brains or make tools, we would expect brain size and bipedalism to appear together. The fact that bipedalism came first, in a small-brained creature, means it must have evolved for other reasons — likely related to efficient locomotion in a changing African landscape. This shows that human traits evolved piecemeal, not as a coordinated package driven by cognitive progress."
+
+- question: "The classic 'March of Progress' image shows a linear sequence from hunched ape to upright modern human. Which of the following most accurately describes what the fossil record actually shows?"
+  type: multiple-choice
+  options:
+    - "A linear progression, but with some backsliding during ice ages"
+    - "A branching tree with many extinct hominin species coexisting simultaneously, most of which left no descendants"
+    - "A linear progression driven by increasing brain size at every stage"
+    - "Parallel evolution of multiple separate lineages that each independently became modern humans"
+  answer: 1
+  explanation: "The fossil record reveals a bushy, branching tree, not a ladder. Multiple hominin species coexisted at the same time — for example, Homo sapiens and Homo neanderthalensis overlapped for tens of thousands of years. Most hominin lineages went extinct without contributing descendants. The 'march of progress' image is a persistent misconception because it suggests a teleological drive toward modernity; in reality, each hominin species was adapted to its specific environment, and most branches simply ended."
+
+- question: "The fossil record of human evolution is biased toward certain environments because fossilization only occurs under specific conditions."
+  type: true-false
+  answer: true
+  explanation: "Fossils form when organic remains are rapidly buried in sediment and mineralized over time — conditions most commonly found in arid environments near water sources like lake beds and riverbeds. Hominin populations living in forests, highlands, or humid tropical zones are dramatically underrepresented because soft tissues decay rapidly and bones rarely survive in those conditions. This is why new discoveries like Homo naledi can overturn existing narratives: vast geographic regions had essentially no fossil record until excavation revealed them."
+
+- question: "Behavioral modernity in Homo sapiens — including symbolic thinking, language, and long-distance trade — developed gradually and continuously from the earliest bipedal hominins over millions of years."
+  type: true-false
+  answer: false
+  explanation: "While the biological capacities underlying behavioral modernity have deep evolutionary roots, the actual emergence of complex symbolic behavior, personal ornamentation, and long-distance trade networks is concentrated in the last 100,000 years — a relatively short period compared to the 6–7 million year hominin lineage. There is no evidence of these behaviors in Australopithecus or even early Homo. The emergence appears more punctuated than gradual, likely driven by genetic and cultural changes in H. sapiens populations, not a smooth linear unfolding from bipedalism onward."
+
+- question: "Why is the early evolution of bipedalism — millions of years before significant brain expansion — significant for understanding human origins?"
+  type: short-answer
+  answer: "Bipedalism preceding brain expansion shows that human traits did not evolve as a package driven by increasing intelligence. Each feature evolved in its own ecological context for its own reasons. Bipedalism likely served efficient ground locomotion in a changing African landscape, not tool use or cognition. This demonstrates that evolution is opportunistic and piecemeal, not directed toward a goal like 'modernity.' It also means we cannot assume that later hominin traits (like large brains) explain earlier ones (like upright walking)."
+  explanation: "The evolutionary sequence matters because it rules out teleological explanations. If brain size drove everything else, we would expect all human traits to appear together as brain size grew. Instead, bipedalism appeared in a small-brained creature, tool use appeared millions of years later, and behavioral modernity much later still. Each transition needs its own ecological explanation. This bushy, non-linear history is what distinguishes modern paleoanthropological understanding from the 'march of progress' narrative."
+```
+
 ## Explainer
 
 Building on your understanding of human evolution basics, paleoanthropology takes you deeper into the fossil and archaeological evidence that reconstructs the branching history of our lineage. The story begins not with *Homo sapiens* but with the **hominins** — the clade that includes all species more closely related to humans than to chimpanzees. The earliest hominins, dating back around 6–7 million years, were not proto-humans walking purposefully toward modernity; they were creatures adapted to specific environments, whose descendants would diverge along many paths, most of which ended in extinction. Understanding this requires abandoning the linear "march of progress" image entirely.

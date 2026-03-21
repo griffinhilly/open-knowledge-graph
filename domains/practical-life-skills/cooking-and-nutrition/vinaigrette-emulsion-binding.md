@@ -34,6 +34,45 @@ Make both a temporary vinaigrette and a mustard-stabilized one, observing how ea
 - Broken emulsions cannot be fixed (starting with a clean bowl and whisking slowly can reemulsify)
 - The proportion of oil to vinegar doesn't matter (more oil requires more whisking and stronger emulsifiers)
 
+## Questions
+
+```yaml
+- question: "You add a teaspoon of Dijon mustard to a vinaigrette and it stops separating. What is mustard doing chemically to achieve this?"
+  type: multiple-choice
+  options:
+    - "Mustard thickens the water phase, slowing the rise of oil droplets"
+    - "Mustard reacts with the vinegar to neutralize its acidity, making the mixture more stable"
+    - "Mustard contains emulsifying compounds that coat oil droplets at the oil-water interface, preventing them from coalescing"
+    - "Mustard increases the viscosity of the oil, making it harder for droplets to merge"
+  answer: 2
+  explanation: "Mustard contains mucilage compounds that are amphiphilic — one end attracts water, the other attracts fat. These molecules position themselves at the boundary between oil droplets and the water phase, forming a physical barrier that prevents droplets from merging back into a pool of oil. This is the defining function of an emulsifier. Thickening the water phase (option A) can help but is a secondary effect; options B and D are incorrect descriptions of what mustard does."
+
+- question: "You make a vinaigrette at a 5:1 oil-to-vinegar ratio with vigorous whisking but no emulsifier. What will happen when you leave it on the counter?"
+  type: multiple-choice
+  options:
+    - "It will stay emulsified indefinitely because the high proportion of oil creates a stable continuous phase"
+    - "It will separate into layers because there is no emulsifier to coat the oil droplets and prevent coalescence"
+    - "It will solidify because the high oil content causes the fat to crystallize at room temperature"
+    - "It will separate, but the separation is permanent and the dressing cannot be re-emulsified"
+  answer: 1
+  explanation: "Without an emulsifier, any vinaigrette is a temporary emulsion — vigorous mixing creates tiny oil droplets, but they gradually coalesce and rise because nothing is preventing them from merging. A 5:1 ratio makes this worse: more oil means more droplets that need coating and more surface area to stabilize. The separation is not permanent (option D is wrong) — shake or whisk it again and it re-emulsifies. Option A confuses high oil content with stability; oil is the dispersed phase, and more of it is harder, not easier, to keep dispersed."
+
+- question: "A vinaigrette that has separated into an oil layer and a vinegar layer has undergone a chemical reaction that cannot be reversed."
+  type: true-false
+  answer: false
+  explanation: "Separation is a physical process, not a chemical one. The oil and vinegar have simply de-mixed — the oil droplets have coalesced back into a continuous phase. No chemical bonds have broken or formed. Shake or whisk the dressing vigorously and the oil breaks back into tiny droplets dispersed through the vinegar, re-forming the emulsion. A truly broken emulsion (where the emulsifier has been damaged or the proportions are severely off) is unusual in everyday vinaigrette; most separations are easily fixed."
+
+- question: "Using a higher ratio of oil to vinegar makes a vinaigrette harder to stabilize as an emulsion without an emulsifier."
+  type: true-false
+  answer: true
+  explanation: "In an oil-in-water emulsion, oil is the dispersed phase. More oil means a greater volume of oil droplets that need to be coated and kept separate. An emulsifier stabilizes the emulsion by coating the oil-water interfaces, and more oil creates more interface area to coat. At the classic 3:1 ratio, vigorous whisking alone can create a briefly stable emulsion; at 5:1 or higher, the mechanical energy of whisking is insufficient without a true emulsifier (mustard, egg yolk) to keep the droplets from rapidly re-coalescenting."
+
+- question: "Why does egg yolk stabilize mayonnaise so effectively, while a plain whisked vinaigrette separates within minutes?"
+  type: short-answer
+  answer: "Egg yolk contains lecithin, a powerful phospholipid emulsifier that coats oil droplets and prevents coalescence. Plain vinaigrette has no such emulsifier — oil droplets form under mechanical energy but quickly merge back together once mixing stops."
+  explanation: "The key difference is the presence or absence of an emulsifying agent. Lecithin in egg yolk is a phospholipid with a hydrophilic head and hydrophobic tail; it parks itself at every oil-water interface and creates a stable barrier around each droplet. Mayonnaise has a very high oil content (often 70–80%) yet stays stable because every droplet is coated. In a plain vinaigrette, there is nothing at the interface — once mechanical agitation stops, surface tension drives droplet coalescence and the dressing separates. Adding mustard to a vinaigrette introduces mucilage compounds that partially replicate what lecithin does in mayonnaise."
+```
+
 ## Explainer
 
 From your work with emulsion basics, you know that oil and water don't mix — their molecules are chemically incompatible, and left alone they will always separate into two distinct layers. An **emulsion** is a temporary or permanent suspension of one liquid in droplets throughout the other, achieved by mechanical energy and stabilized (or not) by emulsifying agents. Vinaigrette is the kitchen's most visible demonstration of this principle, and understanding why it works and why it fails makes you a far more deliberate cook.

@@ -33,6 +33,45 @@ Comparing Japanese and European feudalism systematically — using a two-column 
 - The emperor in medieval Japan was not simply 'powerless' — imperial legitimacy remained essential even when the shogun held actual power.
 - The samurai code (bushido) as typically described is largely a later idealization; actual samurai were often mercenary, pragmatic, and politically complex.
 
+## Questions
+
+```yaml
+- question: "After establishing the Kamakura shogunate, Minamoto Yoritomo chose to leave the emperor in Kyoto with ceremonial authority rather than abolishing the imperial institution. What was the most important reason for this?"
+  type: multiple-choice
+  options:
+    - "The emperor commanded a large army that Yoritomo could not defeat militarily"
+    - "Imperial legitimacy was essential — the emperor's authority consecrated the shogun's rule, so eliminating the emperor would have undermined the basis of the shogun's own claim to power"
+    - "Yoritomo intended to restore full imperial rule once political stability was achieved"
+    - "Abolishing the emperor would have violated Buddhist teachings that were central to samurai culture"
+  answer: 1
+  explanation: "The dual structure — imperial legitimacy without imperial power — was politically stable precisely because both parties needed each other. The shogun held actual military and administrative power but derived his legitimacy from imperial appointment. The emperor retained symbolic authority and cultural prestige but depended on the shogun for physical security. This interdependence made the system durable: it persisted in various forms for centuries. A shogun who eliminated the emperor would have severed the very source of legitimation that distinguished his rule from mere warlordism."
+
+- question: "The familiar bushido code — emphasizing selfless loyalty, honor unto death, and disdain for material interests — was primarily a product of which period?"
+  type: multiple-choice
+  options:
+    - "The Kamakura period (1185–1333), when the first shogunate was established and samurai culture was formed"
+    - "The Sengoku period (1467–1615), when constant warfare made the samurai code a practical necessity"
+    - "The Edo period (17th–19th century), when prolonged peace made actual warfare rare and samurai needed a cultural identity as a bureaucratic class"
+    - "The Meiji Restoration (1868), when the government deliberately created bushido to promote nationalism"
+  answer: 2
+  explanation: "This is the central misconception about samurai culture. The idealized bushido code as typically described is largely a retrospective construction from the Edo period, when the Tokugawa peace had made samurai into bureaucrats rather than warriors. Without actual warfare to define their identity, samurai culture produced texts like the Hagakure (1716) that elaborated an idealized martial ethos. The *actual* medieval samurai were often pragmatic, politically flexible, and motivated by land, power, and survival — as reflected in sources like the Heike Monogatari, which shows samurai making calculated allegiances and switching sides when expedient."
+
+- question: "The emperor's role in medieval Japan was not simply that of a powerless figurehead — imperial legitimacy remained structurally essential to the political order even when the shogun held all real power."
+  type: true-false
+  answer: true
+  explanation: "This is one of the explicit corrections in the Common Misconceptions section. The shogun needed the emperor's investiture to claim legitimate authority over Japan's warrior class and administrative apparatus; without it, his rule would have rested on naked force alone. The emperor's ritual, cultural, and symbolic functions gave the political order its legitimacy. This dual structure — one institution providing legitimacy, another providing coercive power — recurs across many political systems, and medieval Japan is one of the clearest historical examples."
+
+- question: "Japanese and European feudalism developed in close contact and mutual influence, which explains their structural similarities in decentralized power, warrior codes, and land-for-service arrangements."
+  type: true-false
+  answer: false
+  explanation: "Japanese feudalism developed largely independently of European feudalism, with no significant direct contact. The structural similarities — decentralized power, personal loyalty bonds, warrior codes, land-for-service arrangements — are examples of convergent institutional development: similar social conditions (collapse of central authority, need for local military protection, agricultural surplus requiring organization) producing similar structural solutions. This parallel development is one of comparative history's most instructive cases, raising the question of whether feudal institutions represent a general solution to a common political-economic problem."
+
+- question: "What does the gap between the idealized bushido code and the actual behavior of medieval samurai tell us about how warrior cultures construct and use their own mythology?"
+  type: short-answer
+  answer: "The gap reveals that warrior cultures typically reconstruct their mythology retrospectively, during periods of peace, to serve present social functions rather than to accurately record historical practice. Medieval samurai were frequently ambitious, pragmatic, and mercenary — they changed allegiances when advantageous and pursued land and power alongside honor. The idealized bushido code was elaborated during the Edo period, when samurai had become bureaucrats needing a cultural identity, and served to define their social role in a peaceful society. This pattern — idealized warrior codes being produced after the warriors' practical era ends — appears across multiple cultures. Recognizing it requires treating sources like the Hagakure as ideological documents rather than ethnographic records."
+  explanation: "The methodological lesson extends beyond Japan: any culture's self-description, especially of a valued social type, should be read as a normative statement (what we value, who we aspire to be) rather than a descriptive one (who we actually are). Primary sources like the Heike Monogatari and the Hagakure reveal as much about the aspirations and anxieties of their authors' periods as about the historical samurai they describe. This is why the Common Misconceptions section flags it explicitly — confusing idealization with description is a persistent error in studying warrior cultures."
+```
+
 ## Explainer
 
 If you've studied feudalism as a general system and encountered the Tang dynasty as a model of centralized imperial power, medieval Japan presents a fascinating puzzle: a society that borrowed heavily from Tang China but produced something quite different — a fragmented, warrior-governed polity that closely resembles European feudalism in structure despite having developed independently. This parallel development is one of the most instructive examples of how similar social conditions can generate similar institutional solutions.

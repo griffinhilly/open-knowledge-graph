@@ -29,6 +29,45 @@ Calculate mass defects and binding energies for light and heavy nuclei using ato
 ## Common Misconceptions
 The mass defect is not zero for any nucleus (even hydrogen-1, the proton, has a well-defined internal structure). Heavy nuclei have lower binding energy per nucleon than intermediate-mass nuclei, making fission energetically favorable.
 
+## Questions
+
+```yaml
+- question: "A student argues: 'Fission of uranium releases energy. Therefore fusion of uranium would require energy input.' This reasoning is:"
+  type: multiple-choice
+  options:
+    - "Correct — if splitting a nucleus releases energy, combining it with another must absorb the same energy"
+    - "Correct in principle but wrong in detail — uranium fusion would release only a small amount of energy"
+    - "Incorrect — it confuses the BE/A curve with a simple reversal principle; whether a reaction releases energy depends on whether it moves the products toward the iron-56 peak"
+    - "Incorrect — fission of uranium actually requires energy input, not the reverse"
+  answer: 2
+  explanation: "The student's symmetry argument fails because nuclear energy release is not about reversal — it is about position on the BE/A curve. Uranium (A ≈ 235) sits to the right of the iron-56 peak with lower BE/A. Fission moves its fragments toward the peak, releasing energy. Light nuclei (H, He) sit to the left of the peak; fusion also moves products toward the peak, also releasing energy. Both processes release energy for opposite reasons: both move toward higher BE/A. The misconception is treating fission and fusion as simple reverses of each other."
+
+- question: "The mass defect of a nucleus being Δm = 0.5 u means:"
+  type: multiple-choice
+  options:
+    - "Half a proton's mass was permanently destroyed when the nucleus formed"
+    - "The nucleus has 0.5 u more mass than the sum of its constituent nucleons"
+    - "An energy of Δmc² was released when the nucleons bound together, and must be supplied to disassemble the nucleus"
+    - "The nucleus is unstable and will spontaneously release 0.5 u of mass as radiation"
+  answer: 2
+  explanation: "Mass defect does not mean mass was destroyed — it was converted to binding energy (released when the nucleus formed, consistent with E = mc²). The nucleus has *less* mass than the sum of its parts by Δm, and the binding energy BE = Δmc² is what holds the nucleus together. This energy must be supplied to pull the nucleus apart. The nucleus is not unstable by virtue of having a mass defect — all stable nuclei have positive mass defects."
+
+- question: "Heavy nuclei like uranium are more tightly bound per nucleon than iron-56, which is why they are so massive."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true. Iron-56 sits at the peak of the BE/A curve at approximately 8.8 MeV per nucleon — it is the most tightly bound nucleus. Uranium (A ≈ 235) has a lower BE/A of about 7.6 MeV per nucleon. Heavy nuclei are massive because they contain more nucleons, not because each nucleon is more tightly bound. Their lower BE/A is precisely why fission releases energy: moving to mid-mass fragments increases BE/A toward the iron peak."
+
+- question: "The mass defect of a nucleus is a real, experimentally measurable quantity — not merely a theoretical prediction."
+  type: true-false
+  answer: true
+  explanation: "Mass spectrometers can measure nuclear masses with extraordinary precision (to parts in a billion). The difference between the measured nuclear mass and the sum of the constituent nucleon masses — the mass defect — has been experimentally confirmed for thousands of nuclides. Binding energy values computed from these measurements agree with independent determinations from nuclear reaction energetics. Mass defect is one of the most precisely verified predictions of special relativity applied to nuclear systems."
+
+- question: "Why does the BE/A curve having a peak at iron-56 mean that both nuclear fusion AND fission can release energy, depending on which nucleus is involved?"
+  type: short-answer
+  answer: "The BE/A curve measures how tightly bound the average nucleon is. Any nuclear process in which the products have higher BE/A than the reactants releases energy — because higher BE/A means less mass per nucleon, and the mass difference is released as energy (E = Δmc²). For nuclei lighter than iron-56, fusion combines them into a heavier product closer to the peak, increasing BE/A and releasing energy. For nuclei heavier than iron-56, fission splits them into mid-mass fragments closer to the peak, also increasing BE/A and releasing energy. Iron-56 itself cannot release energy from either process, because any change moves it away from the peak."
+  explanation: "The common misconception is to think that if fission releases energy, fusion must require it (or vice versa). This reversal logic fails because it treats the curve as symmetric around iron. The curve is not symmetric — it rises steeply on the left (light nuclei side) and falls gradually on the right (heavy nuclei side). Both fusion of light nuclei and fission of heavy nuclei move products toward the peak, releasing energy. The peak is the energetic attractor, not a midpoint in a simple reversal."
+```
+
 ## Explainer
 
 Your prerequisite on mass-energy equivalence (E = mc²) gave you the conceptual foundation for understanding why mass and energy are interchangeable. Now apply it to a specific, measurable phenomenon: when protons and neutrons bind together to form a nucleus, the resulting system has less mass than the sum of its parts. This **mass defect** Δm = (Zm_p + Nm_n) − M_nucleus is real and measurable using mass spectrometers with extraordinary precision. Multiplying by c² converts it into the **binding energy** BE = Δmc² — the energy that was released when the nucleus formed, and the energy that must be supplied to pull it apart again.

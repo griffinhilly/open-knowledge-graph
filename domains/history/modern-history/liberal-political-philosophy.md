@@ -31,6 +31,45 @@ Compare liberal political theory with competing ideologies (conservatism, social
 ## Common Misconceptions
 Liberalism is not socialism or communism. Classical liberalism emphasizes limited government, not the social safety net associated with modern 'left-liberal' politics. Liberals also supported imperialism and colonialism, despite emphasis on universal rights.
 
+## Questions
+
+```yaml
+- question: "A 19th-century British politician argues for removing tariffs, expanding free trade, and requiring parliamentary approval for all taxes. Which ideological tradition do these positions most clearly reflect?"
+  type: multiple-choice
+  options:
+    - "Socialism — collective economic arrangements and redistribution of wealth"
+    - "Conservatism — preservation of traditional institutions and order"
+    - "Classical liberalism — constitutional limits on government and market freedom"
+    - "Social liberalism — state intervention to ensure a minimum welfare floor"
+  answer: 2
+  explanation: "Free trade, removal of mercantilist restrictions, and constitutional limits on royal taxation are core classical liberal positions. Classical liberalism combines market freedom with constitutional limits on state power — it is not the welfare-state liberalism associated with 20th-century politics. Options A and D reflect later ideological developments that emerged in response to classical liberalism."
+
+- question: "19th-century liberal states like Britain and France simultaneously championed universal rights at home and maintained colonial empires. How did liberals typically justify this apparent contradiction?"
+  type: multiple-choice
+  options:
+    - "Liberals acknowledged the contradiction but treated colonial populations as lower priorities"
+    - "Liberals did not actually believe in universal rights — the rhetoric was domestic propaganda"
+    - "Liberals applied rights conditionally: only to peoples deemed capable of rational self-governance, excluding 'uncivilized' populations on those grounds"
+    - "Colonial empires predated liberalism, and liberals simply inherited them as a structural inevitability"
+  answer: 2
+  explanation: "The universalism of classical liberalism was conditional. Liberals like Mill argued that rights applied to rational, self-governing individuals, then defined colonized peoples as lacking this capacity — thereby excluding them from the universal claims liberals made at home. This was not simple hypocrisy but a genuine (if deeply flawed) extension of liberal categories that revealed universalism as contingent rather than absolute."
+
+- question: "Classical 19th-century liberalism primarily emphasized expanding state power to ensure greater economic equality among citizens."
+  type: true-false
+  answer: false
+  explanation: "Classical liberalism stood for LIMITING state power, not expanding it. Its economic agenda was market freedom: voluntary exchange, secure property rights, removal of mercantilist regulations, and free trade. Economic equality was a socialist concern — socialists argued precisely that classical liberalism's formal political equality was hollow without addressing economic domination. Social liberals only embraced a larger state role around 1900."
+
+- question: "The tension between individual rights and democratic majoritarianism was a genuine internal problem that 19th-century liberals like Mill actively wrestled with."
+  type: true-false
+  answer: true
+  explanation: "Mill's 'On Liberty' directly addresses this: if the majority votes to restrict individual liberty, does that make the suppression legitimate? Mill drew the distinction between self-regarding actions (where the state should not interfere) and other-regarding actions (where it may), precisely to limit what majorities could legislate. This is a real internal tension in liberal thought, not an external critique."
+
+- question: "What is the difference between classical liberalism and social liberalism, and why did this split occur within the liberal tradition?"
+  type: short-answer
+  answer: "Classical liberalism emphasized minimal government, free markets, and individual liberty from state interference — the state's role was to protect rights, not provide welfare. Social (or 'new') liberalism, which emerged around 1900 and shaped the New Deal, accepted state intervention to ensure a minimum welfare floor, arguing that real freedom requires more than formal political rights. The split occurred under pressure from socialism: if capitalism produced economic domination as severe as political oppression, then limiting the state alone couldn't deliver the freedom liberals promised."
+  explanation: "Understanding this split is essential for reading 20th-century political history, since both traditions claim the liberal label while advocating opposite positions on state intervention. 'Liberal' in the American political sense usually refers to social liberalism; 'liberal' in the European or historical sense usually refers to classical liberalism."
+```
+
 ## Explainer
 
 You already know John Locke's foundational arguments: that individuals possess natural rights to life, liberty, and property that precede the state; that legitimate government derives from consent; and that rulers who violate natural rights may be resisted. You also know that Enlightenment thinkers applied reason to human institutions, questioning traditions that couldn't justify themselves on rational grounds. **Liberalism** in its 19th-century form is the political translation of these ideas into a governing philosophy — a set of answers to the question: what should the relationship between individuals, markets, and the state look like?

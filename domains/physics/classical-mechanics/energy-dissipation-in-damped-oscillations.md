@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 The damping force dissipates mechanical energy at a rate P_damp = b v² (always positive). Over time, total mechanical energy decays exponentially: E(t) = E₀ exp(−t/τ), where τ = m/b is the characteristic decay time. In driven-damped oscillations, the external force continuously supplies energy, which the damping continuously dissipates; at steady state, input and dissipation balance.
 
+## Questions
+
+```yaml
+- question: "An underdamped oscillator is losing energy to friction. At which point in its oscillation is energy being dissipated most rapidly?"
+  type: multiple-choice
+  options:
+    - "At maximum displacement (the turning points), because that is where stored energy is greatest"
+    - "At the equilibrium position, because that is where the oscillator moves fastest"
+    - "At equal rates throughout the cycle, since energy decays exponentially in time"
+    - "Only when the direction of motion reverses, since that is when the damping force changes sign"
+  answer: 1
+  explanation: "The rate of energy dissipation is P = bv², which is maximum when velocity is maximum. For a harmonic oscillator, velocity is maximum at the equilibrium position (x = 0), not at the turning points where v = 0. At the turning points, the oscillator is momentarily at rest, so the damping force does zero work and dissipation is zero. Option A is the classic misconception: confusing the amplitude (maximum displacement) with the velocity. Energy is highest at the turning points, but the rate of energy loss is lowest there."
+
+- question: "If the amplitude of a damped oscillator decays as e^(−bt/2m), how does its total mechanical energy decay?"
+  type: multiple-choice
+  options:
+    - "At the same rate: E(t) ∝ e^(−bt/2m)"
+    - "At half the rate: E(t) ∝ e^(−bt/4m)"
+    - "At twice the rate: E(t) ∝ e^(−bt/m)"
+    - "Linearly in time, since power dissipation is approximately constant"
+  answer: 2
+  explanation: "Mechanical energy is proportional to amplitude squared: E ∝ A². If A decays as e^(−bt/2m), then E ∝ A² ∝ (e^(−bt/2m))² = e^(−bt/m). The energy decays at twice the rate of the amplitude. This follows directly from the power law: if dE/dt = −bv², and v scales as amplitude, then v² scales as amplitude squared, and energy (also scaling as amplitude squared) decays twice as fast in the exponent. This factor of 2 is a direct consequence of energy being a quadratic quantity."
+
+- question: "The damping force dissipates energy at a rate proportional to v², so energy dissipation is greatest when the oscillator passes through the equilibrium position."
+  type: true-false
+  answer: true
+  explanation: "The instantaneous power dissipated by the damping force F_damp = −bv is P = F_damp · v = −bv². The magnitude bv² is maximum when v is maximum. In a harmonic oscillator, maximum velocity occurs at equilibrium (x = 0), where all energy is kinetic and potential energy is zero. So the oscillator dissipates energy most rapidly at equilibrium and most slowly near the turning points, where it momentarily stops."
+
+- question: "In driven-damped oscillations at steady state, the total mechanical energy of the oscillator continues to decrease over time."
+  type: true-false
+  answer: false
+  explanation: "At steady state, the transients have died out and the oscillator vibrates at constant amplitude at the driving frequency. This constant amplitude means constant total energy — the energy neither grows nor decays. The external driver continuously supplies energy at exactly the rate the damping dissipates it; input and dissipation balance. Before steady state is reached, the energy may be growing (if driving is building up amplitude) or decaying (if the system is settling down), but at steady state the net change is zero on average."
+
+- question: "Why does the mechanical energy of an underdamped oscillator decay at twice the rate of its amplitude? What does this reveal about the relationship between energy and amplitude?"
+  type: short-answer
+  answer: "Energy is proportional to amplitude squared (E ∝ ½kA²). If amplitude decays as e^(−γt) with γ = b/2m, then E ∝ A² ∝ e^(−2γt) — the energy decays at twice the exponent rate. This reveals that energy is a quadratic function of amplitude: doubling amplitude quadruples energy, and halving amplitude reduces energy to one-quarter. The rate of energy loss is therefore always twice the rate of amplitude loss."
+  explanation: "This quadratic relationship is a universal feature of simple harmonic motion, not specific to damped systems. In any SHO, E = ½kA² = ½mω²A². So all the energy information is in the amplitude, and changes in amplitude produce proportionally larger changes in energy. The practical consequence is that a lightly damped oscillator (large τ) loses amplitude slowly but loses energy at twice that rate — which matters for engineering applications like resonators, clocks, and acoustic instruments where energy retention determines performance."
+```
+
 ## Explainer
 
 From your study of the damped harmonic oscillator, you know that the equation of motion includes a damping force proportional to velocity: F_damp = −bv. You know the solutions — underdamped oscillations with shrinking amplitude, critical damping, and overdamping — and you have a qualitative picture of how energy gradually leaves the system. This topic makes that energy picture quantitative by asking: at what rate does the damping force remove energy, and how does the total mechanical energy evolve over time?

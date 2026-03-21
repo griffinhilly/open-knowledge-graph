@@ -32,6 +32,45 @@ Read Strawson's 'Freedom and Resentment' for the reactive-attitudes approach. Th
 - Moral responsibility does not require that the agent could have done otherwise in an absolute libertarian sense; compatibilists argue that the right kind of causal history (responsive to reasons) is sufficient.
 - Being causally responsible for an outcome is not the same as being morally responsible; we can cause harm accidentally without being blameworthy.
 
+## Questions
+
+```yaml
+- question: "A driver's brakes fail suddenly without warning due to an undetectable manufacturing defect. She runs a red light and causes an accident. She is clearly the causal origin of the collision. Is she therefore fully morally responsible for the harm?"
+  type: multiple-choice
+  options:
+    - "Yes — she caused the accident, so she bears full moral responsibility regardless of the brake failure"
+    - "Yes — drivers are strictly liable for all accidents their vehicles cause"
+    - "No — moral responsibility requires more than causal connection; she lacked the capacity and epistemic access to avoid the harm, which substantially reduces her blameworthiness"
+    - "No — only the manufacturer is responsible because the defect was in their product"
+  answer: 2
+  explanation: "This scenario illustrates the crucial distinction between causal and moral responsibility. The driver is causally responsible (the accident ran through her vehicle and actions) but not fully morally responsible, because moral responsibility requires that the agent had the relevant capacities and knowledge. She could not foresee or prevent an undetectable brake failure — she lacked both the epistemic access (knowledge of the defect) and the capacity to do otherwise. These are the classic conditions for an excuse, which reduces or eliminates blameworthiness even when the causal chain runs through the agent."
+
+- question: "According to P.F. Strawson's reactive-attitudes account, moral responsibility is grounded in:"
+  type: multiple-choice
+  options:
+    - "The metaphysical fact that agents possess libertarian free will — the ability to have done otherwise in an absolute sense"
+    - "The practice of holding each other within a web of reactive attitudes (resentment, gratitude, indignation) that constitutes interpersonal moral relations"
+    - "Legal and social conventions that attribute blame and credit for practical purposes, independent of any deeper fact"
+    - "The causal history of an action — responsibility flows from tracing causes back to the agent's deliberative process"
+  answer: 1
+  explanation: "Strawson's move is to reframe the question: instead of asking whether agents have some metaphysically special free will before assigning responsibility, he starts with human practice. We naturally respond to actions with reactive attitudes — resentment when wronged, gratitude when helped, indignation on others' behalf. These responses are not optional theoretical add-ons; they are constitutive of interpersonal moral relations. Responsibility is the practice of engaging with others through these attitudes rather than treating them as mechanisms to be managed (the 'objective stance'). This grounds responsibility in lived practice rather than metaphysical preconditions."
+
+- question: "Being the cause of a harmful outcome is sufficient to establish full moral responsibility for that harm."
+  type: true-false
+  answer: false
+  explanation: "Causal responsibility and moral responsibility are distinct. I may cause your coffee to spill by accidentally bumping into you — I am causally responsible — but if I had no way to see you coming and no opportunity to avoid the collision, my moral responsibility is minimal. Moral responsibility tracks intentions, knowledge, and capacities: the agent must have acted with awareness of what they were doing and with some capacity to have done otherwise (or with the relevant intentions). This is why criminal law distinguishes murder (intentional) from manslaughter (negligent) from accident (no culpability) even when all three produce identical causal outcomes."
+
+- question: "An agent can be morally responsible for an attempted harmful act even if the intended harm never actually occurred."
+  type: true-false
+  answer: true
+  explanation: "Moral responsibility tracks the agent's reasons, intentions, and capacities — not merely the causal outcomes that result from their actions. Someone who attempts murder but fails through bad luck is morally responsible for the attempt and appropriately blamed and punished, even though no harm occurred. Conversely, someone who accidentally causes great harm without negligence or foresight bears little moral responsibility despite the bad outcome. This asymmetry (the unsuccessful attempter is more blameworthy than the unlucky accident-causer) reveals that outcomes are not what grounds moral responsibility — intentions and capacities are."
+
+- question: "What is the compatibilist interpretation of 'could have done otherwise,' and why does it matter for assigning moral responsibility under determinism?"
+  type: short-answer
+  answer: "Compatibilists interpret 'could have done otherwise' conditionally rather than absolutely: the agent could have done otherwise if they had chosen differently — meaning their action was responsive to reasons. What matters is not whether the deterministic universe could have produced a different outcome (it couldn't, if determinism is true), but whether the agent's decision-making was reasons-sensitive: could they have responded to different considerations, evidence, or incentives? If yes, then they had the relevant kind of freedom for responsibility, even under determinism. This matters because it allows moral responsibility, blame, and punishment to remain coherent even if all events are causally determined — the relevant question shifts from 'could physics have been different?' to 'was this agent's action produced by their own reasons-responsive deliberation or by compulsion, coercion, or incapacity?'"
+  explanation: "Hard incompatibilists argue this conditional reading is insufficient — that real 'could have done otherwise' requires the universe literally could have gone differently, which determinism denies. The debate is not merely academic: it shapes whether retributive punishment (people deserve blame because they truly could have chosen otherwise) is ever justified, or whether consequentialist justifications (deterrence, rehabilitation) are the only defensible ones. The compatibilist response preserves the everyday practice of holding people accountable while conceding that absolute libertarian free will may not exist."
+```
+
 ## Explainer
 
 You already know from free-will-and-determinism that a central question in philosophy is whether human choices are genuinely free or are the inevitable product of prior causes. Moral responsibility is where that abstract debate becomes urgently practical. The question is: given whatever is true about the metaphysics of the will, under what conditions is it appropriate to hold someone accountable — to praise, blame, punish, or reward them? Responsibility is the bridge between metaphysics and ethics.

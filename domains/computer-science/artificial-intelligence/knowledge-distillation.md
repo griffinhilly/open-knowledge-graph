@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Knowledge distillation transfers knowledge from large, accurate teacher models to smaller, faster student models by training students to mimic teacher outputs. Using soft probability distributions instead of hard labels provides richer supervision signals. Students achieve similar accuracy with orders of magnitude fewer parameters.
 
+## Questions
+
+```yaml
+- question: "A student model is trained twice: once on hard labels (one-hot vectors) and once on soft targets from a large teacher model, using the same architecture and training set. Why does the soft-target student typically generalize better?"
+  type: multiple-choice
+  options:
+    - "Soft targets provide gradient signal for every output class on every example, teaching inter-class similarity rather than just the correct answer"
+    - "Soft targets reduce the learning rate implicitly, preventing the student from overfitting"
+    - "The teacher model acts as data augmentation by generating additional training samples"
+    - "Soft targets allow the student to match the teacher's weight values directly, bypassing normal gradient descent"
+  answer: 0
+  explanation: "A hard label like [0, 0, 1, 0, 0] only provides gradient signal for the correct class. A soft target like [0.02, 0.05, 0.85, 0.06, 0.02] provides gradient signal for every class: the student learns that 'cat' and 'dog' are more similar to each other than to 'car.' This relational information — the 'dark knowledge' — exists in the teacher's outputs but is invisible in hard labels. Every training example teaches the student something about the structure of the space of classes, not just which label is correct."
+
+- question: "What is the effect of increasing the temperature parameter T applied to the teacher's softmax during distillation?"
+  type: multiple-choice
+  options:
+    - "It sharpens the teacher's distribution, making the correct class probability approach 1.0"
+    - "It flattens the teacher's distribution, making inter-class probability differences more visible to the student"
+    - "It increases the weight of the hard label loss relative to the soft target loss"
+    - "It reduces the number of training epochs needed to achieve convergence"
+  answer: 1
+  explanation: "Temperature T > 1 divides the logits before the softmax, which spreads probability mass more evenly across classes. At T=1, a correct class might get 0.99 probability, leaving only 0.01 for all other classes — the inter-class relationships are nearly invisible. At T=3 or T=5, that same distribution might become 0.60 / 0.25 / 0.10 / 0.05, making the teacher's belief about similarity among non-target classes clearly readable. The student trains on this enriched signal, then at inference time T is set back to 1 for normal classification."
+
+- question: "Raising the temperature parameter in distillation makes the teacher's output distribution more peaked, concentrating probability on the correct class."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true. Temperature scaling divides logits by T before the softmax. Higher T → smaller logit differences → softer, more uniform distribution. T=1 is the default; T>1 smooths the distribution (increases entropy); T<1 sharpens it. In distillation, high temperature is used during training to expose the inter-class structure; at inference, the student uses T=1. Confusing 'high temperature = sharper' (the physical intuition might suggest 'higher energy = more activity') with the mathematical effect of the temperature scaling operation is a common error."
+
+- question: "The 'dark knowledge' transferred during distillation refers to information about which incorrect classes the teacher considers plausible — information that a hard one-hot label cannot convey."
+  type: true-false
+  answer: true
+  explanation: "Hinton coined 'dark knowledge' to describe the relational structure encoded in soft probabilities: that a misclassified 'cat' is more likely to be 'dog' than 'airplane' reveals something real about the visual similarity of the inputs. Hard labels collapse this structure entirely — every wrong answer gets probability 0. The student trained only on hard labels sees only 'right vs. wrong'; the student trained on soft targets learns the geometry of the class space. This relational structure is what allows small students to approach teacher accuracy with far fewer parameters."
+
+- question: "Why do soft targets from a teacher model provide richer supervision than hard labels, even when both identify the same correct class for every training example?"
+  type: short-answer
+  answer: "Hard labels assign probability 1 to the correct class and 0 to all others, providing useful gradient signal only for the single correct output. Soft targets assign non-zero probabilities to many classes, reflecting the teacher's learned beliefs about similarity: a cat image might score 0.85 cat, 0.10 tiger, 0.03 dog. These probabilities encode which incorrect answers are 'understandably wrong' vs. 'completely wrong,' revealing the structure of the input space. Every training example therefore teaches the student about the relationships among all classes, not just which single label is correct. The result is a richer loss landscape that improves generalization, even when both teacher and hard-label students see exactly the same inputs."
+  explanation: "This 'dark knowledge' is especially valuable in low-data regimes and on inputs near decision boundaries, where inter-class similarity information most affects the correct prediction. Hard labels treat every wrong answer as equally wrong; soft targets treat them proportionally to the teacher's uncertainty."
+```
+
 ## Explainer
 
 From your work with neural networks, you know that larger models with more parameters generally achieve better accuracy — but they also consume more memory and compute at inference time. A massive model that takes seconds per prediction is useless in a real-time application. **Knowledge distillation** solves this by training a small, efficient **student model** to reproduce the behavior of a large, powerful **teacher model**, capturing most of the teacher's accuracy at a fraction of the cost.

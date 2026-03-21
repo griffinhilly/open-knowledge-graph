@@ -29,6 +29,45 @@ Emphasize the critical first step: the equation must be set equal to zero before
 - Finding only one solution when there are two.
 - Forgetting that x² = 0 gives x = 0 as a solution (not "no solution").
 
+## Questions
+
+```yaml
+- question: "A student has the equation x² − 5x = 6. They factor the left side as x(x − 5) = 6 and conclude x = 6 or x − 5 = 6, giving x = 6 or x = 11. What error did they make?"
+  type: multiple-choice
+  options:
+    - "They factored the left side incorrectly"
+    - "They applied the zero product property without first setting the equation equal to zero"
+    - "They should have used the quadratic formula for this equation"
+    - "They found two solutions when this equation has only one"
+  answer: 1
+  explanation: "The zero product property states that if a product equals zero, one of the factors must be zero. It does NOT apply when a product equals any other number — if two things multiply to 6, there are infinitely many possibilities. The required first step is to move all terms to one side: x² − 5x − 6 = 0, then factor to (x − 6)(x + 1) = 0, giving x = 6 or x = −1. The student's error of skipping this step is the most common mistake in solving quadratics by factoring."
+
+- question: "Which of the following quadratic equations has exactly one real solution?"
+  type: multiple-choice
+  options:
+    - "x² − 5x + 6 = 0"
+    - "x² − 6x + 9 = 0"
+    - "x² − 4 = 0"
+    - "x² + 2x − 8 = 0"
+  answer: 1
+  explanation: "x² − 6x + 9 = 0 factors as (x − 3)² = 0, giving x = 3 as a repeated root — one solution (technically multiplicity 2, but only one distinct value). The others factor as (x−2)(x−3) = 0 (two solutions: 2 and 3), (x−2)(x+2) = 0 (two solutions: 2 and −2), and (x+4)(x−2) = 0 (two solutions: −4 and 2). A repeated factor means the parabola touches the x-axis at exactly one point without crossing it."
+
+- question: "To solve the equation (x + 4)(x − 3) = 0, you can set each factor equal to zero independently because the product equals zero."
+  type: true-false
+  answer: true
+  explanation: "This is the zero product property in action. Because the product of the two factors is zero, at least one factor must be zero — there is no other way a product can be zero. Setting x + 4 = 0 gives x = −4, and setting x − 3 = 0 gives x = 3. Both values satisfy the original equation. The reason you can treat the factors independently is that zero is the only number with this special 'forcing' property."
+
+- question: "If (x + 2)(x − 3) = 6, you can find the solutions by setting x + 2 = 6 or x − 3 = 6."
+  type: true-false
+  answer: false
+  explanation: "The zero product property only applies when a product equals zero, not any other number. If x + 2 = 6 then x = 4, and checking: (4+2)(4−3) = 6×1 = 6, so x = 4 happens to work — but x − 3 = 6 gives x = 9, and (9+2)(9−3) = 11×6 = 66 ≠ 6. The correct method is to expand and rearrange: x² − x − 6 = 6 → x² − x − 12 = 0 → (x − 4)(x + 3) = 0, giving x = 4 or x = −3."
+
+- question: "Why must a quadratic equation be set equal to zero before you can use the zero product property? What goes wrong if you skip this step?"
+  type: short-answer
+  answer: "The zero product property is specifically about products that equal zero: if ab = 0, then a = 0 or b = 0. This works because zero is the only number with the property that one factor must be zero. If the product equals any other number — say 6 — then there are infinitely many factor pairs that multiply to 6, so you cannot set each factor equal to that number and solve independently. Skipping the 'set equal to zero' step leads to equations like x(x−5) = 6, which incorrectly suggests x = 6 or x−5 = 6 as solutions."
+  explanation: "The zero product property is a uniquely powerful tool precisely because it only works for zero. Any equation of the form ab = k where k ≠ 0 cannot be solved by splitting into a = k or b = k. Setting the equation equal to zero first converts the problem into exactly the form where this property applies, turning the quadratic into two simple linear equations."
+```
+
 ## Explainer
 
 From your work with factoring, you know how to break a polynomial like x² − 5x + 6 into factors (x − 2)(x − 3). Solving quadratics by factoring uses that skill to answer a new question: for which x-values does the polynomial equal zero? The key is the **zero product property**: if two quantities multiply to zero, at least one of them must be zero. This is the only time multiplication guarantees a factor is zero, and it's why the method only works after you set the equation equal to zero.

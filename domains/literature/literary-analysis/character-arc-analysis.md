@@ -34,6 +34,45 @@ Map a character's beliefs, goals, and qualities at the story's beginning, middle
 - Assuming all characters must have dramatic arcs; some characters intentionally remain static to highlight others' change.
 - Conflating character change with plot events; characters can experience events without truly changing their fundamental nature.
 
+## Questions
+
+```yaml
+- question: "A protagonist experiences betrayal, catastrophic loss, and near-death — yet at the story's end makes the same types of choices and holds the same core beliefs as at the beginning. How should an analyst interpret this?"
+  type: multiple-choice
+  options:
+    - "The author failed to develop the character convincingly across the narrative"
+    - "This is a flat arc — an intentional choice that serves the narrative by showing the world transforms around a stable character"
+    - "The character has a positive arc because surviving hardship is itself a form of growth"
+    - "The character has a negative arc because nothing changed for the better"
+  answer: 1
+  explanation: "A flat arc is not a failure — it is a formal choice. Some stories require an unchanging protagonist whose steadfastness catalyzes change in the world or in other characters. Assuming every character must dramatically transform imposes a positive-arc template onto all narratives. The key question is whether the static quality serves the story's purpose, not whether change occurred."
+
+- question: "What distinguishes a 'turning point' in character arc analysis from any other plot event?"
+  type: multiple-choice
+  options:
+    - "Turning points always involve physical danger or conflict between characters"
+    - "Turning points are the most dramatically intense scenes in the narrative"
+    - "Turning points force the character to make a choice that reveals or changes who they are"
+    - "Turning points are events that the author signals explicitly with language like 'everything changed'"
+  answer: 2
+  explanation: "A turning point is defined not by dramatic intensity but by its effect on character: it forces a choice that either establishes something new about who the character is or shifts their trajectory. A quiet conversation can be a more significant turning point than a battle, if it is where the character's belief or value changes. The analytical question is always: 'Who is this character now that they have made this choice?'"
+
+- question: "A flat character arc indicates the author failed to develop the character sufficiently."
+  type: true-false
+  answer: false
+  explanation: "Flat arcs are intentional formal choices, not failures. Characters like Atticus Finch or Sherlock Holmes maintain consistent values across their narratives, and that stability is central to how they function thematically. A flat arc may be exactly right for a story arguing for moral constancy, or for a character whose role is to transform others rather than themselves. The error is assuming all characters must arc dramatically."
+
+- question: "A character's arc is defined by the events they experience throughout the narrative."
+  type: true-false
+  answer: false
+  explanation: "This confuses plot with character arc. Events are external; arcs are internal. A character can survive dramatic events — war, betrayal, loss — without their fundamental beliefs, values, or worldview changing. Arc analysis tracks what happens inside the character: how their wants and needs evolve, whether their self-understanding shifts, what choices they make differently. The events are the catalyst; the arc is the response."
+
+- question: "Why do analysts distinguish between what a character 'wants' and what they 'need' when mapping a character arc?"
+  type: short-answer
+  answer: "The 'want' is the character's conscious goal — what they actively pursue. The 'need' is the deeper thing they are missing, which they may not recognize or may actively resist. The gap between the two is the engine of most meaningful arcs: the character typically spends the narrative moving (often reluctantly) from pursuing the want toward confronting the need. Identifying both reveals the arc's direction and the story's implicit argument about what the character must change."
+  explanation: "This distinction matters because it separates surface-level plot goals from thematic development. A character who wants revenge may need to learn that revenge destroys the avenger — and the arc traces how events force that realization. Without distinguishing want from need, analysis stays at the plot level and misses what the arc is actually about."
+```
+
 ## Explainer
 
 From your study of characterization methods and character motivation, you already understand how authors construct characters — through dialogue, action, physical description, and the reactions of others — and what drives those characters to act. A **character arc** is what you get when you track that construction across time: the line connecting who a character is at the beginning of a story to who they are at the end, and the events that produce the transformation. Arc analysis is the analytical skill of identifying that line precisely and asking what it means.

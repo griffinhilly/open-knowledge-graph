@@ -28,6 +28,45 @@ Begin with a single work from each major period (e.g., a Gregorian chant, Renais
 ## Common Misconceptions
 - History is an inevitable march of progress toward 'better' music. (Styles reflect their era's values, not an absolute hierarchy.) - All music from a period sounds the same. (Considerable diversity and experiment occurred within each era.)
 
+## Questions
+
+```yaml
+- question: "A student listens to Gregorian chant and says 'This is clearly primitive music — it's just one voice with no harmony.' What response best reflects a music historian's approach?"
+  type: multiple-choice
+  options:
+    - "The student is right — chant is an earlier, simpler stage on the way to the polyphony that followed"
+    - "The student should judge it by Baroque standards since those represent the peak of Western music"
+    - "Chant should be understood on its own terms: it is a refined modal tradition with its own spiritual function, and judging it by later harmonic standards misreads what it was trying to do"
+    - "The student's aesthetic reaction is valid because music history is ultimately about personal taste"
+  answer: 2
+  explanation: "Music historians resist projecting present-day aesthetic values onto past music. Gregorian chant is not 'primitive polyphony waiting to happen' — it is a sophisticated tradition of monophonic vocal music with its own modal logic, rhythmic freedom, and liturgical purpose. Calling it primitive assumes that more voices and richer harmony are inherently superior, which is a modern aesthetic bias, not a historical judgment. Understanding chant requires inhabiting the values and purposes of the communities that created it."
+
+- question: "What does it mean to say that musical periods like 'Baroque' or 'Classical' are historian's tools rather than natural facts?"
+  type: multiple-choice
+  options:
+    - "It means the periods are fictional and there were no real differences between musical eras"
+    - "It means these labels were assigned retrospectively to mark genuine clusters of stylistic, social, and technological change — composers did not experience themselves as belonging to 'periods'"
+    - "It means historians disagree about whether music history exists as a discipline"
+    - "It means period boundaries are arbitrary and could be placed anywhere without loss of accuracy"
+  answer: 1
+  explanation: "Period labels like 'Baroque' emerged after the fact, imposed by later scholars to mark genuine shifts in style, institution, and technology. Composers in 1700 did not announce they were Baroque composers — they wrote the music that was idiomatic and expected in their time. The periods capture real patterns (the shift from polyphony to bass-and-melody texture, the rise of opera), but they are analytical constructions, not natural divisions, and every period contains internal diversity."
+
+- question: "Musical period labels like 'Baroque' and 'Classical' were coined by composers themselves to describe their own stylistic innovations."
+  type: true-false
+  answer: false
+  explanation: "Period labels were assigned retrospectively by historians, not by the composers who worked within those eras. 'Baroque' was originally a term of mild disparagement applied later; 'Classical' emerged as a label only after the Romantic era gave historians a contrast point. Composers experienced themselves as working within inherited traditions and responding to contemporary conditions — the period boundaries are analytical categories, not self-identifications."
+
+- question: "Music from earlier historical periods can sound 'simple' to modern ears while still representing sophisticated achievement within its own context."
+  type: true-false
+  answer: true
+  explanation: "This is precisely the point of resisting presentism in music history. Gregorian chant, with its modal system and liturgical function, represents centuries of refined development — it is not simple music, even if its texture is unfamiliar to ears trained on tonal harmony. Conversely, music once considered radical (Beethoven's late quartets, Stravinsky's Rite of Spring) may now sound comfortable. Historical sophistication and present-day familiarity are independent of each other."
+
+- question: "What does it mean to 'resist hearing the past through the present' when studying music history, and why is this skill central to the discipline?"
+  type: short-answer
+  answer: "It means suspending current aesthetic frameworks — what sounds 'good,' 'complex,' or 'advanced' to modern ears — long enough to understand what music meant and accomplished in its own time, given the available technology, social context, and expressive goals of that era. This is central because musical choices that seem obvious or limiting today may have been daring or refined then, and vice versa."
+  explanation: "Without this skill, music history collapses into a teleological story of progress toward the present, which distorts the past. A music historian cannot evaluate a Renaissance motet by wishing it had a tonal harmonic structure that wouldn't exist for another century. The goal is imaginative reconstruction: understanding the value system and constraints of the original context, which reveals why composers made the choices they did."
+```
+
 ## Explainer
 
 Music history is not a list of dates and composers — it is an inquiry into why music sounds the way it does at particular moments. Every stylistic feature of any piece of music is partly a response to inherited conventions, available technology, social expectations, and individual creative will. When you learn to ask "why did this composer make this choice, and what possibilities did they have?", you move from passive listening to historical understanding. The field is comparative by nature: you cannot understand what Beethoven was doing without knowing what Haydn and Mozart had established, just as you cannot understand jazz without knowing blues and European harmony.

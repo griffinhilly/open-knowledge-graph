@@ -24,6 +24,45 @@ Performative utterances accomplish actions through the act of utterance itself (
 ## How It's Best Learned
 Study Austin's original examples and understand how performatives depend on social conventions, proper context, and speaker authority. Examine borderline cases to see why the performative/constative distinction is subtle.
 
+## Questions
+
+```yaml
+- question: "A person who is not a judge says to a defendant: 'I sentence you to five years in prison.' According to Austin's framework, what has happened?"
+  type: multiple-choice
+  options:
+    - "The utterance is false — no one can be sentenced without a real judge"
+    - "The utterance is a misfire — the required conventional procedure and appropriate person are absent, so the act does not come off"
+    - "The utterance is an abuse — the speaker has the right form but wrong intentions"
+    - "The utterance is a successful performative but legally unenforceable"
+  answer: 1
+  explanation: "Austin distinguishes misfires from abuses. A misfire occurs when the required conventions and circumstances are not in place — here, the speaker lacks the institutional role (judge) required for this performative to execute. The act simply does not come off: no sentence has been imposed. This is not a matter of truth or falsehood (the utterance is neither), nor of insincerity (abuse). Option D captures the intuition but misuses Austin's framework — a misfired performative doesn't 'succeed' in any performative sense; it is void."
+
+- question: "What is the fundamental difference between a performative utterance ('I promise to return your book') and a constative utterance ('He promised to return the book')?"
+  type: multiple-choice
+  options:
+    - "Performatives use first-person singular present tense; constatives do not"
+    - "Performatives are evaluated by felicity conditions (did the act come off?); constatives are evaluated by truth conditions (is it accurate?)"
+    - "Performatives can only be spoken in official ceremonies; constatives occur in everyday conversation"
+    - "Constatives are always false when spoken, because describing action is not the same as acting"
+  answer: 1
+  explanation: "The key distinction is not grammatical but evaluative. Constatives describe states of affairs and can be true or false. Performatives do not describe — they enact. 'I promise to return your book' does not report a pre-existing promise; it creates one. The appropriate question is whether the act was felicitous (the right circumstances, speaker, procedure, intentions), not whether a proposition was accurate. Option A (first-person present tense) is a useful heuristic but not the criterion — Austin recognized implicit performatives that lack this form. Option C badly restricts the scope of performatives."
+
+- question: "A promise made with no intention to keep it is still, in Austin's terms, a promise — even though something has gone wrong with it."
+  type: true-false
+  answer: true
+  explanation: "True. Austin calls this an 'abuse': the conventional procedure has been correctly executed (the promise 'takes'), but the speaker is insincere — they lack the requisite feelings or intentions. An abuse differs from a misfire: a misfired performative fails to come off at all, while an abused performative successfully performs the act (you really have promised) but does so dishonestly. This is why promise-breaking is a genuine moral wrong, not just a false statement — it involves creating an obligation through a felicitous speech act and then violating it."
+
+- question: "Performative utterances can be evaluated as true or false in the same way that descriptive statements can."
+  type: true-false
+  answer: false
+  explanation: "False. This is the central contrast Austin draws. 'I now pronounce you married' does not describe a pre-existing marriage — it creates one. Asking whether the utterance is 'true' or 'false' is a category error. The appropriate assessment is whether it was felicitous or infelicitous: whether the conditions for the act to come off (appropriate persons, circumstances, procedure, sincerity) were met. If they were not, the utterance misfires or is an abuse — but it is not false. Austin's insight was that a large range of language use had been misanalyzed as description when it was actually action."
+
+- question: "Why did Austin eventually abandon the strict binary distinction between performative and constative utterances?"
+  type: short-answer
+  answer: "Austin recognized that the distinction was unstable because virtually any constative utterance also has a performative dimension: to say 'The cat is on the mat' is to perform the act of stating — and stating is itself an illocutionary act. Conversely, some apparent performatives have descriptive content. The binary collapsed into the more general three-part framework: every utterance has a locutionary act (what is said), an illocutionary act (what is done in saying it — asserting, promising, declaring), and a perlocutionary act (what effect is produced in the hearer)."
+  explanation: "The richer framework captures Austin's deeper insight: performativity is not a special property of a few ceremonial phrases but a dimension of all meaningful utterance. Every time you speak, you are doing something — the explicit performative ('I hereby declare…') just makes visible what is always happening. The general theory of speech acts (developed further by Searle) grew from this recognition that the performative/constative binary was too crude."
+```
+
 ## Explainer
 
 From your study of Austin's speech act theory, you know that utterances do not merely describe states of affairs — they perform actions. And from your study of speech act content and force, you know that the same propositional content can be deployed with different illocutionary forces: a statement, a promise, a question, a command. Performative utterances sharpen this insight by focusing on the most vivid cases: utterances where the doing is so directly linguistic that there is no gap between saying and performing.

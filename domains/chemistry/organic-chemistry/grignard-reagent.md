@@ -33,6 +33,44 @@ Practice the full synthetic sequence: formation of RMgX, then nucleophilic addit
 - The ether solvent is not inert — it stabilizes the Grignard reagent through coordination to magnesium. Without ether, the reagent often does not form.
 - Grignard addition to esters does not stop at the ketone stage; two equivalents of RMgX add to give a tertiary alcohol because the initial tetrahedral intermediate collapses to a ketone that reacts again.
 
+## Questions
+
+```yaml
+- question: "A student reacts methylmagnesium bromide (CH₃MgBr) with acetaldehyde (CH₃CHO), then works up with dilute aqueous acid. What is the organic product?"
+  type: multiple-choice
+  options:
+    - "Acetone — the Grignard adds a methyl group to give a ketone product"
+    - "2-Propanol — the Grignard's nucleophilic carbon adds to the aldehyde carbonyl, giving a secondary alcohol after workup"
+    - "1-Propanol — the reaction proceeds through a formaldehyde intermediate to give a primary alcohol"
+    - "Propanal — the Grignard reduces the aldehyde while extending the chain by one carbon"
+  answer: 1
+  explanation: "RMgX + aldehyde → secondary alcohol. CH₃MgBr adds to CH₃CHO: the nucleophilic carbanion-like carbon attacks the electrophilic carbonyl carbon, forming a magnesium alkoxide with the C skeleton (CH₃)(CH₃)CHOMgBr. Acidic aqueous workup protonates the alkoxide to give 2-propanol (isopropanol), a secondary alcohol. Option A confuses nucleophilic addition with some kind of oxidation; the Grignard does not convert aldehydes to ketones — it adds to them."
+
+- question: "A student wants to synthesize a product using a Grignard reagent, but the substrate molecule also contains a hydroxyl group on the carbon chain. What must the student do before forming the Grignard?"
+  type: multiple-choice
+  options:
+    - "Proceed normally — the hydroxyl group will coordinate to magnesium and improve the reaction's selectivity"
+    - "Protect the hydroxyl group, because the -OH proton will instantly destroy the C-Mg bond by protonolysis before any productive reaction can occur"
+    - "Use a milder aryl Grignard instead of an alkyl Grignard, since aryl Grignards are less sensitive to protic groups"
+    - "Cool the reaction to −78°C to slow the protonolysis so the Grignard reaction can compete kinetically"
+  answer: 1
+  explanation: "The C-Mg bond is one of the strongest nucleophiles in organic chemistry precisely because it behaves as a carbanion — and carbanions are instantly protonated by any source of acidic hydrogen. A hydroxyl group (pKa ~16) is far more acidic than what the Grignard requires; protonolysis is essentially instantaneous and irreversible. Cooling cannot slow this down. The only solution is to protect the OH group (e.g., as a THP ether or silyl ether) before introducing magnesium, then deprotect at the end. The same applies to NH and COOH groups."
+
+- question: "When a Grignard reagent reacts with an ester, two equivalents of RMgX add to give a tertiary alcohol — the reaction does not stop at the ketone intermediate."
+  type: true-false
+  answer: true
+  explanation: "The first addition of RMgX to an ester gives a tetrahedral intermediate that collapses by expelling the alkoxide leaving group, generating a ketone in situ. This ketone is actually more electrophilic and more reactive toward Grignard addition than the original ester. The still-present Grignard immediately adds again, and after acidic workup the product is a tertiary alcohol bearing two identical R groups from the two equivalents of RMgX. Attempts to stop at the ketone stage by using limiting Grignard typically fail — if a ketone product is desired, other organometallic reagents or lower-reactivity acyl equivalents must be used."
+
+- question: "Diethyl ether is used as the solvent for Grignard reactions because it is chemically inert and does not interact with the reagent."
+  type: true-false
+  answer: false
+  explanation: "Ether is far from inert in Grignard chemistry — it actively stabilizes the reagent through Lewis acid-base coordination. Magnesium is a Lewis acid; the ether oxygen lone pairs act as Lewis bases, coordinating to Mg and solvating the C-Mg bond. This solvation is essential for the reagent to form and remain stable. Without an ethereal solvent, Grignard reagents often cannot be prepared at all. 'Anhydrous and coordinative' is the accurate description. The critical requirement is that ether be rigorously dry (anhydrous), not that it be inert."
+
+- question: "Describe the retrosynthetic logic for designing a Grignard synthesis. Given a target alcohol, how do you identify the required Grignard reagent and carbonyl compound?"
+  type: short-answer
+  answer: "In retrosynthesis, disconnect the C-C bond that was formed adjacent to the -OH group. The carbon bearing -OH was originally the electrophilic carbonyl carbon; the carbon on the other side of the disconnect came from the Grignard's R group (the carbanion equivalent). The alcohol class tells you which carbonyl substrate was used: a primary alcohol (RCH₂OH, excluding methanol) implies the Grignard added to formaldehyde; a secondary alcohol (RR'CHOH) implies addition to an aldehyde (R'CHO); a tertiary alcohol (RR'R''COH) implies addition to a ketone. Each target can often be disconnected in multiple ways, giving different valid synthetic routes. For example, 2-pentanol (a secondary alcohol) could be made from ethylmagnesium bromide + propanal, or from propylmagnesium bromide + acetaldehyde — either disconnection is valid."
+```
+
 ## Explainer
 
 From your study of covalent bonding and carbonyl chemistry, you know that the C=O bond is strongly polarized — the carbon is electrophilic (δ⁺) and the oxygen is nucleophilic (δ⁻). To form a new carbon-carbon bond at that electrophilic carbon, you need a carbon nucleophile — a carbon atom that carries significant negative character. That is exactly what a **Grignard reagent** provides. When you react an alkyl or aryl halide (like CH₃Br) with magnesium metal in dry diethyl ether, you get CH₃MgBr — a species where the carbon-magnesium bond is so polar (magnesium is far less electronegative than carbon) that the carbon effectively behaves as a **carbanion** (C⁻), one of the strongest nucleophiles in organic chemistry.

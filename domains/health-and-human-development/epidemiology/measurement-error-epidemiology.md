@@ -30,6 +30,45 @@ Use simulation to demonstrate differential vs. non-differential misclassificatio
 ## Common Misconceptions
 Measurement error always biases toward the null (differential error biases away). Validation substudies must be simple random samples of the full cohort.
 
+## Questions
+
+```yaml
+- question: "A cohort study examines red meat consumption and colorectal cancer risk. Dietary intake is measured by a food frequency questionnaire that misclassifies some high consumers as moderate and vice versa — equally among those who later develop cancer and those who don't. What happens to the observed relative risk?"
+  type: multiple-choice
+  options:
+    - "The relative risk is inflated because misclassification amplifies contrasts between exposure groups"
+    - "The relative risk is biased toward the null (toward 1.0), attenuating the true association"
+    - "The relative risk is unaffected because non-differential errors cancel out on average in large samples"
+    - "The bias direction is unpredictable because non-differential misclassification affects both groups simultaneously"
+  answer: 1
+  explanation: "Non-differential exposure misclassification — error rates equal in cases and non-cases — almost always biases relative risk estimates toward the null. Misclassified exposed individuals are counted as unexposed, and vice versa, blurring the boundary between groups and making their incidence rates converge. In a 2×2 table, this reduces apparent differences and attenuates the RR toward 1.0 even when the true association is strong. This 'attenuation bias' means studies with noisy exposure measurement systematically underestimate effect sizes."
+
+- question: "In a case-control study on smoking and lung cancer, cases (lung cancer patients) tend to over-report past smoking compared to controls due to recall bias. How is the measured odds ratio affected?"
+  type: multiple-choice
+  options:
+    - "The odds ratio is biased toward the null because cases' over-reporting dilutes the true exposure contrast"
+    - "The odds ratio is artificially inflated — the apparent association between smoking and cancer is stronger than the true association"
+    - "The odds ratio is unaffected because differential misclassification averages out in large samples"
+    - "The odds ratio is deflated because controls also over-report smoking to match the social expectations set by the cases"
+  answer: 1
+  explanation: "Differential misclassification occurs when error rates differ by disease status. Cases who over-report smoking (relative to controls) appear more exposed than they truly are, increasing the apparent numerator of exposure in the case group. This makes the odds ratio appear larger than the true value — bias away from the null. This is the classic recall bias direction in case-control studies of serious diseases: patients search their memory more intensively for potential causes. There is no general rule that differential misclassification biases in any particular direction — you must reason through the specific mechanism."
+
+- question: "Non-differential exposure misclassification in epidemiologic studies almost always biases relative risk estimates toward 1.0, making true associations appear weaker than they are."
+  type: true-false
+  answer: true
+  explanation: "This is one of the most reliable rules in epidemiology. When misclassification is non-differential (equal rates across disease groups), exposed individuals are randomly scattered into the unexposed category and vice versa, making the two groups more similar than they truly are. The result is convergence of incidence rates toward each other and shrinkage of the relative risk toward 1.0. The practical implication is important: if a study with noisy exposure measurement finds a significant positive association, the true effect is likely even larger. Non-differential misclassification is said to be 'conservative' — it works against finding spurious associations."
+
+- question: "Measurement error in epidemiologic studies always biases results toward the null, regardless of whether the misclassification is differential or non-differential."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception the topic directly addresses. Non-differential misclassification typically biases toward the null (attenuation). But differential misclassification — where error rates differ by disease or exposure status — can bias in either direction: toward or away from the null, depending on which group is systematically misclassified and in which direction. Recall bias (cases over-reporting exposure) is a classic example of bias away from the null. There is no universal rule for differential misclassification; the direction requires reasoning through the specific error mechanism in each study."
+
+- question: "A researcher observes a relative risk of 1.4 in her cohort study. She knows that non-differential exposure misclassification was present. What does this imply about the true relative risk, and why?"
+  type: short-answer
+  answer: "The true relative risk is likely larger than 1.4. Non-differential misclassification biases relative risk estimates toward the null (toward 1.0) by blurring the boundary between exposed and unexposed groups. If the observed estimate has already been attenuated toward 1.0, the true underlying association must be stronger. The researcher's observed RR of 1.4 is the attenuated version — the true RR, if the exposure had been measured without error, would be higher. She can estimate the true RR using regression calibration or other correction methods if she has sensitivity and specificity data from a validation substudy."
+  explanation: "This is the core practical implication of non-differential misclassification: it makes findings conservative, not liberal. A significant result despite noisy measurement implies the true effect is even larger. Conversely, a null result does not rule out a real association — the exposure measurement may simply be too noisy to detect it. This is why validation substudies are so important: they let you correct for the attenuation and estimate the true effect size."
+```
+
 ## Explainer
 
 Every epidemiologic measure — a dietary recall, a self-reported exposure, a disease code in administrative data — is an imperfect proxy for the true quantity of interest. **Measurement error** is the systematic or random gap between what you measured and what you wanted to measure. From your study of **information bias**, you already know that errors in data collection can distort risk estimates. This topic formalizes the underlying mechanisms, letting you predict not just *whether* bias will occur but *which direction* it will push your estimate.

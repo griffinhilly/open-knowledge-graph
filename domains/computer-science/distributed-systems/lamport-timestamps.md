@@ -28,6 +28,45 @@ Trace execution of multiple processes sending messages and track how timestamps 
 ## Common Misconceptions
 Lamport timestamps uniquely determine causality (they only order causally related events); they require synchronized physical clocks.
 
+## Questions
+
+```yaml
+- question: "Process B has a local Lamport counter of 3 when it receives a message from Process A stamped with timestamp 7. What value does Process B assign as its new counter?"
+  type: multiple-choice
+  options:
+    - "3 — B keeps its own counter unchanged"
+    - "7 — B adopts the sender's timestamp directly"
+    - "8 — B sets its counter to max(3, 7) + 1"
+    - "10 — B sums the two counter values"
+  answer: 2
+  explanation: "The Lamport update rule on receipt is: new_counter = max(local, received) + 1. Here max(3, 7) = 7, so the counter becomes 8. The +1 is essential — it ensures the receive event gets a strictly higher timestamp than the corresponding send event, preserving causal order. Simply adopting the sender's value (option 1) would make send and receive simultaneous, which violates the algorithm."
+
+- question: "Event X on process P1 has Lamport timestamp 5. Event Y on process P2 has Lamport timestamp 8. A colleague concludes that X must have happened before Y. This conclusion is:"
+  type: multiple-choice
+  options:
+    - "Always correct — smaller Lamport timestamps reliably indicate earlier causal occurrence"
+    - "Always incorrect — Lamport timestamps carry no information about ordering"
+    - "Possibly correct but not provable from timestamps alone — ts(X) < ts(Y) is consistent with X → Y but does not prove it"
+    - "Correct specifically because X and Y are on different processes"
+  answer: 2
+  explanation: "Lamport's clock condition is one-directional: if A happened-before B, then ts(A) < ts(B). The converse does not hold. X and Y may be causally unrelated (concurrent) yet incidentally assigned timestamps 5 and 8 based on local counter states. The only safe inference from ts(X) < ts(Y) is that Y did not causally precede X. To distinguish 'X caused Y' from 'X and Y are concurrent,' you need vector clocks, which track per-process causal history."
+
+- question: "In a distributed system using Lamport timestamps, if event A happened-before event B, then A's timestamp is guaranteed to be strictly less than B's timestamp."
+  type: true-false
+  answer: true
+  explanation: "This is the Lamport clock condition and it is guaranteed by the algorithm. Every causal link — local increments and the max+1 rule on receipt — ensures effects always receive strictly higher timestamps than their causes. This one-directional guarantee makes Lamport timestamps sufficient for establishing a consistent total ordering of events across a distributed system."
+
+- question: "If event A has a strictly lower Lamport timestamp than event B, then A must have happened before B in the distributed execution."
+  type: true-false
+  answer: false
+  explanation: "This is the converse of the clock condition, and it does not hold. Two concurrent (causally unrelated) events on separate processes can have any timestamp relationship depending on their local counter histories. A lower timestamp eliminates the possibility that B caused A, but does not prove A caused B. This is the core limitation of Lamport timestamps — they cannot detect concurrency — and the primary motivation for vector clocks."
+
+- question: "Explain why Lamport timestamps cannot determine whether two events are concurrent, and what structural information would need to be added to the clock mechanism to detect concurrency."
+  type: short-answer
+  answer: "Lamport timestamps collapse each process's causal history into a single scalar. This is enough to build a total order (sufficient for mutual exclusion or replicated state machines) but loses the structure needed to distinguish 'A happened before B' from 'A and B are concurrent with A getting a lower counter by coincidence.' To detect concurrency, vector clocks maintain a separate counter per process. Two events are concurrent precisely when neither event's vector dominates the other — no single integer comparison can capture this."
+  explanation: "The fundamental limitation is information loss: a scalar cannot encode the full causal graph of a distributed execution. Vector clocks trade simplicity (one integer per event) for expressiveness (full causal comparison). The choice between them depends on whether the application needs only to order events or also to identify independent ones."
+```
+
 ## Explainer
 
 From your study of logical clocks, you know that physical clocks in a distributed system cannot be perfectly synchronized — network delays, clock drift, and relativity itself make a global "wall clock time" unreliable for ordering events. **Lamport timestamps** solve a specific, critical problem: given two events in a distributed system, can we determine whether one *must have* happened before the other? Leslie Lamport showed that a single integer counter per process, combined with a simple update rule, is enough to capture causal ordering.

@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Cumulative incidence is the probability that an individual will experience an outcome over a defined time period, calculated as new outcomes divided by number at-risk. Unlike incidence rate, cumulative incidence accounts for loss to follow-up and varying follow-up durations, making it appropriate for communicating risk to patients.
 
+## Questions
+
+```yaml
+- question: "A study follows 500 people for 5 years to estimate cumulative incidence. By year 5, 50 people developed the outcome. Another 100 people were lost to follow-up at various points. A researcher computes 5-year CI as 50/500 = 10%. What is the fundamental problem?"
+  type: multiple-choice
+  options:
+    - "The numerator should include people lost to follow-up as potential cases"
+    - "The denominator treats all 500 as followed for the full 5 years, ignoring that censored individuals contributed less than 5 years of risk time — overstating the at-risk pool and underestimating true risk"
+    - "Cumulative incidence cannot be calculated over 5 years; it requires 10-year follow-up"
+    - "The formula is correct; loss to follow-up does not affect the denominator"
+  answer: 1
+  explanation: "Censored individuals were not followed to the event endpoint. Including them as full observations assumes they were at risk the entire period — overstating the denominator and underestimating risk. The Kaplan-Meier estimator corrects this by updating the at-risk count at each event time."
+
+- question: "In a 5-year study, the incidence rate is 0.02 per person-year. A colleague argues that the 5-year cumulative incidence is simply 0.02 × 5 = 0.10. This approximation is:"
+  type: multiple-choice
+  options:
+    - "Always correct — cumulative incidence equals rate × time by definition"
+    - "A valid approximation when outcomes are rare and follow-up is short, but increasingly incorrect as rates rise or durations lengthen"
+    - "Only valid for propagated outbreaks, not cohort studies"
+    - "Correct only when there is no censoring"
+  answer: 1
+  explanation: "When the outcome is rare and the time window short, CI ≈ rate × time. At longer durations or higher rates, this diverges substantially — the incidence rate is an instantaneous measure that assumes a constant hazard, while cumulative incidence is bounded at 1.0 and accounts for the shrinking at-risk pool."
+
+- question: "A cumulative incidence of 15% is fully interpretable without knowing the time period over which it was calculated."
+  type: true-false
+  answer: false
+  explanation: "Time horizon is integral to the definition of cumulative incidence — it answers 'probability of outcome within a specified window.' Without specifying that window (e.g., '5-year cumulative incidence'), the figure is meaningless. An annual CI of 15% and a 20-year CI of 15% convey entirely different levels of risk."
+
+- question: "The Kaplan-Meier estimator handles censoring by updating the at-risk denominator at each event time, allowing survival probability to be estimated even when participants leave the study at different times."
+  type: true-false
+  answer: true
+  explanation: "Kaplan-Meier works step by step: at each event time, it multiplies the cumulative survival probability by the conditional probability of surviving that step, using only individuals still under observation. Censored individuals are removed from the at-risk count before the next step — they neither inflate nor deflate the denominator inappropriately."
+
+- question: "Why can't competing events (such as deaths from other causes) simply be treated as ordinary censored observations when calculating cumulative incidence for a specific outcome?"
+  type: short-answer
+  answer: "Ordinary censoring assumes the individual remains at risk of the outcome after they leave observation — it treats their future as unobserved but possible. A participant who dies of cardiovascular disease is no longer at risk of dying from cancer; treating their death as censoring implies they could still develop cancer, which inflates the cumulative incidence of cancer. Competing risks methods (e.g., cause-specific hazards, Gray's method) correctly account for this by recognizing that one event permanently removes the individual from the risk set for the other."
+  explanation: "This is the central conceptual gap between simple cumulative incidence and competing risks analysis. Censoring is appropriate for dropout or administrative end-of-study; it is inappropriate for events that biologically preclude the outcome of interest. Ignoring competing risks systematically overstates the probability of the primary outcome."
+```
+
 ## Explainer
 
 From your prerequisite on disease frequency measures, you know that epidemiology distinguishes **prevalence** (existing cases at a snapshot in time) from **incidence** (new cases arising over a period). Within incidence, your person-time work introduced the **incidence rate** — events divided by total person-time at risk — as the appropriate measure when participants are followed for variable durations. **Cumulative incidence** is a distinct and complementary measure: it answers the question "what is the probability that a currently disease-free person will develop the outcome within a specified time window?" The time window is integral to the definition — cumulative incidence without a time horizon is meaningless.

@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 A relation R from A to B is any subset of the Cartesian product A × B. This formalization treats all relational structures—ordering relations, equivalence relations, correspondence—as mathematical objects. Key properties include reflexivity, symmetry, transitivity, and totality, which characterize important relation types.
 
+## Questions
+
+```yaml
+- question: "Consider the 'divides' relation on positive integers: a R b if a divides b evenly. Is this relation reflexive? Is it symmetric?"
+  type: multiple-choice
+  options:
+    - "Reflexive only — every number divides itself, but 2 divides 4 while 4 does not divide 2"
+    - "Both reflexive and symmetric — every number divides itself, and if a divides b then b divides a"
+    - "Neither — integers cannot divide themselves, and divisibility does not go both directions"
+    - "Symmetric only — if a divides b then b divides a, but no number divides itself"
+  answer: 0
+  explanation: "Every positive integer divides itself (n/n = 1), so the pair (n, n) is in the relation for all n — reflexive. But divisibility is not symmetric: 2 divides 4, yet 4 does not divide 2. So (2, 4) ∈ R but (4, 2) ∉ R, which means the relation is not symmetric. Option B's claim that divisibility is symmetric is false for most pairs."
+
+- question: "You want to define a function f: {1, 2, 3} → {a, b, c} as a relation R ⊆ {1,2,3} × {a,b,c}. Which set of pairs qualifies as a function?"
+  type: multiple-choice
+  options:
+    - "{(1, a), (1, b), (2, c), (3, a)} — having two outputs for input 1 is permitted in a general relation"
+    - "{(1, a), (2, b)} — not every input has an output, but partial definitions are valid functions"
+    - "{(1, b), (2, a), (3, c)} — every domain element appears exactly once as a left coordinate"
+    - "{} — the empty relation qualifies since no pair violates the uniqueness condition"
+  answer: 2
+  explanation: "A function requires every element of the domain to appear as a left coordinate exactly once. Option C satisfies this: 1 maps to b, 2 to a, 3 to c — total coverage and uniqueness. Option A fails uniqueness (1 has two images). Option B fails totality (3 is missing). Option D fails totality (no element has any image). The empty set is a relation but not a total function on this domain."
+
+- question: "A relation R ⊆ A × A is symmetric if and only if it contains no ordered pair (a, b) where a ≠ b."
+  type: true-false
+  answer: false
+  explanation: "Symmetry requires that for every (a, b) ∈ R, the reverse (b, a) is also in R. It does not require the absence of pairs with a ≠ b — it requires such pairs to come in matching pairs. For example, {(1,2), (2,1), (3,3)} is symmetric despite containing pairs with distinct elements. The only relation containing no pair (a, b) with a ≠ b is a subset of the diagonal — that's a different property, not symmetry."
+
+- question: "A function from A to B is a special case of a relation from A to B, subject to the constraint that every element of A appears as a left coordinate exactly once."
+  type: true-false
+  answer: true
+  explanation: "This is the formal definition. A relation R ⊆ A × B becomes a total function when it satisfies two additional constraints: existence (every a ∈ A appears in at least one pair — every input has an output) and uniqueness (no a ∈ A appears in more than one pair — every input has exactly one output). A general relation satisfies neither condition; adding both gives a function. Functions are not a separate concept from relations — they are a constrained subtype."
+
+- question: "What does it mean to define a relation 'extensionally,' and why does this approach matter for formal reasoning?"
+  type: short-answer
+  answer: "An extensional definition specifies a relation by listing exactly which pairs it contains — not by stating a rule or formula that generates them. Two relations defined by different rules but containing the same pairs are identical under the extensional definition, because identity is determined purely by membership. This matters because it allows set-theoretic operations (union, intersection, complement, composition) to apply directly to relations, and enables formal proofs about relational structure without depending on how the relation was described."
+  explanation: "The extensional view is what allows you to treat 'less than on integers,' 'is a parent of,' and 'has the same remainder mod 3 as' as objects of the same type — subsets of Cartesian products — even though they arise from completely different contexts. Formal reasoning requires this uniformity: you can't apply the machinery of set theory to a vague 'rule' the way you can to an explicit set of pairs."
+```
+
 ## Explainer
 
 You already know that the **Cartesian product** A × B is the set of all ordered pairs (a, b) where a ∈ A and b ∈ B. A relation is simply a selection from that pool — a subset R ⊆ A × B that picks exactly the pairs you want to declare "related." Writing (a, b) ∈ R is equivalent to saying "a is related to b under R," often written aRb. The key insight is that this definition requires nothing more than set membership: a relation is not a rule or a formula, just a collection of ordered pairs.

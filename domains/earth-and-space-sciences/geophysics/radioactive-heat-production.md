@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Radioactive decay of U, Th, and K generates ~10–50 mW/m³ in continental crust, contributing substantially to surface heat flow. Heat production decreases with depth and is concentrated in granitoid rocks; accounting for radiogenic heat is essential in thermal models.
 
+## Questions
+
+```yaml
+- question: "Why is radioactive heat production orders of magnitude higher in granitic rocks than in mantle peridotite?"
+  type: multiple-choice
+  options:
+    - "Granites are older rocks that have accumulated more radioactive decay products over time"
+    - "Uranium, thorium, and potassium are incompatible elements that concentrate in silica-rich melts during magmatic differentiation"
+    - "Mantle rocks are too hot for radioactive isotopes to remain stable, so they migrate upward into the crust"
+    - "Granites contain more iron and magnesium, which are the primary heat-producing elements in the crust"
+  answer: 1
+  explanation: "U, Th, and K are geochemically 'incompatible' — they don't fit well into the crystal structures of dense, mafic minerals like olivine and pyroxene. During partial melting, they preferentially partition into the melt phase and ultimately concentrate in the silica-rich, low-density granitic rocks that form the upper continental crust. Mantle peridotite, which consists mainly of olivine and pyroxene, is strongly depleted in these elements. Option D is wrong: iron and magnesium are compatible elements, not heat producers."
+
+- question: "A geophysicist constructs a thermal model of the continental crust but neglects radiogenic heat production entirely. How would the predicted temperatures compare to reality?"
+  type: multiple-choice
+  options:
+    - "Predicted temperatures would be too high because radiogenic heat adds to conductive heat from the mantle"
+    - "Predicted temperatures would be too low in the upper crust because a major heat source has been omitted"
+    - "The model would be unaffected because radiogenic heat is too small to influence crustal temperatures"
+    - "Predicted temperatures would be too high at the Moho because mantle heat flow would be overestimated"
+  answer: 1
+  explanation: "Radiogenic heat production in the upper crust — especially in granitic rocks — contributes substantially to surface heat flow. Ignoring it means the model has no internal heat source, so all surface heat flow must come from the mantle. This underestimates temperatures in the upper crust (where the missing heat source sits) and incorrectly overattributes all heat flow to the mantle. Option D is partially related but the primary effect is too-low temperatures in the upper crust, not an error at the Moho per se."
+
+- question: "The linear relationship between surface heat flow and surface rock heat production allows geophysicists to estimate the mantle heat flow contribution (reduced heat flow) independently of the crustal radiogenic contribution."
+  type: true-false
+  answer: true
+  explanation: "This is the heat flow–heat production relationship. If surface heat flow Q is plotted against heat production A measured from surface rocks across a region, the data fall on a line: Q = Q_r + D·A, where Q_r is the y-intercept (reduced heat flow — mantle contribution) and D is the characteristic thickness of the heat-producing layer. The slope D and intercept Q_r can be fit from data, separating the mantle component from the crustal radiogenic component without needing deep borehole measurements."
+
+- question: "Radioactive heat production in the continental crust is approximately uniform with depth because radioactive isotopes are distributed evenly throughout the lithosphere."
+  type: true-false
+  answer: false
+  explanation: "Heat production decreases strongly with depth — often following an exponential decrease with a characteristic scale length of about 10 km. This depth dependence exists because U, Th, and K are incompatible elements that concentrate at the top of the crust during differentiation. Mantle rocks are strongly depleted in these elements. A thermal model that assumes uniform heat production would significantly overestimate temperatures at depth and misattribute heat sources."
+
+- question: "Explain why incompatible elements like uranium, thorium, and potassium end up concentrated in the upper continental crust rather than remaining distributed throughout the mantle."
+  type: short-answer
+  answer: "Incompatible elements have ionic radii or charges that don't fit well into the crystal structures of common mantle minerals (olivine, pyroxene, garnet). During partial melting of the mantle, these elements strongly prefer the melt phase over the solid residue. Repeated episodes of partial melting, melt extraction, and crystallization progressively enrich the crust in incompatible elements while depleting the residual mantle. The granitic rocks of the upper continental crust represent the most evolved, silica-rich, incompatible-element-enriched products of this differentiation history."
+  explanation: "This magmatic differentiation is the same process that concentrated economically important ore deposits. The radiogenic consequence — enriched upper crust, depleted mantle — has first-order effects on crustal thermal structure, continental geotherms, and the long-term thermal evolution of Earth."
+```
+
 ## Explainer
 
 From your understanding of heat flow measurement, you know that geothermal heat flow quantifies how much thermal energy escapes through Earth's surface per unit area. But where does that heat come from? Part of it is primordial — left over from Earth's formation and core crystallization. The rest is generated continuously within the crust and mantle by **radioactive decay**, and understanding this internal heat source is essential for building accurate thermal models of the lithosphere.

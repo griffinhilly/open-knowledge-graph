@@ -30,6 +30,45 @@ Track porosity loss with depth in well logs. Examine diagenetic textures in thin
 - Compaction is purely mechanical with no chemical change.
 - Diagenesis stops at shallow depths.
 
+## Questions
+
+```yaml
+- question: "A geologist examines a deeply buried sandstone and finds that quartz grains have sutured, interlocking contacts with concave-convex geometries. What process most likely produced this texture?"
+  type: multiple-choice
+  options:
+    - "Mechanical compaction from the weight of overlying sediment, which pressed and deformed the quartz grains"
+    - "Pressure solution at grain contacts, where stress dissolved quartz that reprecipitated as cement nearby"
+    - "External silica-rich hydrothermal fluids introduced from a nearby igneous intrusion"
+    - "Biological cementation by silica-secreting organisms living in the original pore spaces"
+  answer: 1
+  explanation: "Pressure solution (chemical compaction) occurs where grains press against each other under burial stress: the mineral at the contact point dissolves because the stress increases its solubility. The dissolved material migrates a short distance and reprecipitates as cement in adjacent pore space. The result is sutured, interlocking grain boundaries — concave-convex contacts, truncated grains, or stylolites in carbonates. This is a chemical process that occurs at grain contacts, distinguishing it from purely mechanical compaction (grain rearrangement without dissolution)."
+
+- question: "At a certain depth in a sedimentary basin, clays have converted from smectite to illite. What does this mineral transformation indicate about the burial and thermal history of the sediment?"
+  type: multiple-choice
+  options:
+    - "The sediment experienced intense mechanical compaction that physically reordered the clay crystal structure"
+    - "The depth interval reached temperatures of roughly 100–150°C, driving the diagenetic transformation over geologic time"
+    - "Meteoric (surface-derived) water infiltrated to that depth and altered the clay chemistry"
+    - "High-salinity pore fluids replaced smectite through ion exchange at shallow burial depths"
+  answer: 1
+  explanation: "The smectite-to-illite transition is a classic diagenetic geothermometer. It requires elevated temperatures (roughly 70–150°C depending on time and chemistry) and is irreversible. Its occurrence at a specific depth signals that the rocks there reached that thermal window during burial. Petrographers use this transition — along with vitrinite reflectance, apatite fission tracks, and other thermochronometers — to reconstruct burial and thermal histories. It does not occur at shallow depths from surface-derived fluids."
+
+- question: "Loose marine muds can start with 60–80% porosity at the seafloor surface and compact to 10–20% porosity at depth primarily through expulsion of pore water and grain rearrangement."
+  type: true-false
+  answer: true
+  explanation: "Fine-grained sediments like muds are especially porous when first deposited because platy clay minerals trap enormous volumes of water. Burial compaction squeezes out this water and forces grain rearrangement. This is mechanical compaction — physical reorganization without chemical reaction. The dramatic porosity reduction is why compaction logs in boreholes show steeply decreasing porosity with depth in shale sequences. Sands are less compactable because spherical grains already pack efficiently and are more rigid."
+
+- question: "Cementation of buried sandstones always requires an external source of mineral-rich fluids to migrate into the formation from outside."
+  type: true-false
+  answer: false
+  explanation: "Cementation can be largely self-sourced through pressure solution. At grain contacts under burial stress, quartz dissolves into the local pore fluid. This fluid is already present in the pore space, and the dissolved silica reprecipitates a short distance away in open pores, effectively transferring material from grain contacts to pore throats. No external fluid input is required. External fluids (from adjacent formations or hydrothermal sources) can contribute cements, but pressure solution demonstrates that burial diagenesis is not dependent on them."
+
+- question: "Why is diagenesis important for petroleum geologists, and what specific diagenetic properties of a rock determine whether it can function as an effective petroleum reservoir?"
+  type: short-answer
+  answer: "Petroleum geologists need to predict whether a buried rock has sufficient porosity (pore space to store hydrocarbons) and permeability (connected pore throats that allow fluids to flow) to be an economically viable reservoir. Diagenesis controls both: compaction and cementation reduce porosity, while pressure solution and some dissolution events can either reduce or locally restore it. The diagenetic history — what temperatures were reached, what fluids passed through, which cements precipitated — determines the final reservoir quality. Understanding diagenesis allows geologists to predict reservoir quality before drilling based on burial depth, basin thermal history, and lithology."
+  explanation: "Reservoir quality prediction is one of the most economically significant applications of diagenetic analysis. A sandstone that looks promising in seismic imaging may have been deeply buried and thoroughly cemented, leaving negligible porosity. Diagenetic analysis from nearby wells and basin models allows geologists to assess risk before committing to expensive drilling campaigns."
+```
+
 ## Explainer
 
 From your study of sedimentary rocks, you know that sediments accumulate in layers at Earth's surface — sand on a beach, mud on a lake floor, shells on the ocean bottom. But loose sediment is not rock. The transformation from unconsolidated grains to solid stone happens through **burial, compaction, and diagenesis** — a suite of physical and chemical processes that begin the moment sediment is deposited and continue as it is progressively buried under newer layers.

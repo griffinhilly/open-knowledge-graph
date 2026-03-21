@@ -37,6 +37,45 @@ Derive capacitor and inductor impedances from their phasor i-v relationships rat
 - Adding complex impedances by adding only their magnitudes rather than using complex arithmetic.
 - Confusing admittance Y = 1/Z with conductance G = 1/R — conductance is only the real part of admittance.
 
+## Questions
+
+```yaml
+- question: "Two impedances Z₁ = 3 + 4j Ω and Z₂ = 3 − 4j Ω are connected in series. What is the total impedance?"
+  type: multiple-choice
+  options:
+    - "10 Ω, because the magnitudes are |Z₁| = |Z₂| = 5 Ω and 5 + 5 = 10"
+    - "0 Ω, because the imaginary parts cancel to zero and the real parts also cancel"
+    - "6 Ω, because series impedances add as complex numbers: (3+4j) + (3−4j) = 6 + 0j"
+    - "25 Ω, because impedances multiply in series"
+  answer: 2
+  explanation: "Series impedances add as complex numbers, not as magnitudes. (3+4j) + (3−4j) = 6 + 0j = 6 Ω — purely resistive. Adding magnitudes (5 + 5 = 10) is wrong because it ignores phase: Z₁'s imaginary part +4j and Z₂'s imaginary part −4j cancel exactly. This is also physically meaningful: one element is inductive (Z₁), the other capacitive (Z₂), and at the specific frequency where their reactances are equal and opposite, the combination looks purely resistive — this is resonance."
+
+- question: "An engineer finds the impedance of a circuit element is Z = 1 + j Ω. She computes the admittance Y = 1/Z and then claims the conductance G = Re(Y) = 1/Re(Z) = 1 S. Is she correct?"
+  type: multiple-choice
+  options:
+    - "Yes — conductance is always the reciprocal of the real part of impedance"
+    - "No — G = Re(Y) = Re(1/(1+j)) = 0.5 S, which is not 1/Re(Z)"
+    - "No — admittance and conductance are the same quantity, so the calculation is redundant"
+    - "Yes — the real part of 1/Z equals the reciprocal of the real part of Z for any impedance"
+  answer: 1
+  explanation: "Conductance G = Re(Y) = Re(1/Z), but in general Re(1/Z) ≠ 1/Re(Z). For Z = 1+j: Y = 1/(1+j) = (1−j)/((1+j)(1−j)) = (1−j)/2 = 0.5 − 0.5j. So G = Re(Y) = 0.5 S, not 1 S. The relationship G = 1/R only holds when Z is purely real (a resistor). For mixed RLC impedances, you must compute Y = 1/Z using full complex arithmetic and then take the real part. This is one of the most common errors in AC circuit analysis."
+
+- question: "A capacitor's impedance increases as the frequency of the applied signal increases."
+  type: true-false
+  answer: false
+  explanation: "Capacitor impedance is Z_C = 1/(jωC), so its magnitude is |Z_C| = 1/(ωC), which *decreases* as frequency ω increases. At high frequency, the capacitor barely opposes the rapidly changing signal — it acts almost like a short circuit. At low frequency (approaching DC), |Z_C| → ∞ and the capacitor blocks current. This is the opposite of the inductor (Z_L = jωL), whose impedance *increases* with frequency. Understanding this frequency dependence is the foundation of filter design."
+
+- question: "Impedances combine in series and parallel by exactly the same rules as resistances, which means DC circuit analysis techniques — voltage dividers, Thévenin equivalents, node voltage, and mesh analysis — all apply directly in the phasor domain."
+  type: true-false
+  answer: true
+  explanation: "This is the central power of impedance analysis. Because Kirchhoff's laws hold for phasors, and because impedances combine by the same algebraic rules as resistances, every technique developed for DC resistive circuits transfers unchanged to AC circuits in the phasor domain. The only change is that resistances become complex impedances, so all arithmetic must be complex. A voltage divider with impedances gives V_out/V_in = Z₂/(Z₁ + Z₂), and because Z depends on ω, this ratio varies with frequency — which is precisely how filters work."
+
+- question: "Why does adding the magnitudes of two series impedances give the wrong total impedance, and what is the correct procedure?"
+  type: short-answer
+  answer: "Impedances are complex numbers with both a real part (resistance) and an imaginary part (reactance). When impedances are in series, they add as complex numbers: Z_total = Z₁ + Z₂ = (R₁+R₂) + j(X₁+X₂). The magnitude |Z_total| = √((R₁+R₂)² + (X₁+X₂)²), which is generally not equal to |Z₁| + |Z₂| = √(R₁²+X₁²) + √(R₂²+X₂²). Adding magnitudes discards phase information — it ignores the fact that inductive and capacitive reactances can partially or fully cancel."
+  explanation: "The triangle inequality for complex numbers states |Z₁ + Z₂| ≤ |Z₁| + |Z₂|, with equality only when Z₁ and Z₂ point in the same direction (same phase angle). When one impedance is inductive (+jX) and the other is capacitive (−jX), they point in opposite directions and partially cancel — the magnitude of the sum is much less than the sum of the magnitudes."
+```
+
 ## Explainer
 
 From your work with phasors, you know that sinusoidal voltages and currents in steady state can be represented as complex amplitudes — phasors — that encode both magnitude and phase. The power of this representation is that differentiation and integration in the time domain become simple multiplication and division in the phasor domain. **Impedance** is the concept that completes this picture: it is the ratio Z = V/I of the voltage phasor to the current phasor, generalizing resistance to any linear element at any frequency.

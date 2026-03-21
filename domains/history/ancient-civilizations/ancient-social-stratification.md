@@ -35,6 +35,45 @@ Read documentary papyri, slave sale records, and tomb inscriptions from non-elit
 - Slavery in the ancient world was not exclusively racial; it was primarily based on military capture, debt, and birth to enslaved mothers.
 - Ancient hierarchies were often legitimized through religious cosmology—inequality was presented as divinely ordained, not politically contingent.
 
+## Questions
+
+```yaml
+- question: "A student claims that slavery in ancient Rome was racially organized, similar to antebellum American slavery. What is the most accurate correction?"
+  type: multiple-choice
+  options:
+    - "The student is correct — Roman slavery was primarily organized around racial categories"
+    - "The student is incorrect — Roman slavery was primarily determined by military conquest, debt, and birth to enslaved mothers, not by racial classification"
+    - "The student is incorrect — Roman slavery was entirely voluntary, with enslaved people choosing their status for economic security"
+    - "The student is partially correct — while racial categories were not formalized in law, informal racial discrimination determined who became enslaved"
+  answer: 1
+  explanation: "Roman slavery was not racially organized. Enslaved people came from across the Roman world — Gauls, Greeks, Syrians, Africans, Germans — with military conquest as the primary source. A Roman citizen could theoretically be enslaved for debt, and a freed slave became a Roman citizen regardless of origin. The racial basis of slavery as it developed in the Atlantic world was a specific historical construction, not a universal feature of slavery as an institution. This misconception is directly addressed in the Common Misconceptions section."
+
+- question: "The pharaoh was described as maintaining ma'at and acting as intermediary between gods and humans. From a social history perspective, what political function did this religious framing serve?"
+  type: multiple-choice
+  options:
+    - "It provided a neutral, shared framework that all Egyptians used to evaluate the pharaoh's performance objectively"
+    - "It made inequality appear cosmically necessary and divinely ordained rather than politically contingent, stabilizing the hierarchy by making it seem as natural as the rising sun"
+    - "It had no political function — ma'at was purely a religious concept with no implications for social organization"
+    - "It gave ordinary Egyptians direct ritual access to the gods, equalizing their status relative to elites"
+  answer: 1
+  explanation: "Religious legitimation is one of the most important cross-civilizational patterns in ancient stratification. By framing the pharaoh's role as cosmically necessary — maintaining the order that caused the sun to rise and the Nile to flood — the ideology made challenging the hierarchy feel equivalent to endangering the universe. Inequality was presented as metaphysically required, not as a political arrangement that could be otherwise. The social history perspective asks who benefited from this framing and how it functioned as an ideological stabilizer."
+
+- question: "Ancient social hierarchies were primarily maintained by physical coercion — armies and police forces enforcing elite rule over unwilling populations."
+  type: true-false
+  answer: false
+  explanation: "Physical coercion existed but was insufficient to explain the stability of ancient hierarchies across centuries. The more powerful stabilizer was ideological: hierarchies were legitimized through religious cosmology, presenting inequality as divinely ordained rather than politically contingent. People who understood their position as cosmically necessary were less likely to resist. The social history evidence — including the first recorded labor strike (Egyptian tomb workers at Deir el-Medina, c. 1170 BCE) — also shows stratification was never simply imposed from above but required constant local negotiation and offered spaces for resistance."
+
+- question: "Roman freedmen (liberti) occupied a permanently marginal social status after emancipation and could never become full citizens."
+  type: true-false
+  answer: false
+  explanation: "This describes the Athenian model, not the Roman one. In Rome, a freed slave became a Roman citizen — a pathway from servitude to citizenship with no parallel in classical Athenian democracy. Roman freedmen could vote, own property, and their freeborn children faced no legal disabilities. This detail illustrates the broader point: 'freedom' and 'slavery' were constructed differently in each ancient context, which is why comparative legal analysis across civilizations is so important for social history."
+
+- question: "Why do social historians argue that the religious legitimation of hierarchy in ancient civilizations is analytically important, even if ancient peoples sincerely believed those religious frameworks?"
+  type: short-answer
+  answer: "Social historians analyze not just what people believed but what function those beliefs served and who benefited from them. Even if Egyptians sincerely believed pharaoh maintained cosmic order, the social historian asks: this belief made inequality appear as natural as the sunrise — who benefited from that appearance? Religious legitimation transformed politically contingent arrangements into metaphysically necessary ones, making resistance feel cosmically dangerous rather than politically justified. Identifying this ideological function is distinct from debunking the religion; it explains how hierarchy was reproduced across generations without constant violent coercion."
+  explanation: "The key move is bracketing the question of whether beliefs are true in order to ask what social work they perform. This is not cynicism — it is analytical precision. Ancient peoples who believed in ma'at were not simply being manipulated; the framework was real to them and shaped genuine experience. But social historians note that some frameworks happen to make existing power arrangements seem inevitable, and that is a significant historical observation regardless of the sincerity of belief."
+```
+
 ## Explainer
 
 Your study of ancient urbanization established that cities created something qualitatively new in human social organization: a dense, interdependent population that could no longer survive on the direct labor of every household. Grain surplus from agricultural hinterlands flowed into the city; craft production, religious services, administration, and defense flowed back out. This division of labor is the economic foundation of stratification — but it does not by itself explain why some groups dominated others or how inequalities were stabilized across generations. Social stratification is the story of how those divisions became hierarchical, institutionalized, and self-reinforcing.

@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 Organic structures are determined by integrating data from multiple spectroscopic techniques: IR identifies functional groups via characteristic absorption frequencies; NMR (¹H and ¹³C) reveals connectivity and multiplicity patterns; mass spectrometry provides molecular weight and fragmentation patterns indicating functional groups and structure. Systematic analysis using degree of unsaturation, molecular formula, and spectroscopic clues yields the unique structure.
 
+## Questions
+
+```yaml
+- question: "A compound has molecular formula C₄H₈O (degree of unsaturation = 1). The IR shows a carbonyl peak at 1715 cm⁻¹ with no O–H or N–H absorption. The ¹H NMR shows a triplet (3H) near 1.1 ppm, a quartet (2H) near 2.4 ppm, and a singlet (3H) near 2.1 ppm. What functional group is most consistent with all three pieces of evidence?"
+  type: multiple-choice
+  options:
+    - "Ketone (methyl ethyl ketone)"
+    - "Aldehyde"
+    - "Carboxylic acid"
+    - "Ester"
+  answer: 0
+  explanation: "Absence of O–H stretch rules out carboxylic acid; absence of a ~9.5 ppm CHO signal rules out aldehyde. The triplet/quartet pattern indicates an ethyl group (–CH₂CH₃), and the singlet is an adjacent methyl. Together: CH₃CO–CH₂CH₃ (methyl ethyl ketone), which matches the carbonyl at 1715 cm⁻¹ and C₄H₈O formula. The misconception is guessing aldehyde simply because a carbonyl is present — NMR would show a distinctive downfield singlet (~9.5 ppm) for CHO, which is absent here."
+
+- question: "Which combination of spectroscopic evidence best confirms the presence of an aromatic ring in an unknown compound?"
+  type: multiple-choice
+  options:
+    - "A carbonyl absorption at 1700 cm⁻¹ and an NMR singlet between 7–9 ppm"
+    - "A degree of unsaturation of 4, IR absorptions at 1600 and 1500 cm⁻¹, and NMR signals between 7–8 ppm integrating for 5H"
+    - "A molecular ion at m/z = 78 in the mass spectrum alone"
+    - "A ¹³C NMR signal between 120–150 ppm alone"
+  answer: 1
+  explanation: "The convergence of multiple lines of evidence is required. DoU = 4 is necessary for a benzene ring (3 double bonds + 1 ring). The 1600/1500 cm⁻¹ IR absorptions are diagnostic for aromatic C=C stretches. The NMR signals at 7–8 ppm integrating for 5H are characteristic of a monosubstituted arene. A single technique (options C or D) can be consistent with multiple structures; only integration rules out alternatives."
+
+- question: "The absence of a broad O–H stretch in the IR spectrum rules out any carbonyl-containing functional group."
+  type: true-false
+  answer: false
+  explanation: "Several carbonyl-containing functional groups lack O–H stretches: ketones, aldehydes, and esters all show C=O absorptions without any O–H. An O–H stretch is diagnostic for carboxylic acids and alcohols, but its absence simply narrows the field — it does not rule out carbonyl groups generally. The IR alone distinguishes functional groups by the combination of which absorptions are present AND absent."
+
+- question: "The degree of unsaturation cannot distinguish between a compound containing one ring and no double bonds versus one containing no rings but one double bond."
+  type: true-false
+  answer: true
+  explanation: "Both a ring and a double bond each contribute exactly one degree of unsaturation. A DoU of 1 means 'one ring or one double bond,' not which one. Distinguishing between them requires other evidence: a C=C or C=O stretch in the IR would indicate a double bond, while NMR connectivity patterns can reveal ring structures. This is precisely why structure elucidation requires integrating all techniques."
+
+- question: "Why is it necessary to verify a proposed structure against all spectroscopic data, rather than stopping once a structure consistent with one technique has been identified?"
+  type: short-answer
+  answer: "Each spectroscopic technique is consistent with multiple possible structures on its own. A carbonyl in the IR could belong to an aldehyde, ketone, ester, or carboxylic acid. NMR connectivity may fit two different skeletal arrangements. Only the structure that simultaneously satisfies the molecular formula (from MS), functional group pattern (from IR), and connectivity/multiplicity data (from NMR) is the correct answer. A structure that fits one technique but contradicts another must be rejected."
+  explanation: "This is the core skill: structure elucidation is an integration problem. Experienced chemists check each proposed structure against every piece of data as a consistency test — not just using each technique to generate candidates independently. Any inconsistency reveals a wrong structure or misinterpreted data."
+```
+
 ## Explainer
 
 You have already learned each spectroscopic technique individually — IR tells you what functional groups are present, NMR tells you how atoms are connected and what their chemical environments look like, and mass spectrometry tells you the molecular weight and how the molecule breaks apart. Structure elucidation is the art of combining all three into a single coherent picture. Think of it as detective work: each technique gives you different clues, and no single technique alone is usually sufficient to determine a structure unambiguously.

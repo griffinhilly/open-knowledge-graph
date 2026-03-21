@@ -33,6 +33,45 @@ Read limericks aloud to internalize the bouncing anapestic rhythm. Identify how 
 ## Common Misconceptions
 - Thinking limericks are trivial or 'unserious'; the form actually demands technical precision and wit. - Assuming any AABBA form is a limerick; proper limericks require anapestic rhythm and the specific meter of lines 1, 2, 5 vs. lines 3, 4.
 
+## Questions
+
+```yaml
+- question: "Why do lines 3 and 4 of a limerick use fewer metrical feet than lines 1, 2, and 5?"
+  type: multiple-choice
+  options:
+    - "Lines 3 and 4 use a different rhyme, so they require shorter length to distinguish them audibly from the A-rhyme lines"
+    - "The shorter lines create acceleration and urgency — a structural buildup that gives the punchline line 5 room to land with full force"
+    - "Shorter lines are easier to write and the limerick prioritizes accessibility over technical rigor"
+    - "Lines 3 and 4 contain the core premise; shorter length ensures they are memorable"
+  answer: 1
+  explanation: "The structural logic of the limerick encodes comic timing. Lines 1 and 2 (three anapestic feet each) establish the setup — the character, situation, or premise. Lines 3 and 4 (two feet each) are shorter, go by faster, and feel abbreviated — like the joke is gathering speed. Then line 5 returns to the full three-foot length, giving the punchline room to breathe and land. This long-long-short-short-long shape is not arbitrary: it mirrors the rhythm of effective comedy — setup, accelerating build, punchline with space. The shorter lines are the structural equivalent of the comedian's quickening delivery before the reveal."
+
+- question: "Which metrical foot gives the limerick its characteristic 'bouncing' or 'galloping' quality?"
+  type: multiple-choice
+  options:
+    - "The iamb (unstressed-stressed: da-DUM), creating steady, marching forward momentum"
+    - "The trochee (stressed-unstressed: DUM-da), creating a falling, emphatic beat"
+    - "The anapest (unstressed-unstressed-stressed: da-da-DUM), where two weak beats create momentum that releases on the strong beat"
+    - "The dactyl (stressed-unstressed-unstressed: DUM-da-da), creating a galloping three-beat pattern"
+  answer: 2
+  explanation: "The anapest (da-da-DUM) produces the limerick's distinctive propulsive feel. The two weak syllables build momentum toward the stressed syllable like a skip-step-jump, creating a playful, slightly out-of-control quality that is inherently suitable for comic verse. Compare: 'there was AN old MAN from NanTUCKet' — three anapests in sequence. The iamb produces a steady march (Shakespeare, blank verse); the dactyl produces a different gallop used in classical meters. The anapest specifically creates the bouncing, forward-rushing quality that makes limericks immediately recognizable even before the rhyme scheme confirms the form."
+
+- question: "Any poem with an AABBA rhyme scheme can be classified as a limerick."
+  type: true-false
+  answer: false
+  explanation: "AABBA is necessary but not sufficient for a limerick. The form also requires anapestic meter with the specific length pattern: lines 1, 2, and 5 have three anapestic feet; lines 3 and 4 have two. Without the meter, an AABBA poem might be a cinquain or another five-line form, but it lacks the structural timing that makes limericks distinctive. The metric pattern encodes the comic rhythm — the short-line acceleration and full-length punchline line — that is as essential to the limerick's identity as the rhyme scheme. A limericist who produces AABBA in iambic pentameter has the rhyme but not the form."
+
+- question: "The limerick's apparent simplicity means it requires less technical precision than longer and more 'serious' poetic forms."
+  type: true-false
+  answer: false
+  explanation: "The limerick demands the same technical control as any demanding poetic form — compressed into five lines with no margin for error. Wordsworth can bury a weak line in a 14-line sonnet or a long ode; in a limerick, every syllable of the rhythm must be clean, every rhyme must land, and line 5 must justify the setup. The added requirement — that the whole enterprise be funny — makes it harder, not easier: technically competent limericks that fail to be amusing are a genre failure. The form demands rhythm, precise rhyme, comic timing, and often wordplay or a surprising twist, all simultaneously, in five lines. Its brevity is what makes it unforgiving."
+
+- question: "Explain how the limerick's structural form (its specific pattern of line lengths) encodes comic timing, and why this makes the final line the most load-bearing element."
+  type: short-answer
+  answer: "The limerick's structure is long-long-short-short-long: lines 1 and 2 each have three anapestic feet and establish the setup (character, situation, premise). Lines 3 and 4 each have two feet — they are shorter, faster, and feel abbreviated, like the joke is gathering speed. This acceleration creates the expectation of a release. Line 5 returns to the full three-foot length, which does two things: it fulfills the formal expectation (completing the structure) and gives the punchline physical space to land. A punchline needs room — a word, a beat, a breath after the impact. Line 5's length provides that. The short-short-long sequence at the end is the architecture of comic timing: accelerate, then open up for the payoff. This is why the final line is load-bearing: if it doesn't deliver a subversion, twist, or unexpected rhyme, the structural buildup the form creates goes unreleased — the timing works against the poem."
+  explanation: "This is also why skilled limerickists often write line 5 first, then build the setup to serve it. The punch comes at the end; everything before it is architecture in service of that arrival."
+```
+
 ## Explainer
 
 Your prerequisite in rhyme schemes gives you the starting point: the limerick uses AABBA — lines 1, 2, and 5 rhyme with each other; lines 3 and 4 share a different rhyme. But AABBA alone doesn't make a limerick. What makes the limerick unmistakable is its **meter** — the bouncing anapestic rhythm that gives it its propulsive, almost galloping feel. Your prerequisite in meter and rhythm gives you the tools to analyze it precisely.

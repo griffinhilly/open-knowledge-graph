@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 The government deficit is spending minus revenues in any year; accumulated deficits create public debt. The debt-to-GDP ratio evolves according to: debt next year = debt this year × (1 + interest rate) + deficit. If the real interest rate exceeds GDP growth, debt accumulates and becomes unsustainable unless deficits shrink. Understanding deficit-debt dynamics is essential for evaluating long-run fiscal sustainability.
 
+## Questions
+
+```yaml
+- question: "A country has a debt-to-GDP ratio of 80%, a real interest rate of 4%, and a real GDP growth rate of 2%. The government runs a zero primary deficit. What happens to the debt-to-GDP ratio?"
+  type: multiple-choice
+  options:
+    - "It stays constant — a zero primary deficit means no new borrowing"
+    - "It rises — the snowball effect: interest accrues faster than the economy grows"
+    - "It falls — GDP growth erodes the relative burden of existing debt"
+    - "It is indeterminate without knowing the nominal interest rate"
+  answer: 1
+  explanation: "When r > g, the factor (1 + r)/(1 + g) > 1, so the debt-to-GDP ratio grows automatically even with zero primary deficit. With r − g = 2%, a country at 80% debt-to-GDP accumulates roughly 1.6% of GDP in additional debt ratio per year just from interest exceeding growth. A zero primary deficit means no new policy-driven borrowing, but old debt is still compounding faster than the economy grows. To stabilize the ratio, the country would need a primary surplus of approximately (r − g) × b = 0.02 × 0.80 = 1.6% of GDP."
+
+- question: "The 'primary surplus' of a government is best defined as:"
+  type: multiple-choice
+  options:
+    - "Total revenue minus total spending, including interest payments on the debt"
+    - "Revenue minus spending excluding interest payments on outstanding debt"
+    - "The surplus held in reserve by the central bank to back government bonds"
+    - "The annual reduction in the debt-to-GDP ratio"
+  answer: 1
+  explanation: "The primary surplus (or deficit) excludes interest payments because interest is determined by past borrowing decisions and bond market conditions — it cannot be changed by this year's policy choices. The primary balance is what policymakers can actually control through spending and tax decisions. A government can run a primary surplus (spending < revenue, excluding interest) while still running an overall deficit if interest payments are large enough. This distinction is crucial for assessing fiscal effort versus inherited debt burden."
+
+- question: "A government that runs a perfectly balanced budget (total spending equals total revenues) will always keep its debt-to-GDP ratio stable."
+  type: true-false
+  answer: false
+  explanation: "A 'balanced budget' in the overall sense (including interest payments) is different from a zero primary deficit. If the overall budget balances, interest payments are being covered by current revenues — meaning the government is running a primary surplus equal to its interest payments. However, even with a zero primary deficit (excluding interest), if r > g, the debt-to-GDP ratio still rises via the snowball effect. The common confusion is equating 'balanced budget' with 'stable debt' — these are only the same when r = g."
+
+- question: "The government's annual deficit adds to the accumulated stock of public debt."
+  type: true-false
+  answer: true
+  explanation: "Debt is the stock and the deficit is the flow: each year's deficit — the gap between spending and revenues — gets financed by issuing new bonds, adding to the total debt outstanding. Conversely, a surplus reduces debt. This flow-stock relationship is fundamental: policymakers often discuss the deficit (annual flow) when the more economically significant variable is the debt trajectory (cumulative stock), since it is the debt that determines interest obligations and sustainability concerns."
+
+- question: "Explain the 'snowball effect' in debt dynamics and why the comparison between the real interest rate r and real GDP growth rate g is central to fiscal sustainability."
+  type: short-answer
+  answer: "The snowball effect refers to the automatic growth of the debt-to-GDP ratio from interest accumulation when r > g. Even with no new borrowing (zero primary deficit), existing debt compounds at rate r while the denominator (GDP) grows at rate g. If r > g, debt grows faster than the economy, so the ratio rises persistently. To stabilize or reduce the ratio, a government must run a primary surplus large enough to offset this gap: surplus ≥ (r − g) × debt/GDP. When r < g, modest primary deficits are sustainable because GDP growth erodes the relative burden."
+  explanation: "The r vs g comparison is the single most important parameter in long-run fiscal analysis. It determines whether debt dynamics are self-correcting (r < g) or explosive (r > g). Post-2008, many advanced economies had r < g due to low interest rates, prompting economists to argue for looser fiscal constraints. Critics warned this condition is fragile — bond market repricing can rapidly raise r, as happened in the 2010–2012 European debt crisis. The snowball metaphor captures the compounding nature: small gaps between r and g produce large debt-ratio changes over long horizons."
+```
+
 ## Explainer
 
 From your prerequisite on the government budget, you know that the **deficit** is the annual gap between spending and revenues, and **debt** is the stock of accumulated past deficits. From the time value of money, you know that obligations due in the future must be discounted — compound interest causes stocks of debt to grow exponentially if not offset by primary surpluses. Debt dynamics combines these ideas: the debt stock grows not just from new deficits but from compound interest on existing debt, and whether this growth is sustainable depends on the race between the interest rate and the economy's growth rate.

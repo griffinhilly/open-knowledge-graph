@@ -38,6 +38,45 @@ Trace the hormonal feedback loop for calcium regulation as a diagram, then work 
 - Osteoblasts and osteoclasts are not the same cell type at different stages — they have different origins (mesenchymal vs. hematopoietic).
 - Drinking milk alone does not prevent osteoporosis; weight-bearing exercise and vitamin D status are equally critical.
 
+## Questions
+
+```yaml
+- question: "An astronaut returns from six months on the International Space Station with significantly reduced bone density, despite maintaining good nutrition and normal calcium intake throughout the mission. What best explains this?"
+  type: multiple-choice
+  options:
+    - "Space radiation directly dissolves bone mineral over time"
+    - "Reduced gravitational loading removes the mechanical stimulus that drives osteoblast activity, shifting the balance toward osteoclast-mediated resorption"
+    - "Microgravity suppresses PTH production, reducing the signal for calcium deposition into bone"
+    - "Muscle atrophy in space reduces calcium requirements, so bone mass decreases proportionally"
+  answer: 1
+  explanation: "Wolff's Law states that bone density increases along lines of habitual mechanical stress and decreases where that stress is absent. Osteocytes embedded in bone matrix detect compressive and tensile loading and signal to osteoblasts and osteoclasts to adjust density accordingly. In microgravity, weight-bearing forces are absent, so osteocyte signaling shifts the remodeling balance toward resorption over formation. This produces disuse osteoporosis even when PTH, calcitriol, and dietary calcium are all normal — demonstrating that the mechanical and hormonal control systems are independent."
+
+- question: "When blood calcium falls below normal, which of the following correctly describes PTH's multi-pronged response?"
+  type: multiple-choice
+  options:
+    - "PTH inhibits osteoclasts to slow calcium release from bone and directly stimulates intestinal calcium absorption"
+    - "PTH stimulates osteoclasts to release calcium from bone, increases renal reabsorption of calcium, and activates vitamin D to calcitriol to enhance intestinal absorption"
+    - "PTH stimulates osteoblasts to deposit calcium into bone, gradually restoring normal blood levels"
+    - "PTH directly transports calcium from skeletal muscle into the bloodstream"
+  answer: 1
+  explanation: "PTH acts via three complementary mechanisms to raise blood calcium: (1) it stimulates osteoclasts to resorb bone matrix, releasing stored calcium into the bloodstream; (2) it increases renal reabsorption of calcium, preventing loss in urine; and (3) it activates vitamin D (converting it to calcitriol), which then acts on the intestine to increase calcium absorption from food. This three-pronged response constitutes a classic negative feedback loop: low calcium triggers PTH, PTH raises calcium, and rising calcium suppresses further PTH release."
+
+- question: "Osteoblasts and osteoclasts are functionally opposite cell types that arise from the same precursor cell lineage."
+  type: true-false
+  answer: false
+  explanation: "Osteoblasts and osteoclasts have entirely different cellular origins. Osteoblasts derive from mesenchymal stem cells — the same lineage that produces cartilage, fat, and connective tissue. Osteoclasts derive from hematopoietic stem cells — the same lineage as immune cells like macrophages. This different origin helps explain why conditions affecting the immune system, such as chronic inflammation, can dramatically alter bone remodeling balance, since osteoclast precursors and immune cells share regulatory pathways."
+
+- question: "PTH raises blood calcium partly by stimulating osteoclasts, which break down bone matrix and release stored calcium into the bloodstream."
+  type: true-false
+  answer: true
+  explanation: "Bone resorption by osteoclasts is one of PTH's three mechanisms for raising blood calcium. Osteoclasts secrete acid and proteases that dissolve the mineralized bone matrix, freeing calcium (and phosphate) into circulation. PTH does not act on osteoclasts directly — it acts on osteoblasts, which then signal to osteoclasts via RANK-L. The net effect is accelerated resorption and elevated blood calcium. Chronically elevated PTH (as in hyperparathyroidism) can therefore cause significant bone loss over time."
+
+- question: "Why does bone loss occur in patients with prolonged bed rest even when diet and hormonal levels are completely normal?"
+  type: short-answer
+  answer: "Bone mass is maintained by the mechanical demands placed on it. Osteocytes — osteoblasts that have become embedded in mineralized matrix — detect compressive and tensile forces and relay signals that stimulate osteoblast activity. When mechanical loading is absent (bed rest, paralysis, microgravity), osteocyte signaling shifts toward promoting osteoclast activity over osteoblast activity. Resorption outpaces formation even when PTH, calcitriol, and calcium intake are all normal, demonstrating that mechanical signals are a necessary, independent input to the remodeling control system."
+  explanation: "This is Wolff's Law in clinical form. Bone is not a passive mineral store but a dynamic tissue that continuously adapts its density and architecture to habitual loading patterns. Without physical stress, bone is metabolically costly to maintain, and the remodeling system redistributes mineral elsewhere. Weight-bearing exercise is therefore essential not just for general health but specifically as the mechanical signal that drives osteoblast activity — no supplement or hormonal intervention can fully substitute for it in preventing disuse osteoporosis."
+```
+
 ## Explainer
 
 You already know that the skeleton provides structural support and that **homeostasis** is maintained through negative feedback loops. Bone remodeling is one of the most elegant examples of homeostasis in the body — it operates continuously, even in healthy adults, because bone serves two masters simultaneously: it is both a structural material that must resist mechanical stress and a mineral reservoir that must supply calcium on demand.

@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Different groups tell fundamentally different histories of the same past—indigenous and settler narratives of colonization, liberation and loss accounts of war. Rather than declaring one version 'true,' historians increasingly ask: What does this plurality tell us about history and memory? Can multiple histories coexist? How do we adjudicate competing claims without imposing dominance? This topic examines historical conflicts as windows into how knowledge and identity intertwine.
 
+## Questions
+
+```yaml
+- question: "Academic historians document that a celebrated national founding event involved significant violence against indigenous populations — a fact the dominant national narrative omits. A student responds: 'Both accounts are equally valid because history is just a matter of perspective.' What does historical pluralism actually hold?"
+  type: multiple-choice
+  options:
+    - "The student is correct — since all history is constructed from a position, no account can claim more validity than another"
+    - "The academic account is definitively correct because it rests on archival evidence while the national narrative is merely political myth"
+    - "The divergence between accounts is itself historically significant data; pluralism does not collapse all accounts into equal validity, but asks what the divergence reveals about power, documentation, and whose experiences were preserved"
+    - "Both accounts should be taught simultaneously to present a balanced view, without evaluating which is more accurate"
+  answer: 2
+  explanation: "Historical pluralism is frequently misread as relativism — the claim that no account is better than another. It actually holds that the *existence* of contested histories is itself historical data: the divergence tells you something about power relations, whose experiences were documented, and what purposes different communities need history to serve. It does not prevent distinguishing careful evidence-based scholarship from propaganda; it does insist that what counts as significant, authoritative, and properly framed is partly shaped by the historian's position."
+
+- question: "What does it mean to treat contested histories as 'historical data' rather than as a methodological problem to be resolved?"
+  type: multiple-choice
+  options:
+    - "It means historians should remain neutral arbiters who refuse to evaluate competing accounts against evidence"
+    - "It means that once sufficient archival evidence is gathered, competing accounts will converge on a single accurate narrative"
+    - "It means the divergence between accounts reveals power relations, whose experiences were preserved, and what stakes different communities have in the past — making the divergence itself an object of historical analysis"
+    - "It means historians should study only events that generate multiple incompatible accounts, since these are the most historically significant"
+  answer: 2
+  explanation: "When the same event generates radically different historical accounts — colonial history written from settler versus indigenous perspectives, World War II from Hiroshima versus Washington — the divergence is not a data problem to be cleaned up. It is evidence about who had power to document events, whose experiences were archived versus suppressed, and what different communities need from their past to sustain their present identity. Multiperspectival history holds these competing accounts in view simultaneously to illuminate the full complexity of the past."
+
+- question: "Historical pluralism holds that what counts as historically significant and which sources are considered authoritative are partly shaped by the historical position and community of the historian."
+  type: true-false
+  answer: true
+  explanation: "This is the core claim of pluralism: not that facts are invented, but that the selection, framing, and evaluation of facts reflects the position of whoever is doing the historical work. A history of World War II written from the perspective of atomic bomb survivors organizes different facts, treats different sources as authoritative, and answers different questions than one written from the perspective of Allied military planners — not because either is lying, but because they are responding to different questions with different evidence and different stakes."
+
+- question: "A multiperspectival approach to contested histories aims to synthesize competing accounts into a single neutral narrative that transcends all particular perspectives."
+  type: true-false
+  answer: false
+  explanation: "A 'neutral synthesis' is itself a choice — and it typically defaults to the dominant perspective, since the frame, emphasis, and silences of the synthesis reflect someone's position. Multiperspectival history instead holds competing accounts in view simultaneously, asks why they diverge where they do, and uses that divergence to illuminate the power relations and documentation practices that shaped what was preserved. The goal is not to transcend perspective but to understand what each perspective reveals and conceals."
+
+- question: "What is the distinction between history and memory, and why does the tension between them carry stakes beyond academic disagreement?"
+  type: short-answer
+  answer: "Memory is how communities transmit their sense of identity, experience, and continuity through commemoration, oral tradition, ritual, and monument — it is identity-sustaining rather than evidence-testing. History, in the academic sense, subjects inherited narratives to critical scrutiny, archival evidence, and scholarly debate. The tension becomes acute when historical research challenges a community's founding myths or surfaces atrocities that collective memory has suppressed. These conflicts carry legal stakes (land rights, reparations), political stakes (national legitimacy), and psychological stakes (community identity) — making them qualitatively different from ordinary scholarly disagreements about evidence."
+  explanation: "The conflict between academic history and community memory is not simply a question of who has better sources. It involves whose past is being adjudicated, who has authority to adjudicate it, and what is at risk if the adjudication goes a particular way. Indigenous communities whose oral traditions conflict with colonial archival records about land ownership face not just a historiographical debate but a property rights dispute. This is why responsible historical pluralism takes the conflict seriously rather than simply declaring the archival record authoritative."
+```
+
 ## Explainer
 
 From your introduction to the philosophy of historiography, you know that historical knowledge is not a simple mirror of the past — it is constructed by historians working from incomplete evidence, within interpretive frameworks shaped by their own positions and assumptions. From your study of the objectivity problem, you know that the aspiration to a "view from nowhere" has been substantially challenged. Contested histories take both of these insights to a political register: they ask what happens when competing communities — nations, ethnic groups, indigenous peoples, colonized and colonizer — tell fundamentally incompatible stories about the same events, and what historians can do when they find themselves in the middle of those conflicts.

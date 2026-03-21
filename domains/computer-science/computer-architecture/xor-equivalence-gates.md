@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 XOR outputs true when inputs differ; XNOR outputs true when inputs are equal. XOR is essential for comparators and parity checking, while XNOR implements logical equivalence.
 
+## Questions
+
+```yaml
+- question: "Two 4-bit binary numbers, 1010 and 1011, are compared bit-by-bit using XOR gates. What is the 4-bit XOR output?"
+  type: multiple-choice
+  options:
+    - "1111 — XOR outputs 1 for every bit in the first number"
+    - "0001 — only the least significant bits differ"
+    - "0000 — the two numbers are equal"
+    - "1010 — XOR passes the first number through unchanged"
+  answer: 1
+  explanation: "XOR outputs 1 only when the corresponding bits *differ*. Comparing position by position: 1⊕1=0, 0⊕0=0, 1⊕1=0, 0⊕1=1. So the output is 0001 — only the last bit differs. This is exactly how equality comparators are built: XOR all corresponding bit pairs; if any output is 1, the numbers differ at that position. The result 0000 would mean the numbers are identical."
+
+- question: "In a half-adder computing 1 + 1, the XOR gate produces the sum bit. What is that sum bit, and why is XOR the correct gate rather than OR?"
+  type: multiple-choice
+  options:
+    - "Sum = 1, because OR(1,1) = 1 and addition gives a nonzero result"
+    - "Sum = 0, because binary addition of 1 + 1 = 10₂ (zero with carry 1), and XOR(1,1) = 0"
+    - "Sum = 2, because 1 + 1 = 2 in decimal"
+    - "Sum = 1, because both inputs are 1 and the output should reflect that"
+  answer: 1
+  explanation: "Binary addition modulo 2: 1 + 1 = 0 (with a carry of 1 into the next column). XOR correctly computes this: XOR(1,1) = 0, matching the sum bit. OR gives OR(1,1) = 1, which is wrong. This reveals the deep connection between XOR and binary arithmetic: XOR *is* addition modulo 2, which is precisely what the sum bit of binary addition computes. The carry bit is handled separately by an AND gate."
+
+- question: "XOR and OR produce the same output for every possible combination of two binary inputs."
+  type: true-false
+  answer: false
+  explanation: "XOR and OR differ on exactly one input combination: when both inputs are 1. OR(1,1) = 1, but XOR(1,1) = 0. XOR is 'exclusive' OR — it outputs 1 only when *exactly one* input is 1, not when both are 1. This single difference makes XOR fundamentally different from OR: it detects when inputs differ, while OR detects when at least one input is 1."
+
+- question: "XOR-ing any value with itself always produces 0, regardless of what that value is."
+  type: true-false
+  answer: true
+  explanation: "A ⊕ A = 0 for any bit value A. If A = 0: 0 ⊕ 0 = 0. If A = 1: 1 ⊕ 1 = 0. This self-inverting property is fundamental to XOR's usefulness: it means 'comparing a value against itself' always yields 0 (no difference). This property underlies parity checking (XOR all bits together to detect whether the count of 1s is odd or even) and is also used in cryptography and hash functions."
+
+- question: "Explain why XOR is the correct gate for the sum bit of a half-adder, connecting this to what XOR fundamentally computes."
+  type: short-answer
+  answer: "XOR computes addition modulo 2 — it produces 1 when exactly one input is 1, and 0 when both inputs match (both 0 or both 1). Binary single-bit addition follows the same rule: 0+0=0, 0+1=1, 1+0=1, and 1+1=0 (with a carry). The sum bit is always the XOR of the two operands. OR would be wrong because OR(1,1)=1, but the sum bit of 1+1 is 0. XOR captures the 'different-ness' that binary addition measures at each bit position, while the carry (AND gate) handles the overflow."
+  explanation: "This connection is not coincidental — XOR is literally the definition of addition in GF(2) (the two-element field), the algebraic structure underlying binary arithmetic. Understanding this makes XOR's appearance in adders, checksums, error-correcting codes, and cryptographic operations all fit together as instances of the same operation."
+```
+
 ## Explainer
 
 You already know the basic logic gates — AND, OR, NOT, NAND, NOR — and how they combine inputs to produce outputs according to truth tables. **XOR** (exclusive OR) and **XNOR** (exclusive NOR) extend this family with a behavior that none of the basic gates provide: detecting whether two inputs are the same or different.

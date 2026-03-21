@@ -30,6 +30,45 @@ Create a comparison table of clinical and laboratory features. Study representat
 ## Common Misconceptions
 Proteinuria alone does not define nephrotic versus nephritic; the proteinuria must be >3.5 g/day for nephrotic syndrome. Hematuria is not specific to nephritic GN; it indicates any glomerular bleeding including in nephrotic syndrome from certain diseases. Some patients have features of both ('nephrotic-nephritic') complicating classification.
 
+## Questions
+
+```yaml
+- question: "A patient presents with urine showing 4.2 g/day proteinuria, soft pitting periorbital edema, and a serum albumin of 1.8 g/dL. Urine microscopy shows no RBC casts and no dysmorphic red cells. Which diagnosis is most consistent with this presentation, and what is the mechanism of edema?"
+  type: multiple-choice
+  options:
+    - "Nephritic syndrome; edema caused by sodium retention and hypertension"
+    - "Nephrotic syndrome; edema caused by reduced oncotic pressure from hypoalbuminemia"
+    - "Nephritic syndrome; edema caused by hypoalbuminemia and impaired protein synthesis"
+    - "Nephrotic syndrome; edema caused by inflammatory cytokine-driven capillary leakage"
+  answer: 1
+  explanation: "The combination of massive proteinuria (>3.5 g/day), hypoalbuminemia, and soft pitting edema without hematuria or RBC casts defines nephrotic syndrome. The edema mechanism follows from protein loss: albumin spills into the urine, plasma oncotic pressure falls, and Starling forces shift fluid out of capillaries into interstitial tissue. This is distinct from nephritic edema, where salt and water retention from inflammatory mediators and hypertension drive fluid accumulation — the oncotic pressure may be relatively preserved. Recognizing the edema mechanism difference is clinically important because treatment differs."
+
+- question: "A second patient presents with hematuria, cola-colored urine, blood pressure of 158/94 mmHg, and urine microscopy showing acanthocytes and RBC casts. Protein excretion is 1.8 g/day. What is the most important single finding that directs you toward nephritic rather than nephrotic syndrome, and why?"
+  type: multiple-choice
+  options:
+    - "The blood pressure elevation — hypertension is exclusive to nephritic syndrome"
+    - "The RBC casts — they demonstrate that red blood cells are escaping through the damaged glomerular capillary wall into the nephron"
+    - "The proteinuria at 1.8 g/day — levels below 3.5 g/day exclude nephrotic syndrome and confirm nephritic"
+    - "The cola-colored urine — hemoglobin pigmentation is pathognomonic for nephritic syndrome"
+  answer: 1
+  explanation: "RBC casts are the most specific marker of nephritic syndrome. They form when red blood cells — which should not cross the glomerular filtration barrier — leak through the disrupted capillary wall, enter the tubular lumen, and become embedded in Tamm-Horsfall protein matrix. Their presence proves glomerular bleeding, pointing directly to inflammatory capillary wall injury. Hypertension and hematuria can occur in other contexts; dysmorphic RBCs and RBC casts are specific to glomerular origin. The proteinuria level being below 3.5 g/day is consistent with nephritic syndrome but is not the deciding criterion — some nephritic patients develop nephrotic-range proteinuria as disease progresses."
+
+- question: "In nephrotic syndrome, the edema is caused by a different mechanism than in nephritic syndrome: nephrotic edema results from loss of plasma oncotic pressure secondary to hypoalbuminemia."
+  type: true-false
+  answer: true
+  explanation: "True. In nephrotic syndrome, massive proteinuria causes hypoalbuminemia, which reduces plasma oncotic pressure. By Starling's law, this shifts fluid out of capillaries into interstitial tissue, producing the soft, pitting edema characteristic of nephrotic syndrome — periorbital in children (who lie flat and have lower hydrostatic pressures) and ankle/pedal in ambulatory adults. In nephritic syndrome, the primary mechanism is different: inflammatory mediators cause sodium and water retention, raising blood pressure and intravascular volume, which then drives fluid into tissues. Both produce edema, but recognizing the different mechanism matters for targeted treatment."
+
+- question: "Hematuria on urinalysis reliably distinguishes nephritic from nephrotic syndrome — its presence confirms nephritic disease."
+  type: true-false
+  answer: false
+  explanation: "False. Hematuria indicates glomerular bleeding but is not exclusive to nephritic syndrome. While it is the hallmark finding of nephritic disease, some nephrotic conditions can also produce hematuria — it is the *degree* and *type* of bleeding (dysmorphic RBCs, RBC casts) that are more specific. Similarly, proteinuria alone does not define the syndrome; the threshold for nephrotic syndrome is >3.5 g/day. The most reliable differentiating approach integrates urine sediment findings (RBC casts, dysmorphic red cells) with the degree of proteinuria and clinical context — neither finding alone is definitively discriminatory."
+
+- question: "Why do nephrotic and nephritic syndromes produce edema by different mechanisms, even though both result in fluid accumulating in tissues?"
+  type: short-answer
+  answer: "In nephrotic syndrome, the fundamental lesion is podocyte injury that allows massive protein loss into the urine. The resulting hypoalbuminemia reduces plasma oncotic pressure, so Starling forces favor fluid movement out of capillaries — edema forms because the plasma can no longer hold water in the vascular space. In nephritic syndrome, the fundamental lesion is glomerular inflammation that triggers sodium and water retention through inflammatory mediators and hypertension; the increased intravascular volume overwhelms normal reabsorptive forces. One is a low-oncotic-pressure state; the other is a volume-overload state."
+  explanation: "Understanding the mechanism difference matters for treatment: nephrotic edema may respond to measures that restore oncotic pressure (albumin infusion, reduce ongoing proteinuria), while nephritic edema responds to treating the inflammatory process and controlling blood pressure and sodium retention. Treating nephrotic edema with volume restriction alone, without addressing the albumin loss, may be insufficient or counterproductive."
+```
+
 ## Explainer
 
 You have already studied the glomerular filtration barrier and understand that it normally retains plasma proteins, particularly albumin, through a combination of size and charge selectivity. You have also encountered the major types of glomerulonephritis and understand that different immune mechanisms can injure different parts of this barrier. Nephrotic and nephritic syndromes are the two fundamental clinical presentations of glomerular disease — and while they are often taught as opposites, they reflect a spectrum of pathological mechanisms that sometimes overlap.

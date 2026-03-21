@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 At thermal equilibrium, molecular energies follow the Boltzmann distribution: the fraction of molecules in state i is proportional to exp(-Eᵢ/kT). This distribution predicts what fraction of molecules have sufficient energy for reaction (explains temperature dependence of rates), which rotational/vibrational levels are populated (explains spectra), and macroscopic thermodynamic properties. The Boltzmann distribution is the bridge between microscopic quantum states and macroscopic thermodynamics.
 
+## Questions
+
+```yaml
+- question: "At room temperature (298 K), kT ≈ 2.5 kJ/mol. A vibrational energy level lies 40 kJ/mol above the ground state. What does the Boltzmann distribution predict for the population of this level?"
+  type: multiple-choice
+  options:
+    - "Roughly half the molecules occupy this level, since it is accessible at room temperature"
+    - "The level is essentially unpopulated — exp(−40/2.5) ≈ 10⁻⁷, so fewer than one in ten million molecules reach it"
+    - "All molecules occupy the ground state; no thermal population of excited states occurs at 298 K"
+    - "The fraction depends only on the degeneracy of the level, not the energy gap"
+  answer: 1
+  explanation: "The Boltzmann factor exp(−E/kT) = exp(−40/2.5) ≈ 10⁻⁷ means this vibrational level is almost completely unpopulated at room temperature. This is why most molecules vibrate in the ground state at 298 K — vibrational spacings are typically much larger than kT. Rotational levels (spacings ~ 0.1–1 kJ/mol) are well-populated because their energies are comparable to kT."
+
+- question: "Which change most significantly increases the fraction of molecules with energy exceeding a fixed threshold E_a?"
+  type: multiple-choice
+  options:
+    - "Doubling the number of molecules in the container"
+    - "Doubling the absolute temperature T, because kT doubles and the Boltzmann factor exp(−E_a/kT) increases substantially"
+    - "Cutting the activation energy E_a in half has no more effect than doubling T"
+    - "Increasing pressure at constant temperature, because higher pressure compresses the distribution"
+  answer: 1
+  explanation: "The fraction of molecules exceeding E_a scales as exp(−E_a/kT). Doubling T halves E_a/kT in the exponent, dramatically increasing this fraction. For E_a = 50 kJ/mol at 300 K: exp(−50/2.49) ≈ 1.3 × 10⁻⁹. At 600 K: exp(−50/4.99) ≈ 3.6 × 10⁻⁵ — a 27,000-fold increase. This exponential sensitivity to T is why small temperature increases cause large rate accelerations."
+
+- question: "The partition function Z = Σ exp(−Eᵢ/kT) is merely a normalization constant that ensures probabilities sum to 1."
+  type: true-false
+  answer: false
+  explanation: "The partition function encodes all the thermodynamic information about the system. From Z you can derive the average energy (⟨E⟩ = kT² ∂ ln Z/∂T), entropy (S = k ln Z + ⟨E⟩/T), heat capacity, and free energy. Calling it 'just a normalization constant' misses that it is the single most important quantity in statistical mechanics — it bridges microscopic quantum states and macroscopic thermodynamic properties."
+
+- question: "Increasing temperature shifts the Boltzmann distribution so that higher-energy states become more populated relative to lower-energy states."
+  type: true-false
+  answer: true
+  explanation: "As T increases, kT increases, reducing the value of E/kT for all states. The Boltzmann factor exp(−E/kT) for higher-energy states becomes less suppressed — their fractional population increases. The distribution broadens and its peak shifts toward higher energies. This is the microscopic reason why reaction rates, spectral intensity patterns, and heat capacities all depend on temperature."
+
+- question: "Explain why the Arrhenius equation k = A·exp(−Ea/RT) has its particular temperature dependence, connecting it to the Boltzmann distribution."
+  type: short-answer
+  answer: "The Arrhenius equation follows directly from the Boltzmann distribution. For a reaction to occur, colliding molecules must have kinetic energy exceeding the activation barrier Ea. The fraction of molecules with energy ≥ Ea is proportional to exp(−Ea/kT) = exp(−Ea/RT) (converting per-molecule to per-mole units). Because only these molecules can react, the rate constant is proportional to this fraction. Temperature enters only through kT — it sets the scale against which Ea is measured. When kT is much smaller than Ea (low temperature), very few molecules can react; as T rises, the fraction grows exponentially."
+  explanation: "The pre-exponential factor A accounts for collision frequency and geometric orientation factors, but the temperature dependence of the rate is entirely determined by the Boltzmann distribution. This is why activation energy can be measured from the slope of ln(k) vs. 1/T — the slope equals −Ea/R."
+```
+
 ## Explainer
 
 From your work on the Maxwell-Boltzmann distribution, you already know that molecules in a gas do not all move at the same speed — there is a spread of velocities described by a characteristic bell-shaped curve that shifts and broadens with temperature. The **Boltzmann distribution** generalizes this idea from molecular speeds to any form of energy: translational, rotational, vibrational, or electronic. The central claim is deceptively simple: at thermal equilibrium, the probability of a molecule occupying a quantum state with energy Eᵢ is proportional to exp(−Eᵢ/kT), where k is Boltzmann's constant and T is absolute temperature.

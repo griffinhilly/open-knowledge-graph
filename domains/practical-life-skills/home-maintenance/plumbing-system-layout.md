@@ -33,6 +33,45 @@ Trace your main water supply from the street shutoff through your home. Locate s
 - Drain lines always have a straight path to the sewer.
 - The main shutoff valve will stop all leaks inside the house immediately.
 
+## Questions
+
+```yaml
+- question: "You flush a toilet and immediately hear a gurgling sound coming from a nearby bathroom sink drain. What is the most likely explanation?"
+  type: multiple-choice
+  options:
+    - "The toilet and sink share a clogged drain line that is backing up into both fixtures"
+    - "The main shutoff valve is partially closed, causing a pressure imbalance between supply lines"
+    - "The drain system lacks adequate venting, so negative pressure from the flushing water is pulling air through the sink's P-trap"
+    - "The P-trap under the sink has physically cracked and is drawing air in from outside the pipe"
+  answer: 2
+  explanation: "Gurgling after a nearby flush is the classic symptom of inadequate venting. As toilet water flows down the drain stack, it displaces air, creating negative pressure. Without a vent to supply replacement air, the system pulls air from wherever it can — through the nearest P-trap seal. The gurgle is the sound of air being sucked past the water in the P-trap. A clog (option A) would cause water to back up into the fixture, not just gurgle. The shutoff valve (option B) affects supply pressure, not drain air balance."
+
+- question: "A bathroom drain that is not clogged — water flows freely — nevertheless has a persistent sewer smell. What is the most likely cause?"
+  type: multiple-choice
+  options:
+    - "The supply line is contaminated and leaking sewage into the drain pipe"
+    - "A blocked vent pipe is forcing sewer gases backward through the supply lines into the fixture"
+    - "The P-trap has dried out from disuse, allowing sewer gases to pass through where the water seal used to be"
+    - "The drain slope is too steep, allowing gases to travel upward against the water flow"
+  answer: 2
+  explanation: "The P-trap's entire function is to hold a small amount of standing water that blocks sewer gases. If a fixture goes unused for weeks, the water in the P-trap can evaporate — and once the water seal is gone, methane and hydrogen sulfide from the drain system flow freely into the living space. The fix is as simple as running the tap for 30 seconds to refill the trap. This is why unused guest bathrooms or floor drains in basements often smell — not because of a clog or a leak, but because the gas seal has dried up."
+
+- question: "Turning off the main shutoff valve will stop all active water leaks inside a house, including leaks in the drain lines."
+  type: true-false
+  answer: false
+  explanation: "The main shutoff valve stops pressurized supply water. Drain lines are not pressurized — they carry water away by gravity. A cracked drain pipe, a leaking P-trap joint, or a loose drain connection will continue to drain any standing water or wastewater that flows into it after the main is shut off. The main shutoff only protects against supply-side leaks (burst pipes, failed supply lines to fixtures). Drain leaks must be addressed separately, at the drain connection itself."
+
+- question: "Drain pipes must maintain a continuous downward slope because they rely entirely on gravity rather than pressure to move wastewater to the sewer or septic system."
+  type: true-false
+  answer: true
+  explanation: "Unlike the supply system, which pushes water under pressure and can route pipes upward and around obstacles, drain lines must slope continuously downhill — typically about ¼ inch of drop per foot of horizontal run. Any section of drain pipe that rises along its path will trap water, eventually causing a clog. This is why drain repairs and rough-in plumbing require careful slope measurement, and why homeowners sometimes encounter slow drains in renovations where a drain line was re-routed without maintaining proper slope."
+
+- question: "What is the purpose of the vent pipes that extend through a home's roof as part of the Drain-Waste-Vent (DWV) system? What symptom would indicate that venting is inadequate?"
+  type: short-answer
+  answer: "Vent pipes allow air to enter the drain system as water flows out, preventing negative pressure from forming in the drain lines. Without air supply, draining water would create a partial vacuum and pull air through the nearest P-trap water seal — breaking the gas barrier and allowing sewer gases into the living space. The primary symptom of inadequate venting is a gurgling sound from fixtures when a nearby drain is used, because the system is drawing air through P-trap water seals rather than through the vent."
+  explanation: "The vent system is the most overlooked component of residential plumbing because it is invisible (pipes run through walls to the roof) and silent when working correctly. It becomes apparent only when it fails — through gurgling, slow drains, or sewer odors. Understanding the three-part system (supply under pressure, drains by gravity, vents for air balance) gives you a diagnostic model for almost any plumbing symptom: supply failures are fast and wet, drain failures are slow and smelly or backed up, vent failures produce gurgling and odors without obvious blockage."
+```
+
 ## Explainer
 
 From your understanding of home systems, you know that a house integrates several interdependent systems — electrical, HVAC, structural, and plumbing — each with its own entry point, distribution network, and exit. Plumbing is the most consequential of these to understand at a basic level, because failure can cause immediate and serious damage: a burst supply pipe or a slow drain leak can destroy flooring, framing, and insulation within hours to days before the problem becomes visible.

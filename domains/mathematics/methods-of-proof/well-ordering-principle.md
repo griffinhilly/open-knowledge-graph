@@ -19,6 +19,45 @@ status: draft
 ## Core Idea
 The well-ordering principle states every non-empty set of positive integers has a least element. Logically equivalent to mathematical induction, it can prove statements by assuming a counterexample exists and deriving a contradiction via the least element.
 
+## Questions
+
+```yaml
+- question: "A student wants to prove by minimal counterexample that every integer greater than 1 has a prime factor. Which set should she apply the well-ordering principle to?"
+  type: multiple-choice
+  options:
+    - "The set of all prime numbers"
+    - "The set of all integers greater than 1 that do have a prime factor"
+    - "The set of all integers greater than 1 that do NOT have a prime factor"
+    - "The set of all positive integers"
+  answer: 2
+  explanation: "Proof by minimal counterexample applies well-ordering to the set of failures. The 'failures' here are integers greater than 1 with no prime factor. If this set is non-empty, well-ordering guarantees a least element n. Then: n is not prime (or it would be its own prime factor), so n = ab with 1 < a < n. Since a < n and n was the minimal failure, a has a prime factor p. But p divides a and a divides n, so p divides n — contradiction. Option B (integers that do have prime factors) is the set of successes, not failures; applying well-ordering there doesn't help."
+
+- question: "Which of the following is a non-empty set with no least element, showing the well-ordering principle does not hold for all ordered sets?"
+  type: multiple-choice
+  options:
+    - "The set of all even positive integers {2, 4, 6, 8, …}"
+    - "The set of positive multiples of 5"
+    - "The set of positive integers greater than 1,000,000"
+    - "The open interval (0, 1) viewed as a set of positive real numbers"
+  answer: 3
+  explanation: "Options A, B, and C are all sets of positive integers, so the well-ordering principle guarantees each has a least element (2, 5, and 1,000,001 respectively). But (0, 1) is a set of positive real numbers, not positive integers, and has no least element: for any x in (0, 1), the value x/2 is also in (0, 1) and is smaller. This shows the well-ordering principle is specific to the natural numbers — it fails for positive real numbers because the reals are dense (no 'next' number), not discrete."
+
+- question: "The well-ordering principle is a stronger statement than mathematical induction — it can prove results that induction cannot."
+  type: true-false
+  answer: false
+  explanation: "The well-ordering principle and mathematical induction (including strong induction) are logically equivalent — each can be derived from the other. Given well-ordering, you can prove induction; given induction, you can prove well-ordering. Neither is more powerful. The practical difference is stylistic: induction naturally expresses 'build up step-by-step,' while proof by minimal counterexample (well-ordering) naturally expresses 'assume failure and derive contradiction.' Both are always available for any statement about positive integers."
+
+- question: "In a proof by minimal counterexample, you assume the statement is false for at least one positive integer, then apply well-ordering to guarantee a smallest such failure exists."
+  type: true-false
+  answer: true
+  explanation: "This is precisely the method. If P(n) fails for some positive integer, the set S = {n ∈ ℤ⁺ : P(n) is false} is non-empty. By the well-ordering principle, S has a least element m — the minimal counterexample. You then derive a contradiction: either show that P(m) must hold (contradicting m being a failure), or produce a smaller element of S (contradicting m's minimality)."
+
+- question: "Explain why the well-ordering principle fails for the positive real numbers, and what this reveals about what makes the positive integers special."
+  type: short-answer
+  answer: "The positive real numbers do not satisfy well-ordering because any non-empty subset need not have a minimum. The open interval (0, 1) contains positive reals but has no least element: for any x in (0, 1), x/2 is also in (0, 1) and is smaller. The positive integers are special because they are discrete — between any two integers there are only finitely many others, so any non-empty set must eventually reach a bottom. The reals are dense — between any two reals there are infinitely many others — so you can always descend further without hitting a minimum."
+  explanation: "This discreteness is the foundational property that makes induction and well-ordering work for ℕ but not for ℝ. Both proof techniques depend on the existence of a 'first failure' — a smallest integer for which the statement fails. In a dense ordered set like ℝ, no such first failure need exist. The well-ordering principle is not a logical tautology; it is an axiom capturing what's structurally unique about the natural numbers."
+```
+
 ## Explainer
 
 You've worked with **strong induction**, which lets you assume the statement holds for all positive integers smaller than n in order to prove it for n. The **well-ordering principle** is a restatement of the same fundamental fact about the natural numbers from a different angle: every non-empty subset of the positive integers contains a smallest element. This might seem obvious — of course you can find the minimum — but it is a genuine axiom, not a logical tautology. The real numbers, for example, do *not* satisfy this property: the open interval (0, 1) is a non-empty set of positive numbers with no least element.

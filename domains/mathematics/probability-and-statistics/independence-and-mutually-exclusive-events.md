@@ -29,6 +29,45 @@ Compare concrete examples: drawing two cards with and without replacement, weath
 ## Common Misconceptions
 Thinking mutually exclusive events are independent. Assuming events are independent without checking. Confusing 'disjoint' with 'uncorrelated'. Not recognizing that P(A ∩ B) = P(A)P(B) is a test for independence.
 
+## Questions
+
+```yaml
+- question: "Events A and B are mutually exclusive with P(A) = 0.3 and P(B) = 0.4. Are A and B independent?"
+  type: multiple-choice
+  options:
+    - "Yes — their Venn diagram circles don't overlap, so they have nothing to do with each other"
+    - "Yes — P(A ∩ B) = 0, which satisfies the independence condition"
+    - "No — knowing A occurred makes B impossible, so they are maximally dependent"
+    - "It depends on whether P(A ∪ B) = 1"
+  answer: 2
+  explanation: "Mutually exclusive events with nonzero probability are always dependent. Independence requires P(A|B) = P(A). But if A and B are mutually exclusive, P(A|B) = P(A ∩ B)/P(B) = 0/0.4 = 0, which does not equal P(A) = 0.3. Knowing B occurred completely rules out A — that is the opposite of independence. The intuitive confusion arises from equating 'don't overlap on a Venn diagram' with 'have nothing to do with each other,' but probabilistic independence is not about overlap — it is about information."
+
+- question: "Which formula correctly tests whether events A and B are independent?"
+  type: multiple-choice
+  options:
+    - "P(A ∩ B) = 0"
+    - "P(A ∪ B) = P(A) + P(B)"
+    - "P(A ∩ B) = P(A) · P(B)"
+    - "P(A|B) = P(B|A)"
+  answer: 2
+  explanation: "Independence is defined as P(A|B) = P(A), which rearranges to P(A ∩ B) = P(A) · P(B) — the product rule. Options A and B describe mutually exclusive events (where P(A ∩ B) = 0 and the addition rule has no subtraction term), not independence. Option D describes symmetry of conditional probability, which holds in general and does not characterize independence."
+
+- question: "Mutually exclusive events are independent because, since they cannot occur simultaneously, neither one can influence the other."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception. Mutual exclusivity makes events maximally dependent, not independent. If A occurs, B is ruled out entirely — that is the strongest possible information one event can provide about another. Independence means observing one event gives zero information about the other, which requires P(A ∩ B) = P(A)·P(B) > 0. Mutual exclusivity forces P(A ∩ B) = 0, which violates independence whenever both events have positive probability."
+
+- question: "If P(A) = 0.5 and P(A|B) = 0.5, then A and B are independent, regardless of whether their Venn diagram circles overlap."
+  type: true-false
+  answer: true
+  explanation: "Independence is fully defined by the condition P(A|B) = P(A). If this condition holds, then observing B provides no information about A — that is exactly independence. The Venn diagram overlap (whether P(A ∩ B) > 0) is irrelevant to the independence condition. In fact, if P(A|B) = P(A) = 0.5 and P(B) > 0, then P(A ∩ B) = P(A|B)·P(B) = 0.5·P(B) = P(A)·P(B), confirming the product rule."
+
+- question: "Explain why two mutually exclusive events, each with nonzero probability, must be dependent. Use the definition of independence in your explanation."
+  type: short-answer
+  answer: "Independence requires P(A|B) = P(A). For mutually exclusive events, P(A ∩ B) = 0, so P(A|B) = P(A ∩ B)/P(B) = 0/P(B) = 0. But P(A) > 0 by assumption, so P(A|B) = 0 ≠ P(A). The condition for independence fails. In fact, knowing B occurred drops the probability of A from P(A) to 0 — the maximum possible change — making them maximally dependent."
+  explanation: "The key is applying the definition precisely. Independence is not a spatial or visual concept (about diagram overlap) but an informational one: does knowledge of B change your probability for A? For mutually exclusive events, it changes it as much as possible — all the way to 0. The confusion between 'disjoint' and 'unrelated' is the source of the misconception."
+```
+
 ## Explainer
 
 You've worked with **conditional probability**: P(A|B) = P(A ∩ B) / P(B), the probability of A given that B has occurred. This is the right tool to understand **independence**, which is not about how events look on a Venn diagram but about whether one event provides information about the other. Events A and B are **independent** if P(A|B) = P(A) — learning that B occurred doesn't change your probability for A. Substituting the conditional probability formula, this is equivalent to P(A ∩ B) = P(A) · P(B): the **product rule for independent events**. This product rule is the operational definition and the test you use in practice.

@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Optimistic Concurrency Control assumes conflicts are rare and validates transactions at commit time rather than blocking. Each transaction operates on local versions; at commit, the system checks if its reads/writes conflict with committed transactions. Timestamp ordering assigns each transaction a logical position; transactions commit only if operations respect timestamp order. OCC aborts transactions on conflicts but avoids blocking when no conflicts exist.
 
+## Questions
+
+```yaml
+- question: "A database serving a high-traffic e-commerce checkout processes many simultaneous transactions that all read and write the same popular inventory rows. Which concurrency control approach is likely to perform better, and why?"
+  type: multiple-choice
+  options:
+    - "OCC, because it never blocks transactions and achieves maximum parallelism"
+    - "Pessimistic locking, because high contention causes OCC aborts that waste all the work done since transaction start"
+    - "OCC with timestamp ordering, because timestamps eliminate the need for retries"
+    - "OCC, because the validation phase catches conflicts before they affect the database"
+  answer: 1
+  explanation: "OCC's advantage disappears under high contention. When many transactions touch the same rows, validation frequently fails — transactions are aborted after completing their entire read phase and computation, wasting all that work. Under high contention, pessimistic locking is preferable: it blocks conflicting transactions up front before they do wasted computation, and it doesn't risk livelock from repeated aborts. OCC shines in low-contention, read-heavy workloads where conflicts are genuinely rare."
+
+- question: "In OCC's validation phase, a transaction T is about to commit. Under which condition should T be aborted?"
+  type: multiple-choice
+  options:
+    - "Another transaction committed while T was in its read phase, regardless of what data was accessed"
+    - "A committed transaction wrote to a data item that T read during its read phase"
+    - "T's read phase lasted longer than a configured timeout threshold"
+    - "T performed more write operations than read operations"
+  answer: 1
+  explanation: "T must be aborted if a committed transaction wrote to data that T read — meaning T's read is now stale and its computations were based on outdated values. This is the core conflict check: T's reads must remain valid relative to everything that committed during T's read phase. The other options are not OCC abort conditions: the mere existence of another committed transaction is not a conflict, timeouts are not a standard OCC mechanism, and the ratio of reads to writes is irrelevant."
+
+- question: "In OCC, transactions that never access overlapping data will always commit without blocking, aborting, or wasting work."
+  type: true-false
+  answer: true
+  explanation: "This is OCC's key advantage in low-contention workloads. If two transactions read and write completely disjoint data items, their validation phases will always pass — there is no conflict to detect. Neither transaction ever waits for the other. In workloads where most transactions are truly independent (e.g., analytics queries on different customer segments), OCC achieves high throughput with zero blocking overhead."
+
+- question: "OCC always outperforms pessimistic locking because it eliminates blocking and allows transactions to proceed concurrently."
+  type: true-false
+  answer: false
+  explanation: "OCC only outperforms pessimistic locking when conflicts are rare. Under high contention, OCC can perform worse: transactions complete their entire read phase and computation, then are aborted at validation, wasting all that work. In the worst case, a transaction may be aborted and retried repeatedly (livelock). Pessimistic locking blocks transactions earlier, before wasted work accumulates. The right choice depends entirely on the workload's contention level."
+
+- question: "Describe the three phases of OCC and explain why conflicts detected at the validation phase can represent more wasted work than if pessimistic locking had blocked the transaction earlier."
+  type: short-answer
+  answer: "OCC has three phases: (1) Read phase — the transaction reads data into a private workspace and performs all computations, acquiring no locks; (2) Validation phase — at commit time, the system checks whether any committed transaction wrote to data this transaction read; (3) Write phase — if validation passes, changes are applied to the database. If validation fails, all work from the read phase is discarded and the transaction must restart from scratch. Pessimistic locking detects the conflict immediately when the second transaction tries to acquire the same lock, blocking it before it does any work on conflicting data. OCC allows both transactions to do all their work first, then discards one — making the wasted work proportional to the transaction's read phase duration."
+  explanation: "This asymmetry — early blocking vs. late abort — is the fundamental tradeoff. OCC bets that validation will usually pass. When the bet fails in high-contention scenarios, the wasted computation can be substantial, especially for long-running read-heavy transactions."
+```
+
 ## Explainer
 
 From your study of concurrency control and isolation levels, you know the core problem: multiple transactions running simultaneously can interfere with each other, producing anomalies like dirty reads, lost updates, and write skew. Lock-based concurrency control (the pessimistic approach) solves this by making transactions acquire locks before accessing data — if two transactions want the same row, one waits. This is safe but introduces blocking, deadlock risk, and reduced throughput when many transactions contend for the same data. **Optimistic concurrency control** takes the opposite bet: assume conflicts are rare, let every transaction proceed without locks, and check for conflicts only at commit time.

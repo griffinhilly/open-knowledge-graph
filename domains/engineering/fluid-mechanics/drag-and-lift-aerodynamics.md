@@ -36,6 +36,45 @@ Compare drag coefficients for sphere, cylinder, streamlined airfoil, and flat pl
 - Streamlining reduces pressure drag at the cost of more wetted area (more friction drag); optimal shape balances both.
 - The reference area A in drag/lift formulas is defined differently for different body types: projected frontal area for bluff bodies, planform area for airfoils.
 
+## Questions
+
+```yaml
+- question: "A shipping company paints its boxy trucks with an ultra-smooth surface to minimize drag. If the truck's shape is still blunt and box-like, how effective will this be at reducing total drag?"
+  type: multiple-choice
+  options:
+    - "Very effective — smooth surfaces dramatically reduce drag on any body shape"
+    - "Somewhat effective — skin friction accounts for roughly half the drag on a truck"
+    - "Minimally effective — for bluff bodies, pressure drag from the separated wake dominates, not skin friction"
+    - "Counterproductive — smoother surfaces increase pressure drag by promoting earlier flow separation"
+  answer: 2
+  explanation: "For bluff bodies with large separated wakes, pressure drag (form drag) is the dominant component — often 80–90% of total drag. The low-pressure wake behind a box-shaped truck is far larger a drag contributor than surface friction. Reducing skin friction with a smooth surface barely affects this. The effective solution is shape modification — rounding the cab, adding aerodynamic skirts — to delay flow separation and shrink the wake. Smooth surfaces help streamlined bodies (where friction dominates) far more than bluff bodies."
+
+- question: "A sphere in a wind tunnel shows a sudden DROP in drag coefficient near Re ≈ 3×10⁵, even as flow speed increases. What causes this 'drag crisis'?"
+  type: multiple-choice
+  options:
+    - "The sphere deforms slightly at high speeds, becoming more streamlined"
+    - "The boundary layer transitions from laminar to turbulent, delaying separation and shrinking the wake"
+    - "Air compressibility effects reduce drag at high Reynolds numbers"
+    - "Skin friction drops because turbulent eddies prevent air from contacting the surface"
+  answer: 1
+  explanation: "The drag crisis occurs when the boundary layer transitions from laminar to turbulent. Turbulent boundary layers carry more momentum and resist separation longer, pushing the separation point backward around the sphere. This shrinks the low-pressure wake dramatically, reducing pressure drag. Despite the turbulent boundary layer generating slightly more skin friction, the net effect is a large drop in C_D from ~0.5 to ~0.1. Golf ball dimples deliberately trigger this transition at lower Reynolds numbers, allowing the ball to fly farther."
+
+- question: "Skin friction drag is the dominant drag source for most everyday bluff bodies such as trucks, buildings, and spheres."
+  type: true-false
+  answer: false
+  explanation: "For bluff bodies with large separated wakes, pressure drag (form drag) dominates — not skin friction. The stagnation pressure at the front and low-pressure wake behind create a large net backward force far exceeding wall shear stress. Skin friction drag dominates only for streamlined bodies (airfoils, submarines) with minimal flow separation. The distinction between dominant drag sources for bluff vs. streamlined bodies is one of the most important practical insights in aerodynamics."
+
+- question: "A symmetric airfoil at zero angle of attack generates no lift, but the same airfoil tilted at a positive angle of attack can generate lift."
+  type: true-false
+  answer: true
+  explanation: "Lift requires asymmetric flow around a body. A symmetric airfoil at zero angle of attack creates no pressure difference between upper and lower surfaces and generates no circulation — hence no lift. Tilting it creates an angle of attack, which induces asymmetric flow and circulation (Γ > 0), generating lift per the Kutta-Joukowski theorem: L = ρVΓ per unit span. A cambered airfoil generates lift at zero angle of attack because its shape inherently induces asymmetric flow; a symmetric airfoil needs to be angled."
+
+- question: "Explain why streamlining a body reduces total drag but cannot reduce it to zero, and what two competing drag contributions are being balanced."
+  type: short-answer
+  answer: "Streamlining reduces pressure drag by delaying flow separation and shrinking the low-pressure wake behind the body. However, elongating the body into a streamlined shape increases the wetted surface area exposed to viscous flow, which increases skin friction drag. At the optimal shape (roughly teardrop), pressure drag is minimized without excessive wetted area. Even at optimal shape, skin friction persists because no fluid is inviscid — viscous wall shear stress is unavoidable on any surface. Zero drag in viscous flow is physically impossible."
+  explanation: "The key insight is that the two drag components (pressure and friction) respond oppositely to streamlining: streamlining reduces pressure drag but increases friction drag. The optimal shape is a tradeoff. This explains why fish, dolphins, and aircraft fuselages all converge on similar proportions — the physics of both drag components point to the same optimum independently of the organisms' evolutionary paths."
+```
+
 ## Explainer
 
 When a body moves through a fluid, the fluid pushes back. From your study of boundary layer theory, you know that the boundary layer forms along the surface, creating wall shear stress — this is the origin of **skin friction drag**. But there is a second, often larger drag force from pressure: as fluid flows around a bluff body, it separates from the surface and creates a turbulent wake behind the body. The pressure in this low-energy wake is much lower than the high-pressure stagnation region at the front, and this pressure difference pushes backward on the body. This is **pressure drag** (or form drag), and it is why a truck experiences far more resistance than an airfoil of the same frontal area.

@@ -26,6 +26,45 @@ Local optimizations operate within a single basic block and include constant fol
 ## How It's Best Learned
 Implement several local optimizations and apply them to basic blocks. Measure improvements in code quality.
 
+## Questions
+
+```yaml
+- question: "A compiler encounters this sequence in a single basic block: `a = 4 * 3; b = a + 0; c = b * 1;`. After applying constant folding, constant propagation, and algebraic simplification, what does the block reduce to (assuming c is used later)?"
+  type: multiple-choice
+  options:
+    - "`a = 12; b = 12; c = 12;`"
+    - "`a = 12; b = a; c = b;`"
+    - "`c = 12;`"
+    - "`a = 4 * 3; b = a; c = b;`"
+  answer: 2
+  explanation: "Constant folding reduces `4 * 3` to `12`, giving `a = 12`. Constant propagation substitutes a = 12 into `b = a + 0`, which algebraic simplification reduces to `b = 12` (since x + 0 = x, then constant folding gives 12). Constant propagation then substitutes b = 12 into `c = b * 1`, which algebraic simplification reduces to `c = 12` (since x * 1 = x). The intermediate assignments to `a` and `b` are now dead code — their values are never used by any later instruction (c = 12 doesn't reference them). Dead code elimination removes them, leaving only `c = 12`. This illustrates the cascade: each optimization creates opportunities for the next."
+
+- question: "Variable x is assigned the value 7 at the end of basic block B1. Basic block B2 immediately follows and begins with `y = x * 2`. Can the local optimizer for B2 apply constant propagation to substitute x = 7 and fold this to `y = 14`?"
+  type: multiple-choice
+  options:
+    - "Yes — if B1 always precedes B2, the constant value of x carries over automatically"
+    - "No — local optimization is confined to a single basic block; the optimizer for B2 cannot access the constant value established in B1 without global dataflow analysis"
+    - "Yes — constant propagation is a global property of variables, not a property of blocks"
+    - "No — because x could be a pointer and dereferencing pointers prevents constant folding"
+  answer: 1
+  explanation: "This is the fundamental limitation of local optimization. The local optimizer for B2 can only analyze instructions within B2; it has no mechanism to observe that x = 7 was established in B1. From B2's perspective, x is an unknown variable. Crossing basic block boundaries requires global dataflow analysis — specifically, reaching definitions analysis — which is what global optimization techniques provide. Option A represents the common misconception: even if B1 always precedes B2 in the control flow graph, local analysis cannot exploit this without global information."
+
+- question: "Local optimizations like constant folding and dead code elimination are called 'local' because they only work on variables with local (non-global) scope."
+  type: true-false
+  answer: false
+  explanation: "The term 'local' refers to the scope of analysis: a basic block, not the scope of variables. Local optimizations operate within a single basic block — a straight-line sequence of instructions with one entry and one exit. The variable itself can have any scope; what matters is whether the optimization needs information from outside the block. Variables with global scope can still be constant-folded or dead-code-eliminated within a block, as long as the analysis stays within that block's boundaries."
+
+- question: "Constant propagation and constant folding tend to produce larger improvements than either technique applied alone, because successfully applying one creates new opportunities for the other."
+  type: true-false
+  answer: true
+  explanation: "This cascading effect is a key property of local optimizations. Constant propagation substitutes known constant values into expressions, which may then have all-constant operands — creating new opportunities for constant folding to compute them at compile time. The newly folded constants may eliminate all uses of intermediate variables, creating opportunities for dead code elimination, which shortens the block and may expose further optimization opportunities. The optimizations are most effective when applied together in a pass-by-pass loop until no further changes occur."
+
+- question: "Why is the single-basic-block scope of local optimizations both their greatest strength and their fundamental limitation?"
+  type: short-answer
+  answer: "Within a basic block, control flow is simple: instructions execute in sequence with no branches, so the compiler can safely reason about every instruction's effect. This simplicity makes local optimizations easy to implement, provably safe, and applicable to every basic block in the program. The limitation is the inverse: any optimization requiring knowledge of values or control flow from outside the block is impossible locally. A constant defined in one block and used in another is invisible to local analysis. This motivates global optimizations, which use dataflow analysis to propagate information across blocks — but these are more complex and expensive to implement."
+  explanation: "The same property — guaranteed sequential execution — that makes local analysis tractable also limits it. Real programs contain variables that live across block boundaries, loop induction variables, and function calls that local analysis cannot reason about. Global optimization techniques (available expressions, reaching definitions, live variable analysis) extend the same basic ideas to entire control-flow graphs, but they depend on the local optimizations as a foundation — cleaning up the obvious inefficiencies before the more expensive global passes run."
+```
+
 ## Explainer
 
 You already know that a basic block is a straight-line sequence of instructions with one entry and one exit — no branches in the middle, no jumps into the middle. This property is what makes local optimizations so tractable: because execution flows strictly top to bottom through a basic block, you can reason about every instruction's effect without worrying about alternate paths. Local optimizations exploit this simplicity to clean up inefficiencies that arise naturally from naive code generation.

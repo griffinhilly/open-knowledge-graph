@@ -33,6 +33,45 @@ Apply the framework to real communications that feel immediately relevant — a 
 - The rhetorical situation is just "who is the audience"; it encompasses exigence, constraints, and speaker positioning as well, and each element shapes the others.
 - Context is background information to mention in an introduction; it is actually a set of active forces that should drive every decision from thesis to tone.
 
+## Questions
+
+```yaml
+- question: "A scientist publishes research on antibiotic resistance in a peer-reviewed microbiology journal. According to Bitzer's framework, which group is the rhetorical audience?"
+  type: multiple-choice
+  options:
+    - "The general public who might read news coverage of the study"
+    - "Politicians who could fund future research"
+    - "Other scientists who can evaluate, replicate, or refute the findings"
+    - "Patients who might benefit from better treatments"
+  answer: 2
+  explanation: "Bitzer's audience is not everyone who might read or be affected — it is specifically those who have the capacity to respond to the exigence. The exigence here is a scientific problem calling for scientific resolution. Other scientists can validate, challenge, or build on the research; politicians and patients may be interested but lack the expertise to act on the scientific problem directly. Identifying the right audience requires asking: who can actually do something about this?"
+
+- question: "A student analyzes the 'rhetorical situation' of MLK's Letter from Birmingham Jail by summarizing what King argued and who he addressed. What crucial dimension has the student missed?"
+  type: multiple-choice
+  options:
+    - "The constraints — the letter genre, King's status as a prisoner, timing, and what those forces ruled in and out"
+    - "The audience — they should list all possible audiences, not just the intended ones"
+    - "The thesis — they need to identify King's main claim before analyzing context"
+    - "The purpose — they need to explain why King wrote the letter at all"
+  answer: 0
+  explanation: "Constraints are active forces shaping every choice in a text, not background details. King's letter was written from jail, addressed to fellow clergy, using the letter form in a moment of urgent public pressure — these constraints determined what tone, what appeals, and what moves were available. Simply identifying argument and audience treats context as static background rather than as the dynamic field that explains why every word was chosen."
+
+- question: "The exigence of a rhetorical situation refers to the problem or urgency that calls communication into existence in the first place."
+  type: true-false
+  answer: true
+  explanation: "This is accurate. Without exigence — a problem that makes speaking or writing necessary — there is no rhetorical situation. Bitzer's key insight is that communication is always a response to something: a crisis, a contested question, an occasion requiring address. Identifying the exigence is the first step in rhetorical analysis because it explains why the text exists at all."
+
+- question: "In Bitzer's framework, the rhetorical audience includes everyone who might read or hear a text."
+  type: true-false
+  answer: false
+  explanation: "Bitzer's 'audience' is narrower than 'all readers.' The rhetorical audience is specifically those who have the capacity to respond to the exigence — to act on the problem. A speech about climate change delivered to climate scientists has a different rhetorical audience than the same speech to legislators, even if both hear the words. People who are informed but cannot act are not the rhetorical audience in Bitzer's sense. This precision clarifies what arguments to make and what appeals will actually matter."
+
+- question: "How does analyzing the constraints of a rhetorical situation change the way you make decisions as a writer?"
+  type: short-answer
+  answer: "Constraints reveal which choices are actually available in a given situation. Genre conventions, medium, timing, the audience's prior assumptions, and the speaker's credibility all limit and shape what can be said effectively. Knowing the constraints helps a writer make deliberate choices — selecting arguments that will land, adopting a tone appropriate to the context, and avoiding moves that the situation rules out. Without this analysis, a writer may craft an argument that is logically valid but strategically ineffective."
+  explanation: "The key insight is that constraints are generative, not just limiting — they are the conditions that make meaning possible in a given context. A legal brief has different constraints than a tweet; a speech by a trusted insider has different constraints than one by an outsider. Analyzing these forces transforms writing from 'saying what I think' to 'choosing what will work in this situation.'"
+```
+
 ## Explainer
 
 From the rhetorical triangle, you know that every communicative act involves a speaker, an audience, and a message — and that ethos, pathos, and logos are the tools a speaker uses to move an audience. Rhetorical situation analysis zooms out further, asking: what caused this communication to exist at all, and what forces constrain what can be said? Lloyd Bitzer's framework identifies four elements that define any rhetorical situation. The **exigence** is the problem, urgency, or occasion that calls the communication into being — the thing that makes this moment one where speaking or writing is not only possible but necessary. A public health crisis creates an exigence for emergency messaging; a contested election creates an exigence for political persuasion. Without exigence, there is no reason to communicate at all.

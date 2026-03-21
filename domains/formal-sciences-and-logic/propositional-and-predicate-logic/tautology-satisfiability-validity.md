@@ -34,6 +34,45 @@ Classify a batch of formulas using truth tables, then verify the duality: check 
 - Satisfiability is not the same as truth — a satisfiable formula might be false under the interpretation you happen to care about.
 - The exponential blowup of truth tables is inherent: SAT is NP-complete, so no known polynomial-time decision procedure exists.
 
+## Questions
+
+```yaml
+- question: "Which of the following is a tautology?"
+  type: multiple-choice
+  options:
+    - "p ∧ q"
+    - "p → q"
+    - "p ∨ ¬p"
+    - "¬(p ∧ q)"
+  answer: 2
+  explanation: "p ∨ ¬p (the law of excluded middle) is true under every possible interpretation: if p is true, the left disjunct is true; if p is false, the right disjunct is true. It cannot be made false. The others are not tautologies: p ∧ q is false when p is false; p → q is false when p is true and q is false; ¬(p ∧ q) is false when both p and q are true."
+
+- question: "The formula p → q is tested under the interpretation p = True, q = False, giving the result False. Student A concludes that p → q is not valid. Student B concludes that p → q is also not satisfiable. Which students are correct?"
+  type: multiple-choice
+  options:
+    - "Both students are correct"
+    - "Neither student is correct — p → q is a tautology"
+    - "Student A only — p → q is not valid, but it is satisfiable (true when p = False or q = True)"
+    - "Student B only — the formula is unsatisfiable"
+  answer: 2
+  explanation: "Student A is correct: validity requires truth under ALL interpretations, and finding one interpretation where p → q is false proves it is not valid. Student B is wrong: p → q is satisfiable — it is true when p = False (vacuously) or when q = True. Satisfiability only requires ONE interpretation that makes it true. The critical distinction is that 'not valid' does not mean 'unsatisfiable.' Most interesting formulas are satisfiable but not valid."
+
+- question: "A formula that is true under the specific interpretation you are currently working with is a valid (tautological) formula."
+  type: true-false
+  answer: false
+  explanation: "Validity requires truth under every possible interpretation — not just the one at hand. The formula p (a single atomic proposition) is true under the interpretation {p = True}, but it is not valid because it is false under {p = False}. 'Valid' and 'true under this interpretation' are completely different properties. This is the most important distinction in propositional semantics: local truth (under one assignment) versus universal truth (under all assignments)."
+
+- question: "If φ is a satisfiable formula, then its negation ¬φ is not a tautology."
+  type: true-false
+  answer: true
+  explanation: "This follows directly from the duality law: φ is a tautology if and only if ¬φ is a contradiction (unsatisfiable). Equivalently, ¬φ is a tautology if and only if φ is a contradiction. If φ is satisfiable, it is not a contradiction, so ¬φ cannot be a tautology. These duality relationships are worth internalizing as a reflex — they allow a single checking procedure (e.g., a SAT solver) to answer both satisfiability and tautology questions."
+
+- question: "A classmate says: 'p is true in my model, so p is a valid formula.' Explain the error, and give an example of a formula that is true under some interpretations but is not valid."
+  type: short-answer
+  answer: "Validity is a universal claim — a formula is valid if it is true under every possible interpretation, not just the one being considered. Finding one interpretation where p is true does not establish validity; you would need to show it is true under all interpretations, including {p = False}, where it is obviously false. A clear example: p ∧ q is true under {p = True, q = True} but false under {p = True, q = False} — it is satisfiable but not valid. Only formulas whose truth is guaranteed by their logical structure alone (like p ∨ ¬p) are valid."
+  explanation: "The confusion stems from conflating 'true in a model' (a semantic property relative to one interpretation) with 'valid' (a property of the formula across all interpretations). This distinction is fundamental to logic and becomes even more important in predicate logic where informal reasoning makes the confusion easy."
+```
+
 ## Explainer
 
 You already know what **propositional semantics** means: an interpretation assigns truth values to atomic propositions, and the truth of compound formulas is determined compositionally. You also know that some formulas are tautologies — true under every assignment — and some are contradictions — false under every assignment. This topic organizes the logical landscape into three exhaustive and mutually exclusive categories and reveals the algebraic relationships between them.

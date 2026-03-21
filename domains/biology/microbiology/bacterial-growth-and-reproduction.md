@@ -28,6 +28,45 @@ Plot actual growth data on both linear and semi-log graphs so students can see w
 - Confusing generation time with the time for a single cell to divide — generation time is a population-level average.
 - Believing the lag phase means nothing is happening — cells are actively synthesizing enzymes and adapting to the medium.
 
+## Questions
+
+```yaml
+- question: "A culture of E. coli is treated with penicillin, which inhibits cell wall synthesis during division. At which growth phase would penicillin be MOST effective at killing the bacteria?"
+  type: multiple-choice
+  options:
+    - "Lag phase, because cells are most vulnerable when adapting to a new environment"
+    - "Log phase, because cells are actively dividing and building new cell walls"
+    - "Stationary phase, because the equal death rate means defenses are lowered"
+    - "Death phase, because cells are already dying and resistance is minimal"
+  answer: 1
+  explanation: "Penicillin works by disrupting cell wall synthesis — a process that only occurs during active cell division. Cells in the log phase are dividing as rapidly as possible, making them maximally vulnerable to any drug targeting the division process. Stationary-phase and death-phase cells are largely not dividing, so their cell walls are not being actively synthesized, and many develop stress-response mechanisms that confer resistance. The lag phase is also wrong: cells are not yet dividing, so there is no cell wall synthesis to disrupt."
+
+- question: "A student plots bacterial population over time on a standard linear (arithmetic) graph. The log phase appears as an almost-vertical sweep upward. The student then re-plots the same data on a semi-logarithmic graph (log scale on the y-axis). What does the log phase look like on the semi-log graph?"
+  type: multiple-choice
+  options:
+    - "A steep upward curve, even steeper than on the linear graph"
+    - "A flat horizontal line, because exponential growth is constant"
+    - "A straight diagonal line, because equal doublings produce equal log increments"
+    - "An S-shaped curve, reflecting the transition from lag to stationary phase"
+  answer: 2
+  explanation: "Exponential growth means the population multiplies by a constant factor (doubling) in each equal time interval. On a log scale, multiplying by a constant factor corresponds to adding a constant amount to the log — so the log-transformed data plots as a straight line. The slope of that line is the growth rate constant. This is exactly why microbiologists prefer semi-log graphs for growth data: the log phase becomes a clean straight line, making the doubling time trivially readable from the slope. On a linear graph, exponential growth produces a curve so steep it is hard to analyze."
+
+- question: "During the lag phase, bacterial cells are not dividing and therefore are doing nothing metabolically significant."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception. The lag phase is characterized by an absence of division, but not an absence of activity. Cells are actively sensing their new environment, inducing the genes and synthesizing the enzymes needed to metabolize available nutrients, building up pools of ribosomes and other cellular machinery, and repairing damage. The duration of the lag phase depends on how different the new environment is from the old one — cells moved into identical fresh medium may have almost no lag, while cells transferred to a new carbon source must synthesize entirely new enzymes before growth can begin. The lag is a preparation phase, not a dormancy phase."
+
+- question: "Binary fission in bacteria is essentially the same process as mitosis in eukaryotic cells, since both result in two genetically identical daughter cells."
+  type: true-false
+  answer: false
+  explanation: "Although both processes produce two genetically identical daughter cells, the mechanisms are fundamentally different. Mitosis involves a mitotic spindle built from tubulin, condensed chromosomes, a nuclear envelope that breaks down and reforms, and a complex choreography of chromosome capture and segregation. Binary fission has none of these: bacteria have no nucleus, no spindle apparatus, and chromosomes do not condense. Instead, the replicated circular chromosomes attach to the cell membrane and are passively separated as the cell elongates. Fission is simpler, faster, and entirely different in its molecular machinery — the shared outcome (two identical cells) does not mean the processes are equivalent."
+
+- question: "Why does exponential bacterial growth eventually stop, and what specifically characterizes the transition from log phase to stationary phase?"
+  type: short-answer
+  answer: "Exponential growth cannot continue indefinitely because resources are finite. As the population grows, nutrients are consumed, toxic metabolic byproducts accumulate, and physical space may become limiting. The transition to stationary phase occurs when the growth rate (new cells produced per unit time) equals the death rate — total population holds constant, but both division and death continue at equal rates."
+  explanation: "The stationary phase is not a stable equilibrium in the sense of cells simply pausing — it is a dynamic balance of ongoing birth and death. Cells in stationary phase often activate stress-response pathways, form biofilms, or initiate sporulation. This matters practically: stationary-phase bacteria have fundamentally different physiology than log-phase bacteria, including different susceptibility to antibiotics, different gene expression patterns, and different surface properties. Understanding growth phases is therefore essential for microbiology applications from drug treatment to industrial fermentation."
+```
+
 ## Explainer
 
 From your understanding of bacterial cell structure, you know that a bacterium is a self-contained unit with a chromosome, ribosomes, a cell membrane, and usually a cell wall. **Binary fission** is the process by which this single cell becomes two. The cell replicates its circular chromosome starting from a single origin of replication, and the two copies attach to different points on the cell membrane. As the cell elongates, the chromosomes are passively separated. A septum of new cell wall and membrane material grows inward at the cell's midpoint, eventually pinching the cell into two daughter cells. Unlike eukaryotic mitosis, there is no mitotic spindle, no nuclear envelope breakdown, and no condensed chromosomes — fission is a simpler, faster process that allows bacteria to divide with remarkable speed.

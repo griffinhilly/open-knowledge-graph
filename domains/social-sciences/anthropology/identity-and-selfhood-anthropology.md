@@ -41,6 +41,45 @@ Compare concepts of personhood in three cultural settings: Western liberal indiv
 - Cross-cultural differences in self-concept are not deficits — they represent alternative solutions to problems of social life.
 - Identity politics and intersectionality are not purely modern inventions; all societies manage multiple overlapping identity categories.
 
+## Questions
+
+```yaml
+- question: "A Western bioethicist travels to a Melanesian community and insists that each patient must give individual informed consent before treatment. Community members instead say medical decisions belong to the extended kin network. The bioethicist concludes the community lacks respect for individual rights. What would an anthropological analysis say about this conclusion?"
+  type: multiple-choice
+  options:
+    - "The bioethicist is correct — autonomous individual consent is a universal ethical requirement that transcends cultural context"
+    - "The community is applying a different but internally coherent model of personhood in which the self is constituted by relationships, not prior to them — their consent practice reflects this model"
+    - "The community's practice reflects underdevelopment that will resolve as modernization brings Western legal frameworks"
+    - "The community members are confusing filial loyalty with personhood, which are separate categories in any cultural system"
+  answer: 1
+  explanation: "The Melanesian dividual model holds that persons are composed of their relationships rather than prior to them. Medical decisions made collectively through kin networks are consistent with this model, not a failure to understand rights. The bioethicist is importing a culturally specific model of the bounded autonomous individual and treating it as universal — precisely the error cultural relativism trains us to identify."
+
+- question: "Marcel Mauss's historical analysis of personhood argued which of the following?"
+  type: multiple-choice
+  options:
+    - "The bounded, psychologically interiorized individual self is a biological universal that all cultures recognize in essentially the same form"
+    - "The concept of the person as a continuous, unified inner self with sovereign rights is a recent historical construction specific to certain religious, legal, and philosophical developments"
+    - "Ancient cultures had stronger senses of individual identity than modern societies, which have eroded selfhood through mass culture"
+    - "Legal systems invented the concept of the person purely to enable property rights, with no psychological or ritual dimensions"
+  answer: 1
+  explanation: "Mauss traced the concept of 'person' through history and showed that what we call the individual self — with a continuous psychological interior and sovereign rights — has a history and a geography. In earlier periods, 'person' meant a legal role or ritual mask (persona), not a psychological interior. The interiorized individual is an invention, not a discovery of what humans naturally are."
+
+- question: "In the Melanesian dividual model, identity is partible — parts of the self can be transferred to others through exchange — making this a fundamentally different conception of personhood than Western individualism."
+  type: true-false
+  answer: true
+  explanation: "Strathern's dividual is not a metaphor but an operating model: persons are composed of accumulated gifts, shared kin substances, and exchange relationships. When you give a valuable gift, you give part of yourself; the recipient carries something of you. Identity can be partitioned and distributed across social relations in ways that Western individualism — which locates the self firmly inside the biological individual — cannot accommodate."
+
+- question: "The anthropological finding that 'the individual self is culturally constructed' implies that Western individuals don't really have bounded identities — their sense of being a separate, continuous self is an illusion."
+  type: true-false
+  answer: false
+  explanation: "Cultural construction does not mean non-existence. Anthropologists argue that the boundaries, significance, and experienced form of selfhood are shaped by culture — not that the self is illusory. Western individuals genuinely experience themselves as bounded and continuous; the point is that this form of selfhood is culturally specific, not that it is false. Other cultural forms of selfhood are equally real, just differently structured."
+
+- question: "Why does the anthropological finding that 'the individual self is culturally constructed' matter for applied fields like bioethics or development policy? Give a specific example."
+  type: short-answer
+  answer: "If the bounded autonomous individual is a cultural assumption rather than a universal human fact, then policies and ethical frameworks built on that assumption may fail or cause harm in societies where personhood is understood differently. In bioethics: individual informed consent presupposes a self that makes decisions autonomously and bears individual medical rights. In a Melanesian dividual model, medical decisions may rightly belong to kin networks — requiring collective consent structures rather than individual ones. In development policy: programs that assign individual property rights assume that economic actors maximize individual self-interest; in communities where identity and obligation are relational, collective land tenure may be more coherent and effective than individual titling schemes."
+  explanation: "The practical stakes are high: misapplied universalism in medicine, law, and economics has historically imposed Western self-models on communities with different forms of personhood, sometimes with harmful consequences. Understanding selfhood as culturally variable is not merely academic — it changes how practitioners should design interventions."
+```
+
 ## Explainer
 
 Cultural relativism trained you to treat no cultural system as the neutral baseline from which others deviate. Applying that principle to selfhood means treating the **bounded individual** of Euro-American modernity — the autonomous agent with clear psychological borders, interior motivations, and rights that precede social relationships — as one cultural solution among many, not as the natural form human beings take. The self is a cultural product, and different cultures have produced strikingly different products.

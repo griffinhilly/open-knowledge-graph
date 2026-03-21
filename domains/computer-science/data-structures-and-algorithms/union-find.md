@@ -34,6 +34,45 @@ Implement union-find with a plain parent array first, then add union by rank, th
 - Path compression restructures the tree during find operations, but this does not affect correctness — only future query speed.
 - The near-O(1) amortized bound requires BOTH union by rank AND path compression; either optimization alone gives a weaker guarantee.
 
+## Questions
+
+```yaml
+- question: "A developer implements union-find with union by rank but forgets to add path compression. What is the amortized time complexity per operation?"
+  type: multiple-choice
+  options:
+    - "O(α(n)) — essentially constant, the same as with both optimizations"
+    - "O(log n) — better than naive O(n) but worse than using both optimizations together"
+    - "O(n) — linear, the same as the naive implementation without any optimization"
+    - "O(1) — union by rank alone is sufficient for constant-time performance"
+  answer: 1
+  explanation: "Union by rank alone bounds tree height at O(log n), so find operations take O(log n) in the worst case — significantly better than naive O(n) but far from near-constant. The near-O(1) amortized bound of O(α(n)) requires *both* optimizations working together. Path compression alone also gives roughly O(log n) amortized. Only the combination of union by rank AND path compression achieves the nearly-constant O(α(n)) bound."
+
+- question: "In Kruskal's minimum spanning tree algorithm, union-find is used to evaluate each candidate edge. What specific question does the find operation answer?"
+  type: multiple-choice
+  options:
+    - "Whether the edge has the minimum weight among all remaining candidate edges"
+    - "Whether the two endpoints of the edge are currently in the same connected component"
+    - "Whether the edge forms the shortest path between its two endpoints"
+    - "Whether the edge's weight exceeds the average weight of edges already added to the tree"
+  answer: 1
+  explanation: "Kruskal's algorithm adds edges in sorted order by weight, skipping any edge that would form a cycle. An edge creates a cycle if and only if its two endpoints are already in the same connected component — i.e., they share the same representative in the union-find structure. The find operation returns each endpoint's root; if both roots are the same, the edge is rejected. If they differ, the edge is added and the two components are merged via union."
+
+- question: "Path compression during a find operation changes which element is the representative (root) of the set."
+  type: true-false
+  answer: false
+  explanation: "Path compression only shortens the path from each traversed node to the root — it does not change which node is the root. Every node along the path from the queried element to the root is redirected to point directly at the root, making future finds on those nodes faster. But the root (the representative) remains unchanged. This is why path compression is safe: it restructures the internal tree for efficiency without altering the logical partition into sets."
+
+- question: "The near-O(1) amortized time bound for union-find operations requires both path compression and union by rank; either optimization alone gives a weaker guarantee."
+  type: true-false
+  answer: true
+  explanation: "Union by rank alone limits tree height to O(log n). Path compression alone reduces depths but can still encounter tall trees before compression kicks in. The combination achieves O(α(n)) amortized, where α is the inverse Ackermann function — effectively constant for any practical input size (α(n) ≤ 4 for n up to roughly 10^80). Applying only one of the two optimizations yields at best O(log n) amortized."
+
+- question: "Why does path compression speed up future find operations, even though it doesn't change which element is the representative of a set?"
+  type: short-answer
+  answer: "When find traverses a chain of parent pointers to reach the root, path compression redirects every node along that chain to point directly at the root. On future find calls for any of those nodes, the traversal reaches the root in a single step instead of following the entire chain again. The representative (root) doesn't change — only the internal tree structure is flattened. Because future operations are dramatically shorter, the total cost of many operations is amortized to nearly O(1) per operation."
+  explanation: "Path compression is a rare case of an optimization that pays for itself over time: the initial find might traverse a long chain, but it flattens that chain as it goes, making all subsequent finds on those nodes essentially free. This amortized analysis — where a costly operation makes future operations cheap — is the core reason union-find with both optimizations achieves such strong theoretical guarantees in practice."
+```
+
 ## Explainer
 
 Imagine you're at a party where people keep forming groups. Initially everyone stands alone. Periodically, two people decide their groups should merge. At any moment, someone might ask: "Are Alice and Bob in the same group?" **Union-Find** is the data structure that answers this question efficiently, even as groups keep merging — and it does so in nearly constant time per operation.

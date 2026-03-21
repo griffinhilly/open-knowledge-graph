@@ -31,6 +31,45 @@ Analyze a real case — Scotland, Catalonia, or Quebec — through both remedial
 - A right to self-determination does not automatically entail a right to an independent state; it can be satisfied by autonomy, federalism, or other arrangements.
 - The remedial-right view does not make secession impossible; it constrains it to cases of genuine injustice, analogous to the just-war requirement of last resort.
 
+## Questions
+
+```yaml
+- question: "A culturally distinct region within a democratic, rights-respecting state holds a referendum in which a majority votes for independence. No human rights violations have occurred; the group simply prefers self-governance. Under Buchanan's remedial-right theory, does this group have a right to secede?"
+  type: multiple-choice
+  options:
+    - "Yes — democratic majority will is always sufficient to justify secession under any legitimate theory of political authority"
+    - "No — remedial-right theory holds that secession requires a prior injustice such as systematic human rights violations or unjust annexation; a preference for independence, however strongly held, is insufficient"
+    - "Yes — territorial integrity is always subordinate to the expressed democratic will of a regional majority"
+    - "No — only groups with ethnic or linguistic distinctiveness can qualify for secession under any theory"
+  answer: 1
+  explanation: "Buchanan's remedial-right theory treats secession as a last-resort remedy analogous to just war: justified only when a state has perpetrated serious injustice against the group. A preference for independence — even if democratically expressed — does not meet this threshold in a just state. The remedial view accepts that legitimate states have weighty claims to territorial integrity that are not overridden by democratic preference alone. This distinguishes it sharply from primary-right theories, which would recognize the right regardless of prior injustice."
+
+- question: "After a successful independence vote, a major city within the newly independent state holds its own referendum, voting to secede from the new state using the same self-determination argument. This scenario best illustrates:"
+  type: multiple-choice
+  options:
+    - "That primary-right theories generate an infinite regress — any sub-unit can invoke the same principle — unless a principled limit on which groups qualify as self-determining units is established"
+    - "That remedial-right theory is correct, since the new state must have perpetrated injustice against the city"
+    - "That national self-determination requires ethnic homogeneity to function consistently"
+    - "That democratic referenda are an insufficient basis for legitimating any political boundary"
+  answer: 0
+  explanation: "This is the boundary problem: if groups have a primary right to self-determination, what prevents the regress? Every new state contains minorities who could invoke the same logic. Primary-right theorists must identify what makes a group a legitimate self-determining unit — and the answer cannot simply be 'any group that holds a vote,' or the principle generates fragmentation without limit. Remedial-right theorists handle this better because their criterion is tied to specific injustice, not demographic self-identification."
+
+- question: "The 'boundary problem' in theories of secession refers to the difficulty of identifying which groups count as legitimate self-determining units, since granting the right broadly generates a potentially infinite regress of sub-group claims."
+  type: true-false
+  answer: true
+  explanation: "True. If Catalonians can secede from Spain, can pro-unity Barcelonans secede from Catalonia? If Kosovo Albanians can leave Serbia, can Kosovo Serbs leave Kosovo? Every new state contains people who did not choose to be part of it. Without a principled stopping criterion for which groups qualify, any secession justification seems to authorize an endless fragmentation. This is why the boundary problem is considered the deepest theoretical challenge in the literature."
+
+- question: "A right to national self-determination necessarily entails a right to full political independence — any group with a distinct national identity is entitled to its own sovereign state."
+  type: true-false
+  answer: false
+  explanation: "False. Self-determination can be satisfied through many arrangements short of full sovereignty: meaningful autonomy within a federal structure, guaranteed political representation, linguistic and cultural protections, or regional self-governance. The claim that it always requires independent statehood conflates one possible satisfaction condition with the right itself. Many theorists argue that the primary interest underlying self-determination — the ability of a community to govern itself according to its own values — can often be adequately secured without creating a new sovereign state."
+
+- question: "What is the 'boundary problem' in secession theory, and why does it pose a greater challenge to primary-right theories than to remedial-right theories?"
+  type: short-answer
+  answer: "The boundary problem asks: if groups have a right to secede, which groups qualify, and how do you stop the regress when every new state contains potential sub-groups making the same claim? Primary-right theories ground secession in self-governance or democratic will, but these principles apply at any level of aggregation — there is no principled reason to stop at the regional rather than the municipal or neighborhood level. Remedial-right theories are less vulnerable because the right is tied to a specific injustice perpetrated by a specific state against a specific group — the remedy is bounded by the grievance. You need to show that this state committed this wrong against this population; that criterion is not easily extended recursively."
+  explanation: "The boundary problem also reveals that 'national identity' cannot serve as the stopping criterion without question-begging: national identities are contested, overlapping, and historically constructed, so using them to fix political boundaries imports the very controversy the theory was supposed to resolve."
+```
+
 ## Explainer
 
 You have already worked through political authority and legitimacy — the question of when and why a state may rightfully demand obedience and exercise coercive power over people. Secession is the sharpest stress test for those theories: it asks whether a group within an existing legitimate state may withdraw and reconstitute itself as a new political community. The answer reveals what theory of authority you are really committed to.

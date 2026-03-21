@@ -36,6 +36,45 @@ Interpret p-values and null hypothesis significance tests from published papers.
 ## Common Misconceptions
 - P < 0.05 proves the hypothesis is true; - Non-significant results are non-findings; - P-values directly measure effect size; - Repeated sampling with p-hacking is acceptable if the hypothesis is 'right'.
 
+## Questions
+
+```yaml
+- question: "A pharmaceutical study with 100,000 participants finds that a supplement increases memory test scores by 0.3 points (on a 100-point scale) with p = 0.0001. What is the most accurate interpretation?"
+  type: multiple-choice
+  options:
+    - "The supplement is highly effective — the tiny p-value confirms a strong, practically meaningful benefit"
+    - "The result is statistically significant but the effect size is negligible — statistical significance does not establish practical importance"
+    - "The p-value of 0.0001 means there is a 0.01% chance the null hypothesis is true"
+    - "The result is conclusive because p < 0.05 proves the hypothesis correct"
+  answer: 1
+  explanation: "Statistical significance and practical importance are entirely separate. With 100,000 participants, even a trivially small effect (0.3 points on a 100-point scale) produces a very small p-value because large samples detect tiny deviations from the null. The p-value only tells you how surprising the result would be if H₀ were true — it says nothing about the size or real-world relevance of the effect. Always report and interpret effect sizes alongside p-values."
+
+- question: "A researcher reports p = 0.03 for a hypothesis test. A journalist writes: 'There is only a 3% chance this result occurred by chance.' What is wrong with this statement?"
+  type: multiple-choice
+  options:
+    - "Nothing — that is exactly what a p-value of 0.03 means"
+    - "The journalist should have said 5%, not 3%, since alpha is the relevant threshold"
+    - "The p-value is P(data this extreme | H₀ is true), not P(H₀ is true | this data) — the journalist has reversed the conditional probability"
+    - "The statement is wrong because p-values cannot be expressed as percentages"
+  answer: 2
+  explanation: "This is the most common p-value misinterpretation. P = 0.03 means: if the null hypothesis were true, you would see results this extreme or more extreme 3% of the time by chance. It does NOT give the probability that H₀ is true — that requires Bayes' theorem and a prior. The conditional has been reversed: P(data | H₀) ≠ P(H₀ | data)."
+
+- question: "A study that fails to reach p < 0.05 has proven that the effect being studied does not exist."
+  type: true-false
+  answer: false
+  explanation: "Failing to reject H₀ is not the same as accepting H₀. A non-significant result may simply reflect low statistical power — the study may have been too small to detect a real effect. This is the difference between 'evidence of absence' and 'absence of evidence.' A null result is informative only when the study had adequate power to detect an effect of the size that would matter practically."
+
+- question: "Two studies on the same research question can both report p = 0.04 while detecting very different-sized effects."
+  type: true-false
+  answer: true
+  explanation: "The p-value depends on both effect size and sample size. A study with tens of thousands of participants can yield p = 0.04 for a negligible correlation (r = 0.02), while a smaller study yields p = 0.04 for a large effect (r = 0.35). The p-value conflates effect size and sample size into a single threshold crossing — which is precisely why reporting effect sizes (Cohen's d, r, η²) alongside p-values is essential."
+
+- question: "Why is it incorrect to define the p-value as 'the probability that the null hypothesis is true'?"
+  type: short-answer
+  answer: "The p-value is computed assuming the null hypothesis is true — it is P(data this extreme | H₀). To find P(H₀ | data), you would need Bayes' theorem, which requires a prior probability for H₀. The p-value conditions on H₀ being true; reversing this conditional to ask about P(H₀) requires additional assumptions the NHST framework does not provide."
+  explanation: "This distinction has real consequences. Researchers who believe p = 0.05 means H₀ has a 5% chance of being true will systematically overstate their confidence. The correct interpretation demands acknowledging that a significant p-value is compatible with H₀ being true (you could be in the 5% false-positive zone), and a non-significant result is compatible with H₁ being true (you may simply lack power)."
+```
+
 ## Explainer
 
 You know from the central limit theorem that with a large enough sample, the sampling distribution of the mean is approximately normal regardless of the population distribution. You know from the hypothesis test framework that we set up a null hypothesis (H₀), compute a test statistic, and make a decision. Inferential statistics in psychology operationalizes that framework through the machinery of **null hypothesis significance testing (NHST)** — a procedure for deciding whether to reject H₀ based on sample data, with a controlled probability of being wrong.

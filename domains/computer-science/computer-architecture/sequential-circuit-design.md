@@ -34,6 +34,45 @@ Design a 3-bit binary up-counter and a Johnson counter from FSM principles. Buil
 - Sequential circuits are not simply combinational circuits plus memory — the feedback from state elements fundamentally changes the circuit's behavior.
 - Asynchronous design is not simpler despite lacking a clock; it is harder to get right due to race conditions and metastability.
 
+## Questions
+
+```yaml
+- question: "A design team proposes using asynchronous circuits instead of synchronous ones, arguing that eliminating the clock will make the design simpler and faster. What is the primary risk they are taking on?"
+  type: multiple-choice
+  options:
+    - "Their circuits will require significantly more flip-flops to store the same amount of state"
+    - "Race conditions may arise when signals propagate through different paths at different speeds, causing unpredictable behavior"
+    - "Asynchronous circuits cannot implement counters or shift registers without special techniques"
+    - "Without a clock, the circuit cannot interface with other digital components"
+  answer: 1
+  explanation: "The clock in synchronous design does not just pace the circuit — it coordinates all state transitions to happen simultaneously. Without it, different signals may arrive at flip-flops at different times depending on path lengths and gate delays. If a state transition depends on multiple inputs and those inputs arrive at different times, the circuit may sample intermediate, invalid states — a race condition. Synchronous design trades some speed (waiting for the clock edge) for the guarantee that all inputs have settled before any state is captured."
+
+- question: "A student argues: 'A sequential circuit is just a combinational circuit with some memory elements bolted on.' What is fundamentally wrong with this view?"
+  type: multiple-choice
+  options:
+    - "Sequential circuits don't use combinational logic — they consist exclusively of flip-flops"
+    - "The feedback from state elements fundamentally changes circuit behavior: outputs depend on stored history, not just present inputs"
+    - "Memory elements are too slow to work with combinational logic gates in the same circuit"
+    - "The statement is essentially correct — the memory is simply an add-on that stores previous outputs"
+  answer: 1
+  explanation: "A combinational circuit is a function of its current inputs only — give it the same inputs, get the same outputs, always. Adding state feedback breaks this. A sequential circuit maintains internal state that can differ even when external inputs are identical, so the same input can produce different outputs depending on what the circuit has 'seen' before. A counter with input 'clock' and output 'count' demonstrates this immediately: the same clock pulse produces different outputs (0, 1, 2, 3...) depending on state. The circuit's behavior is now a function of input history, not just current input."
+
+- question: "Asynchronous circuit design is simpler than synchronous design because there is no clock signal to manage."
+  type: true-false
+  answer: false
+  explanation: "This is the opposite of reality. Asynchronous design removes the clock but introduces race conditions: when signals arrive at different times through different paths, the circuit may sample data in an invalid intermediate state, producing metastability or incorrect output. Synchronous design solves this by forcing all flip-flops to sample their inputs at the same guaranteed moment — the clock edge. Managing a clock requires careful timing analysis (setup/hold times, clock skew), but this is far more tractable than tracking all possible signal propagation races in a complex asynchronous circuit. Modern digital systems are almost universally synchronous for precisely this reason."
+
+- question: "In a synchronous design, all flip-flops share a common clock signal, ensuring that all state transitions occur at the same instant."
+  type: true-false
+  answer: true
+  explanation: "This is the defining property of synchronous design and the source of its reliability advantage. By tying all flip-flops to the same clock edge, the designer guarantees that every flip-flop samples its input after all combinational logic has settled, and all state updates happen simultaneously. No flip-flop can update before another has finished computing its input. This coordination replaces the uncontrolled race conditions of asynchronous design with a predictable, analyzable timing model."
+
+- question: "Why is synchronous design the dominant methodology in digital systems, and what specific problem does the shared clock solve that would otherwise make complex circuits unreliable?"
+  type: short-answer
+  answer: "Synchronous design is dominant because it solves the race condition problem. In any complex circuit, signals travel through different paths of different lengths and gate counts, arriving at their destinations at different times. If a flip-flop samples its input while that input is still transitioning — because some upstream signals have arrived and others haven't — it may capture an invalid intermediate value (metastability). The shared clock prevents this by imposing a global synchronization point: all flip-flops wait until the clock edge, by which time the designer has guaranteed (through timing analysis) that all combinational logic has settled. Every state update happens at the same instant with stable inputs. This replaces uncontrolled, path-dependent timing with a predictable, verifiable timing model."
+  explanation: "The deeper insight is that the clock is a coordination mechanism, not just a pacing mechanism. It enforces 'all-or-nothing' state transitions across the entire circuit, which is what makes synchronous designs reliable and analyzable at scale."
+```
+
 ## Explainer
 
 You have already studied finite state machines as an abstract model — states, transitions, inputs, outputs — and you know how Boolean algebra and logic gates implement combinational functions. Sequential circuit design is where these two threads converge: you take an FSM specification and realize it in physical hardware using flip-flops, gates, and a clock signal. The result is a circuit whose output depends not just on its current inputs but on its **history** — its stored state.

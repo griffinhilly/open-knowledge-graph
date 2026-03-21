@@ -35,6 +35,45 @@ Derive d/dx[sin(x)] from the limit definition using sum identity and the two key
 - Not applying the chain rule when the argument is not just x.
 - Mixing up the derivative pairs (sec goes with sec*tan, csc goes with -csc*cot).
 
+## Questions
+
+```yaml
+- question: "What is d/dx[cos(2x)]?"
+  type: multiple-choice
+  options:
+    - "sin(2x)"
+    - "-sin(2x)"
+    - "2sin(2x)"
+    - "-2sin(2x)"
+  answer: 3
+  explanation: "Two errors combine here: forgetting the negative sign (d/dx[cos(x)] = -sin(x), not sin(x)) and applying or omitting the chain rule. The chain rule requires multiplying by the derivative of the inner function 2x, which is 2. So d/dx[cos(2x)] = -sin(2x) · 2 = -2sin(2x). Option A forgets both the negative and the chain rule. Option B forgets only the chain rule. Option C forgets only the negative sign."
+
+- question: "The formula d/dx[sin(x)] = cos(x) is established by:"
+  type: multiple-choice
+  options:
+    - "Observing empirically that the sine and cosine graphs seem related"
+    - "Applying the limit definition of the derivative and the squeeze theorem result lim(h→0) sin(h)/h = 1"
+    - "Applying the chain rule to the unit circle parametrization"
+    - "Noting that the second derivative of sin(x) is -sin(x), so the first must be cos(x)"
+  answer: 1
+  explanation: "The derivation applies the limit definition (sin(x+h) - sin(x))/h, expands using the angle addition identity sin(x+h) = sin(x)cos(h) + cos(x)sin(h), and uses two limits established by the squeeze theorem: lim sin(h)/h = 1 and lim (cos(h)-1)/h = 0. The result follows rigorously from these limit facts. The other options are informal or circular — option D in particular assumes you already know the answer."
+
+- question: "All four secondary trig derivatives (tan, cot, sec, csc) can be derived from the sine and cosine derivatives using only the quotient rule and Pythagorean identities."
+  type: true-false
+  answer: true
+  explanation: "This is exactly how the derivations work. For example, tan(x) = sin(x)/cos(x), so the quotient rule gives (cos²(x) + sin²(x))/cos²(x), and the Pythagorean identity sin²(x) + cos²(x) = 1 simplifies this to 1/cos²(x) = sec²(x). The same pattern applies to cot, sec, and csc — each is expressed as a ratio of sin and cos, the quotient rule is applied, and a Pythagorean identity compresses the numerator."
+
+- question: "d/dx[sec(x)] = sec(x)cot(x)"
+  type: true-false
+  answer: false
+  explanation: "The correct derivative is d/dx[sec(x)] = sec(x)tan(x), not sec(x)cot(x). Since sec(x) = 1/cos(x), the quotient rule gives sin(x)/cos²(x) = (1/cos(x)) · (sin(x)/cos(x)) = sec(x)tan(x). A useful mnemonic: sec pairs with tan, and csc pairs with -csc·cot (the co-functions form the negated pair). Mixing them up — putting cot with sec — is the most common error."
+
+- question: "Why must you apply the chain rule when differentiating sin(3x), but the formula d/dx[sin(x)] = cos(x) alone is sufficient for sin(x)?"
+  type: short-answer
+  answer: "sin(x) has the identity function x as its argument, whose derivative is 1, so the chain rule multiplier is 1 and can be ignored. In sin(3x), the argument is the function 3x, whose derivative is 3. The chain rule says: differentiate the outer function (keeping the inner function untouched), then multiply by the derivative of the inner function. So d/dx[sin(3x)] = cos(3x) · 3 = 3cos(3x)."
+  explanation: "The six trig derivative formulas assume the argument is simply x. Whenever the argument is any other expression — 3x, x², x²+1 — the chain rule adds an extra multiplicative factor equal to the derivative of that expression. Failure to apply the chain rule is the most common error in trig differentiation practice."
+```
+
 ## Explainer
 
 The derivatives of the six trigonometric functions are not arbitrary formulas to memorize in isolation — they follow directly from two foundational limits and systematic application of the rules you already know. The entire structure builds from one key limit proved by the squeeze theorem: lim(h→0) sin(h)/h = 1. If you've worked through the squeeze theorem, you've already established the machinery that makes trig differentiation possible.

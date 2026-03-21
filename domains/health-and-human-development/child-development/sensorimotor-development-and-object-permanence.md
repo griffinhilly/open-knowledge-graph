@@ -30,6 +30,45 @@ Observe infants of different ages during object-hiding tasks (e.g., covering a t
 ## Common Misconceptions
 Many believe object permanence emerges suddenly; in fact, it develops gradually across the sensorimotor substages. Another misconception is that infants lack any sense of object persistence before 8 months; research shows earlier competence in looking behaviors than in reaching/search behaviors.
 
+## Questions
+
+```yaml
+- question: "A 5-month-old infant does not reach for a toy hidden under a blanket, but stares significantly longer when a toy appears to pass through a solid wall. What is the most accurate interpretation?"
+  type: multiple-choice
+  options:
+    - "The infant has full object permanence — the looking response shows complete understanding"
+    - "The infant has no object knowledge at all — the looking response is mere curiosity"
+    - "There are two dissociable systems: an early implicit perceptual tracking system is operating, but the explicit search-based action system has not yet developed"
+    - "The infant's visual system is more developed than its motor system, but both represent the same underlying knowledge"
+  answer: 2
+  explanation: "Post-Piagetian research reveals two systems with different developmental timelines. Implicit perceptual tracking — evidenced by looking-time surprise at impossible events — is present as early as 3-4 months. Explicit search-based representation — evidenced by reaching for hidden objects — emerges around 8-9 months. These measure different things: the looking paradigm taps perceptual tracking, while reaching taps action-based mental representation. The 5-month-old has the first but not the second, which is why both findings are simultaneously true."
+
+- question: "Piaget explained the A-not-B error (reaching to location A after watching an object hidden at location B) as evidence that:"
+  type: multiple-choice
+  options:
+    - "Infants have poor short-term memory and forget the location they just observed"
+    - "Infants at this stage represent 'the object I found by doing this action at this place,' not a fully location-independent object"
+    - "Infants mistake the hiding cloth for the object itself"
+    - "Motor immaturity prevents infants from reaching to their non-preferred side correctly"
+  answer: 1
+  explanation: "Piaget's interpretation was that the A-not-B error reflects incomplete object permanence: the 8-10 month infant has not yet abstracted the object from the action-context in which it was found. The object is represented as bound to the search routine at location A, not as a freely located entity. This is why watching the object go to B is not sufficient — the infant's representation is still tied to the successful-search-at-A pattern. The error reflects cognitive representation, not forgetting or motor limitation."
+
+- question: "Modern looking-time studies showing that 3-4 month infants are surprised by impossible events mean Piaget was completely wrong about when object permanence emerges."
+  type: true-false
+  answer: false
+  explanation: "The looking-time findings complicate Piaget's account but don't simply refute it — they suggest two dissociable systems rather than one. Piaget was measuring action-based search, which does emerge around 8-12 months. What the new studies reveal is an earlier implicit perceptual tracking system not captured by Piaget's reaching paradigm. The best synthesis is that 'object permanence' is not a single achievement but a layered construction, with perceptual competence preceding manual-search competence by several months."
+
+- question: "Full object permanence, in Piaget's account, requires the ability to track invisible displacements — inferring where an object must have gone through mental reasoning rather than seeing it moved."
+  type: true-false
+  answer: true
+  explanation: "Piaget distinguished degrees of object permanence. Early-stage infants (8-12 months) can track visible displacements — they search where they saw the object hidden. Full object permanence, emerging in substage 6 (18-24 months), involves inferring the location of an object even when the displacement was not directly observed — the infant must mentally represent what must have happened. This final achievement coincides with the emergence of symbolic thought and language, because it requires a mental representation operating independently of perception."
+
+- question: "Why does the type of test used to measure object permanence matter? What does the difference between looking-time paradigms and reaching paradigms reveal about infant cognition?"
+  type: short-answer
+  answer: "The two paradigms tap different cognitive systems. Looking-time measures detect surprise at impossible events and reveal an early implicit perceptual tracking system — present by 3-4 months — that monitors object continuity. Reaching measures detect active search for hidden objects and reveal a later explicit action-based representation system — present by 8-9 months. The gap between them suggests that object knowledge is not a single capacity but two dissociated systems developing on different timelines. Measuring only one paradigm gives an incomplete and misleading picture."
+  explanation: "This is a methodological lesson with deep implications: what we measure determines what cognitive capacity we probe. Piaget's reaching paradigm was systematically late because it required the infant to have an explicit representation strong enough to drive manual search. The looking paradigm is earlier because it requires only that the infant's perceptual system detect a violation of expectation. The two-system account reconciles what might otherwise look like contradictory findings and changes how we understand cognitive development more broadly."
+```
+
 ## Explainer
 
 From your study of Piaget's cognitive development stages, you know that the sensorimotor stage covers roughly the first two years of life, and that Piaget's core claim is that infants build intelligence through action — by sensing and moving in the world, not by manipulating symbols or language. What this means concretely is that an infant's "knowledge" is initially embedded in motor routines: looking at the rattle, reaching for the rattle, shaking the rattle. There is no separate, abstract representation of the rattle sitting in memory. Piaget's framework predicts that any knowledge that requires an internal representation — including the idea that objects exist when you can't perceive them — must be constructed through experience, not born with the infant.

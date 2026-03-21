@@ -29,6 +29,45 @@ Create a table comparing isotypes by structure (monomeric/polymeric), halflife, 
 ## Common Misconceptions
 - All antibodies have identical Fc regions (Fc regions vary dramatically among isotypes, determining effector functions). - IgG is always superior to other isotypes (each isotype is optimized for specific contexts; IgM initiates responses, IgA protects mucosae).
 
+## Questions
+
+```yaml
+- question: "A pathogen is detected in the intestinal lumen, before it has adhered to or invaded the epithelium. Which antibody isotype is best suited to prevent adhesion and neutralize the pathogen at this mucosal surface?"
+  type: multiple-choice
+  options:
+    - "IgM — because it is the first antibody produced and its pentameric structure activates complement strongly"
+    - "IgA — because secreted dimeric IgA coats pathogens and prevents them from adhering to mucosal epithelium"
+    - "IgG — because it is the most abundant serum immunoglobulin and provides the broadest coverage"
+    - "IgE — because it triggers immediate mast cell degranulation to expel pathogens rapidly"
+  answer: 1
+  explanation: "IgA is the dominant antibody at mucosal surfaces (gut, respiratory tract, breast milk, saliva). Secreted IgA is a dimer wrapped in a secretory component that protects it from digestive enzymes in the mucosa. Its mechanism — immune exclusion — is to coat pathogens and prevent them from binding epithelial surfaces, blocking infection before it begins. IgM is confined to the bloodstream by its large pentameric size; IgG is primarily a serum antibody; IgE is expressed at very low levels and acts through mast cells. Each isotype is specialized for a specific anatomical compartment."
+
+- question: "Why is IgM particularly effective at activating complement despite having relatively lower affinity at individual antigen-binding sites compared to IgG?"
+  type: multiple-choice
+  options:
+    - "IgM has unique amino acid sequences in its Fc region that bind C1q with extraordinarily high intrinsic affinity"
+    - "IgM's pentameric structure provides ten binding sites — multivalent binding to a pathogen surface clusters IgM molecules close enough to efficiently recruit and activate C1q"
+    - "IgM activates the alternative complement pathway, which requires only low-affinity surface binding"
+    - "IgM is the largest antibody and physically blocks the complement-inhibiting surface proteins on pathogens"
+  answer: 1
+  explanation: "C1q activation requires multiple Fc regions to be held in close proximity on a surface — a single antibody Fc binding C1q is insufficient. A pentameric IgM molecule bound to a pathogen surface presents up to five Fc stalks simultaneously in a compact geometry that efficiently recruits and activates C1q, triggering the classical pathway. IgG can also activate complement, but requires multiple IgG molecules to bind near each other on the surface. IgM's polyvalency gives it a structural advantage for complement activation even though each individual binding site has lower affinity than class-switched IgG."
+
+- question: "The effector functions of an antibody — whether it activates complement, promotes phagocytosis, or triggers mast cell degranulation — are determined by its Fc region, not by the antigen-binding Fab region."
+  type: true-false
+  answer: true
+  explanation: "The Fab (antigen-binding fragment) determines WHAT the antibody binds — the specificity for antigen. The Fc (crystallizable fragment) determines WHAT HAPPENS AFTER binding — which Fc receptors on effector cells the antibody engages, whether it activates complement via C1q, whether it crosses the placenta (IgG via FcRn), and whether it triggers mast cell degranulation (IgE via FcεRI). This division of labor is why class-switch recombination is so powerful: it changes the Fc (and thus effector function) without altering the Fab (and thus antigen specificity), repurposing the same antigen-recognition capability for different downstream mechanisms."
+
+- question: "IgE is an immunological mistake — a rare, low-affinity antibody class that serves no adaptive purpose and evolved solely to cause allergic disease."
+  type: true-false
+  answer: false
+  explanation: "IgE evolved primarily to defend against parasitic helminths (worms), which are too large for phagocytosis or complement lysis. IgE binds to FcεRI receptors on mast cells and eosinophils with very HIGH affinity (Ka ~10¹⁰ M⁻¹). When antigen crosslinks surface-bound IgE, mast cells degranulate, releasing mediators that drive eosinophil recruitment and expulsion of parasites from tissues. Allergic disease is a misdirected IgE response against harmless antigens (pollen, food proteins) that happens to use the same molecular machinery. IgE is adaptive and well-designed for its original target; it is not a vestigial mistake."
+
+- question: "Explain why IgG, rather than IgM, is the antibody isotype responsible for providing passive immunity from mother to fetus, and what structural property of IgG enables this."
+  type: short-answer
+  answer: "IgG is the only antibody isotype that crosses the placenta. This is mediated by FcRn (neonatal Fc receptor) expressed on placental syncytiotrophoblasts: FcRn binds the Fc region of IgG with high affinity at the slightly acidic pH inside endosomes, transcytoses the IgG across the placental barrier, and releases it at the neutral pH of fetal circulation. IgM cannot cross the placenta because its large pentameric structure (~900 kDa) is physically too large for this transcytosis mechanism, and its Fc region is not recognized by FcRn. The maternal IgG transferred to the fetus provides protection against pathogens for the first several months of life, before the infant's own adaptive immune system matures."
+  explanation: "This explains several clinical observations: newborns have maternal IgG antibodies for ~3–6 months (declining as maternal IgG is catabolized and fetal production hasn't ramped up). Maternal IgG also explains hemolytic disease of the newborn — if a Rh-negative mother produces IgG anti-Rh antibodies, they cross the placenta and attack fetal red cells. IgM antibodies, despite being produced first in immune responses, cannot mediate this transplacental transfer."
+```
+
 ## Explainer
 
 From your study of immunoglobulin structure, you know that every antibody has the same basic Y-shaped architecture: two heavy chains and two light chains forming two antigen-binding Fab arms and one Fc stalk. What determines the **isotype** — and with it, the antibody's entire downstream behavior — is which class of heavy chain constant region the B cell uses. Humans produce five isotype classes (IgM, IgD, IgG, IgA, IgE), and the differences among them are not cosmetic. They determine where the antibody goes in the body, how long it survives, and what immune effector mechanisms it triggers.

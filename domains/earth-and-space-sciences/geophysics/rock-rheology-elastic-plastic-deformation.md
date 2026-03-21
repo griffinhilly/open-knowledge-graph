@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Rock deformation is elastic at low strain (linear stress-strain), brittle at shallow depths (fracture), and ductile at high temperature and pressure (viscous flow). Laboratory experiments and microstructural studies show yield strength decreases with temperature and strain rate; power-law creep (stress-dependent viscosity) dominates at mantle conditions. The brittle-ductile transition (~300–400°C) defines the upper boundary of the seismogenic zone; understanding rheology constrains lithospheric strength and long-term deformation rates.
 
+## Questions
+
+```yaml
+- question: "As depth increases in the continental crust, how do brittle strength and ductile strength change, and what does their intersection represent?"
+  type: multiple-choice
+  options:
+    - "Both decrease with depth; their intersection marks where the crust becomes too weak to support mountains"
+    - "Both increase with depth; their intersection marks where earthquakes become most frequent"
+    - "Brittle strength increases (due to confining pressure) while ductile strength decreases (due to rising temperature); their intersection is the brittle-ductile transition"
+    - "Brittle strength decreases while ductile strength increases; their intersection marks the base of the lithosphere"
+  answer: 2
+  explanation: "These two opposing trends are the key to understanding the seismogenic zone. Confining pressure from overlying rock clamps fractures shut at depth, requiring more force to overcome friction — so brittle strength increases. Meanwhile, rising temperature mobilizes atoms within mineral crystals, making dislocation creep easier and dramatically lowering ductile strength. The brittle-ductile transition is where these two curves cross, typically at 300–400°C for quartz-rich continental crust."
+
+- question: "A geophysicist finds abundant seismicity at 8 km depth in a continental region but essentially no seismicity below 18 km. The most likely explanation is:"
+  type: multiple-choice
+  options:
+    - "Rocks below 18 km are too porous to store elastic strain energy"
+    - "Tectonic stress decreases with depth, so there is insufficient force to cause earthquakes below 18 km"
+    - "Below ~18 km, temperatures are high enough that rocks deform ductilely, releasing stress through continuous flow rather than sudden fracture"
+    - "Seismic waves cannot propagate through the warm, plastic rock below 18 km"
+  answer: 2
+  explanation: "Earthquakes require rocks that can accumulate elastic strain and then fail suddenly — brittle behavior. Below the brittle-ductile transition, rocks flow continuously via dislocation creep under the same tectonic stresses, releasing stress gradually rather than in sudden ruptures. This defines the base of the seismogenic zone. Seismic waves do propagate through ductile rock (that's how we know it's there), and tectonic stress doesn't simply disappear at depth."
+
+- question: "Near the Earth's surface, rocks in the brittle regime are stronger than rocks just above the brittle-ductile transition because the surface lacks confining pressure."
+  type: true-false
+  answer: false
+  explanation: "This is backwards. In the brittle regime, strength *increases* with depth because confining pressure clamps fractures shut and increases friction on potential fault surfaces. Rocks at shallow depths are *weaker* in the brittle regime, not stronger. The lithosphere actually reaches its *maximum* strength just above the brittle-ductile transition, where confining pressure is high but temperatures have not yet risen enough to trigger ductile flow."
+
+- question: "Ductile deformation in the deep crust and mantle occurs through distributed, continuous flow mechanisms like dislocation creep rather than through discrete fractures or fault planes."
+  type: true-false
+  answer: true
+  explanation: "Ductile deformation involves atomic-scale processes — migration of crystal defects (dislocations) through mineral lattices, diffusion of atoms, and grain boundary sliding. These produce continuous, distributed strain without discrete rupture surfaces. This is why the ductile lower crust and mantle are seismically quiet: stress is released gradually rather than catastrophically. The contrast with brittle fracture (which creates the discrete fault planes of earthquakes) is fundamental to understanding the depth distribution of seismicity."
+
+- question: "Why does the lithosphere have a strength maximum at intermediate depth rather than being uniformly strong or progressively weaker with depth?"
+  type: short-answer
+  answer: "Two competing mechanisms control strength at different depths. In the shallow, brittle regime, strength increases with depth because increasing confining pressure suppresses fracture and raises frictional resistance on faults. In the deeper, ductile regime, strength decreases with depth because rising temperature exponentially reduces resistance to dislocation creep. The strength maximum occurs at the brittle-ductile transition depth, where confining pressure is high but temperatures have not yet risen enough to dramatically soften the rock. Below this point, the exponential temperature dependence of ductile strength dominates, and rock becomes progressively weaker with depth."
+  explanation: "This 'strength envelope' concept explains a key observation: lithospheric plates act as rigid bodies despite being surrounded by weaker mantle. The strong layer near the brittle-ductile transition is what gives the plate its mechanical coherence. It also explains why large thrust faults (like subduction zones) can accumulate decades of elastic strain — that elastic storage happens in the brittle layer above the transition."
+```
+
 ## Explainer
 
 From your understanding of the geothermal gradient, you know that temperature increases with depth in the Earth. **Rheology** — the study of how materials flow and deform — explains why this temperature increase fundamentally changes how rocks respond to the same tectonic forces at different depths. The same granite that shatters like glass near the surface will flow like taffy at 30 km depth, given enough time. Understanding this transition is central to geophysics because it determines where earthquakes can occur, how mountains are supported, and why tectonic plates behave as rigid bodies at the surface but flow in the mantle.

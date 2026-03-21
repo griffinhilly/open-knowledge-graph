@@ -35,6 +35,45 @@ Practice transposing a simple melody to multiple keys while keeping the solfège
 - Movable-do does not require knowing the name of the key first; you find 'do' by ear.
 - La-based and do-based minor are both valid; different institutions prefer different approaches — be aware of both.
 
+## Questions
+
+```yaml
+- question: "A melody in E♭ major begins on the tonic. What movable-do syllable describes that opening note?"
+  type: multiple-choice
+  options:
+    - "mi — because E♭ contains the letter E"
+    - "do — because the tonic is always do in movable-do"
+    - "me — because E is flatted"
+    - "re — because E♭ is just above D"
+  answer: 1
+  explanation: "In movable-do, 'do' is assigned to the tonic of whatever key is active — regardless of the pitch name. The syllable encodes tonal function, not absolute pitch. Options A and C reflect the fixed-do confusion where syllables map to specific note names; option D has no basis in either system."
+
+- question: "A musician trained in fixed-do hears a melody in G major and sings 'do' to the note C. A musician trained in movable-do hears the same melody. What does the movable-do musician sing for C?"
+  type: multiple-choice
+  options:
+    - "do — C is always do in any system"
+    - "fa — because C is the fourth scale degree of G major"
+    - "sol — because G major is built on G, making C the fourth"
+    - "re — because C is two steps below the tonic G"
+  answer: 1
+  explanation: "In G major the scale degrees are G=do, A=re, B=mi, C=fa, D=sol, E=la, F♯=ti. C is scale degree 4, so movable-do assigns it 'fa.' Fixed-do assigns 'do' to C always — but that maps a syllable to an absolute pitch, not to a function. The comparison exposes the core difference: fixed-do is a pitch-naming system; movable-do is a function-encoding system."
+
+- question: "In movable-do solfège, the interval from 'mi' to 'fa' is always a half step, regardless of the key."
+  type: true-false
+  answer: true
+  explanation: "This is one of the two characteristic half steps in the major scale pattern (mi–fa and ti–do). Because movable-do assigns syllables to scale degrees, the intervallic relationships between syllables are invariant across keys. Mi is always scale degree 3 and fa always scale degree 4, and that step is always a half step in major. This is precisely what makes movable-do useful for training relative pitch."
+
+- question: "When a melody is transposed from C major to G major, a movable-do singer must reassign all the solfège syllables to different pitches."
+  type: true-false
+  answer: false
+  explanation: "Transposing keeps the same solfège syllables — the syllables follow the tonal function, not the specific pitches. 'Do–re–mi' remains 'do–re–mi' in every major key; only the absolute pitches change. This is the entire point of movable-do: the syllables capture the relational structure of the melody, which is why they are equally valid (and identical) across transpositions."
+
+- question: "Why is movable-do more useful than fixed-do for developing the ability to hear and reproduce melodies in any key?"
+  type: short-answer
+  answer: "Movable-do assigns syllables to scale-degree functions rather than absolute pitches, so the same syllable always represents the same tonal position (tonic, leading tone, etc.) no matter the key. This trains the ear to hear intervallic and harmonic relationships directly. Fixed-do is essentially a pronunciation system for note names and is useful for absolute pitch recognition, but it does not encode function — a student singing fixed-do in two different keys hears different syllables for the same melodic shape."
+  explanation: "The core insight is that tonal music is fundamentally about relationships, not frequencies. A major scale sounds the same in C as in F♯ because the pattern of whole and half steps is identical. Movable-do encodes that pattern; fixed-do encodes the specific pitches. For sight-singing, interval recognition, and melodic dictation — all relative tasks — movable-do builds more direct aural intuition."
+```
+
 ## Explainer
 
 The core insight behind movable-do is that tonal music is more about **relationships between pitches** than about absolute frequencies. A major scale sounds the same — has the same emotional and structural character — whether it starts on C or F# or any other pitch. Movable-do encodes this by assigning syllables to scale degrees rather than fixed pitches: *do* is always the tonic, *re* is always the second degree, *mi* always the third, and so on. When you sing "do-re-mi" in C major and then "do-re-mi" in G major, you are singing different pitches but the same functional relationships — and crucially, you are training your ear to hear those relationships directly.

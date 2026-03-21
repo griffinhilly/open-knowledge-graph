@@ -36,6 +36,45 @@ Constructing a scaled timeline where 1 cm represents 10 million years forces the
 - Period boundaries are not marked by 'clocks reset to zero'; they record real events in Earth history and are recognized by physical and biological evidence in rock.
 - 'Old' rock is not necessarily Precambrian; highly metamorphosed rocks exposed at the surface may be ancient, but undeformed Cretaceous sediments are also 'old' in human terms.
 
+## Questions
+
+```yaml
+- question: "If Earth's 4.54-billion-year history were compressed into a 24-hour clock, when would the Cambrian explosion (beginning of the Phanerozoic, ~541 Ma) occur?"
+  type: multiple-choice
+  options:
+    - "Shortly after midnight — the Cambrian happened early in Earth's history"
+    - "Around noon — the Cambrian falls roughly halfway through Earth's history"
+    - "Around 9:30 PM — the Cambrian represents only the last 12% of Earth's history"
+    - "Around 11:55 PM — complex animal life appeared just moments before the present day"
+  answer: 2
+  explanation: "541 Ma / 4,540 Ma ≈ 12% of Earth's history. In a 24-hour clock, 88% of the day (roughly 21 hours) passes before the Cambrian begins. All visible animal life — every trilobite, dinosaur, and mammal — fits into the final 2.5 hours. Recorded human civilization would occupy a fraction of a second. This proportion is not merely a fun fact but essential for understanding why the Precambrian rock record looks so impoverished and why fossils become exponentially rarer deeper in time."
+
+- question: "19th-century geologists established the relative ordering of geological periods (Cambrian, Jurassic, Cretaceous, etc.) without radiometric dating. How did they determine which period came first?"
+  type: multiple-choice
+  options:
+    - "They measured rock layer thickness and assumed a constant deposition rate to calculate time elapsed"
+    - "They used superposition (lower layers are older) and fossil succession — the same fossil assemblages reliably appear in the same relative order worldwide"
+    - "They calculated radioactive decay rates of naturally occurring isotopes in rock samples"
+    - "They compared European rock sequences to established astronomical climate cycles"
+  answer: 1
+  explanation: "The geological time scale was built entirely on relative methods before radiometric dating existed. Superposition — the principle that in undisturbed sequences, lower layers are older — gave vertical ordering within a location. Fossil succession — the observation that distinctive assemblages of organisms appear and disappear in a consistent order globally — allowed correlation between distant locations. A geologist in 1850 could say the Jurassic comes after the Triassic with high confidence, without knowing either was hundreds of millions of years old."
+
+- question: "Geological period boundaries (such as the end of the Cretaceous or the end of the Permian) mark real, globally recognizable events recorded in the rock — not arbitrary points chosen for historical or administrative convenience."
+  type: true-false
+  answer: true
+  explanation: "Each period boundary corresponds to a significant biological or physical event preserved in the global rock record. The Cretaceous-Paleogene boundary (66 Ma) marks a globally recognized iridium layer and the mass extinction that eliminated non-avian dinosaurs. The Permian-Triassic boundary (252 Ma) marks the largest mass extinction in Earth history. These events are recognizable in rock on every continent, which is why geologists worldwide can correlate the same boundary without ambiguity."
+
+- question: "The 'Precambrian' is one of Earth's four formal eons, comparable in status to the Hadean, Archean, and Proterozoic."
+  type: true-false
+  answer: false
+  explanation: "The Precambrian is NOT a formal eon — it is an informal collective term for the three oldest formal eons: Hadean, Archean, and Proterozoic. The four formal eons are Hadean, Archean, Proterozoic, and Phanerozoic. Separately, the Paleozoic, Mesozoic, and Cenozoic are eras within the Phanerozoic eon — not eons themselves. Confusing these levels of the hierarchy (eons, eras, periods) is a common source of errors when discussing geological time."
+
+- question: "Why does the Precambrian leave a much sparser fossil record than the Phanerozoic, even though it covers 88% of Earth's history?"
+  type: short-answer
+  answer: "Two compounding factors explain the sparse Precambrian record. First, Precambrian life was overwhelmingly microbial — bacteria and single-celled organisms that had no hard parts (shells, bones, mineralized structures) that could be preserved as body fossils. Fossilization heavily favors organisms with durable hard parts, which multicellular animals only evolved around the Cambrian. Second, Precambrian rocks are far older and have had billions of years for metamorphism, erosion, and subduction to destroy whatever biological evidence they originally contained."
+  explanation: "The combination of soft-bodied life and deep geological time creates a record that is genuinely sparse, not merely incompletely explored. Precambrian fossils exist — stromatolites, microbial mats, late Precambrian soft-bodied Ediacaran fauna — but they are exceptional rather than abundant, requiring unusual preservation conditions. This sparsity is itself informative: it tells us that hard-shelled organisms did not yet exist in large numbers."
+```
+
 ## Explainer
 
 The geological time scale is Earth's calendar, but it is a calendar built from rocks rather than astronomy. From your understanding of sedimentary rocks and the rock cycle, you know that layers of sediment accumulate over time and eventually lithify into rock. The geological time scale organizes those layers — and the events they record — into a nested hierarchy of named intervals, from the largest (**eons**, spanning billions of years) down through **eras**, **periods**, **epochs**, and **ages**. Each boundary between intervals marks a significant event preserved in the global rock record, most often a mass extinction or the first appearance of an important group of organisms.

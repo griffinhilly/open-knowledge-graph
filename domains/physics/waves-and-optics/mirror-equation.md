@@ -30,6 +30,45 @@ Set up a concave mirror with a lamp as the object, find the real image on a scre
 - Sign errors are extremely common; always define the sign convention explicitly and apply it consistently before substituting numbers.
 - m = −1 means the image is real, inverted, and the same size as the object — not that the image is absent.
 
+## Questions
+
+```yaml
+- question: "An object is placed 10 cm in front of a concave mirror with focal length f = 15 cm. Where does the image form?"
+  type: multiple-choice
+  options:
+    - "30 cm in front of the mirror — real and inverted"
+    - "30 cm behind the mirror — virtual and upright"
+    - "At the focal point, 15 cm in front of the mirror"
+    - "6 cm in front of the mirror — real and inverted"
+  answer: 1
+  explanation: "Using 1/dᵢ = 1/f − 1/dₒ = 1/15 − 1/10 = 2/30 − 3/30 = −1/30, so dᵢ = −30 cm. The negative sign means the image is behind the mirror — virtual and upright. This is the 'makeup mirror' case: when the object is closer than the focal length, the concave mirror acts as a magnifier, producing a virtual, upright, enlarged image. The most common error is forgetting that a negative dᵢ means virtual (behind the mirror), not 'no image.'"
+
+- question: "A concave mirror produces an image with magnification m = +2. What can you conclude about this image?"
+  type: multiple-choice
+  options:
+    - "The image is real, inverted, and twice the object's height"
+    - "The image is virtual, upright, and twice the object's height"
+    - "The image is real, upright, and twice the object's height — real images are always upright"
+    - "The image is virtual, inverted, and half the object's height"
+  answer: 1
+  explanation: "Magnification m = −dᵢ/dₒ. A positive m means dᵢ is negative (image behind mirror → virtual) and the image is upright. |m| = 2 means the image is twice the object's size. Option A is wrong because negative m (not positive) indicates an inverted, real image. Option C contains a dangerous misconception: real images formed by mirrors are always inverted, never upright."
+
+- question: "A magnification of m = −1 means no image is formed by the mirror."
+  type: true-false
+  answer: false
+  explanation: "m = −1 means the image is real, inverted, and exactly the same size as the object. The negative sign indicates inversion (not absence), and |m| = 1 means the image height equals the object height. This occurs when dₒ = dᵢ = 2f — the object is at the center of curvature. It is one of the most instructive cases for calibrating how the mirror equation works, not a sign that something has gone wrong."
+
+- question: "For a convex mirror, the focal length is negative, because reflected rays diverge rather than converge to a real focal point."
+  type: true-false
+  answer: true
+  explanation: "A convex mirror's surface curves away from the incoming light, causing reflected rays to diverge. They appear to come from a point behind the mirror — the virtual focus — rather than converging to a point in front. By the sign convention (distances in front of the mirror are positive), a focal point behind the mirror gets a negative f. This is why convex mirrors always produce virtual, upright, diminished images and have positive dᵢ in the mirror equation only when... wait, actually dᵢ is negative for convex mirrors too. The key: f < 0 for convex mirrors consistently gives dᵢ < 0, confirming the image is always virtual."
+
+- question: "Why does an object placed just inside the focal point of a concave mirror produce a large, virtual, upright image rather than a real, inverted one?"
+  type: short-answer
+  answer: "When dₒ < f, the denominator in dᵢ = f·dₒ/(dₒ − f) becomes negative (since dₒ − f < 0), making dᵢ negative. Negative dᵢ means the image is behind the mirror — virtual and upright. Physically, the reflected rays are diverging rather than converging: they spread out after reflection and never meet in front of the mirror. Your eye (or a lens) can trace them backward to an apparent point behind the mirror, which is where the virtual image appears. As dₒ approaches f from outside, the real image flies off to infinity; as soon as dₒ drops below f, the image 'wraps around' and appears enlarged behind the mirror."
+  explanation: "This is the principle behind makeup mirrors, magnifying shaving mirrors, and dental mirrors: a concave mirror with the object close inside the focal point acts as a magnifier, producing a convenient virtual, upright, enlarged image. The sign of dᵢ from the mirror equation tells you everything: positive = real (in front), negative = virtual (behind)."
+```
+
 ## Explainer
 
 From studying spherical mirrors, you know how to locate images graphically — drawing the parallel ray, focal ray, and center ray until they converge. The **mirror equation** does the same job algebraically: given the focal length and object position, it calculates the image position precisely without a diagram. The two approaches are complementary; drawing a quick ray diagram to check the algebra is a good habit, especially when the sign of dᵢ is ambiguous.

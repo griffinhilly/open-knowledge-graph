@@ -29,6 +29,45 @@ Test programs that perform arithmetic with both types. Observe rounding errors w
 - Floating-point numbers are always imprecise (they have fixed precision based on bits).
 - Integers and floats can be freely mixed without loss (some information may be lost in conversion).
 
+## Questions
+
+```yaml
+- question: "Why does `0.1 + 0.2` produce approximately `0.30000000000000004` rather than exactly `0.3` in most programming languages?"
+  type: multiple-choice
+  options:
+    - "This is a bug in the language's math library that has not been patched"
+    - "Floating-point arithmetic is inherently random and produces slightly different results each time"
+    - "The number 0.1 cannot be represented exactly in binary, just as 1/3 cannot be written exactly in decimal — so a rounding error is introduced during representation, not calculation"
+    - "The CPU performs addition before converting binary to decimal, introducing a translation error"
+  answer: 2
+  explanation: "The error is in the representation, not the arithmetic. Just as the fraction 1/3 has no finite decimal representation (0.333...), the fraction 1/10 has no finite binary representation. When 0.1 is stored as a float, it's rounded to the nearest representable binary value — slightly off. When you add two slightly-off values, the error accumulates. This is deterministic and predictable, not random."
+
+- question: "A program converts a very large 64-bit integer (e.g., 2^60) to a 64-bit float before doing arithmetic. What risk does this introduce?"
+  type: multiple-choice
+  options:
+    - "The program will throw a runtime error because floats cannot store values that large"
+    - "The value will always be rounded down to the nearest power of 2"
+    - "The integer's value may be silently rounded because a 64-bit float only stores about 15–16 significant decimal digits, which may be fewer than the integer requires"
+    - "No risk — converting integers to floats is always lossless regardless of magnitude"
+  answer: 2
+  explanation: "A 64-bit integer can represent values requiring up to 19 significant decimal digits with full precision, but a 64-bit float only provides about 15–16 significant digits. For large integers, the conversion silently rounds to the nearest representable float value — losing precision. This is a real source of bugs in financial and scientific software where large exact integers are common."
+
+- question: "In Python specifically, integer arithmetic is exact with no overflow risk, regardless of how large the numbers get."
+  type: true-false
+  answer: true
+  explanation: "Python integers use arbitrary-precision arithmetic — they grow to use as much memory as needed. There is no fixed bit width, so there is no overflow. Computing 10**100 or 2**1000 returns an exact integer in Python. This distinguishes Python from C, Java, and JavaScript, where integer types are fixed-width (e.g., 32-bit or 64-bit) and will overflow or wrap around when values exceed their range."
+
+- question: "Floating-point imprecision is unpredictable — you can't know in advance which calculations will produce rounding errors."
+  type: true-false
+  answer: false
+  explanation: "Floating-point behavior is entirely deterministic and follows the IEEE 754 standard. The same operation on the same values always produces the same result. The rule is precise: a value is rounded to the nearest representable binary floating-point number. Whether a specific value like 0.1 or 0.5 is exact (0.5 is, because it's 1/2) or inexact (0.1 is not) is knowable in advance. Imprecision is systematic, not random."
+
+- question: "Why is it a mistake to compare floating-point numbers with ==, and what should you do instead?"
+  type: short-answer
+  answer: "Because floating-point arithmetic accumulates small rounding errors, two calculations that should theoretically produce the same value may produce results that differ by a tiny amount (e.g., 0.30000000000000004 vs. 0.3). Comparing with == will then return false even when the values are practically equal. Instead, check whether the absolute difference falls within a small tolerance: abs(x - expected) < 1e-9 (or some appropriate epsilon for your domain)."
+  explanation: "This is a direct consequence of the representation issue. The == operator checks for bit-for-bit equality, which floating-point arithmetic rarely guarantees. Tolerance-based comparison acknowledges the fundamental nature of floating-point numbers — they are approximations — and makes the code robust to the small rounding errors that are unavoidable in floating-point computation."
+```
+
 ## Explainer
 
 From your study of memory and data storage, you know that computers store everything as patterns of bits. How those bits are *interpreted* depends on the data type. For numbers, the two fundamental types are **integers** and **floating-point numbers**, and understanding the difference matters because each represents numbers in a fundamentally different way with different tradeoffs.

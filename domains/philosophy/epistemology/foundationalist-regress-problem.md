@@ -29,6 +29,45 @@ Construct the regress argument step by step. Understand why foundationalists acc
 ## Common Misconceptions
 - Basic beliefs aren't automatically true or certain; they just don't require justification from other beliefs. - Foundationalism doesn't deny that all beliefs can be rationally questioned; it concerns justification structure. - Self-evident truths aren't the only candidates for basic beliefs.
 
+## Questions
+
+```yaml
+- question: "Maria claims: 'I'm justified in believing P because of Q; I'm justified in believing Q because of R; and I'm justified in believing R because it coheres with P.' Which horn of the regress dilemma does this represent, and what is the standard objection?"
+  type: multiple-choice
+  options:
+    - "Infinite regress — objection: humans cannot traverse an infinite chain of justification"
+    - "Circular justification — objection: the chain loops back on itself, so no belief is genuinely supporting any other independently"
+    - "Termination in unjustified beliefs — objection: the structure rests on beliefs that are themselves without support"
+    - "Foundationalism — objection: basic beliefs lack genuine justificatory force"
+  answer: 1
+  explanation: "The chain R → Q → P → R is circular: P's justification depends on Q, which depends on R, which depends back on P. This is the circularity horn of the dilemma. The objection is that circular justification is viciously circular — a belief cannot serve as its own ultimate ground. To check whether P is justified, you must already assume P (via R) is acceptable, which is precisely what was in question. This is sometimes called 'bootstrapping' and is widely regarded as a defective epistemic structure."
+
+- question: "A foundationalist claims that the pain experience 'I am in pain right now' can serve as a basic belief because it requires no further justification from other beliefs. A critic objects: 'But pain experiences can mislead — so they cannot justify anything.' The best foundationalist reply is:"
+  type: multiple-choice
+  options:
+    - "Pain experiences are infallible, so the objection fails"
+    - "The critic is right; only logical and mathematical truths can be basic beliefs"
+    - "Basic beliefs do not need to be infallible or certain — they need only provide justification without requiring inferential support from further beliefs. Fallibility is compatible with foundational status."
+    - "The objection succeeds; phenomenal conservatism is a failed foundationalist strategy"
+  answer: 2
+  explanation: "A key misconception is that foundational beliefs must be incorrigible (immune to error). Modern foundationalists typically accept that basic beliefs can be fallible — they just need to have a non-inferential justificatory source (perceptual appearance, introspection, reliable mechanism). The distinction is between *how a belief is justified* (without further beliefs) versus *how certain it is*. Descartes required incorrigibility, but contemporary foundationalists (reliabilists, phenomenal conservatives) do not. Option A overclaims in the opposite direction."
+
+- question: "For foundationalism to succeed, basic beliefs must be certain and immune to doubt."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception, likely rooted in the Cartesian version of foundationalism. Descartes did require incorrigibility (beliefs you cannot be wrong about, like 'I am thinking'). But contemporary foundationalists offer other accounts: reliabilism grounds basic beliefs in reliable perceptual processes (which can err), and phenomenal conservatism grounds them in how things appear (which can also mislead). What makes a belief 'basic' is its *structural* role — it provides justification without depending on other beliefs — not its epistemic certainty. Fallibilist foundationalism is a live and prominent position."
+
+- question: "Coherentism dissolves the regress problem by replacing linear justification chains with mutual support among beliefs, but faces the objection that a coherent system of beliefs might have no connection to external reality."
+  type: true-false
+  answer: true
+  explanation: "Coherentism avoids the regress by reconceiving justification as holistic rather than linear — belief A is justified by fitting coherently with the web B, C, D... rather than by tracing back to a foundation. This eliminates the demand for a starting point. The cost is the 'isolation problem': a coherent fantasy world would justify its own claims. If internal coherence is all that matters, nothing guarantees that the web of beliefs tracks an external reality. This gap between internal coherence and external contact is the most persistent objection to coherentist theories of justification."
+
+- question: "What makes a belief 'basic' in the foundationalist sense? Why can't a basic belief be just any belief at which the justification chain happens to stop?"
+  type: short-answer
+  answer: "A basic belief is not merely a belief someone stops questioning — it is one that has a non-inferential justificatory source: it is justified by something other than other beliefs (by perceptual experience, introspective awareness, rational intuition, or reliable cognitive processes). If the chain simply stopped at an arbitrary belief with no justificatory backing, the structure would just be terminating in an unjustified belief — the third horn of the dilemma, which leaves the whole structure without a legitimate ground. Basic beliefs need to earn their foundational status by having a positive epistemic source; they are not merely unchallenged assumptions."
+  explanation: "The distinction is between a belief that happens not to be questioned (a mere assumption or dogma) and a belief that has a positive, non-inferential source of justification. This is why different foundationalists argue about *what kind* of non-inferential source qualifies — incorrigibility, self-evidence, reliability, phenomenal presentation — rather than simply accepting that any stopping point will do. Getting this right is what separates a genuine foundationalist account from the inert observation that chains of justification must end somewhere."
+```
+
 ## Explainer
 
 The **regress problem** is the central challenge to any theory of epistemic justification. It arises from a simple observation: if a belief is justified, it must be justified by something. But what justifies that justifying belief? And what justifies that? From your study of foundationalism, you know the basic structure of the problem and that foundationalism is one response to it. This topic deepens the analysis of why the problem is genuinely hard and what it takes to solve it.

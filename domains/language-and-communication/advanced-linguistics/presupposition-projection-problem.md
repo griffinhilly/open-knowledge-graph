@@ -27,6 +27,45 @@ Systematically test presuppositions from definite descriptions, factive verbs, a
 ## Common Misconceptions
 Presuppositions differ from entailments; they are asymmetric under negation and not asserted content, yet their interpretation depends on context and listener beliefs.
 
+## Questions
+
+```yaml
+- question: "Consider: (A) 'John stopped smoking.' and (B) 'John didn't stop smoking.' What does this pair reveal about the assumption that John previously smoked?"
+  type: multiple-choice
+  options:
+    - "Both sentences entail that John previously smoked — this is a regular entailment that projects from both the positive and negative"
+    - "Both sentences presuppose that John previously smoked — the assumption survives negation, which is the defining diagnostic of presupposition"
+    - "Sentence A entails John smoked before; sentence B cancels this, confirming it is an entailment rather than a presupposition"
+    - "The assumption is pragmatically implicated by both sentences but is technically neither an entailment nor a presupposition"
+  answer: 1
+  explanation: "The negation test is the core diagnostic for presupposition. Regular entailments do not survive negation: 'John went to Paris' entails he went somewhere, but 'John didn't go to Paris' does not. Presuppositions do survive: both 'John stopped smoking' and 'John didn't stop smoking' carry the background assumption that John previously smoked. If that assumption fails — he never smoked — both sentences are defective, not simply false. This survival under negation distinguishes presuppositions from ordinary entailments."
+
+- question: "Consider: 'If John has a sister, then John's sister is a doctor.' Does this sentence presuppose that John has a sister?"
+  type: multiple-choice
+  options:
+    - "Yes — 'John's sister' triggers a definite description presupposition that always projects regardless of context"
+    - "No — the conditional context filters the presupposition; the sentence merely raises the sister's existence as a hypothetical, suspending the existential claim"
+    - "No — presuppositions only arise from factive verbs, not from definite descriptions"
+    - "Yes — the presupposition is present but weakened, not blocked"
+  answer: 1
+  explanation: "This is a classic case of the projection problem. Definite descriptions like 'John's sister' normally trigger an existential presupposition. But when the description appears in the consequent of a conditional whose antecedent establishes exactly that existential condition, the presupposition is filtered — the sentence does not globally commit to John having a sister. This shows that presuppositions do not always project: the embedding environment determines behavior, and no simple rule ('presuppositions always project') captures all cases."
+
+- question: "Unlike regular entailments, presuppositions survive negation — negating a sentence typically leaves its presuppositions intact."
+  type: true-false
+  answer: true
+  explanation: "This is the defining property of presuppositions and the primary diagnostic used to identify them. 'The king of France is bald' and 'The king of France is not bald' both presuppose that France has a king. If France has no king, both sentences are infelicitous — they suffer a truth-value gap. Regular entailments disappear under negation: 'She managed to finish the exam' entails it was difficult, but 'She didn't manage to finish the exam' does not."
+
+- question: "Presuppositions always project out of any embedding environment — conditional, modal, or interrogative — because they are background assumptions rather than asserted content."
+  type: true-false
+  answer: false
+  explanation: "This is the misconception the projection problem directly addresses. Presuppositions project in some environments but are filtered or suspended in others. A conditional like 'If there is a king of France, then the king of France is bald' filters the existential presupposition. A modal like 'Maybe John knows that Mary left' lets the complement presupposition (Mary left) project, but with reduced force. Factive verbs typically project through negation. The point is that different operators treat presuppositions differently — which is precisely what makes the projection problem hard."
+
+- question: "What is the projection problem in presupposition theory, and why does it resist a simple rule?"
+  type: short-answer
+  answer: "The projection problem is the challenge of predicting when a presupposition projects out of an embedding environment and when it is canceled or suspended. Simple declaratives reliably project their presuppositions. But presuppositions embedded under negation still project, while the same presuppositions embedded under conditionals may be filtered, under 'maybe' project with reduced force, and so on. No single rule — 'presuppositions always project' or 'operators always block them' — captures the asymmetric pattern. Different operators (negation, modals, conditionals, questions) behave differently, and even the same operator can behave differently depending on where in the sentence the presupposition trigger occurs."
+  explanation: "Frameworks like satisfaction theory (Heim/Karttunen) try to handle this by requiring presuppositions to be entailed by the local context at each point of evaluation — which allows conditionals to filter when the antecedent provides the needed background. Accommodation handles cases where presuppositions introduce content not already in the common ground. The difficulty is that no framework fully predicts all patterns without residual complexity."
+```
+
 ## Explainer
 
 You've already worked through Montague semantics — the compositional, model-theoretic approach that builds sentence truth conditions from lexical entries and syntactic rules. And you've studied **Discourse Representation Theory** (DRT), which extends formal semantics to handle anaphora and discourse-level phenomena by building representations that update incrementally as a discourse unfolds. The projection problem in presupposition is where these tools meet one of the semantics-pragmatics interface's hardest puzzles.

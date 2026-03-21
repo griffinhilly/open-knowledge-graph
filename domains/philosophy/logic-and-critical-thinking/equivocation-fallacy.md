@@ -29,6 +29,45 @@ Show arguments with obvious equivocation (e.g., 'Only the wise should rule. Dogs
 ## Common Misconceptions
 Thinking synonyms create equivocation (they don't if used consistently). Not recognizing that a term can shift meaning through a single argument without obvious synonymy.
 
+## Questions
+
+```yaml
+- question: "Consider: 'Nothing is better than a hot meal after hiking. A cold sandwich is better than nothing. Therefore, a cold sandwich is better than a hot meal after hiking.' What makes this argument equivocate?"
+  type: multiple-choice
+  options:
+    - "The conclusion is too strong — the argument is inductively weak but not equivocating"
+    - "'Nothing' shifts meaning: first meaning 'no available alternative' and then meaning 'the literal absence of anything'"
+    - "'Better' is used ambiguously — it could mean healthier or more satisfying"
+    - "The argument commits a false dichotomy between a hot meal and a cold sandwich"
+  answer: 1
+  explanation: "The word 'nothing' carries two different meanings. In the first premise, 'nothing' means 'no available option' — there is no alternative preferable to a hot meal. In the second, 'nothing' means literal nothingness — the complete absence of food. The argument looks valid because the same word appears in both premises, but the inference only works if 'nothing' means the same thing throughout. It does not."
+
+- question: "If you replace a potentially equivocating term with two distinct symbols (L₁ for meaning 1 and L₂ for meaning 2) and the argument becomes clearly invalid, what does this reveal?"
+  type: multiple-choice
+  options:
+    - "The argument was always invalid regardless of the ambiguity — equivocation is irrelevant"
+    - "The argument's apparent validity depended on conflating two different meanings under one word"
+    - "The argument's premises are empirically false"
+    - "The argument commits a different fallacy — affirming the consequent or a non sequitur"
+  answer: 1
+  explanation: "This substitution test is the key diagnostic for equivocation. Equivocating arguments look valid because logical form is syntactic — it tracks word tokens, not meanings. When you assign different symbols to different senses, the hidden switch becomes visible and the argument falls apart. The argument 'L₁ requires a maker; L₁ things exist; therefore L₂ things require a maker' is transparently invalid the moment the switch is exposed."
+
+- question: "Equivocation is an informal fallacy: the argument may appear formally valid but is actually invalid because a key term shifts meaning between premises."
+  type: true-false
+  answer: true
+  explanation: "This captures equivocation precisely. The surface structure mimics a valid syllogism — same word appears in premises and conclusion, giving the impression of a connected logical chain. But logical validity requires that the same *meaning* be tracked, not just the same word token. When meaning shifts, the apparent connection breaks, making the argument invalid despite its valid appearance."
+
+- question: "Using synonyms (different words for the same concept) within a single argument always creates equivocation."
+  type: true-false
+  answer: false
+  explanation: "Equivocation requires a shift in *meaning*, not a change in *word form*. Using 'car' and 'automobile' to mean the same thing does not equivocate — both words refer to the same concept throughout. The fallacy requires the same word to carry different meanings in different premises. Different words for the same meaning is stylistic variation; one word for different meanings is equivocation. The error is semantic, not lexical."
+
+- question: "What technique can you use to expose an equivocation in an argument, and why does it work?"
+  type: short-answer
+  answer: "Define the key term explicitly at the start of the argument, then check whether that definition holds at every use. Alternatively, substitute distinct symbols (L₁, L₂) wherever the term appears with different possible meanings, and test whether the argument remains valid. These techniques work because equivocation hides behind the surface similarity of a single word — making the different senses explicit forces the logical gap into view."
+  explanation: "Equivocation exploits the gap between syntactic form (which logic tracks) and semantic content (which meaning requires). By slowing down and demanding consistency of meaning at every step, you remove the ambiguity that makes the illusion of validity possible. Hard cases involve terms like 'natural,' 'free,' or 'rights' where the shift is gradual rather than abrupt."
+```
+
 ## Explainer
 
 From your study of **logical form**, you know that validity is a structural property: if an argument has a valid form, any argument with the same structure and true premises will have a true conclusion. The fallacy of equivocation exploits this expectation by keeping the same word while silently swapping its meaning — so the argument *looks* formally valid but actually involves two different concepts linked only by a shared label.

@@ -28,6 +28,45 @@ Start with a frequency distribution from real data and convert frequencies to re
 - Thinking probability and statistics are the same thing — probability reasons forward from a known model to predictions, while statistics reasons backward from observed data to infer the model.
 - Believing that a relative frequency from a small sample is a reliable probability estimate — larger samples produce more stable estimates.
 
+## Questions
+
+```yaml
+- question: "A quality-control engineer knows that a manufacturing process produces defective parts with probability 0.02 and asks: 'In our next batch of 500 parts, how many defects should we expect?' A data analyst examines a batch of 500 parts, finds 14 defects, and asks: 'What is the true defect rate for this machine?' Which person is doing probability and which is doing statistics?"
+  type: multiple-choice
+  options:
+    - "Both are doing statistics — both are working with numerical data"
+    - "Both are doing probability — both are reasoning about defect rates"
+    - "The engineer is doing probability (model → prediction); the analyst is doing statistics (data → model)"
+    - "The engineer is doing statistics (using data to set expectations); the analyst is doing probability (estimating from observed counts)"
+  answer: 2
+  explanation: "Probability reasons forward from a known model to expected observations: the engineer knows the defect rate (0.02) and asks what data to expect. Statistics reasons backward from observed data to an unknown model: the analyst has data (14 defects) and is trying to infer the underlying process. These are opposite directions of inference. Option D reverses the distinction — expecting outcomes from a known model is probability, not statistics."
+
+- question: "A researcher computes a relative frequency of 0.31 from a sample of 50 observations and reports it as the probability of the event. What is the main limitation of this claim?"
+  type: multiple-choice
+  options:
+    - "Relative frequency can never be used to estimate probability — it has no connection to the probability axioms"
+    - "A sample of 50 is too small for relative frequency to be a stable estimate; the true probability could plausibly be quite different"
+    - "The researcher should have used a histogram rather than a single relative frequency"
+    - "Probability must be computed theoretically; empirical data cannot inform probability estimates"
+  answer: 1
+  explanation: "Relative frequency is a valid estimator of probability, but its accuracy depends on sample size. With n = 50, the estimate has high variance — the same underlying probability could produce relative frequencies anywhere from roughly 0.18 to 0.44 in repeated samples of this size. The Law of Large Numbers guarantees convergence as n grows, but 50 observations is not 'large' enough for a precise probability claim. Options A and D are wrong: relative frequency is exactly how empirical probability estimates are constructed."
+
+- question: "A relative frequency computed from a dataset is an estimate of an underlying probability, not the probability itself — the true probability could differ, especially with small samples."
+  type: true-false
+  answer: true
+  explanation: "This is the core epistemological point of the statistics-probability bridge. Observed relative frequencies are estimates that converge to the true probability as sample size grows (Law of Large Numbers). For finite samples, they carry uncertainty. Treating a relative frequency as if it were the exact probability leads to overconfidence — which is the root of many statistical errors in practice."
+
+- question: "Probability and statistics are essentially the same discipline — both use numbers to describe uncertainty."
+  type: true-false
+  answer: false
+  explanation: "They are distinct in direction of reasoning. Probability starts with a known model (a fair coin, a 2% defect rate) and deduces what data should look like. Statistics starts with observed data and tries to infer the unknown model that generated it. They are inverse operations: statistics uses data to estimate the input that probability uses as its starting point. Conflating them leads to circular reasoning — using your data to estimate a probability, then treating that probability as if it were known when interpreting the same data."
+
+- question: "What conceptual shift occurs when you move from treating data as 'a collection of fixed facts' to treating it as 'one sample from a random process,' and why does this shift matter?"
+  type: short-answer
+  answer: "When data is seen as a fixed collection, it is self-contained — the numbers are the full story, and questions like 'how reliable is this?' have no meaning. When data is seen as one realization of a random process, it becomes a sample from a broader distribution, and questions like 'how much would this result vary across repeated samples?' and 'how confident am I that this estimate is close to the truth?' become meaningful. This shift is the conceptual foundation of all inferential statistics."
+  explanation: "This is perhaps the single most important conceptual move in statistics. Descriptive statistics describes your particular dataset. Inferential statistics asks what your dataset tells you about the underlying process. Without the 'data as a sample' framing, concepts like confidence intervals, hypothesis tests, and p-values have no meaning — they all quantify how much estimates could vary across repeated samples from the same process."
+```
+
 ## Explainer
 
 Descriptive statistics is the art of summarizing what happened. A histogram, a mean, a standard deviation — these are tools for compressing observed data into digestible form. But they say nothing about what will happen next. To make predictions and draw general conclusions, you need a different kind of machinery: **probability theory**, which you already know through the probability axioms. This topic is about recognizing that the two fields are not independent subjects — they are connected by a single bridge called relative frequency.

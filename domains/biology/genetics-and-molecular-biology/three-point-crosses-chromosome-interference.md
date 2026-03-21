@@ -32,6 +32,45 @@ Analyze a three-point testcross progeny: identify parental, single-crossover, an
 - Not recognizing that interference can vary along the chromosome and be sex-specific.
 - Thinking double-crossover classes are the most frequent when they are the rarest class, allowing easy identification.
 
+## Questions
+
+```yaml
+- question: "A three-point testcross produces offspring where the two most frequent classes are ABC and abc (parentals), and the two rarest classes are AbC and aBc. Based solely on the double crossover classes, which gene is in the middle?"
+  type: multiple-choice
+  options:
+    - "Gene A — because it appears changed in the rarest class relative to the parentals"
+    - "Gene B — because its allele is the only one that is reversed relative to the parental arrangements in both double crossover classes"
+    - "Gene C — because it is consistently uppercase in the rarest classes while being lowercase in one parental"
+    - "The middle gene cannot be determined from double crossovers alone; map distances for all three intervals are required first"
+  answer: 1
+  explanation: "A double crossover places a crossover on both sides of the middle gene, which reverses only that middle gene's allele relative to the parental chromosomes. Comparing parentals (ABC / abc) to double crossovers (AbC / aBc): A and C maintain their parental relationships (A with C, a with c), while B switches (B becomes b in AbC; b becomes B in aBc). Only the middle gene's allele flips in a double crossover — this is the diagnostic rule for identifying gene order. Option D is wrong because the double crossover class alone is sufficient and is the fastest diagnostic."
+
+- question: "A three-point cross yields a coefficient of coincidence (c.o.c.) of 0.30. How should this be interpreted?"
+  type: multiple-choice
+  options:
+    - "30% of all crossovers were detected, meaning recombination was severely suppressed across the entire chromosome"
+    - "Only 30% of the expected double crossovers were observed, indicating that a crossover in one interval reduces the probability of a crossover in the adjacent interval by 70%"
+    - "The coefficient of coincidence of 0.30 confirms that crossovers in adjacent intervals occur independently"
+    - "The single-crossover map distances must be recalculated because interference invalidates all the recombination frequency data"
+  answer: 1
+  explanation: "C.o.c. = observed doubles / expected doubles = 0.30, meaning only 30% of the double crossovers predicted by independent probability were actually found. Interference = 1 − 0.30 = 0.70, indicating a 70% suppression of double crossovers relative to expectation. This suppression is a physical phenomenon: the recombination machinery engaged in one crossover inhibits formation of another crossover nearby. Crucially, interference affects only the double crossover class — single crossover frequencies and the map distances calculated from them are unaffected."
+
+- question: "In a three-point testcross, the double crossover class is always the rarest because recombination must occur simultaneously in two adjacent intervals."
+  type: true-false
+  answer: true
+  explanation: "Each crossover event is a low-probability occurrence. The probability of a double crossover — requiring independent events in both interval I and interval II — equals the product of the two individual crossover frequencies, which is always smaller than either frequency alone. This is why double crossover classes are reliably identified as the rarest progeny classes, making them the key for identifying the middle gene: compare the rarest classes to the parentals to see which gene's allele flipped."
+
+- question: "Positive interference means that a crossover in one chromosomal interval increases the probability of a second crossover occurring nearby."
+  type: true-false
+  answer: false
+  explanation: "Positive interference means a crossover in one interval *decreases* the probability of a crossover in an adjacent interval — resulting in fewer double crossovers than expected under independence. The name 'positive' refers to the direction of the interference value (interference = 1 − c.o.c., which is positive when fewer doubles occur than expected). If a crossover *increased* the probability of a nearby crossover, that would be negative interference — a rare biological phenomenon. The standard biological pattern in most organisms and chromosomal regions is positive interference (suppression)."
+
+- question: "How does the coefficient of coincidence reveal that crossovers are not independent events, and what physical phenomenon does this reflect?"
+  type: short-answer
+  answer: "Expected double crossover frequency is calculated as the product of the two single-crossover frequencies — the value predicted if the events were statistically independent. When observed double crossovers are consistently less than expected (c.o.c. < 1), the two events are negatively correlated: having a crossover in one interval makes a crossover in the adjacent interval less likely than chance would predict. This reflects the physical mechanics of recombination: the protein complexes forming one crossover physically inhibit assembly of another crossover within a certain chromosomal distance, producing the characteristic suppression of nearby crossovers."
+  explanation: "Interference is not just a statistical curiosity — it has practical consequences for genetic mapping. Because double crossovers are rarer than expected, simple additive map distances between distant loci underestimate true genetic distance, and mapping functions (like Kosambi's) must correct for interference. Understanding interference also informs models of the meiotic machinery and explains why genetic maps have characteristic spacing patterns between crossovers across all organisms with positive interference."
+```
+
 ## Explainer
 
 You already know from genetic mapping that recombination frequency between two loci estimates the genetic distance between them, and that linked genes produce fewer recombinant offspring than expected under independent assortment. A **three-point cross** extends this logic by tracking three linked genes simultaneously, and it reveals something two-point crosses cannot: crossovers along a chromosome are not independent events. A crossover in one interval changes the probability of a crossover occurring nearby.

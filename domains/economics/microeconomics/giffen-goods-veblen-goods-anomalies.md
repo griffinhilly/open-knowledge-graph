@@ -28,6 +28,45 @@ Analyze historical examples (rice in colonial India for Giffen goods; luxury bra
 - Giffen goods violate economic rationality (they don't; they're consistent with utility maximization once income effects are included).
 - Giffen and Veblen goods are the same (Giffen relates to income effects; Veblen to signaling via price).
 
+## Questions
+
+```yaml
+- question: "During a famine, the price of coarse grain (a subsistence staple) rises. A poor household is observed buying more grain than before. Which explanation is consistent with economic theory?"
+  type: multiple-choice
+  options:
+    - "The household is behaving irrationally by violating the law of demand"
+    - "Grain has become a Veblen good because its higher price signals status"
+    - "Grain is a Giffen good: the income effect of being poorer forces the household to substitute away from protein toward cheap calories, outweighing the substitution effect"
+    - "The substitution effect is pushing the household to buy more grain because it is now relatively cheaper than other goods"
+  answer: 2
+  explanation: "This is the classic Giffen mechanism. When grain price rises, two effects operate: the substitution effect (grain is now more expensive relative to substitutes, pushing demand down) and the income effect (the household is poorer in real terms). Because grain is an inferior good that households eat more of when poor, the negative income effect operates in the opposite direction — feeling poorer increases grain consumption. When the income effect is large enough to outweigh the substitution effect, quantity demanded rises. This is fully rational behavior under a binding budget constraint. Option D gets the substitution effect backwards."
+
+- question: "A luxury handbag brand raises its price from $5,000 to $8,000, and sales increase. This is best explained by which mechanism?"
+  type: multiple-choice
+  options:
+    - "The income effect: buyers feel wealthier when the price rises and buy more"
+    - "Veblen effect: the higher price increases the good's utility as a status signal, shifting the demand curve upward"
+    - "Giffen effect: the handbag is an inferior good and buyers substitute toward it when their real income falls"
+    - "The substitution effect: the handbag becomes relatively cheaper than competing luxury goods"
+  answer: 1
+  explanation: "Veblen goods derive part of their utility from their price — exclusivity and status signaling make the good more desirable, not less, as price rises. The demand curve itself shifts because utility is a function of price, not just quantity. This is entirely different from the Giffen mechanism, which operates through income and substitution effects on inferior goods. There is no income effect story for the handbag: buyers are not consuming more because they feel poorer. Option C is specifically wrong — Giffen goods must be inferior goods bought out of necessity, not luxury items."
+
+- question: "A Giffen good must also be an inferior good — that is, a good whose consumption rises as real income falls."
+  type: true-false
+  answer: true
+  explanation: "The Giffen mechanism requires a large negative income effect. The income effect is negative only for inferior goods (goods where demand rises as income falls). For a normal good, both the income and substitution effects push in the same direction when price rises — you buy less. A Giffen good needs the income effect to be large enough to reverse the substitution effect. This is only possible if the good is inferior, and typically only possible if the good constitutes a large share of the household's budget."
+
+- question: "Veblen goods and Giffen goods are economically equivalent because both exhibit upward-sloping demand curves caused by irrational consumer behavior."
+  type: true-false
+  answer: false
+  explanation: "The two phenomena are mechanistically unrelated, and neither involves irrationality. Giffen goods arise from the income-substitution decomposition when income effects dominate — a feature of utility maximization under a tight budget constraint. Veblen goods arise because utility depends on price itself (as a social signal), which is a different preference structure. The similar surface result (upward-sloping demand) conceals entirely different causes. Conflating them is a common error that obscures both mechanisms."
+
+- question: "Explain the income and substitution effects for a Giffen good and why quantity demanded rises when price rises."
+  type: short-answer
+  answer: "When price rises: the substitution effect pushes demand down (the good is more expensive relative to alternatives). But the income effect works in the opposite direction — being poorer in real terms increases demand for an inferior good. If the good is a large share of the budget, the income effect is large. When the negative income effect outweighs the positive substitution effect, net quantity demanded rises with price."
+  explanation: "The key insight is that the income and substitution effects can oppose each other for inferior goods. For normal goods, both always reduce quantity demanded when price rises, so there is no conflict. But for an inferior good with a large budget share (like a staple food for a very poor household), the income effect dominates. This doesn't require irrationality — it is the mathematically consistent prediction of utility maximization when preferences and budget constraints have these properties."
+```
+
 ## Explainer
 
 You already know how to decompose a price change into an **income effect** and a **substitution effect** from your prerequisite work. For a normal good, both effects work in the same direction: when price rises, you are poorer in real terms (negative income effect reduces quantity) and the good is relatively more expensive than substitutes (substitution effect reduces quantity). Giffen goods are what happens when these two effects fight each other — and the income effect wins.

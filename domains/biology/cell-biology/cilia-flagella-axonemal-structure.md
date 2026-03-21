@@ -30,6 +30,45 @@ Examine axonemal ultrastructure by transmission electron microscopy; observe ben
 ## Common Misconceptions
 - The 9+2 pattern is found in all cilia; primary cilia (sensory) lack the central pair (9+0). - The central pair directly causes bending; it instead regulates which dynein arms activate, controlling bending direction.
 
+## Questions
+
+```yaml
+- question: "If nexin links were severed from an intact axoneme while dynein arms remained fully functional, what would happen when dynein was activated?"
+  type: multiple-choice
+  options:
+    - "The axoneme would bend more vigorously because the mechanical restraint is removed"
+    - "Adjacent doublets would slide past each other rather than bending, and the axoneme would not produce coordinated waveforms"
+    - "The central pair would compensate by regulating dynein arms more tightly to restore bending"
+    - "Beat frequency would increase while waveform shape remained normal"
+  answer: 1
+  explanation: "Nexin links convert dynein-generated sliding force into bending by acting as elastic constraints between adjacent doublets. Without them, dynein can walk along adjacent B-tubules freely, causing doublets to slide past each other rather than bending — the axoneme would elongate or disintegrate rather than produce coordinated motion. This is the key mechanical insight: it is the structural constraint of nexin links, not dynein activity alone, that produces bending."
+
+- question: "Primary (sensory) cilia in kidney tubule cells can detect fluid flow but do not beat. Which structural feature accounts for this?"
+  type: multiple-choice
+  options:
+    - "They lack dynein arms but retain the 9+2 microtubule arrangement"
+    - "They have a 9+0 arrangement — nine outer doublets but no central pair — which is associated with non-motility"
+    - "They have 11 outer doublets instead of nine, preventing coordinated bending"
+    - "Their basal bodies are made of doublet rather than triplet microtubules"
+  answer: 1
+  explanation: "Primary/sensory cilia have a 9+0 arrangement — the central pair is absent. The central pair and radial spokes form the regulatory apparatus that coordinates which dynein arms activate during the beat cycle. Without the central pair, this regulation cannot occur. Primary cilia are therefore non-motile and function instead as sensory antennae, detecting chemical and mechanical signals. The common misconception is that all cilia share the 9+2 arrangement — they do not."
+
+- question: "The central pair of microtubules in the 9+2 axoneme directly generates the bending force that drives ciliary beating."
+  type: true-false
+  answer: false
+  explanation: "The central pair does not generate force — dynein arms on the outer doublets do. The central pair and radial spokes form a regulatory signaling system: as the central pair rotates during the beat cycle, its orientation relative to radial spokes activates specific subsets of dynein arms on different doublets, controlling the direction and waveform of bending. Force generation and regulatory control are distinct functions performed by different structural elements."
+
+- question: "Defects in dynein arms can cause both immotile respiratory cilia (leading to chronic infections) and randomized organ placement (situs inversus) in the same individual."
+  type: true-false
+  answer: true
+  explanation: "This is Kartagener syndrome, a ciliopathy caused by dynein arm defects. Immotile respiratory cilia cannot clear mucus, causing chronic sinusitis and bronchiectasis. During embryonic development, nodal cilia normally establish left-right body asymmetry through directional fluid flow — without functional dynein, this signal is absent and organ placement is randomized (situs inversus occurs in about 50% of affected individuals). The same molecular defect produces consequences in completely different organ systems."
+
+- question: "Explain why the 9+2 axoneme bends rather than simply elongates when dynein arms are active, given that dynein generates sliding force between adjacent doublets."
+  type: short-answer
+  answer: "Dynein arms on each A-tubule walk along the B-tubule of the adjacent doublet, generating a sliding force that would — if unconstrained — cause adjacent doublets to slide past each other and the axoneme to elongate. What converts sliding into bending is structural constraint: nexin links (elastic bridges between adjacent doublets) resist sliding. When dynein arms on one side of the axoneme are active while those on the opposite side are inactive, the differential sliding is constrained by nexin links and the only available geometric resolution is local bending toward the inactive side. Bending is the mechanical consequence of constrained asymmetric sliding."
+  explanation: "This insight — that the same dynein motor activity produces different outcomes depending on structural constraints — is why severing nexin links experimentally causes sliding rather than bending, and why understanding the axoneme requires thinking about the whole mechanical system, not just the motor proteins in isolation."
+```
+
 ## Explainer
 
 You already know that cilia and flagella are motile cellular appendages and that microtubules are organized by centrosomes. The **axoneme** is the internal structural core that makes these appendages move, and understanding its architecture explains how a simple protein machine converts chemical energy into the rhythmic beating that clears mucus from your lungs, propels sperm, and moves cerebrospinal fluid through your brain.

@@ -32,6 +32,45 @@ Use judgment-of-learning paradigms: rate confidence that each item will be recal
 - Metacognitive feelings such as 'I understand this' are not reliable indicators of actual knowledge — they are heuristic signals that can be biased by fluency, familiarly, and other factors unrelated to true understanding.
 - Metacognition is not a single faculty; it involves multiple dissociable monitoring and control processes operating at different grain sizes across different cognitive domains.
 
+## Questions
+
+```yaml
+- question: "A student reads a chapter twice in one evening and feels very confident she understands it. She studies a second chapter using spaced retrieval practice over three days, which feels harder and leaves her less certain. What does research on metacognitive monitoring predict about her actual recall?"
+  type: multiple-choice
+  options:
+    - "She will recall the first chapter better because her confidence signal accurately tracks her learning"
+    - "She will recall both equally since she spent similar total time studying"
+    - "She will recall the second chapter better — spaced retrieval improves retention despite producing lower felt confidence"
+    - "No prediction is possible since confidence and recall are unrelated measures"
+  answer: 2
+  explanation: "This scenario demonstrates the fluency illusion: massed study makes material highly fluent (easy to read, recently encountered), generating a strong familiarity signal that monitoring misreads as 'I know this.' Spaced practice produces less fluency but substantially better long-term retention. The monitoring signal and actual retention state are anticorrelated after massed study — the student's confidence after the first chapter is systematically misleading."
+
+- question: "Which best describes the core mechanism behind the Dunning-Kruger effect?"
+  type: multiple-choice
+  options:
+    - "Experts overestimate their performance relative to novices on domain-specific tasks"
+    - "Novices lack the domain framework needed to recognize gaps in their knowledge, so they cannot register what they don't know"
+    - "People systematically underestimate their intelligence relative to their peers"
+    - "Overconfidence in novices stems from emotional investment in the domain rather than ignorance"
+  answer: 1
+  explanation: "The Dunning-Kruger effect is a failure of metacognitive monitoring caused by missing domain scaffolding. If you don't know enough about a subject to know what clinical pharmacology or Bayesian inference is, you can't register their absence as a gap. You don't know what you don't know. Experts, paradoxically, often express less confidence because they have enough knowledge to see where their understanding becomes uncertain. The effect is not about intelligence — it is about the absence of the framework needed to calibrate."
+
+- question: "Metacognitive control strategies — like re-studying or decomposing a difficult problem — are only as effective as the monitoring signals that trigger them."
+  type: true-false
+  answer: true
+  explanation: "Control depends on monitoring: if monitoring reports 'I know this' when you don't, control will not intervene and no corrective strategy will be deployed. This is why fluency illusions are so practically harmful — not only do they produce false confidence, they prevent the control responses (additional practice, seeking help, slowing down) that would improve actual learning. Skilled learners develop both better monitoring accuracy and a broader repertoire of control strategies."
+
+- question: "Feeling that you understand something after studying is a reliable indicator of how well you will recall it later."
+  type: true-false
+  answer: false
+  explanation: "The feeling of understanding is a heuristic signal heavily influenced by fluency — ease of processing, familiarity, and recent exposure — none of which reliably track actual retention. After massed study, material feels very familiar, generating high confidence; after spaced practice, material is less fluent and confidence is lower, even though recall is substantially better. Metacognitive feelings are useful but systematically biased proxies, not accurate readouts of memory."
+
+- question: "Why does massed study produce overconfidence, while spaced study feels less certain even when it produces better retention?"
+  type: short-answer
+  answer: "Massed study creates high fluency — the material is recently processed, easy to read, and feels immediately familiar. The monitoring system uses fluency as a proxy for knowledge, so it generates a strong 'I know this' signal. Spaced study requires more effortful retrieval, which is less fluent and generates weaker familiarity signals, leading monitoring to report lower confidence. But actual retention depends on the retrieval effort and the forgetting-and-relearning cycle, not on fluency. The monitoring system is tracking fluency when it should be tracking retainability."
+  explanation: "This illustrates why judgment-of-learning paradigms (rating confidence before testing) are so revealing: they expose the gap between felt confidence and actual recall. The practical implication is that difficult, effortful study that feels unproductive is often more effective than smooth, fluent review that feels productive. The uncomfortable feeling of not quite remembering something during spaced practice is the signal that the memory is being strengthened."
+```
+
 ## Explainer
 
 From dual-process theory, you know that cognition operates across two broad modes: fast, automatic, associative System 1 processes and slow, deliberate, effortful System 2 processes. Metacognition sits at the intersection of both. **Metacognitive monitoring** — the ongoing sense of "do I understand this? will I remember this?" — functions largely like System 1: the **feeling of knowing** arrives quickly, automatically, and without conscious inference. You don't reason your way to confidence; you just feel confident or uncertain. **Metacognitive control** — deciding to re-study, switch strategies, slow down, or seek help — is more System 2: it requires effort, attention, and the willingness to override an intuitive sense that things are fine. Most metacognitive failures occur when System 1 monitoring generates inaccurate signals that System 2 control accepts without questioning.

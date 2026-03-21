@@ -33,3 +33,42 @@ Metric modulation changes the tactile pulse through a common note value, creatin
 
 ## How It's Best Learned
 Study Carter's instrumental works, which pioneered metric modulation. Compose an 8-bar passage that metrically modulates from 4/4 to 7/8 using a common sixteenth note.
+
+## Questions
+
+```yaml
+- question: "A piece is in 4/4 at ♩ = 120 bpm. The composer writes a metric modulation using the eighth note as pivot: the eighth note becomes the new beat. What is the new tempo in beats per minute?"
+  type: multiple-choice
+  options:
+    - "♩ = 60 — the new beat is twice as long, so half as many per minute"
+    - "♩ = 240 — the new beat is the eighth note, which occurs 240 times per minute at the original tempo"
+    - "♩ = 120 — the tempo is unchanged because the same note values are used"
+    - "♩ = 80 — the new meter has three beats instead of four"
+  answer: 1
+  explanation: "At ♩ = 120, there are 120 quarter notes per minute, meaning 240 eighth notes per minute. When the eighth note becomes the new beat unit, the 'beat' now arrives 240 times per minute: ♩ = 240. This doubling of perceived pulse is precisely what metric modulation achieves — a mathematically exact tempo change justified by a common note value rather than an arbitrary marking."
+
+- question: "What fundamentally distinguishes metric modulation from a standard accelerando?"
+  type: multiple-choice
+  options:
+    - "Metric modulation changes the key signature; accelerando does not"
+    - "Metric modulation uses a shared note value as a pivot to create a precise, proportional tempo shift; accelerando is a gradual, continuously variable speed increase"
+    - "Metric modulation applies only to compound meters; accelerando works in simple and compound meters"
+    - "Metric modulation is a written notation technique only; accelerando is purely a performance direction"
+  answer: 1
+  explanation: "Metric modulation produces an instantaneous, mathematically precise new tempo derived from a note value that existed in the previous meter. Accelerando is a gradual continuum of speed change with no fixed endpoint. This exactness is why composers like Elliott Carter could create intricate multi-layer temporal structures — the tempo ratios are audibly derivable from the notated rhythmic relationship."
+
+- question: "Metric modulation always results in a faster tempo, because it uses a subdivision as the new beat."
+  type: true-false
+  answer: false
+  explanation: "Metric modulation can produce a slower tempo depending on which note value is chosen as the pivot. If a longer note value (e.g., a dotted quarter, or a half note) becomes the new beat, the new tempo is slower than the original. The direction depends entirely on the ratio between the pivot note and the original beat unit — subdivisions yield faster tempos, augmented values yield slower ones."
+
+- question: "Metric modulation can feel perceptually seamless because the pivot note value maintains a constant physical duration across the tempo change."
+  type: true-false
+  answer: true
+  explanation: "This is the technique's defining character. The pivot note value sounds exactly the same before and after the transition — its physical duration in seconds is unchanged. What changes is its role: from subdivision or syncopation to beat. This creates a sense of temporal continuity even as the underlying pulse shifts, which is why skilled performers can make metric modulations feel like a natural unfolding rather than an abrupt gear change."
+
+- question: "Explain in your own words how a 'pivot note value' functions in metric modulation. Why is identifying the pivot important for both the composer and performer?"
+  type: short-answer
+  answer: "The pivot is a note value that appears in both the old and new meters with the same physical duration. In the old meter it plays one rhythmic role (e.g., a subdivision); in the new meter it plays a different role (e.g., the beat). The pivot is the bridge — it makes the tempo change mathematically exact and perceptually grounded."
+  explanation: "For the composer, the pivot determines the exact tempo ratio between old and new sections. For the performer, identifying the pivot tells you which note value to 'hold constant' across the transition — you count or feel that value, let its role change, and the new tempo emerges naturally. Without identifying the pivot, performers often treat metric modulations as arbitrary tempo changes and miss the seamless character the composer intended."
+```

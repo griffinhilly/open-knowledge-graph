@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Financial frictions arise when lenders have limited information about borrowers (adverse selection) or borrowers cannot be perfectly monitored (moral hazard). These frictions create credit constraints: borrowers can only borrow against collateral, or face interest rates that vary with their creditworthiness. Financial crises occur when collateral values plummet, suddenly tightening credit constraints and reducing investment and consumption. The interaction between the financial sector and real economy creates powerful amplification mechanisms that magnify real shocks.
 
+## Questions
+
+```yaml
+- question: "A bank lends to small businesses but cannot monitor how borrowers use the funds. Borrowers have an incentive to take riskier projects than agreed because they keep any upside profit while the bank bears losses if the project fails. This is an example of:"
+  type: multiple-choice
+  options:
+    - "Adverse selection, because the bank cannot identify risky borrowers before lending"
+    - "Moral hazard, because the borrower's behavior changes after the loan is made"
+    - "Credit rationing, because not all borrowers receive funds"
+    - "Collateral constraint, because the bank should require assets as security"
+  answer: 1
+  explanation: "Moral hazard arises after a contract is signed when one party takes actions that the other cannot observe. Here, the borrower changes behavior after receiving funds — shifting to riskier projects. Adverse selection (option A) occurs before lending when lenders cannot distinguish good from bad borrowers. The scenario explicitly describes post-lending behavior change, which is the defining feature of moral hazard. Credit rationing (option C) and collateral requirements (option D) are lender responses to these problems, not descriptions of the problem itself."
+
+- question: "During a recession, a firm's collateral value (its factory building) falls by 30%. According to the financial accelerator mechanism, what is the most likely macroeconomic consequence?"
+  type: multiple-choice
+  options:
+    - "The firm borrows more to compensate for lost equity, stimulating investment"
+    - "The firm's credit constraint tightens, reducing investment, which deepens the recession"
+    - "The firm's interest rate falls because lenders compete for the remaining creditworthy borrowers"
+    - "The recession ends sooner because falling asset prices make purchases attractive"
+  answer: 1
+  explanation: "The financial accelerator works through collateral constraints: when collateral values fall, lenders reduce the credit they extend because there is less security backing the loans. The firm can borrow less, so it invests less. Reduced investment deepens the recession, which further depresses asset prices and collateral values, tightening credit further. This feedback loop amplifies the original shock. Option A reverses the causation — firms cannot easily borrow more when their collateral has shrunk, because collateral is the basis for borrowing."
+
+- question: "The financial accelerator mechanism means that financial frictions can amplify a modest initial economic shock into a severe recession through a self-reinforcing feedback loop."
+  type: true-false
+  answer: true
+  explanation: "This is the core claim of the Bernanke-Gertler-Gilchrist model. A negative shock reduces asset prices, which reduces collateral values, which tightens credit constraints, which reduces investment and consumption, which deepens the recession, which further depresses asset prices. Each round of this cycle amplifies the original disturbance rather than absorbing it. The 2007-2009 financial crisis demonstrated this mechanism: falling house prices triggered cascading credit tightening far exceeding what the initial shock alone would have caused."
+
+- question: "In a credit market with adverse selection, raising interest rates is the most effective tool for a lender to attract safer borrowers and improve loan portfolio quality."
+  type: true-false
+  answer: false
+  explanation: "Raising interest rates actually worsens adverse selection — this is the Stiglitz-Weiss insight. When rates rise, the safest borrowers (who know they will repay) find the terms unfavorable and withdraw from the market. The pool of remaining applicants becomes riskier on average. Lenders understand this and respond by rationing credit (restricting quantity) rather than raising rates further, because beyond a point, higher rates reduce expected profit by selecting for riskier borrowers. Credit rationing, collateral requirements, and relationship lending are the actual responses to adverse selection."
+
+- question: "Explain why economists say financial frictions 'amplify' rather than simply 'transmit' economic shocks. What mechanism creates this amplification?"
+  type: short-answer
+  answer: "Amplification occurs because the financial system creates a feedback loop rather than a one-time transmission. A shock reduces asset prices → collateral values fall → credit constraints tighten → firms and households invest and consume less → the recession deepens → asset prices fall further. Each pass through this loop intensifies the shock. Without financial frictions, credit markets would continue to intermediate between savers and borrowers, dampening the shock. With frictions, credit supply contracts precisely when it is most needed, turning a manageable downturn into a crisis."
+  explanation: "The key word is 'feedback.' A passive transmission would mean a shock passes through the economy once and dissipates. Amplification means the shock feeds back on itself. Financial frictions create this loop by making credit availability contingent on collateral values, which are themselves depressed by the recession that the credit crunch helped create. This is why models without financial frictions — which treat credit markets as neutral intermediaries — systematically underestimate the depth and persistence of financial crises."
+```
+
 ## Explainer
 
 From information asymmetry, you understand that when one party to a transaction knows more than the other, markets can malfunction — adverse selection drives out good risks, and moral hazard encourages excessive risk-taking. Financial frictions apply these ideas to credit markets, where the consequences are especially severe because lending is inherently an exchange of money today for a promise of money tomorrow. That promise depends entirely on the borrower's ability and willingness to repay — both of which are imperfectly observable by the lender.

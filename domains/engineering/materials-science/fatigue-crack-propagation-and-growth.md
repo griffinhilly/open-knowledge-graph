@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Fatigue cracks propagate incrementally under cyclic loading; the Paris law (da/dN = C·ΔKm) relates crack growth rate to stress intensity range ΔK. Crack propagation occurs in three regimes: near-threshold (low ΔK), Paris power-law regime (intermediate), and unstable growth (ΔK → KIC). Understanding these regimes enables fracture-mechanics-based fatigue life prediction.
 
+## Questions
+
+```yaml
+- question: "An engineer doubles the cyclic stress amplitude on a component with a propagating crack. The Paris exponent m = 4. By what factor does the crack growth rate increase?"
+  type: multiple-choice
+  options:
+    - "2× — growth rate is proportional to stress amplitude"
+    - "4× — growth rate scales as m times the stress increase"
+    - "16× — ΔK scales linearly with stress, so da/dN scales as (2)^4 = 16 times"
+    - "8× — stress doubles, but the growing crack also increases ΔK independently"
+  answer: 2
+  explanation: "The Paris law is da/dN = C·ΔK^m. The stress intensity range ΔK = Yσ√(πa), so ΔK is proportional to σ. Doubling stress doubles ΔK. The growth rate then scales as (2ΔK)^m = 2^m·ΔK^m = 2^4·ΔK^4 = 16 times the original rate. This power-law sensitivity is the key insight: a modest stress increase produces a disproportionately large increase in crack propagation rate, which is why fatigue life is so sensitive to cyclic load amplitude. Linear thinking about stress-life relationships misses this crucial nonlinearity."
+
+- question: "Why does fatigue crack growth accelerate as the crack gets longer, eventually leading to rapid fracture?"
+  type: multiple-choice
+  options:
+    - "Longer cracks are more likely to intersect microstructural defects like grain boundaries"
+    - "The stress intensity factor K ∝ √a increases as the crack grows, so ΔK rises and da/dN increases — growth feeds on itself"
+    - "The material ahead of a longer crack tip is progressively weakened by accumulated plastic deformation"
+    - "Longer cracks expose more surface area to environmental attack, accelerating corrosion-assisted growth"
+  answer: 1
+  explanation: "The stress intensity factor K = Yσ√(πa) grows with crack length a. As the crack propagates, a increases, so ΔK increases, which increases da/dN according to Paris law (da/dN = C·ΔK^m). This is a self-accelerating process: growth makes the crack longer, which increases the driving force, which accelerates growth further. Eventually ΔK approaches K_IC and fast fracture begins. This acceleration is why most fatigue life is spent in the early Paris regime when the crack is small and ΔK is low — the final crack growth from moderate to critical size occurs relatively quickly."
+
+- question: "Most of a component's fatigue life (in terms of number of cycles) is consumed in the final fast-fracture stage, when the crack is nearly at its critical size."
+  type: true-false
+  answer: false
+  explanation: "This reverses the actual life distribution. Fast fracture is rapid and consumes very few cycles — once ΔK approaches K_IC, the crack accelerates dramatically and failure occurs quickly. The vast majority of fatigue life is spent in the near-threshold and early Paris regime, when the crack is small, ΔK is low, and growth per cycle is tiny. This has a practical implication: inspection intervals should focus on detecting cracks before they grow out of the slow-growth regime, not on the final fast-fracture phase."
+
+- question: "According to the Paris law, a small increase in cyclic stress amplitude causes a disproportionately large increase in crack growth rate."
+  type: true-false
+  answer: true
+  explanation: "The Paris law da/dN = C·ΔK^m is a power law with m typically between 2 and 4 for metals. Since ΔK scales linearly with stress amplitude, a 10% increase in stress causes a 10%^m increase in growth rate — approximately 21% to 46% faster, depending on m. A 2× stress increase causes a 4× to 16× increase in growth rate. This strong nonlinearity means that reducing cyclic stress is far more effective at extending fatigue life than a linear model would suggest, and that small stress concentrations (notches, corrosion pits) can dramatically reduce component life."
+
+- question: "Explain how the Paris law is used to determine inspection intervals in aerospace structures. What information is needed, and what does the calculation tell you?"
+  type: short-answer
+  answer: "Paris law integration gives the number of cycles for a crack to grow from an initial size a_0 to a critical size a_c. Integrating da/dN = C·ΔK^m from a_0 to a_c yields N_f — the remaining fatigue life. The required inputs are: material constants C and m (measured from fatigue crack growth tests), the geometry factor Y, the applied cyclic stress amplitude σ, the initial crack size a_0 (from inspection detection limits or assumed worst-case flaw), and the critical crack size a_c (where K_max = K_IC). The result tells you how many cycles — or flight hours — remain before the crack reaches critical size. Inspection intervals are set to a fraction of N_f (with safety margin), ensuring cracks are detected and repaired before they become dangerous."
+  explanation: "The damage tolerance philosophy underlying aerospace inspection is: assume a crack already exists at the detection threshold size, calculate how long it takes to reach critical size under typical service loads, and inspect at intervals short enough to catch it before then. This is why Paris law integration is safety-critical: it converts fracture mechanics theory into actionable maintenance schedules."
+```
+
 ## Explainer
 
 Fatigue failure has two distinct phases, and from your study of fatigue crack initiation you already understand the first: a crack nucleates at a surface defect, stress concentration, or inclusion after enough cycles of reversed plasticity. Once a crack exists, the question shifts: how quickly will it grow under continued cyclic loading, and how many cycles remain before it reaches the critical size at which catastrophic fast fracture occurs (K = K_IC)? This is the propagation phase, and it is governed by fracture mechanics.

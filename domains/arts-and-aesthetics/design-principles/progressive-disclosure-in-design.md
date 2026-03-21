@@ -28,6 +28,45 @@ Show users complex interfaces and observe where they feel overwhelmed. Then rede
 ## Common Misconceptions
 That progressive disclosure makes features harder to find. When well-designed, it makes interfaces feel simpler and less intimidating.
 
+## Questions
+
+```yaml
+- question: "A photo editing app has hundreds of adjustments. The design team considers two options: (A) show all adjustments on a single scrollable panel, or (B) show basic adjustments immediately with an 'Advanced' section hidden behind a toggle. What is the strongest argument for option B?"
+  type: multiple-choice
+  options:
+    - "It permanently removes advanced features that most users do not need"
+    - "It reduces cognitive load for new users by limiting visible options, while keeping advanced features accessible with one interaction"
+    - "It ensures expert users never encounter features they use infrequently"
+    - "It eliminates the need for a well-organized information architecture"
+  answer: 1
+  explanation: "Progressive disclosure keeps the primary actions immediately visible while hiding secondary and tertiary options behind deliberate interactions. The result is a simpler, less overwhelming first impression for novices — but experts can always reach advanced features. Option A is wrong because progressive disclosure hides features temporarily behind an interaction, not permanently. Option C is backwards: expert users can easily access the advanced section."
+
+- question: "An 'Advanced Settings' toggle in an app requires one extra click to reach advanced options. From a progressive disclosure perspective, this trade-off is best described as:"
+  type: multiple-choice
+  options:
+    - "Trading usability for aesthetic minimalism"
+    - "Exchanging a small increase in interaction cost for a significant reduction in upfront cognitive load"
+    - "Making advanced features permanently inaccessible to protect novice users from confusion"
+    - "A design failure because important features should never require extra clicks"
+  answer: 1
+  explanation: "Progressive disclosure is explicitly a trade-off: one extra click (small cost) buys a dramatically simpler initial interface (large gain). The key is that the hidden features remain fully accessible — they're not removed, just sequenced. This is the core mechanic: when users need advanced features, they can always reach them; when they don't, they're never burdened by seeing them."
+
+- question: "In progressive disclosure, features are never removed from the product — they are sequenced so that users encounter them at an appropriate level of engagement."
+  type: true-false
+  answer: true
+  explanation: "This is the defining distinction between progressive disclosure and feature removal. The misconception is that 'hiding' features makes them harder to find or removes them. Well-designed progressive disclosure makes the interface feel simpler and less intimidating precisely because users know they can access more depth when they need it. The features exist; they just appear at the right moment in the user's interaction."
+
+- question: "The most effective progressive disclosure design keeps all features at least one interaction deep, so that the initial interface is completely minimal."
+  type: true-false
+  answer: false
+  explanation: "Progressive disclosure requires the most-used features to be immediately visible — burying them degrades usability. The principle is that frequently used actions are always visible, occasionally used actions are one interaction away, and rarely used actions can be two or more levels deep. Hiding everything uniformly violates the principle and forces users to hunt even for common tasks, defeating the purpose."
+
+- question: "What determines which features belong at each layer in a progressive disclosure design, and how does a designer validate those assignments?"
+  type: short-answer
+  answer: "Frequency and task importance determine layer placement: features used constantly go on the first layer (immediately visible), features used occasionally belong one interaction away, and features used rarely can be two or more levels deep. User testing is the most reliable validation method because designers' intuitions about what users find obvious frequently diverge from actual user behavior."
+  explanation: "This is why progressive disclosure cannot be designed purely by intuition — what feels obvious to an expert designer who knows every feature may be completely non-obvious to a first-time user. Testing reveals which features users reach for immediately and which they search for, allowing layer assignments to be calibrated to actual usage patterns rather than assumptions."
+```
+
 ## Explainer
 
 From your work with information architecture, you already know that content needs structure — categories, hierarchies, and logical groupings that help users find what they need. **Progressive disclosure** takes that principle one step further: instead of presenting all the structure at once, you reveal it in layers, matching the depth of information to the user's current level of engagement. Think of it as information architecture with a time dimension — not just *where* things live, but *when* they appear.

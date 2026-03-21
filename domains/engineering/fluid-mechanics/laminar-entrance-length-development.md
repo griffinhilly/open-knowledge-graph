@@ -24,6 +24,45 @@ In developing laminar flow, the velocity profile evolves from uniform at the inl
 ## How It's Best Learned
 Numerically solve the Navier-Stokes equations in the entrance region using CFD, or use existing correlations to estimate entrance length for given Reynolds numbers. Compare pressure drops in short versus long pipe sections to observe the entrance effect diminishing.
 
+## Questions
+
+```yaml
+- question: "Why does the friction factor in the entrance region of a laminar pipe exceed the fully-developed value of 64/Re?"
+  type: multiple-choice
+  options:
+    - "Turbulent bursts near the inlet create additional momentum transfer, raising friction"
+    - "The developing boundary layer is thin, producing a steeper velocity gradient at the wall and therefore higher wall shear stress than the fully-developed parabola"
+    - "The centerline velocity is lower in the entrance region, reducing the overall momentum of the flow"
+    - "Entrance effects only apply to turbulent flow; friction in laminar flow is constant throughout the pipe"
+  answer: 1
+  explanation: "In the entrance region, the boundary layer is still growing inward from the wall. It is thin, meaning the velocity must transition from zero at the wall to the high core velocity over a short radial distance — producing a steep velocity gradient. Shear stress is proportional to the velocity gradient (τ = μ dv/dr), so the steeper gradient means higher wall shear and higher friction factor. As the boundary layer fills the pipe and the parabola forms, the core velocity drops, the wall gradient flattens, and friction falls to 64/Re."
+
+- question: "An engineer calculates the pressure drop in a compact heat exchanger with L/D = 40 and Re = 800 using the Hagen-Poiseuille formula. The entrance length is Lₑ ≈ 0.05 × 800 × D = 32D. What error is the engineer making?"
+  type: multiple-choice
+  options:
+    - "None — Hagen-Poiseuille applies at any Reynolds number below 2300"
+    - "The formula assumes fully-developed conditions throughout, but with L/D = 40 and Lₑ ≈ 32D, most of the pipe is in the entrance region where friction factors are elevated — the actual pressure drop is significantly higher than predicted"
+    - "The engineer should use the turbulent Darcy-Weisbach formula instead, since Re = 800 is near the transition"
+    - "The formula overestimates pressure drop in short pipes because entrance effects reduce friction"
+  answer: 1
+  explanation: "Hagen-Poiseuille assumes fully-developed laminar flow with a friction factor of 64/Re throughout. But when Lₑ ≈ 32D and the total length is only 40D, about 80% of the pipe is in the developing region where the friction factor significantly exceeds 64/Re. Using Hagen-Poiseuille underestimates the actual pressure drop and could lead to undersized pumps or incorrect flow rate predictions. Engineers must apply entrance-length corrections or developing-flow correlations for short pipes."
+
+- question: "As the boundary layer grows inward along the entrance region, the centerline velocity of the flow increases above its inlet value."
+  type: true-false
+  answer: true
+  explanation: "Mass must be conserved: the same flow rate passes every cross-section. As the boundary layer decelerates fluid near the wall, the fluid in the unaffected core must accelerate to compensate. The centerline velocity therefore increases progressively from the inlet (plug flow) until it reaches 2V_avg (the parabola's peak) at the end of the entrance region. This acceleration of the core is the mechanism that connects wall deceleration to centerline speedup."
+
+- question: "Turbulent flow in a pipe has a longer hydrodynamic entrance length than laminar flow at the same Reynolds number."
+  type: true-false
+  answer: false
+  explanation: "Turbulent entrance lengths are typically 10–60 D, far shorter than the laminar entrance length of ~0.05 Re·D. At Re = 2000, the laminar entrance length would be ~100 D; turbulent mixing achieves profile development much more rapidly. This is because turbulent eddies efficiently redistribute momentum across the cross-section, restructuring the velocity profile quickly. However, entrance effects in turbulent flow still exist and must be accounted for in precision calculations."
+
+- question: "Why does the Hagen-Poiseuille formula underestimate actual pressure drop in short pipes, and what physical mechanism causes this error?"
+  type: short-answer
+  answer: "Hagen-Poiseuille assumes fully-developed flow throughout — the parabolic velocity profile with friction factor 64/Re. In short pipes, a significant fraction of the length is in the entrance region, where the boundary layer is still growing and the wall velocity gradient is steeper than in the mature parabola. This elevated gradient means higher wall shear stress and higher friction factor than 64/Re, so the actual pressure drop exceeds the Hagen-Poiseuille prediction. The error is proportional to how much of the pipe length is within the entrance length Lₑ ≈ 0.05 Re·D."
+  explanation: "This is a systematic, predictable error with real engineering consequences: undersized pumps, incorrect flow rate estimates, or failed safety margins in compact heat exchangers and microfluidic devices. Understanding that the friction factor is not constant along the pipe — it starts high and decays to 64/Re — is the key physical insight that leads to using entrance-length corrections."
+```
+
 ## Explainer
 
 When fluid enters a pipe, it does not arrive with the parabolic velocity profile you studied in Hagen-Poiseuille flow. Instead, it typically enters with a nearly uniform ("plug flow") velocity distributed uniformly across the entire cross-section. The **entrance region** is the stretch of pipe over which this flat profile gradually transforms into the fully-developed parabola — and understanding this transformation is essential for accurate pressure-drop calculations whenever pipes are short relative to their diameter.

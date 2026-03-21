@@ -28,6 +28,45 @@ Use tree diagrams to visualize multiplication principle. Practice recognizing wh
 ## Common Misconceptions
 Multiplying when outcomes should be added (or vice versa). Overcounting by not recognizing when outcomes are actually the same.
 
+## Questions
+
+```yaml
+- question: "A committee must select a president OR a secretary from 8 candidates — exactly one of these roles will be filled. How many possible outcomes are there?"
+  type: multiple-choice
+  options:
+    - "8 × 8 = 64, by the multiplication principle"
+    - "8 + 8 = 16, by the addition principle"
+    - "8² = 64, since the same pool is used twice"
+    - "8, since only one candidate is selected in total"
+  answer: 1
+  explanation: "The key is that only ONE role will be filled: either a president is selected OR a secretary is selected — not both. These are mutually exclusive alternatives, so the addition principle applies: 8 + 8 = 16. The multiplication principle would apply if BOTH roles needed to be filled simultaneously (yielding 8 × 8 = 64 pairings). Recognizing OR (add) versus AND/sequential (multiply) is the critical skill."
+
+- question: "A password must have one uppercase letter, then one digit, then one lowercase letter — all three positions required. How many passwords are possible?"
+  type: multiple-choice
+  options:
+    - "26 + 10 + 26 = 62, by the addition principle"
+    - "26 × 10 × 26 = 6,760, by the multiplication principle"
+    - "(26 + 10 + 26)³ = 62³, treating all characters as drawn from a single pool"
+    - "26! / (26−3)!, treating the selection as a permutation"
+  answer: 1
+  explanation: "All three choices are sequential and independent — you must make all three. The multiplication principle applies: 26 × 10 × 26 = 6,760. Each of the 26 uppercase letters can be paired with each of 10 digits (260 combinations), and each of those can be followed by each of 26 lowercase letters, giving 260 × 26 = 6,760. A tree diagram confirms this: 6,760 leaves."
+
+- question: "If a task can be completed in either of two mutually exclusive ways — 5 outcomes via method A or 7 outcomes via method B — the total number of possible outcomes is 35."
+  type: true-false
+  answer: false
+  explanation: "When tasks are mutually exclusive alternatives (one OR the other, not both), the addition principle applies: 5 + 7 = 12 total outcomes. The product 35 = 5 × 7 is correct only when both tasks are performed sequentially — 5 choices for the first AND 7 choices for the second. The key test is OR (add) versus sequential AND (multiply)."
+
+- question: "When choices are sequential and independent, the total number of outcomes equals the product of the number of options at each stage."
+  type: true-false
+  answer: true
+  explanation: "This is exactly the multiplication principle. If stage 1 has n₁ options and stage 2 has n₂ independent options, there are n₁ × n₂ total outcomes. A tree diagram makes this concrete: each of the n₁ branches from stage 1 splits into n₂ sub-branches at stage 2, giving n₁ × n₂ leaves. The principle extends to any number of sequential stages: multiply all the counts together."
+
+- question: "How do you determine whether to apply the multiplication principle or the addition principle to a counting problem?"
+  type: short-answer
+  answer: "Ask whether completing the task requires making ALL of the choices (sequential/AND) or only ONE of the choices (mutually exclusive alternatives/OR). Sequential independent choices → multiply, because you are building a grid of all combinations. Mutually exclusive alternatives → add, because you are pooling separate sets of outcomes. The test: does the task require choosing from group A AND then group B, or from group A OR group B?"
+  explanation: "This OR/AND distinction is the diagnostic core of counting. Tree diagrams make it visual: sequential stages multiply the branches; separate alternatives just list additional branches at the same level. Many errors in probability come from multiplying when you should add (overcounting) or adding when you should multiply (undercounting). Getting this diagnosis right is the foundation for permutations, combinations, and probability calculations."
+```
+
 ## Explainer
 
 Counting might seem like something you mastered in kindergarten, but counting *arrangements* and *outcomes* in probability requires sharper tools. The two fundamental counting principles are the foundation for everything that follows — combinations, permutations, and probability calculations all depend on applying them correctly.

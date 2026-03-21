@@ -31,6 +31,45 @@ Examine designs in the wild—posters, websites, magazine layouts, product packa
 - Principles are only relevant to fine art; they apply equally to functional, commercial, and digital design.
 - Learning principles requires memorizing definitions; it requires recognizing them in context.
 
+## Questions
+
+```yaml
+- question: "A graphic designer deliberately creates a layout with poor balance and minimal contrast to evoke tension and urgency. Which best describes this decision?"
+  type: multiple-choice
+  options:
+    - "A mistake — violating two principles at once makes the design ineffective"
+    - "Acceptable only in fine art contexts, not in commercial or digital design"
+    - "A legitimate strategy, provided the designer understands which principles they're breaking and why the violation serves the communication goal"
+    - "Proof that design principles are mostly irrelevant to professional practice"
+  answer: 2
+  explanation: "Design principles are tools, not laws. Expert designers break them deliberately to achieve specific effects — but effectiveness requires knowing what expectation you're violating and why it serves your purpose. Breaking a principle by accident produces chaos; breaking it intentionally can produce tension, energy, or subversion. The key is intentionality grounded in understanding."
+
+- question: "A student looks at a poster that 'feels off' but can't articulate why. What does fluency with design principles most directly provide?"
+  type: multiple-choice
+  options:
+    - "A checklist of approved color combinations and font pairings"
+    - "A vocabulary for diagnosing which principle is being violated and why the design fails"
+    - "Technical skills for using design software tools correctly"
+    - "Rules about where text and images must be positioned on a page"
+  answer: 1
+  explanation: "The core value of learning design principles is diagnostic: they give you a conceptual vocabulary for identifying *why* something works or fails. 'This feels off' becomes 'the visual hierarchy is unclear because nothing has emphasis' or 'the composition is chaotic because there's no unifying repetition.' Without this vocabulary, critique remains vague; with it, you can identify and fix specific problems."
+
+- question: "Design principles like balance and contrast apply only to fine art and graphic design, not to functional contexts like UI design or wayfinding signage."
+  type: true-false
+  answer: false
+  explanation: "Design principles are universal — they describe how human perception works, not the conventions of a particular medium. Balance, contrast, emphasis, movement, pattern, proportion, and unity operate in mobile app interfaces, highway signs, product packaging, architectural facades, and typographic layouts. The principles emerge from perceptual psychology, which is medium-independent."
+
+- question: "A design principle can be understood and applied without memorizing a formal definition — what matters is recognizing it in context."
+  type: true-false
+  answer: true
+  explanation: "The course explicitly frames learning principles as contextual recognition, not definition recall. You develop design literacy by examining real designs — posters, layouts, products — and identifying which principles are at work, not by memorizing sentences. This mirrors how grammar is best learned by reading, not by memorizing rules in isolation."
+
+- question: "A layout feels chaotic and nothing visually stands out. Using design principles as a diagnostic vocabulary, what is most likely wrong?"
+  type: short-answer
+  answer: "The design likely suffers from weak emphasis (no element is visually dominant, so the viewer's eye has no clear entry point) and insufficient unity (elements don't cohere into a whole). Contrast may also be lacking — if everything is the same weight, size, and tone, nothing competes for attention, and the composition reads as undifferentiated noise."
+  explanation: "Diagnosing a design problem in principle-level terms is exactly what this vocabulary is for. 'Chaotic' usually points to lack of unity or pattern; 'nothing stands out' points to failed emphasis or insufficient contrast. Naming the principle violation is the first step to fixing it — and it's only possible once you can fluently recognize principles in context."
+```
+
 ## Explainer
 
 Every visual design you encounter — a movie poster, a mobile app, a highway sign, a magazine spread — was shaped by decisions about how to arrange elements on a surface. **Design principles** are the recurring patterns behind those decisions. They are not rules invented by a committee but observations about how human perception works: what draws the eye first, what feels stable or dynamic, what holds together as a unified composition versus what falls apart into visual noise. This course introduces seven core principles that apply across every visual discipline, from graphic design to architecture to user interface design.

@@ -32,6 +32,45 @@ Study a classic privilege escalation CVE (e.g., a Linux kernel local privilege e
 - Security is not solely about encryption; confidentiality, integrity, and availability are the three core goals (CIA triad).
 - Running as root/Administrator to avoid permission errors is a major security mistake; the principle of least privilege states programs should run with the minimum permissions needed.
 
+## Questions
+
+```yaml
+- question: "A web server process running as root is exploited through a buffer overflow. Compared to the same exploit against a restricted web server user, what additional risk does the root process create?"
+  type: multiple-choice
+  options:
+    - "No additional risk — buffer overflows give the same access regardless of process privilege"
+    - "The attacker gains full system control, since root has unrestricted access to all kernel resources and all user data"
+    - "The attacker can access the web server's files but no other users' files"
+    - "A root process is harder to exploit because it has better memory protection"
+  answer: 1
+  explanation: "This illustrates the principle of least privilege. A root exploit immediately grants the attacker full system control — they can read any file, modify kernel state, install backdoors, and access all accounts. The same exploit against a restricted web server user limits the attacker to only what that user account can access (its document root, log files). Principle of least privilege is about containing the blast radius: the damage of a successful exploit is bounded by the permissions of the exploited process."
+
+- question: "What is the correct relationship between authentication and authorization in OS security?"
+  type: multiple-choice
+  options:
+    - "They are synonyms — both refer to verifying that an access request is legitimate"
+    - "Authentication determines what you are allowed to do; authorization verifies your identity"
+    - "Authentication verifies identity ('who are you?'); authorization enforces permissions ('what can you do?')"
+    - "Authorization happens first — you must have permission before you can authenticate"
+  answer: 2
+  explanation: "Authentication and authorization are sequential but distinct. Authentication comes first: the system verifies your identity (login password, SSH key, biometric). Once identity is established, authorization enforces what that identity is permitted to do (read this file? execute that program?). Option B reverses them — a classic confusion. A user who fails authentication is stopped before authorization even runs. A user who passes authentication might still be denied by authorization (e.g., a regular user trying to access root-owned files)."
+
+- question: "A user-mode process cannot directly read the memory of another process — it must make a system call that the kernel validates."
+  type: true-false
+  answer: true
+  explanation: "This is exactly what hardware protection rings enforce. User-mode code (ring 3) has no access to arbitrary physical memory — the CPU's memory management unit separates address spaces under kernel supervision. Reading another process's memory requires a privileged system call (e.g., ptrace in Linux) that triggers a controlled transition to kernel mode (ring 0), where the kernel validates whether the request is permitted. Without this enforcement, process isolation would be impossible and any process could read any other process's data."
+
+- question: "OS security is primarily about encryption — a system with strong encryption is fundamentally secure."
+  type: true-false
+  answer: false
+  explanation: "Encryption addresses one dimension of the CIA triad (confidentiality), but OS security encompasses all three: Confidentiality, Integrity, and Availability. A perfectly encrypted system can still be compromised by privilege escalation (an unprivileged user gains root through a kernel bug), a denial-of-service attack (availability), or an integrity violation (an attacker modifies data without reading it). Authentication, authorization, auditing, protection rings, and the principle of least privilege are all non-cryptographic OS security mechanisms that are equally foundational."
+
+- question: "Explain why privilege escalation is considered the central threat in OS security, and describe one OS mechanism that makes it difficult."
+  type: short-answer
+  answer: "Privilege escalation is central because the entire OS security model depends on the kernel/user boundary. If an attacker can escalate from user mode to kernel mode (or from an unprivileged user to root), they bypass all other access controls — every other security mechanism becomes moot. One mechanism that raises the bar is the system call interface: all transitions from user mode to kernel mode go through a controlled gate that validates the request, checks permissions, and prevents user code from arbitrarily jumping into kernel execution paths."
+  explanation: "The OS security model assumes attackers may execute malicious code at user privilege level. The real question is always: can they escalate? Privilege separation (running services as restricted users), mandatory access controls, and careful validation of system call inputs all reduce the attack surface. A single kernel bug — a failure to validate a pointer in a syscall handler — can let user code corrupt kernel memory structures and seize control, which is why every layer of the OS security model exists to make this as difficult as possible."
+```
+
 ## Explainer
 
 You already know that a process is an abstraction the OS uses to isolate running programs, and that system calls provide the controlled gateway between user code and kernel services. OS security builds directly on these concepts: the entire security model depends on the hardware and OS enforcing a boundary between what user processes can do and what the kernel can do, and then carefully controlling how processes cross that boundary.

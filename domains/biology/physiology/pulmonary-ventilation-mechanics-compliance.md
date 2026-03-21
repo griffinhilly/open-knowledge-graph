@@ -31,6 +31,45 @@ Measure lung compliance using spirometry with simultaneous esophageal pressure m
 ## Common Misconceptions
 The intrapleural pressure is not a vacuum but slightly negative (-5 cm H2O); pneumothorax (air entry into pleural space) allows atmospheric pressure and lung recoil to collapse the lung.
 
+## Questions
+
+```yaml
+- question: "During quiet inspiration, what is the direct mechanism by which air flows into the lungs?"
+  type: multiple-choice
+  options:
+    - "The lungs actively expand using smooth muscle to draw air inward"
+    - "The diaphragm contracts and flattens, expanding the thoracic cavity, which makes intrapleural pressure more negative, which stretches the lungs and drops alveolar pressure below atmospheric — air then flows down this pressure gradient"
+    - "The respiratory control center in the brainstem directly pumps air into the alveoli via nerve signals"
+    - "Surfactant molecules actively transport air across the alveolar membrane by reducing surface tension"
+  answer: 1
+  explanation: "The lungs have no skeletal muscle and cannot expand themselves. They are passive elastic structures. Inspiration works entirely through pressure gradients: the diaphragm contracts, enlarging the thoracic cavity, which makes intrapleural pressure more negative (−5 to −8 cm H₂O), stretching the lungs. This expansion drops intra-alveolar pressure slightly below atmospheric, and air flows in down this gradient. The lungs are pulled open; they do not pull air in. Option A is the common misconception — students often imagine the lungs as active pumps."
+
+- question: "A premature infant lacks pulmonary surfactant and develops severe respiratory distress requiring mechanical ventilation. Which explanation best accounts for the distress?"
+  type: multiple-choice
+  options:
+    - "Without surfactant, alveoli over-expand because elastic recoil is eliminated, causing rupture"
+    - "Without surfactant, surface tension at the air-liquid interface is very high, tending to collapse alveoli; the infant must generate enormous pressure to inflate stiff, non-compliant lungs each breath"
+    - "Without surfactant, oxygen cannot diffuse across the alveolar epithelium into pulmonary capillaries"
+    - "Without surfactant, mucus accumulates in the airways, dramatically increasing airway resistance"
+  answer: 1
+  explanation: "Surfactant's role is to reduce surface tension at the air-liquid interface lining the alveoli. Without it, surface tension is high and LaPlace's law (pressure = 2T/r) predicts that small alveoli require enormous collapsing pressure — they tend to collapse. The lungs become stiff (low compliance), and the infant's respiratory muscles must work extremely hard to generate sufficient pressure to inflate them each breath. The 'work of breathing' (pressure × volume) skyrockets. This is neonatal respiratory distress syndrome (NRDS), which historically had very high mortality before exogenous surfactant therapy was developed."
+
+- question: "When a pneumothorax occurs (air enters the pleural space), the lung on that side collapses because the respiratory muscles stop working."
+  type: true-false
+  answer: false
+  explanation: "The lung collapses due to its own elastic recoil, not muscle failure. Normally, the slightly negative intrapleural pressure (about −5 cm H₂O) counterbalances the lung's constant tendency to recoil inward toward a smaller volume. When air enters the pleural space, intrapleural pressure rises to atmospheric level, eliminating the tethering force that held the lung open. The lung then recoils to its natural, smaller resting volume under its own elasticity — with no muscle involvement. The respiratory muscles may be functioning perfectly; the lung collapses anyway because the mechanical environment that kept it expanded is gone."
+
+- question: "During quiet expiration, no active muscle contraction is needed — the elastic recoil of the stretched lungs and chest wall provides sufficient force to push air out passively."
+  type: true-false
+  answer: true
+  explanation: "Quiet expiration is largely passive. The diaphragm simply relaxes; the stretched elastic tissue of the lungs and thorax recoils like a compressed spring, reducing thoracic volume. This raises alveolar pressure above atmospheric pressure, and air flows out down the gradient. No muscle contraction is required. Forced expiration (during exercise, coughing, or blowing) does recruit the internal intercostals and abdominal muscles to actively compress the thorax, but this is not needed for resting ventilation."
+
+- question: "Why does pulmonary fibrosis dramatically increase the work of breathing, even though the structural integrity of the lung is not fully destroyed?"
+  type: short-answer
+  answer: "In pulmonary fibrosis, excess collagen scar tissue replaces normal lung parenchyma, making the lungs abnormally stiff — their compliance (ΔV/ΔP) decreases significantly. The respiratory muscles must generate much larger pressure changes to achieve the same tidal volume, because each unit of pressure change produces less volume change in a stiff lung. Work of breathing equals pressure times volume; when the same volume requires more pressure, work increases substantially. Patients fatigue their respiratory muscles trying to maintain adequate ventilation, leading to dyspnea and reduced exercise tolerance even when gas exchange at the alveolar surface is not yet severely compromised."
+  explanation: "The contrast with emphysema is instructive: in emphysema, elastin destruction makes the lungs abnormally compliant (they inflate easily) but they lose recoil, making expiration the problem. In fibrosis, the problem is inspiration — compliance is too low. Both diseases increase the work of breathing but through opposite mechanisms, which is why they respond to different treatments."
+```
+
 ## Explainer
 
 From your knowledge of the respiratory system and passive transport, you know that the lungs are the site of gas exchange and that substances move down concentration or pressure gradients without energy input. Pulmonary ventilation — the movement of air into and out of the lungs — applies this principle mechanically: air flows because of **pressure gradients** created by the action of respiratory muscles, not because the lungs actively pull air in. The lungs themselves have no skeletal muscle; they are passive, elastic structures that expand and recoil in response to forces applied to them.

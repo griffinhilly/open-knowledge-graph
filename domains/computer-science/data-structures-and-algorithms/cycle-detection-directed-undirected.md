@@ -29,6 +29,45 @@ Implement DFS with three vertex states (white, gray, black). Use gray edges as b
 - Not handling self-loops and parallel edges correctly.
 - Assuming cycle detection requires storing all edges; DFS detects them during traversal.
 
+## Questions
+
+```yaml
+- question: "During DFS on a directed graph, you are exploring node A (currently gray) and discover an edge to node B, which is black (fully explored). What does this tell you?"
+  type: multiple-choice
+  options:
+    - "There is a cycle involving A and B"
+    - "B is a forward or cross edge destination — no cycle is indicated"
+    - "The algorithm must backtrack and try a different path"
+    - "This situation cannot occur in a directed graph"
+  answer: 1
+  explanation: "A back edge — the only kind that indicates a cycle in a directed graph — is an edge from a gray node to another gray node (both on the current DFS stack). An edge to a black node means B was fully explored in a prior DFS subtree with no path back to the current traversal. This is why directed cycle detection requires three colors: an edge to a visited-but-black node is NOT evidence of a cycle, unlike in undirected graphs."
+
+- question: "In an undirected graph, DFS visits A, then B (from A), then C (from B). From C, DFS finds that A is already visited. Is there a cycle?"
+  type: multiple-choice
+  options:
+    - "No — A is C's grandparent in the DFS tree, which is normal"
+    - "Yes — A is visited and is not C's direct parent, so the edge C→A is a back edge revealing a cycle"
+    - "Only if A is also connected to D"
+    - "No — in undirected graphs, revisiting any node during DFS is expected and harmless"
+  answer: 1
+  explanation: "In undirected DFS, you track the parent of each node to distinguish tree edges from back edges. B is C's parent (the node DFS came from), so an edge back to B would not indicate a cycle. But A is C's grandparent — a visited node that is NOT C's parent — so the edge C–A is a back edge proving a cycle (A→B→C→A)."
+
+- question: "In a directed graph, any edge leading from a gray node to a previously visited node is evidence of a cycle."
+  type: true-false
+  answer: false
+  explanation: "Only an edge from a gray node to another gray node indicates a cycle. Gray means 'currently on the DFS recursion stack.' An edge from gray to black means the destination was fully explored in a previous DFS subtree — it is a forward or cross edge, not a back edge. Treating black nodes the same as gray nodes is a classic bug in directed cycle detection."
+
+- question: "The two-state (visited/unvisited) DFS approach sufficient for undirected cycle detection works equally well for directed graphs."
+  type: true-false
+  answer: false
+  explanation: "In a directed graph, a node can be visited (fully explored) without being on the current recursion stack. If you only track visited/unvisited, you will incorrectly flag cross edges (to finished nodes in other subtrees) as cycles. The three-color scheme — white/gray/black — distinguishes 'on the current path' (gray) from 'already finished' (black), which is essential for correctness in directed graphs."
+
+- question: "Why does directed cycle detection require three vertex states (white, gray, black) rather than the two states (visited/unvisited) that suffice for undirected graphs?"
+  type: short-answer
+  answer: "In a directed graph, a 'visited' node might have been fully explored in a separate DFS subtree with no connection to the current path — reaching it does not indicate a cycle. The gray state specifically marks nodes currently on the recursion stack (the active DFS path). A cycle exists only when DFS finds an edge back to a gray node — meaning the current path loops back on itself. Without the gray/black distinction, you cannot tell whether a visited node is on the current path (a back edge, cycle) or was processed earlier (a cross/forward edge, no cycle)."
+  explanation: "The three-color insight is that 'visited' conflates two different situations: currently being explored (on the stack) vs. already finished. Only the former is evidence of a cycle in a directed graph."
+```
+
 ## Explainer
 
 From your study of depth-first search, you know that DFS explores a graph by going as deep as possible before backtracking, and that the edges it encounters can be classified based on the DFS tree it builds. **Cycle detection** exploits this classification. The core insight is that a cycle exists if and only if DFS encounters an edge that points back to a node already on the current exploration path — a **back edge**. But the precise definition of "back edge" differs between undirected and directed graphs, and conflating the two is a common source of bugs.

@@ -42,6 +42,45 @@ Work through matrix-form derivations minimizing the sum of squared residuals. Co
 ## Common Misconceptions
 OLS does not require normally distributed errors (normality is only needed for exact inference), and minimizing squared residuals alone does not ensure unbiasedness—additional assumptions about regressors are required.
 
+## Questions
+
+```yaml
+- question: "A researcher runs OLS regression and obtains coefficient estimates. What determines whether these estimates are unbiased?"
+  type: multiple-choice
+  options:
+    - "Whether the residuals are normally distributed — OLS requires normality for unbiasedness"
+    - "Whether the sample size is large enough — large samples correct for any violations of assumptions"
+    - "Whether the regressors are uncorrelated with the error term — E[X'ε] = 0 in the population"
+    - "Whether the sum of squared residuals is at its global minimum — achieving the OLS objective guarantees unbiasedness"
+  answer: 2
+  explanation: "OLS mechanically always minimizes squared residuals — that is what it does by definition. But this mechanical minimization yields unbiased estimates only when the key exogeneity assumption holds: E[X'ε] = 0, meaning regressors are uncorrelated with the error term. If regressors are correlated with the error (omitted variable bias, simultaneity, measurement error), OLS estimates are biased regardless of sample size or residual distribution. Normality is only needed for exact small-sample inference, not for unbiasedness itself."
+
+- question: "A student regresses exam scores on study hours and writes: 'Since I minimized the sum of squared residuals, my OLS estimates must be unbiased.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — minimizing squared residuals always guarantees unbiased coefficient estimates"
+    - "OLS should minimize absolute residuals, not squared residuals, to achieve unbiasedness"
+    - "Minimizing squared residuals ensures the estimator is a valid projection, but whether it is unbiased depends on whether the OLS assumptions hold in the data-generating process"
+    - "The student should use the normal equations directly rather than the closed-form OLS formula"
+  answer: 2
+  explanation: "This is the core misconception the topic targets. OLS always finds the projection minimizing squared residuals — this is a mathematical fact about the procedure, independent of the data. But achieving the minimum says nothing about whether the underlying assumptions hold. If student ability (an omitted variable correlated with study hours) is not in the model, the coefficient on study hours will be biased — the OLS formula still runs and produces numbers, but those numbers don't estimate what the student thinks they do. The Gauss-Markov theorem, not the minimization itself, is what establishes unbiasedness under the right conditions."
+
+- question: "OLS can always be computed and will always minimize the sum of squared residuals, regardless of whether the OLS assumptions hold."
+  type: true-false
+  answer: true
+  explanation: "OLS is a mechanical procedure. Given any X and y (assuming X'X is invertible), β̂ = (X'X)⁻¹X'y always produces numbers, and those numbers always minimize the sum of squared residuals — this is a property of the formula, not of the data-generating process. What the OLS assumptions determine is not whether you can run OLS, but whether the resulting estimates have desirable statistical properties (unbiasedness, consistency) as estimates of the true population parameters. You can always run OLS; what you cannot always do is trust what it produces."
+
+- question: "OLS requires normally distributed errors in order to produce unbiased coefficient estimates."
+  type: true-false
+  answer: false
+  explanation: "Normality of errors is NOT required for OLS unbiasedness. The estimator is unbiased whenever E[X'ε] = 0 and other basic conditions hold — none of which involve normality. Normality is only invoked for exact small-sample inference: to construct exact t-statistics and F-statistics from OLS estimates, we assume normal errors. With large samples, the Central Limit Theorem provides asymptotic normality of the coefficient estimates even if errors are non-normal. Many textbooks introduce normality early, leading students to incorrectly conclude it is required for the estimator itself."
+
+- question: "Why does the geometric interpretation of OLS — projecting y onto the column space of X — clarify what the OLS assumptions are actually doing?"
+  type: short-answer
+  answer: "OLS geometrically projects y onto the column space of X, producing fitted values ŷ and residuals ê that are always orthogonal to every column of X (X'ê = 0) — a mathematical fact that holds by construction. But the OLS assumption E[X'ε] = 0 in the population says that the true error is uncorrelated with the regressors, which is what makes this sample orthogonality a reliable guide to the population relationship. If the true error is correlated with X, the projection is still geometrically valid and orthogonal in the sample, but ê is a biased estimate of the true ε — the projection points in the wrong direction in parameter space."
+  explanation: "The geometric picture shows that OLS always finds the closest point in the column space, but 'closest' is only 'correct' when the column space is the right subspace — which requires the exogeneity assumption. This makes the assumptions interpretable: they are not arbitrary technical conditions but the requirements for the projection to be meaningful as an estimate of the true parameters."
+```
+
 ## Explainer
 
 **Ordinary least squares (OLS)** finds the line (or hyperplane) through data that minimizes the total squared distance between observed outcomes and predicted values. You already know from bivariate regression that this produces a fitted line ŷ = β₀ + β₁x; what this topic adds is the formal derivation in matrix notation and a deeper understanding of why squared residuals — rather than absolute values or fourth powers — are the natural loss function to minimize.

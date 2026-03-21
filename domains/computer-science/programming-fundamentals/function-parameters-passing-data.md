@@ -30,6 +30,45 @@ Write functions with multiple parameters; call them with arguments in different 
 ## Common Misconceptions
 That parameters and arguments are the same (parameters are in the definition, arguments in the call); that parameter order doesn't matter; that modifying a parameter always changes the original variable (depends on pass-by-value vs pass-by-reference).
 
+## Questions
+
+```yaml
+- question: "A function is defined as def calculate(base, rate, years). A student calls it as calculate(0.05, 1000, 10), intending base=1000, rate=0.05, years=10. What is the problem?"
+  type: multiple-choice
+  options:
+    - "There is no problem — Python infers which argument matches which parameter based on their values"
+    - "Arguments are assigned by position, so base receives 0.05, rate receives 1000, and years receives 10 — the wrong values"
+    - "The function will raise a TypeError because the argument types do not match"
+    - "The function will produce a warning but still compute the correct result"
+  answer: 1
+  explanation: "Arguments are matched to parameters strictly by position in the default calling convention. The function has no way to know the programmer's intent: it assigns the first argument to the first parameter, second to second, and so on. So base=0.05, rate=1000, years=10 — the calculation will run with inverted values and produce a wrong result, likely without any error. This is a silent logic bug, which is harder to catch than a crash."
+
+- question: "What is the fundamental difference between a parameter and an argument?"
+  type: multiple-choice
+  options:
+    - "Parameters appear in the function call; arguments appear in the function definition"
+    - "Parameters are the named placeholders in the function definition; arguments are the actual values passed during the call"
+    - "Parameters are used for primitive data types; arguments are used for complex objects"
+    - "There is no meaningful difference — the terms are interchangeable"
+  answer: 1
+  explanation: "Parameters are the named variables declared in the function signature (definition): def bake(item, temp, minutes) — item, temp, and minutes are parameters. Arguments are the concrete values supplied when calling the function: bake('chicken', 375, 45) — 'chicken', 375, and 45 are arguments. Conflating these terms creates confusion when debugging call errors, because error messages distinguish them: 'missing 1 required positional argument' means you provided too few arguments, not that you defined the parameter incorrectly."
+
+- question: "In most languages that use positional argument matching, passing arguments in the wrong order will always trigger a runtime error, making the mistake easy to detect."
+  type: true-false
+  answer: false
+  explanation: "This is the dangerous aspect of the wrong-order mistake. Most languages will happily run the function with arguments in the wrong positions — no error is raised. The function receives values in the wrong parameters and computes a wrong result silently. For example, a function expecting (principal, rate) called with (rate, principal) will execute without complaint and return an incorrect number. Silent logic errors are harder to diagnose than crashes."
+
+- question: "Parameters are the named placeholders in the function definition, while arguments are the specific values provided at the call site — they are distinct concepts."
+  type: true-false
+  answer: true
+  explanation: "This distinction is fundamental and precise. def add(x, y): x and y are parameters — they exist only inside the function, as temporary receptacles waiting to receive values. When you call add(3, 5), the values 3 and 5 are arguments — they travel from the call site into the function, filling the parameters. Understanding the distinction helps diagnose errors: 'wrong number of arguments' tells you something about the call site; 'parameter not defined' tells you something about the function definition."
+
+- question: "Why does argument order matter when calling a function? What goes wrong when arguments are passed in the wrong order?"
+  type: short-answer
+  answer: "Arguments are assigned to parameters by their position in the call. The function receives values in the order they are passed, with no knowledge of what the programmer intended. Passing arguments in the wrong order means each parameter receives the wrong value — the function runs with incorrect data and produces a wrong result. Because most languages do not raise an error for mismatched-but-type-compatible arguments, this produces a silent logic bug that can be difficult to trace."
+  explanation: "This is why understanding positional matching is practical, not just theoretical. Debugging a wrong-order call requires knowing that argument position is the contract between caller and function — a contract that the language enforces structurally, not semantically. Named arguments (where supported) are one way to make calls more self-documenting and order-independent."
+```
+
 ## Explainer
 
 From your work with parameters and arguments, you know that functions can accept inputs and that the names in the function definition are parameters while the values you pass in a call are arguments. This topic deepens that understanding by focusing on *how* data flows into a function and what happens to it once it arrives — the mechanics of **passing data** through parameters.

@@ -30,6 +30,45 @@ Trace the pressure path from one known end to the unknown, adding ρgh when movi
 - The manometer fluid must be immiscible with and denser than the process fluid.
 - Connected fluid columns at the same elevation have equal pressure only if they are in the same continuous fluid.
 
+## Questions
+
+```yaml
+- question: "A U-tube manometer uses mercury (ρ = 13,600 kg/m³) to measure pressure in a water pipe (ρ = 1,000 kg/m³). The water fills both manometer arms above the mercury. To find the pressure difference, you should:"
+  type: multiple-choice
+  options:
+    - "Use only the mercury column height, since water is so much less dense that its contribution is negligible in all cases"
+    - "Multiply the total tube length of each arm by the respective fluid density"
+    - "Account for the vertical height of every fluid segment in the path — both the water columns and the mercury column"
+    - "Use the cross-sectional area of the tube to convert the mercury height into a force"
+  answer: 2
+  explanation: "Every fluid layer in the manometer path contributes a pressure head of ρgh. Ignoring the water columns introduces a systematic error proportional to the water column heights. If the water columns are tall relative to the mercury displacement, the error is significant. The correct approach is to trace the pressure from one port to the other, adding ρgh for each downward fluid segment and subtracting ρgh for each upward segment, for every fluid present. Tube shape and cross-section are irrelevant — only vertical heights and densities matter."
+
+- question: "The left arm of a U-tube manometer is widened to twice the diameter of the right arm. How does this change the pressure measurement?"
+  type: multiple-choice
+  options:
+    - "The left arm now reads a higher pressure because it holds more fluid per unit height"
+    - "The pressure calculation must be corrected by the area ratio to account for the different cross-sections"
+    - "The measurement is unchanged — pressure depends only on vertical height of fluid columns, not on tube geometry"
+    - "The measurement becomes invalid because unequal cross-sections violate the hydrostatic balance assumption"
+  answer: 2
+  explanation: "This tests the core principle of fluid statics: pressure is determined by the vertical height of the fluid column above a reference point, not by the volume, shape, or cross-section of the container. P = ρgh. A wide tube and a narrow tube containing the same fluid to the same height exert identical pressure at the bottom. This is the hydrostatic paradox — the result that surprised early natural philosophers. Tube geometry affects the volume of fluid, not the pressure. The manometer equation P₁ − P₂ = ρ_m g Δh is independent of tube cross-section."
+
+- question: "An inclined manometer tilted at 5° from horizontal provides better resolution than a vertical manometer for the same pressure difference, because a given vertical rise corresponds to a much larger displacement along the inclined tube."
+  type: true-false
+  answer: true
+  explanation: "The geometric gain is 1/sin θ. At θ = 5°, a vertical rise of 1 mm requires a 1/sin(5°) ≈ 11.5 mm movement along the tube — readable on a scale where 1 mm increments would be invisible. This amplification is purely geometric: the pressure difference still equals ρgh (vertical height only), but the human-readable displacement is 11.5× larger. The inclined manometer is the earliest analog amplifier — using geometry to convert a small, hard-to-read signal into a large, easy-to-read one. The principle appears in every precision pressure transducer design."
+
+- question: "In a connected fluid system, two points at the same elevation always have equal pressure, regardless of which fluids or structures lie above them."
+  type: true-false
+  answer: false
+  explanation: "Equal pressure at equal elevation holds only within the same continuous fluid. If two points at the same elevation are connected through different fluid columns above them — for example, one arm has mercury and water, the other has only water — the pressures at that elevation can differ significantly. The equal-pressure principle applies within a single uninterrupted fluid at rest, not across fluid interfaces or separate fluid columns. This is the most common conceptual error in manometer problems: students assume that equal elevation means equal pressure, then fail to account for the different density columns above each point."
+
+- question: "Explain why you must trace every fluid layer in a manometer path — not just the manometer fluid — when calculating a pressure difference. What error results from ignoring process fluid in the manometer arms?"
+  type: short-answer
+  answer: "Each fluid layer contributes a pressure head ρgh proportional to its density and vertical height. When process fluid (e.g., water) rises into the manometer arms above the mercury, it exerts pressure that partially offsets or adds to the mercury column's contribution. Ignoring the water columns means neglecting their pressure heads. If the water column on the high-pressure side is taller than on the low-pressure side, the true pressure difference is less than the mercury displacement alone would suggest. The error equals ρ_water × g × (Δh_water), which can be substantial when process fluid fills tall manometer arms. Systematic path tracing — adding ρgh going down and subtracting going up for every fluid — is the only way to account for all contributions correctly."
+  explanation: "The key insight is that the manometer path traverses multiple fluids, and each one contributes to the hydrostatic balance. The mercury column is typically the largest term (high density, large displacement), but the process fluid terms are systematic corrections that cannot be ignored in precision measurements. Drawing the manometer and labeling every fluid interface before writing the equation is the procedure that prevents errors — it forces you to identify all the layers before performing the calculation."
+```
+
 ## Explainer
 
 You know from fluid statics that pressure increases with depth in a fluid: ΔP = ρgh. A **manometer** turns this hydrostatic relationship into a measurement instrument. By balancing an unknown pressure against a column of fluid of known density and height, you can read pressure without any mechanical moving parts — only equilibrium. This simplicity is why manometers remained the standard pressure measurement tool for centuries and why they still appear as the calibration reference for electronic transducers.
