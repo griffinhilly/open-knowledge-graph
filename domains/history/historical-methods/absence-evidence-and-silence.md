@@ -14,7 +14,7 @@ tags:
 - absence
 - silence
 - epistemology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -22,6 +22,16 @@ status: draft
 ## Core Idea
 A space is regular if for every closed set F and x ∉ F, there exist disjoint open sets separating them. T₃ = regular + T₀. Regular spaces separate points from closed sets; metric spaces are regular. Products of regular spaces are regular; regularity is preserved under continuous images (unlike T₂).
 
+## Explainer
+
+A topological space X is **regular** if, given any closed set F and any point x not in F, there exist disjoint open sets U and V with x ∈ U and F ⊆ V. In other words, a point and a closed set that does not contain it can always be "separated" by open neighborhoods that do not overlap. The **T₃ axiom** combines regularity with the T₀ condition (topological distinguishability of points), yielding a space where both point-from-point and point-from-closed-set separation are guaranteed. Some authors define T₃ as regular + T₁ instead; in either convention, the substantive content is the regularity condition itself.
+
+Regularity sits one level above the Hausdorff condition in the separation hierarchy. The Hausdorff axiom (T₂) requires separating two points by disjoint open sets; regularity requires separating a single point from an entire closed set. This is a strictly stronger demand: a closed set can be infinite and its points can cluster near x, making the construction of disjoint open neighborhoods harder. Every regular T₁ space is Hausdorff — since singletons are closed in a T₁ space, regularity applied to x and the closed set {y} gives the T₂ separation. But T₂ does not imply regularity: there exist Hausdorff spaces where a point and a disjoint closed set cannot be separated by open sets, though such spaces are somewhat pathological.
+
+Metric spaces are always regular, and the proof is constructive. If F is closed and x ∉ F, then d(x, F) = inf{d(x, y) : y ∈ F} > 0 (since F is closed and x is outside it). Setting r = d(x, F)/2, the open ball B(x, r) and the open set ∪{B(y, r) : y ∈ F} separate x from F: any point in both would be within r of x and within r of some point of F, giving d(x, y) < 2r = d(x, F), a contradiction. This argument illustrates a recurring theme: in metric spaces, the distance function provides explicit constructions for topological separation, which is why metric spaces satisfy all the standard separation axioms.
+
+Regularity is preserved under several important constructions. Products of regular spaces are regular (in the product topology), and subspaces of regular spaces are regular. This makes regularity a robust property that persists as you build new spaces from existing ones. Regularity is the gateway to the stronger separation axiom of **normality** (T₄), which requires separating two disjoint closed sets from each other — a strictly harder task. The hierarchy T₂ ⊂ T₃ ⊂ T₄ represents progressively stronger geometric richness, with each level unlocking new theorems about the existence of continuous functions and extensions.
+
 ## Questions
 
 ```yaml

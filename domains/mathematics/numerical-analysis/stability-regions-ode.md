@@ -19,6 +19,16 @@ status: draft
 ## Core Idea
 For the test problem dy/dt = λy with Re(λ) < 0, a numerical method is stable if |y_{n+1}| ≤ |y_n|. The stability region is the set of hλ values for which the method is stable. An A-stable method (like implicit Euler or Crank-Nicolson) is stable for all hλ with Re(hλ) < 0, making it safe for stiff problems. Explicit methods have bounded stability regions, severely limiting step size for stiff systems.
 
+## Explainer
+
+From your study of stiff differential equations, you know that stiffness creates a fundamental tension: the exact solution may vary slowly and smoothly, yet the ODE has eigenvalues with large negative real parts that force explicit methods to take absurdly small steps. The concept of **stability regions** makes this tension precise. The standard test problem is the scalar equation dy/dt = λy with Re(λ) < 0, whose exact solution y(t) = y₀e^{λt} decays exponentially. A numerical method is **stable** for this problem if the numerical approximation also decays — that is, if |yₙ₊₁| ≤ |yₙ|. The **stability region** is the set of values hλ in the complex plane for which this decay condition holds.
+
+For forward (explicit) Euler, applying one step gives yₙ₊₁ = (1 + hλ)yₙ. The method is stable when |1 + hλ| ≤ 1, which describes a disk of radius 1 centered at −1 in the complex hλ-plane. If λ = −1000 (a stiff decay rate) and you want hλ inside this disk, you need roughly h < 2/1000 = 0.002. This is a stability restriction, not an accuracy restriction — the solution is nearly constant and large steps would be perfectly accurate, but the method blows up unless h is tiny. For backward (implicit) Euler, yₙ₊₁ = yₙ/(1 − hλ), and the stability region is everything outside the unit disk centered at 1 — which includes the entire left half-plane. No step-size restriction is needed for stability when Re(λ) < 0.
+
+A method whose stability region contains the entire left half of the complex plane — all hλ with Re(hλ) < 0 — is called **A-stable**. The backward Euler method and the Crank-Nicolson (trapezoidal) method are both A-stable. For stiff problems, A-stability is the critical property: it means you can choose h based purely on accuracy requirements, without worrying that the method will blow up. The Dahlquist barrier theorem shows that no explicit linear multistep method can be A-stable, and among implicit linear multistep methods, the highest-order A-stable method is the trapezoidal rule (order 2). This is why implicit methods dominate stiff ODE solving in practice.
+
+The conceptual separation of **stability** from **accuracy** is the key insight. Accuracy is about truncation error — how well the method approximates the true derivative. Stability is about error propagation — whether small perturbations grow or decay as the method iterates. A method can be highly accurate (high order) yet unstable for a particular hλ, producing catastrophic blowup. Conversely, backward Euler is only first-order accurate but is unconditionally stable for decaying problems. In practice, stiff ODE solvers use high-order implicit methods (like BDF methods or implicit Runge-Kutta) that combine accuracy with large stability regions, allowing efficient integration of systems where eigenvalues span many orders of magnitude.
+
 ## Questions
 
 ```yaml

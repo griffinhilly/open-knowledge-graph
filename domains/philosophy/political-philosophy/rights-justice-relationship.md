@@ -16,7 +16,7 @@ tags:
 - justice
 - fairness
 - entitlements
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -11,19 +11,11 @@
 - **Phase 9B BUILT**: Quiz engine with adaptive tier warmup, exploration, post-assessment inference, confidence tracking
 - **Domain ordering finalized**: formal foundations → physical sciences → life sciences → social sciences → humanities
 
-## Stage Assignment Audit (Mar 21, 2026)
-- **~274 potentially mis-staged topics** across 23 of 149 courses (~2%)
-- Pattern: university-level courses have some topics stuck at abstract-reasoning or below
-- **High-confidence fixes needed (~120 topics, 6 courses)**:
-  - `computer-science/theory-of-computation`: 32 topics (abstract-reasoning → advanced)
-  - `biology/cell-biology`: 26 topics (22 abstract + 4 concrete → formal/advanced)
-  - `psychology/research-methods-psychology`: 23 topics (abstract → formal/advanced)
-  - `earth-and-space-sciences/oceanography`: 17 topics (abstract → advanced)
-  - `physics/thermodynamics`: 4 topics (concrete → formal) — ideal-gas-law already fixed
-  - `mathematics/1st-grade`: 5 topics (abstract → concrete/pre-formal)
-- **Medium-confidence (~60 topics)**: microeconomics, historical-methods, political-philosophy
-- **Debatable (~90 topics)**: logic, public-speaking, ancient-civilizations, music fundamentals
-- 11 physics topics already fixed this session (10 electrodynamics + 1 thermodynamics)
+## Stage Assignment Audit — COMPLETE (Mar 22, 2026)
+- **~274 potentially mis-staged topics** identified across 23 of 149 courses (~2%)
+- **All fixes applied**: 107 high-confidence (Mar 21) + 61 high-confidence + 13 dialectic-decided (Mar 22) = **181 topics restaged**
+- **20 borderline topics intentionally kept** at abstract-reasoning as on-ramps (supply-and-demand-basics, PPF, comparative advantage, cognitive biases, public speaking performance skills, ancient civilizations narrative topics, rule-of-law-concept, separation-of-powers)
+- **Dialectic principle**: stage based on actual file content (does it teach named formal frameworks?), not whether a simpler version of the concept exists for younger learners
 - Root cause: Sonnet swarm's systematic weakness is stage assignment for topics whose concepts appear at multiple education levels
 
 ## Phase 9B Design Decisions (Mar 21, 2026)

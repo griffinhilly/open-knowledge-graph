@@ -12,7 +12,7 @@ tags:
 - fallacies
 - circular-reasoning
 - argument-evaluation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

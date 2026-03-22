@@ -16,7 +16,7 @@ tags:
 - argument
 - reasoning
 - orality
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

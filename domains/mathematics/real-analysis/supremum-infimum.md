@@ -24,6 +24,16 @@ status: draft
 ## Core Idea
 The supremum (least upper bound) of a set S is the smallest real number that is greater than or equal to every element of S; the infimum (greatest lower bound) is the largest real number that is less than or equal to every element. Not every set has a supremum or infimum, but the completeness axiom guarantees their existence for non-empty bounded sets.
 
+## Explainer
+
+From your study of ordered field axioms, you know that ℝ is an ordered field: it has addition, multiplication, and an ordering < that interacts with these operations in the expected ways. But the ordered field axioms alone do not distinguish ℝ from ℚ — both are ordered fields. What makes ℝ special is the **completeness property**, and the concepts of supremum and infimum are how that property is expressed. Every nonempty subset of ℝ that is bounded above has a **least upper bound** (supremum) in ℝ. This is the axiom that fills in the "gaps" present in ℚ and makes real analysis possible.
+
+An **upper bound** for a set S is any number M with M ≥ s for all s ∈ S. Upper bounds are not unique — if M is an upper bound, so is M + 1, M + 100, and anything larger. The **supremum** (least upper bound) is the smallest upper bound: it is an upper bound for S, and no number smaller than it is also an upper bound. Formally, sup S = M satisfies two conditions: (1) M ≥ s for all s ∈ S, and (2) for every ε > 0, there exists s ∈ S with s > M − ε. Condition (2) is the "least" part — the supremum can be approximated arbitrarily closely from below by elements of S. The **infimum** (greatest lower bound) is defined symmetrically.
+
+The crucial distinction is between the supremum and the maximum. The **maximum** of S is the largest element of S — it must actually belong to S. The supremum need not. The open interval (0, 1) has supremum 1, but 1 is not in the set — there is no maximum. For any candidate "largest element" x ∈ (0, 1), the number (x + 1)/2 is larger and still in the set. The supremum exists (it is 1) even though no element of S equals it. This is the standard example that separates the two concepts. If the supremum of S happens to be in S, it equals the maximum; if not, S has a supremum but no maximum.
+
+The completeness axiom — every nonempty bounded-above subset of ℝ has a supremum in ℝ — is what distinguishes ℝ from ℚ. Consider the set S = {q ∈ ℚ : q² < 2}. This set is bounded above in ℚ (for instance, by 2), but it has no supremum in ℚ — its least upper bound is √2, which is irrational. There is a "gap" in ℚ right where the supremum should be. The completeness of ℝ eliminates all such gaps: √2 ∈ ℝ, so S does have a supremum in ℝ. This property is the bedrock of real analysis. The Archimedean property, the Bolzano-Weierstrass theorem, the convergence of bounded monotone sequences, and ultimately the entire theory of limits and continuity are all consequences of the existence of suprema and infima for bounded sets.
+
 ## Questions
 
 ```yaml

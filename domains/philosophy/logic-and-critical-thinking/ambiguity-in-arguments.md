@@ -14,7 +14,7 @@ tags:
 - ambiguity
 - vagueness
 - language-clarity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

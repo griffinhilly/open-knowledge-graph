@@ -12,7 +12,7 @@ tags:
 - quantitative
 - statistics
 - methods
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

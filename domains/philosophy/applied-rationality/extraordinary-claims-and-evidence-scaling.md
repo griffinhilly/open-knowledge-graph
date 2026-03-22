@@ -28,6 +28,16 @@ Calculate concrete examples: if a friend claims to have seen a UFO (prior ~1 in 
 - This principle does not mean extraordinary claims should be dismissed without investigation — it means the bar for evidence is proportional to the claim's prior improbability.
 - "Extraordinary" does not mean "surprising to me personally" — it means having a low prior probability given existing knowledge.
 
+## Explainer
+
+Carl Sagan's famous maxim -- "extraordinary claims require extraordinary evidence" -- sounds like a heuristic or a rhetorical device, but it is actually a direct mathematical consequence of Bayes' theorem. Understanding why makes the principle precise, quantitative, and much more useful than the slogan alone.
+
+Bayesian updating works by multiplying your prior odds by the likelihood ratio of the evidence: posterior odds = prior odds x (P(evidence | claim true) / P(evidence | claim false)). A claim with a very low prior probability has very low prior odds. To bring the posterior to a meaningful level -- say, 50% -- the likelihood ratio must be large enough to compensate. If your prior for a claim is 1 in a million, you need evidence with a likelihood ratio of roughly a million to reach 50% posterior probability. Evidence with a likelihood ratio of 50 -- which would be decisive for a claim with moderate prior probability -- barely moves the needle, bringing a 1-in-a-million prior to only about 1 in 20,000. The math is unforgiving: the more extreme the prior, the stronger the evidence must be.
+
+This is why the same type of evidence can be sufficient for one claim and woefully insufficient for another. If a friend tells you "it rained in Seattle yesterday," that testimony easily suffices -- the prior probability of rain in Seattle is high, and even modest evidence pushes you to near certainty. But if the same friend tells you they saw an alien spacecraft, their testimony carries the same likelihood ratio as before, yet it is applied to a prior of perhaps 1 in 100,000 for genuine alien craft. The result: the posterior barely budges. You would need evidence that is overwhelmingly more likely under "real alien craft" than under all mundane explanations combined -- multiple independent sensors, physical artifacts, convergent testimony from unconnected witnesses -- to produce the enormous likelihood ratio that the low prior demands.
+
+Crucially, the Sagan standard does not mean extraordinary claims should be dismissed without investigation. It specifies how strong the evidence must be, not that evidence should not be sought. A scientist who refuses to investigate an extraordinary claim because "the prior is too low" has misunderstood Bayesian reasoning just as badly as one who accepts it on weak evidence. The principle is a calibration tool: it tells you what to expect from the evidence before you commit to a conclusion, and it warns you when the evidence presented is orders of magnitude weaker than what the claim requires. Applied honestly, it is a guard against both credulity (accepting extraordinary claims on ordinary evidence) and closed-mindedness (refusing to update even when extraordinary evidence is presented).
+
 ## Questions
 
 ```yaml

@@ -13,7 +13,7 @@ tags:
 - utility
 - marginal-analysis
 - consumer-choice
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

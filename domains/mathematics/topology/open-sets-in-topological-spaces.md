@@ -22,6 +22,16 @@ status: draft
 ## Core Idea
 Open sets form the fundamental building blocks of a topology. They satisfy axioms that generalize the intuitive properties of open intervals on the real line: any union of open sets is open, and finite intersections of open sets are open. Understanding open sets is essential for defining continuity and other topological properties without relying on distance.
 
+## Explainer
+
+**Open sets** are the primitive objects of a topological space. A topological space (X, τ) is defined by specifying a set X together with a collection τ of subsets — the open sets — satisfying three axioms: (1) ∅ ∈ τ and X ∈ τ, (2) any union of members of τ is in τ, and (3) any finite intersection of members of τ is in τ. From your study of topological spaces, you know that these axioms abstract the behavior of open sets in metric spaces. Open sets in a general topology need not be defined by distances or ε-balls; they are simply the sets that belong to τ.
+
+The distinction between arbitrary unions and finite intersections is essential. Unions of open sets are always open, no matter how many sets are involved — even uncountably many. But only finite intersections of open sets are guaranteed to be open. The intersection of infinitely many open sets can fail to be open: in ℝ with the standard topology, each interval (−1/n, 1/n) is open, but ∩ₙ(−1/n, 1/n) = {0} is not. If the axioms required arbitrary intersections to be open, every point would be open (as the intersection of smaller and smaller intervals), collapsing the topology to the discrete one. The finite-intersection restriction is precisely calibrated to exclude this collapse while preserving a meaningful notion of "openness."
+
+Openness is not an intrinsic property of a set — it depends entirely on the topology. On a set X = {1, 2, 3}, the collection τ₁ = {∅, {1}, {1, 2}, X} and τ₂ = {∅, {2}, {2, 3}, X} are both valid topologies, but the set {1} is open in τ₁ and not open in τ₂. The same underlying set supports many different topologies, each declaring different sets to be open. This flexibility is the point of the axiomatic approach: rather than deriving openness from a distance formula, you declare which sets are open and derive everything else — continuity, convergence, compactness — from that declaration.
+
+Open sets determine all other topological concepts. A function f : X → Y is continuous if and only if the preimage of every open set in Y is open in X. A set is closed if its complement is open. The interior of a set is the largest open set it contains. Compactness, connectedness, and separation axioms are all defined in terms of open sets. Understanding open sets thoroughly is therefore not just the first step in topology — it is the foundation on which the entire theory is built.
+
 ## Questions
 
 ```yaml

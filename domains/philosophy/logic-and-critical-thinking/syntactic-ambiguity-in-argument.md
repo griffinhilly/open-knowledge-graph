@@ -14,7 +14,7 @@ tags:
 - ambiguity
 - scope
 - grammar
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

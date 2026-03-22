@@ -27,6 +27,16 @@ Plot CDFs for familiar distributions (uniform, normal, geometric) side by side. 
 ## Common Misconceptions
 Students often confuse F(x) with f(x), treating the CDF as a density. The CDF gives cumulative probability, not probability at a point. Also, P(X = x) is not always F(x) − F(x⁻) for continuous variables—it is zero.
 
+## Explainer
+
+From your study of probability mass functions and probability density functions, you know two ways to describe distributions: the PMF for discrete random variables (giving probability at each point) and the PDF for continuous ones (giving probability density). The **cumulative distribution function** (CDF) F(x) = P(X ≤ x) is a third description that works universally — it applies to discrete, continuous, and mixed random variables alike, providing a single framework for computing probabilities and comparing distributions regardless of type.
+
+The CDF answers a natural question: what is the probability that the random variable takes a value at or below x? As x increases, more values are included, so F(x) is **non-decreasing**. As x → −∞, no values are included, so F(−∞) = 0. As x → ∞, all values are included, so F(∞) = 1. The CDF is also **right-continuous**: F(x) = lim_{h→0⁺} F(x + h). For continuous random variables, F is actually continuous everywhere (no jumps). For discrete variables, F is a step function that jumps by P(X = xₖ) at each possible value xₖ.
+
+The most powerful computational property of the CDF is the **interval probability formula**: P(a < X ≤ b) = F(b) − F(a). This works for any random variable — discrete, continuous, or mixed — and reduces probability computation to evaluating F at two points and subtracting. For continuous variables, since P(X = a) = 0, you also have P(a ≤ X ≤ b) = F(b) − F(a). For discrete variables, the distinction between < and ≤ matters because the CDF jumps at mass points. Tail probabilities are equally straightforward: P(X > x) = 1 − F(x).
+
+The CDF and PDF are related by calculus. For a continuous random variable, f(x) = F'(x) — the density is the derivative of the CDF. Conversely, F(x) = ∫₋∞ˣ f(t) dt — the CDF is the integral of the density. Graphically, the PDF tells you where probability is concentrated (peaks of the density curve), while the CDF tells you how much total probability has accumulated up to each point. **Quantiles** are read from the CDF by inverting it: the p-th quantile is the value x_p where F(x_p) = p. The median, for instance, is the value where F(x) = 0.5 — half the probability lies below and half above. These relationships make the CDF the central organizing object in probability: it connects density, probability, and quantiles through a single monotone function.
+
 ## Questions
 
 ```yaml

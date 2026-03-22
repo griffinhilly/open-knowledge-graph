@@ -18,7 +18,7 @@ tags:
 - persuasion
 - rhetorical-appeals
 - strategy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

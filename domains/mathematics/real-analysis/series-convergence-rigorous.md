@@ -24,6 +24,16 @@ status: draft
 ## Core Idea
 A series ∑aₙ converges to S if its sequence of partial sums Sₙ = a₁ + ... + aₙ converges to S in the ε-N sense. Series are limits of sequences of partial sums, so all tools for sequences (monotone convergence, Cauchy criterion) apply. A series converges if and only if its partial sums form a Cauchy sequence.
 
+## Explainer
+
+From your study of ε-N convergence, you know rigorously what it means for a sequence to converge. An infinite series ∑aₙ is not a new kind of object — it is simply a sequence of **partial sums**. Define S₁ = a₁, S₂ = a₁ + a₂, S₃ = a₁ + a₂ + a₃, and in general Sₙ = Σₖ₌₁ⁿ aₖ. The series ∑aₙ converges to S if and only if the sequence of partial sums {Sₙ} converges to S in the ε-N sense: for every ε > 0, there exists N such that n > N implies |Sₙ − S| < ε. Everything about series — convergence, divergence, convergence tests — reduces to statements about the sequence {Sₙ}.
+
+A necessary condition for convergence is that the terms aₙ → 0. This follows immediately: if Sₙ → S, then aₙ = Sₙ − Sₙ₋₁ → S − S = 0. The **n-th term test** uses the contrapositive: if aₙ does not tend to 0, the series diverges. But the converse is false, and this is the single most important fact about series: **aₙ → 0 does not imply convergence**. The harmonic series ∑1/n is the definitive counterexample — its terms go to 0, yet its partial sums grow without bound (the proof uses the grouping 1/2 + (1/3 + 1/4) + (1/5 + 1/6 + 1/7 + 1/8) + ⋯, where each group sums to at least 1/2). The gap between "terms shrinking" and "partial sums stabilizing" is where the entire theory of convergence tests lives.
+
+The **Cauchy criterion** provides a powerful reformulation: ∑aₙ converges if and only if its partial sums form a Cauchy sequence — for every ε > 0, there exists N such that m > n > N implies |Sₘ − Sₙ| = |aₙ₊₁ + aₙ₊₂ + ⋯ + aₘ| < ε. This is equivalent to convergence by the completeness of ℝ (every Cauchy sequence of real numbers converges). The Cauchy criterion is valuable because it lets you prove convergence without knowing the value of the sum in advance — you only need to show that tails of the series become arbitrarily small.
+
+This framework — series as sequences of partial sums, governed by ε-N convergence and the Cauchy criterion — is the foundation for everything that follows. The comparison test, the ratio test, the root test, and the alternating series test are all techniques for establishing whether partial sums converge, often by comparing them to geometric series or other known benchmarks. The distinction between absolute convergence (∑|aₙ| converges) and conditional convergence (∑aₙ converges but ∑|aₙ| diverges) is a further refinement that has dramatic consequences for rearrangement of terms. All of it rests on the identification of series with their partial sum sequences and the rigorous ε-N definition you already command.
+
 ## Questions
 
 ```yaml

@@ -27,6 +27,16 @@ Compare 1 - 1/2 + 1/3 - 1/4 + ... (converges conditionally to ln 2) with its rea
 - Confusing rearrangement with reindexing; we're permuting terms, not reordering indices.
 - Assuming rearrangement can only change the sum slightly; it can change it arbitrarily or destroy convergence.
 
+## Explainer
+
+From your study of rigorous series convergence, you know that a series ∑aₙ converges when its partial sums settle to a finite limit. But there is a deeper question: does the series converge because of genuine summability, or only because of delicate cancellation between positive and negative terms? **Absolute convergence** — the condition that ∑|aₙ| converges — distinguishes these two cases. When the absolute values form a convergent series, the original series is "robustly" convergent; when only the original series converges (while ∑|aₙ| diverges), the convergence is "fragile," depending critically on the arrangement of terms.
+
+The alternating harmonic series ∑(−1)ⁿ⁺¹/n = 1 − 1/2 + 1/3 − 1/4 + ⋯ converges to ln 2 by the alternating series test. But ∑1/n = 1 + 1/2 + 1/3 + 1/4 + ⋯ is the harmonic series, which diverges. So the alternating harmonic series converges **conditionally** — its convergence depends entirely on the alternating signs creating enough cancellation. By contrast, ∑(−1)ⁿ/n² converges absolutely because ∑1/n² = π²/6 < ∞. Here the terms are summable on their own merits, and the signs are irrelevant to convergence.
+
+The deepest consequence of this distinction is the **Riemann rearrangement theorem**: a conditionally convergent series can be rearranged to converge to any real number whatsoever, or to diverge. This is not a technical curiosity — it means the "sum" of a conditionally convergent series is an artifact of the particular ordering. The mechanism is constructive: the positive terms alone diverge to +∞ and the negative terms alone diverge to −∞ (both diverge because the absolute series diverges). To hit a target T, take positive terms until the partial sum exceeds T, then negative terms until it dips below T, and repeat. The oscillations shrink to zero because aₙ → 0, so the rearranged series converges to T. You can aim at any T, or arrange for divergence.
+
+Absolutely convergent series are immune to this pathology. If ∑|aₙ| converges, both the positive part ∑aₙ⁺ and the negative part ∑aₙ⁻ converge independently to finite values. The sum is then the difference of two finite quantities, and rearranging terms cannot change either sub-sum. Every rearrangement converges to the same value. This is why absolute convergence is the "safe" mode of convergence: it guarantees that the sum is a genuine, order-independent quantity. In applications — Fourier series, power series, numerical computation — absolute convergence is almost always the relevant condition, because rearrangement-sensitivity would make the "sum" meaningless in any context where the order of summation might vary.
+
 ## Questions
 
 ```yaml

@@ -13,7 +13,7 @@ tags:
 - supply
 - firm
 - production-decision
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

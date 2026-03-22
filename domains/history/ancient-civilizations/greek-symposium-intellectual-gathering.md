@@ -14,7 +14,7 @@ tags:
 - intellectual
 - culture
 - society
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

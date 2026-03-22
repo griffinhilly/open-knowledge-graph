@@ -13,7 +13,7 @@ tags:
 - religion
 - polytheism
 - gods
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

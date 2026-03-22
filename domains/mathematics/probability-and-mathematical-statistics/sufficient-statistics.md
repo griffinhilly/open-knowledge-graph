@@ -24,6 +24,16 @@ status: draft
 ## Core Idea
 A statistic T(X) is sufficient for θ if the conditional distribution of X given T(X) does not depend on θ. Intuitively, T captures all information about θ in the data. The factorization theorem: T is sufficient iff f(x|θ) = g(T(x)|θ)h(x) where h doesn't depend on θ. Sufficient statistics form the basis for efficient inference.
 
+## Explainer
+
+In statistical inference, you observe data X = (X₁, ..., Xₙ) and want to learn about an unknown parameter θ. A **statistic** T(X) is any function of the data that does not involve θ — the sample mean, the sample variance, the maximum, the range. The question of sufficiency asks: does T(X) capture **all** the information in the data about θ, or does it lose something? A sufficient statistic is one that compresses the data without any loss of information about the parameter.
+
+The formal definition makes "no information loss" precise through conditional distributions. T(X) is **sufficient** for θ if the conditional distribution of X given T(X) = t does not depend on θ. This means: once you know the value of T(X), the remaining randomness in X is purely noise — it carries no signal about θ. A second analyst who receives only T(X), not the raw data, can perform any inference about θ exactly as well as someone with full access to X. The data beyond T(X) is, statistically speaking, irrelevant to learning about θ.
+
+In practice, you rarely verify sufficiency through conditional distributions directly. The **factorization theorem** (Fisher-Neyman) provides a much more convenient test: T(X) is sufficient for θ if and only if the joint density (or mass function) factors as f(x|θ) = g(T(x), θ) · h(x), where g depends on the data only through T(x) and h does not depend on θ at all. The factor g contains all the θ-information; h contains the θ-free "noise." For a normal sample with known variance, writing the joint density and collecting terms reveals that everything involving μ appears only through ΣXᵢ (or equivalently X̄), confirming that the sample mean is sufficient.
+
+Sufficiency has profound consequences for estimation theory. The **Rao-Blackwell theorem** states that any estimator can be improved (in terms of mean squared error) by conditioning on a sufficient statistic — so the best estimators are always functions of sufficient statistics. The **exponential family** of distributions (which includes the normal, Poisson, binomial, exponential, and gamma) has a clean sufficient statistic structure: a k-parameter exponential family always has a k-dimensional sufficient statistic, and the factorization is immediate from the exponential form. Understanding sufficiency is the gateway to the efficiency theory of estimation — Cramér-Rao bounds, completeness, and the construction of uniformly minimum variance unbiased estimators.
+
 ## Questions
 
 ```yaml

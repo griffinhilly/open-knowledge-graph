@@ -28,6 +28,16 @@ Run a premortem on your next significant decision or project. Write "It is [futu
 - A premortem is not pessimism — it is a structured technique for surfacing risks that optimism bias would otherwise hide.
 - The premortem does not replace risk analysis — it complements it by accessing a different cognitive mode.
 
+## Explainer
+
+From debiasing techniques, you know that effective debiasing requires specific procedural countermeasures, not just awareness of bias. The premortem, developed by psychologist Gary Klein, is one of the most powerful and accessible of these techniques. It targets the optimism bias and social pressure that cause project teams to systematically underestimate risk -- and it does so by changing the cognitive frame from speculation to explanation.
+
+The technique is simple. Before a project begins, the team imagines that it is some future date and the project has failed completely. Each team member then writes down the reasons the project failed. That is the entire procedure. The shift from "what could go wrong?" to "the project has already failed -- explain why" may seem cosmetic, but it activates a fundamentally different cognitive mode. When asked to speculate about future risks, people run into two obstacles: optimism bias suppresses the imagination of failure, and social pressure discourages voicing concerns about colleagues' work. When told to explain a failure that has already occurred, both obstacles disappear. Explaining a past event is cognitively easier than predicting a future one -- the mind naturally constructs causal stories about concrete events -- and attributing failure to a fait accompli removes the social stigma of pessimism.
+
+Klein's research found that premortems increase the ability to identify potential failure modes by roughly 30% compared to standard prospective risk assessment. This is not because the technique takes longer or involves more people -- it is because it accesses a different kind of thinking. Standard risk analysis engages System 2 (analytical, checklist-driven), which is thorough but operates against the background assumption that the project will succeed. The premortem engages System 1 (narrative, pattern-based), which excels at constructing causal explanations and drawing on past experience to identify what typically goes wrong in situations like this. The two approaches complement each other: the checklist catches the risks you can enumerate; the premortem catches the risks that "feel" wrong before you can articulate why.
+
+The premortem is most valuable at the start of a project, when there is still time to adjust the plan based on identified risks. Running a premortem after significant investment has been made is better than nothing, but by then commitment bias and sunk cost effects reduce willingness to modify the plan. The optimal use is early and before emotional investment hardens: surface the risks, adjust the plan, and proceed with warranted rather than naive confidence. This is also why the premortem builds toward Murphyjitsu -- the iterative technique that takes premortem-style failure identification and adds a repair loop, modifying the plan until it passes a gut-check test at every step.
+
 ## Questions
 
 ```yaml

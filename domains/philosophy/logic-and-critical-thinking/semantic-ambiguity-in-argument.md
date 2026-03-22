@@ -14,7 +14,7 @@ tags:
 - ambiguity
 - equivocation
 - word-meaning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

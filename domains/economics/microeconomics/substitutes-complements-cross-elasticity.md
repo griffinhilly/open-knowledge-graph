@@ -12,7 +12,7 @@ tags:
 - elasticity
 - related-goods
 - demand-shift
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

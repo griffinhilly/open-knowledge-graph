@@ -31,6 +31,16 @@ Start by examining cases where the two types of rationality come apart. A comfor
 - Epistemic and instrumental rationality do not always conflict — in most real-world situations, having accurate beliefs directly serves your goals.
 - Rationality is not about being "right" in arguments — it is about systematically improving the accuracy of your beliefs and the effectiveness of your actions.
 
+## Explainer
+
+The Rationalist tradition begins with a distinction that clarifies everything that follows: there are two kinds of rationality, and they serve different purposes. **Epistemic rationality** is the art of forming accurate beliefs -- building a mental map that corresponds to the territory of reality. **Instrumental rationality** is the art of achieving your goals -- choosing actions that produce the outcomes you actually want. The first asks "what is true?" and the second asks "what should I do?" Both are essential, and understanding how they relate is the foundation of applied rationality.
+
+The two types are conceptually distinct but practically intertwined. You cannot reliably navigate to a destination with a wrong map: if you believe the bridge is open when it is closed, your instrumental rationality -- your ability to choose the right route -- is undermined by your epistemic failure. Conversely, the motivation to form accurate beliefs often comes from wanting to act effectively. A doctor who wants to save patients (instrumental goal) has strong reason to form accurate beliefs about which treatments work (epistemic goal). In most real-world situations, the two types of rationality reinforce each other rather than conflicting.
+
+Where they can come apart is instructive. Before a high-stakes job interview, telling yourself "I'm definitely going to get this job" might calm your nerves and improve your performance -- a short-term instrumental benefit. But the belief is epistemically false if your actual probability is 40%, and the long-term instrumental costs of habitual self-deception are real: you fail to prepare backup plans, you cannot accurately assess which opportunities to pursue, and you lose the ability to learn from outcomes because your model of the world is disconnected from reality. The Rationalist position is that these cases of apparent conflict are usually resolved in favor of epistemic rationality when you extend the time horizon -- accurate beliefs serve your goals better in the long run, even when comfortable falsehoods provide momentary relief.
+
+One crucial clarification: rationality is not the same as being emotionless. Emotions carry real information -- fear signals danger, excitement signals opportunity, discomfort with an argument may signal a genuine flaw you have not articulated yet. The Rationalist project is not to suppress emotion but to integrate it with careful reasoning: notice what your emotions are telling you, check whether the signal corresponds to reality, and then decide how to act. A person who ignores relevant emotional signals in the name of "being rational" is making an epistemic error, not demonstrating rationality. The goal is beliefs that track reality and actions that achieve your goals -- using every source of information available, including your own emotional responses.
+
 ## Questions
 
 ```yaml

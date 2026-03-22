@@ -14,7 +14,7 @@ tags:
 - dating
 - archaeology
 - periodization
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

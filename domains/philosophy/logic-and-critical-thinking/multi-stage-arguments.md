@@ -13,7 +13,7 @@ tags:
 - argument-structure
 - complex-arguments
 - reasoning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

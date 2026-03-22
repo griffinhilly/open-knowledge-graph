@@ -15,7 +15,7 @@ tags:
 - statistics
 - data
 - numbers
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

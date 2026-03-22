@@ -31,6 +31,16 @@ Work through a concrete example: before flipping a coin you suspect is biased, w
 - This does not mean evidence is useless — it means that before seeing evidence, you cannot predict which direction it will push you, though it will push you somewhere specific once observed.
 - Conservation of expected evidence does not prevent you from seeking confirming evidence — it says your expectation of what you will find must be calibrated.
 
+## Explainer
+
+Conservation of expected evidence is a direct consequence of Bayes' theorem that serves as one of the most powerful diagnostic tools for detecting broken reasoning. The principle states: before you observe any evidence, the probability-weighted average of all your possible posterior beliefs must equal your current prior. Mathematically, this is just the law of total probability applied to belief updating, but its practical implications are profound.
+
+Consider a concrete example. You suspect a coin might be biased toward heads. Before flipping it, you think through what each outcome would do to your belief. If heads comes up, you will update toward "biased." If tails comes up, you will update toward "fair." Now here is the key constraint: the amount you would update toward "biased" on heads, weighted by the probability of heads, must exactly equal the amount you would update toward "fair" on tails, weighted by the probability of tails. The expected net change in your belief is zero. This is not because evidence is useless -- once you actually flip the coin and see the result, you will genuinely update in one direction. The point is that you cannot predict in advance which direction you will update, on net, without that prediction itself being evidence you should have already incorporated.
+
+This principle becomes a powerful diagnostic for **motivated reasoning**. Suppose a researcher says: "If the clinical trial shows positive results, I'll accept them. But if it shows negative results, I'll conclude the methodology was probably flawed." This person has pre-committed to updating upward on positive results and refusing to update downward on negative results. The probability-weighted average of their anticipated posteriors is higher than their prior -- which is mathematically impossible for correct Bayesian reasoning. They have violated conservation of expected evidence, and the violation reveals that they are not genuinely open to what the evidence might show. Their bottom line was already written.
+
+The practical test you can apply to your own reasoning is simple: before examining evidence on any question, ask what results would push you in each direction, and by how much. If you find that every possible outcome would confirm your current belief -- or that disconfirming outcomes would always be explained away -- conservation of expected evidence is violated, and you are not reasoning honestly. Genuine inquiry must admit the possibility that the evidence will push you somewhere you did not want to go. This is uncomfortable, but it is the price of having beliefs that actually track reality rather than beliefs that merely feel good.
+
 ## Questions
 
 ```yaml

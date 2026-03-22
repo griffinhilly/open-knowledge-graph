@@ -14,7 +14,7 @@ tags:
 - diminishing-returns
 - productivity
 - input-productivity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

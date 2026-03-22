@@ -27,6 +27,16 @@ Start with a concrete example—compare exam scores across three teaching method
 ## Common Misconceptions
 A significant F-test does not tell you which groups differ—post-hoc tests are needed. ANOVA is also reasonably robust to mild normality violations, so the normality assumption is not as fragile as students often fear.
 
+## Explainer
+
+You already know the two-sample t-test for comparing two group means. But what happens when you have three, four, or more groups? The natural impulse is to run all pairwise t-tests — with k groups, that means k(k−1)/2 tests. The problem is **multiple comparisons**: each test has a false-positive rate of α, and across many tests, the probability of at least one spurious significant result grows rapidly. With five groups and ten pairwise t-tests at α = 0.05, the family-wise error rate climbs toward 40%. One-way ANOVA solves this by performing a single omnibus test that compares all group means simultaneously, keeping the overall error rate at α.
+
+The core idea is a **decomposition of total variability**. Take all N observations, compute the grand mean (the mean of all data regardless of group), and measure total variation around it: SS_Total = Σ(xᵢ − x̄_grand)². This total variation splits cleanly into two additive components. **SS_Between** measures how much the group means vary around the grand mean — it captures the "signal" attributable to group membership. **SS_Within** measures how much individual observations vary around their own group mean — it captures the "noise" or baseline variability that exists even within homogeneous groups. The identity SS_Total = SS_Between + SS_Within holds exactly, partitioning every bit of variation into explained (between) and unexplained (within).
+
+The **F-statistic** is the ratio of two mean squares: F = MS_Between / MS_Within, where each SS is divided by its degrees of freedom to make the quantities comparable. MS_Between uses k − 1 degrees of freedom (k group means minus one constraint from the grand mean). MS_Within uses N − k degrees of freedom (N observations minus k group means estimated). Under the null hypothesis that all population means are equal, both mean squares estimate the same population variance σ², so F should be approximately 1. When at least one group mean genuinely differs, MS_Between inflates — the group mean differences add to the between-group variance — while MS_Within stays anchored to within-group noise. A large F-ratio therefore signals that group means differ more than random sampling alone would predict.
+
+A significant F-test tells you "not all means are equal" but does not identify which specific groups differ. This is an existence result, not a location result. To determine which pairs of means are significantly different, you need **post-hoc tests** such as Tukey's HSD, which perform all pairwise comparisons with a correction that controls the family-wise error rate. The ANOVA framework assumes approximately normal distributions within each group, equal variances across groups (homoscedasticity), and independence of observations. The normality assumption is fairly robust for moderate sample sizes, but unequal variances can distort the F-test — Welch's ANOVA provides a correction analogous to Welch's t-test when this assumption fails.
+
 ## Questions
 
 ```yaml

@@ -26,6 +26,16 @@ Before researching a decision, ask: what would I do if I could not get any more 
 - Value of information is not the same as interestingness — fascinating information that does not change any decision has zero practical VoI.
 - The exploration-exploitation tradeoff does not have a universal solution — the optimal balance depends on time horizon, stakes, and current uncertainty.
 
+## Explainer
+
+From expected value decision-making, you know how to evaluate choices by their probability-weighted outcomes. Value of information (VoI) applies this framework to a meta-question: before you act, should you gather more information first? The answer depends on a single criterion -- whether the information could change your decision. If it cannot, its practical value is zero, no matter how interesting or accurate it might be.
+
+Consider a concrete case. You are 95% confident you should take Job A over Job B. A friend offers to introduce you to someone who works at Company B and could give you insider information. Should you spend an hour on that conversation? VoI analysis asks: what is the probability that the conversation reveals something that would flip your decision (perhaps 5%), and if it does flip, how much better is the revised decision (perhaps substantially)? If 5% times the potential gain exceeds the cost of one hour, the conversation is worth having. If you are 99.9% confident and the potential gain is small, it is not worth the time -- even though the information might be genuinely interesting. This is the core lesson: **information has value only insofar as it changes what you do**.
+
+The **exploration-exploitation tradeoff** generalizes this insight. Exploration means trying new options and gathering data -- visiting a new restaurant, experimenting with a new approach at work, reading in an unfamiliar field. Exploitation means acting on your current best knowledge -- returning to a restaurant you know is excellent, applying proven methods, doubling down on what works. Exploration has information value (you might discover something better) but carries opportunity cost (you forgo the known good option). Exploitation captures immediate value but risks missing superior alternatives you never investigated.
+
+The optimal balance shifts with your **time horizon and current uncertainty**. When you have many decisions ahead -- you just moved to a new city and will eat thousands of meals there -- exploration is highly valuable because every piece of information you gather pays off across all future decisions. When your horizon is short -- it is your last night in town -- exploitation makes sense because there are no future decisions to benefit from new information. Similarly, when uncertainty is high (you know little about local restaurants), exploration has more room to produce valuable discoveries than when uncertainty is low (you have already tried most places and have clear favorites). Recognizing where you sit on this spectrum -- and adjusting your explore/exploit ratio accordingly -- is one of the most broadly applicable insights from decision theory.
+
 ## Questions
 
 ```yaml

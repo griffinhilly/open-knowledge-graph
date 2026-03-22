@@ -29,6 +29,16 @@ Practice noticing the difference between "I believe X" and "X is true." When you
 - Having a simpler map is not always better — an oversimplified map that misses critical features is worse than a complex map that captures them.
 - This is not just a metaphor — it is a practical framework for debugging beliefs when predictions fail.
 
+## Explainer
+
+From epistemic vs. instrumental rationality, you know that accurate beliefs serve effective action -- that having a mental model aligned with reality is foundational to achieving your goals. The map-and-territory distinction, drawn from Alfred Korzybski and central to the Rationalist tradition, makes this relationship precise: your beliefs are representations of reality, not reality itself. The map is not the territory. When your predictions fail, the map is wrong, not the territory.
+
+This sounds obvious when stated abstractly, but map-territory confusion is pervasive in practice. A financial analyst builds a model predicting strong performance for an investment. When it performs poorly, she argues that "the market was irrational" and her analysis was fundamentally correct. This is treating the map (her model) as more authoritative than the territory (actual market behavior). The rational response when the territory contradicts your map is to update the map -- not to argue that reality should have conformed to your predictions. The territory does not change to match your beliefs; your beliefs should change to match the territory.
+
+Map-territory confusion also manifests as **Goodhart's Law**: when a measure becomes a target, it ceases to be a good measure. A company measures software developer productivity by lines of code per day. The metric was originally designed to track the territory (useful output), but when it becomes the optimization target, developers write verbose, redundant code to hit the number. The map (lines of code) has diverged from the territory (working software), and the organization is optimizing the proxy rather than the real goal. Similar examples abound: confusing grades with learning, stock price with company health, body weight with fitness, GDP with national wellbeing. In each case, the metric was a useful simplification of reality until someone started treating it as reality itself.
+
+The practical framework that emerges from this distinction is: **when your predictions fail, ask which part of your map was wrong**. This is the core debugging operation for beliefs. A good map does not need to capture every detail of reality -- maps are useful precisely because they simplify. But a good map must reliably predict observations and must not systematically mislead. An oversimplified map that misses critical features fails at its job, while a complex map that accurately represents the relevant terrain succeeds. The goal is not maximizing simplicity or maximizing detail but maximizing the map's ability to guide you through the territory you actually need to navigate. This is what makes map-and-territory not just a metaphor but a practical framework: it tells you how to respond when the world surprises you, and that response -- update the map -- is the foundation of all rational belief revision.
+
 ## Questions
 
 ```yaml

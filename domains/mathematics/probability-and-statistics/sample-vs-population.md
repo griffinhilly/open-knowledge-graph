@@ -35,6 +35,16 @@ Ground the distinction in concrete scenarios: a Gallup poll samples ~1000 people
 - Confusing the sample statistic (e.g., sample mean x̄) with the population parameter (μ).
 - Assuming any sample is automatically representative.
 
+## Explainer
+
+The distinction between a **population** and a **sample** is the foundation of all statistical inference. The population is the entire group you want to understand — all registered voters in the United States, every lightbulb produced by a factory, the complete set of measurements a sensor could generate. The sample is the subset you actually observe. Because studying every member of a population is usually impossible (too expensive, too time-consuming, or physically inaccessible), statistics uses the sample to draw conclusions about the population. This leap from observed data to unobserved truth is what makes statistics both powerful and perilous.
+
+The quality of any inference depends critically on **how the sample was selected**. A **random sample** gives every member of the population an equal (or known) chance of being included, so the sample's composition tends to reflect the population's. A **biased sample** systematically over-represents or under-represents certain subgroups, producing estimates that are consistently off in one direction. The classic cautionary tale is the 1936 Literary Digest poll, which surveyed 2.4 million people and predicted the wrong presidential winner. Its sampling frame — telephone directories and automobile registrations — over-represented wealthier households, introducing systematic bias that no amount of additional data could fix. A much smaller random sample by Gallup correctly predicted the outcome.
+
+This illustrates a subtle but critical point: **sample size and sampling method solve different problems**. A larger sample reduces **sampling error** — the random fluctuation between any sample and the true population value. But it does nothing to reduce **bias** — the systematic distortion caused by a flawed selection method. Doubling the size of a biased sample just gives you a more precise estimate of the wrong thing. Conversely, a well-designed random sample of modest size can produce remarkably accurate estimates. National polls routinely estimate the opinions of hundreds of millions of people from samples of about 1,000 — and the mathematical framework of sampling distributions explains why this works.
+
+The language of statistics formalizes the distinction with parallel notation. **Population parameters** — the true values you want to know — are denoted by Greek letters: μ for the population mean, σ for the population standard deviation, p for a population proportion. **Sample statistics** — the values you compute from observed data — are denoted by Roman letters: x̄ for the sample mean, s for the sample standard deviation, p̂ for a sample proportion. The entire enterprise of inferential statistics is about using sample statistics to estimate, test hypotheses about, and construct confidence intervals for the corresponding population parameters. Keeping the two conceptually separate — what you know (the sample) versus what you want to know (the population) — is the first discipline of statistical thinking.
+
 ## Questions
 
 ```yaml

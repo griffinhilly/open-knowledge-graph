@@ -30,6 +30,16 @@ Show f(x) = x is uniformly continuous but f(x) = x² is not on ℝ (though it is
 - Thinking uniform continuity at a point makes sense; it's a property of a function on a set.
 - Assuming every continuous function is uniformly continuous; f(x) = x² on ℝ is a counterexample.
 
+## Explainer
+
+From your study of ε-δ continuity, you know what it means for a function f to be continuous at a single point x₀: for every ε > 0, there exists δ > 0 such that |x − x₀| < δ implies |f(x) − f(x₀)| < ε. The δ you find typically depends on both ε and the particular point x₀. **Uniform continuity** strengthens this by demanding that a single δ works at all points simultaneously. Formally, f is uniformly continuous on a set S if: for every ε > 0, there exists δ > 0 such that for all x, y ∈ S, |x − y| < δ implies |f(x) − f(y)| < ε. The δ depends only on ε, not on the location within S.
+
+The distinction is about how the "required δ" varies across the domain. For f(x) = x on ℝ, continuity is trivially uniform: choosing δ = ε works everywhere, because |f(x) − f(y)| = |x − y| < δ = ε. The function's "rate of change" is constant (slope 1), so the same δ suffices at every point. For f(x) = x² on ℝ, the situation is different. To ensure |x² − y²| = |x + y||x − y| < ε when |x − y| < δ, you need δ < ε/|x + y|. As x grows, |x + y| ≈ 2|x| grows without bound, forcing the required δ toward 0. No single δ can work for all x ∈ ℝ simultaneously, so f(x) = x² is continuous but not uniformly continuous on ℝ.
+
+The same function can be uniformly continuous on one domain but not another. f(x) = 1/x is not uniformly continuous on (0, 1) — near x = 0, the function grows arbitrarily steep, and any proposed δ fails for sufficiently small x. But on [1, ∞), the slope |f'(x)| = 1/x² ≤ 1 is bounded, so δ = ε works everywhere by the mean value theorem. The key structural fact is the **Heine-Cantor theorem**: every continuous function on a compact set is uniformly continuous. Since [a, b] is compact and (0, 1) is not, the theorem explains why continuity on [a, b] automatically upgrades to uniform continuity, while continuity on open or unbounded domains need not.
+
+Uniform continuity matters because it is the condition needed to guarantee that function-level operations behave well. The proof that continuous functions on [a, b] are Riemann integrable relies on uniform continuity: it lets you choose a single mesh size δ for the partition that controls the oscillation of f on every subinterval simultaneously. Without uniform continuity, you would need finer and finer partitions in different parts of the domain, and the integral might not exist. Similarly, uniform continuity is the hypothesis (stronger than pointwise continuity) that ensures certain limits can be interchanged with integration. Understanding when continuity is automatically uniform — and when it is not — is one of the key practical skills in real analysis.
+
 ## Questions
 
 ```yaml

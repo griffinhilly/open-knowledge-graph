@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - human-rights
 - universal-morality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

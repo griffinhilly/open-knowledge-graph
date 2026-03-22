@@ -31,6 +31,16 @@ Compare Riemann and Lebesgue expectations. Work examples where exchanging limits
 ## Common Misconceptions
 - Thinking Riemann and Lebesgue integrals always coincide; they differ on sets of measure zero. - Assuming E[lim Xₙ] = lim E[Xₙ] without verifying conditions. - Forgetting that X must be integrable; finite mean is not automatic.
 
+## Explainer
+
+In your earlier study of expected value, you learned two formulas: E[X] = Σ xᵢ P(X = xᵢ) for discrete random variables and E[X] = ∫ x f(x) dx for continuous ones with a density. These work well in their respective settings, but they are fundamentally different formulas — and they leave out important cases. The **Cantor distribution** has no point masses and no density function; neither formula applies. Mixtures of discrete and continuous components require awkward case-splitting. The measure-theoretic definition E[X] = ∫_Ω X dP provides a single unified framework that handles all cases — discrete, continuous, singular, and mixed — under one integral sign.
+
+The integral ∫_Ω X dP is a **Lebesgue integral** with respect to the probability measure P. It is constructed in stages: first for simple (step) functions, where the integral is a finite weighted sum; then for non-negative measurable functions, using the supremum over all simple functions below; and finally for general integrable functions by writing X = X⁺ − X⁻ (positive and negative parts) and defining ∫ X dP = ∫ X⁺ dP − ∫ X⁻ dP, provided at least one of these is finite. When both ∫ X⁺ dP and ∫ X⁻ dP are infinite, the expectation is undefined — you cannot subtract ∞ from ∞. This is why **integrability** (E[|X|] < ∞) must be verified: it guarantees both parts are finite and the expectation is a well-defined real number.
+
+The two great convergence theorems govern when you can interchange limits and expectations. The **Monotone Convergence Theorem** (MCT) says: if 0 ≤ X₁ ≤ X₂ ≤ ⋯ and Xₙ → X pointwise, then E[Xₙ] → E[X], even if E[X] = ∞. The hypotheses are minimal — non-negativity and monotonicity. The **Dominated Convergence Theorem** (DCT) says: if Xₙ → X almost surely and |Xₙ| ≤ g for all n where E[g] < ∞, then E[Xₙ] → E[X] and moreover E[|Xₙ − X|] → 0. The dominating function g provides a uniform bound that prevents the tails of the Xₙ from carrying runaway mass. Without such a bound, the interchange can fail spectacularly — Xₙ = n · 𝟏_{(0,1/n)} converges to 0 pointwise, yet E[Xₙ] = 1 for all n.
+
+These tools are not abstract luxuries — they are the engine behind nearly every computation in rigorous probability. The MCT is used to prove Fatou's lemma, which in turn underpins the proof of the DCT. The DCT justifies differentiation under the integral sign in moment-generating functions, the interchange of summation and integration in discrete/continuous mixtures, and the passage to limits in characteristic function arguments. Whenever you see "and by dominated convergence" in a proof, the author is invoking this theorem to justify swapping a limit and an expectation — a step that requires a domination hypothesis and is not valid in general.
+
 ## Questions
 
 ```yaml

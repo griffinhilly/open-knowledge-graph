@@ -31,6 +31,16 @@ Practice with the classic medical diagnosis example: a test with 99% sensitivity
 - A high likelihood ratio does not mean the hypothesis is probably true — it depends on the prior. A likelihood ratio of 100 applied to a prior of 1 in a million still yields a tiny posterior.
 - Likelihood ratios are not the same as the probability of the hypothesis given the evidence — that is the posterior, which combines the ratio with the prior.
 
+## Explainer
+
+From Bayesian thinking in practice, you know the habit of updating beliefs on evidence. From Bayes' theorem, you know the formula: P(H|E) = P(E|H) x P(H) / P(E). Likelihood ratios are the engine that makes this machinery intuitive rather than formulaic. Once you understand them, Bayesian updating becomes something you can do in your head, in real time, for everyday reasoning.
+
+The **likelihood ratio** for a piece of evidence is simply: how much more likely is this evidence if my hypothesis is true than if it is false? Formally, LR = P(E|H) / P(E|not-H). A likelihood ratio of 10 means the evidence is 10 times more expected under the hypothesis than under the alternative -- a strong update toward H. A ratio of 1 means the evidence is equally likely either way -- no update at all. A ratio of 0.1 means the evidence is 10 times more expected if the hypothesis is false -- a strong update against H. The beauty of this formulation is that it separates the evidence's diagnostic power from your prior beliefs. The likelihood ratio tells you how much to shift; your prior tells you where you started. Together they determine where you end up.
+
+Consider the classic medical diagnosis example. A test has 99% sensitivity (it catches 99% of true cases) and a 5% false positive rate. The likelihood ratio for a positive test is 99/5 = roughly 20. For a disease with a 1% base rate, your prior odds are 1:99. A positive test multiplies those odds by 20, giving posterior odds of 20:99, or about 17% probability of disease. This is far from the 99% that the test's "accuracy" might suggest -- and the likelihood ratio framework makes it immediately clear why. The test is good (LR of 20 is a strong update), but the prior is low (1:99 odds), and the prior has not been overcome. Without likelihood ratios, this result is counterintuitive and frequently miscalculated; with them, it is transparent.
+
+The **log-odds** representation makes multi-evidence updating even more natural. In log-odds, Bayesian updating becomes simple addition: log-odds(posterior) = log-odds(prior) + log(LR1) + log(LR2) + ... . Each piece of evidence contributes an additive term. Weak evidence (log-LR near 0) barely shifts the sum; strong evidence (large log-LR) moves it substantially. Opposing pieces of evidence cancel. You can see at a glance how many weak pieces of evidence it takes to equal one strong one, and how a strong prior (large negative or positive log-odds) resists movement from moderate evidence. This additive structure is not just computational convenience -- it reflects the genuine way evidential weight accumulates, and it makes the relationship between evidence strength and belief change immediately legible.
+
 ## Questions
 
 ```yaml

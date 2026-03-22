@@ -27,6 +27,16 @@ Compare convergence in a metric space with convergence in the cofinite topology 
 ## Common Misconceptions
 Students often assume sequential convergence fully determines the topology. This holds in metric and first-countable spaces but fails in general. Also, a sequence can have multiple limits in non-Hausdorff spaces—this is a feature of the topology, not an error.
 
+## Explainer
+
+A sequence (xₙ) in a topological space X **converges** to a point x if for every open set U containing x, there exists a natural number N such that xₙ ∈ U for all n ≥ N. In words: the sequence eventually enters and stays inside every open neighborhood of x. This generalizes the ε-ball definition from metric spaces — in a metric space, "every open set containing x" can be replaced by "every ball B(x, ε)," recovering the familiar condition d(xₙ, x) < ε for all sufficiently large n. But in a general topological space, there may be no metric, so the open-set formulation is the primitive definition.
+
+A striking difference from metric spaces is that limits need not be unique. In the cofinite topology on an infinite set X, every open neighborhood of any point x has finite complement — so it contains all but finitely many elements of X. This means that any sequence of distinct points is eventually inside every neighborhood of every point, so it converges to every point simultaneously. Uniqueness of limits requires the **Hausdorff axiom** (T₂): if distinct points x and y have disjoint open neighborhoods U and V, then a sequence cannot eventually be in both, forcing at most one limit. In non-Hausdorff spaces, the failure of limit uniqueness is a feature of the topology, not an error.
+
+Another fundamental limitation is that sequences may not suffice to characterize the topology. In metric spaces and more generally in **first-countable spaces** (where every point has a countable neighborhood base), sequences detect all topological information: a set is closed if and only if it is sequentially closed, and a function is continuous if and only if it preserves convergent sequences. But in spaces that are not first-countable — such as uncountable products with the product topology — a set can fail to be closed even though no sequence from the set converges outside it. Sequences, indexed by the countable set ℕ, cannot probe all the open neighborhoods of a point when there are uncountably many directions of approach.
+
+To handle convergence in full generality, topology employs **nets** and **filters**. A net is a generalization of a sequence where the index set is an arbitrary directed set rather than ℕ. Nets can characterize all topological properties that sequences cannot: a set is closed if and only if it contains the limits of all convergent nets from the set, and a function is continuous if and only if it preserves convergent nets. Filters provide an equivalent framework using collections of subsets instead of indexed families. In first-countable spaces, nets and filters reduce to sequences, so the more general tools are genuinely needed only beyond the first-countable setting. Understanding where sequences suffice and where they fail is a key conceptual milestone in moving from metric topology to general topology.
+
 ## Questions
 
 ```yaml

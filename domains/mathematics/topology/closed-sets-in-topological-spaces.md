@@ -22,6 +22,16 @@ status: draft
 ## Core Idea
 A set is closed if its complement is open; this definition generalizes the intuition from the real line where closed sets include their boundary points. Closed sets are dual to open sets and satisfy: the whole space and empty set are closed, arbitrary intersections of closed sets are closed, and finite unions are closed.
 
+## Explainer
+
+In a topological space (X, τ), a set C is **closed** if its complement X \ C is an open set — that is, X \ C ∈ τ. This definition derives entirely from the open-set structure: the topology τ specifies which sets are open, and closed sets are defined as complements of those. From your study of open sets in topological spaces, you know that τ satisfies three axioms (∅ and X belong to τ, arbitrary unions of τ-members belong to τ, finite intersections of τ-members belong to τ). Closed sets inherit a dual set of axioms via De Morgan's laws.
+
+The closed-set axioms are: (1) ∅ and X are closed (since their complements X and ∅ are open). (2) Arbitrary intersections of closed sets are closed — because the complement of an arbitrary intersection is an arbitrary union of open sets. (3) Finite unions of closed sets are closed — because the complement of a finite union is a finite intersection of open sets. The union/intersection duality is important: open sets allow arbitrary unions but only finite intersections; closed sets allow arbitrary intersections but only finite unions. A standard counterexample shows that infinite unions of closed sets need not be closed: in ℝ, each singleton {1/n} is closed, but ∪{1/n : n ∈ ℕ} = {1, 1/2, 1/3, ...} is not closed because 0 is a limit point not in the set.
+
+A key conceptual point is that "open" and "closed" are not mutually exclusive. A set can be both open and closed — such sets are called **clopen**. In every topology, ∅ and X are clopen. In a connected space these are the only clopen sets, but in a disconnected space nontrivial clopen sets exist and in fact witness the disconnection. A set can also be neither open nor closed: in ℝ, the interval [0, 1) is neither (its complement (−∞, 0) ∪ [1, ∞) is not open, so [0, 1) is not closed; and [0, 1) is not in the standard topology, so it is not open). The four possibilities — open only, closed only, both, neither — all occur in practice.
+
+The definition of closed sets by complement may seem indirect, but it reflects a deliberate design choice in topology. The open sets are the primitive objects, specified by the axioms. Everything else — closed sets, closure, interior, continuity — is derived from them. This makes the theory economical: you do not need separate axioms for closed sets, because they follow automatically from the open-set axioms via complementation. Every theorem about open sets has a dual theorem about closed sets, obtained by replacing "open" with "closed," "union" with "intersection," and vice versa. This open/closed duality is one of the organizing principles of point-set topology.
+
 ## Questions
 
 ```yaml

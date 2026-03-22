@@ -12,7 +12,7 @@ tags:
 - philosophy
 - nature
 - daoism
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

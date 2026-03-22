@@ -37,6 +37,16 @@ Construct deliberately bizarre-but-valid arguments ('All cats are made of cheese
 - Thinking a valid argument with a false conclusion is a contradiction — it just means at least one premise is false.
 - Confusing 'sound' with 'persuasive'; a sound argument may fail to convince, and a persuasive argument may be unsound.
 
+## Explainer
+
+From your study of deductive reasoning, you know that deductive arguments aim to show that their conclusions follow necessarily from their premises — that if the premises are true, the conclusion cannot be false. **Validity** and **soundness** are the two concepts that make this aim precise. They are the most important distinction in formal logic, and confusing them is the single most common source of error in evaluating arguments.
+
+An argument is **valid** if it is impossible for all its premises to be true while its conclusion is false. Validity is entirely a structural property — it concerns the logical relationship between premises and conclusion, not whether any of the statements involved are actually true. The argument "All cats are made of cheese; Socrates is a cat; therefore Socrates is made of cheese" is perfectly valid: the conclusion follows necessarily from the premises. Both premises are absurdly false, and the conclusion is false, but the argument's logical form is impeccable. If you could somehow make those premises true, the conclusion would have to be true as well. Validity asks a conditional question — "if the premises held, could the conclusion fail?" — and the actual truth of the premises is irrelevant to the answer.
+
+An argument is **sound** if it is valid AND all of its premises are actually true. Soundness is the gold standard for deductive arguments because it guarantees a true conclusion: the premises are true (by the truth condition) and the conclusion cannot be false when the premises are true (by the validity condition). Together these entail that the conclusion is true. Every sound argument produces a true conclusion, but not every valid argument with a true conclusion is sound — the premises might be false while the conclusion happens to be true by coincidence. "All mammals are mortal; Socrates is a tree; therefore Socrates is mortal" is valid with a true conclusion and a false second premise. The conclusion's truth is accidental relative to the argument's logical structure.
+
+The practical payoff of this distinction is a two-step evaluation method for any deductive argument. First, assess validity: does the conclusion follow from the premises? You can test this by asking whether there is any possible scenario in which all premises are true and the conclusion is false — if so, the argument is invalid regardless of what the premises actually say. Second, assess the actual truth of each premise independently. Only if both tests pass — valid form and true premises — does the argument establish its conclusion. This separation is what makes formal logic rigorous: it prevents you from accepting an argument just because its conclusion sounds right (it might be unsound despite being valid) and prevents you from rejecting an argument just because its premises are bizarre (it might be valid despite containing falsehoods).
+
 ## Questions
 
 ```yaml

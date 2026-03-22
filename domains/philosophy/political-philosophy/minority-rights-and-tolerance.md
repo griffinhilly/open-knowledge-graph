@@ -16,7 +16,7 @@ tags:
 - tolerance
 - justice
 - equality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

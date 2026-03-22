@@ -22,6 +22,16 @@ status: draft
 ## Core Idea
 A sequence of functions (fₙ) converges pointwise to f on a set S if for every x in S and every ε > 0, there exists N (depending on both ε and x) such that for all n > N, |fₙ(x) − f(x)| < ε. Pointwise convergence is the basic notion but can behave pathologically: limits of continuous functions need not be continuous.
 
+## Explainer
+
+From your study of ε-N convergence for sequences of real numbers, you know what it means for a sequence aₙ to converge to a limit L: for every ε > 0, there exists N such that n > N implies |aₙ − L| < ε. **Pointwise convergence of function sequences** applies this same idea at each point of the domain independently. Given a sequence of functions f₁, f₂, f₃, ... defined on a set S, for each fixed x ∈ S the values f₁(x), f₂(x), f₃(x), ... form an ordinary sequence of real numbers. If that numerical sequence converges for every x ∈ S, we say fₙ converges pointwise to the limit function f, where f(x) = lim_{n→∞} fₙ(x).
+
+The formal definition makes the structure explicit: for every x ∈ S and every ε > 0, there exists N (depending on both ε and x) such that n > N implies |fₙ(x) − f(x)| < ε. The dependence of N on x is the defining feature. At some points, convergence may be fast (small N suffices); at others, it may be agonizingly slow (enormous N required). The definition places no constraint on how N varies across x — each point converges at its own pace.
+
+The canonical example is fₙ(x) = xⁿ on [0, 1]. For any fixed x ∈ [0, 1), since |x| < 1, xⁿ → 0 as n → ∞. At x = 1, however, 1ⁿ = 1 for all n. The pointwise limit is therefore f(x) = 0 for x ∈ [0, 1) and f(1) = 1 — a discontinuous function, even though every fₙ is continuous. This is the central warning about pointwise convergence: **the limit of a sequence of continuous functions need not be continuous**. The convergence at points near x = 1 is extremely slow (for x = 0.999, you need n on the order of thousands for xⁿ to be small), and this non-uniform rate of convergence allows the limit to develop a discontinuity.
+
+This pathological behavior is what motivates **uniform convergence**, the stronger notion where a single N works for all x simultaneously (N depends only on ε, not on x). Uniform convergence preserves continuity, commutes with integration, and under appropriate hypotheses commutes with differentiation — none of which pointwise convergence guarantees. The passage from pointwise to uniform convergence is one of the key conceptual advances of real analysis: it identifies exactly how much control over convergence speed is needed to ensure that the limit inherits the analytic properties of the approximating functions.
+
 ## Questions
 
 ```yaml

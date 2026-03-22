@@ -11,7 +11,7 @@ tags:
 - credibility
 - attribution
 - sources
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - consumer theory
 - income effects
 - goods classification
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - causation
 - explanation
 - historical-thinking
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

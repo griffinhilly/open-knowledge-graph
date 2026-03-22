@@ -167,9 +167,12 @@ Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
   - Dialectic-reviewed: geology prereqs, music staging, anatomy prereq direction
 - [x] Stage inversion cascade fix (5,979 promotions across 8 passes)
   - Eliminated radial ordering violations caused by stage misassignment
-- [x] Stage assignment audit + fix: 107 high-confidence mis-staged topics fixed across 6 courses
-  - theory-of-computation (32), cell-biology (26), research-methods-psychology (23), oceanography (17), thermodynamics (4), 1st-grade math (5)
-  - ~154 medium/low-confidence topics remain (separate pass needed)
+- [x] Stage assignment audit + fix: 181 mis-staged topics fixed across 14 courses
+  - 107 high-confidence (Mar 21): theory-of-computation (32), cell-biology (26), research-methods-psychology (23), oceanography (17), thermodynamics (4), 1st-grade math (5)
+  - 61 high-confidence (Mar 22): microeconomics (14), historical-methods (11), political-philosophy (9), logic-and-critical-thinking (6), public-speaking (7), ancient-civilizations (9), music-theory-fundamentals (5)
+  - 13 dialectic-decided (Mar 22): 1-1-1 Opus dialectic reviewed 32 borderline topics → 13 restaged, 20 kept as on-ramps
+- [x] Missing explainers filled: 130 topics across math (45), music (41), philosophy (43), physics (1) — Opus 4.6 generation
+  - All 13,518 topics now have both Questions and Explainer sections (100% coverage)
 - [ ] Promote draft topics to validated (content validated, decision deferred)
 - [ ] Add assessment generation to GitHub Actions workflow
 - [ ] Write announcement post

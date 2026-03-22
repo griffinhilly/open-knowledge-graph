@@ -23,6 +23,16 @@ status: draft
 ## Core Idea
 A set S is connected if it cannot be written as S = U ∪ V where U and V are non-empty, disjoint, open sets (in the subspace topology). In ℝ, intervals and rays are exactly the connected sets. Continuous images of connected sets are connected, leading directly to the Intermediate Value Theorem.
 
+## Explainer
+
+From your study of open and closed sets on the real line, you know how to classify subsets of ℝ by their topological properties. **Connectedness** captures a different property: whether a set is "all in one piece" or can be separated into two disjoint parts with no points of contact. Formally, a set S ⊆ ℝ is **disconnected** if it can be written as S = U ∪ V where U and V are non-empty, disjoint, and both open in the subspace topology on S. If no such separation exists, S is **connected**. The definition is topological — it depends on the subspace topology, not on any metric or algebraic structure.
+
+The complete characterization of connected subsets of ℝ is elegant: **a subset of ℝ is connected if and only if it is an interval** (where single points, rays, and the empty set count as degenerate intervals). The forward direction is intuitive: if S is not an interval, there exist points a, b ∈ S with some c between them satisfying c ∉ S. Then U = S ∩ (−∞, c) and V = S ∩ (c, ∞) provide a separation. The reverse direction — showing that every interval is connected — requires a proof by contradiction using the completeness of ℝ. The key step uses the least upper bound property to show that any supposed separation of an interval must fail.
+
+The most important theorem involving connectedness is that **continuous images of connected sets are connected**. If f : S → ℝ is continuous and S is connected, then f(S) is connected — hence an interval. This immediately yields the **Intermediate Value Theorem**: if f is continuous on [a, b] and y lies between f(a) and f(b), then y ∈ f([a, b]) because f([a, b]) is an interval (a connected subset of ℝ contains every value between any two of its elements). This is arguably the cleanest proof of the IVT — it reduces the theorem to two facts: intervals are connected, and continuous functions preserve connectedness.
+
+The subspace topology is essential to the definition and a source of common confusion. The set {0, 1} is disconnected because {0} = {0, 1} ∩ (−1/2, 1/2) and {1} = {0, 1} ∩ (1/2, 3/2) are both open in the subspace topology, even though neither is open in ℝ. Similarly, ℝ \ {0} = (−∞, 0) ∪ (0, ∞) is disconnected — removing a single point from ℝ creates a gap that separates the line into two open pieces. In higher dimensions, removing a point from ℝ² does not disconnect it (you can go around the hole), which shows that connectedness is sensitive to the ambient space and dimension. In ℝ, however, the equivalence "connected ⟺ interval" gives a complete and concrete answer.
+
 ## Questions
 
 ```yaml

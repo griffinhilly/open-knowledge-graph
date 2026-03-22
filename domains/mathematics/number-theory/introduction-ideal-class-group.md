@@ -26,6 +26,16 @@ Work through ℤ[√−5], where 6 = 2 · 3 = (1+√−5)(1−√−5) shows fac
 ## Common Misconceptions
 The class group is not about individual elements failing to factor—it is about the global structure of ideals. Students sometimes think unique factorization fails "everywhere" when h > 1, but many elements still factor uniquely; it is the exceptions that the class group quantifies.
 
+## Explainer
+
+From your study of the failure of unique factorization, you know that some rings of algebraic integers do not behave like ℤ. In ℤ[√−5], the equation 6 = 2 · 3 = (1 + √−5)(1 − √−5) gives two genuinely distinct factorizations into irreducibles — the ring is not a unique factorization domain. The **ideal class group** is the algebraic object that measures exactly how badly unique factorization fails. It does not just say "factorization is broken" — it quantifies the structural obstruction and organizes it into a group.
+
+The key insight from your study of ideals is that while elements may not factor uniquely, **ideals always do** in a Dedekind domain (which every ring of algebraic integers is). In ℤ[√−5], the ideals (2), (3), (1 + √−5), and (1 − √−5) are not prime ideals, but each can be factored uniquely into products of prime ideals. For instance, (2) = 𝔭₁² where 𝔭₁ = (2, 1 + √−5) is a prime ideal. The passage from elements to ideals restores unique factorization — the problem is not that factorization is impossible, but that it happens at the level of ideals rather than elements.
+
+Two fractional ideals I and J are declared **equivalent** if I = αJ for some nonzero element α of the field — that is, they differ by multiplication by a principal ideal. The equivalence classes form a group under ideal multiplication, called the **ideal class group** Cl(K). The identity element is the class of principal ideals (those of the form (α) for some element α). The **class number** h(K) = |Cl(K)| counts how many equivalence classes there are. The critical fact is: h(K) = 1 if and only if every ideal is principal, which happens if and only if the ring is a PID, which for Dedekind domains is equivalent to being a UFD. So h(K) = 1 is the precise algebraic condition for unique factorization to hold.
+
+For ℤ[√−5], the class group is ℤ/2ℤ, so h = 2. There are exactly two ideal classes: the principal ideals and one non-trivial class represented by 𝔭₁ = (2, 1 + √−5). The non-unique factorization of 6 is a direct consequence: the prime ideal factorization of (6) passes through non-principal ideals, so the factorization at the ideal level cannot be "lifted" to a unique factorization at the element level. Computing class numbers for specific number fields — using Minkowski's bound to reduce the computation to finitely many ideals — is one of the central practical tasks of algebraic number theory and connects to deep results including the analytic class number formula involving L-functions.
+
 ## Questions
 
 ```yaml

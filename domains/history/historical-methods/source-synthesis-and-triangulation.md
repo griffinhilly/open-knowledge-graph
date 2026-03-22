@@ -15,7 +15,7 @@ tags:
 - synthesis
 - evidence
 - triangulation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 # Synthesizing Multiple Sources and Triangulating Evidence

@@ -34,6 +34,16 @@ Start with low-stakes predictions: estimate the probability of everyday events (
 - Being Bayesian does not mean being wishy-washy — strong evidence warrants strong updates and confident beliefs.
 - Bayesian reasoning is not just for scientific hypotheses — it applies to everyday decisions like which route to take or whether to trust a claim.
 
+## Explainer
+
+Your prerequisites introduced Bayesian epistemology as a formal theory -- credences must satisfy the probability axioms, and updates must follow conditionalization -- and Bayes' theorem as a mathematical formula for computing posterior probabilities. Bayesian thinking in practice takes these abstract principles and converts them into daily cognitive habits. The goal is not to walk around with a calculator, but to develop an intuitive feel for how strongly different types of evidence should move your beliefs, and to actually move them rather than anchoring to your original position.
+
+The first habit is translating vague verbal confidence into rough numerical probabilities. "I'm pretty sure" might mean 80%; "I doubt it" might mean 20%. This translation matters because verbal hedges are ambiguous -- one person's "fairly confident" is another's "slightly more likely than not" -- while numbers are precise and trackable. When you say "I'm 80% confident the restaurant will be good," you have created a testable prediction. Over time, you can check: of the things I rated at 80%, was I right about 80% of them? This feedback loop is how Bayesian thinking becomes a self-correcting practice rather than a one-time insight.
+
+The second habit is noticing when evidence arrives that should update your estimate, and then actually updating. In everyday life, evidence arrives constantly -- a friend's recommendation, a news article, an unexpected observation -- but most people either ignore it (anchoring to their prior) or overreact to it (treating one vivid data point as decisive). Bayesian thinking provides a middle path: ask how much more likely this evidence is under your hypothesis than under the alternative, and shift your confidence proportionally. A trusted friend saying the restaurant is excellent is moderately strong evidence; five critical reviews from strangers is also evidence, but its weight depends on how diagnostic anonymous reviews are. You do not need exact numbers -- "about three times more likely if the restaurant is good" is sufficient for a directional update.
+
+The third habit, and the one that ties everything together, is calibration -- ensuring that your stated confidence matches your empirical accuracy. A well-calibrated Bayesian thinker who says "70% confident" is right about 70% of the time at that confidence level. Calibration is not about being uncertain about everything; strong evidence warrants strong beliefs, sometimes above 99%. The goal is matching your confidence to what the evidence actually supports, neither under-updating out of false modesty nor over-updating out of excitement. This is what distinguishes practical Bayesian reasoning from both naive overconfidence and performative humility.
+
 ## Questions
 
 ```yaml

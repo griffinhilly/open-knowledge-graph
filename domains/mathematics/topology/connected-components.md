@@ -27,6 +27,16 @@ Draw examples: identify the components of the real line minus a few points, then
 ## Common Misconceptions
 Students often assume connected components must be open—they are always closed but not necessarily open. Also, path-components and connected components can differ; path-connectedness is strictly stronger than connectedness.
 
+## Explainer
+
+Given a topological space X, the **connected component** of a point x is the largest connected subset of X that contains x. Formally, it is the union of all connected subsets of X that contain x. Since any union of connected sets sharing a common point is connected, this union is itself connected and is maximal: no strictly larger connected subset of X contains x. Every point of X belongs to exactly one connected component, and distinct connected components are disjoint, so the connected components **partition** X into maximal connected pieces.
+
+Connected components are always **closed** sets. To see why: the closure of a connected set is connected, so if C is the connected component of x, then the closure cl(C) is a connected set containing x. By maximality of C, we must have cl(C) ⊆ C, which means C = cl(C) — the component is closed. However, connected components are not necessarily open. In the rational numbers ℚ with the subspace topology from ℝ, every connected component is a single point (since between any two rationals lies an irrational, allowing a disconnection). These singletons are closed but not open in ℚ. Components are guaranteed to be open only when the space is **locally connected** — a separate condition beyond basic connectedness.
+
+The component decomposition reveals the global structure of a space at a coarse level. A space is connected if and only if it has exactly one component. The real line minus two points, ℝ \ {0, 1}, has three components: (−∞, 0), (0, 1), and (1, ∞). At the other extreme, a **totally disconnected** space like the Cantor set has every component equal to a single point — the space is maximally fragmented. The number and nature of connected components form a topological invariant: homeomorphic spaces have the same component structure.
+
+It is important to distinguish connected components from **path-components**. The path-component of x is the set of all points that can be joined to x by a continuous path. Every path-component is contained in a connected component, and in most familiar spaces (manifolds, CW complexes, locally path-connected spaces) the two notions coincide. But they can diverge: the topologist's sine curve — the closure of the graph of sin(1/x) for x > 0 — is connected (one connected component) but has two path-components, because no continuous path can cross the infinitely oscillating accumulation at the y-axis. This distinction matters in algebraic topology, where path-connectedness rather than connectedness is typically the relevant condition.
+
 ## Questions
 
 ```yaml

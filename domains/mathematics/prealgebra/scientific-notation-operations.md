@@ -31,6 +31,16 @@ Have students practice multiplication and division separately before mixing oper
 - Multiplying the exponents instead of adding them when multiplying numbers in scientific notation.
 - Forgetting to re-adjust the coefficient when the product or quotient falls outside [1, 10) — for example, leaving an answer as 12 × 10⁵ instead of converting to 1.2 × 10⁶.
 
+## Explainer
+
+You already know how to write numbers in **scientific notation**: a coefficient between 1 and 10, multiplied by a power of 10. The number 3,200,000 becomes 3.2 × 10⁶, and 0.00045 becomes 4.5 × 10⁻⁴. Now comes the payoff: performing arithmetic with these numbers. The whole point of scientific notation is that multiplying and dividing very large or very small numbers becomes manageable, because you handle the coefficient and the power of 10 separately.
+
+To **multiply** two numbers in scientific notation, multiply the coefficients and add the exponents. For example, (3 × 10⁴) × (2 × 10⁵) = (3 × 2) × 10⁴⁺⁵ = 6 × 10⁹. The exponent rule behind this is the product rule: 10ᵃ × 10ᵇ = 10^(a+b). A very common mistake is to multiply the exponents instead of adding them — that would give 10²⁰ instead of 10⁹, a wildly wrong answer. To **divide**, divide the coefficients and subtract the exponents: (8 × 10⁷) ÷ (4 × 10³) = (8 ÷ 4) × 10⁷⁻³ = 2 × 10⁴. The quotient rule 10ᵃ ÷ 10ᵇ = 10^(a−b) drives this step.
+
+After multiplying or dividing, the resulting coefficient might fall outside the required range of 1 to 10. When this happens, you **adjust** by shifting the decimal point and compensating the exponent. If (4 × 10³) × (5 × 10⁴) gives 20 × 10⁷, you rewrite 20 as 2.0 × 10¹, so the answer becomes 2.0 × 10⁸. Moving the decimal one place to the left divides the coefficient by 10, so you must multiply the power of 10 by 10 (increase the exponent by 1) to keep the value unchanged. Similarly, if a division gives 0.3 × 10⁵, rewrite as 3 × 10⁴ by shifting the decimal right and decreasing the exponent.
+
+This skill appears constantly in science and engineering. The speed of light is about 3 × 10⁸ meters per second, and a year is about 3.15 × 10⁷ seconds, so a light-year is roughly (3 × 10⁸)(3.15 × 10⁷) = 9.45 × 10¹⁵ meters — a calculation that would be painful with the full numbers (300,000,000 × 31,500,000) but straightforward in scientific notation. The two-step process — handle coefficients and exponents separately, then adjust if needed — keeps the arithmetic clean no matter how extreme the numbers are.
+
 ## Questions
 
 ```yaml

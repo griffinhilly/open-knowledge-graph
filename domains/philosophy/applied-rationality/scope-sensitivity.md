@@ -29,6 +29,16 @@ When evaluating a problem, explicitly estimate its scale before forming an emoti
 - Scope sensitivity is not about suppressing emotions — it is about ensuring that the scale of your response matches the scale of the problem.
 - Being scope-sensitive does not mean only caring about the largest problems — it means being proportionate in your concern across problems of different sizes.
 
+## Explainer
+
+From debiasing techniques, you know that specific procedural countermeasures are needed to correct cognitive biases, and that awareness alone is insufficient. Scope insensitivity is one of the most consequential biases to address, because it distorts decisions about resource allocation, charitable giving, risk assessment, and policy -- anywhere the magnitude of a problem should influence the magnitude of the response.
+
+The canonical demonstration comes from a study on willingness to pay for environmental protection. Researchers asked three groups how much they would pay to save migratory birds from drowning in oil ponds: 2,000 birds, 20,000 birds, or 200,000 birds. Willingness to pay was roughly the same across all three conditions -- about $80. A 100x difference in the scale of the problem produced almost no difference in the response. The explanation is that people's emotional reaction is driven by a **prototype** -- a vivid mental image of a single oil-soaked bird -- rather than by the quantity. The prototype is the same whether 2,000 or 200,000 birds are affected, so the emotional response (and the willingness to act) is the same. The numbers are not processed as magnitudes; they are processed as interchangeable labels on the same emotional experience.
+
+Scope sensitivity training means learning to **multiply** -- to consciously scale your concern, effort, and resources in proportion to the actual magnitude of the problem. This does not mean suppressing emotions; it means ensuring that emotional motivation is calibrated to quantitative reality. If intervention A saves 10 lives per $10,000 and intervention B saves 10,000 lives per $10,000, intervention B is 1,000 times more valuable. Scope sensitivity demands that this 1,000x difference actually influence your behavior -- not just your intellectual acknowledgment. The practical technique is to estimate the scale of a problem explicitly before forming an emotional response, and then to check whether your response is proportionate.
+
+Scope insensitivity is foundational to effective altruism because it is the primary mechanism by which donors systematically misallocate resources. Charitable giving is dominated by emotional resonance -- identifiable victims, compelling narratives, personal connections -- none of which scale with the magnitude of the problem. A donor who gives $10,000 to a local cause that produces modest benefits and $0 to a global health intervention that could save two lives is not failing at generosity; they are failing at scope. The same emotional impulse that makes them generous in the first place would, if calibrated to magnitude, direct their resources where the impact is orders of magnitude larger. This is what makes scope sensitivity not just a cognitive curiosity but a moral imperative for anyone who wants their concern for others to actually translate into proportionate action.
+
 ## Questions
 
 ```yaml

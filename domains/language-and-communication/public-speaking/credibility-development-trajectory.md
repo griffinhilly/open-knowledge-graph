@@ -16,7 +16,7 @@ tags:
 - credibility
 - persuasion
 - speaker-presence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

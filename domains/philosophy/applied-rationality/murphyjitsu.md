@@ -26,6 +26,16 @@ Before your next important meeting, trip, or project deadline, walk through your
 - Murphyjitsu is not about being paranoid — it is about systematically finding and fixing plan weaknesses before they manifest.
 - The technique does not require that you fix every possible failure mode — only the ones your gut flags as realistic.
 
+## Explainer
+
+From premortem analysis, you know that imagining a project has already failed -- and then explaining why -- surfaces risks that optimism bias and social pressure would otherwise hide. Murphyjitsu, developed by CFAR (the Center for Applied Rationality), takes this insight and adds an iterative repair loop that transforms risk identification into actual plan improvement.
+
+The technique works like this. You walk through your plan step by step, and at each step you ask a simple gut-check question: "Does this feel like the sort of step that will work, or the sort of step that will fail?" If your gut says it feels like it will fail, you stop and identify the most likely failure mode. Then -- and this is what distinguishes Murphyjitsu from a standard premortem -- you modify the plan to address that failure mode. After the modification, you ask the gut-check question again. You repeat this cycle -- identify failure, fix, re-check -- until every step passes the gut check. The name is a portmanteau of Murphy's Law ("what can go wrong will go wrong") and jujitsu (using your opponent's force to your advantage): instead of being defeated by Murphy's Law, you use it to strengthen your plan.
+
+The technique's power comes from deliberately leveraging **System 1 pattern-matching**. Your intuition, shaped by years of experience, often detects problems that your explicit reasoning has not surfaced. A plan might look coherent on paper -- every step follows logically from the last -- yet still "feel off." That gut reaction is System 1 recognizing a pattern it has seen before: a plan that resembles other plans that failed. Murphyjitsu treats this feeling as a signal worth interrogating rather than dismissing. By asking "why does this feel like it will fail?", you translate an inarticulate intuition into a specific, addressable failure mode.
+
+The practical result is a plan that has been stress-tested against your best intuitions about what typically goes wrong. Consider preparing for a conference talk. Your original plan might be: finish slides by Wednesday, do a practice run Thursday, present Friday. Murphyjitsu might surface that "finish slides by Wednesday" feels unrealistic given your other commitments (fix: block Tuesday afternoon for slides), that your practice run has no audience (fix: ask a colleague to listen), and that you have not tested the projector setup (fix: arrive 30 minutes early). Each fix is small, but the cumulative effect is a plan that accounts for the failure modes you would otherwise discover only when they materialized. The stopping criterion -- "every step passes the gut check" -- keeps the technique bounded and practical rather than spiraling into infinite risk cataloging.
+
 ## Questions
 
 ```yaml

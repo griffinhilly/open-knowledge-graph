@@ -16,7 +16,7 @@ tags:
 - criticism
 - evidence
 - methodology
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

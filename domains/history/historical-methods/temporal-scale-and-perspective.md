@@ -12,7 +12,7 @@ tags:
 - time
 - scale
 - perspective
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 # Temporal Scale and Long-Term Perspective in Historical Analysis

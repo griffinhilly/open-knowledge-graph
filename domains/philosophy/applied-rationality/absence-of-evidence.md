@@ -28,6 +28,16 @@ Work through the Bayesian math explicitly: if P(observe evidence | H true) = 0.9
 - This does not mean any absence of evidence disproves a claim — the strength depends on how strongly the claim predicted observable consequences.
 - The original saying has a grain of truth in informal contexts: sometimes we simply have not looked hard enough. But once we have looked and found nothing, that is informative.
 
+## Explainer
+
+The common saying "absence of evidence is not evidence of absence" sounds wise, but it is probabilistically wrong in most contexts where it gets invoked. If a hypothesis predicts that certain evidence should be observable, and you look carefully and do not find it, that failure to observe is genuine evidence against the hypothesis. The strength of this evidence depends on a precise quantity: how much more likely is the absence under "hypothesis false" compared to "hypothesis true"? When the hypothesis strongly predicts observable consequences, failing to observe them is a powerful update against it.
+
+Consider a concrete case. A pharmaceutical company claims its drug reduces blood pressure. Researchers run a large, well-powered clinical trial and find no statistically significant effect. The company protests: "You haven't proven it doesn't work -- absence of evidence is not evidence of absence." But this defense confuses logical proof with probabilistic evidence. If the drug actually worked, a well-designed trial would detect the effect with high probability -- say 90%. The null result is therefore much more likely if the drug is ineffective than if it is effective. By Bayes' theorem, that null result genuinely shifts probability toward "the drug does not work." The trial did not prove absence with certainty, but it provided substantial evidence of absence.
+
+The Bayesian math makes this precise. If P(evidence | H true) = 0.9 and P(evidence | H false) = 0.1, then not observing the evidence gives a likelihood ratio of P(no evidence | H false) / P(no evidence | H true) = 0.9 / 0.1 = 9, a strong update against H. Sherlock Holmes captured this intuitively with "the dog that did not bark in the night" -- if the dog would reliably bark at an intruder and the dog was silent, the silence is strong evidence that no intruder came. If the dog only sometimes barks, silence is weak evidence. The evidential weight of absence scales with how confidently the hypothesis predicts the evidence's presence.
+
+The original saying retains a grain of truth in one specific case: when you have not actually looked. If you never ran the trial, never searched the house, never checked the data, then the absence of evidence in your possession tells you nothing -- you simply have not gathered information yet. But once you have looked carefully and found nothing, that observation is informative. The distinction between "we haven't looked" and "we looked and found nothing" is the difference between ignorance and evidence. Practical Bayesian thinking requires honoring that distinction rather than hiding behind a comforting aphorism.
+
 ## Questions
 
 ```yaml

@@ -13,7 +13,7 @@ tags:
 - cross-price
 - substitutes
 - complements
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

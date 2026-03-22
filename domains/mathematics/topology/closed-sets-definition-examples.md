@@ -20,6 +20,16 @@ status: draft
 ## Core Idea
 A set F is closed if its complement X\F is open. Closed sets form the dual picture to open sets: every set is either open, closed, both, or neither. Properties: arbitrary intersections of closed sets are closed, finite unions of closed sets are closed, ∅ and X are both open and closed.
 
+## Explainer
+
+A **closed set** in a topological space (X, τ) is defined as a set whose complement is open. That is, F ⊆ X is closed if and only if X \ F ∈ τ. This definition is purely set-theoretic and relies on the topology already telling us which sets are open. From your study of open sets, you know that the topology τ is the collection of open sets satisfying the three axioms (∅ and X are open, arbitrary unions are open, finite intersections are open). Closed sets are the "dual" notion obtained by taking complements of everything in τ.
+
+The closed sets satisfy axioms that mirror those for open sets, but with unions and intersections swapped. The empty set ∅ and the whole space X are both closed (since their complements X and ∅ are both open). Arbitrary intersections of closed sets are closed — this follows from De Morgan's law, since the complement of an arbitrary intersection is an arbitrary union of open sets, which is open. Finite unions of closed sets are closed — again by De Morgan, the complement of a finite union is a finite intersection of open sets. Notice the asymmetry: arbitrary intersections of closed sets are closed, but only finite unions are guaranteed to be closed. As a counterexample to infinite unions, the sets [1/n, 1] for n = 1, 2, 3, ... are all closed in ℝ, but their union is (0, 1], which is not closed.
+
+A common source of confusion is the relationship between "open" and "closed." These are not opposites. A set can be open, closed, both, or neither. The sets ∅ and X are always both open and closed (called **clopen**). In ℝ with the standard topology, the half-open interval [0, 1) is neither open nor closed: it is not open because no open interval around 0 fits inside it, and it is not closed because its complement (−∞, 0) ∪ [1, ∞) is not open (there is no open interval around 1 contained in the complement). The four categories — open only, closed only, both, neither — all genuinely occur and are not pathological edge cases.
+
+In metric spaces, being closed is equivalent to containing all limit points: if a sequence in F converges to some point x, then x ∈ F. This is a theorem, not the definition. The definition — complement is open — is the foundational one that works in every topological space, including those with no metric. When you move beyond metric spaces, you lose the intuition of "a closed set contains its boundary points" and must fall back on the complement-based definition. This is why topology defines closed sets the way it does: the complement condition is universal, while the limit-point characterization is a consequence that holds only in sufficiently nice spaces.
+
 ## Questions
 
 ```yaml

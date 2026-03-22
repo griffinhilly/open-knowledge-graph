@@ -27,6 +27,16 @@ Work through the classic examples: ∫₁^∞ 1/xᵖ dx (converges iff p > 1), t
 ## Common Misconceptions
 Students sometimes evaluate improper integrals by plugging in ∞ directly, skipping the limit process. This can produce correct-looking answers but obscures conditional convergence issues. Also, the two limits in a doubly improper integral must be taken independently—they cannot be combined into a single symmetric limit.
 
+## Explainer
+
+The Riemann integral ∫ₐᵇ f(x) dx, as you studied it, requires both a finite interval [a, b] and a bounded integrand f. **Improper integrals** extend this framework to two situations where these conditions fail: integrating over an infinite interval (like ∫₁^∞ 1/x² dx) or integrating a function with an unbounded singularity (like ∫₀¹ 1/√x dx). In both cases, the extension is made through limits — you compute a proper Riemann integral on a truncated domain and then take a limit as the domain grows to its full extent.
+
+For integrals over infinite intervals, the definition is ∫ₐ^∞ f(x) dx = lim_{t→∞} ∫ₐᵗ f(x) dx. The integral **converges** if this limit exists and is finite; otherwise it **diverges**. The classic reference is ∫₁^∞ 1/xᵖ dx, which converges if and only if p > 1. When p = 2, the antiderivative is −1/x, and the limit gives ∫₁^∞ 1/x² dx = lim_{t→∞} (1 − 1/t) = 1. When p = 1, the antiderivative is ln(x), and lim_{t→∞} ln(t) = ∞, so the integral diverges. For integrals with singularities, a similar limit handles the blow-up: ∫₀¹ 1/xᵖ dx = lim_{ε→0⁺} ∫_ε¹ 1/xᵖ dx, which converges if and only if p < 1. The two conditions (p > 1 for infinity, p < 1 for zero) are complementary, reflecting the different nature of the two problems.
+
+A critical subtlety arises with **doubly improper** integrals like ∫₋∞^∞ f(x) dx. The definition requires two independent limits: ∫₋∞^∞ f(x) dx = lim_{s→−∞} ∫_s⁰ f(x) dx + lim_{t→∞} ∫₀ᵗ f(x) dx. Both limits must exist independently. The symmetric limit lim_{T→∞} ∫₋ᵀᵀ f(x) dx — called the **Cauchy principal value** — is a weaker notion that can give a finite answer even when the integral diverges. For f(x) = x, the principal value is 0 (by symmetry), but ∫₀^∞ x dx = ∞, so the integral diverges. Conflating the principal value with the integral is a common and serious error.
+
+The convergence theory for improper integrals closely parallels that of infinite series. **Comparison tests** work the same way: if 0 ≤ f(x) ≤ g(x) and ∫ g converges, then ∫ f converges. **Absolute convergence** (convergence of ∫ |f(x)| dx) implies convergence, but the converse fails — ∫₁^∞ sin(x)/x dx converges conditionally, meaning the oscillating cancellation produces a finite value even though ∫₁^∞ |sin(x)/x| dx diverges. This parallel is not a coincidence: both series and improper integrals are limits of accumulating quantities, and the same structural issues — decay rates, cancellation, comparison — govern convergence in both settings.
+
 ## Questions
 
 ```yaml

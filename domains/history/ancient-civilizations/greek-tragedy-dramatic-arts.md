@@ -15,7 +15,7 @@ tags:
 - theater
 - culture
 - arts
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

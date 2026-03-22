@@ -15,7 +15,7 @@ tags:
 - minor
 - construction
 - natural-minor
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

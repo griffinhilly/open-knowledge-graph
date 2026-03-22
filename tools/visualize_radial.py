@@ -583,6 +583,7 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   padding:4px 12px; cursor:pointer; font-size:13px; color:#aaa;
 }}
 #controls button:hover {{ background:#252540; color:#ddd; }}
+#controls button.active {{ background:#2a4a2a; border-color:#4a4; color:#8f8; }}
 #nav {{
   position:fixed; top:16px; left:50%; transform:translateX(-50%);
   background:rgba(8,8,15,0.9); border:1px solid #222;
@@ -643,6 +644,7 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   <button onclick="resetView()">Reset</button>
   <button onclick="zoomBtn(1.3)">+</button>
   <button onclick="zoomBtn(0.7)">&minus;</button>
+  <button id="fluencyBtn" onclick="toggleFluency()">Fluency</button>
 </div>
 <div id="tooltip"></div>
 <div id="panel"></div>
@@ -651,6 +653,7 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   <span class="count" id="searchCount"></span>
 </div>
 
+<script src="js/fluency.js"></script>
 <script>
 const data = {graph_json};
 const canvas = document.getElementById("canvas");
@@ -684,6 +687,39 @@ const edgeData = data.edges.map(e => ({{
 let camX = 0, camY = 0, camScale = 1;
 function resetView() {{ camX = 0; camY = 0; camScale = 1; draw(); }}
 function zoomBtn(f) {{ camScale = Math.max(0.1, Math.min(20, camScale * f)); draw(); }}
+
+// --- Fluency overlay ---
+let showFluency = false;
+let fluencyGraph = null;
+let effectiveScores = null;
+let frontierSet = null;
+
+function buildFluencyGraph() {{
+  var g = {{}};
+  data.nodes.forEach(function(n) {{
+    g[n.id] = {{prereqs: [], successors: [], course: n.course || ''}};
+  }});
+  data.edges.forEach(function(e) {{
+    if (g[e.target]) g[e.target].prereqs.push(e.source);
+    if (g[e.source]) g[e.source].successors.push(e.target);
+  }});
+  return g;
+}}
+
+function refreshFluency() {{
+  if (typeof OKGFluency === 'undefined') return;
+  if (!fluencyGraph) fluencyGraph = buildFluencyGraph();
+  effectiveScores = OKGFluency.propagate(fluencyGraph);
+  var ids = OKGFluency.findFrontier(fluencyGraph, effectiveScores);
+  frontierSet = new Set(ids);
+}}
+
+function toggleFluency() {{
+  showFluency = !showFluency;
+  if (showFluency) refreshFluency();
+  document.getElementById('fluencyBtn').classList.toggle('active', showFluency);
+  draw();
+}}
 
 const nodeRadius = Math.max(2, Math.min(4, 1600 / data.nodes.length));
 
@@ -760,8 +796,18 @@ function draw() {{
   data.nodes.forEach(n => {{
     ctx.beginPath();
     ctx.arc(n.x, n.y, nodeRadius, 0, Math.PI * 2);
-    ctx.fillStyle = `hsl(${{n.hue}}, 55%, ${{n.lightness}}%)`;
+    if (showFluency && effectiveScores) {{
+      var score = effectiveScores[n.id] || 0;
+      ctx.fillStyle = OKGFluency.fluencyColor(n.hue, score);
+    }} else {{
+      ctx.fillStyle = `hsl(${{n.hue}}, 55%, ${{n.lightness}}%)`;
+    }}
     ctx.fill();
+    if (showFluency && frontierSet && frontierSet.has(n.id)) {{
+      ctx.strokeStyle = "rgba(255,200,50,0.9)";
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+    }}
   }});
 
   // Draw highlights for selected node (persists after click)
@@ -1206,6 +1252,14 @@ def main():
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html, encoding="utf-8")
     print(f"Saved: {out}")
+
+    # Copy fluency.js to output
+    fluency_src = ROOT / "lib" / "fluency.js"
+    if fluency_src.exists():
+        fluency_dst = OUTPUT_DIR / "js" / "fluency.js"
+        fluency_dst.parent.mkdir(parents=True, exist_ok=True)
+        import shutil
+        shutil.copy2(fluency_src, fluency_dst)
 
     # Print layout summary
     stage_counts = defaultdict(int)

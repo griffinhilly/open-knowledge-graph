@@ -25,6 +25,16 @@ status: draft
 ## Core Idea
 The fundamental group π₁(X, x₀) consists of homotopy classes of loops based at x₀, with group operation given by concatenation. It measures the 'holes' in a space: trivial for contractible spaces and increases in complexity as spaces become more tangled. The fundamental group is a functor converting topological questions into algebraic ones.
 
+## Explainer
+
+The **fundamental group** π₁(X, x₀) of a topological space X with basepoint x₀ is the set of homotopy classes of loops based at x₀, equipped with the group operation of concatenation. A loop is a continuous map γ : [0, 1] → X with γ(0) = γ(1) = x₀. Two loops are **homotopic** if one can be continuously deformed into the other while keeping the basepoint fixed throughout. The homotopy class [γ] is the equivalence class of all loops deformable to γ. Concatenation of loops — first traverse γ, then traverse δ — gives a well-defined operation on homotopy classes, and this operation satisfies the group axioms: the constant loop at x₀ is the identity, concatenation is associative (up to homotopy), and each loop has an inverse obtained by traversing it in reverse.
+
+The fundamental group measures the "one-dimensional holes" in a space. If every loop in X can be continuously shrunk to the basepoint, then π₁(X, x₀) is the trivial group {e}, and X is called **simply connected**. Contractible spaces like ℝⁿ and the disk D² are simply connected — there are no obstructions to shrinking loops. The circle S¹ has fundamental group ℤ: loops are classified by their winding number (how many times and in which direction they wrap around). The torus T² = S¹ × S¹ has fundamental group ℤ × ℤ, reflecting its two independent "holes." The more intricate the topology, the more complex the fundamental group becomes.
+
+A continuous map f : X → Y induces a group homomorphism f₊ : π₁(X, x₀) → π₁(Y, f(x₀)), defined by f₊([γ]) = [f ∘ γ]. This assignment respects composition — (g ∘ f)₊ = g₊ ∘ f₊ — and sends identity maps to identity homomorphisms. In the language of category theory, π₁ is a **functor** from the category of pointed topological spaces to the category of groups. This functorial property is what makes the fundamental group a practical tool: it translates topological questions (are these spaces homeomorphic? does a certain continuous map exist?) into algebraic questions (are these groups isomorphic? does a certain homomorphism exist?), which are often easier to answer.
+
+However, the fundamental group captures only part of a space's topology. Two non-homeomorphic spaces can have isomorphic fundamental groups — for instance, a solid torus and S¹ × D² both have fundamental group ℤ. The fundamental group detects one-dimensional holes (loops that cannot be contracted) but is blind to higher-dimensional features: the 2-sphere S² has trivial fundamental group even though it encloses a two-dimensional "hole" detected by the second homotopy group π₂(S²) ≅ ℤ. This is why algebraic topology develops an entire suite of invariants — higher homotopy groups, homology, cohomology — rather than relying on π₁ alone.
+
 ## Questions
 
 ```yaml

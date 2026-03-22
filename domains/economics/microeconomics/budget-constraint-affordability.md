@@ -12,7 +12,7 @@ tags:
 - income
 - prices
 - affordability
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

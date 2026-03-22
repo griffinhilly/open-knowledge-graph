@@ -28,6 +28,16 @@ Review your strongest beliefs and ask: what evidence would change my mind? If yo
 - Intellectual humility does not mean treating all opinions as equally valid — some claims have far more evidence behind them than others.
 - Saying 'I don't know' is not a failure of rationality — it is often the most accurate and honest statement available.
 
+## Explainer
+
+From calibration training, you know that calibration means your stated confidence matches your empirical accuracy -- when you say 70%, you are right about 70% of the time. Intellectual humility and calibrated uncertainty extends this skill from a measurement practice into an epistemic virtue: the habit of holding beliefs with exactly the confidence the evidence warrants, neither more nor less.
+
+The most common misunderstanding of intellectual humility is confusing it with chronic uncertainty or false balance. A student who says "the universe might be 13.8 billion years old, or it might be 6,000 years old -- I don't want to be arrogant" is not being humble. They are being miscalibrated. The evidence for the age of the universe is overwhelming and convergent across multiple independent scientific disciplines. Calibrated intellectual humility assigns high confidence to well-supported claims (95%+ for the universe's age) and reserves genuine uncertainty for questions where the evidence is actually ambiguous (55% for a contested policy prediction). The virtue is in the discrimination -- knowing which claims deserve high confidence and which do not -- not in blanket modesty applied uniformly.
+
+This means intellectual humility has two failure modes, not one. Overconfidence -- being 95% sure when you should be 60% -- is the more commonly discussed failure, and calibration training directly targets it. But **underconfidence** is equally problematic: being 60% sure when the evidence actually warrants 95% creates false equivalence between strong and weak claims, prevents decisive action on well-supported evidence, and misrepresents your actual epistemic state. A person who hedges on evolution, germ theory, or climate science to avoid "seeming arrogant" is not demonstrating humility -- they are being inaccurate about where the evidence actually stands. Both directions of miscalibration have real costs.
+
+The practical test for intellectual humility is simple: for any belief you hold with high confidence, can you specify what evidence would change your mind? If you can describe -- even roughly -- what the world would have to look like for you to be wrong, your belief is held in a way that can respond to reality. If you cannot name any evidence that would move you, your confidence may not be based on evidence at all but on identity, social belonging, or habit. This test does not require you to lower your confidence; it requires you to maintain a connection between your confidence and the evidence that justifies it. That connection -- the willingness to update when evidence demands it, combined with the courage to be confident when evidence supports it -- is what calibrated intellectual humility actually looks like.
+
 ## Questions
 
 ```yaml

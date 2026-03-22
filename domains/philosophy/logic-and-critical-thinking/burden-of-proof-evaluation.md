@@ -12,7 +12,7 @@ tags:
 - burden-of-proof
 - argument-evaluation
 - critical-thinking
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

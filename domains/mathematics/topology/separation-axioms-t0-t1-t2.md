@@ -30,6 +30,16 @@ Examine concrete examples at each level: the indiscrete topology fails even T₀
 ## Common Misconceptions
 T₁ does not imply Hausdorff—the cofinite topology on an infinite set separates points from each other with open sets but cannot produce disjoint neighborhoods. Students also sometimes think Hausdorff is an exotic condition, when in fact most familiar spaces (metric spaces, manifolds) are automatically Hausdorff.
 
+## Explainer
+
+The **separation axioms** T₀, T₁, and T₂ form a hierarchy that measures how effectively a topology distinguishes between points. At the weakest level, **T₀ (Kolmogorov)** requires that for any two distinct points, at least one has an open neighborhood not containing the other — the topology can tell the points apart, but only asymmetrically. **T₁ (Frechet)** strengthens this: for any two distinct points x and y, there is an open set containing x but not y, and simultaneously an open set containing y but not x. This is equivalent to requiring that every singleton {x} is a closed set. **T₂ (Hausdorff)** is stronger still: any two distinct points have disjoint open neighborhoods — open sets that separate them completely, with no overlap.
+
+The cofinite topology on an infinite set is the standard example illustrating the gap between T₁ and T₂. In this topology, the open sets are ∅ and all subsets whose complement is finite. For any two distinct points x ≠ y, the set X \ {y} is open (its complement {y} is finite) and contains x but not y, so T₁ is satisfied. However, any two nonempty open sets must intersect — their complements are both finite, so their union of complements is finite, meaning their intersection is cofinite (and hence nonempty in an infinite set). Since no two nonempty open sets are disjoint, T₂ fails. This demonstrates that T₁ achieves point separation "one direction at a time" but does not guarantee the simultaneous disjoint separation that T₂ demands.
+
+The Hausdorff condition has a critical consequence: **uniqueness of limits**. In a T₂ space, if a sequence (or net) converges, its limit is unique. The proof is a clean application of the definition: if xₙ → x and xₙ → y with x ≠ y, take disjoint open sets U ∋ x and V ∋ y. Eventually all terms are in U (by convergence to x) and in V (by convergence to y), but U ∩ V = ∅ — contradiction. In spaces that fail T₂, such as the cofinite topology, a sequence of distinct points converges to every point simultaneously. This is why T₂ is the practical baseline for well-behaved topology: without it, limits lose their deterministic character.
+
+Most spaces encountered in analysis and geometry are Hausdorff. All metric spaces are T₂ (given distinct points, open balls of radius less than half their distance are disjoint). All manifolds are T₂ by convention. The Hausdorff condition is also essential for many theorems: compact subsets of Hausdorff spaces are closed, limits of convergent sequences are unique, and the diagonal {(x, x) : x ∈ X} is closed in X × X if and only if X is Hausdorff. The separation axioms T₀ through T₂ represent increasing demands on how finely the topology resolves individual points, with T₂ being the threshold at which the topology becomes analytically tractable.
+
 ## Questions
 
 ```yaml

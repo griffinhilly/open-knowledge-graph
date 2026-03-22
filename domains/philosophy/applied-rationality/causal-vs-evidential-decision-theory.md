@@ -26,6 +26,16 @@ Work through Newcomb's problem under both frameworks and verify that they give d
 - CDT and EDT are not competing 'religions' — they are formal frameworks that make precise, testable predictions about which choices are rational.
 - CDT does not always recommend selfish behavior — it recommends the action with the best causal consequences, which can include cooperation and altruism.
 
+## Explainer
+
+From Newcomb's problem, you learned that a nearly perfect predictor can create a situation where two apparently sound reasoning strategies -- "take the dominant action" and "take the action correlated with the best outcome" -- give opposite advice. Causal vs. evidential decision theory formalizes this split into two competing frameworks for rational choice, each with a precise account of what it means for an action to be "the right one."
+
+**Causal decision theory (CDT)** says you should choose the action whose causal consequences produce the best expected outcome. It evaluates each option by asking: "If I were to intervene and perform this action, what would happen?" In Newcomb's problem, CDT two-boxes because taking both boxes cannot causally reach backward in time to change what the predictor already placed inside. The box contents are fixed; adding Box A to whatever is in Box B always gets you $1,000 more. The correlation between one-boxing and the million dollars is real but non-causal -- and CDT insists that only causal consequences of your action count.
+
+**Evidential decision theory (EDT)** says you should choose the action such that, conditional on performing it, you expect the best outcome. It evaluates each option by asking: "Given that I observe myself choosing this action, what do I expect the world to look like?" EDT one-boxes because one-boxing is strong evidence that the predictor predicted one-boxing, which means the box almost certainly contains $1,000,000. EDT does not care that the action does not causally change the box -- it cares about what the action tells you about the state of the world.
+
+The Smoking Lesion problem exposes where EDT stumbles. Suppose a genetic lesion causes both a desire to smoke and cancer, but smoking itself does not cause cancer. EDT recommends not smoking, because observing yourself smoke is evidence you have the lesion (and thus cancer), even though the smoking does not cause the cancer. CDT correctly says: the lesion either exists or it does not; choosing not to smoke cannot change your genetic state, so you should smoke if you enjoy it. This case makes EDT look like it confuses correlation with causation. Yet in Newcomb's problem, one-boxers (following EDT) empirically walk away richer than two-boxers (following CDT). The Rationalist community has explored extensions like **functional decision theory (FDT)**, which evaluates actions by the consequences of the abstract decision procedure that generates them -- arguing that being the kind of agent who one-boxes is what causes the predictor to fill the box. Whether FDT resolves the debate remains an open question, but the existence of the debate reveals something important: the seemingly simple concept of "acting rationally" requires specifying what counts as a consequence of your action.
+
 ## Questions
 
 ```yaml

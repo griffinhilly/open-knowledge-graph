@@ -13,7 +13,7 @@ tags:
 - elasticity
 - supply
 - producer-responsiveness
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - major
 - construction
 - whole-half-step-pattern
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

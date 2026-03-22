@@ -13,7 +13,7 @@ tags:
 - logical-operators
 - propositional-logic
 - reasoning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 
@@ -27,6 +27,16 @@ Construct truth tables by hand for simple compound propositions, then translate 
 
 ## Common Misconceptions
 In everyday speech, "or" is often exclusive (one or the other, not both), but in logic it is inclusive by default. Students also struggle with the scope of negation: "not A and B" is ambiguous between (¬A) ∧ B and ¬(A ∧ B). Parentheses resolve this, which is why formal notation matters.
+
+## Explainer
+
+From your study of arguments, premises, and conclusions, you know that an argument consists of claims offered as reasons (premises) supporting a further claim (the conclusion). But premises and conclusions are often compound — built from simpler propositions joined together. **Logical operators** are the connectives that combine simple propositions into compound statements with precisely defined truth conditions. Mastering them is the first step toward evaluating arguments systematically rather than by intuition alone.
+
+The three fundamental operators are **conjunction** (AND, symbolized as a wedge or ampersand), **disjunction** (OR, symbolized as a vee), and **negation** (NOT, symbolized as a tilde or corner). Conjunction (P AND Q) is true only when both P and Q are true — if either is false, the whole conjunction is false. Disjunction (P OR Q) is true whenever at least one component is true, including when both are true. This is **inclusive or**, the default in formal logic, and it differs from everyday English "or," which is often exclusive (one or the other, but not both). When you hear "soup or salad" at a restaurant, the intended meaning is exclusive — pick one. But formal logic standardizes on inclusive or, reserving a separate XOR operator for the exclusive case. Negation (NOT P) simply flips the truth value: if P is true, NOT P is false, and vice versa.
+
+The power of these operators becomes apparent when ambiguity enters. The phrase "not A and B" is genuinely ambiguous: it could mean (NOT A) AND B — A is false while B is true — or NOT (A AND B) — it is not the case that both A and B are true. These have different truth tables and yield different conclusions in arguments. Formal logic resolves this with **parentheses** that make the scope of each operator explicit. This is not pedantry — it is the mechanism that eliminates the ambiguities that cause reasoning errors in natural language. Every time someone says "it's not true that he's smart and hardworking" and the listener is unsure whether the speaker means "he's not smart, though he may be hardworking" or "it's not the case that he's both smart and hardworking," the scope-of-negation problem is in play.
+
+Building truth tables by hand — listing every possible combination of truth values for the component propositions and computing the compound result — is the foundational skill. For two propositions P and Q, there are four rows (TT, TF, FT, FF). For three propositions, eight rows. The truth table for any compound statement is fully determined by the operators and their scope. Once you can construct truth tables, you can verify whether an argument form is valid (whether there is any row where all premises are true and the conclusion is false) and you can identify exactly where natural-language reasoning goes wrong. These three operators — AND, OR, NOT — are the building blocks from which all of propositional logic is constructed.
 
 ## Questions
 

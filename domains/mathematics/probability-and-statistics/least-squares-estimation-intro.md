@@ -27,6 +27,16 @@ Fit linear regression by hand for a small dataset. Visualize residuals and under
 ## Common Misconceptions
 Thinking least squares requires normal errors (it gives optimal linear fit regardless). Assuming high R² means good predictions. Not recognizing that outliers can heavily influence least squares estimates.
 
+## Explainer
+
+From your study of linear regression, you know the goal: given paired data (x₁, y₁), ..., (xₙ, yₙ), find the line ŷ = b₀ + b₁x that best describes the relationship between x and y. But "best" needs a precise definition. **Least squares estimation** defines "best" as the line that minimizes the sum of squared residuals: Σᵢ(yᵢ − ŷᵢ)² = Σᵢ(yᵢ − b₀ − b₁xᵢ)². Each residual yᵢ − ŷᵢ measures how far the observed value falls from the fitted line, and squaring these residuals produces a smooth, differentiable objective function whose minimum can be found analytically.
+
+The minimization is a calculus problem. Taking partial derivatives of Σ(yᵢ − b₀ − b₁xᵢ)² with respect to b₀ and b₁, setting them to zero, and solving the resulting system of two linear equations (the **normal equations**) yields closed-form solutions: b₁ = r · (s_y / s_x) and b₀ = ȳ − b₁x̄, where r is the sample correlation coefficient, s_y and s_x are the sample standard deviations, and x̄ and ȳ are the sample means. The slope b₁ is proportional to the correlation — a natural result, since both measure the strength and direction of the linear relationship. The intercept b₀ ensures the line passes through the point (x̄, ȳ), the center of the data.
+
+Why minimize **squared** residuals rather than, say, absolute residuals? Squaring has three key consequences. First, it makes the objective function differentiable everywhere, enabling the clean calculus-based solution above — absolute values create a kink at zero that prevents closed-form solutions. Second, squaring penalizes large residuals disproportionately: a residual of 10 contributes 100 to the objective, while a residual of 1 contributes just 1. This means outliers pull the fitted line strongly toward them. Third, under the assumption of normally distributed errors, least squares produces the **maximum likelihood estimate** — the statistically optimal fit. Without normality, least squares still gives the best linear unbiased estimator (BLUE) by the Gauss-Markov theorem, provided errors have equal variance and are uncorrelated.
+
+A common misconception is that least squares requires normally distributed errors. It does not — the formulas for b₀ and b₁ are purely algebraic and minimize the sum of squared residuals regardless of the error distribution. Normality is only needed for the inferential layer: confidence intervals, t-tests on coefficients, and F-tests for model significance all assume normal errors. Another pitfall is interpreting R² = 1 − (SS_residual / SS_total) as proof of a good model. A high R² means the model explains a large share of variation in the training data, but it says nothing about predictive accuracy on new data. Overfitting, extrapolation, and omitted variables can all produce high R² with poor predictions.
+
 ## Questions
 
 ```yaml

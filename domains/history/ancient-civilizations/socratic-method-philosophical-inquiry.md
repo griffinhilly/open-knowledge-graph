@@ -14,7 +14,7 @@ tags:
 - method
 - inquiry
 - greece
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

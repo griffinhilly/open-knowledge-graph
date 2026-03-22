@@ -30,6 +30,16 @@ Derive the rules algebraically from the definition of expectation, then verify t
 ## Common Misconceptions
 Students frequently forget the squared coefficient in Var(aX) = a²Var(X) and write aVar(X) instead. Another common error is assuming Var(X + Y) = Var(X) + Var(Y) without checking independence—the covariance term is only zero when X and Y are uncorrelated.
 
+## Explainer
+
+From your study of expected value and variance, you know that E[X] measures the center of a distribution and Var(X) measures its spread. **Linear transformations** — operations of the form Y = aX + b — are the most common manipulations of random variables, and understanding how they affect the mean and variance is essential for everything from standardization to sampling distributions to confidence intervals.
+
+The rules are clean but asymmetric. For the mean: **E[aX + b] = aE[X] + b** — expectation is perfectly linear. Scaling X by a scales the mean by a; shifting by b shifts the mean by b. This follows directly from the linearity of summation (or integration). For the variance: **Var(aX + b) = a²Var(X)** — the shift b disappears entirely, and the scale factor enters squared. The shift vanishes because adding a constant moves every value by the same amount, leaving the spread unchanged. The squaring arises because variance is defined as E[(X − μ)²], and scaling X by a scales each deviation by a, which after squaring gives a². The standard deviation, being the square root of variance, scales linearly: SD(aX + b) = |a| · SD(X).
+
+For **sums** of random variables, the rules for expectation and variance diverge sharply. The mean of a sum is always the sum of the means: E[X + Y] = E[X] + E[Y], with no conditions — this holds whether X and Y are independent, correlated, or anything else. Linearity of expectation is unconditional and is one of the most powerful tools in probability. But the variance of a sum includes a covariance term: Var(X + Y) = Var(X) + Var(Y) + 2Cov(X, Y). Only when X and Y are uncorrelated (Cov(X, Y) = 0) does the simple additive formula Var(X + Y) = Var(X) + Var(Y) hold. Independence implies zero covariance, so independent variables always satisfy the additive formula — but the converse is not true in general.
+
+These rules are the engine behind **standardization**: converting any random variable X with mean μ and standard deviation σ to Z = (X − μ)/σ, which has mean 0 and variance 1. The transformation subtracts μ (shifting the center to 0) and divides by σ (scaling the spread to 1). By the rules above, E[Z] = (E[X] − μ)/σ = 0 and Var(Z) = (1/σ)²Var(X) = σ²/σ² = 1. Standardization is the foundational step in computing z-scores, constructing confidence intervals, and working with the standard normal distribution — all of which rely on precisely these transformation rules.
+
 ## Questions
 
 ```yaml

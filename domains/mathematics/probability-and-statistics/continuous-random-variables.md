@@ -32,6 +32,16 @@ Visualize both PDF and CDF. Practice computing probabilities by integrating the 
 ## Common Misconceptions
 Thinking f(x) is a probability (it's a density). Confusing PDF and CDF graphically. Computing P(X = c) as non-zero for continuous X.
 
+## Explainer
+
+From your study of random variables and expected value, you know that a random variable assigns a number to each outcome of a random experiment. A **discrete** random variable takes values from a countable set (a die roll can be 1 through 6; a coin-flip count can be 0, 1, 2, ...). A **continuous** random variable, by contrast, can take any value in an interval — the height of a randomly selected person, the exact time until a bus arrives, the temperature at noon. The set of possible values is uncountably infinite, and this changes the mathematics fundamentally: you can no longer assign positive probability to individual values.
+
+The distribution of a continuous random variable is described by a **probability density function** (PDF) f(x). The PDF is not itself a probability — it is a density, measuring how rapidly probability accumulates near a point. Probability comes from integrating the density over an interval: P(a ≤ X ≤ b) = ∫ₐᵇ f(x) dx. Graphically, probability equals area under the PDF curve. The two requirements on any valid PDF are that f(x) ≥ 0 everywhere and that the total area under the curve equals 1: ∫₋∞^∞ f(x) dx = 1. Crucially, f(x) itself can exceed 1 — the PDF f(x) = 3x² on [0, 1] reaches a value of 3 at x = 1, which is perfectly valid because it is a density (probability per unit length), not a probability.
+
+The most counterintuitive fact about continuous random variables is that **P(X = c) = 0** for any specific value c. The integral from c to c has zero width, hence zero area, hence zero probability. This does not mean the event is impossible — it means a continuous variable spreads its probability across an uncountable infinity of values, and no single point receives a positive share. In practice, you never ask "what is the probability that someone is exactly 170.000... cm tall?" — you ask "what is the probability that someone is between 169 and 171 cm?" This interval question is what the PDF answers through integration.
+
+The **cumulative distribution function** (CDF) F(x) = P(X ≤ x) = ∫₋∞ˣ f(t) dt provides a complementary view: it accumulates probability from the left. The CDF is non-decreasing, starts at 0 as x → −∞, and approaches 1 as x → ∞. The relationship between the PDF and CDF is differentiation: f(x) = F'(x) wherever F is differentiable. Because P(X = c) = 0 for continuous variables, it makes no difference whether inequalities are strict or inclusive: P(X ≤ 3) = P(X < 3). This simplification does not hold for discrete variables, where P(X = 3) can be positive and the distinction between ≤ and < matters.
+
 ## Questions
 
 ```yaml

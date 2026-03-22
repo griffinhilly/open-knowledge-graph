@@ -788,6 +788,23 @@ h1 {{
   padding:12px 0;
 }}
 
+.fluency-toggle {{
+  display:inline-flex; align-items:center; gap:8px;
+  padding:5px 14px; border-radius:16px;
+  background:#151525; border:1px solid #252540;
+  cursor:pointer; font-size:12px; color:#778;
+  transition:all 0.2s; user-select:none;
+}}
+.fluency-toggle:hover {{ border-color:#444; color:#aab; }}
+.fluency-toggle.known {{
+  background:rgba(80,180,80,0.15); border-color:rgba(80,180,80,0.4);
+  color:#6c6;
+}}
+.fluency-toggle .check {{ font-size:14px; }}
+.fluency-score {{
+  font-size:11px; color:#556; margin-left:4px;
+}}
+
 .explainer-section {{
   background:#0e0e1a; border:1px solid #1a1a2e;
   border-radius:8px; padding:24px 28px;
@@ -838,6 +855,11 @@ h1 {{
 <div class="meta-row">
   <span class="stage-badge">{html_mod.escape(stage_label)}</span>
   <span class="depth-info">Depth {depth} in the knowledge graph</span>
+  <span class="fluency-toggle" id="fluencyToggle" onclick="toggleKnown()">
+    <span class="check" id="fluencyCheck">&#9744;</span>
+    <span id="fluencyLabel">I know this</span>
+    <span class="fluency-score" id="fluencyScore"></span>
+  </span>
 </div>
 
 {"<div class='tags'>" + tags_html + "</div>" if tags_html else ""}
@@ -873,6 +895,36 @@ h1 {{
 </div>
 
 </div>
+
+<script src="../js/fluency.js"></script>
+<script>
+(function() {{
+  var TOPIC_ID = "{tid}";
+  var toggle = document.getElementById("fluencyToggle");
+  var check = document.getElementById("fluencyCheck");
+  var label = document.getElementById("fluencyLabel");
+  var scoreEl = document.getElementById("fluencyScore");
+
+  function render() {{
+    if (typeof OKGFluency === "undefined") {{ toggle.style.display = "none"; return; }}
+    var score = OKGFluency.getScore(TOPIC_ID);
+    var known = score >= 50;
+    toggle.classList.toggle("known", known);
+    check.innerHTML = known ? "&#9745;" : "&#9744;";
+    label.textContent = known ? "Known" : "I know this";
+    scoreEl.textContent = score > 0 ? score + "%" : "";
+  }}
+
+  window.toggleKnown = function() {{
+    if (typeof OKGFluency === "undefined") return;
+    var score = OKGFluency.getScore(TOPIC_ID);
+    OKGFluency.setScore(TOPIC_ID, score >= 50 ? 0 : 85);
+    render();
+  }};
+
+  render();
+}})();
+</script>
 </body>
 </html>"""
 
@@ -1126,6 +1178,14 @@ def main():
     # Tag index page
     index_html = generate_tag_index(tag_map)
     (tags_dir / "index.html").write_text(index_html, encoding="utf-8")
+
+    # Copy fluency.js to output
+    fluency_src = ROOT / "lib" / "fluency.js"
+    if fluency_src.exists():
+        fluency_dst = OUTPUT_DIR / "js" / "fluency.js"
+        fluency_dst.parent.mkdir(parents=True, exist_ok=True)
+        import shutil
+        shutil.copy2(fluency_src, fluency_dst)
 
     print(f"Done! {count} topic pages + {q_count} question pages + {len(tag_map)} tag pages in {TOPICS_DIR}")
 

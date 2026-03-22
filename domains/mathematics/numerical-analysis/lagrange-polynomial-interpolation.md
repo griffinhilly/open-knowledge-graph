@@ -22,6 +22,16 @@ status: draft
 ## Core Idea
 Given n+1 distinct points (x_i, y_i), Lagrange interpolation constructs the unique polynomial of degree ≤n passing through all points using L_i(x) = ∏_{j≠i} (x - x_j)/(x_i - x_j). The Lagrange form P(x) = Σ y_i L_i(x) is elegant and explicit but becomes numerically unstable when adding new points since all basis functions must be recomputed.
 
+## Explainer
+
+The interpolation problem is fundamental: given n+1 data points (x₀, y₀), (x₁, y₁), ..., (xₙ, yₙ) with distinct x-values, find a polynomial P(x) of degree at most n that passes through all of them. A uniqueness theorem guarantees that exactly one such polynomial exists — if two polynomials of degree ≤ n agree at n+1 points, their difference has n+1 roots but degree at most n, which forces it to be identically zero. The Lagrange construction gives an explicit formula for this unique polynomial.
+
+The idea is to build **basis polynomials** L₀(x), L₁(x), ..., Lₙ(x), each of degree n, with a remarkable property: L_i(x_j) = 1 when j = i and L_i(x_j) = 0 when j ≠ i. Each basis polynomial "selects" exactly one data point and ignores the others. The formula is L_i(x) = ∏_{j≠i} (x − x_j) / (x_i − x_j). The numerator product ensures L_i vanishes at every node except x_i (each factor x − x_j is zero when x = x_j). The denominator normalizes the result so that L_i(x_i) = 1. Once you have these basis polynomials, the interpolant is simply P(x) = Σᵢ yᵢ L_i(x) — at any node x_k, every term vanishes except y_k · L_k(x_k) = y_k, confirming the polynomial passes through every data point.
+
+The Lagrange form is mathematically elegant and invaluable for theoretical analysis — for instance, it makes the interpolation error formula transparent. However, it has a practical limitation: if you add a new data point (xₙ₊₁, yₙ₊₁), every basis polynomial must be recomputed from scratch because each L_i depends on all the nodes. The new factor (x − xₙ₊₁) must be inserted into every numerator, and every denominator must be updated. This makes incremental updates expensive, costing O(n²) work.
+
+Newton's divided-difference form addresses this limitation by writing the same unique polynomial in a different basis — one where adding a new point requires computing just one new coefficient and appending one new term. The two forms represent the same polynomial (since it is unique) but are suited to different tasks: Lagrange for theory and closed-form expressions, Newton for computation and incremental updates. Understanding both forms, and why they must agree, deepens your grasp of polynomial interpolation as a whole and prepares you for the error analysis that governs when interpolation can be trusted and when it breaks down (as in Runge's phenomenon).
+
 ## Questions
 
 ```yaml

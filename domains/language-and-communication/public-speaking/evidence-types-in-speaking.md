@@ -12,7 +12,7 @@ tags:
 - testimony
 - examples
 - analogies
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

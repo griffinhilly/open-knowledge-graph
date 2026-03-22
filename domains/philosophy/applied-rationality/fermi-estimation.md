@@ -29,6 +29,16 @@ Practice regularly with questions where you can verify the answer afterward. Sta
 - Precision is not the goal — being within an order of magnitude is usually sufficient for the decisions Fermi estimation informs.
 - Fermi estimation is not just a party trick — it is a foundational tool for expected value reasoning and prioritization under uncertainty.
 
+## Explainer
+
+Fermi estimation is named after physicist Enrico Fermi, who was famous for producing surprisingly accurate estimates of quantities that seemed impossible to calculate -- "how many piano tuners are in Chicago?" -- by decomposing the unknown into factors he could estimate individually. The technique is not about mathematical precision; it is about structured thinking under uncertainty, and it produces results that are reliably within an order of magnitude of the true value.
+
+The method is straightforward. Take a question you cannot answer directly -- "how many gas stations are in the United States?" -- and break it into independently estimable components. US population (~330 million) times fraction of households with cars (~0.9) times fill-ups per car per year (~50) times minutes per fill-up (~5) divided by minutes of service capacity per station per year (~100,000). Each factor may be off by a factor of 2, but the errors tend to partially cancel: an overestimate in one factor offsets an underestimate in another. The result is typically within a factor of 3-5 of reality, which is remarkably useful for a calculation done entirely from general knowledge.
+
+The real value of Fermi estimation goes beyond getting a number. Decomposition reveals **which factors matter most**. If your estimate of gas stations depends heavily on the fill-up frequency assumption but barely changes with the minutes-per-fill-up assumption, you know exactly where to focus further research. This sensitivity analysis is invisible in a direct guess but becomes obvious in a decomposed estimate. In decision-making contexts -- evaluating business opportunities, sizing markets, estimating project costs -- knowing which variable dominates your uncertainty is often more valuable than the final number itself.
+
+Fermi estimation also builds **quantitative intuition** that transfers across problems. Practicing regularly -- estimating quantities, checking answers, identifying where you were most wrong -- recalibrates your internal sense of scale. Over time, you develop better priors for the kinds of quantities that appear across many problems: population sizes, behavioral rates, physical magnitudes, economic scales. This is why Fermi estimation is foundational to expected value reasoning and rational prioritization: you cannot compare the expected value of two options if you cannot estimate the relevant quantities, even roughly. The ability to produce a structured, defensible estimate of an unknown quantity -- rather than throwing up your hands or making a gut-level guess -- is one of the most practically useful skills in the applied rationality toolkit.
+
 ## Questions
 
 ```yaml

@@ -33,6 +33,16 @@ Evaluate safety and sensitivity against a range of cases: lottery beliefs, knowl
 - Sensitivity and safety are not equivalent; they diverge on cases involving necessary truths and some counterfactual structures.
 - Eliminating epistemic luck does not require certainty — safety is a modal condition, not a psychological one.
 
+## Explainer
+
+From your study of justified true belief and the Gettier problems, you know that a belief can be justified and true yet still fail to count as knowledge. Gettier showed this with cases where the justification and the truth come apart — the belief is true, but not for the reason the justification provides. Epistemic luck is the broader phenomenon that Gettier cases exemplify: a belief turns out true in a way that is too coincidental, too disconnected from the believer's epistemic position, to constitute genuine knowledge.
+
+Consider a stopped clock that happens to display 3:15 at the exact moment you glance at it — and it is, in fact, 3:15. You have a justified belief (you checked a clock, which is normally a reliable method), and the belief is true (it really is 3:15). Yet something has clearly gone wrong: the clock is broken, and you would have formed the same belief at any other time of day. Your being right is a matter of luck, not epistemic competence. The concept of epistemic luck captures this intuition and extends it beyond Gettier's original cases to any situation where truth and justification coincide accidentally.
+
+Two **modal conditions** have been proposed to formalize what epistemic luck is missing. The **sensitivity condition** says: S's belief that p is sensitive if, were p false, S would not believe p. The stopped-clock belief fails sensitivity — if it were not 3:15, you would still believe it is 3:15, because the clock always says 3:15. The **safety condition** says: S's belief that p is safe if S could not easily have formed a false belief in the same way. The stopped-clock belief fails safety too — in the vast majority of nearby possible situations where you check the same clock, the belief is false. Safety is generally preferred over sensitivity because sensitivity generates counterintuitive results for necessary truths: "if 2+2 were not 4, would you still believe it?" is a meaningless counterfactual, since there is no possible world where 2+2 is not 4, yet we clearly have knowledge of arithmetic.
+
+The deeper lesson is that knowledge requires more than accidentally getting things right. Justification ensures your belief is responsibly formed; truth ensures the world cooperates; but epistemic luck shows that these two conditions can be satisfied independently, with no real connection between them. The anti-luck conditions — safety and sensitivity — attempt to bridge this gap by requiring that the belief-forming method be modally robust: it must track the truth not just in the actual world but across nearby possible situations. This connects epistemic luck to reliabilism and virtue epistemology, both of which seek to explain what makes knowledge more than a lucky coincidence between belief and reality.
+
 ## Questions
 
 ```yaml

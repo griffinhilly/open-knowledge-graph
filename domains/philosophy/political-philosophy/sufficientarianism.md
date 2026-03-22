@@ -12,7 +12,7 @@ tags:
 - Frankfurt
 - threshold
 - distributive-justice
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

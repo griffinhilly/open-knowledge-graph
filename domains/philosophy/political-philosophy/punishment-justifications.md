@@ -14,7 +14,7 @@ tags:
 - retribution
 - deterrence
 - rehabilitation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

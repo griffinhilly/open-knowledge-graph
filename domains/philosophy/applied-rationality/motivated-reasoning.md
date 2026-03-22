@@ -32,6 +32,16 @@ Examine beliefs you hold that are also socially convenient or identity-reinforci
 - Being aware of motivated reasoning does not immunize you against it — you must use specific techniques (like considering the opposite) to counteract it.
 - Not all emotional reasoning is motivated reasoning — emotions can carry legitimate information about values and priorities.
 
+## Explainer
+
+From map and territory, you know that when your predictions fail, the rational response is to update your map rather than argue that reality is wrong. Motivated reasoning is the mechanism by which people do the opposite -- steering their reasoning toward conclusions that feel good, protect their identity, or satisfy social pressures, while genuinely believing they are following the evidence.
+
+The key diagnostic is **directionality**. Genuine reasoning follows evidence to whatever conclusion it supports: you examine the data, apply logical principles, and accept the result even if it is unwelcome. Motivated reasoning runs in the opposite direction: the conclusion comes first (often unconsciously), and then the mind searches for evidence and arguments that support it. The output -- a set of plausible-sounding arguments for a conclusion -- looks identical in both cases, which is exactly why motivated reasoning is so dangerous. You cannot tell from the conclusion alone whether it was reached honestly. The only reliable diagnostic is to examine the process: did evidence precede the conclusion, or did the conclusion precede the search for evidence?
+
+What makes motivated reasoning uniquely difficult to address is that the reasoner genuinely believes they are being objective. A liar knows they are lying. A motivated reasoner experiences themselves as carefully evaluating evidence and reaching a well-considered judgment. The emotional experience of finding evidence that supports your preferred conclusion is indistinguishable, from the inside, from the experience of evidence that genuinely supports a correct conclusion. This is why introspection alone is insufficient to catch it. You need external checks: applying the same evidential standards to conclusions you like and dislike (the double-standard test), specifying in advance what evidence would change your mind, and using techniques like considering the opposite to force a search for disconfirming evidence your biased search would never retrieve.
+
+A counterintuitive finding from research on motivated reasoning is that intelligence and expertise can make the problem worse, not better. A smart, well-informed person has more tools for constructing sophisticated rationalizations -- more arguments to draw on, more apparent exceptions to cite, more nuanced reasons why this particular counterevidence does not apply. Studies on identity-protective cognition show that more numerate, politically engaged people are sometimes more polarized than their less engaged counterparts, because they deploy their analytical skills in service of conclusions already determined by group identity. This is why the Rationalist tradition insists that debiasing is a skill requiring deliberate practice, not a natural consequence of being intelligent or well-educated.
+
 ## Questions
 
 ```yaml

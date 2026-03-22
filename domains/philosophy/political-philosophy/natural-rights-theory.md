@@ -10,7 +10,7 @@ builds-toward:
 tags:
 - rights
 - foundational
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

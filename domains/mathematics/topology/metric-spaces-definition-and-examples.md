@@ -28,6 +28,16 @@ Verify the three axioms for several concrete metrics—Euclidean, taxicab, discr
 ## Common Misconceptions
 A metric is not the same as a norm—norms require a vector space structure, while metrics apply to any set. Students also sometimes forget that the triangle inequality is doing essential work; without it, the notion of "closeness" becomes incoherent.
 
+## Explainer
+
+A **metric space** is a pair (X, d) where X is a set and d : X × X → ℝ is a function — called a **metric** or distance function — satisfying three axioms. First, non-negativity with identity: d(x, y) ≥ 0 for all x, y, with d(x, y) = 0 if and only if x = y. Second, symmetry: d(x, y) = d(y, x). Third, the triangle inequality: d(x, z) ≤ d(x, y) + d(y, z) for all x, y, z. These axioms formalize what it means for d to behave like a "distance." Non-negativity says distances are never negative and that only identical points have zero distance. Symmetry says the distance from A to B equals the distance from B to A. The triangle inequality says a detour through an intermediate point is never shorter than the direct route.
+
+The most familiar example is Euclidean space ℝⁿ with the Euclidean metric d(x, y) = √(Σ(xᵢ − yᵢ)²). But the same underlying set can carry very different metrics. On ℝ², the **taxicab metric** d₁((x₁, y₁), (x₂, y₂)) = |x₁ − x₂| + |y₁ − y₂| measures distance along axis-aligned paths, producing diamond-shaped open balls instead of circular ones. The **discrete metric** on any set X — d(x, y) = 0 if x = y, d(x, y) = 1 otherwise — satisfies all three axioms and makes every subset open, yielding the discrete topology. This example shows that metrics do not require any algebraic structure on X: the set {cat, dog, fish} admits the discrete metric perfectly well.
+
+The triangle inequality is the load-bearing axiom. Without it, "closeness" becomes incoherent: points could be individually close to an intermediate point yet arbitrarily far from each other, destroying any transitive sense of proximity. The triangle inequality ensures that open balls B(x, r) = {y : d(x, y) < r} overlap in controlled ways, which is what allows them to generate a well-behaved topology. It also ensures that the distance function is continuous in the metric topology and that limits, when they exist, behave sensibly.
+
+Every metric on X induces a topology — the **metric topology** — by declaring a set U to be open if for every x ∈ U there exists r > 0 with B(x, r) ⊆ U. Open balls form a basis for this topology. Different metrics on the same set can induce different topologies: the Euclidean and taxicab metrics on ℝ² happen to induce the same topology (they are topologically equivalent), but the discrete metric induces a strictly finer topology where every subset is open. Metric spaces are a concrete, well-behaved entry point into topology — they are always Hausdorff, first-countable, and paracompact — but not all topological spaces are metrizable. The passage from metric spaces to general topological spaces is the passage from distance-based intuition to the abstract axioms of open sets.
+
 ## Questions
 
 ```yaml

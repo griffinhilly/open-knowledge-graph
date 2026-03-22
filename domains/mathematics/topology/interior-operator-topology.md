@@ -21,6 +21,16 @@ status: draft
 ## Core Idea
 The interior of A, denoted int(A) or A°, is the union of all open sets contained in A (the largest open subset of A). A point x ∈ int(A) iff A is a neighborhood of x. Properties: int(∅) = ∅, int(X) = X, int(int(A)) = int(A), int(A ∩ B) = int(A) ∩ int(B).
 
+## Explainer
+
+The **interior** of a set A in a topological space (X, τ), denoted int(A) or A°, is the largest open set contained in A. Equivalently, it is the union of all open sets that are subsets of A. Since any union of open sets is open, this union is itself open and is contained in A, making it the unique largest open subset. A point x belongs to int(A) if and only if A is a **neighborhood** of x — that is, there exists an open set U with x ∈ U ⊆ A. This gives two equivalent perspectives: globally, int(A) is the largest open set inside A; locally, it is the set of points that have an open "cushion" entirely within A.
+
+In ℝ with the standard topology, the interior of [0, 1] is (0, 1). The endpoints 0 and 1 are not interior points because every open interval around them extends outside [0, 1]. The interior of (0, 1] is also (0, 1) — the endpoint 1 fails the interior test for the same reason. The interior of a single point {x} in ℝ is empty, since no open interval fits inside a singleton. The interior of ℚ (the rationals) in ℝ is also empty: every open interval contains irrationals, so no open set is contained in ℚ. These examples show that the interior operator strips away the "boundary" of a set, leaving only the portion where the set has room to breathe.
+
+The interior operator satisfies four characteristic properties, known as the **Kuratowski interior axioms**: (1) int(X) = X, (2) int(A) ⊆ A for every A, (3) int(int(A)) = int(A) (idempotence), and (4) int(A ∩ B) = int(A) ∩ int(B). Property (3) follows from the fact that int(A) is already open, and the interior of an open set is itself. Property (4) states that the interior distributes over finite intersections. However, the analogous identity for unions fails: int(A ∪ B) is not necessarily equal to int(A) ∪ int(B). For example, in ℝ, int([0, 1] ∪ [1, 2]) = int([0, 2]) = (0, 2), but int([0, 1]) ∪ int([1, 2]) = (0, 1) ∪ (1, 2), which misses the point 1.
+
+The interior operator is dual to the **closure** operator: int(A) = X \ cl(X \ A), and cl(A) = X \ int(X \ A). Taking the interior of A is the same as taking the complement, then the closure, then the complement again. This duality means that every theorem about interiors has a dual theorem about closures, and vice versa. A set is open if and only if it equals its own interior (A = int(A)), just as a set is closed if and only if it equals its own closure. The interior and closure operators, together with the boundary operator ∂A = cl(A) \ int(A), provide a complete toolkit for analyzing the fine structure of sets in a topological space.
+
 ## Questions
 
 ```yaml

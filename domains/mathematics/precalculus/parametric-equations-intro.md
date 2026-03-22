@@ -33,6 +33,16 @@ Start with linear motion (x = t, y = 2t + 1), then circles (x = cos(t), y = sin(
 - Losing information about direction of traversal when eliminating the parameter.
 - Assuming parametric equations always trace a curve exactly once (they may retrace or only cover part of a curve).
 
+## Explainer
+
+In everything you have studied so far, curves have been described by equations relating x and y directly: y = x², x² + y² = 1, and so on. **Parametric equations** take a fundamentally different approach: instead of relating x and y to each other, they define both as separate functions of a third variable t, called the **parameter**. You write x = f(t), y = g(t), and as t varies over some interval, the point (x, y) traces out a curve in the plane. The parameter often represents time — at time t, the object is at position (f(t), g(t)) — but it can represent any quantity that drives the motion.
+
+The simplest example is a circle: x = cos(t), y = sin(t) for 0 ≤ t ≤ 2π. As t increases from 0 to 2π, the point starts at (1, 0) and sweeps counterclockwise around the unit circle. Eliminating the parameter — using the identity cos²(t) + sin²(t) = 1 — gives x² + y² = 1, the familiar rectangular equation. But the rectangular equation loses critical information: it tells you the shape is a circle, but not where the tracing starts, which direction it goes, or how fast. The parametric form encodes all of this. If you changed the parametrization to x = cos(2t), y = sin(2t) for 0 ≤ t ≤ π, the shape would be the same circle, but traversed twice as fast.
+
+One of the primary advantages of parametric equations is that they can describe curves that fail the vertical line test — curves that cannot be written as y = f(x). A circle, a figure eight, a spiral — none of these are functions of x, yet all have clean parametric descriptions. The parametric framework separates horizontal and vertical motion into independent components, which is exactly how physics models projectile motion: x(t) = v₀ cos(θ) · t handles horizontal displacement while y(t) = v₀ sin(θ) · t − ½gt² handles vertical displacement, and together they trace the parabolic path.
+
+To **eliminate the parameter**, you solve one equation for t and substitute into the other, or use an identity. From x = t + 1 and y = t², solving the first gives t = x − 1, so y = (x − 1)². But be careful: the parameter range restricts which portion of the rectangular curve is actually traced. If t ∈ [0, 3], then x ranges from 1 to 4 and y from 0 to 9 — only part of the parabola. The rectangular equation y = (x − 1)² describes the entire parabola, so elimination can introduce points that the parametric curve never visits. This is why parametric equations carry strictly more information than their rectangular counterparts: they encode not just the shape, but the extent, direction, and speed of traversal.
+
 ## Questions
 
 ```yaml

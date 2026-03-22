@@ -26,6 +26,16 @@ Plot various datasets (positive, negative, no correlation; linear and nonlinear)
 ## Common Misconceptions
 Thinking correlation is present just because points follow any pattern (nonlinear associations aren't linear). Assuming scatterplots reveal causation.
 
+## Explainer
+
+A **scatterplot** is the most fundamental tool for exploring the relationship between two quantitative variables. Each observation contributes one point: its x-coordinate is the value of one variable, its y-coordinate the value of the other. The resulting cloud of points reveals patterns that no single number can capture — the direction of the association (positive or negative), its form (linear or curved), its strength (tight clustering or loose spread), and the presence of outliers or clusters. Looking at the scatterplot before computing any summary statistic is not optional; it is the essential first step in bivariate analysis.
+
+Three features describe the pattern in a scatterplot. **Direction**: a positive association means that as x increases, y tends to increase (points slope upward from left to right); a negative association means y tends to decrease as x increases (points slope downward). **Form**: the pattern may be approximately linear (following a straight line), curved (quadratic, exponential, logarithmic), or have no discernible form. **Strength**: strong associations show points clustered tightly around the underlying pattern; weak associations show a loose, dispersed cloud. A strong positive linear association looks like a narrow band of points ascending from left to right; a weak association looks like a diffuse oval.
+
+The **correlation coefficient** r quantifies only the linear component of the association. It ranges from −1 (perfect negative linear) to +1 (perfect positive linear), with 0 indicating no linear relationship. But r = 0 does not mean "no relationship" — it means "no linear relationship." A perfect U-shaped curve has r ≈ 0 because the upward and downward linear tendencies cancel. This is precisely why the scatterplot matters: it reveals nonlinear structure that r completely misses. Anscombe's Quartet — four datasets with nearly identical means, variances, and correlation coefficients but wildly different scatterplots — is the canonical demonstration that summary statistics alone can be deeply misleading.
+
+A strong association in a scatterplot does **not** establish causation. Ice cream sales and drowning rates are strongly positively correlated, but ice cream does not cause drowning — both are driven by summer temperatures, a confounding variable. Establishing causation requires experimental design (randomized controlled trials), not just observed correlation. The mantra "correlation does not imply causation" is not merely a slogan — it reflects a fundamental logical gap between observing that two variables move together and concluding that one drives the other. Scatterplots reveal association; determining its cause requires additional evidence and careful study design.
+
 ## Questions
 
 ```yaml

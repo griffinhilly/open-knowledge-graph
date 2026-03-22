@@ -29,6 +29,16 @@ Follow a prediction market (Polymarket, Metaculus, or similar) and compare its p
 - Market prices are not always right — they are the best available estimate given current information, which can still be wrong.
 - Thin markets (few participants) can be poorly calibrated — the aggregation benefit requires sufficient participation.
 
+## Explainer
+
+From calibration training, you know that individual forecasters can improve their accuracy through practice and feedback. Prediction markets take this principle and scale it: instead of training one person to be well-calibrated, they create a mechanism that aggregates the information and judgment of many participants into a single probability estimate -- and the mechanism has a built-in self-correction feature that individual forecasting lacks.
+
+The basic structure is simple. Participants buy and sell contracts that pay out based on the outcome of a future event. If you believe a candidate has a 70% chance of winning an election but the market price sits at 50%, you can buy contracts cheaply and expect to profit. Your purchase pushes the price toward 70%, encoding your information into the market. If you are wrong, you lose money. This financial incentive is the engine of the mechanism: anyone who believes the market is mispriced has a profit motive to correct it, and anyone who trades on bad information loses money over time. The result is a price that reflects the aggregate judgment of all participants, weighted by how much financial confidence they are willing to put behind their beliefs.
+
+This makes prediction markets fundamentally different from polls or expert panels. A poll averages stated opinions, with no consequence for being wrong -- a confident but poorly calibrated respondent counts the same as a well-calibrated one. An expert panel aggregates reputations, which correlate imperfectly with accuracy. A prediction market aggregates **incentivized information**: every participant's contribution is weighted by their willingness to back it with money, and participants who are consistently wrong lose their stake and exit the market. This selection mechanism means the price converges toward accuracy over time. Research by Arrow, Hanson, and others confirms that well-populated prediction markets are remarkably well-calibrated -- events priced at 70% occur roughly 70% of the time.
+
+Prediction markets also serve an important epistemic function: they reveal how much genuine uncertainty exists about a question. When a market sits at 60%, it means the aggregate intelligence of all participating traders -- after accounting for their financial incentives to be accurate -- rates the event at 60%. This is a much more informative signal than a pundit confidently declaring what will happen, because the market price reflects the limits of collective knowledge rather than any individual's overconfidence. The main limitation is market thickness: thin markets with few participants can be poorly calibrated because the self-correcting mechanism requires enough traders to bring diverse information to the table. But in active markets, the price is typically the single best available estimate of the probability of future events.
+
 ## Questions
 
 ```yaml

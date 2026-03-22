@@ -28,6 +28,16 @@ Draw loops on S¹ with different winding numbers and verify that composition cor
 ## Common Misconceptions
 The winding number is not about the shape of the loop but only about its net winding. A complicated loop that winds forward and backward may have winding number zero. Students also sometimes confuse π₁(S¹) ≅ ℤ with π₁(S²) ≅ 0—the sphere is simply connected because loops can be contracted over the surface.
 
+## Explainer
+
+The fundamental group of the circle, π₁(S¹), is isomorphic to the integers ℤ under addition. This is the first nontrivial computation in algebraic topology and serves as the prototype for all subsequent fundamental group calculations. The isomorphism assigns to each homotopy class of loops its **winding number** — the net number of times the loop wraps around the circle, counted positive for counterclockwise and negative for clockwise. A loop that winds twice counterclockwise represents the integer 2; a loop that winds once clockwise represents −1. Concatenation of loops corresponds to addition of winding numbers: a loop of class 2 followed by a loop of class 3 gives a loop of class 5.
+
+The winding number depends only on the net wrapping, not on the geometric complexity of the loop. A loop that winds 50 times counterclockwise and then 50 times clockwise has winding number 0 — it is homotopic to the constant loop, regardless of how elaborate its trajectory appears. This is a fundamental principle in algebraic topology: the homotopy class captures what cannot be continuously undone, not the visual complexity of the path. Two loops are homotopic if and only if they have the same winding number, so the homotopy classes are in exact bijection with the integers.
+
+The rigorous proof that π₁(S¹) ≅ ℤ uses the **covering space** ℝ → S¹ given by the exponential map p(t) = e^{2πit}. This map wraps the real line around the circle: every integer maps to the basepoint 1 ∈ S¹, and the intervals [n, n+1] each map onto exactly one full traversal of the circle. Given a loop γ in S¹ based at 1, the unique path lifting property of covering spaces produces a path γ̃ in ℝ starting at 0. Since γ is a loop (it returns to 1), the lifted path γ̃ must end at some integer n. This integer is the winding number. Crucially, homotopic loops in S¹ lift to paths with the same endpoint in ℝ — the lifting is homotopy-invariant — so the map [γ] ↦ n is a well-defined group homomorphism, and one can verify it is a bijection.
+
+This computation has far-reaching consequences. It proves that the circle is not simply connected (π₁(S¹) is nontrivial), which distinguishes S¹ from contractible spaces like the disk. It provides the topological foundation for the argument that every polynomial has a root (a winding-number argument). It also explains why π₁(S²) is trivial: on the 2-sphere, any loop can slide over the surface and shrink to a point — there is no hole for a loop to wrap around. The contrast between π₁(S¹) ≅ ℤ and π₁(S²) = 0 illustrates how the fundamental group detects one-dimensional holes: the circle has one, the sphere does not.
+
 ## Questions
 
 ```yaml

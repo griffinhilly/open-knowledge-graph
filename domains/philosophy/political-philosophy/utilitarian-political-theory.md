@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - utilitarianism
 - consequentialism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

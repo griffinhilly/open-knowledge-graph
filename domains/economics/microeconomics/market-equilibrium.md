@@ -16,7 +16,7 @@ tags:
 - price
 - surplus
 - shortage
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

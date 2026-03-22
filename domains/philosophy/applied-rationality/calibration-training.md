@@ -35,6 +35,16 @@ Use calibration training apps or exercises: estimate probabilities for trivia qu
 - Perfect calibration does not mean predicting 50% for everything — it means using the full range of probabilities and being right at the rate you predict.
 - Calibration training is not about math — it is about developing an honest internal sense of how much you actually know.
 
+## Explainer
+
+From your prerequisites, you know that Bayesian thinking means treating beliefs as probabilities and updating on evidence, and that the lens of rationality can examine its own flaws. Calibration training is where these ideas become empirically testable. The core question is simple: when you say you are 70% confident, are you right about 70% of the time? If the answer is yes, you are calibrated. If you are right only 50% of the time at stated 70% confidence, you are overconfident -- and research consistently shows that most people are.
+
+The overconfidence gap is remarkably robust. Studies across domains -- trivia, forecasting, medical diagnosis, legal judgment -- find that people's 90% confidence intervals contain the true answer only 50-70% of the time. This is not a minor miscalibration; it means that events people consider near-certain regularly fail to occur. The Good Judgment Project, a large-scale forecasting tournament, demonstrated that this gap is closable: forecasters who received regular feedback on their calibration improved dramatically, achieving near-perfect calibration over time. The key was not raw intelligence or domain expertise but the feedback loop -- making predictions, checking results, and adjusting the internal sense of certainty.
+
+The practical mechanics are straightforward. You make explicit probability estimates for questions where you can later check the answer: trivia questions, project completion dates, weather predictions, election outcomes. You record your estimates, sorted by confidence level, and after enough predictions you plot a calibration curve -- stated confidence on one axis, actual accuracy on the other. Perfect calibration is a 45-degree line; most people's curves reveal overconfidence (the accuracy line sits below the confidence line). Once you see your curve, you know which direction to adjust: if your 90% predictions come true only 70% of the time, you learn to mentally downgrade what feels like 90% to roughly 70%.
+
+Calibration is distinct from accuracy, and this distinction matters. A person who says "50% confident" on every question and gets half right is perfectly calibrated but not very useful -- they are not discriminating between what they know and what they do not. A well-calibrated expert uses the full range of probabilities: 95% for well-established facts, 60% for educated guesses, 30% for things they think are probably wrong. The goal is not uniform uncertainty but honest probability estimation -- being as confident as the evidence warrants, no more and no less. This is why calibration training is foundational to the entire applied rationality project: it converts abstract commitment to "proportioning belief to evidence" into a measurable, improvable skill.
+
 ## Questions
 
 ```yaml

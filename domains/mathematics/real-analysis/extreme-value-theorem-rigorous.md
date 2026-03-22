@@ -29,6 +29,16 @@ First prove the supporting lemma that continuous images of compact sets are comp
 ## Common Misconceptions
 Students sometimes think continuity alone guarantees extrema, forgetting that the domain must be compact. The theorem also does not say where the extrema occur—they might be at interior points or boundary points.
 
+## Explainer
+
+From your study of ε-δ continuity and compact sets, you have the two ingredients needed for one of the most important existence theorems in analysis. The **Extreme Value Theorem** (EVT) states: if f is continuous on a compact set K, then f attains its maximum and minimum values — there exist points x_max, x_min ∈ K such that f(x_min) ≤ f(x) ≤ f(x_max) for all x ∈ K. This is the theorem that guarantees optimization problems on closed bounded intervals have solutions, and its proof is a showcase for the power of compactness.
+
+The proof has two clean steps. First, the continuous image of a compact set is compact. If K is compact and f is continuous, then f(K) is compact — this follows from the open-cover characterization of compactness (every open cover of f(K) pulls back to an open cover of K, which has a finite subcover, which maps forward to a finite subcover of f(K)). Second, compact subsets of ℝ are closed and bounded by the Heine-Borel theorem. Being bounded means f(K) has a finite supremum M = sup f(K). Being closed means M ∈ f(K) — the supremum is actually achieved as a value of f. Therefore some x_max ∈ K satisfies f(x_max) = M. The argument for the minimum is identical.
+
+Both hypotheses — continuity and compactness — are genuinely necessary, and studying their failure clarifies what each contributes. If you drop compactness: f(x) = 1/x on (0, 1] is continuous but unbounded above (f(x) → ∞ as x → 0⁺), so no maximum exists. The domain (0, 1] is bounded but not closed, hence not compact. If you drop continuity: the function f(x) = x for x ∈ [0, 1) with f(1) = 0 is defined on the compact set [0, 1], but it is discontinuous at x = 1. Its supremum is 1 (approached but never reached), so the maximum is not attained. Each hypothesis does specific work: compactness ensures the image is bounded and closed; continuity ensures the image of a compact set is compact.
+
+The EVT is purely an **existence theorem** — it guarantees that a maximum and minimum exist but says nothing about where they occur or how to find them. The maximum could be at an interior point (where calculus gives f'(x) = 0 for differentiable functions) or at a boundary point of the domain. Finding extrema requires the separate machinery of critical points and boundary evaluation that you learned in calculus. What the EVT adds is the assurance that this search will succeed: the maximum and minimum are out there to be found, not asymptotically approached but never reached. This guarantee is what makes the closed-interval method of optimization logically sound.
+
 ## Questions
 
 ```yaml

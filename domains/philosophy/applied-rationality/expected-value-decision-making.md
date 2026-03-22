@@ -35,6 +35,16 @@ Practice on low-stakes decisions first: should you try a new restaurant (high va
 - A positive expected value does not guarantee a good outcome — it means that if you systematically take positive-EV bets, you will come out ahead over many decisions.
 - Not all values can be easily quantified — expected value reasoning is a framework, not a formula that replaces judgment.
 
+## Explainer
+
+From your prerequisites, you know the mathematical concept of expected value -- the probability-weighted average of all possible outcomes -- and you know that Bayesian thinking means treating beliefs as probabilities and updating on evidence. Expected value decision-making takes these tools and applies them to the central practical question: given uncertainty about the future, how should you choose?
+
+The core idea is deceptively simple. For each option, list the possible outcomes, estimate their probabilities, multiply each outcome's value by its probability, and sum. The option with the highest expected value is the rational choice. A bet that pays $100 with 20% probability and loses $10 with 80% probability has an expected value of +$12 -- a good bet, even though you lose most of the time. This arithmetic extends beyond money to anything you value: expected career impact, expected quality-adjusted life years, expected learning. The framework says: do not be seduced by the most likely outcome alone; weight every possibility by both its probability and its magnitude.
+
+The practical power of expected value reasoning comes from a counterintuitive implication: **a bet that loses most of the time can be the correct bet to take**. Venture capital illustrates this vividly. Most startups fail, and most venture investments return nothing. But the rare successes are so large that a portfolio of positive-expected-value startup bets produces excellent returns over time. A person who evaluates bets purely by win probability -- "this fails 90% of the time, so it's a bad bet" -- systematically misses these opportunities because they are ignoring the magnitude of the payoff. Expected value reasoning forces you to consider both dimensions: how likely and how big.
+
+The framework has important limitations that prevent it from being a universal decision algorithm. When stakes are large relative to your total resources, **variance matters as much as expected value**. A bet with +$12 expected value is rational at $10 stakes but potentially ruinous at $100,000 stakes if you cannot survive the loss. Going bankrupt eliminates your ability to make future positive-EV bets -- a catastrophe that the expected value calculation does not capture. The Kelly criterion and expected utility theory address this: the marginal value of resources diminishes as wealth decreases, so rational agents should be more conservative when a single loss could be devastating. Expected value reasoning is most powerful as a portfolio strategy -- systematically taking positive-EV bets across many decisions at manageable stakes -- rather than as a justification for any single all-in gamble.
+
 ## Questions
 
 ```yaml

@@ -20,7 +20,7 @@ tags:
 - testimony
 - examples
 - credibility
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

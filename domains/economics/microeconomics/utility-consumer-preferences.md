@@ -13,7 +13,7 @@ tags:
 - preferences
 - satisfaction
 - consumer-behavior
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

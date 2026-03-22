@@ -27,6 +27,16 @@ Start by computing partial sums of ζ(2) = π²/6 to see convergence, then study
 ## Common Misconceptions
 The zeta function is not defined by the series Σ 1/nˢ for all s—that series diverges for Re(s) ≤ 1. Statements like "ζ(−1) = −1/12" refer to the analytic continuation, not to summing 1 + 2 + 3 + .... Students must distinguish the series from its continuation.
 
+## Explainer
+
+From your study of the distribution of primes, you know the central question of analytic number theory: how are prime numbers distributed among the integers? The prime counting function π(x) grows roughly like x/ln(x), but understanding the precise error in this approximation requires tools from complex analysis. The **Riemann zeta function** ζ(s) = Σₙ₌₁^∞ 1/nˢ is the bridge between these two worlds — it encodes the entire structure of the primes into a single analytic object.
+
+The series definition converges for Re(s) > 1, but the function's real power becomes visible through the **Euler product**: ζ(s) = ∏_p (1 − p⁻ˢ)⁻¹, where the product ranges over all primes p. This identity is a direct consequence of the Fundamental Theorem of Arithmetic — every positive integer factors uniquely into primes, so the sum over all integers "factors" into a product over all primes. Each factor (1 − p⁻ˢ)⁻¹ = 1 + p⁻ˢ + p⁻²ˢ + ⋯ is a geometric series collecting contributions from all powers of p. The Euler product transforms number-theoretic information (the primes) into analytic information (the behavior of a complex function), and vice versa.
+
+The function extends via **analytic continuation** to the entire complex plane, with a single simple pole at s = 1 (corresponding to the divergence of the harmonic series). At s = 1, the pole reflects the fact that primes are "just barely" dense enough for the harmonic series to diverge. The functional equation ζ(s) = 2ˢπˢ⁻¹ sin(πs/2) Γ(1−s) ζ(1−s) relates values at s to values at 1 − s, revealing a deep symmetry about the line Re(s) = 1/2. The "trivial zeros" occur at s = −2, −4, −6, ... (forced by the sin factor), while the **non-trivial zeros** — the ones that matter for prime distribution — all lie in the critical strip 0 ≤ Re(s) ≤ 1.
+
+The connection to primes is made precise by the **prime number theorem**: π(x) ~ x/ln(x), proved by Hadamard and de la Vallée-Poussin in 1896 by showing that ζ(s) has no zeros on the line Re(s) = 1. The location of the non-trivial zeros governs the error term in the prime counting function. The **Riemann Hypothesis** — that all non-trivial zeros lie exactly on the line Re(s) = 1/2 — would give the sharpest possible error bound: π(x) = Li(x) + O(√x log x). Despite 165 years of effort and numerical verification of trillions of zeros, the hypothesis remains unproved. It stands as perhaps the deepest unsolved problem in mathematics, connecting complex analysis, number theory, and even random matrix theory through the statistical behavior of its zeros.
+
 ## Questions
 
 ```yaml

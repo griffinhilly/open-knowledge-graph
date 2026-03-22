@@ -29,6 +29,16 @@ Practice evaluating piecewise functions at specific points, especially at the bo
 - Forgetting to check open vs. closed endpoints (filled vs. open circles on the graph).
 - Assuming piecewise functions are always discontinuous at the boundaries.
 
+## Explainer
+
+From your study of function notation and domain/range, you know that a function assigns exactly one output to each input. A **piecewise function** does this using different formulas on different parts of its domain. The simplest example is the absolute value function: f(x) = x when x ≥ 0 and f(x) = −x when x < 0. There is no contradiction — at any particular input, exactly one formula applies. The function is perfectly well-defined; it just uses different rules in different regions.
+
+Piecewise functions model real situations where rules change at thresholds. Tax brackets are piecewise: your tax rate on the first $10,000 of income differs from the rate on income above $10,000. Shipping costs often jump at weight thresholds. Speed limits change at city boundaries. In each case, the underlying relationship is a single function of one variable, but the formula governing it switches at specific boundary values. Recognizing these as piecewise functions connects abstract function notation to the stepped, threshold-based rules you encounter constantly in everyday life.
+
+**Graphing** a piecewise function requires attention to three things: drawing each piece on its correct interval, marking boundary points carefully with open or closed circles, and checking whether the pieces connect. An open circle at a boundary means the function does not include that point (strict inequality); a closed circle means it does (inclusive inequality). For f(x) = { x² if x < 2; 3x − 1 if x ≥ 2 }, you draw the parabola y = x² only for x-values strictly less than 2 (open circle at (2, 4)), then the line y = 3x − 1 for x ≥ 2 (closed circle at (2, 5)). The gap between the open and closed circles reveals a **jump discontinuity** at x = 2.
+
+Not all piecewise functions are discontinuous at their boundaries. If the pieces happen to agree at the boundary — if the left-hand limit, the right-hand limit, and the function value all match — the function is continuous there and the graph passes through the boundary without a break. For example, f(x) = { x if x < 1; 1 if x ≥ 1 } is continuous at x = 1 because both pieces approach 1. This observation previews the formal concept of **continuity** and **one-sided limits** that you will study rigorously in calculus. The intuition you build here — checking whether pieces "connect" at boundaries — is exactly what the ε-δ definition of continuity will formalize.
+
 ## Questions
 
 ```yaml

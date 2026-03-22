@@ -15,7 +15,7 @@ tags:
 - causation
 - explanation
 - reasoning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

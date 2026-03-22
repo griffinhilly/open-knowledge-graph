@@ -13,7 +13,7 @@ tags:
 - demand
 - consumer
 - price-quantity-relationship
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -24,6 +24,16 @@ status: draft
 ## Core Idea
 A sequence of functions (fₙ) converges pointwise to f if for every x and every ε > 0, there exists N (depending on both x and ε) such that n > N implies |fₙ(x) - f(x)| < ε. This is the weakest notion of convergence for functions. Pointwise limits can have surprising properties: a sequence of continuous functions can converge pointwise to a discontinuous function.
 
+## Explainer
+
+From your study of ε-N convergence for sequences of real numbers, you know how to formalize "aₙ approaches L." Pointwise convergence of function sequences extends this idea to functions: instead of a single sequence of numbers, you have a sequence of functions f₁, f₂, f₃, ..., each mapping a set S into ℝ, and you ask whether these functions approach a limit function f. The word "pointwise" means you check convergence one point at a time: for each fixed x ∈ S, does the numerical sequence f₁(x), f₂(x), f₃(x), ... converge to f(x)?
+
+Formally, fₙ → f pointwise on S if: for every x ∈ S and every ε > 0, there exists N (which may depend on both x and ε) such that n > N implies |fₙ(x) − f(x)| < ε. The crucial feature is that N is chosen **after** x is fixed — different points in S may converge at wildly different speeds. This is the weakest natural notion of convergence for functions, and it gives the analyst very little control over the behavior of the limit function.
+
+The standard example that reveals the limitations is fₙ(x) = xⁿ on [0, 1]. Every fₙ is a smooth, continuous function. At any fixed x ∈ [0, 1), since |x| < 1, the powers xⁿ decay to 0. At x = 1, every power is 1. So the pointwise limit is f(x) = 0 for x < 1 and f(1) = 1 — a function with a jump discontinuity at x = 1. The limit of continuous functions has failed to be continuous. The reason is that near x = 1, the convergence is extremely slow: for x = 1 − 1/n, we have fₙ(x) = (1 − 1/n)ⁿ ≈ 1/e, still far from 0. No single N can make fₙ uniformly close to f across all of [0, 1].
+
+This failure motivates the stronger notion of **uniform convergence**, where N must work for all x simultaneously. Uniform convergence preserves continuity: if each fₙ is continuous and fₙ → f uniformly, then f is continuous. It also preserves integrability and, under additional hypotheses, differentiability. Pointwise convergence guarantees none of these. The conceptual lesson is that convergence of functions is a fundamentally richer subject than convergence of numbers — the spatial variation of convergence speed creates phenomena that have no analogue in the theory of numerical sequences, and distinguishing pointwise from uniform convergence is one of the central achievements of nineteenth-century analysis.
+
 ## Questions
 
 ```yaml

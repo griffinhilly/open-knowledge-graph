@@ -30,6 +30,16 @@ Practice recognizing when permutations vs. combinations apply. Solve problems by
 ## Common Misconceptions
 Using combinations when permutations are needed (or vice versa). Assuming all outcomes are equally likely in situations where they are not (non-uniform sample spaces).
 
+## Explainer
+
+From your study of counting principles and sample spaces, you know two things: every probability calculation starts with identifying the sample space (the set of all possible outcomes), and counting the number of outcomes in a set can be done systematically using permutations and combinations. **Probability with combinatorics** brings these together: when all outcomes in the sample space are equally likely, the probability of an event A is simply P(A) = (number of outcomes in A) / (total number of outcomes). The entire challenge reduces to counting correctly.
+
+The critical decision in every counting problem is whether **order matters**. When selecting 3 people from a group of 10 to fill the roles of president, vice-president, and treasurer, the arrangement (Alice, Bob, Carol) is different from (Carol, Bob, Alice) — order matters, so you use **permutations**: P(10, 3) = 10 × 9 × 8 = 720. When selecting 3 people from 10 to form a committee with no designated roles, the group {Alice, Bob, Carol} is the same committee regardless of who was named first — order does not matter, so you use **combinations**: C(10, 3) = 720 / 3! = 120. The combination formula divides by the number of ways to rearrange the selected items (3! = 6), eliminating the redundant orderings.
+
+Many probability problems require **combining** counting techniques. To find the probability of being dealt a flush in poker (all 5 cards the same suit), you count favorable outcomes as C(4, 1) × C(13, 5) — choose 1 suit from 4, then choose 5 cards from the 13 in that suit — and total outcomes as C(52, 5). The multiplication principle applies because the two choices (which suit, which cards) are independent. For the probability of getting exactly 3 heads in 5 fair coin flips, the favorable count is C(5, 3) = 10 (the number of ways to choose which 3 of the 5 flips are heads), and total outcomes is 2⁵ = 32, giving P = 10/32 = 5/16.
+
+The equally-likely assumption is essential and must be verified — it is not automatic. A fair die has equally likely outcomes; a loaded die does not. Drawing cards without replacement from a well-shuffled deck gives equally likely hands; drawing from a poorly shuffled deck does not. When outcomes are not equally likely, the counting formula P(A) = |A|/|S| is invalid, and you must assign probabilities to individual outcomes or use other methods. Recognizing when the equally-likely model applies — and when it breaks down — is just as important as the counting itself.
+
 ## Questions
 
 ```yaml

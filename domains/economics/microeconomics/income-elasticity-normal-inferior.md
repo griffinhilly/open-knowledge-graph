@@ -12,7 +12,7 @@ tags:
 - elasticity
 - income
 - consumption-patterns
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

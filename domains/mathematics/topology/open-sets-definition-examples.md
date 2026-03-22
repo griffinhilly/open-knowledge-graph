@@ -21,6 +21,16 @@ status: draft
 ## Core Idea
 Open sets are the members of the topology τ and form the basic structure. A set U is open iff for every point x in U, there exists an open set V with x ∈ V ⊆ U. Open sets are the fundamental building blocks of topology; all other topological concepts (closure, continuity, compactness) are defined in terms of open sets.
 
+## Explainer
+
+In a topological space (X, τ), the **open sets** are precisely the members of the topology τ. A set U ⊆ X is open if U ∈ τ — there is no deeper criterion. The topology τ is a collection of subsets of X satisfying three axioms: ∅ and X belong to τ, arbitrary unions of members of τ belong to τ, and finite intersections of members of τ belong to τ. Every topological concept — continuity, convergence, compactness, connectedness — is ultimately defined in terms of open sets, making them the foundational building blocks of the subject.
+
+The crucial insight is that openness is **relative to the topology**, not intrinsic to the set. The same set of points can be open in one topology and not open in another. On ℝ, the interval (0, 1) is open in the standard topology (every point has an open interval around it within (0, 1)) but is not open in the indiscrete topology {∅, ℝ}. On a finite set X = {1, 2, 3}, the singleton {1} is open in the discrete topology (where every subset is open) but not in the topology τ = {∅, X}. Asking "is this set open?" without specifying the topology is meaningless — like asking "is this vector long?" without specifying a norm.
+
+In the standard topology on ℝ, the open sets are exactly the unions of open intervals. This includes all open intervals (a, b), all unions of open intervals like (0, 1) ∪ (3, 5), and the empty set and ℝ itself. Closed intervals like [0, 1] are not open: the point 0 has no open interval around it that stays within [0, 1]. Half-open intervals like [0, 1) are also not open. A set that is not open is not necessarily closed — [0, 1) is neither open nor closed in the standard topology. The four categories (open, closed, both, neither) all genuinely occur.
+
+In every topology, ∅ and X are both open and both closed — they are **clopen**. Beyond these, the discrete topology makes every subset open, while the indiscrete topology makes only ∅ and X open. Most interesting topologies lie between these extremes. The axiom requiring closure under arbitrary unions but only finite intersections is carefully calibrated: if arbitrary intersections of open sets were required to be open, then in ℝ the intersection ∩ₙ(−1/n, 1/n) = {0} would have to be open, which would force every singleton to be open and collapse the topology to the discrete one. The finite intersection restriction is what preserves a nontrivial distinction between open and non-open sets.
+
 ## Questions
 
 ```yaml

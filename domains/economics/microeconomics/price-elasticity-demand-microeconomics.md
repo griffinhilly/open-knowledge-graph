@@ -15,7 +15,7 @@ tags:
 - demand
 - sensitivity
 - price-change
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

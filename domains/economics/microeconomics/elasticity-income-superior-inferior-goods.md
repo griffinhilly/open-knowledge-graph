@@ -11,7 +11,7 @@ tags:
 - income
 - normal-goods
 - inferior-goods
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 
