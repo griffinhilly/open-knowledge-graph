@@ -177,6 +177,36 @@ Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
 - [ ] Add assessment generation to GitHub Actions workflow
 - [ ] Write announcement post
 
+## Phase 8.5: K-12 STEM Expansion — IN PROGRESS (Mar 22, 2026)
+Add introductory courses (pre-formal through abstract-reasoning) to 7 STEM domains that currently have no content below formal-systems. ~500 new topics across ~16 new courses.
+
+### Session 1: Physics + Chemistry (~150 topics)
+- [ ] Physical Science (concrete-operations, ~40 topics): forces, energy, simple machines, magnets, light, sound
+- [ ] Conceptual Physics (abstract-reasoning, ~40 topics): Newton's laws, momentum, work/energy, circuits, waves, thermal transfer
+- [ ] Properties of Matter (concrete-operations, ~35 topics): states of matter, mixtures, physical/chemical changes, materials
+- [ ] Intro Chemistry (abstract-reasoning, ~35 topics): atoms, elements, periodic table, reactions, acids/bases, conservation of mass
+- [ ] Wire prerequisite chains into existing university courses
+- [ ] Review + validate
+
+### Session 2: Biology + Earth & Space (~150 topics)
+- [ ] Living Things (pre-formal/concrete, ~40 topics): plants/animals, life cycles, habitats, food chains, body basics
+- [ ] Life Science (concrete/abstract, ~40 topics): cells, body systems, heredity, ecosystems, photosynthesis, classification
+- [ ] Earth & Weather (pre-formal/concrete, ~35 topics): weather, seasons, water cycle, rocks, landforms, moon phases
+- [ ] Earth Science (concrete/abstract, ~35 topics): rock cycle, plate tectonics, atmosphere, solar system, fossils
+
+### Session 3: Health + Engineering + Formal Sciences (~170 topics)
+- [ ] My Body (pre-formal/concrete, ~30 topics): body parts, senses, nutrition, hygiene, growth, emotions
+- [ ] Health Foundations (concrete/abstract, ~30 topics): nutrition, body systems overview, puberty, mental health, first aid
+- [ ] Design & Build (concrete-operations, ~30 topics): design process, simple machines, structures, materials, basic circuits
+- [ ] Engineering Principles (abstract-reasoning, ~30 topics): design cycle, forces, mechanical advantage, circuits, prototyping
+- [ ] Patterns & Logic (concrete-operations, ~25 topics): pattern recognition, sorting, Venn diagrams, if-then, sequences
+- [ ] Reasoning & Proof (abstract-reasoning, ~25 topics): logical arguments, counterexamples, deductive/inductive, truth tables
+
+### Post-expansion
+- [ ] Cross-domain prerequisite audit
+- [ ] Regenerate visualizations, verify radial graph inner rings
+- [ ] Push + deploy to GitHub Pages
+
 ## Phase 9: Learning Platform — PLANNED (Mar 19, 2026)
 Transform OKG from a static knowledge map into an interactive learning tool. Inspired by Math Academy's adaptive learning model. Nine features across four implementation phases.
 

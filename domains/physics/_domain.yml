@@ -4,6 +4,12 @@ description: The study of matter, energy, and the fundamental forces governing t
   natural world, from subatomic particles to the structure of the universe. Heavily
   mathematical — every physics concept builds on mathematical prerequisites.
 courses:
+- id: physical-science
+  title: Physical Science
+  stage: concrete-operations
+- id: conceptual-physics
+  title: Conceptual Physics
+  stage: abstract-reasoning
 - id: classical-mechanics
   title: Classical Mechanics
   stage: formal-systems

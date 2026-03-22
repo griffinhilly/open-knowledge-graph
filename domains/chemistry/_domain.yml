@@ -4,6 +4,12 @@ description: The study of matter, its properties, composition, structure, and th
   changes it undergoes during chemical reactions. Bridges physics and biology through
   understanding of atomic and molecular behavior.
 courses:
+- id: properties-of-matter
+  title: Properties of Matter
+  stage: concrete-operations
+- id: introductory-chemistry
+  title: Introductory Chemistry
+  stage: abstract-reasoning
 - id: general-chemistry
   title: General Chemistry
   stage: formal-systems
