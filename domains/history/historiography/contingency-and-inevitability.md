@@ -31,6 +31,45 @@ Contingency means historical outcomes were not inevitable or predetermined by la
 ## How It's Best Learned
 Use counterfactual reasoning: identify a pivotal moment and work through plausible alternatives to understand what made the actual outcome contingent.
 
+## Questions
+
+```yaml
+- question: "A historian argues World War I was inevitable by 1910 given rival alliances, imperial competition, and militarism. A critic responds that different diplomatic choices in July 1914 could still have prevented it. Which framework best describes the critic's position?"
+  type: multiple-choice
+  options:
+    - "Pure necessity — the critic agrees structural forces determined the outcome"
+    - "Contingency within structured possibility — structural constraints existed but specific outcomes remained open at critical junctures"
+    - "Pure randomness — the critic believes the war was caused entirely by chance with no structural component"
+    - "Teleology — the critic is reading the war backwards as an inevitable destination"
+  answer: 1
+  explanation: "The critic is not claiming anything was possible at any time, but that the range of live possibilities hadn't yet closed by July 1914 — diplomatic choices, personalities, and specific decisions still mattered. This is contingency within structured possibility: structural tensions set the constraints (making war more likely), while specific outcomes remained genuinely open within those constraints. Pure randomness (C) would deny structural causation entirely. Teleology (D) is the fallacy of reading backward — the opposite of the critic's view, which insists on genuine openness."
+
+- question: "A student writes: 'The fall of Rome was inevitable because its population was declining, its borders were overextended, and its economy was weakening.' What historiographical error does this most clearly exhibit?"
+  type: multiple-choice
+  options:
+    - "Anachronism — applying modern economic concepts to the ancient world"
+    - "Teleology — reading Roman history backward from its collapse as if decline was always the destination"
+    - "Presentism — imposing today's values on Roman behavior"
+    - "Contingency — attributing too much weight to random chance in Rome's collapse"
+  answer: 1
+  explanation: "The student is committing teleology: taking the outcome (Rome's fall) as given and reconstructing prior conditions to make it appear foreordained. But Romans did not experience their situation as inevitable decline — many expected recovery, military success, or continued expansion. Teleology strips away the genuine openness historical actors experienced, reading the past as a series of steps toward the already-known conclusion. A contingency-aware analysis would ask: at what point did Rome's trajectory become the most likely outcome, and what decisions or events could have altered it?"
+
+- question: "Historical contingency means historical events were uncaused — they resulted from pure chance rather than prior conditions."
+  type: true-false
+  answer: false
+  explanation: "Contingency does not mean randomness or absence of causation. Contingent events are fully caused — by decisions, conditions, and interactions — but they were not *determined* to occur by structural forces alone; they could have been otherwise given different choices or accidents within the same structural context. The more precise concept is 'contingency within structured possibility': structure constrains what is possible, but within those constraints specific outcomes remain genuinely open. Recovering contingency means recognizing that other outcomes were causally possible, not that events lacked causes."
+
+- question: "A historian who recovers the genuine uncertainty that historical actors experienced — resisting the temptation to narrate events as steps toward the known outcome — is practicing contingency-consciousness."
+  type: true-false
+  answer: true
+  explanation: "Contingency-consciousness requires inhabiting the epistemic position of historical actors, who did not know where events were heading. The past did not know where it was going; multiple futures seemed plausible to those living through events. A historian who maintains this openness — rather than reading prior events as inevitably leading to the conclusion already known — avoids teleology and better captures how agency, accident, and decision actually shaped outcomes. Counterfactual reasoning is one method for cultivating this perspective."
+
+- question: "What is the 'threshold question' in historical contingency analysis, and why is identifying it analytically important?"
+  type: short-answer
+  answer: "The threshold question asks: at what point did the range of live possibilities narrow — when did a particular outcome shift from merely possible to effectively unavoidable? Identifying this threshold distinguishes the phase when contingency was fully operative (alternatives genuinely open) from the phase when structural forces had effectively foreclosed them. For example, a war might have been avoidable in 1910 but practically inevitable by late July 1914. Locating that threshold matters because it identifies where agency and decisions had the greatest effect, and it guards against teleological narratives that treat the entire prior period as inexorably leading to the eventual outcome."
+  explanation: "The threshold question operationalizes the middle position between pure contingency and pure necessity. Rather than arguing abstractly about determinism, historians ask *when* and *how rapidly* possibilities closed off — a tractable empirical question grounded in evidence about structural pressures, decision points, and the range of options actors actually perceived as available. This makes the contingency/necessity debate productive rather than merely philosophical."
+```
+
 ## Explainer
 
 You already know how historians think about **causation**—the chains of causes and conditions that lead from antecedents to outcomes—and you've worked with **counterfactual reasoning**, the practice of imagining alternative histories to probe what actually drove events. The debate over contingency and necessity in history pulls these two ideas together into a deeper philosophical question: not just "what caused this?" but "could it have been otherwise?"

@@ -32,6 +32,45 @@ Enumerate all subsets of small finite sets (|A| = 0, 1, 2, 3) to confirm |P(A)| 
 - P(A) contains A itself (as A ⊆ A) and ∅ (as ∅ ⊆ A); do not confuse A ∈ P(A) with A ∈ A.
 - The power set axiom asserts only that the collection of all subsets exists as a set; it does not describe what those subsets are.
 
+## Questions
+
+```yaml
+- question: "Which of the following correctly states the relationship between ℕ (the natural numbers) and P(ℕ)?"
+  type: multiple-choice
+  options:
+    - "They have the same cardinality, since both are infinite sets"
+    - "P(ℕ) is larger, but it is still countably infinite"
+    - "P(ℕ) is uncountably infinite — strictly larger than ℕ — and has the same cardinality as ℝ"
+    - "P(ℕ) is exactly twice as large as ℕ, since each natural number either is or is not in a subset"
+  answer: 2
+  explanation: "By Cantor's theorem, there is no surjection from any set onto its power set, so |P(ℕ)| > |ℕ|. Since ℕ is countably infinite, P(ℕ) is uncountably infinite. Moreover, each subset S ⊆ ℕ corresponds to an infinite binary sequence (1 if n ∈ S, 0 if not), and these sequences biject with real numbers via binary expansion. Options A and B err by treating all infinities as equal; option D confuses the binary encoding with a size ratio."
+
+- question: "Set A = {1, 2, 3}. How many elements does P(A) contain, and does A itself appear as an element of P(A)?"
+  type: multiple-choice
+  options:
+    - "7 elements; A does not appear in P(A) because A is not a proper subset of itself"
+    - "8 elements; yes, A ∈ P(A) because A ⊆ A"
+    - "6 elements; only proper subsets are included in P(A)"
+    - "8 elements; no, A ∉ P(A) because A is the original set, not one of its own subsets"
+  answer: 1
+  explanation: "|P(A)| = 2³ = 8, including ∅, the three singletons, the three pairs, and {1,2,3} itself. Crucially, every set is a subset of itself (A ⊆ A), so A ∈ P(A). This is not the same as A ∈ A (self-membership, barred by the axiom of regularity). The power set contains all subsets — proper and improper — including ∅ and A itself."
+
+- question: "The power set of ℕ has the same cardinality as the set of real numbers ℝ."
+  type: true-false
+  answer: true
+  explanation: "Each subset S ⊆ ℕ encodes as an infinite binary sequence: position n is 1 if n ∈ S, 0 otherwise. Infinite binary sequences are exactly binary expansions of real numbers in [0,1], giving a bijection between P(ℕ) and (essentially) ℝ. So |P(ℕ)| = 2^{ℵ₀} = |ℝ|. The power set axiom, applied to ℕ, delivers the continuum."
+
+- question: "The power set axiom in ZFC specifies which subsets of a given set exist by providing a rule for constructing them."
+  type: true-false
+  answer: false
+  explanation: "The power set axiom only asserts existence — that the collection of all subsets exists as a set. It says nothing about what those subsets are or how to construct them. The axiom of separation is what lets you identify specific subsets via a property. The power set axiom's controversial impredicative character comes precisely from collecting all subsets at once without specifying them."
+
+- question: "Why does the power set axiom produce strictly larger sets for infinite inputs, while the axiom of separation cannot?"
+  type: short-answer
+  answer: "The axiom of separation can only extract a subset from a set you already have — the result is never larger than the input. The power set axiom collects all subsets into a new set, which by Cantor's theorem is always strictly larger than the original. It's generative rather than selective."
+  explanation: "Separation gives {x ∈ A : φ(x)}, which is at most as large as A. The power set gives P(A), whose cardinality exceeds |A| by Cantor's diagonal argument: no function from A to P(A) can be surjective. This is what allows ZFC to produce uncountable sets (P(ℕ)) from countable ones (ℕ), and sets larger than ℝ by iterating the operation."
+```
+
 ## Explainer
 
 From your overview of ZFC axioms, you know that each axiom guarantees the existence of a particular kind of set. The axiom of separation (your soft prerequisite) lets you carve out a subset of an existing set by specifying a property. But separation alone cannot *generate* genuinely new sets — it only gives you pieces of sets you already have. The **power set axiom** is categorically different: for any set A, it asserts the existence of the set P(A) of *all* subsets of A. This is a vast act of collection, and for infinite sets, it is what makes the real numbers constructible from the natural numbers.

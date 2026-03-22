@@ -31,6 +31,45 @@ Compare histochemical staining of muscle samples showing oxidative enzyme distri
 ## Common Misconceptions
 Not all Type II fibers are identical; intermediate subtypes (IIX, IIA) exist with graded oxidative capacity. Fiber type is not fixed in adulthood; chronic endurance training can partially shift fast fibers toward intermediate phenotype.
 
+## Questions
+
+```yaml
+- question: "After six months of marathon training, a runner's Type IIX muscle fibers are most likely to:"
+  type: multiple-choice
+  options:
+    - "Remain unchanged, since adult fiber type is genetically fixed and unresponsive to training"
+    - "Fully convert to Type I fibers due to the sustained aerobic demand of endurance exercise"
+    - "Shift toward a Type IIA phenotype with increased mitochondrial density and oxidative enzyme activity"
+    - "Decrease in size as the body reallocates energy substrates to Type I fibers"
+  answer: 2
+  explanation: "Chronic endurance training can shift Type IIX fibers toward the Type IIA intermediate phenotype — increasing mitochondrial density, capillary supply, and oxidative capacity. However, full conversion of Type II fibers into Type I fibers is extremely rare in humans. The common misconception is that endurance training produces complete fiber-type conversion; in reality, the shift is toward an intermediate phenotype, not a wholesale change."
+
+- question: "A competitive sprinter can sustain maximum effort for only about 10 seconds before performance drops sharply. Which feature of their Type IIX fibers best explains this rapid fatigue?"
+  type: multiple-choice
+  options:
+    - "Their myosin isoforms hydrolyze ATP too slowly to sustain the cross-bridge cycling required for sprinting"
+    - "They have too many mitochondria, generating excess heat that progressively inhibits contractile proteins"
+    - "They rely heavily on glycolytic metabolism, which produces ATP rapidly but generates fatigue-inducing byproducts and depletes glycogen quickly"
+    - "Their motor neurons have refractory periods too long to support sustained high-frequency firing"
+  answer: 2
+  explanation: "Type IIX fibers have few mitochondria and low capillary density, so they rely on glycolysis for rapid ATP production. Glycolysis is fast but inefficient: it depletes glycogen stores quickly and produces metabolic byproducts (including lactate and H⁺) that contribute to fatigue. This is the fundamental metabolic trade-off — speed and peak force at the cost of endurance."
+
+- question: "According to the size principle of motor unit recruitment, slow-twitch Type I motor units are activated before fast-twitch Type II units as force demands increase."
+  type: true-false
+  answer: true
+  explanation: "The size principle states that smaller motor neurons (innervating Type I slow-twitch fibers) have lower activation thresholds and are recruited first for low-force tasks. Larger motor neurons (innervating Type II fast-twitch fibers) are added progressively only as force demands increase. This ensures Type I fibers handle routine, sustained activity while Type II fibers are reserved for high-demand efforts."
+
+- question: "Elite marathon runners develop their characteristically high proportion of Type I muscle fibers primarily through years of endurance training, which fully converts Type II fibers into Type I fibers."
+  type: true-false
+  answer: false
+  explanation: "While endurance training can shift Type IIX fibers toward the intermediate Type IIA phenotype, full conversion to Type I fibers is extremely rare in humans. Elite marathon runners' high Type I proportions (often 70–80% in key muscles) largely reflect their genetic endowment — the fiber type composition they were born with. Training optimizes performance within that genetic framework but does not fundamentally rewire fiber type identity."
+
+- question: "Why do Type I muscle fibers resist fatigue during sustained activity, while Type IIX fibers fatigue rapidly? Refer to the metabolic machinery of each fiber type."
+  type: short-answer
+  answer: "Type I fibers are rich in mitochondria, have dense capillary networks for oxygen delivery, and contain myoglobin for intracellular oxygen storage. They primarily use aerobic metabolism (fatty acid oxidation, citric acid cycle, oxidative phosphorylation), which efficiently regenerates ATP continuously as long as oxygen and fuel are available — producing no significant fatigue-inducing byproducts. Type IIX fibers have few mitochondria and rely on glycolysis, which generates ATP rapidly but accumulates metabolic byproducts that impair contractile function and quickly depletes glycogen stores."
+  explanation: "The metabolic machinery of each fiber type is matched to its contractile speed. The slow myosin of Type I fibers would be 'wasted' on glycolytic fuel, and the fast myosin of Type IIX fibers outpaces what aerobic metabolism could support. Each fiber type is internally consistent in its molecular design."
+```
+
 ## Explainer
 
 You already understand how skeletal muscle contraction works at the molecular level — the sliding filament mechanism, cross-bridge cycling, and calcium-dependent activation — and you know that mitochondria produce ATP through oxidative phosphorylation. **Muscle fiber types** represent the body's solution to a fundamental trade-off: a single type of muscle cell cannot simultaneously optimize for explosive power and sustained endurance. Instead, skeletal muscles contain a mixture of fiber types with different contractile and metabolic properties, recruited selectively depending on the demands of the task.

@@ -12,7 +12,7 @@ tags:
 - automata-limits
 - non-regular
 - hierarchy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

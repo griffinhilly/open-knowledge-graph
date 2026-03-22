@@ -12,7 +12,7 @@ tags:
 - thermocline
 - epipelagic-zone
 - abyssal-zone
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

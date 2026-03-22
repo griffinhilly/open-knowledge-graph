@@ -15,7 +15,7 @@ tags:
 - gauge-theory
 - symmetry
 - potentials
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -30,6 +30,45 @@ Use hot-wire anemometry or particle image velocimetry (PIV) to measure velocity 
 - Turbulent flow is completely random with no structure (turbulent flow has organized structures like vortices and coherent motion at large scales; only small-scale motion is truly random).
 - Turbulent flow always has higher velocity than laminar flow (turbulence is a flow regime determined by Reynolds number, not by velocity alone; both laminar and turbulent flow can occur at similar velocities with different viscosities).
 
+## Questions
+
+```yaml
+- question: "In a turbulent pipe flow, the mean velocity profile is much flatter across the core than in laminar flow. What is the primary physical reason for this?"
+  type: multiple-choice
+  options:
+    - "Turbulent flow has a lower viscosity, reducing the resistance near the wall"
+    - "Turbulent eddies continuously mix momentum across the pipe, homogenizing velocity more effectively than viscous diffusion"
+    - "The higher Reynolds number forces all fluid to travel at the same speed"
+    - "The viscous sublayer absorbs momentum from the core and redistributes it uniformly"
+  answer: 1
+  explanation: "The flat turbulent velocity profile results from cross-stream momentum transport by eddies — fast-moving fluid is flung toward the wall and slow near-wall fluid is ejected inward. This turbulent mixing is far more efficient than viscous diffusion (which produces the parabolic laminar profile) at transferring momentum radially. Viscosity still controls the very near-wall viscous sublayer, but across the bulk of the flow, eddy mixing dominates."
+
+- question: "Where is turbulent kinetic energy ultimately dissipated in the Kolmogorov energy cascade?"
+  type: multiple-choice
+  options:
+    - "At the large energy-containing eddies, where the mean flow instability injects energy"
+    - "In the buffer layer between the viscous sublayer and the log-law region"
+    - "At the smallest (Kolmogorov) scales, where viscosity converts kinetic energy to heat"
+    - "Uniformly throughout the flow at all eddy scales simultaneously"
+  answer: 2
+  explanation: "In the energy cascade, turbulent kinetic energy is injected at large scales by the mean flow and cascades through progressively smaller eddies via vortex stretching and break-up. Dissipation as heat occurs only at the Kolmogorov microscales (η ~ (ν³/ε)^(1/4)), where eddies are small enough that viscosity is effective. The large scales are nearly inviscid — they transfer energy downscale but don't dissipate it. This separation of injection and dissipation scales is a defining feature of turbulence."
+
+- question: "Turbulent flow is characterized by completely random, unstructured fluctuations with no coherent organized motion."
+  type: true-false
+  answer: false
+  explanation: "This is a key misconception. While turbulent flow does contain chaotic small-scale fluctuations, it also exhibits organized large-scale structures: coherent vortices, ejection-sweep cycles near the wall, and energy-containing eddies with length scales comparable to the flow geometry. The randomness increases at small scales; the large scales retain organized structure. Calling turbulence purely random misses the coherent structures that dominate momentum and energy transport."
+
+- question: "In a turbulent boundary layer, the small dissipative eddies at the Kolmogorov scale tend to be isotropic and universal across different flow geometries, even though the large energy-containing eddies are geometry-dependent."
+  type: true-false
+  answer: true
+  explanation: "This is a central result of Kolmogorov's theory of turbulence. The large eddies are shaped by the specific geometry (pipe diameter, boundary layer thickness, etc.) and are anisotropic. But by the time energy cascades to the smallest scales, the directional information of the large scales is lost through repeated vortex interactions. The Kolmogorov microscales depend only on viscosity ν and dissipation rate ε, making them nearly universal. This universality at small scales is why turbulence models can be applied across different geometries."
+
+- question: "Why does the viscous sublayer exist in turbulent flow, and why does it matter for engineering applications despite being extremely thin?"
+  type: short-answer
+  answer: "The viscous sublayer exists because turbulent fluctuations are suppressed very close to the wall — the no-slip condition and wall-normal velocity constraints damp out eddy motion in a thin region (order tens of microns). In this sublayer, viscous stresses dominate over turbulent Reynolds stresses, and the velocity profile is linear. It matters enormously for heat transfer and friction: the sublayer controls the steepest velocity and temperature gradients, dominating thermal resistance and wall shear stress. The log-law region above it underpins friction factor correlations (Moody chart) used in pipe design."
+  explanation: "Engineers often underestimate the sublayer because it is so thin. But since heat flux and shear stress are proportional to gradients, the region with the steepest gradients — the viscous sublayer — dominates. Turbulence models in CFD must resolve or model this layer correctly (wall functions or near-wall damping) to predict friction and heat transfer accurately."
+```
+
 ## Explainer
 
 From your work on turbulent pipe flow, you know that once the Reynolds number climbs past ~4000, the smooth laminar parabolic velocity profile breaks down and the flow becomes turbulent. But what is turbulence actually doing? The naive picture — pure random chaos — misses the most important features. Turbulent flow has **organized structure at large scales** and increasingly random motion only at small scales. Understanding this hierarchy is what separates a practical engineer from someone who just calls turbulence "messy."

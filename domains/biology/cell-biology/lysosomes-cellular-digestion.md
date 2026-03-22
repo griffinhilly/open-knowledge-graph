@@ -14,7 +14,7 @@ tags:
 - digestion
 - recycling
 - autophagy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 # Lysosomes: Cellular Recycling Centers

@@ -28,3 +28,42 @@ When evaluating a problem, explicitly estimate its scale before forming an emoti
 
 - Scope sensitivity is not about suppressing emotions — it is about ensuring that the scale of your response matches the scale of the problem.
 - Being scope-sensitive does not mean only caring about the largest problems — it means being proportionate in your concern across problems of different sizes.
+
+## Questions
+
+```yaml
+- question: "In a famous study, people were asked how much they would pay to fund cleanup of an oil spill affecting either 2,000, 20,000, or 200,000 birds. Willingness to pay barely changed across conditions. What best explains this finding?"
+  type: multiple-choice
+  options:
+    - "Respondents rationally concluded that the marginal cost of saving additional birds was too high to justify more spending"
+    - "Their willingness to pay was driven by a vivid image of a single oil-soaked bird rather than by the actual number of birds affected"
+    - "Respondents lacked reliable information about bird population sizes and thus couldn't calibrate their responses"
+    - "The monetary value of wildlife conservation is inherently fixed and does not scale with population size"
+  answer: 1
+  explanation: "This is the canonical demonstration of scope insensitivity. The emotional response is anchored to the prototype — a mental image of one suffering bird — not to the quantity. A 100x difference in scale produced almost no difference in willingness to pay. This reveals that intuitive concern responds to the identifiable victim or vivid prototype, not to numbers. Options A and C rationalize the finding rather than explaining the underlying cognitive mechanism."
+
+- question: "From the standpoint of scope sensitivity, which approach to charitable giving is most rational?"
+  type: multiple-choice
+  options:
+    - "Donating to causes you feel most emotionally connected to, since personal motivation improves follow-through and long-term commitment"
+    - "Distributing donations equally across many causes to hedge against uncertainty about which interventions work"
+    - "Comparing interventions by cost-effectiveness metrics such as lives saved per dollar and allocating resources accordingly"
+    - "Prioritizing causes where your social network is already engaged, since collective action multiplies individual impact"
+  answer: 2
+  explanation: "Scope sensitivity means calibrating the scale of your response to the scale of the problem. If intervention A saves 10 lives per $1,000 and intervention B saves 10,000 lives per $1,000, the second is 1,000 times more valuable. Cost-effectiveness metrics (QALYs, lives saved per dollar) operationalize this proportionality. Options A and D anchor to emotional and social cues rather than magnitude; option B ignores effectiveness differences entirely."
+
+- question: "Scope insensitivity is a problem of not caring — people who exhibit it simply don't value the welfare of birds or other beings."
+  type: true-false
+  answer: false
+  explanation: "False. Scope insensitivity is not a lack of caring — people who show it may care intensely. The problem is that their level of concern fails to scale proportionally with the actual magnitude of the problem. Someone can feel genuine distress about 2,000 birds and essentially the same distress about 200,000 birds, while sincerely caring about both. The cognitive failure is in the scaling, not in the caring."
+
+- question: "Correcting for scope insensitivity means learning to scale your concern, effort, and resources in proportion to the actual magnitude of the problem — not eliminating emotional responses."
+  type: true-false
+  answer: true
+  explanation: "True. This is the explicit framing in the Common Misconceptions: scope sensitivity training is not about suppressing emotions. The goal is to ensure that the scale of your response matches the scale of the problem. Emotions remain useful as motivators; the correction is to multiply them by the numbers rather than let the numbers be irrelevant to the emotional response."
+
+- question: "Why does scope insensitivity pose a particularly serious problem for effective altruism, rather than just being a general cognitive quirk?"
+  type: short-answer
+  answer: "Effective altruism explicitly aims to maximize the good done per unit of resource by comparing interventions across scale. Scope insensitivity directly undermines this: if donors give the same amount to save 10 lives as to save 10,000, the massive differences in cost-effectiveness that effective altruism relies on become invisible to intuitive decision-making. The cognitive bias collapses exactly the distinctions that effective prioritization depends on."
+  explanation: "Most decisions affected by scope insensitivity involve small practical stakes. But in philanthropy, the differences in scale between interventions can be orders of magnitude — deworming programs vs. feel-good local projects, for example. When someone's emotional response doesn't scale with those orders of magnitude, they systematically underallocate to the most impactful interventions and overallocate to emotionally salient but less effective ones."
+```

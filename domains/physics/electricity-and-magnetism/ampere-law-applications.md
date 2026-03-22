@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Ampere's law states ∮B⋅dL = μ₀I_enclosed. Like Gauss's law for magnetism, it is most powerful with symmetry (long wire, solenoid, toroid). Field circulates around current, with right-hand rule determining direction.
 
+## Questions
+
+```yaml
+- question: "A student wants to use Ampere's law to find the magnetic field at distance r from a long straight wire. They draw a square Amperian loop of side length r centered on the wire. Can they solve for B?"
+  type: multiple-choice
+  options:
+    - "Yes — any closed loop gives the same result; the choice of loop shape doesn't matter"
+    - "No — on a square loop, B varies in magnitude and direction along each side, so the integral B·dL cannot be simplified to B times a simple length"
+    - "No — Ampere's law only applies to circular loops by definition"
+    - "Yes — since I_enclosed is the same for any loop enclosing the wire, B can be computed directly"
+  answer: 1
+  explanation: "Ampere's law ∮B·dL = μ₀I_enclosed is always *true* for any closed loop, but it's only *useful* when you can factor B out of the integral. On a square loop around a wire, B changes in magnitude and direction at every point — the integral is a complicated mess that doesn't simplify without already knowing B. A circular loop of radius r works because cylindrical symmetry guarantees B is tangential and constant in magnitude everywhere on the circle, turning the integral into B(2πr). Option D correctly notes I_enclosed is independent of loop shape but wrongly concludes B can be found — you need to evaluate the left side, not just the right."
+
+- question: "The result B = μ₀nI inside a solenoid (where n is turns per unit length) comes from applying Ampere's law with a rectangular loop. Which feature of that loop analysis produces this result?"
+  type: multiple-choice
+  options:
+    - "The rectangular loop must enclose all N turns of the solenoid to capture the total current"
+    - "A rectangular loop straddling the solenoid wall has only one side contributing to ∮B·dL — the segment inside — because B ≈ 0 outside and B is perpendicular to the two transverse sides"
+    - "The circular winding geometry of the solenoid ensures B is constant everywhere on any rectangular loop"
+    - "Biot-Savart must first confirm the field is uniform before Ampere's law can be applied"
+  answer: 1
+  explanation: "The rectangle is chosen to straddle the solenoid wall (one segment inside, one outside, two transverse segments). Outside: B ≈ 0, contributing nothing. Transverse sides: B is parallel to the solenoid axis, perpendicular to dL along those sides, contributing nothing. Inside: B is parallel to dL and uniform, contributing B × L. The right side is μ₀ × (nL) × I, since nL turns pass through the loop. Thus B × L = μ₀nLI → B = μ₀nI. The loop doesn't need to enclose all turns (option A); it just needs to enclose a known number of them."
+
+- question: "Ampere's law ∮B·dL = μ₀I_enclosed is always mathematically valid, but it is only practically useful for computing magnetic fields when the current distribution has sufficient symmetry."
+  type: true-false
+  answer: true
+  explanation: "Exactly right. Ampere's law is an exact statement about any closed loop, but it becomes a useful computational tool only when you can choose an Amperian loop where B is constant and parallel on part of the loop (and zero or perpendicular on the rest). Without that symmetry, the law gives you a true equation with an unknown integral on the left — unsolvable without already knowing B everywhere. Biot-Savart, though harder to compute, works for asymmetric configurations where Ampere's law cannot be usefully applied."
+
+- question: "The Amperian loop used in Ampere's law must correspond to an actual physical conductor or current path in the problem."
+  type: true-false
+  answer: false
+  explanation: "False — the Amperian loop is a purely mathematical construct chosen for computational convenience. It has no physical reality and need not correspond to any conductor or circuit. For a solenoid, we choose a rectangle that straddles the solenoid wall; for a wire, we choose a circle around it. These are imaginary geometric objects drawn to exploit symmetry. The only physical requirement is that I_enclosed correctly counts the net current passing through any surface bounded by the loop."
+
+- question: "What is the key criterion for choosing a useful Amperian loop, and why does that criterion matter for the calculation?"
+  type: short-answer
+  answer: "The Amperian loop should be chosen so that B is either (1) parallel to dL and constant in magnitude — so ∮B·dL = B × (loop length) — or (2) perpendicular to dL — contributing zero. Without this, the left side of Ampere's law ∮B·dL is a complicated integral that cannot be evaluated without already knowing B in detail, defeating the purpose. Symmetry is what makes such a loop choice possible: cylindrical symmetry for a wire (circular loop), translational symmetry for a solenoid (rectangular loop), and toroidal symmetry for a toroid (circular loop inside the coils)."
+  explanation: "This is the direct analog of choosing a Gaussian surface in Gauss's law: both techniques work by turning a hard integral into a trivial product using the fact that the field is uniform and aligned on the chosen surface or loop. The underlying law is always valid; the choice of integration path or surface determines whether it yields a usable equation."
+```
+
 ## Explainer
 
 You already know from Biot-Savart how to compute magnetic fields by integrating current contributions — but that approach becomes algebraically brutal for anything beyond a simple straight wire or loop. **Ampere's law**, ∮ B⃗ · dL⃗ = μ₀I_enclosed, is the magnetic analog of Gauss's law for electric fields: instead of summing up all the little field contributions, you exploit symmetry to turn a hard calculation into a trivial one. The left side is a **line integral** of the magnetic field around a closed loop (called an Amperian loop), and the right side is simply μ₀ times the total current passing through any surface bounded by that loop.

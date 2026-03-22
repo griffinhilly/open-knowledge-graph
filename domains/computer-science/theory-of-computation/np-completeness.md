@@ -10,7 +10,7 @@ tags:
 - np-completeness
 - cook-levin
 - hardness
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

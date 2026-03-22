@@ -13,7 +13,7 @@ tags:
 - finite-automata
 - dfa
 - formal-models
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

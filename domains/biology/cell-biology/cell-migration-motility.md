@@ -13,7 +13,7 @@ tags:
 - cytoskeleton
 - actin
 - motility
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

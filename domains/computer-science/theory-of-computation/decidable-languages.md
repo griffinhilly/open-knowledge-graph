@@ -13,7 +13,7 @@ tags:
 - decidability
 - recursive
 - decision-problems
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

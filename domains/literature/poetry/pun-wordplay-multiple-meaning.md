@@ -18,6 +18,45 @@ status: draft
 ## Core Idea
 A pun exploits multiple meanings or similar-sounding words for effect—sometimes comic, sometimes serious. In poetry, puns allow a single word to sustain multiple layers of meaning simultaneously, increasing semantic density and creating productive ambiguity.
 
+## Questions
+
+```yaml
+- question: "A student encounters 'interest' in a poem about banking and concludes: 'The poet probably just means financial interest here, given the context.' What analytical error is this?"
+  type: multiple-choice
+  options:
+    - "None — context always determines the single intended meaning, and the student has correctly applied it"
+    - "The student should prioritize the less obvious meaning in poetry, as that is always the intended one"
+    - "The student is resolving the ambiguity when the point of a pun is to hold both meanings simultaneously — if the alternative meaning is thematically relevant, both are likely active at once"
+    - "Poetry never uses context to guide interpretation, so context-based readings are always wrong"
+  answer: 2
+  explanation: "A pun refuses the disambiguation that ordinary context performs automatically. If 'interest' meaning personal engagement is thematically relevant to the poem — perhaps it's about emotional detachment alongside financial detachment — then both meanings are almost certainly active simultaneously. The student's error is applying the interpretive strategy that works in prose (context resolves to one meaning) to a device that deliberately defeats that strategy. The analytical question is not 'which meaning applies?' but 'what do both meanings contribute together?'"
+
+- question: "What fundamentally distinguishes a pun from ordinary linguistic ambiguity?"
+  type: multiple-choice
+  options:
+    - "Puns only appear in comic writing; ordinary ambiguity is found in all writing"
+    - "Puns always involve homophones; ordinary ambiguity involves polysemy within a single word"
+    - "A pun activates two meanings simultaneously and refuses resolution to one, while ordinary ambiguity is resolved by context without the reader noticing"
+    - "A pun creates confusion; ordinary ambiguity is transparent to the reader"
+  answer: 2
+  explanation: "Ordinary ambiguity is usually invisible: context disambiguates 'bank' to financial institution or riverbank so efficiently that we never notice the potential double meaning. A pun is structurally designed to defeat that disambiguation — it places the word in a context where *both* meanings are activated and neither can be dismissed. The reader is forced to hold both at once. This is the source of the pun's effect, whether comic (the sudden awareness of double-dealing) or poignant (Mercutio's grave/solemn)."
+
+- question: "In serious or tragic contexts, puns are always a sign of poor craft and should be avoided."
+  type: true-false
+  answer: false
+  explanation: "Shakespeare regularly deployed puns in his tragedies at moments of greatest intensity. Mercutio's 'Ask for me tomorrow and you shall find me a grave man' — grave meaning both solemn and a burial place — is simultaneously comic and heartbreaking, performing tonal complexity that a straightforward statement could not. Far from being poor craft, the pun in tragic contexts can be the most precise instrument available for capturing registers that are genuinely simultaneous rather than sequential."
+
+- question: "When a word in a poem could plausibly carry a second meaning that is thematically relevant, that double meaning is likely intentional and should be included in a literary analysis."
+  type: true-false
+  answer: true
+  explanation: "This is the core analytical principle: thematic relevance is the test for intentionality. A poet working with precision will not accidentally place a word where its alternative meaning strengthens the poem's argument. When John Donne's 'desperate' in 'slave to Fate, chance, kings, and desperate men' works both as hopeless and reckless, and both amplify the argument about Death's undignified company, the double meaning is structural rather than coincidental. The analytical practice is to treat such words as punning sites and ask: what does each meaning contribute?"
+
+- question: "Explain why Mercutio's pun on 'grave' — 'you shall find me a grave man' — is more than a joke. What work does the double meaning do that a straightforward sentence could not?"
+  type: short-answer
+  answer: "Mercutio is dying from a sword wound when he delivers the line. 'Grave' means both solemn (I will finally be serious) and a burial place (I will be dead). The two meanings are not sequential — he is not making one joke and then predicting death — they land simultaneously. The pun captures what the scene actually contains: that his death is both absurd (he's still making wordplay) and tragic (he is actually dying), and that these two registers coexist without resolving. A straightforward sentence like 'I am dying' or 'I will be dead tomorrow' cannot hold both the gallows humor and the genuine loss at once. The pun is the only linguistic form that can sustain both without collapsing one into the other."
+  explanation: "This is what makes the pun a serious poetic and dramatic device rather than mere wordplay: its structural capacity to hold contradictory or layered meanings simultaneously is exactly what certain moments — especially those where the tragic and the absurd coincide — require. Prose alternatives must choose; the pun does not."
+```
+
 ## Explainer
 
 Language is structurally ambiguous. Most words carry multiple meanings, and many words sound like other words. Usually, context resolves this ambiguity so efficiently that we don't notice it—we understand "bank" as a financial institution or a riverbank from the surrounding sentence without any conscious effort. A **pun** refuses this resolution. It activates two meanings at once, forcing both into awareness simultaneously, and the effect—comic, poignant, or unsettling—comes from holding both meanings at the same time rather than choosing one.

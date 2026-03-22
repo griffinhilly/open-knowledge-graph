@@ -13,7 +13,7 @@ tags:
 - gene-accessibility
 - atp-dependent-complexes
 - nucleosomes
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

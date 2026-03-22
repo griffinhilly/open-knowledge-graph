@@ -15,7 +15,7 @@ tags:
 - properties
 - addition
 - grouping
-stage: abstract-reasoning
+stage: concrete-operations
 status: draft
 ---
 

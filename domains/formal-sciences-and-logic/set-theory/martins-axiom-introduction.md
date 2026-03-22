@@ -32,6 +32,45 @@ Understand the countable chain condition: no antichain exceeds countable size. A
 - Assuming MA resolves CH (it does not; MA is independent of CH and ZFC).
 - Confusing the partial order with the poset of dense sets; both concepts are essential.
 
+## Questions
+
+```yaml
+- question: "A logician claims that assuming Martin's Axiom settles the Continuum Hypothesis by forcing it to be true. What is wrong with this claim?"
+  type: multiple-choice
+  options:
+    - "MA is too strong an axiom and actually refutes CH"
+    - "MA implies 2^ω = ω₁, which is precisely what CH asserts"
+    - "MA is consistent with both CH and ¬CH and therefore cannot determine CH's truth value"
+    - "MA applies only to posets of size ℵ₁, making it irrelevant to CH"
+  answer: 2
+  explanation: "MA is independent of CH — it is consistent with ZFC+CH and also with ZFC+¬CH. Assuming MA tells you nothing about whether the continuum has size ℵ₁. The common misconception is that an axiom about the continuum must resolve CH; in fact MA was discovered through investigation of what properties persist across a broad class of forcing extensions, without committing to any particular continuum size."
+
+- question: "The Rasiowa-Sikorski lemma guarantees a filter meeting any countable collection of dense sets for a countable poset. Martin's Axiom extends this to posets satisfying the countable chain condition (ccc). What does the ccc condition actually restrict?"
+  type: multiple-choice
+  options:
+    - "The total number of elements in the poset must be at most countable"
+    - "The poset must be linearly ordered, with no branching"
+    - "Any antichain — a set of pairwise incompatible elements — must be at most countable"
+    - "The collection of dense sets must not exceed ℵ₁ in size"
+  answer: 2
+  explanation: "The ccc restricts how 'wide' or 'branching' the poset can be, not its overall size. A ccc poset can have size ℵ₁ or larger; what matters is that incompatible elements don't accumulate into uncountable antichains. This structural condition is what allows MA to treat large ccc posets like countable ones for the purpose of meeting dense sets — the key extension beyond Rasiowa-Sikorski."
+
+- question: "Martin's Axiom implies that the union of fewer than 𝔠 measure-zero sets is still a set of measure zero."
+  type: true-false
+  answer: true
+  explanation: "This is one of MA's most useful combinatorial consequences. Because MA allows any ccc poset to behave 'countably' for meeting dense sets, it extends Baire-category-style results: unions of fewer than continuum-many null sets remain null, and unions of fewer than continuum-many meager sets remain meager. This makes MA a powerful tool in real analysis and descriptive set theory, generalizing what holds for countable unions to a much broader class."
+
+- question: "If Martin's Axiom holds, then the Continuum Hypothesis must also hold, since MA directly controls how the continuum is structured."
+  type: true-false
+  answer: false
+  explanation: "MA is consistent with both CH (𝔠 = ℵ₁) and ¬CH (𝔠 > ℵ₁). Assuming MA together with ¬CH is one of the most fruitful combinations in modern set theory, producing a rich picture of the real line in which many pathological phenomena from CH's world are avoided. MA 'controls' the continuum only in the sense of imposing certain combinatorial properties — not by fixing its cardinality."
+
+- question: "In what sense does Martin's Axiom generalize the Rasiowa-Sikorski lemma, and what structural condition on the poset makes this generalization possible?"
+  type: short-answer
+  answer: "The Rasiowa-Sikorski lemma handles countable posets: any countable collection of dense sets can be met by a single filter. MA extends this to uncountable ccc posets: any collection of fewer than 𝔠 dense sets can be met by a filter, provided the poset satisfies the countable chain condition. The ccc — requiring all antichains to be at most countable — controls incompatibility in the poset, making it behave like a countable poset for filter-building purposes even when its overall cardinality is much larger."
+  explanation: "Without ccc, there can be uncountably many pairwise incompatible elements, making it impossible to build a filter that respects all dense sets. With ccc, the incompatibility structure is tame enough that the filter can always be extended to meet one more dense set. MA thus captures the essence of what made Rasiowa-Sikorski work and lifts it to a far broader context, which is why it is such a powerful tool across modern set theory and combinatorics."
+```
+
 ## Explainer
 
 To understand Martin's Axiom, start with a concept you already know from the Continuum Hypothesis: there is a vast universe of set-theoretic possibilities between ZFC and its extensions, and independence results show that some questions simply cannot be resolved from the standard axioms alone. MA is an additional axiom — one that is consistent with ZFC but not provable from it — that gives you a powerful new tool for forcing certain desirable combinatorial properties to hold about the real line.

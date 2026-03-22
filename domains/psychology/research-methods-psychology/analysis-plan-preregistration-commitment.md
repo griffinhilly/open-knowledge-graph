@@ -14,7 +14,7 @@ tags:
 - integrity
 - transparency
 - preregistration
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

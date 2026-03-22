@@ -10,7 +10,7 @@ tags:
 - rice-theorem
 - undecidability
 - machine-properties
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -31,6 +31,45 @@ Examine micrographs of fatigue-initiated surfaces to observe slip-band patterns 
 ## Common Misconceptions
 Fatigue is not purely stress-controlled. Fatigue initiation depends on cyclic plastic strain amplitude, not merely stress amplitude, and is controlled by low-cycle fatigue mechanics below 104 cycles.
 
+## Questions
+
+```yaml
+- question: "A smooth steel shaft operating at stresses well below its yield strength fractures after 10⁸ cycles. A fractographic examination would most likely reveal that the crack initiated at:"
+  type: multiple-choice
+  options:
+    - "A grain boundary triple junction deep within the bulk material"
+    - "A surface stress concentration or persistent slip band intersection with the free surface"
+    - "A pre-existing void at the geometric center of the cross-section"
+    - "A large carbide precipitate evenly distributed throughout the grain interior"
+  answer: 1
+  explanation: "Fatigue crack initiation is overwhelmingly a surface phenomenon. Persistent slip bands localize cyclic plastic deformation and create intrusions/extrusions where they intersect the free surface. Even in 'smooth' specimens, microscale surface roughness or slip-band activity at the surface — not bulk defects — nucleates the crack."
+
+- question: "An engineer proposes to extend the fatigue life of a steel crankshaft by shot peening the surface before service. The mechanism by which this improves fatigue performance is:"
+  type: multiple-choice
+  options:
+    - "Shot peening work-hardens the surface, raising yield strength so no plastic deformation can occur during cycling"
+    - "Shot peening introduces compressive residual stresses that oppose the opening of fatigue intrusions at the surface"
+    - "Shot peening removes surface roughness by plastic deformation, eliminating stress concentrations"
+    - "Shot peening creates a fine-grained surface layer with no preferred slip systems, preventing persistent slip band formation"
+  answer: 1
+  explanation: "Shot peening induces compressive residual stresses by plastically deforming the surface layer. These residual stresses must be overcome before cyclic tension can open an intrusion into a crack — effectively raising the applied stress needed to initiate. While surface roughening occurs, the dominant benefit is the compressive stress field, not surface finish change."
+
+- question: "Polishing the surface of a fatigue test specimen — reducing surface roughness to nearly zero — can significantly increase the number of cycles to failure."
+  type: true-false
+  answer: true
+  explanation: "Since fatigue crack initiation is a surface phenomenon, surface finish has a strong effect on initiation life. A polished surface eliminates microscale stress concentrations where persistent slip bands would preferentially intersect. Industrial fatigue data consistently shows that surface roughness reduces fatigue limit, sometimes by 30–50% relative to polished specimens."
+
+- question: "Fatigue crack initiation is controlled primarily by stress amplitude alone, so a component that survives 10⁷ cycles elastically will never initiate a fatigue crack regardless of how many additional cycles are applied."
+  type: true-false
+  answer: false
+  explanation: "Even when bulk stresses are well below yield, cyclic plastic strain localizes at stress concentrations and within persistent slip bands. Initiation is driven by cyclic plastic strain amplitude, not merely stress amplitude. Below the fatigue limit (for steels), crack initiation is suppressed — but this is because the stress is insufficient to sustain PSB activity, not because there is zero plastic deformation absolutely."
+
+- question: "Why do persistent slip band intersections with the free surface act as preferential crack nucleation sites, even in a specimen with no pre-existing notches or geometric stress concentrations?"
+  type: short-answer
+  answer: "Repeated shear along the PSB creates surface intrusions — sharp re-entrant grooves that concentrate stress on subsequent cycles, effectively acting as crack embryos"
+  explanation: "PSBs undergo back-and-forth shear displacement on each cycle. This pumps material above the surface (extrusions) and pulls re-entrant grooves below (intrusions). An intrusion is geometrically a sharp notch at the surface — a stress concentrator created by the cyclic deformation itself. Once an intrusion reaches roughly one grain diameter in depth, it transitions to Stage I crack growth and the propagation phase begins."
+```
+
 ## Explainer
 
 Fatigue failure is insidious because it occurs under stresses well below the static yield strength — stresses that, applied once, would cause no visible damage at all. The key is *repetition*. Each loading cycle causes a tiny increment of irreversible plastic deformation, even when the globally applied stress is elastic. Over thousands or millions of cycles, that accumulated microscale damage nucleates a crack, which then grows until the remaining section can no longer carry the load and fracture occurs suddenly. Understanding initiation — the first stage of this process — is critical because it typically consumes the majority of a component's fatigue life.

@@ -34,6 +34,45 @@ Overlay cooling curves for water, oil, and air quenches onto a TTT diagram for a
 - Tempering does not weaken the steel in a detrimental sense; it deliberately trades some hardness for greatly improved toughness, producing a more useful engineering material.
 - All steels are not equally hardenable — low-carbon steels cannot form much martensite regardless of quench rate because there is insufficient carbon to distort the lattice.
 
+## Questions
+
+```yaml
+- question: "Two identical bars of 1080 steel are austenitized and then quenched: one in cold water, one in warm oil. The water-quenched bar is substantially harder. What is the correct metallurgical explanation?"
+  type: multiple-choice
+  options:
+    - "Water is chemically reactive with steel, causing surface hardening reactions during the quench"
+    - "Water quenching cools the steel faster, allowing the cooling curve to miss the pearlite nose on the TTT diagram and form more martensite"
+    - "Oil introduces carbon into the steel surface during quenching, reducing the carbon available for hardening"
+    - "Water quenching increases dislocation density directly, independent of the phase transformation"
+  answer: 1
+  explanation: "The quench medium does not directly harden the steel — it controls the cooling rate. A faster cooling rate (water) produces a steeper cooling curve on the TTT diagram that passes to the left of the pearlite C-curve nose, suppressing diffusion and trapping carbon in a BCT martensite structure. Oil cools more slowly; if the cooling curve clips the nose, some austenite transforms to softer pearlite or bainite instead. The hardness comes from martensite formation, not from the medium itself."
+
+- question: "A machinist needs maximum hardness in a tool steel component. After achieving a fully martensitic microstructure by quenching, she considers tempering at 600°C. Her supervisor cautions against this for a cutting tool application. What is the correct reason?"
+  type: multiple-choice
+  options:
+    - "Tempering above 500°C reverses the martensitic transformation, returning the steel to austenite"
+    - "High-temperature tempering allows carbon to diffuse out of the BCT lattice and form coarse carbide precipitates, substantially reducing hardness while improving toughness"
+    - "600°C tempering introduces residual tensile stresses at the surface, causing delayed cracking"
+    - "Tempering at any temperature weakens the steel and should be avoided for all tool applications"
+  answer: 1
+  explanation: "Tempering allows the supersaturated carbon in as-quenched martensite to diffuse out and precipitate as fine (then coarser at higher temperatures) carbides. This reduces the lattice strain that gives martensite its hardness. High-temperature tempering (500–650°C) maximizes toughness but significantly reduces hardness — the right choice for structural parts, wrong for cutting tools. Low-temperature tempering (150–250°C) retains high hardness with modest toughness improvement, appropriate for cutting and wear applications."
+
+- question: "A low-carbon steel (0.15 wt% C) cannot be significantly hardened by quenching, regardless of how rapid the cooling rate is."
+  type: true-false
+  answer: true
+  explanation: "Martensite hardness depends critically on carbon content. Carbon dissolved in the iron lattice creates the BCT distortion that makes martensite hard and brittle. With only 0.15 wt% C, there is insufficient carbon to create significant lattice strain even if the cooling is fast enough to suppress pearlite formation. Plain low-carbon steels form soft martensite ('lath martensite') that is only marginally harder than ferrite. For effective hardening, steels typically require at least 0.3–0.4 wt% C."
+
+- question: "Tempering is best understood as a corrective step — a way to partially undo an overly aggressive quench that left the steel too brittle."
+  type: true-false
+  answer: false
+  explanation: "Tempering is not corrective; it is a deliberately planned second step that follows a successful quench. As-quenched martensite is intentionally formed to maximize hardness, then intentionally tempered to improve toughness. The two steps together — quenching to martensite, then tempering to calibrate the hardness-toughness balance — constitute the quench-and-temper process. The temper is engineered for the application's requirements, not applied to fix a mistake."
+
+- question: "Explain why the nose of the pearlite C-curve on a TTT diagram occurs at an intermediate temperature rather than at the highest or lowest temperatures, referencing the two competing factors that produce it."
+  type: short-answer
+  answer: "The nose represents the temperature where pearlite forms fastest. Two factors compete: (1) thermodynamic driving force — the free energy difference between austenite and pearlite, which increases as temperature drops below the eutectoid temperature, providing more driving force at lower temperatures; (2) atomic diffusivity — carbon and iron atoms must diffuse to form the layered pearlite structure, and diffusion slows dramatically as temperature decreases. At high temperatures near the eutectoid, diffusion is fast but driving force is small; at very low temperatures, driving force is large but diffusion is nearly frozen. The nose occurs at the intermediate temperature that best balances both factors — maximizing the transformation rate. This matters for quench selection: any cooling curve that passes through the nose region will produce some pearlite, so the quench medium must be fast enough to miss it entirely."
+  explanation: "This is the fundamental reason TTT diagrams have C-shaped curves rather than straight lines. The nose temperature (typically around 550°C for plain carbon steels) sets the critical cooling rate. Alloying elements like Mn, Cr, and Mo shift this nose to longer times by slowing diffusion and stabilizing austenite, reducing the required cooling rate and improving hardenability."
+```
+
 ## Explainer
 
 The iron-carbon phase diagram you mastered as a prerequisite shows you what phases are thermodynamically stable — but thermodynamic stability is only half the story in heat treatment. The other half is **kinetics**: how fast do those stable phases actually form? When you heat steel into the austenite region and then rapidly cool it, you are racing against the clock. The austenite wants to decompose into ferrite and cementite (pearlite), but doing so requires carbon atoms to diffuse — and diffusion takes time. If you cool fast enough, you outrun the diffusion and the austenite has no choice but to transform to martensite, a metastable phase that captures all the carbon in a strained lattice.

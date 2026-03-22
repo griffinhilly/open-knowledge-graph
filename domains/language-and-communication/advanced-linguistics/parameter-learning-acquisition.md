@@ -27,6 +27,45 @@ Examine cross-linguistic parameter values and study how children acquiring diffe
 ## Common Misconceptions
 Parameter-setting is not learning rules or statistics; it is setting binary (or few-valued) switches in a universal grammar, which explains rapid acquisition despite sparse input.
 
+## Questions
+
+```yaml
+- question: "A child acquiring Spanish begins correctly omitting overt subjects after only a handful of relevant input sentences — far fewer than would be needed to establish a statistical pattern. What does parameter-setting theory say is happening?"
+  type: multiple-choice
+  options:
+    - "The child is making random grammatical errors that coincidentally match Spanish adult grammar"
+    - "The child is imitating the specific null-subject sentences they heard, gradually accumulating a surface pattern"
+    - "Minimal positive evidence has triggered the [+pro-drop] parameter switch, restructuring the child's grammar so that null subjects are generated across all relevant contexts"
+    - "The child is applying a general learning algorithm that detected an implicit statistical regularity in verb morphology"
+  answer: 2
+  explanation: "Parameter-setting theory posits that grammatical parameters are binary switches in an innate Universal Grammar, flipped by a small number of triggering examples. Once [+pro-drop] is set, the child's grammar generates null-subject sentences not just in contexts they heard, but across all grammatically appropriate contexts. This 'generalization beyond the input' distinguishes parameter-setting from statistical learning: the switch produces new grammatical knowledge rather than extending a memorized pattern."
+
+- question: "If parameter clustering is correct, what should we observe when a child begins allowing null subjects in Spanish?"
+  type: multiple-choice
+  options:
+    - "The child acquires only the specific sentence types modeled in their input, nothing more"
+    - "The child shows gradual, item-by-item learning of each associated property over many months"
+    - "The child simultaneously acquires correlated properties like postverbal subjects and null expletives, since these are linked to the same parameter"
+    - "The child produces null subjects only in sentences with rich verbal morphology, since that was the triggering input"
+  answer: 2
+  explanation: "Parameter clustering predicts that a single parameter value carries a bundle of correlated grammatical properties. Setting [+pro-drop] should therefore produce null subjects, postverbal subjects, and null expletives simultaneously — not as separate learned items but as simultaneous consequences of one switch. This is evidence against empiricist accounts, which would predict item-by-item learning based on frequency of exposure to each individual construction."
+
+- question: "Parameter-setting is essentially a form of statistical learning in which children gradually accumulate evidence until they reach a threshold sufficient to adopt a grammatical rule."
+  type: true-false
+  answer: false
+  explanation: "This conflates parameter-setting with empiricist learning models. Parameter-setting is qualitatively different: a triggering event causes a discrete switch to flip, restructuring the grammar in a single step. The child does not need many examples to cross a statistical threshold — minimal positive evidence suffices. The poverty of the stimulus argument makes this explicit: children acquire properties that are rare or entirely absent in their input, which cannot be explained by threshold-based statistical accumulation."
+
+- question: "The poverty of the stimulus argument supports parameter-setting theory by noting that children reliably acquire grammatical properties that their input does not directly exemplify, suggesting innate structures are being triggered rather than learned from scratch."
+  type: true-false
+  answer: true
+  explanation: "The poverty of the stimulus is the central motivating argument for Universal Grammar and parameter-setting. Children acquire complex grammatical knowledge — including judgments about ungrammatical sentences they have never heard — that cannot be derived from frequency statistics. Parameter-setting explains this: the child's innate grammar already contains the possible values; input only determines which value is active, and the resulting knowledge extends far beyond the input automatically."
+
+- question: "How does parameter-setting theory explain why childhood language acquisition is rapid and accurate despite the 'poverty of the stimulus,' and how does this explanation differ from empiricist accounts?"
+  type: short-answer
+  answer: "Parameter-setting theory claims that UG constrains the space of possible grammars innately, so children are not building grammar from scratch — they are selecting among pre-existing options triggered by minimal positive evidence. Once a parameter is set, it generates grammatical knowledge far beyond what the input explicitly modeled. Empiricist accounts instead require children to learn from input statistics, predicting gradual, item-by-item learning. The poverty of the stimulus — rapid, accurate acquisition of constructions rarely or never heard — is difficult to explain without the innate structure that parameter-setting provides."
+  explanation: "The key contrast is between triggering (minimal input activates a pre-structured switch whose effects cascade through the grammar) and learning (accumulated input gradually builds up a rule). Parameter-setting makes acquisition fast not because children are clever learners but because the grammatical architecture is already in place — input just determines which option to activate."
+```
+
 ## Explainer
 
 From your study of Universal Grammar, you know the theoretical framework: all human languages share an innate grammatical endowment — UG — that constrains the space of possible grammars, making language acquisition feasible even for young children who receive impoverished, noisy input. From your study of parameter-setting in acquisition, you know that the variation between languages is not random but structured: it results from different **parameter values** — binary or small-valued switches within UG that get set by exposure to the target language. Parameter learning is the developmental question: *how* do children set these parameters correctly given limited input?

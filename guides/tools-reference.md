@@ -33,6 +33,28 @@ python tools/generate_topic_pages.py
 ```
 Generates individual topic detail pages in `output/topics/`.
 
+## Assessment & Quiz
+
+```
+python tools/generate_assessment.py
+```
+Selects calibration probes, domain probes, and frontier chains from the topic graph. Outputs `output/assessment-data.json`.
+
+```
+python tools/generate_assessment_page.py
+```
+Generates `output/assessment.html` — self-report placement assessment (3-round adaptive, "I know this" style).
+
+```
+python tools/generate_assessment_questions.py
+```
+Extracts questions from topic markdown files, selects warmup + exploration pools (MC/TF only). Outputs `output/assessment-questions.json`.
+
+```
+python tools/generate_quiz_page.py
+```
+Generates `output/quiz.html` — interactive trivia quiz with actual questions from the question bank. Feeds answers into `lib/fluency.js` with response time tracking. Requires `assessment-questions.json`.
+
 ## Statistics & QA
 
 ```

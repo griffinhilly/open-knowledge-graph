@@ -33,6 +33,45 @@ Build complete inflectional paradigms for verbs and nouns in a language you are 
 - Languages with little inflectional morphology (like Mandarin or Vietnamese) are not simpler; they express the same grammatical relations through word order, particles, or context.
 - Irregular forms (went, mice, are) are not errors or exceptions — they are historical survivors from earlier regular patterns that have been preserved by high frequency of use.
 
+## Questions
+
+```yaml
+- question: "Turkish 'evlerinde' (in their houses) breaks into ev+ler+in+de, each morpheme expressing exactly one grammatical category. Latin -ae simultaneously encodes feminine gender, singular number, and genitive case in one opaque ending. This contrast illustrates:"
+  type: multiple-choice
+  options:
+    - "Turkish is agglutinative (one morpheme, one meaning); Latin is fusional (multiple meanings per morpheme)"
+    - "Turkish is fusional because its morphemes fuse into a single word; Latin is agglutinative because -ae is short"
+    - "Both languages are fusional, but Turkish is less extreme because its words are longer"
+    - "Turkish uses derivational morphology; Latin uses inflectional morphology"
+  answer: 0
+  explanation: "Agglutinative languages stack transparent, separable morphemes where each encodes a single category — Turkish is the textbook example. Fusional languages compress multiple grammatical categories into single affixes that cannot be cleanly segmented — Latin -ae is the textbook counterexample. Length of the word form is irrelevant to this distinction."
+
+- question: "Which of the following pairs shows an inflectional relationship rather than a derivational one?"
+  type: multiple-choice
+  options:
+    - "'runs' and 'ran' — both are forms of the verb 'run,' same lexical category, different tense"
+    - "'run' and 'runner' — 'runner' is derived from 'run' by adding -er"
+    - "'teach' and 'teacher' — the suffix -er creates a new noun from a verb"
+    - "'happy' and 'happiness' — -ness converts an adjective into a noun"
+  answer: 0
+  explanation: "'Runs' and 'ran' are both verbs meaning essentially the same thing — only the tense (grammatical information) differs. That is inflection: a change in form without a change in lexical category or core meaning. The other options all show derivation: adding -er or -ness changes the word's category (verb → noun, adjective → noun) or creates a new lexical entry with a distinct meaning."
+
+- question: "Languages like Mandarin, which have very little inflectional morphology, cannot express grammatical relationships like tense or number."
+  type: true-false
+  answer: false
+  explanation: "The absence of inflectional morphology does not mean the absence of grammatical expression. Mandarin conveys temporal information through adverbs (yesterday, tomorrow, already) and aspect markers; number through context or optional quantifiers. These languages are not simpler or less expressive — they use different strategies (word order, particles, context) to encode the same grammatical relationships that inflecting languages mark on word forms."
+
+- question: "Inflectional morphology changes the form of a word to express grammatical information without changing its lexical category or core meaning."
+  type: true-false
+  answer: true
+  explanation: "This is the defining property of inflection. 'Walk,' 'walks,' 'walked,' and 'walking' are all verbs meaning the same core action — they differ only in tense, agreement, and aspect (grammatical information). Compare this to derivation: 'walker' is a new word (a noun) with a new meaning. Inflection produces different forms of the same word; derivation produces different words."
+
+- question: "What is the key difference between inflection and derivation? Give an example of each using the same root word."
+  type: short-answer
+  answer: "Inflection produces different grammatical forms of the same word without changing its lexical category or core meaning (e.g., 'write' → 'writes,' 'wrote,' 'writing' — all still verbs meaning to write). Derivation creates a new word with a new meaning or different category (e.g., 'write' → 'writer' — a noun naming a person who writes)."
+  explanation: "The key test: after the morphological process, is the result still the same word (just in a different grammatical form), or is it a new word that could have its own dictionary entry? Inflected forms share a dictionary entry; derived words get their own. This is why dictionaries list 'write' without separately listing 'writes' or 'wrote,' but do list 'writer' as its own entry."
+```
+
 ## Explainer
 
 You already know the difference between free and bound morphemes, and between roots and affixes. **Inflectional morphology** is the study of a specific kind of bound morpheme: the **inflectional affix**, which modifies a word to express grammatical information without creating a new word or changing its lexical category. English "walk" can become "walks," "walked," or "walking" — still a verb, still meaning the same thing — but each form signals different grammatical properties. This is inflection. Compare it to derivation, which you also know: "walk" → "walker" is a new word with a new meaning (a person who walks). The contrast is clean: inflection expresses grammatical relationships; derivation extends the vocabulary.

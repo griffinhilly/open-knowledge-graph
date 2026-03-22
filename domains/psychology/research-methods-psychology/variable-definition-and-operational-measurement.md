@@ -14,7 +14,7 @@ tags:
 - variables
 - operationalization
 - measurement
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

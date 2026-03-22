@@ -12,7 +12,7 @@ tags:
 - regular-languages
 - closure
 - properties
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

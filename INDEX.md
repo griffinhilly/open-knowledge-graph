@@ -59,6 +59,8 @@ Each domain has `_domain.yml` + course subdirectories containing topic `.md` fil
 - `tools/reconcile_log.json` — Change log from reconciliation run
 - `tools/generate_assessment.py` — Selects probe topics + builds frontier chains → `output/assessment-data.json`
 - `tools/generate_assessment_page.py` — Generates adaptive placement assessment UI → `output/assessment.html`
+- `tools/generate_assessment_questions.py` — Extracts questions from topics, builds quiz pool + topic index → `output/assessment-questions.json`
+- `tools/generate_quiz_page.py` — Generates interactive trivia quiz with fluency integration → `output/quiz.html`
 - `tools/diagnose_positioning.py` — Finds topics displaced from their domain sector (angular drift analysis)
 - `tools/diagnose_radial_order.py` — Finds prerequisite edges violating radial ordering (prereq more advanced than successor)
 - `tools/trace_topic.py` — Traces positioning math for a specific topic (debug tool)

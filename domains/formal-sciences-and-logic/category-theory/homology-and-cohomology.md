@@ -41,6 +41,45 @@ Compute homology of a simple chain complex of abelian groups by hand: find the k
 - The connecting homomorphism in the long exact sequence is not arbitrary; it arises canonically from the snake lemma and is natural in the short exact sequence.
 - Zero homology does not mean the complex is trivial; it means the complex is exact, which is a strong and useful condition.
 
+## Questions
+
+```yaml
+- question: "A chain complex C_* satisfies H_n(C) = 0 for all n. What does this mean about the complex?"
+  type: multiple-choice
+  options:
+    - "All chain groups C_n are zero — the complex is trivially empty"
+    - "The complex is exact at every degree — every cycle is a boundary"
+    - "All boundary maps d_n are zero maps, so nothing maps anywhere"
+    - "The complex has only even-degree terms; odd-degree terms are absent"
+  answer: 1
+  explanation: "H_n(C) = ker(d_n)/im(d_{n+1}) = 0 means ker(d_n) = im(d_{n+1}) at each degree — every cycle is a boundary. This is exactness. The chain groups C_n themselves can be very large and non-trivial; zero homology says nothing about the size of the groups, only about the relationship between consecutive maps. This is a common misconception: zero homology does not mean the complex is empty or trivial, but that it has the 'right' map structure — a strong and often useful condition."
+
+- question: "A topologist wants to distinguish CP² (complex projective plane) from S² ∨ S⁴ (the wedge sum). Both spaces have identical homology groups in every degree. Which algebraic structure detects the difference?"
+  type: multiple-choice
+  options:
+    - "The kernel of the boundary map in degree 2"
+    - "The cup product structure in cohomology"
+    - "The connecting homomorphism in the long exact sequence"
+    - "The torsion subgroups of the chain groups"
+  answer: 1
+  explanation: "H*(CP²; ℤ) and H*(S² ∨ S⁴; ℤ) are isomorphic as graded abelian groups — homology cannot distinguish them. But in cohomology, the generator α ∈ H²(CP²) satisfies α ∪ α ≠ 0 (the cup product generates H⁴), while on S² ∨ S⁴ any cup product of positive-degree classes is zero. The cup product is a ring structure on cohomology with no homology analogue, demonstrating that cohomology sometimes carries strictly more information."
+
+- question: "If the homology group H_n(C) = 0, then the chain complex must be trivial — all the chain groups C_n are zero."
+  type: true-false
+  answer: false
+  explanation: "H_n(C) = 0 means the complex is exact at degree n (ker d_n = im d_{n+1}), which is a condition on the relationship between maps, not on the sizes of the groups. A non-trivial example: the complex 0 → ℤ →×2 ℤ → ℤ/2 → 0 is exact (has zero homology) but involves non-trivial groups throughout. Exactness is a structural property; zero homology is a powerful condition that says cycles and boundaries coincide perfectly at each degree."
+
+- question: "Cohomology can distinguish spaces that homology cannot, because the cup product in cohomology carries information about how cohomology classes intersect that homology groups alone do not capture."
+  type: true-false
+  answer: true
+  explanation: "As illustrated by CP² versus S² ∨ S⁴, cohomology rings (equipped with the cup product) detect multiplicative structure invisible to homology groups. The cup product α ∪ β ∈ H^{p+q} encodes intersection data between p- and q-dimensional classes. This extra structure makes cohomology essential in algebraic topology, algebraic geometry (de Rham, sheaf, and étale cohomology), and physics (characteristic classes, anomaly cancellation). Cohomology is dual to homology but is not equivalent to it in general."
+
+- question: "What does the homology group H_n(C) actually measure, and why is the definition H_n = ker(d_n) / im(d_{n+1}) geometrically meaningful?"
+  type: short-answer
+  answer: "H_n(C) measures the failure of the chain complex to be exact at degree n — it counts n-cycles (closed chains with no boundary, in ker d_n) that are not themselves boundaries of (n+1)-chains (not in im d_{n+1}). In topology, these are genuine 'holes': loops not bounding disks, voids not enclosing solid regions. H_0 counts connected components, H_1 counts 1-dimensional holes (loops), H_2 counts enclosed voids, and so on. The quotient is meaningful because d² = 0 guarantees im d_{n+1} ⊆ ker d_n — without this, the quotient wouldn't even be well-defined."
+  explanation: "The condition d² = 0 is the algebraic foundation that makes homology possible. It means every boundary is a cycle, so cycles form a group containing boundaries as a subgroup, and we can take the quotient. The size of H_n reflects how many independent non-boundary cycles exist — the 'topological complexity' at dimension n."
+```
+
 ## Explainer
 
 You already know what a chain complex is: a sequence of abelian groups (or modules, or objects in an abelian category) connected by boundary maps d_n: C_n → C_{n-1} satisfying d_{n-1} ∘ d_n = 0. The condition d² = 0 guarantees that the image of each boundary map is a subgroup of the kernel of the next one. Homology measures by how much the complex fails to be exact at each degree — in other words, how many "cycles" (elements in the kernel of d_n) are not "boundaries" (elements in the image of d_{n+1}). Formally, **H_n(C) = ker(d_n) / im(d_{n+1})**.

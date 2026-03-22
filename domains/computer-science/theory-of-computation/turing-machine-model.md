@@ -14,7 +14,7 @@ tags:
 - turing-machines
 - model
 - computation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

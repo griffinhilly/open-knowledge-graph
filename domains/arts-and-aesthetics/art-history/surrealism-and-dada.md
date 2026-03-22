@@ -36,6 +36,45 @@ Study Duchamp's Fountain alongside Dalí's The Persistence of Memory — the fir
 - Surrealism is often reduced to "weird dream paintings" — it was a systematic movement with theoretical foundations in psychoanalysis and political commitments to revolutionary change.
 - Dada was not simply nihilistic destruction — many Dadaists were deeply purposeful in using absurdity to expose the irrationality of a civilization that had produced industrial-scale warfare.
 
+## Questions
+
+```yaml
+- question: "Marcel Duchamp submitted a mass-produced urinal titled 'Fountain' to an art exhibition in 1917. What was the PRIMARY conceptual challenge this readymade posed?"
+  type: multiple-choice
+  options:
+    - "It demonstrated that industrial objects could achieve aesthetic beauty equal to hand-crafted art"
+    - "It forced viewers to confront who has the authority to define what counts as art in the first place"
+    - "It showed that anonymous artists deserved the same recognition as established painters"
+    - "It argued that modern materials were superior to traditional artistic media"
+  answer: 1
+  explanation: "The readymade's power was philosophical, not aesthetic. Duchamp was not claiming the urinal was beautiful — he was asking: if an artist can designate any object as art simply by selecting it, then what is special about artistic creation? This destabilized the concept of art itself. Option A misses the point entirely; Duchamp explicitly did not care whether 'Fountain' was visually pleasing."
+
+- question: "What most clearly distinguished Surrealism from the Dada movement it grew out of?"
+  type: multiple-choice
+  options:
+    - "Surrealism rejected chance and automatism in favor of rational, planned compositions"
+    - "Surrealism replaced Dada's anti-rational critique with a positive program: accessing the unconscious mind through dream imagery and automatism"
+    - "Surrealism abandoned Dada's interest in psychoanalysis and focused purely on visual innovation"
+    - "Surrealism returned to traditional painterly skill that Dada had rejected"
+  answer: 1
+  explanation: "Dada said rational civilization is bankrupt — full stop. Surrealism agreed but added: beneath rational consciousness lies a deeper reality accessible through Freudian techniques. Breton's Surrealist Manifesto drew on dream analysis and free association. Option D is a partial truth in a misleading way: Dalí did use meticulous technique, but to depict impossible content — the skill served the unconscious program, not a return to tradition."
+
+- question: "Dalí's paranoiac-critical method used spontaneous, uncontrolled mark-making to bypass rational thought, similar to Masson's automatic drawing."
+  type: true-false
+  answer: false
+  explanation: "This conflates two distinct Surrealist strategies. Masson and others used automatism — genuinely uncontrolled drawing. Dalí's paranoiac-critical method was the opposite: he used meticulous, almost photographic realism to depict impossible dream imagery. The technique was highly controlled; only the content came from irrational sources. The contradiction between precise execution and impossible subject matter was the source of its unsettling power."
+
+- question: "Dada artists used absurdity and chance procedures not merely as pranks but as a principled critique of European rationalism."
+  type: true-false
+  answer: true
+  explanation: "This is the most important corrective to the common misconception. Tristan Tzara's hat poems, Arp's dropped-paper collages, and Hugo Ball's sound poetry were deliberate arguments: if European civilization's vaunted rationality had produced the industrial slaughter of World War I, then reason itself was discredited. Choosing chance and absurdity over rational composition was a coherent, purposeful response — not nihilism and not pranks."
+
+- question: "Why did Surrealist painters like Dalí use meticulous, photographic realism to depict impossible scenes rather than abstract or distorted imagery?"
+  type: short-answer
+  answer: "Photographic realism forces the viewer to accept the painted world as visually credible even while recognizing its impossibility. Abstract imagery signals unreality immediately and lets the viewer dismiss it. Realist technique says 'this is real' while impossible content says 'this cannot be' — the collision between these two signals creates genuine psychological disruption. Abstraction would give the viewer an escape route; realism removes it."
+  explanation: "This is the key to understanding why Dalí's strategy differs from Masson's automatism yet aims at the same goal. Both want to bypass the viewer's rational defenses. Abstract automatism does it through unfamiliar form; realist impossibility does it by using familiar visual language to smuggle in content that defies rational reality. The specificity of melting watches — not vaguely distorted, but rendered with Dutch-master precision — is precisely what makes them disturbing."
+```
+
 ## Explainer
 
 To understand Dada and Surrealism, you need to grasp the world that produced them. From your study of modern art movements, you know that the early 20th century saw artists systematically dismantling the conventions of representation — Cubism fractured perspective, Futurism celebrated speed and machines, Expressionism prioritized inner feeling over outer appearance. But Dada went further than any of these. It did not propose a new way of making art; it questioned whether art should exist at all in its traditional form. When Marcel Duchamp took a mass-produced urinal, signed it "R. Mutt," and submitted it to an exhibition in 1917, he was not making a toilet into a sculpture. He was asking: if an artist can designate anything as art, then what makes art special? This is the **readymade** — an ordinary object reframed by the artist's choice — and its implications are still being worked out a century later.

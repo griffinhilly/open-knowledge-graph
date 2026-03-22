@@ -15,7 +15,7 @@ tags:
 - flagella
 - microtubules
 - motility
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

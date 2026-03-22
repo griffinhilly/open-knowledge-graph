@@ -39,6 +39,45 @@ Sketch asymptotic Bode plots for several open-loop transfer functions and identi
 - A large gain margin alone does not guarantee a robust design — both gain and phase margins must be adequate (typical targets: GM > 6 dB, PM > 45°).
 - The Bode plot used for stability analysis is the open-loop transfer function G(jω)H(jω), not G(jω) alone when H ≠ 1.
 
+## Questions
+
+```yaml
+- question: "A control engineer finds her system has a gain margin of 20 dB but a phase margin of only 8°. What should she conclude?"
+  type: multiple-choice
+  options:
+    - "The system is robustly stable because the gain margin far exceeds the 6 dB rule of thumb"
+    - "She should increase loop gain to push the gain crossover frequency higher and improve phase margin"
+    - "The system is poorly conditioned — a small phase margin means it is nearly unstable despite the large gain margin, and both margins must be adequate simultaneously"
+    - "She should switch to Nyquist analysis because Bode plots cannot assess systems with very small phase margins"
+  answer: 2
+  explanation: "Both gain margin AND phase margin must be adequate simultaneously. A phase margin of 8° means the system is operating very close to -180° phase at the gain crossover — a small perturbation could cause instability. Standard design targets require GM > 6 dB AND PM > 45°. A large gain margin with tiny phase margin still produces a poorly damped, nearly unstable system."
+
+- question: "In a negative feedback loop, why does having open-loop gain = 1 (0 dB) and phase = -180° at the same frequency cause instability?"
+  type: multiple-choice
+  options:
+    - "These conditions cause the Laplace transform poles to become undefined"
+    - "The controller loses all authority over the plant at this frequency"
+    - "The feedback signal becomes a same-phase, full-strength copy of the input: the negative feedback summing junction adds rather than subtracts, reinforcing the signal without bound"
+    - "The system's bandwidth collapses to zero, preventing any response"
+  answer: 2
+  explanation: "Negative feedback subtracts the feedback signal from the input. If the loop shifts the phase by -180°, the fed-back signal is inverted — which means the subtraction in the summing junction becomes addition. If the magnitude is also 1 (0 dB), this full-strength, same-phase signal is added to the input, causing unbounded self-reinforcement. Bode stability analysis checks how close the system comes to this critical condition at any frequency."
+
+- question: "The Bode plot used for stability margin analysis is the open-loop transfer function G(jω)H(jω), not the closed-loop frequency response."
+  type: true-false
+  answer: true
+  explanation: "Stability margins (gain margin and phase margin) are defined in terms of the open-loop frequency response G(jω)H(jω). The gain crossover and phase crossover frequencies are properties of the open loop. Reading margins from a closed-loop Bode plot would give the wrong answer — the closed-loop plot already incorporates the feedback and does not directly expose the critical 0 dB / -180° crossing relationships."
+
+- question: "A minimum-phase system with gain margin GM = 12 dB is guaranteed to be stable regardless of its phase margin, since it can tolerate a fourfold increase in gain."
+  type: true-false
+  answer: false
+  explanation: "Both gain margin and phase margin must be adequate simultaneously. A large GM with a small PM (e.g., 5°) still results in a poorly damped, nearly unstable closed-loop system. The two margins measure different dimensions of stability robustness — GM measures how much extra gain can be added, PM measures how much extra phase lag can be tolerated — and a deficiency in either is dangerous."
+
+- question: "Why does Bode's stability criterion (reading gain and phase margins from the open-loop Bode plot) apply only to minimum-phase systems, and what must be used instead for systems with right-half-plane zeros or time delays?"
+  type: short-answer
+  answer: "Minimum-phase systems have a unique relationship between magnitude and phase: the phase response is completely determined by the magnitude response (via Hilbert transform relations). This is what makes reading margins off the Bode plot valid. Non-minimum-phase systems (with RHP zeros or time delays) have more phase lag than their magnitude would predict, so the standard margin-reading rule gives incorrect stability conclusions. The Nyquist criterion, which tracks encirclements of the -1 point in the complex plane, handles arbitrary loop transfer functions correctly."
+  explanation: "The minimum-phase assumption is often glossed over but is essential for Bode stability analysis to be valid. Time delays introduce phase lag of -ωT radians that grows without bound with frequency, fundamentally changing the stability picture in ways the magnitude plot cannot capture."
+```
+
 ## Explainer
 
 Your prerequisites give you two tools: transfer functions describe how a system maps input to output in the Laplace domain, and Bode plots show the magnitude and phase of a system's frequency response. Bode plot stability analysis combines these to answer a practical question without solving for closed-loop poles directly: will a unity feedback loop with plant G(s) be stable?

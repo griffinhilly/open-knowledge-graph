@@ -15,7 +15,7 @@ tags:
 - translation
 - mRNA
 - protein-synthesis
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

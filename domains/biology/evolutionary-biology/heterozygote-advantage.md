@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 Heterozygotes possess higher fitness than both homozygotes, maintaining genetic polymorphism at stable intermediate allele frequencies. Classic example: sickle-cell trait confers malaria resistance without severe anemia cost in heterozygotes.
 
+## Questions
+
+```yaml
+- question: "In a malaria-endemic region, the HbS allele is initially very rare. What does heterozygote advantage predict will happen to its frequency over subsequent generations?"
+  type: multiple-choice
+  options:
+    - "It will be eliminated, because sickle-cell anemia kills homozygous HbS/HbS individuals before reproduction"
+    - "Its frequency will increase, because when rare it almost exclusively appears in high-fitness HbA/HbS heterozygotes"
+    - "Its frequency will remain constant, because the allele is selectively neutral when rare"
+    - "Its frequency will increase only if the HbA allele is simultaneously lost from the population"
+  answer: 1
+  explanation: "When HbS is rare, nearly every copy exists in HbA/HbS heterozygotes — the highest-fitness genotype. Selection therefore strongly favors the allele when it is rare. This is the self-correcting dynamic of overdominance: rarity means high fitness, driving the allele upward until it reaches equilibrium."
+
+- question: "In a population with fitness costs s = 0.2 for HbA/HbA (malaria susceptibility) and t = 0.8 for HbS/HbS (sickle-cell disease), what is the predicted equilibrium frequency of the HbS allele?"
+  type: multiple-choice
+  options:
+    - "0.50 — both alleles reach equal frequency at equilibrium"
+    - "0.80 — the allele with the smaller homozygote fitness cost dominates"
+    - "0.20 — the equilibrium frequency equals s/(s + t)"
+    - "0.04 — the allele with the larger fitness cost remains very rare"
+  answer: 2
+  explanation: "The equilibrium frequency formula q̂ = s/(s + t) = 0.2/(0.2 + 0.8) = 0.2. The HbS allele reaches a stable 20% frequency — not zero (despite causing anemia) and not 50% (despite heterozygote advantage). The asymmetry in fitness costs (t >> s) means the population holds far more HbA than HbS alleles at equilibrium."
+
+- question: "At the heterozygote advantage equilibrium, if the frequency of HbS rises above its equilibrium value, selection will push it back down because an increasing proportion of HbS copies end up in low-fitness HbS/HbS homozygotes."
+  type: true-false
+  answer: true
+  explanation: "This is the stabilizing logic of overdominance. As HbS becomes common, more copies pair with other HbS alleles, producing costly aa homozygotes. Selection then favors HbA and drives HbS back toward equilibrium. The same logic in reverse prevents HbS from disappearing when rare. The equilibrium is stable."
+
+- question: "Heterozygote advantage is a form of dominance: the HbA allele dominates in HbA/HbS heterozygotes, masking the HbS allele and conferring the heterozygote's high fitness."
+  type: true-false
+  answer: false
+  explanation: "Overdominance is fundamentally different from classical dominance. In classical dominance, one allele masks the other and the heterozygote resembles one homozygote. In overdominance, the heterozygote has HIGHER fitness than BOTH homozygotes — it is not that one allele 'wins.' The sickle-cell heterozygote's advantage comes from having both allele products present, not from one suppressing the other."
+
+- question: "Explain why natural selection cannot drive the HbS allele to either fixation or elimination in a malaria-endemic population, even though both HbS/HbS and HbA/HbA homozygotes have lower fitness than the heterozygote."
+  type: short-answer
+  answer: "When HbS is rare, almost all HbS copies exist in high-fitness HbA/HbS heterozygotes, so selection increases the allele's frequency. When HbS is common, many copies end up in low-fitness HbS/HbS homozygotes, so selection decreases its frequency. The allele can never disappear (rarity makes it advantageous) and can never fix (commonness makes it costly). This frequency-dependent fitness creates a stable equilibrium where selection actively maintains both alleles."
+  explanation: "The key insight is that the fitness of an allele in a diploid organism depends not just on the allele itself but on what it is paired with — and what it is paired with depends on allele frequency. Overdominance converts this frequency dependence into a stable equilibrium, the clearest mechanism by which selection maintains genetic variation."
+```
+
 ## Explainer
 
 From adaptation and fitness, you know that natural selection increases the frequency of alleles that confer higher reproductive success. From dominance and recessiveness, you know that diploid organisms carry two copies of each gene and that the phenotypic expression of alleles depends on their dominance relationships. Heterozygote advantage — also called **overdominance** — arises when the heterozygous genotype (one copy of each allele, Aa) has *higher fitness* than either homozygote (AA or aa). This creates a situation where selection cannot drive either allele to fixation, because as one allele becomes common, the other becomes rare and increasingly appears in the high-fitness heterozygous state.

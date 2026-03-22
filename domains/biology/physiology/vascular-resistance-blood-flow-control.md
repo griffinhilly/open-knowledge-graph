@@ -31,6 +31,45 @@ Measure blood flow velocity and vessel diameter using Doppler ultrasound or vide
 ## Common Misconceptions
 Vascular resistance is not uniformly distributed; arterioles (small diameter, thick smooth muscle) account for ~50% of total resistance and are the primary site of metabolic control, while capillaries contribute minimally to resistance despite their small size.
 
+## Questions
+
+```yaml
+- question: "An arteriole constricts so that its radius decreases to half its original value. By what factor does vascular resistance in that vessel change, according to Poiseuille's law?"
+  type: multiple-choice
+  options:
+    - "2-fold increase"
+    - "4-fold increase"
+    - "8-fold increase"
+    - "16-fold increase"
+  answer: 3
+  explanation: "Poiseuille's law states resistance ∝ 1/r⁴. If radius halves (r → r/2), then resistance changes by a factor of 1/(1/2)⁴ = 1/(1/16) = 16. This 16-fold increase from a 50% radius reduction illustrates the extraordinary leverage arterioles have over blood flow. Even modest vasoconstriction — say a 20% decrease in radius — nearly doubles resistance (1/0.8⁴ ≈ 2.4×). This is why arterioles are the dominant flow-control valves in the circulation."
+
+- question: "A patient develops septic shock, in which widespread bacterial infection causes arterioles throughout the body to dilate simultaneously. Even though the heart increases its output, blood pressure drops dangerously. Which relationship best explains why?"
+  type: multiple-choice
+  options:
+    - "Increased cardiac output raises blood volume, diluting the blood and reducing its viscosity"
+    - "Arteriolar dilation dramatically reduces total peripheral resistance, and MAP = cardiac output × total peripheral resistance"
+    - "Dilated arterioles allow blood to pool in capillaries, reducing venous return to the heart"
+    - "Sepsis directly depresses heart muscle contractility, reducing stroke volume despite apparent output increases"
+  answer: 1
+  explanation: "Mean arterial pressure (MAP) = cardiac output × total peripheral resistance (TPR). When arterioles dilate massively, TPR plummets due to the r⁴ relationship — a modest increase in radius causes a huge drop in resistance. Even if cardiac output compensates partially, the proportional drop in TPR is larger, so MAP falls. This is why vasopressors (drugs that constrict arterioles) are the primary treatment for septic shock: they restore TPR to rescue blood pressure."
+
+- question: "Capillaries have the highest vascular resistance in the circulatory system because they have the smallest diameter of any blood vessel."
+  type: true-false
+  answer: false
+  explanation: "Although individual capillaries have tiny diameters (~5–10 μm), they exist in enormous numbers arranged in parallel. Parallel resistances sum as reciprocals, so a million capillaries in parallel have extremely low total resistance. Arterioles, despite having larger individual diameters than capillaries, account for roughly 50% of total peripheral resistance because they are relatively few in number, have thick smooth muscle walls, and actively constrict. The common misconception conflates individual vessel resistance with total resistance at the network level."
+
+- question: "A drug that causes a 20% reduction in arteriolar radius would approximately double vascular resistance in those arterioles."
+  type: true-false
+  answer: true
+  explanation: "Resistance ∝ 1/r⁴. A 20% radius reduction means r becomes 0.8r, so resistance scales by 1/(0.8)⁴ = 1/0.4096 ≈ 2.44-fold — indeed approximately doubling (and slightly more). This illustrates that the r⁴ relationship makes even modest vasoconstriction clinically significant, which is why antihypertensive drugs that relax arteriolar smooth muscle by even a small degree can substantially reduce blood pressure."
+
+- question: "Why are arterioles — rather than capillaries or large arteries — the primary site of active blood flow regulation?"
+  type: short-answer
+  answer: "Arterioles combine thick smooth muscle walls with small lumens, giving them a wide adjustable radius range where the r⁴ law amplifies small changes into large flow effects."
+  explanation: "Three features make arterioles uniquely suited as flow-control valves: (1) They have abundant smooth muscle relative to their lumen diameter, allowing a wide range of active diameter adjustment. (2) Due to Poiseuille's r⁴ relationship, small changes in arteriolar radius produce enormous changes in resistance and thus in flow distribution. (3) They sit just upstream of capillary beds, so their resistance directly controls delivery to individual tissues. Large arteries have too large a baseline radius for r⁴ changes to be impactful, and capillaries lack smooth muscle entirely — they can only passively accept what arterioles allow."
+```
+
 ## Explainer
 
 From your understanding of passive transport and the cardiovascular system, you know that substances move along gradients and that the heart pumps blood through a closed circuit of vessels. Vascular resistance and blood flow control explains the physics of how blood actually moves through that circuit and, crucially, how the body directs blood to where it is needed most at any given moment.

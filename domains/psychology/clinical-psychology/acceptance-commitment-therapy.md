@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 ACT is based on acceptance (allowing thoughts and feelings without struggle) and commitment to values-aligned action. It uses mindfulness, metaphor, and experiential exercises to increase psychological flexibility—the ability to be present with difficult experiences while pursuing meaningful goals.
 
+## Questions
+
+```yaml
+- question: "A client says: 'I keep having the thought that I am fundamentally worthless. I've tried to argue myself out of it for years, but it always comes back.' An ACT-consistent response would be:"
+  type: multiple-choice
+  options:
+    - "Help the client identify the cognitive distortions in the belief and replace it with a more balanced, evidence-based thought"
+    - "Teach the client to observe the thought as a mental event: 'I notice I am having the thought that I am worthless' — creating distance without disputing its content"
+    - "Encourage the client to accept their worthlessness as a reality and build a meaningful life within that constraint"
+    - "Use thought suppression or distraction techniques to reduce how frequently the thought intrudes"
+  answer: 1
+  explanation: "This is cognitive defusion — a core ACT process. Rather than disputing the thought's accuracy (CBT) or suppressing it, the client learns to observe it as a passing mental event. The phrase 'I notice I am having the thought that...' creates psychological distance from the thought. ACT's key insight: the problem is not the thought's content but the client's fusion with it as literal truth. Defusion reduces the thought's behavioral impact without requiring it to be eliminated or proved false."
+
+- question: "According to ACT's model, the core process that maintains psychological suffering is:"
+  type: multiple-choice
+  options:
+    - "Cognitive distortions — systematically inaccurate, negatively biased beliefs about self, world, and future"
+    - "Experiential avoidance — attempts to suppress, escape, or control unwanted inner experiences"
+    - "Behavioral deficits — insufficient engagement in pleasurable or rewarding activities"
+    - "Insecure attachment patterns shaping current emotion regulation strategies"
+  answer: 1
+  explanation: "ACT's case conceptualization centers on experiential avoidance — the ironic effect that fighting unwanted thoughts and feelings tends to amplify and entrench them. Unlike CBT (which targets thought content), behavioral activation (which targets activity quantity), or attachment-based therapies, ACT targets the client's relationship to inner experience. When clients stop investing energy in the war against their own mental states, more resources become available for values-aligned living."
+
+- question: "In ACT, acceptance means agreeing with or endorsing the content of one's difficult thoughts and feelings."
+  type: true-false
+  answer: false
+  explanation: "Acceptance in ACT means allowing unwanted inner experiences to exist without struggling against them — not agreeing that they are true or desirable. A client can fully accept the presence of an anxious feeling without believing the anxiety is justified or that the feared outcome is likely. The distinction is critical: acceptance stops the exhausting fight against the feeling; defusion addresses the relationship to associated thoughts. Neither requires the client to endorse what the feeling or thought 'says.'"
+
+- question: "ACT considers values clarification essential because committed action needs a direction — values provide meaningful goals to move toward even when difficult thoughts and feelings are present."
+  type: true-false
+  answer: true
+  explanation: "In ACT's hexaflex model, values and committed action are the 'toward' side of the framework — they give purpose and direction to behavior change. Acceptance, defusion, present-moment awareness, and the observing self create psychological space, but that space is only useful if the client knows what to do with it. Values distinguish ACT from mere distress tolerance: the point is not just to suffer less, but to live more fully in directions the client actually cares about."
+
+- question: "What is the fundamental difference between ACT's approach to unwanted thoughts and traditional CBT's approach, and what is the clinical rationale for ACT's strategy?"
+  type: short-answer
+  answer: "CBT targets thought content — identifying distortions and replacing them with more accurate cognitions. ACT targets the client's relationship to thoughts through defusion — learning to observe thoughts as mental events rather than literal truths, without needing to change their content. ACT's rationale: the struggle to eliminate or control thoughts is itself a form of experiential avoidance that maintains suffering; changing the relationship to thoughts reduces their behavioral impact without requiring their content to be corrected."
+  explanation: "The clinical implication is significant for case selection. CBT assumes inaccurate thoughts drive dysfunction, so correcting them should reduce suffering. ACT assumes that fusion with thoughts (not their inaccuracy) drives dysfunction, so defusion is the target. ACT is particularly useful for clients who have tried CBT without durable success, or whose primary problem is the struggle against their own mental life rather than specific distorted beliefs. The two approaches are not mutually exclusive but differ in their theory of change."
+```
+
 ## Explainer
 
 From your case conceptualization training, you know how to map a client's presenting problems onto a theoretical model — identifying cognitions, behaviors, emotions, and maintaining factors. ACT uses that same clinical framework but proposes a fundamentally different theory of what causes and maintains psychological suffering. Where traditional CBT aims to identify and modify distorted thoughts, ACT argues that the *content* of thoughts matters less than a client's **relationship** to those thoughts. The same anxious thought — "I might fail" — can be paralyzing when fused with as truth, or barely noticeable when held lightly as a passing mental event.

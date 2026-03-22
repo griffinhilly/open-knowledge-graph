@@ -27,6 +27,45 @@ Data Manipulation Language (DML) modifies table contents. INSERT adds new rows, 
 ## How It's Best Learned
 Practice INSERT with explicit column lists, multi-row inserts, and INSERT...SELECT. Practice UPDATE with WHERE conditions affecting multiple rows. Understand the importance of WHERE clauses to avoid accidental data loss.
 
+## Questions
+
+```yaml
+- question: "A developer runs: UPDATE employees SET salary = 75000; What happens?"
+  type: multiple-choice
+  options:
+    - "Only employees with NULL salaries are updated, since those are the unset rows"
+    - "The statement fails with an error because a WHERE clause is required for UPDATE"
+    - "Every row in the employees table has its salary set to 75000"
+    - "Only the most recently inserted employee row is updated"
+  answer: 2
+  explanation: "Without a WHERE clause, UPDATE applies to every row in the table. SQL does not require a WHERE clause or warn you — it happily updates all rows. This is one of the most dangerous mistakes in SQL and a major reason to write the WHERE clause before the SET clause as a habit."
+
+- question: "Why should INSERT statements always list column names explicitly rather than relying on positional order?"
+  type: multiple-choice
+  options:
+    - "Listing column names is required by the SQL standard; positional inserts are not valid syntax"
+    - "Positional inserts are significantly slower because the database must scan the full schema"
+    - "If the table is later altered — columns added, reordered, or removed — positional inserts may silently insert values into the wrong columns"
+    - "Column name lists enable constraint checking; positional inserts bypass NOT NULL validation"
+  answer: 2
+  explanation: "Positional inserts assume a specific column order. If the table schema changes — a column added in the middle, or the order revised — the values shift to the wrong columns without any error. Explicit column names make the mapping unambiguous and protect against schema drift. Constraints apply equally regardless, and performance is not materially affected."
+
+- question: "A DELETE statement without a WHERE clause will fail with an error, because SQL requires you to specify which rows to delete."
+  type: true-false
+  answer: false
+  explanation: "SQL does not require a WHERE clause on DELETE. A bare DELETE FROM tablename; is perfectly valid syntax and will delete every row in the table, leaving it empty — with no confirmation prompt. This is why wrapping destructive DML in a transaction (so you can ROLLBACK) and always including WHERE clauses are essential practices."
+
+- question: "If you attempt to INSERT a row that violates a NOT NULL or FOREIGN KEY constraint, the database will reject the insert rather than storing invalid data."
+  type: true-false
+  answer: true
+  explanation: "Constraints are enforced at the moment of DML execution. An INSERT violating NOT NULL, FOREIGN KEY, UNIQUE, or CHECK is rejected with an error and no row is stored. This is a core benefit of defining constraints at table creation: the database guarantees data integrity automatically, so application code doesn't need to duplicate that validation."
+
+- question: "What is the purpose of wrapping UPDATE or DELETE statements in a transaction, and when would you use ROLLBACK?"
+  type: short-answer
+  answer: "A transaction lets you verify the effect of a destructive statement before making it permanent. After executing the UPDATE or DELETE, you SELECT to check affected rows. If correct, COMMIT makes the change permanent. If something is wrong, ROLLBACK undoes the entire operation as if it never happened."
+  explanation: "UPDATE and DELETE have no built-in undo outside a transaction. Wrapping in BEGIN...COMMIT creates a checkpoint: the changes are visible within your session but not yet to others. Only on COMMIT do they become permanent. If the WHERE clause matched more rows than expected — a common mistake — ROLLBACK lets you escape without data loss."
+```
+
 ## Explainer
 
 Once you have created tables with DDL (CREATE TABLE), those tables are empty structures — a schema with no data. **Data Manipulation Language (DML)** is how you populate and maintain the contents of those structures. The three core DML statements are INSERT, UPDATE, and DELETE, and each interacts directly with the constraints and data types you defined when creating the table.

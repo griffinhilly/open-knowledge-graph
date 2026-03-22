@@ -30,6 +30,45 @@ First internalize Turing reducibility as "A is computable given B as an oracle."
 - The Turing degrees are NOT linearly ordered — there exist incomparable degrees where neither set is reducible to the other.
 - Turing degree 0 contains infinitely many distinct sets (all computable sets), not just the empty set — a degree is an equivalence class, not a single set.
 
+## Questions
+
+```yaml
+- question: "Suppose A ≤_T B but B is not ≤_T A. What can we conclude about the Turing degrees of A and B?"
+  type: multiple-choice
+  options:
+    - "A and B have the same Turing degree, since A is computable from B"
+    - "A has a strictly lower Turing degree than B — B is strictly harder to compute than A"
+    - "This situation is impossible — if A ≤_T B, then B ≤_T A must also hold"
+    - "A and B are incomparable — neither is harder than the other"
+  answer: 1
+  explanation: "Two sets have the same Turing degree when each is reducible to the other (mutual reducibility). If A ≤_T B but B is not ≤_T A, then the mutual reducibility fails: B carries strictly more computational information than A. The degree of A is strictly lower than the degree of B. This is analogous to a strict partial order: A's degree sits below B's degree, but the relation is not symmetric. Incomparable degrees arise only when neither set reduces to the other — a different situation."
+
+- question: "What was the significance of the Friedberg-Muchnik theorem for understanding the structure of Turing degrees?"
+  type: multiple-choice
+  options:
+    - "It proved that all non-computable sets have the same Turing degree as the halting problem"
+    - "It showed that the Turing degrees form a linear (total) order — every two degrees are comparable"
+    - "It showed that there exist Turing degrees strictly between 0 and 0', proving the structure branches rather than forming a single chain"
+    - "It proved that the jump operator d → d' produces every degree above 0, with no gaps"
+  answer: 2
+  explanation: "Post's problem asked whether there exists a Turing degree strictly between 0 (the computable sets) and 0' (the halting problem). Friedberg and Muchnik independently proved such degrees exist, constructing two sets A and B that are each non-computable (above degree 0) yet neither reduces to the other (incomparable to each other, both below 0'). This shattered the naive picture of a linear hierarchy and revealed the degree structure as a complex partial order that branches at every level — with incomparable degrees existing throughout."
+
+- question: "The jump operator guarantees that for any Turing degree d, the degree d' (its jump) is strictly higher than d."
+  type: true-false
+  answer: true
+  explanation: "The jump d' is defined by relativizing the halting problem to a d-oracle. It is always the case that d <_T d': d is reducible to d' (trivially, since d' has all the oracle power of d plus more), but d' is not reducible to d. This strict increase is a fundamental property of the jump operator and produces the infinite ascending chain 0 < 0' < 0'' < 0''' < ⋯. Each jump yields strictly more computational power than the previous level."
+
+- question: "The Turing degrees form a linearly ordered set — given any two Turing degrees, one must be reducible to the other."
+  type: true-false
+  answer: false
+  explanation: "This is the most important misconception to correct. The Friedberg-Muchnik theorem proves that incomparable Turing degrees exist: sets A and B can both be non-computable, yet neither A ≤_T B nor B ≤_T A holds. Such pairs are incomparable in the partial order of Turing degrees. The degree structure branches at every level, with infinitely many pairwise incomparable degrees above any fixed degree. It is a rich, complex partial order — not a chain."
+
+- question: "What does it mean for two sets to have the same Turing degree, and why does degree 0 contain infinitely many distinct sets rather than just one?"
+  type: short-answer
+  answer: "Two sets have the same Turing degree when each is Turing-reducible to the other — they are mutual oracles, carrying the same computational information. A Turing degree is an equivalence class of mutually reducible sets, not a single set. Degree 0 is the class of all computable sets. Every computable set reduces to every other computable set (trivially, since no oracle is needed), so all computable sets — the empty set, finite sets, the set of primes, and infinitely many others — fall into degree 0. The degree is the class, not one representative."
+  explanation: "The key insight is that Turing degrees classify sets by their 'oracular information content,' not by their syntactic description or size. Two very different-looking sets can have the same degree if each can simulate the other as an oracle. Degree 0 captures all computationally trivial sets, of which there are infinitely many. This equivalence class structure is why the degree structure is both precise (it distinguishes levels of non-computability) and coarse (many different sets share each degree)."
+```
+
 ## Explainer
 
 You already know Turing reducibility: A ≤_T B means A is computable given an oracle for B. Think of an oracle as a black box that answers membership queries about B in one step — your algorithm for A can call the oracle freely. If A ≤_T B, then B is "at least as hard" as A in terms of computational power. Now define the equivalence relation A ≡_T B when both A ≤_T B and B ≤_T A. Two sets in the same equivalence class are interchangeable as oracles — each can simulate the other. These equivalence classes are the **Turing degrees**: a degree bundles together everything that is "equally hard to compute."

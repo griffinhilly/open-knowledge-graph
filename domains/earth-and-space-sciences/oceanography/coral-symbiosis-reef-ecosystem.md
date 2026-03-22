@@ -13,7 +13,7 @@ tags:
 - symbiosis
 - reef
 - zooxanthellae
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -32,6 +32,45 @@ Study closed structures in the category of vector spaces with tensor product (wh
 ## Common Misconceptions
 Not every monoidal category is closed; existence of internal homs requires additional structure or axioms. The exponential [A, B] must behave naturally with respect to the monoidal structure in subtle ways.
 
+## Questions
+
+```yaml
+- question: "In a closed monoidal category, the tensor-hom adjunction states that for all objects A, B, C there is a natural bijection between morphisms. Which pair of hom-sets are in bijection?"
+  type: multiple-choice
+  options:
+    - "Hom(A, B ⊗ C) ≅ Hom(A ⊗ B, C)"
+    - "Hom(A ⊗ C, B) ≅ Hom(C, [A, B])"
+    - "Hom(A, [B, C]) ≅ Hom(A ⊗ B, A ⊗ C)"
+    - "Hom([A, B], C) ≅ Hom(A, B ⊗ C)"
+  answer: 1
+  explanation: "The defining adjunction of a closed monoidal category is Hom(A ⊗ C, B) ≅ Hom(C, [A, B]), natural in all variables. This is currying: a morphism from A ⊗ C to B (a 'two-argument function') corresponds to a morphism from C into the internal hom [A, B] (a 'curried one-argument function returning a function')."
+
+- question: "A student argues: 'In the category of sets, the internal hom [A, B] is just the set B^A of functions from A to B, so it is the same as the external hom-set Hom(A, B). Therefore internalizing the hom-functor adds nothing new in Set.' What is wrong with this argument?"
+  type: multiple-choice
+  options:
+    - "The argument is correct — internal and external homs coincide in Set and the distinction only matters in non-concrete categories"
+    - "The sets B^A and Hom(A, B) are different objects; internal homs always have additional algebraic structure not present in hom-sets"
+    - "While they happen to coincide in Set, the value of internal homs is that they live inside the category as objects that can be further composed and mapped — unlike external hom-sets which land in Set regardless of the ambient category"
+    - "The argument fails because Hom(A, B) in Set is not a set but a proper class"
+  answer: 2
+  explanation: "In Set, [A, B] ≅ Hom(A, B) as sets — they coincidentally agree. But the point is categorical: external hom-sets always land in Set, making morphisms second-class citizens. Internal homs make function spaces objects within the original category, available for further categorical operations: you can tensor them, map into them, and use them to define enriched structures. This distinction becomes critical in categories like vector spaces or chain complexes where hom-objects carry more structure than mere sets."
+
+- question: "In any cartesian closed category, the categorical operation of currying is an instance of the tensor-hom adjunction where the monoidal product is the Cartesian product."
+  type: true-false
+  answer: true
+  explanation: "A cartesian closed category is a closed monoidal category where ⊗ = ×. The tensor-hom adjunction then reads: Hom(A × C, B) ≅ Hom(C, [A, B]), which is exactly currying — a function of two arguments is the same as a function returning a function. This is the categorical foundation of lambda calculus and functional programming type theory via Curry-Howard."
+
+- question: "Every monoidal category is automatically closed, because the monoidal product ⊗ always has a right adjoint given by the opposite monoidal structure."
+  type: true-false
+  answer: false
+  explanation: "Closure is an additional property, not automatic. The monoidal structure gives ⊗ as a functor, but requiring (−) ⊗ A to have a right adjoint [A, −] for each A is a genuine constraint that fails in many monoidal categories. For example, the category of topological spaces with Cartesian product is not cartesian closed (the required function spaces may not exist with the right topology). Closed structure must be verified or assumed separately."
+
+- question: "Why does it matter that internal hom-objects [A, B] live inside the category, rather than always living in Set as external hom-sets do? Give a concrete consequence of this internalization."
+  type: short-answer
+  answer: "Internal homs are first-class objects that can be tensored, mapped into, and used to define enriched hom-objects — enabling enriched category theory and type-theoretic reasoning within the category itself"
+  explanation: "External hom-sets Hom(A, B) always belong to Set — they are sets of morphisms, not objects of the category. This means you cannot compose them with morphisms, tensor them with objects, or treat them as inputs to further categorical constructions. Internal homs [A, B] are objects in the category itself: you can form [[A, B], C], tensor [A, B] ⊗ C, and define categories enriched in 𝒱 by replacing hom-sets with hom-objects drawn from 𝒱. This underpins enriched category theory, module categories, and the Curry-Howard correspondence."
+```
+
 ## Explainer
 
 From your study of monoidal categories, you know that ⊗ provides a way to "combine" objects — tensor product for vector spaces, Cartesian product for sets, smash product for pointed spaces. From adjoint functors, you know that natural constructions often come in adjoint pairs: F is left adjoint to G when morphisms F(A) → B correspond naturally to morphisms A → G(B). A **closed monoidal category** is one where the functor (−) ⊗ A has a right adjoint for each A. That right adjoint, written [A, B] or A ⊸ B, is the **internal hom-object**.

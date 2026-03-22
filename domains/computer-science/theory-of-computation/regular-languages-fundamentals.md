@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - regular-languages
 - characterization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

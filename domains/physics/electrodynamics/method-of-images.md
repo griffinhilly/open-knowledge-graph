@@ -14,7 +14,7 @@ tags:
 - boundary-value-problems
 - images
 - boundary-conditions
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -31,6 +31,45 @@ Compare multiple translations of the same work (Baudelaire into English, or Cerv
 ## Common Misconceptions
 That foreignization is always better or more authentic. Venuti is critiquing power asymmetries and the invisibility of translation, not claiming foreignization is inherently superior—sometimes domestication is necessary and ethical.
 
+## Questions
+
+```yaml
+- question: "A publisher commissions an English translation of a French novel with instructions to make it 'read like it was written in English' — natural idioms, smooth sentences, no footnotes. According to Venuti, what is the cultural-political effect of this choice?"
+  type: multiple-choice
+  options:
+    - "It respects the source author by ensuring maximum readership in the target culture"
+    - "It assimilates the foreign text into Anglophone norms, erasing its cultural specificity and making the translator's interpretive labor invisible"
+    - "It is politically neutral — fluency is a purely aesthetic decision with no ideological content"
+    - "It foreignizes the text by bringing readers into contact with French literary conventions"
+  answer: 1
+  explanation: "This is Venuti's critique of domestication. A fluent, idiomatic English translation enacts 'translator's invisibility' — the reader forgets they are reading a translation, and the foreign text's cultural particularity is absorbed into Anglophone norms. The translator's choices, priorities, and ideology are hidden behind the illusion of transparent access to the author's voice. Venuti's point is that this is not neutral: it serves the cultural hegemony of English-language publishing by making foreign literature feel like it already belongs to the target culture."
+
+- question: "Venuti's primary objection to domesticating translation is that it produces aesthetically inferior texts. What is his actual objection?"
+  type: multiple-choice
+  options:
+    - "Domestication produces aesthetically inferior texts that betray the source author's style"
+    - "Domestication is ethically dishonest because it misrepresents the original"
+    - "Domestication enacts a politics of cultural assimilation that erases the foreign text's alterity and conceals the power relations embedded in translation"
+    - "Domestication is less accurate because idiomatic English rarely has precise equivalents in the source language"
+  answer: 2
+  explanation: "Venuti's critique is fundamentally about cultural politics and power, not aesthetics or accuracy. He argues that domestication absorbs foreign cultures into the target culture's dominant norms, rendering the translator invisible and making the asymmetry of global translation markets (far more translated into English than out of it) invisible as well. Foreignization is his political counter-strategy — not a claim that strange translations are more beautiful or more accurate, but that they resist the erasure of cultural difference and make visible the act and politics of translation."
+
+- question: "According to Venuti, foreignizing translation is always preferable to domesticating translation because it produces a more faithful representation of the source text."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception Venuti himself warns against. Foreignization is a political strategy to resist cultural assimilation and make the translator's work visible — it is not a universal standard for quality or fidelity. Venuti acknowledges that domestication is sometimes necessary and ethical; the question is whether the choice is made consciously with awareness of its cultural-political implications, or invisibly as an unexamined default. Claiming foreignization is 'always better' would itself be a kind of aesthetic essentialism that Venuti's politically-grounded argument resists."
+
+- question: "Venuti argues that domesticating translation reinforces global power asymmetries because it makes foreign literatures appear to have been originally written in English, obscuring the cultural labor and difference involved."
+  type: true-false
+  answer: true
+  explanation: "This is the heart of Venuti's argument. When foreign works are translated into smooth, idiomatic English, English-language readers never encounter the resistance of genuine cultural difference — the foreign culture is made to look like it was already American or British. Combined with the asymmetry of translation markets (much more translated into English than into other languages), domestication reinforces Anglophone cultural hegemony by consuming foreign cultures rather than encountering them. Foreignization is Venuti's response: insisting that the foreign text retain its foreignness, making visible both the act of translation and the cultural gap being bridged."
+
+- question: "What does Venuti mean by 'translator's invisibility,' and why does he see it as a problem rather than a sign of skilled translation?"
+  type: short-answer
+  answer: "Translator's invisibility refers to the dominant norm that a successful translation should read so fluently in the target language that the reader forgets it is a translation — the translator effaces their own labor, choices, and ideology to produce the illusion of direct access to the foreign author's voice. Venuti sees this as a problem because it conceals the translator's enormous interpretive power over how foreign authors are received, hides the cultural-political choices embedded in domestication, and perpetuates the assimilation of foreign cultures into Anglophone norms without acknowledgment."
+  explanation: "The 'invisibility' is not just aesthetic modesty — it is an ideological mechanism. A translator who chooses to domesticate a text is making dozens of interpretive decisions (word choice, syntax, cultural reference handling) that shape how readers understand the source culture. Making those decisions invisible prevents readers from questioning them, and prevents the translation from being understood as the culturally situated act it always is. Foreignization makes the translator visible again as an agent with a perspective."
+```
+
 ## Explainer
 
 You know from literary translation theory that translating a literary text involves choices far beyond finding equivalent words — translators interpret, select among options, and inevitably make the target text reflect priorities that aren't necessarily the source text's own. From Benjamin's essay on the translation task, you may have encountered the idea that no single translation exhausts the original and that translations reveal something about the source that wouldn't otherwise be visible. Venuti builds on these foundations but shifts the frame from aesthetics and metaphysics to **cultural politics**: who benefits from how translation is done, and what is erased in the process?

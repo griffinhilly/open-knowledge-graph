@@ -31,6 +31,45 @@ Analyze sediment cores to identify the lysocline (transition in calcite preserva
 ## Common Misconceptions
 CCD is not a sharp boundary; it is a transition zone (lysocline) where dissolution becomes increasingly significant. CCD depth is not constant through time; it has fluctuated with paleoclimate and is shoaling in response to ongoing acidification. CCD depth varies geographically due to differences in alkalinity, temperature, and water mass mixing.
 
+## Questions
+
+```yaml
+- question: "A sediment core from 4,800 m depth in the Pacific Ocean contains abundant siliceous ooze but almost no calcareous fossils. A student proposes that surface waters above this site must lack calcareous organisms. What is the correct explanation?"
+  type: multiple-choice
+  options:
+    - "The student is correct; calcareous plankton are absent from the overlying surface waters."
+    - "The seafloor lies below the CCD, so calcareous shells dissolving on the way down or shortly after settling leave no preserved carbonate in the sediment."
+    - "Siliceous organisms outcompete calcareous organisms in this region of the Pacific."
+    - "The sediments are too old, and carbonate dissolves over geological timescales regardless of depth."
+  answer: 1
+  explanation: "Surface productivity of calcareous organisms is actually high throughout most of the global ocean. The absence of carbonate at depth reflects dissolution, not absence of supply. Below the CCD, calcareous shells dissolve faster than they accumulate, leaving siliceous and clay-rich sediments. This is exactly the signal paleoceanographers use to locate past CCD positions in sediment cores."
+
+- question: "Why is the carbonate compensation depth shallower in the deep Pacific than in the deep Atlantic, even though both oceans have similar surface productivity of calcareous organisms?"
+  type: multiple-choice
+  options:
+    - "The Pacific is colder at the surface, producing more corrosive deep water."
+    - "Deep Pacific water is older — it has circulated longer without contact with the atmosphere — and has accumulated more dissolved CO₂ from decomposing organic matter, making it more corrosive to calcite."
+    - "The Pacific Ocean is deeper on average, so pressure effects alone push the CCD shallower."
+    - "Pacific surface waters have lower biological productivity, so less carbonate reaches depth."
+  answer: 1
+  explanation: "Deep water age is the key variable. Atlantic deep water is relatively young (recently ventilated from the North Atlantic surface) and has not yet accumulated much respiratory CO₂ from decomposing organic material sinking from above. Pacific deep water is much older and CO₂-enriched, lowering carbonate ion concentration and making it more aggressive toward calcite. This is why the Atlantic CCD sits ~4,500–5,000 m while the Pacific CCD is at ~4,000–4,500 m."
+
+- question: "The lysocline and the CCD are distinct features: the lysocline is the depth where dissolution begins to noticeably degrade calcareous shells, while the CCD is the deeper depth where dissolution rate equals supply rate."
+  type: true-false
+  answer: true
+  explanation: "The CCD is not a sharp line — it is approached through a gradient. The lysocline marks the upper boundary of this dissolution zone, where shell fragmentation and pitting first become visible in sediment cores. Below the lysocline, dissolution intensifies. At the CCD, the dissolution rate matches supply so completely that carbonate content drops to near zero. Recognizing the lysocline as a distinct, shallower transition is important for correctly interpreting sediment core records."
+
+- question: "The carbonate compensation depth is a fixed, globally uniform boundary at a specific ocean depth, determined solely by the pressure at which calcite becomes unstable."
+  type: true-false
+  answer: false
+  explanation: "The CCD varies geographically, with depth, and through time. In the Atlantic it sits ~500 m deeper than in the Pacific because of differences in deep water age and CO₂ content. Near productive surface regions, high carbonate supply pushes the effective CCD deeper. The CCD has also shifted through geologic history as atmospheric CO₂, ocean chemistry, and circulation patterns changed — and is currently shoaling in response to anthropogenic ocean acidification."
+
+- question: "Explain why ongoing ocean acidification from anthropogenic CO₂ emissions would cause the carbonate compensation depth to shoal (move to shallower water)."
+  type: short-answer
+  answer: "Anthropogenic CO₂ dissolves in seawater, reacting to form carbonic acid, which dissociates and lowers ocean pH and carbonate ion concentration. As carbonate ion concentration decreases, seawater becomes less saturated with respect to calcite — or undersaturated at shallower depths than before. This means calcite begins dissolving at shallower depths, pushing both the lysocline and the CCD upward toward the surface. A shallower CCD exposes previously preserved carbonate-rich sediments to dissolution and threatens shallow-water calcareous ecosystems."
+  explanation: "The mechanism connects global carbon chemistry to seafloor geology: rising atmospheric CO₂ → more dissolved CO₂ in seawater → lower pH → lower [CO₃²⁻] → calcite undersaturation at shallower depths → CCD shoals. This is one of the clearest examples of how atmospheric forcing reaches deep into the ocean system."
+```
+
 ## Explainer
 
 You already understand from the ocean carbonate system that dissolved CO₂ reacts with water to form carbonic acid, which dissociates into bicarbonate and carbonate ions. Calcite — the mineral that foraminifera, coccolithophores, and pteropods build their shells from — is stable only when seawater is supersaturated with respect to calcium carbonate. The **carbonate compensation depth (CCD)** is the depth in the ocean where the rate of calcite dissolution exactly equals the rate at which calcareous material settles from above. Below this depth, no calcite accumulates in the sediment — it dissolves faster than it arrives.

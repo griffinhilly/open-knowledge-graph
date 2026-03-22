@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - potentials
 - field-decomposition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

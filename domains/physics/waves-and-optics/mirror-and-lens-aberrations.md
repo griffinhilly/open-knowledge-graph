@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Spherical aberration occurs when rays at large angles to the optical axis focus at different points than paraxial rays, degrading image quality. Chromatic aberration arises from wavelength dependence of refractive index, causing different colors to focus at different distances. Both limit optical system performance.
 
+## Questions
+
+```yaml
+- question: "A photographer shoots a portrait at f/2 and notices the background is sharp but the subject looks slightly soft. They stop down to f/11 and sharpness dramatically improves. What is the primary optical reason?"
+  type: multiple-choice
+  options:
+    - "Higher f-numbers increase the depth of field, so more of the scene is in focus simultaneously"
+    - "Stopping down restricts light to near-paraxial rays that pass through the center of the lens, where spherical aberration is minimal, so all admitted rays converge to nearly the same focal point"
+    - "Smaller apertures reduce chromatic aberration by filtering out blue wavelengths"
+    - "Higher f-numbers increase the refractive index of the lens glass, sharpening the image"
+  answer: 1
+  explanation: "Both answers A and B point at real effects, but the question targets spherical aberration specifically. Spherical aberration is worse for rays that pass through the outer zones of a lens (far from the optical axis) — these focus at a different point than central rays. Stopping down physically blocks the outer zones, admitting only near-paraxial rays that obey the paraxial approximation closely. All admitted rays then converge to nearly the same point, reducing the blur circle. (Depth of field does also increase with smaller aperture, but that's a separate geometric phenomenon.)"
+
+- question: "An achromatic doublet lens corrects chromatic aberration by:"
+  type: multiple-choice
+  options:
+    - "Using a single lens element made from glass with zero dispersion (constant refractive index across wavelengths)"
+    - "Coating the lens with an antireflection layer that blocks the most aberrant wavelengths"
+    - "Cementing two elements — a converging crown glass and a diverging flint glass with different dispersions — so the chromatic errors of one partially cancel the other's"
+    - "Placing a prism in the light path to recombine wavelengths after they diverge"
+  answer: 2
+  explanation: "Chromatic aberration arises because refractive index varies with wavelength — different colors focus at different distances. No single glass element eliminates this because all glass disperses light to some degree. The achromatic doublet exploits the fact that two glass types (crown and flint) have different dispersion characteristics. The converging element's chromatic error and the diverging element's chromatic error partially cancel each other, bringing red and blue to the same focus. This correction is wavelength-specific — residual error remains for other wavelengths — but it eliminates the dominant first-order chromatic error."
+
+- question: "Parabolic primary mirrors, unlike spherical ones, focus all parallel on-axis rays to a single point regardless of how far from the optical axis those rays strike the mirror."
+  type: true-false
+  answer: true
+  explanation: "This is why parabolic mirrors are used in telescopes, satellite dishes, and car headlights. The paraboloid is the mathematically exact surface that reflects parallel rays to a perfect focus — it satisfies the law of reflection precisely for all ray heights, not just paraxial ones. A spherical mirror is only an approximation of the paraboloid valid for small angles (the paraxial regime). Outside that regime, marginal rays focus closer than paraxial rays — spherical aberration. Grinding a parabolic surface is harder than grinding a sphere, but it eliminates spherical aberration for on-axis imaging."
+
+- question: "Chromatic aberration affects mirrors and lenses equally, since both refract and bend light to form images."
+  type: true-false
+  answer: false
+  explanation: "Chromatic aberration is exclusively a lens (refraction) phenomenon — it does not affect mirrors. Chromatic aberration arises because the refractive index of glass varies with wavelength, causing different colors to bend by different amounts at a glass-air interface. Mirrors work by reflection, not refraction, and the law of reflection (angle of incidence = angle of reflection) does not depend on wavelength. This is why large telescope primaries are mirrors rather than lenses: a mirror has no chromatic aberration, and it can be supported from behind rather than just at the rim, allowing much larger apertures."
+
+- question: "Explain how both spherical aberration and chromatic aberration are, in different ways, failures of assumptions built into the paraxial ray approximation."
+  type: short-answer
+  answer: "The paraxial approximation assumes two things: (1) rays stay close to the optical axis so that sin θ ≈ θ, and (2) the refractive index is a single constant for all light. Spherical aberration violates assumption 1 — real rays far from the axis do not satisfy sin θ ≈ θ and therefore focus at a different point than predicted. Chromatic aberration violates assumption 2 — real glass has wavelength-dependent refractive index, so different colors focus at different distances. Both aberrations are the gap between the idealized model and physical reality."
+  explanation: "This framing shows that aberrations are not separate, unrelated problems but two facets of the same idealization breaking down. The paraxial approximation is a first-order model that linearizes the optics. Real optical design is the engineering task of managing the higher-order terms it ignores — both the angular nonlinearity (spherical aberration) and the wavelength dependence of material properties (chromatic aberration). Recognizing both as approximation failures also suggests the correction strategy: use surfaces (parabolas) that don't rely on the linear approximation, and use material combinations (doublets) that cancel wavelength dependence."
+```
+
 ## Explainer
 
 Your prerequisite — the paraxial ray approximation — told you that lens and mirror equations work cleanly when rays stay close to the optical axis. The approximation replaces sin θ with θ (in radians), making the math linear and giving a single, sharp focal point. Aberrations are what happens when that approximation breaks down: rays that hit the lens far from the axis, or light made of multiple wavelengths, don't all converge to the same point.

@@ -35,6 +35,45 @@ Hear V7/ii resolving to ii in context, then practice other secondary dominants. 
 ## Common Misconceptions
 Confusing secondary dominants with modulation—secondary dominants are brief harmonic sidetrips that return to the original key, while modulation establishes a new tonal center. Missing the resolution of secondary dominants because it's subtle or chromatic.
 
+## Questions
+
+```yaml
+- question: "You are listening in C major and hear an A7 chord (A–C#–E–G) resolve to D minor. What is most likely happening?"
+  type: multiple-choice
+  options:
+    - "The piece has modulated to D minor, since C# signals the new key"
+    - "You are hearing V7/ii — a secondary dominant briefly tonicizing ii before returning to C major"
+    - "You are hearing a chord borrowed from C minor's parallel mode"
+    - "The C# is a chromatic passing tone and not a structural part of the harmony"
+  answer: 1
+  explanation: "A7 is the dominant seventh built on A, which is V7 of D minor (ii in C major). The C# in A7 is the raised leading tone pointing toward D, and its resolution to D minor confirms a brief tonicization. Crucially, the music can then continue in C major — no new key is established. Option A is the most tempting wrong answer: C# does signal something outside C major, but a single chromatic chord resolving quickly back to the original tonal context is tonicization, not modulation."
+
+- question: "The primary aural cue that signals a secondary dominant is:"
+  type: multiple-choice
+  options:
+    - "A sudden dynamic change or shift in texture"
+    - "A chromatic note that functions as a new leading tone pointing toward a non-tonic chord"
+    - "The absence of the dominant seventh interval in the chord"
+    - "A chord whose root is the flattened seventh scale degree"
+  answer: 1
+  explanation: "Secondary dominants introduce a chromatic pitch — a note outside the current key — that acts as a new leading tone with a strong half-step pull toward the root of the target chord. For example, in C major, A7 contains C#, which functions as a leading tone to D. This chromatic inflection is the signature you hear: something briefly sharpened or raised, creating a directed tension unlike the diatonic chords around it. The other options describe features unrelated to secondary dominants."
+
+- question: "Hearing a secondary dominant means the piece has left its original key and established a new tonal center."
+  type: true-false
+  answer: false
+  explanation: "A secondary dominant creates a tonicization — a brief emphasis on a non-tonic chord that makes it sound temporarily like a new home — but the original key center is never abandoned. The music returns to and continues in the original key within one or two chords. This is the defining contrast with modulation, where a new key is actually established and persists. If the original tonic still feels like 'home' after the chromatic moment, you heard a tonicization, not a modulation."
+
+- question: "The chromatic note in a secondary dominant acts as a new leading tone, creating a half-step pull toward the root of the target chord."
+  type: true-false
+  answer: true
+  explanation: "This is the defining mechanism of secondary dominants. A dominant seventh chord contains a tritone between its third (the leading tone) and its seventh; this tritone resolves by half-step motion. In a secondary dominant, the raised chromatic pitch is the leading tone of the target chord — it has a strong half-step pull upward to that chord's root. In A7 → Dm, the C# resolves up by half-step to D. Hearing this chromatic leading-tone resolution is the core skill in identifying secondary dominants aurally."
+
+- question: "How does hearing a secondary dominant differ from hearing the start of a modulation, and what feature of the music tells you which one is occurring?"
+  type: short-answer
+  answer: "A secondary dominant introduces a chromatic leading tone that resolves to a non-tonic chord, but the original tonal center quickly reasserts itself — the music continues to gravitate toward the original tonic as home. A modulation also introduces chromatic material but then settles into a new key center that persists. The distinguishing feature is what happens after the chromatic moment: if the original tonic still functions as home within a bar or two, it was a secondary dominant (tonicization). If the sense of home migrates to a new pitch and stays there, it was a modulation."
+  explanation: "Duration and commitment are the key variables. Tonicization borrows the harmonic grammar of another key without adopting it; modulation changes your key-signature allegiance. Asking 'where does the music come to rest?' after the chromatic chord is the most reliable aural check."
+```
+
 ## Explainer
 
 You already know secondary dominants in theory — you can look at a score and label V7/ii or V7/vi. You also know dominant seventh chords by ear, recognizing their characteristic **tritone** between the third and seventh of the chord. Hearing secondary dominants in real time is essentially hearing that same tritone signal, but noticing that the chord it pulls toward is *not* the tonic you're in. It's a moment of harmonic redirection: the music briefly acts as if a neighboring chord were the new home, then either confirms that tonicization or pivots back.

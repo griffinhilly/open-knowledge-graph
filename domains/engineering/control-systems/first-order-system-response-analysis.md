@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 First-order systems, characterized by a single pole in the transfer function, respond exponentially to inputs with a time constant τ that controls the rate of approach to steady state. The step response rises as 1 − e^(−t/τ), reaching 63% of final value at t = τ.
 
+## Questions
+
+```yaml
+- question: "A first-order system has a time constant τ = 4 s and DC gain K = 10. Immediately after a unit step input is applied at t = 0, an engineer claims the system has 'basically settled' at t = 4 s. What fraction of the final value has the output actually reached at that moment?"
+  type: multiple-choice
+  options:
+    - "100% — the system is fully settled at t = τ"
+    - "86% — it has completed two time constants worth of response"
+    - "63% — it has completed exactly one time constant"
+    - "50% — the half-life of an exponential"
+  answer: 2
+  explanation: "At t = τ, the step response is K(1 − e⁻¹) ≈ 0.632K, exactly 63% of final value. The system is not settled — engineering convention defines settling at t = 5τ (within 1% of final value). Confusing 'one time constant elapsed' with 'settled' is the classic error."
+
+- question: "A first-order system has time constant τ = 0.01 s. A designer doubles the time constant to τ = 0.02 s. What happens to the system's bandwidth?"
+  type: multiple-choice
+  options:
+    - "Bandwidth doubles, since the system now has more time to respond"
+    - "Bandwidth is unchanged, since it depends only on DC gain"
+    - "Bandwidth halves, since ω_b = 1/τ and τ has doubled"
+    - "Bandwidth increases by √2, following the −3 dB rule"
+  answer: 2
+  explanation: "The break frequency (bandwidth) is ω_b = 1/τ. Doubling τ halves the bandwidth — a slower system passes fewer high-frequency signals. This is the key time-frequency duality: larger τ means slower settling AND narrower bandwidth. They are two descriptions of the same constraint."
+
+- question: "A first-order system is within 1% of its final steady-state value at t = 5τ."
+  type: true-false
+  answer: true
+  explanation: "At t = 5τ, the step response is K(1 − e⁻⁵) ≈ K(1 − 0.0067) = 99.3% of final value. The engineering convention that '5 time constants = settled' follows directly from this calculation."
+
+- question: "A first-order system with a larger time constant is faster because it takes larger steps toward the final value each second."
+  type: true-false
+  answer: false
+  explanation: "A larger time constant means a SLOWER system — τ is the ratio of energy storage to dissipation, so larger τ means the system stores more energy relative to how quickly it can dissipate it. The step response rises as 1 − e^(−t/τ); larger τ stretches the exponential out over a longer time window, taking more time to reach steady state."
+
+- question: "A first-order transfer function has a pole at s = −50. What is the system's time constant, and what does the pole location tell you about the system's settling speed?"
+  type: short-answer
+  answer: "τ = 1/50 = 0.02 s; the system settles in about 5τ = 0.1 s"
+  explanation: "The pole sits at s = −1/τ, so τ = 1/|pole| = 1/50 = 0.02 s. Poles further left in the s-plane (more negative real part) correspond to smaller time constants and faster settling. This is why pole placement is the core of control design: moving poles leftward speeds the response."
+```
+
 ## Explainer
 
 You've studied transfer functions as the Laplace-domain ratio of output to input, and you know that a transfer function's poles — the values of s where the denominator is zero — determine the system's natural behavior. A **first-order system** has exactly one pole, giving a transfer function of the form G(s) = K/(τs + 1), where K is the DC gain and τ is the **time constant**. The single pole sits at s = −1/τ in the left half-plane (for a stable system). Everything about how this system responds to any input follows from these two parameters.

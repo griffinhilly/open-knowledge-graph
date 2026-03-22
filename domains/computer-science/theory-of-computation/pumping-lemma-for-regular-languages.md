@@ -12,7 +12,7 @@ tags:
 - regular-languages
 - non-regularity
 - proof-technique
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

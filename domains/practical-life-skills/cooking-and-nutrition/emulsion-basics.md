@@ -30,6 +30,45 @@ Make mayonnaise by whisking together egg yolk and oil, adding oil slowly at firs
 ## Common Misconceptions
 - Emulsions are fragile and complicated; they're not worth attempting at home. - If an emulsion breaks, it's ruined forever and must be thrown out.
 
+## Questions
+
+```yaml
+- question: "You add oil too quickly while making mayonnaise and the sauce breaks — it separates into oily and watery layers. A student says: 'The emulsion is ruined because the chemical bonds between oil and water have been destroyed.' What is the correct explanation?"
+  type: multiple-choice
+  options:
+    - "The student is right — broken emulsions involve irreversible chemical changes that cannot be undone"
+    - "The sauce broke because heat denatured the lecithin, destroying its emulsifying ability permanently"
+    - "The emulsion broke because the emulsifier couldn't coat new oil droplets fast enough, so they merged — but the process is purely physical and can be rescued"
+    - "Oil chemically bonds to water only temporarily; eventual separation is inevitable regardless of technique"
+  answer: 2
+  explanation: "Emulsification is a physical process, not a chemical one. The emulsifier (lecithin in egg yolk) coats oil droplets physically; adding oil too fast overwhelms the available emulsifier before it can coat new droplets, so they merge. Since no chemical bonds were formed or broken, the ingredients are chemically unchanged. A broken emulsion can be rescued by slowly whisking it into fresh egg yolk, which provides new lecithin to re-coat the droplets."
+
+- question: "What is the role of an emulsifier like lecithin in a stable emulsion such as mayonnaise?"
+  type: multiple-choice
+  options:
+    - "It chemically transforms the oil molecules to make them soluble in water"
+    - "It raises the temperature of the mixture, which forces oil and water to mix"
+    - "It migrates to the oil-water interface and coats each droplet — lipophilic end into the oil, hydrophilic end into the water — physically preventing droplets from coalescing"
+    - "It reduces the total amount of oil in the sauce, making phase separation less likely"
+  answer: 2
+  explanation: "An emulsifier has a split molecular personality: one end is lipophilic (fat-loving, nonpolar) and the other is hydrophilic (water-loving, polar). It migrates to the oil-water interface and coats each droplet, with lipophilic ends pointing into the oil and hydrophilic ends pointing into the water. This physical barrier prevents droplets from merging. The emulsifier doesn't change the chemistry of oil or water — it just keeps them apart in a stable dispersed state."
+
+- question: "A broken emulsion can often be rescued by slowly whisking it into a fresh egg yolk, because emulsification is a purely physical process."
+  type: true-false
+  answer: true
+  explanation: "True. Since emulsification involves physical rearrangement of molecules (not chemical bonding), the ingredients of a broken emulsion are chemically unchanged — the oil and water are still there, just not dispersed. A fresh egg yolk provides new lecithin, and slowly whisking in the broken sauce re-disperses the oil droplets with fresh emulsifier coating them. The process works exactly like making the emulsion from scratch, because chemically, you are."
+
+- question: "Oil and water fail to mix because oil molecules carry a negative charge that is repelled by the positive charge on water molecules."
+  type: true-false
+  answer: false
+  explanation: "False. Oil and water are immiscible due to molecular polarity, not net electric charge. Oil molecules are nonpolar (electrically symmetrical with no net charge), while water molecules are polar (with slightly positive and negative ends). Polar water molecules attract each other strongly and exclude nonpolar oil molecules — this is the hydrophobic effect. Neither molecule carries a net charge; the incompatibility is about polarity and hydrogen bonding, not electrostatic repulsion."
+
+- question: "Explain why adding oil too quickly breaks an emulsion, and why slow addition with vigorous whisking is the correct technique."
+  type: short-answer
+  answer: "An emulsifier can only coat a limited number of oil droplets at a time — it must migrate to each droplet's surface before that droplet merges with others. Adding oil in a slow, thin stream while whisking vigorously does two things: it shatters oil into tiny droplets (increasing surface area in small, manageable amounts) and disperses emulsifier to the new interfaces before droplets can coalesce. Adding oil too quickly floods the system with more droplets than available emulsifier can coat; uncoated droplets immediately merge into larger pools, and the emulsion breaks. Once a stable base is established, oil can be added more quickly because the existing emulsified droplets help disperse new ones."
+  explanation: "The key insight is that emulsification is a race between droplet formation and droplet coalescence. The emulsifier (lecithin) must reach each new interface faster than the droplets can find each other and merge. Slow addition plus vigorous whisking wins that race; fast addition loses it. This is why the first tablespoon or two of oil is the most critical phase — once a stable base emulsion exists, it becomes easier to incorporate more oil."
+```
+
 ## Explainer
 
 Oil and water are chemically incompatible: oil molecules are nonpolar (electrically neutral and symmetrical), while water molecules are polar (with slightly positive and negative ends). Polar molecules are attracted to other polar molecules, so water molecules cluster together and push out the nonpolar oil. If you shake oil and water in a jar, they appear to mix momentarily, but they quickly separate because there is no force holding the tiny oil droplets suspended in water. An **emulsion** is a stable mixture of oil and water — and the ingredient that makes it stable is an **emulsifier**.

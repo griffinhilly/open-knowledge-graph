@@ -13,7 +13,7 @@ tags:
 - universal-turing-machine
 - self-simulation
 - computation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

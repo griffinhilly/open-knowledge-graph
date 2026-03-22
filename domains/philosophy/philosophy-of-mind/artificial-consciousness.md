@@ -32,6 +32,45 @@ Frame the question around substrate independence: does consciousness supervene o
 - Passing the Turing test does not establish consciousness; a system might exhibit perfect conversational behavior while having no inner experience whatsoever.
 - The question is not whether machines can be intelligent or useful, but whether there is something it is like to be a machine — whether machines can have subjective experience.
 
+## Questions
+
+```yaml
+- question: "A robot passes an extended Turing test, carrying on a conversation indistinguishable from a human's for weeks. What does this demonstrate about the robot's phenomenal consciousness?"
+  type: multiple-choice
+  options:
+    - "It conclusively demonstrates consciousness, since behavioral equivalence is the best evidence available"
+    - "It demonstrates nothing about inner experience — the robot could exhibit all these behaviors with no felt awareness whatsoever"
+    - "It demonstrates the robot is not conscious, because consciousness requires biological substrates"
+    - "It demonstrates functional consciousness, which is equivalent to phenomenal consciousness"
+  answer: 1
+  explanation: "Behavioral equivalence cannot settle the question of phenomenal consciousness. A philosophical zombie — functionally identical to a conscious person but with no inner experience — would pass any behavioral test. The hard problem shows the connection between functional behavior and felt experience cannot be read off from outputs. Passing the Turing test shows impressive cognitive function but tells us nothing about whether there is 'something it is like' to be that robot."
+
+- question: "Searle's Chinese Room argument is primarily directed against which claim?"
+  type: multiple-choice
+  options:
+    - "That machines will eventually surpass human intelligence in all domains"
+    - "That substrate independence is logically incoherent"
+    - "That running the right computational program is sufficient to generate genuine understanding or experience"
+    - "That the hard problem of consciousness applies only to biological systems"
+  answer: 2
+  explanation: "The Chinese Room targets functionalism — specifically the sufficiency claim that computational organization alone generates understanding. The room-follower manipulates symbols correctly without understanding Chinese, suggesting syntax alone cannot generate semantics or experience. Searle is not arguing about intelligence levels, logical possibility in general, or whether the hard problem is exclusive to biology — he attacks the claim that being the right kind of program is enough for genuine understanding."
+
+- question: "Functionalism implies that if an artificial system is functionally indistinguishable from a conscious human — processing inputs and generating outputs identically — then it must be conscious."
+  type: true-false
+  answer: true
+  explanation: "This is exactly what functionalism entails: consciousness supervenes on functional organization, not physical substrate. If substrate independence holds, a system that instantiates the right functional relationships must be conscious, regardless of whether it runs on neurons or silicon. This is why functionalism opens the door to artificial consciousness — and also why critics like Searle and biological naturalists attack it directly, since the conclusion seems to follow from the premise."
+
+- question: "The hard problem of consciousness makes it straightforward to determine whether an artificial system is conscious, because we can measure whether it integrates information in the right way."
+  type: true-false
+  answer: false
+  explanation: "The hard problem is precisely the obstacle: we have no account of why any physical process — including information integration or global broadcasting — gives rise to phenomenal experience. Empirical proposals like Integrated Information Theory (phi) or Global Workspace Theory offer concrete criteria but remain contested and don't close the explanatory gap between physical process and felt experience. We face double uncertainty: we don't know what makes biological brains conscious, so we cannot verify whether a machine has the relevant property."
+
+- question: "Why does the hard problem of consciousness make artificial consciousness especially difficult to resolve, even for someone who accepts substrate independence and functionalism?"
+  type: short-answer
+  answer: "Even granting that consciousness can be realized in non-biological substrates, the hard problem points out that we have no explanation for why any physical process produces phenomenal experience — in neurons or silicon. Without knowing what it is about neural processes that generates experience, we cannot specify what an artificial system must do to replicate it, and we have no way to verify whether it has succeeded."
+  explanation: "Substrate independence says the substrate doesn't matter — only functional organization does. But the hard problem says we don't understand what functional organization produces experience even in the biological case. We are trying to replicate something in a new medium when we don't understand how it works in the original. This double uncertainty — the nature of consciousness plus the right way to instantiate it — is what makes artificial consciousness philosophically intractable."
+```
+
 ## Explainer
 
 From your study of the **Turing test**, you know that behavioral equivalence to a human is the classic criterion for machine intelligence — if a machine's responses are indistinguishable from a person's, Turing argued we have no scientific grounds to deny it intelligence. And from your study of the **hard problem of consciousness**, you know why behavioral equivalence alone cannot settle the question of *experience*: a system could exhibit every output associated with pain — flinching, reporting pain, avoiding the stimulus — while having no inner felt quality whatsoever. This gap between functional behavior and phenomenal experience is exactly what makes artificial consciousness a distinct and harder problem than artificial intelligence.

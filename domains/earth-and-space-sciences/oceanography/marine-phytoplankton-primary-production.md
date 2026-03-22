@@ -14,7 +14,7 @@ tags:
 - primary-production
 - photosynthesis
 - productivity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

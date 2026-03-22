@@ -13,7 +13,7 @@ tags:
 - undecidability
 - halting-problem
 - limits
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

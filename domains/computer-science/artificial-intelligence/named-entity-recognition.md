@@ -27,6 +27,45 @@ Named entity recognition identifies and classifies named entities (people, organ
 ## How It's Best Learned
 Implement NER using BiLSTM-CRF and compare with transformer-based models (BERT fine-tuned), observing how architectural differences affect recognition accuracy and speed.
 
+## Questions
+
+```yaml
+- question: "A NER system classifies each token independently, selecting the highest-probability label at each position without considering neighboring labels. What critical problem does this create that a CRF layer would prevent?"
+  type: multiple-choice
+  options:
+    - "It cannot process sentences longer than the model's maximum sequence length"
+    - "It may produce structurally invalid label sequences, such as I-PER appearing without a preceding B-PER"
+    - "It assigns lower confidence scores, making the predictions unreliable for downstream use"
+    - "It cannot distinguish between entity types that appear in similar grammatical positions"
+  answer: 1
+  explanation: "A greedy per-token classifier maximizes local probability at each step but has no mechanism to enforce structural constraints across positions. This allows invalid sequences like O → I-PER (continuation tag with no beginning tag) or B-LOC → I-PER (continuation of one type following the beginning of another). The CRF layer learns a transition matrix over label pairs, scores entire sequences globally, and uses Viterbi decoding to find the most probable valid sequence."
+
+- question: "In 'Washington issued a statement,' a NER system correctly tags 'Washington' as an organization, while in 'Washington crossed the Delaware,' it tags 'Washington' as a person. Which architectural feature of BERT explains this disambiguation?"
+  type: multiple-choice
+  options:
+    - "Byte-pair encoding, which creates distinct subword tokens for words used in different semantic roles"
+    - "Contextual embeddings that produce different vector representations for the same token depending on surrounding context"
+    - "The CRF transition layer, which knows that person names tend to precede action verbs like 'crossed'"
+    - "Attention heads that explicitly attend to the word 'Delaware' and infer that Washington must be a person"
+  answer: 1
+  explanation: "BERT's key advantage for NER is that its embeddings are contextual — unlike static word embeddings (Word2Vec, GloVe), BERT generates a different vector for 'Washington' based on its full surrounding context. In a political news context, Washington gets one representation; in a historical narrative, it gets another. This context-sensitivity, learned during pretraining on massive corpora, lets the model disambiguate entity type without explicit rules."
+
+- question: "The BIO tagging scheme (Beginning, Inside, Outside) is necessary for NER because without it, a model cannot determine where one multi-word entity ends and another begins."
+  type: true-false
+  answer: true
+  explanation: "Consider 'Steve Jobs' and 'Tim Cook' appearing consecutively. Without B/I markers, both would be labeled PER PER PER PER — indistinguishable from one four-word person name or any other grouping. The B-PER tag marks the start of a new entity, resetting the boundary, while I-PER marks continuation. This scheme also allows adjacent entities of the same type to be correctly segmented."
+
+- question: "A BiLSTM-CRF NER model assigns each token a label based only on that token and its immediate neighbors, making it fundamentally similar to an n-gram classifier."
+  type: true-false
+  answer: false
+  explanation: "The 'Bi' in BiLSTM stands for bidirectional — the model processes the full sentence in both left-to-right and right-to-left directions. Each token's representation is informed by the entire sentence context on both sides, not just local neighbors. This global context is one of the BiLSTM's core advantages over n-gram approaches and is what allows it to resolve long-range dependencies in entity spans."
+
+- question: "Why does adding a CRF layer on top of a BiLSTM improve NER performance, rather than simply taking the highest-probability label at each token position?"
+  type: short-answer
+  answer: "A CRF scores entire label sequences jointly using a learned transition matrix between adjacent label pairs, then finds the globally optimal valid sequence via Viterbi decoding. Greedy per-position selection can produce locally plausible but globally inconsistent outputs (e.g., I-PER after B-LOC) that the CRF's structural constraints prevent."
+  explanation: "The insight is local vs. global optimization. Token-level classification maximizes probability at each step independently, which can produce sequences that violate the structural rules of BIO tagging. The CRF explicitly models label-to-label transitions, penalizing invalid combinations. At inference, Viterbi efficiently finds the highest-scoring sequence across all positions simultaneously — this is analogous to enforcing grammar constraints in parsing rather than choosing words one at a time."
+```
+
 ## Explainer
 
 Named entity recognition is the task of scanning a sentence and identifying which words refer to real-world entities — and what kind of entity each one is. Given the sentence "Apple was founded by Steve Jobs in Cupertino in 1976," a NER system should tag "Apple" as an organization, "Steve Jobs" as a person, "Cupertino" as a location, and "1976" as a date. This is fundamentally a **sequence labeling** problem: each token in the input receives a label, and the model must decide the correct label for every position in the sequence.

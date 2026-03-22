@@ -12,7 +12,7 @@ tags:
 - turing-machines
 - variants
 - equivalence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

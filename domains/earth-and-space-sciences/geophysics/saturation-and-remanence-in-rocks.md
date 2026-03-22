@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Magnetic minerals acquire natural remanent magnetization (NRM) during cooling through the Curie temperature (thermoremanent magnetization) or during deposition and diagenesis (depositional remanence). The strength of NRM depends on paleomagnetic field strength at the time of remanence acquisition and is independent of the current ambient field. Saturation magnetization indicates the maximum magnetization possible for a given mineral.
 
+## Questions
+
+```yaml
+- question: "A geologist measures the NRM of a basalt sample and finds it points toward what is now magnetic south — opposite the current geomagnetic field direction at the sampling site. What is the most geologically meaningful interpretation?"
+  type: multiple-choice
+  options:
+    - "The sample's magnetic minerals were physically rotated after collection, reversing the measured direction"
+    - "The NRM measurement is erroneous because remanent magnetization should always align with the current field"
+    - "The basalt cooled and acquired its TRM during a period when Earth's geomagnetic polarity was reversed"
+    - "The basalt was struck by lightning, which can randomly orient NRM in any direction"
+  answer: 2
+  explanation: "TRM is locked in at the time of cooling through the Curie temperature and records the ambient field direction at that moment — not the current field. A reversed NRM indicates the geomagnetic field had opposite polarity when the basalt erupted. This is the principle behind magnetostratigraphy: the rock is a fossil compass, not a live one. Lightning can cause spurious magnetization, but that is not the primary paleomagnetic interpretation."
+
+- question: "Which statement correctly distinguishes saturation magnetization from natural remanent magnetization (NRM)?"
+  type: multiple-choice
+  options:
+    - "Saturation magnetization is measured in the field during sampling; NRM is only measurable in the laboratory"
+    - "Saturation magnetization is the intrinsic upper limit for a given mineral composition; NRM is the magnetization actually acquired under ancient field conditions"
+    - "NRM can exceed saturation magnetization if the paleomagnetic field was stronger than the modern field"
+    - "Both saturation magnetization and NRM depend on the strength of the current ambient magnetic field"
+  answer: 1
+  explanation: "Saturation magnetization is an intrinsic mineral property — the maximum magnetization when all magnetic domains are forcibly aligned — and is independent of field history. NRM is the magnetization a rock actually acquired and retained under paleomagnetic conditions, which is always a fraction of saturation. NRM cannot exceed saturation magnetization; that is the physical upper bound set by the mineral's composition."
+
+- question: "The intensity of thermoremanent magnetization (TRM) acquired by a cooling lava flow is proportional to the strength of the ambient geomagnetic field at the time of cooling."
+  type: true-false
+  answer: true
+  explanation: "TRM intensity scales with the ambient field strength during cooling through the Curie temperature. This is the physical basis of paleointensity studies: by comparing TRM intensity to laboratory-induced magnetization, researchers can estimate how strong Earth's field was at the time the rock formed. The direction of TRM records field direction; the intensity records field strength."
+
+- question: "A rock's natural remanent magnetization gradually updates over geological time to reflect changes in the ambient magnetic field, functioning as a continuously adjusting compass."
+  type: true-false
+  answer: false
+  explanation: "NRM is locked in at the time of acquisition — when the rock cools through the Curie temperature (TRM), when sediment is deposited and cemented (DRM), or when new minerals grow (CRM). Once acquired, NRM persists essentially unchanged for billions of years unless the rock is reheated above the Curie temperature or undergoes chemical alteration. This permanence is what makes NRM a useful record of ancient fields."
+
+- question: "What makes thermoremanent magnetization (TRM) the most stable form of NRM, and under what conditions can it be destroyed or reset?"
+  type: short-answer
+  answer: "TRM forms as magnetic minerals cool through the Curie temperature and their crystal structures physically lock magnetic domain walls in place. At ambient temperatures, thermal energy is insufficient to move domain walls, so the magnetization is stable over billions of years. TRM can be destroyed or reset by: (1) reheating above the Curie temperature, allowing domains to re-randomize and then reacquire a magnetization aligned with whatever field is present during re-cooling; or (2) chemical alteration that converts the original magnetic mineral into a new phase, which acquires its own chemical remanent magnetization (CRM) recording a younger field."
+  explanation: "The contrast between TRM stability and the instability of depositional or chemical remanence explains why igneous rocks are often preferred for paleomagnetic studies — TRM is acquired quickly during cooling and locked in firmly, minimizing the risk of acquiring secondary magnetizations that obscure the primary record."
+```
+
 ## Explainer
 
 From your study of paleomagnetism, you know that rocks can carry a memory of ancient magnetic fields. But how exactly does a rock become magnetized, and what controls how strong that magnetization is? The answers lie in the behavior of **magnetic minerals** — primarily magnetite, hematite, and their solid-solution relatives — and the physical processes that lock magnetic signals into the rock record.

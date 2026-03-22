@@ -28,6 +28,45 @@ status: draft
 ## Core Idea
 Sleep progresses through NREM stages (light, deep) and REM sleep in 90-minute cycles. NREM sleep consolidates declarative memories (facts, events) through hippocampal-cortical dialogue and synaptic downscaling. REM sleep consolidates procedural memories (skills, habits) and processes emotional memories. Sleep deprivation impairs both memory consolidation and emotional regulation. Sleep spindles and slow-wave activity are neural markers of effective consolidation.
 
+## Questions
+
+```yaml
+- question: "A researcher selectively deprives participants of REM sleep while leaving slow-wave NREM sleep intact. Based on the memory consolidation model, which outcome is most expected?"
+  type: multiple-choice
+  options:
+    - "Declarative memory consolidation is impaired, but motor skill learning is relatively preserved"
+    - "Both declarative and procedural memory consolidation are equally impaired"
+    - "Motor skill learning overnight is impaired, but consolidation of factual memories is relatively preserved"
+    - "Neither memory system is significantly affected, since most consolidation occurs during light NREM"
+  answer: 2
+  explanation: "REM sleep is specifically critical for procedural and skill memories — selective REM deprivation impairs motor skill learning overnight. Declarative memory consolidation depends primarily on slow-wave NREM sleep and the hippocampal-cortical dialogue driven by sharp-wave ripples and sleep spindles. Because NREM is left intact, factual memory consolidation should be relatively preserved. A common misconception is that REM = memory consolidation in general; in fact, different sleep stages serve different memory systems."
+
+- question: "According to the synaptic homeostasis hypothesis, why does slow-wave sleep improve learning capacity the next day, rather than merely protecting existing memories?"
+  type: multiple-choice
+  options:
+    - "Slow-wave sleep stimulates hippocampal neurogenesis, adding new neurons ready for encoding"
+    - "Slow-wave sleep globally strengthens all synapses, making the network more responsive to new input"
+    - "Slow-wave sleep selectively downscales synaptic weights, restoring metabolic capacity and the dynamic range needed for new potentiation"
+    - "Slow-wave sleep transfers memories entirely out of the hippocampus, freeing it as a blank slate for new encoding"
+  answer: 2
+  explanation: "The synaptic homeostasis hypothesis proposes that waking learning drives widespread synaptic potentiation until the network approaches saturation — metabolically expensive and noisy. Slow-wave sleep reverses this by selectively downscaling weights: weaker connections shrink more than recently potentiated ones, so relative memory strength is preserved while absolute levels are renormalized. This restores the signal-to-noise ratio and energy balance, enabling fresh encoding. It is an active reorganization of the network, not just passive protection from interference."
+
+- question: "During slow-wave sleep, hippocampal sharp-wave ripples occur precisely during the slow oscillations of cortical activity, and this timing is thought to coordinate the transfer of memory fragments from hippocampus to cortex."
+  type: true-false
+  answer: true
+  explanation: "This coordinated timing — ripples nested within cortical slow oscillations — is the proposed neural mechanism for systems consolidation during sleep. Each ripple appears to replay compressed memory traces to cortical neurons that are in a receptive state during the cortical up-phase. Sleep spindles further gate sensory interference, creating windows for hippocampal input. This dialogue gradually shifts memories from hippocampal dependence to distributed cortical representation."
+
+- question: "REM sleep is primarily responsible for consolidating declarative memories (facts and episodic events) because the hippocampus is most active during REM."
+  type: true-false
+  answer: false
+  explanation: "This reverses the dominant finding. Slow-wave NREM sleep, not REM, is the critical stage for declarative memory consolidation — this is when hippocampal-cortical dialogue (sharp-wave ripples, sleep spindles) drives systems consolidation. REM sleep is preferentially important for procedural and skill memories, and also for processing emotional memories. Selective NREM deprivation impairs declarative recall; selective REM deprivation impairs motor skill learning."
+
+- question: "Explain why, according to the synaptic homeostasis hypothesis, sleeping between two study sessions improves long-term retention beyond simply preventing forgetting or interference."
+  type: short-answer
+  answer: "During a study session, learning drives widespread synaptic potentiation across the brain. This is metabolically costly and, if unchecked, would saturate the network — reducing its signal-to-noise ratio and capacity for further encoding. Slow-wave sleep triggers selective downscaling of synaptic weights: weaker connections are reduced proportionally more than recently strengthened ones, preserving the relative advantage of newly learned material. The network is 'renormalized' — metabolic load reduced, dynamic range restored, recently potentiated connections made relatively more salient against a quieter background. A second study session therefore finds a system that is both more efficient and more receptive to new potentiation. This is active reorganization, not passive protection."
+  explanation: "The key insight is that slow-wave sleep is not merely a period of rest that prevents interference; it is a phase of active synaptic maintenance that resets the network's capacity for learning. Memory benefit comes from both the relative preservation of strengthened synapses and the restoration of headroom for future potentiation."
+```
+
 ## Explainer
 
 You already know that memory consolidation converts fragile new traces into stable long-term representations, and that sleep is structured into alternating NREM and REM stages cycling roughly every 90 minutes. The key question this topic addresses is *why* the brain uses sleep as a privileged window for consolidation — and why different memory systems depend on different stages.

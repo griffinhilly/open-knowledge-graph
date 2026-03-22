@@ -33,6 +33,45 @@ Examining the curriculum of a medieval university (trivium, quadrivium, theology
 - Medieval universities were not purely theological seminaries — law and medicine were also major fields, and secular subjects had real autonomy.
 - The recovery of Aristotle came largely through Arabic translations made by Islamic scholars, not directly from Greek originals — Western universities thus owe a direct debt to the Islamic Golden Age.
 
+## Questions
+
+```yaml
+- question: "Bologna, the first European university, specialized in law rather than theology. What does this reveal about why medieval universities emerged?"
+  type: multiple-choice
+  options:
+    - "It shows that the Church had no influence on Bologna's founding"
+    - "It shows that universities arose partly from practical secular demand for trained specialists, not purely from religious impulses"
+    - "It shows that theology was considered less important than law in medieval society"
+    - "It shows that Bologna was founded by secular rulers who opposed Church authority"
+  answer: 1
+  explanation: "Bologna's legal focus reveals that the demand for trained lawyers and administrators — people who could manage the growing complexity of canon law, civil law, and royal bureaucracies — was a primary driver of early universities. Universities were not solely theological institutions; they emerged at the intersection of practical institutional need, recovered ancient knowledge, and Church sponsorship. Option A overstates the case: the Church did have significant influence broadly, just not over Bologna's specific specialization."
+
+- question: "When 12th-century European scholars encountered Aristotle's complete works, most of these texts arrived in what form?"
+  type: multiple-choice
+  options:
+    - "Direct copies from Byzantine Greek manuscripts purchased from Constantinople"
+    - "Latin translations made by Carolingian monks who had preserved them since antiquity"
+    - "Latin translations of Arabic translations, often accompanied by Islamic philosophical commentaries"
+    - "Hebrew translations from Jewish scholars in Palestine, then rendered into Latin"
+  answer: 2
+  explanation: "The recovery of Aristotle in the Latin West came primarily through Arabic translations — made by Islamic scholars who had preserved and elaborated on Greek philosophy during the Islamic Golden Age — which were then translated into Latin, often in Islamic Spain. Commentators like Avicenna and Averroes accompanied the texts. This pipeline is why the debt to Islamic civilization is described as structural, not incidental: without it, the intellectual catalyst of the medieval university would have arrived much later or not at all."
+
+- question: "The scholastic method, as exemplified by Aquinas's Summa Theologica, was primarily a technique for passive transmission of Christian doctrine."
+  type: true-false
+  answer: false
+  explanation: "The scholastic method was the opposite of passive transmission. It proceeded by posing a question (quaestio), collecting authoritative objections (objectiones), providing a reasoned answer (responsio), and then systematically refuting each objection. The Summa Theologica is a record of argumentation — taking contrary positions seriously and answering them with logic. This was training in rigorous disputation, not the acceptance of authority. The very existence of an objections section signals that the method took intellectual challenge as its starting point."
+
+- question: "Medieval universities were fundamentally theological seminaries — their primary purpose was training clergy, and secular subjects like law and medicine had no real institutional autonomy."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception. While theology was central at Paris, law and medicine were major fields from the beginning, and secular subjects had real autonomy. Bologna was founded by law students and specialized entirely in legal education. Medicine became a major faculty at Salerno and Montpellier. The medieval university housed a range of disciplines with distinct faculties, curricula, and traditions. Characterizing it as a theological seminary obscures this institutional diversity and the practical secular needs it served."
+
+- question: "Why is the recovery of Aristotle through Islamic scholarship described as 'structural' rather than incidental to the rise of medieval universities?"
+  type: short-answer
+  answer: "Because without Arabic translations and Islamic commentary, European scholars would not have had access to Aristotle's complete works — the body of rigorous knowledge that created the intellectual demand for universities as institutions. The Islamic pipeline didn't merely speed up a process that would have happened anyway; it provided the specific intellectual catalyst (Aristotle's physics, cosmology, and ethics) whose destabilizing encounter with Christian theology generated the institutional need for sustained, organized disputation. The university was, in part, the apparatus built to perform that reconciliation."
+  explanation: "The word 'structural' signals that Islamic scholarship wasn't a delivery mechanism for something Europe would have gotten eventually — it was the source. Aristotle's texts had been preserved and developed in Islamic civilization for centuries while largely unavailable in Latin. The commentaries of Avicenna and Averroes weren't supplements; they shaped how Europe read Aristotle. Removing this link doesn't just delay the university — it removes the specific intellectual problem (Greek naturalism vs. Christian theology) that the scholastic method was invented to solve."
+```
+
 ## Explainer
 
 The medieval university looks startlingly modern when you examine it closely — degrees, faculties, examinations, student riots — but its emergence was deeply contingent on the specific historical moment you've been studying. Three streams converged to make it possible. First, the growing complexity of medieval society created demand for trained specialists: lawyers for an expanding body of canon and civil law, physicians for urbanizing populations, administrators for Church and royal bureaucracies. Second, the recovery of ancient texts — particularly Aristotle's complete works, arriving in Latin translation from Arabic sources — gave scholars a body of rigorous knowledge that demanded institutional contexts for transmission. Third, the Church, which you know as medieval Europe's most powerful institution, provided both the sponsorship and the stable organizational framework within which sustained learning could flourish.

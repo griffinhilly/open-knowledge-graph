@@ -34,6 +34,45 @@ Examine how Aire and other genes control negative selection. Study how TGF-β an
 ## Common Misconceptions
 Central tolerance eliminates some, but not all, self-reactive cells; peripheral mechanisms must catch escaped self-reactive clones. Anergy is reversible under inflammatory conditions, so tolerance is not permanent without active suppression.
 
+## Questions
+
+```yaml
+- question: "A mouse is engineered to lack AIRE expression in thymic medullary epithelial cells. What is the most likely consequence?"
+  type: multiple-choice
+  options:
+    - "Failure of all T cell development because AIRE is required for TCR gene rearrangement"
+    - "Increased positive selection because T cells are never exposed to strong self-antigen signals"
+    - "Escape of self-reactive T cells specific for peripheral tissue antigens, predisposing to autoimmunity"
+    - "Compensatory upregulation of peripheral Treg generation to replace missing central tolerance"
+  answer: 2
+  explanation: "AIRE enables thymic medullary epithelial cells to express tissue-specific proteins (insulin, thyroid antigens, etc.) that would normally be confined to peripheral organs. Without AIRE, T cells specific for these antigens are never tested against them during negative selection and escape into the periphery. These escaped self-reactive clones can attack peripheral tissues. Human AIRE mutations cause APS-1 (autoimmune polyendocrinopathy syndrome type 1), confirming the mechanism directly."
+
+- question: "A T cell in a lymph node encounters its cognate antigen presented on a dendritic cell that lacks B7 (CD80/CD86) costimulatory molecules. What is the most likely outcome?"
+  type: multiple-choice
+  options:
+    - "Full activation — TCR engagement alone is sufficient for T cell activation"
+    - "T cell apoptosis via the Fas-FasL pathway because repeated antigen encounter without response triggers deletion"
+    - "T cell anergy — functional unresponsiveness that persists until reversed by inflammation"
+    - "Differentiation into a regulatory T cell because signal 1 without signal 2 induces the Treg program"
+  answer: 2
+  explanation: "T cell activation requires two signals: signal 1 (TCR binding peptide-MHC) and signal 2 (costimulatory molecule engagement, typically B7-CD28). Signal 1 without signal 2 is the canonical peripheral tolerance mechanism of anergy — the T cell becomes functionally paralyzed and unresponsive. Critically, anergy is not permanent: if inflammatory conditions later provide costimulation, anergy can be broken. This is one mechanism by which infections precipitate autoimmune flares."
+
+- question: "Central tolerance eliminates all self-reactive lymphocytes before they can reach the periphery, making peripheral tolerance mechanisms a redundant backup."
+  type: true-false
+  answer: false
+  explanation: "Central tolerance is effective but inherently incomplete. Not every self-antigen is expressed in the thymus or bone marrow — AIRE covers many tissue-specific proteins but not all. The threshold for deletion is calibrated to preserve useful self-MHC reactivity, allowing weakly self-reactive cells to escape. Peripheral tolerance is not redundant — it is a necessary second layer that catches escaped self-reactive clones. This is demonstrated by diseases caused by peripheral tolerance defects (Treg insufficiency, Fas pathway mutations) even when central tolerance is intact."
+
+- question: "Immune tolerance is an active, ongoing process that requires continuous maintenance rather than a one-time developmental event."
+  type: true-false
+  answer: true
+  explanation: "Both central and peripheral tolerance require active maintenance. Tregs need continuous IL-2 signaling to survive and suppress; IL-2 knockout mice rapidly develop fatal autoimmunity. Anergy can be broken by inflammatory signals that provide missing costimulation. Peripheral deletion via Fas-FasL must be functional to clear chronically stimulated self-reactive cells. None of these mechanisms are passive or self-sustaining — they require ongoing molecular inputs. This explains why immunosuppressive drug withdrawal, viral infections, and Treg depletion all risk triggering autoimmunity."
+
+- question: "Why do two separate layers of tolerance (central and peripheral) exist? Why isn't central tolerance alone sufficient to prevent autoimmunity?"
+  type: short-answer
+  answer: "Central tolerance cannot eliminate all self-reactive lymphocytes for at least three reasons: (1) not all self-antigens are expressed in the thymus/bone marrow — AIRE covers many but not all tissue-specific proteins; (2) the deletion threshold is set to preserve self-MHC reactivity, so cells with intermediate self-affinity survive; (3) receptor editing is imperfect. Peripheral tolerance catches the escaped self-reactive clones through anergy (signal 1 without signal 2), active suppression by Tregs, and peripheral deletion via Fas-FasL. The layered architecture reflects the catastrophic cost of autoimmunity — multiple redundant safeguards provide defense-in-depth against failure of any single mechanism."
+  explanation: "The existence of two layers also means that autoimmune diseases typically require defects in multiple tolerance mechanisms simultaneously, which explains why autoimmunity is relatively rare despite the imperfection of each individual layer."
+```
+
 ## Explainer
 
 From thymic selection, you know that developing T cells are tested against self-peptide–MHC complexes: those that bind too strongly are eliminated by negative selection. From regulatory T cells, you know that a specialized population of CD4+ cells actively suppresses immune responses. **Immune tolerance** is the umbrella term for all the mechanisms that prevent the adaptive immune system from attacking the body's own tissues, and it operates at two complementary levels — central and peripheral — that together form a layered defense against autoimmunity.

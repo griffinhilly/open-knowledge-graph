@@ -32,6 +32,45 @@ Practice on a cubic unit cell by first indexing simple planes (cube faces, body 
 - Negative indices are written with an overbar, not a minus sign, but computationally they work identically.
 - The direction [111] and the plane (111) are perpendicular only in cubic systems — this does not hold for non-cubic lattices.
 
+## Questions
+
+```yaml
+- question: "A plane intersects the a-axis at 1, the b-axis at 3, and runs parallel to the c-axis. What are the correct Miller indices?"
+  type: multiple-choice
+  options:
+    - "(130) — taking reciprocals: 1/1=1, 1/3, 1/∞=0, then clear to integers"
+    - "(310) — read off the intercepts directly as given"
+    - "(013) — the indices are the intercepts listed in reverse order"
+    - "(131) — parallel to c means the c-index is 1"
+  answer: 0
+  explanation: "The Miller index procedure for planes requires taking the reciprocal of each intercept: 1/1=1, 1/3, 1/∞=0. Clearing fractions by multiplying by 3 gives (130). Option B is the most common error — reading intercepts directly rather than their reciprocals. A plane parallel to an axis has intercept at ∞, and 1/∞=0, so that index is always 0."
+
+- question: "In a tetragonal crystal (where a=b≠c), are the direction [111] and the plane (111) perpendicular?"
+  type: multiple-choice
+  options:
+    - "Yes — by symmetry, a direction and its matching plane are always perpendicular"
+    - "No — perpendicularity of [hkl] and (hkl) only holds in cubic systems where all lattice parameters are equal"
+    - "Yes — the dot product of any direction vector with its matching plane normal is always zero"
+    - "It depends on the specific atomic positions within the unit cell"
+  answer: 1
+  explanation: "In cubic systems, [hkl] is always perpendicular to (hkl) because all lattice parameters are equal. In non-cubic systems (tetragonal, hexagonal, orthorhombic, etc.), the different axis lengths break this relationship. Perpendicularity of matching direction and plane is a special consequence of cubic symmetry, not a universal property of Miller notation."
+
+- question: "A plane with Miller indices (001) is parallel to the a-b face of the unit cell."
+  type: true-false
+  answer: true
+  explanation: "The plane (001) is derived from intercepts at ∞ on a, ∞ on b, and 1 on c. A zero index means the plane runs parallel to that axis, so (001) is parallel to both a and b and intersects only the c-axis. This corresponds to the top or bottom face of a cubic unit cell — the a-b plane."
+
+- question: "The direction [110] and the direction [1̄1̄0] belong to different crystallographic direction families."
+  type: true-false
+  answer: false
+  explanation: "[1̄1̄0] is antiparallel to [110] — it points in the exact opposite direction along the same line. Both belong to the <110> family, which collects all crystallographically equivalent directions related by symmetry. In cubic systems this family includes [110], [101], [011], [1̄10], [11̄0], [110̄], and their negatives — all equivalent by the symmetry operations of the crystal."
+
+- question: "Why does the Miller index procedure use the reciprocals of plane intercepts rather than the intercepts themselves?"
+  type: short-answer
+  answer: "The reciprocal procedure ensures that planes parallel to an axis receive an index of 0 (since 1/∞=0), and it makes the Miller indices appear naturally in the equations governing X-ray diffraction — particularly the d-spacing formula d = a/√(h²+k²+l²) for cubic systems. Using direct intercepts would produce fractions for many common planes and would not map cleanly onto the physics of diffraction, where the periodicity of planes is what matters."
+  explanation: "The convention is not arbitrary: Miller indices in their reciprocal form drop directly into Bragg's law and structure factor equations, making interpretation of diffraction patterns direct. The reciprocal procedure also handles the degenerate case of axis-parallel planes without special casing, and clearing to integers keeps the notation compact while preserving crystallographic symmetry relationships."
+```
+
 ## Explainer
 
 From your study of crystal structures, you know that a crystal is an infinite periodic arrangement of atoms, and the **unit cell** is the repeating building block. To describe any geometric feature of this periodic structure — a specific plane of atoms, a direction of atomic bonding, a slip system — engineers need a compact, unambiguous notation that takes advantage of the periodicity. Miller indices provide exactly that notation, using a small set of integers derived directly from the geometry of the unit cell.

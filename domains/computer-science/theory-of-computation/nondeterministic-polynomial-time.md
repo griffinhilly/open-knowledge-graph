@@ -12,7 +12,7 @@ tags:
 - np-class
 - nondeterminism
 - verification
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

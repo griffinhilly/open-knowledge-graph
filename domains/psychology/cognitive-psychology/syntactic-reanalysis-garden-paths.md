@@ -31,6 +31,45 @@ Use self-paced reading where participants advance through garden-path sentences 
 - Assuming the parser considers all syntactically possible interpretations simultaneously; the garden-path effect shows the parser commits early.
 - Treating reanalysis failures as processing deficits; garden-path phenomena occur in skilled readers and reflect optimal strategies given frequency distributions.
 
+## Questions
+
+```yaml
+- question: "A researcher measures reading times for 'The horse raced past the barn fell' vs. 'The horse that was raced past the barn fell.' What result is expected and what does it reveal about the parser?"
+  type: multiple-choice
+  options:
+    - "Longer reading times specifically at 'fell' in the garden-path version, showing the parser had committed to an incorrect early parse that must be rebuilt"
+    - "Shorter reading times on the garden-path version, because it is syntactically simpler"
+    - "Equal reading times on both, because skilled readers consider all possible parses simultaneously until disambiguated"
+    - "Slower reading times throughout the garden-path version, because reduced relative clauses are uniformly harder"
+  answer: 0
+  explanation: "The reading-time spike specifically at 'fell' — the disambiguating word — is the signature of reanalysis. By 'barn,' the parser had committed to 'The horse raced past the barn' as a complete simple sentence; 'fell' then forces a total structural rebuild. The control sentence ('that was raced') explicitly marks the relative clause from the start, so no reanalysis is required and reading time at 'fell' is normal. The localization of difficulty at the disambiguation point proves the parser committed early rather than tracking all parses in parallel."
+
+- question: "Why do garden-path processing failures occur even in highly skilled, expert readers?"
+  type: multiple-choice
+  options:
+    - "Skilled readers are overconfident and skip re-reading; less skilled readers slow down and avoid the garden path"
+    - "The parser uses a frequency-based greedy strategy that bets on the most probable parse at each decision point — a strategy that is efficient overall despite occasional errors on rare constructions"
+    - "The parser is a purely syntactic module that ignores meaning and context until the full sentence is available"
+    - "Garden-path errors reflect short-term memory limitations that expert readers overcome with practice"
+  answer: 1
+  explanation: "Simple active constructions like 'The horse raced past the barn [and stopped]' are far more frequent in natural language than reduced relative constructions. The parser has internalized these statistics and commits to the most probable parse at each word — a strategy that is correct the overwhelming majority of the time. Garden-path sentences are the rare cases where this bet loses. The effect in skilled readers is not a failure of skill; it is the measurable cost of an efficient probabilistic strategy that cannot be eliminated without sacrificing its benefits on the common case."
+
+- question: "Garden-path effects reveal that the language parser commits to a specific syntactic interpretation incrementally rather than maintaining all possible parses in parallel."
+  type: true-false
+  answer: true
+  explanation: "If the parser held all syntactic possibilities open simultaneously, there would be no special processing cost when the disambiguating word arrived — the system would simply select the correct parse from already-active candidates. The empirically observed spike in reading time specifically at the disambiguation point is direct evidence of prior commitment to a single parse. That commitment is what makes reanalysis costly: the parser must discard the invested structure and rebuild."
+
+- question: "Garden-path sentence failures in skilled readers indicate that the human parsing system is poorly designed, since an optimal system would never require reanalysis."
+  type: true-false
+  answer: false
+  explanation: "Garden-path effects are a consequence of an efficient, well-calibrated probabilistic strategy — not a design flaw. A parser that considered all possible syntactic interpretations at every word to avoid any reanalysis would be computationally far more expensive for the vast majority of sentences, which are unambiguous or resolved by context. The garden-path effect is the small, tolerable cost of a greedy strategy that is correct the overwhelming majority of the time. Skilled readers show the effect because the strategy is working as intended."
+
+- question: "A sentence is syntactically ambiguous until its final word. Explain why this surface ambiguity does not mean the parser suspends judgment — and what experimental evidence demonstrates this."
+  type: short-answer
+  answer: "Despite ambiguity, the parser commits immediately to the most probable parse rather than tracking multiple interpretations. The evidence: reading time increases are localized specifically at the disambiguating word (e.g., 'fell' in 'The horse raced past the barn fell'), not distributed across the whole sentence. If the parser had kept both parses active throughout, disambiguation would require no extra processing — it would simply select among already-computed options. The concentrated difficulty at the disambiguation point shows commitment occurred earlier, before the disambiguating information arrived."
+  explanation: "This is the central diagnostic logic of garden-path research: the timing of the reading-time increase isolates exactly when commitment occurred and confirms that the parser does not behave like an exhaustive search algorithm. Early commitment is the computationally efficient choice given natural language statistics; garden-path sentences are the rare cases engineered to make that commitment costly."
+```
+
 ## Explainer
 
 From sentence comprehension and parsing, you know that the language comprehension system assigns syntactic structure to incoming words incrementally — it doesn't wait for the full sentence before beginning to build a parse. This incremental commitment is normally efficient because most sentences are unambiguous, and starting to build structure early means that by the time the sentence ends, processing is nearly complete. **Garden-path sentences** are the diagnostic case that reveals the cost of this strategy: they are constructed so that the most probable early parse turns out to be wrong, forcing the system to backtrack and rebuild.

@@ -34,6 +34,45 @@ Start by comparing two closely related works (same period, adjacent traditions) 
 - That finding similarities means traditions are the same or that differences mean they're incomparable.
 - That comparison requires reading all source languages (translation is legitimate for many purposes).
 
+## Questions
+
+```yaml
+- question: "A student compares Shakespeare's Hamlet with a Japanese Noh play, noting both feature the ghost of a murdered father. She concludes the Japanese playwright must have been influenced by Shakespeare. What does a rigorous comparative method say about this reasoning?"
+  type: multiple-choice
+  options:
+    - "It is valid — shared narrative elements are reliable evidence of borrowing"
+    - "The parallel is interesting, but shared features can arise from parallel development, common genre conventions, or similar cultural pressures — influence is just one hypothesis among several"
+    - "The comparison is methodologically invalid because the works come from different languages"
+    - "Ghost characters are universal archetypes, so comparison reveals nothing culturally specific here"
+  answer: 1
+  explanation: "Comparative literature explicitly warns against 'influence hunting' — the assumption that similarity implies borrowing. Parallel development, shared genre conventions, and common human concerns can all produce similar features without any direct contact. A rigorous method focuses on the function each feature serves in its own context, not on tracing transmission."
+
+- question: "What does 'defamiliarization by juxtaposition' mean in comparative literary analysis?"
+  type: multiple-choice
+  options:
+    - "Making a text seem exotic by placing it in an unfamiliar historical context"
+    - "Revealing that features of a text which seemed natural or universal are actually culturally specific choices — made visible by juxtaposing the text with one from a different tradition that makes different choices"
+    - "Stripping away cultural context to expose a text's purely formal properties"
+    - "Selecting the most exotic available text to contrast against a canonical one"
+  answer: 1
+  explanation: "When you read a text alone, its culturally specific features appear natural — there is no contrast to expose them as choices. Juxtaposition with a text from a different tradition makes those choices visible precisely because the other text made different ones. This 'defamiliarization' is not disorientation for its own sake — it generates the analytical questions from which comparative argument grows."
+
+- question: "The primary goal of the comparative method is to determine which literary tradition influenced the other."
+  type: true-false
+  answer: false
+  explanation: "This is exactly the 'influence hunting' error comparative literature warns against. The method's real goal is to reveal, through juxtaposition, the culturally specific assumptions and choices embedded in each text — and to generate questions that single-text analysis cannot produce. Influence is sometimes relevant, but it is never the primary aim."
+
+- question: "A comparative literary analysis must hold two levels of awareness simultaneously: the particular (what this text does in its specific cultural and historical context) and the pattern (what the comparison reveals that neither text could reveal in isolation)."
+  type: true-false
+  answer: true
+  explanation: "This dual awareness — particular and pattern — is the distinctive cognitive demand of comparative method. Losing sight of the particular collapses into false universalism, measuring all traditions against one standard. Losing sight of the pattern produces mere description of two separate texts. The analytical value of comparison lives in the tension between these two levels."
+
+- question: "Why does the comparative method generate questions that single-text analysis cannot? Explain using the idea of defamiliarization."
+  type: short-answer
+  answer: "When analyzing a single text, culturally specific choices appear 'natural' because there is no contrast to mark them as choices. Juxtaposing that text with one from a different tradition exposes those choices by showing that another tradition did things differently. This defamiliarization — the familiar suddenly appearing contingent — is what generates analytical pressure: why did each tradition handle this differently? What assumptions does each choice reveal? A single text cannot raise these questions because it has no foil; the comparison is what makes the invisible visible."
+  explanation: "The key insight is that comparison is not an ornament to analysis but its generator. The juxtaposition doesn't answer questions — it creates them, by revealing that what seemed universal is actually particular."
+```
+
 ## Explainer
 
 You've already been doing literary analysis — reading carefully, interpreting meaning, identifying patterns within individual texts — and you've encountered the concept of world literature, which places individual works in dialogue with literary traditions beyond any single national context. The comparative method is the systematic methodological bridge between these two: it asks not just what a text means, but *what we learn by reading it alongside another text* from a different context. The comparison is not an ornament to the analysis — it is the generator of questions that a single-text approach would never produce.

@@ -13,7 +13,7 @@ tags:
 - gravity-waves
 - wind-driven
 - wave-energy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

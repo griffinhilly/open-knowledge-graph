@@ -15,7 +15,7 @@ tags:
 - electrostatics
 - potential-theory
 - energy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

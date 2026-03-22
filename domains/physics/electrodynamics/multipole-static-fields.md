@@ -14,7 +14,7 @@ tags:
 - multipole
 - expansion
 - static
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

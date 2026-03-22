@@ -35,6 +35,45 @@ Use the Moody chart fluently before applying the Colebrook equation iteratively.
 - Smooth pipes still have turbulent friction loss; 'smooth' means hydraulically smooth (roughness sublayer buried in viscous sublayer), not zero loss.
 - At very high Re in rough pipes, f becomes constant (fully rough regime) and is independent of Re.
 
+## Questions
+
+```yaml
+- question: "A commercial steel pipe operates at very high Reynolds number with significant wall roughness. You double the flow velocity (increasing Re by a factor of 2). What happens to the Darcy friction factor f?"
+  type: multiple-choice
+  options:
+    - "f decreases, because higher Re generally reduces friction"
+    - "f increases, because higher velocity means more turbulence"
+    - "f stays essentially the same, because at fully turbulent rough flow f depends only on ε/D"
+    - "f halves, following the laminar relationship f = 64/Re"
+  answer: 2
+  explanation: "In the fully turbulent rough regime, the viscous sublayer near the wall is fully eroded, so roughness elements protrude directly into the turbulent core. At this point f is determined entirely by relative roughness ε/D and is independent of Re — the Moody chart curves flatten into horizontal lines. Options A and D are common errors: f = 64/Re applies only to laminar flow. Option B confuses the transition zone behavior with fully rough behavior."
+
+- question: "A pipe labeled 'hydraulically smooth' still carries turbulent flow. Which statement correctly describes its friction factor?"
+  type: multiple-choice
+  options:
+    - "f = 0, because a smooth pipe has no friction loss"
+    - "f = 64/Re, because smooth pipes follow the laminar relationship"
+    - "f depends only on Re, because the roughness sublayer is submerged in the viscous sublayer"
+    - "f depends only on ε/D, because smoothness means the roughness dominates"
+  answer: 2
+  explanation: "Hydraulically smooth means the roughness elements are small enough to be buried inside the viscous sublayer, so they don't protrude into the turbulent core. Friction loss still exists — turbulent friction is substantial even in smooth pipes. Since roughness plays no role, f depends only on Re, following the Prandtl smooth-pipe law. Option A is wrong: smooth refers to hydraulic behavior, not zero loss. Option B only applies to laminar flow (Re < 2300). Option D reverses the logic entirely."
+
+- question: "The Darcy-Weisbach friction factor equals four times the Fanning friction factor."
+  type: true-false
+  answer: true
+  explanation: "This is a real and consequential distinction. The Darcy-Weisbach (Moody) friction factor and the Fanning friction factor are both legitimately called 'friction factor' in the literature, but f_Darcy = 4 × f_Fanning. If you mistakenly use the Fanning factor in the Darcy-Weisbach equation h_f = f(L/D)(V²/2g), you will compute a head loss four times too small — a serious engineering error. Always check which convention your source uses."
+
+- question: "In fully turbulent flow through a rough pipe, increasing the pipe's diameter while keeping flow velocity and absolute roughness ε constant will reduce the friction factor f."
+  type: true-false
+  answer: true
+  explanation: "Increasing D while keeping ε fixed reduces the relative roughness ε/D. In the fully rough regime, f depends only on ε/D, and smaller ε/D corresponds to lower f on the Moody chart. So a larger diameter pipe with the same roughness height will exhibit a lower friction factor. This is also why relative roughness ε/D, not absolute roughness ε, is the controlling variable: what matters is how large the roughness bumps are compared to the pipe diameter."
+
+- question: "In turbulent pipe flow, why does the friction factor depend on relative roughness ε/D rather than just on absolute roughness ε? Explain using the physical mechanism."
+  type: short-answer
+  answer: "Because what determines whether roughness elements affect the flow is whether they protrude through the viscous sublayer into the turbulent core — and the sublayer thickness scales with pipe size and flow conditions. A roughness height of 0.1 mm is negligible in a large pipe but significant in a small tube. The relevant comparison is always roughness height relative to pipe scale, so ε/D captures the physics that absolute ε alone cannot."
+  explanation: "The viscous sublayer — the thin laminar region at the pipe wall — shields roughness elements that are smaller than its thickness. What matters physically is whether roughness bumps are 'visible' to the turbulent flow above the sublayer. Dimensional analysis confirms that the only dimensionless roughness parameter that appears in the friction factor correlation is ε/D. This is also why at high Re (thinner viscous sublayer), a pipe can transition from hydraulically smooth to fully rough without any change to the pipe itself — the sublayer thins until roughness elements emerge from it."
+```
+
 ## Explainer
 
 From your study of the Reynolds number, you know that flow transitions from laminar to turbulent when inertial forces overwhelm viscous forces — roughly at Re ≈ 2300 for pipe flow. Laminar flow has an orderly parabolic velocity profile and a friction factor that varies simply as f = 64/Re. Turbulent flow breaks that picture: the velocity profile is flatter, more uniform across the cross-section, with steeper velocity gradients only near the wall. And friction no longer depends only on Re. A second variable enters — the **relative roughness** ε/D, the ratio of the average wall roughness height to pipe diameter. Together, Re and ε/D govern the **Darcy friction factor** f, the key dimensionless parameter for calculating head loss in turbulent pipe flow.

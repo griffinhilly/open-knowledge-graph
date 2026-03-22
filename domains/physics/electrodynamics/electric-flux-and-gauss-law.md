@@ -14,7 +14,7 @@ tags:
 - gauss-law
 - flux
 - symmetry
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

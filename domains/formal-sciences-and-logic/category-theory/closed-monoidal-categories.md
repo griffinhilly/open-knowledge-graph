@@ -34,6 +34,45 @@ Verify the currying adjunction in Set: a function f: A × B → C corresponds to
 - The internal hom [B, C] is an object of C, not a set; it internalizes the notion of morphism space within the category itself.
 - Closed monoidal need not be symmetric; non-symmetric closed monoidal categories exist (e.g., categories of bimodules), though the symmetric case is most common.
 
+## Questions
+
+```yaml
+- question: "In the category Set with the cartesian product ×, the internal hom [B, C] is defined by the natural bijection Hom(A × B, C) ≅ Hom(A, [B, C]). What object plays the role of [B, C] in Set?"
+  type: multiple-choice
+  options:
+    - "The set of all subsets of B × C"
+    - "The set of all functions from B to C"
+    - "The cartesian product B × C itself"
+    - "The set of all functions from C to B"
+  answer: 1
+  explanation: "In Set, the internal hom [B, C] is the set of all functions B → C, often written C^B. The adjunction Hom(A × B, C) ≅ Hom(A, C^B) is precisely currying: a function f(a, b) of two arguments is in bijection with a function g(a) that returns a function of b. This is the canonical example grounding the abstract definition."
+
+- question: "In Vect_k with the tensor product ⊗_k, a student describes the internal hom [V, W] as 'just the set of linear maps from V to W, which exists outside the category.' What is wrong with this description?"
+  type: multiple-choice
+  options:
+    - "The internal hom in Vect_k is not the set of linear maps — it is the tensor product V ⊗ W"
+    - "The internal hom [V, W] = Hom_k(V, W) is itself a k-vector space and an object inside Vect_k, not merely an external set"
+    - "The description is correct; internal homs in concrete categories are always external sets"
+    - "Vect_k is not a closed monoidal category, so no internal hom exists"
+  answer: 1
+  explanation: "This is the central distinction of closed monoidal structure. While morphisms from V to W do form a set, the internal hom [V, W] = Hom_k(V, W) is additionally a k-vector space — it has its own linear structure, and it lives as an object inside Vect_k. Morphisms from U to [V, W] are linear maps U → Hom_k(V, W), which correspond via the adjunction to bilinear maps from U ⊗ V to W. The internal hom internalizes the function space within the category, making it available for further categorical operations."
+
+- question: "In a closed monoidal category, the internal hom [B, C] is characterized up to isomorphism by a natural bijection between morphism sets — specifically, the currying adjunction Hom(A ⊗ B, C) ≅ Hom(A, [B, C])."
+  type: true-false
+  answer: true
+  explanation: "The internal hom is defined as the right adjoint to (−) ⊗ B, and right adjoints are unique up to natural isomorphism. The adjunction provides a natural bijection in both A and C, which completely determines [B, C] up to isomorphism. The evaluation morphism ev: [B, C] ⊗ B → C (the counit) and coevaluation coev: A → [B, A ⊗ B] (the unit) are the structural maps witnessing this adjunction."
+
+- question: "Every monoidal category is automatically closed, because morphisms between any two objects always form a set, and this set can serve as the internal hom."
+  type: true-false
+  answer: false
+  explanation: "Closedness is an additional structure, not a consequence of being monoidal. The internal hom requires the functor (−) ⊗ B to have a right adjoint [B, −] for each object B — this adjoint may not exist. Many important monoidal categories lack internal homs. For example, the category of finite sets with cartesian product has a well-defined internal hom (function sets are finite), but the category of finite-dimensional vector spaces with a tensor product ⊗_k satisfies closedness only because Hom(V, W) is again finite-dimensional. In general, the existence of a right adjoint must be verified, not assumed."
+
+- question: "Explain the significance of the internal hom [B, C] being an object *inside* the category, rather than just an external set of morphisms. What does this internalization make possible?"
+  type: short-answer
+  answer: "When [B, C] is an object of the category, it can appear as a source or target of morphisms within the category itself, enabling constructions like composition (a morphism [B, C] ⊗ [A, B] → [A, C]), currying (a morphism f: A ⊗ B → C corresponds to a morphism f̃: A → [B, C] inside the category), and higher-order functions. This makes the category suitable for interpreting type theories with function types: the internal hom models the function type B → C, and the currying adjunction models lambda abstraction. In the symmetric monoidal closed case, the internal language is linear type theory, directly modeling resource-sensitive systems where values are used exactly once — as in quantum mechanics (no-cloning) or Rust's ownership types."
+  explanation: "The key contrast is between Hom_Set(B, C), which is external bookkeeping about the category, and [B, C], which is an entity inside the category that participates in its algebra. Internalization is what enables the Curry-Howard-Lambek correspondence and makes closed monoidal categories the semantic setting for functional programming languages and linear logic."
+```
+
 ## Explainer
 
 You know that a monoidal category equips objects with a tensor product ⊗ and a unit object I, satisfying associativity and unit laws up to coherent isomorphism. The monoidal structure lets you "multiply" objects together. A **closed monoidal category** adds the ability to "divide" — or more precisely, to form function objects. For every pair of objects B and C, the **internal hom** [B, C] is an object of the category that represents morphisms from B to C, living *inside* the category rather than just as an external set.

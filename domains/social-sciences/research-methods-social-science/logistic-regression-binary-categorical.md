@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 When outcomes are categorical, ordinary regression is inappropriate. Logistic regression transforms probabilities to log-odds scale. Generalized linear models extend this framework to count data, ordinal outcomes, and non-normal distributions, providing proper inference for categorical outcomes.
 
+## Questions
+
+```yaml
+- question: "A logistic regression predicting employment (1 = employed, 0 = not) finds that holding a college degree has an odds ratio of 2.0. A researcher reports: 'College graduates are twice as likely to be employed.' This conclusion is:"
+  type: multiple-choice
+  options:
+    - "Correct — an odds ratio of 2.0 means the probability of employment doubles for college graduates"
+    - "Incorrect — an odds ratio of 2.0 means the odds of employment double, and this equals a probability doubling only when baseline probability is very small"
+    - "Correct — odds ratios are always interpretable as probability ratios in logistic regression"
+    - "Incorrect — odds ratios greater than 1 indicate a negative association in logistic regression"
+  answer: 1
+  explanation: "This is the most common misinterpretation of logistic regression output. An odds ratio of 2.0 means the odds (p/(1−p)) are twice as large for degree holders, not the probability itself. If baseline employment probability is 0.5, the odds are 1.0; an OR of 2 gives odds of 2.0, which corresponds to a probability of 0.67 — a 17 percentage-point increase, not a doubling. Only when the baseline probability is very small (the 'rare outcome assumption') do odds ratios approximate probability ratios. In social science research with common outcomes, conflating ORs and relative risks systematically overstates effect sizes."
+
+- question: "A criminologist is modeling the number of arrests each respondent accumulated over five years — a count ranging from 0 to 12. Which model is most appropriate?"
+  type: multiple-choice
+  options:
+    - "OLS linear regression, since the count can be treated as a continuous outcome"
+    - "Binary logistic regression after recoding to 0 vs. 1+ arrests"
+    - "Poisson GLM with a log link, because the outcome is a non-negative count"
+    - "Ordinal logistic regression, since the count values can be ranked"
+  answer: 2
+  explanation: "Count outcomes require a model that respects their distributional properties: non-negative integers, typically right-skewed, with variance that scales with the mean. OLS is inappropriate because it can generate negative predictions and assumes constant variance. Binary recoding discards information about how many arrests occurred. Ordinal logistic regression is for ordered categorical outcomes, not continuous counts. Poisson GLM with a log link is the standard choice — the log link ensures predicted counts are always positive, and the Poisson distribution models event counts that accumulate over exposure time. If the data show overdispersion (variance > mean), a negative binomial GLM is the natural extension."
+
+- question: "In a logistic regression, the maximum likelihood estimates of the coefficients cannot be solved analytically and must be found through iterative numerical optimization."
+  type: true-false
+  answer: true
+  explanation: "Unlike OLS, which has a closed-form normal equations solution (β = (X'X)⁻¹X'y), the log-likelihood of a logistic regression has no closed-form maximizer. Coefficients are estimated via iteratively reweighted least squares (IRWLS) or gradient-based methods that converge to the MLE numerically. This is why GLMs 'may fail to converge' — a warning that OLS never produces — and why sparse data or perfect separation (a predictor that perfectly predicts the outcome) causes problems."
+
+- question: "If a logistic regression coefficient for predictor X is positive, increasing X by one unit always increases the predicted probability of the outcome by a constant amount, regardless of the current value of X or the baseline probability."
+  type: true-false
+  answer: false
+  explanation: "The logit link makes the effect of X on probability nonlinear. The same one-unit change in X produces a constant change in log-odds, but the corresponding change in probability depends on the current probability level: the sigmoid curve is steepest near p = 0.5 and flattens near p = 0 or p = 1. So the marginal effect of X on probability is largest at moderate probabilities and smallest at extreme probabilities. This is why researchers report marginal effects (change in predicted probability at specified baseline values) rather than raw coefficients when communicating to non-technical audiences."
+
+- question: "Explain why an odds ratio of 1.5 does NOT mean that the probability of the outcome is 50% higher for a one-unit increase in a predictor."
+  type: short-answer
+  answer: "An odds ratio of 1.5 means the odds (p/(1−p)) increase by 50%, not the probability. The relationship between odds and probability is nonlinear: probability = odds/(1 + odds). So if the baseline probability is 0.50 (odds = 1.0), an OR of 1.5 gives odds of 1.5 and probability of 0.60 — a 10 percentage-point increase, not 50%. The conversion from odds ratios to probability differences depends entirely on the baseline probability, and misreading ORs as probability ratios systematically overstates effect sizes when outcomes are common."
+  explanation: "The rare-outcome approximation — where OR ≈ relative risk — only holds when the baseline probability is small (roughly below 10%). For common outcomes in social science research (employment, health status, voting), odds ratios substantially exaggerate relative risks. This is not merely a technical detail: policy-relevant communication of risk requires converting ORs to absolute probability differences or relative risks, which demands knowing or specifying the baseline probability."
+```
+
 ## Explainer
 
 You already understand logistic regression for binary outcomes — that a probability bounded between 0 and 1 cannot be modeled with an unbounded linear predictor, so we apply the **logit transformation** (log-odds: ln[p/(1−p)]) to map probabilities to the real line. This transformation is invertible via the **sigmoid function**, and your background with exponential functions and graphs helps you see why: e^x / (1 + e^x) produces the characteristic S-curve that squeezes any linear combination of predictors into the (0,1) interval. The key interpretive fact is that logistic regression coefficients represent changes in log-odds, which can be exponentiated to **odds ratios** — a more interpretable but still nonlinear quantity. An odds ratio of 1.5 means the odds of the outcome are 50% higher per unit increase in the predictor, not that the probability increases by 50 percentage points.

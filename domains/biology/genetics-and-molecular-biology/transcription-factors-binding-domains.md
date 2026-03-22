@@ -33,6 +33,45 @@ Study the structure of different DNA-binding domains and how amino acids contact
 - Not recognizing that the same transcription factor can act as an activator or repressor depending on context.
 - Confusing DNA-binding specificity with selectivity in binding to individual target sites.
 
+## Questions
+
+```yaml
+- question: "A transcription factor normally activates gene X. In a cell line where a different cofactor is expressed, the same transcription factor represses gene X. Which explanation best accounts for this?"
+  type: multiple-choice
+  options:
+    - "The transcription factor must have acquired a mutation in this cell line that reversed its function"
+    - "The transcription factor recruits different cofactors depending on cellular context, switching its regulatory effect"
+    - "The transcription factor's DNA-binding domain changed specificity in the presence of the new cofactor"
+    - "One factor cannot both activate and repress, so this must be a different but structurally similar protein"
+  answer: 1
+  explanation: "The same transcription factor can activate one gene and repress another depending on which cofactors are recruited. For example, a factor might recruit a histone acetyltransferase (activating) at one promoter and a histone deacetylase (repressing) at another. This context-dependence is a fundamental feature of transcription factor function, not evidence of mutation or a different protein."
+
+- question: "Transcription factor DNA-binding domains primarily achieve sequence specificity by:"
+  type: multiple-choice
+  options:
+    - "Detecting structural differences in the minor groove, where bases are most accessible to proteins"
+    - "Unwinding the double helix and reading the sequence of the single-stranded template directly"
+    - "Making hydrogen bond and van der Waals contacts with base pairs exposed in the major groove"
+    - "Recognizing unique patterns in the sugar-phosphate backbone that differ between sequences"
+  answer: 2
+  explanation: "The major groove exposes the chemical 'edges' of base pairs — unique patterns of hydrogen bond donors and acceptors for each of the four base-pair orientations (A-T, T-A, G-C, C-G). Recognition helices, zinc finger loops, and other DNA-binding structures make contacts with these exposed groups to read the sequence without unwinding the helix. The minor groove is narrower and less information-rich for sequence-specific recognition."
+
+- question: "A single transcription factor can function as either a gene activator or repressor depending on which cofactors and binding partners are present in the cell."
+  type: true-false
+  answer: true
+  explanation: "Context-dependence is a defining feature of many transcription factors. The DNA-binding domain determines where the factor binds, but the activation or repression domain communicates with cofactors that differ by cell type and developmental state. A factor's effect on transcription is therefore determined by its molecular environment, not solely by its own structure."
+
+- question: "Because individual transcription factor binding sites are only 4–8 base pairs long, a single factor can theoretically bind tens of thousands of sites in the human genome, ensuring broad and uniform activation of all its target genes."
+  type: true-false
+  answer: false
+  explanation: "Short binding sites are not unique in a large genome, but transcription factors achieve target selectivity through combinatorial mechanisms: binding as dimers or multi-factor complexes at composite elements, cooperating with other factors, and relying on chromatin accessibility — only certain sites are physically available in a given cell type. This restricts activity to genuine target genes despite the non-uniqueness of individual motifs."
+
+- question: "If individual transcription factor binding motifs are too short to be unique in the genome, how do cells ensure that transcription factors regulate the correct target genes rather than hundreds of off-target sites?"
+  type: short-answer
+  answer: "Cells use combinatorial strategies: transcription factors bind as dimers or higher-order complexes, cooperate with other factors at composite regulatory elements, and are constrained by chromatin accessibility — nucleosomes physically block most potential binding sites, leaving only the appropriate sites open in a given cell type. The combined specificity of multiple factors acting together, plus the chromatin landscape, restricts binding to genuine regulatory targets."
+  explanation: "This is the key insight behind cell-type-specific gene expression: roughly 1,500 human transcription factors generate vast regulatory diversity not through individual uniqueness but through combinatorial logic. Each cell type has a distinct set of expressed factors and an accessible chromatin landscape, together specifying which genes are activated or repressed."
+```
+
 ## Explainer
 
 You already know that eukaryotic transcription begins when the general transcription machinery — including TFIID and its TATA-binding protein — assembles at the promoter to position RNA polymerase II. But general transcription factors alone produce only a low basal level of transcription. The real control comes from **regulatory transcription factors** — proteins that bind to specific DNA sequences at enhancers, silencers, and proximal promoter elements, and either boost or suppress transcription from a distance. These regulatory factors are what make a liver cell express albumin while a neuron expresses synapsin, even though both cells carry the same DNA.

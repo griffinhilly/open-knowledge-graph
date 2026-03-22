@@ -19,7 +19,7 @@ tags:
 - predation-avoidance
 - active-transport
 - visual-predation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -35,6 +35,45 @@ Verify the √T temperature dependence of gas viscosity from kinetic theory, the
 - Expecting gas viscosity to decrease with temperature (as liquids do); gas viscosity increases with T because momentum transport improves.
 - Thinking all transport coefficients are independent; they are all related through the same mean free path and speed.
 
+## Questions
+
+```yaml
+- question: "You measure the viscosity of nitrogen gas at 300 K, then again at 1200 K (a factor-of-4 increase in absolute temperature). What do you expect to observe, and why?"
+  type: multiple-choice
+  options:
+    - "Viscosity decreases by roughly half — higher temperature means faster molecules that disrupt ordered flow more chaotically"
+    - "Viscosity is unchanged — the mean free path shortens in exactly the proportion the speed increases"
+    - "Viscosity roughly doubles (increases by ~√4) — faster molecules transport momentum across velocity gradients more effectively"
+    - "Viscosity increases fourfold — viscosity scales directly with absolute temperature in gases"
+  answer: 2
+  explanation: "Gas viscosity scales as √T from kinetic theory: η ∝ √T. At 4× the temperature, viscosity increases by √4 = 2×. This contradicts liquid behavior, where viscosity decreases with temperature. In gases, there are no intermolecular attractions to weaken — faster molecules simply carry momentum more effectively across a velocity gradient. Option A describes the liquid case; option D overestimates by confusing √T with T."
+
+- question: "Thermal conductivity (κ) of an ideal gas is proportional to its viscosity (η). Which statement best explains why?"
+  type: multiple-choice
+  options:
+    - "Both properties increase with temperature, so they must be proportional to each other"
+    - "Both properties arise from the same microscopic mechanism — molecules traveling a mean free path and carrying a quantity (momentum or energy) between collisions — differing only in what is transported"
+    - "They are related because denser gases have both higher viscosity and higher thermal conductivity"
+    - "The proportionality is empirical and has no theoretical explanation from kinetic theory"
+  answer: 1
+  explanation: "The formulas make the connection explicit: η = (1/3)ρc̄λ and κ = (1/3)ρc̄λC_V/M. Both contain the same ρ, c̄, and λ; the only difference is that κ includes the heat capacity per unit mass C_V/M because thermal conductivity transports kinetic energy while viscosity transports momentum. This proportionality is a theoretical prediction, not just an empirical coincidence, and it follows directly from the unified mean-free-path picture of gas transport."
+
+- question: "In an ideal gas, viscosity and thermal conductivity both depend on the same mean free path (λ) and mean molecular speed (c̄)."
+  type: true-false
+  answer: true
+  explanation: "True. The kinetic theory expressions η = (1/3)ρc̄λ and κ = (1/3)ρc̄λC_V/M share the same c̄λ product. Both properties arise because molecules travel on average a distance λ before colliding, carrying whatever macroscopic quantity varies spatially (momentum for viscosity, kinetic energy for thermal conductivity). Diffusion also shares this structure: D = (1/3)c̄λ. The unified mean-free-path picture is the central insight of gas transport theory."
+
+- question: "Like liquids, gases become less viscous when heated, because higher kinetic energy disrupts the intermolecular interactions that cause resistance to flow."
+  type: true-false
+  answer: false
+  explanation: "False — this is the most common misconception in gas transport. Gas viscosity INCREASES with temperature. Gases have negligible intermolecular attractions, so there are no cohesive interactions to disrupt. Instead, gas viscosity arises purely from molecular momentum transfer: faster molecules (higher T) traverse the mean free path more quickly and carry more momentum per molecule, making momentum transport across a velocity gradient more efficient. The result is η ∝ √T. The liquid mechanism described in the question simply does not apply to gases."
+
+- question: "Why does gas viscosity increase with temperature while liquid viscosity decreases? Explain the different mechanisms responsible."
+  type: short-answer
+  answer: "In liquids, viscosity arises from intermolecular cohesion — molecules must overcome attractive forces to flow past neighbors, and thermal energy reduces these effective energy barriers, so viscosity drops as T rises. In gases, intermolecular attractions are negligible; viscosity arises entirely from momentum transfer between layers. Molecules randomly crossing from a fast-moving layer to a slower one carry excess momentum, dragging the layers toward the same speed. Faster molecules (higher T) traverse the mean free path more quickly and carry more momentum, so viscous coupling between layers strengthens with temperature. The net result is η ∝ √T for ideal gases."
+  explanation: "The key is recognizing that liquid and gas viscosity have fundamentally different physical origins. Liquid viscosity is about overcoming attraction; gas viscosity is about collisional momentum transfer. This also explains why adding a noble gas to a mixture affects viscosity even though noble gases have essentially no intermolecular attractions — what matters is their mass and speed, not their chemistry."
+```
+
 ## Explainer
 
 From kinetic theory, you know that gas molecules are in constant random motion, colliding with each other billions of times per second. Transport properties describe what happens when this random motion carries something — momentum, energy, or molecules themselves — from one region of the gas to another. The unifying idea is that each transport property arises from the same microscopic mechanism: molecules traveling an average distance λ (the **mean free path**) between collisions, carrying with them whatever macroscopic quantity varies across space.

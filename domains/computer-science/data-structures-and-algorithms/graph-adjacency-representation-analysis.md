@@ -32,6 +32,45 @@ Implement both representations for the same graph. Measure space and time for ed
 - Thinking adjacency lists are always efficient; with poor hash functions or linked lists, traversal can be slow.
 - Not accounting for the cost of dynamic graph modifications (edge insertion/deletion).
 
+## Questions
+
+```yaml
+- question: "A social network has 1 million users (V = 10⁶) and each user averages 200 connections (E ≈ 10⁸). A developer argues that an adjacency matrix is preferable because O(1) edge lookup will speed up friend-of-friend queries. What is the critical problem with this choice?"
+  type: multiple-choice
+  options:
+    - "Adjacency matrices do not support weighted edges, which are needed for social networks"
+    - "An adjacency matrix would require V² = 10¹² entries — roughly a terabyte of memory — to represent what fits in a few gigabytes with an adjacency list"
+    - "O(1) edge lookup is actually slower in practice because of cache misses"
+    - "Adjacency matrices cannot represent directed graphs, which social networks require"
+  answer: 1
+  explanation: "This is a sparse graph (E << V²). An adjacency matrix always allocates V² space regardless of edge count — here, 10¹² cells for a graph with only 10⁸ edges. The adjacency list uses O(V + E) ≈ O(10⁸) space. The O(1) lookup advantage is real but irrelevant when the representation is physically impractical."
+
+- question: "You are implementing Dijkstra's algorithm on a sparse road network (10,000 cities, ~30,000 roads). The algorithm must repeatedly visit all neighbors of a given vertex. Which representation minimizes time for this operation?"
+  type: multiple-choice
+  options:
+    - "Adjacency matrix, because O(1) cell access makes neighbor lookup instantaneous"
+    - "Adjacency list, because iterating neighbors takes O(degree) time rather than O(V) time"
+    - "Adjacency matrix, because its regular memory layout improves cache performance for row scans"
+    - "Both representations take the same time, since each neighbor is eventually visited either way"
+  answer: 1
+  explanation: "With an adjacency list, visiting all neighbors takes O(degree) — proportional to how many neighbors actually exist. With an adjacency matrix, you must scan the entire row of V = 10,000 entries for each vertex, even if the vertex has only 3 neighbors. For a sparse graph, this O(V) per vertex is dramatically slower than O(degree)."
+
+- question: "An adjacency list is always the better choice for graph representation because it uses less memory than an adjacency matrix."
+  type: true-false
+  answer: false
+  explanation: "For dense graphs where E approaches V², an adjacency list uses roughly 2E ≈ V² space — comparable to an adjacency matrix — while also lacking its O(1) edge lookup. The adjacency matrix wins or ties on both memory and lookup speed in the dense case. The right choice depends on graph density and the query patterns of the algorithm you're running."
+
+- question: "Checking whether edge (u, v) exists takes O(1) time with an adjacency matrix regardless of graph density."
+  type: true-false
+  answer: true
+  explanation: "The adjacency matrix stores all edges in a 2D array; matrix[u][v] is a single array access — always O(1). This is the matrix's primary advantage. With a basic adjacency list, you must search u's neighbor list, which takes O(degree(u)) time (though a hash-set-backed list can also achieve O(1) expected time)."
+
+- question: "Why does the choice between adjacency list and adjacency matrix matter for algorithms like BFS and DFS? What property of those algorithms makes one representation clearly preferable for sparse graphs?"
+  type: short-answer
+  answer: "BFS and DFS repeatedly iterate over all neighbors of each vertex. An adjacency list makes this O(degree) per vertex; an adjacency matrix requires scanning the full row of V entries per vertex, most of which are zeros in a sparse graph. Across the entire traversal, the list gives O(V + E) total work; the matrix gives O(V²) — a massive difference when E << V²."
+  explanation: "The 'visit all neighbors' pattern is the heart of graph traversal. Adjacency lists are purpose-built for this — each list stores exactly the neighbors that exist, no more. Matrices store all possible edges (most absent), so every neighbor scan wastes time on empty cells."
+```
+
 ## Explainer
 
 From graph theory fundamentals, you know what graphs are — vertices connected by edges, directed or undirected, possibly weighted. But to actually compute anything with a graph, you need to store it in memory, and the choice of representation profoundly affects the performance of every algorithm you run on it. The two standard representations are the **adjacency matrix** and the **adjacency list**, and choosing between them is one of the first decisions in any graph algorithm implementation.

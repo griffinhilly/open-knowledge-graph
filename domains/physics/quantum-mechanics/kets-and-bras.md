@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 A ket |ψ⟩ represents a quantum state as a vector in Hilbert space; its dual bra ⟨ψ| is the linear functional computing inner products. The bra-ket ⟨ψ|φ⟩ encodes probabilities and expectation values.
 
+## Questions
+
+```yaml
+- question: "A student says: 'The quantum state of a particle is its wavefunction ψ(x). If you want the momentum-space description, you use a different particle state.' What is wrong with this?"
+  type: multiple-choice
+  options:
+    - "Nothing — ψ(x) and its Fourier transform describe the same particle but in different physical situations."
+    - "The quantum state |ψ⟩ is basis-independent; ψ(x) = ⟨x|ψ⟩ is just its components in the position basis. The momentum-space function is a different representation of the same state, not a different state."
+    - "The student is correct — wavefunctions and momentum eigenstates belong to different Hilbert spaces."
+    - "The wavefunction ψ(x) contains all possible information about a quantum state, so no further description is needed."
+  answer: 1
+  explanation: "ψ(x) = ⟨x|ψ⟩ is the component of |ψ⟩ along the position eigenbasis — analogous to how a column of numbers gives a vector's coordinates in a specific basis, not the vector itself. The same quantum state |ψ⟩ can be expressed in the momentum basis as ψ̃(p) = ⟨p|ψ⟩. These are representations of the same state, not different states. Bra-ket notation keeps the formalism basis-independent until a specific representation is chosen."
+
+- question: "The inner product ⟨φ|ψ⟩ = 0 between two normalized states |φ⟩ and |ψ⟩ means that:"
+  type: multiple-choice
+  options:
+    - "The two states have identical probability distributions for all observables."
+    - "If the system is in state |ψ⟩, there is zero probability of measuring it to be in state |φ⟩."
+    - "The states are parallel — one is a scalar multiple of the other."
+    - "The states cannot coexist in the same Hilbert space."
+  answer: 1
+  explanation: "The Born rule says the probability of measuring |ψ⟩ to be in state |φ⟩ is |⟨φ|ψ⟩|². When this inner product is zero, the probability is zero — the states are orthogonal and perfectly distinguishable. This is the physical meaning of orthogonality in quantum mechanics. It does not mean the states are identical (A) or that one is a scalar multiple of the other (C)."
+
+- question: "A bra ⟨ψ| is a linear functional that maps kets to complex numbers — it lives in the dual space H*, not in the same Hilbert space as |ψ⟩."
+  type: true-false
+  answer: true
+  explanation: "Bras live in the dual space H*, which consists of all linear maps from H to ℂ. The correspondence between |ψ⟩ ∈ H and ⟨ψ| ∈ H* is given by the inner product structure (guaranteed by the Riesz representation theorem). In finite-dimensional spaces with an orthonormal basis, the bra looks like the conjugate transpose of the ket — but this is a computational convenience, not the definition. The fundamental identity is that ⟨ψ| is the linear functional |φ⟩ ↦ ⟨ψ|φ⟩."
+
+- question: "The wavefunction ψ(x) is the quantum state of a particle; switching to the momentum representation gives a physically different quantum state."
+  type: true-false
+  answer: false
+  explanation: "ψ(x) = ⟨x|ψ⟩ is the position-basis representation of |ψ⟩, not the state itself. The Fourier transform ψ̃(p) = ⟨p|ψ⟩ is the same state's components in the momentum basis. Changing basis changes the representation, not the physical state. The state |ψ⟩ is basis-independent; the wavefunction is basis-dependent."
+
+- question: "Why is it important to distinguish between the quantum state |ψ⟩ and the wavefunction ψ(x) = ⟨x|ψ⟩? What does one have that the other lacks?"
+  type: short-answer
+  answer: "The quantum state |ψ⟩ is a basis-independent object — a vector in Hilbert space that exists without reference to any particular representation. The wavefunction ψ(x) is its components in the position eigenbasis. The state carries full information in a coordinate-free way; the wavefunction is one specific 'view' of that information. Confusing the two leads to errors when changing bases, such as thinking position and momentum wavefunctions describe different physical states."
+  explanation: "This distinction parallels the difference between a geometric vector and its coordinates in a specific basis. The vector is real and basis-independent; the coordinates depend on the chosen basis. Dirac notation enforces this distinction: |ψ⟩ is the state, ⟨x|ψ⟩ is one representation of it. The power of the formalism comes from maintaining this distinction until a specific representation is actually needed."
+```
+
 ## Explainer
 
 From your study of **vector spaces**, you know that a vector lives in a space V and can be added to other vectors or multiplied by scalars. You also know there is a companion space — the **dual space** V* — consisting of all linear maps from V to the scalars. Dirac's bra-ket notation is precisely this mathematical structure, dressed in physics-friendly clothing. A **ket** |ψ⟩ is a vector in the Hilbert space H — the complete, normed vector space of quantum states. A **bra** ⟨ψ| is the corresponding element of the dual space H*, defined by the rule ⟨ψ|(|φ⟩) = ⟨ψ|φ⟩. What makes a Hilbert space special compared to a generic vector space is the **inner product**: a sesquilinear map ⟨·|·⟩ : H × H → ℂ that generalizes the dot product to complex-valued, infinite-dimensional spaces.

@@ -16,7 +16,7 @@ tags:
 - compartmentalization
 - organelles
 - function
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

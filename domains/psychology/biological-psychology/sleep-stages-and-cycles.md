@@ -35,6 +35,45 @@ Draw a hypnogram (time vs. sleep stage across a night) to visualize the shift fr
 - REM is not 'deep' sleep; it is physiologically activated — heart rate and brain activity are high, making it difficult to arouse in some ways but easily disrupted in others.
 - You do not pass through stages in lockstep order each cycle; the proportion of each stage shifts across the night.
 
+## Questions
+
+```yaml
+- question: "A student sleeps from midnight to 4 AM, then must wake up for an exam. Compared to sleeping a full 8 hours, which sleep stage is lost most disproportionately?"
+  type: multiple-choice
+  options:
+    - "Stage N3 (slow-wave sleep), because it is most concentrated in the first half of the night"
+    - "REM sleep, because REM periods grow progressively longer in the later cycles of the night"
+    - "Stage N1, because it only occurs at the initial onset of sleep and cannot recur"
+    - "All stages are lost equally, since each 90-minute cycle contains the same proportions"
+  answer: 1
+  explanation: "The hypnogram reveals a clear temporal pattern: N3 (slow-wave sleep) dominates the first two sleep cycles, while REM periods grow longer in later cycles — the final cycle before waking may include 30–40 minutes of REM with very little N3. Cutting sleep short at 4 hours forfeits the late cycles, which are REM-rich. This is why even modest sleep restriction has outsized effects on REM: it is concentrated at the end of the sleep period, which is what gets cut."
+
+- question: "Why was REM sleep originally called 'paradoxical sleep'?"
+  type: multiple-choice
+  options:
+    - "Because its EEG shows slow, high-amplitude delta waves despite the person being in the lightest stage of sleep"
+    - "Because the EEG resembles waking (desynchronized, low-amplitude, high-frequency) yet the person is asleep and skeletal muscles are paralyzed"
+    - "Because it occurs paradoxically early in the night when sleep pressure is highest"
+    - "Because metabolic rate drops to paradoxically low levels even while brain activity increases"
+  answer: 1
+  explanation: "The paradox is the combination of a waking-like EEG with behavioral sleep and muscle atonia. Most stages of sleep show distinctive markers that differ from waking; REM does not — the EEG is nearly indistinguishable from an alert, awake brain. Yet the person is hard to rouse and completely paralyzed in skeletal muscles. This apparent contradiction between brain activation and behavioral inactivity is what earned REM the 'paradoxical' label."
+
+- question: "REM sleep is often called 'deep sleep' because EEG activity during REM is at its lowest amplitude, making it the hardest stage from which to be awakened."
+  type: true-false
+  answer: false
+  explanation: "This inverts the reality. REM is characterized by high-frequency, low-amplitude EEG activity resembling the waking state — it is physiologically activated, not quiescent. 'Deep sleep' properly refers to N3 (slow-wave sleep), which shows high-amplitude delta waves. The confusion likely arises because dreamers can feel deeply immersed in sleep, and REM atonia does make it hard to respond physically, but the brain in REM is highly active, not resting."
+
+- question: "The suprachiasmatic nucleus (SCN) in the hypothalamus controls sleep timing by integrating light-dark cycle information via direct retinal input, which is why shift workers and jet-lagged travelers experience sleep disruption even when they are physically tired."
+  type: true-false
+  answer: true
+  explanation: "The SCN receives direct input from retinal ganglion cells (via the retinohypothalamic tract) and uses light exposure to calibrate the circadian clock. This internal clock — not just the accumulation of adenosine sleep pressure — governs when the sleep program is initiated and which stages occur when. Shift workers and jet-lagged individuals are often physiologically exhausted but their circadian phase is misaligned with clock time, so the SCN does not trigger the normal sleep program at the 'wrong' time of day."
+
+- question: "Why does losing the last 2 hours of an 8-hour sleep period harm cognitive function more than losing the first 2 hours, even though the total amount of sleep lost is identical in both cases?"
+  type: short-answer
+  answer: "Because the distribution of sleep stages across the night is highly asymmetric. The first half of the night is dominated by slow-wave sleep (N3), while REM periods grow progressively longer in later cycles — the final cycles may contain very little N3 but 30–40 minutes of REM each. Cutting the last 2 hours removes primarily REM sleep, which is critical for memory consolidation, emotional regulation, and cognitive restoration. Cutting the first 2 hours removes primarily slow-wave sleep, which is more restorative for physical processes. Since many cognitive functions depend disproportionately on REM, the timing of the sleep loss matters as much as the total amount."
+  explanation: "This question tests whether students understand the hypnogram's temporal structure, not just that sleep cycles repeat. The key insight is that the cycles are not identical — the sleep program shifts from SWS-rich to REM-rich as the night progresses — so the same quantity of lost sleep has very different functional consequences depending on when it occurs."
+```
+
 ## Explainer
 
 Sleep looks like a single state from the outside, but electrophysiology reveals it as a structured succession of distinct brain states, each with characteristic neural activity and physiological signatures. A hypnogram — a plot of sleep stage over time — shows something surprising: rather than steadily descending into deeper sleep and then waking, healthy sleepers cycle through stages repeatedly, roughly every 90 minutes, in a pattern that shifts as the night progresses. The brain is not resting uniformly; it is cycling through a carefully orchestrated program.

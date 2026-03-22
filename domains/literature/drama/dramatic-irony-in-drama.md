@@ -36,6 +36,45 @@ Identify scenes where dramatic irony operates and articulate exactly what the au
 - Dramatic irony is not the same as situational irony (an unexpected outcome) or verbal irony (sarcasm); it specifically requires an information asymmetry between audience and character.
 - Dramatic irony does not require the character to remain ignorant indefinitely — the recognition scene, when it comes, often depends on and releases the ironic tension.
 
+## Questions
+
+```yaml
+- question: "A theatergoer says: 'That twist at the end really surprised me — I never saw it coming. That's dramatic irony, right?' What is wrong with this analysis?"
+  type: multiple-choice
+  options:
+    - "It is actually verbal irony, because the dialogue implied the twist through word choice"
+    - "It is actually situational irony — an unexpected outcome does not require the audience to know in advance"
+    - "It is dramatic irony, because the surprise reveals the character's ignorance"
+    - "It is dramatic irony, but only if the playwright intended the surprise"
+  answer: 1
+  explanation: "Dramatic irony requires the audience to possess information the character lacks before the revelation, not to be surprised afterward. Situational irony describes an unexpected outcome that subverts expectations. The theatergoer describes their own surprise — the opposite of dramatic irony, which depends on the audience knowing more than the character throughout."
+
+- question: "In Oedipus Rex, the audience knows Oedipus is the murderer he seeks. How does this foreknowledge affect the experience of watching him confidently declare he will find the killer?"
+  type: multiple-choice
+  options:
+    - "It creates comic delight, because the audience enjoys knowing more than Oedipus"
+    - "It reduces engagement, since there is no mystery left for the audience to solve"
+    - "It creates suspense about whether Oedipus will succeed in his investigation"
+    - "It creates dread and pity, because the audience's superior knowledge becomes a form of helplessness"
+  answer: 3
+  explanation: "The audience's privileged knowledge is not a source of smug superiority but of anguish. Knowing what is coming and being unable to warn the character intensifies emotional investment rather than relieving it. This helplessness — watching a man stride confidently toward destruction — is the defining emotional texture of tragic dramatic irony."
+
+- question: "Dramatic irony must be sustained throughout an entire play; once the character gains the audience's knowledge, the irony is destroyed and the scene loses its power."
+  type: true-false
+  answer: false
+  explanation: "The recognition scene — the moment when a character finally learns what the audience has known all along — is itself a classical theatrical device and often the emotional climax of a tragedy. The release of ironic tension at recognition produces catharsis, not a loss of power. Dramatic irony can be local (a single scene) or extended (an entire play), and its resolution is as dramatic as its maintenance."
+
+- question: "Dramatic irony in comedy and in tragic drama operates through the same structural mechanism — the audience knows something the characters do not — but generates opposite emotional registers depending on genre."
+  type: true-false
+  answer: true
+  explanation: "The information asymmetry is structurally identical: in both comedy and tragedy, the audience possesses knowledge the characters lack. What differs is the genre context. In tragedy, foreknowledge of catastrophe produces dread and pity. In comedy, foreknowledge of an impending misunderstanding or resolution produces delight and anticipation. The mechanism is the same; the emotional register is determined by what the audience knows and what it portends."
+
+- question: "Why does the audience's superior knowledge in dramatic irony tend to produce anguish rather than satisfaction in tragic drama?"
+  type: short-answer
+  answer: "Because the audience is powerless to act on what it knows. The gap between knowing and being able to warn creates a form of helplessness: we watch the character move confidently toward catastrophe, unable to intervene. The knowledge amplifies rather than relieves emotional investment — the more certain the audience is of the coming disaster, the more painful each step toward it becomes."
+  explanation: "This is what distinguishes dramatic irony from mere suspense or mystery. The audience does not wonder what will happen; they know. Their anguish comes from watching a character's confident agency pointed directly at destruction. The audience is trapped in knowledge without power, which in tragedy is precisely the condition of pity."
+```
+
 ## Explainer
 
 You already know from your study of **irony in literature** that irony involves a gap between appearance and reality, between what is said and what is meant, or between expectation and outcome. **Dramatic irony** is a specific, structural form of irony that exploits the unique position of the theatrical audience. Because the audience knows the story before the play begins — or learns it before the characters do — they experience every scene through a double consciousness: seeing what characters see while knowing what characters cannot know. This double consciousness is uniquely available to theater because of **theatrical conventions** you've already encountered: the audience sits outside the fictional world, watching it unfold.

@@ -18,7 +18,7 @@ tags:
 - PV-nRT
 - boyles-law
 - charles-law
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

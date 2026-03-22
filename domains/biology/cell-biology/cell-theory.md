@@ -11,7 +11,7 @@ tags:
 - foundations
 - history-of-biology
 - cell-theory
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

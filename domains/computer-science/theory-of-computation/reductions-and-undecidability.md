@@ -12,7 +12,7 @@ tags:
 - reductions
 - undecidability
 - proof-technique
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

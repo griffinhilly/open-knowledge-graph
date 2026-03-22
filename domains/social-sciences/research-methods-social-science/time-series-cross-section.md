@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 TSCS data combines the temporal dimension (many time periods) with the cross-sectional dimension (many units like countries or organizations), creating a grid of observations. TSCS models account for complex dependence structures: within-unit autocorrelation, contemporaneous correlation across units, and panel-specific heteroskedasticity. These methods are essential in comparative political economy, international relations, and organizational research where panel length and breadth are both substantial.
 
+## Questions
+
+```yaml
+- question: "A researcher analyzes a panel of 30 countries over 50 years using standard OLS with no correction for temporal dependence. A global financial crisis hits all countries simultaneously in year 30. What is the primary statistical problem?"
+  type: multiple-choice
+  options:
+    - "The sample size is too small to produce reliable coefficient estimates"
+    - "Serial autocorrelation within each country inflates the number of effective observations"
+    - "Contemporaneous cross-unit correlation means standard errors underestimate true uncertainty, since all units are hit by the same shock"
+    - "OLS cannot be applied when the number of time periods exceeds the number of units"
+  answer: 2
+  explanation: "A common global shock creates contemporaneous cross-unit correlation: observations for different countries in the same year are not independent. Standard OLS assumes independence across observations, so its standard errors are too small — results appear more statistically significant than they are. Panel-corrected standard errors (PCSEs) are designed precisely to account for this structure alongside serial autocorrelation and panel heteroskedasticity."
+
+- question: "Why can TSCS data with 25 countries observed over 40 years not be analyzed adequately with standard cross-sectional regression techniques?"
+  type: multiple-choice
+  options:
+    - "The effective sample size of 1,000 is too large for reliable standard error estimation"
+    - "Cross-sectional regression cannot accommodate more than one observation per unit"
+    - "Ignoring serial autocorrelation within countries produces artificially small standard errors and overconfident inference"
+    - "Standard regression requires that the number of units exceed the number of time periods"
+  answer: 2
+  explanation: "In TSCS data, observations for the same country across years are not independent — past outcomes predict future ones (serial autocorrelation). Standard cross-sectional regression assumes independent observations; applying it to panel data understates standard errors and creates false precision. This is only one of three dependence structures in TSCS; contemporaneous cross-unit correlation and panel heteroskedasticity compound the problem."
+
+- question: "Clustering standard errors at the unit level is almost always appropriate in TSCS analysis because all observations within a unit are correlated across time."
+  type: true-false
+  answer: true
+  explanation: "Within a country (or firm, region, etc.), observations across years are rarely independent — economic, political, and institutional dynamics create strong temporal correlation. Clustering at the unit level allows for arbitrary within-cluster correlation rather than assuming independence, producing standard errors that reflect actual uncertainty. Not clustering when temporal dependence exists typically leads to confidence intervals that are too narrow."
+
+- question: "Fixed effects models preserve all variation in TSCS data by controlling for time-invariant unit characteristics without discarding any information."
+  type: true-false
+  answer: false
+  explanation: "Fixed effects models discard between-unit variation entirely — they demean each unit, so only within-unit variation over time is used for estimation. Variables that do not vary over time within a unit (e.g., a country's colonial history) cannot be estimated at all. This is a deliberate tradeoff: fixed effects powerfully control for unobserved unit-level confounders, but at the cost of all between-unit comparative information."
+
+- question: "What three distinct dependence structures characterize TSCS data, and why does each require a methodological response beyond what standard cross-sectional or time-series methods provide?"
+  type: short-answer
+  answer: "1) Serial autocorrelation: within-unit observations are correlated across time (past GDP predicts current GDP), so errors within units are not independent — ignoring this inflates apparent precision. 2) Contemporaneous cross-unit correlation: units observed in the same period co-move due to common shocks (global recessions, regional contagion), violating cross-unit independence — ignoring this understates true uncertainty. 3) Panel heteroskedasticity: error variance differs across units (large economies have larger absolute shocks than small ones) — ignoring this produces inefficient estimates. PCSEs address all three simultaneously."
+  explanation: "Each problem exists in isolation in other data types, but TSCS data has all three at once, making standard approaches from either cross-sectional or time-series analysis insufficient. This is what makes TSCS a distinct methodological domain."
+```
+
 ## Explainer
 
 You arrive here having studied both longitudinal data and time series analysis separately. TSCS data is what you get when both dimensions are large and neither can be ignored: imagine a dataset of 20 countries observed annually from 1970 to 2020. This is not simply repeated cross-sections (too much temporal structure to ignore) nor is it a pure time series (too many units to treat as a single sequence). The TSCS structure demands methods that respect both dimensions simultaneously.

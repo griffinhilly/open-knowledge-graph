@@ -35,6 +35,45 @@ Study the seven crystal systems using physical models or mineral specimens. Rela
 ## Common Misconceptions
 Crystals require perfect geometric shapes visible to the naked eye. In reality, crystal systems describe atomic-level symmetry; specimens may show poor form due to growth conditions. 'Crystalline' and 'mineral' are not synonymous—some minerals are cryptocrystalline.
 
+## Questions
+
+```yaml
+- question: "A geologist finds two mineral specimens that both appear as shapeless, irregular lumps with no visible crystal faces. One is quartz (hexagonal system, hardness 7) and the other is halite (cubic system, hardness 2.5). A student claims the crystal system is irrelevant because neither specimen shows macroscopic crystal form. Which response best corrects this reasoning?"
+  type: multiple-choice
+  options:
+    - "The student is correct — crystal system only matters for specimens with well-developed crystal faces"
+    - "Crystal system is defined by atomic-level symmetry, which persists regardless of external form; hardness, cleavage, and optical properties still differ systematically"
+    - "Crystal system affects color and luster but not physical properties like hardness"
+    - "Without visible crystal faces, the specimens must belong to the same crystal system by default"
+  answer: 1
+  explanation: "Crystal system describes atomic-level lattice symmetry — the geometry of the unit cell — not the external shape of the specimen. Poor growth conditions (crowded environments, rapid crystallization) prevent macroscopic crystal faces from developing, but the internal structure remains. All properties that flow from that structure — hardness, cleavage, optical behavior — are still present and testable. The common misconception (option A) conflates 'no visible crystal faces' with 'no crystal structure.'"
+
+- question: "Mica cleaves perfectly into thin flat sheets, while halite cleaves into perfect cubes with three mutually perpendicular cleavage planes. What best explains the difference in cleavage behavior?"
+  type: multiple-choice
+  options:
+    - "Mica is softer than halite, so it fractures more easily along any plane"
+    - "Both minerals have the same number of cleavage planes, but mica's planes happen to be parallel"
+    - "Mica's sheet silicate structure has one plane of weak interlayer bonds contrasting with strong intra-layer bonds; halite's cubic ionic structure has three equivalent planes of weak bonds at 90°"
+    - "Mica belongs to the monoclinic system, which always produces sheet cleavage, while cubic minerals always produce cubic cleavage"
+  answer: 2
+  explanation: "Cleavage follows planes of weak bonding in the crystal structure. In mica (a phyllosilicate), strong covalent bonds within SiO₄ sheets contrast sharply with weak bonds between the layers — producing one perfect cleavage plane. In halite (NaCl, cubic), the ionic bonds are equivalent in all three crystallographic directions, so there are three equivalent cleavage planes at right angles. Option D overstates the determinism of crystal system labels: the system reflects symmetry, but the specific cleavage geometry depends on the detailed bond arrangement, not just the system name."
+
+- question: "A mineral specimen that lacks visible crystal faces and appears as an irregular mass cannot belong to one of the seven crystal systems, because crystallinity requires macroscopic geometric form."
+  type: true-false
+  answer: false
+  explanation: "Crystal systems are defined by atomic-scale symmetry — the unit cell geometry and symmetry elements (rotation axes, mirror planes, inversion centers). This internal order exists whether or not the mineral grew large enough, slowly enough, and in an uncrowded enough environment to express macroscopic crystal faces. Cryptocrystalline minerals (e.g., chalcedony, a form of quartz) have no visible crystal faces yet still have a definite crystal structure and crystal system."
+
+- question: "Two minerals with the same chemical formula can belong to different crystal systems if their atoms are arranged differently — a phenomenon called polymorphism."
+  type: true-false
+  answer: true
+  explanation: "Polymorphism is well documented: diamond and graphite are both pure carbon but crystallize in the cubic and hexagonal systems respectively, with completely different properties. Calcite and aragonite are both CaCO₃ but belong to different crystal systems (trigonal vs. orthorhombic). The same atoms, arranged with different symmetry, produce minerals with different crystal systems and different physical properties — demonstrating that crystal system is fundamentally a structural, not compositional, property."
+
+- question: "Why does knowing a mineral's crystal system allow a geologist to predict physical properties like cleavage direction and optical behavior, even before directly testing those properties?"
+  type: short-answer
+  answer: "Crystal system describes the symmetry of the atomic arrangement — specifically, how the unit cell's axes and angles relate to each other and what symmetry operations (rotations, reflections) leave the structure unchanged. Cleavage follows planes of weakest bonding, which are determined by this geometry: a cubic mineral has equivalent bond strengths in all three axis directions, predicting three cleavages at 90°. Optical behavior depends on whether the lattice looks the same in all directions (cubic = isotropic, light behaves identically regardless of polarization direction) or has preferred directions (lower-symmetry systems = anisotropic, producing diagnostic interference colors under polarized light). Crystal system is not a label attached to a mineral after observing its properties — it encodes the structural geometry that produces those properties."
+  explanation: "This bidirectional link — structure predicts properties, properties diagnose structure — is what makes crystallography practically powerful. A field geologist can use cleavage angles, hardness, and optical behavior under a hand lens to narrow down crystal system, then use that to identify the mineral and infer the rock's formation conditions, without ever measuring unit cell parameters directly."
+```
+
 ## Explainer
 
 From your study of atomic structure and crystal structures, you know that atoms arrange themselves into ordered, repeating three-dimensional patterns — crystal lattices — and that the geometry of these arrangements determines many physical properties. Mineral classification takes this foundation and organizes the roughly 5,000 known minerals into a coherent system based on their crystal symmetry and chemical composition.

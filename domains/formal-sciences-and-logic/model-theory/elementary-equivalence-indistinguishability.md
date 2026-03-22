@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Two structures are elementarily equivalent if they satisfy exactly the same first-order sentences. This is weaker than isomorphism—structures can be elementarily equivalent with different domains—but captures the idea that first-order logic cannot distinguish them. Elementary equivalence is the central notion linking models to the sentences they satisfy.
 
+## Questions
+
+```yaml
+- question: "The ordered fields (ℝ, +, ·, <, 0, 1) and (ℚ, +, ·, <, 0, 1) are not isomorphic. What does this tell us about whether they are elementarily equivalent?"
+  type: multiple-choice
+  options:
+    - "They cannot be elementarily equivalent — non-isomorphic structures are always first-order distinguishable"
+    - "They are still elementarily equivalent, because elementary equivalence is weaker than isomorphism"
+    - "They are not elementarily equivalent, because the sentence '∃x (x · x = 2)' distinguishes them"
+    - "Elementary equivalence does not apply to ordered fields, only to purely relational structures"
+  answer: 2
+  explanation: "This is a case where non-isomorphic structures are also NOT elementarily equivalent — the sentence '∃x (x · x = 2)' (√2 exists) is true in ℝ but false in ℚ. This distinguishes them in first-order logic. The key point is that non-isomorphic structures *might* or *might not* be elementarily equivalent — you cannot conclude either way from non-isomorphism alone. Option A would be correct only if first-order logic were expressive enough to detect all structural differences, which it is not."
+
+- question: "The structures (ℚ, <) and (ℝ, <), viewed purely as dense linear orders without endpoints, are elementarily equivalent. What is the best explanation for this?"
+  type: multiple-choice
+  options:
+    - "They are isomorphic — any two countably dense linear orders without endpoints are the same"
+    - "Both are models of the complete theory DLO, so every first-order sentence in {<} that holds in one holds in the other"
+    - "First-order logic cannot express any properties about dense linear orders, so all such structures look alike"
+    - "Elementary equivalence only requires that the structures have the same cardinality"
+  answer: 1
+  explanation: "Both (ℚ, <) and (ℝ, <) are models of DLO (dense linear order without endpoints), which is a complete theory — meaning every first-order sentence in the language {<} is either a theorem or its negation is. Since both structures satisfy all axioms of DLO, and DLO is complete, they satisfy exactly the same first-order sentences: they are elementarily equivalent. Note they are NOT isomorphic (ℚ is countable, ℝ is uncountable) — this is a concrete example of elementary equivalence without isomorphism."
+
+- question: "If two structures are isomorphic, they must be elementarily equivalent."
+  type: true-false
+  answer: true
+  explanation: "Isomorphism is strictly stronger than elementary equivalence. An isomorphism φ: M → N is a bijection preserving all operations and relations; any first-order sentence true in M is true in N under the same interpretation (via the bijection). So isomorphic structures satisfy exactly the same first-order sentences — they are elementarily equivalent. The converse fails: elementary equivalence does not imply isomorphism."
+
+- question: "Two structures that are elementarily equivalent must be isomorphic."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception about elementary equivalence. Elementary equivalence is strictly weaker than isomorphism. The clearest example: the standard model of arithmetic (ℕ, +, ·, 0, 1) has nonstandard models that are elementarily equivalent to it (they satisfy the same first-order sentences) but are not isomorphic to ℕ — they contain 'infinitely large' elements invisible to any individual first-order sentence. Another example: (ℚ, <) and (ℝ, <) are elementarily equivalent but not isomorphic."
+
+- question: "What does it mean for first-order logic to have 'limited expressive power,' and how does the existence of nonstandard models of arithmetic illustrate this?"
+  type: short-answer
+  answer: "First-order logic cannot express certain structural properties that distinguish structures from the outside. For arithmetic, no finite or infinite list of first-order sentences can force a model to be exactly ℕ — any consistent set of first-order sentences satisfied by ℕ also has models with 'extra' nonstandard elements that behave like infinitely large natural numbers. These nonstandard models satisfy all the same first-order sentences as ℕ because first-order quantifiers range only over elements of the structure, not over all formulas or all subsets — so the 'extra' elements can never be singled out by any individual sentence."
+  explanation: "This connects to Gödel's incompleteness theorems and the compactness theorem. The inability to pin down ℕ up to isomorphism using first-order sentences is not a failure of any particular axiom system — it is a fundamental limit of first-order logic itself. Model theory studies what first-order logic can and cannot express, and elementary equivalence is the central tool for measuring exactly where this expressive boundary falls."
+```
+
 ## Explainer
 
 You already know what it means for a structure to satisfy a formula — a model M satisfies φ (written M ⊨ φ) when the interpretation makes the formula true. **Elementary equivalence** scales this up from single formulas to entire theories: two structures M and N are **elementarily equivalent** (written M ≡ N) when they satisfy exactly the same set of first-order sentences. No formula in the language can tell them apart. They are, from the perspective of first-order logic, indistinguishable.

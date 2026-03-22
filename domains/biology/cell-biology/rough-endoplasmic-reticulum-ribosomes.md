@@ -13,7 +13,7 @@ tags:
 - ER
 - protein-synthesis
 - secretory-pathway
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 # Rough Endoplasmic Reticulum and Ribosomal Synthesis

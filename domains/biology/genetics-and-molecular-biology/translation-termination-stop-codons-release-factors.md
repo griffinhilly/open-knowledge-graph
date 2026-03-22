@@ -30,6 +30,45 @@ Compare stop codon recognition with elongation codon recognition. Understand why
 - Not recognizing that read-through of stop codons (rare tRNAs with stop-codon anticodons) can extend proteins in specialized genes.
 - Thinking the peptide must be released from the ribosome immediately; recycling factors then dissociate the ribosomal subunits and release mRNA.
 
+## Questions
+
+```yaml
+- question: "A cell biologist engineers a tRNA with an anticodon complementary to the UGA stop codon. What is the most likely consequence for translation at UGA sites?"
+  type: multiple-choice
+  options:
+    - "UGA would continue to function as a stop codon because the ribosome preferentially recruits release factors over tRNAs at stop codons"
+    - "UGA would be decoded as a sense codon — the tRNA would deliver an amino acid instead of triggering termination, extending the polypeptide"
+    - "Translation would terminate faster at UGA sites because tRNA binding is more rapid than release factor binding"
+    - "UGA would still cause termination, but with an additional amino acid appended to the C-terminus of the polypeptide"
+  answer: 1
+  explanation: "This is how natural suppressor tRNAs work. Stop codons are recognized by release factors precisely because no normal tRNA has a complementary anticodon. If a tRNA with a UGA anticodon is present, it competes with the release factor for the A site. When the tRNA wins, peptidyl transfer occurs (not hydrolysis), extending the polypeptide rather than releasing it — UGA is 'read through' as a sense codon. This suppression is exploited in biotechnology (e.g., incorporating non-canonical amino acids) and occurs naturally in some organisms for specific proteins like selenoproteins."
+
+- question: "What distinguishes the chemical reaction catalyzed in the peptidyl transferase center when a release factor is in the A site, compared to when an aminoacyl-tRNA is in the A site during elongation?"
+  type: multiple-choice
+  options:
+    - "With a release factor, a water molecule attacks the ester bond linking the polypeptide to the P-site tRNA; during elongation, the alpha-amino group of an incoming amino acid attacks that bond"
+    - "With a release factor, the alpha-amino group of a special termination amino acid attacks the bond; during elongation, water performs the hydrolysis"
+    - "Both reactions involve amino group attack, but release factors use glutamine as the nucleophile while elongation uses the incoming amino acid"
+    - "Release factors use GTP hydrolysis to directly break the peptide bond, while elongation is GTP-independent"
+  answer: 0
+  explanation: "During elongation, the nucleophile is the alpha-amino group of the incoming aminoacyl-tRNA — this forms a new peptide bond and extends the chain. With a release factor occupying the A site, the nucleophile is instead a water molecule: this hydrolyzes the ester bond between the polypeptide and the P-site tRNA, releasing the completed polypeptide as a free chain. The release factor positions a critical glutamine residue in the peptidyl transferase center to facilitate this switch from aminoacyl transfer to hydrolysis."
+
+- question: "In eukaryotes, a single release factor (eRF1) recognizes all three stop codons (UAA, UAG, UGA), whereas in prokaryotes two release factors (RF1 and RF2) divide stop codon recognition between them — with RF1 recognizing UAA and UAG, and RF2 recognizing UAA and UGA."
+  type: true-false
+  answer: true
+  explanation: "This split is genuine and explains why UAA is the most common stop codon in prokaryotes — it is recognized by both RF1 and RF2, making termination at UAA especially reliable. Eukaryotes converged on a single omnibus release factor (eRF1) that handles all three. Both systems use a separate GTPase (RF3 in prokaryotes, eRF3 in eukaryotes) to facilitate release factor dissociation after the polypeptide is released."
+
+- question: "Stop codons have no corresponding tRNAs because their nucleotide sequences are chemically incompatible with forming anticodon-codon base pairs."
+  type: true-false
+  answer: false
+  explanation: "This is false — the absence of cognate tRNAs for stop codons is functional and evolutionary, not chemical. Suppressor tRNAs (naturally occurring mutant tRNAs with anticodons complementary to UAG, UAA, or UGA) demonstrate that standard Watson-Crick base pairing at stop codons is perfectly possible. The lack of normal tRNAs for stop codons is maintained by selection: if a tRNA decoded stop codons, translation would read through and produce abnormally long, likely non-functional proteins. Release factors evolved to occupy this niche instead, coupling stop codon recognition to hydrolysis rather than chain extension."
+
+- question: "Why do stop codons recruit release factor proteins rather than tRNAs, and how does this difference produce termination instead of elongation?"
+  type: short-answer
+  answer: "No normal tRNA in any organism has an anticodon complementary to UAA, UAG, or UGA — this niche is occupied by release factor proteins instead. When a release factor occupies the ribosomal A site at a stop codon, it positions its active site in the peptidyl transferase center but presents no amino group for peptide bond formation. Instead, it facilitates nucleophilic attack by water on the ester bond linking the polypeptide to the P-site tRNA. Hydrolysis releases the completed polypeptide as a free chain. If a tRNA occupied the A site, its amino group would attack instead, extending the chain — elongation, not termination."
+  explanation: "The critical contrast is nucleophile: aminoacyl-tRNA → amino group → new peptide bond (elongation); release factor → water → hydrolysis of existing ester bond (termination). The identity of what sits in the A site controls which reaction the peptidyl transferase center performs."
+```
+
 ## Explainer
 
 You have followed a polypeptide through translation elongation — watching aminoacyl-tRNAs deliver amino acids to the ribosomal A site, peptide bonds form in the peptidyl transferase center, and the ribosome translocate along the mRNA one codon at a time. But this cycle cannot continue forever. The cell needs a signal that says "the protein is complete, stop here." That signal is a **stop codon** — one of three triplets (UAA, UAG, or UGA) that encode no amino acid and instead trigger the release of the finished polypeptide.

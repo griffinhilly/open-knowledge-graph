@@ -13,7 +13,7 @@ tags:
 - cfg
 - parse-trees
 - ambiguity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

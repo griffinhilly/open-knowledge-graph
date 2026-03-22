@@ -13,7 +13,7 @@ tags:
 - foundations
 - intro
 - unifying-principles
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -39,6 +39,45 @@ Plot recession velocity versus distance for a sample of galaxies and fit a line 
 - Hubble's law does not mean Earth is at the center of the universe — every observer in a uniformly expanding universe sees all other objects receding, with no special center.
 - Cosmological redshift is not a Doppler effect; photon wavelengths are stretched by the expansion of space during travel, not by the source's peculiar velocity.
 
+## Questions
+
+```yaml
+- question: "An astronomer in a galaxy 500 Mpc away measures the redshifts of neighboring galaxies and finds that they all appear to be receding from her. What does this tell us about the expansion of the universe?"
+  type: multiple-choice
+  options:
+    - "Her galaxy is also at the center of the universe, just like Earth"
+    - "Every observer in a uniformly expanding universe sees all other galaxies receding, so no location is special"
+    - "The expansion must have originated near her galaxy, since she also observes recession"
+    - "Her measurements are in error — only observers on Earth should see recession"
+  answer: 1
+  explanation: "Hubble's law reflects uniform expansion of space itself — like raisins in rising bread, every raisin moves away from every other. There is no special center. An observer anywhere would find the same proportionality v = H₀d, which is precisely why the expanding universe has no center."
+
+- question: "A galaxy at redshift z = 2 has its light shifted to three times its emitted wavelength. The most accurate interpretation is that this galaxy is:"
+  type: multiple-choice
+  options:
+    - "Moving away from Earth at twice the speed of light through static space"
+    - "Located so far away that its Doppler shift has accumulated over time"
+    - "Observed from an epoch when the universe was one-third its current scale, with wavelengths stretched by space expanding during transit"
+    - "Emitting abnormally red light due to its stellar population"
+  answer: 2
+  explanation: "Cosmological redshift is not a Doppler effect from motion through space. A redshift of z = 2 means the universe has expanded by a factor of 3 since the photon was emitted — the photon's wavelength stretched along with space during its journey. The galaxy is not 'moving' at superluminal speeds; space between us and it expanded."
+
+- question: "The inverse of the Hubble constant, 1/H₀, gives a rough estimate of the age of the universe."
+  type: true-false
+  answer: true
+  explanation: "If galaxies have been receding at roughly their current rates, then 1/H₀ ≈ 14 billion years gives an order-of-magnitude age estimate. This is the Hubble time. The true age depends on how expansion has accelerated or decelerated over cosmic history, but 1/H₀ is a useful first approximation."
+
+- question: "The cosmological redshift of distant galaxies is fundamentally the same phenomenon as the Doppler redshift of a receding ambulance siren."
+  type: true-false
+  answer: false
+  explanation: "The Doppler effect arises from relative motion through static space. Cosmological redshift arises because space itself expands during the photon's travel, stretching the wavelength. For nearby galaxies the numerical difference is negligible, but for distant objects at high redshift the distinction is physically essential — a galaxy at z = 1 is not moving at the speed of light; space has doubled in scale since the photon was emitted."
+
+- question: "Why does Hubble's law (v = H₀d) not imply that Earth is at the center of the universe?"
+  type: short-answer
+  answer: "Because in a uniformly expanding universe every observer sees all other objects receding with velocity proportional to distance. The raisin-bread analogy shows that every raisin measures the same v = H₀d relationship with all other raisins — the pattern is the same from any vantage point, so no location is privileged as the center."
+  explanation: "The key insight is that uniform expansion produces the Hubble relation from any location, not just from a special center. If space is stretching uniformly, more space between two objects means faster separation — and this holds everywhere simultaneously."
+```
+
 ## Explainer
 
 From your understanding of the Doppler effect, you know that the wavelength of light shifts when the source and observer are in relative motion — blueshift for approach, redshift for recession. In the 1920s, Edwin Hubble combined Vesto Slipher's measurements of galaxy redshifts with his own distance estimates (using Cepheid variable stars in nearby galaxies) and discovered a striking pattern: the farther a galaxy is, the faster it appears to be receding. This proportionality, **v = H₀d**, is Hubble's law. The constant of proportionality, **H₀** (the Hubble constant), has units of km/s per megaparsec and is currently measured at roughly 70 km/s/Mpc — meaning a galaxy 100 Mpc away recedes at about 7,000 km/s.

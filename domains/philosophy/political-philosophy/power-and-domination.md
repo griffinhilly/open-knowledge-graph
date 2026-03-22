@@ -31,6 +31,45 @@ Apply all three dimensions to a single case — e.g., workplace gender dynamics.
 - Lukes's third dimension does not claim that dominated groups are duped or stupid; it claims that socialization shapes everyone's perception of what is natural or possible.
 - Structural power is not a conspiracy theory — it operates through impersonal mechanisms (institutions, norms, markets) rather than deliberate coordination by elites.
 
+## Questions
+
+```yaml
+- question: "A city council consistently prevents rent control proposals from being placed on the agenda, ensuring the issue is never debated or voted on. Which dimension of power in Lukes's framework best describes this?"
+  type: multiple-choice
+  options:
+    - "First dimension — the council wins in open conflict by defeating rent control votes"
+    - "Second dimension — agenda control prevents certain interests from ever becoming issues"
+    - "Third dimension — residents have been socialized to believe high rents are natural and fair"
+    - "This is not an exercise of power because no overt coercion or conflict occurs"
+  answer: 1
+  explanation: "Bachrach and Baratz's second dimension captures precisely this case: power operates not just by winning conflicts but by preventing them from arising. The council doesn't need to defeat rent control proposals because they ensure the issue never reaches the table. Option D represents the pluralist error of identifying power only with visible conflict — Lukes's framework shows that the absence of conflict can itself be evidence of power."
+
+- question: "Workers in a low-wage industry express satisfaction with their wages and never organize. A pluralist would say power is not being exercised over them. What would Lukes's third-dimension analysis add?"
+  type: multiple-choice
+  options:
+    - "The pluralist is correct — expressed preferences are always the most reliable evidence of where interests lie"
+    - "The absence of conflict proves that workers' interests are genuinely aligned with those of employers"
+    - "Expressed satisfaction may itself reflect power — socialization and ideology can shape preferences so that domination is not recognized as such"
+    - "Only overt coercion qualifies as power; preference formation is a psychological, not political, phenomenon"
+  answer: 2
+  explanation: "Lukes's third dimension argues that the most profound power shapes what people want, not just what they get. If workers internalize the belief that their wages are fair or that organizing is futile, those beliefs may have been produced by the very power relations that disadvantage them — through workplace norms, media framing, or educational socialization. The pluralist mistake (options A and B) is to treat expressed preferences as unmediated evidence of genuine interests, without asking how those preferences were formed."
+
+- question: "The absence of political conflict in a community is strong evidence that power is not being exercised over its members."
+  type: true-false
+  answer: false
+  explanation: "This is precisely what Lukes's second and third dimensions refute. Second-dimension power operates by suppressing the mobilization of grievances — some interests never become issues because the powerful prevent it. Third-dimension power operates by shaping preferences so that dominated groups don't recognize domination. Both produce the appearance of harmony without genuine alignment of interests. Mistaking silence for consent is what the pluralist/Dahlian framework misses, and it is Lukes's central critique."
+
+- question: "Lukes's third dimension of power is more contested than the first two because attributing it requires claiming that people's expressed preferences do not always reflect their genuine interests."
+  type: true-false
+  answer: true
+  explanation: "The first two dimensions can be studied without invoking the gap between expressed and real interests — you just observe who wins conflicts or controls agendas. The third dimension requires the analyst to claim that what people say they want may be a product of domination rather than authentic desire. This is epistemologically challenging: how do we know what someone's 'real' interests are, and doesn't assuming we know better than they do risk paternalism? This difficulty is why the third dimension is theoretically rich but politically controversial."
+
+- question: "Explain why Lukes's third dimension of power is considered more 'radical' than the second dimension, and what additional epistemological challenge it introduces."
+  type: short-answer
+  answer: "The second dimension shows power shaping what gets discussed (agenda control), but still assumes we can identify dominated groups' interests from the grievances they do express. The third dimension argues power shapes the preferences and self-understanding of dominated groups themselves, so they may not experience or express domination at all. The epistemological challenge is determining what people's 'real' interests are when their expressed preferences may already be a product of power — requiring a criterion of authentic interests that goes beyond expressed wants."
+  explanation: "The second dimension is radical relative to Dahl's pluralism (which requires visible conflict), but it still takes suppressed grievances as evidence of underlying interests. The third dimension is more radical because it removes even that anchor: if power operates through hegemony and socialization, dominated groups may not have suppressed grievances — they may genuinely prefer their situation because they have been shaped to. The analyst must then explain the difference between preferences that reflect genuine self-determination and those that are products of domination — a difficult move that critics worry slides into dismissing marginalized people's own voices."
+```
+
 ## Explainer
 
 Your study of political authority and legitimacy established the basic question: when is power justified? Authority is power recognized as legitimate — accepted by those subject to it because they regard it as rightfully exercised. But this picture, as Lukes points out, is incomplete. It assumes we can read off from behavior and expressed preferences whether power is being exercised over people. Lukes argues that the most profound and pervasive forms of power are precisely those that are not visible as power — including to those who suffer it.

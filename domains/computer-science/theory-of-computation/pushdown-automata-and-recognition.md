@@ -13,7 +13,7 @@ tags:
 - pushdown-automata
 - pda
 - recognition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

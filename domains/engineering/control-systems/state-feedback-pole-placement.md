@@ -37,6 +37,45 @@ Implement pole placement using scipy.signal.place_poles() for several plants and
 - State feedback places closed-loop poles (eigenvalues of A−BK) but cannot move the zeros of the closed-loop transfer function, which still influence the step response shape.
 - Ackermann's formula is educationally instructive but numerically poorly conditioned for high-order systems — dedicated numerical algorithms (place(), acker()) should be used in practice.
 
+## Questions
+
+```yaml
+- question: "A control engineer designs a state feedback gain K that places all closed-loop poles at locations far into the left half-plane, achieving very fast settling. During physical implementation, what is the most likely practical problem?"
+  type: multiple-choice
+  options:
+    - "The system will become unstable because eigenvalues with large negative real parts cause exponential growth"
+    - "The controller will require very large actuator commands, amplify sensor noise, and be highly sensitive to model parameter errors"
+    - "The closed-loop zeros will shift to the right half-plane, introducing instability through the zero dynamics"
+    - "Ackermann's formula will become singular and fail to produce a valid gain vector for poles that far left"
+  answer: 1
+  explanation: "The fundamental pole-placement tradeoff: poles further left in the s-plane mean faster response, but require larger gains K. Larger K amplifies u = −Kx, demanding more actuator authority, amplifying any sensor noise present in x, and making the closed-loop behavior highly sensitive to errors in the model of A and B. Option C is the key misconception: state feedback places poles (eigenvalues of A−BK) but cannot affect the zeros of the closed-loop transfer function — they remain where they were in the open-loop plant."
+
+- question: "A state feedback gain K is designed for a fully controllable plant, placing all closed-loop poles at well-damped locations in the left half-plane. Despite this, the closed-loop step response shows a significant undershoot before rising to the setpoint. The most likely explanation is:"
+  type: multiple-choice
+  options:
+    - "The pole placement calculation was performed incorrectly, leaving one pole in the right half-plane"
+    - "The system has a right-half-plane zero that state feedback cannot relocate, which causes undershoot independently of the pole locations"
+    - "The desired poles were not placed far enough into the left half-plane to overcome the initial transient"
+    - "The Ackermann formula is only approximate, leaving residual eigenvalues near the imaginary axis"
+  answer: 1
+  explanation: "State feedback modifies the characteristic polynomial (denominator of the transfer function) but not the zeros (numerator roots). A right-half-plane zero causes non-minimum-phase behavior — the step response initially moves in the wrong direction (undershoot) regardless of how well the poles are placed. This is why knowing the zeros of your plant is essential before designing any controller: pole placement solves the pole problem completely but is powerless against zeros."
+
+- question: "If a linear system is not fully controllable, no choice of gain matrix K can place all of the closed-loop eigenvalues at arbitrary desired locations."
+  type: true-false
+  answer: true
+  explanation: "Controllability is exactly the condition that guarantees arbitrary pole placement. Uncontrollable modes correspond to directions in state space that the input u cannot reach — the control law u = −Kx cannot influence those eigenvalues regardless of K. In terms of the Ackermann formula, the controllability matrix C_c is singular for an uncontrollable system, making K undefined. The physical interpretation is that some part of the system dynamics is decoupled from the input and therefore cannot be modified by state feedback."
+
+- question: "State feedback pole placement can be applied directly even when the system states are not directly measured, as long as the number of measured outputs equals the number of states."
+  type: true-false
+  answer: false
+  explanation: "Full state feedback requires that all states x(t) be available for measurement — the control law is u = −Kx, which requires knowing x. When only outputs y = Cx are available (a subset or transformation of the states), you cannot compute −Kx directly, regardless of how many outputs there are. The solution is to pair the state feedback law with a Luenberger observer (state estimator) that reconstructs x from y. The separation principle guarantees that the controller and observer can be designed independently and combined correctly — but the observer is always necessary when states are unmeasured."
+
+- question: "Why can state feedback arbitrarily place closed-loop poles but not closed-loop zeros, and what practical consequence does this have for step response design?"
+  type: short-answer
+  answer: "State feedback changes the closed-loop system matrix from A to (A−BK), which changes the characteristic polynomial and thus the poles (eigenvalues). The zeros of the closed-loop transfer function depend on the plant's B, C, and D matrices — specifically, on the numerator polynomial — which state feedback does not modify. Since K only appears in the denominator (through the characteristic polynomial of A−BK), the numerator (and thus the zeros) is invariant to K. Practically, this means right-half-plane zeros (causing undershoot) and imaginary-axis zeros (causing sustained oscillation in the numerator) persist after even perfect pole placement, limiting achievable step response shapes without additional design techniques."
+  explanation: "This zero-invariance insight leads directly to more advanced techniques: zero-placement requires a different structure (e.g., output feedback with additional degrees of freedom, or two-degree-of-freedom controllers). It also motivates checking plant zeros as a first step in any pole-placement design — if the zeros are problematic, pole placement alone cannot fix the step response."
+```
+
 ## Explainer
 
 From your study of eigenvalues, you know that the eigenvalues of the system matrix A determine how a linear system evolves over time: negative real parts mean the system decays, positive real parts mean it grows, and the imaginary parts set the oscillation frequency. The fundamental insight of state feedback is that if you feed the current state back through a gain matrix K and apply u = −Kx as your input, the closed-loop system matrix becomes (A − BK), not A. You have effectively *replaced* the open-loop eigenvalues with whatever eigenvalues (A − BK) has — and K is a free design parameter you choose.

@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Muscle force generation is inversely related to contraction velocity, producing a hyperbolic force-velocity curve: maximum isometric force occurs at zero velocity, and force decreases as velocity increases. This relationship reflects myosin-actin kinetic cycling—at higher velocities, myosin heads have less time attached to actin and generate less force. Power output (force × velocity) follows a parabolic curve, maximizing at intermediate velocities (~30% maximal velocity), explaining why movements requiring high power are performed at moderate speeds rather than maximum speed or maximum force.
 
+## Questions
+
+```yaml
+- question: "An athlete wants to maximize leg muscle power output for a vertical jump. According to the force-velocity relationship, the optimal contraction condition is:"
+  type: multiple-choice
+  options:
+    - "Maximum shortening velocity with no external load, since power increases with velocity"
+    - "Isometric contraction to generate maximum force before explosive release"
+    - "Contraction at approximately 30% of maximum shortening velocity against a moderate load"
+    - "The slowest possible contraction against maximum resistance, to maximize force"
+  answer: 2
+  explanation: "Power = force × velocity. At zero velocity (isometric, option B), force is maximal but power = P₀ × 0 = 0. At maximum velocity (option A), force approaches zero so power again approaches zero. Power peaks at approximately 30% of V_max, where the product of still-substantial force and moderate velocity is greatest. This is why athletic power movements — jumping, throwing, sprinting — are performed at intermediate speeds, not at the extremes of force or velocity."
+
+- question: "As muscle shortening velocity increases, force output decreases because:"
+  type: multiple-choice
+  options:
+    - "Actin filaments become overstretched and lose overlap with myosin at high velocities"
+    - "ATP supply is depleted faster than it can be regenerated during rapid contractions"
+    - "Myosin heads spend less time in the attached, force-generating state as filaments slide past them more quickly"
+    - "Motor neuron firing rates cannot increase above a fixed maximum threshold"
+  answer: 2
+  explanation: "The force-velocity relationship is mechanistic: it emerges directly from cross-bridge kinetics. Each myosin head generates force while attached to actin. At higher shortening velocities, the actin filament moves past each myosin head faster, shortening the time each head spends in the attached state. With fewer cross-bridges attached at any instant, the total force the muscle can sustain drops. At maximum unloaded velocity (V_max), filaments slide so fast that heads barely attach before being carried past their binding sites — force approaches zero. This is not primarily an ATP-supply problem or a neural limit."
+
+- question: "At maximum isometric force (P₀), the mechanical power output of the muscle is zero."
+  type: true-false
+  answer: true
+  explanation: "Power = force × velocity. Isometric contraction means zero shortening velocity by definition. Even though force is at its maximum (P₀), the product P₀ × 0 = 0. No mechanical work is being performed because no displacement is occurring — energy is being consumed (as heat and maintaining cross-bridge tension) but not converted into mechanical work on an external load."
+
+- question: "A muscle generates its maximum mechanical power output when contracting at its maximum shortening velocity (V_max)."
+  type: true-false
+  answer: false
+  explanation: "At V_max, myosin heads barely have time to attach before the filament carries them past their binding sites, so force approaches zero. Power = force × velocity, and near-zero force means near-zero power regardless of velocity. Maximum power occurs at approximately 30% of V_max, where the trade-off between force and velocity is optimally balanced. Both extremes of the force-velocity curve — zero velocity and maximum velocity — yield zero power output."
+
+- question: "Explain why a shot-putter uses a competitively regulated shot weight rather than the lightest or heaviest possible implement, using the force-velocity relationship."
+  type: short-answer
+  answer: "The force-velocity relationship means power peaks at about 30% of maximum shortening velocity, not at maximum force or maximum speed. With an extremely light implement, the arm can move at near-maximum velocity, but force output at that speed is very low — resulting in low power. With an extremely heavy implement, force is maximal but velocity is near zero — again, low power. The regulated shot weight places the throwing motion near the optimal force-velocity operating point, where the product of force and velocity is greatest, maximizing the power delivered to the implement and therefore its release velocity."
+  explanation: "This reasoning applies broadly to athletic equipment design: the weight of a hammer, the resistance of a bicycle gear, the mass of a baseball bat — all involve implicit optimization of the force-velocity power curve. The 'right' load is the one that positions the movement at the power peak (~30% V_max), not the one that maximizes force or maximizes speed in isolation."
+```
+
 ## Explainer
 
 From your study of skeletal muscle contraction, you understand the sliding filament mechanism: myosin heads bind to actin, undergo a power stroke that pulls the thin filament, detach, and reattach further along. Each cross-bridge cycle generates a small increment of force and a small increment of shortening. The **force-velocity relationship** emerges directly from the kinetics of this cycle and answers a practical question: why can you lift a light weight quickly but a heavy weight only slowly?

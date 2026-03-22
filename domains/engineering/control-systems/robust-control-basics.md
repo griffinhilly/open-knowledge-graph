@@ -33,6 +33,45 @@ Start by computing gain and phase margins for a feedback system and then introdu
 - H∞ control does not produce a uniquely optimal controller — it finds a controller that satisfies a worst-case performance bound, and the result depends heavily on the choice of weighting functions, which encode the designer's knowledge about uncertainty and performance requirements.
 - Robust control is not only for aerospace or advanced applications — any controller designed without considering model uncertainty is implicitly assuming zero uncertainty, and the robustness concepts (sensitivity shaping, uncertainty weighting) improve classical designs even when formal H∞ synthesis is not used.
 
+## Questions
+
+```yaml
+- question: "A feedback control system has a gain margin of 15 dB and a phase margin of 65°, both considered excellent by classical standards. An engineer claims this system is robustly stable against all reasonable plant perturbations. What is the flaw in this reasoning?"
+  type: multiple-choice
+  options:
+    - "Gain and phase margins above 10 dB and 45° guarantee robust stability by the Nyquist criterion"
+    - "Classical gain and phase margins only test robustness in specific perturbation directions; simultaneous gain and phase shifts can destabilize a system with otherwise excellent margins"
+    - "Robust stability requires gain margin above 20 dB, so 15 dB is insufficient"
+    - "Phase margin is irrelevant for systems with multiplicative uncertainty"
+  answer: 1
+  explanation: "Gain margin measures how much loop gain can increase before instability; phase margin measures how much phase can lag. Each tests a single perturbation direction. A system can have large margins in both individual directions yet be fragile to simultaneous gain-and-phase perturbations — a gap that disk margins or structured singular value (μ) analysis are designed to fill. Classical scalar margins are not a complete robustness certificate."
+
+- question: "The robust stability condition for multiplicative uncertainty states |T(jω)W(jω)| < 1 for all ω, where W(jω) is large at high frequencies. What does this imply for controller design at high frequencies?"
+  type: multiple-choice
+  options:
+    - "The loop gain L(jω) must be increased at high frequencies to dominate the uncertainty"
+    - "The sensitivity function S(jω) must be made small at high frequencies to reject disturbances"
+    - "The complementary sensitivity T(jω) must be made small at high frequencies where model uncertainty is large"
+    - "Controller bandwidth must be extended into the high-frequency uncertainty region"
+  answer: 2
+  explanation: "Where W(jω) is large (model uncertainty is large), the condition |T(jω)W(jω)| < 1 requires |T(jω)| < 1/|W(jω)|, which is small. Since T = 1 − S and S + T = 1, making T small at high frequencies means S is close to 1 there — less disturbance rejection, but necessary to ensure the nominal controller doesn't destabilize under the uncertain true plant. This is the quantitative form of the robustness-performance tradeoff."
+
+- question: "In the H∞ framework, the designer's primary tool for encoding knowledge about uncertainty magnitude and performance requirements is the choice of weighting functions on the sensitivity and complementary sensitivity functions."
+  type: true-false
+  answer: true
+  explanation: "H∞ synthesis minimizes the peak gain from exogenous inputs to performance outputs, but how that objective is specified — which signals matter, at which frequencies, and how much — is entirely encoded in the weighting functions. W_S shapes disturbance rejection requirements, W_T encodes the uncertainty profile, W_U limits control effort. The resulting controller is only as good as the designer's weighting choices, which is why 'choosing weights is the designer's art.'"
+
+- question: "An H∞ controller that achieves the minimum possible ||T_zw||∞ for a given plant and problem formulation is the unique optimal solution to the robust control problem."
+  type: true-false
+  answer: false
+  explanation: "H∞ synthesis generally produces a set of controllers that achieve the optimal bound, not a unique solution — and the bound itself depends on the weighting functions chosen. Different valid weighting functions yield different H∞ controllers, all 'optimal' within their respective formulations. The synthesis is not a single objective fact about the plant; it reflects both the plant dynamics and the designer's encoded knowledge about uncertainty and performance priorities."
+
+- question: "Why do classical gain and phase margins fail to capture all robustness concerns, and what does the robust stability condition |T(jω)W(jω)| < 1 add?"
+  type: short-answer
+  answer: "Gain margin asks how much loop gain can grow before instability; phase margin asks how much phase can lag — each probes only one perturbation direction. A system can pass both tests yet be fragile to perturbations that combine gain and phase changes simultaneously. The robust stability condition generalizes this by asking: for all possible plants within the uncertainty set (defined by the weighting function W), does any perturbation cause instability? If |T||W| < 1 at every frequency, no perturbation of magnitude bounded by |W| can push the Nyquist plot to encircle −1. This is a global certificate over all perturbation directions, not just two."
+  explanation: "The small gain theorem is the key: two stable systems in feedback are jointly stable if the product of their frequency-domain gains is less than one everywhere. Applying this to the uncertain plant loop gives the condition directly. Classical margins are special cases — they check two scalar directions — while the full condition checks the entire uncertainty ball at each frequency."
+```
+
 ## Explainer
 
 From your study of sensitivity and disturbance rejection, you know that the **sensitivity function** S(s) = 1/[1 + L(s)] and the **complementary sensitivity function** T(s) = L(s)/[1 + L(s)] characterize how a closed-loop system responds to disturbances and reference inputs respectively (S + T = 1). From the Nyquist stability criterion, you know that closed-loop stability depends on how the loop transfer function L(jω) encircles the critical point −1 in the complex plane. Robust control begins by asking: if the true plant differs from your model, how does the Nyquist plot shift, and can it encircle −1 when the nominal plot did not?

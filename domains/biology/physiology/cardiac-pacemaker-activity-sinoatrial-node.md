@@ -31,6 +31,45 @@ Study isolated SA node preparations to observe spontaneous depolarization and ac
 ## Common Misconceptions
 The SA node is not the only cardiac pacemaker; other regions (AV node, Purkinje fibers) also generate action potentials and can pace the heart if the SA node fails, though at slower intrinsic rates.
 
+## Questions
+
+```yaml
+- question: "A patient's SA node is completely blocked. Which structure takes over as pacemaker, and at approximately what rate?"
+  type: multiple-choice
+  options:
+    - "Atrial muscle cells, at 80–100 bpm"
+    - "The AV node, at 40–60 bpm"
+    - "The Purkinje fibers, at 60–80 bpm"
+    - "The ventricles cease to contract without SA node input"
+  answer: 1
+  explanation: "The AV node has an intrinsic automaticity rate of 40–60 bpm and becomes the primary pacemaker when the SA node fails — this is an 'escape rhythm.' Purkinje fibers fire even more slowly (20–40 bpm) and take over only if the AV node also fails. The heart does not stop; the hierarchy of automaticity ensures that the fastest remaining pacemaker always captures the heart."
+
+- question: "The SA node's funny current (If) is unusual among voltage-gated currents because it:"
+  type: multiple-choice
+  options:
+    - "Activates upon membrane depolarization, like most voltage-gated channels"
+    - "Carries pure potassium outward, repolarizing the cell toward rest"
+    - "Activates upon hyperpolarization and carries a mixed inward Na+/K+ current"
+    - "Only opens when acetylcholine occupies its binding site"
+  answer: 2
+  explanation: "The 'funny' in funny current refers precisely to its counter-intuitive gating: If channels (encoded by HCN genes) open when the membrane hyperpolarizes below about −60 mV, opposite to most voltage-gated channels. They conduct net inward (depolarizing) Na+ and K+ current, initiating the slow diastolic drift toward threshold that drives spontaneous firing."
+
+- question: "Sympathetic stimulation increases heart rate partly by steepening the slope of Phase 4 depolarization in SA node cells."
+  type: true-false
+  answer: true
+  explanation: "Norepinephrine activates beta-1 adrenergic receptors, raising cAMP, which phosphorylates HCN (If) channels and L-type Ca2+ channels. This increases inward current during Phase 4, making the membrane potential rise faster — a steeper depolarization slope — so threshold is reached sooner. The three adjustable parameters of pacing rate are Phase 4 slope, maximum diastolic potential, and threshold voltage; sympathetic tone primarily accelerates Phase 4."
+
+- question: "The SA node action potential upstroke is driven by fast voltage-gated sodium channels, the same mechanism as in ventricular myocytes."
+  type: true-false
+  answer: false
+  explanation: "SA node cells have very few fast Na+ channels. Their action potential upstroke (Phase 0) is driven by L-type Ca2+ channels, which is why SA node action potentials rise slowly with a rounded shape rather than the sharp spike seen in ventricular myocytes. This Ca2+-dependent upstroke is also why SA node cells are sensitive to calcium channel blockers (e.g., verapamil) as rate-controlling agents."
+
+- question: "Why does the SA node fire spontaneously without any external stimulus, whereas ventricular myocytes or typical neurons do not?"
+  type: short-answer
+  answer: "SA node cells lack the large inward-rectifier K+ current (IK1) that anchors other excitable cells at a stable negative resting potential. Instead, after each action potential, funny channels (If) open as the membrane hyperpolarizes and pass a slow inward depolarizing current. Without a stable anchor, the membrane drifts continuously toward threshold, generating the pacemaker potential spontaneously — no external stimulus required."
+  explanation: "The distinction is ion channel composition, not some special energy source. Neurons and ventricular myocytes have abundant IK1 that clamps the resting potential at a stable negative voltage. SA node cells have minimal IK1 but abundant If. This makes the SA node intrinsically unstable at rest — a feature, not a bug — producing the automaticity that drives every heartbeat."
+```
+
 ## Explainer
 
 From your study of action potentials, you know that most excitable cells maintain a stable resting membrane potential — they sit quietly at around −70 to −90 mV until an external stimulus pushes them to threshold. The **sinoatrial (SA) node** breaks this rule. Its cells never truly rest. Instead, after each action potential repolarizes, the membrane potential immediately begins drifting upward again in a phase called **pacemaker potential** (or Phase 4 depolarization). This spontaneous drift is what makes the heart beat without any external command — no neural input, no hormonal signal, just an intrinsic property of the ion channels in SA nodal cells.

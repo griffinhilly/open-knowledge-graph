@@ -32,6 +32,45 @@ Model a simple box with hot/cold and fresh/salty reservoirs, allowing water to e
 ## Common Misconceptions
 The THC is not driven by heating alone; salinity (via evaporation, precipitation, and ice melt) is equally important. Also, the THC is not perpetually stable; it can exhibit hysteresis and bifurcations under perturbations.
 
+## Questions
+
+```yaml
+- question: "A researcher observes that the thermohaline circulation weakens as Arctic temperatures rise. A student concludes that temperature alone drives the THC, and therefore colder winters must always strengthen it. What flaw is in this reasoning?"
+  type: multiple-choice
+  options:
+    - "Temperature has no effect on the THC; only salinity drives density differences."
+    - "Freshwater input from melting ice reduces salinity and density, potentially overpowering the temperature-driven sinking even when winters remain cold."
+    - "The THC is driven by wind stress at the surface, not by density differences."
+    - "Colder winters always strengthen the THC, so the student's reasoning is correct."
+  answer: 1
+  explanation: "The THC is driven by density, which depends on both temperature AND salinity. While cooling increases density and promotes sinking, increased freshwater from ice melt reduces salinity, lowering density and inhibiting sinking. In a warming Arctic scenario, the freshwater effect can overpower the temperature effect. The student's error is assuming temperature is the sole driver."
+
+- question: "After a large pulse of glacial meltwater freshens the North Atlantic surface and weakens deep water formation, the meltwater source stops. What does the physics of THC bistability predict?"
+  type: multiple-choice
+  options:
+    - "The THC will immediately restart because the freshwater perturbation has been removed."
+    - "The THC may remain weakened or collapsed because altered heat transport changes precipitation and ice patterns, sustaining the disruption even without the original forcing."
+    - "The THC will overshoot its original strength as accumulated cold deep water surges upward."
+    - "The THC will oscillate regularly around its equilibrium with a period determined by basin size."
+  answer: 1
+  explanation: "The THC can exist in multiple stable states and exhibits hysteresis. When deep water formation stops, northward heat transport ceases, which alters atmospheric circulation, precipitation, and ice formation in ways that can sustain the collapsed state. Restarting the circulation requires re-establishing favorable density conditions, which demands more than simply removing the original freshwater forcing. The shutdown threshold and restart threshold are not symmetric."
+
+- question: "The thermohaline circulation transports on the order of a petawatt of heat northward through the Atlantic Ocean, making Northern Europe significantly warmer than equivalent latitudes in North America."
+  type: true-false
+  answer: true
+  explanation: "The Atlantic Meridional Overturning Circulation transports approximately 1.3 petawatts of heat poleward — comparable to a million large power plants. This heat is released to the atmosphere, which is a primary reason why cities such as London and Dublin experience far milder winters than cities at the same latitude on the eastern coast of Canada."
+
+- question: "Deep water formation — the sinking branch of thermohaline circulation — occurs primarily in tropical ocean regions, where intense solar heating drives high evaporation, raising salinity to levels that make surface water dense enough to sink."
+  type: true-false
+  answer: false
+  explanation: "Although tropical evaporation does increase salinity, the warming effect of intense solar radiation reduces density far more than the salinity increase raises it — tropical surface water remains light and does not sink. Deep water formation actually occurs in polar and subpolar regions (the North Atlantic and Southern Ocean), where intense atmospheric cooling raises density to the point where surface water becomes denser than the water beneath it and sinks to depths of 2,000–4,000 meters."
+
+- question: "Why is the thermohaline circulation described as exhibiting 'hysteresis,' and why does this property matter for assessing the risk of abrupt climate change?"
+  type: short-answer
+  answer: "Hysteresis means the THC can exist in more than one stable state, and the amount of forcing needed to push it from one state to another is asymmetric: the threshold for shutdown is different from the threshold for restart. A freshwater pulse large enough to shut down deep water formation can leave the system in a collapsed state even after the forcing is removed, because the absence of northward heat transport alters precipitation and ice patterns in ways that sustain the collapsed circulation. This matters for climate risk because it implies that the THC could cross a tipping point beyond which recovery is not guaranteed simply by reversing the original perturbation."
+  explanation: "The key concept is bistability and asymmetry. Students often assume that removing the cause of a disruption will restore the original state — hysteresis shows this is false. A bistable system like the THC can be locked into a new equilibrium even after the perturbation ends."
+```
+
 ## Explainer
 
 You already know from your study of thermohaline circulation and ocean stratification that the ocean is layered by density, with lighter water sitting atop denser water. The physics of the thermohaline circulation builds on a simple principle: **density-driven flow**. When surface water becomes denser than the water beneath it — through cooling, evaporation that increases salinity, or both — it sinks. This sinking creates a void at the surface that draws in surrounding water, setting up a circulation cell. The term "thermohaline" captures exactly the two controls: **thermo** (temperature) and **haline** (salinity). Both determine seawater density, and their relative importance varies by location.

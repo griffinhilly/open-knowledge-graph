@@ -36,6 +36,45 @@ Center the voices of Frederick Douglass, Harriet Jacobs, and other formerly ensl
 - Emancipation was often followed by systems of coerced labor (sharecropping, debt peonage, indenture) that reproduced many features of slavery.
 - Britain's 1833 emancipation paid compensation to slaveholders, not to formerly enslaved people.
 
+## Questions
+
+```yaml
+- question: "A history textbook states: 'British and American abolitionists, driven by Enlightenment ideals and Christian morality, convinced their governments to end slavery.' What important dimension does this account omit?"
+  type: multiple-choice
+  options:
+    - "It ignores the economic arguments that slavery was becoming unprofitable."
+    - "It omits enslaved and formerly enslaved people as central actors — their rebellions, published narratives, and organizing were themselves major abolitionist forces."
+    - "It overstates the role of religion; secular philosophers were the primary drivers of abolition."
+    - "It ignores that most abolitionists also supported colonization as an alternative to emancipation."
+  answer: 1
+  explanation: "Early histories of abolition often framed it as a gift from enlightened white reformers to passive enslaved people. In reality, enslaved and formerly enslaved people — through resistance, rebellion (most dramatically the Haitian Revolution), and published testimony like Equiano's and Douglass's Narratives — were central actors who shaped the movement. The Haitian Revolution demonstrated that enslaved people would not wait for moral persuasion to work."
+
+- question: "Britain's Slavery Abolition Act of 1833 provided financial compensation to:"
+  type: multiple-choice
+  options:
+    - "Formerly enslaved people, for their years of unpaid labor."
+    - "Slaveholders, for the loss of their 'property.'"
+    - "Both slaveholders and formerly enslaved people in equal measure."
+    - "The British Crown, to fund naval enforcement of the ban."
+  answer: 1
+  explanation: "The 1833 Act compensated slaveholders — not formerly enslaved people — for 'lost property.' This starkly illustrates how emancipation was framed: as a property transaction that protected owners' interests. Formerly enslaved people received nothing for stolen labor and lives. The compensation debt was not fully repaid by the British government until 2015."
+
+- question: "The abolitionist movement included enslaved and formerly enslaved people as central participants whose testimony, organizing, and resistance were essential to its success."
+  type: true-false
+  answer: true
+  explanation: "Olaudah Equiano's Narrative (1789), Frederick Douglass's Narrative (1845), and Harriet Jacobs's Incidents in the Life of a Slave Girl made the abstract wrong of slavery concrete and personal to readers. The Haitian Revolution demonstrated through force what moral argument asserted. Enslaved people's resistance — everyday acts, rebellions, and self-emancipation — was itself abolitionist action. Treating them as passive subjects misreads the historical record."
+
+- question: "The abolition of legal slavery in the United States after 1865 effectively ended the economic exploitation of Black Americans in the South."
+  type: true-false
+  answer: false
+  explanation: "American emancipation in 1865 was followed by the Black Codes, sharecropping, debt peonage, and the systematic reversal of Reconstruction-era gains. These systems reproduced many features of slavery — coerced labor, debt bondage, legal inequality — within a formally free legal status. Abolition dismantled one legal form of exploitation while new forms rapidly replaced it. This is why 20th-century civil rights movements were necessary: emancipation opened a struggle it did not resolve."
+
+- question: "Why is the distinction between 'ending legal chattel slavery' and 'ending racial hierarchy' important for understanding what abolition actually achieved?"
+  type: short-answer
+  answer: "Abolition was a genuine moral achievement — it dismantled the legal architecture that defined human beings as property. But it was not the end of racial inequality or economic exploitation. Formerly enslaved people emerged into freedom without land, capital, or enforced legal protections, and new systems (sharecropping, Black Codes, Jim Crow) quickly reproduced economic subordination within a formally free legal framework. Understanding this gap explains why later civil rights movements were continuing a struggle that emancipation had opened without resolving."
+  explanation: "This distinction is the topic's closing insight: formal legal change and substantive social change are not the same thing. Abolition matters enormously as a moral and legal milestone, but locating it in a longer arc — from slave trade to emancipation to Jim Crow to civil rights — prevents the error of treating emancipation as an endpoint rather than a beginning."
+```
+
 ## Explainer
 
 The abolitionist movement was not inevitable. From your study of the Atlantic slave trade, you know that slavery was economically profitable, legally entrenched, and socially normalized across much of the Atlantic world for centuries. What changed in the late eighteenth century was a convergence of forces that made the moral case against slavery both intellectually powerful and politically actionable. The Enlightenment's natural-rights philosophy — which you've encountered — provided the conceptual vocabulary: if all people possess natural rights by virtue of their humanity, then slavery is a systematic violation of those rights. Figures like John Locke had articulated this framework, though with glaring inconsistency. It fell to later thinkers and, crucially, to enslaved and formerly enslaved people themselves to press the logic to its conclusion.

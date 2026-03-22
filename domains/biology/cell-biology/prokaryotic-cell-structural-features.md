@@ -13,7 +13,7 @@ tags:
 - cell-structure
 - bacteria
 - organization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

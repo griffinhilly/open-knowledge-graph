@@ -17,7 +17,7 @@ tags:
 - classification
 - NADW
 - AABW
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 # Water Mass Formation and Classification

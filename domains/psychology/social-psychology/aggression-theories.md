@@ -31,6 +31,45 @@ Compare the frustration-aggression hypothesis, the revised negative affect model
 - Catharsis — the idea that venting aggression reduces future aggression — is not empirically supported and may increase aggression.
 - Media violence research shows modest, consistent effects on aggressive cognition, but its relationship to serious violence is weak and contested.
 
+## Questions
+
+```yaml
+- question: "A student fails an important exam and goes home feeling intensely frustrated. According to Berkowitz's revised frustration-aggression model, which scenario would most increase the likelihood of aggressive behavior?"
+  type: multiple-choice
+  options:
+    - "The student exercises vigorously to 'burn off' the frustration before doing anything else"
+    - "The student vents by hitting a pillow, using catharsis to discharge the aggressive urge"
+    - "The student watches a violent movie while still in a state of negative affect from the failure"
+    - "The student feels frustrated but spends the evening in a calm environment with no aggression-related stimuli"
+  answer: 2
+  explanation: "Berkowitz's model holds that frustration produces negative affect, which primes aggression only when aggression-related cues are present. The violent movie provides such cues, activating aggressive cognitive schemas and lowering inhibition thresholds. Options A and D reduce cue exposure; option B reflects the catharsis myth, which research shows does not reduce and may increase subsequent aggression."
+
+- question: "In Bandura's Bobo doll studies, children who watched a model being punished for aggression did not spontaneously reproduce the aggressive behaviors. What happened when these children were offered rewards to demonstrate the behaviors?"
+  type: multiple-choice
+  options:
+    - "They could not reproduce the behaviors, confirming that punishment had erased the learned sequence"
+    - "They reproduced only the gross physical actions but not the specific verbal labels the model had used"
+    - "They readily reproduced the full aggressive repertoire, showing that acquisition had occurred but performance was inhibited"
+    - "Their performance was significantly weaker than children who had seen the model rewarded, indicating partial learning"
+  answer: 2
+  explanation: "This finding is the core demonstration that acquisition (learning a behavior through observation) is separable from performance (actually doing it). Children learned the specific aggressive behaviors — including novel verbal labels — through mere observation. Whether they performed them depended on incentive conditions, not on whether learning had occurred. This distinction undermines purely drive-based accounts: no frustration, no direct reinforcement, yet full acquisition."
+
+- question: "Social learning theory predicts that a child can acquire aggressive behaviors through observation alone, even in the complete absence of frustration during the learning period."
+  type: true-false
+  answer: true
+  explanation: "Bandura's Bobo doll studies showed children reproducing detailed aggressive behaviors after watching a model — without being frustrated, without being rewarded, and without prior direct experience of aggression. Acquisition requires only observational exposure and attentional/memory processes. This directly challenges both the original frustration-aggression hypothesis (which requires frustration) and drive theories (which require internal arousal)."
+
+- question: "The catharsis hypothesis predicts that encouraging an aggressive person to vent anger — for example by hitting a punching bag — should reliably reduce their subsequent aggression toward others."
+  type: true-false
+  answer: false
+  explanation: "Despite its intuitive appeal and long cultural history, catharsis as a mechanism for reducing aggression is not empirically supported. Research consistently shows that venting aggression either has no effect or actually increases subsequent aggressive behavior, likely because it rehearses and reinforces aggressive responses rather than discharging them. The catharsis model treats aggression like hydraulic pressure that can be safely released; the social learning account predicts the opposite: performing aggression strengthens the behavioral script."
+
+- question: "Why does Berkowitz's revision of the original frustration-aggression hypothesis matter for practical interventions, and what does it allow us to do that the original formulation did not?"
+  type: short-answer
+  answer: "The original hypothesis (Dollard et al.) said frustration always produces aggression — leaving no handle for intervention short of eliminating all frustration, which is impossible. Berkowitz's revision introduces aggression-related cues as a necessary second condition: frustration creates negative affect, but overt aggression follows only when cue-activation occurs. This opens an intervention lever — reducing exposure to aggression-related stimuli (weapons, aggressive media, hostile environments) should reduce aggression even when frustration is unavoidable. It also explains why the same frustrating situation leads to aggression in one context but not another, depending on environmental cues."
+  explanation: "The cue-activation component transforms frustration from a sufficient cause into a necessary-but-not-sufficient one. Practical applications include reducing ambient aggression cues in high-stress environments (prisons, schools), gun control arguments (the 'weapons effect'), and media policy debates. The revision also integrated naturally with Bandura's work: observed aggressive models are themselves aggression-related cues that can activate scripted aggressive responses in frustrated observers."
+```
+
 ## Explainer
 
 **Aggression** — behavior intended to harm a person who does not wish to be harmed — is one of the most studied topics in social psychology because it matters so much practically and because early theoretical accounts proved seductively simple and empirically wrong. The history of aggression theory is largely a story of oversimplified causal chains getting progressively refined, and understanding that history builds genuine explanatory depth.

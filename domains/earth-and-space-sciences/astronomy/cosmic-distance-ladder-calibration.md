@@ -28,6 +28,45 @@ status: draft
 ## Core Idea
 The cosmic distance ladder is a series of overlapping distance measurement methods, each calibrating the next: parallax for nearby stars → Cepheids and RR Lyrae variables in nearby galaxies → Type Ia supernovae in distant galaxies → the Hubble constant and cosmic expansion. Each rung is essential; errors in nearby distances propagate errors throughout cosmology.
 
+## Questions
+
+```yaml
+- question: "Suppose astronomers discover that Gaia's parallax measurements are systematically 3% too small for stars used to calibrate Cepheid variables. What is the most accurate description of the effect on the derived Hubble constant?"
+  type: multiple-choice
+  options:
+    - "The Hubble constant is unaffected because Type Ia supernovae are calibrated independently of parallax"
+    - "Only Cepheid distances would be biased; supernova distances are self-correcting"
+    - "The Hubble constant would carry a systematic bias because the error propagates up through every rung that was calibrated using those parallaxes"
+    - "The effect would be negligible because the Hubble constant is averaged over thousands of galaxies"
+  answer: 2
+  explanation: "The distance ladder is a chain of calibrations: parallax calibrates Cepheids, Cepheids calibrate Type Ia supernovae, supernovae determine H₀. A systematic error at the bottom rung (parallax) is inherited by every rung above it — Cepheid distances become biased, which biases supernova zero-points, which biases H₀. This is not diluted by having many galaxies; a systematic error shifts all measurements in the same direction. This propagation of uncertainty is precisely why the Gaia mission's precise parallaxes are so consequential for cosmology."
+
+- question: "Why are Type Ia supernovae used to measure distances to galaxies billions of light-years away rather than simply using Cepheid variables at those distances?"
+  type: multiple-choice
+  options:
+    - "Type Ia supernovae are more common than Cepheids and appear in every distant galaxy"
+    - "Type Ia supernovae are far more luminous and can be detected at cosmological distances where individual Cepheids are too faint to resolve"
+    - "Unlike Cepheids, Type Ia supernovae do not require any prior calibration against nearer distance methods"
+    - "Type Ia supernovae are more accurate because they do not depend on the inverse square law"
+  answer: 1
+  explanation: "Cepheid variables are individually resolvable stars; at distances of billions of light-years, they are far too faint to detect even with Hubble or JWST. Type Ia supernovae briefly outshine their entire host galaxy — making them visible across most of the observable universe. However, option C is wrong: supernovae are not self-calibrating. Their peak luminosities must be standardized using the luminosity-decline-rate relation, and that standardization must be pinned to an absolute scale using Cepheid distances in nearby galaxies. They extend the ladder's reach precisely because of their luminosity, not independence from lower rungs."
+
+- question: "Type Ia supernovae provide a completely independent distance measurement that does not rely on Cepheid variables or parallax for calibration."
+  type: true-false
+  answer: false
+  explanation: "False — this is the most important misconception about the distance ladder. Type Ia supernovae can be standardized relative to each other (comparing their peak brightnesses and decline rates), but they have no intrinsic absolute luminosity scale. To convert relative brightness ratios into actual distances, astronomers must calibrate the supernova luminosity scale using Cepheid distances in nearby host galaxies, and Cepheids in turn are calibrated by parallax. The ladder analogy is exact: you cannot skip rungs. Independence of rungs would require a completely different physical mechanism with an independently known absolute scale."
+
+- question: "A systematic error in parallax measurements used to calibrate nearby Cepheid variables will propagate upward and bias the derived value of the Hubble constant."
+  type: true-false
+  answer: true
+  explanation: "True. Each rung of the distance ladder is calibrated using the rung below. If parallax distances to nearby Cepheids are systematically off, then the Cepheid period-luminosity relation is calibrated to wrong absolute luminosities. Every galaxy with a measured Cepheid distance inherits this bias. Supernova peak luminosities calibrated against those Cepheid distances are then biased, and H₀ — derived from supernova distances and recession velocities — carries the accumulated error. This error propagation is a central concern in the ongoing 'Hubble tension' debate."
+
+- question: "Explain why the cosmic distance ladder requires multiple overlapping methods rather than a single universal standard candle, and identify its key structural vulnerability."
+  type: short-answer
+  answer: "No single method works at all distance scales: parallax angles become unmeasurably small beyond a few thousand light-years, Cepheids become too faint beyond ~100 million light-years, and only supernovae reach cosmological distances — but supernovae require Cepheid calibration. The ladder chains these methods together, each extending farther than the last. The key vulnerability is error propagation: a systematic bias in any lower rung is inherited by all higher rungs, making calibration of the nearest distances critically important for cosmological conclusions."
+  explanation: "The ladder structure is a necessity born from physics: there is no object bright enough to be detected at cosmological distances yet close enough to have its absolute luminosity independently verified. Each method overlaps the next in an intermediate distance range where both can be applied, allowing the farther-reaching method to be calibrated. The vulnerability — that errors compound — explains why the Gaia spacecraft's parallax precision matters for measuring the Hubble constant, and why the current ~5σ Hubble tension may reflect subtle calibration issues rather than new physics."
+```
+
 ## Explainer
 
 You already know that stellar parallax measures distances by observing how a star's apparent position shifts as Earth orbits the Sun. This works beautifully for nearby stars — out to a few thousand light-years with modern spacecraft like Gaia. But the universe is billions of light-years across, and parallax angles for distant objects become immeasurably small. The **cosmic distance ladder** solves this problem by chaining together multiple methods, each one reaching farther than the last, with each rung calibrated by the one below it.

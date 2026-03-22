@@ -32,6 +32,45 @@ Trace a single work's circulation globally: where has it been translated, which 
 ## Common Misconceptions
 That Damrosch is simply cataloging 'great books.' He's analyzing a historical process and arguing that 'world literature' is not a fixed category but an emergent phenomenon shaped by publication, translation, and institutional decisions.
 
+## Questions
+
+```yaml
+- question: "A professor assigns a canonical text in a world literature course and has students study only its original-language version and historical context at the time of composition. A student argues this approach misses what makes the text 'world literature.' According to Damrosch, who is correct?"
+  type: multiple-choice
+  options:
+    - "The professor, because authentic world literature study requires accessing the original language and context"
+    - "The student, because Damrosch defines world literature by how texts circulate and are received in new contexts—not by their original properties"
+    - "Neither, because Damrosch's definition concerns publication history, not pedagogy"
+    - "The professor, because Damrosch's framework centers authorial intention"
+  answer: 1
+  explanation: "Damrosch's central argument is that 'world literature' is a mode of reading and a process of circulation—not a fixed property of texts. A work becomes world literature through its reception history: how it has been translated, adapted, and reinterpreted across different contexts. A course that anchors texts entirely in their origin context is precisely what Damrosch argues against."
+
+- question: "The Epic of Gilgamesh was virtually unknown outside Mesopotamia until 19th-century excavations uncovered cuneiform tablets. By Damrosch's definition, before this rediscovery, the text was..."
+  type: multiple-choice
+  options:
+    - "Already world literature because of its enduring literary quality"
+    - "Not functioning as world literature—it had not entered international circulation and therefore had no reception history to speak of"
+    - "World literature only for scholars who knew of its existence through oral tradition"
+    - "Not world literature because it lacks universal themes recognizable across cultures"
+  answer: 1
+  explanation: "Damrosch's framework is empirical and historical: a text is world literature when it circulates and is received beyond its origin culture. Before the 19th-century rediscovery, Gilgamesh had no active reception history in Europe or elsewhere—it simply wasn't circulating. Its literary quality is beside the point; what matters is the material and historical conditions of its circulation."
+
+- question: "According to Damrosch, a work translated into many languages can legitimately acquire meanings that its original authors never intended, and these new meanings are a genuine part of what it means for that work to be 'world literature.'"
+  type: true-false
+  answer: true
+  explanation: "This is the core of Damrosch's 'elliptical' model: a work in world circulation exists at the intersection of its origin culture and its reception cultures. New readers bring different questions and frameworks, generating meanings the original authors could not have anticipated. Damrosch treats this transformation not as distortion but as constitutive of world literary reading."
+
+- question: "Damrosch argues that only texts that survive translation without significant transformation of meaning can be considered genuine world literature, since transformation compromises the original work's integrity."
+  type: true-false
+  answer: false
+  explanation: "The opposite is closer to Damrosch's position. He argues that transformation through translation and re-reception is not a failure but the very mechanism by which texts function as world literature. The Thousand and One Nights is his prime example: its trajectory through Galland's 18th-century French translation transformed it enormously—and that transformed version is itself a legitimate object of world literary study, not a corruption to be set aside."
+
+- question: "Why does Damrosch insist that world literature is a 'mode of reading' rather than a fixed list of great texts? What does this reframing reveal about where literary meaning comes from?"
+  type: short-answer
+  answer: "Damrosch reframes world literature as a mode of reading to shift attention from intrinsic textual properties to the historical and material conditions of circulation and reception. If world literature were a fixed canon, literary meaning would reside in the text itself. By treating it as a process, Damrosch argues that meaning is co-produced: it emerges at the intersection of the text's origin culture and its reception contexts. This makes visible the institutional forces—publishers, translators, prize committees, curricula—that determine which texts circulate globally and which remain local, and it invites readers to ask how a work has been transformed, not just what it 'really means.'"
+  explanation: "The practical consequence is significant: rather than simply reading a canonical text as though it speaks directly across time, a Damroschian reader investigates the work's reception history, the choices made by its translators, and the structural conditions that made it available. Literary meaning becomes something generated in the reading encounter rather than stored in the text waiting to be discovered."
+```
+
 ## Explainer
 
 When Goethe coined *Weltliteratur* in 1827, he was expressing a vision of international literary exchange — a hope that works would circulate beyond national borders and that writers would read and learn from each other across languages. David Damrosch inherits this concept but reframes it fundamentally: world literature is not a list of texts, nor a property that some texts intrinsically possess, but a **mode of reading** and a **process of circulation**. A work becomes world literature when it enters the international circuit and is read differently — transformed — in contexts other than its origin.

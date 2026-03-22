@@ -12,7 +12,7 @@ tags:
 - scientific-method
 - empiricism
 - foundations
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

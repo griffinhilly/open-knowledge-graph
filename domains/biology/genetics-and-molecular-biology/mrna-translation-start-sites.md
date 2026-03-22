@@ -33,6 +33,45 @@ Compare prokaryotic and eukaryotic mechanisms of start codon selection. Use Koza
 - Not recognizing that the reading frame set by the start codon is fixed for the entire mRNA.
 - Thinking prokaryotic and eukaryotic initiation mechanisms are identical when they differ significantly.
 
+## Questions
+
+```yaml
+- question: "A bacterial mRNA contains four AUG codons. Which one will be used to initiate translation?"
+  type: multiple-choice
+  options:
+    - "The first AUG codon encountered from the 5' end"
+    - "The AUG codon preceded by a Shine-Dalgarno sequence complementary to the 16S rRNA"
+    - "The AUG codon in the best Kozak context"
+    - "The AUG codon closest to the ribosome-binding site cap"
+  answer: 1
+  explanation: "In prokaryotes, the Shine-Dalgarno sequence base-pairs with the 16S rRNA to position the ribosome at a specific AUG. There is no 5'-cap scanning mechanism (that's eukaryotic) and no Kozak sequence in bacteria. The first AUG from the 5' end is the eukaryotic default, not the prokaryotic rule."
+
+- question: "A eukaryotic mRNA has its first AUG in a weak Kozak context and a second AUG 40 nucleotides downstream in a strong Kozak context. What is the most likely outcome?"
+  type: multiple-choice
+  options:
+    - "Translation always initiates at the first AUG regardless of context"
+    - "Translation initiates only at the second AUG because strong context always wins"
+    - "Some ribosomes initiate at the first AUG while others skip it and initiate at the second — leaky scanning produces two protein isoforms"
+    - "Translation does not occur because neither AUG is recognized by the prokaryotic machinery"
+  answer: 2
+  explanation: "Leaky scanning occurs when the first AUG has a weak Kozak context — the 43S complex may bypass it and continue scanning to a downstream AUG in stronger context. This produces two protein products from the same mRNA. Strong Kozak context does not eliminate the first AUG entirely; it biases the probability of initiation. Option A ignores Kozak context; option B ignores the probability of initiation at the first site; option D confuses the two kingdoms."
+
+- question: "In eukaryotes, any AUG triplet the scanning ribosome encounters will trigger translation initiation regardless of the surrounding sequence."
+  type: true-false
+  answer: false
+  explanation: "Initiation efficiency depends critically on the Kozak consensus context — particularly the purine at position -3 and G at +4. A weak Kozak context can lead to leaky scanning, where the ribosome bypasses the AUG without initiating. Context is not everything (the AUG is still the trigger), but it strongly modulates the probability of initiation at any given AUG."
+
+- question: "A single-nucleotide insertion immediately after the AUG start codon would likely produce a nonfunctional protein even if the start codon itself is intact."
+  type: true-false
+  answer: true
+  explanation: "The start codon establishes the reading frame for every subsequent codon. A one-nucleotide insertion shifts the reading frame immediately downstream, causing the ribosome to read a completely different set of codons, almost certainly producing a premature stop codon and a truncated, nonfunctional protein. The start codon being intact cannot compensate for the frame shift it sets."
+
+- question: "Why does the bacterial mRNA mechanism allow polycistronic transcripts — single mRNAs encoding multiple distinct proteins — while the eukaryotic scanning mechanism generally does not?"
+  type: short-answer
+  answer: "Bacteria use Shine-Dalgarno sequences upstream of each AUG to independently recruit ribosomes at multiple internal sites on the same mRNA. Each protein-coding region has its own SD sequence, so ribosomes can initiate at each one. Eukaryotic ribosomes instead load at the 5' cap and scan to the first AUG, where they typically stop scanning after initiating — internal AUGs on the same mRNA are usually not accessible. Without a cap-independent internal recruitment signal, downstream open reading frames are silenced."
+  explanation: "The key contrast is internal vs. cap-dependent recruitment. SD sequences are internal signals that work at any position; the 5'-cap is a single entry point that confines initiation to the first suitable AUG."
+```
+
 ## Explainer
 
 From the genetic code, you know that triplet codons specify amino acids and that **AUG** serves as the universal start codon, encoding methionine. But knowing that AUG means "start" raises a critical question: an mRNA molecule may contain dozens of AUG triplets — how does the ribosome know which one to use? The answer differs fundamentally between prokaryotes and eukaryotes, and understanding these two mechanisms reveals how translation initiation is one of the most tightly regulated steps in gene expression.

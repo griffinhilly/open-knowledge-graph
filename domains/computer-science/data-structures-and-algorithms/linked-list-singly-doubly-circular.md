@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Singly linked lists use forward pointers (O(n) reverse); doubly linked lists add backward pointers (O(1) reverse, higher memory). Circular variants loop the tail back to the head, useful for round-robin scheduling.
 
+## Questions
+
+```yaml
+- question: "You are implementing an LRU (Least Recently Used) cache. When an item is accessed, it must be moved to the front of the list instantly. Arbitrary nodes must be removable in O(1). Which list type is the right choice?"
+  type: multiple-choice
+  options:
+    - "Doubly linked list — O(1) deletion with a direct reference (can access both neighbors) plus O(1) head insertion"
+    - "Singly linked list — simpler implementation means less overhead per operation"
+    - "Circular singly linked list — wrapping avoids null pointer checks at the tail"
+    - "Array — random access by index makes deletion faster than any linked list"
+  answer: 0
+  explanation: "Deleting an arbitrary node in O(1) requires access to its predecessor. A doubly linked list provides this directly (node.prev), so deletion is O(1) given a reference to the node. A singly linked list has no backward pointer, so finding the predecessor takes O(n). Arrays offer O(1) access but O(n) deletion due to shifting. Circularity is irrelevant to this access pattern."
+
+- question: "What is the primary cost of choosing a doubly linked list over a singly linked list?"
+  type: multiple-choice
+  options:
+    - "Each node stores two pointers instead of one, increasing memory usage per node"
+    - "Insertion at the head becomes O(n) instead of O(1)"
+    - "Traversal from head to tail requires visiting each node twice"
+    - "Circular variants cannot be built from doubly linked lists"
+  answer: 0
+  explanation: "The only structural difference between singly and doubly linked lists is the addition of a prev pointer per node. This doubles the pointer overhead (e.g., two 8-byte pointers vs. one). All other operations — head insertion, tail insertion with a tail pointer, forward traversal — remain O(1) or O(n). The trade-off is memory cost in exchange for O(1) backward traversal and arbitrary deletion."
+
+- question: "In a doubly linked list, deleting a node for which you already hold a direct reference is an O(1) operation."
+  type: true-false
+  answer: true
+  explanation: "With a direct reference to the node, you can access node.prev and node.next in O(1). Relinking the neighbors (node.prev.next = node.next; node.next.prev = node.prev) takes constant time regardless of the list's length. This is the primary advantage over singly linked lists, where finding the predecessor requires O(n) traversal from the head."
+
+- question: "A circular linked list is simply a doubly linked list where the last node points back to the first."
+  type: true-false
+  answer: false
+  explanation: "Circularity and bidirectionality are independent properties. A circular list has its tail node point back to the head instead of null — this can apply to a singly linked list (one pointer per node, forming a one-directional ring) or a doubly linked list (two pointers, forming a bidirectional ring). You can have circular-singly, circular-doubly, or non-circular versions of either."
+
+- question: "Describe a real use case where a circular linked list is the natural fit, and explain which specific property of circular lists makes it appropriate."
+  type: short-answer
+  answer: "Round-robin scheduling: each process gets a CPU time slice, then the scheduler moves to the next process in order — and after the last process, it wraps back to the first. A circular list models this perfectly because there is no 'end' of the queue; the tail naturally connects back to the head. The key property is the absence of a null terminator, so traversal never has to check for end-of-list and reset to the head manually."
+  explanation: "Other examples include circular buffers (a fixed-size buffer where write/read pointers wrap around), multiplayer board games (turn order cycles), and media playlists on repeat. In all cases, the cyclic structure of the problem maps directly onto the circular list's topology. Using a non-circular list would require manual 'if tail, go back to head' logic; the circular structure makes this automatic."
+```
+
 ## Explainer
 
 You already know a linked list as a chain of nodes where each node holds data and a pointer to the next node. That basic picture is a **singly linked list**: traversal flows in one direction, from head to tail, because each node only knows its successor. If you need to find the node before a given node — say, to delete it — you must walk the entire list from the head, costing O(n). Insertion at the head is O(1), and appending at the tail is O(1) if you maintain a tail pointer, but any operation requiring backward movement is expensive.

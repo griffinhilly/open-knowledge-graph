@@ -33,6 +33,45 @@ Use stat() in Python or C to inspect a file's full metadata. Then read the ext4 
 - A file's name is not the file; the name is a directory entry pointing to metadata, so hard links can give one file multiple names.
 - Deleting a file removes the directory entry; the data persists until the space is reused.
 
+## Questions
+
+```yaml
+- question: "A file /home/alice/report.txt is deleted. Which statement most accurately describes what happens to the file's data?"
+  type: multiple-choice
+  options:
+    - "The data is immediately erased from disk"
+    - "The directory entry is removed; the data persists until the OS reclaims the blocks"
+    - "The inode is deleted, but the data blocks remain indefinitely"
+    - "Nothing happens until the file system is unmounted"
+  answer: 1
+  explanation: "Deleting a file removes the directory entry that maps the name to the inode — not the inode or data itself. The OS marks the blocks as free space only when no directory entries point to the inode (link count reaches zero), and even then the data persists until overwritten. This is why deleted files can sometimes be recovered."
+
+- question: "Files /home/alice/notes.txt and /home/bob/backup.txt are hard links to the same inode. Alice deletes her copy. What happens to Bob's file?"
+  type: multiple-choice
+  options:
+    - "Both files are deleted because they share the same inode"
+    - "Bob's file is deleted because Alice's was the original link"
+    - "Bob's file still works; the inode and data persist because one link remains"
+    - "The data is copied to Bob's path before Alice's link is removed"
+  answer: 2
+  explanation: "An inode persists as long as at least one directory entry (hard link) points to it. Deleting one name only removes that directory entry and decrements the inode's link count. When the link count reaches zero, the OS frees the inode and data blocks. Since Bob's link still exists, the file is fully accessible — the concept of an 'original' link is a misconception; all hard links are equal."
+
+- question: "A file's name is stored in the inode alongside its permissions, size, and timestamps."
+  type: true-false
+  answer: false
+  explanation: "The file's name lives in a directory entry, not the inode. The inode stores metadata — permissions, size, timestamps, owner, and data block pointers — but has no record of what names point to it. This separation is why hard links work: multiple directory entries in different directories can map different names to the same inode number, giving one file multiple names."
+
+- question: "On a Unix file system, a single file can be accessed through multiple different pathnames simultaneously."
+  type: true-false
+  answer: true
+  explanation: "Hard links allow multiple directory entries — in the same or different directories — to map to the same inode. All names are equally valid; none is more 'original' than another. The file's data and metadata are shared; only the name-to-inode mappings are separate entries in directory files."
+
+- question: "Why is the separation between a file's name (stored in a directory entry) and its metadata and data (stored in an inode) architecturally significant? Give one concrete consequence of this design."
+  type: short-answer
+  answer: "Because the name is separate from the inode, the same underlying file can have multiple names (hard links) pointing to it. Deleting one name only removes that directory entry; the file persists until no names remain. Other consequences include: renaming a file is cheap (just update the directory entry, no data moves), and stat() returns inode metadata regardless of which name was used to access the file."
+  explanation: "This separation is the key insight of Unix file system design. The name is ephemeral — a pointer in a directory; the inode is the authoritative record of the file's existence. This also explains why deleting a file that another process has open doesn't destroy it immediately: the process holds an open file descriptor referencing the inode directly, independent of any directory entry."
+```
+
 ## Explainer
 
 At its heart, a file system answers a deceptively simple question: how do you store named data on a device that only understands numbered blocks? A hard disk or SSD is just a flat array of fixed-size blocks (typically 512 bytes or 4 KB). The file system builds the abstractions of files, directories, names, and permissions on top of this raw storage — much like how an operating system builds the abstraction of processes on top of raw CPU time. If you have worked with basic I/O, you have used the result of this abstraction every time you called `open()`, `read()`, or `write()`.

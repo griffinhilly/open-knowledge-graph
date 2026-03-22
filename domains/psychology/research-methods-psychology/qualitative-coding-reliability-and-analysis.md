@@ -13,7 +13,7 @@ tags:
 - coding
 - thematic-analysis
 - data-synthesis
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

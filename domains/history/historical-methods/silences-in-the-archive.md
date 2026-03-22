@@ -32,6 +32,45 @@ Research a community or group whose documentary record is sparse (enslaved peopl
 - The absence of documentary evidence about a group does not mean that group had no history worth studying — absence is itself a historical fact requiring explanation.
 - Historians working with silenced archives are not simply 'making things up'; they employ rigorous inferential methods while being transparent about evidentiary limits.
 
+## Questions
+
+```yaml
+- question: "A historian researching the lives of enslaved people in the antebellum South finds almost no first-person accounts in plantation records. What does this absence most likely indicate?"
+  type: multiple-choice
+  options:
+    - "Enslaved people left no significant history worth studying"
+    - "The plantation archive systematically documented enslaved people in limited, instrumental ways that did not capture their inner lives or agency"
+    - "Enslaved people were illiterate and therefore could not leave documentary traces"
+    - "Later historians must have removed these records from the archive"
+  answer: 1
+  explanation: "Absence from the record reflects the priorities of the archive's creators, not the absence of history. Plantation records documented enslaved people as property — in inventories, sale records, runaway notices — not as subjects whose experiences were worth preserving. The absence is itself a historical fact requiring explanation, not evidence that there is nothing to study."
+
+- question: "According to Trouillot's framework, a historian selects which archival materials to emphasize in their research, inevitably privileging some over others. Which of his four sites of silencing does this correspond to?"
+  type: multiple-choice
+  options:
+    - "The moment of fact creation"
+    - "The moment of archive formation"
+    - "The moment of narrative retrieval"
+    - "The moment of retrospective significance"
+  answer: 2
+  explanation: "The moment of narrative retrieval is when historians choose which surviving materials to work with — a choice that itself produces silences even within an already-filtered archive. The other moments operate earlier: fact creation (events leave no trace), archive formation (institutions decide what to preserve), and retrospective significance (which events become canonical 'History'). Understanding all four reveals that silencing is not a single event but a compounding process."
+
+- question: "The absence of documentary evidence about a marginalized group is itself a historical finding that requires explanation rather than an indication that the group has no history."
+  type: true-false
+  answer: true
+  explanation: "This is a core principle of archival silences: what is missing from the record reflects who held power over recording. The pattern of whose lives went undocumented is not a neutral gap — it is a product of social, political, and institutional decisions. Explaining why a group is absent from the record is as important as studying what evidence does survive."
+
+- question: "When historians work to recover silenced voices from fragmentary archives, they are primarily filling gaps by inferring or imagining what those people thought and felt."
+  type: true-false
+  answer: false
+  explanation: "Recovering silenced voices is not speculation or invention. Historians establish the structural conditions that shaped marginalized experiences, triangulate across multiple record types to reconstruct what evidence allows, and are explicitly transparent about the limits of what can be known. The goal is to make the silence visible and explicable as a product of historical power — not to narrate confidently beyond what evidence supports."
+
+- question: "What does it mean to 'read a source against the grain,' and why is this technique necessary when working with archives that systematically silenced certain groups?"
+  type: short-answer
+  answer: "Reading against the grain means asking what a source inadvertently reveals about people it was not designed to document. Because colonial, plantation, or state archives were created to record the interests of those who held power, they were not intended to preserve the experiences of the marginalized. Yet those people appear incidentally — as property in inventories, as subjects in legal proceedings, as unnamed individuals in census counts. Reading against the grain means extracting those traces while remaining alert to the distortions the archive's original purpose introduces."
+  explanation: "Most archives documenting marginalized groups were created by outsiders with different purposes. A runaway slave advertisement, for instance, was designed to recover property — but it inadvertently records a person's physical description, skills, and apparent motivations for escape. Reading against the grain treats such incidental traces as evidence while critically accounting for the archive's original perspective."
+```
+
 ## Explainer
 
 You have worked with archives and learned to identify bias and perspective in sources. Both skills assumed that sources exist — that the challenge is evaluating what you have. Silences in the archive introduce a harder problem: what do you do when the sources you need were never created, have been destroyed, or survive only in fragments produced by those who held power over the people you are trying to study? The absence itself becomes the evidence you must learn to read.

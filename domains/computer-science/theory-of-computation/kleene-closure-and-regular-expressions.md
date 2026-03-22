@@ -13,7 +13,7 @@ tags:
 - regular-languages
 - operations
 - closure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

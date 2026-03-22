@@ -13,7 +13,7 @@ tags:
 - context-free-grammars
 - cfg
 - language-generation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

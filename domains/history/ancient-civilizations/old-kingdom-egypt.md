@@ -32,6 +32,45 @@ Examine the evolution of pyramid design from step-pyramids to true pyramids to u
 - Pyramids were functional tombs, not simply monuments to ego; they contained burial chambers and filled specific religious purposes.
 - Regional diversity never disappeared; even at the height of the Old Kingdom, local temples maintained power.
 
+## Questions
+
+```yaml
+- question: "What do the Great Pyramids of Giza most fundamentally demonstrate about Old Kingdom Egypt?"
+  type: multiple-choice
+  options:
+    - "The Egyptians' sophisticated knowledge of astronomy and mathematics"
+    - "The state's capacity to conscript, feed, house, and direct tens of thousands of laborers over decades"
+    - "The deep religious devotion of ordinary Egyptians who volunteered their labor"
+    - "Egypt's access to virtually unlimited slave labor from conquered territories"
+  answer: 1
+  explanation: "The pyramids are best understood as evidence of organizational capacity — the state's ability to mobilize massive workforces over generational timescales, requiring sophisticated administration, taxation, and logistics. While astronomy and mathematics played roles, the key insight is that pyramid building demonstrates the reach and effectiveness of centralized state power. The slave labor interpretation is a modern misconception; workers were almost certainly conscripted Egyptian laborers, not slaves in the conventional sense."
+
+- question: "What primarily caused the Old Kingdom's collapse into the First Intermediate Period?"
+  type: multiple-choice
+  options:
+    - "Military conquest by Mesopotamian invaders who destroyed the pharaonic system"
+    - "A revolt by pyramid workers who overthrew the pharaoh"
+    - "Provincial governors accumulating independent power after receiving hereditary offices and tax exemptions from weakened pharaohs"
+    - "The depletion of resources after massive pyramid construction projects"
+  answer: 2
+  explanation: "The collapse was political unraveling from within. Pharaohs had been granting tax exemptions and hereditary offices to nomarchs (provincial governors) to secure loyalty. When weak pharaohs coincided with decades of poor Nile floods (drought evidence around 2200–2150 BCE), nomarchs stopped forwarding surplus to Memphis and began acting as independent rulers. This was not external invasion or sudden revolution but the slow erosion of central authority through the very concessions used to sustain it."
+
+- question: "The pyramids were primarily symbols of pharaonic ego and vanity, with no functional religious purpose."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception. Pyramids served specific religious functions — they were the pharaoh's resurrection apparatus, designed to ensure divine continuity after death. The pharaoh was believed to be literally a god responsible for maintaining Ma'at (cosmic order and Nile fertility). The full pyramid complex included mortuary temples, causeway roads, and subsidiary tombs — a city of the dead organized around the afterlife court. Propaganda was indeed a function, but it operated through religious legitimacy, not mere display of wealth."
+
+- question: "The evolution from the step pyramid of Djoser to the true pyramids of Giza reflects advances in Egyptian engineering and organizational capacity across successive dynasties."
+  type: true-false
+  answer: true
+  explanation: "Correct. The step pyramid (c. 2650 BCE) was the world's first large stone structure. The Bent Pyramid of Sneferu shows a slope change mid-construction — an engineering experiment revealing a structural miscalculation. By Khufu's Great Pyramid, engineers had mastered precision quarrying, surveying, and logistics at enormous scale. This progression from experiment to formula traces an accelerating organizational learning curve, not merely architectural history."
+
+- question: "How does the Old Kingdom's political collapse illuminate the nature of pharaonic power at its height?"
+  type: short-answer
+  answer: "The collapse reveals that centralization was not absolute even at the Old Kingdom's peak — it was a bargain. Pharaohs maintained the loyalty of provincial governors (nomarchs) by granting tax exemptions and hereditary offices. These concessions slowly transferred real resources and authority to the regions. When weak pharaohs and drought stressed the system, nomarchs simply stopped sending surplus to the center and acted as independent rulers. This shows that pyramid-building state power relied on negotiated cooperation rather than sheer domination, and that regional power structures persisted beneath the surface of apparent centralization."
+  explanation: "The Old Kingdom's brilliance and its collapse are two faces of the same political bargain. The grants that secured loyalty for pyramid building were also the mechanism that eventually fragmented the state. The collapse is not a mystery but a predictable consequence of the strategies used to build centralized power in the first place."
+```
+
 ## Explainer
 
 From your study of Egyptian civilization and the Nile, you know that Egypt's agricultural surplus depended on the Nile flood cycle, and that surplus created the material base for state power. The Old Kingdom (c. 2686–2181 BCE) represents the moment when pharaonic authority centralized enough to convert that surplus into something unprecedented in human history: multi-generational construction projects of staggering scale. The pyramids are not primarily monuments to vanity — they are evidence of a state capable of conscripting, feeding, housing, and directing tens of thousands of laborers over decades, which requires sophisticated administration, taxation, and record-keeping.

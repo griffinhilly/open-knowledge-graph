@@ -11,7 +11,7 @@ tags:
 - foundations
 - formal-languages
 - definitions
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

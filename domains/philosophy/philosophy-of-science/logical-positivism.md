@@ -35,6 +35,45 @@ Study primary texts from Carnap and Ayer. Apply the verifiability criterion to s
 - Positivists rejected all philosophical questions.
 - The verifiability criterion successfully excluded all pseudo-science.
 
+## Questions
+
+```yaml
+- question: "According to logical positivism, the statement 'God exists' is:"
+  type: multiple-choice
+  options:
+    - "False, because there is no empirical evidence for it"
+    - "Meaningless, because it cannot be empirically verified or analytically derived"
+    - "Meaningful but unverifiable, placing it outside science"
+    - "True by definition within religious language"
+  answer: 1
+  explanation: "Logical positivism does not say 'God exists' is false — it says the statement is cognitively meaningless. To be meaningful, a claim must either be analytically true (true by definition) or empirically verifiable. 'God exists' is neither. The positivists' move was radical precisely because it didn't argue against metaphysics on empirical grounds; it argued that metaphysical statements don't even rise to the level of being truth-apt. Calling it 'false' would still grant it meaningful status."
+
+- question: "The verifiability criterion — 'a statement is meaningful only if empirically verifiable or analytically true' — faces what fatal problem?"
+  type: multiple-choice
+  options:
+    - "It incorrectly classifies mathematical theorems as meaningless"
+    - "It cannot distinguish science from history"
+    - "It appears to render itself meaningless by its own standard"
+    - "It requires a definition of 'empirical' that all scientists agree on"
+  answer: 2
+  explanation: "The verifiability criterion is itself neither analytically true (its truth does not follow from definitions alone) nor empirically verifiable (no observation could confirm or disconfirm it). By its own standard, the criterion appears to be meaningless — a self-refuting statement. This is the most pointed internal criticism. The criterion also had other problems (excluding legitimate theoretical science, failing to exclude pseudo-science), but the self-referential problem struck at the heart of the project."
+
+- question: "According to logical positivism, ethical statements like 'cruelty is wrong' are not literally true or false."
+  type: true-false
+  answer: true
+  explanation: "Logical positivists, particularly via emotivism, treated ethical statements as expressions of emotion or attitude rather than genuine factual claims. 'Cruelty is wrong' cannot be empirically verified and is not analytically true, so by the verifiability criterion it has no cognitive meaning — it expresses a feeling ('Boo, cruelty!') but does not state a fact. This was one of the most controversial implications of the positivist program."
+
+- question: "Logical positivism claimed that metaphysical statements such as 'substance underlies phenomena' are false."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception. The Vienna Circle's claim was more radical: metaphysical statements are not false but meaningless — they fail to make any genuine claim at all. Calling them false would still grant them cognitive content (they would be saying something, just something incorrect). The positivist move was to say metaphysics doesn't even get into the game of true and false. This distinction matters because it implies metaphysics cannot be rehabilitated by better evidence — it is categorically excluded."
+
+- question: "Why did the verifiability criterion ultimately fail as the basis for a demarcation between meaningful and meaningless statements? Identify at least two distinct problems."
+  type: short-answer
+  answer: "Two main problems: (1) Self-refutation — the criterion itself ('a statement is meaningful only if empirically verifiable or analytically true') is neither empirically verifiable nor analytically true, so it appears to be meaningless by its own standard. (2) Scope problems — it was either too narrow (excluding legitimate theoretical scientific claims about electrons, fields, or unobservable entities that cannot be directly verified) or too broad (various formulations could not successfully exclude pseudo-science). Every attempt to reformulate the criterion ran into one horn or the other."
+  explanation: "Understanding why the criterion failed requires seeing that it wasn't just technically flawed — the failure was deep and structural. The demarcation problem turned out to be far harder than the positivists assumed, and their solution was both self-undermining and unable to do the boundary-drawing work they intended. This is why Popper's alternative approach (falsifiability rather than verifiability) arose in direct response."
+```
+
 ## Explainer
 
 You know from the demarcation problem that philosophers of science face a basic challenge: how do we distinguish genuine science from pseudo-science? The Vienna Circle — a group of philosophers and scientists meeting in Vienna in the 1920s — offered the most ambitious answer in the history of the philosophy of science. Their movement, **logical positivism** (also called **logical empiricism**), aimed to put philosophy itself on a scientific footing by eliminating any claim that was not, in principle, testable.

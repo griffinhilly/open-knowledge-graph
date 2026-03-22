@@ -30,6 +30,45 @@ Identify subgroups of Z and S_3. Apply both the standard definition and subgroup
 - Forgetting to check closure; a subset with inverses is not necessarily a subgroup.
 - Assuming every subset containing the identity is a subgroup without checking closure.
 
+## Questions
+
+```yaml
+- question: "Consider H = {e, (12), (13), (23)} in S₃ — all transpositions plus the identity. Every element is its own inverse, so H is closed under inverses, and e ∈ H. Is H a subgroup of S₃?"
+  type: multiple-choice
+  options:
+    - "Yes, because it contains the identity and all its own inverses"
+    - "No, because it fails closure: (12)∘(13) = (132) ∉ H"
+    - "No, because associativity doesn't hold inside H"
+    - "Yes, because |H| = 4 divides |S₃| = 6"
+  answer: 1
+  explanation: "H fails the closure axiom. Even though every element is self-inverse and the identity is present, (12)∘(13) = (132) ∉ H, so H is not a subgroup. This is the classic trap: inverses + identity does not imply closure."
+
+- question: "In the one-step subgroup test, what does substituting a = b into the condition 'ab⁻¹ ∈ H for all a, b ∈ H' establish?"
+  type: multiple-choice
+  options:
+    - "That the group operation is associative within H"
+    - "That H is closed under the group operation"
+    - "That the identity element e = aa⁻¹ belongs to H"
+    - "That H is a normal subgroup of G"
+  answer: 2
+  explanation: "Setting a = b gives aa⁻¹ = e ∈ H, establishing that H contains the identity. From there, setting a = e (now known to be in H) shows b⁻¹ ∈ H (inverses), and replacing b with b⁻¹ recovers closure. One condition encodes all three axioms."
+
+- question: "If H is a nonempty subset of a group G satisfying ab⁻¹ ∈ H for all a, b ∈ H, then the identity element of G must belong to H."
+  type: true-false
+  answer: true
+  explanation: "Since H is nonempty, pick any a ∈ H. The condition with a = b gives aa⁻¹ = e ∈ H. The identity membership follows directly from the one-step test — you don't need to assume it separately."
+
+- question: "Any nonempty subset of a group that contains the identity element and is closed under taking inverses is a subgroup."
+  type: true-false
+  answer: false
+  explanation: "Closure under inverses and containing e are necessary but not sufficient. Closure under the group operation must also hold. The set {e, (12), (13), (23)} in S₃ has both properties yet is not a subgroup because it fails closure."
+
+- question: "Explain how the single condition 'ab⁻¹ ∈ H for all a, b ∈ H' in the one-step subgroup test encodes all three subgroup axioms: identity, inverses, and closure."
+  type: short-answer
+  answer: "Setting a = b gives e = aa⁻¹ ∈ H (identity). With e ∈ H, setting a = e gives b⁻¹ = eb⁻¹ ∈ H (inverses). Finally, replacing b with b⁻¹ in the original condition gives a(b⁻¹)⁻¹ = ab ∈ H (closure). Three axioms are recovered from one condition by strategic substitution."
+  explanation: "The key is that the condition is assumed to hold for ALL pairs a, b ∈ H — so particular choices of a and b extract each axiom in turn. Understanding this shows why the test is logically equivalent to the full definition, not a shortcut that misses something."
+```
+
 ## Explainer
 
 You've built up the group axioms — closure, associativity, identity, inverses — and seen them satisfied by groups like ℤ under addition and S_n under composition. A **subgroup** asks a natural question: when does a *subset* of a group form a group in its own right, under the same operation? This is the first tool for understanding the internal structure of a group, and the subgroup tests make verification efficient.

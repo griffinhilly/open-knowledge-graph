@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Bone continuously remodels: osteoclasts resorb bone, osteoblasts form new bone, and osteocytes sense mechanical load. Parathyroid hormone (PTH) increases serum calcium by stimulating osteoclasts and renal calcium reabsorption. Calcitriol (activated vitamin D) increases intestinal calcium absorption. This coordinated system maintains serum calcium at 8.5–10.5 mg/dL despite variable dietary intake and changing calcium demands.
 
+## Questions
+
+```yaml
+- question: "A patient with chronically low dietary calcium has persistently elevated PTH. Which of the following best explains why this patient is at increased risk for osteoporosis?"
+  type: multiple-choice
+  options:
+    - "High PTH directly destroys osteoblasts, permanently halting bone formation"
+    - "The body chronically drives osteoclastic bone resorption to maintain serum calcium, causing net bone loss over time"
+    - "PTH reduces calcitriol production, lowering intestinal calcium absorption and leaving bones brittle"
+    - "Low dietary calcium causes bones to demineralize directly through osmotic gradients"
+  answer: 1
+  explanation: "The key insight is that the body prioritizes serum calcium over bone structural integrity. When dietary calcium is chronically inadequate, PTH remains elevated to continuously stimulate osteoclastic resorption — releasing calcium from bone into blood. If resorption chronically outpaces osteoblastic formation, net bone mass declines, resulting in osteoporosis. Option C has it backwards: PTH stimulates, not reduces, calcitriol production in the kidney."
+
+- question: "A student claims that 'PTH raises blood calcium primarily by acting on the intestine to increase calcium absorption.' What is wrong with this statement?"
+  type: multiple-choice
+  options:
+    - "PTH has no effect on calcium absorption; it acts exclusively on osteoclasts"
+    - "PTH acts directly on bone and kidney; intestinal absorption increases only indirectly — PTH stimulates the kidney to produce calcitriol, which then acts on the intestine"
+    - "Intestinal absorption is too slow to be a meaningful component of calcium regulation"
+    - "PTH actually lowers intestinal calcium absorption to prevent dangerous hypercalcemia"
+  answer: 1
+  explanation: "PTH does not act directly on intestinal enterocytes. Its three direct targets are bone (stimulating RANKL → osteoclast activation), kidney distal tubule (calcium reabsorption), and kidney proximal tubule (1α-hydroxylase activation). The enzyme converts 25-hydroxyvitamin D to calcitriol, which then travels to the intestine and upregulates calcium channels and calbindins. The intestinal effect is real and important, but it is indirect — mediated by calcitriol, not PTH itself."
+
+- question: "Bone remodeling is an ongoing process in healthy adults, not merely a response to fracture or injury."
+  type: true-false
+  answer: true
+  explanation: "Bone remodeling is continuous and routine throughout adult life. Osteoclasts and osteoblasts work in coordinated sequences to adapt bone structure to mechanical loads, repair accumulating microdamage before it leads to stress fractures, and maintain the calcium reservoir available to the blood. This remodeling is not triggered by injury — it is normal maintenance, occurring constantly across the skeleton."
+
+- question: "PTH directly binds receptors in intestinal enterocytes to increase calcium absorption."
+  type: true-false
+  answer: false
+  explanation: "PTH does not act directly on the intestine. Instead, PTH acts on the kidney to stimulate 1α-hydroxylase, which converts 25-hydroxyvitamin D to calcitriol (1,25-dihydroxyvitamin D). Calcitriol then travels via the bloodstream to intestinal enterocytes, where it upregulates calcium transport channels and calcium-binding proteins (calbindins). The intestinal effect is entirely downstream of the kidney step — remove PTH's renal action and intestinal calcium absorption falls."
+
+- question: "Why does chronic dietary calcium deficiency lead to osteoporosis, even though the bones contain large amounts of calcium?"
+  type: short-answer
+  answer: "Because the body prioritizes serum calcium over bone structural integrity. When dietary calcium is inadequate, PTH remains chronically elevated, continuously stimulating osteoclastic bone resorption to release calcium into the blood. This keeps serum calcium in the critical 8.5–10.5 mg/dL range needed for cardiac, neural, and enzymatic function. But if osteoclastic resorption chronically outpaces osteoblastic formation, net bone mass declines over years — the skeleton is being 'taxed' to maintain the currency the rest of the body depends on."
+  explanation: "The conceptual key is that serum calcium and bone calcium are not equivalent. Bone stores are large, but they exist to serve the regulatory system, not to be preserved for their own sake. The body has no sensor for bone density — it only senses serum calcium. So when serum calcium is threatened, PTH responds to restore it, regardless of what that does to bone mass over time. This is why adequate dietary calcium prevents osteoporosis: it relieves the chronic PTH stimulus that would otherwise drive net resorption."
+```
+
 ## Explainer
 
 Think of the skeleton as two things simultaneously: a structural scaffold supporting movement and a calcium bank that the body draws on to maintain blood chemistry. You already know from skeletal anatomy that bone is living tissue. What makes bone remarkable is that it is perpetually being torn down and rebuilt in a process called **bone remodeling** — not as repair, but as routine maintenance. This continuous cycle allows bone to adapt to mechanical loads, repair microscopic damage before it accumulates into fractures, and serve as a reservoir for calcium and phosphate that the body needs in precise concentrations.

@@ -12,7 +12,7 @@ tags:
 - context-free
 - closure
 - properties
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

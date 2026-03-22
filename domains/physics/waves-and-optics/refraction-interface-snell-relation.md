@@ -27,6 +27,45 @@ Derive Snell's law using the Huygens-Fresnel principle: wavelets from the interf
 ## Common Misconceptions
 Light does not 'change speed' in the usual sense—rather, light speed in a medium is the definition of the medium's refractive index.
 
+## Questions
+
+```yaml
+- question: "Light travels from glass (n = 1.5) into water (n = 1.33). Which correctly describes the refracted ray?"
+  type: multiple-choice
+  options:
+    - "It bends toward the normal because it enters a denser medium"
+    - "It bends away from the normal because it enters a less optically dense medium"
+    - "It travels in the same direction because both media are transparent"
+    - "It bends toward the normal because the wavelength increases upon entering water"
+  answer: 1
+  explanation: "When light moves from a higher-n to a lower-n medium (glass → water), it speeds up. By Snell's law n₁ sin θ₁ = n₂ sin θ₂, if n₁ > n₂ then sin θ₂ > sin θ₁, so θ₂ > θ₁ — the ray bends away from the normal. Option A confuses the direction of bending; 'denser medium' means higher n, which bends toward the normal — but here glass is the denser medium, not water."
+
+- question: "When light passes from air into glass, which property of the wave remains unchanged at the interface?"
+  type: multiple-choice
+  options:
+    - "Speed"
+    - "Wavelength"
+    - "Frequency"
+    - "Direction of propagation"
+  answer: 2
+  explanation: "Frequency is set by the source and cannot change at the interface — wave cycles cannot be created or destroyed there (phase continuity). Speed decreases (v = c/n), wavelength shortens proportionally (λ = v/f), and direction changes. Frequency alone is invariant. This invariance is the physical reason refraction happens: the wavelength must shorten, which forces the wavefront to pivot."
+
+- question: "A ray entering a medium with a higher refractive index always bends toward the normal."
+  type: true-false
+  answer: true
+  explanation: "Snell's law: n₁ sin θ₁ = n₂ sin θ₂. If n₂ > n₁, then sin θ₂ must be smaller than sin θ₁ to keep the products equal, so θ₂ < θ₁ — the refracted ray is closer to the normal. This is unambiguous and direction-independent; entering a higher-n medium always bends toward the normal."
+
+- question: "When light slows down upon entering a denser medium, its frequency decreases proportionally so that energy is conserved."
+  type: true-false
+  answer: false
+  explanation: "Frequency does not change when light crosses an interface — it is determined by the source, not the medium. Energy per photon (E = hf) is also unchanged. What decreases proportionally with speed is the wavelength: since v = fλ, if v drops and f is fixed, then λ must drop by the same factor. Confusing wavelength change with frequency change is a common error."
+
+- question: "Why does light change direction when it crosses from one medium into another? Explain in terms of what changes and what stays constant at the interface."
+  type: short-answer
+  answer: "Frequency must remain constant at the interface (wave cycles cannot be created or destroyed there). Since v = fλ, when the wave slows in the new medium, the wavelength must shorten. The portion of the wavefront that enters first slows and shortens, while the rest still travels at the original speed — this mismatch pivots the wavefront, changing the ray's direction. Snell's law quantifies that pivot."
+  explanation: "The deeper insight is that bending is a consequence of wavelength change forced by frequency invariance. A useful analogy: soldiers marching at an angle toward mud — those who hit the mud first slow down, causing the rank to swing. The frequency-stays-constant constraint is what makes this analysis rigorous rather than just a visual analogy."
+```
+
 ## Explainer
 
 You already know that waves have a speed, frequency, and wavelength linked by v = fλ. When a wave crosses from one medium into another — say, from air into glass — something has to give. The frequency cannot change: it is set by the source, and the wave cannot pile up or thin out at the interface (that would require creating or destroying cycles of oscillation). So when the wave slows down in the denser medium, it is the **wavelength** that shortens to compensate. Shorter wavelength, same frequency, lower speed — v = fλ still holds.

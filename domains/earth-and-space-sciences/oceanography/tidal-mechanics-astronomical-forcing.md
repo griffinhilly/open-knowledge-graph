@@ -17,7 +17,7 @@ tags:
 - Sun
 - gravitational-forcing
 - harmonic-analysis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - extracellular-matrix
 - integrins
 - cadherins
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

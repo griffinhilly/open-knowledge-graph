@@ -16,7 +16,7 @@ tags:
 - boundary-value-problems
 - pde
 - separation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

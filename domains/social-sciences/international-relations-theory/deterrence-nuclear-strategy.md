@@ -27,6 +27,45 @@ Deterrence strategy aims to prevent an adversary from taking unwanted action by 
 ## How It's Best Learned
 Study historical crises where deterrence succeeded (Cuban Missile Crisis) and failed (Korean War) to identify what factors make threats credible. Analyze technical debates over first-strike stability, launch-on-warning systems, and damage limitation.
 
+## Questions
+
+```yaml
+- question: "A state possesses 1,000 nuclear warheads stored in a few centralized, unprotected facilities. Its adversary has only 200 warheads dispersed across submarines, mobile launchers, and hardened silos. Under MAD logic, which state has more effective deterrence?"
+  type: multiple-choice
+  options:
+    - "The state with 1,000 warheads, because it can destroy the adversary many times over"
+    - "The state with 200 warheads, because survivable weapons guarantee devastating retaliation"
+    - "Both states are equally deterred because both can cause mass destruction"
+    - "Neither state is deterred because MAD requires equal arsenals"
+  answer: 1
+  explanation: "MAD deterrence hinges on second-strike capability — the ability to absorb a first strike and still retaliate catastrophically. Concentrated warheads can be destroyed preemptively; dispersed, survivable weapons cannot. Total warhead count is far less important than survivability. A state with 200 truly survivable weapons deters more effectively than one with 1,000 vulnerable ones."
+
+- question: "The 'credibility problem' in extended deterrence arises primarily because:"
+  type: multiple-choice
+  options:
+    - "Nuclear weapons are technically unreliable and may not detonate as intended"
+    - "Allies refuse to participate in nuclear planning and undermine deterrence commitments"
+    - "Threatening nuclear war on behalf of an ally may not be believed, since carrying it out would be catastrophic for the protecting state itself"
+    - "Adversaries cannot calculate the damage nuclear weapons would cause"
+  answer: 2
+  explanation: "Extended deterrence requires an adversary to believe a protecting state would risk national annihilation to defend an ally. This commitment is inherently questionable — why would a rational leader destroy civilization for someone else's territory? This credibility gap is why states invest heavily in forward deployments, joint exercises, and demonstrated resolve: all are attempts to make the incredible threat believable."
+
+- question: "A state with a robust second-strike capability — forces dispersed and hardened enough to survive a first strike — has less incentive to launch a preemptive attack than a state whose nuclear forces could be destroyed by an adversary's first strike."
+  type: true-false
+  answer: true
+  explanation: "A state whose forces can survive a first strike has no 'use it or lose it' pressure — it can absorb a blow and still retaliate. This patience reduces the temptation to strike preemptively. A state with vulnerable forces faces the opposite pressure: if war seems imminent, launching first may be the only way to preserve its arsenal. Second-strike capability thus stabilizes both sides simultaneously."
+
+- question: "MAD is most stable when one state achieves a decisive first-strike advantage, allowing it to threaten retaliation without fearing a retaliatory response."
+  type: true-false
+  answer: false
+  explanation: "This inverts the logic of MAD. A decisive first-strike advantage — the ability to destroy an adversary's weapons before they can retaliate — actually undermines MAD stability by giving the advantaged state an incentive to strike and the disadvantaged state a 'use it or lose it' pressure. MAD stability requires that BOTH sides retain credible second-strike capability, making a disarming first strike pointless for either party."
+
+- question: "What does 'stability through vulnerability' mean in nuclear deterrence theory, and why might two states deliberately avoiding a first-strike advantage be strategically rational?"
+  type: short-answer
+  answer: "Stability through vulnerability means that mutual inability to prevent devastating retaliation removes the incentive to strike first. If both sides' nuclear forces can survive a first strike, neither gains by attacking — the attacker still faces catastrophic retaliation. One-sided invulnerability (one side immune, the other vulnerable) is actually destabilizing: the vulnerable state faces 'use it or lose it' pressure and may strike preemptively; the invulnerable state may be tempted to exploit its advantage. Two states that both accept vulnerability to each other's retaliation are therefore more stable than a world where one side is protected."
+  explanation: "The paradox is that accepting vulnerability — not building defenses that might protect against retaliation — preserves the mutual hostage relationship that prevents war. This is why arms control agreements historically limited anti-ballistic missile systems: they were destabilizing not because they were weapons but because they threatened to undermine second-strike credibility."
+```
+
 ## Explainer
 
 From your study of the security dilemma, you know the core problem: states in anarchy arm because they fear others, but arming makes others more fearful, producing a spiral that can end in war even when neither side wanted it. Nuclear deterrence was designed as a structural solution to this problem — but it introduced an entirely new set of strategic puzzles that define the logic of nuclear strategy.

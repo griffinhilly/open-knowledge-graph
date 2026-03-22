@@ -13,7 +13,7 @@ tags:
 - finite-automata
 - conversion
 - equivalence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

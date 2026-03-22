@@ -34,6 +34,44 @@ Examine historiographical debates where scholars disagree fundamentally about ev
 ## Common Misconceptions
 - Assuming more sources are always better; a single well-contextualized piece can be more valuable than many weak sources. - Believing written documents are inherently more reliable than oral or material evidence; each type requires its own validation.
 
+## Questions
+
+```yaml
+- question: "A historian studying pre-colonial African political history has access to oral genealogies, praise songs, and archaeological findings, but few written documents. A colleague argues she should restrict herself to written sources because they are inherently more reliable. What is the best response to this critique?"
+  type: multiple-choice
+  options:
+    - "The colleague is correct — oral sources should only generate hypotheses that written documents must then confirm"
+    - "Oral traditions encode different kinds of information and can serve as valid historical evidence when validated through independent transmission and cross-checking with other evidence types"
+    - "Since oral sources are the only available evidence, they must be accepted without the critical scrutiny applied to written documents"
+    - "The historian should focus entirely on the archaeological record and treat oral evidence as unreliable"
+  answer: 1
+  explanation: "Written documents are not inherently more reliable than oral traditions — each type has different strengths and requires its own validation strategy. Oral traditions can preserve political and genealogical history with high fidelity when independently transmitted across multiple lines and checked against material evidence. The key is applying appropriate validation methods, not privileging written sources by default."
+
+- question: "A colonial census from 1890 records 50,000 taxable subjects in a province. A historian wants to use this figure to estimate the total population. What is the primary epistemological concern?"
+  type: multiple-choice
+  options:
+    - "Census records are unreliable because they were not taken by professional statisticians"
+    - "Quantitative evidence is inherently less trustworthy than textual sources for population estimation"
+    - "The counting system encoded colonial administrative categories that may have excluded significant portions of the actual population"
+    - "There is no concern — government records are official documents and can be taken at face value"
+  answer: 2
+  explanation: "Quantitative evidence encodes the categories and purposes of the institution that produced it. A colonial census counted taxable subjects — the people the colonial administration wanted to enumerate for revenue purposes. Women, children, nomads, those in non-taxable categories, and populations deliberately undercounted may all be absent or misrepresented. Reading the number critically means asking what the counting system was designed to capture, not just reading off the total."
+
+- question: "Having more historical sources about an event always produces more reliable historical knowledge than having fewer sources."
+  type: true-false
+  answer: false
+  explanation: "Quantity of sources does not guarantee quality of knowledge. Many weak or derivative sources that all depend on the same flawed original tell you less than a single well-contextualized, independently validated source. Multiple sources that share the same bias or institutional origin provide false redundancy rather than genuine corroboration. The epistemological question is not how many sources you have but whether they are independently derived, contextually rich, and validated by appropriate methods."
+
+- question: "Saying that historical evidence is 'theory-laden' means historians cannot make objective claims or distinguish better from worse historical arguments."
+  type: true-false
+  answer: false
+  explanation: "Theory-ladenness means that what counts as evidence depends on the historical questions being asked and the theoretical framework guiding the inquiry. This does not collapse into relativism. Evidence must still meet standards of validity, reliability, and contextual fit regardless of the framework. What changes across frameworks is which materials are treated as primary evidence — a social historian and a political historian may treat different sources as central — but both must still defend their evidentiary choices and demonstrate that their claims meet rigorous standards."
+
+- question: "What does it mean to say that historical evidence is 'theory-laden'? Give an example of how two historians asking different questions about the same period might treat different materials as primary evidence."
+  type: short-answer
+  answer: "Theory-laden means that the choice of what counts as evidence is not neutral or automatic — it depends on the questions you are asking and the theoretical framework guiding your inquiry. A historian studying class formation in 19th-century England might treat wage records, household inventories, and estate surveys as primary evidence, while a historian of ideas studying the same period might treat philosophical and literary texts as central and barely consider the economic records. Neither is wrong; each is pursuing a legitimate historical question that requires different evidentiary materials. The key insight is that deciding what counts as evidence is itself a methodological choice that must be explicitly justified, not an obvious given."
+```
+
 ## Explainer
 
 From your introduction to historiography and your work with primary sources, you know that historians use documents to reconstruct the past and that not all documents are equally trustworthy. But the epistemological question goes deeper than source criticism: **what actually counts as evidence** is itself a contested judgment, not a given. Different historians, working from different methodological traditions, answer that question differently — and their answers determine what histories they can write.

@@ -30,6 +30,45 @@ Construct analytic signal of FM-modulated sinusoid using Hilbert transform. Extr
 - Confusing instantaneous frequency with spectral frequency content.
 - Not recognizing that instantaneous phase is discontinuous at zero-crossings in real signals.
 
+## Questions
+
+```yaml
+- question: "A researcher computes the analytic signal of a broadband audio recording containing simultaneous bass, midrange, and treble tones, then plots the instantaneous frequency over time. She observes the curve occasionally dropping to negative values. The most likely explanation is:"
+  type: multiple-choice
+  options:
+    - "The signal contains frequencies below DC, producing aliasing in the Hilbert transform"
+    - "The narrowband assumption is violated; instantaneous frequency of a multi-component signal becomes a meaningless weighted average"
+    - "There is a phase discontinuity caused by a digital clipping artifact in the recording"
+    - "The Hilbert transform has been applied to a non-periodic signal, violating a required assumption"
+  answer: 1
+  explanation: "Negative instantaneous frequency is the clearest sign that the narrowband assumption is violated. For a broadband signal with many simultaneous frequency components, the phase of the analytic signal reflects the interference of all components; its derivative is a weighted average that can easily fall below zero. Instantaneous frequency only has physical meaning when the signal is locally narrowband — dominated by a single frequency at each moment. For broadband audio, Fourier analysis or STFT methods are the appropriate tools."
+
+- question: "For a chirp signal x(t) = cos(2π(f₀ + αt)t), the instantaneous frequency computed from the analytic signal is:"
+  type: multiple-choice
+  options:
+    - "The constant f₀, which is the dominant carrier around which the frequency sweeps"
+    - "A linearly increasing function f_i(t) = f₀ + 2αt, tracking the sweep in real time"
+    - "The bandwidth of the chirp, which grows as the frequency sweep progresses"
+    - "The time-averaged value of f₀ + αt over the signal duration"
+  answer: 1
+  explanation: "The instantaneous phase is φ(t) = 2π(f₀t + αt²), which is quadratic in time. Instantaneous frequency is f_i(t) = (1/2π)·dφ/dt = f₀ + 2αt — a linearly increasing function that precisely tracks the frequency at each moment. This is the key advantage over Fourier analysis: the Fourier spectrum of a chirp is smeared across a band of frequencies, while instantaneous frequency gives a clean, time-resolved frequency trajectory. For FM communications, radar, and sonar, this time-varying frequency track carries the actual information."
+
+- question: "Instantaneous frequency and spectral (Fourier) frequency describe the same property of a signal at different time resolutions."
+  type: true-false
+  answer: false
+  explanation: "They are fundamentally different quantities. Spectral frequency describes the distribution of energy across frequencies over a time window (or the entire signal). Instantaneous frequency is the derivative of instantaneous phase at a single moment in time — it is a time-domain quantity, not a frequency-domain one. For a stationary sinusoid they agree numerically, but for non-stationary signals they can be completely different. Instantaneous frequency gives a time-varying 'frequency track'; the Fourier spectrum gives a static aggregate. They are not just different resolutions of the same thing."
+
+- question: "The instantaneous amplitude of a real signal x(t) equals the square root of the sum of x²(t) and the square of its Hilbert transform."
+  type: true-false
+  answer: true
+  explanation: "By definition, the analytic signal is z(t) = x(t) + j·x̂(t), where x̂(t) is the Hilbert transform of x(t). Written in polar form z(t) = A(t)·e^(jφ(t)), the instantaneous amplitude is A(t) = |z(t)| = √(x²(t) + x̂²(t)). This envelope is always non-negative and traces the smooth curve that connects the signal's peaks — it captures the slow-varying amplitude modulation riding on top of the fast carrier oscillation, which is why it underlies AM radio demodulation."
+
+- question: "Why is instantaneous frequency only physically meaningful for narrowband signals, and what goes wrong when it is applied to a broadband signal?"
+  type: short-answer
+  answer: "Instantaneous frequency is defined as f_i(t) = (1/2π)·dφ/dt, the rate of change of the analytic signal's phase. For a narrowband signal dominated by a single frequency at each moment, this derivative cleanly tracks that frequency over time. For a broadband signal with multiple simultaneous frequency components, the analytic signal's phase reflects the superposition of all components; its derivative yields a weighted average of the component frequencies. This average can take values outside the actual range of frequencies present — including negative values — producing a result with no physical interpretation."
+  explanation: "The narrowband assumption is the critical prerequisite for meaningful instantaneous frequency. When it holds (FM signals, EEG oscillations, bat chirps), the instantaneous frequency gives a precise, time-resolved frequency trajectory that Fourier analysis cannot provide. When it is violated, the concept breaks down entirely. Recognizing this boundary — and choosing appropriate time-frequency tools (STFT, wavelets) when signals are locally but not globally narrowband — is the practical takeaway."
+```
+
 ## Explainer
 
 From your study of the Hilbert transform and analytic signals, you know that for any real signal x(t), its **analytic signal** is z(t) = x(t) + j·x̂(t), where x̂(t) is the Hilbert transform of x(t). The analytic signal is complex-valued and has a one-sided spectrum (energy only at positive frequencies). Writing z(t) in polar form: z(t) = A(t)·e^(jφ(t)), the two scalar functions A(t) and φ(t) reveal everything about how the signal varies in amplitude and frequency over time.

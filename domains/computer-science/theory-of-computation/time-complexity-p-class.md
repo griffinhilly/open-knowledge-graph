@@ -15,7 +15,7 @@ tags:
 - time-complexity
 - p-class
 - polynomial
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

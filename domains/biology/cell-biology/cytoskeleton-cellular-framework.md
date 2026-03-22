@@ -12,7 +12,7 @@ tags:
 - cytoskeleton
 - structure
 - dynamics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

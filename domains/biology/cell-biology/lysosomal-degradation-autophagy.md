@@ -13,7 +13,7 @@ tags:
 - autophagy
 - degradation
 - cellular-homeostasis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

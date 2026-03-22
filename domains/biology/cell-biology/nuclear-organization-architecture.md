@@ -14,7 +14,7 @@ tags:
 - chromatin
 - nuclear-structure
 - chromosome-topology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

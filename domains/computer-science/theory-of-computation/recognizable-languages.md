@@ -12,7 +12,7 @@ tags:
 - recognizable
 - semi-decidable
 - turing-recognizable
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

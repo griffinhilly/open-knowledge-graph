@@ -31,6 +31,45 @@ Palpate your own joints while moving through their range of motion. Identify the
 - Assuming stronger muscles always mean greater range of motion; flexibility and ligamentous laxity are equally important.
 - Thinking joints are simply hinge-like; most joints have complex multi-axial movement patterns.
 
+## Questions
+
+```yaml
+- question: "A patient recovering from knee surgery has full flexion but cannot fully extend the joint. Physical therapy assessment suggests the limiting factor is scar tissue tightening the posterior joint capsule — a structural, not muscular, constraint. Which intervention is most appropriate?"
+  type: multiple-choice
+  options:
+    - "Quadriceps strengthening exercises to force full extension"
+    - "Hamstring strengthening to create opposing muscular balance"
+    - "Joint mobilization and capsular stretching techniques targeting the structural constraint"
+    - "Aerobic conditioning to improve overall muscle function and reduce swelling"
+  answer: 2
+  explanation: "When the limiting factor is a ligamentous or capsular constraint — not muscular tightness — strengthening exercises cannot restore range of motion. The constraint must be addressed directly through joint mobilization. This illustrates the key principle: effective treatment requires identifying WHICH of the three factors (joint geometry, ligamentous constraints, muscular flexibility) is actually binding. You cannot train away a structural block."
+
+- question: "Most limb movements in the human body operate as third-class levers, with the muscle attaching close to the joint. What is the mechanical consequence of this arrangement?"
+  type: multiple-choice
+  options:
+    - "The musculoskeletal system prioritizes maximizing force output, which is why humans can lift objects many times their body weight"
+    - "Muscles must generate forces many times the load being lifted, but gain speed and range of motion in return"
+    - "The joint serves as the resistance force rather than as the fulcrum"
+    - "Bones near the joint bear less mechanical stress than bones farther away"
+  answer: 1
+  explanation: "A third-class lever has the effort (muscle) between the fulcrum (joint) and the load. With a short effort arm and long load arm, the muscle must exert force far exceeding the load — a mechanical disadvantage. The trade-off is that a small muscle shortening produces a large arc of movement at the hand or foot. This is why muscles must generate forces many times body weight for ordinary tasks, and why the musculoskeletal system is optimized for speed and range rather than brute force."
+
+- question: "Joint shape is an architectural constraint that no amount of muscle training can override — a hinge joint cannot abduct regardless of how flexible the surrounding muscles are."
+  type: true-false
+  answer: true
+  explanation: "Joint geometry sets an absolute ceiling on the type and range of movement possible. A hinge joint like the elbow only permits flexion and extension because of its shape; lateral movement is blocked by bone geometry, not by muscular tightness. Unlike muscular flexibility, which responds to stretching, bony geometry is fixed. This is why distinguishing between the three constraints — geometry, ligamentous, and muscular — is essential for movement analysis and rehabilitation."
+
+- question: "Stronger muscles always produce a greater range of motion at the joints they cross, because the greater contractile force can pull the joint further through its available arc."
+  type: true-false
+  answer: false
+  explanation: "Strength and range of motion are independent variables. Range of motion depends on joint geometry (which bony shape determines), ligamentous constraints (which tighten at end-range to protect the joint), and muscular flexibility (the extensibility of the muscle and its connective tissue). A very strong but inflexible muscle may actually restrict range of motion by resisting stretch. Flexibility training — not strength training — is the intervention that addresses the muscular constraint on range of motion."
+
+- question: "Why must effective mobility training begin by identifying which of the three constraints on joint range of motion is the actual limiting factor in a given situation?"
+  type: short-answer
+  answer: "Because the three constraints — joint geometry, ligamentous constraints, and muscular flexibility — require fundamentally different interventions. Stretching cannot alter bony geometry; joint mobilization addresses capsular/ligamentous restriction; flexibility training targets muscular extensibility. Applying the wrong intervention (e.g., stretching when the block is bony) is ineffective and potentially harmful. Diagnosis of the binding constraint must precede treatment."
+  explanation: "This is the clinical application of understanding that range of motion has three independent determinants. A patient who cannot fully extend a joint needs a different intervention depending on whether a bone blocks the movement, a tight ligament limits it, or a stiff muscle resists it. Conflating muscular flexibility with the other constraints is one of the most common errors in rehabilitation reasoning."
+```
+
 ## Explainer
 
 From your study of skeletal structure and joint classification, you know that a joint is wherever two or more bones meet and that the design of that meeting point determines what movement is possible. The first key insight is that joints exist along a spectrum of mobility: **synarthroses** (like the cranial sutures) are immobile and serve structural stability; **amphiarthroses** (like the intervertebral discs or pubic symphysis) allow slight, dampening movement; **diarthroses**, or synovial joints, are the freely mobile joints responsible for nearly all purposeful movement in the limbs. Understanding any joint starts by asking which category it belongs to and why.

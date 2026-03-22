@@ -34,6 +34,45 @@ Draw supply-and-demand diagrams showing the tax wedge, then verify algebraically
 - Students frequently assume that whoever pays the tax to the government bears all the burden; this ignores behavioral responses.
 - When demand is perfectly inelastic, buyers bear 100% of the tax — students find this counterintuitive and need worked examples to internalize it.
 
+## Questions
+
+```yaml
+- question: "A $5-per-pack tax on cigarettes is legally imposed on manufacturers. Demand for cigarettes is highly inelastic. Which outcome best predicts who bears the tax burden?"
+  type: multiple-choice
+  options:
+    - "Manufacturers bear most of the burden because they legally remit the tax"
+    - "Smokers bear most of the burden because their inelastic demand leaves them unable to exit the market"
+    - "The burden is split 50-50 since both parties participate in every transaction"
+    - "No burden falls on smokers because the tax is not charged to them at the point of sale"
+  answer: 1
+  explanation: "Economic incidence is determined by elasticities, not legal incidence. Cigarette demand is highly inelastic — smokers have few substitutes and continue buying even as prices rise. When manufacturers face higher costs, they raise prices nearly dollar-for-dollar, and inelastic smokers absorb most of the price increase. Option A is the classic misconception: who writes the check to the government is irrelevant to who absorbs the burden. Options C and D ignore the role of elasticity entirely."
+
+- question: "A government switches a gasoline tax from being collected at the pump (from consumers) to being collected from refineries (from producers). Assuming elasticities are unchanged, what happens to the price consumers pay?"
+  type: multiple-choice
+  options:
+    - "The price consumers pay falls because the legal burden has shifted to producers"
+    - "The price consumers pay stays approximately the same — legal incidence does not determine economic incidence"
+    - "The price consumers pay rises because producers now face a new cost and pass it through"
+    - "The burden split shifts to 50-50 since both parties now share the legal obligation"
+  answer: 1
+  explanation: "This is the symmetry result at the heart of tax incidence theory. Shifting legal incidence from buyers to sellers does not change the supply or demand curves — it only changes who writes the check. The equilibrium price wedge (P_b − P_s = t) and the burden split are determined entirely by relative elasticities. Whether the tax is collected from the pump or the refinery, the market equilibrates to the same outcome. This result is counterintuitive but follows directly from equilibrium logic."
+
+- question: "If the government wants to shield consumers from bearing a new tax, it can do so by legally imposing the tax on sellers rather than buyers."
+  type: true-false
+  answer: false
+  explanation: "Legal incidence is irrelevant to economic incidence. Whether a tax is formally collected from buyers or sellers, the burden split is determined by relative elasticities. A tax on sellers shifts the supply curve up by the tax amount; a tax on buyers shifts the demand curve down by the same amount. Both produce identical equilibrium prices and quantities. 'Taxing corporations instead of consumers' changes the optics, not the economics — if consumer demand is inelastic, consumers bear most of the burden regardless."
+
+- question: "When demand for a good is perfectly inelastic, sellers absorb 100% of any per-unit tax on that good."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true: perfectly inelastic demand means buyers bear 100% of the tax. If buyers must purchase exactly Q* units regardless of price (classic example: insulin), a tax simply raises the buyer's price by the full tax amount with no reduction in quantity. Sellers still sell Q* and receive the same net price as before (minus the tax wedge). Sellers absorb the burden only when *supply* is perfectly inelastic, not demand."
+
+- question: "Explain why the side with more inelastic supply or demand bears a larger share of a per-unit tax burden."
+  type: short-answer
+  answer: "The inelastic side has fewer alternatives and cannot adjust quantity much in response to price changes. When a tax creates a price wedge, the elastic side responds by reducing their quantity — buyers buy less, or sellers produce less — effectively shifting pressure onto the inelastic side, who must absorb the price change to keep the transaction happening. The inelastic party cannot 'exit' the market, so they bear the burden of maintaining the equilibrium quantity."
+  explanation: "Think of elasticity as the ability to escape a price change. High elasticity means you have good substitutes or can easily adjust — so you can avoid bearing the burden by changing behavior. Low elasticity means you must pay whatever price emerges. A tax creates a wedge: one side pays more, one side receives less. The side with less ability to escape — the inelastic side — absorbs more of the wedge. This is why taxes on necessities (inelastic demand) fall heavily on consumers, while taxes on goods with inelastic supply fall heavily on producers."
+```
+
 ## Explainer
 
 You know from your study of market equilibrium that price is determined by supply and demand, not by legislation. Tax incidence exploits this insight: the government can legally require *sellers* to remit a per-unit tax, but economic forces determine how much of that burden actually falls on sellers versus buyers. The mechanism is the **tax wedge** — a fixed gap driven between the price buyers pay (P_b) and the price sellers receive (P_s), with P_b − P_s = t (the tax per unit). The equilibrium is found by asking: at what quantity does the demand curve (evaluated at P_b) equal the supply curve (evaluated at P_s), with the wedge t between them?

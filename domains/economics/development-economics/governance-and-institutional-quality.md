@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Governance encompasses state capacity (ability to collect taxes and deliver services), accountability (institutions that check abuse of power), and legitimacy (public trust). Countries with weak governance struggle to fund education, health, and infrastructure; strong governance enables sustained public investment and social development, creating a virtuous cycle of growth.
 
+## Questions
+
+```yaml
+- question: "A developing country enacts a well-designed conditional cash transfer program, but only 30% of eligible households receive benefits after two years. The government has competitive elections and an independent judiciary. What governance failure most likely explains the implementation gap?"
+  type: multiple-choice
+  options:
+    - "Low democratic legitimacy prevented public trust in the program"
+    - "Weak state capacity — insufficient administrative systems and trained officials to identify and reach eligible households"
+    - "Accountability institutions failed to check corruption in benefit distribution"
+    - "Citizens refused to comply with government programs due to cultural resistance"
+  answer: 1
+  explanation: "State capacity is the most fundamental governance dimension: the ability to actually execute policy. Even with good laws and accountability institutions, if the administrative apparatus lacks the records, trained staff, and systems to target and deliver benefits, programs fail in execution. The scenario describes an implementation failure — not a check-and-balance failure or a legitimacy crisis."
+
+- question: "A low-income country has very low measured corruption and an independent anti-corruption court, yet still collects only 8% of GDP in tax revenue. Which governance concept best explains this?"
+  type: multiple-choice
+  options:
+    - "Weak accountability — officials are not being prosecuted for wrongdoing"
+    - "Low legitimacy — citizens distrust the government and resist taxation"
+    - "Weak state capacity — the administrative apparatus lacks the systems and personnel to track and enforce tax compliance"
+    - "Poor institutional quality — the country lacks formal legal frameworks for taxation"
+  answer: 2
+  explanation: "Low corruption and accountability institutions do not automatically produce state capacity. Tax collection requires data systems, trained officials, and enforcement infrastructure. A country can be honest and checked yet still lack the administrative machinery to actually collect revenue. This illustrates that capacity, accountability, and legitimacy are distinct dimensions that must each be built."
+
+- question: "A government that delivers visible infrastructure improvements — functioning roads, reliable electricity, better schools — tends to increase voluntary tax compliance among citizens."
+  type: true-false
+  answer: true
+  explanation: "This describes the virtuous cycle of legitimacy: when citizens believe the government acts in their interest and delivers tangible results, they are more willing to pay taxes and cooperate with public programs. Greater compliance raises state revenue, enabling more service delivery, which further builds legitimacy. Governance reform is partly a strategy for triggering this upward cycle."
+
+- question: "A country with strong accountability institutions — a free press, independent judiciary, and competitive elections — will automatically have the state capacity needed to deliver public services effectively."
+  type: true-false
+  answer: false
+  explanation: "Accountability and state capacity are distinct dimensions of governance. Accountability institutions constrain and check officials, reducing corruption and aligning incentives with the public interest. But they do not themselves build the administrative infrastructure — trained civil servants, information systems, supply chains, functioning facilities — that makes service delivery possible. A country can have excellent checks on abuse of power while still lacking the capacity to execute policy."
+
+- question: "Why is low government legitimacy self-reinforcing, and what makes it difficult to escape without breaking the cycle externally?"
+  type: short-answer
+  answer: "Low legitimacy reduces citizens' willingness to pay taxes and comply with government programs, which shrinks state revenue and undermines service delivery. Worse services further erode public trust, completing the vicious cycle. Breaking out requires delivering visible wins that rebuild credibility — but doing so requires resources the state lacks precisely because legitimacy is low. External aid, targeted capacity-building investments, or quick-win projects can sometimes inject enough momentum to shift the cycle."
+  explanation: "The key insight is that legitimacy, capacity, and accountability are mutually reinforcing. Weak legitimacy starves capacity, which starves legitimacy. The trap is self-sustaining because the very resources needed to build trust (service delivery) require the revenue that only trust can generate. This explains why governance reform is slow and why exogenous shocks or targeted interventions matter."
+```
+
 ## Explainer
 
 You already know from studying **institutions and development** that the "rules of the game" — formal laws, informal norms, enforcement mechanisms — shape economic outcomes. Governance quality is about how well a state actually implements and enforces those rules. A country can have excellent laws on paper but fail completely in practice if the government lacks the capacity, willingness, or legitimacy to carry them out.

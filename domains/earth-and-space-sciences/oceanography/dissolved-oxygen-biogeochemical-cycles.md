@@ -14,7 +14,7 @@ tags:
 - biogeochemistry
 - redox
 - respiration
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - electrostatics
 - field-theory
 - forces
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

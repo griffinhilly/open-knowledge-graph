@@ -160,18 +160,16 @@ Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
 - [x] Finalize domain ordering on radial graph
   - 8-agent dialectic: Modified Arc wins. Swapped Earth & Space ↔ Chemistry for natural science adjacency.
   - Narrative: formal foundations → physical sciences → life sciences → mind → society → humanities
-- [ ] Questions generation for remaining ~12,512 topics (30-worker Sonnet swarm)
-  - Manifests built, prioritized by hub connectivity + younger developmental stages
-  - Resume after weekly token limit resets (Saturday Mar 21)
+- [x] Questions generation for ~13,505 topics (Q5 swarm + retry pass Mar 21, 99.9% coverage)
 - [x] Full-coverage validation audit (50 Haiku + 4 Sonnet + Opus dialectic referee)
   - 11,035 draft topics validated. 97.5% pass rate (98.7% after false positive filtering)
   - 6,200+ files fixed: stage inversions, bidirectional pairs, orphans/islands, shallow content, TODO placeholders
   - Dialectic-reviewed: geology prereqs, music staging, anatomy prereq direction
 - [x] Stage inversion cascade fix (5,979 promotions across 8 passes)
   - Eliminated radial ordering violations caused by stage misassignment
-- [ ] Questions generation for remaining ~12,512 topics (30-worker Sonnet swarm)
-  - Manifests built, prioritized by hub connectivity + younger developmental stages
-  - Resume after weekly token limit resets (Saturday Mar 21)
+- [x] Stage assignment audit + fix: 107 high-confidence mis-staged topics fixed across 6 courses
+  - theory-of-computation (32), cell-biology (26), research-methods-psychology (23), oceanography (17), thermodynamics (4), 1st-grade math (5)
+  - ~154 medium/low-confidence topics remain (separate pass needed)
 - [ ] Promote draft topics to validated (content validated, decision deferred)
 - [ ] Add assessment generation to GitHub Actions workflow
 - [ ] Write announcement post
@@ -191,14 +189,19 @@ Transform OKG from a static knowledge map into an interactive learning tool. Ins
   - Frontier topics get gold borders on all views
 - [ ] Better visual differentiation: hub topic labels at moderate zoom, directional edge rendering (DEFERRED)
 
-### Phase 9B: Assessment Engine — Phases 1 & 2
-- [ ] Build `generate_assessment_questions.py` — extract question bank, prioritize by hub connectivity
-- [ ] Assessment welcome screen (low-stakes framing: "trivia game, not exam")
-- [ ] Phase 1 Warm-Up: pre-formal→concrete, rapid-fire MC/TF, cross-domain rotation
-- [ ] Phase 2 Exploration: abstract→formal, adaptive per domain, "something different" + "I'm done" buttons
-- [ ] Silent response time tracking (fast/slow modulates evidence weight)
-- [ ] Asymmetric update rule (wrong answers at 0.7× penalty vs correct)
-- [ ] "Skip this domain" to dismiss uninterested domains
+### Phase 9B: Assessment Engine — Phases 1 & 2 — DONE (Mar 21, 2026)
+- [x] Build `generate_assessment_questions.py` — extract question bank, prioritize by hub connectivity
+  - 13,224 topics with questions, 63,837 total. Quiz pool: 228 warmup + 506 exploration (MC/TF only)
+- [x] Assessment welcome screen (low-stakes framing: "trivia game, not exam")
+- [x] Phase 1 Warm-Up: cross-domain MC/TF rotation, round-robin across 19 domains
+  - Warmup uses lowest available stages per domain (pre-formal/concrete where available, abstract fallback)
+- [x] Phase 2 Exploration: per-domain adaptive questioning, all stages, user picks domain
+  - "Something different", "Skip domain", "I'm done" controls
+- [x] Silent response time tracking (fast/slow modulates evidence weight via fluency.js)
+- [x] Asymmetric update rule (wrong answers at 0.7× penalty — uses fluency.js engine)
+- [x] "Skip this domain" to dismiss uninterested domains
+- [x] Quiz page: `output/quiz.html` (851 KB self-contained, embedded fluency.js + data)
+- [x] Index page updated with quiz link
 
 ### Phase 9C: Assessment Phase 3 + Results
 - [ ] Phase 3 Deep Dive: user-selected domains, formal→advanced, short-answer questions

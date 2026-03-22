@@ -27,6 +27,45 @@ Practice identifying minimal pairs in transcribed data, then construct a phoneme
 ## Common Misconceptions
 - Confusing phones (any distinct sound) with phonemes (contrastive units). Not all sounds are phonemes. - Assuming phonemes are universal; the same sound may be one phoneme in one language and two in another.
 
+## Questions
+
+```yaml
+- question: "English speakers produce an aspirated [pʰ] in 'pin' and an unaspirated [p] in 'spin.' These are physically different sounds. How should they be classified in English phonology?"
+  type: multiple-choice
+  options:
+    - "Two separate phonemes, because they are acoustically distinct sounds that any speaker can perceive"
+    - "Two allophones of a single phoneme /p/, because substituting one for the other never changes word meaning in English"
+    - "One phone shared between two different phonemes depending on context"
+    - "Phonemes in free variation, since their distribution across words is unpredictable"
+  answer: 1
+  explanation: "Phonemic status is determined by contrastive function, not acoustic distinctness. Because no English word changes meaning when you substitute [pʰ] for [p] (there is no minimal pair distinguished by aspiration alone in English), they are allophones of the same phoneme — the same phoneme appearing in different phonetic contexts. Option A is the core misconception: physical distinctness is a property of phones, not phonemes. Option D is wrong because their distribution is predictable: [pʰ] appears word-initially, [p] appears after /s/."
+
+- question: "In Korean, aspirated and unaspirated stops are separate phonemes. In English, they are allophones. A Korean learner of English notices the difference between [pʰ] and [p] but English speakers do not treat it as meaningful. The best explanation is:"
+  type: multiple-choice
+  options:
+    - "Korean speakers have more finely tuned auditory perception than English speakers due to language training"
+    - "Phonemic status is defined by the language system — what is a contrastive distinction in Korean is not contrastive in English"
+    - "The sounds are actually identical in both languages; the Korean learner is imagining a difference"
+    - "Allophones are inaudible and exist only as abstract linguistic categories with no phonetic reality"
+  answer: 1
+  explanation: "The same physical sounds can have entirely different phonemic status in different languages. Korean speakers are trained (by their language) to treat aspiration as a meaningful distinction because Korean minimal pairs depend on it. English speakers are trained to ignore that distinction because English never uses it to distinguish words. Phonemic status is a property of the language's contrastive system, not of the sounds themselves. Option A is partly true (exposure shapes perception) but misses the structural point."
+
+- question: "Any two sounds that are acoustically different must be separate phonemes — in every language, distinct sounds signal distinct meanings."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception in phoneme inventory analysis. Acoustic difference (being different phones) does not entail phonemic difference. The English sounds [pʰ] and [p] are acoustically distinct but are allophones of a single phoneme /p/ in English — no minimal pair distinguishes them. Phonemic status requires a contrastive function: the substitution must change meaning. The same sounds that are allophones in English are separate phonemes in Korean, because Korean has minimal pairs distinguished by aspiration."
+
+- question: "A minimal pair consists of two words that differ in exactly one sound and have different meanings, and identifying a minimal pair is evidence that those two sounds are distinct phonemes in that language."
+  type: true-false
+  answer: true
+  explanation: "This is the operational definition and primary test for phonemic status. 'Bat' and 'pat' differ only in their initial consonant and have different meanings, so /b/ and /p/ are distinct phonemes in English. The minimal pair test is the standard method for building a phoneme inventory: systematically search for pairs of words that contrast in a single sound position and differ in meaning. Each such pair confirms that the contrasting sounds carry phonemic status."
+
+- question: "What does it mean to say that phonemic status is 'defined by the language, not by physics'?"
+  type: short-answer
+  answer: "Phonemic status depends on whether a sound distinction is used contrastively in a particular language — whether swapping the sounds changes word meaning. The same acoustic difference between two sounds can be phonemically significant in one language (making those sounds separate phonemes) and phonemically irrelevant in another (making those sounds allophones of the same phoneme), even though the physical sounds are identical in both cases."
+  explanation: "Physics describes the acoustic properties of sounds — frequency, duration, aspiration, voicing. But phonology is about which of those physical differences languages exploit as meaning-distinguishing contrasts. English ignores aspiration; Korean uses it. English distinguishes /l/ and /r/; some languages do not. The inventory of phonemes is a property of the language's contrastive system, not a direct read-off of phonetic reality. This is why two linguists analyzing the same set of sounds in different languages can arrive at different phoneme counts."
+```
+
 ## Explainer
 
 A language's **phoneme inventory** is its roster of contrastive sounds — the sounds whose substitution changes word meaning. Building that inventory requires a methodical procedure, and the core tool is the **minimal pair**: two words that differ in exactly one sound and have different meanings. "Bat" and "pat" in English differ only in the first consonant (/b/ vs /p/), and they mean different things, so /b/ and /p/ are distinct phonemes. If swapping a sound never changes meaning in any word in the language, those sounds are not separate phonemes — they are **allophones** of the same phoneme, surface variants whose distribution is predictable.

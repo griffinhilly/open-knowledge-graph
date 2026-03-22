@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 Thermodynamic property diagrams (T-s, h-s, P-h, P-v) are graphical representations of substance properties that enable rapid design calculations for cycles and processes. The T-s diagram directly shows reversibility via enclosed areas representing work and heat. These diagrams are indispensable tools for thermodynamic cycle analysis and optimization in engineering practice.
 
+## Questions
+
+```yaml
+- question: "On a T-s diagram, what does the net enclosed area of a complete reversible thermodynamic cycle represent?"
+  type: multiple-choice
+  options:
+    - "The total heat input to the cycle"
+    - "The net work output of the cycle"
+    - "The total entropy generated during the cycle"
+    - "The thermal efficiency of the cycle as a percentage"
+  answer: 1
+  explanation: "For a reversible process, δQ_rev = T dS, so the area under a curve on a T-s diagram equals heat exchanged. For a complete cycle, the positive and negative heat areas cancel, leaving only the net enclosed area — which equals net work output (by the first law, net work = net heat for a cycle). Efficiency is dimensionless and can be read as a ratio from the diagram, but the area itself represents net work, not efficiency."
+
+- question: "An engineer plots an ideal (isentropic) and a real turbine expansion on an h-s (Mollier) diagram between the same inlet state and exit pressure. The real process endpoint lies to the right of the ideal endpoint at the same exit pressure. What does this rightward shift indicate?"
+  type: multiple-choice
+  options:
+    - "The real turbine produces more work than the ideal turbine because it reaches a higher enthalpy state"
+    - "The real expansion is faster, generating more kinetic energy that appears as higher enthalpy"
+    - "Entropy was generated due to internal irreversibilities, so actual enthalpy drop — and work output — is less than ideal"
+    - "The fluid has crossed into the two-phase dome, causing condensation losses"
+  answer: 2
+  explanation: "An ideal isentropic turbine moves vertically downward (s constant). A real turbine generates entropy due to friction and irreversibilities, so the exit state shifts rightward (higher s) at the same exit pressure. Because enthalpy is also higher at that rightward point on the isobar, the actual enthalpy drop (and thus work output) is smaller than the ideal drop. This ratio defines isentropic efficiency — readable directly from two h values on the diagram."
+
+- question: "On a T-s diagram, the Carnot cycle traces a perfect rectangle because its heat-exchange processes are isothermal and its work processes are isentropic."
+  type: true-false
+  answer: true
+  explanation: "True. Isothermal heat addition/rejection at constant T traces horizontal lines, and isentropic compression/expansion at constant s traces vertical lines. The resulting rectangle makes Carnot efficiency visually immediate: it is the ratio of the net work rectangle to the heat input area, which simplifies to (T_H - T_L) / T_H."
+
+- question: "The P-h diagram is the preferred tool for analyzing steam power (Rankine) cycles because enthalpy differences directly equal turbine and pump work."
+  type: true-false
+  answer: false
+  explanation: "False. The P-h (pressure-enthalpy) diagram is the standard tool for refrigeration and heat pump cycles, where the vapor-compression cycle plots as a near-rectangle. Rankine cycle analysis is typically done on T-s or h-s diagrams, where the teardrop shape against the two-phase dome makes superheat, reheat, and regeneration effects visually clear. Both diagrams use enthalpy differences for work, but each is optimized for different cycle geometries."
+
+- question: "Why is the T-s diagram described as 'conceptually revealing' in a way that other property diagrams are not?"
+  type: short-answer
+  answer: "The T-s diagram has a direct physical interpretation: area equals heat. This means cycle quality and irreversibility are geometrically visible — a Carnot cycle is a rectangle, real cycles deviate from it, and entropy generation shows up as rightward drift. Other diagrams (P-v, P-h) are useful for calculations but don't make thermodynamic quality and lost work visually immediate in the same way."
+  explanation: "The key is the identity δQ_rev = T dS: it connects geometry to physics. On a T-s diagram, you can literally see where a cycle loses quality — where heat is rejected at high temperature needlessly, or where irreversibilities widen the cycle. This makes the T-s diagram a diagnostic tool, not just a calculation aid."
+```
+
 ## Explainer
 
 You already know how to read a phase diagram and how to compute entropy changes for processes. Property diagrams bring those two skills together into a single graphical framework that makes thermodynamic cycle analysis visual and intuitive, replacing equation-solving with pattern recognition.

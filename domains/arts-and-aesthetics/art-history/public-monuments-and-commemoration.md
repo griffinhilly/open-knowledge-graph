@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Public monuments and commemorative art assert power, preserve memory, and construct collective identity. Monuments are always interpretations—they emphasize some historical aspects while omitting others, celebrate some people while marginalizing others, and reflect the values of those who erected them more than objective historical truth. Debates over monuments (removal of controversial statuary, memorial contestations) reveal how art in public space remains politically contested and how histories are written into the urban landscape.
 
+## Questions
+
+```yaml
+- question: "A series of Confederate monuments in the American South were primarily erected in the 1910s–1920s, decades after the Civil War ended. What does this timing most strongly suggest about these monuments?"
+  type: multiple-choice
+  options:
+    - "They accurately commemorated military valor that was overlooked in the immediate aftermath of the war"
+    - "They reflect the values and political arguments of those who erected them in the early 20th century, not neutral historical record"
+    - "They were delayed because the South lacked the resources to build them sooner"
+    - "Their historical accuracy is unaffected by when they were constructed"
+  answer: 1
+  explanation: "The timing of monument construction reveals whose values and political agenda shaped them. Monuments erected during periods of racial backlash — decades after the events they ostensibly commemorate — reflect the political climate of the erection period, not an objective assessment of history. Option A is the common mistake of treating monuments as neutral historical record rather than as interpretive acts that serve the interests of those who commissioned them."
+
+- question: "Maya Lin's Vietnam Veterans Memorial was controversial partly because it refused the traditional formal vocabulary of military commemoration. Which design choice most directly challenged heroic monument conventions?"
+  type: multiple-choice
+  options:
+    - "Using black granite instead of white marble"
+    - "Having visitors descend below ground level to approach inscribed names, producing an experience of loss rather than triumph"
+    - "Listing 58,000 names rather than depicting specific heroic figures"
+    - "Placing the memorial on the National Mall rather than a military base"
+  answer: 1
+  explanation: "The descent into the earth is a deliberate formal inversion of the elevated-pedestal heroic monument. Where traditional equestrian statues project authority and triumph through height and commanding posture, Lin's memorial uses descent and the accumulation of individual names to force an encounter with death rather than glory. All the listed choices were unconventional, but the sunken design most directly inverted the spatial rhetoric of elevation that defines traditional military commemoration."
+
+- question: "A monument's formal choices — scale, material, placement — constitute its rhetorical argument; they are not merely decorative decisions."
+  type: true-false
+  answer: true
+  explanation: "The formal vocabulary is inseparable from the monument's argument. Lin's sunken wall and Eisenman's disorienting concrete grid both use formal choices to produce specific experiences — loss, disorientation — rather than simply to decorate a message. How high a figure stands, whether visitors approach from below or above, whether the material is durable bronze or ephemeral — these ARE the argument. Treating form as decoration separate from content misses how commemorative art works."
+
+- question: "Removing a contested monument erases the historical record of the person or event it commemorated."
+  type: true-false
+  answer: false
+  explanation: "This is perhaps the most common misconception in monument debates. The historical record exists in archives, books, museums, and scholarship — it does not live in the monument. Removing a monument is a statement about what a community chooses to publicly honor, not about what happened. Confederate generals whose statues are removed from public squares remain in history books. Removal changes public endorsement, not historical knowledge."
+
+- question: "Why does the physical permanence of monuments create ongoing political contestation even long after the original political context that produced them has changed?"
+  type: short-answer
+  answer: "A monument occupies public space across generations, continuously asserting the argument of those who erected it. When political consensus shifts — when the values that produced the monument are no longer shared — the permanent physical object creates a collision between past and present values. The monument keeps making its original argument regardless of whether contemporary communities endorse it, making its presence or removal a live political question rather than a settled historical one."
+  explanation: "This is why monument debates are heated even long after the events commemorated. The permanence that makes monuments powerful — their ability to assert claims across time — is also what makes them politically volatile when those claims become contested. Unlike a book that can be shelved, a monument in a central square continues to assert public honor. Leaving a contested monument in place is not neutrality — it is an ongoing endorsement of its original argument."
+```
+
 ## Explainer
 
 A monument is never just a statue on a pedestal. Every public monument is a **rhetorical argument** cast in stone or bronze — an argument about who matters, what events deserve remembering, and which version of history should be treated as settled. If you have studied how art functions as political intervention and how art-historical context shapes interpretation, you already have the tools to read monuments critically. The next step is understanding the specific mechanisms through which commemorative art does its work in public space.

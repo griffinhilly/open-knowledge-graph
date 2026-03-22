@@ -16,7 +16,7 @@ tags:
 - DNA
 - chromatin
 - nuclear-envelope
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

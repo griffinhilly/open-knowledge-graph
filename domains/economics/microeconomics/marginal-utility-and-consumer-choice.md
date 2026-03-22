@@ -33,6 +33,45 @@ Build a marginal utility table from a total utility table, then apply the equima
 - Diminishing marginal utility does not mean total utility falls — total utility keeps rising as consumption rises; only the *rate* of increase slows.
 - Students sometimes misapply the consumer equilibrium condition by comparing MU levels rather than MU-per-dollar ratios.
 
+## Questions
+
+```yaml
+- question: "A consumer is spending her last $10. Music downloads cost $2 each and give her MU = 8 per download; snacks cost $1 each and give her MU = 6 per snack. To maximize utility, she should spend on:"
+  type: multiple-choice
+  options:
+    - "Music downloads — higher marginal utility per unit"
+    - "Snacks — higher marginal utility per dollar (6 vs. 4)"
+    - "Split evenly — averaging the two goods gives the best outcome"
+    - "Neither — she should save the $10 since MU is diminishing"
+  answer: 1
+  explanation: "The equimarginal principle says to compare MU per dollar (MU/P), not raw MU levels. Snacks yield MU/P = 6/1 = 6; downloads yield MU/P = 8/2 = 4. Every dollar spent on snacks buys more utility than every dollar on downloads. The tempting wrong answer (option A) compares MU levels directly — the classic mistake of ignoring price differences."
+
+- question: "A consumer eats a 6th slice of pizza even though they are quite full. What must be true?"
+  type: multiple-choice
+  options:
+    - "The marginal utility of the 6th slice is positive, even if lower than the 5th"
+    - "The marginal utility of the 6th slice is zero — they are indifferent"
+    - "Total utility has begun to decrease with the 6th slice"
+    - "The law of diminishing marginal utility has been violated"
+  answer: 0
+  explanation: "The consumer voluntarily ate the 6th slice, which means it added positive (if declining) utility. Diminishing marginal utility means MU falls with each additional unit — not that it becomes zero or negative. Total utility is still rising (each slice still contributes something); only the rate of increase is slowing. MU would need to be negative for total utility to actually fall."
+
+- question: "The law of diminishing marginal utility implies that a consumer's total utility eventually decreases as they consume more of a good."
+  type: true-false
+  answer: false
+  explanation: "Diminishing marginal utility means total utility grows at a decreasing rate — each additional unit adds less than the previous one. But as long as marginal utility remains positive (even if small), total utility continues to rise. Total utility only decreases if marginal utility becomes negative. The law of diminishing MU describes the slope of MU, not a downturn in total utility."
+
+- question: "If MU_x / P_x > MU_y / P_y, a utility-maximizing consumer should reallocate spending toward good X until the ratio equalizes."
+  type: true-false
+  answer: true
+  explanation: "When MU/P is higher for X than Y, every dollar shifted from Y to X yields a net gain in utility. As spending on X increases, its MU falls due to diminishing returns, lowering the ratio MU_x/P_x. As spending on Y decreases, MU_y rises, raising MU_y/P_y. The consumer keeps reallocating until the ratios are equal — the consumer equilibrium condition. This is the equimarginal principle."
+
+- question: "Why is the consumer equilibrium condition MU_x/P_x = MU_y/P_y, rather than simply MU_x = MU_y?"
+  type: short-answer
+  answer: "Because consumers allocate dollars, not units. The relevant comparison is how much utility each dollar buys in each use. If goods have different prices, equal MU levels don't indicate equal bang-per-buck. The consumer should direct each dollar to its highest-utility use, which means equating MU per dollar across all goods, not MU levels."
+  explanation: "The price normalization is essential. A $10 item with MU = 20 gives MU/P = 2; a $1 item with MU = 10 gives MU/P = 10. Even though the expensive item has higher MU, the cheap item delivers five times more utility per dollar. Comparing raw MU ignores the constraint that spending $1 on the expensive good only buys 1/10 of a unit."
+```
+
 ## Explainer
 
 From your study of utility theory, you know that utility represents satisfaction and that consumers try to maximize it subject to their budget. **Marginal utility** is the tool that makes this maximization concrete and tractable. It asks: if you have one more unit of a good, how much additional satisfaction do you get? The word "marginal" — which you may recognize from its use in marginal cost analysis — always means "the next unit," not the total or the average.

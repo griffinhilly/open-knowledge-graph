@@ -15,7 +15,7 @@ tags:
 - within-subject
 - ABAB
 - N-of-1
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

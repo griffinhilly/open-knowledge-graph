@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Stratified analysis divides data by levels of a confounder to examine the exposure-outcome association within homogeneous strata, then combines stratum-specific estimates (e.g., via Mantel-Haenszel). This approach allows simultaneous control of confounding and detection of effect modification. Stratification is transparent and interpretable but becomes cumbersome with multiple confounders.
 
+## Questions
+
+```yaml
+- question: "A study of aspirin use and stroke finds a crude OR = 0.5, suggesting strong protection. After stratifying by age, the OR is 0.85 in younger adults and 0.80 in older adults. What does this pattern indicate?"
+  type: multiple-choice
+  options:
+    - "Age is an effect modifier; stratum-specific ORs must be reported separately"
+    - "The crude OR is still the most valid estimate because it reflects the real-world distribution of age"
+    - "Negative confounding was present — age made aspirin appear more protective than it is; the adjusted estimate near 0.82 is more valid"
+    - "The study should be discarded because the crude and adjusted estimates disagree"
+  answer: 2
+  explanation: "The stratum-specific ORs (0.85, 0.80) are homogeneous — no effect modification — but both differ from the crude OR (0.5). This is classic negative confounding: age was associated with both aspirin use and stroke risk in a way that exaggerated aspirin's protective effect. Within strata, age cannot confound because it does not vary. The Mantel-Haenszel adjusted OR near 0.82 is the valid, confounder-controlled estimate."
+
+- question: "A study of a new drug finds OR = 0.5 among women and OR = 3.0 among men. A researcher computes a Mantel-Haenszel summary OR of 1.1 and plans to report it as the confounder-adjusted estimate. What is wrong with this approach?"
+  type: multiple-choice
+  options:
+    - "The Mantel-Haenszel method requires at least three strata to be valid"
+    - "The large difference between stratum-specific ORs indicates effect modification; combining them into a single summary obscures a real and clinically important difference"
+    - "A summary OR of 1.1 is too close to the null and therefore meaningless"
+    - "Nothing is wrong; combining stratum-specific estimates via Mantel-Haenszel is always appropriate after stratification"
+  answer: 1
+  explanation: "Substantial heterogeneity across strata — OR = 0.5 versus OR = 3.0 — signals effect modification, not simple confounding. Sex is not just distorting the overall estimate; the drug's effect is genuinely different in men and women. A summary OR of 1.1 would falsely suggest near-null association and hide both the benefit in women and the harm in men. When effect modification is present, stratum-specific estimates must be reported."
+
+- question: "Within a stratum defined by a single level of a confounder (e.g., all current smokers), that confounder cannot distort the exposure-outcome association because it does not vary within the stratum."
+  type: true-false
+  answer: true
+  explanation: "Confounding requires the confounder to be associated with both the exposure and the outcome. Inside a stratum where everyone has the same confounder value, there is no variation — so there is no association between the confounder and exposure or outcome within that stratum. The distortion disappears, and the stratum-specific exposure-outcome estimate reflects the true association."
+
+- question: "When stratum-specific effect estimates differ substantially across strata, the Mantel-Haenszel method should be used to pool them into a single confounder-adjusted summary estimate."
+  type: true-false
+  answer: false
+  explanation: "Substantial heterogeneity across strata means the stratifying variable is an effect modifier, not merely a confounder. The Mantel-Haenszel estimator assumes homogeneity — that a single underlying effect exists across strata. Pooling heterogeneous estimates produces a misleading average that correctly describes no subgroup. The right response is to report stratum-specific estimates and describe the interaction."
+
+- question: "Stratified analysis simultaneously controls for confounding and tests for effect modification. Explain why these two goals lead to different decisions about how to report results."
+  type: short-answer
+  answer: "If stratum-specific estimates are homogeneous (similar across strata), the stratifying variable is a confounder and a single Mantel-Haenszel adjusted estimate is appropriate — it removes the distortion while efficiently summarizing the exposure effect. If stratum-specific estimates differ substantially, the variable modifies the effect — the association is genuinely different across groups. In that case, a combined summary misrepresents reality and stratum-specific estimates must be reported separately to capture who benefits and who is harmed."
+  explanation: "The decision hinge is heterogeneity: homogeneous strata → confounding → combine; heterogeneous strata → effect modification → report separately. Failing to distinguish these leads either to spurious summary estimates or to missed interactions that are central to clinical and public health decisions."
+```
+
 ## Explainer
 
 You already understand confounding: a variable associated with both the exposure and the outcome distorts the apparent exposure–outcome relationship. The intuitive fix is simple — look at the exposure–outcome association *separately* within groups that are homogeneous with respect to the confounder. Within each stratum, the confounder cannot confound because it does not vary. If the crude (unstratified) association differs from the stratum-specific associations, confounding was present and the stratum-specific estimates are the valid ones.

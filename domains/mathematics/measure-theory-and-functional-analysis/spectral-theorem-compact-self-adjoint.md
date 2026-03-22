@@ -20,6 +20,45 @@ status: draft
 ## Core Idea
 The spectral theorem for compact self-adjoint operators states that such an operator T on a Hilbert space has an orthonormal basis of eigenvectors with eigenvalues λₙ → 0. This is the infinite-dimensional analogue of matrix diagonalization and is foundational for applications.
 
+## Questions
+
+```yaml
+- question: "A compact self-adjoint operator T on an infinite-dimensional Hilbert space has eigenvalues λ₁, λ₂, λ₃, … Why must these eigenvalues converge to zero?"
+  type: multiple-choice
+  options:
+    - "Self-adjointness forces all eigenvalues to be real, and the only real sequence that is well-defined in infinite dimensions must converge to zero"
+    - "If the eigenvalues did not converge to zero, the corresponding unit eigenvectors would form a bounded sequence with no convergent subsequence, contradicting compactness"
+    - "The Hilbert space inner product requires orthonormal sequences to decay in norm, pulling eigenvalues toward zero"
+    - "Eigenvalues converge to zero only if the operator has a trivial kernel; for general T, they may stay bounded"
+  answer: 1
+  explanation: "Compactness means T maps the unit ball to a precompact set. If some |λₙ| ≥ ε > 0 for infinitely many n, then the unit eigenvectors {eₙ} (with ‖eₙ‖ = 1) would satisfy ‖Teₙ - Teₘ‖ = ‖λₙeₙ - λₘeₘ‖ ≥ ε√2 for n ≠ m (since eigenvectors for distinct eigenvalues are orthogonal). This bounded sequence {eₙ} would have no convergent subsequence under T, contradicting compactness. Self-adjointness alone imposes no such constraint on eigenvalue magnitude."
+
+- question: "Which of the following correctly distinguishes the spectral theorem for compact self-adjoint operators from the finite-dimensional spectral theorem for symmetric matrices?"
+  type: multiple-choice
+  options:
+    - "In infinite dimensions, eigenvectors need not be orthogonal; the self-adjoint condition is required to restore orthogonality"
+    - "In infinite dimensions, eigenvalues can be complex; the compact condition restricts them to the real line"
+    - "In infinite dimensions, the eigenvalues must converge to zero — a constraint absent in finite dimensions — forced by the compactness condition"
+    - "In infinite dimensions, the operator may fail to have any eigenvectors at all, so the theorem applies only to operators with nonempty point spectrum"
+  answer: 2
+  explanation: "The finite-dimensional spectral theorem for symmetric matrices guarantees real eigenvalues and an orthonormal eigenbasis, with no constraint on the size of eigenvalues. In infinite dimensions, both results carry over — but compactness imposes the additional requirement that λₙ → 0. Without this condition, the operator could not be compact. Self-adjointness ensures orthogonality of eigenvectors for distinct eigenvalues in both settings."
+
+- question: "A nonzero eigenvalue of a compact self-adjoint operator must have finite multiplicity (the eigenspace is finite-dimensional)."
+  type: true-false
+  answer: true
+  explanation: "If a nonzero eigenvalue λ had infinite multiplicity, there would be infinitely many orthonormal eigenvectors {eₙ} in the eigenspace, all satisfying Teₙ = λeₙ. Since {eₙ} is bounded (‖eₙ‖ = 1), compactness requires {Teₙ} = {λeₙ} to have a convergent subsequence. But ‖λeₙ - λeₘ‖ = |λ|√2 for n ≠ m (by orthonormality), so no subsequence can converge — a contradiction. Therefore any nonzero eigenvalue has finite-dimensional eigenspace."
+
+- question: "The eigenvalues of a compact self-adjoint operator converge to zero because of self-adjointness — specifically, because the self-adjoint condition ⟨Tx, y⟩ = ⟨x, Ty⟩ forces the spectrum to shrink."
+  type: true-false
+  answer: false
+  explanation: "Self-adjointness is not the reason eigenvalues converge to zero. Self-adjointness ensures eigenvalues are real and eigenvectors for distinct eigenvalues are orthogonal — but it places no bound on the magnitude of eigenvalues. A symmetric matrix (self-adjoint on a finite-dimensional space) can have arbitrarily large eigenvalues. The convergence λₙ → 0 is a consequence of compactness: a compact operator 'collapses' the unit sphere, and eigenvalues measure how much it stretches along each eigendirection — those stretches must go to zero."
+
+- question: "Why must the eigenvalues of a compact self-adjoint operator converge to zero, and what would go wrong if they did not?"
+  type: short-answer
+  answer: "If the eigenvalues did not converge to zero, there would be infinitely many orthonormal eigenvectors {eₙ} with |λₙ| ≥ ε > 0. The sequence {eₙ} is bounded, so compactness would require {Teₙ} = {λₙeₙ} to have a norm-convergent subsequence. But since the eₙ are orthonormal, ‖λₙeₙ - λₘeₘ‖ ≥ ε√2 for all n ≠ m, so no subsequence can converge. This contradicts compactness, so the assumption fails and the eigenvalues must go to zero."
+  explanation: "The convergence λₙ → 0 is the spectral signature of compactness: a compact operator is 'almost finite-rank' in the sense that its action is well approximated by projections onto finitely many eigendirections. The eigenvalues measure the operator's 'influence' along each eigendirection, and compactness forces this influence to become negligible in the limit — a fact with no analogue in finite dimensions, where all eigenvalues are fixed."
+```
+
 ## Explainer
 
 In finite dimensions, the spectral theorem for symmetric (self-adjoint) matrices tells you something remarkable: every real symmetric matrix can be diagonalized by an orthonormal basis of eigenvectors, and all its eigenvalues are real. This is the foundation for principal component analysis, vibration analysis, and quantum mechanics in finite-dimensional settings. The spectral theorem for compact self-adjoint operators is the correct generalization to infinite-dimensional Hilbert spaces — but some care is needed, because infinite-dimensional spaces behave quite differently from finite-dimensional ones.

@@ -31,6 +31,45 @@ Malnutrition encompasses both undernutrition and overnutrition. Protein-energy m
 - Malnutrition only means not having enough food; excessive intake of nutrient-poor energy-dense foods is also malnutrition.
 - Stunting is only a height deficit; early childhood undernutrition causes lasting impairments in cognitive development, immune function, and adult earning potential.
 
+## Questions
+
+```yaml
+- question: "A child in a refugee camp receives adequate calories primarily from starchy foods but very little protein. After several weeks, the child develops a swollen abdomen and edema in the limbs. Which condition does this most likely represent, and what is its primary mechanism?"
+  type: multiple-choice
+  options:
+    - "Marasmus, caused by severe total caloric deficiency leading to muscle wasting"
+    - "Kwashiorkor, caused by protein deficiency impairing oncotic pressure in blood vessels"
+    - "Marasmus, caused by vitamin deficiencies from an unvaried starchy diet"
+    - "Kwashiorkor, caused by excess carbohydrate intake overwhelming the liver"
+  answer: 1
+  explanation: "Kwashiorkor results from severe protein deficiency even when caloric intake is adequate. Without sufficient protein, albumin levels fall, reducing oncotic pressure — the osmotic force keeping fluid inside blood vessels. Fluid leaks into tissues (edema), producing the swollen appearance that can be mistaken for adequate nutrition. Marasmus involves wasting from total caloric deficiency, producing emaciation without edema."
+
+- question: "A country has high agricultural output and exports food, yet surveys show widespread child stunting and adult obesity coexisting in the same communities. Which pillar of food security is most directly implicated in the child stunting?"
+  type: multiple-choice
+  options:
+    - "Availability — the country does not produce enough total food"
+    - "Access — food may exist but poor households cannot afford nutritious food"
+    - "Utilization — the children are absorbing nutrients poorly due to gut disease"
+    - "Stability — food supply is disrupted by seasonal conflict"
+  answer: 1
+  explanation: "Adequate agricultural output and food exports rule out availability as the primary issue. The double burden pattern — stunted children alongside obese adults in the same households — suggests poor families can afford cheap energy-dense food (driving obesity) but not nutritionally adequate food (driving stunting). This is an access failure: food exists but is not economically reachable for all."
+
+- question: "Kwashiorkor is caused by a severe deficit of total calories, which is why affected children have the wasted, emaciated appearance typical of starvation."
+  type: true-false
+  answer: false
+  explanation: "Kwashiorkor is caused by severe protein deficiency, not total caloric deficiency, and it does not produce emaciation. Affected children may have adequate caloric intake from carbohydrates. The hallmark is edema — swollen abdomen and limbs — caused by low albumin reducing oncotic pressure. The edema can make children appear 'chubby' even while severely malnourished. Emaciation without edema is the presentation of marasmus, the caloric-deficiency condition."
+
+- question: "A population can simultaneously experience undernutrition (such as stunting and micronutrient deficiencies) and overnutrition (such as obesity) within the same community."
+  type: true-false
+  answer: true
+  explanation: "This is the double burden of malnutrition, increasingly documented in low- and middle-income countries. Cheap energy-dense but nutrient-poor foods can drive adult obesity while children in the same households remain stunted or micronutrient-deficient. The two conditions are not mutually exclusive — and interventions focused only on increasing caloric availability can worsen overnutrition without addressing qualitative nutritional gaps."
+
+- question: "Why is increasing food availability alone insufficient to eliminate malnutrition? What other dimensions of food security must be addressed?"
+  type: short-answer
+  answer: "Food security requires not just availability but also access (whether people can afford nutritious food), utilization (whether the body can absorb nutrients, which can be impaired by disease or poor water quality), and stability (whether access is reliable across seasons and crises). Poverty, inequality, conflict, and structural barriers can prevent nutritious food from reaching those who need it even when it is produced in abundance."
+  explanation: "Many malnourished people live in regions with adequate food production. The four-pillar framework shows that growing more food solves only the availability problem. If poor households cannot afford nutritious food (access), if gut infections impair absorption (utilization), or if seasonal conflict cuts supply (stability), malnutrition persists despite high agricultural output. Addressing it requires economic, governance, and public health interventions alongside agricultural ones."
+```
+
 ## Explainer
 
 The word "malnutrition" trips most people because it sounds like "too little food." But the prefix *mal-* means *bad*, not *insufficient* — and bad nutrition can go in two directions. Your earlier study of dietary guidelines gave you a picture of what adequate nutrition looks like: a balanced supply of macronutrients, micronutrients, and calories calibrated to physiological need. Malnutrition is any meaningful departure from that balance, whether from too little, too much, or wrong composition.

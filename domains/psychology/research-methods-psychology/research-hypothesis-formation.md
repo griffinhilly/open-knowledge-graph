@@ -15,7 +15,7 @@ tags:
 - falsifiability
 - null-hypothesis
 - prediction
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

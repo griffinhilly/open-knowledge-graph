@@ -33,6 +33,45 @@ Perform experiments on inclined planes, measuring angles at which objects start 
 - Confusing when to use μₛ versus μₖ in problems.
 - Treating friction direction incorrectly (it opposes relative motion or impending motion).
 
+## Questions
+
+```yaml
+- question: "A 10 kg block sits on a surface (μₛ = 0.4, μₖ = 0.3, g = 10 m/s²). Normal force is 100 N, so maximum static friction is 40 N. You apply a 25 N horizontal force. What is the actual friction force on the block?"
+  type: multiple-choice
+  options:
+    - "25 N — static friction adjusts to balance the applied force exactly, since 25 N < 40 N"
+    - "40 N — static friction always acts at its maximum value μₛN"
+    - "30 N — kinetic friction applies because the block is in contact with the surface"
+    - "0 N — friction only activates when the block is moving"
+  answer: 0
+  explanation: "Static friction is a reaction force: it matches the applied force to maintain equilibrium, up to its maximum μₛN. With 25 N applied and a 40 N maximum, the block stays stationary with friction = 25 N. Option B is the classic mistake — μₛN is the ceiling, not the default value. Kinetic friction (option C) only applies once sliding begins, and it remains constant at μₖN regardless of the applied force."
+
+- question: "A wooden crate is being pushed across a concrete floor at constant velocity. To find the friction force opposing its motion, which coefficient should you use?"
+  type: multiple-choice
+  options:
+    - "Kinetic friction coefficient μₖ — the crate is sliding, so kinetic friction applies"
+    - "Static friction coefficient μₛ — constant velocity means equilibrium, so static friction is balancing the push"
+    - "Either — they are approximately equal for most surfaces"
+    - "The average of μₛ and μₖ — transitional motion uses a blended value"
+  answer: 0
+  explanation: "Once surfaces are in relative sliding motion, kinetic friction applies — always. The fact that velocity is constant means the net force is zero, but that is a consequence of the applied push equaling μₖN, not an indication that static friction is at work. Static friction only applies when surfaces are not sliding. μₛ > μₖ for essentially all real material pairs, so using μₛ would give an overestimate."
+
+- question: "Static friction always equals μₛN whenever the surfaces in contact are stationary."
+  type: true-false
+  answer: false
+  explanation: "Static friction is a variable reaction force in the range 0 ≤ f_s ≤ μₛN. It equals exactly what equilibrium demands — no more, no less. When no horizontal force acts on a stationary block, static friction is zero. As applied force increases, static friction increases to match it. Only at the moment of impending motion does it reach μₛN. Treating μₛN as the default value leads to incorrect free-body diagrams."
+
+- question: "It requires more force to start sliding two surfaces against each other than to sustain that sliding, because μₛ > μₖ."
+  type: true-false
+  answer: true
+  explanation: "This asymmetry is fundamental to friction analysis. The maximum static friction force (μₛN) exceeds the kinetic friction force (μₖN) because μₛ > μₖ for all common surface pairs. In practice, this produces the familiar 'snap': you push harder and harder until the object breaks loose, then it suddenly accelerates — because the force you were applying (just above μₛN) now exceeds the smaller kinetic resistance (μₖN). ABS brakes exploit this by keeping tires in the static regime."
+
+- question: "Explain why the friction force on a stationary block increases as you push harder, up to a point, and then suddenly drops when the block starts moving."
+  type: short-answer
+  answer: "Before the block moves, static friction is a reaction force that adjusts to maintain equilibrium — it exactly cancels the applied force, so the net force stays zero. When the applied force reaches μₛN (the maximum static friction), equilibrium can no longer be maintained and sliding begins. Once sliding, friction switches to kinetic friction f_k = μₖN, which is fixed and smaller than μₛN. Since the applied force now exceeds f_k, the net force is nonzero and the block accelerates."
+  explanation: "The key is the distinction between static friction as a variable reaction force (0 to μₛN) and kinetic friction as a fixed value (μₖN). The 'snap' moment — when the block breaks loose and suddenly moves faster — occurs precisely because μₛ > μₖ. There is no smooth transition; once the static limit is exceeded, the friction force drops discontinuously from μₛN to μₖN."
+```
+
 ## Explainer
 
 **Static friction** is a variable force, and that variability is the first thing to internalize. When a block rests on a surface with no applied horizontal force, the friction force is zero — there is nothing to resist, so friction contributes nothing. Apply a small horizontal push, and static friction matches it exactly to maintain equilibrium. Push harder, and friction increases again to match. This continues up to a ceiling: f_s ≤ μₛN. The coefficient of static friction μₛ characterizes the threshold where the surfaces can no longer hold, not the friction magnitude in general. Before that threshold, static friction is a reaction force that adjusts to whatever equilibrium requires.

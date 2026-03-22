@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Deleuze and Guattari develop assemblage theory as an alternative to hierarchical structures—assemblages are heterogeneous collections of human and nonhuman elements that function through connections and intensities. Becoming describes continuous transformation and variation, producing difference rather than reproducing identity. Literary texts can be read as assemblages with lines of flight—trajectories of escape from dominant structures and fixed meanings.
 
+## Questions
+
+```yaml
+- question: "A literary critic interprets Gregor Samsa's transformation in Kafka's *The Metamorphosis* as a symbol of alienation from modern labor. From a Deleuzian assemblage perspective, this interpretation is problematic primarily because:"
+  type: multiple-choice
+  options:
+    - "Kafka's text contains no stable meanings, making any interpretation equally arbitrary"
+    - "It treats the transformation as encoding a fixed meaning to be decoded rather than as a line of flight from the family-workplace-debt assemblage"
+    - "Alienation theory is a Marxist concept that is logically incompatible with post-structuralist analysis"
+    - "Assemblage theory requires focusing on the author's biography rather than on textual symbols"
+  answer: 1
+  explanation: "The assemblage approach asks what a text does and where its lines of flight are, not what its symbols mean. Gregor's transformation is most productively read as a deterritorialization — an escape trajectory from the assemblage organizing his existence — not as a symbol decoding to 'alienation.' Option A misrepresents assemblage theory, which is not about arbitrary interpretation but about tracing connections and effects. Option C is incorrect; assemblage theory can engage with Marxist concepts. Option D is wrong; assemblage theory deliberately moves away from author-centered readings."
+
+- question: "An assemblage, in Deleuze and Guattari's sense, is unified by:"
+  type: multiple-choice
+  options:
+    - "A shared essence or identity that all its elements participate in"
+    - "A central organizing principle or origin that generates the parts in a hierarchical structure"
+    - "The connections and interactions between heterogeneous elements — people, objects, affects, ideas — that produce effects"
+    - "A common function or purpose that defines what the assemblage exists to do"
+  answer: 2
+  explanation: "Assemblages are explicitly not unified by shared essence (option A), hierarchical origin (option B), or teleological function (option D). What holds them together are connections and the intensities they produce — how elements interact and what capacities emerge from their linkages. A school is not an assemblage because all its elements share 'school-ness'; it is an assemblage because of how students, teachers, schedules, affects, texts, and spaces connect and affect each other."
+
+- question: "A 'line of flight' in assemblage theory refers to a trajectory of escape or deterritorialization from an existing assemblage — a process of becoming-other rather than an arrival at a fixed destination."
+  type: true-false
+  answer: true
+  explanation: "Lines of flight (*lignes de fuite*) are trajectories along which an assemblage is destabilized, transformed, or escaped. They are processes, not endpoints. In Gregor's becoming-insect, the point is not that he arrives at 'being an insect' as a resolved state, but that the transformation is a process of deterritorialization from the assemblage that organized his life. Emphasis on process and becoming-other rather than fixed endpoints is central to Deleuze and Guattari's thinking."
+
+- question: "Assemblage theory replaces the tree model with the rhizome, but both are hierarchical models — the rhizome simply has more branches and a more complex hierarchical structure than the tree."
+  type: true-false
+  answer: false
+  explanation: "This fundamentally misunderstands the distinction. The rhizome is explicitly non-hierarchical and decentered: it has no root from which everything else flows, no trunk generating branches. Connections can be made between any two points without passing through a center. Tree thinking flows from a single origin (root → trunk → branches → leaves); the rhizome propagates laterally, has only middles, and can be entered or connected at any point. The difference is ontological, not a matter of structural complexity."
+
+- question: "What is the difference between asking 'what does this text mean?' and asking 'what does this text do?' in terms of assemblage theory, and why does the distinction matter?"
+  type: short-answer
+  answer: "Asking 'what does this text mean?' assumes the text encodes a message that interpretation should decode — tracing surface elements back to underlying symbols, authorial intentions, or foundational meanings. Asking 'what does this text do?' treats the text as an assemblage that produces effects: which connections does it enable, what intensities does it generate in readers, where are its lines of flight, and what transformations or becomings does it facilitate? The distinction matters because assemblage theory claims meaning-extraction misses the real action — texts produce conditions for certain experiences and deterritorializations rather than containing fixed contents."
+  explanation: "The shift from meaning to effect is part of the broader move from interpretation (decoding what is already there) to mapping (tracing how things connect and what they produce). For Deleuze and Guattari, literary machines produce certain effects rather than contain certain meanings, and the productive question is always about function, connection, and intensity — not symbol and reference."
+```
+
 ## Explainer
 
 Post-structuralism taught you to be suspicious of centers, fixed meanings, and stable hierarchies. Derrida showed that texts defer meaning endlessly through différance; Foucault showed that discourse produces the subjects and truths it seems merely to describe. Deleuze and Guattari's assemblage theory goes further: rather than just deconstructing structures, it offers an alternative ontology — a way of describing how things actually work that is not hierarchical and not centered from the start.

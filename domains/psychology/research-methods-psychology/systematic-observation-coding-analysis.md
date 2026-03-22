@@ -13,7 +13,7 @@ tags:
 - behavioral-coding
 - structured-observation
 - naturalistic-settings
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

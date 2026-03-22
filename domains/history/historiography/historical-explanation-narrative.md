@@ -32,6 +32,45 @@ Analyze how historians narrate the same event (a revolution, war, cultural shift
 ## Common Misconceptions
 - Confusing narrative with pure chronology; narrative must show causal connections between events. - Thinking only broad synthetic narratives explain; microhistories and narrowly-scoped narratives are equally explanatory.
 
+## Questions
+
+```yaml
+- question: "Two historians write accounts of the French Revolution: one centers Louis XVI's indecisiveness and court politics; the other centers grain shortages and popular hunger. Both are factually accurate. What does this divergence reveal about historical narrative?"
+  type: multiple-choice
+  options:
+    - "One account must be wrong because there can only be one correct explanation for a historical event"
+    - "The two accounts differ in narrative structure, which reflects differing implicit arguments about which causal forces were most significant"
+    - "Narrative differences are purely stylistic and have no bearing on the explanatory content of the history"
+    - "The accounts are supplementary, and the full explanation is simply their addition"
+  answer: 1
+  explanation: "The choice of what to foreground — royal decisions vs. structural economic conditions — is not merely stylistic. It embeds an argument about causal priority: was the Revolution primarily contingent on leadership failures, or was it structurally inevitable given material conditions? This is what historians call emplotment: the shaping of events into a story implicitly argues for which forces drove outcomes. Narrative form IS causal argument. Option D is tempting but wrong: combining two incompatible emplotments doesn't produce a coherent synthesis — it produces an incoherent narrative."
+
+- question: "A covering-law explanation states that a metal bridge collapsed because all metal structures fail when stress exceeds yield strength. Which feature of historical events makes this explanatory model inadequate for history?"
+  type: multiple-choice
+  options:
+    - "Historical events are too distant in time to gather sufficient evidence for law-based explanations"
+    - "History deals only with unique events, but uniqueness alone prevents generalization, not explanation"
+    - "Historical events involve human agents whose actions are intelligible only through their intentions and interpretations of their situation, not through universal laws"
+    - "Historians cannot run controlled experiments, so they cannot test whether a covering law applies"
+  answer: 2
+  explanation: "The covering-law model works for the bridge because the causal mechanism doesn't depend on what the bridge meant to do. Human action is different: to explain why Bismarck provoked the Austro-Prussian War, you must reconstruct what he understood, what he intended, and how his choices intersected with others' reactions. These are irreducibly intentional explanations that require narrative tracing a sequence of meaningful actions — not subsumption under a universal law. Options A and D identify real methodological challenges in history but not the fundamental reason covering laws fail."
+
+- question: "The selection of which events to include in a historical narrative is itself a form of causal argument about which forces most shaped the outcome."
+  type: true-false
+  answer: true
+  explanation: "What historians foreground and background is not a neutral editorial choice — it embeds claims about causal significance. A narrative of the Civil Rights Movement that centers individual leaders makes a different causal argument than one centering grassroots organizing networks, even if both include the same events. This is what makes narrative intrinsically interpretive: the structure of the account argues for a particular explanation, and making these commitments explicit is a core obligation of historical scholarship."
+
+- question: "A well-constructed historical narrative and a simple chronology both explain historical events; they differ only in literary quality and readability."
+  type: true-false
+  answer: false
+  explanation: "Chronology arranges events in time sequence but makes no explicit claim about causal connection. Narrative does something fundamentally different: it shows *why* events unfolded as they did by linking them through intentional action, contingency, and consequence. A list of dates around the French Revolution is not an explanation of the Revolution; a narrative that shows how royal financial crisis, Enlightenment ideology, and food shortages intersected to make revolutionary action intelligible is. The explanatory work is done by the narrative's causal structure, not its chronological ordering."
+
+- question: "Why can't the covering-law model of scientific explanation be straightforwardly applied to historical events, and what does narrative offer in its place?"
+  type: short-answer
+  answer: "The covering-law model explains events by subsuming them under universal generalizations ('whenever X conditions obtain, Y follows'). Historical events resist this because they involve human agents acting on the basis of beliefs, intentions, and interpretations — and because they are unrepeatable and contingent. Narrative substitutes a different explanatory logic: it shows how a sequence of intentional actions and circumstances made a particular outcome intelligible and possible, without claiming it was inevitable. Narrative preserves contingency while still explaining why things went as they did."
+  explanation: "This is what W.H. Walsh called colligation — binding events together under a concept that makes their connection visible. The explanatory power of narrative lies not in its literary qualities but in its ability to trace chains of intentional causation through time, showing how agents understood their situations and how their actions interacted. Scientific explanation abstracts away from individual agents; historical explanation depends on them."
+```
+
 ## Explainer
 
 From historical causation theory and narrative theory, you already know that explanation in history requires more than identifying causal antecedents and that narrative is a distinct mode of organizing historical knowledge, not just a literary decoration applied to facts. Now the question is: how does narrative actually function as a form of **explanation**? The claim here is strong — not just that historians use narrative style, but that the narrative form is doing genuine explanatory work that no other representation of historical evidence could fully replace.

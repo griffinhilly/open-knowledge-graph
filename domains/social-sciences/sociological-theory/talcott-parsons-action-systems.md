@@ -22,6 +22,43 @@ status: draft
 ## Core Idea
 Parsons developed a comprehensive systems theory in which social action is organized through four functional imperatives: adaptation (economic), goal-attainment (political), integration (social), and latency (cultural). These functions must be performed for any system to survive.
 
+## Questions
+
+- question: "A student argues that the economy is the most powerful subsystem in society because it controls the material resources that everyone depends on. According to Parsons's cybernetic hierarchy, what is wrong with this view?"
+  type: multiple-choice
+  options:
+    - "The economy is not a subsystem in Parsons's AGIL scheme"
+    - "Culture and values sit at the top of the hierarchy, controlling how material resources are used through meaning and commitment"
+    - "The polity always overrides the economy because it sets collective goals"
+    - "Integration subsystems are more powerful because they manage conflict directly"
+  answer: 1
+  explanation: "In Parsons's cybernetic hierarchy, information controls energy — cultural values and meanings channel how material resources are deployed, not the reverse. The economy (Adaptation) occupies the lowest position in the hierarchy; Latency (culture) occupies the highest."
+
+- question: "A society reproduces its class structure across generations through family socialization, religious instruction, and school curricula. Which AGIL subsystem is primarily responsible for this process?"
+  type: multiple-choice
+  options:
+    - "Adaptation — the economy distributes resources to maintain the structure"
+    - "Goal-attainment — the political system enforces class hierarchies"
+    - "Integration — law and norms manage conflict between classes"
+    - "Latency — family, religion, and education maintain and transmit the underlying value system"
+  answer: 3
+  explanation: "Latency (pattern maintenance) covers the subsystems that preserve and transmit the value commitments that give the social order its motivational grounding. This is precisely what critics such as feminists pointed out: 'latency' often means the reproduction of existing inequalities through socialization."
+
+- question: "In Parsons's AGIL scheme, the Integration subsystem is responsible for mobilizing collective resources toward shared societal goals."
+  type: true-false
+  answer: false
+  explanation: "Goal-attainment (G), not Integration (I), is the subsystem responsible for defining collective goals and mobilizing resources toward them — a function performed by the polity/government. Integration (I) coordinates the parts of the system, manages conflict, and maintains solidarity through law and social norms."
+
+- question: "Parsons's AGIL scheme is designed as a general analytical framework that applies to any persistent social system, not only to whole societies."
+  type: true-false
+  answer: true
+  explanation: "The four functional imperatives — Adaptation, Goal-attainment, Integration, and Latency — are meant to apply to any system that persists over time, whether a small group, an organization, or an entire society. This generality is both a strength (analytical breadth) and a vulnerability (accused of being too abstract to test empirically)."
+
+- question: "Why does the structure of Parsons's AGIL framework make it difficult to justify social change, and what legitimate analytical tool does it still provide despite this limitation?"
+  type: short-answer
+  answer: "Because AGIL treats every existing institution as fulfilling a necessary function, existing arrangements appear as solutions to permanent problems — making change look dysfunctional. But the framework still provides a systematic vocabulary for asking what problems social institutions are organized to solve, which is a genuine and useful analytical contribution."
+  explanation: "The status quo bias arises from the functionalist logic itself: if an institution exists, it must be performing a function; if it performs a function, removing it would leave a problem unsolved. This conflates stability with justice. The legitimate insight is that asking 'what functional problem does this solve?' forces analysts to move beyond description toward explanation of why social arrangements take the forms they do."
+
 ## Explainer
 
 From structural functionalism you know the core claim: social institutions exist because they serve functions that help society persist and hold together. Parsons inherited this framework and pushed it to its most systematic conclusion, building what he hoped was a unified theory of all social action. The result — elaborate, technical, and frequently criticized for its conservatism — is nonetheless the most ambitious attempt in sociology to explain why societies work the way they do and how their parts relate to each other.

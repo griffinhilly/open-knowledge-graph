@@ -27,6 +27,45 @@ Run simple anchoring experiments with friends: present different starting number
 - Thinking anchoring only works when people are unaware of it — research shows the bias persists even when people are explicitly warned about anchoring effects.
 - Believing anchoring requires a plausible number; even absurdly high or low anchors shift estimates, though less dramatically.
 
+## Questions
+
+```yaml
+- question: "You are selling a used car worth approximately $8,000. Based on anchoring research, what is the most strategically effective opening move in the negotiation?"
+  type: multiple-choice
+  options:
+    - "Name $8,000 first — an accurate anchor avoids distorting the negotiation"
+    - "Let the buyer name a price first to avoid imposing an anchor on them"
+    - "Name a high anchor (e.g., $11,500) because subsequent bargaining will gravitate toward it, yielding a higher final price"
+    - "Present your price alongside detailed documentation to neutralize anchoring effects"
+  answer: 2
+  explanation: "Anchoring research consistently shows that the first number named in a negotiation constrains the bargaining range. A high anchor pulls final settlements upward even as both parties adjust downward — the adjustment is systematically insufficient. Naming the accurate market value first sacrifices this advantage. Letting the buyer name first risks a low anchor that pulls your outcome downward. Documentation helps establish value but doesn't neutralize the anchoring effect of an initial number."
+
+- question: "A researcher explicitly warns a group of participants: 'You are about to see a random number. Research shows it will bias your estimate. Try hard to correct for this.' She then shows the number 92 and asks them to estimate how many countries are in the United Nations. What does anchoring research predict?"
+  type: multiple-choice
+  options:
+    - "Participants' estimates will be unaffected — explicit warnings fully neutralize anchoring bias"
+    - "Participants will overcorrect and produce estimates far below the true answer by deliberately avoiding numbers near 92"
+    - "Participants' estimates will still be pulled toward 92, because anchoring persists even when people are warned and try to correct for it"
+    - "The warning will cause participants to reason entirely from scratch, eliminating any anchor effect"
+  answer: 2
+  explanation: "This is the most counterintuitive and important finding in anchoring research: the bias largely persists even with explicit warnings. You cannot introspect to find 'how much did the anchor shift me' and subtract that amount. You can adjust some in the right direction — warnings help partially — but you won't adjust enough to reach an unanchored estimate. The mechanism operates below conscious deliberation, which is why deliberate effort to 'be objective' doesn't fully compensate."
+
+- question: "Anchoring bias only affects people who don't know the anchor is irrelevant — if you are aware that a number is random and has no connection to the question, it will not influence your estimate."
+  type: true-false
+  answer: false
+  explanation: "This is precisely the misconception that anchoring research demolishes. In Tversky and Kahneman's classic wheel-spinning experiment, participants watched a wheel land on an obviously random number, knew it was random, yet their subsequent estimates of a completely unrelated quantity were significantly shifted toward that number. Awareness of irrelevance does not protect you from anchoring. The bias operates at a level below deliberate reasoning — it affects the starting point from which people adjust, a process that isn't fully accessible to conscious correction."
+
+- question: "Even an anchor that is obviously arbitrary — such as a randomly spun number wheel — can shift numerical estimates on unrelated questions."
+  type: true-false
+  answer: true
+  explanation: "This is the empirical foundation of anchoring research. Tversky and Kahneman's wheel experiment showed that groups exposed to the number 65 estimated 45% of UN members were African, while those exposed to 10 estimated 25% — a twenty-percentage-point difference driven by a visibly random anchor. The anchor doesn't need to be plausible or relevant; it simply needs to be present before the judgment is made. Even absurdly extreme anchors shift estimates, though less dramatically than plausible ones."
+
+- question: "Why doesn't simply knowing about anchoring bias protect you from it, and what strategies can actually reduce its influence?"
+  type: short-answer
+  answer: "Anchoring operates through insufficient adjustment from a starting value — a process that occurs below deliberate reflection. You cannot introspect to determine how large the anchor's influence was, so you cannot simply subtract it. Strategies that genuinely help: generating your own estimate before seeing any anchor (inoculation before exposure); deliberately generating arguments for why the true value might be much higher and much lower, then synthesizing (multiple reference points); and designing decision environments that withhold numerical anchors until after independent estimates are formed."
+  explanation: "The key is that correction requires knowing the magnitude of the distortion, and that information isn't available through introspection. You can improve your estimate by reasoning from multiple reference points rather than adjusting from a single one — this restructures the cognitive task so the anchor competes with other starting points rather than dominating. Awareness alone fails because it tells you the anchor is biasing you without telling you by how much."
+```
+
 ## Explainer
 
 From your study of cognitive biases, you already know that human reasoning regularly departs from the norms of formal logic and probability. **Anchoring bias** is one of the most thoroughly documented and practically consequential of these departures. It describes the tendency for an initial piece of information — even one that is explicitly random or irrelevant — to pull subsequent numerical estimates toward it. The mechanism is not gullibility; it appears to operate at a level below conscious deliberation.

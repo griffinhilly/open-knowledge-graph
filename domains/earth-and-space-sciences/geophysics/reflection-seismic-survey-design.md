@@ -25,6 +25,44 @@ status: draft
 ## Core Idea
 Reflection seismic surveys use arrays of sources and receivers to record reflections from subsurface interfaces. Survey parameters such as source-receiver distance, receiver spacing, and line direction must be chosen based on target depth, expected reflection geometry, and spatial resolution requirements. Common-midpoint (CMP) gathers organize the data to enhance signals and suppress noise.
 
+## Questions
+
+```yaml
+- question: "Why do seismic surveys deliberately collect many traces with different source-receiver offsets that share the same common midpoint (CMP)?"
+  type: multiple-choice
+  options:
+    - "To simultaneously record reflections from different depths, each best illuminated at a specific offset"
+    - "So that after NMO correction, the traces can be stacked to reinforce coherent reflections and cancel random noise"
+    - "Because reflections only occur when the source and receiver are equidistant from the reflector"
+    - "To measure surface-wave velocities, which are needed to correct for near-surface irregularities"
+  answer: 1
+  explanation: "The CMP gather organizes traces that all reflect from approximately the same subsurface point but arrive via different ray paths (different offsets). After applying the NMO correction to remove the offset-dependent travel-time increase, all traces in the gather should show the reflection at the same time. Stacking (summing) these aligned traces reinforces the coherent signal while random noise tends to cancel, improving the signal-to-noise ratio by roughly the square root of the fold."
+
+- question: "A geophysicist is designing a survey to image a target at 5 km depth. Compared to a survey targeting a 500 m depth reflector, the deep survey requires:"
+  type: multiple-choice
+  options:
+    - "Shorter maximum offset and higher-frequency sources, to preserve resolution at depth"
+    - "Longer maximum offset and more powerful sources, to illuminate deep reflectors and provide velocity discrimination"
+    - "Closer receiver spacing only, because deeper targets produce wider Fresnel zones that are easier to sample"
+    - "Fewer source activations because seismic energy naturally penetrates deeper with larger shot spacing"
+  answer: 1
+  explanation: "Deeper targets require longer maximum offsets for two reasons: (1) only long-offset rays reach deep reflectors at wide enough angles to provide useful NMO velocity discrimination needed for accurate stacking, and (2) the reflection hyperbola for a deep target is flatter — close-offset traces look nearly identical in travel time, giving little velocity information. More powerful sources are needed because energy attenuates with depth. By contrast, shallow surveys can use short offsets and high-frequency sources for fine spatial resolution."
+
+- question: "Increasing fold (the number of traces contributing to each CMP stack) always improves seismic data quality, so surveys should maximize fold regardless of cost."
+  type: true-false
+  answer: false
+  explanation: "Higher fold does improve signal-to-noise ratio (SNR improves roughly as √fold), but the returns diminish — going from fold 10 to fold 40 roughly doubles SNR, while going from fold 40 to fold 160 only doubles it again. Meanwhile, cost and field logistics scale roughly linearly with fold. Survey design involves balancing the required SNR against budget, surface access, and time constraints. In many surveys, fold in the range of 60–120 is chosen as a practical optimum, not the theoretical maximum."
+
+- question: "Spatial aliasing in a seismic survey occurs when the receiver spacing is too coarse to adequately sample the apparent wavelength of steeply dipping reflections along the surface."
+  type: true-false
+  answer: true
+  explanation: "The Nyquist sampling criterion requires at least two samples per wavelength. For a steeply dipping reflector, the apparent wavelength at the surface (the horizontal distance between successive wavefront peaks) is shorter than for a flat reflector at the same frequency. If receiver spacing exceeds half this apparent wavelength, the data are spatially aliased — dipping events appear at the wrong apparent dip or fold back into the wrong direction. This is why surveys targeting steep structures (faults, salt flanks) require tighter receiver spacing."
+
+- question: "Explain the purpose of the normal moveout (NMO) correction in CMP processing. Why is it necessary before stacking, and what key parameter must be estimated to apply it correctly?"
+  type: short-answer
+  answer: "In a CMP gather, the reflection from a flat horizontal layer arrives later at longer offsets because the ray path is longer. This offset-dependent delay follows a hyperbolic relationship: t²(x) = t₀² + x²/v², where t₀ is the zero-offset two-way travel time and v is the stacking velocity. The NMO correction flattens this hyperbola by subtracting the extra travel time at each offset, so the reflection aligns at the same time across all traces. Without this correction, stacking would smear rather than reinforce the reflection. The key parameter is the NMO velocity (or stacking velocity), which must be estimated — typically by testing a range of velocities and selecting the one that produces the flattest, best-aligned gather (velocity semblance analysis). This velocity also provides information about subsurface interval velocities, which can be used for depth conversion."
+```
+
 ## Explainer
 
 From seismic ray tracing, you understand how seismic waves travel through layered media, reflecting and refracting at interfaces where acoustic impedance changes. A **reflection seismic survey** applies this physics systematically: you generate seismic waves at the surface, record the echoes that bounce off subsurface layers, and use the timing and amplitude of those reflections to build an image of the geology below. The challenge is designing the survey so that the recorded data actually contain the information you need — and this is where survey design becomes critical.

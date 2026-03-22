@@ -35,6 +35,45 @@ Trace the pathways on a Jablonski diagram for a real fluorophore (e.g., fluoresc
 - Conflating fluorescence and phosphorescence as simply "fast vs slow glow"; the fundamental distinction is spin multiplicity -- fluorescence preserves spin, phosphorescence requires a spin flip.
 - Thinking phosphorescence requires a special material; most organic molecules can phosphoresce, but at room temperature nonradiative decay from the triplet is usually too fast to observe emission without special conditions (rigid matrix, heavy atoms).
 
+## Questions
+
+```yaml
+- question: "A molecule is modified by substituting several hydrogen atoms with iodine atoms (the heavy-atom effect). How does this change its fluorescence quantum yield, and why?"
+  type: multiple-choice
+  options:
+    - "The quantum yield increases because heavier atoms absorb more photons"
+    - "The quantum yield decreases because iodine enhances intersystem crossing, diverting excited molecules from the fluorescent S1 pathway to the triplet manifold"
+    - "The quantum yield is unchanged because quantum yield depends only on the radiative rate constant"
+    - "The quantum yield increases because spin-orbit coupling accelerates radiative decay from S1"
+  answer: 1
+  explanation: "Heavy atoms like iodine dramatically enhance spin-orbit coupling, which accelerates intersystem crossing (ISC) from S1 to T1. This increases k_nr (the nonradiative rate), reducing the quantum yield Φ = k_r / (k_r + Σk_nr). More excited molecules are funneled into the long-lived triplet state rather than emitting fluorescence. The common misconception is that heavy atoms enhance emission in general — they actually suppress fluorescence while potentially enabling phosphorescence."
+
+- question: "Phosphorescence from a molecule is observed at a longer wavelength than its fluorescence. What is the correct explanation?"
+  type: multiple-choice
+  options:
+    - "The triplet state T1 lies lower in energy than the singlet state S1, so the T1→S0 transition releases a less energetic (longer wavelength) photon"
+    - "Phosphorescence is slower, and slower emission always produces longer wavelengths"
+    - "Intersystem crossing dissipates energy, so the emitted photon carries less energy than in fluorescence"
+    - "Phosphorescence involves two photons, spreading the energy across a longer wavelength"
+  answer: 0
+  explanation: "Because of exchange interaction between the two unpaired electrons, triplet states lie lower in energy than the corresponding singlet states (Hund's rule). T1 is therefore at lower energy than S1. When the molecule decays radiatively from T1→S0, it emits a photon with less energy than the S1→S0 fluorescence photon — and lower energy means longer wavelength. This is a direct consequence of state energetics, not of the transition's forbidden nature or its timescale."
+
+- question: "Phosphorescence is simply fluorescence that happens more slowly, occurring from the same excited electronic state."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception. Fluorescence occurs from the lowest excited singlet state S1 (spin multiplicity = 1), a spin-allowed S1→S0 transition with nanosecond lifetimes. Phosphorescence occurs from the triplet state T1 (spin multiplicity = 3), reached via intersystem crossing — a spin flip. The T1→S0 transition is spin-forbidden, which is why it is slow (microseconds to seconds), but the key distinction is spin multiplicity, not just timescale."
+
+- question: "A molecule with a fluorescence quantum yield of 0.9 has a much larger radiative rate constant than the sum of all its nonradiative rate constants."
+  type: true-false
+  answer: true
+  explanation: "Quantum yield Φ = k_r / (k_r + Σk_nr). For Φ = 0.9, k_r / (k_r + Σk_nr) = 0.9, which means k_r = 9 × Σk_nr — the radiative rate is 9 times larger than all nonradiative rates combined. This reflects a molecule where most excitations lead to photon emission rather than heat or ISC. Rigid, planar fluorophores like fluorescein achieve high quantum yields this way by restricting the vibrational modes that would otherwise drive nonradiative decay."
+
+- question: "Why can most organic molecules phosphoresce in a rigid matrix at low temperature but not in fluid solution at room temperature?"
+  type: short-answer
+  answer: "In a rigid matrix at low temperature, molecular vibrations are suppressed, dramatically reducing the nonradiative decay rate from the triplet state T1. Additionally, oxygen (which efficiently quenches triplet states via energy transfer) is excluded or immobilized. These conditions make the otherwise slow spin-forbidden T1→S0 radiative decay competitive. At room temperature in solution, nonradiative decay from T1 is fast (many vibrational modes available, diffusion allows oxygen quenching), so the triplet depopulates before emission can occur."
+  explanation: "The key is the competition between radiative and nonradiative rates. Phosphorescence lifetime is long (microseconds to seconds) precisely because the T1→S0 transition is spin-forbidden and slow. At room temperature, nonradiative processes win the competition — vibrations, collisions, and oxygen quenching all drain the triplet state before it emits. Low temperature and rigidity tilt the balance by suppressing every pathway except phosphorescence."
+```
+
 ## Explainer
 
 When a molecule absorbs a photon, it jumps to an excited electronic state — you know this from electronic spectroscopy. But what happens next? The molecule must eventually return to the ground state, and the **Jablonski diagram** maps out all the competing pathways for this return journey. Understanding these pathways is the key to predicting whether a molecule will glow, how brightly, what color, and for how long.

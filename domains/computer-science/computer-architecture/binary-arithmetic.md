@@ -31,6 +31,45 @@ Work through 4-bit and 8-bit addition problems by hand, tracking carries careful
 - Overflow is not an error in hardware; the carry-out bit is simply discarded unless the programmer checks for it.
 - Binary multiplication is not more complex in principle — it uses the same shift-and-add approach as long multiplication in decimal.
 
+## Questions
+
+```yaml
+- question: "A 4-bit unsigned integer holds the value 1110 (14). You add 0011 (3). What does the hardware store as the result?"
+  type: multiple-choice
+  options:
+    - "0001 (1), because the carry-out is discarded when the result exceeds 4 bits"
+    - "1111 (15), which is the maximum 4-bit value"
+    - "0000 (0), because overflow sets the register to zero"
+    - "10001 (17), stored by automatically expanding to 5 bits"
+  answer: 0
+  explanation: "14 + 3 = 17 = 10001 in binary. Only the lower 4 bits (0001 = 1) are stored; the carry-out is simply discarded. The hardware does not raise an error or expand storage — detecting overflow is the programmer's responsibility via the carry flag."
+
+- question: "When computing 0111 + 0001 in 4-bit binary, how many carry operations are generated?"
+  type: multiple-choice
+  options:
+    - "0 — there are no carries because both numbers are small"
+    - "1 — only the rightmost column produces a carry"
+    - "3 — carries ripple through three consecutive columns"
+    - "4 — every column carries"
+  answer: 2
+  explanation: "Rightmost: 1+1=10, write 0, carry 1. Second: 1+0+carry=10, write 0, carry 1. Third: 1+0+carry=10, write 0, carry 1. Leftmost: 0+0+carry=1, no carry. Result: 1000 (8). Carries ripple through three columns — this chain is called carry propagation and directly determines how fast hardware adders operate."
+
+- question: "When a binary addition overflows a 4-bit register, the processor automatically raises a hardware error and halts execution."
+  type: true-false
+  answer: false
+  explanation: "Overflow does not halt execution. The hardware discards the carry-out bit and stores only the lower bits of the result. The processor may set a carry or overflow flag in a status register, but the programmer must explicitly check it. Undetected overflow is a real source of bugs in systems programming."
+
+- question: "In binary addition, a carry is generated whenever the sum of bits in a column — including any incoming carry — equals or exceeds 2."
+  type: true-false
+  answer: true
+  explanation: "This is the binary analog of carrying in decimal, where you carry when a column sum reaches 10. Since binary digits max at 1, any column total of 2 or more generates a carry of 1 into the next more-significant position."
+
+- question: "Why do hardware designers prefer to implement subtraction as addition with a negated operand, rather than building a separate subtraction circuit?"
+  type: short-answer
+  answer: "Because a single adder circuit can handle both operations. In two's complement, negation is cheap — just flip all bits and add 1. This means the same adder handles subtraction at almost no extra hardware cost, keeping circuit complexity low."
+  explanation: "Building two separate circuits would roughly double arithmetic hardware complexity. Two's complement makes negation so inexpensive that the subtraction path is just: negate the second operand, then add. This is why two's complement representation was adopted universally — the hardware savings are significant."
+```
+
 ## Explainer
 
 If you can add in decimal, you can add in binary — the rules are structurally identical, just simpler. In decimal, each digit ranges from 0 to 9, and you carry to the next column when a sum reaches 10. In binary, each digit (called a **bit**) is either 0 or 1, and you carry when a sum reaches 2. The complete addition table for one bit position has only four entries: 0+0=0, 0+1=1, 1+0=1, and 1+1=10 (that is, 0 with a carry of 1). This simplicity is exactly why computers use binary — the addition rules map directly onto simple logic gates.

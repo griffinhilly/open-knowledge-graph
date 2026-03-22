@@ -15,7 +15,7 @@ tags:
 - measurement
 - length
 - non-standard-units
-stage: abstract-reasoning
+stage: concrete-operations
 status: draft
 ---
 

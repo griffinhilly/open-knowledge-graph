@@ -14,7 +14,7 @@ tags:
 - thermal-equilibrium
 - zeroth-law
 - thermometry
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

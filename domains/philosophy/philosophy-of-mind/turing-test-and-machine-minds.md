@@ -37,6 +37,45 @@ Read Turing's original paper, then map the philosophical landscape: what assumpt
 - Turing did not claim the test proves machines think; he proposed it as a way to make the question tractable, replacing an ill-defined question with a testable one.
 - Passing the Turing Test is not the same as being conscious; most philosophers of mind treat the test as relevant to access consciousness or intelligence, not phenomenal consciousness.
 
+## Questions
+
+```yaml
+- question: "A machine passes the Turing Test convincingly across thousands of conversations on any topic. What has this demonstrated?"
+  type: multiple-choice
+  options:
+    - "The machine has genuine semantic understanding of language"
+    - "The machine is phenomenally conscious — there is something it is like to be it"
+    - "The machine exhibits functional intelligence behaviorally indistinguishable from a human's"
+    - "The machine thinks in the same way and by the same process as a human brain"
+  answer: 2
+  explanation: "Passing the Turing Test demonstrates behavioral/functional indistinguishability — the machine plays the intelligence role correctly. It does NOT prove semantic understanding (the Chinese Room argues you can pass with pure syntax), phenomenal consciousness (a philosophical zombie would also pass), or identical underlying process (only the outputs matter for the test). This is why the test is best understood as a criterion for functional intelligence, not inner experience."
+
+- question: "Turing proposed the Imitation Game primarily to:"
+  type: multiple-choice
+  options:
+    - "Prove conclusively that machines can think"
+    - "Settle whether AI systems have phenomenal consciousness"
+    - "Replace a vague metaphysical question with a behavioral, testable criterion"
+    - "Show that intelligence requires a biological substrate"
+  answer: 2
+  explanation: "Turing regarded 'Can machines think?' as too poorly defined to answer directly. He replaced it with a question that is operationally tractable: can a machine converse indistinguishably from a human? This is a dissolution strategy, not a proof of machine cognition. Turing explicitly did not claim the test proves machines think — he claimed it makes the question scientifically manageable. Many critics conflate the test's proposal with a claim it was never meant to make."
+
+- question: "A philosophical zombie — a being behaviorally identical to a human in every way but lacking any inner experience — would pass the Turing Test."
+  type: true-false
+  answer: true
+  explanation: "By definition, a philosophical zombie has exactly the same behavioral outputs as a human. Since the Turing Test judges entirely on conversational behavior, the zombie would pass. This is precisely why the test cannot settle questions about phenomenal consciousness: it only samples behavior, which is compatible with zero inner experience. The possibility of philosophical zombies is one of the strongest arguments that no behavioral test can fully answer the mind question."
+
+- question: "Passing the Turing Test is sufficient evidence that a system has phenomenal consciousness — genuine inner experience."
+  type: true-false
+  answer: false
+  explanation: "Phenomenal consciousness concerns whether there is 'something it is like' to be the system — a property that is by nature inaccessible through behavioral output. A system could produce perfectly human-like outputs (syntax) without any semantic understanding or inner experience. Turing himself framed the test as addressing functional intelligence or access consciousness, not phenomenal experience. Most philosophers of mind treat these as distinct questions the test simply cannot answer."
+
+- question: "Why does the Chinese Room argument, if successful, show that passing the Turing Test is not a *sufficient* condition for genuine understanding? What does the room have, and what does it lack?"
+  type: short-answer
+  answer: "The room has syntax — the ability to manipulate symbols according to formal rules in ways that produce correct outputs — but lacks semantics, meaning genuine understanding of what those symbols refer to. The person inside follows rules without knowing Chinese; the room as a whole produces correct Chinese replies. If syntax without semantics can pass a behavioral test, then behavioral tests cannot establish semantic understanding."
+  explanation: "The Chinese Room targets the sufficiency claim: it constructs a scenario where all the behavioral outputs are correct but we are confident no understanding is occurring. If the argument works, it shows that functional equivalence at the input-output level does not guarantee mental equivalence at the level of meaning. The Turing Test measures syntax (behavior); understanding is semantic — and syntax alone is not enough."
+```
+
 ## Explainer
 
 From functionalism, you know that mental states are defined by their causal-functional roles — what they are caused by and what they cause — not by the particular material substrate implementing them. A state is a belief if it plays the belief role: formed by perception, interacting with desires to produce behavior, subject to revision by evidence. This framing immediately raises the question: if a machine played all the right functional roles, would it have a mind? Alan Turing's 1950 paper approached this not through metaphysics but through a practical proposal — the **Imitation Game**.

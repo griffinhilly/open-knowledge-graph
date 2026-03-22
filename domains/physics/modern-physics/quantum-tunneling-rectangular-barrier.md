@@ -29,6 +29,45 @@ Solve the time-independent Schrödinger equation in three regions (before, insid
 ## Common Misconceptions
 Tunneling requires the particle energy to be below the barrier top (it happens when E < V, not E > V). The particle does not gain energy inside the barrier; it is temporary and violates energy conservation only by ΔE ~ ℏ/Δt consistent with uncertainty principle.
 
+## Questions
+
+```yaml
+- question: "Barrier A has width d and transmission probability T₀. Barrier B is identical but has width 2d. Using the approximation T ≈ e^(−2κd), what is the transmission probability through barrier B?"
+  type: multiple-choice
+  options:
+    - "T₀/2, because doubling the width halves the transmission"
+    - "T₀², because doubling the width doubles the exponent, squaring the probability"
+    - "2T₀, because the particle has twice as far to travel and thus passes through more slowly"
+    - "0, because a barrier twice as wide is classically impenetrable and quantum effects vanish"
+  answer: 1
+  explanation: "T ≈ e^(−2κd), so for width 2d: T_B ≈ e^(−2κ·2d) = e^(−4κd) = (e^(−2κd))² = T₀². Doubling the width squares the probability — this is the exponential sensitivity that makes tunneling so sharply dependent on geometry. This is why the STM can resolve individual atoms: a 1 Å change in tip-surface distance changes the tunneling current by roughly a factor of 10."
+
+- question: "A particle with energy E = 0.8 eV approaches a rectangular barrier of height V₀ = 1.0 eV. What form does the wavefunction take inside the barrier, and why?"
+  type: multiple-choice
+  options:
+    - "Oscillatory (sinusoidal), because the particle still has positive total energy"
+    - "A plane wave, because the particle propagates through the barrier at reduced speed"
+    - "Real exponentials (growing and decaying), because kinetic energy is negative inside the barrier"
+    - "Zero everywhere inside the barrier, because the particle cannot enter a classically forbidden region"
+  answer: 2
+  explanation: "Inside the barrier, E < V₀, so the kinetic energy E − V₀ is negative. The Schrödinger equation becomes d²ψ/dx² = κ²ψ where κ = √(2m(V₀−E))/ℏ. This has real exponential solutions Ce^(κx) + De^(−κx), not sinusoidal ones. The decaying exponential (De^(−κx)) is the key: it fades toward the far side but remains nonzero for finite width d, allowing nonzero amplitude — and thus nonzero transmission probability — on the other side. Option A applies when E > V₀ (above-barrier transmission)."
+
+- question: "A particle that tunnels through a rectangular barrier emerges on the far side with less energy than it had before, because some energy was 'used up' penetrating the barrier."
+  type: true-false
+  answer: false
+  explanation: "Energy is conserved in quantum tunneling. The transmitted particle has exactly the same energy E as the incident particle — it did not gain or lose energy crossing the barrier. What changes is the probability amplitude: most of the wavefunction reflects back and only a fraction transmits. The transmitted fraction still carries the original energy. The barrier does not absorb energy; it is a potential energy landscape that the particle propagates through."
+
+- question: "The tunneling transmission probability is exponentially sensitive to barrier width, meaning a small increase in barrier width produces a disproportionately large decrease in transmission probability."
+  type: true-false
+  answer: true
+  explanation: "T ≈ e^(−2κd) is exponentially decreasing in d. Adding even a small increment Δd multiplies T by e^(−2κΔd), which can be very small. This exponential sensitivity is not just a mathematical fact — it is physically exploited in the scanning tunneling microscope, where a ~1 Å change in tip-surface distance changes the tunneling current by about an order of magnitude, enabling atomic-resolution imaging."
+
+- question: "Why doesn't the wavefunction simply drop to zero at the boundary of a classically forbidden region?"
+  type: short-answer
+  answer: "The Schrödinger equation requires that both ψ and its derivative dψ/dx are continuous across any boundary. If ψ were forced to zero at the boundary, continuity would require the wavefunction to approach zero from the incoming side as well, which contradicts the non-zero incident wavefunction. Instead, ψ smoothly transitions into an exponentially decaying form inside the barrier, consistent with the boundary conditions on both sides."
+  explanation: "The matching conditions at the boundary — continuity of ψ and dψ/dx — are what make tunneling possible. They prevent an abrupt cutoff and force the wavefunction to 'leak' into the classically forbidden region. This is the mathematical origin of tunneling: not a violation of the Schrödinger equation, but a direct consequence of it combined with the requirement that solutions must be smooth."
+```
+
 ## Explainer
 
 From your study of quantum tunneling, you know that a particle can pass through a classically forbidden region. The rectangular barrier makes this quantitative. Imagine a particle moving in the +x direction toward a wall of height V₀ and width d, where the particle's total energy E is less than V₀. In classical mechanics, the particle simply bounces back — it can never enter the region where kinetic energy would be negative. In quantum mechanics, the particle is described by a wavefunction, and wavefunctions don't hard-stop at boundaries.

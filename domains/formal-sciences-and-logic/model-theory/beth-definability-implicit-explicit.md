@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Beth's theorem states that if a predicate is implicitly defined by a theory (uniquely determined up to isomorphism), then it is explicitly definable (there is a formula φ such that the theory entails the predicate equals φ). This theorem bridges implicit definability (uniqueness up to models) and explicit definability (provable equivalence), with deep connections to model-theoretic properties.
 
+## Questions
+
+```yaml
+- question: "A theory T in a language with a binary predicate R has the property that any two models of T agreeing on all other symbols must agree on R. This means R is:"
+  type: multiple-choice
+  options:
+    - "Explicitly defined by T — there is already a formula in the language without R that T equates with R"
+    - "Implicitly defined by T — R is uniquely determined by the other vocabulary, even without a written-out equivalence formula"
+    - "Undefinable, because the theory says nothing explicit about what R is"
+    - "Redundant and automatically eliminable without using Beth's theorem"
+  answer: 1
+  explanation: "Implicit definability is exactly this condition: every model extension that agrees on the base vocabulary must also agree on R. The predicate is pinned down by the theory up to isomorphism, but no explicit formula ∀x∀y(R(x,y) ↔ φ(x,y)) has been written down. Beth's theorem then guarantees that such an explicit formula must exist — but that conclusion requires proof, it does not follow trivially from the definition of implicit definability."
+
+- question: "Beth's theorem is proved by applying which result from earlier in model theory?"
+  type: multiple-choice
+  options:
+    - "The compactness theorem, via a chain of elementary extensions"
+    - "Craig's interpolation theorem, applied to two copies of the theory in different vocabularies"
+    - "The Löwenheim-Skolem theorem, constructing a countable model in which R collapses"
+    - "The completeness theorem, by showing R's extension is axiomatizable"
+  answer: 1
+  explanation: "The proof encodes implicit definability as: two copies of T (one with predicate R, one with R') together imply R = R'. By Craig interpolation, there must be a formula in the shared vocabulary — which excludes both R and R' — that lies between these two theories. Unpacking this interpolant yields the explicit definition of R in the reduced vocabulary. This is why interpolation is not merely a logical curiosity but a structural bridge between syntactic and semantic aspects of definability."
+
+- question: "According to Beth's theorem in first-order logic, if a predicate R is implicitly defined by a theory T, then there exists a formula φ in the language without R such that T proves ∀x̄(R(x̄) ↔ φ(x̄))."
+  type: true-false
+  answer: true
+  explanation: "This is the content of Beth's theorem: implicit definability (uniqueness across all models of T) entails explicit definability (a provable equivalence formula in the reduced vocabulary). The theorem is non-trivial because implicit definability is a semantic condition (about models) while explicit definability is syntactic (a formula exists). Beth's theorem says these two levels coincide in first-order logic, which is precisely because first-order logic satisfies Craig interpolation."
+
+- question: "Beth's theorem holds in all logical systems, including second-order logic: whenever a predicate is implicitly defined, it is explicitly definable."
+  type: true-false
+  answer: false
+  explanation: "Beth's theorem is a theorem of first-order logic and depends on the Craig interpolation property. Extensions such as second-order logic and many infinitary logics fail the interpolation property, and in those systems implicit and explicit definability can come apart — a predicate can be uniquely determined by all models of a theory without any formula in the reduced vocabulary explicitly capturing it. This is why the failure of Beth's theorem in a logic is itself a diagnostic: it signals that interpolation fails and that the logic has a weaker connection between syntax and semantics."
+
+- question: "What does it mean for a predicate to be eliminable from a theory, and why does Beth's theorem guarantee eliminability whenever a predicate is implicitly defined?"
+  type: short-answer
+  answer: "A predicate R is eliminable from a theory T if every sentence involving R can be translated into a logically equivalent sentence in the language without R, preserving all provable consequences. Beth's theorem guarantees this because it provides an explicit formula φ (in the R-free vocabulary) such that T ⊢ ∀x̄(R(x̄) ↔ φ(x̄)). This biconditional allows systematic replacement of R by φ in any sentence, translating away every occurrence of R without changing what the theory asserts."
+  explanation: "Eliminability is the practical payoff of Beth's theorem: it means that implicitly-defined predicates are genuine abbreviations — they introduce no expressive power beyond what already exists in the base vocabulary. This is important for modularity in formal systems (you can always 'unpack' defined symbols) and for understanding what a theory actually commits to. When implicit and explicit definability come apart (as in logics without interpolation), predicates can be 'defined' in a model-theoretic sense but not eliminable — they add irreducible expressive content."
+```
+
 ## Explainer
 
 You have already encountered Craig's interpolation theorem, which says that whenever one formula logically implies another, there is an intermediate formula — built from the shared vocabulary — that lies between them. Beth's definability theorem is a striking application of this same machinery to the question of what it means for a theory to "pin down" a predicate.

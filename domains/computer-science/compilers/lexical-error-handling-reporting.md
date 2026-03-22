@@ -27,6 +27,45 @@ Implement scanners handling various malformed inputs. Practice writing error mes
 ## Common Misconceptions
 Lexical errors mean the entire file is unusable (often you can skip characters and continue). Error messages should list all possible errors at once (better to focus on one clear error).
 
+## Questions
+
+```yaml
+- question: "A scanner encounters an unterminated string literal: `\"hello` at the end of a line with no closing quote. What is the most appropriate panic-mode recovery action?"
+  type: multiple-choice
+  options:
+    - "Abort scanning immediately and report a fatal error, since the file is now unusable"
+    - "Emit an error message, treat the partial string as an error token ending at the line boundary, and resume scanning on the next line"
+    - "Silently discard everything from the opening quote to end-of-file and continue"
+    - "Insert a closing quote after 'hello' and emit a valid string token without an error"
+  answer: 1
+  explanation: "Panic-mode recovery aims to isolate the error as locally as possible and resume scanning. Terminating an unterminated string at end-of-line is a common heuristic because most languages don't allow multi-line string literals — it minimizes the amount of valid subsequent input that gets misclassified as part of the error token. Aborting immediately (option A) reflects the misconception that one lexical error invalidates the whole file; it doesn't. Silently fixing the error (option D) hides the bug from the programmer."
+
+- question: "What is the primary goal of error recovery in a lexical analyzer, as opposed to simply halting on the first error?"
+  type: multiple-choice
+  options:
+    - "To automatically correct all lexical errors so the parser sees no invalid input"
+    - "To allow scanning to continue past the error so that later compiler phases can detect and report additional independent errors in a single pass"
+    - "To guarantee that all subsequent tokens are syntactically valid"
+    - "To reduce the number of error messages shown to the programmer"
+  answer: 1
+  explanation: "The primary goal of error recovery is to give the programmer as much diagnostic information as possible in a single compilation. If the scanner halts on the first error, the programmer fixes it, recompiles, and discovers the next error — an expensive cycle. By recovering (e.g., skipping bad characters and resuming), the scanner produces enough valid tokens for the parser to continue, potentially surfacing many independent errors at once. Recovery does not fix errors or guarantee validity downstream — it just limits the blast radius of each individual error."
+
+- question: "A single lexical error in one part of a source file typically makes all tokens after it invalid and unusable by the parser."
+  type: true-false
+  answer: false
+  explanation: "Most lexical errors are local. A stray illegal character, an unterminated string, or a malformed number literal does not corrupt the rest of the file. Panic-mode recovery skips the offending character(s) and resumes scanning from the next plausible token boundary. The parser receives valid tokens for the surrounding code, even if a few are missing or replaced with error tokens. This locality is the key insight that makes error recovery worthwhile."
+
+- question: "A high-quality lexical error message should include the source file name, line number, column position, and a description of what was encountered — so the programmer can locate and understand the problem without re-reading the whole file."
+  type: true-false
+  answer: true
+  explanation: "Precise location information (file, line, column) and a description of what was found versus what was expected are the minimum requirements for a useful error message. Without location, the programmer must search the entire file. Without a description, they know something is wrong but not what. Modern compilers like Rust's rustc go further, underlining the exact character span in a code snippet. The core insight is that error reporting is a user interface problem — the goal is to communicate clearly to a programmer under pressure."
+
+- question: "Why is designing good lexical error messages considered a 'user interface problem' rather than just a technical correctness problem?"
+  type: short-answer
+  answer: "Because the consumer of error messages is a human programmer who needs to understand what went wrong, where it went wrong, and ideally how to fix it — not just that an error exists. A technically correct error detection that produces 'error on line 37' is useless in practice. The message must communicate location (file, line, column), describe the unexpected input, contrast it with what was expected, and ideally show a visual snippet. Designing this well requires thinking about programmer cognition and workflows, which is user interface design."
+  explanation: "The scanner generator gives you the mechanism to detect errors; error reporting requires judgment about what programmers need to hear. A message like 'unexpected character' with no location is technically accurate but practically useless. The 'user' is a programmer in the middle of debugging, and good error messages are the primary interface between the compiler and that user."
+```
+
 ## Explainer
 
 From your work on scanner generators, you know that a lexer matches input characters against patterns defined by regular expressions or finite automata. But what happens when no pattern matches? In a textbook scanner, unrecognized input simply crashes the process. A production-quality scanner needs a principled strategy for handling malformed input — not just detecting it, but recovering from it well enough to continue scanning the rest of the file and report as many genuine errors as possible in a single pass.

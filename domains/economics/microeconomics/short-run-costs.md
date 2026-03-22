@@ -31,6 +31,45 @@ Build the cost curves numerically from a production table and then graph them, e
 - Fixed costs do not affect marginal cost — students often add FC into MC calculations.
 - The MC curve intersects ATC at the *minimum* of ATC, not at any arbitrary point; this is a mathematical necessity, not a coincidence.
 
+## Questions
+
+```yaml
+- question: "A firm has fixed costs of $600. Variable costs are $400 when producing 50 units and $412 when producing 51 units. What is the marginal cost of the 51st unit?"
+  type: multiple-choice
+  options:
+    - "$12"
+    - "$19.84 (total cost divided by quantity)"
+    - "$24 (change in variable cost plus a share of fixed cost)"
+    - "$612 (total cost at 51 units)"
+  answer: 0
+  explanation: "Marginal cost is the change in total cost from producing one more unit. Since fixed costs never change, MC equals the change in variable cost: $412 - $400 = $12. Fixed costs are completely irrelevant to marginal cost — they don't change at all, so they contribute zero to the change in total cost."
+
+- question: "At what point on the average total cost (ATC) curve does the marginal cost (MC) curve intersect it?"
+  type: multiple-choice
+  options:
+    - "At the minimum point of ATC"
+    - "At the minimum point of MC"
+    - "Where total revenue equals total cost"
+    - "Where fixed costs equal variable costs"
+  answer: 0
+  explanation: "MC intersects ATC exactly at ATC's minimum — this is a mathematical necessity, not a coincidence. When MC < ATC, each new unit costs less than the average, pulling the average down. When MC > ATC, the average is pulled up. The only point where ATC can stop falling and start rising is where MC = ATC, i.e., at ATC's minimum."
+
+- question: "Fixed costs have no effect on a firm's marginal cost."
+  type: true-false
+  answer: true
+  explanation: "True. Marginal cost measures how total cost changes when output increases by one unit. Since fixed costs are constant — they do not change as output changes — they contribute nothing to that change. MC = ΔTVC/ΔQ. Fixed costs cancel out completely."
+
+- question: "The MC curve intersects the ATC curve at the minimum point of the MC curve."
+  type: true-false
+  answer: false
+  explanation: "False. MC intersects ATC at the minimum of ATC, not the minimum of MC. The MC curve reaches its own minimum (due to diminishing returns) at a lower output level, and then rises — eventually crossing ATC from below at ATC's minimum. These are two distinct points."
+
+- question: "Why must the marginal cost curve cross the average total cost curve at exactly the minimum point of ATC, and not at any other point?"
+  type: short-answer
+  answer: "Because of the mathematical relationship between marginal and average values: whenever the marginal cost of a new unit is below the current average, it pulls the average down; whenever it is above the average, it pulls the average up. ATC can only be at its minimum — where it stops falling and starts rising — at the exact output where MC = ATC. This is the same logic as test scores: your average falls whenever a new score is below your current average, and rises whenever it exceeds it."
+  explanation: "This is a universal relationship between any marginal and average quantity, not specific to economics. The MC-ATC intersection at minimum ATC follows from pure arithmetic, making it a mathematical law rather than an empirical observation about production."
+```
+
 ## Explainer
 
 Short-run cost analysis is the direct translation of what you already know about production into the language of money. From your study of the production function, you know that adding more of a variable input (labor) to a fixed input (capital) eventually produces diminishing marginal returns — each additional worker adds less to output than the one before. Cost curves are just this physical production story rephrased in dollars.

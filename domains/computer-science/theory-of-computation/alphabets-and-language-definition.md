@@ -13,7 +13,7 @@ tags:
 - formal-languages
 - strings
 - definitions
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

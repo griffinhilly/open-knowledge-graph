@@ -29,6 +29,45 @@ Study the ping-pong kinetic mechanism of carriers; use radiolabeled substrates t
 ## Common Misconceptions
 - Carriers are similar to channels; carriers are slower but more selective and energy-dependent. - Na+/K+-ATPase directly exchanges Na+ for K+; it actually moves 3 Na+ out per 2 K+ in, an imbalance that generates membrane potential.
 
+## Questions
+
+```yaml
+- question: "A researcher treats neurons with ouabain, which specifically inhibits the Na⁺/K⁺-ATPase. After several minutes, what would you expect to observe?"
+  type: multiple-choice
+  options:
+    - "The membrane potential hyperpolarizes, because K⁺ can no longer be pumped in and intracellular K⁺ falls"
+    - "Intracellular Na⁺ rises as Na⁺ leaks in without being expelled, eventually collapsing the Na⁺ gradient and depolarizing the cell"
+    - "Action potential frequency immediately spikes to maximum because the pump normally suppresses firing"
+    - "K⁺ floods out of the cell because the pump was maintaining abnormally high intracellular K⁺"
+  answer: 1
+  explanation: "Without the Na⁺/K⁺-ATPase, Na⁺ continuously leaks into the cell through Na⁺ channels but cannot be pumped back out. Intracellular Na⁺ accumulates, the Na⁺ gradient collapses, and the cell depolarizes — eventually disabling action potential generation. The pump also directly contributes to the resting membrane potential (it's electrogenic), so its inhibition has cascading effects on all voltage-dependent signaling."
+
+- question: "A carrier protein transporting glucose is measured at exactly half its maximum transport rate (Vmax/2). What does this most directly indicate?"
+  type: multiple-choice
+  options:
+    - "The carrier protein is partially damaged and operating at reduced efficiency"
+    - "The extracellular glucose concentration equals the carrier's Km"
+    - "Exactly half the carrier molecules in the membrane are currently occupied with glucose"
+    - "ATP supply is limiting transport, allowing only 50% of cycles to complete"
+  answer: 1
+  explanation: "By the Michaelis-Menten relationship, transport rate = Vmax × [S] / (Km + [S]). At half-Vmax, [S] = Km by definition. This is the carrier protein's half-saturation constant — the substrate concentration at which transport runs at half capacity. This analogy to enzyme kinetics applies because carrier proteins display the same saturation behavior: binding sites become limiting at high substrate concentrations."
+
+- question: "The Na⁺/K⁺-ATPase is electrogenic — it contributes directly to the membrane potential — because it transports an unequal number of positive charges in each direction per cycle."
+  type: true-false
+  answer: true
+  explanation: "The pump exports 3 Na⁺ and imports 2 K⁺ per ATP hydrolyzed, moving a net one positive charge out of the cell per cycle. This asymmetry makes the pump electrogenic: it directly hyperpolarizes the membrane beyond what would be predicted by ion gradients alone. A pump moving equal positive charges in opposite directions would be electroneutral."
+
+- question: "Carrier proteins are similar to ion channels in that both create a continuous open pathway through the membrane — the key difference is only that carriers bind their substrates more tightly."
+  type: true-false
+  answer: false
+  explanation: "Carrier proteins never form an open pore. The alternating access model specifies that the binding site is always exposed to only one side of the membrane at a time — the protein seals on one side before opening on the other. This 'revolving door' mechanism is fundamentally different from channels, which maintain an open pathway. It is why carriers are far slower (~10³ ions/sec) than channels (~10⁷ ions/sec) but are more selective and can transport substrates against their gradients."
+
+- question: "Why does blocking the Na⁺/K⁺-ATPase with a toxin like ouabain impair far more cellular processes than just Na⁺ and K⁺ homeostasis?"
+  type: short-answer
+  answer: "The Na⁺/K⁺-ATPase maintains steep Na⁺ and K⁺ gradients that serve as energy stores powering many secondary processes. Secondary active transporters (e.g., Na⁺-glucose symporters, Na⁺/Ca²⁺ exchangers) use the inward Na⁺ gradient as their energy source — blocking the pump collapses that gradient, disabling glucose uptake and Ca²⁺ extrusion. The pump is electrogenic (3 Na⁺ out per 2 K⁺ in), directly contributing to the resting membrane potential; its inhibition depolarizes cells and disables action potential generation in neurons and muscle. Osmotic balance also fails as ion gradients collapse. Roughly one-third of a cell's ATP normally goes to this one pump, reflecting how many processes depend on the electrochemical gradients it maintains."
+  explanation: "The key insight is that the Na⁺/K⁺-ATPase doesn't just manage two ions — it builds and maintains the electrochemical gradients that are the cell's primary energy currency for membrane transport and electrical signaling. Blocking it cascades through every process that uses those gradients."
+```
+
 ## Explainer
 
 From your study of active transport, you know that cells expend energy to move molecules against their concentration gradients. From enzyme structure and function, you know that proteins adopt specific three-dimensional shapes and that conformational changes are central to catalysis. Carrier proteins unite these principles: they are membrane-spanning proteins that physically shuttle solutes across the bilayer by cycling through distinct **conformational states**, alternately exposing a binding site to one side of the membrane and then the other. Unlike ion channels, which form open pores that allow thousands of ions to rush through per millisecond, carrier proteins grip their cargo, undergo a shape change, and release it on the other side — making them slower but far more selective.

@@ -31,3 +31,42 @@ Begin with Aristotle's own examples from *Metaphysics* Book IX, then trace how t
 ## Common Misconceptions
 Potentiality is not the same as logical possibility. A block of marble is potentially a statue but not potentially a sound. Potentialities are constrained by the nature of the thing. Also, actuality does not simply mean "existing now"—it refers to the realization of a specific capacity.
 
+## Questions
+
+```yaml
+- question: "A glass is sitting undamaged on a shelf. It has never broken and may never break. According to the potentiality/actuality framework, which statement best describes its fragility?"
+  type: multiple-choice
+  options:
+    - "Fragility is unreal because it has never been actualized"
+    - "Fragility is a genuine potentiality that exists in the glass regardless of whether breaking ever occurs"
+    - "Fragility simply means the glass is currently in the process of breaking"
+    - "Fragility is a description of our ignorance about what will happen in the future"
+  answer: 1
+  explanation: "For Aristotle and dispositionalists who follow him, potentialities are real features of things — not mere descriptions of ignorance, and not dependent on being actualized to exist. The glass is fragile (has the potentiality to break under appropriate conditions) whether or not it ever breaks. Option A mistakes potentiality for actuality; option D reduces potentiality to an epistemic claim about observers rather than a metaphysical claim about the object."
+
+- question: "A block of marble can potentially become a statue, but cannot potentially become a symphony. What principle accounts for this asymmetry?"
+  type: multiple-choice
+  options:
+    - "Potentiality is just logical possibility, but symphonies are logically impossible to create from stone"
+    - "Only large physical objects can have genuine potentialities"
+    - "Potentialities are constrained by the intrinsic nature of the thing, not by logical possibility alone"
+    - "Symphonies are abstract objects and therefore cannot stand in any relation to physical matter"
+  answer: 2
+  explanation: "The core correction to the naive view is that 'A can become B' is not simply 'it is logically possible that A becomes B.' Marble has the structural and material properties that make sculpting into a statue possible; it lacks any natural tendency or capacity that could result in a symphony. Aristotle's framework ties potentiality to the nature (essence) of the thing: the marble's potentialities are determined by what marble is, not by everything that is logically conceivable."
+
+- question: "For Aristotle, the transition from potentiality to actuality is what constitutes change."
+  type: true-false
+  answer: true
+  explanation: "This is precisely why Aristotle introduced the potentiality/actuality distinction — to give a coherent account of change. When a seed grows into a tree, the actuality (tree) was already potentially present in the seed. Change is the process of actualizing what was potential. Without this framework, change seems paradoxical: the thing that changes is neither fully what it was (the seed) nor yet what it becomes (the tree), so what exactly is changing? Potentiality names the real but not-yet-actualized capacity that bridges this gap."
+
+- question: "Potentiality is simply another word for logical possibility: whatever is logically possible is potential, and whatever is potential is logically possible."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception the framework corrects. Potentiality is narrower than logical possibility: it is constrained by the nature of the particular thing. It is logically possible that a block of marble becomes a symphony, but marble has no potentiality for this because nothing in the nature of marble could bring it about. Conversely, a seed potentially becomes a tree — not just because this is logically possible, but because becoming a tree is intrinsic to what the seed is. The two concepts come apart in both directions."
+
+- question: "Why does Aristotle need the potentiality/actuality distinction to explain change? What problem does change pose without it?"
+  type: short-answer
+  answer: "Without potentiality, change seems paradoxical: before the change, the new thing (e.g., the oak) does not exist; after the change, the old thing (e.g., the acorn) no longer exists. So what persists through the change, and how can something come from nothing? Potentiality solves this by naming a real but not-yet-realized feature of the thing: the acorn actually has the potentiality for oak-ness, even before it is actualized. Change is the actualization of a genuine capacity — not creation from nothing, and not the sudden replacement of one thing by another."
+  explanation: "This problem — how to account for genuine change without either making change impossible (Parmenides: being cannot become non-being) or making it arbitrary (anything could become anything) — was a central puzzle in ancient Greek metaphysics. Aristotle's potentiality/actuality framework was explicitly designed to thread between these extremes: change is real, but it is constrained and intelligible because potentialities are real and specific to the natures of things."
+```
+

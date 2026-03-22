@@ -13,7 +13,7 @@ tags:
 - finite-automata
 - nfa
 - nondeterminism
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

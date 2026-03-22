@@ -23,6 +23,44 @@ status: draft
 ## Core Idea
 Point defects are localized disruptions of the periodic crystal structure, including vacancies (missing atoms), interstitials (atoms occupying irregular positions), and impurities or dopants (foreign atoms substituting or inserting into the lattice). These defects are thermodynamically stable at finite temperatures and strongly influence properties including electrical conductivity, diffusion rates, and mechanical strength. The concentration of point defects increases exponentially with temperature following statistical mechanics.
 
+## Questions
+
+```yaml
+- question: "A metals engineer wants to maximize the vacancy concentration in a copper sample at room temperature. Which strategy would be most effective?"
+  type: multiple-choice
+  options:
+    - "Add interstitial impurities to increase lattice strain"
+    - "Rapidly quench the copper from near its melting point to room temperature"
+    - "Apply high pressure to compress the lattice and force vacancies out"
+    - "Anneal the copper slowly at room temperature for several weeks"
+  answer: 1
+  explanation: "Quenching freezes in the high-temperature vacancy concentration before it can equilibrate. Near the melting point (~1350 K for copper), roughly 1 in 10⁴ sites is vacant. Slow cooling allows atoms to fill vacancies as temperature drops, returning to the low room-temperature equilibrium. The other strategies do not increase vacancy concentration."
+
+- question: "Carbon dissolves readily in iron as an interstitial impurity, but iron atoms themselves almost never occupy iron interstitial sites. Why?"
+  type: multiple-choice
+  options:
+    - "Iron atoms have lower activation energy for interstitial diffusion than carbon"
+    - "Carbon and nitrogen atoms are small enough to fit interstitial gaps without prohibitive distortion energy, while iron atoms are not"
+    - "Interstitial sites only form near grain boundaries where carbon atoms preferentially segregate"
+    - "Iron atoms carry a higher charge state that repels them from interstitial positions"
+  answer: 1
+  explanation: "The interstitial gaps in a metal lattice are much smaller than the host atoms. Placing a full-sized host atom in an interstitial site would require enormous elastic distortion energy, making it thermodynamically unfavorable. Small atoms like C, N, and H fit interstitial gaps with much less distortion, so they readily dissolve interstitially. This is why carbon-in-iron (steel) is technologically critical while iron self-interstitials are rare."
+
+- question: "Vacancies in a chemically pure, well-grown crystal are evidence of contamination or poor processing."
+  type: true-false
+  answer: false
+  explanation: "Vacancies are thermodynamically required at any finite temperature — they are not contamination. Creating vacancies increases entropy, and at equilibrium the free energy is minimized by a nonzero vacancy concentration. The equilibrium fraction N_v/N = exp(−Q_v/kT) is an intrinsic property of the material at a given temperature, not a sign of impurity."
+
+- question: "The rate of solid-state diffusion via the vacancy mechanism depends on both the frequency of atomic jumps and the concentration of vacancies, since an atom can only move by jumping into an adjacent vacant site."
+  type: true-false
+  answer: true
+  explanation: "Both factors appear in the diffusion coefficient: the jump rate (thermally activated, ∝ exp(−E_m/kT)) times the vacancy concentration (∝ exp(−Q_v/kT)) gives the overall Arrhenius temperature dependence of diffusion. If either the vacancy concentration or the jump frequency is zero, no diffusion occurs. This is why diffusion is negligible at low temperatures but rapid near the melting point."
+
+- question: "Why does rapidly quenching a metal from near its melting point result in a higher vacancy concentration at room temperature than slowly cooling the same metal? What does this reveal about the thermodynamic nature of vacancies?"
+  type: short-answer
+  answer: "Slow cooling allows the crystal to maintain thermodynamic equilibrium as temperature drops: vacancies migrate to sinks (grain boundaries, surfaces) and annihilate, reducing their concentration toward the low-temperature equilibrium value. Rapid quenching cools the sample so fast that vacancy migration cannot keep up, so the high-temperature concentration is frozen in. This reveals that vacancies are equilibrium thermodynamic features — their concentration is set by the Boltzmann factor exp(−Q_v/kT), not by processing accidents. Every temperature has its own equilibrium vacancy concentration, and quenching traps the high-temperature state."
+```
+
 ## Explainer
 
 Your study of crystal structures gave you an idealized picture: atoms arranged in perfectly repeating unit cells, extending through the solid with translational symmetry. Real crystalline materials always deviate from this ideal. Even a chemically pure, carefully grown crystal held at room temperature contains millions of **point defects** per cubic centimeter — not as contamination, but as thermodynamic necessity. The same statistical mechanics that gives gas molecules a distribution of energies (some molecules always have enough energy to escape a liquid surface) applies here: a fixed fraction of lattice sites are always unoccupied, because creating vacancies increases entropy enough to lower the free energy despite the energy cost of removing atoms from their bonded positions.

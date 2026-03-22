@@ -654,6 +654,7 @@ canvas {{ display:block; position:relative; touch-action:none; }}
   padding:3px 10px; cursor:pointer; font-size:13px; color:#ccc;
 }}
 #controls button:hover {{ background:#3a3a5a; }}
+#controls button.active {{ background:#2a4a2a; border-color:#4a4; color:#8f8; }}
 #nav {{
   position:fixed; top:16px; left:50%; transform:translateX(-50%);
   background:rgba(26,26,46,0.92); border:1px solid #333;
@@ -716,6 +717,7 @@ canvas {{ display:block; position:relative; touch-action:none; }}
   <button onclick="resetView()">Reset</button>
   <button onclick="zoomBtn(1.3)">+</button>
   <button onclick="zoomBtn(0.7)">&minus;</button>
+  <button id="fluencyBtn" onclick="toggleFluency()">Fluency</button>
 </div>
 <div id="tooltip"></div>
 <div id="panel"></div>
@@ -724,6 +726,7 @@ canvas {{ display:block; position:relative; touch-action:none; }}
   <span class="count" id="searchCount"></span>
 </div>
 
+<script src="js/fluency.js"></script>
 <script>
 const data = {graph_json};
 const canvas = document.getElementById("canvas");
@@ -755,6 +758,39 @@ legendEl.innerHTML = lhtml;
 // Index nodes
 const nodeMap = {{}};
 data.nodes.forEach((n, i) => {{ n.idx = i; nodeMap[n.id] = n; }});
+
+// --- Fluency overlay ---
+let showFluency = false;
+let fluencyGraph = null;
+let effectiveScores = null;
+let frontierSet = null;
+
+function buildFluencyGraph() {{
+  var g = {{}};
+  data.nodes.forEach(function(n) {{
+    g[n.id] = {{prereqs: [], successors: [], course: n.course || ''}};
+  }});
+  data.edges.forEach(function(e) {{
+    if (g[e.target]) g[e.target].prereqs.push(e.source);
+    if (g[e.source]) g[e.source].successors.push(e.target);
+  }});
+  return g;
+}}
+
+function refreshFluency() {{
+  if (typeof OKGFluency === 'undefined') return;
+  if (!fluencyGraph) fluencyGraph = buildFluencyGraph();
+  effectiveScores = OKGFluency.propagate(fluencyGraph);
+  var ids = OKGFluency.findFrontier(fluencyGraph, effectiveScores);
+  frontierSet = new Set(ids);
+}}
+
+function toggleFluency() {{
+  showFluency = !showFluency;
+  if (showFluency) refreshFluency();
+  document.getElementById('fluencyBtn').classList.toggle('active', showFluency);
+  draw();
+}}
 
 // Layout: course-based Y bands, bottom-to-top
 const graphH = H * 0.88;
@@ -910,11 +946,22 @@ function draw() {{
   data.nodes.forEach(n => {{
     ctx.beginPath();
     ctx.arc(n.x, n.y, nodeRadius, 0, Math.PI * 2);
-    ctx.fillStyle = n.color;
+    if (showFluency && effectiveScores) {{
+      var score = effectiveScores[n.id] || 0;
+      ctx.fillStyle = OKGFluency.masteryColor(score);
+    }} else {{
+      ctx.fillStyle = n.color;
+    }}
     ctx.fill();
-    ctx.strokeStyle = "rgba(255,255,255,0.08)";
-    ctx.lineWidth = 0.3;
-    ctx.stroke();
+    if (showFluency && frontierSet && frontierSet.has(n.id)) {{
+      ctx.strokeStyle = "rgba(255,200,50,0.9)";
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+    }} else {{
+      ctx.strokeStyle = "rgba(255,255,255,0.08)";
+      ctx.lineWidth = 0.3;
+      ctx.stroke();
+    }}
   }});
 
   // Draw highlights for selected or hovered node
@@ -1437,6 +1484,7 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   padding:4px 12px; cursor:pointer; font-size:13px; color:#aaa;
 }}
 #controls button:hover {{ background:#252540; color:#ddd; }}
+#controls button.active {{ background:#2a4a2a; border-color:#4a4; color:#8f8; }}
 #nav {{
   position:fixed; top:8px; left:8px;
   background:rgba(13,13,26,0.92); border:1px solid #222;
@@ -1496,6 +1544,7 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   <button onclick="resetView()">Reset</button>
   <button onclick="zoomBtn(1.3)">+</button>
   <button onclick="zoomBtn(0.7)">&minus;</button>
+  <button id="fluencyBtn" onclick="toggleFluency()">Fluency</button>
 </div>
 <div id="tooltip"></div>
 <div id="panel"></div>
@@ -1504,6 +1553,7 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   <span class="count" id="searchCount"></span>
 </div>
 
+<script src="js/fluency.js"></script>
 <script>
 const data = {graph_json};
 const canvas = document.getElementById("canvas");
@@ -1526,6 +1576,39 @@ window.addEventListener("resize", () => {{ resize(); initCamera(); draw(); }});
 
 const nodeMap = {{}};
 data.nodes.forEach((n, i) => {{ n.idx = i; nodeMap[n.id] = n; }});
+
+// --- Fluency overlay ---
+let showFluency = false;
+let fluencyGraph = null;
+let effectiveScores = null;
+let frontierSet = null;
+
+function buildFluencyGraph() {{
+  var g = {{}};
+  data.nodes.forEach(function(n) {{
+    g[n.id] = {{prereqs: [], successors: [], course: n.course || ''}};
+  }});
+  data.edges.forEach(function(e) {{
+    if (g[e.target]) g[e.target].prereqs.push(e.source);
+    if (g[e.source]) g[e.source].successors.push(e.target);
+  }});
+  return g;
+}}
+
+function refreshFluency() {{
+  if (typeof OKGFluency === 'undefined') return;
+  if (!fluencyGraph) fluencyGraph = buildFluencyGraph();
+  effectiveScores = OKGFluency.propagate(fluencyGraph);
+  var ids = OKGFluency.findFrontier(fluencyGraph, effectiveScores);
+  frontierSet = new Set(ids);
+}}
+
+function toggleFluency() {{
+  showFluency = !showFluency;
+  if (showFluency) refreshFluency();
+  document.getElementById('fluencyBtn').classList.toggle('active', showFluency);
+  draw();
+}}
 
 const SIDEBAR_W = 120;
 const HEADER_H = 55;
@@ -1630,8 +1713,18 @@ function draw() {{
     if (sx < SIDEBAR_W - 5 || sx > W + 5 || sy < HEADER_H - 5 || sy > H + 5) return;
     ctx.beginPath();
     ctx.arc(sx, sy, nodeRadius, 0, Math.PI * 2);
-    ctx.fillStyle = `hsl(${{n.hue}}, 55%, ${{n.lightness}}%)`;
+    if (showFluency && effectiveScores) {{
+      var score = effectiveScores[n.id] || 0;
+      ctx.fillStyle = OKGFluency.fluencyColor(n.hue, score);
+    }} else {{
+      ctx.fillStyle = `hsl(${{n.hue}}, 55%, ${{n.lightness}}%)`;
+    }}
     ctx.fill();
+    if (showFluency && frontierSet && frontierSet.has(n.id)) {{
+      ctx.strokeStyle = "rgba(255,200,50,0.9)";
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+    }}
   }});
 
   // Header background
@@ -2123,6 +2216,8 @@ h1 {{ color:#eee; margin-bottom:8px; font-size:28px; }}
 {rows}
 </div>
 <div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
+<a href="quiz.html" class="full-link" style="background:#2a3a5a; border-color:#4a9eff;">Knowledge Trivia</a>
+<a href="assessment.html" class="full-link" style="background:#3a2a3a;">Placement Assessment</a>
 <a href="radial-graph.html" class="full-link" style="background:#3a2a6a;">View Radial Graph (All Domains)</a>
 <a href="full-graph-hierarchy.html" class="full-link">View Hierarchy Graph (All Domains)</a>
 </div>
@@ -2200,6 +2295,14 @@ def main():
         out = OUTPUT_DIR / "full-graph-hierarchy.html"
         out.write_text(html, encoding="utf-8")
         print(f"  {len(all_data)} topics -> {out.name}")
+
+        # Copy fluency.js to output
+        fluency_src = ROOT / "lib" / "fluency.js"
+        if fluency_src.exists():
+            fluency_dst = OUTPUT_DIR / "js" / "fluency.js"
+            fluency_dst.parent.mkdir(parents=True, exist_ok=True)
+            import shutil
+            shutil.copy2(fluency_src, fluency_dst)
 
         # Generate index
         index_html = generate_index_html(domains_info)

@@ -14,7 +14,7 @@ tags:
 - herbivory
 - trophic-levels
 - food-web
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

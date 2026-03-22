@@ -31,6 +31,45 @@ Draw all resonance structures for ozone, carbonate, nitrate, and benzene. Calcul
 - Resonance does not mean the molecule flips between structures rapidly — the actual molecule is a single, static hybrid intermediate between the contributors.
 - A high formal charge (like +2 on a carbon) signals an unlikely or less significant resonance contributor, but it does not make the structure invalid.
 
+## Questions
+
+```yaml
+- question: "Carbonate ion (CO₃²⁻) has three equivalent C–O bonds, each with a bond length intermediate between a single and double bond. What does this tell us about the molecule's structure?"
+  type: multiple-choice
+  options:
+    - "The molecule rapidly oscillates between the three resonance structures, so on average the bonds appear equal"
+    - "The molecule is a resonance hybrid — electrons are delocalized over all three C–O bonds simultaneously"
+    - "The molecule adopts whichever resonance structure has the lowest formal charges at any given moment"
+    - "The single and double bonds are too similar in length to measure the difference experimentally"
+  answer: 1
+  explanation: "The equal bond lengths are direct experimental evidence of delocalization — the electrons are spread over all three C–O bonds simultaneously in the true hybrid structure. The molecule does NOT flip between structures (option A is the most common misconception). A resonance hybrid is a static, single structure that blends all contributors; it is not a dynamic equilibrium."
+
+- question: "You draw two resonance structures for a molecule. In structure A, carbon has a formal charge of 0 and oxygen has a formal charge of –1. In structure B, carbon has a formal charge of –1 and oxygen has a formal charge of 0. Which structure contributes more to the hybrid, and why?"
+  type: multiple-choice
+  options:
+    - "Structure B — negative formal charge on carbon is more stable because carbon has more bonds"
+    - "Structure A — oxygen is more electronegative, so negative formal charge belongs on oxygen"
+    - "Structure A — zero formal charge on all atoms is always preferred over any charged structure"
+    - "Both contribute equally — formal charges only matter when one structure has fewer charges overall"
+  answer: 1
+  explanation: "When negative formal charge is unavoidable, it should reside on the more electronegative atom. Oxygen is more electronegative than carbon, so structure A (negative charge on O) is a more significant resonance contributor. Structure B places negative charge on the less electronegative atom — that is an energetically unfavorable charge distribution and a less significant contributor."
+
+- question: "The observation that all six C–C bonds in benzene have identical length is evidence that benzene exists as a resonance hybrid rather than alternating between two Kekulé structures."
+  type: true-false
+  answer: true
+  explanation: "Correct. If benzene were fixed in one Kekulé structure (alternating single and double bonds), we would observe two distinct bond lengths. The fact that all six bonds are identical in length — intermediate between a C–C single and C=C double bond — is the experimental signature of electron delocalization in a resonance hybrid."
+
+- question: "A resonance structure with high formal charges (e.g., +2 on carbon) is an invalid Lewis structure and should not be drawn."
+  type: true-false
+  answer: false
+  explanation: "A resonance structure with high formal charges is a valid Lewis structure — it satisfies the rules of electron counting. However, it is a *minor* or *less significant* contributor to the hybrid because high formal charges represent an unfavorable distribution of electron density. The rules of formal charge rank contributor stability, not validity. All valid Lewis structures for a molecule are resonance contributors, regardless of how high their formal charges are."
+
+- question: "Why does delocalization in the carboxylate ion (RCO₂⁻) make it more stable than an alkoxide ion (RO⁻), even though both carry a single negative charge?"
+  type: short-answer
+  answer: "In carboxylate, the negative charge is shared equally between two oxygen atoms via resonance — two equivalent resonance structures each place the negative charge on a different oxygen. In alkoxide, the negative charge is concentrated on a single oxygen with no resonance delocalization. Spreading the charge over more atoms lowers energy because it reduces the concentration of charge in any one location."
+  explanation: "This is why carboxylic acids (pKₐ ~5) are far more acidic than alcohols (pKₐ ~16): once the proton leaves, the resulting carboxylate anion is stabilized by charge delocalization while the alkoxide is not. The key insight is that delocalization always lowers energy — more atoms sharing charge is more stable than one atom bearing it all."
+```
+
 ## Explainer
 
 You already know how to draw Lewis structures — assigning electrons to atoms so that each achieves an octet (or duet for hydrogen). But sometimes you can draw more than one perfectly valid Lewis structure for the same molecule, and those structures differ only in where you place the double bonds or lone pairs. Each of these is called a **resonance structure** (or resonance contributor), and the real molecule is not any single one of them. It is a **resonance hybrid** — a blend of all contributors, the way a mule is a hybrid of a horse and a donkey, not something that flickers between the two.

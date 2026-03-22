@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 Invasive species are non-native organisms establishing self-sustaining populations and negatively impacting native biodiversity or ecosystem function. Establishment depends on propagule pressure, species' invasiveness traits, and recipient community resistance. Invasive species outcompete natives, alter disturbance regimes, or disrupt trophic networks.
 
+## Questions
+
+```yaml
+- question: "A non-native plant introduced to a well-established, highly diverse forest fails to spread beyond the introduction site, while the same plant spreads aggressively in a nearby disturbed grassland. Which factor best explains this difference?"
+  type: multiple-choice
+  options:
+    - "The plant expresses different invasiveness traits in the two habitats due to phenotypic plasticity"
+    - "The grassland receives higher propagule pressure than the forest"
+    - "The forest community provides greater biotic resistance, reducing invasibility"
+    - "The plant requires genetic adaptation before successfully invading each new community"
+  answer: 2
+  explanation: "The same species with the same invasiveness traits behaves differently because recipient community invasibility matters as much as the invader's traits. The diverse, undisturbed forest offers stronger biotic resistance (competition, predation, resource limitation) than the disturbed grassland, which has fewer native species competing for open niches. Invasibility of the recipient community is a key, often underappreciated, determinant of invasion success."
+
+- question: "Which factor is the strongest empirical predictor of whether a non-native species will successfully establish a self-sustaining population in a new environment?"
+  type: multiple-choice
+  options:
+    - "The degree of ecological similarity between the source and recipient environments"
+    - "The invasiveness traits of the introduced species, especially rapid reproduction"
+    - "The number of individuals introduced and the frequency of introduction events"
+    - "The absence of native species occupying the same ecological role as the invader"
+  answer: 2
+  explanation: "Propagule pressure — the number of individuals arriving and how often they arrive — is the strongest empirically supported predictor of establishment. Even species with strong invasiveness traits rarely establish from a single introduction. Repeated large introductions dramatically increase the probability that some individuals survive filtering, find mates, and reproduce. This is why ports, garden centers, and aquaculture facilities are invasion hotspots."
+
+- question: "Invasive species succeed primarily because they are competitively superior to native species — they are simply better adapted to the local environment than the natives they displace."
+  type: true-false
+  answer: false
+  explanation: "Invasive success also depends critically on propagule pressure and the invasibility of the recipient community. Many successful invaders are not competitively superior across all environments; they succeed specifically in disturbed, low-diversity, or 'naive-prey' communities that offer reduced biotic resistance. A species that fails to invade an intact community may devastate a degraded one with lower resistance, not because the invader changed but because the community's defensive capacity changed."
+
+- question: "Some invasive species act as ecosystem engineers, altering the physical environment in ways that make the community more susceptible to further invasion, creating a positive feedback loop."
+  type: true-false
+  answer: true
+  explanation: "Invasive grasses in Hawaiian forests are a clear example: they increase fire frequency, converting fire-intolerant native forest to fire-adapted grassland, which in turn supports more grass invasion. The invader does not just outcompete natives directly — it restructures the physical template (fire regime, soil chemistry, hydrology) in ways that disadvantage natives and favor further spread, amplifying the invasion well beyond the invader's direct competitive effects."
+
+- question: "Why is preventing invasive species establishment generally more effective than attempting eradication after a population is established?"
+  type: short-answer
+  answer: "Because eradication becomes exponentially harder as a population grows and spreads. A small founding population can be removed at manageable cost, but once the species is widely distributed, reproducing rapidly, and integrated into the ecosystem, removal requires effort that scales with population size while the species continues spreading. Prevention targets propagule pressure — the most critical bottleneck — before the population crosses the threshold of self-sustaining spread."
+  explanation: "The cost asymmetry is stark: early detection and stopping introductions (trade regulation, biosecurity screening, ballast water treatment) prevents the exponential growth phase entirely. Post-establishment eradication often requires intensive, expensive, and ecologically disruptive interventions (herbicide, trapping, biocontrol) that may still fail if the population is too large or too widely distributed."
+```
+
 ## Explainer
 
 Not every non-native species becomes invasive. From your understanding of species interactions and community ecology, you know that communities resist newcomers through competition, predation, and resource limitation. An invasive species is one that overcomes these barriers, establishes a self-sustaining population, and causes measurable harm to native biodiversity or ecosystem processes. The critical distinction is between a species that merely survives in a new location and one that spreads aggressively and reshapes the community around it.

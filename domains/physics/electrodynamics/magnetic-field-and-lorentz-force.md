@@ -15,7 +15,7 @@ tags:
 - magnetism
 - field-theory
 - forces
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

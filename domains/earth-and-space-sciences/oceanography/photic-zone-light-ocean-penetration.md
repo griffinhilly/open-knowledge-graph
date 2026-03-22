@@ -11,7 +11,7 @@ tags:
 - light-absorption
 - transparency
 - euphotic-zone
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - planning
 - prior-research
 - synthesis
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

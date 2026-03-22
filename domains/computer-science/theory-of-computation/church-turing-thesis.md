@@ -13,7 +13,7 @@ tags:
 - church-turing-thesis
 - computability
 - foundations
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

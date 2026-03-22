@@ -30,6 +30,45 @@ Listen to early blues recordings by artists like Bessie Smith and Blind Lemon Je
 - Blues is a simple form because the 12-bar structure repeats — blues artists achieve extraordinary expressive depth through subtle variation of phrasing, timbre, and pitch inflection.
 - Blues was purely a folk form — by the early 20th century, blues had developed sophisticated performance traditions and recording industry support.
 
+## Questions
+
+```yaml
+- question: "The call-and-response pattern in blues — where a vocalist sings a phrase and the guitar or harmonica 'answers' — is rooted in which prior African American musical tradition?"
+  type: multiple-choice
+  options:
+    - "European classical forms like the fugue, where themes are introduced and then restated by different voices"
+    - "Work songs and spirituals, where a leader's call received a group response"
+    - "Ragtime piano, where the right-hand melody was answered by the left-hand bass line"
+    - "Minstrel show formats, where a performer would exchange phrases with the audience"
+  answer: 1
+  explanation: "Call-and-response is a direct cultural inheritance from African American work songs and spirituals. In field hollers, a leader sang a phrase and the group answered; in church, the preacher called and the congregation responded. Blues internalized this architecture into the interaction between voice and instrument — the guitar or harmonica takes the role of the responding group. This structural continuity is what makes blues part of a longer African American musical tradition, not a sudden invention."
+
+- question: "Why can standard European piano notation not fully capture the expressive pitch vocabulary of blues singing?"
+  type: multiple-choice
+  options:
+    - "Blues uses a pentatonic scale that cannot be notated in standard Western staff notation"
+    - "Blues singers use microtonal inflections — bending and sliding pitches between fixed notes — that emerge from African vocal traditions and fall outside the piano's fixed keys"
+    - "Blues melodies are improvised and therefore cannot be written down in advance"
+    - "Blues uses irregular time signatures that European notation cannot accommodate"
+  answer: 1
+  explanation: "Blue notes are not simply flatted thirds and sevenths — they are bent, slid, or 'worried' pitches that occupy the spaces between fixed piano keys. This microtonality comes from African vocal traditions where pitch could be inflected to express emotional nuance. A piano can approximate this (by always playing the lower pitch) but cannot replicate the expressive range of a voice or bent guitar string. This is why the guitar — which can physically bend strings — became the ideal blues instrument."
+
+- question: "The repetition of the 12-bar structure means that blues performers have fundamentally less expressive range than performers working in more complex musical forms."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about blues. The repeating structure is a frame, not a ceiling. Within those 12 bars, a performer varies phrasing, timing, pitch inflection, timbre, and dynamics to achieve extraordinary expressive depth. The form's familiarity to both performer and listener actually enables communication — the audience always knows where they are in the cycle, making subtle variations register more powerfully. B.B. King bending a single note within a 12-bar frame can be more expressive than a technically dense passage in a formally complex idiom."
+
+- question: "By the early 20th century, blues had developed professional performance circuits and commercial recording industry support, making it more than a purely rural folk tradition."
+  type: true-false
+  answer: true
+  explanation: "This counters the misconception that blues was only an informal folk tradition. Artists like Bessie Smith were recording industry stars with professional careers; labels marketed 'race records' specifically to Black audiences. Blues had formal performance conventions, professional touring circuits, and a recording infrastructure. Acknowledging this doesn't diminish its folk roots — it shows how a community-rooted tradition developed sophisticated cultural institutions."
+
+- question: "What does it mean to say that blues established 'emotional authenticity' as its defining ethical standard, and how does this standard differ from the primary value in classical Western concert music?"
+  type: short-answer
+  answer: "Blues holds that genuine emotional expression — testimony drawn from lived experience — is the primary measure of musical value. A blues performer succeeds by naming real experience directly and convincingly, not by technical polish or formal correctness. Classical Western concert music primarily values technical mastery, formal complexity, and adherence to compositional conventions. In blues, you cannot 'fake' the blues; the music either reflects authentic feeling or it doesn't. This ethical standard — prioritizing emotional truth over technical display — became foundational to rock, soul, and R&B."
+  explanation: "The distinction shapes entire genres. The blues ethics of authentic expression derived from its social function as communal testimony among people who could not speak their experience plainly. When rock critics say a musician 'plays with feeling,' or soul listeners speak of authenticity, they are applying blues values. The standard crossed from blues into the mainstream of 20th-century popular music and remains the dominant ethical measure for a whole lineage of genres."
+```
+
 ## Explainer
 
 The blues is one of the most consequential musical inventions in modern history — not simply because it created a form, but because it created a **way of hearing** that transformed Western music. Your prerequisite on jazz origins gave you the broad context: blues and jazz emerged together from African American communities in the late 19th and early 20th century, and blues provided jazz with its harmonic language, its improvisational ethos, and its emotional center of gravity. To understand the blues deeply, you need to understand where its defining features came from and what they were doing socially before they became musical conventions.

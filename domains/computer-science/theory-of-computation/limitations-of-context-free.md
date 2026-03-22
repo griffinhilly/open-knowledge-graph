@@ -12,7 +12,7 @@ tags:
 - context-free
 - non-cfl
 - hierarchy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -41,6 +41,45 @@ Implement both the Lomuto and Hoare partition schemes and compare them. Test on 
 - Quicksort is not stable — equal elements may be reordered.
 - 'In-place' means no extra array space is needed, but quicksort still uses O(log n) stack space for recursion.
 
+## Questions
+
+```yaml
+- question: "A programmer implements quicksort using the first element as pivot, then runs it on 10,000 names already in alphabetical order. What is the likely time complexity, and why?"
+  type: multiple-choice
+  options:
+    - "O(n log n) — sorted input is the best case for quicksort"
+    - "O(n²) — the pivot is always the minimum, producing maximally unbalanced partitions"
+    - "O(n) — the partition step recognizes the array is sorted and skips work"
+    - "O(n log n) regardless — quicksort's performance doesn't depend on pivot choice"
+  answer: 1
+  explanation: "On a sorted array with the first element as pivot, the pivot is always the minimum. After each partition the left subarray is empty and the right has n−1 elements. The recursion tree degenerates to depth n rather than log n, and total comparisons become 1 + 2 + ... + n = O(n²). This is quicksort's worst case. Randomized pivot selection prevents this by making it overwhelmingly unlikely to consistently pick near-extreme pivots, regardless of input order."
+
+- question: "Quicksort and merge sort both have O(n log n) average-case complexity. In practice, quicksort is often faster on large arrays. What best explains this?"
+  type: multiple-choice
+  options:
+    - "Quicksort makes fewer comparisons than merge sort in all cases"
+    - "Quicksort operates in-place on a contiguous memory block, producing better CPU cache performance"
+    - "Quicksort's recursion is shallower because it uses three-way partitioning by default"
+    - "Merge sort has O(n²) worst case, making its average performance slower"
+  answer: 1
+  explanation: "Quicksort's practical advantage is cache locality. It swaps elements within a single contiguous array, so memory accesses are sequential and cache-friendly. Merge sort copies elements between arrays during merging, causing more cache misses on real hardware. Both algorithms have O(n log n) average complexity. Merge sort's worst case is actually O(n log n) — better than quicksort's O(n²) worst case. The advantage is a constant-factor difference in average performance due to memory access patterns."
+
+- question: "Randomized quicksort achieves O(n log n) expected running time on any input, but this is a probabilistic expectation — not a worst-case guarantee."
+  type: true-false
+  answer: true
+  explanation: "True. Randomized quicksort picks a pivot uniformly at random. The expected number of comparisons is about 1.39n log n regardless of input order. However, there is a small (but nonzero) probability that random pivot choices are consistently bad on any given run, producing O(n²) behavior. For worst-case guarantees, algorithms like merge sort or heapsort are needed."
+
+- question: "Quicksort is called 'in-place' because it requires no additional memory beyond the input array, giving it O(1) space complexity."
+  type: true-false
+  answer: false
+  explanation: "False. 'In-place' means no extra array is allocated for elements, but quicksort still uses O(log n) stack space for recursive calls. Each recursion level adds a frame tracking partition boundaries and the pivot. With balanced splits (good pivot), recursion depth is O(log n). In the worst case (unbalanced splits), stack depth reaches O(n). So quicksort's space complexity is O(log n) expected — not O(1)."
+
+- question: "Explain why choosing the first element as pivot performs poorly on already-sorted arrays, and how randomized pivot selection fixes this."
+  type: short-answer
+  answer: "On a sorted array, the first element is always the minimum. After partitioning, the left subarray is empty and the right has n−1 elements — the worst possible split. This repeats at every level: the recursion tree has depth n instead of log n, and total work is O(n²). Randomized pivot selection picks a pivot uniformly at random, making it extremely unlikely to consistently choose near-extreme elements. The expected split is balanced enough that recursion depth is O(log n), giving O(n log n) expected time regardless of input order."
+  explanation: "The intuition: a random pivot lands in the middle 50% of elements with probability 1/2, producing a split no worse than 75%/25%. When roughly half of all pivots are 'good' splits, the recursion tree height is O(log n) in expectation. The resulting expected comparison count is about 1.39n log n — only 39% above the theoretical minimum for comparison-based sorting."
+```
+
 ## Explainer
 
 Quicksort is the canonical example of divide-and-conquer applied to sorting. The strategy you learned in divide-and-conquer — break the problem into smaller subproblems, solve them recursively, combine the results — takes a specific form here: **partitioning** does all the real work up front, and the "combine" step is trivial because the subarrays are already in the right positions.

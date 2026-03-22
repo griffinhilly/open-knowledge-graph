@@ -37,6 +37,45 @@ Learn by studying specific amino acid degradation pathways for branched-chain am
 - All amino acids produce glucose equally; only glucogenic amino acids contribute to gluconeogenesis, while ketogenic amino acids form ketone bodies.
 - Amino acid catabolism is always harmful; controlled degradation is essential for maintaining nitrogen balance and providing flexible fuel sources.
 
+## Questions
+
+```yaml
+- question: "During a prolonged fast, the body degrades muscle protein to maintain blood glucose. Why can leucine — a major muscle amino acid — not contribute to this glucose production?"
+  type: multiple-choice
+  options:
+    - "Leucine is an essential amino acid and therefore cannot be catabolized under any conditions"
+    - "Leucine's carbon skeleton is converted to acetyl-CoA, which cannot be used for net glucose synthesis because it cannot be converted back to pyruvate"
+    - "Leucine catabolism occurs exclusively in muscle tissue, which lacks the gluconeogenic enzymes needed to make glucose"
+    - "Leucine degradation is suppressed by low insulin levels during fasting"
+  answer: 1
+  explanation: "Leucine is purely ketogenic — its carbon skeleton becomes acetyl-CoA and acetoacetate. The acetyl-CoA → pyruvate direction is blocked in mammals (the pyruvate dehydrogenase reaction is irreversible), so acetyl-CoA cannot enter gluconeogenesis. Option A is wrong because leucine is catabolized during fasting — it just can't produce glucose. This irreversibility is the metabolic reason why fat (which yields acetyl-CoA) also cannot support net gluconeogenesis."
+
+- question: "In amino acid catabolism, transamination is followed by oxidative deamination of glutamate. What is the primary function of this two-step sequence?"
+  type: multiple-choice
+  options:
+    - "To convert amino acid carbon skeletons directly into glucose without producing any toxic intermediates"
+    - "To synthesize non-essential amino acids from dietary carbohydrate precursors"
+    - "To funnel amino acid nitrogen as free NH₄⁺ into the urea cycle while releasing the carbon skeleton for further metabolism"
+    - "To generate ATP through substrate-level phosphorylation before the carbon skeleton enters the TCA cycle"
+  answer: 2
+  explanation: "Transamination transfers the amino group to α-ketoglutarate, producing glutamate. Glutamate dehydrogenase then oxidatively deaminates glutamate, releasing NH₄⁺ and regenerating α-ketoglutarate. This two-step process is elegant: it collects nitrogen from virtually all amino acids into a single compound (glutamate), then releases it as NH₄⁺ for urea synthesis. The carbon skeleton is now free as an α-keto acid to feed central metabolic pathways."
+
+- question: "A purely ketogenic amino acid such as leucine cannot contribute to net glucose synthesis because its catabolism produces only acetyl-CoA and acetoacetate."
+  type: true-false
+  answer: true
+  explanation: "True. Gluconeogenesis requires carbon that can enter the pathway as pyruvate, oxaloacetate, or other gluconeogenic precursors. Acetyl-CoA feeds the TCA cycle but cannot be converted to pyruvate (the pyruvate dehydrogenase reaction is irreversible). Net conversion of acetyl-CoA carbons to glucose would violate this constraint — the two carbons that enter as acetyl-CoA are lost as CO₂ in the TCA cycle."
+
+- question: "Positive nitrogen balance indicates that protein catabolism exceeds synthesis, as occurs during starvation or severe illness."
+  type: true-false
+  answer: false
+  explanation: "False — this describes negative nitrogen balance. Positive nitrogen balance means nitrogen intake exceeds excretion, which means protein synthesis exceeds catabolism — the state during growth, pregnancy, recovery from illness, or active muscle building. Starvation and illness cause negative nitrogen balance, where muscle protein is broken down faster than it can be replaced."
+
+- question: "Why are branched-chain amino acids (BCAAs) metabolically unusual compared to most other amino acids, and why does this matter during exercise?"
+  type: short-answer
+  answer: "Unlike most amino acids, BCAAs (leucine, isoleucine, valine) are catabolized primarily in skeletal muscle rather than the liver. This makes them important local energy substrates during exercise, when muscle energy demands are high and BCAA oxidation can contribute directly to ATP production in the working tissue. It also means they are major contributors to muscle protein turnover and nitrogen balance at the tissue level, not just systemically."
+  explanation: "Most amino acid catabolism is hepatic — the liver handles nitrogen disposal and carbon skeleton metabolism. BCAAs are exceptions because skeletal muscle expresses the relevant aminotransferases at high levels. During exercise, BCAA catabolism in muscle contributes to local energy supply and generates alanine (via transamination with pyruvate), which travels to the liver for gluconeogenesis — the glucose-alanine cycle."
+```
+
 ## Explainer
 
 Amino acids serve far more roles than building proteins. From your study of amino acid classification and properties, you know that each amino acid has a unique side chain that determines its chemical behavior. That same side chain also determines what happens to it during catabolism — and the fate of the carbon skeleton after nitrogen removal is the central organizing principle of amino acid metabolism.

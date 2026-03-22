@@ -11,7 +11,7 @@ tags:
 - scientific-method
 - empirical-inquiry
 - research-foundation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

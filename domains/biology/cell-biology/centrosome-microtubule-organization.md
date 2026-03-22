@@ -13,7 +13,7 @@ tags:
 - mtoc
 - microtubules
 - centrioles
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

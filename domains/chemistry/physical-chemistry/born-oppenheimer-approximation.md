@@ -37,6 +37,45 @@ Understand the physical reasoning first — electrons move ~1000× faster than n
 - Thinking BO is exact; it is an approximation that fails near conical intersections.
 - Confusing 'fixed nuclei' with 'stationary nuclei' — the approximation is about timescales, not that nuclei don't move.
 
+## Questions
+
+```yaml
+- question: "The Born-Oppenheimer approximation works because electrons and nuclei have very different masses. What is the key physical consequence of this mass difference that justifies the approximation?"
+  type: multiple-choice
+  options:
+    - "Nuclei are too heavy to participate in chemical bonding"
+    - "Electrons and nuclei are spatially separated in a molecule"
+    - "Electrons move thousands of times faster than nuclei, so electrons respond instantaneously to any nuclear rearrangement"
+    - "Heavier particles obey classical mechanics while lighter ones obey quantum mechanics"
+  answer: 2
+  explanation: "The mass difference (a proton is ~1,836× heavier than an electron) means electrons move on a much faster timescale than nuclei. From the electrons' perspective, nuclei are frozen; from the nuclei's perspective, electrons adjust instantly. This timescale separation — not spatial separation or classical/quantum division — is what permits the factorization of the wavefunction."
+
+- question: "The Born-Oppenheimer approximation breaks down at a conical intersection. Which of the following best explains why?"
+  type: multiple-choice
+  options:
+    - "The nuclei become lighter than the electrons at the intersection geometry"
+    - "Two electronic states become degenerate, so electrons cannot 'choose' a unique ground state and instead couple strongly to nuclear motion"
+    - "The molecule dissociates at a conical intersection, making the approximation inapplicable"
+    - "The potential energy surface becomes flat, so there is no force on the nuclei"
+  answer: 1
+  explanation: "The BO approximation requires a clear separation between the ground and excited electronic states so electrons can adiabatically adjust to nuclear motion. At a conical intersection, two states become exactly degenerate at a particular nuclear geometry. With no energy gap separating them, nuclear motion can cause transitions between electronic states — the electronic and nuclear degrees of freedom become entangled again, violating the assumptions of the approximation."
+
+- question: "The concept of 'molecular geometry' — the idea that a molecule has a well-defined shape — depends on the validity of the Born-Oppenheimer approximation."
+  type: true-false
+  answer: true
+  explanation: "Without the BO approximation, nuclear and electronic coordinates are inseparably entangled in a single wavefunction. You cannot ask 'what are the bond lengths?' independently of the electronic state. The BO approximation is precisely what allows you to define a potential energy surface with a minimum (equilibrium geometry), and to say the molecule 'has a shape' at all."
+
+- question: "The Born-Oppenheimer approximation assumes that nuclei remain stationary during a chemical reaction."
+  type: true-false
+  answer: false
+  explanation: "This is a common misreading. The approximation does not say nuclei don't move — it says nuclei move so slowly relative to electrons that the electrons instantaneously relax to their ground state at each nuclear configuration. Nuclei move on the potential energy surface; the approximation is about relative timescales, not nuclear immobility."
+
+- question: "Why does the electronic energy as a function of nuclear geometry become the potential for nuclear motion in the Born-Oppenheimer framework?"
+  type: short-answer
+  answer: "Because the BO approximation decouples the electronic and nuclear problems: first, the electronic Schrödinger equation is solved at each fixed nuclear geometry, yielding an electronic energy that depends parametrically on nuclear positions. This energy landscape — the potential energy surface — then acts as the potential in the nuclear equation of motion. The nuclei 'feel' the averaged electronic energy as if it were an external potential field."
+  explanation: "The factorization of the total wavefunction into electronic × nuclear parts means the electronic energy enters the nuclear Hamiltonian as a potential. This is why reaction coordinate diagrams with energy barriers are physically meaningful: the barrier height is the electronic energy difference between the transition state and reactants geometries."
+```
+
 ## Explainer
 
 The Schrödinger equation for a molecule is, in principle, a single equation involving all particles — every electron and every nucleus. For even a small molecule like water with 10 electrons and 3 nuclei, this means solving a coupled 39-dimensional problem (three spatial coordinates per particle). This is intractable as written. The **Born-Oppenheimer approximation** makes chemistry computationally possible by exploiting one physical fact: a proton is roughly 1,836 times heavier than an electron, and heavier nuclei are even more massive. Because of this enormous mass difference, electrons move thousands of times faster than nuclei. From the electrons' perspective, the nuclei are essentially frozen in place; from the nuclei's perspective, the electrons adjust instantaneously to any nuclear rearrangement.

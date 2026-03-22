@@ -30,6 +30,45 @@ Calculate Q for familiar scenarios: heating water for cooking, cooling metal par
 - Specific heat is a property of the material, not the sample — a larger sample doesn't have higher specific heat, it just requires more total heat energy.
 - Specific heat and heat capacity are related but different: heat capacity = mc (for the whole object), while specific heat c is per unit mass.
 
+## Questions
+
+```yaml
+- question: "You supply equal amounts of heat energy to equal masses of iron (c = 450 J/kg·K) and water (c = 4186 J/kg·K). Which substance experiences a larger temperature increase?"
+  type: multiple-choice
+  options:
+    - "Water, because it has a higher specific heat capacity"
+    - "Iron, because it has a lower specific heat capacity"
+    - "Both experience the same temperature increase, since the energy supplied is equal"
+    - "It depends on the initial temperatures of each substance"
+  answer: 1
+  explanation: "From Q = mcΔT, for fixed Q and m, ΔT = Q/(mc). Iron's specific heat is about 9× lower than water's, so it experiences about 9× the temperature rise for the same energy input. This is why a frying pan heats to cooking temperature long before the water in a pot beside it — same heat source, same mass, but very different ΔT."
+
+- question: "A student claims that a 2 kg block of iron has a higher specific heat capacity than a 1 kg block of the same iron because it requires more total heat to raise its temperature by 1 K. Is the student correct?"
+  type: multiple-choice
+  options:
+    - "Yes — more mass means more heat required, so specific heat is higher"
+    - "No — specific heat is a property of the material, not the sample; both blocks have the same c"
+    - "Yes — specific heat scales linearly with mass"
+    - "No — the 1 kg block actually has higher specific heat because it heats faster"
+  answer: 1
+  explanation: "Specific heat capacity c is an intensive property — it characterizes the material regardless of how much of it you have. The 2 kg block does require more total heat (Q = mcΔT, so twice the mass means twice the Q), but that is the heat capacity of the object (mc), not the specific heat c. Specific heat is the same for both blocks because they are made of the same material."
+
+- question: "Water's high specific heat capacity helps explain why coastal cities experience smaller daily and seasonal temperature swings compared to inland cities at the same latitude."
+  type: true-false
+  answer: true
+  explanation: "Because water has an unusually high specific heat (4186 J/kg·K), the ocean absorbs and releases heat energy with much smaller temperature changes than land does. This buffers the air temperature over coastal areas — the ocean warms up slowly in summer and cools slowly in winter, moderating the climate of nearby cities."
+
+- question: "A larger sample of water has a higher specific heat capacity than a smaller sample of water."
+  type: true-false
+  answer: false
+  explanation: "Specific heat capacity is a per-unit-mass property of the material, not the sample. All samples of water have c ≈ 4186 J/(kg·K) regardless of size. What changes with mass is the heat capacity of the object (C = mc), which represents the total energy needed to raise that particular sample by 1 K. Confusing these two quantities is a very common error."
+
+- question: "A cast-iron frying pan and a pot of water sit on the same stove burner and absorb heat at the same rate. Why does the frying pan reach cooking temperature so much faster than the water?"
+  type: short-answer
+  answer: "Iron has a much lower specific heat capacity (~450 J/kg·K) than water (~4186 J/kg·K), so for the same energy input per kilogram, iron undergoes a much larger temperature rise."
+  explanation: "Using Q = mcΔT: for the same Q and m, ΔT = Q/(mc). The lower c for iron means the same heat input produces roughly 9× the temperature increase compared to water. The pan's temperature climbs rapidly while the water's temperature rises slowly, even though both are absorbing similar amounts of energy."
+```
+
 ## Explainer
 
 You know that heat Q is the transfer of thermal energy, and that adding energy to a substance raises its temperature. But how much does the temperature rise? That depends on both the mass and what the substance is made of. **Specific heat capacity** c is the material property that tells you: Q = mcΔT. It is measured in J/(kg·K) and represents how much energy must be added to raise 1 kg of the substance by 1 K.

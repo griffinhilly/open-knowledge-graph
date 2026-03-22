@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Formal operators K and B represent knowledge and belief; Kₐp reads 'a knows p' and Bₐp reads 'a believes p'. These operators have distinct axiomatizations: K satisfies S5 (including Kₐp → p and Kₐp → KₐKₐp), while B typically satisfies only S4 (no factivity). Combined with quantifiers and propositional operators, they enable formal representation of complex epistemic attitudes and their logical relationships.
 
+## Questions
+
+```yaml
+- question: "Which of the following best captures the logical difference between the K (knowledge) and B (belief) operators in epistemic logic?"
+  type: multiple-choice
+  options:
+    - "K requires higher certainty than B, but both operators can attach to false propositions"
+    - "K entails the truth of what is known (Kₐp → p), while B has no such requirement"
+    - "K applies only to necessary truths, while B can apply to contingent propositions"
+    - "K and B are logically interchangeable when the agent has sufficient evidence"
+  answer: 1
+  explanation: "This is the factivity distinction. Knowledge is factive: Kₐp → p is an axiom (the T axiom). Belief is not factive: there is no axiom Bₐp → p, because agents can and do believe false things. This is a categorical logical difference, not a matter of degree of certainty, and it is the reason K and B require different axiom systems (S5 vs S4)."
+
+- question: "An agent satisfies the S5 axioms for knowledge and it is true that Kₐp. Which of the following must hold?"
+  type: multiple-choice
+  options:
+    - "p is true, but the agent cannot determine whether she knows p"
+    - "The agent believes p, but may not know that she knows p"
+    - "p is true, and the agent knows that she knows p"
+    - "The agent knows all logical consequences of p"
+  answer: 2
+  explanation: "S5 includes the T axiom (Kₐp → p, so p is true) and positive introspection (Kₐp → KₐKₐp, so the agent knows that she knows p). Both hold simultaneously in S5. Option D describes logical omniscience, a related idealization, but it is not what these specific axioms entail."
+
+- question: "If an agent believes a proposition, that proposition must be true, because rational belief tracks truth by definition."
+  type: true-false
+  answer: false
+  explanation: "Belief is not factive. The formal operator B has no axiom Bₐp → p. Agents can and do believe false propositions — this is a foundational observation in epistemology, not a failure of rationality. The absence of factivity is precisely what distinguishes B from K and why they require different axiom systems."
+
+- question: "The formal operators K and B model idealized epistemic agents, and the gap between this idealization and real human cognition is itself a recognized limitation of the framework."
+  type: true-false
+  answer: true
+  explanation: "Real human agents are not logically omniscient (they do not automatically know all consequences of what they know), may lack perfect introspective access to their own beliefs, and can hold contradictory beliefs simultaneously. The formal operators assume none of these limitations. Acknowledging this gap — and asking what weakened axiom systems might better model bounded human reasoners — is an active research area in epistemology and AI."
+
+- question: "Why do the K and B operators require different axiom systems (S5 vs S4), and what single logical property is responsible for this divergence?"
+  type: short-answer
+  answer: "Factivity: K satisfies Kₐp → p (knowledge entails truth), but B does not. Since agents can believe false things, no analogous axiom holds for B. This single difference propagates: S5 also includes negative introspection (¬Kₐp → Kₐ¬Kₐp), which is philosophically plausible for knowledge but not for belief. S4 retains positive introspection but drops factivity and negative introspection."
+  explanation: "The divergence is not arbitrary — it reflects the genuine philosophical difference between knowing and believing. Once you accept that knowledge entails truth (a near-universal philosophical commitment), the formal consequences follow: S5 is the appropriate system for K, while B, lacking factivity, is more naturally modeled by weaker systems like S4 or KD45."
+```
+
 ## Explainer
 
 From your study of epistemic accessibility relations, you learned that modal logic models knowledge by asking which possible worlds an agent can "see" from a given world — the worlds she cannot rule out given what she knows. **Knowledge and belief operators** are the syntactic tools that bring this semantic idea into formal logic. The operator **K** (knowledge) and operator **B** (belief) work like modal operators □ and ◇: they attach to a proposition and an agent to produce a new, complex proposition. Kₐp says that agent a knows proposition p; Bₐp says that agent a believes p.

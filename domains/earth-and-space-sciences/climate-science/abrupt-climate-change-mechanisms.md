@@ -30,6 +30,45 @@ Abrupt climate change arises from nonlinearities in ocean circulation, ice-sheet
 ## How It's Best Learned
 Compare high-resolution paleoclimate records (ice cores, marine sediments, speleothems) across D-O and YD events to identify common preceding conditions and trigger mechanisms. Run paleoclimate models with prescribed freshwater forcing to simulate abrupt transitions and compare to observations.
 
+## Questions
+
+```yaml
+- question: "The Younger Dryas (~12,800 years ago) was a rapid return to near-glacial conditions despite only a modest change in orbital forcing at the time. Which explanation best accounts for the dramatic cooling?"
+  type: multiple-choice
+  options:
+    - "Orbital forcing was larger than currently estimated; modern measurements understate the perturbation"
+    - "A freshwater pulse disrupted AMOC, triggering ice-albedo and atmospheric feedbacks that amplified the initial perturbation far beyond its original magnitude"
+    - "A sharp drop in atmospheric CO₂ reduced the greenhouse effect, driving cooling proportional to the forcing"
+    - "Increased volcanic activity injected aerosols that blocked sunlight, cooling the Northern Hemisphere directly"
+  answer: 1
+  explanation: "The Younger Dryas is the canonical example of disproportionate response to modest forcing. Meltwater from glacial Lake Agassiz reduced North Atlantic surface salinity, weakening AMOC sinking and cutting poleward heat transport. This triggered ice-albedo feedbacks (cooling expanded sea ice, increasing reflectivity) and atmospheric circulation shifts — positive feedbacks that amplified the initial small perturbation into 8–16°C cooling in Greenland over decades. The forcing was the trigger; internal feedbacks did most of the work."
+
+- question: "Which combination of factors best explains why small perturbations can trigger abrupt, large-magnitude climate transitions?"
+  type: multiple-choice
+  options:
+    - "High ocean heat capacity absorbs forcing gradually, then releases it suddenly in a single discharge event"
+    - "Nonlinear internal feedbacks and multiple stable climate states allow small perturbations to push the system past thresholds, triggering self-sustaining transitions"
+    - "Volcanic aerosols and atmospheric dust independently amplify any external forcing by reflecting additional solar radiation back to space"
+    - "The polar vortex periodically destabilizes, allowing Arctic air masses to rapidly propagate global cooling"
+  answer: 1
+  explanation: "Two properties make abrupt climate change possible: nonlinear feedbacks (ice-albedo amplification, AMOC threshold behavior) and multiple stable states. When a perturbation pushes the system past a threshold, positive feedbacks take over and drive the transition to the new state — the external forcing only provides the initial push. This is fundamentally different from a linear system where response is always proportional to forcing."
+
+- question: "The Atlantic Meridional Overturning Circulation (AMOC) can exist in multiple stable states, and a collapsed AMOC is self-sustaining because of positive feedbacks that resist recovery."
+  type: true-false
+  answer: true
+  explanation: "The AMOC depends on North Atlantic surface waters being dense enough to sink. A weakened AMOC exports less salt to the North Atlantic, reducing salinity and density, which further weakens sinking — a positive feedback that can lock the system in the off state. Recovery requires pushing salinity back up enough to restart deep-water formation. This bistability (on and off states) is why paleoclimate scientists worry about AMOC as a potential tipping element."
+
+- question: "Abrupt climate change events in the paleoclimate record demonstrate that large climate responses require proportionally large external forcing."
+  type: true-false
+  answer: false
+  explanation: "The defining feature of abrupt climate change is the mismatch between cause and effect — small triggers produce disproportionately large responses. A modest freshwater pulse, not a dramatic change in solar output or orbital geometry, triggered the Younger Dryas. The climate system's nonlinearities and threshold behavior mean that once a tipping point is crossed, internal feedbacks do most of the work. Proportionality between forcing and response is a property of linear systems, which the climate system is not."
+
+- question: "Explain why a freshwater pulse into the North Atlantic can trigger rapid, large-scale temperature changes across the Northern Hemisphere, even if the pulse itself represents a small perturbation to the global system."
+  type: short-answer
+  answer: "Freshwater reduces North Atlantic surface salinity and density, weakening AMOC sinking and poleward heat transport. This triggers ice-albedo feedbacks (cooling expands ice, increasing reflectivity) and atmospheric moisture transport shifts — positive feedbacks that amplify the initial small perturbation into a large, self-sustaining climate state transition."
+  explanation: "The causal chain is: freshwater input → reduced salinity → reduced density → weakened AMOC sinking → reduced northward heat transport → Northern Hemisphere cooling → sea ice expansion → higher albedo → more cooling. Each step reinforces the previous one. The freshwater pulse is the threshold trigger; the feedbacks are the engine. This asymmetry between a modest external input and a dramatic climate outcome is the central insight of abrupt climate change science."
+```
+
 ## Explainer
 
 From your study of climate sensitivity and radiative feedbacks, you know that the climate system responds to forcing in ways that can amplify or dampen the initial perturbation. Abrupt climate change occurs when those amplifying feedbacks become so strong that the system doesn't respond gradually — it flips from one quasi-stable state to another in decades or even years, far faster than the forcing that triggered it. The key insight is that the climate system contains **nonlinearities**: points where a small additional push produces a disproportionately large response because the system crosses a threshold.

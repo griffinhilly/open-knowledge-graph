@@ -15,7 +15,7 @@ tags:
 - IRB
 - informed-consent
 - deception
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

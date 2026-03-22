@@ -15,7 +15,7 @@ tags:
 - data-quality
 - missing-data
 - outliers
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

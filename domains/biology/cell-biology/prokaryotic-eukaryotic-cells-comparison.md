@@ -16,7 +16,7 @@ tags:
 - structure
 - comparison
 - evolution
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

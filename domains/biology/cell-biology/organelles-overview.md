@@ -16,7 +16,7 @@ tags:
 - organelles
 - cell-function
 - compartmentalization
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

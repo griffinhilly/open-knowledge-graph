@@ -13,7 +13,7 @@ tags:
 - prokaryotes
 - bacteria
 - cell-structure
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

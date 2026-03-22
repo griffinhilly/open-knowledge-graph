@@ -25,6 +25,45 @@ LEFT OUTER JOIN includes all rows from the left table and matching rows from the
 ## How It's Best Learned
 Compare results of INNER vs LEFT JOIN on the same query to understand what rows are included/excluded. Practice scenarios where entities have optional relationships (e.g., employees who may not have assigned projects).
 
+## Questions
+
+```yaml
+- question: "A query uses INNER JOIN to combine a customers table with an orders table. A customer named 'Smith' has never placed an order. What appears in the result?"
+  type: multiple-choice
+  options:
+    - "Smith appears with NULL values in the order columns"
+    - "Smith does not appear in the result at all"
+    - "Smith appears with empty strings in the order columns"
+    - "The query returns an error because the join condition is not satisfied"
+  answer: 1
+  explanation: "INNER JOIN only returns rows where the join condition is satisfied on both sides. A customer with no orders has no matching row in the orders table, so the INNER JOIN silently drops them from the result. This is precisely the problem outer joins solve. Option A describes what LEFT JOIN would do — preserve Smith with NULLs on the right side."
+
+- question: "You want to find all customers who have NEVER placed an order. Which query achieves this?"
+  type: multiple-choice
+  options:
+    - "SELECT c.name FROM customers c INNER JOIN orders o ON c.id = o.customer_id WHERE o.id IS NULL"
+    - "SELECT c.name FROM customers c LEFT JOIN orders o ON c.id = o.customer_id WHERE o.id IS NULL"
+    - "SELECT c.name FROM customers c FULL OUTER JOIN orders o ON c.id = o.customer_id"
+    - "SELECT c.name FROM customers c RIGHT JOIN orders o ON c.id = o.customer_id WHERE o.id IS NULL"
+  answer: 1
+  explanation: "This is the 'anti-join' pattern. The LEFT JOIN preserves every customer, including those with no orders (they appear with NULL in the orders columns). The WHERE o.id IS NULL filter then keeps only the customers who had no match — i.e., never ordered. The INNER JOIN in option A would never produce rows with NULL in o.id, so that WHERE clause would return nothing. Option C returns all rows from both sides but doesn't filter to non-matches."
+
+- question: "A LEFT JOIN between tables A and B will always return at least as many rows as an INNER JOIN on the same tables with the same condition."
+  type: true-false
+  answer: true
+  explanation: "Every row returned by an INNER JOIN is also returned by a LEFT JOIN (matched rows appear in both). But a LEFT JOIN additionally returns unmatched rows from the left table — rows the INNER JOIN would have dropped. So the LEFT JOIN result is a superset of the INNER JOIN result, meaning it always has the same number of rows or more."
+
+- question: "NULL values in a LEFT JOIN result always indicate missing or corrupt data in the database."
+  type: true-false
+  answer: false
+  explanation: "NULLs in LEFT JOIN results often indicate the absence of a relationship, not bad data. A customer with no orders is perfectly valid — the NULL in the orders columns simply means 'no matching order exists.' This is one of the key skills outer joins demand: distinguishing between NULLs that mean 'the data is missing' and NULLs that mean 'no relationship exists.' Treating all NULLs as data errors is a common and costly mistake in data analysis."
+
+- question: "Explain why you would use a LEFT JOIN instead of an INNER JOIN, and describe a scenario where the difference matters."
+  type: short-answer
+  answer: "A LEFT JOIN preserves all rows from the left table even when there is no match in the right table, filling right-side columns with NULL. An INNER JOIN silently drops any row with no match. The difference matters whenever the relationship is optional — for example, finding customers who have never placed an order, products that have never been reviewed, or employees without assigned managers. In those cases, the population you need (unmatched rows) would be completely invisible in an INNER JOIN result."
+  explanation: "The core skill is recognizing when 'no match' is meaningful data, not an error. Choosing INNER vs OUTER join is fundamentally about whether missing relationships should be represented or discarded. Defaulting to INNER JOIN when relationships are optional is one of the most common bugs in SQL queries."
+```
+
 ## Explainer
 
 You already know that an INNER JOIN combines rows from two tables where a match exists on the join condition — and silently drops any row from either side that has no match. **Outer joins** solve the problem of those disappearing rows. In real-world data, relationships are often optional: not every customer has placed an order, not every employee has a manager, not every product has been reviewed. An INNER JOIN on customers and orders would simply omit customers who have never ordered, which might be exactly the population you need to analyze.

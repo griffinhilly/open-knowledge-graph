@@ -12,7 +12,7 @@ tags:
 - dfa
 - minimization
 - algorithms
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

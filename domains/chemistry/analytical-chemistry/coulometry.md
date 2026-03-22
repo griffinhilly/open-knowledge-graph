@@ -36,6 +36,45 @@ Perform a Karl Fischer coulometric titration to determine trace water in a solve
 - Coulometry is only accurate when 100% current efficiency is achieved — any side reactions (e.g., water electrolysis) consume charge without converting analyte, causing positive errors.
 - Controlled-potential coulometry must maintain selectivity through the entire electrolysis, which requires monitoring potential as the solution composition changes.
 
+## Questions
+
+```yaml
+- question: "A chemist performs controlled-potential coulometry to measure Cu²⁺ concentration, but the result is 15% higher than expected from a parallel ICP-MS measurement. What is the most likely cause?"
+  type: multiple-choice
+  options:
+    - "The Faraday constant used in the calculation was incorrect"
+    - "A side reaction such as water electrolysis consumed charge without converting Cu²⁺, inflating the measured Q"
+    - "The molar mass of copper was not correctly accounted for in the Faraday's law calculation"
+    - "The controlled potential was too low, causing incomplete electrolysis of the analyte"
+  answer: 1
+  explanation: "Coulometry requires 100% current efficiency — every coulomb of charge must convert analyte, not drive side reactions. If water electrolysis or oxygen reduction consumes some charge, Q is artificially high, and the calculated analyte amount is overestimated. This is the critical limitation: the method is absolute only when side reactions are suppressed. Option D would cause underestimation (incomplete conversion), not overestimation. Options A and C are calculation errors unrelated to the chemistry."
+
+- question: "Why is coulometry considered an 'absolute' analytical method?"
+  type: multiple-choice
+  options:
+    - "It is more accurate than all other electroanalytical methods"
+    - "It requires no calibration against external standards because the charge-to-moles relationship is defined by fundamental constants"
+    - "It can be applied absolutely to any analyte without modification"
+    - "The electrode potential is held absolutely constant throughout the measurement"
+  answer: 1
+  explanation: "The term 'absolute' means the method relies on fundamental constants rather than comparisons to known samples. Faraday's law (Q = nFN) connects measurable charge to moles of analyte through F (96,485 C/mol of electrons) and n (electrons per analyte molecule), both of which are known exactly. No calibration curve or standard solution is needed. This makes coulometry a primary reference method — it can verify other analytical methods rather than relying on them."
+
+- question: "In a coulometric titration, a chemist can calculate exactly how much titrant was delivered without measuring any volume."
+  type: true-false
+  answer: true
+  explanation: "This is one of coulometric titration's key practical advantages. The titrant is electrogenerated in situ, and the amount produced equals Q/(nF) — charge divided by the product of electrons per molecule and the Faraday constant. No volumetric glassware, no standardized solutions, no volume measurement is required. This eliminates several sources of volumetric error and makes coulometric titrations highly precise for trace analysis. The Karl Fischer water determination is the most commercially important example of this principle."
+
+- question: "Since coulometry requires no external calibration standards, it achieves high accuracy even when dissolved oxygen or other electroactive species are present in the solution alongside the analyte."
+  type: true-false
+  answer: false
+  explanation: "Coulometry is an absolute method only when current efficiency is 100% — all charge must go toward converting the intended analyte. Dissolved oxygen, water, and other electroactive impurities can consume charge through side reactions, causing the measured Q to exceed what was used for the analyte. The result is a systematic positive error in the calculated analyte amount. Ensuring current efficiency requires careful potential control, degassing the solution, and selecting supporting electrolytes that minimize competing reactions."
+
+- question: "Why does coulometry not require external calibration standards, and what experimental condition must be met for this advantage to hold?"
+  type: short-answer
+  answer: "Coulometry relies on Faraday's law: Q = nFN, where F is a fundamental constant and n is known from the chemistry. The relationship between charge and moles is fixed by nature, not by comparison to a standard. The condition that must be met is 100% current efficiency — every electron must participate in the intended reaction, with no charge diverted to side reactions. If current efficiency falls below 100%, the measured charge overstates what converted the analyte, and the absolute relationship between Q and N no longer holds."
+  explanation: "The elegance of coulometry is that it 'counts' molecules using a quantity (electric charge) that can be measured with extreme precision using current-time integration. The Faraday constant acts as an exact conversion factor. But this only works if there's a one-to-one correspondence between charge and analyte molecules — any charge 'leaking' into side reactions breaks the accounting. This is why ensuring current efficiency is the central technical challenge in coulometric methods, requiring careful potential control and solution preparation."
+```
+
 ## Explainer
 
 From your work with electrochemistry basics and potentiometry, you know that electrochemical reactions involve electron transfer at electrode surfaces and that electrode potentials relate to the tendency of species to gain or lose electrons. Coulometry takes a different measurement approach than potentiometry: instead of measuring a voltage to infer concentration, it measures the total electric charge consumed during a complete electrochemical reaction and uses **Faraday's law** to calculate exactly how much analyte was present. The elegance of coulometry is that it is an **absolute method** — it requires no calibration standards because the relationship between charge and moles is defined by fundamental constants.

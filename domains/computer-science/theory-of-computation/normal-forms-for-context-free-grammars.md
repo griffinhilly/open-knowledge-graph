@@ -14,7 +14,7 @@ tags:
 - normal-forms
 - cnf
 - gnf
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

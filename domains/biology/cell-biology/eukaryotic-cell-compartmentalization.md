@@ -16,7 +16,7 @@ tags:
 - compartmentalization
 - organelles
 - cell-physiology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

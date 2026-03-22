@@ -34,6 +34,45 @@ Use real datasets: predict college GPA from SAT scores, or fuel efficiency from 
 - Interpreting the y-intercept as meaningful when x = 0 is outside the data range.
 - Using regression for prediction when the relationship is clearly nonlinear.
 
+## Questions
+
+```yaml
+- question: "A regression of annual salary (y) on years of education (x) yields ŷ = 20,000 + 3,500x. A student concludes: 'Getting one more year of education causes your salary to increase by $3,500.' What is wrong with this interpretation?"
+  type: multiple-choice
+  options:
+    - "The intercept $20,000 is implausibly low, which invalidates the slope interpretation"
+    - "The slope represents a predictive association, not causation — lurking variables like field of study or ability could explain the relationship"
+    - "The interpretation is only valid for people with exactly average education levels"
+    - "The interpretation is correct as long as the R² value is sufficiently high"
+  answer: 1
+  explanation: "Regression describes the average difference in y associated with a one-unit difference in x in the observed data — an associative relationship. It cannot establish that changing x produces the change in y. Students with more education may earn more for many reasons besides education itself (family background, field of study, innate ability). A high R² confirms the line fits well; it says nothing about causation. Causal claims require experimental design where x is randomly assigned."
+
+- question: "A researcher fits a regression line to data on tree heights (y) and trunk diameter (x) for trees between 5 and 80 cm in diameter. She then uses the line to predict the height of a tree with a 200 cm diameter. Why is this prediction unreliable?"
+  type: multiple-choice
+  options:
+    - "Regression equations cannot be evaluated at values larger than the sample mean"
+    - "The linear relationship may not hold beyond the observed range — the line has no obligation to track data where it hasn't been observed"
+    - "The slope b₁ changes its value outside the observed data range"
+    - "Predictions are unreliable whenever the x-value is more than one standard deviation from the mean"
+  answer: 1
+  explanation: "Extrapolation uses the regression line to predict y for x values outside the observed data range. The fitted line summarizes the linear trend within that range; there is no guarantee the relationship stays linear (or even monotone) beyond it. Very large trees may follow different growth patterns. The regression equation doesn't change — our confidence that it describes reality outside the observed range is gone. The line has been stretched beyond where it was calibrated."
+
+- question: "The regression line ŷ = b₀ + b₁x always passes through the point (x̄, ȳ) — the sample means of both variables."
+  type: true-false
+  answer: true
+  explanation: "This is a direct consequence of the least-squares conditions. Setting the partial derivatives of the sum of squared residuals to zero forces the line to pass through the centroid (x̄, ȳ). This fact also explains why b₀ = ȳ − b₁x̄: the intercept is derived from the requirement that the line hits the balance point of the data. You can verify this for any regression line you fit."
+
+- question: "To predict x from y, you can simply rearrange the regression equation ŷ = b₀ + b₁x algebraically to solve for x."
+  type: true-false
+  answer: false
+  explanation: "The regression of y on x and the regression of x on y are different lines that minimize different quantities. The 'y on x' regression minimizes vertical (squared) distances from points to the line; the 'x on y' regression minimizes horizontal distances. Algebraically rearranging the first line gives slope 1/b₁, but this is NOT the least-squares line for predicting x from y. The two regressions only coincide when r = ±1 (a perfect linear relationship). This is one of the most persistent misconceptions in regression analysis."
+
+- question: "Why does the slope of a regression line represent a predictive rather than causal relationship, and what would be required to justify a causal interpretation?"
+  type: short-answer
+  answer: "The slope b₁ describes the average difference in y associated with a one-unit difference in x in the observed data. Because many other variables (lurking variables) might cause both x and y to vary together, we cannot conclude that changing x produces the observed change in y. To justify a causal interpretation, we would need experimental evidence: randomly assigning different values of x to subjects so that lurking variables cannot systematically differ between groups, isolating x as the only thing that differs."
+  explanation: "This distinction is fundamental to statistical reasoning. Regression is a powerful descriptive and predictive tool, but it operates on observational data where confounders are common. The jump from 'associated with' to 'causes' requires ruling out alternative explanations — which observational regression alone cannot do. Recognizing this boundary is one of the most practically important skills in applied statistics."
+```
+
 ## Explainer
 
 From the correlation coefficient r, you know how to measure the strength and direction of a linear association between two variables. But r just gives a single number between −1 and 1 — it doesn't tell you *how much* y changes for a one-unit change in x, and it doesn't give you a formula for prediction. **Simple linear regression** takes the next step: it finds the specific line ŷ = b₀ + b₁x that best fits the data, where "best" is precisely defined as minimizing the total squared vertical distance between each observed point and the line.

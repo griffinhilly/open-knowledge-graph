@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Bayesian inference treats θ as a random variable with prior distribution π(θ). Given data X, the posterior is π(θ|X) ∝ L(θ|X)π(θ) by Bayes' theorem. The posterior combines prior beliefs with data. Inference is based on the posterior: point estimates, credible intervals, and predictions all follow from the posterior distribution.
 
+## Questions
+
+```yaml
+- question: "A researcher flips a coin 10 times and observes 7 heads. Using a uniform prior on θ ∈ [0,1], what is the Bayesian posterior mean for θ?"
+  type: multiple-choice
+  options:
+    - "0.70 — the maximum likelihood estimate"
+    - "0.667 — the mean of the resulting Beta(8, 4) posterior"
+    - "0.50 — the prior mean"
+    - "0.75 — the upper bound of a 95% credible interval"
+  answer: 1
+  explanation: "With a uniform prior, the posterior is Beta(8, 4) (7 heads + 1, 3 tails + 1), whose mean is 8/12 ≈ 0.667. The MLE of 0.70 maximizes the likelihood but ignores the prior; the posterior mean incorporates it, pulling the estimate slightly toward 0.5. The prior always 'smooths' the estimate relative to the MLE."
+
+- question: "Which statement correctly describes a 95% Bayesian credible interval [a, b]?"
+  type: multiple-choice
+  options:
+    - "If the experiment were repeated many times, 95% of such intervals would contain the true θ"
+    - "Given the observed data, P(a ≤ θ ≤ b | X) = 0.95"
+    - "The interval covers 95% of the prior distribution regardless of the data"
+    - "The interval is centered on the maximum likelihood estimate"
+  answer: 1
+  explanation: "A Bayesian credible interval is a direct probability statement about θ given the observed data — computed by integrating the posterior. Option A describes the frequentist confidence interval, which makes no direct probability claim about θ; it characterizes the long-run behavior of the estimation procedure, not the probability that any particular interval contains θ."
+
+- question: "In Bayesian inference, the optimal point estimate under squared-error loss is the posterior mean E[θ|X]."
+  type: true-false
+  answer: true
+  explanation: "Under squared-error loss, minimizing expected loss requires choosing the estimator equal to the conditional expectation of θ given the data — exactly the posterior mean. This is a direct application of the role of conditional expectation in Bayesian decision theory and is why the posterior mean is the canonical Bayesian point estimate."
+
+- question: "In Bayesian inference, the posterior distribution is computed before observing data; the likelihood then updates it afterward."
+  type: true-false
+  answer: false
+  explanation: "This reverses the logic. The prior π(θ) is specified before seeing any data — it encodes prior beliefs. The posterior π(θ|X) is computed AFTER observing X, by multiplying the prior by the likelihood L(θ|X) and normalizing. The likelihood is the bridge from data to posterior, not the other way around."
+
+- question: "Why does the Bayesian posterior mean typically differ from the frequentist maximum likelihood estimate, and what determines how large that difference is?"
+  type: short-answer
+  answer: "The posterior mean incorporates the prior distribution, which pulls the estimate toward the prior's center of mass. The MLE maximizes the likelihood alone. The degree of difference depends on the relative informativeness of the prior versus the data: with few observations and an informative prior, the posterior mean is pulled substantially toward the prior; with abundant data, the likelihood dominates and the posterior mean converges toward the MLE."
+  explanation: "The MLE treats θ as a fixed unknown and maximizes L(θ|X). The posterior mean treats θ as a random variable and computes E[θ|X] by integrating over the full posterior, which weights every value of θ by both how well it explains the data and how plausible it was a priori. Even a uniform prior shifts the posterior mean from the MLE in finite samples — for example, Beta(8,4) has mean 8/12 ≈ 0.667 while the MLE is 7/10 = 0.70."
+```
+
 ## Explainer
 
 You already know Bayes' theorem as a formula for flipping conditional probabilities: P(A|B) = P(B|A)P(A)/P(B). Bayesian inference scales this up to statistical parameters. Instead of reasoning about events A and B, you reason about an unknown parameter θ (say, the true probability of heads on a coin, or the mean weight of a population). The key move is to treat θ as a random variable with its own distribution, not just an unknown fixed constant.

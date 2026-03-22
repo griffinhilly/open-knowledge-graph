@@ -13,7 +13,7 @@ tags:
 - interviews
 - phenomenology
 - interpretive-inquiry
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

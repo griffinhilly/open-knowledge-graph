@@ -37,6 +37,45 @@ Analyze galaxy rotation curve data and compute the implied total mass distributi
 - Dark matter is not 'dark' because it is black or opaque — it does not interact with light at all, neither absorbing nor emitting electromagnetic radiation.
 - Dark energy and dark matter are entirely different phenomena: dark matter clusters gravitationally like ordinary matter, while dark energy acts as a uniform repulsive pressure driving cosmic acceleration.
 
+## Questions
+
+```yaml
+- question: "Astronomers observe that stars 50,000 light-years from the center of a spiral galaxy orbit at nearly the same speed as stars only 10,000 light-years from the center. What does Newtonian gravity predict for stars beyond the visible disk, and why does the observation require dark matter?"
+  type: multiple-choice
+  options:
+    - "Newtonian gravity predicts constant orbital speed at all radii, so no dark matter is needed"
+    - "Newtonian gravity predicts declining orbital speed at large radii; the flat curve requires additional invisible mass extending far beyond the visible disk"
+    - "Newtonian gravity predicts increasing orbital speed at large radii, and dark matter slows the outer stars down"
+    - "The observation is consistent with Newtonian gravity once gas and dust are included in the mass budget"
+  answer: 1
+  explanation: "For an object orbiting a central mass M at radius r, Newtonian gravity gives orbital speed v = √(GM/r) — speed declines as r increases beyond the mass distribution, exactly as outer planets orbit more slowly than inner ones. Galaxy rotation curves remain flat (v ≈ constant) far beyond the visible disk, which requires M(r) to continue increasing proportionally to r. The ordinary visible matter (stars, gas, dust) cannot account for this — a massive invisible halo of dark matter must surround the galaxy. Option D is a real attempt that falls short: including all observed gas and dust does not resolve the discrepancy."
+
+- question: "The discovery that the universe's expansion is accelerating was based primarily on observations of:"
+  type: multiple-choice
+  options:
+    - "Galaxy rotation curves that remain flat at large radii"
+    - "Gravitational lensing showing more deflection than visible mass can explain"
+    - "Type Ia supernovae appearing fainter than expected for a decelerating universe"
+    - "The cosmic microwave background temperature being nearly uniform across the sky"
+  answer: 2
+  explanation: "In 1998, two independent teams used Type Ia supernovae as standard candles — their intrinsic luminosity is known, so their distance can be calculated from how faint they appear. The supernovae were dimmer (farther away) than predicted for a universe decelerating under gravity. The only explanation: something is pushing the universe apart, accelerating its expansion. This something is dark energy. Options A and B are evidence for dark matter (a completely different phenomenon). Option D (CMB uniformity) is evidence for inflation, not dark energy."
+
+- question: "Dark matter appears 'dark' because it strongly absorbs visible light, making it opaque and invisible to optical telescopes."
+  type: true-false
+  answer: false
+  explanation: "False. Dark matter does not interact with electromagnetic radiation at all — it neither absorbs nor emits nor scatters light. It is dark in the sense of being electromagnetically invisible, not in the sense of being opaque. An opaque object (like a dust cloud) would still interact with light — blocking, scattering, or absorbing it — and would be detectable in other wavelengths. Dark matter passes through ordinary matter and radiation essentially without interaction, which is why it can only be inferred from its gravitational effects."
+
+- question: "Dark matter and dark energy are fundamentally different phenomena: dark matter clusters gravitationally to form halos around galaxies, while dark energy acts as a uniform repulsive energy density throughout space."
+  type: true-false
+  answer: true
+  explanation: "True — despite the similar names, they are entirely distinct. Dark matter behaves like ordinary matter in that it gravitationally attracts and clumps, forming the invisible scaffolding on which galaxies assemble. Dark energy does not clump; its density remains constant even as the universe expands, and it acts as a repulsive pressure that drives cosmic acceleration. In ΛCDM, dark matter (~27% of cosmic energy content) builds structure, while dark energy (~68%) drives the universe apart. Confusing them is one of the most common misconceptions in introductory cosmology."
+
+- question: "What are the three main independent lines of evidence for dark matter, and why does each suggest additional invisible mass rather than a modification to our understanding of gravity?"
+  type: short-answer
+  answer: "Three key lines of evidence: (1) Galaxy rotation curves — orbital speeds stay flat far beyond the visible disk, requiring a dark halo; (2) Gravitational lensing — background galaxies are distorted more than visible mass can bend light, requiring additional mass curving spacetime; (3) Galaxy cluster dynamics — cluster members move too fast to be bound by visible mass (Zwicky, 1930s). The Bullet Cluster is especially compelling: after two clusters collided, the hot gas (visible in X-rays) slowed from electromagnetic drag, but the total mass inferred from lensing passed through undisturbed — exactly the behavior of collisionless dark matter particles, and very difficult to explain with modified gravity alone."
+  explanation: "Multiple independent lines of evidence pointing to the same conclusion — dark matter accounting for ~27% of cosmic energy — make the case much stronger than any single observation. Modified gravity theories (like MOND) can explain rotation curves in isolated galaxies but struggle to simultaneously explain cluster dynamics and the Bullet Cluster. The convergence of different evidence types across vastly different physical scales is what makes dark matter the consensus explanation, despite its fundamental nature remaining unknown."
+```
+
 ## Explainer
 
 From your study of Hubble's law and cosmic expansion, you know that the universe is expanding — galaxies recede from each other at speeds proportional to their distance. From Big Bang cosmology, you know the universe began in a hot, dense state and has been expanding and cooling ever since. The discovery of **dark matter** and **dark energy** revealed that the ordinary matter making up stars, planets, and gas — everything we can directly see — accounts for only about 5% of the universe's total energy content. The remaining 95% is invisible and deeply mysterious.

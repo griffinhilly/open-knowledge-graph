@@ -13,7 +13,7 @@ tags:
 - parsing
 - cyk-algorithm
 - membership
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - quasi-experimental
 - causal-inference-approximate
 - non-equivalent-groups
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

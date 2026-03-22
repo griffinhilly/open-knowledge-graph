@@ -34,6 +34,45 @@ Build intuition by reducing complex resistor networks step by step: identify ser
 - The terminal voltage of a battery is not equal to its EMF when current flows.
 - Current does not 'choose' one path — in parallel branches, all paths carry current.
 
+## Questions
+
+```yaml
+- question: "A technician adds a second identical light bulb in parallel with the first in a simple circuit. Assuming an ideal voltage source, what happens to each bulb's brightness and the total current drawn?"
+  type: multiple-choice
+  options:
+    - "Each bulb dims because the added bulb steals current from the first"
+    - "Each bulb burns as brightly as before, and total current from the source doubles"
+    - "Each bulb brightens because total resistance has decreased"
+    - "The first bulb dims while the second burns at full brightness"
+  answer: 1
+  explanation: "In a parallel circuit, both branches connect across the same voltage. Each bulb sees the same voltage as before, so each draws the same current as before and burns equally bright. Total current doubles because two independent branches now draw from the source. The common misconception — that added parallel components 'steal' current — applies to series circuits, not parallel ones."
+
+- question: "A battery has EMF ε = 12 V and internal resistance r = 2 Ω. When it supplies a current of 3 A, what is the terminal voltage?"
+  type: multiple-choice
+  options:
+    - "12 V, because the EMF equals the terminal voltage by definition"
+    - "18 V, because internal resistance adds to the output voltage under load"
+    - "6 V, because the internal resistance drops 6 V leaving 6 V at the terminals"
+    - "10 V, because terminal voltage is always slightly less than EMF"
+  answer: 2
+  explanation: "Terminal voltage V = ε − Ir = 12 − (3)(2) = 12 − 6 = 6 V. The internal resistance drops Ir volts, reducing what appears at the terminals below the open-circuit EMF. Option A is the most common misconception — EMF equals terminal voltage only when no current flows. Under load, terminal voltage always sags below EMF by exactly Ir."
+
+- question: "Adding a resistor in parallel with an existing resistor always decreases the equivalent resistance, even if the added resistor has a very large value."
+  type: true-false
+  answer: true
+  explanation: "Any finite resistance added in parallel creates an additional current path. Even a very large resistor carries a tiny current, and that additional current means the source 'sees' less total resistance. Mathematically, 1/R_eq = 1/R₁ + 1/R₂ always produces an R_eq smaller than either R₁ or R₂ alone, regardless of how large one of them is."
+
+- question: "In a series circuit, resistors with higher resistance carry more current than those with lower resistance."
+  type: true-false
+  answer: false
+  explanation: "In a series circuit there is only one path, so every component carries exactly the same current. Resistance determines how much voltage is 'used up' across each component (V = IR), not how much current flows through it. More resistance means a larger voltage drop across that component, but the current through all series components is identical."
+
+- question: "Why does the equivalent resistance of a parallel combination always end up smaller than the smallest individual resistor in the group?"
+  type: short-answer
+  answer: "Because each additional parallel branch provides a new independent path for current. The source no longer forces all current through a single resistor — it splits current across multiple paths simultaneously. The equivalent resistance represents the total opposition to current flow, and since more paths means more total current for the same voltage, the equivalent resistance must be lower. Mathematically, every term added to 1/R_eq = Σ(1/Rᵢ) increases the sum, which decreases R_eq."
+  explanation: "A useful physical intuition: think of resistors as lanes on a highway. Adding a lane (even a slow one) always increases total throughput, meaning less resistance to flow overall. The equivalent resistance can never exceed — and always falls below — the smallest individual branch resistance."
+```
+
 ## Explainer
 
 The fundamental difference between series and parallel comes down to what is shared. In a **series circuit**, the same current flows through every element — there is only one path, so every coulomb of charge must pass through each resistor in turn. The voltage, however, divides: each resistor "uses up" a portion proportional to its resistance, and those portions sum to the total voltage. Adding resistors in series always increases the total resistance because every resistor adds another obstacle to the same current.

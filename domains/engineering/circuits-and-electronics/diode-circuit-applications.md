@@ -38,6 +38,45 @@ Analyze rectifier circuits by tracing current paths during each half-cycle separ
 - Selecting a filter capacitor based only on ripple specification without considering the resulting peak diode current, which can be many times the average.
 - Confusing PIV with load voltage — in a half-wave rectifier the PIV equals the full peak source voltage, which can be much larger than the output.
 
+## Questions
+
+```yaml
+- question: "A designer doubles the filter capacitor size in a full-wave bridge rectifier to cut ripple in half. What important trade-off must she consider?"
+  type: multiple-choice
+  options:
+    - "The ripple frequency will double, reducing the benefit of the larger capacitor"
+    - "The peak diode current will increase significantly, potentially exceeding the diode's rating"
+    - "The average output voltage will decrease because the larger capacitor takes longer to charge"
+    - "The peak inverse voltage across each diode increases proportionally with capacitance"
+  answer: 1
+  explanation: "Larger capacitance reduces ripple by discharging less between peaks, but this narrows the conduction window during which the capacitor must replenish all discharged charge. Since the same average current must be delivered in a shorter burst, peak diode current can be five to ten times the average load current — a critical factor for diode selection and thermal management that students routinely overlook when focusing only on ripple."
+
+- question: "A 12 V peak AC source drives both a half-wave rectifier and a full-wave bridge rectifier with identical loads and filter capacitors. Which statement correctly compares the two?"
+  type: multiple-choice
+  options:
+    - "The half-wave rectifier has twice the ripple frequency, making it easier to filter"
+    - "The bridge rectifier produces a higher average output because it uses four diodes instead of one"
+    - "The bridge rectifier has smaller ripple for the same capacitor value, but the output is reduced by approximately 1.4 V due to two diode drops"
+    - "Peak inverse voltage is identical for both circuits"
+  answer: 2
+  explanation: "The bridge passes both half-cycles, doubling the ripple frequency (e.g., 120 Hz from 60 Hz), which makes filtering easier for the same C. However, two diodes conduct in series on each path, dropping ~0.7 V each (~1.4 V total) versus ~0.7 V in a half-wave circuit — a significant penalty at low supply voltages. Average output for the bridge is 2·V_peak/π minus the diode drops."
+
+- question: "In a half-wave rectifier, the peak inverse voltage (PIV) across the diode equals the average DC output voltage."
+  type: true-false
+  answer: false
+  explanation: "PIV equals the full peak source voltage (V_peak), which is much larger than the average DC output (~0.318·V_peak for a half-wave rectifier). Confusing PIV with output voltage is a dangerous design error — it can lead to selecting a diode whose reverse breakdown voltage is too low, causing destructive failure."
+
+- question: "A full-wave bridge rectifier produces ripple at twice the frequency of the AC source, which makes filtering more effective than a half-wave rectifier for the same capacitor value and load."
+  type: true-false
+  answer: true
+  explanation: "The bridge passes both half-cycles, so the output pulses at 2f (e.g., 120 Hz for a 60 Hz source). Ripple voltage ΔV ≈ I_load/(f·C), so doubling the effective frequency halves the ripple for the same capacitor and load current. This is one of the main practical advantages of the bridge configuration."
+
+- question: "Explain how a Zener diode shunt regulator maintains a constant output voltage when the supply voltage fluctuates."
+  type: short-answer
+  answer: "The Zener operates in reverse breakdown, where its voltage stays nearly constant over a wide range of currents. A series resistor sits between the supply and the Zener/load junction. When supply voltage rises, more current flows through the resistor and the Zener absorbs the excess, keeping the output voltage pinned at V_Z. When supply drops, Zener current decreases and the resistor drops less voltage, again maintaining V_Z. Variations appear across the resistor, not the output."
+  explanation: "The key is the Zener's steep I-V curve in breakdown: large current changes produce only tiny voltage changes. The series resistor acts as a buffer — it converts supply voltage variations into Zener current variations rather than output voltage variations. This shunt regulation principle underlies more sophisticated linear voltage regulator ICs."
+```
+
 ## Explainer
 
 From your study of diode fundamentals, you know that a diode conducts when forward biased (approximately 0.7 V for silicon) and blocks current when reverse biased. This simple asymmetry — conduct in one direction, block in the other — is the engine of every circuit in this topic. The central application is **rectification**: converting alternating current (AC) into direct current (DC), a necessary step in virtually every electronic power supply.

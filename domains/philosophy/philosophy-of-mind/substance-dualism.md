@@ -35,6 +35,45 @@ Read Descartes' Meditations II and VI alongside Princess Elisabeth's corresponde
 - Substance dualism does not merely say that mental descriptions are irreducible to physical ones — it makes a stronger metaphysical claim about two distinct substances.
 - Descartes' argument from conceivability (I can conceive of mind without body) is not generally accepted as decisive; conceivability does not straightforwardly imply metaphysical possibility.
 
+## Questions
+
+```yaml
+- question: "A substance dualist claims that when you decide to raise your arm, your mind causes your arm to rise. A philosopher objects: 'But the mind, on your view, is unextended, has no spatial location, and is not subject to physical forces. Physical causation requires transfer of energy or momentum between spatially located entities. So how does the mind cause anything physical?' This objection is known as:"
+  type: multiple-choice
+  options:
+    - "The problem of other minds"
+    - "The interaction problem"
+    - "The conceivability argument"
+    - "The problem of causal overdetermination"
+  answer: 1
+  explanation: "This is the interaction problem: the core objection to substance dualism. If mind and body have no properties in common — the mind is unextended, non-spatial, not subject to physical laws — there is no coherent account of how they could causally interact. Physical causation involves spatially located entities exchanging energy; the Cartesian mind satisfies none of these conditions. This objection was pressed on Descartes in his own lifetime by Princess Elisabeth of Bohemia, and he never gave a satisfying answer."
+
+- question: "Leibniz's 'pre-established harmony' and Malebranche's 'occasionalism' were both proposed in response to the same problem. What do the two solutions have in common?"
+  type: multiple-choice
+  options:
+    - "Both reduce the mind to a property of physical substance, abandoning substance dualism"
+    - "Both explain the apparent coordination between mind and body without direct causal interaction, but both require divine intervention"
+    - "Both solve skepticism about the external world by grounding perception in God's reliability"
+    - "Both deny that mental events have any effect on the physical world whatsoever"
+  answer: 1
+  explanation: "Both occasionalism and pre-established harmony were designed to handle the interaction problem — the incoherence of direct mind-body causation under substance dualism. Their shared solution strategy is to deny that mind and body actually interact, replacing interaction with coordination: occasionalism says God intervenes at every moment to produce correlated effects; pre-established harmony says God designed mind and body to run in parallel like synchronized clocks. Both preserve dualism at the cost of introducing divine intervention for every mental event."
+
+- question: "Substance dualism holds that mental properties like pain and thought cannot be fully explained by physical descriptions — this irreducibility of mental properties is what distinguishes it from physicalism."
+  type: true-false
+  answer: false
+  explanation: "This describes property dualism, not substance dualism. Property dualism holds that there is one substance (physical matter) but two irreducible kinds of properties — physical and phenomenal. Substance dualism makes a stronger claim: mind and body are not just different aspects of one thing but two entirely distinct substances (res cogitans and res extensa) with no properties in common. This is a common and important conflation to avoid: substance dualism is a more radical metaphysical claim than the mere irreducibility of mental descriptions."
+
+- question: "The interaction problem arises specifically because Descartes' account requires causal interaction between two substances that share no common properties — and physical causation as normally understood requires spatially located entities exchanging energy or momentum."
+  type: true-false
+  answer: true
+  explanation: "This is exactly why the interaction problem is fatal to substance dualism as Descartes formulated it. If mind is unextended and non-spatial, it cannot participate in the causal story that physics provides for bodily events. Descartes located the interaction at the pineal gland, but this only names a place — it doesn't explain how a non-spatial substance causes changes in a spatial one. The problem is structural: it flows directly from the definition of the two substances having no properties in common."
+
+- question: "Why is Descartes' appeal to the pineal gland an inadequate solution to the interaction problem?"
+  type: short-answer
+  answer: "Naming a physical location for the interaction doesn't explain how the interaction occurs. The interaction problem is not about where mind and body meet, but about the logical coherence of their meeting at all: the mind, on Descartes' view, is non-spatial and unextended, so it cannot meaningfully 'be at' the pineal gland in any sense that would ground a causal transaction. Pointing to the pineal gland assumes the interaction already happens rather than explaining the mechanism by which a non-physical substance could influence a physical one."
+  explanation: "Princess Elisabeth of Bohemia pressed Descartes on exactly this point: if the mind has no extension and no location, it cannot exert force on any part of the body, regardless of which body part is designated as the 'interface.' The problem is conceptual, not anatomical — it cannot be solved by identifying the right brain region."
+```
+
 ## Explainer
 
 Your prerequisite, the mind-body problem, established the basic puzzle: mental states — thoughts, pains, experiences — seem different in kind from physical states like brain processes. Substance dualism is the most natural response to that puzzle and historically the most influential. Descartes arrived at it through the method of doubt you may know from Cartesian skepticism: stripping away everything uncertain, the one thing Descartes could not doubt was that he was thinking. From this he concluded that the mind — the thing that thinks — is essentially a thinking substance, and essentially *not* an extended, spatial substance. Body is just extension. The two have no properties in common, which is what makes them two substances, not two aspects of one.

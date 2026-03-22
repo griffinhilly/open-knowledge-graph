@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 Weak-form efficiency: past prices don't predict future returns (rules out technical analysis). Semi-strong: public information is instantly priced (rules out fundamental analysis for excess returns). Strong-form: all information (public and private) is priced (rare empirically). Most evidence supports semi-strong efficiency.
 
+## Questions
+
+```yaml
+- question: "An analyst has five years of daily price and volume data for a stock. If markets are weak-form efficient, which of the following strategies is ruled out?"
+  type: multiple-choice
+  options:
+    - "Buying and holding a broad index fund"
+    - "Trading based on moving-average crossover patterns in the price history"
+    - "Using publicly available earnings reports to identify undervalued stocks"
+    - "Trading on a confidential tip about an upcoming merger"
+  answer: 1
+  explanation: "Weak-form efficiency holds that all information in past prices and volume is already reflected in current prices. A strategy based on historical price patterns (moving averages, chart signals) is exactly what weak-form efficiency rules out. Buy-and-hold (option A) is perfectly consistent with any form of efficiency. Using earnings reports (option C) is ruled out only by semi-strong efficiency. Trading on insider tips (option D) is ruled out only by strong-form efficiency."
+
+- question: "A study finds that stock prices adjust fully to earnings announcements within seconds of release, leaving no exploitable profit opportunity. This finding is most consistent with which form of market efficiency?"
+  type: multiple-choice
+  options:
+    - "Weak-form only — it only concerns past price data"
+    - "Semi-strong form, which implies weak-form is also satisfied"
+    - "Strong-form only — instantaneous adjustment requires all information to be priced"
+    - "No form of efficiency — prices should not move at all if markets are efficient"
+  answer: 1
+  explanation: "Earnings announcements are publicly available information. Evidence that public information is instantly incorporated supports semi-strong efficiency. Because the forms are nested — semi-strong implies weak-form — this also confirms weak-form efficiency. Strong-form (option C) would require that even private, non-public information is priced, which this study does not address. Option D reflects a misconception: efficient markets react quickly to new information; it's only *predictable* price movements that efficiency rules out."
+
+- question: "A market that is semi-strong efficient is necessarily also weak-form efficient."
+  type: true-false
+  answer: true
+  explanation: "The three forms are nested: weak-form ⊂ semi-strong ⊂ strong. Semi-strong efficiency says prices reflect all publicly available information, which includes historical price data. If public information is already priced in, then certainly the subset of historical price data is priced in — satisfying weak-form. The implication only runs in one direction: weak-form does not imply semi-strong."
+
+- question: "Evidence that corporate insiders consistently earn excess returns by trading on advance knowledge of earnings surprises disproves semi-strong market efficiency."
+  type: true-false
+  answer: false
+  explanation: "Insider trading involves non-public (private) information. Semi-strong efficiency only claims that all *publicly available* information is reflected in prices — it says nothing about private information. Consistent profits from insider trading violate strong-form efficiency, not semi-strong. The existence of insider trading laws is itself a recognition that strong-form efficiency does not hold, while semi-strong efficiency can remain a reasonable description of how public markets function."
+
+- question: "Why would finding a reliable, profitable chart-based trading rule (e.g., 'buy whenever the 50-day moving average crosses above the 200-day moving average') be evidence against weak-form market efficiency?"
+  type: short-answer
+  answer: "Weak-form efficiency holds that all information in past prices is already incorporated into current prices. A profitable chart rule works by using past price patterns to predict future returns. If such a pattern reliably predicted higher returns, traders would exploit it until prices adjusted, eliminating the profit. The fact that no such pattern should persist is exactly what weak-form efficiency means: the history of prices contains no exploitable predictive content about future price movements."
+  explanation: "The key is that past prices are information, and efficiency means information is already priced in. Consistent profits from historical price patterns would mean the market had overlooked freely available information — a contradiction of weak-form efficiency. This is also why technical analysis, which is based entirely on price and volume history, is the specific practice that weak-form efficiency declares unprofitable."
+```
+
 ## Explainer
 
 From the Efficient Market Hypothesis, you know the core claim: in competitive markets, prices quickly incorporate available information, making it impossible to consistently earn abnormal returns. The three forms of market efficiency — weak, semi-strong, and strong — define three progressively larger information sets, and they are nested: semi-strong efficiency implies weak-form efficiency, and strong-form implies both.

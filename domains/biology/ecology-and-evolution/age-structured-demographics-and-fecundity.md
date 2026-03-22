@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Population growth depends on age-specific survival and fecundity rates, not just total reproduction. Life tables encode these vital rates; Leslie matrix models show how populations change when different age classes have different survival and reproduction. Population growth rate (lambda) emerges from vital rates; small changes in reproductive-age survival often have larger effects than changes to pre-reproductive individuals.
 
+## Questions
+
+```yaml
+- question: "A conservation team is managing an endangered whale population (λ = 0.95) and has limited resources. Sensitivity analysis of their Leslie matrix shows that adult survival has a sensitivity of 0.8 while juvenile fecundity has a sensitivity of 0.1. The team should prioritize:"
+  type: multiple-choice
+  options:
+    - "Increasing juvenile fecundity, because more births directly increase population size"
+    - "Protecting adult survival, because adults have the highest sensitivity value"
+    - "Splitting resources equally, since both vital rates affect lambda"
+    - "Improving juvenile survival, since juveniles become future adults"
+  answer: 1
+  explanation: "Sensitivity analysis tells you the effect on λ of a small absolute change in each vital rate. Adult survival having sensitivity 0.8 versus fecundity at 0.1 means a given improvement in adult survival improves λ eight times more than the same improvement in fecundity. For long-lived species like whales, each adult represents many future reproductive years — losing adults costs the population far more than losing an equivalent number of juveniles. This is exactly the practical application the Leslie matrix enables."
+
+- question: "Two sea turtle populations each contain 500 individuals. Population A has 80% adults; Population B has 80% juveniles that won't reproduce for 15 years. Which population will grow faster in the near term, and why?"
+  type: multiple-choice
+  options:
+    - "Population A, because its age structure places more individuals in reproductive classes now"
+    - "Population B, because more juveniles means greater long-term reproductive potential"
+    - "They will grow at the same rate, since total population size is identical"
+    - "Population B, because juvenile survival rates are typically higher than adult rates"
+  answer: 0
+  explanation: "Population size alone does not determine growth — age structure does. Population A, dominated by reproductive adults, will produce far more offspring in the near term than Population B, whose members are years away from reproducing. The life table and Leslie matrix formalize this insight: the same 500 individuals can have very different λ values depending on how they are distributed across age classes. This is why demographic models track age structure rather than just total counts."
+
+- question: "The dominant eigenvalue of the Leslie matrix gives the finite rate of population increase (λ), where λ > 1 indicates population growth."
+  type: true-false
+  answer: true
+  explanation: "This is a fundamental result from matrix population models. When the Leslie matrix is repeatedly multiplied by the age-class abundance vector, the population converges to a stable age distribution and grows (or declines) at a constant rate equal to the dominant eigenvalue λ. λ > 1 means the population multiplies each time step; λ < 1 means it declines; λ = 1 means it is stationary. This eigenvalue analysis is why the Leslie matrix is so powerful — it extracts a single summary of population fate from all the age-specific vital rates."
+
+- question: "For all species, improving juvenile survival always has a larger effect on population growth rate than improving adult survival by the same amount."
+  type: true-false
+  answer: false
+  explanation: "This is false — the relative importance of survival at different ages depends on life history. For long-lived, slow-reproducing species (whales, tortoises, condors), adult survival typically has much higher sensitivity than juvenile survival or fecundity, because each adult represents many future reproductive years. Conversely, for short-lived, highly fecund species like insects or annual plants, early survival and fecundity may matter more. Sensitivity analysis via the Leslie matrix reveals this life-history dependency rather than giving a universal answer."
+
+- question: "Why does sensitivity analysis of a Leslie matrix tell conservation biologists which life stage to protect, and what property of long-lived species makes adult survival particularly important?"
+  type: short-answer
+  answer: "Sensitivity analysis computes how much λ changes per unit change in each vital rate, identifying which rates exert the greatest leverage on population growth. For long-lived species, adult survival has high sensitivity because reproductive adults represent a large cumulative investment: each adult has already survived many years and will contribute offspring across many future time steps. Losing an adult eliminates all those future reproductive events. Improving adult survival by even a small amount therefore adds many future reproductive years to the population — an effect far larger than adding the same number of juveniles who may not survive to reproduction."
+  explanation: "The key is connecting sensitivity values to the biological logic of why adult survival matters disproportionately in long-lived species. Students who understand this can predict which vital rates matter without needing to run the matrix calculation — because the underlying logic follows from life-history theory."
+```
+
 ## Explainer
 
 From your study of population age structure and life history, you know that not all individuals in a population are equivalent — they differ in age, size, and reproductive status. Age-structured demography formalizes this insight by tracking survival and reproduction as functions of age, revealing why identical-sized populations can have very different futures depending on their age composition.

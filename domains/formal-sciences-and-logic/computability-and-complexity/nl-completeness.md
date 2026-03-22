@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 A problem is NL-complete if it lies in NL and every language in NL reduces to it via a log-space reduction. The most canonical NL-complete problem is REACHABILITY: given a directed graph and two vertices, does a path exist between them? NL-completeness demonstrates that even space-constrained computation has meaningful completeness notions and hardness hierarchy.
 
+## Questions
+
+```yaml
+- question: "Why are NL-completeness reductions required to be computable in log space rather than polynomial time?"
+  type: multiple-choice
+  options:
+    - "Because polynomial-time reductions are too powerful — they could solve NL problems directly, making every problem in NL trivially 'hard'"
+    - "Because log-space reductions are faster to compute and NL problems require fast reductions for efficiency"
+    - "Because polynomial-time reductions cannot be defined for graph problems, which is where NL-completeness arises"
+    - "Because the Church-Turing thesis requires all reductions to match the space bound of the target class"
+  answer: 0
+  explanation: "The reductions used to define hardness must be strictly weaker than the class being studied; otherwise the reduction itself solves the problem. If we allowed polynomial-time reductions for NL-hardness, any NL-complete problem would be solvable in polynomial time using the reduction plus the NL algorithm, trivializing the notion. Log-space reductions are strictly weaker than NL (since L ⊆ NL and log-space machines are within L), making them the right tool."
+
+- question: "Why is REACHABILITY (directed graph path problem: does a path exist from s to t?) a natural NL-complete problem?"
+  type: multiple-choice
+  options:
+    - "Any NL computation can be encoded as a configuration graph where edges represent one-step transitions, so acceptance becomes reachability from start to accept configuration"
+    - "REACHABILITY requires O(log n) space to solve, which exactly matches the NL space bound"
+    - "Directed graphs are the only combinatorial structure expressible in log space, so all NL problems must reduce to graph problems"
+    - "REACHABILITY is complete because it requires nondeterminism — no deterministic log-space algorithm can solve it"
+  answer: 0
+  explanation: "The configuration graph of an NL machine has vertices representing (state, work-tape content, head positions) — each configuration fits in log space. Edges connect configurations reachable in one step. The NL machine accepts iff the accept configuration is reachable from the start, which is exactly REACHABILITY on the configuration graph. Every NL language reduces to REACHABILITY via this encoding, establishing its NL-hardness."
+
+- question: "NL = co-NL: nondeterministic log space is closed under complement, just as NP is known to be closed under complement."
+  type: true-false
+  answer: false
+  explanation: "NL = co-NL is true (Immerman-Szelepcsényi theorem, 1988), but NP is NOT known to be closed under complement — NP = co-NP remains an open question. The space-bounded analogue was resolved, while the time-bounded analogue has not been. This asymmetry is a striking result: certificate-counting techniques that work in log space do not appear to transfer to polynomial time."
+
+- question: "Using a polynomial-time reduction to show that a language L reduces to REACHABILITY would not be sufficient to prove L is NL-hard."
+  type: true-false
+  answer: true
+  explanation: "NL-hardness requires a log-space reduction, not merely a polynomial-time reduction. If only a polynomial-time reduction exists, the reduction itself might be solving the hard part of the problem, and we learn nothing meaningful about L's membership in NL. Log-space reductions ensure the reduction uses resources strictly within the NL bound, so the hardness conclusion is meaningful."
+
+- question: "The Immerman-Szelepcsényi theorem proves NL = co-NL using an inductive counting argument. Why can this counting be done in log space?"
+  type: short-answer
+  answer: "The key insight is that you do not need to store the full list of reachable vertices — only the count. At each inductive stage, you maintain a single counter (log space) tracking how many vertices are reachable from s in at most k steps, then verify whether each candidate vertex is reachable by simulating nondeterministic paths. The counter fits in O(log n) bits since there are at most n vertices, and the verification at each stage reuses the same workspace rather than accumulating a growing list."
+  explanation: "The proof certifies non-reachability by counting: first compute the number of vertices reachable from s (call it c_k for k steps), then show t is not among them by iterating over all vertices, nondeterministically guessing a path to each, and verifying the count matches. Maintaining one counter of size O(log n) and reusing workspace keeps the entire computation in log space, showing that non-reachability is in NL — and therefore NL = co-NL."
+```
+
 ## Explainer
 
 From your study of logarithmic-space classes, you know that NL (nondeterministic logarithmic space) captures computation that uses only O(log n) workspace but can branch nondeterministically — accepting if any branch accepts. The space bound is severe: you cannot even write down a full path through a graph in log space. What you *can* do is maintain a current vertex pointer and a step counter, then nondeterministically guess the next step. This is precisely why graph reachability — "is there a path from s to t?" — sits at the heart of NL.

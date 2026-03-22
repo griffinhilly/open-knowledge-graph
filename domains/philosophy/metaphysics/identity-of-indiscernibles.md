@@ -32,6 +32,45 @@ Read Leibniz's Discourse on Metaphysics section 9, then Black's 'The Identity of
 - The Identity of Indiscernibles is not the same as the Indiscernibility of Identicals (Leibniz's Law), which says identical things share all properties — this latter principle is uncontroversial.
 - Rejecting the Identity of Indiscernibles does not require positing mysterious 'bare particulars'; one can hold that distinctness is primitive without invoking a propertyless substratum.
 
+## Questions
+
+```yaml
+- question: "A philosopher argues: 'Hesperus and Phosphorus are the same object — the planet Venus. Therefore, whatever properties Hesperus has, Phosphorus has too.' Which Leibnizian principle is being used?"
+  type: multiple-choice
+  options:
+    - "The Identity of Indiscernibles — if they share all properties, they must be identical"
+    - "The Indiscernibility of Identicals — if they are numerically identical, they share all properties"
+    - "Haecceitism — each object has a primitive thisness that distinguishes it from all others"
+    - "The Principle of Sufficient Reason — every fact has an explanation"
+  answer: 1
+  explanation: "The Indiscernibility of Identicals runs from identity to shared properties: if x = y (they are the same thing), then x and y have all the same properties. This is uncontroversial — how could one thing fail to have its own properties? The Identity of Indiscernibles runs in the opposite direction: if x and y share all properties, then x = y. That is the contentious claim. The Hesperus/Phosphorus case is moving from sameness of object to sameness of properties — that is the Indiscernibility of Identicals, not the Identity of Indiscernibles."
+
+- question: "Max Black imagines a universe containing only two qualitatively identical iron spheres — same size, mass, composition, and even symmetric relational properties. The primary philosophical purpose of this thought experiment is to:"
+  type: multiple-choice
+  options:
+    - "Show that matter can be duplicated exactly without any observable difference between copies"
+    - "Challenge the Identity of Indiscernibles by presenting a possible scenario where two numerically distinct objects share all their properties"
+    - "Prove that spatial position is a relational property and therefore cannot ground individuation"
+    - "Establish that haecceities (primitive thisnesses) are necessary to individuate any object"
+  answer: 1
+  explanation: "Black's thought experiment is a counterexample to the Identity of Indiscernibles. If the two-sphere universe is genuinely possible, then two numerically distinct objects (the two spheres) share every property — intrinsic and, by the symmetry of the universe, even relational ones. That would falsify the principle. Option D gets cause and effect backwards: haecceitism is a *response* to Black's challenge, one way of defending the Identity of Indiscernibles against it. The thought experiment motivates haecceitism; it does not establish it."
+
+- question: "The Identity of Indiscernibles and the Indiscernibility of Identicals are two names for the same principle — both say that identical objects share all their properties."
+  type: true-false
+  answer: false
+  explanation: "These are two distinct principles that run in opposite directions. The Indiscernibility of Identicals says: if x and y are identical (the same object), then they share all properties. This is uncontroversial. The Identity of Indiscernibles says: if x and y share all properties, then they are identical (numerically one thing). This is the contentious claim that Black's two-sphere argument attacks. Confusing them is the most common error in this topic — the principles have the same logical form but different premises and conclusions."
+
+- question: "One can reject the Identity of Indiscernibles — accepting that two numerically distinct objects could share all their qualitative properties — without thereby committing to the existence of 'bare particulars' (propertyless substrata)."
+  type: true-false
+  answer: true
+  explanation: "Rejecting the Identity of Indiscernibles means holding that numerical distinctness is not fully grounded in qualitative differences. One way to do this is to posit bare particulars — substrata that are distinct but have no properties of their own. But another way is to treat numerical distinctness as simply a primitive, brute fact about the world's structure: the two spheres are two, full stop, and this distinctness is not reducible to any further property. This position is coherent and does not require bare particulars."
+
+- question: "What is the key difference between the 'weak' and 'strong' forms of the Identity of Indiscernibles, and why does that distinction matter for evaluating Black's two-sphere thought experiment?"
+  type: short-answer
+  answer: "The weak form includes relational and positional properties — under it, two objects can always be distinguished by their different spatial positions. The strong form restricts to intrinsic, non-relational properties only. Black's argument targets the strong form: in his symmetric two-sphere universe, every relational property of each sphere is matched by the other (each is two meters from a sphere of the same kind), so spatial position cannot distinguish them. The weak form can survive Black's challenge; the strong form cannot, unless one accepts haecceities or denies the scenario's possibility."
+  explanation: "The distinction matters because the Identity of Indiscernibles has very different standing depending on which version you're considering. The weak form is arguably trivially true — two objects that occupy different spatial positions can always be distinguished by their position. The philosophically interesting and contested claim is the strong form, which says that qualitative intrinsic properties alone must individuate objects. Black constructs a case where no intrinsic property differs between the two spheres, which is why the strong form is vulnerable and the weak form is not."
+```
+
 ## Explainer
 
 You already understand the distinction between **universals** (properties and relations that can be shared by many particulars) and **particulars** (individual things). You also understand the substance/property structure: a substance is an individual that instantiates properties, but is not itself a property. This background sets up the Identity of Indiscernibles perfectly — it is a thesis about what makes *individuals* numerically distinct from one another.

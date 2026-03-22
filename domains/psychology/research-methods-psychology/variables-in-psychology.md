@@ -18,7 +18,7 @@ tags:
 - confound
 - variables
 - experimental-control
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

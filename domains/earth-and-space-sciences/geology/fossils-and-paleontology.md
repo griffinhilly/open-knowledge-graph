@@ -35,6 +35,45 @@ Comparing the stratigraphic range charts of index fossils with the geological ti
 - Finding a fossil does not mean the organism lived at that exact location; transported fossils occur when carcasses or shells are moved by currents before burial.
 - Absence of fossils in a rock does not mean the rock is older than life; it may simply reflect unfavorable preservation conditions.
 
+## Questions
+
+```yaml
+- question: "A geologist finds no body fossils in a thick sequence of fine-grained mudstone and concludes the rock must predate the origin of life on Earth. A paleontologist challenges this. The paleontologist is most likely correct because:"
+  type: multiple-choice
+  options:
+    - "All sedimentary rocks formed after the origin of life must contain at least microfossils"
+    - "Mudstone preserves fossils extremely well and absence indicates the rock is very young"
+    - "Absence of fossils more likely reflects unfavorable preservation conditions than the absence of life"
+    - "The Axiom of Completeness guarantees fossil representation in all Phanerozoic sediments"
+  answer: 2
+  explanation: "Fossilization requires exceptional conditions — rapid burial, anoxic waters, permineralization — and is the exception, not the rule. The fossil record is systematically biased toward hard-shelled marine organisms in specific depositional environments. A rock lacking fossils might simply reflect oxygenated bottom waters (which enhance decay), slow burial, or the wrong organism types, not the absence of life. Absence of fossils is not evidence of absence of organisms."
+
+- question: "What combination of properties makes a fossil species most useful as an index fossil for biostratigraphic correlation?"
+  type: multiple-choice
+  options:
+    - "Long stratigraphic range (persisted for hundreds of millions of years) and geographically restricted distribution"
+    - "Short stratigraphic range (existed briefly) and wide geographic distribution"
+    - "Preserved soft tissues that allow precise metabolic reconstruction"
+    - "Rare occurrence to ensure each find represents a unique and dateable event"
+  answer: 1
+  explanation: "An index fossil pins down a narrow time window (short stratigraphic range) and allows correlation across different locations (wide geographic distribution). If a species persisted for 300 million years, finding it tells you almost nothing about the rock's age. If it was geographically restricted, you can only use it locally. The ideal index fossil — like ammonites in the Mesozoic or foraminifera in the Cenozoic — was abundant, distinctive, widespread, and short-lived."
+
+- question: "The exceptional preservation of soft-bodied organisms at sites like the Burgess Shale is scientifically significant precisely because ordinary fossilization conditions strongly favor hard-shelled organisms."
+  type: true-false
+  answer: true
+  explanation: "Hard parts (shells, bones, teeth) fossilize far more readily than soft tissues. Soft-bodied organisms decay rapidly and are rarely preserved. The Burgess Shale's anoxic, rapid-burial conditions prevented the normal decomposition, capturing soft-body anatomy of entire phyla that are otherwise virtually unknown. This is what makes Lagerstätten (exceptional preservation sites) scientifically extraordinary — they reveal the vast soft-bodied diversity that the ordinary fossil record hides."
+
+- question: "Trace fossils are less informative than body fossils because they do not preserve the physical form of an organism."
+  type: true-false
+  answer: false
+  explanation: "Trace fossils record behavior — gait, speed, feeding strategy, burrowing depth, social behavior — that body fossils cannot reveal. A dinosaur trackway can show how fast the animal walked and whether it traveled in groups. Complex burrow networks indicate oxygenated bottom waters; simple horizontal traces suggest low-oxygen conditions. Trace fossils are also frequently preserved in rocks that yield no body fossils at all, making them the only biological record available. Both types are complementary and neither is categorically 'more informative.'"
+
+- question: "Why does the fossil record systematically over-represent marine, hard-shelled organisms, and what does this mean for interpreting apparent diversity patterns in the history of life?"
+  type: short-answer
+  answer: "Fossilization requires rapid burial (to prevent decay and scavenging) and the presence of durable hard parts (shells, bones, teeth) that can survive permineralization. Marine environments with fine sediment accumulation (ocean floors, shallow carbonate shelves) provide ideal burial conditions, and marine invertebrates evolved hard shells early. Soft-bodied terrestrial organisms decay entirely and are rarely buried quickly enough. This bias means that apparent diversity in the fossil record reflects preservation probability as much as actual biological diversity — the Cambrian 'explosion' looks so dramatic partly because it coincides with the evolution of hard shells, not just an actual increase in animal diversity. Interpreting diversity trends requires correcting for preservation bias."
+  explanation: "Taphonomy — the study of how organisms become fossils — is essential for interpreting the fossil record. Without understanding the filter that preservation imposes, apparent patterns (sudden appearances, mass extinctions, diversity trends) can be artifacts of changing preservation conditions rather than true biological events."
+```
+
 ## Explainer
 
 From your study of sedimentary rocks, you know that particles settle, compact, and lithify into layered sequences over geological time. From stratigraphy, you know that these layers record a chronological sequence — older at the bottom, younger at the top, barring structural disruption. Fossils are where biology enters this geological record: organisms that die in or near sedimentary environments can, under the right conditions, be preserved within those layers, creating a physical record of life through time.

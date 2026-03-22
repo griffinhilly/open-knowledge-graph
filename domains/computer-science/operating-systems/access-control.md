@@ -30,6 +30,45 @@ Model a Unix file system with three users and five files as a protection matrix.
 - Unix permission bits are not a full ACL; POSIX ACLs (getfacl/setfacl) extend them to arbitrary users and groups.
 - Capabilities are not the same as capabilities in the Linux security model (which uses a different subdivision of root privileges).
 
+## Questions
+
+```yaml
+- question: "A security administrator needs to quickly determine which users have permission to access a sensitive payroll file. Which access control implementation makes this query most efficient?"
+  type: multiple-choice
+  options:
+    - "Capability lists — each subject's tokens can be inspected directly"
+    - "Access Control Lists — the file's own metadata lists all permitted subjects"
+    - "Role-Based Access Control — roles make per-object queries equally fast"
+    - "The protection matrix — it stores every (subject, object) pair explicitly"
+  answer: 1
+  explanation: "ACLs store the protection matrix by column: each object carries a list of which subjects may access it. 'Who can access this file?' is answered by reading the file's ACL directly. Capability lists store the matrix by row, so answering the same question requires scanning every subject's capability list — expensive and impractical. The protection matrix itself is too large to store wholesale, which is why neither model stores it directly."
+
+- question: "A process wants to grant its write-access to a specific file to a child process without involving a system administrator. Which access control model supports this most naturally?"
+  type: multiple-choice
+  options:
+    - "ACLs — because modifying a file's access list is straightforward"
+    - "Unix permission bits — because group membership handles delegation"
+    - "RBAC — because roles can be temporarily reassigned"
+    - "Capability lists — because a capability token can be passed directly between processes"
+  answer: 3
+  explanation: "Capabilities are unforgeable tokens that can be passed between processes — possessing a capability proves the right to perform an operation, and delegation is built into the model. In an ACL system, granting a child process access requires an administrator to add it to the file's ACL, which cannot be done autonomously by the parent. RBAC requires administrative role reassignment, not process-to-process handoff. Capability lists are specifically designed for this kind of lightweight, decentralized delegation."
+
+- question: "Capability lists make it easy to answer the question 'which subjects have access to this specific file?'"
+  type: true-false
+  answer: false
+  explanation: "Capability lists organize the protection matrix by row (per subject): each process holds tokens for objects it may access. To find all subjects with access to a specific file, you must scan every process's capability list — an expensive, scattered operation. This is the fundamental tradeoff: capabilities answer 'what can this process access?' cheaply, but 'who can access this object?' expensively. ACLs have the exact reverse property, which is why most OS filesystems prefer ACLs."
+
+- question: "Role-Based Access Control (RBAC) replaces the protection matrix model with a fundamentally different conceptual framework for access control."
+  type: true-false
+  answer: false
+  explanation: "RBAC is an administrative layer built on top of the protection matrix, not a replacement for it. Permissions are still defined as allowed operations on objects; RBAC just groups them into roles and assigns users to roles rather than granting permissions individually. This simplifies administration — changing a user's team means changing their role, not editing hundreds of ACL entries — but the underlying (subject, object, operation) model is unchanged. RBAC is a strategy for managing the matrix more efficiently."
+
+- question: "Why do most operating systems prefer ACLs over capability lists for filesystem access control, and what tradeoff does this choice involve?"
+  type: short-answer
+  answer: "ACLs match the dominant administrative question: 'who can access this file?' Inspecting a file's ACL answers this directly. The tradeoff is that 'what can user X access?' becomes expensive — you must scan every file's ACL. Capability lists reverse these costs: cheap per-process auditing, expensive per-object auditing. Since file-centric security questions (auditing, restricting, reviewing sensitive files) dominate operational practice, ACLs win in filesystem contexts."
+  explanation: "Security administration is object-centric: 'Is the payroll file protected? Who has write access to /etc/passwd?' ACLs answer these by inspection. Process-centric auditing ('what can this daemon touch?') is important in microkernel and capability-based systems. Neither model is inherently superior — the right choice depends on the dominant security question in the deployment context."
+```
+
 ## Explainer
 
 From your study of OS security basics, you know that the operating system must mediate access between subjects (users, processes) and objects (files, devices, memory regions). The conceptual foundation is the **protection matrix** — a giant table with one row per subject and one column per object, where each cell lists the allowed operations (read, write, execute, etc.). In a real system with thousands of users and millions of files, this matrix is enormous and mostly empty, so it is never stored directly. Instead, systems store it in one of two compressed forms, each with distinct trade-offs.
