@@ -37,6 +37,7 @@ STAGE_ORDER = {
     "abstract-reasoning": 2,
     "formal-systems": 3,
     "advanced": 4,
+    "expert": 5,
 }
 
 # Domain affinity: domains that share conceptual overlap get bonus points

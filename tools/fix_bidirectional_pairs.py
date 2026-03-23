@@ -33,6 +33,7 @@ STAGE_ORDER = {
     "abstract-reasoning": 2,
     "formal-systems": 3,
     "advanced": 4,
+    "expert": 5,
 }
 
 FOUNDATIONAL_KEYWORDS = {"intro", "introduction", "overview", "foundations", "basics", "fundamentals", "core"}

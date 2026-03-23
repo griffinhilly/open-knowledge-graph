@@ -19,6 +19,7 @@ STAGE_ORDER = {
     'abstract-reasoning': 2,
     'formal-systems': 3,
     'advanced': 4,
+    'expert': 5,
 }
 STAGE_NAME = {v: k for k, v in STAGE_ORDER.items()}
 

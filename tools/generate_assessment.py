@@ -26,7 +26,7 @@ DOMAINS_DIR = ROOT / "domains"
 OUTPUT_DIR = ROOT / "output"
 
 STAGES = ["pre-formal", "concrete-operations", "abstract-reasoning",
-          "formal-systems", "advanced"]
+          "formal-systems", "advanced", "expert"]
 
 # Domains preferred for calibration probes (universally encountered)
 PREFERRED_CALIBRATION_DOMAINS = ["mathematics", "language-and-communication",

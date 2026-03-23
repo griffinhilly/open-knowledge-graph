@@ -27,14 +27,15 @@ DOMAINS_DIR = ROOT / "domains"
 OUTPUT_DIR = ROOT / "output"
 
 STAGES = ["pre-formal", "concrete-operations", "abstract-reasoning",
-          "formal-systems", "advanced"]
+          "formal-systems", "advanced", "expert"]
 
 STAGE_DIFFICULTY = {
-    "pre-formal": 0.2,
-    "concrete-operations": 0.4,
-    "abstract-reasoning": 0.6,
-    "formal-systems": 0.8,
-    "advanced": 0.9,
+    "pre-formal": 0.15,
+    "concrete-operations": 0.3,
+    "abstract-reasoning": 0.5,
+    "formal-systems": 0.7,
+    "advanced": 0.85,
+    "expert": 0.95,
 }
 
 # Quiz pool sizing

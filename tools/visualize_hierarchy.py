@@ -101,6 +101,7 @@ STAGE_ORDER = [
     "abstract-reasoning",
     "formal-systems",
     "advanced",
+    "expert",
 ]
 DEFAULT_STAGE = "abstract-reasoning"
 # Minimum band height as fraction of canvas (prevents tiny stages from being illegible)
@@ -1388,6 +1389,7 @@ def generate_scatter_html(all_data, configs, depths, positions, sectors,
         "abstract-reasoning": "Middle & High School",
         "formal-systems": "College",
         "advanced": "Graduate",
+        "expert": "Expert",
     }
     stage_band_data = []
     for i, stage in enumerate(STAGE_ORDER):
@@ -1894,6 +1896,7 @@ canvas.addEventListener("mousemove", (e) => {{
       "abstract-reasoning": "Middle/High School",
       "formal-systems": "College",
       "advanced": "Graduate",
+      "expert": "Expert",
     }};
     const domainLabel = closest.domain ? closest.domain.replace(/-/g, " ") : "";
     const courseLabel = closest.course ? closest.course.replace(/-/g, " ") : "";

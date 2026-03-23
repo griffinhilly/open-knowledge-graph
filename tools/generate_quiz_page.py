@@ -303,14 +303,15 @@ const TIER_PROMOTE = 0.6;         // 60%+ correct at a tier → escalate
 
 const STAGES_ORDERED = [
   'pre-formal', 'concrete-operations', 'abstract-reasoning',
-  'formal-systems', 'advanced'
+  'formal-systems', 'advanced', 'expert'
 ];
 const STAGE_LABELS = {
   'pre-formal':          'Pre-Formal',
   'concrete-operations': 'Concrete Operations',
   'abstract-reasoning':  'Abstract Reasoning',
   'formal-systems':      'Formal Systems',
-  'advanced':            'Advanced'
+  'advanced':            'Advanced',
+  'expert':              'Expert'
 };
 
 const DOMAIN_ORDER = [
@@ -550,7 +551,8 @@ const TIER_LABELS_SHORT = {
   'concrete-operations': 'Elementary',
   'abstract-reasoning': 'Intermediate',
   'formal-systems': 'Advanced',
-  'advanced': 'Expert'
+  'advanced': 'Graduate',
+  'expert': 'Expert'
 };
 
 function startWarmup() {

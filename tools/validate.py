@@ -29,7 +29,7 @@ DOMAINS_DIR = ROOT / "domains"
 
 REQUIRED_FIELDS = {"id", "title", "domain", "course", "prerequisites"}
 VALID_STATUSES = {"stub", "draft", "review", "validated"}
-VALID_STAGES = {"pre-formal", "concrete-operations", "abstract-reasoning", "formal-systems", "advanced"}
+VALID_STAGES = {"pre-formal", "concrete-operations", "abstract-reasoning", "formal-systems", "advanced", "expert"}
 VALID_PREREQ_TYPES = {"hard", "soft"}
 VALID_QUESTION_TYPES = {"multiple-choice", "true-false", "short-answer"}
 
